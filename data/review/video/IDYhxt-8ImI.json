@@ -1,0 +1,30 @@
+{
+  "video_id": "IDYhxt-8ImI",
+  "item_id": "video/yt-areopa/IDYhxt-8ImI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quotes at t=1050.8, 1616.7 and the first 3131.7 end in an ellipsis that is not in the transcript; 1616.7 also says little. Dropping t=3131.7 removes both duplicates, so one verbatim pricing quote is added back.",
+    "Key point on test cases misquoted the speaker: he said the first pass gets you 40 to 50 percent of the way through in minutes rather than hours, not a 40-50% time saving. The 'AI-generated test case suggestions' feature description has the same error.",
+    "Key point on code put three people's views under 'the speaker': Nile only passed on developers' reports of improvement since early 2026; the vanilla/componentized remark was the moderator's; the poor experience with complex customizations was an attendee's comment read out by the moderator.",
+    "'Future agentic scenarios' was marked announced, but it is the speaker guessing about the future, not an announcement; set to unclear.",
+    "The other quotes are verbatim (some cross segment boundaries, which is acceptable). The summary is supported."
+  ],
+  "input_hash": "96b1e07a0382751f02bff2061e63a0a4c7225403ec97878255c2e5b45c8765a6",
+  "by": "opus",
+  "at": "2026-10-07T23:20:02.610Z",
+  "applied": [
+    "Future agentic scenarios: status unclear",
+    "dropped 4 quote(s)",
+    "quote at 1070s",
+    "quote at 3132s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.328897
+  }
+}

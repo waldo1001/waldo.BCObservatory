@@ -1,16 +1,16 @@
 {
   "video_id": "oF_wSP0xrSQ",
   "item_id": "video/yt-bcmusings/oF_wSP0xrSQ",
-  "summary": "Business Central Musings demo of a daily Azure Logic App that reads Business Central telemetry from Application Insights with KQL, has an AI analyze RT00002 database lock timeout events, and creates GitHub issues with root cause and resolution. Covers the blob storage watermark and Bicep/YAML deployment.",
+  "summary": "Demo of a daily Azure Logic App that queries Business Central telemetry in Application Insights with KQL for RT00002 database lock timeout events. It passes the events and the repository's AL files to an AI prompt and creates GitHub issues with root cause, resolution checklist and prevention tips. It also covers the blob storage watermark, GitHub labels created through the REST API, and deploying with Bicep/YAML templates.",
   "overview": "The video presents an automated telemetry triage tool. When the platform or custom code raises an event in Business Central, the event lands in Application Insights. A Logic App runs once a day, queries for specific events, passes them to an AI tool that also has access to the GitHub repository, and creates a GitHub issue with the event details, a root cause analysis and a proposed resolution.\n\nThe demo covers a Visual Studio Code example (table, codeunit and page), the telemetry logs in Application Insights, the Logic App workflow and KQL query, and the AI analysis. It also shows a blob storage watermark file for incremental runs, GitHub labels and REST API calls, and exporting the Azure services as infrastructure as code with Bicep or YAML. The demo only looks at RT00002 events, and the presenter says it can be expanded to other events.",
   "key_points": [
-    "The Logic App runs once a day, queries Application Insights for chosen events, and sends them to an AI tool.",
-    "The demo's KQL query retrieves traces where the event ID is RT00002, which are database locking timeouts.",
-    "The AI tool also has access to the GitHub repository, which lets it propose a resolution along with the root cause.",
-    "A text file in Azure Blob Storage holds the last successful run time, so each KQL query only covers new data. It must be initialized manually if the file does not exist.",
-    "Issues and labels are created through the GitHub REST API, which needs authentication. Labels must exist beforehand or be created via the API.",
-    "Result quality depends on prompt engineering of the AI step.",
-    "Logic App, Application Insights and Blob Storage can be exported and deployed with Bicep or YAML templates using Azure CLI."
+    "The Logic App is triggered once a day, queries Application Insights for chosen events, and passes the captured events with their details to an AI tool.",
+    "The demo's KQL query retrieves traces where the custom dimensions event ID is RT00002 (database lock timeouts) and summarizes how many times it happened since the last run.",
+    "For each event, the logic app fetches all AL files from the GitHub repository and passes their content to the AI together with the event properties.",
+    "The AI returns a root cause, a resolution checklist, suspected lines with code analysis, and a prevention tip. These go into a GitHub issue created through the GitHub issues endpoint.",
+    "A watermark text file in Azure Blob Storage stores the last successful run time, so the KQL query only covers new data. The logic app creates the file if it does not exist and overwrites it at the end of each run.",
+    "GitHub labels (telemetry, performance, database lock) can be created manually or via a POST to the GitHub labels API endpoint with name and color.",
+    "Azure resources such as the Logic App, Application Insights or a storage account can be exported as Bicep or YAML and redeployed. A Bicep file is run with 'az deployment group create'."
   ],
   "audience": [
     "developer",

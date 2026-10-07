@@ -20,12 +20,12 @@ tags:
   - read-only operations
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:38.493Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:38.565Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -46,13 +46,6 @@ evidence:
     commit: null
     t: 1209
     quote: This is very important. Experimental. If you want to use the MCP server with cloud up to you, but it's experimental. It's not supported
-  - kind: video
-    url: https://www.youtube.com/watch?v=rm-FstU_I80&t=2881s
-    title: "MCP proxy for cloud solutions: preview"
-    date: "2026-09-07T12:36:05.000Z"
-    commit: null
-    t: 2881
-    quote: Here you have them um MCP proxy. Um this is the experimental solution, right? This Remember, this is the experimental. It's not supported by
   - kind: video
     url: https://www.youtube.com/watch?v=rm-FstU_I80&t=425s
     title: 20260831 - Business Central MCP Server, standard and custom
@@ -217,11 +210,6 @@ features:
     t: 1958
     verified: false
     status_source: video
-  - name: MCP Server Configuration Selection in Copilot
-    status: unclear
-    t: 2040
-    verified: false
-    status_source: video
   - name: MCP Tool Search, Describe, and Invoke Actions
     status: unclear
     t: 2148
@@ -277,29 +265,9 @@ features:
     t: 2800
     verified: false
     status_source: video
-  - name: MCP proxy for cloud solutions
-    status: preview
-    t: 2881
-    verified: true
-    status_source: video
-  - name: MCP for administrators
-    status: unclear
-    t: 3065
-    verified: false
-    status_source: video
-  - name: Business Central admin MCP
-    status: unclear
-    t: 3126
-    verified: false
-    status_source: video
   - name: Copilot Studio tool selections
     status: unclear
     t: 3195
-    verified: false
-    status_source: video
-  - name: MCP server in VS Code
-    status: unclear
-    t: 3291
     verified: false
     status_source: video
   - name: Power BI integration with MCP agents
@@ -339,7 +307,7 @@ quotes:
 
 > Business Central MCP server (standard, public preview from 27.1) used with Copilot Studio: dynamic vs static tool configuration, read-only default, connection string reuse, VS Code, an experimental unsupported proxy, and the admin MCP. Demos show read queries; write operations need static configuration.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rm-FstU_I80) · Areopa webinars · 2026-09-07 · 58:11 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=rm-FstU_I80) · Areopa webinars · 2026-09-07 · 58:11 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -396,7 +364,6 @@ The presenter demos adding the Business Central MCP server in Copilot Studio by 
 | MCP Default Read-Only Access | status not stated | [29:46](https://www.youtube.com/watch?v=rm-FstU_I80&t=1786s) |  |
 | MCP Server Connection in Copilot Studio | status not stated, demoed | [30:42](https://www.youtube.com/watch?v=rm-FstU_I80&t=1842s) |  |
 | Model Context Protocol (MCP) Discovery in Copilot Studio | status not stated, demoed | [32:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=1958s) |  |
-| MCP Server Configuration Selection in Copilot | status not stated, demoed | [34:00](https://www.youtube.com/watch?v=rm-FstU_I80&t=2040s) |  |
 | MCP Tool Search, Describe, and Invoke Actions | status not stated, demoed | [35:48](https://www.youtube.com/watch?v=rm-FstU_I80&t=2148s) |  |
 | Copilot Agent Query Execution Against Business Central | status not stated, demoed | [36:41](https://www.youtube.com/watch?v=rm-FstU_I80&t=2201s) |  |
 | AI-Generated Visualizations in Copilot Studio | status not stated, demoed | [38:21](https://www.youtube.com/watch?v=rm-FstU_I80&t=2301s) |  |
@@ -408,11 +375,7 @@ The presenter demos adding the Business Central MCP server in Copilot Studio by 
 | Query exposure in MCP | status not stated | [45:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=2702s) |  |
 | Page and API selection for exposure | status not stated | [45:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=2738s) |  |
 | Configuration export and import | status not stated, demoed | [46:40](https://www.youtube.com/watch?v=rm-FstU_I80&t=2800s) |  |
-| MCP proxy for cloud solutions | preview, demoed | [48:01](https://www.youtube.com/watch?v=rm-FstU_I80&t=2881s) | "Here you have them um MCP proxy. Um this is the experimental solution, right? This Remember, this is the experimental. It's not supported by" ([48:01](https://www.youtube.com/watch?v=rm-FstU_I80&t=2881s)) |
-| MCP for administrators | status not stated, demoed | [51:05](https://www.youtube.com/watch?v=rm-FstU_I80&t=3065s) |  |
-| Business Central admin MCP | status not stated, demoed | [52:06](https://www.youtube.com/watch?v=rm-FstU_I80&t=3126s) |  |
 | Copilot Studio tool selections | status not stated | [53:15](https://www.youtube.com/watch?v=rm-FstU_I80&t=3195s) |  |
-| MCP server in VS Code | status not stated | [54:51](https://www.youtube.com/watch?v=rm-FstU_I80&t=3291s) |  |
 | Power BI integration with MCP agents | status not stated | [55:38](https://www.youtube.com/watch?v=rm-FstU_I80&t=3338s) |  |
 | Custom APIs for custom fields | status not stated | [56:02](https://www.youtube.com/watch?v=rm-FstU_I80&t=3362s) |  |
 

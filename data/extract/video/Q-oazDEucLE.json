@@ -415,32 +415,6 @@
       "system": "development"
     },
     {
-      "name": "Agent-driven mutation testing automation",
-      "description": "AI agents automate the mutation testing loop by applying changes, running tests, and reverting via source control, enabling execution of hundreds of mutations without manual intervention. Agents create mutation testing plans by suggesting code changes like modifying if statements or assignments.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1878.3,
-      "t_end": 1984.5,
-      "is_demoed": true,
-      "caveats": [
-        "time-intensive process taking hours",
-        "requires clean git repository state",
-        "better suited for offline execution",
-        "mutation testing is time-consuming across languages",
-        "requires compile, publish, test, revert cycle"
-      ],
-      "tags": [
-        "ai agents",
-        "automation",
-        "mutation testing",
-        "test execution",
-        "critical-paths"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "Test-driven development loop in refactoring",
       "description": "After approval tests establish baseline behavior, apply TDD loop by writing new test first without implementation, then adding minimal logic to pass, then refactoring to clean code.",
       "status": "unclear",
@@ -892,6 +866,12 @@
       "check": "exact"
     },
     {
+      "t": 1369.5,
+      "text": "I have in my test app my test telemetry logger that implements the telemetry logger interface.",
+      "why_it_matters": "Core mechanism of the debug logging pattern: intercepting feature telemetry from a test app.",
+      "check": "exact"
+    },
+    {
       "t": 1480.2,
       "text": "this is one of the few procedures in AL that works asynchronously. So this is does not block your code",
       "why_it_matters": "Clarifies a non-obvious property of telemetry logging - it operates asynchronously without blocking execution, enabling scalable logging.",
@@ -916,15 +896,15 @@
       "check": "exact"
     },
     {
-      "t": 1799.8,
-      "text": "because this is about doing mutation tests.",
-      "why_it_matters": "Introduces mutation testing as a distinct technique for verifying scenario coverage beyond what debug logs reveal.",
-      "check": "exact"
-    },
-    {
       "t": 1984.5,
       "text": "I know this takes a lot of time, but yeah, it's an agent that does the loop and it can run for for an",
       "why_it_matters": "Shows how agents make time-intensive mutation testing practical by running unattended for extended periods.",
+      "check": "exact"
+    },
+    {
+      "t": 2112.3,
+      "text": "And they should have the exact same interface, exact same signature, the same parameters because then I can use the same test",
+      "why_it_matters": "Explains why wrapper procedures let the same approval tests validate old and new implementations.",
       "check": "exact"
     },
     {
@@ -947,14 +927,8 @@
     },
     {
       "t": 2459.5,
-      "text": "So, so for me was the rule that I need to uh leave this code base better than I better than it was when",
-      "why_it_matters": "States the guiding principle for incremental refactoring in large legacy systems where full transformation is infeasible.",
-      "check": "exact"
-    },
-    {
-      "t": 2459.5,
-      "text": "for me was the rule that I need to uh leave this code base better than I better than it was when I started",
-      "why_it_matters": "States the core principle for safe refactoring - incremental improvement rather than complete rewrites.",
+      "text": "the rule that I need to uh leave this code base better than I better than it was when I started this task",
+      "why_it_matters": "The speaker's incremental rule for refactoring legacy code one task at a time.",
       "check": "exact"
     },
     {
@@ -965,8 +939,8 @@
     },
     {
       "t": 2698.6,
-      "text": "I have a I both have a a CI/CD check that actually checks if I have removed any have any ...",
-      "why_it_matters": "Shows how automation prevents accidentally shipping debug logging markers to production.",
+      "text": "CI/CD check that actually checks if I have removed any have any feature telemetry log message that that starts with ...",
+      "why_it_matters": "Safety net that keeps debug logging markers from being shipped.",
       "check": "exact"
     },
     {

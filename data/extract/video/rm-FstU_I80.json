@@ -417,28 +417,6 @@
       "system": "copilot"
     },
     {
-      "name": "MCP Server Configuration Selection in Copilot",
-      "description": "When adding an MCP server connection in Copilot Studio, users can select from available MCP server configurations defined in Business Central, with three configurable inputs: environment, MCP server configuration, and company.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2040.6,
-      "t_end": 2148.6,
-      "is_demoed": true,
-      "caveats": [
-        "Only active configurations are available for selection",
-        "Requires company selection"
-      ],
-      "tags": [
-        "mcp",
-        "configuration",
-        "copilot-studio",
-        "environment"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "MCP Tool Search, Describe, and Invoke Actions",
       "description": "The MCP server exposes three core actions through Copilot Studio: search to find data, describe to get metadata about objects, and invoke to perform operations. These tools refresh based on the selected MCP configuration.",
       "status": "unclear",
@@ -657,65 +635,6 @@
       "system": "integration"
     },
     {
-      "name": "MCP proxy for cloud solutions",
-      "description": "An experimental solution enabling MCP to work with cloud platforms like cloud.ai and other solutions beyond Copilot Studio through a proxy mechanism.",
-      "status": "preview",
-      "status_evidence_t": 2881.2,
-      "status_evidence_quote": "Here you have them um MCP proxy. Um this is the experimental solution, right? This Remember, this is the experimental. It's not supported by",
-      "status_evidence_verified": true,
-      "t_start": 2881.2,
-      "t_end": 2948,
-      "is_demoed": true,
-      "caveats": [
-        "Experimental",
-        "Not supported by Microsoft",
-        "Requires manual proxy setup"
-      ],
-      "tags": [
-        "cloud",
-        "integration",
-        "experimental"
-      ],
-      "system": "integration"
-    },
-    {
-      "name": "MCP for administrators",
-      "description": "A specialized MCP allowing administrators to query tenant and environment information, such as listing environments and checking sandbox versions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3065.3,
-      "t_end": 3183.9,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "admin",
-        "tenant",
-        "environments"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Business Central admin MCP",
-      "description": "An MCP server that allows querying Business Central environments through natural language. The admin MCP can retrieve information about the three environments in the system and is accessible via the admin center.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3126.3,
-      "t_end": 3183.9,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "mcp",
-        "admin",
-        "environments",
-        "api"
-      ],
-      "system": "administration"
-    },
-    {
       "name": "Copilot Studio tool selections",
       "description": "New tool selections from Copilot Studio that are being created by Microsoft for use with the MCP. These are not yet public and not available in all environments, but can be used.",
       "status": "unclear",
@@ -733,25 +652,6 @@
         "copilot studio",
         "tools",
         "mcp"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "MCP server in VS Code",
-      "description": "The MCP server can be used within VS Code to introduce data to or receive data from Business Central. This enables a development workflow for agents.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3291.7,
-      "t_end": 3320.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "mcp",
-        "vs code",
-        "development",
-        "agents"
       ],
       "system": "copilot"
     },

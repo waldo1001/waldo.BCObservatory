@@ -65,10 +65,10 @@
     {
       "name": "Expense Agent",
       "description": "An AI agent for handling expense processing that will be available this year. Users can snap receipts with their phone and the system processes them automatically.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 184.8,
+      "status_evidence_quote": "And even at the conference it was announced that the expense agent will be available this year as well.",
+      "status_evidence_verified": true,
       "t_start": 184.8,
       "t_end": 651.1,
       "is_demoed": false,
@@ -77,26 +77,6 @@
         "copilot",
         "expense automation",
         "mobile capture"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Microsoft 365 Copilot Integration",
-      "description": "Integration of Business Central with 365 Copilot to access AI capabilities, including integration with Microsoft Graph for mail, calendar, Teams and other M365 tools.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 387.5,
-      "t_end": 412.4,
-      "is_demoed": false,
-      "caveats": [
-        "Consumer versions of tools like ChatGPT do not provide enterprise capabilities"
-      ],
-      "tags": [
-        "copilot",
-        "microsoft graph",
-        "enterprise ai"
       ],
       "system": "copilot"
     },
@@ -137,24 +117,6 @@
         "copilot"
       ],
       "system": "purchasing"
-    },
-    {
-      "name": "AI-Driven Business Growth Capabilities",
-      "description": "Beyond cost reduction, AI enables companies to do things they never imagined, such as creating visualizations and building new business scenarios that would otherwise be too costly.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 299.1,
-      "t_end": 336.5,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai innovation",
-        "business growth",
-        "creative applications"
-      ],
-      "system": "copilot"
     },
     {
       "name": "UI Evolution with AI-Enabled Workflows",
@@ -249,6 +211,12 @@
       "text": "we are very committed to the bc ui so we are not going to",
       "why_it_matters": "Clarifies that AI enhancements will complement rather than replace the Business Central UI, maintaining investment in the traditional interface.",
       "check": "fuzzy"
+    },
+    {
+      "t": 698.5,
+      "text": "I do expect, you know, more and more of the interactions will be from, you know, the other you know, the tools people use",
+      "why_it_matters": "States the expected shift toward interacting with Business Central from Teams, Outlook and M365.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

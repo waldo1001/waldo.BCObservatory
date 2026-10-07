@@ -650,6 +650,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 735.9,
+      "text": "if that's no longer possible, for example, because that would require a destructive change or the resource is is no longer there",
+      "why_it_matters": "States the limit of automatic drift remediation, which is when monitoring and notification come in.",
+      "check": "exact"
+    },
+    {
       "t": 787.9,
       "text": "you would, in a GitOps scenario, have the definition of your resource, for example, it could be a VM including their network security setup",
       "why_it_matters": "Defines the core concept of GitOps - storing infrastructure definitions in version control",

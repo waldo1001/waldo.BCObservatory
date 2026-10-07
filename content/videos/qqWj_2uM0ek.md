@@ -20,12 +20,12 @@ tags:
   - argo cd
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:56.786Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:56.848Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -267,7 +267,7 @@ quotes:
 
 > GitOps for cloud infrastructure and Kubernetes, explained and demoed with Argo CD and Crossplane on Azure Kubernetes Service. It covers click-ops, infrastructure as code limits, pull-based drift reconciliation, and how the Cosmo Alpaca Business Central toolset uses GitOps across clusters.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qqWj_2uM0ek) · Areopa webinars · 2026-04-21 · 39:16 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qqWj_2uM0ek) · Areopa webinars · 2026-04-21 · 39:16 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -279,7 +279,7 @@ The demo uses Argo CD with Crossplane to create, change, revert and delete Azure
 
 - GitOps is declarative (describe the desired state) and pull-based, unlike push-based infrastructure as code.
 - Argo CD connects a Git repository to a cluster; with auto-sync, changes merged in Git are applied without manual steps.
-- Drift between Git and actual infrastructure is detected and remediated automatically, but destructive changes cannot be resolved this way and monitoring must be set up.
+- Drift between Git and actual infrastructure is detected and remediated automatically; when that is not possible (for example, a destructive change would be required), you can monitor it and get a notification.
 - Argo CD pruning deletes resources removed from Git, with an optional checkbox confirmation as a safety check.
 - Git revert undoes accidental infrastructure changes, and Git history serves as the audit trail.
 - Business Central development licenses and other secrets can be stored encrypted in Git and decrypted by Argo CD during sync.
@@ -304,33 +304,33 @@ The demo uses Argo CD with Crossplane to create, change, revert and delete Azure
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GitOps declarative approach | status not stated | [10:20](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=620s) |  |
-| GitOps pull-based reconciliation | status not stated | [11:16](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=676s) |  |
-| GitOps drift detection and remediation | status not stated, demoed | [11:47](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=707s) |  |
-| Infrastructure as Code with versioning | status not stated | [7:31](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=451s) |  |
-| GitOps workflow | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=787s) |  |
-| Argo CD | status not stated, demoed | [17:05](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1025s) |  |
-| Crossplane | status not stated, demoed | [16:24](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=984s) |  |
-| Kubernetes container orchestration | status not stated, demoed | [15:34](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=934s) |  |
-| Pull request and feature branch workflow | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1235s) |  |
-| Auto-sync capability | status not stated, demoed | [23:04](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1384s) |  |
-| Git revert for change rollback | status not stated, demoed | [24:28](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1468s) |  |
-| Resource pruning with safety check | status not stated, demoed | [26:08](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1568s) |  |
-| Git audit history for infrastructure changes | status not stated, demoed | [26:46](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1606s) |  |
-| Multi-cluster GitOps management | status not stated, demoed | [27:23](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1643s) |  |
-| Infrastructure as YAML in Git | status not stated, demoed | [28:33](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1713s) |  |
-| Application versioning and configuration in Git | status not stated, demoed | [28:56](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1736s) |  |
-| Encrypted secrets in Git repositories | status not stated, demoed | [29:42](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1782s) |  |
-| Automated API version updates via pull requests | status not stated, demoed | [30:19](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1819s) |  |
-| GitOps for infrastructure change reviews | status not stated, demoed | [31:14](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1874s) |  |
-| GitOps for cloud-native scenarios | status not stated | [31:40](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1900s) |  |
-| GitOps for similar multi-environment management | status not stated | [32:13](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1933s) |  |
-| GitOps implementation considerations | status not stated | [32:41](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1961s) |  |
-| Self-healing infrastructure with drift detection | status not stated | [34:14](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=2054s) |  |
-| Git-based infrastructure workflow using Copilot | status not stated | [34:45](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=2085s) |  |
-| Cosmo Alpaca | status not stated | [27:23](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1643s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GitOps declarative approach | status not stated | [10:20](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=620s) |
+| GitOps pull-based reconciliation | status not stated | [11:16](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=676s) |
+| GitOps drift detection and remediation | status not stated, demoed | [11:47](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=707s) |
+| Infrastructure as Code with versioning | status not stated | [7:31](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=451s) |
+| GitOps workflow | status not stated, demoed | [13:07](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=787s) |
+| Argo CD | status not stated, demoed | [17:05](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1025s) |
+| Crossplane | status not stated, demoed | [16:24](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=984s) |
+| Kubernetes container orchestration | status not stated, demoed | [15:34](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=934s) |
+| Pull request and feature branch workflow | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1235s) |
+| Auto-sync capability | status not stated, demoed | [23:04](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1384s) |
+| Git revert for change rollback | status not stated, demoed | [24:28](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1468s) |
+| Resource pruning with safety check | status not stated, demoed | [26:08](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1568s) |
+| Git audit history for infrastructure changes | status not stated, demoed | [26:46](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1606s) |
+| Multi-cluster GitOps management | status not stated, demoed | [27:23](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1643s) |
+| Infrastructure as YAML in Git | status not stated, demoed | [28:33](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1713s) |
+| Application versioning and configuration in Git | status not stated, demoed | [28:56](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1736s) |
+| Encrypted secrets in Git repositories | status not stated, demoed | [29:42](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1782s) |
+| Automated API version updates via pull requests | status not stated, demoed | [30:19](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1819s) |
+| GitOps for infrastructure change reviews | status not stated, demoed | [31:14](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1874s) |
+| GitOps for cloud-native scenarios | status not stated | [31:40](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1900s) |
+| GitOps for similar multi-environment management | status not stated | [32:13](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1933s) |
+| GitOps implementation considerations | status not stated | [32:41](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1961s) |
+| Self-healing infrastructure with drift detection | status not stated | [34:14](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=2054s) |
+| Git-based infrastructure workflow using Copilot | status not stated | [34:45](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=2085s) |
+| Cosmo Alpaca | status not stated | [27:23](https://www.youtube.com/watch?v=qqWj_2uM0ek&t=1643s) |
 
 ## AL objects mentioned
 

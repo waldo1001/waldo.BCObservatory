@@ -1,0 +1,27 @@
+{
+  "video_id": "gd2TycVywv4",
+  "item_id": "video/yt-areopa/gd2TycVywv4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the series 'Areopa', but the captions only give 'Are you about webinars'. That name comes from outside the transcript, so I removed it.",
+    "Key point 4 said rules should stay under 100 lines because summarization can drop constraints. The transcript gives a different reason: the agent might not read past 100 lines. Compaction losing constraints is a separate point. I split the two.",
+    "Key point 1 said the risk applies to 'regulated domains'. The transcript talks about accounting outcomes and an industry that does not accept fuzzy outcomes, so I reworded it to match.",
+    "I checked every quote against the transcript and all of them are verbatim (some run across segment boundaries).",
+    "Many features are concepts or practices rather than product features. The transcript supports them, so I kept them. All are correctly marked unclear."
+  ],
+  "input_hash": "c8a08f94f73cc433d766707c6779880ff607abd0a993d3c96d76f715718fe3f4",
+  "by": "opus",
+  "at": "2026-10-07T23:21:22.673Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.277725
+  }
+}

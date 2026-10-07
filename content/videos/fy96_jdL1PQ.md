@@ -20,12 +20,12 @@ tags:
   - data modeling
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:07.413Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:07.511Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,8 +71,7 @@ links:
   learn: []
   objects:
     - object/table/32
-  features:
-    - feature/573329
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -162,31 +161,6 @@ features:
     t: 416
     verified: false
     status_source: video
-  - name: Case-based training methodology
-    status: unclear
-    t: 591
-    verified: false
-    status_source: video
-  - name: Learning journey structure
-    status: unclear
-    t: 591
-    verified: false
-    status_source: video
-  - name: Continuous learning subscription
-    status: unclear
-    t: 1183
-    verified: false
-    status_source: video
-  - name: Training boosters
-    status: unclear
-    t: 982
-    verified: false
-    status_source: video
-  - name: Expert sessions for training
-    status: unclear
-    t: 995
-    verified: false
-    status_source: video
   - name: PowerBI Data Modeling
     status: unclear
     t: 1830
@@ -238,24 +212,20 @@ features:
     verified: false
     status_source: video
   - name: Word report layouts
-    status: ga
+    status: unclear
     t: 2798
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573329"
+    status_source: video
   - name: Excel report layouts
     status: unclear
     t: 2662
     verified: false
     status_source: video
   - name: Word Central addin for report layouts
-    status: ga
+    status: unclear
     t: 2817
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573329"
+    status_source: video
   - name: RDLC phase-out for standard reports
     status: unclear
     t: 2881
@@ -290,7 +260,7 @@ quotes:
 
 > Business Central reporting options discussed on Dynamics Corner episode 520: analysis mode, Power BI (data models, dashboards, scorecards), and Word, Excel and RDLC layouts. It also covers case-based training and the planned RDLC phase-out for standard reports in versions 27 and 28.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fy96_jdL1PQ) · Dynamics Corner podcast · 2026-06-03 · 53:21 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fy96_jdL1PQ) · Dynamics Corner podcast · 2026-06-03 · 53:21 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -301,12 +271,12 @@ The second half covers reporting. It begins with choosing a tool from the requir
 ## Key points
 
 - Choose a reporting tool from the requirements first; the speaker says the tool matters less than understanding what is needed.
-- Analysis mode on list pages lets key users and end users build aggregated views and drill down without Power BI, but users need to be shown how to use it.
-- Power BI needs a separate license. Data is a snapshot at refresh time, and refresh rates (once, 8 or 48 times per day) depend on the license.
-- For Power BI data, the speaker prefers query APIs over page APIs because queries can pre-aggregate data.
-- Power BI scorecards take scheduled snapshots of metrics to track them over time, for example vendor and customer scorecards, with conditional formatting against targets.
-- RDLC has had no official support since 2016. Microsoft is moving standard out-of-box reports to Word or Excel layouts starting in version 27 and continuing in 28. US check reports will likely stay RDLC.
-- Word layouts are easier to create than RDLC but are weaker on conditional visibility and formatting. A Word add-in in development is meant to close that gap.
+- Analysis mode on list pages lets key users and end users build aggregated views and drill down without Power BI, but users need to be shown how to use it. From Business Central 2026 wave 1, developers can include analysis views in extensions.
+- Power BI dashboards show data as it currently is in the data model. Scheduled refresh frequency (once, 8 or 48 times per day) depends on the license.
+- For Power BI data, the speaker prefers query APIs over page APIs because queries can pre-aggregate data. With a property set, query APIs can be found via Tell Me and opened in analysis mode.
+- Power BI scorecards take scheduled snapshots of metrics to track them over time, for example vendor and customer scorecards, with conditional formatting against targets. Reports, dashboards and scorecards can be embedded in Business Central.
+- RDLC's latest official version dates from 2016, with little official support since. Microsoft is moving standard out-of-box reports to Word or Excel layouts starting in version 27 and continuing in 28. The speaker expects US check reports to stay RDLC.
+- Word layouts are easier to create than RDLC but are weaker on conditional visibility and formatting. A Word add-in from Microsoft is gaining functionality (for example blank zero) to close that gap.
 
 ## Chapters
 
@@ -338,33 +308,26 @@ The second half covers reporting. It begins with choosing a tool from the requir
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Multiple report layouts | status not stated | [0:00](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=0s) |  |
-| Analysis views on list pages | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=0s) |  |
-| RDLC reports and layouts | status not stated | [0:30](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=30s) |  |
-| PowerBI integration and reporting | status not stated | [6:56](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=416s) |  |
-| Case-based training methodology | status not stated | [9:51](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=591s) |  |
-| Learning journey structure | status not stated | [9:51](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=591s) |  |
-| Continuous learning subscription | status not stated | [19:43](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1183s) |  |
-| Training boosters | status not stated | [16:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=982s) |  |
-| Expert sessions for training | status not stated | [16:35](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=995s) |  |
-| PowerBI Data Modeling | status not stated | [30:30](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1830s) |  |
-| Query APIs for PowerBI | status not stated | [31:54](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1914s) |  |
-| PowerBI Embedded in Business Central | status not stated | [32:39](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1959s) |  |
-| PowerBI Multi-System Data Integration | status not stated | [35:27](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2127s) |  |
-| PowerBI Dashboards | status not stated | [37:10](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2230s) |  |
-| PowerBI Scorecards | status not stated | [38:35](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2315s) |  |
-| Scorecards with conditional formatting | status not stated | [39:11](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2351s) |  |
-| PowerBI snapshots for tracking over time | status not stated | [39:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2362s) |  |
-| Excel Co-pilot | status not stated, demoed | [26:36](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1596s) |  |
-| Report Object with Multiple Layouts | status not stated | [29:03](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1743s) |  |
-| Word report layouts | generally available (roadmap [573329](../features/573329.md)) | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |  |
-| Excel report layouts | status not stated | [44:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2662s) |  |
-| Word Central addin for report layouts | generally available (roadmap [573329](../features/573329.md)) | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |  |
-| RDLC phase-out for standard reports | status not stated | [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | Status | At |
+|---|---|---|
+| Multiple report layouts | status not stated | [0:00](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=0s) |
+| Analysis views on list pages | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=0s) |
+| RDLC reports and layouts | status not stated | [0:30](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=30s) |
+| PowerBI integration and reporting | status not stated | [6:56](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=416s) |
+| PowerBI Data Modeling | status not stated | [30:30](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1830s) |
+| Query APIs for PowerBI | status not stated | [31:54](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1914s) |
+| PowerBI Embedded in Business Central | status not stated | [32:39](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1959s) |
+| PowerBI Multi-System Data Integration | status not stated | [35:27](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2127s) |
+| PowerBI Dashboards | status not stated | [37:10](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2230s) |
+| PowerBI Scorecards | status not stated | [38:35](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2315s) |
+| Scorecards with conditional formatting | status not stated | [39:11](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2351s) |
+| PowerBI snapshots for tracking over time | status not stated | [39:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2362s) |
+| Excel Co-pilot | status not stated, demoed | [26:36](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1596s) |
+| Report Object with Multiple Layouts | status not stated | [29:03](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1743s) |
+| Word report layouts | status not stated | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |
+| Excel report layouts | status not stated | [44:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2662s) |
+| Word Central addin for report layouts | status not stated | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |
+| RDLC phase-out for standard reports | status not stated | [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) |
 
 ## AL objects mentioned
 

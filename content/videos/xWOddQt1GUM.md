@@ -2,7 +2,7 @@
 id: video/xWOddQt1GUM
 type: video
 title: "Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role"
-summary: "Dynamics Corner episode 515 with a BC developer and MVP on how AI changes AL development: AI-generated code and tests, TDD, planning mode, context management, AL-Go CI/CD, MCP and tool choice. It also covers the 2026 wave one agent preview and open source tools."
+summary: Dynamics Corner episode 515 with Vladimir, a Ukrainian BC developer and Microsoft MVP, on how AI changes AL development. Topics include AI-generated code and tests, TDD, planning mode, context and session management, AL-Go CI/CD, MCP, and choosing between Copilot, Cursor and command-line agents. It also covers the 2026 wave one agent preview, the troubleshooting MCP server for AL (due in May) and his open source tools Data Editor and Parallel Task Worker.
 tier: community
 language: en
 tags:
@@ -20,18 +20,25 @@ tags:
   - tdd
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:04.330Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:04.424Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d35774fcb24024a210a09e6e30156f4d4e68c8a480763f1df6547de6d8446486
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=xWOddQt1GUM&t=402s
+    title: "Agent preview and agent playground: preview"
+    date: "2026-04-28T19:45:06.000Z"
+    commit: null
+    t: 402
+    quote: Maybe we're still in preview. That's what they want though. That's what they want, right?
   - kind: video
     url: https://www.youtube.com/watch?v=xWOddQt1GUM&t=593s
     title: "Parallel Task Worker: generally available"
@@ -138,9 +145,9 @@ chapters:
     title: AI development landscape, architecture knowledge, and BC developer skills
 features:
   - name: Agent preview and agent playground
-    status: unclear
+    status: preview
     t: 239
-    verified: false
+    verified: true
     status_source: video
   - name: Unified interfaces for AI
     status: unclear
@@ -232,11 +239,6 @@ features:
     t: 2149
     verified: true
     status_source: video
-  - name: Individual Communication Style and AI Output
-    status: unclear
-    t: 2286
-    verified: false
-    status_source: video
   - name: Source Control and Code Review Workflow
     status: unclear
     t: 2428
@@ -272,39 +274,9 @@ features:
     t: 3150
     verified: false
     status_source: video
-  - name: Business Central Development Tools
-    status: unclear
-    t: 3181
-    verified: false
-    status_source: video
   - name: AI-Assisted Development with Architecture Review
     status: unclear
     t: 3193
-    verified: false
-    status_source: video
-  - name: Business Central Constrained Framework Development
-    status: unclear
-    t: 3241
-    verified: false
-    status_source: video
-  - name: Business Central Functionality Understanding Requirement
-    status: unclear
-    t: 3267
-    verified: false
-    status_source: video
-  - name: Research Before Coding Approach
-    status: unclear
-    t: 3330
-    verified: false
-    status_source: video
-  - name: AI Enables Architecture and Functionality Focus
-    status: unclear
-    t: 3369
-    verified: false
-    status_source: video
-  - name: Quality Delivery in Shorter Timeframe
-    status: unclear
-    t: 3427
     verified: false
     status_source: video
 objects_mentioned:
@@ -338,9 +310,9 @@ quotes:
 
 # Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role
 
-> Dynamics Corner episode 515 with a BC developer and MVP on how AI changes AL development: AI-generated code and tests, TDD, planning mode, context management, AL-Go CI/CD, MCP and tool choice. It also covers the 2026 wave one agent preview and open source tools.
+> Dynamics Corner episode 515 with Vladimir, a Ukrainian BC developer and Microsoft MVP, on how AI changes AL development. Topics include AI-generated code and tests, TDD, planning mode, context and session management, AL-Go CI/CD, MCP, and choosing between Copilot, Cursor and command-line agents. It also covers the 2026 wave one agent preview, the troubleshooting MCP server for AL (due in May) and his open source tools Data Editor and Parallel Task Worker.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xWOddQt1GUM) · Dynamics Corner podcast · 2026-04-28 · 1:01:13 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xWOddQt1GUM) · Dynamics Corner podcast · 2026-04-28 · 1:01:13 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -382,7 +354,7 @@ Most of the discussion is about working practice. It covers AI-generated tests a
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Agent preview and agent playground | status not stated, demoed | [3:59](https://www.youtube.com/watch?v=xWOddQt1GUM&t=239s) |  |
+| Agent preview and agent playground | preview, demoed | [3:59](https://www.youtube.com/watch?v=xWOddQt1GUM&t=239s) | "Maybe we're still in preview. That's what they want though. That's what they want, right?" ([6:42](https://www.youtube.com/watch?v=xWOddQt1GUM&t=402s)) |
 | Unified interfaces for AI | status not stated | [4:26](https://www.youtube.com/watch?v=xWOddQt1GUM&t=266s) |  |
 | Enable troubleshooting MCP server for AL | status not stated | [5:03](https://www.youtube.com/watch?v=xWOddQt1GUM&t=303s) |  |
 | AL tasks from Visual Studio Code | status not stated | [5:16](https://www.youtube.com/watch?v=xWOddQt1GUM&t=316s) |  |
@@ -401,7 +373,6 @@ Most of the discussion is about working practice. It covers AI-generated tests a
 | AI-Assisted Planning Mode | status not stated | [32:36](https://www.youtube.com/watch?v=xWOddQt1GUM&t=1956s) |  |
 | Context Window and Session Management | status not stated | [33:31](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2011s) |  |
 | AL Development Benchmarking | generally available | [35:49](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2149s) | "Microsoft released a BC bench for agents. And they it was as I remember they only count two agents, Cloud Code and maybe Codex" ([35:49](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2149s)) |
-| Individual Communication Style and AI Output | status not stated | [38:06](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2286s) |  |
 | Source Control and Code Review Workflow | status not stated | [40:28](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2428s) |  |
 | AL-Go free tool for CI/CD | status not stated | [42:15](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2535s) |  |
 | MCP protocol for AI communication | status not stated | [47:02](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2822s) |  |
@@ -409,13 +380,7 @@ Most of the discussion is about working practice. It covers AI-generated tests a
 | Command-line AI agents | status not stated | [49:06](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2946s) |  |
 | Cursor IDE | status not stated | [48:12](https://www.youtube.com/watch?v=xWOddQt1GUM&t=2892s) |  |
 | MCP in Practice | status not stated | [52:30](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3150s) |  |
-| Business Central Development Tools | status not stated | [53:01](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3181s) |  |
 | AI-Assisted Development with Architecture Review | status not stated | [53:13](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3193s) |  |
-| Business Central Constrained Framework Development | status not stated | [54:01](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3241s) |  |
-| Business Central Functionality Understanding Requirement | status not stated | [54:27](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3267s) |  |
-| Research Before Coding Approach | status not stated | [55:30](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3330s) |  |
-| AI Enables Architecture and Functionality Focus | status not stated | [56:09](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3369s) |  |
-| Quality Delivery in Shorter Timeframe | status not stated | [57:07](https://www.youtube.com/watch?v=xWOddQt1GUM&t=3427s) |  |
 
 ## AL objects mentioned
 

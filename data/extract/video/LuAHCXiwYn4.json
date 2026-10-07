@@ -114,28 +114,6 @@
       "system": "platform"
     },
     {
-      "name": "Project-scoped agent creation",
-      "description": "Users can create agents that are scoped to specific projects and stored in project-specific directories rather than globally, allowing different agents for different contexts.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 467.4,
-      "t_end": 565.3,
-      "is_demoed": true,
-      "caveats": [
-        "Agents command requires cloud code",
-        "Skills cannot be automatically defined in the same way"
-      ],
-      "tags": [
-        "agents",
-        "project-scoped",
-        "configuration",
-        "reusable"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "AL repository summarizer agent",
       "description": "A specialized agent that can be created to summarize AL repositories and provide human-readable overviews of AL project structures without reading every line of code.",
       "status": "unclear",
@@ -178,48 +156,6 @@
         "auto-save"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Cloud code voice mode",
-      "description": "Voice mode support for cloud code interactions, though the presenter notes it does not appear to be working in their current environment.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 538,
-      "t_end": 565.3,
-      "is_demoed": false,
-      "caveats": [
-        "Non-functional in presenter's environment",
-        "Availability status uncertain"
-      ],
-      "tags": [
-        "voice",
-        "accessibility",
-        "experimental"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Repository Summarizer Tool",
-      "description": "An automatically-generated tool that summarizes repository information, though the speaker notes that skills cannot be automatically defined unlike this tool.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 836.9,
-      "t_end": 858,
-      "is_demoed": true,
-      "caveats": [
-        "Skills cannot be automatically defined",
-        "Cannot do the same for skills"
-      ],
-      "tags": [
-        "summarizer",
-        "repo",
-        "mcp"
-      ],
-      "system": "development"
     },
     {
       "name": "Container-based project switching with cloud code",
@@ -418,27 +354,6 @@
         "al development"
       ],
       "system": "development"
-    },
-    {
-      "name": "GitHub issue reporting for container problems",
-      "description": "Users can report problems and issues found in the container system by creating issues on the GitHub repository. The presenter commits to finding and fixing issues accordingly.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2402.2,
-      "t_end": 2416.9,
-      "is_demoed": false,
-      "caveats": [
-        "Marketplace functionality has known issues"
-      ],
-      "tags": [
-        "issue tracking",
-        "github",
-        "support",
-        "container"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -497,12 +412,6 @@
       "t": 504.8,
       "text": "create an agent that's uh specialized in uh summarizing AL repositories to give a general overview over this that is human readable",
       "why_it_matters": "Demonstrates capability to create domain-specific agents for AL development tasks.",
-      "check": "exact"
-    },
-    {
-      "t": 538,
-      "text": "I don't know if it's general availability now or my user account has been enabled for the voice mode but it seems to not",
-      "why_it_matters": "Indicates uncertain status of cloud code voice mode functionality.",
       "check": "exact"
     },
     {
@@ -573,9 +482,9 @@
     },
     {
       "t": 2175.4,
-      "text": "so when when the main session of god code runs the the skill it then",
-      "why_it_matters": "Clarifies how skills can be automatically routed to custom sub-agents for specialized execution",
-      "check": "fuzzy"
+      "text": "it then automatically would per definition of the skill use the dedicated custom sub agent",
+      "why_it_matters": "Shows that a skill can be bound to a custom sub-agent that runs it automatically.",
+      "check": "exact"
     },
     {
       "t": 2267,

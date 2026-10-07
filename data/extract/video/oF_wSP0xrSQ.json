@@ -276,6 +276,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 527,
+      "text": "for each event uh that the query um extracts from application insights, we're going to fetch all AL files.",
+      "why_it_matters": "Shows that the AI receives the repository's AL source code along with each telemetry event.",
+      "check": "exact"
+    },
+    {
       "t": 1035,
       "text": "This logic app only looks at the uh RP000012 but we can easily expand it to um to many other events",
       "why_it_matters": "Indicates the solution is extensible beyond the RT00002 event type demonstrated, supporting multiple event types",

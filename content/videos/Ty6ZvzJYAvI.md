@@ -20,12 +20,12 @@ tags:
   - development standards
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:08.556Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:08.642Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,16 +141,6 @@ chapters:
   - t: 3404
     title: Closing remarks, contact information, and episode credits
 features:
-  - name: Leadership and developer conversation sessions
-    status: unclear
-    t: 483
-    verified: false
-    status_source: video
-  - name: Q&A and conversational session format
-    status: unclear
-    t: 664
-    verified: false
-    status_source: video
   - name: AI agents for administration
     status: unclear
     t: 1137
@@ -159,11 +149,6 @@ features:
   - name: Sales order agent
     status: unclear
     t: 1212
-    verified: false
-    status_source: video
-  - name: Custom agents and orchestration
-    status: unclear
-    t: 1284
     verified: false
     status_source: video
   - name: Telemetry component in administration
@@ -226,26 +211,6 @@ features:
     t: 3069
     verified: false
     status_source: video
-  - name: LLM Model Token Usage and Performance
-    status: unclear
-    t: 3124
-    verified: false
-    status_source: video
-  - name: AI Training on AI-Generated Data
-    status: unclear
-    t: 3213
-    verified: false
-    status_source: video
-  - name: Content Amplification and Misinformation
-    status: unclear
-    t: 3297
-    verified: false
-    status_source: video
-  - name: Learning from Microsoft Base Objects
-    status: unclear
-    t: 3350
-    verified: false
-    status_source: video
 objects_mentioned:
   - other GitHub Copilot
   - other Visual Studio Code
@@ -273,7 +238,7 @@ quotes:
 
 > Podcast discussion on leading large Business Central developer teams through fast AI change: conference content gaps, standards and governance, and managing AI tool costs. Speakers describe multi-model use, GitHub Copilot's move to credit-based billing, and assigning models by developer experience.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ty6ZvzJYAvI) · Dynamics Corner podcast · 2026-06-19 · 59:01 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ty6ZvzJYAvI) · Dynamics Corner podcast · 2026-06-19 · 59:01 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -283,13 +248,13 @@ The second theme is running a team of about 50 developers while AI features arri
 
 ## Key points
 
-- A speaker's team has about 50 developers, including internal and client developers, and finds it hard to get everyone working to the same standards as features ship quickly.
+- A speaker's team has about 50 developers and lets customers write code alongside them. Getting internal and client developers to follow the same standards is hard, especially as AI features ship quickly.
 - Sessions that fit neither development nor leadership, such as team adoption, standards and change management, are said to be rejected more often at conferences.
 - Speakers prefer panels, open forums and Q&A over lecture-style sessions, and want conference content to be more functional and less academic.
-- One speaker spends more time using AI on solution design than on coding. They use Claude for initial design, ChatGPT for review and Gemini for a second design review, which raises subscription cost.
-- Copilot or Claude Code is described as producing about 80% of the code. Developers still fix Business Central-specific items such as field names and setup references.
-- GitHub Copilot moved from a monthly plan with a fixed allowance to credit-based usage. Speakers say this complicates ROI and push for smaller code units to use fewer tokens.
-- Cost strategy discussed: use cheaper models (the 1x and 0.5x token options) for documentation and code review, giving about 80% of premium quality. Reserve expensive models for experienced developers on complex problems.
+- Matt says he uses AI for everything and for development the least. He spends more time on solution design, and coding ends up as about 20% of total time.
+- One speaker does initial design with Claude, uses ChatGPT as design reviewer and then Gemini for a further review, so the layers converge on a solution.
+- Copilot or Claude Code is described as getting about 80% of the way there. The developer still fixes Business Central-specific details such as wrongly named fields and posting setup references.
+- GitHub Copilot moved from a monthly plan with a fixed allowance to actual credit use, which makes cost harder to estimate. Tanya notes that splitting a large codeunit into smaller ones uses fewer tokens.
 
 ## Chapters
 
@@ -322,29 +287,22 @@ The second theme is running a team of about 50 developers while AI features arri
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Leadership and developer conversation sessions | status not stated | [8:03](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=483s) |  |
-| Q&A and conversational session format | status not stated | [11:04](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=664s) |  |
-| AI agents for administration | status not stated | [18:57](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1137s) |  |
-| Sales order agent | status not stated, demoed | [20:12](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1212s) |  |
-| Custom agents and orchestration | status not stated | [21:24](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1284s) |  |
-| Telemetry component in administration | status not stated | [17:41](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1061s) |  |
-| Custom agents for Business Central | status not stated | [28:18](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1698s) |  |
-| AI-assisted code unit optimization | status not stated | [28:43](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1723s) |  |
-| AI for Business Central performance testing | status not stated | [32:11](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1931s) |  |
-| AI-generated documentation | status not stated | [34:15](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2055s) |  |
-| AI for solution design and architecture | status not stated | [36:21](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2181s) |  |
-| Multi-model AI approach for design review | status not stated | [38:52](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2332s) |  |
-| Copilot for code generation | status not stated | [39:59](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2399s) |  |
-| GitHub Copilot credit-based pricing model | status not stated | [42:25](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2545s) |  |
-| Responsible AI model usage by developer experience level | status not stated | [47:22](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2842s) |  |
-| Code review agent | status not stated | [48:50](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2930s) |  |
-| Cheaper AI model usage for documentation and code reviews | status not stated | [51:09](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3069s) |  |
-| LLM Model Token Usage and Performance | status not stated | [52:04](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3124s) |  |
-| AI Training on AI-Generated Data | status not stated | [53:33](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3213s) |  |
-| Content Amplification and Misinformation | status not stated | [54:57](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3297s) |  |
-| Learning from Microsoft Base Objects | status not stated | [55:50](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3350s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI agents for administration | status not stated | [18:57](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1137s) |
+| Sales order agent | status not stated, demoed | [20:12](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1212s) |
+| Telemetry component in administration | status not stated | [17:41](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1061s) |
+| Custom agents for Business Central | status not stated | [28:18](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1698s) |
+| AI-assisted code unit optimization | status not stated | [28:43](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1723s) |
+| AI for Business Central performance testing | status not stated | [32:11](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=1931s) |
+| AI-generated documentation | status not stated | [34:15](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2055s) |
+| AI for solution design and architecture | status not stated | [36:21](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2181s) |
+| Multi-model AI approach for design review | status not stated | [38:52](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2332s) |
+| Copilot for code generation | status not stated | [39:59](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2399s) |
+| GitHub Copilot credit-based pricing model | status not stated | [42:25](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2545s) |
+| Responsible AI model usage by developer experience level | status not stated | [47:22](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2842s) |
+| Code review agent | status not stated | [48:50](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=2930s) |
+| Cheaper AI model usage for documentation and code reviews | status not stated | [51:09](https://www.youtube.com/watch?v=Ty6ZvzJYAvI&t=3069s) |
 
 ## AL objects mentioned
 

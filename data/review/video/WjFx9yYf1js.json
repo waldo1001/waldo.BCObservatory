@@ -1,0 +1,31 @@
+{
+  "video_id": "WjFx9yYf1js",
+  "item_id": "video/yt-dynamicscorner/WjFx9yYf1js",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says this is a Dynamics Corner podcast clip, but the transcript never names the podcast. Removed that.",
+    "A key point says the clip is about one minute long, but the video is 49 seconds. It is also meta commentary, so I removed it.",
+    "The quote at t=0 ends with an added ellipsis that is not in the transcript, and it misses the main point. I replaced it with the line about personal tools affecting only the author.",
+    "The feature 'Extension Development Risk Management' is a discussion topic, not a Business Central product feature. Dropped it.",
+    "Added the point that the author of a personal tool can also fix it, which the transcript supports."
+  ],
+  "input_hash": "d575ea556862dd6eff8599f2f0b7d91e1af4cf64b3d149e18719d5970a637baa",
+  "by": "opus",
+  "at": "2026-10-07T23:20:31.470Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 0s",
+    "quote at 13s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037957000000000005
+  }
+}

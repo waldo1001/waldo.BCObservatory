@@ -2,7 +2,7 @@
 id: video/oF_wSP0xrSQ
 type: video
 title: I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)
-summary: Business Central Musings demo of a daily Azure Logic App that reads Business Central telemetry from Application Insights with KQL, has an AI analyze RT00002 database lock timeout events, and creates GitHub issues with root cause and resolution. Covers the blob storage watermark and Bicep/YAML deployment.
+summary: Demo of a daily Azure Logic App that queries Business Central telemetry in Application Insights with KQL for RT00002 database lock timeout events. It passes the events and the repository's AL files to an AI prompt and creates GitHub issues with root cause, resolution checklist and prevention tips. It also covers the blob storage watermark, GitHub labels created through the REST API, and deploying with Bicep/YAML templates.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - yaml
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:19.345Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:19.389Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,9 +168,9 @@ quotes:
 
 # I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)
 
-> Business Central Musings demo of a daily Azure Logic App that reads Business Central telemetry from Application Insights with KQL, has an AI analyze RT00002 database lock timeout events, and creates GitHub issues with root cause and resolution. Covers the blob storage watermark and Bicep/YAML deployment.
+> Demo of a daily Azure Logic App that queries Business Central telemetry in Application Insights with KQL for RT00002 database lock timeout events. It passes the events and the repository's AL files to an AI prompt and creates GitHub issues with root cause, resolution checklist and prevention tips. It also covers the blob storage watermark, GitHub labels created through the REST API, and deploying with Bicep/YAML templates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oF_wSP0xrSQ) · Business Central Musings · 2026-03-10 · 18:31 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=oF_wSP0xrSQ) · Business Central Musings · 2026-03-10 · 18:31 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,13 +180,13 @@ The demo covers a Visual Studio Code example (table, codeunit and page), the tel
 
 ## Key points
 
-- The Logic App runs once a day, queries Application Insights for chosen events, and sends them to an AI tool.
-- The demo's KQL query retrieves traces where the event ID is RT00002, which are database locking timeouts.
-- The AI tool also has access to the GitHub repository, which lets it propose a resolution along with the root cause.
-- A text file in Azure Blob Storage holds the last successful run time, so each KQL query only covers new data. It must be initialized manually if the file does not exist.
-- Issues and labels are created through the GitHub REST API, which needs authentication. Labels must exist beforehand or be created via the API.
-- Result quality depends on prompt engineering of the AI step.
-- Logic App, Application Insights and Blob Storage can be exported and deployed with Bicep or YAML templates using Azure CLI.
+- The Logic App is triggered once a day, queries Application Insights for chosen events, and passes the captured events with their details to an AI tool.
+- The demo's KQL query retrieves traces where the custom dimensions event ID is RT00002 (database lock timeouts) and summarizes how many times it happened since the last run.
+- For each event, the logic app fetches all AL files from the GitHub repository and passes their content to the AI together with the event properties.
+- The AI returns a root cause, a resolution checklist, suspected lines with code analysis, and a prevention tip. These go into a GitHub issue created through the GitHub issues endpoint.
+- A watermark text file in Azure Blob Storage stores the last successful run time, so the KQL query only covers new data. The logic app creates the file if it does not exist and overwrites it at the end of each run.
+- GitHub labels (telemetry, performance, database lock) can be created manually or via a POST to the GitHub labels API endpoint with name and color.
+- Azure resources such as the Logic App, Application Insights or a storage account can be exported as Bicep or YAML and redeployed. A Bicep file is run with 'az deployment group create'.
 
 ## Chapters
 
@@ -203,15 +203,15 @@ The demo covers a Visual Studio Code example (table, codeunit and page), the tel
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Automated BC telemetry triage with Azure Logic App and AI | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=0s) |  |
-| KQL query for database lock timeouts | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=44s) |  |
-| GitHub issue generation from telemetry | status not stated, demoed | [2:09](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=129s) |  |
-| AI-powered root cause analysis | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=165s) |  |
-| Blob storage watermark for incremental runs | status not stated, demoed | [4:30](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=270s) |  |
-| GitHub REST API for issue and label creation | status not stated, demoed | [9:15](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=555s) |  |
-| Infrastructure as Code with Bicep and YAML | status not stated | [15:43](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=943s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Automated BC telemetry triage with Azure Logic App and AI | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=0s) |
+| KQL query for database lock timeouts | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=44s) |
+| GitHub issue generation from telemetry | status not stated, demoed | [2:09](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=129s) |
+| AI-powered root cause analysis | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=165s) |
+| Blob storage watermark for incremental runs | status not stated, demoed | [4:30](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=270s) |
+| GitHub REST API for issue and label creation | status not stated, demoed | [9:15](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=555s) |
+| Infrastructure as Code with Bicep and YAML | status not stated | [15:43](https://www.youtube.com/watch?v=oF_wSP0xrSQ&t=943s) |
 
 ## AL objects mentioned
 

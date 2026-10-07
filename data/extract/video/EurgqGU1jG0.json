@@ -320,27 +320,6 @@
       "system": "development"
     },
     {
-      "name": "100% code coverage through interface testing",
-      "description": "Technique to achieve complete code coverage by passing different stub implementations to test all code paths, such as testing both production and test environment scenarios separately.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1829,
-      "t_end": 1896.9,
-      "is_demoed": true,
-      "caveats": [
-        "Requires careful setup of stub objects for each path",
-        "Logic must be designed to accept interface parameters"
-      ],
-      "tags": [
-        "code coverage",
-        "interface testing",
-        "test design"
-      ],
-      "system": "development"
-    },
-    {
       "name": "API testing without external calls",
       "description": "Testing API functionality by creating interface implementations that simulate HTTP responses without making actual external calls, allowing tests to verify handling of success and failure scenarios.",
       "status": "unclear",
@@ -575,24 +554,6 @@
         "code consistency"
       ],
       "system": "development"
-    },
-    {
-      "name": "AI-guided test generation",
-      "description": "Capability to ask the AI to write a number of tests that will satisfy coverage of functions, with guidance in doing small fixes and helping with the implementation.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3148.2,
-      "t_end": 3168.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "test coverage",
-        "ai",
-        "code generation"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -710,12 +671,6 @@
       "check": "exact"
     },
     {
-      "t": 850.3,
-      "text": "the first thing we have to understand uh and the reason why we want this because we we want for three to obtain the",
-      "why_it_matters": "Establishes the core goal of the testing approach - achieving 100% code coverage through environment interfaces.",
-      "check": "exact"
-    },
-    {
       "t": 1063.7,
       "text": "it means that you can make an an enum extension to this enum and you can",
       "why_it_matters": "Demonstrates the extensibility of context interfaces through enum extensions as a customization approach.",
@@ -741,14 +696,8 @@
     },
     {
       "t": 1589.1,
-      "text": "Stop means that's a fake object that returns a fixed data and does not track usage. And the other one is spy. It's just",
-      "why_it_matters": "Defines the London-style test double terminology used for implementing test doubles in the codebase.",
-      "check": "exact"
-    },
-    {
-      "t": 1589.1,
-      "text": "Stop means that's a fake object that returns a fixed data and does not track usage",
-      "why_it_matters": "Defines the stub pattern used in London style testing, fundamental to understanding test isolation techniques",
+      "text": "Stop means that's a fake object that returns a fixed data and does not track usage.",
+      "why_it_matters": "Defines the stub test double used to fake the environment in tests.",
       "check": "exact"
     },
     {
@@ -756,12 +705,6 @@
       "text": "Spy. It's just like the stop but it's recording which functions were called so that we can check it later on",
       "why_it_matters": "Explains the spy pattern for verifying that specific functions are called during test execution",
       "check": "exact"
-    },
-    {
-      "t": 1735.6,
-      "text": "and and uh yeah i cannot even test that i'm in production in in test that i in",
-      "why_it_matters": "Explains why stub implementations are necessary to test production-specific logic in test environments",
-      "check": "fuzzy"
     },
     {
       "t": 1849.7,
@@ -795,14 +738,8 @@
     },
     {
       "t": 2406.8,
-      "text": "This pattern makes it possible to test without doing the get, without first inserting inserting the record, getting it, rolling it and so on",
-      "why_it_matters": "Explains how parameter passing enables super fast tests by eliminating database round trips",
-      "check": "exact"
-    },
-    {
-      "t": 2406.8,
-      "text": "So, uh this this pattern makes it possible to test without doing the get, without first inserting inserting the record, getting it, rolling it",
-      "why_it_matters": "Explains the key benefit of parameter passing approach - eliminates complex test setup procedures.",
+      "text": "this pattern makes it possible to test without doing the get, without first inserting inserting the record, getting it, rolling it and so on.",
+      "why_it_matters": "Explains why passing records as parameters makes tests fast.",
       "check": "exact"
     },
     {

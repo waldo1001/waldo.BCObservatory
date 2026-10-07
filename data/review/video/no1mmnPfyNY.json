@@ -1,0 +1,30 @@
+{
+  "video_id": "no1mmnPfyNY",
+  "item_id": "video/yt-areopa/no1mmnPfyNY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point misattributes the 'less than 5% of partners' figure to the product manager cost-tracking model; in the transcript it refers to moving from billing time to billing value, and the project-to-product manager shift is described as 'half and half'.",
+    "Quote at t 942.4 adds an ellipsis that is not in the transcript and stops before the substance; replaced with the full risk-up-front sentence.",
+    "Quote at t 2368.5 adds an ellipsis and lacks context; replaced with the 80,000 NAV-style customers span at t 2380.2.",
+    "Two overlapping quotes at t 816.3; both verbatim, so left in place.",
+    "Features are business-model concepts rather than product features, but the transcript supports each one; unclear status is correct for all."
+  ],
+  "input_hash": "4404367dc7c5602e3c3b384254040e75130799433bb4f0444c55e0ace3fae5a7",
+  "by": "opus",
+  "at": "2026-10-07T23:20:10.018Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 942s",
+    "quote at 991s",
+    "quote at 2380s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.272001
+  }
+}

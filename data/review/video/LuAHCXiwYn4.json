@@ -1,0 +1,34 @@
+{
+  "video_id": "LuAHCXiwYn4",
+  "item_id": "video/yt-stefanmaron/LuAHCXiwYn4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary names the presenter as Stefan Maron and calls this Part 3; the transcript supports neither (Part 3 is only in the title).",
+    "The agent key point and the 'Project-scoped agent creation' feature say agents are stored in project-specific folders instead of globally. The demo actually created a personal agent saved into the mounted profile folder; project scope is only mentioned as an alternative.",
+    "'Repository Summarizer Tool' duplicates the AL repository summarizer and wrongly calls it automatically generated.",
+    "'Cloud code voice mode' is an off-topic aside (presenter says it does not work) and not useful.",
+    "'GitHub issue reporting' is a closing remark, not a feature.",
+    "Quote at 538 (voice mode) is not useful; quote at 2175.4 is cut off before the useful part, replaced with a fuller span.",
+    "Duplicate quote at 1679.4 left as is, because dropping by t would remove both copies.",
+    "All feature statuses stay unclear; 'ready for general purpose' refers to the presenter's own container, not a product release.",
+    "Kept feature descriptions slightly overreach: 'Agent memory' mentions conversation history and 'Skill context configuration' links context to tool restrictions; the transcript states neither."
+  ],
+  "input_hash": "f596bee9e5fed838ba9039307bfe8670d8feac5c869d12f515347d1dd739b0b8",
+  "by": "opus",
+  "at": "2026-10-07T23:21:30.183Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "dropped 2 quote(s)",
+    "quote at 2175s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.17350499999999996
+  }
+}

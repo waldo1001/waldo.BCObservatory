@@ -20,25 +20,18 @@ tags:
   - solution design
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:02.610Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:02.687Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 0b8fb743c4563b601109426b85859b2b9140a6433ec00ca24a3cff66851e5cd6
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2441s
-    title: "Future agentic scenarios: announced"
-    date: "2026-06-30T10:19:55.000Z"
-    commit: null
-    t: 2441
-    quote: future agentic scenarios future it could be very near future the speed that these these agentic capabilities are developing at where AI helps execute
   - kind: video
     url: https://www.youtube.com/watch?v=IDYhxt-8ImI&t=266s
     title: 20260629 - AI Enabled Delivery for Consultants
@@ -259,9 +252,9 @@ features:
     verified: false
     status_source: video
   - name: Future agentic scenarios
-    status: announced
+    status: unclear
     t: 2441
-    verified: true
+    verified: false
     status_source: video
   - name: Microsoft 365 Copilot Premium Work Edition
     status: unclear
@@ -318,7 +311,7 @@ quotes:
 
 > AI-enabled delivery for Business Central functional consultants, mainly with Microsoft 365 Copilot. Covers requirements extraction from workshop notes, gap analysis, solution critique, UAT test case generation, documentation, issue triage, and MCP and Copilot Studio agents. Outputs are first drafts the consultant must validate.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=IDYhxt-8ImI) · Areopa webinars · 2026-06-30 · 1:01:09 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=IDYhxt-8ImI) · Areopa webinars · 2026-06-30 · 1:01:09 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -328,13 +321,13 @@ The session also covers critiquing solution designs, standardizing documentation
 
 ## Key points
 
-- Copilot in Excel and Microsoft 365 turned workshop notes into a requirements worksheet with Business Central interpretations, source mappings and an open questions section; the consultant remains responsible for accuracy.
-- Prompts work best when they define a persona, context, scope and instructions; Copilot can also critique a proposed solution and suggest alternatives, including standard features instead of custom development.
-- Copilot generated test cases with preconditions, test data, steps, expected results, variations and coverage mapping to requirements. Roughly 30 test points took about a minute, and the speaker puts the time saving at 40-50% for first drafts.
-- Custom instructions and saved memories in Microsoft 365 Copilot personalization can enforce a consistent documentation structure and style, and can be toggled on or off per task.
-- MCP lets AI agents work with Business Central APIs; an administrator chooses which entities to expose. Consultants may need to define which data an agent can see and do, and whether it is read-only or can take actions.
+- Copilot in Excel turned workshop notes into a requirements worksheet with Business Central interpretations, source mappings and an open questions section; the consultant remains responsible for accuracy.
+- Prompts work best when they define a persona, context, scope and instructions; Copilot can also critique a proposed solution, suggest alternatives and question whether custom development is really required.
+- Copilot generated UAT test cases with preconditions, test data, steps, expected results, variations and a coverage map to requirements. About 30 workshop points took roughly a minute; the speaker rates them a first draft that gets you 40 to 50 percent of the way in minutes rather than hours.
+- Custom instructions and saved memories in Microsoft 365 Copilot personalization settings can enforce a consistent documentation structure and style, and can be toggled on or off per task.
+- MCP lets AI agents work with Business Central APIs; an administrator chooses which entities to expose. Consultants may need to define which data an agent can see and do, whether it is read-only or action taking, and who approves risky outputs.
 - Microsoft 365 Copilot costs about $30 per user per month, varying by country; most of what was shown runs in it.
-- On code, the speaker reports better AI results since early 2026 on vanilla or well-componentized code, but a poor experience with complex customizations.
+- On code, the speaker relays developers reporting a real uplift since the start of 2026; the moderator noted that vanilla or well-componentized code gives better results, while an attendee reported a poor experience with complex customizations.
 
 ## Chapters
 
@@ -362,38 +355,38 @@ The session also covers critiquing solution designs, standardizing documentation
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Accelerated requirements gathering with AI | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=484s) |  |
-| Microsoft 365 Copilot for requirements extraction | status not stated, demoed | [9:33](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=573s) |  |
-| AI-powered requirements analysis and gap detection | status not stated, demoed | [10:47](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=647s) |  |
-| Power Platform for process mockups | status not stated | [10:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=622s) |  |
-| Requirements worksheet generation with Copilot | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=788s) |  |
-| Process simplification and requirement analysis | status not stated | [14:36](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=876s) |  |
-| Persona-based prompting for Copilot | status not stated | [17:30](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1050s) |  |
-| Solution design critique and alternatives with Copilot | status not stated | [19:01](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1141s) |  |
-| Code review capability in Copilot for consultants | status not stated | [20:07](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1207s) |  |
-| UAT test case generation from requirements | status not stated, demoed | [21:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1316s) |  |
-| Negative and edge case test scenario generation | status not stated, demoed | [22:09](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1329s) |  |
-| Multi-role test scenario creation | status not stated | [23:40](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1420s) |  |
-| Copilot documentation generation | status not stated | [26:29](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1589s) |  |
-| Copilot documentation standardization | status not stated | [28:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1702s) |  |
-| Microsoft 365 Copilot custom instructions | status not stated | [30:00](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1800s) |  |
-| Microsoft 365 Copilot saved memories | status not stated | [30:00](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1800s) |  |
-| Copilot issue summarization | status not stated | [32:05](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1925s) |  |
-| Copilot root cause hypothesis generation | status not stated | [32:57](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1977s) |  |
-| Copilot root cause analysis documentation | status not stated | [33:55](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2035s) |  |
-| Number series suggestions | status not stated | [35:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2156s) |  |
-| Autofill field suggestions | status not stated | [35:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2156s) |  |
-| Analysis assist | status not stated | [36:20](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2180s) |  |
-| Model Context Protocol (MCP) | status not stated | [37:25](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2245s) |  |
-| Copilot Studio agents for Business Central | status not stated | [38:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2302s) |  |
-| Future agentic scenarios | announced | [40:41](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2441s) | "future agentic scenarios future it could be very near future the speed that these these agentic capabilities are developing at where AI helps execute" ([40:41](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2441s)) |
-| Microsoft 365 Copilot Premium Work Edition | status not stated | [50:37](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3037s) |  |
-| AI-Assisted Code Review and Refactoring | status not stated | [52:50](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3170s) |  |
-| AI-generated test case suggestions | status not stated, demoed | [55:10](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3310s) |  |
-| Copilot Studio agents for document processing | status not stated | [57:14](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3434s) |  |
-| AI-assisted documentation generation | status not stated, demoed | [59:39](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3579s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Accelerated requirements gathering with AI | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=484s) |
+| Microsoft 365 Copilot for requirements extraction | status not stated, demoed | [9:33](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=573s) |
+| AI-powered requirements analysis and gap detection | status not stated, demoed | [10:47](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=647s) |
+| Power Platform for process mockups | status not stated | [10:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=622s) |
+| Requirements worksheet generation with Copilot | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=788s) |
+| Process simplification and requirement analysis | status not stated | [14:36](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=876s) |
+| Persona-based prompting for Copilot | status not stated | [17:30](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1050s) |
+| Solution design critique and alternatives with Copilot | status not stated | [19:01](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1141s) |
+| Code review capability in Copilot for consultants | status not stated | [20:07](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1207s) |
+| UAT test case generation from requirements | status not stated, demoed | [21:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1316s) |
+| Negative and edge case test scenario generation | status not stated, demoed | [22:09](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1329s) |
+| Multi-role test scenario creation | status not stated | [23:40](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1420s) |
+| Copilot documentation generation | status not stated | [26:29](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1589s) |
+| Copilot documentation standardization | status not stated | [28:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1702s) |
+| Microsoft 365 Copilot custom instructions | status not stated | [30:00](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1800s) |
+| Microsoft 365 Copilot saved memories | status not stated | [30:00](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1800s) |
+| Copilot issue summarization | status not stated | [32:05](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1925s) |
+| Copilot root cause hypothesis generation | status not stated | [32:57](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=1977s) |
+| Copilot root cause analysis documentation | status not stated | [33:55](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2035s) |
+| Number series suggestions | status not stated | [35:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2156s) |
+| Autofill field suggestions | status not stated | [35:56](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2156s) |
+| Analysis assist | status not stated | [36:20](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2180s) |
+| Model Context Protocol (MCP) | status not stated | [37:25](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2245s) |
+| Copilot Studio agents for Business Central | status not stated | [38:22](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2302s) |
+| Future agentic scenarios | status not stated | [40:41](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=2441s) |
+| Microsoft 365 Copilot Premium Work Edition | status not stated | [50:37](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3037s) |
+| AI-Assisted Code Review and Refactoring | status not stated | [52:50](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3170s) |
+| AI-generated test case suggestions | status not stated, demoed | [55:10](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3310s) |
+| Copilot Studio agents for document processing | status not stated | [57:14](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3434s) |
+| AI-assisted documentation generation | status not stated, demoed | [59:39](https://www.youtube.com/watch?v=IDYhxt-8ImI&t=3579s) |
 
 ## AL objects mentioned
 

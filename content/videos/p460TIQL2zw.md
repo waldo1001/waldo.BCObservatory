@@ -2,7 +2,7 @@
 id: video/p460TIQL2zw
 type: video
 title: Context Switching and Mental Load in AI-era is real.
-summary: Short Dynamics Corner podcast clip (published 2026-05-08) in which speakers say AI tools let people produce more, but the added work is more mentally exhausting. They name context switching as the root cause. It is opinion and personal experience, not product guidance.
+summary: Short podcast clip in which a speaker says AI tools such as Claude let people produce more, but working this way is more mentally exhausting. Context switching is given as the reason. It is opinion and personal experience; Business Central is not discussed, and there is no product guidance.
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - cognitive exhaustion
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:29.094Z"
   flags: []
 generated:
-  at: "2026-10-06T17:56:28.034Z"
+  at: "2026-10-07T23:20:29.131Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,9 +102,9 @@ quotes:
 
 # Context Switching and Mental Load in AI-era is real.
 
-> Short Dynamics Corner podcast clip (published 2026-05-08) in which speakers say AI tools let people produce more, but the added work is more mentally exhausting. They name context switching as the root cause. It is opinion and personal experience, not product guidance.
+> Short podcast clip in which a speaker says AI tools such as Claude let people produce more, but working this way is more mentally exhausting. Context switching is given as the reason. It is opinion and personal experience; Business Central is not discussed, and there is no product guidance.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=p460TIQL2zw) · Dynamics Corner podcast · 2026-05-08 · 0:58 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=p460TIQL2zw) · Dynamics Corner podcast · 2026-05-08 · 0:58 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -114,12 +114,11 @@ One speaker describes feeling really exhausted at the end of busy days. The clip
 
 ## Key points
 
-- AI tools are described as enabling people to do and produce more.
-- The open question is how to keep quality of work and quality of life while producing more.
+- AI tools such as Claude are described as letting people do and produce more.
+- The goal is to produce more while keeping quality of work and quality of life, and still having time for side projects.
 - One speaker says working this way is more exhausting on mental capacity.
-- A speaker reports feeling really exhausted at the end of busy days.
-- Context switching is named as the root cause of the mental load.
-- The speaker says the exact number of switched tasks is not the point.
+- The speaker reports feeling really exhausted at the end of busy days, though not every day.
+- Context switching is given as the reason for the exhaustion; the speaker says 'five things' was just a number.
 
 ## Chapters
 

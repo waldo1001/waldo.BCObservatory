@@ -2,7 +2,7 @@
 id: video/Hct_HE0KzEc
 type: video
 title: "Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton"
-summary: "Interview with Mike Morton on Business Central's growth past 50,000 installations and its AI direction: Microsoft 365 Copilot integration, an expense agent due this year, natural language interaction, and a continued commitment to the Business Central UI."
+summary: Interview with Mike Morton, recorded at Directions North America 2026, on Business Central's growth past 50,000 installations and its AI direction. It covers the expense agent, which was announced as available this year, and advice to start with enterprise AI tools such as 365 Copilot. It also covers a vision of fewer manual data-entry tasks, natural language and phone-capture workflows, more interactions from Teams, Outlook and M365, and continued commitment to the Business Central UI.
 tier: community
 language: en
 tags:
@@ -17,18 +17,25 @@ tags:
   - market growth
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:54.604Z"
   flags: []
 generated:
-  at: "2026-10-06T18:08:06.011Z"
+  at: "2026-10-07T23:20:54.653Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 2459b1b5b507529b32a0ffeddb46a4389c09cde3a3e6949789f8e595373db6a0
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=Hct_HE0KzEc&t=184s
+    title: "Expense Agent: announced"
+    date: "2026-04-29T19:58:27.000Z"
+    commit: null
+    t: 184
+    quote: And even at the conference it was announced that the expense agent will be available this year as well.
   - kind: video
     url: https://www.youtube.com/watch?v=Hct_HE0KzEc&t=45s
     title: "Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton"
@@ -103,14 +110,9 @@ chapters:
     title: Closing Remarks and Contact Information
 features:
   - name: Expense Agent
-    status: unclear
+    status: announced
     t: 184
-    verified: false
-    status_source: video
-  - name: Microsoft 365 Copilot Integration
-    status: unclear
-    t: 387
-    verified: false
+    verified: true
     status_source: video
   - name: Natural Language Invoice Processing
     status: unclear
@@ -120,11 +122,6 @@ features:
   - name: AI-Enhanced Payables Processing
     status: unclear
     t: 336
-    verified: false
-    status_source: video
-  - name: AI-Driven Business Growth Capabilities
-    status: unclear
-    t: 299
     verified: false
     status_source: video
   - name: UI Evolution with AI-Enabled Workflows
@@ -158,9 +155,9 @@ quotes:
 
 # Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton
 
-> Interview with Mike Morton on Business Central's growth past 50,000 installations and its AI direction: Microsoft 365 Copilot integration, an expense agent due this year, natural language interaction, and a continued commitment to the Business Central UI.
+> Interview with Mike Morton, recorded at Directions North America 2026, on Business Central's growth past 50,000 installations and its AI direction. It covers the expense agent, which was announced as available this year, and advice to start with enterprise AI tools such as 365 Copilot. It also covers a vision of fewer manual data-entry tasks, natural language and phone-capture workflows, more interactions from Teams, Outlook and M365, and continued commitment to the Business Central UI.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Hct_HE0KzEc) · Dynamics Corner podcast · 2026-04-29 · 15:38 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Hct_HE0KzEc) · Dynamics Corner podcast · 2026-04-29 · 15:38 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,13 +167,13 @@ The conversation then turns to practical AI adoption: start with simple tasks an
 
 ## Key points
 
-- Business Central has grown to over 50,000 installations, and Morton says growth has accelerated rather than slowed.
-- The expense agent is stated to be available this year; users snap receipts with a phone and the system processes them.
-- Microsoft 365 Copilot is described as the most fundamental tool for accessing AI with Business Central, including Microsoft Graph data such as mail, calendar and Teams.
-- Consumer tools such as ChatGPT do not provide the enterprise capabilities of 365 Copilot.
-- Invoice handling is described as a future vision: upload an invoice, let the system process it, and correct or discuss it instead of entering fields one by one.
-- Users are expected to spend less time in the depths of the app, with more interactions coming from Teams, Outlook and M365; the pace of adoption is unclear and ERP data accuracy needs may slow it.
-- Microsoft states a strong commitment to the Business Central UI, which will not be replaced.
+- Business Central has grown to over 50,000 installations, and Morton says growth has accelerated rather than slowed. Europe is historically strongest, while the US, South America and Asia are named as growth opportunities.
+- The expense agent was announced at the conference as available this year. Morton describes snapping an expense with a phone and letting the system process it.
+- To get started with AI, Morton calls 365 Copilot the most fundamental tool, made powerful by its Microsoft Graph integration (mail, calendar, Teams).
+- Tools like ChatGPT can be used, but organizations should use enterprise versions, since consumer tools lack the best capabilities.
+- Advice for adopting AI: describe the problem you want to solve, don't overthink it, and start with simpler tasks to build confidence.
+- Invoice handling is described as a future vision: upload an invoice, let the system process it, then correct or answer specific questions instead of filling in fields one by one.
+- More interactions are expected to come from Teams, Outlook, M365 or ambient interfaces. The pace is uncertain because ERP has to be right and accurate.
 
 ## Chapters
 
@@ -193,11 +190,9 @@ The conversation then turns to practical AI adoption: start with simple tasks an
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Expense Agent | status not stated | [3:04](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=184s) |  |
-| Microsoft 365 Copilot Integration | status not stated | [6:27](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=387s) |  |
+| Expense Agent | announced | [3:04](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=184s) | "And even at the conference it was announced that the expense agent will be available this year as well." ([3:04](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=184s)) |
 | Natural Language Invoice Processing | status not stated | [10:10](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=610s) |  |
 | AI-Enhanced Payables Processing | status not stated | [5:36](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=336s) |  |
-| AI-Driven Business Growth Capabilities | status not stated | [4:59](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=299s) |  |
 | UI Evolution with AI-Enabled Workflows | status not stated | [10:10](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=610s) |  |
 | Interactions from External Tools | status not stated | [11:38](https://www.youtube.com/watch?v=Hct_HE0KzEc&t=698s) |  |
 

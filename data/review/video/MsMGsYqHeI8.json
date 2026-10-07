@@ -1,0 +1,25 @@
+{
+  "video_id": "MsMGsYqHeI8",
+  "item_id": "video/yt-dynamicscorner/MsMGsYqHeI8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 28 quotes checked against the transcript; they are verbatim or cross segment boundaries legitimately. Quote at 1796.7 has a trailing ellipsis in place of 'if I wanted to', a punctuation-level difference only.",
+    "Guest name is inconsistent in captions (Natalie Carillac, Natali Kawak, natalikavulak blog URL); chapter title uses 'Carillac', likely a caption artifact. Summary avoids naming her.",
+    "Final chapter (1886.1 to 3176) is very broad and covers clips tools, AI burnout, the bubble discussion, the BC business manager agent prediction, loss of control, and the outro.",
+    "Several 'features' are discussion concepts rather than product features (content patterns, verification dilemma, author responsibility) but are supported by the transcript and correctly marked unclear.",
+    "Key point on dashes and emojis slightly blends Chris's tool-style comment with the separate dash discussion, where Brad notes he uses dashes himself; the key point already says detection is unreliable.",
+    "Business manager agent is correctly framed as a speaker prediction, not a Microsoft announcement."
+  ],
+  "input_hash": "305eaa3a27c58e8954bb3509c05dc377677f61c3a88f75c29c50f1f3b595de59",
+  "by": "opus",
+  "at": "2026-10-07T23:21:05.900Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.23888500000000001
+  }
+}

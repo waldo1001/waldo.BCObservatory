@@ -1,0 +1,26 @@
+{
+  "video_id": "p460TIQL2zw",
+  "item_id": "video/yt-dynamicscorner/p460TIQL2zw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Systems lists 'copilot', but the transcript only names Claude ('tools like uh Claude in your case'). Copilot is never mentioned. The systems field can't be edited from here, so it needs a manual fix.",
+    "The summary names 'Dynamics Corner' and a publish date of 2026-05-08. Neither appears in the transcript, so I rewrote the summary without them.",
+    "The clip is a general talk about AI-era work and mental load. Business Central is never mentioned, so the page has little product value. I chose to fix the page rather than reject it, because the summary already says it is opinion.",
+    "All quotes are verbatim and supported. The quote at 53.1 is weak but is kept because it is the only evidence for context switching."
+  ],
+  "input_hash": "85ddd108b839d84b3187425915bd28180a535eff4e6c13a6797d381f2410b951",
+  "by": "opus",
+  "at": "2026-10-07T23:20:29.094Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035401
+  }
+}

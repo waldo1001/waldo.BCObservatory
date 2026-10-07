@@ -1,0 +1,31 @@
+{
+  "video_id": "EurgqGU1jG0",
+  "item_id": "video/yt-areopa/EurgqGU1jG0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary and key points are supported by the transcript.",
+    "Quote at 850.3 is a garbled fragment that conveys nothing; dropped.",
+    "Quote at 1735.6 is a garbled fragment with little value; dropped.",
+    "Two near-duplicate quotes share t=1589.1 and two share t=2406.8; dropped both at each t and re-added a single clean version.",
+    "Feature '100% code coverage through interface testing' duplicates '100% code coverage testing pattern'; 'AI-guided test generation' duplicates 'AI assistance for code generation and testing'. Dropped the duplicates.",
+    "All features are coding patterns from a community webinar, not product releases, so 'unclear' status is appropriate.",
+    "Quote at 304.8 renders '100%' as '100'; minor, kept."
+  ],
+  "input_hash": "74e37b73fc8edb3a10c9614615d7f576c2250a7e77a8d36364b9bc8d75f28d17",
+  "by": "opus",
+  "at": "2026-10-07T23:20:46.119Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 6 quote(s)",
+    "quote at 1589s",
+    "quote at 2407s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.237101
+  }
+}

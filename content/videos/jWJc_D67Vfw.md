@@ -2,7 +2,7 @@
 id: video/jWJc_D67Vfw
 type: video
 title: 20260518 - Learning AI the Way I Learned NAV
-summary: "Areopa webinar (May 2026) in which Nabil, CEO of Azure Services, describes how a Business Central consultant adopted AI using the habits he used to learn NAV: go deep on one tool for 90 days, give AI full context, and work as a director. Shows an AI-built invoice layout."
+summary: Areopa webinar (May 2026) in which Nabil Bammou, CEO of Azure Services, explains how he adopted AI using the habits he used to learn NAV. His three lessons are a green, orange, red rule for what to share, going deep on one tool for 90 days, and directing AI instead of chatting with it. He demos a Claude skill that builds a Business Central sales invoice layout from a customer PDF.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - 90-day iterations
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:39.334Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:39.417Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -219,9 +219,9 @@ quotes:
 
 # 20260518 - Learning AI the Way I Learned NAV
 
-> Areopa webinar (May 2026) in which Nabil, CEO of Azure Services, describes how a Business Central consultant adopted AI using the habits he used to learn NAV: go deep on one tool for 90 days, give AI full context, and work as a director. Shows an AI-built invoice layout.
+> Areopa webinar (May 2026) in which Nabil Bammou, CEO of Azure Services, explains how he adopted AI using the habits he used to learn NAV. His three lessons are a green, orange, red rule for what to share, going deep on one tool for 90 days, and directing AI instead of chatting with it. He demos a Claude skill that builds a Business Central sales invoice layout from a customer PDF.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jWJc_D67Vfw) · Areopa webinars · 2026-05-19 · 52:16 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jWJc_D67Vfw) · Areopa webinars · 2026-05-19 · 52:16 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -231,13 +231,13 @@ He presents a framework: pick one tool and go deep for 90 days, treat AI as a co
 
 ## Key points
 
-- Pick one AI tool and go deep for 90 days. Do not evaluate competitors until you hit a real ceiling.
+- Privacy rule (green, orange, red): share public info freely, decide quickly on internal strategy or client names, and never share bank details, passwords, credentials or NDA material. Your caution costs more than the risk.
+- Pick one AI tool and go deep for 90 days. Do not evaluate competitors until you hit a real ceiling. Skills such as prompting and review loops carry over to other tools.
 - Use a marathon conversation instead of one-off questions: explain the full task and context, define a good result, and work end to end in one conversation.
-- In the demo, a Business Central print layout skill built an invoice layout from a PDF mockup (brand colors, columns, fonts), with field mapping and measurements to the millimeter. The user still verifies the result before deployment.
-- Director mindset: AI can hallucinate confidently, so always verify. Direct a code review agent to audit another AI's work for cross-platform issues and edge cases.
-- Claude Code was described as a research preview. Mac vs Linux grep errors came up, so the developer needs to direct error catching.
-- Claude Desktop supports MCP connections to tools like an Obsidian vault and Airtable.
-- Meta prompting: ask AI to help improve your prompts. Poor results usually come from unclear context.
+- Demo: a Claude skill for Business Central print layouts read a customer's PDF invoice, measured it to the millimeter, mapped invoice fields automatically and pushed the layout to a QA environment. The user then checked it side by side against the PDF. It took under 12 minutes of AI time and 2 minutes of the user's time.
+- Director mindset (the replacement ladder): AI does the low-level work while you give context, set the standard, review and ship. AI can hallucinate confidently, so always verify.
+- Have AI spawn a code review agent to audit its own scripts for cross-platform issues, such as Mac vs Linux grep differences, and for edge cases.
+- Claude Desktop with MCP connects to tools like an Obsidian vault and Airtable. Claude Code came out as a research preview in early 2025.
 
 ## Chapters
 

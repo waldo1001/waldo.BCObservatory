@@ -6,7 +6,7 @@
   "key_points": [
     "GitOps is declarative (describe the desired state) and pull-based, unlike push-based infrastructure as code.",
     "Argo CD connects a Git repository to a cluster; with auto-sync, changes merged in Git are applied without manual steps.",
-    "Drift between Git and actual infrastructure is detected and remediated automatically, but destructive changes cannot be resolved this way and monitoring must be set up.",
+    "Drift between Git and actual infrastructure is detected and remediated automatically; when that is not possible (for example, a destructive change would be required), you can monitor it and get a notification.",
     "Argo CD pruning deletes resources removed from Git, with an optional checkbox confirmation as a safety check.",
     "Git revert undoes accidental infrastructure changes, and Git history serves as the audit trail.",
     "Business Central development licenses and other secrets can be stored encrypted in Git and decrypted by Argo CD during sync.",

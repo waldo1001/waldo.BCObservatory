@@ -1,0 +1,28 @@
+{
+  "video_id": "oF_wSP0xrSQ",
+  "item_id": "video/yt-bcmusings/oF_wSP0xrSQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary calls the channel 'Business Central Musings', but the transcript says 'Business Central News'. Removed the channel name.",
+    "Key point said the watermark file must be initialized manually. The transcript says the logic app creates the blob file itself if it does not exist.",
+    "Key point claims about the GitHub API needing authentication, labels having to exist beforehand, and prompt engineering determining quality are not in the transcript. Removed them.",
+    "Added the missing detail that the logic app fetches all AL files and passes their content to the AI together with the event properties.",
+    "Quotes are verbatim, allowing for case and segment boundaries. All features are unclear and supported, so none were dropped."
+  ],
+  "input_hash": "424cb8be746bf674f7446bbe77a6507e6873f29c0b70c2ccd54bb6e516ccf18b",
+  "by": "opus",
+  "at": "2026-10-07T23:21:19.345Z",
+  "applied": [
+    "quote at 527s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.087145
+  }
+}

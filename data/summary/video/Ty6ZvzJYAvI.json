@@ -4,13 +4,13 @@
   "summary": "Podcast discussion on leading large Business Central developer teams through fast AI change: conference content gaps, standards and governance, and managing AI tool costs. Speakers describe multi-model use, GitHub Copilot's move to credit-based billing, and assigning models by developer experience.",
   "overview": "Episode 521 of the Dynamics Corner podcast covers two connected themes. The first is conference content: the guests say sessions that sit between leadership and pure development, such as team adoption, standards enforcement and change management, tend to be rejected, and they favor panels and open forums over lectures. They also discuss how AI is blending administration and development, and how the pace of change makes it hard to plan sessions months ahead.\n\nThe second theme is running a team of about 50 developers while AI features arrive quickly. Speakers describe using AI more for design, testing and documentation than for raw coding speed, combining several models for design and review, and the cost pressure from GitHub's switch to paid credits. They discuss giving costly models to experienced developers and cheaper ones to others, and raise concerns about AI models training on AI-generated content.",
   "key_points": [
-    "A speaker's team has about 50 developers, including internal and client developers, and finds it hard to get everyone working to the same standards as features ship quickly.",
+    "A speaker's team has about 50 developers and lets customers write code alongside them. Getting internal and client developers to follow the same standards is hard, especially as AI features ship quickly.",
     "Sessions that fit neither development nor leadership, such as team adoption, standards and change management, are said to be rejected more often at conferences.",
     "Speakers prefer panels, open forums and Q&A over lecture-style sessions, and want conference content to be more functional and less academic.",
-    "One speaker spends more time using AI on solution design than on coding. They use Claude for initial design, ChatGPT for review and Gemini for a second design review, which raises subscription cost.",
-    "Copilot or Claude Code is described as producing about 80% of the code. Developers still fix Business Central-specific items such as field names and setup references.",
-    "GitHub Copilot moved from a monthly plan with a fixed allowance to credit-based usage. Speakers say this complicates ROI and push for smaller code units to use fewer tokens.",
-    "Cost strategy discussed: use cheaper models (the 1x and 0.5x token options) for documentation and code review, giving about 80% of premium quality. Reserve expensive models for experienced developers on complex problems."
+    "Matt says he uses AI for everything and for development the least. He spends more time on solution design, and coding ends up as about 20% of total time.",
+    "One speaker does initial design with Claude, uses ChatGPT as design reviewer and then Gemini for a further review, so the layers converge on a solution.",
+    "Copilot or Claude Code is described as getting about 80% of the way there. The developer still fixes Business Central-specific details such as wrongly named fields and posting setup references.",
+    "GitHub Copilot moved from a monthly plan with a fixed allowance to actual credit use, which makes cost harder to estimate. Tanya notes that splitting a large codeunit into smaller ones uses fewer tokens."
   ],
   "audience": [
     "decision maker",

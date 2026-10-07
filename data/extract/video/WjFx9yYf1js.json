@@ -37,28 +37,7 @@
       "t_end": 49
     }
   ],
-  "features": [
-    {
-      "name": "Extension Development Risk Management",
-      "description": "Discussion of how risk surfaces differ between personal tools and business extensions used by multiple employees, particularly when touching critical posting routines.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 0,
-      "t_end": 39.3,
-      "is_demoed": false,
-      "caveats": [
-        "Video does not complete the thought about posting routines"
-      ],
-      "tags": [
-        "risk management",
-        "extension development",
-        "business processes"
-      ],
-      "system": "development"
-    }
-  ],
+  "features": [],
   "objects": [],
   "presenters": [
     {
@@ -69,14 +48,20 @@
   "quotes": [
     {
       "t": 0,
-      "text": "do number of tools for my personal use, and making myself more productive with working my day-to-day business. Um but ...",
-      "why_it_matters": "Establishes the distinction between personal tools and enterprise solutions, setting up the risk discussion.",
+      "text": "those are personal tools, right? They're They're for me. If they break, I'm I'm the only one affected.",
+      "why_it_matters": "Explains why personal vibe-coded tools carry low risk: only the author is affected.",
       "check": "exact"
     },
     {
       "t": 12.8,
       "text": "so that's a a limited surface that I'm risk surface I'm exposing myself to.",
       "why_it_matters": "Defines the concept of risk surface, the key metric for evaluating the impact of code changes.",
+      "check": "exact"
+    },
+    {
+      "t": 12.8,
+      "text": "since I'm the one who built it, I'm probably also the one who can fix it.",
+      "why_it_matters": "The author can also fix the tool, which is part of why personal tools have a limited risk surface.",
       "check": "exact"
     },
     {

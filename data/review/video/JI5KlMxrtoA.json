@@ -1,0 +1,31 @@
+{
+  "video_id": "JI5KlMxrtoA",
+  "item_id": "video/yt-stefanmaron/JI5KlMxrtoA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary names the presenter (Stefan Maron), but the transcript never states a name; removed.",
+    "Key point says the read isolation rule is under review; in the transcript the rule under review is the one about relying on the primary key when no current key is set (873.8). Corrected.",
+    "Key point mentions CI; the transcript only says the analyzer is not enabled in daily development and is too noisy. Corrected.",
+    "Feature 'CWE 3 error message detection' is mislabeled: the caption says 'absorb 3', not a CWE number. Dropped.",
+    "Quote at 1636.8 ends with '...', which is not verbatim; kept because a drop by t is ambiguous.",
+    "Near-duplicate quotes at 791.4 and 3969.9 share a t, so they were kept to avoid dropping both of each pair.",
+    "'Lock release on variable scope' is stated as fact, but the speaker says he assumes it and cannot confirm it.",
+    "All feature statuses are unclear, which is correct: this is a third-party review tool, not a BC release."
+  ],
+  "input_hash": "a7fd5c57173ec8bb791c80bf089d9eeb4b98b7be7476f2637ac8a47026b759ce",
+  "by": "opus",
+  "at": "2026-10-07T23:20:39.087Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.269449
+  }
+}

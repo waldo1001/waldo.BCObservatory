@@ -2,7 +2,7 @@
 id: video/c91E6IykUnk
 type: video
 title: "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?"
-summary: Dynamics Corner episode 519 is a conversation about AI-assisted Business Central development with GitHub Copilot and Claude. It covers the AI-built expense management agent, multi-agent workflows, and how well AI handles RDL and Word report layouts (about 60-70% success on RDL conversion, field mapping in Word layouts not yet solved).
+summary: "Dynamics Corner episode 519 interviews a Business Central MVP developer about AI-assisted BC development with GitHub Copilot and Claude. Topics: the expense management agent (about 90% AI-written, about 6 months from idea to release), the BC quality agentic code review workflow, multi-agent workflows, AI for report layouts (good-looking Word layouts, but field mapping not yet solved; layout and conversion attempts rated 60-70% successful), and telemetry analysis via MCP."
 tier: community
 language: en
 tags:
@@ -20,25 +20,18 @@ tags:
   - documentation automation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:19.238Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:19.312Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 5c5e29fb305b313bec6e8ca5a5844faec770af609f69c388a3563851c19f5dab
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=c91E6IykUnk&t=419s
-    title: "Expense management agent: generally available"
-    date: "2026-05-28T15:21:50.000Z"
-    commit: null
-    t: 419
-    quote: when it's released in the wild when people start using it
   - kind: video
     url: https://www.youtube.com/watch?v=c91E6IykUnk&t=394s
     title: "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?"
@@ -54,6 +47,13 @@ evidence:
     t: 419
     quote: it was developed completely using AI and it was developed at faster pace than the other features
   - kind: video
+    url: https://www.youtube.com/watch?v=c91E6IykUnk&t=582s
+    title: "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?"
+    date: "2026-05-28T15:21:50.000Z"
+    commit: null
+    t: 582
+    quote: the community instructions, and then partners can put their own instructions in there as well to help monitor the code
+  - kind: video
     url: https://www.youtube.com/watch?v=c91E6IykUnk&t=604s
     title: "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?"
     date: "2026-05-28T15:21:50.000Z"
@@ -67,13 +67,6 @@ evidence:
     commit: null
     t: 620
     quote: the period of time it took to develop was 6 months. And that period of time or from like idea to release, I think.
-  - kind: video
-    url: https://www.youtube.com/watch?v=c91E6IykUnk&t=648s
-    title: "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?"
-    date: "2026-05-28T15:21:50.000Z"
-    commit: null
-    t: 648
-    quote: it it does show how you can expedite the development process of features within the ERP or for PTEs for customers
 links:
   learn: []
   objects: []
@@ -139,23 +132,13 @@ chapters:
     title: Closing remarks and presenter contact information
 features:
   - name: Expense management agent
-    status: ga
+    status: unclear
     t: 394
-    verified: true
+    verified: false
     status_source: video
   - name: BC quality workflow with agenting and code review
     status: unclear
     t: 488
-    verified: false
-    status_source: video
-  - name: GitHub Copilot
-    status: unclear
-    t: 868
-    verified: false
-    status_source: video
-  - name: Cloud Code
-    status: unclear
-    t: 868
     verified: false
     status_source: video
   - name: GitHub Copilot for AL development
@@ -166,11 +149,6 @@ features:
   - name: Multi-agent workflow for development
     status: unclear
     t: 1159
-    verified: false
-    status_source: video
-  - name: Gamified AL training approach
-    status: unclear
-    t: 911
     verified: false
     status_source: video
   - name: Instruction files and sub-agents for Copilot
@@ -186,11 +164,6 @@ features:
   - name: Agent-driven documentation generation
     status: unclear
     t: 1320
-    verified: false
-    status_source: video
-  - name: Professional credits token allocation
-    status: unclear
-    t: 1143
     verified: false
     status_source: video
   - name: AI assistance for RDL report creation
@@ -218,11 +191,6 @@ features:
     t: 2245
     verified: false
     status_source: video
-  - name: MCP integration for telemetry log analysis
-    status: unclear
-    t: 2426
-    verified: false
-    status_source: video
   - name: XRechnung and ZUGFeRD e-invoice support
     status: unclear
     t: 1716
@@ -248,11 +216,6 @@ features:
     t: 2645
     verified: false
     status_source: video
-  - name: AI agents creating custom languages for efficiency
-    status: unclear
-    t: 3043
-    verified: false
-    status_source: video
 objects_mentioned:
   - other BC quality
   - other Playwright
@@ -270,22 +233,22 @@ quotes:
   - t: 419
     text: it was developed completely using AI and it was developed at faster pace than the other features
     check: exact
+  - t: 582
+    text: the community instructions, and then partners can put their own instructions in there as well to help monitor the code
+    check: exact
   - t: 604
     text: the expense agent was written I think it was 90% by AI was what they had mentioned
     check: exact
   - t: 620
     text: the period of time it took to develop was 6 months. And that period of time or from like idea to release, I think.
     check: exact
-  - t: 648
-    text: it it does show how you can expedite the development process of features within the ERP or for PTEs for customers
-    check: exact
 ---
 
 # Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?
 
-> Dynamics Corner episode 519 is a conversation about AI-assisted Business Central development with GitHub Copilot and Claude. It covers the AI-built expense management agent, multi-agent workflows, and how well AI handles RDL and Word report layouts (about 60-70% success on RDL conversion, field mapping in Word layouts not yet solved).
+> Dynamics Corner episode 519 interviews a Business Central MVP developer about AI-assisted BC development with GitHub Copilot and Claude. Topics: the expense management agent (about 90% AI-written, about 6 months from idea to release), the BC quality agentic code review workflow, multi-agent workflows, AI for report layouts (good-looking Word layouts, but field mapping not yet solved; layout and conversion attempts rated 60-70% successful), and telemetry analysis via MCP.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=c91E6IykUnk) · Dynamics Corner podcast · 2026-05-28 · 53:43 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=c91E6IykUnk) · Dynamics Corner podcast · 2026-05-28 · 53:43 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -296,12 +259,12 @@ The second half focuses on report layouts. The speaker says AI handles RDL reaso
 ## Key points
 
 - The expense management agent was described as about 90 percent written by AI, with about 6 months from idea to release.
-- One developer reports about 95 percent of his AL code is generated by GitHub Copilot, and says it is less buggy than his manual code. He uses MVP access to the Pro Plus version.
-- Multi-agent workflow: a planning agent, a working agent and a reviewing agent. Switching between models consumes credits quickly, and generated code needs manual review.
+- Microsoft's BC quality workflow adds agentic triage and code review with community instructions, and partners can add their own instructions.
+- One developer reports about 95 percent of his code is written by GitHub Copilot and says it is less buggy than his manual code. He uses MVP access to the Pro Plus version.
+- Multi-agent workflow: a planning agent, a working agent and a reviewing agent, with the output always reviewed manually. Switching between models burns through credits quickly.
 - Advice for starting with Copilot: begin without instruction files, sub-agents or skills, and add them after learning the basics.
-- RDL conversion with AI was rated about 60-70 percent successful, and the output sometimes does not compile.
-- AI can design Word layouts from sample data, but the speaker has not succeeded in mapping fields, and the workflow needs significant manual finishing.
-- The direction is toward Word layouts for standard documents. RDLC continues to work, but it is not actively improved and is maintained outside the Business Central team.
+- Asked about RDLC-to-Word conversion, the guest rated his AI results about 60-70 percent successful. Generated RDL sometimes does not compile and Word field mapping has not worked yet, but the output is a good starting point.
+- Claude can design an appealing Word invoice layout from an existing BC invoice. The missing link is connecting the fields properly.
 
 ## Chapters
 
@@ -329,31 +292,25 @@ The second half focuses on report layouts. The speaker says AI handles RDL reaso
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Expense management agent | generally available | [6:34](https://www.youtube.com/watch?v=c91E6IykUnk&t=394s) | "when it's released in the wild when people start using it" ([6:59](https://www.youtube.com/watch?v=c91E6IykUnk&t=419s)) |
-| BC quality workflow with agenting and code review | status not stated | [8:08](https://www.youtube.com/watch?v=c91E6IykUnk&t=488s) |  |
-| GitHub Copilot | status not stated | [14:28](https://www.youtube.com/watch?v=c91E6IykUnk&t=868s) |  |
-| Cloud Code | status not stated | [14:28](https://www.youtube.com/watch?v=c91E6IykUnk&t=868s) |  |
-| GitHub Copilot for AL development | status not stated | [14:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=880s) |  |
-| Multi-agent workflow for development | status not stated | [19:19](https://www.youtube.com/watch?v=c91E6IykUnk&t=1159s) |  |
-| Gamified AL training approach | status not stated | [15:11](https://www.youtube.com/watch?v=c91E6IykUnk&t=911s) |  |
-| Instruction files and sub-agents for Copilot | status not stated | [18:52](https://www.youtube.com/watch?v=c91E6IykUnk&t=1132s) |  |
-| Automated screenshot generation with Playwright | status not stated | [24:14](https://www.youtube.com/watch?v=c91E6IykUnk&t=1454s) |  |
-| Agent-driven documentation generation | status not stated | [22:00](https://www.youtube.com/watch?v=c91E6IykUnk&t=1320s) |  |
-| Professional credits token allocation | status not stated | [19:03](https://www.youtube.com/watch?v=c91E6IykUnk&t=1143s) |  |
-| AI assistance for RDL report creation | status not stated | [29:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=1773s) |  |
-| AI assistance for Word layout design | status not stated | [29:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1789s) |  |
-| Microsoft shift from RDLC to Word layouts | status not stated | [28:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1729s) |  |
-| RDLC layout continued support | status not stated | [36:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=2200s) |  |
-| AI-powered performance analysis for profiler data | status not stated | [37:25](https://www.youtube.com/watch?v=c91E6IykUnk&t=2245s) |  |
-| MCP integration for telemetry log analysis | status not stated | [40:26](https://www.youtube.com/watch?v=c91E6IykUnk&t=2426s) |  |
-| XRechnung and ZUGFeRD e-invoice support | status not stated | [28:36](https://www.youtube.com/watch?v=c91E6IykUnk&t=1716s) |  |
-| Telemetry analysis through MCP | status not stated | [40:26](https://www.youtube.com/watch?v=c91E6IykUnk&t=2426s) |  |
-| AI-powered proactive telemetry monitoring | status not stated | [41:37](https://www.youtube.com/watch?v=c91E6IykUnk&t=2497s) |  |
-| Telemetry for code refactoring identification | status not stated | [42:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=2553s) |  |
-| AI development assistants (Claude, GitHub Copilot, Gemini) | status not stated | [44:05](https://www.youtube.com/watch?v=c91E6IykUnk&t=2645s) |  |
-| AI agents creating custom languages for efficiency | status not stated | [50:43](https://www.youtube.com/watch?v=c91E6IykUnk&t=3043s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Expense management agent | status not stated | [6:34](https://www.youtube.com/watch?v=c91E6IykUnk&t=394s) |
+| BC quality workflow with agenting and code review | status not stated | [8:08](https://www.youtube.com/watch?v=c91E6IykUnk&t=488s) |
+| GitHub Copilot for AL development | status not stated | [14:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=880s) |
+| Multi-agent workflow for development | status not stated | [19:19](https://www.youtube.com/watch?v=c91E6IykUnk&t=1159s) |
+| Instruction files and sub-agents for Copilot | status not stated | [18:52](https://www.youtube.com/watch?v=c91E6IykUnk&t=1132s) |
+| Automated screenshot generation with Playwright | status not stated | [24:14](https://www.youtube.com/watch?v=c91E6IykUnk&t=1454s) |
+| Agent-driven documentation generation | status not stated | [22:00](https://www.youtube.com/watch?v=c91E6IykUnk&t=1320s) |
+| AI assistance for RDL report creation | status not stated | [29:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=1773s) |
+| AI assistance for Word layout design | status not stated | [29:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1789s) |
+| Microsoft shift from RDLC to Word layouts | status not stated | [28:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1729s) |
+| RDLC layout continued support | status not stated | [36:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=2200s) |
+| AI-powered performance analysis for profiler data | status not stated | [37:25](https://www.youtube.com/watch?v=c91E6IykUnk&t=2245s) |
+| XRechnung and ZUGFeRD e-invoice support | status not stated | [28:36](https://www.youtube.com/watch?v=c91E6IykUnk&t=1716s) |
+| Telemetry analysis through MCP | status not stated | [40:26](https://www.youtube.com/watch?v=c91E6IykUnk&t=2426s) |
+| AI-powered proactive telemetry monitoring | status not stated | [41:37](https://www.youtube.com/watch?v=c91E6IykUnk&t=2497s) |
+| Telemetry for code refactoring identification | status not stated | [42:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=2553s) |
+| AI development assistants (Claude, GitHub Copilot, Gemini) | status not stated | [44:05](https://www.youtube.com/watch?v=c91E6IykUnk&t=2645s) |
 
 ## AL objects mentioned
 
@@ -373,9 +330,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [6:34](https://www.youtube.com/watch?v=c91E6IykUnk&t=394s) "the expense management agent. And I'm looking forward to seeing it and to seeing how it actually works."
 - [6:59](https://www.youtube.com/watch?v=c91E6IykUnk&t=419s) "it was developed completely using AI and it was developed at faster pace than the other features"
+- [9:42](https://www.youtube.com/watch?v=c91E6IykUnk&t=582s) "the community instructions, and then partners can put their own instructions in there as well to help monitor the code"
 - [10:04](https://www.youtube.com/watch?v=c91E6IykUnk&t=604s) "the expense agent was written I think it was 90% by AI was what they had mentioned"
 - [10:20](https://www.youtube.com/watch?v=c91E6IykUnk&t=620s) "the period of time it took to develop was 6 months. And that period of time or from like idea to release, I think."
-- [10:48](https://www.youtube.com/watch?v=c91E6IykUnk&t=648s) "it it does show how you can expedite the development process of features within the ERP or for PTEs for customers"
 
 ## Disclaimers in the video
 

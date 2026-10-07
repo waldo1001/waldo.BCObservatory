@@ -474,26 +474,6 @@
       "system": "development"
     },
     {
-      "name": "CWE 3 error message detection",
-      "description": "Detects hard-coded error message values that prevent proper telemetry collection. Recommends using labels with replaceable parameters instead.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1636.8,
-      "t_end": 1651,
-      "is_demoed": true,
-      "caveats": [
-        "Only affects telemetry collection if labels with replaceable parameters are not used"
-      ],
-      "tags": [
-        "error messages",
-        "telemetry",
-        "hard-coding"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Magic number detection",
       "description": "Flags hard-coded numeric values that lack explanation. Recommends extracting them into named variables or functions to improve code readability and maintainability.",
       "status": "unclear",

@@ -113,10 +113,10 @@
     {
       "name": "Agent preview and agent playground",
       "description": "Build agents in sandbox environments and export them to use in code. Allows creating agents visually in Business Central.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 402,
+      "status_evidence_quote": "Maybe we're still in preview. That's what they want though. That's what they want, right?",
+      "status_evidence_verified": true,
       "t_start": 239,
       "t_end": 341.1,
       "is_demoed": true,
@@ -532,27 +532,6 @@
       "system": "development"
     },
     {
-      "name": "Individual Communication Style and AI Output",
-      "description": "Each person has a unique communication style that affects the output from AI models and agents. Different tools and frameworks may work better for different people and tasks, and results vary based on how one communicates with the model.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2286.3,
-      "t_end": 2329.4,
-      "is_demoed": false,
-      "caveats": [
-        "highly subjective to individual communication style",
-        "no universal best tool for all users"
-      ],
-      "tags": [
-        "communication style",
-        "ai interaction",
-        "personalization"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Source Control and Code Review Workflow",
       "description": "What matters most in team development is not which AI tool was used, but the quality of output and how development is managed through source control, branching, merging, and code review processes. These practices maintain consistency regardless of tools used.",
       "status": "unclear",
@@ -694,23 +673,6 @@
       "system": "copilot"
     },
     {
-      "name": "Business Central Development Tools",
-      "description": "The platform continues to add development tools to assist from the development point of view, reinforcing that pure coding days are gone.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3181.3,
-      "t_end": 3193.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "development tools",
-        "ai assistance"
-      ],
-      "system": "development"
-    },
-    {
       "name": "AI-Assisted Development with Architecture Review",
       "description": "Developers need to understand the application and architecture to work with AI, and must review and understand what AI generates rather than blindly accepting it.",
       "status": "unclear",
@@ -730,100 +692,6 @@
         "architecture"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Business Central Constrained Framework Development",
-      "description": "Business Central is a predefined application with constraints that developers must work within, making it critical to understand the framework to review generated code and deliver quality solutions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3241.8,
-      "t_end": 3256.3,
-      "is_demoed": false,
-      "caveats": [
-        "standalone application with fixed framework"
-      ],
-      "tags": [
-        "business central",
-        "framework constraints",
-        "architecture"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Business Central Functionality Understanding Requirement",
-      "description": "BC developers must understand basic functionality, how it works from a business perspective, configuration options, and different use cases across business types - not just coding skills.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3267.6,
-      "t_end": 3330.8,
-      "is_demoed": false,
-      "caveats": [
-        "required for building efficient solutions"
-      ],
-      "tags": [
-        "developer skills",
-        "business central",
-        "functionality knowledge"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Research Before Coding Approach",
-      "description": "Developers should research whether functionality already exists in Business Central before coding custom solutions, as many features may already be built-in standard functionality.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3330.8,
-      "t_end": 3354.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "development approach",
-        "standard functionality",
-        "efficiency"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "AI Enables Architecture and Functionality Focus",
-      "description": "With AI handling more coding tasks, developers now have more time to focus on architecture and understanding Business Central functionality, making these skills even more critical.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3369,
-      "t_end": 3386.5,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai development",
-        "architecture",
-        "developer role shift"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Quality Delivery in Shorter Timeframe",
-      "description": "The outcome of using AI tools and freed-up time should be delivering better quality solutions in a shorter period of time rather than just reducing work hours.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3427,
-      "t_end": 3459.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "quality",
-        "efficiency",
-        "developer productivity"
-      ],
-      "system": "development"
     }
   ],
   "objects": [
@@ -1025,8 +893,8 @@
     },
     {
       "t": 2560.8,
-      "text": "it's important now even more, same as testing all these CI/CD processes. And that's why we all need to look ...",
-      "why_it_matters": "States that AL-Go and CI/CD are increasingly important for AL developers, especially in the AI development era.",
+      "text": "it's important now even more, same as testing all these CI/CD processes. And that's why we all need to look on AL Go",
+      "why_it_matters": "Guest argues CI/CD with AL-Go matters more now that AI generates more code.",
       "check": "exact"
     },
     {
@@ -1045,6 +913,12 @@
       "t": 2921.2,
       "text": "So now I think it's good to start from Visual Studio Code. It's our daily IDE where we as AL developers works every day.",
       "why_it_matters": "Recommends Visual Studio Code as the starting point for AL developers wanting to use AI tools rather than specialized IDEs.",
+      "check": "exact"
+    },
+    {
+      "t": 3079.4,
+      "text": "also try Business Central MCP. It's also good point to to check uh how it works, how data is flowing",
+      "why_it_matters": "Recommends trying the Business Central MCP. The next segment adds that it is not for production use.",
       "check": "exact"
     },
     {

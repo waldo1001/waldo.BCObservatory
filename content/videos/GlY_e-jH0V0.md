@@ -2,7 +2,7 @@
 id: video/GlY_e-jH0V0
 type: video
 title: Urgency without Direction is a problem with AI. Use it with purpose.
-summary: Dynamics Corner podcast clip on adopting Copilot with purpose. Speakers say the pace of change makes adoption hard, that new Copilot instructions, skills and agents felt overwhelming, and that starting with simple prompts and iterating worked.
+summary: "Short clip on adopting AI and Copilot with purpose: use it to solve problems for customers and others, not out of pressure. The speakers say the fast pace of change makes adoption hard and that the new Copilot instructions, skills and agents felt overwhelming. One speaker got started by making something very simple with Copilot's help and now creates prompts all the time."
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - agents
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:13.906Z"
   flags: []
 generated:
-  at: "2026-10-06T18:01:26.072Z"
+  at: "2026-10-07T23:21:13.944Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,7 +54,7 @@ evidence:
     date: "2026-04-08T17:35:06.000Z"
     commit: null
     t: 44
-    quote: i'll just create something very simple i had
+    quote: I'll just create something very simple." I had I had Copilot help me do it.
   - kind: video
     url: https://www.youtube.com/watch?v=GlY_e-jH0V0&t=57s
     title: Urgency without Direction is a problem with AI. Use it with purpose.
@@ -124,8 +124,8 @@ quotes:
     text: when these whole new Copilot instructions came out and skills and agents, I was a little overwhelmed
     check: exact
   - t: 44
-    text: i'll just create something very simple i had
-    check: fuzzy
+    text: I'll just create something very simple." I had I had Copilot help me do it.
+    check: exact
   - t: 57
     text: And now I create these things all the time. I'm creating prompts
     check: exact
@@ -133,9 +133,9 @@ quotes:
 
 # Urgency without Direction is a problem with AI. Use it with purpose.
 
-> Dynamics Corner podcast clip on adopting Copilot with purpose. Speakers say the pace of change makes adoption hard, that new Copilot instructions, skills and agents felt overwhelming, and that starting with simple prompts and iterating worked.
+> Short clip on adopting AI and Copilot with purpose: use it to solve problems for customers and others, not out of pressure. The speakers say the fast pace of change makes adoption hard and that the new Copilot instructions, skills and agents felt overwhelming. One speaker got started by making something very simple with Copilot's help and now creates prompts all the time.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GlY_e-jH0V0) · Dynamics Corner podcast · 2026-04-08 · 1:00 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GlY_e-jH0V0) · Dynamics Corner podcast · 2026-04-08 · 1:00 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -146,10 +146,10 @@ One speaker describes feeling overwhelmed when Copilot instructions, skills and 
 ## Key points
 
 - Apply AI to solve problems for customers and other people, not because of pressure to use it.
-- The rate of change in Copilot is fast enough that adoption can be difficult.
-- Copilot instructions, skills and agents arriving close together left one speaker overwhelmed.
-- Start with something very simple, such as a basic custom prompt, and iterate.
-- Creating prompts for specific use cases becomes routine with practice.
+- The rate of change is so fast that many people find it hard to adopt and do not turn these features on.
+- A key challenge is teaching people to use these features and how to use them.
+- The new Copilot instructions, skills and agents left one speaker overwhelmed and feeling pressure to know how to create them.
+- Starting with something very simple, with Copilot helping, made creating these things and prompts routine.
 
 ## Chapters
 
@@ -160,19 +160,19 @@ One speaker describes feeling overwhelmed when Copilot instructions, skills and 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot instructions | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |  |
-| Copilot skills | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |  |
-| Copilot agents | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |  |
-| Copilot prompt creation | status not stated | [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot instructions | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot skills | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot agents | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot prompt creation | status not stated | [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) |
 
 ## Quotes
 
 - [0:00](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=0s) "to help solve problems for customers and other people instead of feeling the pressure to use it, use it and apply it"
 - [0:13](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=13s) "the rate of change is so fast that sometimes it's difficult to adopt it"
 - [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) "when these whole new Copilot instructions came out and skills and agents, I was a little overwhelmed"
-- [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) "i'll just create something very simple i had"
+- [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) "I'll just create something very simple." I had I had Copilot help me do it."
 - [0:57](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=57s) "And now I create these things all the time. I'm creating prompts"
 
 Presenters (as heard): Chris.

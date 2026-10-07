@@ -1,0 +1,35 @@
+{
+  "video_id": "xWOddQt1GUM",
+  "item_id": "video/yt-dynamicscorner/xWOddQt1GUM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at t=2560.8 ends with an added ellipsis, so it is not verbatim. I replaced it with the full span, which ends with 'look on AL Go'.",
+    "Feature statuses were missing even though the transcript gives them. The agent preview is called 'still in preview' (t=402), the troubleshooting MCP server for AL is 'due in May' (t=303.2) and the AL tasks from VS Code 'should be out now' (t=316.9).",
+    "Several entries in the features list are opinions or advice, not product features: communication style, quality in a shorter time, research before coding, understanding of BC functionality, the constrained framework and generic dev tools. I dropped them.",
+    "Two quote pairs overlap: the two at t=867.4 and the two at t=3193.2. I kept both of each because drop_quotes works by t and would remove both.",
+    "The Command-line AI agents description says 'Claude from Anthropic', but the transcript says 'Cloud Code from Anthropic' (likely a caption error for Claude Code). This is minor.",
+    "The summary and key points are supported by the transcript. The BC MCP sandbox and Docker limit is at t=3093.6, and the AL-Go runner cost is at t=2635.8."
+  ],
+  "input_hash": "4e6bc4db79b8b6b7c18c531fc417a13d87746421aeac6dca72b147c03d99d0c0",
+  "by": "opus",
+  "at": "2026-10-07T23:21:04.330Z",
+  "applied": [
+    "dropped 7 feature(s)",
+    "Agent preview and agent playground: status preview",
+    "dropped 1 quote(s)",
+    "quote at 2561s",
+    "quote at 3079s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status Enable troubleshooting MCP server for AL -> announced: evidence not verbatim or does not state the status",
+    "status AL tasks from Visual Studio Code -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.287997
+  }
+}

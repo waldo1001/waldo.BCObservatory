@@ -1,0 +1,30 @@
+{
+  "video_id": "jWJc_D67Vfw",
+  "item_id": "video/yt-areopa/jWJc_D67Vfw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point on the print layout said the user verifies before deployment. In the transcript the layout was built and pushed to the QA environment first, and then checked side by side against the PDF. I corrected this and added the timing: under 12 minutes of AI work, 2 minutes of the user's time.",
+    "The key points left out the green, orange, red zone rule for what to share with AI, which is one of the talk's three main lessons. I added it.",
+    "The summary now mentions the privacy rule and the replacement ladder (shifting from doer to director).",
+    "Several quotes overlap or repeat (two at 850.6, two at 2362.3, two at 2418.8). A few also end in an ellipsis. This is a minor problem and they were left in place, because dropping by t would remove both quotes at that t.",
+    "The Claude Code preview status is backed by a verbatim quote, but it describes the release in early 2025 rather than a Business Central feature.",
+    "Most features are working methods (director mindset, marathon conversations, meta prompting), not product features. They are supported as described, so their status stays unclear."
+  ],
+  "input_hash": "3ce98af071b0ea0259f39eeb7d76a95cfe44e5eed4e20f61ef2cbb938d716595",
+  "by": "opus",
+  "at": "2026-10-07T23:20:39.334Z",
+  "applied": [
+    "Claude Code: status preview",
+    "quote at 959s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.228605
+  }
+}

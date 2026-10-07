@@ -1,14 +1,14 @@
 {
   "video_id": "WjFx9yYf1js",
   "item_id": "video/yt-dynamicscorner/WjFx9yYf1js",
-  "summary": "Vibe coding risk in Business Central development: a short Dynamics Corner podcast clip contrasting personal productivity tools with extensions used by many employees, and why code touching posting routines needs more care than a simple report.",
+  "summary": "This is a short clip about the risks of vibe coding in Business Central. The speaker contrasts personal productivity tools, where a failure affects only the author and the author can fix it, with an extension used by a business of maybe 200 employees, which has a larger risk surface. A fancy report may not be critical, but code that touches posting routines needs assurance that it will not break.",
   "overview": "A short clip from the Dynamics Corner podcast on risks of vibe coding in Business Central. The speaker describes building tools for personal use to be more productive, and says this exposes only a limited risk surface to themselves.\n\nThe speaker then contrasts this with writing an extension used in a business with about 200 employees, where the risk surface is different. A fancy report is not very critical, but code touching posting routines should be checked so it does not break anything. The clip ends before the thought on posting routines is finished.",
   "key_points": [
-    "Personal tools built for your own productivity expose a limited risk surface, mainly to yourself.",
-    "An extension used across a business, for example with 200 employees, has a different and larger risk surface.",
-    "A report is described as not very critical if it goes wrong.",
-    "Code that touches posting routines needs assurance that it does not break anything.",
-    "The clip is about one minute long and the posting routines point is left unfinished."
+    "Personal tools built for your own productivity affect only you if they break, and as the builder you can probably fix them.",
+    "That makes personal tools a limited risk surface.",
+    "An extension used across a business, for example one with 200 employees, has a different and larger risk surface.",
+    "The risk depends on the use case: a fancy report may not be that critical.",
+    "Code that touches posting routines needs assurance that it is not breaking anything. The clip cuts off mid-sentence at this point."
   ],
   "audience": [
     "developer",

@@ -2,7 +2,7 @@
 id: video/YIeE63Kn8sI
 type: video
 title: "Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool"
-summary: Podcast episode on starting AI adoption from the business problem, not the tool. Covers an AI decision matrix, mapping opportunity to cash, tool and data privacy checks, AI policy and governance, agent guardrails and costs, and value-based pricing for professional services.
+summary: "Dynamics Corner podcast with Matt Shrubsole (Red Hawk Technologies) on starting AI adoption from the business problem, not the tool. It is general strategy and covers no specific Business Central features. Topics: a downloadable AI decision matrix, mapping opportunity to cash, data privacy checks when choosing a tool, AI policy and shadow IT, agent guardrails and token costs, fractional CIOs, and value-based pricing for professional services."
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - ai policy
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:38.222Z"
   flags: []
 generated:
-  at: "2026-10-06T17:56:18.177Z"
+  at: "2026-10-07T23:20:38.309Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,19 +54,19 @@ evidence:
     t: 767
     quote: But really what you're doing is you're talking about the business challenge first to find the opportunities.
   - kind: video
+    url: https://www.youtube.com/watch?v=YIeE63Kn8sI&t=779s
+    title: "Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool"
+    date: "2026-05-12T13:00:06.000Z"
+    commit: null
+    t: 779
+    quote: we actually created an AI decision matrix. It's really pretty simple. And you know, people can download it on our website
+  - kind: video
     url: https://www.youtube.com/watch?v=YIeE63Kn8sI&t=815s
     title: "Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool"
     date: "2026-05-12T13:00:06.000Z"
     commit: null
     t: 815
     quote: Because, you know, you if you're talking about opportunity to cash, right? Every business is opportunity to cash.
-  - kind: video
-    url: https://www.youtube.com/watch?v=YIeE63Kn8sI&t=825s
-    title: "Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool"
-    date: "2026-05-12T13:00:06.000Z"
-    commit: null
-    t: 825
-    quote: all businesses are in business to make money yes period if it's
 links:
   learn: []
   objects: []
@@ -191,11 +191,6 @@ features:
     t: 2397
     verified: false
     status_source: video
-  - name: Problem-first approach to AI implementation
-    status: unclear
-    t: 1764
-    verified: false
-    status_source: video
   - name: Data quality prerequisites for AI agents
     status: unclear
     t: 1824
@@ -204,11 +199,6 @@ features:
   - name: Fractional CIO model for AI governance
     status: unclear
     t: 2157
-    verified: false
-    status_source: video
-  - name: Multiple AI agents for parallel tasks
-    status: unclear
-    t: 2397
     verified: false
     status_source: video
   - name: AI-driven quality assurance and testing
@@ -247,19 +237,19 @@ quotes:
   - t: 767
     text: But really what you're doing is you're talking about the business challenge first to find the opportunities.
     check: exact
+  - t: 779
+    text: we actually created an AI decision matrix. It's really pretty simple. And you know, people can download it on our website
+    check: exact
   - t: 815
     text: Because, you know, you if you're talking about opportunity to cash, right? Every business is opportunity to cash.
     check: exact
-  - t: 825
-    text: all businesses are in business to make money yes period if it's
-    check: fuzzy
 ---
 
 # Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool
 
-> Podcast episode on starting AI adoption from the business problem, not the tool. Covers an AI decision matrix, mapping opportunity to cash, tool and data privacy checks, AI policy and governance, agent guardrails and costs, and value-based pricing for professional services.
+> Dynamics Corner podcast with Matt Shrubsole (Red Hawk Technologies) on starting AI adoption from the business problem, not the tool. It is general strategy and covers no specific Business Central features. Topics: a downloadable AI decision matrix, mapping opportunity to cash, data privacy checks when choosing a tool, AI policy and shadow IT, agent guardrails and token costs, fractional CIOs, and value-based pricing for professional services.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YIeE63Kn8sI) · Dynamics Corner podcast · 2026-05-12 · 1:02:24 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YIeE63Kn8sI) · Dynamics Corner podcast · 2026-05-12 · 1:02:24 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -305,35 +295,33 @@ The discussion then covers practical risks and effects. These include checking t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI decision matrix | status not stated | [12:59](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=779s) |  |
-| Business-first AI approach | status not stated | [10:56](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=656s) |  |
-| Opportunity to cash workflow | status not stated | [13:35](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=815s) |  |
-| AI as personal assistant | status not stated, demoed | [6:42](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=402s) |  |
-| Agentic workflow optimization | status not stated | [15:25](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=925s) |  |
-| AI notebook as research assistant | status not stated | [18:00](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1080s) |  |
-| AI tool selection guidance for non-technical users | status not stated | [22:31](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1351s) |  |
-| Data privacy validation for AI tool selection | status not stated | [23:13](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1393s) |  |
-| AI governance and policy framework | status not stated | [25:09](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1509s) |  |
-| AI cost monitoring and token limits | status not stated | [27:58](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1678s) |  |
-| AI agents with guardrails and boundary setting | status not stated | [39:57](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2397s) |  |
-| Problem-first approach to AI implementation | status not stated | [29:24](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1764s) |  |
-| Data quality prerequisites for AI agents | status not stated | [30:24](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1824s) |  |
-| Fractional CIO model for AI governance | status not stated | [35:57](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2157s) |  |
-| Multiple AI agents for parallel tasks | status not stated | [39:57](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2397s) |  |
-| AI-driven quality assurance and testing | status not stated | [45:11](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2711s) |  |
-| Value-based pricing model adoption | status not stated | [51:09](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3069s) |  |
-| Agentic workflows for CVE remediation | status not stated | [56:27](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3387s) |  |
-| Automated technical documentation generation | status not stated | [56:56](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3416s) |  |
-| AI documentation for AI agent maintenance | status not stated | [58:29](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3509s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI decision matrix | status not stated | [12:59](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=779s) |
+| Business-first AI approach | status not stated | [10:56](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=656s) |
+| Opportunity to cash workflow | status not stated | [13:35](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=815s) |
+| AI as personal assistant | status not stated, demoed | [6:42](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=402s) |
+| Agentic workflow optimization | status not stated | [15:25](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=925s) |
+| AI notebook as research assistant | status not stated | [18:00](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1080s) |
+| AI tool selection guidance for non-technical users | status not stated | [22:31](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1351s) |
+| Data privacy validation for AI tool selection | status not stated | [23:13](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1393s) |
+| AI governance and policy framework | status not stated | [25:09](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1509s) |
+| AI cost monitoring and token limits | status not stated | [27:58](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1678s) |
+| AI agents with guardrails and boundary setting | status not stated | [39:57](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2397s) |
+| Data quality prerequisites for AI agents | status not stated | [30:24](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=1824s) |
+| Fractional CIO model for AI governance | status not stated | [35:57](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2157s) |
+| AI-driven quality assurance and testing | status not stated | [45:11](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=2711s) |
+| Value-based pricing model adoption | status not stated | [51:09](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3069s) |
+| Agentic workflows for CVE remediation | status not stated | [56:27](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3387s) |
+| Automated technical documentation generation | status not stated | [56:56](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3416s) |
+| AI documentation for AI agent maintenance | status not stated | [58:29](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=3509s) |
 
 ## Quotes
 
 - [10:56](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=656s) "I think that it's very much along the lines of traditional business strategic planning. If for example, take AI completely out of the conversation."
 - [12:21](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=741s) "i would say flip the script look at your business holistically first and think about"
 - [12:47](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=767s) "But really what you're doing is you're talking about the business challenge first to find the opportunities."
+- [12:59](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=779s) "we actually created an AI decision matrix. It's really pretty simple. And you know, people can download it on our website"
 - [13:35](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=815s) "Because, you know, you if you're talking about opportunity to cash, right? Every business is opportunity to cash."
-- [13:45](https://www.youtube.com/watch?v=YIeE63Kn8sI&t=825s) "all businesses are in business to make money yes period if it's"
 
 Presenters (as heard): Chris, Brad, Matt Shrubsole, Matt, Matt Triplett, Max, Brett.

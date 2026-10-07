@@ -644,10 +644,10 @@
     {
       "name": "Future agentic scenarios",
       "description": "AI agents will increasingly help execute repeatable business tasks in Business Central, and consultants may need to help define what data agents should be allowed to access.",
-      "status": "announced",
-      "status_evidence_t": 2441.7,
-      "status_evidence_quote": "future agentic scenarios future it could be very near future the speed that these these agentic capabilities are developing at where AI helps execute",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 2441.7,
       "t_end": 2458.4,
       "is_demoed": false,
@@ -871,9 +871,9 @@
       "check": "exact"
     },
     {
-      "t": 1050.8,
-      "text": "in every case as well with the prompts, you're starting I'm using it to basically define a persona first because ...",
-      "why_it_matters": "Introduces the technique of persona-based prompting as a best practice for getting more relevant and contextual responses from Copilot.",
+      "t": 1070.1,
+      "text": "You can also ask it to play the role of a different persona.",
+      "why_it_matters": "Supports the persona-based prompting technique used throughout the demo prompts.",
       "check": "exact"
     },
     {
@@ -892,12 +892,6 @@
       "t": 1493,
       "text": "generate functional test cases include these topics for each point. So some preconditions are set up um test data steps expected results and at",
       "why_it_matters": "Specifies the structured format that effective test case generation should include, with variations and traceability back to requirements.",
-      "check": "exact"
-    },
-    {
-      "t": 1616.7,
-      "text": "this is probably quite a familiar um area with with if you are using co-pilot this is you know documentation ...",
-      "why_it_matters": "Establishes that Copilot documentation generation is a mature, commonly-used capability for implementation projects.",
       "check": "exact"
     },
     {
@@ -968,15 +962,9 @@
     },
     {
       "t": 3131.7,
-      "text": "for the sort of the vast vast majority of what I covered today is covered within Microsoft 365 co-pilot which ...",
-      "why_it_matters": "Provides pricing information for M365 Copilot Premium Work Edition, the primary AI tool discussed for consultant delivery.",
+      "text": "monthly per user per month um cost which varies by country but um I think around about $30 per user per month",
+      "why_it_matters": "States the approximate Microsoft 365 Copilot licence cost cited in the Q&A.",
       "check": "exact"
-    },
-    {
-      "t": 3131.7,
-      "text": "the vast vast majority of what i covered today is covered within microsoft 365 co pilot which is uh a monthly per user",
-      "why_it_matters": "Establishes the pricing model for Copilot functionality at approximately $30 per user per month, clarifying licensing approach.",
-      "check": "fuzzy"
     },
     {
       "t": 3220.6,

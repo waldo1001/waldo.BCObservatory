@@ -2,7 +2,7 @@
 id: video/LuAHCXiwYn4
 type: video
 title: "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)"
-summary: Swappable Claude Code profiles for AL development, using Docker container mounting of a host config folder per project. Part 3 of a series by Stefan Maron. It covers project-scoped agents, memory, telemetry MCP folders, the LSP plugin, and moving from commands to skills.
+summary: "Live stream on running Claude Code in a Docker container with swappable profiles: a host config folder (instructions, agents, skills, cached credentials, memory) is mounted as the Claude main folder, so different profiles can be used per project, such as an AL development profile or a telemetry folder with Waldo's MCP server. It also demos creating an AL repo summarizer agent, setting up an AL LSP plugin, and moving from commands to skills that can run in custom sub-agents."
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - skills
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:30.183Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:30.231Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -61,12 +61,12 @@ evidence:
     t: 504
     quote: create an agent that's uh specialized in uh summarizing AL repositories to give a general overview over this that is human readable
   - kind: video
-    url: https://www.youtube.com/watch?v=LuAHCXiwYn4&t=538s
+    url: https://www.youtube.com/watch?v=LuAHCXiwYn4&t=608s
     title: "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)"
     date: "2026-03-16T11:02:46.000Z"
     commit: null
-    t: 538
-    quote: I don't know if it's general availability now or my user account has been enabled for the voice mode but it seems to not
+    t: 608
+    quote: it saved it automatically into the ALS specific user directory. Isn't that cool?
 links:
   learn: []
   objects: []
@@ -119,11 +119,6 @@ features:
     t: 128
     verified: false
     status_source: video
-  - name: Project-scoped agent creation
-    status: unclear
-    t: 467
-    verified: false
-    status_source: video
   - name: AL repository summarizer agent
     status: unclear
     t: 504
@@ -132,16 +127,6 @@ features:
   - name: Agent memory and automatic persistence
     status: unclear
     t: 591
-    verified: false
-    status_source: video
-  - name: Cloud code voice mode
-    status: unclear
-    t: 538
-    verified: false
-    status_source: video
-  - name: Repository Summarizer Tool
-    status: unclear
-    t: 836
     verified: false
     status_source: video
   - name: Container-based project switching with cloud code
@@ -189,11 +174,6 @@ features:
     t: 2348
     verified: false
     status_source: video
-  - name: GitHub issue reporting for container problems
-    status: unclear
-    t: 2402
-    verified: false
-    status_source: video
 objects_mentioned:
   - other cloud.markdown
   - other AL repo summarizer
@@ -213,16 +193,16 @@ quotes:
   - t: 504
     text: create an agent that's uh specialized in uh summarizing AL repositories to give a general overview over this that is human readable
     check: exact
-  - t: 538
-    text: I don't know if it's general availability now or my user account has been enabled for the voice mode but it seems to not
+  - t: 608
+    text: it saved it automatically into the ALS specific user directory. Isn't that cool?
     check: exact
 ---
 
 # Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)
 
-> Swappable Claude Code profiles for AL development, using Docker container mounting of a host config folder per project. Part 3 of a series by Stefan Maron. It covers project-scoped agents, memory, telemetry MCP folders, the LSP plugin, and moving from commands to skills.
+> Live stream on running Claude Code in a Docker container with swappable profiles: a host config folder (instructions, agents, skills, cached credentials, memory) is mounted as the Claude main folder, so different profiles can be used per project, such as an AL development profile or a telemetry folder with Waldo's MCP server. It also demos creating an AL repo summarizer agent, setting up an AL LSP plugin, and moving from commands to skills that can run in custom sub-agents.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LuAHCXiwYn4) · Stefan Maron · 2026-03-16 · 41:01 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LuAHCXiwYn4) · Stefan Maron · 2026-03-16 · 41:01 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -233,8 +213,8 @@ The second half covers a telemetry folder that loads Waldo's MCP server, the LSP
 ## Key points
 
 - Config is persisted into a host config folder rather than a Docker volume, and that folder is passed into the container as the Claude main folder. Any folder on disk can be used, not only the home directory.
-- The host folder caches sensitive credentials and memory files, so treat it as sensitive. Switching projects requires re-authenticating.
-- Agents can be created project-scoped and are stored in project-specific directories instead of globally. The demo built an AL repository summarizer agent that gives a human-readable overview.
+- The host folder caches credentials and memory files and may contain sensitive information. Starting with a different folder asks you to log in again, so different authentications are possible.
+- Agents can be created with project scope or personal scope; personal agents go into the mounted profile folder. The demo created a personal AL repository summarizer agent, which was saved automatically to the AL-specific user directory and created agent memory.
 - Commands are described as the legacy approach. Skills follow the agent skills standard, can be invoked automatically by the model, and have no built-in generator.
 - Skill context is either omitted or fork. Skills can have supporting files and helper scripts, and can be set up to use dedicated sub-agents.
 - Waldo's telemetry MCP server can be loaded into its own folder with its own instructions. The presenter currently uses one dedicated telemetry folder across all projects.
@@ -258,24 +238,20 @@ The second half covers a telemetry folder that loads Waldo's MCP server, the LSP
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Host folder mounting for cloud configuration | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=128s) |  |
-| Project-scoped agent creation | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=467s) |  |
-| AL repository summarizer agent | status not stated, demoed | [8:24](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=504s) |  |
-| Agent memory and automatic persistence | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=591s) |  |
-| Cloud code voice mode | status not stated | [8:58](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=538s) |  |
-| Repository Summarizer Tool | status not stated, demoed | [13:56](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=836s) |  |
-| Container-based project switching with cloud code | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=884s) |  |
-| Per-folder MCP server configuration | status not stated, demoed | [16:36](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=996s) |  |
-| LSP code navigation plugin | status not stated | [19:14](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1154s) |  |
-| Skills framework for AI development | status not stated, demoed | [24:04](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1444s) |  |
-| Skill context configuration | status not stated, demoed | [29:04](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1744s) |  |
-| Supporting files in skills | status not stated, demoed | [33:16](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1996s) |  |
-| Sub-agents for skills | status not stated, demoed | [35:12](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2112s) |  |
-| Commands to skills migration pattern | status not stated | [37:20](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2240s) |  |
-| Swappable Claude profiles per project via container mounting | status not stated | [39:08](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2348s) |  |
-| GitHub issue reporting for container problems | status not stated | [40:02](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2402s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Host folder mounting for cloud configuration | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=128s) |
+| AL repository summarizer agent | status not stated, demoed | [8:24](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=504s) |
+| Agent memory and automatic persistence | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=591s) |
+| Container-based project switching with cloud code | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=884s) |
+| Per-folder MCP server configuration | status not stated, demoed | [16:36](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=996s) |
+| LSP code navigation plugin | status not stated | [19:14](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1154s) |
+| Skills framework for AI development | status not stated, demoed | [24:04](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1444s) |
+| Skill context configuration | status not stated, demoed | [29:04](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1744s) |
+| Supporting files in skills | status not stated, demoed | [33:16](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=1996s) |
+| Sub-agents for skills | status not stated, demoed | [35:12](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2112s) |
+| Commands to skills migration pattern | status not stated | [37:20](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2240s) |
+| Swappable Claude profiles per project via container mounting | status not stated | [39:08](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=2348s) |
 
 ## AL objects mentioned
 
@@ -293,7 +269,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:07](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=247s) "We pass in the cloud AO development folder as the cloud main folder inside the container"
 - [7:00](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=420s) "I can have differently prepared user directories somewhere. It doesn't have to be home. You can have it wherever you want on disk"
 - [8:24](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=504s) "create an agent that's uh specialized in uh summarizing AL repositories to give a general overview over this that is human readable"
-- [8:58](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=538s) "I don't know if it's general availability now or my user account has been enabled for the voice mode but it seems to not"
+- [10:08](https://www.youtube.com/watch?v=LuAHCXiwYn4&t=608s) "it saved it automatically into the ALS specific user directory. Isn't that cool?"
 
 ## Disclaimers in the video
 

@@ -1,0 +1,28 @@
+{
+  "video_id": "YUgTqJsNLW0",
+  "item_id": "video/yt-dynamicscorner/YUgTqJsNLW0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary names the 'Dynamics Corner podcast', but neither the transcript nor the title says that. Removed it as outside knowledge.",
+    "The key point 'The speaker says this is not currently available' overstated the transcript. The speaker only says 'eventually' and 'down the road'. Reworded it.",
+    "The key point calling the clip 'opinion from a podcast' relied on the unsupported podcast attribution. Reworded it.",
+    "The transcript never mentions Copilot, so the 'copilot' system tag is not supported. This field cannot be edited here.",
+    "Quotes are verbatim and the feature status 'unclear' fits the speculative content."
+  ],
+  "input_hash": "32a4b9ec684d981bba469decc592c18efb4cc1c6ecc69f10969d6658413c926b",
+  "by": "opus",
+  "at": "2026-10-07T23:20:56.575Z",
+  "applied": [
+    "Business manager agent with conversational interface: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032277
+  }
+}

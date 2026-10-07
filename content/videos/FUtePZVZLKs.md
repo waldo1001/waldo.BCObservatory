@@ -2,7 +2,7 @@
 id: video/FUtePZVZLKs
 type: video
 title: "AI consuming AI output. #businesscentral #bc #msdyn365bc"
-summary: Dynamics Corner short clip on AI-generated and AI-consumed content in Business Central work. It raises, as an open question, whether humans need to read development, extension and business process documents if AI is the one consuming them. No feature or status is confirmed.
+summary: Short discussion clip about the growing volume of documentation and extensions in Business Central development. The speaker notes that people are now creating development, extension and business process documents that were never written before. The speaker asks, as an open question, whether humans still need this content if AI will be the one consuming it. No feature or release status is mentioned.
 tier: community
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - ai-driven workflows
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:23.901Z"
   flags: []
 generated:
-  at: "2026-10-06T17:55:56.592Z"
+  at: "2026-10-07T23:20:23.939Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,12 +80,7 @@ chapters:
     title: Scaling concerns and AI consumption
   - t: 29
     title: Question on necessity of human-readable content
-features:
-  - name: AI consuming developer-generated content
-    status: unclear
-    t: 0
-    verified: false
-    status_source: video
+features: []
 objects_mentioned: []
 quotes:
   - t: 0
@@ -104,9 +99,9 @@ quotes:
 
 # AI consuming AI output. #businesscentral #bc #msdyn365bc
 
-> Dynamics Corner short clip on AI-generated and AI-consumed content in Business Central work. It raises, as an open question, whether humans need to read development, extension and business process documents if AI is the one consuming them. No feature or status is confirmed.
+> Short discussion clip about the growing volume of documentation and extensions in Business Central development. The speaker notes that people are now creating development, extension and business process documents that were never written before. The speaker asks, as an open question, whether humans still need this content if AI will be the one consuming it. No feature or release status is mentioned.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=FUtePZVZLKs) · Dynamics Corner podcast · 2026-05-08 · 0:38 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=FUtePZVZLKs) · Dynamics Corner podcast · 2026-05-08 · 0:38 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -116,23 +111,17 @@ The speaker then asks whether there is a point where there is too much content f
 
 ## Key points
 
-- Speaker says AI-assisted creation of development and extension documents is producing documents that were not written before.
+- Speaker notes people are creating development and extension documents that no one thought to create before, and says they are better than anyone would write.
 - Business process documents, extensions and applications are also being created in growing numbers.
 - Open question: is there a point where there is too much content for people to consume?
-- Open question: if AI consumes the documentation, is human-readable content still needed?
-- Presented as opinion and discussion, not a confirmed or planned Business Central feature.
+- Open question: if AI consumes the documentation, is it still needed in a sense?
+- Opinion and discussion only. No Business Central feature or status is announced.
 
 ## Chapters
 
 - [0:00](https://www.youtube.com/watch?v=FUtePZVZLKs&t=0s) Documentation and development expansion
 - [0:18](https://www.youtube.com/watch?v=FUtePZVZLKs&t=18s) Scaling concerns and AI consumption
 - [0:29](https://www.youtube.com/watch?v=FUtePZVZLKs&t=29s) Question on necessity of human-readable content
-
-## Features
-
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI consuming developer-generated content | status not stated | [0:00](https://www.youtube.com/watch?v=FUtePZVZLKs&t=0s) |  |
 
 ## Quotes
 

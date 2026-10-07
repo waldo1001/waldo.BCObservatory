@@ -2,7 +2,7 @@
 id: video/Q-oazDEucLE
 type: video
 title: 20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL
-summary: "Using AI agents to refactor legacy AL code safely: compiler and linter feedback, debug logging through the telemetry logger interface, approval tests, mutation testing, and a TDD loop with wrapper procedures. Shown in a demo-based webinar from Areopa."
+summary: Areopa webinar (a rerun of a Days of Knowledge talk) on using AI agents to refactor legacy AL code safely. It covers compiler and linter feedback with warnings treated as errors, and debug logging by intercepting feature telemetry through a test-app telemetry logger that writes JSONL files in the container. It also covers temporary approval (characterization) tests, agent-run mutation testing, and a TDD loop using wrapper procedures. These are presented as a development workflow, not as product features.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - code paths
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:16.843Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:16.915Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,11 +199,6 @@ features:
     t: 1738
     verified: false
     status_source: video
-  - name: Agent-driven mutation testing automation
-    status: unclear
-    t: 1878
-    verified: false
-    status_source: video
   - name: Test-driven development loop in refactoring
     status: unclear
     t: 1984
@@ -307,9 +302,9 @@ quotes:
 
 # 20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL
 
-> Using AI agents to refactor legacy AL code safely: compiler and linter feedback, debug logging through the telemetry logger interface, approval tests, mutation testing, and a TDD loop with wrapper procedures. Shown in a demo-based webinar from Areopa.
+> Areopa webinar (a rerun of a Days of Knowledge talk) on using AI agents to refactor legacy AL code safely. It covers compiler and linter feedback with warnings treated as errors, and debug logging by intercepting feature telemetry through a test-app telemetry logger that writes JSONL files in the container. It also covers temporary approval (characterization) tests, agent-run mutation testing, and a TDD loop using wrapper procedures. These are presented as a development workflow, not as product features.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Q-oazDEucLE) · Areopa webinars · 2026-06-02 · 54:22 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Q-oazDEucLE) · Areopa webinars · 2026-06-02 · 54:22 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -319,13 +314,13 @@ The main part is a workflow for code with no tests. Debug log markers in if stat
 
 ## Key points
 
-- Compile after every agent change and use complexity linters, so overly long procedures cause compiler errors. Pair this with warnings-as-errors and a ruleset file.
-- Debug logging uses the AL telemetry logger interface to write JSONL files inside the container. The files are available immediately, unlike Application Insights with its 2-5 minute delay. The call is asynchronous and does not block code.
-- Debug log markers in if statements and cases show which code paths a test hit. They replace manual breakpoint debugging, and a CI/CD check should make sure the markers are removed before shipping.
-- Approval (characterization) tests record existing behavior and let bugs pass, so refactoring stays one-to-one. They are meant to be temporary because they need heavy setup and database access and run slowly.
-- Mutation testing changes one production code element at a time to confirm tests fail. An agent can run the compile, publish, test, revert cycle across hundreds of mutations. It needs a clean git state and can take hours.
+- Compile after every agent change and use complexity linters, so overly long procedures cause compiler errors. Pair this with the command-line option to treat warnings as errors and a ruleset file.
+- Debug logging implements the telemetry logger interface in a test app with the same publisher. This intercepts feature telemetry and writes JSONL files inside the container. The files are available immediately, unlike Application Insights with its 2 to 5 minute delay. The call is asynchronous and does not block code.
+- Debug log markers in if statements and cases show which code paths a test hit. They replace manual breakpoint debugging, and a CI/CD check fails on feature telemetry messages starting with debug, so markers are not shipped.
+- Approval (characterization) tests record existing behavior and let bugs pass, so refactoring stays one-to-one. They are temporary because they need heavy setup and database access and run slowly.
+- Mutation testing changes one production code element at a time to confirm a test fails. The agent writes a mutation plan for critical paths, the developer reviews it, and the agent runs the compile, publish, test, revert cycle using git from a clean repository. This can take an hour or two.
 - Wrapper procedures with the same signature route calls to the old or new implementation, so the same approval tests validate both.
-- After refactoring, write real unit and integration tests. Bugs found in the legacy code are fixed only after the refactor is complete.
+- After refactoring, write real unit and integration tests. Bugs found in the legacy code are listed and fixed only after the refactor is complete.
 
 ## Chapters
 
@@ -358,36 +353,35 @@ The main part is a workflow for code with no tests. Debug log markers in if stat
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI code generation for legacy AL refactoring | status not stated | [7:17](https://www.youtube.com/watch?v=Q-oazDEucLE&t=437s) |  |
-| Compilation as first-pass validation for AI agents | status not stated | [10:08](https://www.youtube.com/watch?v=Q-oazDEucLE&t=608s) |  |
-| Static analysis linters for code quality | status not stated | [10:46](https://www.youtube.com/watch?v=Q-oazDEucLE&t=646s) |  |
-| Complexity linters for procedure length control | status not stated | [11:42](https://www.youtube.com/watch?v=Q-oazDEucLE&t=702s) |  |
-| Warning-as-errors compiler option with ruleset files | status not stated | [12:16](https://www.youtube.com/watch?v=Q-oazDEucLE&t=736s) |  |
-| Test-driven development with AI agents | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=Q-oazDEucLE&t=788s) |  |
-| Build automation and CI/CD for agent loops | status not stated | [14:27](https://www.youtube.com/watch?v=Q-oazDEucLE&t=867s) |  |
-| Debug logging via telemetry interception | status not stated, demoed | [21:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1264s) |  |
-| Observational test patterns for code discovery | status not stated, demoed | [25:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1549s) |  |
-| Automated path coverage verification | status not stated, demoed | [25:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1549s) |  |
-| Approval testing for refactoring preparation | status not stated, demoed | [27:36](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1656s) |  |
-| Mutation testing for scenario coverage verification | status not stated, demoed | [28:58](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1738s) |  |
-| Agent-driven mutation testing automation | status not stated, demoed | [31:18](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1878s) |  |
-| Test-driven development loop in refactoring | status not stated, demoed | [33:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1984s) |  |
-| Wrapper procedures for safe refactoring | status not stated, demoed | [34:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2071s) |  |
-| Agent-assisted economics of safe refactoring | status not stated | [35:45](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2145s) |  |
-| Large language model selection for AL code | status not stated | [37:42](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2262s) |  |
-| Git hooks for agent instruction enforcement | status not stated | [38:40](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2320s) |  |
-| Tests as project documentation for agents | status not stated | [40:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2404s) |  |
-| AI Agent for test execution and verification | status not stated | [39:09](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2349s) |  |
-| Leave codebase better rule | status not stated | [40:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2449s) |  |
-| Touch code only when necessary | status not stated | [41:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2491s) |  |
-| AI-assisted test development playbook | status not stated | [41:52](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2512s) |  |
-| Debug logging with feature telemetry safety nets | status not stated | [44:24](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2664s) |  |
-| AI-generated mutation testing plans | status not stated | [46:28](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2788s) |  |
-| Characterization testing for legacy code | status not stated | [49:22](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2962s) |  |
-| Real unit and integration tests after refactoring | status not stated | [50:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=3031s) |  |
-| Bug discovery during decoupling and refactoring | status not stated | [51:25](https://www.youtube.com/watch?v=Q-oazDEucLE&t=3085s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI code generation for legacy AL refactoring | status not stated | [7:17](https://www.youtube.com/watch?v=Q-oazDEucLE&t=437s) |
+| Compilation as first-pass validation for AI agents | status not stated | [10:08](https://www.youtube.com/watch?v=Q-oazDEucLE&t=608s) |
+| Static analysis linters for code quality | status not stated | [10:46](https://www.youtube.com/watch?v=Q-oazDEucLE&t=646s) |
+| Complexity linters for procedure length control | status not stated | [11:42](https://www.youtube.com/watch?v=Q-oazDEucLE&t=702s) |
+| Warning-as-errors compiler option with ruleset files | status not stated | [12:16](https://www.youtube.com/watch?v=Q-oazDEucLE&t=736s) |
+| Test-driven development with AI agents | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=Q-oazDEucLE&t=788s) |
+| Build automation and CI/CD for agent loops | status not stated | [14:27](https://www.youtube.com/watch?v=Q-oazDEucLE&t=867s) |
+| Debug logging via telemetry interception | status not stated, demoed | [21:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1264s) |
+| Observational test patterns for code discovery | status not stated, demoed | [25:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1549s) |
+| Automated path coverage verification | status not stated, demoed | [25:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1549s) |
+| Approval testing for refactoring preparation | status not stated, demoed | [27:36](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1656s) |
+| Mutation testing for scenario coverage verification | status not stated, demoed | [28:58](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1738s) |
+| Test-driven development loop in refactoring | status not stated, demoed | [33:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=1984s) |
+| Wrapper procedures for safe refactoring | status not stated, demoed | [34:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2071s) |
+| Agent-assisted economics of safe refactoring | status not stated | [35:45](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2145s) |
+| Large language model selection for AL code | status not stated | [37:42](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2262s) |
+| Git hooks for agent instruction enforcement | status not stated | [38:40](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2320s) |
+| Tests as project documentation for agents | status not stated | [40:04](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2404s) |
+| AI Agent for test execution and verification | status not stated | [39:09](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2349s) |
+| Leave codebase better rule | status not stated | [40:49](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2449s) |
+| Touch code only when necessary | status not stated | [41:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2491s) |
+| AI-assisted test development playbook | status not stated | [41:52](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2512s) |
+| Debug logging with feature telemetry safety nets | status not stated | [44:24](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2664s) |
+| AI-generated mutation testing plans | status not stated | [46:28](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2788s) |
+| Characterization testing for legacy code | status not stated | [49:22](https://www.youtube.com/watch?v=Q-oazDEucLE&t=2962s) |
+| Real unit and integration tests after refactoring | status not stated | [50:31](https://www.youtube.com/watch?v=Q-oazDEucLE&t=3031s) |
+| Bug discovery during decoupling and refactoring | status not stated | [51:25](https://www.youtube.com/watch?v=Q-oazDEucLE&t=3085s) |
 
 ## AL objects mentioned
 

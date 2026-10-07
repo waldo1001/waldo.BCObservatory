@@ -2,7 +2,7 @@
 id: video/YUgTqJsNLW0
 type: video
 title: Agents on the rise and with voice, do you think BC will have an agent you can speak to?
-summary: Dynamics Corner podcast clip where a speaker shares an opinion on a possible voice-capable business manager agent in Business Central. It is a personal view that such an agent will come eventually, not a confirmed feature or announcement.
+summary: Short discussion clip in which a speaker describes having a spoken conversation with an AI on a long drive. He then gives his personal opinion that Business Central may eventually get a business manager agent you can talk with about strategy. This is speculation, not a confirmed feature or announcement.
 tier: community
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - strategy discussion
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:56.575Z"
   flags: []
 generated:
-  at: "2026-10-06T18:09:11.897Z"
+  at: "2026-10-07T23:20:56.610Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -92,9 +92,9 @@ quotes:
 
 # Agents on the rise and with voice, do you think BC will have an agent you can speak to?
 
-> Dynamics Corner podcast clip where a speaker shares an opinion on a possible voice-capable business manager agent in Business Central. It is a personal view that such an agent will come eventually, not a confirmed feature or announcement.
+> Short discussion clip in which a speaker describes having a spoken conversation with an AI on a long drive. He then gives his personal opinion that Business Central may eventually get a business manager agent you can talk with about strategy. This is speculation, not a confirmed feature or announcement.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YUgTqJsNLW0) · Dynamics Corner podcast · 2026-04-10 · 0:42 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YUgTqJsNLW0) · Dynamics Corner podcast · 2026-04-10 · 0:42 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -104,12 +104,12 @@ From that, the speaker expects Business Central to get a business manager agent 
 
 ## Key points
 
-- The speaker used a conversational AI for a spoken conversation on a long drive and found it worthwhile.
+- On a long drive, the speaker had a quick spoken conversation with an AI about a topic and found it interesting and fascinating.
+- He notes that the AI's opinion is based on the context it has access to.
 - The speaker expects Business Central to eventually have a business manager agent.
-- The imagined agent would hold conversations about strategy and business topics.
+- The imagined agent would let users have a conversation about strategy.
 - Answers would be conversational and based on the information the agent has.
-- The speaker says this is not currently available and describes it as a future capability.
-- The clip is opinion from a podcast, not a product announcement.
+- This is the speaker's personal expectation, not a product announcement or timeline.
 
 ## Chapters
 
@@ -118,9 +118,9 @@ From that, the speaker expects Business Central to get a business manager agent 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Business manager agent with conversational interface | status not stated | [0:18](https://www.youtube.com/watch?v=YUgTqJsNLW0&t=18s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Business manager agent with conversational interface | status not stated | [0:18](https://www.youtube.com/watch?v=YUgTqJsNLW0&t=18s) |
 
 ## Quotes
 

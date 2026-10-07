@@ -133,10 +133,10 @@
     {
       "name": "Expense management agent",
       "description": "An AI feature that was developed completely using AI and released in a very short period of time. The expense agent was written approximately 90 percent by AI with a development timeline from idea to release of about 6 months.",
-      "status": "ga",
-      "status_evidence_t": 419.7,
-      "status_evidence_quote": "when it's released in the wild when people start using it",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 394.8,
       "t_end": 474.4,
       "is_demoed": false,
@@ -174,41 +174,6 @@
         "workflow",
         "quality",
         "ai-assisted"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "GitHub Copilot",
-      "description": "An AI tool being used for development work, currently employed by developers for developing partner projects and other development efforts.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 868.4,
-      "t_end": 880.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai tool",
-        "development",
-        "code generation"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Cloud Code",
-      "description": "An AI development tool that developers have experimented with alongside GitHub Copilot for development work.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 868.4,
-      "t_end": 880.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai tool",
-        "development"
       ],
       "system": "development"
     },
@@ -253,26 +218,6 @@
         "development workflow"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Gamified AL training approach",
-      "description": "Game-based learning methodology discussed at conference for teaching AL development practices. Involves creating game mechanics to reinforce development patterns and best practices.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 911.9,
-      "t_end": 976.6,
-      "is_demoed": false,
-      "caveats": [
-        "Emerging practice, not yet widely implemented"
-      ],
-      "tags": [
-        "training",
-        "gamification",
-        "al development"
-      ],
-      "system": "development"
     },
     {
       "name": "Instruction files and sub-agents for Copilot",
@@ -334,26 +279,6 @@
         "documentation",
         "automation",
         "agents"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Professional credits token allocation",
-      "description": "MVP access to GitHub Copilot Pro Plus version includes professional credits for token consumption across multiple projects and reasoning models.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1143.8,
-      "t_end": 1159.4,
-      "is_demoed": false,
-      "caveats": [
-        "Credits are consumed quickly when switching between models"
-      ],
-      "tags": [
-        "github copilot",
-        "token management",
-        "licensing"
       ],
       "system": "copilot"
     },
@@ -468,27 +393,6 @@
       "system": "development"
     },
     {
-      "name": "MCP integration for telemetry log analysis",
-      "description": "Ability to read telemetry logs through MCP without requiring manual KQL queries, enabling faster analysis of performance data.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2426.1,
-      "t_end": 2440.6,
-      "is_demoed": false,
-      "caveats": [
-        "Speaker plans to set up next week, indicating early adoption phase",
-        "Not yet widely used across the partner community"
-      ],
-      "tags": [
-        "telemetry",
-        "mcp",
-        "performance-analysis"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "XRechnung and ZUGFeRD e-invoice support",
       "description": "Support for German electronic invoice exchange formats (XRechnung and ZUGFeRD) with fixes related to local format application.",
       "status": "unclear",
@@ -595,28 +499,6 @@
         "documentation"
       ],
       "system": "development"
-    },
-    {
-      "name": "AI agents creating custom languages for efficiency",
-      "description": "Future capability where AI agents may create their own optimized languages for inter-agent communication when human languages become inefficient, as observed in recent research.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3043.3,
-      "t_end": 3069.4,
-      "is_demoed": false,
-      "caveats": [
-        "Based on external research, not Business Central specific",
-        "Speculative for business applications"
-      ],
-      "tags": [
-        "ai-agents",
-        "future-technology",
-        "optimization",
-        "research"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -726,6 +608,12 @@
       "check": "exact"
     },
     {
+      "t": 582.4,
+      "text": "the community instructions, and then partners can put their own instructions in there as well to help monitor the code",
+      "why_it_matters": "Shows how partners can extend the BC quality workflow with their own instructions.",
+      "check": "exact"
+    },
+    {
       "t": 604.2,
       "text": "the expense agent was written I think it was 90% by AI was what they had mentioned",
       "why_it_matters": "Quantifies the extent of AI involvement in feature development, demonstrating AI's capability for complex business logic.",
@@ -792,12 +680,6 @@
       "check": "exact"
     },
     {
-      "t": 1604.4,
-      "text": "everyone thinks like oh there's this AI supposed to do all these things for you. I think I think a lot of us that",
-      "why_it_matters": "Explains why AI tools don't necessarily free up time - users are motivated to explore new capabilities and build more",
-      "check": "exact"
-    },
-    {
       "t": 1740.1,
       "text": "the direction is set towards swapping the layout document layouts with word layouts.",
       "why_it_matters": "Confirms Microsoft's strategic direction away from RDLC toward Word layouts, a significant shift in reporting architecture.",
@@ -819,6 +701,12 @@
       "t": 1986,
       "text": "Yeah, so I tried it out. It's I would rate it like I don't know, 60-70% success rate.",
       "why_it_matters": "Provides concrete quantification of AI's effectiveness in converting or creating report layouts, showing meaningful but incomplete capability.",
+      "check": "exact"
+    },
+    {
+      "t": 2009.3,
+      "text": "The mapping in word layout I haven't succeeded yet. But still I would still apply and then like finish up the rest.",
+      "why_it_matters": "Shows that AI field mapping for Word layouts is the unsolved part and that manual finishing is still needed.",
       "check": "exact"
     },
     {
@@ -885,12 +773,6 @@
       "t": 3058.4,
       "text": "they created their own language. I I'm pretty sure there's an article that I read about that. And I thought it was pretty fascinating",
       "why_it_matters": "References research showing AI agents optimizing communication through self-created languages, relevant to future development paradigms.",
-      "check": "exact"
-    },
-    {
-      "t": 3118.8,
-      "text": "I have a blog. Just go to my blog to the contact form, or send me an email uh on milanrs@altos.com",
-      "why_it_matters": "Provides contact information for Milan, the guest expert on AI and report layouts, for community follow-up.",
       "check": "exact"
     }
   ],

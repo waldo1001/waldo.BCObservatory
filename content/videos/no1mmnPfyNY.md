@@ -20,12 +20,12 @@ tags:
   - product-based solutions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:10.018Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:10.094Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -239,7 +239,7 @@ quotes:
 
 > Webinar on how a Navision partner business must change to become a Business Central partner: recurring monthly revenue, value-based pricing, product-based offerings, specialized teams and converting customers off timesheets. Based on one speaker's experience, including a customer conversion that took 5 years.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=no1mmnPfyNY) · Areopa webinars · 2026-06-18 · 51:04 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=no1mmnPfyNY) · Areopa webinars · 2026-06-18 · 51:04 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -252,8 +252,8 @@ The larger part covers the partner business model. It argues for ending hourly b
 - Extensions were first seen by the speaker in 1993; in 1997 the partner ecosystem split into Solution Centers selling product and Independent Software Houses building extensions for resale.
 - Recurring revenue means the partner takes the risk upfront and is paid monthly while the customer is satisfied; a fixed price divided over months is not a true recurring model.
 - Recurring revenue pays only after go-live, so faster projects raise partner revenue, the opposite of billable-hours projects in the Navision model.
-- BC partners should price on value delivered to the customer rather than cost-plus, and sell products and vertical solutions instead of custom services. This means ignoring the most demanding and the blandest customers.
-- The speaker expects BC delivery to need 10-15 specialists even for a basic system, and says fewer than 5% of partners have the product manager cost-tracking model under full control.
+- BC partners should price on value delivered to the customer rather than cost-plus, and sell products and vertical solutions instead of custom services, ignoring customers who want the spiciest or blandest variant.
+- The speaker expects BC delivery to need 10-15 specialists even for a basic system. He estimates fewer than 5% of partners have fully moved from billing time to billing value, while the shift from project to product managers is about half and half.
 - Customer self-service (data cleanup, onboarding) lowers paid support but can cause burnout in customer staff; customers should own data quality before import.
 - Timesheet systems can only be removed once all customers are converted to monthly billing. The speaker's conversion took 5 years, could take 1 year with current knowledge, and no customer refused.
 
@@ -279,26 +279,26 @@ The larger part covers the partner business model. It argues for ending hourly b
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Extensions concept | status not stated | [4:12](https://www.youtube.com/watch?v=no1mmnPfyNY&t=252s) |  |
-| App Store model | status not stated | [5:47](https://www.youtube.com/watch?v=no1mmnPfyNY&t=347s) |  |
-| SaaS version of Navision | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=434s) |  |
-| Navision to BC transition model | status not stated | [8:05](https://www.youtube.com/watch?v=no1mmnPfyNY&t=485s) |  |
-| Value-based selling | status not stated | [5:21](https://www.youtube.com/watch?v=no1mmnPfyNY&t=321s) |  |
-| Recurring revenue model for BC partners | status not stated | [15:42](https://www.youtube.com/watch?v=no1mmnPfyNY&t=942s) |  |
-| Product-based BC partner model | status not stated | [16:55](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1015s) |  |
-| Value-based pricing instead of cost-plus | status not stated | [22:30](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1350s) |  |
-| Outcomes-based delivery over hours | status not stated | [23:08](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1388s) |  |
-| Faster project timelines benefit partner revenue | status not stated | [25:18](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1518s) |  |
-| Specialization required in BC partner teams | status not stated | [26:39](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1599s) |  |
-| Product manager cost tracking model | status not stated | [27:51](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1671s) |  |
-| Continuous version updates model | status not stated | [30:18](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1818s) |  |
-| Customer data ownership responsibility | status not stated | [31:45](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1905s) |  |
-| Self-service customer support model | status not stated | [31:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1874s) |  |
-| Recurring monthly billing model | status not stated | [39:00](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2340s) |  |
-| Timesheet elimination | status not stated | [42:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2534s) |  |
-| Customer conversion strategy | status not stated | [44:38](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2678s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Extensions concept | status not stated | [4:12](https://www.youtube.com/watch?v=no1mmnPfyNY&t=252s) |
+| App Store model | status not stated | [5:47](https://www.youtube.com/watch?v=no1mmnPfyNY&t=347s) |
+| SaaS version of Navision | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=434s) |
+| Navision to BC transition model | status not stated | [8:05](https://www.youtube.com/watch?v=no1mmnPfyNY&t=485s) |
+| Value-based selling | status not stated | [5:21](https://www.youtube.com/watch?v=no1mmnPfyNY&t=321s) |
+| Recurring revenue model for BC partners | status not stated | [15:42](https://www.youtube.com/watch?v=no1mmnPfyNY&t=942s) |
+| Product-based BC partner model | status not stated | [16:55](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1015s) |
+| Value-based pricing instead of cost-plus | status not stated | [22:30](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1350s) |
+| Outcomes-based delivery over hours | status not stated | [23:08](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1388s) |
+| Faster project timelines benefit partner revenue | status not stated | [25:18](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1518s) |
+| Specialization required in BC partner teams | status not stated | [26:39](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1599s) |
+| Product manager cost tracking model | status not stated | [27:51](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1671s) |
+| Continuous version updates model | status not stated | [30:18](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1818s) |
+| Customer data ownership responsibility | status not stated | [31:45](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1905s) |
+| Self-service customer support model | status not stated | [31:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=1874s) |
+| Recurring monthly billing model | status not stated | [39:00](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2340s) |
+| Timesheet elimination | status not stated | [42:14](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2534s) |
+| Customer conversion strategy | status not stated | [44:38](https://www.youtube.com/watch?v=no1mmnPfyNY&t=2678s) |
 
 ## AL objects mentioned
 

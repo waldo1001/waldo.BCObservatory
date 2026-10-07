@@ -1,16 +1,16 @@
 {
   "video_id": "JI5KlMxrtoA",
   "item_id": "video/yt-stefanmaron/JI5KlMxrtoA",
-  "summary": "Stefan Maron's live review of AL code against ISO 5055 and a custom AL rule set, using a proprietary analyzer. It is evidence for which ISO 5055 and CWE-mapped rules apply to AL (read isolation, field assignment order, error info, find set without filters, case without else) and where they give false positives.",
+  "summary": "Live walkthrough of a paid AL code review service that checks an extension against ISO 5055 (CWE-mapped rules) plus a custom AL rule set, using a proprietary analyzer with about 500 diagnostics. Useful as evidence for which ISO 5055 rules apply to AL (permission assignment, read isolation, field assignment order, error info, find set without filters, delete all without is empty, case without else, HTTP timeouts) and where the rules produce false positives or need justified exceptions.",
   "overview": "The video describes a code review service built on two parts: ISO 5055, a language-independent standard with 119 rules, not all of which fit AL, and a custom set of AL-specific rules. Stefan Maron first covers the default AppSource analyzers and AL Cops, then shows a proprietary analyzer that produces about 500 diagnostics mapped to ISO 5055 and CWE. The source code of that analyzer is not shared.\n\nHe then goes through findings on sample code: CWE 732 permissions, read isolation, CWE 1083 data access, field assignment order, logging, isolated storage, hard-coded values, magic numbers, boolean operator precedence, error info, unchecked return values, find set without filters, delete all with is empty, case without else, and HTTP client timeouts. He notes that the project is still changing, some rules are under review, and findings need manual review. He says the analyzer is too noisy for continuous integration and that the signed report is aimed at management.",
   "key_points": [
-    "ISO 5055 has 119 rules, and not all of them apply to AL. The review adds a custom AL rule set on top.",
-    "The proprietary analyzer gives about 500 diagnostics mapped to ISO 5055 and CWE. It is not published, and the author does not use it in daily development or CI because of the noise.",
-    "Read isolation rule: reads without explicit read isolation default to escalated update locks, which can degrade concurrency under load. The rule is under review and may be removed or loosened.",
-    "Field assignment order should follow the page pattern: init, validate primary key fields, insert(true), then validate the remaining fields and modify(true).",
+    "ISO 5055 has 119 rules, and not all of them fully apply to AL. The review adds a custom AL rule set on top.",
+    "The proprietary analyzer gives about 500 diagnostics mapped to ISO 5055 and CWE. It is not published, is not enabled in the author's daily development, and is meant to surface findings for a manual review.",
+    "Read isolation rule: reads without explicit read isolation default to escalated update locks, which can degrade concurrency under load. A related rule about relying on the primary key when no current key is set is under review and may be removed.",
+    "Field assignment order should follow the page pattern: init, validate primary key fields, insert(true), then validate the remaining fields and modify(true). Exceptions should be documented.",
     "Use error info with navigate actions and custom dimensions instead of plain errors to give users fix-it actions and give support more context.",
-    "Flagged patterns include find set without filters, delete all without an is empty check, case statements without else, unchecked return values, and HTTP client calls without an explicit timeout. Intentional cases, such as upgrade codeunits, can be marked as accepted.",
-    "Mixed AND and OR without parentheses is flagged because AL operator precedence is not clearly documented. Findings can be false positives and need manual review."
+    "Flagged patterns include find set without filters, delete all without an is empty check, case statements without else, unchecked return values, hard-coded literals and URLs, and HTTP client calls without an explicit timeout. Intentional cases, such as upgrade codeunits, can be documented as accepted.",
+    "Mixed AND and OR without parentheses is flagged. The presenter could not find documentation on AL precedence and recommends parentheses for readability. Findings can be false positives and need manual review."
   ],
   "audience": [
     "developer",

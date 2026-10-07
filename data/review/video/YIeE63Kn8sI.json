@@ -1,0 +1,33 @@
+{
+  "video_id": "YIeE63Kn8sI",
+  "item_id": "video/yt-dynamicscorner/YIeE63Kn8sI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Episode is general AI adoption strategy (Dynamics Corner podcast); there are no Business Central product features. Copilot is only mentioned in passing as having a notebook-style tool, so the systems tags are weak. The summary now says this.",
+    "All features are concepts or practices, not product features, so 'unclear' is the right status for each. No evidence quotes are needed.",
+    "Two quotes share t=2397.2 and two share t=3150.8 and overlap. Dropped both pairs and added one clean span for each topic.",
+    "Dropped low-value fragments at 825.8 (it includes speaker interjections), 1408.5 (cut off mid-sentence) and 2525.2 (a joke aside).",
+    "'Multiple AI agents for parallel tasks' repeats the guardrails feature, and the transcript says these setups are often not truly parallel. 'Problem-first approach' repeats the business-first approach. Both dropped.",
+    "Added the decision matrix download quote and the privacy 'not training on your data' quote, which the page was missing."
+  ],
+  "input_hash": "6850b0a4bb517f09153dd75edc31490efdd18fb65d72c63f7279c3f9f722d452",
+  "by": "opus",
+  "at": "2026-10-07T23:20:38.222Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 7 quote(s)",
+    "quote at 780s",
+    "quote at 1423s",
+    "quote at 2397s",
+    "quote at 3162s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.29289699999999996
+  }
+}

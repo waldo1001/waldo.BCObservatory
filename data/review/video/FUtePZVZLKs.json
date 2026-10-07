@@ -1,0 +1,27 @@
+{
+  "video_id": "FUtePZVZLKs",
+  "item_id": "video/yt-dynamicscorner/FUtePZVZLKs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the show 'Dynamics Corner', but the transcript never says it. Removed it.",
+    "The 'feature' is an open discussion topic, not a Business Central feature. Dropped it.",
+    "All four quotes match the transcript word for word and are kept.",
+    "Key point 1 says 'AI-assisted'. That comes from the video title; the transcript itself does not say AI creates the documents. Softened the wording."
+  ],
+  "input_hash": "7021cf13f090477c7f617fc36de938c8ef4eedf8f14df00b594af7dd09425006",
+  "by": "opus",
+  "at": "2026-10-07T23:20:23.901Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028793
+  }
+}

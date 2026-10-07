@@ -2,7 +2,7 @@
 id: video/gd2TycVywv4
 type: video
 title: 20260326 - From AI Novice to Agentic Thinking For the CAL Brained
-summary: Agentic thinking for Business Central AL developers, from an Areopa webinar with Jeremy Visca. It covers the move from writing code to specifying intent and validating outcomes, testing as the safety net, context window management, and starting with documentation, tests and scaffolding.
+summary: This is a webinar with Jeremy Visca on agentic thinking for long-time NAV/CAL and Business Central AL developers. It covers the shift from writing every line to specifying intent and validating outcomes, with tests as the safety net. It also covers managing agent context like an intern's desk, and starting gently with documentation, tests, scaffolding and design critique.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - code review
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:22.673Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:22.724Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -331,9 +331,9 @@ quotes:
 
 # 20260326 - From AI Novice to Agentic Thinking For the CAL Brained
 
-> Agentic thinking for Business Central AL developers, from an Areopa webinar with Jeremy Visca. It covers the move from writing code to specifying intent and validating outcomes, testing as the safety net, context window management, and starting with documentation, tests and scaffolding.
+> This is a webinar with Jeremy Visca on agentic thinking for long-time NAV/CAL and Business Central AL developers. It covers the shift from writing every line to specifying intent and validating outcomes, with tests as the safety net. It also covers managing agent context like an intern's desk, and starting gently with documentation, tests, scaffolding and design critique.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gd2TycVywv4) · Areopa webinars · 2026-03-24 · 1:02:02 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gd2TycVywv4) · Areopa webinars · 2026-03-24 · 1:02:02 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -343,13 +343,13 @@ The session then covers practical habits: strong tests and performance tests, do
 
 ## Key points
 
-- Value shifts from writing lines to specifying intent clearly and validating outcomes; the speaker describes this as trading certainty for velocity, which carries risk in regulated domains.
-- Testing is the safety net for AI-generated code. Agents can publish to Docker or sandboxes and run tests, but they do not automatically write performance tests and may change tests to match the code.
-- Senior developers should apply BC domain knowledge to agent output, for example checking credit memo handling, reverse processes and register writes when a field is added to a sales order.
-- Context windows are typically about 128,000 to 160,000 tokens. Keep rules under about 100 lines each, because summarization when the window fills can drop important constraints.
-- The master loop: ask the agent to do work, correct it, then ask what it learned or what to do differently next time.
+- Value shifts from writing lines to specifying intent clearly and validating outcomes. The speaker calls this trading certainty for velocity, which is hard in an industry that needs correct accounting outcomes.
+- Testing is the safety net for AI-generated code. Agents can be taught to publish to Docker or a sandbox and run the tests. However, they may not think to write performance tests, and they sometimes change tests to match the code.
+- Senior developers should apply BC domain knowledge to agent output. For example, when a field is added to a sales order, check the credit memo, invoice and shipment, reverse processes and register writes.
+- Context windows are often about 128,000 to 160,000 tokens. Each rule in the BC Code Intel knowledge repo is kept under 100 lines because the agent might not read past that. Separately, when the window fills up, summarization (compaction) can drop critical constraints. Start new sessions often.
+- The master loop: ask the agent to do the work, correct what it got wrong, then ask what it could have done differently next time.
 - Good starting points are documentation (READMEs, commit explainers, XML documentation with summary tags), extra test scenarios, table and codeunit scaffolding, and design critique from several stakeholder views.
-- Agents can be used on legacy code maintained since NAV 4.0. The gains come from documentation, tests and parallel work rather than raw speed.
+- Agents can be used on legacy code maintained since NAV 4.0. The gains come from parallel work and quality uplift (documentation, tests) rather than raw speed.
 
 ## Chapters
 
@@ -379,42 +379,42 @@ The session then covers practical habits: strong tests and performance tests, do
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agentic development training program | status not stated | [6:54](https://www.youtube.com/watch?v=gd2TycVywv4&t=414s) |  |
-| AI-assisted development with GitHub Copilot | status not stated, demoed | [14:39](https://www.youtube.com/watch?v=gd2TycVywv4&t=879s) |  |
-| LLM-based compilation model | status not stated | [13:14](https://www.youtube.com/watch?v=gd2TycVywv4&t=794s) |  |
-| Agentic code testing requirements | status not stated | [18:00](https://www.youtube.com/watch?v=gd2TycVywv4&t=1080s) |  |
-| BC Code Intel MCP | status not stated | [25:41](https://www.youtube.com/watch?v=gd2TycVywv4&t=1541s) |  |
-| Agentic development mindset shift | status not stated | [21:47](https://www.youtube.com/watch?v=gd2TycVywv4&t=1307s) |  |
-| Domain expertise validation for agent-generated code | status not stated | [26:30](https://www.youtube.com/watch?v=gd2TycVywv4&t=1590s) |  |
-| Result-based evaluation replacing line-by-line code review | status not stated | [28:44](https://www.youtube.com/watch?v=gd2TycVywv4&t=1724s) |  |
-| Master loop pattern for agent development | status not stated | [31:40](https://www.youtube.com/watch?v=gd2TycVywv4&t=1900s) |  |
-| BC Code Intel repository | status not stated | [32:04](https://www.youtube.com/watch?v=gd2TycVywv4&t=1924s) |  |
-| Calibrated confidence in agent code | status not stated | [30:33](https://www.youtube.com/watch?v=gd2TycVywv4&t=1833s) |  |
-| Intent steering in agent development | status not stated | [31:30](https://www.youtube.com/watch?v=gd2TycVywv4&t=1890s) |  |
-| Using agents to explain developer commits | status not stated | [34:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=2068s) |  |
-| Managing multiple concurrent agents | status not stated | [35:04](https://www.youtube.com/watch?v=gd2TycVywv4&t=2104s) |  |
-| Agent mental model as overenthusiastic intern | status not stated | [35:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=2128s) |  |
-| Context window limitations and token limits | status not stated | [36:38](https://www.youtube.com/watch?v=gd2TycVywv4&t=2198s) |  |
-| Instructions and custom agent configuration | status not stated | [37:18](https://www.youtube.com/watch?v=gd2TycVywv4&t=2238s) |  |
-| LLM input-output architecture for agents | status not stated | [38:07](https://www.youtube.com/watch?v=gd2TycVywv4&t=2287s) |  |
-| Model selection and cost-performance tradeoff | status not stated | [39:01](https://www.youtube.com/watch?v=gd2TycVywv4&t=2341s) |  |
-| Signal-to-noise ratio in agent context | status not stated | [39:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2398s) |  |
-| Agent context optimization | status not stated | [39:35](https://www.youtube.com/watch?v=gd2TycVywv4&t=2375s) |  |
-| Agent session reset for fresh state | status not stated | [41:36](https://www.youtube.com/watch?v=gd2TycVywv4&t=2496s) |  |
-| Context window compaction and summarization | status not stated | [41:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2518s) |  |
-| Specific task decomposition for agents | status not stated | [44:21](https://www.youtube.com/watch?v=gd2TycVywv4&t=2661s) |  |
-| Agentic development as learnable skill | status not stated | [45:33](https://www.youtube.com/watch?v=gd2TycVywv4&t=2733s) |  |
-| Agents on legacy and messy code | status not stated | [46:09](https://www.youtube.com/watch?v=gd2TycVywv4&t=2769s) |  |
-| Documentation assistance via agents | status not stated | [47:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2878s) |  |
-| Test generation and scenario expansion | status not stated | [48:43](https://www.youtube.com/watch?v=gd2TycVywv4&t=2923s) |  |
-| Scaffolding and table design via agents | status not stated | [49:47](https://www.youtube.com/watch?v=gd2TycVywv4&t=2987s) |  |
-| Design validation and assumption challenging | status not stated | [50:52](https://www.youtube.com/watch?v=gd2TycVywv4&t=3052s) |  |
-| Autonomous agent compilation and testing | status not stated | [51:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=3088s) |  |
-| Agent-driven code improvement through documentation and quality verification | status not stated | [52:20](https://www.youtube.com/watch?v=gd2TycVywv4&t=3140s) |  |
-| XML documentation for code objects improving AI understanding | status not stated | [55:45](https://www.youtube.com/watch?v=gd2TycVywv4&t=3345s) |  |
-| AL guidelines best practices resource | status not stated | [54:20](https://www.youtube.com/watch?v=gd2TycVywv4&t=3260s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agentic development training program | status not stated | [6:54](https://www.youtube.com/watch?v=gd2TycVywv4&t=414s) |
+| AI-assisted development with GitHub Copilot | status not stated, demoed | [14:39](https://www.youtube.com/watch?v=gd2TycVywv4&t=879s) |
+| LLM-based compilation model | status not stated | [13:14](https://www.youtube.com/watch?v=gd2TycVywv4&t=794s) |
+| Agentic code testing requirements | status not stated | [18:00](https://www.youtube.com/watch?v=gd2TycVywv4&t=1080s) |
+| BC Code Intel MCP | status not stated | [25:41](https://www.youtube.com/watch?v=gd2TycVywv4&t=1541s) |
+| Agentic development mindset shift | status not stated | [21:47](https://www.youtube.com/watch?v=gd2TycVywv4&t=1307s) |
+| Domain expertise validation for agent-generated code | status not stated | [26:30](https://www.youtube.com/watch?v=gd2TycVywv4&t=1590s) |
+| Result-based evaluation replacing line-by-line code review | status not stated | [28:44](https://www.youtube.com/watch?v=gd2TycVywv4&t=1724s) |
+| Master loop pattern for agent development | status not stated | [31:40](https://www.youtube.com/watch?v=gd2TycVywv4&t=1900s) |
+| BC Code Intel repository | status not stated | [32:04](https://www.youtube.com/watch?v=gd2TycVywv4&t=1924s) |
+| Calibrated confidence in agent code | status not stated | [30:33](https://www.youtube.com/watch?v=gd2TycVywv4&t=1833s) |
+| Intent steering in agent development | status not stated | [31:30](https://www.youtube.com/watch?v=gd2TycVywv4&t=1890s) |
+| Using agents to explain developer commits | status not stated | [34:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=2068s) |
+| Managing multiple concurrent agents | status not stated | [35:04](https://www.youtube.com/watch?v=gd2TycVywv4&t=2104s) |
+| Agent mental model as overenthusiastic intern | status not stated | [35:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=2128s) |
+| Context window limitations and token limits | status not stated | [36:38](https://www.youtube.com/watch?v=gd2TycVywv4&t=2198s) |
+| Instructions and custom agent configuration | status not stated | [37:18](https://www.youtube.com/watch?v=gd2TycVywv4&t=2238s) |
+| LLM input-output architecture for agents | status not stated | [38:07](https://www.youtube.com/watch?v=gd2TycVywv4&t=2287s) |
+| Model selection and cost-performance tradeoff | status not stated | [39:01](https://www.youtube.com/watch?v=gd2TycVywv4&t=2341s) |
+| Signal-to-noise ratio in agent context | status not stated | [39:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2398s) |
+| Agent context optimization | status not stated | [39:35](https://www.youtube.com/watch?v=gd2TycVywv4&t=2375s) |
+| Agent session reset for fresh state | status not stated | [41:36](https://www.youtube.com/watch?v=gd2TycVywv4&t=2496s) |
+| Context window compaction and summarization | status not stated | [41:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2518s) |
+| Specific task decomposition for agents | status not stated | [44:21](https://www.youtube.com/watch?v=gd2TycVywv4&t=2661s) |
+| Agentic development as learnable skill | status not stated | [45:33](https://www.youtube.com/watch?v=gd2TycVywv4&t=2733s) |
+| Agents on legacy and messy code | status not stated | [46:09](https://www.youtube.com/watch?v=gd2TycVywv4&t=2769s) |
+| Documentation assistance via agents | status not stated | [47:58](https://www.youtube.com/watch?v=gd2TycVywv4&t=2878s) |
+| Test generation and scenario expansion | status not stated | [48:43](https://www.youtube.com/watch?v=gd2TycVywv4&t=2923s) |
+| Scaffolding and table design via agents | status not stated | [49:47](https://www.youtube.com/watch?v=gd2TycVywv4&t=2987s) |
+| Design validation and assumption challenging | status not stated | [50:52](https://www.youtube.com/watch?v=gd2TycVywv4&t=3052s) |
+| Autonomous agent compilation and testing | status not stated | [51:28](https://www.youtube.com/watch?v=gd2TycVywv4&t=3088s) |
+| Agent-driven code improvement through documentation and quality verification | status not stated | [52:20](https://www.youtube.com/watch?v=gd2TycVywv4&t=3140s) |
+| XML documentation for code objects improving AI understanding | status not stated | [55:45](https://www.youtube.com/watch?v=gd2TycVywv4&t=3345s) |
+| AL guidelines best practices resource | status not stated | [54:20](https://www.youtube.com/watch?v=gd2TycVywv4&t=3260s) |
 
 ## AL objects mentioned
 

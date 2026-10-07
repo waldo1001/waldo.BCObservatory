@@ -1,0 +1,33 @@
+{
+  "video_id": "fy96_jdL1PQ",
+  "item_id": "video/yt-dynamicscorner/fy96_jdL1PQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 3 says Power BI needs a separate license. The transcript only says refresh frequency depends on the license, so that claim is not supported.",
+    "Key point and RDLC feature say 'no official support since 2016'. The speaker says 2016 was the latest official version and there was not much official support after that. The wording has been softened.",
+    "Quote at 1914.6 contains an inserted '...' and is not verbatim. It is replaced with a verbatim span.",
+    "The five training features (case-based methodology, learning journey, subscription, boosters, expert sessions) describe the guest's training company's offerings, not Business Central features. They are dropped.",
+    "The page missed that 2026 wave 1 lets developers include analysis views in extensions, and that query APIs can open in analysis mode from Tell Me. Quotes have been added for both.",
+    "Feature statuses stay unclear; the transcript gives no explicit preview or GA statements."
+  ],
+  "input_hash": "4e0918a7df2e7131341cd8ad6963cbf1b57b7045aa90a7803e00b6fecf48de2b",
+  "by": "opus",
+  "at": "2026-10-07T23:20:07.413Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 1915s",
+    "quote at 1931s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "quote at 1712.8: not-found"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.250653
+  }
+}

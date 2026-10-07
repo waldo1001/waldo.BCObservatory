@@ -20,39 +20,18 @@ tags:
   - token usage
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:19:38.338Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:19:38.471Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 634669cdd8b10d1ac2236c1333382fe8271398aec4f5e761c8691dee2015e18e
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=zQg48VT0crU&t=2345s
-    title: "Future AI-native development without language visibility: announced"
-    date: "2026-07-14T15:31:00.000Z"
-    commit: null
-    t: 2345
-    quote: I can't see why not. It's still going to be for the next foreseeable future. We will still look at the inner workings of
-  - kind: video
-    url: https://www.youtube.com/watch?v=zQg48VT0crU&t=3151s
-    title: "Local open source AI models: announced"
-    date: "2026-07-14T15:31:00.000Z"
-    commit: null
-    t: 3151
-    quote: my prediction for 2027 will be you'll see a lot of these local models getting or these open source local models getting a little
-  - kind: video
-    url: https://www.youtube.com/watch?v=zQg48VT0crU&t=3317s
-    title: "Fable AI: generally available"
-    date: "2026-07-14T15:31:00.000Z"
-    commit: null
-    t: 3317
-    quote: I think I had the benchmark ready like an hour after Fable was released
   - kind: video
     url: https://www.youtube.com/watch?v=zQg48VT0crU&t=339s
     title: "Episode 522: What Was Your Eureka Moment with AI? Smarter Workflows for BC Development"
@@ -203,34 +182,19 @@ features:
     t: 1696
     verified: false
     status_source: video
-  - name: AI-assisted driver development
-    status: unclear
-    t: 1815
-    verified: false
-    status_source: video
   - name: Test-first code verification approach
     status: unclear
     t: 2137
     verified: false
     status_source: video
   - name: Future AI-native development without language visibility
-    status: announced
+    status: unclear
     t: 2345
-    verified: true
+    verified: false
     status_source: video
   - name: AI abstraction layer for financial postings
     status: unclear
     t: 2384
-    verified: false
-    status_source: video
-  - name: Multi-model AI orchestration workflow
-    status: unclear
-    t: 3052
-    verified: false
-    status_source: video
-  - name: Open-source model evaluation for AL coding
-    status: unclear
-    t: 2853
     verified: false
     status_source: video
   - name: Local model hosting for reduced token costs
@@ -249,14 +213,9 @@ features:
     verified: false
     status_source: video
   - name: Local open source AI models
-    status: announced
+    status: unclear
     t: 3151
-    verified: true
-    status_source: video
-  - name: Fable AI
-    status: ga
-    t: 3307
-    verified: true
+    verified: false
     status_source: video
 objects_mentioned:
   - codeunit test code unit
@@ -287,7 +246,7 @@ quotes:
 
 > Dynamics Corner episode 522 is a practitioner conversation about using AI models for AL development: benchmarking models on AL tasks, gaps in AL syntax knowledge, multi-model and agentic workflows with Claude Code and MCP servers, and shifting review effort from code to tests.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zQg48VT0crU) · Dynamics Corner podcast · 2026-07-14 · 59:25 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zQg48VT0crU) · Dynamics Corner podcast · 2026-07-14 · 59:25 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -301,9 +260,9 @@ The discussion then moves to workflows: routing planning, review and coding to d
 - Fable safeguards were triggered by simple AL tests and could fall back to Opus or other models, which makes measuring Fable's own ability harder.
 - GPT models are reported to have trouble with AL interfaces. Models trained on older AL syntax miss newer features.
 - Guideline markdown files added to prompts can raise all models to the same AL baseline. Benchmark results split by concept (interfaces, tables, records) show where context is needed.
-- One demonstrated ISV pipeline has 13 stages and uses Opus for planning, Fable for review and Sonnet for coding. It may not suit partners or VS Code users.
+- In Claude Code the guest uses Opus to write a spec, Fable as advisor to review it, the PAL MCP to get consensus from GPT and Gemini, and Sonnet for coding to keep costs down.
+- His own ISV pipeline has 13 stages, each with a hand-picked model (Opus for planning). Junior-level DevOps tasks are tagged and come back as pull requests about 8 hours later. This may not suit partners or VS Code users.
 - With an AL MCP server, Claude can compile, publish to a sandbox, run tests, fix failures and re-test. The speaker calls this the point where the benefit becomes clear.
-- The speaker spends more time reviewing tests than code. This applies mainly to automated and simpler tasks, not new features.
 
 ## Chapters
 
@@ -324,32 +283,28 @@ The discussion then moves to workflows: routing planning, review and coding to d
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Central gauge benchmarking tool | status not stated | [5:39](https://www.youtube.com/watch?v=zQg48VT0crU&t=339s) |  |
-| Fable model with safeguard fallback | status not stated, demoed | [6:16](https://www.youtube.com/watch?v=zQg48VT0crU&t=376s) |  |
-| Microsoft AL harness for model evaluation | status not stated | [9:56](https://www.youtube.com/watch?v=zQg48VT0crU&t=596s) |  |
-| AL language syntax knowledge gaps in AI models | status not stated | [11:50](https://www.youtube.com/watch?v=zQg48VT0crU&t=710s) |  |
-| Model-agnostic baseline augmentation through guidelines | status not stated | [12:25](https://www.youtube.com/watch?v=zQg48VT0crU&t=745s) |  |
-| Subsection-based model capability reporting | status not stated | [14:32](https://www.youtube.com/watch?v=zQg48VT0crU&t=872s) |  |
-| Advisory model selection in Claude Code | status not stated | [21:52](https://www.youtube.com/watch?v=zQg48VT0crU&t=1312s) |  |
-| Multi-model workflow orchestration | status not stated, demoed | [17:44](https://www.youtube.com/watch?v=zQg48VT0crU&t=1064s) |  |
-| PAL MCP for consensus feedback | status not stated | [18:39](https://www.youtube.com/watch?v=zQg48VT0crU&t=1119s) |  |
-| Automatic code compilation and testing in agentic workflows | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=zQg48VT0crU&t=1488s) |  |
-| AL MCP server integration with Claude | status not stated, demoed | [26:12](https://www.youtube.com/watch?v=zQg48VT0crU&t=1572s) |  |
-| Simplified MCP server setup via AI | status not stated | [27:26](https://www.youtube.com/watch?v=zQg48VT0crU&t=1646s) |  |
-| Custom MCP for BC performance and debugging | status not stated, demoed | [28:16](https://www.youtube.com/watch?v=zQg48VT0crU&t=1696s) |  |
-| AI-assisted driver development | status not stated, demoed | [30:15](https://www.youtube.com/watch?v=zQg48VT0crU&t=1815s) |  |
-| Test-first code verification approach | status not stated | [35:37](https://www.youtube.com/watch?v=zQg48VT0crU&t=2137s) |  |
-| Future AI-native development without language visibility | announced | [39:05](https://www.youtube.com/watch?v=zQg48VT0crU&t=2345s) | "I can't see why not. It's still going to be for the next foreseeable future. We will still look at the inner workings of" ([39:05](https://www.youtube.com/watch?v=zQg48VT0crU&t=2345s)) |
-| AI abstraction layer for financial postings | status not stated | [39:44](https://www.youtube.com/watch?v=zQg48VT0crU&t=2384s) |  |
-| Multi-model AI orchestration workflow | status not stated | [50:52](https://www.youtube.com/watch?v=zQg48VT0crU&t=3052s) |  |
-| Open-source model evaluation for AL coding | status not stated | [47:33](https://www.youtube.com/watch?v=zQg48VT0crU&t=2853s) |  |
-| Local model hosting for reduced token costs | status not stated | [49:36](https://www.youtube.com/watch?v=zQg48VT0crU&t=2976s) |  |
-| Per-use pricing for GitHub Copilot and AI services | status not stated | [51:25](https://www.youtube.com/watch?v=zQg48VT0crU&t=3085s) |  |
-| AI model harness for workflow management | status not stated | [53:22](https://www.youtube.com/watch?v=zQg48VT0crU&t=3202s) |  |
-| Local open source AI models | announced | [52:31](https://www.youtube.com/watch?v=zQg48VT0crU&t=3151s) | "my prediction for 2027 will be you'll see a lot of these local models getting or these open source local models getting a little" ([52:31](https://www.youtube.com/watch?v=zQg48VT0crU&t=3151s)) |
-| Fable AI | generally available, demoed | [55:07](https://www.youtube.com/watch?v=zQg48VT0crU&t=3307s) | "I think I had the benchmark ready like an hour after Fable was released" ([55:17](https://www.youtube.com/watch?v=zQg48VT0crU&t=3317s)) |
+| Feature | Status | At |
+|---|---|---|
+| Central gauge benchmarking tool | status not stated | [5:39](https://www.youtube.com/watch?v=zQg48VT0crU&t=339s) |
+| Fable model with safeguard fallback | status not stated, demoed | [6:16](https://www.youtube.com/watch?v=zQg48VT0crU&t=376s) |
+| Microsoft AL harness for model evaluation | status not stated | [9:56](https://www.youtube.com/watch?v=zQg48VT0crU&t=596s) |
+| AL language syntax knowledge gaps in AI models | status not stated | [11:50](https://www.youtube.com/watch?v=zQg48VT0crU&t=710s) |
+| Model-agnostic baseline augmentation through guidelines | status not stated | [12:25](https://www.youtube.com/watch?v=zQg48VT0crU&t=745s) |
+| Subsection-based model capability reporting | status not stated | [14:32](https://www.youtube.com/watch?v=zQg48VT0crU&t=872s) |
+| Advisory model selection in Claude Code | status not stated | [21:52](https://www.youtube.com/watch?v=zQg48VT0crU&t=1312s) |
+| Multi-model workflow orchestration | status not stated, demoed | [17:44](https://www.youtube.com/watch?v=zQg48VT0crU&t=1064s) |
+| PAL MCP for consensus feedback | status not stated | [18:39](https://www.youtube.com/watch?v=zQg48VT0crU&t=1119s) |
+| Automatic code compilation and testing in agentic workflows | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=zQg48VT0crU&t=1488s) |
+| AL MCP server integration with Claude | status not stated, demoed | [26:12](https://www.youtube.com/watch?v=zQg48VT0crU&t=1572s) |
+| Simplified MCP server setup via AI | status not stated | [27:26](https://www.youtube.com/watch?v=zQg48VT0crU&t=1646s) |
+| Custom MCP for BC performance and debugging | status not stated, demoed | [28:16](https://www.youtube.com/watch?v=zQg48VT0crU&t=1696s) |
+| Test-first code verification approach | status not stated | [35:37](https://www.youtube.com/watch?v=zQg48VT0crU&t=2137s) |
+| Future AI-native development without language visibility | status not stated | [39:05](https://www.youtube.com/watch?v=zQg48VT0crU&t=2345s) |
+| AI abstraction layer for financial postings | status not stated | [39:44](https://www.youtube.com/watch?v=zQg48VT0crU&t=2384s) |
+| Local model hosting for reduced token costs | status not stated | [49:36](https://www.youtube.com/watch?v=zQg48VT0crU&t=2976s) |
+| Per-use pricing for GitHub Copilot and AI services | status not stated | [51:25](https://www.youtube.com/watch?v=zQg48VT0crU&t=3085s) |
+| AI model harness for workflow management | status not stated | [53:22](https://www.youtube.com/watch?v=zQg48VT0crU&t=3202s) |
+| Local open source AI models | status not stated | [52:31](https://www.youtube.com/watch?v=zQg48VT0crU&t=3151s) |
 
 ## AL objects mentioned
 

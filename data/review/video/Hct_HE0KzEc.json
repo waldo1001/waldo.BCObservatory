@@ -1,0 +1,35 @@
+{
+  "video_id": "Hct_HE0KzEc",
+  "item_id": "video/yt-dynamicscorner/Hct_HE0KzEc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Expense Agent should be 'announced': the transcript says it was announced at the conference that it will be available this year.",
+    "The 'Microsoft 365 Copilot Integration' feature claims Business Central integrates with Graph. The transcript only recommends 365 Copilot as the basic AI tool to start with, so the feature is dropped.",
+    "'AI-Driven Business Growth Capabilities' is a general vision (the awning example), not a Business Central feature, so it is dropped.",
+    "The ChatGPT key point was wrong: Morton says to use enterprise versions rather than consumer tools. He does not say ChatGPT lacks what 365 Copilot offers.",
+    "The summary and the 365 Copilot key point overstated it as a Business Central integration. Both are reworded.",
+    "Added a quote on more interactions coming from Teams, Outlook and M365."
+  ],
+  "input_hash": "d6878677666a19ea3a8478e4d9bcfb30c7179f4bc96774d144451330b186824a",
+  "by": "opus",
+  "at": "2026-10-07T23:20:54.604Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "Expense Agent: status announced",
+    "Natural Language Invoice Processing: status unclear",
+    "AI-Enhanced Payables Processing: status unclear",
+    "UI Evolution with AI-Enabled Workflows: status unclear",
+    "Interactions from External Tools: status unclear",
+    "quote at 699s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.128157
+  }
+}

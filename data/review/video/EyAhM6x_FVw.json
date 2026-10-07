@@ -1,0 +1,25 @@
+{
+  "video_id": "EyAhM6x_FVw",
+  "item_id": "video/yt-dynamicscorner/EyAhM6x_FVw",
+  "flags": [],
+  "verdict": "reject",
+  "issues": [
+    "The episode is from Dynamics Corner, but the whole conversation is about AI in B2B marketing in general (answer engines, brand gravity, employee advocacy, AI-friendly websites, outsourcing). Business Central is never mentioned.",
+    "None of the 17 listed features is a Business Central feature. They are marketing ideas, so they would mislead on a BC knowledge page.",
+    "The systems tags (copilot, sales, crm) are not supported. Copilot only comes up in a list of chat models people can pick, and sales and CRM are only talked about in general terms.",
+    "The key point about an 85% finalist list misstates the transcript. It says buyers had formed a finalist list about 85% of the time, not that the list was 85% accurate.",
+    "Quotes at t=291.3 and t=2679.8 are cut off with an ellipsis. Quotes at t=814.7 and t=2443 appear twice as near-copies.",
+    "All 17 features are marked unclear and have no evidence, which fits the lack of product content."
+  ],
+  "input_hash": "ce66031fbdccf2e590ab7f44d322c861fa81a9fc7467442066478cb36c709dd0",
+  "by": "opus",
+  "at": "2026-10-07T23:20:14.444Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.22439699999999999
+  }
+}

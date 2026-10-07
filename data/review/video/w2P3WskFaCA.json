@@ -1,0 +1,26 @@
+{
+  "video_id": "w2P3WskFaCA",
+  "item_id": "video/yt-dynamicscorner/w2P3WskFaCA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "A key point said the speaker called AI code 'not fire-and-forget'. That line was the host (Brad), not Stefan. Stefan said he reviews and tests everything and that cleanup with quick fixes is faster and more reliable than AI. Key point corrected.",
+    "Two quotes share t=3234.1 and one contains the other. I could not drop the duplicate because dropping by t would remove both.",
+    "Some features are discussion topics rather than product features (problem-driven adoption, language abstraction, machine-optimized languages). The transcript supports them, so they are kept.",
+    "The quotes I spot-checked are verbatim apart from punctuation and case. All feature statuses are unclear, which fits a podcast discussion.",
+    "The summary's 'Claude Code' is a reasonable reading of the caption's 'cloud code'."
+  ],
+  "input_hash": "97b7e3de17481284285a3bf45165cbaf795fe4414d3360b8f043e3eb9d7b567a",
+  "by": "opus",
+  "at": "2026-10-07T23:21:05.810Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.33406899999999995
+  }
+}

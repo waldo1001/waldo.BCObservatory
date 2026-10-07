@@ -371,28 +371,6 @@
       "system": "copilot"
     },
     {
-      "name": "Problem-first approach to AI implementation",
-      "description": "Organizations should identify the specific business problem they want to solve before selecting or implementing any AI tool. Starting with problems rather than tools prevents wasted investment and reduces creation of new problems.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1764.6,
-      "t_end": 1873,
-      "is_demoed": false,
-      "caveats": [
-        "Requires organizational discipline to resist playing with tools",
-        "Applies across business sizes"
-      ],
-      "tags": [
-        "strategy",
-        "problem-solving",
-        "business-alignment",
-        "planning"
-      ],
-      "system": "administration"
-    },
-    {
       "name": "Data quality prerequisites for AI agents",
       "description": "Before implementing agents, organizations must have clean, accessible data. Data scattered across multiple locations or stored informally on notepads cannot support effective agent operations.",
       "status": "unclear",
@@ -435,27 +413,6 @@
         "scalability"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Multiple AI agents for parallel tasks",
-      "description": "Engineers running five to seven agents at any given point in time to expedite work. Distinction made between actual parallel processes versus multiple instruction sets for single-threaded tasks.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2397.2,
-      "t_end": 2442.6,
-      "is_demoed": false,
-      "caveats": [
-        "Many setups with multiple agents are actually single-threaded processes with separate instruction sets, not true parallelization",
-        "Agents require guardrails and boundaries to produce acceptable output"
-      ],
-      "tags": [
-        "agents",
-        "automation",
-        "parallel processing"
-      ],
-      "system": "copilot"
     },
     {
       "name": "AI-driven quality assurance and testing",
@@ -614,16 +571,16 @@
       "check": "exact"
     },
     {
+      "t": 779.6,
+      "text": "we actually created an AI decision matrix. It's really pretty simple. And you know, people can download it on our website",
+      "why_it_matters": "Source for the AI decision matrix feature and where to get it.",
+      "check": "exact"
+    },
+    {
       "t": 815.8,
       "text": "Because, you know, you if you're talking about opportunity to cash, right? Every business is opportunity to cash.",
       "why_it_matters": "Identifies the universal business framework that applies to all organizations regardless of industry.",
       "check": "exact"
-    },
-    {
-      "t": 825.8,
-      "text": "all businesses are in business to make money yes period if it's",
-      "why_it_matters": "Establishes the fundamental economic principle underlying business decision-making.",
-      "check": "fuzzy"
     },
     {
       "t": 869.8,
@@ -638,10 +595,10 @@
       "check": "exact"
     },
     {
-      "t": 1408.5,
-      "text": "make sure that the information that you share with it about your business and processes look take the time to look at the",
-      "why_it_matters": "Critical security guidance emphasizing the need to validate data handling before adopting any AI tool for business purposes.",
-      "check": "fuzzy"
+      "t": 1422.9,
+      "text": "look take the time to look at the the privacy policy and terms of use. Make sure it's not training on the information you",
+      "why_it_matters": "Core data privacy check before adopting an AI tool for business use.",
+      "check": "exact"
     },
     {
       "t": 1602.8,
@@ -693,26 +650,14 @@
     },
     {
       "t": 2397.2,
-      "text": "one I'm thinking about today, we were just talking uh earlier this week, he on average has five to seven agents running at any",
-      "why_it_matters": "Provides realistic data point on actual agent usage patterns versus viral marketing claims",
-      "check": "exact"
-    },
-    {
-      "t": 2397.2,
-      "text": "he on average has five to seven agents running at any given point in time. To expedite the work that he's doing.",
-      "why_it_matters": "Provides concrete real-world example of practical AI agent usage in professional work, contrasting with unrealistic influencer claims.",
+      "text": "he on average has five to seven agents running at any given point in time.",
+      "why_it_matters": "Concrete example of how many agents one engineer runs in practice.",
       "check": "exact"
     },
     {
       "t": 2430.6,
       "text": "they just have instructions for a single threaded processes and they have 14 different sets of instruction files.",
       "why_it_matters": "Reveals how many claimed multi-agent setups are actually just multiple instruction sets running sequentially, not true parallel processing.",
-      "check": "exact"
-    },
-    {
-      "t": 2525.2,
-      "text": "I spend $20,000 I like when I see that stuff, I'm like, Okay, you're doing all this stuff, but you're spending",
-      "why_it_matters": "Highlights the economic reality that running many agents incurs significant costs that may not be recouped in value generation.",
       "check": "exact"
     },
     {
@@ -734,15 +679,9 @@
       "check": "exact"
     },
     {
-      "t": 3150.8,
-      "text": "if everything's time-based, if you can do things with less friction and faster than if you're going to just go ...",
-      "why_it_matters": "Articulates the core tension professional services face: improved efficiency under hourly billing models directly reduces revenue.",
-      "check": "exact"
-    },
-    {
-      "t": 3150.8,
-      "text": "it is a balancing act. What is something that can be value Again, if everything's time-based, if you can do ...",
-      "why_it_matters": "Frames the core challenge of AI adoption in professional services - efficiency gains can reduce revenue under traditional time-based billing.",
+      "t": 3162,
+      "text": "than if you're going to just go by the amount of time it takes you run the risk of reducing your revenue",
+      "why_it_matters": "States the revenue risk of time-based billing as AI reduces task time.",
       "check": "exact"
     },
     {

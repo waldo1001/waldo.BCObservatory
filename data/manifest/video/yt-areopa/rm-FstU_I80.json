@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=rm-FstU_I80",
   "published_at": "2026-09-07T12:36:05.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -58,8 +58,17 @@
       "objects_as_heard": 4
     },
     "published": {
-      "at": "2026-10-06T17:51:53.675Z",
+      "at": "2026-10-07T23:19:38.574Z",
       "path": "content/videos/rm-FstU_I80.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:19:38.531Z",
+      "path": "data/review/video/rm-FstU_I80.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.249253
     }
   },
   "input_hash": null,
@@ -76,7 +85,12 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b157f8c1eefb5b8df94deb312d9806f0129894cde30abdec7611d2c77d5cc721",
+  "output_hash": "e6f985efb28d4d9fc2dabb96dbd533d7e1b4484db6024583d6d6fe008f8f688a",
   "skip": null,
-  "skipped_at": null
+  "skipped_at": null,
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:19:38.493Z"
+  }
 }

@@ -1,0 +1,30 @@
+{
+  "video_id": "GlY_e-jH0V0",
+  "item_id": "video/yt-dynamicscorner/GlY_e-jH0V0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary calls this a 'Dynamics Corner podcast clip', but neither the transcript nor the title names the show. That is outside knowledge, so the summary has been rewritten without it.",
+    "The transcript never mentions Business Central. The clip is general advice on adopting AI and Copilot (instructions, skills, agents, prompts). It is kept because it is on topic for Copilot adoption, but it is only loosely about BC.",
+    "Key point 2 says 'rate of change in Copilot'. The transcript says 'this stuff' generally, not Copilot.",
+    "Key points 4 and 5 add details the transcript does not state: 'basic custom prompt' and 'specific use cases'. The speaker made something simple with Copilot's help and now creates prompts all the time. The Copilot prompt creation feature description has the same 'specific use cases' wording, which the transcript does not support. That description was left as is because this review cannot edit feature descriptions.",
+    "The quote at 44.1 is a fragment that cuts off mid-phrase, so it is replaced with a fuller span that includes Copilot helping.",
+    "All four features are correctly marked unclear, since the transcript gives no preview or GA status."
+  ],
+  "input_hash": "8a9e05b6e1578f20ba088613aefe48eb04375ac08bd96b903e3959d0a91133cc",
+  "by": "opus",
+  "at": "2026-10-07T23:21:13.906Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 44s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055441000000000004
+  }
+}

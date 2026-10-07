@@ -242,98 +242,6 @@
       "system": "reporting"
     },
     {
-      "name": "Case-based training methodology",
-      "description": "A training approach that uses real-life business scenarios and customer use cases as the foundation for learning Business Central, combining technical, functional and development training.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 591.3,
-      "t_end": 671,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "case-based",
-        "user adoption",
-        "implementation"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Learning journey structure",
-      "description": "A structured learning path that adapts based on user experience level and learning preference type, incorporating boosters, expert sessions, and classical trainings delivered through a learning management system.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 591.3,
-      "t_end": 1069,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "learning management",
-        "implementation",
-        "lms"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Continuous learning subscription",
-      "description": "A fixed-fee subscription model that provides ongoing access to all training content without per-training charges, allowing users to learn continuously as the product evolves.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1183.7,
-      "t_end": 1221,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "subscriptions",
-        "continuous learning"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Training boosters",
-      "description": "Learning management system-based training content focused on specific functionalities such as development and warehouse management.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 982.7,
-      "t_end": 1011.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "learning management",
-        "boosters"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Expert sessions for training",
-      "description": "Instructor-led webinar training sessions of one to two hours with subject matter experts covering specific topics followed by Q&A.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 995,
-      "t_end": 1026.9,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "training",
-        "expert sessions",
-        "webinars"
-      ],
-      "system": "administration"
-    },
-    {
       "name": "PowerBI Data Modeling",
       "description": "The ability to build data models in PowerBI by importing data from Business Central tables and other data sources, which can then be shared and connected to by other tools including Excel.",
       "status": "unclear",
@@ -788,8 +696,14 @@
     },
     {
       "t": 1914.6,
-      "text": "could also be page APIs I I prefer query APIs because they can pre-agregate uh the data and by simply ...",
-      "why_it_matters": "Indicates the performance advantages of query APIs over page APIs for data aggregation in PowerBI scenarios.",
+      "text": "could also be page APIs I I prefer query APIs because they can pre-agregate uh the data",
+      "why_it_matters": "States the speaker's preference for query APIs over page APIs as a Power BI data source.",
+      "check": "exact"
+    },
+    {
+      "t": 1931.4,
+      "text": "in the business central client find it via tell me or search and then it opens automatically in the analysis model",
+      "why_it_matters": "Shows that query APIs can be opened in analysis mode directly from the client.",
       "check": "exact"
     },
     {

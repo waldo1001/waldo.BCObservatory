@@ -1,0 +1,36 @@
+{
+  "video_id": "Q-oazDEucLE",
+  "item_id": "video/yt-areopa/Q-oazDEucLE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary called the session demo-based; it is mostly a slide talk with short code snippets, a rerun of a Days of Knowledge talk. Summary replaced.",
+    "Key point and the feature 'Agent-driven mutation testing automation' claim 'hundreds of mutations'; transcript gives no count, only that the loop can run for an hour or two from a clean repository. Feature dropped (also duplicates 'AI-generated mutation testing plans'); key point corrected.",
+    "Quote at 2698.6 contains an inserted ellipsis and is not verbatim; replaced with the full verbatim span.",
+    "Two near-duplicate quotes at t=2459.5; both dropped and one verbatim version re-added.",
+    "Quote at 1799.8 ('because this is about doing mutation tests.') says nothing useful; dropped.",
+    "Feature 'Large language model selection for AL code' adds 'Claude' to the model name; the transcript only says 'the new OPUS models the DBT55'. Minor issue, kept.",
+    "Several features are working principles rather than product features (leave codebase better, touch code only when necessary, agent economics, bug discovery). The transcript supports them, so they are kept.",
+    "All feature statuses are correctly 'unclear'; these are practices, not released or announced features."
+  ],
+  "input_hash": "38e8397c0b8cb187c6250a8a8e3a6576d3118a1e32ca22e0f266f445f2a4f55e",
+  "by": "opus",
+  "at": "2026-10-07T23:20:16.843Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 4 quote(s)",
+    "quote at 2699s",
+    "quote at 2460s",
+    "quote at 1370s",
+    "quote at 2112s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.256893
+  }
+}

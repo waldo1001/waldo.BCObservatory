@@ -20,12 +20,12 @@ tags:
   - stubs
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:46.119Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:46.191Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -178,11 +178,6 @@ features:
     t: 1638
     verified: false
     status_source: video
-  - name: 100% code coverage through interface testing
-    status: unclear
-    t: 1829
-    verified: false
-    status_source: video
   - name: API testing without external calls
     status: unclear
     t: 1896
@@ -243,11 +238,6 @@ features:
     t: 3346
     verified: false
     status_source: video
-  - name: AI-guided test generation
-    status: unclear
-    t: 3148
-    verified: false
-    status_source: video
 objects_mentioned:
   - other navigate BC
   - interface number series single
@@ -282,7 +272,7 @@ quotes:
 
 > AL test design patterns for fast tests with 100% coverage of the tested objects, shown on a payment provider integration. It uses interfaces, enums, stubs and spies, and passes records as parameters to avoid database calls and external API calls. The presenter reports over 200 tests running in milliseconds.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=EurgqGU1jG0) · Areopa webinars · 2026-05-05 · 59:49 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=EurgqGU1jG0) · Areopa webinars · 2026-05-05 · 59:49 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -328,31 +318,29 @@ It then covers testing API logic without external calls, passing records as para
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| 100% code coverage testing pattern | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=EurgqGU1jG0&t=287s) |  |
-| Payment API integration with environment-aware mode switching | status not stated, demoed | [7:13](https://www.youtube.com/watch?v=EurgqGU1jG0&t=433s) |  |
-| Fast automated testing framework | status not stated, demoed | [11:49](https://www.youtube.com/watch?v=EurgqGU1jG0&t=709s) |  |
-| GitHub AL-Go integration with test reporting | status not stated, demoed | [13:00](https://www.youtube.com/watch?v=EurgqGU1jG0&t=780s) |  |
-| Context interfaces pattern | status not stated, demoed | [16:05](https://www.youtube.com/watch?v=EurgqGU1jG0&t=965s) |  |
-| Environment interfaces | status not stated, demoed | [18:29](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1109s) |  |
-| Enum-based state management | status not stated, demoed | [20:25](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1225s) |  |
-| Test doubles with stubs and spies | status not stated, demoed | [26:15](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1575s) |  |
-| Environment stub implementation for testing | status not stated, demoed | [27:18](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1638s) |  |
-| 100% code coverage through interface testing | status not stated, demoed | [30:29](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1829s) |  |
-| API testing without external calls | status not stated, demoed | [31:36](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1896s) |  |
-| API spy variables for tracking calls | status not stated, demoed | [34:30](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2070s) |  |
-| Record parameter passing for fast testing | status not stated, demoed | [39:07](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2347s) |  |
-| Application state management for test scenarios | status not stated, demoed | [40:43](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2443s) |  |
-| Single database get optimization | status not stated, demoed | [43:33](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2613s) |  |
-| AI assistance for code generation and testing | status not stated, demoed | [45:40](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2740s) |  |
-| Event publishers for separating concerns | status not stated, demoed | [49:14](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2954s) |  |
-| Pure functions for testability | status not stated, demoed | [50:37](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3037s) |  |
-| Dependency injection parameter hell trade-off | status not stated | [52:48](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3168s) |  |
-| Modular app architecture | status not stated, demoed | [54:06](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3246s) |  |
-| API operation record pattern | status not stated, demoed | [54:57](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3297s) |  |
-| Interface pattern for consistent signatures | status not stated, demoed | [55:46](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3346s) |  |
-| AI-guided test generation | status not stated | [52:28](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3148s) |  |
+| Feature | Status | At |
+|---|---|---|
+| 100% code coverage testing pattern | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=EurgqGU1jG0&t=287s) |
+| Payment API integration with environment-aware mode switching | status not stated, demoed | [7:13](https://www.youtube.com/watch?v=EurgqGU1jG0&t=433s) |
+| Fast automated testing framework | status not stated, demoed | [11:49](https://www.youtube.com/watch?v=EurgqGU1jG0&t=709s) |
+| GitHub AL-Go integration with test reporting | status not stated, demoed | [13:00](https://www.youtube.com/watch?v=EurgqGU1jG0&t=780s) |
+| Context interfaces pattern | status not stated, demoed | [16:05](https://www.youtube.com/watch?v=EurgqGU1jG0&t=965s) |
+| Environment interfaces | status not stated, demoed | [18:29](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1109s) |
+| Enum-based state management | status not stated, demoed | [20:25](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1225s) |
+| Test doubles with stubs and spies | status not stated, demoed | [26:15](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1575s) |
+| Environment stub implementation for testing | status not stated, demoed | [27:18](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1638s) |
+| API testing without external calls | status not stated, demoed | [31:36](https://www.youtube.com/watch?v=EurgqGU1jG0&t=1896s) |
+| API spy variables for tracking calls | status not stated, demoed | [34:30](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2070s) |
+| Record parameter passing for fast testing | status not stated, demoed | [39:07](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2347s) |
+| Application state management for test scenarios | status not stated, demoed | [40:43](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2443s) |
+| Single database get optimization | status not stated, demoed | [43:33](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2613s) |
+| AI assistance for code generation and testing | status not stated, demoed | [45:40](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2740s) |
+| Event publishers for separating concerns | status not stated, demoed | [49:14](https://www.youtube.com/watch?v=EurgqGU1jG0&t=2954s) |
+| Pure functions for testability | status not stated, demoed | [50:37](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3037s) |
+| Dependency injection parameter hell trade-off | status not stated | [52:48](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3168s) |
+| Modular app architecture | status not stated, demoed | [54:06](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3246s) |
+| API operation record pattern | status not stated, demoed | [54:57](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3297s) |
+| Interface pattern for consistent signatures | status not stated, demoed | [55:46](https://www.youtube.com/watch?v=EurgqGU1jG0&t=3346s) |
 
 ## AL objects mentioned
 

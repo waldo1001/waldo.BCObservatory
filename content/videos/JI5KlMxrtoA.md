@@ -2,7 +2,7 @@
 id: video/JI5KlMxrtoA
 type: video
 title: How Good Can AL Code Get? — A Live ISO 5055 Review
-summary: Stefan Maron's live review of AL code against ISO 5055 and a custom AL rule set, using a proprietary analyzer. It is evidence for which ISO 5055 and CWE-mapped rules apply to AL (read isolation, field assignment order, error info, find set without filters, case without else) and where they give false positives.
+summary: Live walkthrough of a paid AL code review service that checks an extension against ISO 5055 (CWE-mapped rules) plus a custom AL rule set, using a proprietary analyzer with about 500 diagnostics. Useful as evidence for which ISO 5055 rules apply to AL (permission assignment, read isolation, field assignment order, error info, find set without filters, delete all without is empty, case without else, HTTP timeouts) and where the rules produce false positives or need justified exceptions.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - error handling
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:20:39.087Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:20:39.152Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -218,11 +218,6 @@ features:
     t: 1600
     verified: false
     status_source: video
-  - name: CWE 3 error message detection
-    status: unclear
-    t: 1636
-    verified: false
-    status_source: video
   - name: Magic number detection
     status: unclear
     t: 1673
@@ -338,9 +333,9 @@ quotes:
 
 # How Good Can AL Code Get? — A Live ISO 5055 Review
 
-> Stefan Maron's live review of AL code against ISO 5055 and a custom AL rule set, using a proprietary analyzer. It is evidence for which ISO 5055 and CWE-mapped rules apply to AL (read isolation, field assignment order, error info, find set without filters, case without else) and where they give false positives.
+> Live walkthrough of a paid AL code review service that checks an extension against ISO 5055 (CWE-mapped rules) plus a custom AL rule set, using a proprietary analyzer with about 500 diagnostics. Useful as evidence for which ISO 5055 rules apply to AL (permission assignment, read isolation, field assignment order, error info, find set without filters, delete all without is empty, case without else, HTTP timeouts) and where the rules produce false positives or need justified exceptions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JI5KlMxrtoA) · Stefan Maron · 2026-05-08 · 1:12:11 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JI5KlMxrtoA) · Stefan Maron · 2026-05-08 · 1:12:11 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -350,13 +345,13 @@ He then goes through findings on sample code: CWE 732 permissions, read isolatio
 
 ## Key points
 
-- ISO 5055 has 119 rules, and not all of them apply to AL. The review adds a custom AL rule set on top.
-- The proprietary analyzer gives about 500 diagnostics mapped to ISO 5055 and CWE. It is not published, and the author does not use it in daily development or CI because of the noise.
-- Read isolation rule: reads without explicit read isolation default to escalated update locks, which can degrade concurrency under load. The rule is under review and may be removed or loosened.
-- Field assignment order should follow the page pattern: init, validate primary key fields, insert(true), then validate the remaining fields and modify(true).
+- ISO 5055 has 119 rules, and not all of them fully apply to AL. The review adds a custom AL rule set on top.
+- The proprietary analyzer gives about 500 diagnostics mapped to ISO 5055 and CWE. It is not published, is not enabled in the author's daily development, and is meant to surface findings for a manual review.
+- Read isolation rule: reads without explicit read isolation default to escalated update locks, which can degrade concurrency under load. A related rule about relying on the primary key when no current key is set is under review and may be removed.
+- Field assignment order should follow the page pattern: init, validate primary key fields, insert(true), then validate the remaining fields and modify(true). Exceptions should be documented.
 - Use error info with navigate actions and custom dimensions instead of plain errors to give users fix-it actions and give support more context.
-- Flagged patterns include find set without filters, delete all without an is empty check, case statements without else, unchecked return values, and HTTP client calls without an explicit timeout. Intentional cases, such as upgrade codeunits, can be marked as accepted.
-- Mixed AND and OR without parentheses is flagged because AL operator precedence is not clearly documented. Findings can be false positives and need manual review.
+- Flagged patterns include find set without filters, delete all without an is empty check, case statements without else, unchecked return values, hard-coded literals and URLs, and HTTP client calls without an explicit timeout. Intentional cases, such as upgrade codeunits, can be documented as accepted.
+- Mixed AND and OR without parentheses is flagged. The presenter could not find documentation on AL precedence and recommends parentheses for readability. Findings can be false positives and need manual review.
 
 ## Chapters
 
@@ -390,41 +385,40 @@ He then goes through findings on sample code: CWE 732 permissions, read isolatio
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ISO 5055 Review Standard Integration | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=218s) |  |
-| Custom AL Quality Framework | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=282s) |  |
-| Free Quality Assessment Service | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=318s) |  |
-| Default Analyzers Configuration | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=371s) |  |
-| AL Cops and Community Code Cops | status not stated, demoed | [8:05](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=485s) |  |
-| Proprietary Review Analyzer | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=591s) |  |
-| CWE 732 Permission Assignment Mapping | status not stated, demoed | [10:19](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=619s) |  |
-| Read Isolation and Concurrency Rule EAT-10 | status not stated, demoed | [12:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=779s) |  |
-| CWE 1083 - Data Access from Outside Data Manager | status not stated, demoed | [14:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=897s) |  |
-| Field Assignment Order Validation | status not stated, demoed | [17:36](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1056s) |  |
-| Primary Key Field Violation Detection | status not stated, demoed | [19:21](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1161s) |  |
-| CWE 778 - Insufficient Logging for Security Events | status not stated, demoed | [20:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1259s) |  |
-| Isolated Storage Cleanup Validation | status not stated, demoed | [22:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1377s) |  |
-| Isolated Storage Encryption Validation | status not stated, demoed | [24:50](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1490s) |  |
-| CWE 1052 detection | status not stated, demoed | [26:40](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1600s) |  |
-| CWE 3 error message detection | status not stated, demoed | [27:16](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1636s) |  |
-| Magic number detection | status not stated, demoed | [27:53](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1673s) |  |
-| Self-documenting code through extraction | status not stated, demoed | [28:32](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1712s) |  |
-| CWE 783 mixed boolean operators | status not stated, demoed | [32:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1940s) |  |
-| Error info pattern | status not stated, demoed | [37:55](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2275s) |  |
-| Error info with custom dimensions | status not stated | [40:13](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2413s) |  |
-| Error info with navigate actions | status not stated, demoed | [39:15](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2355s) |  |
-| Unchecked return value detection | status not stated, demoed | [40:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2459s) |  |
-| Find set without filters warning | status not stated, demoed | [45:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2757s) |  |
-| Delete all without is empty check warning | status not stated, demoed | [47:16](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2836s) |  |
-| Read isolation and table locking interaction | status not stated, demoed | [49:21](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2961s) |  |
-| Lock release on variable scope | status not stated | [53:31](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3211s) |  |
-| Record isolation level on record instances | status not stated, demoed | [54:38](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3278s) |  |
-| Case statement completeness checking | status not stated, demoed | [57:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3440s) |  |
-| Explicit HTTP client timeout setting | status not stated, demoed | [59:54](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3594s) |  |
-| ISO 5055 code quality assessment | status not stated, demoed | [59:04](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3544s) |  |
-| ISO 5055 Quality Scoring System | status not stated, demoed | [1:05:10](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3910s) |  |
-| Quality Assessment Report Service | status not stated | [1:08:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=4100s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ISO 5055 Review Standard Integration | status not stated, demoed | [3:38](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=218s) |
+| Custom AL Quality Framework | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=282s) |
+| Free Quality Assessment Service | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=318s) |
+| Default Analyzers Configuration | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=371s) |
+| AL Cops and Community Code Cops | status not stated, demoed | [8:05](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=485s) |
+| Proprietary Review Analyzer | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=591s) |
+| CWE 732 Permission Assignment Mapping | status not stated, demoed | [10:19](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=619s) |
+| Read Isolation and Concurrency Rule EAT-10 | status not stated, demoed | [12:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=779s) |
+| CWE 1083 - Data Access from Outside Data Manager | status not stated, demoed | [14:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=897s) |
+| Field Assignment Order Validation | status not stated, demoed | [17:36](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1056s) |
+| Primary Key Field Violation Detection | status not stated, demoed | [19:21](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1161s) |
+| CWE 778 - Insufficient Logging for Security Events | status not stated, demoed | [20:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1259s) |
+| Isolated Storage Cleanup Validation | status not stated, demoed | [22:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1377s) |
+| Isolated Storage Encryption Validation | status not stated, demoed | [24:50](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1490s) |
+| CWE 1052 detection | status not stated, demoed | [26:40](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1600s) |
+| Magic number detection | status not stated, demoed | [27:53](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1673s) |
+| Self-documenting code through extraction | status not stated, demoed | [28:32](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1712s) |
+| CWE 783 mixed boolean operators | status not stated, demoed | [32:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=1940s) |
+| Error info pattern | status not stated, demoed | [37:55](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2275s) |
+| Error info with custom dimensions | status not stated | [40:13](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2413s) |
+| Error info with navigate actions | status not stated, demoed | [39:15](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2355s) |
+| Unchecked return value detection | status not stated, demoed | [40:59](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2459s) |
+| Find set without filters warning | status not stated, demoed | [45:57](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2757s) |
+| Delete all without is empty check warning | status not stated, demoed | [47:16](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2836s) |
+| Read isolation and table locking interaction | status not stated, demoed | [49:21](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=2961s) |
+| Lock release on variable scope | status not stated | [53:31](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3211s) |
+| Record isolation level on record instances | status not stated, demoed | [54:38](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3278s) |
+| Case statement completeness checking | status not stated, demoed | [57:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3440s) |
+| Explicit HTTP client timeout setting | status not stated, demoed | [59:54](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3594s) |
+| ISO 5055 code quality assessment | status not stated, demoed | [59:04](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3544s) |
+| ISO 5055 Quality Scoring System | status not stated, demoed | [1:05:10](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=3910s) |
+| Quality Assessment Report Service | status not stated | [1:08:20](https://www.youtube.com/watch?v=JI5KlMxrtoA&t=4100s) |
 
 ## AL objects mentioned
 

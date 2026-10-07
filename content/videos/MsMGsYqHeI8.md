@@ -20,12 +20,12 @@ tags:
   - personal ai training
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:05.900Z"
   flags: []
 generated:
-  at: "2026-10-06T18:08:38.240Z"
+  at: "2026-10-07T23:21:05.950Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -218,7 +218,7 @@ quotes:
 
 > Podcast discussion (Dynamics Corner, episode 514) on AI-generated content in the Business Central community: repeating AI writing patterns, reader trust, inaccurate technical examples, author responsibility, and the question of whether readers need AI to summarize and check other AI content.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MsMGsYqHeI8) · Dynamics Corner podcast · 2026-04-21 · 52:56 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MsMGsYqHeI8) · Dynamics Corner podcast · 2026-04-21 · 52:56 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -256,23 +256,23 @@ They separate AI-created content (generated and published as is), AI-assisted co
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI Agent for Content Summarization | status not stated | [3:30](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=210s) |  |
-| AI-Generated Blog Content Patterns | status not stated | [9:00](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=540s) |  |
-| Content Verification Dilemma | status not stated | [11:25](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=685s) |  |
-| AI content detection by style patterns | status not stated | [13:12](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=792s) |  |
-| Personal AI intelligence training | status not stated | [18:35](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1115s) |  |
-| AI-created content publishing | status not stated | [21:35](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1295s) |  |
-| AI-assisted content creation | status not stated | [21:58](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1318s) |  |
-| AI gap-filling content method | status not stated | [23:04](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1384s) |  |
-| Author responsibility for published content | status not stated | [25:23](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1523s) |  |
-| Riverside AI clip generation | status not stated | [33:10](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1990s) |  |
-| Gemini content summarization | status not stated | [34:11](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2051s) |  |
-| NotebookLM podcast generation | status not stated | [34:52](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2092s) |  |
-| AI-generated blog automation | status not stated | [29:56](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1796s) |  |
-| Business manager agent for Business Central | status not stated | [42:12](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2532s) |  |
-| AI-assisted content creation and validation | status not stated | [43:45](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2625s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI Agent for Content Summarization | status not stated | [3:30](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=210s) |
+| AI-Generated Blog Content Patterns | status not stated | [9:00](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=540s) |
+| Content Verification Dilemma | status not stated | [11:25](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=685s) |
+| AI content detection by style patterns | status not stated | [13:12](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=792s) |
+| Personal AI intelligence training | status not stated | [18:35](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1115s) |
+| AI-created content publishing | status not stated | [21:35](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1295s) |
+| AI-assisted content creation | status not stated | [21:58](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1318s) |
+| AI gap-filling content method | status not stated | [23:04](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1384s) |
+| Author responsibility for published content | status not stated | [25:23](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1523s) |
+| Riverside AI clip generation | status not stated | [33:10](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1990s) |
+| Gemini content summarization | status not stated | [34:11](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2051s) |
+| NotebookLM podcast generation | status not stated | [34:52](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2092s) |
+| AI-generated blog automation | status not stated | [29:56](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=1796s) |
+| Business manager agent for Business Central | status not stated | [42:12](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2532s) |
+| AI-assisted content creation and validation | status not stated | [43:45](https://www.youtube.com/watch?v=MsMGsYqHeI8&t=2625s) |
 
 ## Quotes
 

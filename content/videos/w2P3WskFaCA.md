@@ -20,12 +20,12 @@ tags:
   - workflow automation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:21:05.810Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:21:05.882Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -337,7 +337,7 @@ quotes:
 
 > Dynamics Corner episode 513 covers terminal-based, AI-driven Business Central AL development with Claude Code on Linux, plus a third-party AL code review service built on an ISO 5055-based analyzer. It also shows a prototype of Business Central running in Linux Docker containers.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=w2P3WskFaCA) · Dynamics Corner podcast · 2026-04-14 · 1:18:51 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=w2P3WskFaCA) · Dynamics Corner podcast · 2026-04-14 · 1:18:51 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -348,9 +348,9 @@ Second, the presenter describes a workflow where nearly 100 percent of code is A
 ## Key points
 
 - The code review service has a free automated assessment and a paid detailed review. The analyzer maps about 170 ISO 5055 rules to AL, leaves out rules such as memory exploits, and adds custom Business Central rules.
-- AI-generated AL code needs thorough review and testing. The speaker says it is not fire-and-forget, and that manual cleanup is sometimes faster than asking the AI.
+- The speaker says he is approaching 100% AI-generated code but reviews and tests everything. He finds cleanup with existing quick fixes and community tools faster and more reliable than having AI do it.
 - Context management approach: sub-agents write results to files and return only a summary to the main agent, so sessions can be stopped and resumed from disk.
-- AL instructions are packaged as a plugin and are refined by trial and error on real projects. Commands are deprecated in favor of skills, which can force a sub-agent to be spawned.
+- AL instructions are packaged as a plugin and are refined by trial and error on real projects. Commands are described as a little deprecated in favor of skills, which can force a sub-agent to be spawned.
 - Helper scripts: an al-compile bash wrapper around the AL compiler, and a bc-publish command that uses curl against the deployment API.
 - Test-driven approach: tests are written and must fail before code is generated, and a manual approval gate follows. The speaker calls this the only way he found to trust AI output without reviewing every line.
 - The Linux Business Central container project runs a service tier with SQL Server in Docker, with a Linux-compatible HTTP replacement. The speaker calls it fragile and still in progress, and it is public on his GitHub. Windows users should prefer BC container helper.
@@ -398,36 +398,36 @@ Second, the presenter describes a workflow where nearly 100 percent of code is A
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Code review service | status not stated | [7:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=450s) |  |
-| AL code analyzer | status not stated | [12:23](https://www.youtube.com/watch?v=w2P3WskFaCA&t=743s) |  |
-| AI-assisted development in Business Central | status not stated, demoed | [7:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=450s) |  |
-| Cloud Code AL development workflow | status not stated, demoed | [19:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1155s) |  |
-| Flow Next file-backed agent workflow | status not stated, demoed | [21:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1275s) |  |
-| Multi-agent context management strategy | status not stated, demoed | [24:05](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1445s) |  |
-| Iterative AL instruction refinement | status not stated | [25:16](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1516s) |  |
-| Commands framework | status not stated | [28:49](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1729s) |  |
-| Skills framework | status not stated | [29:07](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1747s) |  |
-| Problem-driven feature adoption | status not stated | [32:23](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1943s) |  |
-| Parallel project development | status not stated | [40:29](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2429s) |  |
-| Terminal UI and File Explorer Navigation | status not stated, demoed | [41:35](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2495s) |  |
-| Arch Linux Development Environment | status not stated, demoed | [43:33](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2613s) |  |
-| Windows VM for Reporting | status not stated, demoed | [45:29](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2729s) |  |
-| Windows VM Running in Linux Docker Container | status not stated, demoed | [45:40](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2740s) |  |
-| AL Compiler Bash Script Wrapper | status not stated, demoed | [47:44](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2864s) |  |
-| Publishing via Curl CLI Command | status not stated | [48:41](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2921s) |  |
-| Docker Containers for Business Central on Linux | status not stated, demoed | [49:57](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2997s) |  |
-| Standalone Codeunit Execution Without Service Tier | status not stated, demoed | [51:32](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3092s) |  |
-| C# HTTP Implementation Replacement for Linux Compatibility | status not stated, demoed | [52:20](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3140s) |  |
-| Local Linux Service Tier Execution | status not stated, demoed | [53:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3195s) |  |
-| Automated CLI-based Test Execution | status not stated, demoed | [56:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3390s) |  |
-| Test-driven Development with AI Code Generation | status not stated | [55:49](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3349s) |  |
-| OData-based Test Exposure | status not stated | [1:00:43](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3643s) |  |
-| AI-driven code generation and language abstraction | status not stated | [1:05:02](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3902s) |  |
-| Machine-optimized programming languages | status not stated | [1:06:53](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4013s) |  |
-| Linux Business Central container project | status not stated | [1:14:11](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4451s) |  |
-| Business Central source code history repository | status not stated | [1:15:38](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4538s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Code review service | status not stated | [7:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=450s) |
+| AL code analyzer | status not stated | [12:23](https://www.youtube.com/watch?v=w2P3WskFaCA&t=743s) |
+| AI-assisted development in Business Central | status not stated, demoed | [7:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=450s) |
+| Cloud Code AL development workflow | status not stated, demoed | [19:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1155s) |
+| Flow Next file-backed agent workflow | status not stated, demoed | [21:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1275s) |
+| Multi-agent context management strategy | status not stated, demoed | [24:05](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1445s) |
+| Iterative AL instruction refinement | status not stated | [25:16](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1516s) |
+| Commands framework | status not stated | [28:49](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1729s) |
+| Skills framework | status not stated | [29:07](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1747s) |
+| Problem-driven feature adoption | status not stated | [32:23](https://www.youtube.com/watch?v=w2P3WskFaCA&t=1943s) |
+| Parallel project development | status not stated | [40:29](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2429s) |
+| Terminal UI and File Explorer Navigation | status not stated, demoed | [41:35](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2495s) |
+| Arch Linux Development Environment | status not stated, demoed | [43:33](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2613s) |
+| Windows VM for Reporting | status not stated, demoed | [45:29](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2729s) |
+| Windows VM Running in Linux Docker Container | status not stated, demoed | [45:40](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2740s) |
+| AL Compiler Bash Script Wrapper | status not stated, demoed | [47:44](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2864s) |
+| Publishing via Curl CLI Command | status not stated | [48:41](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2921s) |
+| Docker Containers for Business Central on Linux | status not stated, demoed | [49:57](https://www.youtube.com/watch?v=w2P3WskFaCA&t=2997s) |
+| Standalone Codeunit Execution Without Service Tier | status not stated, demoed | [51:32](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3092s) |
+| C# HTTP Implementation Replacement for Linux Compatibility | status not stated, demoed | [52:20](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3140s) |
+| Local Linux Service Tier Execution | status not stated, demoed | [53:15](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3195s) |
+| Automated CLI-based Test Execution | status not stated, demoed | [56:30](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3390s) |
+| Test-driven Development with AI Code Generation | status not stated | [55:49](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3349s) |
+| OData-based Test Exposure | status not stated | [1:00:43](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3643s) |
+| AI-driven code generation and language abstraction | status not stated | [1:05:02](https://www.youtube.com/watch?v=w2P3WskFaCA&t=3902s) |
+| Machine-optimized programming languages | status not stated | [1:06:53](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4013s) |
+| Linux Business Central container project | status not stated | [1:14:11](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4451s) |
+| Business Central source code history repository | status not stated | [1:15:38](https://www.youtube.com/watch?v=w2P3WskFaCA&t=4538s) |
 
 ## AL objects mentioned
 
