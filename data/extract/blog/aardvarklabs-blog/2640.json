@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2640",
+  "url": "https://aardvarklabs.blog/2025/09/26/securing-sensitive-data-in-business-central-al-using-secrettext/",
+  "title": "Securing Sensitive Data in Business Central AL using SecretText",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-09-26T12:00:00.000Z",
+  "words": 740,
+  "summary": "SecretText is a data type in Business Central AL that protects sensitive values like API keys and authentication credentials from being exposed in debuggers or passed insecurely between procedures. The post demonstrates how to use SecretText with JSON objects and isolated storage to keep secrets hidden during extension development.",
+  "key_points": [
+    "SecretText variables display as HiddenValues in the debugger and cannot be converted back to plain text",
+    "Use WriteWithSecretsTo method with a Dictionary to safely embed SecretText values into JSON objects by replacing placeholders",
+    "SecretText can be retrieved from Isolated Storage or Azure Vault and used with HTTPClient and Azure OpenAI authentication",
+    "SecretText implements a write-once reveal-never pattern where values are stored once but never retrieved in human-readable form"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "security",
+    "secrettext",
+    "api authentication",
+    "isolated storage",
+    "json",
+    "debugging",
+    "sensitive data"
+  ],
+  "objects": [],
+  "features": [
+    "SecretText data type",
+    "WriteWithSecretsTo method",
+    "Isolated Storage",
+    "HTTPClient",
+    "Azure OpenAI",
+    "Dictionary",
+    "JsonObject"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When I look at this with my debugger all the SecretText values are displayed as HiddenValues. No snooping for me!",
+      "why_it_matters": "Demonstrates that SecretText protects against debugger inspection, a key threat when handling API keys and credentials"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

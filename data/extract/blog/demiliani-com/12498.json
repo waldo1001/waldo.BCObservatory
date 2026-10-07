@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/demiliani-com/12498",
+  "url": "https://demiliani.com/2025/09/18/dynamics-365-business-central-introducing-the-new-maskedtype-enum-field-level-property/",
+  "title": "Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.",
+  "source": "demiliani-com",
+  "published_at": "2025-09-18T19:09:51.000Z",
+  "words": 400,
+  "summary": "Dynamics 365 Business Central 2025 Wave 2 introduces a new MaskType enum property for table fields that allows masking sensitive information in the UI. Users can toggle visibility with an eye button to reveal concealed field values on demand, providing protection from casual observation while allowing authorized access.",
+  "key_points": [
+    "MaskType enum property supports None (default, visible) and Concealed (hidden by default, revealed via eye button) values",
+    "Supported on Code, Text, Decimal, and Integer fields only, and only on document and card pages, not on list page repeaters or grids",
+    "Works on web client and mobile client; cannot be used together with ExtendedDatatype = Masked property",
+    "Available starting from Dynamics 365 Business Central version 27.1 and requires enabling via Feature Management",
+    "Provides UI-layer protection only; unmasked data is still transmitted to the web browser"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "field masking",
+    "data protection",
+    "sensitive information",
+    "ui customization",
+    "page design"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "MaskType"
+    }
+  ],
+  "features": [
+    "MaskType enum property",
+    "field concealment",
+    "eye button toggle",
+    "sensitive data masking",
+    "Feature Management"
+  ],
+  "versions": [
+    "2025 Wave 2",
+    "27.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new property will be available starting from Dynamics 365 Business Central version 27.1 and it will not be enabled by default.",
+      "why_it_matters": "Critical implementation detail about when the feature becomes available and that it requires explicit enablement via Feature Management"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

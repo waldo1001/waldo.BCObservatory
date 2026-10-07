@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10122",
+  "url": "https://thedynamicsexplorer.com/2025/09/15/dynamics-365-business-central-month-end-accruals-for-grni-purchase-orders-and-unposted-purchase-invoices/",
+  "title": "Dynamics 365 Business Central – Month End Accruals for GRNI Purchase Orders and Unposted Purchase Invoices",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-09-15T09:30:00.000Z",
+  "words": 689,
+  "summary": "This post explains how to identify and accrue for unposted purchase invoices and goods received not invoiced (GRNI) purchase orders at month end using the Purchase Lines page in Analysis Mode, then post accruals through a Recurring General Journal.",
+  "key_points": [
+    "Use Purchase Lines page with Analysis Mode to filter unposted invoices (Document Type = Invoice, Type = G/L Account) and GRNI orders (Document Type = Order, Type = G/L Account, Amt. Rcd. Not Inv. Ex. VAT <>0)",
+    "Apply date filters to exclude invoices from later periods and use the Pivot Function to summarize by GL code if needed",
+    "Export filtered data to Excel and populate a Recurring General Journal to post month-end accruals and reversals",
+    "This approach applies only to G/L Account line items; items can use Expected Costing in Inventory Setup for automatic accrual posting"
+  ],
+  "systems": [
+    "finance",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "month end close",
+    "accruals",
+    "purchase invoices",
+    "purchase orders",
+    "grni",
+    "analysis mode",
+    "recurring journal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Lines"
+    },
+    {
+      "type": "page",
+      "name": "Recurring General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Add fields in Analysis Mode",
+    "Filtering in Analysis Mode",
+    "Pivot Function",
+    "Open in Excel",
+    "Expected Costing",
+    "Recurring General Journal"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "At the month end, you might have Purchase Invoices that are unposted for a variety of reasons.",
+      "why_it_matters": "Establishes the business problem that accruals solve for proper period expense recording"
+    },
+    {
+      "text": "I tend to use Analysis Mode much more since the feature Add fields in Analysis Mode was added.",
+      "why_it_matters": "Highlights that Analysis Mode is the recommended approach for creating ad-hoc month-end reports"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

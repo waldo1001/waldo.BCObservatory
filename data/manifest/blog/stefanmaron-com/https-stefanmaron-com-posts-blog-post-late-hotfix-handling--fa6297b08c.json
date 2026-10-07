@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/blog-post-late-hotfix-handling/",
   "published_at": "2025-10-02T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:12.159Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-blog-post-late-hotfix-handling--fa6297b08c.md",
+      "words": 697
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:12.170Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:12.171Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:12.172Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:12.182Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-blog-post-late-hotfix-handling--fa6297b08c.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5b53d4a279b6ff3478a24c8ee3bb6d33ab6e65e27873101504964bfb6538e06"
 }

@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/demiliani-com/12572",
+  "url": "https://demiliani.com/2025/09/30/dynamics-365-business-central-documenting-a-business-process-in-the-ai-era/",
+  "title": "Dynamics 365 Business Central: documenting a business process in the AI era.",
+  "source": "demiliani-com",
+  "published_at": "2025-09-30T15:30:10.000Z",
+  "words": 744,
+  "summary": "Using AI to document customized Business Central processes is faster and more consistent than manual documentation. The approach combines Page Scripting to record business processes, AI tools to generate markdown documentation and flowcharts from YAML files, and Pandoc to convert to PDF.",
+  "key_points": [
+    "Page Scripting tool records business processes step by step as YAML files that capture user actions",
+    "AI models analyze YAML recordings to generate markdown documentation explaining processes for end users",
+    "AI can create mermaid flowcharts from process recordings for visual process documentation",
+    "Final documentation is converted to PDF using AI-guided tools like Pandoc for customer delivery",
+    "AI-driven approach reduces time from hours to minutes and improves consistency compared to manual documentation"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "documentation",
+    "ai",
+    "business processes",
+    "page scripting",
+    "automation",
+    "knowledge management"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Page Scripting tool"
+    }
+  ],
+  "features": [
+    "Page Scripting",
+    "AI-generated documentation",
+    "Markdown document generation",
+    "Mermaid flowchart creation",
+    "PDF conversion",
+    "Process simulation",
+    "YAML process recording"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AI can produce comprehensive documentation in minutes rather than hours or days, dramatically accelerating time-to-productivity.",
+      "why_it_matters": "Demonstrates the main efficiency benefit of using AI for documentation, addressing a common pain point in ERP implementations"
+    },
+    {
+      "text": "AI ensures uniform terminology, formatting, and depth across all materials, creating a cohesive user experience.",
+      "why_it_matters": "Shows how AI improves documentation quality and consistency compared to manual approaches from multiple contributors"
+    },
+    {
+      "text": "Just give the AI model a good representation of the business process (YAML file recorded with Page Scripting tool) and results will be perfect.",
+      "why_it_matters": "Highlights the importance of accurate input data and the Page Scripting tool's role in enabling accurate AI-generated documentation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

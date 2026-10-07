@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/09/15/dynamics-365-business-central-month-end-accruals-for-grni-purchase-orders-and-unposted-purchase-invoices/",
   "published_at": "2025-09-15T09:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:16.573Z",
+      "path": "vault:posts/thedynamicsexplorer-com/10122.md",
+      "words": 689
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:16.582Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:16.585Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:16.592Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:16.629Z",
+      "path": "content/posts/thedynamicsexplorer-com/10122.md"
     }
   },
   "input_hash": "2026-04-30T19:22:55.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a1682e6be23512cd76ba49c7ff8d7a30d96df170bb9f1ee13a2b40f05bcffec"
 }

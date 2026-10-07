@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10232",
+  "url": "https://thedynamicsexplorer.com/2025/09/29/dynamics-365-business-central-three-ways-to-post-sales-ledger-cash-receipts-in-business-central/",
+  "title": "Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-09-29T09:30:00.000Z",
+  "words": 1286,
+  "summary": "This post explains three methods for posting customer cash receipts in Business Central: using the Cash Receipt Journal, the Register Customer Payments feature, and posting cash directly through the Bank Reconciliation process. Each method suits different workflows and experience levels, with the bank reconciliation approach offering efficiency by combining cash posting with bank statement reconciliation.",
+  "key_points": [
+    "Cash Receipt Journal is the most common traditional method, requiring manual entry of customer reference, amount, and application of cash to invoices",
+    "Register Customer Payments offers a more intuitive interface for users familiar with invoice ticking workflows, but requires Payment Registration Setup",
+    "Bank Reconciliation method streamlines operations by posting cash receipts and reconciling them simultaneously when importing bank statements",
+    "Balancing to Bank Account rather than GL codes creates Bank Account Ledger Entries needed for Bank Reconciliation functionality",
+    "Bank Reconciliation approach allows posting multiple transaction types (cash, direct debits, bank charges) in one process"
+  ],
+  "systems": [
+    "sales",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "cash receipts",
+    "payment processing",
+    "bank reconciliation",
+    "customer payments",
+    "journal posting",
+    "payment application"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    },
+    {
+      "type": "page",
+      "name": "Register Customer Payments"
+    },
+    {
+      "type": "page",
+      "name": "Payment Registration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "General Journal"
+    }
+  ],
+  "features": [
+    "Cash Receipt Journal posting",
+    "Register Customer Payments",
+    "Payment Registration Setup",
+    "Bank Reconciliation",
+    "Apply Entries",
+    "Transfer to General Journal",
+    "Bank statement import"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Rather than splitting the processes of entering Cash and Direct Debits etc, and the bank reconciliation you can combine them.",
+      "why_it_matters": "Highlights the efficiency advantage of the Bank Reconciliation method, showing how it consolidates multiple related tasks into one workflow"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

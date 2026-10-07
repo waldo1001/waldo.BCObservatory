@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/09/19/azure-openai-in-business-central-al-managed-vs-unmanaged/",
   "published_at": "2025-09-19T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:12.861Z",
+      "path": "vault:posts/aardvarklabs-blog/2663.md",
+      "words": 763
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:12.869Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:12.870Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:12.871Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:12.881Z",
+      "path": "content/posts/aardvarklabs-blog/2663.md"
     }
   },
   "input_hash": "2025-09-19T12:22:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d679ea686e0bd5dc37ada7d1f425c6b906c6c994d5022f9d8d06789890531456"
 }

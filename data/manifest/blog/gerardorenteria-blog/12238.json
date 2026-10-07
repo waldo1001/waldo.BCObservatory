@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/09/23/%f0%9f%94%a7-transforming-bc-error-handling-with-smart-recommendations-%f0%9f%93%9d/",
   "published_at": "2025-09-23T16:49:45.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:12.939Z",
+      "path": "vault:posts/gerardorenteria-blog/12238.md",
+      "words": 1931
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:12.953Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:12.954Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:12.954Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:12.965Z",
+      "path": "content/posts/gerardorenteria-blog/12238.md"
     }
   },
   "input_hash": "2025-09-23T16:49:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6bab4cfda4b15abcecec6589d8e76c6f9080202e014480eef5caad6e6efeb843"
 }

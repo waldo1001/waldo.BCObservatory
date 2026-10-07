@@ -1,0 +1,95 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12238",
+  "url": "https://gerardorenteria.blog/2025/09/23/%f0%9f%94%a7-transforming-bc-error-handling-with-smart-recommendations-%f0%9f%93%9d/",
+  "title": "🔧 Transforming BC Error Handling with Smart Recommendations 📝",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-09-23T16:49:45.000Z",
+  "words": 1931,
+  "summary": "The post explains how to implement Microsoft's Error Messages with Recommendations extension to transform error messages into actionable solutions with automatic fixes. Users can capture errors, suggest corrective actions, and execute immediate resolutions through a centralized Error Messages page.",
+  "key_points": [
+    "The Error Messages page provides a control center where users view all errors and execute corrective actions directly",
+    "The ErrorMessageFix interface defines three methods to configure error properties, execute automatic corrections, and return success messages",
+    "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface to set error titles and action buttons",
+    "Automatic corrections should be supervised in critical business environments rather than executed immediately without review"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "error handling",
+    "error messages with recommendations",
+    "al code",
+    "automatic fixes",
+    "event subscribers",
+    "interfaces",
+    "business central"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "ErrorMessageFix"
+    },
+    {
+      "type": "codeunit",
+      "name": "Error Message Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Error Message Handler"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGGLAccountBlockedError"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGGLAccDirectPostError"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGGLAccountErrorGen"
+    },
+    {
+      "type": "page",
+      "name": "GDRGErrorTestCard"
+    },
+    {
+      "type": "enum",
+      "name": "GDRGErrorMsgFixImpl"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGErrorMsgFix"
+    }
+  ],
+  "features": [
+    "Error Messages with Recommendations",
+    "Automatic error detection",
+    "Contextual error logging",
+    "One-click error correction",
+    "Error Message page",
+    "Event subscriber filtering",
+    "Success message confirmation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The centralized Error Messages page serves as the control center where users can view all errors and take corrective actions directly.",
+      "why_it_matters": "This centralization enables better error management and faster resolution by consolidating all errors in one location"
+    },
+    {
+      "text": "In critical business environments, not all automatic fixes should be executed immediately without supervision.",
+      "why_it_matters": "This emphasizes the importance of governance and control when implementing automated error corrections"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

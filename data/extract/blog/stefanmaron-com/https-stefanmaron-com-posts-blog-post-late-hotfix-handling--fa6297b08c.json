@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/blog-post-late-hotfix-handling/",
+  "url": "https://stefanmaron.com/posts/blog-post-late-hotfix-handling/",
+  "title": "MSDyn365BC.Sandbox.Code.History - Late Hotfix Handling",
+  "source": "stefanmaron-com",
+  "published_at": "2025-10-02T00:00:00.000Z",
+  "words": 697,
+  "summary": "The MSDyn365BC.Sandbox.Code.History repository now handles late hotfixes released by Microsoft with lower version numbers by automatically inserting them in the correct chronological position using git rebase, fixing repository bloat and confusing version order issues. Users with existing clones may need to update branches using provided automation scripts when history is rewritten.",
+  "key_points": [
+    "Microsoft occasionally releases hotfix versions with lower version numbers than previously published versions, creating semantic order issues in git history",
+    "The automation script detects late hotfixes and uses git rebase to insert them at the correct position in the commit graph",
+    "Repository history gets rewritten when late hotfixes are inserted, requiring users to update local clones with provided update scripts",
+    "Automated solutions are available for Linux/macOS and Windows PowerShell to reset branches to match remote without manual intervention",
+    "Partial and shallow clones can reduce local repository size by fetching only specific branches or recent commits"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "version control",
+    "git history",
+    "hotfix management",
+    "repository automation",
+    "workflow optimization"
+  ],
+  "objects": [],
+  "features": [
+    "late hotfix detection and insertion",
+    "automatic git rebase workflow",
+    "semantic version ordering",
+    "repository size optimization",
+    "branch update automation",
+    "partial clone support",
+    "shallow clone support"
+  ],
+  "versions": [
+    "27.0",
+    "27.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft occasionally releases hotfix versions with version numbers lower than already-published versions.",
+      "why_it_matters": "This explains the core problem that necessitates the new late hotfix handling system"
+    },
+    {
+      "text": "Git history now shows versions in proper semantic order. Repository size is reduced by avoiding massive diffs from out-of-order commits.",
+      "why_it_matters": "Demonstrates the key benefits of the implemented solution for repository maintainability and performance"
+    },
+    {
+      "text": "Branch history may be rewritten when late hotfixes are released by Microsoft.",
+      "why_it_matters": "Critical warning for users about why they need to update their local clones using the provided scripts"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

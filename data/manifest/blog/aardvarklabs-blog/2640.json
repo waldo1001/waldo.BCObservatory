@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/09/26/securing-sensitive-data-in-business-central-al-using-secrettext/",
   "published_at": "2025-09-26T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:12.562Z",
+      "path": "vault:posts/aardvarklabs-blog/2640.md",
+      "words": 740
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:12.567Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:12.568Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:12.569Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:12.572Z",
+      "path": "content/posts/aardvarklabs-blog/2640.md"
     }
   },
   "input_hash": "2026-06-10T17:08:03.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "89d7c2ed6262c6f7d9469391e50f37febadf62272e710f28a15186d40e41c8b1"
 }

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/09/30/dynamics-365-business-central-documenting-a-business-process-in-the-ai-era/",
   "published_at": "2025-09-30T15:30:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:11.888Z",
+      "path": "vault:posts/demiliani-com/12572.md",
+      "words": 744
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:11.999Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:12.000Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:12.001Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:12.054Z",
+      "path": "content/posts/demiliani-com/12572.md"
     }
   },
   "input_hash": "2025-09-30T15:30:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "afd35f3be39adaeea272adf9b807f6ab5de0ea04ac6672f526d80a48d01d383b"
 }
