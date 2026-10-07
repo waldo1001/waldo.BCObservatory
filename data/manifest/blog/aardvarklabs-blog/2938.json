@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/01/16/streamline-your-al-development-with-global-nuget-symbols/",
   "published_at": "2026-01-16T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.740Z",
+      "path": "vault:posts/aardvarklabs-blog/2938.md",
+      "words": 162
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.747Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.748Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.749Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.756Z",
+      "path": "content/posts/aardvarklabs-blog/2938.md"
     }
   },
   "input_hash": "2026-02-18T03:26:08.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "45520c8b690c8c87c7c648f04f557ac1f4791437a787333fb15e80dad9d62fc2"
 }

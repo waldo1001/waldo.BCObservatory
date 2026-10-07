@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/12/12/importing-xml-into-business-central-with-al/",
   "published_at": "2025-12-12T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.024Z",
+      "path": "vault:posts/aardvarklabs-blog/2866.md",
+      "words": 1134
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.039Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.040Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.041Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.052Z",
+      "path": "content/posts/aardvarklabs-blog/2866.md"
     }
   },
   "input_hash": "2026-02-18T03:04:34.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "521dc5563d48cd7d7574204cd1f1af9b300aaf03dfb089cd400642e90286bb5a"
 }

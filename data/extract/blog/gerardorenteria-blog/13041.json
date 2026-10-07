@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13041",
+  "url": "https://gerardorenteria.blog/2025/12/04/%e2%97%8f-mark-filter-focus-bringing-precision-to-bc-list-analysis-%e2%9c%85/",
+  "title": "● Mark, Filter, Focus: Bringing Precision to BC List Analysis ✅",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-12-04T16:37:01.000Z",
+  "words": 1026,
+  "summary": "This post demonstrates a custom marking feature that restores legacy NAV functionality, allowing users to mark specific records across multiple filters and analyze them together in Business Central lists. The solution uses table extensions, an enum for visual markers, and page extensions with keyboard shortcuts to enable cross-filter record selection.",
+  "key_points": [
+    "Marks individual records with Ctrl+F3 to create a subset for focused analysis across different filter criteria",
+    "Uses a boolean enum field with a Unicode bullet symbol (●) visible in the list for quick visual identification",
+    "Combines marking with Business Central's analysis mode to group, total, and display only marked records",
+    "Provides a reusable architectural pattern through table extensions and page extensions that works with any list page",
+    "Enables workflow where users apply filters, mark results, apply different filters, mark those results, then analyze all marked records together"
+  ],
+  "systems": [
+    "sales",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "list analysis",
+    "filtering",
+    "marking records",
+    "keyboard shortcuts",
+    "cross-filter selection",
+    "analysis mode",
+    "user experience"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "GDRG Mark Status"
+    },
+    {
+      "type": "table",
+      "name": "GDRG Customer"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Customer List Ext"
+    },
+    {
+      "type": "table",
+      "name": "GDRG Sales Header"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Sales Order List Ext"
+    }
+  ],
+  "features": [
+    "Record marking with visual indicators",
+    "Ctrl+F3 keyboard shortcut toggle",
+    "Marked Only filtered view",
+    "Integration with analysis mode",
+    "Cross-filter record selection",
+    "Unicode visual markers"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

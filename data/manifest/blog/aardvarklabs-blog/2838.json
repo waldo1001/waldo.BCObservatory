@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/12/05/importing-multi-tab-excel-files-into-business-central/",
   "published_at": "2025-12-05T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.876Z",
+      "path": "vault:posts/aardvarklabs-blog/2838.md",
+      "words": 774
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.884Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.885Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.886Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.891Z",
+      "path": "content/posts/aardvarklabs-blog/2838.md"
     }
   },
   "input_hash": "2026-02-18T03:04:06.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7144d182ec56e1e61bd1b98809c29bce2a0a60bacd6bfd9c4934c6867b5beceb"
 }

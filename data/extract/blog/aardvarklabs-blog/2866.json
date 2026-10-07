@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2866",
+  "url": "https://aardvarklabs.blog/2025/12/12/importing-xml-into-business-central-with-al/",
+  "title": "Importing XML into Business Central with AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-12-12T13:00:00.000Z",
+  "words": 1134,
+  "summary": "The post demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code without specialized XML codeunits. It walks through a practical example of extracting purchase order data from an XML file and populating custom tables, highlighting the hierarchical node-based navigation required for XML parsing.",
+  "key_points": [
+    "XML files use strict hierarchical structures with nodes and attributes that allow predictable navigation compared to JSON formats",
+    "The example uses XmlDocument, XmlNodeList, XmlNode, and XmlElement objects to recursively drill through nested XML elements",
+    "cXML is a 1999 standard for commerce data exchange but real-world implementations often deviate from strict schema definitions, requiring manual exception handling",
+    "The ParseXML procedure extracts vendor IDs, order headers, line items with quantities, part IDs, descriptions, unit prices, and unit of measure from a sample purchase order"
+  ],
+  "systems": [
+    "integration",
+    "purchasing",
+    "development"
+  ],
+  "topics": [
+    "xml parsing",
+    "data exchange",
+    "cxml format",
+    "al coding",
+    "file import",
+    "vendor data"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ParseXML procedure"
+    },
+    {
+      "type": "table",
+      "name": "ARD_cXMLPOHeader"
+    },
+    {
+      "type": "table",
+      "name": "ARD_cXMLPOLine"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    }
+  ],
+  "features": [
+    "XML document parsing",
+    "XmlDocument object handling",
+    "Node selection and navigation",
+    "Attribute extraction",
+    "cXML purchase order import",
+    "Hierarchical data drilling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "XML files differ from many others in that the XML file should be paired with a definition file.",
+      "why_it_matters": "Understanding that XML relies on schema definitions explains why validation against XSD is important for reliable parsing"
+    },
+    {
+      "text": "Because of this strict format we can ask for data within a given node and expect it to be there.",
+      "why_it_matters": "Justifies why XML parsing uses static node paths rather than the flexible navigation required for JSON"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

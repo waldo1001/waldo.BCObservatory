@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13043",
+  "url": "https://gerardorenteria.blog/2025/12/03/new-application-ideas-of-dynamics-365-business-central-2025-nov/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2025 NOV)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-12-03T22:26:08.000Z",
+  "words": 880,
+  "summary": "The post lists numerous feature ideas and enhancement suggestions for Dynamics 365 Business Central from November 2025, covering areas such as Copilot integration, financial management, inventory, manufacturing, sales, and localization. It serves as a compilation of community-submitted ideas for potential improvements across various business processes.",
+  "key_points": [
+    "Community members submitted ideas spanning multiple systems including finance, sales, inventory, manufacturing, and administration",
+    "Several ideas address development capabilities like variadic parameters, translation methods, and event expansion in core codeunits",
+    "Localization improvements include native verifactu implementation for Spain (available January 2026) and SEPA file enhancements for Germany",
+    "Financial management ideas focus on cash flow projections, exchange rate handling, consolidation features, and intercompany transactions",
+    "Warehouse and manufacturing improvements target reservation handling, subcontracting processes, and item-related functionality"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "feature ideas",
+    "copilot",
+    "data migration",
+    "financial management",
+    "localization",
+    "inventory",
+    "manufacturing",
+    "sales",
+    "warehouse",
+    "development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    },
+    {
+      "type": "codeunit",
+      "name": "Translation Codeunit"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Copilot Side Pane expansion",
+    "Custom workspaces",
+    "Variadic parameters",
+    "GetTranslations Method",
+    "Shopify integration extensibility",
+    "SEPA file processing",
+    "Verifactu implementation",
+    "Cash flow projections"
+  ],
+  "versions": [
+    "BC 2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Add GetTranslations Method to Translation Codeunit for Bulk Translation Retrieval for a Specific Table and Field.",
+      "why_it_matters": "Highlights a development enhancement to improve translation handling at scale"
+    },
+    {
+      "text": "Allow posting on GL lines when using Create multiple fixed asset cards.",
+      "why_it_matters": "Addresses a workflow limitation in fixed asset management"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

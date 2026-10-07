@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/",
   "published_at": "2025-11-28T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:57.305Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md",
+      "words": 132
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:57.309Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:57.310Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:57.311Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:57.315Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc6f06805e932945c4e1929a090b681fa1b43a6a106909020c0948ff0f27f8d0"
 }

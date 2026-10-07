@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/demiliani-com/13197",
+  "url": "https://demiliani.com/2026/01/14/do-you-have-applications-connecting-to-an-azure-storage-account-be-sure-to-use-tls-1-2-or-later/",
+  "title": "Do you have applications connecting to an Azure Storage Account? Be sure to use TLS 1.2 or later.",
+  "source": "demiliani-com",
+  "published_at": "2026-01-14T08:01:05.000Z",
+  "words": 740,
+  "summary": "Azure Blob Storage will require TLS 1.2 or later starting February 3, 2026, discontinuing support for TLS 1.0 and 1.1. Applications connecting to Azure Storage Accounts must be upgraded to TLS 1.2, and administrators can use Azure CLI and registry configuration to ensure compliance across storage accounts and .NET applications.",
+  "key_points": [
+    "Azure Blob Storage ends TLS 1.0 and 1.1 support on February 3, 2026, with TLS 1.2 becoming mandatory",
+    "Use Azure CLI queries to identify storage accounts with outdated TLS versions and update them via portal or scripting",
+    ".NET Framework applications require SystemDefaultTlsVersions registry key enabled and .NET Framework 4.7 or later for TLS 1.2 support",
+    ".NET Core and .NET 5+ applications already use OS defaults and need no additional configuration",
+    "Dynamics 365 Business Central is TLS 1.2 compliant and has no issues with this change"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "azure storage",
+    "tls security",
+    "compliance",
+    "application integration",
+    ".net configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Azure Storage Account connection",
+    "TLS 1.2 enforcement",
+    "Azure CLI management",
+    ".NET Framework configuration",
+    "SystemDefaultTlsVersions registry setting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Dynamics 365 Business Central is TLS 1.2 compliant, it has no issues related to storage account connection with TLS.",
+      "why_it_matters": "Confirms Business Central applications will not be impacted by the TLS enforcement change"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

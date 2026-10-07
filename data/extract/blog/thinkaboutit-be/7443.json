@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thinkaboutit-be/7443",
+  "url": "https://thinkaboutit.be/2026/01/how-do-i-create-a-business-central-trial-from-scratch/",
+  "title": "How Do I: Create a Business Central Trial From Scratch",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-01-05T09:00:45.000Z",
+  "words": 1554,
+  "summary": "Creating a Business Central trial requires starting with a clean Microsoft 365 trial tenant using a supported country, then signing up for Business Central at trials.dynamics.com. The trial period begins only when you create a non-demo company, lasting 30 days with options to extend it twice more.",
+  "key_points": [
+    "Start with a new Microsoft 365 trial in an InPrivate browser to ensure a clean environment and predictable trial creation",
+    "Select a country where Microsoft provides localization support, as Business Central is not available everywhere and feature availability varies by region",
+    "Trial timer activates only when creating a new company beyond the default Cronus demo company, allowing unlimited exploration of demo data first",
+    "Trial environments unused for 45 days are automatically removed; keep access to Cronus to prevent deletion",
+    "Disable Microsoft 365 recurring billing after setup to avoid unexpected charges when the trial period ends"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "trial setup",
+    "environments",
+    "getting started",
+    "localization",
+    "demo company"
+  ],
+  "objects": [],
+  "features": [
+    "trial environments",
+    "demo company",
+    "sandbox creation",
+    "trial extension",
+    "Business Central Admin Center"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The moment you create a new company that is not a Cronus demo company, the Business Central trial starts.",
+      "why_it_matters": "Understanding when the trial actually begins helps users maximize exploration time with demo data before committing to actual company setup"
+    },
+    {
+      "text": "If a Business Central trial environment is created but no one signs in at all for 45 days, Microsoft may automatically remove the environment.",
+      "why_it_matters": "Users need to know about automatic cleanup policies to prevent losing their trial environments"
+    },
+    {
+      "text": "Selecting the correct country during the Microsoft 365 trial setup is important. Business Central is not available in every country.",
+      "why_it_matters": "Country selection directly impacts trial creation success and feature availability, making it a critical first decision"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

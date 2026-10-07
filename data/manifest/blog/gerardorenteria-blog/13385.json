@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/01/03/new-application-ideas-of-dynamics-365-business-central-2025-dec/",
   "published_at": "2026-01-03T19:17:20.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.151Z",
+      "path": "vault:posts/gerardorenteria-blog/13385.md",
+      "words": 873
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.160Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.161Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.162Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.168Z",
+      "path": "content/posts/gerardorenteria-blog/13385.md"
     }
   },
   "input_hash": "2026-01-14T19:18:19.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ceae626e796e3ac3fca1f40d4158457ea35e1bf2fa3aa64ce44ead706a4eb56"
 }

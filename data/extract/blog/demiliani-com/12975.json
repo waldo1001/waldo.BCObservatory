@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/12975",
+  "url": "https://demiliani.com/2025/12/10/my-mcp-server-for-dynamics-365-business-central-administration-now-supports-handling-ptes/",
+  "title": "My MCP server for Dynamics 365 Business Central Administration now supports handling PTEs.",
+  "source": "demiliani-com",
+  "published_at": "2025-12-10T08:23:20.000Z",
+  "words": 332,
+  "summary": "An MCP server for Dynamics 365 Business Central Administration now supports per-tenant extensions (PTEs), allowing users to upload, monitor deployment status, and uninstall PTEs from AI clients like GitHub Copilot through sequential processing that prevents concurrent deployment errors.",
+  "key_points": [
+    "Upload single or multiple per-tenant extensions from local .app files or folders to Business Central environments",
+    "Monitor extension deployment status in real-time with configurable polling intervals and maximum wait times",
+    "Sequential processing prevents concurrent deployment conflicts and ensures each extension completes before the next starts",
+    "Comprehensive reporting summarizes successes, failures, and per-file status for batch operations"
+  ],
+  "systems": [
+    "administration",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "per-tenant extensions",
+    "pte management",
+    "mcp server",
+    "deployment automation",
+    "business central administration"
+  ],
+  "objects": [],
+  "features": [
+    "Upload per-tenant extension from local file",
+    "Upload multiple per-tenant extensions from folder",
+    "Check extension deployment status",
+    "Uninstall per-tenant extension",
+    "Sequential processing",
+    "Deployment monitoring",
+    "Configurable wait times"
+  ],
+  "versions": [
+    "1.1.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the latest 1.1.1 version, my MCP server for Dynamics 365 Business Central Administration fully supports handling PTEs in your customer tenants.",
+      "why_it_matters": "Establishes the core capability and scope of the update for administrators managing per-tenant extensions"
+    },
+    {
+      "text": "Sequential Processing: Uploads and installs extensions one at a time, preventing \"another operation running\" errors that can occur with concurrent deployments.",
+      "why_it_matters": "Highlights the key technical advantage that solves a real problem administrators face with simultaneous PTE deployments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

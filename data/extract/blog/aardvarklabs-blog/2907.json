@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2907",
+  "url": "https://aardvarklabs.blog/2026/01/09/debugging-business-event-subscriptions-in-business-central/",
+  "title": "Debugging Business Event Subscriptions in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-01-09T13:00:00.000Z",
+  "words": 343,
+  "summary": "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks). To resolve subscription issues, verify permissions, check the Business Event Activity Log to see notification delivery attempts and retries, and review the Business Event Notifications page to confirm events were sent.",
+  "key_points": [
+    "Business Event Subscriptions page lists all subscriptions, events, and notification URLs; missing entries indicate failed subscription",
+    "Users need the 'EXT. EVENTS - SUBSCR' permission set to subscribe to events",
+    "Business Event Activity Log shows notification delivery attempts and retry status (Business Central retries up to 10 times before canceling)",
+    "Business Event Notifications page shows when events were sent and retry counts"
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "business events",
+    "web hooks",
+    "debugging",
+    "power automate",
+    "subscriptions",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Business Event Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Business Event Activity Log"
+    },
+    {
+      "type": "page",
+      "name": "Business Event Notifications"
+    }
+  ],
+  "features": [
+    "Business Events",
+    "Event Subscriptions",
+    "Notification Delivery",
+    "Power Automate Integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Events are basically Web Hooks and they can be accessed from other platforms, not just Power Automate.",
+      "why_it_matters": "Clarifies that Business Events have broader applicability beyond Power Automate for system integrations"
+    },
+    {
+      "text": "If you don't see your Notification URL in this list, then you did not successfully subscribe to the event.",
+      "why_it_matters": "Provides a clear diagnostic check for troubleshooting failed event subscriptions"
+    },
+    {
+      "text": "Business Central will retry sending the notification 10 times. Too many failures will result in the subscription being canceled.",
+      "why_it_matters": "Explains automatic retry behavior and the consequence of persistent delivery failures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

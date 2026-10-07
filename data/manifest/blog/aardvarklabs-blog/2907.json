@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/01/09/debugging-business-event-subscriptions-in-business-central/",
   "published_at": "2026-01-09T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:53.109Z",
+      "path": "vault:posts/aardvarklabs-blog/2907.md",
+      "words": 343
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:53.118Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:53.119Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:53.120Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:53.134Z",
+      "path": "content/posts/aardvarklabs-blog/2907.md"
     }
   },
   "input_hash": "2026-04-22T20:37:03.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a95a61a2f998c82c14de48c9957517dec53c601619a31300f25edbcc7d7080d5"
 }

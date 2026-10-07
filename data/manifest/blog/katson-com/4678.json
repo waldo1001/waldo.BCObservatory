@@ -7,13 +7,39 @@
   "url": "https://katson.com/connect-any-agent-to-business-central/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=connect-any-agent-to-business-central",
   "published_at": "2026-01-12T06:02:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:53.794Z",
+      "path": "vault:posts/katson-com/4678.md",
+      "words": 1475
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:53.807Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:53.807Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:53.808Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:53.817Z",
+      "path": "content/posts/katson-com/4678.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "58107d79e4dbc867eae913c850f0d175aec1613f9d6867ac227eef947e60d6c8"
 }

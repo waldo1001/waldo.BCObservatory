@@ -1,0 +1,96 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13299",
+  "url": "https://gerardorenteria.blog/2026/01/08/%f0%9f%93%a3-real-time-alerts-for-bc-popup-notification-system-for-active-users-%f0%9f%92%ac/",
+  "title": "📣 Real-Time Alerts for BC: Popup Notification System for Active Users 💬",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-01-08T22:04:08.000Z",
+  "words": 1277,
+  "summary": "A modular popup notification system broadcasts urgent messages to active Business Central users with role center integration and delivery tracking. Use it for system maintenance announcements, critical business alerts, HR communications, and operational changes that require immediate visibility.",
+  "key_points": [
+    "System sends popup notifications to all connected users or selected recipients simultaneously with modal behavior requiring acknowledgment",
+    "Tracks which users read each notification and records exact date/time of acknowledgment for complete audit capability",
+    "Integrates with Role Center through a monitor page with JavaScript control add-in and timer-based detection",
+    "Manages notifications via queue with actions to broadcast to all users, select specific recipients, or delete entries"
+  ],
+  "systems": [
+    "administration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "notifications",
+    "real-time alerts",
+    "user communication",
+    "role center integration",
+    "audit tracking",
+    "control add-in",
+    "javascript customization"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRGPopupNotifQueue"
+    },
+    {
+      "type": "table",
+      "name": "GDRGPopupNotifRecipient"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGPopupNotifMgt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPopupNotifCard"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPopupNotifQueue"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPopupNotifMonitor"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPopupNotifRecipients"
+    },
+    {
+      "type": "other",
+      "name": "GDRGPopupNotification.ControlAddIn"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGPopupNotif"
+    }
+  ],
+  "features": [
+    "popup notification broadcasting",
+    "recipient selection and tracking",
+    "delivery status monitoring",
+    "audit trail of acknowledgments",
+    "scheduled notification sending",
+    "role center integration",
+    "javascript modal popup control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "What happens when you need to communicate urgent information to all users simultaneously connected within BC?",
+      "why_it_matters": "Establishes the core problem the notification system solves for urgent multi-user communications"
+    },
+    {
+      "text": "The idea evolved into a feature that broadcasts messages, tracks which users have read each notification, and integrates seamlessly with Role Center pages.",
+      "why_it_matters": "Summarizes the three key capabilities: broadcasting, tracking, and role center integration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

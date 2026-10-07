@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/36822",
+  "url": "https://thedynamicsexplorer.com/2025/12/22/dynamics-gp-to-business-central-what-does-my-migrated-gp-historical-data-look-like-in-business-central/",
+  "title": "Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-12-22T11:00:00.000Z",
+  "words": 1146,
+  "summary": "When migrating from Dynamics GP to Business Central, historical transaction data is preserved in special tables accessible via customer and account factboxes. Sales, receivables, and financial journal transactions are viewable directly in Business Central without switching to the legacy system, making historical reference and customer inquiries easier to handle.",
+  "key_points": [
+    "Historical transactions migrate into special tables rather than creating new ledger entries, since they represent already-paid transactions",
+    "Sales and receivables transactions are accessible via factbox tiles on the Customer List page, showing both order details and applied payments",
+    "Financial historical data can be viewed through the Chart of Accounts page using the GP Detail Snapshot option, allowing drill-down by transaction or by account",
+    "Users can access historical purchasing data the same way as sales data by selecting the Vendor List instead of the Sales List",
+    "Historical data can be retained in a separate reference company even if not using the migrated company for live transactions"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "migration",
+    "dynamics gp",
+    "historical data",
+    "receivables",
+    "sales transactions",
+    "general ledger",
+    "data access"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "GP Sales Transactions view",
+    "GP Receivables Transactions view",
+    "GP Detail Snapshot",
+    "Historical transaction drill-down",
+    "Payment reconciliation to invoices",
+    "Distribution detail viewing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The migration of the Historical transactions is one of the first questions you I'm asked on almost every Business Central project.",
+      "why_it_matters": "Highlights that historical data migration is a critical concern for organizations moving to Business Central, and the GP migration tools address this effectively."
+    },
+    {
+      "text": "Having historical GP data available inside Business Central helps make the new system a true single point of reference.",
+      "why_it_matters": "Summarizes the strategic value of complete historical data visibility for making Business Central the primary system for all business information."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

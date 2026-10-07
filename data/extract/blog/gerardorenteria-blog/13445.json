@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13445",
+  "url": "https://gerardorenteria.blog/2026/01/14/%e2%a6%bb-gitignore-visual-visual-indicators-for-ignored-files-in-vs-code-%e2%9c%a8/",
+  "title": "⦻ GitIgnore Visual: Visual Indicators for Ignored Files in VS Code ✨",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-01-14T21:23:30.000Z",
+  "words": 534,
+  "summary": "GitIgnore Visual is a VS Code extension that adds visual badge indicators (⦻) next to files and folders ignored by .gitignore rules, with hover details showing the specific rule and file path. It helps developers working with Business Central AL extensions, Node.js, or .NET projects quickly identify which files are excluded from version control.",
+  "key_points": [
+    "VS Code extension displays a distinctive ⦻ badge next to each file or folder matching .gitignore rules",
+    "Hovering over ignored items shows the specific rule causing exclusion and the full path to .gitignore file",
+    "Works with Business Central AL extensions (.alpackages/, .snapshots/) and other project types like Node.js and .NET",
+    "Automatically activates when a .gitignore file exists in workspace root; can be manually refreshed via command palette"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "vs code",
+    "gitignore",
+    "extension",
+    "al development",
+    "version control"
+  ],
+  "objects": [],
+  "features": [
+    "visual indicators for ignored files",
+    "hover tooltips with exclusion rules",
+    "customizable badge icon",
+    "automatic activation",
+    "manual refresh command"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "GitIgnore Visual displays a distinctive badge (⦻) next to each file or folder that matches a rule in the .gitignore file.",
+      "why_it_matters": "It explains the core functionality of providing immediate visual feedback for ignored files directly in the VS Code explorer."
+    },
+    {
+      "text": "Hovering over any ignored item will display a description: The specific .gitignore rule causing the exclusion. The full path to the .gitignore file.",
+      "why_it_matters": "It clarifies what information developers get when they interact with the visual indicator, helping them understand why files are ignored."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

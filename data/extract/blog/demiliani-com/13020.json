@@ -1,0 +1,83 @@
+{
+  "item_id": "blog/demiliani-com/13020",
+  "url": "https://demiliani.com/2025/12/22/securing-your-azure-storage-account-a-guide-to-enabling-business-central-only-access-using-network-security-perimeter/",
+  "title": "Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter.",
+  "source": "demiliani-com",
+  "published_at": "2025-12-22T08:36:14.000Z",
+  "words": 1391,
+  "summary": "Securing Azure Storage accounts accessed by Business Central using Network Security Perimeter (NSP) creates a logical network boundary that restricts access by IP address rules, allowing organizations to protect cloud resources while maintaining Business Central integration without traditional networking overhead.",
+  "key_points": [
+    "NSP provides modern security by creating logical boundaries at the resource level rather than subnet level, initially logging access in Transition mode before enforcing rules",
+    "Business Central accesses to Azure Storage must be authorized using IP addresses from the Dynamics365BusinessCentral service tag, which can be retrieved via PowerShell, Azure Management API, or downloadable JSON files",
+    "NSP can be created and managed through Azure Portal or Azure CLI, with steps including perimeter creation, profile definition, inbound rule configuration, and resource association",
+    "Organizations should validate legitimate Business Central traffic in Transition mode before switching to Enforced mode to block unauthorized access",
+    "NSP protects against unauthorized data access and exfiltration while simplifying compliance management compared to traditional Virtual Networks and Private Endpoints"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "azure storage",
+    "network security",
+    "access control",
+    "cloud security",
+    "business central integration",
+    "blob storage",
+    "compliance",
+    "ip whitelisting"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ABS Container Client"
+    },
+    {
+      "type": "codeunit",
+      "name": "ABS Blob Client"
+    },
+    {
+      "type": "codeunit",
+      "name": "Storage Service Authorization"
+    },
+    {
+      "type": "codeunit",
+      "name": "ABS Operation Response"
+    },
+    {
+      "type": "interface",
+      "name": "Storage Service Authorization"
+    }
+  ],
+  "features": [
+    "Azure Storage account integration",
+    "Azure Blob Storage access",
+    "Network Security Perimeter configuration",
+    "IP-based access control",
+    "Subscription-based access via managed identities",
+    "Transition mode logging",
+    "Enforced mode access blocking",
+    "Diagnostic logging and monitoring"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "NSP is a critical component of the underlying infrastructure of Business Central online (it restricts access to storage and SQL database).",
+      "why_it_matters": "This shows NSP is already fundamental to how Business Central online protects resources, making it relevant for on-premises and cloud integrations"
+    },
+    {
+      "text": "By establishing clear access boundaries and explicitly allowing only authorized traffic, you reduce security risks, simplify compliance, and maintain visibility into storage access patterns.",
+      "why_it_matters": "This summarizes the practical business value: reduced risk, easier compliance, and transparency for access monitoring"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

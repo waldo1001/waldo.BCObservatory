@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/01/07/migrate-bc2adls-from-pte-to-appsource-extension/",
   "published_at": "2026-01-07T07:15:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:53.877Z",
+      "path": "vault:posts/bertverbeek-nl/1209.md",
+      "words": 363
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:53.886Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:53.887Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:53.888Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:53.894Z",
+      "path": "content/posts/bertverbeek-nl/1209.md"
     }
   },
   "input_hash": "2026-01-06T14:44:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb3a18d42511f9eac30ecf7362a90bfb09c7eac2f8ceceaf110814009b4c97ff"
 }

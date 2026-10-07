@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/12/chat-ask-or-edit-using-github-copilot-effectively-in-al-development/",
   "published_at": "2025-12-18T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:55.552Z",
+      "path": "vault:posts/thinkaboutit-be/7328.md",
+      "words": 848
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:55.563Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:55.564Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:55.564Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:55.571Z",
+      "path": "content/posts/thinkaboutit-be/7328.md"
     }
   },
   "input_hash": "2025-12-17T14:46:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25c9564c77cacfd50cfc7b9b4e2e955722a7dec9a63e87070060579f43367fdb"
 }

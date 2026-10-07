@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/12/10/locktimeoutduration-in-al/",
   "published_at": "2025-12-10T16:04:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.465Z",
+      "path": "vault:posts/duiliotacconi-com/1717.md",
+      "words": 920
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.473Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.474Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.474Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.483Z",
+      "path": "content/posts/duiliotacconi-com/1717.md"
     }
   },
   "input_hash": "2025-12-30T13:39:40.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "903ae935148674a53b6b876a07d649e1f726bcac040f3d049d53c195b2fc6fa1"
 }

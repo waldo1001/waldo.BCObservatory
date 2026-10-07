@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/01/how-do-i-create-a-business-central-trial-from-scratch/",
   "published_at": "2026-01-05T09:00:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.008Z",
+      "path": "vault:posts/thinkaboutit-be/7443.md",
+      "words": 1554
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.020Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.021Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.022Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.030Z",
+      "path": "content/posts/thinkaboutit-be/7443.md"
     }
   },
   "input_hash": "2026-01-04T10:19:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ba42ce3a389eda3040c21154f450eee56579322fc2137dc8d490b4c28f58e40"
 }

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/01/14/do-you-have-applications-connecting-to-an-azure-storage-account-be-sure-to-use-tls-1-2-or-later/",
   "published_at": "2026-01-14T08:01:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.803Z",
+      "path": "vault:posts/demiliani-com/13197.md",
+      "words": 740
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.810Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.811Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.812Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.819Z",
+      "path": "content/posts/demiliani-com/13197.md"
     }
   },
   "input_hash": "2026-01-14T08:02:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07702fa3acd0ac80f75d942248a18aa6c35b9dc364eaca3cc8ef2cda3004b8a4"
 }

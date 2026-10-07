@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/12/10/my-mcp-server-for-dynamics-365-business-central-administration-now-supports-handling-ptes/",
   "published_at": "2025-12-10T08:23:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.516Z",
+      "path": "vault:posts/demiliani-com/12975.md",
+      "words": 332
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.522Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.523Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.524Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.529Z",
+      "path": "content/posts/demiliani-com/12975.md"
     }
   },
   "input_hash": "2025-12-10T08:23:20.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f73d1f3472faacbbd477963cba658abf56e03ddf464008971bced4473b71733"
 }

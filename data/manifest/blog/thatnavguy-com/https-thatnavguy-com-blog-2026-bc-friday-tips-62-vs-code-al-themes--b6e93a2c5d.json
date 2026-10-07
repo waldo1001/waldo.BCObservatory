@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/",
   "published_at": "2026-01-23T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.021Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md",
+      "words": 80
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.028Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.029Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.031Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.037Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84c6278db21cbb535a37066b15f1099965814b19644ea9916a37d2401c4dce0c"
 }

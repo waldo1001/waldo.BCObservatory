@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/",
   "published_at": "2026-01-16T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.426Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md",
+      "words": 108
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.432Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.434Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.434Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.438Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0886136f72708a40b137f7816ee933c7131f58ccc1a67e3cca36419dfaa18a1"
 }

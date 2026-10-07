@@ -1,0 +1,105 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13166",
+  "url": "https://gerardorenteria.blog/2025/12/29/%f0%9f%93%a1-rss-feed-reader-real-time-information-at-your-fingertips-%f0%9f%94%94/",
+  "title": "📡 RSS Feed Reader: Real-Time Information at Your Fingertips 🔔",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-12-29T14:01:18.000Z",
+  "words": 2342,
+  "summary": "An RSS Feed Reader module for Business Central enables users to monitor categorized feeds (news, regulatory alerts, market information) directly within standard pages and role centers. The solution provides centralized feed management, automatic refresh at configurable intervals, and contextual display through FactBoxes and ListParts integrated into relevant areas like the Chart of Accounts or Item List.",
+  "key_points": [
+    "Modular architecture with centralized codeunit for fetching, parsing, and storing RSS 2.0 and Atom feeds",
+    "Three tables manage configuration settings, RSS feed sources with URLs and categories, and downloaded entries",
+    "Generic FactBox and ListPart pages filter feeds by category and embed into standard pages via PageExtensions",
+    "Automatic refresh intervals (60 minutes default) and retention policies (30 days default) with manual cleanup options",
+    "Extensible design pattern allows reusing components across multiple pages with category-based filtering"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "rss feeds",
+    "information management",
+    "page extensions",
+    "role centers",
+    "real-time data",
+    "extensible design"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRG RSS Feed Setup"
+    },
+    {
+      "type": "table",
+      "name": "GDRG RSS Feed Source"
+    },
+    {
+      "type": "table",
+      "name": "GDRG RSS Feed Entry"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Setup"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Sources"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Source Card"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Entries List"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Entries Part"
+    },
+    {
+      "type": "page",
+      "name": "GDRG RSS Feed Entries FactBox"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG RSS Feed Manager"
+    },
+    {
+      "type": "enum",
+      "name": "GDRG RSS Category"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRG RSS Reader"
+    }
+  ],
+  "features": [
+    "RSS 2.0 and Atom feed parsing",
+    "Automatic feed refresh scheduling",
+    "Category-based feed filtering",
+    "Contextual news display in FactBoxes",
+    "Role Center news widgets",
+    "Manual feed refresh and cleanup actions",
+    "Customizable retention policies",
+    "Hyperlink navigation to feed sources"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The idea is to proactively deliver relevant news to users, turning each page into a contextual access point that empowers faster, more informed decisions.",
+      "why_it_matters": "Summarizes the core value proposition of embedding RSS feeds throughout Business Central to support informed decision-making at the point of work"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2838",
+  "url": "https://aardvarklabs.blog/2025/12/05/importing-multi-tab-excel-files-into-business-central/",
+  "title": "Importing Multi-Tab Excel Files into Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-12-05T13:00:00.000Z",
+  "words": 774,
+  "summary": "This post explains how to import multi-tab Excel files into Business Central with a header/line relationship structure. It provides code examples using AL to read separate header and line sheets, maintain relational integrity with a dictionary-based key mapping system, and populate staging tables.",
+  "key_points": [
+    "Use Excel's sheet-specific tab reading to separate header and line data while maintaining relationships",
+    "Store mapping keys in a Dictionary to connect header records with their corresponding line items without excessive lookups",
+    "Read each sheet independently using TempExcelBuffer.OpenBookStream() with the sheet name parameter",
+    "Process headers first, then lines, using the stored keys to establish parent-child relationships"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "data import",
+    "excel",
+    "multi-tab",
+    "relational data",
+    "al coding",
+    "header-line structure"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ARDMultiTabImport"
+    },
+    {
+      "type": "table",
+      "name": "ARD_SalesHeader"
+    },
+    {
+      "type": "table",
+      "name": "ARD_SalesDetail"
+    }
+  ],
+  "features": [
+    "Excel file import with multiple sheets",
+    "Dictionary-based key mapping",
+    "TempExcelBuffer sheet management",
+    "File streaming and parsing",
+    "Header-line relationship management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With Header/Line, or any other relational data, we have the challenge of relationship management.",
+      "why_it_matters": "Establishes the core problem that multi-tab Excel imports must solve when dealing with related data structures"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

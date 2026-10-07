@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/",
+  "title": "BC Friday Tips #58 Spotting Report with SaveValues",
+  "source": "thatnavguy-com",
+  "published_at": "2025-11-28T00:00:00.000Z",
+  "words": 132,
+  "summary": "The SaveValues property in Business Central reports remembers user-selected options on the request page. A quick way to check if SaveValues is enabled is examining the Preview button behavior: if it shows only 'Preview', SaveValues is on and keeps the request page open for adjustments; if it shows 'Preview & Close', SaveValues is off and closes the page after each run.",
+  "key_points": [
+    "SaveValues feature preserves user-selected report options between runs",
+    "Preview button alone indicates SaveValues is enabled; Preview & Close indicates it is disabled",
+    "When enabled, the request page stays open allowing users to adjust parameters and preview again without reopening",
+    "When disabled, users must reopen the report after each run to make changes",
+    "Enabling SaveValues reduces repetitive work and improves user experience"
+  ],
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "reports",
+    "request page",
+    "savevalues",
+    "user experience",
+    "best practices"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "not specified"
+    }
+  ],
+  "features": [
+    "SaveValues",
+    "Request Page",
+    "Preview",
+    "Report Options Memory"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "SaveValues helps your reports remember the last options the user picked.",
+      "why_it_matters": "Explains the core benefit of the SaveValues feature for improving user efficiency"
+    },
+    {
+      "text": "If it shows Preview, SaveValues is on. If it shows Preview & Close, SaveValues is off.",
+      "why_it_matters": "Provides the key diagnostic method for quickly determining SaveValues status on any report"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

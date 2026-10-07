@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/01/20/saas-erp-misconceptions-the-on-premises-thinking-trap/",
   "published_at": "2026-01-20T15:38:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.380Z",
+      "path": "vault:posts/demiliani-com/13215.md",
+      "words": 935
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.386Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.387Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.388Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.397Z",
+      "path": "content/posts/demiliani-com/13215.md"
     }
   },
   "input_hash": "2026-01-20T16:54:08.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "383458d37d9dc9e7fe023d6c48062e01fb18ad2aceb467193e305ac69c55fc66"
 }

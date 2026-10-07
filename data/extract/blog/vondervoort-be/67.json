@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/vondervoort-be/67",
+  "url": "https://www.vondervoort.be/index.php/2025/11/22/dutch-dynamics-community-event-18-november-2025/",
+  "title": "Dutch Dynamics Community Event 18 november 2025",
+  "source": "vondervoort-be",
+  "published_at": "2025-11-22T09:56:15.000Z",
+  "words": 735,
+  "summary": "Dutch Dynamics Community hosted an event in November 2025 with sessions on integrating Dynamics 365 Sales and SharePoint for document management, and connecting Business Central with D365 Supply Chain Management's Warehouse Only Mode for advanced warehouse capabilities.",
+  "key_points": [
+    "Dynamics 365 and SharePoint can be integrated to store documents with metadata enriched from Dataverse, enabling users to search by context rather than file location.",
+    "PnP Modern Search allows SharePoint users without Dynamics access to find documents using metadata, bridging structured and unstructured document management.",
+    "Warehouse Only Mode in D365 SCM enables Business Central users to leverage advanced warehouse features like mobile scanning and serial/lot number tracking.",
+    "A hybrid setup combining Business Central with D365 SCM can serve as a strategic stepping stone toward full D365 Finance and Operations migration.",
+    "The integration supports multi-entity logistics scenarios and acquired company onboarding without immediate migration to F&O."
+  ],
+  "systems": [
+    "integration",
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "document management",
+    "sharepoint integration",
+    "warehouse only mode",
+    "supply chain",
+    "metadata enrichment",
+    "community event"
+  ],
+  "objects": [],
+  "features": [
+    "document management",
+    "SharePoint integration",
+    "Dataverse metadata enrichment",
+    "PnP Modern Search",
+    "Warehouse Only Mode",
+    "mobile scanning",
+    "serial and lot number tracking",
+    "warehouse dimensions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "SharePoint retrieves related information from Dataverse to further enrich a file's metadata.",
+      "why_it_matters": "Shows how Dataverse can bridge Dynamics and SharePoint to create contextual document organization without manual metadata entry."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

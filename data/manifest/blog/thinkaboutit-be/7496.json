@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/01/quick-tip-business-central-update-27-3-whats-new/",
   "published_at": "2026-01-19T09:50:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.244Z",
+      "path": "vault:posts/thinkaboutit-be/7496.md",
+      "words": 389
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.252Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.253Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.254Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.261Z",
+      "path": "content/posts/thinkaboutit-be/7496.md"
     }
   },
   "input_hash": "2026-03-19T15:05:58.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "adc79a1331792f89ab145d2b0a15dd140db0ac1dfeca8187308d410ab6df27d0"
 }

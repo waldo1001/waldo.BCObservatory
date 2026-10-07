@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/12/04/dynamics-365-business-central-prepare-your-extensions-to-support-the-copilot-chat/",
   "published_at": "2025-12-04T11:06:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:57.047Z",
+      "path": "vault:posts/demiliani-com/12927.md",
+      "words": 1094
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:57.057Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:57.058Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:57.059Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:57.071Z",
+      "path": "content/posts/demiliani-com/12927.md"
     }
   },
   "input_hash": "2025-12-04T11:06:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d5f2604aaf9f9d259ee5c74b7e47ee2c5115b90774ae8cec24016fe653d25c6"
 }

@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/12/copilot-agent-in-al-using-it-well-without-losing-control/",
   "published_at": "2025-12-22T08:15:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.909Z",
+      "path": "vault:posts/thinkaboutit-be/7352.md",
+      "words": 1116
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.919Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.920Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.921Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.928Z",
+      "path": "content/posts/thinkaboutit-be/7352.md"
     }
   },
   "input_hash": "2025-12-22T08:12:17.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f532420049e399bd3871c3b00425d0c2cecb3e92d6a92fa1512b27539ab77cf6"
 }

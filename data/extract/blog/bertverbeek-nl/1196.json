@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/bertverbeek-nl/1196",
+  "url": "https://www.bertverbeek.nl/blog/2025/12/19/data-agent-inside-fabric-ask-question-on-your-business-central-data/",
+  "title": "Data agent inside Fabric ask question on your Business Central Data",
+  "source": "bertverbeek-nl",
+  "published_at": "2025-12-19T11:44:36.000Z",
+  "words": 284,
+  "summary": "Data Agents in Microsoft Fabric enable users to ask natural language questions about Business Central data without using APIs. The feature works with Mirrored Data sources for near real-time data synchronization and can be integrated into Copilot Studio for enhanced user experience.",
+  "key_points": [
+    "Data Agents leverage Fabric's native data storage, avoiding direct API calls to Business Central",
+    "Mirrored Data sources provide near real-time data when synchronized via bc2adls",
+    "Agent instructions can configure joins between tables to answer complex queries across multiple data sources",
+    "Limiting tables to 100 columns maintains query quality and performance",
+    "Integration with Copilot Studio enables deployment as AI applications for business users"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "data agents",
+    "fabric",
+    "artificial intelligence",
+    "natural language queries",
+    "data synchronization",
+    "mirrored data"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Data Agents in Fabric",
+    "Mirrored Data sources",
+    "Natural language queries on Business Central data",
+    "SQL query generation",
+    "Agent configuration instructions",
+    "Table joins via agent instructions",
+    "Copilot Studio integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "you can really easy create AI applications with your data and ask questions on your data",
+      "why_it_matters": "Explains the primary capability: using natural language to query Business Central data without technical complexity"
+    },
+    {
+      "text": "if there is an huge demand of request your Business Central users won't affect it",
+      "why_it_matters": "Highlights the performance benefit of querying Fabric data instead of directly calling Business Central APIs"
+    },
+    {
+      "text": "you almost get near real time data if you choose that option inside bc2adls to synchronize your date",
+      "why_it_matters": "Shows how Mirrored Data sources provide data freshness comparable to real-time requirements"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

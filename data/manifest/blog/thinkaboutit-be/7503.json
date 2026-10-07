@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/01/how-do-i-analyze-list-pages-and-data-using-analysis-mode-in-business-central/",
   "published_at": "2026-01-22T08:00:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.080Z",
+      "path": "vault:posts/thinkaboutit-be/7503.md",
+      "words": 1430
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.092Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.093Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.094Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.103Z",
+      "path": "content/posts/thinkaboutit-be/7503.md"
     }
   },
   "input_hash": "2026-01-21T08:48:14.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd384398811a06f226de4ff866f9fae94933e12482bfbeb7c6cd32223a96d74e"
 }

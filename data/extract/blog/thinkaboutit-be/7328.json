@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/thinkaboutit-be/7328",
+  "url": "https://thinkaboutit.be/2025/12/chat-ask-or-edit-using-github-copilot-effectively-in-al-development/",
+  "title": "Chat, Ask, or Edit? Using GitHub Copilot Effectively in AL Development",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-12-18T08:00:00.000Z",
+  "words": 848,
+  "summary": "GitHub Copilot in Visual Studio Code offers three distinct modes for AL development - Chat for designing solutions, Ask for understanding and reviewing code, and Edit for refactoring - each serving different purposes and stages of development rather than being interchangeable.",
+  "key_points": [
+    "Chat mode is best for high-level solution design and architectural decisions before writing code",
+    "Ask mode functions as a code review assistant, explaining existing code and identifying issues without making changes",
+    "Edit mode precisely refactors selected code blocks with focused improvements while preserving context",
+    "Using the wrong mode causes Copilot to feel unreliable; intentional mode selection improves predictability and effectiveness",
+    "Copilot Agent deserves separate consideration as it works across multiple files and objects differently than the three local modes"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "al development",
+    "code generation",
+    "visual studio code",
+    "code quality",
+    "design patterns"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot Chat",
+    "Copilot Ask",
+    "Copilot Edit",
+    "code refactoring",
+    "solution design",
+    "code review",
+    "AL validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Chat helps you think, Ask helps you understand, Edit helps you improve.",
+      "why_it_matters": "This concise summary clarifies the distinct purpose of each Copilot mode and how developers should choose between them based on their current task."
+    },
+    {
+      "text": "A frequent mistake is using Chat for everything. Chat can explain code. It can refactor code. That does not mean it should.",
+      "why_it_matters": "Highlights the core misconception that causes frustration with Copilot and explains why mode selection is critical for effectiveness."
+    },
+    {
+      "text": "They support different phases of development: Chat helps you think, Ask helps you understand, Edit helps you improve.",
+      "why_it_matters": "Reinforces that the three modes are complementary tools for different development phases rather than interchangeable alternatives."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

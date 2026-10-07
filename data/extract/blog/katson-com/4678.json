@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/katson-com/4678",
+  "url": "https://katson.com/connect-any-agent-to-business-central/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=connect-any-agent-to-business-central",
+  "title": "Connect Any Agent to Business Central",
+  "source": "katson-com",
+  "published_at": "2026-01-12T06:02:14.000Z",
+  "words": 1475,
+  "summary": "The post explains how to connect external AI agents (Claude, Cursor, GitHub Copilot, etc.) to Business Central using the Model Context Protocol (MCP), focusing on a new multiplatform Python-based MCP proxy that enables agents to read and write data in Business Central. It covers setup, usage, and troubleshooting for production agent deployments.",
+  "key_points": [
+    "Agents differ from copilots by running tools in loops and self-deciding which data to query, versus copilots providing deterministic question-answer flows.",
+    "Microsoft's BC MCP Server only initially worked with Copilot Studio; the new BcMCPProxy enables other agents like Claude Desktop, VS Code, and Cursor to access Business Central.",
+    "A multiplatform Python version of BcMCPProxy simplifies installation (pip install), works cross-platform on Mac, Windows, and Linux, and integrates better with IDEs than the .NET version.",
+    "Setup requires Azure AD App Registration with specific permissions, device-code login, and configuration file generation for different MCP clients.",
+    "Common issues include aggressive top parameter limits on results and 401/400 errors requiring permission verification or endpoint updates; explicit requests help retrieve complete datasets."
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "mcp protocol",
+    "external integration",
+    "ai automation",
+    "tools",
+    "business central api",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Model Context Protocol (MCP) Server Configurations"
+    },
+    {
+      "type": "page",
+      "name": "PAG30008"
+    }
+  ],
+  "features": [
+    "Model Context Protocol (MCP)",
+    "MCP Server Configuration",
+    "Business Central API access",
+    "Device-code login flow",
+    "Agent tool execution",
+    "Cross-platform MCP proxy"
+  ],
+  "versions": [
+    "January 2026",
+    "May 2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Agents can do the same - answer questions or even execute actions. But the flow is non-deterministic.",
+      "why_it_matters": "Defines the fundamental distinction between agents and copilots, explaining why agents are transformational for Business Central automation."
+    },
+    {
+      "text": "Agents run tools in a loop.",
+      "why_it_matters": "Encapsulates the core mechanism of how agents work, essential for understanding MCP's role in providing tools."
+    },
+    {
+      "text": "The agent will understand your request, decide which BC API tools to use, execute the queries, and return results in plain English.",
+      "why_it_matters": "Illustrates the end-user benefit of the MCP proxy setup - no code writing required while agents intelligently interact with Business Central data."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

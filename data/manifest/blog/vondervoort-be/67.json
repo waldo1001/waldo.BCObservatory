@@ -7,13 +7,39 @@
   "url": "https://www.vondervoort.be/index.php/2025/11/22/dutch-dynamics-community-event-18-november-2025/",
   "published_at": "2025-11-22T09:56:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:57.676Z",
+      "path": "vault:posts/vondervoort-be/67.md",
+      "words": 735
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:57.685Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:57.686Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:57.687Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:57.692Z",
+      "path": "content/posts/vondervoort-be/67.md"
     }
   },
   "input_hash": "2025-11-22T10:14:01.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ffcb83cb738f3fd52a35f7f79d9aa741ed256d4f9619b903739e652632a74236"
 }

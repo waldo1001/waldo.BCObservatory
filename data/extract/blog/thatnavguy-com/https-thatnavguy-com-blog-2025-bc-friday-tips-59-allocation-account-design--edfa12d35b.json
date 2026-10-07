@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/",
+  "title": "BC Friday Tips #59 Allocation Account Design",
+  "source": "thatnavguy-com",
+  "published_at": "2025-12-05T00:00:00.000Z",
+  "words": 94,
+  "summary": "Allocation Accounts automate the distribution of revenue or cost amounts through journals and documents. The feature is implemented via Codeunit 2677, which subscribes to an event before posting batch runs, intercepts journal lines, rewrites them, and posts the updated lines.",
+  "key_points": [
+    "Allocation Accounts distribute revenue or cost amounts automatically across journals and documents",
+    "The AL implementation lives in Codeunit 2677 'Gen. Journal Alloc. Acc. Mgt.'",
+    "The codeunit subscribes to an event that fires before Gen. Jnl.-Post Batch runs",
+    "Journal lines are intercepted, rewritten, and then posted",
+    "Understanding this pattern helps with debugging and implementing similar functionality"
+  ],
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "topics": [
+    "allocation accounts",
+    "journal posting",
+    "codeunit design",
+    "event subscription",
+    "al development",
+    "debugging"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Gen. Journal Alloc. Acc. Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Gen. Jnl.-Post Batch"
+    }
+  ],
+  "features": [
+    "Allocation Accounts",
+    "journal distribution",
+    "revenue allocation",
+    "cost allocation",
+    "event-based processing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Allocation Account automates how revenue or cost amounts are distributed through journals and documents",
+      "why_it_matters": "Explains the core purpose of the feature for automating distribution workflows"
+    },
+    {
+      "text": "It intercepts the journal lines, rewrites them, and then posts the updated lines.",
+      "why_it_matters": "Shows the technical mechanism used to implement allocation without changing the posting framework"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

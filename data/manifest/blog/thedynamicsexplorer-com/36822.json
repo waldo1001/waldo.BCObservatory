@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/12/22/dynamics-gp-to-business-central-what-does-my-migrated-gp-historical-data-look-like-in-business-central/",
   "published_at": "2025-12-22T11:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:55.029Z",
+      "path": "vault:posts/thedynamicsexplorer-com/36822.md",
+      "words": 1146
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:55.040Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:55.041Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:55.042Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:55.049Z",
+      "path": "content/posts/thedynamicsexplorer-com/36822.md"
     }
   },
   "input_hash": "2026-04-30T19:25:31.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fd4d56619fdcfbb12cf894bec7f83da7fc2d2dd0edec85d643f9da01b713baa"
 }

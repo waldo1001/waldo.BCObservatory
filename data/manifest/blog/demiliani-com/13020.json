@@ -7,13 +7,37 @@
   "url": "https://demiliani.com/2025/12/22/securing-your-azure-storage-account-a-guide-to-enabling-business-central-only-access-using-network-security-perimeter/",
   "published_at": "2025-12-22T08:36:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.986Z",
+      "path": "vault:posts/demiliani-com/13020.md",
+      "words": 1391
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.997Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.998Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.999Z"
     }
   },
   "input_hash": "2025-12-24T09:37:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c695cdebf2fdc0155290388b933fea5a264275406dad4c92f8234fd5fafe934b",
+  "skip": "leak",
+  "skipped_at": "2026-10-07T01:22:55.012Z"
 }

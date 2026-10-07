@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/11/21/understanding-user-control-host-in-business-central/",
   "published_at": "2025-11-21T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:58.398Z",
+      "path": "vault:posts/aardvarklabs-blog/2063.md",
+      "words": 571
+    },
+    "extracted": {
+      "at": "2026-10-07T01:23:01.894Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:23:01.895Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:23:01.896Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:23:01.902Z",
+      "path": "content/posts/aardvarklabs-blog/2063.md"
     }
   },
   "input_hash": "2025-11-19T01:18:35.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e6e1b637bc5d9d4007b7348fce3ed0b1d77aa70080a0e0d765b5c7aaa838ddd"
 }

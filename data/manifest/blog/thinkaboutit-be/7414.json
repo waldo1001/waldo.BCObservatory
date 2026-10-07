@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/12/looking-back-at-2025-what-this-year-taught-me/",
   "published_at": "2025-12-30T08:09:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.053Z",
+      "path": "vault:posts/thinkaboutit-be/7414.md",
+      "words": 1446
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.062Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.063Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.064Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.072Z",
+      "path": "content/posts/thinkaboutit-be/7414.md"
     }
   },
   "input_hash": "2026-06-05T14:30:59.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10d82b43846b10d1bdb4b4f5d9908c40cdad80f95c4157d6c78e6dff6b030aac"
 }

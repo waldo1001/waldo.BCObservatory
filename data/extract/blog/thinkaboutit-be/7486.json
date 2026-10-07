@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thinkaboutit-be/7486",
+  "url": "https://thinkaboutit.be/2026/01/do-you-really-need-plan-mode-if-you-already-use-agents-well/",
+  "title": "Do You Really Need Plan Mode If You Already Use Agents Well?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-01-13T09:00:16.000Z",
+  "words": 854,
+  "summary": "The post explores whether Plan mode adds value beyond what disciplined use of Copilot Agents can already achieve in AL development. It argues that Plan mode's core advantage is not new capability but rather enforced workflow structure that makes planning explicit and reduces friction when switching contexts or working under pressure.",
+  "key_points": [
+    "Plan mode is opinionated by design, actively resisting drift into implementation by enforcing a dedicated research and planning phase before any changes",
+    "Custom agents with clear instructions can replicate planning behavior, so developers with strong discipline may not need Plan mode",
+    "Plan mode makes intent explicit as a durable artifact that can be reviewed and refined before execution, rather than just guidance that could be accidentally overridden",
+    "The real distinction is between reactive and intentional work; the tool matters less if you already think in phases and separate planning from implementation",
+    "Plan mode's primary value is friction reduction and serving as a guardrail, especially when switching contexts or working under time pressure"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "copilot plan mode",
+    "copilot agents",
+    "al development",
+    "workflow discipline",
+    "intentional development",
+    "vscode"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Copilot Plan mode",
+    "Copilot Agent mode",
+    "Custom agents",
+    "Planning workflow",
+    "VS Code Copilot integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The plan itself becomes an explicit artifact. It is something you can read, question, refine, or even hand off before any changes are made.",
+      "why_it_matters": "This distinguishes Plan mode from agent instructions; the plan is durable and reviewable, creating accountability and enabling collaboration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

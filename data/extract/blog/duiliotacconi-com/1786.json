@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/duiliotacconi-com/1786",
+  "url": "https://duiliotacconi.com/2025/12/24/guid-createsequentialguid-in-al/",
+  "title": "Guid.CreateSequentialGuid in AL",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-12-24T15:01:51.000Z",
+  "words": 581,
+  "summary": "Dynamics 365 Business Central 2025 Wave 2 introduces Guid.CreateSequentialGuid, a new AL statement that generates sequential GUIDs instead of random ones, reducing index fragmentation and improving performance for GUID-based keys and systemId fields without requiring SQL roundtrips.",
+  "key_points": [
+    "Sequential GUIDs reduce index fragmentation and page splits compared to randomly generated GUIDs from CreateGuid",
+    "Generation happens at middleware (session) level, eliminating unnecessary roundtrips to SQL Server",
+    "Developers should replace CreateGuid with CreateSequentialGuid in new implementations or refactored code",
+    "Sequential GUIDs are placed contiguously during I/O operations, improving performance in writing, reading, and index maintenance"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "guid generation",
+    "performance optimization",
+    "index fragmentation",
+    "al development",
+    "sequential identifiers"
+  ],
+  "objects": [],
+  "features": [
+    "Guid.CreateSequentialGuid",
+    "sequential GUID generation",
+    "index optimization",
+    "performance improvement"
+  ],
+  "versions": [
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "sequential GUID will be created at NST level (in the middle tier) - no useless roundtrip to SQL",
+      "why_it_matters": "Explains the architectural advantage of the new feature: eliminating database roundtrips improves performance"
+    },
+    {
+      "text": "indexes are reduced in fragmentation compared to randomly generated GUIDs",
+      "why_it_matters": "Highlights the core benefit: sequential GUIDs maintain index integrity better than random ones"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/11/26/hacking-google-antigravity-to-develop-al-extensions-for-dynamics-365-business-central/",
   "published_at": "2025-11-26T08:01:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:57.634Z",
+      "path": "vault:posts/demiliani-com/12874.md",
+      "words": 559
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:57.641Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:57.642Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:57.643Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:57.647Z",
+      "path": "content/posts/demiliani-com/12874.md"
     }
   },
   "input_hash": "2025-11-26T08:01:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d02120c0dce00a027ad0ed3907266e33b200d242fede9d90462a4917e3505b9f"
 }

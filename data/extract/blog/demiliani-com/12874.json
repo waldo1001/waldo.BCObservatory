@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/12874",
+  "url": "https://demiliani.com/2025/11/26/hacking-google-antigravity-to-develop-al-extensions-for-dynamics-365-business-central/",
+  "title": "“Hacking” Google Antigravity to develop AL extensions for Dynamics 365 Business Central.",
+  "source": "demiliani-com",
+  "published_at": "2025-11-26T08:01:16.000Z",
+  "words": 559,
+  "summary": "Google Antigravity is an agentic development platform that can be configured to develop AL extensions for Dynamics 365 Business Central by manually adding Visual Studio Code marketplace URLs and installing the AL Language extension via VSIX file. This enables developers to leverage AI-powered coding in an agent-first interface with full AL development capabilities.",
+  "key_points": [
+    "Antigravity uses Open VSX marketplace by default, but accessing Visual Studio Code marketplace requires adding hidden API URLs to settings",
+    "The Microsoft AL extension for Business Central is not available in Open VSX and must be installed manually from a VSIX package downloaded from the marketplace",
+    "After configuration, Antigravity provides full AL coding experience with intellisense, compilation, AI assistance via Gemini 3 Pro, and direct publishing to Business Central online sandbox",
+    "Antigravity's agent-first interface with multiple coordination modes differs from traditional AI coding assistants like Cursor or GitHub Copilot"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "google antigravity",
+    "ai-powered coding",
+    "ide configuration",
+    "extension installation",
+    "agents",
+    "vscode marketplace"
+  ],
+  "objects": [],
+  "features": [
+    "AI-powered code generation",
+    "AL language support",
+    "Agent coordination",
+    "Code compilation",
+    "Extension publishing",
+    "Parallel workflows",
+    "Browser operations"
+  ],
+  "versions": [
+    "Gemini 3 Pro",
+    "Claude Sonnet 4.5",
+    "GPT-OSS 120B"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The AL coding experience is now complete. You can use Google Antigravity for AL development as you normally use Visual Studio Code every day.",
+      "why_it_matters": "Confirms that after configuration, Antigravity provides feature parity with standard VS Code AL development workflows"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

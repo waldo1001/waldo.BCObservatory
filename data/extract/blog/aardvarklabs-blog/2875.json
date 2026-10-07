@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2875",
+  "url": "https://aardvarklabs.blog/2025/12/19/managing-optional-extensions-in-business-central-al-code/",
+  "title": "Managing Optional Extensions in Business Central AL Code",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-12-19T13:00:00.000Z",
+  "words": 478,
+  "summary": "This post explains how to create a single Business Central extension that optionally interacts with a third-party extension without creating a hard dependency. The technique uses NavApp.GetModuleInfo to detect if an optional extension is installed, then uses RecordRef and FieldRef to conditionally set extension-specific fields.",
+  "key_points": [
+    "Use NavApp.GetModuleInfo with an extension GUID to detect if an optional extension is installed at runtime",
+    "Create separate logical steps for core functionality and optional extension-specific field updates",
+    "Use RecordRef and FieldRef with field IDs to access and modify extension fields without adding a dependency",
+    "Check if a FieldRef is active before setting its value to ensure the field exists",
+    "This approach allows a single extension to work in systems with or without the optional third-party extension"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "optional extensions",
+    "dependencies",
+    "al code",
+    "recordref",
+    "fieldref",
+    "modular development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "NavApp.GetModuleInfo"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "TMG_EntityCashTransfer"
+    }
+  ],
+  "features": [
+    "optional extension detection",
+    "runtime field mapping",
+    "conditional field updates",
+    "extension GUID checking",
+    "module info retrieval"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

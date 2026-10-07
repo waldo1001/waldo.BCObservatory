@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/01/08/%f0%9f%93%a3-real-time-alerts-for-bc-popup-notification-system-for-active-users-%f0%9f%92%ac/",
   "published_at": "2026-01-08T22:04:08.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:53.353Z",
+      "path": "vault:posts/gerardorenteria-blog/13299.md",
+      "words": 1277
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:53.364Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:53.365Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:53.365Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:53.374Z",
+      "path": "content/posts/gerardorenteria-blog/13299.md"
     }
   },
   "input_hash": "2026-01-08T22:04:08.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2940c9237656b99bdef8eebce5cc6239b648ec0a45c63c4de1f0b9c80a7154f9"
 }

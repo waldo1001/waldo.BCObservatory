@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/12/08/dynamics-gp-to-business-central-migration-post-part-1-what-do-my-migrated-opening-balances-look-like-in-business-central/",
   "published_at": "2025-12-08T14:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.704Z",
+      "path": "vault:posts/thedynamicsexplorer-com/36744.md",
+      "words": 1016
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.713Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.714Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.715Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.720Z",
+      "path": "content/posts/thedynamicsexplorer-com/36744.md"
     }
   },
   "input_hash": "2026-04-30T18:37:30.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a4ff600b6274bafb8a75c28de7bb3e32d16e000fc7ff1588f1cde4282432f25c"
 }

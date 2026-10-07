@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/12/24/guid-createsequentialguid-in-al/",
   "published_at": "2025-12-24T15:01:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.716Z",
+      "path": "vault:posts/duiliotacconi-com/1786.md",
+      "words": 581
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.725Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.726Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.726Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.732Z",
+      "path": "content/posts/duiliotacconi-com/1786.md"
     }
   },
   "input_hash": "2025-12-24T15:01:51.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6618d85fd47684f5b0e957537128a8ea0f37393d34cb2a7db8ab31c2ad7f0cee"
 }

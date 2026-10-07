@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/12/29/%f0%9f%93%a1-rss-feed-reader-real-time-information-at-your-fingertips-%f0%9f%94%94/",
   "published_at": "2025-12-29T14:01:18.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.436Z",
+      "path": "vault:posts/gerardorenteria-blog/13166.md",
+      "words": 2342
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.448Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.449Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.450Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.460Z",
+      "path": "content/posts/gerardorenteria-blog/13166.md"
     }
   },
   "input_hash": "2025-12-29T14:01:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b61d5d4acab27354bec34dc84af30aaba61a60f221f3aa528ab2e072917db3d7"
 }

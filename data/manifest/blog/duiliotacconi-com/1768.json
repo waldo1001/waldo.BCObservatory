@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/12/18/bc-day-italy-ii-7th-may-2026/",
   "published_at": "2025-12-18T17:02:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:55.627Z",
+      "path": "vault:posts/duiliotacconi-com/1768.md",
+      "words": 439
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:55.634Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:55.634Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:55.635Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:55.639Z",
+      "path": "content/posts/duiliotacconi-com/1768.md"
     }
   },
   "input_hash": "2025-12-18T17:22:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ce9f549c785a70d723fe23a33a05d41ab99957734f747967071859a03cced011"
 }

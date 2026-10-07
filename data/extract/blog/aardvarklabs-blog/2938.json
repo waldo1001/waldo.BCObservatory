@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2938",
+  "url": "https://aardvarklabs.blog/2026/01/16/streamline-your-al-development-with-global-nuget-symbols/",
+  "title": "Streamline Your AL Development with Global NuGet Symbols",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-01-16T13:00:00.000Z",
+  "words": 162,
+  "summary": "Business Central AL 17.0 allows developers to download Business Central symbols from Global NuGet feeds instead of needing a live client environment or copying symbols from other projects. This streamlines AL extension development by adding al.symbolsCountryRegion configuration and using a new download symbols command in Visual Studio Code.",
+  "key_points": [
+    "AL 17.0 introduces the ability to download symbols from Global NuGet feeds",
+    "Configure al.symbolsCountryRegion in .VSCode/Settings.json with your country region code (e.g., 'us')",
+    "New 'AL: Download symbols from global sources' command available in Visual Studio Code",
+    "Eliminates the need to log into a Business Central environment or copy symbols from other projects"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "nuget",
+    "symbols",
+    "visual studio code",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Global NuGet symbol download",
+    "al.symbolsCountryRegion configuration",
+    "Download symbols from global sources command"
+  ],
+  "versions": [
+    "AL 17.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can download symbols from the Global NuGet feeds.",
+      "why_it_matters": "Introduces the core capability that solves the problem of needing a live Business Central environment for development"
+    },
+    {
+      "text": "No need to log into a Business Central environment, no accidentally copying old resources from an old project.",
+      "why_it_matters": "Highlights the practical benefits and workflow improvements of using the new Global NuGet approach"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

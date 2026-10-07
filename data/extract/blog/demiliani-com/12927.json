@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/demiliani-com/12927",
+  "url": "https://demiliani.com/2025/12/04/dynamics-365-business-central-prepare-your-extensions-to-support-the-copilot-chat/",
+  "title": "Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.",
+  "source": "demiliani-com",
+  "published_at": "2025-12-04T11:06:18.000Z",
+  "words": 1094,
+  "summary": "Extending Dynamics 365 Business Central with Copilot Chat support requires adding your extension's website URL to the help parameter in app.json. Microsoft's Copilot Chat uses Bing Search and retrieval augmented generation to answer user questions by searching your online content, with support for text, HTML, Markdown, and PDF files.",
+  "key_points": [
+    "Add your publicly accessible, Bing-indexed website URL to the help field in app.json to enable Copilot Chat to search your extension's documentation",
+    "Copilot Chat uses Bing Search and RAG to retrieve and ground answers in your content, preventing hallucinations",
+    "URLs are truncated to 2 path levels deep; content must be publicly accessible and not behind login pages or URL shorteners",
+    "Bing indexing can take from an hour to several days; verify coverage using Bing Webmaster Tools or site: search queries",
+    "Copilot Chat is free for Business Central licensees; use semantic markup and SEO practices to improve content discoverability"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "copilot chat",
+    "extensions",
+    "third-party content",
+    "bing search",
+    "retrieval augmented generation",
+    "app.json configuration",
+    "seo best practices"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json"
+    },
+    {
+      "type": "other",
+      "name": "Copilot & agent capabilities page"
+    }
+  ],
+  "features": [
+    "Copilot Chat",
+    "Third-party content integration",
+    "Bing Search integration",
+    "Retrieval Augmented Generation",
+    "RAG-based question answering",
+    "Content indexing and ranking",
+    "Semantic markup support",
+    "Content quality assurance"
+  ],
+  "versions": [
+    "Dynamics 365 Business Central 2025 Wave 2",
+    "version 27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot Chat uses RAG (Retrieval Augmented Generation) to answer questions, directly referencing content found online.",
+      "why_it_matters": "Explains the core mechanism that ensures answers are grounded in actual content rather than AI-generated hallucinations"
+    },
+    {
+      "text": "Copilot Chat is FREE to use for all users with a valid Business Central license.",
+      "why_it_matters": "Addresses cost concerns and clarifies that this feature adds no additional expense for customers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

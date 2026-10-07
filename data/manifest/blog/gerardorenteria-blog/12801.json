@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/01/22/%f0%9f%93%8a-mermaid-diagrams-in-business-central-dynamic-visual-intelligence-%f0%9f%8e%a8/",
   "published_at": "2026-01-22T20:45:57.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.292Z",
+      "path": "vault:posts/gerardorenteria-blog/12801.md",
+      "words": 2149
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.305Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.306Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.307Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.315Z",
+      "path": "content/posts/gerardorenteria-blog/12801.md"
     }
   },
   "input_hash": "2026-01-22T20:45:57.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6c43a2f130d23857433b91dcdb461fe0755fc210a8340e7360df2955f4e3c72"
 }

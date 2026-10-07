@@ -1,0 +1,80 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12961",
+  "url": "https://gerardorenteria.blog/2025/12/01/%f0%9f%95%90-remember-when-lists-could-sort-by-any-key-%f0%9f%94%84/",
+  "title": "🕐 Remember When Lists Could Sort By Any Key? 🔄",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-12-01T22:04:48.000Z",
+  "words": 1180,
+  "summary": "A developer creates a solution to sort Business Central list pages by any predefined table key, not just single fields. The pattern uses temporary metadata storage, dynamic RecordRef reflection, and page extensions to offer flexible multi-field sorting that restores functionality from the NAV/C/SIDE era.",
+  "key_points": [
+    "Tables in Business Central have predefined keys optimized for data retrieval; the solution leverages these keys to enable sorting by multiple fields in order.",
+    "The architecture consists of a temporary table for metadata, a codeunit using RecordRef to read table keys, and a selection page that lets users choose which key to sort by.",
+    "When a user selects a sort order, a new list window opens with the applied sorting, while the original remains unchanged.",
+    "Page extensions add a 'Change Sort Order' action to any list page, making the feature reusable across tables like Customer and Sales Order.",
+    "The solution includes example extensions and permission set configuration for integration into daily Business Central workflows."
+  ],
+  "systems": [
+    "development",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "sorting",
+    "list pages",
+    "table keys",
+    "multi-field sorting",
+    "page extensions",
+    "recordref",
+    "user interface"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRG Table Key"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGKeyManager"
+    },
+    {
+      "type": "page",
+      "name": "GDRG Key Selection"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGKeyManager"
+    }
+  ],
+  "features": [
+    "custom sort orders",
+    "table key reflection",
+    "multi-field sorting",
+    "page extensions",
+    "dynamic table opening",
+    "selection dialog"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every BC table has predefined keys designed for optimal data retrieval and sorting.",
+      "why_it_matters": "Explains why leveraging table keys instead of arbitrary field combinations makes sense for performance and intentional sorting patterns."
+    },
+    {
+      "text": "After selecting the desired key, a new customer list window will open with the additional key title.",
+      "why_it_matters": "Shows that the solution preserves the original view while opening a separate sorted view, allowing users to compare sort orders without losing context."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

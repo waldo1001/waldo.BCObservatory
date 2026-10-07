@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/13096",
+  "url": "https://demiliani.com/2025/12/29/dynamics-365-business-central-ui-performance-what-about-the-browser-and-the-local-machine/",
+  "title": "Dynamics 365 Business Central UI performance: what about the browser and the local machine?",
+  "source": "demiliani-com",
+  "published_at": "2025-12-29T14:37:18.000Z",
+  "words": 1894,
+  "summary": "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware, not just backend optimization. The post explains how to measure and monitor these client-side factors during go-live and production.",
+  "key_points": [
+    "Network latency to Azure datacenters should be 250-300ms or less; higher latency significantly impacts perceived slowness",
+    "Modern browsers (Edge, Chrome, Safari) with adequate storage and proper configuration are essential; multiple tabs consume resources and add ~10 seconds per tab",
+    "Local machine hardware (CPU, RAM, GPU, storage) directly affects browser rendering and JavaScript execution; 16GB+ RAM and Apple Silicon devices perform best",
+    "Page View telemetry provides network metrics; monitoring tools like Speedometer 3.1 benchmark and custom Node.js scripts help measure actual performance",
+    "Client-side factors are often overlooked in infrastructure assessments but can have considerable impact on end-user experience despite backend optimizations"
+  ],
+  "systems": [
+    "platform",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "performance",
+    "ui",
+    "browser",
+    "network latency",
+    "hardware",
+    "monitoring",
+    "diagnostics",
+    "optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Page View telemetry",
+    "Page caching",
+    "WebSocket compression",
+    "IndexedDB database",
+    "Speedometer 3.1 benchmark",
+    "Puppeteer-based performance testing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central is designed for networks that have a latency of 250 - 300 milliseconds (ms) or less.",
+      "why_it_matters": "Establishes the key performance threshold for network latency that organizations must meet"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

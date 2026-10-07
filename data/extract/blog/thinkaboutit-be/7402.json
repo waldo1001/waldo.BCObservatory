@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/thinkaboutit-be/7402",
+  "url": "https://thinkaboutit.be/2025/12/a-practical-mental-model-for-using-github-copilot-in-al-development/",
+  "title": "A Practical Mental Model for Using GitHub Copilot in AL Development",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-12-27T14:30:30.000Z",
+  "words": 671,
+  "summary": "A mental model for using GitHub Copilot effectively in AL development, focusing on when to use each of five modes (Plan, Agent, Edit, Ask, Chat) to maintain control and predictability rather than treating Copilot as magic.",
+  "key_points": [
+    "Copilot has five complementary modes - Plan, Agent, Edit, Ask, and Chat - each supporting different intents in development.",
+    "Using the right mode at the wrong moment causes most frustration; effectiveness comes from intentional combination rather than individual features.",
+    "Success requires clarifying intent and architecture upfront before asking Copilot to implement, keeping design decisions explicit.",
+    "Copilot amplifies structural concerns around logic placement, responsibility separation, and how extensions evolve over time."
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "al development",
+    "code generation",
+    "developer workflow",
+    "intent-driven development",
+    "ai-assisted coding"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot Chat mode",
+    "Copilot Ask mode",
+    "Copilot Edit mode",
+    "Copilot Agent mode",
+    "Copilot Plan mode"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Most frustration comes from using the right tool at the wrong moment.",
+      "why_it_matters": "Identifies the core issue - Copilot modes are complementary but must be applied in the right context, not interchangeably."
+    },
+    {
+      "text": "Copilot works best when it supports how you already think about software.",
+      "why_it_matters": "Frames Copilot as an accelerator for existing thought processes, not a replacement for experience or design thinking."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

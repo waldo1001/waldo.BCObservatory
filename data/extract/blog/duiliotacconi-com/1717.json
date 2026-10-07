@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/duiliotacconi-com/1717",
+  "url": "https://duiliotacconi.com/2025/12/10/locktimeoutduration-in-al/",
+  "title": "LockTimeoutDuration in AL",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-12-10T16:04:37.000Z",
+  "words": 920,
+  "summary": "The Database.LockTimeoutDuration method, introduced in Dynamics 365 Business Central 2025 Wave 2 (version 27), lets developers override lock timeout settings in AL code at the statement level. Online environments default to 30 seconds, on-premises to 10 seconds, with a platform maximum of 1.71 million milliseconds (28.5 minutes). Understanding when and how to adjust this value helps prevent timeout errors in business-critical procedures while avoiding deadlocks and blocking chains.",
+  "key_points": [
+    "Database.LockTimeoutDuration was introduced in BC 2025 Wave 2 (v27) to allow per-statement lock timeout overrides in AL code",
+    "Online environments have a 30-second default timeout; on-premises defaults to 10 seconds from the $ndo$dbproperty table",
+    "Lock timeout values are limited to a maximum of 1.71 million milliseconds (28.5 minutes), which is 10 percent below the command timeout to distinguish between lock and command timeouts",
+    "Setting timeout values too low increases timeout errors and rollbacks; setting them too high risks deadlocks and blocking chains",
+    "This feature should be used sparingly for specific business-critical procedures that encounter lock timeouts, not as a general solution to locking problems"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "lock timeout",
+    "al development",
+    "database performance",
+    "concurrency control",
+    "transaction management"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Database.LockTimeoutDuration Method"
+    }
+  ],
+  "features": [
+    "lock timeout duration override",
+    "statement-level timeout configuration",
+    "database locking control"
+  ],
+  "versions": [
+    "27",
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With great power (define a lock timeout) comes great responsibility (you are accountable of the consequences: good and bad).",
+      "why_it_matters": "This emphasizes that using this feature requires careful consideration to avoid introducing deadlocks and performance problems."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

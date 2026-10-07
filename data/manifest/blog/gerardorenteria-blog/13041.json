@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/12/04/%e2%97%8f-mark-filter-focus-bringing-precision-to-bc-list-analysis-%e2%9c%85/",
   "published_at": "2025-12-04T16:37:01.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:57.014Z",
+      "path": "vault:posts/gerardorenteria-blog/13041.md",
+      "words": 1026
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:57.024Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:57.025Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:57.026Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:57.033Z",
+      "path": "content/posts/gerardorenteria-blog/13041.md"
     }
   },
   "input_hash": "2025-12-04T16:37:01.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0cc35bf023490e635c182fce7908b4de2da4977615b35ed22984f183fa596c34"
 }

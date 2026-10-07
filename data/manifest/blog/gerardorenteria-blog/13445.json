@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/01/14/%e2%a6%bb-gitignore-visual-visual-indicators-for-ignored-files-in-vs-code-%e2%9c%a8/",
   "published_at": "2026-01-14T21:23:30.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:52.770Z",
+      "path": "vault:posts/gerardorenteria-blog/13445.md",
+      "words": 534
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:52.780Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:52.782Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:52.784Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:52.790Z",
+      "path": "content/posts/gerardorenteria-blog/13445.md"
     }
   },
   "input_hash": "2026-01-14T21:23:30.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34ed391713a017c6c3250e9752c885345b02bde986f7999d6ac6734b3d770730"
 }

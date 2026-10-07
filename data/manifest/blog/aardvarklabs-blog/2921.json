@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/12/26/2025-highlights-engaging-moments-in-business-central-events/",
   "published_at": "2025-12-26T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:54.620Z",
+      "path": "vault:posts/aardvarklabs-blog/2921.md",
+      "words": 461
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:54.626Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:54.627Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:54.628Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:54.633Z",
+      "path": "content/posts/aardvarklabs-blog/2921.md"
     }
   },
   "input_hash": "2025-12-19T16:55:49.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ed0f40b82496cfc992c8e880742b5f3358a7821c30d2aa7d621c8dfa76a7c31"
 }

@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/12/how-do-i-fix-the-enablehyperlinks-property-has-not-been-set-for-this-report/",
   "published_at": "2025-12-09T10:01:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:56.348Z",
+      "path": "vault:posts/thinkaboutit-be/7266.md",
+      "words": 480
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:56.355Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:56.356Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:56.357Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:56.362Z",
+      "path": "content/posts/thinkaboutit-be/7266.md"
     }
   },
   "input_hash": "2025-12-09T10:01:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1147eab2bd808256a4479a386b1ba3788e97c90856de847bd1395e07a43794ee"
 }

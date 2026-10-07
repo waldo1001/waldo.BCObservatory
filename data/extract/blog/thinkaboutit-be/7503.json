@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/thinkaboutit-be/7503",
+  "url": "https://thinkaboutit.be/2026/01/how-do-i-analyze-list-pages-and-data-using-analysis-mode-in-business-central/",
+  "title": "How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-01-22T08:00:31.000Z",
+  "words": 1430,
+  "summary": "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data through grouping, aggregation, pivoting, and filtering without exporting data or creating reports. It bridges the gap between operational lists and formal reporting, replacing many traditional ad-hoc reports by keeping analysis inside the application.",
+  "key_points": [
+    "Analysis Mode allows users to group, aggregate (Sum, Count, Average, Min, Max), pivot, and filter list data interactively while saving multiple analysis views",
+    "Requires DATA ANALYSIS - EXEC permission and is generally available in 2023 release wave 2 and later",
+    "Supports analysis on Query objects and related table fields, with automatic optimization for datasets over 100,000 rows",
+    "Most effective for replacing reports that answer ad-hoc questions; classic reports remain better for fixed layouts and formal distribution",
+    "Positioned between operational filtering and formal Power BI reporting as part of Business Central's analytics ecosystem"
+  ],
+  "systems": [
+    "reporting",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "analysis mode",
+    "ad-hoc analysis",
+    "list pages",
+    "data exploration",
+    "aggregations",
+    "pivoting",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Query"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Data grouping",
+    "Aggregation functions",
+    "Pivoting",
+    "Date hierarchies",
+    "Filtering without page modification",
+    "Analysis view persistence",
+    "Related table field access"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Analysis Mode sits between operational lists and formal reporting.",
+      "why_it_matters": "Clarifies the position of Analysis Mode in the reporting ecosystem and its intended use case for exploratory analysis rather than formal outputs"
+    },
+    {
+      "text": "Analysis Mode is most effective when it replaces reports that exist mainly to answer ad-hoc or exploratory questions.",
+      "why_it_matters": "Provides guidance on when to choose Analysis Mode over other reporting methods based on the nature of the business question"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
