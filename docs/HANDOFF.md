@@ -7,6 +7,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Open specs, not yet implemented
 
 
+- **Review coverage** (`docs/specs/review-coverage.md`, D77, M15). Status: proposed 2026-10-07, nothing implemented.
+  Start with phase 1 (`pipeline/lib/review.ts`, the schema enum and the ten renderer call sites; no LLM). Until it lands
+  25,800 pages without any model text read "unreviewed - machine-generated", and videos, posts and changes are
+  reviewed only when flagged (3 of 633 videos) or never.
+
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
