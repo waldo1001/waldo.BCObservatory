@@ -10,6 +10,8 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { commitTracked } from "../../pipeline/orchestrator/nightly.js";
 
+// commitTracked commits through the pipeline's own git calls: on a CI runner without a global identity they need one
+for (const [k, v] of Object.entries({ GIT_AUTHOR_NAME: "t", GIT_AUTHOR_EMAIL: "t@e", GIT_COMMITTER_NAME: "t", GIT_COMMITTER_EMAIL: "t@e" })) process.env[k] ??= v;
 const g = (cwd: string, ...a: string[]) => execFileSync("git", ["-c", "user.name=t", "-c", "user.email=t@e", ...a], { cwd, stdio: "pipe" }).toString();
 
 test("a lost push race rebases around the files the item loop is still writing", async () => {
