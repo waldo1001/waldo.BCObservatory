@@ -18,25 +18,18 @@ tags:
   - personalization
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:17.123Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:17.175Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: a5eac48100a2a24529ecda1c1c8f1f52f8954e162f9186b95daea038ef43bb3b
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=MgWlmZAlqGI&t=15s
-    title: "What's New: Entering and Approving Time Sheets (2024 release wave 1)"
-    date: "2024-04-04T13:30:17.000Z"
-    commit: null
-    t: 15
-    quote: the improvements that we've made in time sheets area is basically evolves around how to get more and how to be more productive while
   - kind: video
     url: https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s
     title: "What's New: Entering and Approving Time Sheets (2024 release wave 1)"
@@ -51,6 +44,13 @@ evidence:
     commit: null
     t: 137
     quote: these columns are now basically dependent on your company's setup so in case you haven't set up causes of absence or you're not working
+  - kind: video
+    url: https://www.youtube.com/watch?v=MgWlmZAlqGI&t=196s
+    title: "What's New: Entering and Approving Time Sheets (2024 release wave 1)"
+    date: "2024-04-04T13:30:17.000Z"
+    commit: null
+    t: 196
+    quote: we have added a time sheet line details fact box which actually allows you to go and peek into the data and the comments
   - kind: video
     url: https://www.youtube.com/watch?v=MgWlmZAlqGI&t=437s
     title: "What's New: Entering and Approving Time Sheets (2024 release wave 1)"
@@ -166,14 +166,14 @@ objects_mentioned:
   - page manager time sheets by projects
   - page time sheet line details
 quotes:
-  - t: 15
-    text: the improvements that we've made in time sheets area is basically evolves around how to get more and how to be more productive while
-    check: snapped
   - t: 96
     text: we've actually made uh submit and reopen uh actions context aware so that you don't get in in the situations where the errors are
     check: exact
   - t: 137
     text: these columns are now basically dependent on your company's setup so in case you haven't set up causes of absence or you're not working
+    check: exact
+  - t: 196
+    text: we have added a time sheet line details fact box which actually allows you to go and peek into the data and the comments
     check: exact
   - t: 437
     text: we've noticed while looking at our Telemetry is there's a lot of a lot of Errors where uh that get produced by the empty
@@ -190,7 +190,7 @@ quotes:
 
 > Time sheet entry and approval changes in Business Central 2024 release wave 1: self-service tiles, context-aware submit and reopen, dynamic columns, conditional formatting, F8 copy, extended copy, details factbox, time submission policy, and manager approval changes for projects.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MgWlmZAlqGI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 12:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MgWlmZAlqGI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 12:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -201,12 +201,12 @@ It also covers copying values with keyboard shortcuts and copying lines from ope
 ## Key points
 
 - A new self-service tile opens the current time sheet based on the work date, and a separate tile covers new time sheets with no lines started.
-- Submit and reopen actions are context-aware, which avoids errors being thrown when they should not be.
+- Submit and reopen actions are context-aware: they are disabled when there are no lines, and submit is enabled only once the required details are entered, which avoids unnecessary errors.
 - The status column on time sheet lines shows red and italic when required data is missing.
 - Project, project task, cause of absence and chargeable columns show or hide depending on the company's setup.
 - F8 copies values from the previous line, and lines can be copied from open or submitted time sheets, with specific lines selectable.
+- A time sheet line details factbox, shown wherever time sheet lines appear, lets users see comments and details about the resource, project or task.
 - The time submission policy sets whether empty lines are skipped on submission or kept with warnings, and the existing behavior stays available.
-- In manager time sheets by projects, resource number and name, weekend columns, line totals and header and line comments are shown, and some fields can be added via personalization.
 
 ## Chapters
 
@@ -222,18 +222,18 @@ It also covers copying values with keyboard shortcuts and copying lines from ope
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| New time sheet tile in self-service | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=56s) |  |
-| Context-aware submit and reopen actions | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s) |  |
-| Conditional formatting for status column | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s) |  |
-| Dynamic column visibility based on setup | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=117s) |  |
-| Keyboard shortcuts for copying time sheet values | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=157s) |  |
-| Enhanced time sheet copy functionality | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=176s) |  |
-| Time sheet line details factbox | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=196s) |  |
-| Time submission policy | status not stated | [7:17](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=437s) |  |
-| Enhanced manager time sheet details for projects | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=477s) |  |
-| Selective time sheet approval by default | status not stated, demoed | [9:14](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=554s) |  |
+| Feature | Status | At |
+|---|---|---|
+| New time sheet tile in self-service | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=56s) |
+| Context-aware submit and reopen actions | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s) |
+| Conditional formatting for status column | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s) |
+| Dynamic column visibility based on setup | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=117s) |
+| Keyboard shortcuts for copying time sheet values | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=157s) |
+| Enhanced time sheet copy functionality | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=176s) |
+| Time sheet line details factbox | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=196s) |
+| Time submission policy | status not stated | [7:17](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=437s) |
+| Enhanced manager time sheet details for projects | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=477s) |
+| Selective time sheet approval by default | status not stated, demoed | [9:14](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=554s) |
 
 ## AL objects mentioned
 
@@ -246,9 +246,9 @@ Not found in BC28-30: page "manager time sheets by projects", page "time sheet l
 
 ## Quotes
 
-- [0:15](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=15s) "the improvements that we've made in time sheets area is basically evolves around how to get more and how to be more productive while"
 - [1:36](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=96s) "we've actually made uh submit and reopen uh actions context aware so that you don't get in in the situations where the errors are"
 - [2:17](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=137s) "these columns are now basically dependent on your company's setup so in case you haven't set up causes of absence or you're not working"
+- [3:16](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=196s) "we have added a time sheet line details fact box which actually allows you to go and peek into the data and the comments"
 - [7:17](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=437s) "we've noticed while looking at our Telemetry is there's a lot of a lot of Errors where uh that get produced by the empty"
 - [7:57](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=477s) "project managers now have way way more detail in their uh manager time sheet by jobs or by projects available while approving uh time"
 - [9:14](https://www.youtube.com/watch?v=MgWlmZAlqGI&t=554s) "the default uh the default setting of approval is only for the selected time sheets that sort of avoids we got feedback that that"

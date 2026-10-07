@@ -1,0 +1,24 @@
+{
+  "video_id": "HI7VcPzR2OE",
+  "item_id": "video/yt-microsoft/HI7VcPzR2OE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The Excel report list was misstated. The transcript names trial balances, aged receivables, aged payables and top lists for customers and vendors. It does not name generic accounts receivable/payable or customer and vendor lists. I corrected the key point; the feature description has the same wording but can't be edited here.",
+    "The Excel reports are marked preview with a valid evidence quote. The other features have no explicit status statement, so 'unclear' stays.",
+    "Everything else, including the quotes, summary and chapters, is supported by the transcript."
+  ],
+  "input_hash": "a7872e56c10b4ab37dad7937c1fe8cef832aafe56e3efe622554f5739c248f2b",
+  "by": "opus",
+  "at": "2026-10-07T23:10:16.959Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077445
+  }
+}

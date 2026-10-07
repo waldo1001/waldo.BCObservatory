@@ -56,7 +56,7 @@
       "description": "Allows users to build Power Automate flows directly inside Business Central using natural language descriptions. Users describe what they want to automate, copilot suggests flow steps, and users fill in necessary parameters to complete the automation.",
       "status": "preview",
       "status_evidence_t": 381.1,
-      "status_evidence_quote": "this feature is coming as preview later in this wave",
+      "status_evidence_quote": "this feature is coming as preview later in this wave later in 2024",
       "status_evidence_verified": true,
       "t_start": 181.8,
       "t_end": 360.3,
@@ -95,23 +95,6 @@
         "business central"
       ],
       "system": "integration"
-    },
-    {
-      "name": "Power Platform AI Features",
-      "description": "Power Platform has been infused with AI capabilities since 2019 with multiple AI-related features integrated across the platform.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 60.4,
-      "t_end": 81,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai",
-        "power platform"
-      ],
-      "system": "copilot"
     }
   ],
   "objects": [],
@@ -148,6 +131,12 @@
       "t": 222,
       "text": "power automate suggest the flow steps that are needed to create this automation",
       "why_it_matters": "Describes how copilot generates the technical implementation from user intent",
+      "check": "exact"
+    },
+    {
+      "t": 360.3,
+      "text": "we also have the co-pilot chat so that you can use to add more things in this flow if needed",
+      "why_it_matters": "Shows the created flow can be refined further with Copilot chat in Power Automate.",
       "check": "exact"
     },
     {

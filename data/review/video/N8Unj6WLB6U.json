@@ -1,0 +1,29 @@
+{
+  "video_id": "N8Unj6WLB6U",
+  "item_id": "video/yt-microsoft/N8Unj6WLB6U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and feature description for the service invoice posting policy list options (shipment only, shipment with invoice, separate processing) that the transcript does not state. The transcript only says invoices can be processed separately from or together with shipment, per user, and shows that with Mandatory the shipment and invoice are posted together.",
+    "Key point says some prepayment invoices may not delete. The transcript only says the dates for one prepayment invoice were not restored after deletion.",
+    "Service Quote to Order Conversion and Service Contract Template are demo steps, not stated as new. Kept with status unclear.",
+    "No segment states a preview or GA status, so all statuses stay unclear.",
+    "Added quotes for the delete-from-the-end rule and for the most-voted product suggestion."
+  ],
+  "input_hash": "33d3f1825963c0e07a5c398ff8ab1891ed30a127f51926cf222883c8610e6637",
+  "by": "opus",
+  "at": "2026-10-07T23:11:01.701Z",
+  "applied": [
+    "quote at 775s",
+    "quote at 824s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.102237
+  }
+}

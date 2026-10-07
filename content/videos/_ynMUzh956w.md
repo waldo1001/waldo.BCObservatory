@@ -20,12 +20,12 @@ tags:
   - scope tracking
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:58.664Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:58.711Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -301,7 +301,7 @@ quotes:
 
 > Sustainability in Business Central (2024 release wave 1) covers the foundational module for recording and reporting greenhouse gas emissions: setup, chart of sustainability accounts, journals, ledger entries, three standard reports and demo data. Regulatory reports and APIs are not part of this wave.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_ynMUzh956w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 27:30 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_ynMUzh956w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 27:30 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -313,9 +313,9 @@ It then walks through the first-wave foundation: the sustainability setup page, 
 
 - First wave focuses on recording and reporting emissions; reducing, removing and replacing are not covered in this wave.
 - Tracks three emission types: carbon footprint, methane and nitrogen dioxide. The scope is extensible by partners and potentially Microsoft later.
-- The chart of sustainability accounts sets the scope, emission type and calculation type per account, and supports heading, posting and totaling accounts.
-- Sustainability journals accept manual amounts or calculations (distance, fuel and similar) using emission factors defined in subcategories. Posting creates sustainability ledger entries, which feed the reports.
-- Setup page options include unit of measure, rounding, decimal places, mandatory country/region, and optional responsibility center tracking.
+- Each sustainability account has a category that defines the scope, which emissions are tracked and the calculation foundation. The chart supports heading, posting and totaling accounts like the G/L chart of accounts.
+- Sustainability journals (standard and recurring) accept manual amounts or calculations (distance, fuel and similar) using emission factors defined in subcategories. Posting creates sustainability ledger entries, which feed the reports.
+- Setup page options include unit of measure (with a separate reporting unit and conversion factor), rounding, decimal places, and mandatory usage settings such as country/region or responsibility center.
 - Three standard reports: Total emissions, Emission per facility, Emission by category. Excel layout is the default, RDC layout is still available.
 - Regulatory-specific reports are not included yet. APIs are announced for the next one or two minor releases.
 

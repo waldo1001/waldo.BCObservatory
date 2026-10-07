@@ -1,0 +1,34 @@
+{
+  "video_id": "W2yhU8eXT5w",
+  "item_id": "video/yt-microsoft/W2yhU8eXT5w",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 12 quotes match the transcript word for word.",
+    "Every feature was marked unclear, but the transcript says several shipped 'in this release': worksheet pages on phones, barcode scanning on SaaS, the camera control add-in API, laser scanning on SaaS and warehouse list gestures. Moving the location provider to control add-ins and migrating the .NET-based APIs are described as plans. Statuses updated with evidence quotes.",
+    "Quote at 49.4 is a lead-in about the previous release and adds nothing. Replaced it with a quote describing worksheet pages on phones.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "52d74b2e76131d275a7b4cfaad5170d81dfae38e3f75d5f5f9309fedf0506cea",
+  "by": "opus",
+  "at": "2026-10-07T23:10:45.459Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 70s"
+  ],
+  "rejected_edits": [
+    "status Worksheet pages on mobile phones -> ga: evidence not verbatim or does not state the status",
+    "status Native barcode scanning on SaaS -> ga: evidence not verbatim or does not state the status",
+    "status Camera barcode scanning - AL API with Control Addin -> ga: evidence not verbatim or does not state the status",
+    "status Dedicated laser barcode scanner integration -> ga: evidence not verbatim or does not state the status",
+    "status Warehouse pick gestures -> ga: evidence not verbatim or does not state the status",
+    "status Net-based barcode APIs migration path -> announced: evidence not verbatim or does not state the status",
+    "status Location provider via control add-in -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.16361699999999998
+  }
+}

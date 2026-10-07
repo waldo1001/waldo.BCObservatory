@@ -1,0 +1,36 @@
+{
+  "video_id": "V_ZyGeF5JXE",
+  "item_id": "video/yt-microsoft/V_ZyGeF5JXE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says 'from April 2024', but the transcript never gives a date or release name. Removed it.",
+    "Power Apps sample and Copilot in Power Automate had evidence quotes but no evidence_t. Set them to the segments where the quotes start (951.7 and 1053.9).",
+    "Single entry point, Dataverse environment linking and Copilot Studio integration have explicit availability statements in the transcript. Changed them from unclear to ga with evidence.",
+    "Key points left out Copilot in Power Automate (preview) and Copilot Studio integration. Added them.",
+    "All existing quotes checked: each is a verbatim span, and some run across segment boundaries.",
+    "Added quotes for the Get Approver action and the GPT summary action."
+  ],
+  "input_hash": "3b230777ec619a7735a4e16ff3599cdba8b8d07ad9ee19e01c28f63c0d906650",
+  "by": "opus",
+  "at": "2026-10-07T23:10:38.683Z",
+  "applied": [
+    "Power Apps Mixed Reality Sample: status ga",
+    "Copilot in Power Automate (Preview): status preview",
+    "quote at 309s",
+    "quote at 430s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Single Entry Point for Power Automate Flows -> ga: evidence not verbatim or does not state the status",
+    "status Dataverse Environment Linking to Business Central -> ga: evidence not verbatim or does not state the status",
+    "status Copilot Studio Integration -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.128685
+  }
+}

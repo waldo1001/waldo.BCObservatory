@@ -1,16 +1,16 @@
 {
   "video_id": "gMyp9JkXf9g",
   "item_id": "video/yt-microsoft/gMyp9JkXf9g",
-  "summary": "Excel reports for finance and sales in Business Central, 2024 release wave 1: trial balance (in preview), receivables and payables aging and customer top list (generally available), plus Copilot in Excel data analysis (in preview). Covers aggregation limits, roadmap and a Copilot outlier detection demo.",
+  "summary": "Business Central 2024 release wave 1 adds eight Excel reports for finance and sales: trial balances, receivables and payables aging, and customer top list. They are marked preview but described as fully functional. The session covers how to find the reports, data aggregation limits and the roadmap, and demos Copilot in Excel (preview) finding outliers in vendor aging data.",
   "overview": "The session covers the Excel reports released in the April 2024 wave, where eight reports were released across trial balance, payables and receivables. It shows how to find the reports, then walks through the trial balance report, the accounts receivable aging report and the customer top list.\n\nIt also explains data limits: the reports use aggregated data, not transaction-level detail. The session lists reports planned for later, then demos Copilot in Excel, including outlier detection. It closes with the point that Copilot suggestions need human review.",
   "key_points": [
-    "The trial balance Excel report is in preview. The presenter says it is fully functional but may have design changes.",
-    "Trial balance data is aggregated at account and period level, with no daily totals, and is limited to about 100,000 rows for performance.",
-    "Trial balance uses dimensions and account categories as slicers, and has local currency and additional reporting currency versions.",
-    "The accounts receivable aging report is generally available. It filters by due date, period length and count, and shows data aggregated per customer per period, not at transaction level.",
-    "The customer top list report is generally available. It shows top customers by sales or balance with a chart, and the top count can be changed, for example to 100.",
-    "The accounts payable aging report is generally available. It can skip vendors with zero balance and shows aggregated data per vendor per period.",
-    "Copilot in Excel (in preview) can analyze report data and detect outliers with machine learning. It needs larger datasets than the demo data, and its suggestions need human verification."
+    "The new Excel reports are marked preview because their design may still change, but the presenter says they are fully functional. You can find them on the role centers, in the Report Explorer (search for 'preview') or with Tell Me.",
+    "Eight reports shipped in 2024 release wave 1: trial balances, receivables aging, payables aging and the customer top list.",
+    "Trial balance data is aggregated at account and selected-period level, with no daily totals, and broken down by dimension values and account categories. About 100,000 rows was found to be manageable for performance.",
+    "Trial balance has slicers for dimensions and account categories, comes in local currency and additional reporting currency versions, and has a printable layout plus raw data for pivot tables and charts.",
+    "The accounts receivable aging report filters by aging date, due date, period length and count, can skip customers with zero balance, and offers views by period, local currency and currency. Data is aggregated per customer per period with a dimension breakdown.",
+    "The customer top list report shows top customers by sales or balance with a chart. The top count can be changed, for example to 100.",
+    "Planned reports include consolidation, closing trial balances, customer and vendor balance-to-date reports based on ledger entries, and then fixed assets, jobs, manufacturing and possibly service."
   ],
   "audience": [
     "functional consultant",

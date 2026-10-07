@@ -429,7 +429,7 @@
       "description": "Capability to run page scripting tool scripts as part of CI-CD pipelines and development workflows to detect regressions during rollout and automate testing in DevOps scenarios.",
       "status": "announced",
       "status_evidence_t": 1871.5,
-      "status_evidence_quote": "we're working on but uh we and um it's not yet supported to run",
+      "status_evidence_quote": "that we're working on but uh we and um it's not yet supported to run",
       "status_evidence_verified": true,
       "t_start": 1851.4,
       "t_end": 1871.5,
@@ -589,12 +589,6 @@
       "text": "you can actually parameterize scripts so that's basically the equivalent of setting some variables that you can then use throughout the script to to",
       "why_it_matters": "Parameters enable script reusability and reduce maintenance burden by centralizing value changes.",
       "check": "exact"
-    },
-    {
-      "t": 1596.8,
-      "text": "when we execute disc script and as I said you can use this uh in the expressions in the UI as well",
-      "why_it_matters": "Shows that parameters are usable throughout the script execution and UI expressions for flexible test automation.",
-      "check": "snapped"
     },
     {
       "t": 1637.1,

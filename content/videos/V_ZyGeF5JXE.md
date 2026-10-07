@@ -2,7 +2,7 @@
 id: video/V_ZyGeF5JXE
 type: video
 title: "What's New: Business Central Integration with Power Platform"
-summary: "Business Central and Power Platform integration updates from April 2024: approval workflow templates with a Get Approver action and GPT sales order summaries, the Find One Record connector action, V2 action deprecation in favor of V3, Dataverse environment linking in the Admin Center, and Copilot in Power Automate coming as preview."
+summary: "Business Central and Power Platform integration updates covered in this wave: approval workflow templates with a Get Approver action and GPT-generated sales order summaries, the Find One Record connector action, V2 connector actions hidden in favor of V3 actions, Dataverse environment linking in the Admin Center, and Copilot in Power Automate coming as preview later in the wave."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - power platform
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:38.683Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:38.732Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -58,6 +58,20 @@ evidence:
     commit: null
     t: 268
     quote: information from business central already so we are defaulting these parameters depending on where you
+  - kind: video
+    url: https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=308s
+    title: "What's New: Business Central Integration with Power Platform"
+    date: "2024-04-04T13:30:14.000Z"
+    commit: null
+    t: 308
+    quote: have added this new action called get approver which is the action that is responsible to dynamically fetch the approver
+  - kind: video
+    url: https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=430s
+    title: "What's New: Business Central Integration with Power Platform"
+    date: "2024-04-04T13:30:14.000Z"
+    commit: null
+    t: 430
+    quote: a new action here uh that creates the summary for the sales order details using GPT using a prompt
   - kind: video
     url: https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=808s
     title: "What's New: Business Central Integration with Power Platform"
@@ -226,6 +240,12 @@ quotes:
   - t: 268
     text: information from business central already so we are defaulting these parameters depending on where you
     check: fuzzy
+  - t: 308
+    text: have added this new action called get approver which is the action that is responsible to dynamically fetch the approver
+    check: exact
+  - t: 430
+    text: a new action here uh that creates the summary for the sales order details using GPT using a prompt
+    check: exact
   - t: 808
     text: a plan to deprecate v2 actions fully in
     check: fuzzy
@@ -245,9 +265,9 @@ quotes:
 
 # What's New: Business Central Integration with Power Platform
 
-> Business Central and Power Platform integration updates from April 2024: approval workflow templates with a Get Approver action and GPT sales order summaries, the Find One Record connector action, V2 action deprecation in favor of V3, Dataverse environment linking in the Admin Center, and Copilot in Power Automate coming as preview.
+> Business Central and Power Platform integration updates covered in this wave: approval workflow templates with a Get Approver action and GPT-generated sales order summaries, the Find One Record connector action, V2 connector actions hidden in favor of V3 actions, Dataverse environment linking in the Admin Center, and Copilot in Power Automate coming as preview later in the wave.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V_ZyGeF5JXE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 19:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=V_ZyGeF5JXE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 19:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -312,6 +332,8 @@ Not found in BC28-30: table "approval user setup table", page "sales order card 
 
 - [2:11](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=131s) "from this wave onwards we don't need feature management this is the default view that we will get so the single entry point will"
 - [4:28](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=268s) "information from business central already so we are defaulting these parameters depending on where you"
+- [5:08](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=308s) "have added this new action called get approver which is the action that is responsible to dynamically fetch the approver"
+- [7:10](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=430s) "a new action here uh that creates the summary for the sales order details using GPT using a prompt"
 - [13:28](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=808s) "a plan to deprecate v2 actions fully in"
 - [14:29](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=869s) "you have this new field API category where you can choose the category and of course you have apis coming from Microsoft the standard"
 - [15:10](https://www.youtube.com/watch?v=V_ZyGeF5JXE&t=910s) "we have plans of deprecating v1.0 apis"

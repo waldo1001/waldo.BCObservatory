@@ -1,0 +1,29 @@
+{
+  "video_id": "dD_2NEs3A40",
+  "item_id": "video/yt-microsoft/dD_2NEs3A40",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 13 quotes check out as verbatim spans. Some cross segment boundaries or differ only in case, which is acceptable. A few are garbled captions, but they are still usable.",
+    "The Field Service Integration description says the integration is 'for projects', which the transcript does not support. The video only says that Field Service integration is now available and points viewers to other sessions.",
+    "Service Area Improvements, Field Service Integration and Timesheet and Data Entry Improvements are only teasers for other sessions in the closing remarks. None of them is demonstrated in this video, so they are dropped.",
+    "'Assemble to Projects' repeats 'Assembly-to-order in projects' and is dropped.",
+    "Added quotes for BOM explosion and multi-project invoicing, which the page did not cover with quotes.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "33a97c0677921eaef328ed2804436940632f66b702015d1979b4496ee989e6bb",
+  "by": "opus",
+  "at": "2026-10-07T23:09:29.388Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "quote at 278s",
+    "quote at 1290s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.131081
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "UTxX4XPLcgQ",
+  "item_id": "video/yt-microsoft/UTxX4XPLcgQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 2 claimed 'Setup is manual'. The transcript only says the demo automations were set up as manual. It explicitly says they can run automatically on a schedule.",
+    "Key point 4 claimed 'The filters must be set up manually', which the transcript does not support.",
+    "Key point 7 generalized to 'level two and later'. The transcript only describes level two as omitting the disregard text.",
+    "The quote at 767.4 is low value and was dropped. Added a quote on the multiple-job pattern behind the automation code filter.",
+    "No feature status is stated in the transcript, so all features stay unclear. The feature management toggle for the new reminder terms layout is not an explicit preview or GA statement.",
+    "The other quotes are verbatim and the summary is supported."
+  ],
+  "input_hash": "e6a04d7025427cc67196f71a68bd9546a7229d66b2c83eab647a95c3b81bdb5c",
+  "by": "opus",
+  "at": "2026-10-07T23:09:49.041Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 313s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.093565
+  }
+}

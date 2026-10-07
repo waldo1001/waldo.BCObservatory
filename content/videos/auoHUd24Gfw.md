@@ -18,12 +18,12 @@ tags:
   - portal mapping
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:18.899Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:18.936Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,6 +79,13 @@ evidence:
     commit: null
     t: 530
     quote: whenever that portal is open it will always use my company as The Bu business Central um uh company to Target
+  - kind: video
+    url: https://www.youtube.com/watch?v=auoHUd24Gfw&t=570s
+    title: "What's New: Using Power Pages with Business Central (2024 release wave 1)"
+    date: "2024-04-04T13:30:01.000Z"
+    commit: null
+    t: 570
+    quote: in the case of power Pages it will actually uh parse the user agent of the power pages and try to pick the
   - kind: video
     url: https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s
     title: "What's New: Using Power Pages with Business Central (2024 release wave 1)"
@@ -195,6 +202,9 @@ quotes:
   - t: 530
     text: whenever that portal is open it will always use my company as The Bu business Central um uh company to Target
     check: snapped
+  - t: 570
+    text: in the case of power Pages it will actually uh parse the user agent of the power pages and try to pick the
+    check: exact
   - t: 835
     text: you can actually go to the URL and then add this uh terms uh undor service slab and then you can actually see here
     check: exact
@@ -204,7 +214,7 @@ quotes:
 
 > Power Pages on Business Central virtual tables in Dataverse, with multi-company support added in 2024 release wave 1. A Dataverse shared execution variable (BC Company ID), set by a custom plugin, overrides the global and user-specific company settings so each portal can target a different company.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=auoHUd24Gfw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=auoHUd24Gfw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,10 +227,10 @@ It then explains the multi-company feature. A custom Dataverse mapping plugin an
 - Anonymous access to Business Central data through Power Pages is read-only and needs no license or sign-in.
 - External users who sign in and register also do not need a license. Internal employees must be licensed as for Business Central.
 - A virtual table plugin can set the BC Company ID shared execution variable to override both the global and the user-specific company setting.
-- The custom mapping plugin must be registered with the plugin registration tool and must intercept at the prevalidation stage.
+- The custom mapping plugin is registered with the plugin registration tool and intercepts at the prevalidation stage, so the shared variable is set before the virtual table plugin uses it.
 - The mapping table links a portal ID to a company. Get the portal ID by appending _services/ to the portal URL.
+- For Power Pages, the mapping plugin parses the portal's user agent to get the portal ID, looks it up in the mapping table and sets BC Company ID.
 - The plugin is triggered when a portal reads a virtualized table such as Sales Invoice, so each portal always targets its mapped company.
-- The demo sets up several Business Central companies and shows different portals each targeting their own company.
 
 ## Chapters
 
@@ -235,16 +245,16 @@ It then explains the multi-company feature. A custom Dataverse mapping plugin an
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Multi-company support through Dataverse shared execution variable | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=auoHUd24Gfw&t=34s) |  |
-| Anonymous read-only access for external users without licensing | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=auoHUd24Gfw&t=151s) |  |
-| Authenticated access for external users after registration | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |  |
-| Authenticated access for internal licensed users | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |  |
-| Custom Dataverse mapping plugin for company targeting | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=auoHUd24Gfw&t=307s) |  |
-| Global company setting for virtual tables | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |  |
-| User-specific company setting override | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |  |
-| Portal ID retrieval from Power Pages URL | status not stated, demoed | [13:55](https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Multi-company support through Dataverse shared execution variable | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=auoHUd24Gfw&t=34s) |
+| Anonymous read-only access for external users without licensing | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=auoHUd24Gfw&t=151s) |
+| Authenticated access for external users after registration | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
+| Authenticated access for internal licensed users | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
+| Custom Dataverse mapping plugin for company targeting | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=auoHUd24Gfw&t=307s) |
+| Global company setting for virtual tables | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
+| User-specific company setting override | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
+| Portal ID retrieval from Power Pages URL | status not stated, demoed | [13:55](https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s) |
 
 ## AL objects mentioned
 
@@ -269,6 +279,7 @@ Not found in BC28-30: table "Sales Invoice virtual table", table "Contacts table
 - [3:32](https://www.youtube.com/watch?v=auoHUd24Gfw&t=212s) "you actually have to be licensed to be able to access a business Central virtual tables in data verse the first two you don't"
 - [7:49](https://www.youtube.com/watch?v=auoHUd24Gfw&t=469s) "whenever there's a site that trying to read a sales invoice table which is virtualized in data verse this plugin will be triggered"
 - [8:50](https://www.youtube.com/watch?v=auoHUd24Gfw&t=530s) "whenever that portal is open it will always use my company as The Bu business Central um uh company to Target"
+- [9:30](https://www.youtube.com/watch?v=auoHUd24Gfw&t=570s) "in the case of power Pages it will actually uh parse the user agent of the power pages and try to pick the"
 - [13:55](https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s) "you can actually go to the URL and then add this uh terms uh undor service slab and then you can actually see here"
 
 ## Disclaimers in the video

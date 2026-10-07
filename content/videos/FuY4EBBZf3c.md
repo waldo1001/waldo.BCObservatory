@@ -2,7 +2,7 @@
 id: video/FuY4EBBZf3c
 type: video
 title: Welcome to Business Central 2024 Release Wave 1
-summary: Welcome to Business Central 2024 Release Wave 1 is a one-minute introduction published 2024-04-02. It says the release wave includes much more Copilot functionality than earlier versions and invites viewers to build with the new capabilities. It gives no feature details.
+summary: Welcome to Business Central 2024 Release Wave 1 is a 39-second welcome clip made of short greetings. It says there is much more Copilot in 2024 release wave 1 and that the team looks forward to what viewers will build with the new capabilities. It gives no feature details, objects or availability status.
 tier: official
 language: en
 tags:
@@ -12,12 +12,12 @@ tags:
   - building extensions
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:20.219Z"
   flags: []
 generated:
-  at: "2026-10-06T19:53:08.449Z"
+  at: "2026-10-07T23:11:20.257Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,9 +84,9 @@ quotes:
 
 # Welcome to Business Central 2024 Release Wave 1
 
-> Welcome to Business Central 2024 Release Wave 1 is a one-minute introduction published 2024-04-02. It says the release wave includes much more Copilot functionality than earlier versions and invites viewers to build with the new capabilities. It gives no feature details.
+> Welcome to Business Central 2024 Release Wave 1 is a 39-second welcome clip made of short greetings. It says there is much more Copilot in 2024 release wave 1 and that the team looks forward to what viewers will build with the new capabilities. It gives no feature details, objects or availability status.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=FuY4EBBZf3c) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-02 · 0:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=FuY4EBBZf3c) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-02 · 0:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -96,11 +96,11 @@ The speaker says there is much more Copilot in 2024 release wave 1 than before. 
 
 ## Key points
 
-- The video covers Business Central 2024 release wave 1 and was published on 2024-04-02.
-- Its main message is that 2024 release wave 1 contains significantly more Copilot functionality than previous versions.
-- The video is about one minute long, with chapters for welcome, Copilot overview and closing remarks.
-- The closing invites viewers to build with the new capabilities, which ties to the building extensions topic.
-- No specific features, objects or status details are given for the Copilot enhancements.
+- The video is a short welcome to Business Central 2024 release wave 1, published on 2024-04-02.
+- Its main message is that there is much more Copilot in 2024 release wave 1.
+- The video is 39 seconds long and consists mostly of greetings and thank-yous.
+- The presenters say they look forward to seeing what viewers will build with the new capabilities.
+- No specific features, objects or status details are given for the Copilot capabilities.
 
 ## Chapters
 
@@ -110,9 +110,9 @@ The speaker says there is much more Copilot in 2024 release wave 1 than before. 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot enhancements in 2024 Release Wave 1 | status not stated | [0:03](https://www.youtube.com/watch?v=FuY4EBBZf3c&t=3s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot enhancements in 2024 Release Wave 1 | status not stated | [0:03](https://www.youtube.com/watch?v=FuY4EBBZf3c&t=3s) |
 
 ## Quotes
 

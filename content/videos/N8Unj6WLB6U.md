@@ -2,7 +2,7 @@
 id: video/N8Unj6WLB6U
 type: video
 title: "What's New: Service Management (2024 release wave 1)"
-summary: "Business Central Service Management changes in 2024 release wave 1, aligned with sales and project areas: service item blocking, attachments, select items, item references, service invoice posting policy, service invoices and credit memos, and service contract invoice deletion. All were demoed."
+summary: "Business Central Service Management changes in 2024 release wave 1, aligning service with sales and projects: a Blocked field on service items, a service toggle on items and variants, attachments across service documents, Select Items and item references, a per-user service invoice posting policy, service invoices and credit memos, and deleting service contract invoices starting from the last one. All of these were demoed."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - number series
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:01.701Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:01.730Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,12 +72,26 @@ evidence:
     t: 754
     quote: it's a it's a limitation uh we have a restrictions because it's linked to Service uh service Ledger entries
   - kind: video
+    url: https://www.youtube.com/watch?v=N8Unj6WLB6U&t=775s
+    title: "What's New: Service Management (2024 release wave 1)"
+    date: "2024-04-04T13:30:10.000Z"
+    commit: null
+    t: 775
+    quote: you can only delete starting from the end because we already have invoice for this Delta
+  - kind: video
     url: https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s
     title: "What's New: Service Management (2024 release wave 1)"
     date: "2024-04-04T13:30:10.000Z"
     commit: null
     t: 823
     quote: this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of
+  - kind: video
+    url: https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s
+    title: "What's New: Service Management (2024 release wave 1)"
+    date: "2024-04-04T13:30:10.000Z"
+    commit: null
+    t: 823
+    quote: redo if something needs to be redone that is like one of the most voted product suggestions so we implemented it
 links:
   learn: []
   objects:
@@ -204,16 +218,22 @@ quotes:
   - t: 754
     text: it's a it's a limitation uh we have a restrictions because it's linked to Service uh service Ledger entries
     check: exact
+  - t: 775
+    text: you can only delete starting from the end because we already have invoice for this Delta
+    check: exact
   - t: 823
     text: this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of
     check: snapped
+  - t: 823
+    text: redo if something needs to be redone that is like one of the most voted product suggestions so we implemented it
+    check: exact
 ---
 
 # What's New: Service Management (2024 release wave 1)
 
-> Business Central Service Management changes in 2024 release wave 1, aligned with sales and project areas: service item blocking, attachments, select items, item references, service invoice posting policy, service invoices and credit memos, and service contract invoice deletion. All were demoed.
+> Business Central Service Management changes in 2024 release wave 1, aligning service with sales and projects: a Blocked field on service items, a service toggle on items and variants, attachments across service documents, Select Items and item references, a per-user service invoice posting policy, service invoices and credit memos, and deleting service contract invoices starting from the last one. All of these were demoed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=N8Unj6WLB6U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 15:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=N8Unj6WLB6U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 15:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -223,13 +243,13 @@ The demo covers a new blocked field on service items, attachments across service
 
 ## Key points
 
-- Service quote numbers are assigned automatically from a number series set in setup, and users cannot change the generated number.
+- When the number series for service quotes is missing, a window now tells you and helps you set it up. If the series is automatic, the number field is hidden and users cannot change or choose the number.
 - Service items have a new Blocked field: block an item completely from maintenance, or only from use in contracts.
-- Blocked service items cannot be added to service contracts.
-- Attachments work across service quotes, orders, items and contracts. They can be copied from master data to service documents and carry through to posted transactions.
-- Service documents now have a Select Items action for adding several items at once, and item references (including barcodes) are available. Scanning needs a warehouse handheld device.
-- Service invoice posting policy is a user-level setting, similar to sales and purchase. Options are shipment only, shipment with invoice, or separate processing, depending on user setup.
-- Service contract invoices linked to service ledger entries must be deleted starting from the last one. Some prepayment invoices may not delete.
+- Blocked service items cannot be added to service contracts. Items also have a service toggle, and variants have similar toggles for service, sales and purchase.
+- Attachments work across service quotes, orders, items and contracts. They can be copied from master data (customer, item, service item) to service documents and carry through to posted transactions.
+- Service documents now have a Select Items action for adding several items at once, and item references (for example barcodes) are available. The demo mentions scanning with a warehouse handheld device.
+- The service invoice posting policy is set in User Setup, similar to sales and purchase. It controls whether invoices are posted separately from shipments or together. With Mandatory, shipment and invoice are posted together.
+- Service contract invoices cannot be changed because they are linked to service ledger entries. They can now be deleted, starting from the last one, and the dates are restored. This was one of the most voted product suggestions.
 
 ## Chapters
 
@@ -243,19 +263,19 @@ The demo covers a new blocked field on service items, attachments across service
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Service Quote Number Series Configuration | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s) |  |
-| Service Item Blocking | status not stated, demoed | [3:51](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=231s) |  |
-| Attachments in Service Documents | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=211s) |  |
-| Item Service Toggle at Variant Level | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=341s) |  |
-| Select Items in Service Documents | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=428s) |  |
-| Item References in Service | status not stated, demoed | [7:29](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=449s) |  |
-| Service Quote to Order Conversion | status not stated, demoed | [8:09](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=489s) |  |
-| Service Invoice Posting Policy | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=570s) |  |
-| Service Invoice and Credit Memo | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s) |  |
-| Service Contract Template | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s) |  |
-| Service Contract Invoice Deletion | status not stated, demoed | [12:14](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=734s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Service Quote Number Series Configuration | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s) |
+| Service Item Blocking | status not stated, demoed | [3:51](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=231s) |
+| Attachments in Service Documents | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=211s) |
+| Item Service Toggle at Variant Level | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=341s) |
+| Select Items in Service Documents | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=428s) |
+| Item References in Service | status not stated, demoed | [7:29](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=449s) |
+| Service Quote to Order Conversion | status not stated, demoed | [8:09](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=489s) |
+| Service Invoice Posting Policy | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=570s) |
+| Service Invoice and Credit Memo | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s) |
+| Service Contract Template | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s) |
+| Service Contract Invoice Deletion | status not stated, demoed | [12:14](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=734s) |
 
 ## AL objects mentioned
 
@@ -280,6 +300,8 @@ Not found in BC28-30: page "Service Item".
 - [4:18](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=258s) "we have a new tole uh field here which is called blocked which allows you to decide how do you want to block specific"
 - [9:57](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=597s) "we added service invoice posting policy uh similar to purchase and sales areas where you can decide on how you want to process uh"
 - [12:34](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=754s) "it's a it's a limitation uh we have a restrictions because it's linked to Service uh service Ledger entries"
+- [12:55](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=775s) "you can only delete starting from the end because we already have invoice for this Delta"
 - [13:43](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s) "this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of"
+- [13:43](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=823s) "redo if something needs to be redone that is like one of the most voted product suggestions so we implemented it"
 
 Presenters (as heard): Andre PCO.

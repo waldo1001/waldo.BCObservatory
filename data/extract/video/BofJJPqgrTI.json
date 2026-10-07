@@ -211,10 +211,10 @@
     {
       "name": "New Excel Reports in Base Application",
       "description": "Seven new Excel preview reports shipped in version 24 with the base application, added to Business Manager and Accountant role centers as examples of translatable reports and Power Query integration patterns.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 632.6,
+      "status_evidence_quote": "they are in preview for because we still need to maybe tweak a few things",
+      "status_evidence_verified": true,
       "t_start": 591.9,
       "t_end": 672.6,
       "is_demoed": true,
@@ -391,6 +391,12 @@
       "t": 282.4,
       "text": "when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will",
       "why_it_matters": "Explains the mechanism of how translation tags are processed on the server side at report execution.",
+      "check": "exact"
+    },
+    {
+      "t": 423.4,
+      "text": "it's already present in version 23.3 but now this is the first time we we we talk about it in the launch",
+      "why_it_matters": "Shows that the translation features shipped in 23.3 and were not new in 2024 release wave 1.",
       "check": "exact"
     },
     {

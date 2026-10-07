@@ -1,0 +1,34 @@
+{
+  "video_id": "3tmaVpPTQLw",
+  "item_id": "video/yt-microsoft/3tmaVpPTQLw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two quotes at t=1588.9 are near-duplicates (the two new order actions); dropped both and re-added one.",
+    "Two quotes at t=1644.6 overlap heavily (unlink and reprocess); dropped both and re-added one.",
+    "Feature 'Synchronize Order and Unlink Actions' duplicates the separate 'Synchronize Order from Shopify Action' and 'Unlink Process Documents Action' features; dropped.",
+    "No transcript statement of preview/GA status; all statuses stay unclear (release wave appears only in the title).",
+    "Minor embellishments in some descriptions (e.g. refunds import 'improves data accuracy', error detection 'particularly for items already paid') are not strongly supported but are left as is.",
+    "Added quotes for the cancel order action, the PO number at B2B checkout, and credit memos created only from refunds with an amount.",
+    "Other quotes verified verbatim; several cross segment boundaries, which is acceptable."
+  ],
+  "input_hash": "1bc888a5089f0597d78f30f77c9088cf33591af07766ca1005a263320d7fe57c",
+  "by": "opus",
+  "at": "2026-10-07T23:11:24.186Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 4 quote(s)",
+    "quote at 1589s",
+    "quote at 1645s",
+    "quote at 1142s",
+    "quote at 1077s",
+    "quote at 1477s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.188989
+  }
+}

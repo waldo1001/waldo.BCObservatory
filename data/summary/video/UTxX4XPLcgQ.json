@@ -5,12 +5,12 @@
   "overview": "The video covers the Financial Management improvements in 2024 release wave 1. It starts with the new Account Receivables Administrator role center, which has navigation for posting sales documents, reminders and reports, cues for the reminder process and automation, and lists of overdue balances and invoices.\n\nIt then shows reminder automation. Reminders are created, issued and sent through batch jobs, either as one automation or as separate steps, and run manually or on a schedule. The video also shows the reminder terms card, where email text, subject lines and attachments are set per reminder level. It ends with a note that more overviews and KPIs are planned for coming releases.",
   "key_points": [
     "Reminder automation has three steps: create reminders, issue reminders, send reminders. They can be combined into one automation or split into separate jobs.",
-    "Jobs can run manually or be scheduled weekly, monthly, on a custom schedule, or by day whenever something needs processing. Setup is manual.",
+    "Jobs can run manually (as in the demo) or be scheduled weekly, monthly, on a custom schedule, or by day whenever something needs processing, so they run fully automatically.",
     "The create step can filter by reminder terms and include only entries with overdue amounts, so not-yet-due open invoices are left out.",
-    "A reminder automation code filter lets several jobs create reminders and separate issue jobs pick up specific groups. The filters must be set up manually.",
+    "A reminder automation code filter lets several jobs create reminders and separate issue jobs pick up specific groups of those reminders.",
     "Reminders can be sent by email with the referenced invoices attached, either all open invoices or only overdue ones.",
-    "The new reminder terms card sets customer communication per level (email text, subject, attachments). It requires the feature to be turned on in feature management.",
-    "Level one can include text to disregard the reminder if the customer has paid. Level two and later do not, since the customer was already reminded."
+    "The new reminder terms card, turned on as a new layout in feature management, sets customer communication per level (email text, subject, attachments).",
+    "Level one can include text telling the customer to disregard the reminder if they already paid. Level two does not, since the customer was already reminded."
   ],
   "audience": [
     "functional consultant",

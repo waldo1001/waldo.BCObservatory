@@ -20,25 +20,18 @@ tags:
   - invoicing flexibility
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:29.388Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:29.431Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: a268008e9b9befcbcab4422ee053cef12496db81f9b0e537c90a306030a472aa
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=1380s
-    title: "Field Service Integration: generally available"
-    date: "2024-04-04T13:30:28.000Z"
-    commit: null
-    t: 1380
-    quote: we also have a Field Service integration Now available As well
   - kind: video
     url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=52s
     title: "What's New: Project Management (2024 release wave 1)"
@@ -53,6 +46,13 @@ evidence:
     commit: null
     t: 123
     quote: Keep some backward capabilities at least in the Search terms Let's Go Here and search for Job
+  - kind: video
+    url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=278s
+    title: "What's New: Project Management (2024 release wave 1)"
+    date: "2024-04-04T13:30:28.000Z"
+    commit: null
+    t: 278
+    quote: We replaced The assembly item with Its components and the quantity is calculated correctly based on quantity specified in the Original item
   - kind: video
     url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=311s
     title: "What's New: Project Management (2024 release wave 1)"
@@ -123,6 +123,13 @@ evidence:
     commit: null
     t: 1289
     quote: This combination to bu To and empty currency is More popular and used in More Demo Projects
+  - kind: video
+    url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=1289s
+    title: "What's New: Project Management (2024 release wave 1)"
+    date: "2024-04-04T13:30:28.000Z"
+    commit: null
+    t: 1289
+    quote: We Can also Select All and Add All of Projects Into The Single invoice
   - kind: video
     url: https://www.youtube.com/watch?v=dD_2NEs3A40&t=1319s
     title: "What's New: Project Management (2024 release wave 1)"
@@ -254,26 +261,6 @@ features:
     t: 1236
     verified: false
     status_source: video
-  - name: Assemble to Projects
-    status: unclear
-    t: 1339
-    verified: false
-    status_source: video
-  - name: Service Area Improvements
-    status: unclear
-    t: 1380
-    verified: false
-    status_source: video
-  - name: Field Service Integration
-    status: ga
-    t: 1380
-    verified: true
-    status_source: video
-  - name: Timesheet and Data Entry Improvements
-    status: unclear
-    t: 1380
-    verified: false
-    status_source: video
 objects_mentioned:
   - page Project Manager rolet Center
   - page Project list
@@ -287,6 +274,9 @@ quotes:
     check: exact
   - t: 123
     text: Keep some backward capabilities at least in the Search terms Let's Go Here and search for Job
+    check: exact
+  - t: 278
+    text: We replaced The assembly item with Its components and the quantity is calculated correctly based on quantity specified in the Original item
     check: exact
   - t: 311
     text: new function Archive Projects which can Create Archive version for I will cck and Here can number have archived versions
@@ -318,6 +308,9 @@ quotes:
   - t: 1289
     text: This combination to bu To and empty currency is More popular and used in More Demo Projects
     check: exact
+  - t: 1289
+    text: We Can also Select All and Add All of Projects Into The Single invoice
+    check: exact
   - t: 1319
     text: you can use other functionality familiar by sales Area such As Select Items explode Bomb archiving orders
     check: exact
@@ -327,7 +320,7 @@ quotes:
 
 > Project management changes in Business Central 2024 release wave 1: Jobs renamed to Projects, project archiving, BOM explosion and assembly-to-order in project lines, warehouse picks for assembly, multiple-customer billing per project task, the Project Task Card, and multi-project invoicing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=dD_2NEs3A40) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:30 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=dD_2NEs3A40) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 23:30 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -361,28 +354,24 @@ It then demos archiving projects and assembly-to-order in projects, including qu
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Jobs renamed to Projects | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=63s) |  |
-| Project details box visible by default | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=151s) |  |
-| Power BI reports in Project list | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=dD_2NEs3A40&t=165s) |  |
-| Location code initialization in project task lines | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=211s) |  |
-| Budget and posting date copying in project lines | status not stated, demoed | [4:10](https://www.youtube.com/watch?v=dD_2NEs3A40&t=250s) |  |
-| BOM explosion in projects | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=dD_2NEs3A40&t=268s) |  |
-| Archive projects | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=dD_2NEs3A40&t=298s) |  |
-| Assembly-to-order in projects | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=dD_2NEs3A40&t=385s) |  |
-| Assembly policy setting in projects | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=434s) |  |
-| Inventory and pick warehousing for assembly | status not stated, demoed | [10:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=614s) |  |
-| Warehouse pick creation for assembly | status not stated, demoed | [11:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=663s) |  |
-| Multiple Customer Billing | status not stated, demoed | [14:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=847s) |  |
-| Price Updates for Different Billing Customers | status not stated, demoed | [16:12](https://www.youtube.com/watch?v=dD_2NEs3A40&t=972s) |  |
-| Project Task Card | status not stated, demoed | [17:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1027s) |  |
-| Currency Handling in Project Invoicing | status not stated, demoed | [18:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1109s) |  |
-| Get Project Planning Lines Function | status not stated, demoed | [20:36](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1236s) |  |
-| Assemble to Projects | status not stated, demoed | [22:19](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1339s) |  |
-| Service Area Improvements | status not stated | [23:00](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1380s) |  |
-| Field Service Integration | generally available | [23:00](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1380s) | "we also have a Field Service integration Now available As well" ([23:00](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1380s)) |
-| Timesheet and Data Entry Improvements | status not stated | [23:00](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1380s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Jobs renamed to Projects | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=63s) |
+| Project details box visible by default | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=151s) |
+| Power BI reports in Project list | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=dD_2NEs3A40&t=165s) |
+| Location code initialization in project task lines | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=211s) |
+| Budget and posting date copying in project lines | status not stated, demoed | [4:10](https://www.youtube.com/watch?v=dD_2NEs3A40&t=250s) |
+| BOM explosion in projects | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=dD_2NEs3A40&t=268s) |
+| Archive projects | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=dD_2NEs3A40&t=298s) |
+| Assembly-to-order in projects | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=dD_2NEs3A40&t=385s) |
+| Assembly policy setting in projects | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=434s) |
+| Inventory and pick warehousing for assembly | status not stated, demoed | [10:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=614s) |
+| Warehouse pick creation for assembly | status not stated, demoed | [11:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=663s) |
+| Multiple Customer Billing | status not stated, demoed | [14:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=847s) |
+| Price Updates for Different Billing Customers | status not stated, demoed | [16:12](https://www.youtube.com/watch?v=dD_2NEs3A40&t=972s) |
+| Project Task Card | status not stated, demoed | [17:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1027s) |
+| Currency Handling in Project Invoicing | status not stated, demoed | [18:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1109s) |
+| Get Project Planning Lines Function | status not stated, demoed | [20:36](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1236s) |
 
 ## AL objects mentioned
 
@@ -401,6 +390,7 @@ Not found in BC28-30: page "Project Manager rolet Center", page "Project list", 
 
 - [0:52](https://www.youtube.com/watch?v=dD_2NEs3A40&t=52s) "We are changing name From Jobs to Projects and for some localizations It's a noticeable change others Will not notice it"
 - [2:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=123s) "Keep some backward capabilities at least in the Search terms Let's Go Here and search for Job"
+- [4:38](https://www.youtube.com/watch?v=dD_2NEs3A40&t=278s) "We replaced The assembly item with Its components and the quantity is calculated correctly based on quantity specified in the Original item"
 - [5:11](https://www.youtube.com/watch?v=dD_2NEs3A40&t=311s) "new function Archive Projects which can Create Archive version for I will cck and Here can number have archived versions"
 - [6:25](https://www.youtube.com/watch?v=dD_2NEs3A40&t=385s) "assembly Pro of used in the engineer to Order scenar When You Need to Build huge and is like Very Very Custom"
 - [7:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=434s) "Because This specific item is configured to use assembly policy AS assemble to Order quantity to assemble gets populated immediately"
@@ -411,6 +401,7 @@ Not found in BC28-30: page "Project Manager rolet Center", page "Project list", 
 - [16:12](https://www.youtube.com/watch?v=dD_2NEs3A40&t=972s) "Prices Get updated so Now Price is actually 222 Because Now we have a different billing customer"
 - [17:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1027s) "card which is Now attached to the each Pro TAS can butt View and edil cck and it op The Project Task Card"
 - [21:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1289s) "This combination to bu To and empty currency is More popular and used in More Demo Projects"
+- [21:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1289s) "We Can also Select All and Add All of Projects Into The Single invoice"
 - [21:59](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1319s) "you can use other functionality familiar by sales Area such As Select Items explode Bomb archiving orders"
 
 ## Disclaimers in the video

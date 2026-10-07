@@ -1,0 +1,35 @@
+{
+  "video_id": "WI_3mjpQ2JU",
+  "item_id": "video/yt-microsoft/WI_3mjpQ2JU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Electronic Filing evidence quote starts at segment 817.4, not 609; evidence_t corrected.",
+    "Future Extensibility of IRS Form Setup marked announced, but the speaker says 'this is not promising'; it also duplicates IRS Setup Naming Convention. Dropped.",
+    "1099 Feature Development from Customer Ideas is a closing remark, not a product feature. Dropped.",
+    "Redesigned 1099 App changed to ga: the transcript says the feature is available in feature management (1244.1) and ships in this major.",
+    "Key point said documents are created from purchase invoices. In the transcript, form documents are created with Create Forms from the IRS reporting period Documents page; purchase invoices only get form and box prefilled. Key point rewritten.",
+    "Description of Form Document Creation from Purchase Invoices mixes the same two steps; noted, not dropped.",
+    "Dropped two closing-remark quotes (2493 about the aka.ms link, 2533.6) that carry no useful information.",
+    "Added a quote on enabling the feature in one company enabling it for all companies."
+  ],
+  "input_hash": "a34932eaca89cc152daeed2d215262d6c1a896e94507425e14c04b4ff3f5dc5a",
+  "by": "opus",
+  "at": "2026-10-07T23:10:50.862Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "Electronic Filing through IRS Platform: status announced",
+    "dropped 3 quote(s)",
+    "quote at 1244s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Redesigned 1099 App -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.23562099999999997
+  }
+}

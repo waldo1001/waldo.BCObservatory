@@ -1,0 +1,26 @@
+{
+  "video_id": "auoHUd24Gfw",
+  "item_id": "video/yt-microsoft/auoHUd24Gfw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes match the transcript verbatim apart from case and punctuation.",
+    "Leaving all feature statuses as unclear. The transcript says Power Pages on virtual tables has been in 'public review' (probably a caption error for 'preview') since 2023 wave 2. It also says multi-company support is being 'introduced' in 2024 wave 1, but it never states a GA or preview status for that feature in clear words.",
+    "The page did not say how the plugin finds the portal ID: it parses the Power Pages user agent. Added a quote and a key point for this.",
+    "The summary and the other key points are supported by the transcript."
+  ],
+  "input_hash": "5da40e9acc2d0ce211ff57120cd111c70d8449623b4c16be7dfaf197cab5d7a1",
+  "by": "opus",
+  "at": "2026-10-07T23:11:18.899Z",
+  "applied": [
+    "quote at 571s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.097629
+  }
+}

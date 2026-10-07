@@ -20,12 +20,12 @@ tags:
   - work order products
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:01.460Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:01.495Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -232,7 +232,7 @@ quotes:
 
 > Dynamics 365 Field Service integration with Business Central (2024 release wave 1): setup, master data sync of resources, project tasks, service items and items, and a demo of work orders flowing through project journals to sales invoices.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ByRoL46n-Gg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 26:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ByRoL46n-Gg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 26:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -268,20 +268,20 @@ The demos follow the data flow. Resources sync to bookable resources, project ta
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Field Service Integration | status not stated, demoed | [0:15](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=15s) |  |
-| Work Order Synchronization | status not stated, demoed | [4:39](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=279s) |  |
-| Resource Synchronization to Bookable Resources | status not stated, demoed | [8:12](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=492s) |  |
-| Service Items Synchronization to Customer Assets | status not stated | [8:33](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=513s) |  |
-| Project Task Integration with Work Orders | status not stated, demoed | [8:33](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=513s) |  |
-| Work Order Product and Service Mappings | status not stated, demoed | [11:42](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=702s) |  |
-| Field Service Product Type Configuration | status not stated, demoed | [9:55](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=595s) |  |
-| Assisted Setup Guide for Field Service Integration | status not stated, demoed | [4:19](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=259s) |  |
-| Resource Booking for Work Orders | status not stated, demoed | [17:29](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1049s) |  |
-| Work Order Consumption and Project Journal Integration | status not stated, demoed | [20:49](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1249s) |  |
-| Work Order Invoicing from Project Journal | status not stated, demoed | [23:45](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1425s) |  |
-| Business Central Price List Transfer to Work Orders | status not stated | [16:11](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=971s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Field Service Integration | status not stated, demoed | [0:15](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=15s) |
+| Work Order Synchronization | status not stated, demoed | [4:39](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=279s) |
+| Resource Synchronization to Bookable Resources | status not stated, demoed | [8:12](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=492s) |
+| Service Items Synchronization to Customer Assets | status not stated | [8:33](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=513s) |
+| Project Task Integration with Work Orders | status not stated, demoed | [8:33](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=513s) |
+| Work Order Product and Service Mappings | status not stated, demoed | [11:42](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=702s) |
+| Field Service Product Type Configuration | status not stated, demoed | [9:55](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=595s) |
+| Assisted Setup Guide for Field Service Integration | status not stated, demoed | [4:19](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=259s) |
+| Resource Booking for Work Orders | status not stated, demoed | [17:29](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1049s) |
+| Work Order Consumption and Project Journal Integration | status not stated, demoed | [20:49](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1249s) |
+| Work Order Invoicing from Project Journal | status not stated, demoed | [23:45](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=1425s) |
+| Business Central Price List Transfer to Work Orders | status not stated | [16:11](https://www.youtube.com/watch?v=ByRoL46n-Gg&t=971s) |
 
 ## AL objects mentioned
 

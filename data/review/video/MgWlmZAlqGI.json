@@ -1,0 +1,28 @@
+{
+  "video_id": "MgWlmZAlqGI",
+  "item_id": "video/yt-microsoft/MgWlmZAlqGI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All quotes are verbatim. Some run on into the next segment, which is acceptable.",
+    "All feature statuses are 'unclear', which is correct: the transcript never states preview or GA status.",
+    "The quote at 15.4 is a generic intro line with no feature information, so it is dropped.",
+    "Key points were missing the details factbox, the copy prompt default, the disabled submit and reopen buttons, and the selected-only approval default. They are added here.",
+    "In the transcript, resource name is described as something managers can bring in through personalization. It is not clearly shown by default. Minor, so the feature description is kept."
+  ],
+  "input_hash": "f5393250fd795a96a86dcc90768d2a64c47cfe5322605a69d18a8696eb5eded0",
+  "by": "opus",
+  "at": "2026-10-07T23:10:17.123Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 196s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09242900000000001
+  }
+}

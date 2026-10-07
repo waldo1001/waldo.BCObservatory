@@ -423,6 +423,18 @@
       "check": "fuzzy"
     },
     {
+      "t": 308.7,
+      "text": "have added this new action called get approver which is the action that is responsible to dynamically fetch the approver",
+      "why_it_matters": "Describes what the new Get Approver action in the approval template does.",
+      "check": "exact"
+    },
+    {
+      "t": 430,
+      "text": "a new action here uh that creates the summary for the sales order details using GPT using a prompt",
+      "why_it_matters": "Describes how the GPT action produces sales order summaries for approvers.",
+      "check": "exact"
+    },
+    {
       "t": 808.1,
       "text": "a plan to deprecate v2 actions fully in",
       "why_it_matters": "Communicates an important timeline for users to migrate their Power Automate flows from V2 to V3 actions.",

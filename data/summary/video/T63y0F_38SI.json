@@ -1,15 +1,16 @@
 {
   "video_id": "T63y0F_38SI",
   "item_id": "video/yt-microsoft/T63y0F_38SI",
-  "summary": "Creating Power Automate flows from inside Business Central by describing the automation in natural language with Copilot, in the 2024 release wave 1. The feature is in preview, was demoed, and at first supports only English Business Central and Power Automate environments based in the USA.",
+  "summary": "Business Central 2024 release wave 1 feature that lets users create Power Automate flows from inside Business Central (Automate menu) by describing the automation in natural language; Copilot/Power Automate suggests the flow steps and the user fills in parameters. It is coming as preview later in the wave, initially only for Business Central set to English and Power Automate environments based in the USA, with other regions to follow.",
   "overview": "The video introduces a Copilot feature that lets users add a Power Automate flow from within Business Central. The user describes what they want to automate, Copilot suggests the flow steps needed, and the user fills in the required parameters to finish the flow.\n\nIt starts with a short overview of the Power Platform and its AI features, then covers the Business Central and Power Automate integration. Power Platform offers more than 70 Business Central templates, which the presenter says is still not enough. A live demo shows flow creation with Copilot, followed by notes on status, availability and related resources.",
   "key_points": [
-    "Create Power Automate Flows with Copilot is in preview, coming later in the 2024 release wave 1.",
-    "Users describe the automation in natural language, Copilot suggests the flow steps, and the user fills in the needed parameters.",
-    "Initially it works only when Business Central is set to English.",
-    "Initially it works only with Power Automate environments based in the USA; other regions will be added later.",
-    "Power Platform provides more than 70 templates for Business Central, but they do not cover every scenario.",
-    "Power Platform has had AI capabilities since 2019."
+    "Create Power Automate Flows with Copilot is coming as preview later in 2024 release wave 1.",
+    "A new action in the Power Automate group / Automate menu lets users create flows using Copilot.",
+    "Users describe the automation in natural language, Power Automate suggests the flow steps and recognizes the needed connections, and the user fills in the missing parameters.",
+    "The demo created a flow that adds an item to a SharePoint list whenever a new product is added in Business Central.",
+    "After creation, the flow can be refined in Power Automate with Copilot chat or by editing advanced parameters.",
+    "Initially it works only when Business Central is set to English and with Power Automate environments based in the USA; other regions will be added later.",
+    "Power Platform provides more than 70 templates for Business Central, but they do not cover every scenario."
   ],
   "audience": [
     "functional consultant",

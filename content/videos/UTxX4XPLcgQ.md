@@ -18,12 +18,12 @@ tags:
   - kpis
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:49.041Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:49.079Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -52,6 +52,13 @@ evidence:
     t: 292
     quote: one of the filters that are very useful to do or to include is a reminder automation code and that means that I will
   - kind: video
+    url: https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=312s
+    title: "What's New: Financial Management - Reminder Automation (2024 release wave 1)"
+    date: "2024-04-04T13:30:25.000Z"
+    commit: null
+    t: 312
+    quote: I can have multiple jobs generating uh reminders and I can have issue reminder jobs that pick groups of uh these reminders
+  - kind: video
     url: https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=369s
     title: "What's New: Financial Management - Reminder Automation (2024 release wave 1)"
     date: "2024-04-04T13:30:25.000Z"
@@ -72,13 +79,6 @@ evidence:
     commit: null
     t: 687
     quote: you can set it set them up individually uh with fees and uh with the due date calculation for the reminder itself but you
-  - kind: video
-    url: https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=767s
-    title: "What's New: Financial Management - Reminder Automation (2024 release wave 1)"
-    date: "2024-04-04T13:30:25.000Z"
-    commit: null
-    t: 767
-    quote: once you have your setup and you decided how it should look like um and be set up in terms of calculations you can
 links:
   learn: []
   objects:
@@ -175,6 +175,9 @@ quotes:
   - t: 292
     text: one of the filters that are very useful to do or to include is a reminder automation code and that means that I will
     check: exact
+  - t: 312
+    text: I can have multiple jobs generating uh reminders and I can have issue reminder jobs that pick groups of uh these reminders
+    check: exact
   - t: 369
     text: the best option is sent by email so it doesn't just get printed out and we've added a new Option so that you can
     check: exact
@@ -184,16 +187,13 @@ quotes:
   - t: 687
     text: you can set it set them up individually uh with fees and uh with the due date calculation for the reminder itself but you
     check: exact
-  - t: 767
-    text: once you have your setup and you decided how it should look like um and be set up in terms of calculations you can
-    check: exact
 ---
 
 # What's New: Financial Management - Reminder Automation (2024 release wave 1)
 
 > Reminder automation in Business Central (2024 release wave 1): batch jobs that create, issue and send reminders on a schedule, plus a new Account Receivables Administrator role center and per-level customer communication in reminder terms. Demoed in a 14-minute walkthrough.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UTxX4XPLcgQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UTxX4XPLcgQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -204,12 +204,12 @@ It then shows reminder automation. Reminders are created, issued and sent throug
 ## Key points
 
 - Reminder automation has three steps: create reminders, issue reminders, send reminders. They can be combined into one automation or split into separate jobs.
-- Jobs can run manually or be scheduled weekly, monthly, on a custom schedule, or by day whenever something needs processing. Setup is manual.
+- Jobs can run manually (as in the demo) or be scheduled weekly, monthly, on a custom schedule, or by day whenever something needs processing, so they run fully automatically.
 - The create step can filter by reminder terms and include only entries with overdue amounts, so not-yet-due open invoices are left out.
-- A reminder automation code filter lets several jobs create reminders and separate issue jobs pick up specific groups. The filters must be set up manually.
+- A reminder automation code filter lets several jobs create reminders and separate issue jobs pick up specific groups of those reminders.
 - Reminders can be sent by email with the referenced invoices attached, either all open invoices or only overdue ones.
-- The new reminder terms card sets customer communication per level (email text, subject, attachments). It requires the feature to be turned on in feature management.
-- Level one can include text to disregard the reminder if the customer has paid. Level two and later do not, since the customer was already reminded.
+- The new reminder terms card, turned on as a new layout in feature management, sets customer communication per level (email text, subject, attachments).
+- Level one can include text telling the customer to disregard the reminder if they already paid. Level two does not, since the customer was already reminded.
 
 ## Chapters
 
@@ -226,16 +226,16 @@ It then shows reminder automation. Reminders are created, issued and sent throug
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Account Receivables Administrator Role Center | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=47s) |  |
-| Reminder Automation with Batch Jobs | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=148s) |  |
-| Reminder Creation with Overdue Amount Filter | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=193s) |  |
-| Reminder Automation Code Filtering | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=252s) |  |
-| Email Sending with Invoice Attachments | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=348s) |  |
-| Automation Scheduling Options | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=389s) |  |
-| Reminder Terms Customer Communication Setup | status not stated, demoed | [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s) |  |
-| Level-Based Email Customization | status not stated, demoed | [10:53](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=653s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Account Receivables Administrator Role Center | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=47s) |
+| Reminder Automation with Batch Jobs | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=148s) |
+| Reminder Creation with Overdue Amount Filter | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=193s) |
+| Reminder Automation Code Filtering | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=252s) |
+| Email Sending with Invoice Attachments | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=348s) |
+| Automation Scheduling Options | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=389s) |
+| Reminder Terms Customer Communication Setup | status not stated, demoed | [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s) |
+| Level-Based Email Customization | status not stated, demoed | [10:53](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=653s) |
 
 ## AL objects mentioned
 
@@ -251,10 +251,10 @@ Not found in BC28-30: page "Account Receivables Administrator Role Center".
 - [0:27](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=27s) "in this release we'll look at the new role Center we have done for account receivables administrators we'll look at the new automation for"
 - [3:33](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=213s) "include only entries with overdue amounts so we will create a reminder it will only contain the overdue amounts"
 - [4:52](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=292s) "one of the filters that are very useful to do or to include is a reminder automation code and that means that I will"
+- [5:12](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=312s) "I can have multiple jobs generating uh reminders and I can have issue reminder jobs that pick groups of uh these reminders"
 - [6:09](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=369s) "the best option is sent by email so it doesn't just get printed out and we've added a new Option so that you can"
 - [6:49](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=409s) "you can set it up to be weekly monthly or a custom schedule and you can even have it like by day and just"
 - [11:27](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=687s) "you can set it set them up individually uh with fees and uh with the due date calculation for the reminder itself but you"
-- [12:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=767s) "once you have your setup and you decided how it should look like um and be set up in terms of calculations you can"
 
 ## Disclaimers in the video
 

@@ -20,12 +20,12 @@ tags:
   - pipeline support
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:09.251Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:09.301Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,7 +66,7 @@ evidence:
     date: "2024-04-04T13:30:07.000Z"
     commit: null
     t: 1871
-    quote: we're working on but uh we and um it's not yet supported to run
+    quote: that we're working on but uh we and um it's not yet supported to run
   - kind: video
     url: https://www.youtube.com/watch?v=B8cWQGwajwQ&t=73s
     title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
@@ -144,13 +144,6 @@ evidence:
     commit: null
     t: 1522
     quote: you can actually parameterize scripts so that's basically the equivalent of setting some variables that you can then use throughout the script to to
-  - kind: video
-    url: https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1596s
-    title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
-    date: "2024-04-04T13:30:07.000Z"
-    commit: null
-    t: 1596
-    quote: when we execute disc script and as I said you can use this uh in the expressions in the UI as well
   - kind: video
     url: https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1637s
     title: "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)"
@@ -372,9 +365,6 @@ quotes:
   - t: 1522
     text: you can actually parameterize scripts so that's basically the equivalent of setting some variables that you can then use throughout the script to to
     check: exact
-  - t: 1596
-    text: when we execute disc script and as I said you can use this uh in the expressions in the UI as well
-    check: snapped
   - t: 1637
     text: you can bundle multiple scripts uh there and the way it works is that um you use a the include command in the script
     check: snapped
@@ -396,7 +386,7 @@ quotes:
 
 > Page Scripting Tool in Business Central, in preview in 2024 release wave 1: recording and playing back user acceptance tests in the web client, with validation steps, YAML scripts, parameters and suites. Covers permissions, sharing, conditional steps and known limitations such as no pipeline execution.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=B8cWQGwajwQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 34:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=B8cWQGwajwQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 34:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -451,7 +441,7 @@ It then covers conditional step branches, optional pages, collapsing nested stru
 | Script Parameters | status not stated, demoed | [25:22](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1522s) |  |
 | Script Suites with Include Command | status not stated, demoed | [26:56](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1616s) |  |
 | Filter-based List Selection | status not stated | [28:37](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1717s) |  |
-| Pipeline Execution for Scripts | announced | [30:51](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1851s) | "we're working on but uh we and um it's not yet supported to run" ([31:11](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1871s)) |
+| Pipeline Execution for Scripts | announced | [30:51](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1851s) | "that we're working on but uh we and um it's not yet supported to run" ([31:11](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1871s)) |
 | Designer and Embedded Content Limitations | status not stated | [31:11](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1871s) |  |
 | Control Identification and Notifications | status not stated | [31:31](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1891s) |  |
 
@@ -480,7 +470,6 @@ Not found in BC28-30: page "Page Inspector", page "Customer", page "Page Scripti
 - [21:30](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1290s) "you can actually also write an expression for very simple calculations and we're using power effect as the expression language"
 - [23:42](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1422s) "the scripts are really stored in the yaml format um and that's like um you know metad driven format for for clients here and"
 - [25:22](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1522s) "you can actually parameterize scripts so that's basically the equivalent of setting some variables that you can then use throughout the script to to"
-- [26:36](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1596s) "when we execute disc script and as I said you can use this uh in the expressions in the UI as well"
 - [27:17](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1637s) "you can bundle multiple scripts uh there and the way it works is that um you use a the include command in the script"
 - [29:50](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1790s) "the tool is in preview now um please give us feedback on yamama and uh on ideas on this"
 - [30:10](https://www.youtube.com/watch?v=B8cWQGwajwQ&t=1810s) "a lot of support for during recording to to change the steps right that hey i want to delete these two and"

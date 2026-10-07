@@ -20,12 +20,12 @@ tags:
   - android
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:45.459Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:45.515Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,12 @@ generated:
   input_hash: a1f9020e35a4d8e713b35e403a742f53c07d3101eef60167b797b9019c97da2a
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=W2yhU8eXT5w&t=49s
+    url: https://www.youtube.com/watch?v=W2yhU8eXT5w&t=70s
     title: "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)"
     date: "2024-04-04T13:30:12.000Z"
     commit: null
-    t: 49
-    quote: in the previous release we have brought to you some new features on the business Central mobile app namely we brought to you the
+    t: 70
+    quote: the worksheet pages on mobile phones are a simplified version of what we already have for desktop and tablet
   - kind: video
     url: https://www.youtube.com/watch?v=W2yhU8eXT5w&t=121s
     title: "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)"
@@ -243,8 +243,8 @@ objects_mentioned:
   - other control adding
   - other request Barcode Scanner a sync
 quotes:
-  - t: 49
-    text: in the previous release we have brought to you some new features on the business Central mobile app namely we brought to you the
+  - t: 70
+    text: the worksheet pages on mobile phones are a simplified version of what we already have for desktop and tablet
     check: exact
   - t: 121
     text: unfortunately due to some uh technical limitations we were not able to make these available on SAS but we did listen to your feedback
@@ -285,7 +285,7 @@ quotes:
 
 > Business Central mobile app and barcode scanning changes in 2024 release wave 1: worksheet pages on phones, camera and laser scanning now on SaaS, a new control add-in based AL API for camera scanning, and warehouse pick UI and gestures. Covers three scanning scenarios with demos and code.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=W2yhU8eXT5w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 27:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=W2yhU8eXT5w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 27:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -322,21 +322,21 @@ Demos show camera scanning in the item journal with serial and lot tracking, con
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Worksheet pages on mobile phones | status not stated | [0:49](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=49s) |  |
-| Native barcode scanning on SaaS | status not stated | [2:01](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=121s) |  |
-| Camera barcode scanning - UI button scenario | status not stated | [3:20](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=200s) |  |
-| Camera barcode scanning - AL API with Control Addin | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=241s) |  |
-| Camera Barcode Scanner provider control addin | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=282s) |  |
-| Item journal barcode scanning demo | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=363s) |  |
-| Continuous barcode scanning | status not stated, demoed | [13:53](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=833s) |  |
-| Dedicated laser barcode scanner integration | status not stated, demoed | [14:13](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=853s) |  |
-| Warehouse pick gestures | status not stated, demoed | [17:14](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1034s) |  |
-| Optimized warehouse pick UI | status not stated, demoed | [18:35](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1115s) |  |
-| Control add-in API for barcode scanning | status not stated, demoed | [23:24](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1404s) |  |
-| Net-based barcode APIs migration path | status not stated | [25:57](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1557s) |  |
-| Location provider via control add-in | status not stated | [26:17](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1577s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Worksheet pages on mobile phones | status not stated | [0:49](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=49s) |
+| Native barcode scanning on SaaS | status not stated | [2:01](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=121s) |
+| Camera barcode scanning - UI button scenario | status not stated | [3:20](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=200s) |
+| Camera barcode scanning - AL API with Control Addin | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=241s) |
+| Camera Barcode Scanner provider control addin | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=282s) |
+| Item journal barcode scanning demo | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=363s) |
+| Continuous barcode scanning | status not stated, demoed | [13:53](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=833s) |
+| Dedicated laser barcode scanner integration | status not stated, demoed | [14:13](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=853s) |
+| Warehouse pick gestures | status not stated, demoed | [17:14](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1034s) |
+| Optimized warehouse pick UI | status not stated, demoed | [18:35](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1115s) |
+| Control add-in API for barcode scanning | status not stated, demoed | [23:24](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1404s) |
+| Net-based barcode APIs migration path | status not stated | [25:57](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1557s) |
+| Location provider via control add-in | status not stated | [26:17](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=1577s) |
 
 ## AL objects mentioned
 
@@ -353,7 +353,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 ## Quotes
 
-- [0:49](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=49s) "in the previous release we have brought to you some new features on the business Central mobile app namely we brought to you the"
+- [1:10](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=70s) "the worksheet pages on mobile phones are a simplified version of what we already have for desktop and tablet"
 - [2:01](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=121s) "unfortunately due to some uh technical limitations we were not able to make these available on SAS but we did listen to your feedback"
 - [3:41](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=221s) "all you have to do is to annotate a field of type code and text with the property extended data type equals barcode once"
 - [4:42](https://www.youtube.com/watch?v=W2yhU8eXT5w&t=282s) "in this release we are bringing you a new alapi based on controll D that is supposed to replace the donet based API and"

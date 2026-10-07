@@ -1,0 +1,38 @@
+{
+  "video_id": "VpNQ-CYNrkM",
+  "item_id": "video/yt-microsoft/VpNQ-CYNrkM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript (the 542.4 quote runs on into the next segment, which is fine).",
+    "SOAP removal evidence starts in segment 690.7, not 678.2. Fixed evidence_t.",
+    "Nine features were marked unclear even though the transcript gives clear status statements. Each now has a status backed by evidence: cookies, the in operator, OData performance, the per-user queue, session optimization, docs, delta links and API schema 2.0 are GA in this wave, and PATCH is announced for a minor release.",
+    "Key point 1 said set cookie works on both the request and response message types. The transcript only says cookies can be set on the request message. Fixed.",
+    "Three requests per user is given as an example of requests running immediately, not as a stated cap. Softened the key point to match. The feature description still says up to three."
+  ],
+  "input_hash": "68ce6ea60d601a39d17a730ab1f24fb92a056021f8db3869e7ef208bee6998b7",
+  "by": "opus",
+  "at": "2026-10-07T23:10:17.247Z",
+  "applied": [
+    "API Version 1 Deprecation: status announced",
+    "SOAP Web Services Removal on Microsoft Pages: status announced",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Cookie Support in HTTP Client -> ga: evidence not verbatim or does not state the status",
+    "status Direct Support for PATCH Method -> announced: evidence not verbatim or does not state the status",
+    "status OData in Operator Support -> ga: evidence not verbatim or does not state the status",
+    "status OData Performance Optimization -> ga: evidence not verbatim or does not state the status",
+    "status Per-User Web Service Request Queue -> ga: evidence not verbatim or does not state the status",
+    "status Session Resource Optimization -> ga: evidence not verbatim or does not state the status",
+    "status Web Services Documentation Expansion -> ga: evidence not verbatim or does not state the status",
+    "status Delta Links Removal -> ga: evidence not verbatim or does not state the status",
+    "status API Schema Version 2.0 Default -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.127041
+  }
+}

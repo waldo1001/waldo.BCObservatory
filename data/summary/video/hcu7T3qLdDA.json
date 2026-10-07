@@ -4,13 +4,13 @@
   "summary": "Business Central features for the Danish Bookkeeping Act (2024 release wave 1): SAF-T export and setup, chart of accounts mapping, VAT submission through the tax API, mandatory digital vouchers, 5-year retention, CVR number blocking and NemHandle registration. Includes a demo of SAF-T setup and voucher attachment.",
   "overview": "The session covers how Business Central meets the Danish Bookkeeping Act (DBA). It states that Business Central is certified by DBA in the first phase from January 1st 2024, as a standard solution, and that customizations affecting bookkeeping or 5-year data retention remove that standard status. The certification applies to the cloud solution; on-premises needs separate certification.\n\nThe demos show the SAF-T setup guide, mapping the company chart of accounts to the public standard chart (57 of 18600 accounts matched automatically), optional VAT posting setup mapping, dimensions export, and file generation with parallel processing for large exports. The session then covers digital vouchers on sales and purchase documents, daily automatic export to secure storage in the cloud, CVR number rules in production, NemHandle registration, and e-documents.",
   "key_points": [
-    "SAF-T setup guide must be enabled in feature management; enabling it in one company enables it for all. All accounts must be mapped to the standard chart, and VAT posting setup mapping is optional.",
-    "Large SAF-T exports need the parallel processing option, which schedules file generation. Regas Basis export to CSV is also available, and SAF-T files can be imported to keep history.",
-    "Digital vouchers: sales invoices get one generated and attached on posting. Purchase documents need a manual attachment, and posting is blocked without it. Voluntary until July 1st, then enforced.",
-    "After posting, the original attachment cannot be removed or changed, but additional attachments can be added.",
-    "Transactions and vouchers are kept at least 5 years. Daily export to secure blob storage is cloud only, and users cannot access that data.",
-    "In production, GL posting is blocked until the CVR number is entered. Once entered it cannot be removed, and the company cannot be deleted. Sandboxes are exempt, and copying a company does not copy the CVR number.",
-    "VAT submission through the tax API to SKAT: the cloud uses a pre-installed Microsoft certificate, while on-premises needs the customer's own SKAT certificate. The NemHandle notification cannot be disabled in production."
+    "Business Central is certified by the DBA from January 1st 2024 as a standard solution, for the cloud only. On-premises is not certified, and customizations or ISV apps that affect bookkeeping must be certified by the partner.",
+    "The SAF-T feature is enabled from feature management, and enabling it in one company enables it for all. All accounts must be mapped to the standard chart of accounts. VAT posting setup mapping is optional.",
+    "SAF-T export produces master data, GL entries and source documents files. For big exports, the parallel processing option can schedule file generation. You can also export Regnskab Basis data to CSV and import SAF-T files to keep history.",
+    "Digital vouchers: sales invoices get one generated and attached automatically on posting. Purchase documents need a manual attachment, and posting is blocked without it. This is voluntary until July 1st and enforced after that.",
+    "After posting, the original attachment cannot be removed or updated, but you can add more attachments.",
+    "Transactions and vouchers are kept for at least 5 years through a daily export to secure blob storage. This applies to the cloud only, and users cannot access that data.",
+    "In production, GL posting is blocked until the CVR number is entered. Once entered, it cannot be removed and the company cannot be deleted. Sandboxes are exempt, and copying a company does not copy the CVR number."
   ],
   "audience": [
     "functional consultant",

@@ -16,12 +16,12 @@ tags:
   - api schema version
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:17.247Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:17.311Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,14 +34,14 @@ evidence:
     date: "2024-04-04T13:30:20.000Z"
     commit: null
     t: 664
-    quote: In a later version, version 26 or later, API version 1 will be removed.
+    quote: in a later version, version 26 or later, API version 1 will be removed.
   - kind: video
     url: https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=690s
     title: "SOAP Web Services Removal on Microsoft Pages: announced"
     date: "2024-04-04T13:30:20.000Z"
     commit: null
     t: 690
-    quote: SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release.
+    quote: SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release
   - kind: video
     url: https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=30s
     title: "What's New: Web Services in Business Central (2024 release wave 1)"
@@ -217,7 +217,7 @@ quotes:
 
 > Web services changes in Business Central 2024 release wave 1: cookie support in the HTTP client, OData in operator and find-logic performance work, a per-user web service request queue, and breaking changes (delta links removed, API schema 2.0 default, API v1 and SOAP on Microsoft pages to be removed later).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VpNQ-CYNrkM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VpNQ-CYNrkM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -227,10 +227,10 @@ The video also covers expanded web services documentation, an internal session o
 
 ## Key points
 
-- The HTTP client has a new cookie data type and methods to use response cookies, get cookie names, get a cookie, and set a cookie on request and response message data types.
+- The HTTP client has a new cookie data type and a use response cookies method. Get cookie names and get cookie are available on the response and request message types, and cookies can be set or removed on the request message.
 - Direct PATCH support in the HTTP client was not in this wave. It is expected in a minor release afterwards.
 - OData supports the in operator as shorter notation for several equals conditions. OData uses find first for one row, find for 2 to 50 rows, and find set for more than 50 rows.
-- The web service queue changed from a global queue of five requests per tenant to a queue per user. Each user can run up to three requests immediately.
+- The web service queue changed from a global queue of five requests per tenant to a queue per user. For example, if a user has three requests, they are executed immediately without waiting behind other users.
 - The global service protection limit still applies, so HTTP 429 responses are possible. When the limit is reached it is applied round robin.
 - Delta links with APIs are removed, so setting OData track changes in the HTTP header has no effect. API schema version now defaults to 2.0, and older versions can be set in the HTTP header.
 - API version 1 will be removed in version 26 or later. SOAP web services on Microsoft-owned pages will be removed in a later release, so plan migration to OData and newer API versions.
@@ -258,8 +258,8 @@ The video also covers expanded web services documentation, an internal session o
 | Web Services Documentation Expansion | status not stated | [9:49](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=589s) |  |
 | Delta Links Removal | status not stated | [10:37](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=637s) |  |
 | API Schema Version 2.0 Default | status not stated | [10:50](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=650s) |  |
-| API Version 1 Deprecation | announced | [11:04](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=664s) | "In a later version, version 26 or later, API version 1 will be removed." ([11:04](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=664s)) |
-| SOAP Web Services Removal on Microsoft Pages | announced | [11:18](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=678s) | "SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release." ([11:30](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=690s)) |
+| API Version 1 Deprecation | announced | [11:04](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=664s) | "in a later version, version 26 or later, API version 1 will be removed." ([11:04](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=664s)) |
+| SOAP Web Services Removal on Microsoft Pages | announced | [11:18](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=678s) | "SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release" ([11:30](https://www.youtube.com/watch?v=VpNQ-CYNrkM&t=690s)) |
 
 ## AL objects mentioned
 

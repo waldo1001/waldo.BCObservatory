@@ -522,26 +522,6 @@
       "system": "sales"
     },
     {
-      "name": "Synchronize Order and Unlink Actions",
-      "description": "Two main actions for handling already-processed orders that receive edits: Synchronize Order to detect errors, and Unlink Process Documents to reset and reprocess from Shopify.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1498,
-      "t_end": 1664.9,
-      "is_demoed": true,
-      "caveats": [
-        "requires manual decision on company processes when conflicts occur"
-      ],
-      "tags": [
-        "order-management",
-        "synchronization",
-        "error-handling"
-      ],
-      "system": "integration"
-    },
-    {
       "name": "Order Error Detection for Received Edits",
       "description": "The system now detects when an order has been processed but receives an addition or edit that impacts the order amount, particularly for items that have already been paid.",
       "status": "unclear",
@@ -769,9 +749,27 @@
       "check": "exact"
     },
     {
+      "t": 1076.8,
+      "text": "before I will submit order I can also enter the p number so this is also a special field for B2B checkout",
+      "why_it_matters": "Shows the PO number field in B2B checkout, which is transferred to Business Central.",
+      "check": "exact"
+    },
+    {
       "t": 1121.9,
       "text": "although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned",
       "why_it_matters": "Explains the key distinction between B2B and D2C orders and how they are tracked separately.",
+      "check": "exact"
+    },
+    {
+      "t": 1142.3,
+      "text": "with a new action uh cancel order I can cancel it uh notify the customer",
+      "why_it_matters": "Supports the new Cancel Order action in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1477.4,
+      "text": "we uh make sure that we have an actual amount and we can create link the appropriate credit memo",
+      "why_it_matters": "Supports credit memo creation only from refunds that have an actual amount.",
       "check": "exact"
     },
     {
@@ -782,26 +780,14 @@
     },
     {
       "t": 1588.9,
-      "text": "we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink",
-      "why_it_matters": "Documents the main capabilities for handling post-processing order edits from Shopify in Business Central.",
-      "check": "exact"
-    },
-    {
-      "t": 1588.9,
       "text": "one is synchronized order from Shopify and the other one is onlink process documents",
-      "why_it_matters": "Lists the two main user actions provided to resolve order conflicts.",
-      "check": "exact"
-    },
-    {
-      "t": 1644.6,
-      "text": "forget what I had before and I want to reprocess this again and it will be processed as new and it will just have",
-      "why_it_matters": "Explains how the Unlink action allows Business Central to reset and reprocess Shopify orders from scratch.",
+      "why_it_matters": "Names the two new actions for resolving orders that were edited in Shopify after processing.",
       "check": "exact"
     },
     {
       "t": 1644.6,
       "text": "unlink okay so this is basically saying forget what I had before and I want to reprocess this again and it will be processed",
-      "why_it_matters": "Describes the unlink action design that lets users reset and reprocess orders as if new.",
+      "why_it_matters": "Explains what the Unlink Process Documents action does.",
       "check": "exact"
     },
     {

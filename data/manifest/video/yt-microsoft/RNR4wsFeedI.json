@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=RNR4wsFeedI",
   "published_at": "2024-04-04T13:30:12.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T19:49:32.805Z",
+      "at": "2026-10-07T23:10:47.959Z",
       "path": "content/videos/RNR4wsFeedI.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:10:47.919Z",
+      "path": "data/review/video/RNR4wsFeedI.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 8,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.12308499999999999
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cec82b4a8b4812798c3626e459e695b83c3fb297aef159a85efae046a3863f70"
+  "output_hash": "48c01bfdb4c5a4391b218ea7148d3a66f09d69dc77be6001aa7e7813e34dd4b2",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:10:47.909Z"
+  }
 }

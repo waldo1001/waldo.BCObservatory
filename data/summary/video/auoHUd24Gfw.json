@@ -7,10 +7,10 @@
     "Anonymous access to Business Central data through Power Pages is read-only and needs no license or sign-in.",
     "External users who sign in and register also do not need a license. Internal employees must be licensed as for Business Central.",
     "A virtual table plugin can set the BC Company ID shared execution variable to override both the global and the user-specific company setting.",
-    "The custom mapping plugin must be registered with the plugin registration tool and must intercept at the prevalidation stage.",
+    "The custom mapping plugin is registered with the plugin registration tool and intercepts at the prevalidation stage, so the shared variable is set before the virtual table plugin uses it.",
     "The mapping table links a portal ID to a company. Get the portal ID by appending _services/ to the portal URL.",
-    "The plugin is triggered when a portal reads a virtualized table such as Sales Invoice, so each portal always targets its mapped company.",
-    "The demo sets up several Business Central companies and shows different portals each targeting their own company."
+    "For Power Pages, the mapping plugin parses the portal's user agent to get the portal ID, looks it up in the mapping table and sets BC Company ID.",
+    "The plugin is triggered when a portal reads a virtualized table such as Sales Invoice, so each portal always targets its mapped company."
   ],
   "audience": [
     "developer",

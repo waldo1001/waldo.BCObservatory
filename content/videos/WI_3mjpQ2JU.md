@@ -20,12 +20,12 @@ tags:
   - tax compliance
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:50.862Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:50.909Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,14 +38,7 @@ evidence:
     date: "2024-04-04T13:30:14.000Z"
     commit: null
     t: 817
-    quote: irs through iris uh portal will come in next few minors uh now i cannot promise exactly uh date
-  - kind: video
-    url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2371s
-    title: "Future Extensibility of IRS Form Setup: announced"
-    date: "2024-04-04T13:30:14.000Z"
-    commit: null
-    t: 2371
-    quote: we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me
+    quote: this black box uh connection with uh IRS through Iris uh portal will come in next few minors
   - kind: video
     url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=97s
     title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
@@ -131,6 +124,13 @@ evidence:
     t: 1183
     quote: by default you can print original tetin uh your company te and your vendor team that's okay but you can use a setup to
   - kind: video
+    url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1244s
+    title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
+    date: "2024-04-04T13:30:14.000Z"
+    commit: null
+    t: 1244
+    quote: after you enable the feature in the feature Management in one company uh it is basically enabled for all the companies
+  - kind: video
     url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1501s
     title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
     date: "2024-04-04T13:30:14.000Z"
@@ -193,27 +193,6 @@ evidence:
     commit: null
     t: 2391
     quote: so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only
-  - kind: video
-    url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2493s
-    title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
-    date: "2024-04-04T13:30:14.000Z"
-    commit: null
-    t: 2493
-    quote: this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better
-  - kind: video
-    url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2493s
-    title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
-    date: "2024-04-04T13:30:14.000Z"
-    commit: null
-    t: 2493
-    quote: we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc
-  - kind: video
-    url: https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2533s
-    title: "What's New: Automated IRS1099 Reporting (2024 release wave 1)"
-    date: "2024-04-04T13:30:14.000Z"
-    commit: null
-    t: 2533
-    quote: what is important you will have this time you will have enough time to watch all this videos so you will collect what is
 links:
   learn: []
   objects:
@@ -468,16 +447,6 @@ features:
     t: 2352
     verified: false
     status_source: video
-  - name: Future Extensibility of IRS Form Setup
-    status: announced
-    t: 2352
-    verified: true
-    status_source: video
-  - name: 1099 Feature Development from Customer Ideas
-    status: unclear
-    t: 2472
-    verified: false
-    status_source: video
 objects_mentioned:
   - table 1089 Setup
   - table IRS Setup
@@ -531,6 +500,9 @@ quotes:
   - t: 1183
     text: by default you can print original tetin uh your company te and your vendor team that's okay but you can use a setup to
     check: exact
+  - t: 1244
+    text: after you enable the feature in the feature Management in one company uh it is basically enabled for all the companies
+    check: exact
   - t: 1501
     text: you have the special action that is called copy setup prom uh so once you created the period you click copy set set up
     check: snapped
@@ -558,22 +530,13 @@ quotes:
   - t: 2391
     text: so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only
     check: exact
-  - t: 2493
-    text: this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better
-    check: snapped
-  - t: 2493
-    text: we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc
-    check: exact
-  - t: 2533
-    text: what is important you will have this time you will have enough time to watch all this videos so you will collect what is
-    check: snapped
 ---
 
 # What's New: Automated IRS1099 Reporting (2024 release wave 1)
 
 > Redesigned US-only 1099 reporting app in Business Central (2024 release wave 1): multi-year IRS setup, document-based 1099 forms, PDF copy substitutions, email delivery to consenting vendors, and legacy data transfer. Direct electronic filing to the IRS is announced for later minor releases, not included at first.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WI_3mjpQ2JU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 42:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WI_3mjpQ2JU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 42:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -586,9 +549,9 @@ The demo covers enabling the feature and transferring legacy data, copying setup
 - The feature is for the United States market only. Electronic filing through the IRS platform via APIs is announced for the next few minor releases, with no firm date because it depends on IRS confirmation.
 - Until electronic submission exists, the Mark Submitted action is used so documents can be printed and mailed. A later Submit action is meant to replace it.
 - IRS setup now has reporting periods with start and end dates and one active period. Different years can be maintained in parallel, and a Copy Setup action copies forms, form boxes, vendor setup, adjustments and statement lines from a prior period.
-- Moving legacy 1099 data uses feature management. It is a one-way process, and the data is not mapped one-to-one. New customers can instead start with default data.
-- Each 1099 form document covers a single form type, for example miscellaneous and nonemployee compensation cannot be mixed. Documents are created from purchase invoices, and the Replace option recreates them after ledger changes.
-- The Including 1099 field on form document lines shows whether an amount reaches the minimum reportable amount. The Propagate action applies vendor form box setup to existing vendor ledger entries.
+- The new app is enabled in feature management or the assisted setup. Enabling it in one company enables it for all companies. Moving legacy 1099 data is a one-way process and is not mapped one-to-one. New customers can instead start with default data.
+- Each 1099 form document covers a single form type, for example miscellaneous and nonemployee compensation cannot be mixed. Purchase invoices get form and form box prefilled from vendor setup. Form documents are created with Create Forms from the reporting period, and the Replace option recreates them after ledger changes.
+- The Including 1099 field on form document lines shows whether an amount reaches the minimum reportable amount. The Propagate action applies vendor form box setup to existing purchase documents and vendor ledger entries.
 - Copy B, Copy C and Copy 2 print on plain paper as substitutions, so pre-printed IRS forms are not needed. Email delivery requires vendor consent and an email address, and the TIN can be masked to the last four digits.
 
 ## Chapters
@@ -626,7 +589,7 @@ The demo covers enabling the feature and transferring legacy data, copying setup
 | Multi-Year IRS Setup | status not stated | [8:07](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=487s) |  |
 | 1099 Forms with Document Headers and Lines | status not stated | [9:08](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=548s) |  |
 | 1099 Forms History and Retention Policy | status not stated | [9:49](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=589s) |  |
-| Electronic Filing through IRS Platform | announced | [10:09](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=609s) | "irs through iris uh portal will come in next few minors uh now i cannot promise exactly uh date" ([13:37](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=817s)) |
+| Electronic Filing through IRS Platform | announced | [10:09](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=609s) | "this black box uh connection with uh IRS through Iris uh portal will come in next few minors" ([13:37](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=817s)) |
 | PDF Copy Substitution for 1099 Forms | status not stated | [11:10](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=670s) |  |
 | 1099 Layout Customization | status not stated | [11:46](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=706s) |  |
 | Automated Email Distribution to Vendors | status not stated | [12:57](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=777s) |  |
@@ -658,8 +621,6 @@ The demo covers enabling the feature and transferring legacy data, copying setup
 | Email 1099 Forms to Vendors | status not stated, demoed | [36:14](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2174s) |  |
 | Configurable Email Subject and Body for 1099 Forms | status not stated, demoed | [37:15](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2235s) |  |
 | IRS Setup Naming Convention | status not stated | [39:12](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2352s) |  |
-| Future Extensibility of IRS Form Setup | announced | [39:12](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2352s) | "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me" ([39:31](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2371s)) |
-| 1099 Feature Development from Customer Ideas | status not stated | [41:12](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2472s) |  |
 
 ## AL objects mentioned
 
@@ -697,6 +658,7 @@ Not found in BC28-30: table "1089 Setup", table "IRS Setup", page "1089 Layout S
 - [17:11](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1031s) "one form for is one document and you have more form boxes and it means one more for example you have miscellanous and yes"
 - [18:12](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1092s) "you will not print original preprinted form by IRS so you will not order uh from IRS uh original forms anymore"
 - [19:43](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1183s) "by default you can print original tetin uh your company te and your vendor team that's okay but you can use a setup to"
+- [20:44](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1244s) "after you enable the feature in the feature Management in one company uh it is basically enabled for all the companies"
 - [25:01](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1501s) "you have the special action that is called copy setup prom uh so once you created the period you click copy set set up"
 - [26:23](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1583s) "you don't need to add all the vendors here manually as you can imagine you can have thousands of vendors"
 - [28:00](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=1680s) "you have the action that is called propagate uh so you choose your vendor setup uh the dates will be taken from the reporting"
@@ -706,9 +668,6 @@ Not found in BC28-30: table "1089 Setup", table "IRS Setup", page "1089 Layout S
 - [34:32](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2072s) "instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be"
 - [39:31](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2371s) "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me"
 - [39:51](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2391s) "so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only"
-- [41:33](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2493s) "this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better"
-- [41:33](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2493s) "we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc"
-- [42:13](https://www.youtube.com/watch?v=WI_3mjpQ2JU&t=2533s) "what is important you will have this time you will have enough time to watch all this videos so you will collect what is"
 
 ## Disclaimers in the video
 

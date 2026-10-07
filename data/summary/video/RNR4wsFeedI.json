@@ -4,13 +4,13 @@
   "summary": "Business Central 2024 release wave 1 user experience changes: the modern action bar becomes mandatory, a new date picker, actions on platform-generated errors, error sharing via Teams and email, help and support page improvements, and worksheet access on the mobile client.",
   "overview": "This 14-minute video from the Business Central team covers productivity-focused user experience changes in 2024 release wave 1. It walks through the modern action bar becoming mandatory, with a new copilot icon and layout tweaks, and a new date picker aligned with other Microsoft products.\n\nIt also covers error handling: legacy platform-generated errors get navigate actions, and users can share error details through Teams or email. Help and support page improvements, updated keyboard shortcut PDFs and mobile worksheet access are included, followed by a live demo. Multiple file uploads, planned for the April release, was postponed to an upcoming minor release.",
   "key_points": [
-    "The modern action bar, introduced three releases earlier, is mandatory in 2024 release wave 1. Users can opt out individually in My Settings, and admins can disable it for all users.",
-    "A one-time call out explaining the action bar change is shown to existing users who have teaching tips enabled, in existing production environments.",
-    "Action bar enhancements: new copilot icon, spared captions to save space, and an optimized layout with flexible personalization and a split button.",
-    "Platform-generated errors from legacy code get automatic navigate actions with no extra developer effort. The actions appear when the user has permissions.",
-    "Error details can be shared via Teams or email, and are copied to the clipboard automatically. This helps when a user lacks permissions or needs help from a colleague or admin.",
-    "The help and support page lets users copy tenant, environment, session and user details easily, which helps partners managing multiple customers.",
-    "Multiple file uploads, planned for the April release, was postponed and is coming in an upcoming minor release."
+    "The mobile client now gives access to worksheet pages from version 24, showing header, line, fact box and footer details.",
+    "The modern action bar, introduced three releases earlier, is mandatory in 2024 release wave 1. Users can switch back to the legacy action bar in My Settings, and admins can switch it for users.",
+    "A one-time call out explaining the action bar change is shown to existing users who have teaching tips enabled, in existing production environments and companies. For new users the modern action bar is on by default.",
+    "The 2024 release wave 1 action bar adds a new copilot icon, shorter captions to save space, and a new analysis mode icon. Flexible personalization and the split button were added three releases earlier.",
+    "A new date picker control works like the ones in other Microsoft products such as Word and Excel, making it easier to find dates far in the past or future.",
+    "Platform-generated errors from legacy code get automatic navigate actions with no extra developer effort. The actions help when the user has permissions to fix the error.",
+    "Error details can be shared via Teams or email, and are copied to the clipboard automatically. This helps when a user lacks permissions or needs help from a colleague or admin."
   ],
   "audience": [
     "end user",

@@ -1,16 +1,16 @@
 {
   "video_id": "N8Unj6WLB6U",
   "item_id": "video/yt-microsoft/N8Unj6WLB6U",
-  "summary": "Business Central Service Management changes in 2024 release wave 1, aligned with sales and project areas: service item blocking, attachments, select items, item references, service invoice posting policy, service invoices and credit memos, and service contract invoice deletion. All were demoed.",
+  "summary": "Business Central Service Management changes in 2024 release wave 1, aligning service with sales and projects: a Blocked field on service items, a service toggle on items and variants, attachments across service documents, Select Items and item references, a per-user service invoice posting policy, service invoices and credit memos, and deleting service contract invoices starting from the last one. All of these were demoed.",
   "overview": "The video (16 minutes, published 2024-04-04) walks through Service Management updates in 2024 release wave 1. The stated aim is to align the service experience with sales and project areas. It follows a flow from service quote setup and number series, through service items, quote-to-order conversion, posting, and service contracts.\n\nThe demo covers a new blocked field on service items, attachments across service documents, item selection and item references in service documents, a user-level service invoice posting policy, service invoice and credit memo documents, and contract templates with invoice deletion. It also notes limits, such as the order in which contract invoices can be deleted.",
   "key_points": [
-    "Service quote numbers are assigned automatically from a number series set in setup, and users cannot change the generated number.",
+    "When the number series for service quotes is missing, a window now tells you and helps you set it up. If the series is automatic, the number field is hidden and users cannot change or choose the number.",
     "Service items have a new Blocked field: block an item completely from maintenance, or only from use in contracts.",
-    "Blocked service items cannot be added to service contracts.",
-    "Attachments work across service quotes, orders, items and contracts. They can be copied from master data to service documents and carry through to posted transactions.",
-    "Service documents now have a Select Items action for adding several items at once, and item references (including barcodes) are available. Scanning needs a warehouse handheld device.",
-    "Service invoice posting policy is a user-level setting, similar to sales and purchase. Options are shipment only, shipment with invoice, or separate processing, depending on user setup.",
-    "Service contract invoices linked to service ledger entries must be deleted starting from the last one. Some prepayment invoices may not delete."
+    "Blocked service items cannot be added to service contracts. Items also have a service toggle, and variants have similar toggles for service, sales and purchase.",
+    "Attachments work across service quotes, orders, items and contracts. They can be copied from master data (customer, item, service item) to service documents and carry through to posted transactions.",
+    "Service documents now have a Select Items action for adding several items at once, and item references (for example barcodes) are available. The demo mentions scanning with a warehouse handheld device.",
+    "The service invoice posting policy is set in User Setup, similar to sales and purchase. It controls whether invoices are posted separately from shipments or together. With Mandatory, shipment and invoice are posted together.",
+    "Service contract invoices cannot be changed because they are linked to service ledger entries. They can now be deleted, starting from the last one, and the dates are restored. This was one of the most voted product suggestions."
   ],
   "audience": [
     "functional consultant",

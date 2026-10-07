@@ -1,0 +1,30 @@
+{
+  "video_id": "-q8Gm7u7R2A",
+  "item_id": "video/yt-microsoft/-q8Gm7u7R2A",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 19 quotes are verbatim in the transcript. Some run on into the next segment, which is allowed.",
+    "Two statuses are stated in the transcript but were left as unclear. Virtual Tables reached general availability in 23 wave 2 (t=1107.5). Business Events was released in public preview in 23 wave 1 (t=1847.1).",
+    "A key point said the mapping plugin 'must' be registered with the plugin registration tool. The transcript only says you 'can' use that tool, so the wording is softened.",
+    "A key point said synthetic relationships require a configured virtual table API page. The transcript only shows that the API page supplies the list of fields to pick, so the wording is softened.",
+    "Two feature pairs overlap: Business Events UI Pages with Business Event Subscription Page, and Enhanced Custom Dimensions with Partner Telemetry. Both are supported, so they are kept.",
+    "The description of Partner Telemetry via Application Insights says 'real-time', which the transcript does not state. This is minor."
+  ],
+  "input_hash": "1616e1a7d808ed1bc7990fff2b837bb53f82c91d04cdfee68089a2042efa3d35",
+  "by": "opus",
+  "at": "2026-10-07T23:11:24.337Z",
+  "applied": [
+    "Virtual Tables: status ga",
+    "Business Events: status preview",
+    "quote at 1847s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.178609
+  }
+}

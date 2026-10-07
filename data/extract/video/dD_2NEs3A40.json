@@ -377,75 +377,6 @@
         "project-planning"
       ],
       "system": "projects"
-    },
-    {
-      "name": "Assemble to Projects",
-      "description": "Assembly functionality now works with projects similar to sales, providing flexibility for assembly-to-order scenarios in project context.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1339.9,
-      "t_end": 1360.2,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "assembly",
-        "project",
-        "assemble-to-order"
-      ],
-      "system": "assembly"
-    },
-    {
-      "name": "Service Area Improvements",
-      "description": "Improvements made to the service area functionality in this release wave.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1380.4,
-      "t_end": 1402.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "service",
-        "improvements"
-      ],
-      "system": "service"
-    },
-    {
-      "name": "Field Service Integration",
-      "description": "Field Service integration is now available for projects.",
-      "status": "ga",
-      "status_evidence_t": 1380.4,
-      "status_evidence_quote": "we also have a Field Service integration Now available As well",
-      "status_evidence_verified": true,
-      "t_start": 1380.4,
-      "t_end": 1402.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "field-service",
-        "integration"
-      ],
-      "system": "service"
-    },
-    {
-      "name": "Timesheet and Data Entry Improvements",
-      "description": "Group of improvements related to timesheet and data entry functionality.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1380.4,
-      "t_end": 1402.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "timesheet",
-        "data-entry"
-      ],
-      "system": "projects"
     }
   ],
   "objects": [
@@ -497,6 +428,12 @@
       "t": 123.7,
       "text": "Keep some backward capabilities at least in the Search terms Let's Go Here and search for Job",
       "why_it_matters": "Shows backward compatibility maintained for existing users accustomed to Job terminology",
+      "check": "exact"
+    },
+    {
+      "t": 278,
+      "text": "We replaced The assembly item with Its components and the quantity is calculated correctly based on quantity specified in the Original item",
+      "why_it_matters": "Describes how BOM explosion behaves on project lines.",
       "check": "exact"
     },
     {
@@ -557,6 +494,12 @@
       "t": 1289.5,
       "text": "This combination to bu To and empty currency is More popular and used in More Demo Projects",
       "why_it_matters": "Indicates the most common project invoicing pattern used in demonstrations and typical scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1289.5,
+      "text": "We Can also Select All and Add All of Projects Into The Single invoice",
+      "why_it_matters": "Shows that Get Project Planning Lines can bill several projects on one invoice.",
       "check": "exact"
     },
     {

@@ -97,9 +97,9 @@
     {
       "name": "Accounts receivable aging report",
       "description": "Excel report showing customer aging with filtering by due date, period length and count. Offers multiple views by period, local currency, functional currency, and breakdown by currency. Includes detail per customer per period with dimensional breakdown.",
-      "status": "ga",
-      "status_evidence_t": 583.5,
-      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status": "preview",
+      "status_evidence_t": 78.1,
+      "status_evidence_quote": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional",
       "status_evidence_verified": true,
       "t_start": 352.8,
       "t_end": 523,
@@ -119,9 +119,9 @@
     {
       "name": "Customer top list report",
       "description": "Simple Excel report showing top customers by sales or balance with included chart. Allows customization of top count (e.g. top 100 instead of just top 10) and filtering.",
-      "status": "ga",
-      "status_evidence_t": 583.5,
-      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status": "preview",
+      "status_evidence_t": 78.1,
+      "status_evidence_quote": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional",
       "status_evidence_verified": true,
       "t_start": 352.8,
       "t_end": 424.7,
@@ -138,9 +138,9 @@
     {
       "name": "Accounts payable aging report",
       "description": "Excel report for vendor aging showing payable aging by due date with period length and count filtering. Includes ability to skip vendors with zero balance. Multiple worksheets show printable format and aggregated data views.",
-      "status": "ga",
-      "status_evidence_t": 583.5,
-      "status_evidence_quote": "in this release in in in the first wave uh April wave we have released eight reports",
+      "status": "preview",
+      "status_evidence_t": 78.1,
+      "status_evidence_quote": "they are marked with preview for now because we might have some design changes we want to do but they're fully functional",
       "status_evidence_verified": true,
       "t_start": 352.8,
       "t_end": 523,
@@ -162,7 +162,7 @@
       "description": "Copilot integration with Excel reports for deeper data analysis. Allows users to ask questions about data, identify patterns and insights. Features outlier detection using machine learning to identify suspicious patterns in datasets.",
       "status": "preview",
       "status_evidence_t": 720.7,
-      "status_evidence_quote": "right now in preview as of April or March 2024",
+      "status_evidence_quote": "right now in preview as of April or March 2024 U there's also new things coming in Excel",
       "status_evidence_verified": true,
       "t_start": 720.7,
       "t_end": 900.1,
@@ -279,6 +279,12 @@
       "text": "we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there",
       "why_it_matters": "Shows how aggregated data is structured with dimensional breakdown to enable slicing and dicing.",
       "check": "snapped"
+    },
+    {
+      "t": 321,
+      "text": "we found out that when we're looking at data around at 100,000 rows is what is manageable uh performance- wise",
+      "why_it_matters": "States the practical row volume limit that drives how much the Excel reports aggregate their data.",
+      "check": "exact"
     },
     {
       "t": 583.5,

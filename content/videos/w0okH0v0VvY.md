@@ -16,12 +16,12 @@ tags:
   - assembly orders
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:48.970Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:49.005Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,7 +206,7 @@ quotes:
 
 > Inventory Cost Adjustment Tool in Business Central (2024 release wave 1): monitoring cost adjustment runs, logging options, item batches that isolate failing items, per-item and per-run logs, and diagnostic actions. Covers the four ways to run cost adjustment and common causes of failed runs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=w0okH0v0VvY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=w0okH0v0VvY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -238,19 +238,19 @@ Two demos follow. The first shows a successful run in the tool. The second shows
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Inventory Cost Adjustment Tool | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=w0okH0v0VvY&t=300s) |  |
-| Cost Adjustment Logging Options | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=w0okH0v0VvY&t=300s) |  |
-| Item Batches for Cost Adjustment | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=w0okH0v0VvY&t=550s) |  |
-| Cost Adjustment Log Per Item | status not stated, demoed | [7:19](https://www.youtube.com/watch?v=w0okH0v0VvY&t=439s) |  |
-| Cost Adjustment Log Per Run | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=w0okH0v0VvY&t=510s) |  |
-| Exclude Item from Adjustment | status not stated, demoed | [8:50](https://www.youtube.com/watch?v=w0okH0v0VvY&t=530s) |  |
-| Export Item Data | status not stated | [12:07](https://www.youtube.com/watch?v=w0okH0v0VvY&t=727s) |  |
-| Reset Cost Adjusted Toggle | status not stated | [12:41](https://www.youtube.com/watch?v=w0okH0v0VvY&t=761s) |  |
-| Costing Issues Detection Report | status not stated | [12:41](https://www.youtube.com/watch?v=w0okH0v0VvY&t=761s) |  |
-| Delete Item Data | status not stated | [13:13](https://www.youtube.com/watch?v=w0okH0v0VvY&t=793s) |  |
-| Cost Adjustment Methods | status not stated | [2:09](https://www.youtube.com/watch?v=w0okH0v0VvY&t=129s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Inventory Cost Adjustment Tool | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=w0okH0v0VvY&t=300s) |
+| Cost Adjustment Logging Options | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=w0okH0v0VvY&t=300s) |
+| Item Batches for Cost Adjustment | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=w0okH0v0VvY&t=550s) |
+| Cost Adjustment Log Per Item | status not stated, demoed | [7:19](https://www.youtube.com/watch?v=w0okH0v0VvY&t=439s) |
+| Cost Adjustment Log Per Run | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=w0okH0v0VvY&t=510s) |
+| Exclude Item from Adjustment | status not stated, demoed | [8:50](https://www.youtube.com/watch?v=w0okH0v0VvY&t=530s) |
+| Export Item Data | status not stated | [12:07](https://www.youtube.com/watch?v=w0okH0v0VvY&t=727s) |
+| Reset Cost Adjusted Toggle | status not stated | [12:41](https://www.youtube.com/watch?v=w0okH0v0VvY&t=761s) |
+| Costing Issues Detection Report | status not stated | [12:41](https://www.youtube.com/watch?v=w0okH0v0VvY&t=761s) |
+| Delete Item Data | status not stated | [13:13](https://www.youtube.com/watch?v=w0okH0v0VvY&t=793s) |
+| Cost Adjustment Methods | status not stated | [2:09](https://www.youtube.com/watch?v=w0okH0v0VvY&t=129s) |
 
 ## AL objects mentioned
 

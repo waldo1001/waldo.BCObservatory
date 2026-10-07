@@ -19,12 +19,12 @@ tags:
   - keyboard shortcuts
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:47.909Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:47.954Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,7 +37,7 @@ evidence:
     date: "2024-04-04T13:30:12.000Z"
     commit: null
     t: 486
-    quote: there was also one feature uh that was planned for the April release which got a bit postponed and that is uh the the
+    quote: that was planned for the April release which got a bit postponed and that is uh the the multiple um file uploads
   - kind: video
     url: https://www.youtube.com/watch?v=RNR4wsFeedI&t=96s
     title: "What's New: Boost Your Productivity with Business Central (2024 release wave 1)"
@@ -206,7 +206,7 @@ quotes:
 
 > Business Central 2024 release wave 1 user experience changes: the modern action bar becomes mandatory, a new date picker, actions on platform-generated errors, error sharing via Teams and email, help and support page improvements, and worksheet access on the mobile client.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RNR4wsFeedI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 14:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RNR4wsFeedI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 14:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -216,13 +216,13 @@ It also covers error handling: legacy platform-generated errors get navigate act
 
 ## Key points
 
-- The modern action bar, introduced three releases earlier, is mandatory in 2024 release wave 1. Users can opt out individually in My Settings, and admins can disable it for all users.
-- A one-time call out explaining the action bar change is shown to existing users who have teaching tips enabled, in existing production environments.
-- Action bar enhancements: new copilot icon, spared captions to save space, and an optimized layout with flexible personalization and a split button.
-- Platform-generated errors from legacy code get automatic navigate actions with no extra developer effort. The actions appear when the user has permissions.
+- The mobile client now gives access to worksheet pages from version 24, showing header, line, fact box and footer details.
+- The modern action bar, introduced three releases earlier, is mandatory in 2024 release wave 1. Users can switch back to the legacy action bar in My Settings, and admins can switch it for users.
+- A one-time call out explaining the action bar change is shown to existing users who have teaching tips enabled, in existing production environments and companies. For new users the modern action bar is on by default.
+- The 2024 release wave 1 action bar adds a new copilot icon, shorter captions to save space, and a new analysis mode icon. Flexible personalization and the split button were added three releases earlier.
+- A new date picker control works like the ones in other Microsoft products such as Word and Excel, making it easier to find dates far in the past or future.
+- Platform-generated errors from legacy code get automatic navigate actions with no extra developer effort. The actions help when the user has permissions to fix the error.
 - Error details can be shared via Teams or email, and are copied to the clipboard automatically. This helps when a user lacks permissions or needs help from a colleague or admin.
-- The help and support page lets users copy tenant, environment, session and user details easily, which helps partners managing multiple customers.
-- Multiple file uploads, planned for the April release, was postponed and is coming in an upcoming minor release.
 
 ## Chapters
 
@@ -249,7 +249,7 @@ It also covers error handling: legacy platform-generated errors get navigate act
 | Error sharing via Teams and email | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=RNR4wsFeedI&t=352s) |  |
 | Help and support page improvements | status not stated, demoed | [7:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=426s) |  |
 | Updated keyboard shortcuts PDFs | status not stated | [7:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=426s) |  |
-| Multiple file uploads | announced | [8:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=486s) | "there was also one feature uh that was planned for the April release which got a bit postponed and that is uh the the" ([8:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=486s)) |
+| Multiple file uploads | announced | [8:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=486s) | "that was planned for the April release which got a bit postponed and that is uh the the multiple um file uploads" ([8:06](https://www.youtube.com/watch?v=RNR4wsFeedI&t=486s)) |
 
 ## AL objects mentioned
 

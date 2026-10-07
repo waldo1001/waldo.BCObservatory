@@ -7,9 +7,9 @@
     "The feature is for the United States market only. Electronic filing through the IRS platform via APIs is announced for the next few minor releases, with no firm date because it depends on IRS confirmation.",
     "Until electronic submission exists, the Mark Submitted action is used so documents can be printed and mailed. A later Submit action is meant to replace it.",
     "IRS setup now has reporting periods with start and end dates and one active period. Different years can be maintained in parallel, and a Copy Setup action copies forms, form boxes, vendor setup, adjustments and statement lines from a prior period.",
-    "Moving legacy 1099 data uses feature management. It is a one-way process, and the data is not mapped one-to-one. New customers can instead start with default data.",
-    "Each 1099 form document covers a single form type, for example miscellaneous and nonemployee compensation cannot be mixed. Documents are created from purchase invoices, and the Replace option recreates them after ledger changes.",
-    "The Including 1099 field on form document lines shows whether an amount reaches the minimum reportable amount. The Propagate action applies vendor form box setup to existing vendor ledger entries.",
+    "The new app is enabled in feature management or the assisted setup. Enabling it in one company enables it for all companies. Moving legacy 1099 data is a one-way process and is not mapped one-to-one. New customers can instead start with default data.",
+    "Each 1099 form document covers a single form type, for example miscellaneous and nonemployee compensation cannot be mixed. Purchase invoices get form and form box prefilled from vendor setup. Form documents are created with Create Forms from the reporting period, and the Replace option recreates them after ledger changes.",
+    "The Including 1099 field on form document lines shows whether an amount reaches the minimum reportable amount. The Propagate action applies vendor form box setup to existing purchase documents and vendor ledger entries.",
     "Copy B, Copy C and Copy 2 print on plain paper as substitutions, so pre-printed IRS forms are not needed. Email delivery requires vendor consent and an email address, and the TIN can be masked to the last four digits."
   ],
   "audience": [

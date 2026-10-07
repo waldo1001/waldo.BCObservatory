@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=VpNQ-CYNrkM",
   "published_at": "2024-04-04T13:30:20.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 6
     },
     "published": {
-      "at": "2026-10-06T19:47:34.227Z",
+      "at": "2026-10-07T23:10:17.318Z",
       "path": "content/videos/VpNQ-CYNrkM.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:10:17.268Z",
+      "path": "data/review/video/VpNQ-CYNrkM.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 9,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.127041
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "044a22b50852a19575759a1e53fc94efa1dd1e0b3108b91066e138417891a50b"
+  "output_hash": "863aeae41fce8fa9af5c4a5e888b6f104c12c68cece9f844ff41d39e01ef13fe",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:10:17.247Z"
+  }
 }

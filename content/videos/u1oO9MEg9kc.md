@@ -16,12 +16,12 @@ tags:
   - feature management
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:38.277Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:38.307Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,7 +185,7 @@ quotes:
 
 > G/L account revaluation in Business Central (2024 release wave 1): a batch job that adjusts G/L balances per currency, plus controls for which currencies can post to an account. Shows single and multiple currency demos and compares it with the standard currency exchange rate adjustment batch job.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=u1oO9MEg9kc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=u1oO9MEg9kc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 13:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,15 +217,15 @@ The demos turn on the feature in feature management, set up a revaluation accoun
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Original Currency Code on GL Entry | status not stated | [0:32](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=32s) |  |
-| Control Posting of Currencies to GL | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=61s) |  |
-| GL Account Revaluation | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=61s) |  |
-| Enable Use of GL Currency Revaluation | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=81s) |  |
-| Multiple Currencies per GL Account | status not stated, demoed | [5:14](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=314s) |  |
-| Revaluation Account Configuration | status not stated, demoed | [6:48](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=408s) |  |
-| Enhanced Currency Exchange Rate Batch Job | status not stated, demoed | [10:49](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=649s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Original Currency Code on GL Entry | status not stated | [0:32](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=32s) |
+| Control Posting of Currencies to GL | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=61s) |
+| GL Account Revaluation | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=61s) |
+| Enable Use of GL Currency Revaluation | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=81s) |
+| Multiple Currencies per GL Account | status not stated, demoed | [5:14](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=314s) |
+| Revaluation Account Configuration | status not stated, demoed | [6:48](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=408s) |
+| Enhanced Currency Exchange Rate Batch Job | status not stated, demoed | [10:49](https://www.youtube.com/watch?v=u1oO9MEg9kc&t=649s) |
 
 ## AL objects mentioned
 

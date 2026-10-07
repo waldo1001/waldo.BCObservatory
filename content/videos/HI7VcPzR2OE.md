@@ -18,12 +18,12 @@ tags:
   - financial reports
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:16.959Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:17.002Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -195,7 +195,7 @@ quotes:
 
 > Overview of Business Central 2024 release wave 1 financial management changes: currency restrictions and revaluation on GL accounts, eight Excel reports in preview, consolidation currency rates, collection management role center, reminder automation, zero lines in recurring journals, and employee ledger currency posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HI7VcPzR2OE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 11:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HI7VcPzR2OE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 11:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -205,13 +205,13 @@ The Excel reports carry a preview tag because changes and small improvements are
 
 ## Key points
 
-- GL account card: you can specify accepted currencies per account - local only, multiple currencies, or any currency. An adjustment job creates revaluation entries that can be reviewed before posting.
-- Eight Excel reports are in the first batch (trial balances, accounts receivable, accounts payable, customer and vendor lists). They are in preview. The roadmap is 25-30 reports.
-- Excel reports hold aggregated data, not a full database copy. Detailed data is planned for minor releases, and data volume has restrictions and limitations.
-- Consolidation lets you look up and manage exchange rates during runs. You can recover from mistakes by picking rates from a previous consolidation.
-- A new collection management role center for the accounts receivable administrator has cues for outstanding invoices and balances. Reminders can have email text tailored per level and can be created and sent through automation.
+- GL account card: you can specify accepted currencies per account: local only, multiple currencies, or any currency. A toggle controls revaluation, and entries can go to realized or unrealized adjustment accounts. An adjustment batch job creates revaluation entries that can be reviewed before posting.
+- Eight Excel reports are in the first batch: trial balances, aged receivables, aged payables, and top lists for customers and vendors. They have a preview tag, 12 more are in progress, and the full list is 25 to 30 reports.
+- Excel reports hold aggregated data, not a full database copy. Detailed data (for example GL entries, customer ledger entries) is planned for minor releases, and data volume has restrictions and limitations.
+- Consolidation lets you look up exchange rates during runs. You can recover from mistakes by picking rates from a previous consolidation run.
+- A new collection management role center for the accounts receivable administrator has cues for outstanding invoices and balances. Reminders can have email text tailored per level and can be created, issued and sent through automation.
 - Recurring journals using the fixed method can keep zero-amount lines. Zero lines are ignored when posting, not posted as zero.
-- Employee ledgers can now post in a selected currency, like customer and vendor ledgers. Earlier support was local currency only.
+- Employee ledgers can now post in a selected currency, like customer and vendor ledgers, and balances can be adjusted. Earlier support was local currency only.
 
 ## Chapters
 

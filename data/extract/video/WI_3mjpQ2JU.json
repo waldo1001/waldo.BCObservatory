@@ -226,7 +226,7 @@
       "description": "Direct electronic filing to IRS through the IRS e-file platform via APIs, automating the complete submission process instead of requiring manual file preparation and reporting.",
       "status": "announced",
       "status_evidence_t": 817.4,
-      "status_evidence_quote": "irs through iris uh portal will come in next few minors uh now i cannot promise exactly uh date",
+      "status_evidence_quote": "this black box uh connection with uh IRS through Iris uh portal will come in next few minors",
       "status_evidence_verified": true,
       "t_start": 609,
       "t_end": 857.9,
@@ -826,43 +826,6 @@
         "future extensibility"
       ],
       "system": "finance"
-    },
-    {
-      "name": "Future Extensibility of IRS Form Setup",
-      "description": "IRS form setup page is designed to support potential future IRS reporting types without requiring separate setup pages, using naming convention of IRS setup without 1099 suffix.",
-      "status": "announced",
-      "status_evidence_t": 2371.5,
-      "status_evidence_quote": "we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me",
-      "status_evidence_verified": true,
-      "t_start": 2352.1,
-      "t_end": 2411.8,
-      "is_demoed": false,
-      "caveats": [
-        "Not a commitment; design consideration only"
-      ],
-      "tags": [
-        "extensibility",
-        "future roadmap",
-        "setup design"
-      ],
-      "system": "finance"
-    },
-    {
-      "name": "1099 Feature Development from Customer Ideas",
-      "description": "The 1099 reporting functionality delivered in this release was developed based on customer feedback and ideas submitted through the idea submission process.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2472.5,
-      "t_end": 2493,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "customer feedback",
-        "feature development"
-      ],
-      "system": "reporting"
     }
   ],
   "objects": [
@@ -1034,6 +997,12 @@
       "check": "exact"
     },
     {
+      "t": 1244.1,
+      "text": "after you enable the feature in the feature Management in one company uh it is basically enabled for all the companies",
+      "why_it_matters": "Enabling the new IRS forms feature applies across all companies, not just one.",
+      "check": "exact"
+    },
+    {
       "t": 1501.8,
       "text": "you have the special action that is called copy setup prom uh so once you created the period you click copy set set up",
       "why_it_matters": "Efficiency feature: period setup can be cloned from prior years, avoiding manual recreation of forms, boxes, vendors and adjustments.",
@@ -1086,24 +1055,6 @@
       "text": "so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only",
       "why_it_matters": "Explains the naming convention design decision for setup pages to enable future extensibility.",
       "check": "exact"
-    },
-    {
-      "t": 2493,
-      "text": "this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better",
-      "why_it_matters": "Demonstrates that customer feedback directly influenced the delivery of the 1099 feature.",
-      "check": "snapped"
-    },
-    {
-      "t": 2493,
-      "text": "we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc",
-      "why_it_matters": "Emphasizes the importance of the akbc URL resource hub for finding documentation and links.",
-      "check": "exact"
-    },
-    {
-      "t": 2533.6,
-      "text": "what is important you will have this time you will have enough time to watch all this videos so you will collect what is",
-      "why_it_matters": "Explains the timing of the Q&A session to allow viewers sufficient time to review all presentation materials before asking questions.",
-      "check": "snapped"
     }
   ],
   "disclaimers": [

@@ -355,10 +355,22 @@
       "check": "exact"
     },
     {
+      "t": 775.2,
+      "text": "you can only delete starting from the end because we already have invoice for this Delta",
+      "why_it_matters": "States the ordering restriction on deleting service contract invoices.",
+      "check": "exact"
+    },
+    {
       "t": 823.7,
       "text": "this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of",
       "why_it_matters": "Indicates this release addresses a highly requested feature for invoice management and document review flexibility.",
       "check": "snapped"
+    },
+    {
+      "t": 823.7,
+      "text": "redo if something needs to be redone that is like one of the most voted product suggestions so we implemented it",
+      "why_it_matters": "Shows that contract invoice deletion came from a highly voted customer idea.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

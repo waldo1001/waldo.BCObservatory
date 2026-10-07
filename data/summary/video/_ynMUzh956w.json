@@ -6,9 +6,9 @@
   "key_points": [
     "First wave focuses on recording and reporting emissions; reducing, removing and replacing are not covered in this wave.",
     "Tracks three emission types: carbon footprint, methane and nitrogen dioxide. The scope is extensible by partners and potentially Microsoft later.",
-    "The chart of sustainability accounts sets the scope, emission type and calculation type per account, and supports heading, posting and totaling accounts.",
-    "Sustainability journals accept manual amounts or calculations (distance, fuel and similar) using emission factors defined in subcategories. Posting creates sustainability ledger entries, which feed the reports.",
-    "Setup page options include unit of measure, rounding, decimal places, mandatory country/region, and optional responsibility center tracking.",
+    "Each sustainability account has a category that defines the scope, which emissions are tracked and the calculation foundation. The chart supports heading, posting and totaling accounts like the G/L chart of accounts.",
+    "Sustainability journals (standard and recurring) accept manual amounts or calculations (distance, fuel and similar) using emission factors defined in subcategories. Posting creates sustainability ledger entries, which feed the reports.",
+    "Setup page options include unit of measure (with a separate reporting unit and conversion factor), rounding, decimal places, and mandatory usage settings such as country/region or responsibility center.",
     "Three standard reports: Total emissions, Emission per facility, Emission by category. Excel layout is the default, RDC layout is still available.",
     "Regulatory-specific reports are not included yet. APIs are announced for the next one or two minor releases."
   ],

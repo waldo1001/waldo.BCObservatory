@@ -2,7 +2,7 @@
 id: video/BofJJPqgrTI
 type: video
 title: "What's New: Excel Layouts For Developers (2024 release wave 1)"
-summary: "Excel layouts for Business Central developers in the 2024 release wave 1: translatable layouts with translation tags, the report metadata worksheet, refreshable reports using Power Query and APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for outlier detection."
+summary: "Excel layout features for Business Central developers presented at the 2024 release wave 1 launch: the hidden report metadata worksheet, the caption data worksheet and runtime translation tags for multilanguage layouts (shipped in 23.3), refreshable reports that use Power Query and Business Central APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for finding outliers in report data."
 tier: official
 language: en
 tags:
@@ -20,18 +20,25 @@ tags:
   - outlier detection
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:11:10.008Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:11:10.047Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 912a19f37ab20a68d515a60bf943b998cdcb6598eb7131a87ecbd8f3bbe2ecbf
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=BofJJPqgrTI&t=632s
+    title: "New Excel Reports in Base Application: preview"
+    date: "2024-04-04T13:30:06.000Z"
+    commit: null
+    t: 632
+    quote: they are in preview for because we still need to maybe tweak a few things
   - kind: video
     url: https://www.youtube.com/watch?v=BofJJPqgrTI&t=946s
     title: "Excel Copilot for Data Analysis: preview"
@@ -67,6 +74,13 @@ evidence:
     commit: null
     t: 282
     quote: when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will
+  - kind: video
+    url: https://www.youtube.com/watch?v=BofJJPqgrTI&t=423s
+    title: "What's New: Excel Layouts For Developers (2024 release wave 1)"
+    date: "2024-04-04T13:30:06.000Z"
+    commit: null
+    t: 423
+    quote: it's already present in version 23.3 but now this is the first time we we we talk about it in the launch
   - kind: video
     url: https://www.youtube.com/watch?v=BofJJPqgrTI&t=438s
     title: "What's New: Excel Layouts For Developers (2024 release wave 1)"
@@ -216,9 +230,9 @@ features:
     verified: false
     status_source: video
   - name: New Excel Reports in Base Application
-    status: unclear
+    status: preview
     t: 591
-    verified: false
+    verified: true
     status_source: video
   - name: Aged Accounts Receivables Excel Report
     status: unclear
@@ -268,6 +282,9 @@ quotes:
   - t: 282
     text: when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will
     check: exact
+  - t: 423
+    text: it's already present in version 23.3 but now this is the first time we we we talk about it in the launch
+    check: exact
   - t: 438
     text: the new worksheet that was added in version 23.3 enables refreshable uh Excel reports if only you you uh you load the data in
     check: exact
@@ -302,9 +319,9 @@ quotes:
 
 # What's New: Excel Layouts For Developers (2024 release wave 1)
 
-> Excel layouts for Business Central developers in the 2024 release wave 1: translatable layouts with translation tags, the report metadata worksheet, refreshable reports using Power Query and APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for outlier detection.
+> Excel layout features for Business Central developers presented at the 2024 release wave 1 launch: the hidden report metadata worksheet, the caption data worksheet and runtime translation tags for multilanguage layouts (shipped in 23.3), refreshable reports that use Power Query and Business Central APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for finding outliers in report data.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BofJJPqgrTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 25:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BofJJPqgrTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 25:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -314,13 +331,13 @@ It then covers refreshable reports, where Power Query loads data from Business C
 
 ## Key points
 
-- A hidden metadata worksheet in Excel layouts holds report object info, request properties, tenant ID, environment name, company name and ID, and the run timestamp.
-- Translation tags (dollar-dollar) in worksheet names, chart headers, pivot elements and slicer headers are replaced with user-language values at runtime; captions come from the caption data worksheet.
+- Since version 23.3, Excel layouts include a hidden metadata worksheet with report object info, request properties, tenant ID, environment name, company name and ID, and the run timestamp.
+- Translation tags (dollar-dollar) in worksheet names, chart headers, pivot elements and slicer headers are replaced with user-language values at runtime. Captions come from the caption data worksheet (also version 23.3).
 - An optional user-defined translation worksheet lets layout designers add custom strings and translations that are not captions in the report object.
-- Refreshable reports load data with Power Query from Business Central APIs, using environment name and company ID from the metadata worksheet; users must enable content in Excel.
-- Version 24 ships seven new Excel reports in preview in the base application, added to the Business Manager and Accountant role centers; some translation strings still need adjustment.
+- Refreshable reports load data with Power Query from Business Central APIs, using the environment name and company ID from the metadata worksheet. Users must enable content in Excel.
+- Version 24 ships seven new Excel reports in preview in the base application, added to the Business Manager and Accountant role centers. The demo showed a translation tag that was not yet translated.
 - From version 23.0, each top-level data item in a report can appear in its own worksheet.
-- Excel Copilot is in preview, requires the workbook on OneDrive, and its suggestions need to be checked in Business Central.
+- Excel Copilot is in preview and requires the workbook on OneDrive. Its suggestions still need to be checked in Business Central.
 
 ## Chapters
 
@@ -348,7 +365,7 @@ It then covers refreshable reports, where Power Query loads data from Business C
 | Runtime Translation Using Translation Tags | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=BofJJPqgrTI&t=262s) |  |
 | User-Defined Translation Data Worksheet | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=BofJJPqgrTI&t=302s) |  |
 | Refreshable Excel Reports via Power Query and APIs | status not stated | [7:18](https://www.youtube.com/watch?v=BofJJPqgrTI&t=438s) |  |
-| New Excel Reports in Base Application | status not stated, demoed | [9:51](https://www.youtube.com/watch?v=BofJJPqgrTI&t=591s) |  |
+| New Excel Reports in Base Application | preview, demoed | [9:51](https://www.youtube.com/watch?v=BofJJPqgrTI&t=591s) | "they are in preview for because we still need to maybe tweak a few things" ([10:32](https://www.youtube.com/watch?v=BofJJPqgrTI&t=632s)) |
 | Aged Accounts Receivables Excel Report | status not stated, demoed | [11:12](https://www.youtube.com/watch?v=BofJJPqgrTI&t=672s) |  |
 | Multiple Data Items in Separate Worksheets | status not stated, demoed | [15:06](https://www.youtube.com/watch?v=BofJJPqgrTI&t=906s) |  |
 | Excel Copilot for Data Analysis | preview, demoed | [15:46](https://www.youtube.com/watch?v=BofJJPqgrTI&t=946s) | "this is about Excel co-pilot it's is still in in preview in Excel" ([15:46](https://www.youtube.com/watch?v=BofJJPqgrTI&t=946s)) |
@@ -373,6 +390,7 @@ Not found in BC28-30: report "Aged Accounts Receivables", report "Customer Aging
 - [2:05](https://www.youtube.com/watch?v=BofJJPqgrTI&t=125s) "you can actually use this in the Excel report itself if you want to provide like context specific help uh maybe a worksheet stating"
 - [4:22](https://www.youtube.com/watch?v=BofJJPqgrTI&t=262s) "we added the ability to translate all of this uh at runtime so as a report author you can now use translation tags or"
 - [4:42](https://www.youtube.com/watch?v=BofJJPqgrTI&t=282s) "when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will"
+- [7:03](https://www.youtube.com/watch?v=BofJJPqgrTI&t=423s) "it's already present in version 23.3 but now this is the first time we we we talk about it in the launch"
 - [7:18](https://www.youtube.com/watch?v=BofJJPqgrTI&t=438s) "the new worksheet that was added in version 23.3 enables refreshable uh Excel reports if only you you uh you load the data in"
 - [9:51](https://www.youtube.com/watch?v=BofJJPqgrTI&t=591s) "with version uh 24 with this new version uh we also ship new Excel reports in the base application"
 - [11:53](https://www.youtube.com/watch?v=BofJJPqgrTI&t=713s) "if actually a pro tip here if you demo this with a customer make sure that you show this with Excel sorry with one"

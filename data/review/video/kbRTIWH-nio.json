@@ -1,0 +1,24 @@
+{
+  "video_id": "kbRTIWH-nio",
+  "item_id": "video/yt-microsoft/kbRTIWH-nio",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "Summary and key points match the transcript: layer placement, table movement in 2024 wave 1, the two-codeunit API, the implementation enum and interface, obsoleted in v24 and removed in v27, the old 100 number series limit, no localizations, Copilot issue 659.",
+    "All quotes are verbatim. The quotes at 1192.1 and 1902.3 run on into the next segment, which is allowed.",
+    "The Business Foundation description lists address, currency and dimension management. The speaker only gives these as examples, and Number Series is the only module actually built. Minor, acceptable.",
+    "Feature statuses are left unclear. No quote clearly states a release status. Copilot support is still a community contribution in progress.",
+    "Actionable error messages start at 1030.9, slightly before the chapter boundary at 1050.9. Minor."
+  ],
+  "input_hash": "1df588e1061678e9cdb60ffc7d76588d5df76509f0e9018369ed94f1795e90c3",
+  "by": "opus",
+  "at": "2026-10-07T23:10:15.804Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.164781
+  }
+}

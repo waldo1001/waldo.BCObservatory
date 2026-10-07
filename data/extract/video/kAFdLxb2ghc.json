@@ -143,26 +143,6 @@
       "system": "integration"
     },
     {
-      "name": "PayPal B3 format support",
-      "description": "Support for PayPal B3 format, the most used format globally, delivered both as pure code implementation and as data exchange definition with field mapping capabilities.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 362.4,
-      "t_end": 438.3,
-      "is_demoed": false,
-      "caveats": [
-        "Requires developers to build custom formats if not using PayPal B3 or data exchange definitions"
-      ],
-      "tags": [
-        "paypal",
-        "format",
-        "data-exchange"
-      ],
-      "system": "integration"
-    },
-    {
       "name": "Data exchange definition for e-documents",
       "description": "A feature allowing users to map incoming and outgoing documents with specific data exchange definitions instead of using code, providing a faster alternative to code-based format implementation.",
       "status": "unclear",
@@ -343,48 +323,6 @@
       "system": "integration"
     },
     {
-      "name": "E-Document Audit Logs",
-      "description": "Lock-based audit trail that records every step of e-document processing from export to potential sending, allowing users to track and inspect document status and modifications.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1187.9,
-      "t_end": 1248.8,
-      "is_demoed": true,
-      "caveats": [
-        "Users must navigate to e-document details to view audit trail",
-        "Service logs only shown if service integration is configured"
-      ],
-      "tags": [
-        "audit",
-        "logging",
-        "tracking"
-      ],
-      "system": "integration"
-    },
-    {
-      "name": "Purchase Order Matching",
-      "description": "Feature that automatically links incoming e-documents to existing purchase orders and displays matched purchase orders on the role center for manual or assisted matching of document lines.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1266.8,
-      "t_end": 1338.3,
-      "is_demoed": true,
-      "caveats": [
-        "Requires manual matching of lines",
-        "Copilot assistance available in separate feature"
-      ],
-      "tags": [
-        "matching",
-        "purchase-order",
-        "automation"
-      ],
-      "system": "purchasing"
-    },
-    {
       "name": "E-Document Line Matching Interface",
       "description": "Bank reconciliation-style interface for matching e-document imported lines to purchase order lines with visual indicators, quantity tracking, and detailed match inspection capabilities.",
       "status": "unclear",
@@ -488,49 +426,6 @@
         "inspection"
       ],
       "system": "integration"
-    },
-    {
-      "name": "Copilot-Assisted E-Document Matching",
-      "description": "Copilot feature that can automatically match e-document lines to purchase order lines with a single click, particularly helpful for non-exact item matches.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1338.3,
-      "t_end": 1379.2,
-      "is_demoed": false,
-      "caveats": [
-        "Not enabled in demo environment",
-        "Documented in separate session called e invoicing with copilot",
-        "Feature is separate from core e-documents matching"
-      ],
-      "tags": [
-        "copilot",
-        "matching",
-        "ai"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "E-document vendor invoice matching",
-      "description": "Automatic matching of incoming vendor documents to purchase order lines with cost and discount updates, vendor invoice number and date population.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1568.7,
-      "t_end": 1629,
-      "is_demoed": true,
-      "caveats": [
-        "Can be used with manual invoicing as well"
-      ],
-      "tags": [
-        "purchase",
-        "matching",
-        "automation",
-        "vendor invoice"
-      ],
-      "system": "purchasing"
     },
     {
       "name": "E-documents framework extensibility",
@@ -846,6 +741,12 @@
       "check": "exact"
     },
     {
+      "t": 458.6,
+      "text": "currently we are supporting only one access point but we are planning to add more access points there",
+      "why_it_matters": "States the current limit of the third-party access point connector: one access point now, more planned.",
+      "check": "exact"
+    },
+    {
       "t": 519.2,
       "text": "we deliver localization for Denmark both formas obl and P so you can choose both of them um in Danish um uh environment",
       "why_it_matters": "Confirms delivery status and format options for the Danish localization at the time of this release.",
@@ -874,12 +775,6 @@
       "text": "before enable you need to have because there dependency you need to uh first enable comma module and Warehouse module after that you need",
       "why_it_matters": "Establishes the required module dependencies for e-documents to function, affecting implementation sequence.",
       "check": "exact"
-    },
-    {
-      "t": 911.9,
-      "text": "the document format that we are actually providing in the framework is the",
-      "why_it_matters": "Specifies the supported document format standard for the e-documents framework.",
-      "check": "fuzzy"
     },
     {
       "t": 973.1,

@@ -20,12 +20,12 @@ tags:
   - backwards compatibility
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:15.804Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:15.837Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -362,7 +362,7 @@ quotes:
 
 > Business Foundation, a new layer between the base application and the system application, and its first module, Number Series, from 2024 release wave 1. Covers module design, non-breaking table movement between apps, the redesigned Number Series API, and the planned removal of the legacy code in version 27.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kbRTIWH-nio) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 34:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kbRTIWH-nio) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 34:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -399,24 +399,24 @@ The demos cover the updated Number Series page, actionable error messages, and t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Business Foundation | status not stated | [12:26](https://www.youtube.com/watch?v=kbRTIWH-nio&t=746s) |  |
-| Number Series Module | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=kbRTIWH-nio&t=788s) |  |
-| Non-breaking Table Movement Between Apps | status not stated | [11:43](https://www.youtube.com/watch?v=kbRTIWH-nio&t=703s) |  |
-| Application Redirection | status not stated | [10:01](https://www.youtube.com/watch?v=kbRTIWH-nio&t=601s) |  |
-| Deprecation Scheme | status not stated | [10:42](https://www.youtube.com/watch?v=kbRTIWH-nio&t=642s) |  |
-| System Application | status not stated | [5:18](https://www.youtube.com/watch?v=kbRTIWH-nio&t=318s) |  |
-| Module Architecture and Design Pattern | status not stated | [5:55](https://www.youtube.com/watch?v=kbRTIWH-nio&t=355s) |  |
-| Number Series Page UI Enhancements | status not stated, demoed | [15:49](https://www.youtube.com/watch?v=kbRTIWH-nio&t=949s) |  |
-| Actionable Error Messages for Number Series | status not stated, demoed | [17:10](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1030s) |  |
-| New Number Series API (Codeunit-based) | status not stated, demoed | [19:11](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1151s) |  |
-| Number Series Implementation Enum and Interface | status not stated, demoed | [24:31](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1471s) |  |
-| Backwards Compatibility for Number Series API | status not stated | [26:13](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1573s) |  |
-| Simulate Get Next Number | status not stated, demoed | [30:01](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1801s) |  |
-| Number Series Batch Processing Simplification | status not stated, demoed | [27:49](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1669s) |  |
-| Copilot Support for Number Series Module | status not stated | [32:37](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1957s) |  |
-| Componentization of Base Application | status not stated | [33:17](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1997s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Business Foundation | status not stated | [12:26](https://www.youtube.com/watch?v=kbRTIWH-nio&t=746s) |
+| Number Series Module | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=kbRTIWH-nio&t=788s) |
+| Non-breaking Table Movement Between Apps | status not stated | [11:43](https://www.youtube.com/watch?v=kbRTIWH-nio&t=703s) |
+| Application Redirection | status not stated | [10:01](https://www.youtube.com/watch?v=kbRTIWH-nio&t=601s) |
+| Deprecation Scheme | status not stated | [10:42](https://www.youtube.com/watch?v=kbRTIWH-nio&t=642s) |
+| System Application | status not stated | [5:18](https://www.youtube.com/watch?v=kbRTIWH-nio&t=318s) |
+| Module Architecture and Design Pattern | status not stated | [5:55](https://www.youtube.com/watch?v=kbRTIWH-nio&t=355s) |
+| Number Series Page UI Enhancements | status not stated, demoed | [15:49](https://www.youtube.com/watch?v=kbRTIWH-nio&t=949s) |
+| Actionable Error Messages for Number Series | status not stated, demoed | [17:10](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1030s) |
+| New Number Series API (Codeunit-based) | status not stated, demoed | [19:11](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1151s) |
+| Number Series Implementation Enum and Interface | status not stated, demoed | [24:31](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1471s) |
+| Backwards Compatibility for Number Series API | status not stated | [26:13](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1573s) |
+| Simulate Get Next Number | status not stated, demoed | [30:01](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1801s) |
+| Number Series Batch Processing Simplification | status not stated, demoed | [27:49](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1669s) |
+| Copilot Support for Number Series Module | status not stated | [32:37](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1957s) |
+| Componentization of Base Application | status not stated | [33:17](https://www.youtube.com/watch?v=kbRTIWH-nio&t=1997s) |
 
 ## AL objects mentioned
 

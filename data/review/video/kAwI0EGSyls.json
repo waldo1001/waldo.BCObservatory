@@ -1,0 +1,37 @@
+{
+  "video_id": "kAwI0EGSyls",
+  "item_id": "video/yt-microsoft/kAwI0EGSyls",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "AppSource preview app installations was marked 'preview', but its evidence quote describes publishers running app previews and does not state the release status of the feature. Changed to unclear.",
+    "Environment transfer is stated as shipped in February. Set to ga with evidence.",
+    "The 7 to 14 day deleted environment recovery period was 'recently' improved. Set to ga.",
+    "The Business Central administrator role was 'recently introduced'. Set to ga.",
+    "Environment-level partner access controls are 'going to' be introduced. Set to announced.",
+    "Purview auditing is 'going to ship soon'. Set to announced.",
+    "Customer lockbox wording ('policies that we now can also apply') is ambiguous, so it stays unclear.",
+    "The quotes and key points are supported by the transcript. Updated the summary to reflect the statuses."
+  ],
+  "input_hash": "ab4621cd6aec8547287450c96aab7305d62e5828354eaeb7443eeacf7f5cc07c",
+  "by": "opus",
+  "at": "2026-10-07T23:10:03.179Z",
+  "applied": [
+    "AppSource preview app installations: status unclear",
+    "Customer managed encryption keys: status announced",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status Environment transfer between tenants -> ga: evidence not verbatim or does not state the status",
+    "status Deleted environment recovery period extension -> ga: evidence not verbatim or does not state the status",
+    "status Dynamics 365 Business Central administrator role -> ga: evidence not verbatim or does not state the status",
+    "status Environment-level partner access controls -> announced: evidence not verbatim or does not state the status",
+    "status Auditing in Microsoft Purview -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.101841
+  }
+}

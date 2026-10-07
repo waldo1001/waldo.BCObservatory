@@ -283,28 +283,6 @@
       "system": "finance"
     },
     {
-      "name": "Electronic VAT Registration Notification",
-      "description": "Electronic submission of VAT registration notification with name handle as required by Danish bookkeeping regulations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 510.9,
-      "t_end": 531.4,
-      "is_demoed": false,
-      "caveats": [
-        "Requires name handle registration",
-        "Part of electronic VAT submission requirements"
-      ],
-      "tags": [
-        "vat registration",
-        "electronic submission",
-        "notification",
-        "denmark"
-      ],
-      "system": "finance"
-    },
-    {
       "name": "SAF-T Dimensions Export",
       "description": "Capability to export dimensions to SAF-T with automatic assignment of specific analysis type code for each dimension. Users can configure which dimensions to include in export.",
       "status": "unclear",
@@ -656,26 +634,6 @@
         "notification"
       ],
       "system": "administration"
-    },
-    {
-      "name": "E-Documents and E-Invoicing Integration",
-      "description": "E-documents functionality is now required and integration with e-invoicing automation using Copilot for matching purchase orders with incoming electronic documents.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2304.9,
-      "t_end": 2325.1,
-      "is_demoed": false,
-      "caveats": [
-        "Separate training session recommended for e-documents details"
-      ],
-      "tags": [
-        "e-documents",
-        "e-invoicing",
-        "copilot automation"
-      ],
-      "system": "integration"
     }
   ],
   "objects": [
@@ -842,6 +800,12 @@
       "text": "everything what is related with bookkeeping with the keeping uh data for 5 years for example it will not be standard solution uh anymore",
       "why_it_matters": "Defines the boundary of what constitutes the standard solution - customizations affecting bookkeeping compliance take it outside standard scope",
       "check": "snapped"
+    },
+    {
+      "t": 190,
+      "text": "if you're using on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation",
+      "why_it_matters": "On-premises deployments are not covered by Microsoft's DBA certification, so partners must certify them themselves.",
+      "check": "exact"
     },
     {
       "t": 458.6,

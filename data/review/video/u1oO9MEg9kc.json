@@ -1,0 +1,23 @@
+{
+  "video_id": "u1oO9MEg9kc",
+  "item_id": "video/yt-microsoft/u1oO9MEg9kc",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are word-for-word spans of the transcript, at the right segment times.",
+    "Every feature status is left as unclear. That is reasonable: the video says the features arrive 'in this release' and must be turned on in feature management, but it never says preview or generally available.",
+    "The transcript supports the key points, including the recommendation of one currency per account, not using G/L revaluation on bank, receivables or payables accounts, and the per-entry adjustment in the separate batch job.",
+    "The summary is accurate and within length."
+  ],
+  "input_hash": "06663a8e70a68803dd9c130189e6c01db49d6383537287684b9827730f331046",
+  "by": "opus",
+  "at": "2026-10-07T23:09:38.277Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.069665
+  }
+}

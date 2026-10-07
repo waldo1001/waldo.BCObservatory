@@ -1,0 +1,38 @@
+{
+  "video_id": "kAFdLxb2ghc",
+  "item_id": "video/yt-microsoft/kAFdLxb2ghc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Captions garble the Peppol format as 'P B3', 'PayPal', 'payal', 'pble' and 'pebble'. The demo at 911.9 calls it 'the pebble format', with code and data exchange versions. The page treated 'PayPal B3' and 'Peppol' as two formats, so I rewrote the summary and key points and dropped the duplicate PayPal B3 feature.",
+    "Dropped duplicate features: 'Purchase Order Matching' and 'E-document vendor invoice matching' repeat the purchase order matching and purchase order update features; 'Copilot-Assisted E-Document Matching' repeats 'Copilot-assisted purchase order matching'.",
+    "'E-Document Audit Logs' calls the audit trail 'Lock-based', but 'locked' in the captions means 'logged'. Dropped it and kept 'E-document audit trail'.",
+    "The Danish and Belgian localization feature names still say 'PayPal' (caption error for Peppol). Features cannot be renamed here.",
+    "None of the 32 feature statuses had evidence. Set six features with explicit 'we deliver' statements in this release to ga with quotes.",
+    "Dropped the quote at 911.9 because it is cut off before it names the format. Added the quote at 458.6 about only one access point being supported so far."
+  ],
+  "input_hash": "ac73a7c12c6e9327b181fd773572f602e9164286a2f860679538ffa405536058",
+  "by": "opus",
+  "at": "2026-10-07T23:09:54.528Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 459s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Danish localization with PayPal and OBL -> ga: evidence not verbatim or does not state the status",
+    "status Belgian localization with PayPal -> ga: evidence not verbatim or does not state the status",
+    "status Peppol Format E-Document Service -> ga: evidence not verbatim or does not state the status",
+    "status Purchase order matching for incoming e-documents -> ga: evidence not verbatim or does not state the status",
+    "status E-documents demo data module -> ga: evidence not verbatim or does not state the status",
+    "status Third-party access point integration app -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.24260500000000002
+  }
+}

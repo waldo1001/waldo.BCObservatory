@@ -1,16 +1,16 @@
 {
   "video_id": "BofJJPqgrTI",
   "item_id": "video/yt-microsoft/BofJJPqgrTI",
-  "summary": "Excel layouts for Business Central developers in the 2024 release wave 1: translatable layouts with translation tags, the report metadata worksheet, refreshable reports using Power Query and APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for outlier detection.",
+  "summary": "Excel layout features for Business Central developers presented at the 2024 release wave 1 launch: the hidden report metadata worksheet, the caption data worksheet and runtime translation tags for multilanguage layouts (shipped in 23.3), refreshable reports that use Power Query and Business Central APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for finding outliers in report data.",
   "overview": "The session shows how report authors build Excel layouts that translate at runtime. A hidden metadata worksheet holds report, tenant, environment, company and timestamp data. A caption data worksheet holds report captions and labels. Translation tags in worksheet names, chart headers, pivots and slicers are replaced with the user's language values when the report runs. An optional user-defined translation worksheet covers custom strings.\n\nIt then covers refreshable reports, where Power Query loads data from Business Central APIs using the environment name and company ID from the metadata worksheet. The seven new preview Excel reports in version 24, including Aged Accounts Receivables, are demoed as examples. The session also covers separate worksheets for each top-level data item (from version 23.0) and Excel Copilot, which is in preview and needs the workbook on OneDrive.",
   "key_points": [
-    "A hidden metadata worksheet in Excel layouts holds report object info, request properties, tenant ID, environment name, company name and ID, and the run timestamp.",
-    "Translation tags (dollar-dollar) in worksheet names, chart headers, pivot elements and slicer headers are replaced with user-language values at runtime; captions come from the caption data worksheet.",
+    "Since version 23.3, Excel layouts include a hidden metadata worksheet with report object info, request properties, tenant ID, environment name, company name and ID, and the run timestamp.",
+    "Translation tags (dollar-dollar) in worksheet names, chart headers, pivot elements and slicer headers are replaced with user-language values at runtime. Captions come from the caption data worksheet (also version 23.3).",
     "An optional user-defined translation worksheet lets layout designers add custom strings and translations that are not captions in the report object.",
-    "Refreshable reports load data with Power Query from Business Central APIs, using environment name and company ID from the metadata worksheet; users must enable content in Excel.",
-    "Version 24 ships seven new Excel reports in preview in the base application, added to the Business Manager and Accountant role centers; some translation strings still need adjustment.",
+    "Refreshable reports load data with Power Query from Business Central APIs, using the environment name and company ID from the metadata worksheet. Users must enable content in Excel.",
+    "Version 24 ships seven new Excel reports in preview in the base application, added to the Business Manager and Accountant role centers. The demo showed a translation tag that was not yet translated.",
     "From version 23.0, each top-level data item in a report can appear in its own worksheet.",
-    "Excel Copilot is in preview, requires the workbook on OneDrive, and its suggestions need to be checked in Business Central."
+    "Excel Copilot is in preview and requires the workbook on OneDrive. Its suggestions still need to be checked in Business Central."
   ],
   "audience": [
     "developer",

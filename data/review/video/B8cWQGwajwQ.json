@@ -1,0 +1,32 @@
+{
+  "video_id": "B8cWQGwajwQ",
+  "item_id": "video/yt-microsoft/B8cWQGwajwQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Page Scripting Tool evidence quote starts at t=104.4, not 15.7; corrected evidence_t.",
+    "Validation Steps, YAML persistence and Single-Step Playback reuse the tool-level preview quote; kept as preview (part of the preview tool) with evidence_t corrected to 104.4.",
+    "Pipeline Execution evidence quote starts at t=1871.5, not 1851.4; corrected.",
+    "Quote at 1596.8 adds little information; dropped.",
+    "Limitation entries (Designer and Embedded Content Limitations, Control Identification and Notifications) are not really features, but the transcript supports them, so they stay.",
+    "Summary and key points are supported by the transcript."
+  ],
+  "input_hash": "481c2e11e8005087230a29206c8322cd034a8d24d26b10dc073d4fa4fdb7446b",
+  "by": "opus",
+  "at": "2026-10-07T23:11:09.251Z",
+  "applied": [
+    "Page Scripting Tool: status preview",
+    "Validation Steps: status preview",
+    "Script Persistence in YAML Format: status preview",
+    "Single-Step Playback Controls: status preview",
+    "Pipeline Execution for Scripts: status announced",
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.167553
+  }
+}

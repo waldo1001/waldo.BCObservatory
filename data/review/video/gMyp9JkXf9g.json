@@ -1,0 +1,36 @@
+{
+  "video_id": "gMyp9JkXf9g",
+  "item_id": "video/yt-microsoft/gMyp9JkXf9g",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The preview label at t=78.1 covers all the new Excel reports, not only trial balance. The presenter says the new reports are marked with preview and that you can find them by searching for 'preview' in the Report Explorer.",
+    "AR aging, customer top list and AP aging were marked GA based on 'we have released eight reports'. Being released does not make them GA, so they are set to preview.",
+    "The trial balance evidence_t was 118.2, but the quote starts at 78.1. Corrected to 78.1.",
+    "The AP aging feature description says 'skip vendors with zero balance' and 'multiple worksheets', but the transcript only shows those for receivables (skip customers with zero balance). The AP report was not demoed, so this needs a manual edit because there is no edit field for descriptions.",
+    "The key point said the data is 'limited to about 100,000 rows'. The transcript says there is an upper limit and that about 100,000 rows is manageable for performance. The key point is reworded to match.",
+    "Open in Excel is only mentioned as an existing capability, so its status stays unclear.",
+    "All existing quotes check out as verbatim. Some run across segment boundaries, which is allowed."
+  ],
+  "input_hash": "11b45d2b266b15271d648fc8bde476cd95ee0c08d89e7d76b19d866f801ced42",
+  "by": "opus",
+  "at": "2026-10-07T23:09:46.433Z",
+  "applied": [
+    "Trial balance Excel report: status preview",
+    "Accounts receivable aging report: status preview",
+    "Customer top list report: status preview",
+    "Accounts payable aging report: status preview",
+    "Copilot in Excel - data analysis: status preview",
+    "Open in Excel functionality: status unclear",
+    "quote at 321s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12019300000000001
+  }
+}

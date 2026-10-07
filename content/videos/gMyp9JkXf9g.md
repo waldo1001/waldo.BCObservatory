@@ -2,7 +2,7 @@
 id: video/gMyp9JkXf9g
 type: video
 title: "What's New: Excel Reports for Finance and Sales (2024 release wave 1)"
-summary: "Excel reports for finance and sales in Business Central, 2024 release wave 1: trial balance (in preview), receivables and payables aging and customer top list (generally available), plus Copilot in Excel data analysis (in preview). Covers aggregation limits, roadmap and a Copilot outlier detection demo."
+summary: "Business Central 2024 release wave 1 adds eight Excel reports for finance and sales: trial balances, receivables and payables aging, and customer top list. They are marked preview but described as fully functional. The session covers how to find the reports, data aggregation limits and the roadmap, and demos Copilot in Excel (preview) finding outliers in vendor aging data."
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - customer top list
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:46.433Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:46.479Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,33 +37,33 @@ evidence:
     t: 78
     quote: they are marked with preview for now because we might have some design changes we want to do but they're fully functional
   - kind: video
-    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s
-    title: "Accounts receivable aging report: generally available"
+    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s
+    title: "Accounts receivable aging report: preview"
     date: "2024-04-04T13:30:25.000Z"
     commit: null
-    t: 583
-    quote: in this release in in in the first wave uh April wave we have released eight reports
+    t: 78
+    quote: they are marked with preview for now because we might have some design changes we want to do but they're fully functional
   - kind: video
-    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s
-    title: "Customer top list report: generally available"
+    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s
+    title: "Customer top list report: preview"
     date: "2024-04-04T13:30:25.000Z"
     commit: null
-    t: 583
-    quote: in this release in in in the first wave uh April wave we have released eight reports
+    t: 78
+    quote: they are marked with preview for now because we might have some design changes we want to do but they're fully functional
   - kind: video
-    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s
-    title: "Accounts payable aging report: generally available"
+    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s
+    title: "Accounts payable aging report: preview"
     date: "2024-04-04T13:30:25.000Z"
     commit: null
-    t: 583
-    quote: in this release in in in the first wave uh April wave we have released eight reports
+    t: 78
+    quote: they are marked with preview for now because we might have some design changes we want to do but they're fully functional
   - kind: video
     url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s
     title: "Copilot in Excel - data analysis: preview"
     date: "2024-04-04T13:30:25.000Z"
     commit: null
     t: 720
-    quote: right now in preview as of April or March 2024
+    quote: right now in preview as of April or March 2024 U there's also new things coming in Excel
   - kind: video
     url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s
     title: "What's New: Excel Reports for Finance and Sales (2024 release wave 1)"
@@ -85,6 +85,13 @@ evidence:
     commit: null
     t: 300
     quote: we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there
+  - kind: video
+    url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=321s
+    title: "What's New: Excel Reports for Finance and Sales (2024 release wave 1)"
+    date: "2024-04-04T13:30:25.000Z"
+    commit: null
+    t: 321
+    quote: we found out that when we're looking at data around at 100,000 rows is what is manageable uh performance- wise
   - kind: video
     url: https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s
     title: "What's New: Excel Reports for Finance and Sales (2024 release wave 1)"
@@ -162,17 +169,17 @@ features:
     verified: true
     status_source: video
   - name: Accounts receivable aging report
-    status: ga
+    status: preview
     t: 352
     verified: true
     status_source: video
   - name: Customer top list report
-    status: ga
+    status: preview
     t: 352
     verified: true
     status_source: video
   - name: Accounts payable aging report
-    status: ga
+    status: preview
     t: 352
     verified: true
     status_source: video
@@ -207,6 +214,9 @@ quotes:
   - t: 300
     text: we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there
     check: snapped
+  - t: 321
+    text: we found out that when we're looking at data around at 100,000 rows is what is manageable uh performance- wise
+    check: exact
   - t: 583
     text: in this release in in in the first wave uh April wave we have released eight reports the trial balances and payables and receivables
     check: exact
@@ -223,9 +233,9 @@ quotes:
 
 # What's New: Excel Reports for Finance and Sales (2024 release wave 1)
 
-> Excel reports for finance and sales in Business Central, 2024 release wave 1: trial balance (in preview), receivables and payables aging and customer top list (generally available), plus Copilot in Excel data analysis (in preview). Covers aggregation limits, roadmap and a Copilot outlier detection demo.
+> Business Central 2024 release wave 1 adds eight Excel reports for finance and sales: trial balances, receivables and payables aging, and customer top list. They are marked preview but described as fully functional. The session covers how to find the reports, data aggregation limits and the roadmap, and demos Copilot in Excel (preview) finding outliers in vendor aging data.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gMyp9JkXf9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 18:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gMyp9JkXf9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 18:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -235,13 +245,13 @@ It also explains data limits: the reports use aggregated data, not transaction-l
 
 ## Key points
 
-- The trial balance Excel report is in preview. The presenter says it is fully functional but may have design changes.
-- Trial balance data is aggregated at account and period level, with no daily totals, and is limited to about 100,000 rows for performance.
-- Trial balance uses dimensions and account categories as slicers, and has local currency and additional reporting currency versions.
-- The accounts receivable aging report is generally available. It filters by due date, period length and count, and shows data aggregated per customer per period, not at transaction level.
-- The customer top list report is generally available. It shows top customers by sales or balance with a chart, and the top count can be changed, for example to 100.
-- The accounts payable aging report is generally available. It can skip vendors with zero balance and shows aggregated data per vendor per period.
-- Copilot in Excel (in preview) can analyze report data and detect outliers with machine learning. It needs larger datasets than the demo data, and its suggestions need human verification.
+- The new Excel reports are marked preview because their design may still change, but the presenter says they are fully functional. You can find them on the role centers, in the Report Explorer (search for 'preview') or with Tell Me.
+- Eight reports shipped in 2024 release wave 1: trial balances, receivables aging, payables aging and the customer top list.
+- Trial balance data is aggregated at account and selected-period level, with no daily totals, and broken down by dimension values and account categories. About 100,000 rows was found to be manageable for performance.
+- Trial balance has slicers for dimensions and account categories, comes in local currency and additional reporting currency versions, and has a printable layout plus raw data for pivot tables and charts.
+- The accounts receivable aging report filters by aging date, due date, period length and count, can skip customers with zero balance, and offers views by period, local currency and currency. Data is aggregated per customer per period with a dimension breakdown.
+- The customer top list report shows top customers by sales or balance with a chart. The top count can be changed, for example to 100.
+- Planned reports include consolidation, closing trial balances, customer and vendor balance-to-date reports based on ledger entries, and then fixed assets, jobs, manufacturing and possibly service.
 
 ## Chapters
 
@@ -261,10 +271,10 @@ It also explains data limits: the reports use aggregated data, not transaction-l
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Trial balance Excel report | preview, demoed | [1:58](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=118s) | "they are marked with preview for now because we might have some design changes we want to do but they're fully functional" ([1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s)) |
-| Accounts receivable aging report | generally available, demoed | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "in this release in in in the first wave uh April wave we have released eight reports" ([9:43](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s)) |
-| Customer top list report | generally available, demoed | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "in this release in in in the first wave uh April wave we have released eight reports" ([9:43](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s)) |
-| Accounts payable aging report | generally available | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "in this release in in in the first wave uh April wave we have released eight reports" ([9:43](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s)) |
-| Copilot in Excel - data analysis | preview, demoed | [12:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s) | "right now in preview as of April or March 2024" ([12:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s)) |
+| Accounts receivable aging report | preview, demoed | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "they are marked with preview for now because we might have some design changes we want to do but they're fully functional" ([1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s)) |
+| Customer top list report | preview, demoed | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "they are marked with preview for now because we might have some design changes we want to do but they're fully functional" ([1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s)) |
+| Accounts payable aging report | preview | [5:52](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=352s) | "they are marked with preview for now because we might have some design changes we want to do but they're fully functional" ([1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s)) |
+| Copilot in Excel - data analysis | preview, demoed | [12:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s) | "right now in preview as of April or March 2024 U there's also new things coming in Excel" ([12:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s)) |
 | Open in Excel functionality | status not stated | [11:25](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=685s) |  |
 
 ## AL objects mentioned
@@ -291,6 +301,7 @@ More than one object has this name, so none is linked: report "Trial balance".
 - [1:18](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=78s) "they are marked with preview for now because we might have some design changes we want to do but they're fully functional"
 - [4:40](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=280s) "for the trial balance uh we have decided that the aggregation level is of course accounts the"
 - [5:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=300s) "we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there"
+- [5:21](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=321s) "we found out that when we're looking at data around at 100,000 rows is what is manageable uh performance- wise"
 - [9:43](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s) "in this release in in in the first wave uh April wave we have released eight reports the trial balances and payables and receivables"
 - [9:43](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=583s) "we want to include uh more Finance reports the consolidation reports the uh closing trial balances uh we want to include more reports for"
 - [12:00](https://www.youtube.com/watch?v=gMyp9JkXf9g&t=720s) "right now in preview as of April or March 2024 U there's also new things coming in Excel and since Excel reports are in"

@@ -2,7 +2,7 @@
 id: video/kAFdLxb2ghc
 type: video
 title: "What's New: E-Documents (2024 release wave 1)"
-summary: "E-Documents in Business Central 2024 release wave 1: the new e-documents core app and framework, PayPal B3 and Peppol format support, Danish and Belgian localizations, and purchase order matching for incoming e-documents. Includes demos of sales export, workflow, audit logs and a bank-reconciliation-style matching page."
+summary: "E-Documents in Business Central 2024 release wave 1: the separate e-documents core app and framework, the Peppol format (captioned as 'PayPal'/'P B3') delivered as code and as a data exchange definition, a third-party access point connector app, Danish and Belgian localizations, and purchase order matching for incoming e-documents. Demos cover Contoso demo data, sales invoice export through workflow and logs, the bank-reconciliation-style line matching page, and how partners can extend the framework."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - vendor matching
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:09:54.528Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:09:54.597Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -53,6 +53,13 @@ evidence:
     commit: null
     t: 362
     quote: we deliver P format support why because of your feedback when we created first framework we didn't support any format
+  - kind: video
+    url: https://www.youtube.com/watch?v=kAFdLxb2ghc&t=458s
+    title: "What's New: E-Documents (2024 release wave 1)"
+    date: "2024-04-04T13:30:26.000Z"
+    commit: null
+    t: 458
+    quote: currently we are supporting only one access point but we are planning to add more access points there
   - kind: video
     url: https://www.youtube.com/watch?v=kAFdLxb2ghc&t=519s
     title: "What's New: E-Documents (2024 release wave 1)"
@@ -88,13 +95,6 @@ evidence:
     commit: null
     t: 813
     quote: before enable you need to have because there dependency you need to uh first enable comma module and Warehouse module after that you need
-  - kind: video
-    url: https://www.youtube.com/watch?v=kAFdLxb2ghc&t=911s
-    title: "What's New: E-Documents (2024 release wave 1)"
-    date: "2024-04-04T13:30:26.000Z"
-    commit: null
-    t: 911
-    quote: the document format that we are actually providing in the framework is the
   - kind: video
     url: https://www.youtube.com/watch?v=kAFdLxb2ghc&t=973s
     title: "What's New: E-Documents (2024 release wave 1)"
@@ -256,11 +256,6 @@ features:
     t: 438
     verified: false
     status_source: video
-  - name: PayPal B3 format support
-    status: unclear
-    t: 362
-    verified: false
-    status_source: video
   - name: Data exchange definition for e-documents
     status: unclear
     t: 418
@@ -306,16 +301,6 @@ features:
     t: 1127
     verified: false
     status_source: video
-  - name: E-Document Audit Logs
-    status: unclear
-    t: 1187
-    verified: false
-    status_source: video
-  - name: Purchase Order Matching
-    status: unclear
-    t: 1266
-    verified: false
-    status_source: video
   - name: E-Document Line Matching Interface
     status: unclear
     t: 1338
@@ -339,16 +324,6 @@ features:
   - name: E-Document File Export and Download
     status: unclear
     t: 1208
-    verified: false
-    status_source: video
-  - name: Copilot-Assisted E-Document Matching
-    status: unclear
-    t: 1338
-    verified: false
-    status_source: video
-  - name: E-document vendor invoice matching
-    status: unclear
-    t: 1568
     verified: false
     status_source: video
   - name: E-documents framework extensibility
@@ -431,6 +406,9 @@ quotes:
   - t: 362
     text: we deliver P format support why because of your feedback when we created first framework we didn't support any format
     check: exact
+  - t: 458
+    text: currently we are supporting only one access point but we are planning to add more access points there
+    check: exact
   - t: 519
     text: we deliver localization for Denmark both formas obl and P so you can choose both of them um in Danish um uh environment
     check: exact
@@ -446,9 +424,6 @@ quotes:
   - t: 813
     text: before enable you need to have because there dependency you need to uh first enable comma module and Warehouse module after that you need
     check: exact
-  - t: 911
-    text: the document format that we are actually providing in the framework is the
-    check: fuzzy
   - t: 973
     text: this is one of the formats that we provide for you out of the box for free
     check: exact
@@ -495,9 +470,9 @@ quotes:
 
 # What's New: E-Documents (2024 release wave 1)
 
-> E-Documents in Business Central 2024 release wave 1: the new e-documents core app and framework, PayPal B3 and Peppol format support, Danish and Belgian localizations, and purchase order matching for incoming e-documents. Includes demos of sales export, workflow, audit logs and a bank-reconciliation-style matching page.
+> E-Documents in Business Central 2024 release wave 1: the separate e-documents core app and framework, the Peppol format (captioned as 'PayPal'/'P B3') delivered as code and as a data exchange definition, a third-party access point connector app, Danish and Belgian localizations, and purchase order matching for incoming e-documents. Demos cover Contoso demo data, sales invoice export through workflow and logs, the bank-reconciliation-style line matching page, and how partners can extend the framework.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kAFdLxb2ghc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kAFdLxb2ghc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 36:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -507,13 +482,13 @@ Demos use a Contoso demo module. They show a sales invoice exported through a Pe
 
 ## Key points
 
-- The e-documents core app is separate from the base app, but some functionality stays in the base app to avoid breaking existing partner-based localizations. The stated aim is more than 80% of common features.
-- PayPal B3 format is delivered as pure code and as a data exchange definition with field mapping. Data exchange definitions are a faster alternative to building a custom format in code.
-- Localizations delivered: Denmark (PayPal B3 and OBL) and Belgium (PayPal). Planned: German, Spanish, and Australia/New Zealand, with Italy and Mexico legacy functionality to be upgraded. Timing depends on country enforcement.
-- The third-party access point integration app currently supports only one access point. More are planned.
-- Purchase order matching links incoming e-documents to existing purchase orders, or creates new ones if none exist. It supports one-to-one, one-to-many and many-to-one matching. The matching page works like bank reconciliation.
-- Cost differences are allowed when matching, with a notification. If the user accepts, the purchase order is updated with the received cost, discount, quantity to invoice, vendor invoice number and document date. Posting the invoice still requires user action.
-- Sending a sales e-document needs a document sending profile with e-documents enabled on the customer. The Peppol format needs the reference number field. Processing runs in background jobs and every step is logged for audit.
+- The e-documents core app is separate from the base app. Some parts stay in the base app to avoid breaking existing partner-based localizations. Together with the third-party connector app, the aim is more than 80% of the features needed.
+- The Peppol format (captioned as 'PayPal B3'/'pebble') ships as a code solution based on existing XMLports and as a data exchange definition. Before this, no format was included and partners had to build their own.
+- Localizations delivered: Denmark (Peppol and OBL) and Belgium (Peppol). Planned: German, Spanish and Australia/New Zealand, and the legacy Italy and Mexico functionality will be upgraded. Timing depends on enforcement in each country.
+- The third-party access point integration app covers authentication, communication and messaging. It currently supports only one access point, with more planned, and it can be extended.
+- Purchase order matching links incoming e-documents to existing purchase orders, or creates new ones based on vendor setup. It supports one-to-one, one-to-many and many-to-one matching. The matching page works like bank reconciliation, and Copilot matching is covered in a separate session.
+- Cost differences are allowed when matching, with a notification. Applying to the purchase order updates cost, discount, quantity to invoice, vendor invoice number and document date. Posting is still a separate step.
+- Sending a sales e-document needs a document sending profile with e-documents enabled on the customer. The Peppol format needs a reference number. Processing runs in background jobs, every step is logged, and retention policies and error handling are provided.
 
 ## Chapters
 
@@ -535,40 +510,35 @@ Demos use a Contoso demo module. They show a sales invoice exported through a Pe
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| E-documents core app | status not stated | [1:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=70s) |  |
-| Third-party access point integration app | status not stated | [7:18](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=438s) |  |
-| PayPal B3 format support | status not stated | [6:02](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=362s) |  |
-| Data exchange definition for e-documents | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=418s) |  |
-| Danish localization with PayPal and OBL | status not stated | [8:39](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=519s) |  |
-| Belgian localization with PayPal | status not stated | [8:59](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=539s) |  |
-| Purchase order matching for incoming e-documents | status not stated, demoed | [10:52](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=652s) |  |
-| Copilot-assisted purchase order matching | status not stated | [12:13](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=733s) |  |
-| E-documents demo data module | status not stated, demoed | [12:33](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=753s) |  |
-| E-Document Framework | status not stated, demoed | [13:13](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=793s) |  |
-| Peppol Format E-Document Service | status not stated, demoed | [15:11](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=911s) |  |
-| E-Document Workflow Automation | status not stated, demoed | [18:47](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1127s) |  |
-| E-Document Audit Logs | status not stated, demoed | [19:47](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1187s) |  |
-| Purchase Order Matching | status not stated, demoed | [21:06](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1266s) |  |
-| E-Document Line Matching Interface | status not stated, demoed | [22:18](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1338s) |  |
-| E-Document Cost Variance Handling | status not stated, demoed | [24:55](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1495s) |  |
-| Purchase Order Update with E-Document Data | status not stated, demoed | [25:48](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1548s) |  |
-| Sales Invoice E-Document Export | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1054s) |  |
-| E-Document File Export and Download | status not stated, demoed | [20:08](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1208s) |  |
-| Copilot-Assisted E-Document Matching | status not stated | [22:18](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1338s) |  |
-| E-document vendor invoice matching | status not stated, demoed | [26:08](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1568s) |  |
-| E-documents framework extensibility | status not stated | [27:29](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1649s) |  |
-| Document format interface | status not stated | [28:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1730s) |  |
-| Integration interface for messaging | status not stated | [28:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1730s) |  |
-| E-document helper code units | status not stated | [29:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1750s) |  |
-| Copilot support for e-document extensions | status not stated | [29:30](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1770s) |  |
-| Field mapping for export and import | status not stated | [30:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1850s) |  |
-| Background job processing for e-documents | status not stated, demoed | [31:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1870s) |  |
-| E-document audit trail | status not stated | [31:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1882s) |  |
-| E-document retention policies | status not stated | [31:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1882s) |  |
-| E-document error handling framework | status not stated | [31:42](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1902s) |  |
-| E-document dashboard and status cards | status not stated, demoed | [32:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1942s) |  |
+| Feature | Status | At |
+|---|---|---|
+| E-documents core app | status not stated | [1:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=70s) |
+| Third-party access point integration app | status not stated | [7:18](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=438s) |
+| Data exchange definition for e-documents | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=418s) |
+| Danish localization with PayPal and OBL | status not stated | [8:39](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=519s) |
+| Belgian localization with PayPal | status not stated | [8:59](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=539s) |
+| Purchase order matching for incoming e-documents | status not stated, demoed | [10:52](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=652s) |
+| Copilot-assisted purchase order matching | status not stated | [12:13](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=733s) |
+| E-documents demo data module | status not stated, demoed | [12:33](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=753s) |
+| E-Document Framework | status not stated, demoed | [13:13](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=793s) |
+| Peppol Format E-Document Service | status not stated, demoed | [15:11](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=911s) |
+| E-Document Workflow Automation | status not stated, demoed | [18:47](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1127s) |
+| E-Document Line Matching Interface | status not stated, demoed | [22:18](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1338s) |
+| E-Document Cost Variance Handling | status not stated, demoed | [24:55](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1495s) |
+| Purchase Order Update with E-Document Data | status not stated, demoed | [25:48](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1548s) |
+| Sales Invoice E-Document Export | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1054s) |
+| E-Document File Export and Download | status not stated, demoed | [20:08](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1208s) |
+| E-documents framework extensibility | status not stated | [27:29](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1649s) |
+| Document format interface | status not stated | [28:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1730s) |
+| Integration interface for messaging | status not stated | [28:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1730s) |
+| E-document helper code units | status not stated | [29:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1750s) |
+| Copilot support for e-document extensions | status not stated | [29:30](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1770s) |
+| Field mapping for export and import | status not stated | [30:50](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1850s) |
+| Background job processing for e-documents | status not stated, demoed | [31:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1870s) |
+| E-document audit trail | status not stated | [31:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1882s) |
+| E-document retention policies | status not stated | [31:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1882s) |
+| E-document error handling framework | status not stated | [31:42](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1902s) |
+| E-document dashboard and status cards | status not stated, demoed | [32:22](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1942s) |
 
 ## AL objects mentioned
 
@@ -596,12 +566,12 @@ Not found in BC28-30: interface "document format interface", interface "integrat
 - [1:10](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=70s) "we deliver e doent core app but if you can see this light blue in a Bas app yes some part of e doents"
 - [2:11](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=131s) "in general we are looking to have more than 80% of all features you will need in documents"
 - [6:02](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=362s) "we deliver P format support why because of your feedback when we created first framework we didn't support any format"
+- [7:38](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=458s) "currently we are supporting only one access point but we are planning to add more access points there"
 - [8:39](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=519s) "we deliver localization for Denmark both formas obl and P so you can choose both of them um in Danish um uh environment"
 - [8:59](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=539s) "we are planning additional localizations I cannot say exactly when uh it depends of enforcement from country to country"
 - [10:31](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=631s) "when it comes to purchase process it becomes uh much more complicated and what we can see more and more countries enforcing uh electronic"
 - [11:32](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=692s) "now with the new new release you can match without any problem actually what you can do if there is um no purchase order"
 - [13:33](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=813s) "before enable you need to have because there dependency you need to uh first enable comma module and Warehouse module after that you need"
-- [15:11](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=911s) "the document format that we are actually providing in the framework is the"
 - [16:13](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=973s) "this is one of the formats that we provide for you out of the box for free"
 - [19:07](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1147s) "for this service we will pick it up and run this workflow"
 - [20:08](https://www.youtube.com/watch?v=kAFdLxb2ghc&t=1208s) "be locked so that you can easily audit what is going on with a e"

@@ -2,7 +2,7 @@
 id: video/kAwI0EGSyls
 type: video
 title: "What's new: Governance & Administration (2024 release wave 1)"
-summary: "Business Central 2024 release wave 1 governance and administration changes: environment transfer between Entra tenants, 14-day deleted environment recovery, a Business Central administrator role, environment-level partner access, preview apps, Power Platform linking, customer lockbox, customer managed keys (announced) and Purview auditing."
+summary: "Business Central 2024 release wave 1 governance and administration session. Already shipped: self-service environment transfer between Entra tenants (February), a 14-day recovery period for deleted environments, and the Dynamics 365 Business Central administrator role. Upcoming: environment-level partner access controls, customer managed encryption keys and Purview auditing. Also covers AppSource preview apps for sandboxes, linking to Power Platform environments, and customer lockbox."
 tier: official
 language: en
 tags:
@@ -20,25 +20,18 @@ tags:
   - purview
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:03.179Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:03.224Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 50a3a771ea75af27aee675dc5ad9555dd4f118e6355b1aeee18c7af5c8e37d40
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=kAwI0EGSyls&t=517s
-    title: "AppSource preview app installations: preview"
-    date: "2024-04-04T13:30:21.000Z"
-    commit: null
-    t: 517
-    quote: the publisher of an appsource app may run a preview for a future version of an already public app or a new app preview
   - kind: video
     url: https://www.youtube.com/watch?v=kAwI0EGSyls&t=930s
     title: "Customer managed encryption keys: announced"
@@ -166,9 +159,9 @@ features:
     verified: false
     status_source: video
   - name: AppSource preview app installations
-    status: preview
+    status: unclear
     t: 517
-    verified: true
+    verified: false
     status_source: video
   - name: Business Central and Power Platform environment linking
     status: unclear
@@ -222,9 +215,9 @@ quotes:
 
 # What's new: Governance & Administration (2024 release wave 1)
 
-> Business Central 2024 release wave 1 governance and administration changes: environment transfer between Entra tenants, 14-day deleted environment recovery, a Business Central administrator role, environment-level partner access, preview apps, Power Platform linking, customer lockbox, customer managed keys (announced) and Purview auditing.
+> Business Central 2024 release wave 1 governance and administration session. Already shipped: self-service environment transfer between Entra tenants (February), a 14-day recovery period for deleted environments, and the Dynamics 365 Business Central administrator role. Upcoming: environment-level partner access controls, customer managed encryption keys and Purview auditing. Also covers AppSource preview apps for sandboxes, linking to Power Platform environments, and customer lockbox.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kAwI0EGSyls) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 18:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kAwI0EGSyls) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 18:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -263,7 +256,7 @@ It then covers AppSource preview apps in sandboxes, linking Business Central env
 | Deleted environment recovery period extension | status not stated | [5:11](https://www.youtube.com/watch?v=kAwI0EGSyls&t=311s) |  |
 | Dynamics 365 Business Central administrator role | status not stated | [6:02](https://www.youtube.com/watch?v=kAwI0EGSyls&t=362s) |  |
 | Environment-level partner access controls | status not stated | [7:15](https://www.youtube.com/watch?v=kAwI0EGSyls&t=435s) |  |
-| AppSource preview app installations | preview, demoed | [8:37](https://www.youtube.com/watch?v=kAwI0EGSyls&t=517s) | "the publisher of an appsource app may run a preview for a future version of an already public app or a new app preview" ([8:37](https://www.youtube.com/watch?v=kAwI0EGSyls&t=517s)) |
+| AppSource preview app installations | status not stated, demoed | [8:37](https://www.youtube.com/watch?v=kAwI0EGSyls&t=517s) |  |
 | Business Central and Power Platform environment linking | status not stated | [10:42](https://www.youtube.com/watch?v=kAwI0EGSyls&t=642s) |  |
 | Customer lockbox for Business Central | status not stated | [12:53](https://www.youtube.com/watch?v=kAwI0EGSyls&t=773s) |  |
 | Customer managed encryption keys | announced | [15:30](https://www.youtube.com/watch?v=kAwI0EGSyls&t=930s) | "this is a heads up that this will be coming later in this wave" ([15:30](https://www.youtube.com/watch?v=kAwI0EGSyls&t=930s)) |

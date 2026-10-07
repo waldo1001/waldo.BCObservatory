@@ -18,12 +18,12 @@ tags:
   - powershell 7
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:47.726Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:47.779Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -214,7 +214,7 @@ quotes:
 
 > AL runtime and database changes in Business Central 2024 release wave 1: new number sequence methods (restart, range start), change log cleanup and an on-premises alter key method, table-level field tooltips, test field navigation links, and the move to .NET 8 and PowerShell 7.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=OLN-2Ec2GMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=OLN-2Ec2GMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 17:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -246,20 +246,20 @@ It also covers field tooltips defined once on the table, new system tables for t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Number sequence next/current/exist methods performance | status not stated | [0:37](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=37s) |  |
-| Number sequence restart method | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=57s) |  |
-| Number sequence range start method | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=88s) |  |
-| Change log entry cleanup optimization | status not stated | [2:25](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=145s) |  |
-| Alter key method for on-premises | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=185s) |  |
-| Removal of force order and loop join server settings | status not stated | [4:32](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=272s) |  |
-| Field tooltips on table definition | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=307s) |  |
-| System tables for translatable texts | status not stated | [7:09](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=429s) |  |
-| Actionable errors with test field navigation | status not stated, demoed | [9:04](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=544s) |  |
-| Error handling documentation expansion | status not stated | [10:58](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=658s) |  |
-| Runtime migration to .NET 8 | status not stated | [11:50](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=710s) |  |
-| PowerShell 7 migration and backward compatibility bridge | status not stated | [12:30](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=750s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Number sequence next/current/exist methods performance | status not stated | [0:37](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=37s) |
+| Number sequence restart method | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=57s) |
+| Number sequence range start method | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=88s) |
+| Change log entry cleanup optimization | status not stated | [2:25](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=145s) |
+| Alter key method for on-premises | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=185s) |
+| Removal of force order and loop join server settings | status not stated | [4:32](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=272s) |
+| Field tooltips on table definition | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=307s) |
+| System tables for translatable texts | status not stated | [7:09](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=429s) |
+| Actionable errors with test field navigation | status not stated, demoed | [9:04](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=544s) |
+| Error handling documentation expansion | status not stated | [10:58](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=658s) |
+| Runtime migration to .NET 8 | status not stated | [11:50](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=710s) |
+| PowerShell 7 migration and backward compatibility bridge | status not stated | [12:30](https://www.youtube.com/watch?v=OLN-2Ec2GMM&t=750s) |
 
 ## AL objects mentioned
 

@@ -20,12 +20,12 @@ tags:
   - nemhandle registration
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:10:21.755Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:10:21.802Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -53,6 +53,13 @@ evidence:
     commit: null
     t: 129
     quote: everything what is related with bookkeeping with the keeping uh data for 5 years for example it will not be standard solution uh anymore
+  - kind: video
+    url: https://www.youtube.com/watch?v=hcu7T3qLdDA&t=190s
+    title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
+    date: "2024-04-04T13:30:18.000Z"
+    commit: null
+    t: 190
+    quote: if you're using on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation
   - kind: video
     url: https://www.youtube.com/watch?v=hcu7T3qLdDA&t=458s
     title: "What's New: The Danish Bookkeeping Act (2024 release wave 1)"
@@ -280,11 +287,6 @@ features:
     t: 510
     verified: false
     status_source: video
-  - name: Electronic VAT Registration Notification
-    status: unclear
-    t: 510
-    verified: false
-    status_source: video
   - name: SAF-T Dimensions Export
     status: unclear
     t: 848
@@ -370,11 +372,6 @@ features:
     t: 2158
     verified: false
     status_source: video
-  - name: E-Documents and E-Invoicing Integration
-    status: unclear
-    t: 2304
-    verified: false
-    status_source: video
 objects_mentioned:
   - page SAF-T Setup Guide
   - table Accounting Period
@@ -412,6 +409,9 @@ quotes:
   - t: 129
     text: everything what is related with bookkeeping with the keeping uh data for 5 years for example it will not be standard solution uh anymore
     check: snapped
+  - t: 190
+    text: if you're using on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation
+    check: exact
   - t: 458
     text: from February 1st uh we updated our terms of use for uh Denmark so now we have we are abolutely compliance we didn't activate
     check: exact
@@ -469,7 +469,7 @@ quotes:
 
 > Business Central features for the Danish Bookkeeping Act (2024 release wave 1): SAF-T export and setup, chart of accounts mapping, VAT submission through the tax API, mandatory digital vouchers, 5-year retention, CVR number blocking and NemHandle registration. Includes a demo of SAF-T setup and voucher attachment.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hcu7T3qLdDA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 40:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hcu7T3qLdDA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-04 · 40:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -479,13 +479,13 @@ The demos show the SAF-T setup guide, mapping the company chart of accounts to t
 
 ## Key points
 
-- SAF-T setup guide must be enabled in feature management; enabling it in one company enables it for all. All accounts must be mapped to the standard chart, and VAT posting setup mapping is optional.
-- Large SAF-T exports need the parallel processing option, which schedules file generation. Regas Basis export to CSV is also available, and SAF-T files can be imported to keep history.
-- Digital vouchers: sales invoices get one generated and attached on posting. Purchase documents need a manual attachment, and posting is blocked without it. Voluntary until July 1st, then enforced.
-- After posting, the original attachment cannot be removed or changed, but additional attachments can be added.
-- Transactions and vouchers are kept at least 5 years. Daily export to secure blob storage is cloud only, and users cannot access that data.
-- In production, GL posting is blocked until the CVR number is entered. Once entered it cannot be removed, and the company cannot be deleted. Sandboxes are exempt, and copying a company does not copy the CVR number.
-- VAT submission through the tax API to SKAT: the cloud uses a pre-installed Microsoft certificate, while on-premises needs the customer's own SKAT certificate. The NemHandle notification cannot be disabled in production.
+- Business Central is certified by the DBA from January 1st 2024 as a standard solution, for the cloud only. On-premises is not certified, and customizations or ISV apps that affect bookkeeping must be certified by the partner.
+- The SAF-T feature is enabled from feature management, and enabling it in one company enables it for all. All accounts must be mapped to the standard chart of accounts. VAT posting setup mapping is optional.
+- SAF-T export produces master data, GL entries and source documents files. For big exports, the parallel processing option can schedule file generation. You can also export Regnskab Basis data to CSV and import SAF-T files to keep history.
+- Digital vouchers: sales invoices get one generated and attached automatically on posting. Purchase documents need a manual attachment, and posting is blocked without it. This is voluntary until July 1st and enforced after that.
+- After posting, the original attachment cannot be removed or updated, but you can add more attachments.
+- Transactions and vouchers are kept for at least 5 years through a daily export to secure blob storage. This applies to the cloud only, and users cannot access that data.
+- In production, GL posting is blocked until the CVR number is entered. Once entered, it cannot be removed and the company cannot be deleted. Sandboxes are exempt, and copying a company does not copy the CVR number.
 
 ## Chapters
 
@@ -511,34 +511,32 @@ The demos show the SAF-T setup guide, mapping the company chart of accounts to t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| SAF-T (Standard Audit File - Tax) Export | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=551s) |  |
-| Public Standard Chart of Accounts | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=571s) |  |
-| Public Standard VAT Chart of Accounts | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=571s) |  |
-| Regas Basis Export to CSV | status not stated | [10:12](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=612s) |  |
-| SAF-T File Import | status not stated | [9:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=592s) |  |
-| Mandatory Digital Vouchers as Attachments | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=510s) |  |
-| 5-Year Data Retention Compliance | status not stated | [8:30](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=510s) |  |
-| Electronic VAT Registration Notification | status not stated | [8:30](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=510s) |  |
-| SAF-T Dimensions Export | status not stated, demoed | [14:08](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=848s) |  |
-| SAF-T Setup Guide | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=632s) |  |
-| RB Accounting File Generation | status not stated, demoed | [16:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1001s) |  |
-| VAT Submission via Tax API | status not stated | [18:03](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1083s) |  |
-| NemHandle Notification and Registration | status not stated | [19:04](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1144s) |  |
-| E-Document Invoicing Framework | status not stated | [20:39](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1239s) |  |
-| Digital Voucher Attachment for Purchase Invoices | status not stated, demoed | [26:14](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1574s) |  |
-| Digital Voucher Generation for Sales Invoices | status not stated, demoed | [27:40](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1660s) |  |
-| Incoming Document File Attachment to Ledger Entries | status not stated, demoed | [27:09](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1629s) |  |
-| Attachment Immutability After Posting | status not stated | [28:34](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1714s) |  |
-| Automated Transaction Export to Secure Storage | status not stated | [30:35](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1835s) |  |
-| CVR Number Requirement for Transaction Posting | status not stated | [31:49](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1909s) |  |
-| Minimal Required Fields Export for Compliance | status not stated | [33:10](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1990s) |  |
-| Sandbox Environment Exemption from CVR Requirement | status not stated | [34:58](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2098s) |  |
-| CVR Number Persistence in Production Copies | status not stated | [35:18](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2118s) |  |
-| Production Company Immutability and CVR Blocking | status not stated | [35:38](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2138s) |  |
-| Name Handle Registration Notification and Posting Blocks | status not stated | [35:58](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2158s) |  |
-| E-Documents and E-Invoicing Integration | status not stated | [38:24](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2304s) |  |
+| Feature | Status | At |
+|---|---|---|
+| SAF-T (Standard Audit File - Tax) Export | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=551s) |
+| Public Standard Chart of Accounts | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=571s) |
+| Public Standard VAT Chart of Accounts | status not stated, demoed | [9:31](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=571s) |
+| Regas Basis Export to CSV | status not stated | [10:12](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=612s) |
+| SAF-T File Import | status not stated | [9:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=592s) |
+| Mandatory Digital Vouchers as Attachments | status not stated, demoed | [8:30](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=510s) |
+| 5-Year Data Retention Compliance | status not stated | [8:30](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=510s) |
+| SAF-T Dimensions Export | status not stated, demoed | [14:08](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=848s) |
+| SAF-T Setup Guide | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=632s) |
+| RB Accounting File Generation | status not stated, demoed | [16:41](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1001s) |
+| VAT Submission via Tax API | status not stated | [18:03](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1083s) |
+| NemHandle Notification and Registration | status not stated | [19:04](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1144s) |
+| E-Document Invoicing Framework | status not stated | [20:39](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1239s) |
+| Digital Voucher Attachment for Purchase Invoices | status not stated, demoed | [26:14](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1574s) |
+| Digital Voucher Generation for Sales Invoices | status not stated, demoed | [27:40](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1660s) |
+| Incoming Document File Attachment to Ledger Entries | status not stated, demoed | [27:09](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1629s) |
+| Attachment Immutability After Posting | status not stated | [28:34](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1714s) |
+| Automated Transaction Export to Secure Storage | status not stated | [30:35](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1835s) |
+| CVR Number Requirement for Transaction Posting | status not stated | [31:49](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1909s) |
+| Minimal Required Fields Export for Compliance | status not stated | [33:10](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=1990s) |
+| Sandbox Environment Exemption from CVR Requirement | status not stated | [34:58](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2098s) |
+| CVR Number Persistence in Production Copies | status not stated | [35:18](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2118s) |
+| Production Company Immutability and CVR Blocking | status not stated | [35:38](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2138s) |
+| Name Handle Registration Notification and Posting Blocks | status not stated | [35:58](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=2158s) |
 
 ## AL objects mentioned
 
@@ -578,6 +576,7 @@ Not found in BC28-30: page "SAF-T Setup Guide", page "Audit File Expert document
 - [1:32](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=92s) "Business Central is certified in Denmark by DBA in first phase in the first set from January 1st 2024 so we are fully certified"
 - [1:52](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=112s) "Microsoft certify as a standard solution that means uh as is because we cannot predict what can be extended so by DBA this is"
 - [2:09](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=129s) "everything what is related with bookkeeping with the keeping uh data for 5 years for example it will not be standard solution uh anymore"
+- [3:10](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=190s) "if you're using on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation"
 - [7:38](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=458s) "from February 1st uh we updated our terms of use for uh Denmark so now we have we are abolutely compliance we didn't activate"
 - [7:58](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=478s) "after more more than 300 engineering days in Investments on building all these features now we are starting with a new phase Improvement based"
 - [12:12](https://www.youtube.com/watch?v=hcu7T3qLdDA&t=732s) "57 of 18600 accounts automatically matched and how I can check this I can click open the setup page"
