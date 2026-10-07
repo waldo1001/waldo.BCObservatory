@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.app.json",
+  "title": "Frontmatter of a first-party app page (content/apps/<slug>.md, D65)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": ["app", "namespace_root", "system", "present_in", "counts"],
+  "properties": {
+    "type": { "const": "app" },
+    "id": { "type": "string", "pattern": "^app/[a-z0-9][a-z0-9-]*$", "description": "app/<folder name lower-cased, spaces and dots to ->" },
+    "app": { "type": "string", "minLength": 1, "description": "the app's folder name in BCApps, as the apps snapshot lists it and every object record carries it" },
+    "namespace_root": { "type": ["string", "null"], "description": "the most common first two namespace segments of the app's objects (Microsoft.SubscriptionBilling)" },
+    "system": { "type": "string", "description": "galaxy system: the most common system of the app's objects" },
+    "present_in": { "type": "array", "items": { "type": "string" }, "description": "BC majors whose apps snapshot lists the app" },
+    "counts": {
+      "type": "object", "required": ["objects", "by_type"],
+      "properties": {
+        "objects": { "type": "integer", "minimum": 0 },
+        "by_type": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "hubs": { "type": "integer", "minimum": 0 },
+        "videos": { "type": "integer", "minimum": 0 },
+        "posts": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "objects": { "type": "array", "maxItems": 200, "items": { "type": "string" }, "description": "capped at 200; the page body lists every object" }
+      }
+    }
+  }
+}

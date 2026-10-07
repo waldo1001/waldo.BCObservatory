@@ -43,4 +43,9 @@ const changes = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "../content/changes", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
-export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes };
+const apps = defineCollection({
+  // ids are the app folder name lower-cased, spaces and dots to "-": subscription-billing (D65)
+  loader: glob({ pattern: "*.md", base: "../content/apps", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes, apps };

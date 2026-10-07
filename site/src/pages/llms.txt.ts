@@ -13,6 +13,7 @@ export const GET: APIRoute = async () => {
   const changes = (await getCollection("changes")).length;
   const digests = (await getCollection("digests")).length;
   const sources = (await getCollection("sources")).length;
+  const apps = (await getCollection("apps")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const text = [
     "# BC Observatory",
@@ -28,12 +29,17 @@ export const GET: APIRoute = async () => {
     ...(topics ? [`- [Topics](${site}topics/llms.txt): ${topics} topic hubs seeded from the Microsoft Learn TOCs, linking out to Learn`] : []),
     ...(features ? [`- [Features](${site}features/llms.txt): ${features} Business Central features from the Microsoft 365 roadmap (status, wave, dates)`] : []),
     ...(objects ? [`- [AL objects](${site}objects/llms.txt): ${objects} W1 and first-party app objects from the code (fields, procedures, events, obsolete state, versions, countries, Learn pages)`] : []),
+    ...(apps ? [`- [First-party apps](${site}apps/llms.txt): ${apps} Microsoft first-party apps (BCApps src/Apps/W1): objects by type, the Learn hubs that document them, videos and posts naming their objects`] : []),
     ...(localizations ? [`- [Localizations](${site}localizations/llms.txt): ${localizations} country layers and what they change in W1`] : []),
     ...(sources ? [`- [Sources](${site}sources/llms.txt): ${sources} blogs and channels with their footprint (systems, topics, objects named, flight path)`] : []),
     ...(digests ? [`- [Weekly digests](${site}digests/llms.txt): what changed each week (roadmap, videos, posts, Learn commits, code, deprecation radar); RSS at ${site}rss.xml`] : []),
     ...(posts ? [`- [Community posts](${site}posts/llms.txt): ${posts} Business Central blog posts as derived evidence (summary, key points, short quotes, link to the original)`] : []),
     ...(changes ? [`- [Code changes](${site}changes/llms.txt): ${changes} merged pull requests of microsoft/BCApps that touch AL source, joined to the AL object pages they changed (D61)`] : []),
     ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : []),
+    "",
+    "Related pages: data/links/related.json (in the repository) lists up to 8 per topic hub, AL object, app, video, post and feature, each with a",
+    "reason from a closed set (same title, different Learn section; set-up guide for this feature; both documented in <hub>; same Learn section;",
+    "shares <n> videos/posts; same app; implements <hub>; the full list is its `why` array). Derived from structure, nothing machine-written.",
     "",
     "## Start here",
     "",

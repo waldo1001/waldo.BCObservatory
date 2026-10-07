@@ -10,8 +10,10 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   PLAN milestone M7. Status: tranche 1 (sections 4.1-4.5: field explanations, hubs joined to their objects, tables
   inheriting Learn links through their pages, first-party apps in their system) is built and committed on `dev/next`,
   not yet merged or run by a nightly; deviations in section 8.1 of the spec. Tranche 2 (sections 5.1-5.5: search
-  ranks hubs first, groups results under tabs, shows path labels in the galaxy panel and the MCP) is committed on
-  `dev/next` too, deviations in section 8.2. Tranches 3-4 (Related and app pages, page controls) have no code yet.
+  ranks hubs first, groups results under tabs, shows path labels in the galaxy panel and the MCP) is on `dev/next`,
+  deviations in section 8.2. Tranche 3 (Related on every page from `data/links/related.json`, one page per
+  first-party app under `content/apps/`) is on `dev/spec`, deviations in section 8.3. Tranche 4 (page controls)
+  has no code yet.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
   0 on branch `dev/spec` (not yet merged), spike and later phases open, nothing installed. Stefan Maron's

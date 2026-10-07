@@ -546,6 +546,43 @@ Deviations from 5.1-5.5:
 8. **App pages (3b):** records of type `app` get `path_label` (system label), `members` and `stats`, and land in Start
    here; nothing writes such pages yet, so nothing changes until tranche 3b does.
 
+### 8.3 Tranche 3 built (2026-10-07, `dev/spec`), deviations
+
+Verified locally by re-rendering the object pages, then Related, the app pages and the graph from the committed
+`data/` (outputs discarded, no nightly). `data/links/related.json`: 10,068 pages, 33,108 rows (by rank 1: 983, 2: 67,
+3: 20,140, 4: 1,935, 5: 2,861, 6: 6,987, 7: 135), 3.6 MB. The Cloud Migration API `Subscriptions` hub lists
+`Subscription billing` and the three other SRB hubs with `same title, different Learn section`; `Subscription
+billing` lists `Set up subscription billing` (`set-up guide for this feature`); `Table 8057` lists six SRB tables
+with `both documented in Set up sales > Set up subscription billing`, `Table 252` and its app (`same app`). `Table
+8068` itself is not in 8057's eight: they share only `Contracts`, a larger hub; 8068's own list names 8002, 8052, 8059, ...
+with `both documented in Sales > Subscription billing`. 96 app pages (6 of the 102 folders have no object page);
+`app/subscription-billing` (372 objects, 5 hubs) is a star in `sales` with `ev` 5. `validate:content` passes.
+
+Deviations from 6.1-6.2:
+
+1. **Phase order.** `related` runs after `code-pages`, not after `code-derived`: a table's hubs come through its pages
+   (4.3), and only the object pages carry them. `app-pages` follows it; both run before `search-index`.
+2. **One reason per pair**, the best rank; the set-up slug rule is checked first and wins over shared title words.
+   "Different Learn section" means neither is an ancestor of the other and they are not siblings. Title words: three
+   or more letters, a trailing `s` trimmed, the stop list plus English function words.
+3. **The closed set grew** (the file lists it in `why`): hub ↔ hub on objects reads `shares <n> AL objects`; videos
+   and posts get `both linked to <hub>` (5) and `names objects of this app` (6); features and apps `app name in the
+   feature title` (6); hub → app `implemented by <app>` (7); app ↔ app `both documented in <hub>` (3).
+4. **Order inside a rank**: objects of the same AL type first, then more shared hubs, then the smaller hub (the one
+   the reason names). At most 6 rows of one rank before the others get theirs, then filled to 8, so an object keeps
+   its app row. The file carries `nodes` (`id: [title, kind, system]`) for the block, one page per line.
+5. **Graph.** Related edges (`relates`, w 0.5) are in `full.jsonl` and the ego files, so Connections shows them, but
+   not in `summary.json`, the node weights, `cross` or `sysedges`: in the summary they doubled it (963 KB to 1.76 MB)
+   and they restate links that already weigh. App → object edges are `implements` and weigh nothing either, so the
+   300 summary objects are unchanged; app → hub edges are `documents`. `full.jsonl` grows from 2.9 MB to 5.3 MB. Apps
+   sit on their system's outer arc, the layout's place for nodes without a TOC position.
+6. **Site.** `Related` is mounted once in `Page.astro` after the locator and Connections, so every information page
+   gets it where the file has rows; on object pages that is the side column under the one-hop diagram.
+7. **App pages.** "Videos and posts" keeps the exact `objects_mentioned` rule, so Subscription Billing lists none
+   (its two videos are linked to the hub by link/topics.ts and name no object exactly). The markdown carries no
+   Related list (6.1). The validator needed no code: it has no sections list and `expectedId` covers `apps/`;
+   `frontmatter.base.json` gains `app` in `type` and `id`. Search records for apps are tranche 2's.
+
 ## 9. Files
 
 | File | Change |

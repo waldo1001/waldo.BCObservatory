@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
 import { NS_SYSTEM } from "../../../../pipeline/lib/systems";
 const all = await getCollection("objects");
+// D65: the first-party apps facet links each app page
+const apps = (await getCollection("apps")).sort((a, b) => Number(b.data.counts?.objects ?? 0) - Number(a.data.counts?.objects ?? 0) || String(a.data.title).localeCompare(String(b.data.title)));
 const counts = new Map<string, number>();
 for (const e of all) counts.set(e.data.object_type, (counts.get(e.data.object_type) ?? 0) + 1);
 const base = import.meta.env.BASE_URL;
@@ -30,6 +32,11 @@ const majors = ["28", "29", "30"];
   </section>
   <h2>Per type</h2>
   <ul class="rows type-list">{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="mono-meta">{n.toLocaleString("en")}</span></li>)}</ul>
+  {apps.length > 0 && <>
+    <h2 id="apps">Per first-party app</h2>
+    <p class="meta">Each app has a page: its objects by type, the Learn hubs that document them, the videos and posts that name them (<a href={`${base}apps/`}>all apps by system</a>).</p>
+    <ul class="rows type-list">{apps.map((a) => <li><a href={`${base}apps/${a.id}/`}>{a.data.title}</a> <span class="mono-meta">{Number(a.data.counts?.objects ?? 0).toLocaleString("en")}</span></li>)}</ul>
+  </>}
 </List>
 <script>
   import { mountAtlas } from "../../scripts/atlas";
