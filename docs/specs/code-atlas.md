@@ -375,7 +375,7 @@ Close:
 
 Go rule (decision 9): W1 + apps under 30 minutes and 6 GB RSS, precision at or above 18 of 20.
 
-### 7.1 Phase 3 built (2026-10-07, `dev/spec`), deviations
+### 7.1 Phase 3 built (2026-10-07, on main), deviations
 
 Video and post pages join the objects they name. Verified by re-rendering every video page and the posts the new
 check flags from the committed `data/` (outputs discarded, no nightly): 423 video pages and 273 post pages changed;

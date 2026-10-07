@@ -585,8 +585,8 @@ Deviations from 6.1-6.2:
 
 ### 8.4 Tranche 4a built, deviations
 
-Built on `dev/extract` (2026-10-07), not pushed: the bump re-runs code jobs, which share one slot a night with the
-BC23-28 backfill (D62). `EXTRACTOR_VERSION` is `"4"`; pages and page extensions carry `controls` and `actions`
+Built 2026-10-07, on main. The bump re-ran every code job at once through an unlimited `pillars=code` dispatch (one
+major takes under five minutes), so it did not compete with the BC23-28 backfill (D62). `EXTRACTOR_VERSION` is `"4"`; pages and page extensions carry `controls` and `actions`
 (always present on those two types, `[]` when empty; absent on every other type and in older records);
 `schemas/al-object.json` describes both, still `al-object@1`. Fixture `tests/fixtures/al/pages.al` (a card with a
 group, a grid label, a `#if not CLEAN27` field, a part, a usercontrol and actions with `RunObject`; a list with a
@@ -654,7 +654,7 @@ neither BCApps branch moved.
 
 ### 8.5 Tranche 4b built, deviations
 
-Built on `dev/next` (2026-10-07), not pushed. `pipeline/code/field-docs.ts` (new) derives
+Built 2026-10-07, on main. `pipeline/code/field-docs.ts` (new) derives
 `data/code/field-docs/<major>.json` (`bcobs-field-docs@1`, `schemas/field-docs.json`) in `refreshCodeDerived`, right
 after the relations it joins through; `objects-index.ts` copies the preferred major's to `data/index/field-docs.json`.
 Table and tableextension Fields fall back to it (`via [Page 8060 "Service Object"]`), pages and page extensions get
