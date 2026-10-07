@@ -633,3 +633,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   bridged. Rejected: a segmented control (still seven targets), two pills plus the select (hides four majors),
   "since" ranges or unions (changes the one-lens model; later), `localStorage` (a different home page per reader).
   Spec: `docs/specs/version-lens.md`.
+- **D75 The observatory shows what it holds before it points elsewhere.** Object pages carry the D67 call sections
+  (Calls, Called by, Implements, Implemented by) from our own graph; the "Ask your agent" block is one closing
+  paragraph, the last section of every object page, that sends agents to bc-code-atlas only for procedure bodies and
+  per-procedure edges, which we do not store (D10) or aggregate away (D67 decision 4). It names the page's major
+  ("from the BC29 call graph") when the page has a call section; the "full call graph" clause and the CLI line are
+  gone. No fallback to another major's graph: a page reads the graph of its own major, and an object new in BC30 gets
+  edges when the BC30 graph lands. `bc-grounding` routes object-level callers to the observatory (plugin 0.2.1).
+  Rejected: a fallback graph (the 145 BC30-only pages are in no older graph), caching atlas answers (D10, D67
+  decision 1), removing the block, keeping the CLI line. Spec: `docs/specs/atlas-on-pages.md`.

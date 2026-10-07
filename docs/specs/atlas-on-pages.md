@@ -1,6 +1,6 @@
 # Object pages show the call graph we already hold, and point to the atlas only for bodies
 
-Status: proposed, 2026-10-07. Decision: D75 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-07 (phase 1 `ccdac7033`; phase 0 counted, section 12 records what was built and where it differs). Decision: D75 (appended 2026-10-07). Owner: waldo.
 Scope: object pages (markdown and site) and the `bc-grounding` skill. Every claim below was verified against the tree
 at `3b9c29bd2` on 2026-10-07. Not in scope: procedure bodies (D10), any call from the pipeline to the hosted atlas
 (D67 decision 1), a "Used by" list from declarations, event raise points, per-procedure edges, an MCP callers tool
@@ -193,19 +193,31 @@ New: none.
 
 ## 11. Definition of Done
 
-- [ ] Phase 0 count recorded in section 12 (pages with Calls and Called by on `origin/main`).
-- [ ] Tests 1 to 7 green; `validate:content` passes.
-- [ ] No object page contains "full call graph" or "CLI:"; "## Ask your agent" is the last heading on every object page.
-- [ ] `bc-grounding` routes object-level callers to the observatory.
-- [ ] D75 appended to `docs/DECISIONS.md`; PLAN M13 row marked shipped; HANDOFF entry moved from "Open specs" to
+- [x] Phase 0 count recorded in section 12 (pages with Calls and Called by on `origin/main`).
+- [x] Tests 1 to 7 green; `validate:content` passes.
+- [x] No object page contains "full call graph" or "CLI:"; "## Ask your agent" is the last heading on every object page.
+- [x] `bc-grounding` routes object-level callers to the observatory.
+- [x] D75 appended to `docs/DECISIONS.md`; PLAN M13 row marked shipped; HANDOFF entry moved from "Open specs" to
       "Shipped"; this section 12 renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-`docs/DECISIONS.md`, appended at ship time: the D75 text of section 3.
+Built 2026-10-07 on `dev/spec`, not pushed. Verified by rendering every object page from the committed `data/`
+(output discarded, no nightly): 25,644 pages written (the block text changed on all of them), every one ends with
+`## Ask your agent`; 0 contain "full call graph" or "CLI:". Section counts: 5,582 `## Calls`, 2,808 `## Called by`,
+402 `## Implements`, 94 `## Implemented by`; 6,525 pages carry the call sentence (any call section), the rest the
+short form, enum 78 among them. `validate:content` passes; the site build (Node 22) shows on `/objects/codeunit/80/`
+the Calls and Called by lists, the `calls` ring and the block as the last markdown section.
 
-`docs/PLAN.md` section 5, before `v0.2+`:
-
-`| **M13 atlas on pages** | object pages show the D67 call sections from our own graph (verify the first render, re-render once if needed); "Ask your agent" shortened to one closing paragraph for bodies and per-procedure edges; bc-grounding routes object-level callers to the observatory (\`docs/specs/atlas-on-pages.md\`, D75, proposed) | half a day | none: deterministic, no LLM |`
-
-`docs/HANDOFF.md`, "Open specs, not yet implemented": see the entry added with this spec.
+1. **Phase 0 counted locally, not on `origin/main`.** The nightly of 2026-10-07 (run 37664505302) built the graphs and
+   rendered the pages but its final push failed, so `origin/main` (28f7805db) has the graphs and 0 pages with
+   `## Calls`. The pre-change render from the committed data gave exactly the probe's 5,582 / 2,808, so task 2 has
+   nothing to fix: the re-run (37678380135) or the next nightly writes them. Recount on `origin/main` after it lands.
+2. **The block follows the closing "Source: AL metadata ..." line**, so it is the literal end of the page, not only
+   the last heading.
+3. **`AGENTS.md` corrected** (not in section 10): its "Procedure bodies and the full call graph are not here" made the
+   same wrong claim as the old block.
+4. **The skill's description** (frontmatter) moves "calls and callers per object" to the observatory as well, besides
+   the table row and step 1; plugin 0.2.1 (`plugin/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`).
+5. **Task 6 (ship night)** is the owner's: the commit rewrites about 25,600 object pages once; ride the night that
+   carries D72's rewrite and the first call-section render, never during a live nightly.
