@@ -6,7 +6,7 @@
   "title": "[main]planning worksheet requires second runof calculate regenerative plan",
   "url": "https://github.com/microsoft/BCApps/pull/10030",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:18.383Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004191
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:18.519Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:18.525Z",
+      "path": "content/changes/bcapps/10030.md"
     }
   },
   "input_hash": "ccf52a0998cd61c1da721fc25125276adcc000ef:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ea6b3271fe4dc0959973b82d9ef16f3a689066782b9fe5683e2458c852b4d1c"
+  "output_hash": "e17b97399c2848b8e2867213ba88126a1e14e3330857d07854e0d662f8c7f9e8"
 }

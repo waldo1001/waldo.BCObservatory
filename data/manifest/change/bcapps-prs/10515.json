@@ -6,10 +6,35 @@
   "title": "[Payables Agent] Fix stale Payables Agent setup save",
   "url": "https://github.com/microsoft/BCApps/pull/10515",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:19.746Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:24.072Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003142
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:24.225Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:24.231Z",
+      "path": "content/changes/bcapps/10515.md"
     }
   },
   "input_hash": "7035ab01066b0c514d9f3dfa9acae46fb3407137:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "payables agent fix stale payables agent setup save"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84f54c21837aa7d3d50e5f4bf962cb035fcb154b7499195d78b618bfd256dee4"
 }

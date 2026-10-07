@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/10559",
+  "number": 10559,
+  "title": "Ruleset hardening: promote AL0659 and AL0685 to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development",
+    "integration",
+    "platform",
+    "purchasing",
+    "warehouse",
+    "sales"
+  ],
+  "summary": "Two analyzer rules (AL0659 and AL0685) are promoted to Error severity in the ruleset by removing overrides, with pragmas added to suppress violations in 39 files where the issues are accepted as unavoidable or low-risk schema changes.",
+  "key_points": [
+    "AL0659 (enum identifier exceeds 30 characters) and AL0685 (FlowField calculation formula target longer than source) promoted from Warning to Error",
+    "106 pragma suppressions added across 39 files to accept violations rather than change schema",
+    "AL0659 identified one real collision risk in Spanish enums (SII Doc. Upload State Document Source/Type) flagged for follow-up",
+    "AL0685 suppressions acknowledge genuine truncation risk in FlowFields but accept risk over breaking schema changes",
+    "Ruleset base.ruleset.json updated to remove the two rule overrides, reducing remaining exceptions from 94 to 92"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011155,
+    "changes_in_call": 1
+  }
+}

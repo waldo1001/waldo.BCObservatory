@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10622,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10622",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-26T10:13:49Z",
+  "merge_commit_sha": "00a7fc155721ece6d80c93acd45a950c281bab13",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Build: scripts & configs",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Fix app-baseline storage account selection to use the target branch",
+  "body_hash": "bcccf9647258673505abbf4e00650b6e8cd4f8a8b46f8f2c335fc52b2f025bc4",
+  "fixes_issues": [],
+  "work_items": [
+    647772
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 24,
+    "deletions": 5,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

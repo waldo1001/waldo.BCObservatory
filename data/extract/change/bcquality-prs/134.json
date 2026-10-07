@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/134",
+  "number": 134,
+  "title": "knowledge(performance): add community rules for performance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Community performance guidance is added to the quality repository with 16 AL code examples covering partial records, HTTP deferral, multi-company access, page I/O, number-series batching, and database patterns.",
+  "key_points": [
+    "16 performance rules added with paired bad/good AL examples and markdown documentation",
+    "Covers critical patterns like partial-record behavior, transaction-safe HTTP handling, and ChangeCompany optimization",
+    "Includes guidance on cue performance, lookup pages, data access intent, and session I/O best practices",
+    "Obsolete rules like CountApprox guidance and unsupported FlowField rules removed",
+    "Examples validated against current AL APIs"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005052,
+    "changes_in_call": 1
+  }
+}

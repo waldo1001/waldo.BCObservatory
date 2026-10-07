@@ -1,0 +1,890 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10675,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10675",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T07:56:26Z",
+  "merge_commit_sha": "645267e5fce09418a57af4bef6f7b2bc0d2b4410",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep",
+  "body_hash": "699076d684bb8811e37a3949a0794a19aefb4a3ba19b09eb35ccbd9162a2a575",
+  "fixes_issues": [],
+  "work_items": [
+    646622
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Logging/EDocumentLog.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/OrderMatching/EDocOrderMatch.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/RoleCenter/SOAKPI.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Tables/ShpfyShop.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Table Extensions/GeneralLedgerSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/ContractAnalysis/SubContrAnalysisEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Overdue Service Commitments/Tables/OverdueSubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Objects/Tables/SubscriptionHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustExciseJnlLine.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustExciseTaxesTransLog.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/BufferICInboxTransaction.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/HandledICInboxTrans.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransaction.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Outbox/HandledICOutboxTrans.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/Automation/History/ReminderActionLog.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderAttachmentText.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/ChangeLog/ChangeLogEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 47,
+    "additions": 116,
+    "deletions": 0,
+    "al": 47
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Logging/EDocumentLog.Table.al",
+        "status": "modified",
+        "key": "table/6124",
+        "type": "table",
+        "id": 6124,
+        "name": "E-Document Log",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6124"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/OrderMatching/EDocOrderMatch.Table.al",
+        "status": "modified",
+        "key": "table/6164",
+        "type": "table",
+        "id": 6164,
+        "name": "E-Doc. Order Match",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6164"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+        "status": "modified",
+        "key": "table/6103",
+        "type": "table",
+        "id": 6103,
+        "name": "E-Document Service",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6103"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+        "status": "modified",
+        "key": "table/6923",
+        "type": "table",
+        "id": 6923,
+        "name": "Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6923"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/RoleCenter/SOAKPI.Table.al",
+        "status": "modified",
+        "key": "table/4593",
+        "type": "table",
+        "id": 4593,
+        "name": "SOA KPI",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "table/4593"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Tables/ShpfyShop.Table.al",
+        "status": "modified",
+        "key": "table/30102",
+        "type": "table",
+        "id": 30102,
+        "name": "Shpfy Shop",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30102"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Table Extensions/GeneralLedgerSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8051",
+        "type": "tableextension",
+        "id": 8051,
+        "name": "General Ledger Setup",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8051"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/ContractAnalysis/SubContrAnalysisEntry.Table.al",
+        "status": "modified",
+        "key": "table/8019",
+        "type": "table",
+        "id": 8019,
+        "name": "Sub. Contr. Analysis Entry",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8019"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Overdue Service Commitments/Tables/OverdueSubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8007",
+        "type": "table",
+        "id": 8007,
+        "name": "Overdue Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8007"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Objects/Tables/SubscriptionHeader.Table.al",
+        "status": "modified",
+        "key": "table/8057",
+        "type": "table",
+        "id": 8057,
+        "name": "Subscription Header",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8057"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+        "status": "modified",
+        "key": "table/8006",
+        "type": "table",
+        "id": 8006,
+        "name": "Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8006"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustExciseJnlLine.Table.al",
+        "status": "modified",
+        "key": "table/6240",
+        "type": "table",
+        "id": 6240,
+        "name": "Sust. Excise Jnl. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6240"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustExciseTaxesTransLog.Table.al",
+        "status": "modified",
+        "key": "table/6241",
+        "type": "table",
+        "id": 6241,
+        "name": "Sust. Excise Taxes Trans. Log",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6241"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/BufferICInboxTransaction.Table.al",
+        "status": "modified",
+        "key": "table/610",
+        "type": "table",
+        "id": 610,
+        "name": "Buffer IC Inbox Transaction",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/610"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/HandledICInboxTrans.Table.al",
+        "status": "modified",
+        "key": "table/420",
+        "type": "table",
+        "id": 420,
+        "name": "Handled IC Inbox Trans.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/420"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Inbox/ICInboxTransaction.Table.al",
+        "status": "modified",
+        "key": "table/418",
+        "type": "table",
+        "id": 418,
+        "name": "IC Inbox Transaction",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/418"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Outbox/HandledICOutboxTrans.Table.al",
+        "status": "modified",
+        "key": "table/416",
+        "type": "table",
+        "id": 416,
+        "name": "Handled IC Outbox Trans.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/416"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/Automation/History/ReminderActionLog.Table.al",
+        "status": "modified",
+        "key": "table/6752",
+        "type": "table",
+        "id": 6752,
+        "name": "Reminder Action Log",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6752"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/TermsAndLevels/ReminderAttachmentText.Table.al",
+        "status": "modified",
+        "key": "table/502",
+        "type": "table",
+        "id": 502,
+        "name": "Reminder Attachment Text",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/502"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/ChangeLog/ChangeLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/405",
+        "type": "table",
+        "id": 405,
+        "name": "Change Log Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/405"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "sales",
+    "purchasing",
+    "integration",
+    "sustainability"
+  ],
+  "apps": [
+    "Base Application",
+    "EDocument",
+    "ExpenseAgent",
+    "SalesOrderAgent",
+    "Shopify",
+    "Subscription Billing",
+    "Sustainability"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[SOA] Skip content extraction for image attachments",
   "url": "https://github.com/microsoft/BCApps/pull/10665",
   "published_at": "2026-08-27T13:35:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:22.907Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:27.875Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00394
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:28.022Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:28.028Z",
+      "path": "content/changes/bcapps/10665.md"
     }
   },
   "input_hash": "3c30482c629f5a062e1d84d087e834c9461331b9:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa skip content extraction for image attachments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24c8f58c5c750a13ac016bde6c095b240c1961b0135e811d8c730509d939ee08"
 }

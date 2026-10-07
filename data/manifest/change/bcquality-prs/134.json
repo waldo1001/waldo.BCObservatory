@@ -6,10 +6,35 @@
   "title": "knowledge(performance): add community rules for performance",
   "url": "https://github.com/microsoft/BCQuality/pull/134",
   "published_at": "2026-08-27T12:04:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:25.184Z",
+      "change_class": "code",
+      "files": 48,
+      "al": 48,
+      "objects": 0,
+      "unjoined": 48
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:30.610Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005052
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:30.611Z",
+      "objects": 0,
+      "unjoined": 48,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:07:34.032Z",
+      "path": "content/changes/bcquality/134.md"
     }
   },
   "input_hash": "293f9b13e7d132f110bddffb48540c837265c762:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge performance add community rules for performance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb5c88ae344d107364f1f31f7202127c2995b9c6d653b7076b72bdc2dd9a024e"
 }

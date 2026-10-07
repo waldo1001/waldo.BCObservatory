@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10665",
+  "number": 10665,
+  "title": "[SOA] Skip content extraction for image attachments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now skips content extraction for image attachments and uses their stored text content instead, improving processing reliability while maintaining relevance filtering for all attachments.",
+  "key_points": [
+    "Image attachments bypass the extraction model (which rejects them) and use pre-stored text content",
+    "New IsImageAttachmentContentType function identifies standard and non-standard image MIME types",
+    "Non-image attachments continue through the existing extraction and system-ID marker check path",
+    "Relevance evaluation still applies to all attachments regardless of extraction bypass",
+    "Change is marked temporary pending future extraction model support for images"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00394,
+    "changes_in_call": 1
+  }
+}

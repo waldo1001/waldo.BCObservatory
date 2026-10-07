@@ -6,7 +6,7 @@
   "title": "Mileage Rate Setup",
   "url": "https://github.com/microsoft/BCApps/pull/10561",
   "published_at": "2026-08-27T18:05:28Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.005005
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:17.915Z",
+      "objects": 28,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:17.924Z",
+      "path": "content/changes/bcapps/10561.md"
     }
   },
   "input_hash": "02e4780c568f98804be46f0f4a106ce26e12162f:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f74bae9d91fdab1c3c38cbbe7968d1a87716ea84f99e436647622f7537ae62a1"
+  "output_hash": "79d97cd76e741c07d57bde643a1f740287d3f4f99187a83e4ca561ff8d539679"
 }

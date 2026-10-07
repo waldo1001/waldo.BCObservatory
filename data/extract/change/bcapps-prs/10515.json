@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10515",
+  "number": 10515,
+  "title": "[Payables Agent] Fix stale Payables Agent setup save",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent Setup now persists instruction updates in a single final modification to prevent stale-record errors when applying agent instructions during setup.",
+  "key_points": [
+    "Separated instruction application and hash calculation from immediate setup-record persistence",
+    "Consolidated user ID, E-document service code, and instruction hash updates into one final modification",
+    "Preserved existing hash persistence for upgrade and configuration-drift scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003142,
+    "changes_in_call": 1
+  }
+}

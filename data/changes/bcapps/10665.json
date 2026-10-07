@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10665,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10665",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T13:35:44Z",
+  "merge_commit_sha": "3c30482c629f5a062e1d84d087e834c9461331b9",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Skip content extraction for image attachments",
+  "body_hash": "875a54c3384c6cff1ae6ea10588f06ae8fa149058aa39b70eb9a3adcc0f9d6ca",
+  "fixes_issues": [],
+  "work_items": [
+    647838
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/.resources/Prompts/SalesOrderAgent-AgentInstructions.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAAttachmentMLLM.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 35,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAAttachmentMLLM.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4421",
+        "type": "codeunit",
+        "id": 4421,
+        "name": "SOA Attachment MLLM",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4421"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4400",
+        "type": "codeunit",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

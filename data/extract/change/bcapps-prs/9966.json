@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9966",
+  "number": 9966,
+  "title": "Harden Contact Sync delta URL and ownership checks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "Contact Sync now validates delta URLs against the approved Microsoft Graph endpoint and enforces record ownership checks to prevent malicious URL manipulation or cross-user record access.",
+  "key_points": [
+    "Delta URLs are validated before persisting to ensure they match the https://graph.microsoft.com/v1.0/ prefix",
+    "Invalid delta URLs trigger fallback to full sync instead of failing",
+    "Record ownership enforcement prevents users from inserting or modifying other users' sync records",
+    "User ID field changes on existing records are blocked",
+    "Install and upgrade contexts bypass ownership checks to avoid regressions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004064,
+    "changes_in_call": 1
+  }
+}

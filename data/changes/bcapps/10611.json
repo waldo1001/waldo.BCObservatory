@@ -1,0 +1,292 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10611,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10611",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T15:12:28Z",
+  "merge_commit_sha": "82b6735b089a80b196b7ccd0c4e6512baf8710c1",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
+  "body_hash": "23704b7c3b875e6e036c1b4f196d09b554fac94e27c7dde8b641d9cca45c6f85",
+  "fixes_issues": [],
+  "work_items": [
+    647007
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/BackgroundDocumentPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/BackgroundDocumentPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 18,
+    "additions": 521,
+    "deletions": 16,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/125"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

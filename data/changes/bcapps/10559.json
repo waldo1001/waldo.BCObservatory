@@ -1,0 +1,703 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10559,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10559",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T13:35:44Z",
+  "merge_commit_sha": "b3a8ac793ebdf4f3b34903ef807521ae87c19266",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote AL0659 and AL0685 to Error",
+  "body_hash": "66a979ae17a443bc465dae538034b3f4f94956521e15daa30fce79dea4bc036c",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CH/SwissQRBill/app/src/core/SwissQRBillPaymentReferenceType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatSubmissionChannelDE.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTJournalTemplate.table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTCS/app/TCSReturnAndSettlement/src/TCS-Journal/table/TCSJournalTemplate.table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/TDS-Journal/TDSJournalTemplate.table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/DomiciliationJournalTemplate.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/PaymentJournalTemplate.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportRecordField.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportRecordSource.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportTableRelation.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Foundation/DACHReportSelections.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Purchases/Reminders/ReportSelectionUsageDelRem.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/HistoryofEquivalencesCOA.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadStateDocumentSource.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadStateDocumentType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIPurchUploadCrMemoType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIISalesUploadCreditMemoType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Local/FinancialMgt/AutomaticAccounts/AutomaticAccLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Purchases/Vendor/CustomsAuthorityVendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/Payment/ExportProtocol.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGStatementLineAccountType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/AccSchedulesConversion.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleLineTotalingType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxCalcDimFilter.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxCalcGLCorrEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxCalcSection.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxDiffJournalTemplate.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxRegisterFAEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxRegisterGLCorrEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/TaxRegisterSection.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Local/FinancialMgt/AutomaticAccounts/AutomaticAccLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/FieldService/FSProjectTask.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/FieldService/FSResourcePayType.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhsePickRqstDocType.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhsePutAwayRqstDocType.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/RetentionPolicy/RetenPolDocArchiveFltrng.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 39,
+    "additions": 106,
+    "deletions": 9,
+    "al": 37
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/DomiciliationJournalTemplate.Table.al",
+        "status": "modified",
+        "key": "table/2000020",
+        "type": "table",
+        "id": 2000020,
+        "name": "Domiciliation Journal Template",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/2000020-be"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/PaymentJournalTemplate.Table.al",
+        "status": "modified",
+        "key": "table/2000000",
+        "type": "table",
+        "id": 2000000,
+        "name": "Payment Journal Template",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/2000000-be"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportRecordField.Table.al",
+        "status": "modified",
+        "key": "table/11005",
+        "type": "table",
+        "id": 11005,
+        "name": "Data Export Record Field",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/11005-at"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportRecordSource.Table.al",
+        "status": "modified",
+        "key": "table/11004",
+        "type": "table",
+        "id": 11004,
+        "name": "Data Export Record Source",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/11004-at"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/DataExportTableRelation.Table.al",
+        "status": "modified",
+        "key": "table/11006",
+        "type": "table",
+        "id": 11006,
+        "name": "Data Export Table Relation",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/11006-at"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Foundation/DACHReportSelections.Table.al",
+        "status": "modified",
+        "key": "table/26100",
+        "type": "table",
+        "id": 26100,
+        "name": "DACH Report Selections",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/26100-at"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Purchases/Reminders/ReportSelectionUsageDelRem.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/26101",
+        "type": "enumextension",
+        "id": 26101,
+        "name": "Report Selection Usage Del. Rem.",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "enumextension/26101-at"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/HistoryofEquivalencesCOA.Table.al",
+        "status": "modified",
+        "key": "table/10724",
+        "type": "table",
+        "id": 10724,
+        "name": "History of Equivalences COA",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/10724-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadStateDocumentSource.Enum.al",
+        "status": "modified",
+        "key": "enum/10755",
+        "type": "enum",
+        "id": 10755,
+        "name": "SII Doc. Upload State Document Source",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "enum/10755-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadStateDocumentType.Enum.al",
+        "status": "modified",
+        "key": "enum/10756",
+        "type": "enum",
+        "id": 10756,
+        "name": "SII Doc. Upload State Document Type",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "enum/10756-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIPurchUploadCrMemoType.Enum.al",
+        "status": "modified",
+        "key": "enum/10715",
+        "type": "enum",
+        "id": 10715,
+        "name": "SII Purch. Upload Cr. Memo Type",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "enum/10715-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIISalesUploadCreditMemoType.Enum.al",
+        "status": "modified",
+        "key": "enum/10714",
+        "type": "enum",
+        "id": 10714,
+        "name": "SII Sales Upload Credit Memo Type",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "enum/10714-es"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Local/FinancialMgt/AutomaticAccounts/AutomaticAccLine.Table.al",
+        "status": "modified",
+        "key": "table/11204",
+        "type": "table",
+        "id": 11204,
+        "name": "Automatic Acc. Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/11204-fi"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Purchases/Vendor/CustomsAuthorityVendor.Table.al",
+        "status": "modified",
+        "key": "table/12122",
+        "type": "table",
+        "id": 12122,
+        "name": "Customs Authority Vendor",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/12122-it"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/Payment/ExportProtocol.Table.al",
+        "status": "modified",
+        "key": "table/11000005",
+        "type": "table",
+        "id": 11000005,
+        "name": "Export Protocol",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/11000005-nl"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGStatementLineAccountType.Enum.al",
+        "status": "modified",
+        "key": "enum/11000007",
+        "type": "enum",
+        "id": 11000007,
+        "name": "CBG Statement Line Account Type",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "enum/11000007-nl"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleLineTotalingType.Enum.al",
+        "status": "modified",
+        "key": "enum/85",
+        "type": "enum",
+        "id": 85,
+        "name": "Acc. Schedule Line Totaling Type",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "enum/85"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxCalcDimFilter.Table.al",
+        "status": "modified",
+        "key": "table/17313",
+        "type": "table",
+        "id": 17313,
+        "name": "Tax Calc. Dim. Filter",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17313-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxCalcGLCorrEntry.Table.al",
+        "status": "modified",
+        "key": "table/17319",
+        "type": "table",
+        "id": 17319,
+        "name": "Tax Calc. G/L Corr. Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17319-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxCalcSection.Table.al",
+        "status": "modified",
+        "key": "table/17307",
+        "type": "table",
+        "id": 17307,
+        "name": "Tax Calc. Section",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17307-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxDiffJournalTemplate.Table.al",
+        "status": "modified",
+        "key": "table/17303",
+        "type": "table",
+        "id": 17303,
+        "name": "Tax Diff. Journal Template",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17303-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxRegisterFAEntry.Table.al",
+        "status": "modified",
+        "key": "table/17211",
+        "type": "table",
+        "id": 17211,
+        "name": "Tax Register FA Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17211-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxRegisterGLCorrEntry.Table.al",
+        "status": "modified",
+        "key": "table/17203",
+        "type": "table",
+        "id": 17203,
+        "name": "Tax Register G/L Corr. Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17203-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/TaxRegisterSection.Table.al",
+        "status": "modified",
+        "key": "table/17207",
+        "type": "table",
+        "id": 17207,
+        "name": "Tax Register Section",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/17207-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Local/FinancialMgt/AutomaticAccounts/AutomaticAccLine.Table.al",
+        "status": "modified",
+        "key": "table/11204",
+        "type": "table",
+        "id": 11204,
+        "name": "Automatic Acc. Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/11204-se"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/FieldService/FSProjectTask.Table.al",
+        "status": "modified",
+        "key": "table/6404",
+        "type": "table",
+        "id": 6404,
+        "name": "FS Project Task",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6404"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/FieldService/FSResourcePayType.Table.al",
+        "status": "modified",
+        "key": "table/6206",
+        "type": "table",
+        "id": 6206,
+        "name": "FS Resource Pay Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6206"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhsePickRqstDocType.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/99000776",
+        "type": "enumextension",
+        "id": 99000776,
+        "name": "Mfg. Whse. Pick Rqst. Doc. Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enumextension/99000776"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Activity/MfgWhsePutAwayRqstDocType.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/99000780",
+        "type": "enumextension",
+        "id": 99000780,
+        "name": "Mfg. Whse. PutAway Rqst. Doc. Type",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enumextension/99000780"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/RetentionPolicy/RetenPolDocArchiveFltrng.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/3999",
+        "type": "enumextension",
+        "id": 3999,
+        "name": "Reten. Pol. Doc. Archive Fltrng.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enumextension/3999"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CH/SwissQRBill/app/src/core/SwissQRBillPaymentReferenceType.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatSubmissionChannelDE.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTJournalTemplate.table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTCS/app/TCSReturnAndSettlement/src/TCS-Journal/table/TCSJournalTemplate.table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSReturnAndSettlement/src/TDS-Journal/TDSJournalTemplate.table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "development",
+    "integration",
+    "platform",
+    "purchasing",
+    "warehouse",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

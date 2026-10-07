@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10030",
+  "number": 10030,
+  "title": "[main]planning worksheet requires second runof calculate regenerative plan",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing"
+  ],
+  "summary": "The low-level code calculation engine now processes SKU-level production BOMs correctly, ensuring planning worksheets generate all required planning lines in a single run for multi-level assemblies when BOMs are defined at the SKU level rather than the item card.",
+  "key_points": [
+    "CalcLevels procedure now traverses SKU-level BOMs in addition to item-card BOMs when computing low-level codes",
+    "New RecalcSKULowerLevels procedure propagates low-level codes downward through SKU-referenced BOMs",
+    "SKU Production BOM No. OnValidate now persists the recalculated low-level code instead of only computing it",
+    "Eliminates the need for users to run Calculate Regenerative Plan twice for SKU-only multi-level BOM structures"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004191,
+    "changes_in_call": 1
+  }
+}

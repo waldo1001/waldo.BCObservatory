@@ -6,7 +6,7 @@
   "title": "Follow the team label rename in ownership classification",
   "url": "https://github.com/microsoft/BCApps/pull/10601",
   "published_at": "2026-08-27T11:47:11Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "follow the team label rename in ownership classification"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:07:27.780Z",
+  "retry_after": null
 }

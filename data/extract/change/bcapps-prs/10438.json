@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10438",
+  "number": 10438,
+  "title": "[Master] - Bug 647272: [Expense Agent] Unwanted caption in expense report FactBox",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Report FactBox pages now display user-facing captions instead of inherited names, showing 'Expense Report' and 'Posted Expense Report' respectively.",
+  "key_points": [
+    "Updated caption property in Expense Report FactBox page",
+    "Updated caption property in Posted Expense Report FactBox page",
+    "Verified all six FactBox hosts properly inherit or display captions",
+    "No permission-set changes required",
+    "Passed CodeCop, AppSourceCop, and UICop validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Change the Expense Report FactBox caption to `Expense Report`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003333,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10608",
+  "number": 10608,
+  "title": "[master]-Bug 647093-[Subscription Billing] Incorrect Invoice Amounts when using explicit values in Subscription Line End Date",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription billing now calculates correct invoice amounts and billing periods when using explicit end dates with daily or weekly billing rhythms and month-end alignment, by skipping month-end alignment for fixed-length day and week formulas.",
+  "key_points": [
+    "Fixed incorrect billing period boundaries and amounts for non-usage-based subscription lines with daily/weekly rhythms and month-end alignment",
+    "Root cause was CalculateNextToDate() incorrectly applying month-end alignment to fixed-length day/week formulas",
+    "Solution skips end-of-month alignment for day and week formulas while preserving it for month/quarter/year rhythms",
+    "Correction applied at the source in CalculateNextToDate() eliminates billing boundary and proration errors",
+    "Added test coverage for period calculation scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Incorrect Invoice Amounts when using explicit values in Subscription Line End Date",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004041,
+    "changes_in_call": 1
+  }
+}

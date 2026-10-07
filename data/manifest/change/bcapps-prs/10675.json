@@ -6,10 +6,35 @@
   "title": "Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep",
   "url": "https://github.com/microsoft/BCApps/pull/10675",
   "published_at": "2026-08-27T07:56:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:27.090Z",
+      "change_class": "code",
+      "files": 47,
+      "al": 47,
+      "objects": 45,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:34.054Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.012211
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:34.282Z",
+      "objects": 45,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:34.290Z",
+      "path": "content/changes/bcapps/10675.md"
     }
   },
   "input_hash": "645267e5fce09418a57af4bef6f7b2bc0d2b4410:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "temporarily suppress as0072 obsoletetag 29 0 on 10 base app elements for v30 prep"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "114fd7e91effffce9a709e727728d6153a43948a993328e1f15856b1a9757052"
 }

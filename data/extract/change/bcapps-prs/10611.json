@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10611",
+  "number": 10611,
+  "title": "[main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "A corrective purchase credit memo now properly distinguishes itself from a copied credit memo when posting, preventing incorrect rollback of received and invoiced quantities on the original purchase order.",
+  "key_points": [
+    "The Purchase Cr. Memo Line table gains logic to detect whether a credit memo is corrective or merely copied",
+    "Posting a copied credit memo no longer reverts the source purchase order line quantities",
+    "Corrective credit memos with item ledger entry links continue to work as designed",
+    "Added test cases to verify quantities remain correct after posting copied credit memos",
+    "The fix applies across all localization layers (W1, NA, BE, ES, FI, GB, IT, NO, RU, SE, APAC)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004703,
+    "changes_in_call": 1
+  }
+}

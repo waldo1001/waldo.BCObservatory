@@ -6,10 +6,35 @@
   "title": "[main] Bug 647499 Bin Replenishment with Pick by FEFO Creates Incorrect Inventory Movements",
   "url": "https://github.com/microsoft/BCApps/pull/10522",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:20.902Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:25.869Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003803
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:26.010Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:26.015Z",
+      "path": "content/changes/bcapps/10522.md"
     }
   },
   "input_hash": "65c74a5015783211023aa073af95867aca954c12:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 647499 bin replenishment with pick by fefo creates incorrect inventory movements"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2603d798b58bba7d957b75c2993700c509d9aa4f2d97514b9bf0531fde0835d2"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10522",
+  "number": 10522,
+  "title": "[main] Bug 647499 Bin Replenishment with Pick by FEFO Creates Incorrect Inventory Movements",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed bin replenishment with FEFO-based picking to correctly calculate quantities and clear processed worksheet lines in basic warehouse locations.",
+  "key_points": [
+    "FEFO inventory movements now exclude the destination bin when calculating available quantity to pick, ensuring correct lot selection and full quantity fulfillment",
+    "Handled warehouse activity buffers for FEFO movements are now recorded with blank From Bin to match worksheet lines and enable proper deletion of processed lines",
+    "Prevents incorrect inventory movements and unprocessed worksheet lines that occurred when the earliest FEFO lot was already in the replenishment bin"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": "Bin Replenishment with Pick by FEFO Creates Incorrect Inventory Movements and Leaves Movement Worksheet Lines Unprocessed",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

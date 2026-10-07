@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 647272: [Expense Agent] Unwanted caption in expense report FactBox",
   "url": "https://github.com/microsoft/BCApps/pull/10438",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:19.590Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:24.238Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003333
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:24.387Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:24.394Z",
+      "path": "content/changes/bcapps/10438.md"
     }
   },
   "input_hash": "70631c44ed419a7a1810b3d73c110877ef2f9cd3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 647272 expense agent unwanted caption in expense report factbox"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "538a60debb2ccb189d74c128c59a9ae4a50f4ccf02a73580df60bf9149bfb906"
 }

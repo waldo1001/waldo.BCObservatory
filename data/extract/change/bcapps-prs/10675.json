@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/10675",
+  "number": 10675,
+  "title": "Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "sales",
+    "purchasing",
+    "integration",
+    "sustainability"
+  ],
+  "summary": "Base Application and bundled apps temporarily suppress AS0072 compiler warnings on 29.0 obsolete tags during v30 preparation until permanent remediation is completed.",
+  "key_points": [
+    "Added pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements and their country localizations",
+    "Wrapped obsolete elements in E-Document, Expense Agent, Sales Order Agent, Shopify, Subscription Billing, and Sustainability apps",
+    "Temporary unblock matching existing AS0074 house style; permanent fix tracked separately by ADO Bug 647877",
+    "Enables clean compilation with v30 app version requirement for ObsoleteTag = '30.0'",
+    "Pragmas are balanced and targeted only to the problematic obsolete tag lines"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012211,
+    "changes_in_call": 1
+  }
+}

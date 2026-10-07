@@ -6,10 +6,35 @@
   "title": "[main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
   "url": "https://github.com/microsoft/BCApps/pull/10611",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:21.077Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:26.701Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004703
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:26.848Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:26.853Z",
+      "path": "content/changes/bcapps/10611.md"
     }
   },
   "input_hash": "82b6735b089a80b196b7ccd0c4e6512baf8710c1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 647007 copy document on a purchase credit memo quantity received and quantity invoiced reverted back on original purchase order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8549433aa0b9a75109dbc29e12d80fac7fb5d73d8208bbe9f9fa10920afd4dfd"
 }

@@ -1,0 +1,613 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 134,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/134",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-27T12:04:09Z",
+  "merge_commit_sha": "293f9b13e7d132f110bddffb48540c837265c762",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(performance): add community rules for performance",
+  "body_hash": "33edbec268bae82647394b4ebaf9e36a180420fed35cca3ae3942d52b7f0337c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.bad.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.good.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.good.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.good.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.bad.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.good.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.bad.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.good.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.bad.al",
+      "status": "added",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.good.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.good.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.bad.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.good.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.bad.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.good.al",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.good.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.bad.al",
+      "status": "added",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.good.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.bad.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.good.al",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/reset-clears-partial-record-selection.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/reset-clears-partial-record-selection.good.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/reset-clears-partial-record-selection.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.good.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.bad.al",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.good.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.good.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.md",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 48,
+    "additions": 1229,
+    "deletions": 0,
+    "al": 48
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/batch-number-series-instead-of-getnextno-per-row.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/changecompany-in-loop-drops-caches.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/guiallowed-guard-on-pages-used-as-odata.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/oncompanyopen-subscribers-must-not-do-io.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/page-background-tasks-for-expensive-cues.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/query-results-bypass-primary-key-cache.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/reset-clears-partial-record-selection.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/reset-clears-partial-record-selection.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/reset-clears-partial-record-selection.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/performance/validate-on-partial-record-forces-jit.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

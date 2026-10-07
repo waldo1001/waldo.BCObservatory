@@ -6,7 +6,7 @@
   "title": "Update release notes for version 9.2",
   "url": "https://github.com/microsoft/AL-Go/pull/2351",
   "published_at": "2026-08-25T09:49:16Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "update release notes for version 9 2"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:07:29.785Z",
+  "retry_after": null
 }

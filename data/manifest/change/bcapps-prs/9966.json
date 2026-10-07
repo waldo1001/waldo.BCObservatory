@@ -6,10 +6,35 @@
   "title": "Harden Contact Sync delta URL and ownership checks",
   "url": "https://github.com/microsoft/BCApps/pull/9966",
   "published_at": "2026-08-27T13:35:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:25.665Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:30.458Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004064
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:30.601Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:30.606Z",
+      "path": "content/changes/bcapps/9966.md"
     }
   },
   "input_hash": "ebccffb1b40534e5606f1d27c5f5635b3aeb6e7a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "harden contact sync delta url and ownership checks"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f107f396e3ec37c9550669434bdcedb945dfa5d8abaa9f6899f0a62ae8336bfd"
 }

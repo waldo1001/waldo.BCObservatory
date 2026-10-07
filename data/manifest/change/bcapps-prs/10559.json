@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote AL0659 and AL0685 to Error",
   "url": "https://github.com/microsoft/BCApps/pull/10559",
   "published_at": "2026-08-27T13:35:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:23.578Z",
+      "change_class": "code",
+      "files": 39,
+      "al": 37,
+      "objects": 32,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:29.328Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.011155
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:29.499Z",
+      "objects": 32,
+      "unjoined": 5,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:29.509Z",
+      "path": "content/changes/bcapps/10559.md"
     }
   },
   "input_hash": "b3a8ac793ebdf4f3b34903ef807521ae87c19266:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote al0659 and al0685 to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "604ad3af1f9c1b8141cc52c4d0b76238cee2ee216ba854bf4de4494334c1d052"
 }

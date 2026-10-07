@@ -6,7 +6,7 @@
   "title": "Fix app-baseline storage account selection to use the target branch",
   "url": "https://github.com/microsoft/BCApps/pull/10622",
   "published_at": "2026-08-26T10:13:49Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix app baseline storage account selection to use the target branch"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:07:28.910Z",
+  "retry_after": null
 }

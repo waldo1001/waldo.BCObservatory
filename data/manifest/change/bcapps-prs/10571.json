@@ -6,7 +6,7 @@
   "title": "[Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.",
   "url": "https://github.com/microsoft/BCApps/pull/10571",
   "published_at": "2026-08-27T16:37:51Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:22.232Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003185
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:22.375Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:22.380Z",
+      "path": "content/changes/bcapps/10571.md"
     }
   },
   "input_hash": "2b02c91a4909e027a3814b0328c65ef668c5df86:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63b4296c17fbdef2fa2f87115ca246fed26d7f5a9a1e2670623e9329437c0e27"
+  "output_hash": "f7bf8585429631609c39a13790637f0e7b3571eee7c2eccfa912fd8f6473f57d"
 }
