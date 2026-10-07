@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11632",
+  "number": 11632,
+  "title": "[29.X]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed source currency amount calculation in the General Journal posting line codeunit to prevent discrepancies with foreign currency G/L entries when using reversal charge VAT.",
+  "key_points": [
+    "Corrected source currency amount logic in Gen. Jnl.-Post Line codeunit across all localization layers",
+    "Added test cases to verify foreign currency G/L entries with reversal charge VAT",
+    "Changes applied to W1 and regional implementations (APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, CZ)",
+    "Test coverage expanded for source currency calculations in multiple localization-specific test codeunits"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004328,
+    "changes_in_call": 1
+  }
+}

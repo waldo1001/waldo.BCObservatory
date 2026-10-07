@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11823",
+  "number": 11823,
+  "title": "[Main]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed the Create Movement function to properly respect the Quantity and Quantity to Handle fields when retrieving bin content during movement worksheet operations.",
+  "key_points": [
+    "Create Movement now correctly honors Quantity field values when using Get Bin Content",
+    "Respects Quantity to Handle field during movement creation",
+    "Fixes bug 651570 affecting warehouse movement worksheet operations",
+    "Changes only impact the Create Inventory Pick/Movement codeunit logic",
+    "Test coverage added for the fixed behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003201,
+    "changes_in_call": 1
+  }
+}

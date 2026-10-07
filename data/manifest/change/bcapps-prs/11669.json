@@ -6,10 +6,18 @@
   "title": "Fix reserved-lot re-picking after warehouse reclassification",
   "url": "https://github.com/microsoft/BCApps/pull/11669",
   "published_at": "2026-09-25T11:34:11Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:25.708Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "6b96150ed669b1139e0f6a7a0693c31e275f680a:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix reserved lot re picking after warehouse reclassification"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86798166b5dc0b37d3017a37338c0aae7f23aa056701d3c7c5edd383402c02d2"
 }

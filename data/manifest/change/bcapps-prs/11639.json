@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 640938: [Expense Agent][VENDOR] Adding approval limits (November '26)",
   "url": "https://github.com/microsoft/BCApps/pull/11639",
   "published_at": "2026-09-28T06:44:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:13.703Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 13,
+      "objects": 13,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:19.109Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00414
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:19.252Z",
+      "objects": 13,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:19.259Z",
+      "path": "content/changes/bcapps/11639.md"
     }
   },
   "input_hash": "87d96456b7abbb10e3b3eb53eb477b68052f73f7:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 640938 expense agent vendor adding approval limits november 26"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe2cad980afffea5958d57ad2a6672b8e89f81215d3166baadbc576eb5b60c74"
 }

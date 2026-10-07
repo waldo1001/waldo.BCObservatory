@@ -6,10 +6,35 @@
   "title": "[Main]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content",
   "url": "https://github.com/microsoft/BCApps/pull/11823",
   "published_at": "2026-09-26T16:03:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:16.016Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:21.354Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003201
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:21.517Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:21.523Z",
+      "path": "content/changes/bcapps/11823.md"
     }
   },
   "input_hash": "2e6371bed81ef019a6b99f92ff7f7db59d37b7a2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "create movement from movement worksheet doesn t respect quantity nor qty to handle if we get bin content"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5711b6c918ad0133b2932708dc0847017ef2f6f08c6dc1a18aff8fb433faf500"
 }

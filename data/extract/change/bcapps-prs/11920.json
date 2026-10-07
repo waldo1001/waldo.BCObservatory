@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11920",
+  "number": 11920,
+  "title": "Add title to field monitoring feature pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Added display titles to three field monitoring feature pages to improve user interface clarity and consistency.",
+  "key_points": [
+    "Titles added to Field Monitoring Setup page",
+    "Titles added to Monitored Field Log Entries page",
+    "Titles added to Monitored Fields Worksheet page",
+    "Six lines of code added across three page objects",
+    "Enhances UI consistency in field monitoring features"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Add title to field monitoring feature pages",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003012,
+    "changes_in_call": 1
+  }
+}

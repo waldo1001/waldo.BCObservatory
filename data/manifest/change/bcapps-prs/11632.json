@@ -6,10 +6,35 @@
   "title": "[29.X]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.",
   "url": "https://github.com/microsoft/BCApps/pull/11632",
   "published_at": "2026-09-28T07:08:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:13.534Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:18.863Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004328
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:19.099Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:19.104Z",
+      "path": "content/changes/bcapps/11632.md"
     }
   },
   "input_hash": "9eb05cb91614ca3779c0fd9fcbf69926f2067b26:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "source currency amount calculation causes discrepancies with foreign currency g l entries whit reversal charge vat"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a92a1aed63f7fcddc18142b5c0724cb22a0fa53cc1d06bb6fc95b1ea2c442a31"
 }

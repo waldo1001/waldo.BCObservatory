@@ -1,0 +1,208 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9293,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9293",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-25T15:14:28Z",
+  "merge_commit_sha": "17ee771d4da05949f4ced075a52f5983bbbbf6e8",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)",
+  "body_hash": "b198abdc78ee0aed9a7ae421196cb13897118c5425abca62e1e8934883bd9d24",
+  "fixes_issues": [
+    9285
+  ],
+  "work_items": [
+    649267
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/CreateUsageDataBilling.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/GenericConnectorProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ImportAndProcessUsageData.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Pages/UsageDataBillings.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Pages/UsageDataImports.Page.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataImport.Table.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 213,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 374,
+    "deletions": 61,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/CreateUsageDataBilling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8023",
+        "type": "codeunit",
+        "id": 8023,
+        "name": "Create Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8023"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/GenericConnectorProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8033",
+        "type": "codeunit",
+        "id": 8033,
+        "name": "Generic Connector Processing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8033"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ImportAndProcessUsageData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8025",
+        "type": "codeunit",
+        "id": 8025,
+        "name": "Import And Process Usage Data",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8025"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8026",
+        "type": "codeunit",
+        "id": 8026,
+        "name": "Process Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8026"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Pages/UsageDataBillings.Page.al",
+        "status": "modified",
+        "key": "page/8035",
+        "type": "page",
+        "id": 8035,
+        "name": "Usage Data Billings",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8035"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Pages/UsageDataImports.Page.al",
+        "status": "modified",
+        "key": "page/8041",
+        "type": "page",
+        "id": 8041,
+        "name": "Usage Data Imports",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8041"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataBilling.Table.al",
+        "status": "modified",
+        "key": "table/8006",
+        "type": "table",
+        "id": 8006,
+        "name": "Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8006"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Tables/UsageDataImport.Table.al",
+        "status": "modified",
+        "key": "table/8013",
+        "type": "table",
+        "id": 8013,
+        "name": "Usage Data Import",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8013"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 9285,
+      "title": "[Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)",
+      "state": "closed"
+    }
+  ]
+}

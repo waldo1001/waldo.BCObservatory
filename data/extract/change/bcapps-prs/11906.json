@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11906",
+  "number": 11906,
+  "title": "[Main]-Incident 51000001968459: Issue while creating any import purchase invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed cost-loading logic for import purchase invoices with Nil-Rated GST and Non-Availment setting to properly include Custom Duty in inventory and direct cost entries.",
+  "key_points": [
+    "Custom Duty is now included in inventory cost for import invoices with Nil-Rated GST and Non-Availment",
+    "Logic no longer exits prematurely when GST amount is zero if Custom Duty is present",
+    "Non-Availment cost-loading is restricted to prevent duplicate Custom Duty capitalization in Availment scenarios",
+    "Resolves issue where Custom Duty was missing from Inventory and Direct Cost Applied entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Custom Duty was not included in Inventory and Direct Cost Applied entries.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003466,
+    "changes_in_call": 1
+  }
+}

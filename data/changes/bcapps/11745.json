@@ -1,0 +1,152 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11745,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11745",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-25T15:53:28Z",
+  "merge_commit_sha": "d3db445871ae038c72a6648c6778adc9f4d2fc34",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648781: check the party identifier that the PEPPOL export will use",
+  "body_hash": "5bb7d0976281837083bd82b83d285ba9a5955d6b69211b7d3316a5c435f711b8",
+  "fixes_issues": [],
+  "work_items": [
+    648781
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocPartyEndpointIDTest.Codeunit.al",
+      "status": "added",
+      "additions": 369,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Sales/PEPPOL30SalesValidationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOL30ManagementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 543,
+    "deletions": 19,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6165",
+        "type": "codeunit",
+        "id": 6165,
+        "name": "EDoc PEPPOL BIS 3.0",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6165"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6172",
+        "type": "codeunit",
+        "id": 6172,
+        "name": "E-Doc. PEPPOL Validation",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6172"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37200",
+        "type": "codeunit",
+        "id": 37200,
+        "name": "PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37200"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37201",
+        "type": "codeunit",
+        "id": 37201,
+        "name": "PEPPOL30 Impl.",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37201"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Sales/PEPPOL30SalesValidationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37203",
+        "type": "codeunit",
+        "id": 37203,
+        "name": "PEPPOL30 Sales Validation Impl",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37203"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "PEPPOL"
+  ]
+}

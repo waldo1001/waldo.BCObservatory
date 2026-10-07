@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11644",
+  "number": 11644,
+  "title": "[Subcontracting] Bug 648937: Transfer WIP Item is lost when production orders are created from Planning Worksheet",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Transfers of WIP items configured on production routings are now preserved when production orders are created from the Planning Worksheet, maintaining the connection between planning and production orders.",
+  "key_points": [
+    "Transfer WIP Item and transfer descriptions are now stored on planning routing lines",
+    "Values are propagated from routing lines through Planning Worksheet carry-out to production order routing lines",
+    "Support includes both certified routing versions and base routings",
+    "Integration tests added to verify the behavior",
+    "Fixes data loss issue when creating production orders from planning worksheet"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "preserve Transfer WIP Item and transfer descriptions on Planning Routing Line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003349,
+    "changes_in_call": 1
+  }
+}

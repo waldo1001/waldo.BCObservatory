@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11856,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11856",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-25T23:39:46Z",
+  "merge_commit_sha": "dd7d1779ea7fc18e9950b56a07c616f3e2a08fa8",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Retention Policy tests failing on missing SUPER permission set",
+  "body_hash": "f9d47bf3773f6d804726ec1da0b8d1fce3aac6643c13e9b9c3324f842999db4d",
+  "fixes_issues": [],
+  "work_items": [
+    651072
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 22,
+    "deletions": 6,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

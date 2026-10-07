@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11745",
+  "number": 11745,
+  "title": "Bug 648781: check the party identifier that the PEPPOL export will use",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "PEPPOL validation now uses the same party identifier provider as export to ensure EndpointID is never empty, fixing cases where validation passed but export created invalid documents.",
+  "key_points": [
+    "Validation and export now use the same party identifier source instead of different logic",
+    "Purchase order validation now covers all document types instead of missing the Purchase Header branch",
+    "Users receive clear error messages indicating which settings need adjustment when EndpointID cannot be determined",
+    "Documents that previously exported invalid empty EndpointID values are now caught during validation",
+    "PEPPOL 3.0 Setup provider is consulted at validation time instead of hardcoding identifier logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Validation now asks the same party info provider that export uses and just checks the answer is not empty.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004256,
+    "changes_in_call": 1
+  }
+}

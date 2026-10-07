@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11639",
+  "number": 11639,
+  "title": "[Master] - Slice 640938: [Expense Agent][VENDOR] Adding approval limits (November '26)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent now supports approval limits for vendors, allowing managers to configure spending thresholds in user setup and enabling automatic approval workflow routing based on expense amounts.",
+  "key_points": [
+    "Added approval limit fields to User Setup and Expense User tables for vendor-based approval configuration",
+    "Enhanced approval management logic to evaluate and route expenses based on configured spending limits",
+    "Updated manager and user-facing pages to display and manage approval limits",
+    "Added upgrade logic to initialize approval setup for existing systems",
+    "Expanded test coverage with new approval scenario tests for limit-based workflows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00414,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)",
   "url": "https://github.com/microsoft/BCApps/pull/9293",
   "published_at": "2026-09-25T15:14:28Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:22.702Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
     }
   },
   "input_hash": "17ee771d4da05949f4ced075a52f5983bbbbf6e8:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscriptionbilling process usage data billing uses lines marked processing status error currency mismatch"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a635ef65d83de7afc4c393bdc19811b43d1cb1ade998136c85dfbd38ff5c2a5a"
 }

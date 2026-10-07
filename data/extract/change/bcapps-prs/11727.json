@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11727",
+  "number": 11727,
+  "title": "Bug 650737: Description for new currencies should be aligned with existing full descriptions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Currency labels in demo data now include country names to make their descriptions more complete and consistent across the application.",
+  "key_points": [
+    "Added country names to currency labels for clarity",
+    "Improves consistency of currency descriptions",
+    "Affects demo data initialization in the Contoso Coffee dataset",
+    "Makes currency identification clearer for users"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002993,
+    "changes_in_call": 1
+  }
+}

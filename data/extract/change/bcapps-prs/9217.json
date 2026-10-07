@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9217",
+  "number": 9217,
+  "title": "[Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The IsLineAttachedToBillingLine procedure in Sales Line and Purchase Line table extensions changed from internal to public visibility, allowing external applications to access this method.",
+  "key_points": [
+    "IsLineAttachedToBillingLine procedure visibility changed from internal to public in SalesLine.TableExt.al",
+    "IsLineAttachedToBillingLine procedure visibility changed from internal to public in PurchaseLine.TableExt.al",
+    "Enables external apps to determine if sales or purchase lines are attached to billing lines",
+    "Tests added to validate the exposed method behavior",
+    "No breaking changes, only accessibility expansion"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004096,
+    "changes_in_call": 1
+  }
+}

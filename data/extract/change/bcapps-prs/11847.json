@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11847",
+  "number": 11847,
+  "title": "Use matching key for workflow event step instance lookup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "A workflow step instance lookup key is redefined to match the actual filter and sort order, improving query performance from table scans to index seeks on large datasets.",
+  "key_points": [
+    "Key6 on Workflow Step Instance table changed from (Type, Status, Function Name, Previous Workflow Step ID) to (Type, Status, Function Name, Sequence No.) with Previous Workflow Step ID as included field",
+    "SetCurrentKey call updated to use the redefined key for proper index selection",
+    "Performance improved from 4.26M logical reads and ~3 seconds to index seeks completing in 13-227ms depending on workload",
+    "Existing lookup behavior preserved; sort order unchanged as records come back ordered by Sequence No. then primary key",
+    "On upgrade, Key6 index is dropped and rebuilt, requiring about 6 seconds per 1M table rows"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004447,
+    "changes_in_call": 1
+  }
+}

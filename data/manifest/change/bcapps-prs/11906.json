@@ -6,10 +6,35 @@
   "title": "[Main]-Incident 51000001968459: Issue while creating any import purchase invoice",
   "url": "https://github.com/microsoft/BCApps/pull/11906",
   "published_at": "2026-09-26T23:44:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:15.829Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:20.554Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003466
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:20.732Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:20.737Z",
+      "path": "content/changes/bcapps/11906.md"
     }
   },
   "input_hash": "777e102e90a078b7256bf94b065ba50089abafa9:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "incident 51000001968459 issue while creating any import purchase invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51276300a7dbb047434e3a535351120f4b7c0e14c024da4fece9e6fc46b5fad7"
 }

@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11847,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11847",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-25T18:13:49Z",
+  "merge_commit_sha": "32a53a329745ac2a535f50530f4971f080ba20c4",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use matching key for workflow event step instance lookup",
+  "body_hash": "7d9e45819069c331a70f8b097dbcfd5aac7bb39cf7256b0e62da7269408d5e99",
+  "fixes_issues": [],
+  "work_items": [
+    642239
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowStepInstance.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1501",
+        "type": "codeunit",
+        "id": 1501,
+        "name": "Workflow Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1501"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowStepInstance.Table.al",
+        "status": "modified",
+        "key": "table/1504",
+        "type": "table",
+        "id": 1504,
+        "name": "Workflow Step Instance",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1504"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Bug 648781: check the party identifier that the PEPPOL export will use",
   "url": "https://github.com/microsoft/BCApps/pull/11745",
   "published_at": "2026-09-25T15:53:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:20.913Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:26.285Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004256
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:30.066Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:30.073Z",
+      "path": "content/changes/bcapps/11745.md"
     }
   },
   "input_hash": "d3db445871ae038c72a6648c6778adc9f4d2fc34:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648781 check the party identifier that the peppol export will use"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f90ea85d41cf56393958100c7870849869c693363bf59b59ce0075fc47126ec8"
 }

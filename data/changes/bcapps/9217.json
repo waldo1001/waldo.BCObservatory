@@ -1,0 +1,100 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9217,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9217",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-25T19:43:19Z",
+  "merge_commit_sha": "b6f2a972977b89aae6213316d9ff1755a133ce9a",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line",
+  "body_hash": "1cbcb95ebbe84816d7d8dd1a10a177b6c3b2e4c514278909bab06a82a34e6c9a",
+  "fixes_issues": [
+    8501
+  ],
+  "work_items": [
+    647285
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/PurchaseLine.TableExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingDocsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 77,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/PurchaseLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8065",
+        "type": "tableextension",
+        "id": 8065,
+        "name": "Purchase Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8065"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Table Extensions/SalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/8054",
+        "type": "tableextension",
+        "id": 8054,
+        "name": "Sales Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "tableextension/8054"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 8501,
+      "title": "[Extensibility Request][Subscription Billing] Make IsLineAttachedToBillingLine accessible from external apps",
+      "state": "closed"
+    }
+  ]
+}

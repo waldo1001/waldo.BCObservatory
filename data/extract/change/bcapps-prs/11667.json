@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11667",
+  "number": 11667,
+  "title": "Fix quantity fields on Sales Return Order Archive",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Return Order Archive pages now display return-receipt quantities instead of shipment quantities. Return quantity fields are added and bound to archive records, while shipment fields are hidden by default but remain for extensibility.",
+  "key_points": [
+    "Added 'Return Qty. to Receive' and 'Return Qty. Received' fields to page 6628 bound to Sales Line Archive",
+    "Hid shipment-related fields ('Qty. to Ship' and 'Quantity Shipped') by default while preserving them for extensions",
+    "Added test coverage in SCMArchiveOrders codeunit for return quantity validation across archive snapshots",
+    "No changes to table schema, posting logic, or archive timing behavior",
+    "Archive controls are retained for page-extension compatibility and personalization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "warehouse"
+  ],
+  "quote": "The Sales Return Order Archive lines show ordinary shipment quantities instead of return-receipt quantities.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004168,
+    "changes_in_call": 1
+  }
+}

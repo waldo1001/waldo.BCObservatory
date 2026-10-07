@@ -6,10 +6,18 @@
   "title": "Bug 649042: [Expense Agent] It would be nice if default data setup included number series for users, reports, etc.",
   "url": "https://github.com/microsoft/BCApps/pull/11730",
   "published_at": "2026-09-25T14:27:31Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:23.276Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "a35eb59775812e320024263a3f26df70fb0c8450:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649042 expense agent it would be nice if default data setup included number series for users reports etc"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b54f3335352000ef543a0e1dc4433ad3366a3bbee4ccbb52aeeb3b4e442d074f"
 }

@@ -1,0 +1,315 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11639,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11639",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-28T06:44:58Z",
+  "merge_commit_sha": "87d96456b7abbb10e3b3eb53eb477b68052f73f7",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 640938: [Expense Agent][VENDOR] Adding approval limits (November '26)",
+  "body_hash": "57ff1f3d9fe2e7cbcb11e1796ae6fe68c6f454909b4650072f2620d40ffac437",
+  "fixes_issues": [],
+  "work_items": [
+    640938
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseUsersAPI.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 99,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReports.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpApprovalUserSetup.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/UserSetupExt.TableExt.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportList.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReports.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseUser.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ActivityLog/ExpenseActivityLogTest.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 63,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseInterimApprovalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 880,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportPostingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/WFDemoExpReportApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 18,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 18,
+    "additions": 1148,
+    "deletions": 161,
+    "al": 13
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseUsersAPI.Page.al",
+        "status": "modified",
+        "key": "page/6918",
+        "type": "page",
+        "id": 6918,
+        "name": "Expense Users API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6918"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6901",
+        "type": "codeunit",
+        "id": 6901,
+        "name": "Expense Report Approval Mgmt",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6980",
+        "type": "page",
+        "id": 6980,
+        "name": "Manager Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6980"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReports.Page.al",
+        "status": "modified",
+        "key": "page/6981",
+        "type": "page",
+        "id": 6981,
+        "name": "Manager Expense Reports",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6981"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpApprovalUserSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6977",
+        "type": "pageextension",
+        "id": 6977,
+        "name": "Exp. Approval User Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "pageextension/6977"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/UserSetupExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6903",
+        "type": "tableextension",
+        "id": 6903,
+        "name": "User Setup Ext",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6903"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportList.Page.al",
+        "status": "modified",
+        "key": "page/6979",
+        "type": "page",
+        "id": 6979,
+        "name": "Expense Report List",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6979"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReports.Page.al",
+        "status": "modified",
+        "key": "page/6997",
+        "type": "page",
+        "id": 6997,
+        "name": "Expense Reports",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6997"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseUser.Page.al",
+        "status": "modified",
+        "key": "page/6949",
+        "type": "page",
+        "id": 6949,
+        "name": "Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6949"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+        "status": "modified",
+        "key": "table/6923",
+        "type": "table",
+        "id": 6923,
+        "name": "Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6923"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/UpgradeExpenseAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6978",
+        "type": "codeunit",
+        "id": 6978,
+        "name": "Upgrade Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6978"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

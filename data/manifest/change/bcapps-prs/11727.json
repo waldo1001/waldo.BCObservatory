@@ -6,10 +6,25 @@
   "title": "Bug 650737: Description for new currencies should be aligned with existing full descriptions",
   "url": "https://github.com/microsoft/BCApps/pull/11727",
   "published_at": "2026-09-25T14:27:31Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:21.924Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:30.082Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002993
     }
   },
   "input_hash": "6ca8c6abf2d9cebffd9753b9b46ef9473a4f2759:c1",
@@ -29,5 +44,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650737 description for new currencies should be aligned with existing full descriptions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "45eecf6b92d7417a2050fbb4ad083a80a20dfbcdf982c97c3abb2e7ee03d0acc"
 }

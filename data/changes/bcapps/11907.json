@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11907,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11907",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-28T03:59:46Z",
+  "merge_commit_sha": "ec7bc408ddfd81511812eb8b8e3ff4be4377e324",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]-Incident 51000001968459: Issue while creating any import purchase invoice",
+  "body_hash": "52b5a3d09ba296a98f5e8ea056c1b06498daf4ff9d9e2784e93f8bb26fb332a5",
+  "fixes_issues": [],
+  "work_items": [
+    651538
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/Codeunit/GSTPurchaseNonAvailment.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/Codeunit/GSTPurchaseNonAvailment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18251",
+        "type": "codeunit",
+        "id": 18251,
+        "name": "GST Purchase Non Availment",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18251-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
+}
