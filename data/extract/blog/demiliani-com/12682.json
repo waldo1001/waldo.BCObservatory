@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/demiliani-com/12682",
+  "url": "https://demiliani.com/2025/11/11/introducing-yampi-the-mcp-server-for-dynamics-365-business-central-administration/",
+  "title": "Introducing YAMPI: the MCP server for Dynamics 365 Business Central administration.",
+  "source": "demiliani-com",
+  "published_at": "2025-11-11T08:09:10.000Z",
+  "words": 1554,
+  "summary": "YAMPI is an open-source Model Context Protocol (MCP) server that enables AI assistants like GitHub Copilot and Claude Desktop to manage Dynamics 365 Business Central environments through natural language commands. It simplifies BC administration by exposing 28 administrative tools across seven categories, eliminating the need to navigate multiple portals and APIs.",
+  "key_points": [
+    "YAMPI provides 28 specialized tools organized in seven categories: authentication, environment management, application management, environment updates, session management, notification management, and feature management",
+    "Uses Microsoft Entra ID for enterprise-grade security with intelligent token caching and automatic refresh, avoiding repeated login prompts",
+    "Supports multi-tenant architecture for managing multiple BC tenants with seamless switching and independent secure authentication states",
+    "Can be installed via VS Code extension for GitHub Copilot or via npm for use with other MCP clients like Cursor and Claude Desktop",
+    "Abstracts away complexity of BC administration, enabling junior administrators to perform tasks through guided conversations and reducing the learning curve"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "ai-driven administration",
+    "mcp integration",
+    "automation",
+    "natural language",
+    "multi-tenant management",
+    "security",
+    "devops"
+  ],
+  "objects": [],
+  "features": [
+    "Environment Management (create, copy, monitor environments)",
+    "Application Management (view, update, uninstall apps)",
+    "Session Management (monitor active sessions, terminate sessions)",
+    "Environment Updates (check and schedule version updates)",
+    "Notification Management (manage alert recipients)",
+    "Feature Management (discover, activate, deactivate features)",
+    "Seamless Authentication via Microsoft Entra ID",
+    "Multi-Tenant Support"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The MCP server uses Microsoft Entra ID (formerly Azure AD) for authentication, ensuring enterprise-grade security without compromising convenience.",
+      "why_it_matters": "Addresses security concerns while maintaining ease of use, a critical consideration for administrators"
+    },
+    {
+      "text": "The project is open-source and welcomes contributions from the Business Central community.",
+      "why_it_matters": "Signals community-driven development and long-term sustainability of the tool"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

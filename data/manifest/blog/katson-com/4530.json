@@ -7,13 +7,39 @@
   "url": "https://katson.com/meet-custom-agents-in-business-central/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=meet-custom-agents-in-business-central",
   "published_at": "2025-11-05T15:35:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.454Z",
+      "path": "vault:posts/katson-com/4530.md",
+      "words": 42
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.459Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.460Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.461Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.465Z",
+      "path": "content/posts/katson-com/4530.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b471c60ca7ac0882b0f5e75a1443541aa5c3b20a6b92613936e0fec958daa06d"
 }

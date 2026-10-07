@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/12659",
+  "url": "https://demiliani.com/2025/10/30/dynamics-365-business-central-and-azure-front-door-issue/",
+  "title": "Dynamics 365 Business Central and Azure Front Door issue.",
+  "source": "demiliani-com",
+  "published_at": "2025-10-30T08:11:23.000Z",
+  "words": 886,
+  "summary": "On October 29, 2025, an 8.5-hour outage of Azure Front Door caused widespread disruption to Dynamics 365 Business Central and other Azure services. A faulty configuration deployment with inadequate validation checks cascaded across the global edge network, causing node failures, increased latencies, and connection errors until Microsoft rolled back to the last known good configuration.",
+  "key_points": [
+    "Azure Front Door is Microsoft's global content delivery and load balancing service that handles routing, caching, and security for cloud services like Business Central",
+    "The outage started October 29 at 15:45 UTC and lasted 8.5 hours, caused by a software defect in configuration validation that allowed an erroneous configuration to bypass safety checks",
+    "The invalid configuration caused cascading failures across AFD nodes worldwide, resulting in timeouts, connection errors, and imbalanced traffic distribution",
+    "Microsoft resolved the issue by immediately blocking further configuration changes, rolling back to the last known good configuration, and gradually rebalancing traffic",
+    "Post-incident improvements include enhanced validation controls, better automated rollback mechanisms, and strengthened monitoring capabilities"
+  ],
+  "systems": [
+    "platform",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "azure front door",
+    "outage",
+    "infrastructure",
+    "cloud services",
+    "configuration management",
+    "global routing",
+    "load balancing",
+    "availability"
+  ],
+  "objects": [],
+  "features": [
+    "multi-region backend pools",
+    "health probes",
+    "path-based routing",
+    "geo-filtering",
+    "geo-routing",
+    "content caching",
+    "DDoS protection",
+    "automatic failover"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The issue was not a Dynamics 365 Business Central-related issue, but the cause of this unreliability was a different service: Azure Front Door.",
+      "why_it_matters": "Clarifies that Business Central outages may result from underlying Azure infrastructure problems, not the application itself"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

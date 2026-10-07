@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/olofsimren-com/3630",
+  "url": "https://www.olofsimren.com/copilot-in-planning-parameter-worksheet/",
+  "title": "Copilot in Planning Parameter Worksheet",
+  "source": "olofsimren-com",
+  "published_at": "2025-10-31T12:15:17.000Z",
+  "words": 1588,
+  "summary": "A custom extension called Planning Parameter Worksheet uses Copilot powered by Azure OpenAI to suggest inventory planning parameters for items based on ABC classification and usage data. The AI evaluates one item at a time, applies established economic formulas, and explains its parameter recommendations.",
+  "key_points": [
+    "The extension performs double ABC classification of items by transaction frequency and value, then applies rules for safety stock and reorder settings",
+    "Business Central pre-calculates metrics like average monthly usage, standard deviation, and lead time demand before sending them to Copilot to avoid excessive data",
+    "Copilot receives a predefined prompt instructing it to return results in JSON format with Business Central-specific period notations like '2W' or '1M'",
+    "The AI explains its suggestions using established theories such as economic order quantity (EOQ) formulas and service level calculations based on ABC classifications",
+    "Processing takes about 5-7 seconds per item with a gpt-5-chat model, making bulk analysis of thousands of items time-consuming but practical"
+  ],
+  "systems": [
+    "copilot",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "copilot",
+    "planning parameters",
+    "abc classification",
+    "eoq",
+    "safety stock",
+    "azure openai",
+    "extension",
+    "ai explanation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Planning Parameter Worksheet"
+    },
+    {
+      "type": "other",
+      "name": "Copilot Inventory Queries extension"
+    }
+  ],
+  "features": [
+    "Copilot-powered parameter suggestions",
+    "ABC classification (double classification)",
+    "Economic order quantity calculation",
+    "Safety stock calculation",
+    "Lead time demand evaluation",
+    "Reordering policy recommendations",
+    "Automated explanation generation",
+    "JSON formatted responses"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

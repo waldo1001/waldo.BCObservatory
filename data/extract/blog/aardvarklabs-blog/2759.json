@@ -1,0 +1,91 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2759",
+  "url": "https://aardvarklabs.blog/2025/10/31/using-copilot-to-upgrade-service-notes-for-invoices-in-business-central-al/",
+  "title": "Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-10-31T12:00:00.000Z",
+  "words": 2546,
+  "summary": "This post demonstrates how to use Copilot to automatically upgrade raw service technician notes into professional, customer-facing text for invoices in Business Central. It addresses the common problem of processing hundreds of poorly written service notes daily by creating a table for resolution notes, extending the Sales Header with a BLOB field, and implementing a Copilot prompt dialog that generates formatted HTML summaries.",
+  "key_points": [
+    "A custom table stores resolution notes linked to sales invoices, allowing technicians to enter raw service details that are later transformed by AI.",
+    "The solution uses Azure OpenAI chat completion with a carefully crafted system prompt that instructs the AI to act as a service manager and produce professional, jargon-free HTML output.",
+    "A prompt dialog page uses PageType PromptDialog with PromptMode = Generate to automatically generate and display Copilot suggestions for user confirmation before saving.",
+    "The generated resolution text is stored in a BLOB field on the Sales Header using UTF-16 encoding and displayed as rich content on the Sales Invoice card.",
+    "The implementation retries generation up to 5 times if the result is empty, ensuring robustness without overcomplicating the architecture."
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "copilot",
+    "ai",
+    "azure openai",
+    "prompt engineering",
+    "service invoices",
+    "rich text",
+    "page extension",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_ResolutionNotes"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CopilotResolutionSummary"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ResolutionNotes"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ResolutionNotesPrompt"
+    },
+    {
+      "type": "page",
+      "name": "ARD_SalesInvoice"
+    }
+  ],
+  "features": [
+    "Copilot prompt dialog",
+    "Azure OpenAI chat completion",
+    "BLOB field storage",
+    "rich text content",
+    "prompt mode generate",
+    "system prompt engineering",
+    "HTML formatted output",
+    "resolution note summarization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The problem is that the notes are less than sufficient for a customer facing document.",
+      "why_it_matters": "Establishes the core business problem that Copilot solves: transforming raw internal notes into polished customer communication."
+    },
+    {
+      "text": "The response must be formatted in as HTML.",
+      "why_it_matters": "Shows that system prompt precision directly controls output format, enabling integration with rich text display controls."
+    },
+    {
+      "text": "The user should always be in control (the user must confirm anything Copilot suggests before any change is saved).",
+      "why_it_matters": "Emphasizes a critical UX principle for Copilot features, preventing unreviewed AI changes from persisting to the database."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://www.vondervoort.be/index.php/2025/10/31/rethinking-lintercop-preparing-for-the-next-chapter/",
   "published_at": "2025-10-31T08:33:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.626Z",
+      "path": "vault:posts/vondervoort-be/24.md",
+      "words": 1326
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.635Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.636Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.637Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.644Z",
+      "path": "content/posts/vondervoort-be/24.md"
     }
   },
   "input_hash": "2025-10-31T10:16:44.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "690eb5c40d1587c178147c1da88155d1ced8aba1fe940dd681b752774a58da72"
 }

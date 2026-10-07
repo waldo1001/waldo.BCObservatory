@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/12734",
+  "url": "https://demiliani.com/2025/11/05/dynamics-365-business-central-announcing-italy-north-availability/",
+  "title": "Dynamics 365 Business Central: announcing Italy North availability.",
+  "source": "demiliani-com",
+  "published_at": "2025-11-05T10:30:13.000Z",
+  "words": 279,
+  "summary": "Starting with version 27.3, Dynamics 365 Business Central tenants for Italian customers will be deployed to the Italy North datacenter in Milan, with existing environments eligible for migration after unlinking from Power Platform. This reduces network latency from 42-55ms to 26ms for Italian users.",
+  "key_points": [
+    "Italy North datacenter deployment available from Business Central version 27.3",
+    "New IT customers automatically deployed to Italy North; existing customers can migrate after unlinking from Power Platform",
+    "Network latency reduces to 26ms from Italy North versus 42ms (West Europe) or 55ms (North Europe)",
+    "Improves performance for Italian customers and partners by moving data closer to end users"
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "datacenter",
+    "regional availability",
+    "performance",
+    "italy",
+    "infrastructure",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "Italy North datacenter",
+    "regional deployment",
+    "environment migration",
+    "latency optimization"
+  ],
+  "versions": [
+    "27.3"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Starting from Dynamics 365 Business Central version 27.3, all IT customers will start be deployed on Italy North datacenter, located in Milan.",
+      "why_it_matters": "Clearly states when the new regional availability begins and its location"
+    },
+    {
+      "text": "Bringing your data closer to you is a key benefit of the cloud platform (and the power of Azure).",
+      "why_it_matters": "Explains the strategic value of regional datacenters for cloud performance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

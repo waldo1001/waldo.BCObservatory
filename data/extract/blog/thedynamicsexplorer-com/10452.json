@@ -1,0 +1,47 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10452",
+  "url": "https://thedynamicsexplorer.com/2025/11/10/dynamics-365-business-central-error-message-you-have-one-or-more-documents-that-must-be-posted-before-you-post-document-no-when-posting-a-journal/",
+  "title": "Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-11-10T16:00:00.000Z",
+  "words": 540,
+  "summary": "When posting a journal in Business Central, an error occurs if the journal's number series has manual numbers disabled but the user tries to enter a custom document number. The post explains three solutions: enable manual numbers on the number series, remove the number series from the batch, or use the renumber function to auto-generate the next sequential number.",
+  "key_points": [
+    "The error happens when a journal batch is assigned a number series with manual numbers disabled, preventing users from entering custom document numbers",
+    "Manual numbers setting on the number series controls whether users can enter their own document numbers in journal batches using that series",
+    "Three solutions exist: enable manual numbers, remove the number series from the batch, or use the renumber document numbers function",
+    "The renumber function automatically fetches the next sequential number from the series, ensuring proper journal numbering"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "journal posting",
+    "number series",
+    "error resolution",
+    "document numbering"
+  ],
+  "objects": [],
+  "features": [
+    "Journal posting",
+    "Number Series configuration",
+    "Manual number entry",
+    "Document renumbering"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You have one or more documents that must be posted before you post document no..",
+      "why_it_matters": "This is the exact error message users encounter, helping them identify the posting validation issue"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

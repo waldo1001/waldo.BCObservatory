@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/",
+  "url": "https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/",
+  "title": "Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland",
+  "source": "stefanmaron-com",
+  "published_at": "2025-10-31T00:00:00.000Z",
+  "words": 938,
+  "summary": "The AL Language Extension debugger fails on Linux with Wayland/Hyprland, showing empty Call Stack and Variables panels despite successfully connecting to Business Central. Using VS Code Dev Containers to run the AL Language Server inside an Ubuntu container while keeping the VS Code UI on Hyprland restores full debugging functionality.",
+  "key_points": [
+    "Debugger connects and breakpoints trigger on Wayland, but Call Stack and Variables panels remain empty due to socket-based IPC communication breaking",
+    "X11 and Wayland handle event loops and IPC differently; Wayland's stricter sandboxing interferes with the AL Language Server's display server communication",
+    "VS Code Dev Containers bypass the display server problem by running the AL extension in an Ubuntu container and communicating via network protocol instead",
+    "Solution requires disabling interactive login in AL settings and configuring a devcontainer.json with .NET 8.0 and the AL extension installed in the container",
+    "Dev Containers provide reproducible environments and avoid switching to X11-based window managers"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al debugger",
+    "linux",
+    "wayland",
+    "vs code",
+    "dev containers",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "AL Language Extension",
+    "VS Code Dev Containers",
+    "Debug Adapter Protocol",
+    "Interactive login",
+    "Remote Development"
+  ],
+  "versions": [
+    "AL extension v16-v17",
+    "VS Code 1.104.1-1.105.1",
+    ".NET 8.0.20"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The AL Language Server uses socket-based IPC for communication between VS Code and the debugger.",
+      "why_it_matters": "Explains the root cause of why Call Stack and Variables panels stay empty on Wayland - the socket communication breaks due to Wayland's stricter event handling"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

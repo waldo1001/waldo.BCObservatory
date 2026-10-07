@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/",
   "published_at": "2025-10-31T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.788Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604.md",
+      "words": 90
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.794Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.795Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.796Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.800Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ad5f94ef41d5c54a00700f62ed3d9573a0377e391e2f47feb65b92840f2b8da"
 }

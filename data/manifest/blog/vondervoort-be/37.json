@@ -7,13 +7,39 @@
   "url": "https://www.vondervoort.be/index.php/2025/11/11/directions-emea-2025/",
   "published_at": "2025-11-11T10:11:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:11.682Z",
+      "path": "vault:posts/vondervoort-be/37.md",
+      "words": 970
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:11.693Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:11.694Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:11.695Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:11.704Z",
+      "path": "content/posts/vondervoort-be/37.md"
     }
   },
   "input_hash": "2025-11-11T10:14:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84e7cab2597e4190934393b19ae7f750f7b5e20ad73cbc601e3ef27611fcc606"
 }

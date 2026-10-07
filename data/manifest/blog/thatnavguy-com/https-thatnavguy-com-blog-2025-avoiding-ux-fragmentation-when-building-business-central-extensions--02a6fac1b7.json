@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/avoiding-ux-fragmentation-when-building-business-central-extensions/",
   "published_at": "2025-11-04T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:12.757Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-avoiding-ux-fragmentation-when-building-business-central-extensions--02a6fac1b7.md",
+      "words": 607
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:12.767Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:12.768Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:12.769Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:12.777Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-avoiding-ux-fragmentation-when-building-business-central-extensions--02a6fac1b7.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1906a37513df9f3e6a6a0dba8a22c5940bd153c1eea13c2dc6e75bf180761880"
 }

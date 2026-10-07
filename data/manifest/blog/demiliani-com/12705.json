@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/11/02/understanding-llm-performance-degradation-a-deep-dive-into-context-window-limits/",
   "published_at": "2025-11-02T20:58:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.129Z",
+      "path": "vault:posts/demiliani-com/12705.md",
+      "words": 1066
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.139Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.140Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.141Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.152Z",
+      "path": "content/posts/demiliani-com/12705.md"
     }
   },
   "input_hash": "2025-11-02T20:58:38.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd27e779669e2b5af5c5975aaa509f2dc1e7be55383b8eda5a315a89cabb0268"
 }

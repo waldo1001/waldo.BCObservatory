@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/demiliani-com/12705",
+  "url": "https://demiliani.com/2025/11/02/understanding-llm-performance-degradation-a-deep-dive-into-context-window-limits/",
+  "title": "Understanding LLM performance degradation: a deep dive into Context Window limits",
+  "source": "demiliani-com",
+  "published_at": "2025-11-02T20:58:38.000Z",
+  "words": 1066,
+  "summary": "This post explores how Large Language Models experience performance degradation as they approach their context window limits through practical testing with GPT-4.1 and GPT-5. It demonstrates that both models encounter dramatic slowdowns around 400,000 characters and provides strategies for developers to optimize LLM applications by managing context size effectively.",
+  "key_points": [
+    "Context window represents the maximum text an LLM can process in a single request, with measurable impacts on response time and quality",
+    "Performance degradation occurs at approximately 400,000 characters for GPT-4.1 and at 600,000+ characters for GPT-5, with response times spiking to 60+ seconds",
+    "Attention mechanism complexity scales quadratically with input length, causing exponential increases in computational cost near limits",
+    "Developers should stay within 80-85 percent of theoretical token limits and implement context pruning, document chunking, and proper token counting"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "llm performance",
+    "context window",
+    "token limits",
+    "ai optimization",
+    "gpt-4",
+    "gpt-5",
+    "azure openai"
+  ],
+  "objects": [],
+  "features": [
+    "context window management",
+    "performance monitoring",
+    "token counting",
+    "context pruning",
+    "document chunking",
+    "request timeout handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The context window represents the maximum amount of text (measured in tokens) that an LLM can process in a single request.",
+      "why_it_matters": "Defines the fundamental constraint that impacts all LLM application design and performance considerations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

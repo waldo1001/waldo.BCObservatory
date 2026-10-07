@@ -1,0 +1,129 @@
+{
+  "item_id": "blog/gerardorenteria-blog/9061",
+  "url": "https://gerardorenteria.blog/2025/11/06/%f0%9f%91%a5-human-resources-module-in-business-central%f0%9f%9a%80/",
+  "title": "👥 Human Resources Module in Business Central🚀",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-11-06T21:58:57.000Z",
+  "words": 2783,
+  "summary": "The Human Resources module in Business Central provides employee management, absence tracking, financial integration for expenses and reimbursements, and reporting capabilities integrated with other modules like Projects and Sales. It covers employee registration, absence registration with multiple matrix visualizations, employee ledger entries for accounting transactions, and standard reports for HR analysis.",
+  "key_points": [
+    "Employee management includes complete cards with personal data, contact information, qualifications, certifications, and assigned items like equipment and vehicles",
+    "Absence control tracks absences by cause (vacation, sick leave, personal leave) with analysis matrices by category and period",
+    "Financial integration manages advances, loans, travel expenses, and multi-currency payments with automatic posting groups",
+    "The module integrates with Resources and Sales modules, allowing employees to link as resources or salespersons",
+    "Advanced HR processes like onboarding, performance reviews, time tracking, and employee self-service portals are not included"
+  ],
+  "systems": [
+    "hr",
+    "finance",
+    "projects"
+  ],
+  "topics": [
+    "employee management",
+    "absence tracking",
+    "payroll",
+    "employee ledger",
+    "posting groups",
+    "reporting",
+    "module integration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Employee"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Absence Registration"
+    },
+    {
+      "type": "page",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Absence Registration"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Labels"
+    },
+    {
+      "type": "report",
+      "name": "Employee – List"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Misc. Article Info."
+    },
+    {
+      "type": "report",
+      "name": "Employee – Confidential Info."
+    },
+    {
+      "type": "report",
+      "name": "Employee – Staff Absences"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Absences by Causes"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Qualifications"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Addresses"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Relatives"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Birthdays"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Phone Nos."
+    },
+    {
+      "type": "report",
+      "name": "Employee – Unions"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Contracts"
+    },
+    {
+      "type": "report",
+      "name": "Employee – Alt. Addresses"
+    }
+  ],
+  "features": [
+    "employee registration and modification",
+    "alternative addresses and emergency contacts",
+    "qualifications and certifications tracking",
+    "absence registration with cause tracking",
+    "employee ledger entries and payment management",
+    "multi-currency support with exchange rate handling",
+    "multiple posting groups for employees",
+    "module synchronization with Resources and Sales"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

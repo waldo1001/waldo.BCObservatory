@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/11/02/%f0%9f%94%90-partial-masking-in-business-central-smart-data-protection-%f0%9f%91%80/",
   "published_at": "2025-11-02T21:22:25.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.169Z",
+      "path": "vault:posts/gerardorenteria-blog/12557.md",
+      "words": 573
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.175Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.176Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.176Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.182Z",
+      "path": "content/posts/gerardorenteria-blog/12557.md"
     }
   },
   "input_hash": "2025-11-02T21:22:25.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1af0a96697a5be9fceb171cccd5810dd5914e584e68309b320de144e40f1ed68"
 }

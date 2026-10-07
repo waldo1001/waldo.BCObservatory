@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/11/05/dynamics-365-business-central-announcing-italy-north-availability/",
   "published_at": "2025-11-05T10:30:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:12.790Z",
+      "path": "vault:posts/demiliani-com/12734.md",
+      "words": 279
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:12.796Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:12.797Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:12.798Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:12.805Z",
+      "path": "content/posts/demiliani-com/12734.md"
     }
   },
   "input_hash": "2025-11-05T10:53:09.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3f03f53f5050047a8921a0ab3ea7556be30e073c0026b78f1eb55fc09416ccd"
 }

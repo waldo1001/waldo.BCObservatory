@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/avoiding-ux-fragmentation-when-building-business-central-extensions/",
+  "url": "https://thatnavguy.com/blog/2025/avoiding-ux-fragmentation-when-building-business-central-extensions/",
+  "title": "Avoiding UX Fragmentation When Building Business Central Extensions",
+  "source": "thatnavguy-com",
+  "published_at": "2025-11-04T00:00:00.000Z",
+  "words": 607,
+  "summary": "UX fragmentation occurs when Business Central extensions use inconsistent naming, layouts, messaging, and workflows, making the system feel disjointed to users. Developers can reduce fragmentation by establishing shared design guidelines, consistent terminology, and unified navigation across extensions.",
+  "key_points": [
+    "UX fragmentation happens when different extensions use different naming conventions, field arrangements, notification styles, validation messages, and documentation approaches",
+    "Fragmentation causes users to take longer learning features, get frustrated navigating between extensions, and require more support",
+    "Partners and developers can prevent fragmentation by agreeing on naming rules, design patterns, tone, and creating UX guidelines for all teams",
+    "Extensions should be reviewed for overlapping features, crowded interfaces, performance issues, and conflicting navigation to maintain consistency",
+    "Combining related navigation and features across extensions into unified menus keeps the interface clean and helps users work more efficiently"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "ux design",
+    "extensions",
+    "consistency",
+    "user experience",
+    "design guidelines",
+    "fragmentation"
+  ],
+  "objects": [],
+  "features": [
+    "extension naming conventions",
+    "error messaging",
+    "notification display",
+    "navigation design",
+    "field grouping",
+    "tooltip documentation",
+    "action placement",
+    "validation styling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "UX Fragmentation happens when different extensions use different ways of doing things in Business Central.",
+      "why_it_matters": "Defines the core concept of the problem that impacts user adoption and satisfaction"
+    },
+    {
+      "text": "Each small difference adds up. The system feels messy, and users make more mistakes or waste time figuring things out.",
+      "why_it_matters": "Explains the cumulative negative impact of fragmentation on user productivity"
+    },
+    {
+      "text": "By making consistency part of your process, you make Business Central easier and better for everyone.",
+      "why_it_matters": "Emphasizes the practical benefit of implementing consistent design patterns across extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

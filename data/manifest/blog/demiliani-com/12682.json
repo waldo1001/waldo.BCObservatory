@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/11/11/introducing-yampi-the-mcp-server-for-dynamics-365-business-central-administration/",
   "published_at": "2025-11-11T08:09:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:11.916Z",
+      "path": "vault:posts/demiliani-com/12682.md",
+      "words": 1554
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:11.926Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:11.927Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:11.927Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:11.937Z",
+      "path": "content/posts/demiliani-com/12682.md"
     }
   },
   "input_hash": "2025-11-11T08:09:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f50625311ea136ee064762e32ae7c4f521d47de27d6e75e39edd4d761ed3fcc0"
 }

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/11/07/understanding-al-development-environmental-information-code-unit/",
   "published_at": "2025-11-07T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:12.246Z",
+      "path": "vault:posts/aardvarklabs-blog/2816.md",
+      "words": 381
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:12.255Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:12.257Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:12.258Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:12.265Z",
+      "path": "content/posts/aardvarklabs-blog/2816.md"
     }
   },
   "input_hash": "2025-11-05T02:07:30.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5586a41f18ab2779b77a4dd99bca425a147d9c24ebeb4edceb21a2e051dc3362"
 }

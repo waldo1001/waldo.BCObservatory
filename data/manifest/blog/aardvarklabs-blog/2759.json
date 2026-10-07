@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/10/31/using-copilot-to-upgrade-service-notes-for-invoices-in-business-central-al/",
   "published_at": "2025-10-31T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:13.522Z",
+      "path": "vault:posts/aardvarklabs-blog/2759.md",
+      "words": 2546
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:13.560Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:13.561Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:13.562Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:13.574Z",
+      "path": "content/posts/aardvarklabs-blog/2759.md"
     }
   },
   "input_hash": "2025-10-15T01:19:53.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4af0c589398160a680e7a1b44ca9ea8e3048584cf696c06bba1ff6ec98f6186"
 }

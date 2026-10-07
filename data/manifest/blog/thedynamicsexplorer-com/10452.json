@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/11/10/dynamics-365-business-central-error-message-you-have-one-or-more-documents-that-must-be-posted-before-you-post-document-no-when-posting-a-journal/",
   "published_at": "2025-11-10T16:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:11.958Z",
+      "path": "vault:posts/thedynamicsexplorer-com/10452.md",
+      "words": 540
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:11.966Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:11.967Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:11.968Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:11.975Z",
+      "path": "content/posts/thedynamicsexplorer-com/10452.md"
     }
   },
   "input_hash": "2026-04-30T19:11:28.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "37bf23d662af19ca446159ef362c1a5d5f2c938cc6762a204d8d1616a0b661f1"
 }

@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/vondervoort-be/24",
+  "url": "https://www.vondervoort.be/index.php/2025/10/31/rethinking-lintercop-preparing-for-the-next-chapter/",
+  "title": "Rethinking LinterCop: Preparing for the Next Chapter",
+  "source": "vondervoort-be",
+  "published_at": "2025-10-31T08:33:17.000Z",
+  "words": 1326,
+  "summary": "LinterCop, a code analyzer for AL, faces architectural limitations that require fundamental redesign. The post explains tight coupling with the AL language, distribution challenges through GitHub, scope creep as a \"Swiss Army Knife,\" and DevOps integration issues, leading to a proposed LinterCop 2.0 rebuild.",
+  "key_points": [
+    "LinterCop generates 50 assets per release due to AL language version dependencies and breaking changes between versions",
+    "GitHub release distribution has rate limiting issues; moving to NuGet would require creating new package versions whenever AL Language updates",
+    "The analyzer scope has grown too broad, mixing language syntax rules with Business Central business logic recommendations, suggesting need for specialized analyzers",
+    "DevOps integration breaks in pre-release AL Language versions due to tight coupling, requiring fundamental architectural changes"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "code analysis",
+    "lintercop",
+    "al language",
+    "ci/cd",
+    "architecture",
+    "package distribution",
+    "devops"
+  ],
+  "objects": [],
+  "features": [
+    "code analysis",
+    "linting rules",
+    "VS Code integration",
+    "Azure DevOps integration",
+    "GitHub integration",
+    "NuGet distribution",
+    "multiple specialized analyzers"
+  ],
+  "versions": [
+    "AL Language 16.0",
+    ".NET Standard 2.0",
+    ".NET 8.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Maintaining backward compatibility with third-party analyzers would slow down their own development. It's a trade-off that makes sense for me.",
+      "why_it_matters": "Shows understanding of Microsoft's design decisions and the fundamental challenge for third-party tool developers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

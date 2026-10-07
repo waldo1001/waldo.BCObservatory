@@ -1,0 +1,93 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12557",
+  "url": "https://gerardorenteria.blog/2025/11/02/%f0%9f%94%90-partial-masking-in-business-central-smart-data-protection-%f0%9f%91%80/",
+  "title": "🔐 Partial Masking in Business Central: Smart Data Protection 👀",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-11-02T21:22:25.000Z",
+  "words": 573,
+  "summary": "Business Central BC27 introduced MaskType for client-side data protection, but the post demonstrates a custom solution that extends this with configurable partial masking patterns (Last Four Digits, First And Last Two, Middle Visible, Full Mask) for any field in any table, allowing users to toggle between masked and full views.",
+  "key_points": [
+    "BC27's MaskType property offers only binary protection (None or Concealed), which the author enhances with four customizable masking patterns",
+    "The solution uses a centralized configuration table to define which fields should be masked and which pattern to apply",
+    "Page extensions add calculated fields with assist buttons to toggle between partial and complete data display",
+    "The implementation includes enum patterns, management codeunit, configuration storage, and permission set components"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "data protection",
+    "masking",
+    "security",
+    "al development",
+    "bc27",
+    "field configuration",
+    "client-side protection"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "GDRGMaskPattern"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGMaskingManagement"
+    },
+    {
+      "type": "table",
+      "name": "GDRGFieldMaskingSetup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFieldMaskingSetup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFieldMaskingLookup"
+    },
+    {
+      "type": "table",
+      "name": "GDRGEmployee"
+    },
+    {
+      "type": "page",
+      "name": "GDRGEmployeeCard"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGMasking"
+    }
+  ],
+  "features": [
+    "partial masking",
+    "custom masking patterns",
+    "centralized configuration",
+    "data protection",
+    "toggle between masked and full view",
+    "standard field extension"
+  ],
+  "versions": [
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The MaskType property offers two states: None or Concealed. While this provides basic protection, it's an all-or-nothing approach.",
+      "why_it_matters": "Explains the limitation of the native feature that motivated the custom solution"
+    },
+    {
+      "text": "Instead of completely hiding or revealing the data, you can choose exactly which portion to display.",
+      "why_it_matters": "Describes the core benefit of the partial masking approach over binary masking"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
