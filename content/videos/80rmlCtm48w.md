@@ -17,12 +17,12 @@ tags:
   - women in dynamics
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:24.373Z"
   flags: []
 generated:
-  at: "2026-10-06T19:33:22.833Z"
+  at: "2026-10-07T23:07:24.413Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,7 +121,7 @@ quotes:
 
 > Olivia from Clients First describes her experience as a new hire in a ReSkill program for Business Central, recorded at Directions NA 2024. It is evidence for how a reskill program is structured, how it builds community, and what learning and networking look like for a junior consultant.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=80rmlCtm48w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-06-06 · 3:57 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=80rmlCtm48w) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-06-06 · 3:57 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

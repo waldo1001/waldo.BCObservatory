@@ -1,0 +1,23 @@
+{
+  "video_id": "4EnvGMwbuBY",
+  "item_id": "video/yt-microsoft/4EnvGMwbuBY",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes appear in the transcript. The quote at 141.9 starts in the middle of a sentence ('dimensions the remainder...') and only differs from the transcript in punctuation and case, so it is acceptable.",
+    "The six features are correctly marked as unclear. The transcript says nothing about preview or general availability.",
+    "The summary and key points match the transcript: up to eight segments in the flex key, global dimensions chosen in the migration tool, two global dimensions plus shortcut dimensions, general ledger setup, dimension values, and chart of accounts drill-back.",
+    "In the key points, 'only two global dimensions' adds a little emphasis, but it matches the transcript's 'Business Central has two global dimensions'."
+  ],
+  "input_hash": "ed34adb8a3bb07da1fe6aa19d3ea1b6b04ca78fd985b7fcfba636142e333f228",
+  "by": "opus",
+  "at": "2026-10-07T23:07:14.715Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047185000000000005
+  }
+}

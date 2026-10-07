@@ -4,11 +4,11 @@
   "summary": "Comparison of correcting and reversing journal entries in Dynamics SL and Business Central. Shows the SL reverse, reverse-and-correct and copy options on Journal transactions, then reversing a posted entry and correcting dimensions from General ledger entry in Business Central.",
   "overview": "The 3-minute video, published 2024-07-26, walks through how to fix a posted journal entry in Dynamics SL and then in Business Central. In SL, the Journal transactions page offers three options: reverse the entry, reverse and create a correcting entry, or copy the entry to change it manually. Reversing creates an unposted batch that swaps debits and credits of the original posted batch, and that batch is then posted.\n\nIn Business Central, the reversal is started from the General ledger entry page. The system fills in the journal entry information and reverses the amounts. The video also shows correcting a dimension on a posted entry without reversing the whole transaction, including adding a missing dimension, entering a description for the change and refreshing to see the result.",
   "key_points": [
-    "In Dynamics SL, the Journal transactions page offers three options: reverse, reverse and create a correcting entry, or copy the entry for manual changes.",
-    "Reversing in SL creates an unposted batch that fully reverses the original posted batch with debits and credits swapped; it must then be posted.",
-    "In Business Central, a posted entry is reversed from the General ledger entry page; the system pulls in the account and amounts and reverses them.",
-    "Business Central can correct a dimension on a posted entry instead of reversing the whole transaction.",
-    "The change dimension process lets you set the new dimension value, add a missing dimension, enter a description and refresh to see the result.",
+    "In Dynamics SL, choosing Correct journal transaction on Journal transactions offers three options: reverse, reverse and create a correcting entry, or copy the entry to make manual changes.",
+    "Reversing in SL creates an unposted reversal batch that completely reverses the original posted batch, with the account and amounts pulled in and debits and credits reversed. You then post it with Post transactions.",
+    "In Business Central, you reverse a posted entry from the General ledger entry window. The journal entry information is filled in by default, and the reversal reverses the amount posted in the original entry.",
+    "Business Central's Correct dimension functionality can correct or add a dimension value on a posted entry instead of reversing the whole transaction.",
+    "When correcting dimensions, you select the new dimension value code, add any missing dimension, enter a description of why the change is being made, run the change dimension process and refresh to see the result.",
     "The video's conclusion is that reversing and correcting dimensions is quick and simple in Business Central."
   ],
   "audience": [

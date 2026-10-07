@@ -4,12 +4,12 @@
   "summary": "Entering accounts receivable invoices and credit memos in Dynamics SL compared with Business Central. Shows the sales invoice and sales credit memo pages, applying a credit memo to an invoice in one entry, and preview posting.",
   "overview": "This 4-minute video, published 2024-07-26, walks through entering an accounts receivable invoice and credit memo in Dynamics SL, then applying the credit memo to the invoice as a separate step. It then repeats the process in Business Central for comparison.\n\nIn Business Central, the invoice is entered on the sales invoice page, reached from the role center, with a customer selected and lines for items and services on one invoice. The credit memo is entered on the sales credit memo page and applied to an invoice in the same entry. The video also mentions the sales journal as an alternative for entering multiple entries for multiple customers.",
   "key_points": [
-    "In Business Central, a single customer invoice is entered on the sales invoice page, opened from the role center.",
+    "In Dynamics SL, invoices and credit memos are entered in Accounts Receivable > Invoice and Memo. The credit memo is then applied to the invoice in a separate Payment Application screen.",
+    "In Business Central, a single customer invoice is entered on the sales invoice page, opened from the role center via Sales > Sales Invoice.",
     "An invoice line can be set up for several options, so items and services can be invoiced on one invoice.",
-    "On the sales credit memo page, the Applies to Doc Type and Applies to Doc Number fields apply the credit memo to a specific invoice in one entry.",
-    "This replaces the separate payment application step used in Dynamics SL.",
-    "Post, then Preview Posting, in the top action menu lets you verify posting entries before posting.",
-    "The sales journal, opened from the role center, is an alternative for entering multiple entries for multiple customers."
+    "On the sales credit memo page (General FastTab, Show more), the Applies-to Doc. Type and Applies-to Doc. No. fields let you enter and apply the credit memo to a specific invoice in one entry.",
+    "Post, then Preview Posting, in the top action menu lets you verify posting entries, including that the credit memo is applied to the selected invoice, before posting.",
+    "The sales journal, opened from the role center, is an alternative for entering multiple entries for multiple customers. Credit memos can also be entered and applied there by selecting the credit memo line type."
   ],
   "audience": [
     "functional consultant",

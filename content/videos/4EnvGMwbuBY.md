@@ -16,12 +16,12 @@ tags:
   - flex key
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:14.715Z"
   flags: []
 generated:
-  at: "2026-10-06T19:31:07.873Z"
+  at: "2026-10-07T23:07:14.756Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,7 +152,7 @@ quotes:
 
 > Subaccount segments in Dynamics SL compared with dimensions in Business Central after migration. Covers the SL flex key (up to eight segments), choosing global dimensions in the SL company migration configuration tool, two global dimensions plus shortcut dimensions, and analysis on the chart of accounts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4EnvGMwbuBY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 4:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4EnvGMwbuBY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 4:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,14 +182,14 @@ It then shows the migration. In the SL company migration configuration tool you 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Subaccount segments in Dynamics SL | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=53s) |  |
-| Segment migration to Business Central | status not stated | [1:42](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=102s) |  |
-| Global and shortcut dimensions | status not stated, demoed | [2:09](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=129s) |  |
-| General ledger setup for dimensions | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=153s) |  |
-| Dimension values management | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=186s) |  |
-| Chart of accounts analysis with dimensions | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=219s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Subaccount segments in Dynamics SL | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=53s) |
+| Segment migration to Business Central | status not stated | [1:42](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=102s) |
+| Global and shortcut dimensions | status not stated, demoed | [2:09](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=129s) |
+| General ledger setup for dimensions | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=153s) |
+| Dimension values management | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=186s) |
+| Chart of accounts analysis with dimensions | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=4EnvGMwbuBY&t=219s) |
 
 ## Quotes
 

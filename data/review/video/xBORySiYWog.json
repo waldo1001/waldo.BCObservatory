@@ -1,0 +1,28 @@
+{
+  "video_id": "xBORySiYWog",
+  "item_id": "video/yt-microsoft/xBORySiYWog",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary has a publish date (2024-07-01) that is not in the transcript; removed.",
+    "Summary calls SwissSalary a payroll software company. The captions only say 'bringing P solution to the market', and the payroll background belongs to the new employee. Reworded to stay within the transcript.",
+    "The program name is garbled in the captions ('res skill', 'resale', 'risk kill'). It is probably a reskilling program. The feature name is kept as extracted, but the name is uncertain.",
+    "Added a quote from the closing segment saying the program is key to the company's success.",
+    "Quotes are verbatim; the last 83.6 quote runs on into the 104 segment, which is fine."
+  ],
+  "input_hash": "e6f4de635d8a28fecea67ae51dca51d23db2c952ff54ea42d542aecb5da705f6",
+  "by": "opus",
+  "at": "2026-10-07T23:07:34.988Z",
+  "applied": [
+    "Resale skill program: status unclear",
+    "quote at 104s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042197
+  }
+}

@@ -2,7 +2,7 @@
 id: video/r1LrZH8IPJY
 type: video
 title: "BCTalent Stories: JourneyTEAM"
-summary: "JourneyTEAM's ReSkill program, a Business Central consulting talent effort: it finds people with industry experience, teaches them BC technology, and trains consultant and soft skills. The video is a 2-minute BCTalent Stories piece published 2024-04-25."
+summary: JourneyTEAM, a Microsoft consulting firm, explains why it partnered with ReSkill to close its Business Central talent gap. ReSkill finds people with industry experience, teaches them BC technology, and trains consultant and soft skills. The speakers recommend ReSkill to other partners because it saves cost and time.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - business requirements
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:52.969Z"
   flags: []
 generated:
-  at: "2026-10-06T19:34:58.490Z"
+  at: "2026-10-07T23:07:53.014Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,6 +35,13 @@ evidence:
     commit: null
     t: 4
     quote: we've had substantial growth roughly 30 or greater over the last few years and finding the right talent with the right skill sets
+  - kind: video
+    url: https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s
+    title: "BCTalent Stories: JourneyTEAM"
+    date: "2024-04-25T09:56:07.000Z"
+    commit: null
+    t: 25
+    quote: we looked at doing it internally uh but for the cost and the professionalism that they've brought it aligns directly with our
   - kind: video
     url: https://www.youtube.com/watch?v=r1LrZH8IPJY&t=45s
     title: "BCTalent Stories: JourneyTEAM"
@@ -63,6 +70,13 @@ evidence:
     commit: null
     t: 105
     quote: what we've gained in this program so far is an increase of technical knowledge but most importantly this expectation and Clarity of how we
+  - kind: video
+    url: https://www.youtube.com/watch?v=r1LrZH8IPJY&t=105s
+    title: "BCTalent Stories: JourneyTEAM"
+    date: "2024-04-25T09:56:07.000Z"
+    commit: null
+    t: 105
+    quote: it's very efficient from a cost perspective from a Time perspective it was very quick to get this rolling
 links:
   learn: []
   objects: []
@@ -112,6 +126,9 @@ quotes:
   - t: 4
     text: we've had substantial growth roughly 30 or greater over the last few years and finding the right talent with the right skill sets
     check: fuzzy
+  - t: 25
+    text: we looked at doing it internally uh but for the cost and the professionalism that they've brought it aligns directly with our
+    check: exact
   - t: 45
     text: there are a limited number of people with BC experience today with consultant skills and identifying a new source that we could tap into
     check: exact
@@ -124,13 +141,16 @@ quotes:
   - t: 105
     text: what we've gained in this program so far is an increase of technical knowledge but most importantly this expectation and Clarity of how we
     check: exact
+  - t: 105
+    text: it's very efficient from a cost perspective from a Time perspective it was very quick to get this rolling
+    check: exact
 ---
 
 # BCTalent Stories: JourneyTEAM
 
-> JourneyTEAM's ReSkill program, a Business Central consulting talent effort: it finds people with industry experience, teaches them BC technology, and trains consultant and soft skills. The video is a 2-minute BCTalent Stories piece published 2024-04-25.
+> JourneyTEAM, a Microsoft consulting firm, explains why it partnered with ReSkill to close its Business Central talent gap. ReSkill finds people with industry experience, teaches them BC technology, and trains consultant and soft skills. The speakers recommend ReSkill to other partners because it saves cost and time.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=r1LrZH8IPJY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-25 · 2:21 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=r1LrZH8IPJY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-25 · 2:21 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -142,11 +162,11 @@ Its answer is ReSkill. The program picks people with industry experience who und
 
 - JourneyTEAM reports growth of roughly 30 percent or more over the last few years and says finding talent with the right skill sets is hard.
 - The stated problem is that few people have both BC experience and consultant skills.
+- JourneyTEAM considered building a training program itself but chose to team with ReSkill for cost and professionalism, and because ReSkill fits its culture.
 - ReSkill targets people with industry experience who understand business processes, then teaches BC technology and consultant skills.
 - ReSkill is described as part of JourneyTEAM's growth strategy.
 - Professional skills training covers mindset and soft skills, which the speaker says technologists often overlook.
 - Reported results so far: more technical knowledge and clearer expectations of how consultants should work.
-- The video also says the BC community needs next-generation talent.
 
 ## Chapters
 
@@ -159,17 +179,19 @@ Its answer is ReSkill. The program picks people with industry experience who und
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ReSkill talent development program | status not stated | [0:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s) |  |
-| Professional skills training for consultants | status not stated | [1:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=85s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ReSkill talent development program | status not stated | [0:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s) |
+| Professional skills training for consultants | status not stated | [1:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=85s) |
 
 ## Quotes
 
 - [0:04](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=4s) "we've had substantial growth roughly 30 or greater over the last few years and finding the right talent with the right skill sets"
+- [0:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s) "we looked at doing it internally uh but for the cost and the professionalism that they've brought it aligns directly with our"
 - [0:45](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=45s) "there are a limited number of people with BC experience today with consultant skills and identifying a new source that we could tap into"
 - [1:05](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=65s) "res skill is part of our growth strategy because we're trying to identify people with industry experience who understand the processes teach them the"
 - [1:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=85s) "as technologist we have a tendency to just double down on skill sets around technology and we Overlook what are the soft skills and"
 - [1:45](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=105s) "what we've gained in this program so far is an increase of technical knowledge but most importantly this expectation and Clarity of how we"
+- [1:45](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=105s) "it's very efficient from a cost perspective from a Time perspective it was very quick to get this rolling"
 
 Presenters (as heard): Kip sson, Greg crle.

@@ -2,7 +2,7 @@
 id: video/symEeOiih_Q
 type: video
 title: "BCTalent Stories: iFacto"
-summary: iFacto, a Business Central partner, describes how the ReSkill program helped it hire consultants from non-traditional backgrounds, such as warehouse management and supply chain. It is a short partner testimonial from the BCTalent Stories series, published 2024-04-26.
+summary: Steven, CEO of iFacto, a Belgian Business Central partner focused on wholesale and distribution, describes how the ReSkill program found consultants iFacto could not have found itself. These were people with no Dynamics experience but with business experience such as warehouse management or supply chain. He says the hires integrated quickly, were billable for at least 50% after two or three months, and he recommends the program to other partners.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - supply chain expertise
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:48.957Z"
   flags: []
 generated:
-  at: "2026-10-06T19:34:37.489Z"
+  at: "2026-10-07T23:07:48.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 88
     quote: the people we have hired via the program are very enthusiastic they are eager to learn and they were rapidly integrated in our whole
+  - kind: video
+    url: https://www.youtube.com/watch?v=symEeOiih_Q&t=100s
+    title: "BCTalent Stories: iFacto"
+    date: "2024-04-26T08:19:25.000Z"
+    commit: null
+    t: 100
+    quote: they had a positive impact and they are already buildable after two or three months for at least 50%
 links:
   learn: []
   objects: []
@@ -105,13 +112,16 @@ quotes:
   - t: 88
     text: the people we have hired via the program are very enthusiastic they are eager to learn and they were rapidly integrated in our whole
     check: exact
+  - t: 100
+    text: they had a positive impact and they are already buildable after two or three months for at least 50%
+    check: exact
 ---
 
 # BCTalent Stories: iFacto
 
-> iFacto, a Business Central partner, describes how the ReSkill program helped it hire consultants from non-traditional backgrounds, such as warehouse management and supply chain. It is a short partner testimonial from the BCTalent Stories series, published 2024-04-26.
+> Steven, CEO of iFacto, a Belgian Business Central partner focused on wholesale and distribution, describes how the ReSkill program found consultants iFacto could not have found itself. These were people with no Dynamics experience but with business experience such as warehouse management or supply chain. He says the hires integrated quickly, were billable for at least 50% after two or three months, and he recommends the program to other partners.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=symEeOiih_Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-26 · 2:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=symEeOiih_Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-26 · 2:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -122,10 +132,11 @@ The video covers which skills new consultants need, including BC product knowled
 ## Key points
 
 - The ReSkill program helps BC partners find candidates without Dynamics experience but with solid business experience, for example in warehouse management or supply chain.
-- iFacto says the program found people it could not have found itself, because it was searching in other areas.
-- Skills named for new consultants: BC product knowledge, AI, business intelligence, Power Apps, plus consulting skills beyond product knowledge.
-- iFacto describes its hires from the program as enthusiastic, eager to learn and quickly integrated into the team.
-- iFacto recommends the program to other partners.
+- iFacto says the program found people it could never have found itself, because the program looked in other areas.
+- Skills named for new consultants: BC product knowledge, AI, business intelligence and Power Apps, plus consulting, commercial and analytical skills. iFacto says the program helps on both the product side and the consulting side.
+- iFacto describes its hires from the program as enthusiastic and eager to learn. They were quickly integrated into the team and joined existing customer projects after a few weeks.
+- According to iFacto, the hires were billable for at least 50% after two or three months.
+- iFacto recommends that other partners join the program and help grow the BC Talent community.
 
 ## Chapters
 
@@ -137,9 +148,9 @@ The video covers which skills new consultants need, including BC product knowled
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ReSkill program | status not stated | [0:23](https://www.youtube.com/watch?v=symEeOiih_Q&t=23s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ReSkill program | status not stated | [0:23](https://www.youtube.com/watch?v=symEeOiih_Q&t=23s) |
 
 ## Quotes
 
@@ -147,5 +158,6 @@ The video covers which skills new consultants need, including BC product knowled
 - [0:44](https://www.youtube.com/watch?v=symEeOiih_Q&t=44s) "for people without any Dynamics experience but with solid uh business experience in for example warehouse management or Supply Chain"
 - [0:57](https://www.youtube.com/watch?v=symEeOiih_Q&t=57s) "it's important that they have an solid product knowledge of BC AI business intelligence power apps and so on but besid of that they"
 - [1:28](https://www.youtube.com/watch?v=symEeOiih_Q&t=88s) "the people we have hired via the program are very enthusiastic they are eager to learn and they were rapidly integrated in our whole"
+- [1:40](https://www.youtube.com/watch?v=symEeOiih_Q&t=100s) "they had a positive impact and they are already buildable after two or three months for at least 50%"
 
 Presenters (as heard): Steven.

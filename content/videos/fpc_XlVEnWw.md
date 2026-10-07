@@ -15,12 +15,12 @@ tags:
   - suggest vendor payments
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:21.463Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:21.507Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     t: 61
     quote: The suggest vendor payments wizard opens. I can select previously saved defaults so that I don't need to re-enter information each time I create
   - kind: video
+    url: https://www.youtube.com/watch?v=fpc_XlVEnWw&t=73s
+    title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
+    date: "2024-07-26T13:24:09.000Z"
+    commit: null
+    t: 73
+    quote: The last payment date is how I can indicate that we want to pay invoices due on or before that date.
+  - kind: video
     url: https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s
     title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
     date: "2024-07-26T13:24:09.000Z"
@@ -62,6 +69,13 @@ evidence:
     commit: null
     t: 162
     quote: We will then choose to summarize per vendor to create one payment per vendor.
+  - kind: video
+    url: https://www.youtube.com/watch?v=fpc_XlVEnWw&t=162s
+    title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
+    date: "2024-07-26T13:24:09.000Z"
+    commit: null
+    t: 162
+    quote: I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month.
   - kind: video
     url: https://www.youtube.com/watch?v=fpc_XlVEnWw&t=174s
     title: Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central
@@ -143,6 +157,9 @@ quotes:
   - t: 61
     text: The suggest vendor payments wizard opens. I can select previously saved defaults so that I don't need to re-enter information each time I create
     check: exact
+  - t: 73
+    text: The last payment date is how I can indicate that we want to pay invoices due on or before that date.
+    check: exact
   - t: 111
     text: By using the vendor priority functionality in Business Central, BC will suggest payments to ensure that we're paying our high priority vendors first.
     check: exact
@@ -151,6 +168,9 @@ quotes:
     check: exact
   - t: 162
     text: We will then choose to summarize per vendor to create one payment per vendor.
+    check: exact
+  - t: 162
+    text: I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month.
     check: exact
   - t: 174
     text: Through vendor priority and suggested payments, Business Central helps streamline paying your most strategic vendors and gives you better control of your cash flow.
@@ -161,7 +181,7 @@ quotes:
 
 > Paying vendors in Business Central compared with Dynamics SL payment selection. It covers payment journals, the Suggest Vendor Payments wizard, summarizing payments per vendor, a payment amount limit, and using vendor priority to filter suggestions and control cash flow.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fpc_XlVEnWw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fpc_XlVEnWw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,13 +191,13 @@ In Business Central, the demo creates a payment journal and opens the Suggest Ve
 
 ## Key points
 
+- In Dynamics SL, vendor payments start in Accounts Payable > Processes > Payment Selection, which lists the vouchers available for payment.
 - Business Central creates payment journals and suggests vendors to pay based on criteria the user defines.
-- The Suggest Vendor Payments wizard can use previously saved defaults, so settings need not be re-entered each time.
+- In the Payment Journal, Prepare > Suggest Vendor Payments opens a wizard that can use previously saved defaults, so settings need not be re-entered each time.
+- The Last Payment Date selects invoices due on or before that date, and available payment documents can be included.
 - Choosing to summarize per vendor creates one payment per vendor instead of one payment per invoice.
-- A total payment amount limit can be set to control how much is paid toward vendor invoices in a payment run.
-- Vendor priority is set per vendor, and the lower the number, the higher the priority.
-- Filtering suggestions by vendor priority makes Business Central suggest payments to high priority vendors first, which helps control cash flow.
-- Objects shown include the Payment Journals page and the Vendor Card page.
+- A total amount to pay (for example $20,000) can be entered to limit how much a payment run pays toward vendor invoices.
+- Vendor priority is set in the Payments area of the Vendor Card, and the lower the number, the higher the priority.
 
 ## Chapters
 
@@ -192,13 +212,13 @@ In Business Central, the demo creates a payment journal and opens the Suggest Ve
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Payment journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=35s) |  |
-| Suggest vendor payments wizard | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=48s) |  |
-| Vendor priority functionality | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s) |  |
-| Payment grouping by vendor | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |  |
-| Payment amount limit | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Payment journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=35s) |
+| Suggest vendor payments wizard | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=48s) |
+| Vendor priority functionality | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s) |
+| Payment grouping by vendor | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
+| Payment amount limit | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
 
 ## AL objects mentioned
 
@@ -213,7 +233,9 @@ Not found in BC28-30: page "payment journals".
 
 - [0:35](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=35s) "Business Central allows you to easily create payment journals and suggest the vendors to pay based on criteria you've defined."
 - [1:01](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=61s) "The suggest vendor payments wizard opens. I can select previously saved defaults so that I don't need to re-enter information each time I create"
+- [1:13](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=73s) "The last payment date is how I can indicate that we want to pay invoices due on or before that date."
 - [1:51](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s) "By using the vendor priority functionality in Business Central, BC will suggest payments to ensure that we're paying our high priority vendors first."
 - [2:07](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=127s) "The lower the number, the higher the priority."
 - [2:42](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=162s) "We will then choose to summarize per vendor to create one payment per vendor."
+- [2:42](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=162s) "I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month."
 - [2:54](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=174s) "Through vendor priority and suggested payments, Business Central helps streamline paying your most strategic vendors and gives you better control of your cash flow."

@@ -20,12 +20,12 @@ tags:
   - llm evaluation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:04.646Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:04.692Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -60,6 +60,13 @@ evidence:
     commit: null
     t: 90
     quote: right now uh obviously it's like an open chat so you can type whatever but we we have kind of scoped it down to
+  - kind: video
+    url: https://www.youtube.com/watch?v=06vgkq2EXmA&t=151s
+    title: "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central"
+    date: "2024-08-02T06:57:57.000Z"
+    commit: null
+    t: 151
+    quote: we wanted it to be non-blocking intentionally so you can uh like offload these queries and it might take a little bit to run
   - kind: video
     url: https://www.youtube.com/watch?v=06vgkq2EXmA&t=171s
     title: "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central"
@@ -292,6 +299,9 @@ quotes:
   - t: 90
     text: right now uh obviously it's like an open chat so you can type whatever but we we have kind of scoped it down to
     check: exact
+  - t: 151
+    text: we wanted it to be non-blocking intentionally so you can uh like offload these queries and it might take a little bit to run
+    check: exact
   - t: 171
     text: it was the last release wave so 2024 release Wave 1 yes um it's currently in a public preview um and um it's only
     check: exact
@@ -340,7 +350,7 @@ quotes:
 
 > Copilot Chat in Business Central: how Microsoft built it, covering architecture, intent condensation, data grounding, meta prompts, jailbreak prevention, and test-driven prompt engineering. Copilot Chat is in public preview and available only in US environments, per the video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=06vgkq2EXmA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-02 · 26:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=06vgkq2EXmA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-02 · 26:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -351,12 +361,12 @@ The speakers explain how the conversation is condensed into a single intent mess
 ## Key points
 
 - Copilot Chat is in public preview and, at recording time, only available in US environments. The team hoped to roll it out to more regions during the wave.
+- Copilot Chat is scoped to two skills: documentation lookup (grounded in learn.microsoft.com) and finding data in Business Central. It runs asynchronously so users can keep working.
 - Intent condensation sends the whole conversation to the model to produce one chat message with the user's current intent. Other components then receive that message.
 - Because the model is a blackbox, prompts are developed test-first. Datasets of inputs for supported question types are checked with assertions, for example that the right skill is chosen or off-topic queries are handled.
-- Jailbreak prevention uses user roles versus system roles. User input goes into user prompts, and scope is reinforced in system prompts. The speakers describe this as an ongoing challenge.
+- Jailbreak prevention uses user roles versus system roles. User input goes into user prompts, and system prompts restrict scope to Business Central and forbid harmful content.
 - Security testing runs thousands of potentially harmful inputs through the test suite. Two LLMs (Copilot Chat and an attacker) converse, and a third LLM grades the responses against harm categories.
 - Automated grading is needed because manual grading does not scale and behavior changes when models are upgraded.
-- Partners can use Copilot Developer Tools for boilerplate code, model calling and consistent UI. For AppSource extensions, prompts can be stored in Key Vault to protect them as IP.
 
 ## Chapters
 
@@ -406,6 +416,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:50](https://www.youtube.com/watch?v=06vgkq2EXmA&t=50s) "about 18 months ago uh we started like playing around with some ideas after seeing like the launch of chat GPT"
 - [1:30](https://www.youtube.com/watch?v=06vgkq2EXmA&t=90s) "right now uh obviously it's like an open chat so you can type whatever but we we have kind of scoped it down to"
+- [2:31](https://www.youtube.com/watch?v=06vgkq2EXmA&t=151s) "we wanted it to be non-blocking intentionally so you can uh like offload these queries and it might take a little bit to run"
 - [2:51](https://www.youtube.com/watch?v=06vgkq2EXmA&t=171s) "it was the last release wave so 2024 release Wave 1 yes um it's currently in a public preview um and um it's only"
 - [3:52](https://www.youtube.com/watch?v=06vgkq2EXmA&t=232s) "Bing chat and um co-pilot chat with business Central are kind of similar in the sense that they both use external data sources to"
 - [5:31](https://www.youtube.com/watch?v=06vgkq2EXmA&t=331s) "we take the whole conversation and we actually we go to the model and and ask it to um bring condense this whole conversation"

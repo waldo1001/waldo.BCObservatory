@@ -16,12 +16,12 @@ tags:
   - trial balance
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:16.036Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:16.069Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,7 +163,7 @@ quotes:
 
 > Dynamics SL subaccount segments compared with Business Central dimensions: segments migrate as dimensions via the cloud migration tool. The video demos default dimensions on vendors, automatic defaulting on purchase invoices, posting preview, and the Trial Balance Dimension Report.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BC82BSrtng0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BC82BSrtng0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -192,14 +192,14 @@ It then shows the Business Central side: segments defined in SL migrate as dimen
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Segment Posting in Dynamics SL | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=BC82BSrtng0&t=21s) |  |
-| Segment to Dimension Migration | status not stated | [1:09](https://www.youtube.com/watch?v=BC82BSrtng0&t=69s) |  |
-| Default Dimensions on Vendor Records | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=BC82BSrtng0&t=85s) |  |
-| Automatic Dimension Defaulting on Transactions | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=BC82BSrtng0&t=124s) |  |
-| Posting Preview | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=BC82BSrtng0&t=148s) |  |
-| Trial Balance Dimension Report | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=BC82BSrtng0&t=171s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Segment Posting in Dynamics SL | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=BC82BSrtng0&t=21s) |
+| Segment to Dimension Migration | status not stated | [1:09](https://www.youtube.com/watch?v=BC82BSrtng0&t=69s) |
+| Default Dimensions on Vendor Records | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=BC82BSrtng0&t=85s) |
+| Automatic Dimension Defaulting on Transactions | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=BC82BSrtng0&t=124s) |
+| Posting Preview | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=BC82BSrtng0&t=148s) |
+| Trial Balance Dimension Report | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=BC82BSrtng0&t=171s) |
 
 ## AL objects mentioned
 

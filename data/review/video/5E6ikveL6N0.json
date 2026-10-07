@@ -1,0 +1,25 @@
+{
+  "video_id": "5E6ikveL6N0",
+  "item_id": "video/yt-microsoft/5E6ikveL6N0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim; the t=65.4 quote runs into the next segment, which is acceptable.",
+    "The inventory posting group key point and feature description say it supplies defaults on purchase transactions. The video only shows a sales invoice, so purchase is not supported. The key point is reworded here; the feature description has the same overreach and cannot be edited here.",
+    "The other features, chapters and summary match the transcript. All feature statuses are unclear, which fits because the video makes no availability statements."
+  ],
+  "input_hash": "8cb53f5006384eaf353597ecdba4c2f0f29e7efd28dbc4a5f1f07cb489d1281e",
+  "by": "opus",
+  "at": "2026-10-07T23:06:45.978Z",
+  "applied": [
+    "quote at 65s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.053077
+  }
+}

@@ -18,12 +18,12 @@ tags:
   - gl account defaults
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:45.978Z"
   flags: []
 generated:
-  at: "2026-10-06T19:26:59.534Z"
+  at: "2026-10-07T23:06:46.027Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,6 +51,13 @@ evidence:
     commit: null
     t: 65
     quote: Business posting groups focus on who you are buying and selling to product posting groups focus on what you are buying and selling
+  - kind: video
+    url: https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s
+    title: Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central
+    date: "2024-08-26T13:49:43.000Z"
+    commit: null
+    t: 65
+    quote: business Central uses posting groups to tie customers vendors and items to GL accounts
   - kind: video
     url: https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s
     title: Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central
@@ -154,6 +161,9 @@ quotes:
   - t: 65
     text: Business posting groups focus on who you are buying and selling to product posting groups focus on what you are buying and selling
     check: exact
+  - t: 65
+    text: business Central uses posting groups to tie customers vendors and items to GL accounts
+    check: exact
   - t: 116
     text: posting setup is where you pull these two concept steps together combining the what with the who
     check: exact
@@ -169,7 +179,7 @@ quotes:
 
 > Posting accounts in Dynamics GP compared with posting groups in Business Central, for people moving from GP. Covers business, product, customer and inventory posting groups, posting setup, and posting preview of GL accounts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5E6ikveL6N0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5E6ikveL6N0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,12 +190,12 @@ It then walks through Business Central. Business posting groups describe who you
 ## Key points
 
 - In GP, default posting accounts can be set at class level and individual record level, and they default on transaction entry windows.
+- Business Central uses posting groups to tie customers, vendors and items to GL accounts.
 - Business posting groups categorize who you buy from and sell to, for example by region, segment or industry.
 - Product posting groups categorize what you buy and sell, for example by product line or use case such as manufacturing, retail or services.
 - Posting setup combines a business posting group with a product posting group to define GL accounts such as sales and cost of goods sold.
 - Customer posting groups define accounts such as accounts receivable and discount accounts, and can organize customers by region, similar to GP classes.
-- Inventory posting groups define accounts by item classification and location, which supplies GL account defaults on sales and purchase transactions.
-- Posting preview shows the inventory, cost of goods sold, sales and accounts receivable accounts before you post.
+- Inventory posting groups define accounts by item classification and location; on the sales invoice example the inventory account comes from the item's inventory posting group.
 
 ## Chapters
 
@@ -199,21 +209,22 @@ It then walks through Business Central. Business posting groups describe who you
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Posting Account Setup in GP | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=1s) |  |
-| Business Posting Groups | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) |  |
-| Product Posting Groups | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=82s) |  |
-| Posting Setup | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s) |  |
-| Customer Posting Groups | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=5E6ikveL6N0&t=136s) |  |
-| Inventory Posting Groups | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=181s) |  |
-| Posting Preview | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=202s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Posting Account Setup in GP | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=1s) |
+| Business Posting Groups | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) |
+| Product Posting Groups | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=82s) |
+| Posting Setup | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s) |
+| Customer Posting Groups | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=5E6ikveL6N0&t=136s) |
+| Inventory Posting Groups | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=181s) |
+| Posting Preview | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=202s) |
 
 ## Quotes
 
 - [0:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=1s) "setting up default posting accounts in GP helps simplify and reduce errors and inconsistencies when posting transactions"
 - [0:31](https://www.youtube.com/watch?v=5E6ikveL6N0&t=31s) "in that class we have categorized those transactions posted from customers in this class to use a different accounts receivable account"
 - [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) "Business posting groups focus on who you are buying and selling to product posting groups focus on what you are buying and selling"
+- [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) "business Central uses posting groups to tie customers vendors and items to GL accounts"
 - [1:56](https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s) "posting setup is where you pull these two concept steps together combining the what with the who"
 - [2:16](https://www.youtube.com/watch?v=5E6ikveL6N0&t=136s) "I assigned the Enterprise General business posting group and the customer posting group of Northeast"
 - [3:32](https://www.youtube.com/watch?v=5E6ikveL6N0&t=212s) "the cost of good sold and sales accounts are being pulled from posting setup where we Define the what from the product posting group"

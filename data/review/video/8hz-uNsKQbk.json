@@ -1,0 +1,27 @@
+{
+  "video_id": "8hz-uNsKQbk",
+  "item_id": "video/yt-microsoft/8hz-uNsKQbk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes match the transcript word for word, and the summary is supported.",
+    "Key point 5 changed the meaning: the transcript says the partner was excited because the initiative fit the kind of consultant they were 'trying to develop'. It does not give a condition for joining, and it does not mention hiring. I rewrote the point.",
+    "The page left out the reason partners need new talent: they compete for the same candidates and the market is growing. I added a key point and a quote for this.",
+    "The 'integration' system tag is not supported by the transcript, but there is no edit field for systems.",
+    "Both features are correctly marked unclear because the transcript gives no availability status."
+  ],
+  "input_hash": "5c3cde5eadefba9cad5904a578ca1f87bd74ddc40c1375d8efc95595174799dd",
+  "by": "opus",
+  "at": "2026-10-07T23:07:50.017Z",
+  "applied": [
+    "quote at 14s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043037
+  }
+}

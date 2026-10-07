@@ -16,12 +16,12 @@ tags:
   - business central adoption
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:50.017Z"
   flags: []
 generated:
-  at: "2026-10-06T19:35:13.061Z"
+  at: "2026-10-07T23:07:50.064Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,6 +35,13 @@ evidence:
     commit: null
     t: 13
     quote: finding the right Talent with the right skill sets whether both technical or even on the business side has always been a struggle for
+  - kind: video
+    url: https://www.youtube.com/watch?v=8hz-uNsKQbk&t=13s
+    title: "How partners responds to the #BCTalent initiative: Reskill"
+    date: "2024-04-22T07:04:59.000Z"
+    commit: null
+    t: 13
+    quote: you can't just keep hiring from other partners well we'll need new talent because the market is growing
   - kind: video
     url: https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s
     title: "How partners responds to the #BCTalent initiative: Reskill"
@@ -118,6 +125,9 @@ quotes:
   - t: 13
     text: finding the right Talent with the right skill sets whether both technical or even on the business side has always been a struggle for
     check: exact
+  - t: 13
+    text: you can't just keep hiring from other partners well we'll need new talent because the market is growing
+    check: exact
   - t: 34
     text: if Microsoft comes with a new initiative and you want to jump on the wagon and it aligned with the kind of consultant we're
     check: exact
@@ -139,7 +149,7 @@ quotes:
 
 > Partner testimonial on the Microsoft Reskill program, part of the #BCTalent initiative, which combines recruiting, training, onboarding and mentoring of new candidates for the Business Central ecosystem. The partner says candidates became billable after 12 weeks and that doing this alone would cost more.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8hz-uNsKQbk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-22 · 1:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8hz-uNsKQbk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-22 · 1:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -150,10 +160,11 @@ The partner highlights that Reskill covers recruiting, training, onboarding and 
 ## Key points
 
 - Finding candidates with the right technical or business skills has been a long-standing struggle for partners.
+- Partners compete for the same candidates and cannot keep hiring from each other; the growing market needs new talent.
+- The partner was excited about Reskill because it aligned with the kind of consultant they were trying to develop.
 - Reskill combines recruiting, training, onboarding and mentoring of candidates in one program.
 - The partner reports candidates became billable after 12 weeks.
 - The partner says doing all of this themselves would be much more expensive.
-- Joining makes sense if the initiative fits the kind of consultant the partner wants to hire.
 - The video is part of the #BCTalent initiative, where Microsoft works with partners to grow the Business Central talent pool.
 
 ## Chapters
@@ -167,14 +178,15 @@ The partner highlights that Reskill covers recruiting, training, onboarding and 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Reskill program | status not stated | [0:34](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s) |  |
-| Partner-Microsoft collaboration on talent | status not stated | [1:14](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=74s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Reskill program | status not stated | [0:34](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s) |
+| Partner-Microsoft collaboration on talent | status not stated | [1:14](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=74s) |
 
 ## Quotes
 
 - [0:13](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=13s) "finding the right Talent with the right skill sets whether both technical or even on the business side has always been a struggle for"
+- [0:13](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=13s) "you can't just keep hiring from other partners well we'll need new talent because the market is growing"
 - [0:34](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s) "if Microsoft comes with a new initiative and you want to jump on the wagon and it aligned with the kind of consultant we're"
 - [0:54](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=54s) "the fact that res skill is combining both the recruiting and the training and onboarding and mentoring of those candidates is a huge advantage"
 - [1:14](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=74s) "after 12 weeks they started being billable which is a very big Advantage for us as a company"

@@ -138,24 +138,6 @@
         "posted entry"
       ],
       "system": "finance"
-    },
-    {
-      "name": "Change dimension process",
-      "description": "Process in Business Central that allows changing or adding dimension values to journal entries with the ability to enter a description for the change and refresh to see results.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 150.7,
-      "t_end": 170.7,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "dimension",
-        "change process",
-        "journal entry"
-      ],
-      "system": "finance"
     }
   ],
   "objects": [
@@ -194,6 +176,12 @@
       "t": 100.9,
       "text": "it has reversed the amount posted in the original journal entry",
       "why_it_matters": "Confirms the reversal result in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 115.5,
+      "text": "you can reverse the transaction or you can use the correct Dimension functionality to correct or add a dimension value",
+      "why_it_matters": "States that Business Central can fix a dimension on a posted entry instead of reversing it, the main capability shown for Business Central.",
       "check": "exact"
     },
     {

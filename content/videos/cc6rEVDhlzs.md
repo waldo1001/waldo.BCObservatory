@@ -15,12 +15,12 @@ tags:
   - streamline setup
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:07.082Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:07.114Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -160,7 +160,7 @@ quotes:
 
 > Customer classes in Dynamics SL compared with customer templates in Business Central, for people moving from SL. Shows how SL classes supply default values and how BC templates default fields such as posting groups and dimensions for new and existing customers.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cc6rEVDhlzs) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cc6rEVDhlzs) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -189,13 +189,13 @@ It then shows customer templates in Business Central. A template is given a name
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer classes in Dynamics SL | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=13s) |  |
-| Customer templates in Business Central | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=81s) |  |
-| Personalization of template forms | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=102s) |  |
-| Creating templates from existing customer cards | status not stated | [3:05](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=185s) |  |
-| Applying templates to existing customers | status not stated | [3:05](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=185s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer classes in Dynamics SL | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=13s) |
+| Customer templates in Business Central | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=81s) |
+| Personalization of template forms | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=102s) |
+| Creating templates from existing customer cards | status not stated | [3:05](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=185s) |
+| Applying templates to existing customers | status not stated | [3:05](https://www.youtube.com/watch?v=cc6rEVDhlzs&t=185s) |
 
 ## AL objects mentioned
 

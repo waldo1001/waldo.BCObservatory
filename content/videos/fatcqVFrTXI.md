@@ -14,12 +14,12 @@ tags:
   - transaction entry
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:27.213Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:27.251Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -47,6 +47,13 @@ evidence:
     commit: null
     t: 167
     quote: From the top action menu, select post and then preview posting. If you want to verify the posting entries prior to the posting process.
+  - kind: video
+    url: https://www.youtube.com/watch?v=fatcqVFrTXI&t=188s
+    title: Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central
+    date: "2024-07-26T13:24:04.000Z"
+    commit: null
+    t: 188
+    quote: A credit memo can also be entered and applied to entries in sales journal by selecting the credit memo line type.
   - kind: video
     url: https://www.youtube.com/watch?v=fatcqVFrTXI&t=216s
     title: Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central
@@ -124,6 +131,9 @@ quotes:
   - t: 167
     text: From the top action menu, select post and then preview posting. If you want to verify the posting entries prior to the posting process.
     check: exact
+  - t: 188
+    text: A credit memo can also be entered and applied to entries in sales journal by selecting the credit memo line type.
+    check: exact
   - t: 216
     text: You can see the fields available to select the applies to doc type and applies to doc number. This allows you to enter and
     check: exact
@@ -133,7 +143,7 @@ quotes:
 
 > Entering accounts receivable invoices and credit memos in Dynamics SL compared with Business Central. Shows the sales invoice and sales credit memo pages, applying a credit memo to an invoice in one entry, and preview posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fatcqVFrTXI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 4:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fatcqVFrTXI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 4:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -143,12 +153,12 @@ In Business Central, the invoice is entered on the sales invoice page, reached f
 
 ## Key points
 
-- In Business Central, a single customer invoice is entered on the sales invoice page, opened from the role center.
+- In Dynamics SL, invoices and credit memos are entered in Accounts Receivable > Invoice and Memo. The credit memo is then applied to the invoice in a separate Payment Application screen.
+- In Business Central, a single customer invoice is entered on the sales invoice page, opened from the role center via Sales > Sales Invoice.
 - An invoice line can be set up for several options, so items and services can be invoiced on one invoice.
-- On the sales credit memo page, the Applies to Doc Type and Applies to Doc Number fields apply the credit memo to a specific invoice in one entry.
-- This replaces the separate payment application step used in Dynamics SL.
-- Post, then Preview Posting, in the top action menu lets you verify posting entries before posting.
-- The sales journal, opened from the role center, is an alternative for entering multiple entries for multiple customers.
+- On the sales credit memo page (General FastTab, Show more), the Applies-to Doc. Type and Applies-to Doc. No. fields let you enter and apply the credit memo to a specific invoice in one entry.
+- Post, then Preview Posting, in the top action menu lets you verify posting entries, including that the credit memo is applied to the selected invoice, before posting.
+- The sales journal, opened from the role center, is an alternative for entering multiple entries for multiple customers. Credit memos can also be entered and applied there by selecting the credit memo line type.
 
 ## Chapters
 
@@ -160,12 +170,12 @@ In Business Central, the invoice is entered on the sales invoice page, reached f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales invoice entry in Business Central | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=fatcqVFrTXI&t=132s) |  |
-| Sales credit memo entry in Business Central | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=fatcqVFrTXI&t=188s) |  |
-| Preview posting in Business Central | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=fatcqVFrTXI&t=167s) |  |
-| Sales journal alternative entry method | status not stated | [1:58](https://www.youtube.com/watch?v=fatcqVFrTXI&t=118s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales invoice entry in Business Central | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=fatcqVFrTXI&t=132s) |
+| Sales credit memo entry in Business Central | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=fatcqVFrTXI&t=188s) |
+| Preview posting in Business Central | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=fatcqVFrTXI&t=167s) |
+| Sales journal alternative entry method | status not stated | [1:58](https://www.youtube.com/watch?v=fatcqVFrTXI&t=118s) |
 
 ## AL objects mentioned
 
@@ -183,4 +193,5 @@ Not found in BC28-30: page "sales journals".
 - [0:00](https://www.youtube.com/watch?v=fatcqVFrTXI&t=0s) "In this video, we will look at how to enter an accounts receivable invoice and credit memo in Dynamics SL and compare that process"
 - [2:36](https://www.youtube.com/watch?v=fatcqVFrTXI&t=156s) "Notice you can enter an invoice line for several options allowing you to invoice for items and services in a single invoice."
 - [2:47](https://www.youtube.com/watch?v=fatcqVFrTXI&t=167s) "From the top action menu, select post and then preview posting. If you want to verify the posting entries prior to the posting process."
+- [3:08](https://www.youtube.com/watch?v=fatcqVFrTXI&t=188s) "A credit memo can also be entered and applied to entries in sales journal by selecting the credit memo line type."
 - [3:36](https://www.youtube.com/watch?v=fatcqVFrTXI&t=216s) "You can see the fields available to select the applies to doc type and applies to doc number. This allows you to enter and"

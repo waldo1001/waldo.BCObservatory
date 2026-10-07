@@ -1,0 +1,32 @@
+{
+  "video_id": "r1LrZH8IPJY",
+  "item_id": "video/yt-microsoft/r1LrZH8IPJY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a publish date (2024-04-25) that the transcript does not contain. Removed it.",
+    "The summary calls ReSkill \"JourneyTEAM's ReSkill program\", but the transcript says ReSkill is an outside partner. JourneyTEAM considered building its own program and teamed with ReSkill instead.",
+    "The key points left out the recommendation to other partners and the cost and time efficiency claims. Added them.",
+    "All five existing quotes check out. Some run on into the next segment, and the t=4.7 quote drops the % sign after 30. Both are fine.",
+    "Both features are unclear, which is right: the video gives no preview or GA status.",
+    "The 'development' system tag is a weak fit for a talent and recruiting video."
+  ],
+  "input_hash": "47622e042d901eb113fa5e66989569e283d6c7eb600c2db6b4390dc06d9ce784",
+  "by": "opus",
+  "at": "2026-10-07T23:07:52.969Z",
+  "applied": [
+    "ReSkill talent development program: status unclear",
+    "Professional skills training for consultants: status unclear",
+    "quote at 25s",
+    "quote at 106s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056897
+  }
+}

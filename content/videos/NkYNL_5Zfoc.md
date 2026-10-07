@@ -14,12 +14,12 @@ tags:
   - offset accounts
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:07.431Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:07.468Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -133,7 +133,7 @@ quotes:
 
 > General journal entry in Business Central compared with Dynamics SL, for users moving from SL. It shows batches, account name autocomplete, grid view with debit and credit columns, single-line entry with offset account, Excel editing, and posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NkYNL_5Zfoc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NkYNL_5Zfoc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -161,13 +161,13 @@ It then covers other ways to enter data: a grid view with separate debit and cre
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| General journal batch management | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=49s) |  |
-| Account name autocomplete in journal entries | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=79s) |  |
-| Grid view with debit and credit columns | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=120s) |  |
-| Single-line journal entry | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=132s) |  |
-| Excel integration for journal entries | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=161s) |  |
+| Feature | Status | At |
+|---|---|---|
+| General journal batch management | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=49s) |
+| Account name autocomplete in journal entries | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=79s) |
+| Grid view with debit and credit columns | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=120s) |
+| Single-line journal entry | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=132s) |
+| Excel integration for journal entries | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=161s) |
 
 ## AL objects mentioned
 

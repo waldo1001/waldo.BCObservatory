@@ -2,7 +2,7 @@
 id: video/2430rfEywuI
 type: video
 title: GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)
-summary: GP Assessment Tool is a free online tool that reads GP SQL Server data to guide migration planning from Dynamics GP to Business Central. The 3-minute video covers signup, download, running the assessment, sending results, and reading the report with ISV drill-down and migration risks.
+summary: The GP Assessment Tool is a free, downloadable tool. It only reads data from the Dynamics GP SQL Server and gives guidance for planning a move to Business Central. The roughly 3-minute video covers signup, downloading the tool and using a token, connecting to GP SQL Server, choosing companies, running the assessment, reviewing and sending results, and reading the report. The report shows modules used, lets you drill into installed ISV solutions, lists migration risks with recommendations, and can be shared with your partner.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - data analysis
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:51.716Z"
   flags: []
 generated:
-  at: "2026-10-06T19:27:39.972Z"
+  at: "2026-10-07T23:06:51.754Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,9 +148,9 @@ quotes:
 
 # GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)
 
-> GP Assessment Tool is a free online tool that reads GP SQL Server data to guide migration planning from Dynamics GP to Business Central. The 3-minute video covers signup, download, running the assessment, sending results, and reading the report with ISV drill-down and migration risks.
+> The GP Assessment Tool is a free, downloadable tool. It only reads data from the Dynamics GP SQL Server and gives guidance for planning a move to Business Central. The roughly 3-minute video covers signup, downloading the tool and using a token, connecting to GP SQL Server, choosing companies, running the assessment, reviewing and sending results, and reading the report. The report shows modules used, lets you drill into installed ISV solutions, lists migration risks with recommendations, and can be shared with your partner.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2430rfEywuI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2430rfEywuI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,11 +181,11 @@ It walks through signing up, downloading the tool, running the assessment, revie
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GP Assessment Tool | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=2430rfEywuI&t=0s) |  |
-| Assessment Report with Module Drill-Down | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=2430rfEywuI&t=108s) |  |
-| Non-Intrusive Assessment Execution | status not stated | [0:15](https://www.youtube.com/watch?v=2430rfEywuI&t=15s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GP Assessment Tool | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=2430rfEywuI&t=0s) |
+| Assessment Report with Module Drill-Down | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=2430rfEywuI&t=108s) |
+| Non-Intrusive Assessment Execution | status not stated | [0:15](https://www.youtube.com/watch?v=2430rfEywuI&t=15s) |
 
 ## Quotes
 

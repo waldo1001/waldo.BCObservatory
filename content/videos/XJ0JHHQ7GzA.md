@@ -18,12 +18,12 @@ tags:
   - account defaults
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:58.388Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:58.429Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -161,7 +161,7 @@ quotes:
 
 > Posting groups in Business Central compared with default posting accounts in Dynamics SL. Covers business posting groups, product posting groups, general posting setup, customer posting groups and inventory posting groups, and how they tie customers, vendors and items to GL accounts.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XJ0JHHQ7GzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XJ0JHHQ7GzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -176,8 +176,8 @@ It walks through business posting groups (who you buy from and sell to), product
 - Product posting groups focus on what you buy and sell, such as product lines or use cases like manufacturing, retail or services.
 - General posting setup combines business and product posting groups to define sales, cost of goods sold and other accounts.
 - On the customer card, the general business posting group and the customer posting group are assigned; the customer posting group defines AR and discount accounts.
-- The inventory posting group defines accounts based on item classification and location, and the accounts are pulled into transactions at posting.
-- The video presents the SL default posting accounts, including other AR and AP setup, as the comparison point.
+- The inventory posting group defines accounts based on item classification and location.
+- Preview posting on a sales invoice shows the sources: the inventory account comes from the inventory posting group, sales and COGS from general posting setup, and AR from the customer posting group.
 
 ## Chapters
 
@@ -191,13 +191,13 @@ It walks through business posting groups (who you buy from and sell to), product
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Business posting groups | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=68s) |  |
-| Product posting groups | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=80s) |  |
-| General posting setup | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=118s) |  |
-| Customer posting groups | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=141s) |  |
-| Inventory posting group | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=162s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Business posting groups | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=68s) |
+| Product posting groups | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=80s) |
+| General posting setup | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=118s) |
+| Customer posting groups | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=141s) |
+| Inventory posting group | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=162s) |
 
 ## AL objects mentioned
 

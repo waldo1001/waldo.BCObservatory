@@ -181,6 +181,12 @@
       "check": "exact"
     },
     {
+      "t": 73.5,
+      "text": "The last payment date is how I can indicate that we want to pay invoices due on or before that date.",
+      "why_it_matters": "Explains the main date criterion that decides which invoices the wizard suggests.",
+      "check": "exact"
+    },
+    {
       "t": 111.6,
       "text": "By using the vendor priority functionality in Business Central, BC will suggest payments to ensure that we're paying our high priority vendors first.",
       "why_it_matters": "Demonstrates how vendor priority is a key feature for cash flow management and strategic vendor management.",
@@ -196,6 +202,12 @@
       "t": 162.1,
       "text": "We will then choose to summarize per vendor to create one payment per vendor.",
       "why_it_matters": "Shows flexibility in payment grouping options to reduce the number of transactions processed.",
+      "check": "exact"
+    },
+    {
+      "t": 162.1,
+      "text": "I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month.",
+      "why_it_matters": "Supports the payment amount limit feature with a direct transcript statement.",
       "check": "exact"
     },
     {

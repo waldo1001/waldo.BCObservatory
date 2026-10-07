@@ -1,0 +1,23 @@
+{
+  "video_id": "NkYNL_5Zfoc",
+  "item_id": "video/yt-microsoft/NkYNL_5Zfoc",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All four kept quotes are verbatim transcript spans; the 161.7 quote differs only in case from 'Lastly, if you do have'.",
+    "The summary and key points match the transcript: batches set up operationally or per user, typing the account name to filter the dropdown, the 'show more columns' grid view with debit and credit amounts, single-line entry with automatic document number and offset account, Excel edit and publish, the $300 update, and posting.",
+    "Feature statuses are correctly left as unclear because the transcript says nothing about preview or general availability.",
+    "No changes needed."
+  ],
+  "input_hash": "79a3eb6235ad4a6a25b4419212c5c00fb8a05c744c845135b9e45849e16127e8",
+  "by": "opus",
+  "at": "2026-10-07T23:07:07.431Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041084999999999997
+  }
+}

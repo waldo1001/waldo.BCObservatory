@@ -1,0 +1,29 @@
+{
+  "video_id": "symEeOiih_Q",
+  "item_id": "video/yt-microsoft/symEeOiih_Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary's publication date (2024-04-26) does not appear in the transcript, so I removed it.",
+    "Key point 2 gets the meaning wrong. In the transcript, the ReSkill program was looking in other areas, not iFacto.",
+    "The page left out the claim that hires were billable for at least 50% after two or three months. I added it as a key point and a quote.",
+    "The systems tags 'integration' and 'platform' are weakly supported. 'integration' seems to come from hires being integrated into the team, not from a BC integration feature.",
+    "The feature status 'unclear' is right, because the transcript gives no release status for the ReSkill program."
+  ],
+  "input_hash": "8dc0d66fb75dfb97f034a50cb4db681921724e554ab90c270ee4edbfe7c991d3",
+  "by": "opus",
+  "at": "2026-10-07T23:07:48.957Z",
+  "applied": [
+    "ReSkill program: status unclear",
+    "quote at 101s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045193
+  }
+}

@@ -2,7 +2,7 @@
 id: video/1OiiA7SgqBY
 type: video
 title: "#BCTalent Stories: SOCITAS"
-summary: SOCITAS, a Microsoft partner, describes hiring six people (three consultants, three developers) through the Business Central talent program. It is partner testimony on recruitment and team growth, with brief remarks on Business Central speed and API use with AI models.
+summary: "Testimonial video for the #BCTalent program (captioned as the 'resu program', likely a reskilling program). Career changers describe retraining into Business Central work, and Microsoft partner SOCITAS describes hiring six people (three consultants, three developers) through the program, finding the first hire in two weeks. It contains no product how-to, only brief remarks that Business Central is fast-paced and that APIs can be used with AI models."
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - skill development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:58.440Z"
   flags: []
 generated:
-  at: "2026-10-06T19:27:54.424Z"
+  at: "2026-10-07T23:06:58.477Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,6 +35,13 @@ evidence:
     t: 3
     quote: I've always had a passion of helping people and this is why I'm really glad that I'm able to help people optimizing their processes
   - kind: video
+    url: https://www.youtube.com/watch?v=1OiiA7SgqBY&t=3s
+    title: "#BCTalent Stories: SOCITAS"
+    date: "2024-08-09T13:53:55.000Z"
+    commit: null
+    t: 3
+    quote: I wanted to resale myself because I was frustrated in my old job and there was no perspective for me to update my skills
+  - kind: video
     url: https://www.youtube.com/watch?v=1OiiA7SgqBY&t=23s
     title: "#BCTalent Stories: SOCITAS"
     date: "2024-08-09T13:53:55.000Z"
@@ -48,6 +55,13 @@ evidence:
     commit: null
     t: 23
     quote: in business Central you have endless possibilities you could use an API with an AI model to improve business processes
+  - kind: video
+    url: https://www.youtube.com/watch?v=1OiiA7SgqBY&t=23s
+    title: "#BCTalent Stories: SOCITAS"
+    date: "2024-08-09T13:53:55.000Z"
+    commit: null
+    t: 23
+    quote: needed only 2 weeks to find the first employee after a few months
   - kind: video
     url: https://www.youtube.com/watch?v=1OiiA7SgqBY&t=43s
     title: "#BCTalent Stories: SOCITAS"
@@ -103,15 +117,13 @@ features:
     t: 43
     verified: false
     status_source: video
-  - name: Business Central Performance and Features
-    status: unclear
-    t: 43
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 3
     text: I've always had a passion of helping people and this is why I'm really glad that I'm able to help people optimizing their processes
+    check: exact
+  - t: 3
+    text: I wanted to resale myself because I was frustrated in my old job and there was no perspective for me to update my skills
     check: exact
   - t: 23
     text: finding and attracting new people the journey has been amazing really I think we started in the late of Summer last year and needed
@@ -119,6 +131,9 @@ quotes:
   - t: 23
     text: in business Central you have endless possibilities you could use an API with an AI model to improve business processes
     check: snapped
+  - t: 23
+    text: needed only 2 weeks to find the first employee after a few months
+    check: exact
   - t: 43
     text: it's much more fastpac than other VP solution it's the entire team of the business Central they really helped us to find people
     check: exact
@@ -132,9 +147,9 @@ quotes:
 
 # #BCTalent Stories: SOCITAS
 
-> SOCITAS, a Microsoft partner, describes hiring six people (three consultants, three developers) through the Business Central talent program. It is partner testimony on recruitment and team growth, with brief remarks on Business Central speed and API use with AI models.
+> Testimonial video for the #BCTalent program (captioned as the 'resu program', likely a reskilling program). Career changers describe retraining into Business Central work, and Microsoft partner SOCITAS describes hiring six people (three consultants, three developers) through the program, finding the first hire in two weeks. It contains no product how-to, only brief remarks that Business Central is fast-paced and that APIs can be used with AI models.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1OiiA7SgqBY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-09 · 1:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1OiiA7SgqBY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-09 · 1:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -145,11 +160,12 @@ They say the search started in late summer of the previous year and ended with s
 ## Key points
 
 - SOCITAS hired six new people through the program: three consultants and three developers.
-- The recruitment search started in late summer of the year before the video and was described as a smooth, pleasant journey.
-- The speaker credits the Business Central team with helping to find people.
-- The speaker recommends that Microsoft partners join the talent program.
-- The speaker says Business Central is faster than other ERP solutions and offers extensive possibilities.
-- One example given is using an API with an AI model to improve business processes.
+- The search started in late summer of the year before the video, and the first employee was found in only 2 weeks.
+- The speaker credits the Business Central team with helping them find people they otherwise could not have found.
+- New hires came from all around the world. The partner called it a smooth, pleasant journey.
+- Some speakers are career changers who retrained because their old jobs gave them no way to update their skills.
+- A speaker calls Business Central more fast-paced than other ERP solutions, with endless possibilities, such as using an API with an AI model to improve business processes.
+- The partner says joining the program is a no-brainer for Microsoft partners because it brings talent and knowledge to the company.
 
 ## Chapters
 
@@ -160,16 +176,17 @@ They say the search started in late summer of the previous year and ended with s
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| API and AI Model Integration | status not stated | [0:43](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=43s) |  |
-| Business Central Performance and Features | status not stated | [0:43](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=43s) |  |
+| Feature | Status | At |
+|---|---|---|
+| API and AI Model Integration | status not stated | [0:43](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=43s) |
 
 ## Quotes
 
 - [0:03](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=3s) "I've always had a passion of helping people and this is why I'm really glad that I'm able to help people optimizing their processes"
+- [0:03](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=3s) "I wanted to resale myself because I was frustrated in my old job and there was no perspective for me to update my skills"
 - [0:23](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=23s) "finding and attracting new people the journey has been amazing really I think we started in the late of Summer last year and needed"
 - [0:23](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=23s) "in business Central you have endless possibilities you could use an API with an AI model to improve business processes"
+- [0:23](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=23s) "needed only 2 weeks to find the first employee after a few months"
 - [0:43](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=43s) "it's much more fastpac than other VP solution it's the entire team of the business Central they really helped us to find people"
 - [1:03](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=63s) "we ended up hiring six new talents three consultants and three new developers smooth sailing along the way really a pleasant journey"
 - [1:23](https://www.youtube.com/watch?v=1OiiA7SgqBY&t=83s) "as a Microsoft partner I would say it's an absolutely no-brainer to join the program as they can find you great talents and bring"

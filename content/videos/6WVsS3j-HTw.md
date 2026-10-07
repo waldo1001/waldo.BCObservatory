@@ -15,12 +15,12 @@ tags:
   - dynamics sl comparison
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:13.778Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:13.813Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -134,7 +134,7 @@ quotes:
 
 > Entering customer cash receipts in Dynamics SL compared with Business Central, which offers two ways to record customer payments: the Cash Receipts Journal and the Customer Register Payments window. Covers applying payments to invoices and posting. Aimed at users moving from Dynamics SL.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6WVsS3j-HTw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6WVsS3j-HTw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,11 +162,11 @@ In Business Central, the presenter opens the cash receipts journals through the 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cash Receipts Journal | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=56s) |  |
-| Customer Register Payments Window | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=113s) |  |
-| Apply to Documents Lookup | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=87s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cash Receipts Journal | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=56s) |
+| Customer Register Payments Window | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=113s) |
+| Apply to Documents Lookup | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=87s) |
 
 ## AL objects mentioned
 

@@ -18,12 +18,12 @@ tags:
   - budget comparison
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:04.063Z"
   flags: []
 generated:
-  at: "2026-10-06T19:29:16.297Z"
+  at: "2026-10-07T23:07:04.096Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,7 +142,7 @@ quotes:
 
 > Comparison of trial balance and aging reports in Dynamics SL and Business Central, for users moving from SL. It demos the detailed and summary trial balance, the aged accounts receivable report, filtering options, and export to Excel, PDF or Word.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=O2RPBlr_GiE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=O2RPBlr_GiE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,14 +171,14 @@ It then covers the summary trial balance with comparison to last year or to budg
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Detailed Trial Balance Report | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=48s) |  |
-| Summary Trial Balance Report | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=85s) |  |
-| Aged Accounts Receivable Report | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=136s) |  |
-| Aged Accounts Payable Report | status not stated | [2:16](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=136s) |  |
-| Report Export to Excel | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=178s) |  |
-| Report Export to PDF or Word | status not stated | [2:58](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=178s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Detailed Trial Balance Report | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=48s) |
+| Summary Trial Balance Report | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=85s) |
+| Aged Accounts Receivable Report | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=136s) |
+| Aged Accounts Payable Report | status not stated | [2:16](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=136s) |
+| Report Export to Excel | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=178s) |
+| Report Export to PDF or Word | status not stated | [2:58](https://www.youtube.com/watch?v=O2RPBlr_GiE&t=178s) |
 
 ## Quotes
 

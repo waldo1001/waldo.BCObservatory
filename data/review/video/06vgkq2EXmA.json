@@ -1,0 +1,29 @@
+{
+  "video_id": "06vgkq2EXmA",
+  "item_id": "video/yt-microsoft/06vgkq2EXmA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Copilot Chat evidence quote is at segment 171.7, not 10.3. Corrected evidence_t.",
+    "The key point on jailbreak prevention called it an 'ongoing challenge'. The transcript says 'a really nice like technical challenge to solve'. Reworded.",
+    "Two near-duplicate quotes share t=811.6 (same user-role sentence). Both are verbatim, so they were left as is because drop_quotes would remove both.",
+    "Several 'features' are development practices rather than product features. The transcript supports them, so they were kept.",
+    "Added a quote on the non-blocking, asynchronous design, which the page did not cover."
+  ],
+  "input_hash": "226217f535d2e2e90459ce9d27d73906434eb09d31035d1479cfeff12bd74553",
+  "by": "opus",
+  "at": "2026-10-07T23:07:04.646Z",
+  "applied": [
+    "Copilot Chat: status preview",
+    "Marketing Text Suggestions: status ga",
+    "quote at 151s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.144433
+  }
+}

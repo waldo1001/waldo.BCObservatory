@@ -1,0 +1,23 @@
+{
+  "video_id": "BC82BSrtng0",
+  "item_id": "video/yt-microsoft/BC82BSrtng0",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All quotes are verbatim; the quote at 0.6 omits the leading 'In this video,', a case-only difference.",
+    "The cloud migration tool is mentioned for migrating the vendor record; attributing segment-to-dimension migration to it is a reasonable inference, and 'automatically' in the feature description is slightly stronger than the transcript.",
+    "The 'Preview Posting' chapter starts at 160.6 although the preview is first described at 148.2; minor.",
+    "All feature statuses are correctly 'unclear'; the video does not say whether anything is in preview or generally available."
+  ],
+  "input_hash": "0ec13c94d237565ffdeb3b2a3e96986a737071e5913cf9e21b0a9c9aa50a04b2",
+  "by": "opus",
+  "at": "2026-10-07T23:07:16.036Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052589
+  }
+}

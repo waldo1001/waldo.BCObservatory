@@ -327,7 +327,7 @@
       "description": "A published guide containing real customer examples and scalability benchmarks, including examples like 5,000 sales invoices posted in one hour and information about API call capacity.",
       "status": "ga",
       "status_evidence_t": 1671.2,
-      "status_evidence_quote": "scalability guide that we released recently",
+      "status_evidence_quote": "scalability guide that we released recently we'll put some Link in the description so you can take a look at it",
       "status_evidence_verified": true,
       "t_start": 1631,
       "t_end": 1711.6,
@@ -363,42 +363,6 @@
         "cloud"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Database lock space monitoring",
-      "description": "A tool that allows users to observe which locks are being held on the database during performance tests, helping to diagnose locking issues and optimize code.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1813,
-      "t_end": 1833,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "database locks",
-        "monitoring",
-        "troubleshooting"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Telemetry and performance logging",
-      "description": "Telemetry data can be viewed during performance testing to understand system behavior and performance characteristics under load.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1833,
-      "t_end": 1853.5,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "telemetry",
-        "monitoring",
-        "performance"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -425,12 +389,6 @@
     }
   ],
   "quotes": [
-    {
-      "t": 28.9,
-      "text": "we are going to answer that question and to help him with that have Christian with me",
-      "why_it_matters": "Introduces the expert who will explain cloud scaling capabilities.",
-      "check": "exact"
-    },
     {
       "t": 129.5,
       "text": "we have a VM cluster technically it's a virtual machine scale set that has a number of VMS and all our VMS are configured",

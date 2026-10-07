@@ -1,0 +1,32 @@
+{
+  "video_id": "1OiiA7SgqBY",
+  "item_id": "video/yt-microsoft/1OiiA7SgqBY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim. The 23.2 quote about endless possibilities starts in segment 23.2 and runs into 43.3, which is allowed.",
+    "The transcript calls it the 'resu program' (garbled captions, probably a reskilling program). It never names a 'Business Central talent program', so the summary should not use that name.",
+    "There are several voices. Some are career changers who retrained ('I wanted to resale myself... frustrated in my old job'). The summary and key points only covered the partner's view.",
+    "The transcript says 'fastpac', which means fast-paced, not faster. 'Feature-rich' is not stated. The 'Business Central Performance and Features' entry is a marketing remark, not a product feature, so it is dropped.",
+    "Two key details were missing: the first hire was found in only 2 weeks, and new hires came from all around the world.",
+    "Both features stay 'unclear' because no status is stated."
+  ],
+  "input_hash": "a1115d69fadb3f5b18c9eb6c0a066f42dbd0785b8484b369fbb61f56a7c78645",
+  "by": "opus",
+  "at": "2026-10-07T23:06:58.440Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "API and AI Model Integration: status unclear",
+    "quote at 3s",
+    "quote at 23s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058161
+  }
+}

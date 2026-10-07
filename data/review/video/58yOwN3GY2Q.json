@@ -1,0 +1,25 @@
+{
+  "video_id": "58yOwN3GY2Q",
+  "item_id": "video/yt-microsoft/58yOwN3GY2Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says the video is 'from May 2024', but the transcript gives no date. Removed it.",
+    "All five quotes are verbatim spans of the transcript.",
+    "All features are correctly marked unclear because the transcript never states a release status.",
+    "'Marketing Tech suggestions' is probably a caption error for 'marketing text suggestions'. The feature name keeps the caption wording."
+  ],
+  "input_hash": "3e44190927d91a9479a6df39adb5109c8b4371d2b747bd9fbafc7164862077d0",
+  "by": "opus",
+  "at": "2026-10-07T23:07:36.047Z",
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037789
+  }
+}

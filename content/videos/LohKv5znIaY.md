@@ -2,7 +2,7 @@
 id: video/LohKv5znIaY
 type: video
 title: Use Actionable Error Messages to Unblock Users
-summary: "Actionable error messages in Business Central apps: designing errors so users can unblock themselves at the field level, for example by refreshing the page or accepting a suggested fix. Tied to the onboarding framework goal of removing friction. A 2-minute video from April 2024."
+summary: Actionable error messages in Business Central, introduced in 2023 release wave 2 (this is a clip from that launch video). Apps should be designed so users can unblock themselves in context at the field level, for example by refreshing the page or accepting the recommended actions. This ties to the onboarding framework's goal of removing friction, and partners and developers are pointed to the productivity features session and Microsoft Learn.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - field-level errors
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:56.897Z"
   flags: []
 generated:
-  at: "2026-10-06T19:35:30.952Z"
+  at: "2026-10-07T23:07:56.939Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 40
     quote: providing an easier way for users to unblock themselves in context at the field level
+  - kind: video
+    url: https://www.youtube.com/watch?v=LohKv5znIaY&t=60s
+    title: Use Actionable Error Messages to Unblock Users
+    date: "2024-04-18T14:25:57.000Z"
+    commit: null
+    t: 60
+    quote: to learn more about actionable errors and how you as a partner can or developer can leverage these new patterns
 links:
   learn: []
   objects: []
@@ -99,13 +106,16 @@ quotes:
   - t: 40
     text: providing an easier way for users to unblock themselves in context at the field level
     check: exact
+  - t: 60
+    text: to learn more about actionable errors and how you as a partner can or developer can leverage these new patterns
+    check: exact
 ---
 
 # Use Actionable Error Messages to Unblock Users
 
-> Actionable error messages in Business Central apps: designing errors so users can unblock themselves at the field level, for example by refreshing the page or accepting a suggested fix. Tied to the onboarding framework goal of removing friction. A 2-minute video from April 2024.
+> Actionable error messages in Business Central, introduced in 2023 release wave 2 (this is a clip from that launch video). Apps should be designed so users can unblock themselves in context at the field level, for example by refreshing the page or accepting the recommended actions. This ties to the onboarding framework's goal of removing friction, and partners and developers are pointed to the productivity features session and Microsoft Learn.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LohKv5znIaY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 1:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LohKv5znIaY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-04-18 · 1:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -115,12 +125,12 @@ It describes improved error handling that gives users an easier way to unblock t
 
 ## Key points
 
-- Design actionable error messages into your apps so users can unblock themselves.
-- Errors can be shown in context at the field level.
-- Recommended actions mentioned include refreshing the page and accepting a suggested fix.
-- A main goal of the onboarding framework is to remove as much friction as possible.
-- The aim is to avoid blocking users from a successful start with Business Central.
-- The video points to resources and documentation for further detail.
+- Design actionable error messages into your apps so users can unblock themselves and you can avoid support calls.
+- Actionable errors were introduced with improved error handling in 2023 release wave 2; the clip is described as still relevant today.
+- Errors are shown in context at the field level.
+- Recommended actions mentioned include refreshing the page and accepting the recommended actions.
+- A main goal of the onboarding framework is to remove as much friction as possible and avoid blocking users from a successful start.
+- Partners and developers can learn how to use these patterns in the session on productivity features in the client, on Microsoft Learn and at aka.ms/BCOnboarding.
 
 ## Chapters
 
@@ -131,15 +141,16 @@ It describes improved error handling that gives users an easier way to unblock t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Actionable error messages | status not stated | [0:40](https://www.youtube.com/watch?v=LohKv5znIaY&t=40s) |  |
-| Onboarding framework | status not stated | [0:20](https://www.youtube.com/watch?v=LohKv5znIaY&t=20s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Actionable error messages | status not stated | [0:40](https://www.youtube.com/watch?v=LohKv5znIaY&t=40s) |
+| Onboarding framework | status not stated | [0:20](https://www.youtube.com/watch?v=LohKv5znIaY&t=20s) |
 
 ## Quotes
 
 - [0:00](https://www.youtube.com/watch?v=LohKv5znIaY&t=0s) "the importance of Designing actionable error messages into your apps so users can unblock themselves"
 - [0:20](https://www.youtube.com/watch?v=LohKv5znIaY&t=20s) "one of our main goals with the onboarding framework has been to remove as much friction as possible"
 - [0:40](https://www.youtube.com/watch?v=LohKv5znIaY&t=40s) "providing an easier way for users to unblock themselves in context at the field level"
+- [1:00](https://www.youtube.com/watch?v=LohKv5znIaY&t=60s) "to learn more about actionable errors and how you as a partner can or developer can leverage these new patterns"
 
 Presenters (as heard): Sarah.

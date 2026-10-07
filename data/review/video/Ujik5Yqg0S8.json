@@ -1,0 +1,24 @@
+{
+  "video_id": "Ujik5Yqg0S8",
+  "item_id": "video/yt-microsoft/Ujik5Yqg0S8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All four quotes are verbatim spans of the transcript.",
+    "Summary and key points match the transcript: SL AP voucher compared with BC purchase journals and purchase invoices, GL preview, vendor defaults, multiple line types.",
+    "All feature statuses are 'unclear'. That fits, because the video demonstrates the features without stating a release status.",
+    "Minor: the last chapter, 'Flexibility in Business Central payables', starts at 144.4, but flexibility only comes up at 160.2. The edit fields can't change chapters, so I left it.",
+    "Minor: the transcript says 'expenses for those you may not track in inventory', and the purchase journals description paraphrases this as 'items'. This is acceptable."
+  ],
+  "input_hash": "7554ffffdd4837319a5a21ff8f016db2cb7ed773626d01258676c440e0b10a76",
+  "by": "opus",
+  "at": "2026-10-07T23:07:15.303Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034789
+  }
+}

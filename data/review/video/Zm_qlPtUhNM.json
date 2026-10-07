@@ -1,0 +1,28 @@
+{
+  "video_id": "Zm_qlPtUhNM",
+  "item_id": "video/yt-microsoft/Zm_qlPtUhNM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes are verbatim. The quote at 54.3 that runs into the 74.5 segment is acceptable.",
+    "The two-month key point was ambiguous. The transcript says two months was about the time Sabre would have taken itself, but with much less effort. I reworded it.",
+    "The page did not mention that Sabre plans to send its internal staff through Reskill for upskilling. I added a key point and a quote.",
+    "Reskill is a talent program, not a product feature. Its status stays unclear because the transcript gives no release status."
+  ],
+  "input_hash": "09c10ec7f6d9ad58d5d0db5e58aef3f6101570dd29593528b12f598d9815619e",
+  "by": "opus",
+  "at": "2026-10-07T23:07:38.178Z",
+  "applied": [
+    "Reskill program: status unclear",
+    "quote at 75s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046037
+  }
+}

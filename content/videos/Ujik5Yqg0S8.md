@@ -15,12 +15,12 @@ tags:
   - gl account posting
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:15.303Z"
   flags: []
 generated:
-  at: "2026-10-06T19:31:30.560Z"
+  at: "2026-10-07T23:07:15.331Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,7 +127,7 @@ quotes:
 
 > Comparison of payables entry in Dynamics SL (AP voucher) with Business Central, which offers purchase journals and purchase invoices to register purchase costs and track accounts payable. Demonstrates both, including GL account preview and vendor defaults.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ujik5Yqg0S8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 2:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ujik5Yqg0S8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 2:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,12 +154,12 @@ Purchase journals are shown for registering expenses on items that may not be tr
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Purchase journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=35s) |  |
-| Purchase invoices | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=50s) |  |
-| GL account preview in payables | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=79s) |  |
-| Vendor information auto-default | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=112s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Purchase journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=35s) |
+| Purchase invoices | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=50s) |
+| GL account preview in payables | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=79s) |
+| Vendor information auto-default | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=112s) |
 
 ## Quotes
 

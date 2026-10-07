@@ -1,0 +1,27 @@
+{
+  "video_id": "fatcqVFrTXI",
+  "item_id": "video/yt-microsoft/fatcqVFrTXI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 4 quotes are verbatim. The quote at 167.5 runs on into segment 178.9, which is fine. The quote at 216.9 cuts off mid-sentence at 'enter and', but it is still verbatim and useful.",
+    "The key point 'This replaces the separate payment application step used in Dynamics SL' is an inference. The transcript only says the credit memo is entered and applied in one entry. Reworded it to stick to what the video shows.",
+    "The page left out that a credit memo can also be entered and applied in the sales journal by selecting the credit memo line type. Added a key point and a quote for it.",
+    "All feature statuses are unclear. That is right, because the transcript never says whether anything is preview or GA.",
+    "The summary is accurate and is kept."
+  ],
+  "input_hash": "b6aeb9ff59e8807823f7478045a75704797fabf55c34c5e1a2af171d2ef8c438",
+  "by": "opus",
+  "at": "2026-10-07T23:07:27.213Z",
+  "applied": [
+    "quote at 189s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.053317
+  }
+}

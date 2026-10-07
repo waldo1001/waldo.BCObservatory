@@ -16,12 +16,12 @@ tags:
   - skill cultivation
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:55.889Z"
   flags: []
 generated:
-  at: "2026-10-06T19:28:16.092Z"
+  at: "2026-10-07T23:06:55.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -100,16 +100,6 @@ features:
     t: 0
     verified: false
     status_source: video
-  - name: ReSkill Training and Coaching Approach
-    status: unclear
-    t: 54
-    verified: false
-    status_source: video
-  - name: ReSkill Talent Retention Rate
-    status: unclear
-    t: 40
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 0
@@ -133,7 +123,7 @@ quotes:
 
 > The Microsoft ReSkill program for Business Central talent: a collaboration with development partners that recruits people with industry knowledge or transferable skills and trains them. Mike Morton cites a 99.2% retention rate over the last 12 months and 8 to 12 weeks to billable contribution.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xk3JFul0HfM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-08 · 1:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xk3JFul0HfM) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-08 · 1:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -160,11 +150,9 @@ The video is about 2 minutes long. It gives two figures: new hires can contribut
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ReSkill Program | status not stated | [0:00](https://www.youtube.com/watch?v=xk3JFul0HfM&t=0s) |  |
-| ReSkill Training and Coaching Approach | status not stated | [0:54](https://www.youtube.com/watch?v=xk3JFul0HfM&t=54s) |  |
-| ReSkill Talent Retention Rate | status not stated | [0:40](https://www.youtube.com/watch?v=xk3JFul0HfM&t=40s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ReSkill Program | status not stated | [0:00](https://www.youtube.com/watch?v=xk3JFul0HfM&t=0s) |
 
 ## Quotes
 

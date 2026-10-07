@@ -2,7 +2,7 @@
 id: video/xBORySiYWog
 type: video
 title: "#BCTalent Stories: SwissSalary"
-summary: SwissSalary, a payroll software company, describes how it used the Business Central talent (resale skill) program to recruit staff and open a US branch. A short customer story (2 min, published 2024-07-01) with a new US employee's view on career growth.
+summary: Customer story (about 2 minutes) in which SwissSalary, successful in Switzerland, describes joining a Business Central talent program after a session in Orlando. It used the program to open a US branch and recruit its first US employee. The employee has a payroll background and expects the program (captioned as 'res skill'/'resale' program) to build technical Business Central skills and career growth.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - international growth
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:34.988Z"
   flags: []
 generated:
-  at: "2026-10-06T19:33:00.813Z"
+  at: "2026-10-07T23:07:35.029Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 83
     quote: we know we have the best product on the market and growing the company in Switzerland even in the United States is the most
+  - kind: video
+    url: https://www.youtube.com/watch?v=xBORySiYWog&t=104s
+    title: "#BCTalent Stories: SwissSalary"
+    date: "2024-07-01T13:39:43.000Z"
+    commit: null
+    t: 104
+    quote: so the risk kill program is the key for our success and growing of the companies
 links:
   learn: []
   objects: []
@@ -106,13 +113,16 @@ quotes:
   - t: 83
     text: we know we have the best product on the market and growing the company in Switzerland even in the United States is the most
     check: exact
+  - t: 104
+    text: so the risk kill program is the key for our success and growing of the companies
+    check: exact
 ---
 
 # #BCTalent Stories: SwissSalary
 
-> SwissSalary, a payroll software company, describes how it used the Business Central talent (resale skill) program to recruit staff and open a US branch. A short customer story (2 min, published 2024-07-01) with a new US employee's view on career growth.
+> Customer story (about 2 minutes) in which SwissSalary, successful in Switzerland, describes joining a Business Central talent program after a session in Orlando. It used the program to open a US branch and recruit its first US employee. The employee has a payroll background and expects the program (captioned as 'res skill'/'resale' program) to build technical Business Central skills and career growth.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xBORySiYWog) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-01 · 1:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xBORySiYWog) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-01 · 1:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -139,9 +149,9 @@ The first US employee explains why the resale skill program appealed to them. Th
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Resale skill program | status not stated | [1:03](https://www.youtube.com/watch?v=xBORySiYWog&t=63s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Resale skill program | status not stated | [1:03](https://www.youtube.com/watch?v=xBORySiYWog&t=63s) |
 
 ## Quotes
 
@@ -149,5 +159,6 @@ The first US employee explains why the resale skill program appealed to them. Th
 - [1:03](https://www.youtube.com/watch?v=xBORySiYWog&t=63s) "I'm at the point in my career where I'm looking for more growth opportunities and I feel for me the res skill program um"
 - [1:23](https://www.youtube.com/watch?v=xBORySiYWog&t=83s) "the resale program I think gives an incentive for Outsiders to come in learn business Central and start at a higher level"
 - [1:23](https://www.youtube.com/watch?v=xBORySiYWog&t=83s) "we know we have the best product on the market and growing the company in Switzerland even in the United States is the most"
+- [1:44](https://www.youtube.com/watch?v=xBORySiYWog&t=104s) "so the risk kill program is the key for our success and growing of the companies"
 
 Presenters (as heard): SwissSalary founder/representative, First US employee.

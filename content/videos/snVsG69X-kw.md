@@ -20,12 +20,12 @@ tags:
   - cloud scalability
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:42.903Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:42.947Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,14 +38,7 @@ evidence:
     date: "2024-05-31T14:00:06.000Z"
     commit: null
     t: 1671
-    quote: scalability guide that we released recently
-  - kind: video
-    url: https://www.youtube.com/watch?v=snVsG69X-kw&t=28s
-    title: "Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?"
-    date: "2024-05-31T14:00:06.000Z"
-    commit: null
-    t: 28
-    quote: we are going to answer that question and to help him with that have Christian with me
+    quote: scalability guide that we released recently we'll put some Link in the description so you can take a look at it
   - kind: video
     url: https://www.youtube.com/watch?v=snVsG69X-kw&t=129s
     title: "Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?"
@@ -322,24 +315,11 @@ features:
     t: 1752
     verified: false
     status_source: video
-  - name: Database lock space monitoring
-    status: unclear
-    t: 1813
-    verified: false
-    status_source: video
-  - name: Telemetry and performance logging
-    status: unclear
-    t: 1833
-    verified: false
-    status_source: video
 objects_mentioned:
   - page database locks page
   - page database missing indexes page
   - table mixer table
 quotes:
-  - t: 28
-    text: we are going to answer that question and to help him with that have Christian with me
-    check: exact
   - t: 129
     text: we have a VM cluster technically it's a virtual machine scale set that has a number of VMS and all our VMS are configured
     check: exact
@@ -412,7 +392,7 @@ quotes:
 
 > Business Central cloud scaling and performance: how VM scale sets, load balancing with a 60% CPU threshold, automatic scale-out and scale-in, and database scaling work, plus tools for finding performance problems. Says users are rarely limited by capacity; locking and AL code are the usual limits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=snVsG69X-kw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-05-31 · 31:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=snVsG69X-kw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-05-31 · 31:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -422,13 +402,13 @@ The second half covers sources of performance problems and the tools to investig
 
 ## Key points
 
-- The cloud runs on an Azure VM scale set. Clusters typically start at five VMs and can scale to 30 or more.
+- The cloud runs on an Azure VM scale set. Clusters have at least five VMs, and 10, 20, 30 or 40 VMs is normal.
 - The load balancer stops sending new sessions to a VM above 60% CPU. Existing sessions stay on that VM. When all VMs exceed the threshold, more VMs are added. Scale-in is intentionally slower than scale-out.
 - Database CPU, IO, data IO and log IO are monitored, and database capacity is increased automatically when thresholds are exceeded.
 - Capacity is rarely the cause of a performance problem. Many short queries are typically worse in the cloud because of datacenter latency, usually under a millisecond.
 - Diagnostic tools: in-client profiler, database locks page (refresh with F5), database missing indexes page (needs several days of running), and Application Insights telemetry. By default only SQL queries slower than 750 ms are emitted.
 - There is no hard user limit. Customers have hundreds or thousands of users. Locking between concurrent users, which depends on AL code, is the main constraint.
-- The performance toolkit can simulate up to 1,000 users in a cloud environment before go-live. The partner configures the scenarios. The scalability guide includes a real example of 5,000 sales invoices posted in one hour.
+- The performance toolkit simulates what-if workloads in a cloud environment before go-live, in principle with around a thousand users. The scalability guide includes a real example of 5,000 sales invoices posted in one hour.
 
 ## Chapters
 
@@ -465,10 +445,8 @@ The second half covers sources of performance problems and the tools to investig
 | Database missing indexes page | status not stated, demoed | [22:15](https://www.youtube.com/watch?v=snVsG69X-kw&t=1335s) |  |
 | Application insights telemetry | status not stated, demoed | [24:09](https://www.youtube.com/watch?v=snVsG69X-kw&t=1449s) |  |
 | User scalability in Business Central cloud | status not stated | [26:30](https://www.youtube.com/watch?v=snVsG69X-kw&t=1590s) |  |
-| Business Central scalability guide | generally available | [27:11](https://www.youtube.com/watch?v=snVsG69X-kw&t=1631s) | "scalability guide that we released recently" ([27:51](https://www.youtube.com/watch?v=snVsG69X-kw&t=1671s)) |
+| Business Central scalability guide | generally available | [27:11](https://www.youtube.com/watch?v=snVsG69X-kw&t=1631s) | "scalability guide that we released recently we'll put some Link in the description so you can take a look at it" ([27:51](https://www.youtube.com/watch?v=snVsG69X-kw&t=1671s)) |
 | Performance toolkit | status not stated | [29:12](https://www.youtube.com/watch?v=snVsG69X-kw&t=1752s) |  |
-| Database lock space monitoring | status not stated | [30:13](https://www.youtube.com/watch?v=snVsG69X-kw&t=1813s) |  |
-| Telemetry and performance logging | status not stated | [30:33](https://www.youtube.com/watch?v=snVsG69X-kw&t=1833s) |  |
 
 ## AL objects mentioned
 
@@ -482,7 +460,6 @@ Not found in BC28-30: page "database locks page", page "database missing indexes
 
 ## Quotes
 
-- [0:28](https://www.youtube.com/watch?v=snVsG69X-kw&t=28s) "we are going to answer that question and to help him with that have Christian with me"
 - [2:09](https://www.youtube.com/watch?v=snVsG69X-kw&t=129s) "we have a VM cluster technically it's a virtual machine scale set that has a number of VMS and all our VMS are configured"
 - [4:10](https://www.youtube.com/watch?v=snVsG69X-kw&t=250s) "we have set a threshold at 60% and if VM goes above 60% CPU load we say it's it's getting starting to become overloaded"
 - [5:11](https://www.youtube.com/watch?v=snVsG69X-kw&t=311s) "if all VMS get busy like if there's really a lot of activi everybody's working you know hard doing a lot of sales order"

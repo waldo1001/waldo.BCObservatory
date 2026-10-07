@@ -2,7 +2,7 @@
 id: video/58yOwN3GY2Q
 type: video
 title: Microsoft Copilot in Business Central
-summary: Microsoft Copilot in Dynamics 365 Business Central, shown as an everyday AI companion in a one-minute overview from May 2024. It covers marketing suggestions, sales quotes, orders and invoices, Power Automate flows, and finance tasks such as bank reconciliation and e-invoice matching.
+summary: This is a short promotional overview of Microsoft Copilot in Dynamics 365 Business Central, pitched as an everyday AI companion. It mentions marketing suggestions built from item details already in Business Central, and faster creation of sales quotes, orders and invoices. It also covers Power Automate flows, finance tasks such as bank reconciliation and matching purchase orders with e-invoices, and analysis views. It gives no setup steps or release status.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - analysis views
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:36.047Z"
   flags: []
 generated:
-  at: "2026-10-06T19:34:27.800Z"
+  at: "2026-10-07T23:07:36.093Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,9 +146,9 @@ quotes:
 
 # Microsoft Copilot in Business Central
 
-> Microsoft Copilot in Dynamics 365 Business Central, shown as an everyday AI companion in a one-minute overview from May 2024. It covers marketing suggestions, sales quotes, orders and invoices, Power Automate flows, and finance tasks such as bank reconciliation and e-invoice matching.
+> This is a short promotional overview of Microsoft Copilot in Dynamics 365 Business Central, pitched as an everyday AI companion. It mentions marketing suggestions built from item details already in Business Central, and faster creation of sales quotes, orders and invoices. It also covers Power Automate flows, finance tasks such as bank reconciliation and matching purchase orders with e-invoices, and analysis views. It gives no setup steps or release status.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=58yOwN3GY2Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-05-09 · 1:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=58yOwN3GY2Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-05-09 · 1:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -176,14 +176,14 @@ The video moves through three areas: marketing suggestions based on details alre
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot as everyday AI companion | status not stated | [0:00](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=0s) |  |
-| Marketing Tech suggestions for sales and creativity | status not stated | [0:20](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=20s) |  |
-| Copilot for creating sales documents | status not stated | [0:35](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=35s) |  |
-| Business process automation with Power Automate | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |  |
-| Finance organization with Copilot | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |  |
-| Analysis views for data-driven decisions | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot as everyday AI companion | status not stated | [0:00](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=0s) |
+| Marketing Tech suggestions for sales and creativity | status not stated | [0:20](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=20s) |
+| Copilot for creating sales documents | status not stated | [0:35](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=35s) |
+| Business process automation with Power Automate | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
+| Finance organization with Copilot | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
+| Analysis views for data-driven decisions | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
 
 ## Quotes
 

@@ -14,12 +14,12 @@ tags:
   - posting
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:07:08.668Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:07:08.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     commit: null
     t: 100
     quote: it has reversed the amount posted in the original journal entry
+  - kind: video
+    url: https://www.youtube.com/watch?v=r8HWIk5E0c0&t=115s
+    title: Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central
+    date: "2024-07-26T13:24:44.000Z"
+    commit: null
+    t: 115
+    quote: you can reverse the transaction or you can use the correct Dimension functionality to correct or add a dimension value
   - kind: video
     url: https://www.youtube.com/watch?v=r8HWIk5E0c0&t=135s
     title: Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central
@@ -127,11 +134,6 @@ features:
     t: 115
     verified: false
     status_source: video
-  - name: Change dimension process
-    status: unclear
-    t: 150
-    verified: false
-    status_source: video
 objects_mentioned:
   - page Journal transactions
   - page General ledger entry
@@ -148,6 +150,9 @@ quotes:
   - t: 100
     text: it has reversed the amount posted in the original journal entry
     check: exact
+  - t: 115
+    text: you can reverse the transaction or you can use the correct Dimension functionality to correct or add a dimension value
+    check: exact
   - t: 135
     text: instead of choosing to reverse the transaction we'll select to correct the dimension
     check: exact
@@ -160,7 +165,7 @@ quotes:
 
 > Comparison of correcting and reversing journal entries in Dynamics SL and Business Central. Shows the SL reverse, reverse-and-correct and copy options on Journal transactions, then reversing a posted entry and correcting dimensions from General ledger entry in Business Central.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=r8HWIk5E0c0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=r8HWIk5E0c0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-07-26 · 3:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,11 +175,11 @@ In Business Central, the reversal is started from the General ledger entry page.
 
 ## Key points
 
-- In Dynamics SL, the Journal transactions page offers three options: reverse, reverse and create a correcting entry, or copy the entry for manual changes.
-- Reversing in SL creates an unposted batch that fully reverses the original posted batch with debits and credits swapped; it must then be posted.
-- In Business Central, a posted entry is reversed from the General ledger entry page; the system pulls in the account and amounts and reverses them.
-- Business Central can correct a dimension on a posted entry instead of reversing the whole transaction.
-- The change dimension process lets you set the new dimension value, add a missing dimension, enter a description and refresh to see the result.
+- In Dynamics SL, choosing Correct journal transaction on Journal transactions offers three options: reverse, reverse and create a correcting entry, or copy the entry to make manual changes.
+- Reversing in SL creates an unposted reversal batch that completely reverses the original posted batch, with the account and amounts pulled in and debits and credits reversed. You then post it with Post transactions.
+- In Business Central, you reverse a posted entry from the General ledger entry window. The journal entry information is filled in by default, and the reversal reverses the amount posted in the original entry.
+- Business Central's Correct dimension functionality can correct or add a dimension value on a posted entry instead of reversing the whole transaction.
+- When correcting dimensions, you select the new dimension value code, add any missing dimension, enter a description of why the change is being made, run the change dimension process and refresh to see the result.
 - The video's conclusion is that reversing and correcting dimensions is quick and simple in Business Central.
 
 ## Chapters
@@ -188,14 +193,13 @@ In Business Central, the reversal is started from the General ledger entry page.
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Reverse journal entry | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |  |
-| Reverse and create correcting entry | status not stated | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |  |
-| Copy entry for manual correction | status not stated | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |  |
-| Reverse journal entry in Business Central | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=74s) |  |
-| Correct dimension in Business Central | status not stated, demoed | [1:55](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=115s) |  |
-| Change dimension process | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=150s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Reverse journal entry | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |
+| Reverse and create correcting entry | status not stated | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |
+| Copy entry for manual correction | status not stated | [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) |
+| Reverse journal entry in Business Central | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=74s) |
+| Correct dimension in Business Central | status not stated, demoed | [1:55](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=115s) |
 
 ## AL objects mentioned
 
@@ -212,5 +216,6 @@ Not found in BC28-30: page "Journal transactions", page "General ledger entry".
 - [0:26](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=26s) "there are three options to select reverse the journal entry or reverse and create a correcting entry or to just copy the entry to"
 - [0:47](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=47s) "the system has pulled in the account and amounts and reversed the debits and credits"
 - [1:40](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=100s) "it has reversed the amount posted in the original journal entry"
+- [1:55](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=115s) "you can reverse the transaction or you can use the correct Dimension functionality to correct or add a dimension value"
 - [2:15](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=135s) "instead of choosing to reverse the transaction we'll select to correct the dimension"
 - [2:50](https://www.youtube.com/watch?v=r8HWIk5E0c0&t=170s) "reversing and correcting Dimensions is a quick and simple process in Business Central"

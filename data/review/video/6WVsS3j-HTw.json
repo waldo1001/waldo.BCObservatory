@@ -1,0 +1,23 @@
+{
+  "video_id": "6WVsS3j-HTw",
+  "item_id": "video/yt-microsoft/6WVsS3j-HTw",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim spans of the transcript.",
+    "The summary and key points match the transcript: the Cash Receipts Journal with the apply-to-documents lookup, and the Customer Register Payments window with filtering and lump sum posting.",
+    "All features are marked unclear, which fits because the transcript never states a preview or GA status.",
+    "The Dynamics SL steps (payment application screen, auto apply, release batch) are only covered in general terms. This is minor and does not need an edit."
+  ],
+  "input_hash": "1f7954db661fc30f98e7a2d8253b71e73d2bce3c095f4d7f7c449b291dcb6201",
+  "by": "opus",
+  "at": "2026-10-07T23:07:13.778Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03433699999999999
+  }
+}
