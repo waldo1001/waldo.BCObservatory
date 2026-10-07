@@ -4,12 +4,12 @@
   "summary": "Copilot for bank reconciliation in Dynamics 365 Business Central, shown in a one-minute 2024 demo. Copilot matches bank statement lines to ledger entries, including consolidated charges, suggests GL accounts for unmatched lines, and saves patterns for recurring payments.",
   "overview": "This short video from the Microsoft Dynamics 365 Business Central channel (published 2024-09-03) presents Copilot as an AI bookkeeping assistant for the monthly bank reconciliation. It opens with the reconciliation challenge, then shows Copilot analyzing the bank statement.\n\nCopilot compares transaction descriptions, amounts and dates to find matches in ledger entries, including cases where several charges are consolidated into one bank entry. For remaining lines, such as interest charges or bank fees, it suggests GL accounts. When a recurring payment is found, the transaction pattern can be saved for the next reconciliation.",
   "key_points": [
+    "Start by importing bank statements into Business Central so Copilot can analyze them.",
     "Copilot compares transaction descriptions, amounts and dates to match bank lines to ledger entries.",
     "It can match multiple charges consolidated into a single bank entry.",
     "It suggests GL accounts for unmatched transactions, such as interest charges or bank fees.",
-    "Patterns for recurring payments can be saved and applied in later reconciliations.",
-    "The matching uses built-in rules and AI, according to the video.",
-    "The demo covers all four capabilities in about one minute."
+    "Patterns for recurring payments can be saved for the next reconciliation.",
+    "The matching uses built-in rules and AI, according to the video."
   ],
   "audience": [
     "functional consultant",

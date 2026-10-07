@@ -16,12 +16,12 @@ tags:
   - filters
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:07.042Z"
   flags: []
 generated:
-  at: "2026-10-06T19:22:48.265Z"
+  at: "2026-10-07T23:06:07.079Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,7 +116,7 @@ quotes:
 
 > Copilot AI-powered analysis in Dynamics 365 Business Central: users describe what they need and Copilot builds totals, pivots and filters, and they can explore trends and outliers inside Business Central. It works with most Business Central data, including customizations. Short 2024 overview video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ofq4OBTuPvE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 0:52 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ofq4OBTuPvE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 0:52 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -141,10 +141,10 @@ Users describe what they want, and Copilot creates totals, pivots and filters. T
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot AI-Powered Analysis | status not stated | [0:12](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=12s) |  |
-| Trend and Outlier Exploration | status not stated | [0:28](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=28s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot AI-Powered Analysis | status not stated | [0:12](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=12s) |
+| Trend and Outlier Exploration | status not stated | [0:28](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=28s) |
 
 ## Quotes
 

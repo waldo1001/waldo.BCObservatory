@@ -2,7 +2,7 @@
 id: video/V2mfuDh8Kfk
 type: video
 title: Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
-summary: "Dynamics GP segments map to dimensions in Business Central during cloud migration: two segments become Global Dimensions, the rest become shortcut dimensions, and segment values migrate as dimension values. The 2024 video shows this in the migration wizard and in Business Central."
+summary: When you migrate from Dynamics GP to Business Central, GP account segments map to Business Central dimensions. In the cloud migration Setup Wizard you choose which segments become the two Global Dimensions. The remaining segments come over as shortcut dimensions, and segment values become dimension values. The video walks through the GP account format, then General Ledger Setup, Dimensions and the migrated chart of accounts in Business Central.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - gp comparison
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:20.521Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:20.561Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,9 +145,9 @@ quotes:
 
 # Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)
 
-> Dynamics GP segments map to dimensions in Business Central during cloud migration: two segments become Global Dimensions, the rest become shortcut dimensions, and segment values migrate as dimension values. The 2024 video shows this in the migration wizard and in Business Central.
+> When you migrate from Dynamics GP to Business Central, GP account segments map to Business Central dimensions. In the cloud migration Setup Wizard you choose which segments become the two Global Dimensions. The remaining segments come over as shortcut dimensions, and segment values become dimension values. The video walks through the GP account format, then General Ledger Setup, Dimensions and the migrated chart of accounts in Business Central.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V2mfuDh8Kfk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:12 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=V2mfuDh8Kfk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:12 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -160,9 +160,9 @@ In the cloud migration Setup Wizard you choose which segments become Global Dime
 - Business Central has two Global Dimensions. They should be the most common GP segments, because they are easy to sort and filter on.
 - GP segments beyond the two Global Dimensions are migrated as shortcut dimensions.
 - The cloud migration Setup Wizard lets you select which segments become Global Dimensions.
-- GP segment values are migrated automatically as dimension values.
-- After migration, the dimension setup can be checked on the General Ledger Setup page.
-- The video also reviews the migrated chart of accounts.
+- GP segment values are migrated over as dimension values. You can create additional values later.
+- After migration, the Global and shortcut dimensions can be checked on the General Ledger Setup page.
+- GP main accounts become the Business Central chart of accounts. Drilling into a balance shows amounts broken out by division and department, similar to GP.
 - The example use case is categorizing revenue by region and market segment, and expenses by department and projects.
 
 ## Chapters
@@ -177,12 +177,12 @@ In the cloud migration Setup Wizard you choose which segments become Global Dime
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Global Dimensions | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |  |
-| Shortcut Dimensions | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |  |
-| Cloud Migration Setup Wizard | status not stated | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |  |
-| Dimension values migration | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=190s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Global Dimensions | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |
+| Shortcut Dimensions | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |
+| Cloud Migration Setup Wizard | status not stated | [1:43](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=103s) |
+| Dimension values migration | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=V2mfuDh8Kfk&t=190s) |
 
 ## AL objects mentioned
 

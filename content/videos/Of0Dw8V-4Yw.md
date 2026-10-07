@@ -15,12 +15,12 @@ tags:
   - variance analysis
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:38.604Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:38.644Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,7 +149,7 @@ quotes:
 
 > Trial balance and accounts receivable aging reports in Business Central compared with Dynamics GP: detailed and summary trial balance, filtering, Excel export, and customer aging options. A 4-minute demo published 2024-08-26.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Of0Dw8V-4Yw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Of0Dw8V-4Yw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,13 +159,13 @@ In Business Central it covers the detailed trial balance, the summary trial bala
 
 ## Key points
 
+- Search 'trial balance' in Business Central to find both the Trial Balance report (similar to the GP summary trial balance) and the Detailed Trial Balance report.
 - The Detailed Trial Balance report shows balances and the transactions posted to each account. It has an option to print a new page per GL account and can be filtered to one account or a range.
-- The Summary Trial Balance report compares current year balances to prior year or to budgeted amounts, and shows the variance as a percentage.
-- Budget comparison in the summary trial balance needs budgets to be configured in Business Central.
-- The summary report supports rounding options and filters by account range and date range.
-- Trial balance reports can be exported to Excel for further analysis and different visuals.
-- The Aging Report for receivables can age by transaction date or due date, uses a selectable aging date, and can print in detail format.
-- Filtering the aging report by customer class relies on customer class information having been migrated as posting groups.
+- The Trial Balance (summary) report compares current year balances to last year or to budgeted amounts, and can show the variance as a percentage.
+- Budget comparison in the trial balance needs budgets to be configured in Business Central.
+- The summary report supports rounding (e.g. to the nearest dollar) and filters by account range and date range.
+- Reports can be previewed or sent to PDF, Word, or Excel; Excel allows further analysis and different visuals.
+- Searching 'aged accounts' lists both AP and AR aging reports. The AR aging report can age by transaction date or due date, uses a selectable aging date, and can print in detail.
 
 ## Chapters
 
@@ -176,12 +176,12 @@ In Business Central it covers the detailed trial balance, the summary trial bala
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Detailed trial balance report | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s) |  |
-| Summary trial balance report | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=103s) |  |
-| Report export to Excel | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=148s) |  |
-| Aging report for accounts receivable | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=175s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Detailed trial balance report | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s) |
+| Summary trial balance report | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=103s) |
+| Report export to Excel | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=148s) |
+| Aging report for accounts receivable | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=175s) |
 
 ## AL objects mentioned
 

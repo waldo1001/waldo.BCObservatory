@@ -14,12 +14,12 @@ tags:
   - template prioritization
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:38.362Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:38.401Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,7 +152,7 @@ quotes:
 
 > Auto-applying configuration templates in the Business Central integration with Dataverse (2024 release wave 2): rule-based filters and evaluation priorities set in integration table mappings choose which template applies to synchronized records, in both directions. Includes a demo creating a customer from Dataverse.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ItuCEHpaI1E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ItuCEHpaI1E) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,12 +181,12 @@ A drill-down from the integration table mapping opens new Configuration Template
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Auto-Apply Templates in Integration with Dataverse | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=6s) |  |
-| Configuration Template Setup Pages | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=301s) |  |
-| Template Filter Conditions | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=107s) |  |
-| Template Evaluation Priority | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=167s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Auto-Apply Templates in Integration with Dataverse | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=6s) |
+| Configuration Template Setup Pages | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=301s) |
+| Template Filter Conditions | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=107s) |
+| Template Evaluation Priority | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=167s) |
 
 ## AL objects mentioned
 

@@ -16,12 +16,12 @@ tags:
   - excel export
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:40.749Z"
   flags: []
 generated:
-  at: "2026-10-06T19:27:10.913Z"
+  at: "2026-10-07T23:06:40.785Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -172,7 +172,7 @@ quotes:
 
 > Account schedules in Business Central as the replacement for GP financial reporting. Covers the eight built-in schedules, account categories carried over by the GP cloud migration tool, row formulas, column layouts, dimension filtering, drill-down, and Excel export and cross-company import.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=W3xWt6j4-Ms) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=W3xWt6j4-Ms) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -202,16 +202,16 @@ The demo covers how accounts and their categories come across with the cloud mig
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Account Schedules | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=38s) |  |
-| Account Categories and Subcategories | status not stated, demoed | [1:04](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=64s) |  |
-| Account Schedule Row Definitions and Formulas | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=158s) |  |
-| Account Schedule Column Layouts | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=178s) |  |
-| Dimension Filtering for Account Schedules | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=212s) |  |
-| Drill Down into Account Schedule Details | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=223s) |  |
-| Account Schedule Export to Excel | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=238s) |  |
-| Account Schedule Import and Export Across Companies | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=253s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Account Schedules | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=38s) |
+| Account Categories and Subcategories | status not stated, demoed | [1:04](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=64s) |
+| Account Schedule Row Definitions and Formulas | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=158s) |
+| Account Schedule Column Layouts | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=178s) |
+| Dimension Filtering for Account Schedules | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=212s) |
+| Drill Down into Account Schedule Details | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=223s) |
+| Account Schedule Export to Excel | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=238s) |
+| Account Schedule Import and Export Across Companies | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=253s) |
 
 ## Quotes
 

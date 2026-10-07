@@ -16,12 +16,12 @@ tags:
   - enterprise policy
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:46.244Z"
   flags: []
 generated:
-  at: "2026-10-06T19:19:34.302Z"
+  at: "2026-10-07T23:05:46.284Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,20 @@ evidence:
     commit: null
     t: 231
     quote: there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up
+  - kind: video
+    url: https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=231s
+    title: "What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)"
+    date: "2024-10-08T15:00:13.000Z"
+    commit: null
+    t: 231
+    quote: therefore we recommend that you separate these duties between different persons
+  - kind: video
+    url: https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=292s
+    title: "What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)"
+    date: "2024-10-08T15:00:13.000Z"
+    commit: null
+    t: 292
+    quote: creates a backpack file in your own storage this backpack file is also not encrypted with the customer manag
 links:
   learn: []
   objects: []
@@ -112,11 +126,6 @@ features:
     t: 130
     verified: false
     status_source: video
-  - name: Key Vault Setup
-    status: unclear
-    t: 110
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 6
@@ -131,13 +140,19 @@ quotes:
   - t: 231
     text: there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up
     check: fuzzy
+  - t: 231
+    text: therefore we recommend that you separate these duties between different persons
+    check: exact
+  - t: 292
+    text: creates a backpack file in your own storage this backpack file is also not encrypted with the customer manag
+    check: exact
 ---
 
 # What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)
 
 > Customer-managed encryption key and lockbox for Business Central (2024 release wave 2): how to link a Business Central environment to a Power Platform managed environment, set up Azure Key Vault and an enterprise policy, and what to expect for downtime, licensing, and copy/restore.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DnZJ2iOgIjI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DnZJ2iOgIjI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -148,12 +163,12 @@ It then covers the Azure side: a key vault with soft delete and purge protection
 ## Key points
 
 - A Business Central environment must be linked to a Power Platform managed environment to use a customer-managed key. There is no way to set it up without linking.
-- Linked environments must be in the same region and of the same type (production). Customer-managed key and lockbox settings are inherited through the link.
-- The Azure Key Vault needs soft delete and purge protection enabled, and must hold an RSA key of size 2048.
-- The enterprise policy resource must be in the same region as the environments. It needs the Key Vault Crypto Service Encryption User role, and applying it requires an environment administrator with the ENT role.
-- Expect some downtime on Business Central and Power Platform environments after the final setup step, while the databases are re-encrypted.
-- Unlinking the environments reverts Business Central to a Microsoft-managed encryption key. Copy and restore operations create new environments with Microsoft-managed encryption.
-- Specific Microsoft 365 and Power Platform licensing applies. Lockbox settings are administered in the Power Platform admin center. The video warns of internal malicious actors if one administrator controls all setup steps.
+- You link environments from the environment details page in the Business Central admin center. The Power Platform environment must be in the same region and of the same type (the example is US and production). Customer-managed key and lockbox settings are inherited through the link.
+- If customer-managed key is already enabled on the linked Power Platform environment, Business Central inherits it automatically.
+- Setup in Azure: create a Key Vault with soft delete and purge protection enabled and an RSA key of size 2048. Then create an enterprise policy in the same region as the environments and give it the Key Vault Crypto Service Encryption User role assignment.
+- An environment administrator for Power Platform environments gets the Reader role on the enterprise policy. They then apply it to the linked environment in the Power Platform admin center.
+- Expect some downtime on Business Central and Power Platform environments after the final setup step, while the data is re-encrypted with your own key.
+- Unlinking reverts Business Central to a Microsoft-managed encryption key. Copied or restored environments get a Microsoft-managed key and must be linked to a different Power Platform environment to apply the policy. Exported bacpac files are not encrypted with the customer-managed key.
 
 ## Chapters
 
@@ -167,13 +182,12 @@ It then covers the Azure side: a key vault with soft delete and purge protection
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer-Managed Encryption Key | status not stated | [1:08](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=68s) |  |
-| Lockbox Settings | status not stated | [0:06](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=6s) |  |
-| Environment Linking | status not stated | [0:26](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=26s) |  |
-| Enterprise Policy Resource | status not stated | [2:10](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=130s) |  |
-| Key Vault Setup | status not stated | [1:50](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=110s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer-Managed Encryption Key | status not stated | [1:08](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=68s) |
+| Lockbox Settings | status not stated | [0:06](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=6s) |
+| Environment Linking | status not stated | [0:26](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=26s) |
+| Enterprise Policy Resource | status not stated | [2:10](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=130s) |
 
 ## Quotes
 
@@ -181,6 +195,8 @@ It then covers the Azure side: a key vault with soft delete and purge protection
 - [2:51](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=171s) "after completing this last setup step there could be some downtime on your business center and Power Platform environments"
 - [3:31](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=211s) "if you unlink your environments the business Central environment will revert back to a Microsoft manage encryption key"
 - [3:51](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=231s) "there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up"
+- [3:51](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=231s) "therefore we recommend that you separate these duties between different persons"
+- [4:52](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=292s) "creates a backpack file in your own storage this backpack file is also not encrypted with the customer manag"
 
 ## Disclaimers in the video
 

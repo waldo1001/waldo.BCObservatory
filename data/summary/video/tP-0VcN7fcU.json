@@ -1,15 +1,16 @@
 {
   "video_id": "tP-0VcN7fcU",
   "item_id": "video/yt-microsoft/tP-0VcN7fcU",
-  "summary": "Customer templates in Business Central as the equivalent of customer classes in Dynamics GP. The demo groups customers by region (Northeast) and presets credit limit, salesperson, posting groups and dimension values, then applies the template when creating a new customer.",
+  "summary": "The video presents Business Central customer templates as the counterpart to customer classes in Dynamics GP. The demo groups customers by region (Northeast) and sets defaults for credit limit, salesperson, business and customer posting groups, and a region dimension value. It then applies the template to a new customer, notes that templates can also be applied to existing customers, and shows that a template can be created from an existing customer record.",
   "overview": "The video compares customer classes in Dynamics GP with customer templates in Business Central. It uses a regional grouping, with preset information for customers in the Northeast region, to show how a template can carry default values.\n\nThe demo creates a template, personalizes the template form to show the credit limit and salesperson fields, and sets business and customer posting groups and a default region dimension. It then creates a new customer and picks the Northeast template, which fills in the defaults. The stated aim is to streamline data creation and improve data accuracy.",
   "key_points": [
-    "Business Central customer templates fill in defaults on new customers, similar in purpose to customer classes in Dynamics GP.",
+    "Business Central customer templates fill in defaults on new customers, similar in purpose to customer classes in Dynamics GP; the video says templates also streamline creating vendors and items.",
+    "To open templates, search for customer templates using the search icon.",
     "The template form may not show credit limit or salesperson at first; use personalization to drag those fields onto it.",
-    "A template can be created from an existing customer record if its values suit other customers.",
     "Templates can set default business and customer posting groups so the correct sales and accounts receivable accounts are used.",
-    "Templates can set default dimension values such as region so transactions posted to sales accounts are categorized correctly.",
-    "When creating a new customer, the available templates are listed and you select one, such as Northeast, to apply its defaults."
+    "Templates can set default dimension values such as region so transactions posted to sales accounts are categorized correctly, similar to the Northeast segment value in GP.",
+    "When creating a new customer, the available templates are listed and you select one, such as Northeast, to apply its defaults.",
+    "A template can also be applied to existing customers."
   ],
   "audience": [
     "functional consultant",

@@ -1,0 +1,26 @@
+{
+  "video_id": "fIktVTGZkjE",
+  "item_id": "video/yt-microsoft/fIktVTGZkjE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim; two run on into the next segment, which is allowed.",
+    "Key point 3 said the Business Central reversal reverses the debits and credits. The video says that about GP. For Business Central it says the reversal defaults in the journal entry information and reverses the amounts posted in the original entry. Reworded the key point to match.",
+    "Key point 5 now uses the wording from the video: new dimension value code, an optional description, and running the change dimension process.",
+    "Feature statuses are correctly unclear. The video gives no preview or GA wording.",
+    "The Reverse transaction feature description also says debits and credits, which is slightly loose for Business Central, but descriptions cannot be edited here."
+  ],
+  "input_hash": "0f87c57ba8b4670d029636fc5aaa84c6cc93a39bd30739ae1b8482de8f5aecca",
+  "by": "opus",
+  "at": "2026-10-07T23:06:36.846Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045477000000000004
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "V2mfuDh8Kfk",
+  "item_id": "video/yt-microsoft/V2mfuDh8Kfk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim, allowing for case differences and segment-boundary crossing.",
+    "The summary said the video shows the migration wizard. The wizard is only mentioned, not demonstrated. The demo covers the GP account format and segments, then General Ledger Setup, Dimensions, Dimension Values and the chart of accounts in Business Central. Summary rewritten.",
+    "Key point and feature descriptions say segment values migrate 'automatically'. The transcript only says the values 'have been migrated over'. Key point reworded.",
+    "All feature statuses are unclear. That is correct, because the transcript says nothing about preview or GA status."
+  ],
+  "input_hash": "fa3f800e57fc80e7911e6d5c49e5b6511676a118e1d3177332b68d22cdee708a",
+  "by": "opus",
+  "at": "2026-10-07T23:06:20.521Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052897
+  }
+}

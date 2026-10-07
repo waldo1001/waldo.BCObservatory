@@ -18,18 +18,25 @@ tags:
   - devops
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:41.460Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:41.498Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 6147e6d707e2a13634450671a4661cb53d4f85eae15b126607ce66e90d81b11c
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=5GoAzII20L0&t=6s
+    title: "Page Scripting Tool: preview"
+    date: "2024-10-08T15:00:08.000Z"
+    commit: null
+    t: 6
+    quote: an enhancement to the page scripting tool that we launched in the previous release as a preview
   - kind: video
     url: https://www.youtube.com/watch?v=5GoAzII20L0&t=256s
     title: "AL-Go for GitHub Support for Page Script Replayer: announced"
@@ -115,9 +122,9 @@ chapters:
     title: Call to Action and Summary
 features:
   - name: Page Scripting Tool
-    status: unclear
+    status: preview
     t: 6
-    verified: false
+    verified: true
     status_source: video
   - name: Page Script Replayer for CI/CD Pipelines
     status: unclear
@@ -159,7 +166,7 @@ quotes:
 
 > Page script replayer for CI/CD pipelines in Business Central (2024 release wave 2): a standalone replayer distributed as an NPM package that runs recorded page scripts in pipelines for regression testing. AL-Go for GitHub support is announced for the near future; ALOps and Alpaca support are also planned.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5GoAzII20L0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5GoAzII20L0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,7 +195,7 @@ The release adds a standalone page script replayer, distributed as an NPM packag
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Page Scripting Tool | status not stated | [0:06](https://www.youtube.com/watch?v=5GoAzII20L0&t=6s) |  |
+| Page Scripting Tool | preview | [0:06](https://www.youtube.com/watch?v=5GoAzII20L0&t=6s) | "an enhancement to the page scripting tool that we launched in the previous release as a preview" ([0:06](https://www.youtube.com/watch?v=5GoAzII20L0&t=6s)) |
 | Page Script Replayer for CI/CD Pipelines | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=5GoAzII20L0&t=101s) |  |
 | AL-Go for GitHub Support for Page Script Replayer | announced | [4:16](https://www.youtube.com/watch?v=5GoAzII20L0&t=256s) | "support for the BC replay page scripting replayer will come out soon in those different solutions" ([4:16](https://www.youtube.com/watch?v=5GoAzII20L0&t=256s)) |
 

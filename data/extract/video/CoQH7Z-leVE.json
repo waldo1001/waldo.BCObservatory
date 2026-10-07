@@ -129,6 +129,12 @@
       "text": "after a quick review this invoice is successfully mapped and ready to apply to the purchase order",
       "why_it_matters": "Shows the workflow - Copilot proposes matching, then user confirms before final processing",
       "check": "exact"
+    },
+    {
+      "t": 43,
+      "text": "business Central updates the vendor document number and date so that it's ready for processing",
+      "why_it_matters": "Supports the vendor document number and date update feature, which no current quote covers.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

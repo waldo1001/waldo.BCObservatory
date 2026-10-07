@@ -1,0 +1,31 @@
+{
+  "video_id": "CoQH7Z-leVE",
+  "item_id": "video/yt-microsoft/CoQH7Z-leVE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary cites a date (2024-09-03) that does not appear in the transcript; removed.",
+    "Key points added unsupported requirements: that electronic documents must be set up first (the transcript only mentions a system already set up to receive them), that tolerance levels must be configured, and that discrepancies and split or grouped lines need manual review. Reworded to match the transcript.",
+    "All five quotes are verbatim. The quote at 2.6 runs on into segment 22.7, which is fine. Quotes 3 and 4 overlap but are kept.",
+    "The 'localization' system tag has no support in the transcript, but it cannot be edited through these fields.",
+    "All features are correctly marked unclear because the transcript says nothing about preview or GA status."
+  ],
+  "input_hash": "859e2c66f9976b6fc222da16e9327622823ad5c2f1f08fb22ad1361939df93ba",
+  "by": "opus",
+  "at": "2026-10-07T23:05:59.322Z",
+  "applied": [
+    "E-invoice Matching with Copilot: status unclear",
+    "Discrepancy Detection and Tolerance Levels: status unclear",
+    "Vendor Document Updates: status unclear",
+    "quote at 43s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045769000000000004
+  }
+}

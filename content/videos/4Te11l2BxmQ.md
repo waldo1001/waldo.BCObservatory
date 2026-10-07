@@ -14,12 +14,12 @@ tags:
   - recurring payments
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:07.231Z"
   flags: []
 generated:
-  at: "2026-10-06T19:22:39.308Z"
+  at: "2026-10-07T23:06:07.279Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,6 +33,13 @@ evidence:
     commit: null
     t: 4
     quote: Microsoft co-pilot and Dynamics 365 business Central is your AI powered bookkeeping assistant that helps you turn a tedious monthly chore into a quick
+  - kind: video
+    url: https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s
+    title: Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)
+    date: "2024-09-03T15:01:24.000Z"
+    commit: null
+    t: 4
+    quote: start by importing bank statements into business Central for co-pilot to analyze using built-in rules and Power AI
   - kind: video
     url: https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s
     title: Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)
@@ -107,6 +114,9 @@ quotes:
   - t: 4
     text: Microsoft co-pilot and Dynamics 365 business Central is your AI powered bookkeeping assistant that helps you turn a tedious monthly chore into a quick
     check: exact
+  - t: 4
+    text: start by importing bank statements into business Central for co-pilot to analyze using built-in rules and Power AI
+    check: exact
   - t: 24
     text: co-pilot Compares transaction descriptions amounts and dates to find matches in your Ledger entries even when multiple charges are Consolidated into a single entry
     check: exact
@@ -122,7 +132,7 @@ quotes:
 
 > Copilot for bank reconciliation in Dynamics 365 Business Central, shown in a one-minute 2024 demo. Copilot matches bank statement lines to ledger entries, including consolidated charges, suggests GL accounts for unmatched lines, and saves patterns for recurring payments.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4Te11l2BxmQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4Te11l2BxmQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -132,12 +142,12 @@ Copilot compares transaction descriptions, amounts and dates to find matches in 
 
 ## Key points
 
+- Start by importing bank statements into Business Central so Copilot can analyze them.
 - Copilot compares transaction descriptions, amounts and dates to match bank lines to ledger entries.
 - It can match multiple charges consolidated into a single bank entry.
 - It suggests GL accounts for unmatched transactions, such as interest charges or bank fees.
-- Patterns for recurring payments can be saved and applied in later reconciliations.
+- Patterns for recurring payments can be saved for the next reconciliation.
 - The matching uses built-in rules and AI, according to the video.
-- The demo covers all four capabilities in about one minute.
 
 ## Chapters
 
@@ -147,16 +157,17 @@ Copilot compares transaction descriptions, amounts and dates to find matches in 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot for Bank Reconciliation | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) |  |
-| Consolidated Transaction Detection | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s) |  |
-| GL Account Suggestions | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |  |
-| Recurring Payment Pattern Recognition | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot for Bank Reconciliation | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) |
+| Consolidated Transaction Detection | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s) |
+| GL Account Suggestions | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
+| Recurring Payment Pattern Recognition | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
 
 ## Quotes
 
 - [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) "Microsoft co-pilot and Dynamics 365 business Central is your AI powered bookkeeping assistant that helps you turn a tedious monthly chore into a quick"
+- [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) "start by importing bank statements into business Central for co-pilot to analyze using built-in rules and Power AI"
 - [0:24](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s) "co-pilot Compares transaction descriptions amounts and dates to find matches in your Ledger entries even when multiple charges are Consolidated into a single entry"
 - [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) "co-pilot also suggests GL accounts to post remaining transactions to improving the accuracy of your financial records"
 - [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) "if you've discovered a recurring payment co-pilot helps you save the transaction pattern for the next time"

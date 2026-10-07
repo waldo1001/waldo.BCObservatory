@@ -1,0 +1,23 @@
+{
+  "video_id": "fdP1HKBEDjA",
+  "item_id": "video/yt-microsoft/fdP1HKBEDjA",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim spans of the transcript at the stated segments.",
+    "Key points and feature descriptions match the transcript: the GP transaction entry and apply window, the BC sales journal batches with a default sales account, the GL entry preview, the credit memo batch with a separate number series and apply entry, and sales invoices with GL account lines plus inventory items.",
+    "Feature statuses are all unclear, which is right because the transcript never states preview or GA status.",
+    "Minor: the 'Summary' chapter starts at 272.8, but that segment still covers sales invoice flexibility. The actual wrap-up starts at 292.4. Not worth a fix."
+  ],
+  "input_hash": "c94c25ca8b9bddcc428dcee1d5c44cd433dfc84a9c463583398f7eee35714bd5",
+  "by": "opus",
+  "at": "2026-10-07T23:06:09.125Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045461
+  }
+}

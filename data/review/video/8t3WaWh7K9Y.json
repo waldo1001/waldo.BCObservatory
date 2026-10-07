@@ -1,0 +1,29 @@
+{
+  "video_id": "8t3WaWh7K9Y",
+  "item_id": "video/yt-microsoft/8t3WaWh7K9Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point about resource protection policies says the opposite of the transcript. The demo shows that you can open the source through GitHub even when the policies block downloading it, as long as you have access to the repo.",
+    "The key point mentions 'GitHub credentials must be configured' and 'pipeline configured correctly', but the transcript says neither. It only says you need access to the repo, otherwise cloning gives an error.",
+    "Exploring a page in VS Code from the page inspector is described as a capability from the last release, not a new one. The feature entry presents it as new, so it is dropped.",
+    "All feature statuses stay unclear because the transcript never states preview or GA.",
+    "Added a quote explaining that you get access to the source without being able to download it."
+  ],
+  "input_hash": "8492944aa3526e12121d3d210d49820407c80d3cb7905c80ad057a27f1a32481",
+  "by": "opus",
+  "at": "2026-10-07T23:05:56.829Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 238s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06901700000000001
+  }
+}

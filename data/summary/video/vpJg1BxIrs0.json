@@ -1,14 +1,14 @@
 {
   "video_id": "vpJg1BxIrs0",
   "item_id": "video/yt-microsoft/vpJg1BxIrs0",
-  "summary": "Dynamics GP segments map to Business Central dimensions: GP segments migrate through the cloud migration tool, default dimensions are set on vendors, purchase invoices are previewed and posted, and results are checked in the trial balance dimension report.",
+  "summary": "Compares Dynamics GP segment posting with Business Central dimensions. GP segments migrate to Business Central as dimensions. A default division dimension set on a vendor (migrated with the cloud migration tool) defaults onto purchase journal invoices. The posting can be previewed before posting, and the results can be analyzed by division in the trial balance dimension report.",
   "overview": "The video compares how Dynamics GP handles segments on transactions with how Business Central handles dimensions. It starts with posting a transaction with segments in GP, then explains that those segments migrate to Business Central as dimensions so transactions can still be categorized.\n\nThe demo uses a vendor migrated from GP with the cloud migration tool. A default dimension is assigned to the vendor, a purchase invoice picks it up, the posting is previewed, and the invoice is posted. The result is then viewed in the trial balance dimension report, sliced by a dimension such as division.",
   "key_points": [
-    "Segments defined in GP migrate to Business Central as dimensions through the cloud migration tool.",
+    "Segments defined in GP migrate to Business Central as dimensions, so transactions can still be categorized.",
     "Default dimensions can be assigned to a vendor and default onto purchase transactions for that vendor.",
-    "Setting the dimension value posting to code mandatory enforces that a dimension value exists on transactions for that entity. Without it, the dimension is used for defaulting only.",
+    "Setting the dimension value posting to code mandatory enforces that a dimension value exists on transactions for that vendor. Without it, the dimension is used for defaulting only.",
     "Posting preview before posting a journal lets you verify accounts and dimension values, similar to the distributions button in GP.",
-    "The trial balance dimension report shows amounts posted to main accounts and can be analyzed by dimensions such as division, similar to GP segment reporting."
+    "The trial balance dimension report shows amounts posted to main accounts, similar to GP, and lets you analyze transactions by dimensions such as division."
   ],
   "audience": [
     "functional consultant",

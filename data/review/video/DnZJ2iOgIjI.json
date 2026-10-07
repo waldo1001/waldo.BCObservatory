@@ -1,0 +1,30 @@
+{
+  "video_id": "DnZJ2iOgIjI",
+  "item_id": "video/yt-microsoft/DnZJ2iOgIjI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on the enterprise policy got the admin step wrong. The transcript says the environment administrator gets the Reader role on the enterprise policy and then applies it in the Power Platform admin center. 'ENT role' is a garbled caption and should not be presented as a role name.",
+    "Key point on linking presented 'production' as a requirement. The transcript only requires the same region and the same type; US and production are just the example.",
+    "Key points left out the recommendation to split duties between administrators and the fact that exported bacpac files are not encrypted with the customer-managed key. Both are now added.",
+    "Dropped the 'Key Vault Setup' feature because it is a configuration step inside the customer-managed key setup, not a separate feature.",
+    "The transcript says nothing about release status, so all features stay unclear.",
+    "The 4 kept quotes are verbatim. The 171.3 quote runs on into the next segment, which is allowed."
+  ],
+  "input_hash": "ab2fb8256972c22d2d78081e9a39bfef2ed257338863c32a1c8486c3ab711117",
+  "by": "opus",
+  "at": "2026-10-07T23:05:46.244Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 232s",
+    "quote at 293s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07068100000000001
+  }
+}

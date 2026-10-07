@@ -1,16 +1,16 @@
 {
   "video_id": "8t3WaWh7K9Y",
   "item_id": "video/yt-microsoft/8t3WaWh7K9Y",
-  "summary": "Open In VS Code action and Source Control Details section on the Business Central extension management page, which show the GitHub repo and commit ID of an extension built with AL-Go for GitHub and open its source in VS Code. Also covers exploring a page in VS Code from the page inspector.",
+  "summary": "In Business Central, the extension management page has a new Source Control Details section that shows an extension's GitHub repo and build commit ID, plus a new Open In VS Code action that clones or reopens that repo in VS Code. AL-Go for GitHub fills in this information automatically for extensions it builds. This works even when resource protection policies block downloading the source, but only if you have access to the repo.",
   "overview": "The video, published 2024-10-08, shows how a developer can get from an installed extension to its source code. The extension details page has a new Source Control Details section with the GitHub repository and the commit ID tied to the build. A new Open In VS Code action on the extension management page uses that information to open the source in VS Code.\n\nThe demo also covers exploring a page from the page inspector in VS Code, making and testing changes, and reopening a repository that was already cloned. AL-Go for GitHub fills in the source control information automatically for extensions it builds. Seeing the repo information does not guarantee access to the repo, and resource protection policies can block the source download.",
   "key_points": [
-    "The extension management page has a new Source Control Details section showing the GitHub repository URL and the commit ID of the build.",
-    "The new Open In VS Code action on the extension management page opens the extension source in VS Code.",
-    "AL-Go for GitHub automatically populates the source control information, but only for extensions built with it and with the pipeline configured correctly.",
-    "You may not have access to the repo even when its information is visible. GitHub credentials must be configured and you need repository access.",
-    "If resource protection policies for the app do not allow downloading the source, the action does not work. The demo shows this case.",
-    "The page inspector can explore a specific page in VS Code and go to the page definition in the source.",
-    "When the source was cloned before, VS Code offers a reopen option so the repository is not cloned again."
+    "The extension details on the extension management page have a new Source Control Details section showing the GitHub repository and the commit ID of the build.",
+    "The new Open In VS Code action on the extension management page opens the extension source in VS Code. You can clone the repo, pick or create a branch, make changes, test with F5 in a sandbox and open a pull request.",
+    "This gives access to the source even when the app's resource protection policies do not allow downloading it, so the policies do not need to change.",
+    "You need access to the GitHub repo. Seeing the repo information does not grant access, and cloning fails with an error if you lack access.",
+    "AL-Go for GitHub automatically fills in the source control information for extensions built with it. One example is the System Application from the BC apps repo.",
+    "When the repo was cloned before, VS Code offers a reopen option so it is not cloned again.",
+    "Exploring fields and pages in VS Code from the page inspector, added in an earlier release, can be used to go to the specific page in the cloned source."
   ],
   "audience": [
     "developer",

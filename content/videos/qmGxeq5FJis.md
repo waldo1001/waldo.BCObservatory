@@ -2,7 +2,7 @@
 id: video/qmGxeq5FJis
 type: video
 title: Create Sales Lines with Copilot in Dynamics 365 Business Central (2024)
-summary: Copilot in Dynamics 365 Business Central creates sales lines for sales orders, invoices and quotes. It reads product details pasted from customer emails or short natural language descriptions and suggests matching items from the product catalog. Short 2024 demo.
+summary: Copilot in Dynamics 365 Business Central helps create sales orders, invoices and quotes by suggesting line items from the product catalog. The input can be product details pasted from a customer email, a reference to a previous order, or a short natural language description. The user then selects the suggested items and finalizes the order. This is a short 2024 overview video.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - sales efficiency
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:56.728Z"
   flags: []
 generated:
-  at: "2026-10-06T19:21:59.544Z"
+  at: "2026-10-07T23:05:56.770Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,9 +123,9 @@ quotes:
 
 # Create Sales Lines with Copilot in Dynamics 365 Business Central (2024)
 
-> Copilot in Dynamics 365 Business Central creates sales lines for sales orders, invoices and quotes. It reads product details pasted from customer emails or short natural language descriptions and suggests matching items from the product catalog. Short 2024 demo.
+> Copilot in Dynamics 365 Business Central helps create sales orders, invoices and quotes by suggesting line items from the product catalog. The input can be product details pasted from a customer email, a reference to a previous order, or a short natural language description. The user then selects the suggested items and finalizes the order. This is a short 2024 overview video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qmGxeq5FJis) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qmGxeq5FJis) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,12 +135,12 @@ The video also covers describing needed goods or services in a few words, and Co
 
 ## Key points
 
-- Copilot suggests sales lines for sales orders, invoices and quotes.
+- Copilot helps create sales orders, invoices and quotes by suggesting line items.
 - Product details can be copied from a customer email and pasted into Business Central; Copilot identifies the products.
 - Suggestions use item details, variants and attributes in the product catalog.
+- Copilot can reference a previous order to find items sold before, which helps with repeat orders.
 - A few words describing goods or services are enough for Copilot to suggest matching line items.
-- Copilot can reference previous orders to find items sold before, which helps with repeat orders.
-- The email paste and natural language description were demonstrated in the video.
+- The user selects the suggested items and finalizes the order.
 
 ## Chapters
 
@@ -151,12 +151,12 @@ The video also covers describing needed goods or services in a few words, and Co
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot for Sales Order Creation | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=qmGxeq5FJis&t=2s) |  |
-| Email-based Order Details Processing | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=qmGxeq5FJis&t=22s) |  |
-| Previous Order Reference | status not stated | [0:22](https://www.youtube.com/watch?v=qmGxeq5FJis&t=22s) |  |
-| Natural Language Product Description | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=qmGxeq5FJis&t=42s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot for Sales Order Creation | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=qmGxeq5FJis&t=2s) |
+| Email-based Order Details Processing | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=qmGxeq5FJis&t=22s) |
+| Previous Order Reference | status not stated | [0:22](https://www.youtube.com/watch?v=qmGxeq5FJis&t=22s) |
+| Natural Language Product Description | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=qmGxeq5FJis&t=42s) |
 
 ## Quotes
 

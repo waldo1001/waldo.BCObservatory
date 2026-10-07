@@ -1,16 +1,14 @@
 {
   "video_id": "CoQH7Z-leVE",
   "item_id": "video/yt-microsoft/CoQH7Z-leVE",
-  "summary": "E-invoice matching with Copilot in Business Central: Copilot analyzes an electronic invoice, compares its lines with the purchase order, and flags small discrepancies within user-set tolerance levels. A one-minute demo from 2024-09-03 showing the flow through to a mapped invoice ready to apply.",
+  "summary": "E-invoice matching with Copilot in Business Central: Copilot analyzes an incoming electronic invoice, compares its line items with the purchase order, flags slight discrepancies within tolerance levels the user controls, and identifies lines that may be split or grouped differently. After a quick review the invoice is mapped and ready to apply to the purchase order. Business Central then updates the vendor document number and date for processing.",
   "overview": "The video shows how Copilot reduces manual line-by-line matching of electronic invoices against purchase orders. Copilot reads the e-invoice, compares the lines with the purchase order, and signals slight discrepancies that fall within tolerance levels the user controls.\n\nIt also identifies lines that may be split or grouped differently, which need manual review. After a quick review the invoice is mapped, and Business Central updates the vendor document number and date so the invoice can be applied to the purchase order. Electronic documents must be set up first. The feature status is not stated in the video.",
   "key_points": [
-    "Copilot analyzes an electronic invoice and compares its line items with the purchase order.",
-    "Electronic documents must be set up in the system before this works.",
-    "Copilot signals slight discrepancies that are within tolerance levels the user controls; these still need review.",
-    "Tolerance levels must be configured by users.",
-    "Lines that may be split or grouped differently are identified and need manual review.",
-    "After mapping, Business Central updates the vendor document number and date automatically.",
-    "The mapped invoice is then ready to apply to the purchase order."
+    "Copilot analyzes an electronic invoice and compares its line items with the purchase order, even for invoices with dozens or hundreds of lines.",
+    "Copilot signals slight discrepancies that are within tolerance levels the user controls.",
+    "Copilot identifies line items that may be split or grouped differently.",
+    "After a quick review, the invoice is mapped and ready to apply to the purchase order.",
+    "Business Central updates the vendor document number and date so the invoice is ready for processing."
   ],
   "audience": [
     "functional consultant",

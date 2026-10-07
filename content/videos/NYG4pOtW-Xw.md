@@ -20,18 +20,81 @@ tags:
   - certificates
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:44.132Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:44.187Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: f0b9763a70f108f6ccdc9f9cd8a2f67ce51a389c0fe1aef24910efb35e476e59
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Sustainability Manager Role Center: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Sustainability Scorecards and Goals: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Emissions in Purchase Documents: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Carbon Equivalent Recalculation: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Internal Carbon Fee: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Emission Fees Page: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Purchase Credits: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Sustainability Entries in Financial Reports: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: "Sustainability Certificates on Vendors and Items: preview"
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
   - kind: video
     url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=331s
     title: "Updated Demo Data Tool: announced"
@@ -130,6 +193,13 @@ evidence:
     commit: null
     t: 1322
     quote: all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1
+  - kind: video
+    url: https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s
+    title: What's New in Sustainability (2024 release wave 2)
+    date: "2024-10-08T15:00:22.000Z"
+    commit: null
+    t: 1322
+    quote: try to test all these features in preview as the majority of them actually all all of them except demo data will
 links:
   learn: []
   objects:
@@ -177,49 +247,49 @@ chapters:
     title: Release Timeline and Cloud Sustainability Integration
 features:
   - name: Sustainability Manager Role Center
-    status: unclear
+    status: preview
     t: 210
-    verified: false
+    verified: true
     status_source: video
   - name: Sustainability Scorecards and Goals
-    status: unclear
+    status: preview
     t: 466
-    verified: false
+    verified: true
     status_source: video
   - name: Emissions in Purchase Documents
-    status: unclear
+    status: preview
     t: 250
-    verified: false
+    verified: true
     status_source: video
   - name: Carbon Equivalent Recalculation
-    status: unclear
+    status: preview
     t: 270
-    verified: false
+    verified: true
     status_source: video
   - name: Internal Carbon Fee
-    status: unclear
+    status: preview
     t: 290
-    verified: false
+    verified: true
     status_source: video
   - name: Emission Fees Page
-    status: unclear
+    status: preview
     t: 605
-    verified: false
+    verified: true
     status_source: video
   - name: Purchase Credits
-    status: unclear
+    status: preview
     t: 270
-    verified: false
+    verified: true
     status_source: video
   - name: Sustainability Entries in Financial Reports
-    status: unclear
+    status: preview
     t: 311
-    verified: false
+    verified: true
     status_source: video
   - name: Sustainability Certificates on Vendors and Items
-    status: unclear
+    status: preview
     t: 1128
-    verified: false
+    verified: true
     status_source: video
   - name: Updated Demo Data Tool
     status: announced
@@ -312,13 +382,16 @@ quotes:
   - t: 1322
     text: all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1
     check: exact
+  - t: 1322
+    text: try to test all these features in preview as the majority of them actually all all of them except demo data will
+    check: exact
 ---
 
 # What's New in Sustainability (2024 release wave 2)
 
 > Business Central sustainability features in 2024 release wave 2: a Sustainability Manager role center, scorecards and goals, emissions on purchase documents, internal carbon fees, carbon credit purchases, ESG reporting on financial reports, and certificates on vendors and items. Most arrive with major version 25; the updated demo data tool is announced for 25.1 in November.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NYG4pOtW-Xw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 22:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NYG4pOtW-Xw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 22:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -354,15 +427,15 @@ The presenters say most features come with major version 25. The updated demo da
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Sustainability Manager Role Center | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=210s) |  |
-| Sustainability Scorecards and Goals | status not stated, demoed | [7:46](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=466s) |  |
-| Emissions in Purchase Documents | status not stated, demoed | [4:10](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=250s) |  |
-| Carbon Equivalent Recalculation | status not stated, demoed | [4:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=270s) |  |
-| Internal Carbon Fee | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=290s) |  |
-| Emission Fees Page | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=605s) |  |
-| Purchase Credits | status not stated, demoed | [4:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=270s) |  |
-| Sustainability Entries in Financial Reports | status not stated | [5:11](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=311s) |  |
-| Sustainability Certificates on Vendors and Items | status not stated, demoed | [18:48](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1128s) |  |
+| Sustainability Manager Role Center | preview, demoed | [3:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=210s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Sustainability Scorecards and Goals | preview, demoed | [7:46](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=466s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Emissions in Purchase Documents | preview, demoed | [4:10](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=250s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Carbon Equivalent Recalculation | preview, demoed | [4:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=270s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Internal Carbon Fee | preview, demoed | [4:50](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=290s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Emission Fees Page | preview, demoed | [10:05](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=605s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Purchase Credits | preview, demoed | [4:30](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=270s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Sustainability Entries in Financial Reports | preview | [5:11](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=311s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
+| Sustainability Certificates on Vendors and Items | preview, demoed | [18:48](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1128s) | "try to test all these features in preview as the majority of them actually all all of them except demo data will" ([22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s)) |
 | Updated Demo Data Tool | announced | [5:31](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=331s) | "not in major this is something what will come in 25.1 we will update demo data tool" ([5:31](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=331s)) |
 | Purchase Document Sustainability Visibility Filtering | status not stated, demoed | [13:06](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=786s) |  |
 | Emissions Entry with Sustainability Accounts | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=807s) |  |
@@ -404,6 +477,7 @@ Not found in BC28-30: table "Sustainability Scorecards", table "Sustainability G
 - [17:08](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1028s) "in amount types we can use carbon equivalent and carbon fee so can use these two options uh for reporting"
 - [17:48](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1068s) "you can enter for example number of employees you can enter put your revenue from posting accounts and now I want to calculate emission"
 - [22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s) "all of them except demo data will come with a major version 25 uh demo data will come with the next minor 25 5.1"
+- [22:02](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1322s) "try to test all these features in preview as the majority of them actually all all of them except demo data will"
 
 ## Disclaimers in the video
 

@@ -2,7 +2,7 @@
 id: video/tP-0VcN7fcU
 type: video
 title: Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)
-summary: Customer templates in Business Central as the equivalent of customer classes in Dynamics GP. The demo groups customers by region (Northeast) and presets credit limit, salesperson, posting groups and dimension values, then applies the template when creating a new customer.
+summary: The video presents Business Central customer templates as the counterpart to customer classes in Dynamics GP. The demo groups customers by region (Northeast) and sets defaults for credit limit, salesperson, business and customer posting groups, and a region dimension value. It then applies the template to a new customer, notes that templates can also be applied to existing customers, and shows that a template can be created from an existing customer record.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - customer setup
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:44.638Z"
   flags: []
 generated:
-  at: "2026-10-06T19:25:08.844Z"
+  at: "2026-10-07T23:06:44.680Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,13 @@ evidence:
     commit: null
     t: 175
     quote: you can see how the credit limit and salespeople have defaulted in for me as well as the right business and customer posting groups
+  - kind: video
+    url: https://www.youtube.com/watch?v=tP-0VcN7fcU&t=187s
+    title: Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)
+    date: "2024-08-26T13:50:01.000Z"
+    commit: null
+    t: 187
+    quote: if I had existing customers that I wanted to apply this template to I could do that as well
   - kind: video
     url: https://www.youtube.com/watch?v=tP-0VcN7fcU&t=214s
     title: Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)
@@ -141,6 +148,9 @@ quotes:
   - t: 175
     text: you can see how the credit limit and salespeople have defaulted in for me as well as the right business and customer posting groups
     check: exact
+  - t: 187
+    text: if I had existing customers that I wanted to apply this template to I could do that as well
+    check: exact
   - t: 214
     text: how we can use templates in business Central to streamline data creation and improve data accuracy
     check: exact
@@ -148,9 +158,9 @@ quotes:
 
 # Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)
 
-> Customer templates in Business Central as the equivalent of customer classes in Dynamics GP. The demo groups customers by region (Northeast) and presets credit limit, salesperson, posting groups and dimension values, then applies the template when creating a new customer.
+> The video presents Business Central customer templates as the counterpart to customer classes in Dynamics GP. The demo groups customers by region (Northeast) and sets defaults for credit limit, salesperson, business and customer posting groups, and a region dimension value. It then applies the template to a new customer, notes that templates can also be applied to existing customers, and shows that a template can be created from an existing customer record.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tP-0VcN7fcU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tP-0VcN7fcU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -160,12 +170,13 @@ The demo creates a template, personalizes the template form to show the credit l
 
 ## Key points
 
-- Business Central customer templates fill in defaults on new customers, similar in purpose to customer classes in Dynamics GP.
+- Business Central customer templates fill in defaults on new customers, similar in purpose to customer classes in Dynamics GP; the video says templates also streamline creating vendors and items.
+- To open templates, search for customer templates using the search icon.
 - The template form may not show credit limit or salesperson at first; use personalization to drag those fields onto it.
-- A template can be created from an existing customer record if its values suit other customers.
 - Templates can set default business and customer posting groups so the correct sales and accounts receivable accounts are used.
-- Templates can set default dimension values such as region so transactions posted to sales accounts are categorized correctly.
+- Templates can set default dimension values such as region so transactions posted to sales accounts are categorized correctly, similar to the Northeast segment value in GP.
 - When creating a new customer, the available templates are listed and you select one, such as Northeast, to apply its defaults.
+- A template can also be applied to existing customers.
 
 ## Chapters
 
@@ -176,13 +187,13 @@ The demo creates a template, personalizes the template form to show the credit l
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Customer templates | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=66s) |  |
-| Form personalization for templates | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=87s) |  |
-| Template creation from existing customer | status not stated | [3:07](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=187s) |  |
-| Posting groups in customer templates | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=127s) |  |
-| Dimension defaults in templates | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=138s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Customer templates | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=66s) |
+| Form personalization for templates | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=87s) |
+| Template creation from existing customer | status not stated | [3:07](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=187s) |
+| Posting groups in customer templates | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=127s) |
+| Dimension defaults in templates | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=138s) |
 
 ## Quotes
 
@@ -191,4 +202,5 @@ The demo creates a template, personalizes the template form to show the credit l
 - [1:27](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=87s) "I don't see the credit limit or salesperson fields on the template form I can simply select to personalize the form find the fields"
 - [2:44](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=164s) "when I select to create a new customer you can see the various templates I've created are displayed and I can select that Northeast"
 - [2:55](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=175s) "you can see how the credit limit and salespeople have defaulted in for me as well as the right business and customer posting groups"
+- [3:07](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=187s) "if I had existing customers that I wanted to apply this template to I could do that as well"
 - [3:34](https://www.youtube.com/watch?v=tP-0VcN7fcU&t=214s) "how we can use templates in business Central to streamline data creation and improve data accuracy"

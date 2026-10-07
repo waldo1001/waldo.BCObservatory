@@ -94,10 +94,10 @@
     {
       "name": "Type Checking with Is Operator for Interfaces",
       "description": "A new Boolean expression that tests if an interface instance implements another interface. Can be used with interface variables, parameters, or variant types to check if a codeunit implements a specific interface.",
-      "status": "ga",
-      "status_evidence_t": 638.2,
-      "status_evidence_quote": "if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 602,
       "t_end": 754.3,
       "is_demoed": true,
@@ -115,10 +115,10 @@
     {
       "name": "Interface Casting with As Operator",
       "description": "A new casting operator that converts an interface instance to a different interface type. Returns an interface of the type specified on the right side. Will error if the left side cannot be cast to the right side.",
-      "status": "ga",
-      "status_evidence_t": 659.5,
-      "status_evidence_quote": "we can cast it using the s expression which is also new so we can say if provider is i express shipping provider",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 659.5,
       "t_end": 788.2,
       "is_demoed": true,
@@ -225,6 +225,12 @@
       "t": 708.9,
       "text": "we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of",
       "why_it_matters": "Introduces the unknown interface type as a new system addition to support generic interface functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 774.3,
+      "text": "cannot be cast to the right side you will get an error and this is why you should in most cases check first",
+      "why_it_matters": "Gives the guidance to check with is before casting with as, to avoid runtime errors.",
       "check": "exact"
     }
   ],

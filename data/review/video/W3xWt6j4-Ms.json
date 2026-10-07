@@ -1,0 +1,24 @@
+{
+  "video_id": "W3xWt6j4-Ms",
+  "item_id": "video/yt-microsoft/W3xWt6j4-Ms",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim in the transcript.",
+    "Every feature is marked unclear, which is right because the video gives no preview or GA status.",
+    "Minor: the Excel export description adds 'for further analysis and sharing', which the video does not say. The transcript only says schedules can be exported to Excel.",
+    "Minor: the cross-company import/export feature has t_start 253.6, but the statement begins at 238.1 and runs into 253.6.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "b9b1d36b90250a60a62ae54e2cabfda16fc995f27483fbbfcf96892268654843",
+  "by": "opus",
+  "at": "2026-10-07T23:06:40.749Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046881
+  }
+}

@@ -15,12 +15,12 @@ tags:
   - register payments
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:29.669Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:29.702Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -136,7 +136,7 @@ quotes:
 
 > Entering customer cash receipts in Business Central compared with Dynamics GP, published 2024-08-26. Shows two ways to record customer payments: the Cash Receipt Journals page and the Customer Register Payments page, including applying to invoices and posting a lumpsum payment.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Dkd8_cGzIvc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Dkd8_cGzIvc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,12 +162,12 @@ In Business Central, the presenter records a payment in Cash Receipt Journals by
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cash Receipt Journals | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=50s) |  |
-| Customer Register Payments Window | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=93s) |  |
-| Automatic Amount and Date Defaulting | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=85s) |  |
-| Lumpsum Payment Posting | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=150s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cash Receipt Journals | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=50s) |
+| Customer Register Payments Window | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=93s) |
+| Automatic Amount and Date Defaulting | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=85s) |
+| Lumpsum Payment Posting | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=150s) |
 
 ## AL objects mentioned
 

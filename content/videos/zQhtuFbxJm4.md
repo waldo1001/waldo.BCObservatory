@@ -16,12 +16,12 @@ tags:
   - single-line entries
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:21.039Z"
   flags: []
 generated:
-  at: "2026-10-06T19:25:36.032Z"
+  at: "2026-10-07T23:06:21.086Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,7 @@ quotes:
 
 > General journal entry in Business Central compared with Dynamics GP, for finance users moving from GP. Demonstrates journal batches, account name auto-filter, the show more columns grid view, single-line entries with an offset account, Excel editing, and posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zQhtuFbxJm4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zQhtuFbxJm4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 4:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -175,13 +175,13 @@ It then shows the show more columns view, which lays out debit and credit amount
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| General Journal batches | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=46s) |  |
-| Account name auto-filter in journal entry | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=87s) |  |
-| Show more columns view for journal entries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=118s) |  |
-| Single-line journal entry | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=138s) |  |
-| Excel integration for journal entries | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=175s) |  |
+| Feature | Status | At |
+|---|---|---|
+| General Journal batches | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=46s) |
+| Account name auto-filter in journal entry | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=87s) |
+| Show more columns view for journal entries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=118s) |
+| Single-line journal entry | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=138s) |
+| Excel integration for journal entries | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=175s) |
 
 ## Quotes
 

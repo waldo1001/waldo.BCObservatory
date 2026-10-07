@@ -1,0 +1,25 @@
+{
+  "video_id": "ItuCEHpaI1E",
+  "item_id": "video/yt-microsoft/ItuCEHpaI1E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim; several run on into the next segment, which is acceptable.",
+    "The summary and key points match the transcript, including the bidirectional support and the drill-down to the configuration template setup pages.",
+    "The main feature can be marked GA: the speaker says that in 2024 release wave 2 'you can now conditionally apply' configuration templates. The sub-features stay unclear.",
+    "The 'development' system tag is weak support: the video says the feature removes the need to extend integration solutions. It can't be removed with the edit fields, so it is noted here only."
+  ],
+  "input_hash": "ec68683dbc1f05c5a24d84cd174ed7cb465f03f15ac64ce285c468d34ebd12cd",
+  "by": "opus",
+  "at": "2026-10-07T23:05:38.362Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Auto-Apply Templates in Integration with Dataverse -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.051317
+  }
+}

@@ -144,28 +144,6 @@
         "encryption"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Key Vault Setup",
-      "description": "Configuration of an Azure Key Vault with soft delete and purge protection enabled, containing an RSA key of size 2048 for database encryption.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 110,
-      "t_end": 150.5,
-      "is_demoed": false,
-      "caveats": [
-        "Must enable soft delete and purge protection",
-        "RSA key must be 2048 bits",
-        "Protects against accidental key vault deletion"
-      ],
-      "tags": [
-        "azure",
-        "key vault",
-        "rsa"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [],
@@ -194,6 +172,18 @@
       "text": "there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up",
       "why_it_matters": "Security best practice - separation of duties required to mitigate insider threats during setup.",
       "check": "fuzzy"
+    },
+    {
+      "t": 231.9,
+      "text": "therefore we recommend that you separate these duties between different persons",
+      "why_it_matters": "This is the recommended way to reduce the insider risk during setup.",
+      "check": "exact"
+    },
+    {
+      "t": 292.7,
+      "text": "creates a backpack file in your own storage this backpack file is also not encrypted with the customer manag",
+      "why_it_matters": "Exported environment databases are not protected by the customer-managed key.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

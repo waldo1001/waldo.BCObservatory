@@ -15,12 +15,12 @@ tags:
   - dynamics gp vs business central
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:36.846Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:36.894Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,7 +124,7 @@ quotes:
 
 > Comparison of correcting and reversing posted journal entries in Dynamics GP and Business Central. It shows GP's Correct button in the general journal window, then reversing an entry from the general ledger entries window in Business Central and using Correct Dimension to fix a dimension value.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fIktVTGZkjE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fIktVTGZkjE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,11 +135,11 @@ In GP, the Correct button in the general journal window offers two options: back
 ## Key points
 
 - In GP, the Correct button in the general journal window offers two options: back out the journal entry, or back out and create a correcting entry.
-- In Business Central, a posted journal entry is reversed by selecting the reverse option in the general ledger entries window.
-- Reversing in Business Central automatically reverses the debits and credits of the original entry.
-- A wrong dimension value can be fixed with Correct Dimension, without reversing the whole transaction.
-- With Correct Dimension you select the correct dimension option and enter the correct dimension value code.
-- The video says you can either reverse the transaction or use Correct Dimension to fix a dimension value.
+- In GP, you select the original journal entry year and number, and the system pulls in the accounts and amounts with debits and credits reversed before posting.
+- In Business Central, a posted journal entry is reversed from the general ledger entries window by searching for the entry and selecting to reverse the transaction.
+- Business Central defaults in the journal entry information, and the completed reversal reverses the amounts posted in the original journal entry.
+- A wrong dimension value can be fixed with Correct Dimension instead of reversing the transaction: select the correct value in the new dimension value code, optionally enter a description, and run the change dimension process.
+- After the change dimension process completes, refreshing the window shows the correct dimension value on the journal entry.
 
 ## Chapters
 
@@ -151,11 +151,11 @@ In GP, the Correct button in the general journal window offers two options: back
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Reverse transaction in Business Central | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=fIktVTGZkjE&t=58s) |  |
-| Correct Dimension functionality | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=fIktVTGZkjE&t=99s) |  |
-| Correct entry option in Dynamics GP | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=fIktVTGZkjE&t=11s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Reverse transaction in Business Central | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=fIktVTGZkjE&t=58s) |
+| Correct Dimension functionality | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=fIktVTGZkjE&t=99s) |
+| Correct entry option in Dynamics GP | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=fIktVTGZkjE&t=11s) |
 
 ## AL objects mentioned
 

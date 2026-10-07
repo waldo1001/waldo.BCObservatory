@@ -100,24 +100,6 @@
       "system": "development"
     },
     {
-      "name": "Explore page in VS Code from page inspector",
-      "description": "The page inspector now allows developers to explore a specific page directly in VS Code, navigating to the exact page definition in the source code.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 6.6,
-      "t_end": 192.7,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "page inspector",
-        "vs code",
-        "exploration"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Automatic population of Source Control Details via AL-Go for GitHub",
       "description": "AL-Go for GitHub automatically populates the GitHub repository and commit information in the Source Control Details section for extensions built with this framework.",
       "status": "unclear",
@@ -203,6 +185,12 @@
       "t": 127.1,
       "text": "with this new action on the extension management page you can now also open the source in vs code",
       "why_it_matters": "Introduces the core new feature enabling direct navigation from Business Central to VS Code.",
+      "check": "exact"
+    },
+    {
+      "t": 237.6,
+      "text": "you now have access to the source even though you cannot download it of course only if you have access to this skop repo",
+      "why_it_matters": "Explains that Open In VS Code works around resource protection policies only when you have access to the repo.",
       "check": "exact"
     },
     {

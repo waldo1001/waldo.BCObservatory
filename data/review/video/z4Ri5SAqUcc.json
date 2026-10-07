@@ -1,0 +1,25 @@
+{
+  "video_id": "z4Ri5SAqUcc",
+  "item_id": "video/yt-microsoft/z4Ri5SAqUcc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and correctly timed.",
+    "The last key point ('Vendor priority requires configuration on individual vendor cards') goes beyond the transcript, which only shows the priority being viewed on a vendor card. I removed it and added the demo's outcome: the run was reduced to Priority One vendors.",
+    "Leaving every feature status as unclear is fine because the transcript never states preview or GA status."
+  ],
+  "input_hash": "b2aa718d483b5e5d6d242dcf3cfe949a5ed501d45523cd446dcfff1f45f96b24",
+  "by": "opus",
+  "at": "2026-10-07T23:06:12.688Z",
+  "applied": [
+    "quote at 198s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048349
+  }
+}

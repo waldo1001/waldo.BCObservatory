@@ -2,7 +2,7 @@
 id: video/8t3WaWh7K9Y
 type: video
 title: "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)"
-summary: Open In VS Code action and Source Control Details section on the Business Central extension management page, which show the GitHub repo and commit ID of an extension built with AL-Go for GitHub and open its source in VS Code. Also covers exploring a page in VS Code from the page inspector.
+summary: In Business Central, the extension management page has a new Source Control Details section that shows an extension's GitHub repo and build commit ID, plus a new Open In VS Code action that clones or reopens that repo in VS Code. AL-Go for GitHub fills in this information automatically for extensions it builds. This works even when resource protection policies block downloading the source, but only if you have access to the repo.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - repository access
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:56.829Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:56.883Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 127
     quote: with this new action on the extension management page you can now also open the source in vs code
+  - kind: video
+    url: https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=237s
+    title: "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)"
+    date: "2024-10-08T15:00:08.000Z"
+    commit: null
+    t: 237
+    quote: you now have access to the source even though you cannot download it of course only if you have access to this skop repo
   - kind: video
     url: https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s
     title: "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)"
@@ -107,11 +114,6 @@ features:
     t: 91
     verified: false
     status_source: video
-  - name: Explore page in VS Code from page inspector
-    status: unclear
-    t: 6
-    verified: false
-    status_source: video
   - name: Automatic population of Source Control Details via AL-Go for GitHub
     status: unclear
     t: 257
@@ -137,6 +139,9 @@ quotes:
   - t: 127
     text: with this new action on the extension management page you can now also open the source in vs code
     check: exact
+  - t: 237
+    text: you now have access to the source even though you cannot download it of course only if you have access to this skop repo
+    check: exact
   - t: 257
     text: for github automatically populates this information in extensions that are built using al go for github so that means that there are
     check: fuzzy
@@ -147,9 +152,9 @@ quotes:
 
 # What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)
 
-> Open In VS Code action and Source Control Details section on the Business Central extension management page, which show the GitHub repo and commit ID of an extension built with AL-Go for GitHub and open its source in VS Code. Also covers exploring a page in VS Code from the page inspector.
+> In Business Central, the extension management page has a new Source Control Details section that shows an extension's GitHub repo and build commit ID, plus a new Open In VS Code action that clones or reopens that repo in VS Code. AL-Go for GitHub fills in this information automatically for extensions it builds. This works even when resource protection policies block downloading the source, but only if you have access to the repo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8t3WaWh7K9Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8t3WaWh7K9Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -159,13 +164,13 @@ The demo also covers exploring a page from the page inspector in VS Code, making
 
 ## Key points
 
-- The extension management page has a new Source Control Details section showing the GitHub repository URL and the commit ID of the build.
-- The new Open In VS Code action on the extension management page opens the extension source in VS Code.
-- AL-Go for GitHub automatically populates the source control information, but only for extensions built with it and with the pipeline configured correctly.
-- You may not have access to the repo even when its information is visible. GitHub credentials must be configured and you need repository access.
-- If resource protection policies for the app do not allow downloading the source, the action does not work. The demo shows this case.
-- The page inspector can explore a specific page in VS Code and go to the page definition in the source.
-- When the source was cloned before, VS Code offers a reopen option so the repository is not cloned again.
+- The extension details on the extension management page have a new Source Control Details section showing the GitHub repository and the commit ID of the build.
+- The new Open In VS Code action on the extension management page opens the extension source in VS Code. You can clone the repo, pick or create a branch, make changes, test with F5 in a sandbox and open a pull request.
+- This gives access to the source even when the app's resource protection policies do not allow downloading it, so the policies do not need to change.
+- You need access to the GitHub repo. Seeing the repo information does not grant access, and cloning fails with an error if you lack access.
+- AL-Go for GitHub automatically fills in the source control information for extensions built with it. One example is the System Application from the BC apps repo.
+- When the repo was cloned before, VS Code offers a reopen option so it is not cloned again.
+- Exploring fields and pages in VS Code from the page inspector, added in an earlier release, can be used to go to the specific page in the cloned source.
 
 ## Chapters
 
@@ -179,13 +184,12 @@ The demo also covers exploring a page from the page inspector in VS Code, making
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Open In VS Code action on extension management page | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=127s) |  |
-| Source Control Details section in extension management | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) |  |
-| Explore page in VS Code from page inspector | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=6s) |  |
-| Automatic population of Source Control Details via AL-Go for GitHub | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s) |  |
-| Repository reopen functionality in VS Code | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=298s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Open In VS Code action on extension management page | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=127s) |
+| Source Control Details section in extension management | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) |
+| Automatic population of Source Control Details via AL-Go for GitHub | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s) |
+| Repository reopen functionality in VS Code | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=298s) |
 
 ## AL objects mentioned
 
@@ -203,6 +207,7 @@ Not found in BC28-30: page "extension management page", page "Loyalty Rewards de
 - [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) "I do not have access to the source so the resource protection policies for this app does not allow me to download a copy"
 - [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) "I can see the GitHub repo where this comes from and I can see the commit ID that is associated with the build of"
 - [2:07](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=127s) "with this new action on the extension management page you can now also open the source in vs code"
+- [3:57](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=237s) "you now have access to the source even though you cannot download it of course only if you have access to this skop repo"
 - [4:17](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s) "for github automatically populates this information in extensions that are built using al go for github so that means that there are"
 - [5:35](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=335s) "while you now can see the the repo information in the extension management page you may or may not have access to that repo"
 

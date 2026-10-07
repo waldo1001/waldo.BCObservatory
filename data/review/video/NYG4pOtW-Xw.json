@@ -1,0 +1,37 @@
+{
+  "video_id": "NYG4pOtW-Xw",
+  "item_id": "video/yt-microsoft/NYG4pOtW-Xw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 13 quotes are verbatim in the transcript. Some run into the next caption segment, which is allowed.",
+    "The summary and key points match the transcript: role center, scorecards and goals, emissions on purchase documents, the emission fees page, carbon credits, ESG financial reporting and certificates.",
+    "Most features were marked unclear, but at 1322.8 the speaker says to test all these features in preview and that all except demo data come with major version 25. The main features are now set to preview using that quote.",
+    "The Updated Demo Data Tool stays announced for 25.1. Its evidence quote is verbatim at 331.4.",
+    "Several features overlap: Emissions in Purchase Documents and Emissions Entry with Sustainability Accounts; Internal Carbon Fee and Emission Fees Page; Purchase Credits and the two carbon credit features; Sustainability Entries in Financial Reports and ESG Reporting with Financial Row Definition. They are redundant but not wrong, so they are kept.",
+    "The certificates feature description says 'city certificates'. That is a caption error for sustainability certificates. It is minor and left as is."
+  ],
+  "input_hash": "c52e8817fa10fdbbba87e8791efe352e7b96d07b7da26ac870f7bf0d45694497",
+  "by": "opus",
+  "at": "2026-10-07T23:05:44.132Z",
+  "applied": [
+    "Sustainability Manager Role Center: status preview",
+    "Sustainability Scorecards and Goals: status preview",
+    "Emissions in Purchase Documents: status preview",
+    "Carbon Equivalent Recalculation: status preview",
+    "Internal Carbon Fee: status preview",
+    "Emission Fees Page: status preview",
+    "Purchase Credits: status preview",
+    "Sustainability Entries in Financial Reports: status preview",
+    "Sustainability Certificates on Vendors and Items: status preview",
+    "Updated Demo Data Tool: status announced",
+    "quote at 1323s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.146617
+  }
+}

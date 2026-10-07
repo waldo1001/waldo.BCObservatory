@@ -2,7 +2,7 @@
 id: video/5RJ3yZ7m1UU
 type: video
 title: "What's New: Financial Analytics (2024 release wave 2)"
-summary: "Financial analytics additions in Business Central 2024 release wave 2: a Power BI finance app with 14 reports, 17 financial reporting templates (5 row, 12 column definitions), three fixed assets Excel reports, ad hoc fixed assets analysis, new documentation, and three demo data sets planned for the second minor release."
+summary: "Financial analytics additions in Business Central 2024 release wave 2: a Power BI finance app with 14 reports, 17 financial reporting templates (5 row, 12 column definitions), three new fixed assets Excel reports plus one consolidation Excel report, ad hoc fixed assets analysis, and new documentation. Three demo data sets are planned for the second minor release."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - financial analytics
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:01.677Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:01.718Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 341
     quote: compare year to dat or prior Year year-to date or same period last year there's there's these different uh 12 different um column definition
+  - kind: video
+    url: https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=418s
+    title: "What's New: Financial Analytics (2024 release wave 2)"
+    date: "2024-10-08T15:00:05.000Z"
+    commit: null
+    t: 418
+    quote: you have three new reports for fixed assets and one new report for consolidation
   - kind: video
     url: https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=730s
     title: "What's New: Financial Analytics (2024 release wave 2)"
@@ -163,6 +170,9 @@ quotes:
   - t: 341
     text: compare year to dat or prior Year year-to date or same period last year there's there's these different uh 12 different um column definition
     check: snapped
+  - t: 418
+    text: you have three new reports for fixed assets and one new report for consolidation
+    check: exact
   - t: 730
     text: for the second minor in this release we're going to provide three new demo datas sets one for financial reporting it will have three
     check: exact
@@ -170,9 +180,9 @@ quotes:
 
 # What's New: Financial Analytics (2024 release wave 2)
 
-> Financial analytics additions in Business Central 2024 release wave 2: a Power BI finance app with 14 reports, 17 financial reporting templates (5 row, 12 column definitions), three fixed assets Excel reports, ad hoc fixed assets analysis, new documentation, and three demo data sets planned for the second minor release.
+> Financial analytics additions in Business Central 2024 release wave 2: a Power BI finance app with 14 reports, 17 financial reporting templates (5 row, 12 column definitions), three new fixed assets Excel reports plus one consolidation Excel report, ad hoc fixed assets analysis, and new documentation. Three demo data sets are planned for the second minor release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5RJ3yZ7m1UU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5RJ3yZ7m1UU) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -183,9 +193,9 @@ It also points to new documentation on financial reporting and analytics. The sp
 ## Key points
 
 - The Power BI finance app has 14 reports, with overview pages and KPI pages that drill through to ledger entries for validation and investigation. It is one of six new Power BI apps.
-- The financial reporting module gets 17 templates: five row definitions (such as balance sheet and income statement) and 12 column definitions (such as year to date, prior year, same period last year). Rows and columns can be mixed and matched.
-- The financial reporting templates require mapping configuration.
-- Three new Excel reports cover fixed assets: analysis with book value, projected value, and details. A separate consolidation report for fixed assets is also included.
+- The financial reporting module gets 17 templates: five row definitions (such as balance sheet and income statement, plus a trial balance) and 12 column definitions (such as year to date, prior year, same period last year). Rows and columns can be mixed and matched.
+- Setting up the financial reporting module requires some mapping, and the docs explain how.
+- Three new Excel reports cover fixed assets: analysis (which also covers book value), projected value, and details. One new Excel report for consolidation is also added.
 - Ad hoc analysis for fixed assets is a query-based view that combines fixed asset table data with multiple dimensions and dates. It supports custom reports and Copilot-assisted report generation.
 - New documentation covers the financial reporting overview, performing analytics in Business Central, module setup, and step-by-step creation of row and column definitions.
 - Three demo data sets (financial reporting, fixed assets, projects) are expected in the second minor release of this wave.
@@ -203,14 +213,14 @@ It also points to new documentation on financial reporting and analytics. The sp
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Power BI Finance App | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=16s) |  |
-| Financial Reporting Templates | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=109s) |  |
-| Excel Reports for Fixed Assets | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=401s) |  |
-| Ad Hoc Analysis for Fixed Assets | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=550s) |  |
-| Financial Analytics Documentation | status not stated | [7:38](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=458s) |  |
-| New Demo Data Sets | status not stated | [11:50](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=710s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Power BI Finance App | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=16s) |
+| Financial Reporting Templates | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=109s) |
+| Excel Reports for Fixed Assets | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=401s) |
+| Ad Hoc Analysis for Fixed Assets | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=550s) |
+| Financial Analytics Documentation | status not stated | [7:38](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=458s) |
+| New Demo Data Sets | status not stated | [11:50](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=710s) |
 
 ## AL objects mentioned
 
@@ -231,6 +241,7 @@ Not found in BC28-30: query "analyze fixed assets", table "fixed assets Ledger e
 - [0:51](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=51s) "hopefully soon in the second minor uh in this release we will have new data to better demonstrate some of these new reporting capabilities"
 - [1:49](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=109s) "have templates for financial reporting uh five row definition which is basically the reports like balance sheet and income statement and we have"
 - [5:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=341s) "compare year to dat or prior Year year-to date or same period last year there's there's these different uh 12 different um column definition"
+- [6:58](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=418s) "you have three new reports for fixed assets and one new report for consolidation"
 - [12:10](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=730s) "for the second minor in this release we're going to provide three new demo datas sets one for financial reporting it will have three"
 
 ## Disclaimers in the video

@@ -1,0 +1,26 @@
+{
+  "video_id": "vpJg1BxIrs0",
+  "item_id": "video/yt-microsoft/vpJg1BxIrs0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim in the transcript.",
+    "The summary, key point 1 and the migration feature description say segments migrate through the cloud migration tool. The transcript only says segments migrate as dimensions (pointing to a separate setup video). The cloud migration tool is mentioned only for migrating the vendor.",
+    "The topic 'posting groups' is not discussed in the transcript, and topics cannot be edited here.",
+    "The transcript says nothing about preview or GA status, so all features correctly stay 'unclear'."
+  ],
+  "input_hash": "959553cac7d5a9ed71774f8566033ccb617a5718dde57ec16fccbfbf8a9a2a4f",
+  "by": "opus",
+  "at": "2026-10-07T23:06:21.430Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056157
+  }
+}

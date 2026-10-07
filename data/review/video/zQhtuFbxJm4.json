@@ -1,0 +1,23 @@
+{
+  "video_id": "zQhtuFbxJm4",
+  "item_id": "video/yt-microsoft/zQhtuFbxJm4",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim. The t=118.6 quote runs on into the t=138.6 segment, which is acceptable.",
+    "Leaving every feature status as unclear is right, because the transcript never says whether a feature is preview or GA.",
+    "The Excel key point says 'export'. The transcript says 'edit in Excel' and then publish back. This is a minor paraphrase that keeps the meaning, so it is acceptable.",
+    "The summary and key points match the transcript, including the comparison with GP and the posting step."
+  ],
+  "input_hash": "8221b966b07cc5745c22e58b14786f457826420f30fa6bac604250037dfd7025",
+  "by": "opus",
+  "at": "2026-10-07T23:06:21.039Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041221
+  }
+}

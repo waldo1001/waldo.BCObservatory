@@ -2,7 +2,7 @@
 id: video/vpJg1BxIrs0
 type: video
 title: Comparing Segment and Dimension Transaction and Reporting between Dynamics GP and Business Central
-summary: "Dynamics GP segments map to Business Central dimensions: GP segments migrate through the cloud migration tool, default dimensions are set on vendors, purchase invoices are previewed and posted, and results are checked in the trial balance dimension report."
+summary: Compares Dynamics GP segment posting with Business Central dimensions. GP segments migrate to Business Central as dimensions. A default division dimension set on a vendor (migrated with the cloud migration tool) defaults onto purchase journal invoices. The posting can be previewed before posting, and the results can be analyzed by division in the trial balance dimension report.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - posting groups
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:21.430Z"
   flags: []
 generated:
-  at: "2026-10-06T19:24:51.102Z"
+  at: "2026-10-07T23:06:21.475Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,9 +145,9 @@ quotes:
 
 # Comparing Segment and Dimension Transaction and Reporting between Dynamics GP and Business Central
 
-> Dynamics GP segments map to Business Central dimensions: GP segments migrate through the cloud migration tool, default dimensions are set on vendors, purchase invoices are previewed and posted, and results are checked in the trial balance dimension report.
+> Compares Dynamics GP segment posting with Business Central dimensions. GP segments migrate to Business Central as dimensions. A default division dimension set on a vendor (migrated with the cloud migration tool) defaults onto purchase journal invoices. The posting can be previewed before posting, and the results can be analyzed by division in the trial balance dimension report.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vpJg1BxIrs0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vpJg1BxIrs0) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -157,11 +157,11 @@ The demo uses a vendor migrated from GP with the cloud migration tool. A default
 
 ## Key points
 
-- Segments defined in GP migrate to Business Central as dimensions through the cloud migration tool.
+- Segments defined in GP migrate to Business Central as dimensions, so transactions can still be categorized.
 - Default dimensions can be assigned to a vendor and default onto purchase transactions for that vendor.
-- Setting the dimension value posting to code mandatory enforces that a dimension value exists on transactions for that entity. Without it, the dimension is used for defaulting only.
+- Setting the dimension value posting to code mandatory enforces that a dimension value exists on transactions for that vendor. Without it, the dimension is used for defaulting only.
 - Posting preview before posting a journal lets you verify accounts and dimension values, similar to the distributions button in GP.
-- The trial balance dimension report shows amounts posted to main accounts and can be analyzed by dimensions such as division, similar to GP segment reporting.
+- The trial balance dimension report shows amounts posted to main accounts, similar to GP, and lets you analyze transactions by dimensions such as division.
 
 ## Chapters
 
@@ -175,13 +175,13 @@ The demo uses a vendor migrated from GP with the cloud migration tool. A default
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Default dimensions on vendors | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=80s) |  |
-| Dimension value posting code settings | status not stated | [1:53](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=113s) |  |
-| Dimension value migration from GP | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=60s) |  |
-| Posting preview in purchase journal | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=159s) |  |
-| Trial balance dimension report | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=189s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Default dimensions on vendors | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=80s) |
+| Dimension value posting code settings | status not stated | [1:53](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=113s) |
+| Dimension value migration from GP | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=60s) |
+| Posting preview in purchase journal | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=159s) |
+| Trial balance dimension report | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=vpJg1BxIrs0&t=189s) |
 
 ## Quotes
 

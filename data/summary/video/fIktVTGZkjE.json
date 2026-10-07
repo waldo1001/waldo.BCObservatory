@@ -5,11 +5,11 @@
   "overview": "A short 2024 video from the Business Central channel that walks through how a posted journal entry is corrected in Dynamics GP and how the same task is done in Business Central. It is aimed at people moving from GP to Business Central.\n\nIn GP, the Correct button in the general journal window offers two options: back out the journal entry, or back out and create a correcting entry. In Business Central, the entry is reversed from the general ledger entries window, which reverses the debits and credits of the original. For an incorrect dimension value, the Correct Dimension function fixes the value without reversing the whole transaction.",
   "key_points": [
     "In GP, the Correct button in the general journal window offers two options: back out the journal entry, or back out and create a correcting entry.",
-    "In Business Central, a posted journal entry is reversed by selecting the reverse option in the general ledger entries window.",
-    "Reversing in Business Central automatically reverses the debits and credits of the original entry.",
-    "A wrong dimension value can be fixed with Correct Dimension, without reversing the whole transaction.",
-    "With Correct Dimension you select the correct dimension option and enter the correct dimension value code.",
-    "The video says you can either reverse the transaction or use Correct Dimension to fix a dimension value."
+    "In GP, you select the original journal entry year and number, and the system pulls in the accounts and amounts with debits and credits reversed before posting.",
+    "In Business Central, a posted journal entry is reversed from the general ledger entries window by searching for the entry and selecting to reverse the transaction.",
+    "Business Central defaults in the journal entry information, and the completed reversal reverses the amounts posted in the original journal entry.",
+    "A wrong dimension value can be fixed with Correct Dimension instead of reversing the transaction: select the correct value in the new dimension value code, optionally enter a description, and run the change dimension process.",
+    "After the change dimension process completes, refreshing the window shows the correct dimension value on the journal entry."
   ],
   "audience": [
     "functional consultant",

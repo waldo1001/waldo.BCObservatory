@@ -2,7 +2,7 @@
 id: video/CoQH7Z-leVE
 type: video
 title: E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)
-summary: "E-invoice matching with Copilot in Business Central: Copilot analyzes an electronic invoice, compares its lines with the purchase order, and flags small discrepancies within user-set tolerance levels. A one-minute demo from 2024-09-03 showing the flow through to a mapped invoice ready to apply."
+summary: "E-invoice matching with Copilot in Business Central: Copilot analyzes an incoming electronic invoice, compares its line items with the purchase order, flags slight discrepancies within tolerance levels the user controls, and identifies lines that may be split or grouped differently. After a quick review the invoice is mapped and ready to apply to the purchase order. Business Central then updates the vendor document number and date for processing."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - discrepancies
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:59.322Z"
   flags: []
 generated:
-  at: "2026-10-06T19:21:53.750Z"
+  at: "2026-10-07T23:05:59.365Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 43
     quote: after a quick review this invoice is successfully mapped and ready to apply to the purchase order
+  - kind: video
+    url: https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s
+    title: E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)
+    date: "2024-09-03T15:01:33.000Z"
+    commit: null
+    t: 43
+    quote: business Central updates the vendor document number and date so that it's ready for processing
 links:
   learn: []
   objects: []
@@ -123,13 +130,16 @@ quotes:
   - t: 43
     text: after a quick review this invoice is successfully mapped and ready to apply to the purchase order
     check: exact
+  - t: 43
+    text: business Central updates the vendor document number and date so that it's ready for processing
+    check: exact
 ---
 
 # E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)
 
-> E-invoice matching with Copilot in Business Central: Copilot analyzes an electronic invoice, compares its lines with the purchase order, and flags small discrepancies within user-set tolerance levels. A one-minute demo from 2024-09-03 showing the flow through to a mapped invoice ready to apply.
+> E-invoice matching with Copilot in Business Central: Copilot analyzes an incoming electronic invoice, compares its line items with the purchase order, flags slight discrepancies within tolerance levels the user controls, and identifies lines that may be split or grouped differently. After a quick review the invoice is mapped and ready to apply to the purchase order. Business Central then updates the vendor document number and date for processing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=CoQH7Z-leVE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=CoQH7Z-leVE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-09-03 · 1:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -139,13 +149,11 @@ It also identifies lines that may be split or grouped differently, which need ma
 
 ## Key points
 
-- Copilot analyzes an electronic invoice and compares its line items with the purchase order.
-- Electronic documents must be set up in the system before this works.
-- Copilot signals slight discrepancies that are within tolerance levels the user controls; these still need review.
-- Tolerance levels must be configured by users.
-- Lines that may be split or grouped differently are identified and need manual review.
-- After mapping, Business Central updates the vendor document number and date automatically.
-- The mapped invoice is then ready to apply to the purchase order.
+- Copilot analyzes an electronic invoice and compares its line items with the purchase order, even for invoices with dozens or hundreds of lines.
+- Copilot signals slight discrepancies that are within tolerance levels the user controls.
+- Copilot identifies line items that may be split or grouped differently.
+- After a quick review, the invoice is mapped and ready to apply to the purchase order.
+- Business Central updates the vendor document number and date so the invoice is ready for processing.
 
 ## Chapters
 
@@ -155,11 +163,11 @@ It also identifies lines that may be split or grouped differently, which need ma
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| E-invoice Matching with Copilot | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=2s) |  |
-| Discrepancy Detection and Tolerance Levels | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) |  |
-| Vendor Document Updates | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) |  |
+| Feature | Status | At |
+|---|---|---|
+| E-invoice Matching with Copilot | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=2s) |
+| Discrepancy Detection and Tolerance Levels | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) |
+| Vendor Document Updates | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) |
 
 ## Quotes
 
@@ -168,3 +176,4 @@ It also identifies lines that may be split or grouped differently, which need ma
 - [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) "co-pilot also signals slight discrepancies that are within the tolerance levels that you control"
 - [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) "even if you're dealing with dozens or perhaps hundreds of lines co-pilot also signals slight discrepancies"
 - [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) "after a quick review this invoice is successfully mapped and ready to apply to the purchase order"
+- [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) "business Central updates the vendor document number and date so that it's ready for processing"

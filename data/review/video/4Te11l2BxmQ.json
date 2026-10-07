@@ -1,0 +1,27 @@
+{
+  "video_id": "4Te11l2BxmQ",
+  "item_id": "video/yt-microsoft/4Te11l2BxmQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim and placed at the right segments.",
+    "Feature statuses are correctly 'unclear'. The transcript never says whether the feature is in preview or generally available.",
+    "Feature descriptions repeat the caption phrase 'Power AI', which is probably a captioning error. Left as is because it matches the transcript.",
+    "The last key point was filler and has been replaced with the bank statement import step, which the page was missing.",
+    "Added a quote for the import step."
+  ],
+  "input_hash": "afb5a836226afaf0a3b39feff27f446cf3894afe7dca5e6ce75a929be1867a9c",
+  "by": "opus",
+  "at": "2026-10-07T23:06:07.231Z",
+  "applied": [
+    "quote at 4s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037733
+  }
+}

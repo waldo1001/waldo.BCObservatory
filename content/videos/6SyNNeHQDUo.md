@@ -17,12 +17,12 @@ tags:
   - platform extensibility
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:45.633Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:45.667Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -49,7 +49,7 @@ evidence:
     date: "2024-10-08T15:00:09.000Z"
     commit: null
     t: 240
-    quote: of these contributions have actually been added by just four community members
+    quote: more than 60 of of these contributions have actually been added by just four community members
   - kind: video
     url: https://www.youtube.com/watch?v=6SyNNeHQDUo&t=568s
     title: "What's New: Co-Development Initiative (2024 release wave 2)"
@@ -154,8 +154,8 @@ quotes:
     text: 2 we have shipped no less than 156 community contributions
     check: fuzzy
   - t: 240
-    text: of these contributions have actually been added by just four community members
-    check: fuzzy
+    text: more than 60 of of these contributions have actually been added by just four community members
+    check: exact
   - t: 568
     text: what used to take you know forever to set up can now be done in the glimpse of an eye
     check: exact
@@ -171,7 +171,7 @@ quotes:
 
 > Business Central co-development initiative in 2024 release wave 2: 156 community contributions shipped. Five demos cover Manual Setup page cleanup, a duplicate external document notification, default GL account quantities, Copilot-assisted number series setup, and a ship-to phone number field.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6SyNNeHQDUo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 13:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6SyNNeHQDUo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 13:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,7 +182,7 @@ Five contributions are demoed: a reorganized Manual Setup page, a notification f
 ## Key points
 
 - Co-development is the BC team's ambition to jointly develop the BC application with the partner community.
-- 156 community contributions shipped in 2024 release wave 2; a few of them came from just four community members.
+- 156 community contributions shipped in 2024 release wave 2, a record; more than 60 of them came from just four community members.
 - The Manual Setup page is reorganized and grouped to reduce clutter and make setup options easier to find.
 - A notification warns when a sales invoice is entered with an external document number that was already used.
 - Sales Setup has a new setting for default quantities on GL accounts; the quantity fills in when a GL account is selected on a sales invoice.
@@ -203,13 +203,13 @@ Five contributions are demoed: a reorganized Manual Setup page, a notification f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Manual Setup Page Improvements | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=320s) |  |
-| Duplicate External Documents Notification | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=360s) |  |
-| Default Quantities for GL Accounts | status not stated, demoed | [7:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=420s) |  |
-| Copilot-Assisted Number Series Setup | status not stated, demoed | [8:08](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=488s) |  |
-| Phone Number for Custom Ship to Address | status not stated, demoed | [9:48](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=588s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Manual Setup Page Improvements | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=320s) |
+| Duplicate External Documents Notification | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=360s) |
+| Default Quantities for GL Accounts | status not stated, demoed | [7:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=420s) |
+| Copilot-Assisted Number Series Setup | status not stated, demoed | [8:08](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=488s) |
+| Phone Number for Custom Ship to Address | status not stated, demoed | [9:48](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=588s) |
 
 ## AL objects mentioned
 
@@ -229,7 +229,7 @@ Not found in BC28-30: page "Manual Setup Page", page "Sales Invoices", page "Sal
 
 - [0:21](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=21s) "C-development is the business Central team's ambition to jointly develop the BC business application together with the partner community"
 - [3:15](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=195s) "2 we have shipped no less than 156 community contributions"
-- [4:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=240s) "of these contributions have actually been added by just four community members"
+- [4:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=240s) "more than 60 of of these contributions have actually been added by just four community members"
 - [9:28](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=568s) "what used to take you know forever to set up can now be done in the glimpse of an eye"
 - [10:25](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=625s) "in order to add this one field 783 objects had to be modified"
 - [12:07](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=727s) "hasn't been easy you know having to respect microsoft's responsible ai principles"

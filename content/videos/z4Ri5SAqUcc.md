@@ -15,12 +15,12 @@ tags:
   - suggest vendor payments
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:12.688Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:12.727Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,6 +69,13 @@ evidence:
     commit: null
     t: 174
     quote: I'm now going to select the option to use vendor priority I'm also going to type in that we want to pay 20,000 towards
+  - kind: video
+    url: https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=198s
+    title: Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)
+    date: "2024-08-26T13:50:16.000Z"
+    commit: null
+    t: 198
+    quote: the system has reduced the number of payments to only our Priority One vendors through the use of vendor priority
 links:
   learn: []
   objects: []
@@ -150,13 +157,16 @@ quotes:
   - t: 174
     text: I'm now going to select the option to use vendor priority I'm also going to type in that we want to pay 20,000 towards
     check: exact
+  - t: 198
+    text: the system has reduced the number of payments to only our Priority One vendors through the use of vendor priority
+    check: exact
 ---
 
 # Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)
 
 > Comparison of paying vendors in Dynamics GP and Business Central, using payment journals and Suggest Vendor Payments. Shows saved defaults, last payment date, payment discounts, summarize per vendor, and vendor priority to limit a payment run when cash is constrained.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=z4Ri5SAqUcc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=z4Ri5SAqUcc) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 3:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,9 +180,9 @@ The demo covers the suggest vendor payments criteria, such as the last payment d
 - Suggest Vendor Payments lets you select previously saved defaults, so criteria are not re-entered each time.
 - The last payment date criterion pays invoices due on or before that date, and available payment discounts can be included.
 - The summarize per vendor option consolidates multiple invoices into one payment per vendor instead of one payment per invoice.
-- Vendor priority is set under the Payments area on the vendor card; a lower number means a higher priority.
+- Vendor priority is shown under the Payments area on the vendor card; a lower number means a higher priority.
 - To limit a run to an amount of cash (the demo uses 20,000), select the option to use vendor priority and enter the amount; high-priority vendors are paid first.
-- Vendor priority requires configuration on individual vendor cards.
+- In the demo, using vendor priority reduced the suggested payments to only Priority One vendors.
 
 ## Chapters
 
@@ -184,13 +194,13 @@ The demo covers the suggest vendor payments criteria, such as the last payment d
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Payment Journals | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=44s) |  |
-| Suggest Vendor Payments | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=65s) |  |
-| Vendor Priority | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=140s) |  |
-| Payment Discount Application | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=85s) |  |
-| Summarize Per Vendor Option | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=174s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Payment Journals | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=44s) |
+| Suggest Vendor Payments | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=65s) |
+| Vendor Priority | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=140s) |
+| Payment Discount Application | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=85s) |
+| Summarize Per Vendor Option | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=174s) |
 
 ## AL objects mentioned
 
@@ -209,3 +219,4 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:00](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=120s) "this payment run will come to about $440,000 by using the vendor priority functionality in business Central the suggest payments will ensure that we're"
 - [2:24](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=144s) "in the vendor card I can go under the payments area and see the priority the lower the number the higher the priority"
 - [2:54](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=174s) "I'm now going to select the option to use vendor priority I'm also going to type in that we want to pay 20,000 towards"
+- [3:18](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=198s) "the system has reduced the number of payments to only our Priority One vendors through the use of vendor priority"

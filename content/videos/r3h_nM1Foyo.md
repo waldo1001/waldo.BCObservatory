@@ -16,12 +16,12 @@ tags:
   - migration
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:30.836Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:30.874Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,7 +142,7 @@ quotes:
 
 > Comparison of entering a payables transaction in Dynamics GP versus Business Central, using the purchase journal and purchase invoices to register purchase costs and track accounts payable. Useful for GP users moving to Business Central.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=r3h_nM1Foyo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=r3h_nM1Foyo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-08-26 · 2:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,12 +170,12 @@ The purchase journal is used to register expenses for items not tracked in inven
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Purchase Journal for Payables | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=30s) |  |
-| Purchase Invoice for Multi-type Transactions | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=93s) |  |
-| GL Posting Preview | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=72s) |  |
-| Vendor Information Auto-population | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=112s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Purchase Journal for Payables | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=30s) |
+| Purchase Invoice for Multi-type Transactions | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=93s) |
+| GL Posting Preview | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=72s) |
+| Vendor Information Auto-population | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=112s) |
 
 ## AL objects mentioned
 

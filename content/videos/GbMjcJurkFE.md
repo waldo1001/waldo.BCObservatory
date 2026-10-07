@@ -17,12 +17,12 @@ tags:
   - language support
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:27.197Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:27.254Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,28 +42,28 @@ evidence:
     date: "2024-10-08T15:00:25.000Z"
     commit: null
     t: 6
-    quote: in preview in 2024 release Wave 2
+    quote: analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2
   - kind: video
     url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s
     title: "Analysis tab history and adjustments: preview"
     date: "2024-10-08T15:00:25.000Z"
     commit: null
     t: 6
-    quote: in preview in 2024 release wave 2 in this wave we've listened to customer feedback and we've made things more reliable more powerful
+    quote: analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2
   - kind: video
     url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s
     title: "Prompt guides: preview"
     date: "2024-10-08T15:00:25.000Z"
     commit: null
     t: 6
-    quote: in preview in 2024 release Wave 2
+    quote: analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2
   - kind: video
     url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s
     title: "Analysis from chat pane: preview"
     date: "2024-10-08T15:00:25.000Z"
     commit: null
     t: 6
-    quote: in preview in 2024 release Wave 2
+    quote: analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2
   - kind: video
     url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s
     title: "What's New: Analysis Assist with Copilot  (2024 release wave 2)"
@@ -92,6 +92,13 @@ evidence:
     commit: null
     t: 164
     quote: copilot can only help with fields that are here directly shown inside the list or fields that are shown in this pane on the
+  - kind: video
+    url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=240s
+    title: "What's New: Analysis Assist with Copilot  (2024 release wave 2)"
+    date: "2024-10-08T15:00:25.000Z"
+    commit: null
+    t: 240
+    quote: those manual adjustments are now added to the history here in the prompt dialogue
   - kind: video
     url: https://www.youtube.com/watch?v=GbMjcJurkFE&t=360s
     title: "What's New: Analysis Assist with Copilot  (2024 release wave 2)"
@@ -197,6 +204,9 @@ quotes:
   - t: 164
     text: copilot can only help with fields that are here directly shown inside the list or fields that are shown in this pane on the
     check: exact
+  - t: 240
+    text: those manual adjustments are now added to the history here in the prompt dialogue
+    check: exact
   - t: 360
     text: we have tested and verified analysis assist in 20 languages now so you can express yourself as you see fit
     check: exact
@@ -209,7 +219,7 @@ quotes:
 
 > Analysis Assist with Copilot in Business Central, in preview in 2024 release wave 2: four tips for asking questions on list pages, reviewing generated analysis tabs, using prompt guides and starting from the chat pane. Covers the wave 2 history of manual adjustments and testing in 20 languages.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GbMjcJurkFE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 8:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GbMjcJurkFE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 8:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -219,12 +229,12 @@ The demo covers choosing the right list, asking a first question, and how Copilo
 
 ## Key points
 
-- Analysis Assist is in preview in 2024 release wave 2. Results may vary with input and context, and it may not perform as intended.
-- Start from the list that holds the data you want, for example the customer list for customer insights, and use the Copilot toolbar or menu to ask questions.
+- Analysis Assist is in preview in 2024 release wave 2. Microsoft says it is more reliable, more powerful and more flexible in this wave, based on customer feedback.
+- Start from the list that holds the data you want, for example the customer list for customer insights, and use the Copilot toolbar or menu to ask questions. Ctrl+Enter sends the prompt.
 - Copilot can only use fields shown on the list page or in the right pane, including hidden fields available in list personalization. In the demo it added country and region code to a customer analysis even though that field was not on the list.
-- New in wave 2: manual adjustments to an analysis tab are tracked in the prompt history, so you can move between versions and see which tab you prefer.
+- New in wave 2: manual adjustments to an analysis tab are tracked in the prompt history, so you can move between versions and see which tab you prefer before choosing Keep it.
 - Keep prompts simple. The prompt guides menu suggests prompts for freezing columns, sorting, filtering, grouping, math functions and pivoting.
-- Analysis Assist has been tested and verified in 20 languages. Other languages may not perform as intended.
+- Analysis Assist has been tested and verified in 20 languages. Other languages can still be used, but may not perform as intended and results may vary.
 - You can ask an analysis-type question in the Copilot chat pane. Copilot detects it, goes to the appropriate list and generates analysis tabs.
 
 ## Chapters
@@ -245,11 +255,11 @@ The demo covers choosing the right list, asking a first question, and how Copilo
 |---|---|---|---|
 | Analysis Assist | preview, demoed | [0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s) | "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
 | Copilot toolbar and menu | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=GbMjcJurkFE&t=26s) |  |
-| Field personalization through Analysis Assist | preview, demoed | [1:43](https://www.youtube.com/watch?v=GbMjcJurkFE&t=103s) | "in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
-| Analysis tab history and adjustments | preview, demoed | [4:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=240s) | "in preview in 2024 release wave 2 in this wave we've listened to customer feedback and we've made things more reliable more powerful" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
-| Prompt guides | preview, demoed | [5:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=300s) | "in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
+| Field personalization through Analysis Assist | preview, demoed | [1:43](https://www.youtube.com/watch?v=GbMjcJurkFE&t=103s) | "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
+| Analysis tab history and adjustments | preview, demoed | [4:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=240s) | "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
+| Prompt guides | preview, demoed | [5:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=300s) | "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
 | 20 supported languages for Analysis Assist | status not stated | [6:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=360s) |  |
-| Analysis from chat pane | preview, demoed | [6:41](https://www.youtube.com/watch?v=GbMjcJurkFE&t=401s) | "in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
+| Analysis from chat pane | preview, demoed | [6:41](https://www.youtube.com/watch?v=GbMjcJurkFE&t=401s) | "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2" ([0:06](https://www.youtube.com/watch?v=GbMjcJurkFE&t=6s)) |
 
 ## AL objects mentioned
 
@@ -266,6 +276,7 @@ Not found in BC28-30: table "customer list", table "item list".
 - [0:26](https://www.youtube.com/watch?v=GbMjcJurkFE&t=26s) "if you're interested in insides for example about your customers you'd go to the customer list here you can use the co-pilot toolbar or"
 - [1:43](https://www.youtube.com/watch?v=GbMjcJurkFE&t=103s) "the country and region code are actually not on my uh my customer list uh so what happened here how did these hidden Fields"
 - [2:44](https://www.youtube.com/watch?v=GbMjcJurkFE&t=164s) "copilot can only help with fields that are here directly shown inside the list or fields that are shown in this pane on the"
+- [4:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=240s) "those manual adjustments are now added to the history here in the prompt dialogue"
 - [6:00](https://www.youtube.com/watch?v=GbMjcJurkFE&t=360s) "we have tested and verified analysis assist in 20 languages now so you can express yourself as you see fit"
 - [7:15](https://www.youtube.com/watch?v=GbMjcJurkFE&t=435s) "copilot just knows that certain questions are best answered or best expressed as an analysis tab so so it'll detect that it's that kind"
 

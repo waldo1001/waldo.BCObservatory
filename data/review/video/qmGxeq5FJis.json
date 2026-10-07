@@ -1,0 +1,27 @@
+{
+  "video_id": "qmGxeq5FJis",
+  "item_id": "video/yt-microsoft/qmGxeq5FJis",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim in the transcript.",
+    "The key point saying the email paste and natural language description were 'demonstrated' is not supported. The narration describes the scenarios but never shows a demo, so I removed it.",
+    "The summary called the video a 'demo' and said Copilot 'creates' sales lines. The transcript says Copilot suggests line items and the user selects and finalizes them, so I rewrote the summary.",
+    "Added a key point for the select, finalize and done step.",
+    "Feature statuses stay unclear because the transcript does not say whether any feature is preview or generally available."
+  ],
+  "input_hash": "a062cc0855c370114d487fa96c2f2c176b6a72755ea93721bbc5e5b3bbb307da",
+  "by": "opus",
+  "at": "2026-10-07T23:05:56.728Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037488999999999995
+  }
+}

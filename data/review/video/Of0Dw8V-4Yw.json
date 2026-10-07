@@ -1,0 +1,26 @@
+{
+  "video_id": "Of0Dw8V-4Yw",
+  "item_id": "video/yt-microsoft/Of0Dw8V-4Yw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All quotes verified verbatim against the transcript.",
+    "Feature statuses are correctly unclear; transcript gives no preview or GA statement.",
+    "Key points labeled the BC report 'Summary Trial Balance'; transcript says BC lists it as 'trial balance', similar to GP's summary trial balance. Clarified.",
+    "Added export to PDF and Word alongside Excel, and the search terms used to find the reports.",
+    "Publication date in the summary comes from metadata, not the transcript; harmless, kept."
+  ],
+  "input_hash": "0b22f34d805420f1d19e28a26618026f97d8f895e73f891e7df0cfa79086d01a",
+  "by": "opus",
+  "at": "2026-10-07T23:06:38.604Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058177000000000006
+  }
+}

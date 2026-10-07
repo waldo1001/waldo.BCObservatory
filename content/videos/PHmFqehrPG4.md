@@ -16,32 +16,18 @@ tags:
   - codeunit
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:27.274Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:27.326Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 23e57657a52fe57cc510c59fea29a5e56dee34b19c3561fd6701618c98af452c
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=PHmFqehrPG4&t=638s
-    title: "Type Checking with Is Operator for Interfaces: generally available"
-    date: "2024-10-08T15:00:24.000Z"
-    commit: null
-    t: 638
-    quote: if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider
-  - kind: video
-    url: https://www.youtube.com/watch?v=PHmFqehrPG4&t=659s
-    title: "Interface Casting with As Operator: generally available"
-    date: "2024-10-08T15:00:24.000Z"
-    commit: null
-    t: 659
-    quote: we can cast it using the s expression which is also new so we can say if provider is i express shipping provider
   - kind: video
     url: https://www.youtube.com/watch?v=PHmFqehrPG4&t=20s
     title: "What's New: AL - Interfaces (2024 release wave 2)"
@@ -84,6 +70,13 @@ evidence:
     commit: null
     t: 708
     quote: we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of
+  - kind: video
+    url: https://www.youtube.com/watch?v=PHmFqehrPG4&t=774s
+    title: "What's New: AL - Interfaces (2024 release wave 2)"
+    date: "2024-10-08T15:00:24.000Z"
+    commit: null
+    t: 774
+    quote: cannot be cast to the right side you will get an error and this is why you should in most cases check first
 links:
   learn: []
   objects: []
@@ -130,14 +123,14 @@ features:
     verified: false
     status_source: video
   - name: Type Checking with Is Operator for Interfaces
-    status: ga
+    status: unclear
     t: 602
-    verified: true
+    verified: false
     status_source: video
   - name: Interface Casting with As Operator
-    status: ga
+    status: unclear
     t: 659
-    verified: true
+    verified: false
     status_source: video
   - name: Unknown Interface Type
     status: unclear
@@ -170,13 +163,16 @@ quotes:
   - t: 708
     text: we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of
     check: exact
+  - t: 774
+    text: cannot be cast to the right side you will get an error and this is why you should in most cases check first
+    check: exact
 ---
 
 # What's New: AL - Interfaces (2024 release wave 2)
 
 > AL interface extension in the 2024 release wave 2: how to extend an existing interface without breaking existing implementations, and how to use the new is and as operators for type checking and casting. Shown with a shipping cost calculator sample app using a provider model.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=PHmFqehrPG4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=PHmFqehrPG4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,12 +203,12 @@ The video builds on a shipping cost calculator sample app made of an interface, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Interface Extension | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=PHmFqehrPG4&t=456s) |  |
-| Type Checking with Is Operator for Interfaces | generally available, demoed | [10:02](https://www.youtube.com/watch?v=PHmFqehrPG4&t=602s) | "if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider" ([10:38](https://www.youtube.com/watch?v=PHmFqehrPG4&t=638s)) |
-| Interface Casting with As Operator | generally available, demoed | [10:59](https://www.youtube.com/watch?v=PHmFqehrPG4&t=659s) | "we can cast it using the s expression which is also new so we can say if provider is i express shipping provider" ([10:59](https://www.youtube.com/watch?v=PHmFqehrPG4&t=659s)) |
-| Unknown Interface Type | status not stated | [11:32](https://www.youtube.com/watch?v=PHmFqehrPG4&t=692s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Interface Extension | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=PHmFqehrPG4&t=456s) |
+| Type Checking with Is Operator for Interfaces | status not stated, demoed | [10:02](https://www.youtube.com/watch?v=PHmFqehrPG4&t=602s) |
+| Interface Casting with As Operator | status not stated, demoed | [10:59](https://www.youtube.com/watch?v=PHmFqehrPG4&t=659s) |
+| Unknown Interface Type | status not stated | [11:32](https://www.youtube.com/watch?v=PHmFqehrPG4&t=692s) |
 
 ## AL objects mentioned
 
@@ -235,5 +231,6 @@ Not found in BC28-30: interface "I shipping provider", enum "shipping vendor", c
 - [8:16](https://www.youtube.com/watch?v=PHmFqehrPG4&t=496s) "this is one of the new features extending interfaces syntax is you have the normal interface declaration and then you add extend and then"
 - [10:38](https://www.youtube.com/watch?v=PHmFqehrPG4&t=638s) "if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider"
 - [11:48](https://www.youtube.com/watch?v=PHmFqehrPG4&t=708s) "we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of"
+- [12:54](https://www.youtube.com/watch?v=PHmFqehrPG4&t=774s) "cannot be cast to the right side you will get an error and this is why you should in most cases check first"
 
 Presenters (as heard): Esp new Christopherson.

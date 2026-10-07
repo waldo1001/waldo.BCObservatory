@@ -17,12 +17,12 @@ tags:
   - activity duration threshold
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:06:05.447Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:06:05.487Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,7 +182,7 @@ quotes:
 
 > Scheduled profiles in Business Central (2024 release wave 2) capture performance profiles automatically in the background based on rules, including for web service calls. The video demos setting up a profile schedule and analyzing the captured results, and contrasts this with the interactive in-client profiler.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=0qt0Zy9ZsRo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 11:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=0qt0Zy9ZsRo) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 11:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -195,9 +195,9 @@ The demo covers opening the Profile Schedules page, creating a schedule, perform
 - The in-client profiler is interactive only: it cannot profile web service calls or background sessions like job queues, and needs the user to help capture the profile.
 - Scheduled profiles capture performance profiles automatically in the background based on defined rules, and support both user actions and web service calls.
 - A profile schedule sets: enable/disable, start and end times, user selection, profile type (browser activity or background tasks), sampling frequency, activity duration threshold, and retention period.
-- Set the activity duration threshold appropriately, since it determines how slow an activity must be before profiling starts and a poor value can cause excessive profiling.
-- Captured profiles are kept for a configurable retention period before deletion.
-- The Performance Profiles page lists all captured profiles and can be filtered by schedule; the results view matches the in-client profiler, including call tree analysis.
+- The activity duration threshold defines how slow an activity must be before profiling starts; the demo lowered it to 100.
+- Captured profiles are saved on the service and kept for a configurable retention period before deletion.
+- The Performance Profiles page lists all captured profiles; opening profiles from a specific profile schedule filters them to that schedule. The results view matches the in-client profiler, including call tree analysis.
 - The video says the feature mainly targets consultants and support.
 
 ## Chapters
@@ -214,14 +214,14 @@ The demo covers opening the Profile Schedules page, creating a schedule, perform
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| In-Client Performance Profiler | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=5s) |  |
-| Scheduled Profiles | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=262s) |  |
-| Profile Schedule Configuration | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=363s) |  |
-| Performance Profiles Page | status not stated, demoed | [8:44](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=524s) |  |
-| Technical Information and Call Tree Analysis | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=140s) |  |
-| Opening Visual Studio Code from Web Client | status not stated | [11:03](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=663s) |  |
+| Feature | Status | At |
+|---|---|---|
+| In-Client Performance Profiler | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=5s) |
+| Scheduled Profiles | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=262s) |
+| Profile Schedule Configuration | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=363s) |
+| Performance Profiles Page | status not stated, demoed | [8:44](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=524s) |
+| Technical Information and Call Tree Analysis | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=140s) |
+| Opening Visual Studio Code from Web Client | status not stated | [11:03](https://www.youtube.com/watch?v=0qt0Zy9ZsRo&t=663s) |
 
 ## AL objects mentioned
 

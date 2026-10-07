@@ -1,0 +1,29 @@
+{
+  "video_id": "0qt0Zy9ZsRo",
+  "item_id": "video/yt-microsoft/0qt0Zy9ZsRo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word. Two of them run on into the next caption segment, which is allowed.",
+    "One key point said a poor activity duration threshold value causes excessive profiling. The transcript does not say this; it only defines the threshold as how slow things must be before profiling starts. I rewrote that key point.",
+    "The In-Client Performance Profiler was launched in 2022 release wave 1, and opening Visual Studio Code from the web client shipped a couple of releases ago. Both are stated as shipped, so I set them to ga with evidence quotes.",
+    "Scheduled profiles stays unclear: the video says 'this release introduces' them but never says preview or GA."
+  ],
+  "input_hash": "31fb3e2fd0cfb4f244faef6bda496d62ebc78c0cd647d03a32bf4682b795e1ab",
+  "by": "opus",
+  "at": "2026-10-07T23:06:05.447Z",
+  "applied": [
+    "Scheduled Profiles: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status In-Client Performance Profiler -> ga: evidence not verbatim or does not state the status",
+    "status Opening Visual Studio Code from Web Client -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.082669
+  }
+}

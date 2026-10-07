@@ -1,0 +1,28 @@
+{
+  "video_id": "6SyNNeHQDUo",
+  "item_id": "video/yt-microsoft/6SyNNeHQDUo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 2 says 'a few' contributions came from four members. The transcript says 'more than 60' of them did, so I corrected it.",
+    "Swapped the quote at 240.9 for a fuller verbatim span that keeps the 'more than 60' figure.",
+    "Added a key point about the 2024 Contribution Hero award going to Dimitri Katson for the Copilot number series feature.",
+    "All features stay 'unclear'. The transcript ties them to the 2024 wave 2 release but never says whether they are preview or GA.",
+    "The other quotes and the summary match the transcript."
+  ],
+  "input_hash": "17e5f653725e746709dd9834c24df651122c510e012b52105c71b07ebe3056ea",
+  "by": "opus",
+  "at": "2026-10-07T23:05:45.633Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 241s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086281
+  }
+}

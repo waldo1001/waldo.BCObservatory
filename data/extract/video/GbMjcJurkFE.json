@@ -113,7 +113,7 @@
       "description": "Copilot can automatically surface hidden fields from the list page personalization pane into analysis tabs, shortcutting the manual field addition process.",
       "status": "preview",
       "status_evidence_t": 6.6,
-      "status_evidence_quote": "in preview in 2024 release Wave 2",
+      "status_evidence_quote": "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2",
       "status_evidence_verified": true,
       "t_start": 103.4,
       "t_end": 143.7,
@@ -133,7 +133,7 @@
       "description": "New in Wave 2: manual adjustments made to analysis tabs are tracked in the prompt history, allowing users to navigate between versions and see which tab is preferred.",
       "status": "preview",
       "status_evidence_t": 6.6,
-      "status_evidence_quote": "in preview in 2024 release wave 2 in this wave we've listened to customer feedback and we've made things more reliable more powerful",
+      "status_evidence_quote": "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2",
       "status_evidence_verified": true,
       "t_start": 240.1,
       "t_end": 280.5,
@@ -152,7 +152,7 @@
       "description": "Built-in menu providing inspirational prompts and hints about what Analysis Assist can do, including freezing columns, sorting, filtering, grouping, math functions, and pivoting.",
       "status": "preview",
       "status_evidence_t": 6.6,
-      "status_evidence_quote": "in preview in 2024 release Wave 2",
+      "status_evidence_quote": "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2",
       "status_evidence_verified": true,
       "t_start": 300.6,
       "t_end": 340.6,
@@ -191,7 +191,7 @@
       "description": "Users can start analysis directly from the Copilot chat pane by asking questions. Copilot detects analysis-type questions and automatically navigates to the appropriate list and generates analysis tabs.",
       "status": "preview",
       "status_evidence_t": 6.6,
-      "status_evidence_quote": "in preview in 2024 release Wave 2",
+      "status_evidence_quote": "analysis assist is just one of many co-pilot capabilities and it's in preview in 2024 release Wave 2",
       "status_evidence_verified": true,
       "t_start": 401.2,
       "t_end": 474.4,
@@ -247,6 +247,12 @@
       "t": 164.2,
       "text": "copilot can only help with fields that are here directly shown inside the list or fields that are shown in this pane on the",
       "why_it_matters": "Sets a clear boundary on what Copilot can do, helping users understand when Analysis Assist cannot fulfill requests.",
+      "check": "exact"
+    },
+    {
+      "t": 240.1,
+      "text": "those manual adjustments are now added to the history here in the prompt dialogue",
+      "why_it_matters": "States the wave 2 change that manual tab edits are tracked in prompt history.",
       "check": "exact"
     },
     {
