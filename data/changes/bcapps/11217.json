@@ -1,0 +1,385 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11217,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11217",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T19:08:42Z",
+  "merge_commit_sha": "e15e3ca4aa37959ae7f00dacfde1128bf45b61d0",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 641591: EUDR Certificate Capture for Items",
+  "body_hash": "d7b6c748499753863a177399d62d8f893d85d90a2ed014eef3df37ecbf3f5408",
+  "fixes_issues": [],
+  "work_items": [
+    641591
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItem.TableExt.al",
+      "status": "modified",
+      "additions": 89,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemCard.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRCommodity.Enum.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotInfoTrackingMgmt.Codeunit.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotNoInformation.TableExt.al",
+      "status": "added",
+      "additions": 75,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotNoInformationCard.PageExt.al",
+      "status": "added",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRPostedPurchRcptLines.PageExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRPostedPurchRcptSub.PageExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRSalesInvoice.Report.al",
+      "status": "added",
+      "additions": 1918,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRSalesInvoice.rdlc",
+      "status": "added",
+      "additions": 8327,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityObjects.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchInvLine.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchOrderSubform.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchRcptLine.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustainabilityPurchLine.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesInvoiceLine.TableExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Sales/SustainabilitySalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/EUDRCertificateCaptureTest.Codeunit.al",
+      "status": "added",
+      "additions": 1102,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 20,
+    "additions": 11798,
+    "deletions": 1,
+    "al": 18
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItem.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6220",
+        "type": "tableextension",
+        "id": 6220,
+        "name": "Sust. Item",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6220"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6222",
+        "type": "pageextension",
+        "id": 6222,
+        "name": "Sust. Item Card",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6222"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRCommodity.Enum.al",
+        "status": "added",
+        "key": "enum/6234",
+        "type": "enum",
+        "id": 6234,
+        "name": "EUDR Commodity",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "enum/6234"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotInfoTrackingMgmt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6288",
+        "type": "codeunit",
+        "id": 6288,
+        "name": "EUDR Lot Info. Tracking Mgmt",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6288"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotNoInformation.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6288",
+        "type": "tableextension",
+        "id": 6288,
+        "name": "EUDR Lot No. Information",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6288"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRLotNoInformationCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6319",
+        "type": "pageextension",
+        "id": 6319,
+        "name": "EUDR Lot No. Information Card",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6319"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRPostedPurchRcptLines.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6323",
+        "type": "pageextension",
+        "id": 6323,
+        "name": "EUDR Posted Purch. Rcpt Lines",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6323"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRPostedPurchRcptSub.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6322",
+        "type": "pageextension",
+        "id": 6322,
+        "name": "EUDR Posted Purch. Rcpt Sub.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6322"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/EUDR/EUDRSalesInvoice.Report.al",
+        "status": "added",
+        "key": "report/6222",
+        "type": "report",
+        "id": 6222,
+        "name": "EUDR Sales Invoice",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "report/6222"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6210",
+        "type": "permissionset",
+        "id": 6210,
+        "name": "Sustainability - Objects",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "permissionset/6210"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchInvLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6214",
+        "type": "tableextension",
+        "id": 6214,
+        "name": "Sust. Purch. Inv. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6214"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchOrderSubform.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6211",
+        "type": "pageextension",
+        "id": 6211,
+        "name": "Sust. Purch. Order Subform",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6211"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchRcptLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6216",
+        "type": "tableextension",
+        "id": 6216,
+        "name": "Sust. Purch. Rcpt. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6216"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6225",
+        "type": "codeunit",
+        "id": 6225,
+        "name": "Sust. Purchase Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6225"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustainabilityPurchLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6211",
+        "type": "tableextension",
+        "id": 6211,
+        "name": "Sustainability Purch. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6211"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesInvoiceLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6239",
+        "type": "tableextension",
+        "id": 6239,
+        "name": "Sust. Sales Invoice Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6239"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Sales/SustSalesSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6253",
+        "type": "codeunit",
+        "id": 6253,
+        "name": "Sust. Sales Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6253"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Sales/SustainabilitySalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6235",
+        "type": "tableextension",
+        "id": 6235,
+        "name": "Sustainability Sales Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6235"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10828,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10828",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T17:11:09Z",
+  "merge_commit_sha": "6c76f74e0344d73d9e3de3a69cdd66120c177e09",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Avoid remote attachment checks during FactBox refresh",
+  "body_hash": "1b386cdedfa24bb82d146971a6c0f5a11eb26cac2bbf894f9efea61ce82ab192",
+  "fixes_issues": [
+    10824
+  ],
+  "work_items": [
+    648447
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseAttachmentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTest.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/Test/src/DAExtStorageImplTests.Codeunit.al",
+      "status": "modified",
+      "additions": 157,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/app/src/DocumentAttachmentIntegration/DAExternalStorageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/app/src/Telemetry/DAFeatureTelemetry.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/External File Storage/src/Mock/FileConnectorMock.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test Library/External File Storage/src/TestFileStorageConnector.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 301,
+    "deletions": 36,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseAttachmentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6989",
+        "type": "codeunit",
+        "id": 6989,
+        "name": "Expense Attachment Mgt.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6989"
+      },
+      {
+        "path": "src/Apps/W1/External Storage - Document Attachments/app/src/DocumentAttachmentIntegration/DAExternalStorageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8751",
+        "type": "codeunit",
+        "id": 8751,
+        "name": "DA External Storage Impl.",
+        "app": "External Storage - Document Attachments",
+        "cc": "w1",
+        "page": "codeunit/8751"
+      },
+      {
+        "path": "src/Apps/W1/External Storage - Document Attachments/app/src/Telemetry/DAFeatureTelemetry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8754",
+        "type": "codeunit",
+        "id": 8754,
+        "name": "DA Feature Telemetry",
+        "app": "External Storage - Document Attachments",
+        "cc": "w1",
+        "page": "codeunit/8754"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent",
+    "External Storage - Document Attachments"
+  ],
+  "issues": [
+    {
+      "number": 10824,
+      "title": "[Bug]: External SharePoint attachments make the document attachment FactBox block list navigation",
+      "state": "closed"
+    }
+  ]
+}

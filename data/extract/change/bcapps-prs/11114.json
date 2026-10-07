@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11114",
+  "number": 11114,
+  "title": "[Master][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachments.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "service"
+  ],
+  "summary": "Document Type is now correctly set to Invoice or Credit Memo when attachments are transferred to posted sales documents, fixing an issue where the type was incorrectly defaulting to Quote.",
+  "key_points": [
+    "Document attachments transferred to posted invoices now have Document Type set to Invoice instead of Quote",
+    "Document attachments transferred to posted credit memos now have Document Type set to Credit Memo",
+    "The fix applies to both header and line attachments",
+    "Both sales and service document attachment management were updated",
+    "Regression tests added to verify correct behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "service"
+  ],
+  "quote": "Set the Document Type according to the posted document table instead of clearing it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003473,
+    "changes_in_call": 1
+  }
+}

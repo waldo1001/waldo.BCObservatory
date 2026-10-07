@@ -6,10 +6,35 @@
   "title": "[MAIN][All-e]Source Currency Inconsistency for LCY Postings and cash posting on sales documents",
   "url": "https://github.com/microsoft/BCApps/pull/10969",
   "published_at": "2026-09-16T05:53:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:41.642Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:46.496Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004071
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:46.681Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:46.688Z",
+      "path": "content/changes/bcapps/10969.md"
     }
   },
   "input_hash": "15b24dfe0179d4b663b60503759f327654dd8e8e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e source currency inconsistency for lcy postings and cash posting on sales documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71a2102802e993b8e8b31e19a0d015d14432401505fd35bdb8a9c5d117922887"
 }

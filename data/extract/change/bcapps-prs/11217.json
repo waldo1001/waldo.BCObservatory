@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11217",
+  "number": 11217,
+  "title": "[Master] - Slice 641591: EUDR Certificate Capture for Items",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "EUDR certificate information can now be captured and tracked across items, lot information, and purchasing and sales documents, with the certificate propagated through purchase and sales transactions and displayed in the EUDR sales invoice report.",
+  "key_points": [
+    "Added certificate fields to item and lot information tables",
+    "Extended purchase and sales document flows to retain certificate data through transactions",
+    "Added EUDR commodity enum and tracking management codeunit",
+    "Exposed certificate on item cards, lot information cards, and posted purchase receipt pages",
+    "Included certificate in EUDR sales invoice report and updated permissions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "purchasing",
+    "sales"
+  ],
+  "quote": "Added EUDR certificate capture for items and lot information.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00468,
+    "changes_in_call": 1
+  }
+}

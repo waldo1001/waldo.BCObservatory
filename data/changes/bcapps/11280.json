@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11280,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11280",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-16T11:58:38Z",
+  "merge_commit_sha": "882f4fe99c84ee829bf41ce2a029ca80f99fb700",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 648949: Allow subcontracting direct transfers from warehouse locations",
+  "body_hash": "812ed680b852da1318384fd5db5cb27979e24a03b8d475f357c3d0073eb5e205",
+  "fixes_issues": [],
+  "work_items": [
+    648949
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcLocationHandlerTest.Codeunit.al",
+      "status": "modified",
+      "additions": 486,
+      "deletions": 41,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 489,
+    "deletions": 58,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+        "status": "modified",
+        "key": "report/20501",
+        "type": "report",
+        "id": 20501,
+        "name": "Subc. Create Transf. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

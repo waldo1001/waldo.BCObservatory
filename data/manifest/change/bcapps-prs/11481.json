@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 648681: [Expense Agent] Fix Expense Agent KPI report-line drill-down filter",
   "url": "https://github.com/microsoft/BCApps/pull/11481",
   "published_at": "2026-09-15T17:11:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:45.465Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:53.078Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003168
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:53.280Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:53.285Z",
+      "path": "content/changes/bcapps/11481.md"
     }
   },
   "input_hash": "90d71453f46ebff7813c51eca6646ae562a2c679:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 648681 expense agent fix expense agent kpi report line drill down filter"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e0b38f1f316f4e0b82decf8212015ae6039e25bc99d882f0405b841ed1ce661"
 }

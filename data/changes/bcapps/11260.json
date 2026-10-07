@@ -1,0 +1,2285 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11260,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11260",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-16T09:46:31Z",
+  "merge_commit_sha": "e60610752f56276cd399b8bc797daa37bd7a75f4",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote four legacy warning rules to Error",
+  "body_hash": "56681c8f5201f9bf0ce58d29ae2a119c769f8d3589de9d72df1f2248891b62ff",
+  "fixes_issues": [],
+  "work_items": [
+    640773,
+    649216
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CH/SwissQRBill/test/src/SwissQRBillXml.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Pages/ElecVATDeclOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Pages/ElectronicVATDeclSetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifList.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicisvelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365busfullaccesselstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365buspremiumelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365fullaccesselstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365readelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/d365teammemberelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Permissions/intelligentcloudelstervatlocalizationforgermany.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Reports/CreateXMLFileVATAdvNotif.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/Elster/app/src/Tables/SalesVATAdvanceNotif.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/BankStatementImportSunshine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/CashMgmtE2EScenarios.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/LibraryPaymentExportDK.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/PaymentExpMgtUnitTestDK.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/PaymentExportFormats.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/PaymentExportNegative.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/PaymentExportSunshine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/PmtExportFixedWidthUT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestBankImpBankRecLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestBankImpGenJnlLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestFIKImpPmtRecJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestMatchFIKBankPmtApp.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestMatchFIKGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DK/FIK/test/src/TestPmtExportValidationDKUT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/IN/INDataMigration/src/IndiaDataTransferStatistics.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INDataMigration/src/IndiaMigrationCompany.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INDataMigration/src/IndiaMigrationWorksheet.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/test/src/MXDIOTUT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365BasicExt.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365FullAccessExt.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLHistoricalQuerys.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICISVMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365TEAMMEMBERMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLINTELLIGENTCLOUDMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/LibraryMasterDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMTestTableA.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/MDMTestTableB.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BASICISVQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BASICQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BUSFULLACCESSQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BUSPREMIUMQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365FULLACCESSQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365READQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365TEAMMEMBERQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/INTELLIGENTCLOUDQuickBooksDataMigration.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Support/MSQBODataMigration.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/Support/MigrateQBOWizardIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/QBMigration/app/src/install/QBMigrationInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedChecks.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedChecksPurchases.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/AT/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AU/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateAccScheduleLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 193,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateAccScheduleName.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 32,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateServiceBaseCalendar.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 38,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/CreateServiceBaseCalendar.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 44,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 29,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM/SEPACTGenJnlLineErrors.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 93,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Misc/CountryRegionUT.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DACH/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DACH/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 39,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Local/Foundation/Address/PostcodeNotificationMemory.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Local/Sales/FinanceCharge/FinChargeInterestRate.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IS/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IS/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IS/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 128,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Finance/GeneralLedger/Reports/OfficialjournalledgerSumm.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Local/Purchases/Payables/RemittanceImportBank.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/AccSchedulesConversion.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/AnalysisConversion.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/CreateVATStatementLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 90,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/GLAccountsConversion.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NZ/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/CreateVATPurchLedAdSh.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 146,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/local.permissionset.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/localread.permissionset.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/AdjustInventoryValue.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateAccScheduleLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 211,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateAccScheduleName.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 32,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateFAAllocation.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateStdGenJournalLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateStdPurchaseLine.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 21,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/InterfaceTaxAccounting.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/ModifyCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 263,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/VAT/ERMVATonJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWBinContentRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWItemJournalLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWItemLedgerEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWItemRegisterRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWPInvtPickLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWPInvtPutawayLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWPostedWhseRcptLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWPostedWhseShpmtLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseActivityLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseJournalLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseReceiptLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseRequestRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWarehouseShipmentLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWWhseWorksheetLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/GLEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/ItemJournalLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/ItemLedgerEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/ItemRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/LedgerEntryDimRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/PurchaseHeaderRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/QASetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/RequiredInputData.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/SKURef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TempReferenceData.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestCase.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestIteration.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestscriptResult.Table.103001.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestscriptResult.Table.103403.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestscriptSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/UseCase.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/ValueEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSBinContentRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSItemJournalLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSItemLedgerEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSPostedWhseRcptLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSPostedWhseShptLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSProdOrderComponentRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSReservationEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSTrackingSpecificationRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWarehouseEntryRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWarehouseJournalLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWarehouseReceiptLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWhseActivityLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWhseShipmentLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSWhseWorksheetLineRef.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseQASetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseTempReferenceData.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseTestCase.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseTestIteration.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseTestscriptResult.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WhseUseCase.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicedit.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/CodeSort.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/DemoDataFile.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/DemoDataSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/DemoDataTables.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/DevSourceInfo.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/GLAccountMapBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/ItemLineBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/ItemSalesData.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/QuantityAllocationBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/TemporaryCurrencyData.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/CountyCaptionTest.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TableWithFieldCaption.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/ReferenceDataLog.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/Referencedata.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/Referencedatafieldlist.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/TestTableA.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/TestTableB.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/TestTableC.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/WatchEmployee.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/WatchEmployeeLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/DataSetup/BufferTables/UPGCRMConnectionSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/DataSetup/BufferTables/UPGIntegrationTableMapping.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/DataSetup/BufferTables/UPGUpgradeTag.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/Framework/UpgradeStatus.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 241,
+    "additions": 482,
+    "deletions": 1512,
+    "al": 59
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365BasicExt.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/42800",
+        "type": "permissionsetextension",
+        "id": 42800,
+        "name": "SL D365 Basic Ext.",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionsetextension/42800"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365FullAccessExt.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/42801",
+        "type": "permissionsetextension",
+        "id": 42801,
+        "name": "SL D365 Full Access Ext.",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionsetextension/42801"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLHistoricalQuerys.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/42801",
+        "type": "permissionset",
+        "id": 42801,
+        "name": "SL Historical Querys",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionset/42801"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICISVMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47002",
+        "type": "permissionsetextension",
+        "id": 47002,
+        "name": "SLD365 BASIC ISV - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47002"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47001",
+        "type": "permissionsetextension",
+        "id": 47001,
+        "name": "SLD365 BASIC - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47001"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365TEAMMEMBERMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47003",
+        "type": "permissionsetextension",
+        "id": 47003,
+        "name": "SLD365 TEAM MEMBER - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47003"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLINTELLIGENTCLOUDMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47000",
+        "type": "permissionsetextension",
+        "id": 47000,
+        "name": "SLINTELLIGENT CLOUD - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47000"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47004",
+        "type": "permissionset",
+        "id": 47004,
+        "name": "SL Migration - Edit",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47004"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47005",
+        "type": "permissionset",
+        "id": 47005,
+        "name": "SL Migration-Objects",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47005"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47006",
+        "type": "permissionset",
+        "id": 47006,
+        "name": "SL Migration - Read",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47006"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BASICISVQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/1632",
+        "type": "permissionsetextension",
+        "id": 1632,
+        "name": "D365 BASIC ISVQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/1632"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BASICQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/46049",
+        "type": "permissionsetextension",
+        "id": 46049,
+        "name": "D365 BASICQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/46049"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BUSFULLACCESSQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/3998",
+        "type": "permissionsetextension",
+        "id": 3998,
+        "name": "D365 BUS FULL ACCESSQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/3998"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365BUSPREMIUMQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/44603",
+        "type": "permissionsetextension",
+        "id": 44603,
+        "name": "D365 BUS PREMIUMQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/44603"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365FULLACCESSQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/26134",
+        "type": "permissionsetextension",
+        "id": 26134,
+        "name": "D365 FULL ACCESSQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/26134"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365READQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/20875",
+        "type": "permissionsetextension",
+        "id": 20875,
+        "name": "D365 READQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/20875"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/D365TEAMMEMBERQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/16491",
+        "type": "permissionsetextension",
+        "id": 16491,
+        "name": "D365 TEAM MEMBERQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/16491"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/INTELLIGENTCLOUDQuickBooksDataMigration.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/27224",
+        "type": "permissionsetextension",
+        "id": 27224,
+        "name": "INTELLIGENT CLOUDQuickBooks Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionsetextension/27224"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/27225",
+        "type": "permissionset",
+        "id": 27225,
+        "name": "QBMigration - Edit",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionset/27225"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/27226",
+        "type": "permissionset",
+        "id": 27226,
+        "name": "QBMigration - Objects",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionset/27226"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Permissions/QBMigrationRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/27227",
+        "type": "permissionset",
+        "id": 27227,
+        "name": "QBMigration - Read",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "permissionset/27227"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Support/MSQBODataMigration.Page.al",
+        "status": "modified",
+        "key": "page/1830",
+        "type": "page",
+        "id": 1830,
+        "name": "MS - QBO Data Migration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "page/1830"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/Support/MigrateQBOWizardIntegration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1830",
+        "type": "codeunit",
+        "id": 1830,
+        "name": "MigrateQBO Wizard Integration",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "codeunit/1830"
+      },
+      {
+        "path": "src/Apps/W1/QBMigration/app/src/install/QBMigrationInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1921",
+        "type": "codeunit",
+        "id": 1921,
+        "name": "QB Migration Install",
+        "app": "QBMigration",
+        "cc": "w1",
+        "page": "codeunit/1921"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedChecks.Page.al",
+        "status": "modified",
+        "key": "page/28090",
+        "type": "page",
+        "id": 28090,
+        "name": "Post Dated Checks",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/28090-au"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedChecksPurchases.Page.al",
+        "status": "modified",
+        "key": "page/28092",
+        "type": "page",
+        "id": 28092,
+        "name": "Post Dated Checks-Purchases",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/28092-au"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Local/Foundation/Address/PostcodeNotificationMemory.Table.al",
+        "status": "modified",
+        "key": "table/10501",
+        "type": "table",
+        "id": 10501,
+        "name": "Postcode Notification Memory",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/10501-gb"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Local/Sales/FinanceCharge/FinChargeInterestRate.Table.al",
+        "status": "modified",
+        "key": "table/10555",
+        "type": "table",
+        "id": 10555,
+        "name": "Fin. Charge Interest Rate",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/10555-gb"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Finance/GeneralLedger/Reports/OfficialjournalledgerSumm.Report.al",
+        "status": "modified",
+        "key": "report/14030",
+        "type": "report",
+        "id": 14030,
+        "name": "Official journal ledger Summ.",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/14030-ca"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Local/Purchases/Payables/RemittanceImportBank.Report.al",
+        "status": "modified",
+        "key": "report/15000062",
+        "type": "report",
+        "id": 15000062,
+        "name": "Remittance - Import (Bank)",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/15000062-no"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/CreateVATPurchLedAdSh.Report.al",
+        "status": "modified",
+        "key": "report/14962",
+        "type": "report",
+        "id": 14962,
+        "name": "Create VAT Purch. Led. Ad. Sh.",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/14962-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/local.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1001",
+        "type": "permissionset",
+        "id": 1001,
+        "name": "LOCAL",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "permissionset/1001"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/localread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1002",
+        "type": "permissionset",
+        "id": 1002,
+        "name": "LOCAL READ",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "permissionset/1002"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5117",
+        "type": "permissionset",
+        "id": 5117,
+        "name": "D365 AUTOMATION",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicedit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/208",
+        "type": "permissionset",
+        "id": 208,
+        "name": "D365 Basic - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/208"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/732",
+        "type": "permissionset",
+        "id": 732,
+        "name": "D365 BASIC ISV",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/732"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/209",
+        "type": "permissionset",
+        "id": 209,
+        "name": "D365 Basic - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/209"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/959",
+        "type": "permissionset",
+        "id": 959,
+        "name": "D365 BUS FULL ACCESS",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/959"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1044",
+        "type": "permissionset",
+        "id": 1044,
+        "name": "D365 READ",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7931",
+        "type": "permissionset",
+        "id": 7931,
+        "name": "D365 TEAM MEMBER",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6121",
+        "type": "permissionset",
+        "id": 6121,
+        "name": "INTELLIGENT CLOUD",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6121"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/ElecVATDeclOverview.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/ElectronicVATDeclSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Pages/SalesVATAdvNotifList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365basicisvelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365busfullaccesselstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365buspremiumelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365fullaccesselstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365readelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/d365teammemberelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Permissions/intelligentcloudelstervatlocalizationforgermany.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Reports/CreateXMLFileVATAdvNotif.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclBuffer.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/ElecVATDeclSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/Elster/app/src/Tables/SalesVATAdvanceNotif.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365busfullaccess.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "administration",
+    "finance",
+    "platform",
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application",
+    "DynamicsSLHistoricalData",
+    "HybridSL",
+    "QBMigration"
+  ]
+}

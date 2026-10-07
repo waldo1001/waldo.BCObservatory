@@ -6,10 +6,35 @@
   "title": "Code reviewer skill for recognizing and validating unauthenticated responses",
   "url": "https://github.com/microsoft/BCQuality/pull/187",
   "published_at": "2026-09-16T07:50:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:39.155Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:44.132Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003314
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:44.134Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:01:44.139Z",
+      "path": "content/changes/bcquality/187.md"
     }
   },
   "input_hash": "8ff2326b61ae667d9ba44471fcb3ba09364bd9b9:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "code reviewer skill for recognizing and validating unauthenticated responses"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4377dade62d9b44617e08df41cdf3e82898bb5d52e0ec177cb27d1944a462e76"
 }

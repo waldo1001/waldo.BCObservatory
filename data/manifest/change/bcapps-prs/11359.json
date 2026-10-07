@@ -6,10 +6,18 @@
   "title": "[Master] - Bug 648886: [Sustainability][Value Chain] Transfer Order uses average emissions instead of Specific carbon tracking (lot/serial)",
   "url": "https://github.com/microsoft/BCApps/pull/11359",
   "published_at": "2026-09-15T15:30:34Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:49.530Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "b6861a2327bddf153088a404df2e78ceec935b5e:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 648886 sustainability value chain transfer order uses average emissions instead of specific carbon tracking lot serial"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "497fd0e02be55c7ac1eee772636cef6a02ed4c834c4cedba0a8e53f359bdbdb6"
 }

@@ -6,7 +6,7 @@
   "title": "[main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.",
   "url": "https://github.com/microsoft/BCApps/pull/11324",
   "published_at": "2026-09-17T11:31:32Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003201
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:35.275Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:35.280Z",
+      "path": "content/changes/bcapps/11324.md"
     }
   },
   "input_hash": "f9274ccfc1a36724d05dfad2467b6a432fe160e3:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a60a70fb98c90dc025d6258819014954fedade184ee26278617b3a63527b5653"
+  "output_hash": "774f4256d51caf34ec183ecc13866c2a2ce56b59f41a1a274e9bd1f062bbddc7"
 }

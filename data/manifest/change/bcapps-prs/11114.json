@@ -6,10 +6,35 @@
   "title": "[Master][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachments.",
   "url": "https://github.com/microsoft/BCApps/pull/11114",
   "published_at": "2026-09-16T13:09:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:35.426Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:40.229Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003473
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:40.410Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:40.416Z",
+      "path": "content/changes/bcapps/11114.md"
     }
   },
   "input_hash": "3bf5e5637c2e05147fed0e82c990b0e8522af987:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master all e document type is quote in document attachment table 1173 after posting a sales invoice with attachments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "521321de18c446140f166c51cf6030fd545d21f0158249f6d85d0f53e53631e9"
 }

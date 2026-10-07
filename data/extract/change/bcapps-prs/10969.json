@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10969",
+  "number": 10969,
+  "title": "[MAIN][All-e]Source Currency Inconsistency for LCY Postings and cash posting on sales documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Source currency is now consistently applied to local currency postings and cash posting on sales documents, fixing an inconsistency in how currency is handled during general ledger postings across the system.",
+  "key_points": [
+    "Corrects currency handling in general ledger posting for LCY transactions",
+    "Ensures cash posting on sales documents uses consistent currency assignment",
+    "Changes applied to codeunit 12 'Gen. Jnl.-Post Line' across multiple localization layers",
+    "Test coverage added for source currency scenarios in multiple regions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004071,
+    "changes_in_call": 1
+  }
+}

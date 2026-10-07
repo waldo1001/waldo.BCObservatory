@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "cac6a438ad6a0802c7a07f5b482341ebb1395286:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 11436,
@@ -28,5 +28,7 @@
     ],
     "community_contribution": false,
     "title_key": "purchase invoice lines of type g l account where enabling prices including vat and changing the vat prod posting group causes recalculation of the direct unit cost incl vat and line amount related to bug 632380"
-  }
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-10-07T15:01:36.913Z"
 }

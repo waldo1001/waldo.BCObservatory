@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/187",
+  "number": 187,
+  "title": "Code reviewer skill for recognizing and validating unauthenticated responses",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new code reviewer skill was added to detect unauthenticated URL usage and validate the required response checks that must be enforced in those scenarios.",
+  "key_points": [
+    "New skill for recognizing when code uses unauthenticated URLs",
+    "Specifies which response validation checks are mandatory for unauthenticated scenarios",
+    "Includes both bad and good code examples with documentation",
+    "Helps enforce security best practices in extension code"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003314,
+    "changes_in_call": 1
+  }
+}

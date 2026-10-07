@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Bug 648949: Allow subcontracting direct transfers from warehouse locations",
   "url": "https://github.com/microsoft/BCApps/pull/11280",
   "published_at": "2026-09-16T11:58:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:36.903Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:41.741Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003777
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:41.918Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:41.932Z",
+      "path": "content/changes/bcapps/11280.md"
     }
   },
   "input_hash": "882f4fe99c84ee829bf41ce2a029ca80f99fb700:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 648949 allow subcontracting direct transfers from warehouse locations"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3aa723c980c13d97e18884a31c33d14585a8af27121d5e691d1b3fc62d7c70a7"
 }

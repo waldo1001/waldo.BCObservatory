@@ -6,7 +6,7 @@
   "title": "[29x][NAV] Unblock BCApps uptake by hardening Inter Company tests",
   "url": "https://github.com/microsoft/BCApps/pull/11492",
   "published_at": "2026-09-16T06:12:51Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "29x nav unblock bcapps uptake by hardening inter company tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:01:42.210Z",
+  "retry_after": null
 }

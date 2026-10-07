@@ -6,7 +6,7 @@
   "title": "[29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line",
   "url": "https://github.com/microsoft/BCApps/pull/11511",
   "published_at": "2026-09-17T09:54:56Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 13,
       "objects": 12,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:35.606Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004132
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:35.870Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:35.876Z",
+      "path": "content/changes/bcapps/11511.md"
     }
   },
   "input_hash": "2eafeb9b17188926991e0393b4e3a3696895db9e:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6d3e2ffb0312daef8d0aecac64321da4663a6e6598ba4f52e98f2094aa69653"
+  "output_hash": "c856c9e53ba58e82c201e2b3a986b317607216f778f0a1a75b233a6d97265f4e"
 }

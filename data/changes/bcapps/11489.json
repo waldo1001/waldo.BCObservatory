@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11489,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11489",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T17:02:40Z",
+  "merge_commit_sha": "78bab4957296afed2d478785f5d5189c25ee0d42",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Clear Early Access Preview feature list",
+  "body_hash": "2040943abd769f2c525da3b4ff633f0fe7cba8d79bb9236318a2c485cad0d51f",
+  "fixes_issues": [],
+  "work_items": [
+    650199
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Guided Experience/src/Early Access Preview/EarlyAccessPreviewMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Resources/Files/EarlyAccessPreviewFeatures.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 9,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 10,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Guided Experience/src/Early Access Preview/EarlyAccessPreviewMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1965",
+        "type": "codeunit",
+        "id": 1965,
+        "name": "Early Access Preview Mgt.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/1965"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

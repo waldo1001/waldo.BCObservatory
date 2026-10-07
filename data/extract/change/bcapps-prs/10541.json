@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10541",
+  "number": 10541,
+  "title": "[Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Sustainability Journal's collect amount function now tracks which G/L entries have been collected to prevent double-counting emissions when running collection over overlapping or adjacent periods.",
+  "key_points": [
+    "New relation table links collected G/L entries to their corresponding sustainability entries",
+    "Collect function excludes previously collected entries based on the relation table",
+    "Indexed collected marker maintains fast exclusion filtering on large ledgers",
+    "Reversing sustainability entries removes their links, making entries collectable again",
+    "Follows the existing G/L to Item Ledger Relation model"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004235,
+    "changes_in_call": 1
+  }
+}

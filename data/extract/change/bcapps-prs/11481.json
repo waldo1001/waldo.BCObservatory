@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11481",
+  "number": 11481,
+  "title": "[Master] - Bug 648681: [Expense Agent] Fix Expense Agent KPI report-line drill-down filter",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent KPI drill-down filter now correctly shows only expense report lines for the selected report instead of displaying unrelated lines.",
+  "key_points": [
+    "Filters Expense Report Line records by Document No. before opening the Expense Report Lines page",
+    "Ensures the filtered record set is passed to the page to show all and only lines for the selected report",
+    "Fixes drill-down behavior in Expense Agent KPI entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Filter the Expense Report Line record by Document No. before finding and opening the report lines.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003168,
+    "changes_in_call": 1
+  }
+}

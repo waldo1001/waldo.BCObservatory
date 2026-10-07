@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11280",
+  "number": 11280,
+  "title": "[Subcontracting] Bug 648949: Allow subcontracting direct transfers from warehouse locations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting now allows direct transfers from warehouse-enabled source locations by removing an obsolete outbound warehouse guard in the transfer order creation report.",
+  "key_points": [
+    "Removed outdated validation that rejected warehouse-enabled transfers",
+    "Retained posting-mode selection and in-transit-code preservation from earlier changes",
+    "Added comprehensive test scenarios for various warehouse configurations (Require Shipment, Inventory Pick, Directed Put-away and Pick)",
+    "Tests verify component quantities, bin balances, and shipment/receipt quantities",
+    "Correction applies only to main/29, not to 28.x releases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003777,
+    "changes_in_call": 1
+  }
+}

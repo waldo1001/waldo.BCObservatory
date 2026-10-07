@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11441",
+  "number": 11441,
+  "title": "Fixes AB#640874: Clarify Expense Agent scheduling permission error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent scheduler authorization error message is now clearer, providing specific guidance to users about missing permissions and directing them to request 'Can Configure Agent' access from an administrator.",
+  "key_points": [
+    "Error message is more descriptive and actionable",
+    "Includes localized field and page captions as placeholders",
+    "Maintains existing rejection behavior for both missing access and missing Can Configure Agent permissions",
+    "No changes to authorization, scheduling, or permissions logic",
+    "Message is consistently applied across wizard and scheduler paths"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Replace the ambiguous Expense Agent scheduler authorization error with actionable guidance",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003769,
+    "changes_in_call": 1
+  }
+}

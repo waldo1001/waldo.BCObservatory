@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10934,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10934",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-16T05:44:56Z",
+  "merge_commit_sha": "ba72daf6a8f67dff3ee74bcbd21dac07b29f2fe5",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level",
+  "body_hash": "3e9fc5160628d4855f5f38d3df7d28c485d8bbf63f6e04fb449626d904372ea9",
+  "fixes_issues": [],
+  "work_items": [
+    648668
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/RU/Tests/SCM-Reservation/SCMItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 398,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingDataCollection.Codeunit.al",
+      "status": "modified",
+      "additions": 180,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Reservation/SCMItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 398,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 976,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingDataCollection.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6501",
+        "type": "codeunit",
+        "id": 6501,
+        "name": "Item Tracking Data Collection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

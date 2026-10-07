@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 641591: EUDR Certificate Capture for Items",
   "url": "https://github.com/microsoft/BCApps/pull/11217",
   "published_at": "2026-09-15T19:08:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:43.381Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 18,
+      "objects": 18,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:48.286Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00468
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:48.440Z",
+      "objects": 18,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:48.448Z",
+      "path": "content/changes/bcapps/11217.md"
     }
   },
   "input_hash": "e15e3ca4aa37959ae7f00dacfde1128bf45b61d0:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 641591 eudr certificate capture for items"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e2d9dea52398f09b58e559c0eeb06c5a3e71168b137f898a59cf37f0cb7dc4d"
 }

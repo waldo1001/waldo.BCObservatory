@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11492,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11492",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-16T06:12:51Z",
+  "merge_commit_sha": "04b30a556828ef45e0d5b8e7315ef48513747ad4",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29x][NAV] Unblock BCApps uptake by hardening Inter Company tests",
+  "body_hash": "d716b6a8439824e40f5bad53791e04496a7d6b06ee5454940cd944c2b68b651b",
+  "fixes_issues": [],
+  "work_items": [
+    650177
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 14,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

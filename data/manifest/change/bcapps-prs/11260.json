@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote four legacy warning rules to Error",
   "url": "https://github.com/microsoft/BCApps/pull/11260",
   "published_at": "2026-09-16T09:46:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:39.415Z",
+      "change_class": "code",
+      "files": 241,
+      "al": 59,
+      "objects": 41,
+      "unjoined": 18
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:46.033Z",
+      "prompt": "extract-change@1",
+      "kind": "breaking",
+      "behavior": false,
+      "cost_usd": 0.014515
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:46.264Z",
+      "objects": 41,
+      "unjoined": 18,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:46.279Z",
+      "path": "content/changes/bcapps/11260.md"
     }
   },
   "input_hash": "e60610752f56276cd399b8bc797daa37bd7a75f4:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote four legacy warning rules to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42f5f06fa72fe6e98f64f516b0b2c4ba4280813efa6c8aa306e3bc432c41a6d6"
 }
