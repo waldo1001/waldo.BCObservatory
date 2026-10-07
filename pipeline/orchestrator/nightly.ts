@@ -66,6 +66,7 @@ import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
 import { isSkeleton } from "../code/job.js";
 import { refreshDocsObjects } from "../code/docs-objects.js";
 import { renderCodePages, type CodePagesRun } from "../render/object.js";
+import { renderAppPages, type AppPagesRun } from "../render/app.js";
 import { refreshRelated, type RelatedRun } from "../link/related.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
@@ -138,7 +139,7 @@ export interface RunReport {
   topic_reviews?: Omit<TopicReviewRun, "errors">;
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
-  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; narratives?: Omit<LocalizationRun, "errors"> };
+  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; related?: RelatedRun; apps?: AppPagesRun; narratives?: Omit<LocalizationRun, "errors"> };
   /** Run date up to which catch-up mode (no quotas, no caps) is on, when this run used it (D41). */
   catch_up?: string;
   /** Checkpoint commits made during stage execution (D26). */
@@ -321,8 +322,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
         };
       });
       report.code.pages = await phase("code-pages", () => renderCodePages(opts.dataDir, contentDirOf(opts)));
-      // D65: Related reads the object pages (a table's hubs come through its pages)
+      // D65: Related reads the object pages (a table's hubs come through its pages), the app pages read Related
       report.code.related = await phase("related", () => refreshRelated(opts.dataDir, contentDirOf(opts)));
+      report.code.apps = await phase("app-pages", () => renderAppPages(opts.dataDir, contentDirOf(opts)));
     } catch (e) {
       errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
     }

@@ -13,6 +13,7 @@ export const GET: APIRoute = async () => {
   const changes = (await getCollection("changes")).length;
   const digests = (await getCollection("digests")).length;
   const sources = (await getCollection("sources")).length;
+  const apps = (await getCollection("apps")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const text = [
     "# BC Observatory",
@@ -28,6 +29,7 @@ export const GET: APIRoute = async () => {
     ...(topics ? [`- [Topics](${site}topics/llms.txt): ${topics} topic hubs seeded from the Microsoft Learn TOCs, linking out to Learn`] : []),
     ...(features ? [`- [Features](${site}features/llms.txt): ${features} Business Central features from the Microsoft 365 roadmap (status, wave, dates)`] : []),
     ...(objects ? [`- [AL objects](${site}objects/llms.txt): ${objects} W1 and first-party app objects from the code (fields, procedures, events, obsolete state, versions, countries, Learn pages)`] : []),
+    ...(apps ? [`- [First-party apps](${site}apps/llms.txt): ${apps} Microsoft first-party apps (BCApps src/Apps/W1): objects by type, the Learn hubs that document them, videos and posts naming their objects`] : []),
     ...(localizations ? [`- [Localizations](${site}localizations/llms.txt): ${localizations} country layers and what they change in W1`] : []),
     ...(sources ? [`- [Sources](${site}sources/llms.txt): ${sources} blogs and channels with their footprint (systems, topics, objects named, flight path)`] : []),
     ...(digests ? [`- [Weekly digests](${site}digests/llms.txt): what changed each week (roadmap, videos, posts, Learn commits, code, deprecation radar); RSS at ${site}rss.xml`] : []),

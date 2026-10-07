@@ -1,0 +1,26 @@
+---
+/** The first-party apps (D65), by galaxy system, with their object and hub counts. */
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+import { systemLabel } from "../../lib/page";
+const base = import.meta.env.BASE_URL;
+const all = (await getCollection("apps")).sort((a, b) => String(a.data.title).localeCompare(String(b.data.title)));
+const systems = [...new Set(all.map((a) => String(a.data.system)))].sort((a, b) => (systemLabel(a) ?? a).localeCompare(systemLabel(b) ?? b));
+const objects = all.reduce((n, a) => n + Number(a.data.counts?.objects ?? 0), 0);
+---
+<List section="apps" title="First-party apps · BC Observatory" description="Microsoft's first-party Business Central apps: their objects, the Learn hubs that document them, the videos and posts that name them.">
+  <p class="eyebrow">First-party apps</p>
+  <h1>{all.length} apps</h1>
+  <p class="lede">Microsoft's first-party apps in BCApps (<code>src/Apps/W1</code>), {objects.toLocaleString("en")} objects in all, each in the galaxy system its objects belong to. An app page lists its objects by type, the Learn hubs that document them and the videos and posts that name them. Agents: <a href={`${base}apps/llms.txt`}>llms.txt</a>. All objects: <a href={`${base}objects/`}>the atlas</a>.</p>
+  {systems.map((s) => (
+    <section>
+      <h2 style={`color: var(--sys-${s})`}>{systemLabel(s) ?? s}</h2>
+      <table>
+        <thead><tr><th scope="col">App</th><th scope="col">Namespace</th><th scope="col">Objects</th><th scope="col">Learn hubs</th><th scope="col">Versions</th></tr></thead>
+        <tbody>{all.filter((a) => String(a.data.system) === s).map((a) => (
+          <tr><td><a href={`${base}apps/${a.id}/`}>{a.data.title}</a></td><td class="mono-meta">{a.data.namespace_root ?? ""}</td><td>{Number(a.data.counts?.objects ?? 0).toLocaleString("en")}</td><td>{a.data.counts?.hubs ?? 0}</td><td>{(a.data.present_in ?? []).map((m: string) => `BC${m}`).join(", ")}</td></tr>
+        ))}</tbody>
+      </table>
+    </section>
+  ))}
+</List>
