@@ -6,10 +6,35 @@
   "title": "Fix missing default item journal batch in Contoso Inventory setup",
   "url": "https://github.com/microsoft/BCApps/pull/11155",
   "published_at": "2026-09-18T15:46:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:50.745Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:55.816Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003492
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:55.952Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:59.536Z",
+      "path": "content/changes/bcapps/11155.md"
     }
   },
   "input_hash": "d796c8b56ed445fc4bd168c79025953c045419d4:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix missing default item journal batch in contoso inventory setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "479d8c3bdecd6d371e9f21a8eca9b73877dbbe03424fd15d06d274b92f20cc4a"
 }

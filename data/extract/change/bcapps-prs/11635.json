@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11635",
+  "number": 11635,
+  "title": "Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed source currency amount handling in foreign currency general ledger entries reversal across all localization layers.",
+  "key_points": [
+    "Corrected source currency amount calculation for FCY GL entries reversal",
+    "Applied fix consistently across 11 localization layers (W1, NA, APAC, BE, CH, ES, FI, FR, IT, NO, RU)",
+    "Single-line change in Gen. Jnl.-Post Line codeunit in each layer",
+    "Addresses bug in financial posting process for multi-currency transactions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006626,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11567",
+  "number": 11567,
+  "title": "[29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "purchasing"
+  ],
+  "summary": "Report 400 (Remittance Advice) now includes applied vendor refund entries that share the payment's vendor number and document number, ensuring the printed line items match the calculated total.",
+  "key_points": [
+    "Refund entries are now identified and displayed as lines when they share the payment's vendor and document number",
+    "Payment discount logic is skipped for refund entries to prevent incorrect calculations",
+    "Report total is adjusted by subtracting line amounts to reconcile with displayed line items",
+    "Fixes discrepancy where listed lines did not match the printed total"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "The report only surfaced entries from the payment's own application chain, missing refunds applied through a separate chain.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003648,
+    "changes_in_call": 1
+  }
+}

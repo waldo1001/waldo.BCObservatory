@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/57",
+  "number": 57,
+  "title": "Add source-verified Finance knowledge and review domain",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Nine new finance domain knowledge articles with AL examples guide developers on proper ledger posting, entry application, dimension handling, and VAT processing to maintain financial data integrity.",
+  "key_points": [
+    "Nine atomic knowledge articles covering finance posting, ledger entry modification, dimension handling, and VAT processing",
+    "Each article includes bad and good AL code examples demonstrating mistakes and correct approaches",
+    "Articles address common mistakes like direct ledger modification, improper dimension copying, and fabricated settlement",
+    "Finance domain now owns pure G/L, customer/vendor/detailed/VAT and financial-posting records",
+    "Shared conventions match existing quality standards with leaf-count diagnostics and application-area usage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "quote": "Nine atomic articles, eighteen original AL companions, and `al-finance-review`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01086,
+    "changes_in_call": 1
+  }
+}

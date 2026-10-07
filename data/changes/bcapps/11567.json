@@ -1,0 +1,116 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11567,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11567",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-21T08:04:50Z",
+  "merge_commit_sha": "4c48ff400d1ee8ab70eb442162f350375d6df0ea",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation",
+  "body_hash": "1a693fee274741ebc9b5805f2fc390c41fc32bfb87e01e3fb44239b77891f9b9",
+  "fixes_issues": [],
+  "work_items": [
+    650389
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Payments/ExportRemitAdvicePEPPOL30.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBufferMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOL30ManagementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 233,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/RemittanceAdviceEntries.Report.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/RemittanceREPCheckUT.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 348,
+    "deletions": 17,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Payments/ExportRemitAdvicePEPPOL30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37208",
+        "type": "codeunit",
+        "id": 37208,
+        "name": "Export Remit. Advice PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37208"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBufferMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37207",
+        "type": "codeunit",
+        "id": 37207,
+        "name": "Remit. Advice Buffer Mgt.",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37207"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/RemittanceAdviceEntries.Report.al",
+        "status": "modified",
+        "key": "report/400",
+        "type": "report",
+        "id": 400,
+        "name": "Remittance Advice - Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application",
+    "PEPPOL"
+  ]
+}

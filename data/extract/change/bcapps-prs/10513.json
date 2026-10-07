@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10513",
+  "number": 10513,
+  "title": "[Extensibility Request] issue 30270: expose JobPostLine before calculating totals",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales invoice posting exposes a new event that provides access to the Job Post-Line instance before calculating totals, enabling extensions to interact with job data during the posting process.",
+  "key_points": [
+    "New event OnPostLinesOnBeforeCalcSums in Sales Post Invoice Events codeunit",
+    "Event fires before TempInvoicePostingBuffer.CalcSums in the PostLines method",
+    "Provides subscribers with posting context and active Job Post-Line instance",
+    "Implemented across all localization layers (W1, APAC, BE, ES, FI, IT, NA, RU)",
+    "Allows extensions to access job data without changing existing procedure signatures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Extensions need access to the active Job Post-Line instance while sales invoice posting still retains its prepared job data.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003965,
+    "changes_in_call": 1
+  }
+}

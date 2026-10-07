@@ -6,10 +6,18 @@
   "title": "[Shopify] Automatic Transaction Posting",
   "url": "https://github.com/microsoft/BCApps/pull/9525",
   "published_at": "2026-09-18T12:21:36Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:55.224Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 12,
+      "objects": 12,
+      "unjoined": 0
     }
   },
   "input_hash": "15e8ab7c0b7b0069dd43d86a2c111f8b68539f52:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify automatic transaction posting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c0dff89454a04c61bf6ad6a200e3f56508c37a3244a9f54e2924590d02fe41b"
 }

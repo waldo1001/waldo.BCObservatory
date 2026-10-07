@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcquality-prs/192",
+  "number": 192,
+  "title": "Add SCM functional knowledge domain",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "SCM (supply chain management) functional knowledge domain added with nine scoped rules and self-contained AL code samples covering item posting, reservations, warehouse adjustments, and requisition workflows.",
+  "key_points": [
+    "Nine functional rules for SCM workflows including item-ledger posting, revaluation, reservations, and warehouse reconciliation",
+    "Bad and good AL code samples provided for each rule to guide development practices",
+    "Skill review profile created for SCM-specific code analysis separate from generic finance rules",
+    "Rules cover item tracking, transfer posting, available-to-promise logic, and requisition actions",
+    "All samples compile and validate against CodeCop with Base Application 28.5"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "purchasing",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005223,
+    "changes_in_call": 1
+  }
+}

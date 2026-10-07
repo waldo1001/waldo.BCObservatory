@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11399,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11399",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T14:40:28Z",
+  "merge_commit_sha": "b6ff7f07fa1fcfbdb43ca0c37227aab0c918b658",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[master][Subscription Billing] 1M 'Align to End of Month' line with end date produces a 1-day prorated stub",
+  "body_hash": "9c0a3cd707abfe663ece495e5d5c2dabfc9e4ea8311adbf21721a8f3854d9494",
+  "fixes_issues": [],
+  "work_items": [
+    650068
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 48,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

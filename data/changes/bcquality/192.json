@@ -1,0 +1,420 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 192,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/192",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-21T08:16:45Z",
+  "merge_commit_sha": "bec8890b7ea8d84e6632abb3f25a22b169a034fa",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add SCM functional knowledge domain",
+  "body_hash": "4f51fa80f7f40fa2fc0d46012da23939911fe9c972afbccaee7e9b2a7c67087a",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/scripts/Test-SkillIndex.ps1",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "build"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "docs"
+    },
+    {
+      "path": "docs/using-bcquality.md",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 3,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/README.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.bad.al",
+      "status": "added",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.good.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.bad.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.good.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.md",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.bad.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.good.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.md",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.bad.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.good.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.md",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.bad.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.good.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.bad.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.good.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.md",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.bad.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.good.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.md",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.bad.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.good.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.md",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.bad.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.good.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.md",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-scm-review.md",
+      "status": "added",
+      "additions": 121,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 34,
+    "additions": 1030,
+    "deletions": 10,
+    "al": 29
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-scm-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "[Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit",
   "url": "https://github.com/microsoft/BCApps/pull/9982",
   "published_at": "2026-09-21T05:27:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:46.436Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:50.986Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0032
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:51.145Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:51.151Z",
+      "path": "content/changes/bcapps/9982.md"
     }
   },
   "input_hash": "4c621fdc334574d8b95d48680998f48e433a0ed6:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelinitial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb3a248616d5af9c1c470d2fc5acadb674754e2efd3acde6f00c82b7a8995db3"
 }

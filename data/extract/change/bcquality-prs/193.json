@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/193",
+  "number": 193,
+  "title": "Clarify locale-safe DateFormula Evaluate inputs",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Adds a Microsoft Style article clarifying that DateFormula Evaluate calls require language-independent literals to work correctly in non-English localizations, addressing a localization gap where such calls could fail despite correct downstream CalcDate typing.",
+  "key_points": [
+    "New style guide article explains the localization issue with Evaluate and DateFormula",
+    "Demonstrates the problem with paired bad/good examples in AL code",
+    "Includes references to existing BaseApp scheduling patterns using invariant input",
+    "Deliberately scoped to exclude form mechanics, trigger prohibitions, and unresolved schema themes",
+    "Validation confirms 308 articles, 509 samples, and 72 fixtures pass all checks"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003975,
+    "changes_in_call": 1
+  }
+}

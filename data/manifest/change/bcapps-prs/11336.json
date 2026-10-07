@@ -6,10 +6,35 @@
   "title": "[master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation",
   "url": "https://github.com/microsoft/BCApps/pull/11336",
   "published_at": "2026-09-21T09:47:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:44.097Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:49.059Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003611
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:49.233Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:49.237Z",
+      "path": "content/changes/bcapps/11336.md"
     }
   },
   "input_hash": "0c994435e3ee038dbaf66822f8a2791b1aa3f43a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master report 400 remittance advice does not include applied vendor refund entries resulting in incorrect total calculation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b485d6ca12e27fa124479758c4fc82dafe09a98902536902a619393bd87c3863"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11336",
+  "number": 11336,
+  "title": "[master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "purchasing"
+  ],
+  "summary": "Report 400 now includes applied vendor refund entries that share a payment's document number, ensuring the report lines match the total amount instead of showing a discrepancy.",
+  "key_points": [
+    "Vendor refunds with matching document numbers now appear as separate lines on the remittance advice report",
+    "The total calculation is adjusted to prevent double-counting refunds already listed as lines",
+    "Payment discount logic is skipped for refund entries to avoid incorrect calculations",
+    "Both PEPPOL export and standard remittance advice report logic updated consistently"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "A vendor refund sharing a payment's document number isn't shown as a line on Report 400",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003611,
+    "changes_in_call": 1
+  }
+}

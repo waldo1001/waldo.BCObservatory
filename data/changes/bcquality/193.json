@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 193,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/193",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-21T08:16:07Z",
+  "merge_commit_sha": "d38377b85e4ba995d822981bdd7f8d381547026a",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Clarify locale-safe DateFormula Evaluate inputs",
+  "body_hash": "42915c25a3187eea857c45922320ff0b9d3532c4671632fbf21b175ae8374c94",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.bad.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.good.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 84,
+    "deletions": 5,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

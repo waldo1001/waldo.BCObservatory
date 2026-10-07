@@ -6,10 +6,18 @@
   "title": "Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations",
   "url": "https://github.com/microsoft/BCApps/pull/11001",
   "published_at": "2026-09-18T14:00:36Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:52.131Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "9b3a92b0e8e5d24db1faaae34d3f86ab7b4d026e:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648577 it subcontracting migration does not precheck bin mandatory locations"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6353732379631f26cabc901144fccec73f8092b4ced2f3469bacbc21a6832fd7"
 }

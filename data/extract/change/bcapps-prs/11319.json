@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11319",
+  "number": 11319,
+  "title": "[MCP] Allow setting default configuration from card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The MCP configuration card now provides actions to set and clear default configurations directly from the card interface, with new regression tests added.",
+  "key_points": [
+    "Added Set as Default and Clear Default actions to MCP Config Card",
+    "Updated Default field guidance text",
+    "Added regression test cases for setting and clearing default configuration",
+    "Improves usability by allowing default management from the card"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "add Set as Default and Clear Default actions to the MCP configuration card",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002999,
+    "changes_in_call": 1
+  }
+}

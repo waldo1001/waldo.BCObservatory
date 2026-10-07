@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11612",
+  "number": 11612,
+  "title": "Multiple runs of email retrieval on the same emails don't persist again",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Email retrieval no longer creates duplicate entries when the same emails are retrieved multiple times. A new centralized FindRetrievedEmail method helps connectors check if an email was already stored, and attachments are added only when needed.",
+  "key_points": [
+    "The Outlook connector now checks if an email was previously retrieved before persisting it again",
+    "A new centralized FindRetrievedEmail method on the Email module consolidates this logic for all connectors",
+    "Attachments are added to already-retrieved emails only if they weren't previously stored",
+    "A new AddAttachment overload allows adding attachments without triggering validation that prevents modifying received emails",
+    "The fix prevents the email message Modify subscriber from blocking legitimate attachment additions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Email is returned without further persisting, unless the previous email was stored without attachments, in which case only the attachment is added.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00407,
+    "changes_in_call": 1
+  }
+}

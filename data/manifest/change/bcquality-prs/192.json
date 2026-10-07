@@ -6,10 +6,35 @@
   "title": "Add SCM functional knowledge domain",
   "url": "https://github.com/microsoft/BCQuality/pull/192",
   "published_at": "2026-09-21T08:16:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:42.875Z",
+      "change_class": "code",
+      "files": 34,
+      "al": 29,
+      "objects": 0,
+      "unjoined": 29
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:48.459Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005223
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:48.460Z",
+      "objects": 0,
+      "unjoined": 29,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:00:48.465Z",
+      "path": "content/changes/bcquality/192.md"
     }
   },
   "input_hash": "bec8890b7ea8d84e6632abb3f25a22b169a034fa:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add scm functional knowledge domain"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5098a2100aa87a14e555cad735f6c8c041996bad0d2033285bf1e901232ce7d3"
 }

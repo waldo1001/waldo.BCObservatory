@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/195",
+  "number": 195,
+  "title": "Add foundational AL developer knowledge",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Five foundational AL development guidelines are added covering document initialization, rounding operations, interface casting, UI refresh behavior, and upgrade execution order.",
+  "key_points": [
+    "Document initialization and directed rounding practices documented with examples",
+    "Interface casting guard patterns for runtime 15.0+ and BC 25+",
+    "Dropdown visibility and page-part refresh guidance added",
+    "Install and upgrade codeunit execution ordering clarified",
+    "Review retrieval skills updated to target these new knowledge articles"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Adds the knowledge-ready slice extracted from #155 so the foundational AL guidance can land independently",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003799,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11319,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11319",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T15:57:08Z",
+  "merge_commit_sha": "83399f02564396b106a70cb023dc2c7c506befea",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Allow setting default configuration from card",
+  "body_hash": "40ce495e66a0172a865dac3b412f777ab3d6fb9449e72a27abf43fbd411ceed7",
+  "fixes_issues": [],
+  "work_items": [
+    649752
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 79,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+        "status": "modified",
+        "key": "page/8351",
+        "type": "page",
+        "id": 8351,
+        "name": "MCP Config Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8351"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

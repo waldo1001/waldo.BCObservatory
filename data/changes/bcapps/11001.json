@@ -1,0 +1,61 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11001,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11001",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-18T14:00:36Z",
+  "merge_commit_sha": "9b3a92b0e8e5d24db1faaae34d3f86ab7b4d026e",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations",
+  "body_hash": "f514d5b958967eb8c74ee950cfbcb71d97ad82aa735e8042c5478ca1fdf33954",
+  "fixes_issues": [],
+  "work_items": [
+    648577
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IT/SubcontractingMigrationIT/App/src/ITSubcMigration.Codeunit.al",
+      "status": "modified",
+      "additions": 123,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IT/SubcontractingMigrationIT/Test/src/ITSubcMigrationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 228,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 351,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IT/SubcontractingMigrationIT/App/src/ITSubcMigration.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

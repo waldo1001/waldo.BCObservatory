@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9982",
+  "number": 9982,
+  "title": "[Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item tracking validation for lot numbers now occurs at the warehouse pick level instead of at the sales order level, allowing sales orders to proceed without lot number assignments until the pick operation.",
+  "key_points": [
+    "Moved validation logic from sales order to warehouse pick stage",
+    "Enables sales orders to be created before lot numbers are assigned",
+    "Improves workflow by deferring lot number requirement to picking phase",
+    "Fixes bug 646429 affecting item tracking validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0032,
+    "changes_in_call": 1
+  }
+}
