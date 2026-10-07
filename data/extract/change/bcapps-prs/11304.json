@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11304",
+  "number": 11304,
+  "title": "[Master]-Validation of the \"No.\" field on the sales order additionally re-validates the Unit of Measure Code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "manufacturing"
+  ],
+  "summary": "Validation of the item number field on sales lines now prevents duplicate production order status checks when the unit of measure code is re-validated, fixing repeated modal dialogs and write-transaction errors.",
+  "key_points": [
+    "Added StatusCheckSuspended flag to suppress nested production order status checks during item number validation",
+    "Wrapped unit of measure code validation to prevent redundant status checks triggered by quantity and shipment date updates",
+    "Modified CheckProdOrderStatus codeunit to respect the suspended check flag",
+    "Changes applied across all localization layers and base application",
+    "Includes test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "manufacturing"
+  ],
+  "quote": "Wrapped Validate(\"Unit of Measure Code\") inside ValidateUnitOfMeasureCodeFromNo() with StatusCheckSuspended to suppress nested status checks",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004172,
+    "changes_in_call": 1
+  }
+}

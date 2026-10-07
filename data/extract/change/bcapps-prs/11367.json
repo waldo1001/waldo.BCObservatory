@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11367",
+  "number": 11367,
+  "title": "[29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Fixed an issue where undoing a shipment would fail when a bin code was blank at locations requiring bins during drop shipment reversals.",
+  "key_points": [
+    "Corrects undo operations for sales shipments and purchase receipts when bin codes are missing",
+    "Addresses drop shipment reversal scenarios at bin-mandatory warehouse locations",
+    "Adds test coverage for the item tracking and reservation functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003065,
+    "changes_in_call": 1
+  }
+}

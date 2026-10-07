@@ -1,0 +1,143 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10898,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10898",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-17T14:34:00Z",
+  "merge_commit_sha": "cba95f2f439d5b3a4dba14c082cf5a103a89cfe3",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30434: add purchase prepayment amount event",
+  "body_hash": "1950d9c375ea5d8a58f8ada530ed31e02d989af5c357b9cd902871e3b3908c5b",
+  "fixes_issues": [],
+  "work_items": [
+    647921
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 77,
+    "deletions": 6,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/444",
+        "type": "codeunit",
+        "id": 444,
+        "name": "Purchase-Post Prepayments",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/444"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/444",
+        "type": "codeunit",
+        "id": 444,
+        "name": "Purchase-Post Prepayments",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/444"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/444",
+        "type": "codeunit",
+        "id": 444,
+        "name": "Purchase-Post Prepayments",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/444"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/444",
+        "type": "codeunit",
+        "id": 444,
+        "name": "Purchase-Post Prepayments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/444"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Posting/PurchasePostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

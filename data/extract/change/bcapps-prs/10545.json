@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10545",
+  "number": 10545,
+  "title": "[Master] - Bug 647253: [WHT] Inconsistency with the Payments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Test code formatting corrected in the withholding tax payment test to clarify procedure boundaries and indentation, with no change to the test's functional behavior.",
+  "key_points": [
+    "Test setup, posting action, and validation statements were given consistent indentation",
+    "Procedure closing structure was corrected for clarity",
+    "The test still verifies posting fails when Purchases journal template is missing",
+    "No functional behavior changes to the application"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Corrected the indentation and procedure closing structure.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003082,
+    "changes_in_call": 1
+  }
+}

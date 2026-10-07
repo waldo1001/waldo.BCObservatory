@@ -6,10 +6,35 @@
   "title": "[main] Bug 650139 The Non-Deductible VAT Amount is currently not taken into account in the VAT return Austria",
   "url": "https://github.com/microsoft/BCApps/pull/11419",
   "published_at": "2026-09-17T11:36:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:26.291Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:31.058Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003358
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:31.222Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:31.230Z",
+      "path": "content/changes/bcapps/11419.md"
     }
   },
   "input_hash": "37b65230acbbcca95e6f8a5e14d866eb92a6f8a2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650139 the non deductible vat amount is currently not taken into account in the vat return austria"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3349deb402fd1165b2db625075ccbc2c6003091947e6ec8e8bcad74022b3dad7"
 }

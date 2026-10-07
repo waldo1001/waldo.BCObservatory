@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11324",
+  "number": 11324,
+  "title": "[main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed an issue where exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled in General Ledger Setup by hiding the unreleased currency feature.",
+  "key_points": [
+    "Currency field in General Ledger Setup is now hidden from users",
+    "Prevents incorrect currency application to all exported rows during Excel export",
+    "Addresses unreleased feature that was not intended for the current release",
+    "Single line change to set field visibility to false"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Added field Visible= false as reference bug suggests the feature is not released.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003201,
+    "changes_in_call": 1
+  }
+}

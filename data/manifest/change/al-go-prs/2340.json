@@ -6,10 +6,35 @@
   "title": "Add opt-in unpublishOldVersions setting to unpublish stale PTE app versions after deploy",
   "url": "https://github.com/microsoft/AL-Go/pull/2340",
   "published_at": "2026-09-17T14:29:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:25.063Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:30.391Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004602
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:30.392Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:01:30.397Z",
+      "path": "content/changes/al-go/2340.md"
     }
   },
   "input_hash": "a41a641716f909d611fb3df3a69e7b0f71170e7e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add opt in unpublisholdversions setting to unpublish stale pte app versions after deploy"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ec14ba2c3d56a923392700eabf83894af5799fec2df65d7acb0d6ec9a49673e"
 }

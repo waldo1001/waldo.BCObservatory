@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11333",
+  "number": 11333,
+  "title": "Align travel request APIs with employee travelers and expense report lifecycle",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Expense Agent APIs now align travel request and expense report workflows by adding employee filtering, creating expense reports during travel request approval, and supporting owner-scoped report recreation after draft deletion.",
+  "key_points": [
+    "Employees API gains filterable isExpenseUser field to distinguish expense-enabled employees",
+    "Travel request approval automatically creates Expense Reports for the Requested For user and prevents duplicate creation",
+    "Travel requests expose employees as a read-only navigation property filtered by SystemId",
+    "Owner-scoped report recreation allowed after draft deletion if no existing posted history exists",
+    "Added indirect permissions and nonunique lookup keys to support these operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Aligns the Expense Agent travel request and expense report API flow used by the web client.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005189,
+    "changes_in_call": 1
+  }
+}

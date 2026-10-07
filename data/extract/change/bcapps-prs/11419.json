@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11419",
+  "number": 11419,
+  "title": "[main] Bug 650139 The Non-Deductible VAT Amount is currently not taken into account in the VAT return Austria",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Austrian VAT return report (11110) now includes non-deductible VAT amounts and full base amounts in its calculations, fixing a reporting omission for Austrian users.",
+  "key_points": [
+    "Non-deductible VAT amounts are now included in VAT return calculations",
+    "Full base amount types are now considered in the report",
+    "Fixes an Austrian VAT reporting accuracy issue",
+    "Adds calculation logic for previously excluded VAT types",
+    "Includes test coverage for the new functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "The Non-Deductible Base/Amount and Full Base/Amount types are currently not taken into account in the VAT return Austria",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003358,
+    "changes_in_call": 1
+  }
+}

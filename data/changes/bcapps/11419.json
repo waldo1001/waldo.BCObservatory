@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11419,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11419",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-17T11:36:40Z",
+  "merge_commit_sha": "37b65230acbbcca95e6f8a5e14d866eb92a6f8a2",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 650139 The Non-Deductible VAT Amount is currently not taken into account in the VAT return Austria",
+  "body_hash": "df5ff908591d8607852e54e7b82d7aa60f211a7edb47b9a35b459c6aa6186a05",
+  "fixes_issues": [],
+  "work_items": [
+    650139
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AT/BaseApp/Local/Finance/VAT/VATStatementAT.Report.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/Tests/Local/VATSTAT.Codeunit.al",
+      "status": "modified",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 78,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/AT/BaseApp/Local/Finance/VAT/VATStatementAT.Report.al",
+        "status": "modified",
+        "key": "report/11110",
+        "type": "report",
+        "id": 11110,
+        "name": "VAT Statement AT",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "report/11110-at"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

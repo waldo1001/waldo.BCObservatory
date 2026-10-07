@@ -1,0 +1,294 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10541,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10541",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-16T17:21:19Z",
+  "merge_commit_sha": "9c49abbc71f42a6d1497cec3a90315c1619e4a56",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting",
+  "body_hash": "574b28dca9400c5d59f0a1c4dfb6e8a90391e20e3ce9732b667723984e01ec35",
+  "fixes_issues": [],
+  "work_items": [
+    641375
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Calculation/CollectAmountFromGLEntry.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Calculation/SustainabilityCalcMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Journal/SustJnlLineGLEntry.Table.al",
+      "status": "added",
+      "additions": 134,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Journal/SustainabilityJnlLine.Table.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustEntryReverseMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustGLSustLedgerRel.Page.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustGLSustLedgerRel.Table.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityEdit.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityObjects.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityRead.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/LibrarySustainability.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityJournalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 771,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 1267,
+    "deletions": 7,
+    "al": 13
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Calculation/CollectAmountFromGLEntry.Page.al",
+        "status": "modified",
+        "key": "page/6224",
+        "type": "page",
+        "id": 6224,
+        "name": "Collect Amount from G/L Entry",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6224"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Calculation/SustainabilityCalcMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6218",
+        "type": "codeunit",
+        "id": 6218,
+        "name": "Sustainability Calc. Mgt.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6218"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Journal/SustJnlLineGLEntry.Table.al",
+        "status": "added",
+        "key": "table/6260",
+        "type": "table",
+        "id": 6260,
+        "name": "Sust. Jnl. Line G/L Entry",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6260"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Journal/SustainabilityJnlLine.Table.al",
+        "status": "modified",
+        "key": "table/6214",
+        "type": "table",
+        "id": 6214,
+        "name": "Sustainability Jnl. Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6214"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustEntryReverseMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6243",
+        "type": "codeunit",
+        "id": 6243,
+        "name": "Sust. Entry Reverse Mgt.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6243"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustGLSustLedgerRel.Page.al",
+        "status": "added",
+        "key": "page/6339",
+        "type": "page",
+        "id": 6339,
+        "name": "Sust. G/L - Sust. Ledger Rel.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6339"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustGLSustLedgerRel.Table.al",
+        "status": "added",
+        "key": "table/6261",
+        "type": "table",
+        "id": 6261,
+        "name": "Sust. G/L - Sust. Ledger Rel.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6261"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/6220",
+        "type": "page",
+        "id": 6220,
+        "name": "Sustainability Ledger Entries",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6220"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/6216",
+        "type": "table",
+        "id": 6216,
+        "name": "Sustainability Ledger Entry",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6216"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityEdit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6213",
+        "type": "permissionset",
+        "id": 6213,
+        "name": "Sustainability Edit",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "permissionset/6213"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6210",
+        "type": "permissionset",
+        "id": 6210,
+        "name": "Sustainability - Objects",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "permissionset/6210"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityRead.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6211",
+        "type": "permissionset",
+        "id": 6211,
+        "name": "Sustainability Read",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "permissionset/6211"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6212",
+        "type": "codeunit",
+        "id": 6212,
+        "name": "Sustainability Post Mgt",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6212"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

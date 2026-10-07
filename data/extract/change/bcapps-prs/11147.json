@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11147",
+  "number": 11147,
+  "title": "Bug 648962: Create transfer order shows generic error when existing transfers cover subcontracting demand",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Create Transfer Order report now distinguishes between demand that is fully covered by existing transfers and truly ineligible demand, providing users with an actionable error message and navigation option to view related open transfer orders instead of a generic error.",
+  "key_points": [
+    "Tracks covered positive eligible demand separately from cases with zero demand",
+    "Provides actionable error message when all demand is covered by existing open, in-transit, or posted transfers",
+    "Offers navigation to view related open transfer orders when available",
+    "Reuses subcontracting factbox helper for consistent navigation behavior",
+    "Low-risk change limited to error handling and navigation, no impact on transfer quantity calculation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004361,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10869",
+  "number": 10869,
+  "title": "[29.x]-[WHT] Inconsistency with the Payments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Withholding tax test for payment posting was reformatted to fix indentation and procedure structure, with no functional changes to the test logic.",
+  "key_points": [
+    "Corrected indentation and procedure closing structure in payment posting test",
+    "Test flow and procedure boundaries are now clearer",
+    "Functional behavior unchanged: test still verifies missing Purchases journal template error",
+    "Improved code readability and consistency"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Corrected the indentation and procedure closing structure.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003037,
+    "changes_in_call": 1
+  }
+}

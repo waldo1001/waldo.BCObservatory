@@ -6,10 +6,18 @@
   "title": "[Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting",
   "url": "https://github.com/microsoft/BCApps/pull/10541",
   "published_at": "2026-09-16T17:21:19Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:30.378Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 13,
+      "objects": 13,
+      "unjoined": 0
     }
   },
   "input_hash": "9c49abbc71f42a6d1497cec3a90315c1619e4a56:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 641375 sustainability collect amount from g l entries track collected entries to prevent double counting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31a1057afe3f8177997aa55e4cc64a21286a11a1c71bc8ecce1161a55760466b"
 }

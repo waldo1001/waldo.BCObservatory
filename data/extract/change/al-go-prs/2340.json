@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2340",
+  "number": 2340,
+  "title": "Add opt-in unpublishOldVersions setting to unpublish stale PTE app versions after deploy",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now supports an opt-in setting to automatically unpublish old, uninstalled versions of Per Tenant Extensions after deployment, keeping the Extension Management list clean and reducing clutter.",
+  "key_points": [
+    "New optional unpublishOldVersions boolean property on DeployTo environment settings, disabled by default",
+    "After deployment, the system identifies and unpublishes only versions that are uninstalled and older than an installed version of the same app",
+    "Uses Automation API v2.0 endpoint Microsoft.NAV.unpublish to perform the cleanup",
+    "Operation is non-fatal and wrapped in error handling to never block deployments",
+    "Only applies to Per Tenant Extension deployment path; existing users see zero behavior change"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "Automatically clean up those stale versions right after a successful deployment.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004602,
+    "changes_in_call": 1
+  }
+}

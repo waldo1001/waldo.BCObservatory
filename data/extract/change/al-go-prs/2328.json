@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2328",
+  "number": 2328,
+  "title": "Use cacheImageName for local development environments",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Local development environments now use the configured cacheImageName setting to enable reuse of cached Business Central images, reducing container creation time by avoiding repeated Business Central installations.",
+  "key_points": [
+    "CreateDevEnv passes cacheImageName to Run-AlPipeline instead of always using an empty imageName",
+    "BcContainerHelper can now reuse artifact-specific cached images when available",
+    "Container creation time is significantly reduced when matching images already exist",
+    "Default cacheImageName value is 'my'; users can disable by setting it to empty string",
+    "Cloud development environment behavior remains unchanged"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004113,
+    "changes_in_call": 1
+  }
+}

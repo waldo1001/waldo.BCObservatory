@@ -6,10 +6,35 @@
   "title": "Align travel request APIs with employee travelers and expense report lifecycle",
   "url": "https://github.com/microsoft/BCApps/pull/11333",
   "published_at": "2026-09-17T17:45:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:18.511Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 13,
+      "objects": 13,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:23.927Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005189
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:24.081Z",
+      "objects": 13,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:24.090Z",
+      "path": "content/changes/bcapps/11333.md"
     }
   },
   "input_hash": "1e87bfc8f2c2527dbed34019555cd1103c2a0273:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "align travel request apis with employee travelers and expense report lifecycle"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21beceaa6682b310f6254b487f022ef77f4a30cbde79200ecd7e45c66bd5ef04"
 }

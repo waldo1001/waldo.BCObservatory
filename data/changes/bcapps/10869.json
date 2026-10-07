@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10869,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10869",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-17T16:51:18Z",
+  "merge_commit_sha": "2de6cf9f9d559427104793b3b1f33c310db0c193",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]-[WHT] Inconsistency with the Payments",
+  "body_hash": "f39221eea482416ec134932365a27c1e6029f007d03d1f6225bb772df57d9cc6",
+  "fixes_issues": [],
+  "work_items": [
+    648516
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/WithholdingTax/Test/src/ERMWithholdingTaxTestsII.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 59,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6785",
+        "type": "codeunit",
+        "id": 6785,
+        "name": "Withholding Tax Mgmt.",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6785"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "WithholdingTax"
+  ]
+}

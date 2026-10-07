@@ -6,10 +6,35 @@
   "title": "[29.x]-[WHT] Inconsistency with the Payments",
   "url": "https://github.com/microsoft/BCApps/pull/10869",
   "published_at": "2026-09-17T16:51:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:19.927Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:24.295Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003037
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:24.510Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:24.515Z",
+      "path": "content/changes/bcapps/10869.md"
     }
   },
   "input_hash": "2de6cf9f9d559427104793b3b1f33c310db0c193:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "wht inconsistency with the payments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb94b8e7461d6daedf046d59115cd798879e701363f7bad8fcac3faeaeba7659"
 }

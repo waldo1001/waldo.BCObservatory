@@ -6,10 +6,35 @@
   "title": "[Master]-Validation of the \"No.\" field on the sales order additionally re-validates the Unit of Measure Code",
   "url": "https://github.com/microsoft/BCApps/pull/11304",
   "published_at": "2026-09-17T11:26:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:28.770Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 13,
+      "objects": 12,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:34.862Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004172
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:35.112Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:35.118Z",
+      "path": "content/changes/bcapps/11304.md"
     }
   },
   "input_hash": "d256a5d92b8f5d2e020da5b90aadb56e3c5f4015:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master validation of the no field on the sales order additionally re validates the unit of measure code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dcd9f6adc436e2c1403fe796e7821278943709816aaf7ec3556e075b42d6689c"
 }

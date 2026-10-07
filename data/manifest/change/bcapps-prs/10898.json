@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30434: add purchase prepayment amount event",
   "url": "https://github.com/microsoft/BCApps/pull/10898",
   "published_at": "2026-09-17T14:34:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:21.207Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 4,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:25.754Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003463
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:25.906Z",
+      "objects": 4,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:25.910Z",
+      "path": "content/changes/bcapps/10898.md"
     }
   },
   "input_hash": "cba95f2f439d5b3a4dba14c082cf5a103a89cfe3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30434 add purchase prepayment amount event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "764794c0fd66591a13b2517f12002eac57dd5045f4909d33a93887b91ecb2e42"
 }

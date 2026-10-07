@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9225",
+  "number": 9225,
+  "title": "[Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Usage data billing filtering in Subscription Line now uses an open-ended filter instead of a bounded range, allowing custom enum values to be included, and adds an integration event to let partners adjust the filters.",
+  "key_points": [
+    "Replaced bounded SetRange with SetFilter to include custom Usage Based Pricing enum values above the original maximum",
+    "Added OnAfterSetUsageDataBillingFilters integration event for extensibility",
+    "Behavior unchanged for existing shipped enum values (ordinals 1-3), None (ordinal 0) still excluded",
+    "Custom partner-added enum values (ordinal ≥4) now included instead of silently dropped",
+    "Low risk change with backward compatibility maintained"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004068,
+    "changes_in_call": 1
+  }
+}

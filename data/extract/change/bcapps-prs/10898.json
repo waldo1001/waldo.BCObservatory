@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10898",
+  "number": 10898,
+  "title": "[Extensibility Request] issue 30434: add purchase prepayment amount event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "An extensibility event allows purchase prepayment amount calculations to be overridden by extensions, matching the existing sales prepayment extensibility.",
+  "key_points": [
+    "Added OnBeforePrepmtAmount event to codeunit 444 Purchase-Post Prepayments",
+    "Event supports overridable result parameter for custom calculation logic",
+    "Event propagated across all localization layers (W1, APAC, ES, IT, NA, NL)",
+    "Provides parity with existing sales prepayment extensibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "changes_in_call": 1
+  }
+}

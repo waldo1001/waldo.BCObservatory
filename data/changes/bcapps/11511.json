@@ -1,0 +1,282 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11511,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11511",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-17T09:54:56Z",
+  "merge_commit_sha": "2eafeb9b17188926991e0393b4e3a3696895db9e",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line",
+  "body_hash": "c4870092240e5a02c52743de97e380fd1e7c4adc8729202beeb0a00caad0f417",
+  "fixes_issues": [],
+  "work_items": [
+    650158
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmWhseActivityPost.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Assembly/SCMWhseAsmToOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 14,
+    "additions": 205,
+    "deletions": 12,
+    "al": 13
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Warehouse/Activity/AsmWhseActivityPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/932",
+        "type": "codeunit",
+        "id": 932,
+        "name": "Asm. Whse. Activity Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/932"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/37"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales",
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2340,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2340",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-17T14:29:00Z",
+  "merge_commit_sha": "a41a641716f909d611fb3df3a69e7b0f71170e7e",
+  "author": "louagej",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add opt-in unpublishOldVersions setting to unpublish stale PTE app versions after deploy",
+  "body_hash": "cd446de218b8718645b64fb9f5e793f648891b39ef793f2007203693fbbb87ff",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/Deploy/Deploy.ps1",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/Deploy/Deploy.psm1",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DetermineDeploymentEnvironments/DetermineDeploymentEnvironments.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/Deploy.Action.Test.ps1",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "Tests/DetermineDeploymentEnvironments.Test.ps1",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "Tests/UnpublishOldAppVersions.Test.ps1",
+      "status": "added",
+      "additions": 207,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 397,
+    "deletions": 6,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/Deploy/Deploy.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/Deploy/Deploy.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DetermineDeploymentEnvironments/DetermineDeploymentEnvironments.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "Bug 648962: Create transfer order shows generic error when existing transfers cover subcontracting demand",
   "url": "https://github.com/microsoft/BCApps/pull/11147",
   "published_at": "2026-09-17T17:40:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:01:19.639Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:01:24.864Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004361
+    },
+    "linked": {
+      "at": "2026-10-07T13:01:25.052Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:01:25.057Z",
+      "path": "content/changes/bcapps/11147.md"
     }
   },
   "input_hash": "e8bf80afd550527ded51ee722bd563a4ea48b295:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648962 create transfer order shows generic error when existing transfers cover subcontracting demand"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2850faa5751d636a09d959196d2ad3cd7005b6cab647d062ed1c11e2f0119c5"
 }

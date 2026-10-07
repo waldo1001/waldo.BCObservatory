@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11324,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11324",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-17T11:31:32Z",
+  "merge_commit_sha": "f9274ccfc1a36724d05dfad2467b6a432fe160e3",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.",
+  "body_hash": "949024ccf2a037c2d08f53e632d09a1061995f8bd3f10f4c63ed60299d0f398f",
+  "fixes_issues": [],
+  "work_items": [
+    649837
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/ShowCurrencyGenLedgSetup.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/ShowCurrencyGenLedgSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/60",
+        "type": "pageextension",
+        "id": 60,
+        "name": "ShowCurrencyGenLedgSetup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/60"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
