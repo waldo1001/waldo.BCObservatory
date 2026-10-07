@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10100",
+  "number": 10100,
+  "title": "[Bug 644091] Separate B2B and B2C HSN summaries in GSTR-1 report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The GSTR-1 report now handles B2B and B2C HSN summaries separately through conditional filtering based on the selected Nature of Supply, with fallback to combined output when no specific category is chosen.",
+  "key_points": [
+    "HSN queries modified to support conditional filtering by Nature of Supply for B2B/B2C separation",
+    "Report Excel generation logic updated to independently summarize B2B and B2C HSN data",
+    "Blank Nature of Supply selection maintains backward compatibility by showing combined HSN output",
+    "Fixes duplicate rows and incorrect totals that occurred when both B2B and B2C data existed for the same HSN",
+    "Addresses GST portal requirements for separate B2B and B2C HSN reporting in GSTR-1"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Separate B2B and B2C HSN summary handling in the GSTR-1 report.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004175,
+    "changes_in_call": 1
+  }
+}

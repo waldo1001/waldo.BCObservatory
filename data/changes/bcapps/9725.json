@@ -1,0 +1,278 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9725,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9725",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T14:49:11Z",
+  "merge_commit_sha": "a49cb9e8ad324681f775e0fd28d738a015008274",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item",
+  "body_hash": "5224d8c3377d84dd2ee02b96b10b083e1be43a93ab46d152cce110b85a6e6f51",
+  "fixes_issues": [],
+  "work_items": [
+    626127
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesEdit.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesObjects.permissionset.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesRead.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 108,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxTransSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxUpgrade.Codeunit.al",
+      "status": "added",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ItemExciseTaxAPI.Page.al",
+      "status": "added",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/page/ItemExciseTaxes.Page.al",
+      "status": "added",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseItemCardExt.PageExt.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/table/ItemExciseTax.Table.al",
+      "status": "added",
+      "additions": 107,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseItemExt.TableExt.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 36,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/ExciseTaxCalculationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 276,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExciseTaxes/test/src/LibraryExciseTax.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustainabilityExcisePostMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 14,
+    "additions": 826,
+    "deletions": 61,
+    "al": 12
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesEdit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7452",
+        "type": "permissionset",
+        "id": 7452,
+        "name": "ExciseTaxes - Edit",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7452"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7450",
+        "type": "permissionset",
+        "id": 7450,
+        "name": "ExciseTaxes - Objects",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7450"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/Permissions/ExciseTaxesRead.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7451",
+        "type": "permissionset",
+        "id": 7451,
+        "name": "ExciseTaxes - Read",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "permissionset/7451"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7412",
+        "type": "codeunit",
+        "id": 7412,
+        "name": "Excise Tax Calculation",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7412"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxTransSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7413",
+        "type": "codeunit",
+        "id": 7413,
+        "name": "Excise Tax Trans Subscriber",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7413"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/codeunit/ExciseTaxUpgrade.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7414",
+        "type": "codeunit",
+        "id": 7414,
+        "name": "Excise Tax Upgrade",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "codeunit/7414"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ItemExciseTaxAPI.Page.al",
+        "status": "added",
+        "key": "page/7417",
+        "type": "page",
+        "id": 7417,
+        "name": "Item Excise Tax API",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7417"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/page/ItemExciseTaxes.Page.al",
+        "status": "added",
+        "key": "page/7416",
+        "type": "page",
+        "id": 7416,
+        "name": "Item Excise Taxes",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "page/7416"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseItemCardExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7415",
+        "type": "pageextension",
+        "id": 7415,
+        "name": "Excise Item Card Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "pageextension/7415"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/table/ItemExciseTax.Table.al",
+        "status": "added",
+        "key": "table/7415",
+        "type": "table",
+        "id": 7415,
+        "name": "Item Excise Tax",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "table/7415"
+      },
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/tableextension/ExciseItemExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7417",
+        "type": "tableextension",
+        "id": 7417,
+        "name": "Excise Item Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "tableextension/7417"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/ExciseTax/SustainabilityExcisePostMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6272",
+        "type": "codeunit",
+        "id": 6272,
+        "name": "Sustainability Excise Post Mgt",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6272"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "sustainability"
+  ],
+  "apps": [
+    "ExciseTaxes",
+    "Sustainability"
+  ]
+}

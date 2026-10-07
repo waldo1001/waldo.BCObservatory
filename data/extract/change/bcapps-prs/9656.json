@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9656",
+  "number": 9656,
+  "title": "[main] - Incorrect Prepayment Invoice Amount for Sales Orders with Invoice Discount, Prices Including VAT and negative non-inventory line.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixes incorrect prepayment invoice amounts for sales orders with invoice discounts, prices including VAT, and negative non-inventory lines by computing expected prepayment amounts line-by-line instead of from the order header.",
+  "key_points": [
+    "Prepayment calculation now uses each line's Amount and Prepayment % instead of header-level amounts",
+    "Excludes negative and non-prepayment lines from prepayment base calculation",
+    "Handles mixed prepayment percentages correctly across order lines",
+    "Rounding correction only applies when there is genuine rounding surplus",
+    "Fixes regression where posted prepayment invoices were understated"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Compute the expected prepayment amount line by line from the actual prepayment lines, using each line's own Amount and Prepayment %",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004073,
+    "changes_in_call": 1
+  }
+}

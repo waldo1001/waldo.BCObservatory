@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10088",
+  "number": 10088,
+  "title": "Harden base ruleset: promote 21 rules back to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "integration"
+  ],
+  "summary": "21 analyzer rules were promoted from Warning back to Error in the base ruleset after measuring violations across all country-specific builds, with source code fixes applied where needed to address the handful of violations found.",
+  "key_points": [
+    "21 rules promoted to Error status: AA0013, AA0189, AA0199, AA0213, AA0230, AA0604, AL0269, AL0424, AL0457, AL0482, AL0551, AL0590, AL0602, AL0775, AL0842, AS0075, AS0079, AS0111, AS0113, AS0126, PTE0017",
+    "Source code fixes applied for formatting, casing, and metadata corrections in 13 files across multiple regions",
+    "3 rules remained as Warning with documented justifications tied to legacy XML permission sets requiring conversion",
+    "Rules with zero violations were promoted outright; rules with violations were fixed at source before promotion",
+    "Base ruleset overrides reduced from 127 to 106"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005387,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10094",
+  "number": 10094,
+  "title": "[Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Standard-cost items now correctly use Standard Cost instead of Direct Unit Cost when calculating expected cost on purchase receipts with cumulative rounding enabled, preventing inventory overstatement and ensuring purchase variance is properly recognized on invoicing.",
+  "key_points": [
+    "Added early exit in ShouldUseCumulativeRoundingForExpectedCost for Standard costing method items",
+    "Prevents Direct Unit Cost from being incorrectly capitalized into inventory for standard-cost purchases",
+    "Preserves cumulative rounding behavior for FIFO, Average, LIFO, and Specific costing methods",
+    "Purchase price differences now correctly post to Purchase Variance on invoicing",
+    "Regression test added to verify standard-cost expected cost calculation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "purchasing"
+  ],
+  "quote": "Standard-cost items fall back to the Unit Cost * Quantity basis and post expected cost at Standard Cost",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004341,
+    "changes_in_call": 1
+  }
+}

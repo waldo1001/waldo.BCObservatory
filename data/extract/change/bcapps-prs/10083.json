@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10083",
+  "number": 10083,
+  "title": "[main]- Negative Shipped and Invoiced Quantities appear on Sales Order Lines after using the Copy Document from a Sales Credit Memo.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Copying a sales credit memo from a posted invoice that contains duplicate items now correctly matches each credit memo line to a distinct invoice line, preventing negative shipped and invoiced quantities on sales order lines.",
+  "key_points": [
+    "Added an overload to GetSalesInvoiceLine that tracks already-consumed invoice lines to avoid duplicate matching",
+    "Introduced FindUnusedSalesInvoiceLine helper method to skip previously matched invoice lines",
+    "UpdateSalesOrderLineIfExist maintains a temporary buffer of resolved invoice lines to prevent reuse across multiple credit memo lines",
+    "Fixes issue where all credit memo lines matched the first invoice line when copying from invoices with duplicate items"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Copy Document does not populate Appl.-from Item Entry on the credit memo lines",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004277,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9962,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9962",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T18:17:30Z",
+  "merge_commit_sha": "e049c0c5a314a5cceec57ffd34e32af2c2b7a99d",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30383: add purchase line transfer event",
+  "body_hash": "d21fe9d7f36c1fcef77ec240bbe33b08cf5a799b269f96afa77e8c11b706a1c5",
+  "fixes_issues": [],
+  "work_items": [
+    644932
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchAvailabilityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchAvailabilityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000973",
+        "type": "codeunit",
+        "id": 99000973,
+        "name": "Purch. Availability Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000973"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

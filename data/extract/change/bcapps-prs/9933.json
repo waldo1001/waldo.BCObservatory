@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9933",
+  "number": 9933,
+  "title": "[MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item Template validation no longer fails with warehouse entry errors when modifying templates after item deletion. The fix prevents warehouse entry checks when validating temporary blank-numbered Item records.",
+  "key_points": [
+    "Item.TestNoWhseEntriesExist now exits immediately for blank Item numbers",
+    "Resolves validation errors when updating Item Templates after deleting items",
+    "Regression test added covering the deleted-item template-update scenario",
+    "Fix applied to Item table across all regional localization layers",
+    "Warehouse entry queries skipped for temporary blank records used in template validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "Modifying an Item Template after deleting an item could fail with a warehouse-entry validation error.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003932,
+    "changes_in_call": 1
+  }
+}

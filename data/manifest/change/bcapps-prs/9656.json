@@ -6,10 +6,35 @@
   "title": "[main] - Incorrect Prepayment Invoice Amount for Sales Orders with Invoice Discount, Prices Including VAT and negative non-inventory line.",
   "url": "https://github.com/microsoft/BCApps/pull/9656",
   "published_at": "2026-08-11T16:07:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:49.135Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 9,
+      "objects": 5,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:54.156Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004073
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:54.411Z",
+      "objects": 5,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:54.419Z",
+      "path": "content/changes/bcapps/9656.md"
     }
   },
   "input_hash": "8b1040092d34c3b3d7734492eeaffabfff42213c:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "incorrect prepayment invoice amount for sales orders with invoice discount prices including vat and negative non inventory line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00c361ed3b775397dca74c436264c541f4a03bb58b2e2fd8cdd5465b23d60803"
 }

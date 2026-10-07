@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9878",
+  "number": 9878,
+  "title": "Add buyer order reference to ZUGFeRD export",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "ZUGFeRD export now includes the buyer order reference as BuyerOrderReferencedDocument to associate invoices with customer purchase orders, matching other German e-document formats.",
+  "key_points": [
+    "External document number is now exported as BuyerOrderReferencedDocument/IssuerAssignedID",
+    "Change applies to ZUGFeRD sales invoices and credit memos",
+    "Aligns ZUGFeRD export with other German e-document format implementations",
+    "Regression test added for posted sales invoice export"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003539,
+    "changes_in_call": 1
+  }
+}

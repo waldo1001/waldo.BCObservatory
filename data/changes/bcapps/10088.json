@@ -1,0 +1,203 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10088,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10088",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T19:26:13Z",
+  "merge_commit_sha": "f53e391e5db610c29c0f1846e715836cf7a0cc85",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Harden base ruleset: promote 21 rules back to Error",
+  "body_hash": "deaacd87227f4263f2e98fe4780a11f2c3de43129dcd344b185fb7a856b0c2cf",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportManagementDE.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Page/SubcontractingOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Bank/Check/Check.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Finance/VAT/Reporting/VATPmtCommXMLGenerator.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/ElectronicCartaPorteMX.Report.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/History/PostedSalesInvoices.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Local/EServices/EDocument/EHFReminder30.XmlPort.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturing70.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/TestTool.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 94,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 32,
+    "deletions": 117,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/GB/BaseApp/Bank/Check/Check.Report.al",
+        "status": "modified",
+        "key": "report/1401",
+        "type": "report",
+        "id": 1401,
+        "name": "Check",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/1401"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Finance/VAT/Reporting/VATPmtCommXMLGenerator.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12150",
+        "type": "codeunit",
+        "id": 12150,
+        "name": "VAT Pmt. Comm. XML Generator",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12150-it"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/ElectronicCartaPorteMX.Report.al",
+        "status": "modified",
+        "key": "report/10480",
+        "type": "report",
+        "id": 10480,
+        "name": "Electronic Carta Porte MX",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10480-ca"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Local/EServices/EDocument/EHFReminder30.XmlPort.al",
+        "status": "modified",
+        "key": "xmlport/10601",
+        "type": "xmlport",
+        "id": 10601,
+        "name": "EHF Reminder 3.0",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "xmlport/10601-no"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/IntrastatDE/app/src/IntrastatReportManagementDE.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Page/SubcontractingOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/History/PostedSalesInvoices.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled",
   "url": "https://github.com/microsoft/BCApps/pull/10094",
   "published_at": "2026-08-11T15:48:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:52.462Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:57.661Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004341
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:57.841Z",
+      "objects": 2,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:57.847Z",
+      "path": "content/changes/bcapps/10094.md"
     }
   },
   "input_hash": "84d12edd6c57ef2e401c2004e9643fbef38c43de:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "standard cost purchase receipts use direct unit cost instead of standard cost when cumulative expected cost rounding is enabled"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15062b2bb5d0291f68e35081dfef390de8e95b258ba67028c7bb9fc0e4735418"
 }

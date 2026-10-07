@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10080",
+  "number": 10080,
+  "title": "Bug 646141: Forward-port Subcontracting Dispatch List action from 28.x to main",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting app gains an app-owned Subcontractor Dispatch List action replacing the legacy Base Application one, while preserving the old action with an obsolete caption to prevent AppSourceCop baseline breaks.",
+  "key_points": [
+    "Added app-owned 'Subcontractor Dispatch List' action to Subcontracting page extension",
+    "Removed obsolete app-side modification of the legacy Base Application action",
+    "Changed Base Application legacy action caption to 'Subcontractor - Dispatch List (Obsolete)' for clarity",
+    "Updated UI tests to reference the new app-owned action identifier",
+    "Resolves AppSourceCop baseline break AS0031 when upgrading to version 28.5.53301.0"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004218,
+    "changes_in_call": 1
+  }
+}

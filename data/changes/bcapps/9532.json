@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9532,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9532",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T14:12:30Z",
+  "merge_commit_sha": "6412825a7fb207f4577e6d5a1714c7776ae0e36a",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master]Error when creating a Pick \"Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking.\"",
+  "body_hash": "6848a8eeb7e3e2b4c1146182a3549f3b9ce8484ac2611eccc8b35e350ba19859",
+  "fixes_issues": [],
+  "work_items": [
+    642378
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehousePick.Codeunit.al",
+      "status": "modified",
+      "additions": 248,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 287,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/CreatePick.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7312",
+        "type": "codeunit",
+        "id": 7312,
+        "name": "Create Pick",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Availability/WarehouseAvailabilityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7314",
+        "type": "codeunit",
+        "id": 7314,
+        "name": "Warehouse Availability Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7314"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,7 +6,7 @@
   "title": "[Quality Management] Enable Bin code selection for transfer disposition in workflow response",
   "url": "https://github.com/microsoft/BCApps/pull/10067",
   "published_at": "2026-08-12T10:15:32Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003021
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:44.983Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:44.988Z",
+      "path": "content/changes/bcapps/10067.md"
     }
   },
   "input_hash": "e085b02aad0286d3e85949c179c33aa9beb5415d:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fd1f5b7e49f44e7a45c554d10734b59775e01502c1f7a30d3e6bce124c0cf50"
+  "output_hash": "cd6267e318ebe86a8ed5411aa7f311b262ab25282def2a98c8d9a2da377fedd3"
 }

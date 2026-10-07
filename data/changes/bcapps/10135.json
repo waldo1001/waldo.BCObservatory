@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10135,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10135",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T06:39:12Z",
+  "merge_commit_sha": "c0cc2e27704b3efca76029f1e5f999bdc34f946e",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy",
+  "body_hash": "e2e44560f9e442314bd60b3f776061527e204b85d8237b7c9a6664a6ab8ce647",
+  "fixes_issues": [],
+  "work_items": [
+    644116
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 0,
+    "deletions": 8,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/254"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/VAT/Ledger/VATEntry.Table.al",
+        "status": "modified",
+        "key": "table/254",
+        "type": "table",
+        "id": 254,
+        "name": "VAT Entry",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/254"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

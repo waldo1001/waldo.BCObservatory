@@ -6,10 +6,18 @@
   "title": "[Master]Error when creating a Pick \"Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking.\"",
   "url": "https://github.com/microsoft/BCApps/pull/9532",
   "published_at": "2026-08-11T14:12:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:55.289Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "6412825a7fb207f4577e6d5a1714c7776ae0e36a:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "master error when creating a pick nothing to handle the quantity to be picked is in bin w 09 0002 which is not set up for picking"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d79c45e3899269070a1f764b272c6209c1285977f3bdbc76af3bfeaabcad9b09"
 }

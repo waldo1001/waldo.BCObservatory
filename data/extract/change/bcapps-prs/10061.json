@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10061",
+  "number": 10061,
+  "title": "[Master]-Payment Reference from Purchase Order Prepayment Invoice is not Transferred to Vendor Ledger Entries.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment reference from purchase order prepayment invoices is now transferred to vendor ledger entries when posting prepayment invoices.",
+  "key_points": [
+    "Payment reference field value is propagated from prepayment invoices to vendor ledger entries",
+    "Changes applied consistently across all localization layers",
+    "Fixes an issue where payment reference data was lost in the prepayment posting process",
+    "Test coverage added to verify correct transfer of payment reference"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "quote": "Payment Reference from Purchase Order Prepayment Invoice is not Transferred to Vendor Ledger Entries.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003973,
+    "changes_in_call": 1
+  }
+}

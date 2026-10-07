@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30383: add purchase line transfer event",
   "url": "https://github.com/microsoft/BCApps/pull/9962",
   "published_at": "2026-08-11T18:17:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:48.866Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:53.474Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003277
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:53.639Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:53.645Z",
+      "path": "content/changes/bcapps/9962.md"
     }
   },
   "input_hash": "e049c0c5a314a5cceec57ffd34e32af2c2b7a99d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30383 add purchase line transfer event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c02fe77352e36129ab7a9ed5ca586fd27e9eb315d5f9f0c464f63331154ca740"
 }

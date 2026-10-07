@@ -6,10 +6,18 @@
   "title": "[main] - Serial and Lot number mismatch when item is produced via Production Order and moved to inventory through an Internal Put-away",
   "url": "https://github.com/microsoft/BCApps/pull/10072",
   "published_at": "2026-08-11T13:39:06Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:55.464Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "cab513e9a422319b1ce8b4e25aeaa564895f6c98:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "serial and lot number mismatch when item is produced via production order and moved to inventory through an internal put away"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f3148c12059db2e1942a8c7cee07b3d27651a41dec62201be8a4190914dc20d"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10130",
+  "number": 10130,
+  "title": "[ExpenseAgent] Expose VatSpecifications on Expense API Page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense API page now exposes VAT specifications through a new part, and a new capability is added to the Expense Agent for backwards compatibility.",
+  "key_points": [
+    "New VAT Specifications part added to the Expense API page",
+    "New capability exposed to Expense Agent for backwards compatibility",
+    "Changes are minimal and validated locally",
+    "No breaking changes or risks identified"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00343,
+    "changes_in_call": 1
+  }
+}

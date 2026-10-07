@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9962",
+  "number": 9962,
+  "title": "[Extensibility Request] issue 30383: add purchase line transfer event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "An IsHandled integration event is published in the purchase availability transfer logic, allowing extensions to handle additional purchase document types like Blanket Orders without encountering unsupported source errors.",
+  "key_points": [
+    "New IsHandled event added to TransferPurchaseLine before the unsupported-source error",
+    "Enables extensions to populate inventory page data for custom purchase document types",
+    "Preserves existing standard behavior for supported document types",
+    "Subscribers can now handle Blanket Orders and other custom purchase document types"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "publishes an IsHandled event immediately before that error so subscribers can populate Inventory Page Data for custom document types",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003277,
+    "changes_in_call": 1
+  }
+}
