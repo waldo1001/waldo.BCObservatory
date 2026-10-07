@@ -1,5 +1,5 @@
 ---
-/** Side column of every information page: where it sits in the galaxy, what sits under the locator (an object's one-hop diagram), and what it connects to (scripts/locator.ts). */
+/** Side column of every information page: where it sits in the galaxy, what sits under the locator (an object's one-hop diagram), and what it connects to (scripts/locator.ts, mounted by the one script of layouts/Page.astro, D76). */
 interface Props { id: string; system: string | null; connections?: boolean }
 const { id, system, connections = true } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -17,21 +17,17 @@ const base = import.meta.env.BASE_URL;
     <ul class="con-list"></ul>
   </section>
 )}
-<script>
-  import { mountConnections, mountLocator } from "../scripts/locator";
-  for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
-  for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
-</script>
-<style>
-  .loc-open { display: block; border: 1px solid var(--line); border-radius: var(--r-panel); overflow: hidden; }
-  .loc-open:hover { border-color: var(--line-strong); }
-  .loc canvas { display: block; width: 100%; height: 180px; }
-  .loc-caption { margin: 6px 0 0; }
-  .con-graph :global(svg) { width: 100%; height: auto; display: block; }
-  .con-graph :global(.c-edge) { stroke: var(--g-edge); stroke-width: 1; }
-  .con-graph :global(.c-me) { fill: var(--g-star-active); stroke: var(--accent-dot); stroke-width: 2; }
-  .con-graph :global(a:hover circle), .con-graph :global(a:focus circle) { stroke: var(--accent-dot); stroke-width: 2; }
-  .con-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 4px; font-size: 14px; }
-  .con-list :global(a) { display: flex; gap: 8px; align-items: center; }
-  .con-list :global(.g-dot) { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
+<style is:global>
+  /* global under the root class: a scoped style puts a data-astro-cid attribute on every element, on every object page (D53, D76) */
+  .loc .loc-open { display: block; border: 1px solid var(--line); border-radius: var(--r-panel); overflow: hidden; }
+  .loc .loc-open:hover { border-color: var(--line-strong); }
+  .loc .loc-open canvas { display: block; width: 100%; height: 180px; }
+  .loc .loc-caption { margin: 6px 0 0; }
+  .con .con-graph svg { width: 100%; height: auto; display: block; }
+  .con .con-graph .c-edge { stroke: var(--g-edge); stroke-width: 1; }
+  .con .con-graph .c-me { fill: var(--g-star-active); stroke: var(--accent-dot); stroke-width: 2; }
+  .con .con-graph a:hover circle, .con .con-graph a:focus circle { stroke: var(--accent-dot); stroke-width: 2; }
+  .con .con-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 4px; font-size: 14px; }
+  .con .con-list a { display: flex; gap: 8px; align-items: center; }
+  .con .con-list .g-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
 </style>
