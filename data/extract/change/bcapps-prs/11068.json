@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11068",
+  "number": 11068,
+  "title": "SOA: Clear previous search filter",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The item search function now clears stale filters before processing a new search, preventing previous results from affecting subsequent searches.",
+  "key_points": [
+    "Removes SystemId filter before each new item search",
+    "Prevents previous search results from restricting new searches",
+    "Ensures empty searches correctly reset the search state",
+    "Fixes search behavior in Sales Order Agent"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Clears the stale SystemId filter before processing a new item search.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00308,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9860,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9860",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-05T18:48:10Z",
+  "merge_commit_sha": "3170e9f6b457c4bf293b9de044547f09b31ebca9",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)",
+  "body_hash": "6018bc681f6e25ff1fe976baff195e72a94cefab481b6e547ec1f981611f1836",
+  "fixes_issues": [
+    8417
+  ],
+  "work_items": [
+    641600
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/EDocItemChargesDE.PageExt.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentDEHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.PageExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 502,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 439,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/demo data/app.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ItemChargeUIDETests.Codeunit.al",
+      "status": "added",
+      "additions": 162,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1391,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ZUGFeRDXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1363,
+      "deletions": 19,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocItemCharge.TableExt.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocItemCharges.PageExt.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/ItemChargeMappingOverride.Enum.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocItemChargeMapping.Codeunit.al",
+      "status": "added",
+      "additions": 378,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/ItemChargeEDocStructure.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/EdocumentService.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Service/ItemChargeEInvoiceMapping.Enum.al",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Mock/EDocItemChrgSubscriber.Codeunit.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocItemChargeSetupTests.Codeunit.al",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocItemChargeTests.Codeunit.al",
+      "status": "added",
+      "additions": 1239,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 21,
+    "additions": 5873,
+    "deletions": 54,
+    "al": 14
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocItemCharge.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6536",
+        "type": "tableextension",
+        "id": 6536,
+        "name": "E-Doc. Item Charge",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "tableextension/6536"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocItemCharges.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6537",
+        "type": "pageextension",
+        "id": 6537,
+        "name": "E-Doc. Item Charges",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6537"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/ItemChargeMappingOverride.Enum.al",
+        "status": "added",
+        "key": "enum/6535",
+        "type": "enum",
+        "id": 6535,
+        "name": "Item Charge Mapping Override",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6535"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocItemChargeMapping.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6246",
+        "type": "codeunit",
+        "id": 6246,
+        "name": "E-Doc. Item Charge Mapping",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6246"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/ItemChargeEDocStructure.Enum.al",
+        "status": "added",
+        "key": "enum/6534",
+        "type": "enum",
+        "id": 6534,
+        "name": "Item Charge E-Doc. Structure",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6534"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EDocumentService.Table.al",
+        "status": "modified",
+        "key": "table/6103",
+        "type": "table",
+        "id": 6103,
+        "name": "E-Document Service",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/EdocumentService.Page.al",
+        "status": "modified",
+        "key": "page/6133",
+        "type": "page",
+        "id": 6133,
+        "name": "E-Document Service",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6133"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Service/ItemChargeEInvoiceMapping.Enum.al",
+        "status": "added",
+        "key": "enum/6533",
+        "type": "enum",
+        "id": 6533,
+        "name": "Item Charge E-Invoice Mapping",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6533"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocItemChargesDE.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentDEHelper.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/EDocumentServiceDE.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration",
+    "inventory"
+  ],
+  "apps": [
+    "EDocument"
+  ],
+  "issues": [
+    {
+      "number": 8417,
+      "title": "[Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)",
+      "state": "closed"
+    }
+  ]
+}

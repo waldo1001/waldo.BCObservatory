@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11040",
+  "number": 11040,
+  "title": "[Agent Archiving] Payables and Expense agent implementation for IAgentArchiving",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "development"
+  ],
+  "summary": "Payables and Expense agents now implement the IAgentArchiving interface to opt out of archiving, with the System Application enforcing archiving restrictions on the Agent List and Agent Card pages.",
+  "key_points": [
+    "Payables Agent and Expense Agent opt out of archiving through dedicated codeunits",
+    "Archive action is disabled on Agent List and Agent Card for agents that do not support archiving",
+    "Agent.Archive method blocks archiving programmatically to prevent bypassing UI restrictions",
+    "Each agent registers its archiving preference similar to how they register IAgentTaskExecution",
+    "No behavior change for agents that do not opt out"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "purchasing",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004158,
+    "changes_in_call": 1
+  }
+}

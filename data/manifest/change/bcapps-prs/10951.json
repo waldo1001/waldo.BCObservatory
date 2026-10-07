@@ -6,10 +6,18 @@
   "title": "[main] bug 648707 - Fix typo in Compensation CZC report paragraph label",
   "url": "https://github.com/microsoft/BCApps/pull/10951",
   "published_at": "2026-09-04T14:37:16Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:27.097Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "f15376127cb96b15269dc1f5beb5b0f2e33ac941:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648707 fix typo in compensation czc report paragraph label"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b8013cd42bd1677a967cb47b5731374e795c8f5c44143b8cfc0ffc32cc170aa"
 }

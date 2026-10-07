@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10884",
+  "number": 10884,
+  "title": "[Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "IRS 1099 subscriber no longer persists journal lines directly, preventing errors when background posting re-validates scheduled lines and allowing the line owner to control persistence.",
+  "key_points": [
+    "Removed SaveChangesInGenJnlLine calls from IRS 1099 subscribers to prevent double-persistence during OnModify re-entry",
+    "Subscribers still derive IRS fields onto records but leave persistence to the owning caller",
+    "OnModify guard remains to protect user edits while allowing background posting to succeed",
+    "Added three test cases to verify scheduled posting syncs IRS data without errors and direct modify guards still work",
+    "No schema, permission, or upgrade impacts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "subscriber only derives the IRS fields onto the record and lets the owning caller persist",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003756,
+    "changes_in_call": 1
+  }
+}

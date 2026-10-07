@@ -6,7 +6,7 @@
   "title": "Remove zero-consumer DotNet alias declarations from test libraries",
   "url": "https://github.com/microsoft/BCApps/pull/11010",
   "published_at": "2026-09-07T14:37:13Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove zero consumer dotnet alias declarations from test libraries"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:04:16.254Z",
+  "retry_after": null
 }

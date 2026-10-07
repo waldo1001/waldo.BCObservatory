@@ -1,0 +1,266 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10489,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10489",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T08:16:23Z",
+  "merge_commit_sha": "a8b40694f855fd65686f6fcf45c1dda684639504",
+  "author": "MSlenejennum",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "MSlenejennum/647452/new header and footer layouts and report themes",
+  "body_hash": "62f84291cffa3d59e781266e2bfc6cc29cfb4a31db5213cb33f01cc5a2125972",
+  "fixes_issues": [],
+  "work_items": [
+    647452
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalDefault.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalDefaultDetailed.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalMinimalistic.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalMinimalisticDetailed.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalModern.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/ExternalModernLogo.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/InternalDefault.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/InternalMinimalistic.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/InternalMinimalisticCentered.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/InternalModern.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/HeaderFooterDesign/InternalModernMaxi.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/ReportTheme/Calm.dotx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/ReportTheme/Default.dotx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/.resources/ReportParts/ReportTheme/Playful.dotx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/BaseAppInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/CompositeReportPartsMgt.Codeunit.al",
+      "status": "added",
+      "additions": 214,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeCompositeReportParts.Codeunit.al",
+      "status": "added",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/CompositeLayoutTests.Codeunit.al",
+      "status": "modified",
+      "additions": 557,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 869,
+    "deletions": 0,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/BaseAppInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5000",
+        "type": "codeunit",
+        "id": 5000,
+        "name": "BaseApp Install",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/CompositeReportPartsMgt.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeCompositeReportParts.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

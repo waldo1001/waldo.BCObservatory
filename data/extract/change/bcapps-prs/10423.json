@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10423",
+  "number": 10423,
+  "title": "Bug 620761: Move subconracting tests from base app to subcontracting app",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting-specific SCM and manufacturing tests moved from the base app to the subcontracting app for better maintainability, and production-order requisition line descriptions are restored after vendor validation using routing line data or work center names.",
+  "key_points": [
+    "Migrated subcontracting test codeunits from base app to dedicated subcontracting test app",
+    "Restored Description and Description 2 fields on production-order requisition lines after vendor validation",
+    "Descriptions populate from matching production routing line or fallback to work center name",
+    "Removed obsolete and app-local disabled-test files",
+    "No changes to quantities, amounts, or posting behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Move subcontracting-specific SCM and manufacturing tests from BaseApp into the Subcontracting test app so the tests are owned and maintained with the feature.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004455,
+    "changes_in_call": 1
+  }
+}

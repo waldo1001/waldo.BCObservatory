@@ -6,7 +6,7 @@
   "title": "Remove 43 unused DotNet alias declarations",
   "url": "https://github.com/microsoft/BCApps/pull/11013",
   "published_at": "2026-09-07T14:42:51Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "refactor",
       "behavior": false,
       "cost_usd": 0.004476
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:14.440Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:14.445Z",
+      "path": "content/changes/bcapps/11013.md"
     }
   },
   "input_hash": "95ff23b4e17cfa0cedfc411a37ac9f989bb7fc18:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61004686e07e78ded15e6a79969c472b8321c24efb360ab1e1830c698171a0b5"
+  "output_hash": "b09bdbd3f7fec4a8b2207b467373a32119d26aefeee888af97f18b832c325207"
 }

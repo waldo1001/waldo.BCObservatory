@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10951,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10951",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-04T14:37:16Z",
+  "merge_commit_sha": "f15376127cb96b15269dc1f5beb5b0f2e33ac941",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 648707 - Fix typo in Compensation CZC report paragraph label",
+  "body_hash": "e49732b9268ab990645d33109c8eeff7e229308bffa24b3976d701ca01e079da",
+  "fixes_issues": [],
+  "work_items": [
+    648707
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CompensationLocalization/app/Src/Reports/CompensationCZC.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CompensationLocalization/app/Src/Reports/CompensationCZC.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

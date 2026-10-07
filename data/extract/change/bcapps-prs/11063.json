@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11063",
+  "number": 11063,
+  "title": "Prevent Sales Order Agent from skipping emails moved into monitored folders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent no longer advances the email sync timestamp after polling, allowing emails moved to monitored folders to be retrieved if they fall within the configured start date instead of being permanently skipped.",
+  "key_points": [
+    "Removed automatic advancement of Earliest Sync At timestamp after email polling",
+    "Moved emails retain their original received timestamp and are no longer excluded from retrieval",
+    "Configured Start Date remains the lower bound for email retrieval",
+    "Previously processed emails are still excluded via Graph's Outlook categorization",
+    "Added regression tests for empty and under-full polling scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "quote": "Stop advancing Earliest Sync At after email polling.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003536,
+    "changes_in_call": 1
+  }
+}

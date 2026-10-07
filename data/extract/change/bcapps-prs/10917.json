@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10917",
+  "number": 10917,
+  "title": "Bug 648535: Reprice subcontracting lines after scheduling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting purchase lines are now repriced after backward scheduling finalizes the order date and manufacturing fields are transferred from requisition lines, ensuring prices reflect the correct effective date.",
+  "key_points": [
+    "Repricing occurs after requisition-to-purchase manufacturing fields are transferred",
+    "Repricing is reapplied when Expected Receipt Date reschedules Order Date",
+    "Repricing is triggered when Order Date is directly validated",
+    "Non-subcontracting purchase lines remain unchanged via existing guards",
+    "Added test coverage for the repricing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Subcontracting purchase lines were priced before backward scheduling had finalized the purchase-line Order Date.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003787,
+    "changes_in_call": 1
+  }
+}

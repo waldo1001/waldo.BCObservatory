@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10335,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10335",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T08:17:07Z",
+  "merge_commit_sha": "d498b125cf73a804d6673fc65ddf963e231f53cf",
+  "author": "rupeshdan",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Unblock bc login due to pp failures",
+  "body_hash": "6294d90a88f240271e8d4d9c8da53596624ccde57e8ac665eee690a211d2ba63",
+  "fixes_issues": [],
+  "work_items": [
+    620236
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerAutomate/FlowServiceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/EnvironmentPickerTest.Codeunit.al",
+      "status": "modified",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 150,
+    "deletions": 8,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerAutomate/FlowServiceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6400",
+        "type": "codeunit",
+        "id": 6400,
+        "name": "Flow Service Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

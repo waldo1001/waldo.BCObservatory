@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10808",
+  "number": 10808,
+  "title": "[master] Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Codeunit 699 now correctly calculates adjustment amounts in exchange rate adjustment ledger entries by using each row's linked detailed entry amount instead of the accumulated total.",
+  "key_points": [
+    "Exchange rate adjustment ledger entries previously showed incorrect accumulated amounts for all rows",
+    "The fix applies the correct per-row detailed entry amount to the Adjustment Amount field",
+    "Affects scenarios where unrealized gains reverse into losses",
+    "Includes test cases for the corrected calculation logic",
+    "Page 186 receives decimal and caption improvements"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003563,
+    "changes_in_call": 1
+  }
+}

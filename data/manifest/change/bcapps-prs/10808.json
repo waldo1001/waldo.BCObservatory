@@ -6,10 +6,35 @@
   "title": "[master] Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.",
   "url": "https://github.com/microsoft/BCApps/pull/10808",
   "published_at": "2026-09-07T13:16:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:16.244Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:20.956Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003563
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:21.107Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:21.112Z",
+      "path": "content/changes/bcapps/10808.md"
     }
   },
   "input_hash": "41d71853865f008446069c9a4a39ecbfba214b84:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master adjustment amount is not accurate in the exch rate adjmt ledger entries page if an unrealized gain gest registered and a second adjustment turns into a loss"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc2f87f34a85fe4a2938a3bf26a4585553215630f82ba412e9536dcc41e2d8c2"
 }

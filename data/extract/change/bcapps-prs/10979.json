@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10979",
+  "number": 10979,
+  "title": "[Master] Promote Excise Taxes action on Item card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Excise Taxes action on the Item Card has been promoted to make it more visible in the Item page's promoted actions, improving discoverability for users.",
+  "key_points": [
+    "Excise Taxes action is now more prominent on the Item Card",
+    "Action appears in the promoted actions section for easier access",
+    "Improves discoverability for users working with excise tax functionality",
+    "Change affects the Excise Item Card Extension page element"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Promote the Excise Taxes action on the Item Card so it is visible in Item/promoted actions and easier to discover.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003304,
+    "changes_in_call": 1
+  }
+}

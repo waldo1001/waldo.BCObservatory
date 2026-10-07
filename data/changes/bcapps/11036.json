@@ -1,0 +1,1008 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11036,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11036",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T14:25:42Z",
+  "merge_commit_sha": "3f8e11d3ab29b343f220d22d561f7e8363549f60",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote four compatibility rules to Error",
+  "body_hash": "2b84784997afde9eb6e72452b5537ca650554bfd51588c491a5df492824fcebd",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicISVIntrastatCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicIntrastatCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365ReadIntrastatCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365TeamMemberIntrCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntelligentCloudIntrCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/LocalIntrastatCZ.PermissionsetExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesCrMemoQRCode.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesInvoiceQRCode.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceCrMemoQRCode.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceInvoiceQRCode.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTStockTransfer/src/page/TransferShipmentQRCode.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubCompRcptLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/Permissions/d365readindiagst.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/enumextension/VoucherEnum.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV1/app/src/permissions/d365automationapiv1.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/app/src/permissions/d365automationapiv2.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Setup/BC14InventoryPostingSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365basicisvmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365basicmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365busfullaccessmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365buspremiummasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365fullaccessmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365readmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365teammembermasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/permissions/intelligentcloudmasterdatamgt.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/pages/MSPayPalStandardSetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/pages/MSPayPalStandardTemplate.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365busfullaccessreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365buspremiumreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365fullaccessreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365readreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365teammemberreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReviewGLEntries/app/permissions/intelligentcloudreviewglentries.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedCheckLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Bank/DirectDebit/DirectDebitCollection.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAEZAGPictures.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/MarketingText/MarketingTextScenario.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Invoicing/O365DeviceSetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/retenpoladminbaseapp.permissionsetext.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/O365IncomingDocAttPict.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 64,
+    "additions": 126,
+    "deletions": 19,
+    "al": 63
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/APIV1/app/src/permissions/d365automationapiv1.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/5503",
+        "type": "permissionsetextension",
+        "id": 5503,
+        "name": "D365 AUTOMATION - APIV1",
+        "app": "APIV1",
+        "cc": "w1",
+        "page": "permissionsetextension/5503"
+      },
+      {
+        "path": "src/Apps/W1/APIV2/app/src/permissions/d365automationapiv2.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/20766",
+        "type": "permissionsetextension",
+        "id": 20766,
+        "name": "D365 AUTOMATION - APIV2",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "permissionsetextension/20766"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Setup/BC14InventoryPostingSetup.Table.al",
+        "status": "modified",
+        "key": "table/46898",
+        "type": "table",
+        "id": 46898,
+        "name": "BC14 Inventory Posting Setup",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46898"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365basicisvmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7234",
+        "type": "permissionsetextension",
+        "id": 7234,
+        "name": "D365 BASIC ISV - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7234"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365basicmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7233",
+        "type": "permissionsetextension",
+        "id": 7233,
+        "name": "D365 BASIC - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7233"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365busfullaccessmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7235",
+        "type": "permissionsetextension",
+        "id": 7235,
+        "name": "D365 BUS FULL ACCESS - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7235"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365buspremiummasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7236",
+        "type": "permissionsetextension",
+        "id": 7236,
+        "name": "D365 BUS PREMIUM - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7236"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365fullaccessmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7237",
+        "type": "permissionsetextension",
+        "id": 7237,
+        "name": "D365 FULL ACCESS - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7237"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365readmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7238",
+        "type": "permissionsetextension",
+        "id": 7238,
+        "name": "D365 READ - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7238"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/d365teammembermasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7240",
+        "type": "permissionsetextension",
+        "id": 7240,
+        "name": "D365 TEAM MEMBER - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7240"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/permissions/intelligentcloudmasterdatamgt.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/7239",
+        "type": "permissionsetextension",
+        "id": 7239,
+        "name": "INTELLIGENT CLOUD - Master Data Mgt.",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "permissionsetextension/7239"
+      },
+      {
+        "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/pages/MSPayPalStandardSetup.Page.al",
+        "status": "modified",
+        "key": "page/1070",
+        "type": "page",
+        "id": 1070,
+        "name": "MS - PayPal Standard Setup",
+        "app": "PayPalPaymentsStandard",
+        "cc": "w1",
+        "page": "page/1070"
+      },
+      {
+        "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/pages/MSPayPalStandardTemplate.Page.al",
+        "status": "modified",
+        "key": "page/1071",
+        "type": "page",
+        "id": 1071,
+        "name": "MS - PayPal Standard Template",
+        "app": "PayPalPaymentsStandard",
+        "cc": "w1",
+        "page": "page/1071"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365busfullaccessreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22217",
+        "type": "permissionsetextension",
+        "id": 22217,
+        "name": "D365 BUS FULL ACCESS - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22217"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365buspremiumreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22216",
+        "type": "permissionsetextension",
+        "id": 22216,
+        "name": "D365 BUS PREMIUM - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22216"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365fullaccessreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22215",
+        "type": "permissionsetextension",
+        "id": 22215,
+        "name": "D365 FULL ACCESS - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22215"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365readreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22214",
+        "type": "permissionsetextension",
+        "id": 22214,
+        "name": "D365 READ - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22214"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/d365teammemberreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22213",
+        "type": "permissionsetextension",
+        "id": 22213,
+        "name": "D365 TEAM MEMBER - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22213"
+      },
+      {
+        "path": "src/Apps/W1/ReviewGLEntries/app/permissions/intelligentcloudreviewglentries.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/22212",
+        "type": "permissionsetextension",
+        "id": 22212,
+        "name": "INTELLIGENT CLOUD - Review G/L Entries",
+        "app": "ReviewGLEntries",
+        "cc": "w1",
+        "page": "permissionsetextension/22212"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Journal/PostDatedCheckLine.Table.al",
+        "status": "modified",
+        "key": "table/28090",
+        "type": "table",
+        "id": 28090,
+        "name": "Post Dated Check Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/28090-au"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Bank/DirectDebit/DirectDebitCollection.Table.al",
+        "status": "modified",
+        "key": "table/1207",
+        "type": "table",
+        "id": 1207,
+        "name": "Direct Debit Collection",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/1207"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAEZAGPictures.Page.al",
+        "status": "modified",
+        "key": "page/3010543",
+        "type": "page",
+        "id": 3010543,
+        "name": "DTA EZAG Pictures",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/3010543-ch"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1803",
+        "type": "page",
+        "id": 1803,
+        "name": "Assisted Company Setup Wizard",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/1803"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/MarketingText/MarketingTextScenario.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/5825",
+        "type": "enumextension",
+        "id": 5825,
+        "name": "Marketing Text Scenario",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enumextension/5825"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Invoicing/O365DeviceSetup.Page.al",
+        "status": "modified",
+        "key": "page/1308",
+        "type": "page",
+        "id": 1308,
+        "name": "O365 Device Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1308"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/retenpoladminbaseapp.permissionsetext.al",
+        "status": "modified",
+        "key": "permissionsetextension/649",
+        "type": "permissionsetextension",
+        "id": 649,
+        "name": "Reten. Pol. Admin - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionsetextension/649"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigWizard.Page.al",
+        "status": "modified",
+        "key": "page/8629",
+        "type": "page",
+        "id": 8629,
+        "name": "Config. Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8629"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1803",
+        "type": "page",
+        "id": 1803,
+        "name": "Assisted Company Setup Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1803"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/O365IncomingDocAttPict.Page.al",
+        "status": "modified",
+        "key": "page/2123",
+        "type": "page",
+        "id": 2123,
+        "name": "O365 Incoming Doc. Att. Pict.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/2123"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicISVIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365BasicIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365ReadIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/D365TeamMemberIntrCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntelligentCloudIntrCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/LocalIntrastatCZ.PermissionsetExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesCrMemoQRCode.page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSales/src/Page/SalesInvoiceQRCode.page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceCrMemoQRCode.page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTService/src/Page/ServiceInvoiceQRCode.page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTStockTransfer/src/page/TransferShipmentQRCode.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubCompRcptLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/Permissions/d365readindiagst.permissionsetext.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/enumextension/VoucherEnum.EnumExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "integration",
+    "platform",
+    "development",
+    "administration",
+    "inventory"
+  ],
+  "apps": [
+    "APIV1",
+    "APIV2",
+    "Base Application",
+    "HybridBC14",
+    "MasterDataManagement",
+    "PayPalPaymentsStandard",
+    "ReviewGLEntries"
+  ]
+}

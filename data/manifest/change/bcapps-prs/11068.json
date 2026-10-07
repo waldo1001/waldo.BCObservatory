@@ -6,10 +6,35 @@
   "title": "SOA: Clear previous search filter",
   "url": "https://github.com/microsoft/BCApps/pull/11068",
   "published_at": "2026-09-04T23:08:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:25.256Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:32.463Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00308
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:32.684Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:32.689Z",
+      "path": "content/changes/bcapps/11068.md"
     }
   },
   "input_hash": "3d4519070fae4b47093e3a191c9bf6fe51f1f417:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa clear previous search filter"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "936b8a28466574b026614a2cbf5979893fad0c02d0e32ae829a243f0a96c53ba"
 }

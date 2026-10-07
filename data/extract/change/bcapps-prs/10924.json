@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10924",
+  "number": 10924,
+  "title": "[main] Bug 648630 Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed availability calculation in Create Pick codeunit to exclude outbound quantities when calculating available inventory for warehouse movements of FEFO lot-tracked items, preventing the worksheet from selecting already-committed lots.",
+  "key_points": [
+    "Corrected CalcTotalAvailQtyToPick to exclude picked-not-shipped quantities in outbound bins",
+    "Movement worksheet now selects correct FEFO lot instead of one fully committed to sales orders",
+    "Availability calculation now considers pending picks and outbound inventory when called from Movement Worksheet",
+    "Prevents movements from attempting to source stock from ship zone",
+    "Regression fix for lot-tracked items with existing picks and movements"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": "Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items When Picked-Not-Shipped and Pending Picks Exist.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003908,
+    "changes_in_call": 1
+  }
+}

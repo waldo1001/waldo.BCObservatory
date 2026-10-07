@@ -6,7 +6,7 @@
   "title": "[main] Bug 648630 Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items",
   "url": "https://github.com/microsoft/BCApps/pull/10924",
   "published_at": "2026-09-07T14:25:42Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:14.979Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003908
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:15.141Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:15.146Z",
+      "path": "content/changes/bcapps/10924.md"
     }
   },
   "input_hash": "b0ddbf3eca7ef6a105b124a0b93985ba55d07856:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eedc28d7865aacc7ea08b98e22acf4453c32c7fa33dbe93107a07afcf011c790"
+  "output_hash": "f7ae3509ecae6096825c01968d613cbd2723112f9a650cd26490e2f237c98b04"
 }

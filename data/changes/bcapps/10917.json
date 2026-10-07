@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10917,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10917",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T13:09:19Z",
+  "merge_commit_sha": "049258b463302e36649979d241a6f122c7eb87c0",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648535: Reprice subcontracting lines after scheduling",
+  "body_hash": "d840c210cc91482dcf4ea10c902cdabff868e94901d0663690bdd7b2d4f94101",
+  "fixes_issues": [],
+  "work_items": [
+    648535
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcReqWkshMakeOrd.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPurchaseLineExt.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcPricingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 180,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 239,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcReqWkshMakeOrd.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20516",
+        "type": "codeunit",
+        "id": 20516,
+        "name": "Subc. Req. Wksh. Make Ord.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20516"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPurchaseLineExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20534",
+        "type": "codeunit",
+        "id": 20534,
+        "name": "Subc. Purchase Line Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20534"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

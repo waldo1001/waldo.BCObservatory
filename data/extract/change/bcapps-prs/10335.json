@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10335",
+  "number": 10335,
+  "title": "Unblock bc login due to pp failures",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Business Central sign-in no longer blocks when Power Platform environment lookup fails. The change handles lookup failures gracefully by logging telemetry for diagnosis while allowing sign-in to proceed.",
+  "key_points": [
+    "Prevents sign-in blocking when linked Power Platform environment lookup fails",
+    "Logs telemetry for diagnosis without surfacing errors to users",
+    "Handles null GUIDs and empty environment responses",
+    "Returns clear error only when no Power Platform tenant is configured",
+    "Includes integration tests for failed, null, valid, and empty-response scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Prevents Business Central sign-in from being blocked when the linked Power Platform environment lookup fails.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003568,
+    "changes_in_call": 1
+  }
+}

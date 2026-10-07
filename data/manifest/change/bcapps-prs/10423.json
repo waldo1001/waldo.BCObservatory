@@ -6,10 +6,35 @@
   "title": "Bug 620761: Move subconracting tests from base app to subcontracting app",
   "url": "https://github.com/microsoft/BCApps/pull/10423",
   "published_at": "2026-09-07T09:03:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:19.287Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:24.644Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004455
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:24.840Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:24.845Z",
+      "path": "content/changes/bcapps/10423.md"
     }
   },
   "input_hash": "8634bb17f58e407e323dbbe04e21fe7707ee7fc2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 620761 move subconracting tests from base app to subcontracting app"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a96536e09d25065958e6be37a729b007c585cec0d222cedc073186fb133331d"
 }

@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/11036",
+  "number": 11036,
+  "title": "Ruleset hardening: promote four compatibility rules to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "integration",
+    "platform",
+    "development",
+    "administration",
+    "inventory"
+  ],
+  "summary": "Four AL compatibility rules (AA0052, PTE0018, AS0099, AW0009) are promoted from warnings to errors in the ruleset by removing overrides and adding targeted pragmas to existing code that preserves compatibility-sensitive patterns.",
+  "key_points": [
+    "AA0052 and PTE0018 rules now error on cross-application permission-set inclusions, with 24 pragmas accepting existing compositions",
+    "AS0099 promotes to error with 6 pragmas covering enum and field IDs where published IDs are preserved for backward compatibility",
+    "AW0009 promotes to error with 33 pragmas on page fields backed by Blob/Bitmap types where Media conversion would require breaking schema changes",
+    "Pragmas are narrowly scoped to actual violations found in analyzer diagnostics, not pattern-based scans",
+    "Rule enforcement becomes stricter going forward, requiring contributors to avoid these patterns or justify narrowly-scoped exceptions"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01254,
+    "changes_in_call": 1
+  }
+}

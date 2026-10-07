@@ -6,10 +6,25 @@
   "title": "MSlenejennum/647452/new header and footer layouts and report themes",
   "url": "https://github.com/microsoft/BCApps/pull/10489",
   "published_at": "2026-09-07T08:16:23Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:23.269Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 7,
+      "objects": 5,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:32.692Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004958
     }
   },
   "input_hash": "a8b40694f855fd65686f6fcf45c1dda684639504:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "mslenejennum 647452 new header and footer layouts and report themes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f131e84b86f74719c025415f545239742ccbe39c206e4f75780d729e31b20914"
 }

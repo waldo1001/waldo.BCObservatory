@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote four compatibility rules to Error",
   "url": "https://github.com/microsoft/BCApps/pull/11036",
   "published_at": "2026-09-07T14:25:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:14.963Z",
+      "change_class": "code",
+      "files": 64,
+      "al": 63,
+      "objects": 31,
+      "unjoined": 32
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:21.325Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.01254
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:21.491Z",
+      "objects": 31,
+      "unjoined": 32,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:21.512Z",
+      "path": "content/changes/bcapps/11036.md"
     }
   },
   "input_hash": "3f8e11d3ab29b343f220d22d561f7e8363549f60:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote four compatibility rules to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24420ab5354739c49291dca70555928c7978058d4462bdbb272cf25adb3e7d3b"
 }
