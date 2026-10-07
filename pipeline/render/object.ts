@@ -266,6 +266,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   }
   if (extendedBy.length) lines.push("## Extended by", "", ...extendedBy.slice(0, REL_CAP).map((e) => `- ${link(e.s)}`), ...(extendedBy.length > REL_CAP ? [`- and ${extendedBy.length - REL_CAP} more`] : []), "");
   if (changes.length) lines.push("## Recent changes", "", ...changes.map((c) => `- ${c.merged_at} [#${c.number} ${cell(c.title)}](${"../".repeat(pageKey.split("/").length)}changes/${c.page}.md) (${c.base}${c.major ? `, BC${c.major}` : ""}, ${c.kind}${c.status !== "modified" ? `, ${c.status}` : ""})`), "");
+  lines.push(...askYourAgent(o, own?.cc ?? null));
   lines.push("## Across versions", "", `- Present in: ${life.versions.map((v) => `BC${v}`).join(", ")}`, `- Changed (declaration) in: ${life.changed.length ? life.changed.map((v) => `BC${v}`).join(", ") : "none"}`,
     ...(o.obsolete && o.obsolete.state !== "No" ? [`- Obsolete: ${o.obsolete.state}${o.obsolete.tag ? ` since ${o.obsolete.tag}` : ""}${o.obsolete.reason ? `, "${cell(o.obsolete.reason)}"` : ""}`] : []), "");
   if (countries.length) lines.push("## Countries that replace it", "", countries.map((cc) => (hasLocalization(cc) ? `[${cc.toUpperCase()}](../../localizations/${cc}.md)` : cc.toUpperCase())).join(", "), "");
@@ -371,6 +372,22 @@ const INHERITED_CAP = 20;
 function inheritedLine(pages: Inherited["pages"], link: (k: string) => string): string {
   const shown = pages.slice(0, INHERITED_CAP).map((p, i) => `${link(p.key)} (${p.docs}${i === 0 ? ` Learn page${p.docs === 1 ? "" : "s"}` : ""})`);
   return `Learn documents this table through its pages: ${shown.join(", ")}${pages.length > INHERITED_CAP ? `, and ${pages.length - INHERITED_CAP} more pages` : ""}.`;
+}
+
+/**
+ * "Ask your agent" (D67, docs/specs/code-atlas.md 2.2): the exact bc-code-atlas call that opens this object's real
+ * source. Built from type and name only (and, for a country's own object, the country); the atlas is external and
+ * MCP-only, so the block names the server and links nothing. No body ever lands here (D10). The atlas's default
+ * corpus is w1-28 (W1 of BC28); a version-aware block is later work (spec section 9).
+ */
+export function askYourAgent(o: Pick<AlObject, "type" | "name">, cc: string | null = null): string[] {
+  const name = o.name.replace(/\s+/g, " ").trim();
+  const note = cc ? `A ${cc.toUpperCase()} country object, not part of W1: the default corpus does not have it; \`bcatlas_list_countries\` shows which countries the atlas has.` : "";
+  return ["## Ask your agent", "",
+    "Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:", "",
+    `- \`bcatlas_resolve_node(object_type: ${JSON.stringify(o.type)}, object_name: ${JSON.stringify(name)})\`, then \`bcatlas_get_neighbors\` or \`bcatlas_get_procedure_body\` on the returned id.`,
+    `- CLI: \`node bc-code-atlas.js resolve-node ${o.type} ${JSON.stringify(name)}\``, "",
+    ...(note ? [note, ""] : [])];
 }
 
 // ---------------------------------------------------------------------------------------------- localizations

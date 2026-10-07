@@ -12,4 +12,6 @@ Use the `bc-observatory` MCP tools; never answer object ids, field numbers or ve
 3. `cat(path)` to read a page; its frontmatter carries `evidence` (URLs, commits, video seconds) and `links`.
 4. `diff_object(type, id, from, to)` for what changed between two versions (28 -> 29, 29 -> 30).
 
+For procedure bodies and the call graph, see `bc-grounding`.
+
 Answer with the tier of each claim (official = Microsoft, community = everyone else), the version it applies to, and the evidence link. If a page is marked unreviewed, say it is machine-generated. If nothing is found, say so; do not guess.
