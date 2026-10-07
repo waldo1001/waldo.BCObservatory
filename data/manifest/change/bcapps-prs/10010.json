@@ -6,10 +6,25 @@
   "title": "Add Report Inbox API pages for automated report retrieval",
   "url": "https://github.com/microsoft/BCApps/pull/10010",
   "published_at": "2026-08-21T13:49:50Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:21.193Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:28.630Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00415
     }
   },
   "input_hash": "d1d057ec261e2c16c574bd9733740586e83a7802:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "add report inbox api pages for automated report retrieval"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b04fe41f36528870f985a79b8c6de15d84d2ca8cb1136be1ad57f4656ecd6933"
 }

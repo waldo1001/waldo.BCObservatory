@@ -6,10 +6,35 @@
   "title": "Block unauthorized Sales Order Agent setup access",
   "url": "https://github.com/microsoft/BCApps/pull/10232",
   "published_at": "2026-08-21T12:41:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:21.336Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:28.367Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003526
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:28.618Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:28.624Z",
+      "path": "content/changes/bcapps/10232.md"
     }
   },
   "input_hash": "c37781dda2e8dc723df1c46def01e122b2c896d8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "block unauthorized sales order agent setup access"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ea43193d6a96f72c56a7b7372529b1b5b57bb110d0e5102018aa27921b6b807"
 }

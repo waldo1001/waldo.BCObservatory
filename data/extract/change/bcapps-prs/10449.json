@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10449",
+  "number": 10449,
+  "title": "Remove permission set ref and move the Page Inspector changes to BCApps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "summary": "Permission set references to an obsoleted table are removed from the page inspector and VS Code integration modules.",
+  "key_points": [
+    "Permission sets referencing the obsolete 'Extension Execution Info' table are cleaned up",
+    "Page Inspector changes consolidated into BCApps from Platform",
+    "Simplified permission set definitions with reduced references",
+    "References removed from D365 Basic Read, Page Inspection, and VS Code Integration Admin permission sets"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003621,
+    "changes_in_call": 1
+  }
+}

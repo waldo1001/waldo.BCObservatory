@@ -6,7 +6,7 @@
   "title": "Simplify CODEOWNERS to a flat team block and stop requesting the org team on every PR",
   "url": "https://github.com/microsoft/BCApps/pull/10491",
   "published_at": "2026-08-21T15:33:09Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "simplify codeowners to a flat team block and stop requesting the org team on every pr"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:08:19.029Z",
+  "retry_after": null
 }

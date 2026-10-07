@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10010",
+  "number": 10010,
+  "title": "Add Report Inbox API pages for automated report retrieval",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Four new API pages expose Report Inbox data through the 'automate' API group, allowing Power Platform and OData clients to discover and download scheduled report outputs across single or multiple companies.",
+  "key_points": [
+    "Adds Report Inbox Items API page to list inbox entries",
+    "Adds Report Inbox Content API page to fetch report artifacts",
+    "Adds Report Inbox File API page to stream report artifacts",
+    "Adds Report Inbox Companies API page to list companies with inbox entries",
+    "Introduces three buffer tables to support the API pages"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00415,
+    "changes_in_call": 1
+  }
+}

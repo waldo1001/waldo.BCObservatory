@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10492,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10492",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T17:27:27Z",
+  "merge_commit_sha": "9d1a9f3d1e087f420cbb8f10dde4b7f651c2d56e",
+  "author": "tomasevicst",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Restrict direct deletion of contact overrides",
+  "body_hash": "a3c63493c9e7f54665351173a33cb8205e1f8ead21c7248574a6952db93b664c",
+  "fixes_issues": [],
+  "work_items": [
+    640656
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskContactOverride.Table.al",
+        "status": "modified",
+        "key": "table/4588",
+        "type": "table",
+        "id": 4588,
+        "name": "SOA Task Contact Override",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "table/4588"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

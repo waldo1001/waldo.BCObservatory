@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10176",
+  "number": 10176,
+  "title": "[Main][all-e]Prepayment Invoice and Quantity Change Issue in Business Central",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Fixed an issue where prepayment invoices were not handled correctly when purchase or sales line quantities were changed, with updates applied across all localizations and new test cases added.",
+  "key_points": [
+    "Bug fix for prepayment invoice handling with quantity changes",
+    "Updates to Purchase Line and Sales Line tables across all localization layers",
+    "New test cases added for prepayment scenarios",
+    "Changes applied consistently to both purchase and sales documents",
+    "Covers APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE, and W1 localizations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005378,
+    "changes_in_call": 1
+  }
+}

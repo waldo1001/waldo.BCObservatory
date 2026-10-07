@@ -1,0 +1,157 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10449,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10449",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-22T02:41:43Z",
+  "merge_commit_sha": "3d9b8bde8dad32b38fcb0a76864e6b3b36493285",
+  "author": "PhDuck",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Remove permission set ref and move the Page Inspector changes to BCApps",
+  "body_hash": "af47aede111d32bb9d0d5f614277626ef0ef0ddb4e8588a30020742711658d3a",
+  "fixes_issues": [],
+  "work_items": [
+    647234
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspection.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionExtensions.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 49,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionVSCodeHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/PageInspection.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/VS Code Integration/Permissions/VSCIntgrAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 28,
+    "deletions": 73,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspection.Page.al",
+        "status": "modified",
+        "key": "page/9631",
+        "type": "page",
+        "id": 9631,
+        "name": "Page Inspection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9631"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionExtensions.Page.al",
+        "status": "modified",
+        "key": "page/9633",
+        "type": "page",
+        "id": 9633,
+        "name": "Page Inspection Extensions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9633"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PageInspection/PageInspectionVSCodeHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5378",
+        "type": "codeunit",
+        "id": 5378,
+        "name": "Page Inspection VS Code Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5378"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/PageInspection.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5377",
+        "type": "permissionset",
+        "id": 5377,
+        "name": "Page Inspection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5377"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/209",
+        "type": "permissionset",
+        "id": 209,
+        "name": "D365 Basic - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/209"
+      },
+      {
+        "path": "src/System Application/App/VS Code Integration/Permissions/VSCIntgrAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8335",
+        "type": "permissionset",
+        "id": 8335,
+        "name": "VSC Intgr. - Admin",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/8335"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "apps": [
+    "Base Application",
+    "System Application"
+  ]
+}

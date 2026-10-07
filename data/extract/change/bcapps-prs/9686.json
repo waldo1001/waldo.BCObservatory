@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9686",
+  "number": 9686,
+  "title": "[Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Foreign currency unrealized gain/loss posting now selects the correct payables account when multiple posting groups are used, fixing an issue where wrong accounts were chosen during multi-posting group transactions.",
+  "key_points": [
+    "Fixed account selection logic in foreign currency unrealized gain/loss calculations",
+    "Addresses multi-posting group scenarios in FCY applications",
+    "Corrected payables account determination in General Journal posting routine",
+    "Includes test coverage for bank payment application scenarios",
+    "Applied consistently across all localization layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00385,
+    "changes_in_call": 1
+  }
+}

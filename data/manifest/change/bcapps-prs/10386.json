@@ -6,10 +6,35 @@
   "title": "[Agent Archiving] Prevent archived custom agents from being modified",
   "url": "https://github.com/microsoft/BCApps/pull/10386",
   "published_at": "2026-08-21T19:00:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:12.132Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:17.851Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004652
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:17.999Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:18.005Z",
+      "path": "content/changes/bcapps/10386.md"
     }
   },
   "input_hash": "4543fdc956c32b7c7c2b579dfb6b0192a3f099d0:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "agent archiving prevent archived custom agents from being modified"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3f7418cb5043c47f5fff3d8356d84d23f6963b06fb6d2a0de061d7ead8b04d9"
 }

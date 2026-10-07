@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10487",
+  "number": 10487,
+  "title": "Add integration event before inserting the cost allocation journal line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Cost Allocation report now exposes an integration event that allows extensions to modify cost journal lines before they are inserted into the temporary journal.",
+  "key_points": [
+    "New integration event OnWriteJournalLineOnBeforeInsertTempCostJournalLine added to Cost Allocation report",
+    "Event fires before each temporary cost journal line is inserted",
+    "Event passes the journal line by reference and the Cost Allocation Source for context",
+    "Purely additive change with no impact on existing logic or data",
+    "Provides extension point for customizing cost allocation data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "adds the integration event OnWriteJournalLineOnBeforeInsertTempCostJournalLine right before the temporary line insert",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003452,
+    "changes_in_call": 1
+  }
+}

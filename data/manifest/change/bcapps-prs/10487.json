@@ -6,10 +6,35 @@
   "title": "Add integration event before inserting the cost allocation journal line",
   "url": "https://github.com/microsoft/BCApps/pull/10487",
   "published_at": "2026-08-21T18:23:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:13.599Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:18.524Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003452
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:18.673Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:18.678Z",
+      "path": "content/changes/bcapps/10487.md"
     }
   },
   "input_hash": "c1738f2408798c7af0cffab8cb8f65a0ac279194:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "add integration event before inserting the cost allocation journal line"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d6c91b5c1a4fae4352a2810d1c9afa5b58f22dd1c671445b53104abf160ffbe"
 }

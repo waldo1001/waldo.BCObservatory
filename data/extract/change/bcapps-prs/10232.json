@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10232",
+  "number": 10232,
+  "title": "Block unauthorized Sales Order Agent setup access",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The SOA Setup page now validates user permissions before allowing access to Sales Order Agent configuration, preventing unauthorized users from bypassing agent authorization controls.",
+  "key_points": [
+    "Added permission check on SOA Setup page using Agent System Permissions API",
+    "Validates CurrentUserCanManageAgent when page opens",
+    "Requires Configure All Agents permission for unfiltered direct navigation",
+    "Preserves per-agent Can Configure access control",
+    "Closes authorization bypass vulnerability"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003526,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10214",
+  "number": 10214,
+  "title": "[Main]Posting Error with 50% Non-Deductible VAT when \"Check Source Currency Consistency\" is enabled in \"General Ledger Setup\" page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a posting error that occurred when posting purchase documents with 50% non-deductible VAT in a foreign currency while source currency consistency checking was enabled. The source currency VAT amount for deductible VAT entries now correctly excludes the non-deductible portion.",
+  "key_points": [
+    "Posting with partial non-deductible VAT and foreign currency now succeeds when source currency consistency checking is enabled",
+    "Source currency VAT amount for deductible VAT entries adjusted to exclude non-deductible VAT portion",
+    "Fixes unbalanced general ledger source currency totals that previously triggered consistency validation errors",
+    "Changes applied across all regional and base application variants"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Posting Error with 50% Non-Deductible VAT when \"Check Source Currency Consistency\" is enabled in \"General Ledger Setup\" page",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004629,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10010,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10010",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T13:49:50Z",
+  "merge_commit_sha": "d1d057ec261e2c16c574bd9733740586e83a7802",
+  "author": "anordmann",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add Report Inbox API pages for automated report retrieval",
+  "body_hash": "64d2edf5399ef519f916accd903d2dcb90dd64cef0b3da4bf856e123189cc2bc",
+  "fixes_issues": [],
+  "work_items": [
+    645163
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/DisabledTests/Tests-Report/Tests-Report.DisabledTest.json",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompaniesAPI.Page.al",
+      "status": "added",
+      "additions": 101,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompanyBuffer.Table.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxContentAPI.Page.al",
+      "status": "added",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileAPI.Page.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileBuffer.Table.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemBuffer.Table.al",
+      "status": "added",
+      "additions": 88,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemsAPI.Page.al",
+      "status": "added",
+      "additions": 225,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/ReportInboxAPIE2E.Codeunit.al",
+      "status": "added",
+      "additions": 624,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 1415,
+    "deletions": 0,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompaniesAPI.Page.al",
+        "status": "added",
+        "key": "page/694",
+        "type": "page",
+        "id": 694,
+        "name": "Report Inbox Companies API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/694"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxCompanyBuffer.Table.al",
+        "status": "added",
+        "key": "table/478",
+        "type": "table",
+        "id": 478,
+        "name": "Report Inbox Company Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/478"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxContentAPI.Page.al",
+        "status": "added",
+        "key": "page/691",
+        "type": "page",
+        "id": 691,
+        "name": "Report Inbox Content API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/691"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileAPI.Page.al",
+        "status": "added",
+        "key": "page/692",
+        "type": "page",
+        "id": 692,
+        "name": "Report Inbox File API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/692"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxFileBuffer.Table.al",
+        "status": "added",
+        "key": "table/476",
+        "type": "table",
+        "id": 476,
+        "name": "Report Inbox File Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/476"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemBuffer.Table.al",
+        "status": "added",
+        "key": "table/473",
+        "type": "table",
+        "id": 473,
+        "name": "Report Inbox Item Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/473"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/ReportInboxItemsAPI.Page.al",
+        "status": "added",
+        "key": "page/690",
+        "type": "page",
+        "id": 690,
+        "name": "Report Inbox Items API",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/690"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

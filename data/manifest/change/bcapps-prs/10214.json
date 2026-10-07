@@ -6,10 +6,35 @@
   "title": "[Main]Posting Error with 50% Non-Deductible VAT when \"Check Source Currency Consistency\" is enabled in \"General Ledger Setup\" page",
   "url": "https://github.com/microsoft/BCApps/pull/10214",
   "published_at": "2026-08-21T19:35:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:12.305Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:17.445Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004629
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:17.586Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:17.591Z",
+      "path": "content/changes/bcapps/10214.md"
     }
   },
   "input_hash": "37f845fe0842eed644bb4a8567d51726060266b9:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "posting error with 50 non deductible vat when check source currency consistency is enabled in general ledger setup page"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e98cc75cdd23186b812a6c4c27b245f2fe4f97c4276ab5f8f3ae47fac20c4df2"
 }

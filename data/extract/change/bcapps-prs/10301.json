@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10301",
+  "number": 10301,
+  "title": "[Master]-Bug 646962: Withholding Tax Posting Setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Withholding Tax Posting Setup now validates that certain options are only available for employee-related withholding taxes, and blocks threshold period selection when inappropriate. This prevents misconfiguration when setting up withholding tax rules for vendors.",
+  "key_points": [
+    "Restricts Calculation Base = Net to employee-only withholding taxes",
+    "Restricts Calculation Method = Compound to employee-only withholding taxes",
+    "Restricts non-Record/Line Withholding Threshold Base to employee-only taxes",
+    "Blocks Withholding Threshold Period selection unless Threshold Base is Category in Period or Total in Period",
+    "Displays error messages when invalid option combinations are attempted"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Block them showing error message that this option can be used only when withholding tax is for employees.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003591,
+    "changes_in_call": 1
+  }
+}

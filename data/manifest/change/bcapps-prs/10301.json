@@ -6,7 +6,7 @@
   "title": "[Master]-Bug 646962: Withholding Tax Posting Setup",
   "url": "https://github.com/microsoft/BCApps/pull/10301",
   "published_at": "2026-08-21T19:56:12Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:11.620Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003591
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:11.754Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:11.760Z",
+      "path": "content/changes/bcapps/10301.md"
     }
   },
   "input_hash": "d3ac2d051f09194d81335e5150802b275f12941a:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb270c1f3a82daa6a2cadcd66c0fe12f22f1e05a09cffb7c686f196d88796094"
+  "output_hash": "0f6d52e4014071dbe5a895678912e5329d6686628da6b799d437a54dc97c6706"
 }

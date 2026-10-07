@@ -6,10 +6,35 @@
   "title": "[Main][all-e]Prepayment Invoice and Quantity Change Issue in Business Central",
   "url": "https://github.com/microsoft/BCApps/pull/10176",
   "published_at": "2026-08-21T18:37:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:13.382Z",
+      "change_class": "code",
+      "files": 28,
+      "al": 26,
+      "objects": 25,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:20.546Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005378
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:20.748Z",
+      "objects": 25,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:20.760Z",
+      "path": "content/changes/bcapps/10176.md"
     }
   },
   "input_hash": "8f909b2fe3ecf9187bb2646f95fe5f9d4143b67d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e prepayment invoice and quantity change issue in business central"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3295618d090ce1e8a0c494738026551d262e7ce10f0785c89561e2f3e6a530bd"
 }

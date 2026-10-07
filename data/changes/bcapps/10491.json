@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10491,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10491",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T15:33:09Z",
+  "merge_commit_sha": "318f561cdc9945ec386295adef6ee7151d0ac50e",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Simplify CODEOWNERS to a flat team block and stop requesting the org team on every PR",
+  "body_hash": "9f48e45d1e4bfcbed64ec8d90236c6527b3d611ec7b33389d1644fb4ed3e660d",
+  "fixes_issues": [],
+  "work_items": [
+    642155
+  ],
+  "change_class": "docs",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 109,
+    "deletions": 561,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10232,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10232",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-21T12:41:09Z",
+  "merge_commit_sha": "c37781dda2e8dc723df1c46def01e122b2c896d8",
+  "author": "attilatoury",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Block unauthorized Sales Order Agent setup access",
+  "body_hash": "67ce8011476ff0d301be5adf582262956b51bec380ea7faad943b02c711fe5d5",
+  "fixes_issues": [],
+  "work_items": [
+    640825
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+        "status": "modified",
+        "key": "page/4400",
+        "type": "page",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

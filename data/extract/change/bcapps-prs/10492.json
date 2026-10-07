@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10492",
+  "number": 10492,
+  "title": "[SOA] Restrict direct deletion of contact overrides",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The SOA Task Contact Override table restricts direct deletion by removing the inherent delete permission, while preserving legitimate deletions through validated code paths.",
+  "key_points": [
+    "Inherent delete permission removed from table to prevent unauthorized direct deletion via RecordRef or similar mechanisms",
+    "Deletion still available through SOA Filters Impl codeunit which validates access before removing records",
+    "Insert, modify, read and contact-routing operations unchanged",
+    "Prevents bypassing contact-mapping authorization checks",
+    "No data migration or backward compatibility issues"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "Deletion remains available through SOA Filters Impl., which validates access and has direct delete permission.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003346,
+    "changes_in_call": 1
+  }
+}

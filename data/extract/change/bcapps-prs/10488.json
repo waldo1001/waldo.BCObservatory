@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10488",
+  "number": 10488,
+  "title": "Add integration event before inserting the outgoing IC sales line buffer",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "An integration event now fires before each outgoing intercompany sales line buffer is inserted, allowing extensions to enrich line data before it enters the API payload.",
+  "key_points": [
+    "New event OnPostICSalesLineToICPartnerInboxOnBeforeBufferICInboxSalesLineInsert fires per sales line",
+    "Event fires after TransferFields and before buffer insert in the outgoing IC flow",
+    "Mirrors existing before-insert events for sales and purchase headers",
+    "Extensions can now enhance outgoing IC sales lines at the API level",
+    "Additive change with no impact on existing logic or data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "extensions can enrich each outgoing sales line before it reaches the API payload",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003432,
+    "changes_in_call": 1
+  }
+}

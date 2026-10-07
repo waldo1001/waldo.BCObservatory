@@ -6,7 +6,7 @@
   "title": "Extend French Peppol exports for CTC and participant routing",
   "url": "https://github.com/microsoft/BCApps/pull/9639",
   "published_at": "2026-08-21T17:02:28Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "extend french peppol exports for ctc and participant routing"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:08:16.893Z",
+  "retry_after": null
 }
