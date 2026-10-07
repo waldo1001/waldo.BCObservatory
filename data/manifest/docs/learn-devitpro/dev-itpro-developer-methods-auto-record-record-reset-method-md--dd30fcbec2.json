@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-reset-method",
   "published_at": "2026-10-07T12:07:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.497Z",
-      "blob": "56c71b7ef60f8828223a6fb6ebb3afd7e6b29a09",
+      "at": "2026-10-07T18:13:06.276Z",
+      "blob": "14815c4e3872e59b083f4bbc2a1ae5f00c97c640",
       "words": 114,
       "forms": 0
     }
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/methods-auto/record/record-reset-method.md",
     "description": "Removes all filters, including any special filters set by MarkedOnly, changes fields select for loading back to all, sets the read isolation level to the default value, and changes the current key to the primary key.",
-    "ms_date": "2025-02-18",
+    "ms_date": "2026-10-01",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
@@ -35,5 +35,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56c71b7ef60f8828223a6fb6ebb3afd7e6b29a09"
+  "output_hash": "14815c4e3872e59b083f4bbc2a1ae5f00c97c640"
 }
