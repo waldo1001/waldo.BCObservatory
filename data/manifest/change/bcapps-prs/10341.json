@@ -6,10 +6,35 @@
   "title": "Remove Anthropic privacy notice from Expense Agent",
   "url": "https://github.com/microsoft/BCApps/pull/10341",
   "published_at": "2026-08-19T09:00:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:25.676Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:30.720Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": true,
+      "cost_usd": 0.003491
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:30.884Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:30.890Z",
+      "path": "content/changes/bcapps/10341.md"
     }
   },
   "input_hash": "c04309384c7e5e733bbde56110c0fac01214a12a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove anthropic privacy notice from expense agent"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c5c2a7b188033b14e303bb80326a127711b0f75709a94e68c6b2ec6700660a2"
 }

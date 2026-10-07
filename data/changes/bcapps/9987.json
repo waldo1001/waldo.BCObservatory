@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9987,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9987",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T16:42:28Z",
+  "merge_commit_sha": "567c7038a651d73a51387b52f2f62beea3cc144a",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Payment Management FR data update paths and per-company feature status",
+  "body_hash": "6530a07e51b618c576007da406bf5ffee8be4b994d3207340c8a2ee6b047c693",
+  "fixes_issues": [],
+  "work_items": [
+    645208
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/FeaturePaymentMgtFR.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 229,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentDataMigrationFR.Codeunit.al",
+      "status": "added",
+      "additions": 277,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgTagPaymentManagementFR.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgradePaymentManagementFR.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 139,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/GovTalk/app/src/Codeunits/FeatureGovTalk.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReportsGB/app/src/Codeunits/FeatureReportsGB.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/FeatureReverseChargeVAT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 332,
+    "deletions": 389,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/FeaturePaymentMgtFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/PaymentDataMigrationFR.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgTagPaymentManagementFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Codeunits/UpgradePaymentManagementFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/GovTalk/app/src/Codeunits/FeatureGovTalk.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ReportsGB/app/src/Codeunits/FeatureReportsGB.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/FeatureReverseChargeVAT.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

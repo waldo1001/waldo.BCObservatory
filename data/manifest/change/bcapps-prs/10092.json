@@ -6,7 +6,7 @@
   "title": "[Shopify] Add cues for Skipped Records and API Errors on Activities page",
   "url": "https://github.com/microsoft/BCApps/pull/10092",
   "published_at": "2026-08-19T13:13:00Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003893
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:22.537Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:22.542Z",
+      "path": "content/changes/bcapps/10092.md"
     }
   },
   "input_hash": "7ab5ae2f35fad8d93920f0b48c1bfb84f6bf5b78:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df0533a692b2c995e80c25bb5d6ef6c926d70c8d6c6a9e0db7feb15062d1d8fa"
+  "output_hash": "f6fcc686fade99c8af8e6cbd556bd8cf6cd320c0a50be8c8d6e8db595a5bc313"
 }

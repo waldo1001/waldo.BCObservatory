@@ -6,10 +6,35 @@
   "title": "feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries",
   "url": "https://github.com/microsoft/BCApps/pull/9478",
   "published_at": "2026-08-19T09:09:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:25.482Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:31.757Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004285
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:31.932Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:31.938Z",
+      "path": "content/changes/bcapps/9478.md"
     }
   },
   "input_hash": "07c3bb33ee95951bc9701961b879f8eb4fe766af:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "feat sustainability add reverse transaction for sustainability ledger entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "090e0605e01e94c99d281f2aceb4bea734aa89ade91078decf6f653c731a6017"
 }

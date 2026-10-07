@@ -6,10 +6,35 @@
   "title": "Let subscribers override the half-year new year date in SetHalfYearConventionMethod",
   "url": "https://github.com/microsoft/BCApps/pull/10337",
   "published_at": "2026-08-19T09:40:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:24.350Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 3,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:29.358Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003915
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:29.525Z",
+      "objects": 3,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:29.539Z",
+      "path": "content/changes/bcapps/10337.md"
     }
   },
   "input_hash": "d1e0b77e1237446094b70fb01c11f110caec4a0d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "let subscribers override the half year new year date in sethalfyearconventionmethod"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9211760beb9012523086d4416813bfdbf8ddcd8906a48ab50be6cc6306f61f00"
 }

@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10204,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10204",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T08:52:42Z",
+  "merge_commit_sha": "2b38ea0297f3e1539aa0dbf21c8c645b2b326e36",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Warm up container before parallel test dispatch",
+  "body_hash": "53047311efd33c93271c6910767639ca7bd0412e3c2d3e5c320a620507881b77",
+  "fixes_issues": [],
+  "work_items": [
+    646706
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 3,
+    "additions": 182,
+    "deletions": 10,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

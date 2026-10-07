@@ -6,10 +6,18 @@
   "title": "[Main] -Drop shipment undo receipt fails for service and non-inventory items.",
   "url": "https://github.com/microsoft/BCApps/pull/10290",
   "published_at": "2026-08-18T14:34:15Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:34.159Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
     }
   },
   "input_hash": "fd0372fdf3540a00a6b00f76261d853a2985f96c:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "drop shipment undo receipt fails for service and non inventory items"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0dbccf7812d2633053376c9431d283d338d54f0adc486b2a87a8d0e56c63f5a4"
 }

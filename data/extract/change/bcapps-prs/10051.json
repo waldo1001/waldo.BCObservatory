@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10051",
+  "number": 10051,
+  "title": "Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability",
+    "development"
+  ],
+  "summary": "Preview posting in sustainability journals no longer creates gaps in Sustainability Ledger Entry numbers by intercepting inserts before database persistence and using temporary in-memory rows instead of consuming AutoIncrement identities.",
+  "key_points": [
+    "Preview posting collects sustainability ledger entries in memory instead of physically inserting them to avoid consuming AutoIncrement identity numbers",
+    "Adds interception logic to shared insert operation to redirect preview rows to temporary storage",
+    "Normal posting behavior remains unchanged and maintains sequential numbering",
+    "Comprehensive regression tests verify entry number continuity across journal types including general journal, purchase credit memo, recurring journals, and fixed asset journals",
+    "Multiple preview operations no longer burn entry numbers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability"
+  ],
+  "quote": "Preview no longer inserts real Sustainability Ledger Entries.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003899,
+    "changes_in_call": 1
+  }
+}

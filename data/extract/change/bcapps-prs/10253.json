@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10253",
+  "number": 10253,
+  "title": "Avoid starting a write transaction under `ShowCanCreateAgent`",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Payables Agent Setup now calls ShowCanCreateAgent after committing transactions to prevent write transaction conflicts when third-party code modifies records.",
+  "key_points": [
+    "ShowCanCreateAgent is invoked after the Commit statement, not before",
+    "Prevents write transaction conflicts with third-party extensions that modify records and then call Confirm",
+    "Aligns with platform-side changes addressing the root cause in bug 646707",
+    "Affects both the Payables Agent Setup codeunit and table"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003261,
+    "changes_in_call": 1
+  }
+}

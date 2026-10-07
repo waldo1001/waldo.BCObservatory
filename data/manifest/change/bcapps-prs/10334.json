@@ -6,10 +6,35 @@
   "title": "Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.",
   "url": "https://github.com/microsoft/BCApps/pull/10334",
   "published_at": "2026-08-19T08:47:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:26.684Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:31.555Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003517
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:31.716Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:31.722Z",
+      "path": "content/changes/bcapps/10334.md"
     }
   },
   "input_hash": "029fc0c6ef0aedf4631c2c629849587be905e760:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "add integration event onaftergetrecordonafterconfirmandmodify in the general posting setup dataitem onaftergetrecord trigger after modify"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3fa76e771941a122ca062813e7c1298fb67be1a76999ee5c60fe90d03f4c4f39"
 }

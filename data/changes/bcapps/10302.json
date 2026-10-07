@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10302,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10302",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T14:34:15Z",
+  "merge_commit_sha": "72784b4e01448f84b7e23208f0f9f34b918274e1",
+  "author": "tomasevicst",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Clarify contact mapping options for unknown email senders",
+  "body_hash": "9713ab827cd1d0c367451539ec979e33dba13f868149416ad18af02b3e8222bb",
+  "fixes_issues": [],
+  "work_items": [
+    640618
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4305",
+        "type": "codeunit",
+        "id": 4305,
+        "name": "SOA Filters Impl.",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

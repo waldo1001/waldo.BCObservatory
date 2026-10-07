@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9478",
+  "number": 9478,
+  "title": "feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Users can now reverse posted Sustainability Ledger Entries manually from the page or automatically when their originating G/L transaction is reversed, with all emission fields negated and the reversal posted on the original entry's date.",
+  "key_points": [
+    "Manual reversal action added to Sustainability Ledger Entries page with confirmation",
+    "Automatic reversal triggered when a G/L transaction that produced sustainability entries is reversed",
+    "New fields track reversal status: Reversed, Reversed by Entry No., Reversed Entry No.",
+    "All emission fields (CO2, CH4, N2O, CO2e, Carbon Fee, Water, Waste, Energy) are negated in the reversal entry",
+    "Reversal entry posted on original entry's date to ensure emissions net to zero within same period"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "finance"
+  ],
+  "quote": "Add the ability to reverse posted Sustainability Ledger Entries, matching the established G/L reversal pattern.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004285,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 7546,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/7546",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T18:47:00Z",
+  "merge_commit_sha": "7e34876a054339f0ad3439fea4dc9cff64df6171",
+  "author": "dayland",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Payables Agent] Agent-driven line matching",
+  "body_hash": "c40cc171fe3e3a49d7e41bdc870ab6c7e1cc42ce5db9800460f0f3237e090ebe",
+  "fixes_issues": [],
+  "work_items": [
+    607916
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/app.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/PreparePurchaseEDocDraft.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/History/EDocHistLineDataLoader.Codeunit.al",
+      "status": "added",
+      "additions": 196,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/History/EDocHistoricalLinesList.Page.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/.resources/Prompts/PayablesAgent-AgentInstructions-AgentDriven.md",
+      "status": "added",
+      "additions": 428,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PADeferralTemplateList.PageCust.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItems.PageCust.al",
+      "status": "added",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 93,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 17,
+    "additions": 1249,
+    "deletions": 6,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/PreparePurchaseEDocDraft.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6125",
+        "type": "codeunit",
+        "id": 6125,
+        "name": "Prepare Purchase E-Doc. Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6125"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+        "status": "modified",
+        "key": "page/6183",
+        "type": "page",
+        "id": 6183,
+        "name": "E-Doc. Purchase Draft Subform",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6183"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/History/EDocHistLineDataLoader.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6244",
+        "type": "codeunit",
+        "id": 6244,
+        "name": "E-Doc. Hist. Line Data Loader",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6244"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/History/EDocHistoricalLinesList.Page.al",
+        "status": "added",
+        "key": "page/6186",
+        "type": "page",
+        "id": 6186,
+        "name": "E-Doc. Historical Lines List",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6186"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa chart of accounts",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Chart of Accounts",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-chart-of-accounts"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PADeferralTemplateList.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa deferral template list",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Deferral Template List",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-deferral-template-list"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al",
+        "status": "modified",
+        "key": "pagecustomization/pa edoc purchase draft subform",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA EDoc Purchase Draft Subform",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-edoc-purchase-draft-subform"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa hist. purchase lines",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Hist. Purchase Lines",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-hist-purchase-lines"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa item reference entries",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Item Reference Entries",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-item-reference-entries"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItems.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa items",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Items",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-items"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al",
+        "status": "added",
+        "key": "pagecustomization/pa text-to-account mapping",
+        "type": "pagecustomization",
+        "id": null,
+        "name": "PA Text-to-Account Mapping",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "pagecustomization/pa-text-to-account-mapping"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al",
+        "status": "modified",
+        "key": "profile/payables agent",
+        "type": "profile",
+        "id": null,
+        "name": "Payables Agent",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "profile/payables-agent"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3307",
+        "type": "codeunit",
+        "id": 3307,
+        "name": "Payables Agent Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3307"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/3303",
+        "type": "table",
+        "id": 3303,
+        "name": "Payables Agent Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "table/3303"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "PayablesAgent"
+  ]
+}

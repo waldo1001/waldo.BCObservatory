@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10256",
+  "number": 10256,
+  "title": "[Shopify] Fix customer matching when phone numbers contain spaces",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify connector now normalizes phone numbers before search and verifies exact matches when finding existing customers, fixing incorrect duplicates with formatted phone numbers.",
+  "key_points": [
+    "Phone numbers are normalized to digits and plus sign before Shopify search",
+    "Search results are validated for exact phone and email matches",
+    "GraphQL queries now return phone and email fields for verification",
+    "Test coverage added for phone normalization and partial match rejection"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Normalize the phone to + and digits before sending it to Shopify",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003478,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Payables Agent] Agent-driven line matching",
   "url": "https://github.com/microsoft/BCApps/pull/7546",
   "published_at": "2026-08-18T18:47:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:30.711Z",
+      "change_class": "code",
+      "files": 17,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:36.496Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005498
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:40.454Z",
+      "objects": 15,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:40.461Z",
+      "path": "content/changes/bcapps/7546.md"
     }
   },
   "input_hash": "7e34876a054339f0ad3439fea4dc9cff64df6171:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "payables agent agent driven line matching"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "58985e4f3c8305a03baf8bb105feff0fff3e2d646434313769bf91b07846cc4b"
 }

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10276,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10276",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T12:12:27Z",
+  "merge_commit_sha": "d6a547a6239069ad41e1a0e1ae3c3103dbb5f389",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[master] Renewal Term field on the Create Contract Renewal Quote page does not accept the entered value such as 12M",
+  "body_hash": "e796425b3fe5fb51e7a58a9ee0a8560db956cade67c42cbd28f500c1ad4900b8",
+  "fixes_issues": [],
+  "work_items": [
+    647017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Contract Renewal/Pages/ContractRenewalSelection.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Contract Renewal/ContractRenewalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 47,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Contract Renewal/Pages/ContractRenewalSelection.Page.al",
+        "status": "modified",
+        "key": "page/8006",
+        "type": "page",
+        "id": 8006,
+        "name": "Contract Renewal Selection",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8006"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

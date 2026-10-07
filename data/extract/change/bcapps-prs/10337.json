@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10337",
+  "number": 10337,
+  "title": "Let subscribers override the half-year new year date in SetHalfYearConventionMethod",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "The OnBeforeSetHalfYearConventionMethod event now allows subscribers to override the accounting period start date used for half-year depreciation calculations by adding a trailing var parameter that subscribers can populate.",
+  "key_points": [
+    "Event now includes a trailing var NewYearDateOverride parameter that subscribers can set",
+    "When a subscriber sets the override, the base code uses that date instead of the accounting period start",
+    "Maintains backward compatibility by keeping the existing event signature unchanged",
+    "Applied consistently across all localization layers (W1, FR, GB, IT, RU)",
+    "Fixes issue where subscribers could set NewYearDate but it was always overwritten"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "quote": "a trailing var NewYearDateOverride parameter is appended, and existing subscribers that omit it continue to compile",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003915,
+    "changes_in_call": 1
+  }
+}

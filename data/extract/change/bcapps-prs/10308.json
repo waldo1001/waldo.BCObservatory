@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10308",
+  "number": 10308,
+  "title": "Uptake agent archiving in Sales Order Agent (AB#644549)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent app now supports agent archiving, a soft delete capability that marks deactivated agents as read-only while preserving their data. Archived agents no longer consume instance slots, their identities and mailboxes can be reused by administrators, and the setup experience becomes read-only for archived agents.",
+  "key_points": [
+    "Archived agents no longer count toward the 20-agent instance limit, freeing slots",
+    "Archived agent identities and mailboxes can be deliberately reused by administrators but are not auto-suggested",
+    "Setup pages become read-only for archived agents with explanatory notifications",
+    "Scheduled tasks are canceled when agents are deactivated to prevent orphaned execution",
+    "Upgrade processes skip archived agents to avoid repeated failures on write operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004812,
+    "changes_in_call": 1
+  }
+}

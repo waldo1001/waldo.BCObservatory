@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10341",
+  "number": 10341,
+  "title": "Remove Anthropic privacy notice from Expense Agent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Anthropic privacy notice components are removed from Expense Agent with the original page marked for future removal, while upgrade logic attempts to clean up persisted legacy data.",
+  "key_points": [
+    "Anthropic registration and approval checks removed from Expense Agent setup",
+    "Privacy notice page marked pending obsolete and wrapped in conditional compilation",
+    "Upgrade process cleans up legacy privacy notice records without blocking upgrades",
+    "Legacy notice ID retained temporarily for data migration purposes"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Remove Anthropic registration, approval checks, capability requirements, and active privacy notice UI from Expense Agent.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003491,
+    "changes_in_call": 1
+  }
+}

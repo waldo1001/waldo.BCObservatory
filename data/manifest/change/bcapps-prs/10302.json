@@ -6,10 +6,18 @@
   "title": "[SOA] Clarify contact mapping options for unknown email senders",
   "url": "https://github.com/microsoft/BCApps/pull/10302",
   "published_at": "2026-08-18T14:34:15Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:34.538Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "72784b4e01448f84b7e23208f0f9f34b918274e1:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa clarify contact mapping options for unknown email senders"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7aeddb7f4000520e0fb863428b399acd64fc68c5a9e1b490f76f84098e39ff70"
 }

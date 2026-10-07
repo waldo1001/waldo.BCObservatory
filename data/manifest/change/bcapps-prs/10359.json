@@ -6,10 +6,35 @@
   "title": "Add activity log amount formatting metadata",
   "url": "https://github.com/microsoft/BCApps/pull/10359",
   "published_at": "2026-08-19T04:59:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:27.351Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:31.945Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003122
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:32.105Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:32.110Z",
+      "path": "content/changes/bcapps/10359.md"
     }
   },
   "input_hash": "f3d1b3fbeb1fbf7e8780d369d903547652002796:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "add activity log amount formatting metadata"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95695d41f82c65edf6e17538ea1d77d470777e5f2169859b8c012fb009c77478"
 }

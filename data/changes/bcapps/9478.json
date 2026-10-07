@@ -1,0 +1,125 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9478,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9478",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T09:09:01Z",
+  "merge_commit_sha": "07c3bb33ee95951bc9701961b879f8eb4fe766af",
+  "author": "KseniaOreshkina",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries",
+  "body_hash": "e3d2c27955ed61edc7dd12ade3885fe1385bd9db81c8d12f1f68bbf22f3c9fd9",
+  "fixes_issues": [],
+  "work_items": [
+    640652
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustEntryReverseMgt.Codeunit.al",
+      "status": "added",
+      "additions": 153,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityEdit.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustReversalTests.Codeunit.al",
+      "status": "added",
+      "additions": 453,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 675,
+    "deletions": 3,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustEntryReverseMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6243",
+        "type": "codeunit",
+        "id": 6243,
+        "name": "Sust. Entry Reverse Mgt.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6243"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/6220",
+        "type": "page",
+        "id": 6220,
+        "name": "Sustainability Ledger Entries",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6220"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/6216",
+        "type": "table",
+        "id": 6216,
+        "name": "Sustainability Ledger Entry",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "table/6216"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Permissions/SustainabilityEdit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6213",
+        "type": "permissionset",
+        "id": 6213,
+        "name": "Sustainability Edit",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "permissionset/6213"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10334",
+  "number": 10334,
+  "title": "Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Report 87 now raises an integration event after modifying records in the General Posting Setup dataitem when the user confirms the action, enabling partners to hook into this specific point in the workflow.",
+  "key_points": [
+    "Adds OnAfterGetRecordOnGeneralPostingSetupOnAfterConfirmAndModify integration event",
+    "Event fires right after Modify in the confirmation block",
+    "Purely additive with no existing behavior changes",
+    "IncludeSender parameter set to true for consistency with sibling events",
+    "No breaking changes or compatibility issues"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "adds the integration event OnAfterGetRecordOnGeneralPostingSetupOnAfterConfirmAndModify right after Modify in the confirmation block",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003517,
+    "changes_in_call": 1
+  }
+}

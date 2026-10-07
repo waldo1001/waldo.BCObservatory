@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/7546",
+  "number": 7546,
+  "title": "[Payables Agent] Agent-driven line matching",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "Adds agent-driven line matching to the Payables Agent, allowing agents to resolve purchase lines by navigating BC pages instead of using the AL PrepareDraft pipeline when the PAAgentDrivenLineMatching feature flag is enabled.",
+  "key_points": [
+    "Feature flag PAAgentDrivenLineMatching gates all new behavior, leaving default behavior unchanged",
+    "New historical line data loader retrieves up to 5000 posted purchase invoice lines prioritized by vendor and relevance",
+    "Six new lookup actions added to draft purchase lines for Text-to-Account Mappings, Historical Lines, Chart of Accounts, Items, and Deferral Templates",
+    "New agent-driven instructions prompt implements a collect-then-synthesize matching strategy across six data sources",
+    "New page customizations provide read-only, locked-down views for agent navigation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005498,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10359,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10359",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T04:59:55Z",
+  "merge_commit_sha": "f3d1b3fbeb1fbf7e8780d369d903547652002796",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Add activity log amount formatting metadata",
+  "body_hash": "b7dfc96d293261cd7f3d89b8e8c500d22175c8ff3625b1f941b0173fb273b423",
+  "fixes_issues": [],
+  "work_items": [
+    647062
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/7100",
+        "type": "table",
+        "id": 7100,
+        "name": "Expense Activity Log Entry",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7100"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

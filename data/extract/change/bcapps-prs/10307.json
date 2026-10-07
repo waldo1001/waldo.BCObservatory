@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10307",
+  "number": 10307,
+  "title": "[Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Order Totals factbox now correctly resolves and displays totals for open sales orders, open sales invoices, and posted sales invoices by using the document link table, and navigates to the correct document type instead of always opening a sales order.",
+  "key_points": [
+    "Factbox resolves the linked sales document through the Shpfy Doc. Link To Doc. table with fallback to header fields for legacy orders",
+    "Totals are computed per document type using appropriate calculation methods for open or posted documents",
+    "Sales Document No. drill-down dispatches to the correct document type via the Shpfy IOpenBCDocument interface",
+    "Number of Lines drill-down opens the appropriate page based on document type (Sales Lines or Posted Sales Invoice Lines)",
+    "Stale values are cleared when the linked document can no longer be resolved"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Resolution prefers Posted Sales Invoice → open Sales Invoice → open Sales Order, with a fallback to the header fields for legacy orders.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004497,
+    "changes_in_call": 1
+  }
+}

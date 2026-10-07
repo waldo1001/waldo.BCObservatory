@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10359",
+  "number": 10359,
+  "title": "Add activity log amount formatting metadata",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Amount fields in the Expense Activity Log Entry table now include currency-aware formatting metadata to display local currency and reimbursement currency values correctly.",
+  "key_points": [
+    "LCY amount fields apply local-currency formatting",
+    "Reimbursable and refundable amount fields use stored reimbursement currency formatting",
+    "API decimal values and snapshot behavior remain unchanged",
+    "Metadata addition for improved display of financial amounts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Add currency-aware display metadata to the Expense Activity Log Entry amount snapshots.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003122,
+    "changes_in_call": 1
+  }
+}
