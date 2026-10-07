@@ -6,10 +6,18 @@
   "title": "9 AL/BC patterns: document distribution, price calculation & barcode extensibility",
   "url": "https://github.com/microsoft/BCQuality/pull/175",
   "published_at": "2026-09-30T11:22:39Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:54.117Z",
+      "change_class": "code",
+      "files": 30,
+      "al": 28,
+      "objects": 0,
+      "unjoined": 28
     }
   },
   "input_hash": "fd599197788ff4c11d01d98fb809f4eb4b6d6095:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "9 al bc patterns document distribution price calculation barcode extensibility"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ee94e2ef2f13e27c52444184549885a350fef1b2a58ebc93fa198d7d9c3cdd7"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11822",
+  "number": 11822,
+  "title": "Added missing indexes for GP historical snapshot",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Added missing indexes to three GP historical snapshot staging tables to improve query performance during data migration.",
+  "key_points": [
+    "Added CUSTNMBR, APTODCTY, APTODCNM indexes to GPRM20201 and GPRM30201 tables",
+    "Added IVDOCTYP, DOCNUMBR, LNSEQNBR indexes to GPIVSerialLotNumberHist table",
+    "Indexes improve performance of lookups and joins on these staging tables",
+    "Affects GP historical snapshot data migration tables"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This PR adds missing indexes to the following GP historical snapshot related staging tables.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003492,
+    "changes_in_call": 1
+  }
+}

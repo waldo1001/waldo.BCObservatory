@@ -1,0 +1,781 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12053,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12053",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T12:34:44Z",
+  "merge_commit_sha": "d7753d830be8f981e35dbb6d6ce72ec4daacc298",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Remove-Sustainability-CLEAN27-tags-for-Wave2-2026",
+  "body_hash": "6c2cf44713cab83fc907b4e265fbb2c133d83a18e06cc822b1cf116eb4ce95b3",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/PermissionSets/PowerBIEmbeddedObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/PermissionSets/PowerBiReportBasic.PermissionSet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eAnalysis.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eDecompositionTree.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eKeyInfluences.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/EmissionsbyCatandScope.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/JourneytoNetZeroCarbon.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/RealizedEmissionsvsBaseline.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/RealizedEmissionsvsTarget.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SocialAnalysis.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SustainabilityOverview.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SustainabilityReport.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/WaterandWasteAnalysis.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 64,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/SetupSustainability.TableExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 30,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Test Library/PowerBIAPIEndpoints.Enum.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Test Library/PowerBIFilterScenarios.Enum.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/APIs/Pages/CustomerContractsAPI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/APIs/Pages/VendorContractsAPI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Pages/ContractTypes.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Tables/SubscriptionBillingCue.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Tables/SubscriptionContractType.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContract.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Import/Pages/ImportedCustomerContracts.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Import/Tables/ImportedCustSubContract.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Pages/VendorContract.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendorSubscriptionContract.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Manufacturing/SustManufacturingSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eDecompTreePowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eKeyInfluencesPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsbyCatandScopePBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsBaselinePowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsTargetPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SocialAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustOverviewPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustainabilityReportPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/ToNetZeroCarbonPowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/WaterandWastePowerBI.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PBISustainFilterHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PBISustainabilityApp.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PowerBISetupSust.TableExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/SustPBIAssistedSetup.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/SustPBIReportsSetup.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/PowerBISustainabilityTest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 46,
+    "additions": 1,
+    "deletions": 1011,
+    "al": 43
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/PermissionSets/PowerBIEmbeddedObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/36955",
+        "type": "permissionset",
+        "id": 36955,
+        "name": "Power BI Embedded - Objects",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "permissionset/36955"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/PermissionSets/PowerBiReportBasic.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/36951",
+        "type": "permissionset",
+        "id": 36951,
+        "name": "PowerBi Report Basic",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "permissionset/36951"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/SetupSustainability.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/36957",
+        "type": "tableextension",
+        "id": 36957,
+        "name": "Setup - Sustainability",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "tableextension/36957"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/APIs/Pages/CustomerContractsAPI.Page.al",
+        "status": "modified",
+        "key": "page/8024",
+        "type": "page",
+        "id": 8024,
+        "name": "Customer Contracts API",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8024"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/APIs/Pages/VendorContractsAPI.Page.al",
+        "status": "modified",
+        "key": "page/8023",
+        "type": "page",
+        "id": 8023,
+        "name": "Vendor Contracts API",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8023"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Pages/ContractTypes.Page.al",
+        "status": "modified",
+        "key": "page/8054",
+        "type": "page",
+        "id": 8054,
+        "name": "Contract Types",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8054"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Tables/SubscriptionBillingCue.Table.al",
+        "status": "modified",
+        "key": "table/8070",
+        "type": "table",
+        "id": 8070,
+        "name": "Subscription Billing Cue",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8070"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Tables/SubscriptionContractType.Table.al",
+        "status": "modified",
+        "key": "table/8053",
+        "type": "table",
+        "id": 8053,
+        "name": "Subscription Contract Type",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8053"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Pages/CustomerContract.Page.al",
+        "status": "modified",
+        "key": "page/8052",
+        "type": "page",
+        "id": 8052,
+        "name": "Customer Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8052"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+        "status": "modified",
+        "key": "table/8052",
+        "type": "table",
+        "id": 8052,
+        "name": "Customer Subscription Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8052"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Import/Pages/ImportedCustomerContracts.Page.al",
+        "status": "modified",
+        "key": "page/8013",
+        "type": "page",
+        "id": 8013,
+        "name": "Imported Customer Contracts",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8013"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Import/Tables/ImportedCustSubContract.Table.al",
+        "status": "modified",
+        "key": "table/8010",
+        "type": "table",
+        "id": 8010,
+        "name": "Imported Cust. Sub. Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8010"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Pages/VendorContract.Page.al",
+        "status": "modified",
+        "key": "page/8070",
+        "type": "page",
+        "id": 8070,
+        "name": "Vendor Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8070"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendorSubscriptionContract.Table.al",
+        "status": "modified",
+        "key": "table/8063",
+        "type": "table",
+        "id": 8063,
+        "name": "Vendor Subscription Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8063"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Manufacturing/SustManufacturingSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6254",
+        "type": "codeunit",
+        "id": 6254,
+        "name": "Sust. Manufacturing Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6254"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6299",
+        "type": "page",
+        "id": 6299,
+        "name": "CO2e Analysis Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6299"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eDecompTreePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6303",
+        "type": "page",
+        "id": 6303,
+        "name": "CO2e Decomp. Tree Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6303"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eKeyInfluencesPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6304",
+        "type": "page",
+        "id": 6304,
+        "name": "CO2e Key Influences Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6304"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsbyCatandScopePBI.Page.al",
+        "status": "modified",
+        "key": "page/6305",
+        "type": "page",
+        "id": 6305,
+        "name": "Emissions by Cat and Scope PBI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6305"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsBaselinePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6306",
+        "type": "page",
+        "id": 6306,
+        "name": "Emissions vs Baseline Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6306"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsTargetPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6277",
+        "type": "page",
+        "id": 6277,
+        "name": "Emissions vs Target Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6277"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SocialAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6278",
+        "type": "page",
+        "id": 6278,
+        "name": "Social Analysis Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6278"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustOverviewPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6279",
+        "type": "page",
+        "id": 6279,
+        "name": "Sust. Overview Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6279"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustainabilityReportPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6316",
+        "type": "page",
+        "id": 6316,
+        "name": "Sustainability Report Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6316"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/ToNetZeroCarbonPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6317",
+        "type": "page",
+        "id": 6317,
+        "name": "To Net Zero Carbon Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6317"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/WaterandWastePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6319",
+        "type": "page",
+        "id": 6319,
+        "name": "Water and Waste Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6319"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PBISustainFilterHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6281",
+        "type": "codeunit",
+        "id": 6281,
+        "name": "PBI Sustain. Filter Helper",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6281"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PBISustainabilityApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6287",
+        "type": "codeunit",
+        "id": 6287,
+        "name": "PBI Sustainability App",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6287"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PowerBISetupSust.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6262",
+        "type": "tableextension",
+        "id": 6262,
+        "name": "Power BI Setup - Sust.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6262"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/SustPBIAssistedSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6264",
+        "type": "pageextension",
+        "id": 6264,
+        "name": "Sust. PBI Assisted Setup",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6264"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/SustPBIReportsSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6261",
+        "type": "pageextension",
+        "id": 6261,
+        "name": "Sust. PBI Reports Setup",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6261"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eAnalysis.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eDecompositionTree.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/CO2eKeyInfluences.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/EmissionsbyCatandScope.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/JourneytoNetZeroCarbon.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/RealizedEmissionsvsBaseline.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/RealizedEmissionsvsTarget.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SocialAnalysis.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SustainabilityOverview.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/SustainabilityReport.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/_Obsolete/Sustainability/EmbeddedPages/WaterandWasteAnalysis.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "sustainability",
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "PowerBIReports",
+    "Subscription Billing",
+    "Sustainability"
+  ]
+}

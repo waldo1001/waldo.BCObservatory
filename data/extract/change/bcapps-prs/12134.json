@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12134",
+  "number": 12134,
+  "title": "[main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech localizations so approval entries are properly moved to Posted Approval Entry when documents are posted, preserving the audit trail.",
+  "key_points": [
+    "Approval entries are now moved from Approval Entry to Posted Approval Entry when compensation, cash documents, and payment orders are posted",
+    "Explicit deletion of orphaned approval entries added for compensation and cash documents to prevent data remnants",
+    "Approvals action added to Posted Cash Document and Iss. Payment Orders pages to display the audit trail",
+    "Aligns Czech localization flows with W1 standard approval handling pattern",
+    "No schema changes or permission set modifications required"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004499,
+    "changes_in_call": 1
+  }
+}

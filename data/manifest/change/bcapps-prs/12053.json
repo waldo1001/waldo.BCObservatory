@@ -6,10 +6,35 @@
   "title": "Remove-Sustainability-CLEAN27-tags-for-Wave2-2026",
   "url": "https://github.com/microsoft/BCApps/pull/12053",
   "published_at": "2026-09-30T12:34:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:51.455Z",
+      "change_class": "code",
+      "files": 46,
+      "al": 43,
+      "objects": 32,
+      "unjoined": 11
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:58.253Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": false,
+      "cost_usd": 0.010208
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:58.483Z",
+      "objects": 32,
+      "unjoined": 11,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:58.494Z",
+      "path": "content/changes/bcapps/12053.md"
     }
   },
   "input_hash": "d7753d830be8f981e35dbb6d6ce72ec4daacc298:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove sustainability clean27 tags for wave2 2026"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9f7a926272c756f8c60bced8b99ae875ac78c43d5d4e5d9aa0b2a1e6b7dfd997"
 }

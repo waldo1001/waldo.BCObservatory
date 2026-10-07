@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11968,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11968",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T14:12:27Z",
+  "merge_commit_sha": "8287973a14228a5baff7cfb27c2fbafeef43b034",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648782: omit the buyer PartyTaxScheme when the company has no VAT registration",
+  "body_hash": "093ddd8401eb6dac02f42213f27a8d8bf5f6441265ae05e93dfbe66e0eeb9a36",
+  "fixes_issues": [],
+  "work_items": [
+    648782
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Purchases/ExportPurchaseOrderPEPPOL30.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOLBISBillingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 71,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Purchases/ExportPurchaseOrderPEPPOL30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37202",
+        "type": "codeunit",
+        "id": 37202,
+        "name": "Export Purchase Order PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37202"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PEPPOL"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Fix dependency artifact pattern for branch names with glob-special characters",
   "url": "https://github.com/microsoft/AL-Go/pull/2382",
   "published_at": "2026-09-30T14:51:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:44.982Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:50.198Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003683
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:50.200Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:50.204Z",
+      "path": "content/changes/al-go/2382.md"
     }
   },
   "input_hash": "3fec7a399096ddc02e4ef2487855df65ba60b127:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix dependency artifact pattern for branch names with glob special characters"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6ae7ec40ae7315b74989492a3aff4f2ee8d9f409b8e934b1e7849a500612fdc"
 }

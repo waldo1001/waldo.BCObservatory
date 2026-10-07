@@ -6,10 +6,35 @@
   "title": "Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting",
   "url": "https://github.com/microsoft/BCApps/pull/12080",
   "published_at": "2026-09-30T12:38:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:50.117Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:54.610Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003357
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:54.756Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:54.762Z",
+      "path": "content/changes/bcapps/12080.md"
     }
   },
   "input_hash": "2816b3da92e409a97c1ae66a6963dc657eb740ee:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649448 subcontracting it fully received wip purchase orders block disable legacy subcontracting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e20e3ed7ee58e46a7b6f0fe67b6e596b1f03321415b1724702fbf94775de375"
 }

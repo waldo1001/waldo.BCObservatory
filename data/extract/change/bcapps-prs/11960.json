@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11960",
+  "number": 11960,
+  "title": "[BC14] Classify historical entry pages as Archive in Tell Me",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Five historical data pages from BC14 are now classified as Archive rather than Lists in Tell Me, moving them from the general Lists category to Reports and Analysis.",
+  "key_points": [
+    "Changed UsageCategory from Lists to History on five read-only historical entry pages",
+    "Pages appear in Reports and Analysis > Archive instead of Lists in Tell Me",
+    "All page types, captions, source tables, and navigation remain unchanged",
+    "No impact on data, migration, or permissions",
+    "Supporting invoice card and subpage remain non-searchable"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004385,
+    "changes_in_call": 1
+  }
+}

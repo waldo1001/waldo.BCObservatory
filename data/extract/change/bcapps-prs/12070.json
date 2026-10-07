@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12070",
+  "number": 12070,
+  "title": "Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document apps now use consistent CLEAN27 and CLEAN28 tags so each cleanup step can be removed independently, fixing compilation failures when only CLEAN27 was applied.",
+  "key_points": [
+    "Moved references to 'EDoc Historical Matching Setup' from CLEAN28 to CLEAN27 guards since the table is removed in CLEAN27",
+    "Updated Continia registration tests to use correct permission sets after 'E-Doc. Core - Edit' deletion in CLEAN27",
+    "Added CLEAN27 guard to obsolete interface 'IPurchaseLineAccountProvider' to enable its future removal",
+    "Reclassified 'E-Documents Setup' table as Removed in CLEAN28 and guarded its procedures",
+    "Kept Purchase Header E-Document Link cleanup unguarded since import process version 1.0 is still supported"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "aligns the tags so each CLEAN step can be removed on its own",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005365,
+    "changes_in_call": 1
+  }
+}

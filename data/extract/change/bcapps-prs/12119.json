@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12119",
+  "number": 12119,
+  "title": "Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "An infinite loop when applying a posted sales credit memo with unrealized VAT (GST) in APAC regions is fixed by correcting logic in the VAT Entry table.",
+  "key_points": [
+    "Resolves infinite loop during credit memo application with unrealized VAT",
+    "Affects APAC-specific (GST) functionality",
+    "Changes VAT Entry table logic",
+    "Includes automated test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Fixing an infinite loop when applying a credit memo that uses unrealized VAT.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003206,
+    "changes_in_call": 1
+  }
+}

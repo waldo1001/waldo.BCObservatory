@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12053",
+  "number": 12053,
+  "title": "Remove-Sustainability-CLEAN27-tags-for-Wave2-2026",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "sustainability",
+    "integration"
+  ],
+  "summary": "Removed CLEAN27 tags and obsolete code from Sustainability, PowerBI Reports, and Subscription Billing apps for Wave2 2026 cleanup.",
+  "key_points": [
+    "Deleted 12 obsolete Sustainability Power BI embedded page files from the _Obsolete folder",
+    "Removed CLEAN27 tags from multiple objects across Sustainability, PowerBI Reports, and Subscription Billing modules",
+    "Cleaned up related codeunits, table extensions, and page extensions that referenced obsolete functionality",
+    "Removed test enum values and helper code associated with the removed Power BI scenarios"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010208,
+    "changes_in_call": 1
+  }
+}

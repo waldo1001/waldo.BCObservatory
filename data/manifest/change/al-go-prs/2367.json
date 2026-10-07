@@ -6,10 +6,35 @@
   "title": "Enhance NuGet feed selection to support pre-release packages",
   "url": "https://github.com/microsoft/AL-Go/pull/2367",
   "published_at": "2026-09-30T14:58:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:46.271Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:51.074Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003421
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:51.075Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:51.079Z",
+      "path": "content/changes/al-go/2367.md"
     }
   },
   "input_hash": "88faf7e7845be73f3f531a58ba4289319387990c:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "enhance nuget feed selection to support pre release packages"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "359e0b68cf66e7a8ad3490649adbc6cfa876c60f52079984bc5298c42991f72f"
 }

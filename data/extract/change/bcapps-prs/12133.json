@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12133",
+  "number": 12133,
+  "title": "Block file scheme in Web Request Helper",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Web Request Helper now rejects file:// URLs before creating HTTP requests to prevent unauthorized local file access through crafted URLs.",
+  "key_points": [
+    "Added validation to block file URI scheme in GetResponseTextInternal",
+    "File URLs are rejected with a false return instead of unhandled error",
+    "No behavior change for http/https URLs",
+    "Reuses existing IsValidUri and IsSecureHttpUrl scheme checks",
+    "Security fix preventing server-side file read attacks"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003657,
+    "changes_in_call": 1
+  }
+}

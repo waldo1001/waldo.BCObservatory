@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2382",
+  "number": 2382,
+  "title": "Fix dependency artifact pattern for branch names with glob-special characters",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed a bug where dependency artifact downloads failed silently when branch names contained special characters that minimatch interprets, such as commas, braces, or parentheses.",
+  "key_points": [
+    "Branch names with special characters (comma, braces, parentheses, exclamation, plus, at, hash, bracket) were incorrectly interpreted by minimatch glob patterns",
+    "These characters caused artifact download to match zero artifacts and silently fall back to main branch artifacts",
+    "Special characters in branch names are now backslash-escaped in the minimatch pattern to be treated literally",
+    "Artifact upload, baseline lookup, and release lookup are unaffected by this change",
+    "Tests added to prevent regression"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003683,
+    "changes_in_call": 1
+  }
+}

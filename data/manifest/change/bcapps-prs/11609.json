@@ -6,7 +6,7 @@
   "title": "[Main]-Reduce redundant record restriction checks in item journal line",
   "url": "https://github.com/microsoft/BCApps/pull/11609",
   "published_at": "2026-10-01T06:06:19Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "performance",
       "behavior": false,
       "cost_usd": 0.002923
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:42.000Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:42.007Z",
+      "path": "content/changes/bcapps/11609.md"
     }
   },
   "input_hash": "ddffe8888a09e2f70339db87c31c5fb09f866816:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d18dfd6aaf3e02f329928bf3c456c63729e96a2547ecd5f199a8936ce41a4c1"
+  "output_hash": "a3512796ecc6efc681358071bc021a6dabd2ea9536477c725cf2806365f03801"
 }

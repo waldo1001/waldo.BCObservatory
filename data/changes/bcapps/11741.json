@@ -1,0 +1,720 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11741,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11741",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T14:23:06Z",
+  "merge_commit_sha": "5d287d0c253487563e3fd12624ba86ee3c889263",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Add company and environment descriptions",
+  "body_hash": "ebfd700e2ccad89772ce45d961f405acb0710ad44e535f9b28b27db18a5d21cf",
+  "fixes_issues": [],
+  "work_items": [
+    650130,
+    650134
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/APIV2/app/src/pages/APIV2CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2CompanyInfoE2E.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/_Exclude_APIV2__Tests/_Exclude_APIV2__Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/SMB/O365CompanyInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/SMB/O365CompanyInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SMB/O365CompanyInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/SMB/O365CompanyInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/O365CompanyInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 88,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Table.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Environment Information/src/EnvironmentInformationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 47,
+    "additions": 2326,
+    "deletions": 41,
+    "al": 40
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/APIV2/app/src/pages/APIV2CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/30011",
+        "type": "page",
+        "id": 30011,
+        "name": "APIV2 - Company Information",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "page/30011"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "de",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1751",
+        "type": "codeunit",
+        "id": 1751,
+        "name": "Data Classification Eval. Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1751"
+      },
+      {
+        "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/457",
+        "type": "codeunit",
+        "id": 457,
+        "name": "Environment Information",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/457"
+      },
+      {
+        "path": "src/System Application/App/Environment Information/src/EnvironmentInformation.Table.al",
+        "status": "added",
+        "key": "table/3703",
+        "type": "table",
+        "id": 3703,
+        "name": "Environment Information",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/3703"
+      },
+      {
+        "path": "src/System Application/App/Environment Information/src/EnvironmentInformationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3702",
+        "type": "codeunit",
+        "id": 3702,
+        "name": "Environment Information Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3702"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "administration",
+    "integration"
+  ],
+  "apps": [
+    "APIV2",
+    "Base Application",
+    "System Application"
+  ]
+}

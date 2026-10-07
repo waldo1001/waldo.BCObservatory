@@ -6,10 +6,35 @@
   "title": "[BC14] Classify historical entry pages as Archive in Tell Me",
   "url": "https://github.com/microsoft/BCApps/pull/11960",
   "published_at": "2026-09-30T15:27:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:43.861Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:48.807Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004385
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:48.971Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:48.983Z",
+      "path": "content/changes/bcapps/11960.md"
     }
   },
   "input_hash": "9098b78d86144d52167a4e2af722821b3e19380c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bc14 classify historical entry pages as archive in tell me"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6d662f8e25d44a88f4a1f597132b1ffefc6f2aed9f833b4740df96e91ab55329"
 }

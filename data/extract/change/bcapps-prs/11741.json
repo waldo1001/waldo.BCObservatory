@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11741",
+  "number": 11741,
+  "title": "[MCP] Add company and environment descriptions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "administration",
+    "integration"
+  ],
+  "summary": "Company and environment descriptions are now stored and exposed via APIs to provide richer context for MCP and other consumers. Company descriptions are stored as BLOBs in Company Information, environment descriptions once per database in System Application, and both are made available as read-only fields in API v2.0.",
+  "key_points": [
+    "Company Description field added to Company Information table as a BLOB across all country layers",
+    "Environment Description stored once per database in System Application",
+    "Multiline text editors added to Company Information page UI",
+    "Read-only fields exposed in API v2.0 companyInformation endpoint",
+    "API change is additive and backward compatible; existing APIs unchanged"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Add long-form descriptions for companies and environments so MCP and other API consumers can retrieve richer context.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009753,
+    "changes_in_call": 1
+  }
+}

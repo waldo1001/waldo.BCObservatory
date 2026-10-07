@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11968",
+  "number": 11968,
+  "title": "Bug 648782: omit the buyer PartyTaxScheme when the company has no VAT registration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Purchase order PEPPOL export now omits the PartyTaxScheme block when the company has no VAT registration number, preventing invalid XML validation failures.",
+  "key_points": [
+    "PartyTaxScheme block is skipped entirely when VAT Registration No. is empty",
+    "Prevents schema validation errors caused by mandatory CompanyID element inside an otherwise optional block",
+    "Aligns behavior with remittance advice and sales XMLports",
+    "No VAT number fallback to GLN to avoid reporting incorrect tax data",
+    "Low risk change only affecting companies without VAT registration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The block is optional but CompanyID inside it is mandatory, so the Order fails schematron validation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003811,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11960,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11960",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T15:27:18Z",
+  "merge_commit_sha": "9098b78d86144d52167a4e2af722821b3e19380c",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[BC14] Classify historical entry pages as Archive in Tell Me",
+  "body_hash": "53a8bf97b62c5aa96ffd0643c1add31a3e32fd7e761f6e8369b00be6f9f77252",
+  "fixes_issues": [],
+  "work_items": [
+    649865
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14ArchSalesInvList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldCustLedgList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldGLEntryList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldItemLedgList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldVendorLedgList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 5,
+    "deletions": 5,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14ArchSalesInvList.Page.al",
+        "status": "modified",
+        "key": "page/46883",
+        "type": "page",
+        "id": 46883,
+        "name": "BC14 Arch. Sales Inv. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46883"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldCustLedgList.Page.al",
+        "status": "modified",
+        "key": "page/46887",
+        "type": "page",
+        "id": 46887,
+        "name": "BC14 Old Cust. Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46887"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldGLEntryList.Page.al",
+        "status": "modified",
+        "key": "page/46885",
+        "type": "page",
+        "id": 46885,
+        "name": "BC14 Old G/L Entry List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46885"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldItemLedgList.Page.al",
+        "status": "modified",
+        "key": "page/46891",
+        "type": "page",
+        "id": 46891,
+        "name": "BC14 Old Item Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46891"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldVendorLedgList.Page.al",
+        "status": "modified",
+        "key": "page/46889",
+        "type": "page",
+        "id": 46889,
+        "name": "BC14 Old Vendor Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46889"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "HybridBC14HistoricalData"
+  ]
+}

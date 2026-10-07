@@ -6,10 +6,35 @@
   "title": "[MCP] Add company and environment descriptions",
   "url": "https://github.com/microsoft/BCApps/pull/11741",
   "published_at": "2026-09-30T14:23:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:46.593Z",
+      "change_class": "code",
+      "files": 47,
+      "al": 40,
+      "objects": 23,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:51.753Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009753
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:51.961Z",
+      "objects": 23,
+      "unjoined": 17,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:51.970Z",
+      "path": "content/changes/bcapps/11741.md"
     }
   },
   "input_hash": "5d287d0c253487563e3fd12624ba86ee3c889263:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp add company and environment descriptions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9fe781fd8514be0a63d3915d36e7f3a0731e5838cd943adedf2df4d135b3d93"
 }

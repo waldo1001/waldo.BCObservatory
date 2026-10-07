@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12080",
+  "number": 12080,
+  "title": "Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fully received work-in-progress purchase order lines no longer prevent disabling the Legacy Subcontracting feature.",
+  "key_points": [
+    "Fixed a prerequisite check that incorrectly counted fully received WIP purchase orders as open",
+    "Allows users to disable Legacy Subcontracting when WIP purchase orders are fully received",
+    "Added regression test to verify the fix and prevent recurrence",
+    "Verified the fix works correctly and does not break existing validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Fix the Legacy Subcontracting disable prerequisite so fully received WIP purchase order lines no longer count as open.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003357,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2382,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2382",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-30T14:51:26Z",
+  "merge_commit_sha": "3fec7a399096ddc02e4ef2487855df65ba60b127",
+  "author": "AlexanderMarcher",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix dependency artifact pattern for branch names with glob-special characters",
+  "body_hash": "c2c35cd88c5c5b806e912b593868758e57abbdac72c4dac688ded69cfa424252",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/DownloadProjectDependencies/DownloadProjectDependencies.psm1",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/DownloadProjectDependencies.Test.ps1",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 48,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/DownloadProjectDependencies/DownloadProjectDependencies.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

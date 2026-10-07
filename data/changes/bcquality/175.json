@@ -1,0 +1,387 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 175,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/175",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-30T11:22:39Z",
+  "merge_commit_sha": "fd599197788ff4c11d01d98fb809f4eb4b6d6095",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "9 AL/BC patterns: document distribution, price calculation & barcode extensibility",
+  "body_hash": "d6d150b49aa7f943c9640e86e3620ca99a05584bcec873aa10db54ff9f2dc5a2",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.bad.al",
+      "status": "added",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.good.al",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.md",
+      "status": "added",
+      "additions": 98,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.good.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.bad.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.good.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.md",
+      "status": "added",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.bad.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.good.al",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.md",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.bad.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.good.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.md",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.bad.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.good.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.md",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.bad.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.good.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.md",
+      "status": "added",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.bad.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.good.al",
+      "status": "added",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.md",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.bad.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.good.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.md",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Test-ReviewFixtures.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 30,
+    "additions": 1644,
+    "deletions": 6,
+    "al": 28
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/activate-new-price-calculation-handler-via-onfindsupportedsetup.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/transferfields-mirrored-fields-must-match-type-and-length.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

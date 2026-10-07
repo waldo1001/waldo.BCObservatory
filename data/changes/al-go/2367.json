@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2367,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2367",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-30T14:58:58Z",
+  "merge_commit_sha": "88faf7e7845be73f3f531a58ba4289319387990c",
+  "author": "ChrisBlankDe",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Enhance NuGet feed selection to support pre-release packages",
+  "body_hash": "01d26931dc0a55a686051e0e68bc32830cc48ebacaa2cb582571cee23083a21d",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/RunPipeline/RunPipeline.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 7,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/RunPipeline/RunPipeline.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

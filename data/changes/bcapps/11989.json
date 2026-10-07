@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11989,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11989",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T12:34:43Z",
+  "merge_commit_sha": "886610b79cfa4f8de3f5782500355f41357fa679",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 500351] Allow Effective Permissions for delegated admins and helpdesk",
+  "body_hash": "1df968b4e967324468477dac0894eaa8267d23b65a81d358e31f786d4bfaa399",
+  "fixes_issues": [],
+  "work_items": [
+    500351
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Permissions/EffectivePermissions.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/User/EffectivePermissionsTests.Codeunit.al",
+      "status": "added",
+      "additions": 104,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 111,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Permissions/EffectivePermissions.Page.al",
+        "status": "modified",
+        "key": "page/9852",
+        "type": "page",
+        "id": 9852,
+        "name": "Effective Permissions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9852"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

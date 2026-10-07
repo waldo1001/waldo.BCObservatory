@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2379",
+  "number": 2379,
+  "title": "Avoid CI/CD runs for template SHA-only system updates",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The system no longer commits template SHA changes when only an empty commit occurs in the template repository, preventing unnecessary CI/CD triggers with no actual file modifications.",
+  "key_points": [
+    "Checks if files were actually updated or removed before persisting a new template SHA",
+    "Retains the original SHA when template URL matches and SHA already exists, skipping early return",
+    "Allows real updates, removals, template switches, and metadata initialization to follow normal path",
+    "SHA remains pinned to last applied revision instead of latest checked revision",
+    "Includes comprehensive test coverage for SHA-only updates, file changes, removals, and template switches"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003772,
+    "changes_in_call": 1
+  }
+}
