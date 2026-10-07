@@ -49,7 +49,7 @@ const g = fm.generated ?? {};
       <div class="main"><slot /></div>
       <aside class="side" aria-label="About this page">
         <slot name="side" />
-        <PageGalaxy id={String(fm.id)} system={system} connections={connections} />
+        <PageGalaxy id={String(fm.id)} system={system} connections={connections}><slot name="locator" /></PageGalaxy>
         <section>
           <h2>Provenance</h2>
           <dl class="prov">

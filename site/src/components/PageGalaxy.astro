@@ -1,5 +1,5 @@
 ---
-/** Side column of every information page: where it sits in the galaxy, and what it connects to (scripts/locator.ts). */
+/** Side column of every information page: where it sits in the galaxy, what sits under the locator (an object's one-hop diagram), and what it connects to (scripts/locator.ts). */
 interface Props { id: string; system: string | null; connections?: boolean }
 const { id, system, connections = true } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -9,6 +9,7 @@ const base = import.meta.env.BASE_URL;
   <a class="loc-open" href={`${base}${system ? `#system=${system}` : ""}`} aria-label="Open this place in the galaxy"><canvas aria-hidden="true"></canvas></a>
   <p class="loc-caption mono-meta"></p>
 </section>
+<slot />
 {connections && (
   <section class="con" data-base={base} data-id={id}>
     <h2>Connections <span class="con-count mono-meta"></span></h2>
