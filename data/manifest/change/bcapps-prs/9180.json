@@ -6,10 +6,35 @@
   "title": "Copy record links to posted Phys. Invt. Order and Recording headers",
   "url": "https://github.com/microsoft/BCApps/pull/9180",
   "published_at": "2026-10-05T12:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:37.105Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:42.064Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004061
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:42.248Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:45.860Z",
+      "path": "content/changes/bcapps/9180.md"
     }
   },
   "input_hash": "4edb2b182deddfaa6559f69da922b74df82e1882:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "copy record links to posted phys invt order and recording headers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a719ec12232f1ff171403c02a701e743e9c4585940c3c44cdb80f2799158a1f9"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/218",
+  "number": 218,
+  "title": "Harden findings-report producer constraints",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Findings reports now enforce stricter validation rules for finding IDs, confidence levels, and severity values to prevent contract failures. Finding IDs must not contain citation fragments, uncited findings are restricted to medium/low confidence and minor/info severity, and a checklist clarifies proper handling of citation paths and line numbering.",
+  "key_points": [
+    "Finding IDs must match a pattern rejecting citation paths with hash fragments",
+    "Uncited findings limited to medium/low confidence and minor/info severity levels",
+    "Knowledge-backed findings retain all existing confidence and severity combinations",
+    "Added pre-emission checklist for proper citation ID copying and line number validation",
+    "Semantic validation gates remain responsible for source file bounds and exact citation equality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Require every finding ID to match `^[^#]+$`, rejecting citation paths with appended `#location` fragments.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004307,
+    "changes_in_call": 1
+  }
+}

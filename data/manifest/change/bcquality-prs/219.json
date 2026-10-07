@@ -6,7 +6,7 @@
   "title": "Add JesperSchulz to every CODEOWNERS rule",
   "url": "https://github.com/microsoft/BCQuality/pull/219",
   "published_at": "2026-10-05T12:56:11Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add jesperschulz to every codeowners rule"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:56:29.773Z",
+  "retry_after": null
 }

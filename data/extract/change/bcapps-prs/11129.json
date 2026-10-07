@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11129",
+  "number": 11129,
+  "title": "[Quality Management] Refactor permission management",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Quality Management now uses standard permission errors instead of custom table permission checks, simplifying permission management while maintaining administrator-only access controls.",
+  "key_points": [
+    "Removed custom table permission validation logic from Quality Management objects",
+    "Relies on standard Business Central permission error handling instead",
+    "Preserves administrator-only capabilities through maintained access controls",
+    "Simplifies codebase with fewer permission-related checks",
+    "Fixes issue AB#625864 related to permission management"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Remove custom table permission checks and rely on standard permission errors while preserving administrator-only capabilities.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003557,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12124",
+  "number": 12124,
+  "title": "Fix default bin assignment when creating purchase orders for drop shipments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed default bin assignment for drop shipments when creating purchase orders from sales orders. The requisition line no longer incorrectly receives a default bin during item validation when the drop-shipment flag is set.",
+  "key_points": [
+    "Set the drop-shipment flag on requisition lines before validating item and variant details",
+    "Prevent default-bin assignment for drop shipments during validation",
+    "Preserve default-bin selection for regular orders and bin consistency checks",
+    "Added four regression tests covering drop-shipment and ordinary orders with and without item variants"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Bin Code must be equal to '' in Requisition Line. Current value is 'B003'.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003508,
+    "changes_in_call": 1
+  }
+}

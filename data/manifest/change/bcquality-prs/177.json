@@ -6,10 +6,35 @@
   "title": "Add retention policy knowledge to the privacy domain",
   "url": "https://github.com/microsoft/BCQuality/pull/177",
   "published_at": "2026-10-05T13:02:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:27.833Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:35.603Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.0085
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:35.605Z",
+      "objects": 0,
+      "unjoined": 7,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:35.613Z",
+      "path": "content/changes/bcquality/177.md"
     }
   },
   "input_hash": "02e7ab15b040be712ff8b694f65ae82257aac0db:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add retention policy knowledge to the privacy domain"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60a05cf2a17fa87d1ad82e2477a13eae93e81f9ce8ccb5cc4cab22316f1f078f"
 }

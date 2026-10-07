@@ -1,0 +1,201 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11129,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11129",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T12:39:41Z",
+  "merge_commit_sha": "3b2f885487df1bd23c4b6213d125261ff885403d",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "SCM",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Refactor permission management",
+  "body_hash": "2a03f8c4e836611bc282968093f56da5a6e2535fdbcb68a8cde765b96c4e89d1",
+  "fixes_issues": [],
+  "work_items": [
+    625864
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/Test Library/src/QltyInspectionUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 94,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/AccessControl/QltyPermissionMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 154,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspection.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionCreate.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLine.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLines.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyPermissionTestFixture.Codeunit.al",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsPermissionMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 184,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 230,
+    "deletions": 526,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/AccessControl/QltyPermissionMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20406",
+        "type": "codeunit",
+        "id": 20406,
+        "name": "Qlty. Permission Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20406"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspection.Page.al",
+        "status": "modified",
+        "key": "page/20406",
+        "type": "page",
+        "id": 20406,
+        "name": "Qlty. Inspection",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20406"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionCreate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20404",
+        "type": "codeunit",
+        "id": 20404,
+        "name": "Qlty. Inspection - Create",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20404"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLine.Table.al",
+        "status": "modified",
+        "key": "table/20406",
+        "type": "table",
+        "id": 20406,
+        "name": "Qlty. Inspection Line",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20406"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionLines.Page.al",
+        "status": "modified",
+        "key": "page/20413",
+        "type": "page",
+        "id": 20413,
+        "name": "Qlty. Inspection Lines",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20413"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionSubform.Page.al",
+        "status": "modified",
+        "key": "page/20407",
+        "type": "page",
+        "id": 20407,
+        "name": "Qlty. Inspection Subform",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "page/20407"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

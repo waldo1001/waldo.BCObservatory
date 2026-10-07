@@ -6,10 +6,35 @@
   "title": "3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate",
   "url": "https://github.com/microsoft/BCQuality/pull/209",
   "published_at": "2026-10-05T12:46:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:30.486Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 0,
+      "unjoined": 11
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:36.015Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00466
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:36.016Z",
+      "objects": 0,
+      "unjoined": 11,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:36.020Z",
+      "path": "content/changes/bcquality/209.md"
     }
   },
   "input_hash": "462765e414986b0bd83996d8b8d788495944230c:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "3 al bc patterns insert delete trigger defaults on master data and declined confirm in onvalidate"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "caec84f45d81e013ac598facc1a6c797cf1ef5faa9a7916a4f9e7285c12051ee"
 }

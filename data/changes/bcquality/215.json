@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 215,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/215",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-05T12:59:16Z",
+  "merge_commit_sha": "4405c97c579f2d8c04b0d87f4cc0df25de161a96",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates",
+  "body_hash": "ec5b9b5dd4334a10c1bdaf6946a4ea4da3212ba475c456eb46190d0f459d835e",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.bad.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.good.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.md",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-performance-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 110,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-performance-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 177,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/177",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-05T13:02:04Z",
+  "merge_commit_sha": "02e7ab15b040be712ff8b694f65ae82257aac0db",
+  "author": "JeremyVyska",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add retention policy knowledge to the privacy domain",
+  "body_hash": "f2cbc98ac6d4c1ff644a9873bea6282b5be274f3690cd04d76b35ca39cd3adf1",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.bad.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.good.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.md",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.bad.al",
+      "status": "added",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.good.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.md",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-privacy-review.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 333,
+    "deletions": 2,
+    "al": 7
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-privacy-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

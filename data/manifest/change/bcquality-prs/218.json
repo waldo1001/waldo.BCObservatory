@@ -6,10 +6,35 @@
   "title": "Harden findings-report producer constraints",
   "url": "https://github.com/microsoft/BCQuality/pull/218",
   "published_at": "2026-10-05T13:01:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:28.388Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:33.982Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004307
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:33.983Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:33.988Z",
+      "path": "content/changes/bcquality/218.md"
     }
   },
   "input_hash": "7726d5d8d8dbcb146489f0e65e76e9cc9b976db0:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "harden findings report producer constraints"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba7c8bdf6d7113d39efe11c7c551231f9ec1eb00cb75ffa723b4e5388b8dab28"
 }

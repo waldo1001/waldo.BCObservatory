@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/216",
+  "number": 216,
+  "title": "knowledge(style): a new procedure that changes the page's current record should take it as var Record",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New style guidance document for AL developers on when procedures that modify a record should take the record as a var parameter, with good and bad code samples and exclusions.",
+  "key_points": [
+    "Added knowledge article about mutating procedures on pages should accept records as var parameters",
+    "Explains how passing records by value causes stale data issues when pages modify records through procedures",
+    "Documents cost and constraints of var parameters including filter preservation requirements",
+    "Lists exclusions such as job queue entry points, API actions, and record ID based procedures",
+    "Integrated into style review checklist and test fixtures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004128,
+    "changes_in_call": 1
+  }
+}

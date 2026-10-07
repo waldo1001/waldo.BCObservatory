@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12097",
+  "number": 12097,
+  "title": "[29.X]-[Quality Management] Workflow events are not localized",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Workflow event labels in the Quality Management module are now properly localized instead of showing hardcoded English text.",
+  "key_points": [
+    "Event labels for quality workflows now support localization",
+    "Fixes display of workflow event descriptions in different languages",
+    "Changes affect the Quality Management workflow setup code"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002821,
+    "changes_in_call": 1
+  }
+}

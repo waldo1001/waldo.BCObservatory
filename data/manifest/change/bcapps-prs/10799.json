@@ -6,10 +6,25 @@
   "title": "Remove OnPrem scope from Table 1226 \"Payment Export Data\".SetSwissExport",
   "url": "https://github.com/microsoft/BCApps/pull/10799",
   "published_at": "2026-10-05T12:36:33Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:38.585Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:46.129Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003857
     }
   },
   "input_hash": "4c454b099c97ae4263fbc0e7a824821097c70c5b:c1",
@@ -30,5 +45,8 @@
     ],
     "community_contribution": true,
     "title_key": "remove onprem scope from table 1226 payment export data setswissexport"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "247db41c7a3eed22c6bc5722f62416488dbbce320d6ee507fa9c4aa5fb41d1da"
 }

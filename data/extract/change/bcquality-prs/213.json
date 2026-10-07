@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/213",
+  "number": 213,
+  "title": "knowledge(events): database trigger setup flags may only be set to true",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new quality rule checks that database trigger setup flags in the Global Triggers event can only be set to true, preventing subscribers from inadvertently clearing flags set by other integrations or system features.",
+  "key_points": [
+    "Detects when subscribers assign false to database trigger setup flags, which can disable Dataverse sync, webhooks, data archive, or change logging",
+    "Carves out demo data tools and test sessions where flag clearing is acceptable",
+    "Recommends using table-specific mechanisms instead of subscribing directly to system codeunits",
+    "Applies to AL versions 15 and later",
+    "Added to the al-events-review skill with both good and bad code samples"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004135,
+    "changes_in_call": 1
+  }
+}

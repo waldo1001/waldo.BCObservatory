@@ -1,0 +1,83 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12124,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12124",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T12:39:41Z",
+  "merge_commit_sha": "7b25204e79cc75a3c14690888564cd68f0a4c78f",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix default bin assignment when creating purchase orders for drop shipments",
+  "body_hash": "6f7b6abeb2b6dfd7afa8edcf44d82ff08fc5b4d38383a7fb9768c4748c4e2a79",
+  "fixes_issues": [],
+  "work_items": [
+    652101
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningIII.Codeunit.al",
+      "status": "modified",
+      "additions": 143,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 165,
+    "deletions": 17,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "key": "table/246",
+        "type": "table",
+        "id": 246,
+        "name": "Requisition Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/246"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

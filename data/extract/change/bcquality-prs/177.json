@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/177",
+  "number": 177,
+  "title": "Add retention policy knowledge to the privacy domain",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added guidance to the privacy domain in BCQuality about registering extension-owned tables for retention policies and shipping default retention policy setups, addressing common mistakes in how extensions handle log table cleanup.",
+  "key_points": [
+    "Two new knowledge articles in microsoft/knowledge/privacy/ with good and bad AL code examples",
+    "Covers proper registration in both install and upgrade code with guards, and creating disabled default policy setups",
+    "Addresses anti-patterns like hand-rolled DeleteAll and enabled policies without tenant approval",
+    "Integrated into al-privacy-review skill for detection during code reviews",
+    "References platform claims from BC admin documentation and the Retention Policy module"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0085,
+    "changes_in_call": 1
+  }
+}

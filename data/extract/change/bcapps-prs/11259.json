@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11259",
+  "number": 11259,
+  "title": "Postcode Configuration Page: display the stored provider selection on open",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The Postcode Configuration Page now displays the currently stored provider selection when opened, preventing the configured value from being cleared when closing the page with OK.",
+  "key_points": [
+    "Page 9143 loads the stored service key into the display variable on open",
+    "Previously configured provider selection is preserved when the user closes the page with OK",
+    "Test added to verify the page shows the configured provider and preserves it",
+    "Legacy pages 10501 and 10503 left unchanged as they are obsolete",
+    "Resolves issue where configured provider appeared empty on page open"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003583,
+    "changes_in_call": 1
+  }
+}

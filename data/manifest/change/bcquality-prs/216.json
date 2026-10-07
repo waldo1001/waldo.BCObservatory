@@ -6,10 +6,35 @@
   "title": "knowledge(style): a new procedure that changes the page's current record should take it as var Record",
   "url": "https://github.com/microsoft/BCQuality/pull/216",
   "published_at": "2026-10-05T12:42:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:30.731Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:35.975Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004128
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:35.977Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:35.982Z",
+      "path": "content/changes/bcquality/216.md"
     }
   },
   "input_hash": "b503249751e2594b10627db77eba3a3e2c94a176:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge style a new procedure that changes the page s current record should take it as var record"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc177d1cca59186f9e0c1ac493510adc22708de982d6f05b11c40a59486a1e5b"
 }

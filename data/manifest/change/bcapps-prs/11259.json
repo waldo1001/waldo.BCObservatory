@@ -6,10 +6,35 @@
   "title": "Postcode Configuration Page: display the stored provider selection on open",
   "url": "https://github.com/microsoft/BCApps/pull/11259",
   "published_at": "2026-10-05T12:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:35.405Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:40.283Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003583
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:40.445Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:40.450Z",
+      "path": "content/changes/bcapps/11259.md"
     }
   },
   "input_hash": "00ff2970b0ecb2305b8cbc0fbae5713c9fc3f85b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "postcode configuration page display the stored provider selection on open"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd49144d6a0a2fa2d7a6c5103c31f4151ba59299cae7986603eb2f9f438e6c08"
 }

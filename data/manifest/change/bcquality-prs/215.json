@@ -6,10 +6,35 @@
   "title": "knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates",
   "url": "https://github.com/microsoft/BCQuality/pull/215",
   "published_at": "2026-10-05T12:59:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:29.374Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:36.280Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.008231
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:36.281Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:36.285Z",
+      "path": "content/changes/bcquality/215.md"
     }
   },
   "input_hash": "4405c97c579f2d8c04b0d87f4cc0df25de161a96:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge performance grouped query count columnfilter having for distinct values and duplicates"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b3bbafbae471cea85e2953cd2ed4f89e4094cb06c9f36cb394fc4e749047dcbe"
 }

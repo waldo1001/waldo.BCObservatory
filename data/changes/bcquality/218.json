@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 218,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/218",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-05T13:01:05Z",
+  "merge_commit_sha": "7726d5d8d8dbcb146489f0e65e76e9cc9b976db0",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Harden findings-report producer constraints",
+  "body_hash": "53534c69ed012335ff20ffd5802d610ee28d61468876a86d486f3491a89d30c3",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "schemas/findings-report.schema.json",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Test-ReviewContract.ps1",
+      "status": "modified",
+      "additions": 119,
+      "deletions": 2,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 153,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

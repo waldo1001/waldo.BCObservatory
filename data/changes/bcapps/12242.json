@@ -1,0 +1,973 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12242,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12242",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-05T11:04:59Z",
+  "merge_commit_sha": "035361f916bd9863f62c2b30ec7c459e04851c84",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "29.x: Removing the restriction of deploying Power BI reports only to evaluation companies",
+  "body_hash": "d35d9e5ff245ce56ed5470d7520c33557907cb4053154de370f007b34f2bf764",
+  "fixes_issues": [],
+  "work_items": [
+    624513
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/Pages/PowerBIAssistedSetup.Page.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/Pages/PowerBIReportsSetup.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Core/ReportDeployments/PBIReportDeploySelection.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Test/PowerBICoreTest.Codeunit.al",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIReportSynchronizer.Codeunit.al",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIRestServiceProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadStepRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PBIDeployUploadTracker.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PBIDeployableReportImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployment.Table.al",
+      "status": "modified",
+      "additions": 88,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeploymentBuffer.Table.al",
+      "status": "modified",
+      "additions": 73,
+      "deletions": 42,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeploymentOutcome.Enum.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIReportDeployments.Page.al",
+      "status": "modified",
+      "additions": 132,
+      "deletions": 76,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportUploads/PowerBICustomerReport.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportUploads/PowerBISystemTableReport.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWorkspaceMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 121,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWorkspacesLookup.Page.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/PowerBI/PBITestDeployableReports.EnumExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/PowerBI/PowerBIMockServiceProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/PowerBI/PowerBISynchronizerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 301,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/PowerBI/PowerBITestSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 60,
+    "additions": 2044,
+    "deletions": 228,
+    "al": 55
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/Pages/PowerBIAssistedSetup.Page.al",
+        "status": "modified",
+        "key": "page/36950",
+        "type": "page",
+        "id": 36950,
+        "name": "PowerBI Assisted Setup",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36950"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/Pages/PowerBIReportsSetup.Page.al",
+        "status": "modified",
+        "key": "page/36951",
+        "type": "page",
+        "id": 36951,
+        "name": "PowerBI Reports Setup",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36951"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Core/ReportDeployments/PBIReportDeploySelection.Page.al",
+        "status": "modified",
+        "key": "page/36968",
+        "type": "page",
+        "id": 36968,
+        "name": "PBI Report Deploy. Selection",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36968"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "de",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "key": "page/1",
+        "type": "page",
+        "id": 1,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Company/CompanyInformation.Table.al",
+        "status": "modified",
+        "key": "table/79",
+        "type": "table",
+        "id": 79,
+        "name": "Company Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/79"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIReportSynchronizer.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6325",
+        "type": "codeunit",
+        "id": 6325,
+        "name": "Power BI Report Synchronizer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6325"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIRestServiceProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6321",
+        "type": "codeunit",
+        "id": 6321,
+        "name": "Power BI Rest Service Provider",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6321"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al",
+        "status": "modified",
+        "key": "interface/power bi service provider",
+        "type": "interface",
+        "id": null,
+        "name": "Power BI Service Provider",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "interface/power-bi-service-provider"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadStepRunner.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6334",
+        "type": "codeunit",
+        "id": 6334,
+        "name": "Power BI Upload Step Runner",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6334"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al",
+        "status": "modified",
+        "key": "interface/power bi upload tracker",
+        "type": "interface",
+        "id": null,
+        "name": "Power BI Upload Tracker",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "interface/power-bi-upload-tracker"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al",
+        "status": "modified",
+        "key": "interface/power bi uploadable report",
+        "type": "interface",
+        "id": null,
+        "name": "Power BI Uploadable Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "interface/power-bi-uploadable-report"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PBIDeployUploadTracker.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6349",
+        "type": "codeunit",
+        "id": 6349,
+        "name": "PBI Deploy. Upload Tracker",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6349"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PBIDeployableReportImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6350",
+        "type": "codeunit",
+        "id": 6350,
+        "name": "PBI Deployable Report Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6350"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployment.Table.al",
+        "status": "modified",
+        "key": "table/6316",
+        "type": "table",
+        "id": 6316,
+        "name": "Power BI Deployment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6316"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeploymentBuffer.Table.al",
+        "status": "modified",
+        "key": "table/6318",
+        "type": "table",
+        "id": 6318,
+        "name": "Power BI Deployment Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6318"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeploymentOutcome.Enum.al",
+        "status": "added",
+        "key": "enum/6318",
+        "type": "enum",
+        "id": 6318,
+        "name": "Power BI Deployment Outcome",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/6318"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIReportDeployments.Page.al",
+        "status": "modified",
+        "key": "page/6347",
+        "type": "page",
+        "id": 6347,
+        "name": "Power BI Report Deployments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6347"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportUploads/PowerBICustomerReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6326",
+        "type": "codeunit",
+        "id": 6326,
+        "name": "Power BI Customer Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6326"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportUploads/PowerBISystemTableReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6323",
+        "type": "codeunit",
+        "id": 6323,
+        "name": "Power BI System Table Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6323"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWorkspaceMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6319",
+        "type": "codeunit",
+        "id": 6319,
+        "name": "Power BI Workspace Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6319"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/PowerBI/Embedding/PowerBIWorkspacesLookup.Page.al",
+        "status": "added",
+        "key": "page/6349",
+        "type": "page",
+        "id": 6349,
+        "name": "Power BI Workspaces Lookup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6349"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1751",
+        "type": "codeunit",
+        "id": 1751,
+        "name": "Data Classification Eval. Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1751"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NZ/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "integration",
+    "development"
+  ],
+  "apps": [
+    "Base Application",
+    "PowerBIReports"
+  ]
+}

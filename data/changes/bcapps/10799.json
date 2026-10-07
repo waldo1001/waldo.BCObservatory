@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10799,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10799",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T12:36:33Z",
+  "merge_commit_sha": "4c454b099c97ae4263fbc0e7a824821097c70c5b",
+  "author": "he-d",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Remove OnPrem scope from Table 1226 \"Payment Export Data\".SetSwissExport",
+  "body_hash": "bcc0f0105a9189eaf7886b096564bb58486923e2e6cc2f07000fffc496607b78",
+  "fixes_issues": [
+    10731
+  ],
+  "work_items": [
+    652698
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+        "status": "modified",
+        "key": "table/1226",
+        "type": "table",
+        "id": 1226,
+        "name": "Payment Export Data",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/1226"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 10731,
+      "title": "[Extensibility Request] \"SetSwissExport\" on Table 1226 \"Payment Export Data\" is scoped \"OnPrem\", blocking Cloud extensions",
+      "state": "closed"
+    }
+  ]
+}

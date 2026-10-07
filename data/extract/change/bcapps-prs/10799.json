@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10799",
+  "number": 10799,
+  "title": "Remove OnPrem scope from Table 1226 \"Payment Export Data\".SetSwissExport",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The SetSwissExport procedure on the Payment Export Data table is now callable from Cloud extensions by removing its OnPrem scope restriction, making it consistent with other setters and the SwissExport field itself.",
+  "key_points": [
+    "Removed [Scope('OnPrem')] attribute from SetSwissExport method",
+    "Resolves compilation error AL0296 for Cloud-targeting extensions using SetSwissExport",
+    "Makes SetSwissExport consistent with other setters on the same table that already support Cloud",
+    "No changes to the procedure logic, only scope restriction removed",
+    "Maintains backward compatibility with existing OnPrem callers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003857,
+    "changes_in_call": 1
+  }
+}

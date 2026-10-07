@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/215",
+  "number": 215,
+  "title": "knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new performance knowledge article teaches developers how to use query objects with grouped methods and column filters to detect duplicate values in a single SQL statement instead of looping with multiple queries.",
+  "key_points": [
+    "Query objects with aggregate methods and HAVING filters replace loop-based duplicate detection",
+    "Reduces SQL statements from table row count to one statement",
+    "Complements existing guidance on grouped totals",
+    "Includes code examples and verification against base application usage",
+    "Added to performance review skill with filter-and-count loop detection"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "A query object does it in one statement.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008231,
+    "changes_in_call": 1
+  }
+}

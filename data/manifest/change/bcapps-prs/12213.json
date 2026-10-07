@@ -6,10 +6,18 @@
   "title": "[Financial Reports] Add row and column definition preview",
   "url": "https://github.com/microsoft/BCApps/pull/12213",
   "published_at": "2026-10-05T10:16:21Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:41.086Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 11,
+      "objects": 8,
+      "unjoined": 3
     }
   },
   "input_hash": "ec65cce27e0eed89f885aad0c190b8af725b29ca:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "financial reports add row and column definition preview"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "346ee649e3e1ef43f60bffb321adc2b83ef07258fe224d05fc9bd888d3afefe5"
 }

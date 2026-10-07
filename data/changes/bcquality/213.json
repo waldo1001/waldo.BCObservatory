@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 213,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/213",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-05T12:59:54Z",
+  "merge_commit_sha": "4cd53eac643c178c192290198821ec2aaedf1375",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(events): database trigger setup flags may only be set to true",
+  "body_hash": "48c51a68d8a5437e1f71656f524c8cbcdb189071c0dc229bd57eaf00e77e57a6",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.bad.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.good.al",
+      "status": "added",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.md",
+      "status": "added",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-events-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 177,
+    "deletions": 2,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/database-trigger-setup-flags-may-only-be-set-to-true.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-events-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

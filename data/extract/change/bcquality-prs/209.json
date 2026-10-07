@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/209",
+  "number": 209,
+  "title": "3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Three new articles guide developers to use triggers when writing or deleting master data and to properly abort validations when user confirmation is declined.",
+  "key_points": [
+    "Record.Insert() and Delete() skip OnInsert and OnDelete by default; use Insert(true) and Delete(true) for master tables",
+    "Declined Confirm in OnValidate commits the new value; use Error to abort or restore xRec instead",
+    "Articles cite exceptions: temporary records, XMLports, data migration rebuilds, and cascade deletes within the owning table",
+    "Review skills updated with targeted checks and documented exclusions",
+    "All fixtures verified to compile and all BCApps citations re-opened at main"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00466,
+    "changes_in_call": 1
+  }
+}

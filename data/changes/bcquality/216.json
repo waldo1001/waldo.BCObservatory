@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 216,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/216",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-05T12:42:22Z",
+  "merge_commit_sha": "b503249751e2594b10627db77eba3a3e2c94a176",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(style): a new procedure that changes the page's current record should take it as var Record",
+  "body_hash": "6f11eea9525bbf83bc77ed44a0586e172945945b6c46a420a56c527c1993dd5d",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.bad.al",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.good.al",
+      "status": "added",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.md",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 192,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

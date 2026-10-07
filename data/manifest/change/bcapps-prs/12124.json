@@ -6,10 +6,35 @@
   "title": "Fix default bin assignment when creating purchase orders for drop shipments",
   "url": "https://github.com/microsoft/BCApps/pull/12124",
   "published_at": "2026-10-05T12:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:37.084Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:45.868Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003508
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:46.118Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:46.123Z",
+      "path": "content/changes/bcapps/12124.md"
     }
   },
   "input_hash": "7b25204e79cc75a3c14690888564cd68f0a4c78f:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix default bin assignment when creating purchase orders for drop shipments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59caeed64617a6612cee63d19a27a583fdfc79f23c26772978a9e571cc1d3984"
 }

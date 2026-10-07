@@ -1,0 +1,247 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12213,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12213",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T10:16:21Z",
+  "merge_commit_sha": "ec65cce27e0eed89f885aad0c190b8af725b29ca",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Financial Reports] Add row and column definition preview",
+  "body_hash": "c459610a5a74e3d8e9817f49a3b7ccbe7ac9915ba0138174893bd4bab4e659a0",
+  "fixes_issues": [],
+  "work_items": [
+    622943
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 214,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 214,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/ColumnLayout.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ColumnLayout.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ColumnLayoutName.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 214,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 14,
+    "additions": 919,
+    "deletions": 0,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleName.Table.al",
+        "status": "modified",
+        "key": "table/84",
+        "type": "table",
+        "id": 84,
+        "name": "Acc. Schedule Name",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/84"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+        "status": "modified",
+        "key": "page/490",
+        "type": "page",
+        "id": 490,
+        "name": "Acc. Schedule Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/490"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+        "status": "modified",
+        "key": "page/104",
+        "type": "page",
+        "id": 104,
+        "name": "Account Schedule",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/104"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ColumnLayout.Page.al",
+        "status": "modified",
+        "key": "page/489",
+        "type": "page",
+        "id": 489,
+        "name": "Column Layout",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/489"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ColumnLayoutName.Table.al",
+        "status": "modified",
+        "key": "table/333",
+        "type": "table",
+        "id": 333,
+        "name": "Column Layout Name",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/333"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/AccountSchedule.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/FinancialReports/ColumnLayout.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

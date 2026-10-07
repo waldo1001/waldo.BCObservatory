@@ -6,10 +6,35 @@
   "title": "[Quality Management] Refactor permission management",
   "url": "https://github.com/microsoft/BCApps/pull/11129",
   "published_at": "2026-10-05T12:39:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:35.249Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:39.811Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003557
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:39.966Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:39.972Z",
+      "path": "content/changes/bcapps/11129.md"
     }
   },
   "input_hash": "3b2f885487df1bd23c4b6213d125261ff885403d:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management refactor permission management"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aee88cbcf8393f3f0a51813fd308894ca33678ac201414e72875c17398324983"
 }

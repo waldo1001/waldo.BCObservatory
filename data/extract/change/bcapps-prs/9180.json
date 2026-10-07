@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9180",
+  "number": 9180,
+  "title": "Copy record links to posted Phys. Invt. Order and Recording headers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Record links attached to physical inventory order and recording headers are now copied to their posted documents, matching the behavior of sales, purchase, and warehouse posting flows.",
+  "key_points": [
+    "Record links (notes and attachments) are preserved when posting physical inventory orders",
+    "Copy operations added in InsertPostedHeader and InsertPostedRecordings methods",
+    "Links remain inside IsHandled gates so custom subscribers retain full control",
+    "Regression test verifies links appear on posted documents after posting",
+    "No schema or signature changes; purely additive behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004061,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "knowledge(events): database trigger setup flags may only be set to true",
   "url": "https://github.com/microsoft/BCQuality/pull/213",
   "published_at": "2026-10-05T12:59:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:28.863Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:34.171Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004135
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:34.172Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:56:34.176Z",
+      "path": "content/changes/bcquality/213.md"
     }
   },
   "input_hash": "4cd53eac643c178c192290198821ec2aaedf1375:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge events database trigger setup flags may only be set to true"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a61345473292d226ffcacda7e0a8f2c0e8e2e6ff0debf9194036822617d7c3fb"
 }

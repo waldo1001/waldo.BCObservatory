@@ -6,7 +6,7 @@
   "title": "[Bug]: [Subscription Billing] Payment discount on contract invoices comes from the customer, not from the contract's payment terms",
   "url": "https://github.com/microsoft/BCApps/pull/10182",
   "published_at": "2026-10-05T14:18:31Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004384
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:27.815Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:27.819Z",
+      "path": "content/changes/bcapps/10182.md"
     }
   },
   "input_hash": "684bf7ba00f7a8605e503676b56ccdb4db925875:c1",
@@ -49,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "daf7feca64d087e70b5f1be5d5ca00d63223c4bb9421d745695adf4d6df4ca17"
+  "output_hash": "48e0f4dabc0393065a901c0f7f24cefab6ef2ff12232ba0b025c6b5a0720fe69"
 }

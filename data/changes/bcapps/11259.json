@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11259,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11259",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-05T12:39:41Z",
+  "merge_commit_sha": "00ff2970b0ecb2305b8cbc0fbae5713c9fc3f85b",
+  "author": "sergey-idealpostcodes",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Postcode Configuration Page: display the stored provider selection on open",
+  "body_hash": "f5f69e193460a123985575798c645dfcb265c79b4adf057ea7f14d8fb060ebc8",
+  "fixes_issues": [
+    11255
+  ],
+  "work_items": [
+    652071
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Address/PostcodeConfigurationPageW1.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TestPostcodeServiceManager.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 33,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Address/PostcodeConfigurationPageW1.Page.al",
+        "status": "modified",
+        "key": "page/9143",
+        "type": "page",
+        "id": 9143,
+        "name": "Postcode Configuration Page W1",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9143"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 11255,
+      "title": "Postcode Configuration Page shows an empty Address Provider when a provider is configured",
+      "state": "closed"
+    }
+  ]
+}
