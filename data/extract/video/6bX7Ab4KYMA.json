@@ -210,6 +210,12 @@
       "check": "exact"
     },
     {
+      "t": 110,
+      "text": "you need to remember to create a new table with company information in the source database.",
+      "why_it_matters": "Required step for custom migration tools that the page did not mention.",
+      "check": "exact"
+    },
+    {
       "t": 162.5,
       "text": "This is the Business Central version 14 re-implementation tool which enables customers that are stuck on older on-premise versions to migrate to Business Central",
       "why_it_matters": "Introduces the first custom migration tool built on the new platform, addressing a specific customer need for legacy system migration.",

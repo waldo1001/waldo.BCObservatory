@@ -1,0 +1,35 @@
+{
+  "video_id": "nMiLzdfidos",
+  "item_id": "video/yt-microsoft/nMiLzdfidos",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Three features (AI-assisted code generation with AL constraints, Iterative prototyping with AI, AI agent feedback loop with success criteria) are the speaker's views on working with AI, not product features; dropped.",
+    "Parallel workspace compilation duplicates Workspace compile with parallel builds and wrongly says the 75 percent reduction was from 50 minutes; in the video it is from a baseline of just under 2 hours. Dropped.",
+    "Key point on compile timing now gives the roughly 2 hour baseline, 26 minutes with four processes (about 75 percent), and notes these are preliminary measurements.",
+    "Key point said the troubleshooting MCP server works only at a breakpoint; the transcript says it is invoked while at a breakpoint. Softened.",
+    "AL MCP server set to preview: the video says it was only on the pre-release version at recording time.",
+    "All 18 existing quotes match the transcript; added quotes for update audit fields in cloud, use only custom feeds, and analysis views.",
+    "The 'is simple only' command name is kept as it appears in the captions."
+  ],
+  "input_hash": "a08b6169cc89bacc7feadf963514e9b2665b7a0c431375354b359d37969fa46e",
+  "by": "opus",
+  "at": "2026-10-07T22:50:24.129Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "Analysis views in extensions: status ga",
+    "quote at 99s",
+    "quote at 443s",
+    "quote at 119s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status AL MCP server for non-VS Code agents -> preview: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.21958099999999997
+  }
+}

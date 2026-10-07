@@ -1,0 +1,29 @@
+{
+  "video_id": "fxrVyBD8UoU",
+  "item_id": "video/yt-microsoft/fxrVyBD8UoU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Deferral reports evidence quote starts at t 81.4, not at the feature t_start of 43.7. Corrected evidence_t.",
+    "Analysis views evidence quote starts at t 177.4, not 151.5. Corrected evidence_t. The quote differs from the transcript only by the {dot} caption braces and punctuation, so it is kept.",
+    "The trial balance feature flag makes the reports available now behind a toggle. The transcript does not use preview or GA wording, so the status stays unclear.",
+    "Quote at t 123 is a cut-off fragment with little content. It is replaced with the rollback statement at t 136.3.",
+    "The summary, key points and remaining features are supported by the transcript."
+  ],
+  "input_hash": "60bf07e74d3b68f3996d49c359d5de7d34b6d5cd94638900d1ece27e4b7f8bc9",
+  "by": "opus",
+  "at": "2026-10-07T22:50:13.697Z",
+  "applied": [
+    "Deferral Reports with Subtotals: status ga",
+    "Out-of-Box Analysis Views for Finance: status announced",
+    "dropped 1 quote(s)",
+    "quote at 136s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07596900000000001
+  }
+}

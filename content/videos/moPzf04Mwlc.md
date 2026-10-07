@@ -16,12 +16,12 @@ tags:
   - task monitoring
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:14.608Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:14.650Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     commit: null
     t: 87
     quote: even though the agent has a super permission set, it is not going to have more permissions than the user giving it tasks
+  - kind: video
+    url: https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s
+    title: "What's New: How To Create Agents in Business Central"
+    date: "2026-02-27T15:12:54.000Z"
+    commit: null
+    t: 87
+    quote: We recommend that you limit the permission set when you're ready to release your agent.
   - kind: video
     url: https://www.youtube.com/watch?v=moPzf04Mwlc&t=170s
     title: "What's New: How To Create Agents in Business Central"
@@ -182,6 +189,9 @@ quotes:
   - t: 87
     text: even though the agent has a super permission set, it is not going to have more permissions than the user giving it tasks
     check: exact
+  - t: 87
+    text: We recommend that you limit the permission set when you're ready to release your agent.
+    check: exact
   - t: 170
     text: Agents are able to read the PDF files and extract text from the images which you will see in the demo
     check: exact
@@ -203,7 +213,7 @@ quotes:
 
 > Creating a custom agent in Business Central with the no-code wizard, shown through a sales return agent that reads customer emails and attachments and creates credit memos. Covers profile and permissions, instructions, task monitoring, copilot credits and instruction versioning.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=moPzf04Mwlc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 7:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=moPzf04Mwlc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 7:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -213,13 +223,13 @@ The demo then creates a task with attachments (PDF and image), follows the agent
 
 ## Key points
 
-- The agent creation wizard needs a name, a profile, permissions and instructions; no code is written. The demo is in a sandbox.
-- Profile-based permissions with a dedicated profile are recommended as best practice.
+- The agent creation wizard needs a name, a profile, permissions and instructions; no code is written. The demo is in a sandbox, and the wizard opens from the A+ icon.
+- A dedicated profile limited to the agent's tasks is recommended; a full profile and the super permission set are fine for prototyping, but the permission set should be limited before releasing the agent.
 - Agent permissions never exceed those of the user giving it tasks, even if the agent has a super permission set.
 - Agents can read PDF attachments and extract text from images to understand a customer request.
-- The task log shows each step the agent takes, with a description and the reason; fields the agent filled are marked with eye icons and a justification.
+- The task log shows each step the agent takes, with a description and the reason; View details shows the data the agent had available. Fields the agent filled are marked with eye icons and a justification.
 - An agent can request human assistance, and the user answers through a review pane so the agent can continue.
-- Instruction changes are saved as versions automatically and can be compared and downloaded; a task can be repeated with the same input data and attachments. Copilot credits used appear at the bottom of the task screen.
+- Instruction edits are saved as versions in the instruction history and can be selected and downloaded as a backup; a task can be repeated with the same input data and attachments. Copilot credits used appear at the bottom of the task screen.
 
 ## Chapters
 
@@ -236,18 +246,18 @@ The demo then creates a task with attachments (PDF and image), follows the agent
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Creation Wizard | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=23s) |  |
-| Agent Task Execution with File Attachments | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=moPzf04Mwlc&t=137s) |  |
-| Task Log and Execution Tracking | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=moPzf04Mwlc&t=193s) |  |
-| Agent Action Justification and Audit Trail | generally available (roadmap [573366](../features/573366.md)), demoed | [4:37](https://www.youtube.com/watch?v=moPzf04Mwlc&t=277s) |  |
-| Task Repeat and Iterative Improvement | status not stated, demoed | [5:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=323s) |  |
-| Agent Request for Human Assistance | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=moPzf04Mwlc&t=369s) |  |
-| Copilot Credits Consumption Tracking | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=moPzf04Mwlc&t=403s) |  |
-| Instruction Versioning and History | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=moPzf04Mwlc&t=415s) |  |
-| Sales Return Agent Creation | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=moPzf04Mwlc&t=35s) |  |
-| Agent Permission Inheritance from User | status not stated | [1:27](https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Creation Wizard | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=23s) |
+| Agent Task Execution with File Attachments | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=moPzf04Mwlc&t=137s) |
+| Task Log and Execution Tracking | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=moPzf04Mwlc&t=193s) |
+| Agent Action Justification and Audit Trail | generally available (roadmap [573366](../features/573366.md)), demoed | [4:37](https://www.youtube.com/watch?v=moPzf04Mwlc&t=277s) |
+| Task Repeat and Iterative Improvement | status not stated, demoed | [5:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=323s) |
+| Agent Request for Human Assistance | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=moPzf04Mwlc&t=369s) |
+| Copilot Credits Consumption Tracking | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=moPzf04Mwlc&t=403s) |
+| Instruction Versioning and History | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=moPzf04Mwlc&t=415s) |
+| Sales Return Agent Creation | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=moPzf04Mwlc&t=35s) |
+| Agent Permission Inheritance from User | status not stated | [1:27](https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -263,6 +273,7 @@ Not found in BC28-30: page "credit memo".
 
 - [0:05](https://www.youtube.com/watch?v=moPzf04Mwlc&t=5s) "how you can define your first agent in Business Central in sandboxes without using any code"
 - [1:27](https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s) "even though the agent has a super permission set, it is not going to have more permissions than the user giving it tasks"
+- [1:27](https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s) "We recommend that you limit the permission set when you're ready to release your agent."
 - [2:50](https://www.youtube.com/watch?v=moPzf04Mwlc&t=170s) "Agents are able to read the PDF files and extract text from the images which you will see in the demo"
 - [3:47](https://www.youtube.com/watch?v=moPzf04Mwlc&t=227s) "You can see the description of the task that the agent did. Also, you can see the reason why it did it. So, this"
 - [4:48](https://www.youtube.com/watch?v=moPzf04Mwlc&t=288s) "you can see with the little eye icons and justification why this one was done. An indication that this field was actually filled by"

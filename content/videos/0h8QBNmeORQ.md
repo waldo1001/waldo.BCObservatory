@@ -2,7 +2,7 @@
 id: video/0h8QBNmeORQ
 type: video
 title: "Microsoft Sizzle: Business Central Agents In Action"
-summary: Business Central Sales Order Agent and Payables Agent shown in a 2-minute Microsoft sizzle video, published 2026-02-02. It describes what each agent automates and says users can build their own custom agents. It is a high-level overview, not a how-to.
+summary: A short (about 98 seconds) Microsoft sizzle video about the Business Central Sales Order Agent and Payables Agent. It describes what each agent automates and says users can start building their own custom agents today. It is a high-level marketing overview, not a how-to.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - business productivity
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:19.516Z"
   flags: []
 generated:
-  at: "2026-10-06T18:16:23.576Z"
+  at: "2026-10-07T22:51:19.556Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -133,9 +133,9 @@ quotes:
 
 # Microsoft Sizzle: Business Central Agents In Action
 
-> Business Central Sales Order Agent and Payables Agent shown in a 2-minute Microsoft sizzle video, published 2026-02-02. It describes what each agent automates and says users can build their own custom agents. It is a high-level overview, not a how-to.
+> A short (about 98 seconds) Microsoft sizzle video about the Business Central Sales Order Agent and Payables Agent. It describes what each agent automates and says users can start building their own custom agents today. It is a high-level marketing overview, not a how-to.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=0h8QBNmeORQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-02 · 1:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=0h8QBNmeORQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-02 · 1:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -150,7 +150,7 @@ It then moves to building custom agents that connect to other Microsoft tools. C
 - Users can build their own agents to automate unique workflows and connect to other Microsoft tools.
 - Custom agents are described as configurable, with security and transparency.
 - The video says you can start building your own agents today.
-- Feature release status is not stated in the video.
+- The video does not state a preview or GA status for the Sales Order Agent or the Payables Agent.
 
 ## Chapters
 
@@ -163,11 +163,11 @@ It then moves to building custom agents that connect to other Microsoft tools. C
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |  |
-| Payables Agent | status not stated | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |  |
-| Custom Agents Framework | status not stated | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |
+| Payables Agent | status not stated | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |
+| Custom Agents Framework | status not stated | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |
 
 ## Quotes
 

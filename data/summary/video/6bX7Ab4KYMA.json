@@ -5,12 +5,12 @@
   "overview": "The video covers three additions to Business Central cloud migration. Developers can write an app that defines table mappings and setup data to migrate from any SQL-based source, using the existing migration platform and a new customer migration provider interface for extensibility.\n\nThe second addition is a Business Central version 14 re-implementation tool for customers on older on-premise Business Central and NAV versions. It moves a subset of data: master data, transactional data, opening balances and essential setup data. The third lets users migrate from any SQL source without code, by defining table mappings in the cloud migration setup and selecting which tables to copy. Configurations can be exported and imported for reuse across tenants.",
   "key_points": [
     "Developers can build custom migration tools with an app that defines table mappings and setup data for any SQL-based source, via the customer migration provider interface.",
-    "The BC14 re-implementation tool supports migrations only from Business Central version 14, no older or later versions.",
-    "The BC14 tool migrates a subset of data: master data, transactional data, opening balances and essential setup data.",
-    "The BC14 tool is work in progress; shipping is expected in one of the first minor updates of version 28, and the team intends to make it open source on GitHub.",
-    "No-code migration uses custom table mappings in cloud migration setup; only the tables you select are copied.",
+    "A custom tool also needs a company table in the source database, created with a SQL script, with Name and Display Name fields. The tool must extend the enum to appear in the cloud migration wizard.",
     "There are two mapping kinds: replication table mappings (tables moved to Business Central) and setup table mappings (replicated once connected, used in the setup step).",
-    "System tables inaccessible by AL code cannot be migrated. Migration configurations can be exported and imported to reuse across tenants."
+    "The BC14 re-implementation tool supports migrations only from Business Central version 14, no older or later versions, and moves a subset of data: master data, transactional data, opening balances and essential setup data.",
+    "The BC14 tool is work in progress; shipping is expected in one of the first minor updates of version 28, and the team intends to make it open source on GitHub.",
+    "No-code migration uses custom table mappings in cloud migration setup; only the tables you select are copied. System tables inaccessible by AL code still cannot be migrated.",
+    "Migration configurations (table mappings) can be exported and imported to reuse across tenants."
   ],
   "audience": [
     "developer",

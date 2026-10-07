@@ -6,11 +6,11 @@
   "key_points": [
     "Instructions typed in the agent playground are autosaved.",
     "A version is saved to the instruction history each time a task is run, not on every edit, to avoid a very long list.",
+    "On the agent, the edit instructions action shows the buttons save history, view history and download instructions.",
     "Versions can be saved manually with a custom name so important ones are easy to find.",
+    "Saving again after an update keeps the previous version and adds a '-2' suffix to the new one.",
     "The history lists versions arranged by timestamp.",
-    "Individual versions can be downloaded to disk. Selecting several versions downloads them together as a zipped file.",
-    "Downloaded versions can be compared in tools like Visual Studio Code or Beyond Compare, since the client cannot diff versions itself.",
-    "Exporting the agent does not include instruction history, so download the versions manually to keep them."
+    "Individual versions can be downloaded to disk. Selecting several versions downloads them together as a zipped file."
   ],
   "audience": [
     "developer",

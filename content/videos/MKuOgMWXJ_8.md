@@ -16,12 +16,12 @@ tags:
   - credit usage
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:08.493Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:08.526Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,7 +185,7 @@ quotes:
 
 > Sales Validation sample agent in Business Central: a sample agent shipped out of the box that checks open sales orders against release criteria and releases them for shipment. The video demos setup, profile, permissions, instructions, task tracking, message review and credit usage. More samples are announced.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MKuOgMWXJ_8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 4:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MKuOgMWXJ_8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 4:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

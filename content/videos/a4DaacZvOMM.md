@@ -2,7 +2,7 @@
 id: video/a4DaacZvOMM
 type: video
 title: "#BCTalent Stories: Sandlapper"
-summary: Sandlapper, a boutique partner firm, describes how the BC Talent program and its cross skills component helped it reach Business Central certification and gain confidence in Great Plains (GP) to Business Central migration conversations. It is a one-minute partner testimonial.
+summary: Sandlapper, a small boutique partner firm, says the BC Talent program and the cross skills program helped it get Business Central certification. They also gave it the confidence to guide customers from Great Plains (GP) to Business Central with as little risk and disruption as possible. This short partner testimonial (about 90 seconds) contains no product demo.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - boutique firm
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:16.748Z"
   flags: []
 generated:
-  at: "2026-10-06T18:13:47.171Z"
+  at: "2026-10-07T22:51:16.791Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,11 +111,6 @@ features:
     t: 19
     verified: false
     status_source: video
-  - name: GP to BC Migration Confidence
-    status: unclear
-    t: 46
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 0
@@ -140,9 +135,9 @@ quotes:
 
 # #BCTalent Stories: Sandlapper
 
-> Sandlapper, a boutique partner firm, describes how the BC Talent program and its cross skills component helped it reach Business Central certification and gain confidence in Great Plains (GP) to Business Central migration conversations. It is a one-minute partner testimonial.
+> Sandlapper, a small boutique partner firm, says the BC Talent program and the cross skills program helped it get Business Central certification. They also gave it the confidence to guide customers from Great Plains (GP) to Business Central with as little risk and disruption as possible. This short partner testimonial (about 90 seconds) contains no product demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=a4DaacZvOMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 1:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=a4DaacZvOMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 1:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -169,11 +164,10 @@ The speaker credits the cross skills program and BC Talent with their certificat
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Talent Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |  |
-| Cross Skills Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |  |
-| GP to BC Migration Confidence | status not stated | [0:46](https://www.youtube.com/watch?v=a4DaacZvOMM&t=46s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Talent Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
+| Cross Skills Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
 
 ## Quotes
 

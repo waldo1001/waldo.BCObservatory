@@ -1,0 +1,26 @@
+{
+  "video_id": "WFAZLsUTk20",
+  "item_id": "video/yt-microsoft/WFAZLsUTk20",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes are verbatim, and the summary and key points match the transcript.",
+    "No feature has a preview or GA status stated in the transcript, so 'unclear' is correct for all of them.",
+    "Missing: where the buttons are (Edit instructions action: save history, view history, download instructions). Also missing: saving again after an update keeps the previous version and adds a '-2' suffix. Added a quote and key points for both.",
+    "The quote at t=90 ends mid-sentence but is verbatim. Kept."
+  ],
+  "input_hash": "fda41e28abb11846805124b12775c005f5128feba705dc85de0e2529b1e76bf6",
+  "by": "opus",
+  "at": "2026-10-07T22:50:52.398Z",
+  "applied": [
+    "quote at 65s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054477
+  }
+}

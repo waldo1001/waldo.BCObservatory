@@ -1,0 +1,25 @@
+{
+  "video_id": "cnIJZ2Ozcxs",
+  "item_id": "video/yt-microsoft/cnIJZ2Ozcxs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and the overview report feature description say the report matches 'version 28 standards'; the transcript only shows the overview as it looks in version 27 and in version 28. Corrected the key point.",
+    "Chapter boundaries are slightly off: the demo data chapter starts at 214.2 (still map visuals) and the demo data content at 263.4 falls in the documentation chapter.",
+    "Revenue development report (new visual with tooltips) and the roughly 15-page app size were missing; added to key points.",
+    "All quotes are verbatim (some cross segment boundaries). Feature statuses stay unclear because the transcript does not say preview or GA."
+  ],
+  "input_hash": "d1ea7706a2f2a72be47892335b600b226e7aa7b3659decc74f2fd95c0ad0dc4e",
+  "by": "opus",
+  "at": "2026-10-07T22:50:03.617Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.087585
+  }
+}

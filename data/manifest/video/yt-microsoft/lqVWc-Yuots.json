@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=lqVWc-Yuots",
   "published_at": "2026-04-01T12:00:47.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 3
     },
     "published": {
-      "at": "2026-10-06T18:07:57.783Z",
+      "at": "2026-10-07T22:50:13.629Z",
       "path": "content/videos/lqVWc-Yuots.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:50:13.591Z",
+      "path": "data/review/video/lqVWc-Yuots.json",
+      "verdict": "fix",
+      "applied": 4,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.091021
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4dc37a4ba3eff96465bf1cfb67c2378c29717394fa938dd054d8c1dc2e9cf33d"
+  "output_hash": "fd636813cbca294854cd295ee8226eb77cc1f36726ac99497c938afd16d8e1d2",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:50:13.585Z"
+  }
 }

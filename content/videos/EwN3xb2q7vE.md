@@ -2,7 +2,7 @@
 id: video/EwN3xb2q7vE
 type: video
 title: "What's New: Coding Business Central Agents with AI Development Toolkit"
-summary: "Coding custom Business Central agents in AL with the AI development toolkit APIs: agent types, interfaces, setup pages, instances, tasks and messages, multi-turn interactions, agent session events, and exposing agents to other apps. Demo-based walkthrough, 16 minutes, published 2026-02-27."
+summary: "Coding custom Business Central agents in AL with the AI development toolkit APIs: the agent project template in the VS Code extension, agent types, interfaces, setup pages, instances, tasks and messages, multi-turn interactions, agent session events, and exposing agents to other apps. Slide walkthrough with code examples, 16 minutes, published 2026-02-27."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - agent configuration
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:59.161Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:59.221Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,6 +37,13 @@ evidence:
     commit: null
     t: 5
     quote: Today we will see how we can use the APIs provided in Business Central to code our own agents.
+  - kind: video
+    url: https://www.youtube.com/watch?v=EwN3xb2q7vE&t=17s
+    title: "What's New: Coding Business Central Agents with AI Development Toolkit"
+    date: "2026-02-27T15:13:09.000Z"
+    commit: null
+    t: 17
+    quote: you can get the latest version of the VS Code extension. And use the new project command to access our templates.
   - kind: video
     url: https://www.youtube.com/watch?v=EwN3xb2q7vE&t=302s
     title: "What's New: Coding Business Central Agents with AI Development Toolkit"
@@ -240,6 +247,9 @@ quotes:
   - t: 5
     text: Today we will see how we can use the APIs provided in Business Central to code our own agents.
     check: exact
+  - t: 17
+    text: you can get the latest version of the VS Code extension. And use the new project command to access our templates.
+    check: exact
   - t: 302
     text: In Business Central, agents are modeled via instances which are also users in Business Central.
     check: exact
@@ -259,9 +269,9 @@ quotes:
 
 # What's New: Coding Business Central Agents with AI Development Toolkit
 
-> Coding custom Business Central agents in AL with the AI development toolkit APIs: agent types, interfaces, setup pages, instances, tasks and messages, multi-turn interactions, agent session events, and exposing agents to other apps. Demo-based walkthrough, 16 minutes, published 2026-02-27.
+> Coding custom Business Central agents in AL with the AI development toolkit APIs: the agent project template in the VS Code extension, agent types, interfaces, setup pages, instances, tasks and messages, multi-turn interactions, agent session events, and exposing agents to other apps. Slide walkthrough with code examples, 16 minutes, published 2026-02-27.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=EwN3xb2q7vE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 15:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=EwN3xb2q7vE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 15:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -294,30 +304,30 @@ It then covers agent instances, which are also users in Business Central, and ho
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Type Definition | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=55s) |  |
-| Agent Factory Interface | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=134s) |  |
-| Agent Metadata Interface | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=167s) |  |
-| Task Execution Interface | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=190s) |  |
-| Message Validation API | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=216s) |  |
-| Agent Instances | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=288s) |  |
-| Agent Setup Page | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=345s) |  |
-| Agent Setup Codeunit | status not stated, demoed | [7:12](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=432s) |  |
-| Programmatic Agent Creation | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |  |
-| Agent Instructions | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |  |
-| Agent KPI Pages | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |  |
-| Tasks API | status not stated, demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |  |
-| Task and Message Model | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |  |
-| Message Attachments | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |  |
-| Multi-turn Agent Interactions | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |  |
-| External ID for Messages | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |  |
-| Agent Task Triggering | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |  |
-| Agent Task Codeunit Management | status not stated, demoed | [13:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=797s) |  |
-| Task Result Polling | status not stated, demoed | [13:31](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=811s) |  |
-| Agent Session Events | status not stated, demoed | [13:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=836s) |  |
-| Is Agent Session Procedure | status not stated, demoed | [14:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=866s) |  |
-| Exposing Agents via API | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=884s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Type Definition | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=55s) |
+| Agent Factory Interface | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=134s) |
+| Agent Metadata Interface | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=167s) |
+| Task Execution Interface | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=190s) |
+| Message Validation API | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=216s) |
+| Agent Instances | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=288s) |
+| Agent Setup Page | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=345s) |
+| Agent Setup Codeunit | status not stated, demoed | [7:12](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=432s) |
+| Programmatic Agent Creation | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |
+| Agent Instructions | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |
+| Agent KPI Pages | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |
+| Tasks API | status not stated, demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
+| Task and Message Model | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
+| Message Attachments | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |
+| Multi-turn Agent Interactions | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |
+| External ID for Messages | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |
+| Agent Task Triggering | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |
+| Agent Task Codeunit Management | status not stated, demoed | [13:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=797s) |
+| Task Result Polling | status not stated, demoed | [13:31](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=811s) |
+| Agent Session Events | status not stated, demoed | [13:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=836s) |
+| Is Agent Session Procedure | status not stated, demoed | [14:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=866s) |
+| Exposing Agents via API | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=884s) |
 
 ## AL objects mentioned
 
@@ -341,6 +351,7 @@ Not found in BC28-30: enum "agent metadata provider enum", enum "Copilot capabil
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=5s) "Today we will see how we can use the APIs provided in Business Central to code our own agents."
+- [0:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=17s) "you can get the latest version of the VS Code extension. And use the new project command to access our templates."
 - [5:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=302s) "In Business Central, agents are modeled via instances which are also users in Business Central."
 - [7:12](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=432s) "you will need to make your own table to track your own instances. It needs to be a table that has the user security"
 - [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) "For tasks, you can imagine them as units of work for the agent. They are bound to a specific agent instance."

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=LKt0K-EdiX0",
   "published_at": "2026-04-01T12:00:32.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 4
     },
     "published": {
-      "at": "2026-10-06T18:01:58.233Z",
+      "at": "2026-10-07T22:50:32.643Z",
       "path": "content/videos/LKt0K-EdiX0.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:50:32.611Z",
+      "path": "data/review/video/LKt0K-EdiX0.json",
+      "verdict": "fix",
+      "applied": 6,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.081349
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bfc663e29f2451ddc8bcf1dc9c8ad98438b2b9f652ab9bb7a555bb9a700f6d5"
+  "output_hash": "9b48b5f05e8509ca890b51495c60b595dadb36cf408fd805009250ceccd38244",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:50:32.608Z"
+  }
 }

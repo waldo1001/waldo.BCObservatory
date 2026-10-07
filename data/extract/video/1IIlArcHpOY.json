@@ -548,14 +548,8 @@
     },
     {
       "t": 879.8,
-      "text": "Instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks.",
-      "why_it_matters": "Clarifies architectural priority that guides instruction and task design decisions for consistent agent behavior.",
-      "check": "exact"
-    },
-    {
-      "t": 879.8,
       "text": "instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks",
-      "why_it_matters": "Explains the priority hierarchy between instructions and task messages, essential for correct agent design.",
+      "why_it_matters": "Core guidance on how instructions and task messages are prioritized.",
       "check": "exact"
     },
     {
@@ -580,6 +574,12 @@
       "t": 1264,
       "text": "If you would like to store the state of the page then you need to instruct it specifically which fields and which data it",
       "why_it_matters": "Explains the requirement for explicit instruction to store page state in agent memory.",
+      "check": "exact"
+    },
+    {
+      "t": 1345.1,
+      "text": "If you add the parenthesis like this and you specify page ID, then these page specific instructions will be available to the agent only",
+      "why_it_matters": "Explains the page-specific instructions syntax and when it applies.",
       "check": "exact"
     },
     {

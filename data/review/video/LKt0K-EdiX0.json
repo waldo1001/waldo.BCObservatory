@@ -1,0 +1,31 @@
+{
+  "video_id": "LKt0K-EdiX0",
+  "item_id": "video/yt-microsoft/LKt0K-EdiX0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim and the chapters match the transcript.",
+    "The key point and the toggle feature description said the per-asset toggle works 'regardless of setup'. The transcript only says you can opt in or out on each depreciation book, and the demo shows it being turned off manually, so I softened the wording.",
+    "Key points left out the demo results: an extra journal line for the bonus amount (20% of the 8,000 acquisition cost), a lower first regular depreciation, separate ledger entries, and the new fields on the fixed asset card. I added them.",
+    "The video never states a preview or GA status, so all features stay unclear.",
+    "I reworded the key point 'check the rules for your country' so it sticks to what the transcript says: the percentage and date are defined by law, and naming varies by country."
+  ],
+  "input_hash": "3034da7cd6fb7c43ae960a084932ab53cec829552e4eb629a2eea178a3538ddb",
+  "by": "opus",
+  "at": "2026-10-07T22:50:32.608Z",
+  "applied": [
+    "Bonus depreciation method: status unclear",
+    "Fixed Asset Setup fields for bonus depreciation: status unclear",
+    "Bonus depreciation toggle on fixed asset card: status unclear",
+    "Additional reporting fields for FA depreciation books: status unclear",
+    "quote at 436s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.081349
+  }
+}

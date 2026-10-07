@@ -18,12 +18,12 @@ tags:
   - fixed assets
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:13.697Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:13.740Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,7 +43,7 @@ evidence:
     date: "2026-04-01T12:00:44.000Z"
     commit: null
     t: 177
-    quote: are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon
+    quote: These are shipped in 20 eight dot X, so they're not in the April release yet, but they will come very soon.
   - kind: video
     url: https://www.youtube.com/watch?v=fxrVyBD8UoU&t=19s
     title: "What's New: Enhanced Financial Analytics (2026 release wave 1)"
@@ -59,12 +59,12 @@ evidence:
     t: 81
     quote: we're also shipping in Business Central out of the box the deferral reports with subtotals included
   - kind: video
-    url: https://www.youtube.com/watch?v=fxrVyBD8UoU&t=123s
+    url: https://www.youtube.com/watch?v=fxrVyBD8UoU&t=136s
     title: "What's New: Enhanced Financial Analytics (2026 release wave 1)"
     date: "2026-04-01T12:00:44.000Z"
     commit: null
-    t: 123
-    quote: when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new
+    t: 136
+    quote: You can always go back to the old behavior, at least for this release wave and maybe the next one
   - kind: video
     url: https://www.youtube.com/watch?v=fxrVyBD8UoU&t=177s
     title: "What's New: Enhanced Financial Analytics (2026 release wave 1)"
@@ -157,8 +157,8 @@ quotes:
   - t: 81
     text: we're also shipping in Business Central out of the box the deferral reports with subtotals included
     check: exact
-  - t: 123
-    text: when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new
+  - t: 136
+    text: You can always go back to the old behavior, at least for this release wave and maybe the next one
     check: exact
   - t: 177
     text: are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon
@@ -175,7 +175,7 @@ quotes:
 
 > Enhanced financial analytics in Business Central 2026 release wave 1: Excel deferral reports with subtotals, performance-tuned trial balance reports behind a feature management flag, out-of-box analysis views planned for 28.X, Copilot Analysis Assist for finance, and new fixed asset demo data.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fxrVyBD8UoU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fxrVyBD8UoU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,7 +208,7 @@ Analysis views can now ship out of the box, starting with the GL registered and 
 |---|---|---|---|
 | Deferral Reports with Subtotals | generally available | [0:43](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=43s) | "we're also shipping in Business Central out of the box the deferral reports with subtotals included" ([1:21](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=81s)) |
 | Performance-Tuned Trial Balance Reports | status not stated | [1:31](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=91s) |  |
-| Out-of-Box Analysis Views for Finance | announced | [2:31](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=151s) | "are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon" ([2:57](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=177s)) |
+| Out-of-Box Analysis Views for Finance | announced | [2:31](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=151s) | "These are shipped in 20 eight dot X, so they're not in the April release yet, but they will come very soon." ([2:57](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=177s)) |
 | Copilot Analysis Assist for Finance Reports | status not stated | [3:20](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=200s) |  |
 | Enhanced Demo Data for Fixed Assets | status not stated | [3:57](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=237s) |  |
 
@@ -225,7 +225,7 @@ Not found in BC28-30: page "GL registered", page "fixed asset ledgers".
 
 - [0:19](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=19s) "We invested in this for three things: better reports, faster reports, and in-client analysis of of things related to finance"
 - [1:21](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=81s) "we're also shipping in Business Central out of the box the deferral reports with subtotals included"
-- [2:03](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=123s) "when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new"
+- [2:16](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=136s) "You can always go back to the old behavior, at least for this release wave and maybe the next one"
 - [2:57](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=177s) "are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon"
 - [3:34](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=214s) "Copy the description of what to do into uh Copilot analysis assist, and and it will give you these additional uh reports or analysis"
 - [4:08](https://www.youtube.com/watch?v=fxrVyBD8UoU&t=248s) "we're adding new demo data in fixed assets for transactions data for acquisitions and depreciations"

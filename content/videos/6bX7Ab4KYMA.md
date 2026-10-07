@@ -16,12 +16,12 @@ tags:
   - configuration packages
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:51.605Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:51.648Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,6 +35,13 @@ evidence:
     commit: null
     t: 55
     quote: we've launched the ability for developers to create their own migration tooling meaning that Business Central developer can write an app that defines the
+  - kind: video
+    url: https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=110s
+    title: "What's New: Cloud Migration Tooling (2026 release wave 1)"
+    date: "2026-04-01T12:00:16.000Z"
+    commit: null
+    t: 110
+    quote: you need to remember to create a new table with company information in the source database.
   - kind: video
     url: https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=162s
     title: "What's New: Cloud Migration Tooling (2026 release wave 1)"
@@ -151,6 +158,9 @@ quotes:
   - t: 55
     text: we've launched the ability for developers to create their own migration tooling meaning that Business Central developer can write an app that defines the
     check: exact
+  - t: 110
+    text: you need to remember to create a new table with company information in the source database.
+    check: exact
   - t: 162
     text: This is the Business Central version 14 re-implementation tool which enables customers that are stuck on older on-premise versions to migrate to Business Central
     check: exact
@@ -175,7 +185,7 @@ quotes:
 
 > Cloud migration tooling in the 2026 release wave 1: a platform for developers to build custom migration tools, a Business Central version 14 re-implementation tool, and no-code migration from any SQL source using table mappings. Includes demos of the BC14 tool and no-code setup.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6bX7Ab4KYMA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6bX7Ab4KYMA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -186,12 +196,12 @@ The second addition is a Business Central version 14 re-implementation tool for 
 ## Key points
 
 - Developers can build custom migration tools with an app that defines table mappings and setup data for any SQL-based source, via the customer migration provider interface.
-- The BC14 re-implementation tool supports migrations only from Business Central version 14, no older or later versions.
-- The BC14 tool migrates a subset of data: master data, transactional data, opening balances and essential setup data.
-- The BC14 tool is work in progress; shipping is expected in one of the first minor updates of version 28, and the team intends to make it open source on GitHub.
-- No-code migration uses custom table mappings in cloud migration setup; only the tables you select are copied.
+- A custom tool also needs a company table in the source database, created with a SQL script, with Name and Display Name fields. The tool must extend the enum to appear in the cloud migration wizard.
 - There are two mapping kinds: replication table mappings (tables moved to Business Central) and setup table mappings (replicated once connected, used in the setup step).
-- System tables inaccessible by AL code cannot be migrated. Migration configurations can be exported and imported to reuse across tenants.
+- The BC14 re-implementation tool supports migrations only from Business Central version 14, no older or later versions, and moves a subset of data: master data, transactional data, opening balances and essential setup data.
+- The BC14 tool is work in progress; shipping is expected in one of the first minor updates of version 28, and the team intends to make it open source on GitHub.
+- No-code migration uses custom table mappings in cloud migration setup; only the tables you select are copied. System tables inaccessible by AL code still cannot be migrated.
+- Migration configurations (table mappings) can be exported and imported to reuse across tenants.
 
 ## Chapters
 
@@ -204,14 +214,14 @@ The second addition is a Business Central version 14 re-implementation tool for 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Custom Migration Tooling Platform | status not stated | [0:55](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=55s) |  |
-| Customer Migration Provider Interface | status not stated | [2:03](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=123s) |  |
-| Business Central Version 14 Re-Implementation Tool | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=162s) |  |
-| No-Code SQL Data Migration | status not stated, demoed | [6:33](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=393s) |  |
-| Table Mappings for Replication and Setup | status not stated | [1:21](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=81s) |  |
-| Configuration Export and Import for Migrations | status not stated, demoed | [8:22](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=502s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Custom Migration Tooling Platform | status not stated | [0:55](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=55s) |
+| Customer Migration Provider Interface | status not stated | [2:03](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=123s) |
+| Business Central Version 14 Re-Implementation Tool | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=162s) |
+| No-Code SQL Data Migration | status not stated, demoed | [6:33](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=393s) |
+| Table Mappings for Replication and Setup | status not stated | [1:21](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=81s) |
+| Configuration Export and Import for Migrations | status not stated, demoed | [8:22](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=502s) |
 
 ## AL objects mentioned
 
@@ -228,6 +238,7 @@ Not found in BC28-30: interface "customer migration provider", page "cloud migra
 ## Quotes
 
 - [0:55](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=55s) "we've launched the ability for developers to create their own migration tooling meaning that Business Central developer can write an app that defines the"
+- [1:50](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=110s) "you need to remember to create a new table with company information in the source database."
 - [2:42](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=162s) "This is the Business Central version 14 re-implementation tool which enables customers that are stuck on older on-premise versions to migrate to Business Central"
 - [5:51](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=351s) "Firstly, we only support this tool for migrations from Business Central version 14 so no older or later versions than that"
 - [6:04](https://www.youtube.com/watch?v=6bX7Ab4KYMA&t=364s) "We intend to make this tool open source meaning that you can find the source code on GitHub you can contribute to it to"

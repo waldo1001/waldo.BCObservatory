@@ -1,0 +1,29 @@
+{
+  "video_id": "lqVWc-Yuots",
+  "item_id": "video/yt-microsoft/lqVWc-Yuots",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Specific carbon costing method evidence quote 'And this is currently in a public preview.' is not a verbatim span; replaced with the sandbox/public preview statement at 627.4.",
+    "Carbon tracking method field evidence quote is verbatim but starts at t 395.9, not 358.8; evidence_t corrected.",
+    "Product classification feature description says it populates data automatically; transcript says the integration does not exist yet, only prerequisites are in place. Summary and key points are accurate.",
+    "Transcript states the default average method remains GA while specific method is the preview part; key points reflect this adequately.",
+    "API statuses left unclear; transcript does not state preview or GA for them."
+  ],
+  "input_hash": "0c23df9b4129e51cd6abb96d357509104be9347832b297f88a0c6bb34bfcd5f5",
+  "by": "opus",
+  "at": "2026-10-07T22:50:13.585Z",
+  "applied": [
+    "Carbon tracking method field: status preview",
+    "Specific carbon costing method: status preview",
+    "quote at 627s",
+    "quote at 296s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.091021
+  }
+}

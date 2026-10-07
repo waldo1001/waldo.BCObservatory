@@ -1,0 +1,26 @@
+{
+  "video_id": "moPzf04Mwlc",
+  "item_id": "video/yt-microsoft/moPzf04Mwlc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word; the ones at 227.6 and 403.2 run on into the next segment, which is allowed.",
+    "The page claims instruction versions can be compared. The transcript at 444.5 only says the user can select versions and download them as a backup, so I removed 'compared' from the key points. The same claim is in the description of the 'Instruction Versioning and History' feature, which I cannot edit here.",
+    "Key point 2 said 'profile-based permissions'. The transcript recommends a dedicated profile with only the agent's tasks, and also recommends limiting the permission set before release. I rewrote the key point to say that.",
+    "No feature has an explicit preview or GA statement in the transcript. The mention of sandboxes does not establish a status, so all features stay unclear."
+  ],
+  "input_hash": "1954e4c8106488162446c9f0de436ac859490e05e377f54dcb5a0e3c2ee59ba3",
+  "by": "opus",
+  "at": "2026-10-07T22:51:14.608Z",
+  "applied": [
+    "quote at 88s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07340100000000001
+  }
+}

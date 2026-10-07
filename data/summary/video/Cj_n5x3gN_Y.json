@@ -5,12 +5,12 @@
   "overview": "The session covers how the excise taxes framework, delivered in 2025 wave 2 with a framework and two options, was extended in 2026 wave 1 to many more excise types, such as plastic tax, sugar tax, alcohol, cigarettes, petrol and cannabis. It explains setup of excise tax types, tax bases, entry permissions and duty rates, and how the excise journal finds entries and calculates excise transactions.\n\nDemos show item configuration with excise quantity, tax type and entry permission setup, journal generation and results, multiple excise types, and the excise transaction log. The presenter notes limitations and says the plan is to keep investing in the area, including reporting.",
   "key_points": [
     "Excise taxes is an independent app and can be removed from the system.",
-    "Six tax bases are available: weight, volume, quantity, sugar content, pure alcohol content and active content. Choosing a tax base is mandatory for each excise tax type.",
-    "Entry permissions set which transaction types count: purchase, positive adjustment, output, assembly output, sales or negative adjustment.",
+    "Six tax bases are available: weight, volume, quantity, sugar content, pure alcohol content and active content. Each excise tax type is configured with its tax base.",
+    "Entry permissions set which transaction types count: purchase, positive adjustment, output, assembly output, sales or negative adjustment. A 'set default permissions' action can propose them.",
     "Only fixed-rate duties are supported, not percentage-based. Rates can be set on items or fixed assets with effective-from dates.",
-    "Plastic excise tax cannot be combined with other excise tax types. CBAM and EPR run in parallel but cannot be combined with regular excise taxes on the same item, and they need separate setup on the sustainability fast tab.",
-    "Items can carry an excise quantity with its own unit of measure, separate from the item's standard unit.",
-    "The excise transaction log records calculations. No dedicated report exists yet, but the data can be exported to Excel."
+    "Plastic excise tax cannot be combined with other excise tax types. CBAM and EPR use the same excise journal and can run in parallel with excise taxes (plastic tax does not exclude EPR); they are set up separately on the item's sustainability fast tab.",
+    "Items can carry an excise quantity with its own unit of measure, separate from the item's standard unit; the amount is source quantity x excise quantity x excise duty rate.",
+    "The excise transaction log records excise, CBAM and EPR entries. No dedicated report exists yet, but the data can be exported to Excel."
   ],
   "audience": [
     "functional consultant",

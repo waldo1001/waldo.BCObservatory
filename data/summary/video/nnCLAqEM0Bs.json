@@ -4,13 +4,13 @@
   "summary": "Copilot credit consumption for Business Central agents: how to view credits charged per agent, action, capability and task, and which permission sets are needed. Covers the agents list, the agent tasks list, task-level filtering, and how credits are bundled or bought.",
   "overview": "The video explains how to assess what it costs to run a Business Central agent each month. Copilot credits are described as Microsoft's unified currency for AI usage. Some licenses bundle free credits every month, and more can be obtained through pay-as-you-go billing or by pre-purchasing credits.\n\nThe demo opens the agents list, selects an agent and shows consumption data per action, capability and task. It then filters by task number to see all entries of a multi-turn task, and shows the agent tasks list with a total credits column. It closes with the permissions needed to see this data.",
   "key_points": [
-    "Copilot credits are Microsoft's unified currency for AI usage; certain licenses bundle free credits each month.",
+    "Copilot credits are Microsoft's unified currency for AI usage; certain licenses, including Business Central, bundle free credits each month.",
     "Extra credits can be obtained through pay-as-you-go billing or by pre-purchasing credits.",
-    "Open the agents list, select an agent and view consumption data per action, capability and task. This works for custom-built and Microsoft-built agents.",
-    "Credit charges are decided per feature and differ per agent type. One example given: 50 credits for processing an e-document, plus 5 cents per line.",
-    "Click a task number to filter consumption to all entries of a multi-turn task.",
-    "The agent tasks list has a column on the right showing total credits consumed per task, with drill-down into entries.",
-    "Consumption data is visible only with the agent diagnostics or a super user permission set. The agent admin permission set alone is not enough."
+    "Open the agents list, select an agent and use View consumption data to see credits per entry, capability, agent user, action and description. This works for custom-built agents and Microsoft-built agents such as the payables agent and sales order agent.",
+    "The consumption view defaults to one month, with actions for previous/next month, jumping to the current month, and a custom date range; it shows entry count and total credits.",
+    "Credit charges are decided per feature and differ per agent. Example: 50 credits for processing an e-document plus a per-line charge (spoken as '5 cents per line', but the example shows four lines charged 20 credits, i.e. 5 credits per line).",
+    "Click a task number to filter consumption to all entries of a multi-turn task, and follow a link to see all steps the task performed.",
+    "The agent tasks list has a column on the far right showing total credits consumed per task, with drill-down into entries."
   ],
   "audience": [
     "administrator",

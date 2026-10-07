@@ -1,0 +1,24 @@
+{
+  "video_id": "MKuOgMWXJ_8",
+  "item_id": "video/yt-microsoft/MKuOgMWXJ_8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Sales Validation Agent was marked unclear, but the transcript says it was shipped out of the box and is currently in the create wizard, so it is set to ga with evidence.",
+    "The Agent Credit Usage Tracking description says 'API credits'; the transcript only says 'credits'. Minor wording, and the feature is still supported.",
+    "Quotes, summary, key points and chapters match the transcript."
+  ],
+  "input_hash": "2f78f6ed49c734a3d5355ad26f73fa2e17f1c2298e48bc8cd33019491118e578",
+  "by": "opus",
+  "at": "2026-10-07T22:51:08.492Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Sales Validation Agent -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.050113
+  }
+}

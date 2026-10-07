@@ -1,0 +1,25 @@
+{
+  "video_id": "nnCLAqEM0Bs",
+  "item_id": "video/yt-microsoft/nnCLAqEM0Bs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point repeats the spoken '5 cents per line', but the transcript's own example (four lines charged 20 credits) means 5 credits per line. Rewrote the key point to show both.",
+    "Added a key point on the default one-month view and date navigation, which the transcript covers.",
+    "All six quotes are verbatim. All feature statuses stay unclear because the transcript does not say preview or GA."
+  ],
+  "input_hash": "7e276e4a0839405a5bf499c35ca168d160e51cf188651b5c1bf2a5a993a0a3b9",
+  "by": "opus",
+  "at": "2026-10-07T22:50:58.028Z",
+  "applied": [
+    "quote at 252s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.075769
+  }
+}

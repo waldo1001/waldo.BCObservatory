@@ -18,12 +18,12 @@ tags:
   - agent permissions
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:04.302Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:04.348Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -178,7 +178,7 @@ quotes:
 
 > Exporting and importing agent definitions in Business Central as XML files, from the agent card or agent list. Covers the import wizard with preview, validation warnings, replace-or-create choice, and activation after import. Useful for backing up agents and sharing them across environments.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=3UcLmXqyl44) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 5:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=3UcLmXqyl44) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 5:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,13 +188,13 @@ The import part walks through the import agent definition wizard: selecting a fi
 
 ## Key points
 
-- Export an agent definition as an XML file from the agent card or from the agent list.
+- Export an agent definition as an XML file from the agent card (Design > export agent definition) or export multiple agents from the agent list.
 - The XML contains the agent's name, display name, permissions and instructions.
-- The import wizard previews the agent definitions and what will change for existing agents before anything is imported.
-- Validation warnings and errors appear during import, for example a profile that was not found in the system; such issues must be fixed manually after import.
-- During import you choose to replace existing agents or create a new instance.
-- After import you can activate agents from the results view, or open the agent card to review permissions and settings first.
-- Exported definitions can serve as a reference when productizing agents through AL code via the API.
+- Import runs through an import agent definition wizard (Design > import agent definition, then select XML file) that previews the agents and what will change for existing agents before anything is imported.
+- You can view each agent's instructions in the preview and check a validation status column with warnings and errors, for example a profile that was not found in the system.
+- An agent imported without a profile cannot navigate the UI, so this must be fixed manually after import.
+- During import you choose to replace existing agents or create a new instance, and you can select only the agents you want.
+- After import, a results view lists what was imported; clicking an agent's initials opens the agent card where you can activate it and review permissions, user access and other settings.
 
 ## Chapters
 
@@ -208,16 +208,16 @@ The import part walks through the import agent definition wizard: selecting a fi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Export agent definition | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=3UcLmXqyl44&t=47s) |  |
-| Agent XML format | status not stated | [1:43](https://www.youtube.com/watch?v=3UcLmXqyl44&t=103s) |  |
-| Import agent definition | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=3UcLmXqyl44&t=119s) |  |
-| Agent import preview | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=3UcLmXqyl44&t=119s) |  |
-| Agent validation warnings | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=3UcLmXqyl44&t=196s) |  |
-| Agent replace or create option | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=3UcLmXqyl44&t=257s) |  |
-| Agent activation after import | status not stated, demoed | [4:38](https://www.youtube.com/watch?v=3UcLmXqyl44&t=278s) |  |
-| Agent productization via API | status not stated | [0:27](https://www.youtube.com/watch?v=3UcLmXqyl44&t=27s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Export agent definition | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=3UcLmXqyl44&t=47s) |
+| Agent XML format | status not stated | [1:43](https://www.youtube.com/watch?v=3UcLmXqyl44&t=103s) |
+| Import agent definition | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=3UcLmXqyl44&t=119s) |
+| Agent import preview | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=3UcLmXqyl44&t=119s) |
+| Agent validation warnings | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=3UcLmXqyl44&t=196s) |
+| Agent replace or create option | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=3UcLmXqyl44&t=257s) |
+| Agent activation after import | status not stated, demoed | [4:38](https://www.youtube.com/watch?v=3UcLmXqyl44&t=278s) |
+| Agent productization via API | status not stated | [0:27](https://www.youtube.com/watch?v=3UcLmXqyl44&t=27s) |
 
 ## AL objects mentioned
 

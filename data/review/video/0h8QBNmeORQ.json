@@ -1,0 +1,27 @@
+{
+  "video_id": "0h8QBNmeORQ",
+  "item_id": "video/yt-microsoft/0h8QBNmeORQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary calls it a 2-minute video, but it runs 98 seconds.",
+    "The publish date 2026-02-02 in the summary is not in the transcript, so I removed it.",
+    "The key point saying release status is not stated was too broad. The video says you can start building your own agents today, but it gives no status for the Sales Order Agent or the Payables Agent. I narrowed the key point.",
+    "Feature statuses stay unclear. 'Start building your own agents today' does not clearly say whether the feature is preview or GA.",
+    "The quotes are verbatim and the features are supported by the transcript."
+  ],
+  "input_hash": "b1d2cb1934007c4ec101abd80c43d9927b03bc39d128227700e7740c53767dee",
+  "by": "opus",
+  "at": "2026-10-07T22:51:19.516Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040153
+  }
+}

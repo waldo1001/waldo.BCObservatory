@@ -239,8 +239,8 @@
       "name": "Specific carbon costing method",
       "description": "New carbon costing method option providing more accurate carbon footprint tracking compared to the default average method. Works similarly to specific item costing.",
       "status": "preview",
-      "status_evidence_t": 395.9,
-      "status_evidence_quote": "And this is currently in a public preview.",
+      "status_evidence_t": 627.4,
+      "status_evidence_quote": "If you want to check specific method, please do it in a sandbox because this is a public preview.",
       "status_evidence_verified": true,
       "t_start": 395.9,
       "t_end": 421.4,
@@ -301,6 +301,12 @@
       "check": "exact"
     },
     {
+      "t": 295.7,
+      "text": "So, this integration doesn't exist, but you have all prerequisites here right now.",
+      "why_it_matters": "Clarifies that UNSPSC product classification provides prerequisites only, not a ready-made integration.",
+      "check": "exact"
+    },
+    {
       "t": 370.5,
       "text": "Previously, with no configuration option, you had only average model. So, this is the same as a costing method for your costs, but it",
       "why_it_matters": "Explains the previous limitation that only average carbon costing method was available.",
@@ -322,6 +328,12 @@
       "t": 434,
       "text": "But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking.",
       "why_it_matters": "Key technical requirement that limits specific carbon costing method to items with serial or lot tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 627.4,
+      "text": "If you want to check specific method, please do it in a sandbox because this is a public preview.",
+      "why_it_matters": "Confirms the specific carbon tracking method is public preview and should be tested in a sandbox.",
       "check": "exact"
     }
   ],

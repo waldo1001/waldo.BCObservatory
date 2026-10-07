@@ -17,12 +17,12 @@ tags:
   - recurring customers
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:22.575Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:22.620Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,20 @@ evidence:
     commit: null
     t: 70
     quote: Two new reports that simply allows you to see whether your customers are recurring, whether they are churning
+  - kind: video
+    url: https://www.youtube.com/watch?v=fJGY6d-2lO8&t=176s
+    title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
+    date: "2026-04-01T12:00:43.000Z"
+    commit: null
+    t: 176
+    quote: So, it's a new report in the inventory app. It also actually comes and it go to the inventory analytics session.
+  - kind: video
+    url: https://www.youtube.com/watch?v=fJGY6d-2lO8&t=187s
+    title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
+    date: "2026-04-01T12:00:43.000Z"
+    commit: null
+    t: 187
+    quote: It also comes in an Excel version so you don't have to use Power BI for this.
   - kind: video
     url: https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s
     title: "What's New: Enhanced Sales Analytics (2026 release wave 1)"
@@ -148,6 +162,12 @@ quotes:
   - t: 70
     text: Two new reports that simply allows you to see whether your customers are recurring, whether they are churning
     check: exact
+  - t: 176
+    text: So, it's a new report in the inventory app. It also actually comes and it go to the inventory analytics session.
+    check: exact
+  - t: 187
+    text: It also comes in an Excel version so you don't have to use Power BI for this.
+    check: exact
   - t: 230
     text: in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps
     check: exact
@@ -160,7 +180,7 @@ quotes:
 
 > Business Central 2026 release wave 1 sales analytics: new Customer Retention Overview and history reports and an ABC Analysis report in Power BI/Excel, pivot table subtotals for five sales reports, analysis views shipped with AL apps, and richer sales demo data. Three sales order list analysis views come in 28.x, not April.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fJGY6d-2lO8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fJGY6d-2lO8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -213,6 +233,8 @@ Not found in BC28-30: report "Customer Retention Overview", report "ABC Analysis
 - [0:06](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=6s) "we want to still set focus on better analytics to to get better more profitability and more sales"
 - [0:24](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=24s) "we focus on customer loyalty. Being able to analyze recurring and churn customers and just more easy built-in reporting"
 - [1:10](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=70s) "Two new reports that simply allows you to see whether your customers are recurring, whether they are churning"
+- [2:56](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=176s) "So, it's a new report in the inventory app. It also actually comes and it go to the inventory analytics session."
+- [3:07](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=187s) "It also comes in an Excel version so you don't have to use Power BI for this."
 - [3:50](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s) "in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps"
 - [4:17](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=257s) "They are coming in 28.x so not in the April release, so but once once we get a few months out"
 

@@ -1,0 +1,29 @@
+{
+  "video_id": "1IIlArcHpOY",
+  "item_id": "video/yt-microsoft/1IIlArcHpOY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at t=879.8 appears twice, differing only in case and punctuation. Both are dropped by t and one copy is re-added.",
+    "Key point 1 reversed the transcript: the speaker says that if tasks are different enough, one agent can handle several of them. He suggests splitting the agent only when added instructions lower accuracy.",
+    "Key point 5 said the email is 'sent manually', which the transcript does not say. The transcript only says automatic sending is not possible in the current platform and needs the SDK.",
+    "Added a quote on the page-specific instructions syntax. The Agent Task Execution feature mentions the ability to pause, which the transcript does not show directly. That is minor, so the feature is kept.",
+    "All other quotes are verbatim, and the summary is supported."
+  ],
+  "input_hash": "9095505d02cee7e44bcc4697f2d01ff88b71d393a695896cf03bbc37e27a807e",
+  "by": "opus",
+  "at": "2026-10-07T22:51:21.282Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 880s",
+    "quote at 1345s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.145145
+  }
+}

@@ -101,7 +101,7 @@
       "description": "Analysis views can now be shipped out of the box with the application. Out-of-the-box analysis views are shipping for GL registered and fixed asset ledgers pages. Available in 28.X, not yet in the April release.",
       "status": "announced",
       "status_evidence_t": 177.4,
-      "status_evidence_quote": "are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon",
+      "status_evidence_quote": "These are shipped in 20 eight dot X, so they're not in the April release yet, but they will come very soon.",
       "status_evidence_verified": true,
       "t_start": 151.5,
       "t_end": 189.9,
@@ -183,9 +183,9 @@
       "check": "exact"
     },
     {
-      "t": 123,
-      "text": "when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new",
-      "why_it_matters": "Explains the conservative approach to rolling out performance-tuned finance reports with rollback capability",
+      "t": 136.3,
+      "text": "You can always go back to the old behavior, at least for this release wave and maybe the next one",
+      "why_it_matters": "States the rollback window for the performance-tuned trial balance reports behind the feature management flag.",
       "check": "exact"
     },
     {

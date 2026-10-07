@@ -124,6 +124,12 @@
       "check": "exact"
     },
     {
+      "t": 15.2,
+      "text": "Then go to the email accounts page in Business Central and set up an account for yourself. Just pick the current user type.",
+      "why_it_matters": "Gives the exact setup step for a personal test account, which is the core of the personal-folder workflow.",
+      "check": "exact"
+    },
+    {
       "t": 38.7,
       "text": "Do not point the agent to your inbox. You only want your selected emails to be processed, not all of them",
       "why_it_matters": "Critical configuration instruction that prevents unintended email processing",

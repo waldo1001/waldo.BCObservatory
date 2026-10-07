@@ -1,0 +1,28 @@
+{
+  "video_id": "fJGY6d-2lO8",
+  "item_id": "video/yt-microsoft/fJGY6d-2lO8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Analysis Views Shipping with AL Apps marked ga, but the transcript only says 'in this release wave we are adding the ability'; the out-of-box sales order list views come in 28.x, not April. Changed to announced.",
+    "Speaker says 'six five six' then 'these five reports'; the page's use of five is consistent with the later statement.",
+    "ABC Analysis chapter starts at 107.2 but ABC is first discussed at 131.2; minor.",
+    "All quotes are verbatim; the summary and key points are supported."
+  ],
+  "input_hash": "8ae6b5cf18e911fa5cd224d3e63dfe8e2f4d37681579278c1af6ca28f2fe1ec4",
+  "by": "opus",
+  "at": "2026-10-07T22:50:22.575Z",
+  "applied": [
+    "quote at 176s",
+    "quote at 188s"
+  ],
+  "rejected_edits": [
+    "status Analysis Views Shipping with AL Apps -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078393
+  }
+}

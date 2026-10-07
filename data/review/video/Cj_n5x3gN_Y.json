@@ -1,0 +1,28 @@
+{
+  "video_id": "Cj_n5x3gN_Y",
+  "item_id": "video/yt-microsoft/Cj_n5x3gN_Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 5 says CBAM and EPR cannot be combined with regular excise taxes on the same item. The transcript says the opposite: they can run in parallel, and plastic tax calculation does not exclude EPR (t=855, t=871). Only plastic excise tax cannot be combined with other excise tax types. Key point corrected.",
+    "Excise taxes framework status set to ga. The transcript says the framework was delivered in 2025 release wave 2. The new excise types in 2026 wave 1 have no explicit status, so they stay unclear.",
+    "Added a quote confirming that EPR can run alongside plastic tax.",
+    "Other features, chapters and quotes are supported by the transcript."
+  ],
+  "input_hash": "0d49b6f4781d49d47b10dd9c41ec3cd12c52ddfd12edf0367c7632eb7634a4af",
+  "by": "opus",
+  "at": "2026-10-07T22:50:39.630Z",
+  "applied": [
+    "quote at 855s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Excise taxes framework -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.103989
+  }
+}

@@ -7,10 +7,10 @@
     "Permission Overview page lets you filter permissions by object type, ID, permission set scope and app source, see which security groups and users hold each permission set, and pivot in analysis mode.",
     "Approval User Overview page shows who can approve what, and to which limits, across workflow types on one screen. It is said to come in 28.1 or 28.2, not the April release.",
     "Change Log Entries get analysis tabs showing who changed which table and field data and when. They are coming in 28.x and need the change log enabled for the relevant tables and fields.",
-    "Users list in 28.x adds last login date and inactive days columns, analysis views by user status and license type, and views for users inactive 7, 30 or 90 days.",
-    "New APIs, all read-only and coming in 28.x, cover permission sets, expanded permission sets, security groups, user permissions, access control, workflows, workflow steps, workflow response options and approval entries (normal and posted).",
-    "The APIs are meant to let IT staff recreate audit reports without login UI access to Business Central, reflecting a separation between IT and business in larger organizations.",
-    "The security guide was updated with new objects, APIs and scenario-specific hardening guidance."
+    "Users list in 28.x adds last login date and inactive days columns, analysis views by user status and license type, and fact box details with navigation links to user settings, approval user setup and user setup.",
+    "User Detail View gets last login date, inactive days and prefiltered views such as super active users and users inactive 7, 30 or 90 days, usable in analysis mode.",
+    "New APIs, all read-only and coming in 28.x, cover permission sets, expanded permission sets, security groups, user permissions, access control, workflows, workflow steps, workflow response options, workflow approvers, approval user setup and approval entries (normal and posted).",
+    "The APIs are meant to let IT staff recreate audit reports without login UI access to Business Central, reflecting a separation between IT and business in larger organizations."
   ],
   "audience": [
     "administrator",

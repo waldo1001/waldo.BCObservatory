@@ -1,0 +1,27 @@
+{
+  "video_id": "a4DaacZvOMM",
+  "item_id": "video/yt-microsoft/a4DaacZvOMM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary calls cross skills a component of BC Talent; the transcript names 'cross skills and BC talent program' side by side and never says one is part of the other.",
+    "The 'GP to BC Migration Confidence' feature is a benefit the speaker describes, not a product feature, so it is dropped.",
+    "The Cross Skills Program description repeats the unsupported 'component of BC Talent' claim. It could not be edited here, so a reader should treat that part with care.",
+    "Systems tags (sales, administration, development) have weak support. This is a partner testimonial, not a product demo.",
+    "All quotes are verbatim, and keeping every feature status as unclear is right."
+  ],
+  "input_hash": "061e4cb2310e2e9afa65f1859148d4fddd66e755622f258afbf8c47ba44506bd",
+  "by": "opus",
+  "at": "2026-10-07T22:51:16.748Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035937
+  }
+}

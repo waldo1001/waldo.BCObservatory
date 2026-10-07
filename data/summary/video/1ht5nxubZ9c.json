@@ -4,12 +4,12 @@
   "summary": "Sales order agent in Business Central can be pointed at a specific Outlook folder instead of the inbox, which lets you test with a personal account and only selected emails. The 2-minute video shows folder setup, agent configuration, stopping pending tasks, and switching back to a shared mailbox.",
   "overview": "The video shows a simple way to try the sales order agent without a complicated setup. You create a test folder in Outlook, configure the agent to monitor that folder, and move selected emails into it so the agent picks them up and converts them into quotes.\n\nIt also shows how to stop all pending tasks with one click, and notes that folder selection works for shared mailboxes as well as personal accounts, so you control which emails the agent processes.",
   "key_points": [
-    "Create a folder in Outlook first; the agent is then configured to monitor that folder.",
-    "Do not point the agent to your inbox, so that only your selected emails are processed.",
-    "The agent picks up emails from the monitored folder and converts them into quotes (demoed).",
+    "Create a separate folder for testing in Outlook first.",
+    "On the Email Accounts page in Business Central, set up an account for yourself using the current user type.",
+    "On the last page of the sales order agent configuration, select your own account and the folder you created. Do not point the agent to your inbox, so that only your selected emails are processed.",
+    "Once activated, the agent monitors that folder. Copy any old or recent email into it to test. The agent picks up the email, and it can then be converted into a quote.",
     "If many unneeded pending tasks exist, all of them can be stopped with a single click.",
-    "Folder selection is supported for shared mailboxes as well as personal accounts.",
-    "The demo covers a test folder and email account, agent configuration, testing with emails, and switching back to a shared mailbox."
+    "After testing, switch the email account back to the shared company mailbox. Folder selection is supported for shared mailboxes as well."
   ],
   "audience": [
     "functional consultant",

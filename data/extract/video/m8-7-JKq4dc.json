@@ -1134,27 +1134,6 @@
         "transaction handling"
       ],
       "system": "manufacturing"
-    },
-    {
-      "name": "Quality Management Workflows",
-      "description": "Built-in standard workflows for quality management events without templates, designed as simple one-liner automations triggered by quality management related events.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2395.4,
-      "t_end": 2454.4,
-      "is_demoed": false,
-      "caveats": [
-        "Workflows do not have templates",
-        "Four quality management related events available for workflow triggers"
-      ],
-      "tags": [
-        "workflows",
-        "automation",
-        "events"
-      ],
-      "system": "manufacturing"
     }
   ],
   "objects": [
@@ -1313,6 +1292,12 @@
       "t": 2204.8,
       "text": "Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe",
       "why_it_matters": "Confirms that quality management installation is safe with minimal shared data beyond number series.",
+      "check": "exact"
+    },
+    {
+      "t": 2294,
+      "text": "Uh reopen and deletion is limited by permission. So, if you are not quality management administrator, you cannot do these actions.",
+      "why_it_matters": "Permission restriction: only quality management administrators can reopen or delete inspections; other users can only recreate them.",
       "check": "exact"
     },
     {

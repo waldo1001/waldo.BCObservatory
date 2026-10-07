@@ -17,12 +17,12 @@ tags:
   - multi-turn tasks
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:58.028Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:58.060Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,13 @@ evidence:
     commit: null
     t: 99
     quote: the different features are going to consume different amount of credits and this is completely decided per feature basis
+  - kind: video
+    url: https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=251s
+    title: "What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent"
+    date: "2026-02-27T15:13:12.000Z"
+    commit: null
+    t: 251
+    quote: So here you can see that it is E document number 10 and that we processed four lines. Thus we charged you 20 credits
   - kind: video
     url: https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=263s
     title: "What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent"
@@ -160,6 +167,9 @@ quotes:
   - t: 99
     text: the different features are going to consume different amount of credits and this is completely decided per feature basis
     check: exact
+  - t: 251
+    text: So here you can see that it is E document number 10 and that we processed four lines. Thus we charged you 20 credits
+    check: exact
   - t: 263
     text: we are charging 50 credits for processing E document and then we are charging 5 cents per line
     check: exact
@@ -172,7 +182,7 @@ quotes:
 
 > Copilot credit consumption for Business Central agents: how to view credits charged per agent, action, capability and task, and which permission sets are needed. Covers the agents list, the agent tasks list, task-level filtering, and how credits are bundled or bought.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nnCLAqEM0Bs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 8:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=nnCLAqEM0Bs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 8:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,13 +192,13 @@ The demo opens the agents list, selects an agent and shows consumption data per 
 
 ## Key points
 
-- Copilot credits are Microsoft's unified currency for AI usage; certain licenses bundle free credits each month.
+- Copilot credits are Microsoft's unified currency for AI usage; certain licenses, including Business Central, bundle free credits each month.
 - Extra credits can be obtained through pay-as-you-go billing or by pre-purchasing credits.
-- Open the agents list, select an agent and view consumption data per action, capability and task. This works for custom-built and Microsoft-built agents.
-- Credit charges are decided per feature and differ per agent type. One example given: 50 credits for processing an e-document, plus 5 cents per line.
-- Click a task number to filter consumption to all entries of a multi-turn task.
-- The agent tasks list has a column on the right showing total credits consumed per task, with drill-down into entries.
-- Consumption data is visible only with the agent diagnostics or a super user permission set. The agent admin permission set alone is not enough.
+- Open the agents list, select an agent and use View consumption data to see credits per entry, capability, agent user, action and description. This works for custom-built agents and Microsoft-built agents such as the payables agent and sales order agent.
+- The consumption view defaults to one month, with actions for previous/next month, jumping to the current month, and a custom date range; it shows entry count and total credits.
+- Credit charges are decided per feature and differ per agent. Example: 50 credits for processing an e-document plus a per-line charge (spoken as '5 cents per line', but the example shows four lines charged 20 credits, i.e. 5 credits per line).
+- Click a task number to filter consumption to all entries of a multi-turn task, and follow a link to see all steps the task performed.
+- The agent tasks list has a column on the far right showing total credits consumed per task, with drill-down into entries.
 
 ## Chapters
 
@@ -203,15 +213,15 @@ The demo opens the agents list, selects an agent and shows consumption data per 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot credit consumption overview | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=118s) |  |
-| Agent consumption data in agents list | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=135s) |  |
-| Task-level consumption filtering | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=295s) |  |
-| Agent tasks consumption view | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=341s) |  |
-| Agent diagnostics permission set | status not stated | [6:26](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=386s) |  |
-| Copilot credits bundled with licenses | status not stated | [1:12](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=72s) |  |
-| Copilot credits pay-as-you-go and pre-purchase | status not stated | [1:23](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=83s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot credit consumption overview | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=118s) |
+| Agent consumption data in agents list | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=135s) |
+| Task-level consumption filtering | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=295s) |
+| Agent tasks consumption view | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=341s) |
+| Agent diagnostics permission set | status not stated | [6:26](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=386s) |
+| Copilot credits bundled with licenses | status not stated | [1:12](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=72s) |
+| Copilot credits pay-as-you-go and pre-purchase | status not stated | [1:23](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=83s) |
 
 ## AL objects mentioned
 
@@ -228,6 +238,7 @@ Not found in BC28-30: page "agents list", page "agent tasks".
 - [0:50](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=50s) "The co-pilot credits are Microsoft Unifi currency for AI usage."
 - [1:12](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=72s) "They are bundled with certain licenses. You will receive free credits every month."
 - [1:39](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=99s) "the different features are going to consume different amount of credits and this is completely decided per feature basis"
+- [4:11](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=251s) "So here you can see that it is E document number 10 and that we processed four lines. Thus we charged you 20 credits"
 - [4:23](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=263s) "we are charging 50 credits for processing E document and then we are charging 5 cents per line"
 - [6:26](https://www.youtube.com/watch?v=nnCLAqEM0Bs&t=386s) "you need to have agent diagnostics permission set assigned or a super user permission set assigned"
 

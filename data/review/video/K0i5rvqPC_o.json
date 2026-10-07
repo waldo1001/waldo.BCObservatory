@@ -1,0 +1,28 @@
+{
+  "video_id": "K0i5rvqPC_o",
+  "item_id": "video/yt-microsoft/K0i5rvqPC_o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript and the features are supported.",
+    "Every feature is marked unclear, which is right: the transcript never says whether anything is preview or GA.",
+    "The page left out the actual diagnosis: the risk field is missing from the page the agent saw, the reason field is there but not editable, and the likely cause is a profile mistake or a field never added through the per-tenant extension. Added a key point and two quotes for this.",
+    "Small issue: the recap starts at 363.3, but the last chapter only starts at 391. Chapters can't be edited here, so this was left as is."
+  ],
+  "input_hash": "0c6e68dc313ae873e2ec54f89550ead01f5a206b3a43c0f2c0646ecba2f86e0d",
+  "by": "opus",
+  "at": "2026-10-07T22:51:06.969Z",
+  "applied": [
+    "quote at 246s",
+    "quote at 258s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.071741
+  }
+}

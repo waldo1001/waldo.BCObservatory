@@ -20,12 +20,12 @@ tags:
   - agent memory
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:21.282Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:21.324Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,13 +87,6 @@ evidence:
     date: "2026-02-27T15:12:59.000Z"
     commit: null
     t: 879
-    quote: Instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks.
-  - kind: video
-    url: https://www.youtube.com/watch?v=1IIlArcHpOY&t=879s
-    title: "What's New: Working with Instructions for Agents in Business Central"
-    date: "2026-02-27T15:12:59.000Z"
-    commit: null
-    t: 879
     quote: instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks
   - kind: video
     url: https://www.youtube.com/watch?v=1IIlArcHpOY&t=893s
@@ -123,6 +116,13 @@ evidence:
     commit: null
     t: 1264
     quote: If you would like to store the state of the page then you need to instruct it specifically which fields and which data it
+  - kind: video
+    url: https://www.youtube.com/watch?v=1IIlArcHpOY&t=1345s
+    title: "What's New: Working with Instructions for Agents in Business Central"
+    date: "2026-02-27T15:12:59.000Z"
+    commit: null
+    t: 1345
+    quote: If you add the parenthesis like this and you specify page ID, then these page specific instructions will be available to the agent only
   - kind: video
     url: https://www.youtube.com/watch?v=1IIlArcHpOY&t=1410s
     title: "What's New: Working with Instructions for Agents in Business Central"
@@ -309,9 +309,6 @@ quotes:
     text: currently within the current platform it is not possible that this happens automatically. You would need to use the SDK if you want to
     check: exact
   - t: 879
-    text: Instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks.
-    check: exact
-  - t: 879
     text: instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks
     check: exact
   - t: 893
@@ -326,6 +323,9 @@ quotes:
   - t: 1264
     text: If you would like to store the state of the page then you need to instruct it specifically which fields and which data it
     check: exact
+  - t: 1345
+    text: If you add the parenthesis like this and you specify page ID, then these page specific instructions will be available to the agent only
+    check: exact
   - t: 1410
     text: instructions are necessary and keep in mind they are part of a larger prompt. So platform is going to protect you from injection attacks
     check: exact
@@ -338,7 +338,7 @@ quotes:
 
 > Writing instructions for Business Central agents: role-based prompting, a guidelines section, and short process steps. Shown with an Accounts Receivable agent that handles a sales return, reads documents through Azure Document Intelligence, creates a credit memo and drafts an email. Also covers agent memory, user interaction tools and page-specific instructions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=1IIlArcHpOY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 25:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=1IIlArcHpOY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 25:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -348,11 +348,11 @@ A demo Accounts Receivable agent processes a sales return complaint about damage
 
 ## Key points
 
-- Keep instructions short: outline the most important steps, not every step. Add instructions only if accuracy holds, since tasks that are too different can lower it.
-- Instructions take much higher priority than task messages, so put the process description in the instructions and do not repeat it in tasks.
+- Keep instructions short: outline the most important steps, not every step. If adding instructions lowers accuracy, consider splitting the agent into several agents. Tasks that are different enough can share one agent.
+- Instructions take much higher priority than task messages, so put the process description in the instructions and do not repeat it in tasks. Use task messages for what varies between tasks.
 - Document Intelligence extracts text from PDFs and images only. It does no machine vision, so it cannot identify visual patterns on a photo.
-- The agent review experience shows agent-filled fields with explanations, but the user must continue task execution manually. The credit memo needs review before posting.
-- Sending the drafted email automatically needs the SDK. In the current platform the email is sent manually.
+- The agent review experience shows agent-filled fields with explanations and lets the user submit feedback. In the demo, guidelines tell the agent not to post draft credit memos before user review.
+- In the current platform, the drafted email cannot be sent automatically. Use the SDK to actually send it.
 - Agent history is kept automatically, but page state is not. Tell the agent which fields to memorize; they are stored as key-value pairs, viewable on the troubleshooting page.
 - Page-specific instructions use parenthesis notation with the page ID and apply only when the agent opens that page. Instruction edit history allows reverting, and several instructions can be downloaded as a zip.
 
@@ -375,26 +375,26 @@ A demo Accounts Receivable agent processes a sales return complaint about damage
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Instructions Framework | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=1IIlArcHpOY&t=5s) |  |
-| Accounts Receivable Agent | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=1IIlArcHpOY&t=156s) |  |
-| PDF and Image Document Intelligence | status not stated, demoed | [7:44](https://www.youtube.com/watch?v=1IIlArcHpOY&t=464s) |  |
-| Agent Review Experience | generally available (roadmap [573366](../features/573366.md)), demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |  |
-| Agent Task Execution with Real-time Monitoring | status not stated, demoed | [9:06](https://www.youtube.com/watch?v=1IIlArcHpOY&t=546s) |  |
-| Credit Memo Generation from Agent Instructions | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |  |
-| Email Composition by Agent | status not stated, demoed | [12:46](https://www.youtube.com/watch?v=1IIlArcHpOY&t=766s) |  |
-| Instructions Priority Over Tasks | status not stated, demoed | [13:57](https://www.youtube.com/watch?v=1IIlArcHpOY&t=837s) |  |
-| Timeline substeps based on instructions | status not stated, demoed | [15:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=950s) |  |
-| Task chaining in agent workflows | status not stated, demoed | [17:39](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1059s) |  |
-| User intervention tool | status not stated, demoed | [18:23](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1103s) |  |
-| User review tool | status not stated, demoed | [18:51](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1131s) |  |
-| Response tool for outgoing messages | status not stated, demoed | [19:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1144s) |  |
-| Automatic agent memory and history | status not stated, demoed | [20:29](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1229s) |  |
-| Agent memory field storage | status not stated, demoed | [20:53](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1253s) |  |
-| Page-specific instructions syntax | status not stated, demoed | [22:12](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1332s) |  |
-| Instructions history and versioning | status not stated, demoed | [23:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1384s) |  |
-| Bulk download of instructions | status not stated, demoed | [23:19](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1399s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Instructions Framework | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=1IIlArcHpOY&t=5s) |
+| Accounts Receivable Agent | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=1IIlArcHpOY&t=156s) |
+| PDF and Image Document Intelligence | status not stated, demoed | [7:44](https://www.youtube.com/watch?v=1IIlArcHpOY&t=464s) |
+| Agent Review Experience | generally available (roadmap [573366](../features/573366.md)), demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |
+| Agent Task Execution with Real-time Monitoring | status not stated, demoed | [9:06](https://www.youtube.com/watch?v=1IIlArcHpOY&t=546s) |
+| Credit Memo Generation from Agent Instructions | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |
+| Email Composition by Agent | status not stated, demoed | [12:46](https://www.youtube.com/watch?v=1IIlArcHpOY&t=766s) |
+| Instructions Priority Over Tasks | status not stated, demoed | [13:57](https://www.youtube.com/watch?v=1IIlArcHpOY&t=837s) |
+| Timeline substeps based on instructions | status not stated, demoed | [15:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=950s) |
+| Task chaining in agent workflows | status not stated, demoed | [17:39](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1059s) |
+| User intervention tool | status not stated, demoed | [18:23](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1103s) |
+| User review tool | status not stated, demoed | [18:51](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1131s) |
+| Response tool for outgoing messages | status not stated, demoed | [19:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1144s) |
+| Automatic agent memory and history | status not stated, demoed | [20:29](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1229s) |
+| Agent memory field storage | status not stated, demoed | [20:53](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1253s) |
+| Page-specific instructions syntax | status not stated, demoed | [22:12](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1332s) |
+| Instructions history and versioning | status not stated, demoed | [23:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1384s) |
+| Bulk download of instructions | status not stated, demoed | [23:19](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1399s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -419,12 +419,12 @@ Not found in BC28-30: page "troubleshooting page".
 - [7:44](https://www.youtube.com/watch?v=1IIlArcHpOY&t=464s) "Agent is going to be able to read this document because platform is able to send PDFs and images to Azure document intelligence and"
 - [8:39](https://www.youtube.com/watch?v=1IIlArcHpOY&t=519s) "The platform is only extracting text. It is not able to do the machine vision. So it will know that there is a scratch"
 - [13:24](https://www.youtube.com/watch?v=1IIlArcHpOY&t=804s) "currently within the current platform it is not possible that this happens automatically. You would need to use the SDK if you want to"
-- [14:39](https://www.youtube.com/watch?v=1IIlArcHpOY&t=879s) "Instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks."
 - [14:39](https://www.youtube.com/watch?v=1IIlArcHpOY&t=879s) "instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks"
 - [14:53](https://www.youtube.com/watch?v=1IIlArcHpOY&t=893s) "you should outline the process description in the instructions because there is no need and it's not a good practice that you repeat a"
 - [17:23](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1043s) "there is no silver bullet or a rule that fits all. Try it out. see what works and if adding the additional instructions is"
 - [20:15](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1215s) "when it uses the response tool the task is going to stop until the new message arrives"
 - [21:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1264s) "If you would like to store the state of the page then you need to instruct it specifically which fields and which data it"
+- [22:25](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1345s) "If you add the parenthesis like this and you specify page ID, then these page specific instructions will be available to the agent only"
 - [23:30](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1410s) "instructions are necessary and keep in mind they are part of a larger prompt. So platform is going to protect you from injection attacks"
 - [23:47](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1427s) "Try to write as little as possible of instructions to get the task executed with high accuracy"
 

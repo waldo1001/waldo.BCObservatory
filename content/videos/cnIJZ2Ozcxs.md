@@ -15,12 +15,12 @@ tags:
   - reporting
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:03.617Z"
   flags: []
 generated:
-  at: "2026-10-06T17:56:21.086Z"
+  at: "2026-10-07T22:50:03.654Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,7 +190,7 @@ quotes:
 
 > Enhanced Subscription Billing analytics in the 2026 release wave 1: the Power BI subscription billing app gets a redesigned UI matching the other eight Power BI apps, updated reports and visuals, and expanded demo data for Power BI and analysis mode views.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cnIJZ2Ozcxs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cnIJZ2Ozcxs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,10 +200,10 @@ Report changes include navigation visuals for filtering by clicking chart elemen
 
 ## Key points
 
-- The subscription billing Power BI app UI was reworked to match the look and feel of the other eight Power BI apps.
-- The subscription billing overview report was updated with a new design and layout, matching version 28 standards.
+- The subscription billing Power BI app (almost 15 pages) was reworked to match the look and feel of the other eight Power BI apps.
+- The subscription billing overview report has a new layout; the video shows it as it looks in version 27 and in version 28.
 - Navigation visuals let users filter reports by clicking chart elements such as bars, instead of using the filter pane. Shown in the revenue analysis and churn analysis reports.
-- The revenue year-over-year growth report gained visual type changes and tooltips, without changing the underlying information.
+- The revenue year-over-year growth report gained visual type changes and tooltips, without changing the underlying information. Revenue development also moved to a new visual with tooltips for details.
 - Revenue by item now uses bubble charts, where bubble size shows an additional dimension. Map visuals show revenue by customer and geography, as in other Power BI apps from earlier release waves.
 - Matrix reports now have visual indicators next to numeric values to show relative magnitude.
 - Demo data for subscription billing now has more customer contracts, vendor contracts and transactions, for demos in Power BI and in-client analysis mode views.
@@ -219,18 +219,18 @@ Report changes include navigation visuals for filtering by clicking chart elemen
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Unified Power BI Subscription Billing UI | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=17s) |  |
-| Subscription Billing Overview Report Redesign | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=72s) |  |
-| Revenue Year-over-Year Growth Report with Tooltips | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=83s) |  |
-| Navigation Visuals for Report Filtering | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=112s) |  |
-| Visual Indicators in Matrix Reports | status not stated, demoed | [2:03](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=123s) |  |
-| Revenue Analysis Report Updates | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=139s) |  |
-| Churn Analysis Report with Visual Filtering | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=174s) |  |
-| Revenue by Item Bubble Charts | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=174s) |  |
-| Map Visuals for Geographic Revenue Analysis | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=214s) |  |
-| Enhanced Subscription Billing Demo Data | status not stated | [4:11](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=251s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Unified Power BI Subscription Billing UI | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=17s) |
+| Subscription Billing Overview Report Redesign | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=72s) |
+| Revenue Year-over-Year Growth Report with Tooltips | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=83s) |
+| Navigation Visuals for Report Filtering | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=112s) |
+| Visual Indicators in Matrix Reports | status not stated, demoed | [2:03](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=123s) |
+| Revenue Analysis Report Updates | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=139s) |
+| Churn Analysis Report with Visual Filtering | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=174s) |
+| Revenue by Item Bubble Charts | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=174s) |
+| Map Visuals for Geographic Revenue Analysis | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=214s) |
+| Enhanced Subscription Billing Demo Data | status not stated | [4:11](https://www.youtube.com/watch?v=cnIJZ2Ozcxs&t=251s) |
 
 ## Quotes
 

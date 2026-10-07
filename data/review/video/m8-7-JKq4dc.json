@@ -1,0 +1,29 @@
+{
+  "video_id": "m8-7-JKq4dc",
+  "item_id": "video/yt-microsoft/m8-7-JKq4dc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 26 quotes verified as verbatim transcript spans (several legitimately cross segment boundaries).",
+    "Two quotes share t=796.4 (one is a longer version of the other); left in place because drop_quotes by t would remove both.",
+    "Feature 'Quality Management Workflows' duplicates 'Built-in Quality Management Workflows' and has a wrong t_start (2395.4); dropped.",
+    "Page was missing that reopen and delete of inspections are limited to quality management administrators; added a quote.",
+    "'Result Visibility Settings' t_start 844 points at the evaluation sequence mention; result visibility starts at 854.7. Minor.",
+    "'Automatic Transfer Order for Non-Compliant Items' happens through a configured workflow in the demo, not inherently; description is acceptable.",
+    "All feature statuses left unclear; no explicit preview/GA statement beyond preinstalled in new 2026 wave 1 environments."
+  ],
+  "input_hash": "6f1cfe55307ceae7c32d6b321cf961027fdc6a79e83f2251c12370483cbf8708",
+  "by": "opus",
+  "at": "2026-10-07T22:50:28.544Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 2294s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.25566099999999997
+  }
+}

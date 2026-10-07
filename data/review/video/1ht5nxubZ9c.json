@@ -1,0 +1,26 @@
+{
+  "video_id": "1ht5nxubZ9c",
+  "item_id": "video/yt-microsoft/1ht5nxubZ9c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point overstated the quote step: the transcript says the email was picked up and 'can now be converted into a quote', not that the agent converts it on its own. Reworded it.",
+    "The email account setup step (Email Accounts page, current user type) was missing from the key points and quotes. Added it.",
+    "All features are correctly set to unclear because the transcript gives no preview or GA status.",
+    "The feature description for email conversion says 'automatically ... convert', which goes slightly beyond the transcript. That is minor and not worth dropping the feature."
+  ],
+  "input_hash": "a2aa04100f88b9d17ed3f8b83af640c060b25f1980c5f2d8d2db2752ff503571",
+  "by": "opus",
+  "at": "2026-10-07T22:50:43.520Z",
+  "applied": [
+    "quote at 15s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039117
+  }
+}

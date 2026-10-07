@@ -18,12 +18,12 @@ tags:
   - tax rates
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:39.673Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 607
     quote: But, what you cannot you cannot combine uh plastic excise tax with some other excise taxes here from different types. This is not possible.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=855s
+    title: "What's New: Excise Taxes (2026 release wave 1)"
+    date: "2026-04-01T12:00:30.000Z"
+    commit: null
+    t: 855
+    quote: So, that means if you are using plastic tax calculation, it will not exclude completely EPR calculation.
   - kind: video
     url: https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=924s
     title: "What's New: Excise Taxes (2026 release wave 1)"
@@ -187,6 +194,9 @@ quotes:
   - t: 607
     text: But, what you cannot you cannot combine uh plastic excise tax with some other excise taxes here from different types. This is not possible.
     check: exact
+  - t: 855
+    text: So, that means if you are using plastic tax calculation, it will not exclude completely EPR calculation.
+    check: exact
   - t: 924
     text: Currently, we do not have any specific report for um showing, so you can export in Excel, but plan is to continue invest invest
     check: exact
@@ -196,7 +206,7 @@ quotes:
 
 > Excise taxes framework in Business Central (2026 release wave 1): configurable excise types, six tax bases, entry permissions, fixed-rate duties, excise journal and transaction logs, with CBAM and EPR running in parallel. Evidence for setup steps and limitations such as fixed-rate only and no combining plastic tax with other types.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Cj_n5x3gN_Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 16:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Cj_n5x3gN_Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 16:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,12 +217,12 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 ## Key points
 
 - Excise taxes is an independent app and can be removed from the system.
-- Six tax bases are available: weight, volume, quantity, sugar content, pure alcohol content and active content. Choosing a tax base is mandatory for each excise tax type.
-- Entry permissions set which transaction types count: purchase, positive adjustment, output, assembly output, sales or negative adjustment.
+- Six tax bases are available: weight, volume, quantity, sugar content, pure alcohol content and active content. Each excise tax type is configured with its tax base.
+- Entry permissions set which transaction types count: purchase, positive adjustment, output, assembly output, sales or negative adjustment. A 'set default permissions' action can propose them.
 - Only fixed-rate duties are supported, not percentage-based. Rates can be set on items or fixed assets with effective-from dates.
-- Plastic excise tax cannot be combined with other excise tax types. CBAM and EPR run in parallel but cannot be combined with regular excise taxes on the same item, and they need separate setup on the sustainability fast tab.
-- Items can carry an excise quantity with its own unit of measure, separate from the item's standard unit.
-- The excise transaction log records calculations. No dedicated report exists yet, but the data can be exported to Excel.
+- Plastic excise tax cannot be combined with other excise tax types. CBAM and EPR use the same excise journal and can run in parallel with excise taxes (plastic tax does not exclude EPR); they are set up separately on the item's sustainability fast tab.
+- Items can carry an excise quantity with its own unit of measure, separate from the item's standard unit; the amount is source quantity x excise quantity x excise duty rate.
+- The excise transaction log records excise, CBAM and EPR entries. No dedicated report exists yet, but the data can be exported to Excel.
 
 ## Chapters
 
@@ -229,18 +239,18 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Excise taxes framework | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |  |
-| Excise journal with multiple calculation models | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |  |
-| Tax bases configuration | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |  |
-| Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |  |
-| Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |  |
-| Excise quantity configuration on items | status not stated, demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |  |
-| Excise journal calculation workflow | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |  |
-| Excise transaction logs | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |  |
-| Parallel CBAM and EPR with excise taxes | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |  |
-| Dynamic reporting captions for excise types | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Excise taxes framework | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
+| Excise journal with multiple calculation models | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
+| Tax bases configuration | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
+| Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
+| Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
+| Excise quantity configuration on items | status not stated, demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
+| Excise journal calculation workflow | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
+| Excise transaction logs | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
+| Parallel CBAM and EPR with excise taxes | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
+| Dynamic reporting captions for excise types | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |
 
 ## AL objects mentioned
 
@@ -261,6 +271,7 @@ Not found in BC28-30: page "excise journal", table "excise transaction logs", pa
 - [3:42](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=222s) "You have different models, six different models, how you will calculate and what what will be used as a calculation for this excise taxes."
 - [5:59](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=359s) "This is not percent because they are not we do not use as a percentage on some specific value. This is let's say limitation."
 - [10:07](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=607s) "But, what you cannot you cannot combine uh plastic excise tax with some other excise taxes here from different types. This is not possible."
+- [14:15](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=855s) "So, that means if you are using plastic tax calculation, it will not exclude completely EPR calculation."
 - [15:24](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=924s) "Currently, we do not have any specific report for um showing, so you can export in Excel, but plan is to continue invest invest"
 
 ## Disclaimers in the video

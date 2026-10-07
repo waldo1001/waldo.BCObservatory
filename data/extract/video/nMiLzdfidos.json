@@ -350,26 +350,6 @@
       "system": "platform"
     },
     {
-      "name": "Parallel workspace compilation",
-      "description": "Workspace compile now supports parallel processing with configurable process counts, reducing compilation time from 50 minutes with one process to 26 minutes with four processes on GitHub runners, achieving 75% reduction.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 834.4,
-      "t_end": 890.5,
-      "is_demoed": true,
-      "caveats": [
-        "Comparison shows differences between workspace compile and AL Go due to orchestration differences with BC container helper"
-      ],
-      "tags": [
-        "compilation",
-        "performance",
-        "parallel-processing"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "AL Go hardware utilization",
       "description": "AL Go users will get parallel compilation benefits for free when using AL Go for GitHub, improving pipeline performance without additional configuration.",
       "status": "unclear",
@@ -388,60 +368,6 @@
         "performance"
       ],
       "system": "platform"
-    },
-    {
-      "name": "AI-assisted code generation with AL constraints",
-      "description": "AI developers treat generated code as a draft to be reviewed and refined, using AL as a constraint layer to ensure correctness, security, and maintainability while generating code through agents.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1034.5,
-      "t_end": 1092.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ai-coding",
-        "constraints",
-        "code-generation"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Iterative prototyping with AI",
-      "description": "Developers can build prototypes within a day rather than a week using AI assistance, enabling rapid hypothesis testing, learning, and iterative refinement with proper architecture and testing.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1068.3,
-      "t_end": 1092.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "prototyping",
-        "iterative-development",
-        "ai-assistance"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "AI agent feedback loop with success criteria",
-      "description": "Agents can iterate on solutions and recover from failures automatically when given a task definition and success criteria such as passing AL tests, enabling autonomous achievement of development goals.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1109.2,
-      "t_end": 1137.9,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "feedback-loop",
-        "agents",
-        "success-criteria"
-      ],
-      "system": "copilot"
     },
     {
       "name": "AL tools for GitHub Copilot in VS Code",
@@ -718,6 +644,18 @@
       "check": "exact"
     },
     {
+      "t": 99,
+      "text": "we also updated the update audit fields method to now be available in cloud.",
+      "why_it_matters": "Supports the claim that update audit fields now works in cloud environments.",
+      "check": "exact"
+    },
+    {
+      "t": 118.8,
+      "text": "Another new language addition is the ability to define and include analysis views in your extension.",
+      "why_it_matters": "Gives a source for the analysis views feature.",
+      "check": "exact"
+    },
+    {
       "t": 167.8,
       "text": "we have made the code action for adding namespaces automatically even smarter. It now uses a three-tier resolution strategy.",
       "why_it_matters": "Demonstrates significant productivity improvement for namespace adoption in existing codebases through intelligent automation.",
@@ -727,6 +665,12 @@
       "t": 373.4,
       "text": "Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it",
       "why_it_matters": "Removes friction from AL development setup by eliminating need for environment configuration to get symbols.",
+      "check": "exact"
+    },
+    {
+      "t": 442.6,
+      "text": "you can completely disable the Microsoft feeds by using the use only custom feeds setting.",
+      "why_it_matters": "Supports the claim that custom feeds can replace the Microsoft feeds entirely.",
       "check": "exact"
     },
     {

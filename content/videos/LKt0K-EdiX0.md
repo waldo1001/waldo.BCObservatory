@@ -15,12 +15,12 @@ tags:
   - reporting fields
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:32.608Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:32.638Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,6 +69,13 @@ evidence:
     commit: null
     t: 262
     quote: These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can
+  - kind: video
+    url: https://www.youtube.com/watch?v=LKt0K-EdiX0&t=435s
+    title: "What's New: Fixed Assets (2026 release wave 1)"
+    date: "2026-04-01T12:00:32.000Z"
+    commit: null
+    t: 435
+    quote: you get an extra journal line and that is the bonus depreciation. That is 20% of the 8,000 which was acquisition cost
 links:
   learn: []
   objects:
@@ -153,13 +160,16 @@ quotes:
   - t: 262
     text: These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can
     check: exact
+  - t: 435
+    text: you get an extra journal line and that is the bonus depreciation. That is 20% of the 8,000 which was acquisition cost
+    check: exact
 ---
 
 # What's New: Fixed Assets (2026 release wave 1)
 
 > Bonus depreciation in Business Central Fixed Assets (2026 release wave 1): a new accelerated depreciation method in the global base app, with setup fields, a per-asset toggle, and extra reporting fields on FA Depreciation Books. The video demos setup, calculation with and without bonus, and ledger entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LKt0K-EdiX0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LKt0K-EdiX0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -169,13 +179,13 @@ The demo walks through the Fixed Asset Setup page, asset eligibility, running de
 
 ## Key points
 
-- Bonus depreciation is a new depreciation method in the global base app, aimed at compliance and more accurate tax planning for global customers.
+- Bonus depreciation is a new depreciation method in the global (W1) base app, aimed at compliance, more accurate tax planning and fewer custom extensions. Local names include additional first year depreciation, investment bonus depreciation and 168K depreciation.
+- It works with all the other depreciation methods. The first depreciation after acquisition is the bonus depreciation, then the normal method continues.
 - Fixed Asset Setup has two new fields: a bonus depreciation percentage and an effective date. Assets placed in service after that date are eligible.
-- The percentage in setup is the maximum defined by law, typically communicated by the government. A lower percentage can be used.
-- Eligibility is driven by the asset's depreciation starting date. The toggle on the fixed asset depreciation book is set to true when that date is later than the setup effective date.
-- The toggle can be changed manually per asset to opt in or out, regardless of setup.
-- Several new reporting fields on the FA Depreciation Books page are hidden by default. Personalize the page to show them and export to Excel for reporting.
-- The percentage and eligibility follow local tax law, so check the rules for your country.
+- The setup percentage is the maximum defined by law, typically communicated to the accountant by the government. A lower percentage can be given.
+- Eligibility is driven by the asset's depreciation starting date. The bonus depreciation toggle is set to true when that date is later than the setup effective date, and it can be turned on or off per fixed asset depreciation book.
+- The fixed asset card shows new fields: acquisition cost, bonus depreciation applied and the toggle.
+- In the demo, Calculate Depreciation with bonus on created an extra journal line for 20% of the 8,000 acquisition cost, and the first regular depreciation came out lower. Posting creates separate ledger entries for the bonus and the normal depreciation.
 
 ## Chapters
 
@@ -189,12 +199,12 @@ The demo walks through the Fixed Asset Setup page, asset eligibility, running de
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Bonus depreciation method | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=50s) |  |
-| Fixed Asset Setup fields for bonus depreciation | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=138s) |  |
-| Bonus depreciation toggle on fixed asset card | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) |  |
-| Additional reporting fields for FA depreciation books | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=210s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Bonus depreciation method | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=50s) |
+| Fixed Asset Setup fields for bonus depreciation | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=138s) |
+| Bonus depreciation toggle on fixed asset card | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) |
+| Additional reporting fields for FA depreciation books | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=210s) |
 
 ## AL objects mentioned
 
@@ -213,5 +223,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:28](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=148s) "it is set up on the fixed asset setup page. There are two fields, one for the percentage and one for the eligibility date"
 - [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) "you can opt in to use it or not on each fixed asset depreciation book. It is entirely driven by the by the depreciation"
 - [4:22](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=262s) "These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can"
+- [7:15](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=435s) "you get an extra journal line and that is the bonus depreciation. That is 20% of the 8,000 which was acquisition cost"
 
 Presenters (as heard): Alexander Totovic, George.

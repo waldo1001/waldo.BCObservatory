@@ -1,0 +1,24 @@
+{
+  "video_id": "0WAOtNaKjws",
+  "item_id": "video/yt-microsoft/0WAOtNaKjws",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes match the transcript word for word. The quote at t=202 runs on into the segment at t=214, which is allowed.",
+    "The evidence quote for Support for Multiple MCP Hosts is verbatim, starts at t=202 and states the public preview status.",
+    "The other features are marked unclear, which is correct: the transcript gives no explicit preview or GA status for them.",
+    "The key point on host type logging matches the transcript, though that part of the captions is garbled. 'Microsoft per view' is a caption error for Purview audit logs.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "2fecd83316d43cc552326a779cb7ea471236ca90945f9e0486e5fed5825ee122",
+  "by": "opus",
+  "at": "2026-10-07T22:50:40.392Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086661
+  }
+}

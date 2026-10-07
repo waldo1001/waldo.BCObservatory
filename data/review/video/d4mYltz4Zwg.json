@@ -1,0 +1,26 @@
+{
+  "video_id": "d4mYltz4Zwg",
+  "item_id": "video/yt-microsoft/d4mYltz4Zwg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Withholding Tax for India and Italy' was marked announced, but the transcript only says Italy will be 'subject of research' and 'the same for India'. Nothing is announced, so the status is now unclear.",
+    "'Withholding Tax for Australia and New Zealand' describes an upgrade path through feature management planned for the next release, which is stated explicitly at 712.4. The status is now announced, with that segment as evidence.",
+    "The item feature description says the setting is 'independent of vendor configuration'. The transcript doesn't say this, but it is minor and was left as is.",
+    "Summary, key points and quotes are supported by the transcript. The quote at 246.1 contains the caption error 'bit holding' but is verbatim, so it was kept."
+  ],
+  "input_hash": "decc90b07f1e93e6f54f41f8cfcdfbd99944958ddb1f37f545b901f36e980cc0",
+  "by": "opus",
+  "at": "2026-10-07T22:50:29.384Z",
+  "applied": [
+    "Withholding Tax for India and Italy: status unclear",
+    "Withholding Tax for Australia and New Zealand: status announced"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09156500000000001
+  }
+}

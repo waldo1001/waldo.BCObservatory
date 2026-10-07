@@ -16,12 +16,12 @@ tags:
   - setup configuration
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:29.384Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:29.438Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -29,12 +29,12 @@ generated:
   input_hash: ccbe0e9786b9d58276a83c7141b58e327fb531734d461c432fc81e6a6ff20872
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=d4mYltz4Zwg&t=755s
-    title: "Withholding Tax for India and Italy: announced"
+    url: https://www.youtube.com/watch?v=d4mYltz4Zwg&t=712s
+    title: "Withholding Tax for Australia and New Zealand: announced"
     date: "2026-04-01T12:00:38.000Z"
     commit: null
-    t: 755
-    quote: In Italy we have completely different withholding tax. So it will be subject of research what we need to do how we can and
+    t: 712
+    quote: idea is that in next release we will enable through feature management upgrade process so they can remove from existing model
   - kind: video
     url: https://www.youtube.com/watch?v=d4mYltz4Zwg&t=31s
     title: "Introducing: Withholding Taxes (2026 release wave 1)"
@@ -176,14 +176,14 @@ features:
     verified: false
     status_source: video
   - name: Withholding Tax for Australia and New Zealand
-    status: unclear
+    status: announced
     t: 692
-    verified: false
+    verified: true
     status_source: video
   - name: Withholding Tax for India and Italy
-    status: announced
+    status: unclear
     t: 755
-    verified: true
+    verified: false
     status_source: video
 objects_mentioned:
   - table Withholding Tax Posting Setup
@@ -219,7 +219,7 @@ quotes:
 
 > Withholding taxes for vendors and the purchase process in Business Central (2026 release wave 1): setup with posting groups, vendor and item configuration, and a demo of invoice posting and unrealized-to-realized entries. Covers limits: no employees or customers, and not available in Australia, New Zealand, India and Italy.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=d4mYltz4Zwg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=d4mYltz4Zwg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -263,8 +263,8 @@ It walks through the configuration model, which uses withholding tax business an
 | Withholding Tax Posting Preview | status not stated, demoed | [7:35](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=455s) |  |
 | Withholding Tax Entries Tracking | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=477s) |  |
 | General Ledger Setup Requirement | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=423s) |  |
-| Withholding Tax for Australia and New Zealand | status not stated | [11:32](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=692s) |  |
-| Withholding Tax for India and Italy | announced | [12:35](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=755s) | "In Italy we have completely different withholding tax. So it will be subject of research what we need to do how we can and" ([12:35](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=755s)) |
+| Withholding Tax for Australia and New Zealand | announced | [11:32](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=692s) | "idea is that in next release we will enable through feature management upgrade process so they can remove from existing model" ([11:52](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=712s)) |
+| Withholding Tax for India and Italy | status not stated | [12:35](https://www.youtube.com/watch?v=d4mYltz4Zwg&t=755s) |  |
 
 ## AL objects mentioned
 

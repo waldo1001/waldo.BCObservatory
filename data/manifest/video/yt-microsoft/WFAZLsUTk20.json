@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=WFAZLsUTk20",
   "published_at": "2026-02-27T15:13:15.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 1
     },
     "published": {
-      "at": "2026-10-06T18:09:04.487Z",
+      "at": "2026-10-07T22:50:52.457Z",
       "path": "content/videos/WFAZLsUTk20.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:50:52.402Z",
+      "path": "data/review/video/WFAZLsUTk20.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.054477
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a272d48c303e9535dbcec62e5547f673b86527cfb935e62dbc02c84a41ce8cf"
+  "output_hash": "62a6c2de907894efe1c77dd8a5f829e09f7617cdb248ea61540c692d04acc364",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:50:52.398Z"
+  }
 }

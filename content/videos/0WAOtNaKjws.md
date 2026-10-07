@@ -18,12 +18,12 @@ tags:
   - code execution
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:40.392Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:40.432Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,7 +182,7 @@ quotes:
 
 > Business Central MCP server enhancements in 2026 release wave 1: configuration validation, import/export, connection string setup, telemetry and auditing, MCP resources and embedded resources. Support for MCP hosts other than Copilot Studio, such as VS Code, is in public preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=0WAOtNaKjws) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 18:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=0WAOtNaKjws) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 18:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

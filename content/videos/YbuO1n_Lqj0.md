@@ -20,18 +20,102 @@ tags:
   - api documentation
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:53.502Z"
   flags: []
 generated:
-  at: "2026-10-06T18:07:58.008Z"
+  at: "2026-10-07T22:50:53.570Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 07f73d628c02710e909c02434d14de984d1feca68bb38ff2f9260371195480cc
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s
+    title: "Users list last login date and inactive days: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 523
+    quote: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s
+    title: "Users list fact box enhancements: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 523
+    quote: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s
+    title: "User Detail View improvements: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 523
+    quote: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Permission Sets API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Expanded Permission Sets API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Security Groups API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "User Permission API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Access Control API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Workflows API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Workflow Steps API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Workflow Response Option API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s
+    title: "Approval Entries API: announced"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 883
+    quote: similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs
   - kind: video
     url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=17s
     title: "What's New: Enhanced IT Audit Reporting (2026 release wave 1)"
@@ -67,6 +151,13 @@ evidence:
     commit: null
     t: 523
     quote: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+  - kind: video
+    url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=647s
+    title: "What's New: Enhanced IT Audit Reporting (2026 release wave 1)"
+    date: "2026-04-01T12:00:27.000Z"
+    commit: null
+    t: 647
+    quote: But now you can also uh see things like users with super active users or inactive 7, 30 or 90 days.
   - kind: video
     url: https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=703s
     title: "What's New: Enhanced IT Audit Reporting (2026 release wave 1)"
@@ -183,64 +274,64 @@ features:
     verified: false
     status_source: video
   - name: Users list last login date and inactive days
-    status: unclear
+    status: announced
     t: 534
-    verified: false
+    verified: true
     status_source: video
   - name: Users list fact box enhancements
-    status: unclear
+    status: announced
     t: 573
-    verified: false
+    verified: true
     status_source: video
   - name: User Detail View improvements
-    status: unclear
+    status: announced
     t: 617
-    verified: false
+    verified: true
     status_source: video
   - name: Permission Sets API
-    status: unclear
+    status: announced
     t: 796
-    verified: false
+    verified: true
     status_source: video
   - name: Expanded Permission Sets API
-    status: unclear
+    status: announced
     t: 832
-    verified: false
+    verified: true
     status_source: video
   - name: Security Groups API
-    status: unclear
+    status: announced
     t: 832
-    verified: false
+    verified: true
     status_source: video
   - name: User Permission API
-    status: unclear
+    status: announced
     t: 853
-    verified: false
+    verified: true
     status_source: video
   - name: Access Control API
-    status: unclear
+    status: announced
     t: 853
-    verified: false
+    verified: true
     status_source: video
   - name: Workflows API
-    status: unclear
+    status: announced
     t: 883
-    verified: false
+    verified: true
     status_source: video
   - name: Workflow Steps API
-    status: unclear
+    status: announced
     t: 897
-    verified: false
+    verified: true
     status_source: video
   - name: Workflow Response Option API
-    status: unclear
+    status: announced
     t: 915
-    verified: false
+    verified: true
     status_source: video
   - name: Approval Entries API
-    status: unclear
+    status: announced
     t: 977
-    verified: false
+    verified: true
     status_source: video
   - name: Updated Security Guide
     status: unclear
@@ -263,6 +354,9 @@ quotes:
     check: exact
   - t: 523
     text: This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.
+    check: exact
+  - t: 647
+    text: But now you can also uh see things like users with super active users or inactive 7, 30 or 90 days.
     check: exact
   - t: 703
     text: the reason for this is that we learned in probably larger organizations there's kind of a natural barrier or physical barrier between the IT
@@ -288,7 +382,7 @@ quotes:
 
 > Business Central 2026 release wave 1 audit and internal-control reporting additions: Permission Overview page, approval overview pages, analysis tabs on change log and users list, and read-only APIs for permissions, workflows and approval entries. Most items are described as coming in 28.x, not the April release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YbuO1n_Lqj0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 22:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YbuO1n_Lqj0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 22:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -301,10 +395,10 @@ It also shows analysis tabs on Change Log Entries and the Users list, new last l
 - Permission Overview page lets you filter permissions by object type, ID, permission set scope and app source, see which security groups and users hold each permission set, and pivot in analysis mode.
 - Approval User Overview page shows who can approve what, and to which limits, across workflow types on one screen. It is said to come in 28.1 or 28.2, not the April release.
 - Change Log Entries get analysis tabs showing who changed which table and field data and when. They are coming in 28.x and need the change log enabled for the relevant tables and fields.
-- Users list in 28.x adds last login date and inactive days columns, analysis views by user status and license type, and views for users inactive 7, 30 or 90 days.
-- New APIs, all read-only and coming in 28.x, cover permission sets, expanded permission sets, security groups, user permissions, access control, workflows, workflow steps, workflow response options and approval entries (normal and posted).
+- Users list in 28.x adds last login date and inactive days columns, analysis views by user status and license type, and fact box details with navigation links to user settings, approval user setup and user setup.
+- User Detail View gets last login date, inactive days and prefiltered views such as super active users and users inactive 7, 30 or 90 days, usable in analysis mode.
+- New APIs, all read-only and coming in 28.x, cover permission sets, expanded permission sets, security groups, user permissions, access control, workflows, workflow steps, workflow response options, workflow approvers, approval user setup and approval entries (normal and posted).
 - The APIs are meant to let IT staff recreate audit reports without login UI access to Business Central, reflecting a separation between IT and business in larger organizations.
-- The security guide was updated with new objects, APIs and scenario-specific hardening guidance.
 
 ## Chapters
 
@@ -329,18 +423,18 @@ It also shows analysis tabs on Change Log Entries and the Users list, new last l
 | Approval pages help improvements | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=308s) |  |
 | Analysis tabs on Change Log Entries | status not stated, demoed | [6:14](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=374s) |  |
 | Analysis tabs on Users list | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=472s) |  |
-| Users list last login date and inactive days | status not stated, demoed | [8:54](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=534s) |  |
-| Users list fact box enhancements | status not stated, demoed | [9:33](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=573s) |  |
-| User Detail View improvements | status not stated, demoed | [10:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=617s) |  |
-| Permission Sets API | status not stated | [13:16](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=796s) |  |
-| Expanded Permission Sets API | status not stated | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) |  |
-| Security Groups API | status not stated | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) |  |
-| User Permission API | status not stated | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) |  |
-| Access Control API | status not stated | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) |  |
-| Workflows API | status not stated | [14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s) |  |
-| Workflow Steps API | status not stated | [14:57](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=897s) |  |
-| Workflow Response Option API | status not stated | [15:15](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=915s) |  |
-| Approval Entries API | status not stated | [16:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=977s) |  |
+| Users list last login date and inactive days | announced, demoed | [8:54](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=534s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
+| Users list fact box enhancements | announced, demoed | [9:33](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=573s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
+| User Detail View improvements | announced, demoed | [10:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=617s) | "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this." ([8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s)) |
+| Permission Sets API | announced | [13:16](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=796s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Expanded Permission Sets API | announced | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Security Groups API | announced | [13:52](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=832s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| User Permission API | announced | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Access Control API | announced | [14:13](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=853s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflows API | announced | [14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflow Steps API | announced | [14:57](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=897s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Workflow Response Option API | announced | [15:15](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=915s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
+| Approval Entries API | announced | [16:17](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=977s) | "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs" ([14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s)) |
 | Updated Security Guide | status not stated | [16:28](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=988s) |  |
 
 ## Quotes
@@ -350,6 +444,7 @@ It also shows analysis tabs on Change Log Entries and the Users list, new last l
 - [2:08](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=128s) "when you then take this list into analysis mode, then you can you can do some really compelling analysis"
 - [3:44](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=224s) "So here in 28.x so this is not for the April release hopefully in one of the m like miners 28.1 28.2"
 - [8:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=523s) "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this."
+- [10:47](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=647s) "But now you can also uh see things like users with super active users or inactive 7, 30 or 90 days."
 - [11:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=703s) "the reason for this is that we learned in probably larger organizations there's kind of a natural barrier or physical barrier between the IT"
 - [13:16](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=796s) "all of these APIs are read only"
 - [14:43](https://www.youtube.com/watch?v=YbuO1n_Lqj0&t=883s) "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs"

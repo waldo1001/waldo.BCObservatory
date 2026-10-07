@@ -18,12 +18,12 @@ tags:
   - e-documents
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:13.585Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:13.624Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,12 +38,12 @@ evidence:
     t: 395
     quote: You have new field carbon tracking method and this is currently in a public preview.
   - kind: video
-    url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s
+    url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s
     title: "Specific carbon costing method: preview"
     date: "2026-04-01T12:00:47.000Z"
     commit: null
-    t: 395
-    quote: And this is currently in a public preview.
+    t: 627
+    quote: If you want to check specific method, please do it in a sandbox because this is a public preview.
   - kind: video
     url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=17s
     title: "What's New: Sustainability (2026 release wave 1)"
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 99
     quote: So, if you want to use any other tool or if you want to use some other reporting reason for whatever reason you have,
+  - kind: video
+    url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=295s
+    title: "What's New: Sustainability (2026 release wave 1)"
+    date: "2026-04-01T12:00:47.000Z"
+    commit: null
+    t: 295
+    quote: So, this integration doesn't exist, but you have all prerequisites here right now.
   - kind: video
     url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=370s
     title: "What's New: Sustainability (2026 release wave 1)"
@@ -93,6 +100,13 @@ evidence:
     commit: null
     t: 434
     quote: But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking.
+  - kind: video
+    url: https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s
+    title: "What's New: Sustainability (2026 release wave 1)"
+    date: "2026-04-01T12:00:47.000Z"
+    commit: null
+    t: 627
+    quote: If you want to check specific method, please do it in a sandbox because this is a public preview.
 links:
   learn: []
   objects:
@@ -200,6 +214,9 @@ quotes:
   - t: 99
     text: So, if you want to use any other tool or if you want to use some other reporting reason for whatever reason you have,
     check: exact
+  - t: 295
+    text: So, this integration doesn't exist, but you have all prerequisites here right now.
+    check: exact
   - t: 370
     text: Previously, with no configuration option, you had only average model. So, this is the same as a costing method for your costs, but it
     check: exact
@@ -212,13 +229,16 @@ quotes:
   - t: 434
     text: But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking.
     check: exact
+  - t: 627
+    text: If you want to check specific method, please do it in a sandbox because this is a public preview.
+    check: exact
 ---
 
 # What's New: Sustainability (2026 release wave 1)
 
 > Sustainability changes in Business Central 2026 release wave 1: new APIs (ESG reporting lines, value entries, purchase lines, goals), ESG sales invoice and quote layouts with carbon footprint, a product classification field with UNSPSC, and a carbon tracking method field (average or specific) that is in public preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lqVWc-Yuots) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lqVWc-Yuots) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -261,7 +281,7 @@ It then covers product classification on the item card with UNSPSC support, and 
 | ESG sales quote layouts | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=lqVWc-Yuots&t=223s) |  |
 | Product classification item card field | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=lqVWc-Yuots&t=256s) |  |
 | Carbon tracking method field | generally available (roadmap [573379](../features/573379.md)), demoed | [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) | "You have new field carbon tracking method and this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
-| Specific carbon costing method | generally available (roadmap [573379](../features/573379.md)) | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "And this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
+| Specific carbon costing method | generally available (roadmap [573379](../features/573379.md)) | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "If you want to check specific method, please do it in a sandbox because this is a public preview." ([10:27](https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -280,10 +300,12 @@ Not found in BC28-30: table "Sustainability purchase line", table "Product class
 - [0:17](https://www.youtube.com/watch?v=lqVWc-Yuots&t=17s) "This time you will see a few features uh because we are very close to finish this module. I say the finish it will"
 - [0:55](https://www.youtube.com/watch?v=lqVWc-Yuots&t=55s) "If you started to use um reporting for uh CSRD and other types, depends in which country you are, this is something what we"
 - [1:39](https://www.youtube.com/watch?v=lqVWc-Yuots&t=99s) "So, if you want to use any other tool or if you want to use some other reporting reason for whatever reason you have,"
+- [4:55](https://www.youtube.com/watch?v=lqVWc-Yuots&t=295s) "So, this integration doesn't exist, but you have all prerequisites here right now."
 - [6:10](https://www.youtube.com/watch?v=lqVWc-Yuots&t=370s) "Previously, with no configuration option, you had only average model. So, this is the same as a costing method for your costs, but it"
 - [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) "You have new field carbon tracking method and this is currently in a public preview."
 - [6:46](https://www.youtube.com/watch?v=lqVWc-Yuots&t=406s) "So, by default is average method. So, this is still by default and why? If you already started to use value chain, we didn't"
 - [7:14](https://www.youtube.com/watch?v=lqVWc-Yuots&t=434s) "But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking."
+- [10:27](https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s) "If you want to check specific method, please do it in a sandbox because this is a public preview."
 
 ## Disclaimers in the video
 

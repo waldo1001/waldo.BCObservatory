@@ -1,0 +1,44 @@
+{
+  "video_id": "YbuO1n_Lqj0",
+  "item_id": "video/yt-microsoft/YbuO1n_Lqj0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All features were marked unclear, but the transcript clearly says the approval overviews, the analysis tabs, the user management changes and the permission and approval APIs are coming in 28.x. I set these to announced, with evidence quotes.",
+    "The transcript does not give a release timing for the Permission Overview page, the approval help improvements or the security guide, so those stay unclear.",
+    "One key point said the Users list has views for users inactive 7, 30 or 90 days. Those views are on the User Detail View, so I corrected it.",
+    "The API key point left out two APIs the transcript mentions: workflow approvers and approval user setup. I added them.",
+    "The chapter boundaries are a little off. The APIs section really starts around 683s and the general resources section around 1098s. This is minor and I left it."
+  ],
+  "input_hash": "cc711df3b4294478232124932f0e6cd721589e15ad3d8f5b3b45c801e479e894",
+  "by": "opus",
+  "at": "2026-10-07T22:50:53.502Z",
+  "applied": [
+    "Users list last login date and inactive days: status announced",
+    "Users list fact box enhancements: status announced",
+    "User Detail View improvements: status announced",
+    "Permission Sets API: status announced",
+    "Expanded Permission Sets API: status announced",
+    "Security Groups API: status announced",
+    "User Permission API: status announced",
+    "Access Control API: status announced",
+    "Workflows API: status announced",
+    "Workflow Steps API: status announced",
+    "Workflow Response Option API: status announced",
+    "Approval Entries API: status announced",
+    "quote at 648s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Approval User Overview page -> announced: evidence not verbatim or does not state the status",
+    "status Approval Entry Overview page -> announced: evidence not verbatim or does not state the status",
+    "status Analysis tabs on Change Log Entries -> announced: evidence not verbatim or does not state the status",
+    "status Analysis tabs on Users list -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.157181
+  }
+}

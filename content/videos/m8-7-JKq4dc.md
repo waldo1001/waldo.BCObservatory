@@ -20,12 +20,12 @@ tags:
   - table lookup
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:28.544Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:28.581Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -165,6 +165,13 @@ evidence:
     commit: null
     t: 2204
     quote: Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe
+  - kind: video
+    url: https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2294s
+    title: "Introducing: Quality Management (2026 release wave 1)"
+    date: "2026-04-01T12:00:47.000Z"
+    commit: null
+    t: 2294
+    quote: Uh reopen and deletion is limited by permission. So, if you are not quality management administrator, you cannot do these actions.
   - kind: video
     url: https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s
     title: "Introducing: Quality Management (2026 release wave 1)"
@@ -543,11 +550,6 @@ features:
     t: 2610
     verified: false
     status_source: video
-  - name: Quality Management Workflows
-    status: unclear
-    t: 2395
-    verified: false
-    status_source: video
 objects_mentioned:
   - other Quality Management Role Center
   - other Certificate of Analysis
@@ -615,6 +617,9 @@ quotes:
   - t: 2204
     text: Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe
     check: exact
+  - t: 2294
+    text: Uh reopen and deletion is limited by permission. So, if you are not quality management administrator, you cannot do these actions.
+    check: exact
   - t: 2373
     text: You can define what quantity to use. You can use the full quantity, you can specify quantity which you can specify here. Or you
     check: exact
@@ -642,7 +647,7 @@ quotes:
 
 > Quality Management extension in Business Central (2026 release wave 1): a 46-minute walkthrough covering automatic inspections on purchase receipt, test setup, templates, sampling, generation rules, blocking by item tracking, non-compliant item actions and built-in workflows.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=m8-7-JKq4dc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 46:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=m8-7-JKq4dc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 46:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -684,62 +689,61 @@ The second part covers configuration: inspection results, quality tests and data
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Quality Management Extension | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=6s) |  |
-| Automatic Quality Test Triggering | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=34s) |  |
-| Scheduled Quality Inspections | status not stated | [0:34](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=34s) |  |
-| Manual Quality Test Triggering | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=46s) |  |
-| Flexible Quality Configuration | status not stated | [1:06](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=66s) |  |
-| Automated Non-Compliant Item Handling | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=82s) |  |
-| Quality Inspection on Purchase Receipt | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=103s) |  |
-| Quality Test Execution with Multiple Test Types | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=172s) |  |
-| Test Result Descriptions and Guidance | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=267s) |  |
-| Inspection Result Determination | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=301s) |  |
-| Document Attachments in Inspections | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=312s) |  |
-| Automatic Transfer Order for Non-Compliant Items | status not stated, demoed | [5:36](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=336s) |  |
-| Item Tracking Preservation in Quality Process | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=369s) |  |
-| Sample Size Configuration in Quality Inspections | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=369s) |  |
-| Sales Blocking by Quality Inspection Failures | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=414s) |  |
-| Quality Inspection Recreation and Rechecking | status not stated, demoed | [7:55](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=475s) |  |
-| Certificate of Analysis Document | status not stated, demoed | [9:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=564s) |  |
-| Non-Conformance Report | status not stated, demoed | [10:08](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=608s) |  |
-| Quality Management Role Center | status not stated, demoed | [11:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=693s) |  |
-| Quality Management Setup Data | status not stated, demoed | [12:13](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=733s) |  |
-| Inspection Results Configuration | status not stated, demoed | [13:05](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=785s) |  |
-| Result Visibility Settings | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=844s) |  |
-| Item Tracking Inspection Controls | status not stated, demoed | [14:25](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=865s) |  |
-| Quality Test Parameters | status not stated, demoed | [15:23](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=923s) |  |
-| Allowable Values and Validation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=978s) |  |
-| Default Test Values | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1042s) |  |
-| Result Conditions and Pass-Fail Logic | status not stated, demoed | [18:11](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1091s) |  |
-| Evaluation Sequence | status not stated, demoed | [18:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1115s) |  |
-| Boolean Test Type | status not stated, demoed | [20:53](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1253s) |  |
-| Option Type Tests | status not stated, demoed | [21:41](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1301s) |  |
-| Table Lookup for Test Values | status not stated, demoed | [23:27](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1407s) |  |
-| Lookup Filtering and Field Selection | status not stated, demoed | [24:51](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1491s) |  |
-| Lookup Performance Limits | status not stated, demoed | [25:52](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1552s) |  |
-| Quality Lookup Values Table | status not stated, demoed | [26:48](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1608s) |  |
-| Quality Test Lookup Values | status not stated, demoed | [28:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1704s) |  |
-| Quality Test Types | status not stated, demoed | [29:18](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1758s) |  |
-| Quality Templates | status not stated, demoed | [29:41](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1781s) |  |
-| Sampling Configuration | status not stated, demoed | [30:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1835s) |  |
-| Inspection Generation Rules | status not stated, demoed | [31:20](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1880s) |  |
-| Automatic Inspection Creation | status not stated, demoed | [33:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2004s) |  |
-| Quality Inspection Results Blocking | status not stated, demoed | [32:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1955s) |  |
-| Quality Management Setup | status not stated, demoed | [35:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2133s) |  |
-| Inspection Actions for Non-Conforming Items | status not stated, demoed | [37:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2244s) |  |
-| Item Tracking Change in Quality Management | status not stated, demoed | [39:10](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2350s) |  |
-| Quantity Selection Options in Quality Inspections | generally available (roadmap [573350](../features/573350.md)), demoed | [39:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s) |  |
-| Sample Quantity Field in Quality Management | status not stated, demoed | [39:46](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2386s) |  |
-| Quality Inspection Workflow Events | status not stated, demoed | [40:32](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2432s) |  |
-| Workflow Conditions for Quality Inspections | status not stated, demoed | [41:19](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2479s) |  |
-| Tracking Number Blocking Workflow Response | status not stated, demoed | [41:45](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2505s) |  |
-| Quality Inspection Action Workflows | status not stated, demoed | [42:07](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2527s) |  |
-| Inventory Movement Workflow Responses | status not stated, demoed | [42:29](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2549s) |  |
-| Quality Management API Integration | status not stated | [42:50](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2570s) |  |
-| Built-in Quality Management Workflows | status not stated, demoed | [43:30](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2610s) |  |
-| Quality Management Workflows | status not stated | [39:55](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2395s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Quality Management Extension | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=6s) |
+| Automatic Quality Test Triggering | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=34s) |
+| Scheduled Quality Inspections | status not stated | [0:34](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=34s) |
+| Manual Quality Test Triggering | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=46s) |
+| Flexible Quality Configuration | status not stated | [1:06](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=66s) |
+| Automated Non-Compliant Item Handling | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=82s) |
+| Quality Inspection on Purchase Receipt | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=103s) |
+| Quality Test Execution with Multiple Test Types | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=172s) |
+| Test Result Descriptions and Guidance | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=267s) |
+| Inspection Result Determination | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=301s) |
+| Document Attachments in Inspections | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=312s) |
+| Automatic Transfer Order for Non-Compliant Items | status not stated, demoed | [5:36](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=336s) |
+| Item Tracking Preservation in Quality Process | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=369s) |
+| Sample Size Configuration in Quality Inspections | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=369s) |
+| Sales Blocking by Quality Inspection Failures | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=414s) |
+| Quality Inspection Recreation and Rechecking | status not stated, demoed | [7:55](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=475s) |
+| Certificate of Analysis Document | status not stated, demoed | [9:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=564s) |
+| Non-Conformance Report | status not stated, demoed | [10:08](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=608s) |
+| Quality Management Role Center | status not stated, demoed | [11:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=693s) |
+| Quality Management Setup Data | status not stated, demoed | [12:13](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=733s) |
+| Inspection Results Configuration | status not stated, demoed | [13:05](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=785s) |
+| Result Visibility Settings | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=844s) |
+| Item Tracking Inspection Controls | status not stated, demoed | [14:25](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=865s) |
+| Quality Test Parameters | status not stated, demoed | [15:23](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=923s) |
+| Allowable Values and Validation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=978s) |
+| Default Test Values | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1042s) |
+| Result Conditions and Pass-Fail Logic | status not stated, demoed | [18:11](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1091s) |
+| Evaluation Sequence | status not stated, demoed | [18:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1115s) |
+| Boolean Test Type | status not stated, demoed | [20:53](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1253s) |
+| Option Type Tests | status not stated, demoed | [21:41](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1301s) |
+| Table Lookup for Test Values | status not stated, demoed | [23:27](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1407s) |
+| Lookup Filtering and Field Selection | status not stated, demoed | [24:51](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1491s) |
+| Lookup Performance Limits | status not stated, demoed | [25:52](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1552s) |
+| Quality Lookup Values Table | status not stated, demoed | [26:48](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1608s) |
+| Quality Test Lookup Values | status not stated, demoed | [28:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1704s) |
+| Quality Test Types | status not stated, demoed | [29:18](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1758s) |
+| Quality Templates | status not stated, demoed | [29:41](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1781s) |
+| Sampling Configuration | status not stated, demoed | [30:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1835s) |
+| Inspection Generation Rules | status not stated, demoed | [31:20](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1880s) |
+| Automatic Inspection Creation | status not stated, demoed | [33:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2004s) |
+| Quality Inspection Results Blocking | status not stated, demoed | [32:35](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1955s) |
+| Quality Management Setup | status not stated, demoed | [35:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2133s) |
+| Inspection Actions for Non-Conforming Items | status not stated, demoed | [37:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2244s) |
+| Item Tracking Change in Quality Management | status not stated, demoed | [39:10](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2350s) |
+| Quantity Selection Options in Quality Inspections | generally available (roadmap [573350](../features/573350.md)), demoed | [39:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s) |
+| Sample Quantity Field in Quality Management | status not stated, demoed | [39:46](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2386s) |
+| Quality Inspection Workflow Events | status not stated, demoed | [40:32](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2432s) |
+| Workflow Conditions for Quality Inspections | status not stated, demoed | [41:19](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2479s) |
+| Tracking Number Blocking Workflow Response | status not stated, demoed | [41:45](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2505s) |
+| Quality Inspection Action Workflows | status not stated, demoed | [42:07](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2527s) |
+| Inventory Movement Workflow Responses | status not stated, demoed | [42:29](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2549s) |
+| Quality Management API Integration | status not stated | [42:50](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2570s) |
+| Built-in Quality Management Workflows | status not stated, demoed | [43:30](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2610s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -779,6 +783,7 @@ Not found in BC28-30: table "Quality Lookup Test lookup values", table "Country"
 - [33:10](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=1990s) "They only work for items with item tracking. For items without tracking, you need to use a different ways to to block them and"
 - [35:43](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2143s) "As I mentioned, once we install this extension because it will be preinstalled, but only for new environments. So, like if you create new"
 - [36:44](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2204s) "Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe"
+- [38:14](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2294s) "Uh reopen and deletion is limited by permission. So, if you are not quality management administrator, you cannot do these actions."
 - [39:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s) "You can define what quantity to use. You can use the full quantity, you can specify quantity which you can specify here. Or you"
 - [40:32](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2432s) "The standard built-in workflows. We do not have templates because these workflows are very simple, I would say. They are not that complex to"
 - [40:54](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2454s) "When something happens, when event happened and there are four quality management related events."

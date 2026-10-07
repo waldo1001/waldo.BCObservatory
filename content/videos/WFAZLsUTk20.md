@@ -16,12 +16,12 @@ tags:
   - agent development
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:52.398Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:52.450Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     commit: null
     t: 30
     quote: Every time when you run the task, we are going to save a version to the instruction lock.
+  - kind: video
+    url: https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s
+    title: "What's New: Business Central Agent Instruction History"
+    date: "2026-02-27T15:13:15.000Z"
+    commit: null
+    t: 65
+    quote: and invoke the edit instructions, you will see that I have the buttons now to save history, view history and also download the instructions.
   - kind: video
     url: https://www.youtube.com/watch?v=WFAZLsUTk20&t=90s
     title: "What's New: Business Central Agent Instruction History"
@@ -136,6 +143,9 @@ quotes:
   - t: 30
     text: Every time when you run the task, we are going to save a version to the instruction lock.
     check: exact
+  - t: 65
+    text: and invoke the edit instructions, you will see that I have the buttons now to save history, view history and also download the instructions.
+    check: exact
   - t: 90
     text: We wanted to avoid saving too much and creating a too long uh list. Thus, we believe if you run a task with a
     check: exact
@@ -151,7 +161,7 @@ quotes:
 
 > Agent instruction history in Business Central: instructions typed in the agent playground are autosaved as a version each time a task runs. Versions can be saved manually with names, viewed by timestamp, and downloaded, including several at once as a zip. Instruction history is not included when the agent is exported.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WFAZLsUTk20) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 4:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WFAZLsUTk20) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 4:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -163,11 +173,11 @@ The video also covers viewing versions arranged by timestamp, saving a version m
 
 - Instructions typed in the agent playground are autosaved.
 - A version is saved to the instruction history each time a task is run, not on every edit, to avoid a very long list.
+- On the agent, the edit instructions action shows the buttons save history, view history and download instructions.
 - Versions can be saved manually with a custom name so important ones are easy to find.
+- Saving again after an update keeps the previous version and adds a '-2' suffix to the new one.
 - The history lists versions arranged by timestamp.
 - Individual versions can be downloaded to disk. Selecting several versions downloads them together as a zipped file.
-- Downloaded versions can be compared in tools like Visual Studio Code or Beyond Compare, since the client cannot diff versions itself.
-- Exporting the agent does not include instruction history, so download the versions manually to keep them.
 
 ## Chapters
 
@@ -180,14 +190,14 @@ The video also covers viewing versions arranged by timestamp, saving a version m
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Instruction History Autosave | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=WFAZLsUTk20&t=17s) |  |
-| Manual Save to History | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=30s) |  |
-| Download Instructions | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s) |  |
-| View Instruction History | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=WFAZLsUTk20&t=75s) |  |
-| Multi-select Download Versions | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=WFAZLsUTk20&t=116s) |  |
-| Instruction Version Naming | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=WFAZLsUTk20&t=104s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Instruction History Autosave | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=WFAZLsUTk20&t=17s) |
+| Manual Save to History | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=30s) |
+| Download Instructions | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s) |
+| View Instruction History | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=WFAZLsUTk20&t=75s) |
+| Multi-select Download Versions | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=WFAZLsUTk20&t=116s) |
+| Instruction Version Naming | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=WFAZLsUTk20&t=104s) |
 
 ## AL objects mentioned
 
@@ -199,6 +209,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:17](https://www.youtube.com/watch?v=WFAZLsUTk20&t=17s) "We are autosaving all of the instructions that you are typing in the agent playground."
 - [0:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=30s) "Every time when you run the task, we are going to save a version to the instruction lock."
+- [1:05](https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s) "and invoke the edit instructions, you will see that I have the buttons now to save history, view history and also download the instructions."
 - [1:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=90s) "We wanted to avoid saving too much and creating a too long uh list. Thus, we believe if you run a task with a"
 - [2:08](https://www.youtube.com/watch?v=WFAZLsUTk20&t=128s) "Because we don't have good capabilities to do the diff within the client itself. You can use this functionality to download it to disk,"
 - [4:00](https://www.youtube.com/watch?v=WFAZLsUTk20&t=240s) "You need to export manually as you have seen me using the download button because we are not exporting the instruction history when you"

@@ -1,16 +1,16 @@
 {
   "video_id": "K0i5rvqPC_o",
   "item_id": "video/yt-microsoft/K0i5rvqPC_o",
-  "summary": "Troubleshooting Business Central agents using the agent task log and the view details page. It covers how an agent decides (instructions, tools, virtual user interface, task messages, step history) and shows a sales order scenario where the agent asks for help because of a risk field.",
+  "summary": "How to troubleshoot Business Central agents with the agent task log and the view details page. It explains how an agent makes decisions (instructions, tools, virtual user interface, task messages, step history). A sales order risk classification agent asks for help because it cannot find a risk field, and the view details sections show that the field is missing and a reason field is not editable, likely because of a profile or per-tenant extension mistake.",
   "overview": "The video explains that an agent makes decisions from its instructions, the tools available to it, a virtual user interface representation of Business Central, task messages and step history. It then uses an agent example in which the agent stops and requests assistance because there is a risk field it is supposed to fill.\n\nThe demo goes from the agents tasks page to the task log and into view details. There the user can see what the agent saw, which tools it had, what data it memorized, which messages it could access, the page stack, and settings such as currency and message formatting. These help work out why an agent made a given decision and how to adjust its instructions.",
   "key_points": [
     "An agent's decision depends on five inputs: instructions, available tools, the virtual user interface representation, task messages and step history.",
     "The agents tasks page gives access to the task log, which lists the steps the agent performed, including assistance requests with a message explaining why help is needed.",
     "In the example, the agent could not proceed because of a risk field it was supposed to fill, and the log made this visible.",
     "View details has a section showing a textual view of what the agent saw: page type, editability, description, actions and fields it can interact with.",
+    "Searching that view showed no risk field and a reason field that was not editable. The likely cause was a mistake in the profile or a field never added through the per-tenant extension.",
     "View details also shows the tools the agent had at a specific point, which helps when designing instructions around available capabilities.",
-    "The memorized data and messages sections show what the agent retained and what messages it could see up to that step.",
-    "The page stack fact box shows which pages were open, and the settings information shows currency and message formatting, useful for output issues."
+    "The memorized data and messages sections show what the agent retained and what messages it could see up to that step."
   ],
   "audience": [
     "functional consultant",

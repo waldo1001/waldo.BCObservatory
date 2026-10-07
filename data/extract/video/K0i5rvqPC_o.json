@@ -269,6 +269,18 @@
       "check": "exact"
     },
     {
+      "t": 245.5,
+      "text": "I can see that I can find the reason field and uh I can see it's also not editable",
+      "why_it_matters": "Shows the second problem found in the agent's view, which also has to be fixed before the agent can continue.",
+      "check": "exact"
+    },
+    {
+      "t": 258,
+      "text": "Most likely I have made a mistake on my profile or I've forgotten to add it to add it via my per tenant extension",
+      "why_it_matters": "Gives the likely root cause of the missing field: the agent's profile or per-tenant extension setup.",
+      "check": "exact"
+    },
+    {
       "t": 278.6,
       "text": "This section uh gives you the ability to see what capabilities the agent could use at a specific point",
       "why_it_matters": "Indicates that tool visibility is crucial for understanding what actions an agent can perform and for designing instructions.",

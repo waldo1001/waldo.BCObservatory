@@ -2,7 +2,7 @@
 id: video/n9HaH2dZUaU
 type: video
 title: "What's New: Cloud for Sovereignty (2026 release wave 1)"
-summary: "Cloud for Sovereignty in Business Central (2026 release wave 1 video): how access controls, environment isolation, encryption, data placement, and audit features protect customer data. Covers RBAC, PIM, GDAP, customer-managed keys, Purview audit, JIT access, and customer lockbox."
+summary: "Business Central 2026 release wave 1 session on Cloud for Sovereignty in the public cloud. It first covers Microsoft's five European digital commitments. It then covers the four functional areas: access controls (RBAC, PIM, conditional access, GDAP), security controls (isolated SQL databases, customer-managed encryption key, service tag), sovereignty controls (environment localization, Azure geo, region and availability zones) and transparency controls (Purview, change log, JIT access, customer lockbox)."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - environmental isolation
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:57.804Z"
   flags: []
 generated:
-  at: "2026-10-06T17:55:56.636Z"
+  at: "2026-10-07T22:49:57.843Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,6 +51,20 @@ evidence:
     commit: null
     t: 237
     quote: Microsoft has made a promise to compensate customers if their data is disclosed within a violation of EU law
+  - kind: video
+    url: https://www.youtube.com/watch?v=n9HaH2dZUaU&t=356s
+    title: "What's New: Cloud for Sovereignty (2026 release wave 1)"
+    date: "2026-04-01T12:00:52.000Z"
+    commit: null
+    t: 356
+    quote: the Cloud for Sovereignty makes up four separate functional areas that help customers protect their environments and their their data.
+  - kind: video
+    url: https://www.youtube.com/watch?v=n9HaH2dZUaU&t=592s
+    title: "What's New: Cloud for Sovereignty (2026 release wave 1)"
+    date: "2026-04-01T12:00:52.000Z"
+    commit: null
+    t: 592
+    quote: make sure you select Dynamics 365 Business Central as target resource for your access policy.
   - kind: video
     url: https://www.youtube.com/watch?v=n9HaH2dZUaU&t=680s
     title: "What's New: Cloud for Sovereignty (2026 release wave 1)"
@@ -182,6 +196,12 @@ quotes:
   - t: 237
     text: Microsoft has made a promise to compensate customers if their data is disclosed within a violation of EU law
     check: exact
+  - t: 356
+    text: the Cloud for Sovereignty makes up four separate functional areas that help customers protect their environments and their their data.
+    check: exact
+  - t: 592
+    text: make sure you select Dynamics 365 Business Central as target resource for your access policy.
+    check: exact
   - t: 680
     text: it also enables the customer to revoke Microsoft's access to this key, uh which immediately makes their data in the Business Central database on
     check: exact
@@ -195,9 +215,9 @@ quotes:
 
 # What's New: Cloud for Sovereignty (2026 release wave 1)
 
-> Cloud for Sovereignty in Business Central (2026 release wave 1 video): how access controls, environment isolation, encryption, data placement, and audit features protect customer data. Covers RBAC, PIM, GDAP, customer-managed keys, Purview audit, JIT access, and customer lockbox.
+> Business Central 2026 release wave 1 session on Cloud for Sovereignty in the public cloud. It first covers Microsoft's five European digital commitments. It then covers the four functional areas: access controls (RBAC, PIM, conditional access, GDAP), security controls (isolated SQL databases, customer-managed encryption key, service tag), sovereignty controls (environment localization, Azure geo, region and availability zones) and transparency controls (Purview, change log, JIT access, customer lockbox).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=n9HaH2dZUaU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 18:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=n9HaH2dZUaU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 18:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,13 +227,13 @@ Access is layered through security groups, Entra ID groups, entitlements and per
 
 ## Key points
 
-- Each Business Central environment runs as its own isolated SQL database, with no data commingling between environments.
-- Environments are encrypted at rest by default with Microsoft-owned keys. Customers can use their own key, rotate it monthly, and revoke Microsoft's access to the data by revoking the key.
-- Access is layered: environment security groups, Entra ID groups, entitlements and permission sets. PIM gives temporary, reviewed elevated access.
+- Business Central runs in the public cloud. Cloud for Sovereignty is about controlling and securing data there, and it is separate from sovereign private cloud and national partner clouds.
+- Microsoft's five European digital commitments: expand datacenter capacity by 40% across 16 European countries; operational and legal resilience under EU law; the completed EU data boundary, with a promise to compensate customers if data is disclosed in violation of EU law; cybersecurity; and economic competitiveness, including switching to another cloud provider without a fee.
+- Cloud for Sovereignty has four functional areas: access controls, security controls, sovereignty controls and transparency controls.
+- Access is layered: environment security groups, Entra ID groups, license entitlements and permission sets. PIM gives temporary, reviewed elevated access to Entra roles or security groups.
+- Conditional access policies in Entra, with Dynamics 365 Business Central as the target resource, can restrict sign-in, for example by IP address or by requiring 2FA.
 - For partner access via GDAP, the Dynamics 365 Business Central administrator role is the recommended least privileged role.
-- The Dynamics 365 Business Central service tag is a group of IP addresses that customers can use in firewall rules to secure integrations.
-- Environment localization sets the Azure geography of the database independent of the tenant home geo. Geography is the legal boundary, region is where the service runs, and availability zones protect against local failures.
-- By default no Microsoft employee has access to customer data. Engineers need approved, time-limited JIT access, and all activity is logged. Customer lockbox adds customer admin approval or rejection.
+- Each Business Central environment runs as its own isolated SQL database, with no data commingling between environments.
 
 ## Chapters
 
@@ -228,26 +248,28 @@ Access is layered through security groups, Entra ID groups, entitlements and per
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Role-Based Access Control (RBAC) | status not stated | [6:18](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=378s) |  |
-| Privileged Identity Management (PIM) | status not stated | [6:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=390s) |  |
-| Granular Delegated Admin Permissions (GDAP) | status not stated | [6:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=390s) |  |
-| Isolated SQL Database per Environment | status not stated | [10:32](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=632s) |  |
-| Encryption at Rest | status not stated | [10:48](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=648s) |  |
-| Dynamics 365 Business Central Service Tag | status not stated | [11:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=690s) |  |
-| Environment Localization and Geographic Data Placement | status not stated | [11:59](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=719s) |  |
-| Azure Region Pairing and Backup | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=804s) |  |
-| Purview Audit and Monitoring | status not stated | [15:06](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=906s) |  |
-| Change Logs and Field Monitoring | status not stated | [15:06](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=906s) |  |
-| Just-In-Time (JIT) Access Controls | status not stated | [16:08](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=968s) |  |
-| Customer Lockbox | status not stated | [17:01](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=1021s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Role-Based Access Control (RBAC) | status not stated | [6:18](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=378s) |
+| Privileged Identity Management (PIM) | status not stated | [6:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=390s) |
+| Granular Delegated Admin Permissions (GDAP) | status not stated | [6:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=390s) |
+| Isolated SQL Database per Environment | status not stated | [10:32](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=632s) |
+| Encryption at Rest | status not stated | [10:48](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=648s) |
+| Dynamics 365 Business Central Service Tag | status not stated | [11:30](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=690s) |
+| Environment Localization and Geographic Data Placement | status not stated | [11:59](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=719s) |
+| Azure Region Pairing and Backup | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=804s) |
+| Purview Audit and Monitoring | status not stated | [15:06](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=906s) |
+| Change Logs and Field Monitoring | status not stated | [15:06](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=906s) |
+| Just-In-Time (JIT) Access Controls | status not stated | [16:08](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=968s) |
+| Customer Lockbox | status not stated | [17:01](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=1021s) |
 
 ## Quotes
 
 - [0:33](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=33s) "Cloud for Sovereignty which is about controlling and securing your data in the public cloud"
 - [1:54](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=114s) "Last year in Europe, Microsoft uh shared a commitment that we want to increase our capacity on data centers with 40% across 16 uh"
 - [3:57](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=237s) "Microsoft has made a promise to compensate customers if their data is disclosed within a violation of EU law"
+- [5:56](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=356s) "the Cloud for Sovereignty makes up four separate functional areas that help customers protect their environments and their their data."
+- [9:52](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=592s) "make sure you select Dynamics 365 Business Central as target resource for your access policy."
 - [11:20](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=680s) "it also enables the customer to revoke Microsoft's access to this key, uh which immediately makes their data in the Business Central database on"
 - [16:08](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=968s) "by default, no Microsoft employee has any access to a customer data"
 - [17:01](https://www.youtube.com/watch?v=n9HaH2dZUaU&t=1021s) "Should a customer wish to be part of this approval flow, we offer a feature called customer lockbox"

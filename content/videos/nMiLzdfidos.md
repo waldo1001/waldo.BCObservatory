@@ -20,12 +20,12 @@ tags:
   - runtime specification
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:50:24.129Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:50:24.187Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,20 @@ evidence:
     t: 63
     quote: the data transfer object has now a new method called add destination table filter. With this method, you can now filter what you want
   - kind: video
+    url: https://www.youtube.com/watch?v=nMiLzdfidos&t=99s
+    title: "What's New: AL Language (2026 release wave 1)"
+    date: "2026-04-01T12:00:49.000Z"
+    commit: null
+    t: 99
+    quote: we also updated the update audit fields method to now be available in cloud.
+  - kind: video
+    url: https://www.youtube.com/watch?v=nMiLzdfidos&t=118s
+    title: "What's New: AL Language (2026 release wave 1)"
+    date: "2026-04-01T12:00:49.000Z"
+    commit: null
+    t: 118
+    quote: Another new language addition is the ability to define and include analysis views in your extension.
+  - kind: video
     url: https://www.youtube.com/watch?v=nMiLzdfidos&t=167s
     title: "What's New: AL Language (2026 release wave 1)"
     date: "2026-04-01T12:00:49.000Z"
@@ -67,6 +81,13 @@ evidence:
     commit: null
     t: 373
     quote: Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it
+  - kind: video
+    url: https://www.youtube.com/watch?v=nMiLzdfidos&t=442s
+    title: "What's New: AL Language (2026 release wave 1)"
+    date: "2026-04-01T12:00:49.000Z"
+    commit: null
+    t: 442
+    quote: you can completely disable the Microsoft feeds by using the use only custom feeds setting.
   - kind: video
     url: https://www.youtube.com/watch?v=nMiLzdfidos&t=823s
     title: "What's New: AL Language (2026 release wave 1)"
@@ -284,29 +305,9 @@ features:
     t: 808
     verified: false
     status_source: video
-  - name: Parallel workspace compilation
-    status: unclear
-    t: 834
-    verified: false
-    status_source: video
   - name: AL Go hardware utilization
     status: unclear
     t: 910
-    verified: false
-    status_source: video
-  - name: AI-assisted code generation with AL constraints
-    status: unclear
-    t: 1034
-    verified: false
-    status_source: video
-  - name: Iterative prototyping with AI
-    status: unclear
-    t: 1068
-    verified: false
-    status_source: video
-  - name: AI agent feedback loop with success criteria
-    status: unclear
-    t: 1109
     verified: false
     status_source: video
   - name: AL tools for GitHub Copilot in VS Code
@@ -372,11 +373,20 @@ quotes:
   - t: 63
     text: the data transfer object has now a new method called add destination table filter. With this method, you can now filter what you want
     check: exact
+  - t: 99
+    text: we also updated the update audit fields method to now be available in cloud.
+    check: exact
+  - t: 118
+    text: Another new language addition is the ability to define and include analysis views in your extension.
+    check: exact
   - t: 167
     text: we have made the code action for adding namespaces automatically even smarter. It now uses a three-tier resolution strategy.
     check: exact
   - t: 373
     text: Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it
+    check: exact
+  - t: 442
+    text: you can completely disable the Microsoft feeds by using the use only custom feeds setting.
     check: exact
   - t: 823
     text: the props file to also specify the runtime and you can see here it correctly added the runtime 16 to the manifest.
@@ -426,7 +436,7 @@ quotes:
 
 > AL Language changes in 2026 release wave 1: JSON and data transfer additions, namespace adoption and fully qualified names, symbol download from public NuGet feeds, parallel workspace compilation, and AL tools, AL MCP server and a troubleshooting MCP server for AI-assisted development and debugging.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nMiLzdfidos) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 35:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=nMiLzdfidos) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 35:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -437,12 +447,12 @@ The tooling section covers downloading symbols from global sources, workspace cr
 ## Key points
 
 - Select token now accepts multiple tokens in one call; data transfer adds an add destination table filter method, and update audit fields is available in cloud.
-- Automated namespace adoption resolves in three tiers: namespace template in settings.json, sibling file inference by longest common prefix, then publisher.projectname.
+- Analysis views can now be defined in extensions and shipped with pages in applications.
+- Automated namespace adoption resolves in three tiers: namespace template in settings.json, sibling file inference by longest common prefix, then publisher.projectname. Run, RunModal-style and Execute overloads and RecordRef.Open accept fully qualified names.
 - The download symbols from global sources command pulls platform, application and dependency packages from public Microsoft NuGet feeds without authentication; it needs an internet connection.
-- Custom feeds can be set with AL.NuGetFeeds and take priority over Microsoft feeds; Microsoft feeds can be disabled entirely.
-- Workspace compile builds a dependency-based graph and runs in parallel; on GitHub runners the demo went from 50 minutes with one process to 26 minutes with four.
-- AL Go users get the parallel compilation benefit automatically; the is simple only command is used in AL Go for GitHub pipelines.
-- AL MCP server was pre-release at recording; the troubleshooting MCP server runs in an NST and works only at a breakpoint.
+- Custom feeds can be set with AL.NuGetFeeds and take priority over Microsoft feeds; Microsoft feeds can be disabled entirely with the use only custom feeds setting.
+- New AL tool commands include workspace create, map (mermaid markdown), workspace compile with a dependency-based parallel graph, and is simple only; runtime can now be set in directory app.props.json.
+- Preliminary measurements on the BC apps repo: baseline just under 2 hours, down to 26 minutes with four processes on a standard GitHub runner (about 75 percent reduction); AL Go for GitHub users get this automatically.
 
 ## Chapters
 
@@ -479,11 +489,7 @@ The tooling section covers downloading symbols from global sources, workspace cr
 | Workspace compile with parallel builds | status not stated, demoed | [11:19](https://www.youtube.com/watch?v=nMiLzdfidos&t=679s) |  |
 | Simple only detection command | status not stated, demoed | [12:33](https://www.youtube.com/watch?v=nMiLzdfidos&t=753s) |  |
 | Runtime specification in directory app.props.json | status not stated, demoed | [13:28](https://www.youtube.com/watch?v=nMiLzdfidos&t=808s) |  |
-| Parallel workspace compilation | status not stated, demoed | [13:54](https://www.youtube.com/watch?v=nMiLzdfidos&t=834s) |  |
 | AL Go hardware utilization | status not stated | [15:10](https://www.youtube.com/watch?v=nMiLzdfidos&t=910s) |  |
-| AI-assisted code generation with AL constraints | status not stated | [17:14](https://www.youtube.com/watch?v=nMiLzdfidos&t=1034s) |  |
-| Iterative prototyping with AI | status not stated | [17:48](https://www.youtube.com/watch?v=nMiLzdfidos&t=1068s) |  |
-| AI agent feedback loop with success criteria | status not stated | [18:29](https://www.youtube.com/watch?v=nMiLzdfidos&t=1109s) |  |
 | AL tools for GitHub Copilot in VS Code | status not stated, demoed | [20:00](https://www.youtube.com/watch?v=nMiLzdfidos&t=1200s) |  |
 | Automatic diagnostic fixing with Copilot | status not stated, demoed | [20:57](https://www.youtube.com/watch?v=nMiLzdfidos&t=1257s) |  |
 | AL MCP server for non-VS Code agents | status not stated, demoed | [22:32](https://www.youtube.com/watch?v=nMiLzdfidos&t=1352s) |  |
@@ -515,8 +521,11 @@ Not found in BC28-30: table "item table", codeunit "code unit".
 
 - [0:36](https://www.youtube.com/watch?v=nMiLzdfidos&t=36s) "We've now added the ability for you to select multiple tokens in the select token method."
 - [1:03](https://www.youtube.com/watch?v=nMiLzdfidos&t=63s) "the data transfer object has now a new method called add destination table filter. With this method, you can now filter what you want"
+- [1:39](https://www.youtube.com/watch?v=nMiLzdfidos&t=99s) "we also updated the update audit fields method to now be available in cloud."
+- [1:58](https://www.youtube.com/watch?v=nMiLzdfidos&t=118s) "Another new language addition is the ability to define and include analysis views in your extension."
 - [2:47](https://www.youtube.com/watch?v=nMiLzdfidos&t=167s) "we have made the code action for adding namespaces automatically even smarter. It now uses a three-tier resolution strategy."
 - [6:13](https://www.youtube.com/watch?v=nMiLzdfidos&t=373s) "Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it"
+- [7:22](https://www.youtube.com/watch?v=nMiLzdfidos&t=442s) "you can completely disable the Microsoft feeds by using the use only custom feeds setting."
 - [13:43](https://www.youtube.com/watch?v=nMiLzdfidos&t=823s) "the props file to also specify the runtime and you can see here it correctly added the runtime 16 to the manifest."
 - [14:21](https://www.youtube.com/watch?v=nMiLzdfidos&t=861s) "if I use four, which is the maximum that you can use in a GitHub runner, standard GitHub runner, it gets down to 26"
 - [15:34](https://www.youtube.com/watch?v=nMiLzdfidos&t=934s) "I would say it is about the changing mindset. So, what I do nowadays is I I simply spend less time writing low-level syntax"

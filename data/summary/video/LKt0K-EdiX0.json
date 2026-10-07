@@ -4,13 +4,13 @@
   "summary": "Bonus depreciation in Business Central Fixed Assets (2026 release wave 1): a new accelerated depreciation method in the global base app, with setup fields, a per-asset toggle, and extra reporting fields on FA Depreciation Books. The video demos setup, calculation with and without bonus, and ledger entries.",
   "overview": "The video covers the new bonus depreciation method in Fixed Assets. It lets a business deduct a set percentage of an asset's cost in the first year of service, with the remainder following regular depreciation rules. The method is in the global base app. Its name differs by country, for example investment bonus depreciation in Australia and New Zealand and 168K depreciation in the United States.\n\nThe demo walks through the Fixed Asset Setup page, asset eligibility, running depreciation calculation with and without bonus, and the resulting ledger entries and reporting. It also shows new reporting fields on FA Depreciation Books.",
   "key_points": [
-    "Bonus depreciation is a new depreciation method in the global base app, aimed at compliance and more accurate tax planning for global customers.",
+    "Bonus depreciation is a new depreciation method in the global (W1) base app, aimed at compliance, more accurate tax planning and fewer custom extensions. Local names include additional first year depreciation, investment bonus depreciation and 168K depreciation.",
+    "It works with all the other depreciation methods. The first depreciation after acquisition is the bonus depreciation, then the normal method continues.",
     "Fixed Asset Setup has two new fields: a bonus depreciation percentage and an effective date. Assets placed in service after that date are eligible.",
-    "The percentage in setup is the maximum defined by law, typically communicated by the government. A lower percentage can be used.",
-    "Eligibility is driven by the asset's depreciation starting date. The toggle on the fixed asset depreciation book is set to true when that date is later than the setup effective date.",
-    "The toggle can be changed manually per asset to opt in or out, regardless of setup.",
-    "Several new reporting fields on the FA Depreciation Books page are hidden by default. Personalize the page to show them and export to Excel for reporting.",
-    "The percentage and eligibility follow local tax law, so check the rules for your country."
+    "The setup percentage is the maximum defined by law, typically communicated to the accountant by the government. A lower percentage can be given.",
+    "Eligibility is driven by the asset's depreciation starting date. The bonus depreciation toggle is set to true when that date is later than the setup effective date, and it can be turned on or off per fixed asset depreciation book.",
+    "The fixed asset card shows new fields: acquisition cost, bonus depreciation applied and the toggle.",
+    "In the demo, Calculate Depreciation with bonus on created an extra journal line for 20% of the 8,000 acquisition cost, and the first regular depreciation came out lower. Posting creates separate ledger entries for the bonus and the normal depreciation."
   ],
   "audience": [
     "functional consultant",

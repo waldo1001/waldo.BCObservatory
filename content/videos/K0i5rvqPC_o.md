@@ -2,7 +2,7 @@
 id: video/K0i5rvqPC_o
 type: video
 title: "What's New: Troubleshooting Business Central Agents"
-summary: Troubleshooting Business Central agents using the agent task log and the view details page. It covers how an agent decides (instructions, tools, virtual user interface, task messages, step history) and shows a sales order scenario where the agent asks for help because of a risk field.
+summary: How to troubleshoot Business Central agents with the agent task log and the view details page. It explains how an agent makes decisions (instructions, tools, virtual user interface, task messages, step history). A sales order risk classification agent asks for help because it cannot find a risk field, and the view details sections show that the field is missing and a reason field is not editable, likely because of a profile or per-tenant extension mistake.
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - assistance requests
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:51:06.969Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:51:07.007Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,20 @@ evidence:
     commit: null
     t: 190
     quote: I see a textual view of what the agent sees as well. So, uh I can understand exactly what things it can take into
+  - kind: video
+    url: https://www.youtube.com/watch?v=K0i5rvqPC_o&t=245s
+    title: "What's New: Troubleshooting Business Central Agents"
+    date: "2026-02-27T15:13:05.000Z"
+    commit: null
+    t: 245
+    quote: I can see that I can find the reason field and uh I can see it's also not editable
+  - kind: video
+    url: https://www.youtube.com/watch?v=K0i5rvqPC_o&t=258s
+    title: "What's New: Troubleshooting Business Central Agents"
+    date: "2026-02-27T15:13:05.000Z"
+    commit: null
+    t: 258
+    quote: Most likely I have made a mistake on my profile or I've forgotten to add it to add it via my per tenant extension
   - kind: video
     url: https://www.youtube.com/watch?v=K0i5rvqPC_o&t=278s
     title: "What's New: Troubleshooting Business Central Agents"
@@ -180,6 +194,12 @@ quotes:
   - t: 190
     text: I see a textual view of what the agent sees as well. So, uh I can understand exactly what things it can take into
     check: exact
+  - t: 245
+    text: I can see that I can find the reason field and uh I can see it's also not editable
+    check: exact
+  - t: 258
+    text: Most likely I have made a mistake on my profile or I've forgotten to add it to add it via my per tenant extension
+    check: exact
   - t: 278
     text: This section uh gives you the ability to see what capabilities the agent could use at a specific point
     check: exact
@@ -190,9 +210,9 @@ quotes:
 
 # What's New: Troubleshooting Business Central Agents
 
-> Troubleshooting Business Central agents using the agent task log and the view details page. It covers how an agent decides (instructions, tools, virtual user interface, task messages, step history) and shows a sales order scenario where the agent asks for help because of a risk field.
+> How to troubleshoot Business Central agents with the agent task log and the view details page. It explains how an agent makes decisions (instructions, tools, virtual user interface, task messages, step history). A sales order risk classification agent asks for help because it cannot find a risk field, and the view details sections show that the field is missing and a reason field is not editable, likely because of a profile or per-tenant extension mistake.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=K0i5rvqPC_o) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 6:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=K0i5rvqPC_o) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-02-27 · 6:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -206,9 +226,9 @@ The demo goes from the agents tasks page to the task log and into view details. 
 - The agents tasks page gives access to the task log, which lists the steps the agent performed, including assistance requests with a message explaining why help is needed.
 - In the example, the agent could not proceed because of a risk field it was supposed to fill, and the log made this visible.
 - View details has a section showing a textual view of what the agent saw: page type, editability, description, actions and fields it can interact with.
+- Searching that view showed no risk field and a reason field that was not editable. The likely cause was a mistake in the profile or a field never added through the per-tenant extension.
 - View details also shows the tools the agent had at a specific point, which helps when designing instructions around available capabilities.
 - The memorized data and messages sections show what the agent retained and what messages it could see up to that step.
-- The page stack fact box shows which pages were open, and the settings information shows currency and message formatting, useful for output issues.
 
 ## Chapters
 
@@ -222,17 +242,17 @@ The demo goes from the agents tasks page to the task log and into view details. 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent decision-making framework | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=17s) |  |
-| Agent task logging and view log entries | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=136s) |  |
-| Agent view details page | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=165s) |  |
-| What the agent saw section | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=190s) |  |
-| What tools the agent had access to | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=268s) |  |
-| What data the agent memorized section | status not stated, demoed | [4:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=292s) |  |
-| What messages the agent had access to section | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=318s) |  |
-| Page stack fact box | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=339s) |  |
-| Agent settings and formatting | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=352s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent decision-making framework | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=17s) |
+| Agent task logging and view log entries | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=136s) |
+| Agent view details page | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=165s) |
+| What the agent saw section | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=190s) |
+| What tools the agent had access to | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=268s) |
+| What data the agent memorized section | status not stated, demoed | [4:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=292s) |
+| What messages the agent had access to section | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=318s) |
+| Page stack fact box | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=339s) |
+| Agent settings and formatting | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=352s) |
 
 ## AL objects mentioned
 
@@ -251,5 +271,7 @@ Not found in BC28-30: page "agents tasks page", page "sales order page", page "s
 - [2:02](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=122s) "the agent is telling me it can't proceed with the task because there is a risk field that is it is supposed to fill"
 - [2:45](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=165s) "If I click on view details uh I get uh a lot of insight into what exactly went into the decision of the agent"
 - [3:10](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=190s) "I see a textual view of what the agent sees as well. So, uh I can understand exactly what things it can take into"
+- [4:05](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=245s) "I can see that I can find the reason field and uh I can see it's also not editable"
+- [4:18](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=258s) "Most likely I have made a mistake on my profile or I've forgotten to add it to add it via my per tenant extension"
 - [4:38](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=278s) "This section uh gives you the ability to see what capabilities the agent could use at a specific point"
 - [6:03](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=363s) "we can answer what was on a page, what the properties of the elements were on this page"
