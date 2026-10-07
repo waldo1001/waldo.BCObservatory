@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9865",
+  "number": 9865,
+  "title": "[Main] - 'Greater Than' Withholding Tax Calculation Rule is not app…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The withholding tax calculation now respects the configured calculation rule (Less than, Greater than, Equal to, etc.) instead of hard-coding comparisons, fixing incorrect withholding tax creation or suppression across different rule types.",
+  "key_points": [
+    "Multiple threshold checks hard-coded 'Less than' comparisons regardless of the configured calculation rule setting",
+    "Added reusable IsWithholdingTaxApplicable procedure in Withholding Tax Mgmt to make all rule-aware decisions consistent",
+    "Two sites previously used signed amount comparisons; now all sites evaluate absolute amounts to match intended behavior",
+    "Negative vendor invoice amounts are no longer unconditionally treated as below minimum",
+    "Comprehensive test coverage for Greater than rule, negative amounts, and Less than rule across invoice and credit memo paths"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004667,
+    "changes_in_call": 1
+  }
+}

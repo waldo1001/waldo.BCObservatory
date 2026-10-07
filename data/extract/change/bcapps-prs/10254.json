@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10254",
+  "number": 10254,
+  "title": "Fix 644744: Undo subcontracting receipt keys Item Entry Relation with Capacity Ledger Entry No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Subcontracting purchase receipt undo now uses the correct Output Item Ledger Entry instead of the Capacity Ledger Entry No. when recording item entry relations, preventing data corruption and duplicate key errors for tracked items.",
+  "key_points": [
+    "Undo of tracked subcontracting receipts now keys item entry relations from the actual posted Output Item Ledger Entry, not the capacity entry number",
+    "Fixes silent corruption and duplicate key errors in Item Entry Relation table for multi-output or tracked subcontracting undo",
+    "Normal items and single-line capacity-only undo paths remain unaffected",
+    "New tests verify the fix handles tracked undo correctly and guards against non-last-operation scenarios",
+    "Previously disabled test for undo with lot tracking re-enabled"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004168,
+    "changes_in_call": 1
+  }
+}

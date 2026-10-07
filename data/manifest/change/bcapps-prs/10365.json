@@ -6,7 +6,7 @@
   "title": "Add activity lifecycle E2E test fixture",
   "url": "https://github.com/microsoft/BCApps/pull/10365",
   "published_at": "2026-08-19T12:46:04Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "add activity lifecycle e2e test fixture"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:09:14.153Z",
+  "retry_after": null
 }

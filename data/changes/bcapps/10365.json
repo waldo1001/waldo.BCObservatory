@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10365,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10365",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T12:46:04Z",
+  "merge_commit_sha": "8059bb9d4097e38a6096b44bf62e65e304d5bab5",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Add activity lifecycle E2E test fixture",
+  "body_hash": "b56798a7637aa5e216141322d74ee8941ed58eac042855521f9968cd3c4f38b5",
+  "fixes_issues": [],
+  "work_items": [
+    646914
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 56,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

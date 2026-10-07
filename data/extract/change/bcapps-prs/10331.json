@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10331",
+  "number": 10331,
+  "title": "[Master]-Missing VAT Identifier in Peppol XML for Zero-Value Invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The PEPPOL XML generation now includes the VAT identifier even for invoices with zero values, fixing a compliance issue with Peppol standards.",
+  "key_points": [
+    "VAT Identifier is now included in PEPPOL XML output for zero-value invoices",
+    "Modifications made to the PEPPOL30 implementation codeunit",
+    "New test cases added to verify VAT identifier presence in billing documents",
+    "Addresses a missing field in XML generation that is required by Peppol specifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003332,
+    "changes_in_call": 1
+  }
+}

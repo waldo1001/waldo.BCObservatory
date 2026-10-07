@@ -6,10 +6,35 @@
   "title": "[Shopify] Don't block Shops page when user lacks extension permissions",
   "url": "https://github.com/microsoft/BCApps/pull/10034",
   "published_at": "2026-08-19T13:13:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:13.153Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:22.079Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003763
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:22.323Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:22.328Z",
+      "path": "content/changes/bcapps/10034.md"
     }
   },
   "input_hash": "a4f9b017b24bd3c486e43e8f8a0fba23cb50f242:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify don t block shops page when user lacks extension permissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5851c582dd31be26af6a9b600ef72509fbab57215bfbe9b8ace5b59f9a87d3b3"
 }

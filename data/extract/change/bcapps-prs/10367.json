@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10367",
+  "number": 10367,
+  "title": "[Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Two searchable fields in Quality Management's Inspection Header table now use optimized text search to improve performance on large datasets.",
+  "key_points": [
+    "Added OptimizeForTextSearch property to Description and Source Task No. fields",
+    "Enables optimized SQL search path instead of unindexed LIKE scans",
+    "Improves list-page search performance",
+    "Aligns Source Task No. with sibling source-identity fields",
+    "Metadata-only change with no behavior or data impact"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003632,
+    "changes_in_call": 1
+  }
+}

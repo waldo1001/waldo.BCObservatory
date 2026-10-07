@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10008",
+  "number": 10008,
+  "title": "[MCP] Add codeunit APIs as MCP tools in MCP configuration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "Codeunit APIs are now integrated into MCP configuration as a new object type alongside API pages and queries, with unified selection UI and metadata sourced from the Api Web Service table.",
+  "key_points": [
+    "Codeunits added as an object type in MCP configuration with parity to API pages and queries",
+    "All API metadata now unified in Api Web Service table instead of separate lookups",
+    "API Overview page redesigned to list pages, queries, and codeunits from single source",
+    "Permission model changed from 'Allow Bound Actions' to 'Allow Actions' for codeunit tool invocation",
+    "V1 APIs and Base Application beta queries excluded from MCP selection"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Adds Codeunit as a new object type in the MCP configuration UI, at parity with API pages and queries",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005273,
+    "changes_in_call": 1
+  }
+}

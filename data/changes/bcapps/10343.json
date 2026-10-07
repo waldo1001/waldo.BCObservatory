@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10343,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10343",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T14:53:12Z",
+  "merge_commit_sha": "f4936378d7c247e8f8c47c30ad87f320207c9cde",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet",
+  "body_hash": "eeeaddb4de7d09dc2a46638b4157a40d153bf4f4470e66975360dd28df608f35",
+  "fixes_issues": [],
+  "work_items": [
+    641241
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Journal/SubcontractingWorksheet.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/SubcontractingWorksheet.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetupNotif.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 84,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Journal/SubcontractingWorksheet.Page.al",
+        "status": "modified",
+        "key": "page/99000886",
+        "type": "page",
+        "id": 99000886,
+        "name": "Subcontracting Worksheet",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000886"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/SubcontractingWorksheet.Page.al",
+        "status": "modified",
+        "key": "page/99000886",
+        "type": "page",
+        "id": 99000886,
+        "name": "Subcontracting Worksheet",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000886"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetupNotif.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000779",
+        "type": "codeunit",
+        "id": 99000779,
+        "name": "Manufacturing Setup Notif.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000779"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

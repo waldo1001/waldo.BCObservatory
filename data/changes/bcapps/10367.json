@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10367,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10367",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T20:12:36Z",
+  "merge_commit_sha": "de075302bfd10174bc8ec737e406112dbe546704",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)",
+  "body_hash": "36212dc31d65202fc192b55d8866f4dfac3b9795cb21cc544e7a96e441bf03fb",
+  "fixes_issues": [],
+  "work_items": [
+    620381
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

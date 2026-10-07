@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10251",
+  "number": 10251,
+  "title": "Ruleset hardening: promote 5 rules from Warning to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "crm",
+    "development"
+  ],
+  "summary": "Five AL analysis rules were promoted from Warning to Error severity in the ruleset by removing their overrides and resolving all violations. The fixes included adding missing codeunit to a permission set, removing an invalid hidden group on a page, and documenting suppressions for published events and test library assertions.",
+  "key_points": [
+    "Promotes five rules (AL0547, AL0679, AW0014, AS0058, PTE0007) from Warning to Error",
+    "Resolves all violations for promoted rules through code fixes or pragma suppressions",
+    "Adds missing Email Logging Install codeunit to Email Logging permission set",
+    "Removes hidden F&unctions group causing unreachable action on Account Schedule Names page",
+    "Defers remediation for seven other rules requiring broader changes or domain input"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005216,
+    "changes_in_call": 1
+  }
+}

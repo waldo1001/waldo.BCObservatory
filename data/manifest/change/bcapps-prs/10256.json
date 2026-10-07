@@ -6,10 +6,18 @@
   "title": "[Shopify] Fix customer matching when phone numbers contain spaces",
   "url": "https://github.com/microsoft/BCApps/pull/10256",
   "published_at": "2026-08-19T10:59:07Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:18.019Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "a7478057a83c5e7be5c4ad640e9c5864b2095ce5:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix customer matching when phone numbers contain spaces"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "516f489f0e1cb0211c8d46295889c4abc07a630765021542991db9c2dfc6a0e0"
 }

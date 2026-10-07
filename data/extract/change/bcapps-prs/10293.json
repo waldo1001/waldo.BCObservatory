@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10293",
+  "number": 10293,
+  "title": "[Master] - Bug 641309: [Sustainability][Value Chain] Item Reclassification (location move) uses average emissions instead of Specific carbon tracking (lot/serial)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Item reclassifications now track specific carbon emissions (by lot/serial) instead of using average emissions, and Carbon Tracking Method validation is enforced in all contexts including non-UI operations.",
+  "key_points": [
+    "Carbon Tracking Method validation now blocks as an error instead of just warning when item lacks serial/lot tracking",
+    "Validation fires in both UI and non-UI contexts, removing GuiAllowed() guard",
+    "Sales after location transfers now resolve CO2e from transfer-out counterparts when no sustainability value entry exists for the transfer-in",
+    "Reclassification transfers properly maintain lot/serial-specific carbon tracking through subsequent sales"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "inventory"
+  ],
+  "quote": "Sales after reclassification uses average CO2e instead of specific lot CO2e",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003876,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[MCP] Add codeunit APIs as MCP tools in MCP configuration",
   "url": "https://github.com/microsoft/BCApps/pull/10008",
   "published_at": "2026-08-20T02:58:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:05.993Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:11.959Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005273
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:12.132Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:12.139Z",
+      "path": "content/changes/bcapps/10008.md"
     }
   },
   "input_hash": "6670f6a16f9df987e16b6c6af4b7f34af14a3094:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp add codeunit apis as mcp tools in mcp configuration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7384fb55979b6b7b0b60bbab4228704a05f0ed7b44f0c9ee3fca27940d3c3167"
 }

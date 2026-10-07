@@ -1,0 +1,129 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10051,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10051",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T10:31:25Z",
+  "merge_commit_sha": "8461e7f56d15586dd57a0c0bbd34e97cbff05e9e",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers",
+  "body_hash": "4b5c9260d499324fcbc8d1045fb87a04eef960b2d08d12250f51bc4313515e24",
+  "fixes_issues": [],
+  "work_items": [
+    642053
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustPreviewPostInstance.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustPreviewPostingHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustGeneralJournalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 209,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustPreviewTestSubscriber.Codeunit.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustValueChainFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 116,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityPostingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 253,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 639,
+    "deletions": 6,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustPreviewPostInstance.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6233",
+        "type": "codeunit",
+        "id": 6233,
+        "name": "Sust. Preview Post Instance",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6233"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustPreviewPostingHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6228",
+        "type": "codeunit",
+        "id": 6228,
+        "name": "Sust. Preview Posting Handler",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6228"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Posting/SustainabilityPostMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6212",
+        "type": "codeunit",
+        "id": 6212,
+        "name": "Sustainability Post Mgt",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6212"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability",
+    "development"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

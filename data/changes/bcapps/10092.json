@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10092,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10092",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T13:13:00Z",
+  "merge_commit_sha": "7ab5ae2f35fad8d93920f0b48c1bfb84f6bf5b78",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Add cues for Skipped Records and API Errors on Activities page",
+  "body_hash": "b5c7991134f0be31fc36f5d426820ec38537f778e6f0f77c34f1deec32c2e6c2",
+  "fixes_issues": [],
+  "work_items": [
+    646260
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyActivities.Page.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Tables/ShpfyCue.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 50,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyActivities.Page.al",
+        "status": "modified",
+        "key": "page/30100",
+        "type": "page",
+        "id": 30100,
+        "name": "Shpfy Activities",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30100"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Tables/ShpfyCue.Table.al",
+        "status": "modified",
+        "key": "table/30100",
+        "type": "table",
+        "id": 30100,
+        "name": "Shpfy Cue",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30100"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

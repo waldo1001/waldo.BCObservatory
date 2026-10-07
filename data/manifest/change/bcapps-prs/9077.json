@@ -6,10 +6,35 @@
   "title": "[Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit",
   "url": "https://github.com/microsoft/BCApps/pull/9077",
   "published_at": "2026-08-19T20:07:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:06.954Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:11.781Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003238
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:11.943Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:11.949Z",
+      "path": "content/changes/bcapps/9077.md"
     }
   },
   "input_hash": "f65937f59cf292e093cdd84c5f88518be38faec1:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management bug 620326 reset ischangingstatus on handled reopen finish early exit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d626b371af105ecc54702efbd1f6e41908f9d64cb4079d6f08bb15f78712d4ad"
 }

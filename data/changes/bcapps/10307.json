@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10307,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10307",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T10:53:53Z",
+  "merge_commit_sha": "1c10bca2bc4236d88a1258ce308c5c170a804865",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice",
+  "body_hash": "61418717e7b067df92d3a736a2e20da2541b874da0513106265656642a387d58",
+  "fixes_issues": [],
+  "work_items": [
+    647019
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrderTotalsFactBox.Page.al",
+      "status": "modified",
+      "additions": 166,
+      "deletions": 28,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Handling/ShpfyOrderTotalsFBTest.Codeunit.al",
+      "status": "added",
+      "additions": 461,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 627,
+    "deletions": 28,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrderTotalsFactBox.Page.al",
+        "status": "modified",
+        "key": "page/30172",
+        "type": "page",
+        "id": 30172,
+        "name": "Shpfy Order Totals FactBox",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30172"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

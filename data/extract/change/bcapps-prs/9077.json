@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9077",
+  "number": 9077,
+  "title": "[Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag when a subscriber handles the OnBefore events, preventing improper modifications to completed inspections.",
+  "key_points": [
+    "IsChangingStatus flag was stuck true when OnBefore event handlers set IsHandled=true",
+    "This caused TestStatusOpen validation to be skipped on later modifications",
+    "Flag is now reset before early exit when event is handled",
+    "Adds manual subscriber test to verify the fix",
+    "Prevents unwanted state changes to finished inspections"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Reset the flag before the handled exit.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003238,
+    "changes_in_call": 1
+  }
+}

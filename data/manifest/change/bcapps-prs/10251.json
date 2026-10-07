@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote 5 rules from Warning to Error",
   "url": "https://github.com/microsoft/BCApps/pull/10251",
   "published_at": "2026-08-19T14:03:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:12.385Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 6,
+      "objects": 4,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:18.195Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005216
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:18.398Z",
+      "objects": 4,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:22.074Z",
+      "path": "content/changes/bcapps/10251.md"
     }
   },
   "input_hash": "c562b44f0e08e7e7f79f1d3a187cda64338a7bbe:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote 5 rules from warning to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12684d63fb77b7f12d0c294bca68083ac51cabc5c3ff631c0c5a072d978c1846"
 }

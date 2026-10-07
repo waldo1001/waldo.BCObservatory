@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet",
   "url": "https://github.com/microsoft/BCApps/pull/10343",
   "published_at": "2026-08-19T14:53:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:11.656Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:16.896Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004051
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:17.048Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:17.053Z",
+      "path": "content/changes/bcapps/10343.md"
     }
   },
   "input_hash": "f4936378d7c247e8f8c47c30ad87f320207c9cde:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 641241 notify to install subcontracting app in subcontracting worksheet"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5367181c4a5665626b77ed7882011003046193e83cf56132847f59c95c3fc713"
 }

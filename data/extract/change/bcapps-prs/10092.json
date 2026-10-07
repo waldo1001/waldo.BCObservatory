@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10092",
+  "number": 10092,
+  "title": "[Shopify] Add cues for Skipped Records and API Errors on Activities page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Two new cues on the Shopify Activities page display counts of skipped sync records and API errors, making background job issues visible without manually opening logs.",
+  "key_points": [
+    "Added Skipped Records cue that counts records from background Shopify syncs and drills down to details",
+    "Added API Errors cue showing count of logged errors with red styling and drill-down to error logs",
+    "Both cues use FlowFields on the Shpfy Cue table for calculation",
+    "Addresses visibility gap where background job issues were invisible due to GuiAllowed restrictions",
+    "No breaking changes, purely additive cues following existing Shopify Activities patterns"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003893,
+    "changes_in_call": 1
+  }
+}

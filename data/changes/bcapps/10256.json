@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10256,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10256",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T10:59:07Z",
+  "merge_commit_sha": "a7478057a83c5e7be5c4ad640e9c5864b2095ce5",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix customer matching when phone numbers contain spaces",
+  "body_hash": "1bcc591e5bae382b951e38add0c5c1c627f3208a6ec5239269c3b1c068fafd4f",
+  "fixes_issues": [],
+  "work_items": [
+    646794
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/.resources/graphql/Customers/FindCustomerIdByEMail.graphql",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/.resources/graphql/Customers/FindCustomerIdByPhone.graphql",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Customers/Codeunits/ShpfyCustomerAPI.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Customers/ShpfyCustomerAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 155,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 188,
+    "deletions": 9,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Customers/Codeunits/ShpfyCustomerAPI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30114",
+        "type": "codeunit",
+        "id": 30114,
+        "name": "Shpfy Customer API",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30114"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

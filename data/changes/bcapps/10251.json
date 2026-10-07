@@ -1,0 +1,245 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10251,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10251",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T14:03:56Z",
+  "merge_commit_sha": "c562b44f0e08e7e7f79f1d3a187cda64338a7bbe",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote 5 rules from Warning to Error",
+  "body_hash": "07567f34ca280ca953c8f0124f63d597c412323a81cf8a38ff5f9133b6179d42",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EmailLogging/app/src/permissions/EmailLoggingObj.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/eServices/EDocument/IncomingDocument.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccountScheduleNames.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/TestLibraries/NLXMLReadHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/Tests/TestLibraries/NOXMLReadHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookNotification.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocument.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocuments.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryAssembly.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryCRMIntegration.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryJobQueue.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryPermissionsVerify.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryPostPrevHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXMLRead.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXMLReadOnServer.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryXPathXMLReader.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/TestProxyNotificationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/SnapTestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/TestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 28,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 20,
+    "additions": 72,
+    "deletions": 29,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EmailLogging/app/src/permissions/EmailLoggingObj.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/1680",
+        "type": "permissionset",
+        "id": 1680,
+        "name": "Email Logging - Obj.",
+        "app": "EmailLogging",
+        "cc": "w1",
+        "page": "permissionset/1680"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookNotification.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1545",
+        "type": "codeunit",
+        "id": 1545,
+        "name": "Workflow Webhook Notification",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1545"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocument.Page.al",
+        "status": "modified",
+        "key": "page/189",
+        "type": "page",
+        "id": 189,
+        "name": "Incoming Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/189"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocuments.Page.al",
+        "status": "modified",
+        "key": "page/190",
+        "type": "page",
+        "id": 190,
+        "name": "Incoming Documents",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/190"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/eServices/EDocument/IncomingDocument.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/FinancialReports/AccountScheduleNames.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration",
+    "crm",
+    "development"
+  ],
+  "apps": [
+    "Base Application",
+    "EmailLogging"
+  ]
+}

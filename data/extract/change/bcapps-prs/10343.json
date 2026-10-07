@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10343",
+  "number": 10343,
+  "title": "[Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "development"
+  ],
+  "summary": "A notification now prompts users on SaaS to install the Subcontracting app when they access the obsolete Subcontracting Worksheet page, with options to install or dismiss the message.",
+  "key_points": [
+    "SaaS-only notification guides users to install the Subcontracting replacement app",
+    "Appears when opening the obsolete Subcontracting Worksheet page if the app is not already installed",
+    "Notification respects user preferences through the My Notifications framework",
+    "Logic implemented in Manufacturing Setup Notif codeunit, called from page OnOpenPage event",
+    "All new code is wrapped in conditional compilation for the obsolete page's lifecycle"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004051,
+    "changes_in_call": 1
+  }
+}

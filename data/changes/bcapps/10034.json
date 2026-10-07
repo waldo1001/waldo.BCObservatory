@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10034,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10034",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T13:13:00Z",
+  "merge_commit_sha": "a4f9b017b24bd3c486e43e8f8a0fba23cb50f242",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Don't block Shops page when user lacks extension permissions",
+  "body_hash": "78c566127a7037fab640189f2aa6e0e51e5597db63c3e19c5903ffbd589d1886",
+  "fixes_issues": [],
+  "work_items": [
+    640073,
+    646122
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyShopMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 13,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyShopMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30211",
+        "type": "codeunit",
+        "id": 30211,
+        "name": "Shpfy Shop Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30211"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

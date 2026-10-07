@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10034",
+  "number": 10034,
+  "title": "[Shopify] Don't block Shops page when user lacks extension permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Shops page no longer fails to open on Belgian environments when users lack extension installation permissions. A permission error during the installation status check now skips the notification instead of blocking the page.",
+  "key_points": [
+    "Wrapped installation status check in a try function to gracefully handle permission errors",
+    "Users without extension install permissions can now open the Shopify Shops page",
+    "The notification is skipped when its underlying check fails, avoiding blocker errors",
+    "Change is specific to Belgian localization and the extension notification feature"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "wraps the install-status check in a [TryFunction] so a permission (or any) error simply skips the notification instead of blocking the page",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003763,
+    "changes_in_call": 1
+  }
+}

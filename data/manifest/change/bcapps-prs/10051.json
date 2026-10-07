@@ -6,10 +6,18 @@
   "title": "Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers",
   "url": "https://github.com/microsoft/BCApps/pull/10051",
   "published_at": "2026-08-19T10:31:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:18.187Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "8461e7f56d15586dd57a0c0bbd34e97cbff05e9e:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 642053 master sustainability preview posting creates gaps in sustainability ledger entry numbers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f09c25db704f89ac7f18a5957ca736f27f8eebc18c67e5556325ac64aeac6da"
 }

@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 641309: [Sustainability][Value Chain] Item Reclassification (location move) uses average emissions instead of Specific carbon tracking (lot/serial)",
   "url": "https://github.com/microsoft/BCApps/pull/10293",
   "published_at": "2026-08-20T07:03:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:04.819Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:09.891Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003876
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:10.040Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:10.045Z",
+      "path": "content/changes/bcapps/10293.md"
     }
   },
   "input_hash": "b1689f0e97ebb1d8a2649a8443174e5bb27ee808:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 641309 sustainability value chain item reclassification location move uses average emissions instead of specific carbon tracking lot serial"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20a10727f15386349621c2317369adb60a887068d165a1d1bb60c95c18893263"
 }

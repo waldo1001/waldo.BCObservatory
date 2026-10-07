@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9077,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9077",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-19T20:07:56Z",
+  "merge_commit_sha": "f65937f59cf292e093cdd84c5f88518be38faec1",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit",
+  "body_hash": "3322a0187bf05696ab32e61f47ea46cf83b30579fdf1974f9eb2a62728354b8f",
+  "fixes_issues": [],
+  "work_items": [
+    620326
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyChangeStatusSubscr.Codeunit.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsTestTable.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 130,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10008,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10008",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T02:58:55Z",
+  "merge_commit_sha": "6670f6a16f9df987e16b6c6af4b7f34af14a3094",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Add codeunit APIs as MCP tools in MCP configuration",
+  "body_hash": "e6ee44c2fc6dea33024d40c3f7683ab6a3efa53f56d076346ffd15b3d158dbfa",
+  "fixes_issues": [],
+  "work_items": [
+    643238
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/APIOverview.Page.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 34,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/APIOverviewBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/APIOverviewTest.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+      "status": "modified",
+      "additions": 338,
+      "deletions": 162,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigMissingObject.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigMissingParent.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIObjectLookup.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigToolList.Page.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPAPIObjectBuffer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/MCP/src/MCPConfigTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 127,
+      "deletions": 18,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 615,
+    "deletions": 269,
+    "al": 10
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/APIOverview.Page.al",
+        "status": "modified",
+        "key": "page/812",
+        "type": "page",
+        "id": 812,
+        "name": "API Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/APIOverviewBuffer.Table.al",
+        "status": "modified",
+        "key": "table/812",
+        "type": "table",
+        "id": 812,
+        "name": "API Overview Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/812"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8350",
+        "type": "codeunit",
+        "id": 8350,
+        "name": "MCP Config",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8351",
+        "type": "codeunit",
+        "id": 8351,
+        "name": "MCP Config Implementation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigMissingObject.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8353",
+        "type": "codeunit",
+        "id": 8353,
+        "name": "MCP Config Missing Object",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8353"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigMissingParent.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8354",
+        "type": "codeunit",
+        "id": 8354,
+        "name": "MCP Config Missing Parent",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8354"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8356",
+        "type": "codeunit",
+        "id": 8356,
+        "name": "MCP Upgrade",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8356"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAPIObjectLookup.Page.al",
+        "status": "modified",
+        "key": "page/8376",
+        "type": "page",
+        "id": 8376,
+        "name": "MCP API Object Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8376"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigToolList.Page.al",
+        "status": "modified",
+        "key": "page/8352",
+        "type": "page",
+        "id": 8352,
+        "name": "MCP Config Tool List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8352"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Tables/MCPAPIObjectBuffer.Table.al",
+        "status": "modified",
+        "key": "table/8357",
+        "type": "table",
+        "id": 8357,
+        "name": "MCP API Object Buffer",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8357"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "Base Application",
+    "System Application"
+  ]
+}

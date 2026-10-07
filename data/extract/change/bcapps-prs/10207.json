@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10207",
+  "number": 10207,
+  "title": "[Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Environment copy cleanup of CRM Integration Records now uses bulk truncate instead of row-by-row deletion to improve performance on large coupling tables, with fallback to the original DeleteAll method when truncate is unsupported.",
+  "key_points": [
+    "Switches CleanCDSIntegration from DeleteAll() to Record.Truncate() for faster bulk cleanup",
+    "Falls back to DeleteAll only when truncate is unsupported (delete-event subscriber or security filter present)",
+    "Preserves ChangeCompany scoping and OnBeforeCleanCRMIntegrationRecords hook behavior",
+    "Optimizes TableKey.DisableAll to run only on slow fallback path",
+    "Adds comprehensive test coverage for truncate, fallback, and ChangeCompany scenarios"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004477,
+    "changes_in_call": 1
+  }
+}
