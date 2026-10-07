@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/180",
+  "number": 180,
+  "title": "Normalize recoverable leaf finding ranges",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The review quality system now normalizes location range data in performance audit findings when the line number falls within the valid range, preserving other content and improving valid finding recovery without repairing invalid JSON or other structural issues.",
+  "key_points": [
+    "Normalizes location.range field when line number is between start-line and end-line",
+    "Preserves raw Task output unchanged for immutable audit payload",
+    "Fails entirely for invalid cases like missing fields, reversed ranges, or suggested-code presence",
+    "Records normalization separately in private telemetry for tracking",
+    "Validates normalized candidates against existing strict acceptance gates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00375,
+    "changes_in_call": 1
+  }
+}

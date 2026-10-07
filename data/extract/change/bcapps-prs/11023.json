@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11023",
+  "number": 11023,
+  "title": "BE's PEPPOL \"escompte\" compensation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "sales"
+  ],
+  "summary": "Belgian PEPPOL invoices now apply discount compensation through additional allowance charges to reconcile tax calculations with displayed totals, aligning with local practices and legal requirements.",
+  "key_points": [
+    "Added three new codeunits to handle escompte compensation, monetary info, and payment info for Belgian PEPPOL",
+    "Implemented dual AllowanceCharge approach where discount affects tax base but additional charges restore totals to match Belgian standards",
+    "Extended PEPPOL tax info provider interface with new methods for compensation handling",
+    "Updated tax info codeunit with escompte logic and added test application with comprehensive test cases",
+    "Validated against online PEPPOL validators and aligned with customer examples from Scrada"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004298,
+    "changes_in_call": 1
+  }
+}

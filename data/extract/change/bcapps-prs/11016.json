@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11016",
+  "number": 11016,
+  "title": "[AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "OAuth2 integrations now enforce allow-listed redirect URIs, token audiences, and authorities across intercompany, Outlook API, and SharePoint connectors to improve security.",
+  "key_points": [
+    "Intercompany connector constructs authority from tenant GUID using HTTPS and login.microsoftonline.com",
+    "Outlook REST API redirect URI validated against OAuth2.GetDefaultRedirectUrl()",
+    "SharePoint connector documentation updated to recommend Sites.Selected over broad Sites.ReadWrite.All permission",
+    "SII Setup emits security audit and telemetry for invalid target URLs",
+    "Destination host validation hardened across OAuth2 integration points"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Construct authority from tenant GUID, use Https and login.microsoftonline.com",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004223,
+    "changes_in_call": 1
+  }
+}

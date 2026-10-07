@@ -1,0 +1,732 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 178,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/178",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-11T07:26:15Z",
+  "merge_commit_sha": "c12b2f0a88c7316b82d2c9e01dfb8518a9eb6eea",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Separate deterministic analyzer rules from BCQuality",
+  "body_hash": "ed3fd5af66709bf80954778e85e826882b85fa22adcf089dcf7aa45d27fda33f",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "docs/contributing.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "docs/using-bcquality.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 43,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 40,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 30,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 28,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 40,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 28,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/block-keywords-start-new-line.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/block-keywords-start-new-line.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/block-keywords-start-new-line.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/event-subscriber-param-names-match-publisher.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/function-call-parentheses-required.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/function-call-parentheses-required.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/function-call-parentheses-required.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/label-suffix-approved-list.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/label-suffix-approved-list.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/label-suffix-approved-list.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/lowercase-reserved-keywords.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/lowercase-reserved-keywords.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/lowercase-reserved-keywords.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 28,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-after-not-operator.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-after-not-operator.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-after-not-operator.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-around-binary-operators.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-around-binary-operators.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/single-space-around-binary-operators.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/this-keyword-in-codeunits.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/this-keyword-in-codeunits.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/this-keyword-in-codeunits.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-declaration-order-by-type.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-declaration-order-by-type.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-declaration-order-by-type.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-name-must-not-shadow.bad.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-name-must-not-shadow.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/variable-name-must-not-shadow.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-appsource-review.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-breaking-changes-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 12,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 60,
+    "additions": 45,
+    "deletions": 1095,
+    "al": 55
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/object-affixes-prevent-collisions.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/appsource/two-level-namespace-replaces-object-affix-not-extension-member-affix.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/breaking-changes/namespace-is-part-of-published-object-identity.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/applicationarea-required-on-page-controls.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/begin-on-same-line-as-then-else-do.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/block-keywords-start-new-line.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/block-keywords-start-new-line.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/block-keywords-start-new-line.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/event-subscriber-param-names-match-publisher.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/function-call-parentheses-required.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/function-call-parentheses-required.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/function-call-parentheses-required.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/label-suffix-approved-list.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/label-suffix-approved-list.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/label-suffix-approved-list.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/lowercase-reserved-keywords.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/lowercase-reserved-keywords.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/lowercase-reserved-keywords.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-begin-end-around-single-statement.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/no-space-before-method-parenthesis.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/optioncaption-required-and-matches-membercount.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-after-not-operator.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-after-not-operator.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-after-not-operator.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-around-binary-operators.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-around-binary-operators.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/single-space-around-binary-operators.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/this-keyword-in-codeunits.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/this-keyword-in-codeunits.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/this-keyword-in-codeunits.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-declaration-order-by-type.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-declaration-order-by-type.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-declaration-order-by-type.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-name-must-not-shadow.bad.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-name-must-not-shadow.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/style/variable-name-must-not-shadow.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/skills/review/al-appsource-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-breaking-changes-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "BE's PEPPOL \"escompte\" compensation",
   "url": "https://github.com/microsoft/BCApps/pull/11023",
   "published_at": "2026-09-10T12:33:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:56.226Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 5,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:02.543Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004298
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:02.792Z",
+      "objects": 5,
+      "unjoined": 6,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:02.798Z",
+      "path": "content/changes/bcapps/11023.md"
     }
   },
   "input_hash": "150fb09febdca9b5fb37b72f524d44feba76cfb2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "be s peppol escompte compensation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23eaf5aa83b4e648ab8c47375b12eea20ab3c62fa55b688e8f352c13bb64b50e"
 }

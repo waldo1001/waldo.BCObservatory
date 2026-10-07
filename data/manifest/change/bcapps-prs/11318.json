@@ -6,10 +6,35 @@
   "title": "[main] Bug 649189: Update E-Document vendor invoice caption",
   "url": "https://github.com/microsoft/BCApps/pull/11318",
   "published_at": "2026-09-11T08:45:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:48.583Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:53.470Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00365
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:53.651Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:53.657Z",
+      "path": "content/changes/bcapps/11318.md"
     }
   },
   "input_hash": "ca6ae25ddbf8a20a6345517a4bdfc15242318a62:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649189 update e document vendor invoice caption"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "de7ca07268064e032822782e18afae0079610175148129d3ec3c9a3509a9fcc1"
 }

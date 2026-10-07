@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/178",
+  "number": 178,
+  "title": "Separate deterministic analyzer rules from BCQuality",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Deterministic analyzer rules and their documentation are removed from BCQuality, leaving only knowledge that adds BC-specific context beyond what the compiler already enforces.",
+  "key_points": [
+    "18 deterministic rules removed including CodeCop formatting rules and compiler-enforced checks like AS0062, AS0011, AS0007",
+    "Knowledge samples and markdown files for style, AppSource, and breaking changes rules deleted",
+    "Review skills updated to remove detection logic for retired rules",
+    "BCQuality focuses on BC-specific reasoning rather than mechanical facts already enforced by tooling",
+    "Division of responsibility established between compiler/analyzer and BCQuality knowledge base"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "deterministic tooling establishes mechanical facts; BCQuality and the LLM focus on BC-specific context and reasoning",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005012,
+    "changes_in_call": 1
+  }
+}

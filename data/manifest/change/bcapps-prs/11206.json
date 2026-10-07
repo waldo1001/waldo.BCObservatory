@@ -6,10 +6,35 @@
   "title": "[CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount",
   "url": "https://github.com/microsoft/BCApps/pull/11206",
   "published_at": "2026-09-11T10:57:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:46.388Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:51.096Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00343
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:51.244Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:51.249Z",
+      "path": "content/changes/bcapps/11206.md"
     }
   },
   "input_hash": "5d1d6a863dbc3d769fb44d8ff5c9724da432db8d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "ch when posting with fcy vat g l entry stores vat base amount in source currency amount instead of vat amount"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b302f63231e1fc26a269fb7d322c04ab4829cd6ad5e50bbe9d29e8e76644afd2"
 }

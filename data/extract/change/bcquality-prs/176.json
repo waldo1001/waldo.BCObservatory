@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/176",
+  "number": 176,
+  "title": "Complete partner contribution and knowledge consumption guides",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Documentation expanded to guide partners on reading quality knowledge, contributing articles, and consuming skills in custom agents, with clarifications on metadata, integration, and SetLoadFields guidance.",
+  "key_points": [
+    "Added guidance for direct knowledge reading, supplied skills, and custom-agent consumption with applicability metadata explanation",
+    "Created first-contribution walkthrough from finding guidance to opening a PR with a designated starter article",
+    "Provided copyable integration prompt showing BCQuality and app directory usage with explicit dispatch and report handling",
+    "Clarified that Markdown skills require reading and following instructions, not executing as endpoints",
+    "Enhanced SetLoadFields article with Microsoft Learn sources and distinction between heuristics and platform guarantees"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "This follow-up completes those journeys within the existing documentation structure.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003596,
+    "changes_in_call": 1
+  }
+}

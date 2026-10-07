@@ -6,10 +6,35 @@
   "title": "Complete partner contribution and knowledge consumption guides",
   "url": "https://github.com/microsoft/BCQuality/pull/176",
   "published_at": "2026-09-11T07:09:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:53.930Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:58.876Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003596
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:02.527Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:03:02.531Z",
+      "path": "content/changes/bcquality/176.md"
     }
   },
   "input_hash": "ac9e4fd9a28952bb58d02a23f1aadc1482240618:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "complete partner contribution and knowledge consumption guides"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a04053a00f0a8378d341591fb83dd90c7b10baa7cc8a777bb4c6127428518b4b"
 }

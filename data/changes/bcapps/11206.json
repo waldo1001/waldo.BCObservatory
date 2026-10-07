@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11206,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11206",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-11T10:57:21Z",
+  "merge_commit_sha": "5d1d6a863dbc3d769fb44d8ff5c9724da432db8d",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount",
+  "body_hash": "757bcd54cbf06021fc43175060cbb436067410093c5814ded42700e3b83e9c9f",
+  "fixes_issues": [],
+  "work_items": [
+    649413
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/TestSRGLEntriesForeignC.Codeunit.al",
+      "status": "modified",
+      "additions": 86,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 90,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

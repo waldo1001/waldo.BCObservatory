@@ -6,10 +6,35 @@
   "title": "Normalize recoverable leaf finding ranges",
   "url": "https://github.com/microsoft/BCQuality/pull/180",
   "published_at": "2026-09-11T13:24:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:46.758Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:52.259Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00375
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:52.261Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:02:52.264Z",
+      "path": "content/changes/bcquality/180.md"
     }
   },
   "input_hash": "35d0966a8d45e8d4a7c2b0238afbffe338a31d2b:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "normalize recoverable leaf finding ranges"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2eb90d8087adecbec512d72be72a72454c5fcf84533308256452164510f4c60b"
 }

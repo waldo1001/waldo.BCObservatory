@@ -6,10 +6,35 @@
   "title": "Add Agent Task Log JSON export",
   "url": "https://github.com/microsoft/BCApps/pull/10670",
   "published_at": "2026-09-11T06:47:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:52.251Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:57.266Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00361
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:57.439Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:57.445Z",
+      "path": "content/changes/bcapps/10670.md"
     }
   },
   "input_hash": "d1221382a9e7e9f059bb1f88c8a8c9ed78014410:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "add agent task log json export"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f031b30d8fc5b46be9f1be44e54227ee7e0d05cd2d24ae1b8c8b1ce2fdf2fd0"
 }

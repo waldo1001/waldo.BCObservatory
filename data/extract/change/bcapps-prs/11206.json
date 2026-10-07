@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11206",
+  "number": 11206,
+  "title": "[CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "When posting transactions with foreign currency, VAT G/L entries now correctly store the VAT amount in Source Currency Amount instead of the VAT base amount.",
+  "key_points": [
+    "VAT G/L entries during foreign currency posting now use correct source currency amounts",
+    "Fixes incorrect storage of VAT base amount instead of VAT amount in Source Currency Amount field",
+    "Changes initialization logic in Gen. Jnl.-Post Line to avoid recalculating source currency amounts",
+    "Test coverage added to verify the correct behavior with foreign currency VAT posting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00343,
+    "changes_in_call": 1
+  }
+}

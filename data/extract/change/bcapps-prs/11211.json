@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11211",
+  "number": 11211,
+  "title": "[Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "development"
+  ],
+  "summary": "Report layout creation and management now prevents duplicate names from overwriting existing layouts, blocks unapproved layouts from becoming defaults, validates default layout status changes, handles empty uploads properly, and allows blank header/footer parts to be created.",
+  "key_points": [
+    "Duplicate layout names are rejected before file upload instead of silently overwriting",
+    "Moving a layout out of Approved status is blocked if it's the current report default",
+    "Only approved layouts can be set as default",
+    "Empty file uploads are validated and rejected with a clear error message",
+    "Blank header/footer parts can now be created with the report's WordXmlPart injected"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "quote": "A duplicate name silently overwrote an existing layout.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004697,
+    "changes_in_call": 1
+  }
+}

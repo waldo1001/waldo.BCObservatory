@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9363",
+  "number": 9363,
+  "title": "GP - Updates 202607",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Dynamics GP migration tool now handles item batches correctly by distributing transactions across multiple batches instead of creating one batch, improves validation for payment terms, purchase orders, and GL account categories, and fixes type mismatches in validation logic.",
+  "key_points": [
+    "Item batches are now distributed properly for multiple transactions instead of consolidating into a single batch",
+    "Validation logic corrected for type mismatches between Code and Text fields like postal codes",
+    "Enhanced validation for payment terms, PO splits across multiple lines, and custom GL account expense categories",
+    "Account beginning balance validation temporarily removed pending redesign",
+    "Several fixes applied to GP migration codeunits and pages"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "A single item batch was being created, when transactions should have been distributed among multiple",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00375,
+    "changes_in_call": 1
+  }
+}

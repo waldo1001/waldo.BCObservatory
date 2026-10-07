@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11378",
+  "number": 11378,
+  "title": "[29.x][InterCompany][SII] Setup and telemetry enhancements",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "The SII Setup table and cross-intercompany connector are enhanced with setup validation and telemetry tracking to monitor data exchange operations and configuration changes.",
+  "key_points": [
+    "SII Setup table extended with additional configuration fields",
+    "CrossIntercompany connector enhanced with telemetry logging",
+    "Setup validation logic added to modify setup page",
+    "New automated tests added for intercompany and SII functionality",
+    "Partner setup page logic refined"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Setup and telemetry enhancements for InterCompany and SII",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003503,
+    "changes_in_call": 1
+  }
+}

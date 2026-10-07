@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/179",
+  "number": 179,
+  "title": "Add bounded knowledge retrieval",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added deterministic, lossless bounded knowledge retrieval for review skills that caps context at 16,000 UTF-8 bytes per page, returns all applicable catalog rows without filtering or ranking, and validates retrieval through GUID-scoped scratch paths to improve efficiency and validation reliability.",
+  "key_points": [
+    "Implemented capped pagination (16,000 bytes per page) for knowledge-index retrieval with strict UTF-8 and path-safety checks",
+    "Returns complete applicable catalog rows without top-k filtering, ranking, or query-based omission to ensure deterministic behavior",
+    "Added exact article and sample body retrieval in batches up to eight paths with SHA-256 validation and byte counting",
+    "Applied bounded Source workflow to all 16 canonical review skills while preserving existing Relevance, Worklist, Action, and Output rules",
+    "Comprehensive validation covers all 282 articles and 457 samples with explicit failure handling for invalid metadata, stale continuations, and oversized batches"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Add lossless deterministic catalog paging capped at 16,000 serialized UTF-8 bytes, including the output newline.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005017,
+    "changes_in_call": 1
+  }
+}

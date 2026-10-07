@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11141",
+  "number": 11141,
+  "title": "[main] bug 649305 - Add Report Address Source functionality to Company Information",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Company Information in the CZ localization now includes a configurable Report Address Source setting that lets users choose whether printed sales and purchase documents show the address from Company Information or a Responsibility Center.",
+  "key_points": [
+    "New Report Address Source CZL enum with Company Information and Responsibility Center options",
+    "New field added to Company Information table 79 for CZ",
+    "Page 1 updated with the new field in Communication FastTab as an Additional field",
+    "Report address formatting logic updated to respect the configuration",
+    "Default value set to Responsibility Center for backward compatibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "sales"
+  ],
+  "quote": "Adds a new Report Address Source option to the Company Information table and page for the CZ Core Localization Pack.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003963,
+    "changes_in_call": 1
+  }
+}

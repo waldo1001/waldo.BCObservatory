@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11318",
+  "number": 11318,
+  "title": "[main] Bug 649189: Update E-Document vendor invoice caption",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Document purchase header field caption and page labels were updated to use applies-to terminology instead of vendor invoice number terminology, clarifying that the field refers to the external invoice number being referenced.",
+  "key_points": [
+    "Table field caption changed to 'Applies-to Ext. Invoice No.'",
+    "Page control caption and tooltip updated to reflect applies-to semantics",
+    "Clarifies that the field references the external invoice number the credit memo applies to",
+    "No change to field ID, name, type, or behavior",
+    "Display metadata only; no functional impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Update the table field caption and the readable purchase document page caption and tooltip to use the applies-to terminology.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00365,
+    "changes_in_call": 1
+  }
+}

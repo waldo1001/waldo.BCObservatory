@@ -6,10 +6,35 @@
   "title": "[main] bug 649305 - Add Report Address Source functionality to Company Information",
   "url": "https://github.com/microsoft/BCApps/pull/11141",
   "published_at": "2026-09-11T09:46:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:47.776Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:52.719Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003963
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:52.902Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:52.914Z",
+      "path": "content/changes/bcapps/11141.md"
     }
   },
   "input_hash": "fa21bcc758170ce538daffc10bf3bfd10d4941fe:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649305 add report address source functionality to company information"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17b5dc7be16671274a390bb50b0abbc85ef48dd51e5b631d975f0cbffc414e28"
 }

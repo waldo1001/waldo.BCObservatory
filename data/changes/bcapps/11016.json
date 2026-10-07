@@ -1,0 +1,211 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11016,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11016",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T17:49:21Z",
+  "merge_commit_sha": "f21568982af7a23ae19e8c933ce6d671315d5e1f",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations",
+  "body_hash": "b4bec451aa0649715235a984e10b2c94d0b7949eb751162d0e14c6f6abf852b1",
+  "fixes_issues": [],
+  "work_items": [
+    648738
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOAuthClient.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPISetup.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/OutlookAPIHelperTests.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/README.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIISetup.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/SIIEndpointUrlValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM/ERMIntercompany.Codeunit.al",
+      "status": "modified",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompPartnerSetup.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompanyConnector.Codeunit.al",
+      "status": "modified",
+      "additions": 141,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompanyModifySetup.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMIntercompany.Codeunit.al",
+      "status": "modified",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 12,
+    "additions": 496,
+    "deletions": 42,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOAuthClient.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4507",
+        "type": "codeunit",
+        "id": 4507,
+        "name": "Email - OAuth Client",
+        "app": "Email - Outlook REST API",
+        "cc": "w1",
+        "page": "codeunit/4507"
+      },
+      {
+        "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPISetup.Page.al",
+        "status": "modified",
+        "key": "page/4509",
+        "type": "page",
+        "id": 4509,
+        "name": "Email - Outlook API Setup",
+        "app": "Email - Outlook REST API",
+        "cc": "w1",
+        "page": "page/4509"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+        "status": "modified",
+        "key": "table/4580",
+        "type": "table",
+        "id": 4580,
+        "name": "Ext. SharePoint Account",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "table/4580"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIISetup.Table.al",
+        "status": "modified",
+        "key": "table/10751",
+        "type": "table",
+        "id": 10751,
+        "name": "SII Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/10751-es"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompPartnerSetup.Page.al",
+        "status": "modified",
+        "key": "page/561",
+        "type": "page",
+        "id": 561,
+        "name": "CrossIntercomp. Partner Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/561"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompanyConnector.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/560",
+        "type": "codeunit",
+        "id": 560,
+        "name": "CrossIntercompany Connector",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/560"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/DataExchange/CrossIntercompanyModifySetup.Page.al",
+        "status": "modified",
+        "key": "page/565",
+        "type": "page",
+        "id": 565,
+        "name": "CrossIntercompany Modify Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/565"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "Base Application",
+    "Email - Outlook REST API",
+    "External File Storage - SharePoint Connector"
+  ]
+}

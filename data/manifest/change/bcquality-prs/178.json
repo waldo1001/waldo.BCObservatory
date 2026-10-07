@@ -6,10 +6,35 @@
   "title": "Separate deterministic analyzer rules from BCQuality",
   "url": "https://github.com/microsoft/BCQuality/pull/178",
   "published_at": "2026-09-11T07:26:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:48.781Z",
+      "change_class": "code",
+      "files": 60,
+      "al": 55,
+      "objects": 0,
+      "unjoined": 55
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:53.917Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005012
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:53.918Z",
+      "objects": 0,
+      "unjoined": 55,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:02:53.925Z",
+      "path": "content/changes/bcquality/178.md"
     }
   },
   "input_hash": "c12b2f0a88c7316b82d2c9e01dfb8518a9eb6eea:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "separate deterministic analyzer rules from bcquality"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b8b1f51b0bd82e735aa1b10ba53be7ec6ce43cf51565e244eb41f3cf21e877e"
 }

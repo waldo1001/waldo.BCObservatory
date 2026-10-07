@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10670",
+  "number": 10670,
+  "title": "Add Agent Task Log JSON export",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Agent Task Log now supports JSON export of selected rows with detailed context including task information, messages, actions, and page snapshots, with access control based on agent-management permissions.",
+  "key_points": [
+    "Added JSON export action to Agent Task Log list for selected rows",
+    "Export includes task details, messages, related actions, page context, tools, and memorized data",
+    "Enforces agent-management access control and redacts snapshots without Troubleshoot All Agents permission",
+    "Refactored calculation helpers to share logic between detail page and export functionality",
+    "Added focused JSON and context tests for export behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "quote": "add a selected-row JSON export action to the Agent Task Log list",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00361,
+    "changes_in_call": 1
+  }
+}

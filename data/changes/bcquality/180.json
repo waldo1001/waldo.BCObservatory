@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 180,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/180",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-11T13:24:20Z",
+  "merge_commit_sha": "35d0966a8d45e8d4a7c2b0238afbffe338a31d2b",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Normalize recoverable leaf finding ranges",
+  "body_hash": "7a29d145b77ba7f89e91a0a787d01658684c1b514df0cd45357e0dfaee05bbc1",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "docs/contributing.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "docs/standalone-runner.md",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Test-ReviewContract.ps1",
+      "status": "added",
+      "additions": 171,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "tools/Test-ReviewFixtures.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 250,
+    "deletions": 21,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

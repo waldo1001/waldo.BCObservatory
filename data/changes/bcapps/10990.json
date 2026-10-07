@@ -1,0 +1,132 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10990,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10990",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T10:26:19Z",
+  "merge_commit_sha": "c3b90f12b6e85aaa1f458ab3dbbff8596511e0d0",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Add-Expense-VAT-settings-to-Contoso-demo-tool",
+  "body_hash": "6f20c63c20dd538c7cfd1284c589380944f16c5e7fd709621b31e2f40d3dd691",
+  "fixes_issues": [],
+  "work_items": [
+    648889
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseVATRates.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 161,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreateExpenseCountryData.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/1.Setup Data/CreateExpenseGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 147,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/2.Master Data/CreateExpenseSubCategories.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/ExpenseAgentContosoModule.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Base/ShpfyInitializeTest.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Invoices/ShpfyInvoicesTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Shipping/ShpfyShippingChargesTest.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 309,
+    "deletions": 171,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6973",
+        "type": "codeunit",
+        "id": 6973,
+        "name": "Create Expense Categories",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6973"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseVATRates.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6975",
+        "type": "codeunit",
+        "id": 6975,
+        "name": "Create Expense VAT Rates",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6975"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

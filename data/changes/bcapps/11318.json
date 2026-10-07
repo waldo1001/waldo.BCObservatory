@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11318,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11318",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-11T08:45:06Z",
+  "merge_commit_sha": "ca6ae25ddbf8a20a6345517a4bdfc15242318a62",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 649189: Update E-Document vendor invoice caption",
+  "body_hash": "797ee1a0092bbf8128cb294734df36e903791849f687e13578598d2bbd03b7a2",
+  "fixes_issues": [],
+  "work_items": [
+    649189
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocReadablePurchaseDoc.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocReadablePurchaseDoc.Page.al",
+        "status": "modified",
+        "key": "page/6182",
+        "type": "page",
+        "id": 6182,
+        "name": "E-Doc. Readable Purchase Doc.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6182"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/6100",
+        "type": "table",
+        "id": 6100,
+        "name": "E-Document Purchase Header",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6100"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

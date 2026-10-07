@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11141,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11141",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-11T09:46:28Z",
+  "merge_commit_sha": "fa21bcc758170ce538daffc10bf3bfd10d4941fe",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 649305 - Add Report Address Source functionality to Company Information",
+  "body_hash": "b6f3ae7e0bf509a91b4dc3b28bddfe7e708e69568d45536447ef0addddc75d77",
+  "fixes_issues": [],
+  "work_items": [
+    649305
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/FormatAddressHandlerCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Enums/ReportAddressSourceCZL.Enum.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/PageExtensions/CompanyInformationCZL.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/CompanyInformationCZL.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 48,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/FormatAddressHandlerCZL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Enums/ReportAddressSourceCZL.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/PageExtensions/CompanyInformationCZL.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/CompanyInformationCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

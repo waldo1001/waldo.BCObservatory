@@ -1,0 +1,146 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11211,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11211",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T13:04:04Z",
+  "merge_commit_sha": "4979d3868b5a06d31d3345479b7a955fecbca571",
+  "author": "v-mortenr",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions",
+  "body_hash": "82145d0ba8a1a938c0aaeb0f78ce8658e8e33bea361f0d26e69a1d9a4354f04b",
+  "fixes_issues": [],
+  "work_items": [
+    647373,
+    648842,
+    649379
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/NewReportThemeHeaderFooter.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutSelection.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+      "status": "modified",
+      "additions": 150,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportThemeandHeaderFooter.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/CompositeLayoutTests.Codeunit.al",
+      "status": "modified",
+      "additions": 332,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 520,
+    "deletions": 18,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/NewReportThemeHeaderFooter.Page.al",
+        "status": "modified",
+        "key": "page/9668",
+        "type": "page",
+        "id": 9668,
+        "name": "New Report Theme Header/Footer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9668"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutSelection.Page.al",
+        "status": "modified",
+        "key": "page/9652",
+        "type": "page",
+        "id": 9652,
+        "name": "Report Layout Selection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9652"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+        "status": "modified",
+        "key": "page/9660",
+        "type": "page",
+        "id": 9660,
+        "name": "Report Layouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9660"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9660",
+        "type": "codeunit",
+        "id": 9660,
+        "name": "Report Layouts Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9660"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportThemeandHeaderFooter.Page.al",
+        "status": "modified",
+        "key": "page/9666",
+        "type": "page",
+        "id": 9666,
+        "name": "Report Theme and Header/Footer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9666"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

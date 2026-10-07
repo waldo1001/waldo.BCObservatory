@@ -1,0 +1,225 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11023,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11023",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-10T12:33:34Z",
+  "merge_commit_sha": "150fb09febdca9b5fb37b72f524d44feba76cfb2",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "BE's PEPPOL \"escompte\" compensation",
+  "body_hash": "596d140a8241c307699d5906c59acf7d8bb986639e08e92151faa16ae8cffeff",
+  "fixes_issues": [],
+  "work_items": [
+    648845
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEEscompte.Codeunit.al",
+      "status": "added",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEMonetaryInfo.Codeunit.al",
+      "status": "added",
+      "additions": 104,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEPaymentInfo.Codeunit.al",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BETaxInfo.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30FormatBE.EnumExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/Test/app.json",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/BE/PeppolBE/Test/src/PEPPOL30BEPmtDiscountTests.Codeunit.al",
+      "status": "modified",
+      "additions": 148,
+      "deletions": 20,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Common.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Sales/XmlPorts/SalesCrMemoPEPPOL30.XmlPort.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Sales/XmlPorts/SalesInvoicePEPPOL30.XmlPort.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Peppol/PEPPOLManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 127,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Peppol/SalesInvoicePEPPOLBIS30.XmlPort.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 663,
+    "deletions": 32,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Common.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37218",
+        "type": "codeunit",
+        "id": 37218,
+        "name": "PEPPOL30 Common",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37218"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al",
+        "status": "modified",
+        "key": "interface/peppol tax info provider",
+        "type": "interface",
+        "id": null,
+        "name": "PEPPOL Tax Info Provider",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "interface/peppol-tax-info-provider"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Sales/XmlPorts/SalesCrMemoPEPPOL30.XmlPort.al",
+        "status": "modified",
+        "key": "xmlport/37200",
+        "type": "xmlport",
+        "id": 37200,
+        "name": "Sales Cr.Memo - PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "xmlport/37200"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Sales/XmlPorts/SalesInvoicePEPPOL30.XmlPort.al",
+        "status": "modified",
+        "key": "xmlport/37201",
+        "type": "xmlport",
+        "id": 37201,
+        "name": "Sales Invoice - PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "xmlport/37201"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Peppol/PEPPOLManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1605",
+        "type": "codeunit",
+        "id": 1605,
+        "name": "PEPPOL Management",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/1605"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEEscompte.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEMonetaryInfo.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BEPaymentInfo.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30BETaxInfo.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/BE/PeppolBE/App/src/PEPPOL30FormatBE.EnumExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Peppol/SalesInvoicePEPPOLBIS30.XmlPort.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "sales"
+  ],
+  "apps": [
+    "Base Application",
+    "PEPPOL"
+  ]
+}

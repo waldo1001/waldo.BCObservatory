@@ -6,10 +6,25 @@
   "title": "[Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions",
   "url": "https://github.com/microsoft/BCApps/pull/11211",
   "published_at": "2026-09-10T13:04:04Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:55.241Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:03:02.802Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004697
     }
   },
   "input_hash": "4979d3868b5a06d31d3345479b7a955fecbca571:c1",
@@ -29,5 +44,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649379 composite layout stress test fixes part resolution source and status action captions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5041c7dccd0306265822d77006c4f500bbe3238c0df96104be6a14fc4977e6c1"
 }
