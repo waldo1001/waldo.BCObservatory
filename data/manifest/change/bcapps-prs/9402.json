@@ -6,10 +6,18 @@
   "title": "Fix RSA private key PEM import",
   "url": "https://github.com/microsoft/BCApps/pull/9402",
   "published_at": "2026-07-17T10:02:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:45.585Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "9bd8b05a7d30d2fca2b9ba137735834a246e4971:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix rsa private key pem import"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b55850e20ec367c8a5d5977c013a0faa16b206f42c2d1ab3c9d2a155ff69641"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9485",
+  "number": 9485,
+  "title": "[main]-Multiple error messages when posting to period with VAT Return already in status Released",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "When posting to a period with a VAT Return already in status Released, the system now prevents duplicate error messages from appearing. The VAT Reporting Date Management codeunit was updated to validate the VAT Return status and avoid cascading errors.",
+  "key_points": [
+    "VAT Return status validation added to prevent posting when already Released",
+    "Multiple error messages consolidated into a single validation check",
+    "VAT Reporting Date Management codeunit enhanced with status check logic",
+    "Localizations across all regions (APAC, BE, CH, DACH, ES, FI, FR, IT, NA, NL, NO, RU, W1) updated consistently",
+    "Test coverage added across multiple localization layers to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Multiple error messages when posting to period with VAT Return already in status Released",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004329,
+    "changes_in_call": 1
+  }
+}

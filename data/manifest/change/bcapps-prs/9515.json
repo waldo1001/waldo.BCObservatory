@@ -6,7 +6,7 @@
   "title": "[Master] - 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.",
   "url": "https://github.com/microsoft/BCApps/pull/9515",
   "published_at": "2026-07-20T09:24:11Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003955
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:35.824Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:35.829Z",
+      "path": "content/changes/bcapps/9515.md"
     }
   },
   "input_hash": "6e5e7ab0ea26611173f1e0fe28170c7ada2096dc:c1",
@@ -49,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "658b8dbffaf3d34a244d21f766613a07832a47d70b51561c4ccc5ba25d0471ce"
+  "output_hash": "db5414622c59e6d1c952a7cb733f09fa5a968e5346234ee7abd9a9b53aba4e44"
 }

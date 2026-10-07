@@ -6,10 +6,35 @@
   "title": "Document the skill-vs-knowledge boundary so BC facts land in knowledge files",
   "url": "https://github.com/microsoft/BCQuality/pull/114",
   "published_at": "2026-07-17T10:15:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:44.318Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:49.879Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004037
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:49.880Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:49.884Z",
+      "path": "content/changes/bcquality/114.md"
     }
   },
   "input_hash": "b9c57ba6f993feeac860c24808865045be926167:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "document the skill vs knowledge boundary so bc facts land in knowledge files"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "77be1f46630a36bde122ae28287022c471676184799a204c046ccc5db56866bf"
 }

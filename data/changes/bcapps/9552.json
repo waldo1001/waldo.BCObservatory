@@ -1,0 +1,62 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9552,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9552",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T13:18:49Z",
+  "merge_commit_sha": "e0f5e4f3d6d0fee87bc4ef9cee40cc3fb18d66ea",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Issue in TDS calculation during payment application against invoices",
+  "body_hash": "936015b40bb4364cf956c1d49a01dfeca9e376a6b5cd65c54df5345c99c72e4c",
+  "fixes_issues": [],
+  "work_items": [
+    642476
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INTDS/app/.resources/TDSUseCases/a8e114bf-f8cd-44db-a2b3-614bc18f4442.json",
+      "status": "modified",
+      "additions": 165,
+      "deletions": 99,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 166,
+    "deletions": 100,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

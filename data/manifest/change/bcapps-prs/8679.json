@@ -6,10 +6,35 @@
   "title": "[Shopify] Fix missing shop currency mapping on order transactions",
   "url": "https://github.com/microsoft/BCApps/pull/8679",
   "published_at": "2026-07-17T10:12:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:45.260Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:53.769Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003847
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:54.028Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:54.033Z",
+      "path": "content/changes/bcapps/8679.md"
     }
   },
   "input_hash": "62942d495666d3435f3ea0af2f16f482542ef960:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix missing shop currency mapping on order transactions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9cbd564e1818ee0ddbb56cd7d58a1d3e798f5a97d2ca08fe9f0f3a53e1dcf164"
 }

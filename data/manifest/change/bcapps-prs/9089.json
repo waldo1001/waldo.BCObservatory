@@ -6,7 +6,7 @@
   "title": "Merge-ES-Excluded-from-Calculation-to-W1",
   "url": "https://github.com/microsoft/BCApps/pull/9089",
   "published_at": "2026-07-20T11:07:41Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 90,
       "objects": 78,
       "unjoined": 12
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:35.985Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.013925
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:36.167Z",
+      "objects": 78,
+      "unjoined": 12,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:36.183Z",
+      "path": "content/changes/bcapps/9089.md"
     }
   },
   "input_hash": "b6ab48ceb4c044446b97cd5c83c0d6eae4e3ea16:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82f8f76054578570e905c3fc350ff1dc88bb450b56fdf4bd86ea31c3304c90fd"
+  "output_hash": "40da8b49846bc4ebf7476a9b6030aecd558b77a4967da04dd6cba405edda9462"
 }

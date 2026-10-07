@@ -6,7 +6,7 @@
   "title": "Allow pull_request:linked-issue ownership source",
   "url": "https://github.com/microsoft/BCApps/pull/9565",
   "published_at": "2026-07-17T10:47:51Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "allow pull request linked issue ownership source"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:17:43.326Z",
+  "retry_after": null
 }

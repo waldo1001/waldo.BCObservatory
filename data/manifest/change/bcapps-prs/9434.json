@@ -6,10 +6,35 @@
   "title": "[Main]-\"Factura Duplicada\" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.",
   "url": "https://github.com/microsoft/BCApps/pull/9434",
   "published_at": "2026-07-17T11:34:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:44.118Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:49.624Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004023
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:49.772Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:49.777Z",
+      "path": "content/changes/bcapps/9434.md"
     }
   },
   "input_hash": "c6e192799cbd132bcb05f794aa7568c9d11f8874:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "factura duplicada error message appears under sii history if you use the same vendor invoice no for the same vendor vat registration no in different documents in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b3bf3554bf1efb4a0eb86e5db9ff913cd4e775970cdd0868993de42ff875f67"
 }

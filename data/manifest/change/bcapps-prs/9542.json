@@ -6,10 +6,35 @@
   "title": "[main] mapping Dimension Values / IC Dimension Values",
   "url": "https://github.com/microsoft/BCApps/pull/9542",
   "published_at": "2026-07-17T12:09:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:39.564Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:44.127Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002854
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:44.308Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:44.313Z",
+      "path": "content/changes/bcapps/9542.md"
     }
   },
   "input_hash": "102f1ff1f4fb61af927498664527ddc62ca1d72e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "mapping dimension values ic dimension values"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9978bd04ea474dab5ac16af00441ece62e5c4f5d11a78b62416a335315c10ab9"
 }

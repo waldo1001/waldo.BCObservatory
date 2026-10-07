@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9542,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9542",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T12:09:16Z",
+  "merge_commit_sha": "102f1ff1f4fb61af927498664527ddc62ca1d72e",
+  "author": "AndreasHans",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] mapping Dimension Values / IC Dimension Values",
+  "body_hash": "f5366fd2004e01dc2105fc899b8f2714e8ea45b71177e56bd10ad4dd516f2807",
+  "fixes_issues": [],
+  "work_items": [
+    636833
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Dimension/ICDimValuesSelector.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Dimension/ICDimValuesSelector.Page.al",
+        "status": "modified",
+        "key": "page/706",
+        "type": "page",
+        "id": 706,
+        "name": "IC Dim Values Selector",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/706"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

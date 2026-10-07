@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 112,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/112",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-17T12:17:05Z",
+  "merge_commit_sha": "1bf5a3b2764111945051c3881dd0ec338484b3a5",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add precision guards for systematic agent false-positive patterns",
+  "body_hash": "ea84f16b085bfb5ec01b6ef63700f846aaac05f3e0a35f999416f7d3144a90ba",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/breaking-changes/unreleased-symbol-change-is-not-a-breaking-change.md",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/calcfields-in-both-getrecord-triggers-is-not-redundant.md",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/bound-page-field-inherits-source-field-tooltip.md",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 140,
+    "deletions": 0,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/breaking-changes/unreleased-symbol-change-is-not-a-breaking-change.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/calcfields-in-both-getrecord-triggers-is-not-redundant.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/bound-page-field-inherits-source-field-tooltip.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

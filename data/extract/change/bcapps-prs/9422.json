@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9422",
+  "number": 9422,
+  "title": "table 12116 \"Withholding Tax\": scope Reported/Paid modify guard to st…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Withholding Tax table now allows modifications to extension fields on reported or paid entries, while still blocking changes to standard fields to preserve compliance.",
+  "key_points": [
+    "Standard field modifications on reported/paid entries remain blocked for compliance",
+    "Extension fields added by other apps can now be modified independently",
+    "Uses StandardFieldModified method to compare base fields only (field no. < 50000)",
+    "No bypass hook exposed; compliance guards remain intact",
+    "Minimal performance impact via RecordRef comparison on low-volume table"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "modifications limited to extension fields (added by other apps) are allowed",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003694,
+    "changes_in_call": 1
+  }
+}

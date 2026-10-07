@@ -6,10 +6,35 @@
   "title": "Provide package cache to aldoc when building reference documentation",
   "url": "https://github.com/microsoft/AL-Go/pull/2301",
   "published_at": "2026-07-17T11:52:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:40.159Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:44.996Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00332
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:44.998Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:45.003Z",
+      "path": "content/changes/al-go/2301.md"
     }
   },
   "input_hash": "6d8c1411a196b9118788638e58bd831c27b4f1d6:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "provide package cache to aldoc when building reference documentation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3bdf8e083fb57a08f75ea645f717630259817fd492b832a703140832dad5a2c3"
 }

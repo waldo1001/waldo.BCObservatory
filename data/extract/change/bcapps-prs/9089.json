@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9089",
+  "number": 9089,
+  "title": "Merge-ES-Excluded-from-Calculation-to-W1",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "summary": "Spain's excluded-from-calculation functionality is merged into the worldwide base application, consolidating region-specific ledger entry and general ledger setup logic across multiple localization layers.",
+  "key_points": [
+    "Excluded from Calculation field logic moved from Spain-specific implementation to W1 base",
+    "General Ledger Setup, Customer/Vendor Ledger Entry, and Currency tables updated across multiple regions",
+    "Spain-specific MyCustomer and StandardStatement Report removed from ES layer",
+    "Consistent excluded-from-calculation handling now applies across APAC, BE, CH, DACH, ES, FI, FR, GB, IS, IT, NA, NL regions",
+    "Customer and vendor ledger entry calculations align with the new exclusion framework"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013925,
+    "changes_in_call": 1
+  }
+}

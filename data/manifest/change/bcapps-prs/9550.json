@@ -6,10 +6,35 @@
   "title": "[Main]-[BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly",
   "url": "https://github.com/microsoft/BCApps/pull/9550",
   "published_at": "2026-07-17T13:04:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:37.853Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:43.113Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003727
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:43.309Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:43.322Z",
+      "path": "content/changes/bcapps/9550.md"
     }
   },
   "input_hash": "2522a0ae9890cd031d2b9ab5a145facfc5b92b76:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "bc in purchase invoice with a deferral schedule and non availment gst is not functioning correctly"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c6848a916338a629b8815a4c309316232d145d6e7ecc5802f827acc3a739be4"
 }

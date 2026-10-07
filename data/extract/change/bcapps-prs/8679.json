@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8679",
+  "number": 8679,
+  "title": "[Shopify] Fix missing shop currency mapping on order transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shop currency code mapping on Shopify order transactions was accidentally removed in a previous commit and is now restored to ensure the Currency field displays correctly on the Order Transactions page.",
+  "key_points": [
+    "The amountSet.shopMoney.currencyCode mapping to the Currency field was missing after a presentment currency support commit",
+    "The field was being used without being populated, causing stale or empty currency values",
+    "The fix re-adds the mapping alongside presentmentMoney to match the pattern already correctly used in amountRoundingSet",
+    "Shopify GraphQL query already provided the data; it just needed to be read and mapped",
+    "A test codeunit was added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003847,
+    "changes_in_call": 1
+  }
+}

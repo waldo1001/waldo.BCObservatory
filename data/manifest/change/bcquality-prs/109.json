@@ -6,10 +6,35 @@
   "title": "style-review: calibrate variable-declaration order (AA0021) to info",
   "url": "https://github.com/microsoft/BCQuality/pull/109",
   "published_at": "2026-07-17T12:17:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:37.862Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:43.048Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.003632
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:43.050Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:43.053Z",
+      "path": "content/changes/bcquality/109.md"
     }
   },
   "input_hash": "712dee9ec1f0b098f859753e083e8c6efa903d01:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "style review calibrate variable declaration order aa0021 to info"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c64e7249f2926aec2c3271c15048136b80dfbf2b133a8681b9aa13fdbd2776d2"
 }

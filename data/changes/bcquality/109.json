@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 109,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/109",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-17T12:17:33Z",
+  "merge_commit_sha": "712dee9ec1f0b098f859753e083e8c6efa903d01",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "style-review: calibrate variable-declaration order (AA0021) to info",
+  "body_hash": "aa00804b962ee0202712af0cde15ec1ae7d839392bbfe63350a6d40adb4c05fe",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

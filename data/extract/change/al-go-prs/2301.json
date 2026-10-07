@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2301",
+  "number": 2301,
+  "title": "Provide package cache to aldoc when building reference documentation",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The aldoc command now receives a populated package cache to resolve cross-module references in generated reference documentation, fixing unresolved links that occurred when building documentation for artifact-based apps.",
+  "key_points": [
+    "aldoc now receives --packagecache parameter with all apps and their dependencies",
+    "Fixes 'Referenced module not loaded' errors in reference documentation",
+    "Resolves cross-module links in generated documentation",
+    "Uses dependencies already computed by CalculateProjectsAndApps",
+    "Addresses issue with artifact-based apps lacking default package cache"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00332,
+    "changes_in_call": 1
+  }
+}

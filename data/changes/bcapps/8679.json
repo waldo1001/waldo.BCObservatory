@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8679,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8679",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-17T10:12:46Z",
+  "merge_commit_sha": "62942d495666d3435f3ea0af2f16f482542ef960",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix missing shop currency mapping on order transactions",
+  "body_hash": "58e87d47fc31f2d1ea86c6e119f4f3b669369855017cbc07cc2a49a5c727e2b6",
+  "fixes_issues": [],
+  "work_items": [
+    641570
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Transactions/Codeunits/ShpfyTransactions.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Transactions/ShpfyTransactionsTest.Codeunit.al",
+      "status": "added",
+      "additions": 404,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 435,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30161",
+        "type": "codeunit",
+        "id": 30161,
+        "name": "Shpfy Import Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30161"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Transactions/Codeunits/ShpfyTransactions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30194",
+        "type": "codeunit",
+        "id": 30194,
+        "name": "Shpfy Transactions",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30194"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

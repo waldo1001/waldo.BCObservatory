@@ -6,7 +6,7 @@
   "title": "table 12116 \"Withholding Tax\": scope Reported/Paid modify guard to st…",
   "url": "https://github.com/microsoft/BCApps/pull/9422",
   "published_at": "2026-07-17T20:03:32Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:35.836Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003694
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:35.978Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:35.983Z",
+      "path": "content/changes/bcapps/9422.md"
     }
   },
   "input_hash": "e4954e9dd44b765e5be2be06f81f39a4bf535d04:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "839a9a08e9d30cada06c601ebc8de66d578ea8c8634ec0dc5f087dcc9944a98a"
+  "output_hash": "37a35838178cdc6b9ecd0ca3d0593afb9bd7b7f021d6e0688d71279396d2ef99"
 }

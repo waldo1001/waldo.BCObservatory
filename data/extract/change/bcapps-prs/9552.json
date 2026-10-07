@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9552",
+  "number": 9552,
+  "title": "[Main]-Issue in TDS calculation during payment application against invoices",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed TDS calculation during payment application against invoices by scaling the applied amount to match the payment's TDS base, ensuring correct tax base computation when GST and payment amounts differ.",
+  "key_points": [
+    "TDS advance payments now use scaled applied amount based on payment TDS base ratio instead of gross amount",
+    "Applied amount calculation: (Amount to Apply) × (Payment TDS Base ÷ Payment Amount)",
+    "Fixed issue where partial payments and multiple invoice applications caused incorrect TDS base and tax amounts",
+    "Scoped consumed original invoice amount to prevent cross-payment interference in multi-invoice scenarios",
+    "Updated use case configuration version to 36 for schema changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Applied amount ko payment ke TDS base terms me scale kiya, sirf apply hone wale payment se scoped",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003976,
+    "changes_in_call": 1
+  }
+}

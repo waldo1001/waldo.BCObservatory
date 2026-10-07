@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9477",
+  "number": 9477,
+  "title": "[main]-Invalid SEPA export file format when SEPA Non-Euro Export enabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "SEPA credit transfer export format is corrected when SEPA Non-Euro Export is enabled to ensure exported XML files comply with the SEPA schema.",
+  "key_points": [
+    "SEPA CT pain.001.001.09 XMLport modified across multiple localization layers (BE, CH, ES, FR, IT, NL, NO, W1)",
+    "Fix applies to SEPA Non-Euro Export functionality that was generating invalid XML files",
+    "Test coverage added across multiple localization test layers to validate the corrected export format",
+    "Changes ensure generated SEPA files meet the required pain.001.001.09 schema specification"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Invalid SEPA export file format when SEPA Non-Euro Export enabled",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004074,
+    "changes_in_call": 1
+  }
+}

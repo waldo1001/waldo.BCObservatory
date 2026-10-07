@@ -6,10 +6,18 @@
   "title": "Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers",
   "url": "https://github.com/microsoft/BCApps/pull/8745",
   "published_at": "2026-07-17T09:01:11Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:46.964Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "60f6f954ab12d51bca7dab5e01e464525a51d052:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 640098 make table information cache refresh resilient to duplicate table numbers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e149edf15825dc017a60b891d6df97a51dc37d0f2b7ebc7965b34c4533187722"
 }

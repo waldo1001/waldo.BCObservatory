@@ -6,10 +6,35 @@
   "title": "Add precision guards for systematic agent false-positive patterns",
   "url": "https://github.com/microsoft/BCQuality/pull/112",
   "published_at": "2026-07-17T12:17:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:38.805Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:44.763Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004294
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:44.769Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:44.783Z",
+      "path": "content/changes/bcquality/112.md"
     }
   },
   "input_hash": "1bf5a3b2764111945051c3881dd0ec338484b3a5:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add precision guards for systematic agent false positive patterns"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "880ba4ced9c3ef3af2e459c767e04ef640bf0c778d72b80a91ec9195e48c4ff8"
 }

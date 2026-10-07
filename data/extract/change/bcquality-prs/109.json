@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/109",
+  "number": 109,
+  "title": "style-review: calibrate variable-declaration order (AA0021) to info",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The variable-declaration-order rule (AA0021) severity is calibrated down from minor to info level in quality reviews because it is redundant with the CodeCop analyzer.",
+  "key_points": [
+    "AA0021 rule severity changes from minor to info to stop competing with substantive style checks",
+    "Rule is purely analyzer-redundant and already covered by CodeCop",
+    "Aligns with similar analyzer-redundant rules (AA0248, AA0074) already at info level",
+    "Online evaluation showed false positive rate, justifying the downgrade",
+    "Text-only change to severity calibration documentation"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003632,
+    "changes_in_call": 1
+  }
+}

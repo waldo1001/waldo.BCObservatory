@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9550",
+  "number": 9550,
+  "title": "[Main]-[BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Purchase invoices with non-availment GST and deferral templates now post correctly in the India localization by handling deferral validation in the tax engine.",
+  "key_points": [
+    "Purchase invoices with non-availment GST failed to post when a default deferral template was configured on a G/L account",
+    "The base application's deferral validation was too strict for the tax engine scenario",
+    "A subscription to the OnBeforeCheckDeferralConditionForGenJournal event now provides localization-specific handling",
+    "The fix also resolves related journal voucher posting issues",
+    "Changes only affect the India tax base application"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Purchase invoice with Non-availment GST does not get posted when a Default Deferral Template is configured on the G/L Account Card.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003727,
+    "changes_in_call": 1
+  }
+}

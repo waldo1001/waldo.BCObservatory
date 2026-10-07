@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9542",
+  "number": 9542,
+  "title": "[main] mapping Dimension Values / IC Dimension Values",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The IC Dimension Values Selector page now includes a missing field that should be populated when copied from another record.",
+  "key_points": [
+    "Field mapping was missing in the IC Dim Values Selector page",
+    "The field is now included when records are copied",
+    "Affects intercompany dimension value handling",
+    "Small change with 5 lines added"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Missing field when copied",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002854,
+    "changes_in_call": 1
+  }
+}

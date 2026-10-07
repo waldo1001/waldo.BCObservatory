@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/112",
+  "number": 112,
+  "title": "Add precision guards for systematic agent false-positive patterns",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Quality rules now include precision guards to prevent the agent from emitting documented false-positive patterns, such as missing tooltips on bound page fields, misunderstanding of Boolean page trigger defaults, and incorrectly flagging unfiltered drilldowns.",
+  "key_points": [
+    "Added precision guards to suppress four recurring false-positive findings that BC reviewers confirmed: missing tooltips on bound fields (inherit from table), Boolean page triggers defaulting to true, effective filters outside the diff, and CalcFields in different lifecycle triggers",
+    "Breaking-change and upgrade reviews now require that affected symbols actually shipped in a released version, preventing false positives for new or unreleased-cycle apps",
+    "Guards are narrowly scoped and documented with developer confirmation from evaluation feedback",
+    "Direction is strictly conservative without suppressing genuine knowledge-backed findings",
+    "Two BC developers confirmed the page-trigger default-return semantics"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004294,
+    "changes_in_call": 1
+  }
+}

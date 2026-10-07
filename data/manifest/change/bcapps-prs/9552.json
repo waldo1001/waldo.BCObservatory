@@ -6,10 +6,35 @@
   "title": "[Main]-Issue in TDS calculation during payment application against invoices",
   "url": "https://github.com/microsoft/BCApps/pull/9552",
   "published_at": "2026-07-17T13:18:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:36.579Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:41.958Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003976
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:42.156Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:42.161Z",
+      "path": "content/changes/bcapps/9552.md"
     }
   },
   "input_hash": "e0f5e4f3d6d0fee87bc4ef9cee40cc3fb18d66ea:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "issue in tds calculation during payment application against invoices"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0aa520761a802b524ff39e4012e9f44503b8a622a182d8716a7026a497d14b39"
 }

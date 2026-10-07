@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9434",
+  "number": 9434,
+  "title": "[Main]-\"Factura Duplicada\" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Spanish version now warns users when a purchase document reuses the same External Document No. across different document types (Invoice vs. Credit Memo) for the same vendor, preventing SII rejection errors that previously only surfaced after posting.",
+  "key_points": [
+    "Added subscribers to validate Vendor Invoice No. and Vendor Cr. Memo No. when SII is enabled",
+    "Detects cross-type duplicates (Invoice vs. Credit Memo) that SII treats as identical",
+    "Looks for posted Vendor Ledger Entries matching vendor, document number, and date",
+    "Shows non-blocking notification with user toggle to warn before posting",
+    "Respects fiscal year settings and excludes entries marked 'Do Not Send To SII'"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004023,
+    "changes_in_call": 1
+  }
+}

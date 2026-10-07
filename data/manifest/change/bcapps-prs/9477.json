@@ -6,10 +6,25 @@
   "title": "[main]-Invalid SEPA export file format when SEPA Non-Euro Export enabled",
   "url": "https://github.com/microsoft/BCApps/pull/9477",
   "published_at": "2026-07-17T10:02:30Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:46.524Z",
+      "change_class": "code",
+      "files": 17,
+      "al": 8,
+      "objects": 6,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:54.039Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004074
     }
   },
   "input_hash": "8c38c6e29a2bc6ead5889c8a175048144603738b:c1",
@@ -30,5 +45,8 @@
     ],
     "community_contribution": true,
     "title_key": "invalid sepa export file format when sepa non euro export enabled"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7f6d63961c8f50527d06030181ea4b758672859015e2ee4a7bf76556161aa03"
 }
