@@ -2,7 +2,8 @@
 /**
  * The galaxy (HANDOFF 5, PLAN 4.7, D66 "galaxy, honest"). The canvas, ports and panel are driven by
  * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
- * Lens bar: changed in a version, this week, more lenses (type, tier, coverage, localization, source), list view.
+ * Lens bar: changed in a version, this week, more lenses (type, tier, coverage, localization, source), list view, and
+ * at system level the Tilt control (A): the same system as four planes, from graph/layers/<system>.json.
  * Tools: zoom, panel, full screen.
  */
 interface Props { height?: string; label?: string }
@@ -19,7 +20,11 @@ const base = import.meta.env.BASE_URL;
     <label class="skip" for="g-lens">More lenses</label>
     <select id="g-lens" data-g-lens><option value="">more lenses</option></select>
     <button type="button" class="g-lens" data-g-view aria-pressed="false">list view</button>
+    <label class="g-tilt" hidden><span>tilt</span> <input type="range" min="0" max="100" step="1" value="0" data-g-tilt aria-describedby="g-tilt-help" /></label>
+    <button type="button" class="g-lens" data-g-planes aria-pressed="false" hidden>planes</button>
+    <span class="skip" id="g-tilt-help">Tilt the system into four planes: media, topic hubs, code and countries. T toggles it, Esc flattens.</span>
   </div>
+  <div class="g-planes" hidden></div>
   <p class="g-legend" hidden><span class="lg-hub" aria-hidden="true"></span>hub <span class="lg-obj" aria-hidden="true"></span>object <span class="lg-tri" aria-hidden="true"></span>video <span class="lg-bar" aria-hidden="true"></span>post <span class="lg-cross" aria-hidden="true"></span>crosses out <span class="lg-com" aria-hidden="true"></span>community</p>
   <div class="g-tools">
     <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
@@ -100,6 +105,27 @@ const base = import.meta.env.BASE_URL;
   .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
   .g-nav .icon-btn { background: var(--surface); }
   .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; pointer-events: none; }
+  /* tilt (A): a labelled range in the lens bar, plane labels as buttons that fold and unfold their plane */
+  .g-tilt { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--accent); border: 1px solid var(--line-strong); border-radius: var(--r-badge); background: var(--g-port-bg); }
+  .g-tilt input { width: 110px; accent-color: var(--accent); }
+  .g-tilt[hidden], .g-lensbar :global([hidden]) { display: none; }
+  .g-planes { position: absolute; inset: 0; pointer-events: none; }
+  .g-planes :global(.g-plane) {
+    position: absolute; left: 0; top: 0; pointer-events: auto; display: grid; gap: 1px; width: 160px; min-height: 44px; padding: 4px 8px; text-align: right;
+    background: none; border: 1px solid transparent; border-radius: var(--r-card); color: var(--ly-plane-label); cursor: pointer;
+  }
+  .g-planes :global(.g-plane b) { font: 500 12px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
+  .g-planes :global(.g-plane small) { font: 400 11px var(--font-mono); color: var(--muted); }
+  .g-planes :global(.g-plane[aria-pressed="false"]) { border-color: var(--ly-plane-border); }
+  .g-planes :global(.g-plane:hover) { border-color: var(--line-strong); }
+  .g-panel :global(.g-planecounts) { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+  .g-panel :global(.g-planecounts b), .g-panel :global(.g-n) { font: 500 13px var(--font-mono); color: var(--text); }
+  .g-panel :global(.g-tiltlens) { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font: 400 12px var(--font-mono); }
+  .g-panel :global(.g-tiltlens select), .g-panel :global(.g-tiltlens .g-lens) { min-height: 32px; font: 400 12px var(--font-mono); color: var(--text-2); background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: var(--r-badge); padding: 0 10px; cursor: pointer; }
+  .g-panel :global(.g-tiltlens .g-lens[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .g-table :global(.g-tabs) { display: flex; gap: 6px; margin: 0 0 8px; flex-wrap: wrap; }
+  .g-table :global(.g-tabs button) { min-height: 36px; padding: 0 12px; font: 400 12px var(--font-mono); text-transform: uppercase; color: var(--text-2); background: none; border: 1px solid var(--line-strong); border-radius: var(--r-badge); cursor: pointer; }
+  .g-table :global(.g-tabs [aria-selected="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
   /* list view: the system as a sortable table in place of the canvas */
   .g-table { position: absolute; inset: 128px 16px 56px 16px; overflow: auto; background: var(--g-bg); z-index: 1; }
   .galaxy:global(.g-panel-open) .g-table { right: 396px; }
@@ -167,11 +193,12 @@ const base = import.meta.env.BASE_URL;
   }
   /* 390 (HANDOFF D responsive): no interactive galaxy; a static 150px locator strip, then the panel as the page */
   @media (max-width: 480px) {
-    .galaxy { height: auto; touch-action: auto; overflow: visible; }
+    .galaxy { height: auto; touch-action: auto; overflow: visible; display: flex; flex-direction: column; }
+    .galaxy canvas { order: 0; } .g-crumbs { order: 1; } .g-lensbar { order: 2; } .g-panel { order: 3; } .g-table { order: 4; }
     .galaxy canvas { position: relative; height: 150px; pointer-events: none; }
     .g-crumbs { position: static; padding: 12px 16px 0; max-width: none; }
     .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { position: static; padding: 8px 16px; max-width: none; }
-    .g-tools, .g-nav, .g-level, .g-ports, .g-labels { display: none; }
+    .g-tools, .g-nav, .g-level, .g-ports, .g-labels, .g-planes { display: none; }
     .g-panel, .galaxy:global(.g-panel-open) .g-panel { position: static; height: auto; width: 100%; border: 0; animation: none; padding: 16px; }
     .g-panel :global(.g-dock), .g-panel :global(.g-dock-2) { display: flex; overflow-x: auto; gap: 6px; }
     .g-panel :global(.g-exit) { flex: none; }

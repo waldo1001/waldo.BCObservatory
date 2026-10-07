@@ -10,7 +10,7 @@ export function parseHash(hash: string): Map<string, string> {
     const i = part.indexOf("=");
     if (i <= 0) continue;
     const k = part.slice(0, i), v = decodeURIComponent(part.slice(i + 1));
-    if (["system", "star", "lens", "q", "view"].includes(k) && v) out.set(k, v);
+    if (["system", "star", "lens", "q", "view", "tilt"].includes(k) && v) out.set(k, v);
   }
   return out;
 }

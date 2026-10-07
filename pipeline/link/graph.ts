@@ -70,7 +70,13 @@ export interface Graph {
   /** Per source: how many of its items fall in each galaxy system. */
   reach: Record<string, Record<string, number>>;
   /** What the layout and the star fields need besides nodes and edges. */
-  aux: { ns: Map<string, { ns: string | null; app: string | null }>; parent: Map<string, string | null>; media: Map<string, Set<string>> };
+  aux: {
+    ns: Map<string, { ns: string | null; app: string | null }>; parent: Map<string, string | null>; media: Map<string, Set<string>>;
+    /** Objects: Learn pages naming them, countries replacing them, obsolete state, and whether the page is a country layer's. */
+    obj: Map<string, { learn: number; countries: string[]; obsolete: string | null; country: boolean }>;
+    /** Every placed node, stars or not (set by layout): the layers files need every object of a system. */
+    pos?: Map<string, { x: number; y: number }>;
+  };
 }
 
 /** Read every content page and build nodes and edges (no layout yet). */
@@ -106,7 +112,7 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
   }
   const mentioned = (fm: Record<string, any>) => [...new Set([...(fm.objects_mentioned ?? []), ...(fm.code_objects_mentioned ?? [])]
     .map((m: unknown) => objectByName.get(String(m).toLowerCase().trim())).filter((x): x is string => !!x))];
-  const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map() };
+  const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map(), obj: new Map() };
   const addMedia = (hub: string, m: string) => (aux.media.get(hub) ?? aux.media.set(hub, new Set()).get(hub)!).add(m);
   for (const { id, fm, path } of pages) {
     if (fm.type === "digest") continue;
@@ -114,7 +120,10 @@ export function buildGraph(contentDir: string, _siteBase = ""): Graph {
     const date = fm.published_at ?? fm.ga_date ?? null;
     // url relative to the site root (siteBase prefixes it in the browser): keeps the summary small
     add({ id, type: fm.type, label: String(fm.title ?? id), tier: fm.tier === "community" ? "community" : fm.tier === "mixed" ? "mixed" : "official", group, url: `${path}/`, lit_at: date ? String(date).slice(0, 10) : null });
-    if (fm.type === "object") aux.ns.set(id, { ns: fm.namespace ?? null, app: fm.app ?? null });
+    if (fm.type === "object") {
+      aux.ns.set(id, { ns: fm.namespace ?? null, app: fm.app ?? null });
+      aux.obj.set(id, { learn: (fm.links?.learn ?? []).length, countries: (fm.countries ?? []).map(String).sort(), obsolete: fm.obsolete?.state ?? null, country: !!fm.country });
+    }
     if (fm.type === "topic") aux.parent.set(id, typeof fm.parent === "string" ? fm.parent : null);
     const L = fm.links ?? {};
     for (const t of L.topics ?? []) edge(id, t, fm.type === "object" ? "documents" : "relates");
@@ -277,7 +286,7 @@ export function layout(g: Graph, keep: Set<string>, code: CodeInput, tocOrder: M
     return { ...(ob.length ? { ob } : {}), ...(ec ? { ec } : {}), ...(nn ? { nn } : {}), ...(a ? { ns: nsSegments(a.ns, a.app).join(".") } : {}) };
   };
   return {
-    ...g, systems,
+    ...g, systems, aux: { ...g.aux, pos: L.pos },
     nodes: g.nodes.map((n) => {
       if (!keep.has(n.id)) return n;
       const p = L.pos.get(n.id) ?? placed.get(n.group) ?? { x: 0, y: 0 };
@@ -318,6 +327,59 @@ export function tocOrder(dataDir: string): Map<string, number> {
   return new Map(hubs.map((h, i) => [h.id, i]));
 }
 
+export interface LayersFile {
+  system: string; label: string; x: number; y: number; r: number;
+  /** [page key, x, y, Learn pages, hub indexes, media, countries replacing it (space separated), flags: 1 star, 2 obsolete, 4 changed] */
+  objects: [string, number, number, number, number[], number, string, number][];
+  /** [hub id, x, y, media]: the system's topic hubs and roadmap features */
+  hubs: [string, number, number, number][];
+  /** [media id, v | p, hub indexes, title] */
+  media: [string, string, number[], string][];
+  /** countries that replace at least one object of the system, with how many */
+  countries: Record<string, number>;
+}
+
+/**
+ * The layered view's file per system (D66, HANDOFF A section 5): every object of the system (not only the stars) at its
+ * D position, the hubs and the media on them, and the lines between the planes: a hub names an object (its page links
+ * the hub), a video or post is on a hub, a country replaces an object. Country-layer objects are the country plane,
+ * not objects of their own here.
+ */
+export function layersFiles(g: Graph, keep: Set<string>): LayersFile[] {
+  const pos = g.aux.pos ?? new Map();
+  const byId = new Map(g.nodes.map((n) => [n.id, n]));
+  const hubsOf = new Map<string, Set<string>>();
+  for (const e of g.edges) if (e.type === "documents") {
+    const [o, h] = e.s.startsWith("object/") ? [e.s, e.t] : [e.t, e.s];
+    if (o.startsWith("object/") && (h.startsWith("topic/") || h.startsWith("feature/"))) (hubsOf.get(o) ?? hubsOf.set(o, new Set()).get(o)!).add(h);
+  }
+  const out: LayersFile[] = [];
+  for (const s of g.systems) {
+    const hubs = g.nodes.filter((n) => n.group === s.id && (n.type === "topic" || n.type === "feature") && pos.has(n.id));
+    const objects = g.nodes.filter((n) => n.group === s.id && n.type === "object" && pos.has(n.id) && !g.aux.obj.get(n.id)?.country);
+    if (!objects.length && !hubs.length) continue;
+    const hubIx = new Map(hubs.map((h, i) => [h.id, i]));
+    const mediaIx = new Map<string, number[]>();
+    hubs.forEach((h, i) => { for (const m of g.aux.media.get(h.id) ?? []) mediaIx.set(m, [...(mediaIx.get(m) ?? []), i]); });
+    const countries: Record<string, number> = {};
+    const r1 = (v: number) => Math.round(v * 10) / 10;
+    const rows = objects.map((n) => {
+      const o = g.aux.obj.get(n.id)!, p = pos.get(n.id)!;
+      for (const c of o.countries) countries[c] = (countries[c] ?? 0) + 1;
+      const hubsHere = [...(hubsOf.get(n.id) ?? [])].map((h) => hubIx.get(h)).filter((i): i is number => i !== undefined).sort((a, b) => a - b);
+      const flags = (keep.has(n.id) ? 1 : 0) | (o.obsolete ? 2 : 0) | (n.cv?.length ? 4 : 0);
+      return [n.id.slice("object/".length), r1(p.x), r1(p.y), o.learn, hubsHere, g.aux.media.get(n.id)?.size ?? 0, o.countries.join(" "), flags] as LayersFile["objects"][number];
+    });
+    out.push({
+      system: s.id, label: s.label, x: s.x, y: s.y, r: s.r, objects: rows,
+      hubs: hubs.map((h) => { const p = pos.get(h.id)!; return [h.id, r1(p.x), r1(p.y), g.aux.media.get(h.id)?.size ?? 0]; }),
+      media: [...mediaIx].sort(([a], [b]) => a.localeCompare(b)).map(([m, ix]) => [m, byId.get(m)?.type === "video" ? "v" : "p", ix, byId.get(m)?.label ?? m]),
+      countries: Object.fromEntries(Object.entries(countries).sort(([a], [b]) => a.localeCompare(b))),
+    });
+  }
+  return out;
+}
+
 const writeIfChanged = (p: string, text: string) => { if (!exists(p) || readText(p) !== text) { writeText(p, text); return true; } return false; };
 const strip = (n: GNode) => ({ ...n, weight: Math.round(n.weight * 10) / 10 });
 /** Summary nodes leave out `url` when it is the page path derived from the id (`object/table/18` -> `objects/table/18/`). */
@@ -350,6 +412,14 @@ export function renderGraph(contentDir: string, dataDir: string, siteBase = "", 
   const week = landed(g, keep, opts.today ?? new Date().toISOString().slice(0, 10));
   if (writeIfChanged(resolve(dir, "landed.json"), `${JSON.stringify(week)}\n`)) written++;
   if (writeIfChanged(resolve(dir, "full.jsonl"), g.edges.map((e) => JSON.stringify(e)).join("\n") + "\n")) written++;
+  // the layered view's file per system, loaded only when the reader tilts a system
+  const layersDir = resolve(dir, "layers"), layerFiles = new Set<string>();
+  for (const f of layersFiles(g, keep)) {
+    const file = resolve(layersDir, `${f.system}.json`);
+    layerFiles.add(file);
+    if (writeIfChanged(file, `${JSON.stringify(f)}\n`)) written++;
+  }
+  for (const f of listFiles(layersDir, ".json")) if (!layerFiles.has(f)) { removeIfExists(f); written++; }
   // ego graphs for summary nodes
   const byNode = new Map<string, GEdge[]>();
   for (const e of g.edges) { byNode.set(e.s, [...(byNode.get(e.s) ?? []), e]); byNode.set(e.t, [...(byNode.get(e.t) ?? []), e]); }
