@@ -51,7 +51,8 @@ const objects = (diff?.objects ?? []).filter((o: any) => o.change === "replaced"
     if (note) { note.hidden = false; note.querySelector(".cdiff-area")!.textContent = `${ns} (${shown} objects)`; }
   }
 </script>
-<style>
+<style is:global>
+  /* every selector is under .cdiff, so these stay global: scoped, they put a data-astro-cid attribute on each of up to 6,500 elements of a localization page, 27% of its bytes (D53, D76) */
   .cdiff { display: grid; gap: 6px; }
   .cdiff details { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
   .cdiff summary { cursor: pointer; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; min-height: 40px; }

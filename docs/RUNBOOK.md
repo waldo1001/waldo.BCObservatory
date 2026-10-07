@@ -111,6 +111,21 @@ uv tool uninstall graphifyy   # to remove
 - Etiquette (D67 decision 1): it is one person's server. Resolve, don't search; one or two calls per question; never
   `bcatlas_request_version` unasked. Nothing scheduled (nightly, selfcheck, workflows) ever calls it.
 
+## Pages (D76)
+
+- The `pages` workflow's step "Size budget" runs `npx tsx scripts/site-size.ts site/dist --json site-size.json` and
+  writes a table to the run summary: tar bytes (what `upload-pages-artifact` uploads, computed exactly: headers,
+  512-byte blocks, long names, directories), apparent bytes (sum of file sizes), files, headroom to 900 MB, and the
+  ten largest sections. MB = 2^20 bytes. Run the same line locally after `npm run site:build`.
+- Thresholds: under 800 MB nothing; from 800 MB a `::warning::` annotation (the build still deploys); from 900 MB
+  the step fails and nothing deploys. GitHub refuses a published site above 1 GB.
+- Triggers (`docs/specs/site-size.md` 4.4, 4.5, also in HANDOFF): tar bytes above 850 MB means phase 3, the object
+  markdown twins served from `raw.githubusercontent.com` at the build's commit (about 120 MB, 25,600 files); above
+  900 MB after that, or a bandwidth notice from GitHub, means a new host (Cloudflare Pages paid, or object storage
+  behind a CDN): write that spec then.
+- Before adding a component to every object page, keep its `<style>` `is:global` under one wrapper class (D53,
+  D76): a scoped style puts a `data-astro-cid-*` attribute on every element it covers, on 25,000 pages.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

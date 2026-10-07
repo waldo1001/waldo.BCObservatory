@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/site-size.json",
+  "title": "Size of a built site as GitHub Pages receives it (D76): tar bytes, apparent bytes, files, largest sections",
+  "type": "object",
+  "required": ["tar_bytes", "apparent_bytes", "files", "dirs", "sections", "section_count", "exts"],
+  "additionalProperties": false,
+  "properties": {
+    "tar_bytes": { "type": "integer", "minimum": 0, "description": "bytes of the GNU tar upload-pages-artifact builds: 512-byte headers, data blocks, long-name headers, directory entries, end-of-archive, 10,240-byte records" },
+    "apparent_bytes": { "type": "integer", "minimum": 0, "description": "sum of the file sizes" },
+    "files": { "type": "integer", "minimum": 0 },
+    "dirs": { "type": "integer", "minimum": 0, "description": "directory entries in the tar, the root included" },
+    "section_count": { "type": "integer", "minimum": 0 },
+    "sections": {
+      "type": "array", "maxItems": 10, "description": "the ten largest first path segments by apparent bytes; '(root)' for files at the top",
+      "items": {
+        "type": "object", "required": ["name", "bytes", "tar_bytes", "files"], "additionalProperties": false,
+        "properties": { "name": { "type": "string" }, "bytes": { "type": "integer", "minimum": 0 }, "tar_bytes": { "type": "integer", "minimum": 0 }, "files": { "type": "integer", "minimum": 0 } }
+      }
+    },
+    "exts": {
+      "type": "object", "description": "apparent bytes and files per lower-case extension ('' for none)",
+      "additionalProperties": {
+        "type": "object", "required": ["bytes", "files"], "additionalProperties": false,
+        "properties": { "bytes": { "type": "integer", "minimum": 0 }, "files": { "type": "integer", "minimum": 0 } }
+      }
+    }
+  }
+}

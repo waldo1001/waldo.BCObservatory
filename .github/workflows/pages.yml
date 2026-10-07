@@ -5,7 +5,7 @@ name: pages
 on:
   push:
     branches: [main]
-    paths: ["content/**", "data/**", "site/**", "package-lock.json", ".github/workflows/pages.yml"]
+    paths: ["content/**", "data/**", "site/**", "package-lock.json", "scripts/site-size.ts", ".github/workflows/pages.yml"]
   workflow_run:
     workflows: [nightly]
     types: [completed]
@@ -34,11 +34,10 @@ jobs:
           SITE_BASE: /${{ github.event.repository.name }}
           SITE_ORIGIN: https://${{ github.repository_owner }}.github.io
         run: npm run site:build
-      - name: Size budget (Pages limit 1 GB, budget 900 MB)
-        run: |
-          size=$(du -sm site/dist | cut -f1)
-          echo "site/dist: $size MB"
-          test "$size" -lt 900
+      # what upload-pages-artifact uploads is a tar, so the check counts tar bytes, not du's disk blocks (D76);
+      # the run summary gets the table, a warning from 800 MB, a failure from 900 MB
+      - name: Size budget (tar bytes, budget 900 MB, Pages limit 1 GB)
+        run: npx tsx scripts/site-size.ts site/dist --json site-size.json
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site/dist

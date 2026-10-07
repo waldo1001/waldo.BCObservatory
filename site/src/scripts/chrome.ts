@@ -32,4 +32,7 @@ export function mountChrome(): void {
     try { localStorage.setItem("bcobs-theme", next); } catch {}
     dispatchEvent(new Event("bcobs-theme"));
   });
+  // an object page's version timeline (VersionTimeline.astro): where the row scrolls, show the newest majors first.
+  // Here rather than in the component, whose own module tag cost 130 bytes on each of 25,000 object pages (D76)
+  for (const ol of document.querySelectorAll<HTMLElement>(".tl .timeline")) if (ol.scrollWidth > ol.clientWidth) ol.scrollLeft = ol.scrollWidth;
 }

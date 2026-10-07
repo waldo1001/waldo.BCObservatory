@@ -28,10 +28,11 @@ const dot = (r: RelatedRow) => (r.system ? `--dot: var(--sys-${r.system})` : "--
     )}
   </section>
 )}
-<style>
-  .rel-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 8px; font-size: 14px; }
-  .rel-list li { display: grid; gap: 2px; min-width: 0; }
-  .rel-list a { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; overflow-wrap: anywhere; }
-  .rel-list .g-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); align-self: center; }
-  .rel-why { padding-left: 16px; font-size: 13px; }
+<style is:global>
+  /* global under the root class: a scoped style puts a data-astro-cid attribute on every element, on every object page (D53, D76) */
+  .related .rel-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 8px; font-size: 14px; }
+  .related .rel-list li { display: grid; gap: 2px; min-width: 0; }
+  .related .rel-list a { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; overflow-wrap: anywhere; }
+  .related .rel-list .g-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); align-self: center; }
+  .related .rel-why { padding-left: 16px; font-size: 13px; }
 </style>

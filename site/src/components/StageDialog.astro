@@ -2,7 +2,8 @@
 /**
  * The video dialog (D60 phase 2): an evidence chip that points at a second of a video (`a[data-kind="video"][data-t]`,
  * EvidenceChip.astro, D64) opens the player there, on topic, feature and object pages. Esc or Close removes the
- * player, so the audio stops. Modifier clicks and pages without JavaScript keep the chip's own link.
+ * player, so the audio stops. Modifier clicks and pages without JavaScript keep the chip's own link. Mounted by the one
+ * script of layouts/Page.astro (D76).
  */
 ---
 <dialog class="stage-dialog" aria-label="Video">
@@ -13,8 +14,3 @@
   </div>
   <div class="stage-slot"><div class="stage-frame"></div></div>
 </dialog>
-<script>
-  import { mountStageDialog } from "../scripts/source-stage";
-  const d = document.querySelector<HTMLDialogElement>("dialog.stage-dialog");
-  if (d) mountStageDialog(d);
-</script>

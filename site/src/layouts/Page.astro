@@ -73,4 +73,14 @@ const g = fm.generated ?? {};
     </div>
   </main>
   <StageDialog />
+  <script>
+    // the locator, the connections (PageGalaxy.astro) and the video dialog (StageDialog.astro) in one module: a module
+    // tag per component cost about 125 bytes on each of 28,000 pages (D76)
+    import { mountConnections, mountLocator } from "../scripts/locator";
+    import { mountStageDialog } from "../scripts/source-stage";
+    for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
+    for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
+    const d = document.querySelector<HTMLDialogElement>("dialog.stage-dialog");
+    if (d) mountStageDialog(d);
+  </script>
 </Base>

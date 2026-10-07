@@ -49,8 +49,8 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
     <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions) and the extracted call graph. The sections below list everything; the diagram shows up to 40. The explorer walks on from here, one neighbour at a time.</p>
   </section>
 )}
-<!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
 <style is:global>
+  /* the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53); a CSS comment, not an HTML one, which would ship on every object page (D76) */
   .nb svg { width: 100%; height: auto; display: block; max-width: 760px; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
   .nb .e { stroke: var(--g-edge); stroke-width: 1; }
   .nb .e.subscribers { stroke-dasharray: 3 3; }

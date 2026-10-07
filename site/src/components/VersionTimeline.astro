@@ -1,5 +1,5 @@
 ---
-/** Version timeline (HANDOFF 4): one column per snapshot major; the versions an object changed in use the accent. */
+/** Version timeline (HANDOFF 4): one column per snapshot major; the versions an object changed in use the accent. The scroll to the newest majors is in scripts/chrome.ts (D76). */
 import { majors, type ObjectHistory } from "../lib/versions";
 interface Props { presentIn: string[]; changedIn: string[]; history: ObjectHistory | null; obsolete?: { state?: string; tag?: string } | null }
 const { presentIn, changedIn, history, obsolete } = Astro.props;
@@ -28,21 +28,17 @@ const cols = majors().map(({ version, label }, i) => {
     ))}
   </ol>
 </section>
-<script>
-  // where the row scrolls, show the newest majors first
-  for (const ol of document.querySelectorAll<HTMLElement>(".tl .timeline")) if (ol.scrollWidth > ol.clientWidth) ol.scrollLeft = ol.scrollWidth;
-</script>
-<style>
+<style is:global>
+  /* global under the root class: a scoped style puts a data-astro-cid attribute on every element, on every object page (D53, D76) */
   /* one row, however many majors (BC23-30 once the older ones are in, D62): it scrolls sideways where it does not fit */
-  .timeline { list-style: none; padding: 0 0 6px; margin: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(104px, 1fr); overflow-x: auto; scroll-snap-type: x proximity; }
-  .timeline li { scroll-snap-align: end; }
-  .timeline li { position: relative; padding: 22px 12px 0 0; display: grid; gap: 2px; }
-  .timeline li::before { content: ""; position: absolute; top: 6px; left: 0; right: 0; height: 1px; background: var(--line-strong); }
-  .timeline li:last-child::before { right: auto; width: 12px; }
-  .dot { position: absolute; top: 2px; left: 0; width: 9px; height: 9px; border-radius: 50%; background: var(--text-2); }
-  .changed .dot { top: -1px; left: -3px; width: 15px; height: 15px; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-surface); }
-  .absent .dot { background: var(--bg); border: 1px solid var(--line-strong); }
-  .v { font: 500 13px var(--font-mono); color: var(--text); }
-  .changed .v { color: var(--accent); }
-  .txt { font-size: 13px; color: var(--muted); }
+  .tl .timeline { list-style: none; padding: 0 0 6px; margin: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(104px, 1fr); overflow-x: auto; scroll-snap-type: x proximity; }
+  .tl .timeline li { scroll-snap-align: end; position: relative; padding: 22px 12px 0 0; display: grid; gap: 2px; }
+  .tl .timeline li::before { content: ""; position: absolute; top: 6px; left: 0; right: 0; height: 1px; background: var(--line-strong); }
+  .tl .timeline li:last-child::before { right: auto; width: 12px; }
+  .tl .timeline .dot { position: absolute; top: 2px; left: 0; width: 9px; height: 9px; border-radius: 50%; background: var(--text-2); }
+  .tl .timeline .changed .dot { top: -1px; left: -3px; width: 15px; height: 15px; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-surface); }
+  .tl .timeline .absent .dot { background: var(--bg); border: 1px solid var(--line-strong); }
+  .tl .timeline .v { font: 500 13px var(--font-mono); color: var(--text); }
+  .tl .timeline .changed .v { color: var(--accent); }
+  .tl .timeline .txt { font-size: 13px; color: var(--muted); }
 </style>
