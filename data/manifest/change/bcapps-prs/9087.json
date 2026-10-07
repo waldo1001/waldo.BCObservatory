@@ -6,10 +6,35 @@
   "title": "Bug 641331: Copy Production Order Document lookup shows the current document",
   "url": "https://github.com/microsoft/BCApps/pull/9087",
   "published_at": "2026-08-12T14:01:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:30.714Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:35.846Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003273
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:35.990Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:35.995Z",
+      "path": "content/changes/bcapps/9087.md"
     }
   },
   "input_hash": "49a9571fc8b85603359b60e43894b7d8515c9fe6:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 641331 copy production order document lookup shows the current document"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b57e51ad0916edd4c7bde3da727239d5e25fd671d1c534ff9da681c376c751c3"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10098",
+  "number": 10098,
+  "title": "Reenable Expense Agent VAT tests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Tests for expense posting with VAT calculations in the Expense Agent are re-enabled by moving them from a disabled tests list back to the main test suite.",
+  "key_points": [
+    "Expense Agent VAT posting tests were previously disabled and are now re-enabled",
+    "Tests moved from DisabledTests folder configuration to active ExpensePostingVATTest codeunit",
+    "Minor adjustment made to Gen. Jnl.-Post Line codeunit base application code",
+    "Addresses issue AB#646563",
+    "Validates VAT handling in expense posting scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003491,
+    "changes_in_call": 1
+  }
+}

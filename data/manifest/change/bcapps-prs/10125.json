@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30395: expose production pick grouping number",
   "url": "https://github.com/microsoft/BCApps/pull/10125",
   "published_at": "2026-08-12T15:26:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:28.244Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:33.247Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003345
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:33.392Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:33.396Z",
+      "path": "content/changes/bcapps/10125.md"
     }
   },
   "input_hash": "8aa2edfc312bcc13e0334f0a243b5ed5f584a537:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30395 expose production pick grouping number"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "72f7a8a42c1aafd9c6bba1abc16322aca71ad5fd4e4bb3419dc957f1b339b73e"
 }

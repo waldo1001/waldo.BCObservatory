@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10067",
+  "number": 10067,
+  "title": "[Quality Management] Enable Bin code selection for transfer disposition in workflow response",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Bin code selection is now available for transfer disposition in workflow responses for quality inspections, matching the behavior of the manual disposition form.",
+  "key_points": [
+    "Adds bin code selection capability to transfer disposition in workflow response options",
+    "Aligns workflow behavior with manual quality inspection disposition form",
+    "Affects Quality Management workflow response handling",
+    "Minimal code changes with net reduction in lines",
+    "Resolves synchronization issue between workflow and manual processes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Synchronize behavior with manual disposition form quality inspection.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003021,
+    "changes_in_call": 1
+  }
+}

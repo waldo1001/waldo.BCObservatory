@@ -6,10 +6,35 @@
   "title": "Harden SFTP Client module (security review phase 1)",
   "url": "https://github.com/microsoft/BCApps/pull/9360",
   "published_at": "2026-08-12T09:17:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:38.131Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:44.574Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004574
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:44.816Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:44.821Z",
+      "path": "content/changes/bcapps/9360.md"
     }
   },
   "input_hash": "636f3106cffe75da027d6f3fad0de30108c50c65:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "harden sftp client module security review phase 1"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ee368770bcd01b38c48983bd2c796172e079ff51fd8f718ccadbcb87ef773ec"
 }

@@ -6,10 +6,35 @@
   "title": "Add GTIN to XRechnung and ZUGFeRD exports",
   "url": "https://github.com/microsoft/BCApps/pull/10048",
   "published_at": "2026-08-12T10:29:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:35.830Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:40.744Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003513
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:40.974Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:44.566Z",
+      "path": "content/changes/bcapps/10048.md"
     }
   },
   "input_hash": "56f959f1347ef46b5a684372bd8863475e9fd92f:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "add gtin to xrechnung and zugferd exports"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4dc1baac635e3388109e2f08536a9f18c25dc1e60760a9208c17d01e5c6e4f75"
 }

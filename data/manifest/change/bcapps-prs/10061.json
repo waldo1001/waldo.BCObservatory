@@ -6,10 +6,18 @@
   "title": "[Master]-Payment Reference from Purchase Order Prepayment Invoice is not Transferred to Vendor Ledger Entries.",
   "url": "https://github.com/microsoft/BCApps/pull/10061",
   "published_at": "2026-08-12T07:29:22Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:39.789Z",
+      "change_class": "code",
+      "files": 17,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
     }
   },
   "input_hash": "693eb0c46bc15573036f98b01fdd0be5f6dcf632:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "master payment reference from purchase order prepayment invoice is not transferred to vendor ledger entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e81cc1d4ff8a27756f741828d89cc4c3e628e1cabdd58551ba345b3adbe27aaf"
 }

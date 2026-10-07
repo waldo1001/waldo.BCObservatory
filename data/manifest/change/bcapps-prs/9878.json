@@ -6,10 +6,18 @@
   "title": "Add buyer order reference to ZUGFeRD export",
   "url": "https://github.com/microsoft/BCApps/pull/9878",
   "published_at": "2026-08-12T10:31:44Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:36.776Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "e83fb30c3dd6151b96777240cdb1e678c79fd4f7:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "add buyer order reference to zugferd export"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "135b5cd1229b39737ea5223a89e53d4da31bc98754ade6ca1f76c7b080edbce3"
 }

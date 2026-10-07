@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30400: add credit memo line filter event",
   "url": "https://github.com/microsoft/BCApps/pull/10124",
   "published_at": "2026-08-12T15:24:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:29.221Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 4,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:34.540Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003671
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:34.746Z",
+      "objects": 4,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:34.752Z",
+      "path": "content/changes/bcapps/10124.md"
     }
   },
   "input_hash": "f199a646666a26922a3cf1f918f9694a7d480108:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30400 add credit memo line filter event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "89d9611009fca5f390fd9cf67d77150692027c34ad1a262c12810a6874896773"
 }

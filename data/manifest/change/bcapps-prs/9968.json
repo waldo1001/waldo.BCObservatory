@@ -6,7 +6,7 @@
   "title": "[BC-IN] TDS Amount Not Calculated on Initial TDS Section Selection in Bank Payment Voucher",
   "url": "https://github.com/microsoft/BCApps/pull/9968",
   "published_at": "2026-08-12T20:44:33Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.005249
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:27.729Z",
+      "objects": 0,
+      "unjoined": 32,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:27.735Z",
+      "path": "content/changes/bcapps/9968.md"
     }
   },
   "input_hash": "d95885cef41c0ad552f99418a4ac75b4fb8c4d55:c1",
@@ -48,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78d0098cc8b174559f938ec826e988c8cee82c71d963bb010770a82792c519c5"
+  "output_hash": "ba3ccfacfa81b4d6a4637deabf2e0773dee9fe08c3b7fb16791f4c30aeac100d"
 }

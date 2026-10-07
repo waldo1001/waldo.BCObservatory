@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10125,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10125",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T15:26:26Z",
+  "merge_commit_sha": "8aa2edfc312bcc13e0334f0a243b5ed5f584a537",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30395: expose production pick grouping number",
+  "body_hash": "71c90f12c5289132841ad26761f7d7d967e22ee469314949e3a5394ec46d9a46",
+  "fixes_issues": [],
+  "work_items": [
+    645233
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgWhseSourceCreateDocument.ReportExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 9,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgWhseSourceCreateDocument.ReportExt.al",
+        "status": "modified",
+        "key": "reportextension/7305",
+        "type": "reportextension",
+        "id": 7305,
+        "name": "Mfg. WhseSourceCreateDocument",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "reportextension/7305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

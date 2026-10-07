@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10066",
+  "number": 10066,
+  "title": "[PEPPOL] Handle unknown persisted PEPPOL format values",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The PEPPOL 3.0 Format enum now handles persisted format values that become unknown when their declaring extension is uninstalled, preventing runtime errors and prompting users to select an available format.",
+  "key_points": [
+    "Added unknown-value mappings for all interfaces implemented by the PEPPOL Format enum",
+    "Created a handler that guides users to select an available format when encountering unknown formats",
+    "Added test coverage for validation and conversion of persisted unknown ordinal values"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "A PEPPOL format enum ordinal can remain in the persisted PEPPOL 3.0 Setup after the enum extension that declared it is uninstalled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003432,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9570",
+  "number": 9570,
+  "title": "[Master]-Rounding Differences in ARAP with Deferrals and Non-Deductible VAT",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Rounding differences in accounts receivable/payable with deferrals and non-deductible VAT are corrected in the Gen. Jnl.-Post Line codeunit across all localization layers. Test cases were added to verify the fix.",
+  "key_points": [
+    "Fixes rounding calculation issues in journal posting with deferrals and non-deductible VAT combinations",
+    "Updates applied consistently across 11 localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU)",
+    "Test coverage added for non-deductible VAT scenarios to prevent regression",
+    "Affects the core posting logic in codeunit 12",
+    "No breaking changes to public interfaces or events"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005165,
+    "changes_in_call": 1
+  }
+}

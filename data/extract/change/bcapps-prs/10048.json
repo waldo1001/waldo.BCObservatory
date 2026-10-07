@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10048",
+  "number": 10048,
+  "title": "Add GTIN to XRechnung and ZUGFeRD exports",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD documents with GS1 scheme, enabling recipients to identify invoiced items by their standard product identifier.",
+  "key_points": [
+    "GTIN values are exported with GS1 scheme 0160 to item lines in XRechnung and ZUGFeRD formats",
+    "Applies to sales invoices and credit memos",
+    "Blank GTIN values are omitted from exports",
+    "XML regression tests added for both formats",
+    "Improves item identification capabilities for retail and service scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003513,
+    "changes_in_call": 1
+  }
+}

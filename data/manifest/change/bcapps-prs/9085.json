@@ -6,7 +6,7 @@
   "title": "Bug 640958: Guided error for subcontracting direct transfer from whse-handling location",
   "url": "https://github.com/microsoft/BCApps/pull/9085",
   "published_at": "2026-08-12T18:32:23Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:27.737Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003532
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:27.920Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:27.925Z",
+      "path": "content/changes/bcapps/9085.md"
     }
   },
   "input_hash": "1a4de1430e890c63801bce9c9d3061542fe68fc6:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "705aff94e97129aca6d5c8834e182a89fd5bc3106553583fe7b13f01c6d7aa34"
+  "output_hash": "7d96c508c2dfe3ae2f4a3c8d4583d1a9e42b7b208a325c9ed6f072a5807c5c65"
 }

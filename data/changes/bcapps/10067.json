@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10067,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10067",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T10:15:32Z",
+  "merge_commit_sha": "e085b02aad0286d3e85949c179c33aa9beb5415d",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Enable Bin code selection for transfer disposition in workflow response",
+  "body_hash": "2aff6af14e3c7eb48080909445f4ae2928a3e2b5701aafa4456ee324fa70bc86",
+  "fixes_issues": [],
+  "work_items": [
+    624735
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowRespOptions.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 13,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 9,
+    "deletions": 13,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Workflow/QltyWorkflowRespOptions.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20403",
+        "type": "pageextension",
+        "id": 20403,
+        "name": "Qlty. Workflow Resp. Options",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "pageextension/20403"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

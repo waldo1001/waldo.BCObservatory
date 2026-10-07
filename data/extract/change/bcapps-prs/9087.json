@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9087",
+  "number": 9087,
+  "title": "Bug 641331: Copy Production Order Document lookup shows the current document",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Copy Production Order Document report now excludes the current production order from the document lookup when searching for a source document, preventing a late error when the same order is selected.",
+  "key_points": [
+    "Document lookup in LookupDocNo() now filters out the target production order",
+    "Filter only applies when the source status matches the target status",
+    "Prevents users from selecting the same document as the source, avoiding late-stage error",
+    "Aligns behavior with Copy Sales/Purchase Document reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003273,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Reenable Expense Agent VAT tests",
   "url": "https://github.com/microsoft/BCApps/pull/10098",
   "published_at": "2026-08-12T10:46:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:34.530Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:39.500Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003491
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:39.637Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:39.642Z",
+      "path": "content/changes/bcapps/10098.md"
     }
   },
   "input_hash": "a156e2c9c6b76ba6cb577c2effb10aadf2fccd79:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "reenable expense agent vat tests"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b7a55cc34b03cb2761cf47d3e5b3bc8d1fe7f9026f1554b49e3fea6ab4156ace"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10124",
+  "number": 10124,
+  "title": "[Extensibility Request] issue 30400: add credit memo line filter event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "A new integration event allows extensions to filter purchase credit memo lines before they are selected during prepayment document updates, enabling customization without replacing standard posting logic.",
+  "key_points": [
+    "New event OnUpdatePurchaseDocumentOnBeforeFindSetCrMemoPurchLine fires before credit memo lines are retrieved",
+    "Subscribers can apply additional filters to refine the purchase line selection",
+    "Event provides access to purchase header and mutable purchase line parameters",
+    "Change propagated across all localization layers (APAC, ES, IT, NA, NL, W1)",
+    "Addresses extensibility gap in purchase prepayment posting process"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Extensions need to apply additional filters before credit memo purchase lines are selected while updating prepayment documents.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003671,
+    "changes_in_call": 1
+  }
+}

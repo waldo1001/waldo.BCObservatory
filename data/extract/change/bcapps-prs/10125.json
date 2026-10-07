@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10125",
+  "number": 10125,
+  "title": "[Extensibility Request] issue 30395: expose production pick grouping number",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "A new event enables extensions to modify the warehouse pick grouping number for production order components, allowing separate activity lines to be created for each component instead of using the same grouping number.",
+  "key_points": [
+    "New event `OnAfterGetRecordProdOrderComponentOnBeforeSetCustomWhseSourceLine` published before source line configuration",
+    "Grouping value is initialized and passed by reference to subscribers",
+    "Extensions can now control how production order pick lines are grouped",
+    "Addresses scenario where all production components previously shared the same grouping number"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": "exposes the grouping number immediately before the source line is configured so subscribers can control how production order pick lines are grouped",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003345,
+    "changes_in_call": 1
+  }
+}

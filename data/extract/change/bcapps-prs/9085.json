@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9085",
+  "number": 9085,
+  "title": "Bug 640958: Guided error for subcontracting direct transfer from whse-handling location",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The subcontracting transfer order creation report now provides a guided error when attempting direct transfer from a warehouse-handling location without an in-transit route, instead of an obscure system error.",
+  "key_points": [
+    "Added CheckDirectTransferAllowed method to validate direct transfer feasibility before setting the field",
+    "Raises a guided error suggesting either setting up an in-transit route or using Direct Transfer posting",
+    "Handles the case where source location requires pick or shipment but direct transfer is not configured",
+    "Includes a negative test case to verify the error handling"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003532,
+    "changes_in_call": 1
+  }
+}

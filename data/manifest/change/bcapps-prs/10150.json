@@ -6,10 +6,35 @@
   "title": "[Bug 617189] Clarify strict expiration posting tooltip",
   "url": "https://github.com/microsoft/BCApps/pull/10150",
   "published_at": "2026-08-12T15:05:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:11:30.234Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:11:35.357Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003369
+    },
+    "linked": {
+      "at": "2026-10-07T13:11:35.529Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:11:35.534Z",
+      "path": "content/changes/bcapps/10150.md"
     }
   },
   "input_hash": "a46b483fdacd6b748e33f153f1a36ea1b2ee7a17:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 617189 clarify strict expiration posting tooltip"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "810a5c31842633b83b4c6c6bf1963200b525ae4c8fb5714f2cf29a2833264274"
 }

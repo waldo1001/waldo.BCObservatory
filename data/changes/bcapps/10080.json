@@ -1,0 +1,108 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10080,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10080",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T09:00:47Z",
+  "merge_commit_sha": "2a95e0606eb4d80b6b049f08f837dddc450bb91f",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 646141: Forward-port Subcontracting Dispatch List action from 28.x to main",
+  "body_hash": "0181b9f8ec15fae4552520123df4b46740fbf047fea014c65918668cecfdb582",
+  "fixes_issues": [],
+  "work_items": [
+    646141
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcWorkCenterCard.PageExt.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 36,
+    "deletions": 9,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcWorkCenterCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20506",
+        "type": "pageextension",
+        "id": 20506,
+        "name": "Subc. Work Center Card",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20506"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000754"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application",
+    "Subcontracting"
+  ]
+}

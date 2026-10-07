@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10066,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10066",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-12T10:37:19Z",
+  "merge_commit_sha": "5e40ff7827932dfde0f9e77caef9afc7195fddbd",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[PEPPOL] Handle unknown persisted PEPPOL format values",
+  "body_hash": "fc5f54bdd4e954f420c9c94e53949da9b16fdaaabe58df318cbb3cea6a024c66",
+  "fixes_issues": [],
+  "work_items": [
+    646302
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Format.Enum.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30UnknownFormat.Codeunit.al",
+      "status": "added",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOL30ManagementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 183,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Format.Enum.al",
+        "status": "modified",
+        "key": "enum/37200",
+        "type": "enum",
+        "id": 37200,
+        "name": "PEPPOL 3.0 Format",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "enum/37200"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30UnknownFormat.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/37223",
+        "type": "codeunit",
+        "id": 37223,
+        "name": "PEPPOL30 Unknown Format",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37223"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PEPPOL"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10049",
+  "number": 10049,
+  "title": "Removed the ReplicateData=false property",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Three Spend Request tables had an incorrectly applied ReplicateData property removed to restore proper data replication behavior.",
+  "key_points": [
+    "Removed ReplicateData=false from three Spend Request tables (6840, 6841, 6845)",
+    "Restores correct data replication for these tables during cloud migrations",
+    "Added test coverage to prevent similar property misapplications in the future"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Removed wrongly applied \"ReplicateData=false\" property on tables.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003074,
+    "changes_in_call": 1
+  }
+}
