@@ -1,0 +1,28 @@
+{
+  "video_id": "NwMLT-k6J6Q",
+  "item_id": "video/yt-microsoft/NwMLT-k6J6Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at t=1627.5 appears twice, with one copy slightly longer. I dropped both by t and re-added a single copy.",
+    "Several features duplicate each other: three checklist entries, two questionnaire app-loading entries, two assisted setup filtering entries, and the minute indicator, which the trial checklist feature already covers. I dropped the redundant ones.",
+    "Some feature t_start values come one segment early: markdown teaching tips (1195), analysis mode (1215), analysis sharing (1235.2), sample app (1315.9), custom role center (1336.2), banner text event (1356.4) and the open assisted setup function (1421.6). This is minor and not editable here.",
+    "All other quotes checked as verbatim spans, some crossing segment boundaries. The summary and key points are supported by the transcript.",
+    "All feature statuses are left as unclear. The transcript says features are new 'in this release' (report request page teaching tips, actionable errors) but never states preview or GA status."
+  ],
+  "input_hash": "49f4270b41881caaf8c498b4ff3db95412ffd113c4203eb742486a71174123cc",
+  "by": "opus",
+  "at": "2026-10-07T23:15:50.406Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "dropped 2 quote(s)",
+    "quote at 1628s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.19952899999999998
+  }
+}

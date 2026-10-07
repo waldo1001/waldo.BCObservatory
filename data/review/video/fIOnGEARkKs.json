@@ -1,0 +1,35 @@
+{
+  "video_id": "fIOnGEARkKs",
+  "item_id": "video/yt-microsoft/fIOnGEARkKs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim; several cross segment boundaries, which is fine.",
+    "Every feature status was unclear. The transcript clearly says several features are available now ('you can now', 'now have', 'have been removed'), so those are set to ga with evidence.",
+    "Key point 1 said company filters 'need careful configuration', which the transcript does not say. The transcript says filters are removed on user- and team-owned tables, document sync becomes stricter, and organization-owned tables are unaffected. Rewritten to match.",
+    "'Master data consolidation approach' is a recommendation, not a product feature. It is kept as unclear because the transcript does describe it.",
+    "Event-based sync control and the coupling criteria recommendation are left unclear because no explicit status statement was found.",
+    "Chapter boundaries are a bit off: the licensing content runs from 530 to 570, past the 550.4 boundary. Minor."
+  ],
+  "input_hash": "e530a4d0b9160e518c1c27cbe50a5c4372e614d468ff56315d4ee73b43b2e447",
+  "by": "opus",
+  "at": "2026-10-07T23:15:37.246Z",
+  "applied": [
+    "quote at 453s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Multi-company and multi-environment synchronization -> ga: evidence not verbatim or does not state the status",
+    "status Default Business Central environment and company selection -> ga: evidence not verbatim or does not state the status",
+    "status Multi-currency synchronization -> ga: evidence not verbatim or does not state the status",
+    "status Additional field mappings for integration -> ga: evidence not verbatim or does not state the status",
+    "status Virtual tables visibility during assisted setup -> ga: evidence not verbatim or does not state the status",
+    "status Commercial licensing for Dynamics 365 app integration -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12989699999999998
+  }
+}

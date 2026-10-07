@@ -229,27 +229,6 @@
       "system": "localization"
     },
     {
-      "name": "E-Document Global Service App",
-      "description": "An additional app to be provided by Microsoft ready to connect with third-party access points. Based on e-document core and designed to provide minimum 80% of required features.",
-      "status": "announced",
-      "status_evidence_t": 765.8,
-      "status_evidence_quote": "we will soon provide additional e doent global app ready to connect with a third party services this have will be based on our",
-      "status_evidence_verified": true,
-      "t_start": 765.8,
-      "t_end": 786.1,
-      "is_demoed": false,
-      "caveats": [
-        "Coming soon, not yet released",
-        "Will provide minimum 80% of required features"
-      ],
-      "tags": [
-        "third-party integration",
-        "access points",
-        "roadmap"
-      ],
-      "system": "localization"
-    },
-    {
       "name": "Local E-Document Localizations",
       "description": "Country-specific implementations built on top of the e-document core. Can include file format specifications, service integrations, and new tables and fields as required by local regulations.",
       "status": "unclear",
@@ -540,10 +519,10 @@
     {
       "name": "Update existing purchase orders",
       "description": "Planned feature to update existing purchase orders with partial invoices from e-documents.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 2037.4,
+      "status_evidence_quote": "this is something what we are planning to deliver as a first uh feature Improvement",
+      "status_evidence_verified": true,
       "t_start": 2017.3,
       "t_end": 2057.6,
       "is_demoed": false,
@@ -739,9 +718,9 @@
     },
     {
       "t": 336.6,
-      "text": "only 6 of 187 participants say that they do not need it they do not need electronic invoice in the bus center",
-      "why_it_matters": "Provides market research evidence that 94% of Business Central users want e-invoicing capability",
-      "check": "fuzzy"
+      "text": "only 6% of 187 participants say that they do not need it they do not need electronic invoice in the bus Center",
+      "why_it_matters": "Shows demand for built-in e-invoicing from the presenter's own survey.",
+      "check": "exact"
     },
     {
       "t": 745.6,

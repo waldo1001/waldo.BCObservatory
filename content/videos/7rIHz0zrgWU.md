@@ -20,12 +20,12 @@ tags:
   - alerting
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:07.027Z"
   flags: []
 generated:
-  at: "2026-10-06T21:59:24.560Z"
+  at: "2026-10-07T23:16:07.075Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -396,7 +396,7 @@ quotes:
 
 > Business Central telemetry changes released since May 2023 (2023 release wave 2): AI-assisted performance analysis in Power BI reports, better web service, job queue, email and feature module error telemetry, and upcoming signals for change lock and pending extensions. It also covers the Usage Analytics Power BI app, KQL documentation and alerting options.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7rIHz0zrgWU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-07 · 24:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=7rIHz0zrgWU) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-07 · 24:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

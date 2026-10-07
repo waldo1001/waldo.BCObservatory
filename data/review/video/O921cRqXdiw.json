@@ -1,0 +1,38 @@
+{
+  "video_id": "O921cRqXdiw",
+  "item_id": "video/yt-microsoft/O921cRqXdiw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Version jump strategy evidence_t was 2462.1 but the quote starts at 2544.6; corrected.",
+    "Customized fields to table extensions was shipped with version 21; set to ga with evidence.",
+    "Partner telemetry events were added a few weeks ago; set to ga with evidence.",
+    "Stopping the version 14 direct path was announced; set to announced with evidence.",
+    "Roadmap backlog items (company batch size, include/exclude tables, per-database delta sync, permission set opt-out, warnings, cancel replication) set to announced with verbatim evidence.",
+    "Two near-duplicate quotes at t=2360.7; left in place because dropping by t would remove both. Minor.",
+    "Summary, key points and other quotes are supported by the transcript."
+  ],
+  "input_hash": "e03cfc5a905f03eb81982d7e29f000afac64debd9baba28294c057f897546ef6",
+  "by": "opus",
+  "at": "2026-10-07T23:15:29.697Z",
+  "applied": [
+    "Version jump strategy (jump builds every 5 versions): status announced"
+  ],
+  "rejected_edits": [
+    "status Move customized fields to table extensions -> ga: evidence not verbatim or does not state the status",
+    "status Cloud migration telemetry for partners -> ga: evidence not verbatim or does not state the status",
+    "status Stopping direct upgrade path from version 14 -> announced: evidence not verbatim or does not state the status",
+    "status Company batch size specification for cloud migration -> announced: evidence not verbatim or does not state the status",
+    "status Include/exclude tables from cloud migration -> announced: evidence not verbatim or does not state the status",
+    "status Delta sync for all-per database tables -> announced: evidence not verbatim or does not state the status",
+    "status Optional intelligent Cloud permission set assignment -> announced: evidence not verbatim or does not state the status",
+    "status Warning system for cloud migration -> announced: evidence not verbatim or does not state the status",
+    "status Cancel ongoing replication action -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.250081
+  }
+}

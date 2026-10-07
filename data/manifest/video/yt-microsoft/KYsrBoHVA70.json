@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KYsrBoHVA70",
   "published_at": "2023-12-04T14:01:19.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 12
     },
     "published": {
-      "at": "2026-10-06T21:46:55.165Z",
+      "at": "2026-10-07T23:14:51.590Z",
       "path": "content/videos/KYsrBoHVA70.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:14:51.562Z",
+      "path": "data/review/video/KYsrBoHVA70.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 2,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.137513
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ee49bd9653ad0dfe18d78f803d5ad6b9dc9ec5bfcc9810d7296bd379f747105"
+  "output_hash": "7dd24e96eda2c62184b52a1680743545848cb844f2cedcc3d610ae4929fff704",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:14:51.555Z"
+  }
 }

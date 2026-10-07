@@ -1,0 +1,26 @@
+{
+  "video_id": "jhfwx1K0I7Y",
+  "item_id": "video/yt-microsoft/jhfwx1K0I7Y",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Preview evidence quote for Bank Account Reconciliation Assistance with Copilot starts in segment 158.8, not 118.9; evidence_t corrected.",
+    "Key point 3 claimed results may differ by country localization; the transcript only says the feature is not restricted by localization, and the performance caveats apply to language. Rewritten.",
+    "Feature 1 description says the feature 'learns' from mappings; the transcript only describes user-saved description-to-account mappings reused in future reconciliations. Minor overstatement, left as is.",
+    "All 11 quotes verified as verbatim spans (some run across segment boundaries)."
+  ],
+  "input_hash": "ea56a0bba00151e7b50c281cfc2fa9dd44e6145b74937dfc9af17fc41e55ebe0",
+  "by": "opus",
+  "at": "2026-10-07T23:15:10.742Z",
+  "applied": [
+    "Bank Account Reconciliation Assistance with Copilot: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11918900000000002
+  }
+}

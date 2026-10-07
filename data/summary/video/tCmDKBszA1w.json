@@ -8,9 +8,9 @@
     "E-Document Core is a global extension used by W1 and the localizations. It will not fit 100% of file formats and requirements at first, so local flavors are added on top.",
     "Setup in the demo uses an E-Document Service, an E-Document Workflow and a Document Sending Profile. Workflows can send to multiple services.",
     "Status tracking shows service-level status, logs, mapping details and communication logs. Manual actions allow send, recreate, cancel and get approval after errors.",
-    "Receiving works through a background job that creates purchase invoices, mapping items by item reference. It only creates new documents and cannot update existing purchase orders. Updating existing orders is planned.",
-    "If an item is not found, you can map text to an account instead. You can also import to journal lines, which needs a manual vendor-to-account mapping.",
-    "The third-party access points app is announced for the end of the year. A Microsoft e-document global service app is announced, aimed at at least 80% of required features. Denmark and Belgium come first, and the roadmap may change with government enforcement dates."
+    "Receiving works through a background job that creates purchase invoices, mapping items by item reference. It only creates new documents and cannot update existing purchase orders. Updating existing orders is planned as the first feature improvement.",
+    "If an item is not found, you can map text to an account instead. You can also import to journal lines, which needs a manual mapping of the sender to an account.",
+    "A third-party access points app built on E-Document Core is announced for the end of the year; Microsoft apps aim to cover at least 80% of required features. Denmark and Belgium localizations come first, and the roadmap may change with government enforcement dates."
   ],
   "audience": [
     "functional consultant",

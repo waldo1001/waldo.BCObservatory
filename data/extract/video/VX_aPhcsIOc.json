@@ -116,6 +116,12 @@
       "check": "exact"
     },
     {
+      "t": 0.3,
+      "text": "it cost data to ingest data into Telemetry and it costs to uh keep it for longer than the default retention policy",
+      "why_it_matters": "Names the two cost drivers: ingesting data and keeping it longer than the default retention.",
+      "check": "exact"
+    },
+    {
       "t": 40.8,
       "text": "once you have data here you um you will be able to see see your monthly costs",
       "why_it_matters": "Explains that the usage and costs view becomes populated once telemetry data is actually being ingested.",
@@ -125,6 +131,12 @@
       "t": 81.6,
       "text": "the first I believe it's four gigabytes a month is free and after that you pay for your ingestion",
       "why_it_matters": "Critical pricing information showing the free tier threshold and when charges begin for Application Insights.",
+      "check": "exact"
+    },
+    {
+      "t": 81.6,
+      "text": "so in the beginning maybe simply set 100 megabytes or 0.1 so 100 megabytes per day",
+      "why_it_matters": "Gives the speaker's concrete starting value for the daily cap.",
       "check": "exact"
     },
     {

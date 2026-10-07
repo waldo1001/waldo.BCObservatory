@@ -1,0 +1,32 @@
+{
+  "video_id": "YTA8c2XyTX4",
+  "item_id": "video/yt-microsoft/YTA8c2XyTX4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Virtual Tables GA evidence_t was 274.7, but the quote starts at segment 408.5. Corrected.",
+    "Power Pages preview evidence_t was 569.9, but the quote starts at segment 408.5 and runs into 428.8. Corrected.",
+    "Business events are explicitly still in preview, with GA targeted for the next release (t 489). Set Business Events via Power Automate to preview with that evidence.",
+    "The quote at 1850.2 is filler with no useful content. Dropped.",
+    "The two quotes at 1579.1 overlap. Both are verbatim, so I kept them.",
+    "The 'Activity Lock System Table' name comes from a caption error. The speaker also calls it the external event activity log (t 529.6).",
+    "'Filtering support' rests on the garbled caption 'Fring Fring support' (t 509). It is plausible, but the transcript does not confirm it clearly."
+  ],
+  "input_hash": "0c30b8a522ab3b0bae647e801519a2398166890bf7d0bfdb3c6428e35b84b9ce",
+  "by": "opus",
+  "at": "2026-10-07T23:15:23.211Z",
+  "applied": [
+    "Virtual Tables General Availability: status ga",
+    "Power Pages Support via Virtual Tables: status preview",
+    "Business Events via Power Automate: status preview",
+    "dropped 1 quote(s)",
+    "quote at 489s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.152649
+  }
+}

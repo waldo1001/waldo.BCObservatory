@@ -168,10 +168,10 @@
     {
       "name": "Table Extension Auto-Refactoring",
       "description": "Prototype feature to automatically split custom fields from standard Microsoft tables into table extensions during cloud migration without requiring manual code.",
-      "status": "announced",
-      "status_evidence_t": 493.6,
-      "status_evidence_quote": "we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 493.6,
       "t_end": 533.7,
       "is_demoed": false,
@@ -1073,6 +1073,12 @@
       "t": 1534.9,
       "text": "we won't move all the data but only those that are Delta change so incremental uh that would make it faster",
       "why_it_matters": "Describes the incremental replication optimization using change tracking for subsequent runs.",
+      "check": "exact"
+    },
+    {
+      "t": 1534.9,
+      "text": "it's important that you do not replace or you don't change your on premise database otherwise the change tracking becomes invalid",
+      "why_it_matters": "Explains why changing the source database during migration forces a full replication.",
       "check": "exact"
     },
     {

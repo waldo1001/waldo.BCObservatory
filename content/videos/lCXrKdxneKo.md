@@ -20,25 +20,18 @@ tags:
   - stored procedures
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:26.284Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:26.326Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 9796e7616b1435c77992748dac1553edc731606ea458970e0257b10542897ffc
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=lCXrKdxneKo&t=493s
-    title: "Table Extension Auto-Refactoring: announced"
-    date: "2023-11-21T16:04:26.000Z"
-    commit: null
-    t: 493
-    quote: we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the
   - kind: video
     url: https://www.youtube.com/watch?v=lCXrKdxneKo&t=136s
     title: Introduction to Business Central Cloud Migration Tooling (2022)
@@ -116,6 +109,13 @@ evidence:
     commit: null
     t: 1534
     quote: we won't move all the data but only those that are Delta change so incremental uh that would make it faster
+  - kind: video
+    url: https://www.youtube.com/watch?v=lCXrKdxneKo&t=1534s
+    title: Introduction to Business Central Cloud Migration Tooling (2022)
+    date: "2023-11-21T16:04:26.000Z"
+    commit: null
+    t: 1534
+    quote: it's important that you do not replace or you don't change your on premise database otherwise the change tracking becomes invalid
   - kind: video
     url: https://www.youtube.com/watch?v=lCXrKdxneKo&t=1555s
     title: Introduction to Business Central Cloud Migration Tooling (2022)
@@ -304,9 +304,9 @@ features:
     verified: false
     status_source: video
   - name: Table Extension Auto-Refactoring
-    status: announced
+    status: unclear
     t: 493
-    verified: true
+    verified: false
     status_source: video
   - name: Invoke-NavSanitizeField Commandlet
     status: unclear
@@ -538,6 +538,9 @@ quotes:
   - t: 1534
     text: we won't move all the data but only those that are Delta change so incremental uh that would make it faster
     check: exact
+  - t: 1534
+    text: it's important that you do not replace or you don't change your on premise database otherwise the change tracking becomes invalid
+    check: exact
   - t: 1555
     text: the replication is done by Asia data Factory and it's mostly very stable we don't see so many errors
     check: exact
@@ -595,7 +598,7 @@ quotes:
 
 > Business Central cloud migration tooling from on-premises to Business Central online, using Azure Data Factory and a self-hosted integration runtime. It is evidence for preparation (table alignment, data cleanup), setup and permissions, troubleshooting, table mapping, the new upgrade flow and migration APIs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lCXrKdxneKo) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-21 · 45:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lCXrKdxneKo) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-21 · 45:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -605,13 +608,13 @@ The presenters also cover common errors and fixes. Topics include connection str
 
 ## Key points
 
-- Table definitions must be aligned, including primary keys. Custom fields added to standard tables are ignored during migration unless they are refactored into extensions. Extra on-premises fields are silently ignored with no warnings.
-- Run the Invoke-NavSanitizeField commandlet before production migration to fix corrupted code fields. It does not cover company name fields, which are text fields.
-- The self-hosted integration runtime needs .NET 4.72 or higher and must stay online during migration. A long offline period can trigger automated cleanup of Azure resources and force a full setup again. No NST is needed.
-- Setup needs the super role in BC and delegated admin consent. The SQL user needs the CIS admin and database owner roles. Connection strings must match the exact documented format.
+- From version 14 you can do a single-step upgrade to version 21 on-premises and then replicate, or replicate straight from 14 to the cloud and let the cloud run the upgrade. Microsoft says it will support the 14 path as long as it technically can.
+- Table definitions must be aligned, including primary keys, field names and data types. Custom fields added to standard tables are ignored during migration unless they are refactored into extensions. Extra on-premises fields are silently ignored with no warnings. A prototype to split them into table extensions automatically was being tested.
+- Run the Invoke-NavSanitizeField commandlet before production migration to fix corrupted code fields. It does not cover company names, which are text fields. Those must be detected with a query and renamed before migration.
+- The self-hosted integration runtime needs .NET 4.72 or higher and must stay online during migration. A long offline period can trigger automated cleanup of Azure resources and force setup to be repeated. No NST is needed.
+- Setup needs the super role in BC, and customer consent if the user is a delegated admin. The SQL user needs the sysadmin server role (captioned as 'CIS admin') and the db owner role. Connection strings must match the exact documented format.
 - Metadata errors come from a 4 MB Azure Data Factory limit. Reduce the companies migrated at once (about 10 to 15 is suggested, depending on data and extensions) and uninstall unneeded extensions in the cloud tenant before migrating.
-- Do not replace or restore the on-premises database during replication. It causes invalid object name errors and breaks SQL change tracking, so a full setup restart and full replication are needed. The first run is full, and later runs are incremental.
-- Use the table mapping action on the Cloud migration management page when table names differ. Only fields with the same names are migrated. To exclude a table, set the AL attribute ReplicateData to false.
+- The first run is a full replication, and later runs are incremental through SQL change tracking. Do not replace or restore the on-premises database during migration. It causes invalid object name errors and invalidates change tracking, which forces a full replication again.
 
 ## Chapters
 
@@ -633,50 +636,50 @@ The presenters also cover common errors and fixes. Topics include connection str
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cloud Migration Tooling | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=lCXrKdxneKo&t=55s) |  |
-| One-Step Upgrade to Version 21 | status not stated | [3:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=197s) |  |
-| Direct Cloud Migration from Version 14 | status not stated | [3:57](https://www.youtube.com/watch?v=lCXrKdxneKo&t=237s) |  |
-| Table Extension Auto-Refactoring | announced | [8:13](https://www.youtube.com/watch?v=lCXrKdxneKo&t=493s) | "we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the" ([8:13](https://www.youtube.com/watch?v=lCXrKdxneKo&t=493s)) |
-| Invoke-NavSanitizeField Commandlet | status not stated | [9:24](https://www.youtube.com/watch?v=lCXrKdxneKo&t=564s) |  |
-| Table Mapping for Cloud Migration | status not stated, demoed | [7:33](https://www.youtube.com/watch?v=lCXrKdxneKo&t=453s) |  |
-| Azure Data Factory Integration for Migration | status not stated, demoed | [11:53](https://www.youtube.com/watch?v=lCXrKdxneKo&t=713s) |  |
-| Self-Hosted Integration Runtime | status not stated, demoed | [12:54](https://www.youtube.com/watch?v=lCXrKdxneKo&t=774s) |  |
-| Cloud Migration Wizard | status not stated | [14:26](https://www.youtube.com/watch?v=lCXrKdxneKo&t=866s) |  |
-| Preparation Pipeline | status not stated | [15:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=917s) |  |
-| Replication Pipeline | status not stated | [16:07](https://www.youtube.com/watch?v=lCXrKdxneKo&t=967s) |  |
-| User Permissions Validation | status not stated | [17:03](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1023s) |  |
-| SQL Connection String Validation | status not stated | [18:01](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1081s) |  |
-| Database Query Performance Optimization | status not stated | [19:10](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1150s) |  |
-| Version Matching Validation | status not stated | [19:52](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1192s) |  |
-| SQL Connection Verification | status not stated | [20:42](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1242s) |  |
-| Migration Run Execution | status not stated | [22:21](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1341s) |  |
-| Data Compression and Two-Step Transfer | status not stated | [23:01](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1381s) |  |
-| Large Table Replication | status not stated | [23:43](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1423s) |  |
-| Small Table Optimization | status not stated | [24:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1457s) |  |
-| Full and Incremental Replication | status not stated | [25:14](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1514s) |  |
-| Integration Runtime Offline Handling | status not stated | [26:35](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1595s) |  |
-| Database Replacement Impact | status not stated | [27:15](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1635s) |  |
-| Metadata size limitations | status not stated | [27:48](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1668s) |  |
-| Multi-company migration optimization | status not stated, demoed | [28:40](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1720s) |  |
-| Extension cleanup for migration | status not stated | [29:20](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1760s) |  |
-| Table-level replication exclusion | status not stated | [29:40](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1780s) |  |
-| Tenant media bulk copy handling | status not stated | [30:20](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1820s) |  |
-| Table-to-table full copy error handling | status not stated | [31:22](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1882s) |  |
-| On-premises infrastructure monitoring | status not stated | [32:18](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1938s) |  |
-| Database statistics and index optimization | status not stated | [32:38](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1958s) |  |
-| Default data mapping for table replication | status not stated | [33:35](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2015s) |  |
-| Missing table warning during replication | status not stated | [34:16](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2056s) |  |
-| Table mapping for different table names | status not stated, demoed | [35:16](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2116s) |  |
-| Improved upgrade logic for cloud migration | status not stated | [36:31](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2191s) |  |
-| Single-session upgrade with full app inclusion | status not stated | [37:11](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2231s) |  |
-| Upgrade status tracking in Admin Center | status not stated, demoed | [37:52](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2272s) |  |
-| Automatic point-in-time restore on upgrade failure | status not stated, demoed | [39:32](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2372s) |  |
-| Legacy upgrade flow support | status not stated | [40:12](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2412s) |  |
-| Data transfer feature | status not stated | [40:46](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2446s) |  |
-| Long-running methods optimization | status not stated | [43:13](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2593s) |  |
-| Cloud migration APIs | status not stated | [44:14](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2654s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cloud Migration Tooling | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=lCXrKdxneKo&t=55s) |
+| One-Step Upgrade to Version 21 | status not stated | [3:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=197s) |
+| Direct Cloud Migration from Version 14 | status not stated | [3:57](https://www.youtube.com/watch?v=lCXrKdxneKo&t=237s) |
+| Table Extension Auto-Refactoring | status not stated | [8:13](https://www.youtube.com/watch?v=lCXrKdxneKo&t=493s) |
+| Invoke-NavSanitizeField Commandlet | status not stated | [9:24](https://www.youtube.com/watch?v=lCXrKdxneKo&t=564s) |
+| Table Mapping for Cloud Migration | status not stated, demoed | [7:33](https://www.youtube.com/watch?v=lCXrKdxneKo&t=453s) |
+| Azure Data Factory Integration for Migration | status not stated, demoed | [11:53](https://www.youtube.com/watch?v=lCXrKdxneKo&t=713s) |
+| Self-Hosted Integration Runtime | status not stated, demoed | [12:54](https://www.youtube.com/watch?v=lCXrKdxneKo&t=774s) |
+| Cloud Migration Wizard | status not stated | [14:26](https://www.youtube.com/watch?v=lCXrKdxneKo&t=866s) |
+| Preparation Pipeline | status not stated | [15:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=917s) |
+| Replication Pipeline | status not stated | [16:07](https://www.youtube.com/watch?v=lCXrKdxneKo&t=967s) |
+| User Permissions Validation | status not stated | [17:03](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1023s) |
+| SQL Connection String Validation | status not stated | [18:01](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1081s) |
+| Database Query Performance Optimization | status not stated | [19:10](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1150s) |
+| Version Matching Validation | status not stated | [19:52](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1192s) |
+| SQL Connection Verification | status not stated | [20:42](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1242s) |
+| Migration Run Execution | status not stated | [22:21](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1341s) |
+| Data Compression and Two-Step Transfer | status not stated | [23:01](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1381s) |
+| Large Table Replication | status not stated | [23:43](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1423s) |
+| Small Table Optimization | status not stated | [24:17](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1457s) |
+| Full and Incremental Replication | status not stated | [25:14](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1514s) |
+| Integration Runtime Offline Handling | status not stated | [26:35](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1595s) |
+| Database Replacement Impact | status not stated | [27:15](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1635s) |
+| Metadata size limitations | status not stated | [27:48](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1668s) |
+| Multi-company migration optimization | status not stated, demoed | [28:40](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1720s) |
+| Extension cleanup for migration | status not stated | [29:20](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1760s) |
+| Table-level replication exclusion | status not stated | [29:40](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1780s) |
+| Tenant media bulk copy handling | status not stated | [30:20](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1820s) |
+| Table-to-table full copy error handling | status not stated | [31:22](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1882s) |
+| On-premises infrastructure monitoring | status not stated | [32:18](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1938s) |
+| Database statistics and index optimization | status not stated | [32:38](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1958s) |
+| Default data mapping for table replication | status not stated | [33:35](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2015s) |
+| Missing table warning during replication | status not stated | [34:16](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2056s) |
+| Table mapping for different table names | status not stated, demoed | [35:16](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2116s) |
+| Improved upgrade logic for cloud migration | status not stated | [36:31](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2191s) |
+| Single-session upgrade with full app inclusion | status not stated | [37:11](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2231s) |
+| Upgrade status tracking in Admin Center | status not stated, demoed | [37:52](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2272s) |
+| Automatic point-in-time restore on upgrade failure | status not stated, demoed | [39:32](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2372s) |
+| Legacy upgrade flow support | status not stated | [40:12](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2412s) |
+| Data transfer feature | status not stated | [40:46](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2446s) |
+| Long-running methods optimization | status not stated | [43:13](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2593s) |
+| Cloud migration APIs | status not stated | [44:14](https://www.youtube.com/watch?v=lCXrKdxneKo&t=2654s) |
 
 ## AL objects mentioned
 
@@ -703,6 +706,7 @@ Not found in BC28-30: page "data archive page", table "cloud migration managemen
 - [13:48](https://www.youtube.com/watch?v=lCXrKdxneKo&t=828s) "there is no NST needed no NST running needed um we really connect directly to the database"
 - [17:20](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1040s) "the user that is doing the setup in BC has to have the super role"
 - [25:34](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1534s) "we won't move all the data but only those that are Delta change so incremental uh that would make it faster"
+- [25:34](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1534s) "it's important that you do not replace or you don't change your on premise database otherwise the change tracking becomes invalid"
 - [25:55](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1555s) "the replication is done by Asia data Factory and it's mostly very stable we don't see so many errors"
 - [26:55](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1615s) "you keep the machine that hosts your integration run time online all the time while you're doing Cloud migration"
 - [27:28](https://www.youtube.com/watch?v=lCXrKdxneKo&t=1648s) "these are the most difficult errors that you face they're not very common there are like maybe 10 errors per months"

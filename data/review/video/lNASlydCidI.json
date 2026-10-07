@@ -1,0 +1,31 @@
+{
+  "video_id": "lNASlydCidI",
+  "item_id": "video/yt-microsoft/lNASlydCidI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript never calls the toolkit 'preview'. It says it is available now in Insider builds, and a minor update during 2023 release wave 2 will allow deployment to Business Central online. Rewrote the summary and first key point to match.",
+    "The toolkit's evidence quote starts at segment 352.2, not 70.5.",
+    "Two quotes at t 2363.8 duplicate each other. Dropped both and re-added the longer one.",
+    "'Sparkle Action Image for Copilot Prompts' duplicates 'Sparkle Image Property for Co-pilot Actions'. Dropped the second.",
+    "The other quotes are verbatim and start in the right segments. Features and chapters are supported by the transcript."
+  ],
+  "input_hash": "aaafcadf51c426f5d2eefb71efe7f12748ed1183d3c69e7b29b1f156972ebf16",
+  "by": "opus",
+  "at": "2026-10-07T23:15:21.626Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Generative AI Developer Toolkit: status preview",
+    "dropped 2 quote(s)",
+    "quote at 2364s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.24692899999999998
+  }
+}

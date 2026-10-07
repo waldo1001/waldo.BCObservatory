@@ -5,12 +5,12 @@
   "overview": "The session explains what digital vouchers are, how they differ from plain attachments, and how Business Central can require them before a document or journal line is posted. The feature came from Danish bookkeeping requirements and was built as a global app, so other countries can use it.\n\nIt then covers the guided setup wizard and the configuration options per entry type, including source code filtering for journals. The demos show purchase and sales invoices and a sales journal: posting is blocked with an error when the required voucher is missing, and automatically generated vouchers are linked to general ledger entries.",
   "key_points": [
     "Enforcement is set per entry type, such as sales documents, purchase documents and journal types, using a guided setup wizard.",
-    "Control options are: no check, digital file only, attachments plus invoice (with electronic document), or attachment or note (file or text note).",
+    "Control options are: no check (not enforced), attachments (a digital file must be attached), attachments plus invoice (also adds an electronic document), or attachment or note (a file or a text note).",
     "With enforcement on, posting without the required voucher gives an error saying posting is not possible without attaching the digital voucher.",
     "Vouchers can be generated automatically on posting, for example for sales invoices, when the generate automatically option is enabled per entry type.",
-    "An automatically generated voucher is not added if manual attachments were already added to the record.",
+    "With the skip if manually added option, an automatically generated voucher is not added if manual attachments were already added to the record.",
     "Source code filtering lets you enforce vouchers in journals such as the general journal only for certain source codes, for example payroll.",
-    "In Denmark, users cannot disable mandatory vouchers for purchase and sales transactions from January next year (stated in the video as of Nov 2023)."
+    "Posted digital vouchers are linked to every general ledger entry of the posted document and can be seen there."
   ],
   "audience": [
     "functional consultant",

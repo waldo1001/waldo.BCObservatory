@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=fIOnGEARkKs",
   "published_at": "2023-11-20T08:08:01.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 12
     },
     "published": {
-      "at": "2026-10-06T21:51:39.034Z",
+      "at": "2026-10-07T23:15:37.307Z",
       "path": "content/videos/fIOnGEARkKs.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:15:37.260Z",
+      "path": "data/review/video/fIOnGEARkKs.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 6,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.12989699999999998
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c283abf5d2f895dc67c9cbc427f5199387a127a09cf973951de2a847bb047f7c"
+  "output_hash": "f674a5fa329bc3dc424c8cb742538c42988e5810b9cfbaec79fe0846df183b73",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:15:37.246Z"
+  }
 }

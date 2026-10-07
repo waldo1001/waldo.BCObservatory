@@ -4,13 +4,13 @@
   "summary": "Business Central mobile app 4.0 (released October 2023) adds Tell me and data search on mobile, and native barcode scanning through the device camera or dedicated scanners. It covers the AL extended data type barcode property and the barcode scanner provider API, with demos in inventory, warehouse and sales.",
   "overview": "The video, published 2023-12-04, walks through the October 2023 mobile app release, version 4.0. It covers Tell me and data search on phones and tablets, both enabled in feature management, and worksheet page support for phones, which is described as coming in version 23.1.\n\nMost of the session is about barcode scanning. It explains the approaches (camera, dedicated devices, AL API), then demos item references with a barcode type, GTIN label printing, item bin content inquiry, sales order lines, assembly orders and scanning serial numbers in item tracking lines. It closes with the AL code for camera scanning and the barcode scanner provider.",
   "key_points": [
-    "Mobile app version 4.0 was released in October 2023, and the app is backward compatible with older Business Central versions.",
+    "Mobile app version 4.0 was released in October 2023, and the app is backward compatible with older Business Central versions, including on-premises.",
     "Tell me (alt Q) and data search on mobile must be turned on in feature management. Data search honors permissions as on desktop, and administrators can configure which tables are searchable.",
-    "Worksheet pages on phones are announced for version 23.1, with a header, footer and lines experience like document pages.",
+    "Worksheet pages on phones are announced for version 23.1 (November time frame), with a header, footer and lines experience like document pages.",
     "Camera scanning is enabled by annotating a Code or Text field with the extended data type property set to barcode. It supports 1D and 2D formats including QR codes.",
-    "Dedicated scanner devices are supported only in mobile app 4.0 or later and only in release wave 2.",
+    "Dedicated barcode scanner devices are supported only on Android. All the barcode scanning capabilities require mobile app 4.0 and Business Central release wave 2.",
     "Item references can use a barcode type, and GTIN barcode labels can be printed. Scanning is demoed in item bin content inquiry, sales order lines and the Scan multiple action in item tracking lines.",
-    "For the AL barcode scanner provider API, several providers can register, but only the topmost page receives the data. Camera scanning is not supported in browser mode."
+    "For the AL barcode scanner provider API, several providers can register, but only the topmost page receives the data. The camera provider check returns false when running in a browser."
   ],
   "audience": [
     "developer",

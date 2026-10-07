@@ -20,12 +20,12 @@ tags:
   - customized fields
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:29.697Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:29.766Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -596,7 +596,7 @@ quotes:
 
 > Cloud migration and upgrade changes from a 2023 Business Central session: faster replication (bulk copy, table-to-table copy, delta sync, Azure SQL direct linking), a new migration UI, customized-field-to-table-extension mapping, partner telemetry, and plans for the version 14 upgrade path and obsolete object removal.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=O921cRqXdiw) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-21 · 49:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=O921cRqXdiw) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-21 · 49:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

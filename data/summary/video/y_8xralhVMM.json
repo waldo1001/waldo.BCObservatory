@@ -8,8 +8,8 @@
     "In the subsidiary company, toggle the company as a subsidiary before consolidation setup. This enables data import and can be disabled at any time to stop extraction.",
     "Copy the environment endpoint from the consolidation setup page in the subsidiary and use it when setting up the business unit with an API type endpoint.",
     "You must authenticate with a user in the other company and select which company in the remote environment to set up.",
-    "The new consolidate action opens a wizard where you choose start date, end date and consolidation document number, then pick business units, with optional authentication.",
-    "The earlier report-based approach still exists and won't be deprecated. The procedures that run consolidation are internal and not exposed.",
+    "The new consolidate action on the business units page opens a wizard where you choose start date, end date and consolidation document number, then pick business units. If consolidations have not been run recently, you use the Grant access action to authenticate.",
+    "The earlier consolidation report still exists and won't be deprecated. The procedures that run consolidation are internal and not exposed, but the wizard can be run from AL code.",
     "Consolidation supports currency mapping (subsidiary or holding company rates, optional additional reporting currency), chart of accounts mapping, minority interest percentages below 100, and a trial balance for consolidation."
   ],
   "audience": [

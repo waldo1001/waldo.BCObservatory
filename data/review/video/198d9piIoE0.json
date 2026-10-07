@@ -1,0 +1,28 @@
+{
+  "video_id": "198d9piIoE0",
+  "item_id": "video/yt-microsoft/198d9piIoE0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes verified verbatim (688.4 and 904 cross segment boundaries, acceptable).",
+    "Show Details is only named in the transcript (883.9); its feature description and key point embellish what it does. Key point rewritten.",
+    "Statistics Page feature description lists consumption journals; transcript only shows statistics on job card and production order.",
+    "Batch settings key point claim about requiring understanding of filters is unsupported; replaced with supported details (filters copied, allocate after populate toggle).",
+    "Key points missed accept toggle/Make Reservation step and inventory pick full/partial filter; added.",
+    "Feature statuses remain unclear: transcript only says 'this release', no explicit preview/GA statement."
+  ],
+  "input_hash": "a501132aef014b6a2f0e3791e9fac73b987af7ce55c3c2d04ccc80286b14c4da",
+  "by": "opus",
+  "at": "2026-10-07T23:16:05.433Z",
+  "applied": [
+    "quote at 844s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11590900000000001
+  }
+}

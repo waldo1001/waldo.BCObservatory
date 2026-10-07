@@ -1,0 +1,29 @@
+{
+  "video_id": "THBCd9Y9DfE",
+  "item_id": "video/yt-microsoft/THBCd9Y9DfE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim. The t=20.2 quote runs into the t=40.6 segment, which is allowed.",
+    "Key point about mentors helping participants 'navigate the ERP system' is not in the transcript. The mentors are described as having vast knowledge and being accessible for queries.",
+    "Key point and the Guided Learning Journey description say 'foundational to advanced'. The transcript only says which topics to check first and which later, then deep diving into more specific topics with expert help.",
+    "Guided Learning Journey t_start is 60.7, but the content is at 81.3.",
+    "The Personalized Mentorship description also adds 'navigate the ERP system', which the transcript does not support. The feature itself is supported.",
+    "This is a testimonial video with no release or status information, so 'unclear' is correct for every feature."
+  ],
+  "input_hash": "222690afc5fa994204d006013cc46fb8efd4abfd6c73b78c7ee9d7ad4a19d648",
+  "by": "opus",
+  "at": "2026-10-07T23:15:39.607Z",
+  "applied": [
+    "quote at 41s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044965000000000005
+  }
+}

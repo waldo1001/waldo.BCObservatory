@@ -1,0 +1,27 @@
+{
+  "video_id": "pE19K17wpgI",
+  "item_id": "video/yt-microsoft/pE19K17wpgI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript. Some run on into the next segment, which is allowed.",
+    "Key point about control options used 'digital file only' as if it were an option name. The speaker calls the option 'attachments', meaning a digital file must be attached. Reworded.",
+    "Key point about Denmark added 'as of Nov 2023', which the transcript does not state. Removed that date.",
+    "No feature has a status in the transcript, so all stay 'unclear'.",
+    "Added a quote for source code filtering, which had no quote on the page."
+  ],
+  "input_hash": "3c4e3acf1800ce557d44ca47bbc3cd625dd12d5434db4d8b4005b26317040f66",
+  "by": "opus",
+  "at": "2026-10-07T23:14:50.780Z",
+  "applied": [
+    "quote at 434s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08477300000000002
+  }
+}

@@ -522,80 +522,6 @@
         "documentation"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Analytical requirements assessment approach",
-      "description": "Guidance for developers to shift from blindly building reports to understanding and supporting customer analytical requirements before choosing technology.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1812,
-      "t_end": 1887.7,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "reporting strategy",
-        "customer needs",
-        "al development"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Power BI for Business Central analytics",
-      "description": "Power BI positioned as the Microsoft tool of choice for business intelligence and analysis of Business Central data, enabling ad hoc analysis and self-service capabilities.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1887.7,
-      "t_end": 1948.1,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "power bi",
-        "business intelligence",
-        "analytics",
-        "self-service"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Queries as powerful analytical tool",
-      "description": "Queries positioned as powerful tools beyond performance analysis, enabling data mashup, ad hoc analysis, and self-service capabilities for end users.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1928.1,
-      "t_end": 1968.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "queries",
-        "ad hoc analysis",
-        "self-service",
-        "data analysis"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Excel data set approach",
-      "description": "Excel data sets positioned as alternative reporting approach where developers provide the data set and Excel-proficient users handle layout design.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1968.2,
-      "t_end": 2009.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "excel",
-        "data sets",
-        "reporting strategy"
-      ],
-      "system": "reporting"
     }
   ],
   "objects": [
@@ -726,6 +652,12 @@
       "text": "if you click show help you would get the same information in the help pane and the context sensitive help page will now",
       "why_it_matters": "Clarifies how context-sensitive help for reports and queries is delivered through the help pane and Tell Me interface.",
       "check": "fuzzy"
+    },
+    {
+      "t": 1618.5,
+      "text": "a new kit on the Block usage category for for queries if you set this to reports and Analysis",
+      "why_it_matters": "States the new UsageCategory setting on queries that makes them discoverable in Tell Me and Report Explorer.",
+      "check": "exact"
     },
     {
       "t": 1652.4,

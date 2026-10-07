@@ -16,12 +16,12 @@ tags:
   - developer tools
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:56.739Z"
   flags: []
 generated:
-  at: "2026-10-06T21:47:12.706Z"
+  at: "2026-10-07T23:14:56.782Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -217,7 +217,7 @@ quotes:
 
 > Marketing text suggestions in Business Central is generally available as of the 2023 release wave 2 minor update. It is online (SaaS) only and supports eight languages. The video covers the GA UI changes, the feature toggles, the data movement consent and the new developer tools for copilot.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KpQS7c6YGRo) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 15:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KpQS7c6YGRo) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 15:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

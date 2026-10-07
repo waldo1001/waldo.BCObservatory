@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=BOY2442wHSc",
   "published_at": "2023-12-05T10:43:42.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T21:45:09.305Z",
+      "at": "2026-10-07T23:14:37.625Z",
       "path": "content/videos/BOY2442wHSc.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:14:37.587Z",
+      "path": "data/review/video/BOY2442wHSc.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.051569000000000004
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43f9c1a4ea8559de15df651ea6e62b0304ad7e4f090cc0ee77f7243803fb2ad1"
+  "output_hash": "f03e3beb554ae7a378d1546740f28bf51d33b8852942afa512b50740a67a70db",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:14:37.586Z"
+  }
 }

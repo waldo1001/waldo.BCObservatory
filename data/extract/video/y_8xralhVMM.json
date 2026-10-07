@@ -326,6 +326,12 @@
       "text": "this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still",
       "why_it_matters": "Confirms backward compatibility - the previous report-based approach remains available alongside the new wizard.",
       "check": "exact"
+    },
+    {
+      "t": 542.8,
+      "text": "we don't expose them right now but you can run this wizard from your Al code",
+      "why_it_matters": "Tells developers that the consolidation procedures are internal but the wizard can be called from AL extensions.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

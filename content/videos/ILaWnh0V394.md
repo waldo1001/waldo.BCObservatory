@@ -2,7 +2,7 @@
 id: video/ILaWnh0V394
 type: video
 title: Bridging the talent gap together!
-summary: Microsoft Talent Program, a reskilling program that recruits people from industry and trains them as Business Central consultants or developers to address a shortage of experienced ERP consultants in the Dynamics field. A 2023 video with a participant's story and a recommendation for partners to join.
+summary: The Microsoft Talent Program is a reskilling program that recruits people from industry and retrains them as Business Central professionals, consultants or developers. It is aimed at partners facing a shortage of experienced ERP consultants in the Dynamics field. Participants describe a guided mix of theory and practice with community support, and a partner recommends that other partners join to grow new skill sets.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - guided learning
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:54.870Z"
   flags: []
 generated:
-  at: "2026-10-06T21:56:43.539Z"
+  at: "2026-10-07T23:15:54.905Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     commit: null
     t: 65
     quote: being a Microsoft business Central consultant could be the perfect answer that I was looking for
+  - kind: video
+    url: https://www.youtube.com/watch?v=ILaWnh0V394&t=65s
+    title: Bridging the talent gap together!
+    date: "2023-11-02T07:29:19.000Z"
+    commit: null
+    t: 65
+    quote: it's really refreshing to have such a guided program you don't feel alone in it and you're with the community
   - kind: video
     url: https://www.youtube.com/watch?v=ILaWnh0V394&t=85s
     title: Bridging the talent gap together!
@@ -107,11 +114,6 @@ features:
     t: 5
     verified: false
     status_source: video
-  - name: Theory and practice learning mix
-    status: unclear
-    t: 85
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 5
@@ -126,6 +128,9 @@ quotes:
   - t: 65
     text: being a Microsoft business Central consultant could be the perfect answer that I was looking for
     check: exact
+  - t: 65
+    text: it's really refreshing to have such a guided program you don't feel alone in it and you're with the community
+    check: exact
   - t: 85
     text: the mix of the theory and the practice and that's just a perfect way for me to Res skill myself
     check: exact
@@ -136,9 +141,9 @@ quotes:
 
 # Bridging the talent gap together!
 
-> Microsoft Talent Program, a reskilling program that recruits people from industry and trains them as Business Central consultants or developers to address a shortage of experienced ERP consultants in the Dynamics field. A 2023 video with a participant's story and a recommendation for partners to join.
+> The Microsoft Talent Program is a reskilling program that recruits people from industry and retrains them as Business Central professionals, consultants or developers. It is aimed at partners facing a shortage of experienced ERP consultants in the Dynamics field. Participants describe a guided mix of theory and practice with community support, and a partner recommends that other partners join to grow new skill sets.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ILaWnh0V394) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-02 · 2:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ILaWnh0V394) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-02 · 2:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -148,12 +153,13 @@ A participant explains how she moved into the field and found the program. She d
 
 ## Key points
 
-- The video names a large gap in experienced ERP consultants, especially in the Dynamics field.
+- The video names a large gap in experienced ERP consultants, especially in the Dynamics field and around Business Central.
 - The Microsoft Talent Program recruits people from industry and reskills them as Business Central professionals, consultants or developers.
-- Learning combines theory with practical application.
-- A participant says the program let her pursue a career in technology within construction.
-- A partner says Microsoft, as publisher, partnering with them was what they had been looking for.
-- Partners are recommended to consider joining the program as a way to grow new skill sets.
+- Partners facing talent gap challenges have the option to join the program.
+- Participants value the mix of theory and practice and describe it as a guided program with community support.
+- A participant says the program let them pursue a career in technology within construction.
+- A partner says Microsoft, as the publisher, partnering with them was what they had been looking for to find next-generation talent.
+- Partners are recommended to join the program as a way to grow new skill sets within their business.
 
 ## Chapters
 
@@ -166,10 +172,9 @@ A participant explains how she moved into the field and found the program. She d
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Talent Program | status not stated | [0:05](https://www.youtube.com/watch?v=ILaWnh0V394&t=5s) |  |
-| Theory and practice learning mix | status not stated | [1:25](https://www.youtube.com/watch?v=ILaWnh0V394&t=85s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft Talent Program | status not stated | [0:05](https://www.youtube.com/watch?v=ILaWnh0V394&t=5s) |
 
 ## Quotes
 
@@ -177,6 +182,7 @@ A participant explains how she moved into the field and found the program. She d
 - [0:25](https://www.youtube.com/watch?v=ILaWnh0V394&t=25s) "this is finally what we've been looking for a way where Microsoft as the publisher was partnering with us to try to find that"
 - [0:45](https://www.youtube.com/watch?v=ILaWnh0V394&t=45s) "this Talent program has actually allowed me to fulfill a dream which I've had of working in technology within construction for a very long"
 - [1:05](https://www.youtube.com/watch?v=ILaWnh0V394&t=65s) "being a Microsoft business Central consultant could be the perfect answer that I was looking for"
+- [1:05](https://www.youtube.com/watch?v=ILaWnh0V394&t=65s) "it's really refreshing to have such a guided program you don't feel alone in it and you're with the community"
 - [1:25](https://www.youtube.com/watch?v=ILaWnh0V394&t=85s) "the mix of the theory and the practice and that's just a perfect way for me to Res skill myself"
 - [1:43](https://www.youtube.com/watch?v=ILaWnh0V394&t=103s) "for partners are considering joining the Microsoft Talent program I would really recommend that it's a great way of growing new skill sets within"
 

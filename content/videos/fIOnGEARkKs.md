@@ -18,12 +18,12 @@ tags:
   - coupling
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:37.246Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:37.296Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 391
     quote: customer vendor contact salesperson and opportunity integration field mappings now have additional Fields available for you to map
+  - kind: video
+    url: https://www.youtube.com/watch?v=fIOnGEARkKs&t=452s
+    title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
+    date: "2023-11-20T08:08:01.000Z"
+    commit: null
+    t: 452
+    quote: the default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing
   - kind: video
     url: https://www.youtube.com/watch?v=fIOnGEARkKs&t=530s
     title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1"
@@ -210,6 +217,9 @@ quotes:
   - t: 391
     text: customer vendor contact salesperson and opportunity integration field mappings now have additional Fields available for you to map
     check: exact
+  - t: 452
+    text: the default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing
+    check: exact
   - t: 530
     text: the commercial blockers for integrating various Dynamic 365 apps have been removed earlier this year
     check: exact
@@ -225,7 +235,7 @@ quotes:
 
 > Business Central and Dataverse / Dynamics 365 Sales integration changes in 2023 release wave 2: multi-company and multi-environment synchronization, multi-currency conversion, extra field mappings, event-based sync control, virtual table visibility in assisted setup, and licensing changes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fIOnGEARkKs) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-20 · 19:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fIOnGEARkKs) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-20 · 19:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -235,7 +245,7 @@ The session then covers multi-currency synchronization, additional field mapping
 
 ## Key points
 
-- Multiple companies from multiple Business Central environments can access data in the same Dataverse environment. Company filters need careful configuration, and documents need explicit company selection to avoid conflicts.
+- Multiple companies from multiple Business Central environments can access data in the same Dataverse environment. Turning on multi-company sync removes company filters on user- and team-owned tables such as accounts and contacts. Sales quote and order sync becomes stricter: users must pick the Business Central company that will process each document. Organization-owned tables such as currency are not affected.
 - Recommended approach: consolidate data in one master data company in Business Central, synchronize between companies with master data management, then integrate with central Dataverse or Dynamics 365 Sales. This improves performance and avoids service protection limits.
 - Multi-currency: Business Central local currencies are added to Dataverse automatically and amounts are converted on the fly. The Dataverse base currency must be set up as a regular currency in Business Central with exchange rates.
 - Customer, vendor, contact, salesperson and opportunity mappings have additional fields. They are disabled by default, and users can enable them without a developer.
@@ -258,17 +268,17 @@ The session then covers multi-currency synchronization, additional field mapping
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Multi-company and multi-environment synchronization | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=fIOnGEARkKs&t=78s) |  |
-| Default Business Central environment and company selection | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=fIOnGEARkKs&t=151s) |  |
-| Master data consolidation approach | status not stated | [3:51](https://www.youtube.com/watch?v=fIOnGEARkKs&t=231s) |  |
-| Multi-currency synchronization | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=fIOnGEARkKs&t=287s) |  |
-| Additional field mappings for integration | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=fIOnGEARkKs&t=391s) |  |
-| Control over event-based synchronization | status not stated | [7:12](https://www.youtube.com/watch?v=fIOnGEARkKs&t=432s) |  |
-| Virtual tables visibility during assisted setup | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=fIOnGEARkKs&t=497s) |  |
-| Commercial licensing for Dynamics 365 app integration | status not stated | [8:50](https://www.youtube.com/watch?v=fIOnGEARkKs&t=530s) |  |
-| Automatic coupling criteria recommendation | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=fIOnGEARkKs&t=626s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Multi-company and multi-environment synchronization | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=fIOnGEARkKs&t=78s) |
+| Default Business Central environment and company selection | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=fIOnGEARkKs&t=151s) |
+| Master data consolidation approach | status not stated | [3:51](https://www.youtube.com/watch?v=fIOnGEARkKs&t=231s) |
+| Multi-currency synchronization | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=fIOnGEARkKs&t=287s) |
+| Additional field mappings for integration | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=fIOnGEARkKs&t=391s) |
+| Control over event-based synchronization | status not stated | [7:12](https://www.youtube.com/watch?v=fIOnGEARkKs&t=432s) |
+| Virtual tables visibility during assisted setup | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=fIOnGEARkKs&t=497s) |
+| Commercial licensing for Dynamics 365 app integration | status not stated | [8:50](https://www.youtube.com/watch?v=fIOnGEARkKs&t=530s) |
+| Automatic coupling criteria recommendation | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=fIOnGEARkKs&t=626s) |
 
 ## AL objects mentioned
 
@@ -296,6 +306,7 @@ Not found in BC28-30: table "account", table "sales quotes", page "integration f
 - [5:08](https://www.youtube.com/watch?v=fIOnGEARkKs&t=308s) "integration now ensures seamless synchronization when multiple currencies are involved"
 - [5:28](https://www.youtube.com/watch?v=fIOnGEARkKs&t=328s) "the only prerequisite that you uh that you have is having data ver based currency set up as a regular currency in business Central"
 - [6:31](https://www.youtube.com/watch?v=fIOnGEARkKs&t=391s) "customer vendor contact salesperson and opportunity integration field mappings now have additional Fields available for you to map"
+- [7:32](https://www.youtube.com/watch?v=fIOnGEARkKs&t=452s) "the default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing"
 - [8:50](https://www.youtube.com/watch?v=fIOnGEARkKs&t=530s) "the commercial blockers for integrating various Dynamic 365 apps have been removed earlier this year"
 - [10:26](https://www.youtube.com/watch?v=fIOnGEARkKs&t=626s) "for some simple tables like payment terms or currencies we can automatically recommend coupling criteria"
 - [18:08](https://www.youtube.com/watch?v=fIOnGEARkKs&t=1088s) "in the demo you saw uh how integration Works in multic company and multi- environment setting conversion of Base uh transaction currency making virtual"

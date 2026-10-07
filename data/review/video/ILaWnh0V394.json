@@ -1,0 +1,31 @@
+{
+  "video_id": "ILaWnh0V394",
+  "item_id": "video/yt-microsoft/ILaWnh0V394",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says 'A 2023 video'; no date appears in the transcript.",
+    "Key point uses 'her' for the participant; the transcript does not show the speaker's gender.",
+    "'Theory and practice learning mix' is a participant's comment on the program, not a separate feature; dropped.",
+    "All six existing quotes are verbatim and kept.",
+    "Microsoft Talent Program left as unclear: it is a partner recruitment program, not a product feature, though the transcript says partners 'now have the option to join'.",
+    "Added a quote about guided learning and community support, which the topics list but no quote covers."
+  ],
+  "input_hash": "0165a0bd29dbd4922633e60effc332e919481906e6c40c1efa3571cf7a794438",
+  "by": "opus",
+  "at": "2026-10-07T23:15:54.870Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Microsoft Talent Program: status unclear",
+    "quote at 66s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05728900000000001
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - demo data
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:10.742Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:10.776Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -267,7 +267,7 @@ quotes:
 
 > Bank Account Reconciliation Assistance with Copilot, in public preview with 2023 release wave 2, matches imported bank statement lines to ledger entries using the built-in algorithm first and Copilot for the remainder. The video demos full and partial matching, transfer to GL accounts, and the admin setup.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jhfwx1K0I7Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 21:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jhfwx1K0I7Y) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 21:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -277,9 +277,9 @@ The demos cover full automatic matching, partial matching with manual review, an
 
 ## Key points
 
-- The feature is in public preview with 2023 release wave 2. It is only available for Business Central online (SaaS) and will arrive in a minor update between November 2023 and March 2024.
-- Matching order: the built-in algorithm tries the statement lines first, then unmatched lines go to Copilot. Proposals are provisional until the user saves them.
-- Copilot works best with English transactions. Mixed-language data may perform worse. It is not restricted by country localization, but results may differ.
+- The feature is in public preview with 2023 release wave 2. It is only available for Business Central online (SaaS) and will arrive in a minor update; minor updates span from November until March 2024, so 23.0 does not include it.
+- Matching order: the built-in algorithm tries the statement lines first, then unmatched lines go to Copilot. Proposals are not saved to the database until the user chooses Keep it.
+- Copilot works best with English bank transactions, and suggestions may perform worse in other languages or with mixed-language descriptions. The feature is not restricted by country localization or user language.
 - Unmatched lines can be transferred to GL accounts. Copilot suggests accounts from the line description and account name semantically. Users can override a suggestion and save description-to-account mappings for later use.
 - When all lines are matched, an option lets the reconciliation post automatically.
 - Admins may need to enable the feature in Feature Management when upgrading, which requires elevated permissions. The Copilot and AI Capabilities page shows active capabilities and the Azure OpenAI connection.

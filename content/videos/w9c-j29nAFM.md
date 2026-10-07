@@ -17,12 +17,12 @@ tags:
   - partner enablement
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:32.670Z"
   flags: []
 generated:
-  at: "2026-10-06T21:52:09.889Z"
+  at: "2026-10-07T23:15:32.703Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,7 +143,7 @@ quotes:
 
 > Reskill program explainer: a Microsoft program that recruits people with industry experience and retrains them as Business Central professionals, consultants or developers, to help partners with a talent gap. It uses three pillars: hiring, training and 6 months of coaching.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=w9c-j29nAFM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-09 · 4:36 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=w9c-j29nAFM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-09 · 4:36 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,11 +171,11 @@ Partners and participants share their views on hiring and career development. Th
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Reskilling Program | status not stated | [0:18](https://www.youtube.com/watch?v=w9c-j29nAFM&t=18s) |  |
-| Microsoft Talent Program | status not stated | [1:17](https://www.youtube.com/watch?v=w9c-j29nAFM&t=77s) |  |
-| New Hire Community | status not stated | [3:59](https://www.youtube.com/watch?v=w9c-j29nAFM&t=239s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Reskilling Program | status not stated | [0:18](https://www.youtube.com/watch?v=w9c-j29nAFM&t=18s) |
+| Microsoft Talent Program | status not stated | [1:17](https://www.youtube.com/watch?v=w9c-j29nAFM&t=77s) |
+| New Hire Community | status not stated | [3:59](https://www.youtube.com/watch?v=w9c-j29nAFM&t=239s) |
 
 ## Quotes
 

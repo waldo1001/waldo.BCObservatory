@@ -1,15 +1,15 @@
 {
   "video_id": "VX_aPhcsIOc",
   "item_id": "video/yt-microsoft/VX_aPhcsIOc",
-  "summary": "Controlling Application Insights telemetry costs for Business Central: viewing usage and estimated monthly costs from the configure menu, and setting a daily ingestion cap with warnings. The video notes the first four GB per month are free and that data beyond the cap is not ingested.",
+  "summary": "How to control Application Insights telemetry costs for Business Central. Ingesting data costs money, and so does keeping it longer than the default retention policy. The video shows where to view usage and estimated monthly costs under the Configure menu, and how to set a daily ingestion cap (for example, 100 MB per day) with a warning for when it is exceeded. Per the speaker, the first four GB per month are free, and data beyond the cap is no longer ingested.",
   "overview": "A short demo of how to manage the cost of Business Central telemetry sent to Application Insights. Ingesting data costs money, so the video treats it like any other resource whose cost should be controlled.\n\nIt shows where to see telemetry usage and estimated monthly costs, which read zero for a new resource until data has been ingested. It then covers setting a daily cap in gigabytes or megabytes and the warnings that appear when the cap is approached or exceeded. When a warning appears, data is being lost because it is no longer ingested.",
   "key_points": [
-    "Telemetry usage and estimated costs are available from the configure menu and give an overview of monthly Application Insights payments.",
+    "Telemetry costs come from ingesting data and from retaining it longer than the default retention policy.",
+    "Usage and estimated costs are found under the Configure menu of the Application Insights resource and show an overview of monthly payments.",
     "A new resource shows zero cost until data has been ingested.",
-    "The speaker says the first four gigabytes per month are free; ingestion after that is charged.",
-    "A daily cap can be set as a maximum amount of data, in gigabytes or megabytes, to ingest per day.",
-    "A daily cap warning means data is being lost: data beyond the cap is not ingested.",
-    "Choose the cap with this tradeoff in mind: lower cost versus possible gaps in telemetry."
+    "The speaker believes the first four gigabytes per month are free; ingestion after that is charged.",
+    "A daily cap sets the maximum gigabytes or megabytes of data to ingest per day; the speaker suggests starting with 100 MB (0.1 GB) per day.",
+    "Set a warning for when the cap is exceeded: a warning means data is no longer being ingested."
   ],
   "audience": [
     "administrator",

@@ -20,12 +20,12 @@ tags:
   - custom fields
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:51.320Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:51.380Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,6 +152,13 @@ evidence:
     t: 1718
     quote: when we're working with Cloud migration is that if there's any available updates for the environment in the admin Center we strongly recommend to
   - kind: video
+    url: https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1738s
+    title: Introduction to Business Central Cloud Migration (2023)
+    date: "2023-11-10T16:03:03.000Z"
+    commit: null
+    t: 1738
+    quote: we would forcefully stop Cloud migration and then you would be forced to start over again deleting the environment
+  - kind: video
     url: https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1769s
     title: Introduction to Business Central Cloud Migration (2023)
     date: "2023-11-10T16:03:03.000Z"
@@ -235,13 +242,6 @@ evidence:
     commit: null
     t: 3200
     quote: we are going to go through all of the tables which are using username and it is important for business Logic for example my
-  - kind: video
-    url: https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3235s
-    title: Introduction to Business Central Cloud Migration (2023)
-    date: "2023-11-10T16:03:03.000Z"
-    commit: null
-    t: 3235
-    quote: you can do it only once per environment so you should do it as the last step
 links:
   learn: []
   objects:
@@ -431,11 +431,6 @@ features:
   - name: Programmatic table mappings via codeunit 401
     status: unclear
     t: 2105
-    verified: false
-    status_source: video
-  - name: Selective table inclusion/exclusion in cloud migration
-    status: unclear
-    t: 2146
     verified: false
     status_source: video
   - name: Keep user permissions during cloud migration setup
@@ -656,6 +651,9 @@ quotes:
   - t: 1718
     text: when we're working with Cloud migration is that if there's any available updates for the environment in the admin Center we strongly recommend to
     check: exact
+  - t: 1738
+    text: we would forcefully stop Cloud migration and then you would be forced to start over again deleting the environment
+    check: exact
   - t: 1769
     text: the aim of table mapping is to move custom fields to table extensions in SAS and this is specifically because on Prem you're allowed
     check: exact
@@ -693,9 +691,6 @@ quotes:
     text: we are going to go through all of the tables which are using username and it is important for business Logic for example my
     check: exact
   - t: 3235
-    text: you can do it only once per environment so you should do it as the last step
-    check: exact
-  - t: 3235
     text: you can do it only once per environment so you should do it as the last step because you will not be able to
     check: exact
   - t: 3263
@@ -716,7 +711,7 @@ quotes:
 
 > Business Central cloud migration from on-premises SQL to SaaS, using Azure Data Factory SQL to SQL copy: setup, table mappings for custom fields, replication, upgrade, go-live, and troubleshooting. Includes upgrade path limits (version 14 minimum, direct path from 14 ending April 2025 with version 26) and a full demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Gwgpj1U1wxI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-10 · 59:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Gwgpj1U1wxI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-10 · 59:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -786,7 +781,6 @@ It also covers preparation (aligning SQL definitions, data cleanup), table mappi
 | Managed custom tables page for table mappings | status not stated, demoed | [31:48](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1908s) |  |
 | Table mappings export and import | status not stated, demoed | [34:53](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2093s) |  |
 | Programmatic table mappings via codeunit 401 | status not stated | [35:05](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2105s) |  |
-| Selective table inclusion/exclusion in cloud migration | status not stated | [35:46](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2146s) |  |
 | Keep user permissions during cloud migration setup | status not stated | [36:27](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2187s) |  |
 | Delegated admin consent for cloud migration | status not stated, demoed | [37:06](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2226s) |  |
 | Azure Data Factory pipelines for replication | status not stated | [38:27](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2307s) |  |
@@ -857,6 +851,7 @@ Not found in BC28-30: page "Data Administration page", codeunit "401 hybrid clou
 - [27:01](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1621s) "since the stored procedures will actually apply some changes to the on Prem database uh we highly recommend to try the cloud migration for"
 - [27:39](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1659s) "based on some very recent improvements that we have applied throughout the last year we can safly claim that the migrations from aure SQL"
 - [28:38](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1718s) "when we're working with Cloud migration is that if there's any available updates for the environment in the admin Center we strongly recommend to"
+- [28:58](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1738s) "we would forcefully stop Cloud migration and then you would be forced to start over again deleting the environment"
 - [29:29](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=1769s) "the aim of table mapping is to move custom fields to table extensions in SAS and this is specifically because on Prem you're allowed"
 - [35:05](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2105s) "you able to provide these table mappings programmatically if you subscribe to the on insert default table mappings event from code unit 401 hybrid"
 - [37:06](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=2226s) "it will always be a licensed super user that is able to perform the cloud migration setup and all the actions that follow but"
@@ -869,7 +864,6 @@ Not found in BC28-30: page "Data Administration page", codeunit "401 hybrid clou
 - [51:23](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3083s) "in the last two versions we have optimized over 30 long running upgrade methods"
 - [52:03](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3123s) "we have introduced the functionality so you can run it after the cloud migration"
 - [53:20](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3200s) "we are going to go through all of the tables which are using username and it is important for business Logic for example my"
-- [53:55](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3235s) "you can do it only once per environment so you should do it as the last step"
 - [53:55](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3235s) "you can do it only once per environment so you should do it as the last step because you will not be able to"
 - [54:23](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3263s) "are can we move additional companies in live tenants and the answer is we do not officially support it and we strongly advise against"
 - [54:43](https://www.youtube.com/watch?v=Gwgpj1U1wxI&t=3283s) "you're doing it on your own risk it is the same as running rapid start or using any kind of ptes to to fix"

@@ -20,12 +20,12 @@ tags:
   - permission sets
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:23.211Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:23.256Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -46,6 +46,13 @@ evidence:
     commit: null
     t: 408
     quote: a big feature that enabled our virtual tables which is the preview of Po Pages support that allow access to busy data from unlicensed
+  - kind: video
+    url: https://www.youtube.com/watch?v=YTA8c2XyTX4&t=489s
+    title: "Business Events via Power Automate: preview"
+    date: "2023-11-20T08:17:06.000Z"
+    commit: null
+    t: 489
+    quote: business event is still in preview and we are targeting a g a in the um in the release after this one
   - kind: video
     url: https://www.youtube.com/watch?v=YTA8c2XyTX4&t=79s
     title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
@@ -74,6 +81,13 @@ evidence:
     commit: null
     t: 428
     quote: we increase the amount of uh event can be processed within 30 seconds delay time it used to be 100 data change event now
+  - kind: video
+    url: https://www.youtube.com/watch?v=YTA8c2XyTX4&t=489s
+    title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
+    date: "2023-11-20T08:17:06.000Z"
+    commit: null
+    t: 489
+    quote: business event is still in preview and we are targeting a g a in the um in the release after this one
   - kind: video
     url: https://www.youtube.com/watch?v=YTA8c2XyTX4&t=569s
     title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
@@ -165,13 +179,6 @@ evidence:
     commit: null
     t: 1830
     quote: this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this
-  - kind: video
-    url: https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1850s
-    title: "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2"
-    date: "2023-11-20T08:17:06.000Z"
-    commit: null
-    t: 1850
-    quote: the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you
 links:
   learn: []
   objects:
@@ -251,9 +258,9 @@ features:
     verified: false
     status_source: video
   - name: Business Events via Power Automate
-    status: unclear
+    status: preview
     t: 347
-    verified: false
+    verified: true
     status_source: video
   - name: Data Change Events via Power Automate
     status: unclear
@@ -340,6 +347,9 @@ quotes:
   - t: 428
     text: we increase the amount of uh event can be processed within 30 seconds delay time it used to be 100 data change event now
     check: exact
+  - t: 489
+    text: business event is still in preview and we are targeting a g a in the um in the release after this one
+    check: exact
   - t: 569
     text: power pag support of V fre tables is actually enable access to BC data in three main scenarios the first scenario is anonymous access
     check: exact
@@ -379,16 +389,13 @@ quotes:
   - t: 1830
     text: this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this
     check: exact
-  - t: 1850
-    text: the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you
-    check: exact
 ---
 
 # What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2
 
 > Dataverse integration in Business Central 2023 release wave 2, part 2: virtual tables reaching general availability in November, Power Pages access to BC data through virtual tables (in preview), data change event capacity, and business events versioning, troubleshooting and telemetry.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YTA8c2XyTX4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-20 · 33:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YTA8c2XyTX4) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-20 · 33:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -431,7 +438,7 @@ A long demo shows Power Pages using virtual tables for anonymous external access
 | Data Change Events Performance Improvement | status not stated | [7:08](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=428s) |  |
 | Business Events Filtering Support | status not stated | [8:09](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=489s) |  |
 | Data Synchronization | status not stated | [4:14](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=254s) |  |
-| Business Events via Power Automate | status not stated | [5:47](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=347s) |  |
+| Business Events via Power Automate | preview | [5:47](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=347s) | "business event is still in preview and we are targeting a g a in the um in the release after this one" ([8:09](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=489s)) |
 | Data Change Events via Power Automate | status not stated | [5:27](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=327s) |  |
 | Anonymous external user access via Power Pages | status not stated, demoed | [13:12](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=792s) |  |
 | Authenticated external user sales order creation | status not stated, demoed | [14:37](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=877s) |  |
@@ -473,6 +480,7 @@ Not found in BC28-30: table "account table", table "items table", table "contact
 - [2:00](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=120s) "extensive means we want to cover all type of app or system instructions such as replication or synchronization or what we used to call"
 - [6:48](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=408s) "I'd like to announce the first uh time General availability or GA that's coming this November for our virtual tables and a big feature"
 - [7:08](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=428s) "we increase the amount of uh event can be processed within 30 seconds delay time it used to be 100 data change event now"
+- [8:09](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=489s) "business event is still in preview and we are targeting a g a in the um in the release after this one"
 - [9:29](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=569s) "power pag support of V fre tables is actually enable access to BC data in three main scenarios the first scenario is anonymous access"
 - [11:10](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=670s) "external user are those user that not in an employee like relationship with your company with your um with the company within business Central"
 - [13:35](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=815s) "when I'm registering I essentially uh creating a new entry in the native contact table inside data verse so this is the registration page"
@@ -486,7 +494,6 @@ Not found in BC28-30: table "account table", table "items table", table "contact
 - [28:06](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1686s) "the difference between version 1.0 and version 0.0 is uh the payot has uh this new web client URL where you can actually uh"
 - [29:30](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1770s) "the system tables that support troubleshooting for business event the first um uh table is the external event subscription you can see there's a"
 - [30:30](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1830s) "this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this"
-- [30:50](https://www.youtube.com/watch?v=YTA8c2XyTX4&t=1850s) "the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you"
 
 ## Disclaimers in the video
 

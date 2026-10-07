@@ -1,0 +1,23 @@
+{
+  "video_id": "sZ7wMU1Uxio",
+  "item_id": "video/yt-microsoft/sZ7wMU1Uxio",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All five quotes are verbatim; the second quote at 74.4 continues into segment 94.5, which is acceptable.",
+    "All features are marked unclear, which is right: the transcript says nothing about preview or GA status.",
+    "Key points and chapters match the steps shown: workspace, dataset settings, credentials, refresh rate and notifications.",
+    "The summary says 2 minutes for a 109-second video; that is close enough."
+  ],
+  "input_hash": "fe05a2359cb1bc2efd31d8fcebfc18522a6fdcd8e84debbcce964ab026f4efcc",
+  "by": "opus",
+  "at": "2026-10-07T23:14:34.890Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036705
+  }
+}

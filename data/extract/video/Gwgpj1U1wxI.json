@@ -636,27 +636,6 @@
       "system": "development"
     },
     {
-      "name": "Selective table inclusion/exclusion in cloud migration",
-      "description": "Ability to selectively include or exclude tables from cloud migration for non-sensitive tables that support page type extensions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2146.3,
-      "t_end": 2166.4,
-      "is_demoed": false,
-      "caveats": [
-        "Only applies to non-sensitive tables",
-        "Details elaborated in separate 'what's new in cloud migration' session"
-      ],
-      "tags": [
-        "table selection",
-        "cloud migration",
-        "setup"
-      ],
-      "system": "integration"
-    },
-    {
       "name": "Keep user permissions during cloud migration setup",
       "description": "Ability to disable the default behavior of removing user permissions when cloud migration is set up, allowing permissions to be retained throughout the migration process.",
       "status": "unclear",
@@ -1429,6 +1408,12 @@
       "check": "exact"
     },
     {
+      "t": 1738.7,
+      "text": "we would forcefully stop Cloud migration and then you would be forced to start over again deleting the environment",
+      "why_it_matters": "Explains the consequence of running environment updates while cloud migration is enabled.",
+      "check": "exact"
+    },
+    {
       "t": 1769.2,
       "text": "the aim of table mapping is to move custom fields to table extensions in SAS and this is specifically because on Prem you're allowed",
       "why_it_matters": "This explains the fundamental architectural difference driving the need for table mappings in SaaS.",
@@ -1502,14 +1487,8 @@
     },
     {
       "t": 3235.7,
-      "text": "you can do it only once per environment so you should do it as the last step",
-      "why_it_matters": "Establishes the one-time nature of user mapping execution as a critical constraint for proper environment configuration.",
-      "check": "exact"
-    },
-    {
-      "t": 3235.7,
       "text": "you can do it only once per environment so you should do it as the last step because you will not be able to",
-      "why_it_matters": "Critical limitation that user mapping is a one-time operation and must be performed as the final step, with no ability to retry.",
+      "why_it_matters": "User mapping is a one-time operation per environment and must be the last step before go-live.",
       "check": "exact"
     },
     {

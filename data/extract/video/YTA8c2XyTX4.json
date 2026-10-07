@@ -195,10 +195,10 @@
     {
       "name": "Business Events via Power Automate",
       "description": "Business events enable outbound interaction from Business Central to trigger Power Automate flows using when an action is performed trigger on Dataverse, allowing notifications when business actions occur.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 489,
+      "status_evidence_quote": "business event is still in preview and we are targeting a g a in the um in the release after this one",
+      "status_evidence_verified": true,
       "t_start": 347.2,
       "t_end": 367.4,
       "is_demoed": false,
@@ -558,6 +558,12 @@
       "check": "exact"
     },
     {
+      "t": 489,
+      "text": "business event is still in preview and we are targeting a g a in the um in the release after this one",
+      "why_it_matters": "States the preview status of business events and when GA is targeted.",
+      "check": "exact"
+    },
+    {
       "t": 569.9,
       "text": "power pag support of V fre tables is actually enable access to BC data in three main scenarios the first scenario is anonymous access",
       "why_it_matters": "Highlights a major new capability allowing unlicensed external users to access Business Central data without authentication.",
@@ -633,12 +639,6 @@
       "t": 1830.2,
       "text": "this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this",
       "why_it_matters": "Announces upcoming UI page for better visualization scheduled for November",
-      "check": "exact"
-    },
-    {
-      "t": 1850.2,
-      "text": "the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you",
-      "why_it_matters": "Demonstrates how partners can configure telemetry for business events in production environments",
       "check": "exact"
     }
   ],

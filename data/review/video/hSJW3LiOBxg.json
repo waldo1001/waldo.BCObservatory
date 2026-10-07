@@ -1,0 +1,35 @@
+{
+  "video_id": "hSJW3LiOBxg",
+  "item_id": "video/yt-microsoft/hSJW3LiOBxg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 19 quotes are verbatim in the transcript. Several run on into the next caption segment, which is fine.",
+    "The evidence_t values for Visual Hierarchy Navigation and Teaching Tips pointed to the wrong segments. The quotes start at 919.4 and 1557.9, not at 899.4 and 1537.6.",
+    "Report visual embedding, query analysis and Excel multiple data sheets are stated as available in this wave. They are now marked GA with verbatim evidence.",
+    "Four features are only the presenters' closing advice, not product features: Analytical requirements assessment approach, Power BI for Business Central analytics, Queries as powerful analytical tool and Excel data set approach. They are dropped.",
+    "The Usage Category description says 'version 23.1 and later', but the transcript only says 'at least in version 23.1'.",
+    "The key points missed teaching tips, context-sensitive help and the query usage category. They are added."
+  ],
+  "input_hash": "bd329cc3f35062d4bf95615b39ca056a8e645e8139b440251f6350e40eeb4f25",
+  "by": "opus",
+  "at": "2026-10-07T23:15:04.573Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "Visual Hierarchy Navigation: status ga",
+    "Teaching Tips on Queries and Reports: status ga",
+    "quote at 1619s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Report visual embedding -> ga: evidence not verbatim or does not state the status",
+    "status Query Analysis UI -> ga: evidence not verbatim or does not state the status",
+    "status Excel Layout Multiple Data Sheets -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.192961
+  }
+}

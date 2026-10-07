@@ -18,12 +18,12 @@ tags:
   - danish bookkeeping act
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:50.780Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:50.817Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 393
     quote: the automatically generated digital voucher will not be added to the record if menual attachments has already been added
+  - kind: video
+    url: https://www.youtube.com/watch?v=pE19K17wpgI&t=434s
+    title: "What's New: Using Enforced Digital Vouchers (2023 release wave 2)"
+    date: "2023-11-28T11:46:50.000Z"
+    commit: null
+    t: 434
+    quote: so because of that we added additional setup where you can add specific source code for enforcing
   - kind: video
     url: https://www.youtube.com/watch?v=pE19K17wpgI&t=537s
     title: "What's New: Using Enforced Digital Vouchers (2023 release wave 2)"
@@ -173,6 +180,9 @@ quotes:
   - t: 393
     text: the automatically generated digital voucher will not be added to the record if menual attachments has already been added
     check: exact
+  - t: 434
+    text: so because of that we added additional setup where you can add specific source code for enforcing
+    check: exact
   - t: 537
     text: when I do this I can see the error message that it's not possible to post without attaching the digital voucher
     check: exact
@@ -185,7 +195,7 @@ quotes:
 
 > Enforced Digital Vouchers in Business Central (2023 release wave 2): how to make digital vouchers or attachments mandatory for sales and purchase documents and journals, set up through a guided wizard, with demos of purchase invoices, sales invoices and a sales journal. Origin is the Danish bookkeeping act, but it works in other countries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=pE19K17wpgI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-28 · 12:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=pE19K17wpgI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-28 · 12:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,12 +206,12 @@ It then covers the guided setup wizard and the configuration options per entry t
 ## Key points
 
 - Enforcement is set per entry type, such as sales documents, purchase documents and journal types, using a guided setup wizard.
-- Control options are: no check, digital file only, attachments plus invoice (with electronic document), or attachment or note (file or text note).
+- Control options are: no check (not enforced), attachments (a digital file must be attached), attachments plus invoice (also adds an electronic document), or attachment or note (a file or a text note).
 - With enforcement on, posting without the required voucher gives an error saying posting is not possible without attaching the digital voucher.
 - Vouchers can be generated automatically on posting, for example for sales invoices, when the generate automatically option is enabled per entry type.
-- An automatically generated voucher is not added if manual attachments were already added to the record.
+- With the skip if manually added option, an automatically generated voucher is not added if manual attachments were already added to the record.
 - Source code filtering lets you enforce vouchers in journals such as the general journal only for certain source codes, for example payroll.
-- In Denmark, users cannot disable mandatory vouchers for purchase and sales transactions from January next year (stated in the video as of Nov 2023).
+- Posted digital vouchers are linked to every general ledger entry of the posted document and can be seen there.
 
 ## Chapters
 
@@ -218,14 +228,14 @@ It then covers the guided setup wizard and the configuration options per entry t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Enforced Digital Vouchers | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=pE19K17wpgI&t=19s) |  |
-| Automatic Digital Voucher Generation | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=pE19K17wpgI&t=373s) |  |
-| Digital Voucher Control Types | status not stated | [4:32](https://www.youtube.com/watch?v=pE19K17wpgI&t=272s) |  |
-| Source Code Filtering for Digital Vouchers | status not stated | [6:54](https://www.youtube.com/watch?v=pE19K17wpgI&t=414s) |  |
-| Guided Setup Wizard | status not stated | [4:32](https://www.youtube.com/watch?v=pE19K17wpgI&t=272s) |  |
-| Digital Voucher to General Ledger Entry Connection | status not stated, demoed | [8:40](https://www.youtube.com/watch?v=pE19K17wpgI&t=520s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Enforced Digital Vouchers | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=pE19K17wpgI&t=19s) |
+| Automatic Digital Voucher Generation | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=pE19K17wpgI&t=373s) |
+| Digital Voucher Control Types | status not stated | [4:32](https://www.youtube.com/watch?v=pE19K17wpgI&t=272s) |
+| Source Code Filtering for Digital Vouchers | status not stated | [6:54](https://www.youtube.com/watch?v=pE19K17wpgI&t=414s) |
+| Guided Setup Wizard | status not stated | [4:32](https://www.youtube.com/watch?v=pE19K17wpgI&t=272s) |
+| Digital Voucher to General Ledger Entry Connection | status not stated, demoed | [8:40](https://www.youtube.com/watch?v=pE19K17wpgI&t=520s) |
 
 ## AL objects mentioned
 
@@ -245,6 +255,7 @@ Not found in BC28-30: report "Sales invoice document", page "incoming document f
 - [4:12](https://www.youtube.com/watch?v=pE19K17wpgI&t=252s) "this feature can be used in other countries as well so we decided to create this app as a global app"
 - [5:33](https://www.youtube.com/watch?v=pE19K17wpgI&t=333s) "in Denmark where users cannot disable enforcing mandatory vouchers in purchase and sales transactions from January next next year"
 - [6:33](https://www.youtube.com/watch?v=pE19K17wpgI&t=393s) "the automatically generated digital voucher will not be added to the record if menual attachments has already been added"
+- [7:14](https://www.youtube.com/watch?v=pE19K17wpgI&t=434s) "so because of that we added additional setup where you can add specific source code for enforcing"
 - [8:57](https://www.youtube.com/watch?v=pE19K17wpgI&t=537s) "when I do this I can see the error message that it's not possible to post without attaching the digital voucher"
 - [10:12](https://www.youtube.com/watch?v=pE19K17wpgI&t=612s) "I would not see any error message and the document is posted successfully but where is my digital voucher and the digital voucher is"
 

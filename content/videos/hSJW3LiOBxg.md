@@ -20,12 +20,12 @@ tags:
   - data exploration
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:04.573Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:04.636Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,6 +151,13 @@ evidence:
     commit: null
     t: 1598
     quote: if you click show help you would get the same information in the help pane and the context sensitive help page will now
+  - kind: video
+    url: https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1618s
+    title: "What's New: Power BI and Reporting for Developers (2023 release wave 2)"
+    date: "2023-11-28T11:42:18.000Z"
+    commit: null
+    t: 1618
+    quote: a new kit on the Block usage category for for queries if you set this to reports and Analysis
   - kind: video
     url: https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1652s
     title: "What's New: Power BI and Reporting for Developers (2023 release wave 2)"
@@ -350,26 +357,6 @@ features:
     t: 1757
     verified: false
     status_source: video
-  - name: Analytical requirements assessment approach
-    status: unclear
-    t: 1812
-    verified: false
-    status_source: video
-  - name: Power BI for Business Central analytics
-    status: unclear
-    t: 1887
-    verified: false
-    status_source: video
-  - name: Queries as powerful analytical tool
-    status: unclear
-    t: 1928
-    verified: false
-    status_source: video
-  - name: Excel data set approach
-    status: unclear
-    t: 1968
-    verified: false
-    status_source: video
 objects_mentioned:
   - table PowerBI Display Element
   - page Chart of Accounts
@@ -418,6 +405,9 @@ quotes:
   - t: 1598
     text: if you click show help you would get the same information in the help pane and the context sensitive help page will now
     check: fuzzy
+  - t: 1618
+    text: a new kit on the Block usage category for for queries if you set this to reports and Analysis
+    check: exact
   - t: 1652
     text: the code that I showed you earlier is for the major part available on the BCT Tech Reaper which you can find at aka.
     check: exact
@@ -439,7 +429,7 @@ quotes:
 
 > Power BI and reporting changes for AL developers in the 2023 release wave 2: expanded-mode embedding, locking report selection, visual-level embedding, scorecards, query analysis UI, Excel layouts with multiple data sheets, and teaching tips on queries and reports.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hSJW3LiOBxg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-28 · 35:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hSJW3LiOBxg) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-28 · 35:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -503,10 +493,6 @@ It also shows the analysis UI on queries, Excel layouts with multiple data sheet
 | Report layout resilience guidance | status not stated | [28:36](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1716s) |  |
 | Excel samples and guidance | status not stated | [28:57](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1737s) |  |
 | Power BI community resources | status not stated | [29:17](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1757s) |  |
-| Analytical requirements assessment approach | status not stated | [30:12](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1812s) |  |
-| Power BI for Business Central analytics | status not stated | [31:27](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1887s) |  |
-| Queries as powerful analytical tool | status not stated | [32:08](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1928s) |  |
-| Excel data set approach | status not stated | [32:48](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1968s) |  |
 
 ## AL objects mentioned
 
@@ -535,6 +521,7 @@ Not found in BC28-30: table "PowerBI Display Element", query "item hero query", 
 - [23:09](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1389s) "on the report object as a developer you now have a new property called Excel layout multiple data sheets"
 - [25:57](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1557s) "teaching tips is now available on queries and on reports"
 - [26:38](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1598s) "if you click show help you would get the same information in the help pane and the context sensitive help page will now"
+- [26:58](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1618s) "a new kit on the Block usage category for for queries if you set this to reports and Analysis"
 - [27:32](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1652s) "the code that I showed you earlier is for the major part available on the BCT Tech Reaper which you can find at aka."
 - [31:27](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1887s) "understand the customers analytical requirements stop just developing blindly reports start supporting their analytical needs"
 - [31:47](https://www.youtube.com/watch?v=hSJW3LiOBxg&t=1907s) "powerbi is the Microsoft tool of choice for business analysis and in particular for business Central data"

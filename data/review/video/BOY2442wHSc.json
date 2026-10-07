@@ -1,0 +1,23 @@
+{
+  "video_id": "BOY2442wHSc",
+  "item_id": "video/yt-microsoft/BOY2442wHSc",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All quotes are verbatim; the quote at 58.6 crosses a segment boundary, which is acceptable.",
+    "OAuth 2.0 is an inference from garbled captions ('using or so', 'pick o or two'). It is plausible but not stated clearly.",
+    "All feature statuses are unclear, which is correct because the transcript gives no preview or GA information.",
+    "The demo picks a two-week look-back period, while the key points list weekly, daily or monthly as options; both are supported by the transcript."
+  ],
+  "input_hash": "da8eb1627f6fc8c5a4c9f040e501abe691538a9de013f940a9b3a1ff81687661",
+  "by": "opus",
+  "at": "2026-10-07T23:14:37.586Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.051569000000000004
+  }
+}

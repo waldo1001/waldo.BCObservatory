@@ -250,12 +250,6 @@
   ],
   "quotes": [
     {
-      "t": 18.2,
-      "text": "this session is what's new in server and database as and as a new thing this year we split it up into four different",
-      "why_it_matters": "Establishes the session structure and indicates server/database improvements are now split into focused topics for 2023 Wave 2.",
-      "check": "exact"
-    },
-    {
       "t": 158.3,
       "text": "after 10 years queries suddenly get their time in the Limelight",
       "why_it_matters": "Marks a major shift in query functionality and visibility after a decade without significant feature additions.",
@@ -274,6 +268,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 342.4,
+      "text": "the mounting of a tenant is now significantly faster because the way we hook up event subscribers has been optimized significantly",
+      "why_it_matters": "Explains the cause of the tenant startup performance improvement.",
+      "check": "exact"
+    },
+    {
       "t": 363,
       "text": "for very busy notes with a lot of tenants it means up to a thousand times faster",
       "why_it_matters": "Demonstrates dramatic performance gain for multi-tenant on-premises deployments through event subscriber optimization.",
@@ -284,6 +284,12 @@
       "text": "you should stop using the old error method the one that just has normal parameters the",
       "why_it_matters": "Provides clear guidance to developers on migration path to error info data type for future capabilities.",
       "check": "fuzzy"
+    },
+    {
+      "t": 443.5,
+      "text": "if you have code where it is really imperative that this information is never in memory dumps or can be debugged",
+      "why_it_matters": "States when to adopt the new SecretText data type.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

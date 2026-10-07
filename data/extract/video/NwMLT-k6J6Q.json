@@ -181,29 +181,6 @@
       "system": "administration"
     },
     {
-      "name": "Onboarding checklist framework",
-      "description": "Partners can create onboarding checklists with various elements like videos, tasks, banners and role center items bundled into AppSource apps to guide customers through setup.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 768.6,
-      "t_end": 889.7,
-      "is_demoed": true,
-      "caveats": [
-        "Checklists are examples for inspiration, not prescriptive",
-        "users can move and navigate freely, potentially skipping tasks or changing order",
-        "designed for five to seven items maximum"
-      ],
-      "tags": [
-        "checklist",
-        "guidance",
-        "onboarding elements",
-        "user guidance"
-      ],
-      "system": "administration"
-    },
-    {
       "name": "Cohesive single-experience trial launch",
       "description": "From the user perspective, the standard trial plus partner app and questionnaire context appears as one coherent experience without revealing the technical composition.",
       "status": "unclear",
@@ -220,48 +197,6 @@
         "seamless integration"
       ],
       "system": "sales"
-    },
-    {
-      "name": "Context-aware app loading from questionnaire",
-      "description": "Apps and dependencies are automatically loaded into the trial environment based on user responses to a pre-signup questionnaire about their business context and previous systems used.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 808.8,
-      "t_end": 869.6,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "onboarding",
-        "trial",
-        "appsource",
-        "questionnaire",
-        "app loading"
-      ],
-      "system": "integration"
-    },
-    {
-      "name": "Onboarding checklist with multiple element types",
-      "description": "A customizable checklist used to guide prospects through onboarding with videos, setup steps, data imports, feature highlights, and links to external resources.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 869.6,
-      "t_end": 1053.6,
-      "is_demoed": true,
-      "caveats": [
-        "Users can navigate freely and skip tasks",
-        "Order is not guaranteed"
-      ],
-      "tags": [
-        "checklist",
-        "onboarding",
-        "customer-centric",
-        "guided experience"
-      ],
-      "system": "crm"
     },
     {
       "name": "Assisted setup with filtering by category",
@@ -456,25 +391,6 @@
       "system": "development"
     },
     {
-      "name": "Assisted setup function call with filtering",
-      "description": "The open assisted setup function in guide experience items can be called to open the assisted setup list filtered to a custom category.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1390.3,
-      "t_end": 1436.9,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "assisted setup",
-        "api",
-        "function call",
-        "filtering"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Just-in-time data loading with clarification",
       "description": "Assisted setups can ask users clarifying questions to determine which data to load, enabling selective imports based on customer needs and preferences.",
       "status": "unclear",
@@ -490,24 +406,6 @@
         "configuration",
         "setup",
         "customization"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Minute indicator on checklist tasks",
-      "description": "Checklist tasks can display time estimates to help manage user expectations about task duration during trial and evaluation scenarios.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1647.6,
-      "t_end": 1667.9,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "checklist",
-        "time estimate",
-        "user guidance"
       ],
       "system": "development"
     },
@@ -852,14 +750,8 @@
     },
     {
       "t": 1627.5,
-      "text": "the user can move and navigate freely between the tasks and might even skip some of them to revisit them later so you can't",
-      "why_it_matters": "Important design consideration - checklists are non-linear and users control their own progression, not the designer's planned order.",
-      "check": "exact"
-    },
-    {
-      "t": 1627.5,
       "text": "the user can move and navigate freely between the tasks and might even skip some of them to revisit them later",
-      "why_it_matters": "Critical constraint showing that checklist order is not guaranteed and affects onboarding design decisions.",
+      "why_it_matters": "Checklist order is not guaranteed because users can skip tasks and come back to them; this replaces the duplicated quote.",
       "check": "exact"
     },
     {

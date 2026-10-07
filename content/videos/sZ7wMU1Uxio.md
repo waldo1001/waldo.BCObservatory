@@ -14,12 +14,12 @@ tags:
   - workspace management
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:34.890Z"
   flags: []
 generated:
-  at: "2026-10-06T21:45:15.251Z"
+  at: "2026-10-07T23:14:34.926Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -132,7 +132,7 @@ quotes:
 
 > Changing dataset properties for a Business Central Power BI Telemetry app in the Power BI service: finding the workspace, opening the dataset settings, editing data source credentials, and setting the refresh rate and error notifications. Demonstrated in a 2-minute video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sZ7wMU1Uxio) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 1:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sZ7wMU1Uxio) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 1:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -160,11 +160,11 @@ From the dataset you open its settings. Under data source credentials you can ed
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Power BI Telemetry app dataset properties | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=0s) |  |
-| Data source credentials management | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=74s) |  |
-| Report refresh rate configuration | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=87s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Power BI Telemetry app dataset properties | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=0s) |
+| Data source credentials management | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=74s) |
+| Report refresh rate configuration | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=87s) |
 
 ## Quotes
 

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=NwMLT-k6J6Q",
   "published_at": "2023-11-14T16:26:27.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 6
     },
     "published": {
-      "at": "2026-10-06T21:53:49.188Z",
+      "at": "2026-10-07T23:15:50.464Z",
       "path": "content/videos/NwMLT-k6J6Q.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:15:50.413Z",
+      "path": "data/review/video/NwMLT-k6J6Q.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.19952899999999998
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0de16a1383d0446e6046f29a346276b1465d5dc1238e6e4c0f4ffa36bb690b8"
+  "output_hash": "dfc3ddb9337b5adce7008139bc3fff449f7a9209703cb78f19e76abbbeb4ae1f",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:15:50.406Z"
+  }
 }

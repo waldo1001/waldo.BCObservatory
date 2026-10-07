@@ -1,0 +1,36 @@
+{
+  "video_id": "tCmDKBszA1w",
+  "item_id": "video/yt-microsoft/tCmDKBszA1w",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at 336.6 reads 'only 6 of 187' but transcript says 'only 6% of 187'; replaced with verbatim span.",
+    "E-Document Global Service App and Third-party access points app are the same app (speaker at 2017.3 says 'I mentioned in the beginning'); dropped the duplicate and merged the key point.",
+    "Global Service App evidence quote was 25 words, over the limit; moot after drop.",
+    "Statuses for features stated as covered in this release (sales e-invoices, purchase import, journal import, credit memos) and the planned purchase order update were left unclear; set with evidence.",
+    "Remaining quotes verified verbatim, some spanning segment boundaries."
+  ],
+  "input_hash": "f180d4841078bbecaf56646c586d5a0a4babdaa053e90867a8edceb368167169",
+  "by": "opus",
+  "at": "2026-10-07T23:16:11.827Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Third-party access points app: status announced",
+    "Update existing purchase orders: status announced",
+    "dropped 1 quote(s)",
+    "quote at 337s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Sales invoices to e-invoices -> ga: evidence not verbatim or does not state the status",
+    "status Credit memo handling -> ga: evidence not verbatim or does not state the status",
+    "status Import to journal lines -> ga: evidence not verbatim or does not state the status",
+    "status Import electronic documents to purchase invoice -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.218489
+  }
+}

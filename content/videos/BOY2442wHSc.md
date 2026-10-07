@@ -15,12 +15,12 @@ tags:
   - refresh configuration
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:37.586Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:37.620Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,7 +153,7 @@ quotes:
 
 > Connecting the Business Central Telemetry Power BI apps (environments or apps) to real data instead of sample data. Covers setting the Application Insights ID, time zone and refresh period in Power BI, then authenticating with OAuth to Application Insights.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BOY2442wHSc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 3:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BOY2442wHSc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 3:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,14 +181,14 @@ After the Business Central Telemetry Power BI app is installed, it shows sample 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Power BI Telemetry Apps for Business Central | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=BOY2442wHSc&t=0s) |  |
-| Data Connection Configuration for Power BI | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=20s) |  |
-| API Access Menu for Application Insights ID | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s) |  |
-| Time Zone Configuration for Reports | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=BOY2442wHSc&t=98s) |  |
-| Refresh Period Configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=118s) |  |
-| OAuth Authentication for Application Insights | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=140s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Power BI Telemetry Apps for Business Central | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=BOY2442wHSc&t=0s) |
+| Data Connection Configuration for Power BI | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=20s) |
+| API Access Menu for Application Insights ID | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s) |
+| Time Zone Configuration for Reports | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=BOY2442wHSc&t=98s) |
+| Refresh Period Configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=118s) |
+| OAuth Authentication for Application Insights | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=140s) |
 
 ## AL objects mentioned
 

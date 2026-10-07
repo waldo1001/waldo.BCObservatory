@@ -5,12 +5,12 @@
   "overview": "This 10-minute What's New session covers runtime-focused changes on the server and database side. It begins with error handling, secret text and permissions, then covers queries, telemetry, and performance.\n\nQueries get a new UI for data analysis and can be used as run objects, for example opened from page actions or placed in the reporting section. Partner telemetry separates total time from exclusive time for AL calls. Session creation is 2 to 4 ms faster because the companies a user can access are cached, and tenant startup is faster through optimized event subscriber hooking.",
   "key_points": [
     "The ErrorInfo AddAction method accepts a tooltip as its fourth parameter, so users can get more information about an action from the error dialogue.",
-    "AddAction checks permissions on the called function and does not show the action if the user lacks permission to use it. The presenter recommends stopping use of the old error method that takes plain parameters.",
-    "A new SecretText type is for passwords and other sensitive data, so they are not exposed in memory dumps or debugging environments. More detail is in the What's New in AL session.",
+    "AddAction now checks if you try to call an on-premises function. In that case the action is not shown because the user does not have permission to interact with it. The presenters recommend that you stop using the old error method that takes plain parameters and move to ErrorInfo.",
+    "A new SecretText type handles passwords and other sensitive data. Use it where data must never appear in memory dumps or be debuggable. The What's New in AL session covers it in more detail.",
     "The effective permissions page now includes permissions gained through security group membership.",
     "Queries have a new data analysis UI and can be used as run objects, opened from page actions or placed in the reporting section. More query capabilities are expected later.",
-    "Exclusive time telemetry is total time minus suspended time from other threads or sessions. It is available as exclusive time and as exclusive time in milliseconds.",
-    "Caching the companies a user can access makes session creation 2 to 4 ms faster, which is a 20-25 percent throughput gain for web services."
+    "Exclusive time telemetry is total time minus suspended time from other threads or sessions. It is available as exclusive time and as exclusive time in milliseconds. The Telemetry app shows both total and exclusive time.",
+    "Caching the companies a user can access makes session creation 2 to 4 ms faster. For small, fast web services this is a 20-25 percent throughput gain."
   ],
   "audience": [
     "developer",

@@ -15,12 +15,12 @@ tags:
   - chart of accounts
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:07.348Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:07.383Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,13 @@ evidence:
     commit: null
     t: 522
     quote: this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still
+  - kind: video
+    url: https://www.youtube.com/watch?v=y_8xralhVMM&t=542s
+    title: "What's New: Cross-Environment Consolidations (2023 release wave 2)"
+    date: "2023-10-23T13:47:29.000Z"
+    commit: null
+    t: 542
+    quote: we don't expose them right now but you can run this wizard from your Al code
 links:
   learn: []
   objects:
@@ -191,13 +198,16 @@ quotes:
   - t: 522
     text: this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still
     check: exact
+  - t: 542
+    text: we don't expose them right now but you can run this wizard from your Al code
+    check: exact
 ---
 
 # What's New: Cross-Environment Consolidations (2023 release wave 2)
 
 > Cross-environment consolidation in Business Central (2023 release wave 2): how business units in different environments are consolidated through an API endpoint instead of file export/import, using the new consolidation wizard. Covers subsidiary toggle, endpoint setup, authentication, currency mapping and chart of accounts mapping.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=y_8xralhVMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-23 · 9:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=y_8xralhVMM) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-23 · 9:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -211,8 +221,8 @@ The demo covers the new consolidate action with its wizard, setting up business 
 - In the subsidiary company, toggle the company as a subsidiary before consolidation setup. This enables data import and can be disabled at any time to stop extraction.
 - Copy the environment endpoint from the consolidation setup page in the subsidiary and use it when setting up the business unit with an API type endpoint.
 - You must authenticate with a user in the other company and select which company in the remote environment to set up.
-- The new consolidate action opens a wizard where you choose start date, end date and consolidation document number, then pick business units, with optional authentication.
-- The earlier report-based approach still exists and won't be deprecated. The procedures that run consolidation are internal and not exposed.
+- The new consolidate action on the business units page opens a wizard where you choose start date, end date and consolidation document number, then pick business units. If consolidations have not been run recently, you use the Grant access action to authenticate.
+- The earlier consolidation report still exists and won't be deprecated. The procedures that run consolidation are internal and not exposed, but the wizard can be run from AL code.
 - Consolidation supports currency mapping (subsidiary or holding company rates, optional additional reporting currency), chart of accounts mapping, minority interest percentages below 100, and a trial balance for consolidation.
 
 ## Chapters
@@ -228,18 +238,18 @@ The demo covers the new consolidate action with its wizard, setting up business 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cross-environment consolidation | status not stated, demoed | [4:00](https://www.youtube.com/watch?v=y_8xralhVMM&t=240s) |  |
-| Consolidation wizard | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=y_8xralhVMM&t=291s) |  |
-| API endpoint configuration for subsidiaries | status not stated, demoed | [6:46](https://www.youtube.com/watch?v=y_8xralhVMM&t=406s) |  |
-| Business unit subsidiary toggle | status not stated, demoed | [8:01](https://www.youtube.com/watch?v=y_8xralhVMM&t=481s) |  |
-| Consolidation setup page endpoint | status not stated, demoed | [7:00](https://www.youtube.com/watch?v=y_8xralhVMM&t=420s) |  |
-| Minority interest handling in consolidation | status not stated | [2:25](https://www.youtube.com/watch?v=y_8xralhVMM&t=145s) |  |
-| Currency mapping in consolidation | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=y_8xralhVMM&t=145s) |  |
-| Chart of accounts mapping in consolidation | status not stated | [1:41](https://www.youtube.com/watch?v=y_8xralhVMM&t=101s) |  |
-| Trial balance for consolidation | status not stated | [3:07](https://www.youtube.com/watch?v=y_8xralhVMM&t=187s) |  |
-| Financial reporting with consolidation data | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=y_8xralhVMM&t=187s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cross-environment consolidation | status not stated, demoed | [4:00](https://www.youtube.com/watch?v=y_8xralhVMM&t=240s) |
+| Consolidation wizard | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=y_8xralhVMM&t=291s) |
+| API endpoint configuration for subsidiaries | status not stated, demoed | [6:46](https://www.youtube.com/watch?v=y_8xralhVMM&t=406s) |
+| Business unit subsidiary toggle | status not stated, demoed | [8:01](https://www.youtube.com/watch?v=y_8xralhVMM&t=481s) |
+| Consolidation setup page endpoint | status not stated, demoed | [7:00](https://www.youtube.com/watch?v=y_8xralhVMM&t=420s) |
+| Minority interest handling in consolidation | status not stated | [2:25](https://www.youtube.com/watch?v=y_8xralhVMM&t=145s) |
+| Currency mapping in consolidation | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=y_8xralhVMM&t=145s) |
+| Chart of accounts mapping in consolidation | status not stated | [1:41](https://www.youtube.com/watch?v=y_8xralhVMM&t=101s) |
+| Trial balance for consolidation | status not stated | [3:07](https://www.youtube.com/watch?v=y_8xralhVMM&t=187s) |
+| Financial reporting with consolidation data | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=y_8xralhVMM&t=187s) |
 
 ## AL objects mentioned
 
@@ -260,5 +270,6 @@ Not found in BC28-30: page "business units", report "consolidation per business 
 - [8:01](https://www.youtube.com/watch?v=y_8xralhVMM&t=481s) "before doing this consolidation setup you have to enable this company a subsidiary so when you toggle this you can import data"
 - [8:21](https://www.youtube.com/watch?v=y_8xralhVMM&t=501s) "so now you can consolidate uh companies that are either in the same environment or in a completely different environment"
 - [8:42](https://www.youtube.com/watch?v=y_8xralhVMM&t=522s) "this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still"
+- [9:02](https://www.youtube.com/watch?v=y_8xralhVMM&t=542s) "we don't expose them right now but you can run this wizard from your Al code"
 
 Presenters (as heard): Brian Nelson, Joshua.

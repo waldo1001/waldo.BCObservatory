@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=lNASlydCidI",
   "published_at": "2023-11-27T10:32:34.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 19
     },
     "published": {
-      "at": "2026-10-06T21:50:57.915Z",
+      "at": "2026-10-07T23:15:21.716Z",
       "path": "content/videos/lNASlydCidI.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T23:15:21.641Z",
+      "path": "data/review/video/lNASlydCidI.json",
+      "verdict": "fix",
+      "applied": 6,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.24692899999999998
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ec114d5f325d687d57af87f726f0dd7b4cdad7793ef33695773c879047411f3"
+  "output_hash": "e386b58735a21ce9a8fa5987cc12046028b7af7168762c50d3cf136468354dc2",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:15:21.626Z"
+  }
 }

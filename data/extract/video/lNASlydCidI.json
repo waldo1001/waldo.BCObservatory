@@ -724,24 +724,6 @@
       "system": "copilot"
     },
     {
-      "name": "Sparkle Action Image for Copilot Prompts",
-      "description": "A new Sparkle action image indicator that developers can use on actions to signal that Copilot is at work when opening the dialogue. Recommended alongside terminology like 'draft', 'generate', 'suggest', or 'copilot'.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2692.7,
-      "t_end": 2713,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "ui design",
-        "signal",
-        "transparency"
-      ],
-      "system": "development"
-    },
-    {
       "name": "User Feedback Through Prompt Dialogue",
       "description": "Users can like or dislike outputs from Copilot and provide reasons for their feedback. This feedback is monitored through Application Insights and Power BI to track quality and adoption of AI features.",
       "status": "unclear",
@@ -1082,13 +1064,7 @@
     {
       "t": 2363.8,
       "text": "we believe that customers should remain in control of their data and of their AI experiences",
-      "why_it_matters": "Articulates the design philosophy behind the administration capabilities for AI features.",
-      "check": "exact"
-    },
-    {
-      "t": 2363.8,
-      "text": "customers should remain in control of their data and of their AI experiences",
-      "why_it_matters": "Establishes the core design principle behind the administration capabilities - customer control and data governance are fundamental to Copilot deployment.",
+      "why_it_matters": "Re-adds the one copy of a duplicated quote. It explains why the Copilot and AI capabilities admin page exists.",
       "check": "exact"
     },
     {

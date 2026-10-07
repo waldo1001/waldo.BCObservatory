@@ -1,0 +1,28 @@
+{
+  "video_id": "lCXrKdxneKo",
+  "item_id": "video/yt-microsoft/lCXrKdxneKo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Table Extension Auto-Refactoring was marked announced, but the transcript calls it a prototype under testing and says 'if we are successful we are going to announce it', so it is not announced yet. Changed the status to unclear.",
+    "The key point and the Database Replacement Impact feature say replacing the on-premises database needs a full setup restart. The transcript only says change tracking becomes invalid and a full replication is needed. The repeat of setup was said only about the integration runtime staying offline too long. Rewrote the key point; the feature description cannot be edited here.",
+    "'CIS admin' is a caption error for the SQL sysadmin server role. The key point now names both.",
+    "The key points left out the 14 to 21 upgrade paths, the new upgrade flow with automatic point-in-time restore, and that data transfer targets OnPrem only. Added them.",
+    "All 28 quotes checked against the transcript and they are verbatim. Added one quote about not replacing the source database."
+  ],
+  "input_hash": "937bff7c716b7366a9749572f9b4f42ff20b2390e636eb889326e60532841a23",
+  "by": "opus",
+  "at": "2026-10-07T23:15:26.284Z",
+  "applied": [
+    "Table Extension Auto-Refactoring: status unclear",
+    "quote at 1535s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.236181
+  }
+}

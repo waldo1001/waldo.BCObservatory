@@ -2,7 +2,7 @@
 id: video/lNASlydCidI
 type: video
 title: "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)"
-summary: "Generative AI developer toolkit for Business Central Copilot (2023 release wave 2): the prompt dialogue page type, system actions, the AI module for Azure OpenAI, capability registration, and admin and responsible AI controls. The toolkit is in preview for Insider builds."
+summary: "Generative AI developer toolkit for Business Central Copilot (2023 release wave 2): the prompt dialogue page type, system actions, the AI module for Azure OpenAI (text, chat, embeddings), capability registration, and admin and responsible AI controls. It is available now in Insider builds. A minor update during wave 2 will allow deployment to Business Central online."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - embeddings
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:21.626Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:21.703Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -186,13 +186,6 @@ evidence:
     commit: null
     t: 2363
     quote: we believe that customers should remain in control of their data and of their AI experiences
-  - kind: video
-    url: https://www.youtube.com/watch?v=lNASlydCidI&t=2363s
-    title: "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)"
-    date: "2023-11-27T10:32:34.000Z"
-    commit: null
-    t: 2363
-    quote: customers should remain in control of their data and of their AI experiences
   - kind: video
     url: https://www.youtube.com/watch?v=lNASlydCidI&t=2404s
     title: "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)"
@@ -439,11 +432,6 @@ features:
     t: 2611
     verified: false
     status_source: video
-  - name: Sparkle Action Image for Copilot Prompts
-    status: unclear
-    t: 2692
-    verified: false
-    status_source: video
   - name: User Feedback Through Prompt Dialogue
     status: unclear
     t: 2733
@@ -553,9 +541,6 @@ quotes:
   - t: 2363
     text: we believe that customers should remain in control of their data and of their AI experiences
     check: exact
-  - t: 2363
-    text: customers should remain in control of their data and of their AI experiences
-    check: exact
   - t: 2404
     text: capabilities also always start off as active but we've given administrators control to actually deactivate a feature of their choosing
     check: exact
@@ -578,9 +563,9 @@ quotes:
 
 # What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)
 
-> Generative AI developer toolkit for Business Central Copilot (2023 release wave 2): the prompt dialogue page type, system actions, the AI module for Azure OpenAI, capability registration, and admin and responsible AI controls. The toolkit is in preview for Insider builds.
+> Generative AI developer toolkit for Business Central Copilot (2023 release wave 2): the prompt dialogue page type, system actions, the AI module for Azure OpenAI (text, chat, embeddings), capability registration, and admin and responsible AI controls. It is available now in Insider builds. A minor update during wave 2 will allow deployment to Business Central online.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lNASlydCidI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 49:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lNASlydCidI) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-27 · 49:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -590,9 +575,9 @@ It then covers the AI module: registering a copilot capability, setting up Azure
 
 ## Key points
 
-- The toolkit is in preview and available now in Insider builds. A minor update during 2023 release wave 2 will include it for online deployment.
+- The toolkit is available now in Insider builds for offline compile, run and test. A minor update during 2023 release wave 2 will allow deployment to Business Central online and to AppSource.
 - It targets Business Central online (SaaS) only and uses Azure OpenAI. It is for non-conversational features with human review, not chatbots.
-- The prompt dialogue is a new page type value. It is not extensible, and a preview badge is recommended for first releases.
+- The prompt dialogue is a new page type value. It is not extensible, and Microsoft advises that most generative AI features start as a preview, using the IsPreview badge.
 - Each extension must register its copilot capability through the copilot capability codeunit and by extending the capability enum. Otherwise an error is thrown.
 - The AI module supports text completion, chat completion and embeddings. It does not support DALL-E image generation or Whisper. Embeddings have no optional parameters, and the parameter n is not supported.
 - Do not hardcode Azure OpenAI keys in extensions. Use isolated storage or the AppSource key vault. Each deployment is a specific model type.
@@ -650,7 +635,6 @@ It then covers the AI module: registering a copilot capability, setting up Azure
 | Copilot On by Default with No Master Kill Switch | status not stated | [42:38](https://www.youtube.com/watch?v=lNASlydCidI&t=2558s) |  |
 | Responsible AI Principles and Guidelines | status not stated | [42:51](https://www.youtube.com/watch?v=lNASlydCidI&t=2571s) |  |
 | AI-generated Content Disclaimer on Output Screens | status not stated | [43:31](https://www.youtube.com/watch?v=lNASlydCidI&t=2611s) |  |
-| Sparkle Action Image for Copilot Prompts | status not stated | [44:52](https://www.youtube.com/watch?v=lNASlydCidI&t=2692s) |  |
 | User Feedback Through Prompt Dialogue | status not stated, demoed | [45:33](https://www.youtube.com/watch?v=lNASlydCidI&t=2733s) |  |
 | Telemetry Signals for Usage and Adoption Tracking | status not stated | [45:53](https://www.youtube.com/watch?v=lNASlydCidI&t=2753s) |  |
 | Prompt Engineering with Safety Mechanisms | status not stated | [46:13](https://www.youtube.com/watch?v=lNASlydCidI&t=2773s) |  |
@@ -706,7 +690,6 @@ Not found in BC28-30: page "prompt dialogue", enum "Copilot Capability Availabil
 - [35:20](https://www.youtube.com/watch?v=lNASlydCidI&t=2120s) "metap problem should Define the model's profile I mean should what it does and what it cannot do"
 - [38:23](https://www.youtube.com/watch?v=lNASlydCidI&t=2303s) "not all parameters are support for example n and n is basically the number of generations um that the model should return"
 - [39:23](https://www.youtube.com/watch?v=lNASlydCidI&t=2363s) "we believe that customers should remain in control of their data and of their AI experiences"
-- [39:23](https://www.youtube.com/watch?v=lNASlydCidI&t=2363s) "customers should remain in control of their data and of their AI experiences"
 - [40:04](https://www.youtube.com/watch?v=lNASlydCidI&t=2404s) "capabilities also always start off as active but we've given administrators control to actually deactivate a feature of their choosing"
 - [41:18](https://www.youtube.com/watch?v=lNASlydCidI&t=2478s) "admins will need to do a one-time optin uh to basically consent to having business Central contact that Azure open AI service outside of"
 - [42:38](https://www.youtube.com/watch?v=lNASlydCidI&t=2558s) "there is no master kill switch for co-pilot co-pilot is now on by default it's available by default as part of business Central it's"

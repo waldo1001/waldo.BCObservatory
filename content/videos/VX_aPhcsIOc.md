@@ -2,7 +2,7 @@
 id: video/VX_aPhcsIOc
 type: video
 title: Enable Cost Control Strategies for Business Central Telemetry
-summary: "Controlling Application Insights telemetry costs for Business Central: viewing usage and estimated monthly costs from the configure menu, and setting a daily ingestion cap with warnings. The video notes the first four GB per month are free and that data beyond the cap is not ingested."
+summary: How to control Application Insights telemetry costs for Business Central. Ingesting data costs money, and so does keeping it longer than the default retention policy. The video shows where to view usage and estimated monthly costs under the Configure menu, and how to set a daily ingestion cap (for example, 100 MB per day) with a warning for when it is exceeded. Per the speaker, the first four GB per month are free, and data beyond the cap is no longer ingested.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - usage monitoring
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:34.296Z"
   flags: []
 generated:
-  at: "2026-10-06T21:44:47.118Z"
+  at: "2026-10-07T23:14:34.340Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,6 +34,13 @@ evidence:
     t: 0
     quote: it is important just like any other as a resource that you control the cost of this it cost data to ingest data into
   - kind: video
+    url: https://www.youtube.com/watch?v=VX_aPhcsIOc&t=0s
+    title: Enable Cost Control Strategies for Business Central Telemetry
+    date: "2023-12-05T10:49:38.000Z"
+    commit: null
+    t: 0
+    quote: it cost data to ingest data into Telemetry and it costs to uh keep it for longer than the default retention policy
+  - kind: video
     url: https://www.youtube.com/watch?v=VX_aPhcsIOc&t=40s
     title: Enable Cost Control Strategies for Business Central Telemetry
     date: "2023-12-05T10:49:38.000Z"
@@ -47,6 +54,13 @@ evidence:
     commit: null
     t: 81
     quote: the first I believe it's four gigabytes a month is free and after that you pay for your ingestion
+  - kind: video
+    url: https://www.youtube.com/watch?v=VX_aPhcsIOc&t=81s
+    title: Enable Cost Control Strategies for Business Central Telemetry
+    date: "2023-12-05T10:49:38.000Z"
+    commit: null
+    t: 81
+    quote: so in the beginning maybe simply set 100 megabytes or 0.1 so 100 megabytes per day
   - kind: video
     url: https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s
     title: Enable Cost Control Strategies for Business Central Telemetry
@@ -106,11 +120,17 @@ quotes:
   - t: 0
     text: it is important just like any other as a resource that you control the cost of this it cost data to ingest data into
     check: exact
+  - t: 0
+    text: it cost data to ingest data into Telemetry and it costs to uh keep it for longer than the default retention policy
+    check: exact
   - t: 40
     text: once you have data here you um you will be able to see see your monthly costs
     check: exact
   - t: 81
     text: the first I believe it's four gigabytes a month is free and after that you pay for your ingestion
+    check: exact
+  - t: 81
+    text: so in the beginning maybe simply set 100 megabytes or 0.1 so 100 megabytes per day
     check: exact
   - t: 98
     text: if you get a warning it means that there is data that you not not getting anymore
@@ -119,9 +139,9 @@ quotes:
 
 # Enable Cost Control Strategies for Business Central Telemetry
 
-> Controlling Application Insights telemetry costs for Business Central: viewing usage and estimated monthly costs from the configure menu, and setting a daily ingestion cap with warnings. The video notes the first four GB per month are free and that data beyond the cap is not ingested.
+> How to control Application Insights telemetry costs for Business Central. Ingesting data costs money, and so does keeping it longer than the default retention policy. The video shows where to view usage and estimated monthly costs under the Configure menu, and how to set a daily ingestion cap (for example, 100 MB per day) with a warning for when it is exceeded. Per the speaker, the first four GB per month are free, and data beyond the cap is no longer ingested.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VX_aPhcsIOc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VX_aPhcsIOc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-05 · 2:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -131,12 +151,12 @@ It shows where to see telemetry usage and estimated monthly costs, which read ze
 
 ## Key points
 
-- Telemetry usage and estimated costs are available from the configure menu and give an overview of monthly Application Insights payments.
+- Telemetry costs come from ingesting data and from retaining it longer than the default retention policy.
+- Usage and estimated costs are found under the Configure menu of the Application Insights resource and show an overview of monthly payments.
 - A new resource shows zero cost until data has been ingested.
-- The speaker says the first four gigabytes per month are free; ingestion after that is charged.
-- A daily cap can be set as a maximum amount of data, in gigabytes or megabytes, to ingest per day.
-- A daily cap warning means data is being lost: data beyond the cap is not ingested.
-- Choose the cap with this tradeoff in mind: lower cost versus possible gaps in telemetry.
+- The speaker believes the first four gigabytes per month are free; ingestion after that is charged.
+- A daily cap sets the maximum gigabytes or megabytes of data to ingest per day; the speaker suggests starting with 100 MB (0.1 GB) per day.
+- Set a warning for when the cap is exceeded: a warning means data is no longer being ingested.
 
 ## Chapters
 
@@ -148,15 +168,17 @@ It shows where to see telemetry usage and estimated monthly costs, which read ze
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Telemetry Usage and Estimated Costs View | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=20s) |  |
-| Daily Cap for Telemetry Ingestion | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=61s) |  |
-| Telemetry Daily Cap Warnings | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Telemetry Usage and Estimated Costs View | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=20s) |
+| Daily Cap for Telemetry Ingestion | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=61s) |
+| Telemetry Daily Cap Warnings | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s) |
 
 ## Quotes
 
 - [0:00](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=0s) "it is important just like any other as a resource that you control the cost of this it cost data to ingest data into"
+- [0:00](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=0s) "it cost data to ingest data into Telemetry and it costs to uh keep it for longer than the default retention policy"
 - [0:40](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=40s) "once you have data here you um you will be able to see see your monthly costs"
 - [1:21](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=81s) "the first I believe it's four gigabytes a month is free and after that you pay for your ingestion"
+- [1:21](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=81s) "so in the beginning maybe simply set 100 megabytes or 0.1 so 100 megabytes per day"
 - [1:38](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s) "if you get a warning it means that there is data that you not not getting anymore"

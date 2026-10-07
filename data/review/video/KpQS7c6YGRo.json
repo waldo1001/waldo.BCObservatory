@@ -1,0 +1,26 @@
+{
+  "video_id": "KpQS7c6YGRo",
+  "item_id": "video/yt-microsoft/KpQS7c6YGRo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Evidence for Marketing Text Suggestions GA status had evidence_t 20.1; the quote actually starts at segment 60.4 and runs into 80.6. Corrected.",
+    "All 7 quotes are verbatim (some cross segment boundaries, which is acceptable).",
+    "Summary and key points are supported by the transcript (online only, eight languages, feature key default from v22, Copilot and AI capabilities page toggle, data movement consent off by default).",
+    "Minor: some feature t_start values are slightly early (language list begins at 467.8, Copilot and AI capabilities page toggle at 683.6); not editable here, left as is.",
+    "Other features left as unclear since the transcript gives no separate status statement for them."
+  ],
+  "input_hash": "8a8e210a8bc63ddabf30414b416e4638377ab388e5e2bcb82504f38528fc7870",
+  "by": "opus",
+  "at": "2026-10-07T23:14:56.739Z",
+  "applied": [
+    "Marketing Text Suggestions: status ga"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.107177
+  }
+}

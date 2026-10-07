@@ -20,12 +20,12 @@ tags:
   - dedicated scanners
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:51.555Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:51.583Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,7 @@ evidence:
     date: "2023-12-04T14:01:19.000Z"
     commit: null
     t: 228
-    quote: coming in version 23.1 so not right now in October but a little bit later in November time frame uh this type of experience
+    quote: coming in version 23.1 so not right now in October but a little bit later in November time frame
   - kind: video
     url: https://www.youtube.com/watch?v=KYsrBoHVA70&t=38s
     title: "What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)"
@@ -327,7 +327,7 @@ quotes:
 
 > Business Central mobile app 4.0 (released October 2023) adds Tell me and data search on mobile, and native barcode scanning through the device camera or dedicated scanners. It covers the AL extended data type barcode property and the barcode scanner provider API, with demos in inventory, warehouse and sales.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KYsrBoHVA70) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-04 · 22:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=KYsrBoHVA70) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-04 · 22:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -337,13 +337,13 @@ Most of the session is about barcode scanning. It explains the approaches (camer
 
 ## Key points
 
-- Mobile app version 4.0 was released in October 2023, and the app is backward compatible with older Business Central versions.
+- Mobile app version 4.0 was released in October 2023, and the app is backward compatible with older Business Central versions, including on-premises.
 - Tell me (alt Q) and data search on mobile must be turned on in feature management. Data search honors permissions as on desktop, and administrators can configure which tables are searchable.
-- Worksheet pages on phones are announced for version 23.1, with a header, footer and lines experience like document pages.
+- Worksheet pages on phones are announced for version 23.1 (November time frame), with a header, footer and lines experience like document pages.
 - Camera scanning is enabled by annotating a Code or Text field with the extended data type property set to barcode. It supports 1D and 2D formats including QR codes.
-- Dedicated scanner devices are supported only in mobile app 4.0 or later and only in release wave 2.
+- Dedicated barcode scanner devices are supported only on Android. All the barcode scanning capabilities require mobile app 4.0 and Business Central release wave 2.
 - Item references can use a barcode type, and GTIN barcode labels can be printed. Scanning is demoed in item bin content inquiry, sales order lines and the Scan multiple action in item tracking lines.
-- For the AL barcode scanner provider API, several providers can register, but only the topmost page receives the data. Camera scanning is not supported in browser mode.
+- For the AL barcode scanner provider API, several providers can register, but only the topmost page receives the data. The camera provider check returns false when running in a browser.
 
 ## Chapters
 
@@ -367,7 +367,7 @@ Most of the session is about barcode scanning. It explains the approaches (camer
 |---|---|---|---|
 | Tell me on mobile | status not stated | [1:18](https://www.youtube.com/watch?v=KYsrBoHVA70&t=78s) |  |
 | Search for data on mobile | status not stated | [2:31](https://www.youtube.com/watch?v=KYsrBoHVA70&t=151s) |  |
-| Worksheet pages on mobile phones | announced | [3:27](https://www.youtube.com/watch?v=KYsrBoHVA70&t=207s) | "coming in version 23.1 so not right now in October but a little bit later in November time frame uh this type of experience" ([3:48](https://www.youtube.com/watch?v=KYsrBoHVA70&t=228s)) |
+| Worksheet pages on mobile phones | announced | [3:27](https://www.youtube.com/watch?v=KYsrBoHVA70&t=207s) | "coming in version 23.1 so not right now in October but a little bit later in November time frame" ([3:48](https://www.youtube.com/watch?v=KYsrBoHVA70&t=228s)) |
 | Native barcode scanning via camera | status not stated, demoed | [5:29](https://www.youtube.com/watch?v=KYsrBoHVA70&t=329s) |  |
 | Barcode scanning via dedicated devices | status not stated | [6:10](https://www.youtube.com/watch?v=KYsrBoHVA70&t=370s) |  |
 | Barcode scanning button in UI | status not stated, demoed | [6:42](https://www.youtube.com/watch?v=KYsrBoHVA70&t=402s) |  |

@@ -4,13 +4,13 @@
   "summary": "Reservation Worksheet and the Reserved from Stock indicator in Business Central (2023 release wave 2): how to see reservation status on demand documents, allocate stock with allocation policies, and push fully reserved documents to warehouse shipments, inventory picks and consumption journals.",
   "overview": "The video walks through reservation and fulfillment changes in 2023 release wave 2. It starts with the classic sales order workflow and its limits, then shows a new Reserved from Stock field (none, partial, or full) on sales order lines and other demand documents.",
   "key_points": [
-    "Reserved from Stock is a new field on sales order lines and other demand documents with three values: none, partial, or fully reserved.",
-    "The Reservation Worksheet page gathers demand documents, applies allocation policies and creates reservations in far fewer clicks than the manual process.",
-    "The Allocate action recommends quantities to reserve from available stock and demand; allocations may be skipped if the quantity is insufficient.",
-    "Two allocation policies are available now: a default safe allocation and an equally distributed option. More are planned.",
-    "Batch settings filter by demand type, date range, items, location and allocation policies; configuring them requires understanding the filters and allocation rules.",
-    "A report creates warehouse shipments filtered by reservation status, so only fully reserved items can be included. Inventory picks can be created the same way.",
-    "Reservation status also shows on statistics pages, in Show Details on production orders, and as a filter in the consumption journal."
+    "Reserved from Stock is a new per-line field on demand documents with three values: none, partial, or full. It also appears on document statistics pages to show the overall status.",
+    "Automatic reservation already happens for assemble to order, capable to promise and order planning; with lot-for-lot or reorder point policies you must reserve manually.",
+    "The Reservation Worksheet page uses Get Demand to gather sales, transfer, job, assembly and production demand for items available in stock, and creates reservations in far fewer clicks.",
+    "The Allocate action suggests quantities to reserve in a safe way; demand is skipped when quantity is insufficient or the system cannot decide how to split it.",
+    "Two allocation policies exist today (the default safe one and Equally); they can be combined and more are planned.",
+    "Worksheet batches filter by demand type, date range, items (any item field, including custom fields), location and allocation policies; filters are copied to Get Demand and an Allocate after populate toggle runs allocation automatically.",
+    "Lines marked with the Accept toggle are reserved with Make Reservation, optionally for specific document types."
   ],
   "audience": [
     "functional consultant",

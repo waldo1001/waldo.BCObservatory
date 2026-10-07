@@ -17,12 +17,12 @@ tags:
   - consumption journal
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:05.433Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:05.476Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,13 @@ evidence:
     commit: null
     t: 688
     quote: we added a special report which has two purposes purpose number one it can use filters for example let's pick full option for Reserve
+  - kind: video
+    url: https://www.youtube.com/watch?v=198d9piIoE0&t=843s
+    title: "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)"
+    date: "2023-10-25T06:22:20.000Z"
+    commit: null
+    t: 843
+    quote: let's go to consumption Journal which is part of manufacturing model and calculate consumption and we can also have the same filter here
   - kind: video
     url: https://www.youtube.com/watch?v=198d9piIoE0&t=904s
     title: "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)"
@@ -201,6 +208,9 @@ quotes:
   - t: 688
     text: we added a special report which has two purposes purpose number one it can use filters for example let's pick full option for Reserve
     check: exact
+  - t: 843
+    text: let's go to consumption Journal which is part of manufacturing model and calculate consumption and we can also have the same filter here
+    check: exact
   - t: 904
     text: you can configure your system to run some task into background in the Via job queue and push documents to the next stage for
     check: snapped
@@ -210,7 +220,7 @@ quotes:
 
 > Reservation Worksheet and the Reserved from Stock indicator in Business Central (2023 release wave 2): how to see reservation status on demand documents, allocate stock with allocation policies, and push fully reserved documents to warehouse shipments, inventory picks and consumption journals.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=198d9piIoE0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-25 · 17:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=198d9piIoE0) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-25 · 17:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -218,13 +228,13 @@ The video walks through reservation and fulfillment changes in 2023 release wave
 
 ## Key points
 
-- Reserved from Stock is a new field on sales order lines and other demand documents with three values: none, partial, or fully reserved.
-- The Reservation Worksheet page gathers demand documents, applies allocation policies and creates reservations in far fewer clicks than the manual process.
-- The Allocate action recommends quantities to reserve from available stock and demand; allocations may be skipped if the quantity is insufficient.
-- Two allocation policies are available now: a default safe allocation and an equally distributed option. More are planned.
-- Batch settings filter by demand type, date range, items, location and allocation policies; configuring them requires understanding the filters and allocation rules.
-- A report creates warehouse shipments filtered by reservation status, so only fully reserved items can be included. Inventory picks can be created the same way.
-- Reservation status also shows on statistics pages, in Show Details on production orders, and as a filter in the consumption journal.
+- Reserved from Stock is a new per-line field on demand documents with three values: none, partial, or full. It also appears on document statistics pages to show the overall status.
+- Automatic reservation already happens for assemble to order, capable to promise and order planning; with lot-for-lot or reorder point policies you must reserve manually.
+- The Reservation Worksheet page uses Get Demand to gather sales, transfer, job, assembly and production demand for items available in stock, and creates reservations in far fewer clicks.
+- The Allocate action suggests quantities to reserve in a safe way; demand is skipped when quantity is insufficient or the system cannot decide how to split it.
+- Two allocation policies exist today (the default safe one and Equally); they can be combined and more are planned.
+- Worksheet batches filter by demand type, date range, items (any item field, including custom fields), location and allocation policies; filters are copied to Get Demand and an Allocate after populate toggle runs allocation automatically.
+- Lines marked with the Accept toggle are reserved with Make Reservation, optionally for specific document types.
 
 ## Chapters
 
@@ -241,19 +251,19 @@ The video walks through reservation and fulfillment changes in 2023 release wave
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Reserved from Stock Indicator | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=198d9piIoE0&t=201s) |  |
-| Reservation Worksheet | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=198d9piIoE0&t=302s) |  |
-| Allocate Action | status not stated, demoed | [5:58](https://www.youtube.com/watch?v=198d9piIoE0&t=358s) |  |
-| Allocation Policies | status not stated, demoed | [6:59](https://www.youtube.com/watch?v=198d9piIoE0&t=419s) |  |
-| Reservation Worksheet Batch Settings | status not stated, demoed | [7:54](https://www.youtube.com/watch?v=198d9piIoE0&t=474s) |  |
-| Automated Create Warehouse Shipments Report | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=198d9piIoE0&t=688s) |  |
-| Automated Inventory Picks Creation | status not stated, demoed | [12:48](https://www.youtube.com/watch?v=198d9piIoE0&t=768s) |  |
-| Statistics Page Reserved from Stock | status not stated, demoed | [13:34](https://www.youtube.com/watch?v=198d9piIoE0&t=814s) |  |
-| Show Details Feature | status not stated, demoed | [14:43](https://www.youtube.com/watch?v=198d9piIoE0&t=883s) |  |
-| Background Job Queue Processing | status not stated | [15:24](https://www.youtube.com/watch?v=198d9piIoE0&t=924s) |  |
-| Consumption Journal Filtering by Reservation | status not stated, demoed | [14:03](https://www.youtube.com/watch?v=198d9piIoE0&t=843s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Reserved from Stock Indicator | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=198d9piIoE0&t=201s) |
+| Reservation Worksheet | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=198d9piIoE0&t=302s) |
+| Allocate Action | status not stated, demoed | [5:58](https://www.youtube.com/watch?v=198d9piIoE0&t=358s) |
+| Allocation Policies | status not stated, demoed | [6:59](https://www.youtube.com/watch?v=198d9piIoE0&t=419s) |
+| Reservation Worksheet Batch Settings | status not stated, demoed | [7:54](https://www.youtube.com/watch?v=198d9piIoE0&t=474s) |
+| Automated Create Warehouse Shipments Report | status not stated, demoed | [11:28](https://www.youtube.com/watch?v=198d9piIoE0&t=688s) |
+| Automated Inventory Picks Creation | status not stated, demoed | [12:48](https://www.youtube.com/watch?v=198d9piIoE0&t=768s) |
+| Statistics Page Reserved from Stock | status not stated, demoed | [13:34](https://www.youtube.com/watch?v=198d9piIoE0&t=814s) |
+| Show Details Feature | status not stated, demoed | [14:43](https://www.youtube.com/watch?v=198d9piIoE0&t=883s) |
+| Background Job Queue Processing | status not stated | [15:24](https://www.youtube.com/watch?v=198d9piIoE0&t=924s) |
+| Consumption Journal Filtering by Reservation | status not stated, demoed | [14:03](https://www.youtube.com/watch?v=198d9piIoE0&t=843s) |
 
 ## AL objects mentioned
 
@@ -271,6 +281,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [5:58](https://www.youtube.com/watch?v=198d9piIoE0&t=358s) "we have probably couple of actions to automate this process let's me press allocate button and what happened magic"
 - [6:59](https://www.youtube.com/watch?v=198d9piIoE0&t=419s) "basically it's not only option like this is a basic one which is run by default and it executes the safest allocation you can"
 - [11:28](https://www.youtube.com/watch?v=198d9piIoE0&t=688s) "we added a special report which has two purposes purpose number one it can use filters for example let's pick full option for Reserve"
+- [14:03](https://www.youtube.com/watch?v=198d9piIoE0&t=843s) "let's go to consumption Journal which is part of manufacturing model and calculate consumption and we can also have the same filter here"
 - [15:04](https://www.youtube.com/watch?v=198d9piIoE0&t=904s) "you can configure your system to run some task into background in the Via job queue and push documents to the next stage for"
 
 ## Disclaimers in the video

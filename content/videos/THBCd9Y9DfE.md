@@ -2,7 +2,7 @@
 id: video/THBCd9Y9DfE
 type: video
 title: "Reskill: Partner testimonials"
-summary: Partner testimonials about the Microsoft talent program for Dynamics 365 Business Central, which helps partners find and develop new talent. Participants describe mentorship, a guided learning path, and a mix of practical work and ERP theory.
+summary: Partner and participant testimonials about the Microsoft talent program for Business Central, which helps partners find next-generation talent. Participants describe structured, personalized mentorship, a guided learning journey with expert help, a community, and a mix of practical work and ERP theory.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - practical work
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:39.607Z"
   flags: []
 generated:
-  at: "2026-10-06T21:52:42.126Z"
+  at: "2026-10-07T23:15:39.648Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     commit: null
     t: 20
     quote: this is finally what we've been looking for a way where Microsoft as the publisher was partnering with us to try to find that
+  - kind: video
+    url: https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s
+    title: "Reskill: Partner testimonials"
+    date: "2023-11-08T11:10:05.000Z"
+    commit: null
+    t: 40
+    quote: the talent program is extremely well structured and personalized the the mentors behind the program uh have vast knowledge
   - kind: video
     url: https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s
     title: "Reskill: Partner testimonials"
@@ -116,6 +123,9 @@ quotes:
   - t: 20
     text: this is finally what we've been looking for a way where Microsoft as the publisher was partnering with us to try to find that
     check: exact
+  - t: 40
+    text: the talent program is extremely well structured and personalized the the mentors behind the program uh have vast knowledge
+    check: exact
   - t: 60
     text: combines both element of practical work and the theoretical aspects of the erp system business central dynamics
     check: fuzzy
@@ -126,9 +136,9 @@ quotes:
 
 # Reskill: Partner testimonials
 
-> Partner testimonials about the Microsoft talent program for Dynamics 365 Business Central, which helps partners find and develop new talent. Participants describe mentorship, a guided learning path, and a mix of practical work and ERP theory.
+> Partner and participant testimonials about the Microsoft talent program for Business Central, which helps partners find next-generation talent. Participants describe structured, personalized mentorship, a guided learning journey with expert help, a community, and a mix of practical work and ERP theory.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=THBCd9Y9DfE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-08 · 1:48 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=THBCd9Y9DfE) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-08 · 1:48 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -138,12 +148,12 @@ They also describe how the program is built: mentors with broad knowledge who ca
 
 ## Key points
 
-- The talent program is a Microsoft initiative to help partners find and develop new talent in Dynamics 365 Business Central.
-- Participants get personalized mentorship from experienced mentors who are available for questions and help them navigate the ERP system.
-- The learning journey sets the order of topics, from foundational to advanced, with expert guidance when going into depth.
-- The program combines practical work with theoretical aspects of the ERP system and Business Central.
-- A partner says the program is a way for Microsoft as publisher to partner with them in finding talent.
-- The program also includes community support.
+- The talent program is a Microsoft initiative that partners use to find the right and next-generation talent for Business Central.
+- A partner sees it as Microsoft as the publisher partnering with them to find talent, and as an addition to their own training.
+- Participants describe the program as well structured and personalized, with mentors who have vast knowledge and are always accessible for queries.
+- The learning journey shows which topics to check first and which later, and experts help when going deeper into specific topics.
+- The program combines practical work with theoretical aspects of the ERP system, Business Central.
+- Participants say they do not feel alone because they are part of a community.
 
 ## Chapters
 
@@ -155,17 +165,18 @@ They also describe how the program is built: mentors with broad knowledge who ca
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Talent Program | status not stated | [0:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=0s) |  |
-| Personalized Mentorship | status not stated | [0:40](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s) |  |
-| Guided Learning Journey | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |  |
-| Practical and Theoretical Learning Integration | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Talent Program | status not stated | [0:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=0s) |
+| Personalized Mentorship | status not stated | [0:40](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s) |
+| Guided Learning Journey | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
+| Practical and Theoretical Learning Integration | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
 
 ## Quotes
 
 - [0:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=0s) "when I heard about the talent program for the first time the first emotion was just pure excitement"
 - [0:20](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=20s) "this is finally what we've been looking for a way where Microsoft as the publisher was partnering with us to try to find that"
+- [0:40](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s) "the talent program is extremely well structured and personalized the the mentors behind the program uh have vast knowledge"
 - [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) "combines both element of practical work and the theoretical aspects of the erp system business central dynamics"
 - [1:21](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=81s) "you have a journey you understand which topic you should check first and which ones later and then when you start deep diving into"
 

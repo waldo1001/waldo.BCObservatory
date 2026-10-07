@@ -18,12 +18,12 @@ tags:
   - allowed posting dates
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:14:33.359Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:14:33.402Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,7 +36,7 @@ evidence:
     date: "2023-12-11T16:04:38.000Z"
     commit: null
     t: 789
-    quote: it will be released in one of minor versions so now we have the same Fields used to check vat date only defined in
+    quote: based on your feedback we decided to split it in the version 23 uh it will be released in one of minor versions
   - kind: video
     url: https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=124s
     title: "VAT Date redesign in version 23: announced"
@@ -234,7 +234,7 @@ quotes:
 
 > VAT Date in Business Central (2023 release wave 2): a separate VAT date field alongside posting date, with setup options on General Ledger Setup, posting consistency checks, VAT return period controls, reports that filter on VAT date, and editing after posting from VAT entries.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MWXwtRr6-Wk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 16:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MWXwtRr6-Wk) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-12-11 · 16:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -245,7 +245,7 @@ The presenter walks through the General Ledger Setup options (VAT Date Usage, De
 ## Key points
 
 - VAT Date separates VAT reporting from posting date. It is a W1 feature in most countries except Italy, which already had a similar feature. Where there is no VAT system, the field is called tax date.
-- VAT Date Usage on General Ledger Setup has three options: Enable, Prevent Modification (default in countries where VAT date cannot be changed after posting) and Disabled (field hidden, but the system still uses posting date automatically).
+- VAT Date Usage on General Ledger Setup has three options: Enable, Prevent Modification (described as enabled by default; it exists because some countries do not allow changing VAT date after posting) and Disabled (field hidden, but the system still uses posting date automatically).
 - Default VAT Date on General Ledger Setup chooses posting date or document date as the default. It can be changed only on non-posted documents and affects some postings.
 - Control VAT Period can block posting, warn only, or be turned off when VAT periods are not used. Posting checks cover a default VAT date if empty, the allowed VAT posting date range, and non-closed VAT return periods.
 - A blank VAT date can still be posted through APIs even though the UI prevents it.
@@ -274,7 +274,7 @@ The presenter walks through the General Ledger Setup options (VAT Date Usage, De
 | Default VAT Date setting | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=365s) |  |
 | Control VAT Period setup | status not stated | [6:25](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=385s) |  |
 | VAT Date Consistency Checks | status not stated | [9:31](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=571s) |  |
-| Allowed VAT Date Periods | announced | [12:27](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=747s) | "it will be released in one of minor versions so now we have the same Fields used to check vat date only defined in" ([13:09](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=789s)) |
+| Allowed VAT Date Periods | announced | [12:27](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=747s) | "based on your feedback we decided to split it in the version 23 uh it will be released in one of minor versions" ([13:09](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=789s)) |
 | VAT Date modification after posting | status not stated, demoed | [14:27](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=867s) |  |
 | VAT Date in reports | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=472s) |  |
 | VAT Period status handling | status not stated | [13:47](https://www.youtube.com/watch?v=MWXwtRr6-Wk&t=827s) |  |

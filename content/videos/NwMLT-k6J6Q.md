@@ -20,12 +20,12 @@ tags:
   - excel integration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:15:50.406Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:15:50.448Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,13 +130,6 @@ evidence:
     commit: null
     t: 1574
     quote: at the role center in business central the banner is there to greet them
-  - kind: video
-    url: https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1627s
-    title: "What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)"
-    date: "2023-11-14T16:26:27.000Z"
-    commit: null
-    t: 1627
-    quote: the user can move and navigate freely between the tasks and might even skip some of them to revisit them later so you can't
   - kind: video
     url: https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1627s
     title: "What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)"
@@ -254,24 +247,9 @@ features:
     t: 599
     verified: false
     status_source: video
-  - name: Onboarding checklist framework
-    status: unclear
-    t: 768
-    verified: false
-    status_source: video
   - name: Cohesive single-experience trial launch
     status: unclear
     t: 671
-    verified: false
-    status_source: video
-  - name: Context-aware app loading from questionnaire
-    status: unclear
-    t: 808
-    verified: false
-    status_source: video
-  - name: Onboarding checklist with multiple element types
-    status: unclear
-    t: 869
     verified: false
     status_source: video
   - name: Assisted setup with filtering by category
@@ -324,19 +302,9 @@ features:
     t: 1336
     verified: false
     status_source: video
-  - name: Assisted setup function call with filtering
-    status: unclear
-    t: 1390
-    verified: false
-    status_source: video
   - name: Just-in-time data loading with clarification
     status: unclear
     t: 931
-    verified: false
-    status_source: video
-  - name: Minute indicator on checklist tasks
-    status: unclear
-    t: 1647
     verified: false
     status_source: video
   - name: Banner welcome message on role center
@@ -440,9 +408,6 @@ quotes:
     text: at the role center in business central the banner is there to greet them
     check: fuzzy
   - t: 1627
-    text: the user can move and navigate freely between the tasks and might even skip some of them to revisit them later so you can't
-    check: exact
-  - t: 1627
     text: the user can move and navigate freely between the tasks and might even skip some of them to revisit them later
     check: exact
   - t: 1647
@@ -466,7 +431,7 @@ quotes:
 
 > Partner-driven onboarding in Business Central (2023 release wave 2): questionnaire-based trial personalization, onboarding checklists, assisted setup, spotlight tours, teaching tips, and the onboarding sample app on GitHub. Useful as evidence for how partners build customer-centric trial and go-live experiences.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NwMLT-k6J6Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-14 · 38:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NwMLT-k6J6Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-14 · 38:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -505,39 +470,34 @@ The demos cover the building blocks of the experience: a custom role center, a w
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Questionnaire-driven trial personalization | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=499s) |  |
-| App loading based on prospect profile | status not stated, demoed | [8:59](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=539s) |  |
-| System table for questionnaire data storage | status not stated | [10:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=631s) |  |
-| Embedded CSP buying experience | status not stated | [9:59](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=599s) |  |
-| Onboarding checklist framework | status not stated, demoed | [12:48](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=768s) |  |
-| Cohesive single-experience trial launch | status not stated, demoed | [11:11](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=671s) |  |
-| Context-aware app loading from questionnaire | status not stated, demoed | [13:28](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=808s) |  |
-| Onboarding checklist with multiple element types | status not stated, demoed | [14:29](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=869s) |  |
-| Assisted setup with filtering by category | status not stated, demoed | [15:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=931s) |  |
-| Spotlight tour for Excel integration | status not stated, demoed | [17:33](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1053s) |  |
-| Report request page teaching tips | status not stated, demoed | [18:13](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1093s) |  |
-| Excel-based report layouts | status not stated, demoed | [18:33](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1113s) |  |
-| Teaching tips with markdown and links | status not stated, demoed | [19:34](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1174s) |  |
-| Analysis mode with teaching tips | status not stated, demoed | [19:55](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1195s) |  |
-| Analysis sharing and copying | status not stated, demoed | [20:15](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1215s) |  |
-| Onboarding sample app on GitHub | status not stated, demoed | [21:35](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1295s) |  |
-| Custom role center loading with user context | status not stated, demoed | [21:55](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1315s) |  |
-| Welcome banner text customization | status not stated, demoed | [22:16](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1336s) |  |
-| Assisted setup function call with filtering | status not stated, demoed | [23:10](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1390s) |  |
-| Just-in-time data loading with clarification | status not stated, demoed | [15:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=931s) |  |
-| Minute indicator on checklist tasks | status not stated | [27:27](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1647s) |  |
-| Banner welcome message on role center | status not stated, demoed | [26:14](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1574s) |  |
-| Onboarding checklist | status not stated, demoed | [26:47](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1607s) |  |
-| Evaluation and trial checklists | status not stated, demoed | [27:27](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1647s) |  |
-| Go-live checklists | status not stated, demoed | [29:00](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1740s) |  |
-| Assisted setup list | status not stated, demoed | [29:40](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1780s) |  |
-| Spotlight tours | status not stated, demoed | [30:00](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1800s) |  |
-| Teaching tips | status not stated, demoed | [31:21](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1881s) |  |
-| Actionable errors | status not stated | [33:30](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2010s) |  |
-| Signup context and website profiling | status not stated, demoed | [34:51](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2091s) |  |
-| Application Insights telemetry | status not stated | [36:08](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2168s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Questionnaire-driven trial personalization | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=499s) |
+| App loading based on prospect profile | status not stated, demoed | [8:59](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=539s) |
+| System table for questionnaire data storage | status not stated | [10:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=631s) |
+| Embedded CSP buying experience | status not stated | [9:59](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=599s) |
+| Cohesive single-experience trial launch | status not stated, demoed | [11:11](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=671s) |
+| Assisted setup with filtering by category | status not stated, demoed | [15:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=931s) |
+| Spotlight tour for Excel integration | status not stated, demoed | [17:33](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1053s) |
+| Report request page teaching tips | status not stated, demoed | [18:13](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1093s) |
+| Excel-based report layouts | status not stated, demoed | [18:33](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1113s) |
+| Teaching tips with markdown and links | status not stated, demoed | [19:34](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1174s) |
+| Analysis mode with teaching tips | status not stated, demoed | [19:55](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1195s) |
+| Analysis sharing and copying | status not stated, demoed | [20:15](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1215s) |
+| Onboarding sample app on GitHub | status not stated, demoed | [21:35](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1295s) |
+| Custom role center loading with user context | status not stated, demoed | [21:55](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1315s) |
+| Welcome banner text customization | status not stated, demoed | [22:16](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1336s) |
+| Just-in-time data loading with clarification | status not stated, demoed | [15:31](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=931s) |
+| Banner welcome message on role center | status not stated, demoed | [26:14](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1574s) |
+| Onboarding checklist | status not stated, demoed | [26:47](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1607s) |
+| Evaluation and trial checklists | status not stated, demoed | [27:27](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1647s) |
+| Go-live checklists | status not stated, demoed | [29:00](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1740s) |
+| Assisted setup list | status not stated, demoed | [29:40](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1780s) |
+| Spotlight tours | status not stated, demoed | [30:00](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1800s) |
+| Teaching tips | status not stated, demoed | [31:21](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1881s) |
+| Actionable errors | status not stated | [33:30](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2010s) |
+| Signup context and website profiling | status not stated, demoed | [34:51](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2091s) |
+| Application Insights telemetry | status not stated | [36:08](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=2168s) |
 
 ## AL objects mentioned
 
@@ -568,7 +528,6 @@ Not found in BC28-30: table "system table", page "assisted setup list".
 - [18:33](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1113s) "the new thing here is you see the teating tip popping up for the request page for the report request page educating me about"
 - [21:55](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1315s) "this app that I loaded here is available on GitHub is the onboarding sample app and you can go Fork it today"
 - [26:14](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1574s) "at the role center in business central the banner is there to greet them"
-- [27:07](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1627s) "the user can move and navigate freely between the tasks and might even skip some of them to revisit them later so you can't"
 - [27:07](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1627s) "the user can move and navigate freely between the tasks and might even skip some of them to revisit them later"
 - [27:27](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1647s) "consider the difference between a checklist for the aval trial situation where um you want the you you want the users to experience the"
 - [29:40](https://www.youtube.com/watch?v=NwMLT-k6J6Q&t=1780s) "the checklist is designed for five six maybe seven and if you have more than that you can wrap those up in an assisted"
