@@ -423,6 +423,21 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   cached work, then went silent for about 6.5 minutes inside stages the heap guard cannot interrupt. So the item
   loop now samples every 5 s and logs, every 30 s and whenever the heap crosses a gigabyte, the heap and each item
   in flight with its stage and how long it has been in it: the climb itself will name the stage.
+- **D60 Sources are shown in place, click-to-load, and the content stays on its origin.** Video and post pages get
+  a stage above the summary that plays the YouTube video, or shows the blog post, inside the page
+  (`docs/specs/source-embed.md`). (a) Nothing third-party loads before the reader clicks, with one named
+  exception: the poster image (`i.ytimg.com` for videos, the post's own `og:image` for blogs), lazily, hotlinked and
+  never stored. A click loads the player from `youtube-nocookie.com` (no cookie domain, `enablejsapi` so the
+  chapter and quote links seek the player) or the post in a sandboxed iframe without `allow-top-navigation`, so a
+  frame-busting script cannot take the page. (b) Embeddability is probed, not assumed: the pipeline GETs each post
+  once (`X-Frame-Options`, `Content-Security-Policy: frame-ancestors`, `og:*`, favicon, oEmbed discovery), reads
+  only up to `</head>`, writes a `preview` block into the post frontmatter and re-probes after 30 days. A blog that
+  refuses framing gets a source card with a "Read on <site>" primary action instead. (c) This does not change D08:
+  the embedded content is served by the source's origin to the reader's browser; the repository stores URLs, image
+  dimensions and a flag, and the probe never persists a body. (d) An author sets `embed: false` on their source to
+  opt out of both the frame and the poster; the operator can force a host or an item off in
+  `data/overrides/embeds.yaml`. The `.md` twins and `llms.txt` are unchanged: agents read the same pages as before,
+  plus the preview URLs.
 - **D61 Merged BCApps pull requests are observed as changes (spec `docs/specs/bcapps-pull-requests.md`, not yet
   implemented).** D28 fixed the code pillar at one snapshot per major, so the observatory knows what differs between
   BC29 and BC30 but not what moved in BCApps this week or which objects a merge touched. A new pillar `change`

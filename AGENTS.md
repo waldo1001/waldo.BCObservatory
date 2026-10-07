@@ -57,7 +57,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 | `packages/mcp/` | the `bc-observatory` MCP server (npx) |
 | `plugin/` | Claude Code plugin (skills + MCP config) |
 | `infra/mini/` | Mac Mini provisioning and nightly runner scripts |
-| `docs/` | PLAN, DECISIONS, RUNBOOK, CONTENT-NOTICE, design brief and design handoff |
+| `docs/` | PLAN, DECISIONS, RUNBOOK, CONTENT-NOTICE, design brief and design handoff; `docs/specs/` holds feature specs |
 | `tests/` | schema, unit and golden tests with fixtures |
 
 ## Running things

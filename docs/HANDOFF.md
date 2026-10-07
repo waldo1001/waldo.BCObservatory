@@ -6,6 +6,13 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Open specs, not yet implemented (2026-10-07)
 
+- **Source stage: the original source, in the page**: `docs/specs/source-embed.md`, decision D60, PLAN milestone M5.
+  Status: proposed, spec complete, no code written. Video pages play the YouTube video click-to-load with chapter
+  seeking; post pages show the blog in a sandboxed frame when a nightly probe says it may be framed, else a source
+  card. Start at section 9 (files) and section 6 (the probe, deterministic, tests in 6.7); section 10 is the
+  verification matrix. Phase 2 (section 8) depends on `EvidenceChip.astro` from D64. Until it lands, every video
+  and post page still sends the reader to YouTube or the blog with one button.
+
 - **Merged BCApps pull requests as observed changes**: `docs/specs/bcapps-pull-requests.md`, decision D61, PLAN
   milestone M6. Status: proposed, spec complete, no code written. Start at the spec's section 6 (tasks, in order)
   and section 5 (tests first). The answer to "does the observatory observe BCApps pull requests?" is no until this
