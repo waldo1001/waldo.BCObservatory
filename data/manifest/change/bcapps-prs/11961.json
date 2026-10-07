@@ -6,10 +6,35 @@
   "title": "Cache security group resolution in Effective Permissions",
   "url": "https://github.com/microsoft/BCApps/pull/11961",
   "published_at": "2026-09-29T14:29:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:25.440Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:30.711Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": true,
+      "cost_usd": 0.004294
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:30.865Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:30.870Z",
+      "path": "content/changes/bcapps/11961.md"
     }
   },
   "input_hash": "348376486c5d729c3d5be714695e0087cff0dac6:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "cache security group resolution in effective permissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44e2141995fc88d3748671db014d3f6fb1ea7912cdf4fd1df0e7d678fedccd8e"
 }

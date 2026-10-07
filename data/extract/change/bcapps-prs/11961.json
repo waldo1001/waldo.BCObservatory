@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11961",
+  "number": 11961,
+  "title": "Cache security group resolution in Effective Permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Security group membership resolution is now cached by user in Effective Permissions, reducing backend calls from ~196K to nearly zero when exporting permissions to Excel by reusing the same codeunit instance across page rows.",
+  "key_points": [
+    "Caches security group membership resolution in a Dictionary keyed by user security ID",
+    "Reuses page-level EffectivePermissionsMgt instance instead of creating local instances per row",
+    "Reduces backend calls from approximately 196K (~4 minutes) to negligible for a tenant with 36 security groups",
+    "Cache lasts while the page is open and clears on page refresh",
+    "Group membership changes while the page is open will not be reflected until page reopens"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "Exporting one user's effective permissions to Excel made about 196K backend calls (about 4 minutes) for a tenant with 36 security groups",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004294,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Add BC performance knowledge from OptimAL learnings",
   "url": "https://github.com/microsoft/BCQuality/pull/198",
   "published_at": "2026-09-29T15:21:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:20.402Z",
+      "change_class": "code",
+      "files": 37,
+      "al": 36,
+      "objects": 0,
+      "unjoined": 36
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:25.944Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004683
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:25.946Z",
+      "objects": 0,
+      "unjoined": 36,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:25.952Z",
+      "path": "content/changes/bcquality/198.md"
     }
   },
   "input_hash": "87ba36e650dde6a1cd4c1bd499303cbde3a6a47f:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add bc performance knowledge from optimal learnings"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bca7b1b875f2d0ec16f6514be9ba103d9384b159b6243c9ec1643827172faece"
 }

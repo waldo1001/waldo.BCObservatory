@@ -6,10 +6,18 @@
   "title": "Allow Azure OpenAI privacy notice in evaluation",
   "url": "https://github.com/microsoft/BCApps/pull/11970",
   "published_at": "2026-09-29T12:03:06Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:30.670Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "50d1c29786180a0f35fd0e1a7e78e60fc6d625e8:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "allow azure openai privacy notice in evaluation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "59a15cb7c04f5f3b75ed8cd8dd27dc661ab417878f09491e5f5aba982d894fbd"
 }

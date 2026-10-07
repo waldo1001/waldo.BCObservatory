@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/198",
+  "number": 198,
+  "title": "Add BC performance knowledge from OptimAL learnings",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added six new performance guidance articles with code examples and refined existing guidance on indexing, buffered inserts, aggregate processing, and FlowField caching based on the OptimAL Performance Initiative.",
+  "key_points": [
+    "Six new knowledge articles covering workload-based indexes, overlapping indexes, buffered inserts, aggregate-before-write processing, scoped result caching, and repeated validation avoidance",
+    "Each new article includes paired good and bad AL code examples demonstrating best practices",
+    "Refinements to existing performance guidance on partial loads, temporary buffers, bulk updates, existence checks, primary-key caching, and SIFT-specific SetCurrentKey behavior",
+    "Performance-review skill extended to evaluate against the new rules",
+    "All examples are generalized from OptimAL learnings without partner or customer-specific information"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004683,
+    "changes_in_call": 1
+  }
+}

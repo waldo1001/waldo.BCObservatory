@@ -6,10 +6,35 @@
   "title": "AL methods limited during write transactions (RunModal, Codeunit.Run)",
   "url": "https://github.com/microsoft/BCQuality/pull/161",
   "published_at": "2026-09-29T15:13:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:20.457Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 0,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:25.866Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004208
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:25.867Z",
+      "objects": 0,
+      "unjoined": 5,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:25.871Z",
+      "path": "content/changes/bcquality/161.md"
     }
   },
   "input_hash": "56ce52a9c7a01046d4f2b603ddb0d9d044bb9502:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "al methods limited during write transactions runmodal codeunit run"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21a64f033667b23939d3c03f9beba00bcc4010e03b240b59dfcfcb78ecc2c2bf"
 }

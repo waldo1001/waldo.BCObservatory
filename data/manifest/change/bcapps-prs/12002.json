@@ -6,7 +6,7 @@
   "title": "Fix Dataverse connection URL tests",
   "url": "https://github.com/microsoft/BCApps/pull/12002",
   "published_at": "2026-09-29T14:28:24Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix dataverse connection url tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:58:27.835Z",
+  "retry_after": null
 }

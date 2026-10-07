@@ -1,0 +1,79 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11852,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11852",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T14:28:24Z",
+  "merge_commit_sha": "9f38f8a0d3422e150104a4887342a461f0c7f24c",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Allocation Accounts with Invoice Discount produces wrong posted entries in Sales and Purchases documents in the Spanish version.",
+  "body_hash": "88857c66538dd5405373bd2ba70693b3d5961b000ad6bebed9d6914798a2940d",
+  "fixes_issues": [],
+  "work_items": [
+    650386
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/AllocationAccount/Purchase/PurchaseAllocAccMgt.Codeunit.al",
+      "status": "added",
+      "additions": 846,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/AllocationAccount/Sales/SalesAllocAccMgt.Codeunit.al",
+      "status": "added",
+      "additions": 790,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Purchase/ERMPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 251,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Sales/ERMSalesDocumentsII.Codeunit.al",
+      "status": "modified",
+      "additions": 247,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 2134,
+    "deletions": 7,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/AllocationAccount/Purchase/PurchaseAllocAccMgt.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/AllocationAccount/Sales/SalesAllocAccMgt.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

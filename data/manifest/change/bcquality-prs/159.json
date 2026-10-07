@@ -6,10 +6,35 @@
   "title": "3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)",
   "url": "https://github.com/microsoft/BCQuality/pull/159",
   "published_at": "2026-09-29T15:13:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:24.747Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 12,
+      "objects": 0,
+      "unjoined": 12
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:30.296Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004267
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:30.297Z",
+      "objects": 0,
+      "unjoined": 12,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:30.301Z",
+      "path": "content/changes/bcquality/159.md"
     }
   },
   "input_hash": "830eaff68f92128dc764275d2b93b4b4e315ea77:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "3 al bc testing patterns from an external bc testing expert s blog luc van vugt fluxxus nl"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57a5c889d198f19794dfc5771e385f2f640ea0d2ddceaa870ab52913f81a2a86"
 }

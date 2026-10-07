@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/159",
+  "number": 159,
+  "title": "3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Three AL testing patterns from an external BC expert's blog are documented as best practices: using events to exclude invalid table relations in tests, committing shared test fixtures before lazy initialization, and using Assert.IsFalse for boolean checks instead of asserterror.",
+  "key_points": [
+    "Table Relation Test's OnAfterRemoveTableRelation event hook for excluding relations during test setup",
+    "Shared fixture data requires explicit Commit() to persist across tests, otherwise changes roll back silently",
+    "Assert.IsFalse is the correct assertion for boolean checks, not asserterror wrapped around Assert.IsTrue",
+    "Patterns verified against current BCApps source code and cleared for inclusion in quality rules",
+    "Three candidates were included; one was rejected as unverifiable in supported versions, and two others were excluded as too narrow or obsolete"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "mined from a source outside CURABIS itself: Luc van Vugt's fluxxus.nl, a long-running blog by a BC/NAV developer",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004267,
+    "changes_in_call": 1
+  }
+}

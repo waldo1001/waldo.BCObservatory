@@ -6,10 +6,35 @@
   "title": "[Shopify] Rename tax matching and add configurable processing limit",
   "url": "https://github.com/microsoft/BCApps/pull/11722",
   "published_at": "2026-09-29T15:52:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:18.016Z",
+      "change_class": "code",
+      "files": 27,
+      "al": 19,
+      "objects": 0,
+      "unjoined": 19
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:23.460Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005071
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:23.638Z",
+      "objects": 0,
+      "unjoined": 19,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:23.645Z",
+      "path": "content/changes/bcapps/11722.md"
     }
   },
   "input_hash": "7dcef426125d6ed4da5ccbb1ce18d252ae0b7499:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify rename tax matching and add configurable processing limit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "39e49217705f8f5622256ba03152012e2326190de0a814ab53815683601a98b7"
 }

@@ -6,10 +6,35 @@
   "title": "Enable HTTP requests before Expense Agent setup",
   "url": "https://github.com/microsoft/BCApps/pull/11993",
   "published_at": "2026-09-29T12:52:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:29.265Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:34.667Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003088
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:34.876Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:34.881Z",
+      "path": "content/changes/bcapps/11993.md"
     }
   },
   "input_hash": "829b7f1a20c992f9f239ef5cd1672c8b127ccee3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "enable http requests before expense agent setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "efb091ac4861a762a3e7ec508bec954295d0874be30a9a90b2b14612f45a13a4"
 }

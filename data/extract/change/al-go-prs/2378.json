@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2378",
+  "number": 2378,
+  "title": "Retry CI/CD baseline discovery when no eligible run is found",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now retries CI/CD baseline discovery up to three times when the GitHub workflow-runs API returns incomplete results, with backoff pauses between attempts and pagination resets to avoid missing eligible baselines.",
+  "key_points": [
+    "Discovery retries up to three times with 5 and 10 second waits between unsuccessful passes",
+    "Pagination resets to page 1 on each retry attempt",
+    "Preserves existing criteria for accepting successful and non-cancelled runs with successful build jobs",
+    "Adds diagnostic logging of attempt counts, page numbers, and URL-encoded filter values",
+    "Includes comprehensive test coverage for success, exhaustion, pagination, and query encoding"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "Attempt discovery up to three times, waiting 5 and 10 seconds between unsuccessful passes and restarting pagination at page 1.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003653,
+    "changes_in_call": 1
+  }
+}

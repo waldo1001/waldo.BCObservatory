@@ -1,0 +1,181 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 159,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/159",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-29T15:13:07Z",
+  "merge_commit_sha": "830eaff68f92128dc764275d2b93b4b4e315ea77",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)",
+  "body_hash": "fe292137bf6e53189f04f931955617c19ea58deee151dd61aaf55e0a9f5bf6c7",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.bad.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.good.al",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.bad.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.good.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.md",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/transactionmodel-attribute-governs-test-transactions.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.bad.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.good.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.md",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-testing-review.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 12,
+    "additions": 394,
+    "deletions": 4,
+    "al": 12
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/transactionmodel-attribute-governs-test-transactions.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-testing-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

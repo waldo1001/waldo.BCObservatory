@@ -6,10 +6,35 @@
   "title": "Fix device login initialization with a shared authentication action",
   "url": "https://github.com/microsoft/AL-Go/pull/2380",
   "published_at": "2026-09-29T15:34:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:19.260Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:24.180Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003763
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:24.181Z",
+      "objects": 0,
+      "unjoined": 7,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:24.186Z",
+      "path": "content/changes/al-go/2380.md"
     }
   },
   "input_hash": "1d7faabc2266abcb145fbe56fe450465f5fc468e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix device login initialization with a shared authentication action"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a735dfe6d8e67f2bb1b12980e267b85a6742486d15de7ec90cbb3db4e48f50b3"
 }

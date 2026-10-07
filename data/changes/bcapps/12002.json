@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12002,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12002",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T14:28:24Z",
+  "merge_commit_sha": "5e1a876735643ab8a04337b1b5b3505a730b14df",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Dataverse connection URL tests",
+  "body_hash": "79e9fbb061433f0e9b4a5839b9011c866e514c7edac473384860345e35416413",
+  "fixes_issues": [],
+  "work_items": [
+    651648
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 25,
+    "deletions": 15,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11774",
+  "number": 11774,
+  "title": "Use lower case file extensions for document attachment file names",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Document attachment file names now use lower case extensions (.pdf, .xml, .zip) instead of upper case to comply with file naming standards and customer requirements.",
+  "key_points": [
+    "GetAttachmentFileName() method now converts file extensions to lower case when building default file names",
+    "Affects document sending profiles for both disk and zip file storage",
+    "Fixes file names for electronic documents (XML) and PDF exports via Report Selections",
+    "No changes to procedure signatures or public events",
+    "Added comprehensive tests including unit tests and end-to-end scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "quote": "PDF files must use the lower case `.pdf` extension.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004086,
+    "changes_in_call": 1
+  }
+}

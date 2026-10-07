@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2380",
+  "number": 2380,
+  "title": "Fix device login initialization with a shared authentication action",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "A shared authentication action now handles device login initialization for AL-Go workflows, ensuring credentials are validated and helpers are available before sign-in instructions are displayed.",
+  "key_points": [
+    "New Authenticate action centralizes credential checks and device-login setup across workflows",
+    "Credentials passed through environment variables instead of PowerShell source interpolation",
+    "Existing credential precedence and admin secret name configuration preserved",
+    "Missing credentials and invalid responses now fail explicitly with detailed messages",
+    "Applied to CreateOnlineDevelopmentEnvironment and PublishToEnvironment workflows in both app templates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003763,
+    "changes_in_call": 1
+  }
+}

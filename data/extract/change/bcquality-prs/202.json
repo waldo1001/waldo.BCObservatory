@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/202",
+  "number": 202,
+  "title": "Restore deterministic review fixture coverage",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Quality review fixtures now register 23 knowledge articles with deterministic coverage, including retrieval keywords to ensure clean and positive controls remain discoverable within the bounded candidate set.",
+  "key_points": [
+    "Registers 23 paired knowledge articles across data modeling, error handling, performance, security, style, testing, UI, upgrade and web services domains",
+    "Preserves all existing fixture selections while adding three narrow retrieval keywords for better test control selection",
+    "Keeps coverage waivers empty and validates through comprehensive synthetic and final-diff gates with zero waivers",
+    "Adds routing metadata: credit-memo-routing for al-comments article, rec-modify pattern for pages article, subtype-test for testing article",
+    "All 19 existing review leaves and skill indexes preserved; passes knowledge index, skill schema and review contract validation"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "register all 23 paired knowledge articles changed by #157, #159, and #161 while preserving every existing fixture selection",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004188,
+    "changes_in_call": 1
+  }
+}

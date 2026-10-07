@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11852",
+  "number": 11852,
+  "title": "[main] Allocation Accounts with Invoice Discount produces wrong posted entries in Sales and Purchases documents in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed incorrect posted entries when allocation accounts are used with invoice discounts in Spanish Sales and Purchase documents. The allocation logic now correctly uses the pre-discount line amount instead of the already-discounted amount.",
+  "key_points": [
+    "Invoice discount was being applied twice to allocation accounts in Spanish documents",
+    "The root cause was using the already-discounted Amount field instead of the pre-discount Line Amount in allocation calculations",
+    "This fix ensures allocation accounts produce correct posted entries for both Sales and Purchase documents",
+    "Test cases were added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Invoice discount was being applied twice, producing incorrect posted entries.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00332,
+    "changes_in_call": 1
+  }
+}

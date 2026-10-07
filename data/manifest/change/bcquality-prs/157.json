@@ -6,10 +6,35 @@
   "title": "18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource",
   "url": "https://github.com/microsoft/BCQuality/pull/157",
   "published_at": "2026-09-29T15:12:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:23.995Z",
+      "change_class": "code",
+      "files": 59,
+      "al": 59,
+      "objects": 0,
+      "unjoined": 59
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:29.580Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.009874
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:29.582Z",
+      "objects": 0,
+      "unjoined": 59,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:58:29.590Z",
+      "path": "content/changes/bcquality/157.md"
     }
   },
   "input_hash": "f63943dcfdfd1bb776441b2f9f08966f97295a01:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "18 more al bc patterns data modeling testing style security error handling ui upgrade web services appsource"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "56f48902d68e518bd9c018ba8ce2cdf1b14e69d8ae96e802be5f8f34176675bb"
 }

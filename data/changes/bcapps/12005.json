@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12005,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12005",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T14:29:07Z",
+  "merge_commit_sha": "cc52dc3bff7648d56a4ceab85bebf31445766857",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Avoid duplicate product ID in create variant test",
+  "body_hash": "6efed48d58648c71c1e29cd6ba5a1a16595ebf9f1970bb51c5cd52806863eabd",
+  "fixes_issues": [],
+  "work_items": [
+    650252
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 10,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

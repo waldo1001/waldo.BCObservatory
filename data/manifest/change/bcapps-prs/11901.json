@@ -6,7 +6,7 @@
   "title": "Fix expense policy category mode",
   "url": "https://github.com/microsoft/BCApps/pull/11901",
   "published_at": "2026-09-29T15:57:34Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003202
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:16.511Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:16.516Z",
+      "path": "content/changes/bcapps/11901.md"
     }
   },
   "input_hash": "9a1ee191193c6450935f23535f5f231f303b7885:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd7c473a6059618442e634b567ba41e580a2b6696e06079428abdb36e2513d0e"
+  "output_hash": "4296874007dd6975c62d154b28c76d66b523ba4699a4800c81c9bd0c97305f13"
 }

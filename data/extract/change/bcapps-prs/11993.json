@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11993",
+  "number": 11993,
+  "title": "Enable HTTP requests before Expense Agent setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent extension now enables HTTP client requests when the setup wizard opens, allowing service communication before full setup completion.",
+  "key_points": [
+    "HTTP client allowance is set when the setup wizard initializes",
+    "The setting change runs as a try function to prevent setup blocking on failure",
+    "The allowance is applied before the first service probe for better flow",
+    "The allowance persists for all subsequent agent operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Enable HTTP client requests for the Expense Agent extension when the setup wizard opens.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003088,
+    "changes_in_call": 1
+  }
+}

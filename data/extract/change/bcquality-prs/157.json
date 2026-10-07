@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/157",
+  "number": 157,
+  "title": "18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling, UI, upgrade, web services, and AppSource patterns with code examples and best practices.",
+  "key_points": [
+    "18 articles document patterns for data modeling (WorkDate, Media for pictures, table-type conventions), testing (BCPT, tagging, test structure), and style (business logic, organization)",
+    "Security, error handling, UI, upgrade, and web services guidance covers permission sets, rollback-safe logging, page types, tag nesting, and API write access",
+    "Each article includes bad/good AL code samples and frontmatter to support knowledge base training",
+    "Duplicates or substantial overlaps with existing files were dropped during review",
+    "Updates to review skills link the new articles into relevant code review processes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "18 more knowledge articles generalized from patterns observed across real AppSource/PTE Business Central development",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009874,
+    "changes_in_call": 1
+  }
+}
