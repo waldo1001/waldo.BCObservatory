@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 624708: [Expense Management] Users sync - There should be a configuration wizard to ask if the Employees should be created behind if no match is found",
   "url": "https://github.com/microsoft/BCApps/pull/11712",
   "published_at": "2026-09-23T14:58:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:52.122Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:56.513Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003139
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:56.667Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:56.674Z",
+      "path": "content/changes/bcapps/11712.md"
     }
   },
   "input_hash": "4fdcbd1f4d4bc20c097384055148c6314150fb9a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 624708 expense management users sync there should be a configuration wizard to ask if the employees should be created behind if no match is found"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d4c3cb0865d6a6b0bf18109185007538ac97d9dac46646c96aa235d2652f7df"
 }

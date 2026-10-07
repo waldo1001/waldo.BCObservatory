@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 650785: [Expense Agent] Deleting an itemized Expense Category shows misleading missing-subcategories confirmation",
   "url": "https://github.com/microsoft/BCApps/pull/11705",
   "published_at": "2026-09-23T14:57:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:53.377Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:57.891Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002965
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:58.039Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:58.044Z",
+      "path": "content/changes/bcapps/11705.md"
     }
   },
   "input_hash": "5811fefb011769025c90aece3c5a130ef23711bb:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 650785 expense agent deleting an itemized expense category shows misleading missing subcategories confirmation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30c66d4a2ebc0e62d97c5127f01aaa16c029c91457cf75f846527925519b953d"
 }

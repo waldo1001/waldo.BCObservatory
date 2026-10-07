@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11712",
+  "number": 11712,
+  "title": "[Master] - Bug 624708: [Expense Management] Users sync - There should be a configuration wizard to ask if the Employees should be created behind if no match is found",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense user synchronization now includes a configuration wizard that prompts users to automatically create employee records when no matching employee is found during sync.",
+  "key_points": [
+    "Added configuration wizard to Expense Users page",
+    "Automatically creates employee records when sync finds no matching employees",
+    "Reduces manual data setup work during expense management onboarding",
+    "Test coverage added for the import expense user functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003139,
+    "changes_in_call": 1
+  }
+}

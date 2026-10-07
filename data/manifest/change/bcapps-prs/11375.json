@@ -6,10 +6,35 @@
   "title": "Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments",
   "url": "https://github.com/microsoft/BCApps/pull/11375",
   "published_at": "2026-09-23T11:38:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:54.645Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:01.112Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.005538
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:01.260Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:01.266Z",
+      "path": "content/changes/bcapps/11375.md"
     }
   },
   "input_hash": "4abbb8ff848cdcb4e1187fc7a3e2da0612dd0d2b:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "obsolete gpt 5 5 chat and add gpt 5 6 ceres deployments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ce1d0f8386b0cf9693debe2984c3597362e35dab802f733308c1d110e0e59bc"
 }

@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11611,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11611",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T15:12:17Z",
+  "merge_commit_sha": "5d77ee676bf04dd243ae96c4bd2e71cf3b598540",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Add GraphQL type to request telemetry",
+  "body_hash": "16ccb2e251322d1e5f79292e8f0ec8a6b3f8a59fc84b82da42bce2908119e38d",
+  "fixes_issues": [],
+  "work_items": [
+    650502
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/GraphQL/Codeunits/ShpfyGraphQLQueries.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 28,
+    "deletions": 12,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyCommunicationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30103",
+        "type": "codeunit",
+        "id": 30103,
+        "name": "Shpfy Communication Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30103"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/GraphQL/Codeunits/ShpfyGraphQLQueries.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30154",
+        "type": "codeunit",
+        "id": 30154,
+        "name": "Shpfy GraphQL Queries",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30154"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

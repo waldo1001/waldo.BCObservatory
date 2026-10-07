@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10363,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10363",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-23T11:03:37Z",
+  "merge_commit_sha": "1e8b6b3db7d13d16a1c09b601c42ad267a4ef6bf",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Build: scripts & configs",
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Bug 646360: Validate introduced object IDs against allowed ranges in the PR gate",
+  "body_hash": "503a259b23ead73a3fc7fde584ff571eff5fdd13ddf33a30d33da384ce3faa7a",
+  "fixes_issues": [],
+  "work_items": [
+    646360
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 5,
+    "additions": 657,
+    "deletions": 10,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

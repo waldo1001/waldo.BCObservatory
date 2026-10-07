@@ -1,0 +1,127 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11593,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11593",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-23T13:22:42Z",
+  "merge_commit_sha": "0f716dcd6d80e43e33f17cb408bbd920bd1b6449",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": " [29.x] - Bug 650481[Expense Agent] Closed travel requests are editable and are missing approver info.",
+  "body_hash": "1cacadc1897c29a2455955ac664af58bda218ba9b93dffbad48a42cd6d86c36b",
+  "fixes_issues": [],
+  "work_items": [
+    650481
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Pages/TravelRequestCard.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "modified",
+      "additions": 128,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 163,
+    "deletions": 0,
+    "al": 4
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpenseSpendRequest.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6908",
+        "type": "tableextension",
+        "id": 6908,
+        "name": "Expense Spend Request",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseEventSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6908",
+        "type": "codeunit",
+        "id": 6908,
+        "name": "Expense Event Subscriber",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Pages/TravelRequestCard.Page.al",
+        "status": "modified",
+        "key": "page/7129",
+        "type": "page",
+        "id": 7129,
+        "name": "Travel Request Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7129"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+        "status": "modified",
+        "key": "table/6840",
+        "type": "table",
+        "id": 6840,
+        "name": "Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6840"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "ExpenseAgent"
+  ]
+}

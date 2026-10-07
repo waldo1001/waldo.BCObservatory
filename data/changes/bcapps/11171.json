@@ -1,0 +1,274 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11171,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11171",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T18:43:55Z",
+  "merge_commit_sha": "a28dcf675c37aa80b2b984fe6203455c1aa6a430",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Security][Hardening] Validate integration URLs stored in setup tables",
+  "body_hash": "eb9ec1fedee148600284b76341389331e32a7f9c5d4454c84b6a30ad76b5ffe3",
+  "fixes_issues": [],
+  "work_items": [
+    614071
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Logiq/app/src/LogiqAuth.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Logiq/app/src/LogiqConnectionSetup.Table.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Logiq/app/src/LogiqIntegrationManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Logiq/test/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Logiq/test/src/LogiqUrlValidationTest.Codeunit.al",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Pagero/app/PageroAPIRequests.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Pagero/app/PageroAuth.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Pagero/test/app.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Pagero/test/src/UrlValidationTests.Codeunit.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/SignUp/app/src/SignUpAPIRequests.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 10,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/SignUp/app/src/SignUpAuthentication.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/SignUp/test/src/IntegrationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Integration/Codeunits/ShpfyAuthenticationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Integration/ShpfyHostValidationTest.Codeunit.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSIntegrationImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CommercialDataverseEndpoints.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/DocExchServiceMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/URI/src/Uri.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/URI/src/UriTest.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 21,
+    "additions": 573,
+    "deletions": 33,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Integration/Codeunits/ShpfyAuthenticationMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30199",
+        "type": "codeunit",
+        "id": 30199,
+        "name": "Shpfy Authentication Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30199"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSIntegrationImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7201",
+        "type": "codeunit",
+        "id": 7201,
+        "name": "CDS Integration Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7201"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5330",
+        "type": "codeunit",
+        "id": 5330,
+        "name": "CRM Integration Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5330"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CommercialDataverseEndpoints.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7208",
+        "type": "codeunit",
+        "id": 7208,
+        "name": "Commercial Dataverse Endpoints",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7208"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al",
+        "status": "modified",
+        "key": "interface/dataverse cloud endpoints",
+        "type": "interface",
+        "id": null,
+        "name": "Dataverse Cloud Endpoints",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "interface/dataverse-cloud-endpoints"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/DocExchServiceMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1410",
+        "type": "codeunit",
+        "id": 1410,
+        "name": "Doc. Exch. Service Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1410"
+      },
+      {
+        "path": "src/System Application/App/URI/src/Uri.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3060",
+        "type": "codeunit",
+        "id": 3060,
+        "name": "Uri",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3060"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "apps": [
+    "Base Application",
+    "Shopify",
+    "System Application"
+  ]
+}

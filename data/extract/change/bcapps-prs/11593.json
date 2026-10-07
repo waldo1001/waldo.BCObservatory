@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11593",
+  "number": 11593,
+  "title": " [29.x] - Bug 650481[Expense Agent] Closed travel requests are editable and are missing approver info.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Travel requests can no longer be edited once closed, automatic approvals now record the approver details, and the requested-for user name is displayed on the travel request card.",
+  "key_points": [
+    "Closed travel requests are now read-only to prevent unintended modifications",
+    "Automatic approval process now captures and stores approver identity and timestamp",
+    "Travel request card displays the name of the expense user the request was made for",
+    "Fixes issues with spend request editability and missing approval metadata",
+    "Includes test coverage for the fixed scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Closed travel requests can still be edited, and automatically approved travel requests do not record approver information.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003461,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Master] Bug 650348: [Expense Agent] Closed travel requests are editable and are missing approver info.",
   "url": "https://github.com/microsoft/BCApps/pull/11595",
   "published_at": "2026-09-23T18:05:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:52.552Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:59:56.953Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00316
+    },
+    "linked": {
+      "at": "2026-10-07T12:59:57.126Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:59:57.133Z",
+      "path": "content/changes/bcapps/11595.md"
     }
   },
   "input_hash": "280d68b6a93f9d121edb38377935b6aed5493487:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 650348 expense agent closed travel requests are editable and are missing approver info"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c813a5516a4770026eb449427b5b6db5622c25e37ad0a2a0554a285d3406e83"
 }

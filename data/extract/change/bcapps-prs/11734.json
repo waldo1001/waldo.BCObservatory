@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11734",
+  "number": 11734,
+  "title": "[VIES Integration] Per-environment daily request rate-limit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A per-tenant daily rate-limit of 2000 VIES lookups prevents a single tenant from flooding the shared outbound IP used by Business Central online, which could deny-list the IP for all co-located tenants.",
+  "key_points": [
+    "New table 243 'VAT Reg. No. Lookup Quota' and codeunit 247 'VAT Lookup Quota Mgt.' enforce a daily limit in codeunit 248 before SOAP calls to VIES",
+    "The counter resets daily at UTC midnight and applies to all callers including extensions and background jobs",
+    "Rate-limit of 2000 lookups per day is about 10x typical usage but 10x below the volume that triggers VIES IP deny-listing",
+    "Applies only to Business Central online (SaaS); on-premises tenants are unaffected",
+    "Tenants exceeding the limit receive an error, audit entry, and telemetry for the remainder of the UTC day"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005058,
+    "changes_in_call": 1
+  }
+}

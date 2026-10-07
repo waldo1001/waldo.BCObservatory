@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11747",
+  "number": 11747,
+  "title": "[master][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed a failure when exploding Assembly BOMs on sales orders for foreign-currency customers by changing the Sales Subscription Line lookup to use cached data before querying the database.",
+  "key_points": [
+    "Exploding BOMs on foreign-currency sales orders raised 'Sales Line does not exist' error",
+    "Root cause was direct database lookup of Sales Line during BOM explosion when the line only existed in memory",
+    "Changed GetDate() to use GetSalesLine() method to leverage cached Sales Line before fallback database lookup",
+    "Added test coverage for the foreign-currency BOM explosion scenario",
+    "Affects Subscription Billing feature in sales order processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003802,
+    "changes_in_call": 1
+  }
+}

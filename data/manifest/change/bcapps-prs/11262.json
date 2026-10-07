@@ -6,10 +6,35 @@
   "title": "Fix retention policy deletion-limit stop propagation",
   "url": "https://github.com/microsoft/BCApps/pull/11262",
   "published_at": "2026-09-23T09:40:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:55.958Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:00.953Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003878
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:01.102Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:01.107Z",
+      "path": "content/changes/bcapps/11262.md"
     }
   },
   "input_hash": "c378eef150ab1c48e1959f56184e0f8150c76f74:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix retention policy deletion limit stop propagation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f2fd0cac090790315b813a0559d29fd1e375f4cb5af6cbe22a124f96368c133e"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11705",
+  "number": 11705,
+  "title": "[Master] - Bug 650785: [Expense Agent] Deleting an itemized Expense Category shows misleading missing-subcategories confirmation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed a misleading confirmation message when deleting an itemized Expense Category that incorrectly references missing subcategories.",
+  "key_points": [
+    "Corrected confirmation dialog logic for itemized Expense Category deletion",
+    "Improved user experience by showing accurate messages",
+    "Changes to Expense Category Card and Expense User pages",
+    "Removes confusing subcategory warnings when not applicable"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002965,
+    "changes_in_call": 1
+  }
+}

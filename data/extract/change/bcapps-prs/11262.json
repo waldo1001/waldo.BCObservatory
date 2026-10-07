@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11262",
+  "number": 11262,
+  "title": "Fix retention policy deletion-limit stop propagation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The retention policy deletion limit now stops further policy processing correctly by propagating the stop flag through the temporary setup record after each policy runs, preventing additional limit events after the batch should have ended.",
+  "key_points": [
+    "The `EndCurrentRun` flag is now transported through the temporary retention policy setup record instead of being lost during isolated codeunit execution",
+    "The outer loop can now check the stop condition after each policy completes instead of continuing blindly",
+    "Per-policy error isolation is preserved while allowing proper batch termination",
+    "Added regression test cases covering limit boundary conditions and multiple runs",
+    "No changes to event signatures, scheduling, or the deletion allowance configuration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Return the stop flag through the temporary retention policy setup record alongside the deletion count",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003878,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11664",
+  "number": 11664,
+  "title": "Add OnBefore event for approval insertion checks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks by handling the event.",
+  "key_points": [
+    "New OnBeforePreventInsertRecIfOpenApprovalEntryExist event added",
+    "Subscribers can set IsHandled to bypass approval checks",
+    "Existing approval logic unchanged when event is not handled",
+    "Enables extensions to skip checks when approvals are not used",
+    "No schema, permission, or upgrade changes required"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003471,
+    "changes_in_call": 1
+  }
+}

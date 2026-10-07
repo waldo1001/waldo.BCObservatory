@@ -6,10 +6,35 @@
   "title": "Add OnBefore event for approval insertion checks",
   "url": "https://github.com/microsoft/BCApps/pull/11664",
   "published_at": "2026-09-23T09:37:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:59.619Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:08.076Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003471
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:08.229Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:08.234Z",
+      "path": "content/changes/bcapps/11664.md"
     }
   },
   "input_hash": "3a23056129e7274af8f0f330812b59e6114498f8:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "add onbefore event for approval insertion checks"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70cb70fc5ad1ba1c0c808795cc074c1f77a5f477e12c684faa758a313b155ea0"
 }

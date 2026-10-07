@@ -6,10 +6,35 @@
   "title": "Fix duplicate retention continuations for Waiting jobs",
   "url": "https://github.com/microsoft/BCApps/pull/11257",
   "published_at": "2026-09-23T09:37:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:59:59.119Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:04.229Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003846
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:08.065Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:08.070Z",
+      "path": "content/changes/bcapps/11257.md"
     }
   },
   "input_hash": "f86cb04d7d81db561a904204487d9e32c354fc15:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix duplicate retention continuations for waiting jobs"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e71feedc391a67ac8ae9adbcbb1c9bb8c7ee4cdc8e76a4f2a35cf46cb68da2bc"
 }

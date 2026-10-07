@@ -1,0 +1,45 @@
+{
+  "item_id": "change/bcapps-prs/11375",
+  "number": 11375,
+  "title": "Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "development"
+  ],
+  "summary": "GPT-5.5 chat deployments are marked obsolete and replaced with GPT-5.6 Ceres deployments that retire on September 11, 2026, with Sales Order Agent callers migrated to the new models.",
+  "key_points": [
+    "GetGPT55ChatLatest() and GetGPT55ChatPreview() methods marked obsolete in version 30.0 with retirement telemetry",
+    "New GetGPT56CeresLatest() and GetGPT56CeresPreview() methods added returning gpt-56-ceres deployment models",
+    "Sales Order Agent attachment extraction and item search callers migrated to GPT-5.6 Ceres deployments",
+    "GPT-5.5 preview retained for file-content compatibility until cleanup, GPT-5.6 preview enabled for file-content messages",
+    "Five AL tests added covering deployment names, obsolete method retention, file-content preview support, and unsupported model rejection"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "AOAI Deployments",
+      "member": "GetGPT55ChatLatest()",
+      "replacement": "GetGPT56CeresLatest()"
+    },
+    {
+      "object": "AOAI Deployments",
+      "member": "GetGPT55ChatPreview()",
+      "replacement": "GetGPT56CeresPreview()"
+    }
+  ],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005538,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Shopify] Add GraphQL type to request telemetry",
   "url": "https://github.com/microsoft/BCApps/pull/11611",
   "published_at": "2026-09-22T15:12:17Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:03.214Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "5d77ee676bf04dd243ae96c4bd2e71cf3b598540:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify add graphql type to request telemetry"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95eda41d0fd007268657f32b71066c5732f2a8b415b12aea58226a6171f4e897"
 }

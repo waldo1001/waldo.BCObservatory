@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11262,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11262",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-23T09:40:00Z",
+  "merge_commit_sha": "c378eef150ab1c48e1959f56184e0f8150c76f74",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix retention policy deletion-limit stop propagation",
+  "body_hash": "c8587b98956f9d0a2e5a76004bb007a3165ce741044e59c74f5dcbf44c8d93a6",
+  "fixes_issues": [],
+  "work_items": [
+    649569
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Retention Policy/src/Apply Retention Policy/ApplyRetentionPolicyImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Retention Policy/src/Retention Policy Setup/RetentionPolicySetup.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Retention Policy/src/RetentionPolicyTest.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 105,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Retention Policy/src/Apply Retention Policy/ApplyRetentionPolicyImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3904",
+        "type": "codeunit",
+        "id": 3904,
+        "name": "Apply Retention Policy Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3904"
+      },
+      {
+        "path": "src/System Application/App/Retention Policy/src/Retention Policy Setup/RetentionPolicySetup.Table.al",
+        "status": "modified",
+        "key": "table/3901",
+        "type": "table",
+        "id": 3901,
+        "name": "Retention Policy Setup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/3901"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

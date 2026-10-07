@@ -6,7 +6,7 @@
   "title": "Bug 646360: Validate introduced object IDs against allowed ranges in the PR gate",
   "url": "https://github.com/microsoft/BCApps/pull/10363",
   "published_at": "2026-09-23T11:03:37Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 646360 validate introduced object ids against allowed ranges in the pr gate"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:59:54.829Z",
+  "retry_after": null
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11257",
+  "number": 11257,
+  "title": "Fix duplicate retention continuations for Waiting jobs",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Retention policy continuation scheduling now detects Waiting jobs to prevent duplicate continuations when the dispatcher moves a job to Waiting status, checking for existing Waiting work before creating or restarting continuations.",
+  "key_points": [
+    "Check for Waiting continuations before selecting Ready or On Hold jobs to prevent duplicates",
+    "Use IsEmpty() for efficient Waiting job detection without materializing records",
+    "Waiting work takes priority in scheduling decisions",
+    "Internal scheduling helper returns whether a create or restart actually occurred",
+    "Six new test cases cover duplicate prevention and priority scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Once the dispatcher moved an existing continuation to Waiting, another limit-exceeded notification could create a duplicate.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003846,
+    "changes_in_call": 1
+  }
+}

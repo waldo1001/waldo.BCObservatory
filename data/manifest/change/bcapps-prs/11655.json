@@ -6,7 +6,7 @@
   "title": "Bug 649818: [29x][NAV] Track Translation update (AUTODETECTED)",
   "url": "https://github.com/microsoft/BCApps/pull/11655",
   "published_at": "2026-09-22T15:33:01Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 649818 29x nav track translation update autodetected"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:00:01.768Z",
+  "retry_after": null
 }
