@@ -145,10 +145,10 @@ const W = 860, Y0 = 80, H = 650;
   .xp-svg .post { fill: var(--ev-blog-text); }
   .xp-svg .event { fill: var(--nb-event-rest); }
   .xp-svg .xn.sel .event, .xp-svg .xn:hover .event { fill: var(--nb-event); }
-  .xp-svg .pill rect { fill: var(--nb-pill-bg); stroke: var(--nb-pill-border); }
-  .xp-svg .pill.open rect { fill: var(--nb-pill-open-bg); stroke: var(--nb-pill-open-border); }
+  .xp-svg .pill rect:not(.ring) { fill: var(--nb-pill-bg); stroke: var(--nb-pill-border); }
+  .xp-svg .pill.open rect:not(.ring) { fill: var(--nb-pill-open-bg); stroke: var(--nb-pill-open-border); }
   .xp-svg .pill.open .grp { fill: var(--nb-pill-open-text); }
-  .xp-svg .pill:hover rect { stroke: var(--nb-edge-active); }
+  .xp-svg .pill:hover rect:not(.ring) { stroke: var(--nb-edge-active); }
   .xp-svg .hop2 .shape { opacity: .85; }
   .xp-svg .fade { animation: xp-in 300ms both; }
   @keyframes xp-in { from { opacity: 0; } to { opacity: 1; } }
