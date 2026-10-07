@@ -122,3 +122,29 @@ test("page: objects heard join their object pages by exact type and name (D67); 
   assert.ok(content.includes('More than one object has this name, so none is linked: codeunit "Search".'));
   assert.ok(content.includes('- other "find set" at') && !/Not found[^\n]*find set/.test(content), "a name of no object type is listed but never called not found");
 });
+
+const featureTable = (content: string) => content.split("## Features\n\n")[1].split("\n\n")[0].split("\n");
+const pipes = (row: string) => row.replace(/\\\|/g, "").split("|").length - 1;
+async function renderWith(features: VideoExtraction["features"]) {
+  const { dataDir, contentDir } = dirs();
+  writeJson(join(dataDir, `extract/video/${ID}.json`), { ...extraction, features });
+  await summarizedHandler(item({ state: "extracted" }), { dataDir }, fakeSummary(SUMMARY).llm);
+  await publishedHandler(item(), { dataDir, contentDir, sources: new Map(), now: () => new Date("2026-10-07T01:00:00Z") });
+  return matter(readFileSync(join(contentDir, `videos/${ID}.md`), "utf8")).content;
+}
+
+test("features table (D74): no verified evidence on any row leaves the Evidence column out", async () => {
+  const unverified = extraction.features.map((f) => ({ ...f, status_evidence_verified: false }));
+  const rows = featureTable(await renderWith(unverified));
+  assert.deepEqual(rows.slice(0, 2), ["| Feature | Status | At |", "|---|---|---|"]);
+  assert.equal(rows.length, 4);
+  for (const r of rows) assert.equal(pipes(r), 4, r);
+});
+
+test("features table (D74): one verified row keeps Evidence; the other row ends with an empty cell", async () => {
+  const rows = featureTable(await renderWith(extraction.features));
+  assert.deepEqual(rows.slice(0, 2), ["| Feature | Status | At | Evidence |", "|---|---|---|---|"]);
+  assert.ok(rows[2].includes(`"it is generally available today" ([1:01](https://www.youtube.com/watch?v=${ID}&t=61s))`), rows[2]);
+  assert.ok(rows[3].endsWith("|  |"), rows[3]);
+  for (const r of rows) assert.equal(pipes(r), 5, r);
+});

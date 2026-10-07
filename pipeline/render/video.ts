@@ -105,12 +105,14 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
   ];
   if (x.chapters.length) lines.push("## Chapters", "", ...x.chapters.map((c) => `- [${hms(c.t_start)}](${at(id, c.t_start)}) ${c.title}`), "");
   if (x.features.length) {
-    lines.push("## Features", "", "| Feature | Status | At | Evidence |", "|---|---|---|---|");
+    // D74: a column empty on every row is left out; Evidence stays when at least one feature has a verified quote
+    const evs = x.features.map((f) => f.status_evidence_verified && f.status_evidence_quote ? `"${cell(f.status_evidence_quote)}" ([${hms(f.status_evidence_t!)}](${at(id, f.status_evidence_t!)}))` : "");
+    const withEv = evs.some(Boolean);
+    lines.push("## Features", "", withEv ? "| Feature | Status | At | Evidence |" : "| Feature | Status | At |", withEv ? "|---|---|---|---|" : "|---|---|---|");
     x.features.forEach((f, i) => {
-      const ev = f.status_evidence_verified && f.status_evidence_quote ? `"${cell(f.status_evidence_quote)}" ([${hms(f.status_evidence_t!)}](${at(id, f.status_evidence_t!)}))` : "";
       const rmLinks = rm[i].ids.map((r) => `[${r}](../features/${r}.md)`).join(", ");
       const status = `${STATUS_LABEL[statusOf(i)]}${rm[i].ids.length ? ` (roadmap ${rmLinks})` : ""}`;
-      lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) | ${ev} |`);
+      lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) |${withEv ? ` ${evs[i]} |` : ""}`);
     });
     lines.push("");
     if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.", "");
