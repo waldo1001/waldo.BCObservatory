@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/04/11/dynamics-gp-to-business-central-how-to-recreate-the-gl-summary-enquiry-using-g-l-account-balance-analysis-mode-or-an-analysis-view/",
   "published_at": "2025-04-11T15:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:17.146Z",
+      "path": "vault:posts/thedynamicsexplorer-com/8821.md",
+      "words": 1039
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:17.156Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:17.157Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:17.158Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:17.173Z",
+      "path": "content/posts/thedynamicsexplorer-com/8821.md"
     }
   },
   "input_hash": "2026-04-30T19:15:54.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9caac5ac65d5beb5a266b4a5ebdd68099b7e52dc3f938464c057cbedcb6390a2"
 }

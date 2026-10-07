@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/",
+  "url": "https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/",
+  "title": "How to Write Error Messages That Help",
+  "source": "thatnavguy-com",
+  "published_at": "2025-04-14T00:00:00.000Z",
+  "words": 965,
+  "summary": "Error messages significantly impact user experience in enterprise software. The post explains how to write clear, actionable error messages that guide users to solutions rather than leaving them frustrated, with practical examples showing vague messages transformed into helpful ones.",
+  "key_points": [
+    "Good error messages are clear about what went wrong, avoid technical jargon, and explain the problem in simple language users understand",
+    "Effective messages provide context about why the error occurred, its impact, and concrete steps users can take to fix it",
+    "Standardizing error message tone, structure, and detail across applications ensures consistent user experience and reduces support burden",
+    "Avoid generic phrases and use actionable errors when possible; consider whether TestField validation is appropriate or if custom messages are better",
+    "Error messages should sound professional yet friendly, never blame users, and communicate the issue through the appropriate channel (warning, notification, or hard error)"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "error handling",
+    "user experience",
+    "validation",
+    "messaging",
+    "support",
+    "business central development"
+  ],
+  "objects": [],
+  "features": [
+    "error messages",
+    "testfield validation",
+    "actionable errors",
+    "field validation",
+    "error context",
+    "user guidance"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A poorly written error message does more than confuse - it damages trust.",
+      "why_it_matters": "Shows the broader business impact of error message quality on user trust and organizational efficiency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

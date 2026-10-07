@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/demiliani-com/11666",
+  "url": "https://demiliani.com/2025/04/09/an-mcp-server-for-dynamics-365-business-central-why-not/",
+  "title": "An MCP server for Dynamics 365 Business Central? Why not?",
+  "source": "demiliani-com",
+  "published_at": "2025-04-09T07:10:24.000Z",
+  "words": 1367,
+  "summary": "The Model Context Protocol (MCP) is an open standard that enables AI applications to connect with external tools and data sources in a standardized way. An MCP server for Dynamics 365 Business Central allows AI agents and Copilot tools to access ERP data and perform Business Central operations through a unified, reusable protocol that works across different AI platforms.",
+  "key_points": [
+    "MCP standardizes how AI models connect to external systems, replacing the need for custom integrations for each data source",
+    "MCP differs from function calling by handling execution and system integration across diverse platforms, not just generating function calls",
+    "An MCP server for Business Central exposes data and operations that any MCP-compliant tool like GitHub Copilot, Claude Desktop, or Cursor can directly access and use",
+    "MCP follows a client-server architecture where hosts connect to multiple servers that expose data sources and capabilities",
+    "MCP is particularly valuable for enterprise-scale scenarios with many tools and LLMs, reducing dependency on specific LLM formats"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "mcp protocol",
+    "ai integration",
+    "copilot integration",
+    "agent-based systems",
+    "api standardization",
+    "external tools connection"
+  ],
+  "objects": [],
+  "features": [
+    "Model Context Protocol (MCP) server",
+    "MCP client-server architecture",
+    "Tool discovery and invocation",
+    "AppSource app management via MCP",
+    "Multi-Copilot tool support"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

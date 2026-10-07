@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/8821",
+  "url": "https://thedynamicsexplorer.com/2025/04/11/dynamics-gp-to-business-central-how-to-recreate-the-gl-summary-enquiry-using-g-l-account-balance-analysis-mode-or-an-analysis-view/",
+  "title": "Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-04-11T15:00:00.000Z",
+  "words": 1039,
+  "summary": "When migrating from Dynamics GP to Business Central, GL account structures change from segmented codes to single codes with dimensions. The post explains three methods to recreate Dynamics GP's GL Summary Enquiry view in Business Central: filtering the Chart of Accounts page, using Analysis Mode with natural language in Copilot, or creating an Analysis View.",
+  "key_points": [
+    "Dynamics GP uses segmented GL codes (e.g., 200-5170-00) while Business Central uses single GL codes with dimensions for department and division",
+    "Microsoft's migration tools consolidate segmented GL codes into single codes and create dimensions, so 50 variants of a Payroll Taxes code become one GL code",
+    "Chart of Accounts in Business Central shows only total balances at GL code level, unlike Dynamics GP's Summary Enquiry which shows balances for specific code combinations",
+    "Three methods to view GL balances like Dynamics GP: pre-filter Chart of Accounts before opening G/L Account Balance, use Analysis Mode on General Ledger Entries with Copilot natural language support, or create an Analysis View with compression by month and dimensions"
+  ],
+  "systems": [
+    "finance",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "migration",
+    "general ledger",
+    "chart of accounts",
+    "dimensions",
+    "analysis view",
+    "dynamics gp"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Balance"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Analysis View Entries"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Analysis View",
+    "Dimensions",
+    "Copilot natural language",
+    "GL Account Balance",
+    "Chart of Accounts filtering"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In Dynamics GP the GL account code is segmented, whereas Business Central uses a single GL code and dimensions.",
+      "why_it_matters": "This fundamental difference explains the structural changes users face when migrating from Dynamics GP and why GL balance viewing differs between systems."
+    },
+    {
+      "text": "The great thing about this is I can use natural language in Copilot to create the View.",
+      "why_it_matters": "Highlights that Copilot can generate Analysis Mode views using natural language, making it easier for users to achieve Dynamics GP-like reports without manual configuration."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/",
+  "url": "https://blog.kine.cz/posts/bcdevelopmentserie-02/",
+  "title": "Business Central Development Serie - Part 2: Using AI for BC development",
+  "source": "kine-cz",
+  "published_at": "2026-03-10T23:00:00.000Z",
+  "words": 4113,
+  "summary": "AI tools can accelerate Business Central development when used responsibly with clear guidelines, proper security practices, and human oversight. Success requires understanding AI limitations, establishing coding standards before deployment, implementing CI/CD pipelines, and maintaining developer accountability for code quality and business logic.",
+  "key_points": [
+    "AI excels at code completion and code review but requires human developers to understand requirements, validate approaches, and review output before production use.",
+    "Security and data privacy demand company policies restricting sensitive code and customer data from AI services; enterprise subscription plans offer better data protection than personal accounts.",
+    "Establish comprehensive guidelines covering naming conventions, architecture rules, performance standards, error handling, and testing expectations before using AI agents for code generation.",
+    "Agentic coding tools work best with MCP servers providing Business Central context (table structures, field numbers, object metadata) to generate compilable code.",
+    "AI cannot replace developer expertise in complex Business Central processes like journal posting or manufacturing planning; it requires specific instructions and manual refinement."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "ai-development",
+    "code-generation",
+    "security",
+    "guidelines",
+    "best-practices",
+    "agentic-coding",
+    "code-review"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "PostSalesOrder"
+    },
+    {
+      "type": "codeunit",
+      "name": "50100"
+    },
+    {
+      "type": "codeunit",
+      "name": "50200"
+    },
+    {
+      "type": "codeunit",
+      "name": "ProcessPurchaseOrder"
+    },
+    {
+      "type": "table",
+      "name": "Customer Card"
+    },
+    {
+      "type": "table",
+      "name": "Currency Exchange Rate"
+    }
+  ],
+  "features": [
+    "Code completion with GitHub Copilot",
+    "Agentic coding with Claude Code and Cursor",
+    "MCP servers for Business Central context",
+    "Code review automation",
+    "Test generation",
+    "Instruction synchronization via VSCode extension",
+    "CI/CD integration",
+    "Work item analysis"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AI is good servant but bad master",
+      "why_it_matters": "Summarizes the core principle that AI is a tool requiring human judgment and oversight, not a replacement for developer expertise and decision-making."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

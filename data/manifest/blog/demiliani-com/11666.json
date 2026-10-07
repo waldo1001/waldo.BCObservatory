@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/04/09/an-mcp-server-for-dynamics-365-business-central-why-not/",
   "published_at": "2025-04-09T07:10:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:17.617Z",
+      "path": "vault:posts/demiliani-com/11666.md",
+      "words": 1367
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:17.627Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:17.628Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:17.629Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:17.641Z",
+      "path": "content/posts/demiliani-com/11666.md"
     }
   },
   "input_hash": "2025-04-09T07:10:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09e154642a6600225ec767c78423e1181313c91d20cf5d601526b12032bf1849"
 }

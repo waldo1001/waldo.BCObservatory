@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/04/07/dynamics-365-business-central-2025-wave-1-release-the-state-of-soap-deprecation/",
   "published_at": "2025-04-07T14:49:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:17.682Z",
+      "path": "vault:posts/demiliani-com/11654.md",
+      "words": 360
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:17.688Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:17.689Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:17.690Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:17.697Z",
+      "path": "content/posts/demiliani-com/11654.md"
     }
   },
   "input_hash": "2025-04-07T14:49:37.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3f7a38b07779d631d793da226ee975cac80f18dceebacd50e9424394667deec"
 }

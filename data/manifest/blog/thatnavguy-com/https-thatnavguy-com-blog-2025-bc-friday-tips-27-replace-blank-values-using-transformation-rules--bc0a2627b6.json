@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/",
   "published_at": "2025-04-11T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:17.258Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-27-replace-blank-values-using-transformation-rules--bc0a2627b6.md",
+      "words": 88
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:17.262Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:17.264Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:17.265Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:17.270Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-27-replace-blank-values-using-transformation-rules--bc0a2627b6.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82c967a05a1f7de032e1ace17fdbe47e094d8b4fa4f3b84edb944b9c0ec70aaf"
 }

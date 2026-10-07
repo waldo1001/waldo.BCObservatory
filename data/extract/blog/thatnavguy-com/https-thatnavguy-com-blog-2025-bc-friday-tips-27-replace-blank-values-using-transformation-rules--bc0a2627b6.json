@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/",
+  "title": "BC Friday Tips #27 Replace Blank Values using Transformation Rules",
+  "source": "thatnavguy-com",
+  "published_at": "2025-04-11T00:00:00.000Z",
+  "words": 88,
+  "summary": "Transformation Rules can replace blank values in Business Central using regular expressions. Set the transformation type to \"Replace\" and use the pattern ^$ to match empty strings without requiring any development.",
+  "key_points": [
+    "Use regular expressions with Transformation Rules to identify and replace empty values",
+    "The pattern ^$ matches start and end of string to identify blank entries",
+    "No custom development is needed; this works out of the box"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "transformation rules",
+    "data import",
+    "regular expressions",
+    "blank values"
+  ],
+  "objects": [],
+  "features": [
+    "Transformation Rules",
+    "Regular Expressions",
+    "Data Import"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Set Transformation Type to Replace by using Regular Expressions",
+      "why_it_matters": "This is the first step to configure blank value replacement in Business Central"
+    },
+    {
+      "text": "Together, ^$ identifies an empty string",
+      "why_it_matters": "Understanding this regex pattern is key to implementing the blank value replacement"
+    },
+    {
+      "text": "Work out of the box. No development needed.",
+      "why_it_matters": "Shows this feature requires no AL code or custom development, making it accessible to all users"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

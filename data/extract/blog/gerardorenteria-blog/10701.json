@@ -1,0 +1,81 @@
+{
+  "item_id": "blog/gerardorenteria-blog/10701",
+  "url": "https://gerardorenteria.blog/2025/04/14/al-language-extension-for-microsoft-dynamics-365-business-central-version-15-new-version/",
+  "title": "AL Language extension for Microsoft Dynamics 365 Business Central version 15.0.1433841 (New version)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-04-14T19:59:47.000Z",
+  "words": 2034,
+  "summary": "The AL Language extension version 15.0 introduces implicit conversion between Record and RecordRef, HTTP mocking for testing, improved JSON data access methods, multiline strings, a continue statement for loops, and numerous other developer features. This update helps developers write more flexible, testable, and maintainable AL code with enhanced language constructs and APIs.",
+  "key_points": [
+    "Implicit conversion between Record and RecordRef types allows direct assignment without explicit method calls",
+    "HttpClientHandler enables mocking HTTP responses in test codeunits with configurable request policies for OnPrem instances",
+    "New JSON access methods (GetBoolean, GetInteger, GetText, etc.) simplify data retrieval without always using JsonToken",
+    "Language enhancements include multiline strings with @ prefix, continue statement for loops, and UserControlHost page type",
+    "Multiple developer experience improvements in VS Code including searchable downloaded symbols, new project templates, and file preview functionality"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "version 15.0",
+    "testing",
+    "http mocking",
+    "json api",
+    "language features",
+    "developer tools",
+    "visual studio code"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "RecordAndRecordRefConversion"
+    },
+    {
+      "type": "codeunit",
+      "name": "MyCodeunit"
+    },
+    {
+      "type": "codeunit",
+      "name": "MyCodeunitTests"
+    }
+  ],
+  "features": [
+    "Implicit Record and RecordRef conversion",
+    "HTTP mocking in tests",
+    "JSON direct value access methods",
+    "Multiline string literals",
+    "Continue statement for loops",
+    "UserControlHost page type",
+    "File preview from stream",
+    "Downloaded symbol search in Copilot Chat"
+  ],
+  "versions": [
+    "15.0",
+    "15.0.1433841"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every HTTP request that occurs during the execution of that test will be intercepted and routed to the handler.",
+      "why_it_matters": "Explains the core mechanism of HTTP mocking for controlled testing of external service integrations"
+    },
+    {
+      "text": "AL now has support for multiline string literals. A multiline string must be prefixed with @.",
+      "why_it_matters": "Introduces a new language syntax that simplifies handling of multi-line text content in code"
+    },
+    {
+      "text": "From runtime version 15, it is possible to use the continue keyword in loops to continue to the next iteration.",
+      "why_it_matters": "Adds a standard loop control feature that developers expect from modern programming languages"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

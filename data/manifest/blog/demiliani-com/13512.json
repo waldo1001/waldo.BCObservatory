@@ -7,15 +7,39 @@
   "url": "https://demiliani.com/2026/03/09/dynamics-365-business-central-using-the-standalone-mcp-server-provided-as-part-of-the-al-development-tools/",
   "published_at": "2026-03-09T11:03:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:16.260Z",
+      "path": "vault:posts/demiliani-com/13512.md",
+      "words": 477
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:16.269Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:16.271Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:16.272Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:16.281Z",
+      "path": "content/posts/demiliani-com/13512.md"
     }
   },
   "input_hash": "2026-03-09T11:03:25.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T01:46:34.919Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "445b4593c7bdce18841392aa77db204611b40045253824d1fa84ccffb17a5584"
 }

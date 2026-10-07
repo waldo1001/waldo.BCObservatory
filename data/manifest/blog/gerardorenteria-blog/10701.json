@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/04/14/al-language-extension-for-microsoft-dynamics-365-business-central-version-15-new-version/",
   "published_at": "2025-04-14T19:59:47.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:55:16.659Z",
+      "path": "vault:posts/gerardorenteria-blog/10701.md",
+      "words": 2034
+    },
+    "extracted": {
+      "at": "2026-10-07T01:55:16.674Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:55:16.676Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:55:16.677Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:55:16.769Z",
+      "path": "content/posts/gerardorenteria-blog/10701.md"
     }
   },
   "input_hash": "2025-07-13T16:15:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4097e49d1d2633c8d50eaf7c38490998d34dd126052bd57bea74641db9ee3da7"
 }

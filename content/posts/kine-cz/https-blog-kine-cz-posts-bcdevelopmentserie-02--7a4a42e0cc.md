@@ -1,0 +1,110 @@
+---
+id: post/kine-cz/https-blog-kine-cz-posts-bcdevelopmentserie-02--7a4a42e0cc
+type: post
+title: "Business Central Development Serie - Part 2: Using AI for BC development"
+summary: AI tools can accelerate Business Central development when used responsibly with clear guidelines, proper security practices, and human oversight. Success requires understanding AI limitations, establishing coding standards before deployment, implementing CI/CD pipelines, and maintaining developer accountability for code quality and business logic.
+tier: community
+language: en
+tags:
+  - ai-development
+  - code-generation
+  - security
+  - guidelines
+  - best-practices
+  - agentic-coding
+  - code-review
+system: development
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-07T01:55:16.190Z"
+  pipeline: 0.2.0
+  prompts:
+    extract-post: 1
+  input_hash: 2bd91abc9e818de3ae33366b569f722f958ab239647aabd51c38f64355eb79c0
+evidence:
+  - kind: blog
+    url: https://blog.kine.cz/posts/bcdevelopmentserie-02/
+    title: "Business Central Development Serie - Part 2: Using AI for BC development"
+    date: "2026-03-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: blog
+    url: https://blog.kine.cz/posts/bcdevelopmentserie-02/
+    title: "Business Central Development Serie - Part 2: Using AI for BC development"
+    date: "2026-03-10"
+    commit: null
+    t: null
+    quote: AI is good servant but bad master
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+post_id: https://blog.kine.cz/posts/bcdevelopmentserie-02/
+source_id: kine-cz
+source_name: Kine's info
+url: https://blog.kine.cz/posts/bcdevelopmentserie-02/
+published_at: "2026-03-10T23:00:00.000Z"
+author: Kamil Sacek
+full_text: false
+words: 4113
+quotes:
+  - text: AI is good servant but bad master
+    why_it_matters: Summarizes the core principle that AI is a tool requiring human judgment and oversight, not a replacement for developer expertise and decision-making.
+code_objects_mentioned:
+  - codeunit PostSalesOrder
+  - codeunit 50100
+  - codeunit 50200
+  - codeunit ProcessPurchaseOrder
+  - table Customer Card
+  - table Currency Exchange Rate
+systems:
+  - development
+  - platform
+  - copilot
+versions_mentioned: []
+---
+
+# Business Central Development Serie - Part 2: Using AI for BC development
+
+[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02/) · Kine's info (Kamil Sacek, MVP) · 2026-03-10 · 4113 words · tier community · **unreviewed** (machine-generated)
+
+> AI tools can accelerate Business Central development when used responsibly with clear guidelines, proper security practices, and human oversight. Success requires understanding AI limitations, establishing coding standards before deployment, implementing CI/CD pipelines, and maintaining developer accountability for code quality and business logic.
+
+## Key points
+
+- AI excels at code completion and code review but requires human developers to understand requirements, validate approaches, and review output before production use.
+- Security and data privacy demand company policies restricting sensitive code and customer data from AI services; enterprise subscription plans offer better data protection than personal accounts.
+- Establish comprehensive guidelines covering naming conventions, architecture rules, performance standards, error handling, and testing expectations before using AI agents for code generation.
+- Agentic coding tools work best with MCP servers providing Business Central context (table structures, field numbers, object metadata) to generate compilable code.
+- AI cannot replace developer expertise in complex Business Central processes like journal posting or manufacturing planning; it requires specific instructions and manual refinement.
+
+## Quotes
+
+- "AI is good servant but bad master" (Summarizes the core principle that AI is a tool requiring human judgment and oversight, not a replacement for developer expertise and decision-making.)
+
+## AL objects mentioned
+
+As named in the post; not yet joined to the code pillar.
+
+- codeunit "PostSalesOrder"
+- codeunit "50100"
+- codeunit "50200"
+- codeunit "ProcessPurchaseOrder"
+- table "Customer Card"
+- table "Currency Exchange Rate"
+
+## Context
+
+- Features: Code completion with GitHub Copilot, Agentic coding with Claude Code and Cursor, MCP servers for Business Central context, Code review automation, Test generation, Instruction synchronization via VSCode extension, CI/CD integration, Work item analysis
+
+Source: Kine's info, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

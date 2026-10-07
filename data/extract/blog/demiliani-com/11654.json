@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/demiliani-com/11654",
+  "url": "https://demiliani.com/2025/04/07/dynamics-365-business-central-2025-wave-1-release-the-state-of-soap-deprecation/",
+  "title": "Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.",
+  "source": "demiliani-com",
+  "published_at": "2025-04-07T14:49:37.000Z",
+  "words": 360,
+  "summary": "Dynamics 365 Business Central 2025 Wave 1 (version 26) begins deprecating SOAP web services for Microsoft UI pages, disabling this capability by default while allowing re-enablement via Feature Management. Custom UI pages exposed as SOAP will continue working through version 28, but the feature will be completely removed in version 29, requiring migration to OData or API endpoints.",
+  "key_points": [
+    "SOAP exposure for Microsoft UI pages is disabled by default in version 26, with permanent removal planned for version 29",
+    "Custom UI pages using SOAP will continue working but should migrate to OData endpoints",
+    "New RT0053 telemetry signal available in version 26 to identify tenants using deprecated SOAP endpoints",
+    "Microsoft UI pages exposed as OData endpoints will receive warnings starting version 26 and be disabled in version 30",
+    "Custom OData endpoints for UI pages continue working in version 26 but should migrate to API endpoints"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "soap deprecation",
+    "web services",
+    "odata",
+    "api migration",
+    "telemetry",
+    "feature management"
+  ],
+  "objects": [],
+  "features": [
+    "SOAP web services on Microsoft UI pages",
+    "OData endpoints for Microsoft UI pages",
+    "RT0053 telemetry signal",
+    "Feature Management control",
+    "API endpoints"
+  ],
+  "versions": [
+    "26",
+    "29",
+    "30"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With version 26, the possibility to expose a Microsoft page as SOAP endpoint will be disabled by default.",
+      "why_it_matters": "Clarifies that the deprecation is implemented as a default change that customers can temporarily override"
+    },
+    {
+      "text": "Please remember that in Dynamics 365 Business Central version 29 the possibility to expose a Microsoft page as SOAP endpoint will be removed forever.",
+      "why_it_matters": "Sets a hard deadline for SOAP migration, giving customers a defined window for action"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
