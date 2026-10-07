@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/10/14/%f0%9f%93%91-bookmark-organizer-personalized-navigation-system%f0%9f%8e%af/",
   "published_at": "2025-10-14T07:44:00.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.009Z",
+      "path": "vault:posts/gerardorenteria-blog/12464.md",
+      "words": 1763
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.021Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.023Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.024Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.038Z",
+      "path": "content/posts/gerardorenteria-blog/12464.md"
     }
   },
   "input_hash": "2025-10-14T07:44:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95758f75092713636535407322b2b8c7e8f08e93b43085326d8ee0f8a2889db3"
 }

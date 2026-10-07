@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/12644",
+  "url": "https://demiliani.com/2025/10/21/dynamics-365-business-central-debugging-agent-sessions/",
+  "title": "Dynamics 365 Business Central: debugging agent sessions.",
+  "source": "demiliani-com",
+  "published_at": "2025-10-21T06:20:40.000Z",
+  "words": 194,
+  "summary": "The 2026 release wave 1 (runtime 17.0) of AL Language extension adds the ability to debug agent sessions directly from Visual Studio Code. Developers can attach to agent sessions running on cloud sandboxes or on-premise servers using new launch configurations and can inspect what agents are doing by connecting via user security ID or session ID.",
+  "key_points": [
+    "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central",
+    "New client type Agent has been added along with two launch configurations for cloud and on-premise debugging",
+    "Developers can attach to specific agent sessions using security ID or sessionId parameter",
+    "Snapshot debugging stops at the next identified agent session for inspection and monitoring"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "agent sessions",
+    "al language",
+    "visual studio code",
+    "runtime 17.0",
+    "launch configuration"
+  ],
+  "objects": [],
+  "features": [
+    "agent session debugging",
+    "launch configurations",
+    "snapshot debugging",
+    "client type Agent"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "runtime 17.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With this 17.x release it's possible to attach to agent sessions and debug the AL code they are executing.",
+      "why_it_matters": "This is the core capability introduced: developers can now actively debug agent code execution, which was not possible before."
+    },
+    {
+      "text": "You can also use the sessionId parameter to connect to the specific agent session.",
+      "why_it_matters": "Shows the granular control available: developers can target exact agent sessions rather than just the next one encountered."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

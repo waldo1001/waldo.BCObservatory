@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10326",
+  "url": "https://thedynamicsexplorer.com/2025/10/10/dynamics-365-business-central-how-to-post-a-sales-credit-for-an-item-without-affecting-inventory-using-an-item-charge/",
+  "title": "Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2025-10-10T09:30:00.000Z",
+  "words": 1016,
+  "summary": "When issuing a sales credit for an item that remains with the customer, using an Item Charge linked to the original sales shipment is preferable to posting directly to a GL account because it creates value entries that correctly update inventory reports and the Sales Amount (Actual) on item ledger entries.",
+  "key_points": [
+    "Posting a sales credit memo with an inventory item automatically creates item ledger entries that return the item to inventory, which may not match the business scenario.",
+    "Using a GL account for the credit avoids inventory adjustments but leaves the original item ledger entry's Sales Amount (Actual) unchanged, causing inventory-based reports to show incorrect values.",
+    "Item charges can be assigned to the original sales shipment, creating value entries that properly adjust the Sales Amount (Actual) on the item ledger entry.",
+    "The item charge approach maintains accurate inventory records and ensures reports based on inventory tables reflect correct sales amounts."
+  ],
+  "systems": [
+    "sales",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "sales credit memo",
+    "item charges",
+    "inventory management",
+    "value entries",
+    "item ledger entries",
+    "reporting accuracy"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    }
+  ],
+  "features": [
+    "Sales Credit Memo",
+    "Item Charges",
+    "Item Charge Assignment",
+    "Inventory Valuation",
+    "GL Accounts"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "any reports based on the Inventory tables will reflect the accurate values.",
+      "why_it_matters": "Demonstrates the practical benefit of the item charge approach for downstream reporting accuracy."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/olofsimren-com/3605",
+  "url": "https://www.olofsimren.com/copilot-in-planning-worksheet/",
+  "title": "Copilot in Planning Worksheet",
+  "source": "olofsimren-com",
+  "published_at": "2025-10-16T12:20:03.000Z",
+  "words": 548,
+  "summary": "A Copilot extension for Planning Worksheet in Business Central helps planners understand material planning (MRP) suggestions by providing AI-generated explanations. The extension analyzes multiple suggestions for the same item, location, and variant together, presenting prompts that guide users to ask detailed questions about order recommendations, quantity changes, reschedules, and cancellations.",
+  "key_points": [
+    "Copilot analyzes all MRP suggestions for the same item, location, and variant as a group rather than individually",
+    "Pre-filled prompts guide users to ask questions about specific suggestion types like new orders, quantity changes, reschedules, and cancellations",
+    "The extension reduces the need for planners to contact support for explanation of suggestions",
+    "Also available for Requisition Worksheet and is a free extension in AppSource"
+  ],
+  "systems": [
+    "manufacturing",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "planning worksheet",
+    "material planning",
+    "mrp",
+    "inventory suggestions",
+    "ai explanations"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "other",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "other",
+      "name": "Item Availability by Event"
+    }
+  ],
+  "features": [
+    "Copilot Inventory Queries",
+    "MRP suggestion explanations",
+    "Azure OpenAI integration",
+    "AI-powered planning assistance",
+    "predefined prompts for planning questions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot dialog from the Planning Worksheet would mostly be used for explaining suggestions.",
+      "why_it_matters": "Clarifies the primary use case and value proposition of the feature for planners"
+    },
+    {
+      "text": "Our customers do not need to call us anymore to explain the messages.",
+      "why_it_matters": "Demonstrates how the extension eliminates the need for external support by automating explanation of planning suggestions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

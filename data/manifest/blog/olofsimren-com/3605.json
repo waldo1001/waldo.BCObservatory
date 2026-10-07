@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/copilot-in-planning-worksheet/",
   "published_at": "2025-10-16T12:20:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:18.709Z",
+      "path": "vault:posts/olofsimren-com/3605.md",
+      "words": 548
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:18.716Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:18.718Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:18.719Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:18.723Z",
+      "path": "content/posts/olofsimren-com/3605.md"
     }
   },
   "input_hash": "2025-10-16T12:20:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "764004a834e3b202b892259fcc28b3fcb74c58e41368aaa2dac0b7f07a91c06c"
 }

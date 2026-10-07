@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/demiliani-com/12613",
+  "url": "https://demiliani.com/2025/10/12/dynamics-365-business-central-accessing-early-access-preview-in-online-sandboxes/",
+  "title": "Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.",
+  "source": "demiliani-com",
+  "published_at": "2025-10-12T07:41:06.000Z",
+  "words": 330,
+  "summary": "Business Central 2026 Wave 1 introduces early access preview sandboxes for partners to test the next major release before general availability. Early previews sync weekly with the development build and auto-delete 30 days after release, with support limited to DE, GB, and US localizations.",
+  "key_points": [
+    "Partners with sandbox licenses can create early access preview environments aligned with major release update periods",
+    "Preview environments auto-update every Sunday to the latest development build with no manual control possible",
+    "Only DE, GB, and US localizations are supported for early access preview at launch",
+    "Preview environments are automatically deleted 30 days after the version becomes generally available",
+    "Early access preview does not replace Docker containers as an alternative testing method"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "early access preview",
+    "sandbox environments",
+    "release waves",
+    "partner sandbox license",
+    "testing"
+  ],
+  "objects": [],
+  "features": [
+    "Early Access Preview sandboxes",
+    "automatic weekly updates",
+    "environment auto-deletion",
+    "localization support (DE, GB, US)"
+  ],
+  "versions": [
+    "2026 Wave 1",
+    "v27",
+    "v28",
+    "v29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "During the early access preview period, only tenants that use the Partner Sandbox license can create new sandbox environments on the early preview version.",
+      "why_it_matters": "Clarifies that early access previews are restricted to partners with specific licensing, not all Business Central customers"
+    },
+    {
+      "text": "Environments based on the early access preview version are automatically updated to the latest build of the preview version every Sunday.",
+      "why_it_matters": "Explains the automatic update cadence partners must expect when using preview environments"
+    },
+    {
+      "text": "Microsoft will delete preview environments 30 days after the preview version becomes generally available (GA).",
+      "why_it_matters": "Sets a critical deadline for partners to migrate preview work to production before data loss"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

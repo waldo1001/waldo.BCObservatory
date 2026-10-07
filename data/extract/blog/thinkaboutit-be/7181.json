@@ -1,0 +1,80 @@
+{
+  "item_id": "blog/thinkaboutit-be/7181",
+  "url": "https://thinkaboutit.be/2025/10/quick-tip-deep-dive-into-report-objects-and-layouts-bc-techdays-2025/",
+  "title": "Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-10-07T12:13:43.000Z",
+  "words": 561,
+  "summary": "This session from BC TechDays 2025 covers report design in Business Central, explaining how datasets, layouts, and request pages work together. It provides practical guidance on choosing layout types (Word, RDLC, Excel), optimizing performance for cloud environments, and extending reports responsibly without modifying base applications.",
+  "key_points": [
+    "Reports combine three layers: data (dataset), presentation (layout), and user input (request page) that should be treated separately",
+    "Select layout types based on purpose: Word for documents and email, RDLC for advanced formatting, Excel for analytical output",
+    "Optimize performance by keeping datasets lean, avoiding heavy data items, and using Word layouts over RDLC in SaaS environments",
+    "Use report extensions to modify existing reports instead of changing the base application",
+    "Push complex logic to AL code, keeping layouts focused on display rather than computation"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report design",
+    "report objects",
+    "report layouts",
+    "dataset modeling",
+    "performance optimization",
+    "word layouts",
+    "rdlc layouts",
+    "excel layouts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report Objects"
+    },
+    {
+      "type": "page",
+      "name": "Request Pages"
+    },
+    {
+      "type": "query",
+      "name": "Queries"
+    }
+  ],
+  "features": [
+    "Report data modeling",
+    "Word layouts",
+    "RDLC layouts",
+    "Excel layouts",
+    "Report extensions",
+    "Request pages",
+    "Data analysis mode",
+    "Power BI integration"
+  ],
+  "versions": [
+    "2025"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A report object combines data (dataset), presentation (layout), and user input (request page).",
+      "why_it_matters": "Understanding these three separate layers is fundamental to building effective reports and troubleshooting issues systematically"
+    },
+    {
+      "text": "Keep It Lean - Include only necessary data items and columns. Heavy datasets slow down SaaS reports.",
+      "why_it_matters": "Performance in cloud environments requires discipline in dataset design to avoid slowdowns"
+    },
+    {
+      "text": "Word layouts often perform better in SaaS than RDLC because of sandbox restrictions.",
+      "why_it_matters": "Layout choice directly impacts cloud performance and should be a deliberate decision based on environment constraints"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

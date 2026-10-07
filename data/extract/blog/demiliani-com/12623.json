@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/demiliani-com/12623",
+  "url": "https://demiliani.com/2025/10/14/dynamics-365-business-central-previewing-pdf-files-in-web-client-using-the-new-extendeddatatype-document/",
+  "title": "Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.",
+  "source": "demiliani-com",
+  "published_at": "2025-10-14T09:44:28.000Z",
+  "words": 418,
+  "summary": "Dynamics 365 Business Central 2025 Wave 2 introduces a new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes. Developers can use Media fields with this data type to display PDF files as images in CardPart and ListPart pages by converting them using the PDF Document codeunit.",
+  "key_points": [
+    "New Document ExtendedDataType available in v27 with AL Language 16.x for Media and MediaSet fields",
+    "Allows rendering PDF files and images in FactBox elements (CardPart and ListPart pages)",
+    "PDF files must be converted to images using the ConvertToImage method before preview",
+    "Implementation requires loading PDF content into InStream, converting to image format, and importing into Media field"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "pdf preview",
+    "extended data type",
+    "media fields",
+    "factbox",
+    "web client",
+    "document rendering",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "File Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "PDF Document"
+    },
+    {
+      "type": "page",
+      "name": "SD PDF Preview"
+    }
+  ],
+  "features": [
+    "PDF preview in web client",
+    "ExtendedDataType Document",
+    "Media field rendering",
+    "PDF to image conversion",
+    "FactBox document display"
+  ],
+  "versions": [
+    "2025 Wave 2",
+    "v27",
+    "AL Language 16.x"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This new ExtendedDataType allows the client to render elements such as PDF files and images in FactBoxes.",
+      "why_it_matters": "Explains the primary capability and use case for the new Document ExtendedDataType feature"
+    },
+    {
+      "text": "Convert the PDF document in an image by calling the ConvertToImage method.",
+      "why_it_matters": "Identifies the key technical step required to prepare PDFs for preview in the UI"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

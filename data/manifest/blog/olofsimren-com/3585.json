@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/copilot-inventory-queries/",
   "published_at": "2025-10-08T14:01:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.829Z",
+      "path": "vault:posts/olofsimren-com/3585.md",
+      "words": 1001
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.839Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.840Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.841Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.870Z",
+      "path": "content/posts/olofsimren-com/3585.md"
     }
   },
   "input_hash": "2025-10-24T11:39:37.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d78b70af8ee00986ab4ffe2780d030d3d85c6f4b81fc886c8e01324af0c5cd1e"
 }

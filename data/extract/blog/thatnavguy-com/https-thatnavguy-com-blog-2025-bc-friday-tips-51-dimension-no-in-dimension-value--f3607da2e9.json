@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/",
+  "title": "BC Friday Tips #51 Dimension No. in Dimension Value",
+  "source": "thatnavguy-com",
+  "published_at": "2025-10-10T00:00:00.000Z",
+  "words": 81,
+  "summary": "The Dimension Value table contains a hidden Global Dimension No. field that reveals which shortcut dimension a dimension code belongs to, avoiding the need to check General Ledger Setup and improving lookup performance.",
+  "key_points": [
+    "Business Central supports 8 shortcut dimensions configured in General Ledger Setup",
+    "Dimension Value table has a hidden Global Dimension No. field",
+    "Using this field avoids checking General Ledger Setup separately",
+    "Improves performance for dimension lookups"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "dimensions",
+    "shortcut dimensions",
+    "general ledger",
+    "performance",
+    "hidden fields"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dimension Value"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "shortcut dimensions",
+    "dimension lookup",
+    "hidden fields"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the Dimension Value table has a hidden field called Global Dimension No.",
+      "why_it_matters": "Reveals the existence of an undocumented field that enables faster dimension identification"
+    },
+    {
+      "text": "use this hidden field to find the dimension number instantly",
+      "why_it_matters": "Explains the practical benefit of using this field instead of manual lookups"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

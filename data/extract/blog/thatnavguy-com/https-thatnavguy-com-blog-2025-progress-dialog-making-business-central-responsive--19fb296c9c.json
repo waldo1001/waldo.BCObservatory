@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/progress-dialog-making-business-central-responsive/",
+  "url": "https://thatnavguy.com/blog/2025/progress-dialog-making-business-central-responsive/",
+  "title": "Progress Dialog: Making Business Central Responsive",
+  "source": "thatnavguy-com",
+  "published_at": "2025-10-07T00:00:00.000Z",
+  "words": 533,
+  "summary": "Progress Dialog provides user feedback during long-running ERP tasks in Business Central, reducing uncertainty and duplicate actions. This post explains when to use Progress Dialog, shows AL code examples, and provides seven best practices for writing clear, confidence-building progress messages.",
+  "key_points": [
+    "Progress Dialog prevents user frustration and duplicate entries by showing that a process is running and indicating its progress",
+    "Use Progress Dialog for tasks taking more than a few seconds, processing many records, or involving multiple steps",
+    "Effective progress messages are specific, show counts or percentages, update at meaningful milestones, and include a success message at the end",
+    "Poor Progress Dialog implementation with vague messages, too many updates, or overuse can become an obstacle rather than a help"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "user experience",
+    "progress feedback",
+    "al development",
+    "long-running tasks",
+    "responsive application"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Dialog"
+    }
+  ],
+  "features": [
+    "Progress Dialog",
+    "User feedback during processing",
+    "Task status indication",
+    "Progress tracking with counts or percentages",
+    "Multi-step task visualization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A 1-minute task with feedback feels fine. A 1-minute task without feedback feels broken.",
+      "why_it_matters": "This captures why Progress Dialog is essential for user trust and perceived system responsiveness"
+    },
+    {
+      "text": "Show progress, and slow tasks feel faster.",
+      "why_it_matters": "This summarizes the core value of implementing Progress Dialog in ERP workflows"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

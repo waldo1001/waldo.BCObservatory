@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11565",
+  "url": "https://gerardorenteria.blog/2025/10/23/al-language-extension-for-microsoft-dynamics-365-business-central-version-15-2-1630495-new-version/",
+  "title": "AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-10-23T16:15:30.000Z",
+  "words": 4916,
+  "summary": "The AL Language extension changelog for Business Central versions 15.0 through 16.2 covers compiler improvements, new language features like multiline strings and implicit type conversions, enhanced testing capabilities with HTTP mocking, improved documentation tools, and support for modern development practices in Visual Studio Code.",
+  "key_points": [
+    "New AL language features include multiline strings, continue statement in loops, implicit Record/RecordRef conversion, and SecretText handling",
+    "Development experience improvements via extended Go To Symbol search, semantic highlighting for inactive code, new Business Central themes for VS Code, and namespace documentation in ALDoc",
+    "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy, test type classification via TestType property, and test isolation control",
+    "Reporting and layout improvements support Document-type ExtendedDataType, empty dataitems in Excel layouts, and updated Word layout XML compatibility",
+    "Analyzer rule additions validate field classifications (AS0138, AS0139, PTE0026), decimal field formatting (AA0471-AA0474), and proper Truncate usage (AA0475)"
+  ],
+  "systems": [
+    "development",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "compiler",
+    "testing",
+    "documentation",
+    "vscode extension",
+    "page customization",
+    "reporting layouts",
+    "code analysis"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyCodeunit"
+    },
+    {
+      "type": "codeunit",
+      "name": "MyCodeunitTests"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "Multiline string literals",
+    "Implicit Record/RecordRef conversion",
+    "HTTP request mocking in tests",
+    "SecretText support in control add-ins",
+    "Namespace documentation in ALDoc",
+    "Summary system part control",
+    "MaskType enum property",
+    "Document ExtendedDataType support"
+  ],
+  "versions": [
+    "16.2",
+    "16.1",
+    "16.0",
+    "15.3",
+    "15.2",
+    "15.1",
+    "15.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Relaxed compiler error AL1032 to allow duplicate translation files targeting the same language, as long as they are targeting different original apps.",
+      "why_it_matters": "Enables more flexible multi-app translation strategies while preventing genuine translation conflicts"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

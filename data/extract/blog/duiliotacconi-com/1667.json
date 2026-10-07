@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/duiliotacconi-com/1667",
+  "url": "https://duiliotacconi.com/2025/10/13/sorting-by-type-and-line-no-in-sales-and-purchase-postings/",
+  "title": "Sorting by Type and Line No. in Sales and Purchase Postings",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-10-13T11:51:13.000Z",
+  "words": 658,
+  "summary": "In Business Central 2025 Wave 2, a new sorting order for sales and purchase postings by Type and Line No. replaces the legacy Line No.-only sorting to reduce deadlocks in high-concurrency scenarios. This change improves performance but may require refactoring existing Per Tenant Extensions that depend on the old sorting order.",
+  "key_points": [
+    "Legacy posting sorted by Line No. only, causing deadlocks with heavy concurrency due to inconsistent resource locking order",
+    "Business Central 2025 Wave 2 introduces sorting by Type and Line No. when the feature flag is enabled",
+    "The new sorting order processes lines by type (G/L Account, Item, Resource, etc.) then by Line No., improving concurrent posting",
+    "Per Tenant Extensions relying on old Line No. ordering must be refactored and tested before upgrading",
+    "The feature can be disabled via Feature Management to fall back to legacy posting if needed"
+  ],
+  "systems": [
+    "manufacturing",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "posting performance",
+    "concurrency",
+    "deadlocks",
+    "sales postings",
+    "purchase postings",
+    "sorting order",
+    "feature management"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Purchase-Post"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "Multiple users posting item ledger entries simultaneously",
+    "Type-based sorting in sales postings",
+    "Type-based sorting in purchase postings",
+    "Legacy posting fallback",
+    "Deadlock prevention"
+  ],
+  "versions": [
+    "2025 Wave 2 (v27)",
+    "2025 Wave 1 (v26)"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

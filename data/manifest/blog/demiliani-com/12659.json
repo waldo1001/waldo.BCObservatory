@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/10/30/dynamics-365-business-central-and-azure-front-door-issue/",
   "published_at": "2025-10-30T08:11:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:17.713Z",
+      "path": "vault:posts/demiliani-com/12659.md",
+      "words": 886
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:17.722Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:17.723Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:17.724Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:17.730Z",
+      "path": "content/posts/demiliani-com/12659.md"
     }
   },
   "input_hash": "2025-10-30T08:11:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e2d819c4e9d72a35cfa5bd65a345d94fdf019b6c3339d346c6c47db41f44d788"
 }

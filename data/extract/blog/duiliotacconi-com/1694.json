@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/duiliotacconi-com/1694",
+  "url": "https://duiliotacconi.com/2025/10/16/sql-statement-in-al-profiles/",
+  "title": "SQL Statement in AL Profiles",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-10-16T15:38:20.000Z",
+  "words": 540,
+  "summary": "SQL Statement collection in AL performance profiles, available in Business Central 2025 Wave 2 (version 27), allows developers to see which SQL queries run during profiled code execution in sampling mode. This capability helps identify database-related performance issues faster by showing the exact SQL statements executed within methods.",
+  "key_points": [
+    "SQL statements are now visible in AL performance profiles through the in-client profiler, showing individual queries executed during method execution",
+    "SQL collection works only in sampling mode, not instrumentation mode, limiting consistency of profiling data",
+    "Available through in-client performance profiler, scheduled profiles, and snapshot debugging in Visual Studio Code",
+    "Results can be viewed in VS Code by opening .alcpuprofile files or imported into the web client Performance Profiler tool"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "performance profiling",
+    "sql tracing",
+    "al development",
+    "debugging",
+    "performance analysis"
+  ],
+  "objects": [],
+  "features": [
+    "SQL statement profiling",
+    "in-client performance profiler",
+    "scheduled profiles",
+    "snapshot debugging",
+    "Time Spent by Application Object view",
+    "Call Tree inspection"
+  ],
+  "versions": [
+    "2025 Wave 2",
+    "version 27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "SQL Statement collection in AL profiles is enabled only when tracing in sampling mode and not in instrumentation mode.",
+      "why_it_matters": "Understanding the limitation helps developers know when they can use this feature and plan profiling strategies accordingly"
+    },
+    {
+      "text": "In the Method Name you will see that there are the SQL Statement collected and not just the Method itself, as in previous versions",
+      "why_it_matters": "This demonstrates the key improvement - developers can now drill down from methods to see the actual SQL queries executed"
+    },
+    {
+      "text": "A real nice touch that will be helpful in pinpointing database access related performance issues in shorter time.",
+      "why_it_matters": "Captures the practical value of the feature for developers troubleshooting performance problems"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

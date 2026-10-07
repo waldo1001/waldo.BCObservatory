@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2025/10/10/dynamics-365-business-central-how-to-post-a-sales-credit-for-an-item-without-affecting-inventory-using-an-item-charge/",
   "published_at": "2025-10-10T09:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.746Z",
+      "path": "vault:posts/thedynamicsexplorer-com/10326.md",
+      "words": 1016
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.756Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.757Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.758Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.770Z",
+      "path": "content/posts/thedynamicsexplorer-com/10326.md"
     }
   },
   "input_hash": "2026-04-30T19:09:17.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e694310bea82a88b573dbe860cbac329bc23bcec083705bf1fc8f37b374e5ce7"
 }

@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/",
   "published_at": "2025-10-14T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:18.788Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d.md",
+      "words": 114
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:18.794Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:18.795Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:18.796Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:18.800Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6917df594ea8ab59e2c9b366a5fb81b9ac2e3db112ddee4d6f69254af4f9929"
 }

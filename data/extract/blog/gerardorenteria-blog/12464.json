@@ -1,0 +1,105 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12464",
+  "url": "https://gerardorenteria.blog/2025/10/14/%f0%9f%93%91-bookmark-organizer-personalized-navigation-system%f0%9f%8e%af/",
+  "title": "📑 Bookmark Organizer: Personalized Navigation System🎯",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-10-14T07:44:00.000Z",
+  "words": 1763,
+  "summary": "A custom bookmark organizer system that lets users create hierarchical folder structures to organize Business Central pages by workflow, with export and import capabilities via JSON. Complements native roles and bookmarks for personalized daily navigation, onboarding workflows, and process-specific page organization.",
+  "key_points": [
+    "Users organize pages into hierarchical folders per role or process, not managed by IT, complementing native roles",
+    "Supports import/export of bookmark structures as JSON templates for sharing between users or backup",
+    "Includes a Role Center widget showing an expandable tree for quick page access alongside dedicated navigation pages",
+    "Enables scenarios like daily workflow shortcuts, structured new user onboarding paths, and month-end process routing"
+  ],
+  "systems": [
+    "administration",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "navigation",
+    "personalization",
+    "user experience",
+    "onboarding",
+    "workflow",
+    "bookmarks",
+    "role center"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "GDRGBookmarkManager"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGBookmarkPermissions"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGBookmarkTreeBuilder"
+    },
+    {
+      "type": "page",
+      "name": "GDRGBookmarkTreePart"
+    },
+    {
+      "type": "page",
+      "name": "GDRGBookmarkTreeView"
+    },
+    {
+      "type": "page",
+      "name": "GDRGBusinessManagerRCExt"
+    },
+    {
+      "type": "table",
+      "name": "GDRGFolderBookmark"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFolderBookmarkList"
+    },
+    {
+      "type": "table",
+      "name": "GDRGPageBookmark"
+    },
+    {
+      "type": "page",
+      "name": "GDRGPageBookmarkList"
+    },
+    {
+      "type": "page",
+      "name": "GDRGSystemPageBrowser"
+    }
+  ],
+  "features": [
+    "hierarchical bookmark folders",
+    "custom page labels",
+    "JSON import/export",
+    "role center widget",
+    "expandable tree navigation",
+    "user-managed organization",
+    "page search",
+    "sort order control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It's not meant to replace but rather complement both features.",
+      "why_it_matters": "Clarifies the solution works alongside native roles and bookmarks rather than replacing them, reducing change resistance"
+    },
+    {
+      "text": "The expandable tree allows you to navigate through folders and subfolders.",
+      "why_it_matters": "Describes the core UI pattern that differentiates this from flat native bookmarks"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

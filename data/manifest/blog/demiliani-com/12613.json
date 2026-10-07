@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/10/12/dynamics-365-business-central-accessing-early-access-preview-in-online-sandboxes/",
   "published_at": "2025-10-12T07:41:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.339Z",
+      "path": "vault:posts/demiliani-com/12613.md",
+      "words": 330
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.344Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.345Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.345Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.350Z",
+      "path": "content/posts/demiliani-com/12613.md"
     }
   },
   "input_hash": "2025-10-12T07:41:06.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67516a914270951756d2907931cb2cf5d7dfd5d3ec6b271a0a5346bafe53d090"
 }

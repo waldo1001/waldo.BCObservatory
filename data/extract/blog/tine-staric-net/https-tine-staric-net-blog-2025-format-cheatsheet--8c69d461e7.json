@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/",
+  "url": "https://tine.staric.net/blog/2025/format-cheatsheet/",
+  "title": "Format Cheatsheet",
+  "source": "tine-staric-net",
+  "published_at": "2025-10-07T08:00:00.000Z",
+  "words": 293,
+  "summary": "A reference guide showing how the Format() function outputs different data types (DateTime, Date, Time, Guid, Decimal, Boolean, Option, Enum, Duration, RecordId, DateFormula) across nine format options (0-7 and 9), helping developers quickly find the correct format specification for their needs.",
+  "key_points": [
+    "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type",
+    "Each data type behaves differently with each format option; some combinations return N/A (no meaningful output)",
+    "Format 3 returns GUID without curly braces; Format 4 returns GUID with hyphens; Format 5 returns GUID with parentheses",
+    "Some formats are language-dependent and produce localized results like month names",
+    "Format 9 returns ISO 8601 style output for DateTime and a fully qualified format for RecordId"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al development",
+    "format function",
+    "data type formatting",
+    "reference guide",
+    "cheatsheet"
+  ],
+  "objects": [],
+  "features": [
+    "Format() function",
+    "DateTime formatting",
+    "Date formatting",
+    "Time formatting",
+    "GUID formatting",
+    "Decimal formatting",
+    "Boolean formatting",
+    "Duration formatting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

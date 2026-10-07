@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2722",
+  "url": "https://aardvarklabs.blog/2025/10/10/truncate-vs-deleteall-speed-in-dynamics-365-business-central-al/",
+  "title": "Truncate vs. DeleteAll: Speed in Dynamics 365 Business Central AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-10-10T12:00:00.000Z",
+  "words": 426,
+  "summary": "The new Truncate AL method in Business Central 2025 Wave 2 deletes large data volumes 118 times faster than DeleteAll by bypassing triggers and event subscriptions, but only works on specific table types without certain field types or security restrictions.",
+  "key_points": [
+    "Truncate deletes 500,000 records in 166 milliseconds versus 19.5 seconds for DeleteAll and 648 seconds for Record.Delete in a loop",
+    "Truncate cannot be used on tables with OnDelete triggers, event subscriptions, media fields, system tables, or when security filters apply",
+    "A fail-through delete pattern is recommended to use Truncate first and fall back to DeleteAll if it fails",
+    "Truncate locks the entire table during operation, which is why it achieves such speed by bypassing row-by-row processing"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al methods",
+    "performance",
+    "data deletion",
+    "bulk operations"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_ItemStaging"
+    }
+  ],
+  "features": [
+    "Truncate method",
+    "DeleteAll method",
+    "Record.Delete",
+    "data deletion",
+    "bulk delete operations",
+    "table locking"
+  ],
+  "versions": [
+    "2025 Release Wave 2",
+    "Version 27.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Truncate, the new kid on the block, comes in at a blistering 166 milliseconds. 118 times faster than Delete All!",
+      "why_it_matters": "Demonstrates the dramatic performance improvement of Truncate over existing deletion methods for large data volumes"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

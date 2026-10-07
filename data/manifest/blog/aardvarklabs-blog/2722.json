@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/10/10/truncate-vs-deleteall-speed-in-dynamics-365-business-central-al/",
   "published_at": "2025-10-10T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.419Z",
+      "path": "vault:posts/aardvarklabs-blog/2722.md",
+      "words": 426
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.425Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.426Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.427Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.432Z",
+      "path": "content/posts/aardvarklabs-blog/2722.md"
     }
   },
   "input_hash": "2025-10-02T00:53:20.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ea5a9274143d815448d611978d47142751d7990426d42e5e7a81cd49d94ef45"
 }

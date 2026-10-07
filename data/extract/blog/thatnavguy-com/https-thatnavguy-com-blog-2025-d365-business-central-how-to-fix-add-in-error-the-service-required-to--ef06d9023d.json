@@ -1,0 +1,47 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/",
+  "url": "https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/",
+  "title": "D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.",
+  "source": "thatnavguy-com",
+  "published_at": "2025-10-14T00:00:00.000Z",
+  "words": 114,
+  "summary": "The Edit in Excel feature in Business Central may show an error message about a disabled service due to privacy settings in Excel. Users can resolve this by enabling optional connected experiences in Excel's Trust Center settings.",
+  "key_points": [
+    "Edit in Excel allows direct editing of Business Central records in Excel and republishing changes",
+    "The error occurs when a required service is disabled due to privacy settings",
+    "The fix involves enabling optional connected experiences in Excel's Trust Center",
+    "Users must restart Excel after changing privacy settings for the change to take effect"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "excel integration",
+    "add-in",
+    "edit in excel",
+    "privacy settings",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Edit in Excel",
+    "Excel Add-In"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "It lets you open records directly in Excel, make quick edits, and publish them back to Business Central.",
+      "why_it_matters": "Explains the core functionality and value of the Edit in Excel feature for users"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/10/17/top-improvements-in-business-central-page-scripting-in-release-2025-wave-2/",
   "published_at": "2025-10-17T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:18.269Z",
+      "path": "vault:posts/aardvarklabs-blog/2719.md",
+      "words": 368
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:18.276Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:18.278Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:18.279Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:18.283Z",
+      "path": "content/posts/aardvarklabs-blog/2719.md"
     }
   },
   "input_hash": "2026-02-18T03:24:47.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "54c9a73831efe6fd797fa9ea5cd9cf08465a7453465bc8ea41423e57553ade3f"
 }

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/10/24/understanding-al-development-string-conversion-management-code-unit/",
   "published_at": "2025-10-24T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:17.674Z",
+      "path": "vault:posts/aardvarklabs-blog/2741.md",
+      "words": 251
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:17.680Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:17.681Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:17.682Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:17.688Z",
+      "path": "content/posts/aardvarklabs-blog/2741.md"
     }
   },
   "input_hash": "2025-10-22T00:42:28.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "966d8bd39cda5e77c7bbc89d0b76e6af7c6f6049a21dd648147d593f74057a57"
 }

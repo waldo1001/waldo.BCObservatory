@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2025/10/13/sorting-by-type-and-line-no-in-sales-and-purchase-postings/",
   "published_at": "2025-10-13T11:51:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:19.249Z",
+      "path": "vault:posts/duiliotacconi-com/1667.md",
+      "words": 658
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:19.256Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:19.257Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:19.258Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:19.262Z",
+      "path": "content/posts/duiliotacconi-com/1667.md"
     }
   },
   "input_hash": "2025-10-13T11:51:13.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f994912cc01b759e9be25b4a1c8f3db4bbf4265d7a165f80013e1fad940f611f"
 }

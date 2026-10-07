@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/10/14/dynamics-365-business-central-previewing-pdf-files-in-web-client-using-the-new-extendeddatatype-document/",
   "published_at": "2025-10-14T09:44:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:18.692Z",
+      "path": "vault:posts/demiliani-com/12623.md",
+      "words": 418
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:18.699Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:18.700Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:18.701Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:18.705Z",
+      "path": "content/posts/demiliani-com/12623.md"
     }
   },
   "input_hash": "2025-10-14T09:44:28.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4599bf7bc5e3e61894dc07c59df23b212072ee709e6540dae71c249b17d758a3"
 }
