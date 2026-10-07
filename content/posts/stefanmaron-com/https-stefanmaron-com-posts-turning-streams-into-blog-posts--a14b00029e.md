@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:52:21.236Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: def84271a4a3a12debcc0c9cb35148c548f82117b760847121ea0b2bd00415ad
+  input_hash: bb42b6754ea3c3ec580fcdc03e4846d702f6bc529288b31e4b2d2e0d34897ff1
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/turning-streams-into-blog-posts/
@@ -66,6 +66,16 @@ systems:
   - copilot
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:39.985Z"
 ---
 
 # Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)

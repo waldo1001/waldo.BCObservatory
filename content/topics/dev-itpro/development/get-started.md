@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.041Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -253,6 +253,8 @@ links:
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
   guidelines: []
+  changes:
+    - change/al-go/2367
 learn_toc_path:
   - Development
   - Get started
@@ -325,10 +327,11 @@ Other pages cover release tasks: context-sensitive help links, XLIFF translation
 - [Use Designer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer): Description of how Designer works and is integrated with the AL development experience.
 - [Work with XLIFF Translation Files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files): Learn how to generate, maintain, and package XLIFF translation files for multilingual Business Central extensions, including namespace-aware IDs.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2367 Enhance NuGet feed selection to support pre-release packages](../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "Start projects from structured templates like AL-Go for GitHub"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

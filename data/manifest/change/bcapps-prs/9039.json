@@ -6,10 +6,35 @@
   "title": "Adding all Power BI reports to Business Manager's Role Center",
   "url": "https://github.com/microsoft/BCApps/pull/9039",
   "published_at": "2026-07-07T17:58:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:12.382Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:17.461Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003339
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:17.641Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:17.647Z",
+      "path": "content/changes/bcapps/9039.md"
     }
   },
   "input_hash": "3c357e0b6d7a66941b69c47b211943029bdc8ba2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "adding all power bi reports to business manager s role center"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0fb10200a057792c9d22dcf3fa6a089d80a3e63fae1fe2857340843ba63ffccb"
 }

@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:24.473Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 19efdc355820b372dea1aa5e197d28415fa697482fc5bbcf5a74e7118856fcd2
+  input_hash: 6a9cd74bb0f40fc20d37147316d700bf8f0019c86827c8802d9a7804d39ca4a5
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-64-filter-tokens-codeunit/
@@ -72,6 +72,16 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-64-filter-tokens-codeunit.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:48.167Z"
 ---
 
 # BC Friday Tips #64 Filter Tokens Codeunit

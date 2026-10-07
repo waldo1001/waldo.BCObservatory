@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:31.595Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: deec9eed206160a3da981d7f1342fdaa5b57aec5e86d2b1705453e2fe6f7ee62
+  input_hash: d4c98fba9f0779ed87f08fad8ea37d8869ba085ace25ab2a735ffe1d28a42fdc
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/
@@ -71,13 +71,23 @@ versions_mentioned:
   - "28.2"
   - "28.3"
   - "28.4"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:17.671Z"
 ---
 
 # AL Runner v2.2 and v2.3: Coverage, Quick Scripts, and a Watch Mode You Can Trust
 
-> AL Runner v2.2 and v2.3 added code coverage reporting, a quick-script execute command for testing snippets without a codeunit, and fixed a watch mode that was recompiling mid-save during file bursts. The releases also included roughly 130 behavioral fixes to align the runner with real Business Central, with startup performance improvements.
-
 [Read the post](https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-20 · 1364 words · tier community · **unreviewed** (machine-generated)
+
+> AL Runner v2.2 and v2.3 added code coverage reporting, a quick-script execute command for testing snippets without a codeunit, and fixed a watch mode that was recompiling mid-save during file bursts. The releases also included roughly 130 behavioral fixes to align the runner with real Business Central, with startup performance improvements.
 
 ## Key points
 

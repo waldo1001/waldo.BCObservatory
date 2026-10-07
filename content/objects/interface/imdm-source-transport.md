@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1247f0df63aecf30134cd608a271332ced363d684087b30ce65ea8a18247579b
+  input_hash: 726905b1fdce35f92a002618f13049e049364784b8eaadeaf7527ff74aed1f26
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10753
 object_type: interface
 object_id: null
 name: IMDM Source Transport
@@ -85,6 +87,10 @@ MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 1d24d
 - `GetRecords(TableId: Integer; FieldIds: Text; Selector: Text; PageSize: Integer; Filter: Text): Text`
 - `LastModifiedAtPerTable(TableIds: Text): Text`
 - `GetCapabilities(): Text`
+
+## Recent changes
+
+- 2026-09-10 [#10753 Cross-environment Master Data synchronization (same tenant)](../../changes/bcapps/10753.md) (main, BC30, feature, added)
 
 ## Across versions
 

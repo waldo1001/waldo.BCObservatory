@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,6 +117,8 @@ links:
     - video/6lUli23t3fU
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10158
 learn_toc_path:
   - Business functionality
   - Project management
@@ -185,10 +187,11 @@ Start with the app overview page to see which reports exist. Then open the repor
 - [Project Timeline (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline): The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
 - [Projects KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis): The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10158 Add details to project sales tooltip](../../../../../changes/bcapps/10158.md) (code change): "Project Sales by Project chart now displays project description and customer name"
 - [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Project Power BI App Open Source; Project Profitability Analysis"
 
 ## Business Central pages and reports

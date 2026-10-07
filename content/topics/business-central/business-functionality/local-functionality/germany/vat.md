@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.451Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9734
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -135,6 +137,12 @@ VAT-VIES declarations and Intrastat setup are handled on their own pages. Intras
 - [How to Set Up Reports for VAT and Intrastat](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat): Learn how to specify the reports used to create documents for submission to authorities, such as the VAT statement and the Intrastat form.
 - [How to Set Up VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports): Learn how to set up report parameters in Business Central to file a VAT report under the ELMA5 system.
 - [VAT Reporting in the German version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting): You can report VAT electronically to the tax authorities in the German version.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "performance issue with VAT advance return and VAT statement calculations in German environments"
 
 ## Business Central pages and reports
 

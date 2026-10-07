@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:56:00.729Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 9a68b62d047b2c8560cc9dc015e28105f08d47aea0b3d48024c56806ace7b4bc
+  input_hash: b84f60246cbba345f091e70184370a96cbb392196e3862acc2720c58b3d7d2c8
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/
@@ -92,13 +92,23 @@ systems:
 versions_mentioned:
   - BC 28.1
   - BC 2026 Wave 1
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:32.782Z"
 ---
 
 # Weekly Review: Business Central AL Development – May 31–June 6, 2026
 
-> This weekly community review highlights four key posts from May 31 - June 6, 2026: BC 28.1's new model switcher for AI agents defaulting to GPT-5.3-chat, where to download standard Power BI reports after the GitHub repo closure, using date formulas to automate posting period restrictions, and cost optimization strategies for GitHub Copilot now that it bills by token usage instead of per-request.
-
 [Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/) · DvlprLife (Brad Prendergast) · 2026-06-09 · 838 words · tier community · **unreviewed** (machine-generated)
+
+> This weekly community review highlights four key posts from May 31 - June 6, 2026: BC 28.1's new model switcher for AI agents defaulting to GPT-5.3-chat, where to download standard Power BI reports after the GitHub repo closure, using date formulas to automate posting period restrictions, and cost optimization strategies for GitHub Copilot now that it bills by token usage instead of per-request.
 
 ## Key points
 

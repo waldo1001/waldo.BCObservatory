@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 17e8c921806e2421177b101b255fbda86b355d27d279722439922bd73fe16ac9
+  input_hash: b5883e81c00b0485a46a338cf6a90938bf74941231614fa410d0a42f1453fc7c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/8085
 object_type: interface
 object_id: null
 name: MCP Server Features
@@ -89,6 +91,10 @@ System Application · System.MCP · BC29-30 · [source at 1d24dd5e](https://gith
 - `Description(): Text[500]`: Returns the description shown for the feature in the Server Features list.
 - `LoadSystemTools(var MCPSystemTool: Record "MCP System Tool")`: Appends the feature's system tools to the buffer. Called only when the feature is active.
 - `TryGetParentFeature(var ParentFeature: Enum "MCP Server Feature"): Boolean`: Returns true and the parent feature when this is a sub-feature. The Server Features list shows a sub-feature indented beneath its parent.
+
+## Recent changes
+
+- 2026-07-27 [#8085 [MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)](../../changes/bcapps/8085.md) (main, BC30, feature, added)
 
 ## Across versions
 

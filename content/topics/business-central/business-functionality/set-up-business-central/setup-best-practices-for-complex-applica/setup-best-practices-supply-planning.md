@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10030
+    - change/bcapps/10166
+    - change/bcapps/10225
+    - change/bcapps/10364
+    - change/bcapps/10716
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -109,5 +115,15 @@ Start with the introductory page, then read the reordering policies page to choo
 - [Setup best practices - Planning parameters](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-planning-parameters): This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
 - [Setup best practices - Reordering policies \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-reordering-policies): The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 - [Setup Best Practices - Supply Planning](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-supply-planning): When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../../changes/bcapps/10030.md) (code change): "multi-level assemblies when BOMs are defined at the SKU level"
+- [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../../changes/bcapps/10166.md) (code change): "preserving distinct cable and cut-length requirements instead of aggregating"
+- [#10225 [Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.](../../../../../changes/bcapps/10225.md) (code change): "Order Planning Worksheet now correctly ignores items from purchase orders"
+- [#10364 Create released production orders from planning worksheet](../../../../../changes/bcapps/10364.md) (code change): "The carry out action message feature on the planning worksheet now supports creating released production orders"
+- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../../changes/bcapps/10716.md) (code change): "where item tracking validation was preventing requisition line operations"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

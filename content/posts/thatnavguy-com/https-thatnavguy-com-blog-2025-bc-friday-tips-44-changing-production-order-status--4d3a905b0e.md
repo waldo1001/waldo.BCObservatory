@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:23.806Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 624a0930b5676ee4d7378c09a746e04ee1075f6bd1995bc972b30b47936753e5
+  input_hash: c33c6c51d8c3f6092aa48e4468c9518b798adb029759de98287960a25f88b8dd
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/
@@ -63,6 +63,16 @@ code_objects_mentioned:
 systems:
   - manufacturing
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-44-changing-production-order-status.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:21.254Z"
 ---
 
 # BC Friday Tips #44 Changing Production Order Status

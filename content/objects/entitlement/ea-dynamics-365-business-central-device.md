@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5a540892e076da0001155641a95e86a48f84a503b5352c878271d81bb6e6559e
+  input_hash: 0c7491d19f7ea0a0cf6d32a90bb534a26de59dda63c0b35295948d32dee3ee2d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDevice.Entitlement.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9859
 object_type: entitlement
 object_id: null
 name: EA - Dynamics 365 Business Central Device
@@ -73,6 +75,10 @@ relations:
 > Entitlement "EA - Dynamics 365 Business Central Device" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
 ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDevice.Entitlement.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-04 [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../changes/bcapps/9859.md) (main, BC30, feature, added)
 
 ## Across versions
 

@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:54:07.416Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: a1c6a4b5933d7a8b6c41e7ed80e9921c6236f825853c387533a09cd388f78e20
+  input_hash: 575be85cf2caa6df5066f3f122444d5503a52cb36aeed9129d03e8c21b7f0aba
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/
@@ -70,13 +70,23 @@ systems:
   - copilot
 versions_mentioned:
   - June 28–July 4, 2026
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:27.320Z"
 ---
 
 # Weekly Review: Business Central AL Development – June 28–July 4, 2026
 
-> This weekly review curates Business Central AL development posts from June 28 - July 4, 2026, covering page background tasks, item attribute visibility, agentic development practices, and standardized AI scaffolding for development teams.
-
 [Read the post](https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/) · DvlprLife (Brad Prendergast) · 2026-07-06 · 648 words · tier community · **unreviewed** (machine-generated)
+
+> This weekly review curates Business Central AL development posts from June 28 - July 4, 2026, covering page background tasks, item attribute visibility, agentic development practices, and standardized AI scaffolding for development teams.
 
 ## Key points
 

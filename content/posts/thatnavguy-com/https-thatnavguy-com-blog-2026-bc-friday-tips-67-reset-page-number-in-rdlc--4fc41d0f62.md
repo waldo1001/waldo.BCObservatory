@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T22:01:11.232Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b1b396ba5334808d0fb307e9fac6a59b00cb000b91fedc3a809f8d4a52fb6908
+  input_hash: 04ccf933eaa5f031eb9767c9b82c4e04c6e2749511335e06ade5fe9f5a055d85
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/
@@ -70,13 +70,23 @@ code_objects_mentioned: []
 systems:
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-67-reset-page-number-in-rdlc.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:44.182Z"
 ---
 
 # BC Friday Tips #67 Reset Page Number in RDLC
 
-> The ResetPageNumber property in RDLC reports restarts page numbering at 1 for each group or document, matching user expectations when printing multiple groups.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-03-27 · 55 words · tier community · **unreviewed** (machine-generated)
+
+> The ResetPageNumber property in RDLC reports restarts page numbering at 1 for each group or document, matching user expectations when printing multiple groups.
 
 ## Key points
 

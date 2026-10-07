@@ -6,10 +6,35 @@
   "title": "[Shopify] Make codeunit 30272 \"Shpfy Update Price Source\" public",
   "url": "https://github.com/microsoft/BCApps/pull/8587",
   "published_at": "2026-07-07T14:34:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:15.562Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:21.287Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003737
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:21.462Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:21.466Z",
+      "path": "content/changes/bcapps/8587.md"
     }
   },
   "input_hash": "e73a8bb1bba2d5c1fccea71bc466fbf7e7852ef4:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify make codeunit 30272 shpfy update price source public"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c79cf08aa1df61b998b0d8fc5ec93ae27f708e2c71a1d0234f632f90293516c4"
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,8 @@ links:
     - post/aardvarklabs-blog/2907
     - post/aardvarklabs-blog/3631
   guidelines: []
+  changes:
+    - change/bcapps/10010
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -121,10 +123,11 @@ The pages follow a natural order. Start with the integration overview for concep
 - [Set Up Instant Flows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/instant-flows): Learn how users can run instant flows from inside Business Central online due to the integration with Power Automate.
 - [Set Up Power Automate Integration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup): Learn how to enable Power Automate for Business Central users.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download scheduled report outputs"
 - [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions page lists all subscriptions, events, and notification URLs"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Using Power Automate for Business Central SFTP handles file uploads"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Job Queue Business Event and Templates; Power Automate New Designer Support"

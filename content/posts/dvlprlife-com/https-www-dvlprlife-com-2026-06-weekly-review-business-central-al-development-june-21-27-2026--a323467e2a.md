@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:54:37.497Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c21322e6af07b563f4aede5571f0f456af53c251d4bbe528ca595129cb5a1cef
+  input_hash: 8046bf1c24f382f1fa0180b487674d062d4e0e580d46c5d57d8dfb68c6458baf
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/
@@ -78,13 +78,23 @@ systems:
   - administration
 versions_mentioned:
   - BC28
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:29.004Z"
 ---
 
 # Weekly Review: Business Central AL Development – June 21–27, 2026
 
-> A weekly community review from June 21-27, 2026 covering four practical Business Central AL development topics: user and AI agent avatars for record ownership visibility in BC28, dynamic column editability on list pages, Copilot token cost optimization, and namespace adoption for app modernization.
-
 [Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/) · DvlprLife (Brad Prendergast) · 2026-06-29 · 660 words · tier community · **unreviewed** (machine-generated)
+
+> A weekly community review from June 21-27, 2026 covering four practical Business Central AL development topics: user and AI agent avatars for record ownership visibility in BC28, dynamic column editability on list pages, Copilot token cost optimization, and namespace adoption for app modernization.
 
 ## Key points
 

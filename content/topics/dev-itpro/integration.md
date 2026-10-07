@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:43.648Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,6 +320,18 @@ links:
     - video/gAzmWJg9Z5g
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10230
+    - change/bcapps/10700
+    - change/bcapps/11386
+    - change/bcapps/11484
+    - change/bcapps/11896
+    - change/bcapps/8698
+    - change/bcapps/9257
+    - change/bcapps/9401
+    - change/bcapps/9434
+    - change/bcapps/9454
+    - change/bcapps/9952
 learn_toc_path:
   - Integration
 toc_file: dev-itpro/TOC.md
@@ -446,10 +458,21 @@ Subtopics go deeper. Web services is by far the largest and covers publishing, s
 - [Integrating with Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration): Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 - [Integration overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview): Find links to information about the ways you can integrate Business Central to products and services.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version](../../changes/bcapps/10230.md) (code change): "Sales credit memos under One-Stop-Shop regime now generate SII XML"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../changes/bcapps/10700.md) (code change): "E-Documents integration. New fields and APIs support matching"
+- [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected from 6532 to 6246"
+- [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
+- [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../changes/bcapps/11896.md) (code change): "Master Data Management now correctly preserves destination blobs when source blobs exceed capacity limits"
+- [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (code change): "E-documents now track order responses and acknowledgements as lifecycle events"
+- [#9257 Hide Provide feedback action on E-Document Purchase Draft when user-i…](../../changes/bcapps/9257.md) (code change): "The Provide feedback action on the E-Document Purchase Draft page is now hidden"
+- [#9401 Fix Incoming Documents default processed filter](../../changes/bcapps/9401.md) (code change): "Fix Incoming Documents default processed filter"
+- [#9434 [Main]-"Factura Duplicada" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.](../../changes/bcapps/9434.md) (code change): "Factura Duplicada error message appears under SII History"
+- [#9454 Fix site scoped contextinfo](../../changes/bcapps/9454.md) (code change): "Fix site scoped contextinfo. SharePoint request-digest calls"
+- [#9952 Show address lines 1-3 in address lookup display text](../../changes/bcapps/9952.md) (code change): "address lookup modal for Ideal Postcodes now displays address lines"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services"
 
 ## Business Central pages and reports

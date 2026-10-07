@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:30.673Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,15 @@ links:
   posts:
     - post/thedynamicsexplorer-com/37042
   guidelines: []
+  changes:
+    - change/bcapps/10579
+    - change/bcapps/11561
+    - change/bcapps/11961
+    - change/bcapps/11989
+    - change/bcapps/12255
+    - change/bcapps/8947
+    - change/bcapps/9599
+    - change/bcapps/9692
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -119,10 +128,18 @@ This section covers how administrators give users access in Business Central. It
 - [Create users according to licenses](https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions): Describes how to add users to Business Central online or on-premises based on licenses.
 - [Define granular permissions](https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions): This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10579 [Bug 638696] Add teaching tip to Effective Permissions page 9852](../../../../../changes/bcapps/10579.md) (code change): "teaching tip to the Effective Permissions page to explain what effective permissions are"
+- [#11561 [Permissions] Fix read-only error in obsolete permission cleanup](../../../../../changes/bcapps/11561.md) (code change): "Remove Obsolete Permissions action now deletes only from the Tenant Permission table"
+- [#11961 Cache security group resolution in Effective Permissions](../../../../../changes/bcapps/11961.md) (code change): "Security group membership resolution is now cached by user in Effective Permissions"
+- [#11989 [Bug 500351] Allow Effective Permissions for delegated admins and helpdesk](../../../../../changes/bcapps/11989.md) (code change): "Allow Effective Permissions for delegated admins and helpdesk"
+- [#12255 Fix overwrite import of exported system permission sets](../../../../../changes/bcapps/12255.md) (code change): "System permission set imports with overwrite option now correctly delete permissions"
+- [#8947 [Permissions] Add Where-Used and Permissions Overview navigation actions](../../../../../changes/bcapps/8947.md) (code change): "Navigation actions to open the Permissions Overview page with optional filters"
+- [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "A new event subscriber codeunit enables programmatic opening of the permission set details card"
+- [#9692 Fix effective permission filtering](../../../../../changes/bcapps/9692.md) (code change): "Permission buffer population prioritizes exact object IDs over wildcard object ID 0"
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "Administrators can remove permission sets like D365 BUS FULL ACCESS to restrict default access"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
 

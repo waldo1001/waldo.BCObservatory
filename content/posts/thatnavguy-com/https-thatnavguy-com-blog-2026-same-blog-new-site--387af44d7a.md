@@ -16,11 +16,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:56:28.923Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 90c32e1149e872e9a9875ace935f152424d60ccdcc63968c633490832c0c3817
+  input_hash: c4ad0494b756726db9c48c64fae31bc2e075f2ae6864fd23f30a22078b602e4f
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/same-blog-new-site/
@@ -77,13 +77,23 @@ quotes:
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/SameBlogNewSite.D-xDi7wv_Z15BYsl.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:29.985Z"
 ---
 
 # Same Blog, New Site
 
-> That NAV Guy migrated his blog from WordPress to a static site built with Astro, GitHub, and Vercel. The change improves site performance and simplifies maintenance while preserving all existing content and series.
-
 [Read the post](https://thatnavguy.com/blog/2026/same-blog-new-site/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-04 · 216 words · tier community · **unreviewed** (machine-generated)
+
+> That NAV Guy migrated his blog from WordPress to a static site built with Astro, GitHub, and Vercel. The change improves site performance and simplifies maintenance while preserving all existing content and series.
 
 ## Key points
 

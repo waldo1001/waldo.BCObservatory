@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9139",
+  "number": 9139,
+  "title": "Fix Payables Agent permission error opening E-Document",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent codeunit now has elevated permissions to read the Agent Task Message table, preventing permission errors when opening E-Documents.",
+  "key_points": [
+    "Elevated read permissions for table 2000000263 (Agent Task Message)",
+    "Resolves NavPermissionException when agents access E-Documents",
+    "No longer dependent on user's assigned permission sets for this operation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003172,
+    "changes_in_call": 1
+  }
+}

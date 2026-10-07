@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,6 +181,8 @@ links:
     - video/5RJ3yZ7m1UU
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10159
 learn_toc_path:
   - Business functionality
   - Finance
@@ -264,10 +266,11 @@ The remaining pages each describe one report. They group into receivables and pa
 - [Profitability](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability): The Profitability report shows gross and net profits over time.
 - [Set up the Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup): Learn how to set up the Power BI Finance app
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10159 Warn when missing Power BI Account Categories Mappings](../../../../../changes/bcapps/10159.md) (code change): "Detects missing Power BI Account Categories Mappings in the Power BI Reports Setup"
 - [What's New: Financial Analytics (2024 release wave 2)](../../../../../videos/5RJ3yZ7m1UU.md) (video): "Power BI Finance App; Financial Reporting Templates"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:17.835Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,15 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10031
+    - change/bcapps/10331
+    - change/bcapps/11007
+    - change/bcapps/11701
+    - change/bcapps/12325
+    - change/bcapps/9859
+    - change/bcquality/149
+    - change/bcquality/93
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -163,5 +172,18 @@ The remaining pages support running APIs in practice: tips on requests and heade
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
 - [Web Service Performance (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance): Learn about how performance of Business Central web services (OData, API, and SOAP)
 - [Web Service Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Learn about how Business Central emits telemetry about web service requests
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10031 Add AI-assisted policy evaluation backend to Expense Agent](../../../../changes/bcapps/10031.md) (code change): "New APIs for expense policies, policy evaluations, and policies"
+- [#10331 [Master]-Missing VAT Identifier in Peppol XML for Zero-Value Invoice](../../../../changes/bcapps/10331.md) (code change): "VAT Identifier is now included in PEPPOL XML output for zero-value invoices"
+- [#11007 Add Travel Request API lifecycle to Expense Agent](../../../../changes/bcapps/11007.md) (code change): "scoped OData endpoints with proper authorization and linked"
+- [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
+- [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Expense API tests are re-enabled by consolidating authentication mechanisms"
+- [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../../../changes/bcapps/9859.md) (code change): "Provides 50+ API pages for expense data access and management"
+- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 uses strongly typed enums with member names in metadata"
+- [#93 Fix lifecycle compatibility guidance](../../../../changes/bcquality/93.md) (code change): "Updated API versioning guidance to require separate page objects for version-specific shapes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

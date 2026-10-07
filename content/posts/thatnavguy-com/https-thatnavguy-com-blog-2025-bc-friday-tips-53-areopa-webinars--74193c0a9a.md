@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:17.755Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: f91ac15afae43146e23f444e4f50c1e64802c14c260cd3c9064b7f19672893e5
+  input_hash: 473ac1765c93f6232d01a12b8b8e3324e41155ad6ddf32a75dfc495c8aaecdc1
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/
@@ -74,6 +74,16 @@ systems:
   - platform
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-53-areopa-webinars.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:07.890Z"
 ---
 
 # BC Friday Tips #53 Areopa Webinars

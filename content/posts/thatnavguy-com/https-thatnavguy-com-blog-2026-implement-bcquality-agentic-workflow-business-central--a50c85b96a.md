@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:31.815Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 734d75ab8da022552732b61e572639ff37a0e0fda4adb3f642ff5997b89f11a6
+  input_hash: d2625ff44222d96e1f159bd79770f5ef8dae8eac56d638a1ba4a459adb03b3ad
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/
@@ -84,13 +84,23 @@ systems:
   - integration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/BCQuality-PR-Review.CVJzSkuu_ZFsQ94.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:13.630Z"
 ---
 
 # How to implement Microsoft BCQuality in your GitHub Pull Request
 
-> This post explains how to set up Microsoft BCQuality, a knowledge base for Business Central AL code quality reviews, in a GitHub pull request workflow using an agentic workflow. It provides step-by-step instructions to implement automated code quality checks without blocking merges.
-
 [Read the post](https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-20 · 423 words · tier community · **unreviewed** (machine-generated)
+
+> This post explains how to set up Microsoft BCQuality, a knowledge base for Business Central AL code quality reviews, in a GitHub pull request workflow using an agentic workflow. It provides step-by-step instructions to implement automated code quality checks without blocking merges.
 
 ## Key points
 

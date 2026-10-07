@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -137,6 +137,9 @@ links:
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
+  changes:
+    - change/bcapps/10486
+    - change/bcapps/11321
 learn_toc_path:
   - Development
   - Extensibility
@@ -179,10 +182,12 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 - [Publishing a code-customized Base Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-publish-code-customization): Description of the process of publishing a code customization for Dynamics 365 Business Central on-prem.
 - [The Microsoft_Application.app file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-app-file): The Microsoft_Application.app file encapsulates all of the extensions that make up a solution for Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10486 [Quality Management] Use Bin code selection for transfer disposition in workflow response](../../../../changes/bcapps/10486.md) (code change): "Bin code selection is now applied when transferring items through quality disposition workflows"
+- [#11321 Update default Pricing implementation (v.30)](../../../../changes/bcapps/11321.md) (code change): "default pricing calculation implementation was updated"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "developers to add it as a dependency when extending these objects"
 
 ## Business Central pages and reports

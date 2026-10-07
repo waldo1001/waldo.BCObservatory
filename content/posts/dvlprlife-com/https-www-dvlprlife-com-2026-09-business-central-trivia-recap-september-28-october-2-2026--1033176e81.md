@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:17:58.220Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7cb42494261b04920d8eae61dd5a6c5acf71f55ad8d334721dc8f01d51d7b151
+  input_hash: 63b8caadd153eda054fc2323358059b6653e66c032d81d2ef596bf841e4053c5
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/
@@ -72,13 +72,23 @@ code_objects_mentioned: []
 systems:
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/09/business-central-trivia-recap-september-28-october-2-2026-social.jpg
+  image_alt: "Business Central Trivia Recap: September 28–October 2, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:49:40.785Z"
 ---
 
 # Business Central Trivia Recap: September 28–October 2, 2026
 
-> A recap of the Business Central Trivia event from September 28 to October 2, 2026, highlighting that 61% of answers were correct, performance by category, and new features added to the trivia website including dark mode, notifications, improved stats tracking, and faster gameplay.
-
 [Read the post](https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/) · DvlprLife (Brad Prendergast) · 2026-10-04 · 442 words · tier community · **unreviewed** (machine-generated)
+
+> A recap of the Business Central Trivia event from September 28 to October 2, 2026, highlighting that 61% of answers were correct, performance by category, and new features added to the trivia website including dark mode, notifications, improved stats tracking, and faster gameplay.
 
 ## Key points
 

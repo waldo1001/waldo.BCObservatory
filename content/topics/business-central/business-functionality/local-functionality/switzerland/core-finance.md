@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:14.133Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10041
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -120,6 +122,12 @@ The remaining pages cover setup and VAT: How to Adjust Exchange Rates describes 
 - [Print General Ledger Setup Information [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
 - [Swiss General Ledger Accounts [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts): This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
 - [View temporary balances in GL journals [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals): Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10041 [Master]-]G/L Account Sheet with Foreign Currency report (11564) includes LCY-originated entries after enabling G/L currency revaluation feature resulting in mixed-currency totals in the Swiss version. - Copy](../../../../../changes/bcapps/10041.md) (code change): "G/L Account Sheet with Foreign Currency report in Swiss version now correctly excludes local currency entries"
 
 ## Business Central pages and reports
 

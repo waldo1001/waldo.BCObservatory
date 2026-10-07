@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9146",
+  "number": 9146,
+  "title": "[Shopify] Fix GraphQL rate limiter under-waiting after elapsed time",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector's GraphQL rate limiter was waiting incorrectly when time had elapsed between requests, causing it to re-issue requests too early into the throttle window. The fix anchors the wake time to the current moment plus remaining wait time instead of incorrectly subtracting the elapsed gap twice.",
+  "key_points": [
+    "Rate limiter under-waited after elapsed time between Shopify responses and next request, producing avoidable GraphQL throttling on high-volume shops",
+    "Bug was double-subtracting elapsed time when calculating the next request's allowed time",
+    "Fix anchors wake time at CurrentDateTime plus remaining wait instead of anchoring at LastRequestedOn",
+    "Eliminates redundant assignment that subtracted elapsed gap a second time",
+    "Added test case that verifies correct wait time remains when elapsed time has passed since last request"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004314,
+    "changes_in_call": 1
+  }
+}

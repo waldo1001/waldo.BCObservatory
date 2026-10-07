@@ -2,7 +2,7 @@
 id: localization/is
 type: localization
 title: Iceland (IS)
-summary: Iceland (IS) localization for Business Central 29. It covers IRS number mapping of the chart of accounts for tax authority files, VAT reconciliation and balancing reports, the IRS Notification report for electronic invoicing, credit memo fields in sales, depreciation book fields, and the Iceland W1 core app setup.
+summary: Iceland (IS) localization for Business Central 29 delivered as the IS Core app. It covers IRS number mapping of the chart of accounts, VAT reconciliation and balancing reports, document retention rules for deleting posted invoices and credit memos, and electronic invoicing notification. It answers questions about Icelandic tax authority reporting and local setup.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 0e488e5d3fc23f95d8dee5f4a4609b09c0068beaa3b79df9d8330b4835c39509
+  input_hash: 4813de6241d390033bc0745dde2b04ca42bc9fc7591b37dc0709edc100581d9d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -56,28 +56,27 @@ learn_folder: LocalFunctionality/Iceland
 
 # Iceland (IS)
 
-> Iceland (IS) localization for Business Central 29. It covers IRS number mapping of the chart of accounts for tax authority files, VAT reconciliation and balancing reports, the IRS Notification report for electronic invoicing, credit memo fields in sales, depreciation book fields, and the Iceland W1 core app setup.
+> Iceland (IS) localization for Business Central 29 delivered as the IS Core app. It covers IRS number mapping of the chart of accounts, VAT reconciliation and balancing reports, document retention rules for deleting posted invoices and credit memos, and electronic invoicing notification. It answers questions about Icelandic tax authority reporting and local setup.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/iceland.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The Icelandic layer adds three reports and four tables of its own. The IRS Numbers, IRS Groups and IRS Types tables, plus the IdaG/L Account field "IRS Number", let users map general ledger accounts to government account codes. Learn describes this under mapping IRS numbers to the chart of accounts and special data output for the tax authorities. Two VAT reports, "VAT Reconciliation A" and "VAT Balancing Report", support VAT reporting.
+The Iceland layer centres on IS IRS mapping. New tables (IS IRS Groups, IS IRS Numbers, IS IRS Types, with legacy IRS Numbers, IRS Groups and IRS Types tables) and pages let users define tax authority codes. The field "IRS Number" on G/L Account maps posting accounts to them. Learn describes this as the basis for compliant data files and reports for the tax authorities.
 
-Sales changes are small. Sales & Receivables Setup gets an Electronic Invoicing field and a credit memo number series field for payment discounts, and Cust. Ledger Entry gets a Credit Memo Document field. The "IRS notification" report prints the legal statements that Learn says are required when invoices are printed more than once. Depreciation Book gains "Revalue in Year Purch." and "Residual Value %".
+Local reports include IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number and IS IRS notification. Report extensions adjust purchase order, purchase invoice, purchase credit memo and blanket sales order layouts. Sales & Receivables Setup gains "Electronic Invoicing" and "Credit Memo Nos. Paym. Disc." fields, and Learn explains that the IRS Notification report prints the legal statement needed when invoices are printed several times.
 
-Table "IS Core App Setup" supports the move from the Icelandic localization to the W1 base app model, with features delivered as apps from version 24.0 and a one-time manual data migration. Learn also documents document deletion rules, registration numbers and printing VAT summary information. The code adds no events or procedures, and the LOCAL and LOCAL READ permission sets are replaced.
+The localization is packaged as the IS Core app, with table "IS Core App Setup", codeunits "IS Core Install", "IS Core Upgrade" and "Enable IS Core App", and permission sets. Codeunit "IS Docs Retention Period" with an enum extension supports document deletion rules. Learn documents the migration to the app model from version 24.0 as a one-time manual data migration. Depreciation Book gains "Residual Value %" and "Revalue in Year Purch.".
 
 ## Key points
 
-- IRS numbers, groups and types map G/L accounts to tax authority codes via the new field on G/L Account.
-- Reports: IRS notification, VAT Reconciliation A and VAT Balancing Report.
-- Sales & Receivables Setup has an Electronic Invoicing option that ties into printing the IRS Notification report.
-- Cust. Ledger Entry has a Credit Memo Document field, and setup has a credit memo number series for payment discounts.
-- Depreciation Book adds Revalue in Year Purch. and Residual Value %.
-- IS Core App Setup supports the one-time manual migration to the W1 core app model from version 24.0.
-- Learn covers deletion of posted invoices and credit memos, registration numbers and the Always Show VAT Summary option.
-- No events or procedures are added; permission sets LOCAL and LOCAL READ are replaced.
+- IRS numbers, groups and types map G/L accounts to tax authority codes via the "IRS Number" field on G/L Account
+- Reports: IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number
+- Electronic Invoicing option in Sales & Receivables Setup and the IS IRS notification report for single-copy invoice legal statements
+- Document retention: posted invoices and credit memos may be deleted only when older than seven years at fiscal year start (v24.0 onward with the new localization enabled)
+- Depreciation Book gains Residual Value % and Revalue in Year Purch. fields
+- IS Core app with install, upgrade and enable codeunits; migration from the old localization is a one-time manual process
+- Role center, vendor, customer, contact and company info pages are extended, and IS permission sets with extensions for standard sets are provided
 
 Narrative written by Sonnet from the code diff and 8 Learn page summaries. In numbers: Iceland (IS) localization of Business Central in BC29: 55 objects of its own, 6 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -86,53 +85,93 @@ Narrative written by Sonnet from the code diff and 8 Learn page summaries. In nu
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
 | [Finance](#finance) | 1 | 39 | 1 |
-| (no namespace) | 0 | 5 | 0 |
-| Purchases | 0 | 5 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 5 | 0 |
+| [Purchases](#purchases) | 0 | 5 | 0 |
 | [Sales](#sales) | 2 | 2 | 3 |
 | [FixedAssets](#fixedassets) | 1 | 2 | 2 |
 | [Security](#security) | 2 | 0 | 0 |
-| CRM | 0 | 1 | 0 |
-| Foundation | 0 | 1 | 0 |
+| [CRM](#crm) | 0 | 1 | 0 |
+| [Foundation](#foundation) | 0 | 1 | 0 |
 
 ### Finance
 
-Adds tables "IRS Numbers", "IRS Groups" and "IRS Types" and an IRS Number field on G/L Account for mapping accounts to tax authority codes. Adds the reports IRS notification, VAT Reconciliation A and VAT Balancing Report, and the table "IS Core App Setup" for the core app migration.
+Adds the IRS mapping tables and pages, the "IRS Number" field on G/L Account, and local VAT and IRS reports. It also holds the IS Core app setup, install and upgrade codeunits, the retention period codeunit, enums for VAT report periods and entries filters, role center extensions and permission sets.
 
-Why: Learn says the IRS mapping is needed to generate compliant data files for the tax authorities. The core app setup supports migration to the W1 model from version 24.0.
+Why: Learn explains that IRS numbers mapped to general ledger accounts produce compliant data files and reports for the tax authorities, and that posted documents can be deleted only after the seven-year retention period.
 
-Objects: [table/10900 "IRS Numbers"](../objects/table/10900-is.md) (own), [table/10901 "IRS Groups"](../objects/table/10901-is.md) (own), [table/10902 "IRS Types"](../objects/table/10902-is.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [report/10940 "VAT Reconciliation A"](../objects/report/10940-is.md) (own), [report/10941 "VAT Balancing Report"](../objects/report/10941-is.md) (own), [report/10913 "IRS notification"](../objects/report/10913-is.md) (own), [table/10903 "IS Core App Setup"](../objects/table/10903-is.md) (own).
+Objects: [table/14600 "IS IRS Groups"](../objects/table/14600-is.md) (own), [table/14601 "IS IRS Numbers"](../objects/table/14601-is.md) (own), [table/14602 "IS IRS Types"](../objects/table/14602-is.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [report/14601 "IS VAT Reconciliation A"](../objects/report/14601-is.md) (own), [report/14600 "IS VAT Balancing Report"](../objects/report/14600-is.md) (own), [report/14603 "IS IRS Details"](../objects/report/14603-is.md) (own), [report/14605 "IS Trial Balance - IRS Number"](../objects/report/14605-is.md) (own).
 
 [All 40 objects of Finance in the diff](?ns=Finance#country-diff)
 
+### (no namespace)
+
+Extends the G/L Account and Sales & Receivables Setup tables, posted purchase invoice and credit memo pages, and the Small Business Owner role center with Icelandic fields and actions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [tableextension/14602 "IS G/L Account"](../objects/tableextension/14602-is.md) (own), [tableextension/14603 "IS Sales & Receivables Setup"](../objects/tableextension/14603-is.md) (own), [pageextension/14609 "IS Posted Purchase Invoice"](../objects/pageextension/14609-is.md) (own), [pageextension/14604 "IS Posted Purch. Credit Memo"](../objects/pageextension/14604-is.md) (own), [pageextension/14607 "IS Small Business Owner RC"](../objects/pageextension/14607-is.md) (own).
+
+[All 5 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Purchases
+
+Extends the vendor card and adjusts the purchase order, purchase invoice, purchase credit memo and blanket sales order report layouts for Icelandic needs.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [pageextension/14610 "IS Vendor Card"](../objects/pageextension/14610-is.md) (own), [reportextension/14600 "IS Order"](../objects/reportextension/14600-is.md) (own), [reportextension/14602 "IS Purchase Invoice"](../objects/reportextension/14602-is.md) (own), [reportextension/14601 "IS Purch Credit Memo"](../objects/reportextension/14601-is.md) (own), [reportextension/14603 "IS Blanket Sales Order"](../objects/reportextension/14603-is.md) (own).
+
+[All 5 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
 ### Sales
 
-Sales & Receivables Setup gets Electronic Invoicing and Credit Memo Nos. Paym. Disc. fields. Cust. Ledger Entry gets a Credit Memo Document field.
+Adds the fields "Electronic Invoicing" and "Credit Memo Nos. Paym. Disc." to Sales & Receivables Setup and "Credit Memo Document" to Cust. Ledger Entry. The setup and customer card pages are extended.
 
-Why: Learn says that when invoices are printed several times, a government report confirming ERP compliance must be sent. The IRS Notification report prints the required statements.
+Why: Learn states that the Electronic Invoicing setting drives printing of the IRS Notification report with the required legal statements on invoices.
 
-Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [report/10913 "IRS notification"](../objects/report/10913-is.md) (own).
+Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [pageextension/14606 "IS Sales & Receivables Setup"](../objects/pageextension/14606-is.md) (own), [pageextension/14611 "IS Customer Card"](../objects/pageextension/14611-is.md) (own).
 
 [All 4 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### FixedAssets
 
-Depreciation Book gets two fields: Revalue in Year Purch. and Residual Value %.
+Adds "Residual Value %" and "Revalue in Year Purch." to the Depreciation Book table and shows them on the Depreciation Book Card.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/5611 "Depreciation Book"](../objects/table/5611.md).
+Objects: [table/5611 "Depreciation Book"](../objects/table/5611.md), [tableextension/14601 "IS Depreciation Book"](../objects/tableextension/14601-is.md) (own), [pageextension/14603 "IS Depreciation Book Card"](../objects/pageextension/14603-is.md) (own).
 
 [All 3 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### Security
 
-The LOCAL and LOCAL READ permission sets are replaced to cover the Icelandic objects.
+Changes the W1 LOCAL and LOCAL READ permission sets to cover the Icelandic objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
 Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md).
 
 [All 2 objects of Security in the diff](?ns=Security#country-diff)
+
+### CRM
+
+Extends the Contact Card with Icelandic fields.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [pageextension/14612 "IS Contact Card"](../objects/pageextension/14612-is.md) (own).
+
+[All 1 objects of CRM in the diff](?ns=CRM#country-diff)
+
+### Foundation
+
+Extends the Company Information page with Icelandic fields.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [pageextension/14608 "IS Company Info"](../objects/pageextension/14608-is.md) (own).
+
+[All 1 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ## W1 objects this country changes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:18.409Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,11 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10061
+    - change/bcapps/10944
+    - change/bcapps/9416
+    - change/bcapps/9719
 learn_toc_path:
   - Business functionality
   - Finance
@@ -120,6 +125,15 @@ Start with "Set up prepayments" if prepayments are not yet configured. If they a
 - [Create prepayment invoices](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices): Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
 - [Invoice prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments): Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central.
 - [Set up prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments): Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10061 [Master]-Payment Reference from Purchase Order Prepayment Invoice is not Transferred to Vendor Ledger Entries.](../../../../changes/bcapps/10061.md) (code change): "Payment reference from purchase order prepayment invoices is now transferred to vendor ledger entries"
+- [#10944 [main] bug 643971 - Enhance vendor and customer checks in advance letters and update blocked status validation](../../../../changes/bcapps/10944.md) (code change): "Advance letter creation now validates blocked customer and vendor status"
+- [#9416 [ALAppExtensions #30313]codeunit 441 "Prepayment Mgt." OnBeforeReleaseSalesDocument](../../../../changes/bcapps/9416.md) (code change): "OnBeforeUpdatePendingPrepaymentSales and OnAfterUpdatePendingPrepaymentSales events"
+- [#9719 [main] bug 643971 - Implement checks for blocked customers and vendors in advance letters](../../../../changes/bcapps/9719.md) (code change): "validate that customers and vendors are not blocked or privacy-blocked, preventing creation and posting"
 
 ## Business Central pages and reports
 

@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:58:28.363Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 9f96e5a38186cdb6c71aeab83d3226846953896c65c2ed354aeb1f6afa16aaa0
+  input_hash: 1ac6b544d95a9df4002de0e84259b1c77daae076b1397162934b5447832c1aae
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/
@@ -77,13 +77,23 @@ systems:
   - administration
 versions_mentioned:
   - "2026"
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:36.705Z"
 ---
 
 # Weekly Review: Business Central AL Development – May 17–23, 2026
 
-> A weekly curated review of Business Central AL development community posts from May 17 - 23, 2026, covering AI-driven developer tooling, security considerations for VS Code extensions, container management automation, agentic development workflows, and release management practices.
-
 [Read the post](https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/) · DvlprLife (Brad Prendergast) · 2026-05-26 · 793 words · tier community · **unreviewed** (machine-generated)
+
+> A weekly curated review of Business Central AL development community posts from May 17 - 23, 2026, covering AI-driven developer tooling, security considerations for VS Code extensions, container management automation, agentic development workflows, and release management practices.
 
 ## Key points
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -260,6 +260,10 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10495
+    - change/bcapps/9583
+    - change/bcapps/9960
 learn_toc_path:
   - Business functionality
   - Sales
@@ -364,6 +368,14 @@ This section documents the standard sales reports in Business Central. They fall
 - [Standard Sales Pro Forma Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-1302): Print a pro forma invoice for a sales order to give customers cost and customs details before the actual invoice is issued.
 - [Sust. Standard Sales Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6299): Add CO2e emissions data and a sustainability disclaimer to the standard sales invoice so customers see the environmental impact of what they purchased.
 - [Sust. Standard Sales Quote report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6298): Add CO2e emissions data to the standard sales quote so customers see per-unit and total carbon impact alongside pricing.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10495 MSlenejennum/647454/sales internal new body layouts and obsolete current](../../../../../changes/bcapps/10495.md) (code change): "Three sales reports receive new internal Word body layouts"
+- [#9583 636017 Move Sales report action tooltips to report objects](../../../../../changes/bcapps/9583.md) (code change): "Sales report action tooltips are moved from page actions to the report objects"
+- [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../../../changes/bcapps/9960.md) (code change): "LookupSalesDoc procedure made public in Copy Sales Document report"
 
 ## Business Central pages and reports
 

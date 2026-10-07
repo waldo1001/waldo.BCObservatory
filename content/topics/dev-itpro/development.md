@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:36.159Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -321,6 +321,13 @@ links:
     - video/mnxOSl1Y9PI
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10149
+    - change/bcapps/10675
+    - change/bcapps/10828
+    - change/bcapps/9600
+    - change/bcapps/9605
+    - change/bcapps/9650
 learn_toc_path:
   - Development
 toc_file: dev-itpro/TOC.md
@@ -479,10 +486,16 @@ New developers should begin with Get started, then Development environment. Expe
 - [Developing extensions in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview): Overview of the development experience for building extensions using the AL language.
 - [Overview of AL-Go](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/al-go/algo-overview): Overview of how to use AL-Go templates and actions to streamline and automate DevOps processes for Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10149 Improve the Index Mgmt page discoverability](../../changes/bcapps/10149.md) (code change): "Index Mgmt page can be opened directly from Tell Me search"
+- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../changes/bcapps/10675.md) (code change): "Temporarily suppress AS0072 compiler warnings on obsolete tags"
+- [#10828 Avoid remote attachment checks during FactBox refresh](../../changes/bcapps/10828.md) (code change): "Attachment FactBox navigation performance improved by deferring external file existence checks"
+- [#9600 Uptake sift disable enable support](../../changes/bcapps/9600.md) (code change): "Index management pages now support viewing and disabling SIFT indexes on relevant tables"
+- [#9605 [Quality Management] UI actions to restore default shipped source configurations](../../changes/bcapps/9605.md) (code change): "Quality Management adds UI actions to restore, reset, or recreate default source configurations"
+- [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverted changes to the withholding tax calculation logic for 'Greater Than' rules"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
 
 ## Business Central pages and reports

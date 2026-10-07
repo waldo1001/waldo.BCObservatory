@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,9 @@ links:
   posts:
     - post/gerardorenteria-blog/14381
   guidelines: []
+  changes:
+    - change/bcapps/12062
+    - change/bcapps/12097
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -88,10 +91,12 @@ Translation in Business Central is based on XLIFF files. The overview page expla
 - [Translations Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-translations-overview): An overview of the translation layers of Business Central and the extension model
 - [Work with XLIFF Translation Files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files): Learn how to generate, maintain, and package XLIFF translation files for multilingual Business Central extensions, including namespace-aware IDs.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12062 [Master]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12062.md) (code change): "Workflow event labels in the Quality Management app are now properly localized"
+- [#12097 [29.X]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12097.md) (code change): "Event labels for quality workflows now support localization"
 - [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

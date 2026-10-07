@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:42.630Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,6 +320,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10543
+    - change/bcapps/11141
+    - change/bcapps/11242
+    - change/bcapps/9564
+    - change/bcapps/9568
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -388,6 +394,16 @@ Start with the Czech Local Functionality overview to find which extension provid
 - [Czech Local Functionality [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/czech-local-functionality): Learn about the local functionality and features available in the Czech version of Business Central.
 - [Fixed asset localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz): Enhance Business Central in the Czech Republic with localized Fixed Asset features.
 - [Mandatory returning of exact costs in manufacturing [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing): Describes the local functionality for enforcing the return of exact manufacturing costs in the Czech version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10543 [main] bug 640925 - Add report extension for Standard Sales Pro Forma and Draft Invoice](../../../../changes/bcapps/10543.md) (code change): "Czech report extensions add missing fields to draft and pro forma invoices"
+- [#11141 [main] bug 649305 - Add Report Address Source functionality to Company Information](../../../../changes/bcapps/11141.md) (code change): "Company Information in the CZ localization now includes a configurable Report Address Source"
+- [#11242 [main] bug 640925 - Enhance draft and proforma invoice report layouts and upgrade tag definitions](../../../../changes/bcapps/11242.md) (code change): "Czech localization's Draft and Pro Forma Invoice report layouts are enhanced"
+- [#9564 [main] bug 640380 - Add Word layout and email body support for Purchase Quote and Sales Shipment](../../../../changes/bcapps/9564.md) (code change): "Word layouts and email body support have been added for Purchase Quote and Sales Shipment"
+- [#9568 [main] bug 640523 - Bonus depreciation functionality in CZ](../../../../changes/bcapps/9568.md) (code change): "Czech Republic fixed asset localization now supports bonus depreciation functionality"
 
 ## Business Central pages and reports
 

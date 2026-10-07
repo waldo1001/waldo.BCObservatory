@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:09.985Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1938040a5f2c15810b216daa5d3f686817753d3b1aa455e8d3f16e03e2b1bca3
+  input_hash: 1a679233458e680d7b95d881d2cfbae1e3085f1052b94c238ef08d9ac0d98745
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/
@@ -72,13 +72,23 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/BC-Trivia.CDY-nZgS_Z1UOgWe.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:12.072Z"
 ---
 
 # BC Friday Tips #80 Business Central Trivia
 
-> Business Central Trivia is a website where users can test their BC knowledge, earn points, and compete on a leaderboard. It provides an engaging alternative to traditional training materials for consultants, developers, and power users.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-21 · 87 words · tier community · **unreviewed** (machine-generated)
+
+> Business Central Trivia is a website where users can test their BC knowledge, earn points, and compete on a leaderboard. It provides an engaging alternative to traditional training materials for consultants, developers, and power users.
 
 ## Key points
 

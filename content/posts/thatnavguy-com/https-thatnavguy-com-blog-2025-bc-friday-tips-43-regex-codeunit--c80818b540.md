@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:25.065Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 237225c8783563d7e3a74ee367d2ff0005625b76f1069c3c46a0b349db3ada98
+  input_hash: 2b39a0f0fc011c2c5848e8582e42c6ae30f7de1cf4e144b4feb349585f9d6795
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-43-regex-codeunit/
@@ -72,6 +72,16 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-43-regex-codeunit.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:22.472Z"
 ---
 
 # BC Friday Tips #43 Regex Codeunit

@@ -2,7 +2,7 @@
 id: localization/fr
 type: localization
 title: France (FR)
-summary: France (FR) localization of Business Central 29. It covers payment management with payment slips, RIB bank details and SEPA, French general ledger reports, fiscal period and year closing, FEC and XML ledger exports, accelerated (derogatory) depreciation, SIREN/SIRET fields, and French sales invoice specifics.
+summary: France localization of Business Central 29. It adds French payment management with payment slips, RIB bank keys, the FEC tax audit export, fiscal year closing, accelerated (derogatory) depreciation, SIREN/SIRET identifiers, DEB Intrastat and service declarations. It answers questions about local setup, posting rules and reports.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: f98d5aedf044f8da82a2684aa74ec1267985e86bee9d09c4c26b6a02d70ea9fd
+  input_hash: a13b75ac316c186b741f0b921d29e7065dfd8028e74f1ba7e7883052d0177219
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -121,28 +121,28 @@ learn_folder: LocalFunctionality/France
 
 # France (FR)
 
-> France (FR) localization of Business Central 29. It covers payment management with payment slips, RIB bank details and SEPA, French general ledger reports, fiscal period and year closing, FEC and XML ledger exports, accelerated (derogatory) depreciation, SIREN/SIRET fields, and French sales invoice specifics.
+> France localization of Business Central 29. It adds French payment management with payment slips, RIB bank keys, the FEC tax audit export, fiscal year closing, accelerated (derogatory) depreciation, SIREN/SIRET identifiers, DEB Intrastat and service declarations. It answers questions about local setup, posting rules and reports.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/france.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The French layer adds a full payment management module: payment classes, statuses, steps, payment slips with archive, payment addresses, and reports such as Bill, Draft, Remittance, Withdraw, Transfer and SEPA ISO20022. Bank, customer and vendor bank account tables get Agency Code, RIB Key and RIB Checked fields, and codeunit 10801 "RIB Key" handles the key. Learn documents this under Payment Management [FR], Set Up Payment Classes [FR], Create Payment Slips [FR] and How to Export Payments.
+The French layer is dominated by payment management: payment classes, statuses, steps, payment slips (with archive), payment addresses and step ledgers. These come as FR objects (pages 10831 to 10854, codeunits 10831 to 10844) plus a second set of non-suffixed objects (codeunit 10860 "Payment Management", pages 10860 to 10882). Bank, customer and vendor bank accounts get French RIB fields (Agency Code, RIB Key, RIB Checked). Learn documents creating, posting, archiving and exporting payment slips, payment classes, payment addresses and parameter export/import.
 
-In finance, the code adds French trial balance, journal and detail reports for G/L, customers, vendors and banks, FR account schedules, G/L entry application (Applies-to ID, Letter, Letter Date), reconciliation reports, and XML and audit exports. Accounting Period and General Ledger Setup carry fiscal closing and posting range logic, supported by codeunit 10862 "Fiscal Year-FiscalClose". Fixed assets gain derogatory (accelerated) depreciation through new fields on FA Posting Group, Depreciation Book and FA Depreciation Book, plus extra procedures in disposal, depreciation and posting codeunits.
+Finance changes cover the FEC audit file export (codeunits 10826 to 10830, an Audit File Export format enum extension), fiscal period and fiscal year closing (new fields on table 50 "Accounting Period", table 98 "General Ledger Setup" posting ranges), G/L entry application (Applies-to ID, Letter, Letter Date on table 17 "G/L Entry"), delayed unrealized VAT, and local ledger reports such as journals, trial balances and the GL/Cust. Ledger Reconciliation. Fixed assets add derogatory (accelerated) depreciation through new fields on posting groups, depreciation books and ledger entries, and extra procedures in disposal and posting codeunits.
 
-Company Information, Contact, Customer and Vendor carry French identifiers (SIREN, SIRET, APE Code, Trade Register, Legal Form, Stock Capital). Sales invoice and credit memo reports get goods/services and VAT paid on debits text. Learn also covers UBL 2.1 and Factur-X e-invoicing, e-reporting and DEB declarations.
+Elsewhere the country adds SIREN/SIRET and company registration fields on Company Information, Customer, Vendor and Contact, VAT Paid on Debits and goods/services text on sales invoices, DEB Intrastat objects, and French service declaration extensions. Learn also covers UBL 2.1 and Factur-X e-invoicing and E-Reporting FR, though the code listed here shows no dedicated objects for them.
 
 ## Key points
 
-- Payment management: payment classes, statuses, steps, slips, archive, payment addresses, and export or import of setup parameters
-- RIB bank details (Agency Code, RIB Key, RIB Checked) on bank, customer and vendor bank accounts, validated by codeunit 10801
-- French G/L reports: Journals, G/L, customer, vendor and bank trial balances, FR account schedules, ledger reconciliations
-- Fiscal periods and years: fiscal close and reopen of accounting periods, posting date ranges, two open fiscal years, year-end closing
-- Audit exports: FEC format and XML export of G/L entries, with opening balances via Detailed Balance on G/L Account
-- Accelerated depreciation using derogatory posting types and separate accounting and tax depreciation books
-- SIREN and SIRET validation on Company Information, Customer, Vendor and Contact
-- Sales documents show VAT Paid on Debits and goods/services indications; delayed unrealized VAT handled in Gen. Jnl.-Post Line
+- Payment management: payment classes, statuses, steps, slips, archive, payment addresses and step ledgers, in FR and non-suffixed object sets
+- RIB fields (Agency Code, RIB Key, RIB Checked) on Bank Account, Customer Bank Account and Vendor Bank Account, with RIB Key codeunits
+- FEC tax audit export built on the Audit File Export framework, with opening balances and data checks
+- Fiscal period and year closing: Fiscally Closed, Fiscal Closing Date and Period Reopened Date on Accounting Period, plus posting allowed range on General Ledger Setup
+- Accelerated depreciation with derogatory books, posting group accounts and FA reports
+- SIREN, SIRET, APE code, Trade Register, Legal Form and Stock Capital on Company Information, Contact, Customer and Vendor
+- French sales invoice specifics: VAT Paid on Debits and goods/services text on standard sales reports
+- DEB Intrastat reporting (obligation level) and French service declaration (DES) extensions
 
 Narrative written by Sonnet from the code diff and 34 Learn page summaries. In numbers: France (FR) localization of Business Central in BC29: 240 objects of its own, 71 W1 objects changed (78 fields and 6 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -157,86 +157,106 @@ Narrative written by Sonnet from the code diff and 34 Learn page summaries. In n
 | [Inventory](#inventory) | 3 | 10 | 2 |
 | [Purchases](#purchases) | 5 | 5 | 9 |
 | [Foundation](#foundation) | 6 | 2 | 12 |
-| (no namespace) | 0 | 6 | 0 |
-| Service | 0 | 6 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 6 | 0 |
+| [Service](#service) | 0 | 6 | 0 |
 | [Security](#security) | 2 | 0 | 0 |
 | [CRM](#crm) | 1 | 0 | 5 |
-| ExpenseAgent | 0 | 1 | 0 |
+| [ExpenseAgent](#expenseagent) | 0 | 1 | 0 |
 | [HumanResources](#humanresources) | 1 | 0 | 1 |
 
 ### Bank
 
-Adds the French payment management module: payment classes, statuses, steps, payment headers and lines, archives, addresses, and many pages and reports for bills, drafts, remittances, withdrawals, transfers and SEPA ISO20022. Bank Account gets RIB fields, and French bank account trial balance and journal reports are added. SEPA codeunits get extra events and a payment line check.
+Adds the French payment management feature: payment classes, statuses, steps, payment slips with archive, payment bank and addresses, step ledgers. Adds RIB key fields to table 270 "Bank Account", plus SEPA check and Check report changes for French amount text.
 
-Why: Learn explains payment classes with statuses and steps that drive slips for vendors and customers, with SEPA export and archiving of processed slips.
+Why: Learn describes payment classes, steps and slips used to manage bills of exchange, checks and SEPA transfers, and export of payment files.
 
-Objects: [codeunit/10860 "Payment Management"](../objects/codeunit/10860-fr.md) (own), [table/10865 "Payment Header"](../objects/table/10865-fr.md) (own), [table/10866 "Payment Line"](../objects/table/10866-fr.md) (own), [table/10860 "Payment Class"](../objects/table/10860-fr.md) (own), [codeunit/10801 "RIB Key"](../objects/codeunit/10801-fr.md) (own), [table/270 "Bank Account"](../objects/table/270.md), [report/10883 "SEPA ISO20022"](../objects/report/10883-fr.md) (own), [codeunit/1233 "SEPA DD-Check Line"](../objects/codeunit/1233.md).
+Objects: [codeunit/10860 "Payment Management"](../objects/codeunit/10860-fr.md) (own), [codeunit/10837 "Payment Management FR"](../objects/codeunit/10837-fr.md) (own), [codeunit/10801 "RIB Key"](../objects/codeunit/10801-fr.md) (own), [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10861 "Payment-Apply"](../objects/codeunit/10861-fr.md) (own), [page/10864 "Payment Class"](../objects/page/10864-fr.md) (own), [page/10868 "Payment Slip"](../objects/page/10868-fr.md) (own), [report/1401 "Check"](../objects/report/1401.md).
 
 [All 163 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Finance
 
-Adds French G/L reports (journals, trial balances, account statement), FR account schedules, G/L entry application, ledger reconciliation reports and XML export of entries. General Ledger Setup, G/L Entry and Gen. Journal Line get fields for posting ranges, letters and delayed unrealized VAT, with matching procedures in Gen. Jnl.-Post Line.
+Adds FEC audit export, French trial balance and journal reports, fiscal year closing, G/L entry application and delayed unrealized VAT. Extends Gen. Jnl.-Post Line and journal line tables with derogatory and VAT realization fields, and G/L Setup with posting ranges.
 
-Why: Learn describes these as required French reports and tax audit exports, plus apply and unapply of G/L entries (flagged as being replaced).
+Why: Learn documents FEC export for tax audits, fiscal period closing with two open fiscal years, and year-end closing entries.
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/17 "G/L Entry"](../objects/table/17.md), [codeunit/10862 "Fiscal Year-FiscalClose"](../objects/codeunit/10862-fr.md) (own), [report/10803 "G/L Trial Balance"](../objects/report/10803-fr.md) (own), [report/10820 "Export G/L Entries to XML"](../objects/report/10820-fr.md) (own), [xmlport/10800 "Export G/L Entries"](../objects/xmlport/10800-fr.md) (own).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/10826 "Generate File FEC"](../objects/codeunit/10826-fr.md) (own), [codeunit/10862 "Fiscal Year-FiscalClose"](../objects/codeunit/10862-fr.md) (own), [codeunit/10842 "G/L Entry Application"](../objects/codeunit/10842-fr.md) (own), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/17 "G/L Entry"](../objects/table/17.md), [report/10803 "G/L Trial Balance"](../objects/report/10803-fr.md) (own).
 
 [All 50 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### FixedAssets
 
-Implements accelerated (derogatory) depreciation with new fields on FA Posting Group, Depreciation Book and FA Depreciation Book, derogatory posting types in enums, and extra logic in disposal, depreciation and journal posting codeunits. Adds professional tax on Fixed Asset and two French reports.
+Adds derogatory (accelerated) depreciation: fields on FA Posting Group, Depreciation Book, FA Depreciation Book and FA Ledger Entry, derogatory posting types in enums, and procedures in disposal, depreciation and posting codeunits. Adds professional tax reports.
 
-Why: Learn says accelerated depreciation computes differences between tax and accounting books using derogatory posting types.
+Why: Learn explains accelerated depreciation as the difference between tax and accounting depreciation books.
 
-Objects: [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [codeunit/5605 "Calculate Disposal"](../objects/codeunit/5605.md), [report/5692 "Calculate Depreciation"](../objects/report/5692.md), [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [report/10886 "FA - Proj. Value (Derogatory)"](../objects/report/10886-fr.md) (own), [report/10812 "Fixed Asset-Professional Tax"](../objects/report/10812-fr.md) (own).
+Objects: [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [codeunit/5605 "Calculate Disposal"](../objects/codeunit/5605.md), [codeunit/5613 "Calculate Acq. Cost Depr."](../objects/codeunit/5613.md), [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [report/5692 "Calculate Depreciation"](../objects/report/5692.md), [report/10817 "FA-Proj. Value (Derogatory) FR"](../objects/report/10817-fr.md) (own).
 
 [All 28 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### Sales
 
-Adds SIREN No. and payment-in-progress fields on Customer, RIB fields on customer bank accounts, and VAT Paid on Debits on sales headers. Standard invoice and credit memo reports get goods/services and VAT on debits texts. Shipment-to-invoice links get their own table and pages, and French customer trial balance and journal reports are added.
+Adds SIREN No. and payment reporting fields on Customer, VAT Paid on Debits on sales headers, goods and services text procedures on standard sales invoice reports, and French customer ledger reports. Adds shipment-invoice linking via table 10825 "Shipment Invoiced".
 
-Why: Learn covers SIREN setup, VAT paid on debts printing and automatic goods or services indication on French invoices.
+Why: Learn covers customer SIREN numbers, printing VAT on debits and automatic goods/services indication on invoices.
 
-Objects: [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md), [report/1303 "Standard Sales - Draft Invoice"](../objects/report/1303.md), [table/10825 "Shipment Invoiced"](../objects/table/10825-fr.md) (own), [page/10837 "Invoices bound by Shipment"](../objects/page/10837-fr.md) (own), [report/10805 "Customer Trial Balance FR"](../objects/report/10805-fr.md) (own), [table/287 "Customer Bank Account"](../objects/table/287.md).
+Objects: [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md), [report/1303 "Standard Sales - Draft Invoice"](../objects/report/1303.md), [table/10825 "Shipment Invoiced"](../objects/table/10825-fr.md) (own), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [report/10805 "Customer Trial Balance FR"](../objects/report/10805-fr.md) (own), [table/287 "Customer Bank Account"](../objects/table/287.md).
 
 [All 22 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Inventory
 
-Adds Shipment Method Code to Item Ledger Entry and Item Journal Line, and changes the Intrastat journal line for French trade declarations.
+Adds DEB Intrastat support: codeunits for filtering receipts and shipments, an obligation level enum, and extensions on the Intrastat report and company information. Adds Shipment Method Code on item entries.
 
-Why: Learn lists the Intrastat journal fields needed for the DEB declaration of trade in goods.
+Why: Learn describes DEB reporting that needs company information and Intrastat fields filled in, with obligation level filters.
 
-Objects: [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
+Objects: [codeunit/10851 "IntrastatReportManagementFR"](../objects/codeunit/10851-fr.md) (own), [codeunit/10853 "Intrastat Rep. Filter Rcpt. FR"](../objects/codeunit/10853-fr.md) (own), [codeunit/10854 "Intrastat Rep. Filter Shpt. FR"](../objects/codeunit/10854-fr.md) (own), [enum/10851 "Obligation Level"](../objects/enum/10851-fr.md) (own), [tableextension/10851 "Intrastat Report Header FR"](../objects/tableextension/10851-fr.md) (own), [pageextension/10852 "Intrastat Report FR"](../objects/pageextension/10852-fr.md) (own), [table/32 "Item Ledger Entry"](../objects/table/32.md).
 
 [All 13 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Purchases
 
-Adds SIREN No., payment-in-progress and payment reporting exclusion fields on Vendor, RIB fields on vendor bank accounts, and French vendor trial balance and journal reports.
+Adds RIB fields on Vendor Bank Account, SIREN No. and payment fields on Vendor, plus vendor trial balance and journal reports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [report/10807 "Vendor Trial Balance FR"](../objects/report/10807-fr.md) (own), [report/10808 "Vendor Detail Trial Balance FR"](../objects/report/10808-fr.md) (own), [report/10814 "Vendor Journal"](../objects/report/10814-fr.md) (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
+Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/23 "Vendor"](../objects/table/23.md), [report/10814 "Vendor Journal"](../objects/report/10814-fr.md) (own), [report/10807 "Vendor Trial Balance FR"](../objects/report/10807-fr.md) (own), [report/10808 "Vendor Detail Trial Balance FR"](../objects/report/10808-fr.md) (own), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/317 "Payable Vendor Ledger Entry"](../objects/table/317.md).
 
 [All 10 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Foundation
 
-Company Information gets French identity fields and SIRET validation with an event. Accounting Period gets fiscal close, reopen and posting range logic. Date filter and navigate helpers are extended, and Country/Region gets SEPA Allowed.
+Extends Company Information with French registration fields and SIRET validation with an event, and Accounting Period with fiscal closing logic. Adds a SEPA Allowed flag on Country/Region and date filter helpers.
 
-Why: Learn explains fiscal closing of periods and years, with two open fiscal years allowed, and the company data needed for e-invoicing and DEB.
+Why: Learn notes that company information such as SIRET and SIREN is needed for e-invoicing and DEB reporting.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/50 "Accounting Period"](../objects/table/50.md), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/9 "Country/Region"](../objects/table/9.md), [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-fr.md) (own), [table/10 "Shipment Method"](../objects/table/10.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/50 "Accounting Period"](../objects/table/50.md), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/9 "Country/Region"](../objects/table/9.md), [codeunit/10833 "Local Navigate Handler FR"](../objects/codeunit/10833-fr.md) (own), [table/10 "Shipment Method"](../objects/table/10.md).
 
 [All 8 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
+### (no namespace)
+
+Holds mostly upgrade code, the FR-PMS permission set, a source code table extension and an Employee Marital Status enum.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [permissionset/10800 "FR-PMS"](../objects/permissionset/10800-fr.md) (own), [tableextension/10810 "SourceCodeFR"](../objects/tableextension/10810-fr.md) (own), [enum/5226 "Employee Marital Status"](../objects/enum/5226-fr.md) (own).
+
+[All 6 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Service
+
+Adds local service declaration (DES) management and export codeunits, with setup page extensions and a permission set extension.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/10890 "Local Service Declaration Mgt."](../objects/codeunit/10890-fr.md) (own), [codeunit/10891 "Local Export Serv. Decl."](../objects/codeunit/10891-fr.md) (own), [codeunit/10892 "Local Serv. Decl. Exp. Ext."](../objects/codeunit/10892-fr.md) (own), [pageextension/10890 "Local Serv. Decl. Setup"](../objects/pageextension/10890-fr.md) (own), [pageextension/10891 "Local Serv. Decl. Setup Wizard"](../objects/pageextension/10891-fr.md) (own).
+
+[All 6 objects of Service in the diff](?ns=Service#country-diff)
+
 ### Security
 
-Changes the LOCAL and LOCAL READ permission sets to cover the French objects.
+Changes the LOCAL and LOCAL READ permission sets to include French objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -246,7 +266,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### CRM
 
-Contact gets Trade Register, APE Code, Legal Form, Stock Capital and SIREN No., with procedures that keep the customer SIREN in sync.
+Adds French registration fields (Trade Register, APE Code, Legal Form, Stock Capital, SIREN No.) to Contact, with procedures to keep the customer SIREN number in sync.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -254,9 +274,19 @@ Objects: [table/5050 "Contact"](../objects/table/5050.md).
 
 [All 1 objects of CRM in the diff](?ns=CRM#country-diff)
 
+### ExpenseAgent
+
+Adds an FR expense event subscriber codeunit.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/6920 "Expense Event Subscriber FR"](../objects/codeunit/6920-fr.md) (own).
+
+[All 1 objects of ExpenseAgent in the diff](?ns=ExpenseAgent#country-diff)
+
 ### HumanResources
 
-Employee gets a Marital Status field, backed by a local enum.
+Adds a Marital Status field to Employee.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:13.261Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12307
 learn_toc_path:
   - Business Central on-premises
   - Upgrade
@@ -100,5 +102,11 @@ Start by identifying your current version and whether the base application was m
 - [Upgrading Customized C/AL Application to Microsoft Base Application for version 25](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v25): Describes how to do an upgrade from a customized Business Central 14 to Microsoft Base Application for version 25.
 - [Upgrading Microsoft System and Base Application to Version 25](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v25): Describes how to upgrade an unmodified Business Central version 15 through 24 to version 25
 - [Upgrading Unmodified C/AL Application to version 25](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v25): Describes how to upgrade an unmodified Business Central 14 application to version 25
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12307 Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)](../../../../../changes/bcapps/12307.md) (code change): "UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

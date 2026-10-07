@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:44:00.506Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 783b89d5969b2ba385167dccc245789911a822b117684c242d9799e8288fb38c
+  input_hash: 178507ad53e5c3d3a9fb3a0652aae65d3d56f76b97800216b539aeeb3ed54e37
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/
@@ -71,13 +71,23 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/InitValue.zfavSe7Y_2ph9IM.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:17.932Z"
 ---
 
 # BC Friday Tips #78 InitValue Property
 
-> The InitValue property sets a default value for new table fields when records are created, initialized, or cleared. This property applies only to new records and cannot be used on standard fields through table extensions.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-07 · 110 words · tier community · **unreviewed** (machine-generated)
+
+> The InitValue property sets a default value for new table fields when records are created, initialized, or cleared. This property applies only to new records and cannot be used on standard fields through table extensions.
 
 ## Key points
 

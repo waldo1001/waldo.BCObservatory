@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:45.545Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11419
+    - change/bcapps/12127
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -91,5 +94,12 @@ Start with the reporting overview to see which reports exist, then follow the cr
 
 - [How to Create a VAT Statement](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement): You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
 - [VAT reporting in the Austrian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting): You can report VAT electronically to the tax authorities in the Austrian version.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11419 [main] Bug 650139 The Non-Deductible VAT Amount is currently not taken into account in the VAT return Austria](../../../../../changes/bcapps/11419.md) (code change): "The Austrian VAT return report now includes non-deductible VAT amounts"
+- [#12127 [AT] VAT Statement report doesn't print the 4.9% VAT rate columns on the U30 Form](../../../../../changes/bcapps/12127.md) (code change): "VAT Statement report for Austria now correctly includes 4.9% VAT rate columns"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

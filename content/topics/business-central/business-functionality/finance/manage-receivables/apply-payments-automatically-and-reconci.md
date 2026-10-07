@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10376
+    - change/bcapps/10412
+    - change/bcapps/10819
+    - change/bcapps/8953
+    - change/bcapps/9673
 learn_toc_path:
   - Business functionality
   - Finance
@@ -133,6 +139,16 @@ Start with "Reconcile bank accounts and apply payments" for the overview, then "
 - [Rules for automatic application of payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules): Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10376 [Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…](../../../../../changes/bcapps/10376.md) (code change): "Credit memos applied to rejected bills now post the Rejected Bills Account"
+- [#10412 Fixes in Excel reports for Aged Accounts.](../../../../../changes/bcapps/10412.md) (code change): "Aged Accounts Excel reports now properly handle customers and vendors"
+- [#10819 [Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path](../../../../../changes/bcapps/10819.md) (code change): "OnAfterGetLedgEntryInfo event is re-fired during payment proposal creation"
+- [#8953 [Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores "Period Count" specified by user.](../../../../../changes/bcapps/8953.md) (code change): "Aged Accounts Receivable and Payable Excel reports now correctly respect the Period Count parameter"
+- [#9673 Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts](../../../../../changes/bcapps/9673.md) (code change): "Payment reconciliation journal posting now rounds imported bank fee amounts"
 
 ## Business Central pages and reports
 

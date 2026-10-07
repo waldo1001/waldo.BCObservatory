@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 987916c16be452a9e24ca60e265377fc11f5e93a7d9d60d9efe7ab97b3672e4d
+  input_hash: 3945e6ce80ab98821922173dd07e4f35c79cc2beb80f8c0f0e6ecbd5ba8ff15a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAContactList.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10036
 object_type: pagecustomization
 object_id: null
 name: SOA Contact List
@@ -73,6 +75,10 @@ relations:
 > Page customization "SOA Contact List" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
 SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAContactList.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-13 [#10036 [SOA]: Bugbash for releases 28.x - Contact unable to find due to Qasim map to Megan, different names](../../changes/bcapps/10036.md) (main, BC30, feature)
 
 ## Across versions
 

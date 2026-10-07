@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:07.400Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c1a04839a674df2e178266fe4ab477e5488ca6f274ee6896555ef332b25f840e
+  input_hash: faa9d78fcd78412ed7c21c24e51d60bce6b4bc6308328d7cb35b5c7bc0e7ea32
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/
@@ -69,6 +69,16 @@ code_objects_mentioned:
 systems:
   - sales
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:00.994Z"
 ---
 
 # BC Friday Tips #56 Understand Missing Fields in Copy Documents

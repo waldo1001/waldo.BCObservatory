@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:35.140Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 57cde122fc070495978f53a7c2cbbabf9bdaee7772e2ab4d507e2c6bcac351ae
+  input_hash: 9c5a7332ec33758d0d7f673c2373d711ed67886ecc45f930deb12b957301dba9
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/25/what-is-algoctl/
@@ -75,13 +75,23 @@ systems:
   - integration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:10.108Z"
 ---
 
 # What is ALGoCtl?
 
-> ALGoCtl is a command-line tool that automates AL-Go for GitHub repository management tasks including repository creation from templates, system file updates, and release creation. It addresses gaps in GitHub and GitHub Enterprise Cloud workflows by enabling cross-host template usage and batch operations.
-
 [Read the post](https://freddysblog.com/2026/08/25/what-is-algoctl/) · Freddys blog (Freddy Kristiansen) · 2026-08-25 · 1192 words · tier community · **unreviewed** (machine-generated)
+
+> ALGoCtl is a command-line tool that automates AL-Go for GitHub repository management tasks including repository creation from templates, system file updates, and release creation. It addresses gaps in GitHub and GitHub Enterprise Cloud workflows by enabling cross-host template usage and batch operations.
 
 ## Key points
 

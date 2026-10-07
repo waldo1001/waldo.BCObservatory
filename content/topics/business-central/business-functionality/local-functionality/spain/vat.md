@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10023
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -216,6 +218,12 @@ Start with the VAT Reports page for an overview and with Equivalence Charges to 
 - [Set up 340 reports for small businesses [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses): Learn how to set up 340 reports for small businesses in Spain on cash basis, that is, Cash Accounting Criteria (CAC)
 - [Set up SII for VAT reporting [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup): Set up and submit documents with SII in Business Central, and resolve incorrect or pending statuses from posted documents in Spain.
 - [VAT Reports [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports): Provides detailed information about VAT functionality for transactions involving goods and services in Spain, including imports.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10023 [Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.](../../../../../changes/bcapps/10023.md) (code change): "Invoice split payment posting in the Spanish version now preserves the alternative customer posting group"
 
 ## Business Central pages and reports
 

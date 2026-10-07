@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:03.952Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0473ff531305dd3b975a83f31c14cd3627e56841aa3adaf96407af57f45fe534
+  input_hash: 90363ee617db1445a513a1cabd6585a05df5ae6c18e4afb4a9f0ba7d531057b3
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/copilot-to-claude-code/
@@ -58,13 +58,23 @@ systems:
 versions_mentioned:
   - Claude Code
   - Copilot vol.3
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://tine.staric.net/images/copilottoclaudecode/main.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-07T11:50:11.748Z"
 ---
 
 # Copilot is agent-first, Claude Code is skill-first
 
-> Copilot uses an agent-first architecture where you select a persona before interacting, while Claude Code is skill-first with a single agent throughout a session. Understanding this difference is crucial when migrating custom agents between platforms, as agents that step into conversations in Copilot map to skills in Claude Code, while those that fork and report map to subagents.
-
 [Read the post](https://tine.staric.net/blog/2026/copilot-to-claude-code/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-21 · 1097 words · tier community · **unreviewed** (machine-generated)
+
+> Copilot uses an agent-first architecture where you select a persona before interacting, while Claude Code is skill-first with a single agent throughout a session. Understanding this difference is crucial when migrating custom agents between platforms, as agents that step into conversations in Copilot map to skills in Claude Code, while those that fork and report map to subagents.
 
 ## Key points
 

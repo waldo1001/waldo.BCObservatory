@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:13.278Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 30250915e05089aa0dfd6bb0d77a659fc28f0f7b53231ead9a4c1d2c3f3abef7
+  input_hash: 1962020389f631ef5f4f3b17cf8590aa319c16d6dbbfe22d7415698a3b60581e
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/
@@ -73,6 +73,16 @@ systems:
   - integration
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:24.849Z"
 ---
 
 # BC Friday Tips #41 Line Separator in Data Exchange Definition

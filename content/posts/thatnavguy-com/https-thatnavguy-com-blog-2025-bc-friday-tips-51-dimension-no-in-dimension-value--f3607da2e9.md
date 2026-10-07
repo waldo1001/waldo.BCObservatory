@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:19.457Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 471dcedd697696f8dedffbc45cb4b36af79934d6d5b5cd5c84a05219494e68c2
+  input_hash: 6e723e9842a930caf8444c77cfac9e6e0fe7a11789fd989e21fa4c007921635c
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/
@@ -74,6 +74,16 @@ systems:
   - finance
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-51-dimension-no-in-dimension-value.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:11.974Z"
 ---
 
 # BC Friday Tips #51 Dimension No. in Dimension Value

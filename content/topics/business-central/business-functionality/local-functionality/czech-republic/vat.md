@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:52.744Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,6 +156,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9598
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -215,6 +217,12 @@ This section describes the Czech localization of VAT in Business Central. It has
 - [VAT Control Report [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-control-report): Companies registered for VAT in the Czech Republic with a CZ VAT ID are required to submit the VAT Control Report.
 - [VAT Return Periods in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-periods): Learn about VAT Return Periods in Czechia, and how it's used in Business Central for VAT reporting.
 - [VAT returns in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz): Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9598 [main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL](../../../../../changes/bcapps/9598.md) (code change): "A new public codeunit provides VAT Statement calculation events for Czech localization, replacing an obsolete event"
 
 ## Business Central pages and reports
 

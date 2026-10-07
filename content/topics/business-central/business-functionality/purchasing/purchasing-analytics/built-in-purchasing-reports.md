@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:41.840Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,6 +164,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11366
+    - change/bcapps/9549
 learn_toc_path:
   - Business functionality
   - Purchasing
@@ -242,6 +245,13 @@ This section is a set of reference pages, one for each built-in purchasing repor
 - [Vendor - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-329): Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
 - [Vendor Item catalog (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-320): Get a list of vendors by item or items per vendor.
 - [Vendor/Item Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11366 Filter top customer and top vendor Excel reports on the posting group](../../../../../changes/bcapps/11366.md) (code change): "The Top Customer and Top Vendor Excel reports now correctly filter on posting group"
+- [#9549 636017 Move Purchases report action tooltips to report objects](../../../../../changes/bcapps/9549.md) (code change): "Tooltips for 18 purchase-related reports are now defined on the report objects"
 
 ## Business Central pages and reports
 

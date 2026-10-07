@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:52:53.962Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: f5f02f5572287b6f942868f37dbb248c927927bff8abeea7ccc832187c302b80
+  input_hash: 57aa30927997dcffb3dfab89364d9916e7ce0192ced5fd88547bd5a24e7bb5aa
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/
@@ -72,13 +72,23 @@ systems:
   - development
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/Dynamics-BC-Excel-Reports.DeSTATlz_Z1DHQPC.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:23.802Z"
 ---
 
 # BC Friday Tips #75 Dynamics BC Excel Reports
 
-> Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension rather than the Base Application, requiring developers to add it as a dependency when extending these objects.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-17 · 86 words · tier community · **unreviewed** (machine-generated)
+
+> Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension rather than the Base Application, requiring developers to add it as a dependency when extending these objects.
 
 ## Key points
 

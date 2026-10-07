@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:12.415Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7fa641642d6d77e4a74e13a5fe1f4bb1a0942f2b4bed61f7535cefaee404c74f
+  input_hash: 8d732d3c7d0255cc3c7498466516602cf6fee218b920e1d68e3e64eebb5bbd23
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-49-page-scripting-and-ai/
@@ -74,6 +74,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-49-page-scripting-and-ai.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:14.189Z"
 ---
 
 # BC Friday Tips #49 Page Scripting and AI

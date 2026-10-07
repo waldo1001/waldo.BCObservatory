@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:45.270Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 320365b9f6cde843bfda962db579dd2fb6fcd46413194e11ea1c6a2709980ce4
+  input_hash: 253c102426c6ee1320888751a28fa9426307653876c8658dd3fc6bd2fd7492fd
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/
@@ -76,13 +76,23 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:11.629Z"
 ---
 
 # Which AI Model Should You Use for Which Task?
 
-> A framework for matching AI models to tasks based on four dimensions: verifiability, task difficulty, cost and latency sensitivity, and consequence of a miss. Weaker models work well on verifiable, mechanical tasks with good harnesses and skills, while stronger models handle high-stakes, hard-to-verify work where judgment is essential.
-
 [Read the post](https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/) · Freddys blog (Freddy Kristiansen) · 2026-08-23 · 3747 words · tier community · **unreviewed** (machine-generated)
+
+> A framework for matching AI models to tasks based on four dimensions: verifiability, task difficulty, cost and latency sensitivity, and consequence of a miss. Weaker models work well on verifiable, mechanical tasks with good harnesses and skills, while stronger models handle high-stakes, hard-to-verify work where judgment is essential.
 
 ## Key points
 

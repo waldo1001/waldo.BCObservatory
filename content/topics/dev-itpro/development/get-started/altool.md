@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:12.842Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,11 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/al-go/2304
+    - change/al-go/2327
+    - change/al-go/2376
+    - change/al-go/2382
 learn_toc_path:
   - Development
   - Get started
@@ -91,5 +96,14 @@ Start with the package page to understand what the package contains and that it 
 
 - [AL Development Tools package](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool-package): Streamline AL extension development with the AL Development Tools package. Access powerful command-line utilities for compiling, packaging, and automating workflows.
 - [ALTool Command-Line Reference for AL Development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool): Simplify AL extension development with ALTool. Validate code, package extensions, and integrate into CI/CD pipelines for seamless deployment.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#2304 Support framework-dependent (flat) AL Language extension layout](../../../../changes/al-go/2304.md) (code change): "Get-ALTool probes nested bin/win32 or bin/linux paths first"
+- [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../../../../changes/al-go/2327.md) (code change): "AL-Go pipeline now supports skipping the upgrade phase"
+- [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now correctly handles project and app paths"
+- [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

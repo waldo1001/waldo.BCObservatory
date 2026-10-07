@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3eca03192351077db297a9e4d220161da49e48ebb9a4403d257a39c893d5c0ee
+  input_hash: cdf5fb84a7c90c918536acd4ff69cae78d04b487f3016d7416ce5e00763ac791
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9988
 object_type: entitlement
 object_id: null
 name: EA - Azure AD Application API
@@ -73,6 +75,10 @@ relations:
 > Entitlement "EA - Azure AD Application API" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
 ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAAzureADApplicationApi.Entitlement.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-13 [#9988 [Expense Agent] Fix Employee subscriber permissions](../../changes/bcapps/9988.md) (main, BC30, feature, added)
 
 ## Across versions
 

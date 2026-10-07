@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9109",
+  "number": 9109,
+  "title": "[Shopify] Add Transactions navigation action to Shopify Refund page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Refund page now includes a Transactions navigation action that displays payment transactions linked to a specific refund, matching the functionality already available on the Shopify Order page.",
+  "key_points": [
+    "Added Transactions action to the Shopify Refund page navigation area",
+    "Opens Shpfy Order Transactions filtered by Refund Id",
+    "Provides feature parity with the Shopify Order page",
+    "Uses existing Refund Id field connection in transaction data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00331,
+    "changes_in_call": 1
+  }
+}

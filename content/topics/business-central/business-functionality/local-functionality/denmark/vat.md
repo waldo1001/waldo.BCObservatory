@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:22.281Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9543
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -100,6 +102,12 @@ Start with the VAT-VIES page if you trade within the EU, since it covers the reg
 - [How to print VAT reconciliation reports [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports): In Business Central, the VAT Reconciliation report displays a list of general ledger accounts with their corresponding base amounts and VAT amounts.
 - [VAT Registration No. for Intrastat [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat): Learn how to set up a VAT registration number as specified by the Danish Intrastat requirements.
 - [VAT-VIES Reporting [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting): You can create the required VAT declarations for trade of goods or services file in the Danish version by using the EC Sales List report.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9543 Support VAT return reporting frequencies in Denmark](../../../../../changes/bcapps/9543.md) (code change): "The Danish electronic VAT declaration system now supports multiple reporting frequencies"
 
 ## Business Central pages and reports
 

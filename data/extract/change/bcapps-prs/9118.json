@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9118",
+  "number": 9118,
+  "title": "Bugs/master GitHub event batch 1745",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "inventory",
+    "manufacturing"
+  ],
+  "summary": "Batch of bug fixes addressing issues across sales, inventory, and manufacturing modules including corrections to line item handling, journal posting, and production order calculations.",
+  "key_points": [
+    "Fixes applied to Sales Line and Sales Shipment Line across multiple localization layers",
+    "Item Journal Post Line codeunit corrected across regional versions",
+    "Production Order Component and routing line calculation issues resolved",
+    "Item availability checking and planning parameter retrieval improved",
+    "Import and export of item budget reports enhanced"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01258,
+    "changes_in_call": 1
+  }
+}

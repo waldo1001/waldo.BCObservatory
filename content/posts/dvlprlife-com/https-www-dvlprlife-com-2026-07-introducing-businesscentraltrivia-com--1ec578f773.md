@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:45:15.863Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 9783b15fb2480fe03b4ba2256f31d86fbf8298065d6120fd64eda538c31176c9
+  input_hash: eac486d7200e18c52dad07809391417affe3eeee7d9bd55f529151a0628e52a6
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/
@@ -80,13 +80,23 @@ code_objects_mentioned: []
 systems:
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/07/introducing-businesscentraltrivia-com-social.jpg
+  image_alt: Introducing BusinessCentralTrivia.com – DvlprLife.com
+  image_w: 1200
+  image_h: 654
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:23.691Z"
 ---
 
 # Introducing BusinessCentralTrivia.com
 
-> BusinessCentralTrivia.com is an educational trivia game for Business Central users and learners, available on phone and desktop. The site offers pre-set questions across functional, historical, and development knowledge areas, with a test event running in late July 2026 featuring 50 daily questions and hourly play sessions.
-
 [Read the post](https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 193 words · tier community · **unreviewed** (machine-generated)
+
+> BusinessCentralTrivia.com is an educational trivia game for Business Central users and learners, available on phone and desktop. The site offers pre-set questions across functional, historical, and development knowledge areas, with a test event running in late July 2026 featuring 50 daily questions and hourly play sessions.
 
 ## Key points
 

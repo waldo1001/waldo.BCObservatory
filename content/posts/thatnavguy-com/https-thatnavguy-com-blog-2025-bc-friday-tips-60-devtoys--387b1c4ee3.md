@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:22:56.146Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b1302f94296ebd85a362139be2141b3d2fbc41985e57708c1c8319f78ced27e7
+  input_hash: 924170b41006f313f96321ca695041945ed1a6a5b5a3a4835d598a5a702017bb
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-60-devtoys/
@@ -71,6 +71,16 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-60-devtoys.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:53.224Z"
 ---
 
 # BC Friday Tips #60 DevToys

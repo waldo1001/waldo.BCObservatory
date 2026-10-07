@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:44:53.610Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 85eb79cd8003b644cb85205ac293546fe6bf35b6e52c4005a8187c13f709dab1
+  input_hash: 57b5cd268e4f667f77f059cb4e8989d7872c0b1dd30da877fd0f0d356af37b25
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/
@@ -71,13 +71,23 @@ quotes:
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/08/obsidian.png
+  image_alt: I Finally Fixed My Note-Taking (It Wasn't a Note-Taking Problem) – DvlprLife.com
+  image_w: 1024
+  image_h: 1024
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:20.053Z"
 ---
 
 # I Finally Fixed My Note-Taking (It Wasn't a Note-Taking Problem)
 
-> A developer explains how they solved their note-taking problem by combining Markdown files in Obsidian with AI agents to automate organization and linking. The approach works by keeping plain text files synced across devices and using AI tools to route tagged content to the appropriate locations without manual filing decisions.
-
 [Read the post](https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/) · DvlprLife (Brad Prendergast) · 2026-08-02 · 1132 words · tier community · **unreviewed** (machine-generated)
+
+> A developer explains how they solved their note-taking problem by combining Markdown files in Obsidian with AI agents to automate organization and linking. The approach works by keeping plain text files synced across devices and using AI tools to route tagged content to the appropriate locations without manual filing decisions.
 
 ## Key points
 

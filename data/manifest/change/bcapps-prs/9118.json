@@ -6,10 +6,35 @@
   "title": "Bugs/master GitHub event batch 1745",
   "url": "https://github.com/microsoft/BCApps/pull/9118",
   "published_at": "2026-07-07T18:29:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:13.060Z",
+      "change_class": "code",
+      "files": 37,
+      "al": 37,
+      "objects": 30,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:21.099Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.01258
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:21.276Z",
+      "objects": 30,
+      "unjoined": 7,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:21.283Z",
+      "path": "content/changes/bcapps/9118.md"
     }
   },
   "input_hash": "93dd62868af27a49a5ace047e773159d4111a0dd:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bugs master github event batch 1745"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "735e2f255d96fb28b504a5eb200528bdcd81f5c259bfb332b91ddae8cff14aad"
 }

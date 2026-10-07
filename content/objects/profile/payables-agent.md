@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: edfe5d07f210a03e0e0978e31b368d6e8f9275cafdf5a8176c4374314f3539dd
+  input_hash: 27f3246cb96fa1e46ae538a2890c8a726ae334edd6c38cf11b8aee76ee69278c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PayablesAgent.Profile.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/7546
 object_type: profile
 object_id: null
 name: Payables Agent
@@ -79,6 +81,10 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e
 | Property | Value |
 |---|---|
 | Caption | 'Payables Agent (Copilot)', Locked = true |
+
+## Recent changes
+
+- 2026-08-18 [#7546 [Payables Agent] Agent-driven line matching](../../changes/bcapps/7546.md) (main, BC30, feature)
 
 ## Across versions
 

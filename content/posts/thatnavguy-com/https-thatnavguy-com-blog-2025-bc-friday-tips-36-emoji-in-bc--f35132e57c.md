@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:20.375Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 78ca7bb5806fedd64d0362fe06cb024cbf4a585e7da17a0286ed4af0c40f7148
+  input_hash: 9eceea3d1d8eb14c0ba4d35a3ad23a4b09d56fd660ccb1326fe9e4dbcce6508a
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-36-emoji-in-bc/
@@ -53,6 +53,16 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-36-emoji-in-bc.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:31.096Z"
 ---
 
 # BC Friday Tips #36 Emoji in BC

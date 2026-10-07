@@ -16,11 +16,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:38.669Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 591b9a3a9a4b1d2dccf6d7b922ee4706b46cce8b6766755e91d621fe88dcd38b
+  input_hash: bf7d0a878e1942877272fe5caf8599197245b53517298b7442f02966080bf822
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-10-14-2026/
@@ -68,13 +68,23 @@ quotes:
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/07/introducing-businesscentraltrivia-com-social.jpg
+  image_alt: "Business Central Trivia Recap: August 10–14, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 654
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:16.852Z"
 ---
 
 # Business Central Trivia Recap: August 10–14, 2026
 
-> A recap of Business Central Trivia week (August 10-14, 2026) with 250 questions across five days, 68% answer accuracy, and three new site features including full leaderboard visibility, answer statistics, and leaderboard link after hour completion.
-
 [Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-10-14-2026/) · DvlprLife (Brad Prendergast) · 2026-08-17 · 241 words · tier community · **unreviewed** (machine-generated)
+
+> A recap of Business Central Trivia week (August 10-14, 2026) with 250 questions across five days, 68% answer accuracy, and three new site features including full leaderboard visibility, answer statistics, and leaderboard link after hour completion.
 
 ## Key points
 

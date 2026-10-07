@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:21.509Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b5bbf9d96120a852458deb5459c3775cc8033cc98176b23df9b2fdd714262142
+  input_hash: 331a8ed079103b5a4367ba780fcc6c71ba3d0d6a65b7af6ad1b1d5cc7507dd69
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries/
@@ -74,6 +74,16 @@ systems:
   - warehouse
   - inventory
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-35-item-journal-posting-and-warehouse-entries.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:32.290Z"
 ---
 
 # BC Friday Tips #35 Item Journal Posting and Warehouse Entries

@@ -5656,48 +5656,53 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance": {
       "post/aardvarklabs-blog/3761@dd2af02b14d5c5fa": {
         "verdict": "keep",
-        "reason": "Covers analyzing missing-index data and adding AL index definitions, weighing read gains against write costs.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "Focuses on analyzing missing indexes and adding AL index definitions with read/write tradeoff benchmarking.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/aardvarklabs-blog/3983@18fce89d7d64a826": {
         "verdict": "drop",
-        "reason": "About how table extensions are stored in SQL; indexing comes up only as a side benefit.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "About how table extension data is stored in SQL; indexing is only mentioned as a side benefit.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
-        "verdict": "drop",
-        "reason": "About generating sequential GUID values; index fragmentation is the motivation, not the subject.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "verdict": "keep",
+        "reason": "Explains how primary key choice affects clustered index fragmentation and page splits, which is an index design concern.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/duiliotacconi-com/1425@dfbc698cbf2a244c": {
         "verdict": "drop",
-        "reason": "About transaction isolation and locking, not indexing.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "About transaction isolation and optimized locking, not indexing.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/@02851cc68be9d711": {
         "verdict": "drop",
-        "reason": "Weekly roundup where index management is one item among several unrelated topics.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "Weekly digest where index management is one of five unrelated items.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Directly about defining keys that combine base table and extension fields, including key limits and write costs.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "Directly about defining keys/indexes spanning base and extension fields and index tradeoffs.",
+        "at": "2026-10-07T13:36:15.609Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480@edb369c1a9deec49": {
+        "verdict": "keep",
+        "reason": "Explains SIFT indexes, their read/write tradeoffs and managing them, which is part of indexing for performance.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@d39e7ae0d479a19d": {
         "verdict": "keep",
-        "reason": "Squarely about planning table indexes, clustered and non-clustered indexes, SIFT and covering indexes.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "Core treatment of planning keys, clustered/non-clustered, SIFT and columnstore indexes in BC.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "post/waldo-be/318212@6b4843149786b5de": {
         "verdict": "keep",
-        "reason": "Explains how to read missing-index data and decide which keys to add or remove in AL.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "About identifying missing indexes and adding/removing keys through AL development.",
+        "at": "2026-10-07T13:36:15.609Z"
       },
       "video/IAacWsvav1E@c258ac6fe984a811": {
         "verdict": "keep",
-        "reason": "Demonstrates index coverage information and turning indexes on or off, which bears directly on index design for performance.",
-        "at": "2026-10-07T01:59:18.348Z"
+        "reason": "Demonstrates the index management capabilities for table indexes and their lifecycle.",
+        "at": "2026-10-07T13:36:15.609Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data": {
@@ -5867,118 +5872,123 @@
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
       "post/aardvarklabs-blog/3761@dd2af02b14d5c5fa": {
         "verdict": "keep",
-        "reason": "Practical index tuning for AL tables, weighing read gains against write costs, which is a core performance practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Covers designing and testing AL table keys and indexes for performance; Copilot is only the tool used.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Teaches a concrete AL performance practice: using CreateSequentialGuid for GUID primary keys.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Developer guidance on choosing sequential GUIDs as primary keys to cut index fragmentation, a performance best practice for AL code.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/demiliani-com/13254@4ead861fadaae637": {
         "verdict": "drop",
-        "reason": "Covers an admin monitoring page, not developer performance best practices.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "About reading the Database Wait Statistics page, an admin troubleshooting tool, not AL development best practices.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/demiliani-com/14031@fde078f1a245cb8e": {
         "verdict": "keep",
-        "reason": "Explains how the ReadIsolation setting affects caching and performance in AL code.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Explains how ReadIsolation and isolation levels affect caching and performance, which is AL development performance guidance.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/duiliotacconi-com/1457@3b8733c4ef095984": {
         "verdict": "drop",
-        "reason": "Mainly an upgrade review of the 26.x release's posting and FlowField features; coding guidance is secondary.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Mainly about the gains from upgrading to release 26.x; the best-practice tips are only a side note.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/duiliotacconi-com/1624@dfbc517af25fc448": {
         "verdict": "drop",
-        "reason": "A release-wave overview of what's new, not guidance on coding practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "A roundup of what's new in version 27, too general to tie to this section's guidance.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/duiliotacconi-com/1850@cca4c417e978c93c": {
         "verdict": "keep",
-        "reason": "Explains when Rec.Truncate gives fast bulk deletes, an AL performance practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Explains when Rec.Truncate gives faster deletes in AL code, a direct performance practice.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/duiliotacconi-com/1894@6bc77cfb12e002d4": {
         "verdict": "drop",
-        "reason": "An automatic platform SQL optimization that needs no developer action.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Describes an automatic SQL change in the platform for FlowFields, with nothing developers need to do.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/duiliotacconi-com/2149@653317285dfac109": {
         "verdict": "keep",
-        "reason": "Guidance on when to use SetLoadFields, including how partial records interact with server caching.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Discusses when to use SetLoadFields (partial records) and how it interacts with caching, a core developer performance topic.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@3645e7754b972354": {
         "verdict": "drop",
-        "reason": "About the quality of AI-generated code in general; performance is only one item on its list.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "About the quality of AI-generated code in general; performance is only mentioned in passing.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Covers key design across base and extension fields, including the write-cost tradeoff, which bears on table extension performance.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "About designing indexes on table extensions, including the trade-off with write performance, which is part of AL performance practice.",
+        "at": "2026-10-07T13:36:16.730Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480@edb369c1a9deec49": {
+        "verdict": "drop",
+        "reason": "An admin feature for turning SIFT indexes on or off in Table Information, not development guidance.",
+        "at": "2026-10-07T13:36:16.730Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@7eee24df241baf64": {
         "verdict": "keep",
-        "reason": "Covers offloading work to page background tasks, StartSession and job queues for responsiveness, a documented performance practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Covers background processing options (page background tasks, StartSession, TaskScheduler, Job Queue) as a performance practice for developers.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@2a71cb5827c67ce0": {
         "verdict": "drop",
-        "reason": "An opinion piece proposing platform changes to RunTrigger behavior, not established practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "It is mainly an argument about how the platform should handle RunTrigger and subscribers, not a performance best practice for developers.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/@21c1881e420bb7c1": {
         "verdict": "drop",
-        "reason": "About optimizing a GitHub download pipeline, unrelated to Business Central performance.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "About tuning a GitHub/PowerShell download pipeline, not Business Central code performance.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@d39e7ae0d479a19d": {
         "verdict": "keep",
-        "reason": "Directly addresses planning table indexes and SIFT for performance.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Gives practical guidance on planning keys, indexes, SIFT and covering queries for performance.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@78a87ecc2373b1a2": {
         "verdict": "drop",
-        "reason": "A weekly tooling recap that is not about AL performance practices.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "A weekly recap of tooling work; the compile benchmarking is not about runtime performance practices.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "drop",
-        "reason": "About a third-party telemetry app, not developer performance practices.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "About a telemetry monitoring app, a different capability from coding performance practices.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "post/waldo-be/318604@c12e9e798f8d8cbf": {
         "verdict": "drop",
-        "reason": "Describes a Microsoft training program in general terms; too general.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Announces a Microsoft performance programme and is too general to be about specific practices.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "video/-_TaZY2Clh0@977e50de67a5e39f": {
         "verdict": "keep",
-        "reason": "Teaches locking, isolation levels and patterns for avoiding deadlocks in AL, which are performance best practices.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Covers locking, deadlocks and concurrency patterns in AL, which are part of performance guidance.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "video/1xdpUmeun-s@e2cbbcdd932ec898": {
         "verdict": "keep",
-        "reason": "Covers AL performance features such as SetLoadFields, read isolation and bulk operations.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Discusses SetLoadFields, read isolation, locking and set-based operations for faster AL code.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "video/lpwDSdEJrIQ@011d7ea8b81c3db0": {
         "verdict": "keep",
-        "reason": "Squarely about writing fast AL code: indexes, caching, FlowFields and SetLoadFields.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "Directly about AL code performance: SetLoadFields, indexing, caching, FlowFields and profiling.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "video/qABlX4AL3GM@a3c9c8a665686984": {
-        "verdict": "keep",
-        "reason": "Explains how the table extension storage change affects performance, plus guidance on SetLoadFields and avoiding direct SQL.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "verdict": "drop",
+        "reason": "Mainly news about a release's change to table-extension storage; the performance tips are mentioned only in passing.",
+        "at": "2026-10-07T13:36:19.517Z"
       },
       "video/Sh3ySQSTw-o@7a5c5188d4a00289": {
         "verdict": "drop",
-        "reason": "A broad release-wave overview of server features, not focused on performance practice.",
-        "at": "2026-10-07T01:58:45.475Z"
+        "reason": "A what's-new overview of server and database features, not about performance practices.",
+        "at": "2026-10-07T13:36:19.517Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security": {

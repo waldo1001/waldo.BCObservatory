@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,6 +159,9 @@ links:
     - video/VoiUhPb6HQ0
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9079
+    - change/bcapps/9580
 learn_toc_path:
   - Business functionality
   - Manufacturing
@@ -242,10 +245,12 @@ Start with Production Reports and Analytics for the overall picture, then open t
 - [Subcontractor - Dispatch List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000789): Generate a list of materials and components that need to be sent to manufacturing subcontractors for released production orders.
 - [Where-Used (Top Level) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757): Get an overview of where, and in what quantities, you use items in the product structure of other items.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9079 Bug 631472: Cost Shares Breakdown (WIP) does not filter by Item](../../../../../changes/bcapps/9079.md) (code change): "Cost Shares Breakdown report now correctly filters capacity ledger entries by the selected item"
+- [#9580 636017 Move Manufacturing report action tooltips to report objects](../../../../../changes/bcapps/9580.md) (code change): "Manufacturing report action tooltips are moved from page actions to report objects"
 - [What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)](../../../../../videos/9X-IWRkI2GM.md) (video): "Production Order VIP Report; Production Cost Shares Report; Work/Machine Center Load Report"
 - [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../../videos/JT4ownMbotw.md) (video): "Manufacturing reports with modernized layouts; Manufacturing analytics landing page"
 - [Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences](../../../../../videos/VoiUhPb6HQ0.md) (video): "Manufacturing reporting changes in BC 2025 Wave 2; Production Order Work in Progress report"

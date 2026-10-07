@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,11 @@ links:
     - post/demiliani-com/14203
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
   guidelines: []
+  changes:
+    - change/bcapps/11257
+    - change/bcapps/11262
+    - change/bcapps/9820
+    - change/bcquality/148
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -139,10 +144,14 @@ Start with the Async processing overview, which sets out the operational limits 
 - [Page Background Tasks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks): Explains how to create page background tasks in Business Central.
 - [Task scheduler](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler): Learn about scheduled tasks and how the task scheduler works.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11257 Fix duplicate retention continuations for Waiting jobs](../../../../changes/bcapps/11257.md) (code change): "Fix duplicate retention continuations for Waiting jobs"
+- [#11262 Fix retention policy deletion-limit stop propagation](../../../../changes/bcapps/11262.md) (code change): "Fix retention policy deletion-limit stop propagation"
+- [#9820 Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent](../../../../changes/bcapps/9820.md) (code change): "Job Queue Entry GetXmlContent method now uses ReadCommitted isolation when reading"
+- [#148 Add Job Queue reliability and scheduling guidance](../../../../changes/bcquality/148.md) (code change): "Require external side effects in Job Queue handlers to be idempotent"
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back"

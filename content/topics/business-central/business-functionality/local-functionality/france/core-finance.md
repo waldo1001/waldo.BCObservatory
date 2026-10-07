@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:13.053Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,6 +148,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11941
+    - change/bcapps/9710
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -211,6 +214,13 @@ Start with Year End Processes Overview and Fiscal Periods and Fiscal Years for t
 - [Print General Ledger Reports [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-print-general-ledger-reports): Learn how to print general ledger reports that comply with financial accounting standards. These reports include details about ledger, customer, vendor, and bank entries.
 - [Reopen Accounting Periods [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods): Learn how to reopen a fiscally closed accounting period to post general ledger entries in the French version of Business Central.
 - [Year End Processes Overview [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/year-end-processes-overview): Overview of the fiscal year-end closing processes in the French version of Business Central, including compliance with French regulations.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11941 Bug 651577 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File.](../../../../../changes/bcapps/11941.md) (code change): "FEC audit file export now populates CompAuxNum and CompAuxLib columns for payment discount lines"
+- [#9710 [Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit](../../../../../changes/bcapps/9710.md) (code change): "The French Audit File export now populates CompAuxNum and CompAuxLib columns"
 
 ## Business Central pages and reports
 

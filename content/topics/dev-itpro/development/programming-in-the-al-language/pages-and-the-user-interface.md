@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:25.570Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,6 +323,11 @@ links:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
   guidelines: []
+  changes:
+    - change/bcapps/10134
+    - change/bcapps/10238
+    - change/bcapps/10247
+    - change/bcquality/214
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -390,10 +395,14 @@ Start with "Designing the User Interface" for orientation. Then go to Pages for 
 - [Designing the User Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces): Provides an overview of the components available when designing a user interface in Business Central
 - [Inspecting pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages): Learn about the structure of a page and its' underlying data.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10134 [Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI](../../../../changes/bcapps/10134.md) (code change): "Focus now moves to newly created theme or header/footer parts"
+- [#10238 Remove consumed credits from Payables Agent setup](../../../../changes/bcapps/10238.md) (code change): "Consumed Copilot credits section removed from Payables Agent setup page"
+- [#10247 [SOA] Show Cc recipients on email messages](../../../../changes/bcapps/10247.md) (code change): "Sales Order Agent email cards now display Cc recipients in a read-only field"
+- [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../../../../changes/bcquality/214.md) (code change): "handle multi-document routing through Page Management instead of hard-coded mappings"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property supports None (default, visible) and Concealed"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"

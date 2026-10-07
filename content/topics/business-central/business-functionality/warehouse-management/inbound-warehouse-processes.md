@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,8 @@ links:
     - video/QdWPlIV3Avk
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10125
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -157,10 +159,11 @@ Supporting pages cover cross-docking, which moves items through cross-dock bins 
 - [Receiving and Putting Away in Advanced Warehousing](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing): The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 - [Walkthrough - Receive and put away in basic warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing): Learn about the different ways to handle inbound processes for receiving and putting away.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10125 [Extensibility Request] issue 30395: expose production pick grouping number](../../../../changes/bcapps/10125.md) (code change): "New event enables extensions to modify the warehouse pick grouping number"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Warehouse receipt for subcontracting operations; Inventory put-away for basic warehouse locations"
 
 ## Business Central pages and reports

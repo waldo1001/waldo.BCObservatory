@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8935",
+  "number": 8935,
+  "title": "[Main]-[Escalated] [Strategic] [BC-IN]Online: Performance issue in General journal line from June 17th 2026 - 2606170030006074",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Removed redundant SaveRecord calls from TCS journal page extensions that were causing performance degradation during line entry by triggering unnecessary database writes and workflow evaluations.",
+  "key_points": [
+    "Eliminated redundant CurrPage.SaveRecord() from UpdateTaxAmount() method in TCS journal pages",
+    "Aligns TCS pages with GST, TDS, and Tax Base pages that were already fixed",
+    "Reduces unnecessary database writes and workflow evaluations during journal line entry",
+    "Tax calculation behavior remains unchanged",
+    "Addresses performance lag in environments with many enabled workflows"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004866,
+    "changes_in_call": 1
+  }
+}

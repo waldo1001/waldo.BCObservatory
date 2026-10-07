@@ -1,0 +1,9 @@
+{
+  "week": "2026-W40",
+  "input_hash": "c79966242c291d66059e4eeff0fd9a6576e2f2c6c1c67dfdbf48c4d58d4475e0",
+  "text": "The breaking change this week is #12194: Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials, so on-premises callers must opt in with SetUseDefaultCredentials(true). #12133 also makes Web Request Helper reject file:// URLs. #12157 marks the GetAddress.io objects obsolete because the service is being retired. Several Subscription Billing fixes landed: #10347 corrects vendor deferral day counts, #10210 removes orphaned Sales Subscription Lines, #10447 keeps Price Update Template filters, #10156 and #11824 fix the assignment dialog and foreign-currency BOM explosion. Subcontracting got fixes in #12082, #12080, #11945, #11938, #11644 and #11368. Expense Agent work includes #12074, #11628 and #11639, and #11996 limits expense configuration changes to admins. Other fixes cover Shopify tax matching in #11899, Peppol exports in #12051 and #11968, and TDS amounts in India in #12008 and #12007. #12119 fixes an infinite loop with unrealized VAT in APAC. #12189 lets Power BI reports deploy to regular companies, and #11314 adds Microsoft Fabric export setup. In AL-Go, #2367 allows pre-release NuGet packages. BCQuality added guidance in #210, #207 and #205.",
+  "changes": 80,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0778398,
+  "at": "2026-10-07T12:54:54.417Z"
+}

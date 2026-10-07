@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,15 @@ links:
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831
   guidelines: []
+  changes:
+    - change/al-go/2342
+    - change/bcapps/10055
+    - change/bcapps/10990
+    - change/bcapps/11654
+    - change/bcapps/11712
+    - change/bcapps/12325
+    - change/bcapps/12463
+    - change/bcapps/9293
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -158,10 +167,18 @@ For app-level questions, the FAQ covers what testing is expected, including vers
 - [Test pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-pages): This article explains the Test pages, their purpose and use.
 - [Testing the application overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application): Learn about how to use automated tests in Business Central
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Fixed incremental builds in AL-Go that were corrupting buildMode-specific artifacts"
+- [#10055 Fix: migrating a document attachment deletes shared Tenant Media](../../../../changes/bcapps/10055.md) (code change): "Introduces three new unit tests verifying shared media protection"
+- [#10990 Add-Expense-VAT-settings-to-Contoso-demo-tool](../../../../changes/bcapps/10990.md) (code change): "Test utilities for Shopify were adjusted to work"
+- [#11654 Repair and re-enable Expense Agent permission and posted-history tests](../../../../changes/bcapps/11654.md) (code change): "Repair and re-enable Expense Agent permission and posted-history tests"
+- [#11712 [Master] - Bug 624708: [Expense Management] Users sync - There should be a configuration wizard to ask if the Employees should be created behind if no match is found](../../../../changes/bcapps/11712.md) (code change): "Added configuration wizard to Expense Users page. Automatically creates employee records"
+- [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Removed 51 Expense API test exclusions while preserving 9 non-API exclusions"
+- [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
+- [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "deterministic testing; propagated dependencies; application test library"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"

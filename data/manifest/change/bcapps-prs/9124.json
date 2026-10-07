@@ -6,7 +6,7 @@
   "title": "[E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page",
   "url": "https://github.com/microsoft/BCApps/pull/9124",
   "published_at": "2026-07-08T07:49:14Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003813
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:11.333Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:11.344Z",
+      "path": "content/changes/bcapps/9124.md"
     }
   },
   "input_hash": "35770a8542642837937be350f3a5122b848b9f5a:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53a346973b8297f7495acc1d3f22d7a36af947ab0c1468be71349bc2fe2c0c99"
+  "output_hash": "ac24bb4769f7bba54e593192ec1e805a686f662c605998e08a01e1266970b4d7"
 }

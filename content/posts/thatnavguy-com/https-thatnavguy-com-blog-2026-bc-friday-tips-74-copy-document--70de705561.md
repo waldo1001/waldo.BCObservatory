@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:54:52.208Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 118ab49805d31b5b1b0cd74e6877aa744842c73faa5bccd0dd8dcff005de289a
+  input_hash: 91d2081fd023c776064f3952909bfcdc6c9c5a8b0bf6e527c590947f103ea281
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/
@@ -74,13 +74,23 @@ systems:
   - sales
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/CopyDocument.DLm8tooG_Z2d0HU3.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:25.803Z"
 ---
 
 # BC Friday Tips #74 Copy Document and Custom Field
 
-> When adding custom fields to Sales Header or Sales Invoice Header tables, developers must consider how the Copy Document feature will handle those fields. The post explains that custom fields are automatically copied along with documents, requiring developers to decide whether values should be copied, cleared, or recalculated to maintain data integrity.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-26 · 122 words · tier community · **unreviewed** (machine-generated)
+
+> When adding custom fields to Sales Header or Sales Invoice Header tables, developers must consider how the Copy Document feature will handle those fields. The post explains that custom fields are automatically copied along with documents, requiring developers to decide whether values should be copied, cleared, or recalculated to maintain data integrity.
 
 ## Key points
 

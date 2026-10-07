@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9217
 learn_toc_path:
   - Development
   - Extensibility
@@ -133,5 +135,11 @@ Start with the object type you want to change. Page extension, table extension a
 - [Permission Set Extension Object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object): Description of the permission set extension object in AL for Business Central.
 - [Report extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object): The report extension object in AL for Business Central allows you to create an extension of an existing report.
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

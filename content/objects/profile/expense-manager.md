@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7a11c9a99e640f0b6844fe2e8cb926a76afd821a9439d55d2651dcea16a1d4ee
+  input_hash: 2c048e76c2869cade5d7d69d0f1a5f9121932ee98ed0a6ad15225e48d3adff6c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9859
 object_type: profile
 object_id: null
 name: EXPENSE MANAGER
@@ -79,6 +81,10 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 1d24dd5e](https:
 | Property | Value |
 |---|---|
 | Caption | Expense Manager |
+
+## Recent changes
+
+- 2026-08-04 [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../changes/bcapps/9859.md) (main, BC30, feature, added)
 
 ## Across versions
 

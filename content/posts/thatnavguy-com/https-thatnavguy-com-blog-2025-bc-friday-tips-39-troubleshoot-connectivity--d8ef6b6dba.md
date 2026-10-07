@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:18.632Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7aa4c3747bd3a68e9ee49e2c9e22ecfeb25520c0b7293ead163c9e4c44bb53d6
+  input_hash: ee59deafe1b781d5ec66847fbb1b10fd77e63980f6f09790bdfd8713598b66bd
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/
@@ -64,6 +64,16 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-39-troubleshoot-connectivity.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:25.938Z"
 ---
 
 # BC Friday Tips #39 Troubleshoot Connectivity

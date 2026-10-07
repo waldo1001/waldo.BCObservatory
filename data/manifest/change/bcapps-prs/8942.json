@@ -6,7 +6,7 @@
   "title": "[master] Trail Balance by Period doesn't show the balance for some of the G/L Accounts in the PDF version",
   "url": "https://github.com/microsoft/BCApps/pull/8942",
   "published_at": "2026-07-07T17:58:23Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": true,
     "title_key": "master trail balance by period doesn t show the balance for some of the g l accounts in the pdf version"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:21:13.448Z",
+  "retry_after": null
 }

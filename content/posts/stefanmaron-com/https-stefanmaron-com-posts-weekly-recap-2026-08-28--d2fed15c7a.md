@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:31.641Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ea8918ba1adcc332ce85e5da9528139e54b106ad9eea6a0d67e00c4a806330fd
+  input_hash: d777113398a9afd54b0478b354830b7e1bc82b303b09a93fb14d1ace07351e51
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/weekly-recap-2026-08-28/
@@ -63,13 +63,23 @@ systems:
   - platform
 versions_mentioned:
   - BC 29 preview
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:14.745Z"
 ---
 
 # Weekly Recap: August 21-28
 
-> Weekly recap covering AL Runner CI tooling fixes, Linux fast lane pipeline bugs, a major OpenPageInspection browser extension rewrite for cross-browser support, and Azure CLI authentication contributions to the navapi Business Central API client.
-
 [Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-28/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-28 · 1443 words · tier community · **unreviewed** (machine-generated)
+
+> Weekly recap covering AL Runner CI tooling fixes, Linux fast lane pipeline bugs, a major OpenPageInspection browser extension rewrite for cross-browser support, and Azure CLI authentication contributions to the navapi Business Central API client.
 
 ## Key points
 

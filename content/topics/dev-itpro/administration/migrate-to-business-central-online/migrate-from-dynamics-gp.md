@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp
 type: topic
 title: Migrate from Dynamics GP
-summary: "Migrating from on-premises Dynamics GP to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about migration phases, prerequisites, planning, configuration, validation, and post-migration users and permissions."
+summary: "Migrating on-premises Dynamics GP to Business Central online: the process, preparation, cloud migration setup, data replication, data upgrade and final completion steps. It answers questions about phases, prerequisites, configuration, monitoring, validation, and post-migration users and permissions."
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:18:20.239Z"
+  at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2ffd4467526cd98a14f9191f42fe52ce77b8dbb7d817893aa230b8a3241afb01
+  input_hash: bf87e774b6710b1b51998d07fb32ac0da1dc3119e497fef0747c2d717e01ffdd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp
@@ -167,26 +167,27 @@ narrative: generated
 
 # Migrate from Dynamics GP
 
-> Migrating from on-premises Dynamics GP to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about migration phases, prerequisites, planning, configuration, validation, and post-migration users and permissions.
+> Migrating on-premises Dynamics GP to Business Central online: the process, preparation, cloud migration setup, data replication, data upgrade and final completion steps. It answers questions about phases, prerequisites, configuration, monitoring, validation, and post-migration users and permissions.
 
 Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics GP · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 
-This section covers the full path from an on-premises Dynamics GP database to Business Central online. It starts with an overview of the process, which GP data moves, how to manage cloud migration runs, and how everyday GP work maps to Business Central.
+This section walks through moving Dynamics GP data into Business Central online. It follows the order of the migration: an overview of the process and migrated data, preparation and planning, setting up cloud migration, replicating data, upgrading data, and completing the migration.
 
-The subtopics follow the order of the work. Prepare covers prerequisites for the source and destination systems and planning guidance (strategy, assessment, data scope, approach). Set up cloud migration covers the connection and pipeline, running the setup, GP company migration settings, and retaining user permissions. Replicate data covers moving data, running and managing replication from the Cloud Migration Management page, and validating the results.
+Start with the Overview to understand the phases, which GP data moves, and how everyday GP work maps to Business Central. Then use Prepare to check prerequisites for the destination environment, the source system and the self-hosted integration runtime, and to plan scope and approach. Set up cloud migration covers the connection and pipeline, running the setup, GP company migration settings, and retaining user permissions.
 
-Two pages sit directly in the hub. One covers running data upgrade, which transforms GP tables into Business Central tables. The other covers completing the migration: validating data, disabling cloud migration, and setting up users and permissions. Start with the Overview, then work through Prepare.
+Replicate data explains how to run and manage replication from the Cloud Migration Management page and how to validate migrated data. The two pages in this section cover the later steps. Data upgrade transforms GP tables into Business Central tables, and you review migration errors in the operations log. Completing the migration means validating data, disabling cloud migration, and setting up user accounts and permission sets in Business Central online.
 
 ## Key points
 
-- Overview pages explain the end-to-end phases, which GP data is migrated, how to manage cloud migration runs, and how everyday GP work maps to Business Central.
-- Prepare lists prerequisites for the source and destination systems and planning topics: strategy, assessment, data scope, and migration approach.
-- Set up cloud migration covers the connection and pipeline setup, running the setup, configuring GP company migration settings, and retaining user permissions.
-- Replication is run and managed from the Cloud Migration Management page, with monitoring, troubleshooting, and validation guidance.
-- Data upgrade transforms Dynamics GP tables into Business Central tables; the page also covers migration errors and the operations log.
-- Completing the migration involves checking validation status, disabling cloud migration, and setting up user accounts and permission sets in Business Central online.
+- Source is on-premises Dynamics GP and the target is Business Central online.
+- Prepare covers prerequisites for the destination, the source system and the self-hosted integration runtime.
+- Planning covers migration strategy, the migration assessment tool, data scope, and an approach with backup, replication and upgrade steps.
+- Setup involves the connection and pipeline, running the setup, GP company migration settings, and retaining user permissions.
+- Replication is run and managed from the Cloud Migration Management page, followed by validation of migrated data.
+- Data upgrade transforms Dynamics GP tables into Business Central tables; errors can be checked in the operations log.
+- Completion means checking validation status, disabling cloud migration, and setting up user accounts and permission sets.
 
 ## Subtopics
 

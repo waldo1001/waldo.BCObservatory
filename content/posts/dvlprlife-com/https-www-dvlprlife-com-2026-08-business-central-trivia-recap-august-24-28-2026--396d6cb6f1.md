@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:21.188Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 2c22661357c2ceb0c29bae0799004616779a23d503e486f36e866405f1fe4c84
+  input_hash: 948dc1982e7179fea2d83586282df587c2af87297f8ce0ea5b1cf98a6dfbae44
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-24-28-2026/
@@ -65,13 +65,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/08/business-central-trivia-recap-august-24-28-2026-social.jpg
+  image_alt: "Business Central Trivia Recap: August 24–28, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:09.975Z"
 ---
 
 # Business Central Trivia Recap: August 24–28, 2026
 
-> Business Central Trivia August 2026 round recap shows 4,993 answers across 250 questions with 68% accuracy. Subscription Billing, Sustainability, and Keyboard Shortcuts remained the hardest categories, while Acronyms and Development topics were easiest. The trivia platform added new features including badges, player awards pages, and UI improvements.
-
 [Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-24-28-2026/) · DvlprLife (Brad Prendergast) · 2026-08-29 · 563 words · tier community · **unreviewed** (machine-generated)
+
+> Business Central Trivia August 2026 round recap shows 4,993 answers across 250 questions with 68% accuracy. Subscription Billing, Sustainability, and Keyboard Shortcuts remained the hardest categories, while Acronyms and Development topics were easiest. The trivia platform added new features including badges, player awards pages, and UI improvements.
 
 ## Key points
 

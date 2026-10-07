@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,6 +59,10 @@ links:
     - post/aardvarklabs-blog/3120
     - post/thedynamicsexplorer-com/9227
   guidelines: []
+  changes:
+    - change/bcapps/10566
+    - change/bcapps/10571
+    - change/bcapps/10874
 learn_toc_path:
   - Business functionality
   - Finance
@@ -157,10 +161,13 @@ Start with the page on working with dimensions to set up the basics. Move to the
 - [Troubleshoot and correct dimensions](https://learn.microsoft.com/dynamics365/business-central/finance-troubleshooting-correcting-dimensions): Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they're used on posted transactions.
 - [Work with dimensions to track and analyze data](https://learn.microsoft.com/dynamics365/business-central/finance-dimensions): Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10566 [main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../changes/bcapps/10566.md) (code change): "Global Dimension 1 and 2 filters from G/L Account are now read and passed"
+- [#10571 [Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10571.md) (code change): "Deferral Summary - G/L report now correctly filters and displays totals"
+- [#10874 [29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10874.md) (code change): "The Deferral Summary-GL Report now properly supports filtering by global dimensions"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
 - [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Business Central separates GL accounts from dimensions"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"

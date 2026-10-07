@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:18.470Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: e0fb6a9d24cec183bc2de0ae5141dc0af6c6b3a470f347d8c9e8c4a2626c046f
+  input_hash: 1fa268149dc99d0bbefb69d82145d9d52f3410ebdda7d00443e1ae6b0967331d
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/
@@ -73,6 +73,16 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:17.764Z"
 ---
 
 # BC Friday Tips #46 Warning on Importing or Applying a Large Configuration Package

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.799Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -313,6 +313,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11852
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -438,6 +440,12 @@ Start with the area that matches your task. For tax declarations, go to VAT. For
 - [Electronic invoices](spain/electronic-invoices.md) (6 pages)
 - [Core finance](spain/core-finance.md) (8 pages)
 - [General](spain/general.md) (5 pages)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11852 [main] Allocation Accounts with Invoice Discount produces wrong posted entries in Sales and Purchases documents in the Spanish version.](../../../../changes/bcapps/11852.md) (code change): "allocation accounts are used with invoice discounts in Spanish"
 
 ## Business Central pages and reports
 

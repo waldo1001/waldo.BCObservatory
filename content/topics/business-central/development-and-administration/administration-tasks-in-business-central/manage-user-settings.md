@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,10 @@ links:
     - video/OszitKuf8t0
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10991
+    - change/bcapps/11184
+    - change/bcapps/9946
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -95,10 +99,13 @@ Start with the user settings page for per-user preferences. Move to the users an
 - [Manage user settings and preferences as the administrator](https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences): Manage user settings and preferences in Dynamics 365 Business Central.
 - [Manage users and roles](https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles): Learn how to manage user profiles in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10991 [Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy](../../../../changes/bcapps/10991.md) (code change): "User Management now correctly updates Financial Report Audit Log entries when a user is renamed"
+- [#11184 [29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions](../../../../changes/bcapps/11184.md) (code change): "User Management now updates Financial Report Audit Log entries when a user is renamed"
+- [#9946 Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)](../../../../changes/bcapps/9946.md) (code change): "Fixed a regression where Retrieve Users silently overwrote all existing users' custom Role Centers"
 - [What's Cooking in Business Central: Limiting the Available Product Languages](../../../../videos/OszitKuf8t0.md) (video): "Limiting the Available Product Languages; language settings; administration; user settings; product languages"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.639Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,15 @@ links:
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273
   guidelines: []
+  changes:
+    - change/bcapps/10492
+    - change/bcapps/11996
+    - change/bcapps/12140
+    - change/bcapps/9360
+    - change/bcapps/9717
+    - change/bcapps/9838
+    - change/bcquality/102
+    - change/bcquality/92
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -245,10 +254,18 @@ Two own pages cover storing and handling sensitive values in code: Isolated Stor
 - [Isolated Storage](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-isolated-storage): Isolated Storage is a data storage that provides isolation between extensions, so that you can keep keys/values in one extension from being accessed from other extensions.
 - [Protecting sensitive values with the SecretText data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-secret-text): The SecretText data type is designed to protect sensitive values from being exposed when debugging.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10492 [SOA] Restrict direct deletion of contact overrides](../../../../changes/bcapps/10492.md) (code change): "Inherent delete permission removed from table to prevent unauthorized direct deletion"
+- [#11996 Restrict expense configuration maintenance to admins](../../../../changes/bcapps/11996.md) (code change): "Restrict configuration maintenance for expense management to administrators"
+- [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "Base64URL tokens are converted to standard Base64 format before decoding"
+- [#9360 Harden SFTP Client module (security review phase 1)](../../../../changes/bcapps/9360.md) (code change): "MD5 host-key fingerprints are no longer supported; only SHA256 prefixes accepted"
+- [#9717 Fix internal admin losing SUPER during customized plan provisioning](../../../../changes/bcapps/9717.md) (code change): "Internal tenant administrators no longer lose SUPER permission set when their customized plan"
+- [#9838 Grant indirect read on Privacy Notice tables in Privacy Notice Impl.](../../../../changes/bcapps/9838.md) (code change): "grants indirect read permission on Privacy Notice and Privacy Notice Approval tables"
+- [#102 Privacy DataClassification fixes + keep Label-scope findings at minor](../../../../changes/bcquality/102.md) (code change): "Fixed factual errors in the privacy data-classification article"
+- [#92 Correct security and privacy knowledge guidance](../../../../changes/bcquality/92.md) (code change): "Security and privacy knowledge articles were corrected to align with current Business Central APIs"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 

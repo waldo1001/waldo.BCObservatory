@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 21f86b6d7822c6e415a52204432311ce619e3a2d499c49839c8648b943c44c17
+  input_hash: 410b7abd8451c0f6ae2e3c9ce0f58a91dfba038954815fc822a66f0cc8939893
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesOrderSubform.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9364
 object_type: pagecustomization
 object_id: null
 name: SOA Sales Order Subform
@@ -73,6 +75,10 @@ relations:
 > Page customization "SOA Sales Order Subform" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
 SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesOrderSubform.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-05 [#9364 Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices](../../changes/bcapps/9364.md) (main, BC30, feature)
 
 ## Across versions
 

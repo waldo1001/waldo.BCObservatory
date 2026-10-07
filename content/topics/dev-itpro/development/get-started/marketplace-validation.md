@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.595Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9407
+    - change/bcquality/142
 learn_toc_path:
   - Development
   - Get started
@@ -136,5 +139,12 @@ Two telemetry pages help when validation fails. One describes submission validat
 - [Marketing Validation Checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-marketing): The marketing checklist for validation of Business Central apps
 - [Technical validation checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission): Describes the steps you must go through to successfully submit your app to Marketplace using AppSourceCop for Business Central.
 - [Technical validation FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq): Describes the most common questions when submitting your app to Marketplace for Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9407 Add Microsoft apps view to AppSource product list (Fix ADO #642217)](../../../../changes/bcapps/9407.md) (code change): "A new predefined view called "Microsoft apps" was added to the AppSource Product List page"
+- [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Seven new AppSource validation guidance articles added to help AL developers"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

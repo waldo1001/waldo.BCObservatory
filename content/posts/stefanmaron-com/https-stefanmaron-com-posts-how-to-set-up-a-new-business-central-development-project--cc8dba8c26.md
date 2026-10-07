@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:25.889Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ba15ec39df2413361cd08667d992acd6f4951a88062ef15369761b5245dc5e5e
+  input_hash: a7751a4db5599b7ee70a1eab4dfc4ec698bcf432e17610edd10a0016b2c91045
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/
@@ -59,6 +59,16 @@ systems:
   - administration
 versions_mentioned:
   - June 2025
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:51:03.432Z"
 ---
 
 # How to Set Up a New Business Central Development Project – The 100% Correct Way

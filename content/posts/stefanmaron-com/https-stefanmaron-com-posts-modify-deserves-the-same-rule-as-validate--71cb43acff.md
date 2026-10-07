@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:42.645Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ff682d0201d64a078925ab63914680b8d56fcb283f9c4520c733b0a837f7db26
+  input_hash: 9942dc888d6e627f3b0f38f388889ff6105285d8bd15f75aab93d0e62624de7b
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/
@@ -56,13 +56,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:19.521Z"
 ---
 
 # I Can Turn Off My Code. I Can't Turn Off Yours.
 
-> When developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers including base app code and third-party extensions. The post argues that triggers should run by default because developers cannot know at compile time what logic they would disable, and proposes the platform should dynamically check at runtime whether anything is registered on a trigger before deciding whether to skip the expensive per-row execution.
-
 [Read the post](https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-18 · 1749 words · tier community · **unreviewed** (machine-generated)
+
+> When developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers including base app code and third-party extensions. The post argues that triggers should run by default because developers cannot know at compile time what logic they would disable, and proposes the platform should dynamically check at runtime whether anything is registered on a trigger before deciding whether to skip the expensive per-row execution.
 
 ## Key points
 

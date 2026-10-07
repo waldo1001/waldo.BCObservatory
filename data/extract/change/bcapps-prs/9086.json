@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9086",
+  "number": 9086,
+  "title": "Bug 641085: Document Check factbox does not update live on Purchase Invoice/Cr.Memo/Return Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The Document Check factbox on Purchase Invoice, Purchase Credit Memo, and Purchase Return Order now updates live when lines are edited, instead of requiring a manual page refresh.",
+  "key_points": [
+    "Document Check factbox now refreshes immediately when editing purchase invoice, credit memo, or return order lines",
+    "Fixed three event subscribers that were incorrectly calling the Purchase Order's global page instead of their own document's page",
+    "Behavior now matches the already-correct Purchase Order and Sales subform handlers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "line edits never refreshed the open page's Document Check factbox (only F5 did)",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00313,
+    "changes_in_call": 1
+  }
+}

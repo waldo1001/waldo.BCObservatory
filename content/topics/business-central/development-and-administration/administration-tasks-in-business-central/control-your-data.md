@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,8 @@ links:
     - post/duiliotacconi-com/1601
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
   guidelines: []
+  changes:
+    - change/bcapps/12152
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -167,10 +169,11 @@ Start with Auditing changes or Classifying data sensitivity for compliance needs
 - [The Data Archive Extension](https://learn.microsoft.com/dynamics365/business-central/admin-archive-data): Archiving data creates a low-cost backup of your records.
 - [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12152 [MCP] Clear environment description after environment copy](../../../../changes/bcapps/12152.md) (code change): "Clear environment description after environment copy"
 - [When Auditing meets Telemetry: a practical example.](../../../../posts/duiliotacconi-com/1601.md) (community post): "Change Log records what changed (user, date, deletion event) but not always why"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"

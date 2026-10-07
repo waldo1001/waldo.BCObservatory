@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:58:44.692Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5e661e5b838d42342eb8367b35c5b76899ef9f29e25343774e6da861258912ae
+  input_hash: 95f7c458f367f9133589826fabbef75ceadf3413236e93de24e694a288775a85
 evidence:
   - kind: blog
     url: https://thatnavguy.com/projects/al-pocket-tools/
@@ -80,13 +80,23 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/open-graph.jpg
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:32.466Z"
 ---
 
 # AL Pocket Tools
 
-> AL Pocket Tools is a VS Code extension that provides utilities for Dynamics 365 Business Central developers to streamline repetitive development tasks like managing app files, updating versions, and navigating code blocks.
-
 [Read the post](https://thatnavguy.com/projects/al-pocket-tools/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-21 · 159 words · tier community · **unreviewed** (machine-generated)
+
+> AL Pocket Tools is a VS Code extension that provides utilities for Dynamics 365 Business Central developers to streamline repetitive development tasks like managing app files, updating versions, and navigating code blocks.
 
 ## Key points
 

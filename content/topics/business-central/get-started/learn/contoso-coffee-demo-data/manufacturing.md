@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.659Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9179
+    - change/bcapps/9273
+    - change/bcapps/9276
+    - change/bcapps/9277
+    - change/bcapps/9278
 learn_toc_path:
   - Get started
   - Learn
@@ -174,6 +180,16 @@ Start with "Introduction to Contoso Coffee Manufacturing" to see the sample prod
 - [Use different component supply methods in subcontracting](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods): Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
 - [Use Order Planning to Create and Reserve Supply](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply): Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
 - [Variants](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants): Learn how to update a demand forecast for each variant of a product in Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9179 Contoso demodata renaming](../../../../../changes/bcapps/9179.md) (code change): "manufacturing routing demo data codeunit were renamed for consistency"
+- [#9273 Extend Contoso Mfg shop calendar range to cover next-year due dates](../../../../../changes/bcapps/9273.md) (code change): "Contoso Coffee Manufacturing demo data calendar now covers the next calendar year"
+- [#9276 Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9276.md) (code change): "Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data"
+- [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9277.md) (code change): "Add PRODUCED item template to Contoso Coffee manufacturing demo data"
+- [#9278 Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9278.md) (code change): "Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data"
 
 ## Business Central pages and reports
 

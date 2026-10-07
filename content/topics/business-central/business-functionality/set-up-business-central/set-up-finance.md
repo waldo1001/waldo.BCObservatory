@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -236,6 +236,11 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10088
+    - change/bcapps/11730
+    - change/bcapps/9341
+    - change/bcapps/9912
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -398,6 +403,15 @@ Start with "Set up financial processes" to find the right task. Then open the ar
 - [Use Allocation Keys in General Journals](https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals): You can allocate an entry in a general journal to several different accounts when you post the journal.
 - [Validate VAT Registration Numbers](https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number): Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.
 - [Working with accounting periods and fiscal years](https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years): Learn how to work with accounting periods to define when your company reports financial performance.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10088 Harden base ruleset: promote 21 rules back to Error](../../../../changes/bcapps/10088.md) (code change): "Harden base ruleset: promote 21 rules back to Error"
+- [#11730 Bug 649042: [Expense Agent] It would be nice if default data setup included number series for users, reports, etc.](../../../../changes/bcapps/11730.md) (code change): "Number series for spend requests added to demo data setup"
+- [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../../changes/bcapps/9341.md) (code change): "Empty layout element added to page 8901 Finance Manager Role Center"
+- [#9912 Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep](../../../../changes/bcapps/9912.md) (code change): "IRS Forms assisted setup registration removed by the CLEAN25 sweep"
 
 ## Business Central pages and reports
 

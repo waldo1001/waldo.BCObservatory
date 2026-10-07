@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:26:44.070Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 63a0881c5a2b1342e9b170dfef124dae1f252137dfffcebc1aa4c1a89d1fffe0
+  input_hash: c47d9667287a3f7243498bee39ff95560e53fd826d9fa0dec4a10b4ab4ec24fc
 evidence:
   - kind: blog
     url: https://blog.kine.cz/posts/bcdevelopmentserie-01/
@@ -67,13 +67,23 @@ systems:
   - platform
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://blog.kine.cz/assets/BCDevSerie/BCDevSerieIntro.svg
+  image_alt: Business Central Development Serie - best practices and patterns for BC extension development
+  image_w: null
+  image_h: null
+  site_name: Kine's info
+  favicon: https://blog.kine.cz/favicon.ico?v=1
+  probed_at: "2026-10-07T11:50:30.670Z"
 ---
 
 # Business Central Development Serie - Part 1: Introduction
 
-> This introduction to a development series explains the importance of architecture, best practices, and long-term maintenance for Business Central extensions, addressing gaps that AI tools alone cannot fill. It covers topics like app types, dependency management, testing, performance, and delivery strategies for developers of all experience levels.
-
 [Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-01/) · Kine's info (Kamil Sacek, MVP) · 2026-03-03 · 951 words · tier community · **unreviewed** (machine-generated)
+
+> This introduction to a development series explains the importance of architecture, best practices, and long-term maintenance for Business Central extensions, addressing gaps that AI tools alone cannot fill. It covers topics like app types, dependency management, testing, performance, and delivery strategies for developers of all experience levels.
 
 ## Key points
 

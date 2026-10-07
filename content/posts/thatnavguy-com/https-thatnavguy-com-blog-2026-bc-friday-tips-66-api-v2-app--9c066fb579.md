@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:26:43.801Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c93fd6313d1e360e6452e8efd4608109b19af6e5c3de6d42a90c4c2375fe1d00
+  input_hash: b48adacecddcc76ce3471c2ee2ec916e5fb55a9ca0a66e445636b405921c2996
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/
@@ -64,13 +64,23 @@ systems:
   - development
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-66-api-v2-app.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:45.387Z"
 ---
 
 # BC Friday Tips #66 API v2 app
 
-> The Exclude_APIV2 app is a hidden Microsoft extension in Business Central that contains standard API V2 objects. Developers can explore this app via symbol files in VS Code to understand Microsoft's API design patterns and reference it when building or extending their own APIs.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-03-06 · 101 words · tier community · **unreviewed** (machine-generated)
+
+> The Exclude_APIV2 app is a hidden Microsoft extension in Business Central that contains standard API V2 objects. Developers can explore this app via symbol files in VS Code to understand Microsoft's API design patterns and reference it when building or extending their own APIs.
 
 ## Key points
 

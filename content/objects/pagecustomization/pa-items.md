@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 302ba0a1363bb38eadbb77b0bd57cc973e2be76353a3263d1bfb2ebfe3432c89
+  input_hash: 8208861f82d948d07cabf67bf1867c0bf9aba587c70e76453ccb921a15f20b5c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItems.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/7546
 object_type: pagecustomization
 object_id: null
 name: PA Items
@@ -73,6 +75,10 @@ relations:
 > Page customization "PA Items" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItems.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-18 [#7546 [Payables Agent] Agent-driven line matching](../../changes/bcapps/7546.md) (main, BC30, feature, added)
 
 ## Across versions
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f96e578bf509b0d7a6db589e0a7466e86618a8633be09cfacc51237c76072941
+  input_hash: 3f6ffbaf7351542beca793c75c4c61d5fd74baebb0ca8efe36db755c2a10e0f3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9578
 object_type: interface
 object_id: null
 name: PEPPOL Remit. Advice Info Provider
@@ -79,6 +81,10 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at 1d24dd5e](https://github.com
 - `GetPayeePartyInfo(Vendor: Record Vendor; var PayeeEndpointID: Text; var PayeeSchemeID: Text; var PayeePartyName: Text)`
 - `GetPaymentMeansInfo(RemitAdviceBuffer: Record "Remit. Advice Buffer" temporary; var PaymentMeansCode: Text; var PayeeFinancialAccountID: Text)`: Gets payment means information for the PEPPOL remittance advice from the buffer's header row.
 - `GetDocumentIdentification(var CustomizationID: Text; var ProfileID: Text)`: Gets the document identification (CustomizationID/ProfileID) for the PEPPOL remittance advice header. No PEPPOL BIS profile exists for remittance advice yet, so the default implementation returns both empty (the elements are omitted); a localization can supply its own values by overriding this metho...
+
+## Recent changes
+
+- 2026-08-11 [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../changes/bcapps/9578.md) (main, BC30, feature, added)
 
 ## Across versions
 

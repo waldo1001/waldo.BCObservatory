@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:01.951Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 75f20f82627081552abce737fee4a78b0789829944dd7b1e8abbfbcdf46fc47c
+  input_hash: ac0f3d4e33799c103ca71eaf8ef86616722505293ac8afd9131ed9433fd33da2
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/13/the-fkh-web-client/
@@ -65,13 +65,23 @@ systems:
   - platform
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:18.266Z"
 ---
 
 # The Fkh Web Client
 
-> Fkh Web Client is a web-based interface that allows developers to manage Kubernetes containers and clusters from a phone without requiring VS Code or CLI installation. It uses GitHub authentication and centralized backend logic, making it simple and secure for performing quick operational tasks.
-
 [Read the post](https://freddysblog.com/2026/08/13/the-fkh-web-client/) · Freddys blog (Freddy Kristiansen) · 2026-08-13 · 657 words · tier community · **unreviewed** (machine-generated)
+
+> Fkh Web Client is a web-based interface that allows developers to manage Kubernetes containers and clusters from a phone without requiring VS Code or CLI installation. It uses GitHub authentication and centralized backend logic, making it simple and secure for performing quick operational tasks.
 
 ## Key points
 

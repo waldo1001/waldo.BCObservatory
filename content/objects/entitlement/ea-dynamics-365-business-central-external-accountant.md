@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2a9a47d6688b910d37e640bbda1fe581ec1e3a2f278bbb46e52037ef08a0e4e5
+  input_hash: c8536630261467a6a26994281d88a569d51c752e597c318816f0108bae410243
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralExternalAccountant.Entitlement.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9859
 object_type: entitlement
 object_id: null
 name: EA - Dynamics 365 Business Central External Accountant
@@ -73,6 +75,10 @@ relations:
 > Entitlement "EA - Dynamics 365 Business Central External Accountant" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
 ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralExternalAccountant.Entitlement.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-04 [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../changes/bcapps/9859.md) (main, BC30, feature, added)
 
 ## Across versions
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.418Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,6 +103,10 @@ links:
   posts:
     - post/thedynamicsexplorer-com/37257
   guidelines: []
+  changes:
+    - change/bcapps/11710
+    - change/bcapps/11907
+    - change/bcapps/9545
 learn_toc_path:
   - Business functionality
   - Finance
@@ -195,10 +199,13 @@ The pages follow the working order. Start with the overview, "About cost account
 - [Terminology in cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting): This article defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 - [Transferring and posting cost entries](https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries): Before you define cost allocations, you must understand the various sources that cost entries come from.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11710 [29.x]-Not enough inventory available at vendor location for this order](../../../../changes/bcapps/11710.md) (code change): "Component consumption was being posted twice during subcontracting receipt"
+- [#11907 [29.x]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11907.md) (code change): "Custom Duty now correctly included in Inventory and Direct Cost Applied entries"
+- [#9545 636017 Move Cost Accounting report action tooltips to report objects](../../../../changes/bcapps/9545.md) (code change): "Tooltips for 16 Cost Accounting reports moved to report objects"
 - [Dynamics 365 Business Central – How to proportionally split costs across Dimensions using Statistical Accounts and Allocation Accounts](../../../../posts/thedynamicsexplorer-com/37257.md) (community post): "how to automatically split costs across cost center dimensions in Business Central using Statistical Accounts"
 - [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "GL allocations; statistical accounts; cost allocation; revenue allocation"
 - [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "allocation accounts; cost allocation; posting; expense splitting"

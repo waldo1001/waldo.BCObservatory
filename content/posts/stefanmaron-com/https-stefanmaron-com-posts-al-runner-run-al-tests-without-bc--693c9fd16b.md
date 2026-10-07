@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T22:00:00.447Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: be2032d63388ed74691d82c91e6f393d440b1a4b2bc74ea4fa95b65a4b2c7213
+  input_hash: cb90914d8780544aca288e8958ff967a37d378784b684e78adfb5ea9dd83c8c1
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/
@@ -80,13 +80,23 @@ versions_mentioned:
   - BC 26
   - BC 27
   - BC 28
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:30.633Z"
 ---
 
 # AL Runner: Run AL Unit Tests Without a BC Service Tier
 
-> AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests in-memory without a BC service tier, Docker, or SQL Server, completing test runs in seconds instead of 20-30 minutes. It uses the BC compiler's public API to convert AL objects to C#, rewrites runtime types with mocks, and compiles everything with Roslyn for fast local testing.
-
 [Read the post](https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/) · Stefan Maron (Stefan Maron, MVP) · 2026-04-24 · 2128 words · tier community · **unreviewed** (machine-generated)
+
+> AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests in-memory without a BC service tier, Docker, or SQL Server, completing test runs in seconds instead of 20-30 minutes. It uses the BC compiler's public API to convert AL objects to C#, rewrites runtime types with mocks, and compiles everything with Roslyn for fast local testing.
 
 ## Key points
 

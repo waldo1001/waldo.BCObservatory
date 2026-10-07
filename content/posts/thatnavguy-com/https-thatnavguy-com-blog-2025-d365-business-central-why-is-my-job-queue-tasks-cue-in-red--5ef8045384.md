@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:28.413Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 719b57f541fc9fc4a9de4aa68db1b0ea267771575eb6f665c343ed6dd3aeab7c
+  input_hash: 5e7f26c58d6072e91236f87c1871b23a2dda5e4744610164f2ca2022f19614f4
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/
@@ -81,6 +81,16 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:39.082Z"
 ---
 
 # D365 Business Central: Why is my Job Queue Tasks Cue in Red?

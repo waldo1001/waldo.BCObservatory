@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8951",
+  "number": 8951,
+  "title": "[Master]-Time zone issue to the G/L report in Business Central",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The GetUserTimezoneOffset function in the Type Helper codeunit now correctly accounts for Daylight Saving Time when calculating timezone offsets, fixing timezone display issues in G/L reports.",
+  "key_points": [
+    "Fixes incorrect timezone calculations that didn't account for DST",
+    "Affects the GetUserTimezoneOffset function in codeunit 10",
+    "Resolves G/L report display issues related to timezone handling",
+    "Single-line fix to the Type Helper codeunit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "quote": "The Type Helper codeunit does not account for Daylight Saving Time (DST) in the GetUserTimezoneOffset function.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003221,
+    "changes_in_call": 1
+  }
+}

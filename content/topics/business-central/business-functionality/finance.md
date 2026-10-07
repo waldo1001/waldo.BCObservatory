@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:06.323Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -330,6 +330,14 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10049
+    - change/bcapps/11138
+    - change/bcapps/11150
+    - change/bcapps/11153
+    - change/bcapps/9311
+    - change/bcapps/9391
+    - change/bcapps/9887
 learn_toc_path:
   - Business functionality
   - Finance
@@ -947,6 +955,18 @@ The subtopics go deeper by task. Core ledger work sits in the chart of accounts 
 - [Register excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax): Learn how to generate, register, and review excise tax journal entries for items and fixed assets in Dynamics 365 Business Central.
 - [Set up and post employee withholding tax](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-employees): Learn how to configure employee withholding tax, post supported employee journal transactions, and review the tax entries that posting creates.
 - [View withholding tax entries](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-entries): This article describes how to review and explore the general ledger entries for withholding tax.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10049 Removed the ReplicateData=false property](../../../changes/bcapps/10049.md) (code change): "Removed ReplicateData=false from three Spend Request tables"
+- [#11138 [29.x][Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../changes/bcapps/11138.md) (code change): "IRS 1099 subscribers no longer call Modify(true) on journal lines during validation"
+- [#11150 Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field](../../../changes/bcapps/11150.md) (code change): "A missing data classification attribute was restored on a user field"
+- [#11153 Bug 649312: [29.x] Backport expense request report layout and dataclassification on userid field](../../../changes/bcapps/11153.md) (code change): "The spend request report layout was backported to address a platform issue"
+- [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
+- [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management app adds travel requisition support through new API pages for spend requests"
+- [#9887 Exclude spend request G/L link from replication](../../../changes/bcapps/9887.md) (code change): "Spend Request To G/L Link table"
 
 ## Business Central pages and reports
 

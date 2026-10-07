@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.018Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9355
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -91,5 +93,11 @@ The second page covers the E-Reporting FR e-document format. It generates struct
 
 - [Enable electronic invoicing with UBL 2.1 and Factur-X [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france): Enable French e-invoicing in Business Central with UBL 2.1 (PEPPOL BIS 3.0) and Factur-X, ensuring DGFIP B2B compliance.
 - [Use the E-Document Format for E-Reporting [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france): Learn how to send French e-reporting transactions by using the E-Reporting FR format and an e-document service.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../../changes/bcapps/9355.md) (code change): "SIRET No. field repositioned on Company Information page. ExportFacturXDocument codeunit"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

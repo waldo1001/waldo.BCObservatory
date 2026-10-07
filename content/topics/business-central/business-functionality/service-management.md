@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,6 +315,9 @@ links:
     - video/pEXl-POet_4
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11152
+    - change/bcapps/12290
 learn_toc_path:
   - Business functionality
   - Service management
@@ -407,10 +410,12 @@ Start with the overview page to confirm the Premium requirement. Then go to cont
 
 - [Service management](https://learn.microsoft.com/dynamics365/business-central/service-service): Learn to use features in Business Central designed to support service operations.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "A new Mark As Accepted action was added to posted sales, purchase, and service invoice"
+- [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Service Management objects are cleaned up by removing CLEAN27 code artifacts"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 

@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:23:05.917Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7b25390ce18f2a2b71dc1c3bef3b4ecd05862a698fed79f4e6e0283ae8ea2ca7
+  input_hash: 13777d64701c042190cd98caecb38e303ba93c04ad3c5ad0118632c637839f4f
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/
@@ -74,6 +74,16 @@ systems:
   - sales
   - purchasing
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-57-use-teststatusopen-procedure.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:57.870Z"
 ---
 
 # BC Friday Tips #57 Use TestStatusOpen Procedure

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,8 @@ links:
     - post/demiliani-com/12116
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
   guidelines: []
+  changes:
+    - change/bcapps/11065
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -130,10 +132,11 @@ A FAQ addresses managing and submitting Marketplace offers through Partner Cente
 - [Upgrading Marketplace Apps in Production](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-appsource-app-in-prod): Describes how to upgrade apps available on Marketplace that are already in running in production.
 - [Writing extensions installation code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code): Describes how to add code to run to initialize data when an extension is installed.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../../posts/demiliani-com/12116.md) (community post): "Old PTE versions are now automatically unpublished in SaaS"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Per-tenant extension deployment has moved to the admin center"
 - [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"

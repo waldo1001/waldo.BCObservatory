@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:22:56.609Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 51de38bb1832b81d00b4c0763f55a63df1648b014d83a3e2620aeb004c76390a
+  input_hash: 054b65e7a12a69f1a3996259da25ada03604242d0761c6b957fb444efba6a4d2
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/
@@ -75,6 +75,16 @@ systems:
   - finance
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-59-allocation-account-design.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:54.504Z"
 ---
 
 # BC Friday Tips #59 Allocation Account Design

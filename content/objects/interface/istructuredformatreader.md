@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b24b25be32c4c9cacee2ddcaa5efee132843dbfd058da4f2cd1227637ab7b54e
+  input_hash: acf962f022c0367a5d28ce7a29297cfa744bce820c44964a118eeeef89c4166f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/8698
 object_type: interface
 object_id: null
 name: IStructuredFormatReader
@@ -78,6 +80,10 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 - `ReadIntoDraft(EDocument: Record "E-Document"; TempBlob: Codeunit "Temp Blob"): Enum "E-Doc. Process Draft"`
 - `View(EDocument: Record "E-Document"; TempBlob: Codeunit "Temp Blob")`: Presents a view of the data
+
+## Recent changes
+
+- 2026-07-27 [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (main, BC30, feature)
 
 ## Across versions
 

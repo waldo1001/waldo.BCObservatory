@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,8 @@ links:
     - video/MWXwtRr6-Wk
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9352
 learn_toc_path:
   - Business functionality
   - Finance
@@ -140,10 +142,11 @@ Start with "Set up value-added tax" and "Posting group setup" for the core confi
 - [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 
 ## Business Central pages and reports

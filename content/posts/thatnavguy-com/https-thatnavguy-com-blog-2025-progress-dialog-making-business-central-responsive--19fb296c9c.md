@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:20.002Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1b9390fdb4eee6235f348f0168d34782c47cf60b8dac7487778fe1471b033000
+  input_hash: c87b1d6d2dc00493bb42f10b0ae5090279729306eb21b16d2e85a2a4dd8cc79b
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/progress-dialog-making-business-central-responsive/
@@ -72,6 +72,16 @@ code_objects_mentioned:
 systems:
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/progress-dialog-making-business-central-responsive.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:13.071Z"
 ---
 
 # Progress Dialog: Making Business Central Responsive

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.623Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,8 @@ links:
   posts:
     - post/demiliani-com/12123
   guidelines: []
+  changes:
+    - change/bcapps/11013
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -119,10 +121,11 @@ The migration page is for anyone with existing .NET add-ins. It describes the mo
 - [Serializing .NET framework types](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-serializing-dotnetframework-types): How to serialize .NET framework types
 - [Subscribing to Events in a .NET Framework Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-subscribe-to-events): How to subscribe to event in a .NET Framework Type
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Removed 43 unused DotNet alias declarations from the DotNet Aliases app"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../../posts/demiliani-com/12123.md) (community post): "ensure assemblies are compiled for .NET Standard if targeting version 21 or later"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

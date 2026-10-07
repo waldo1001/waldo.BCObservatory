@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:10.062Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9371
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -155,6 +157,12 @@ Two other topics sit alongside. Electronic invoicing explains how to set up the 
 - [GoBD filter examples [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples): Learn how to use filter types when you set up your GoBD exports.
 - [How to upgrade a .DTD definition file [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file): Validate a .dtd file after importing it to resolve upgrade issues in the German version.
 - [Set Up Data Exports for a Digital Audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits): Set up data export record sources to export data for a digital audit according to GDPdU requirements.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9371 Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported](../../../../../changes/bcapps/9371.md) (code change): "Report 11015 Export Business Data now stores generated ZIP files"
 
 ## Business Central pages and reports
 

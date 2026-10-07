@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.692Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,8 @@ links:
     - post/thinkaboutit-be/8022
     - post/thinkaboutit-be/8062
   guidelines: []
+  changes:
+    - change/bcapps/10005
 learn_toc_path:
   - Copilot and agent capabilities
   - Payables Agent
@@ -130,10 +132,11 @@ Start with the overview to understand the workflow, then follow the setup page. 
 - [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup): Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
 - [Supervise Agent Activities in Business Central](https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks): Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../changes/bcapps/10005.md) (code change): "Error messages now distinguish between no reversible quantities and already-reversed lines, providing clearer guidance for users and AI agents"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email"
 - [Quick Tip: Business Central Update 27.3 – What’s New](../../../posts/thinkaboutit-be/7496.md) (community post): "Payables Agent now matches purchase invoices to orders intelligently"
 - [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Payables Agent now allows free trials processing up to 50 invoices"

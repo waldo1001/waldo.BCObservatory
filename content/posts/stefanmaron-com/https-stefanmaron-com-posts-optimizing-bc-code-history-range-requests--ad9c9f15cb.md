@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:36:18.471Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0755df8652eb844376e6e28d0a649b34ce210f6b92b298e67dd92b512525300e
+  input_hash: bad2fd7a5bbe3d22819980589ecffa00026b54c22ef35778a2d7259ac97d66f2
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/
@@ -72,13 +72,23 @@ systems:
   - platform
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:38.474Z"
 ---
 
 # Optimizing BC Code History Downloads with HTTP Range Requests
 
-> Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures in PowerShell scripts and implementing HTTP Range requests to reduce bandwidth usage from 800MB-2GB+ per country artifact to roughly 120MB, cutting cumulative compute time by 86% across 50 parallel countries.
-
 [Read the post](https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1948 words · tier community · **unreviewed** (machine-generated)
+
+> Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures in PowerShell scripts and implementing HTTP Range requests to reduce bandwidth usage from 800MB-2GB+ per country artifact to roughly 120MB, cutting cumulative compute time by 86% across 50 parallel countries.
 
 ## Key points
 

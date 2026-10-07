@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:00.683Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -190,6 +190,15 @@ links:
     - video/YTA8c2XyTX4
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10207
+    - change/bcapps/10578
+    - change/bcapps/10753
+    - change/bcapps/11626
+    - change/bcapps/12196
+    - change/bcapps/12261
+    - change/bcapps/9127
+    - change/bcapps/9322
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Dataverse
@@ -244,10 +253,18 @@ Start with the overview page to choose between synchronizing data and virtualizi
 
 - [Integrating with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview): Learn how to integrate Business Central with Microsoft Dataverse
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md) (code change): "Environment copy cleanup of CRM Integration Records now uses bulk truncate"
+- [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
+- [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data Management now allows subsidiary environments to synchronize master data"
+- [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts"
+- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled"
+- [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../changes/bcapps/12261.md) (code change): "Stop repeated rescheduling of Dataverse synch jobs on bulk changes"
+- [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
+- [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "dataverse integration; data synchronization; virtual tables; data change events"
 - [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "power pages; virtual tables; multi-company support; dataverse"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; virtual tables visibility"

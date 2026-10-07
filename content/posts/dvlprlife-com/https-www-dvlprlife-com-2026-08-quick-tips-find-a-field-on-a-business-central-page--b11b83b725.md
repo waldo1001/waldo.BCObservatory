@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:49.059Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 54cd2b060ead577c253a680c0a3e56020ad47f49f69828fd1297edebfd54d933
+  input_hash: c1fe98208ac15343d88bc1e550125be631aa716c1ebc453c36c88b49af086896
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/
@@ -54,13 +54,23 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:13.366Z"
 ---
 
 # Quick Tips: Find a Field on a Business Central Page
 
-> Page Inspection is a built-in tool in Business Central that helps you quickly find and locate specific fields on any page without scrolling through tabs. You can search for fields by name and the page automatically highlights their location, also revealing field numbers and data types needed for AL coding.
-
 [Read the post](https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/) · DvlprLife (Brad Prendergast) · 2026-08-21 · 446 words · tier community · **unreviewed** (machine-generated)
+
+> Page Inspection is a built-in tool in Business Central that helps you quickly find and locate specific fields on any page without scrolling through tabs. You can search for fields by name and the page automatically highlights their location, also revealing field numbers and data types needed for AL coding.
 
 ## Key points
 

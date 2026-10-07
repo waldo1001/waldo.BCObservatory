@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:55:39.983Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 3e23018d0ae59a143303f0d2d46d9d86e9e183d2fd723b4f19c5dca3745da579
+  input_hash: e58b53c4c8aa0b87c10bef8cf767d11be54de23ee2c2a08be2f77246fbcdaeeb
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-tech-days-2026/
@@ -72,13 +72,23 @@ systems:
   - copilot
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/BC-Tech-Days-2026.B3QUyA11_Z2rjGoy.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:27.430Z"
 ---
 
 # BC Tech Days 2026
 
-> The post reflects on BC Tech Days 2026, highlighting that AI agents dominated conference discussions and have become central to the Business Central community's focus. It emphasizes the shift from curiosity about AI capabilities to practical adoption questions.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-tech-days-2026/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-12 · 220 words · tier community · **unreviewed** (machine-generated)
+
+> The post reflects on BC Tech Days 2026, highlighting that AI agents dominated conference discussions and have become central to the Business Central community's focus. It emphasizes the shift from curiosity about AI capabilities to practical adoption questions.
 
 ## Key points
 

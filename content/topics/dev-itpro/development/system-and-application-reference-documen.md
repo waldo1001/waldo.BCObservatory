@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:35.706Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/al-go/2301
+    - change/al-go/2334
 learn_toc_path:
   - Development
   - System and application reference documentation
@@ -128,5 +131,12 @@ Start with the overview page to understand the layers and where code belongs. Th
 ## More Learn pages
 
 - [Overview of the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-system-application-overview): This article provides an overview of the modules in the Business Central application, and information about how you can use them.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#2301 Provide package cache to aldoc when building reference documentation](../../../changes/al-go/2301.md) (code change): "aldoc when building reference documentation for artifact-based apps"
+- [#2334 Handle app names with underscores correctly for reference documentation](../../../changes/al-go/2334.md) (code change): "Handle app names with underscores correctly for reference documentation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

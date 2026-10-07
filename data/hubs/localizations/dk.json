@@ -1,0 +1,183 @@
+{
+  "country": "DK",
+  "version": "29",
+  "input_hash": "7ac08a1c30d029da8755e922cc4417560b9904c27c304f608e96564b35980200",
+  "summary": "Denmark (DK) localization adds OIOUBL electronic invoicing, NemHandel registration status, electronic VAT return submission to skat.dk, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, payroll import and a C5 data migration. It answers how Danish legal and e-invoicing needs are met in Business Central.",
+  "overview": "The Danish layer is made almost entirely of its own objects (431) plus table and page extensions; no W1 object is listed as changed. The largest blocks are the C5 data migration (codeunits, pages and xmlports with a \"C5\" prefix), the OIOUBL extension (check, export and subscriber codeunits, with table and page extensions on sales, reminder, finance charge memo and service documents), and the finance codeunits for electronic VAT declaration, SAF-T and Regnskab Basis export.\n\nBank-related code covers FIK: codeunits such as \"FIKManagement\", \"FIK_MatchBankRecLines\" and \"FIK_ReadFile\", fixed-width bank export, and page extensions on vendor, payment journal and payment reconciliation pages. Payroll import uses data exchange definitions and the \"Data Exch. Imp.- Proløn\" xmlport. The eServices area adds OIOUBL format handling for E-Documents, and NemHandel status checks via HTTP interfaces.\n\nLearn documents this under Denmark local functionality: bookkeeping act compliance, digital vouchers, five-year retention, OIOUBL setup and creation, NemHandel registration and e-invoicing, SAF-T, Regnskab Basis, standard chart of accounts, electronic VAT returns, VAT reconciliation, VAT-VIES, Intrastat VAT number and payroll data definitions.",
+  "key_points": [
+    "OIOUBL (UBL 2.0) XML export of sales and service invoices, credit memos, reminders and finance charge memos, with GLN, account code and profile code fields on customers.",
+    "Electronic VAT return submission to skat.dk through the Danish Tax Agency VAT API, with setup page, communication logs, certificates and period retrieval.",
+    "SAF-T audit file export and Regnskab Basis CSV export, both relying on mapping G/L accounts to the standard chart of accounts.",
+    "FIK payment handling: matching of bank reconciliation and general journal lines, with FIK transaction text codes in the payment reconciliation journal.",
+    "NemHandel registration status check and notification based on the CVR number in Company Information, plus E-Document support for OIOUBL.",
+    "Digital vouchers and five-year data retention (daily export to Azure Blob Storage) support compliance with the Danish bookkeeping act.",
+    "Payroll import for Danish providers such as Danløn and Dataløn through data exchange definitions into the general journal.",
+    "C5 data migration wizard objects for importing from C5."
+  ],
+  "areas": [
+    {
+      "area": "DataMigration",
+      "what": "Adds a full C5 data migration toolset: migrator codeunits for customers, vendors, items, ledger accounts and ledger transactions, a schema reader, unzip and data loader, a dashboard, and many C5 source pages.",
+      "why": null,
+      "objects": [
+        "codeunit/1860",
+        "codeunit/1861",
+        "codeunit/1868",
+        "codeunit/1863",
+        "codeunit/1866",
+        "codeunit/1864",
+        "codeunit/1867",
+        "page/1860"
+      ]
+    },
+    {
+      "area": "EServices",
+      "what": "Adds the OIOUBL engine: check codeunits, XML export codeunits for sales, service, reminder and finance charge documents, and subscribers. Also adds NemHandel status management and a digital voucher implementation.",
+      "why": "Danish public sector customers require OIOUBL electronic documents, and Danish regulation requires NemHandelsregisteret registration and digital vouchers.",
+      "objects": [
+        "codeunit/13625",
+        "codeunit/13636",
+        "codeunit/13637",
+        "codeunit/13646",
+        "codeunit/13628",
+        "codeunit/13621",
+        "codeunit/13910",
+        "enum/13608"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds electronic VAT declaration (SKAT API, XML, cryptography, Azure Key Vault, setup and log pages), SAF-T export with standard accounts and tax codes, ECSL export file and Regnskab Basis export.",
+      "why": "Learn describes electronic VAT return submission to skat.dk, SAF-T export for the tax authorities and Regnskab Basis export using the standard chart of accounts.",
+      "objects": [
+        "codeunit/13612",
+        "codeunit/13613",
+        "codeunit/13606",
+        "page/13605",
+        "codeunit/13689",
+        "codeunit/13697",
+        "codeunit/13698",
+        "codeunit/13695"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds FIK payment handling: matching of bank reconciliation and general journal lines, file reading, payment export and fixed-width bank export. Page and table extensions add FIK fields to vendor, purchase, journal and reconciliation objects.",
+      "why": "Learn explains FIK transaction text codes that describe automatic payment application results in the payment reconciliation journal.",
+      "objects": [
+        "codeunit/13650",
+        "codeunit/13651",
+        "codeunit/13652",
+        "codeunit/13654",
+        "codeunit/13653",
+        "codeunit/13660",
+        "pageextension/13620",
+        "table/13625"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Extends sales, reminder and finance charge memo tables and pages with OIOUBL fields, such as customer GLN, account code and profile code, on documents and posted documents.",
+      "why": "Learn states that customers need GLN, account code and profile code information for OIOUBL invoicing.",
+      "objects": [
+        "tableextension/13634",
+        "pageextension/13652",
+        "tableextension/13630",
+        "tableextension/13632",
+        "pageextension/13666",
+        "tableextension/13636",
+        "tableextension/13641",
+        "pageextension/13655"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Extends service documents, archives, posted documents and service setup with OIOUBL fields so service invoices and credit memos can be exported.",
+      "why": null,
+      "objects": [
+        "tableextension/13652",
+        "tableextension/13654",
+        "pageextension/13672",
+        "tableextension/13655",
+        "tableextension/13657",
+        "pageextension/13674",
+        "pageextension/13676",
+        "pageextension/13678"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds OIOUBL fields to payment terms, company information and country/region, with matching page extensions.",
+      "why": "Learn lists payment terms and OIOUBL profile selection as part of OIOUBL setup.",
+      "objects": [
+        "tableextension/13640",
+        "pageextension/13653",
+        "tableextension/13659",
+        "tableextension/13660",
+        "pageextension/13645"
+      ]
+    },
+    {
+      "area": "eServices",
+      "what": "Integrates OIOUBL with E-Documents: a format enum extension, a draft import codeunit and a handler codeunit.",
+      "why": "Learn describes setting up NemHandel e-invoicing through E-Document Services with OIOUBL or Peppol BIS 3 formats.",
+      "objects": [
+        "codeunit/13913",
+        "codeunit/13911",
+        "enumextension/13910",
+        "enumextension/13911"
+      ]
+    },
+    {
+      "area": "Payroll",
+      "what": "Adds import of Danish payroll provider files: a data exchange definition import codeunit, a setup page, a general journal page extension and the Proløn import xmlport.",
+      "why": "Learn describes importing payroll transactions from providers like Danløn and Dataløn through the general journal.",
+      "objects": [
+        "codeunit/13640",
+        "page/13640",
+        "pageextension/13641",
+        "xmlport/13600"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Holds the C5 Data Loader Status table used by the C5 migration.",
+      "why": null,
+      "objects": [
+        "table/1902"
+      ]
+    },
+    {
+      "area": "ExpenseAgent",
+      "what": "Adds an Expense Event Subscriber DK codeunit for the Danish layer of the expense agent.",
+      "why": null,
+      "objects": [
+        "codeunit/6918"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Extends the Item Charge table with OIOUBL fields.",
+      "why": "Learn lists item charge setup as part of the OIOUBL extension setup.",
+      "objects": [
+        "tableextension/13651"
+      ]
+    },
+    {
+      "area": "IO",
+      "what": "Extends the Record Export Buffer table with OIOUBL-specific handling for exported files.",
+      "why": null,
+      "objects": [
+        "tableextension/13661"
+      ]
+    }
+  ],
+  "learn_pages_used": 20,
+  "prompt_version": 2,
+  "at": "2026-10-07T13:25:06.363Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.12490200000000001
+  }
+}

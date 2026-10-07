@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f719f7582b35a811d275f5831bf0bc56d8abc2869974adc51b95a0dda740533c
+  input_hash: 66d0367880c53430ec09086a4e8b483c1488fc6c56a78af44713a641e9b7a9a5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocMessageBuilder.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/8698
 object_type: interface
 object_id: null
 name: IEDocMessageBuilder
@@ -77,6 +79,10 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 ## Procedures
 
 - `BuildMessage(EDocument: Record "E-Document"; ResponseType: Enum "E-Doc. Response Type"; var TempBlob: Codeunit "Temp Blob")`
+
+## Recent changes
+
+- 2026-07-27 [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (main, BC30, feature, added)
 
 ## Across versions
 

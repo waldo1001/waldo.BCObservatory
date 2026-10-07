@@ -2,7 +2,7 @@
 id: localization/be
 type: localization
 title: Belgium (BE)
-summary: Belgium (BE) localization of Business Central 29. It covers Belgian VAT reporting with non-deductible VAT, electronic banking (domestic, international and SEPA payments), CODA statements, domiciliation direct debit, Intrastat, enterprise numbers and legal ledger reports. It answers where these features live and which W1 objects they change.
+summary: Belgium (BE) localization of Business Central 29. It covers Belgian VAT reporting with non-deductible VAT, Intrastat, CODA bank statements, electronic banking (domestic, international, SEPA payments), domiciliation direct debits, enterprise numbers, legal ledger reports and PEPPOL 3.0. It answers where Belgian-specific setup, fields and reports live.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 584f5854425ce36d3f6e58314c3715f4ebec8b5fa567cc8f0ef6157bab9d91f4
+  input_hash: 90f128012c70dfe6a59362cd18c871de31bf596f0726ca7c35b5f5ab14a329fc
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -130,28 +130,28 @@ learn_folder: LocalFunctionality/Belgium
 
 # Belgium (BE)
 
-> Belgium (BE) localization of Business Central 29. It covers Belgian VAT reporting with non-deductible VAT, electronic banking (domestic, international and SEPA payments), CODA statements, domiciliation direct debit, Intrastat, enterprise numbers and legal ledger reports. It answers where these features live and which W1 objects they change.
+> Belgium (BE) localization of Business Central 29. It covers Belgian VAT reporting with non-deductible VAT, Intrastat, CODA bank statements, electronic banking (domestic, international, SEPA payments), domiciliation direct debits, enterprise numbers, legal ledger reports and PEPPOL 3.0. It answers where Belgian-specific setup, fields and reports live.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/belgium.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-Belgium adds a large banking layer under the 2000000 object range. Payment journals, export protocols and check codeunits support domestic, international, SEPA and non-Euro SEPA payment files. CODA statements are imported, applied and posted through a financial journal. Domiciliation journals handle direct debit collection. Learn documents this in the Belgian electronic banking, electronic payments, CODA and domiciliation pages.
+Belgium adds a large set of own objects on top of W1. Electronic banking (tables and codeunits in the 2000000 range) handles payment journals, export protocols, payment file reports and checks, domiciliation journals, and CODA import, application and posting. Learn documents these under Belgian Electronic Banking, Belgian electronic payments, Belgian CODA Bank Statements and Belgian Direct Debit Using Domiciliation.
 
-In finance, the country extends VAT handling. VAT Entry, VAT Statement Line, G/L Account and the journal and posting buffers get non-deductible VAT fields. Manual VAT corrections, representatives, VAT forms, annual listings, VAT-VIES disk files and an Intervat helper are own objects. Local ledger reports (General, Centralization, Financial, Sales, Purchase), a trial balance and a Link to Accon export are added. Customers, vendors, contacts and many document headers carry an Enterprise No. field.
+For tax and statutory reporting, the country adds VAT reports (VAT form, annual listing, VAT-VIES disk, Intervat helper), manual VAT corrections, representatives, legal ledgers (sales, purchase, general, centralization, financial), a trial balance and the Link to Accon export. W1 tables get Enterprise No. fields, non-deductible VAT fields and Intrastat fields. Intrastat is implemented through extensions to the Intrastat report and tariff number import reports.
 
-Smaller changes cover Intrastat (tariff numbers with conversion factors, simplified and extended declarations), Belgian service documents and reports, PEPPOL payment discount compensation, and cash flow VAT base amounts. Upgrade codeunits and permission sets support the local objects.
+Other layers cover service documents (BE reports and header extensions), PEPPOL 3.0 validation and payment discount compensation, Shopify enterprise number mapping, journal template names made mandatory with upgrade tags, and cash flow VAT base amounts. The code also adds 18 events on W1 objects, for example in VAT Statement, Customer, Vendor and Country/Region.
 
 ## Key points
 
-- Electronic banking: payment journals, export protocols, check codeunits and file reports for domestic, international, SEPA and non-Euro SEPA payments, with Suggest Vendor Payments EB.
-- CODA: import, apply, default posting and transfer to a financial journal; bank accounts get Protocol No. and Version Code.
-- Domiciliation: customer Domiciliation No., domiciliation journals, suggestions, test report and file export.
-- VAT: non-deductible VAT percentage on G/L accounts and purchase lines, manual VAT corrections, VAT forms, annual listing and VAT-VIES disk reports.
-- Enterprise No. and Branch No. on company, customer, vendor, contact and document headers.
-- Intrastat: tariff number conversion factors and supplementary units, simplified or extended declaration setup, tariff import reports.
-- Local legal reports: General, Centralization and Financial ledgers, Sales and Purchase ledgers, Link to Accon.
-- Extensibility: events such as OnBeforeValidateEnterpriseNo, OnBeforeCalcColumnValue and OnBeforeDetermineCountry.
+- Electronic banking: payment journals, export protocols, domestic, international, SEPA and non-Euro SEPA payment files, with check codeunits and error logs
+- CODA bank statements: import, application to ledger entries, financial journal transfer and posting; bank account fields Protocol No. and Version Code
+- Domiciliation direct debit: journals, suggestions, test and file reports; Customer fields Domiciliation No. and VAT Liable
+- Belgian VAT: VAT form and Intervat declaration, annual listing, VAT-VIES disk, manual VAT corrections, representatives
+- Non-deductible VAT: % Non deductible VAT on G/L Account, amounts on VAT Entry, purchase lines and posting buffers
+- Enterprise No. and Branch No. on Company Information, customers, vendors, contacts and document headers
+- Intrastat: simplified and extended declarations, tariff number setup and import, OneGate export, Intrastat Establishment No.
+- Legal reports: sales, purchase, general, centralization and financial ledgers, trial balance, Link to Accon export; PEPPOL 3.0 BE
 
 Narrative written by Sonnet from the code diff and 38 Learn page summaries. In numbers: Belgium (BE) localization of Business Central in BC29: 129 objects of its own, 80 W1 objects changed (101 fields and 18 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -165,12 +165,12 @@ Narrative written by Sonnet from the code diff and 38 Learn page summaries. In n
 | [Purchases](#purchases) | 17 | 1 | 16 |
 | [Sales](#sales) | 16 | 2 | 20 |
 | [Service](#service) | 0 | 11 | 0 |
-| Peppol | 0 | 10 | 0 |
+| [Peppol](#peppol) | 0 | 10 | 0 |
 | [Foundation](#foundation) | 4 | 3 | 13 |
 | [(no namespace)](#no-namespace) | 0 | 5 | 0 |
 | [CashFlow](#cashflow) | 3 | 0 | 1 |
 | Upgrade | 3 | 0 | 0 |
-| Integration | 0 | 2 | 0 |
+| [Integration](#integration) | 0 | 2 | 0 |
 | [Security](#security) | 2 | 0 | 0 |
 | [CRM](#crm) | 1 | 0 | 1 |
 | [Text](#text) | 1 | 0 | 0 |
@@ -179,57 +179,57 @@ Narrative written by Sonnet from the code diff and 38 Learn page summaries. In n
 
 ### Bank
 
-Adds the Belgian electronic banking suite: payment journal templates, batches and lines, export protocols, check codeunits, and file reports for domestic, international, SEPA and non-Euro SEPA payments. It also adds CODA statement import, application and posting, and domiciliation journals. Bank Account gets Protocol No., Version Code and Interbank Clearing Code.
+Adds the Belgian electronic banking stack: payment journal templates, batches and lines, export protocols, check codeunits for domestic, international, SEPA and non-Euro SEPA payments, and payment file reports. Also adds domiciliation journals and CODA statement import, application and posting. Bank Account gets Protocol No., Version Code and Interbank Clearing Code.
 
-Why: Learn describes these as the Belgian formats for electronic payments, CODA bank statements and domiciliation direct debit.
+Why: Learn explains that the setup supports electronic payments, CODA statements and domiciliation direct debits, with export protocols defining the payment file formats.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/2000000 "PmtJrnlManagement"](../objects/codeunit/2000000-be.md) (own), [codeunit/2000004 "Check SEPA Payments"](../objects/codeunit/2000004-be.md) (own), [report/2000005 "File SEPA Payments"](../objects/report/2000005-be.md) (own), [report/2000019 "Suggest Vendor Payments EB"](../objects/report/2000019-be.md) (own), [codeunit/2000040 "Coda Import Management"](../objects/codeunit/2000040-be.md) (own), [codeunit/2000042 "Post Coded Bank Statement"](../objects/codeunit/2000042-be.md) (own), [page/11308 "Electronic Banking Setup"](../objects/page/11308-be.md) (own).
+Objects: [table/2000001 "Payment Journal Line"](../objects/table/2000001-be.md) (own), [codeunit/2000000 "PmtJrnlManagement"](../objects/codeunit/2000000-be.md) (own), [report/2000005 "File SEPA Payments"](../objects/report/2000005-be.md) (own), [report/2000030 "Import CODA Statement"](../objects/report/2000030-be.md) (own), [codeunit/2000040 "Coda Import Management"](../objects/codeunit/2000040-be.md) (own), [table/2000040 "CODA Statement"](../objects/table/2000040-be.md) (own), [report/2000021 "File Domiciliations"](../objects/report/2000021-be.md) (own), [table/2000022 "Domiciliation Journal Line"](../objects/table/2000022-be.md) (own).
 
 [All 60 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Finance
 
-Extends VAT reporting with non-deductible VAT, manual VAT corrections, representatives, VAT forms, annual listing and VAT-VIES disk files. Adds ledger reports, an Intervat helper and an open/apply mechanism on G/L entries. VAT Entry, VAT Statement Line and G/L Account get local fields.
+Adds Belgian VAT handling: VAT form, annual listing, VAT-VIES disk, VAT statement reports, manual VAT corrections and representatives. Also adds legal ledger reports and Link to Accon. W1 VAT Statement and VAT Entry gain non-deductible VAT and Enterprise No. fields, and G/L Entry gets application fields.
 
-Why: Learn documents monthly or quarterly VAT declarations, annual listings, manual corrections and non-deductible VAT setup for Belgium.
+Why: Learn documents monthly or quarterly VAT declarations, annual listings, manual VAT corrections and general ledger entry application for Belgium.
 
-Objects: [report/12 "VAT Statement"](../objects/report/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/15 "G/L Account"](../objects/table/15.md), [table/17 "G/L Entry"](../objects/table/17.md), [table/11301 "Manual VAT Correction"](../objects/table/11301-be.md) (own), [report/11307 "VAT - Form"](../objects/report/11307-be.md) (own), [report/11308 "VAT Annual Listing"](../objects/report/11308-be.md) (own).
+Objects: [report/11307 "VAT - Form"](../objects/report/11307-be.md) (own), [report/11308 "VAT Annual Listing"](../objects/report/11308-be.md) (own), [table/11301 "Manual VAT Correction"](../objects/table/11301-be.md) (own), [report/12 "VAT Statement"](../objects/report/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/17 "G/L Entry"](../objects/table/17.md), [report/11313 "Link to Accon"](../objects/report/11313-be.md) (own).
 
 [All 48 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Inventory
 
-Supports Belgian Intrastat. Tariff Number and Intrastat Jnl. Line get conversion factor, unit of measure and supplementary units. Intrastat batches track reporting, and two reports import tariff numbers.
+Implements Belgian Intrastat through Intrastat report extensions, tariff number import reports and fields on Tariff Number and Intrastat lines. Adds conversion factor, unit of measure and supplementary unit fields, plus batch flags for reporting systems.
 
-Why: Learn describes simplified and extended declarations, tariff number setup and export to the OneGate portal.
+Why: Learn describes simplified and extended declarations and export to the OneGate portal.
 
-Objects: [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md) (own), [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md) (own), [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md) (own).
+Objects: [codeunit/11346 "IntrastatReportManagementBE"](../objects/codeunit/11346-be.md) (own), [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [pageextension/11346 "Intrastat Report BE"](../objects/pageextension/11346-be.md) (own), [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md) (own), [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md) (own), [tableextension/11346 "Intrastat Report Header BE"](../objects/tableextension/11346-be.md) (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md).
 
 [All 18 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Purchases
 
-Adds Enterprise No. to purchase documents and vendors, and non-deductible VAT percentage and amount procedures on purchase lines. Vendors get a Suggest Payments flag and bank accounts an export protocol code. Adds the Purchase Ledger report and events in posting.
+Adds non-deductible VAT percentages and amount procedures on purchase lines and posted lines. Adds Enterprise No. on purchase headers and vendors, Suggest Payments on Vendor, an Export Protocol Code on vendor bank accounts, and the Purchase Ledger report.
 
-Why: Learn covers setting vendors for automatic payment suggestions and non-deductible VAT.
+Why: Learn explains vendor setup for automatic payment suggestions and non-deductible VAT for expense accounts.
 
-Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [report/11301 "Purchase Ledger"](../objects/report/11301-be.md) (own), [page/161 "Purchase Statistics"](../objects/page/161.md), [page/400 "Purchase Invoice Statistics"](../objects/page/400.md), [table/123 "Purch. Inv. Line"](../objects/table/123.md).
+Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/23 "Vendor"](../objects/table/23.md), [table/123 "Purch. Inv. Line"](../objects/table/123.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [report/11301 "Purchase Ledger"](../objects/report/11301-be.md) (own), [table/38 "Purchase Header"](../objects/table/38.md), [page/161 "Purchase Statistics"](../objects/page/161.md).
 
 [All 18 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Sales
 
-Adds Enterprise No. to customers and sales and reminder documents, plus VAT Liable and Domiciliation No. on customers. PEPPOL Management gains payment discount compensation and enterprise number handling. Adds the Sales Ledger report.
+Adds Enterprise No. to sales documents, reminders and finance charge memos. Customer gets VAT Liable and Domiciliation No. PEPPOL Management gains payment discount compensation procedures, and the Sales Ledger report is added.
 
-Why: Learn documents enterprise numbers and the domiciliation number used for direct debit.
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/18 "Customer"](../objects/table/18.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [table/36 "Sales Header"](../objects/table/36.md), [table/1381 "Customer Templ."](../objects/table/1381.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/11300 "Sales Ledger"](../objects/report/11300-be.md) (own), [codeunit/854 "Sales Post Invoice Events BE"](../objects/codeunit/854-be.md) (own), [table/311 "Sales & Receivables Setup"](../objects/table/311.md).
+Objects: [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/11300 "Sales Ledger"](../objects/report/11300-be.md) (own), [table/1381 "Customer Templ."](../objects/table/1381.md), [codeunit/854 "Sales Post Invoice Events BE"](../objects/codeunit/854-be.md) (own), [table/112 "Sales Invoice Header"](../objects/table/112.md).
 
 [All 18 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Service
 
-Adds Belgian service document reports (invoice, credit memo, shipment, test) and table extensions on service headers. Two codeunits handle service line and document logic.
+Adds Belgian service invoice, credit memo, shipment and test reports, with table extensions on service headers and archive. Codeunits manage service lines and documents.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -237,19 +237,29 @@ Objects: [report/11321 "Service - Invoice (BE)"](../objects/report/11321-be.md) 
 
 [All 11 objects of Service in the diff](?ns=Service#country-diff)
 
+### Peppol
+
+Adds PEPPOL 3.0 Belgian format support with validation for sales and service documents, tax, payment and monetary info, a discount (Escompte) codeunit, subscribers and an upgrade codeunit.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/37312 "PEPPOL30 BE Initialize"](../objects/codeunit/37312-be.md) (own), [codeunit/37314 "PEPPOL30 BE Subscribers"](../objects/codeunit/37314-be.md) (own), [codeunit/37311 "PEPPOL30 BE Sales Validation"](../objects/codeunit/37311-be.md) (own), [codeunit/37310 "PEPPOL30 BE Service Validation"](../objects/codeunit/37310-be.md) (own), [codeunit/37315 "PEPPOL30 BE Tax Info"](../objects/codeunit/37315-be.md) (own), [codeunit/37316 "PEPPOL30 BE Escompte"](../objects/codeunit/37316-be.md) (own), [codeunit/37318 "PEPPOL30 BE Monetary Info"](../objects/codeunit/37318-be.md) (own), [enumextension/37310 "PEPPOL 3.0 Format BE"](../objects/enumextension/37310-be.md) (own).
+
+[All 10 objects of Peppol in the diff](?ns=Peppol#country-diff)
+
 ### Foundation
 
-Company Information gets enterprise, branch, Intrastat establishment and XML sequence number fields. Country/Region gets ISO code, IBAN and SEPA flags. Source Code Setup gets Financial Journal and Domiciliation Journal codes.
+Adds Belgian company identifiers to Company Information: enterprise and branch numbers, Intrastat establishment number and XML sequence numbers. Country/Region gets ISO, IBAN and SEPA fields, and Source Code Setup gets financial and domiciliation journal codes.
 
-Why: Learn documents enterprise and branch numbers and the Intrastat establishment number.
+Why: Learn describes enterprise numbers issued by the Crossroads Bank for Enterprises and the Intrastat establishment number.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/10 "Shipment Method"](../objects/table/10.md), [codeunit/11311 "Serv. Report Selection Mgt. BE"](../objects/codeunit/11311-be.md) (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/242 "Source Code Setup"](../objects/table/242.md), [tableextension/11307 "SourceCodeSetupBE"](../objects/tableextension/11307-be.md) (own), [pageextension/11307 "SourceCodeSetupBE"](../objects/pageextension/11307-be.md) (own), [table/10 "Shipment Method"](../objects/table/10.md), [codeunit/11311 "Serv. Report Selection Mgt. BE"](../objects/codeunit/11311-be.md) (own).
 
 [All 7 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### (no namespace)
 
-Holds a Transaction Coding table and page used with CODA, plus a codeunit that copies invoice numbers to payment references.
+Holds the Transaction Coding table and page used with CODA, plus a copy-invoice-number-to-payment-reference codeunit and ISO code upgrade plumbing.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -259,17 +269,27 @@ Objects: [table/2000043 "Transaction Coding"](../objects/table/2000043-be.md) (o
 
 ### CashFlow
 
-Cash flow suggestion lines compute a VAT base amount from purchase, sales, service lines and ledger entries. Cash Flow Worksheet Line gets a VAT Base Amount field.
+Cash flow suggestions compute a VAT base amount for sales, purchase and service lines and ledger entries. Cash Flow Worksheet Line gets a VAT Base Amount field.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [report/840 "Suggest Worksheet Lines"](../objects/report/840.md), [reportextension/6485 "Serv. Suggest Worksheet Lines"](../objects/reportextension/6485.md), [table/846 "Cash Flow Worksheet Line"](../objects/table/846.md).
+Objects: [report/840 "Suggest Worksheet Lines"](../objects/report/840.md), [table/846 "Cash Flow Worksheet Line"](../objects/table/846.md), [reportextension/6485 "Serv. Suggest Worksheet Lines"](../objects/reportextension/6485.md).
 
 [All 3 objects of CashFlow in the diff](?ns=CashFlow#country-diff)
 
+### Integration
+
+Shopify integration maps the Belgian enterprise number as company tax ID through an enum extension and a codeunit.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/30461 "Shpfy Enterprise No. BE"](../objects/codeunit/30461-be.md) (own), [enumextension/30461 "Shpfy Comp. Tax Id Mapping BE"](../objects/enumextension/30461-be.md) (own).
+
+[All 2 objects of Integration in the diff](?ns=Integration#country-diff)
+
 ### Security
 
-The LOCAL and LOCAL READ permission sets are changed to cover the Belgian objects.
+Changes the LOCAL and LOCAL READ permission sets to include Belgian objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -289,7 +309,7 @@ Objects: [table/5050 "Contact"](../objects/table/5050.md).
 
 ### Text
 
-Selection filter management gains procedures for bank accounts and the EB payment journal.
+Selection filter helpers gain procedures for bank accounts and EB payment journals.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -299,7 +319,7 @@ Objects: [codeunit/46 "SelectionFilterManagement"](../objects/codeunit/46.md).
 
 ### Utilities
 
-Document Totals gains non-deductible VAT calculation for purchase totals, with an event.
+Document Totals gains procedures and an event to calculate non-deductible VAT in purchase totals.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -309,9 +329,9 @@ Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md).
 
 ### Warehouse
 
-Whse.-Post Receipt gains a procedure to get the source journal template.
+Whse.-Post Receipt gets a procedure to get the source journal template, supporting mandatory journal template names.
 
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+Why: Learn describes making journal templates mandatory in the Belgian version.
 
 Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 

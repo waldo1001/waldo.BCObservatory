@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:34.764Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,6 +180,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/186
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -245,5 +247,11 @@ Start with the Table, Page, and Codeunit object pages for the core model. Then m
 - [Table object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object): This article describes the structure, object limits, and extensibility of the table object in AL for Business Central.
 - [Test Codeunits and Test Methods in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods): Learn how to create test codeunits and test methods in AL, set the SubType property to Test, and use the different test method attributes in Business Central.
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#186 Add Query filter semantics guidance](../../../../../changes/bcquality/186.md) (code change): "DataItemTableFilter remains active when runtime filters target the same field"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

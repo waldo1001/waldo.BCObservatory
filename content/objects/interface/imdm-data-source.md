@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8e473091ab3f147cf8ccaa72449ffc63cb3e1232d86657599e239e04e6a2ae8d
+  input_hash: 38664c6c5b018e9f12750deee7266f7105195cbc2140862f6c7c992178829146
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10753
 object_type: interface
 object_id: null
 name: IMDM Data Source
@@ -87,6 +89,10 @@ MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 1d24d
 - `GetById(IntegrationTableMapping: Record "Integration Table Mapping"; ID: Variant; var SourceRecordRef: RecordRef): Boolean`: Fetches a single source integration-table record by its identifier into SourceRecordRef. The identifier is the integration UID field value - for Master Data Management the SystemId - passed as a Guid or its text form. A RecordId is environment-specific and only resolvable by the local same-environme...
 - `GetByUidFilter(IntegrationTableMapping: Record "Integration Table Mapping"; UidFilter: Text; var SourceRecordRef: RecordRef): Boolean`: Opens the source integration table and returns the set of records whose integration UID field matches UidFilter (a filter expression, e.g. a list of SystemIds). Returns true if any matched.
 - `GetByFilter(IntegrationTableMapping: Record "Integration Table Mapping"; TableFilter: Text; var SourceRecordRef: RecordRef): Boolean`: Opens SourceRecordRef on the source integration table and returns ALL records matching TableFilter (the whole set, not just those modified since the watermark) - used by coupling and uncoupling. Returns true if at least one record matches.
+
+## Recent changes
+
+- 2026-09-10 [#10753 Cross-environment Master Data synchronization (same tenant)](../../changes/bcapps/10753.md) (main, BC30, feature, added)
 
 ## Across versions
 

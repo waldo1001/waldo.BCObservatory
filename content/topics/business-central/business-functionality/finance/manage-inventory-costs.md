@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,6 +141,12 @@ links:
     - post/thedynamicsexplorer-com/10326
     - post/thedynamicsexplorer-com/37371
   guidelines: []
+  changes:
+    - change/bcapps/10094
+    - change/bcapps/11309
+    - change/bcapps/11906
+    - change/bcapps/9212
+    - change/bcapps/9467
 learn_toc_path:
   - Business functionality
   - Finance
@@ -214,10 +220,15 @@ Start with "Managing inventory costs" and "About unit cost calculation" to learn
 - [Track item cost adjustments](https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs): Learn how tracking adjustments to item costs can help you keep your item cost data accurate.
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "preventing inventory overstatement and ensuring purchase variance"
+- [#11309 [29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11309.md) (code change): "Post Inventory Cost to G/L report now handles dimension text longer than 250 characters"
+- [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
+- [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single Export/Import action pair"
+- [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "InsertPostValueEntryToGL procedure in codeunit 22 Item Jnl.-Post Line is now public"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Using a GL account for the credit avoids inventory adjustments but leaves the original item ledger entry's Sales Amount"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card in Business Central"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "Cost adjustment; inventory valuation; high-volume items"

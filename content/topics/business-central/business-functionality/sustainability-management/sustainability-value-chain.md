@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,16 @@ links:
     - video/t_UXxbvgnHY
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10183
+    - change/bcapps/10293
+    - change/bcapps/10600
+    - change/bcapps/10945
+    - change/bcapps/11125
+    - change/bcapps/11217
+    - change/bcapps/11359
+    - change/bcapps/9039
+    - change/bcapps/9613
 learn_toc_path:
   - Business functionality
   - Sustainability management
@@ -225,10 +235,19 @@ The process pages follow a similar pattern. You record emissions on documents or
 - [Sustainability value chain setup](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-setup): Learn how to enable the sustainability value chain.
 - [Track Fixed Asset Emissions in the Value Chain](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-fixed-assets): Learn how to track CO2e emissions when you acquire, reclassify, sell, or dispose of fixed assets in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10183 Bug 646432: [master] [Sustainability] Line does not indicate/enforce which Calculation Foundation is in use; all formula input fields are editable](../../../../changes/bcapps/10183.md) (code change): "enforce field editability based on the selected account category's Calculation Foundation and Emission Scope"
+- [#10293 [Master] - Bug 641309: [Sustainability][Value Chain] Item Reclassification (location move) uses average emissions instead of Specific carbon tracking (lot/serial)](../../../../changes/bcapps/10293.md) (code change): "Item reclassifications now track specific carbon emissions by lot serial instead of using average emissions"
+- [#10600 [Master] - Slice 641282: [Sustainability][Value Chain] FA Reclassification Journal: add CO2e reclassification % field to split emissions like Acq. Cost %](../../../../changes/bcapps/10600.md) (code change): "A new Reclassify CO2e % field was added to the FA Reclassification Journal"
+- [#10945 [Master]- Slice 641299: [Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method](../../../../changes/bcapps/10945.md) (code change): "ESG sales invoice reports now offer a request-page option to print emissions"
+- [#11125 [29.x]-[Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method](../../../../changes/bcapps/11125.md) (code change): "ESG report layouts now support printing emissions by item tracking details"
+- [#11217 [Master] - Slice 641591: EUDR Certificate Capture for Items](../../../../changes/bcapps/11217.md) (code change): "EUDR certificate information can now be captured and tracked across items"
+- [#11359 [Master] - Bug 648886: [Sustainability][Value Chain] Transfer Order uses average emissions instead of Specific carbon tracking (lot/serial)](../../../../changes/bcapps/11359.md) (code change): "Transfer order emissions tracking now respects specific lot and serial numbers"
+- [#9039 Adding all Power BI reports to Business Manager's Role Center](../../../../changes/bcapps/9039.md) (code change): "Sustainability module integrated with Power BI reports"
+- [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../../changes/bcapps/9613.md) (code change): "value chain posting, and setup validations. Corrects proportional CO2e distribution"
 - [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../../../../videos/6d6iajwQQ-c.md) (video): "value chain tracking; sustainability value entries; production orders; emissions"
 - [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../../../../videos/bnqxycPzbeI.md) (video): "Value Chain Tracking in Transfer Orders; Emissions from Production and Assembly Orders"
 - [Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights](../../../../videos/D2KPQEbO40Q.md) (video): "Scope 3 emissions; carbon dioxide; sustainability reporting; data enrichment"

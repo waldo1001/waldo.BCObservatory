@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,53 @@ links:
     - video/QdWPlIV3Avk
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10080
+    - change/bcapps/10174
+    - change/bcapps/10206
+    - change/bcapps/10208
+    - change/bcapps/10277
+    - change/bcapps/10278
+    - change/bcapps/10343
+    - change/bcapps/10423
+    - change/bcapps/10483
+    - change/bcapps/10635
+    - change/bcapps/10917
+    - change/bcapps/11001
+    - change/bcapps/11147
+    - change/bcapps/11280
+    - change/bcapps/11292
+    - change/bcapps/11320
+    - change/bcapps/11368
+    - change/bcapps/11644
+    - change/bcapps/11939
+    - change/bcapps/11945
+    - change/bcapps/12080
+    - change/bcapps/12082
+    - change/bcapps/12143
+    - change/bcapps/8747
+    - change/bcapps/8750
+    - change/bcapps/8752
+    - change/bcapps/8754
+    - change/bcapps/8757
+    - change/bcapps/8902
+    - change/bcapps/9080
+    - change/bcapps/9085
+    - change/bcapps/9120
+    - change/bcapps/9121
+    - change/bcapps/9130
+    - change/bcapps/9191
+    - change/bcapps/9276
+    - change/bcapps/9278
+    - change/bcapps/9396
+    - change/bcapps/9573
+    - change/bcapps/9612
+    - change/bcapps/9741
+    - change/bcapps/9747
+    - change/bcapps/9787
+    - change/bcapps/9797
+    - change/bcapps/9818
+    - change/bcapps/9892
 learn_toc_path:
   - Business functionality
   - Manufacturing
@@ -128,10 +175,56 @@ Start with the Subcontracting overview to see which capabilities apply. Then rea
 - [Subcontracting overview](https://learn.microsoft.com/dynamics365/business-central/production-how-to-subcontract-manufacturing): Get an overview of subcontracting capabilities for manufacturing, including subcontractor prices, component posting, transfer orders, and location management.
 - [Transfer WIP items between subcontractors](https://learn.microsoft.com/dynamics365/business-central/subcontract-wip-transfers): Learn how to transfer work-in-progress (WIP) items between subcontractors using transfer orders, track WIP quantities in a dedicated ledger, and adjust or clean up WIP quantities.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10080 Bug 646141: Forward-port Subcontracting Dispatch List action from 28.x to main](../../../../changes/bcapps/10080.md) (code change): "Subcontracting app gains an app-owned Subcontractor Dispatch List action"
+- [#10174 [Extensibility Request] issue 30137: allow overriding cost share application](../../../../changes/bcapps/10174.md) (code change): "Integration event added to ApplyShareOfCostToCostShareBuffer procedure"
+- [#10206 Bug 646576: Preserve manually changed component Flushing Method on subcontracting transfers](../../../../changes/bcapps/10206.md) (code change): "Production order components in subcontracting transfers no longer lose their manually set Flushing Method"
+- [#10208 [Subcontracting] Detect subcontracting purchase/transfer orders in legacy data check](../../../../changes/bcapps/10208.md) (code change): "legacy data check for subcontracting now detects production-order-linked purchase and transfer orders"
+- [#10277 Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers](../../../../changes/bcapps/10277.md) (code change): "Enables warehouse put-away/pick operations for subcontracting purchase orders"
+- [#10278 Subcontracting Operation Notes](../../../../changes/bcapps/10278.md) (code change): "Subcontracting operations now support dedicated comments at the standard task"
+- [#10343 [Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet](../../../../changes/bcapps/10343.md) (code change): "A notification now prompts users on SaaS to install the Subcontracting app"
+- [#10423 Bug 620761: Move subconracting tests from base app to subcontracting app](../../../../changes/bcapps/10423.md) (code change): "Subcontracting-specific SCM and manufacturing tests moved from the base app"
+- [#10483 [Subcontracting] Bug 647210 & 647791: Enable IT migration in production and keep Legacy Subcontracting on when app install is declined](../../../../changes/bcapps/10483.md) (code change): "Legacy Subcontracting to Subcontracting app migration now works in production environments"
+- [#10635 [Subcontracting] (Bug: 638998) Add extensibility to Subcontracting app for IT partner migration](../../../../changes/bcapps/10635.md) (code change): "Subcontracting app gains integration events for report objects to support partner migration"
+- [#10917 Bug 648535: Reprice subcontracting lines after scheduling](../../../../changes/bcapps/10917.md) (code change): "Subcontracting purchase lines are now repriced after backward scheduling finalizes the order date"
+- [#11001 Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations](../../../../changes/bcapps/11001.md) (code change): "Subcontracting migration checks bin-mandatory locations for incompatible warehouse settings"
+- [#11147 Bug 648962: Create transfer order shows generic error when existing transfers cover subcontracting demand](../../../../changes/bcapps/11147.md) (code change): "Create Transfer Order report now distinguishes between demand that is fully covered by existing transfers"
+- [#11280 [Subcontracting] Bug 648949: Allow subcontracting direct transfers from warehouse locations](../../../../changes/bcapps/11280.md) (code change): "Subcontracting now allows direct transfers from warehouse-enabled source locations"
+- [#11292 Bug 648535: Reprice subcontracting lines after scheduling](../../../../changes/bcapps/11292.md) (code change): "Reprice subcontracting lines after scheduling in multiple scenarios"
+- [#11320 [Master]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well](../../../../changes/bcapps/11320.md) (code change): "Purchase Return Orders for subcontracting can now be posted correctly"
+- [#11368 [29.X]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well](../../../../changes/bcapps/11368.md) (code change): "purchase return orders could not be posted for subcontracting operations"
+- [#11644 [Subcontracting] Bug 648937: Transfer WIP Item is lost when production orders are created from Planning Worksheet](../../../../changes/bcapps/11644.md) (code change): "Transfer WIP Item is lost when production orders are created from Planning Worksheet"
+- [#11939 Bug 650391: [Subcontracting] Show subcontracting transfer quantities](../../../../changes/bcapps/11939.md) (code change): "Show subcontracting transfer quantities for subcontracting components"
+- [#11945 Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines](../../../../changes/bcapps/11945.md) (code change): "Fix serial splitting for non-last subcontracting put-away lines"
+- [#12080 Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting](../../../../changes/bcapps/12080.md) (code change): "Fully received WIP purchase orders block Disable Legacy Subcontracting"
+- [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Fixed incorrect transfer order display when navigating from transfer lines in subcontracting scenarios"
+- [#12143 Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion](../../../../changes/bcapps/12143.md) (code change): "Italian subcontracting legacy migration now correctly maps the vendor's"
+- [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
+- [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "Transfer order lines flagged as WIP items now skip the"
+- [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"
+- [#8754 [Bug Fix] #638815: Subcontracting: actionable error for blank Subc. Location Code on WIP transfers](../../../../changes/bcapps/8754.md) (code change): "Subcontracting: actionable error for blank Subc. Location Code on WIP transfers"
+- [#8757 [Subcontracting] Bug 640115: Fix Subc. Order FlowField so subcontracting orders are visible in Purchase Order List](../../../../changes/bcapps/8757.md) (code change): "Fix Subc. Order FlowField so subcontracting orders are visible in Purchase Order List"
+- [#8902 Bug 639568: Scope Subc. PO component location check to current prod order line](../../../../changes/bcapps/8902.md) (code change): "Scope Subc. PO component location check to current prod order line"
+- [#9080 Bug 635072: Subcontracting order uses Prod. Order Line location, not Work Center](../../../../changes/bcapps/9080.md) (code change): "subcontracting order creation process now consistently uses the production order line location"
+- [#9085 Bug 640958: Guided error for subcontracting direct transfer from whse-handling location](../../../../changes/bcapps/9085.md) (code change): "subcontracting transfer order creation report now provides a guided error when attempting direct transfer"
+- [#9120 [Subcontracting] Bug 641399: Move Subcontracting Transfer Orders action out of Entries sub-group](../../../../changes/bcapps/9120.md) (code change): "Subcontracting Transfer Orders action moved from the Entries sub-group to the Order group level"
+- [#9121 [Subcontracting] Bug 641405: Production Order actions in ILE page not clickable for transfer lines](../../../../changes/bcapps/9121.md) (code change): "Production Order actions on the Item Ledger Entries page are now clickable for subcontracting transfer-type items"
+- [#9130 [Subcontracting] Refactor event subscriber for planning components and add test for Vendor-supplied components](../../../../changes/bcapps/9130.md) (code change): "Vendor-supplied components from generating separate planning demand while keeping them visible"
+- [#9191 Bug 641232: [Subcontracting] Offer to install missing apps instead of hard error when disabling Legacy Subcontracting](../../../../changes/bcapps/9191.md) (code change): "disabling Legacy Subcontracting in Manufacturing Setup, the system now offers"
+- [#9276 Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9276.md) (code change): "Renamed existing subcontractor to Bulk Assembly, Added second subcontractor Local Assembly"
+- [#9278 Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9278.md) (code change): "Routing lines now reference Standard Task Codes, matching operations to tasks"
+- [#9396 [Subcontracting] Fix subcontracting order opening wrong purchase order after creation](../../../../changes/bcapps/9396.md) (code change): "Fixed subcontracting order creation to open the newly created purchase order"
+- [#9573 [Subcontracting] Fixed purchase order not opening the list of transfer orders when > 1 were created](../../../../changes/bcapps/9573.md) (code change): "Fixed subcontracting purchase orders to display all created transfer orders"
+- [#9612 Fixing correct value for Legacy Subcontracting flag in Italy during u…](../../../../changes/bcapps/9612.md) (code change): "Italian customers upgrading to version 28.3 regain access to legacy subcontracting pages"
+- [#9741 [Subcontracting] Bug 638816: Preserve Transfer WIP Item flag when toggling off Direct Transfer without a transit route](../../../../changes/bcapps/9741.md) (code change): "Preserve Transfer WIP Item flag when toggling off Direct Transfer"
+- [#9747 [Subcontracting] Bug 641607: Fix misleading error message when disabling Legacy Subcontracting with open WIP purchase orders](../../../../changes/bcapps/9747.md) (code change): "Fix misleading error message when disabling Legacy Subcontracting"
+- [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "Added actionable notification when a vendor does not have a subcontracting location code"
+- [#9797 Bug 641388: Fix WIP transfer remainder over-creation when open line quantity is reduced](../../../../changes/bcapps/9797.md) (code change): "Fix WIP transfer remainder over-creation when open line quantity is reduced"
+- [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
+- [#9892 [main] Bug 644283: Renumber Subcontracting app object ids as it clashes with partner range](../../../../changes/bcapps/9892.md) (code change): "Subcontracting app object IDs are renumbered to avoid conflicts with partner-reserved ranges"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Subcontracting extension; Component supply method; Vendor location tracking"
 
 ## Business Central pages and reports

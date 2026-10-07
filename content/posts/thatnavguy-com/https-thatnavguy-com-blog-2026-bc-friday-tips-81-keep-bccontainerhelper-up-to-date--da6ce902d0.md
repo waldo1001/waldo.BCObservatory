@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:29:44.866Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 660ca20bf917c622745212635c622ad82083df648b9eb06758743b0b26e88a71
+  input_hash: 9b195ce635da8eb28850631236ea0486631974cec6a933fa1afeb078b89d3bc7
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/
@@ -72,13 +72,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/Update-BCContainerHelper.D-U-aP_t_1awfdf.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:05.494Z"
 ---
 
 # BC Friday Tips #81 Keep BCContainerHelper Up to Date
 
-> BCContainerHelper is a PowerShell module for Business Central container workflows. Keeping it updated ensures you get the latest bug fixes and performance improvements that may resolve container issues.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-09-11 · 122 words · tier community · **unreviewed** (machine-generated)
+
+> BCContainerHelper is a PowerShell module for Business Central container workflows. Keeping it updated ensures you get the latest bug fixes and performance improvements that may resolve container issues.
 
 ## Key points
 

@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:39:57.526Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c215355f01682cd9bdc84aa4d26fdf8dba6def1357757eb94020031aadc4371c
+  input_hash: 74150515af7bf5303fb19b74f76458cab096b571bba6b8e5178aea6936cc10e7
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-language-tests-executable-spec/
@@ -72,13 +72,23 @@ versions_mentioned:
   - "27.5"
   - "28.3"
   - "28.4"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:09.725Z"
 ---
 
 # AL Language Tests: An Executable Spec for How BC Actually Behaves
 
-> The BusinessCentral.AL.Language.Tests repository creates an executable specification of AL language behavior by running tests against real BC service tiers across multiple versions. It ensures AL Runner (an AL emulator) behaves accurately and provides a reference for undocumented AL features verified by CI.
-
 [Read the post](https://stefanmaron.com/posts/al-language-tests-executable-spec/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-03 · 977 words · tier community · **unreviewed** (machine-generated)
+
+> The BusinessCentral.AL.Language.Tests repository creates an executable specification of AL language behavior by running tests against real BC service tiers across multiple versions. It ensures AL Runner (an AL emulator) behaves accurately and provides a reference for undocumented AL features verified by CI.
 
 ## Key points
 

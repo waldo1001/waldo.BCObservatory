@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.260Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,10 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9417
+    - change/bcapps/9418
+    - change/bcapps/9422
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -110,5 +114,13 @@ For reporting, read the Financial Reports overview first. It explains the Financ
 - [Financial Reports Overview in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview): Learn about enhanced financial reporting features and customization options available for Russia in Business Central.
 - [General ledger correspondence in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence): Russian functionality includes enhancements for general ledger correspondence.
 - [Working with Financial Reports in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules): Provides information about enhanced financial reporting features available for Russia.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9417 [ALAppExtensions #30221][Event Request] table 12137 "Purch. Withh. Contribution"](../../../../../changes/bcapps/9417.md) (code change): "OnValorizzaINPSOnBeforeCalcAssoggettato event with IsHandled guard allows partners"
+- [#9418 [ALAppExtensions #30229][Event Request] table 12113 "Tmp Withholding Contribution"](../../../../../changes/bcapps/9418.md) (code change): "OnCalculateWithholdingTaxOnBeforeAssignWithholdingTaxValues to the Tmp Withholding"
+- [#9422 table 12116 "Withholding Tax": scope Reported/Paid modify guard to st…](../../../../../changes/bcapps/9422.md) (code change): "Standard field modifications on reported/paid entries remain blocked for compliance"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

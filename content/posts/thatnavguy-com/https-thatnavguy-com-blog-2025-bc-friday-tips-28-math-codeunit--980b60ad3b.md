@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:29.962Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 267f0a9c2b4bbb6791ed47803c687665e8b67e47776f0b90adfeb64709201b61
+  input_hash: bb6e9fdcbf3911d4a63191f2bde93fdc577504812f66a58b27fc544a18256941
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/
@@ -62,6 +62,16 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-28-math-codeunit.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:42.409Z"
 ---
 
 # BC Friday Tips #28 Math Codeunit

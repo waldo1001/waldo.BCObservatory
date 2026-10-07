@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:59:10.556Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 55de12641d79890d5f1739ac58a14d2c5bd5e8ef5c84276d8986da87e1cafcb3
+  input_hash: 2fb5a1618b78be8a09e6d6d23268ef9e75a138f13b32f9ae7e55472c5577aa6b
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/
@@ -71,13 +71,23 @@ code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-72-inlay-hints.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:34.255Z"
 ---
 
 # BC Friday Tips #72 Inlay Hints
 
-> Inlay Hints in VS Code display inline parameter names and return types while coding in AL, helping developers understand function signatures without hovering or jumping to definitions. This feature is particularly useful for procedures with many parameters and can be configured to appear on demand to keep the editor clean.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-15 · 119 words · tier community · **unreviewed** (machine-generated)
+
+> Inlay Hints in VS Code display inline parameter names and return types while coding in AL, helping developers understand function signatures without hovering or jumping to definitions. This feature is particularly useful for procedures with many parameters and can be configured to appear on demand to keep the editor clean.
 
 ## Key points
 

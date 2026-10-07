@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:14.392Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b3c44d813e018f9fc9505e5b38c7203f4fd6f227eab6596465aefd66c267fa73
+  input_hash: 5d058dfdcdd4f1f176d84bb8630ea271a33822b5159ecd7aaeb8124b0b3107d9
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/
@@ -69,13 +69,23 @@ versions_mentioned:
   - BC 24
   - BC 27.5
   - BC 28.1
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:13.242Z"
 ---
 
 # Introducing bcdb: Read a Business Central Backup Without SQL Server
 
-> bcdb is a tool that reads SQL Server backup files (.bak) and Business Central cloud exports (.bacpac) directly without requiring SQL Server or a restore process. It decodes table data using AL field names when provided with extension symbols and supports library and CLI usage.
-
 [Read the post](https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-01 · 1356 words · tier community · **unreviewed** (machine-generated)
+
+> bcdb is a tool that reads SQL Server backup files (.bak) and Business Central cloud exports (.bacpac) directly without requiring SQL Server or a restore process. It decodes table data using AL field names when provided with extension symbols and supports library and CLI usage.
 
 ## Key points
 

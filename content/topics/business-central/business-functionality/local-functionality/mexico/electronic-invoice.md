@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11023
+    - change/bcapps/8183
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -142,6 +145,13 @@ Start with the overview, then do the electronic invoicing setup and the PAC setu
 - [Generate electronic invoices [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices): After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.
 - [Set Up Electronic Invoicing [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing): To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
 - [Set Up PAC Web Services](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services): To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11023 BE's PEPPOL "escompte" compensation](../../../../../changes/bcapps/11023.md) (code change): "Belgian PEPPOL invoices now apply discount compensation"
+- [#8183 Handle failure to manually create E-Document from posted doc with no …](../../../../../changes/bcapps/8183.md) (code change): "E-Document creation now correctly reports failure when a posted document"
 
 ## Business Central pages and reports
 

@@ -1,39 +1,54 @@
 {
   "country": "FI",
   "version": "29",
-  "input_hash": "39f0cd7ddfc2adf6548f5297f6f1775c150bf098b19e220594ad3889c6abd96b",
-  "summary": "Finland (FI) localization of Business Central 29. It covers Finnish electronic banking with reference numbers and bank reference files (LM03, LUM2), SEPA pain.001.001.09 export, automatic account codes, depreciation differences, Intrastat, VAT on invoices and Finnish service documents.",
-  "overview": "The Finnish layer centers on electronic banking. Own objects in the 32000000 range (table \"Reference File Setup\", \"Ref. Payment - Imported\", \"Ref. Payment - Exported\", \"Foreign Payment Types\", codeunit \"Ref. Payment Management\", reports \"Import Ref. Payment\", \"Export Ref. Payment - LUM\" and \"Export Ref. Payment - LMP\") import customer payments and export vendor payments. Reference numbers and payment message fields are added to sales, purchase, reminder and journal tables. \"Suggest Vendor Payments\" gains the procedure GetDomesticPaymentDate, and \"Gen. Jnl.-Post Line\" gains procedures to update imported and exported reference payments.\n\nSEPA credit transfers use codeunit 13413 and report 13413 for the pain.001.001.09 format. Other additions are automatic account codes (tables \"Automatic Acc. Header\" and \"Automatic Acc. Line\", with an Auto. Acc. Group field on many lines and ledger tables), depreciation difference posting for fixed assets, Finnish Intrastat fields, VAT print flags on posting groups, and Finnish service reports.\n\nLearn documents these under Finland Local Functionality, with pages on electronic banking, bank reference file setup, payment file generation, SEPA, payment discount handling, Intrastat, VAT-VIES, depreciation differences and automatic account posting groups. The code adds no events.",
+  "input_hash": "09fd66737a4647857b870b2b22ae2ff4edc59555cd161bcdb865502eb2599f1f",
+  "summary": "Finland (FI) localization of Business Central 29. It covers bank reference files and reference numbers, domestic and foreign payment files, SEPA pain.001.001.09 export, automatic account codes, Finnish Intrastat, VAT-VIES declaration, depreciation differences, and Finnish service reports.",
+  "overview": "The Finnish layer is built mainly around electronic banking. Own objects in the 32000000 range handle bank reference file setup, import of customer payments (Import Ref. Payment), export of vendor payments (LUM and LMP reports), foreign payment types, and a Bank Nos Check codeunit. Reference No. fields are added to sales, reminder and journal tables, and payment message fields are added to purchase, ledger and payment buffer tables. Codeunit 13413 and report 13413 export SEPA credit transfers in pain.001.001.09.\n\nOther local features are automatic account codes (tables 11203 and 11204, with an Auto. Acc. Group field on many lines), depreciation difference posting for fixed assets, Finnish Intrastat objects, VAT-VIES declaration support, a Print on Invoice flag on VAT posting groups, and a disregard payment discount at full payment option. Finnish service documents have their own reports.\n\nLearn documents these under Finland Local Functionality, with pages on electronic banking, bank reference files, payment file generation, SEPA credit transfers, automatic account posting groups, Intrastat, VAT-VIES, and depreciation differences.",
   "key_points": [
-    "Bank reference files: setup, import of customer payments and export of vendor payments in LM03 and LUM2 formats via the 32000000-range tables, pages and reports.",
-    "SEPA credit transfer export in pain.001.001.09 through codeunit 13413 and report 13413, with SEPA Allowed on Country/Region and SEPA Payment on Vendor Bank Account.",
-    "Reference No. fields on sales invoices, reminders, customer ledger entries and journal lines; number series setup on Sales & Receivables Setup.",
-    "Payment message fields (Message Type, Invoice Message, Payment Date) on purchase documents, vendor ledger entries and payment buffers, used by Suggest Vendor Payments.",
-    "Automatic account codes via tables 11203 and 11204 and an Auto. Acc. Group field on G/L accounts and document lines.",
-    "Depreciation difference posting with report 13402, FA Posting Group accounts and the Depr. Difference source code.",
-    "Disregard payment discount at full payment flag on Payment Terms and Cust. Ledger Entry.",
-    "Finnish service reports and document handling, plus Intrastat file setup and Business Identity Code on company and vendor."
+    "Bank reference files: setup, import of customer payments and linking to invoices by reference number, export of vendor payments in LUM and LMP formats",
+    "SEPA credit transfer export in pain.001.001.09 through codeunit 13413 and report 13413",
+    "Suggest Vendor Payments and Suggest Employee Payments are adapted, with payment message fields and domestic payment date handling",
+    "Automatic account codes via Automatic Acc. Header and Line tables and an Auto. Acc. Group field on G/L accounts and document lines",
+    "Depreciation difference between straight-line and declining balance posted by report 13402",
+    "Finnish Intrastat report support with setup page extensions and export codeunits",
+    "VAT-VIES declaration and VAT information printed on invoices through Print on Invoice flags",
+    "Finnish service contract, quote, order and invoice reports"
   ],
   "areas": [
     {
       "area": "Bank",
-      "what": "Adds the Finnish bank reference file solution: setup table and page, imported and exported reference payment tables, import and apply pages, and export reports for LUM and LMP formats. Also adds SEPA export (codeunit and report 13403 and 13413) and a bank number check codeunit.",
-      "why": "Learn describes electronic banking with LM03 and LUM2 formats, linking customer payments to invoices and exporting vendor payments to bank files. SEPA export uses the new pain.001.001.09 format.",
+      "what": "Adds the Finnish electronic banking stack: bank reference file setup, import and export of reference payments, foreign payment types, bank payment suggestion, bank number check, and SEPA credit transfer export in pain.001.001.09.",
+      "why": "Learn describes domestic and foreign payments in LM03 and LUM2 formats, and the new SEPA format pain.001.001.09 exported by codeunit and report 13413.",
       "objects": [
-        "table/32000000",
         "codeunit/32000000",
+        "table/32000000",
         "report/32000000",
         "report/32000004",
         "report/32000006",
         "codeunit/13413",
         "report/13413",
-        "table/32000001"
+        "page/32000000"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds reference number, message and payment date fields to general journal lines, automatic account codes, Finnish G/L register report, currency exchange rate import and VIES declaration support. Codeunit 12 gets procedures to update imported and exported reference payments.",
+      "why": "Learn covers automatic account codes and the VAT-VIES declaration as Finnish requirements.",
+      "objects": [
+        "table/81",
+        "table/181",
+        "codeunit/12",
+        "table/11203",
+        "table/11204",
+        "table/15",
+        "report/13400",
+        "reportextension/13412"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Adds payment message fields (Message Type, Invoice Message, Payment Date) to purchase documents, vendor ledger entries and payment buffers. Adds Business Identity Code to vendors, SEPA Payment and Clearing Code to vendor bank accounts, and Bank Batch Nos. to setup. Suggest Vendor Payments gets GetDomesticPaymentDate.",
-      "why": "Learn explains that vendor payments are suggested and then exported to domestic or foreign payment files.",
+      "what": "Extends vendor and payment buffer tables with message type, invoice messages, payment date and business identity code. Suggest Vendor Payments gets a domestic payment date procedure, and vendor bank accounts get SEPA and clearing code fields.",
+      "why": "Learn describes generating domestic or foreign payment files from Suggest Vendor Payments.",
       "objects": [
         "report/393",
         "table/372",
@@ -41,14 +56,14 @@
         "table/25",
         "table/288",
         "table/38",
-        "table/122",
-        "table/23"
+        "table/23",
+        "table/312"
       ]
     },
     {
       "area": "Sales",
-      "what": "Adds Reference No. to sales invoice headers, customer ledger entries and reminders, with reference number series fields on Sales & Receivables Setup. Adds Clearing Code to customer bank accounts and Auto. Acc. Group to lines. Sales-Post Prepayments gains PostCustomerEntry.",
-      "why": "Reference numbers let incoming customer payments be matched to invoices, as described in the electronic banking page.",
+      "what": "Adds Reference No. fields on invoices, customer ledger entries and reminders, with reference number setup in Sales & Receivables Setup. Also adds clearing code on customer banks and the disregard payment discount flag on customer entries.",
+      "why": "Learn explains reference numbers used to link customer payments to invoices.",
       "objects": [
         "table/311",
         "table/112",
@@ -61,23 +76,23 @@
       ]
     },
     {
-      "area": "Finance",
-      "what": "Adds automatic account headers and lines, Auto. Acc. Group on G/L accounts, journal lines and posting buffers, and reference and message fields on journal lines. Gen. Jnl.-Post Line gains procedures to update imported and exported reference payments. Adds a Print on Invoice flag on VAT posting groups, report G/L Register FI and a currency exchange rate codeunit.",
-      "why": "Learn documents automatic account codes and posting groups, and printing VAT information per line on invoices.",
+      "area": "Inventory",
+      "what": "Adds Finnish Intrastat reporting: management, export and totals codeunits, setup page extensions, a permission set extension and extra fields on Intrastat journal batch and line.",
+      "why": "Learn explains that EU companies must report trade with other EU countries and can file by file or manual form.",
       "objects": [
-        "table/11203",
-        "table/11204",
-        "table/15",
-        "table/81",
-        "table/181",
-        "codeunit/12",
-        "table/323",
-        "table/324"
+        "codeunit/13406",
+        "codeunit/13407",
+        "codeunit/13408",
+        "pageextension/13407",
+        "pageextension/13408",
+        "pageextension/13406",
+        "table/263",
+        "table/262"
       ]
     },
     {
       "area": "Service",
-      "what": "Adds Finnish service reports for contracts, contract quotes, quotes, orders and invoices. Also adds a service document management codeunit, a Posted Service Invoice page extension and a Service Invoice Header table extension.",
+      "what": "Adds Finnish service document reports for contract, contract quote, quote, order and invoice, plus a document management codeunit and extensions of the posted service invoice.",
       "why": null,
       "objects": [
         "report/13411",
@@ -92,22 +107,22 @@
     },
     {
       "area": "Foundation",
-      "what": "Adds company registration fields (Company Reg. No., Business Identity Code, Registered Home City) to Company Information, SEPA Allowed to Country/Region, and the disregard payment discount flag to Payment Terms. Adds Depr. Difference to Source Code Setup and a service report selection codeunit.",
-      "why": "Learn describes the disregard payment discount option as accepting full payment after the discount date within tolerance.",
+      "what": "Extends Company Information with company registration number, business identity code and registered home city. Adds the disregard payment discount flag on Payment Terms, SEPA Allowed on Country/Region and a depreciation difference source code.",
+      "why": "Learn describes the disregard payment discount option on payment terms for late full payments within tolerance.",
       "objects": [
         "table/79",
-        "table/9",
         "table/3",
+        "table/9",
         "table/242",
+        "codeunit/13461",
         "tableextension/13400",
-        "pageextension/13400",
-        "codeunit/13461"
+        "pageextension/13400"
       ]
     },
     {
       "area": "FixedAssets",
-      "what": "Adds the Calc. and Post Depr. Diff. report, a posting buffer table, depreciation difference accounts on FA Posting Group and a posted flag on FA Ledger Entry.",
-      "why": "Learn states Finnish tax law requires posting the difference between straight-line and declining balance depreciation to the general ledger.",
+      "what": "Adds depreciation difference calculation and posting with a report, a posting buffer, and new accounts on FA posting groups plus a posted flag on FA ledger entries.",
+      "why": "Learn says Finnish tax law requires posting the difference between straight-line and declining balance depreciation.",
       "objects": [
         "report/13402",
         "table/13401",
@@ -116,17 +131,8 @@
       ]
     },
     {
-      "area": "Inventory",
-      "what": "Adds Finnish Intrastat fields: reported receipt and shipment flags on journal batches, and Unit of Measure and Quantity 2 on journal lines.",
-      "why": "Learn explains that EU companies must report trade with other EU countries to the Intrastat authorities.",
-      "objects": [
-        "table/262",
-        "table/263"
-      ]
-    },
-    {
       "area": "Security",
-      "what": "Changes the LOCAL and LOCAL READ permission sets so they cover the Finnish objects.",
+      "what": "Changes the LOCAL and LOCAL READ permission sets to cover the Finnish objects.",
       "why": null,
       "objects": [
         "permissionset/1001",
@@ -135,15 +141,15 @@
     },
     {
       "area": "(no namespace)",
-      "what": "Adds the Intrastat - File Setup table for the Finnish Intrastat file.",
-      "why": "Learn describes file submission as one way to file Finnish Intrastat reports.",
+      "what": "Adds the Intrastat file setup table for Finnish Intrastat export.",
+      "why": null,
       "objects": [
         "table/13400"
       ]
     },
     {
       "area": "HumanResources",
-      "what": "Changes the Suggest Employee Payments report for the Finnish payment handling.",
+      "what": "Suggest Employee Payments is adapted for Finnish payment handling.",
       "why": null,
       "objects": [
         "report/394"
@@ -152,10 +158,10 @@
   ],
   "learn_pages_used": 12,
   "prompt_version": 2,
-  "at": "2026-10-06T23:52:17.595Z",
+  "at": "2026-10-07T13:25:45.279Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.082746
+    "cost_usd": 0.083114
   }
 }

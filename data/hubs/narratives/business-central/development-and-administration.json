@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/development-and-administration",
-  "input_hash": "2b85b43187696f0f5e7560b73637adfa1bef1a9b948e36bd56b663b16c590e95",
-  "summary": "Development and administration in Business Central: administering online tenants and environments, configuring Copilot and agents, customizing the UI, developing AL extensions, performance, deprecated features, master data sync, and migration to the online service. It answers how-to questions for administrators, developers, and partners.",
-  "overview": "This section covers running and extending Business Central. Its own pages give an entry point for administrators, developers, and resellers (deployment, administration center, AL development, Power Platform integration, AL-Go for GitHub, telemetry). They also cover online tenant administration, Copilot and agent configuration, AL extension basics, performance, and the list of deprecated features.\n\nFour subtopics go deeper. Administration tasks covers user access, settings, company creation, job queues, web services, printers, languages, and feature management. Customize Business Central covers role-based layouts, Premium experience, Cue indicators, and extensions. Synchronize master data across companies covers source and subsidiary setup. Migrate to Business Central online covers moving on-premises data from Business Central, GP, SL, or NAV.\n\nStart with the section's landing page to find your role. Administrators should go to Administration of Business Central Online and the administration tasks. Developers should start with Developing extensions in AL. Check Deprecated Features before planning upgrades or integrations.",
+  "input_hash": "677a734bfb0323ed50adecdc64de65ddfbd3aeeb12203cc76068be673f79bbdc",
+  "summary": "Development and administration of Business Central: online tenant administration, Copilot and agent configuration, AL extension development, customization, performance, deprecated features, master data sync across companies, and migration to Business Central online. It answers how-to questions for administrators, developers, and consultants.",
+  "overview": "This section covers running and extending Business Central. Administrators find guidance on managing online tenants as internal admins or delegated partners, including users, permissions, licensing, environment updates, and telemetry. A larger subtopic covers day-to-day administration tasks such as company creation, job queues, web services, printers, and languages.\n\nDevelopers and consultants will find the introduction to building extensions in AL with Visual Studio Code, plus the Performance Overview on the performance toolkit, page caching, and monitoring. The Customize subtopic covers role-based page layouts, the Premium experience, Cue indicators, and individual extensions.\n\nFurther pages cover Copilot and agent settings, a list of deprecated features by release wave (2020 to 2027), synchronizing master data between companies, and migrating from on-premises Business Central, GP, SL, or NAV to the online service. Start with the section's landing page or the online administration page, then go to the subtopic that fits your task.",
   "key_points": [
-    "Online tenant administration covers user management, permissions, licensing, environment updates, telemetry, and delegated partner administration.",
-    "Copilot & agent capabilities page controls feature activation, user permissions, data movement across geographies, Bing Search, feedback, and agent model selection (versions 28 and 29).",
-    "AL extension development uses Visual Studio Code, with table and page extensions, code snippets, compiler validation, and a designer with drag and drop.",
-    "Deprecated features in the W1 version are tracked across release waves from 2020 to 2027. They include removal of API v1.0, the finance reports API, legacy Power BI apps, Intelligent Cloud Insights, and configuration packages, deprecation of Excel reports, and moved subcontracting objects.",
-    "Performance guidance covers the Performance toolkit extension, page caching, and performance monitoring for consultants, developers, and administrators.",
-    "Administration tasks include company creation, job queues, web services, printers, languages, database indexes, table information, and trial extension.",
-    "Master data synchronization pulls customer, vendor, item, and employee data from a source company into subsidiaries, with coupling and scheduling.",
-    "Migration to online supports Business Central, Dynamics GP, SL, and NAV data, with guidance on full migration versus reimplementation and GP data mapping."
+    "Online administration covers user management, permissions, licensing, environment updates, telemetry, and delegated partner access.",
+    "The Copilot & agent capabilities page (documented for versions 28 and 29) controls feature activation, user permissions, data movement across geographies, Bing Search, feedback, and agent model selection.",
+    "AL extension development uses Visual Studio Code and can create or extend tables, pages, codeunits, and reports.",
+    "The deprecated features page lists removals across release waves 2020 to 2027, such as API v1.0, legacy Power BI apps, Intelligent Cloud Insights, and configuration packages.",
+    "Performance guidance covers the performance toolkit extension, page caching, and performance monitoring.",
+    "Master data sync lets subsidiary companies pull customer, vendor, item, and employee data from a source company, with coupling and scheduling.",
+    "Migration to online supports Business Central, Dynamics GP, SL, and NAV data, with guidance on full migration versus reimplementation.",
+    "Administration tasks include company creation, job queues, web services, API templates, indexes, printers, and languages."
   ],
   "members_used": 6,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:13:28.551Z",
+  "at": "2026-10-07T13:37:03.021Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.017205
+    "cost_usd": 0.016403
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:14:26.373Z",
+    "at": "2026-10-07T13:37:18.464Z",
     "verdict": "fix",
     "issues": [
-      "Key point 4 limits the deprecated features page to 2020 wave 1 through 2025 wave 2. The page summary says it covers release waves from 2020 to 2027, so the range was too narrow. It also left out Excel reports deprecation and the moved subcontracting objects, which the page lists.",
-      "Everything else is supported by the page and subtopic summaries, including the Copilot page versions 28 and 29."
+      "Key point 2 puts \"(versions 28 and 29)\" right after \"agent model selection\", so it reads as if only that feature is tied to those versions. The sources tag versions 28 and 29 on the whole Copilot and agent capabilities page. I reworded the point to make that clear.",
+      "Minor: the deprecated features page summary gives the span as 2020 to 2027, but its version list only goes up to 2025 release wave 2. The narrative follows the page summary, which is acceptable.",
+      "Minor: the hub landing page also mentions deployment options, AL-Go for GitHub, Power Platform integration and resellers. The narrative leaves these out, which is fine, but it could mention them."
     ],
-    "input_hash": "2b85b43187696f0f5e7560b73637adfa1bef1a9b948e36bd56b663b16c590e95",
-    "cost_usd": 0.05441120000000001
+    "input_hash": "677a734bfb0323ed50adecdc64de65ddfbd3aeeb12203cc76068be673f79bbdc",
+    "cost_usd": 0.057712
   }
 }

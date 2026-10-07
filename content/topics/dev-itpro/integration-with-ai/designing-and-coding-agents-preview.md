@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,6 +215,12 @@ links:
     - post/katson-com/4530
     - post/kauffmann-nl/8436
   guidelines: []
+  changes:
+    - change/bcapps/10461
+    - change/bcapps/10631
+    - change/bcapps/11040
+    - change/bcapps/8967
+    - change/bcquality/137
 learn_toc_path:
   - Integration with AI
   - Designing and coding agents (preview)
@@ -280,10 +286,15 @@ For developers, "Integrate with the Tasks AL API" shows how to detect agent sess
 - [Understand agent visibility (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-visibility): Learn what controls agent visibility in Business Central, including permissions, access controls, activation state, and archived agent behavior.
 - [Write effective instructions for an agent (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instructions): Learn how to author instructions for an agent in Business Central. Optimize agent behavior with structured guidelines and clear steps.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget"
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Agent design experience expanded with instruction editor and setup capabilities"
+- [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
+- [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
+- [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "Custom Business Central agents can now be deployed to production starting with update 28.1"
 - [Meet Custom Agents in Business Central](../../../posts/katson-com/4530.md) (community post): "Custom agents in Business Central improve efficiency and reduce human error"

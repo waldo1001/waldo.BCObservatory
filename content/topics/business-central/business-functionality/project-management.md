@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,6 +324,12 @@ links:
     - video/wlVewBgq9-Q
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10211
+    - change/bcapps/10361
+    - change/bcapps/9083
+    - change/bcapps/9280
+    - change/bcapps/9315
 learn_toc_path:
   - Business functionality
   - Project management
@@ -442,10 +448,15 @@ Start with the overview page "Project management", then "Create a project card f
 - [Use time sheets](https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets): Learn how to create, submit, approve, and post time sheets for resources, projects, and services.
 - [WIP methods for calculating and recording project progress](https://learn.microsoft.com/dynamics365/business-central/projects-understanding-wip): Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for projects that are in progress.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10211 [master] Projects WIP related field tooltips missing broken grammar outdated terminology](../../../changes/bcapps/10211.md) (code change): "Field tooltips for Work in Progress fields in the Job table were corrected"
+- [#10361 [main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice](../../../changes/bcapps/10361.md) (code change): "Line Discount Amount is now correctly preserved when transferring project planning lines"
+- [#9083 Bug 639857: Project journal ignores task-level Bill-to Customer for pricing](../../../changes/bcapps/9083.md) (code change): "Project journal pricing now respects task-level bill-to customer settings"
+- [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"
+- [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Project Management; terminology change; location code initialization"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"

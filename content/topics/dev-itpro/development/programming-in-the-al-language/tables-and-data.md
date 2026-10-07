@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:51.727Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,6 +324,11 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
   guidelines: []
+  changes:
+    - change/bcapps/10255
+    - change/bcapps/11890
+    - change/bcapps/11950
+    - change/bcquality/203
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -415,10 +420,14 @@ Start with Defining table structures if you are building new objects. Go to Read
 - [Number sequences in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-number-sequences): This article describes how to create and use number sequences in AL code in Dynamics 365 Business Central.
 - [Transferring data between tables using DataTransfer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer): Learn about the DataTransfer object type and how to use it to move data between tables.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10255 Add expense activity history foundation](../../../../changes/bcapps/10255.md) (code change): "New append-only activity log table records expense report lifecycle events"
+- [#11890 Adding an in-product email storage cleanup](../../../../changes/bcapps/11890.md) (code change): "Adds new codeunits and tables to manage email storage cleanup operations"
+- [#11950 Adding an in-product email storage cleanup (backport to releases/29.x)](../../../../changes/bcapps/11950.md) (code change): "Adds email storage cleanup UI page available through URL parameter"
+- [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../../../../changes/bcquality/203.md) (code change): "Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents"
 - [Essential Guides to Data Imports in Business Central](../../../../posts/aardvarklabs-blog/2333.md) (community post): "AL code patterns for handling JSON, delimited data, Excel files, and XML formats"
 - [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Record.IsDirty() method detects whether a record has been modified"

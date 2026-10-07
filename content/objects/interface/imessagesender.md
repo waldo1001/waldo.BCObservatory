@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1a0e3b9153ecc37ddbd38ac6a81136edb427ce896c9be48b10f4d04a57729e6a
+  input_hash: 6eb2a9a2ac6dc53755d4ca25b782f17a246782cc66ff5b28ec532d2233e36972
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10437
 object_type: interface
 object_id: null
 name: IMessageSender
@@ -77,6 +79,10 @@ EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · 
 ## Procedures
 
 - `SendMessage(var EDocument: Record "E-Document"; var EDocumentService: Record "E-Document Service"; MessageContext: Codeunit "E-Doc. Message Context")`
+
+## Recent changes
+
+- 2026-09-15 [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../changes/bcapps/10437.md) (main, BC30, feature, added)
 
 ## Across versions
 

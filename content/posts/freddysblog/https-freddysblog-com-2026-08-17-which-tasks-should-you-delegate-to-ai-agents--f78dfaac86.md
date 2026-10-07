@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:49.610Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 37e21beaaa6c9baf5d5ff36a7cccbe7549d0feb1462e13c0139c16150540c90b
+  input_hash: 707c5956206c0d09aea9d7b20de16f0553ed9812c275b2c22e3ec0b4ee81eb41
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents/
@@ -80,13 +80,23 @@ code_objects_mentioned: []
 systems:
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:15.211Z"
 ---
 
 # Which Tasks Should You Delegate to AI Agents?
 
-> A framework for deciding which tasks to delegate to AI agents based on four dimensions: economic attractiveness, agent feasibility, verifiability, and risk. The weakest dimension determines the maximum autonomy level, categorizing tasks as delegate now, delegate with guardrails, or not yet.
-
 [Read the post](https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents/) · Freddys blog (Freddy Kristiansen) · 2026-08-17 · 2797 words · tier community · **unreviewed** (machine-generated)
+
+> A framework for deciding which tasks to delegate to AI agents based on four dimensions: economic attractiveness, agent feasibility, verifiability, and risk. The weakest dimension determines the maximum autonomy level, categorizing tasks as delegate now, delegate with guardrails, or not yet.
 
 ## Key points
 

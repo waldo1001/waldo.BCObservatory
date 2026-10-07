@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:46.371Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9857
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -89,5 +91,11 @@ Start with the general function page if you need to restrict access or enforce d
 
 - [Czech local functionality - General function](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general): Learn about the enhanced user setup features and general functionality available in the Czech local version of Business Central.
 - [Use modern search in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-modern-search-cz): This feature enables fast, precise data access with modern search in the Czech localization. Switch between legacy and optimized full-text search for better user satisfaction and productivity.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9857 [main] bug 644746 - Add configurable EPO Service Setup for gov.cz domain migration](../../../../../changes/bcapps/9857.md) (code change): "configurable EPO Service Setup for gov.cz domain migration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

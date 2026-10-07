@@ -1,0 +1,91 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8953,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8953",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-07T14:56:36Z",
+  "merge_commit_sha": "e7a92e8c5f6c1a4c603233508eef85eebe94e0a4",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores \"Period Count\" specified by user.",
+  "body_hash": "be1f2d412e0d2a7f0af79411556d0809e3c1d17ea10198cd482e88421618cea3",
+  "fixes_issues": [],
+  "work_items": [
+    640052
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/AgedAccountsExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 149,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 175,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+        "status": "modified",
+        "key": "report/4403",
+        "type": "report",
+        "id": 4403,
+        "name": "EXR Aged Acc Payable Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4403"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+        "status": "modified",
+        "key": "report/4402",
+        "type": "report",
+        "id": 4402,
+        "name": "EXR Aged Accounts Rec Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4402"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}

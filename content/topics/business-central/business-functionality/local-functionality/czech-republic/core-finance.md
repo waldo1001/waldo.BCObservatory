@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:38.493Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,10 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10951
+    - change/bcapps/10982
+    - change/bcapps/12134
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -196,5 +200,13 @@ This section collects the Czech localization pages for core finance. They cover 
 - [Exchange Rate Update [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/exchange-rate-update): Learn how to use local functionality to automatically update currency exchange rates through an exchange rate service.
 - [General Ledger Entries Application [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application): The Czech version of General ledger entries application enables companies to manage temporary and transfer accounts in the general ledger for improved tracking and processing of pending amounts.
 - [Year Closing Operations [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations): Learn how to manage year-end closing operations in the Czech version, including closing and opening account books to meet local accounting requirements.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10951 [main] bug 648707 - Fix typo in Compensation CZC report paragraph label](../../../../../changes/bcapps/10951.md) (code change): "Fixed a typo in a paragraph label within the Compensation CZC report"
+- [#10982 [Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)](../../../../../changes/bcapps/10982.md) (code change): "Test TestReminderAutomationLogsInteractionWithIssuedReminderNumber was disabled in Czech"
+- [#12134 [main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing](../../../../../changes/bcapps/12134.md) (code change): "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

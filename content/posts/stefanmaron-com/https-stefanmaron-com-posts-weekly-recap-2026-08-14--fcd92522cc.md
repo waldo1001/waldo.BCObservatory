@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:42:17.216Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 816a61085a4baa0097f97ba957ee729e16ab9b130df4c76c20bd9469da4f95e7
+  input_hash: 3ad3e59ed90c34142e3cc3a95b868c9ed96987daeddc2aca20f8cbb2f5dbc047
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/weekly-recap-2026-08-14/
@@ -83,13 +83,23 @@ systems:
 versions_mentioned:
   - BC 27.x
   - BC 28.x
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:20.937Z"
 ---
 
 # Weekly Recap: August 7-14
 
-> A weekly recap covering AL Runner v2 improvements closing emulation gaps against real BC, reference suite growth through sandbox-verified testing, bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs, AL-Go fast lane hardening for multi-workflow stability, and compile-time benchmarking showing NuGet-sourced compilation is faster due to smaller dependency caches.
-
 [Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-14/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-14 · 1839 words · tier community · **unreviewed** (machine-generated)
+
+> A weekly recap covering AL Runner v2 improvements closing emulation gaps against real BC, reference suite growth through sandbox-verified testing, bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs, AL-Go fast lane hardening for multi-workflow stability, and compile-time benchmarking showing NuGet-sourced compilation is faster due to smaller dependency caches.
 
 ## Key points
 

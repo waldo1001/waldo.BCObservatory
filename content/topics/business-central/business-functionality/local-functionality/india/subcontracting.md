@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:24.463Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11673
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -108,5 +110,11 @@ The pages follow the process in order. Start with Setting Up Subcontracting (loc
 - [Setting Up Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup): Learn how to set up subcontracting in Business Central for India.
 - [Sub Contracting Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports): Learn about the available subcontracting reports in Business Central for India.
 - [Sub-Contracting Order Creation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions): Learn how to create and manage subcontracting orders in Business Central for India.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11673 #[MAIN]-Not enough inventory available at vendor location for this order](../../../../../changes/bcapps/11673.md) (code change): "India Localization subcontracting receipt now prevents duplicate component consumption"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

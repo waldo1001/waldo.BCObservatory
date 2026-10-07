@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,7 +45,6 @@ links:
     - video/-_TaZY2Clh0
     - video/1xdpUmeun-s
     - video/lpwDSdEJrIQ
-    - video/qABlX4AL3GM
   posts:
     - post/aardvarklabs-blog/3761
     - post/demiliani-com/12836
@@ -56,6 +55,16 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
   guidelines: []
+  changes:
+    - change/bcquality/134
+    - change/bcquality/135
+    - change/bcquality/148
+    - change/bcquality/161
+    - change/bcquality/198
+    - change/bcquality/205
+    - change/bcquality/215
+    - change/bcquality/94
+    - change/bcquality/97
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -67,7 +76,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 4
+  video: 3
   blog: 8
   guideline: 0
 bc_forms: []
@@ -105,10 +114,19 @@ This section is about finding and fixing performance problems in Business Centra
 - [How to work with a performance problem](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem): Troubleshooting process that can help to guide you to find the root cause slow performance.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#134 knowledge(performance): add community rules for performance](../../../../../changes/bcquality/134.md) (code change): "Community performance guidance is added to the quality repository with 16 AL code examples"
+- [#135 Correct severe misconception about SetCurrentKey in the knowledge base](../../../../../changes/bcquality/135.md) (code change): "SetCurrentKey generates ORDER BY clauses, not SQL index hints"
+- [#148 Add Job Queue reliability and scheduling guidance](../../../../../changes/bcquality/148.md) (code change): "reliability and scheduling practices for Job Queue and Task Scheduler workloads"
+- [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "Page.RunModal, Report.RunModal, and XmlPort.RunModal are blocked during write transactions"
+- [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Six new knowledge articles covering workload-based indexes, overlapping indexes, buffered inserts"
+- [#205 Preserve business filters when recommending Record.Get](../../../../../changes/bcquality/205.md) (code change): "Preserve business filters when recommending Record.Get"
+- [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../../../../../changes/bcquality/215.md) (code change): "use query objects with grouped methods and column filters to detect duplicate values"
+- [#94 Correct performance knowledge guidance](../../../../../changes/bcquality/94.md) (code change): "performance knowledge articles were refined to correct semantic guidance on partial records, transactions, N+1 queries"
+- [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields and how to avoid cloning records"
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Benchmark system performance before and after applying indexes"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Performance benchmarks showed 42% improvement on inserts and 31% on updates"
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "higher isolation levels bypassing the cache on every read"
@@ -120,6 +138,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "performance optimization; data transfer; set load fields; read isolation"
 - [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "AL code performance; database optimization; sql queries; indexing; caching"
-- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Partial record loading with set load field; Avoid direct SQL operations; Compiler warnings"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

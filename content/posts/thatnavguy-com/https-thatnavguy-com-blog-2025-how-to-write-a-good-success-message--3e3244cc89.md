@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:18.673Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: baab31ad33fa6c9d3491a71a424c75cd78e49b5f828ccdbef83791cb890c17fc
+  input_hash: 2a80dd47e170d00e51c1be9724af6c2735b1d9f31f2710be19ba6fd17c64476a
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/how-to-write-a-good-success-message/
@@ -80,6 +80,16 @@ code_objects_mentioned: []
 systems:
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/how-to-write-a-good-success-message.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:27.020Z"
 ---
 
 # How to Write a Good Success Message

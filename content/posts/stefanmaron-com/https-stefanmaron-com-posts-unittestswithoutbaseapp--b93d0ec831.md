@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:58:30.245Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c2e04f309a4d6857701c91c152fd3c7a8bfb2722e55da1b8cc14c2da8b3ab578
+  input_hash: 83f1ca0af2c2d75e4231f17515cf1eef6ea9ee6df8858a00b552e12fa4ea9899
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/unittestswithoutbaseapp/
@@ -76,13 +76,23 @@ systems:
 versions_mentioned:
   - "27"
   - "28"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:27.733Z"
 ---
 
 # You don't need the base app to run your unit tests
 
-> Unit tests for self-contained Business Central logic do not require the base application to run. By structuring code as isolated sub-extensions with their own app.json files and only platform dependencies, developers can significantly reduce container startup time and pipeline costs.
-
 [Read the post](https://stefanmaron.com/posts/unittestswithoutbaseapp/) · Stefan Maron (Stefan Maron, MVP) · 2026-05-24 · 850 words · tier community · **unreviewed** (machine-generated)
+
+> Unit tests for self-contained Business Central logic do not require the base application to run. By structuring code as isolated sub-extensions with their own app.json files and only platform dependencies, developers can significantly reduce container startup time and pipeline costs.
 
 ## Key points
 

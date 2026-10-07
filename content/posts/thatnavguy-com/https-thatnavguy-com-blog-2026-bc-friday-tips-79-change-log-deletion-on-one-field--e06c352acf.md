@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:42:47.361Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c30b002d7564ddd66e6793836b13b7410571ba0d45945b65ab3b1f840fd2ff00
+  input_hash: 8489db84172e13d21dc13c0b501712e6b48b48e97eda79e4130d964aadb9b1b1
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/
@@ -71,13 +71,23 @@ code_objects_mentioned: []
 systems:
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/LogSomeFields.ByexN04Q_Z2qLt5u.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:15.434Z"
 ---
 
 # BC Friday Tips #79 Change Log Deletion on One Field
 
-> Enabling deletion logging on a single primary key field is sufficient to track who deleted a record in Business Central, avoiding unnecessary duplicate Change Log entries. This approach keeps the change log smaller and easier to review.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-14 · 113 words · tier community · **unreviewed** (machine-generated)
+
+> Enabling deletion logging on a single primary key field is sufficient to track who deleted a record in Business Central, avoiding unnecessary duplicate Change Log entries. This approach keeps the change log smaller and easier to review.
 
 ## Key points
 

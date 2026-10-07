@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:12.440Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b297c22865b6808c4d9ec05521cae429ddc8111e49be2fe73d5fcd9da3df0430
+  input_hash: 63665248eb6088e4fdc303b7fedf5e111a2887b5d0865a2f3a06126f0baf449c
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-55-captionclass/
@@ -83,6 +83,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-55-captionclass.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:03.003Z"
 ---
 
 # BC Friday Tips #55 CaptionClass

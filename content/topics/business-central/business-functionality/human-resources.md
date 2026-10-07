@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:19.132Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,9 @@ links:
   posts:
     - post/gerardorenteria-blog/9061
   guidelines: []
+  changes:
+    - change/bcapps/11113
+    - change/bcapps/11214
 learn_toc_path:
   - Business functionality
   - Human resources
@@ -108,10 +111,12 @@ Start with "Manage human resources" for the overall picture: employee records, e
 - [Manage human resources](https://learn.microsoft.com/dynamics365/business-central/hr-manage-human-resources): Register and manage employee records, maintain employment details, and track and analyze absences.
 - [Register Employees and Modify Information](https://learn.microsoft.com/dynamics365/business-central/hr-how-register-employees): Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11113 [Master][All-e][FTE][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”.](../../../changes/bcapps/11113.md) (code change): "Last Name field is now visible and editable on the Employee Relatives page"
+- [#11214 [29.x][All-e][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”](../../../changes/bcapps/11214.md) (code change): "Last Name field added to the Employee Relatives page layout"
 - [👥 Human Resources Module in Business Central🚀](../../../posts/gerardorenteria-blog/9061.md) (community post): "The Human Resources module in Business Central provides employee management, absence tracking"
 
 ## Business Central pages and reports

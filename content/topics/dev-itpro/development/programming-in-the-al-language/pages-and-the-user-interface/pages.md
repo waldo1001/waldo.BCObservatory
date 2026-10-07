@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:02.405Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,6 +296,13 @@ links:
     - post/demiliani-com/12439
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
+  changes:
+    - change/bcapps/10377
+    - change/bcapps/11901
+    - change/bcapps/11960
+    - change/bcapps/12061
+    - change/bcquality/160
+    - change/bcquality/207
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -376,10 +383,16 @@ Help users find and learn pages with Tell me (UsageCategory), page discoverabili
 - [The PromptDialog Page Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog): The PromptDialog page type allows you to integrate copilot capabilities into your custom scenarios.
 - [Work with repeater controls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-repeater-controls): A repeater is a control used to define a list of records from the source table of a page.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10377 [Main][ALL-E] Sales Price from customer card and Purcase Price from vendor card is showing "All Customers/All Vendors" as header instead of the specific customer/vendor informationInitial commit](../../../../../changes/bcapps/10377.md) (code change): "Price List Lines page now displays the correct customer or vendor name"
+- [#11901 Fix expense policy category mode](../../../../../changes/bcapps/11901.md) (code change): "Category field becomes locked when page is opened in single-category context"
+- [#11960 [BC14] Classify historical entry pages as Archive in Tell Me](../../../../../changes/bcapps/11960.md) (code change): "Changed UsageCategory from Lists to History on five read-only historical entry pages"
+- [#12061 [Master] - Bug 651754: Expense Management - Captions and ToolTips update](../../../../../changes/bcapps/12061.md) (code change): "Expense Management pages now display improved captions and tooltips"
+- [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and ToolTip from source table fields"
+- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "AL0573 warning: in-list set-membership tests in Visible/Enabled/Editable/StyleExpr"
 - [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Drag and drop fields onto pages, adjust properties, and show/hide actions"
 - [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"

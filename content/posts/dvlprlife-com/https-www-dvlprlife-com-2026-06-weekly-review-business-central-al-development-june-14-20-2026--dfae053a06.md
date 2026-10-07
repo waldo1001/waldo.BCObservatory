@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:55:05.656Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 59e66bcd13ced978e58fc4dcb971245e2f7bc7c436f5d05a1632073cc8e1ff89
+  input_hash: 58455084bd851e41edc67d4b1cdbe9c33a2d19527ee82cbd781b867fcee59624
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/
@@ -64,13 +64,23 @@ systems:
   - development
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:30.363Z"
 ---
 
 # Weekly Review: Business Central AL Development – June 14–20, 2026
 
-> The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.
-
 [Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/) · DvlprLife (Brad Prendergast) · 2026-06-22 · 348 words · tier community · **unreviewed** (machine-generated)
+
+> The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.
 
 ## Key points
 

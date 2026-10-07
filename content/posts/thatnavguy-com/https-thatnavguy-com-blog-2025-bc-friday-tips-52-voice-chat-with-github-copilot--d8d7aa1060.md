@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:18.322Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 3efbf767fae20c6f457bc32bcc89720c0b10e26368d1361df1981b797ddb3f15
+  input_hash: 5bee699d8752a9832fe4ed451c0fc1cd9903b8ef5fa9ab73859fcf95decda659
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-52-voice-chat-with-github-copilot/
@@ -73,6 +73,16 @@ systems:
   - development
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-52-voice-chat-with-github-copilot.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:09.192Z"
 ---
 
 # BC Friday Tips #52 Voice Chat with GitHub Copilot

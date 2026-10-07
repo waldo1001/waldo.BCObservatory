@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:52:21.864Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7a9d93225c054b2a495055da9221264ed437c5cf50744d6b3f40f9cd1d0469f9
+  input_hash: f5fc5bbb12912bc47dd02d44727855501197e3b29efb10fdcb335c8eae22b82f
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
@@ -86,6 +86,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:41.363Z"
 ---
 
 # If You Can't Make It Fast, Make It Feel Fast

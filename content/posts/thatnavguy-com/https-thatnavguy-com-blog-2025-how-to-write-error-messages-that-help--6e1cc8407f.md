@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:55:17.048Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5484648510175405ba875ec4fdaeb2e2ccf843e49bf5f11a39a0b5883095e06b
+  input_hash: 2ce86e66e0ddf4a5791c6d30a7a852ff984867096cf70aaef1513253c9815f98
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/
@@ -64,6 +64,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/how-to-write-error-messages-that-help.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:43.495Z"
 ---
 
 # How to Write Error Messages That Help

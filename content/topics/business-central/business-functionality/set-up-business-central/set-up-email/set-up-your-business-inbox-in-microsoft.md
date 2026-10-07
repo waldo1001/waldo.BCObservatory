@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:55.177Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11995
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -111,6 +113,12 @@ Admins planning a rollout should start with the deployment page, then the optimi
 - [Optimize Outlook for your Business Inbox](https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize): Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 - [Using Business Central with Outlook](https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin): This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 - [Using Business Central without Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-no-outlook): If you don't have Outlook, you can't use Business Central as your business inbox in Outlook, but you can work in a browser or on your mobile device.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11995 OfficeMgt.IsAvailable check added to fix flaky tests](../../../../../changes/bcapps/11995.md) (code change): "The Outlook Mail Engine now checks if Office Management is available before reinitializing"
 
 ## Business Central pages and reports
 

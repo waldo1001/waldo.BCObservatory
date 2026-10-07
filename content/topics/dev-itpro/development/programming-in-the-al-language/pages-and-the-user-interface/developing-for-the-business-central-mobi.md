@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/117
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -145,5 +147,11 @@ For testing, you can open the tablet or phone client directly in a browser with 
 - [Get started developing for the Dynamics 365 Business Central mobile app](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started-developing-business-central-mobile-app): Learn how to develop for the Dynamics 365 Business Central Mobile App with this comprehensive guide. Includes design tips, best practices, and deployment steps.
 - [Introducing the Dynamics 365 Business Central Mobile App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-introducing-business-central-mobile-app): Learn about the Dynamics 365 Business Central Mobile App and how it can help you access data from a tablet or a phone.
 - [Opening the Tablet or Phone Client from a Browser](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-opening-business-central-tablet-or-phone-client-from-browser): Learn how to open the Business Central tablet or phone client in a browser, so that you can test your solution on different form factors during design.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#117 tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218](../../../../../changes/bcquality/117.md) (code change): "PR review now independently flags genuinely missing tooltips on page fields"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

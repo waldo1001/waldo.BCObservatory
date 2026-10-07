@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:08:41.552Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 92f1ffe9b3b97852d501eeeb1cdcd361b9ef45d98d382109aff750ccb7be7046
+  input_hash: e554e0389ce2edde5f86c09e23d33511f7c33f8e3ecee27ce296e9218523ca55
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPODeliveryPeriod.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11563
 object_type: interface
 object_id: null
 name: PEPPOL PO Delivery Period
@@ -76,6 +78,10 @@ PEPPOL · Microsoft.Peppol · BC30 · [source at ecbc028c](https://github.com/mi
 ## Procedures
 
 - `GetRequestedDeliveryPeriod(PurchaseHeader: Record "Purchase Header"; var StartDate: Text; var EndDate: Text)`
+
+## Recent changes
+
+- 2026-09-24 [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../changes/bcapps/11563.md) (main, BC30, feature, added)
 
 ## Across versions
 

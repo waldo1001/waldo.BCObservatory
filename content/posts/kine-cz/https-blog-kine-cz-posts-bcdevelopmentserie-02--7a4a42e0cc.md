@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:55:16.190Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 2bd91abc9e818de3ae33366b569f722f958ab239647aabd51c38f64355eb79c0
+  input_hash: 186c8c7f1ee7e6d94d7b12e3021c3b7a94186f22d75dca5be5bbd8d45723281b
 evidence:
   - kind: blog
     url: https://blog.kine.cz/posts/bcdevelopmentserie-02/
@@ -72,6 +72,16 @@ systems:
   - platform
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://blog.kine.cz/assets/BCDevSerie/BCDevSeriePart02.svg
+  image_alt: "Business Central Development Serie - Part 2: Using AI for BC Development"
+  image_w: null
+  image_h: null
+  site_name: Kine's info
+  favicon: https://blog.kine.cz/favicon.ico?v=1
+  probed_at: "2026-10-07T11:50:27.955Z"
 ---
 
 # Business Central Development Serie - Part 2: Using AI for BC development

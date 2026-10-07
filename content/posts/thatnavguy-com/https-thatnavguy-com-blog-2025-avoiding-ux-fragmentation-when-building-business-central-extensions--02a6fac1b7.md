@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:12.770Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 66a31cab5444298ab90768c2c9fe7fc09f50cd73b7a4a8cc2240b4c002b7635c
+  input_hash: 1906a37513df9f3e6a6a0dba8a22c5940bd153c1eea13c2dc6e75bf180761880
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/avoiding-ux-fragmentation-when-building-business-central-extensions/
@@ -82,6 +82,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/avoiding-ux-fragmentation-when-building-business-central-extensions.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:05.048Z"
 ---
 
 # Avoiding UX Fragmentation When Building Business Central Extensions

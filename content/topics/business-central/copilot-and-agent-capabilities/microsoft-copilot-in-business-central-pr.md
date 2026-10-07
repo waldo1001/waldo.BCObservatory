@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,9 @@ links:
   posts:
     - post/demiliani-com/12927
   guidelines: []
+  changes:
+    - change/bcapps/11204
+    - change/bcapps/9206
 learn_toc_path:
   - Copilot and agent capabilities
   - Microsoft Copilot in Business Central (preview)
@@ -120,10 +123,12 @@ Start with the usage page, then read the data page for concrete scenarios. Use t
 - [Use Microsoft Copilot in Business Central (preview)](https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot): Learn how to use Microsoft Copilot to find data and get help in Business Central.
 - [Work with Business Central data in Microsoft Copilot](https://learn.microsoft.com/dynamics365/business-central/work-with-business-central-data-in-copilot): Learn what Microsoft Copilot can access in Business Central and how permissions and licensing affect its use of your business data.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies](../../../changes/bcapps/11204.md) (code change): "Copilot chat privacy notice now requires explicit agreement for evaluation companies"
+- [#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes](../../../changes/bcapps/9206.md) (code change): "New privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
 - [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../posts/demiliani-com/12927.md) (community post): "Copilot Chat uses Bing Search and retrieval augmented generation to answer user questions"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../videos/06vgkq2EXmA.md) (video): "How we built Copilot Chat in Business Central"
 - [What's New: Chat with Copilot (2025 release wave 1)](../../../videos/2uXVammbab0.md) (video): "Chat with Copilot; natural language queries; record filtering; customer data"

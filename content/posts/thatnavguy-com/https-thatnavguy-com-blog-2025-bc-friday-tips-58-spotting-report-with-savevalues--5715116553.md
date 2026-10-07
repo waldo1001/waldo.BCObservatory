@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:22:57.312Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4b52ba5c522c0c7ab9003be8a8fa7daede764b8c94914383af3d2cc7b0440482
+  input_hash: dc6f06805e932945c4e1929a090b681fa1b43a6a106909020c0948ff0f27f8d0
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/
@@ -72,6 +72,16 @@ code_objects_mentioned:
 systems:
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-58-spotting-report-with-savevalues.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:56.442Z"
 ---
 
 # BC Friday Tips #58 Spotting Report with SaveValues

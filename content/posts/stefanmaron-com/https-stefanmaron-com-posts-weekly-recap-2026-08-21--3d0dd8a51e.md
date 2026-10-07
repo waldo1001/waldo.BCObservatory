@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:10.662Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 07bdbb04be772535e418ba09cfb775e86dec919bab9c1675a6787dc7734ce3b1
+  input_hash: 89fa6cbfb7c4765799221c19da1fd479299638de3779b7a9e822087a486ab5a4
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/weekly-recap-2026-08-21/
@@ -88,13 +88,23 @@ versions_mentioned:
   - v2.3.1
   - tree-sitter-al 4.0
   - AL Language v18
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:16.097Z"
 ---
 
 # Weekly Recap: August 14-21
 
-> This weekly recap covers AL Runner releases (v2.2-v2.3.1) with coverage reporting and watch mode improvements, CI/CD fixes for parallel dependency resolution and Linux builds, a major catch-up of bc-code-atlas's stale graphify-al fork that revealed hidden AL-specific behaviors and tree-sitter parser changes, and various smaller tool fixes. It highlights infrastructure improvements that prevent silent failures in builds and dependency resolution.
-
 [Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-21/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-21 · 1123 words · tier community · **unreviewed** (machine-generated)
+
+> This weekly recap covers AL Runner releases (v2.2-v2.3.1) with coverage reporting and watch mode improvements, CI/CD fixes for parallel dependency resolution and Linux builds, a major catch-up of bc-code-atlas's stale graphify-al fork that revealed hidden AL-specific behaviors and tree-sitter parser changes, and various smaller tool fixes. It highlights infrastructure improvements that prevent silent failures in builds and dependency resolution.
 
 ## Key points
 

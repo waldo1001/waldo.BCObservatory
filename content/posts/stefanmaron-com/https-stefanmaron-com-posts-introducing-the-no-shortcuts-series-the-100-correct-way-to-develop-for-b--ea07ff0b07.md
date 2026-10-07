@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:26.332Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 58747bd306acea3672b6271618a92ddf9d3f783fffcddd1eae1de551f15aae70
+  input_hash: 8253f7c85a1df887347bee9ad7c1e0f6f1002c32efed6fa1bc4a9bde1c3f81f6
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/
@@ -65,6 +65,16 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:51:05.358Z"
 ---
 
 # Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4a2e718afbd3cf25e5ea45923f3a6aa58b257d216377d180d0f9da0d724cdbb6
+  input_hash: 37b54e4a437136fc0dde3e9af8d45395e1a9165b6d3d2c22bf5e1790d60dea2f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9360
 object_type: interface
 object_id: null
 name: ISFTP Client
@@ -100,6 +102,10 @@ System Application · System.SFTPClient · BC28-30 · [source at 1d24dd5e](https
 - `Get(Path: Text; var Result: Interface "ISFTP File"): Boolean`
 - `CreateDirectory(Path: Text): Boolean`
 - `SetSHA256Fingerprints(FingerPrints: List of [Text])`
+
+## Recent changes
+
+- 2026-08-12 [#9360 Harden SFTP Client module (security review phase 1)](../../changes/bcapps/9360.md) (main, BC30, fix)
 
 ## Across versions
 

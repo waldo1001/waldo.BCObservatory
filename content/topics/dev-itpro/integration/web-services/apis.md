@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -337,6 +337,10 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thinkaboutit-be/7683
   guidelines: []
+  changes:
+    - change/bcapps/10010
+    - change/bcapps/9194
+    - change/bcapps/9914
 learn_toc_path:
   - Integration
   - Web services
@@ -393,10 +397,13 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [Troubleshooting REST API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes): Learn about how to troubleshoot Business Central web service errors of types REST API or OData.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the 'automate' API group"
+- [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs from all publishers"
+- [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "Vendor Payments API now returns all payment lines in a batch"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query-based APIs handle related records easily and can nest several layers deep"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "use Brotli compression instead of gzip to reduce the size of OData API responses"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages"

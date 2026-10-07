@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:07.117Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 3aee9b67a011ec2b8589f5eeaed4526feced412c9c110f17998a549c10cb0efd
+  input_hash: b1889a586b212f026aea41b3ce51fbbcc35db6149be1f5272c1a455761be37a8
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/
@@ -78,6 +78,16 @@ systems:
   - development
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:59.164Z"
 ---
 
 # Introducing BC Prompt Kit: How I Started My AI Journey

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -331,6 +331,14 @@ links:
     - post/olofsimren-com/3696
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
   guidelines: []
+  changes:
+    - change/bcapps/10220
+    - change/bcapps/9180
+    - change/bcapps/9447
+    - change/bcapps/9531
+    - change/bcapps/9582
+    - change/bcapps/9602
+    - change/bcapps/9631
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -502,10 +510,17 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 - [Use item references](https://learn.microsoft.com/dynamics365/business-central/inventory-how-use-item-cross-refs): Set up references between the descriptions, unit of measures, and variants that you and your vendor or customer use for an item.
 - [Work with bills of material](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-BOMs): You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10220 [main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty](../../../changes/bcapps/10220.md) (code change): "Calculate Inventory report now skips processing iterations when the Warehouse Entry table contains no records"
+- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers"
+- [#9447 [Extensibility Request] issue 30239: add OnBeforeOnRunOnCheckWarehouse event in Mfg. Item Jnl. Check Line](../../../changes/bcapps/9447.md) (code change): "Extensions can set IsHandled to skip manufacturing checks for their own transactions"
+- [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "Report 152 crashed when an item and its SKUs referenced the same Production BOM"
+- [#9582 636017 Move Inventory report action tooltips to report objects](../../../changes/bcapps/9582.md) (code change): "11 inventory reports now have tooltips defined at the report level"
+- [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "user experience for adding attributes to item categories was corrected"
+- [#9631 [Main]- "Filter by Attribute" action does not apply the filter under specific circumstances](../../../changes/bcapps/9631.md) (code change): "Filter by Attribute action on the Item List page now preserves user-applied filters"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Quality inspections can be triggered automatically when posting receipts; quality management needs"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Item variants can now have their own pictures for visual identification"
 - [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"

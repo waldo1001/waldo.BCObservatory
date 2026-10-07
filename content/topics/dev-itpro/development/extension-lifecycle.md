@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -285,6 +285,10 @@ links:
   posts:
     - post/demiliani-com/12123
   guidelines: []
+  changes:
+    - change/bcapps/9569
+    - change/bcapps/9601
+    - change/bcquality/177
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -359,10 +363,13 @@ Subtopics go deeper on each phase: migration and moving tables and fields betwee
 - [Extension types and scope](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope): Extension types for Business Central explained: global apps, per-tenant extensions, and DEV extensions. Learn how scope and environment affect each type.
 - [Moving between extension scopes](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-moving-scope): Describes how an extension in one scope can be moved into another scope in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9569 Enforce permissions when reviewing orphaned extension data](../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
+- [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
+- [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "AL extensibility; migration patterns; migrator framework; extension points"
 

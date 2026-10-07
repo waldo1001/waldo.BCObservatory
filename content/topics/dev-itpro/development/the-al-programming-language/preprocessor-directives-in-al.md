@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:14.961Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/193
 learn_toc_path:
   - Development
   - The AL programming language
@@ -99,5 +101,11 @@ Start with the Preprocessor directives in AL page for the full picture, then mov
 - [Pragma directive in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma): Types of pragma directives supported in AL for Business Central.
 - [Preprocessor directives in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al): The different types of preprocessor directives in AL; conditional, regions, and pragmas and preprocessorSymbols setting.
 - [Region directive in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-region): The region directive in AL for Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../changes/bcquality/193.md) (code change): "DateFormula Evaluate calls require language-independent literals to work correctly"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

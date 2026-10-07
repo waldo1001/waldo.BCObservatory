@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:25.276Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9362
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -98,5 +100,11 @@ Start with the page that matches your task: invoice layout for VAT on documents,
 - [How to Print Finnish Intrastat Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports): This article explains how to print Finnish Intrastat Reports to report the movement of goods to the Intrastat authorities.
 - [How to print VAT information on invoices [FI]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices): This article explains how you can use posting groups to print VAT information for each item on the sales invoice.
 - [VAT-VIES declaration in Finland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland): Finnish enhancements allow you to comply with regulations for VAT and European Union (EU) sales reporting.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9362 [FI] Delocalize FI VAT-VIES Declaration report into FI Core](../../../../../changes/bcapps/9362.md) (code change): "Finnish VAT-VIES Declaration report is moved from a localized FI BaseApp"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

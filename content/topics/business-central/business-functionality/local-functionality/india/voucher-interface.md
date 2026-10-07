@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:53.939Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10352
+    - change/bcapps/10370
+    - change/bcapps/9481
+    - change/bcapps/9515
+    - change/bcapps/9973
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -90,5 +96,15 @@ Start with the overview page to understand the voucher types and the template an
 
 - [Overview on Voucher Interface](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview): Provides an overview of the Voucher Interface feature for Indian localization in Business Central.
 - [Transaction on Voucher Interface](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Voucher-Interface-Transactions): Learn how to record day-to-day transactions using the voucher interface in Business Central for India.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10352 [Master]-Bug 646964: Withholding Tax Prod. Posting Group is missing o…](../../../../../changes/bcapps/10352.md) (code change): "Withholding Tax Product Posting Group field added to General Journal page"
+- [#10370 [Master]-Bug 647018: Withholding tax for Employees and GL Accounts](../../../../../changes/bcapps/10370.md) (code change): "Withholding tax for employees now inherits the WHT product posting group"
+- [#9481 [Withholding Tax] FCY documents get wrongly rounded to LCY precision …](../../../../../changes/bcapps/9481.md) (code change): "Foreign currency withholding tax documents no longer incorrectly round amounts"
+- [#9515 [Master] - 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../../../../changes/bcapps/9515.md) (code change): "The 'Greater Than' withholding tax calculation rule and other rule options are now applied correctly"
+- [#9973 [WHT]-Withholding Tax is not deducted from Expense Report lines based on the Expense Category during posting](../../../../../changes/bcapps/9973.md) (code change): "Withholding Tax is not deducted from Expense Report lines"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

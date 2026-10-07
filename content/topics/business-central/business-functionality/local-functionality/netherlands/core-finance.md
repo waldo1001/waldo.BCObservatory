@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:00.172Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10511
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -90,5 +92,11 @@ Start with the required descriptions page if you are setting up posting rules an
 
 - [Apply and Unapply General Ledger Entries [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries): Apply temporary general ledger entries to allow companies to work with temporary and transfer accounts in the general ledger.
 - [Required descriptions in G-L entry](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry): When entering general journal lines on a form, the system automatically fills in the description field.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10511 [NL][Telebank] Payment History export crashes when combining entries](../../../../../changes/bcapps/10511.md) (code change): "Payment history export in Dutch telebank functionality no longer crashes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

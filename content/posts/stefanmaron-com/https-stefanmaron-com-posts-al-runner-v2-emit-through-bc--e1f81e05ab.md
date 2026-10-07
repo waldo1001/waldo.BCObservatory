@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:40.644Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 88b908d8f931dac118e81f7a50ba51fc6332455a585857121fe50220f2ef6743
+  input_hash: ac86cd18c149dbcd15ac6016836043eb77c52eb35f8f21046314b5c713f5566d
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/
@@ -86,13 +86,23 @@ versions_mentioned:
   - v2.0.1
   - v2.1.0
   - v2.1.1
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:23.213Z"
 ---
 
 # AL Runner v2: What Feedback Told Me v1 Was Missing
 
-> AL Runner v2 introduces a fundamental architecture change that enables integration testing against real Microsoft and third-party dependencies instead of mocks, moving from type-renaming and stubbing to using BC's own compiler and patching only low-level database operations. The update emphasizes fail-loudly error handling so tests cannot silently pass with wrong results, and introduces a separate language behavior test suite that validates all tests against real Business Central before trusting them.
-
 [Read the post](https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-10 · 1538 words · tier community · **unreviewed** (machine-generated)
+
+> AL Runner v2 introduces a fundamental architecture change that enables integration testing against real Microsoft and third-party dependencies instead of mocks, moving from type-renaming and stubbing to using BC's own compiler and patching only low-level database operations. The update emphasizes fail-loudly error handling so tests cannot silently pass with wrong results, and introduces a separate language behavior test suite that validates all tests against real Business Central before trusting them.
 
 ## Key points
 

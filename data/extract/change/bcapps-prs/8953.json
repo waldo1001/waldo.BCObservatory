@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8953",
+  "number": 8953,
+  "title": "[Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores \"Period Count\" specified by user.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Aged Accounts Receivable and Payable Excel reports now correctly respect the Period Count parameter specified by users, fixing a bug where this setting was being ignored.",
+  "key_points": [
+    "Period Count parameter was ignored in both aged reports",
+    "Applied fix to Aged Accounts Receivable Excel (report 4402) and Aged Accounts Payable Excel (report 4403)",
+    "Added test coverage for the Period Count functionality",
+    "Fix ensures user-specified period counts are properly applied when generating Excel reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Aged account receivable EXCEL and Aged account payable EXCEL ignores \"Period Count\" specified by user.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003346,
+    "changes_in_call": 1
+  }
+}

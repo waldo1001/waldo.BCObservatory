@@ -2,20 +2,20 @@
 id: topic/business-central/integrate-with-other-applications
 type: topic
 title: Integrate with other applications
-summary: "Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized."
+summary: "Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify. It answers questions about which integration to use, how data is synchronized, and where to find setup details."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:03.324Z"
+  at: "2026-10-07T13:37:17.677Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 027940c9c275621dcad7e0fd3cf7b164ba23d48761ec6224c21ff54ef54d4027
+  input_hash: 6faca24de93d10ac7ac5e8e4e6f85668eb064729470eac07f8cb4348dae6da45
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
@@ -349,24 +349,28 @@ narrative: generated
 
 # Integrate with other applications
 
-> Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized.
+> Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify. It answers questions about which integration to use, how data is synchronized, and where to find setup details.
 
 Path: Integrate with other applications · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-This section covers how Business Central connects to other applications. The integration overview page is the starting point. It describes the options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Dynamics 365 Sales, Field Service, and Shopify.\n\nSubtopics cover the main areas in more depth. Office and Microsoft 365 pages deal with Excel, OneDrive, Outlook, Teams and Word. Power Platform pages cover the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages. Dataverse pages explain connection setup, user accounts, ownership, mappings, synchronization, Power Automate flows and troubleshooting. Field Service has its own pages on setup, work orders and related data.\n\nThe hub has two pages of its own on specific integrations. The Dynamics 365 Sales page describes integration through Dataverse, including connection settings, security roles, unit group mapping and table synchronization. Because Sales integration runs through Dataverse, the Dataverse pages are useful background for it. The Shopify Connector overview describes synchronization with Shopify stores for B2B and direct-to-consumer models.
+This section covers how Business Central connects to other products. An integration overview page lists the main options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Dynamics 365 Sales, Field Service and Shopify. Start there to pick the right path.
+
+Three pages sit directly in the section: the integration overview, Integrating with Dynamics 365 Sales (through Dataverse), and the Shopify Connector Overview. Subtopics go deeper on Microsoft Office apps and Microsoft 365, Microsoft Power Platform, Microsoft Dataverse, and Dynamics 365 Field Service.
+
+The Sales integration runs through Dataverse. The Dataverse subtopic covers connecting, user accounts, ownership models, table and field mappings, synchronization and sync error troubleshooting for syncing with other Dynamics 365 apps, so it is useful context alongside the Sales page. For Field Service, use its own subtopic, which covers the Project-only and Project and Service integration types.
 
 ## Key points
 
-- The overview page lists the integration options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Sales, Field Service and Shopify.
-- Office and Microsoft 365 integration covers Excel, OneDrive, Outlook, Teams and Word (24 pages), including data exchange, file sharing, email and contacts, and document layouts.
-- Power Platform pages cover the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages on Dataverse virtual tables.
-- Dataverse pages cover connection, user accounts, ownership models, table and field mappings, manual and scheduled sync, and sync error troubleshooting.
-- Dynamics 365 Sales integration runs through Dataverse and supports bidirectional sync, sales order processing, item availability, unit group mapping and record coupling.
-- Setting up Sales integration involves connection settings, security roles, unit group mapping and table synchronization.
-- Field Service integration syncs work orders, posts project journal consumption, manages inventory and locations, and creates sales invoices.
-- Shopify Connector supports multiple shops and synchronizes items, inventory, customers, companies, orders and transactions, with order import and fulfillment tracking.
+- The integration overview names Office, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify as integration targets, plus virtual tables and webhooks.
+- Dynamics 365 Sales integration runs through Dataverse: connection settings, security roles, unit group mapping, table synchronization and record coupling are configured. It supports sales order processing and item availability.
+- Shopify Connector synchronizes items, inventory, customers, orders and transactions in both directions, supports multiple shops, and fits B2B and DTC models.
+- Shopify order import from sales channels and fulfillment tracking are covered.
+- Office and Microsoft 365 subtopic (24 pages) covers Excel, OneDrive, Outlook, Teams and Word.
+- Power Platform subtopic (15 pages) covers the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages on Dataverse virtual tables.
+- Dataverse subtopic (11 pages) covers user accounts, ownership models, table and field mappings, manual and scheduled sync, flows and sync error troubleshooting.
+- Field Service subtopic (2 pages) covers work orders, consumption posting, inventory availability, resource bookings and invoices, with Project-only and Project and Service integration types.
 
 ## Subtopics
 

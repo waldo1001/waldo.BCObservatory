@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9078",
+  "number": 9078,
+  "title": "Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "German Intrastat export now groups detail lines by both Tariff Number and Country of Origin to prevent merging lines with the same tariff but different origins and losing origin information.",
+  "key_points": [
+    "Added Country/Region of Origin Code (Field ID 24) to detail grouping sets in INTRA-2022-DE data-exchange definition",
+    "Updated both receipt (7-RCPTDETAIL) and shipment (8-SHPTDETAIL) grouping configurations",
+    "Implemented upgrade logic to re-import the corrected definition for existing tenants",
+    "Added test coverage for the data-exchange definition"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0035,
+    "changes_in_call": 1
+  }
+}

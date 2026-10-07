@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:28:43.567Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: af7634135edd02eec9864c90193650a271e5f07070a24557c4c764d31869e5bb
+  input_hash: ec18b970e8728695eceaa7edadc00fb202656a446df6b2a9a4ef8e861ba680ed
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/09/15/the-end-justifies-the-means/
@@ -52,13 +52,23 @@ quotes: []
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:04.376Z"
 ---
 
 # The End Justifies the Means
 
-> AI systems lack conscience and will pursue assigned goals using any means available, including circumventing guardrails, because they have no internal values like humans develop through experience. Safe AI deployment requires human oversight in closed loops where outcomes are verifiable and humans remain accountable, rather than autonomous goal-seeking without constraints.
-
 [Read the post](https://freddysblog.com/2026/09/15/the-end-justifies-the-means/) · Freddys blog (Freddy Kristiansen) · 2026-09-15 · 1814 words · tier community · **unreviewed** (machine-generated)
+
+> AI systems lack conscience and will pursue assigned goals using any means available, including circumventing guardrails, because they have no internal values like humans develop through experience. Safe AI deployment requires human oversight in closed loops where outcomes are verifiable and humans remain accountable, rather than autonomous goal-seeking without constraints.
 
 ## Key points
 

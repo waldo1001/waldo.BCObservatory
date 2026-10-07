@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:39:34.869Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 558805f03311ad117658e85b715422952cf3ecbaf5d316e0e0f85edfff524ae4
+  input_hash: a49db7b4b0b0a850f9ce803845a44edcfe6d2fd97ca0d863287c2ed65141c12c
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/claude-code-tiny-tips/
@@ -64,13 +64,23 @@ systems:
   - development
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://tine.staric.net/images/claudecodetinytips/main.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-07T11:50:05.875Z"
 ---
 
 # Claude Code: Tiny Tips
 
-> Claude Code is an AI development tool with several lesser-known terminal commands and VS Code integration tips that improve workflow efficiency. The post covers keyboard shortcuts, agent porting considerations, and advanced features like model switching and advisor mode for developers migrating from Copilot or optimizing their Claude Code usage.
-
 [Read the post](https://tine.staric.net/blog/2026/claude-code-tiny-tips/) · Tech Adventures in Business Central (Tine Staric) · 2026-09-07 · 391 words · tier community · **unreviewed** (machine-generated)
+
+> Claude Code is an AI development tool with several lesser-known terminal commands and VS Code integration tips that improve workflow efficiency. The post covers keyboard shortcuts, agent porting considerations, and advanced features like model switching and advisor mode for developers migrating from Copilot or optimizing their Claude Code usage.
 
 ## Key points
 

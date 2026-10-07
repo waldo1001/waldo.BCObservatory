@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:19.910Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 8d82d2f487a4b25db595743341bb6a536ecad09a868a97b9d23ca65a22b8b894
+  input_hash: 943c2e2923404a587b56a21ba657af40a488de558ece11ecc622f33b88d75ced
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/
@@ -80,6 +80,16 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-37-inherent-permissions.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:29.550Z"
 ---
 
 # BC Friday Tips #37 Inherent Permissions

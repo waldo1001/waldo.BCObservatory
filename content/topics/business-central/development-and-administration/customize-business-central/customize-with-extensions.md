@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -238,6 +238,8 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
   guidelines: []
+  changes:
+    - change/bcapps/9953
 learn_toc_path:
   - Development and administration
   - Customize Business Central
@@ -428,10 +430,11 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 - [Using the tax file formats (DK) extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk): The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 - [WorldPay Payments Standard](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard): The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "AppSource UI text, captions, tooltips, and labels changed to Marketplace terminology"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions support full lifecycle management"
 - [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "check the last updated date before installing. Apps without recent updates"
 

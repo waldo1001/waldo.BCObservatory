@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2ddbadd57bc28d58df9afe36aac6549ca2424a6347ed4ce343730e4be5c20edb
+  input_hash: 19bbce6088c8b27f553de91e8270c6f801401ebf575b16a226531176e6b8ef4d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12070
 object_type: interface
 object_id: null
 name: IPurchaseLineAccountProvider
@@ -89,6 +91,10 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 ## Procedures
 
 - `GetPurchaseLineAccount(EDocumentPurchaseLine: Record "E-Document Purchase Line"; var AccountType: Enum "Purchase Line Type"; var AccountNo: Code[20])`: Determines the purchase line fields for a given E-Document purchase line.
+
+## Recent changes
+
+- 2026-09-30 [#12070 Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps](../../changes/bcapps/12070.md) (main, BC30, fix)
 
 ## Across versions
 

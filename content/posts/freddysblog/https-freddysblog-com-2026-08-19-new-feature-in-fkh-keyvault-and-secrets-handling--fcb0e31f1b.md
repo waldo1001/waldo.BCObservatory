@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:41.355Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: eea16f2bd44abf5eb932b03591e8b9393d826c68d888959acc5d212c93877318
+  input_hash: 87401c959b7874fd173b3cd9691dc33e0984cdc6e52e9845f890a2c9fd69d2bb
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling/
@@ -76,13 +76,23 @@ systems:
   - administration
 versions_mentioned:
   - latest preview
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:13.717Z"
 ---
 
 # New feature in Fkh: A KeyVault and secrets handling
 
-> Fkh now deploys an Azure Key Vault in your own subscription to securely store and manage secrets like admin passwords and API tokens. You can manage secrets through VS Code or CLI commands, reference them in parameters using @secretName@ syntax, and prepare for future integration with AL-Go repositories and container access.
-
 [Read the post](https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling/) · Freddys blog (Freddy Kristiansen) · 2026-08-19 · 1216 words · tier community · **unreviewed** (machine-generated)
+
+> Fkh now deploys an Azure Key Vault in your own subscription to securely store and manage secrets like admin passwords and API tokens. You can manage secrets through VS Code or CLI commands, reference them in parameters using @secretName@ syntax, and prepare for future integration with AL-Go repositories and container access.
 
 ## Key points
 

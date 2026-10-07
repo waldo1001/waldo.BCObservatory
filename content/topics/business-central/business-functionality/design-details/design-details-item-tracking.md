@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,21 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10150
+    - change/bcapps/10624
+    - change/bcapps/10716
+    - change/bcapps/10934
+    - change/bcapps/11959
+    - change/bcapps/9346
+    - change/bcapps/9464
+    - change/bcapps/9465
+    - change/bcapps/9466
+    - change/bcapps/9651
+    - change/bcapps/9754
+    - change/bcapps/9864
+    - change/bcapps/9982
+    - change/bcquality/192
 learn_toc_path:
   - Business functionality
   - Design details
@@ -153,5 +168,24 @@ Start with "Design details - Item tracking" for the scope and links, then read "
 - [Design details - Item tracking in the warehouse](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse): Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 - [Design details - Item Tracking Lines page](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-lines-window): Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure): Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../../changes/bcapps/10150.md) (code change): "Strict Expiration Posting in Item Tracking Code now clarifies"
+- [#10624 [MAIN]-Bug 647352 Issue with lot no assignment after posting a transfer order](../../../../changes/bcapps/10624.md) (code change): "Transfer shipments for tracked items now correctly consume the matching lot or serial number"
+- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "Fixes an error that occurred when creating a purchase order from a sales order with drop shipment"
+- [#10934 [29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level](../../../../changes/bcapps/10934.md) (code change): "Item tracking validation for lot numbers now occurs at the sales order level"
+- [#11959 [Master]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy](../../../../changes/bcapps/11959.md) (code change): "Production orders now correctly handle quantity rounding differences between component consumption and item tracking"
+- [#9346 [master]-Cannot delete Project Planning Line due to incorrect reservation entries](../../../../changes/bcapps/9346.md) (code change): "Corrects reservation entry handling in the Inventory Profile Offsetting logic"
+- [#9464 [Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line](../../../../changes/bcapps/9464.md) (code change): "An integration event is added to the CheckTrackingIfRequired procedure in the Item Journal Line"
+- [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22"
+- [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "OnCheckExpirationDateOnBeforeAssignExpirationDate event gains three new parameters"
+- [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "SkipNewExpirationDateCheck was added to the OnCheckExpirationDateOnAfterCalcSumLot event"
+- [#9754 [Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event](../../../../changes/bcapps/9754.md) (code change): "new integration event OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation is added"
+- [#9864 [Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event](../../../../changes/bcapps/9864.md) (code change): "Add OnBeforeTestTransferLine event for transfer line item tracking checks"
+- [#9982 [Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit](../../../../changes/bcapps/9982.md) (code change): "Item tracking validation for lot numbers now occurs at the warehouse pick level"
+- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "Rules cover item tracking, transfer posting, available-to-promise logic"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

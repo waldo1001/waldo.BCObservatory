@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:21.929Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7eb32cf0ffe40889ccc6dd48985311a616b9013ee4f5e3fe0d4258f3fdf4aaac
+  input_hash: 57ffbf36c17a1658da44aaf478c8d9fc9ffa39bccc4d3aff6953c67ddc18ca32
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/
@@ -54,6 +54,16 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-33-month-enum.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:34.451Z"
 ---
 
 # BC Friday Tips #33 Month Enum

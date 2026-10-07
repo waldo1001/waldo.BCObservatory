@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:41:59.624Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 09e348198eba3023cb64b4cb4b0d33cdee20e84b7497e5aef86e4a314f90944e
+  input_hash: abb12d3c373a392566292dde3bdb59b588273c7be7e7188feb57d279428a9a60
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/
@@ -67,13 +67,23 @@ systems:
   - platform
   - copilot
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:16.972Z"
 ---
 
 # The Engineering Stairway to Heaven
 
-> Engineering is evolving through a stairway of six ascending steps, from traditional code-writing to orchestrating systems of AI agents. The post describes how engineers move from doing all work themselves, to prompting, adding context, building harnesses, designing feedback loops, and finally architecting multi-agent graphs. Business Central lags behind in AI tooling and context compared to mainstream development stacks.
-
 [Read the post](https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/) · Freddys blog (Freddy Kristiansen) · 2026-08-15 · 2663 words · tier community · **unreviewed** (machine-generated)
+
+> Engineering is evolving through a stairway of six ascending steps, from traditional code-writing to orchestrating systems of AI agents. The post describes how engineers move from doing all work themselves, to prompting, adding context, building harnesses, designing feedback loops, and finally architecting multi-agent graphs. Business Central lags behind in AI tooling and context compared to mainstream development stacks.
 
 ## Key points
 

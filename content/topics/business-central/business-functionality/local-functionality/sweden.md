@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.826Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/8646
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -130,6 +132,12 @@ Start with the Sweden Local Functionality page for the overall picture. Then go 
 
 - [EU Third-Party Purchase Transactions [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions): This article explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
 - [Sweden Local Functionality [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality): The links in this article describe the different local functionality in the Swedish version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#8646 [PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007](../../../../changes/bcapps/8646.md) (code change): "Swedish organisation numbers stripped to 10 digits when scheme 0007 is used"
 
 ## Business Central pages and reports
 

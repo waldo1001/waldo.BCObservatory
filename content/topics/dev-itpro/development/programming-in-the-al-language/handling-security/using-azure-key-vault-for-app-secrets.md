@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:02.513Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/8999
+    - change/bcquality/92
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -119,5 +122,12 @@ The developer page shows how to configure key vault URLs in the app.json manifes
 - [Set up app key vaults for Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault): Learn how to set up Azure key vaults for Business Central online extensions. Follow step-by-step instructions to securely manage secrets for your Marketplace apps.
 - [Setting up App Key Vaults for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem): Describes how to set up App Key Vault with Business Central on-premises.
 - [Using Key Vault Secrets in Business Central Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault): Describes how to use an Azure Key vault with Business Central extensions.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management using SecretText"
+- [#92 Correct security and privacy knowledge guidance](../../../../../changes/bcquality/92.md) (code change): "SecretText HTTP guidance updated to use HttpRequestMessage.SetSecretRequestUri with HttpClient.Send"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

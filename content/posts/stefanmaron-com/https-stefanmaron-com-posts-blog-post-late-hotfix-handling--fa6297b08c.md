@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:12.174Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 10f9cdce7e47662335467a4657ee71563c590dbbd0f310843891c3cd34657669
+  input_hash: a5b53d4a279b6ff3478a24c8ee3bb6d33ab6e65e27873101504964bfb6538e06
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/blog-post-late-hotfix-handling/
@@ -83,6 +83,16 @@ systems:
 versions_mentioned:
   - "27.0"
   - "27.1"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:54.875Z"
 ---
 
 # MSDyn365BC.Sandbox.Code.History - Late Hotfix Handling

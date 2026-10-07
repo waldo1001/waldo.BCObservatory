@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:27:57.716Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c5927295e8d384d0982dd95082f4eaf8499e4c0a73c5df6f5d6372823f68c6c8
+  input_hash: 272ee1db5a7d6c54fb32b79b099e43670951cd9885cf1881faf0a00e44bf460f
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/
@@ -73,13 +73,23 @@ systems:
   - development
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/ExcelBuffer-length-limit.bQqA2p2o_f6NYd.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:03.779Z"
 ---
 
 # BC Friday Tips #82 Excel Buffer Character Limit
 
-> Excel Buffer in Business Central has a 250-character limit on field values. When longer text is written to it, Business Central throws an error instead of silently truncating, which can cause Excel exports to fail.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-09-25 · 115 words · tier community · **unreviewed** (machine-generated)
+
+> Excel Buffer in Business Central has a 250-character limit on field values. When longer text is written to it, Business Central throws an error instead of silently truncating, which can cause Excel exports to fail.
 
 ## Key points
 

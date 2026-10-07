@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:15.671Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/210
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -127,5 +129,11 @@ Start with "Lifecycle of apps and extensions" for the overall model. Then read "
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.
 - [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
 - [Upgrading Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions): Describes how to add code to upgrade data in a new extension version.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany which can cause data races"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,8 @@ links:
   posts:
     - post/thinkaboutit-be/7920
   guidelines: []
+  changes:
+    - change/bcapps/10631
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -175,10 +177,11 @@ Administrators should begin with the setup page. End users can go straight to th
 - [Upload Receipts and Create Mileage Expenses](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts): Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "New expense policy evaluation framework with dedicated tables, pages, and APIs"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent in public preview, a new Expense Management module"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"

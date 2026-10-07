@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:23.066Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,6 +180,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9548
 learn_toc_path:
   - Business functionality
   - Project management
@@ -263,6 +265,12 @@ Start with Project Reports to get the overall picture, then open the page for th
 - [Resource Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1103): Document a resource register's contents for internal or external audits.
 - [Resource Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1105): Analyze usage and sales amounts for each resource and check the percentage invoiced on your projects.
 - [Resource Utilization (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1106): Analyze capacity and usage for each project resource for a prior period and check the balance remaining to determine if each resource was under or over utilized.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9548 636017 Move Projects report action tooltips to report objects](../../../../../changes/bcapps/9548.md) (code change): "Report action tooltips for Projects reports are moved from page actions to the report objects themselves"
 
 ## Business Central pages and reports
 

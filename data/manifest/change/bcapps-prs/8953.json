@@ -6,10 +6,35 @@
   "title": "[Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores \"Period Count\" specified by user.",
   "url": "https://github.com/microsoft/BCApps/pull/8953",
   "published_at": "2026-07-07T14:56:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:14.455Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:19.431Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003346
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:19.624Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:19.630Z",
+      "path": "content/changes/bcapps/8953.md"
     }
   },
   "input_hash": "e7a92e8c5f6c1a4c603233508eef85eebe94e0a4:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "master aged account receivable excel and aged account payable excel ignores period count specified by user"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "258400ed0537f8c7d79f929e9d926920813d2799b8c7fa5541eed26f29e8b937"
 }

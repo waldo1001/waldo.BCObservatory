@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:21.726Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: cb66affd06f53c2b50dbfbf3a9ecf67814d46756dd51f0d2b1280118e08b11d7
+  input_hash: 7c235a796d6648bb717fb85563d030d9f47a0edc9cb51265bf01ed4b2a40f507
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/
@@ -63,6 +63,16 @@ systems:
   - administration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-33-restore-environment.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:33.373Z"
 ---
 
 # BC Friday Tips #34 Restore Environment

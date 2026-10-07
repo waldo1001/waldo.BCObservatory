@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.128Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10185
 learn_toc_path:
   - Business functionality
   - Relationship management
@@ -109,6 +111,12 @@ Start with "Create Segments" for how a segment is made and numbered with a numbe
 - [Create Segments](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment): Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.
 - [Keep track of segments and related interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments): Learn about creating segments to define groups of contacts and specifying interactions for segments.
 - [Manage segments and select contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-segments): Learn how to create and manage segments by selecting groups of contacts based on specific criteria, enabling you to effectively target these segments in future campaigns.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10185 Fix Reduce Contacts report silently ignores contacts whose company no…](../../../../changes/bcapps/10185.md) (code change): "The Remove Contacts report now correctly handles contacts whose company reference doesn't match"
 
 ## Business Central pages and reports
 

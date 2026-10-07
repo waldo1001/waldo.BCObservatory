@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:55:17.265Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0ba40b4a29379cac9b77d21321c252c795b3d1d1a06c4b0b2f009fd4dba37f28
+  input_hash: 82c967a05a1f7de032e1ace17fdbe47e094d8b4fa4f3b84edb944b9c0ec70aaf
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/
@@ -80,6 +80,16 @@ systems:
   - integration
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:44.627Z"
 ---
 
 # BC Friday Tips #27 Replace Blank Values using Transformation Rules

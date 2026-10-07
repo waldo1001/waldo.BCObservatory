@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:45:10.516Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: d975496d192826bea1775e7d0f3d8c8a0c68c8f57090734376ec70d0f8420fe0
+  input_hash: 3c4455cd226fd6b8bce97d1028ada0a4545f49f6aa747a19f85c540092832288
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/
@@ -64,13 +64,23 @@ systems:
   - development
 versions_mentioned:
   - 0.1.6
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/07/al-eventlens-0-1-6-social.jpg
+  image_alt: "AL EventLens 0.1.6: the handler lens, and a fix that needed fixing – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:21.303Z"
 ---
 
 # AL EventLens 0.1.6: the handler lens, and a fix that needed fixing
 
-> AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.
-
 [Read the post](https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 740 words · tier community · **unreviewed** (machine-generated)
+
+> AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.
 
 ## Key points
 

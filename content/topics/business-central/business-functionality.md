@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality
 type: topic
 title: Business functionality
-summary: "Business functionality in Business Central covers the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability and more. It answers how-to, setup and which-feature questions, and points to local, setup and design-detail sections."
+summary: "Business functionality in Business Central covers the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify, local functionality, setup and design details. It answers setup, how-to and which-feature questions by area."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:20:38.546Z"
+  at: "2026-10-07T13:37:16.092Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 685775a514580e8e43e16afd0760703f8ab511c98243f669264f758101341df2
+  input_hash: 33eb79074916f61cd63f1280e045f29e376d1c74f7379518b55a9a932b36b2f7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -2258,28 +2258,28 @@ narrative: generated
 
 # Business functionality
 
-> Business functionality in Business Central covers the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability and more. It answers how-to, setup and which-feature questions, and points to local, setup and design-detail sections.
+> Business functionality in Business Central covers the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify, local functionality, setup and design details. It answers setup, how-to and which-feature questions by area.
 
 Path: Business functionality · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-This section is the main entry point for what Business Central does day to day. Its own page is a short overview listing the supported areas: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+This section is the top-level map of what Business Central does. Its one own page gives an overview of supported processes: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Each area then has its own subtopic with detailed how-to and setup pages.
 
-Each area has its own subtopic. Core trade and finance areas are Finance, Sales, Purchasing, Inventory and Fixed assets. Operations areas are Project management, Planning, Assembly management, Manufacturing, Warehouse management, Quality management and Service management. Relationship management and Human resources cover contacts, opportunities, employees and absences.
+The subtopics fall into groups. Core transaction areas are General business functionality (posting, journals, email, workflows), Finance, Sales, Purchasing and Inventory. Operations areas include Project management, Fixed assets, Planning, Assembly, Manufacturing, Warehouse, Quality and Service management. Others cover Relationship management, Human resources, Sustainability, Shopify, Expense management (preview) and Company hub.
 
-Specialized areas include Sustainability management, Online store with Shopify, Expense management (preview) and Company hub. General business functionality holds features shared across areas, such as posting, job queues and workflows. Local functionality covers country-specific rules. Set up Business Central covers configuration. Design details explains internal calculation logic. Start with the overview, then go to the subtopic for your process.
+Three subtopics support the rest. Local functionality holds country-specific content for 20+ countries and regions. Set up Business Central covers initial configuration and links to setup guides per area. Design details explains internal logic such as costing, supply planning and item tracking. Start with the area subtopic that matches your process, then check Set up for configuration and Local functionality for your country.
 
 ## Key points
 
 - Finance is the largest functional area (256 pages): general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost accounting, period closing and multi-company setups.
-- Sales and Purchasing follow documents from quotes and orders through posting, returns and corrections; each has an analytics subtopic, and Sales also covers subscription billing.
-- Inventory covers item setup, counting, tracking by serial, lot and package numbers, reservations, transfers and variants; Planning covers forecasts, MPS and MRP runs.
-- Manufacturing, Assembly management and Warehouse management cover production orders, assembly orders (assemble-to-order and to-stock), and inbound, outbound and internal warehouse processes.
-- Service management covers service orders and contracts and is available in the Premium experience only.
-- Sustainability management tracks emissions, water and waste, and includes Scope 3, carbon credits, CBAM and EPR.
-- Online store with Shopify covers the Shopify Connector for syncing items, inventory, prices, customers, orders and payouts; Expense management is a preview with an optional AI-based Expense Agent.
-- Local functionality (603 pages) covers country-specific tax, banking and e-invoicing for more than 20 countries and regions.
+- General business functionality covers features shared across areas: posting and batch posting, comments, extended text, email, job queues, general journals, incoming documents, workflows and approvals.
+- Sales and Purchasing follow the document flow from quotes and orders through shipping, invoicing, returns and corrections, with analytics subtopics.
+- Supply chain areas include Inventory (item tracking, reservations, transfers), Planning (MPS, MRP, replanning), Assembly, Manufacturing and Warehouse management.
+- Service management is available in the Premium experience only.
+- Quality management is a Microsoft-published extension, and Expense management is a preview feature with an optional AI-based Expense Agent.
+- Local functionality (603 pages) holds country-specific tax, banking, e-invoicing and statutory reporting content for 20+ countries and regions.
+- Set up Business Central covers company information, number series, calendars and report selection; Design details explains costing, planning and posting logic.
 
 ## Subtopics
 

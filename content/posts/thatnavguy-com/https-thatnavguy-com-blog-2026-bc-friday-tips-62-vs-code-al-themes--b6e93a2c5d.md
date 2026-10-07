@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:22:52.032Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: d011f60c8ebd743215f3598e6810de70feec691cdc879e6b9dd513e2f156d515
+  input_hash: 84c6278db21cbb535a37066b15f1099965814b19644ea9916a37d2401c4dce0c
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/
@@ -72,6 +72,16 @@ systems:
   - development
 versions_mentioned:
   - AL 16.00
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-62-vs-code-al-themes.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:50.811Z"
 ---
 
 # BC Friday Tips #62 VS Code AL Themes

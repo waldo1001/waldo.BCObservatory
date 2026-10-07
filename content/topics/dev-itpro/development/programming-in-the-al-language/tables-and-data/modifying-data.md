@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,6 +102,24 @@ links:
     - post/demiliani-com/12267
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
+  changes:
+    - change/bcapps/10017
+    - change/bcapps/10055
+    - change/bcapps/10058
+    - change/bcapps/10182
+    - change/bcapps/10276
+    - change/bcapps/10301
+    - change/bcapps/10312
+    - change/bcapps/10447
+    - change/bcapps/10927
+    - change/bcapps/10970
+    - change/bcapps/11004
+    - change/bcapps/11747
+    - change/bcapps/11824
+    - change/bcapps/9712
+    - change/bcapps/9850
+    - change/bcquality/133
+    - change/bcquality/209
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -158,10 +176,27 @@ Start with the Insert, Modify and Delete methods page for the basics. Then go to
 - [Virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-virtual-tables): Virtual tables are system tables in AL for Dynamics 365 Business Central
 - [Working With Media on Records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records): Learn how to upload media, such as an image, to the database for displaying with records in the client.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10017 [Master] - Bug 644751 Moving an expense report line to another report wrongly reports a duplicate](../../../../../changes/bcapps/10017.md) (code change): "Fixed incorrect duplicate detection when moving an expense report line between open reports"
+- [#10055 Fix: migrating a document attachment deletes shared Tenant Media](../../../../../changes/bcapps/10055.md) (code change): "Adds guard to prevent deletion of Tenant Media when other attachments"
+- [#10058 [Master]-Withholding Tax Posting generates Unbalanced G/L Entries when Multiple Withholding Tax Rates are used on one Purchase Invoice.](../../../../../changes/bcapps/10058.md) (code change): "withholding tax posting calculation is corrected to prevent unbalanced G/L entries"
+- [#10182 [Bug]: [Subscription Billing] Payment discount on contract invoices comes from the customer, not from the contract's payment terms](../../../../../changes/bcapps/10182.md) (code change): "Payment discount percentages on subscription billing invoices now correctly use the contract's payment terms"
+- [#10276 [master] Renewal Term field on the Create Contract Renewal Quote page does not accept the entered value such as 12M](../../../../../changes/bcapps/10276.md) (code change): "Prevents overwriting of just-entered values with persistent record data"
+- [#10301 [Master]-Bug 646962: Withholding Tax Posting Setup](../../../../../changes/bcapps/10301.md) (code change): "Restricts Calculation Base = Net to employee-only withholding taxes"
+- [#10312 Update expense VAT specification source](../../../../../changes/bcapps/10312.md) (code change): "Enforced immutability for API-created VAT specifications to prevent unauthorized modifications"
+- [#10447 [Bug][Subscription Billing] Price Update Template filters on Subscription Lines are overwritten by the proposal's own default filters](../../../../../changes/bcapps/10447.md) (code change): "Price Update Template filters on Subscription Lines are now correctly preserved"
+- [#10927 [Change Log] Preserve SystemId for unloaded record modifications](../../../../../changes/bcapps/10927.md) (code change): "Change Log Management now preserves the SystemId from persisted records when modifications are recorded"
+- [#10970 [Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods](../../../../../changes/bcapps/10970.md) (code change): "Fixed subscription billing to correctly include usage data entries whose charge periods span"
+- [#11004 Fix Expense Report Reimbursement Currency Code](../../../../../changes/bcapps/11004.md) (code change): "Corrected currency code assignment in expense report reimbursement logic"
+- [#11747 [master][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../../changes/bcapps/11747.md) (code change): "Changed GetDate() to use GetSalesLine() method to leverage cached Sales Line"
+- [#11824 [29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../../changes/bcapps/11824.md) (code change): "Sales Subscription Line creation now correctly handles cached Sales Line data during BOM explosion"
+- [#9712 [master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.](../../../../../changes/bcapps/9712.md) (code change): "Fixed missing email and phone number update when 'Sell-to Contact No.' is validated"
+- [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
+- [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
+- [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Business Central version 27 introduces the Rec.Truncate AL method to enable efficient bulk deletion"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,8 @@ links:
     - video/vyQnSxRGJDA
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9910
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -120,10 +122,11 @@ Start with an overview page for scope. Read the email page if receipts arrive by
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Mileage Expense Calculation"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates; Mileage rate setup table"

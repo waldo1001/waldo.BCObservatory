@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:23.421Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 24473d73a8016f63cf1fa565f5ec56ae8248edef911eee1c25d5782c981c6851
+  input_hash: e6ec7971cb406ef2337fdf7dafe42e2fe81cee421a6c3647cd79c7caa5992089
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/august-2025-auckland-d365-bc-user-group-event/
@@ -52,6 +52,16 @@ code_objects_mentioned: []
 systems:
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/august-2025-auckland-d365-bc-user-group-event.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:19.977Z"
 ---
 
 # August 2025 Auckland D365 BC User Group Event

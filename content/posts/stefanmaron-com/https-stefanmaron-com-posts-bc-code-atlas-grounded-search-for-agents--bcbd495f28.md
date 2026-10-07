@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:43:41.605Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4b326fb0d7dfd03fdaa46d0923549dab47cc7513166bd710fa1648b8b02f0a10
+  input_hash: a7c419def25ff7a64891b63ad9b19c63ce94e2509288cac029ac7a62a92a3bb6
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/
@@ -61,13 +61,23 @@ versions_mentioned:
   - BC 28.1
   - BC 28.2
   - multiple major versions (10-11)
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:24.629Z"
 ---
 
 # Introducing bc-code-atlas: Real BC Source for Coding Agents, Not a Guess
 
-> bc-code-atlas is an MCP server that provides AI coding agents with grounded, verifiable access to BC's Base Application source code across versions and countries, eliminating hallucinations by linking every result back to real AL files through semantic search and exact-source lookups.
-
 [Read the post](https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-10 · 1023 words · tier community · **unreviewed** (machine-generated)
+
+> bc-code-atlas is an MCP server that provides AI coding agents with grounded, verifiable access to BC's Base Application source code across versions and countries, eliminating hallucinations by linking every result back to real AL files through semantic search and exact-source lookups.
 
 ## Key points
 

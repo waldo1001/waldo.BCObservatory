@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,6 +132,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10096
+    - change/bcapps/9733
 learn_toc_path:
   - Business functionality
   - Finance
@@ -214,6 +217,13 @@ Start with "Close fiscal years and accounting periods" or "Closing the books" fo
 - [Submit VAT reports to tax authorities](https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat): Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 - [Update currency exchange rates](https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies): Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
 - [Working with accounting periods and fiscal years](https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years): Learn how to work with accounting periods to define when your company reports financial performance.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10096 Fix Close Income Statement grouping when no dimensions are selected](../../../../changes/bcapps/10096.md) (code change): "Fixed the Close Income Statement report to properly group G/L entries by account"
+- [#9733 [main] bug 644111 - Reorder "Open Balance Sheet" action in Accountant CZ Role Center CZL page](../../../../changes/bcapps/9733.md) (code change): "Open Balance Sheet action after the Close Balance Sheet action, aligning the menu with the standard year-end closing workflow"
 
 ## Business Central pages and reports
 

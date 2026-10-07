@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,13 @@ links:
   posts:
     - post/thedynamicsexplorer-com/10232
   guidelines: []
+  changes:
+    - change/bcapps/10425
+    - change/bcapps/10498
+    - change/bcapps/9051
+    - change/bcapps/9356
+    - change/bcapps/9674
+    - change/bcapps/9789
 learn_toc_path:
   - Business functionality
   - Finance
@@ -124,10 +131,16 @@ The pages follow the workflow. Start with "Reconcile bank accounts and apply pay
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10425 [master] Remittance Advice Report (ID 10083) prints Amount Due = 0 when using Suggest Vendor Payments with Summarize Per Vendor](../../../../../changes/bcapps/10425.md) (code change): "Remittance Advice Report correctly displays the Amount Due field"
+- [#10498 [Pmt. Recon. Journal] Optimize opening of the Payment Application screen](../../../../../changes/bcapps/10498.md) (code change): "Payment application screen opening is optimized by adding a date filter"
+- [#9051 [639592][ALAppExtensions #30277][Event Request] Codeunit 426 "Payment Tolerance Management" OnPmtTolGenJnlOnAfterCheckConditions](../../../../../changes/bcapps/9051.md) (code change): "Codeunit 426 Payment Tolerance Management exposes event allowing subscribers to modify general journal lines"
+- [#9356 [Main]-Payment XML file generated from EB Payment Journal upon selecting "FCY Symbol" includes currency text](../../../../../changes/bcapps/9356.md) (code change): "Payment XML files exported from EB Payment Journal now correctly exclude currency text"
+- [#9674 Fix missing table permissions on Stale Check action in Check Management Subscriber](../../../../../changes/bcapps/9674.md) (code change): "Stale Check action was failing due to missing Modify permissions"
+- [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../../changes/bcapps/9789.md) (code change): "payment discount tolerance was calculated twice for vendor payments with Applies-to ID in foreign currency"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "three methods for posting customer cash receipts in Business Central"
 
 ## Business Central pages and reports

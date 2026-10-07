@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -43,6 +43,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11319
 learn_toc_path:
   - Administration
   - Automation API
@@ -71,5 +73,11 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_extension_get): Gets an extension object in Dynamics 365 Business Central.
 - [extension resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extension): An extension object in Dynamics 365 Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

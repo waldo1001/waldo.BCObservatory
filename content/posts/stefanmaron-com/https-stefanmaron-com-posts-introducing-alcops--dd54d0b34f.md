@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:36:18.137Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 88b0dcb50d76de464397a1af7e0b9ec4174370b7a480db611f90080f47ec3b6f
+  input_hash: 95b811ecdaf8c5151ed1d4318d8c9f637bd8d3858c753858e2a7d5561297cc3f
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/introducing-alcops/
@@ -79,13 +79,23 @@ versions_mentioned:
   - AL 17
   - v0.5
   - v0.1 alpha
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:36.849Z"
 ---
 
 # Introducing ALCops — LinterCop's Next Chapter
 
-> ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers (ApplicationCop, DocumentationCop, FormattingCop, LinterCop, PlatformCop, TestAutomationCop) to address structural limitations including GitHub rate limits, overgrown feature scope, and rule severity constraints. It improves code quality through better rule severity defaults, 30 code fixes, correctness fixes, and distributes via NuGet with MCP server support for AI tooling integration.
-
 [Read the post](https://stefanmaron.com/posts/introducing-alcops/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1542 words · tier community · **unreviewed** (machine-generated)
+
+> ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers (ApplicationCop, DocumentationCop, FormattingCop, LinterCop, PlatformCop, TestAutomationCop) to address structural limitations including GitHub rate limits, overgrown feature scope, and rule severity constraints. It improves code quality through better rule severity defaults, 30 code fixes, correctness fixes, and distributes via NuGet with MCP server support for AI tooling integration.
 
 ## Key points
 

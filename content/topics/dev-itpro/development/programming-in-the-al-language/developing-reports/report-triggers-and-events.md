@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:38.147Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/183
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -136,5 +138,11 @@ Start with the event that matches your scenario. For a printer extension, read O
 - [OnCustomDocumentMergerEx event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-oncustomdocumentmergerex-event): Describe the OnCustomDocumentMergerEx Event in Business Central.
 - [OnGetFilename Event](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ongetfilename-event): Learn about the OnGetFilename event in Business Central.
 - [Report Triggers and Runtime Operations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-triggers): Report triggers in AL for Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#183 Add reporting review guidance and evaluation fixtures](../../../../../changes/bcquality/183.md) (code change): "covering report variable clearing, CurrReport control flow, report extensions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

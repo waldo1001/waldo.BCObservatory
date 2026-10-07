@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:26.427Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c5aa4caf0293de2f6b4ed296ccd471617446918a533ce92d2186a4e9228cbdf6
+  input_hash: 7a561b96208cdf147c86348cb6f2eb05e5279b76978b4a2daf1f69ff28f8a441
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/
@@ -61,6 +61,16 @@ code_objects_mentioned: []
 systems:
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-63-sharing-full-screenshot.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:49.687Z"
 ---
 
 # BC Friday Tips #63 Sharing Full Screenshot

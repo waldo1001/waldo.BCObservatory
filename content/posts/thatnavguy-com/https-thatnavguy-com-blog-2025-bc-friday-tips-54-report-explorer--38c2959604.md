@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:13.797Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: a0495a25167a79656776261013f8ddbe65eebde6a83f83ca809133ffa4538869
+  input_hash: 0ad5f94ef41d5c54a00700f62ed3d9573a0377e391e2f47feb65b92840f2b8da
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/
@@ -71,6 +71,16 @@ code_objects_mentioned: []
 systems:
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-54-report-explorer.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:06.425Z"
 ---
 
 # BC Friday Tips #54 Report Explorer

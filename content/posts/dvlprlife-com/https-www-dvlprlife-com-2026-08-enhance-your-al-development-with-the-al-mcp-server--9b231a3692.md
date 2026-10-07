@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:53.970Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: a8c88479a1448283ff37932a5d883f6b639a39e54b8ae42518969b1da9e387e0
+  input_hash: c1ef0fd930fc31e24d19f086010a9fded86e97b8b0685d1f5b5069b229ac3cc6
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/
@@ -74,13 +74,23 @@ systems:
   - platform
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:15.157Z"
 ---
 
 # Enhance Your AL Development with the AL MCP Server
 
-> The AL MCP server is a Model Context Protocol server that exposes tools allowing AI agents to download symbols, build, compile, and publish AL projects directly. It enables agents like GitHub Copilot to verify their own code changes automatically, removing the need for manual compilation steps between AI suggestions and deployment.
-
 [Read the post](https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/) · DvlprLife (Brad Prendergast) · 2026-08-21 · 1112 words · tier community · **unreviewed** (machine-generated)
+
+> The AL MCP server is a Model Context Protocol server that exposes tools allowing AI agents to download symbols, build, compile, and publish AL projects directly. It enables agents like GitHub Copilot to verify their own code changes automatically, removing the need for manual compilation steps between AI suggestions and deployment.
 
 ## Key points
 

@@ -2,7 +2,7 @@
 id: localization/ch
 type: localization
 title: Switzerland (CH)
-summary: Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (ESR, LSV+, DTA/EZAG, Swiss SEPA, QR-bill), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory orders and Swiss reports. It answers where local fields, reports and setup live.
+summary: Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (QR-bill, ESR, LSV+, SEPA with Swiss rules), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory, and bank and post code directories. It answers how Swiss payment, VAT and document features are built.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 6f76dc339f3467e51b7d89cf56f55b2e283d1ae9d70c3e7b35a26f9c8eb7b13d
+  input_hash: c495179c6b61cbdb9afee2b67e2f42953372f477318b67cc1f0e29e40ff465ac
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -168,28 +168,28 @@ learn_folder: LocalFunctionality/Switzerland
 
 # Switzerland (CH)
 
-> Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (ESR, LSV+, DTA/EZAG, Swiss SEPA, QR-bill), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory orders and Swiss reports. It answers where local fields, reports and setup live.
+> Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (QR-bill, ESR, LSV+, SEPA with Swiss rules), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory, and bank and post code directories. It answers how Swiss payment, VAT and document features are built.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/switzerland.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The Swiss layer is large: 341 objects, of which 223 are its own and the rest replace or extend W1 objects. Payments are the core. Own codeunits EsrMgt, DtaMgt, LSVMgt, BankMgt and the Swiss SEPA export codeunits support ESR payment slips, LSV+ direct debit collections, DTA/EZAG files and Swiss SEPA credit transfer and direct debit. W1 tables such as Vendor Bank Account, Gen. Journal Line and Payment Export Data get Swiss fields (ESR type, clearing number, payment form, reference number, ESR/ISR coding line).
+The Swiss layer centers on payments. QR-bill objects (codeunits 11502, 11512 to 11519, pages 11510 to 11518) create, scan, decode and print QR-bills and handle incoming documents. ESR (EsrMgt), LSV+ (LSVMgt, LSV journal pages) and DTA (DtaMgt) cover the older Swiss methods. Swiss rules are added to SEPA credit transfer and direct debit export, and to CAMT 053 and 054 import. Fields on vendor and customer bank accounts, journal lines and purchase headers carry ESR, giro, clearing and payment form data.
 
-VAT is handled with VAT cipher setup, cipher fields on VAT Posting Setup and VAT Statement Line, VAT-specific exchange rate fields on Currency Exchange Rate, and extra VAT Entry fields for foreign currency amounts. The exchange rate adjustment is extended with a valuation method and VAT entry adjustment. Other areas are delivery reminders for vendors, quote management with archived quote variants and subtotals on sales lines, physical inventory orders, and DACH-shared Data Export and report selection objects.
+In finance, the Swiss VAT statement uses cipher codes (pages 11023 and 11024, codeunit 26100 "Update VAT-CH"). VAT entries, G/L accounts and currency exchange rates gain foreign currency and VAT exchange rate fields, and the Exch. Rate Adjustment report gets a valuation method and VAT entry adjustment. Provisional G/L balances and DACH report selections are also added. Many objects are shared with the German and Austrian layers (DACH).
 
-Learn documents this under "Switzerland local functionality". It has pages for Swiss electronic payments, ESR, LSV+, QR-Bill Management, the Swiss VAT statement, VAT exchange rate adjustment, delivery reminders, G/L balances, inventory, and purchase and sales documents.
+Other additions are delivery reminders for vendors, sales quote management (quote status, subtotals, levels, positions), physical inventory orders, and Swiss post code and bank directory imports. Learn documents these under "Switzerland local functionality" and its sub-pages.
 
 ## Key points
 
-- ESR: import ESR payment files into cash receipt journals with automatic application by reference number, and print ESR invoices and coupons (reports 3010532, 3010533).
-- LSV+ direct debit: LSV journal and setup pages, suggest collection, close collection, export LSV file, and post LSV payments through the cash receipt journal.
-- Swiss SEPA credit transfer and direct debit exports, CAMT 053/054 import, DTA and EZAG files, and a Bank Directory imported from SIX clearing files.
-- QR-bill management is documented in Learn, with IBAN and QR-IBAN support.
-- Swiss VAT statement uses VAT ciphers (pages 11023, 11024), cipher fields on VAT Posting Setup, and VAT exchange rates set on Currency Exchange Rate. An older VAT statement report remains.
-- Vendor delivery reminders: terms, levels, texts, create, issue and test report, with their own tables and pages.
-- Quote management: quote status, probability and variants on Sales Header and Sales Line, subtotals and titles on lines, plus quote analysis.
-- Provisional G/L balance and foreign currency balance fields on G/L Account and G/L Entry, plus Swiss post code import and physical inventory orders.
+- QR-bill management: generate, print, scan and import QR-bills, with IBAN/QR-IBAN, payment reference types and billing information (codeunit 11518 "Swiss QR-Bill Mgt.", page 11514 "Swiss QR-Bill Setup").
+- ESR, LSV+ and DTA payment methods: ESR file import and printing, LSV collection journals with file export, DTA setup.
+- SEPA credit transfer and direct debit exports with Swiss payment form and payment type fields on table 1226 "Payment Export Data", plus Swiss CAMT 053/054 import.
+- Swiss VAT statement with VAT cipher setup, VAT exchange rate fields and VAT exchange rate adjustment on table 254 "VAT Entry" and the Exch. Rate Adjustment report.
+- Delivery reminders for vendors: terms, levels, text, issue and test report, with own tables and pages.
+- Sales quote management and posting changes: quote status, probability, subtotals, levels and positions on sales lines and archives.
+- Foreign currency balances on G/L accounts and provisional balance view for journals.
+- Imports of Swiss post codes and bank clearing numbers (Bank Directory).
 
 Narrative written by Sonnet from the code diff and 34 Learn page summaries. In numbers: Switzerland (CH) localization of Business Central in BC29: 279 objects of its own, 118 W1 objects changed (196 fields and 10 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -217,87 +217,87 @@ Narrative written by Sonnet from the code diff and 34 Learn page summaries. In n
 
 ### Bank
 
-Adds Swiss electronic payment support: ESR, DTA/EZAG, LSV+ and Swiss SEPA credit transfer and direct debit export, CAMT 053/054 import, and a Bank Directory. Payment Export Data and SEPA check and fill codeunits get Swiss payment type logic. ESR invoice, coupon and payment order reports are included.
+Adds the Swiss payment stack: QR-bill (encode, decode, image, setup wizard, scan, billing info), ESR, DTA and LSV management, a Bank Directory, and Swiss SEPA CT and DD export files. It also adds CAMT 053 and 054 import and Swiss fields and checks on the W1 SEPA codeunits and Payment Export Data.
 
-Why: Learn describes ESR, LSV+ and SEPA credit transfer as the Swiss electronic payment methods, and Bank Directory import from SIX clearing files.
+Why: Learn describes ESR, LSV+, SEPA credit transfers and QR-bills with IBAN and QR-IBAN as the Swiss electronic payment methods, and bank clearing number import from SIX Interbank Clearing files.
 
-Objects: [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md) (own), [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md) (own), [codeunit/3010541 "DtaMgt"](../objects/codeunit/3010541-ch.md) (own), [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md) (own), [codeunit/11530 "Swiss SEPA DD-Export File"](../objects/codeunit/11530-ch.md) (own), [table/1226 "Payment Export Data"](../objects/table/1226.md), [page/3010831 "LSV Setup"](../objects/page/3010831-ch.md) (own), [page/11501 "Bank Directory"](../objects/page/11501-ch.md) (own).
+Objects: [table/1226 "Payment Export Data"](../objects/table/1226.md), [codeunit/11518 "Swiss QR-Bill Mgt."](../objects/codeunit/11518-ch.md) (own), [codeunit/11513 "Swiss QR-Bill Encode"](../objects/codeunit/11513-ch.md) (own), [codeunit/11512 "Swiss QR-Bill Decode"](../objects/codeunit/11512-ch.md) (own), [page/11514 "Swiss QR-Bill Setup"](../objects/page/11514-ch.md) (own), [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md) (own), [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md) (own), [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md) (own).
 
 [All 115 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Finance
 
-Adds Swiss VAT statement handling with cipher setup, VAT Entry foreign currency fields, and a VAT exchange rate adjustment inside the exchange rate adjustment run (valuation method, VAT entry adjustment). G/L Account gets foreign currency balance fields and a provisional balance page. Gen. Journal Line gets ESR fields. It also carries shared DACH Data Export objects and total-balance reports.
+Adds the Swiss VAT statement with cipher setup and codes, VAT exchange rate fields on VAT Entry and G/L Account, and the Exch. Rate Adjustment changes. It also adds provisional G/L balance, data export objects and ESR fields on journal lines. Some objects are shared with Germany and Austria.
 
-Why: Learn says Swiss VAT uses official Federal Tax Administration exchange rates for foreign currency VAT and supports foreign currency balances on bank accounts.
+Why: Learn says Swiss VAT uses official exchange rates for foreign currency and adjusts VAT amounts for payment discounts, and describes foreign currency balances and temporary journal balances.
 
-Objects: [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/597 "Exch. Rate Adjmt. Subscribers"](../objects/codeunit/597.md), [report/596 "Exch. Rate Adjustment"](../objects/report/596.md), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [page/11023 "VAT Cipher Codes"](../objects/page/11023-ch.md) (own), [page/11024 "VAT Cipher Setup"](../objects/page/11024-ch.md) (own), [page/11500 "G/L Acc. Provisional Balance"](../objects/page/11500-ch.md) (own).
+Objects: [table/254 "VAT Entry"](../objects/table/254.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [codeunit/597 "Exch. Rate Adjmt. Subscribers"](../objects/codeunit/597.md), [report/596 "Exch. Rate Adjustment"](../objects/report/596.md), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [page/11023 "VAT Cipher Codes"](../objects/page/11023-ch.md) (own), [page/11024 "VAT Cipher Setup"](../objects/page/11024-ch.md) (own), [codeunit/26100 "Update VAT-CH"](../objects/codeunit/26100-ch.md) (own).
 
 [All 77 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
-Adds vendor bank account fields for Swiss payment forms, ESR type, clearing and giro numbers, and ESR reference fields on Purchase Header. Suggest Vendor Payments gets summarized variants. It adds the delivery reminder feature with its own tables, pages, codeunits and role center extensions, plus vendor reports.
+Adds ESR, giro, clearing and payment form fields to Vendor Bank Account, reference fields on Purchase Header, and Suggest Vendor Payments changes. It adds a full delivery reminder feature for vendors, with tables, pages, codeunits and enum, and Swiss vendor reports.
 
-Why: Learn documents delivery reminders to vendors (setup, creation, issue) and the Vendor Payments List report.
+Why: Learn documents delivery reminders (codes, terms, levels, text, generation, issue, test report) and the Vendor Payments List report.
 
-Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md), [table/475 "Vendor Payment Buffer"](../objects/table/475.md), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-ch.md) (own), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-ch.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-ch.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md) (own).
+Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-ch.md) (own), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-ch.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-ch.md) (own), [page/5005273 "Issued Delivery Reminder"](../objects/page/5005273-ch.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md) (own).
 
 [All 76 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Sales
 
-Adds quote management on sales documents: quote status, probability, follow-up and competitor fields, line titles, positions and subtotals, plus archive copies. It adds LSV number on Cust. Ledger Entry, Liq. Payment Terms Code on customers, setup fields for invoice rounding and shipment handling, and Swiss customer reports.
+Adds quote management fields (probability, follow-up, competition, validity) to Sales Header and archive. It adds position, level, subtotal and classification fields to sales lines and posted lines, posting description events, and Swiss customer reports.
 
-Why: Learn describes subtotals, begin and end totals in quotes and orders, invoice rounding for payment discounts and optional shipment printing.
+Why: Learn lists subtotals with begin and end totals, enhanced posting descriptions and invoice rounding with payment discounts for Swiss sales documents.
 
-Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/3010801 "QuoteMgt"](../objects/codeunit/3010801-ch.md) (own), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/3010801 "Quote Analysis"](../objects/report/3010801-ch.md) (own), [table/21 "Cust. Ledger Entry"](../objects/table/21.md).
+Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [codeunit/3010801 "QuoteMgt"](../objects/codeunit/3010801-ch.md) (own), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/5107 "Sales Header Archive"](../objects/table/5107.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/3010801 "Quote Analysis"](../objects/report/3010801-ch.md) (own).
 
 [All 38 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Inventory
 
-Adds physical inventory orders and recording as new tables, customer and salesperson fields on item ledger and journal entries, default location code and blocking fields on Item, and Swiss item reports such as ABC analysis and ranking.
+Adds a physical inventory order feature with its own tables, plus fields on Item, Item Ledger Entry and Item Journal Line for default location, customer and salesperson. It also adds Swiss item reports and dispatcher and receiver places.
 
-Why: Learn says Swiss inventory uses default location codes from the item card, tracks invoices with multiple shipments and stores customer and salesperson information.
+Why: Learn says Swiss inventory uses default location codes from the item card and tracks invoices with multiple shipments.
 
-Objects: [table/27 "Item"](../objects/table/27.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-ch.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-ch.md) (own), [table/313 "Inventory Setup"](../objects/table/313.md), [report/11503 "Item ABC Analysis"](../objects/report/11503-ch.md) (own), [report/11517 "Inventory Value (Help Report)"](../objects/report/11517-ch.md) (own).
+Objects: [table/27 "Item"](../objects/table/27.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/313 "Inventory Setup"](../objects/table/313.md), [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-ch.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-ch.md) (own), [report/11503 "Item ABC Analysis"](../objects/report/11503-ch.md) (own), [table/11000 "Place of Dispatcher"](../objects/table/11000-ch.md) (own).
 
 [All 34 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Foundation
 
-Extends Company Information with Swiss fields (tax office, authorized numbers, place of dispatcher). It adds DACH report selections, Swiss post code import with priority field, format address changes, and Swiss SEPA code constants in Company-Initialize.
+Extends Company Information with Swiss fields including tax office data and authorized numbers. Adds DACH report selections, address formatting for the tax office, post code priority and a post code import report.
 
-Why: Learn documents importing the Swiss post code file from Swiss Post.
+Why: Learn describes importing the latest Swiss Post post code file into the Post Code table.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md) (own), [report/11502 "Import Post Codes"](../objects/report/11502-ch.md) (own), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/225 "Post Code"](../objects/table/225.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [report/11502 "Import Post Codes"](../objects/report/11502-ch.md) (own), [table/225 "Post Code"](../objects/table/225.md), [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md) (own), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [tableextension/11511 "Swiss QR-Bill Company Info."](../objects/tableextension/11511-ch.md) (own).
 
 [All 22 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### (no namespace)
 
-Holds Swiss SEPA direct debit pain.008 xmlport, Data Export Setup, an Intrastat item list report and upgrade or sandbox plumbing.
+Holds the Swiss SEPA direct debit pain.008.001.02.ch03 XMLport, the PURCHASE-DEL.REMIND. permission set, data export setup and the Intrastat item list report. Upgrade and sandbox cleanup codeunits are not covered.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [xmlport/11501 "SEPA DD pain.008.001.02.ch03"](../objects/xmlport/11501-ch.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-ch.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md) (own).
+Objects: [xmlport/11501 "SEPA DD pain.008.001.02.ch03"](../objects/xmlport/11501-ch.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-ch.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md) (own), [permissionset/26001 "PURCHASE-DEL.REMIND."](../objects/permissionset/26001-ch.md) (own).
 
 [All 8 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### FixedAssets
 
-Adds fields to Fixed Asset for a BWR depreciation book and premium depreciation. It adds book value and list reports (one shared with Austria) and a procedure on FA General Report to exclude reclassification entries.
+Adds Swiss depreciation fields on Fixed Asset (BWR depreciation book, premium depreciation) and a Swiss book value report. Also changes FA General Report to exclude reclassification entries.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-ch.md) (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [report/11100 "Fixed Assets - List AT"](../objects/report/11100-ch.md) (own).
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-ch.md) (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
 
 [All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### Security
 
-Adds local permission set extensions for delivery reminders and changes the LOCAL and LOCAL READ sets and two payables journal sets.
+Adds permission set extensions for delivery reminders and changes the LOCAL and LOCAL READ sets and the payables journal sets.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -307,7 +307,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### Service
 
-Adds Swiss fields to service lines and invoice lines via table extensions, a service document management codeunit, and a service bank payment codeunit for ESR service invoices.
+Adds Swiss fields through table extensions on service lines, service invoice lines and service line archive. Also adds a service document management codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -317,7 +317,7 @@ Objects: [codeunit/11524 "Serv. Document Mgt. CH"](../objects/codeunit/11524-ch.
 
 ### CRM
 
-Changes the Export Contact and Export Segment Contact xmlports.
+Changes the Export Contact and Export Segment Contact XMLports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -327,17 +327,17 @@ Objects: [xmlport/5050 "Export Contact"](../objects/xmlport/5050.md), [xmlport/5
 
 ### Microsoft
 
-Adds a Certificate table and an ELM interop input page.
+Adds an ELM Interop Input page and a Certificate table.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/11014 "Certificate"](../objects/table/11014-ch.md) (own), [page/35563 "ELM Interop Input"](../objects/page/35563-ch.md) (own).
+Objects: [page/35563 "ELM Interop Input"](../objects/page/35563-ch.md) (own), [table/11014 "Certificate"](../objects/table/11014-ch.md) (own).
 
 [All 2 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
 
 ### Utilities
 
-Adds a GeneralMgt codeunit and extends ArchiveManagement with procedures to archive sales documents with quote status.
+Adds a general management codeunit and archive procedures that archive sales documents together with the quote status.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -347,7 +347,7 @@ Objects: [codeunit/5063 "ArchiveManagement"](../objects/codeunit/5063.md), [code
 
 ### EServices
 
-Changes the ReadSoft OCR Master Data Sync codeunit.
+Changes the ReadSoft OCR master data sync codeunit for the Swiss layer.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -357,7 +357,7 @@ Objects: [codeunit/884 "ReadSoft OCR Master Data Sync"](../objects/codeunit/884.
 
 ### IO
 
-Extends Read Data Exch. from File with XML procedures to split payments per invoice, check invoices and read or write amount nodes, used for bank file import.
+Adds XML handling procedures to Read Data Exch. from File, used to split payments per invoice and read amount nodes in bank files.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -367,7 +367,7 @@ Objects: [codeunit/1240 "Read Data Exch. from File"](../objects/codeunit/1240.md
 
 ### Manufacturing
 
-Adds a page extension for the Manufacturing Manager role center shared by the DACH countries.
+Adds a page extension for the Manufacturing Manager role center shared with the DACH layers.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

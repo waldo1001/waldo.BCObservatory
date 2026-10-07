@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:45.684Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10079
+    - change/bcapps/9591
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -92,5 +95,12 @@ Start with the extension page to understand the functionality, then use the setu
 
 - [Advance Payments Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz): Learn about the Advance Payments Localization extension, including its features for managing advance invoices, payments, and VAT compliance.
 - [Set up advance payments in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments): Learn how to set up advance payments in the Czech version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10079 [main] features 640066 Add integration events for events for CZ Adv. Payment and CZ Cash Desk](../../../../../changes/bcapps/10079.md) (code change): "Integration events added for Czech advance payment and cash desk functionality"
+- [#9591 [Extensibility Request] issue 29875: add OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event](../../../../../changes/bcapps/9591.md) (code change): "A new OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event was added to the purchase advance letter document codeunit in the Czech localization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

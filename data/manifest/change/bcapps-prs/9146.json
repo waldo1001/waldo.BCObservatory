@@ -6,10 +6,35 @@
   "title": "[Shopify] Fix GraphQL rate limiter under-waiting after elapsed time",
   "url": "https://github.com/microsoft/BCApps/pull/9146",
   "published_at": "2026-07-07T14:34:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:18.974Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:24.362Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004314
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:24.536Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:24.541Z",
+      "path": "content/changes/bcapps/9146.md"
     }
   },
   "input_hash": "fceda6961213c0f291201a408a330fb281aa0be2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify fix graphql rate limiter under waiting after elapsed time"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7f34e75e96fae8a90ccdfb397df32e645faf88e6de6a5ad4de296988b88d2d7"
 }

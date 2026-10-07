@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,14 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10869
+    - change/bcapps/11682
+    - change/bcapps/9700
+    - change/bcquality/136
+    - change/bcquality/156
+    - change/bcquality/161
+    - change/bcquality/95
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -109,5 +117,17 @@ Start with the general best practices page for conventions, then read the rules 
 - [Best Practices for Deprecation of AL Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines): Description of best practices and guidelines for deprecating code in the Base App for Business Central.
 - [Prefix and suffix for naming in extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-prefix-suffix): Use a prefix or suffix for names in your extension. This rule applies to all objects, including tables, pages, and codeunits. This topic explains the benefits and guidelines for using a prefix or suffix."
 - [Rules and guidelines for AL code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-overview): Describing the steps you must go through to successfully submit your Dynamics 365 Business Central app to Marketplace.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../../../../changes/bcapps/10869.md) (code change): "Withholding tax test for payment posting was reformatted to fix indentation"
+- [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../../changes/bcapps/11682.md) (code change): "Replaced broad AA0073 suppression with compliant temporary-record variable names"
+- [#9700 Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer](../../../../../changes/bcapps/9700.md) (code change): "Change eliminates false positives with the AA0237 rule that flags non-temporary variables"
+- [#136 Add community knowledge: AL boolean operators do not short-circuit](../../../../../changes/bcquality/136.md) (code change): "AL boolean operators (and, or, xor) do not guarantee short-circuit evaluation"
+- [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../../changes/bcquality/156.md) (code change): "Each pattern includes bad and good code examples with frontmatter metadata and description"
+- [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "modal pages hold locks and must be called before write operations begin"
+- [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:55:33.552Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 7e49ef870e430c795f28b39e9c48d59536110ae4c8ae44aba08bc9525da26ba6
+  input_hash: c1f4e39f321d3513cd565d5433adb47daebba1df874a2927272442d37ef8ae83
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/
@@ -81,13 +81,23 @@ systems:
 versions_mentioned:
   - BC28
   - 2026 Release Wave 1
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:31.508Z"
 ---
 
 # Weekly Review: Business Central AL Development – June 7–13, 2026
 
-> A weekly roundup of Business Central AL development resources from June 7 - 13, 2026, covering agentic development patterns, AI assistant instructions for developers, AL performance optimization techniques, the new Item - ABC Analysis report in BC28, and a proof-of-concept RFID scanning system integrated via Power Automate.
-
 [Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/) · DvlprLife (Brad Prendergast) · 2026-06-15 · 840 words · tier community · **unreviewed** (machine-generated)
+
+> A weekly roundup of Business Central AL development resources from June 7 - 13, 2026, covering agentic development patterns, AI assistant instructions for developers, AL performance optimization techniques, the new Item - ABC Analysis report in BC28, and a proof-of-concept RFID scanning system integrated via Power Automate.
 
 ## Key points
 

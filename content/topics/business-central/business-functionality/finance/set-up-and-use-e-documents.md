@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,16 @@ links:
     - video/hL4PUhjyhNY
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10631
+    - change/bcapps/10799
+    - change/bcapps/11483
+    - change/bcapps/9477
+    - change/bcapps/9578
+    - change/bcapps/9646
+    - change/bcapps/9648
+    - change/bcapps/9749
+    - change/bcapps/9878
 learn_toc_path:
   - Business functionality
   - Finance
@@ -167,10 +177,19 @@ Day-to-day use is split into sales and purchase pages. Sales covers creating and
 - [Use e-documents in sales](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments): Learn how to use e-documents functionality that is related to sales.
 - [Use E-Documents in the purchase process](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase): Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "E-document import helpers and providers updated to support additional validation scenarios"
+- [#10799 Remove OnPrem scope from Table 1226 "Payment Export Data".SetSwissExport](../../../../changes/bcapps/10799.md) (code change): "Payment Export Data table is now callable from Cloud extensions"
+- [#11483 [E-Documents Core] - Linkage & Traceability](../../../../changes/bcapps/11483.md) (code change): "E-Documents module now provides linkage and traceability by adding lookup functions"
+- [#9477 [main]-Invalid SEPA export file format when SEPA Non-Euro Export enabled](../../../../changes/bcapps/9477.md) (code change): "SEPA credit transfer export format is corrected when SEPA Non-Euro Export is enabled"
+- [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
+- [#9646 [Bug]: [DE] XRechnung/ZUGFeRD — no posting-time error when SELLER CONTACT (BG-6) source data is incomplete, producing non-compliant e-invoices](../../../../changes/bcapps/9646.md) (code change): "E-Document posting now validates that seller contact information"
+- [#9648 [master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount](../../../../changes/bcapps/9648.md) (code change): "Fixed discrepancy between invoice printout and PEPPOL XML totals"
+- [#9749 OIOUBL fixes after schematron update](../../../../changes/bcapps/9749.md) (code change): "OIOUBL export now correctly handles discounts by reporting them with proper VAT categories"
+- [#9878 Add buyer order reference to ZUGFeRD export](../../../../changes/bcapps/9878.md) (code change): "ZUGFeRD export now includes the buyer order reference"
 - [What's new in E-Documents: Overview (2026 release wave 2)](../../../../videos/07G7aC14Y_w.md) (video): "edi; e-documents; purchase order; sales order; xml"
 - [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "e-documents; connectors; appsource; electronic invoicing; integration setup"
 - [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "e-documents; zugferd; pdf-a3; germany; invoicing; hybrid documents"

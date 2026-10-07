@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:59:38.589Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: e450d5c4612563484ebd366f6f67d9f23e2af61c2c9c58a3693ad09d61b750c8
+  input_hash: 543f9fdd4c9e2ddf0d47686c4951013bb133a74f9c6a35a9b8b99bd0a4c047f8
 evidence:
   - kind: blog
     url: https://thatnavguy.com/projects/symlynx/
@@ -64,13 +64,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/open-graph.jpg
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:38.423Z"
 ---
 
 # SymLynx
 
-> SymLynx is a VS Code extension that solves the problem of duplicating configuration files across multiple Business Central repositories by using symbolic links to point to a single master copy, eliminating file synchronization issues and config drift.
-
 [Read the post](https://thatnavguy.com/projects/symlynx/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-06 · 570 words · tier community · **unreviewed** (machine-generated)
+
+> SymLynx is a VS Code extension that solves the problem of duplicating configuration files across multiple Business Central repositories by using symbolic links to point to a single master copy, eliminating file synchronization issues and config drift.
 
 ## Key points
 

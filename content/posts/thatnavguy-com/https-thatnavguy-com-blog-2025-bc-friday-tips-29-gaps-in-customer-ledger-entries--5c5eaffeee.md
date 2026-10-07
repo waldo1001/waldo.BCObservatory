@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:28.758Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5ba771b7b6e28b2432e45ce226dc3520d0752f24f9a760d4a36e55ea00b3bdfa
+  input_hash: 40ddfa0300fbfbbc0fba158a2755b24c3245499645f5190f5e580ab5280a171b
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/
@@ -74,6 +74,16 @@ code_objects_mentioned:
 systems:
   - finance
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:41.238Z"
 ---
 
 # BC Friday Tips #29 Gaps in Customer Ledger Entries

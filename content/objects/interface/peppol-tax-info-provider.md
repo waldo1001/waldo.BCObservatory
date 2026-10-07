@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f3de5672f8bccab5f3dfc14c898e9f97d1e52dcd11cf659a366961e6a2a1af84
+  input_hash: 605e069b415ecb55351a06e79362e6999a81b75a3e6a5a28693af78f16c2a3ae
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11023
 object_type: interface
 object_id: null
 name: PEPPOL Tax Info Provider
@@ -90,6 +92,10 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at 1d24dd5e](https://github.com
 - `IsOutsideScopeVATCategory(TaxCategory: Code[10]): Boolean`: Checks if the given tax category represents outside the scope of VAT (O - Outside the scope of VAT).
 - `FinalizeTaxTotals(var VATAmtLine: Record "VAT Amount Line")`: Called once per document after all lines have been aggregated into the VAT amount line buffer, letting a format append synthetic VAT breakdown lines if needed. Needed to add, for example, compensation lines.
 - `GetTaxExemptionReason(VATAmtLine: Record "VAT Amount Line"; var VATProductPostingGroupCategory: Record "VAT Product Posting Group"; var TaxExemptionReasonTxt: Text; TaxCategoryID: Text)`: Gets the tax exemption reason text for a given VAT breakdown. Unlike the overload without the VAT amount line, this lets a format tell apart breakdowns that share the same tax category.
+
+## Recent changes
+
+- 2026-09-10 [#11023 BE's PEPPOL "escompte" compensation](../../changes/bcapps/11023.md) (main, BC30, feature)
 
 ## Across versions
 

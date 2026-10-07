@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:54.518Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -313,6 +313,8 @@ links:
   posts:
     - post/demiliani-com/12036
   guidelines: []
+  changes:
+    - change/bcapps/10205
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -367,10 +369,11 @@ Start with the Copilot developer tools if you are building generative AI feature
 - [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md) (6 pages)
 - [Designing and coding agents (preview)](integration-with-ai/designing-and-coding-agents-preview.md) (23 pages)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
 

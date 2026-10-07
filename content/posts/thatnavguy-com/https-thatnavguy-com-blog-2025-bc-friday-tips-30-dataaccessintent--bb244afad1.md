@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:28.654Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 3d4de1560aaaa672368fe9d67d86ef5ae9f165dfb81b3b01f50dedb702f4eda4
+  input_hash: 51cde34a7184115485045a3bfb96da880bace89e67fa512117137abb2fddb2e1
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/
@@ -82,6 +82,16 @@ systems:
   - reporting
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-30-dataaccessintent.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:40.157Z"
 ---
 
 # BC Friday Tips #30 DataAccessIntent

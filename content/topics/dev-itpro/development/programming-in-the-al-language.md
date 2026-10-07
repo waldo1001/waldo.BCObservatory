@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:57.248Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -327,6 +327,9 @@ links:
   posts:
     - post/aardvarklabs-blog/2838
   guidelines: []
+  changes:
+    - change/bcapps/11507
+    - change/bcapps/11609
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -444,10 +447,12 @@ Further subtopics cover cross-cutting concerns and integration: security, backgr
 
 - [Programming in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al): AL is the programming language used for manipulating data such as retrieving, inserting, and modifying records in a Business Central database. It controls the execution of the various application objects, such as pages, reports, or codeunits.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
+- [#11609 [Main]-Reduce redundant record restriction checks in item journal line](../../../changes/bcapps/11609.md) (code change): "Removes unnecessary record restriction checks from item journal line processing"
 - [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "Use Excel's sheet-specific tab reading to separate header and line data while maintaining relationships"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 

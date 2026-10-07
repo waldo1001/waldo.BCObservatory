@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:35:39.188Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5159e4e270fa8ea1751caed41055d1288ac814ff53649cb695f8c2c37fa23097
+  input_hash: ad8a6d17ea5c730dda224bf33515c75c8942db0aabf2083f15a915a18ae74407
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/
@@ -87,13 +87,23 @@ versions_mentioned:
   - 0.1.2
   - "28.4"
   - "28.2"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:05.572Z"
 ---
 
 # bcdb restore: Write a Cloud Export Into a Container
 
-> The bcdb restore tool writes cloud exports directly into a running Docker container without requiring matching schemas, intelligently handling mismatches by skipping missing tables and columns. It restored a production environment in 10 seconds and supports flexible identity table handling, company mapping, and dry-run preview modes.
-
 [Read the post](https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-10 · 1305 words · tier community · **unreviewed** (machine-generated)
+
+> The bcdb restore tool writes cloud exports directly into a running Docker container without requiring matching schemas, intelligently handling mismatches by skipping missing tables and columns. It restored a production environment in 10 seconds and supports flexible identity table handling, company mapping, and dry-run preview modes.
 
 ## Key points
 

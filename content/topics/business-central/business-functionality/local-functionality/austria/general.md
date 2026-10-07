@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:38.153Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10332
+    - change/bcapps/10866
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -93,6 +96,13 @@ This section holds two pages for the Austrian version of Business Central, both 
 
 - [Export data for auditing](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files): This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
 - [Print general ledger setup information [AT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information): Before you start using the Austrian version for your daily business tasks, you can run the G/L Setup Information report to display the master data that you set up.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10332 [Main]]No Employee posting group for AT when new employee is created](../../../../../changes/bcapps/10332.md) (code change): "Austrian localization issue where new employees created from templates lacked an employee posting group"
+- [#10866 [29.x]No Employee posting group for AT when new employee is created](../../../../../changes/bcapps/10866.md) (code change): "Austrian localization now assigns the EMPLEXP employee posting group when creating new employee templates"
 
 ## Business Central pages and reports
 

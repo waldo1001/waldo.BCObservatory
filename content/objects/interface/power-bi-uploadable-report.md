@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b85447f65fff0fd478ae636c6d9bbb36be12e2e0d03b254cbd8c705ef223100d
+  input_hash: 4fb41002ccf15d83cdc81c7c585465f9622fdce6bbab333438a97adced792c5a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadableReport.Interface.al
@@ -39,6 +39,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12242
+    - change/bcapps/10348
 object_type: interface
 object_id: null
 name: Power BI Uploadable Report
@@ -86,6 +89,11 @@ Base Application · System.Integration.PowerBI · BC28-30 · [source at 1d24dd5e
 - `FinalizeUpload(var UploadTracker: Interface "Power BI Upload Tracker"; Context: Text[50])`: Called after the report reaches DataRefreshed status. Perform any post-upload actions here (e.g. selecting the report for display in a context). The step runner transitions to Completed after this returns.
 - `GetDatasetParameters(): Dictionary of [Text, Text]`: Returns the Power BI dataset parameters (name → value) that this report expects to be updated after import.
 - `GetTargetWorkspaceId(): Guid`: Returns the ID of the Power BI workspace this report should be deployed to. An empty (null) GUID means the report is deployed to the user's "My Workspace".
+
+## Recent changes
+
+- 2026-10-05 [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../changes/bcapps/12242.md) (releases/29.x, BC29, feature)
+- 2026-09-10 [#10348 Adding a Power BI workspace to Company Information to be used when deploying reports](../../changes/bcapps/10348.md) (main, BC30, feature)
 
 ## Across versions
 

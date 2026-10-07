@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,14 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10680
+    - change/bcapps/11016
+    - change/bcapps/11171
+    - change/bcapps/12133
+    - change/bcapps/12194
+    - change/bcquality/100
+    - change/bcquality/149
 learn_toc_path:
   - Integration
   - Web services
@@ -134,5 +142,17 @@ Detailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts,
 - [Using Service to Service Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication): Service-to-service authentication enables external services to connect as an application, without impersonating normal users.
 - [Walkthrough: Creating a console application that use OAuth to Authenticate Business Central Web Services (OData and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth): Learn how to use OAuth to authenticate Business Central web services (OData and SOAP) through a step-by-step guide
 - [Web service security](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-security): Get the list of recommendations for how to secure web services in your Business Central solution.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10680 Maintenance update](../../../../changes/bcapps/10680.md) (code change): "Certificate validation enforcement added to Shopify authentication management"
+- [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../../changes/bcapps/11016.md) (code change): "enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2"
+- [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated against their expected host"
+- [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
+- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials"
+- [#100 Add P0 integration and control add-in runtime guidance](../../../../changes/bcquality/100.md) (code change): "Extended web-services and UI reviewer detection capabilities"
+- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "API enum fields are published: under schema 2.0 by member name"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

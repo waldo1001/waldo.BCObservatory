@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:44:07.617Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ebe2a41b96b5c9e0ca5ecb7eda162e7d485ecd6a45d392703491ead82a34002a
+  input_hash: 94775d57e101f97ebb19739ab92f7914d8934ed8937c9ae0a0cafc590e1809be
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal/
@@ -58,13 +58,23 @@ systems:
   - development
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:19.875Z"
 ---
 
 # Accessing Fkh containers using a terminal
 
-> Fkh provides secure, just-in-time terminal access to Business Central containers running in Kubernetes clusters through three methods: kubectl with PowerShell, WinRM access via CLI, or WinRM access via VS Code. Each approach prioritizes security by avoiding public exposure and standing credentials.
-
 [Read the post](https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal/) · Freddys blog (Freddy Kristiansen) · 2026-08-06 · 1261 words · tier community · **unreviewed** (machine-generated)
+
+> Fkh provides secure, just-in-time terminal access to Business Central containers running in Kubernetes clusters through three methods: kubectl with PowerShell, WinRM access via CLI, or WinRM access via VS Code. Each approach prioritizes security by avoiding public exposure and standing credentials.
 
 ## Key points
 

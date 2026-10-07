@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:48.706Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 55d3ea6ce11ac1c13a44b8b626b67d2cb33d175daa13f783981dee7a151078ae
+  input_hash: e2ef90c568c8f8a83fbfbcd09c55de382d1bfdddcb73115f99dc50066aa2eb6d
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/
@@ -65,13 +65,23 @@ systems:
   - reporting
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/08/business-central-trivia-recap-august-17-21-2026-social.jpg
+  image_alt: "Business Central Trivia Recap: August 17–21, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:11.687Z"
 ---
 
 # Business Central Trivia Recap: August 17–21, 2026
 
-> This recap covers a five-day Business Central Trivia event in August 2026 with 250 questions, 2,963 answers, and 67 percent accuracy. It highlights game statistics, the most and least difficult categories, and new features added including sounds, streaks tracking, medals, leaderboard enhancements, and improved mobile experience.
-
 [Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/) · DvlprLife (Brad Prendergast) · 2026-08-22 · 610 words · tier community · **unreviewed** (machine-generated)
+
+> This recap covers a five-day Business Central Trivia event in August 2026 with 250 questions, 2,963 answers, and 67 percent accuracy. It highlights game statistics, the most and least difficult categories, and new features added including sounds, streaks tracking, medals, leaderboard enhancements, and improved mobile experience.
 
 ## Key points
 

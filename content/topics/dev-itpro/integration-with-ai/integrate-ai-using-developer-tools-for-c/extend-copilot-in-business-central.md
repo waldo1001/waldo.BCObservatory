@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,6 +143,8 @@ links:
     - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/2759
   guidelines: []
+  changes:
+    - change/bcapps/11375
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -196,10 +198,11 @@ Start with the introduction, then build the capability, then design the dialog, 
 - [Build the Copilot capability in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al): Integrate with Azure OpenAI Service through the AI module of Business Central.
 - [Introduction to developing generative AI experiences for your extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience-overview): Learn essential tasks for building Copilot extensions in Business Central. Discover key components like prompt dialog pages and Azure OpenAI integration.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments](../../../../changes/bcapps/11375.md) (code change): "Sales Order Agent attachment extraction and item search callers migrated"
 - [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "Create a new Copilot codeunit that accepts customer data as parameters"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "automatically upgrade raw service technician notes into professional, customer-facing text for invoices"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"

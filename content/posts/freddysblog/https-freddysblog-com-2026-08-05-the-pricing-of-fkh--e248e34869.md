@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:44:10.470Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4ffdda0047b609e2df23344e6621a20409c2416b387d2816f7561a1520cc1940
+  input_hash: fbaabda51c14a71970093b1024c18dc4519ec8bf716a536b408e9787a15782b0
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/08/05/the-pricing-of-fkh/
@@ -67,13 +67,23 @@ systems:
   - development
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-10-07T11:50:21.283Z"
 ---
 
 # The price of running Fkh (Freddy’s Kubernetes Helper)
 
-> Fkh is a Kubernetes-based development container platform deployed in your own Azure subscription. The post breaks down all cost components, shows how expenses scale with concurrent containers, and demonstrates that typical scenarios cost $42-$192 per month per container when properly optimized for working hours.
-
 [Read the post](https://freddysblog.com/2026/08/05/the-pricing-of-fkh/) · Freddys blog (Freddy Kristiansen) · 2026-08-05 · 3766 words · tier community · **unreviewed** (machine-generated)
+
+> Fkh is a Kubernetes-based development container platform deployed in your own Azure subscription. The post breaks down all cost components, shows how expenses scale with concurrent containers, and demonstrates that typical scenarios cost $42-$192 per month per container when properly optimized for working hours.
 
 ## Key points
 

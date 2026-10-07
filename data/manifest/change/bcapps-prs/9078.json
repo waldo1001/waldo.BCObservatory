@@ -6,10 +6,35 @@
   "title": "Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin",
   "url": "https://github.com/microsoft/BCApps/pull/9078",
   "published_at": "2026-07-07T14:35:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:21:15.214Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:21:20.376Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0035
+    },
+    "linked": {
+      "at": "2026-10-07T13:21:20.564Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:21:20.570Z",
+      "path": "content/changes/bcapps/9078.md"
     }
   },
   "input_hash": "1711fffec9a3601fcfc36119d37afb5bfbdc795f:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 624364 intrastat de groups detail lines by country region of origin"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4a59a66ba3c21089e2d76a447838cc1185d3e7f9939241d1675a5423df0d932"
 }

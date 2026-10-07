@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:01.979Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9199
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -136,5 +138,11 @@ Start with the Overview, then read the two configuration pages in order. Use the
 - [Tax Engine - Tax Configuration 01](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration): Provides details on configuring tax types, tax entities, input parameters, components, and rate setup in the Tax Engine for India localization in Business Central.
 - [Tax Engine - Tax Configuration 02](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration): Provides details about configuring tax use cases in the Tax Engine for India localization in Business Central.
 - [Tax Engine Overview](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-001-Overview): Provides an overview of the Tax Engine, its components, and configuration options for managing tax rules and calculations in Business Central for India.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9199 [Main]-Incident 21000001049308 : [BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly](../../../../../changes/bcapps/9199.md) (code change): "purchase invoice with Non-availment GST can now be posted when a default deferral template is configured"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

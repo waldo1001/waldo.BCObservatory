@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:18.859Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10979
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -164,5 +166,11 @@ Start with Actions overview and Adding actions to a page. Then read Promoted act
 - [Pages with Action Bar Improvements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-pages-action-bar-improvements): Overview of pages in Dynamics 365 Business Central that contain the action bar improvements
 - [Promoted actions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions): Promoted actions are configured to display on the Home tab for accessing quick daily actions in Dynamics 365 Business Central.
 - [Prompting using a floating action bar](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar): Learn how to create prompt actions to promote AI capabilities in Business Central
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10979 [Master] Promote Excise Taxes action on Item card](../../../../../changes/bcapps/10979.md) (code change): "Excise Taxes action is now more prominent on the Item Card"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

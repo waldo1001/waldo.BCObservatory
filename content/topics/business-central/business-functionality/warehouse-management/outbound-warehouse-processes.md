@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,15 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10127
+    - change/bcapps/10277
+    - change/bcapps/10795
+    - change/bcapps/11511
+    - change/bcapps/9297
+    - change/bcapps/9333
+    - change/bcapps/9451
+    - change/bcapps/9532
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -149,6 +158,19 @@ Start with the outbound process overview to choose a method. Then go to the page
 - [Pick items for warehouse shipment](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment): Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
 - [Picking and Shipping in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing): This article describes various levels of complexity in picking and shipping processes.
 - [Ship items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items): This article describes how to ship items from your warehouse.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10127 [Extensibility Request] issue 30379: enable grouped pick printing](../../../../changes/bcapps/10127.md) (code change): "Report 5754 now exposes pick headers before printing through an event"
+- [#10277 Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers](../../../../changes/bcapps/10277.md) (code change): "Inventory put-away and pick functionality is now supported for subcontracting"
+- [#10795 [master] Discrepancy in inventory picks when the quantity exceeds the available inventory.](../../../../changes/bcapps/10795.md) (code change): "Fixed a calculation error in inventory pick creation that was incorrectly dropping shortage lines"
+- [#11511 [29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../../changes/bcapps/11511.md) (code change): "posting an inventory pick for a non-ATO sales line could fail when an unrelated ATO line"
+- [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"
+- [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
+- [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "The OnBeforeCreateWhseActivHeader event in the Create Pick codeunit now includes"
+- [#9532 [Master]Error when creating a Pick "Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking."](../../../../changes/bcapps/9532.md) (code change): "Fixes warehouse pick creation by checking all ship-type bins for picked-not-shipped quantities"
 
 ## Business Central pages and reports
 

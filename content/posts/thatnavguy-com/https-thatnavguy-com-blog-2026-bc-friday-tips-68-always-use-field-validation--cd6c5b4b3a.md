@@ -19,11 +19,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T22:00:42.250Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ae0c57e284c2bd505403ce4a8e0f2e44283ecdbda65ad3e894522e8dba83dbdb
+  input_hash: 8f05cc9d6be5f693367698e69b0b4875d928742c07af430dba123d94753e7955
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/
@@ -83,13 +83,23 @@ systems:
   - integration
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-68-always-use-field-validation.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:42.941Z"
 ---
 
 # BC Friday Tips #68 Always Use Field Validation
 
-> Field validation in Business Central extensions ensures all business logic runs and prevents data corruption when other apps subscribe to validation events. Bypassing validation can create hidden bugs by skipping trigger logic even when fields appear correct.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-03 · 124 words · tier community · **unreviewed** (machine-generated)
+
+> Field validation in Business Central extensions ensures all business logic runs and prevents data corruption when other apps subscribe to validation events. Bypassing validation can create hidden bugs by skipping trigger logic even when fields appear correct.
 
 ## Key points
 

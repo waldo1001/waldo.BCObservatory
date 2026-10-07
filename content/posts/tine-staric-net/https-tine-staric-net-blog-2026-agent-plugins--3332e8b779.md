@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:54:16.732Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 44d92e8dfe950e5cac07370f68f33f9a7e63c6bac44eddb029bfe7e73359e3f4
+  input_hash: 5c32a1b729da319e0e95440f9a92007549a89a9e271f176739ab4598d97439dc
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/agent-plugins/
@@ -67,13 +67,23 @@ systems:
   - development
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://tine.staric.net/images/agentplugins/main.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-07T11:50:15.520Z"
 ---
 
 # Distributing Agents with Plugins
 
-> Distribution of custom agents to teams is accomplished through plugins, which package agents, skills, and MCP configurations in a shared repository that team members can install with one click in GitHub Copilot or Claude Code. The post explains how to set up marketplace and plugin manifests to enable seamless sharing across ecosystems without manual file copying.
-
 [Read the post](https://tine.staric.net/blog/2026/agent-plugins/) · Tech Adventures in Business Central (Tine Staric) · 2026-07-03 · 1523 words · tier community · **unreviewed** (machine-generated)
+
+> Distribution of custom agents to teams is accomplished through plugins, which package agents, skills, and MCP configurations in a shared repository that team members can install with one click in GitHub Copilot or Claude Code. The post explains how to set up marketplace and plugin manifests to enable seamless sharing across ecosystems without manual file copying.
 
 ## Key points
 

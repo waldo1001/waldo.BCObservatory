@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 37f90dc7d148c4c8703199437a1ab36b1c3a6e3548fdb739c715bcf119531047
+  input_hash: 76792241ae2097983a9a9f1f3c7aef954d9c15c847307cc834173c2f34474fcd
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/7546
 object_type: pagecustomization
 object_id: null
 name: PA EDoc Purchase Draft Subform
@@ -73,6 +75,10 @@ relations:
 > Page customization "PA EDoc Purchase Draft Subform" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraftSubform.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-18 [#7546 [Payables Agent] Agent-driven line matching](../../changes/bcapps/7546.md) (main, BC30, feature)
 
 ## Across versions
 

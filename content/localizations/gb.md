@@ -2,7 +2,7 @@
 id: localization/gb
 type: localization
 title: UnitedKingdom (GB)
-summary: United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns and fraud prevention headers, EC Sales List and reverse charge VAT, VAT audit reports, UK-layout sales and purchase documents, APACS check printing, BACS tables, Ideal Postcodes address lookup, and UK fixed asset depreciation periods.
+summary: United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and 13-period straight-line depreciation.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 0e89cb664f5a13be37200e0a46dff0ea896c5bfb1190a2c05202b76d0dfba31a
+  input_hash: d59412e8a7b3368a4d3bd1bf7982106dd957b5ca96dd3bfcdc5c2df70d2b81a2
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -104,28 +104,27 @@ learn_folder: LocalFunctionality/UnitedKingdom
 
 # UnitedKingdom (GB)
 
-> United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns and fraud prevention headers, EC Sales List and reverse charge VAT, VAT audit reports, UK-layout sales and purchase documents, APACS check printing, BACS tables, Ideal Postcodes address lookup, and UK fixed asset depreciation periods.
+> United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and 13-period straight-line depreciation.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-kingdom.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The UK layer centres on VAT. It adds GovTalk and MTD objects (codeunits 10520 to 10528, tables 10520 to 10538, page 10523 "GovTalk Setup") for HMRC communication, submission and archiving of VAT returns. It also extends the W1 EC Sales List report 130, ECSL VAT Report Line table 362 and VAT Report Archive table 747 with XML submission handling and events. Reverse charge VAT is supported through fields on items, sales and purchase lines, posted lines and the setup tables, plus the "Reverse Charge Sales List" report. VAT Audit and VAT Entry Exception reports export CSV data.
+The UK layer adds 317 objects: 263 of its own and the rest changing W1 objects. The largest block is VAT reporting. Making Tax Digital (MTD) objects (codeunits 10530 to 10541, liability, payment and return tables, a fraud prevention header control add-in) handle HMRC connection, OAuth 2.0, period retrieval, return creation and submission, liabilities and payments. The older GovTalk codeunits and EC Sales List objects handle XML submission. Report 130 "EC Sales List" and table 747 "VAT Report Archive" gain procedures, fields and events for this.
 
-Other local pieces are statutory fields on Company Information (supplementary VAT registration number, registered name and address, branch number), Intrastat and Brexit-related fields (shipment method code on ledger and journal lines, reported flags on Intrastat batches), and an "Invoice Receipt Date" on purchase documents and journals. Ideal Postcodes lookup adds the same three procedures (ShowPostcodeLookup, CopyAutocompleteFields, HandleAddressLookupVisibility) to customer, vendor, contact, employee, location and company pages. UK-layout sales and purchase document reports, a check preview page for APACS, and BACS ledger and register tables round out the layer.
+Reverse charge VAT is supported by fields on items, item templates, sales and purchase lines, posted lines and the setup tables, plus checks in Sales-Post. Company Information gets statutory fields such as registered name and address and a supplementary VAT registration number. Address lookup is provided by two postcode providers (GetAddress.io and Ideal Postcodes, "IPC") with page extensions on many cards.
 
-Learn documents these under "United Kingdom local functionality [GB]", with separate pages on Making Tax Digital, fraud prevention data, reverse charges, VAT audit reports, check printing, remittance advice, postcode lookup, posting date warning, Brexit impact and straight-line depreciation.
+Learn documents these under the United Kingdom local functionality page, with separate pages for Making Tax Digital, fraud prevention data, reverse charges, VAT audit reports, APACS checks, remittance advice, posting date warning, statutory information, Ideal Postcodes and straight-line depreciation.
 
 ## Key points
 
-- Making Tax Digital: retrieve VAT obligations, suggest lines, release and submit VAT returns, and get liabilities and payments through HMRC, with MTD tables and GovTalk codeunits.
-- Fraud prevention headers must be sent to HMRC; admins consent to sending device and user identification data.
-- Reverse charge VAT uses Reverse Charge Applies on items, Reverse Charge fields on lines, setup fields for the posting group, and the Reverse Charge Sales List report.
-- VAT Audit and VAT Entry Exception reports export customers, vendors, VAT entries and more in CSV format.
-- Ideal Postcodes extension fills address fields on customer, vendor, bank account, contact, employee, location and company pages after API key setup.
-- Check printing follows the APACS layout with a Check Preview GB page; remittance advice shows vendor invoice numbers.
-- Fixed asset straight-line depreciation supports up to 13 accounting periods and 360, 365 or 366 day methods.
-- Company Information holds statutory fields such as registered name, registered address and supplementary VAT registration number.
+- Making Tax Digital for VAT: retrieve obligations, create, release and submit returns, get liabilities and payments, with HMRC OAuth 2.0 setup.
+- Fraud prevention headers for MTD, with tables for default, session and missing headers and a web client control add-in.
+- Reverse charge VAT: Reverse Charge Applies on Item, Reverse Charge fields on sales and purchase lines, and setup fields for the posting group and domestic customers or vendors.
+- Statutory data on Company Information: registered name and address, supplementary VAT registration, branch number and contact name.
+- Postcode lookup through GetAddress.io and Ideal Postcodes providers, wired into customer, vendor, contact, employee, location and bank account cards.
+- UK-specific reports: GB layouts for sales, purchase and reminder documents, VAT audit CSV export, check preview for APACS, FA projected value.
+- BACS ledger entry and register tables, a posting date check, and Intrastat GB export management.
 
 Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedKingdom (GB) localization of Business Central in BC29: 263 objects of its own, 54 W1 objects changed (49 fields and 12 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -141,111 +140,121 @@ Narrative written by Sonnet from the code diff and 15 Learn page summaries. In n
 | [Inventory](#inventory) | 8 | 3 | 7 |
 | [Bank](#bank) | 2 | 4 | 1 |
 | [FixedAssets](#fixedassets) | 2 | 1 | 0 |
-| SalesPurch | 0 | 3 | 0 |
+| [SalesPurch](#salespurch) | 0 | 3 | 0 |
 | [CashFlow](#cashflow) | 1 | 1 | 0 |
 | [CRM](#crm) | 2 | 0 | 0 |
 | [FixedAsset](#fixedasset) | 0 | 2 | 0 |
 | [Security](#security) | 2 | 0 | 0 |
-| ExpenseAgent | 0 | 1 | 0 |
+| [ExpenseAgent](#expenseagent) | 0 | 1 | 0 |
 | [HumanResources](#humanresources) | 1 | 0 | 0 |
 | [Projects](#projects) | 1 | 0 | 1 |
 | [RoleCenters](#rolecenters) | 1 | 0 | 0 |
 | [Utilities](#utilities) | 0 | 1 | 0 |
-| VATReporting | 0 | 1 | 0 |
+| [VATReporting](#vatreporting) | 0 | 1 | 0 |
 
 ### Finance
 
-Adds the GovTalk and Making Tax Digital framework (setup, message, MTD liability, payment and return tables, submission codeunits) and extends the VAT report objects. It changes EC Sales List (report 130) with XML creation, adds reverse charge fields, and adds VAT Audit, VAT Entry Exception and Reverse Charge Sales List reports.
+Holds the VAT submission logic: GovTalk codeunits for HMRC messaging, EC Sales List XML creation and submission, reverse charge VAT codeunits, VAT Audit GB and the Reports GB subscribers. It extends the EC Sales List report, VAT Report Archive and ECSL VAT Report Line with XML procedures, fields and events.
 
-Why: Learn explains that MTD requires VAT returns and fraud prevention headers to be exchanged with HMRC, and that VAT audit reports export data as CSV.
+Why: Learn describes VAT audit CSV exports and reverse charge VAT to prevent carousel fraud on certain goods.
 
-Objects: [codeunit/10522 "Submit VAT Declaration Request"](../objects/codeunit/10522-gb.md) (own), [codeunit/10524 "Create VAT Declaration Request"](../objects/codeunit/10524-gb.md) (own), [table/10523 "GovTalk Setup"](../objects/table/10523-gb.md) (own), [table/10533 "MTD-Liability"](../objects/table/10533-gb.md) (own), [report/130 "EC Sales List"](../objects/report/130.md), [table/747 "VAT Report Archive"](../objects/table/747.md), [report/10512 "VAT Audit"](../objects/report/10512-gb.md) (own), [report/10529 "Reverse Charge Sales List"](../objects/report/10529-gb.md) (own).
+Objects: [report/130 "EC Sales List"](../objects/report/130.md), [table/747 "VAT Report Archive"](../objects/table/747.md), [table/362 "ECSL VAT Report Line"](../objects/table/362.md), [codeunit/10519 "EC Sales List Submit GB"](../objects/codeunit/10519-gb.md) (own), [codeunit/10525 "EC Sales List XML"](../objects/codeunit/10525-gb.md) (own), [codeunit/10544 "VAT Audit GB"](../objects/codeunit/10544-gb.md) (own), [codeunit/10549 "Reverse Charge VAT GB"](../objects/codeunit/10549-gb.md) (own), [codeunit/10568 "GovTalk"](../objects/codeunit/10568-gb.md) (own).
 
 [All 138 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Foundation
 
-Adds statutory fields to Company Information (supplementary VAT registration, registered name and address, branch number, contact name) and an Ideal Postcodes lookup with business logic, search, configuration and service pages.
+Adds UK postcode address lookup with GetAddress.io and Ideal Postcodes (IPC) providers, configuration and search pages, and page extensions on many cards. Company Information gets registered name and address and other statutory fields.
 
-Why: Learn says the statutory information is required by law and the postcode extension uses the Ideal Postcodes API.
+Why: Learn says statutory information must be entered on Company Information, and the Ideal Postcodes extension fills address fields from a postcode.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [page/1 "Company Information"](../objects/page/1.md), [codeunit/10500 "Postcode Business Logic"](../objects/codeunit/10500-gb.md) (own), [page/10500 "Postcode Search"](../objects/page/10500-gb.md) (own), [page/10501 "Postcode Configuration Page"](../objects/page/10501-gb.md) (own), [page/10502 "Postcode Service Lookup"](../objects/page/10502-gb.md) (own), [table/10501 "Postcode Notification Memory"](../objects/table/10501-gb.md) (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [page/1 "Company Information"](../objects/page/1.md), [codeunit/10500 "Postcode Business Logic"](../objects/codeunit/10500-gb.md) (own), [codeunit/9092 "Postcode Service GetAddress.io"](../objects/codeunit/9092-gb.md) (own), [codeunit/9400 "IPC Management"](../objects/codeunit/9400-gb.md) (own), [page/10500 "Postcode Search"](../objects/page/10500-gb.md) (own), [page/9400 "IPC Config"](../objects/page/9400-gb.md) (own), [pageextension/9403 "IPC Company Information"](../objects/pageextension/9403-gb.md) (own).
 
 [All 57 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### (no namespace)
 
-Adds the EC Sales List submit codeunit for the UK ECSL flow.
+Contains the Making Tax Digital implementation: connection, OAuth 2.0, period retrieval, return content, validation and submission, plus liabilities, payments and return details tables and pages. It also includes fraud prevention header handling and a web client control add-in.
 
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+Why: Learn explains that MTD for VAT requires an HMRC connection and fraud prevention headers with user consent.
 
-Objects: [codeunit/142 "EC Sales List Submit"](../objects/codeunit/142-gb.md) (own).
+Objects: [codeunit/10530 "MTD Mgt."](../objects/codeunit/10530-gb.md) (own), [codeunit/10531 "MTD Create Return Content"](../objects/codeunit/10531-gb.md) (own), [codeunit/10532 "MTD Submit Return"](../objects/codeunit/10532-gb.md) (own), [codeunit/10537 "MTD Connection"](../objects/codeunit/10537-gb.md) (own), [codeunit/10538 "MTD OAuth 2.0 Mgt"](../objects/codeunit/10538-gb.md) (own), [codeunit/10541 "MTD Fraud Prevention Mgt."](../objects/codeunit/10541-gb.md) (own), [controladdin/mtd web client fp headers "MTD Web Client FP Headers"](../objects/controladdin/mtd-web-client-fp-headers-gb.md) (own), [table/10530 "MTD Liability"](../objects/table/10530-gb.md) (own).
 
 [All 40 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Sales
 
-Adds reverse charge fields on sales lines and posted lines, setup fields in Sales & Receivables Setup, and a reverse charge check in Sales-Post. Adds UK-layout quote, order confirmation, invoice, credit memo and blanket order reports, plus a finance charge interest rate table.
+Adds reverse charge fields to sales lines, posted lines and Sales & Receivables Setup, with a Sales-Post check. Provides GB layouts for quote, order confirmation, invoice, credit memo and blanket order, plus a finance charge interest rate table.
 
-Why: Learn describes reverse charge VAT as a measure against carousel fraud on certain electronic goods.
+Why: Reverse charge applies to specified goods, as described in the Learn reverse charge page.
 
-Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [report/10572 "Sales - Invoice GB"](../objects/report/10572-gb.md) (own), [report/10573 "Sales - Credit Memo GB"](../objects/report/10573-gb.md) (own), [report/10570 "Sales - Quote GB"](../objects/report/10570-gb.md) (own), [report/10571 "Order Confirmation GB"](../objects/report/10571-gb.md) (own), [table/10555 "Fin. Charge Interest Rate"](../objects/table/10555-gb.md) (own).
+Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [report/10572 "Sales - Invoice GB"](../objects/report/10572-gb.md) (own), [report/10573 "Sales - Credit Memo GB"](../objects/report/10573-gb.md) (own), [report/10571 "Order Confirmation GB"](../objects/report/10571-gb.md) (own), [report/10570 "Sales - Quote GB"](../objects/report/10570-gb.md) (own), [table/10555 "Fin. Charge Interest Rate"](../objects/table/10555-gb.md) (own).
 
 [All 25 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Purchases
 
-Adds reverse charge fields on purchase lines and setup, an Invoice Receipt Date on purchase headers and vendor ledger entries, and an exclusion flag for payment practice reporting on vendors. Adds UK-layout purchase order, invoice, credit memo and blanket order reports and postcode lookup on the vendor card.
+Adds reverse charge fields on purchase lines and posted purchase lines, domestic vendor warnings, and setup fields. Vendor and Vendor Templ. get an Exclude from Pmt. Pract. Rep. field, and purchase headers get Invoice Receipt Date. Provides GB purchase document reports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/23 "Vendor"](../objects/table/23.md), [report/10577 "Purchase - Invoice GB"](../objects/report/10577-gb.md) (own), [report/10576 "Order GB"](../objects/report/10576-gb.md) (own), [page/26 "Vendor Card"](../objects/page/26.md).
+Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/23 "Vendor"](../objects/table/23.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [report/10577 "Purchase - Invoice GB"](../objects/report/10577-gb.md) (own), [report/10576 "Order GB"](../objects/report/10576-gb.md) (own), [table/288 "Vendor Bank Account"](../objects/table/288.md).
 
 [All 20 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Inventory
 
-Adds Reverse Charge Applies to items and item templates, Shipment Method Code to item ledger and journal lines, Freight/Insurance to item charges, and reported flags to Intrastat batches. Location Card gets postcode lookup.
+Adds Reverse Charge Applies to Item and Item Templ., Shipment Method Code on item ledger and journal lines, and Freight/Insurance on Item Charge. Intrastat GB codeunits manage export and the batch gets arrivals and dispatches reported flags.
 
-Why: Learn links the Reverse Charge Applies field to reverse charge setup and notes Intrastat and location code relevance after Brexit.
+Why: Learn's Brexit page covers Intrastat reporting and location handling for UK trade.
 
-Objects: [table/27 "Item"](../objects/table/27.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/5800 "Item Charge"](../objects/table/5800.md), [page/5703 "Location Card"](../objects/page/5703.md).
+Objects: [table/27 "Item"](../objects/table/27.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [codeunit/10501 "Intrastat Report Management GB"](../objects/codeunit/10501-gb.md) (own), [codeunit/10502 "Intrastat Report Exp. Ext. GB"](../objects/codeunit/10502-gb.md) (own), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/5800 "Item Charge"](../objects/table/5800.md), [table/83 "Item Journal Line"](../objects/table/83.md).
 
 [All 11 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Bank
 
-Adds BACS ledger entry and register tables, a Check Preview GB page, a Reconciled field on bank reconciliation lines, and an employee balancing type procedure in the Check report.
+Adds BACS ledger entry and register tables, a Check Preview GB page, and an employee balancing type procedure in the Check report. Bank Acc. Reconciliation Line gets a Reconciled field.
 
-Why: Learn states that check printing uses the APACS specification layout.
+Why: Learn documents check printing to the APACS specification from payment journals.
 
-Objects: [page/10510 "Check Preview GB"](../objects/page/10510-gb.md) (own), [report/1401 "Check"](../objects/report/1401.md), [table/10550 "BACS Ledger Entry"](../objects/table/10550-gb.md) (own), [table/10551 "BACS Register"](../objects/table/10551-gb.md) (own), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md).
+Objects: [page/10510 "Check Preview GB"](../objects/page/10510-gb.md) (own), [report/1401 "Check"](../objects/report/1401.md), [table/10550 "BACS Ledger Entry"](../objects/table/10550-gb.md) (own), [table/10551 "BACS Register"](../objects/table/10551-gb.md) (own), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md), [reportextension/10582 "Bank Account - List"](../objects/reportextension/10582-gb.md) (own).
 
 [All 6 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### FixedAssets
 
-Depreciation Calculation and FA Depreciation Book are changed to support UK straight-line depreciation across accounting periods.
+Changes depreciation calculation and FA Depreciation Book to support UK straight-line depreciation across accounting periods, and extends the projected value report.
 
-Why: Learn describes up to 13 accounting periods and 360, 365 or 366 day methods.
+Why: Learn describes up to 13 accounting periods with 360, 365 or 366 day methods.
 
-Objects: [codeunit/5616 "Depreciation Calculation"](../objects/codeunit/5616.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
+Objects: [codeunit/5616 "Depreciation Calculation"](../objects/codeunit/5616.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [reportextension/10583 "Fixed Asset - Projected Value"](../objects/reportextension/10583-gb.md) (own).
 
 [All 3 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
+### SalesPurch
+
+Adds the Posting Date Check codeunit and setup fields on Sales & Receivables Setup and Purchases & Payables Setup.
+
+Why: Learn describes a warning when the posting date differs from the work date.
+
+Objects: [codeunit/10504 "Posting Date Check"](../objects/codeunit/10504-gb.md) (own), [tableextension/10511 "Sales & Receivables Setup"](../objects/tableextension/10511-gb.md) (own), [tableextension/10510 "Purchases & Payables Setup"](../objects/tableextension/10510-gb.md) (own).
+
+[All 3 objects of SalesPurch in the diff](?ns=SalesPurch#country-diff)
+
 ### CashFlow
 
-Cash Flow Dimensions - Detail report is changed for the UK.
+Provides a report extension and a change to the Cash Flow Dimensions - Detail report.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [report/852 "Cash Flow Dimensions - Detail"](../objects/report/852.md).
+Objects: [report/852 "Cash Flow Dimensions - Detail"](../objects/report/852.md), [reportextension/10589 "Cash Flow Dimensions - Detail"](../objects/reportextension/10589-gb.md) (own).
 
 [All 2 objects of CashFlow in the diff](?ns=CashFlow#country-diff)
 
 ### CRM
 
-Contact Card and Contact Alternative Address Card get postcode lookup procedures.
+Contact Card and Contact Alt. Address Card get postcode lookup procedures.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -255,17 +264,17 @@ Objects: [page/5050 "Contact Card"](../objects/page/5050.md), [page/5056 "Contac
 
 ### FixedAsset
 
-Adds the FA - Projected Value report.
+Adds FA - Projected Value reports, including a GB layout version.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [report/10560 "FA - Projected Value"](../objects/report/10560-gb.md) (own).
+Objects: [report/10560 "FA - Projected Value"](../objects/report/10560-gb.md) (own), [report/10605 "FA - Projected Value GB"](../objects/report/10605-gb.md) (own).
 
 [All 2 objects of FixedAsset in the diff](?ns=FixedAsset#country-diff)
 
 ### Security
 
-The LOCAL and LOCAL READ permission sets are changed to cover the UK objects.
+Changes the LOCAL and LOCAL READ permission sets.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -273,11 +282,21 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 [All 2 objects of Security in the diff](?ns=Security#country-diff)
 
+### ExpenseAgent
+
+Adds an Expense Event Subscriber GB codeunit.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/6921 "Expense Event Subscriber GB"](../objects/codeunit/6921-gb.md) (own).
+
+[All 1 objects of ExpenseAgent in the diff](?ns=ExpenseAgent#country-diff)
+
 ### HumanResources
 
 Employee Card gets postcode lookup procedures.
 
-Why: Learn lists employees among the records that Ideal Postcodes can fill.
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
 Objects: [page/5200 "Employee Card"](../objects/page/5200.md).
 
@@ -305,13 +324,23 @@ Objects: [codeunit/1485 "Rolecenter Selector Mgt."](../objects/codeunit/1485.md)
 
 ### Utilities
 
-Adds Local Application Management, a UK-specific utility codeunit.
+Adds the Local Application Management codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
 Objects: [codeunit/10529 "Local Application Management"](../objects/codeunit/10529-gb.md) (own).
 
 [All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
+
+### VATReporting
+
+Extends the VAT Statement page for the UK.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [pageextension/10548 "VAT Statement"](../objects/pageextension/10548-gb.md) (own).
+
+[All 1 objects of VATReporting in the diff](?ns=VATReporting#country-diff)
 
 ## W1 objects this country changes
 

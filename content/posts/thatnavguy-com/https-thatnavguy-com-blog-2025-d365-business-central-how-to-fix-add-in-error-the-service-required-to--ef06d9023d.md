@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:31:18.797Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: fc223084cfec0615e735f2264d07e34e2efc701edbb88d0ac9294ebdf203c976
+  input_hash: c6917df594ea8ab59e2c9b366a5fb81b9ac2e3db112ddee4d6f69254af4f9929
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/
@@ -63,6 +63,16 @@ systems:
   - integration
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:10.489Z"
 ---
 
 # D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.

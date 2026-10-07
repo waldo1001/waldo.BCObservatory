@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:22:48.144Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 47bbf94f387c12a893ac3f65d8cac79772151721089d73bc895dd185b32d8853
+  input_hash: b0b8c2cbf1a9f8fcf42dc1d6c3ec3a4da8bd739ad81320304cb1fa154750a108
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/
@@ -80,6 +80,16 @@ systems:
   - platform
 versions_mentioned:
   - BC v18+
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:45.409Z"
 ---
 
 # AL Development with Claude Code: A Multi-Agent Workflow

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8587",
+  "number": 8587,
+  "title": "[Shopify] Make codeunit 30272 \"Shpfy Update Price Source\" public",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Codeunit 30272 \"Shpfy Update Price Source\" is now public, allowing partners to reference it for custom Shopify price calculation logic through explicit bind/unbind subscriptions.",
+  "key_points": [
+    "Partners can now use BindSubscription on this codeunit to apply their custom pricing logic",
+    "The codeunit only reads non-sensitive Shop configuration data",
+    "Making it public does not auto-activate subscriptions; partners must explicitly bind them",
+    "Internal getters on the pricing calculator remain restricted",
+    "Enables customization of Shopify connector price calculations through the existing event subscriber pattern"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003737,
+    "changes_in_call": 1
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:19.698Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -230,6 +230,13 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10048
+    - change/bcapps/10342
+    - change/bcapps/9078
+    - change/bcapps/9347
+    - change/bcapps/9690
+    - change/bcapps/9955
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -316,6 +323,17 @@ One further page describes the Print Vendor Payments List report, which also app
 
 - [Germany local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-local-functionality): The following articles describe the local functionality available in the German version of Business Central.
 - [Print vendor payments list reports in the German version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports): The Vendor Payments List report lists payments for each vendor in the German version. It can sort payments chronologically or by vendor.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10048 Add GTIN to XRechnung and ZUGFeRD exports](../../../../changes/bcapps/10048.md) (code change): "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD documents"
+- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../changes/bcapps/10342.md) (code change): "German XRechnung and ZUGFeRD electronic document exports"
+- [#9078 Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin](../../../../changes/bcapps/9078.md) (code change): "German Intrastat export now groups detail lines by both Tariff Number and Country of Origin"
+- [#9347 Fix IssueDate in E-Documents for Germany](../../../../changes/bcapps/9347.md) (code change): "Fixed the IssueDate field in German E-Document exports (XRechnung and ZUGFeRD formats)"
+- [#9690 Add XRechnung structured format reader for inbound e-documents](../../../../changes/bcapps/9690.md) (code change): "structured format reader for German XRechnung e-documents that parses inbound XML"
+- [#9955 XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals](../../../../changes/bcapps/9955.md) (code change): "XRechnung e-invoices with discount percentages exceeding 2 decimals"
 
 ## Business Central pages and reports
 

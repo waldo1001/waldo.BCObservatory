@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8bf9d08eb87d12c47d7738c4b680395a0e656fdf6e6923e0f12555a204f45f08
+  input_hash: 852382096aca9442aab246d6276d9f2b25a2d14cd921c4869ec6cfeab98e4ac7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/7546
 object_type: pagecustomization
 object_id: null
 name: PA Text-to-Account Mapping
@@ -73,6 +75,10 @@ relations:
 > Page customization "PA Text-to-Account Mapping" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PATextToAccountMapping.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-18 [#7546 [Payables Agent] Agent-driven line matching](../../changes/bcapps/7546.md) (main, BC30, feature, added)
 
 ## Across versions
 

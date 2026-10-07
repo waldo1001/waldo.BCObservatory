@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:04.045Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c9d321a10ea22855cf78b4e5f0e3f9d7de19bd8fceba75e810481846284c080b
+  input_hash: 9c2798301b9e124c40c2649dcbed729d975c22c283876ee03e33d57cf956a4d8
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/al-runner-tests-against-cronus/
@@ -66,13 +66,23 @@ versions_mentioned:
   - "2.3"
   - "28.1"
   - "27.5"
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:11.272Z"
 ---
 
 # AL Runner: Testing Against Real Cronus Data, Debugging Restored, and Mutation-Ready Coverage
 
-> AL Runner, a testing tool for Business Central AL code, now supports testing against real Cronus demo data via the --test-data flag, restores breakpoint debugging through Debug Adapter Protocol, enables per-test coverage attribution for mutation testing, and introduces TDD mode for agentic development workflows.
-
 [Read the post](https://stefanmaron.com/posts/al-runner-tests-against-cronus/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-01 · 1615 words · tier community · **unreviewed** (machine-generated)
+
+> AL Runner, a testing tool for Business Central AL code, now supports testing against real Cronus demo data via the --test-data flag, restores breakpoint debugging through Debug Adapter Protocol, enables per-test coverage attribution for mutation testing, and introduces TDD mode for agentic development workflows.
 
 ## Key points
 

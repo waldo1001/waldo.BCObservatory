@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -394,6 +394,17 @@ links:
     - video/Of0Dw8V-4Yw
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10252
+    - change/bcapps/10412
+    - change/bcapps/11115
+    - change/bcapps/11517
+    - change/bcapps/11574
+    - change/bcapps/9129
+    - change/bcapps/9142
+    - change/bcapps/9894
+    - change/bcapps/9906
+    - change/bcapps/9958
 learn_toc_path:
   - Business functionality
   - Finance
@@ -621,10 +632,20 @@ Start with "Built-in finance reports in Business Central". It gives the overview
 - [Vendor/Item Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
 - [Work with financial overviews in Excel (legacy)](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel): Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10252 Adjust audit log tables](../../../../../changes/bcapps/10252.md) (code change): "Audit log table references deleted from Financial Report Auditing"
+- [#10412 Fixes in Excel reports for Aged Accounts.](../../../../../changes/bcapps/10412.md) (code change): "Aged Accounts Excel reports now properly handle customers and vendors"
+- [#11115 [29.x ]Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../../changes/bcapps/11115.md) (code change): "Trial Balance Excel reports now correctly apply global dimension filters"
+- [#11517 [29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../../changes/bcapps/11517.md) (code change): "export import of a report definition fails if the statuses"
+- [#11574 [main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty](../../../../../changes/bcapps/11574.md) (code change): "Financial Report Open in Excel fails with duplicate Excel Buffer"
+- [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
+- [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
+- [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"
+- [#9906 [Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction](../../../../../changes/bcapps/9906.md) (code change): "Export Acc. Sched. to Excel - log report usage in OnPostReport"
+- [#9958 [Main] -Detail Trial Balance - Running Balance Incorrect When "Include Closing Entries" Is Disabled](../../../../../changes/bcapps/9958.md) (code change): "Detail Trial Balance - Running Balance Incorrect When Include Closing Entries Is Disabled"
 - [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../../videos/gMyp9JkXf9g.md) (video): "Excel Reports for Finance and Sales (2024 release wave 1). Topics: excel reports; trial balance; accounts receivable"
 - [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../../videos/O2RPBlr_GiE.md) (video): "trial balance; aging reports; accounts receivable aging; accounts payable aging"
 - [Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/Of0Dw8V-4Yw.md) (video): "trial balance report; aging report; accounts receivable; general ledger"

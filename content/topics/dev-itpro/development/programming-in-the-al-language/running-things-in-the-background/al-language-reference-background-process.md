@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1ae103645a3a5f146eb64c28d04e5ccef220750136548d2fbf8efdf1277fdfcd
@@ -51,6 +51,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12117
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -81,5 +83,11 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Session.StartSession(var Integer, Integer [, Text] [, var Record]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-startsession-integer-integer-string-table-method): Starts a session without a UI and runs the specified codeunit.
 - [Session.StopSession(Integer [, Text]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-stopsession-method): Stops a session.
 - [TaskScheduler data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/taskscheduler/taskscheduler-data-type): TaskScheduler is a complex data type used for creating and managing tasks in the task scheduler, which runs codeunits at scheduled times.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../../changes/bcapps/12117.md) (code change): "Job Queue displays a clearer message when the platform interrupts a run"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

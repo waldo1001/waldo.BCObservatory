@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:16.835Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 9a11deb1064632bd5db282e8d06d9ba1206d7f23bccb39b9713235f485e53537
+  input_hash: be223153788aba9840675ed62f430be8f73fd100aa28e0d02d23656b26049ab6
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/
@@ -71,6 +71,16 @@ code_objects_mentioned:
 systems:
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-47-enum-display-order.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:16.641Z"
 ---
 
 # BC Friday Tips #47 Enum Display Order

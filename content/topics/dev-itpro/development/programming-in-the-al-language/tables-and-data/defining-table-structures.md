@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:34.553Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,6 +91,18 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
   guidelines: []
+  changes:
+    - change/bcapps/10009
+    - change/bcapps/10031
+    - change/bcapps/10064
+    - change/bcapps/10235
+    - change/bcapps/10367
+    - change/bcapps/11002
+    - change/bcapps/11748
+    - change/bcapps/9168
+    - change/bcquality/125
+    - change/bcquality/158
+    - change/bcquality/208
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -142,10 +154,21 @@ The other pages cover specific parts of a table definition. Setting Relationship
 - [Table System Fields in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-system-fields): Learn how Business Central adds system fields for record IDs, data auditing, and timestamps to tables, including their behavior and use in AL code.
 - [Tables overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-tables-overview): Tables are the objects in which you store and manipulate data, and you create pages and reports to access and view the data in the tables.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10009 Disable low-usage Change Log Entry index](../../../../../changes/bcapps/10009.md) (code change): "The Change Log Entry table's Key4 index on Notification Message Id is disabled to improve write performance"
+- [#10031 Add AI-assisted policy evaluation backend to Expense Agent](../../../../../changes/bcapps/10031.md) (code change): "Added Expense Policy Evaluation table to record immutable results"
+- [#10064 Add support for “External Document No.” in Subscription Contracts Fixes #8818](../../../../../changes/bcapps/10064.md) (code change): "Added External Document No. field to Subscription Contracts"
+- [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../../changes/bcapps/10235.md) (code change): "Subscription Line start date changes are now blocked when billing has occurred"
+- [#10367 [Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)](../../../../../changes/bcapps/10367.md) (code change): "Added OptimizeForTextSearch property to Description and Source Task No. fields"
+- [#11002 [Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation](../../../../../changes/bcapps/11002.md) (code change): "Added Excise Tax Rate table and list page for flexible duty models"
+- [#11748 [Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations](../../../../../changes/bcapps/11748.md) (code change): "Added bonded-location treatment enum with Suspend/Ignore options for excise calculations"
+- [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
+- [#125 knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract](../../../../../changes/bcquality/125.md) (code change): "Three data-modeling knowledge articles with executable tests clarify cascading delete behavior"
+- [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"
+- [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../../changes/bcquality/208.md) (code change): "Table relation fields shorter than their target compile cleanly but fail at runtime"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../../posts/demiliani-com/12623.md) (community post): "Allows rendering PDF files and images in FactBox elements"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"

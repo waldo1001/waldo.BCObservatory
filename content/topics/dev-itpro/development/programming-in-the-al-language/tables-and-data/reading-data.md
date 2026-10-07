@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,8 @@ links:
   posts:
     - post/demiliani-com/14031
   guidelines: []
+  changes:
+    - change/bcapps/11847
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -129,10 +131,11 @@ Start with "Get, Find, and Next methods" for the basics, then read "AL database 
 - [Using partial records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records): Describes the partial records capability in Business Central.
 - [Using Read Scale-Out for Better Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview): Learn how to use read scale-out in Business Central to improve performance
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11847 Use matching key for workflow event step instance lookup](../../../../../changes/bcapps/11847.md) (code change): "A workflow step instance lookup key is redefined to match the actual filter and sort order"
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "Record.ReadIsolation method controls database transaction isolation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

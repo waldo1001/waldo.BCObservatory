@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -276,6 +276,13 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10285
+    - change/bcapps/10663
+    - change/bcapps/9081
+    - change/bcapps/9745
+    - change/bcapps/9774
+    - change/bcapps/9777
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -385,6 +392,17 @@ Start with the overview page, then go to the page for the report you need. For e
 - [Warehouse Adjustment Bin (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7320): Get an overview of adjustment bin usage (for advanced warehouse scenarios).
 - [Warehouse Bin List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7319): Get an overview of warehouse bins, their setup, and the quantity of items in them.
 - [Warehouse Shipment Status (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7313): Get an overview of source documents that are open and have items shipped or due to ship per location.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10285 [Extensibility Request] issue 29642: add Inventory Valuation events](../../../../../changes/bcapps/10285.md) (code change): "Inventory Valuation report 10139 now exposes two integration events"
+- [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../../changes/bcapps/10663.md) (code change): "Stock Card report now correctly shows received quantities and costs when purchase receipts are split"
+- [#9081 Bug 637846: Item Age Composition '...before' quantity reflected only last entry](../../../../../changes/bcapps/9081.md) (code change): "Report 5808 now correctly displays item age composition quantities"
+- [#9745 [main] Implement item variant caching in calculate inventory](../../../../../changes/bcapps/9745.md) (code change): "Calculate Inventory report now caches item variant information to reduce redundant"
+- [#9774 [Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9774.md) (code change): "new integration event allows extensions to influence whether item variant rows are printed"
+- [#9777 [Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9777.md) (code change): "Item Sales Statistics report now exposes an integration event"
 
 ## Business Central pages and reports
 

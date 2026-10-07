@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,6 +162,20 @@ links:
     - video/YSDfDjrMUb0
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12139
+    - change/bcapps/12260
+    - change/bcapps/8554
+    - change/bcapps/8587
+    - change/bcapps/8679
+    - change/bcapps/8713
+    - change/bcapps/8871
+    - change/bcapps/9109
+    - change/bcapps/9112
+    - change/bcapps/9525
+    - change/bcapps/9537
+    - change/bcapps/9581
+    - change/bcapps/9959
 learn_toc_path:
   - Business functionality
   - Online store with Shopify
@@ -272,10 +286,23 @@ Operational pages cover running tasks in the background and recurrently with job
 - [Troubleshooting the Shopify and Business Central synchronization](https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot): Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
 - [Working with Shopify POS](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos): Special notes related to Shopify as a Sales Channel.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "The Create Sales Documents action on the Shopify Orders page is now disabled"
+- [#12260 [Shopify] Fix shop card transaction navigation](../../../changes/bcapps/12260.md) (code change): "Shopify Shop Card payment transaction navigation now opens the correct transaction"
+- [#8554 [Shopify] Fix incorrect G/L line on credit memo for refund with exchange item](../../../changes/bcapps/8554.md) (code change): "Shopify connector now correctly handles credit memos for refunds involving exchange items"
+- [#8587 [Shopify] Make codeunit 30272 "Shpfy Update Price Source" public](../../../changes/bcapps/8587.md) (code change): "Codeunit 30272 Shpfy Update Price Source is now public allowing partners to reference it"
+- [#8679 [Shopify] Fix missing shop currency mapping on order transactions](../../../changes/bcapps/8679.md) (code change): "Shop currency code mapping on Shopify order transactions was accidentally removed"
+- [#8713 [Shopify] Expose Product facade procedures for Add to Shopify parity](../../../changes/bcapps/8713.md) (code change): "Three new public procedures are added to the Shopify Product facade"
+- [#8871 Issue#7867: Removed the access restriction for procedures in the confirmation window.](../../../changes/bcapps/8871.md) (code change): "The Shopify Add Item Confirm page now allows unrestricted access to its procedures"
+- [#9109 [Shopify] Add Transactions navigation action to Shopify Refund page](../../../changes/bcapps/9109.md) (code change): "Shopify Refund page now includes a Transactions navigation action"
+- [#9112 [Shopify] Skip refund credit memo while transaction is pending](../../../changes/bcapps/9112.md) (code change): "Shopify refund processing now skips credit memo creation when the refund transaction is still pending"
+- [#9525 [Shopify] Automatic Transaction Posting](../../../changes/bcapps/9525.md) (code change): "Shopify payment transactions can now be automatically posted as general journal lines"
+- [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
+- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify integration now supports Unlisted status when creating products"
+- [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Sync Catalog Prices report now supports filtering by individual catalogs"
 - [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "shopify connector; meta fields; data synchronization; language translation; pricing"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "shopify connector; product information management; item variants; presentment currency"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"

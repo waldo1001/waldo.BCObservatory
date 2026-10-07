@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:09.813Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,6 +133,8 @@ links:
     - video/hX2zkeUvvdY
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9039
 learn_toc_path:
   - Business functionality
   - Sustainability management
@@ -194,10 +196,11 @@ For the data side, the semantic model page describes the fact and dimension tabl
 - [Sustainability Power BI app](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app): The Power BI app for sustainability in Business Central provides comprehensive sustainability analytics to stakeholders at all levels of your organization.
 - [Water and Waste Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis): The Water and Waste Analysis allows you to effectively monitor your water and waste usage by different metrics such as Water Type, Intensity Type, and Responsibility Center.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9039 Adding all Power BI reports to Business Manager's Role Center](../../../../../changes/bcapps/9039.md) (code change): "Power BI reports are now added to the Business Manager's Role Center"
 - [What's New: Power BI Reports for Sustainability (2025 release wave 1)](../../../../../videos/hX2zkeUvvdY.md) (video): "Power BI Reports for Sustainability greenhouse gas emissions carbon equivalent water and waste"
 
 ## Business Central pages and reports

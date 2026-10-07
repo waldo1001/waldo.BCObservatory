@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 25b04dd04a24a1236d625a4a2fdfa91ce6c5febc910fc55e0dee15736d3478d6
@@ -43,6 +43,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10283
+    - change/bcapps/10900
 learn_toc_path:
   - Administration
   - Automation API
@@ -71,5 +74,12 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get scheduledJob](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_scheduledjob_get): Gets a scheduled job object in Dynamics 365 Business Central.
 - [scheduledJob resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_scheduledjob): A scheduled job object in Dynamics 365 Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10283 [Extensibility Request] issue 30419: add time sheet filtering events](../../../../changes/bcapps/10283.md) (code change): "Integration events are added to report 952 Suggest Job Jnl. Lines"
+- [#10900 [Extensibility Request] issue 30431: expose report sender and globals](../../../../changes/bcapps/10900.md) (code change): "Report 952's time sheet processing events now expose the report sender and globals"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:10.440Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,11 @@ links:
     - video/54uIhzZq3Os
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10032
+    - change/bcapps/10386
+    - change/bcapps/10431
+    - change/bcapps/10670
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -114,10 +119,14 @@ Start with the overview to get the scope, then read the email page if intake is 
 - [Responsible AI FAQ for Expense Agent (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent): Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)](../../../../changes/bcapps/10032.md) (code change): "Fixed filter visibility and refresh issues on Agent List"
+- [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../../changes/bcapps/10386.md) (code change): "Archived custom agents can now be viewed for auditing but are protected from modification"
+- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
+- [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:50.308Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,14 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10072
+    - change/bcapps/10518
+    - change/bcapps/10522
+    - change/bcapps/10924
+    - change/bcapps/11823
+    - change/bcapps/11947
+    - change/bcapps/9437
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -171,6 +179,18 @@ The hub has no pages of its own. Start with the subtopic that matches the task. 
 - [Production, assembly, and job activities](internal-warehouse-processes/production-assembly-and-job-activities.md) (4 pages)
 - [Move items](internal-warehouse-processes/move-items.md) (4 pages)
 - [Warehouse counting](internal-warehouse-processes/warehouse-counting.md) (3 pages)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10072 [main] - Serial and Lot number mismatch when item is produced via Production Order and moved to inventory through an Internal Put-away](../../../../changes/bcapps/10072.md) (code change): "Warehouse activity registration now validates lot and serial number tracking"
+- [#10518 [Extensibility Request] issue 30338: expose internal put-away line event](../../../../changes/bcapps/10518.md) (code change): "New event OnAfterWhseInternalPutAwayLineOnPreDataItem provides access to the internal put-away line record"
+- [#10522 [main] Bug 647499 Bin Replenishment with Pick by FEFO Creates Incorrect Inventory Movements](../../../../changes/bcapps/10522.md) (code change): "Fixed bin replenishment with FEFO-based picking to correctly calculate quantities"
+- [#10924 [main] Bug 648630 Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items](../../../../changes/bcapps/10924.md) (code change): "Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items"
+- [#11823 [Main]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content](../../../../changes/bcapps/11823.md) (code change): "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle"
+- [#11947 [29x]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content](../../../../changes/bcapps/11947.md) (code change): "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle"
+- [#9437 [Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line](../../../../changes/bcapps/9437.md) (code change): "An integration event was added to the warehouse worksheet line calculation"
 
 ## Business Central pages and reports
 

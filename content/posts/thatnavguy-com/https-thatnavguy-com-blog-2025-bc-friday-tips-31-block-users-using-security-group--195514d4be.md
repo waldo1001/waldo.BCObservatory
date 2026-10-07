@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:27.733Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: d10a359b5ebfac1c94d036342507ebcd33acc3c5f099d31b471c7da31c01fed3
+  input_hash: 48a1f96f222e5db1d727985ad52865ab080be7c6341874e21e42fb69f69724f9
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/
@@ -71,6 +71,16 @@ code_objects_mentioned: []
 systems:
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-31-block-users-using-security-group.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:37.788Z"
 ---
 
 # BC Friday Tips #31 Block Users using Security Group

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,12 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10050
+    - change/bcapps/10151
+    - change/bcapps/10303
+    - change/bcapps/10778
+    - change/bcapps/9966
 learn_toc_path:
   - Business functionality
   - Relationship management
@@ -126,6 +132,16 @@ The pages fit together as a workflow. Start with "Create and manage company cont
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up information for contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts): Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
 - [Use profiles to classify contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire): Learn how to set up profile questionnaires to help classify your business contacts' profiles.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10050 Bug 638128: Deadlock in Duplicate Management when multiple users create customers at the same time](../../../../changes/bcapps/10050.md) (code change): "Duplicate Management prevents deadlocks when multiple users simultaneously create customers and contacts"
+- [#10151 Fix vendor contact relation read permission](../../../../changes/bcapps/10151.md) (code change): "VendCont-Update codeunit now grants itself read permission to Contact Business Relation table"
+- [#10303 [Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.](../../../../changes/bcapps/10303.md) (code change): "The French version now correctly preserves the SIREN field on a customer record when modifying a linked contact"
+- [#10778 [Backport 29.x] Harden Contact Sync delta URL and ownership checks (#9966)](../../../../changes/bcapps/10778.md) (code change): "Contact Sync now validates delta URLs against an approved Microsoft Graph prefix"
+- [#9966 Harden Contact Sync delta URL and ownership checks](../../../../changes/bcapps/9966.md) (code change): "Contact Sync now validates delta URLs against the approved Microsoft Graph endpoint"
 
 ## Business Central pages and reports
 

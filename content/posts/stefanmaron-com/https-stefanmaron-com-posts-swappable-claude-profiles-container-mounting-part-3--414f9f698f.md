@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:40:57.155Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1315c7a30b828f4e895f070828e7570aa0e4223585da1f8612fd33c97e9a2a6f
+  input_hash: 4c43517e990dca78147e713055cf0f93da8ee9c89fc13152bbb1aa409095ffb9
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/
@@ -65,13 +65,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:32.473Z"
 ---
 
 # Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)
 
-> Claude Code profiles enable project-specific configurations by mounting host directories as ~/.claude inside containers, allowing separate contexts, instructions, and agents for different work types. The profile system makes it practical to maintain AL development, telemetry investigation, and other specialized contexts without switching tools.
-
 [Read the post](https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/) · Stefan Maron (Stefan Maron, MVP) · 2026-03-16 · 1116 words · tier community · **unreviewed** (machine-generated)
+
+> Claude Code profiles enable project-specific configurations by mounting host directories as ~/.claude inside containers, allowing separate contexts, instructions, and agents for different work types. The profile system makes it practical to maintain AL development, telemetry investigation, and other specialized contexts without switching tools.
 
 ## Key points
 

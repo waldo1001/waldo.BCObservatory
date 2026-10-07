@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:11.860Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,6 +317,9 @@ links:
     - video/HI7VcPzR2OE
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10604
+    - change/bcapps/11848
 learn_toc_path:
   - Business functionality
   - Finance
@@ -559,10 +562,12 @@ Start with the Financial analytics overview page to compare the options. Then go
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 - [Financial analytics](https://learn.microsoft.com/dynamics365/business-central/bi): Business Central helps you gather, analyze, and share company data for business intelligence.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10604 [Main]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../changes/bcapps/10604.md) (code change): "Financial report and row definitions now import successfully between companies"
+- [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "Report 11564 now correctly includes foreign currency opening balances"
 - [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../../videos/HI7VcPzR2OE.md) (video): "GL Revaluation and Currency Code on GL Entries; Excel Reports for Financial Data; Consolidation"
 

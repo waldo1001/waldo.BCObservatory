@@ -1,201 +1,210 @@
 {
   "country": "CA",
   "version": "29",
-  "input_hash": "bd4751d746bc6cae2909fbb994757054b421d8ea0a4f5e20a66081b2fc5d1454",
-  "summary": "Canada (CA) localization of Business Central 29. It covers sales tax with tax areas and jurisdictions, GST/HST, GIFI codes, deposits, bank reconciliation and EFT payment exports, plus NA-style reports. The code also carries Mexican CFDI e-invoicing objects. Use it for Canadian tax, banking and reporting questions.",
-  "overview": "The Canadian layer is built on the North American sales tax model. Tax areas, tax jurisdictions and tax details drive tax calculation in sales, purchase and service documents. Codeunit 398 \"Sales Tax Calculate\" gains external tax engine hooks and many events. Sales-Post (80), Purch.-Post (90) and the service posting codeunits gain procedures and events for posting sales tax to the G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field on purchase lines. Learn documents sales tax, GST/HST, use and purchase tax, unrealized sales tax with payment discounts, and GIFI codes.\n\nBanking adds deposits, bank reconciliation worksheets and electronic funds transfer (EFT) export. Bank Account gets E-Pay and export format fields. Export codeunits exist for ACH, RB, Cecoban and IAT formats, built on the data exchange framework. Learn has pages for deposits and troubleshooting reports. The localization also holds a large set of NA reports across sales, purchases, inventory, projects and service.\n\nThe code also contains Mexican objects: CFDI e-invoicing, SAT catalogs, PAC web services and related fields on sales, transfer and company tables. This input does not tie them to Canadian Learn pages. Upgrade codeunits and profiles are plumbing.",
+  "input_hash": "6584ce5f18e701d6aa687530cd470355a5ef09cb6cef62bd2057ce860d344fbc",
+  "summary": "Canada (CA) localization of Business Central 29. It covers sales tax and GST/HST calculation and reporting, GIFI codes, bank deposits and reconciliation, and EFT electronic payments. It also carries the North American (NA) report set and extra Mexico (SAT/CFDI, DIOT) objects. It answers what the Canadian layer adds to W1 tax, banking, sales and purchase objects.",
+  "overview": "The Canadian layer is built on the sales tax model: Tax Area, Tax Jurisdiction, Tax Detail and Tax Group. Codeunit 398 \"Sales Tax Calculate\" gains events and an external tax engine hook, and the posting codeunits (Sales-Post, Purch.-Post, Serv-Documents Mgt.) gain procedures that post sales tax to G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field. Learn documents sales tax, GST/HST reporting, use and purchase tax, unrealized sales tax and sales payment discounts.\n\nBanking adds deposits, bank reconciliation worksheets and EFT export. The EFT export has codeunits for ACH, RB, Cecoban and IAT formats, with fields on Bank Account, Customer/Vendor Bank Account and Gen. Journal Line. GIFI codes are added to G/L Account and documented on Learn, including export of balances for tax preparation software. Also added are many NA reports (sales, purchases, inventory, jobs, resources), Yodlee bank feeds, Ceridian payroll import, PEPPOL 3.0 NA and a Shopify tax match feature.\n\nThe package also holds Mexican objects: CFDI e-invoicing with PAC and SAT catalogs, DIOT, and many fields on sales, transfer and company tables. The code summary does not tie these to Canadian requirements, and no Learn page in the input covers them.",
   "key_points": [
-    "Sales tax: tax areas and jurisdictions, with Country/Region, Round Tax and Use External Tax Engine fields on Tax Area, and external tax engine interface and enum.",
-    "GST/HST: GST/HST fields on VAT Entry, G/L Entry and Purchase Line, a GST/HST Tax Type enum and a Provincial Tax Area Code on purchase documents.",
-    "GIFI codes: GIFI Code field on G/L Account and a GIFI Codes page for tax reporting.",
-    "Deposits and bank reconciliation: Deposit Nos. and Bank Rec. Adj. Doc. Nos. in General Ledger Setup, posted deposit and bank rec codeunits and pages.",
-    "EFT export: Bank Account export format and EFT Export Code, with ACH, RB, Cecoban and IAT export codeunits.",
-    "Posting extensibility: many OnBefore/OnAfter events around sales tax in Sales-Post, Purch.-Post, Serv-Documents Mgt. and Sales Tax Calculate.",
-    "Mexican CFDI e-invoicing objects (SAT catalogs, PAC services, digital stamp fields) are present in the code.",
-    "Customer, vendor and tax-related fields on G/L Entry, Gen. Journal Line, VAT Entry and Company Information (QST Registration No., Tax Area Code)."
+    "Sales tax engine: Tax Area, Tax Jurisdiction and Tax Detail changes, with an external tax engine interface and codeunit 398 events.",
+    "GST/HST and provincial tax: GST/HST fields on G/L Entry, VAT Entry and Purchase Line, provincial tax area codes, and purchase/use tax handling.",
+    "GIFI codes on G/L Account with a GIFI Codes page, documented on Learn for tax filing export.",
+    "Deposits and bank reconciliation: Posted Deposit/Bank Rec. codeunits and permission sets, plus Navigate support for deposits.",
+    "EFT electronic payments in ACH, RB, Cecoban and IAT formats via Export Payments/EFT codeunits and bank account fields.",
+    "Check printing changes: Check Ledger Entry, Check Preview and Print Check Helper.",
+    "NA report set for sales, purchases, inventory and jobs, plus Yodlee, Ceridian payroll and a Shopify tax match feature.",
+    "Mexican CFDI, SAT and DIOT objects are also present in the code."
   ],
   "areas": [
     {
-      "area": "eServices",
-      "what": "Adds the E-Invoice management and communication codeunits (on-prem and SaaS), cancel request batches, SAT catalog update codeunits, and SAT and CFDI catalog pages and tables. These are the Mexican CFDI e-invoicing objects.",
-      "why": null,
-      "objects": [
-        "codeunit/10145",
-        "codeunit/10146",
-        "codeunit/10174",
-        "codeunit/10175",
-        "codeunit/27030",
-        "codeunit/27031",
-        "page/10457",
-        "interface/einvoice communication v2"
-      ]
-    },
-    {
-      "area": "Sales",
-      "what": "Adds fields to sales headers, lines and posted documents for sales tax rounding, tax exemption, UPS zone and electronic document stamping. Sales-Post and Sales-Post Prepayments gain sales tax procedures and events. Adds order status pages, statistics pages and shipment and invoice posting codeunits.",
-      "why": null,
-      "objects": [
-        "codeunit/80",
-        "codeunit/442",
-        "table/36",
-        "table/37",
-        "table/112",
-        "table/114",
-        "table/18",
-        "report/1306"
-      ]
-    },
-    {
       "area": "Finance",
-      "what": "Adds the sales tax engine: sales tax journal, tax calculation with external tax engine hooks, and GIFI codes. Adds tax and EFT-related fields to G/L Account, journal lines, VAT Entry, Tax Area and General Ledger Setup. Gen. Jnl.-Post Line gains unrealized VAT procedures and events.",
-      "why": "Learn documents sales tax, GST/HST, unrealized sales tax and GIFI codes as the Canadian tax reporting requirements.",
+      "what": "Core sales tax engine: events and external tax engine procedures in Sales Tax Calculate, the Sales Tax Journal, and an External Tax Engine interface. Fields are added to Tax Area, Tax Jurisdiction, Tax Detail, G/L Account (GIFI Code), VAT Entry (GST/HST) and journal lines. Gen. Jnl.-Post Line gains unrealized VAT and EFT checks.",
+      "why": "Learn documents sales tax with up to four jurisdictions per document, GST/HST reporting, unrealized sales tax and GIFI codes for tax filing.",
       "objects": [
         "codeunit/398",
-        "codeunit/12",
         "table/318",
         "table/320",
         "table/322",
-        "table/254",
         "table/15",
-        "table/98"
+        "table/254",
+        "codeunit/12",
+        "page/10101"
       ]
     },
     {
       "area": "Bank",
-      "what": "Adds deposits, bank reconciliation worksheets and EFT export through ACH, RB, Cecoban and IAT codeunits and data exchange mapping codeunits. Bank Account, Check Ledger Entry and Bank Account Card gain fields and procedures for electronic payments and checks.",
-      "why": "Learn has pages on creating deposits and on printing troubleshooting reports.",
+      "what": "Adds EFT export (ACH, RB, Cecoban, IAT), deposits, bank reconciliation, and check changes. Bank Account gets many e-pay fields, and Check Ledger Entry and Bank Account Card are extended.",
+      "why": null,
       "objects": [
         "table/270",
         "codeunit/10098",
         "codeunit/10090",
         "codeunit/10091",
         "codeunit/10331",
-        "codeunit/10130",
         "table/272",
-        "page/370"
+        "page/370",
+        "report/10408"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Sales tax calculation and posting on sales documents, with tax area, tax exemption and rounding fields. Adds NA statistics pages and post codeunits, and adds retention and CFDI/e-document fields on headers and lines.",
+      "why": null,
+      "objects": [
+        "codeunit/80",
+        "table/36",
+        "table/37",
+        "codeunit/442",
+        "table/18",
+        "table/112",
+        "report/1306",
+        "page/10038"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Adds provincial tax area, GST/HST, tax exemption and expense-or-capitalize fields to purchase documents. Purch.-Post gains provincial sales tax posting procedures and events. Adds NA purchase reports and statistics pages.",
-      "why": "Learn covers use tax and purchase tax setup and GST/HST with provincial sales tax.",
+      "what": "Purchase posting adds provincial sales tax, GST/HST and expense or capitalize handling. Purchase Header, Line and Vendor get tax fields, and NA purchase reports and statistics are added. DIOT page extensions are included.",
+      "why": "Learn documents use tax and purchase tax setup for purchases from vendors without local presence.",
       "objects": [
         "codeunit/90",
-        "table/38",
         "table/39",
+        "table/38",
         "table/23",
         "codeunit/444",
         "table/288",
-        "page/50",
-        "report/10121"
-      ]
-    },
-    {
-      "area": "Inventory",
-      "what": "Adds CFDI and transport fields to transfer documents and SAT classification fields to Item. Adds NA inventory reports such as valuation, availability and physical inventory count.",
-      "why": null,
-      "objects": [
-        "table/5744",
-        "table/5740",
-        "table/27",
-        "report/10139",
-        "report/10131",
-        "table/10013",
-        "codeunit/10461",
-        "table/5741"
+        "page/10043",
+        "report/10085"
       ]
     },
     {
       "area": "Service",
-      "what": "Adds sales tax calculation and external tax engine handling to service posting codeunits, plus NA table and page extensions, statistics pages and sales tax service reports.",
+      "what": "Service documents get sales tax calculation events, external tax engine support and NA page and table extensions. Statistics pages and sales tax reports are added.",
       "why": null,
       "objects": [
         "codeunit/5988",
         "codeunit/5987",
         "codeunit/10288",
+        "table/5902",
         "report/10470",
-        "tableextension/10014",
-        "pageextension/10024",
-        "page/10052",
-        "table/5902"
+        "page/10053",
+        "report/5915"
+      ]
+    },
+    {
+      "area": "eServices",
+      "what": "Mexican CFDI e-invoicing objects: E-Invoice Mgt., PAC communication codeunits, SAT catalog pages, a CFDI wizard and export accounts.",
+      "why": null,
+      "objects": [
+        "codeunit/10145",
+        "codeunit/10146",
+        "codeunit/27030",
+        "page/10457",
+        "page/27010",
+        "codeunit/27000",
+        "interface/einvoice communication v2",
+        "page/10455"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds NA inventory reports, vendor locations, and SAT/CFDI fields on Item, Transfer Header and shipment tables.",
+      "why": null,
+      "objects": [
+        "table/27",
+        "table/5740",
+        "table/5744",
+        "report/10139",
+        "report/10138",
+        "table/10013",
+        "page/10013",
+        "table/5741"
+      ]
+    },
+    {
+      "area": "Integration",
+      "what": "Shopify tax match feature that matches order tax lines to tax areas and jurisdictions, with review pages, events and table extensions.",
+      "why": null,
+      "objects": [
+        "codeunit/30471",
+        "codeunit/30472",
+        "page/30471",
+        "tableextension/30470",
+        "pageextension/30470",
+        "codeunit/30470",
+        "enum/30471"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Company Information gets Canada fields (QST Registration No., provincial tax area) and an IsCanada check. Source Code Setup and No. Series Line are extended, and Navigate finds deposits.",
+      "why": null,
+      "objects": [
+        "table/79",
+        "table/242",
+        "page/344",
+        "table/309",
+        "codeunit/229"
       ]
     },
     {
       "area": "Projects",
-      "what": "Adds NA job and resource reports such as job actual to budget, cost breakdown and resource usage. Adds budget fields to Job Difference Buffer.",
+      "what": "NA job and resource reports, plus extra budget fields on the Job Difference Buffer.",
       "why": null,
       "objects": [
         "table/1019",
         "report/10210",
         "report/10211",
-        "report/10195",
         "report/10216",
-        "report/10200"
+        "report/10220"
       ]
     },
     {
-      "area": "Foundation",
-      "what": "Company Information gains Canadian tax identifiers, such as QST Registration No. and provincial tax area, with an IsCanada procedure. Also adds No. Series Line fields, deposit and bank rec source codes, and SAT fields on units of measure and countries.",
+      "area": "Payroll",
+      "what": "Ceridian payroll import: setup table and page, import xmlport and codeunits, and permission set extensions.",
       "why": null,
       "objects": [
-        "table/79",
-        "table/242",
-        "table/309",
-        "table/204",
-        "codeunit/229",
-        "page/344"
+        "codeunit/1666",
+        "codeunit/1668",
+        "page/1665",
+        "table/1665",
+        "xmlport/1661"
       ]
     },
     {
-      "area": "(no namespace)",
-      "what": "Holds upgrade codeunits for CFDI, EFT and sales tax setup, the bank reconciliation report and printing codeunit, and role profiles for credit manager, HR manager and payroll administrator.",
+      "area": "Peppol",
+      "what": "PEPPOL 3.0 North America format with install, upgrade and subscriber codeunits, and an enum extension.",
       "why": null,
       "objects": [
-        "report/10408",
-        "codeunit/10124",
-        "profile/credit manager",
-        "table/27008",
-        "xmlport/27008"
-      ]
-    },
-    {
-      "area": "Utilities",
-      "what": "Document Totals and Copy Document Mgt. gain sales tax procedures. Adds a data dictionary report and table, paragraph handling and entry application codeunits.",
-      "why": null,
-      "objects": [
-        "codeunit/57",
-        "codeunit/6620",
-        "codeunit/10202",
-        "report/10315",
-        "table/10040",
-        "codeunit/1814"
+        "codeunit/37350",
+        "codeunit/37353",
+        "enumextension/37350"
       ]
     },
     {
       "area": "IO",
-      "what": "Data Exch. Def gains procedures for EFT payment codeunits and export file type checks. Config. Setup gets a Tax Area Code.",
+      "what": "Data exchange definitions are extended for EFT export, with checks of EFT file type and a new definition type enum value. Config. Setup gets a Tax Area Code.",
       "why": null,
       "objects": [
         "table/1222",
         "table/1224",
-        "table/8627",
-        "enum/1222"
+        "enum/1222",
+        "table/8627"
       ]
     },
     {
-      "area": "Microsoft",
-      "what": "Holds a few leftover objects, such as the B10 Adjustment table and page and declaration label reports.",
+      "area": "Utilities",
+      "what": "Document totals, copy document and assisted setup are adjusted for sales tax lines and retention. Adds a Data Dictionary report.",
       "why": null,
       "objects": [
-        "table/10240",
-        "page/10240",
-        "report/14022",
-        "report/14023"
+        "codeunit/57",
+        "codeunit/6620",
+        "codeunit/1814",
+        "page/1803",
+        "report/10315"
       ]
     },
     {
       "area": "Security",
-      "what": "Changes the LOCAL and LOCAL READ permission sets and the payables journal permission sets so the Canadian objects are covered.",
+      "what": "Local and payables journal permission sets are changed.",
       "why": null,
       "objects": [
         "permissionset/1001",
@@ -205,8 +214,29 @@
       ]
     },
     {
+      "area": "(no namespace)",
+      "what": "Bank reconciliation and deposit permission sets, role profiles, bank reconciliation report, CFDI Subject to Tax objects and upgrade codeunits.",
+      "why": null,
+      "objects": [
+        "report/10408",
+        "permissionset/27004",
+        "permissionset/27002",
+        "codeunit/10124",
+        "table/27008",
+        "profile/credit manager"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Fixed Asset gets vehicle and SAT transport fields.",
+      "why": null,
+      "objects": [
+        "table/5600"
+      ]
+    },
+    {
       "area": "HumanResources",
-      "what": "Adds RFC No. and License No. fields to Employee, plus Human Resources and Payroll role centers.",
+      "what": "Employee gets RFC No. and License No. fields. HR and Payroll role center pages are added.",
       "why": null,
       "objects": [
         "table/5200",
@@ -215,20 +245,31 @@
       ]
     },
     {
-      "area": "FixedAssets",
-      "what": "Adds vehicle and SAT transport classification fields to Fixed Asset, such as licence plate, gross weight and trailer type.",
+      "area": "ExpenseAgent",
+      "what": "Adds an Expense Event Subscriber CA codeunit.",
       "why": null,
       "objects": [
-        "table/5600"
+        "codeunit/6916"
+      ]
+    },
+    {
+      "area": "Microsoft",
+      "what": "B10 Adjustment table and page, and Declaration 347 and 349 label reports.",
+      "why": null,
+      "objects": [
+        "table/10240",
+        "page/10240",
+        "report/14022",
+        "report/14023"
       ]
     }
   ],
   "learn_pages_used": 8,
   "prompt_version": 2,
-  "at": "2026-10-06T23:50:25.402Z",
+  "at": "2026-10-07T13:23:22.317Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.232838
+    "cost_usd": 0.24923
   }
 }

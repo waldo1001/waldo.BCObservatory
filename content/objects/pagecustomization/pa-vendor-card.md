@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 28325538d5754bf244234bb336731c73ced6beee0a70fee23c8c9e616445f614
+  input_hash: feb19518c920070b7b2c5fc0f9b4bc5ae80585086b85965c9f8fcab9fc82d4ac
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9904
 object_type: pagecustomization
 object_id: null
 name: PA Vendor Card
@@ -73,6 +75,10 @@ relations:
 > Page customization "PA Vendor Card" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-05 [#9904 Let the agent see and set vendor posting groups and CIF or NIF](../../changes/bcapps/9904.md) (main, BC30, fix)
 
 ## Across versions
 

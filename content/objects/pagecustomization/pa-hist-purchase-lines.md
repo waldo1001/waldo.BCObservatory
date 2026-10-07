@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3a28a4048ff7ecc5b82fbb7e5e461fe04fd673875215a18da0c1199ec3bd9e68
+  input_hash: d363e79f7184a78e56b2fd6be1497215b51f5554044976c1ebd06a9990906b62
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/7546
 object_type: pagecustomization
 object_id: null
 name: PA Hist. Purchase Lines
@@ -73,6 +75,10 @@ relations:
 > Page customization "PA Hist. Purchase Lines" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
 PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1d24dd5e](https://github.com/microsoft/BCApps/blob/1d24dd5ee2a734510f0556ccc69342d0e616db2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al) · facts from BC29
+
+## Recent changes
+
+- 2026-08-18 [#7546 [Payables Agent] Agent-driven line matching](../../changes/bcapps/7546.md) (main, BC30, feature, added)
 
 ## Across versions
 

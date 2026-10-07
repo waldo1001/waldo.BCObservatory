@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:20:11.985Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 585fb0611e42e7fcb89eaff7f861e8899db5209f33c3c1dd06269bf7e11b7011
+  input_hash: 568bfc328fbed73aaafeb3d4cb84e5fc7a63f93eddaedf209e7e2f69662b7a02
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/
@@ -72,13 +72,23 @@ systems:
 versions_mentioned:
   - BC 29
   - runtime 18
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/Record-IsDirty.BGFsd36s_Z6kP0C.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:49:41.319Z"
 ---
 
 # BC Friday Tips #83 Check Whether a Record Has Changed
 
-> The Record.IsDirty() method detects whether a record has been modified without requiring manual tracking. This pattern simplifies code when applying multiple field updates to a record.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-02 · 124 words · tier community · **unreviewed** (machine-generated)
+
+> The Record.IsDirty() method detects whether a record has been modified without requiring manual tracking. This pattern simplifies code when applying multiple field updates to a record.
 
 ## Key points
 

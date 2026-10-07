@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:25.918Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,8 @@ links:
   posts:
     - post/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7
   guidelines: []
+  changes:
+    - change/bcapps/10359
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -101,10 +103,11 @@ Start with the Format method page for general text conversion. Use the field for
 - [Formatting the data in a field](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-field-data): Learn how to format data in a field, either on the table level or on the page/report level.
 - [Formatting values, dates, and time](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-property): Learn how to format values, dates, and time in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10359 Add activity log amount formatting metadata](../../../../changes/bcapps/10359.md) (code change): "Amount fields in the Expense Activity Log Entry table now include currency-aware formatting metadata"
 - [Format Cheatsheet](../../../../posts/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7.md) (community post): "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

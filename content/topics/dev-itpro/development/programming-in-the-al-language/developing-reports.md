@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:04.589Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -330,6 +330,19 @@ links:
   posts:
     - post/thinkaboutit-be/7181
   guidelines: []
+  changes:
+    - change/bcapps/10270
+    - change/bcapps/10404
+    - change/bcapps/10489
+    - change/bcapps/11137
+    - change/bcapps/11211
+    - change/bcapps/12242
+    - change/bcapps/9428
+    - change/bcapps/9433
+    - change/bcapps/9453
+    - change/bcapps/9949
+    - change/bcquality/147
+    - change/bcquality/183
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -417,10 +430,22 @@ For quality and operations there are pages on testing report output, report gene
 - [Using request pages with reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports): Introducing how to work with request pages with Business Central reports.
 - [Walkthrough - Designing a report from multiple tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables): This walkthrough shows you how to design a report from multiple tables.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../../changes/bcapps/10270.md) (code change): "XML documentation for Quality Management procedures has been repaired and improved"
+- [#10404 Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes](../../../../changes/bcapps/10404.md) (code change): "Word document layout added to Spend Request Document report"
+- [#10489 MSlenejennum/647452/new header and footer layouts and report themes](../../../../changes/bcapps/10489.md) (code change): "New composite report parts management codeunit seeds 11 header/footer designs and 3 themes"
+- [#11137 Composite Report Parts: seed via a report extension instead of install/upgrade code](../../../../changes/bcapps/11137.md) (code change): "Report extension replaces SeedPart-based install/upgrade code for seeding"
+- [#11211 [Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions](../../../../changes/bcapps/11211.md) (code change): "Report layout creation and management now prevents duplicate names"
+- [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is now available to all companies"
+- [#9428 637301 Report layout override lifecycle](../../../../changes/bcapps/9428.md) (code change): "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override records"
+- [#9433 636017 Move Item Price List and Res. Price List report action tooltip…](../../../../changes/bcapps/9433.md) (code change): "Report action tooltips for Item Price List and Res. Price List reports are moved from page actions"
+- [#9453 [Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)](../../../../changes/bcapps/9453.md) (code change): "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call"
+- [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Report layout administration pages now decode composite layout references, add description fields"
+- [#147 ShowMandatory + OnQueryClosePage Check](../../../../changes/bcquality/147.md) (code change): "ShowMandatory property draws an asterisk but doesn't enforce requirements"
+- [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
 

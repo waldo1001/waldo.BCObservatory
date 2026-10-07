@@ -1,48 +1,82 @@
 {
   "country": "IS",
   "version": "29",
-  "input_hash": "eb5ead665d6ff402467869c50e6320cc8851062a33ad98caef66d1f8cca74813",
-  "summary": "Iceland (IS) localization for Business Central 29. It covers IRS number mapping of the chart of accounts for tax authority files, VAT reconciliation and balancing reports, the IRS Notification report for electronic invoicing, credit memo fields in sales, depreciation book fields, and the Iceland W1 core app setup.",
-  "overview": "The Icelandic layer adds three reports and four tables of its own. The IRS Numbers, IRS Groups and IRS Types tables, plus the IdaG/L Account field \"IRS Number\", let users map general ledger accounts to government account codes. Learn describes this under mapping IRS numbers to the chart of accounts and special data output for the tax authorities. Two VAT reports, \"VAT Reconciliation A\" and \"VAT Balancing Report\", support VAT reporting.\n\nSales changes are small. Sales & Receivables Setup gets an Electronic Invoicing field and a credit memo number series field for payment discounts, and Cust. Ledger Entry gets a Credit Memo Document field. The \"IRS notification\" report prints the legal statements that Learn says are required when invoices are printed more than once. Depreciation Book gains \"Revalue in Year Purch.\" and \"Residual Value %\".\n\nTable \"IS Core App Setup\" supports the move from the Icelandic localization to the W1 base app model, with features delivered as apps from version 24.0 and a one-time manual data migration. Learn also documents document deletion rules, registration numbers and printing VAT summary information. The code adds no events or procedures, and the LOCAL and LOCAL READ permission sets are replaced.",
+  "input_hash": "e4bf97269f59af27e40530445c8e2da003daf2503f398744dc9f1c6977a55eb8",
+  "summary": "Iceland (IS) localization for Business Central 29 delivered as the IS Core app. It covers IRS number mapping of the chart of accounts, VAT reconciliation and balancing reports, document retention rules for deleting posted invoices and credit memos, and electronic invoicing notification. It answers questions about Icelandic tax authority reporting and local setup.",
+  "overview": "The Iceland layer centres on IS IRS mapping. New tables (IS IRS Groups, IS IRS Numbers, IS IRS Types, with legacy IRS Numbers, IRS Groups and IRS Types tables) and pages let users define tax authority codes. The field \"IRS Number\" on G/L Account maps posting accounts to them. Learn describes this as the basis for compliant data files and reports for the tax authorities.\n\nLocal reports include IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number and IS IRS notification. Report extensions adjust purchase order, purchase invoice, purchase credit memo and blanket sales order layouts. Sales & Receivables Setup gains \"Electronic Invoicing\" and \"Credit Memo Nos. Paym. Disc.\" fields, and Learn explains that the IRS Notification report prints the legal statement needed when invoices are printed several times.\n\nThe localization is packaged as the IS Core app, with table \"IS Core App Setup\", codeunits \"IS Core Install\", \"IS Core Upgrade\" and \"Enable IS Core App\", and permission sets. Codeunit \"IS Docs Retention Period\" with an enum extension supports document deletion rules. Learn documents the migration to the app model from version 24.0 as a one-time manual data migration. Depreciation Book gains \"Residual Value %\" and \"Revalue in Year Purch.\".",
   "key_points": [
-    "IRS numbers, groups and types map G/L accounts to tax authority codes via the new field on G/L Account.",
-    "Reports: IRS notification, VAT Reconciliation A and VAT Balancing Report.",
-    "Sales & Receivables Setup has an Electronic Invoicing option that ties into printing the IRS Notification report.",
-    "Cust. Ledger Entry has a Credit Memo Document field, and setup has a credit memo number series for payment discounts.",
-    "Depreciation Book adds Revalue in Year Purch. and Residual Value %.",
-    "IS Core App Setup supports the one-time manual migration to the W1 core app model from version 24.0.",
-    "Learn covers deletion of posted invoices and credit memos, registration numbers and the Always Show VAT Summary option.",
-    "No events or procedures are added; permission sets LOCAL and LOCAL READ are replaced."
+    "IRS numbers, groups and types map G/L accounts to tax authority codes via the \"IRS Number\" field on G/L Account",
+    "Reports: IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number",
+    "Electronic Invoicing option in Sales & Receivables Setup and the IS IRS notification report for single-copy invoice legal statements",
+    "Document retention: posted invoices and credit memos may be deleted only when older than seven years at fiscal year start (v24.0 onward with the new localization enabled)",
+    "Depreciation Book gains Residual Value % and Revalue in Year Purch. fields",
+    "IS Core app with install, upgrade and enable codeunits; migration from the old localization is a one-time manual process",
+    "Role center, vendor, customer, contact and company info pages are extended, and IS permission sets with extensions for standard sets are provided"
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "Adds tables \"IRS Numbers\", \"IRS Groups\" and \"IRS Types\" and an IRS Number field on G/L Account for mapping accounts to tax authority codes. Adds the reports IRS notification, VAT Reconciliation A and VAT Balancing Report, and the table \"IS Core App Setup\" for the core app migration.",
-      "why": "Learn says the IRS mapping is needed to generate compliant data files for the tax authorities. The core app setup supports migration to the W1 model from version 24.0.",
+      "what": "Adds the IRS mapping tables and pages, the \"IRS Number\" field on G/L Account, and local VAT and IRS reports. It also holds the IS Core app setup, install and upgrade codeunits, the retention period codeunit, enums for VAT report periods and entries filters, role center extensions and permission sets.",
+      "why": "Learn explains that IRS numbers mapped to general ledger accounts produce compliant data files and reports for the tax authorities, and that posted documents can be deleted only after the seven-year retention period.",
       "objects": [
-        "table/10900",
-        "table/10901",
-        "table/10902",
+        "table/14600",
+        "table/14601",
+        "table/14602",
         "table/15",
-        "report/10940",
-        "report/10941",
-        "report/10913",
-        "table/10903"
+        "report/14601",
+        "report/14600",
+        "report/14603",
+        "report/14605"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Extends the G/L Account and Sales & Receivables Setup tables, posted purchase invoice and credit memo pages, and the Small Business Owner role center with Icelandic fields and actions.",
+      "why": null,
+      "objects": [
+        "tableextension/14602",
+        "tableextension/14603",
+        "pageextension/14609",
+        "pageextension/14604",
+        "pageextension/14607"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Extends the vendor card and adjusts the purchase order, purchase invoice, purchase credit memo and blanket sales order report layouts for Icelandic needs.",
+      "why": null,
+      "objects": [
+        "pageextension/14610",
+        "reportextension/14600",
+        "reportextension/14602",
+        "reportextension/14601",
+        "reportextension/14603"
       ]
     },
     {
       "area": "Sales",
-      "what": "Sales & Receivables Setup gets Electronic Invoicing and Credit Memo Nos. Paym. Disc. fields. Cust. Ledger Entry gets a Credit Memo Document field.",
-      "why": "Learn says that when invoices are printed several times, a government report confirming ERP compliance must be sent. The IRS Notification report prints the required statements.",
+      "what": "Adds the fields \"Electronic Invoicing\" and \"Credit Memo Nos. Paym. Disc.\" to Sales & Receivables Setup and \"Credit Memo Document\" to Cust. Ledger Entry. The setup and customer card pages are extended.",
+      "why": "Learn states that the Electronic Invoicing setting drives printing of the IRS Notification report with the required legal statements on invoices.",
       "objects": [
         "table/311",
         "table/21",
-        "report/10913"
+        "pageextension/14606",
+        "pageextension/14611"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Adds \"Residual Value %\" and \"Revalue in Year Purch.\" to the Depreciation Book table and shows them on the Depreciation Book Card.",
+      "why": null,
+      "objects": [
+        "table/5611",
+        "tableextension/14601",
+        "pageextension/14603"
       ]
     },
     {
       "area": "Security",
-      "what": "The LOCAL and LOCAL READ permission sets are replaced to cover the Icelandic objects.",
+      "what": "Changes the W1 LOCAL and LOCAL READ permission sets to cover the Icelandic objects.",
       "why": null,
       "objects": [
         "permissionset/1001",
@@ -50,20 +84,28 @@
       ]
     },
     {
-      "area": "FixedAssets",
-      "what": "Depreciation Book gets two fields: Revalue in Year Purch. and Residual Value %.",
+      "area": "CRM",
+      "what": "Extends the Contact Card with Icelandic fields.",
       "why": null,
       "objects": [
-        "table/5611"
+        "pageextension/14612"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Extends the Company Information page with Icelandic fields.",
+      "why": null,
+      "objects": [
+        "pageextension/14608"
       ]
     }
   ],
   "learn_pages_used": 8,
   "prompt_version": 2,
-  "at": "2026-10-06T23:53:05.368Z",
+  "at": "2026-10-07T13:27:12.758Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.031200000000000002
+    "cost_usd": 0.051559999999999995
   }
 }

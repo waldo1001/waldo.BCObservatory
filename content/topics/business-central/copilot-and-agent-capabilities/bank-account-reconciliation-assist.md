@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:16.844Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,8 @@ links:
     - video/jhfwx1K0I7Y
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10090
 learn_toc_path:
   - Copilot and agent capabilities
   - Bank account reconciliation assist
@@ -93,10 +95,11 @@ Both pages mark the feature as preview. The reconcile page mentions 2025 release
 - [FAQ for bank account reconciliation assist with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-bank-reconciliation): This FAQ provides information about the AI technology used for reconciling bank accounts and statements in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10090 [Bank Acc. Reconciliation with Copilot] Read the functional part of the prompt from .resources and safety clause from Key Vault](../../../changes/bcapps/10090.md) (code change): "Bank account reconciliation with Copilot now loads the functional part of AI prompts"
 - [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../videos/4Te11l2BxmQ.md) (video): "bank reconciliation; copilot; transaction matching; gl account suggestions"
 - [Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)](../../../videos/jhfwx1K0I7Y.md) (video): "Bank Account Reconciliation Assistance with Copilot; Reconcile with Copilot Action"
 

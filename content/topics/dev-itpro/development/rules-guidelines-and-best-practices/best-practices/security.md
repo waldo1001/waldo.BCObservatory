@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:29.082Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,15 @@ links:
   posts:
     - post/demiliani-com/13588
   guidelines: []
+  changes:
+    - change/bcapps/10065
+    - change/bcapps/10346
+    - change/bcapps/8556
+    - change/bcquality/110
+    - change/bcquality/131
+    - change/bcquality/187
+    - change/bcquality/49
+    - change/bcquality/99
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -93,10 +102,18 @@ Start with the layered security model page for the big picture, then move to the
 - [Azure Key Vaults with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview): Provides an overview of Azure key vaults with Business Central extensions.
 - [Layered security model in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-application): Helps you understand and improve the security of your Business Central application regardless of where it's hosted.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10065 [Quality Management] Quality Inspection User assignment fixes](../../../../../changes/bcapps/10065.md) (code change): "Improved validation logic in permission management codeunit"
+- [#10346 Fix activity log indirect permissions](../../../../../changes/bcapps/10346.md) (code change): "All activity writes remain code-mediated through Expense Activity Log Mgt"
+- [#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions](../../../../../changes/bcapps/8556.md) (code change): "InherentPermissions added to Quality Inspection Setup and Generation Rule tables to control access"
+- [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../../changes/bcquality/110.md) (code change): "Privacy and UI/accessibility code review skills now emit only knowledge-backed findings instead of general agent-generated findings"
+- [#131 Correct table-level data classification guidance](../../../../../changes/bcquality/131.md) (code change): "table-level data classification is inherited by fields unless explicitly overridden"
+- [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
+- [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"
+- [#99 Add lifecycle error and privacy knowledge](../../../../../changes/bcquality/99.md) (code change): "ErrorInfo privacy exposure, and FeatureTelemetry logging, plus related review skills"
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../../posts/demiliani-com/13588.md) (community post): "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

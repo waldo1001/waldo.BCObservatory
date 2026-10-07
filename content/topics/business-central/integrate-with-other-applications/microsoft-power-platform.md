@@ -2,21 +2,21 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform
 type: topic
 title: Microsoft Power Platform
-summary: "Microsoft Power Platform integration with Business Central: the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and exposing data to external users."
+summary: Microsoft Power Platform integration with Business Central covers the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and giving external users access to data.
 tier: official
 language: en
 system: platform
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:18:22.682Z"
+  at: "2026-10-07T13:37:30.848Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 891e177a7f6a5bab807de1c8af538db5641fb7c6d61a81bf09e5232f9abb9caa
+  input_hash: 587118babbcbe828a80986733906f4083a798d327dbb1e41c9d45549e17077b6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
@@ -138,6 +138,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12189
 learn_toc_path:
   - Integrate with other applications
   - Microsoft Power Platform
@@ -164,26 +166,27 @@ narrative: generated
 
 # Microsoft Power Platform
 
-> Microsoft Power Platform integration with Business Central: the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and exposing data to external users.
+> Microsoft Power Platform integration with Business Central covers the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and giving external users access to data.
 
 Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Power Platform · tier official · system platform · narrative reviewed by Opus
 
 ## Overview
 
-This section explains how Business Central works with the Power Platform services. An introductory page covers the Business Central connector, Power Apps custom solutions, Power Automate flows, Power BI semantic models and reporting, and Power Pages with virtual tables, including Dataverse.
+This section explains how Business Central works with the Power Platform. The top-level page introduces the Business Central connector, Power Apps custom solutions, Power Automate flows, Power BI semantic models and reporting, and Power Pages virtual tables, with Dataverse as the shared layer for some scenarios.
 
-Three subtopics go deeper. Power Apps covers building apps on Business Central data, including canvas apps, AI Builder and mixed-reality options. Power Automate covers no code/low code flows with the connector, including flow types, triggers, actions and troubleshooting. Power BI is the largest part, with eight pages on licensing, connecting online and on-premises environments, building reports in Power BI Desktop, FactBoxes and the built-in Power BI apps.
+Each service has its own subtopic. Power Apps covers building apps on Business Central data through the connector, API tables, custom APIs and canvas apps. Power Automate covers no code/low code workflows, flow types, triggers and actions, and troubleshooting. Power BI is the largest area: licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and the built-in Power BI apps.
 
-A separate page covers Power Pages on virtual tables (preview), which lets unlicensed external users reach Business Central online data through portals. Start with the introductory page to pick the service, then move to the matching subtopic.
+A separate page describes Power Pages on virtual tables (preview), which lets unlicensed external users reach Business Central online data through portals. Start with the overview page to pick the service, then go to the matching subtopic for setup details.
 
 ## Key points
 
-- The introductory page covers the Business Central connector, Power Apps custom solutions, Power Automate flows, Power BI semantic models and reporting, and Power Pages on Dataverse virtual tables. Start there to pick a service.
-- Power Apps: connect to a Business Central environment and build canvas apps on Business Central data, with custom UI, AI Builder and augmented/mixed-reality options.
-- Power Automate: no code/low code flows built with the Business Central connector, covering flow types, triggers and actions, using flows in Business Central, and troubleshooting automated flows.
-- Power BI is the largest subtopic (eight pages). It covers licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and the built-in Power BI apps.
-- Power Pages on virtual tables (preview) gives unlicensed external users access to Business Central online data through Power Pages portals running on Dataverse virtual tables.
-- Power Pages features include anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration. List/subgrid editing is supported from 2023 release wave 2, and the page also references version 23.1.
+- Power Automate flows use the Business Central connector, and Power Apps connects to a Business Central environment through the Power Apps connector.
+- Power Apps: connect to a Business Central environment, use API tables and custom APIs, and build canvas apps. Options include custom UI, AI Builder, and augmented or mixed reality.
+- Power Automate: build no code/low code workflows with triggers and actions, use flows in Business Central, and troubleshoot automated flows.
+- Power BI: covers licensing, enabling online and on-premises connections, Power BI Desktop reports, FactBox reports, and built-in Power BI apps.
+- Power Pages on virtual tables is a preview feature that lets unlicensed external users reach Business Central online data through portals running on Dataverse virtual tables.
+- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, and basic forms. List/subgrid editing is supported from 2023 release wave 2, and the page also mentions version 23.1.
+- Start at the top-level integration page, which covers the connector, Power Apps, Power Automate, Power BI semantic models and reports, and Power Pages virtual tables, then go to the subtopic for the service you need.
 
 ## Subtopics
 
@@ -195,6 +198,12 @@ A separate page covers Power Pages on virtual tables (preview), which lets unlic
 
 - [Integrate with Microsoft Power Platform](https://learn.microsoft.com/dynamics365/business-central/powerplatform-integration-overview): Learn how to integrate Business Central with the Microsoft Power Platform
 - [Power Pages on virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview): How-to description
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12189 Removing the restriction of deploying Power BI reports only to evaluation companies](../../../changes/bcapps/12189.md) (code change): "Power BI report deployment now works with regular companies"
 
 ## Business Central pages and reports
 

@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:39:23.275Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 93167327862f45774ae481746ef5d841d211b34b98631c9707fea91fb77ec432
+  input_hash: 9449c588e6f47ed91ab7b0de30c138a138e938f4c0b29bab1d0a09a24a1307d4
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/
@@ -62,6 +62,16 @@ systems:
   - copilot
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-45-hide-agents-icon.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:18.855Z"
 ---
 
 # BC Friday Tips #45 Hide Agents Icon

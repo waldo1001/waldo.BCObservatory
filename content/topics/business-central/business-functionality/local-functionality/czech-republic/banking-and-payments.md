@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:46.199Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9776
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -92,5 +94,11 @@ Start with the page that matches your process: banking documents for bank-based 
 
 - [Banking Documents Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz): Learn about the features and functionality of the Banking Documents Localization extension for the Czech Republic in Business Central.
 - [Cash Desk Localization for Czech (Extension)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz): Provides features for cash register operations in compliance with Czech legislation and best practices for Microsoft Dynamics 365 Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9776 [main] bug 639499 - fix: Remove Status = Released condition from Send action buttons on Cash Document page](../../../../../changes/bcapps/9776.md) (code change): "Release and Send and Post and Send actions on the Cash Document page are now enabled"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

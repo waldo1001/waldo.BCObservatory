@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T22:00:06.801Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c704eaacae6a80840ea42cbd4392ff216f3d537972ce7f181fbb6d35d53e1480
+  input_hash: ad6125f0548cad45d56677fd5f06388d3ada891345eb0cc2cd59fc9d56745b5b
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/
@@ -72,13 +72,23 @@ systems:
   - sales
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-70-email-scenario-attachment.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:39.892Z"
 ---
 
 # BC Friday Tips #70 Email Scenario Attachment
 
-> Email scenarios in Business Central can include default attachments that are automatically sent with every email, such as terms and conditions attached to invoice emails. This prevents missed attachments and ensures consistent communication without requiring manual user action each time.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-17 · 85 words · tier community · **unreviewed** (machine-generated)
+
+> Email scenarios in Business Central can include default attachments that are automatically sent with every email, such as terms and conditions attached to invoice emails. This prevents missed attachments and ensures consistent communication without requiring manual user action each time.
 
 ## Key points
 

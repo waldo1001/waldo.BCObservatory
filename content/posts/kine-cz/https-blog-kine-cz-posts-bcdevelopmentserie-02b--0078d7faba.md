@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T22:01:02.819Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ec182a8a5205ac0e6be97e5bf0da5cad1d25d1380050090cb2ca64252c191d80
+  input_hash: a12391fba06af3db8ac1d66cca03e928c0b3d4f8f883289bdab3e0c6163a852e
 evidence:
   - kind: blog
     url: https://blog.kine.cz/posts/bcdevelopmentserie-02b/
@@ -94,13 +94,23 @@ systems:
   - platform
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://blog.kine.cz/assets/BCDevSerie/BCDevSeriePart02.svg
+  image_alt: "Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production"
+  image_w: null
+  image_h: null
+  site_name: Kine's info
+  favicon: https://blog.kine.cz/favicon.ico?v=1
+  probed_at: "2026-10-07T11:50:24.080Z"
 ---
 
 # Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production
 
-> AI-generated Business Central code can compile and appear functional while containing hidden bugs that silently corrupt data or cause performance issues. Developers must validate AI output across architecture, performance, standard processes, testing, security, and localization before production use, requiring broad domain expertise and proper guardrails.
-
 [Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02b/) · Kine's info (Kamil Sacek, MVP) · 2026-03-30 · 3635 words · tier community · **unreviewed** (machine-generated)
+
+> AI-generated Business Central code can compile and appear functional while containing hidden bugs that silently corrupt data or cause performance issues. Developers must validate AI output across architecture, performance, standard processes, testing, security, and localization before production use, requiring broad domain expertise and proper guardrails.
 
 ## Key points
 

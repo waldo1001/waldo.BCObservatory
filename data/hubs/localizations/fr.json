@@ -1,119 +1,146 @@
 {
   "country": "FR",
   "version": "29",
-  "input_hash": "6a792d9901692fc4199bffaeded258a3b98a14410f74b65c4f8bf5da3bbff952",
-  "summary": "France (FR) localization of Business Central 29. It covers payment management with payment slips, RIB bank details and SEPA, French general ledger reports, fiscal period and year closing, FEC and XML ledger exports, accelerated (derogatory) depreciation, SIREN/SIRET fields, and French sales invoice specifics.",
-  "overview": "The French layer adds a full payment management module: payment classes, statuses, steps, payment slips with archive, payment addresses, and reports such as Bill, Draft, Remittance, Withdraw, Transfer and SEPA ISO20022. Bank, customer and vendor bank account tables get Agency Code, RIB Key and RIB Checked fields, and codeunit 10801 \"RIB Key\" handles the key. Learn documents this under Payment Management [FR], Set Up Payment Classes [FR], Create Payment Slips [FR] and How to Export Payments.\n\nIn finance, the code adds French trial balance, journal and detail reports for G/L, customers, vendors and banks, FR account schedules, G/L entry application (Applies-to ID, Letter, Letter Date), reconciliation reports, and XML and audit exports. Accounting Period and General Ledger Setup carry fiscal closing and posting range logic, supported by codeunit 10862 \"Fiscal Year-FiscalClose\". Fixed assets gain derogatory (accelerated) depreciation through new fields on FA Posting Group, Depreciation Book and FA Depreciation Book, plus extra procedures in disposal, depreciation and posting codeunits.\n\nCompany Information, Contact, Customer and Vendor carry French identifiers (SIREN, SIRET, APE Code, Trade Register, Legal Form, Stock Capital). Sales invoice and credit memo reports get goods/services and VAT paid on debits text. Learn also covers UBL 2.1 and Factur-X e-invoicing, e-reporting and DEB declarations.",
+  "input_hash": "e1f5362be124e96aa484245883863669d312b90d7cd1d6755c3d3d49ad05ce4f",
+  "summary": "France localization of Business Central 29. It adds French payment management with payment slips, RIB bank keys, the FEC tax audit export, fiscal year closing, accelerated (derogatory) depreciation, SIREN/SIRET identifiers, DEB Intrastat and service declarations. It answers questions about local setup, posting rules and reports.",
+  "overview": "The French layer is dominated by payment management: payment classes, statuses, steps, payment slips (with archive), payment addresses and step ledgers. These come as FR objects (pages 10831 to 10854, codeunits 10831 to 10844) plus a second set of non-suffixed objects (codeunit 10860 \"Payment Management\", pages 10860 to 10882). Bank, customer and vendor bank accounts get French RIB fields (Agency Code, RIB Key, RIB Checked). Learn documents creating, posting, archiving and exporting payment slips, payment classes, payment addresses and parameter export/import.\n\nFinance changes cover the FEC audit file export (codeunits 10826 to 10830, an Audit File Export format enum extension), fiscal period and fiscal year closing (new fields on table 50 \"Accounting Period\", table 98 \"General Ledger Setup\" posting ranges), G/L entry application (Applies-to ID, Letter, Letter Date on table 17 \"G/L Entry\"), delayed unrealized VAT, and local ledger reports such as journals, trial balances and the GL/Cust. Ledger Reconciliation. Fixed assets add derogatory (accelerated) depreciation through new fields on posting groups, depreciation books and ledger entries, and extra procedures in disposal and posting codeunits.\n\nElsewhere the country adds SIREN/SIRET and company registration fields on Company Information, Customer, Vendor and Contact, VAT Paid on Debits and goods/services text on sales invoices, DEB Intrastat objects, and French service declaration extensions. Learn also covers UBL 2.1 and Factur-X e-invoicing and E-Reporting FR, though the code listed here shows no dedicated objects for them.",
   "key_points": [
-    "Payment management: payment classes, statuses, steps, slips, archive, payment addresses, and export or import of setup parameters",
-    "RIB bank details (Agency Code, RIB Key, RIB Checked) on bank, customer and vendor bank accounts, validated by codeunit 10801",
-    "French G/L reports: Journals, G/L, customer, vendor and bank trial balances, FR account schedules, ledger reconciliations",
-    "Fiscal periods and years: fiscal close and reopen of accounting periods, posting date ranges, two open fiscal years, year-end closing",
-    "Audit exports: FEC format and XML export of G/L entries, with opening balances via Detailed Balance on G/L Account",
-    "Accelerated depreciation using derogatory posting types and separate accounting and tax depreciation books",
-    "SIREN and SIRET validation on Company Information, Customer, Vendor and Contact",
-    "Sales documents show VAT Paid on Debits and goods/services indications; delayed unrealized VAT handled in Gen. Jnl.-Post Line"
+    "Payment management: payment classes, statuses, steps, slips, archive, payment addresses and step ledgers, in FR and non-suffixed object sets",
+    "RIB fields (Agency Code, RIB Key, RIB Checked) on Bank Account, Customer Bank Account and Vendor Bank Account, with RIB Key codeunits",
+    "FEC tax audit export built on the Audit File Export framework, with opening balances and data checks",
+    "Fiscal period and year closing: Fiscally Closed, Fiscal Closing Date and Period Reopened Date on Accounting Period, plus posting allowed range on General Ledger Setup",
+    "Accelerated depreciation with derogatory books, posting group accounts and FA reports",
+    "SIREN, SIRET, APE code, Trade Register, Legal Form and Stock Capital on Company Information, Contact, Customer and Vendor",
+    "French sales invoice specifics: VAT Paid on Debits and goods/services text on standard sales reports",
+    "DEB Intrastat reporting (obligation level) and French service declaration (DES) extensions"
   ],
   "areas": [
     {
       "area": "Bank",
-      "what": "Adds the French payment management module: payment classes, statuses, steps, payment headers and lines, archives, addresses, and many pages and reports for bills, drafts, remittances, withdrawals, transfers and SEPA ISO20022. Bank Account gets RIB fields, and French bank account trial balance and journal reports are added. SEPA codeunits get extra events and a payment line check.",
-      "why": "Learn explains payment classes with statuses and steps that drive slips for vendors and customers, with SEPA export and archiving of processed slips.",
+      "what": "Adds the French payment management feature: payment classes, statuses, steps, payment slips with archive, payment bank and addresses, step ledgers. Adds RIB key fields to table 270 \"Bank Account\", plus SEPA check and Check report changes for French amount text.",
+      "why": "Learn describes payment classes, steps and slips used to manage bills of exchange, checks and SEPA transfers, and export of payment files.",
       "objects": [
         "codeunit/10860",
-        "table/10865",
-        "table/10866",
-        "table/10860",
+        "codeunit/10837",
         "codeunit/10801",
         "table/270",
-        "report/10883",
-        "codeunit/1233"
+        "codeunit/10861",
+        "page/10864",
+        "page/10868",
+        "report/1401"
       ]
     },
     {
       "area": "Finance",
-      "what": "Adds French G/L reports (journals, trial balances, account statement), FR account schedules, G/L entry application, ledger reconciliation reports and XML export of entries. General Ledger Setup, G/L Entry and Gen. Journal Line get fields for posting ranges, letters and delayed unrealized VAT, with matching procedures in Gen. Jnl.-Post Line.",
-      "why": "Learn describes these as required French reports and tax audit exports, plus apply and unapply of G/L entries (flagged as being replaced).",
+      "what": "Adds FEC audit export, French trial balance and journal reports, fiscal year closing, G/L entry application and delayed unrealized VAT. Extends Gen. Jnl.-Post Line and journal line tables with derogatory and VAT realization fields, and G/L Setup with posting ranges.",
+      "why": "Learn documents FEC export for tax audits, fiscal period closing with two open fiscal years, and year-end closing entries.",
       "objects": [
         "codeunit/12",
+        "codeunit/10826",
+        "codeunit/10862",
+        "codeunit/10842",
         "table/81",
         "table/98",
         "table/17",
-        "codeunit/10862",
-        "report/10803",
-        "report/10820",
-        "xmlport/10800"
+        "report/10803"
       ]
     },
     {
       "area": "FixedAssets",
-      "what": "Implements accelerated (derogatory) depreciation with new fields on FA Posting Group, Depreciation Book and FA Depreciation Book, derogatory posting types in enums, and extra logic in disposal, depreciation and journal posting codeunits. Adds professional tax on Fixed Asset and two French reports.",
-      "why": "Learn says accelerated depreciation computes differences between tax and accounting books using derogatory posting types.",
+      "what": "Adds derogatory (accelerated) depreciation: fields on FA Posting Group, Depreciation Book, FA Depreciation Book and FA Ledger Entry, derogatory posting types in enums, and procedures in disposal, depreciation and posting codeunits. Adds professional tax reports.",
+      "why": "Learn explains accelerated depreciation as the difference between tax and accounting depreciation books.",
       "objects": [
         "table/5606",
         "table/5611",
         "table/5612",
         "codeunit/5605",
-        "report/5692",
+        "codeunit/5613",
         "codeunit/5633",
-        "report/10886",
-        "report/10812"
+        "report/5692",
+        "report/10817"
       ]
     },
     {
       "area": "Sales",
-      "what": "Adds SIREN No. and payment-in-progress fields on Customer, RIB fields on customer bank accounts, and VAT Paid on Debits on sales headers. Standard invoice and credit memo reports get goods/services and VAT on debits texts. Shipment-to-invoice links get their own table and pages, and French customer trial balance and journal reports are added.",
-      "why": "Learn covers SIREN setup, VAT paid on debts printing and automatic goods or services indication on French invoices.",
+      "what": "Adds SIREN No. and payment reporting fields on Customer, VAT Paid on Debits on sales headers, goods and services text procedures on standard sales invoice reports, and French customer ledger reports. Adds shipment-invoice linking via table 10825 \"Shipment Invoiced\".",
+      "why": "Learn covers customer SIREN numbers, printing VAT on debits and automatic goods/services indication on invoices.",
       "objects": [
         "table/18",
         "table/36",
         "report/1306",
         "report/1303",
         "table/10825",
-        "page/10837",
+        "codeunit/80",
         "report/10805",
         "table/287"
       ]
     },
     {
+      "area": "Inventory",
+      "what": "Adds DEB Intrastat support: codeunits for filtering receipts and shipments, an obligation level enum, and extensions on the Intrastat report and company information. Adds Shipment Method Code on item entries.",
+      "why": "Learn describes DEB reporting that needs company information and Intrastat fields filled in, with obligation level filters.",
+      "objects": [
+        "codeunit/10851",
+        "codeunit/10853",
+        "codeunit/10854",
+        "enum/10851",
+        "tableextension/10851",
+        "pageextension/10852",
+        "table/32"
+      ]
+    },
+    {
       "area": "Purchases",
-      "what": "Adds SIREN No., payment-in-progress and payment reporting exclusion fields on Vendor, RIB fields on vendor bank accounts, and French vendor trial balance and journal reports.",
+      "what": "Adds RIB fields on Vendor Bank Account, SIREN No. and payment fields on Vendor, plus vendor trial balance and journal reports.",
       "why": null,
       "objects": [
-        "table/23",
         "table/288",
+        "table/23",
+        "report/10814",
         "report/10807",
         "report/10808",
-        "report/10814",
-        "table/1383"
+        "table/1383",
+        "table/317"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Company Information gets French identity fields and SIRET validation with an event. Accounting Period gets fiscal close, reopen and posting range logic. Date filter and navigate helpers are extended, and Country/Region gets SEPA Allowed.",
-      "why": "Learn explains fiscal closing of periods and years, with two open fiscal years allowed, and the company data needed for e-invoicing and DEB.",
+      "what": "Extends Company Information with French registration fields and SIRET validation with an event, and Accounting Period with fiscal closing logic. Adds a SEPA Allowed flag on Country/Region and date filter helpers.",
+      "why": "Learn notes that company information such as SIRET and SIREN is needed for e-invoicing and DEB reporting.",
       "objects": [
         "table/79",
         "table/50",
         "codeunit/358",
         "table/9",
-        "codeunit/355",
+        "codeunit/10833",
         "table/10"
       ]
     },
     {
-      "area": "Inventory",
-      "what": "Adds Shipment Method Code to Item Ledger Entry and Item Journal Line, and changes the Intrastat journal line for French trade declarations.",
-      "why": "Learn lists the Intrastat journal fields needed for the DEB declaration of trade in goods.",
+      "area": "(no namespace)",
+      "what": "Holds mostly upgrade code, the FR-PMS permission set, a source code table extension and an Employee Marital Status enum.",
+      "why": null,
       "objects": [
-        "table/32",
-        "table/83",
-        "table/263"
+        "permissionset/10800",
+        "tableextension/10810",
+        "enum/5226"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Adds local service declaration (DES) management and export codeunits, with setup page extensions and a permission set extension.",
+      "why": null,
+      "objects": [
+        "codeunit/10890",
+        "codeunit/10891",
+        "codeunit/10892",
+        "pageextension/10890",
+        "pageextension/10891"
       ]
     },
     {
       "area": "Security",
-      "what": "Changes the LOCAL and LOCAL READ permission sets to cover the French objects.",
+      "what": "Changes the LOCAL and LOCAL READ permission sets to include French objects.",
       "why": null,
       "objects": [
         "permissionset/1001",
@@ -122,15 +149,23 @@
     },
     {
       "area": "CRM",
-      "what": "Contact gets Trade Register, APE Code, Legal Form, Stock Capital and SIREN No., with procedures that keep the customer SIREN in sync.",
+      "what": "Adds French registration fields (Trade Register, APE Code, Legal Form, Stock Capital, SIREN No.) to Contact, with procedures to keep the customer SIREN number in sync.",
       "why": null,
       "objects": [
         "table/5050"
       ]
     },
     {
+      "area": "ExpenseAgent",
+      "what": "Adds an FR expense event subscriber codeunit.",
+      "why": null,
+      "objects": [
+        "codeunit/6920"
+      ]
+    },
+    {
       "area": "HumanResources",
-      "what": "Employee gets a Marital Status field, backed by a local enum.",
+      "what": "Adds a Marital Status field to Employee.",
       "why": null,
       "objects": [
         "table/5200"
@@ -139,10 +174,10 @@
   ],
   "learn_pages_used": 34,
   "prompt_version": 2,
-  "at": "2026-10-06T23:52:35.291Z",
+  "at": "2026-10-07T13:26:18.470Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.126014
+    "cost_usd": 0.1921632
   }
 }

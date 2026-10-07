@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9109,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9109",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-07T14:34:14Z",
+  "merge_commit_sha": "fad7f7522e8b5c064a81c5b07181c29416e1c4f6",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Add Transactions navigation action to Shopify Refund page",
+  "body_hash": "cc2988848828f63cea6947ebfa9635adb76853b87e8cc7d8d7ac294d474a160e",
+  "fixes_issues": [],
+  "work_items": [
+    640429
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefund.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 11,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefund.Page.al",
+        "status": "modified",
+        "key": "page/30145",
+        "type": "page",
+        "id": 30145,
+        "name": "Shpfy Refund",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30145"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

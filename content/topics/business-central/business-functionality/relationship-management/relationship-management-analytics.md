@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,6 +172,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9544
 learn_toc_path:
   - Business functionality
   - Relationship management
@@ -253,6 +255,12 @@ Start with the overview page to find the report you need. Then open its page to 
 - [Segment - Contacts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5063): Review the distribution of contacts across segments.
 - [Segment - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5064): Get or print cover sheets for your segments.
 - [Segment - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5065): Print labels with the names and addresses of contacts for your segments.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9544 636017 Move CRM report action tooltips to report objects](../../../../changes/bcapps/9544.md) (code change): "CRM report action tooltips are moved from page actions to report objects"
 
 ## Business Central pages and reports
 

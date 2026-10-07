@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:08.742Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11342
 learn_toc_path:
   - Integration
   - Web services
@@ -118,5 +120,11 @@ Start with Publish a Web Service to get an endpoint running. Then read the UI in
 - [Handling UI interaction when working with web services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/handling-ui-interaction-when-working-with-web-Services): Describes how UI methods can make web service calls fail.
 - [Publish a Web Service](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service): Explains how to publish page, query, and codeunits as web services.
 - [Troubleshooting errors in OData/SOAP web services on pages, queries, and codeunits.](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting-soap-odata-ui-pages): Learn about how to troubleshoot Business Central web service errors on OData/SOAP endpoints on pages, queries, and codeunits.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11342 [29.x][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachmentsIntial Commit](../../../../changes/bcapps/11342.md) (code change): "Document attachments transferred after posting a sales invoice"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

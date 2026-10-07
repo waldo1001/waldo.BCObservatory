@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,6 +82,11 @@ links:
     - post/aardvarklabs-blog/2866
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
   guidelines: []
+  changes:
+    - change/bcapps/11968
+    - change/bcapps/12051
+    - change/bcapps/12309
+    - change/bcapps/9073
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -134,10 +139,14 @@ For Excel, "Exporting data to Excel using ExcelBuffer" shows how to create a wor
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
 - [XMLport Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview): Get an overview of the XMLport object in AL, which is composed of an XMLport schema, a request page, and properties, triggers, and code that you can extend.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11968 Bug 648782: omit the buyer PartyTaxScheme when the company has no VAT registration](../../../../../changes/bcapps/11968.md) (code change): "PartyTaxScheme block is skipped entirely when VAT Registration No. is empty"
+- [#12051 [Peppol] Fix Remittance Advice XML line count, Note order and invoice reference](../../../../../changes/bcapps/12051.md) (code change): "Peppol remittance advice XML export now correctly reports"
+- [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
+- [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values (CSV) customer data into Business Central by parsing delimited files"
 - [Essential Guides to Data Imports in Business Central](../../../../../posts/aardvarklabs-blog/2333.md) (community post): "Guide to data import and export operations in Business Central using AL code"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "Data is parsed into separate staging tables before creating actual sales orders"

@@ -18,11 +18,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:27.091Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 19179bb93316d96b5b716c656a094a55cf3726bfc765a05415272a3a005be602
+  input_hash: ffed5cac0bc22a598a6821c5d03c43dc219823faf04abf4dbf14c78094beb83a
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/
@@ -73,6 +73,16 @@ systems:
   - development
   - inventory
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-32-unit-of-measure-management-codeunit.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:35.542Z"
 ---
 
 # BC Friday Tips #32 Unit of Measure Management Codeunit

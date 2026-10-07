@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:58:11.201Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 2ea179c46764c4ecbf6c3f6023ab75fe1834383160d2104aec0b5610a842bdd1
+  input_hash: 66befb0c42bbf77a1ee92d5f478d47066cbaaffc1d92b5a5f7ec973c716893f4
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/
@@ -72,13 +72,23 @@ systems:
   - administration
   - integration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2026/bc-friday-tips-73-show-all-configuration-package-errors.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:31.339Z"
 ---
 
 # BC Friday Tips #73 Show All Configuration Package Errors
 
-> When applying a Configuration Package in Business Central, users can view all errors on a single page by clicking the Error section, allowing faster review and resolution without checking entries individually.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-29 · 92 words · tier community · **unreviewed** (machine-generated)
+
+> When applying a Configuration Package in Business Central, users can view all errors on a single page by clicking the Error section, allowing faster review and resolution without checking entries individually.
 
 ## Key points
 

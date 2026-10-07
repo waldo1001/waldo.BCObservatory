@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,10 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10179
+    - change/bcapps/12213
+    - change/bcapps/12304
 learn_toc_path:
   - Business functionality
   - Finance
@@ -149,6 +153,14 @@ This section groups the analysis tools that come with Business Central finance. 
 - [Analyze cash flows](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow): Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
 - [Understand the general ledger and Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger): This article describes the general ledger, chart of accounts, and account categories.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10179 [master] Financial Report Recalculate clears Global Dimension filters](../../../../../changes/bcapps/10179.md) (code change): "Recalculating a financial report no longer clears Global Dimension filters"
+- [#12213 [Financial Reports] Add row and column definition preview](../../../../../changes/bcapps/12213.md) (code change): "Financial report row and column definitions now include preview capability"
+- [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "Fixed a page opening issue caused by the FlowField 'Last Run By User' in Financial Report tables"
 
 ## Business Central pages and reports
 

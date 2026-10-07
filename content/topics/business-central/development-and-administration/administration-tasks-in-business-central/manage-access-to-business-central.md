@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
 type: topic
 title: Manage access to Business Central
-summary: "Access control for Business Central: licenses, user accounts, environment access, permissions, and security groups. It answers questions about who can use the system, how to grant permissions, how to use Microsoft Entra or Active Directory security groups, and how Microsoft 365 licenses give read-only access through Teams."
+summary: "Managing access to Business Central: licensing, user accounts, environment access, permissions and security groups. It answers questions on who can use the system, how to grant permissions, how to use security groups, and how Microsoft 365 licenses give read-only access through Teams."
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:27.895Z"
+  at: "2026-10-07T13:37:27.484Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bd02bfc737d4992b18029cb11c2e07052c687519dd59fde1596c0ed5b4fd9c65
+  input_hash: 43db5ecea86bc8cffd552a6a83843833997fdaa46ee9246fef867d91cfd083c0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -145,28 +145,28 @@ narrative: generated
 
 # Manage access to Business Central
 
-> Access control for Business Central: licenses, user accounts, environment access, permissions, and security groups. It answers questions about who can use the system, how to grant permissions, how to use Microsoft Entra or Active Directory security groups, and how Microsoft 365 licenses give read-only access through Teams.
+> Managing access to Business Central: licensing, user accounts, environment access, permissions and security groups. It answers questions on who can use the system, how to grant permissions, how to use security groups, and how Microsoft 365 licenses give read-only access through Teams.
 
 Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage access to Business Central · tier official · system administration · narrative reviewed by Opus
 
 ## Overview
 
-Managing access to Business Central is layered. The main page introduces the pieces: a Dynamics 365 Business Central license or a Microsoft 365 license, user accounts, environment access, permission sets, Microsoft Entra security groups, Multi-Factor Authentication, and Azure service tags.
+This section describes a layered approach to controlling who can use Business Central. The layers are licenses (Dynamics 365 Business Central and Microsoft 365), user accounts, environment access, permissions, and security groups. Multi-Factor Authentication and Azure service tags are also named among the topics.
 
-The pages then go deeper on each layer. The security groups page explains how to apply permissions to all members of a group, with support for Microsoft Entra ID and Windows Active Directory in online and on-premises deployments. The Grant user permissions subtopic covers creating users by license type, assigning permission sets, and defining granular permissions. The Microsoft 365 licenses subtopic covers read-only access to Business Central data through Microsoft Teams.
+The main page, Manage Access to Business Central, gives the overview and is the best place to start. From there, Control Access Using Security Groups explains how to apply permissions to all members of a group, with Microsoft Entra ID or Windows Active Directory, online or on-premises.
 
-Start with the main page to see how licensing, accounts and permissions fit together. Then go to the subtopic that matches your task: user setup, group-based permission management, or Microsoft 365 license access.
+Two subtopics go deeper. Grant user permissions covers creating users by license type, assigning permission sets, and defining granular permission sets with record-level security filters. Access with Microsoft 365 licenses covers read-only access to Business Central data through Microsoft Teams.
 
 ## Key points
 
-- The main page covers licensing, user accounts, environment access, permissions, and security groups as layers of access control.
-- Security groups apply permissions to all members and work with Microsoft Entra ID and Windows Active Directory, online and on-premises.
-- Security group tasks include creating groups, assigning permissions, company-specific permissions, multi-company access, and managing membership.
-- Granting user permissions covers creating users by license type and assigning permission sets.
-- Granular permission sets can define read, insert, modify, delete and execute access, including record-level security.
-- Microsoft 365 license holders get read-only access to Business Central data through Microsoft Teams.
-- The Microsoft 365 license pages cover setup, authentication, user provisioning, and common licensing and permission questions.
+- Access control has layers: licenses, user accounts, environment access, permissions, and security groups.
+- Security groups apply permissions to all members and support Microsoft Entra ID and Windows Active Directory, online and on-premises.
+- Security groups can carry company-specific permissions and give access to multiple companies; group membership is managed in the groups.
 - The security groups page lists versions 25.11, 26.5 and 27.4.
+- Users are created according to license type and given permission sets, with license assignment, user groups and delegated admin also covered.
+- Granular permission sets define read, insert, modify, delete and execute access, plus indirect permissions and security filters for record-level security.
+- Permissions can be imported and exported.
+- Microsoft 365 license holders get read-only access to Business Central data through Teams; the subtopic covers setup, authentication, provisioning and licensing questions.
 
 ## Subtopics
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.119Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,6 +181,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/al-go/2346
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -242,6 +244,12 @@ Power Pages on virtual tables is described on its own page in this section. It i
 
 - [Integrating Business Central with Microsoft Power Platform](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplatform-integration-overview): Learn how to integrate Business Central with Microsoft Power Platform using connectors to enhance productivity.
 - [Power Pages on virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview): How-to description
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Power Platform deployment workflows and updated the dependabot configuration"
 
 ## Business Central pages and reports
 

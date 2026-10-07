@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:12.080Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9140
+    - change/bcapps/9987
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -164,6 +167,13 @@ Start with the Payment Management overview for the concepts. Then set up payment
 - [Payment Management [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management): Learn how to use the payment management function to manage bills of exchange, electronic payments, and vendor payments in the French version of Business Central.
 - [Set Up Payment Addresses [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-addresses): Learn how to configure payment addresses for vendors and customers to streamline settlement processes.
 - [Set Up Payment Classes [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes): Learn how to configure payment classes, payment steps, statuses, and ledger information to manage operation types, such as bills of exchange, electronic payments, or checks.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9140 Remap object IDs during Payment Management FR data](../../../../../changes/bcapps/9140.md) (code change): "Payment Management FR now automatically remaps legacy report"
+- [#9987 Fix Payment Management FR data update paths and per-company feature status](../../../../../changes/bcapps/9987.md) (code change): "Fixed French payment management data migration path by centralizing migration logic"
 
 ## Business Central pages and reports
 

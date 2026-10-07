@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,6 +102,16 @@ links:
     - video/z4Ri5SAqUcc
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10011
+    - change/bcapps/10124
+    - change/bcapps/10136
+    - change/bcapps/10172
+    - change/bcapps/10176
+    - change/bcapps/10281
+    - change/bcapps/11336
+    - change/bcapps/11567
+    - change/bcapps/9984
 learn_toc_path:
   - Business functionality
   - Finance
@@ -220,10 +230,19 @@ Start with the overview of tasks to manage payments to vendors, which links the 
 - [Suggest vendor payments](https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments): Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
 - [Working with general journals to post directly to G/L](https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals): Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../../changes/bcapps/10011.md) (code change): "Purch. Cr. Memo Line avoids full-key scans when Order No. is empty"
+- [#10124 [Extensibility Request] issue 30400: add credit memo line filter event](../../../../../changes/bcapps/10124.md) (code change): "A new integration event allows extensions to filter purchase credit memo lines before they are selected"
+- [#10136 [CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds](../../../../../changes/bcapps/10136.md) (code change): "Swiss SEPA CT export now automatically extracts the clearing number from the IBAN"
+- [#10172 [Extensibility Request] issue 30111: add purchase prepayment update events](../../../../../changes/bcapps/10172.md) (code change): "Three integration events are added to the purchase prepayment line update procedure"
+- [#10176 [Main][all-e]Prepayment Invoice and Quantity Change Issue in Business Central](../../../../../changes/bcapps/10176.md) (code change): "Fixed an issue where prepayment invoices were not handled correctly when purchase or sales line quantities were changed"
+- [#10281 [Extensibility Request] issue 30416: add purchase budget navigation events](../../../../../changes/bcapps/10281.md) (code change): "The purchase budget overview matrix page now exposes before and after integration events"
+- [#11336 [master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11336.md) (code change): "Report 400 now includes applied vendor refund entries"
+- [#11567 [29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11567.md) (code change): "Report 400 Remittance Advice now includes applied vendor refund"
+- [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"
 - [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../../videos/z4Ri5SAqUcc.md) (video): "Payment Journals; Suggest Vendor Payments; Vendor Priority"
 

@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:45:33.310Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: be29f0d47e5cd2b3a4f9871c2bb3cf7552ea4b577152a8a5a9bec8151f4d0621
+  input_hash: 4cb8ad0515fbe2a8d1c6d6584399a35c4e06e9117b423dc1bdbac87a336e184e
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/
@@ -72,13 +72,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/_astro/rdl-barcode-font-vscode.qH8kF2N-_Z1RlqgJ.webp
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:50:21.459Z"
 ---
 
 # BC Friday Tips #76 Barcode Fonts in RDL Reports
 
-> Creating barcodes in Business Central SaaS reports requires setting the FontFamily property directly in RDL files without installing fonts locally. This approach works out of the box and supports various barcode types like Code 93 using fonts such as IDAutomationC93M.
-
 [Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-24 · 155 words · tier community · **unreviewed** (machine-generated)
+
+> Creating barcodes in Business Central SaaS reports requires setting the FontFamily property directly in RDL files without installing fonts locally. This approach works out of the box and supports various barcode types like Code 93 using fonts such as IDAutomationC93M.
 
 ## Key points
 

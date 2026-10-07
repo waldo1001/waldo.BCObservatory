@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:25.345Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,8 @@ links:
     - video/9-eo7b2xg8Q
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10253
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -94,10 +96,11 @@ Start with the simple statements page for basic syntax, then go to the control s
 - [AL control statements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements): Compound, conditional, and repetitive control statements in AL for Business Central.
 - [AL simple statements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements): Describes the simple, single-line statements in AL for Business Central with examples
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10253 Avoid starting a write transaction under `ShowCanCreateAgent`](../../../../../changes/bcapps/10253.md) (code change): "ShowCanCreateAgent is invoked after the Commit statement, not before"
 - [The "Continue" Keyword Finally Comes to AL — 3 Practical Examples (BC 2025 Wave 1)](../../../../../videos/9-eo7b2xg8Q.md) (video): "continue keyword in AL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

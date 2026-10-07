@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:57:46.244Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c59044a7fcdb5b982e8c7b4003ffb85958400c410e164892bf535d19af2a2e47
+  input_hash: a863ae0bd9c2900e2897b428ff7a97f63a6e9873c4c2b3bbc7f35698489dbaef
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/
@@ -81,13 +81,23 @@ versions_mentioned:
   - BC 28
   - BC 28.1
   - 2026 Wave 1
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-07T11:50:35.345Z"
 ---
 
 # Weekly Review: Business Central AL Development – May 24–30, 2026
 
-> This weekly review covers five major developments in Business Central AL tooling and performance from May 24 - 30, 2026: index management via new DMV queries and disable/enable capabilities in BC 28, running unit tests without the base app to reduce CI time, Microsoft's OptimAL performance partner program, report layout lifecycle states in BC 28.1, and Claude Code configuration for clearer technical writing.
-
 [Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/) · DvlprLife (Brad Prendergast) · 2026-06-02 · 1007 words · tier community · **unreviewed** (machine-generated)
+
+> This weekly review covers five major developments in Business Central AL tooling and performance from May 24 - 30, 2026: index management via new DMV queries and disable/enable capabilities in BC 28, running unit tests without the base app to reduce CI time, Microsoft's OptimAL performance partner program, report layout lifecycle states in BC 28.1, and Claude Code configuration for clearer technical writing.
 
 ## Key points
 

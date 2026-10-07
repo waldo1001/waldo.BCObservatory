@@ -2,7 +2,7 @@
 id: localization/us
 type: localization
 title: UnitedStates (US)
-summary: United States (US) localization of Business Central 29. It covers sales tax (tax areas, jurisdictions, groups, external tax engine hook), IRS 1099 vendor data, EFT/ACH payment exports, deposits and bank reconciliation, and North American reports. The code also carries Mexican CFDI e-invoicing objects. Use it for US tax, banking and reporting questions.
+summary: United States (US) localization of Business Central 29. It covers sales tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 forms with IRIS submission, EFT and ACH bank payments, deposits, and bank reconciliation. It also carries North American reports and Mexico/Canada-related objects.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 7937ab81beb58d66668ef3db0fedba12c5d9b7e7826d1d99007049304c01e649
+  input_hash: b7e15e39acbd4dd7db65cdab8f933e4b53da3756acb01bb614b680506b59536d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -197,28 +197,28 @@ learn_folder: LocalFunctionality/UnitedStates
 
 # UnitedStates (US)
 
-> United States (US) localization of Business Central 29. It covers sales tax (tax areas, jurisdictions, groups, external tax engine hook), IRS 1099 vendor data, EFT/ACH payment exports, deposits and bank reconciliation, and North American reports. The code also carries Mexican CFDI e-invoicing objects. Use it for US tax, banking and reporting questions.
+> United States (US) localization of Business Central 29. It covers sales tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 forms with IRIS submission, EFT and ACH bank payments, deposits, and bank reconciliation. It also carries North American reports and Mexico/Canada-related objects.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-states.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The US layer is built around sales and use tax. It adds tax-related fields to sales, purchase and service documents, extends codeunit 398 "Sales Tax Calculate" with external tax engine calls, and adds events to the posting codeunits (Sales-Post, Purch.-Post, Serv-Documents Mgt.). Learn covers basic tax setup, sales tax, use tax and purchase tax, and unrealized sales tax with sales payment discounts.
+The US layer is built around sales tax. It extends Tax Area, Tax Jurisdiction and Tax Detail, adds an external tax engine hook, and changes the Sales, Purchase and Service posting codeunits with many events and procedures for sales tax calculation, rounding, prepayments and unrealized tax. Learn documents the basic tax setup, sales tax, use tax and purchase tax, and unrealized sales tax with payment discounts.
 
-Vendor and bank features are the second block. IRS 1099 fields (code, amount, liable flag) sit on vendors, purchase documents and ledger entries. Learn documents the 1099 setup, reporting periods, form boxes, IRIS and magnetic media submission, and the 1096 form. The Bank area adds EFT export codeunits (ACH, RB, Cecoban, IAT), bank reconciliation worksheets and deposits. Learn says standard bank reconciliation replaced the deprecated North American features in 2023 release wave 2.
+The second large block is IRS reporting. Own codeunits, tables, pages and interfaces cover IRS 1099 form boxes, reporting periods, vendor setup, form documents, printing, email, and transmission through IRIS (OAuth client, XML generation, response processing). The IRS 1096 form is also supported. Vendor, purchase header, purchase line and ledger entry tables get 1099 code and amount fields. Learn pages cover setup, tracking, submission, and the regulatory box format changes.
 
-The layer also holds many North American reports and a large set of Mexican objects (CFDI e-invoicing, SAT catalogs, PAC communication, DIOT). These are present in the code, but the Learn pages in the input do not describe them.
+Banking adds electronic payments and EFT export (ACH, RB, Cecoban, IAT) driven by data exchange definitions, check printing helpers, deposits, and the bank reconciliation worksheet. The layer also holds many North American reports, Mexico CFDI/SAT e-invoicing and DIOT objects, Canadian fields, Yodlee, Ceridian payroll, Shopify tax matching, and GP and SL 1099 migration.
 
 ## Key points
 
-- Sales tax: Tax Area, Tax Jurisdiction and Tax Detail extensions, Sales Tax Journal, and tax lines on sales, purchase and service documents.
-- External tax engine: interface and enum plus CallExternalTaxEngine procedures in Sales Tax Calculate, with a Use External Tax Engine flag on Tax Area.
-- IRS 1099: IRS 1099 Code and Amount fields on vendors, purchase documents and vendor ledger entries; Learn covers setup, 1096 and e-filing.
-- EFT and ACH payment export through data exchange codeunits, with Use for Electronic Payments on vendor and customer bank accounts.
-- Deposits and bank reconciliation worksheets, posted bank rec pages, Navigate support for deposits.
-- Canadian elements: GST/HST fields, provincial tax area codes, GIFI codes on G/L accounts.
-- Mexican CFDI e-invoicing: SAT catalogs, PAC web services, stamp and cancel procedures on sales documents.
-- About 175 own reports for sales, purchasing, inventory, projects and resources, plus statistics pages.
+- Sales tax: Tax Area, Tax Jurisdiction and Tax Detail extensions, with an external tax engine option (codeunit 398 "Sales Tax Calculate") and events in Sales-Post, Purch.-Post and service posting.
+- IRS 1099: 1099 code and amount fields on vendors, purchase documents and ledger entries, form boxes, reporting periods, form documents, printing and email to vendors.
+- IRIS electronic submission of 1099 forms, plus magnetic media (FIRE helper) and the IRS 1096 form for paper transmission.
+- EFT and ACH payment export (US, Canada and Mexico formats) using data exchange definitions, with electronic payment fields on bank accounts and journal lines.
+- Deposits and bank reconciliation worksheet, with permission sets and posted records; Learn notes that deprecated North American features moved to the standard version in 2023 release wave 2.
+- Unrealized sales tax and sales payment discounts are handled in Gen. Jnl.-Post Line.
+- Many North American reports for sales, purchases, inventory, projects and service, such as Aged Accounts Payable NA and Inventory Valuation.
+- Mexico CFDI/SAT e-invoicing, DIOT, Canadian GST/HST and provincial tax fields, Shopify tax matching and GP/SL 1099 migration are also present.
 
 Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedStates (US) localization of Business Central in BC29: 824 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -233,144 +233,184 @@ Narrative written by Sonnet from the code diff and 15 Learn page summaries. In n
 | [Purchases](#purchases) | 24 | 44 | 66 |
 | [Inventory](#inventory) | 10 | 31 | 75 |
 | [Service](#service) | 8 | 31 | 0 |
-| DataMigration | 0 | 33 | 0 |
-| Integration | 0 | 23 | 0 |
+| [DataMigration](#datamigration) | 0 | 33 | 0 |
+| [Integration](#integration) | 0 | 23 | 0 |
 | [(no namespace)](#no-namespace) | 0 | 22 | 0 |
 | [Foundation](#foundation) | 10 | 8 | 26 |
 | [Projects](#projects) | 2 | 15 | 4 |
-| Payroll | 0 | 14 | 0 |
+| [Payroll](#payroll) | 0 | 14 | 0 |
 | [Security](#security) | 4 | 7 | 0 |
 | [Utilities](#utilities) | 6 | 5 | 0 |
-| Peppol | 0 | 5 | 0 |
+| [Peppol](#peppol) | 0 | 5 | 0 |
 | [IO](#io) | 4 | 0 | 1 |
 | [Microsoft](#microsoft) | 0 | 4 | 0 |
 | [HumanResources](#humanresources) | 1 | 2 | 2 |
-| ExpenseAgent | 0 | 1 | 0 |
+| [ExpenseAgent](#expenseagent) | 0 | 1 | 0 |
 | [FixedAssets](#fixedassets) | 1 | 0 | 9 |
 
 ### Finance
 
-Extends Sales Tax Calculate with external tax engine calls and events. Adds tax fields on journal lines, G/L accounts, VAT entries and tax setup tables, plus a Sales Tax Journal and GIFI codes. Includes IRS 1099 and EFT fields on general journal lines.
+Adds sales tax calculation, tax setup tables and a sales tax journal. Adds the full IRS 1099/1096 feature set: form boxes, periods, IRIS transmission, printing, email and interfaces. Gen. Jnl.-Post Line gets unrealized VAT and EFT checks. Journal line and G/L tables get tax, 1099 and EFT fields.
 
-Why: Learn describes basic tax setup, sales tax, use tax and unrealized sales tax as the US tax configuration.
+Why: Learn describes sales tax groups, jurisdictions and details, use tax, unrealized sales tax, and IRS 1099 reporting with IRIS submission and regulatory box format changes.
 
-Objects: [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/318 "Tax Area"](../objects/table/318.md), [table/320 "Tax Jurisdiction"](../objects/table/320.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-us.md) (own), [page/10101 "Sales Tax Journal"](../objects/page/10101-us.md) (own).
+Objects: [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/318 "Tax Area"](../objects/table/318.md), [table/320 "Tax Jurisdiction"](../objects/table/320.md), [table/322 "Tax Detail"](../objects/table/322.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [codeunit/10045 "IRS 1099 IRIS Impl."](../objects/codeunit/10045-us.md) (own), [codeunit/10034 "IRS Forms Orchestrator"](../objects/codeunit/10034-us.md) (own).
 
 [All 301 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### eServices
 
-Adds Mexican CFDI e-invoicing: E-Invoice Mgt. and communication codeunits (on-premises and SaaS), PAC web service pages, SAT catalog pages, and export of accounts. Also holds an interface for e-invoice communication.
+Holds Mexican electronic invoicing: CFDI and PAC web services, SAT catalogs, E-Invoice management and cancellation batches, and account export. These objects are carried in the US layer alongside the Mexico setup pages.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-us.md) (own), [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-us.md) (own), [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-us.md) (own), [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-us.md) (own), [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-us.md) (own), [page/10457 "MX Electronic Invoice Setup"](../objects/page/10457-us.md) (own), [page/10455 "PAC Web Services"](../objects/page/10455-us.md) (own), [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-us.md) (own).
+Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-us.md) (own), [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-us.md) (own), [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-us.md) (own), [codeunit/27031 "Update SAT Payment Catalogs"](../objects/codeunit/27031-us.md) (own), [page/10457 "MX Electronic Invoice Setup"](../objects/page/10457-us.md) (own), [page/27010 "Mexican CFDI Wizard"](../objects/page/27010-us.md) (own), [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-us.md) (own), [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-us.md) (own).
 
 [All 124 objects of eServices in the diff](?ns=eServices#country-diff)
 
 ### Bank
 
-Adds EFT and payment export codeunits (ACH, RB, Cecoban, IAT), bank reconciliation worksheets and posted reconciliations, deposits, and check printing helpers. Extends Bank Account with e-pay and export format fields.
+Adds EFT and ACH export codeunits for several formats and bank account fields for electronic payments. Also adds bank reconciliation worksheet and deposit codeunits, and check printing changes in Check Ledger Entry, Check Preview and the Check report.
 
-Why: Learn covers deposit creation and bank reconciliation, and notes that deprecated North American reconciliation features moved to the standard version in 2023 release wave 2.
+Why: Learn covers creating deposits and reconciling bank accounts, noting that deprecated North American features moved to the standard version in 2023 release wave 2.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-us.md) (own), [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-us.md) (own), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-us.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-us.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-us.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-us.md) (own), [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-us.md) (own), [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-us.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-us.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-us.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
 
 [All 122 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Sales
 
-Adds sales tax handling to sales documents and posting, with new events in Sales-Post and fields on headers, lines and customers. It also carries CFDI stamping fields and procedures on posted documents, UPS zone, tax exemption and retention fields, and US sales report totals.
+Adds sales tax fields and procedures on Sales Header and Line, sales tax events in Sales-Post and prepayments, and tax summary lines in standard sales reports. Also adds customer fields (UPS zone, tax exemption), order status pages, statistics pages and comment print flags. CFDI/e-document fields are present on documents.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [table/18 "Customer"](../objects/table/18.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md).
+Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/18 "Customer"](../objects/table/18.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md), [report/202 "Sales Document - Test"](../objects/report/202.md), [table/44 "Sales Comment Line"](../objects/table/44.md).
 
 [All 109 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Purchases
 
-Adds sales and use tax, provincial tax and IRS 1099 fields to purchase documents, vendors and posted purchase headers. Adds events and procedures in Purch.-Post and prepayment posting, vendor reports and purchase statistics pages.
+Adds sales tax, provincial tax and 1099 fields on purchase headers, lines and vendors, plus sales tax posting events in Purch.-Post. Adds purchase statistics pages, remit-to handling and North American AP reports.
 
-Why: Learn documents IRS 1099 tracking on purchase documents and use tax and purchase tax setup.
+Why: Learn explains that 1099-liable vendor payments are tracked with codes and amounts on purchase documents and vendor ledger entries.
 
-Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [report/10085 "Aged Accounts Payable NA"](../objects/report/10085-us.md) (own).
+Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [page/50 "Purchase Order"](../objects/page/50.md), [report/10085 "Aged Accounts Payable NA"](../objects/report/10085-us.md) (own).
 
 [All 68 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Inventory
 
-Adds CFDI transport fields and stamp procedures on transfer documents, SAT classification fields on items, vendor locations, and North American inventory reports.
+Adds many North American inventory reports, vendor locations, and Mexican SAT and transport fields on Item, Transfer Header and transfer shipments. Req. Wksh.-Make Order gets two new events.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/27 "Item"](../objects/table/27.md), [table/5741 "Transfer Line"](../objects/table/5741.md), [table/10013 "Vendor Location"](../objects/table/10013-us.md) (own), [report/10139 "Inventory Valuation"](../objects/report/10139-us.md) (own), [report/10138 "Inventory to G/L Reconcile"](../objects/report/10138-us.md) (own), [codeunit/10461 "Transfer Shpt. Header - Edit"](../objects/codeunit/10461-us.md) (own).
+Objects: [table/27 "Item"](../objects/table/27.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [codeunit/333 "Req. Wksh.-Make Order"](../objects/codeunit/333.md), [report/10139 "Inventory Valuation"](../objects/report/10139-us.md) (own), [report/10138 "Inventory to G/L Reconcile"](../objects/report/10138-us.md) (own), [table/10013 "Vendor Location"](../objects/table/10013-us.md) (own), [page/5743 "Posted Transfer Shipment"](../objects/page/5743.md).
 
 [All 41 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Service
 
-Adds sales tax calculation to service documents with new events in Serv-Documents Mgt., test and order reports, and NA page and table extensions. Adds service statistics pages and sales tax reports.
+Adds sales tax to service documents: events and procedures in Serv-Documents Mgt. and posting journals, plus service statistics pages, NA page and table extensions, and sales tax reports for orders and quotes.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-us.md) (own), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [report/5915 "Service Document - Test"](../objects/report/5915.md), [tableextension/10011 "Service Header NA"](../objects/tableextension/10011-us.md) (own), [tableextension/10014 "Service Line NA"](../objects/tableextension/10014-us.md) (own), [report/10470 "Service Order-Sales Tax"](../objects/report/10470-us.md) (own), [page/10052 "Service Order Stats."](../objects/page/10052-us.md) (own).
+Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-us.md) (own), [table/5902 "Service Line"](../objects/table/5902.md), [report/10470 "Service Order-Sales Tax"](../objects/report/10470-us.md) (own), [report/10471 "Service Quote-Sales Tax"](../objects/report/10471-us.md) (own), [report/5915 "Service Document - Test"](../objects/report/5915.md), [codeunit/5986 "Serv-Amounts Mgt."](../objects/codeunit/5986.md).
 
 [All 39 objects of Service in the diff](?ns=Service#country-diff)
 
-### (no namespace)
+### DataMigration
 
-Holds upgrade codeunits for CFDI, EFT, sales tax and VAT setup, the CFDI Subject to Tax table, XMLport and page, the Bank Reconciliation report, and profiles for HR and credit roles.
+Adds GP and SL cloud migration objects for US 1099 data: box mappings, migration logs, supported tax years, validators and setup page extensions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-us.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-us.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-us.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-us.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-us.md) (own).
+Objects: [codeunit/42004 "GP Cloud Migration US"](../objects/codeunit/42004-us.md) (own), [codeunit/42003 "GP Populate Vendor 1099 Data"](../objects/codeunit/42003-us.md) (own), [codeunit/47203 "SL Cloud Migration US"](../objects/codeunit/47203-us.md) (own), [codeunit/47201 "SL Populate Vendor 1099 Data"](../objects/codeunit/47201-us.md) (own), [table/41101 "GP 1099 Box Mapping"](../objects/table/41101-us.md) (own), [table/47201 "SL 1099 Box Mapping"](../objects/table/47201-us.md) (own), [page/41000 "GP 1099 Migration Log"](../objects/page/41000-us.md) (own), [page/47200 "SL 1099 Migration Log List"](../objects/page/47200-us.md) (own).
+
+[All 33 objects of DataMigration in the diff](?ns=DataMigration#country-diff)
+
+### Integration
+
+Adds Shopify tax matching (TMA): matching tax areas and jurisdictions to Shopify orders, with review pages, notifications, install and upgrade code, and extensions of the Shop, Order and Sales Header tables.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-us.md) (own), [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-us.md) (own), [codeunit/30474 "Shpfy Tax Match Function"](../objects/codeunit/30474-us.md) (own), [page/30471 "Shpfy TMA Review"](../objects/page/30471-us.md) (own), [page/30479 "Shpfy TMA Order Tax Lines Part"](../objects/page/30479-us.md) (own), [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-us.md) (own), [enum/30471 "Shpfy Tax Match Review Mode"](../objects/enum/30471-us.md) (own), [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-us.md) (own).
+
+[All 23 objects of Integration in the diff](?ns=Integration#country-diff)
+
+### (no namespace)
+
+Holds upgrade codeunits (CFDI, EFT, sales tax, VAT setup), bank reconciliation and deposit permission sets, role profiles, and the CFDI Subject to Tax table, page and XML port.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [report/10408 "Bank Reconciliation"](../objects/report/10408-us.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-us.md) (own), [table/27008 "CFDI Subject to Tax"](../objects/table/27008-us.md) (own), [permissionset/27004 "BANKREC-POST"](../objects/permissionset/27004-us.md) (own), [permissionset/27001 "BANKDEPOSIT-EDIT"](../objects/permissionset/27001-us.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-us.md) (own), [codeunit/104154 "Upgrade - Sales Tax"](../objects/codeunit/104154-us.md) (own), [codeunit/104153 "Upgrade - EFT"](../objects/codeunit/104153-us.md) (own).
 
 [All 22 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Foundation
 
-Extends Company Information with US, Canadian and Mexican tax identifiers, and Unit of Measure, Payment Terms and Country/Region with SAT codes. Adds Source Code Setup entries for deposits and bank rec adjustments, plus extra No. Series Line fields.
+Extends Company Information with tax area, federal ID, Canadian and Mexican fields. Extends No. Series Line, Source Code Setup (deposits, bank rec. adjustment), Country/Region and Unit of Measure. Navigate gains deposit lookups.
 
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+Why: Learn's basic tax setup page covers tax information and default accounts for tax posting.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/204 "Unit of Measure"](../objects/table/204.md), [page/344 "Navigate"](../objects/page/344.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [page/344 "Navigate"](../objects/page/344.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/9 "Country/Region"](../objects/table/9.md), [table/204 "Unit of Measure"](../objects/table/204.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [pageextension/10018 "IRS 1096 Company Information"](../objects/pageextension/10018-us.md) (own).
 
 [All 18 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Projects
 
-Adds job and resource reports (actual to budget, cost breakdown, job list and register, resource usage) and budget fields on the Job Difference Buffer.
+Adds North American project reports, such as job actual to budget, cost budget, resource lists and open invoices by job. Job Difference Buffer gets budget fields.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-us.md) (own), [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-us.md) (own), [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-us.md) (own), [report/10220 "Job Cost Transaction Detail"](../objects/report/10220-us.md) (own), [report/10216 "Job List"](../objects/report/10216-us.md) (own), [report/10195 "Cost Breakdown"](../objects/report/10195-us.md) (own), [report/10200 "Resource Usage"](../objects/report/10200-us.md) (own).
+Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-us.md) (own), [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-us.md) (own), [report/10215 "Job Cost Budget"](../objects/report/10215-us.md) (own), [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-us.md) (own), [report/10054 "Open Sales Invoices by Job"](../objects/report/10054-us.md) (own), [report/10092 "Open Purchase Invoices by Job"](../objects/report/10092-us.md) (own), [report/10216 "Job List"](../objects/report/10216-us.md) (own).
 
 [All 17 objects of Projects in the diff](?ns=Projects#country-diff)
 
-### Security
+### Payroll
 
-Changes the LOCAL and LOCAL READ permission sets and the Payables Journals Post and Edit sets.
+Adds Ceridian payroll import: setup table and page, import XML port, management codeunits, and permission set extensions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
+Objects: [codeunit/1668 "MS Ceridian Payroll Mgt."](../objects/codeunit/1668-us.md) (own), [codeunit/1666 "MS Ceridian Payroll import"](../objects/codeunit/1666-us.md) (own), [xmlport/1661 "Import Ceridian Payroll"](../objects/xmlport/1661-us.md) (own), [table/1665 "MS Ceridian Payroll Setup"](../objects/table/1665-us.md) (own), [page/1665 "MS - Ceridian Payroll Setup"](../objects/page/1665-us.md) (own), [codeunit/1667 "Ceridian Install"](../objects/codeunit/1667-us.md) (own).
+
+[All 14 objects of Payroll in the diff](?ns=Payroll#country-diff)
+
+### Security
+
+Adds permission sets for GP hybrid migration and extends them in the standard sets. Local and payables journal permission sets are changed.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [permissionset/4714 "HybridGPUS - Edit"](../objects/permissionset/4714-us.md) (own), [permissionset/4713 "HybridGPUS - Objects"](../objects/permissionset/4713-us.md) (own), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md), [permissionsetextension/4710 "D365 Basic Ext. - HGPUS"](../objects/permissionsetextension/4710-us.md) (own).
 
 [All 11 objects of Security in the diff](?ns=Security#country-diff)
 
 ### Utilities
 
-Adjusts document totals and copy document for sales tax and retention lines, and adds a data dictionary and language list. Also extends the assisted setup for tax area code.
+Adds sales tax aware totals and document copy procedures (retention lines, tax lines). Adds a paragraph helper, data dictionary report and data classification for DIOT. Assisted setup gains a tax setup step.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), [table/10040 "Data Dictionary Info"](../objects/table/10040-us.md) (own), [report/10315 "Data Dictionary"](../objects/report/10315-us.md) (own).
+Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md), [report/10315 "Data Dictionary"](../objects/report/10315-us.md) (own), [table/10040 "Data Dictionary Info"](../objects/table/10040-us.md) (own), [codeunit/10202 "Entry Application Management"](../objects/codeunit/10202-us.md) (own).
 
 [All 11 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
+### Peppol
+
+Adds a North America PEPPOL 3.0 format with its own codeunit, subscribers, install and upgrade code, and a format enum extension.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-us.md) (own), [codeunit/37353 "PEPPOL30 NA Subscribers"](../objects/codeunit/37353-us.md) (own), [enumextension/37350 "PEPPOL 3.0 Format NA"](../objects/enumextension/37350-us.md) (own), [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-us.md) (own), [codeunit/37352 "PEPPOL30 NA Upgrade"](../objects/codeunit/37352-us.md) (own).
+
+[All 5 objects of Peppol in the diff](?ns=Peppol#country-diff)
+
 ### IO
 
-Extends data exchange definitions for EFT payment export, with procedures to update codeunits and check the EFT export file type. Adds a Tax Area Code on Config. Setup.
+Extends data exchange definitions with EFT payment export code updates and file type checks. Config. Setup gains a tax area code.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -380,7 +420,7 @@ Objects: [table/1222 "Data Exch. Def"](../objects/table/1222.md), [table/1224 "D
 
 ### Microsoft
 
-Adds a B10 Adjustment table and page and report labels for Declaration 347 and 349.
+Holds a B10 Adjustment table and page and Declaration 347 and 349 label reports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -390,7 +430,7 @@ Objects: [table/10240 "B10 Adjustment"](../objects/table/10240-us.md) (own), [pa
 
 ### HumanResources
 
-Adds RFC No. and License No. fields to Employee, plus HR and Payroll role center pages.
+Adds Human Resources and Payroll role centers and RFC and license number fields on Employee.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -398,9 +438,19 @@ Objects: [table/5200 "Employee"](../objects/table/5200.md), [page/36600 "Human R
 
 [All 3 objects of HumanResources in the diff](?ns=HumanResources#country-diff)
 
+### ExpenseAgent
+
+Adds an expense event subscriber for the US.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/6913 "Expense Event Subscriber US"](../objects/codeunit/6913-us.md) (own).
+
+[All 1 objects of ExpenseAgent in the diff](?ns=ExpenseAgent#country-diff)
+
 ### FixedAssets
 
-Adds vehicle and SAT transport fields to Fixed Asset, such as licence plate, gross weight, trailer type and permission type.
+Adds vehicle and SAT transport fields on Fixed Asset, such as licence plate, gross weight, trailer type and permission data.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:11.917Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9421
+    - change/bcapps/9528
 learn_toc_path:
   - Business functionality
   - Finance
@@ -124,6 +127,13 @@ Start with the cash flow overview to learn the terms. Then use the analysis page
 - [Analyze cash flows](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow): Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 - [Cash flow overview](https://learn.microsoft.com/dynamics365/business-central/finance-cash-flow-overview): An overview of cash inflows and outflows to help forecast money to be received and paid out.
 - [Make cash flow forecasts using financial reports](https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules): This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9421 [Event Request] codeunit 367 "CheckManagement": add OnFinancialVoidCh…](../../../../changes/bcapps/9421.md) (code change): "OnFinancialVoidCheckOnBeforePostBalanceAccount enables extension of void check"
+- [#9528 636017 Move CashFlow report action tooltips to report objects (W1)](../../../../changes/bcapps/9528.md) (code change): "Cash Flow report action tooltips are moved from role center page actions to the report objects"
 
 ## Business Central pages and reports
 

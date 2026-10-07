@@ -2,7 +2,7 @@
 id: localization/nl
 type: localization
 title: Netherlands (NL)
-summary: Netherlands localization of Business Central 29. It covers Dutch telebanking (proposals, payment history, SEPA and BTL91/BBV/PAYMUL exports, bank statement import), cash and bank/giro journals, electronic VAT and ICP declarations through Digipoort, the tax authority audit file, CMR notes and Dutch post codes.
+summary: Netherlands (NL) localization of Business Central 29. It covers Dutch telebanking (payment and collection proposals, payment history, BTL91/BBV/PAYMUL and SEPA export), CBG bank/giro and cash journals, bank statement import, electronic VAT and ICP declarations via Digipoort, the tax audit file, CMR notes, Dutch post codes and Intrastat.
 tier: official
 language: en
 tags:
@@ -14,11 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:46:58.909Z"
+  at: "2026-10-07T13:30:58.709Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 95803e937ee2734d138a24eea1d8089afd78a15e6dd9c2f92296646beed9aa11
+  input_hash: 1f8863a942507627321135162a6f201f14b9c28921e31a64b4bfeb6ce504d1d4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -100,28 +100,28 @@ learn_folder: LocalFunctionality/Netherlands
 
 # Netherlands (NL)
 
-> Netherlands localization of Business Central 29. It covers Dutch telebanking (proposals, payment history, SEPA and BTL91/BBV/PAYMUL exports, bank statement import), cash and bank/giro journals, electronic VAT and ICP declarations through Digipoort, the tax authority audit file, CMR notes and Dutch post codes.
+> Netherlands (NL) localization of Business Central 29. It covers Dutch telebanking (payment and collection proposals, payment history, BTL91/BBV/PAYMUL and SEPA export), CBG bank/giro and cash journals, bank statement import, electronic VAT and ICP declarations via Digipoort, the tax audit file, CMR notes, Dutch post codes and Intrastat.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/netherlands.md) · narrative **unreviewed** (machine-written)
 
 ## Overview
 
-The largest part of the Dutch layer is electronic banking. Transaction modes, payment proposals, payment history and export protocols (BTL91, BBV, PAYMUL, SEPA ISO 20022 credit transfer and direct debit) are own objects in the 11000000 range. Bank/Giro and Cash journals (CBG statements) support Rabobank and SEPA CAMT statement import and automatic reconciliation. Many W1 tables get Transaction Mode Code, bank account holder fields and payment-in-process fields. Learn covers this under Telebanking, Dutch Electronic Banking, SEPA and the three payment scenarios.
+The Dutch layer is built around telebanking. Transaction modes, proposals, payment history and export protocols are own tables, pages and reports (11000000 range). Transaction Mode Code fields are added to customers, vendors, employees, ledger entries, sales and purchase documents and journal lines. Bank accounts, customer bank accounts and vendor bank accounts get account holder fields. SEPA credit transfer and direct debit exports are extended, and SEPA CAMT statement import is supported. Learn documents telebanking, the three payment scenarios, SEPA activation and docket reports.
 
-For tax reporting, the layer adds Elec. Tax Declaration tables, pages and reports (11403 to 11416). They create, submit and process responses for electronic VAT and ICP declarations. Communication goes through the Digipoort Communication interface, with on-premises and SaaS implementations. VAT Statement Line gets an Elec. Tax Decl. Category Code, and VAT Registration No. Format gets Dutch check algorithms. A Tax Authority Audit File report and an Export Financial Data to XML report are also included.
+Bank/Giro and Cash journals (CBG statements) are own pages and codeunits. They tie into GenJnlManagement and Payment Tolerance Management and add fields to G/L Entry for applying and unapplying entries. Source Code Setup gets cash and bank journal source codes. Learn describes posting these journals, importing and reconciling bank statements, and printing test reports.
 
-Other additions are CMR note reports for sales, transfer and return shipments, post code import and update with range tables, G/L entry apply and unapply fields, and a required-description option on G/L accounts. Service documents get Dutch table and page extensions. Event publishers exist on Customer, Vendor, Payment Tolerance Management, VAT Statement Line and VAT Registration No. Format.
+Tax and statutory features include electronic VAT and ICP declarations sent through Digipoort (setup, VAT categories, certificates, response messages), the tax authority audit file, CMR notes for sales, transfer and return shipments, and the VIES declaration. The layer also adds Dutch post code import with update logging, Intrastat export, and service document extensions.
 
 ## Key points
 
-- Telebanking: payment and collection proposals, payment history, transaction modes, export protocols and docket reports.
-- Export formats: BTL91 (ABN AMRO, Rabobank), BBV, PAYMUL and SEPA ISO 20022 pain.001 and pain.008 variants.
-- Bank statement import: Rabobank ASCII formats and SEPA CAMT, posted via Bank/Giro Journal with automatic reconciliation.
-- Cash and Bank/Giro journals (CBG Statement tables) with a test report and source codes in Source Code Setup.
-- Electronic VAT and ICP declarations through Digipoort, with VAT category setup, certificates, error log and response messages.
-- Tax Authority audit file (XAF) report and Export Financial Data to XML.
-- CMR note reports for sales shipments, transfer shipments and purchase returns.
-- Dutch post code import and update with Post Code Range tables; G/L entry apply and unapply fields on G/L Entry.
+- Telebanking: payment and collection proposals, payment history, and export via BTL91 (ABN AMRO, Rabobank), BBV, PAYMUL and SEPA ISO 20022 (credit transfer pain.001, direct debit pain.008).
+- Transaction Mode Code is added to customers, vendors, employees, templates, ledger entries and sales and purchase documents to drive payment handling.
+- Bank/Giro and Cash journals with CBG statements, electronic statement import (SEPA CAMT, Rabobank protocols), automatic reconciliation and a CBG posting test report.
+- Electronic VAT and ICP declarations through Digipoort, with VAT category setup, certificates and response message processing.
+- Tax Authority Audit File (XAF) and Export Financial Data to XML reports.
+- CMR notes for sales shipments, transfer shipments and return shipments.
+- Dutch post code import and update logs, plus Intrastat report export extensions.
+- G/L Entry gains application fields, and G/L Account has a field for required descriptions in journals.
 
 Narrative written by Sonnet from the code diff and 27 Learn page summaries. In numbers: Netherlands (NL) localization of Business Central in BC29: 154 objects of its own, 50 W1 objects changed (81 fields and 9 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -145,27 +145,27 @@ Narrative written by Sonnet from the code diff and 27 Learn page summaries. In n
 
 ### Bank
 
-Adds the Dutch telebanking stack: proposals, payment history, transaction modes, export and import protocols, SEPA checks and CAMT import. It also adds the Bank/Giro Journal with CBG statement processing and reconciliation. Bank Account gets account holder, Proposal, Payment History and Creditor Identifier fields.
+Own telebanking suite: proposals, proposal detail lines, payment history, transaction modes, export and import protocols, SEPA and BTL91/BBV/PAYMUL checks and exports. It also adds CBG Bank/Giro journals, SEPA CAMT import and statement reconciliation. Bank Account gets account holder, proposal, payment history and creditor identifier fields, and SEPA CT codeunits are extended.
 
-Why: Learn describes telebanking, payment files, direct debit files and bank statement import as the Dutch electronic banking functionality.
+Why: Learn explains that Dutch electronic banking covers payment files, direct debit files and bank statement import via telebanking protocols.
 
-Objects: [codeunit/11000000 "Process Proposal Lines"](../objects/codeunit/11000000-nl.md) (own), [codeunit/11000001 "Financial Interface Telebank"](../objects/codeunit/11000001-nl.md) (own), [codeunit/11404 "Import SEPA CAMT"](../objects/codeunit/11404-nl.md) (own), [codeunit/11405 "Process CBG Statement Lines"](../objects/codeunit/11405-nl.md) (own), [page/11000001 "Telebank Proposal"](../objects/page/11000001-nl.md) (own), [page/11000005 "Payment History Card"](../objects/page/11000005-nl.md) (own), [page/11400 "Bank/Giro Journal"](../objects/page/11400-nl.md) (own), [table/270 "Bank Account"](../objects/table/270.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/11000000 "Process Proposal Lines"](../objects/codeunit/11000000-nl.md) (own), [codeunit/11000001 "Financial Interface Telebank"](../objects/codeunit/11000001-nl.md) (own), [codeunit/11000005 "Import Protocol Management"](../objects/codeunit/11000005-nl.md) (own), [codeunit/11404 "Import SEPA CAMT"](../objects/codeunit/11404-nl.md) (own), [codeunit/11405 "Process CBG Statement Lines"](../objects/codeunit/11405-nl.md) (own), [codeunit/1222 "SEPA CT-Prepare Source"](../objects/codeunit/1222.md), [page/11000001 "Telebank Proposal"](../objects/page/11000001-nl.md) (own).
 
 [All 83 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Finance
 
-Adds electronic tax declarations (VAT and ICP) with Digipoort communication, tax declaration tables and pages, VIES and audit file reports. It also adds the cash journal. G/L Entry gets open and application fields. General Ledger Setup, VAT Statement Line, VAT Registration No. Format and Payment Tolerance Management are extended.
+Electronic VAT and ICP declarations with Digipoort communication, the tax audit file, VIES report and cash journals. W1 tables get fields for G/L entry application, SEPA priority, and VAT statement category codes. VAT registration checks add mod 11 and mod 97 algorithms.
 
-Why: Learn explains that electronic VAT and ICP declarations are submitted as XBRL through Digipoort with certificates, and that G/L entries can be applied and unapplied.
+Why: Learn describes submitting XBRL VAT and ICP declarations through Digipoort and creating an audit file for the tax authority.
 
-Objects: [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md) (own), [codeunit/11000054 "Digipoort Communication"](../objects/codeunit/11000054-nl.md) (own), [interface/digipoort communication "DigiPoort Communication"](../objects/interface/digipoort-communication-nl.md) (own), [report/11403 "Create Elec. VAT Declaration"](../objects/report/11403-nl.md) (own), [report/11404 "Create Elec. ICP Declaration"](../objects/report/11404-nl.md) (own), [report/11412 "Tax Authority - Audit File"](../objects/report/11412-nl.md) (own), [table/17 "G/L Entry"](../objects/table/17.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
+Objects: [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md) (own), [codeunit/11000054 "Digipoort Communication"](../objects/codeunit/11000054-nl.md) (own), [report/11403 "Create Elec. VAT Declaration"](../objects/report/11403-nl.md) (own), [report/11404 "Create Elec. ICP Declaration"](../objects/report/11404-nl.md) (own), [report/11412 "Tax Authority - Audit File"](../objects/report/11412-nl.md) (own), [table/17 "G/L Entry"](../objects/table/17.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/381 "VAT Registration No. Format"](../objects/table/381.md).
 
 [All 52 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Service
 
-Adds Dutch table and page extensions on service headers, contracts, quotes, orders and their posted, filed and archive versions. It adds a service document management codeunit.
+Page and table extensions add Dutch fields, such as transaction mode and bank account, to service contracts, orders, quotes, invoices, credit memos and their archives. A codeunit supports service document handling.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -175,19 +175,19 @@ Objects: [codeunit/11412 "Serv. Document Mgt. NL"](../objects/codeunit/11412-nl.
 
 ### Foundation
 
-Adds Dutch post code management with range and update log tables and import reports. Company Information gets Fiscal Entity No. Country/Region gets SEPA Allowed, and Source Code Setup gets Cash Journal and Bank Journal codes.
+Dutch post code ranges with import and update reports and update logs. Company Information gets a fiscal entity number, Country/Region a SEPA Allowed flag, and Source Code Setup cash and bank journal codes.
 
-Why: Learn describes subscribing to and importing post code data and monthly updates, with date validation and gap checking.
+Why: Learn documents subscribing to and importing post code data and monthly updates.
 
-Objects: [codeunit/11401 "Post Code Management"](../objects/codeunit/11401-nl.md) (own), [table/11406 "Post Code Range"](../objects/table/11406-nl.md) (own), [table/11407 "Post Code Update Log Entry"](../objects/table/11407-nl.md) (own), [report/11414 "Import Post Codes"](../objects/report/11414-nl.md) (own), [report/11415 "Import Post Codes Update"](../objects/report/11415-nl.md) (own), [page/11407 "Post Code Ranges"](../objects/page/11407-nl.md) (own), [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md).
+Objects: [codeunit/11401 "Post Code Management"](../objects/codeunit/11401-nl.md) (own), [table/11406 "Post Code Range"](../objects/table/11406-nl.md) (own), [table/11407 "Post Code Update Log Entry"](../objects/table/11407-nl.md) (own), [report/11414 "Import Post Codes"](../objects/report/11414-nl.md) (own), [report/11415 "Import Post Codes Update"](../objects/report/11415-nl.md) (own), [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/9 "Country/Region"](../objects/table/9.md).
 
 [All 14 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Purchases
 
-Adds Transaction Mode Code and bank account fields to the vendor, purchase header and posted purchase documents. Vendor Bank Account gets account holder and national bank code fields, and Vendor Ledger Entry gets payment-in-process fields. A CMR return shipment report is included.
+Vendors, vendor templates, purchase headers and posted purchase documents get transaction mode and bank account fields. Vendor Bank Account gets account holder and national bank code fields. Vendor Ledger Entry gets payment-in-process fields. A CMR return shipment report is added.
 
-Why: Learn describes CMR notes for purchase returns and the use of transaction modes for vendor payments.
+Why: Learn describes CMR notes for purchase returns and transaction modes for vendor payments.
 
 Objects: [table/23 "Vendor"](../objects/table/23.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md), [report/11410 "CMR - Return Shipment"](../objects/report/11410-nl.md) (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
 
@@ -195,9 +195,9 @@ Objects: [table/23 "Vendor"](../objects/table/23.md), [table/25 "Vendor Ledger E
 
 ### Sales
 
-Adds Transaction Mode Code and bank account fields to the customer, sales header and posted sales documents. Customer Bank Account gets account holder fields and Direct Debit Mandate ID. Cust. Ledger Entry gets payment-in-process fields, and a CMR sales shipment report is included.
+Customers, templates, sales headers and posted sales documents get transaction mode and bank account fields. Customer Bank Account adds account holder and direct debit mandate fields with update procedures. A CMR sales shipment report is added.
 
-Why: Learn describes CMR notes for sales shipments and SEPA direct debit through transaction modes.
+Why: Learn describes CMR notes for sales shipments and direct debit collection through proposals.
 
 Objects: [table/18 "Customer"](../objects/table/18.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [report/11401 "CMR - Sales Shipment"](../objects/report/11401-nl.md) (own), [table/1381 "Customer Templ."](../objects/table/1381.md).
 
@@ -205,17 +205,17 @@ Objects: [table/18 "Customer"](../objects/table/18.md), [table/21 "Cust. Ledger 
 
 ### Inventory
 
-Adds a CMR transfer shipment report. The Intrastat journal batch gets Export Date and Export Time fields.
+Intrastat export is extended with Dutch management and export codeunits and a subform page extension. Intrastat batches get export date and time fields. A CMR transfer shipment report is added.
 
 Why: Learn describes CMR notes for transfer shipments.
 
-Objects: [report/11402 "CMR - Transfer Shipment"](../objects/report/11402-nl.md) (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
+Objects: [codeunit/11426 "Intrastat Report Management NL"](../objects/codeunit/11426-nl.md) (own), [codeunit/11427 "Intrastat Report Exp. Ext. NL"](../objects/codeunit/11427-nl.md) (own), [pageextension/11426 "Intrastat Report Subform NL"](../objects/pageextension/11426-nl.md) (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [report/11402 "CMR - Transfer Shipment"](../objects/report/11402-nl.md) (own), [permissionsetextension/11426 "Intrastat NL - Objects"](../objects/permissionsetextension/11426-nl.md) (own).
 
 [All 7 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### HumanResources
 
-Employee gets Transaction Mode Code, bank name and bank city. Employee Ledger Entry gets the same payment-in-process and filter fields as customer and vendor entries.
+Employee gets transaction mode and bank name and city fields. Employee Ledger Entry gets the same payment-in-process fields as customer and vendor entries so employees can be paid through telebanking.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -225,7 +225,7 @@ Objects: [table/5200 "Employee"](../objects/table/5200.md), [table/5222 "Employe
 
 ### Security
 
-The LOCAL and LOCAL READ permission sets are changed to cover the Dutch objects.
+The LOCAL and LOCAL READ permission sets are replaced to include the Dutch objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -235,7 +235,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### IO
 
-Pre & Post Process XML Import gets a CheckBankAccNo procedure for bank account number checks during import.
+The XML import preprocessing codeunit adds a check of the bank account number.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -245,7 +245,7 @@ Objects: [codeunit/1262 "Pre & Post Process XML Import"](../objects/codeunit/126
 
 ### Utilities
 
-Adds Local Functionality Mgt., a codeunit for Dutch local functionality.
+Local Functionality Mgt. is an own codeunit holding Dutch helper logic.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

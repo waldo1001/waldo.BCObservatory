@@ -1,0 +1,218 @@
+{
+  "country": "IN",
+  "version": "29",
+  "input_hash": "280d87b89a0ab2b7dc0d5aa7ac058007f226869f0b95b83ac171e13760282fb6",
+  "summary": "India (IN) localization adds GST (including Cess, ISD, TDS/TCS on GST), e-invoice, gate entry, subcontracting, voucher interface, fixed asset depreciation by block and shift, and stale check handling. It answers which objects implement Indian tax and compliance features and where Learn documents them.",
+  "overview": "The India layer is almost entirely additive: 1,262 own objects and no changes to W1 objects listed. Most of it is GST, built on a tax engine with use case and tax type setup codeunits (GST, Cess, GST TDS/TCS), plus table and page extensions that add GST fields to sales, purchase, service, inventory, pricing, resource, company and bank objects. Codeunits cover posting, settlement, journals, reconciliation, input service distribution, e-invoice JSON handling and QR generation.\n\nBeyond GST, the layer provides gate entry (inward and outward, with posted entries and a Gate Entry report), subcontracting with delivery challans and GST liability, charge assignment for purchases, a voucher interface with Day Book, Bank Book, Cash Book, Ledger and Voucher Register reports, and fixed asset depreciation with blocks, shifts and an income tax accounting period. Related TDS and TCS use case import codeunits are also present.\n\nLearn documents the setup and the posting scenarios on its India local functionality pages. These include purchases, sales, returns, imports, exports, advance payments, bank charges, reconciliation, settlement, e-invoice, e-way bill, gate entry, depreciation and subcontracting.",
+  "key_points": [
+    "GST is configured through tax engine use case and tax type codeunits (GST, Cess, GST TDS/TCS) and covers sales, purchases, services, transfers, journals and bank charges.",
+    "e-Invoice codeunits (e-Invoice Management, e-Invoice Json Handler, plus service and transfer shipment variants) generate JSON and import signed responses; Learn also covers E-Way Bill.",
+    "GST settlement, reconciliation with GSTR-2A, credit adjustment journals and Input Service Distribution have their own codeunits.",
+    "Gate entry provides inward and outward entries, posted entries, comments, attachments and a Gate Entry report.",
+    "Subcontracting adds delivery challan handling and GST liability creation when materials are not returned in time.",
+    "Voucher interface adds posting setup tables, narration, and Day Book, Bank Book, Cash Book, Ledger and Voucher Register reports, plus stale check support.",
+    "Fixed assets get depreciation books, FA blocks, shifts and an income tax accounting period, with Calculate FA Depreciation and Create FA Fiscal Year reports.",
+    "Posting number series by location and document type, and charge group assignment for purchases are local setup features."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "The core GST engine lives here: tax type and use case setup, GST posting management, settlement, journals, reconciliation matching, distribution (ISD), e-invoice management and JSON handlers, plus Cess and GST TDS/TCS configuration. Hundreds of own tables, pages, reports and queries support these.",
+      "why": "Learn documents GST setup, settlement of net payment liability, reconciliation with GSTR-2A, Cess calculation, ISD and e-invoice as Indian compliance features.",
+      "objects": [
+        "codeunit/18000",
+        "codeunit/18015",
+        "codeunit/18318",
+        "codeunit/18146",
+        "codeunit/18147",
+        "codeunit/18280",
+        "codeunit/18200",
+        "codeunit/18017"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Page extensions add GST fields to sales documents, subforms, statistics, archives, customer card and ledger entries, ship-to address and finance charge memos. Posting logic sits in Finance codeunits.",
+      "why": "Learn covers GST on sales to registered and unregistered customers, exports, exempted sales and sales returns.",
+      "objects": [
+        "pageextension/18150",
+        "pageextension/18148",
+        "pageextension/18146",
+        "pageextension/18142",
+        "pageextension/18144",
+        "pageextension/18156",
+        "pageextension/18141",
+        "pageextension/18155"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Page extensions add GST and charge assignment fields to purchase documents, vendor card, ledger entries, order address, statistics and archives.",
+      "why": "Learn documents GST and TDS on purchases from registered, unregistered, SEZ, composite and foreign vendors, with reverse charge.",
+      "objects": [
+        "pageextension/18084",
+        "pageextension/18083",
+        "pageextension/18082",
+        "pageextension/18092",
+        "pageextension/18088",
+        "pageextension/18523",
+        "pageextension/18081",
+        "pageextension/18093"
+      ]
+    },
+    {
+      "area": "Warehouse",
+      "what": "Gate entry tracking: inward and outward gate entry pages, posted entries, comments, attachments, posting codeunits, enums for source type and status, and a Gate Entry report. Warehouse receipt pages are extended.",
+      "why": "Learn describes gate entry as a record of material entrance and exit tied to purchase, sales, transfer and return orders.",
+      "objects": [
+        "codeunit/18602",
+        "codeunit/18601",
+        "page/18605",
+        "page/18608",
+        "page/18614",
+        "page/18617",
+        "report/18601",
+        "pageextension/18607"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Voucher interface with debit and credit posting setup tables, narration, journal voucher setup, plus Day Book, Bank Book, Cash Book, Ledger, Voucher Register and Check reports. Also extends bank account and check ledger objects for stale check and GST.",
+      "why": "Learn describes vouchers for journal, bank, cash and contra transactions, and the stale check setup.",
+      "objects": [
+        "report/18929",
+        "report/18930",
+        "report/18931",
+        "report/18933",
+        "table/18930",
+        "page/18930",
+        "codeunit/18929",
+        "report/18935"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "India depreciation: FA blocks, shifts, income tax accounting periods, depreciation method and book extensions, normal depreciation calculation, fiscal year close and the Calculate FA Depreciation report.",
+      "why": "Learn explains depreciation under the Income Tax Act 1961 and Companies Act 2013 with block codes and additional depreciation.",
+      "objects": [
+        "codeunit/18631",
+        "report/18631",
+        "report/18632",
+        "table/18632",
+        "table/18633",
+        "table/18631",
+        "tableextension/18631",
+        "tableextension/18632"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Table and page extensions add GST fields to service headers, lines, contracts, shipments, invoices, credit memos and archives, with posting handled in Finance codeunits.",
+      "why": "Learn covers GST on service orders, invoices and credit memos with GST group and HSN/SAC codes.",
+      "objects": [
+        "tableextension/18440",
+        "tableextension/18441",
+        "pageextension/18440",
+        "pageextension/18441",
+        "tableextension/18442",
+        "pageextension/18442",
+        "pageextension/18444",
+        "tableextension/18449"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "GST fields on items, item charges, locations, item templates and inventory setup, plus gate entry and TCS fields on location and transfer pages, and subcontracting item ledger extensions.",
+      "why": null,
+      "objects": [
+        "tableextension/18008",
+        "pageextension/18007",
+        "tableextension/18009",
+        "pageextension/18009",
+        "tableextension/18006",
+        "tableextension/18007",
+        "tableextension/18546",
+        "tableextension/18467"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Extensions to company information, source code setup and shipping agents for GST, TCS, TDS and voucher features.",
+      "why": null,
+      "objects": [
+        "tableextension/18001",
+        "pageextension/18002",
+        "tableextension/18012",
+        "tableextension/18156",
+        "tableextension/18543",
+        "tableextension/18807",
+        "tableextension/18930",
+        "pageextension/18543"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Codeunits that import GST, TDS and TCS use case definitions for the tax engine.",
+      "why": null,
+      "objects": [
+        "codeunit/18022",
+        "codeunit/18662",
+        "codeunit/18816"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "Subcontracting extensions on production order lines and components.",
+      "why": "Learn covers subcontracting setup with delivery challans and job work return periods.",
+      "objects": [
+        "tableextension/18469",
+        "tableextension/18468",
+        "pageextension/18466"
+      ]
+    },
+    {
+      "area": "Pricing",
+      "what": "GST fields on price list lines and price worksheet lines.",
+      "why": null,
+      "objects": [
+        "tableextension/18163",
+        "tableextension/18164",
+        "pageextension/18169"
+      ]
+    },
+    {
+      "area": "Projects",
+      "what": "GST fields on the resource table and resource card.",
+      "why": null,
+      "objects": [
+        "tableextension/18010",
+        "pageextension/18011"
+      ]
+    },
+    {
+      "area": "QRGeneration",
+      "what": "A QR Generator codeunit with a .NET component, used for e-invoice QR codes.",
+      "why": null,
+      "objects": [
+        "codeunit/18650",
+        "dotnet/"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "A permission set extension for India TDS added to D365 BASIC.",
+      "why": null,
+      "objects": [
+        "permissionsetextension/18661"
+      ]
+    }
+  ],
+  "learn_pages_used": 60,
+  "prompt_version": 2,
+  "at": "2026-10-07T13:26:59.049Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.192886
+  }
+}

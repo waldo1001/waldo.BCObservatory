@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,6 +103,12 @@ links:
     - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
   guidelines: []
+  changes:
+    - change/bcapps/10213
+    - change/bcapps/11411
+    - change/bcapps/11476
+    - change/bcapps/9196
+    - change/bcapps/9538
 learn_toc_path:
   - Business functionality
   - Planning
@@ -185,10 +191,15 @@ Supporting pages explain behavior that affects results. "Planning With or Withou
 - [Supply Planning](https://learn.microsoft.com/dynamics365/business-central/production-planning): Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
 - [Track Relations Between Demand and Supply](https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply): This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10213 Bug 8845 Old Prices Calculated in Req. Worksheet](../../../changes/bcapps/10213.md) (code change): "accurate price calculations in the requisition planning process"
+- [#11411 [Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529](../../../changes/bcapps/11411.md) (code change): "Fixed inconsistent able-to-make calculations in BOM analysis when component's replenishment method changes"
+- [#11476 [29.X]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529- #11411](../../../changes/bcapps/11476.md) (code change): "Fixed inconsistent able-to-make results in item availability by BOM level"
+- [#9196 [Master] - What If Impact on Planning and Supply](../../../changes/bcapps/9196.md) (code change): "Manufacturing and inventory scenarios. New What-If Scenario and What-If Impact"
+- [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../changes/bcapps/9538.md) (code change): "Req. Worksheet page now correctly displays the intended requisition batch"
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
 - [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.600Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,10 @@ links:
   posts:
     - post/thedynamicsexplorer-com/10232
   guidelines: []
+  changes:
+    - change/bcapps/10630
+    - change/bcapps/11055
+    - change/bcapps/11056
 learn_toc_path:
   - Business functionality
   - Finance
@@ -147,10 +151,13 @@ Start with "Manage bank accounts" or "Reconcile bank accounts" for the basics, t
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
 - [Transfer bank funds](https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds): You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10630 Extend OnBeforeCheckBankAcc to skip specific bank reversal checks](../../../../changes/bcapps/10630.md) (code change): "reversing bank account ledger entries"
+- [#11055 Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11055.md) (code change): "Bank reconciliation now exposes UI controls to allow users to process duplicate transactions"
+- [#11056 29.x: Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11056.md) (code change): "Bank reconciliation pages now expose functionality for handling duplicate transactions from bank statement imports"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Bank Reconciliation method streamlines operations by posting cash receipts and reconciling them simultaneously"
 
 ## Business Central pages and reports

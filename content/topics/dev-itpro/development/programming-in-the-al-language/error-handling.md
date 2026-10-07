@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -152,6 +152,8 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a
   guidelines: []
+  changes:
+    - change/bcquality/99
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -211,10 +213,11 @@ For diagnosis, the page on the error dialog explains what users see and what the
 - [Understanding the error dialog](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog): Understand the different parts the error dialog to be able to help mitigate issues for users
 - [User experience guidelines for errors](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-handling-guidelines): Describes how to handle error dialogs in AL code.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy"
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Error Messages with Recommendations extension to transform error messages"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Good error messages are clear about what went wrong"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"

@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:36:17.372Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1b9970a317a4b94ad759b0ca282602a74ec7c576b83d2a81720f71ffd46b722c
+  input_hash: a008c736e137eb0d987090241a5748ce2a02cb56246eeed9cf94f900d3587b60
 evidence:
   - kind: blog
     url: https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/
@@ -75,13 +75,23 @@ systems:
   - development
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Stefan Maron
+  favicon: https://stefanmaron.com/icons/favicon-32x32.png
+  probed_at: "2026-10-07T11:50:34.462Z"
 ---
 
 # Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)
 
-> This post describes building a secure standalone Docker container for Claude Code that eliminates VS Code IPC attack surfaces by using docker run directly instead of dev containers. The setup includes firewall rules, credential stripping, volume mounting for project directories, and per-language instruction file injection to isolate Claude Code while allowing local commits but blocking network access to external hosts.
-
 [Read the post](https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/) · Stefan Maron (Stefan Maron, MVP) · 2026-03-04 · 1742 words · tier community · **unreviewed** (machine-generated)
+
+> This post describes building a secure standalone Docker container for Claude Code that eliminates VS Code IPC attack surfaces by using docker run directly instead of dev containers. The setup includes firewall rules, credential stripping, volume mounting for project directories, and per-language instruction file injection to isolate Claude Code while allowing local commits but blocking network access to external hosts.
 
 ## Key points
 

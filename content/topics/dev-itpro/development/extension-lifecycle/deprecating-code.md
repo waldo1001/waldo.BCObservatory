@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/93
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -97,5 +99,11 @@ Start with the timeline page to learn the rule: at least 12 months pass between 
 - [Best Practices for Deprecation of AL Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines): Description of best practices and guidelines for deprecating code in the Base App for Business Central.
 - [Deprecating explicit and implicit with statements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecating-with-statements-overview): Rationale and description of why explicit and implicit with statements are deprecated in AL.
 - [Microsoft Timeline for Deprecating Code in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-timeline): Description of the timeline for deprecating code in Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#93 Fix lifecycle compatibility guidance](../../../../changes/bcquality/93.md) (code change): "Corrected lifecycle guidance for obsoletions, public members, and test transaction models"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

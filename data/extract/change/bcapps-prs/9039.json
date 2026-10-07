@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9039",
+  "number": 9039,
+  "title": "Adding all Power BI reports to Business Manager's Role Center",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "sustainability"
+  ],
+  "summary": "Power BI reports are now added to the Business Manager's Role Center, along with updates to related role centers and supporting modules.",
+  "key_points": [
+    "All Power BI reports integrated into Business Manager Role Center",
+    "Updates to Purchasing Agent and Purchasing Manager role centers",
+    "Purchases Period-over-Period report configuration updated",
+    "Subscription Billing support for Business Manager Role Center",
+    "Sustainability module integrated with Power BI reports"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003339,
+    "changes_in_call": 1
+  }
+}

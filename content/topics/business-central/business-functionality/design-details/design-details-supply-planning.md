@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,17 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10030
+    - change/bcapps/10166
+    - change/bcapps/10213
+    - change/bcapps/11994
+    - change/bcapps/12188
+    - change/bcapps/9196
+    - change/bcapps/9449
+    - change/bcapps/9705
+    - change/bcapps/9788
+    - change/bcquality/192
 learn_toc_path:
   - Business functionality
   - Design details
@@ -145,5 +156,20 @@ Start with the Supply Planning page and the central concepts page. Then read pla
 - [Design details - reservation, order tracking, and action messaging \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/design-details-reservation-order-tracking-and-action-messaging): The reservation system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
 - [Design Details - Supply Planning](https://learn.microsoft.com/dynamics365/business-central/design-details-supply-planning): This article describes the concepts and principles in the supply planning features in Business Central.
 - [Design details - Transfers in planning](https://learn.microsoft.com/dynamics365/business-central/design-details-transfers-in-planning): Learn how to use transfer orders as a source of supply when planning inventory levels.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../changes/bcapps/10030.md) (code change): "planning worksheet requires second run of calculate regenerative plan"
+- [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../changes/bcapps/10166.md) (code change): "Transfer demand profile handling now supports an event"
+- [#10213 Bug 8845 Old Prices Calculated in Req. Worksheet](../../../../changes/bcapps/10213.md) (code change): "Requisition Line table now validates the Order Date correctly"
+- [#11994 [Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/11994.md) (code change): "Production Copy to Req. Wksh fails because destination fields are missing"
+- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "Reserved quantities now correctly match expected quantities in manufacturing inventory profile offsetting"
+- [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "What-If Impact analysis feature enables users to examine how supply chain changes"
+- [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../changes/bcapps/9449.md) (code change): "The OnAfterCarryOutToReqWksh integration event now passes the target requisition line"
+- [#9705 [master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types](../../../../changes/bcapps/9705.md) (code change): "Transfer order headers can now be deleted despite having reserved quantities"
+- [#9788 [Master]-Incorrect Reservation Split Generated After Replanning a Replenishment Production Order Created by MRP Planning Run](../../../../changes/bcapps/9788.md) (code change): "Fixed incorrect reservation splits when replanning production orders"
+- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "supply chain management functional knowledge domain with nine scoped rules"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

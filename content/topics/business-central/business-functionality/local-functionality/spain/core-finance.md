@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:21.075Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,10 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9066
+    - change/bcapps/9306
+    - change/bcapps/9886
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -144,5 +148,13 @@ Start with the Transaction numbers page, which explains how sequential numbers g
 - [How to Print Sales and Purchase Invoice Books](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books): The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.
 - [How to Set Up and Close Income Statement Balances](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances): Use income statement balancing accounts to efficiently track and balance multiple accounts simultaneously.
 - [Transaction numbers](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers): Use transaction numbers to group and balance entries that share the same document number and date.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9066 [master][ALAppExtensions #30068][ES] Codeunit 7000000 CarteraManagement - Refactor the Functions InsertReceivableDocs and InsertPayableDocs](../../../../../changes/bcapps/9066.md) (code change): "Affects Spanish localization finance features for receivables and payables"
+- [#9306 [Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the "Applies-to Document No." on the line instead of using Apply Entries in the Spanish version.Initial commit](../../../../../changes/bcapps/9306.md) (code change): "Fixed unbalanced G/L entries when applying a payment to a purchase invoice"
+- [#9886 [Master] Expense Report posting FCY rounding mismatch "Expense Report Posting Test" fail in Spain only (Source Currency Amount 649.97 vs 650](../../../../../changes/bcapps/9886.md) (code change): "foreign currency rounding mismatch in expense report posting for Spain"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

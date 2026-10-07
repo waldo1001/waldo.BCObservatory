@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,6 +65,15 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10341
+    - change/bcapps/12118
+    - change/bcapps/12167
+    - change/bcapps/9220
+    - change/bcapps/9363
+    - change/bcapps/9438
+    - change/bcapps/9725
+    - change/bcquality/99
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -112,5 +121,18 @@ Start with the "Generating Delta files" page if you are converting existing appl
 ## More Learn pages
 
 - [Generating Delta files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-generating-delta-files): Description of how to generate delta files with the ExportToNewSyntax flag.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10341 Remove Anthropic privacy notice from Expense Agent](../../../../changes/bcapps/10341.md) (code change): "Upgrade process cleans up legacy privacy notice records without blocking upgrades"
+- [#12118 Fix Email Inbox retention policy failing on missing indirect Read permission](../../../../changes/bcapps/12118.md) (code change): "Email Inbox retention policy no longer fails due to missing indirect read permission"
+- [#12167 Track QuickBooks migration usage consistently](../../../../changes/bcapps/12167.md) (code change): "QuickBooks migration now consistently tracks usage by adding an uptake telemetry event"
+- [#9220 Backport SL Migration - Snapshot Project Transactions](../../../../changes/bcapps/9220.md) (code change): "Support for snapshotting and migrating historical Dynamics SL project transactions"
+- [#9363 GP - Updates 202607](../../../../changes/bcapps/9363.md) (code change): "Item batches are now distributed properly for multiple transactions instead of consolidating into a single batch"
+- [#9438 SL - Add support for migrating historical project transactions](../../../../changes/bcapps/9438.md) (code change): "A new migration setting enables historical project transactions to be migrated alongside other historical data"
+- [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Legacy Item excise fields marked obsolete with automatic data migration via upgrade codeunit"
+- [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "upgrade phase data writes, install-versus-upgrade dispatch logic, install code dispatch"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

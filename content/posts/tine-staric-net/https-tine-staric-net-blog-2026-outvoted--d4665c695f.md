@@ -20,11 +20,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T21:40:25.702Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 8ca734b207597d71d9ddef3d1ba1150130b7cd769572a7c67ecec385c33bd3cf
+  input_hash: 8e63e434ddfe10581dc18183ca848f971c6a5822cd18e60e6bcd662dcc351444
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/outvoted/
@@ -75,13 +75,23 @@ systems:
   - integration
   - development
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://tine.staric.net/images/outvoted/main.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-07T11:50:08.606Z"
 ---
 
 # Context is a voting chamber
 
-> Long agent sessions balance cost efficiency through prompt caching with attention degradation, where context acts as a voting chamber where older information dilutes focus on current objectives. Understanding when to start fresh sessions or use handoffs versus maintaining warm caches determines productivity and actual token costs.
-
 [Read the post](https://tine.staric.net/blog/2026/outvoted/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-31 · 1916 words · tier community · **unreviewed** (machine-generated)
+
+> Long agent sessions balance cost efficiency through prompt caching with attention degradation, where context acts as a voting chamber where older information dilutes focus on current objectives. Understanding when to start fresh sessions or use handoffs versus maintaining warm caches determines productivity and actual token costs.
 
 ## Key points
 

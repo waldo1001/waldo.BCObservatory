@@ -17,11 +17,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:47:18.782Z"
+  at: "2026-10-07T12:54:54.417Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 10dd8e875b3bcf0423a4188d8cfd47038a83efd71d35a101f9173c26082a14e8
+  input_hash: 672859fbd1f3a4e8fd6cc5b8bbb127e6bec1e6e87de836667fc45d597f3f91ab
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/
@@ -71,6 +71,16 @@ code_objects_mentioned:
 systems:
   - finance
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: https://thatnavguy.com/og/2025/bc-friday-tips-38-keep-description.png
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: null
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-07T11:51:28.163Z"
 ---
 
 # BC Friday Tips #38 Keep Description

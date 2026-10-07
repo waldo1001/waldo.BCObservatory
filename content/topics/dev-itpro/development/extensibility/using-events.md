@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T13:37:30.849Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,24 @@ links:
     - video/P-7dYVfB73E
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10036
+    - change/bcapps/10156
+    - change/bcapps/10167
+    - change/bcapps/10169
+    - change/bcapps/10210
+    - change/bcapps/10235
+    - change/bcapps/10487
+    - change/bcapps/10488
+    - change/bcapps/11664
+    - change/bcapps/8771
+    - change/bcapps/9077
+    - change/bcapps/9225
+    - change/bcapps/9479
+    - change/bcapps/9637
+    - change/bcapps/9950
+    - change/bcquality/145
+    - change/bcquality/98
 learn_toc_path:
   - Development
   - Extensibility
@@ -165,10 +183,27 @@ Further pages cover related tasks: deprecating external business events so integ
 - [Subscribing to events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-subscribing-to-events): Designing event subscribers in AL for Business Central.
 - [Walkthrough: Implementing New Workflow Events and Responses](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses): Learn how you can extend the native workflows by adding workflow events and responses in code to support additional business scenarios.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10036 [SOA]: Bugbash for releases 28.x - Contact unable to find due to Qasim map to Megan, different names](../../../../changes/bcapps/10036.md) (code change): "Contact List exposes OnBeforeFindRecord event handled only during SOA sessions"
+- [#10156 [Bug][SubscriptionBilling] Assign Subscription Lines dialog does not identify the sales line it was opened for](../../../../changes/bcapps/10156.md) (code change): "New extension event OnAfterGetAssignSubscriptionLinesCaption allows customization"
+- [#10167 [Extensibility Request] issue 30240: add event before adding price list lines](../../../../changes/bcapps/10167.md) (code change): "A cancellable event is added before price list line creation so extensions can implement"
+- [#10169 [Extensibility Request] issue 30081: add VAT registration number override event](../../../../changes/bcapps/10169.md) (code change): "An integration event allows extensions to override VAT registration number formatting"
+- [#10210 [Bug][Subscription Billing] "Delete Invoiced Sales Orders" leaves orphaned Sales Subscription Lines behind](../../../../changes/bcapps/10210.md) (code change): "Added two event subscribers to handle deletion of subscription lines when sales documents are deleted"
+- [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../changes/bcapps/10235.md) (code change): "Provides extensibility hook via OnAfterCheckSubscriptionLineStartDateChangeAllowed event"
+- [#10487 Add integration event before inserting the cost allocation journal line](../../../../changes/bcapps/10487.md) (code change): "New integration event OnWriteJournalLineOnBeforeInsertTempCostJournalLine added to Cost Allocation report"
+- [#10488 Add integration event before inserting the outgoing IC sales line buffer](../../../../changes/bcapps/10488.md) (code change): "New event OnPostICSalesLineToICPartnerInboxOnBeforeBufferICInboxSalesLineInsert fires per sales line"
+- [#11664 Add OnBefore event for approval insertion checks](../../../../changes/bcapps/11664.md) (code change): "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks"
+- [#8771 Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl](../../../../changes/bcapps/8771.md) (code change): "An OnBeforeFilterRemovedSourceRecords integration event was added to the Email codeunit"
+- [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"
+- [#9225 [Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters](../../../../changes/bcapps/9225.md) (code change): "Added OnAfterSetUsageDataBillingFilters integration event for extensibility"
+- [#9479 [Master]-]Withholding Tax Entries are not generated at payment because the Withholding Tax. Prod. Posting Group field gets not transferred to the payment line](../../../../changes/bcapps/9479.md) (code change): "The withholding tax production posting group is now transferred to payment lines during payment processing"
+- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Ten new and extended integration events were added across the base application"
+- [#9950 [Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)](../../../../changes/bcapps/9950.md) (code change): "Withholding Tax entries from a previous posting preview appear on unrelated documents"
+- [#145 Process Context via manual event subscriber pattern](../../../../changes/bcquality/145.md) (code change): "manual event subscriber bindings tied to variable scope instead of singleton flags"
+- [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
