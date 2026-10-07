@@ -18,18 +18,39 @@ tags:
   - public preview
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:53.816Z"
   flags: []
 generated:
-  at: "2026-10-06T19:09:18.658Z"
+  at: "2026-10-07T23:03:53.861Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 59c8fe5ac6751a9fee222f4aa59740522dedabb236ab5d4aa240ca1b2fae2264
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=uv2NsSD5P7U&t=463s
+    title: "Opt-out for automatic minor update scheduling: announced"
+    date: "2024-10-08T15:00:59.000Z"
+    commit: null
+    t: 463
+    quote: at that point also the admin Center changes will come so we'll introduce the opt out for automatic scheduling
+  - kind: video
+    url: https://www.youtube.com/watch?v=uv2NsSD5P7U&t=463s
+    title: "Ability to skip minor versions: announced"
+    date: "2024-10-08T15:00:59.000Z"
+    commit: null
+    t: 463
+    quote: at that point it will be possible to change the update Target version as well so it'll be possible to skip versions
+  - kind: video
+    url: https://www.youtube.com/watch?v=uv2NsSD5P7U&t=480s
+    title: "Admin Center API changes for update scheduling: announced"
+    date: "2024-10-08T15:00:59.000Z"
+    commit: null
+    t: 480
+    quote: will slightly change to reflect the new flexibility um those changes are coming in March
   - kind: video
     url: https://www.youtube.com/watch?v=uv2NsSD5P7U&t=26s
     title: "What's New:  Flexible Update Management (2024 release wave 2)"
@@ -134,14 +155,14 @@ features:
     verified: false
     status_source: video
   - name: Opt-out for automatic minor update scheduling
-    status: unclear
+    status: announced
     t: 299
-    verified: false
+    verified: true
     status_source: video
   - name: Ability to skip minor versions
-    status: unclear
+    status: announced
     t: 319
-    verified: false
+    verified: true
     status_source: video
   - name: Create environments on any supported version
     status: unclear
@@ -149,9 +170,9 @@ features:
     verified: false
     status_source: video
   - name: Admin Center API changes for update scheduling
-    status: unclear
+    status: announced
     t: 480
-    verified: false
+    verified: true
     status_source: video
   - name: Telemetry signal changes for update events
     status: unclear
@@ -187,7 +208,7 @@ quotes:
 
 > Flexible update management in Business Central 2024 release wave 2: the major update period grows from 60 days to 5 months starting with version 25, with a shortened grace period, enforced updates, minor-update opt-out, version skipping, and admin center API and telemetry changes. Public preview starts October 2024 for Microsoft localized environments.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uv2NsSD5P7U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uv2NsSD5P7U) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -223,10 +244,10 @@ It covers the longer update period for major releases, the shortened grace perio
 | 5-month update period for major releases | status not stated | [1:54](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=114s) |  |
 | Shortened grace period with weekly attempts | status not stated | [3:40](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=220s) |  |
 | Enforced update period with extension uninstall | status not stated | [2:34](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=154s) |  |
-| Opt-out for automatic minor update scheduling | status not stated | [4:59](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=299s) |  |
-| Ability to skip minor versions | status not stated | [5:19](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=319s) |  |
+| Opt-out for automatic minor update scheduling | announced | [4:59](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=299s) | "at that point also the admin Center changes will come so we'll introduce the opt out for automatic scheduling" ([7:43](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=463s)) |
+| Ability to skip minor versions | announced | [5:19](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=319s) | "at that point it will be possible to change the update Target version as well so it'll be possible to skip versions" ([7:43](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=463s)) |
 | Create environments on any supported version | status not stated | [5:51](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=351s) |  |
-| Admin Center API changes for update scheduling | status not stated | [8:00](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=480s) |  |
+| Admin Center API changes for update scheduling | announced | [8:00](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=480s) | "will slightly change to reflect the new flexibility um those changes are coming in March" ([8:00](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=480s)) |
 | Telemetry signal changes for update events | status not stated | [8:20](https://www.youtube.com/watch?v=uv2NsSD5P7U&t=500s) |  |
 
 ## Quotes

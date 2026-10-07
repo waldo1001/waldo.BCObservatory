@@ -1,0 +1,28 @@
+{
+  "video_id": "PHmFqehrPG4",
+  "item_id": "video/yt-microsoft/PHmFqehrPG4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The is and as operator features were marked ga, but their evidence quotes only describe how the operators work. Neither quote says whether they are GA or preview. The transcript only says the features are new or introduced in this release, so both are now unclear.",
+    "Interface Extension and Unknown Interface Type are correctly left as unclear because no preview or GA wording appears in the transcript.",
+    "The quotes, summary and key points match the transcript. In the captions, 'voms' is understood as enums, which fits the later line about building extensibility into enums."
+  ],
+  "input_hash": "dc2ccb320cdb2ca98eb42f2155bbf0fe98c68c044ce64b358d55abf4ea852d50",
+  "by": "opus",
+  "at": "2026-10-07T23:05:27.274Z",
+  "applied": [
+    "Interface Extension: status unclear",
+    "Type Checking with Is Operator for Interfaces: status unclear",
+    "Interface Casting with As Operator: status unclear",
+    "Unknown Interface Type: status unclear",
+    "quote at 774s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.079425
+  }
+}

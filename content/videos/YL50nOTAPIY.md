@@ -18,12 +18,12 @@ tags:
   - roadmap
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:38.972Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:39.013Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,7 +170,7 @@ quotes:
 
 > Copilot for Finance, a Microsoft 365 role-based agent next to Copilot for Sales and Copilot for Service, is introduced for accounts receivable and collections. The video covers its Outlook and Excel integrations, the Teams integration still on the roadmap, and extensibility with custom fields through Copilot Studio.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YL50nOTAPIY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 7:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YL50nOTAPIY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 7:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -186,7 +186,7 @@ The first focus is accounts receivable and collections. The Outlook integration 
 - The Excel integration is described as a semi-integration to reconcile data sets between Business Central and Excel; variance analysis is coming soon.
 - Managing accounts receivable from within Teams is still on the roadmap and not yet released.
 - Custom fields on Business Central entities can be exposed from APIs and surfaced in apps like Outlook; Copilot Studio is needed to author these experiences.
-- The speaker cites task switching as about 4 hours that add up to about 5 weeks per year, roughly 9% of annual work time.
+- The speaker cites research saying task switching costs about 4 hours per week, which adds up to about 5 weeks per year, roughly 9% of annual work time.
 
 ## Chapters
 
@@ -200,13 +200,13 @@ The first focus is accounts receivable and collections. The Outlook integration 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot for Finance | status not stated | [0:06](https://www.youtube.com/watch?v=YL50nOTAPIY&t=6s) |  |
-| Copilot for Finance Outlook Integration | status not stated | [4:39](https://www.youtube.com/watch?v=YL50nOTAPIY&t=279s) |  |
-| Copilot for Finance Excel Integration | status not stated | [3:58](https://www.youtube.com/watch?v=YL50nOTAPIY&t=238s) |  |
-| Copilot for Finance Teams Integration | status not stated | [5:36](https://www.youtube.com/watch?v=YL50nOTAPIY&t=336s) |  |
-| Copilot for Finance Extensibility | status not stated | [6:12](https://www.youtube.com/watch?v=YL50nOTAPIY&t=372s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot for Finance | status not stated | [0:06](https://www.youtube.com/watch?v=YL50nOTAPIY&t=6s) |
+| Copilot for Finance Outlook Integration | status not stated | [4:39](https://www.youtube.com/watch?v=YL50nOTAPIY&t=279s) |
+| Copilot for Finance Excel Integration | status not stated | [3:58](https://www.youtube.com/watch?v=YL50nOTAPIY&t=238s) |
+| Copilot for Finance Teams Integration | status not stated | [5:36](https://www.youtube.com/watch?v=YL50nOTAPIY&t=336s) |
+| Copilot for Finance Extensibility | status not stated | [6:12](https://www.youtube.com/watch?v=YL50nOTAPIY&t=372s) |
 
 ## AL objects mentioned
 

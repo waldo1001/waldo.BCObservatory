@@ -16,12 +16,12 @@ tags:
   - concurrent execution
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:31.659Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:31.701Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,13 @@ evidence:
     commit: null
     t: 267
     quote: had a lot of sales postings and purchase postings all with very very large orders thousands of lines so each single order would
+  - kind: video
+    url: https://www.youtube.com/watch?v=fHi8ohBlZro&t=298s
+    title: "What's New: Enhancements to Job Queue (2024 release wave 2)"
+    date: "2024-10-08T15:00:44.000Z"
+    commit: null
+    t: 298
+    quote: so that's why we introduced priority as well within that category
 links:
   learn: []
   objects: []
@@ -160,13 +167,16 @@ quotes:
   - t: 267
     text: had a lot of sales postings and purchase postings all with very very large orders thousands of lines so each single order would
     check: fuzzy
+  - t: 298
+    text: so that's why we introduced priority as well within that category
+    check: exact
 ---
 
 # What's New: Enhancements to Job Queue (2024 release wave 2)
 
 > Job queue enhancements in Business Central 2024 release wave 2: jobs with the same category code now wait in a real queue instead of retrying by polling. The video covers the new "waiting" status, first-in-first-out order, and priority within a category code.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fHi8ohBlZro) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=fHi8ohBlZro) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 5:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,7 +190,7 @@ Now jobs with the same category code line up in a queue. A waiting job sleeps wi
 - When a job finishes, it activates the next job in the queue.
 - A new status, 'waiting', shows that a job is sleeping in the queue until its turn.
 - Execution order is now first-in-first-out through sequential numbering, instead of the earlier random order from retries.
-- Priority support lets a job skip the queue, but only within the same category code, and urgent jobs must be prioritized manually.
+- Priority support lets a job skip the queue, but only within the same category code; the motivating case was a customer with long posting queues and urgent orders.
 - The queueing applies only to jobs sharing a category code, typically sales and purchase order posting used to avoid locking.
 - The presenter says the change was technically already released but belongs to 2024 release wave 2.
 
@@ -216,5 +226,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:30](https://www.youtube.com/watch?v=fHi8ohBlZro&t=210s) "if there's a category and someone else is running then we go to sleep so we set status to waiting"
 - [3:48](https://www.youtube.com/watch?v=fHi8ohBlZro&t=228s) "someone else was running at this time when they're done they will go out and say activate next next in Q"
 - [4:27](https://www.youtube.com/watch?v=fHi8ohBlZro&t=267s) "had a lot of sales postings and purchase postings all with very very large orders thousands of lines so each single order would"
+- [4:58](https://www.youtube.com/watch?v=fHi8ohBlZro&t=298s) "so that's why we introduced priority as well within that category"
 
 Presenters (as heard): Barrick Nutson.

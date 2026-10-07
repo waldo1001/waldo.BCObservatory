@@ -15,12 +15,12 @@ tags:
   - lunch configuration
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:27.062Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:27.119Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -41,6 +41,13 @@ evidence:
     commit: null
     t: 130
     quote: it can be quite hard sometimes to get back to the original state on the left side here in order for me to continue
+  - kind: video
+    url: https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s
+    title: "What's New in AL: Dependency Publishing (2024 release wave 2)"
+    date: "2024-10-08T15:00:24.000Z"
+    commit: null
+    t: 287
+    quote: we have a option in the launch config called dependency publishing options
   - kind: video
     url: https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=297s
     title: "What's New in AL: Dependency Publishing (2024 release wave 2)"
@@ -69,6 +76,13 @@ evidence:
     commit: null
     t: 406
     quote: for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then, this will be
+  - kind: video
+    url: https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=406s
+    title: "What's New in AL: Dependency Publishing (2024 release wave 2)"
+    date: "2024-10-08T15:00:24.000Z"
+    commit: null
+    t: 406
+    quote: So, if you change the version as part of a small change, then it does not work with the restore.
 links:
   learn: []
   objects: []
@@ -137,6 +151,9 @@ quotes:
   - t: 130
     text: it can be quite hard sometimes to get back to the original state on the left side here in order for me to continue
     check: exact
+  - t: 287
+    text: we have a option in the launch config called dependency publishing options
+    check: exact
   - t: 297
     text: setting it to default here will recompile all the direct dependencies of the changed app whether or not they're in the workspace I'm working
     check: exact
@@ -149,13 +166,16 @@ quotes:
   - t: 406
     text: for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then, this will be
     check: exact
+  - t: 406
+    text: So, if you change the version as part of a small change, then it does not work with the restore.
+    check: exact
 ---
 
 # What's New in AL: Dependency Publishing (2024 release wave 2)
 
 > Dependency publishing in AL (2024 release wave 2): when a developer publishes a changed app from VS Code, direct dependencies are recompiled and reapplied in order. Covers the default, ignore and strict options, restore after a failed deployment, and the limits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JKsLjwSh0SQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 7:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JKsLjwSh0SQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 7:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,13 +185,12 @@ A demo shows a deployment failing and the original extensions being restored. Th
 
 ## Key points
 
+- Dependency publishing options is a setting in the launch config that controls how dependent apps are recompiled when publishing from VS Code with F5.
 - Default option recompiles all direct dependencies of the changed app, whether or not they are in the current workspace.
-- Ignore option recompiles only the published app and does not check dependencies. It can cause runtime errors in dependent extensions and is not recommended for production.
-- Strict option requires all dependencies of the changed app to be in the workspace and fails if any direct or indirect dependency is missing.
-- If a deployment fails, the original extensions are restored to their previous state, so the developer can continue without manual cleanup.
-- Restore does not work if the app version was changed as part of the deployment. Small changes without version bumps work best.
-- Business Central does not support app downgrades because of possible destructive changes.
-- Deployment can still fail with deep dependency chains that are not in the workspace, or when indirect dependencies have incompatible changes.
+- Ignore option recompiles only the published (changed) app, so dependent extensions can start getting runtime errors.
+- Strict option requires all dependencies to be in the workspace and fails from the start if the changed app has dependencies not present in the workspace.
+- If a deployment fails, the original extensions are restored, so the developer does not have to manually rebuild the previous extension setup.
+- Restore does not work if the app version was changed as part of the deployment, because Business Central does not support app downgrades due to possible destructive changes.
 
 ## Chapters
 
@@ -184,13 +203,13 @@ A demo shows a deployment failing and the original extensions being restored. Th
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Dependency Publishing | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s) |  |
-| Dependency Publishing Options - Default | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s) |  |
-| Dependency Publishing Options - Ignore | status not stated | [5:40](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=340s) |  |
-| Dependency Publishing Options - Strict | status not stated | [5:56](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=356s) |  |
-| Extension restore on failed deployment | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=277s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Dependency Publishing | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s) |
+| Dependency Publishing Options - Default | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s) |
+| Dependency Publishing Options - Ignore | status not stated | [5:40](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=340s) |
+| Dependency Publishing Options - Strict | status not stated | [5:56](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=356s) |
+| Extension restore on failed deployment | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=277s) |
 
 ## AL objects mentioned
 
@@ -202,10 +221,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:17](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=17s) "To change out a dependency, you need to remove all the things that depend on it first."
 - [2:10](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=130s) "it can be quite hard sometimes to get back to the original state on the left side here in order for me to continue"
+- [4:47](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=287s) "we have a option in the launch config called dependency publishing options"
 - [4:57](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=297s) "setting it to default here will recompile all the direct dependencies of the changed app whether or not they're in the workspace I'm working"
 - [5:25](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=325s) "because we have improved the way we detect what is getting published and uninstalled and ready to be reapplied, we can now restore this"
 - [6:20](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=380s) "One of the core scenarios is is that we do not support in Business Central uh the downgrade of apps because they have destructive"
 - [6:46](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=406s) "for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then, this will be"
+- [6:46](https://www.youtube.com/watch?v=JKsLjwSh0SQ&t=406s) "So, if you change the version as part of a small change, then it does not work with the restore."
 
 ## Disclaimers in the video
 

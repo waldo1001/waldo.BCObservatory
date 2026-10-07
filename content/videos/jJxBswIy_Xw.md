@@ -20,12 +20,12 @@ tags:
   - data import
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:15.767Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:15.812Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,6 +117,13 @@ evidence:
     t: 1127
     quote: the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be
   - kind: video
+    url: https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1147s
+    title: "What's New: Subscription Billing (2024 release wave 2)"
+    date: "2024-10-08T15:00:51.000Z"
+    commit: null
+    t: 1147
+    quote: feed that data into the individual invoices for the recurring billing and this is what usage based billing can do
+  - kind: video
     url: https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1335s
     title: "What's New: Subscription Billing (2024 release wave 2)"
     date: "2024-10-08T15:00:51.000Z"
@@ -191,11 +198,6 @@ features:
   - name: Billing Proposals and Schedules
     status: unclear
     t: 85
-    verified: false
-    status_source: video
-  - name: Space Billing Feature
-    status: unclear
-    t: 105
     verified: false
     status_source: video
   - name: Deferrals System
@@ -300,6 +302,9 @@ quotes:
   - t: 1127
     text: the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be
     check: exact
+  - t: 1147
+    text: feed that data into the individual invoices for the recurring billing and this is what usage based billing can do
+    check: exact
   - t: 1335
     text: because I process data without having having a contract already uh the system will give me an error and I can just click on
     check: exact
@@ -312,7 +317,7 @@ quotes:
 
 > Subscription Billing module in Business Central (2024 release wave 2): contracts, service commitments, billing proposals, deferrals and usage-based billing, shown in a demo. It also notes that Excel reports and a Power BI embedded app are planned for minor release 25.2.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jJxBswIy_Xw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 25:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=jJxBswIy_Xw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 25:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -353,7 +358,6 @@ The second half covers extending a contract with service commitments, reporting,
 | Subscription and Recurring Billing Module | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=6s) |  |
 | Contracts and Service Commitments | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=45s) |  |
 | Billing Proposals and Schedules | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=85s) |  |
-| Space Billing Feature | status not stated | [1:45](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=105s) |  |
 | Deferrals System | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=141s) |  |
 | Contract Price Management | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=181s) |  |
 | Contract Renewals | status not stated | [3:01](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=181s) |  |
@@ -390,6 +394,7 @@ Not found in BC28-30: table "Customer Contract Deferrals", page "Contract Deferr
 - [15:25](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=925s) "you cannot just add any random uh line to a contract you can only add uh service commitments like things that we can uh"
 - [18:06](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1086s) "in the 25.2 minor we will provide Excel reports so you can get your data out and do analysis and you'll also uh see"
 - [18:47](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1127s) "the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be"
+- [19:07](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1147s) "feed that data into the individual invoices for the recurring billing and this is what usage based billing can do"
 - [22:15](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1335s) "because I process data without having having a contract already uh the system will give me an error and I can just click on"
 - [24:38](https://www.youtube.com/watch?v=jJxBswIy_Xw&t=1478s) "it's a new module there are some new terminology uh but it supports uh recurring billing for uh Services you can start from an"
 

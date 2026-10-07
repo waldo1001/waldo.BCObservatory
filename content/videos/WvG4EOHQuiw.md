@@ -2,7 +2,7 @@
 id: video/WvG4EOHQuiw
 type: video
 title: "What's New: Field Service Integration to Service Management (2024 release wave 2)"
-summary: "Field Service integration to Service Management in Business Central (2024 release wave 2): setup, new table mappings, inventory availability by location, service order and work order synchronization, consumption tracking, and invoicing. Covers prerequisites such as premium experience, Dataverse and virtual tables."
+summary: "Field Service integration to Service Management in Business Central, becoming available with update 1 (November) of 2024 release wave 2: setup, new integration table mappings, inventory availability by location, service order and work order synchronization, consumption tracking and invoicing. Covers prerequisites such as premium experience, Dataverse and Sales connections, and virtual tables."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - invoicing
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:48.632Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:48.677Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -39,13 +39,6 @@ evidence:
     commit: null
     t: 26
     quote: integrating business Central with Dynamics 365 field service is of particular value to companies that do regular maintenance or or they do repairs of
-  - kind: video
-    url: https://www.youtube.com/watch?v=WvG4EOHQuiw&t=83s
-    title: "What's New: Field Service Integration to Service Management (2024 release wave 2)"
-    date: "2024-10-08T15:00:38.000Z"
-    commit: null
-    t: 83
-    quote: this is a feature that is becoming available in a first update or a November update of 2024 release wave one
   - kind: video
     url: https://www.youtube.com/watch?v=WvG4EOHQuiw&t=144s
     title: "What's New: Field Service Integration to Service Management (2024 release wave 2)"
@@ -108,7 +101,7 @@ evidence:
     date: "2024-10-08T15:00:38.000Z"
     commit: null
     t: 1237
-    quote: this feature is going to get going to become available with update one of 2024 release wave
+    quote: this feature is going to get going to become available with update one of 2024 release wave uh 2 meaning November uh update
 links:
   learn: []
   objects:
@@ -226,9 +219,6 @@ quotes:
   - t: 26
     text: integrating business Central with Dynamics 365 field service is of particular value to companies that do regular maintenance or or they do repairs of
     check: exact
-  - t: 83
-    text: this is a feature that is becoming available in a first update or a November update of 2024 release wave one
-    check: exact
   - t: 144
     text: service management module is a part of the premium experience so the first thing that you will need to do in order even to
     check: exact
@@ -254,15 +244,15 @@ quotes:
     text: it is sort of a conditional b directional synchronization so what you saw that we had use quantities and durations
     check: fuzzy
   - t: 1237
-    text: this feature is going to get going to become available with update one of 2024 release wave
-    check: fuzzy
+    text: this feature is going to get going to become available with update one of 2024 release wave uh 2 meaning November uh update
+    check: exact
 ---
 
 # What's New: Field Service Integration to Service Management (2024 release wave 2)
 
-> Field Service integration to Service Management in Business Central (2024 release wave 2): setup, new table mappings, inventory availability by location, service order and work order synchronization, consumption tracking, and invoicing. Covers prerequisites such as premium experience, Dataverse and virtual tables.
+> Field Service integration to Service Management in Business Central, becoming available with update 1 (November) of 2024 release wave 2: setup, new integration table mappings, inventory availability by location, service order and work order synchronization, consumption tracking and invoicing. Covers prerequisites such as premium experience, Dataverse and Sales connections, and virtual tables.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WvG4EOHQuiw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 21:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WvG4EOHQuiw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 21:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -295,20 +285,20 @@ It then shows inventory availability by location, the alignment of service order
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Field Service Integration to Service Management | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=5s) |  |
-| Integration Type Selection | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=201s) |  |
-| New Integration Table Mappings | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=242s) |  |
-| Inventory Availability by Location | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=371s) |  |
-| Service Order and Work Order Alignment | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=551s) |  |
-| Service Management Setup Changes | status not stated | [4:42](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=282s) |  |
-| Location Mandatory Setup | status not stated | [5:51](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=351s) |  |
-| Service Item Lines and Work Order Incidents Alignment | status not stated, demoed | [14:03](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=843s) |  |
-| Estimated Quantities and Duration Synchronization | status not stated, demoed | [14:24](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=864s) |  |
-| Consumption and Material Tracking | status not stated, demoed | [15:04](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=904s) |  |
-| Work Order Status Workflow | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=925s) |  |
-| Service Invoice Posting | status not stated, demoed | [17:47](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=1067s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Field Service Integration to Service Management | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=5s) |
+| Integration Type Selection | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=201s) |
+| New Integration Table Mappings | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=242s) |
+| Inventory Availability by Location | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=371s) |
+| Service Order and Work Order Alignment | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=551s) |
+| Service Management Setup Changes | status not stated | [4:42](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=282s) |
+| Location Mandatory Setup | status not stated | [5:51](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=351s) |
+| Service Item Lines and Work Order Incidents Alignment | status not stated, demoed | [14:03](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=843s) |
+| Estimated Quantities and Duration Synchronization | status not stated, demoed | [14:24](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=864s) |
+| Consumption and Material Tracking | status not stated, demoed | [15:04](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=904s) |
+| Work Order Status Workflow | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=925s) |
+| Service Invoice Posting | status not stated, demoed | [17:47](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=1067s) |
 
 ## AL objects mentioned
 
@@ -329,7 +319,6 @@ Not found in BC28-30: page "Field Service Integration Setup", table "Integration
 ## Quotes
 
 - [0:26](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=26s) "integrating business Central with Dynamics 365 field service is of particular value to companies that do regular maintenance or or they do repairs of"
-- [1:23](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=83s) "this is a feature that is becoming available in a first update or a November update of 2024 release wave one"
 - [2:24](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=144s) "service management module is a part of the premium experience so the first thing that you will need to do in order even to"
 - [8:09](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=489s) "location to Warehouse map synchronization this is a unidirectional synchronization meaning the business Central given that it's a system of record for inventory is"
 - [9:51](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=591s) "the moment you actually create a service order it is going to get it is going to start synchronizing in there"
@@ -338,7 +327,7 @@ Not found in BC28-30: page "Field Service Integration Setup", table "Integration
 - [14:24](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=864s) "estimated quantities and duration uh synchronized uh to indicate uh to the dispatcher that this is something to uh look at and the important"
 - [14:44](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=884s) "estimated quantities and the quantity field actually just gets synchronized to work order up until the work order reaches the scheduled status that's when"
 - [19:00](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=1140s) "it is sort of a conditional b directional synchronization so what you saw that we had use quantities and durations"
-- [20:37](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=1237s) "this feature is going to get going to become available with update one of 2024 release wave"
+- [20:37](https://www.youtube.com/watch?v=WvG4EOHQuiw&t=1237s) "this feature is going to get going to become available with update one of 2024 release wave uh 2 meaning November uh update"
 
 ## Disclaimers in the video
 

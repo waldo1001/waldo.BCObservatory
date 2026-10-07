@@ -183,6 +183,12 @@
       "check": "exact"
     },
     {
+      "t": 287.7,
+      "text": "we have a option in the launch config called dependency publishing options",
+      "why_it_matters": "Names the launch config setting that controls the feature.",
+      "check": "exact"
+    },
+    {
       "t": 297.9,
       "text": "setting it to default here will recompile all the direct dependencies of the changed app whether or not they're in the workspace I'm working",
       "why_it_matters": "Explains the key capability of the default dependency publishing option - automatic recompilation of all affected dependencies.",
@@ -204,6 +210,12 @@
       "t": 406.8,
       "text": "for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then, this will be",
       "why_it_matters": "Explains the practical benefit of dependency publishing for developers working on incremental changes.",
+      "check": "exact"
+    },
+    {
+      "t": 406.8,
+      "text": "So, if you change the version as part of a small change, then it does not work with the restore.",
+      "why_it_matters": "States the main limitation of the restore behavior.",
       "check": "exact"
     }
   ],

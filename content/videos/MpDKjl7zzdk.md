@@ -17,12 +17,12 @@ tags:
   - company setup
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:06.113Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:06.159Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,7 +167,7 @@ quotes:
 
 > Suggest Number Series with Copilot in Business Central (2024 release wave 2) is demoed for generating number series for a record, a module, or a whole new company, and for preparing existing series for the next year. The demo covers prompt guides, year numbers in series, and automatic updates to setup pages.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MpDKjl7zzdk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 9:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MpDKjl7zzdk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 9:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -177,13 +177,13 @@ The demo starts with a service management module rollout and generates a series 
 
 ## Key points
 
-- Copilot can generate number series for a specific record, a module, or an entire company, using a customizable prompt.
-- The number series dialog includes prompt guides for common tasks: new company, preparing for next year, and modifying existing series.
-- Year numbers, such as 24 for fiscal year 2024, appear in a series only if the prompt asks for them explicitly.
-- When a series is suggested, Copilot updates the related setup page automatically, for example service management setup.
-- In the year preparation demo, Copilot set a starting date of 1 January 2025. A prompt that is not specific enough can also produce suggestions for unrelated series.
+- Copilot can generate or modify number series for a specific record, a module, or an entire company, using a customizable prompt.
+- The number series dialog includes prompt guides for common tasks: creating series for a new company, preparing series for the next year, and modifying existing series.
+- Prompts can add requirements. In the demo, the prompt explicitly asked for the last two digits of the year (24), and the generated series included it.
+- When a suggested series is kept, Copilot also updates the related setup page, for example service management setup.
+- In the next-year demo, Copilot created an additional number series line with a starting date of 1 January 2025, following the same pattern as the original series.
 - For a new company, the scope of generated series follows the user experience setting. A premium company gets series for all modules.
-- AI generated content might be incorrect. In the demo a sales credit memo series was suggested that was not requested, and it had to be deleted manually.
+- AI generated content might be incorrect. In the demo, Copilot also suggested a sales credit memo series that was not requested, and the presenter deleted it before keeping the suggestion.
 
 ## Chapters
 
@@ -198,14 +198,14 @@ The demo starts with a service management module rollout and generates a series 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Suggest Number Series with Copilot | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=7s) |  |
-| Number Series Year Number Inclusion | status not stated, demoed | [2:11](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=131s) |  |
-| Automatic Number Series Update | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=192s) |  |
-| Number Series Year Preparation | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=232s) |  |
-| Prompt Guides for Number Series | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=111s) |  |
-| Complete Company Number Series Generation | status not stated, demoed | [5:29](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=329s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Suggest Number Series with Copilot | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=7s) |
+| Number Series Year Number Inclusion | status not stated, demoed | [2:11](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=131s) |
+| Automatic Number Series Update | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=192s) |
+| Number Series Year Preparation | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=232s) |
+| Prompt Guides for Number Series | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=111s) |
+| Complete Company Number Series Generation | status not stated, demoed | [5:29](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=329s) |
 
 ## AL objects mentioned
 

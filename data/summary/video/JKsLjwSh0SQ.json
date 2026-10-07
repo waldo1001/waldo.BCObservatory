@@ -4,13 +4,12 @@
   "summary": "Dependency publishing in AL (2024 release wave 2): when a developer publishes a changed app from VS Code, direct dependencies are recompiled and reapplied in order. Covers the default, ignore and strict options, restore after a failed deployment, and the limits.",
   "overview": "The video explains why replacing an app that other extensions depend on is hard: dependents must be removed first, and getting back to the original state after a failed deployment can be difficult. Dependency publishing detects changes in the app and recompiles its direct dependencies during deployment, then reapplies the dependent extensions in the right order.\n\nA demo shows a deployment failing and the original extensions being restored. The video then explains the three publishing options (default, ignore, strict) and the limitations, including that app downgrades are not supported and that changing the app version breaks the restore.",
   "key_points": [
+    "Dependency publishing options is a setting in the launch config that controls how dependent apps are recompiled when publishing from VS Code with F5.",
     "Default option recompiles all direct dependencies of the changed app, whether or not they are in the current workspace.",
-    "Ignore option recompiles only the published app and does not check dependencies. It can cause runtime errors in dependent extensions and is not recommended for production.",
-    "Strict option requires all dependencies of the changed app to be in the workspace and fails if any direct or indirect dependency is missing.",
-    "If a deployment fails, the original extensions are restored to their previous state, so the developer can continue without manual cleanup.",
-    "Restore does not work if the app version was changed as part of the deployment. Small changes without version bumps work best.",
-    "Business Central does not support app downgrades because of possible destructive changes.",
-    "Deployment can still fail with deep dependency chains that are not in the workspace, or when indirect dependencies have incompatible changes."
+    "Ignore option recompiles only the published (changed) app, so dependent extensions can start getting runtime errors.",
+    "Strict option requires all dependencies to be in the workspace and fails from the start if the changed app has dependencies not present in the workspace.",
+    "If a deployment fails, the original extensions are restored, so the developer does not have to manually rebuild the previous extension setup.",
+    "Restore does not work if the app version was changed as part of the deployment, because Business Central does not support app downgrades due to possible destructive changes."
   ],
   "audience": [
     "developer",

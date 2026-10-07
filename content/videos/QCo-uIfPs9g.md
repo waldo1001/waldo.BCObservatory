@@ -20,12 +20,12 @@ tags:
   - tool interface
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:03.267Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:03.312Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -296,7 +296,7 @@ quotes:
 
 > Copilot extensibility changes for developers in Business Central 2024 release wave 2: prompt actions on card and document pages, errors and messages inside prompt dialogs, parallel function calling, telemetry to Application Insights, and managed AI resources (private preview). Includes a "Suggest Project with Copilot" build walkthrough.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QCo-uIfPs9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 23:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QCo-uIfPs9g) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 23:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

@@ -16,12 +16,12 @@ tags:
   - apps installation
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:23.046Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:23.100Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -212,7 +212,7 @@ quotes:
 
 > Power BI reporting in Business Central, 2024 release wave 2: 76 embedded Power BI reports in seven apps, set up through an assisted setup wizard per company, with Finance and Sales Overview demoed. Also covers planned demo data, new apps, and open-sourced .pbix files from release 26.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DpYJOkwKxTY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 15:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DpYJOkwKxTY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 15:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

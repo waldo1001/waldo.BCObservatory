@@ -1,0 +1,32 @@
+{
+  "video_id": "GbMjcJurkFE",
+  "item_id": "video/yt-microsoft/GbMjcJurkFE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Evidence quote 'in preview in 2024 release Wave 2' for features at t 103.4, 300.6 and 401.2 is not in those segments and is under 8 words; it is only in the 6.6 segment.",
+    "Evidence quote for 'Analysis tab history and adjustments' starts at 6.6, not 240.1.",
+    "Repointed those features to the full 6.6 sentence saying Analysis Assist is in preview, since they are parts of Analysis Assist.",
+    "Key point 1 applied the 'results may vary / may not perform as intended' caveat to Analysis Assist generally; the transcript applies it only to untested languages.",
+    "Added a quote on manual adjustments being added to prompt history."
+  ],
+  "input_hash": "8c3dfbe50d3ad5bbba98bfccec6f510ab4e37c28c7699667cb69a097e428e706",
+  "by": "opus",
+  "at": "2026-10-07T23:05:27.197Z",
+  "applied": [
+    "Analysis Assist: status preview",
+    "Field personalization through Analysis Assist: status preview",
+    "Analysis tab history and adjustments: status preview",
+    "Prompt guides: status preview",
+    "Analysis from chat pane: status preview",
+    "quote at 240s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09235300000000002
+  }
+}

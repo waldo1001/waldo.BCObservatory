@@ -16,12 +16,12 @@ tags:
   - management activity api
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:00.534Z"
   flags: []
 generated:
-  at: "2026-10-06T19:11:00.558Z"
+  at: "2026-10-07T23:04:00.567Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,13 @@ evidence:
     commit: null
     t: 26
     quote: this can help responding to security events in case you want to see what a user did for example after an account is compromised
+  - kind: video
+    url: https://www.youtube.com/watch?v=lk1YJKOmHyI&t=26s
+    title: "What's New: Auditing In Purview (2024 release wave 2)"
+    date: "2024-10-08T15:00:54.000Z"
+    commit: null
+    t: 26
+    quote: you can use it to run forensic investigations and for customers with specific business needs or um industry compliance requirements
   - kind: video
     url: https://www.youtube.com/watch?v=lk1YJKOmHyI&t=148s
     title: "What's New: Auditing In Purview (2024 release wave 2)"
@@ -136,6 +143,9 @@ quotes:
   - t: 26
     text: this can help responding to security events in case you want to see what a user did for example after an account is compromised
     check: exact
+  - t: 26
+    text: you can use it to run forensic investigations and for customers with specific business needs or um industry compliance requirements
+    check: exact
   - t: 148
     text: auditing is included and enabled by default with most Microsoft 365 plans meaning that if you have one of the included Microsoft 365 plans
     check: exact
@@ -151,7 +161,7 @@ quotes:
 
 > Auditing Business Central events in Microsoft Purview (2024 release wave 2): the Purview portal shows user operations across Microsoft services, including Business Central, with event search, 180-day default retention (extendable to 10 years with licenses), and PowerShell or API access.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lk1YJKOmHyI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 3:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lk1YJKOmHyI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 3:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,12 +172,12 @@ The demo covers the Purview portal, where events can be filtered and searched by
 ## Key points
 
 - Purview lets audit administrators see user operations across Microsoft services, including Business Central, in one portal.
+- Use cases include responding to security events such as compromised accounts, forensic investigations and meeting industry compliance requirements.
 - Portal event search can filter by record type, activity category, keyword, user and date range.
 - Environment Administration events cover everything done in the Business Central admin center for environments.
 - Report Administration events cover changes made to reporting in a Business Central environment.
-- Auditing is included and enabled by default with most Microsoft 365 plans, so a compatible plan is needed.
+- Auditing is included and enabled by default with most Microsoft 365 plans; with an included plan nothing needs to be done to enable it.
 - Purview keeps audit logs 180 days by default; up to 10 years needs add-on licenses or specific Microsoft 365 plans.
-- Events can also be accessed through PowerShell or the management activity API for automation.
 
 ## Chapters
 
@@ -178,20 +188,21 @@ The demo covers the Purview portal, where events can be filtered and searched by
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Auditing Business Central events in Purview | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=6s) |  |
-| Purview portal event filtering and search | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=46s) |  |
-| Environment Administration event auditing | status not stated | [2:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=128s) |  |
-| Report Administration event auditing | status not stated | [2:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=128s) |  |
-| Default Purview enablement with Microsoft 365 | status not stated | [2:28](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=148s) |  |
-| Purview data retention with extension options | status not stated | [2:48](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=168s) |  |
-| PowerShell and Management Activity API access | status not stated | [3:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=188s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Auditing Business Central events in Purview | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=6s) |
+| Purview portal event filtering and search | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=46s) |
+| Environment Administration event auditing | status not stated | [2:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=128s) |
+| Report Administration event auditing | status not stated | [2:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=128s) |
+| Default Purview enablement with Microsoft 365 | status not stated | [2:28](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=148s) |
+| Purview data retention with extension options | status not stated | [2:48](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=168s) |
+| PowerShell and Management Activity API access | status not stated | [3:08](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=188s) |
 
 ## Quotes
 
 - [0:06](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=6s) "pview is an auditing solution that allows audit administrators to see operations executed by users across all Microsoft services including business Central in a"
 - [0:26](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=26s) "this can help responding to security events in case you want to see what a user did for example after an account is compromised"
+- [0:26](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=26s) "you can use it to run forensic investigations and for customers with specific business needs or um industry compliance requirements"
 - [2:28](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=148s) "auditing is included and enabled by default with most Microsoft 365 plans meaning that if you have one of the included Microsoft 365 plans"
 - [2:48](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=168s) "pview retains the locks for 180 days but by purchasing add-on licenses or with specific Microsoft 365 plans you can extend this up to"
 - [2:48](https://www.youtube.com/watch?v=lk1YJKOmHyI&t=168s) "the easiest way to get to pview events is in the pview portal where you can run manual reports"

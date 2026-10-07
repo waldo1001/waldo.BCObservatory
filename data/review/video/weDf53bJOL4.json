@@ -1,0 +1,38 @@
+{
+  "video_id": "weDf53bJOL4",
+  "item_id": "video/yt-microsoft/weDf53bJOL4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Duplicate quotes at t 853.2, 883.4 and 1577.9 (same span stored twice). I dropped them and re-added one copy of each.",
+    "'Runtime packages publishing to NuGet' duplicates 'Runtime package generation and NuGet publishing'. I dropped the first one.",
+    "Page scripting tests in CI/CD is presented as a future investment ('We are not ready with that today'), so it is announced, not unclear.",
+    "AppSource symbols on a public NuGet feed are stated as available 'in this release', and performance tests are stated as available in the latest version, so both are marked ga.",
+    "Moving AL Go off BC Container Helper is announced for the next 2 to 3 years.",
+    "The remaining quotes are verbatim, including spans that cross segment boundaries. The summary is supported."
+  ],
+  "input_hash": "2c07a151a8901e5835fd6a8c2e3784cda9e04d878cec597fb4243063f8480417",
+  "by": "opus",
+  "at": "2026-10-07T23:03:51.096Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 6 quote(s)",
+    "quote at 853s",
+    "quote at 883s",
+    "quote at 1578s",
+    "quote at 1966s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Page scripting tests in AL Go CI/CD -> announced: evidence not verbatim or does not state the status",
+    "status NuGet support for AppSource apps -> ga: evidence not verbatim or does not state the status",
+    "status Performance test in AL Go for GitHub -> ga: evidence not verbatim or does not state the status",
+    "status BC Container Helper deprecation in AL Go -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.20188899999999999
+  }
+}

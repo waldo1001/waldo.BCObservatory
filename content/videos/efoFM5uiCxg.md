@@ -16,12 +16,12 @@ tags:
   - external notifications
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:28.416Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:28.458Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,7 +34,7 @@ evidence:
     date: "2024-10-08T15:00:47.000Z"
     commit: null
     t: 208
-    quote: this part of the feature is uh currently in preview mainly because the business events are uh still in preview and we are taking
+    quote: this part of the feature is uh currently in preview mainly because the business events are uh still in preview
   - kind: video
     url: https://www.youtube.com/watch?v=efoFM5uiCxg&t=7s
     title: "What's New: Get Notified of Issues with Job Queues (2024 release wave 2)"
@@ -203,7 +203,7 @@ quotes:
 
 > Job queue notifications in Business Central 2024 release wave 2: an assisted setup for recipients, methods and failure thresholds, an in-product notification strip and role center tiles, and external notifications through business events and Power Automate. The external part is in preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=efoFM5uiCxg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 16:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=efoFM5uiCxg) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 16:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -214,7 +214,7 @@ Users see a notification strip in their role center and three extra job queue ti
 ## Key points
 
 - The assisted setup guide has three steps: select notification recipients, choose notification methods (in-product or external), and set frequency thresholds.
-- Thresholds reduce notification fatigue, for example notifying only after 3-5 consecutive failures instead of every failure.
+- Thresholds reduce notification fatigue for transient issues. For example, you can get notified only after a job fails three to five times instead of on every failure.
 - The in-product notification strip in the role center lets users show details, inspect failed tasks, restart jobs manually, and disable notifications in My Settings.
 - Three role center tiles show tasks failed, in progress, and pending or waiting. Color-coded indicators follow the admin's failed-task thresholds.
 - Designated job queue notification administrators see their own job queue tasks and those of other users.
@@ -243,7 +243,7 @@ Users see a notification strip in their role center and three extra job queue ti
 | In-Product Notification Strip | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=efoFM5uiCxg&t=330s) |  |
 | Job Queue Task Tiles in Role Center | status not stated, demoed | [6:51](https://www.youtube.com/watch?v=efoFM5uiCxg&t=411s) |  |
 | Job Queue Notification Administrator Role | status not stated, demoed | [8:52](https://www.youtube.com/watch?v=efoFM5uiCxg&t=532s) |  |
-| External Notifications with Business Events | preview, demoed | [10:47](https://www.youtube.com/watch?v=efoFM5uiCxg&t=647s) | "this part of the feature is uh currently in preview mainly because the business events are uh still in preview and we are taking" ([3:28](https://www.youtube.com/watch?v=efoFM5uiCxg&t=208s)) |
+| External Notifications with Business Events | preview, demoed | [10:47](https://www.youtube.com/watch?v=efoFM5uiCxg&t=647s) | "this part of the feature is uh currently in preview mainly because the business events are uh still in preview" ([3:28](https://www.youtube.com/watch?v=efoFM5uiCxg&t=208s)) |
 | Job Queue Entry API | status not stated | [14:41](https://www.youtube.com/watch?v=efoFM5uiCxg&t=881s) |  |
 | Job Queue Log Entries API | status not stated | [14:41](https://www.youtube.com/watch?v=efoFM5uiCxg&t=881s) |  |
 | Job Queue Task Failed Business Event | status not stated, demoed | [14:41](https://www.youtube.com/watch?v=efoFM5uiCxg&t=881s) |  |

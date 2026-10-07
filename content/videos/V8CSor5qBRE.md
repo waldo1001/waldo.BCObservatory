@@ -20,12 +20,12 @@ tags:
   - merge data item
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:48.860Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:48.907Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -246,7 +246,7 @@ quotes:
 
 > Word layout enhancements for document reports in Business Central 2024 release wave 2, aimed at developers: a new Word add-in with layout controls (developer comments, hide empty table, row, column, hide field if zero), Word sections with merge data item, themeable layouts, and font and alignment fixes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V8CSor5qBRE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 25:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=V8CSor5qBRE) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 25:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -262,7 +262,7 @@ It then shows Word sections working in layouts that use the merge data item prop
 - Hide table row if empty depends on a chosen field in the repeater; hide empty table column is applied to the header cell, for example for discount columns.
 - Hide field if zero works on any field in the layout, not only repeater fields, and can be combined with hide column to remove all-zero columns.
 - Word sections can now be used in layouts that use the merge data item property, to control margins, orientation, columns, watermarks, headers and footers. The documentation warning about this limit is described as no longer valid.
-- Themeable reports let users apply Office themes in Word and upload the layout again, only for layouts marked as themeable.
+- Themeable reports let users change the Office theme in Word and upload the layout again. Shipped layouts with themeable in the name support this, and the developer docs explain how to make your own layouts themeable.
 
 ## Chapters
 
@@ -282,19 +282,19 @@ It then shows Word sections working in layouts that use the merge data item prop
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Word Add-in for Document Reports | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=V8CSor5qBRE&t=6s) |  |
-| Developer Comments Layout Control | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=V8CSor5qBRE&t=27s) |  |
-| Hide If Empty Table Layout Control | status not stated, demoed | [6:01](https://www.youtube.com/watch?v=V8CSor5qBRE&t=361s) |  |
-| Hide Empty Table Row Layout Control | status not stated, demoed | [7:43](https://www.youtube.com/watch?v=V8CSor5qBRE&t=463s) |  |
-| Hide Empty Table Column Layout Control | status not stated, demoed | [9:56](https://www.youtube.com/watch?v=V8CSor5qBRE&t=596s) |  |
-| Hide Field If Zero Layout Control | status not stated, demoed | [11:22](https://www.youtube.com/watch?v=V8CSor5qBRE&t=682s) |  |
-| Word Sections Support for Merge Data Item | status not stated, demoed | [13:06](https://www.youtube.com/watch?v=V8CSor5qBRE&t=786s) |  |
-| Themeable reports with Office themes | status not stated, demoed | [18:57](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1137s) |  |
-| Word alignment bug fix | status not stated | [22:53](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1373s) |  |
-| Planet PostNet and IMB font support | status not stated | [23:49](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1429s) |  |
-| Aptos font availability | status not stated | [24:23](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1463s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Word Add-in for Document Reports | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=V8CSor5qBRE&t=6s) |
+| Developer Comments Layout Control | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=V8CSor5qBRE&t=27s) |
+| Hide If Empty Table Layout Control | status not stated, demoed | [6:01](https://www.youtube.com/watch?v=V8CSor5qBRE&t=361s) |
+| Hide Empty Table Row Layout Control | status not stated, demoed | [7:43](https://www.youtube.com/watch?v=V8CSor5qBRE&t=463s) |
+| Hide Empty Table Column Layout Control | status not stated, demoed | [9:56](https://www.youtube.com/watch?v=V8CSor5qBRE&t=596s) |
+| Hide Field If Zero Layout Control | status not stated, demoed | [11:22](https://www.youtube.com/watch?v=V8CSor5qBRE&t=682s) |
+| Word Sections Support for Merge Data Item | status not stated, demoed | [13:06](https://www.youtube.com/watch?v=V8CSor5qBRE&t=786s) |
+| Themeable reports with Office themes | status not stated, demoed | [18:57](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1137s) |
+| Word alignment bug fix | status not stated | [22:53](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1373s) |
+| Planet PostNet and IMB font support | status not stated | [23:49](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1429s) |
+| Aptos font availability | status not stated | [24:23](https://www.youtube.com/watch?v=V8CSor5qBRE&t=1463s) |
 
 ## AL objects mentioned
 

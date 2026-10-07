@@ -199,27 +199,6 @@
       "system": "development"
     },
     {
-      "name": "Runtime packages publishing to NuGet",
-      "description": "Future capability to publish runtime packages to NuGet as either private or public feeds, allowing sharing with partners or customers.",
-      "status": "announced",
-      "status_evidence_t": 883.4,
-      "status_evidence_quote": "As future investments, we will also be able to publish runtime packages to NuGet, either private or public",
-      "status_evidence_verified": true,
-      "t_start": 883.4,
-      "t_end": 896.9,
-      "is_demoed": false,
-      "caveats": [
-        "Not yet available",
-        "Still in future investments phase"
-      ],
-      "tags": [
-        "nuget",
-        "runtime packages",
-        "future investment"
-      ],
-      "system": "development"
-    },
-    {
       "name": "First-party apps in NuGet packages",
       "description": "Future capability to make all Microsoft first-party apps available in NuGet packages along with app source symbols.",
       "status": "announced",
@@ -589,26 +568,14 @@
     },
     {
       "t": 853.2,
-      "text": "the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.",
-      "why_it_matters": "Clarifies the NuGet package format requirement that each app has its own package.",
-      "check": "exact"
-    },
-    {
-      "t": 853.2,
       "text": "Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.",
-      "why_it_matters": "Establishes the standard Business Central NuGet package format - one app per package - clarifying the implementation approach.",
-      "check": "exact"
-    },
-    {
-      "t": 883.4,
-      "text": "we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with",
-      "why_it_matters": "Outlines future planned capabilities for runtime package sharing and collaboration.",
+      "why_it_matters": "Explains why Deliver to NuGet changed to one package per app.",
       "check": "exact"
     },
     {
       "t": 883.4,
       "text": "Now, as future investments, we will also be able to publish runtime packages to NuGet, either private or public",
-      "why_it_matters": "Announces future roadmap capability for runtime package distribution, not yet available.",
+      "why_it_matters": "Marks runtime package publishing to NuGet as a future investment.",
       "check": "exact"
     },
     {
@@ -637,14 +604,8 @@
     },
     {
       "t": 1577.9,
-      "text": "And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft repositories, but",
-      "why_it_matters": "Clarifies BC samples tag is open to community contributions, not limited to Microsoft repositories.",
-      "check": "exact"
-    },
-    {
-      "t": 1577.9,
       "text": "And it will show me all repositories on GitHub that has the tag BC samples.",
-      "why_it_matters": "Explains the discovery mechanism for BC sample repositories that developers can fork and learn from.",
+      "why_it_matters": "Shows how sample repositories are found through aka.ms/bcsamples.",
       "check": "exact"
     },
     {
@@ -669,6 +630,12 @@
       "t": 1950.2,
       "text": "The BC replay and NPM package was actually released to the public. And that means that we can in AL Go for GitHub start",
       "why_it_matters": "Describes the prerequisite for future page scripting test integration in AL Go CI/CD workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1966.2,
+      "text": "We are not ready with that today, so I actually think AL Ops beat us to it.",
+      "why_it_matters": "Confirms page scripting test support in AL Go is not yet available.",
       "check": "exact"
     },
     {

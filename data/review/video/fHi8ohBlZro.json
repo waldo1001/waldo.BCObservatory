@@ -1,0 +1,30 @@
+{
+  "video_id": "fHi8ohBlZro",
+  "item_id": "video/yt-microsoft/fHi8ohBlZro",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on priority says urgent jobs 'must be prioritized manually'. The transcript does not say this, so I removed it.",
+    "The GA evidence quote for Job Queue Category Code Queueing is verbatim, but it starts in segment 6.4, not 199.9. I corrected evidence_t.",
+    "The other three features have no explicit status statement in the transcript, so they stay unclear.",
+    "Added a quote showing that priority applies within the category; the existing 267.2 quote only gives the customer context."
+  ],
+  "input_hash": "31dd9817360b146a406e03731b8fdb24fbd89949bcf11038fb34f9751da75bd0",
+  "by": "opus",
+  "at": "2026-10-07T23:04:31.659Z",
+  "applied": [
+    "Job Queue Category Code Queueing: status ga",
+    "Waiting Status for Queued Jobs: status unclear",
+    "Job Queue Priority Support: status unclear",
+    "Improved Execution Order in Job Queue: status unclear",
+    "quote at 298s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061189
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "lk1YJKOmHyI",
+  "item_id": "video/yt-microsoft/lk1YJKOmHyI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes match the transcript word for word (some run across segment boundaries, which is fine).",
+    "Key point 5 adds 'so a compatible plan is needed', which the transcript does not say. The speaker says you don't need to do anything to enable it if you have an included plan. I reworded it.",
+    "Leaving every feature status as unclear is reasonable. The transcript never clearly calls any feature preview or GA.",
+    "The page left out compliance and forensic investigation use cases, and the invitation to submit ideas at aka.ms/BCideas. I added a quote and a key point."
+  ],
+  "input_hash": "309d47bd2968c02046e7485faffa04b711e2d0381d6c0054c8a516e533decba1",
+  "by": "opus",
+  "at": "2026-10-07T23:04:00.534Z",
+  "applied": [
+    "quote at 26s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054245
+  }
+}

@@ -7,10 +7,10 @@
     "Resources are shipped in a resources folder inside the app file, for example CSV data and images.",
     "The get resource function takes a file name and relative path and puts the resource into a specified stream.",
     "Several resource folders can be configured, such as one for images and one for data files.",
-    "The resource name including its path relative to the resource folder must be unique across all folders in the extension.",
+    "The resource name including its path relative to the resource folder must be unique within the extension, or compilation fails.",
     "Limits: 1,024 KB per resource, 16 MB for all resources in an extension, and 256 resources per extension.",
     "Embedded resources are read-only, because an app package cannot be changed after shipping, and only the owning extension can access them.",
-    "At the time of the video the feature was not yet available for use."
+    "The server validates resources at publish time: invalid file extensions, failed MIME type checks or virus scan detections block publishing."
   ],
   "audience": [
     "developer",

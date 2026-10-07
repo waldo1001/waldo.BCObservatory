@@ -222,6 +222,12 @@
       "text": "we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants",
       "why_it_matters": "States a concrete technical limitation of the feature",
       "check": "exact"
+    },
+    {
+      "t": 343.4,
+      "text": "the ability to control the um environment level access is only available to internal administrators",
+      "why_it_matters": "States that only internal administrators can change the setting. Partners cannot change it themselves.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

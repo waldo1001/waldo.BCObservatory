@@ -16,12 +16,12 @@ tags:
   - authentication restrictions
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:51.237Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:51.275Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,6 +77,13 @@ evidence:
     commit: null
     t: 343
     quote: we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants
+  - kind: video
+    url: https://www.youtube.com/watch?v=TBBlYpwbAFk&t=343s
+    title: "What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)"
+    date: "2024-10-08T15:00:34.000Z"
+    commit: null
+    t: 343
+    quote: the ability to control the um environment level access is only available to internal administrators
 links:
   learn: []
   objects: []
@@ -166,13 +173,16 @@ quotes:
   - t: 343
     text: we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants
     check: exact
+  - t: 343
+    text: the ability to control the um environment level access is only available to internal administrators
+    check: exact
 ---
 
 # What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)
 
 > Business Central 2024 release wave 2 adds a per-environment partner access setting in the tenant admin center. Internal administrators can allow all partners, selected partners (up to 10 Entra tenants), or no partners. The video demos the setting and its limits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=TBBlYpwbAFk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=TBBlYpwbAFk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -203,13 +213,13 @@ The demo shows switching to selected partners by picking from a list of foreign 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Partner access control by environment | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=6s) |  |
-| All partners access mode | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |  |
-| Selected partners access mode | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=107s) |  |
-| Partner access disabled mode | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=208s) |  |
-| Environment details page partner access setting | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Partner access control by environment | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=6s) |
+| All partners access mode | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
+| Selected partners access mode | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=107s) |
+| Partner access disabled mode | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=208s) |
+| Environment details page partner access setting | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
 
 ## AL objects mentioned
 
@@ -230,6 +240,7 @@ Not found in BC28-30: page "environments list page", page "environment Details p
 - [4:08](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=248s) "the partner access settings affect the authentication of delegated users and foreign multi-tenant applications so both of these set of um users or applications"
 - [5:03](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=303s) "this is a feature that acts on top of the requirement of having the tenant level access consents set up properly so it does"
 - [5:43](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=343s) "we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants"
+- [5:43](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=343s) "the ability to control the um environment level access is only available to internal administrators"
 
 ## Disclaimers in the video
 

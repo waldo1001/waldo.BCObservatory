@@ -195,10 +195,16 @@
       "check": "exact"
     },
     {
+      "t": 318.6,
+      "text": "the resources are only only available from the extension that owns the resource",
+      "why_it_matters": "Only the owning extension can access its resources, so sharing them with other extensions needs custom code.",
+      "check": "exact"
+    },
+    {
       "t": 338.7,
-      "text": "the server determines what is good and what is not good so if you don't have",
-      "why_it_matters": "Indicates server-side validation controls what resources can be deployed.",
-      "check": "fuzzy"
+      "text": "if your file extensions are not valid on the server that you want to deploy it to all the mime types checks will fail",
+      "why_it_matters": "Shows that the server checks embedded resources at publish time and can block the app from being deployed.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

@@ -17,12 +17,12 @@ tags:
   - regulatory compliance
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:15.568Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:15.608Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -158,16 +158,6 @@ features:
     t: 407
     verified: false
     status_source: video
-  - name: UBL/XML Format for Germany
-    status: unclear
-    t: 440
-    verified: false
-    status_source: video
-  - name: Fattura PA Format for Spain
-    status: unclear
-    t: 440
-    verified: false
-    status_source: video
   - name: Peppol Format for Australia and New Zealand
     status: announced
     t: 440
@@ -219,7 +209,7 @@ quotes:
 
 > E-Documents in Business Central 2024 release wave 2: framework stabilization, new partner connectors (Avalara and others, eight default by end of wave), attachments in XML, improved search, and country formats. Includes demos of sending invoices with Avalara and receiving documents by scheduled import.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hba7KVWrIwY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:56 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hba7KVWrIwY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 14:56 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -231,11 +221,11 @@ For wave 2 it covers stabilization work, new default connectors built with partn
 
 - New default connectors named: Avalara, B2B Router, Contineo, Logic Sign, Every and Commerce. Eight default connectors are expected by the end of the wave.
 - Not all connectors arrive at once: the first comes with 25.1 and the rest later, because partner-built code goes through Microsoft code review. Commercial terms need separate contracts with each provider.
-- Avalara setup needs an Avalara account, a client ID, a client secret and company ID mapping. The mandate you select determines the validation checks.
-- To send invoices automatically, set a document sending profile on the customer so that posting a sales invoice routes through the e-documents framework.
-- Receiving documents can be automated with a scheduled import that checks periodically for incoming vendor documents.
+- Avalara setup needs a client ID, a client secret and an Avalara company ID mapped to the Business Central company. The selected Avalara mandate determines which validation checks are run.
+- To send invoices automatically, set a document sending profile on the customer so that posting a sales invoice routes through the e-documents framework. Attachments such as PDFs can be embedded in the Peppol XML.
+- Receiving documents can be automated with a scheduled import that checks periodically for incoming vendor documents and creates purchase invoices.
 - The e-documents API was postponed to allow improvements and is expected around version 25.3 (approximate timeline).
-- UBL/XML for Germany and Fattura PA for Spain are scheduled for December 2024, ahead of January 2025 requirements. Peppol for Australia and New Zealand is announced for after January 2025.
+- Formats for Germany and Spain are planned for December 2024, ahead of mandatory e-invoicing there from early 2025 (format names are garbled in the captions). Peppol for Australia and New Zealand is planned after the new year, by April 2025.
 
 ## Chapters
 
@@ -260,8 +250,6 @@ For wave 2 it covers stabilization work, new default connectors built with partn
 | E-Documents Framework Stabilization | status not stated | [6:06](https://www.youtube.com/watch?v=hba7KVWrIwY&t=366s) |  |
 | E-Documents APIs | status not stated | [6:27](https://www.youtube.com/watch?v=hba7KVWrIwY&t=387s) |  |
 | Peppol Format with Data Exchange Definition | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=hba7KVWrIwY&t=407s) |  |
-| UBL/XML Format for Germany | status not stated | [7:20](https://www.youtube.com/watch?v=hba7KVWrIwY&t=440s) |  |
-| Fattura PA Format for Spain | status not stated | [7:20](https://www.youtube.com/watch?v=hba7KVWrIwY&t=440s) |  |
 | Peppol Format for Australia and New Zealand | announced | [7:20](https://www.youtube.com/watch?v=hba7KVWrIwY&t=440s) | "P and Z format for Australia New Zealand will come after new year" ([7:40](https://www.youtube.com/watch?v=hba7KVWrIwY&t=460s)) |
 | Avalara Integration | status not stated, demoed | [8:00](https://www.youtube.com/watch?v=hba7KVWrIwY&t=480s) |  |
 | Document Sending Profile for Customers | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=hba7KVWrIwY&t=632s) |  |

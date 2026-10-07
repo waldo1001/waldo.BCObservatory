@@ -1,0 +1,29 @@
+{
+  "video_id": "UQmuMPRlHek",
+  "item_id": "video/yt-microsoft/UQmuMPRlHek",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary, chapters and most features are supported by the transcript.",
+    "The 'Copilot feature permissions' description overstates the control: the transcript says 'it's not every feature that has that permission', so per-feature permission control is not universal. Added a quote to make this clear.",
+    "Key points left out security context, permissions and the data privacy commitment. Added them.",
+    "Added a quote on Copilot running under the user's security context.",
+    "The quote at 399 is a fragment but it is verbatim and on topic, so it stays.",
+    "Only the preview feature has evidence of its status. The other features stay unclear, which is correct."
+  ],
+  "input_hash": "2176aa456a0911b40d6e901c5470b8329ff8b2d8b4469228cfec8e94a0fe3953",
+  "by": "opus",
+  "at": "2026-10-07T23:04:48.929Z",
+  "applied": [
+    "quote at 520s",
+    "quote at 540s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.082169
+  }
+}

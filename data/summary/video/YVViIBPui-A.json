@@ -4,13 +4,13 @@
   "summary": "Business Central 2024 release wave 2 financial management changes: the Subscription Billing module for recurring invoicing, default quantity for G/L lines, Power BI apps (Finance app with 14 reports), a star schema Fixed Assets query, and new financial reporting templates.",
   "overview": "A five-minute overview of financial management updates in 2024 release wave 2. It starts with the Subscription Billing module, which handles recurring invoicing for contracts and services, with frequency, periods, renewal and expiry dates, and revenue recognition control through deferrals. Automated billing is described as coming later.\n\nIt then covers a small default quantity toggle for G/L lines, Power BI apps for six areas, a star schema query on fixed asset ledger entries, and added financial reporting templates with five predefined reports.",
   "key_points": [
-    "Subscription Billing is a module for recurring invoicing of contracts and services, with settings for frequency, periods, renewal and expiry dates, and deferral-based revenue control.",
-    "Automated subscription billing (set up once, runs automatically) is stated as coming later.",
-    "In 25.2, Excel reports for subscription billing are to be provided. A new Word layout and a Power BI app are announced for the next minor version.",
+    "Subscription Billing is a module for recurring invoicing of customer contracts and services, and also for recurring vendor expenses, with settings for frequency, billed periods, renewal and expiry, and a deferral module to control revenue or expense recognition.",
+    "Subscription Billing ships with standard reports. In 25.2 (the next minor version), Excel reports, a new Word layout and a Power BI app with embedded reporting are to be added.",
+    "Automated subscription billing (set up once and let it run) is mentioned as coming sometime soon, maybe the next release.",
     "A toggle in Sales & Receivables or Purchases & Payables setup sets the default quantity on G/L lines to one, similar to the item default quantity feature.",
-    "Power BI apps are delivered for six areas including Finance, Sales and Purchase. The Finance app has 14 embedded reports with overview, KPIs and ledger entry drill-down.",
-    "A Fixed Assets query based on a star schema lets you query fixed asset ledger entries, build your own views, and validate data across several tables.",
-    "Financial reporting adds templates that combine row and column definitions. Five predefined reports: balance sheet, income statement (detailed and summarized), and trial balance."
+    "Power BI apps are to be delivered for six areas including Finance, Sales and Purchase. The Finance app has 14 embedded reports with overview, KPIs and ledger entry drill-down.",
+    "A Fixed Assets query based on a star schema, the first module to get one, lets you query fixed asset ledger entries across multiple tables, build your own views, and do fact finding or data validation.",
+    "Financial reporting adds more templates that combine row and column definitions. Five predefined reports: balance sheet and income statement, each detailed or summarized, plus a trial balance. New docs content covers them."
   ],
   "audience": [
     "functional consultant",

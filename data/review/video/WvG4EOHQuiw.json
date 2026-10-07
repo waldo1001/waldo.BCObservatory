@@ -1,0 +1,30 @@
+{
+  "video_id": "WvG4EOHQuiw",
+  "item_id": "video/yt-microsoft/WvG4EOHQuiw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at 83.6 repeats the speaker's slip 'November update of 2024 release wave one'; the closing segment states update one of 2024 release wave 2 (November). Dropped as misleading.",
+    "Quote at 1237.4 is truncated before the wave number '2'; replaced with a span that includes '2 meaning November update'.",
+    "Main feature status set to announced: the speaker says it is going to become available with update one of 2024 release wave 2.",
+    "Summary updated to state availability with update 1 (November) of 2024 release wave 2.",
+    "Key points, other features and remaining quotes are supported by the transcript."
+  ],
+  "input_hash": "5f6feca8e9fe2430f7cccdfd07f86b7d7407cb16762318a156da94d673538bee",
+  "by": "opus",
+  "at": "2026-10-07T23:04:48.632Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 1237s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [
+    "status Field Service Integration to Service Management -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.120749
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "video_id": "YL50nOTAPIY",
+  "item_id": "video/yt-microsoft/YL50nOTAPIY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript. The t=158 quote runs on into the next segment, which is allowed.",
+    "The task-switching key point left out 'per week'. The transcript says about 4 hours per week, which adds up to 5 weeks per year.",
+    "The Teams integration and extensibility are both described as roadmap items still to come, so their status is now 'announced' with verbatim evidence.",
+    "The Outlook and Excel integrations are described as available now, but the transcript does not clearly say whether they are preview or GA, so they stay 'unclear'.",
+    "The summary is supported by the transcript and is kept."
+  ],
+  "input_hash": "41786137cf73b8999baa622ef70117fe029064db8fb46c1546aa2c4881f33eee",
+  "by": "opus",
+  "at": "2026-10-07T23:04:38.972Z",
+  "applied": [
+    "Copilot for Finance: status unclear",
+    "Copilot for Finance Outlook Integration: status unclear",
+    "Copilot for Finance Excel Integration: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Copilot for Finance Teams Integration -> announced: evidence not verbatim or does not state the status",
+    "status Copilot for Finance Extensibility -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.070021
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "_1LhwG2ZgFw",
+  "item_id": "video/yt-microsoft/_1LhwG2ZgFw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The captions say search time went from '60 seconds to just 56 seconds'. 'Up to 10 times faster' suggests 6 seconds, so this is probably a caption error. The key point and the feature description say 'about 6 seconds' as if that were stated; the key point now notes the discrepancy.",
+    "The key points left out CSV mapping caching and the fact that CSV is the only supported file type, so both were added.",
+    "All quotes are verbatim; some run into the next segment, which is acceptable.",
+    "The transcript never states a preview or GA status, so all features stay unclear."
+  ],
+  "input_hash": "488ad3283171b20629908fdb34071a42277d5a21e5000ba523cadf7aaf6c01ba",
+  "by": "opus",
+  "at": "2026-10-07T23:04:36.876Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.079041
+  }
+}

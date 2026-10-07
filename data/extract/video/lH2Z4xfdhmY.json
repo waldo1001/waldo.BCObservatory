@@ -249,6 +249,18 @@
       "check": "snapped"
     },
     {
+      "t": 123.8,
+      "text": "and in here you can see this line use optimize text search in lists and in this case it is enabled",
+      "why_it_matters": "Shows the Feature management switch that turns modern search on.",
+      "check": "exact"
+    },
+    {
+      "t": 263.5,
+      "text": "so we've actually made it possible to switch directly by using the star star 1303 this will search in the Legacy way",
+      "why_it_matters": "Shows the star prefix that switches back to legacy substring search.",
+      "check": "exact"
+    },
+    {
       "t": 464.5,
       "text": "the modern search on the other hand Builds an index on every word and now you have an index lookup into those words and",
       "why_it_matters": "Explains the technical reason why modern search is significantly faster than legacy search.",
@@ -264,6 +276,12 @@
       "t": 601.8,
       "text": "the syntax can be a little hard to grasp you saw the trick with using the page inspector to show the generated filters",
       "why_it_matters": "Acknowledges complexity in double-and syntax and provides developer tools to understand generated filters.",
+      "check": "exact"
+    },
+    {
+      "t": 621.9,
+      "text": "you would normally avoid using this for explicit business logic where you're better off using existing equals filters",
+      "why_it_matters": "Tells developers where not to use the double and operator.",
       "check": "exact"
     }
   ],

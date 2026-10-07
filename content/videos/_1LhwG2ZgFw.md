@@ -18,12 +18,12 @@ tags:
   - column mapping
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:36.876Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:36.915Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,7 +185,7 @@ quotes:
 
 > Sales line suggestions with Copilot in Business Central, as covered in the 2024 release wave 1 What's New video. Covers better keyword extraction and context understanding, faster product search, blanket order linking, document-specific search, units of measure, and CSV upload with column mapping and caching.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_1LhwG2ZgFw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 13:33 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=_1LhwG2ZgFw) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 13:33 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -197,11 +197,11 @@ It then covers searching from blanket orders as a source document, narrowing sea
 
 - Keyword extraction recognizes compound words without spaces, for example 'guestchairs' is read as 'guest chairs'.
 - Copilot uses modifiers like 'small', 'bigger' or 'commercial use' to pick the right product variant.
-- Product search is up to 10 times faster; in the example, 40,000 items went from 60 seconds to about 6 seconds.
+- Product search is up to 10 times faster. The example is a 40,000-item database that drops from 60 seconds; the caption says '56 seconds', but 10x implies about 6.
 - Searching from a blanket order creates a direct link to the blanket order line, so quantities cannot exceed the linked blanket order quantity.
-- Search can be limited to items in a specific document by giving its document number or ID.
-- All configured units of measure for an item are supported, including custom ones.
-- CSV upload detects the column separator and maps columns to product, quantity and unit of measure. You can edit the mapping before generating suggestions.
+- Search can be limited to items in a specific document by giving its document number, for example a sales quote number.
+- All configured units of measure for an item are supported, such as pieces, bottles, kilos and pallets.
+- Only CSV files are supported for attachments for now. Other file types are hoped for in the future.
 
 ## Chapters
 
@@ -217,17 +217,17 @@ It then covers searching from blanket orders as a source document, narrowing sea
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Improved keyword extraction for product search | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=63s) |  |
-| Context understanding for product queries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=118s) |  |
-| 10x faster product search | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=163s) |  |
-| Blanket order search and linking | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=228s) |  |
-| Document-specific item search | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=318s) |  |
-| Units of measure support | status not stated, demoed | [6:45](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=405s) |  |
-| CSV file support for sales line suggestions | status not stated, demoed | [7:32](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=452s) |  |
-| CSV column mapping and detection | status not stated, demoed | [9:34](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=574s) |  |
-| CSV mapping caching | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=726s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Improved keyword extraction for product search | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=63s) |
+| Context understanding for product queries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=118s) |
+| 10x faster product search | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=163s) |
+| Blanket order search and linking | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=228s) |
+| Document-specific item search | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=318s) |
+| Units of measure support | status not stated, demoed | [6:45](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=405s) |
+| CSV file support for sales line suggestions | status not stated, demoed | [7:32](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=452s) |
+| CSV column mapping and detection | status not stated, demoed | [9:34](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=574s) |
+| CSV mapping caching | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=726s) |
 
 ## AL objects mentioned
 

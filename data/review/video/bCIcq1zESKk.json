@@ -1,0 +1,27 @@
+{
+  "video_id": "bCIcq1zESKk",
+  "item_id": "video/yt-microsoft/bCIcq1zESKk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The evidence quote for 'Sales line suggestion with Copilot' starts in the segment at 648.3, not 635.2. Corrected evidence_t to 648.3. The 'ga' status holds because the transcript says it was released in the previous wave.",
+    "All other features have no explicit status statement in the transcript, so 'unclear' is correct for them.",
+    "All 6 kept quotes are verbatim, allowing for segment crossings and hyphen/punctuation differences.",
+    "The summary and key points match the transcript. The LLM extracts keywords and embeddings do the re-ranking (demo at 351.9 and 376.4).",
+    "Added a quote on the responsible AI review effort, which the quotes did not cover."
+  ],
+  "input_hash": "ef8eafc41001b6408f779f75ca40605cc3909bd0837525745182f283eb46fc59",
+  "by": "opus",
+  "at": "2026-10-07T23:04:33.008Z",
+  "applied": [
+    "Sales line suggestion with Copilot: status ga",
+    "quote at 729s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077505
+  }
+}

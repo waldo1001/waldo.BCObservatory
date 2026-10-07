@@ -6,11 +6,11 @@
   "key_points": [
     "New default connectors named: Avalara, B2B Router, Contineo, Logic Sign, Every and Commerce. Eight default connectors are expected by the end of the wave.",
     "Not all connectors arrive at once: the first comes with 25.1 and the rest later, because partner-built code goes through Microsoft code review. Commercial terms need separate contracts with each provider.",
-    "Avalara setup needs an Avalara account, a client ID, a client secret and company ID mapping. The mandate you select determines the validation checks.",
-    "To send invoices automatically, set a document sending profile on the customer so that posting a sales invoice routes through the e-documents framework.",
-    "Receiving documents can be automated with a scheduled import that checks periodically for incoming vendor documents.",
+    "Avalara setup needs a client ID, a client secret and an Avalara company ID mapped to the Business Central company. The selected Avalara mandate determines which validation checks are run.",
+    "To send invoices automatically, set a document sending profile on the customer so that posting a sales invoice routes through the e-documents framework. Attachments such as PDFs can be embedded in the Peppol XML.",
+    "Receiving documents can be automated with a scheduled import that checks periodically for incoming vendor documents and creates purchase invoices.",
     "The e-documents API was postponed to allow improvements and is expected around version 25.3 (approximate timeline).",
-    "UBL/XML for Germany and Fattura PA for Spain are scheduled for December 2024, ahead of January 2025 requirements. Peppol for Australia and New Zealand is announced for after January 2025."
+    "Formats for Germany and Spain are planned for December 2024, ahead of mandatory e-invoicing there from early 2025 (format names are garbled in the captions). Peppol for Australia and New Zealand is planned after the new year, by April 2025."
   ],
   "audience": [
     "functional consultant",

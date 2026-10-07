@@ -8,7 +8,7 @@
     "When a job finishes, it activates the next job in the queue.",
     "A new status, 'waiting', shows that a job is sleeping in the queue until its turn.",
     "Execution order is now first-in-first-out through sequential numbering, instead of the earlier random order from retries.",
-    "Priority support lets a job skip the queue, but only within the same category code, and urgent jobs must be prioritized manually.",
+    "Priority support lets a job skip the queue, but only within the same category code; the motivating case was a customer with long posting queues and urgent orders.",
     "The queueing applies only to jobs sharing a category code, typically sales and purchase order posting used to avoid locking.",
     "The presenter says the change was technically already released but belongs to 2024 release wave 2."
   ],

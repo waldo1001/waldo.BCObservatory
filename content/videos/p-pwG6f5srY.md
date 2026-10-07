@@ -20,12 +20,12 @@ tags:
   - shipping charges
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:17.118Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:17.174Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,19 @@ generated:
   input_hash: f7cfec652265e0b66ed76532bf58c3dfbb996140bab38730045d5c8bd0223707
 evidence:
   - kind: video
+    url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=722s
+    title: "Customer-Specific Pricing via Catalogs: generally available"
+    date: "2024-10-08T15:00:56.000Z"
+    commit: null
+    t: 722
+    quote: together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product
+  - kind: video
     url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=919s
     title: "Item Charge Mapping for Shipping Charges: generally available"
     date: "2024-10-08T15:00:56.000Z"
     commit: null
     t: 919
-    quote: if you go to your shipment method mapping now uh instead of just one uh shipping charges type which is the GL account you
+    quote: you can also do a lot more with shipping charges in this release uh if you go to your shipment method mapping
   - kind: video
     url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=47s
     title: "What's New: Shopify Connector (2024 release wave 2)"
@@ -60,6 +67,20 @@ evidence:
     commit: null
     t: 167
     quote: connector right now uh only Imports them but uh we left it to you to write uh your custom extensions to actually do mappings
+  - kind: video
+    url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=238s
+    title: "What's New: Shopify Connector (2024 release wave 2)"
+    date: "2024-10-08T15:00:56.000Z"
+    commit: null
+    t: 238
+    quote: there's a new action again uh in your Shopify Shop Card called languages you can import the languages from Shopify
+  - kind: video
+    url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=398s
+    title: "What's New: Shopify Connector (2024 release wave 2)"
+    date: "2024-10-08T15:00:56.000Z"
+    commit: null
+    t: 398
+    quote: we introduced a new action called add items as Shopify variants uh in the Shopify product list
   - kind: video
     url: https://www.youtube.com/watch?v=p-pwG6f5srY&t=701s
     title: "What's New: Shopify Connector (2024 release wave 2)"
@@ -202,14 +223,9 @@ features:
     verified: false
     status_source: video
   - name: Customer-Specific Pricing via Catalogs
-    status: unclear
+    status: ga
     t: 499
-    verified: false
-    status_source: video
-  - name: Community Code Contribution to Connector
-    status: unclear
-    t: 681
-    verified: false
+    verified: true
     status_source: video
   - name: Shopify API Version Update to 2024-07
     status: unclear
@@ -287,6 +303,12 @@ quotes:
   - t: 167
     text: connector right now uh only Imports them but uh we left it to you to write uh your custom extensions to actually do mappings
     check: exact
+  - t: 238
+    text: there's a new action again uh in your Shopify Shop Card called languages you can import the languages from Shopify
+    check: exact
+  - t: 398
+    text: we introduced a new action called add items as Shopify variants uh in the Shopify product list
+    check: exact
   - t: 701
     text: Merchant and the partner who was helping them with implementation they submitted this code to the GitHub where we have our extension code is
     check: exact
@@ -326,7 +348,7 @@ quotes:
 
 > Shopify Connector changes in Business Central 2024 release wave 2: meta field import, translation sync, adding items as variants, customer-specific B2B catalog pricing, API version 2024-07, item charges for shipping, posted sales invoice sync and Shopify payment reconciliation including gift cards.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=p-pwG6f5srY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 24:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=p-pwG6f5srY) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 24:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -336,13 +358,13 @@ Order-side topics include return location priority, item charges for shipping, s
 
 ## Key points
 
-- Meta fields defined on Shopify products or variants are imported into Business Central. Mapping them to Business Central data needs a custom extension.
-- Translations can be synced from Business Central to Shopify for the languages you select. Item descriptions, extended text and attributes are translated when products are added.
-- A new action adds Business Central items to Shopify as variants of an existing product. Title control on the Shopify API side is limited.
-- Business Central customers can be linked to Shopify B2B catalogs for customer-specific prices and discounts. The field must be made visible through personalization.
-- The connector uses Shopify API version 2024-07 and supports up to 2000 variants per product. The 2000-variant limit can only be tested in development stores on the latest Shopify version.
-- Shipping charge mapping now accepts item charges as well as GL accounts. A new return location priority setting chooses between the default return location and the original order location, and falls back to the default if the original is not found.
-- Posted sales invoices can be synced to Shopify once posted invoice sync and payment terms mapping are set up. The 'Suggest Shopify payments' action in cash receipt journals pulls gateway transactions, handles refunds as negative amounts, and supports gift card reconciliation.
+- Meta fields defined on Shopify products or variants are imported into Business Central through a new Metafields action. For now the connector only imports them. Mapping them to Business Central data, for example creating item substitutions, needs a custom extension.
+- Translations can be synced from Business Central to Shopify for languages selected via the new Languages action on the Shopify Shop card. Item descriptions, extended text, attributes and attribute values are translated when items are added to Shopify.
+- The new 'Add items as Shopify variants' action adds Business Central items as variants of an existing Shopify product. Availability and prices stay synchronized, but titles may need manual edits because the Shopify APIs do not yet give full control over titles.
+- A Customer No. field on Shopify catalogs is hidden by default and can be shown through personalization. It links a Business Central customer to a B2B catalog so that customer-specific prices sync. The feature came from a merchant and partner code contribution on GitHub.
+- The connector now uses Shopify API version 2024-07, which is supported for one year. It works with Shopify's new limit of up to 2000 variants per product, which you can test in a development store on the latest Shopify version. A new Weight Unit setting is required by this API version.
+- Shipment method mapping now accepts items or item charges as well as G/L accounts for shipping charges. A new Return Location Priority setting can use the return location from the Shopify refund, falling back to the default return location if it cannot be found.
+- Posted sales invoices can be synced to Shopify once posted invoice sync is enabled and payment terms mapping is set up. Invoice lines are created as custom products, the original currency is kept, and customers can pay through a Pay now button.
 
 ## Chapters
 
@@ -367,13 +389,12 @@ Order-side topics include return location priority, item charges for shipping, s
 | Custom Fields and Meta Fields Support | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=p-pwG6f5srY&t=100s) |  |
 | Translation Synchronization | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=p-pwG6f5srY&t=238s) |  |
 | Add Items as Shopify Variants | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=p-pwG6f5srY&t=378s) |  |
-| Customer-Specific Pricing via Catalogs | status not stated, demoed | [8:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=499s) |  |
-| Community Code Contribution to Connector | status not stated | [11:21](https://www.youtube.com/watch?v=p-pwG6f5srY&t=681s) |  |
+| Customer-Specific Pricing via Catalogs | generally available, demoed | [8:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=499s) | "together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product" ([12:02](https://www.youtube.com/watch?v=p-pwG6f5srY&t=722s)) |
 | Shopify API Version Update to 2024-07 | status not stated | [12:37](https://www.youtube.com/watch?v=p-pwG6f5srY&t=757s) |  |
 | Support for Up to 2000 Product Variants | status not stated | [13:39](https://www.youtube.com/watch?v=p-pwG6f5srY&t=819s) |  |
 | Weight Unit Setting for Product Variants | status not stated, demoed | [14:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=859s) |  |
 | Return Location Priority Setting | status not stated, demoed | [14:39](https://www.youtube.com/watch?v=p-pwG6f5srY&t=879s) |  |
-| Item Charge Mapping for Shipping Charges | generally available, demoed | [15:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=919s) | "if you go to your shipment method mapping now uh instead of just one uh shipping charges type which is the GL account you" ([15:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=919s)) |
+| Item Charge Mapping for Shipping Charges | generally available, demoed | [15:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=919s) | "you can also do a lot more with shipping charges in this release uh if you go to your shipment method mapping" ([15:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=919s)) |
 | Posted Sales Invoice Synchronization | status not stated, demoed | [16:42](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1002s) |  |
 | Currency Handling in Synced Invoices | status not stated, demoed | [18:35](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1115s) |  |
 | Shopify Payment Integration for Invoices | status not stated, demoed | [19:16](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1156s) |  |
@@ -401,6 +422,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:47](https://www.youtube.com/watch?v=p-pwG6f5srY&t=47s) "the sales cycle is about 2 weeks in average but it can be as short as 8 days"
 - [1:00](https://www.youtube.com/watch?v=p-pwG6f5srY&t=60s) "we are again focusing on the making connector better investing into product information management on one side and Order handling on another side which"
 - [2:47](https://www.youtube.com/watch?v=p-pwG6f5srY&t=167s) "connector right now uh only Imports them but uh we left it to you to write uh your custom extensions to actually do mappings"
+- [3:58](https://www.youtube.com/watch?v=p-pwG6f5srY&t=238s) "there's a new action again uh in your Shopify Shop Card called languages you can import the languages from Shopify"
+- [6:38](https://www.youtube.com/watch?v=p-pwG6f5srY&t=398s) "we introduced a new action called add items as Shopify variants uh in the Shopify product list"
 - [11:41](https://www.youtube.com/watch?v=p-pwG6f5srY&t=701s) "Merchant and the partner who was helping them with implementation they submitted this code to the GitHub where we have our extension code is"
 - [12:58](https://www.youtube.com/watch?v=p-pwG6f5srY&t=778s) "every quarter there is a new version and it version will stay current for one year to make sure that we aligned with Shopify"
 - [13:39](https://www.youtube.com/watch?v=p-pwG6f5srY&t=819s) "now you can have up to 2,000 of variant under one product and our connector already works with it"

@@ -1,0 +1,26 @@
+{
+  "video_id": "QfOgUCXg94o",
+  "item_id": "video/yt-microsoft/QfOgUCXg94o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim; several run across segment boundaries, which is fine.",
+    "The feature key description says it can be disabled through warehouse setup configuration. The transcript says you disable it in Feature Keys, and Warehouse Setup only has a function that lets code read the setting. I corrected the key point; the feature description cannot be edited here.",
+    "The page left out the new warehouse register field on warehouse entries and the reason given for the drill-down filter (to avoid expensive upgrades). I added both to the key points.",
+    "All feature statuses stay unclear. The speaker says 'in bc25 we will allow', and the transcript has no explicit preview or GA wording."
+  ],
+  "input_hash": "39ef147056c56d8cdab20085b6cfa87a07666925e3e34c48e682cda955015071",
+  "by": "opus",
+  "at": "2026-10-07T23:05:07.368Z",
+  "applied": [
+    "quote at 123s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.069981
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "MpDKjl7zzdk",
+  "item_id": "video/yt-microsoft/MpDKjl7zzdk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and supported.",
+    "Key point overclaimed: transcript does not say year numbers appear only if explicitly requested; the speaker just explicitly requested them (t=131.4).",
+    "Key point attributed extra suggestions to an unspecific prompt; transcript only says Copilot found additional credit memo series and that AI content might be incorrect (t=268.7).",
+    "Feature statuses stay unclear: the video ties the capability to 2024 release wave 2 but never says preview or GA.",
+    "Minor: the new-company chapter is listed as starting at 308.9, but that demo begins at 329. Chapters are not editable here."
+  ],
+  "input_hash": "07110452245b232d2b1fdc09f6ccf101c6c9add56a2bb2ff158b7718968b43bc",
+  "by": "opus",
+  "at": "2026-10-07T23:05:06.113Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07488900000000001
+  }
+}

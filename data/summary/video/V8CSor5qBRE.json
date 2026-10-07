@@ -10,7 +10,7 @@
     "Hide table row if empty depends on a chosen field in the repeater; hide empty table column is applied to the header cell, for example for discount columns.",
     "Hide field if zero works on any field in the layout, not only repeater fields, and can be combined with hide column to remove all-zero columns.",
     "Word sections can now be used in layouts that use the merge data item property, to control margins, orientation, columns, watermarks, headers and footers. The documentation warning about this limit is described as no longer valid.",
-    "Themeable reports let users apply Office themes in Word and upload the layout again, only for layouts marked as themeable."
+    "Themeable reports let users change the Office theme in Word and upload the layout again. Shipped layouts with themeable in the name support this, and the developer docs explain how to make your own layouts themeable."
   ],
   "audience": [
     "developer",

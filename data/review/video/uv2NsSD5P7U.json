@@ -1,0 +1,32 @@
+{
+  "video_id": "uv2NsSD5P7U",
+  "item_id": "video/yt-microsoft/uv2NsSD5P7U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 features were marked unclear, but the transcript gives their status. The new update cycle (5-month period, shorter grace period, enforced update period) is in public preview from October 2024 for Microsoft localized environments.",
+    "Minor-update opt-out, version skipping, creating environments on any supported version, the API changes and the telemetry changes are announced for general availability or March, so they are set to announced.",
+    "Summary, key points and all 7 quotes match the transcript. Quotes at 220.2 and 520.7 cross segment boundaries, which is allowed."
+  ],
+  "input_hash": "eb053b78fe9cb71c1ee353b1924a68413b52f8381f9978937176ead429338bec",
+  "by": "opus",
+  "at": "2026-10-07T23:03:53.816Z",
+  "applied": [
+    "Opt-out for automatic minor update scheduling: status announced",
+    "Ability to skip minor versions: status announced",
+    "Admin Center API changes for update scheduling: status announced"
+  ],
+  "rejected_edits": [
+    "status 5-month update period for major releases -> preview: evidence not verbatim or does not state the status",
+    "status Shortened grace period with weekly attempts -> preview: evidence not verbatim or does not state the status",
+    "status Enforced update period with extension uninstall -> preview: evidence not verbatim or does not state the status",
+    "status Create environments on any supported version -> announced: evidence not verbatim or does not state the status",
+    "status Telemetry signal changes for update events -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.096401
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - excel reports
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:18.898Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:18.942Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,7 +34,14 @@ evidence:
     date: "2024-10-08T15:00:30.000Z"
     commit: null
     t: 86
-    quote: a new word layout and a powerbi app which means that you will have embedded powerbi reporting for subscription billing but that will be
+    quote: embedded powerbi reporting for subscription billing but that will be in the next minor
+  - kind: video
+    url: https://www.youtube.com/watch?v=YVViIBPui-A&t=86s
+    title: "Automated Subscription Billing: announced"
+    date: "2024-10-08T15:00:30.000Z"
+    commit: null
+    t: 86
+    quote: maybe the next release we will also do automated building so you can set it up once
   - kind: video
     url: https://www.youtube.com/watch?v=YVViIBPui-A&t=30s
     title: "What's New: Financial Management (2024 release wave 2)"
@@ -123,9 +130,9 @@ features:
     verified: true
     status_source: video
   - name: Automated Subscription Billing
-    status: unclear
+    status: announced
     t: 106
-    verified: false
+    verified: true
     status_source: video
   - name: Default Quantity for G/L Lines
     status: unclear
@@ -171,7 +178,7 @@ quotes:
 
 > Business Central 2024 release wave 2 financial management changes: the Subscription Billing module for recurring invoicing, default quantity for G/L lines, Power BI apps (Finance app with 14 reports), a star schema Fixed Assets query, and new financial reporting templates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YVViIBPui-A) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 4:42 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YVViIBPui-A) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 4:42 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,13 +188,13 @@ It then covers a small default quantity toggle for G/L lines, Power BI apps for 
 
 ## Key points
 
-- Subscription Billing is a module for recurring invoicing of contracts and services, with settings for frequency, periods, renewal and expiry dates, and deferral-based revenue control.
-- Automated subscription billing (set up once, runs automatically) is stated as coming later.
-- In 25.2, Excel reports for subscription billing are to be provided. A new Word layout and a Power BI app are announced for the next minor version.
+- Subscription Billing is a module for recurring invoicing of customer contracts and services, and also for recurring vendor expenses, with settings for frequency, billed periods, renewal and expiry, and a deferral module to control revenue or expense recognition.
+- Subscription Billing ships with standard reports. In 25.2 (the next minor version), Excel reports, a new Word layout and a Power BI app with embedded reporting are to be added.
+- Automated subscription billing (set up once and let it run) is mentioned as coming sometime soon, maybe the next release.
 - A toggle in Sales & Receivables or Purchases & Payables setup sets the default quantity on G/L lines to one, similar to the item default quantity feature.
-- Power BI apps are delivered for six areas including Finance, Sales and Purchase. The Finance app has 14 embedded reports with overview, KPIs and ledger entry drill-down.
-- A Fixed Assets query based on a star schema lets you query fixed asset ledger entries, build your own views, and validate data across several tables.
-- Financial reporting adds templates that combine row and column definitions. Five predefined reports: balance sheet, income statement (detailed and summarized), and trial balance.
+- Power BI apps are to be delivered for six areas including Finance, Sales and Purchase. The Finance app has 14 embedded reports with overview, KPIs and ledger entry drill-down.
+- A Fixed Assets query based on a star schema, the first module to get one, lets you query fixed asset ledger entries across multiple tables, build your own views, and do fact finding or data validation.
+- Financial reporting adds more templates that combine row and column definitions. Five predefined reports: balance sheet and income statement, each detailed or summarized, plus a trial balance. New docs content covers them.
 
 ## Chapters
 
@@ -205,8 +212,8 @@ It then covers a small default quantity toggle for G/L lines, Power BI apps for 
 |---|---|---|---|
 | Subscription Billing Module | status not stated | [0:30](https://www.youtube.com/watch?v=YVViIBPui-A&t=30s) |  |
 | Subscription Billing Excel Reports | status not stated | [1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s) |  |
-| Subscription Billing Word Layout and Power BI App | announced | [1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s) | "a new word layout and a powerbi app which means that you will have embedded powerbi reporting for subscription billing but that will be" ([1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s)) |
-| Automated Subscription Billing | status not stated | [1:46](https://www.youtube.com/watch?v=YVViIBPui-A&t=106s) |  |
+| Subscription Billing Word Layout and Power BI App | announced | [1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s) | "embedded powerbi reporting for subscription billing but that will be in the next minor" ([1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s)) |
+| Automated Subscription Billing | announced | [1:46](https://www.youtube.com/watch?v=YVViIBPui-A&t=106s) | "maybe the next release we will also do automated building so you can set it up once" ([1:26](https://www.youtube.com/watch?v=YVViIBPui-A&t=86s)) |
 | Default Quantity for G/L Lines | status not stated | [1:46](https://www.youtube.com/watch?v=YVViIBPui-A&t=106s) |  |
 | Power BI Apps for Financial Areas | status not stated | [2:19](https://www.youtube.com/watch?v=YVViIBPui-A&t=139s) |  |
 | Fixed Assets Query with Star Schema | status not stated | [2:52](https://www.youtube.com/watch?v=YVViIBPui-A&t=172s) |  |

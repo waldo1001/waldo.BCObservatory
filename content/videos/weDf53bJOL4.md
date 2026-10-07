@@ -20,25 +20,18 @@ tags:
   - github packages
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:03:51.096Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:03:51.160Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: f97114bb5dddbf2c9b2f716b1f18a1f4881dbe4b23ee2bb118baa0db9cfda563
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=weDf53bJOL4&t=883s
-    title: "Runtime packages publishing to NuGet: announced"
-    date: "2024-10-08T15:01:09.000Z"
-    commit: null
-    t: 883
-    quote: As future investments, we will also be able to publish runtime packages to NuGet, either private or public
   - kind: video
     url: https://www.youtube.com/watch?v=weDf53bJOL4&t=896s
     title: "First-party apps in NuGet packages: announced"
@@ -115,21 +108,7 @@ evidence:
     date: "2024-10-08T15:01:09.000Z"
     commit: null
     t: 853
-    quote: the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.
-  - kind: video
-    url: https://www.youtube.com/watch?v=weDf53bJOL4&t=853s
-    title: "What's New in AL: Go for GitHub (2024 release wave 2)"
-    date: "2024-10-08T15:01:09.000Z"
-    commit: null
-    t: 853
     quote: Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.
-  - kind: video
-    url: https://www.youtube.com/watch?v=weDf53bJOL4&t=883s
-    title: "What's New in AL: Go for GitHub (2024 release wave 2)"
-    date: "2024-10-08T15:01:09.000Z"
-    commit: null
-    t: 883
-    quote: we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with
   - kind: video
     url: https://www.youtube.com/watch?v=weDf53bJOL4&t=883s
     title: "What's New in AL: Go for GitHub (2024 release wave 2)"
@@ -171,13 +150,6 @@ evidence:
     date: "2024-10-08T15:01:09.000Z"
     commit: null
     t: 1577
-    quote: And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft repositories, but
-  - kind: video
-    url: https://www.youtube.com/watch?v=weDf53bJOL4&t=1577s
-    title: "What's New in AL: Go for GitHub (2024 release wave 2)"
-    date: "2024-10-08T15:01:09.000Z"
-    commit: null
-    t: 1577
     quote: And it will show me all repositories on GitHub that has the tag BC samples.
   - kind: video
     url: https://www.youtube.com/watch?v=weDf53bJOL4&t=1768s
@@ -207,6 +179,13 @@ evidence:
     commit: null
     t: 1950
     quote: The BC replay and NPM package was actually released to the public. And that means that we can in AL Go for GitHub start
+  - kind: video
+    url: https://www.youtube.com/watch?v=weDf53bJOL4&t=1966s
+    title: "What's New in AL: Go for GitHub (2024 release wave 2)"
+    date: "2024-10-08T15:01:09.000Z"
+    commit: null
+    t: 1966
+    quote: We are not ready with that today, so I actually think AL Ops beat us to it.
   - kind: video
     url: https://www.youtube.com/watch?v=weDf53bJOL4&t=2069s
     title: "What's New in AL: Go for GitHub (2024 release wave 2)"
@@ -295,11 +274,6 @@ features:
     status: unclear
     t: 839
     verified: false
-    status_source: video
-  - name: Runtime packages publishing to NuGet
-    status: announced
-    t: 883
-    verified: true
     status_source: video
   - name: First-party apps in NuGet packages
     status: announced
@@ -398,13 +372,7 @@ quotes:
     text: symbols for all app source apps available on a public NuGet feed. Uh AL Go for GitHub supports trusting NuGet feeds
     check: exact
   - t: 853
-    text: the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.
-    check: exact
-  - t: 853
     text: Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.
-    check: exact
-  - t: 883
-    text: we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with
     check: exact
   - t: 883
     text: Now, as future investments, we will also be able to publish runtime packages to NuGet, either private or public
@@ -422,9 +390,6 @@ quotes:
     text: The reason why we really count the SQL statements is that uh very frequently that is the primary reason for things to to regress
     check: exact
   - t: 1577
-    text: And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft repositories, but
-    check: exact
-  - t: 1577
     text: And it will show me all repositories on GitHub that has the tag BC samples.
     check: exact
   - t: 1768
@@ -439,6 +404,9 @@ quotes:
   - t: 1950
     text: The BC replay and NPM package was actually released to the public. And that means that we can in AL Go for GitHub start
     check: exact
+  - t: 1966
+    text: We are not ready with that today, so I actually think AL Ops beat us to it.
+    check: exact
   - t: 2069
     text: With the small addition to the to the AL compiler. They might the team might not think it's small, but let's see.
     check: exact
@@ -451,7 +419,7 @@ quotes:
 
 > AL Go for GitHub changes in the 2024 release wave 2: commit SHA references for non-AL Go actions, federated credentials and managed identities, NuGet symbols for AppSource apps with trusted feeds, performance tests, and the planned move away from BC Container Helper over 2 to 3 years.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=weDf53bJOL4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 35:42 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=weDf53bJOL4) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 35:42 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -495,7 +463,6 @@ It then covers NuGet support. Symbols for AppSource apps are on a public NuGet f
 | Federated credentials and managed identities | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=weDf53bJOL4&t=227s) |  |
 | NuGet support for AppSource apps | status not stated, demoed | [13:04](https://www.youtube.com/watch?v=weDf53bJOL4&t=784s) |  |
 | Deliver to NuGet implementation changes | status not stated, demoed | [13:59](https://www.youtube.com/watch?v=weDf53bJOL4&t=839s) |  |
-| Runtime packages publishing to NuGet | announced | [14:43](https://www.youtube.com/watch?v=weDf53bJOL4&t=883s) | "As future investments, we will also be able to publish runtime packages to NuGet, either private or public" ([14:43](https://www.youtube.com/watch?v=weDf53bJOL4&t=883s)) |
 | First-party apps in NuGet packages | announced | [14:43](https://www.youtube.com/watch?v=weDf53bJOL4&t=883s) | "we're also working on having all first-party apps, meaning all Microsoft apps, available in NuGet packages as well as the app source symbols." ([14:56](https://www.youtube.com/watch?v=weDf53bJOL4&t=896s)) |
 | Trusted NuGet feeds in AL Go for GitHub | status not stated, demoed | [18:12](https://www.youtube.com/watch?v=weDf53bJOL4&t=1092s) |  |
 | NuGet feed fingerprint and prefix registration | status not stated, demoed | [19:39](https://www.youtube.com/watch?v=weDf53bJOL4&t=1179s) |  |
@@ -530,20 +497,18 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [10:18](https://www.youtube.com/watch?v=weDf53bJOL4&t=618s) "if the access token is exposed, then you will have access to the resource it for the validity of the access token, which typically"
 - [13:04](https://www.youtube.com/watch?v=weDf53bJOL4&t=784s) "Now, NuGet support is something that we've been working on for a long time. Um and in this release, we have symbols for all"
 - [13:16](https://www.youtube.com/watch?v=weDf53bJOL4&t=796s) "symbols for all app source apps available on a public NuGet feed. Uh AL Go for GitHub supports trusting NuGet feeds"
-- [14:13](https://www.youtube.com/watch?v=weDf53bJOL4&t=853s) "the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package."
 - [14:13](https://www.youtube.com/watch?v=weDf53bJOL4&t=853s) "Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package."
-- [14:43](https://www.youtube.com/watch?v=weDf53bJOL4&t=883s) "we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with"
 - [14:43](https://www.youtube.com/watch?v=weDf53bJOL4&t=883s) "Now, as future investments, we will also be able to publish runtime packages to NuGet, either private or public"
 - [18:33](https://www.youtube.com/watch?v=weDf53bJOL4&t=1113s) "We will by default trust all Microsoft trusted NuGet feeds, this one and the feeds that uh that will have our first-party apps, the"
 - [20:00](https://www.youtube.com/watch?v=weDf53bJOL4&t=1200s) "Uh this piece does not yet uh support federated credentials."
 - [22:28](https://www.youtube.com/watch?v=weDf53bJOL4&t=1348s) "The latest version of Algo for GitHub, you will now have the ability to run performance test either in CI/CD or in scheduled test"
 - [25:18](https://www.youtube.com/watch?v=weDf53bJOL4&t=1518s) "The reason why we really count the SQL statements is that uh very frequently that is the primary reason for things to to regress"
-- [26:17](https://www.youtube.com/watch?v=weDf53bJOL4&t=1577s) "And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft repositories, but"
 - [26:17](https://www.youtube.com/watch?v=weDf53bJOL4&t=1577s) "And it will show me all repositories on GitHub that has the tag BC samples."
 - [29:28](https://www.youtube.com/watch?v=weDf53bJOL4&t=1768s) "We will, however, take all DevOps relevant features and implement that in either other PowerShell module and in GitHub Actions. And then will AL"
 - [30:14](https://www.youtube.com/watch?v=weDf53bJOL4&t=1814s) "It's not going to happen day one when we go away from using BC Container Helper in AL Go for GitHub. But eventually, like,"
 - [30:51](https://www.youtube.com/watch?v=weDf53bJOL4&t=1851s) "If you're running like projects that needs to go on AppSource or PTEs that needs to be installed in online environments, I urge you"
 - [32:30](https://www.youtube.com/watch?v=weDf53bJOL4&t=1950s) "The BC replay and NPM package was actually released to the public. And that means that we can in AL Go for GitHub start"
+- [32:46](https://www.youtube.com/watch?v=weDf53bJOL4&t=1966s) "We are not ready with that today, so I actually think AL Ops beat us to it."
 - [34:29](https://www.youtube.com/watch?v=weDf53bJOL4&t=2069s) "With the small addition to the to the AL compiler. They might the team might not think it's small, but let's see."
 - [35:29](https://www.youtube.com/watch?v=weDf53bJOL4&t=2129s) "We'll make AL Go for GitHub independent of BC Container Helper over the next 2 to 3 years."
 

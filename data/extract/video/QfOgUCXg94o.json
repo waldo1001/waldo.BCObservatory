@@ -209,6 +209,12 @@
       "check": "exact"
     },
     {
+      "t": 122.9,
+      "text": "we also need to inform the warehouse entry to which uh register it belongs to so there's also a new field for warehouse",
+      "why_it_matters": "Describes the new warehouse register field on warehouse entries that replaces relying on consecutive entry number ranges.",
+      "check": "exact"
+    },
+    {
       "t": 143.4,
       "text": "we call a new function that we call insert record and that's because maybe someone else has posted old style with a lock table",
       "why_it_matters": "Explains the backward compatibility design decision and why the new insert record function is necessary.",

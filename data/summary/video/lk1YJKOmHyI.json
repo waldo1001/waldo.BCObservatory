@@ -5,12 +5,12 @@
   "overview": "The video introduces auditing of Business Central events in Purview. Audit administrators can see operations run by users across all Microsoft services, including Business Central, in a single portal. This supports responding to security events, such as checking what a user did after an account was compromised, and forensic investigations.\n\nThe demo covers the Purview portal, where events can be filtered and searched by record type, activity category, keyword, user and date range. It describes the Environment Administration and Report Administration event categories, default enablement with most Microsoft 365 plans, and data retention. It also mentions PowerShell and the management activity API for access beyond the portal. The presenters say this is only the beginning and ask for ideas on what else to add.",
   "key_points": [
     "Purview lets audit administrators see user operations across Microsoft services, including Business Central, in one portal.",
+    "Use cases include responding to security events such as compromised accounts, forensic investigations and meeting industry compliance requirements.",
     "Portal event search can filter by record type, activity category, keyword, user and date range.",
     "Environment Administration events cover everything done in the Business Central admin center for environments.",
     "Report Administration events cover changes made to reporting in a Business Central environment.",
-    "Auditing is included and enabled by default with most Microsoft 365 plans, so a compatible plan is needed.",
-    "Purview keeps audit logs 180 days by default; up to 10 years needs add-on licenses or specific Microsoft 365 plans.",
-    "Events can also be accessed through PowerShell or the management activity API for automation."
+    "Auditing is included and enabled by default with most Microsoft 365 plans; with an included plan nothing needs to be done to enable it.",
+    "Purview keeps audit logs 180 days by default; up to 10 years needs add-on licenses or specific Microsoft 365 plans."
   ],
   "audience": [
     "administrator",

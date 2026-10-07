@@ -326,6 +326,18 @@
       "check": "exact"
     },
     {
+      "t": 519.8,
+      "text": "co-pilot runs under the user's same context which means all the data governance controls for security for privacy",
+      "why_it_matters": "Shows that Copilot inherits the user's existing permissions and data governance controls.",
+      "check": "exact"
+    },
+    {
+      "t": 539.9,
+      "text": "control that um down to every single feature it's not every feature that has that permission",
+      "why_it_matters": "Shows that permission-based restriction exists but does not cover every Copilot feature.",
+      "check": "exact"
+    },
+    {
       "t": 560,
       "text": "we don't use the data from co-pilot to train the AI models to the benefits of others",
       "why_it_matters": "Addresses privacy concerns by confirming that user data is not used for model training",

@@ -1,0 +1,31 @@
+{
+  "video_id": "jJxBswIy_Xw",
+  "item_id": "video/yt-microsoft/jJxBswIy_Xw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Space Billing Feature' comes from a caption error ('use a space building' at 105.4 means usage-based billing). Usage-based billing already has its own feature entries, so this one is dropped.",
+    "Excel reports are explicitly promised for the 25.2 minor release at 1106.2, so the status is changed from unclear to announced, matching the Power BI app.",
+    "The name 'Automatic Contract Mapping for Usage Data' overstates things. The transcript describes an error the user clicks to create or extend a contract by hand. The description is accurate, so the feature is kept.",
+    "The 'Contract Renewals' description mixes up renewal with contract extension. The transcript only says renewals are possible and partly automatable.",
+    "All 13 quotes match the transcript word for word. Some run across caption segment boundaries, which is acceptable.",
+    "The status of the main module (preview or GA) is never stated, so it stays unclear."
+  ],
+  "input_hash": "08db4bbb997b038cc0d6950ab281c2e7dd2186c980318c7bec3998a9c21fabe9",
+  "by": "opus",
+  "at": "2026-10-07T23:04:15.767Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Power BI Embedded Reporting: status announced",
+    "quote at 1147s"
+  ],
+  "rejected_edits": [
+    "status Excel Reports for Subscription Billing -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.135053
+  }
+}

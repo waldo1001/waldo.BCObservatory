@@ -181,6 +181,12 @@
       "text": "had a lot of sales postings and purchase postings all with very very large orders thousands of lines so each single order would",
       "why_it_matters": "Provides business context for why priority support was needed - real customer scenario with multi-minute processing times.",
       "check": "fuzzy"
+    },
+    {
+      "t": 298,
+      "text": "so that's why we introduced priority as well within that category",
+      "why_it_matters": "Confirms that priority only applies within a job queue category, not across categories.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

@@ -154,10 +154,10 @@
     {
       "name": "Customer-Specific Pricing via Catalogs",
       "description": "Enhancement to B2B pricing that allows linking specific Business Central customers to Shopify B2B catalogs. This enables customer-specific prices and discounts in Shopify, matching Business Central's advanced pricing capabilities for individual customers.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 722.8,
+      "status_evidence_quote": "together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product",
+      "status_evidence_verified": true,
       "t_start": 499.7,
       "t_end": 604.6,
       "is_demoed": true,
@@ -172,25 +172,6 @@
         "discounts"
       ],
       "system": "sales"
-    },
-    {
-      "name": "Community Code Contribution to Connector",
-      "description": "A merchant and partner proactively contributed code to add customer-specific pricing functionality to the Shopify connector via GitHub. Microsoft integrated this code into the standard product, creating a win-win situation where the merchant no longer maintains separate code and Microsoft gains functionality for all connector users.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 681.8,
-      "t_end": 743.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "community contribution",
-        "development",
-        "github",
-        "partnership"
-      ],
-      "system": "integration"
     },
     {
       "name": "Shopify API Version Update to 2024-07",
@@ -277,7 +258,7 @@
       "description": "Enhanced shipment method mapping now supports item charges in addition to GL accounts for shipping charges. Users can map shipping charges to specific item charges like freight items, which are then distributed across sales lines.",
       "status": "ga",
       "status_evidence_t": 919.9,
-      "status_evidence_quote": "if you go to your shipment method mapping now uh instead of just one uh shipping charges type which is the GL account you",
+      "status_evidence_quote": "you can also do a lot more with shipping charges in this release uh if you go to your shipment method mapping",
       "status_evidence_verified": true,
       "t_start": 919.9,
       "t_end": 1002.6,
@@ -481,6 +462,18 @@
       "t": 167.7,
       "text": "connector right now uh only Imports them but uh we left it to you to write uh your custom extensions to actually do mappings",
       "why_it_matters": "Defines the scope of meta fields support, establishing that while import is automatic, merchants must create custom extensions for their specific data mappings.",
+      "check": "exact"
+    },
+    {
+      "t": 238.9,
+      "text": "there's a new action again uh in your Shopify Shop Card called languages you can import the languages from Shopify",
+      "why_it_matters": "Shows where to set up the languages used for translation sync.",
+      "check": "exact"
+    },
+    {
+      "t": 398.9,
+      "text": "we introduced a new action called add items as Shopify variants uh in the Shopify product list",
+      "why_it_matters": "Names the new action and where to find it.",
       "check": "exact"
     },
     {

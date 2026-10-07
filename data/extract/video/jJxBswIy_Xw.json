@@ -154,26 +154,6 @@
       "system": "sales"
     },
     {
-      "name": "Space Billing Feature",
-      "description": "Allows quantities and prices to be imported from external systems into contracts to automate the recurring billing process. Enables integration with external data sources.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 105.4,
-      "t_end": 120.8,
-      "is_demoed": false,
-      "caveats": [
-        "not demoed in this session"
-      ],
-      "tags": [
-        "space billing",
-        "external systems",
-        "import"
-      ],
-      "system": "sales"
-    },
-    {
       "name": "Deferrals System",
       "description": "Revenue deferral system for subscription invoices. When posting an annual or multi-period invoice, deferrals are created automatically. Revenue can be recognized in individual periods and posted to GL or expense accounts.",
       "status": "unclear",
@@ -503,6 +483,12 @@
       "t": 1127,
       "text": "the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be",
       "why_it_matters": "Explains the types of external consumption data that usage-based billing can handle",
+      "check": "exact"
+    },
+    {
+      "t": 1147,
+      "text": "feed that data into the individual invoices for the recurring billing and this is what usage based billing can do",
+      "why_it_matters": "This states what usage-based billing is for: it feeds external consumption data into recurring invoices.",
       "check": "exact"
     },
     {

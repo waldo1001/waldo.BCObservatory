@@ -17,12 +17,12 @@ tags:
   - xml mapping
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:22.913Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:22.954Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,7 +177,7 @@ quotes:
 
 > Reporting features for developers and consultants in Business Central 2024 release wave 2: report layout lifecycle actions (export schema, blank layouts, update layout), Excel named formulas, layout lifecycle telemetry, the OnSetFileName event, and planned deprecation of layout properties on Report.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=hn92Al_x-s8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=hn92Al_x-s8) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,16 +208,16 @@ It also shows named formulas that simplify Excel reports, lifecycle telemetry fo
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Export Report Schema for Word | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=hn92Al_x-s8&t=60s) |  |
-| Create Blank Report Layouts | status not stated, demoed | [3:04](https://www.youtube.com/watch?v=hn92Al_x-s8&t=184s) |  |
-| Update and Export Layout | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=hn92Al_x-s8&t=241s) |  |
-| Named Formulas for Excel | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=hn92Al_x-s8&t=302s) |  |
-| Report Layout Lifecycle Telemetry | status not stated, demoed | [7:42](https://www.youtube.com/watch?v=hn92Al_x-s8&t=462s) |  |
-| Set Report Filename Event | status not stated, demoed | [8:33](https://www.youtube.com/watch?v=hn92Al_x-s8&t=513s) |  |
-| VS Code Data Item Snippet | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=hn92Al_x-s8&t=553s) |  |
-| Report Layout Property Deprecation | status not stated | [9:38](https://www.youtube.com/watch?v=hn92Al_x-s8&t=578s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Export Report Schema for Word | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=hn92Al_x-s8&t=60s) |
+| Create Blank Report Layouts | status not stated, demoed | [3:04](https://www.youtube.com/watch?v=hn92Al_x-s8&t=184s) |
+| Update and Export Layout | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=hn92Al_x-s8&t=241s) |
+| Named Formulas for Excel | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=hn92Al_x-s8&t=302s) |
+| Report Layout Lifecycle Telemetry | status not stated, demoed | [7:42](https://www.youtube.com/watch?v=hn92Al_x-s8&t=462s) |
+| Set Report Filename Event | status not stated, demoed | [8:33](https://www.youtube.com/watch?v=hn92Al_x-s8&t=513s) |
+| VS Code Data Item Snippet | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=hn92Al_x-s8&t=553s) |
+| Report Layout Property Deprecation | status not stated | [9:38](https://www.youtube.com/watch?v=hn92Al_x-s8&t=578s) |
 
 ## AL objects mentioned
 

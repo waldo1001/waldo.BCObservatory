@@ -17,12 +17,12 @@ tags:
   - product information
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:33.008Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:04:33.046Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,6 +78,13 @@ evidence:
     commit: null
     t: 690
     quote: copilot features are only available in our cloud version of business central while on premise on prem versions are unfortunately without
+  - kind: video
+    url: https://www.youtube.com/watch?v=bCIcq1zESKk&t=728s
+    title: "What's New: Item Substitution with Copilot (2024 release wave 2)"
+    date: "2024-10-08T15:00:41.000Z"
+    commit: null
+    t: 728
+    quote: for item substitution with Copilot, we spent significantly more time going through different reviews and testing than for development itself
 links:
   learn: []
   objects:
@@ -175,13 +182,16 @@ quotes:
   - t: 690
     text: copilot features are only available in our cloud version of business central while on premise on prem versions are unfortunately without
     check: fuzzy
+  - t: 728
+    text: for item substitution with Copilot, we spent significantly more time going through different reviews and testing than for development itself
+    check: exact
 ---
 
 # What's New: Item Substitution with Copilot (2024 release wave 2)
 
 > Item substitution with Copilot in Business Central (2024 release wave 2): Copilot suggests substitute items from the primary item's description, using an LLM for keywords and embeddings to re-rank with confidence scores. Covers the Suggest with Copilot action, search modes, prompt changes, activation and limits (cloud only, English tested).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bCIcq1zESKk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 12:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=bCIcq1zESKk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 12:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -239,6 +249,7 @@ Not found in BC28-30: page "Copilot and AI capabilities".
 - [9:22](https://www.youtube.com/watch?v=bCIcq1zESKk&t=562s) "you need to have quite good description of the item so it has a meaning and yeah"
 - [11:20](https://www.youtube.com/watch?v=bCIcq1zESKk&t=680s) "All these Copilot features are coming with no cost with existing Business Central license"
 - [11:30](https://www.youtube.com/watch?v=bCIcq1zESKk&t=690s) "copilot features are only available in our cloud version of business central while on premise on prem versions are unfortunately without"
+- [12:08](https://www.youtube.com/watch?v=bCIcq1zESKk&t=728s) "for item substitution with Copilot, we spent significantly more time going through different reviews and testing than for development itself"
 
 ## Disclaimers in the video
 

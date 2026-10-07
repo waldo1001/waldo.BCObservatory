@@ -6,11 +6,11 @@
   "key_points": [
     "Keyword extraction recognizes compound words without spaces, for example 'guestchairs' is read as 'guest chairs'.",
     "Copilot uses modifiers like 'small', 'bigger' or 'commercial use' to pick the right product variant.",
-    "Product search is up to 10 times faster; in the example, 40,000 items went from 60 seconds to about 6 seconds.",
+    "Product search is up to 10 times faster. The example is a 40,000-item database that drops from 60 seconds; the caption says '56 seconds', but 10x implies about 6.",
     "Searching from a blanket order creates a direct link to the blanket order line, so quantities cannot exceed the linked blanket order quantity.",
-    "Search can be limited to items in a specific document by giving its document number or ID.",
-    "All configured units of measure for an item are supported, including custom ones.",
-    "CSV upload detects the column separator and maps columns to product, quantity and unit of measure. You can edit the mapping before generating suggestions."
+    "Search can be limited to items in a specific document by giving its document number, for example a sales quote number.",
+    "All configured units of measure for an item are supported, such as pieces, bottles, kilos and pallets.",
+    "Only CSV files are supported for attachments for now. Other file types are hoped for in the future."
   ],
   "audience": [
     "functional consultant",

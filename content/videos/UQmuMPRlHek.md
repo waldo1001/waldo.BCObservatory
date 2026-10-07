@@ -17,12 +17,12 @@ tags:
   - data privacy
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:04:48.929Z"
   flags: []
 generated:
-  at: "2026-10-06T19:15:24.367Z"
+  at: "2026-10-07T23:04:48.988Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,20 @@ evidence:
     commit: null
     t: 459
     quote: it's only a small amount of data and it's the prompt and the response that you're using while you're interacting with co-pilot
+  - kind: video
+    url: https://www.youtube.com/watch?v=UQmuMPRlHek&t=519s
+    title: "What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)"
+    date: "2024-10-08T15:00:36.000Z"
+    commit: null
+    t: 519
+    quote: co-pilot runs under the user's same context which means all the data governance controls for security for privacy
+  - kind: video
+    url: https://www.youtube.com/watch?v=UQmuMPRlHek&t=539s
+    title: "What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)"
+    date: "2024-10-08T15:00:36.000Z"
+    commit: null
+    t: 539
+    quote: control that um down to every single feature it's not every feature that has that permission
   - kind: video
     url: https://www.youtube.com/watch?v=UQmuMPRlHek&t=560s
     title: "What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)"
@@ -208,6 +222,12 @@ quotes:
   - t: 459
     text: it's only a small amount of data and it's the prompt and the response that you're using while you're interacting with co-pilot
     check: exact
+  - t: 519
+    text: co-pilot runs under the user's same context which means all the data governance controls for security for privacy
+    check: exact
+  - t: 539
+    text: control that um down to every single feature it's not every feature that has that permission
+    check: exact
   - t: 560
     text: we don't use the data from co-pilot to train the AI models to the benefits of others
     check: exact
@@ -217,7 +237,7 @@ quotes:
 
 > Admin setup of Copilot in Business Central (2024 release wave 2): the Copilot and AI capabilities page, per-environment feature deactivation, language and geographic availability, Azure OpenAI data movement between regions, feature permissions, and data privacy.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UQmuMPRlHek) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UQmuMPRlHek) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 10:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -227,13 +247,13 @@ It then walks through the Copilot and AI capabilities page, where admins see eac
 
 ## Key points
 
-- Copilot is included with Business Central online licenses at no additional cost and works out of the box in new sandbox and production environments.
-- The Copilot and AI capabilities page lets admins see publishers, whether each feature is generally available or in preview, and activate or deactivate features per environment.
-- Deactivating a feature requires a reason, takes effect immediately, and applies to all users in all companies of that environment.
+- Copilot is included with Business Central online licenses at no additional cost and works out of the box in new sandbox and production environments, free trials, and upgrades (unless switched off).
+- The Copilot and AI capabilities page lets admins see publishers (including third-party extensions), whether each feature is generally available or in preview, and activate or deactivate features per environment.
+- New Copilot features are active by default. Deactivating a feature requires a reason, takes effect immediately, and applies to all users in all companies of that environment.
 - Features marked as preview are labeled production ready previews, described in the video as safe to use in production.
 - Copilot is available in all Business Central languages, but only a verified subset is supported. Each feature defines its own supported languages, and unsupported languages may give lower quality.
-- Features not available for an environment's country localization do not appear in the Copilot and AI capabilities list.
-- In regions without a local Azure OpenAI Service, admins have a switch to allow data movement to another region (for example Sweden or Switzerland). Only the prompt and response are moved, not the database.
+- Features not available for an environment's country localization do not appear in the Copilot and AI capabilities list (for example, chat is absent in the German environment shown).
+- In regions without a local Azure OpenAI Service, admins have a switch to allow data movement to another region (for example Sweden or Switzerland). Only the prompt and response are moved, not the database. US, India, Australia and UK environments have no switch because data stays in region.
 
 ## Chapters
 
@@ -271,6 +291,8 @@ It then walks through the Copilot and AI capabilities page, where admins see eac
 - [4:21](https://www.youtube.com/watch?v=UQmuMPRlHek&t=261s) "only a subset of those only some of those languages have been rigorously verified and tested by Microsoft those we call the supported languages"
 - [6:39](https://www.youtube.com/watch?v=UQmuMPRlHek&t=399s) "there isn't an Azure opening eye service in that same region uh so for co-pilot to operate to function uh it needs to actually"
 - [7:39](https://www.youtube.com/watch?v=UQmuMPRlHek&t=459s) "it's only a small amount of data and it's the prompt and the response that you're using while you're interacting with co-pilot"
+- [8:39](https://www.youtube.com/watch?v=UQmuMPRlHek&t=519s) "co-pilot runs under the user's same context which means all the data governance controls for security for privacy"
+- [8:59](https://www.youtube.com/watch?v=UQmuMPRlHek&t=539s) "control that um down to every single feature it's not every feature that has that permission"
 - [9:20](https://www.youtube.com/watch?v=UQmuMPRlHek&t=560s) "we don't use the data from co-pilot to train the AI models to the benefits of others"
 
 ## Disclaimers in the video

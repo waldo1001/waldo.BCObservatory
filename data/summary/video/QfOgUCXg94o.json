@@ -6,11 +6,11 @@
   "key_points": [
     "Until now only one user could post warehouse entries at a time; BC25 allows multiple users to post concurrently.",
     "Entry numbers are assigned through a number sequence instead of locking the table and finding the last entry.",
-    "A new insert record function replaces simple inserts, to cope with old-style posting that still uses a lock table and to reset the number sequence when insertion conflicts occur.",
-    "Warehouse entries get a semi-random sift bucket number between zero and four. This reduces the risk of sift index lock contention for the same item and location, but does not remove it.",
-    "Drill down filters on register number: either zero (entries from before version 25) or the register number.",
-    "The on init event for warehouse entries runs after initialization and before insertion. Extensions using it may need to follow similar concurrent posting patterns.",
-    "A feature key for concurrent posting is enabled by default and can be turned off, with a related setting in Warehouse Setup."
+    "Warehouse entries get a new field that records which warehouse register they belong to.",
+    "A new insert record function replaces simple inserts. It copes with old-style posting that still uses lock table and find last, and resets the number sequence if the insert does not succeed.",
+    "Warehouse entries get a semi-random sift bucket number between zero and four. This reduces the risk of sift index lock contention when two users post for the same item and location, but does not remove it.",
+    "Drill down from the register also filters on register number: either zero (entries from before version 25) or the register number. This was done to avoid expensive upgrades.",
+    "The on init event for warehouse entries runs after initialization and before insertion, and passes the entry number and the warehouse register. Extensions that use it to insert extra entries may need to implement the same pattern."
   ],
   "audience": [
     "developer",

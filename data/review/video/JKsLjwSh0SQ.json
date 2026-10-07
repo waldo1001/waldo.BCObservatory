@@ -1,0 +1,29 @@
+{
+  "video_id": "JKsLjwSh0SQ",
+  "item_id": "video/yt-microsoft/JKsLjwSh0SQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on Ignore option adds 'not recommended for production', which the transcript does not say.",
+    "Key point on Strict option adds 'direct or indirect'; the transcript only says all dependencies must be in the workspace.",
+    "Key point about deep dependency chains and incompatible indirect dependencies is not supported; the only limitation stated is version changes / no downgrade support.",
+    "Topic 'lunch configuration' is a typo for 'launch configuration' (not editable via these fields).",
+    "Feature statuses left unclear: the transcript never states preview or GA; only the title mentions 2024 release wave 2.",
+    "Added quotes for the launch config option name and the version-change restore limitation."
+  ],
+  "input_hash": "cbd07ae8a1bae2da2c474a251af5e99ca72ad7a960f1efc1b7bdef15e8082263",
+  "by": "opus",
+  "at": "2026-10-07T23:05:27.062Z",
+  "applied": [
+    "quote at 288s",
+    "quote at 407s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07569300000000001
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "DpYJOkwKxTY",
+  "item_id": "video/yt-microsoft/DpYJOkwKxTY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Subscription Billing App, Sustainability App and Fixed Assets App were marked unclear, but the speaker says plainly that they are coming (\"we will extend the set of apps\", \"we will also get one for sustainability\"). All three are changed to announced, each with a verbatim evidence quote.",
+    "All 7 quotes are verbatim; some run on into the next caption segment, which is allowed.",
+    "The Demo Data and Open Source evidence quotes are verbatim and support the announced status.",
+    "The summary and key points match the transcript: 76 reports, seven apps, apps set up per company, account category mapping, and .pbix files open sourced from release 26 (April)."
+  ],
+  "input_hash": "0d694f20e78ba58e773048e6a1398af08d2fd4a1917ffaa7216abbc85af138c5",
+  "by": "opus",
+  "at": "2026-10-07T23:05:23.046Z",
+  "applied": [
+    "Demo Data for Power BI: status announced",
+    "Open Source Power BI Files: status announced"
+  ],
+  "rejected_edits": [
+    "status Subscription Billing App -> announced: evidence not verbatim or does not state the status",
+    "status Sustainability App -> announced: evidence not verbatim or does not state the status",
+    "status Fixed Assets App -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09313300000000001
+  }
+}

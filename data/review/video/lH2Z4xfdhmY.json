@@ -1,0 +1,29 @@
+{
+  "video_id": "lH2Z4xfdhmY",
+  "item_id": "video/yt-microsoft/lH2Z4xfdhmY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary and most key points match the transcript.",
+    "Key point and feature description say a double star is needed for legacy search. The demo used 'star star 1303', but later the speaker says 'type a star' and 'typing star'. Reworded to cover both.",
+    "Key points left out two things: checking the 'use optimize text search in lists' switch in Feature management, and the advice not to use the double and operator in business logic. Both added, with quotes.",
+    "All feature statuses stay unclear. The transcript only says 'in this release' and never states preview or GA.",
+    "Full-text index generation is first mentioned at 373.4, not 393.6. This is minor, so the feature was left as is."
+  ],
+  "input_hash": "0eb39048345ede31428920dde21cd58a9c2bb69ab6cb4e3c1a71a948c248a7a4",
+  "by": "opus",
+  "at": "2026-10-07T23:04:18.182Z",
+  "applied": [
+    "quote at 124s",
+    "quote at 264s",
+    "quote at 622s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07713300000000001
+  }
+}

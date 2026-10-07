@@ -1,0 +1,29 @@
+{
+  "video_id": "QCo-uIfPs9g",
+  "item_id": "video/yt-microsoft/QCo-uIfPs9g",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Managed AI Resources preview evidence is verbatim; evidence_t set to 557 where the quote starts.",
+    "Manage Resource Authorization for Azure OpenAI has explicit preview evidence (program running with selected partners, opening to every partner) but was left unclear; set to preview.",
+    "Suggest Project with Copilot is a demo sample rather than a product feature, but it is supported by the transcript, so it was kept.",
+    "Quote at 1132.8 is a fragment but verbatim; kept.",
+    "Public preview timing 'end or Al of 2024' is garbled in captions; key point reading 'end of 2024' is acceptable.",
+    "Summary and key points are supported by the transcript."
+  ],
+  "input_hash": "7c56672d72725d348a2f24568bcec9334bed8d2deff9fee7671f2c50e04b98a1",
+  "by": "opus",
+  "at": "2026-10-07T23:05:03.267Z",
+  "applied": [
+    "Managed AI Resources: status preview"
+  ],
+  "rejected_edits": [
+    "status Manage Resource Authorization for Azure OpenAI -> preview: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.140881
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - uniqueness constraint
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:05:07.908Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:05:07.965Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -50,12 +50,19 @@ evidence:
     t: 207
     quote: the resource name including the path relative to the resource folder must be unique within the extension
   - kind: video
+    url: https://www.youtube.com/watch?v=QhHgkCe3kkk&t=318s
+    title: "What's New in AL:  Embedding Resources in Applications (2024 release wave 2)"
+    date: "2024-10-08T15:00:27.000Z"
+    commit: null
+    t: 318
+    quote: the resources are only only available from the extension that owns the resource
+  - kind: video
     url: https://www.youtube.com/watch?v=QhHgkCe3kkk&t=338s
     title: "What's New in AL:  Embedding Resources in Applications (2024 release wave 2)"
     date: "2024-10-08T15:00:27.000Z"
     commit: null
     t: 338
-    quote: the server determines what is good and what is not good so if you don't have
+    quote: if your file extensions are not valid on the server that you want to deploy it to all the mime types checks will fail
 links:
   learn: []
   objects: []
@@ -128,16 +135,19 @@ quotes:
   - t: 207
     text: the resource name including the path relative to the resource folder must be unique within the extension
     check: exact
+  - t: 318
+    text: the resources are only only available from the extension that owns the resource
+    check: exact
   - t: 338
-    text: the server determines what is good and what is not good so if you don't have
-    check: fuzzy
+    text: if your file extensions are not valid on the server that you want to deploy it to all the mime types checks will fail
+    check: exact
 ---
 
 # What's New in AL:  Embedding Resources in Applications (2024 release wave 2)
 
 > Embedding resources in AL applications (2024 release wave 2): files such as CSV data and images go in a resources folder in the app and are read with a get resource function. The video says the feature could not be used yet at recording. It covers folder setup, the uniqueness rule and size limits.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QhHgkCe3kkk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QhHgkCe3kkk) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 6:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -150,10 +160,10 @@ The demo covers the resources folder structure, a get resource function that rea
 - Resources are shipped in a resources folder inside the app file, for example CSV data and images.
 - The get resource function takes a file name and relative path and puts the resource into a specified stream.
 - Several resource folders can be configured, such as one for images and one for data files.
-- The resource name including its path relative to the resource folder must be unique across all folders in the extension.
+- The resource name including its path relative to the resource folder must be unique within the extension, or compilation fails.
 - Limits: 1,024 KB per resource, 16 MB for all resources in an extension, and 256 resources per extension.
 - Embedded resources are read-only, because an app package cannot be changed after shipping, and only the owning extension can access them.
-- At the time of the video the feature was not yet available for use.
+- The server validates resources at publish time: invalid file extensions, failed MIME type checks or virus scan detections block publishing.
 
 ## Chapters
 
@@ -167,13 +177,13 @@ The demo covers the resources folder structure, a get resource function that rea
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Embedding resources in applications | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=6s) |  |
-| get resource function | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=88s) |  |
-| Multiple resource folders | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=186s) |  |
-| Resource size limitations | status not stated | [4:42](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=282s) |  |
-| Read-only resources | status not stated | [5:18](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=318s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Embedding resources in applications | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=6s) |
+| get resource function | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=88s) |
+| Multiple resource folders | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=186s) |
+| Resource size limitations | status not stated | [4:42](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=282s) |
+| Read-only resources | status not stated | [5:18](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=318s) |
 
 ## AL objects mentioned
 
@@ -186,7 +196,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:06](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=6s) "I have some code to show you and it's going to be really exciting but first I have to say you can't use it"
 - [0:27](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=27s) "resources in applications meaning you can ship your resources with your application get the resource for that specific application for that specific version"
 - [3:27](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=207s) "the resource name including the path relative to the resource folder must be unique within the extension"
-- [5:38](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=338s) "the server determines what is good and what is not good so if you don't have"
+- [5:18](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=318s) "the resources are only only available from the extension that owns the resource"
+- [5:38](https://www.youtube.com/watch?v=QhHgkCe3kkk&t=338s) "if your file extensions are not valid on the server that you want to deploy it to all the mime types checks will fail"
 
 ## Disclaimers in the video
 
