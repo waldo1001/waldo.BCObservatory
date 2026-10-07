@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-07T16:04:55.382Z",
-  "finished_at": "2026-10-07T16:32:32.677Z",
+  "started_at": "2026-10-07T16:38:07.772Z",
+  "finished_at": "2026-10-07T16:44:38.786Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -27,13 +27,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 3,
+          "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 1525
+        "duration_ms": 879
       },
       {
         "id": "sandbox-history",
@@ -41,13 +41,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 8,
+          "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 8,
           "removed": 0
         },
         "note": "8/8 branches",
-        "duration_ms": 1053
+        "duration_ms": 691
       },
       {
         "id": "onprem-history",
@@ -55,13 +55,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 2,
+          "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 2,
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 887
+        "duration_ms": 613
       }
     ],
     "totals": {
@@ -69,9 +69,9 @@
       "failed": 0,
       "deferred": 0,
       "new": 0,
-      "changed": 13,
+      "changed": 0,
       "updated": 0,
-      "unchanged": 0,
+      "unchanged": 13,
       "removed": 0
     }
   },
@@ -95,81 +95,48 @@
       "changes": 50000,
       "change_narrative": 50000
     },
-    "work": 8,
-    "executed": 8,
+    "work": 0,
+    "executed": 0,
     "skips": 0,
-    "quota_use": {
-      "code_jobs": {
-        "selected": 8,
-        "available": 8,
-        "limit": 100000
-      }
-    },
+    "quota_use": {},
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 121,
+    "calls": 0,
     "cache_hits": 0,
     "failures": 0,
-    "by_model": {
-      "claude-haiku-4-5-20251001": 39,
-      "claude-opus-5-5": 82
-    },
-    "cost_usd": 5.555929,
-    "tokens_by_model": {
-      "claude-haiku-4-5-20251001": {
-        "calls": 39,
-        "input": 18368,
-        "output": 21847,
-        "cache_read": 0,
-        "cache_creation": 388489,
-        "cost_usd": 0.9045810000000002
-      },
-      "claude-opus-5-5": {
-        "calls": 82,
-        "input": 164,
-        "output": 84651,
-        "cache_read": 0,
-        "cache_creation": 369709,
-        "cost_usd": 4.651348
-      }
-    },
+    "by_model": {},
+    "cost_usd": 0,
+    "tokens_by_model": {},
     "day_cost_usd": 92.500442
   },
   "spend": {
-    "today_usd": 86.944513,
+    "today_usd": 92.500442,
     "week_before_usd": 12.3225,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99900.732987,
+    "allowance_usd": 99895.177058,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 13,
+  "items_changed": 0,
   "errors": [],
   "captions_retried": 0,
   "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-07T21:39:00.000Z",
-    "items_touched": 8,
-    "stages_run": {
-      "code:fetched": 8,
-      "code:extracted": 8,
-      "code:linked": 8,
-      "code:published": 8
-    },
-    "advanced": 32,
+    "deadline": "2026-10-07T22:13:00.000Z",
+    "items_touched": 0,
+    "stages_run": {},
+    "advanced": 0,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 7,
-    "quota_charged": {
-      "code_jobs": 8
-    },
+    "parked": 0,
+    "quota_charged": {},
     "regards": [],
     "errors": [],
     "parked_left": 0
@@ -179,7 +146,7 @@
     "country_diffs": 46,
     "timelines": 19,
     "deprecations": 3,
-    "written": 45,
+    "written": 79,
     "relations": 3,
     "matrix": true,
     "docs_objects": {
@@ -187,7 +154,7 @@
       "missing": 113,
       "obsolete": 42,
       "undocumented": 40,
-      "written": 2
+      "written": 0
     },
     "narratives": {
       "ready": 22,
@@ -198,28 +165,28 @@
     },
     "pages": {
       "objects": 25644,
-      "written": 7326,
+      "written": 0,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
     },
     "related": {
-      "pages": 10070,
-      "rows": 33110,
+      "pages": 10080,
+      "rows": 33192,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20140,
-        "4": 1935,
-        "5": 2861,
+        "4": 1934,
+        "5": 2945,
         "6": 6989,
-        "7": 135
+        "7": 134
       },
       "written": true
     },
     "apps": {
       "apps": 96,
-      "written": 96,
+      "written": 0,
       "removed": 0
     }
   },
@@ -228,8 +195,8 @@
     "skipped_non_code": 0,
     "held": 0,
     "pages": 1074,
-    "relinked": 140,
-    "rerendered": 146,
+    "relinked": 0,
+    "rerendered": 0,
     "api_calls": 0,
     "narrated": 0
   },
@@ -267,34 +234,23 @@
   },
   "topic_links": {
     "units": 2278,
-    "stale": 191,
-    "calls": 39,
-    "matched": 286,
-    "rejected": 46,
+    "stale": 0,
+    "calls": 0,
+    "matched": 0,
+    "rejected": 0,
     "failed": 0,
-    "cost_usd": 0.9045810000000002,
-    "rejections": [
-      "video/198d9piIoE0 -> topic/business-central/business-functionality/planning: quote not verbatim: \"demand planning; fulfillment suggestions; allocation policies\"",
-      "video/X3xygXmgRqU -> topic/business-central/business-functionality/set-up-business-central/set-up-inventory: quote not verbatim: \"multiple locations setup; transfer orders; inventory setup\"",
-      "video/qCqe8uw8Od4 -> topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app: quote not verbatim: \"abc analysis in power bi; power bi inventory app\"",
-      "change/bcapps/11135 -> t197: not a candidate of this item",
-      "change/bcapps/10213 -> topic/business-central/business-functionality/design-details/design-details-supply-planning: quote not verbatim: \"prevents accurate price calculations in the requisition planning process\"",
-      "change/bcapps/11959 -> t184: not a candidate of this item",
-      "change/bcapps/10298 -> t186: not a candidate of this item",
-      "change/bcapps/10934 -> t211: not a candidate of this item",
-      "change/bcapps/9447 -> t184: not a candidate of this item",
-      "change/bcapps/9447 -> t232: not a candidate of this item"
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 72,
-    "calls": 82,
-    "reviewed": 88,
-    "kept": 294,
-    "dropped": 382,
+    "candidates": 0,
+    "calls": 0,
+    "reviewed": 0,
+    "kept": 0,
+    "dropped": 0,
     "failed": 0,
-    "cost_usd": 4.651348,
+    "cost_usd": 0,
     "stopped": "done"
   },
   "hubs": {
