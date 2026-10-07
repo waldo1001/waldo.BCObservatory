@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11425",
+  "number": 11425,
+  "title": "Bug 650137: [29.x] Expense Locations and Per-diem rules in configuration - Backport",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent setup was expanded with additional locations and per-diem rules in demo and default configuration data. Three new codeunits handle location and rule creation during initialization.",
+  "key_points": [
+    "New codeunits for creating expense locations and per-diem rules during setup",
+    "Demo data expanded with more expense locations and rule conditions",
+    "Setup wizard and configuration pages updated to support new configuration options",
+    "Expense rule header and condition tables refined",
+    "Permissions updated for expense management features"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "More expense locations and rules added to demo/default data.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00423,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[Master] - Bug 649653: Upgrade from v28.4 to v29.0 fails for Expense Agent (Preview) (US)",
   "url": "https://github.com/microsoft/BCApps/pull/11283",
   "published_at": "2026-09-14T15:41:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 649653 upgrade from v28 4 to v29 0 fails for expense agent preview us"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:02:21.807Z",
+  "retry_after": null
 }

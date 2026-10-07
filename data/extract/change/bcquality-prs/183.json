@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/183",
+  "number": 183,
+  "title": "Add reporting review guidance and evaluation fixtures",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Nine reporting rules and guidance articles have been added to the BCQuality knowledge base covering report variable clearing, CurrReport control flow, report extensions, table view narrowing, and request page cancellation.",
+  "key_points": [
+    "Added nine new reporting rules addressing control-flow behavior and data handling in reports",
+    "Included bad and good AL code samples for each rule to guide developers",
+    "Created a dedicated reporting review skill with evidence-based review conditions to minimize false positives",
+    "Integrated new rules into the main AL code review skill and evaluation fixtures",
+    "Rules focus on preventing incorrect output, unintended side effects, and lost database changes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "quote": "This PR adds dedicated review coverage for AL reporting scenarios that were not previously represented in the BCQuality knowledge base.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004699,
+    "changes_in_call": 1
+  }
+}

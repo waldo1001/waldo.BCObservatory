@@ -6,10 +6,35 @@
   "title": "Fix Job Queue knowledge sample links",
   "url": "https://github.com/microsoft/BCQuality/pull/184",
   "published_at": "2026-09-15T07:32:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:11.983Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:16.896Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003475
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:16.897Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:02:16.901Z",
+      "path": "content/changes/bcquality/184.md"
     }
   },
   "input_hash": "852a6762857cdd2a13d675ea0245e24471914e95:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix job queue knowledge sample links"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12ff38159563ae123a79a0313627a8e0daa0ae9e116afaae40f6108fb642ef25"
 }

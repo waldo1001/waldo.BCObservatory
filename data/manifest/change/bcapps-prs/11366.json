@@ -6,7 +6,7 @@
   "title": "Filter top customer and top vendor Excel reports on the posting group",
   "url": "https://github.com/microsoft/BCApps/pull/11366",
   "published_at": "2026-09-15T08:39:47Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003829
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:11.460Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:11.464Z",
+      "path": "content/changes/bcapps/11366.md"
     }
   },
   "input_hash": "c3f7c5e53e9cd78850d4ac5dd2dd6557cd0e61fb:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3405f60fd10bf0ba3ca8f28b9115a38fec9e8dbe72e7b3c93eb3813e8e8b0cfd"
+  "output_hash": "871f55919b42dd6fe9b00c0a90b6acd885ccc6805a728c174f0c3430af73de0d"
 }

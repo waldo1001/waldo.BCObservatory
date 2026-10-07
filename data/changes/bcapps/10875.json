@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10875,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10875",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-15T04:58:42Z",
+  "merge_commit_sha": "363a86a34b94f5d1691349a82ddc02eb3f7623c2",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master] Partial Warehouse Shipment with Lot-Tracked Item Fails on Second Shipment Due to Auto-Populated Bin Code and Item Tracking Quantity Validation Error (\"You cannot select more than 0 units\")Initial commit",
+  "body_hash": "14b901d6b3ae3151da12777c9525dc85dc78b0e07de24ff4e1e094391e356651",
+  "fixes_issues": [],
+  "work_items": [
+    648520
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehousePick.Codeunit.al",
+      "status": "modified",
+      "additions": 179,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 181,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000832",
+        "type": "codeunit",
+        "id": 99000832,
+        "name": "Sales Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000832"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

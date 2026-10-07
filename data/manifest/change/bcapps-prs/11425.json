@@ -6,10 +6,35 @@
   "title": "Bug 650137: [29.x] Expense Locations and Per-diem rules in configuration - Backport",
   "url": "https://github.com/microsoft/BCApps/pull/11425",
   "published_at": "2026-09-15T07:14:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:13.023Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:18.073Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00423
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:18.298Z",
+      "objects": 15,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:18.304Z",
+      "path": "content/changes/bcapps/11425.md"
     }
   },
   "input_hash": "9b1f60ae1094ccf9e5b56dfaeafe5bc0a41a12bc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650137 29 x expense locations and per diem rules in configuration backport"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b950fe62f4ad8e2b70777ee4b37916215bff944515c2a44f8b88ea9bbe28d031"
 }

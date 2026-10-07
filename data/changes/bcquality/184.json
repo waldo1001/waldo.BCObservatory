@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 184,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/184",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-15T07:32:41Z",
+  "merge_commit_sha": "852a6762857cdd2a13d675ea0245e24471914e95",
+  "author": "dayland",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix Job Queue knowledge sample links",
+  "body_hash": "c5a8dcf3aefb5e691d9cf84eee7ebeb2faca9aae90ef80627762767e10816bf6",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/performance/job-queue-category-code-serializes-conflicting-jobs.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/job-queue-external-effects-must-be-idempotent.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/job-queue-on-hold-does-not-stop-running-work.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/store-scheduled-task-id-to-avoid-duplicate-tasks.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 12,
+    "deletions": 12,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/job-queue-category-code-serializes-conflicting-jobs.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/job-queue-external-effects-must-be-idempotent.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/job-queue-on-hold-does-not-stop-running-work.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/store-scheduled-task-id-to-avoid-duplicate-tasks.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

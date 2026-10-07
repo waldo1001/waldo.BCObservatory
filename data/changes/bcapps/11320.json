@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11320,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11320",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-14T13:15:37Z",
+  "merge_commit_sha": "fa379e2cf700d319205705e277e56ced421c69d9",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well",
+  "body_hash": "0ba921063f6461f875ada06436d638836dd82f2ac2007ad042af637ea48a4fd1",
+  "fixes_issues": [],
+  "work_items": [
+    647380
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/src/Codeunits/Tests/SCM-Manufacturing/SubcSCMMfg70.Codeunit.al",
+      "status": "modified",
+      "additions": 85,
+      "deletions": 11,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 86,
+    "deletions": 12,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000789",
+        "type": "codeunit",
+        "id": 99000789,
+        "name": "Mfg. Purchase Document Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000789"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

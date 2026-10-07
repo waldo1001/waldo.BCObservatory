@@ -1,0 +1,366 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11425,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11425",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-15T07:14:52Z",
+  "merge_commit_sha": "9b1f60ae1094ccf9e5b56dfaeafe5bc0a41a12bc",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 650137: [29.x] Expense Locations and Per-diem rules in configuration - Backport",
+  "body_hash": "470e3d84372b6077b0e7cf31aead420ca33512c7c69bb57802e21b3cd42467a8",
+  "fixes_issues": [],
+  "work_items": [
+    650137
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpAttachBufferHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleCondition.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 108,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseLocations.Codeunit.al",
+      "status": "added",
+      "additions": 2100,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseRuleConditions.Codeunit.al",
+      "status": "added",
+      "additions": 306,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseRuleHeaders.Codeunit.al",
+      "status": "added",
+      "additions": 321,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreateExpenseCountryData.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/2.Master Data/CreateExpenseCategoriesDM.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/2.Master Data/CreateExpenseLocation.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 28,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/2.Master Data/CreateExpenseRuleCondition.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 6,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/2.Master Data/CreateExpenseRuleHeader.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 7,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Tool/Contoso Helpers/ContosoExpenseAgent.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 29,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/LibraryExpense.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 2891,
+    "deletions": 197,
+    "al": 15
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6914",
+        "type": "codeunit",
+        "id": 6914,
+        "name": "Expense Event Subscriber AT",
+        "app": "ExpenseAgent_AT",
+        "cc": "at",
+        "page": "codeunit/6914-at"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpAttachBufferHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6952",
+        "type": "codeunit",
+        "id": 6952,
+        "name": "Exp. Attach. Buffer Handler",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6983",
+        "type": "codeunit",
+        "id": 6983,
+        "name": "Create Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6983"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6984",
+        "type": "codeunit",
+        "id": 6984,
+        "name": "Release Exp. Report Document",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleCondition.Table.al",
+        "status": "modified",
+        "key": "table/6926",
+        "type": "table",
+        "id": 6926,
+        "name": "Expense Rule Condition",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6926"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+        "status": "modified",
+        "key": "table/6927",
+        "type": "table",
+        "id": 6927,
+        "name": "Expense Rule Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6927"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6952",
+        "type": "permissionset",
+        "id": 6952,
+        "name": "Expense Agent - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6973",
+        "type": "codeunit",
+        "id": 6973,
+        "name": "Create Expense Categories",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6973"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseLocations.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7124",
+        "type": "codeunit",
+        "id": 7124,
+        "name": "Create Expense Locations",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7124"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseRuleConditions.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7126",
+        "type": "codeunit",
+        "id": 7126,
+        "name": "Create Expense Rule Conditions",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7126"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseRuleHeaders.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7128",
+        "type": "codeunit",
+        "id": 7128,
+        "name": "Create Expense Rule Headers",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7128"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/6996",
+        "type": "page",
+        "id": 6996,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6996"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent",
+    "ExpenseAgent_AT"
+  ]
+}

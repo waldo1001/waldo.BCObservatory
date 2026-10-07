@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/11309",
+  "number": 11309,
+  "title": "[29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The 'Post Inventory Cost to G/L' report now handles dimension text longer than 250 characters without failing.",
+  "key_points": [
+    "Fixed handling of concatenated dimension text that exceeds 250 character limit",
+    "Report 1002 logic updated to process dimensions correctly",
+    "Test coverage added for this scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00293,
+    "changes_in_call": 1
+  }
+}

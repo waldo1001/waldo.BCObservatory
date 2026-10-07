@@ -6,10 +6,18 @@
   "title": "Prevent order matching for invoice lines created by Get Receipt Lines",
   "url": "https://github.com/microsoft/BCApps/pull/11339",
   "published_at": "2026-09-14T15:48:57Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:20.789Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 10,
+      "objects": 2,
+      "unjoined": 8
     }
   },
   "input_hash": "e5a72692b4ec96a8005787fd9c969d1fd01c12aa:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "prevent order matching for invoice lines created by get receipt lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79bb351cd3a043ebb8f222bc18c1e5671817e60d14979131d8df091b04889f22"
 }

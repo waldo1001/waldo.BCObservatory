@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11420",
+  "number": 11420,
+  "title": "[Master] - [Expense Management] Hide Enable Agent on Expense Agent Setup Page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Enable Agent control on the Expense Agent Setup page is now hidden since it should be managed only through the setup wizard.",
+  "key_points": [
+    "Enable Agent control visibility removed from Expense Agent Setup page",
+    "Agent enablement now controlled exclusively through the setup wizard",
+    "UI simplification to prevent direct page configuration",
+    "One-line change to page property"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Enable Agent is controlled through the setup wizard and should not be visible on the setup page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002911,
+    "changes_in_call": 1
+  }
+}

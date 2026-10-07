@@ -6,10 +6,35 @@
   "title": "Composite Report Parts: seed via a report extension instead of install/upgrade code",
   "url": "https://github.com/microsoft/BCApps/pull/11137",
   "published_at": "2026-09-15T07:58:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:13.199Z",
+      "change_class": "code",
+      "files": 35,
+      "al": 8,
+      "objects": 6,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:18.412Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005196
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:18.558Z",
+      "objects": 6,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:18.563Z",
+      "path": "content/changes/bcapps/11137.md"
     }
   },
   "input_hash": "bf484e5871efbec79df725f7f91ca7b920b1230e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "composite report parts seed via a report extension instead of install upgrade code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b8a06b177c04a277f978347e6c37d17e26fc982f33818b6dafc925c0b8486beb"
 }

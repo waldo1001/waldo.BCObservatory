@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11411",
+  "number": 11411,
+  "title": "[Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed inconsistent able-to-make calculations in BOM analysis when a component's replenishment method changes between assembly and purchase types.",
+  "key_points": [
+    "Corrected BOM tree calculation logic for replenishment method transitions",
+    "Added test coverage for mixed replenishment scenarios (assembly to purchase)",
+    "Ensures item availability calculations remain consistent across component replenishment changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "assembly"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002933,
+    "changes_in_call": 1
+  }
+}

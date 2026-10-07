@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11208",
+  "number": 11208,
+  "title": "[Master]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug  632380",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixed an issue where changing the VAT product posting group on G/L account lines in purchase invoices with prices including VAT incorrectly recalculated the direct unit cost and line amount.",
+  "key_points": [
+    "Corrects VAT recalculation logic for G/L account purchase lines",
+    "Ensures prices including VAT are preserved when changing VAT posting groups",
+    "Updates tests to validate the corrected behavior",
+    "Applied across all localization layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003647,
+    "changes_in_call": 1
+  }
+}

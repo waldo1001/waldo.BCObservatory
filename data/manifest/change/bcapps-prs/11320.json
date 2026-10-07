@@ -6,10 +6,18 @@
   "title": "[Master]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well",
   "url": "https://github.com/microsoft/BCApps/pull/11320",
   "published_at": "2026-09-14T13:15:37Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:24.116Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "fa379e2cf700d319205705e277e56ced421c69d9:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master subcontracting purchase return order cannot be posted for subcontracting while corrective credit memo works well"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "715ef3c8785b2264bd3697117c2215732f876cf0a567e187117e6bbf19d2e0c9"
 }

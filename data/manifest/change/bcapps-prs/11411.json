@@ -6,10 +6,35 @@
   "title": "[Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529",
   "url": "https://github.com/microsoft/BCApps/pull/11411",
   "published_at": "2026-09-15T05:50:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:14.124Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:18.644Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002933
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:18.798Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:18.805Z",
+      "path": "content/changes/bcapps/11411.md"
     }
   },
   "input_hash": "42d69968a63e2fd951bba15e3dc51b50df932ffe:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master item availability by bom level produces inconsistent able to make results when g top bom 02 replenishment changes from assembly to purchase 2606050050002529"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e894577bde1fbeb9831c82232718de643de49e722176804e645000b160216173"
 }

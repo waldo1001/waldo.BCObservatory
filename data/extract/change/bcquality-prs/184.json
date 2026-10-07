@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/184",
+  "number": 184,
+  "title": "Fix Job Queue knowledge sample links",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Job Queue knowledge articles were corrected to use relative Markdown links for code samples instead of inline code references, restoring the proper format required by the knowledge retrieval system.",
+  "key_points": [
+    "Converted 12 inline code sample references to relative Markdown links across six Job Queue articles",
+    "Restored the proper sample.al link format required by Assert-SampleLink validation",
+    "Fixed validation errors that were blocking the knowledge index pipeline",
+    "Each article updated from inline code to link syntax for .good.al and .bad.al samples"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "convert the `.good.al` and `.bad.al` references in the six new Job Queue articles from inline code to relative Markdown links",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003475,
+    "changes_in_call": 1
+  }
+}

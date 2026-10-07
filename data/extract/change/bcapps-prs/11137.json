@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11137",
+  "number": 11137,
+  "title": "Composite Report Parts: seed via a report extension instead of install/upgrade code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "development"
+  ],
+  "summary": "Composite report parts are now seeded via a declarative report extension instead of install/upgrade code, removing the need for elevation and simplifying the data model.",
+  "key_points": [
+    "Report extension replaces SeedPart-based install/upgrade code for seeding header/footer designs and themes",
+    "Removes Composite Report Parts Mgt. codeunit, upgrade logic, and associated test suite",
+    "Report part resources moved from .resources to Foundation/Reporting directory",
+    "Platform now owns registering report extension layouts natively",
+    "Eliminates permission-elevation issues from the previous approach"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005196,
+    "changes_in_call": 1
+  }
+}

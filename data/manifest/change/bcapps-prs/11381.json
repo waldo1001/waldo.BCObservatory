@@ -6,10 +6,18 @@
   "title": "Slice 641293: [Expense Agent] Expense Locations and Per-diem rules in configuration - added check for existing country",
   "url": "https://github.com/microsoft/BCApps/pull/11381",
   "published_at": "2026-09-14T14:31:22Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:21.733Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "234b95f973e19a099d50daaf099de10f6181f8ea:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "slice 641293 expense agent expense locations and per diem rules in configuration added check for existing country"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61de7ec6150360be97fe97d8b769a63fc477ba90b6d81a267594d9a90e16dbad"
 }
