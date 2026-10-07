@@ -633,3 +633,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   bridged. Rejected: a segmented control (still seven targets), two pills plus the select (hides four majors),
   "since" ranges or unions (changes the one-lens model; later), `localStorage` (a different home page per reader).
   Spec: `docs/specs/version-lens.md`.
+- **D76 The site's size is measured as uploaded, repeated bytes are removed before content is, and leaving GitHub
+  Pages is a measured trigger.** On 2026-10-07 the Pages check refused a deploy at `du -sm` 903 MB; `du` counts disk
+  blocks, 12% over the real bytes of 59,000 small files. The check now computes the GNU tar
+  `upload-pages-artifact` uploads (`scripts/site-size.ts`: headers, blocks, long names, directories; equal to a real
+  tar to the byte), writes tar, apparent bytes, files, headroom and the ten largest sections to the run summary,
+  warns from 800 MB and fails from 900 MB (MB = 2^20). Components on every object page style under their root class
+  with `is:global` (D53's rule): the version timeline, Related and the locator no longer put a `data-astro-cid-*`
+  attribute on each element, and four more repeats went with no visible change (Neighbourhood's HTML comment, the
+  timeline's own module tag, one script for the locator and the video dialog, `CountryDiff` global). Same local
+  build: tar 698.6 → 656.7 MB, HTML 424.9 → 382.8 MB, scoped attributes on an object page 94 → 0. Markdown twins stay
+  on the site (D02) until tar bytes pass 850 MB; then the object twins (about 120 MB, 25,600 files) are served from
+  `raw.githubusercontent.com` at the build's commit. Past 900 MB after that, the site moves host (Cloudflare Pages
+  paid, or object storage behind a CDN). Rejected: raising the budget toward 1 GB, `scopedStyleStrategy: "class"`,
+  moving the twins or the host now. Spec: `docs/specs/site-size.md`.

@@ -17,10 +17,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   committed BC28/29 graphs render 5,582 Calls and 2,808 Called by sections; today 0 pages show them). Then phase 1:
   `askYourAgent` in `pipeline/render/object.ts` becomes one closing paragraph. Until it lands readers see no call
   sections and an atlas block that says the call graph is not stored here.
-- **Site size** (`docs/specs/site-size.md`, D76, M14). Status: proposed 2026-10-07, nothing implemented. Start with
-  phase 1 (`scripts/site-size.ts` and its tests, then the `pages.yml` step); phase 2 is three component style blocks.
-  Until it lands the Pages check counts disk blocks (12% over the real size) and the next growth fails a deploy with
-  no warning.
 
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
@@ -33,6 +29,12 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **Site size, D76** (`docs/specs/site-size.md`, M14): phases 1 and 2 on `dev/next`. The Pages check measures tar
+  bytes (`scripts/site-size.ts`), with a table in the run summary, a warning from 800 MB and a failure from 900 MB;
+  object pages lost their per-element scoping attributes and three repeated tags. Local build: tar 698.6 → 656.7 MB.
+  Triggers, still open: tar bytes above **850 MB** start phase 3 (object markdown twins from GitHub raw, spec 4.4);
+  above **900 MB** after that, or a bandwidth notice, means a new host (spec 4.5). Write the first CI number into
+  spec section 12.
 - **One version pill in the galaxy lens bar, D72** (`docs/specs/version-lens.md`, M10): both phases on `dev/next`.
   The seven "changed in BC<v>" pills are one pill for the remembered major plus a version menu with counts, labels
   from `config/versions.json`; the Objects atlas takes its majors from config; every printed version list goes

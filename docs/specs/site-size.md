@@ -1,6 +1,6 @@
 # The site fits its host: measure real bytes, stop repeating them, and know when to leave
 
-Status: proposed, 2026-10-07. Decision: D76 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-07 (phases 1 and 2; phase 3 waits for its trigger). Decision: D76. Owner: waldo.
 Scope: the Pages workflow's size check, a size report per build, the scoped styles of the components on object pages,
 and two recorded triggers (markdown twins off the site, then a new host). Every claim below was verified against the
 tree at `3b9c29bd2` on 2026-10-07; sizes were measured on a local build of `b953327e5` plus `0b5ebf485` (Node
@@ -181,6 +181,20 @@ visible.
   per-system neighbour files on demand; it would lose its no-JavaScript fallback.
 - Header and footer repeat about 2.2 KB on every page (63 MB): the base path appears ten times in the header alone.
   Relative links would save about 200 bytes a page (6 MB): not worth a template change on its own.
+- Measured after phase 2 (local build of `b1d033640`, MB = 2^20 bytes), each a visible or behavioural change, so not taken:
+  - The timeline's `title="2023 release wave 2 (BC23)"` on every major: 7.0 MB (205,152 spans). A tooltip; one
+    legend line per page, or none, would save most of it.
+  - The Neighbourhood's closing paragraph ("One hop, from the extracted metadata ..."): 3.5 MB on 11,978 pages.
+    Visible text; it could live once on the explorer page.
+  - The Neighbourhood's `style="fill: var(--sys-<x>)"` per node: 2.2 MB (66,218). A class per system saves about
+    0.9 MB but changes specificity against `.nb .me` and the hover rules: needs its own visual pass.
+  - The Neighbourhood's edge lines repeat the centre `x1="380" y1="210"`: 1.0 MB (60,433). One path per ring style,
+    as `OneHop.astro` does, saves that and most of the `<line>` tags.
+  - Two module tags per information page remain, Base (3.3 MB) and Page (3.3 MB). Folding the locator into Base
+    would load the locator's code on list pages too.
+  - Small and in files other lanes own: `FlightPath.astro` scoped (0.2 MB on 33 source pages), the `.heat` table of
+    `localizations/index.astro`, the atlas of `objects/index.astro`, four HTML comments in `pages/**/index.astro`
+    (1.6 KB in all).
 
 ## 9. Risks and open questions
 
@@ -214,19 +228,44 @@ Phase 3 only (when triggered): `site/src/pages/objects/[...id].md.ts` (removed),
 - Section 12 records the measured tar, apparent and file numbers before and after each phase.
 - D76 appended, PLAN M14 shipped, HANDOFF entry moved with the triggers, RUNBOOK "Pages" written.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-### `docs/DECISIONS.md`, append
+Built on `dev/next`: phase 1 `1a7fcaa91`, phase 2 `b1d033640`. One local build per step (Node 22.23.1, tree at
+`28f7805db` plus the step), measured with `scripts/site-size.ts`; MB is 2^20 bytes.
 
-The D76 text of section 3, with the measured numbers of phases 1 and 2.
+| measure | before | phase 2, three components | final |
+|---|---|---|---|
+| tar bytes | 732,518,400 (698.6 MB) | 696,422,400 | 688,629,760 (656.7 MB) |
+| apparent bytes | 670,966,129 (639.9 MB) | 635,020,614 | 626,885,647 (597.8 MB) |
+| `du -sm` | 729 | | 695 |
+| files | 58,972 | 58,972 | 58,970 |
+| HTML bytes (28,823 pages) | 445,516,126 | 409,571,326 | 401,436,934 |
+| `data-astro-cid-` on codeunit 80 / table 18 / page 8060 | 40 / 94 / 94 | 0 / 0 / 0 | 0 / 0 / 0 |
+| bytes of codeunit 80 / table 18 / page 8060 | 211,086 / 147,145 / 20,098 | | 209,676 / 144,439 / 17,392 |
 
-### `docs/PLAN.md` section 5, row before `v0.2+`
+Per step, HTML: the three components 29.7 MB; Neighbourhood's HTML comment 4.6 MB (25,644 × 188); the timeline's
+module tag 3.2 MB (25,644 × 130); CountryDiff 1.0 MB (the Russian page 585,621 → 428,997 bytes); the Page layout's
+single script 3.6 MB (28,778 pages, one module tag fewer each). Total: tar −41.9 MB (−6.0%), HTML −42.0 MB (−9.9%).
 
-| **M14 site size** | the Pages check measures tar bytes with a size report and an 800 MB warning; components on object pages stop scoping per element; markdown twins of object pages to GitHub raw and a host move recorded as measured triggers (`docs/specs/site-size.md`, D76) | 1 day | none: deterministic, no LLM |
+Checks: apparent bytes equal `find | stat` to the byte; tar bytes equal `tar --format=gnutar -cf - -C site/dist . |
+wc -c` (bsdtar) to the byte, and are 0.2% above `--format=ustar` (ustar splits long names into its prefix field
+instead of a long-name header). Visual: Table 18, Codeunit 80, Page 8060, Table 1432 (obsolete), a topic with
+Connections, and the RU, IT and SE localizations, dark and light, 390 and 1440 px, served under the base path on
+port 4176: 96 screenshots byte-identical before and after, computed styles and boxes of 53,216 elements identical.
+Behaviour: locator canvas pixels, the connections list, the video dialog (open, Esc), the timeline scrolled to the
+newest major at 390 px: identical.
 
-### `docs/HANDOFF.md`, open specs
+Deviations:
 
-- **Site size** (`docs/specs/site-size.md`, D76, M14). Status: proposed 2026-10-07, nothing implemented. Start with
-  phase 1 (`scripts/site-size.ts` and its tests, then the `pages.yml` step); phase 2 is three component style blocks.
-  Until it lands the Pages check counts disk blocks (12% over the real size) and the next growth fails a deploy with
-  no warning.
+- The tar count includes directory entries (29,028 × 512 bytes, 14.2 MB), the end-of-archive and the 10,240-byte
+  records, which the formula of 4.1 left out; that is what makes it exact. The section 5 example (0, 1, 513 bytes:
+  4,096) is tested on `tarEntryBytes`; `measure` of that tree is 10,240 (two directories, one record).
+- The JSON carries `dirs`, `section_count` and per-section `tar_bytes` besides the contract's fields.
+- Selectors are qualified one level deeper than 4.2 wrote (`.tl .timeline .dot`, `.loc .loc-open canvas`), so no
+  rule is less specific than its scoped form was. No rename was needed: the grep of `site/src` and the built CSS found
+  no other `.tl`, `.timeline`, `.related`, `.rel-list`, `.loc`, `.con` or `.cdiff` rule.
+- Four trims beyond 4.2, all without visible change (owner's request to trim): the Neighbourhood comment, the
+  timeline script moved into `scripts/chrome.ts`, one script in `layouts/Page.astro` for the locator and the video
+  dialog, `CountryDiff.astro` global under `.cdiff`. Not taken, with numbers: section 8.
+- `pages.yml` also runs on a change to `scripts/site-size.ts`.
+- Task 3's CI number is not in yet: the first Pages run after the push writes it to its summary.
