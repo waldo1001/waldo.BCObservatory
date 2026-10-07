@@ -1,6 +1,8 @@
 ---
 import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
+// the tabs over the result groups (D65 3.1); the script fills the counts and maps ?type= to one of them
+const tabs: [string, string][] = [["", "All"], ["start", "Start here"], ["roadmap", "Roadmap"], ["video", "Videos"], ["post", "Posts"], ["object", "AL objects"], ["change", "Code changes"], ["localization", "Localizations"], ["source", "Sources"], ["digest", "Digests"], ["other", "Other"]];
 ---
 <List title="Search · BC Observatory" description="Search every page of BC Observatory." crumb="Search">
   <div class="search" data-base={base}>
@@ -8,15 +10,12 @@ const base = import.meta.env.BASE_URL;
     <form role="search">
       <label for="sq" class="skip">Search query</label>
       <input id="sq" name="q" type="search" placeholder="table 18, Sales-Post, Belgium, e-documents" autocomplete="off" />
-      <label for="st" class="skip">Page type</label>
-      <select id="st" name="type">
-        <option value="">all types</option>
-        <option value="topic">topic hubs</option><option value="object">AL objects</option><option value="feature">roadmap features</option>
-        <option value="localization">localizations</option><option value="video">videos</option><option value="post">community posts</option><option value="change">code changes</option>
-      </select>
     </form>
+    <div class="sr-tabs" role="tablist" aria-label="Result types">
+      {tabs.map(([id, label]) => <button type="button" role="tab" data-tab={id} aria-selected={id === "" ? "true" : "false"} aria-controls="sr-results" tabindex={id === "" ? 0 : -1} hidden={id === "other"}>{label} <small></small></button>)}
+    </div>
     <p class="status meta" aria-live="polite"></p>
-    <ul class="rows results"></ul>
+    <div class="results" id="sr-results"></div>
     <p class="meta">Agents use the same index through the MCP server: <code>npx bc-observatory</code>.</p>
   </div>
 </List>
@@ -27,8 +26,20 @@ const base = import.meta.env.BASE_URL;
 </script>
 <style>
   .search form { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
-  .search input, .search select { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 16px var(--font-ui); padding: 10px 12px; min-height: 44px; }
+  .search input { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 16px var(--font-ui); padding: 10px 12px; min-height: 44px; }
   .search input { flex: 1 1 320px; }
+  .sr-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+  .sr-tabs button { min-height: 36px; padding: 0 12px; font: 400 12px var(--font-mono); text-transform: uppercase; color: var(--text-2); background: none; border: 1px solid var(--line-strong); border-radius: var(--r-badge); cursor: pointer; }
+  .sr-tabs button small { font: inherit; color: var(--muted); margin-left: 4px; }
+  .sr-tabs button[aria-selected="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .sr-tabs button[aria-selected="true"] small { color: inherit; }
+  .sr-tabs button.empty:not([aria-selected="true"]) { opacity: .55; }
+  .sr-tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .search :global(.sr-group .section-title) { margin-top: 28px; }
+  .search :global(.sr-app) { font: 600 14px var(--font-ui); margin: 16px 0 0; color: var(--text-2); }
+  .search :global(.sr-app small) { font: 400 12px var(--font-mono); color: var(--muted); margin-left: 6px; }
   .search :global(.results li) { display: grid; gap: 4px; }
   .search :global(.results p) { margin: 0; }
+  .search :global(.sr-path) { overflow-wrap: anywhere; }
+  .search :global(.sr-caption), .search :global(.sr-stats) { font-size: 14px; }
 </style>

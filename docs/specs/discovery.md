@@ -508,6 +508,44 @@ Deviations from 4.1-4.5:
    `Microsoft.DemoData.Finance`-style namespaces used to place in business systems. Quality management hubs had no
    system: `config/taxonomy.json` gains the alias `quality management` on `inventory`, matching the app.
 
+### 8.2 Tranche 2 built (2026-10-07, `dev/next`), deviations
+
+Verified locally by rendering the object pages and the search index from the committed `data/` and `content/` (topic
+pages as committed, so hubs still carry `coverage.code: 0`; outputs discarded, no nightly) and loading the built site in
+headless Chrome: `/search/?q=subscription` reads `453 results for "subscription": 12 to start with, 13 videos, 12 posts,
+384 AL objects, 32 code changes`, Start here opens on `Subscription billing` / `Business functionality › Sales` /
+`47 Learn pages · 2 videos · reviewed`; `?type=video` opens the Videos tab. `service object` lists `Page 8059 "Service
+Objects" captioned "Subscriptions"` under Subscription Billing (found by its name; `subscriptions` puts it first among
+objects through the caption). Home `#q=subscription`: the first star is the hub with its path, the legend shows, the live
+region reads `14 stars, 439 pages without a star. First: Subscription billing (Sales).` MCP keyword `search
+subscription` returns the hub first. Ten queries of 11.2 checked: the feature hub leads Start here for subscription,
+e-document, intercompany, item tracking, dimension and approval.
+
+Deviations from 5.1-5.5:
+
+1. **`path_label` follows 5.1** (the TOC path above the hub, without its own title, which the row already shows);
+   the examples in 3.1/3.2 that include the title are not followed. Longer than 40 characters: `… › <last two>`.
+2. **`stats`** (new record field) carries the row's third line (`47 Learn pages · 27 objects · 2 videos · reviewed`;
+   app pages `372 objects · 6 Learn hubs · 2 videos`); 5.1 had only the sum `members`.
+3. **Scoring.** The caption counts like the title, once per word (not title + caption); a hub's tags (its ancestors'
+   titles) do not score a word already in its own title, or `Subscription billing analytics` outranks its parent;
+   starts-with/equals test an object's name or caption, not `Page 8059 "..."`; the `log2(members+1)` bonus needs a
+   title or tag match (summary-only, `Finance`, 256 pages, topped `e-document`); the caption does not lift the ×0.6
+   demotion (it lifted `Permission set 6612 "FS - Objects"` above Page 8059 for `service object`). So the 5.2 table
+   reads API hub 7.1 (starts-with applies) and Page 8059 4.2; the order is the spec's. Ties: newest, bigger hub, title.
+4. **Groups:** `Code changes` (D61 `change` pages, not in 3.1) sits after AL objects; an `Other` tab shows only when an
+   unknown type lands. Caps: All shows 5 / 10 / 10 per app with "Show N more" up to 50; a tab shows 50 (25 per app) up
+   to 500 (200). Enter opens the first result of the active view.
+5. **Galaxy order** within a class is score, then members/`ev`, then weight: members first put `Sales` (133 pages)
+   above the feature hub. Star-less video and post rows use the media shapes the legend names.
+6. **MCP:** the factor `(1 + log2(members+1)/10) × (reviewed 1.1 | unreviewed 1 | none 0.9)` re-sorts the keyword and
+   the semantic top 50 each before the D63 fusion (the fused list carries ranks only); topic tags drop the hub's own
+   title words, as on the site; results print `in: <path_label>`, the stats line and `captioned "..."`.
+7. **Captions** (`object.ts` `captionText`): a Caption with `Comment`/`MaxLength` parts is its string literal, a
+   `Locked = true` caption (94 objects, API entity names) is none; the field Explanation's Caption fallback uses it too.
+8. **App pages (3b):** records of type `app` get `path_label` (system label), `members` and `stats`, and land in Start
+   here; nothing writes such pages yet, so nothing changes until tranche 3b does.
+
 ## 9. Files
 
 | File | Change |

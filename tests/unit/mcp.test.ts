@@ -21,6 +21,13 @@ function fixture(): string {
   c("posts/kauffmann-nl/1234", { id: "post/kauffmann-nl/1234", type: "post", title: "Designing agents", summary: "How the agent designer works.", tier: "community", source_id: "kauffmann-nl", published_at: "2026-10-01T08:00:00Z", system: "copilot" }, "# Designing agents");
   c("changes/bcapps/12207", { id: "change/bcapps/12207", type: "change", title: "#12207 [MCP] Prepare Data Query Tools for billing", summary: "Data query tools get billing hooks.", tier: "official", source_id: "bcapps-prs", merged_at: "2026-10-07T11:29:33Z", change_kind: "feature", tags: ["feature", "main", "codeunit data query tools"] }, "# #12207");
   c("videos/AAAAAAAAAA1", { id: "video/AAAAAAAAAA1", type: "video", title: "What's new in posting", summary: "Posting preview.", tier: "official", channel: "yt-microsoft", published_at: "2026-09-01T00:00:00Z" }, "# Video");
+  // D65: three hubs that share the word, an object whose name has it, a page that has it only in its caption
+  c("topics/business-central/business-functionality/sales/subscription-billing", { id: "topic/business-central/business-functionality/sales/subscription-billing", type: "topic", title: "Subscription billing", summary: "Recurring invoicing for contracts.", tier: "official", system: "sales",
+    learn_toc_path: ["Business functionality", "Sales", "Subscription billing"], narrative: "generated", review: { state: "reviewed" }, coverage: { learn: 47, code: 27, video: 2, blog: 0 } }, "# Subscription billing");
+  c("topics/business-central/dev-itpro/cloud-migration-api/subscriptions", { id: "topic/business-central/dev-itpro/cloud-migration-api/subscriptions", type: "topic", title: "Subscriptions", summary: "Cloud migration API reference.", tier: "official", system: "administration",
+    learn_toc_path: ["Administration", "Cloud Migration API", "Subscriptions"], narrative: "none", review: { state: "unreviewed" }, coverage: { learn: 5, code: 0, video: 0, blog: 0 } }, "# Subscriptions");
+  c("objects/codeunit/8005", { id: "object/codeunit/8005", type: "object", title: 'Codeunit 8005 "Create Subscription Header"', summary: "Creates a subscription header from a sales line.", tier: "official", object_type: "codeunit", object_id: 8005, app: "Subscription Billing" }, "# Codeunit 8005");
+  c("objects/page/8059", { id: "object/page/8059", type: "object", title: 'Page 8059 "Service Objects"', summary: "A list page.", tier: "official", object_type: "page", object_id: 8059, app: "Subscription Billing", caption: "Subscriptions" }, "# Page 8059");
   renderSearchIndex(join(root, "content"), join(root, "data"));
   writeJson(join(root, "data/code/diffs/version/28__29.json"), { objects: [{ key: "table/18", name: "Customer", change: "changed", fields: [{ id: "3", name: "Email", change: "added" }] }] });
   return root;
@@ -36,7 +43,7 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
     const call = async (name: string, args: Record<string, unknown>) => ((await client.callTool({ name, arguments: args })).content as { text: string }[])[0].text;
     assert.match(await call("search", { query: "customer" }), /Table 18 "Customer".*path=objects\/table\/18/);
     assert.match(await call("search", { query: "agent", tier: "community" }), /Designing agents/);
-    assert.match(await call("ls", {}), /objects\/ \(2 pages\)/);
+    assert.match(await call("ls", {}), /objects\/ \(4 pages\)/);
     assert.match(await call("ls", {}), /changes\/ \(1 pages\)/);
     assert.match(await call("ls", { path: "objects/table" }), /objects\/table\/18: Table 18/);
     assert.match(await call("cat", { path: "localizations/be" }), /# Belgium \(BE\)/);
@@ -52,6 +59,10 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
     assert.match(await call("search", { query: "data query tools", type: "change", mode: "keyword" }), /#12207/, "by object name");
     assert.doesNotMatch(news, /posting/i, "dated before since");
     assert.match(await call("blog_footprint", { source: "kauffmann-nl" }), /kauffmann-nl: 1 items[\s\S]*copilot 1/);
+    const sub = await call("search", { query: "subscription", mode: "keyword" });
+    assert.match(sub.split("\n")[1], /^- Subscription billing \[topic/, "the reviewed 47-page hub first (D65)");
+    assert.match(sub, /in: Business functionality › Sales\n  47 Learn pages · 27 objects · 2 videos · reviewed/, "where it sits and how big it is");
+    assert.match(await call("search", { query: "subscriptions", type: "object", mode: "keyword" }), /Page 8059 "Service Objects" \(captioned "Subscriptions"\)/, "found by its caption");
     assert.match(await call("feedback", { path: "objects/table/18", message: "field 3 is wrong" }), /issues\/new\?title=Feedback/);
   } finally {
     await client.close();
@@ -92,4 +103,17 @@ test("without a model, search says so and stays keyword-only", async () => {
   } finally {
     await client.close();
   }
+});
+
+test("search re-sorts its top 50 by score x (1 + log2(members + 1) / 10) x narrative, and hub tags skip the hub's own words (D65 5.5)", async () => {
+  const { resort, startFactor, tagText } = await import("../../packages/mcp/src/server.js");
+  const rec = (path: string, type: string, members?: number, narrative?: "reviewed" | "unreviewed" | "none") => ({ path, type, title: path, summary: "", tier: "official", members, narrative });
+  assert.equal(startFactor(rec("o", "object")), 1);
+  assert.equal(Math.round(startFactor(rec("h", "topic", 47, "reviewed")) * 100) / 100, 1.71, "(1 + log2(48)/10) x 1.1");
+  assert.equal(Math.round(startFactor(rec("api", "topic", 5, "none")) * 100) / 100, 1.13, "(1 + log2(6)/10) x 0.9");
+  assert.equal(Math.round(startFactor(rec("app", "app", 375)) * 100) / 100, 1.86, "an app page by its size, no narrative factor");
+  const by = new Map([rec("codeunit", "object"), rec("hub", "topic", 47, "reviewed"), rec("api", "topic", 5, "none")].map((r) => [r.path, r]));
+  assert.deepEqual(resort([["codeunit", 10], ["api", 8], ["hub", 7]], by as any), ["hub", "codeunit", "api"]);
+  assert.equal(tagText({ type: "topic", title: "Subscription billing analytics", tags: ["business functionality", "sales", "subscription billing"] }), "business functionality sales");
+  assert.equal(tagText({ type: "video", title: "Subscription billing", tags: ["subscription billing"] }), "subscription billing", "other pages keep every tag");
 });

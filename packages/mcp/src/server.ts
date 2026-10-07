@@ -34,6 +34,7 @@ const DAY = 86_400_000;
 export interface PageRecord {
   path: string; type: string; title: string; summary: string; tier: string; system?: string; date?: string; tags?: string[];
   object_type?: string; object_id?: number | null; app?: string | null; country?: string; source?: string; status?: string; obsolete?: string | null;
+  path_label?: string; caption?: string; members?: number; narrative?: "reviewed" | "unreviewed" | "none"; stats?: string;
 }
 interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string }[] }
 
@@ -65,6 +66,17 @@ let pages: PageRecord[] = [];
 let search: MiniSearch<PageRecord> | null = null;
 let loadedAt = 0;
 
+/**
+ * The tags as searched. A topic hub's tags are the titles above it in the Learn TOC (D65): a word already in the hub's
+ * own title does not count again, or every subtopic of "Subscription billing" would outrank the hub itself.
+ */
+export function tagText(doc: Pick<PageRecord, "type" | "title" | "tags">): string {
+  const tags = (doc.tags ?? []).join(" ");
+  if (doc.type !== "topic") return tags;
+  const own = new Set(doc.title.toLowerCase().split(/[^\p{L}\p{N}]+/u));
+  return tags.split(/[^\p{L}\p{N}]+/u).filter((w) => w && !own.has(w.toLowerCase())).join(" ");
+}
+
 /** Index shards by sha256: cached on disk, downloaded only when the manifest names a new hash. */
 async function loadIndex(): Promise<void> {
   if (search && Date.now() - loadedAt < DAY) return;
@@ -82,10 +94,11 @@ async function loadIndex(): Promise<void> {
     all.push(...(JSON.parse(text) as PageRecord[]));
   }
   const ms = new MiniSearch<PageRecord>({
-    idField: "path", fields: ["title", "summary", "tagText", "path"],
-    storeFields: ["path", "type", "title", "summary", "tier", "system", "date", "object_type", "object_id", "app", "country", "source", "status", "obsolete"],
-    extractField: (doc, f) => (f === "tagText" ? (doc.tags ?? []).join(" ") : (doc as any)[f]),
-    searchOptions: { boost: { title: 3, tagText: 1.5 }, prefix: true, fuzzy: 0.15 },
+    idField: "path", fields: ["title", "caption", "summary", "tagText", "path"],
+    storeFields: ["path", "type", "title", "summary", "tier", "system", "date", "object_type", "object_id", "app", "country", "source", "status", "obsolete", "path_label", "caption", "members", "narrative", "stats"],
+    extractField: (doc, f) => (f === "tagText" ? tagText(doc) : (doc as any)[f]),
+    // the site's weights (site/src/scripts/search.ts): title 3, caption 3, tags 2, summary 1
+    searchOptions: { boost: { title: 3, caption: 3, tagText: 2 }, prefix: true, fuzzy: 0.15 },
   });
   ms.addAll(all);
   pages = all;
@@ -94,7 +107,7 @@ async function loadIndex(): Promise<void> {
 }
 
 const url = (path: string) => `${SITE}${path}/`;
-const line = (r: PageRecord) => `- ${r.title} [${r.type}${r.tier ? `, ${r.tier}` : ""}${r.date ? `, ${r.date}` : ""}] path=${r.path}\n  ${r.summary}`;
+const line = (r: PageRecord) => `- ${r.title}${r.caption ? ` (captioned "${r.caption}")` : ""} [${r.type}${r.tier ? `, ${r.tier}` : ""}${r.date ? `, ${r.date}` : ""}] path=${r.path}${r.path_label ? `\n  in: ${r.path_label}` : ""}${r.stats ? `\n  ${r.stats}` : ""}\n  ${r.summary}`;
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 
 // ---------------------------------------------------------------------------------------------- embeddings (D63)
@@ -152,13 +165,31 @@ export function fuse(lists: string[][], k = 60): string[] {
   return [...score].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([p]) => p);
 }
 
+/**
+ * How much of a starting point a page is (D65): a topic hub or app page by what hangs off it, a hub also by its
+ * narrative. factor = (1 + log2(members + 1) / 10) x (reviewed 1.1 | unreviewed 1 | none 0.9); every other page 1.
+ * A reviewed hub with 47 members gets x1.71, a 5-member API hub without a narrative x1.13.
+ */
+export function startFactor(r: Pick<PageRecord, "type" | "members" | "narrative">): number {
+  if (r.type !== "topic" && r.type !== "app") return 1;
+  const size = 1 + Math.log2((r.members ?? 0) + 1) / 10;
+  return size * (r.type === "topic" ? ({ reviewed: 1.1, unreviewed: 1, none: 0.9 } as Record<string, number>)[r.narrative ?? "unreviewed"] ?? 1 : 1);
+}
+/** A ranked list (top 50 by score, keyword or meaning) re-sorted by score x startFactor, before the lists are fused. */
+export function resort(scored: [string, number][], byPath: Map<string, PageRecord>): string[] {
+  return scored.map(([p, s]) => [p, s * (byPath.has(p) ? startFactor(byPath.get(p)!) : 1)] as [string, number])
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([p]) => p);
+}
+
 // ---------------------------------------------------------------------------------------------- tools
 
 export async function toolSearch(a: { query: string; type?: string; tier?: string; system?: string; limit?: number; mode?: "hybrid" | "keyword" | "semantic" }): Promise<string> {
   await loadIndex();
   const keep = (r: PageRecord) => (!a.type || r.type === a.type) && (!a.tier || r.tier === a.tier) && (!a.system || r.system === a.system);
   const limit = a.limit ?? 10, mode = a.mode ?? "hybrid", POOL = 50;
-  const keyword = mode === "semantic" ? [] : (search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL) as unknown as PageRecord[]).map((r) => r.path);
+  const byPath = new Map(pages.map((p) => [p.path, p]));
+  // the top 50 keyword hits re-sorted by size and review state (D65), so "subscription" puts the hub first
+  const keyword = mode === "semantic" ? [] : resort(search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL).map((r) => [r.id as string, r.score] as [string, number]), byPath);
   let semantic: string[] = [], note = "";
   if (mode !== "keyword") {
     const m = await loadModel();
@@ -167,12 +198,12 @@ export async function toolSearch(a: { query: string; type?: string; tier?: strin
       if (q.some((x) => x !== 0)) {
         const scored: [number, number][] = [];
         pages.forEach((p, i) => { if (keep(p)) scored.push([dot(q, data, i * m.dims), i]); });
-        semantic = scored.sort((x, y) => y[0] - x[0]).slice(0, POOL).map(([, i]) => pages[i].path);
+        // the meaning list gets the same re-sort, so fusing does not undo it
+        semantic = resort(scored.sort((x, y) => y[0] - x[0]).slice(0, POOL).map(([s, i]) => [pages[i].path, s] as [string, number]), byPath);
       }
     } else if (mode === "semantic") note = ` (semantic search unavailable: ${modelError}; keyword results instead)`;
-    if (!m && mode === "semantic") semantic = (search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL) as unknown as PageRecord[]).map((r) => r.path);
+    if (!m && mode === "semantic") semantic = resort(search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL).map((r) => [r.id as string, r.score] as [string, number]), byPath);
   }
-  const byPath = new Map(pages.map((p) => [p.path, p]));
   const hits = fuse([keyword, semantic].filter((l) => l.length)).slice(0, limit).map((p) => byPath.get(p)!).filter(Boolean);
   if (!hits.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.`;
   const how = semantic.length && keyword.length ? "keyword + semantic" : semantic.length ? "semantic" : "keyword";
@@ -255,7 +286,7 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, and code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path).",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, summary, tags). Hybrid by default: keywords plus meaning, so a synonym or a paraphrase still finds the page; mode 'keyword' for exact terms such as an object name, 'semantic' for meaning only. Filter by type (topic, feature, object, localization, video, post, change), tier (official, community) or galaxy system (finance, sales, development, ...).",
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, AL object caption, summary, tags). Ranking: keyword hits weigh title 3, caption 3, tags 2, summary 1; topic hubs and app pages are then re-sorted by score x (1 + log2(members + 1) / 10) x (narrative reviewed 1.1, unreviewed 1, none 0.9), so the big reviewed hub of a feature comes first; each result shows where it sits (in: TOC path, app, channel) and a hub's size. Hybrid by default: keywords plus meaning, so a synonym or a paraphrase still finds the page; mode 'keyword' for exact terms such as an object name, 'semantic' for meaning only. Filter by type (topic, feature, object, localization, video, post, change), tier (official, community) or galaxy system (finance, sales, development, ...).",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },

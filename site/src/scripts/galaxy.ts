@@ -34,11 +34,13 @@ interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; sysedges?: [st
 interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?][] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
-interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
+interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
 
 /** What the header's live search needs from a mounted galaxy (live-search.ts). */
 export interface GalaxyApi {
   hasStar(id: string): boolean;
+  /** A star's evidence count and weight, for the search panel's order (D65). */
+  starFacts(id: string): { ev?: number; weight: number } | undefined;
   /** Light up a search's hits as an ad-hoc lens; null clears it. */
   setSearch(h: SearchHits | null): void;
   /** Called when the galaxy itself drops the search lens (another lens chosen, Esc, breadcrumb, "Clear"). */
@@ -52,7 +54,7 @@ import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from 
 import { parseHash, portSpot, sortRows, type SortKey } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
-import type { SearchHits } from "./live-search.js";
+import { nodeIdOf, type SearchHits } from "./live-search.js";
 
 const FLY_MS = 1100, DRAW_MS = 600;
 /** cubic-bezier(.65,0,.2,1) (tokens motion.cameraFly): solve x(m) = t by bisection, return y(m). */
@@ -63,7 +65,7 @@ const ease = (t: number) => {
   return bez((lo + hi) / 2, 0, 1);
 };
 const pathOf = (n: { id: string; url?: string }) => n.url ?? `${n.id.slice(0, n.id.indexOf("/"))}s/${n.id.slice(n.id.indexOf("/") + 1)}/`;
-const TYPE: Record<string, string> = { topic: "topic hub", feature: "roadmap feature", object: "AL object", localization: "localization", source: "source", video: "video", post: "community post" };
+const TYPE: Record<string, string> = { topic: "topic hub", app: "first-party app", feature: "roadmap feature", object: "AL object", localization: "localization", source: "source", video: "video", post: "community post" };
 const KIND: Record<string, string> = { table_relation: "table relation", calc_formula: "calc formula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends", documents: "documented by", relates: "related hub", localizes: "localized by", demonstrates: "demonstrated by", mentions: "mentioned by", discusses: "discussed by" };
 /** Tier badge words, as Badges.astro writes them. */
 const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
@@ -819,7 +821,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const had = !!lens?.search;
     if (!h) { if (had) { lens = null; lensSet.clear(); lensLines = []; update(); } return; }
     const set = new Set(h.ids);
-    lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, pages: h.pages, total: h.total };
+    lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, stars: h.stars, pages: h.pages, total: h.total };
     lensSet = set; lensLines = []; lensSel.value = "";
     if (!had && level > 1) { level = 1; focusSys = null; focusStar = null; update(); return; }
     // typing never moves the camera; the panel does not auto-open on narrow screens (the soft keyboard is up)
@@ -828,7 +830,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
 
   // panel: the list of the current scope; hovering or focusing a row marks its star
-  const row = (n: Node, extra = "") => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}</span><small>${extra || TYPE[n.type] || n.type}</small></button></li>`;
+  /** path: the search lens's path label under the title (D65: "Business functionality › Sales"). */
+  const row = (n: Node, extra = "", path?: string) => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot${n.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}${path ? `<small class="g-path">${esc(path)}</small>` : ""}</span><small>${extra || TYPE[n.type] || n.type}</small></button></li>`;
   const mediaRow = (id: string, kind: string, date: string | null, extra = "") => `<li><a href="${esc(base + pathOf({ id }))}"><span class="g-shape ${kind === "v" ? "tri" : "bar"}${landedMedia.has(id) ? " new" : ""}" aria-hidden="true"></span><span>${esc(byId.get(id)?.label ?? mediaTitle.get(id) ?? id)}</span><small>${kind === "v" ? "video" : "post"}${date ? ` · ${esc(date)}` : ""}${extra}</small></a></li>`;
   /** Media titles: this week's from landed.json, the rest from the ego graph of the open star; the id is the fallback. */
   const mediaTitle = new Map<string, string>(week.items.filter((i) => i[4]).map((i) => [i[0], i[4]!]));
@@ -935,14 +938,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     let html = "";
     if (tilted() || (level === 2 && tilt > 0 && layers && mobile())) html = tiltPanel();
     else if (lens?.search) {
-      const hits = g.nodes.filter((n) => lensSet.has(n.id)).sort((a, b) => b.weight - a.weight);
+      // hubs and apps first, then features, then objects, in the order live-search.ts gave them (D65 3.2)
+      const order = new Map((lens.stars ?? []).map((r, i) => [nodeIdOf(r.path), i]));
+      const pathOfStar = new Map((lens.stars ?? []).filter((r) => r.path_label).map((r) => [nodeIdOf(r.path), r.path_label!]));
+      const hits = g.nodes.filter((n) => lensSet.has(n.id)).sort((a, b) => (order.get(a.id) ?? 1e9) - (order.get(b.id) ?? 1e9) || b.weight - a.weight);
       const reach = Object.entries(lens.reach ?? {}).sort((a, b) => b[1] - a[1]);
       const without = (lens.total ?? hits.length) - hits.length;
+      const shape = (r: Row) => (r.type === "video" ? `<span class="g-shape tri" aria-hidden="true"></span>` : r.type === "post" ? `<span class="g-shape bar" aria-hidden="true"></span>` : `<span class="g-dot${r.type === "object" ? " sq" : ""}" style="--dot: var(--sys-${esc(r.system ?? "platform")}, var(--muted))"></span>`);
       html = `<p class="g-kicker">search</p><h2 tabindex="-1">${esc(lens.label)}</h2><p class="g-meta">${hits.length} stars light up, ${without} pages without a star.</p>
         <p><a class="btn" href="${base}search/?q=${encodeURIComponent(lens.search)}">All results</a> <button type="button" class="btn" data-clear-lens>Clear</button></p>
-        ${hits.length ? `<h3>Stars</h3><ul class="g-list">${hits.slice(0, 80).map((n) => row(n)).join("")}</ul>` : ""}
+        ${hits.length || lens.pages?.length ? `<p class="g-meta g-key"><span class="g-dot" style="--dot: var(--muted)"></span> hub, feature or page <span class="g-dot sq" style="--dot: var(--muted)"></span> AL object <span class="g-shape tri" aria-hidden="true"></span> video <span class="g-shape bar" aria-hidden="true"></span> post</p>` : ""}
+        ${hits.length ? `<h3>Stars</h3><ul class="g-list">${hits.slice(0, 80).map((n) => row(n, "", pathOfStar.get(n.id))).join("")}</ul>` : ""}
         ${reach.length ? `<h3>Systems with matching pages</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} pages</small></button></li>`).join("")}</ul>` : ""}
-        ${lens.pages?.length ? `<h3>Pages without a star</h3><ul class="g-list">${lens.pages.slice(0, 30).map((r) => `<li><a href="${esc(`${base}${r.path}/`)}"><span class="g-dot" style="--dot: var(--sys-${esc(r.system ?? "platform")}, var(--muted))"></span><span>${esc(r.title)}</span><small>${esc(r.type)}</small></a></li>`).join("")}</ul>` : ""}`;
+        ${lens.pages?.length ? `<h3>Pages without a star</h3><ul class="g-list">${lens.pages.slice(0, 30).map((r) => `<li><a href="${esc(`${base}${r.path}/`)}">${shape(r)}<span>${esc(r.title)}${r.path_label ? `<small class="g-path">${esc(r.path_label)}</small>` : ""}</span><small>${esc(TYPE[r.type] ?? r.type)}</small></a></li>`).join("")}</ul>` : ""}`;
     } else if (lens) {
       const scope = level >= 2 && focusSys ? focusSys : null;
       const hits = g.nodes.filter((n) => lensSet.has(n.id) && (!scope || n.group === scope.id)).sort((a, b) => b.weight - a.weight);
@@ -1279,6 +1287,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   if (animating()) loop();
   return {
     hasStar: (id) => byId.has(id), setSearch,
+    starFacts: (id) => { const n = byId.get(id); return n ? { ev: n.ev, weight: n.weight } : undefined; },
     onSearchCleared: (cb) => { clearedCbs.push(cb); },
     onHashQuery: (cb) => { hashQueryCbs.push(cb); if (pendingQuery) { const q = pendingQuery; pendingQuery = null; cb(q); } },
   };

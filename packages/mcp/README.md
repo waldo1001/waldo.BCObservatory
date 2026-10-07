@@ -23,4 +23,9 @@ plain JavaScript; the 30 MB model is downloaded once on the first search, pinned
 `BC_OBSERVATORY_MODEL_DIR=<dir with config.json, tokenizer.json, model.safetensors>` uses a model on disk (offline). Without a
 model, search is keyword-only and says so.
 
+Ranking matches the site: title and an AL object's caption weigh 3, tags 2, summary 1; topic hubs and app pages are then
+re-sorted by `score x (1 + log2(members + 1) / 10) x (narrative reviewed 1.1, unreviewed 1, none 0.9)`, so "subscription"
+returns the Subscription billing hub before the codeunits that share the word. Each result says where it sits (`in:` the
+Learn TOC path, the app, the channel) and, for a hub, its size and review state.
+
 MIT. Content: see the repository's CONTENT-NOTICE.md (Microsoft content attributed; community content derived only).

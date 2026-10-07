@@ -170,6 +170,9 @@ const base = import.meta.env.BASE_URL;
   }
   .g-panel :global(.g-list button:hover), .g-panel :global(.g-list button:focus-visible), .g-panel :global(.g-list a:hover) { background: var(--surface-raised); }
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
+  .g-panel :global(.g-list .g-path) { display: block; margin-top: 2px; overflow-wrap: anywhere; }
+  .g-panel :global(.g-key) { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; font: 400 11px var(--font-mono); }
+  .g-panel :global(.g-key .g-dot), .g-panel :global(.g-key .g-shape) { display: inline-block; margin-left: 4px; }
   .galaxy :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); flex: none; }
   .galaxy :global(.g-dot.sq) { border-radius: 2px; }
   .g-panel :global(.g-shape) { width: 8px; height: 8px; background: var(--g-media); }

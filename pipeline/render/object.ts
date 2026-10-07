@@ -289,9 +289,22 @@ export function propOf(props: Record<string, string>, name: string): string | nu
 const isTrue = (v: string | null) => v?.toLowerCase() === "true";
 const isFalse = (v: string | null) => v?.toLowerCase() === "false";
 
+/**
+ * A Caption property as the reader sees it. The extractor unquotes a plain string but keeps a value with extra parts
+ * verbatim ("'Human Resources', Comment = '...'"): the string literal is the caption. A Locked caption is an API
+ * entity name ('agedAccountsReceivable') rather than words for a reader: no caption.
+ */
+export function captionText(raw: string | null | undefined): string | null {
+  const v = raw?.trim();
+  if (!v) return null;
+  const m = /^'((?:[^']|'')*)'(.*)$/s.exec(v);
+  if (!m) return v;
+  if (/\bLocked\s*=\s*true\b/i.test(m[2])) return null;
+  return m[1].replace(/''/g, "'").trim() || null;
+}
 /** The object's Caption when it says something its name does not ("Service Objects" captioned "Subscriptions"). */
 export function captionOf(o: Pick<AlObject, "name" | "properties">): string | null {
-  const c = propOf(o.properties, "Caption")?.trim();
+  const c = captionText(propOf(o.properties, "Caption"));
   return c && c !== o.name.trim() ? c : null;
 }
 
@@ -314,7 +327,7 @@ export interface FieldRow { explanation: string; provenance: string | null; note
 export function fieldRow(f: AlField, o: Pick<AlObject, "properties">, ctx: FieldRowCtx): FieldRow {
   const P = (n: string) => propOf(f.properties, n);
   const tip = f.tooltip ?? toolTipOf(f.properties);
-  const caption = P("Caption")?.trim();
+  const caption = captionText(P("Caption"));
   const explanation = tip ?? (caption && caption !== f.name.trim() ? caption : "—");
   const provenance = tip ? null : explanation !== "—" ? "caption" : null;
   const notes: string[] = [];
