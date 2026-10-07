@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/field-docs.json",
+  "title": "Field docs (bcobs-field-docs@1, D65): per table field, the ToolTip of a page control bound to it",
+  "description": "data/code/field-docs/<major>.json (W1 + first-party apps of one major) and data/index/field-docs.json (the preferred major). One ToolTip per (table, field): Card and Document pages first, then List pages, then the others; an obsolete control or page last; the lowest page id on a tie. Fields a tableextension adds sit under the base table.",
+  "type": "object",
+  "required": ["schema", "major", "stats", "tables"],
+  "properties": {
+    "inputs": { "description": "what the file was derived from (data/code/field-docs only)" },
+    "schema": { "const": "bcobs-field-docs@1" },
+    "major": { "type": "string" },
+    "stats": {
+      "type": "object",
+      "required": ["tooltips", "bound", "unparsed", "unmatched", "tables", "fields"],
+      "properties": {
+        "tooltips": { "type": "integer", "description": "field controls with a ToolTip on pages (and page extensions) whose source table resolves" },
+        "bound": { "type": "integer", "description": "of those, bound to a field of that table" },
+        "unparsed": { "type": "integer", "description": "binding is an expression, a call or a variable of another record" },
+        "unmatched": { "type": "integer", "description": "binding names no field of the table or its extensions (a page variable)" },
+        "tables": { "type": "integer" },
+        "fields": { "type": "integer", "description": "distinct (table, field) pairs explained" }
+      }
+    },
+    "tables": {
+      "type": "object",
+      "description": "table object key (table/8057) -> field name as declared -> the chosen ToolTip",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["tooltip", "page", "control"],
+          "properties": {
+            "tooltip": { "type": "string" },
+            "page": { "type": "string", "description": "object key of the page or page extension: page/8060" },
+            "control": { "type": "string", "description": "the control's name on that page" }
+          }
+        }
+      }
+    }
+  }
+}

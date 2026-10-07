@@ -20,7 +20,8 @@ import { exists, writeText, readJson, writeJson } from "../lib/fsx.js";
 import { logger } from "../lib/log.js";
 import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./extract.js";
 import { fullSnapshotRoot, isSkeleton, iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
-import { buildRelations } from "./relations.js";
+import { buildRelations, type Relations } from "./relations.js";
+import { buildFieldDocs, fieldDocsPath, FIELD_DOCS_VERSION } from "./field-docs.js";
 import { areaOf } from "../lib/systems.js";
 
 const log = logger("code-diff");
@@ -239,7 +240,7 @@ export function byObject(value: Record<string, unknown>): string {
   return `${h.slice(0, -1)}${h.length > 2 ? "," : ""}"objects":[\n${objects.map((o) => JSON.stringify(o)).join(",\n")}\n]}\n`;
 }
 
-export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; matrix?: boolean; written: number }
+export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; field_docs?: number; matrix?: boolean; written: number }
 
 /** Country x area matrix (D49): per country (its newest major), per area, how many W1 objects it replaces and adds. */
 export interface CountryMatrix {
@@ -322,6 +323,14 @@ export function refreshCodeDerived(dataDir: string, majors: string[], o: { cache
       const parts = [{ w1: true, objects: () => iterSnapshot(dataDir, m, "w1") }];
       if (ma) parts.push({ w1: false, objects: () => iterSnapshot(dataDir, m, APPS) });
       return buildRelations(m, parts);
+    })) run.written++;
+    // field docs (D65): the ToolTip of the page control bound to each table field, joined through the relations
+    run.field_docs = (run.field_docs ?? 0) + 1;
+    if (writeIfInputsChanged(fieldDocsPath(dataDir, m), [FIELD_DOCS_VERSION, mw.commit, mw.extractor, ma?.commit ?? null, ma?.extractor ?? null], () => {
+      cache.clear();
+      const parts = [{ objects: () => iterSnapshot(dataDir, m, "w1") }];
+      if (ma) parts.push({ objects: () => iterSnapshot(dataDir, m, APPS) });
+      return buildFieldDocs(m, parts, readJson<Relations>(resolve(root, "relations", `${m}.json`)));
     })) run.written++;
   }
   // the matrix: every country at its newest major

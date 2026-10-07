@@ -128,3 +128,80 @@ test("object pages explain their fields, enum captions and event docs; tables in
   assert.deepEqual([pg.data.caption, pg.data.links.learn, pg.data.links.topics], ["Subscriptions", ["https://learn/sb-1", "https://learn/sb-2"], ["topic/sb"]]);
   assert.equal(matter(readFileSync(join(contentDir, "objects/page/8060.md"), "utf8")).data.caption, undefined, "no caption when it equals the name or is absent");
 });
+
+// D65 tranche 4b: table fields explained through the page controls bound to them; Fields and Actions on page pages
+const SB4 = `table 8057 "Subscription Header"
+{
+    fields
+    {
+        field(1; "No."; Code[20]) { }
+        field(2; Description; Text[100]) { ToolTip = 'The table field says so itself.'; }
+        field(3; "Item No."; Code[20]) { }
+        field(4; Amount; Decimal) { Caption = 'Amount (LCY)'; }
+        field(5; Fee; Decimal) { }
+    }
+}
+table 18 Customer { fields { field(1; "No."; Code[20]) { } field(2; Name; Text[100]) { } } }
+tableextension 8062 "Sub. Customer" extends Customer { fields { field(8000; "Subscription No."; Code[20]) { } field(8001; "Open Subscriptions"; Integer) { ToolTip = 'Specifies how many subscriptions are open.'; } } }
+page 21 "Customer Card" { PageType = Card; SourceTable = Customer; layout { area(Content) { field(Name; Rec.Name) { } } } actions { area(Processing) { action(Post) { Caption = 'P&ost'; } } } }
+report 8012 "Create Invoices" { }
+`;
+
+test("tables explain fields through bound page controls with the page named; page pages list their Fields and Actions (D65)", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-objpages-d65b-"));
+  const dataDir = join(root, "data"), contentDir = join(root, "content");
+  const p = await loadParser();
+  const pagesAl = readFileSync(join(process.cwd(), "tests/fixtures/al/pages.al"), "utf8");
+  const ex = (pages: string) => [...extractSource(p, SB4, { version: "30", country: "w1", layer: "base", app: "Subscription Billing", file: "src/SB.al" }),
+    ...extractSource(p, pages, { version: "30", country: "w1", layer: "base", app: "Subscription Billing", file: "src/Pages.al" })];
+  writeSnapshot(dataDir, ex(pagesAl), man("30", "w1", "c30"));
+  refreshCodeDerived(dataDir, ["30"]);
+  renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
+  const t = matter(readFileSync(join(contentDir, "objects/table/8057.md"), "utf8"));
+  const row = (md: string, no: number) => md.split("\n").find((l) => l.startsWith(`| ${no} |`));
+  assert.match(t.content, /Explanation: the field's ToolTip in the code; without one, the ToolTip of a page control bound to the field \(marked via the page\)/);
+  assert.equal(row(t.content, 1), '| 1 | No. | Code[20] | Specifies the number of the subscription. <small>via [Page 8060 "Service Object"](../page/8060.md)</small> |  |', "the Card's ToolTip, not the List's");
+  assert.equal(row(t.content, 2), "| 2 | Description | Text[100] | The table field says so itself. |  |", "the field's own ToolTip comes first");
+  assert.equal(row(t.content, 4), "| 4 | Amount | Decimal | Amount (LCY) <small>caption</small> |  |", "an expression binds nothing; the Caption is the last resort");
+  const te = matter(readFileSync(join(contentDir, "objects/tableextension/8062.md"), "utf8"));
+  assert.equal(row(te.content, 8000), '| 8000 | Subscription No. | Code[20] | Specifies the subscription of the customer. <small>via [Page extension 8061 "Sub. Customer Card"](../pageextension/8061.md)</small> |  |');
+
+  const pg = matter(readFileSync(join(contentDir, "objects/page/8060.md"), "utf8"));
+  assert.ok(validate("frontmatter.object", pg.data).ok, validate("frontmatter.object", pg.data).errors.join("; "));
+  assert.deepEqual([pg.data.counts.controls, pg.data.counts.actions], [7, 3]);
+  assert.match(pg.content, /· captioned "Subscription" ·/);
+  assert.match(pg.content, /## Fields on this page\n\n[^\n]+\n\n\| Group \| Control \| Shows \| ToolTip \|\n\|---\|---\|---\|---\|\n/);
+  const line = (md: string, start: string) => md.split("\n").find((l) => l.startsWith(start));
+  assert.equal(line(pg.content, "| General | No. |"), "| General | No. | [No.](../table/8057.md#fields) | Specifies the number of the subscription. |");
+  assert.equal(line(pg.content, "|  | Subscription Description |"), "|  | Subscription Description | [Description](../table/8057.md#fields) | Specifies a description of the subscription. |", "the group is printed once");
+  assert.equal(line(pg.content, "|  | Item No."), "|  | Item No. <small>obsolete Pending 27.0; #if not CLEAN27</small> | [Item No.](../table/8057.md#fields) | Specifies the item. |");
+  assert.equal(line(pg.content, "|  | Total |"), "|  | Total | `Rec.Amount + Rec.Fee` | — |");
+  assert.equal(line(pg.content, "| Hints |"), "| Hints | Lines are billed monthly. | label | — |");
+  assert.equal(line(pg.content, "| Content |"), "| Content | Subscription Lines | part Service Commitments | — |");
+  assert.equal(line(pg.content, "| FactBoxes |"), "| FactBoxes | Chart | add-in Business Chart | — |");
+  assert.match(pg.content, /## Actions\n\n\| Group \| Action \| ToolTip \| Runs \|\n\|---\|---\|---\|---\|\n/);
+  assert.equal(line(pg.content, "| Processing |"), '| Processing | Create Invoice | Creates the invoice for the subscription. | [Report 8012 "Create Invoices"](../report/8012.md) |');
+  assert.equal(line(pg.content, "| Navigate |"), '| Navigate | Subscriptions | Opens the list of subscriptions. | [Page 8059 "Service Objects"](../page/8059.md) |', "the & accelerator is stripped");
+  assert.equal(line(pg.content, "|  | OldPost"), '|  | OldPost <small>obsolete Pending 28.0; #if not CLEAN28</small> | — | Codeunit "Sales-Post" |');
+  const list = matter(readFileSync(join(contentDir, "objects/page/8059.md"), "utf8")).content;
+  assert.equal(line(list, "|  | Status |"), "|  | Status | `Format(Rec.Status)` | — |");
+  assert.equal(line(list, "| Activities | New Subscription |"), '| Activities | New Subscription | — | [Page 8060 "Service Object"](../page/8060.md) |');
+  const ext = matter(readFileSync(join(contentDir, "objects/pageextension/8061.md"), "utf8")).content;
+  assert.equal(line(ext, "| addafter(Name) |"), "| addafter(Name) | Subscription No. | [Subscription No.](../tableextension/8062.md#fields) | Specifies the subscription of the customer. |", "a field a tableextension adds links to that extension");
+  assert.equal(line(ext, "| Subscriptions |"), "| Subscriptions | Open Subscriptions | [Open Subscriptions](../tableextension/8062.md#fields) | Specifies how many subscriptions are open. <small>from the table field</small> |");
+  assert.equal(line(ext, "| modify(No.) |"), "| modify(No.) | No. | modifies `No.` | Specifies the customer number, also used on subscriptions. |");
+  assert.equal(line(ext, "| modify(Post) |"), "| modify(Post) | Post | — | modifies `Post` |");
+  const card21 = matter(readFileSync(join(contentDir, "objects/page/21.md"), "utf8")).content;
+  assert.match(card21, /\| Processing \| Post \| — \|  \|/, "P&ost reads Post");
+  assert.equal(matter(readFileSync(join(contentDir, "objects/report/8012.md"), "utf8")).content.includes("## Fields on this page"), false);
+  assert.deepEqual(validateContent(contentDir).errors, []);
+
+  // a layout-only change re-renders the page: the object hash ignores controls, the page's input_hash does not
+  const hash0 = pg.data.generated.input_hash;
+  writeSnapshot(dataDir, ex(pagesAl.replace("Specifies the number of the subscription.", "Specifies another number.")), man("30", "w1", "c30b"));
+  refreshCodeDerived(dataDir, ["30"]);
+  renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
+  const pg2 = matter(readFileSync(join(contentDir, "objects/page/8060.md"), "utf8"));
+  assert.notEqual(pg2.data.generated.input_hash, hash0);
+  assert.match(pg2.content, /\| General \| No\. \| \[No\.\]\(\.\.\/table\/8057\.md#fields\) \| Specifies another number\. \|/);
+});

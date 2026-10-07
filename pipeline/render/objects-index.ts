@@ -2,7 +2,9 @@
  * Compact object indexes for the site's Cmd+K finder and for agents (D46): data/index/objects.json, one short row per
  * object page, and data/index/fields.json, field name -> the object pages that have a field of that name (from the
  * preferred major's snapshots). Both are plain arrays to keep them small: 16k objects fit in ~1.5 MB, 15k distinct
- * field names in ~1.1 MB. Rewritten only when their content changes.
+ * field names in ~1.1 MB. data/index/field-docs.json is the preferred major's field docs (D65): per table field, the
+ * ToolTip of the page control bound to it, with the page (data/code/field-docs/<major>.json without its inputs stamp).
+ * Rewritten only when their content changes.
  */
 import { relative, resolve } from "node:path";
 import matter from "gray-matter";
@@ -12,6 +14,7 @@ import { objectKey } from "../code/extract.js";
 import { iterSnapshot, snapshotDir } from "../code/job.js";
 import { APPS } from "../code/diff.js";
 import type { Relations } from "../code/relations.js";
+import { loadFieldDocs, type FieldDocs } from "../code/field-docs.js";
 
 /**
  * [page key, type, id, name, app, namespace, obsolete state, introduced major | null, changed-in majors ("29 30"),
@@ -24,7 +27,7 @@ export interface FieldsIndex { schema: "bcobs-fields@1"; major: string | null; c
 export type EventRow = [string, string, string, string | null, [string, string][]];
 export interface EventsIndex { schema: "bcobs-events@1"; major: string | null; count: number; subscriptions: number; rows: EventRow[] }
 
-export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number; events: number } {
+export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number; events: number; field_docs: number } {
   const rows: ObjectRow[] = [];
   const pageOfKey = new Map<string, string>();
   const root = resolve(contentDir, "objects");
@@ -78,5 +81,8 @@ export function renderObjectsIndex(contentDir: string, dataDir: string): { objec
     events.sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
   }
   write("events.json", { schema: "bcobs-events@1", major, count: events.length, subscriptions, rows: events } satisfies EventsIndex);
-  return { objects: rows.length, fields: fields.size, events: events.length };
+  // field docs of the same major (D65), for agents and the MCP next to fields.json
+  const fd = major ? loadFieldDocs(dataDir, major) : null;
+  if (fd) write("field-docs.json", { schema: fd.schema, major: fd.major, stats: fd.stats, tables: fd.tables } satisfies FieldDocs);
+  return { objects: rows.length, fields: fields.size, events: events.length, field_docs: fd?.stats.fields ?? 0 };
 }

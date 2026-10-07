@@ -7,15 +7,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Open specs, not yet implemented (2026-10-07)
 
 - **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
-  PLAN milestone M7. Status: tranches 1, 2, 3 and 4a are on main (2026-10-07 evening), D65 not yet appended. Tranche 1
-  (sections 4.1-4.5: field explanations, hubs joined to their objects, tables inheriting Learn links through their
-  pages, first-party apps in their system), tranche 2 (5.1-5.5: search ranks hubs first, groups results under tabs,
-  path labels in the galaxy panel and the MCP), tranche 3 (Related on every page from `data/links/related.json`, one
-  page per first-party app under `content/apps/`) and tranche 4a (extractor 4 records page controls and actions)
-  each have a deviations section, 8.1 to 8.4. Open: tranche 4b (7.2 projection and 7.3 renderer, after every major
-  is re-extracted at version 4: one `gh workflow run nightly -f pillars=code -f unlimited=true` does all eight code
-  jobs in one run), the open questions listed in 8.1-8.4, and the D65 entry itself. Until the next full nightly the
-  live site still shows the old hubs, no Related block and no app pages.
+  PLAN milestone M7. Status: tranches 1 to 4 are all on `dev/next` (1, 2, 3 and 4a also on main; 4b, field
+  explanations through bound page controls and Fields/Actions on page pages, committed on `dev/next` 2026-10-07, not
+  pushed), D65 not yet appended. Each tranche has a deviations section, 8.1 to 8.5, with its measured numbers.
+  Open: the D65 entry itself (section 12, coverage numbers in 8.5) and the open questions listed in 8.1-8.5. Until
+  the next full nightly the live site still shows the old hubs, no Related block and no app pages.
 
 - **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67, PLAN milestone M9. Status: phase
   0 on main, spike and later phases open, nothing installed. Stefan Maron's

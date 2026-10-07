@@ -19,7 +19,7 @@ test("objects.json has one compact row per object page; fields.json maps field n
   refreshCodeDerived(dataDir, ["29"]);
   renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
   const r = renderObjectsIndex(contentDir, dataDir);
-  assert.deepEqual(r, { objects: 4, fields: 2, events: 1 });
+  assert.deepEqual(r, { objects: 4, fields: 2, events: 1, field_docs: 0 });
   const o = JSON.parse(readFileSync(join(dataDir, "index/objects.json"), "utf8"));
   assert.deepEqual(o.rows.map((x: unknown[]) => x.slice(0, 4)), [["codeunit/80", "codeunit", 80, "Sales-Post"], ["interface/i-price-calc", "interface", null, "I Price Calc"], ["table/18", "table", 18, "Customer"], ["table/36", "table", 36, "Sales Header"]]);
   const e = JSON.parse(readFileSync(join(dataDir, "index/events.json"), "utf8"));

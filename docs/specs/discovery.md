@@ -652,6 +652,57 @@ Open, for the owner: whether `code/bcapps/30` should yield to the backfill (for 
 already have a snapshot after never-extracted ones), since otherwise the BC23-28 history lands only on nights when
 neither BCApps branch moved.
 
+### 8.5 Tranche 4b built, deviations
+
+Built on `dev/next` (2026-10-07), not pushed. `pipeline/code/field-docs.ts` (new) derives
+`data/code/field-docs/<major>.json` (`bcobs-field-docs@1`, `schemas/field-docs.json`) in `refreshCodeDerived`, right
+after the relations it joins through; `objects-index.ts` copies the preferred major's to `data/index/field-docs.json`.
+Table and tableextension Fields fall back to it (`via [Page 8060 "Service Object"]`), pages and page extensions get
+**Fields on this page** and **Actions**, and the object page `input_hash` gains `layout:` (controls and actions) and
+`fd:` (the field docs a table uses). Verified by deriving and rendering from the committed `data/` (every major at
+extractor 4; outputs discarded, no nightly): `Table 8057` (BC29 facts) explains 47 of its 64 fields
+`via [Page 8060 "Service Object"]` (row `No.`: "Specifies the number of Subscription."); 5,958 of 5,997 page pages
+get Fields on this page and 2,827 Actions, 1,591 of 2,130 page extension pages Fields; 7,214 table and tableextension
+rows fall back to a bound control; `validate:content` passes. Checked again after the nightly of 2026-10-07 that
+re-extracted BC30 (`909a88310`): same numbers.
+
+| Table fields explained, BC30 (BC29 within a point) | own ToolTip | + bound control | + Caption |
+|---|---|---|---|
+| W1 (30,774 fields) | 12,962 (42%) | +2,660 → 15,622 (51%) | 18,593 (60%) |
+| first-party apps (23,537) | 1,363 (6%) | +3,880 → 5,243 (22%) | 7,911 (34%) |
+| Subscription Billing (1,068) | 51 (5%) | +860 → 911 (85%) | 923 (86%) |
+
+BC30 projection: 18,978 field controls with a ToolTip on a page whose table resolves; 12,905 bind a field, 2,988 are
+expressions or other records (`SalesLine."No."`, `Format(...)`, matrix arrays), 3,085 name no field (page variables,
+`Rec.SystemCreatedAt`); 9,074 fields in 1,084 tables explained. The file is 1.9 MB per major.
+
+Deviations from 7.2-7.3:
+
+1. **W1 gains 9 points, not ~38.** 7.2 expected ~80%; W1 already carries its ToolTips on table fields, only 31% of its
+   field controls have one (8.4), and the fields still without an explanation are mostly on no page. Subscription
+   Billing lands at 85%, as expected.
+2. **Path** `data/code/field-docs/<major>.json`, not `data/code/<major>/field-docs.json`: next to `relations/` and
+   `deprecations/`, so a major's folder keeps holding only snapshots (several readers list it as country layers).
+   Re-derived when the W1 or apps commit or extractor changes, or `FIELD_DOCS_VERSION`.
+3. **Page extensions count.** Their controls bind to the base page's SourceTable, and tableextension fields sit under
+   the base table, so tableextension pages get the `via Page extension ...` fallback too. A page extension's
+   `modify(X)` ToolTip is not joined (it names a base control, not a field). Ranking: an obsolete or `#if not CLEAN`
+   control or page after a current one, then Card/Document, List, others (no PageType = Card), then pages before page
+   extensions, lowest id, source order.
+4. **Fields on this page** is one table `Group | Control | Shows | ToolTip` with the group printed once per run, not
+   a heading per group; every control kind is listed (part linked when its page resolves, add-in, label, `modifies`);
+   a field control without a ToolTip shows its bound field's, marked `from the table field`. Bound fields link to
+   `table/<id>.md#fields` (the 11.7 fallback). **Actions** is `Group | Action | ToolTip | Runs`, RunObject linked
+   when the object has a page. `&` accelerators are stripped from captions and groups (`&&` reads `&`).
+5. **Extras:** frontmatter `counts.controls` / `counts.actions` (optional in the schema) feed two site stats; the
+   header line shows `captioned "..."` for every object whose Caption differs, not only pages.
+6. **Size:** `content/objects` grows from 107.5 to 125.5 MB of markdown (+17%); a page page roughly triples (Page
+   8060: 4.4 to 14.2 KB). The site build stays at about 1m16s for 28,812 pages.
+
+Open, for the owner: whether the +18 MB of object markdown is acceptable or the Fields table should be capped on
+very large pages; joining `modify(X)` ToolTips through the base page's control; the MCP reading
+`data/index/field-docs.json` (another lane owns `packages/mcp`).
+
 ## 9. Files
 
 | File | Change |

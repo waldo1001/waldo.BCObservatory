@@ -32,6 +32,8 @@ const html = markMembers(trimBody(siteLinks(entry.rendered?.html ?? "", base, `o
 const c = fm.counts ?? {};
 const stats = [
   ...(c.fields ? [{ n: c.fields, label: "fields", href: "#fields" }] : []),
+  ...(c.controls ? [{ n: c.controls, label: "controls", href: "#fields-on-this-page" }] : []),
+  ...(c.actions ? [{ n: c.actions, label: "actions", href: "#actions" }] : []),
   ...(c.procedures ? [{ n: c.procedures, label: "procedures", href: "#procedures" }] : []),
   ...(c.events ? [{ n: c.events, label: "events", href: "#events-published" }] : []),
   ...(fm.links?.learn?.length ? [{ n: fm.links.learn.length, label: "Learn pages", href: (fm.evidence ?? []).some((e: any) => e.kind === "learn") ? "#documented-on-microsoft-learn" : "#pages-and-codeunits-on-this-table" }] : []),

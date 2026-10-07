@@ -5,7 +5,8 @@
  *   preferred major (versions.json `narrative_order`: 29, then 28, then 30) with its members, its life across the
  *   majors, the countries that replace it, the Learn pages naming it (ms.search.form), the topic hubs of those pages,
  *   its relations (D45: tables it relates to and that reference it, pages on it, extensions, event subscribers) and
- *   its deprecations. Fields carry an Explanation (their ToolTip, else their Caption) and structural Notes; a table
+ *   its deprecations. Fields carry an Explanation (their ToolTip, else the ToolTip of a page control bound to them with
+ *   the page named, else their Caption) and structural Notes; pages list their layout controls and actions; a table
  *   inherits the Learn pages and hubs of the pages on it (D65). Facts from the code pillar; nothing machine-written. Country-only objects get no object
  *   page (their ids collide across countries); they are listed on their localization page.
  * - content/localizations/<cc>.md: what a country layer brings in the newest major it has (added, replaced and
@@ -22,7 +23,8 @@ import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
-import { objectKey, toolTipOf, type AlField, type AlObject, type AlProcedure } from "../code/extract.js";
+import { objectKey, toolTipOf, type AlAction, type AlControl, type AlField, type AlObject, type AlProcedure } from "../code/extract.js";
+import { boundField, loadFieldDocs, type FieldDoc, type FieldDocs } from "../code/field-docs.js";
 import { isSkeleton, iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
@@ -73,6 +75,8 @@ export interface ObjectWorld {
   keyByName?: (type: string, name: string) => string | null;
   /** Merged pull requests with a page that touched the object, per page key, newest first (D61). */
   changes?: Map<string, ChangeRef[]>;
+  /** Field docs per major (data/code/field-docs/<major>.json, D65): the ToolTip of the page control bound to a field. */
+  fieldDocs?: Map<string, FieldDocs>;
 }
 
 /** Everything the object pages need, read once. */
@@ -143,7 +147,9 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
   }
   const cbo = changesByObjectPath(dataDir);
   const changes = new Map<string, ChangeRef[]>(exists(cbo) ? Object.entries(readJson<Record<string, unknown>>(cbo)).filter(([k]) => k !== "schema") as [string, ChangeRef[]][] : []);
-  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, countryOnly, changes };
+  const fieldDocs = new Map<string, FieldDocs>();
+  for (const m of majors) { const fd = loadFieldDocs(dataDir, m); if (fd) fieldDocs.set(m, fd); }
+  return { majors, preferred, life: new Map([...life].map(([k, { hash: _h, ...l }]) => [k, l])), replacedIn, docs: loadDocsObjects(dataDir), topicsByUrl, relations, countryOnly, changes, fieldDocs };
 }
 
 const REL_CAP = 50;
@@ -187,6 +193,12 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
   const caption = captionOf(o);
   const relSig = `${relOut.map((e) => `${e.k}>${e.t}:${e.via ?? ""}`).join(",")}|${relIn.map((e) => `${e.k}<${e.s}:${e.via ?? ""}`).join(",")}|${Object.entries(myEvents).map(([n, e]) => `${n}:${e.subs.map((x) => x.s).join("+")}`).join(",")}`;
   const link = (k: string) => { const p = w.pageOf?.(k); return p ? `[${cell(p.title)}](../${p.pk}.md)` : k; };
+  // field docs (D65): a table's fields, or a tableextension's under its base table, explained by bound page controls
+  const docsTable = own ? null : o.type === "table" ? key : o.type === "tableextension" ? relOut.find((e) => e.k === "extends")?.t ?? null : null;
+  const fd = docsTable ? w.fieldDocs?.get(major)?.tables[docsTable] ?? null : null;
+  const fdUsed = fd ? o.fields.map((f) => fd[f.name] ?? null) : [];
+  // a page's layout is not in its object hash (extractor 4, D65): the page re-renders when only its controls change
+  const layoutSig = o.controls || o.actions ? sha256(JSON.stringify([o.controls ?? [], o.actions ?? []])) : "";
   const versions = `BC${life.versions[0]}${life.versions.length > 1 ? `-${life.versions.at(-1)}` : ""}`;
   // our snapshots start at the oldest major: an object already there may be decades old, so "introduced" is unknown
   const sinceOldest = life.versions[0] === w.majors[0];
@@ -202,7 +214,7 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     tags: [o.type, ...(own ? [`${own.cc} layer`] : o.app ? [o.app.toLowerCase()] : [])],
     versions: { introduced: sinceOldest ? null : life.versions[0], last_changed: life.changed.at(-1) ?? null, deprecated: o.obsolete?.tag ?? null },
     review: { state: "unreviewed", by: null, at: null, flags: [] },
-    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}`) },
+    generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(`${o.hash}|${life.versions}|${life.changed}|${countries}|${learnUrls}|${relSig}|${own?.cc ?? ""}${changes.length ? `|${changes.map((c) => `${c.page}:${c.title}`).join(",")}` : ""}${layoutSig ? `|layout:${layoutSig}` : ""}${fdUsed.some(Boolean) ? `|fd:${sha256(JSON.stringify(fdUsed))}` : ""}`) },
     evidence: [{ kind: "code", url: src, title: `${o.file} (${manifest.branch})`, date: null, commit: manifest.commit, t: null, quote: null }, ...docs.map((d) => ({ kind: "learn", url: d.url, title: d.title, date: null, commit: null, t: null, quote: null }))],
     links: {
       learn: learnUrls, objects: own ? [] : w.basePage?.(o) ? [`object/${w.basePage(o)}`] : [], features: [], topics,
@@ -212,19 +224,21 @@ export function renderObjectPage(o: AlObject, w: ObjectWorld, major: string, man
     object_type: o.type, object_id: o.id, name: o.name, ...(caption ? { caption } : {}), namespace: o.namespace, app: o.app, extends: o.extends,
     first_version: life.versions[0], last_version: life.versions.at(-1)!, present_in: life.versions, changed_in: life.changed, source_major: major,
     obsolete: o.obsolete, countries, ms_search_form_ids: docs.map((d) => d.id), ...(own ? { country: own.cc.toUpperCase() } : {}),
-    counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length },
+    counts: { fields: o.fields.length, procedures: o.procedures.length, events: events.length, subscribers: subs.length, ...(o.controls ? { controls: o.controls.length } : {}), ...(o.actions ? { actions: o.actions.length } : {}) },
     relations: { out: relOut.length, referenced_by: refs.length, pages: pagesOn.length, extended_by: extendedBy.length, event_subscribers: subCount },
   };
   validateOrThrow("frontmatter.object", fm, `object page ${key}`);
 
   const lines: string[] = [`# ${title}`, "", `> ${summary}`, "",
-    `${own ? `${own.cc.toUpperCase()} country layer` : o.app ?? "unknown app"}${o.namespace ? ` · ${o.namespace}` : ""} · ${versions} · [source at ${manifest.commit.slice(0, 8)}](${src}) · facts from BC${major}`, "",
+    `${own ? `${own.cc.toUpperCase()} country layer` : o.app ?? "unknown app"}${o.namespace ? ` · ${o.namespace}` : ""}${caption ? ` · captioned "${cell(caption)}"` : ""} · ${versions} · [source at ${manifest.commit.slice(0, 8)}](${src}) · facts from BC${major}`, "",
     ...(own && hasLocalization(own.cc) ? [`An object of the [${own.cc.toUpperCase()} localization](../../localizations/${own.cc}.md), not part of W1.`, ""] : []),
     ...(!own && w.basePage?.(o) ? [`Extends [${cell(o.extends!)}](../${w.basePage(o)}.md).`, ""] : []),
     ...(inherited?.pages.length ? [inheritedLine(inherited.pages, link), ""] : [])];
   const props = KEY_PROPS.filter((p) => o.properties[p] !== undefined);
   if (props.length) lines.push("## Properties", "", "| Property | Value |", "|---|---|", ...props.map((p) => `| ${p} | ${cell(o.properties[p])} |`), "");
-  if (o.fields.length) lines.push(...fieldsSection(o, { link, relOut, keyByName: w.keyByName }), "");
+  if (o.fields.length) lines.push(...fieldsSection(o, { link, relOut, keyByName: w.keyByName, doc: fd ? (n) => fd[n] ?? null : undefined }), "");
+  if (o.controls?.length) lines.push(...controlsSection(o.controls, boundFieldsOf(o, R, w), w), "");
+  if (o.actions?.length) lines.push(...actionsSection(o.actions, link, w), "");
   if (o.keys.length) lines.push("## Keys", "", ...o.keys.map((k) => `- ${cell(k.name)}: ${k.fields.map(cell).join(", ")}${k.clustered ? " (clustered)" : ""}`), "");
   if (o.values.length) lines.push("## Values", "", "| Ordinal | Name | Caption | Notes |", "|---|---|---|---|", ...o.values.map((v) => `| ${v.id} | ${cell(v.name) || "(blank)"} | ${cell(propOf(v.properties, "Caption") ?? "")} | ${v.obsolete ? `obsolete ${v.obsolete.state}${v.obsolete.tag ? ` ${v.obsolete.tag}` : ""}` : ""} |`), "");
   if (events.length) {
@@ -314,13 +328,16 @@ export interface FieldRowCtx {
   /** This object's outgoing relation edges (TableRelation targets resolved by the relations pass, D45). */
   relOut: RelEdge[];
   keyByName?: (type: string, name: string) => string | null;
+  /** The ToolTip of a page control bound to the field, from the field docs of the page's major (D65). */
+  doc?: (fieldName: string) => FieldDoc | null;
 }
 /** One Fields row's Explanation and Notes. `provenance` is null for the field's own ToolTip. */
 export interface FieldRow { explanation: string; provenance: string | null; notes: string[] }
 
 /**
- * Explanation: the field's ToolTip (either spelling, so records extracted before D65 count too); else its Caption when
- * that differs from the name; else an em-dash. Tranche 4 slots the ToolTip of a bound page control in between.
+ * Explanation: the field's ToolTip (either spelling, so records extracted before D65 count too); else the ToolTip of a
+ * page control bound to the field (field docs, provenance `via <the page>`); else its Caption when that differs from
+ * the name; else an em-dash.
  * Notes: obsolete state and CLEAN guards, then TableRelation, FlowField/FlowFilter, enum type, OptionCaption, not
  * editable, NotBlank, AutoIncrement, and a DataClassification that differs from the object's.
  */
@@ -328,8 +345,9 @@ export function fieldRow(f: AlField, o: Pick<AlObject, "properties">, ctx: Field
   const P = (n: string) => propOf(f.properties, n);
   const tip = f.tooltip ?? toolTipOf(f.properties);
   const caption = captionText(P("Caption"));
-  const explanation = tip ?? (caption && caption !== f.name.trim() ? caption : "—");
-  const provenance = tip ? null : explanation !== "—" ? "caption" : null;
+  const doc = tip ? null : ctx.doc?.(f.name) ?? null;
+  const explanation = tip ?? doc?.tooltip ?? (caption && caption !== f.name.trim() ? caption : "—");
+  const provenance = tip ? null : doc ? `via ${ctx.link(doc.page)}` : explanation !== "—" ? "caption" : null;
   const notes: string[] = [];
   if (f.obsolete) notes.push(`obsolete ${f.obsolete.state}${f.obsolete.tag ? ` ${f.obsolete.tag}` : ""}`);
   if (f.clean?.length) notes.push(`#if not ${f.clean.join(", ")}`);
@@ -360,13 +378,83 @@ export function fieldRow(f: AlField, o: Pick<AlObject, "properties">, ctx: Field
 
 /** The Fields section: a one-line legend, then No. | Name | Type | Explanation | Notes. */
 function fieldsSection(o: AlObject, ctx: FieldRowCtx): string[] {
-  const out = ["## Fields", "", "Explanation: the field's ToolTip in the code; without one, its Caption (marked caption) when that differs from the name.", "",
+  const out = ["## Fields", "", "Explanation: the field's ToolTip in the code; without one, the ToolTip of a page control bound to the field (marked via the page); without that, its Caption (marked caption) when that differs from the name.", "",
     "| No. | Name | Type | Explanation | Notes |", "|---|---|---|---|---|"];
   for (const f of o.fields) {
     const r = fieldRow(f, o, ctx);
     out.push(`| ${f.id} | ${cell(f.name)} | ${cell(f.type)} | ${r.explanation === "—" ? "—" : cell(r.explanation)}${r.provenance ? ` <small>${r.provenance}</small>` : ""} | ${r.notes.join("; ")} |`);
   }
   return out;
+}
+
+/** A caption without its `&` accelerator (`&Navigate` → Navigate; `&&` is a literal ampersand). */
+export const stripAccelerator = (s: string) => s.replace(/&(&?)/g, "$1");
+const label = (raw: string | null) => { const c = captionText(raw); return c ? stripAccelerator(c) : null; };
+const memberNotes = (x: { obsolete: AlObject["obsolete"]; clean?: string[] }) => {
+  const n = [...(x.obsolete && x.obsolete.state !== "No" ? [`obsolete ${x.obsolete.state}${x.obsolete.tag ? ` ${x.obsolete.tag}` : ""}`] : []), ...(x.clean?.length ? [`#if not ${x.clean.join(", ")}`] : [])];
+  return n.length ? ` <small>${cell(n.join("; "))}</small>` : "";
+};
+/** The group column: printed on the first row of each run of the same group, so the table reads grouped. */
+function grouped(rows: { group: string | null; cells: string[] }[]): string[] {
+  let prev: string | null | undefined;
+  return rows.map((r) => { const g = r.group === prev ? "" : cell(label(r.group) ?? ""); prev = r.group; return `| ${g} | ${r.cells.join(" | ")} |`; });
+}
+
+/** A page's bound fields: the fields of its SourceTable (a page extension's: its base page's) and of that table's extensions, by lower-cased name. */
+type BoundFields = (name: string) => { field: AlField; holder: string } | null;
+function boundFieldsOf(o: AlObject, R: RelationsView | undefined, w: ObjectWorld): BoundFields {
+  if (!R) return () => null;
+  const key = objectKey(o);
+  const base = o.type === "pageextension" ? R.out.get(key)?.find((e) => e.k === "extends")?.t : key;
+  const table = base ? R.out.get(base)?.find((e) => e.k === "source_table")?.t : undefined;
+  if (!table) return () => null;
+  const map = new Map<string, { field: AlField; holder: string }>();
+  for (const holder of [table, ...(R.in.get(table) ?? []).filter((e) => e.k === "extends").map((e) => e.s)]) {
+    for (const f of w.preferred.get(holder)?.obj.fields ?? []) if (!map.has(f.name.toLowerCase())) map.set(f.name.toLowerCase(), { field: f, holder });
+  }
+  return (name) => map.get(name.toLowerCase()) ?? null;
+}
+
+/** Fields on this page (D65): every layout control in source order, grouped by its container. */
+function controlsSection(controls: AlControl[], bound: BoundFields, w: ObjectWorld): string[] {
+  const rows = controls.map((c) => {
+    const name = label(c.caption) ?? c.name;
+    let shows = "—", tip = c.tooltip ? cell(c.tooltip) : "—";
+    if (c.kind === "field") {
+      const n = boundField(c.source_expr), b = n ? bound(n) : null;
+      const pk = b ? w.pageOf?.(b.holder)?.pk : null;
+      shows = b ? (pk ? `[${cell(b.field.name)}](../${pk}.md#fields)` : cell(b.field.name)) : c.source_expr ? `\`${cell(c.source_expr)}\`` : "—";
+      const own = b && !c.tooltip ? b.field.tooltip ?? toolTipOf(b.field.properties) : null;
+      if (own) tip = `${cell(own)} <small>from the table field</small>`;
+    } else if (c.kind === "part") {
+      const k = c.source_expr ? w.keyByName?.("page", c.source_expr) ?? null : null;
+      const p = k ? w.pageOf?.(k) : null;
+      shows = `part ${p ? `[${cell(p.title)}](../${p.pk}.md)` : cell(c.source_expr ?? "")}`.trim();
+    } else if (c.kind === "usercontrol") shows = `add-in ${cell(c.source_expr ?? "")}`.trim();
+    else if (c.kind === "label") shows = "label";
+    else if (c.kind === "modify") shows = `modifies \`${cell(c.name)}\``;
+    return { group: c.group, cells: [`${cell(name)}${memberNotes(c)}`, shows, tip] };
+  });
+  return ["## Fields on this page", "",
+    "Layout controls in source order, grouped by the container they sit in. Shows: the table field a control is bound to (or its expression as written); ToolTip: the control's own, else the bound field's (marked).", "",
+    "| Group | Control | Shows | ToolTip |", "|---|---|---|---|", ...grouped(rows)];
+}
+
+/** Actions (D65): caption, ToolTip and the object RunObject opens, linked when it has a page here. */
+function actionsSection(actions: AlAction[], link: (k: string) => string, w: ObjectWorld): string[] {
+  const rows = actions.map((a) => {
+    const name = label(a.caption) ?? a.name;
+    let runs = "";
+    if (a.kind === "modify") runs = `modifies \`${cell(a.name)}\``;
+    else if (a.run_object) {
+      const r = a.run_object;
+      const k = r.id !== null ? `${r.type}/${r.id}` : r.name ? w.keyByName?.(r.type, r.name) ?? null : null;
+      const ref = `${TYPE_LABEL[r.type] ?? r.type}${r.id !== null ? ` ${r.id}` : r.name ? ` "${r.name}"` : ""}`;
+      runs = k && w.pageOf?.(k) ? link(k) : r.id === null && !r.name ? cell(propOf(a.properties, "RunObject") ?? ref) : cell(ref);
+    }
+    return { group: a.group, cells: [`${cell(name)}${memberNotes(a)}`, a.tooltip ? cell(a.tooltip) : "—", runs] };
+  });
+  return ["## Actions", "", "| Group | Action | ToolTip | Runs |", "|---|---|---|---|", ...grouped(rows)];
 }
 
 /** What a table inherits from the pages whose SourceTable it is: their Learn pages and the hubs of those pages. */

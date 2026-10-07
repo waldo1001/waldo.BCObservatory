@@ -141,6 +141,14 @@
         },
         "subscribers": {
           "type": "integer"
+        },
+        "controls": {
+          "type": "integer",
+          "description": "pages and page extensions extracted at extractor 4 on (D65): layout controls, listed under Fields on this page"
+        },
+        "actions": {
+          "type": "integer",
+          "description": "pages and page extensions extracted at extractor 4 on (D65): actions, listed under Actions"
         }
       }
     },
