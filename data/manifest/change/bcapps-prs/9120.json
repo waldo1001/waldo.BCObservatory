@@ -6,10 +6,18 @@
   "title": "[Subcontracting] Bug 641399: Move Subcontracting Transfer Orders action out of Entries sub-group",
   "url": "https://github.com/microsoft/BCApps/pull/9120",
   "published_at": "2026-07-09T12:27:45Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:45.362Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
     }
   },
   "input_hash": "1a36ab790ebfd42bc65ae554ab405f44dd3a480b:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 641399 move subcontracting transfer orders action out of entries sub group"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9acd0c8bd8a60b2cc5f5e6d15122c05316b70d6d0a0ae3d3ca129ffb55ef8431"
 }

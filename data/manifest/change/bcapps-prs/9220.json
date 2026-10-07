@@ -6,10 +6,35 @@
   "title": "Backport SL Migration - Snapshot Project Transactions",
   "url": "https://github.com/microsoft/BCApps/pull/9220",
   "published_at": "2026-07-09T14:18:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:37.697Z",
+      "change_class": "code",
+      "files": 25,
+      "al": 25,
+      "objects": 25,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:43.191Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009866
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:43.353Z",
+      "objects": 25,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:43.362Z",
+      "path": "content/changes/bcapps/9220.md"
     }
   },
   "input_hash": "f1c412da2c1c0414c33912299baa9056955a1837:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "backport sl migration snapshot project transactions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83c0d4b1a7e6c5c5ae94bad8fa82b2e107f7f719790d781caec200297580d799"
 }

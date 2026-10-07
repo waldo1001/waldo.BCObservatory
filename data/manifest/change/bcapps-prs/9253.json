@@ -6,10 +6,35 @@
   "title": "[Shopify] Disambiguate Shopify timestamp field captions and tooltips",
   "url": "https://github.com/microsoft/BCApps/pull/9253",
   "published_at": "2026-07-09T14:36:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:36.242Z",
+      "change_class": "code",
+      "files": 24,
+      "al": 24,
+      "objects": 24,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:41.482Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005338
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:41.679Z",
+      "objects": 24,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:41.687Z",
+      "path": "content/changes/bcapps/9253.md"
     }
   },
   "input_hash": "fb0080781d7b31388759e9355b415f6d8d712eed:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify disambiguate shopify timestamp field captions and tooltips"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "21718a06fdc8c28f55a7f9f0651df0bf512bf5f5a98135b9856b706ec76e38f7"
 }

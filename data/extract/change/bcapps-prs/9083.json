@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9083",
+  "number": 9083,
+  "title": "Bug 639857: Project journal ignores task-level Bill-to Customer for pricing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects",
+    "sales"
+  ],
+  "summary": "Project journal pricing now respects task-level bill-to customer settings when multiple customers are enabled, matching the behavior of project planning lines.",
+  "key_points": [
+    "Job Journal Line price calculation now checks task billing method",
+    "Uses task-level bill-to customer instead of only job-level when multiple customers feature is active",
+    "Aligns journal pricing logic with planning line pricing logic",
+    "Test coverage added for multiple customer billing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "when Task Billing Method is not \"One customer\", use the Job Task Bill-to Customer/Contact",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003216,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9188",
+  "number": 9188,
+  "title": "[Shopify] Create BC customer on order import when Shopify customer has no default address",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now handles customer sync when no default address is set by falling back to the first available address instead of silently mapping to the default customer or erroring, ensuring orders are properly linked to newly created BC customers.",
+  "key_points": [
+    "Shopify customer with no default address (`defaultAddress = null`) now falls back to the first available address instead of failing silently or with an error",
+    "Customer import (CU 30113) now creates and links a BC customer; the customer record is re-read so the mapping returns the correct customer number instead of blank",
+    "Customer update (CU 30124) now uses an available address instead of erroring; only errors when no address exists at all",
+    "Renamed error label from `NoDefaltAddressErr` to `NoAddressErr` to reflect corrected behavior and improve clarity",
+    "Added regression tests confirming the fix works and guards against future breakage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004517,
+    "changes_in_call": 1
+  }
+}

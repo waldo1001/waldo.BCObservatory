@@ -6,7 +6,7 @@
   "title": "[E-Document] Show PDF preview factbox on purchase invoice pages",
   "url": "https://github.com/microsoft/BCApps/pull/9145",
   "published_at": "2026-07-09T16:05:49Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.004672
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:35.850Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:35.856Z",
+      "path": "content/changes/bcapps/9145.md"
     }
   },
   "input_hash": "5d4aa63fe672c18aa1e9f78de90173abf0abadbe:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "354b079634be7434ef0c99821fc9beff5e21ae1afb0af0f2e1802977c2febb63"
+  "output_hash": "c3ae1aa97894b6ce52bd519d5b6609af24ee9cd00315e62440b770049ddc4c49"
 }

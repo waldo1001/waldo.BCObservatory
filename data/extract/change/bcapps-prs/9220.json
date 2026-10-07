@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9220",
+  "number": 9220,
+  "title": "Backport SL Migration - Snapshot Project Transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Support for snapshotting and migrating historical Dynamics SL project transactions is added to the SL historical data app, including new tables, viewing pages, and configuration options.",
+  "key_points": [
+    "New tables store migrated SL project transaction data (PJTran, PJTranEx, PJProj, PJEmploy) in both source and historical formats",
+    "Pages added for viewing batch entries and project transaction details with project card and list extensions",
+    "Configuration field and migration logic introduced but not yet connected to wizard pages or orchestration",
+    "Permission sets updated to allow access to the new objects across all SL migration role sets",
+    "Backports functionality from NAV PR with follow-up wiring deferred"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "projects"
+  ],
+  "quote": "Adds support for snapshotting/migrating historical Dynamics SL project transactions into the SL historical data app, with a new configuration toggle and viewing pages.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009866,
+    "changes_in_call": 1
+  }
+}

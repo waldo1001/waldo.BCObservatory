@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8051",
+  "number": 8051,
+  "title": "[Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Edit in Excel codeunit now exposes a public procedure for OData object name conversion and adds an event for filtering page control fields before generating workbooks, enabling other apps to integrate with Edit in Excel without duplicating logic.",
+  "key_points": [
+    "Exposes ExternalizeODataObjectName as public procedure for external apps to convert field and service names to OData format",
+    "Adds OnPageControlFieldFilterBeforeFindSetInSetupFieldColumnBindings event to allow subscribers to filter or reorder fields in workbooks",
+    "Enables integration with Edit in Excel without forking internal conversion logic",
+    "Allows callers to honor user personalization when determining which fields appear in the workbook",
+    "Tests added to verify public wrapper round-trip and event invocation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003841,
+    "changes_in_call": 1
+  }
+}

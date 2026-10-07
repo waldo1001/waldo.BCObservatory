@@ -6,10 +6,35 @@
   "title": "(Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore",
   "url": "https://github.com/microsoft/BCApps/pull/9005",
   "published_at": "2026-07-09T14:04:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:37.477Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:42.397Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004121
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:42.591Z",
+      "objects": 2,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:42.596Z",
+      "path": "content/changes/bcapps/9005.md"
     }
   },
   "input_hash": "c8e36d6d4df48750cfcf93c3f0530e5f33eb36c9:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 641089 guard item ledger value entry no allocation in item jnl post line with commitbehavior ignore"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "28b4f67877ea5ac361a2af7042aafebde1d17b808cca9db95a62b0d98ea304bd"
 }

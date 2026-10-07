@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Bug 641405: Production Order actions in ILE page not clickable for transfer lines",
   "url": "https://github.com/microsoft/BCApps/pull/9121",
   "published_at": "2026-07-09T13:51:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:38.630Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:43.824Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003752
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:44.058Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:44.064Z",
+      "path": "content/changes/bcapps/9121.md"
     }
   },
   "input_hash": "3a179e668a0f6256c0a45506b487fc803b951e4a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 641405 production order actions in ile page not clickable for transfer lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6bc5b81c647d1cff94987a494628c784a921e48c194783b703816f0bfda624a7"
 }

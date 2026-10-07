@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9121",
+  "number": 9121,
+  "title": "[Subcontracting] Bug 641405: Production Order actions in ILE page not clickable for transfer lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production Order, Routing, and Components actions on the Item Ledger Entries page are now clickable for subcontracting transfer-type items by reading the production order from the Subc. Prod. Order fields when the base Order fields point to a transfer order instead.",
+  "key_points": [
+    "Actions are now enabled when Subc. Prod. Order No. is set, not just when base Order No. is a production order",
+    "SetProdOrderInformationByVariant resolves production order from Subc. Prod. Order fields as a fallback",
+    "Fixes greyed-out actions for transfer-type subcontracting Item Ledger Entries",
+    "Test coverage added for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003752,
+    "changes_in_call": 1
+  }
+}

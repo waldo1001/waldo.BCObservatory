@@ -1,0 +1,113 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9112,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9112",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T12:27:45Z",
+  "merge_commit_sha": "a640b3d99b879b456c53a8c49e7df2abcad49610",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Skip refund credit memo while transaction is pending",
+  "body_hash": "d579ebe1f7c1d60548216feb028c35e00730391e23cad2e3dd6735e7e26469e7",
+  "fixes_issues": [],
+  "work_items": [
+    640432
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Codeunits/ShpfyRefundsAPI.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyRetRefProcCrMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Transactions/Tables/ShpfyOrderTransaction.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundTest.Codeunit.al",
+      "status": "modified",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundsHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 141,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Codeunits/ShpfyRefundsAPI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30228",
+        "type": "codeunit",
+        "id": 30228,
+        "name": "Shpfy Refunds API",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30228"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyRetRefProcCrMemo.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30243",
+        "type": "codeunit",
+        "id": 30243,
+        "name": "Shpfy RetRefProc Cr.Memo",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30243"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Transactions/Tables/ShpfyOrderTransaction.Table.al",
+        "status": "modified",
+        "key": "table/30133",
+        "type": "table",
+        "id": 30133,
+        "name": "Shpfy Order Transaction",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30133"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

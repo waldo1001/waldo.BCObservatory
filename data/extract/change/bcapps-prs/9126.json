@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9126",
+  "number": 9126,
+  "title": "[Shopify] Base price-sync bulk threshold on changed price count",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Product price synchronization with Shopify now triggers bulk operations based on the count of changed variants rather than total mapped products, improving efficiency when few prices change in large catalogs.",
+  "key_points": [
+    "Price sync bulk operation threshold now counts actual changed variants instead of total mapped products",
+    "UpdateProductPrice accumulates per-variant mutations and uses GraphQueryList.Count() to determine real change count",
+    "Individual synchronous mutations are sent when changes are below the 100-variant threshold instead of bulk operations",
+    "Synchronous send removed from TryFunction to enable request logging and authoritative updatedAt tracking",
+    "New unit test validates that few price changes use individual synchronous mutations without bulk operations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Decide based on the actual number of changed variants instead",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003705,
+    "changes_in_call": 1
+  }
+}

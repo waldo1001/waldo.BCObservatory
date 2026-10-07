@@ -6,10 +6,35 @@
   "title": "Bug 639857: Project journal ignores task-level Bill-to Customer for pricing",
   "url": "https://github.com/microsoft/BCApps/pull/9083",
   "published_at": "2026-07-09T10:52:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:46.723Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:52.744Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003216
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:52.958Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:52.963Z",
+      "path": "content/changes/bcapps/9083.md"
     }
   },
   "input_hash": "5ee64fba67e1188ab2364215e9b6901bc18dc657:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 639857 project journal ignores task level bill to customer for pricing"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3229cf73d485bcd133b2ab907ec128986ec44614cda65edd35cea0098539b4aa"
 }

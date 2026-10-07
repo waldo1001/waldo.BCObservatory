@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9053",
+  "number": 9053,
+  "title": "[ALAppExtensions #30245][W1][Report][1701][Deferral Summary - Sales] Add integration event OnBeforeReturnSalesDocTypeString in ReturnSalesDocTypeString Procedure",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "An integration event was added to the ReturnSalesDocTypeString procedure in report 1701 so that extensions can override the document type text shown in the Deferral Summary - Sales report.",
+  "key_points": [
+    "New IsHandled-style event allows subscribers to replace hardcoded document type text",
+    "Procedure is local with case statement mapping each type to text",
+    "Default behavior unchanged when no subscriber handles the event",
+    "Named return parameter added for clean event override capability",
+    "Fixes issue AB#639936"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Adds an IsHandled-style event to `ReturnSalesDocTypeString` so extensions can replace the document type text the report shows.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003585,
+    "changes_in_call": 1
+  }
+}

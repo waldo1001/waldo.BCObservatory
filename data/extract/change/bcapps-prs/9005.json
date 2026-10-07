@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9005",
+  "number": 9005,
+  "title": "(Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item journal posting now prevents duplicate-key errors in concurrent scenarios by wrapping split posting in a commit-behavior guard frame, with an event for callers that need commits honored.",
+  "key_points": [
+    "Entry number allocation for Item Ledger and Value Entries is protected by CommitBehavior::Ignore guard",
+    "OnSetCommitBehavior event allows subscribers to opt out and restore legacy commit behavior if needed",
+    "Pattern mirrors existing guard in General Journal posting",
+    "Applied across all regional layers (W1, APAC, CH, ES, IT, RU)",
+    "Two tests verify commit suppression and opt-out behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004121,
+    "changes_in_call": 1
+  }
+}

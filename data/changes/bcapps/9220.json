@@ -1,0 +1,496 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9220,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9220",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T14:18:40Z",
+  "merge_commit_sha": "f1c412da2c1c0414c33912299baa9056955a1837",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "Backport SL Migration - Snapshot Project Transactions",
+  "body_hash": "2007c2c93583bc5097418e0ba5eef2a5090e791da5c44aa8d68998003146b5f0",
+  "fixes_issues": [],
+  "work_items": [
+    639862
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365BasicExt.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365FullAccessExt.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLHistoricalQuerys.permissionset.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Codeunits/SLHistMigrationStatusMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Enums/SLHistMigrationStepType.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/PageExt/SLHistProjectCard.PageExt.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/PageExt/SLHistProjectList.PageExt.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Pages/SLHistBatchEntries.Page.al",
+      "status": "added",
+      "additions": 140,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Pages/SLHistPJTranEntries.Page.al",
+      "status": "added",
+      "additions": 703,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJEmploy.Table.al",
+      "status": "added",
+      "additions": 344,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJProj.Table.al",
+      "status": "added",
+      "additions": 447,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJTran.Table.al",
+      "status": "added",
+      "additions": 342,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJTranEx.Table.al",
+      "status": "added",
+      "additions": 156,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPJTran.Table.al",
+      "status": "added",
+      "additions": 343,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPJTranEx.Table.al",
+      "status": "added",
+      "additions": 157,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPopulateHistTables.Codeunit.al",
+      "status": "modified",
+      "additions": 147,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICISVMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365TEAMMEMBERMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLINTELLIGENTCLOUDMSL.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/codeunits/SLHybridWizard.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridSL/app/src/tables/SLCompanyAdditionalSettings.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 25,
+    "additions": 2937,
+    "deletions": 16,
+    "al": 25
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365BasicExt.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/42800",
+        "type": "permissionsetextension",
+        "id": 42800,
+        "name": "SL D365 Basic Ext.",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionsetextension/42800"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLD365FullAccessExt.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/42801",
+        "type": "permissionsetextension",
+        "id": 42801,
+        "name": "SL D365 Full Access Ext.",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionsetextension/42801"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/Permissions/SLHistoricalQuerys.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/42801",
+        "type": "permissionset",
+        "id": 42801,
+        "name": "SL Historical Querys",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "permissionset/42801"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Codeunits/SLHistMigrationStatusMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/42800",
+        "type": "codeunit",
+        "id": 42800,
+        "name": "SL Hist. Migration Status Mgmt",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "codeunit/42800"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Enums/SLHistMigrationStepType.Enum.al",
+        "status": "modified",
+        "key": "enum/42800",
+        "type": "enum",
+        "id": 42800,
+        "name": "SL Hist. Migration Step Type",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "enum/42800"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/PageExt/SLHistProjectCard.PageExt.al",
+        "status": "added",
+        "key": "pageextension/42807",
+        "type": "pageextension",
+        "id": 42807,
+        "name": "SL Hist. Project Card",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "pageextension/42807"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/PageExt/SLHistProjectList.PageExt.al",
+        "status": "added",
+        "key": "pageextension/42806",
+        "type": "pageextension",
+        "id": 42806,
+        "name": "SL Hist. Project List",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "pageextension/42806"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Pages/SLHistBatchEntries.Page.al",
+        "status": "added",
+        "key": "page/42803",
+        "type": "page",
+        "id": 42803,
+        "name": "SL Hist. Batch Entries",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "page/42803"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/Pages/SLHistPJTranEntries.Page.al",
+        "status": "added",
+        "key": "page/42804",
+        "type": "page",
+        "id": 42804,
+        "name": "SL Hist. PJTran Entries",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "page/42804"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJEmploy.Table.al",
+        "status": "added",
+        "key": "table/42833",
+        "type": "table",
+        "id": 42833,
+        "name": "SL Hist. PJEmploy",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "table/42833"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJProj.Table.al",
+        "status": "added",
+        "key": "table/42832",
+        "type": "table",
+        "id": 42832,
+        "name": "SL Hist. PJProj",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "table/42832"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJTran.Table.al",
+        "status": "added",
+        "key": "table/42830",
+        "type": "table",
+        "id": 42830,
+        "name": "SL Hist. PJTran",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "table/42830"
+      },
+      {
+        "path": "src/Apps/W1/DynamicsSLHistoricalData/app/src/tables/SLHistPJTranEx.Table.al",
+        "status": "added",
+        "key": "table/42831",
+        "type": "table",
+        "id": 42831,
+        "name": "SL Hist. PJTranEx",
+        "app": "DynamicsSLHistoricalData",
+        "cc": "w1",
+        "page": "table/42831"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPJTran.Table.al",
+        "status": "added",
+        "key": "table/47105",
+        "type": "table",
+        "id": 47105,
+        "name": "SL PJTran",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "table/47105"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPJTranEx.Table.al",
+        "status": "added",
+        "key": "table/47106",
+        "type": "table",
+        "id": 47106,
+        "name": "SL PJTranEx",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "table/47106"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Migration/History/SLPopulateHistTables.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/47025",
+        "type": "codeunit",
+        "id": 47025,
+        "name": "SL Populate Hist. Tables",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "codeunit/47025"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICISVMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47002",
+        "type": "permissionsetextension",
+        "id": 47002,
+        "name": "SLD365 BASIC ISV - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47002"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365BASICMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47001",
+        "type": "permissionsetextension",
+        "id": 47001,
+        "name": "SLD365 BASIC - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47001"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLD365TEAMMEMBERMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47003",
+        "type": "permissionsetextension",
+        "id": 47003,
+        "name": "SLD365 TEAM MEMBER - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47003"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLINTELLIGENTCLOUDMSL.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/47000",
+        "type": "permissionsetextension",
+        "id": 47000,
+        "name": "SLINTELLIGENT CLOUD - MSL",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionsetextension/47000"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47004",
+        "type": "permissionset",
+        "id": 47004,
+        "name": "SL Migration - Edit",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47004"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47005",
+        "type": "permissionset",
+        "id": 47005,
+        "name": "SL Migration-Objects",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47005"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/Permissions/SLMigrationRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/47006",
+        "type": "permissionset",
+        "id": 47006,
+        "name": "SL Migration - Read",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "permissionset/47006"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/codeunits/SLHybridWizard.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/47012",
+        "type": "codeunit",
+        "id": 47012,
+        "name": "SL Hybrid Wizard",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "codeunit/47012"
+      },
+      {
+        "path": "src/Apps/W1/HybridSL/app/src/tables/SLCompanyAdditionalSettings.Table.al",
+        "status": "modified",
+        "key": "table/47061",
+        "type": "table",
+        "id": 47061,
+        "name": "SL Company Additional Settings",
+        "app": "HybridSL",
+        "cc": "w1",
+        "page": "table/47061"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "DynamicsSLHistoricalData",
+    "HybridSL"
+  ]
+}

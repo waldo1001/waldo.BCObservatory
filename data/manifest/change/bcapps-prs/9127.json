@@ -6,10 +6,18 @@
   "title": "Add Dataverse Cloud endpoints override for sovereign clouds",
   "url": "https://github.com/microsoft/BCApps/pull/9127",
   "published_at": "2026-07-09T12:27:45Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:47.274Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
     }
   },
   "input_hash": "0c4c914702599e4dfdf852883f93324b1b675167:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add dataverse cloud endpoints override for sovereign clouds"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e21b67f256b96be2cdbe4b3a8589e8abee3827057e429f5935af00c66c7fca49"
 }

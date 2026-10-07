@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9253",
+  "number": 9253,
+  "title": "[Shopify] Disambiguate Shopify timestamp field captions and tooltips",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify timestamp field captions and tooltips are now clearly marked with a (Shopify) suffix and updated references to improve disambiguation from Business Central's system auditing fields.",
+  "key_points": [
+    "Added (Shopify) suffix to 20 timestamp field captions across 11 tables in the Shopify connector",
+    "Updated page tooltips to mention 'in Shopify' as the data source",
+    "Fixed caption bug on Shpfy Variant CreatedAt field and typo in refund tooltips",
+    "Corrected misleading wording on Order Transaction Created At tooltip",
+    "No schema, logic, API changes or breaking changes; display-only modifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005338,
+    "changes_in_call": 1
+  }
+}

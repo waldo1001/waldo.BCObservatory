@@ -6,10 +6,35 @@
   "title": "Bug 640321: Blanket Purch. Order to Order drops extended text for later items",
   "url": "https://github.com/microsoft/BCApps/pull/9084",
   "published_at": "2026-07-09T12:27:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:43.779Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:48.921Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003617
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:49.118Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:49.124Z",
+      "path": "content/changes/bcapps/9084.md"
     }
   },
   "input_hash": "a3196f625c7a132b53e8e2f5be357d37a8d421ce:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 640321 blanket purch order to order drops extended text for later items"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a8015725b79171536ec58f3faa5dc23bf528b72852983a2fe38c4f616889178"
 }

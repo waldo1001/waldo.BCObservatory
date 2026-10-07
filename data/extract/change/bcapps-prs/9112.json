@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9112",
+  "number": 9112,
+  "title": "[Shopify] Skip refund credit memo while transaction is pending",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify refund processing now skips credit memo creation when the refund transaction is still pending, preventing financially invalid documents with zero totals. The refund is retried on the next sync once the transaction succeeds.",
+  "key_points": [
+    "Added internal helper to detect pending refund transactions",
+    "Manual credit memo creation path throws an error if transaction is pending",
+    "Automatic sync path silently skips processing until transaction succeeds",
+    "Unprocessed refunds are retried on every sync cycle",
+    "Prevents credit memos with incorrect zero totals when Shopify's totalRefundedSet returns 0"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Block credit memo / return order creation while the refund still has a pending transaction",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004047,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9253,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9253",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T14:36:17Z",
+  "merge_commit_sha": "fb0080781d7b31388759e9355b415f6d8d712eed",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Disambiguate Shopify timestamp field captions and tooltips",
+  "body_hash": "b20d7400607ef80734140092061ebef7424c6028c5dfbb065a6f2e6e28912b47",
+  "fixes_issues": [],
+  "work_items": [
+    641693
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Companies/Tables/ShpfyCompany.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Customers/Tables/ShpfyCustomer.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Gift Cards/Pages/ShpfyGiftCardTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillment.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillments.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyFulFillmentOrderHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyOrderFulfillment.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefund.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefunds.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Tables/ShpfyRefundHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrder.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrders.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrdersToImport.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Payments/Pages/ShpfyPaymentTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Payments/Tables/ShpfyPaymentTransaction.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Pages/ShpfyProducts.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Pages/ShpfyVariants.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyInventoryItem.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyProduct.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyVariant.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Transactions/Pages/ShpfyOrderTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Transactions/Pages/ShpfyTransactions.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Transactions/Tables/ShpfyOrderTransaction.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 24,
+    "additions": 37,
+    "deletions": 37,
+    "al": 24
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Companies/Tables/ShpfyCompany.Table.al",
+        "status": "modified",
+        "key": "table/30150",
+        "type": "table",
+        "id": 30150,
+        "name": "Shpfy Company",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30150"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Customers/Tables/ShpfyCustomer.Table.al",
+        "status": "modified",
+        "key": "table/30105",
+        "type": "table",
+        "id": 30105,
+        "name": "Shpfy Customer",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30105"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Gift Cards/Pages/ShpfyGiftCardTransactions.Page.al",
+        "status": "modified",
+        "key": "page/30111",
+        "type": "page",
+        "id": 30111,
+        "name": "Shpfy Gift Card Transactions",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30111"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillment.Page.al",
+        "status": "modified",
+        "key": "page/30153",
+        "type": "page",
+        "id": 30153,
+        "name": "Shpfy Order Fulfillment",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30153"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Pages/ShpfyOrderFulfillments.Page.al",
+        "status": "modified",
+        "key": "page/30112",
+        "type": "page",
+        "id": 30112,
+        "name": "Shpfy Order Fulfillments",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30112"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyFulFillmentOrderHeader.Table.al",
+        "status": "modified",
+        "key": "table/30143",
+        "type": "table",
+        "id": 30143,
+        "name": "Shpfy FulFillment Order Header",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30143"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Fulfillments/Tables/ShpfyOrderFulfillment.Table.al",
+        "status": "modified",
+        "key": "table/30111",
+        "type": "table",
+        "id": 30111,
+        "name": "Shpfy Order Fulfillment",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30111"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefund.Page.al",
+        "status": "modified",
+        "key": "page/30145",
+        "type": "page",
+        "id": 30145,
+        "name": "Shpfy Refund",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30145"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Pages/ShpfyRefunds.Page.al",
+        "status": "modified",
+        "key": "page/30147",
+        "type": "page",
+        "id": 30147,
+        "name": "Shpfy Refunds",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30147"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Tables/ShpfyRefundHeader.Table.al",
+        "status": "modified",
+        "key": "table/30142",
+        "type": "table",
+        "id": 30142,
+        "name": "Shpfy Refund Header",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30142"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrder.Page.al",
+        "status": "modified",
+        "key": "page/30113",
+        "type": "page",
+        "id": 30113,
+        "name": "Shpfy Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30113"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrders.Page.al",
+        "status": "modified",
+        "key": "page/30115",
+        "type": "page",
+        "id": 30115,
+        "name": "Shpfy Orders",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30115"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrdersToImport.Page.al",
+        "status": "modified",
+        "key": "page/30121",
+        "type": "page",
+        "id": 30121,
+        "name": "Shpfy Orders to Import",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30121"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderHeader.Table.al",
+        "status": "modified",
+        "key": "table/30118",
+        "type": "table",
+        "id": 30118,
+        "name": "Shpfy Order Header",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30118"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Payments/Pages/ShpfyPaymentTransactions.Page.al",
+        "status": "modified",
+        "key": "page/30124",
+        "type": "page",
+        "id": 30124,
+        "name": "Shpfy Payment Transactions",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30124"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Payments/Tables/ShpfyPaymentTransaction.Table.al",
+        "status": "modified",
+        "key": "table/30124",
+        "type": "table",
+        "id": 30124,
+        "name": "Shpfy Payment Transaction",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30124"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Pages/ShpfyProducts.Page.al",
+        "status": "modified",
+        "key": "page/30126",
+        "type": "page",
+        "id": 30126,
+        "name": "Shpfy Products",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30126"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Pages/ShpfyVariants.Page.al",
+        "status": "modified",
+        "key": "page/30127",
+        "type": "page",
+        "id": 30127,
+        "name": "Shpfy Variants",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30127"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyInventoryItem.Table.al",
+        "status": "modified",
+        "key": "table/30126",
+        "type": "table",
+        "id": 30126,
+        "name": "Shpfy Inventory Item",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30126"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyProduct.Table.al",
+        "status": "modified",
+        "key": "table/30127",
+        "type": "table",
+        "id": 30127,
+        "name": "Shpfy Product",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30127"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Tables/ShpfyVariant.Table.al",
+        "status": "modified",
+        "key": "table/30129",
+        "type": "table",
+        "id": 30129,
+        "name": "Shpfy Variant",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30129"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Transactions/Pages/ShpfyOrderTransactions.Page.al",
+        "status": "modified",
+        "key": "page/30131",
+        "type": "page",
+        "id": 30131,
+        "name": "Shpfy Order Transactions",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30131"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Transactions/Pages/ShpfyTransactions.Page.al",
+        "status": "modified",
+        "key": "page/30134",
+        "type": "page",
+        "id": 30134,
+        "name": "Shpfy Transactions",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30134"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Transactions/Tables/ShpfyOrderTransaction.Table.al",
+        "status": "modified",
+        "key": "table/30133",
+        "type": "table",
+        "id": 30133,
+        "name": "Shpfy Order Transaction",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30133"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

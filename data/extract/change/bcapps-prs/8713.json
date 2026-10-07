@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8713",
+  "number": 8713,
+  "title": "[Shopify] Expose Product facade procedures for Add to Shopify parity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Three new public procedures are added to the Shopify Product facade to enable partners to reproduce the native Add to Shopify flow when extending the connector, including shop confirmation, attribute compatibility checking, and product URL retrieval.",
+  "key_points": [
+    "ConfirmAddItemToShopify exposes shop confirmation and multi-shop selection",
+    "CheckItemAttributesCompatibleForProductOptions validates item attributes for Shopify product options",
+    "GetProductUrl retrieves the URL for an item and shop combination",
+    "Facade delegates to existing internal implementations without changing them",
+    "Enables partner extensions to match the native Add to Shopify action behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004152,
+    "changes_in_call": 1
+  }
+}

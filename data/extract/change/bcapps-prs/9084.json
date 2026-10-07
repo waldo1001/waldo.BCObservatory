@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9084",
+  "number": 9084,
+  "title": "Bug 640321: Blanket Purch. Order to Order drops extended text for later items",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixes a bug where extended text lines are dropped when converting blanket purchase orders to regular orders if parent items end up on different line numbers. The fix remaps attached line references before insertion.",
+  "key_points": [
+    "Extended text lines were being skipped during blanket-to-order conversion when parent items moved to different line numbers",
+    "Added RemapAttachedToLineNo function to rewrite line number references before insertion checks",
+    "Solution mirrors an existing fix on the sales side",
+    "Includes test coverage for the scenario",
+    "Changes propagated across IT, NA, and W1 layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003617,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Bug 631472: Cost Shares Breakdown (WIP) does not filter by Item",
   "url": "https://github.com/microsoft/BCApps/pull/9079",
   "published_at": "2026-07-09T12:48:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:39.761Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:44.544Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003383
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:44.706Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:44.717Z",
+      "path": "content/changes/bcapps/9079.md"
     }
   },
   "input_hash": "12c22a51050426ebdf941c332b24210fe6842cb1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 631472 cost shares breakdown wip does not filter by item"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "39cce65f5376319936664269fe201984826324dfb14fa543968a1a072a0642af"
 }

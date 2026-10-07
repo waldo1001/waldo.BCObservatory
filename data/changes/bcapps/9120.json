@@ -1,0 +1,119 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9120,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9120",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T12:27:45Z",
+  "merge_commit_sha": "1a36ab790ebfd42bc65ae554ab405f44dd3a480b",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 641399: Move Subcontracting Transfer Orders action out of Entries sub-group",
+  "body_hash": "57cce66b2fa8a9cad52de3e9ac1e27ab716acbd0716d823462734db229e6d4ab",
+  "fixes_issues": [],
+  "work_items": [
+    641399
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcFinishedProdOrder.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcFinishedProdOrders.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRelProdOrder.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRelProdOrders.PageExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 12,
+    "deletions": 12,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcFinishedProdOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20548",
+        "type": "pageextension",
+        "id": 20548,
+        "name": "Subc. Finished Prod. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20548"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcFinishedProdOrders.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20543",
+        "type": "pageextension",
+        "id": 20543,
+        "name": "Subc. Finished Prod. Orders",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20543"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRelProdOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20504",
+        "type": "pageextension",
+        "id": 20504,
+        "name": "Subc. Rel. Prod. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20504"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRelProdOrders.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20505",
+        "type": "pageextension",
+        "id": 20505,
+        "name": "Subc. Rel. Prod. Orders",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20505"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

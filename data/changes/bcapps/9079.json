@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9079,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9079",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T12:48:01Z",
+  "merge_commit_sha": "12c22a51050426ebdf941c332b24210fe6842cb1",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 631472: Cost Shares Breakdown (WIP) does not filter by Item",
+  "body_hash": "41d35102c2fcb40e574f24cdafdde2f3cd18e3a535a6f0ead401aeb6436787b9",
+  "fixes_issues": [],
+  "work_items": [
+    631472
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CostSharesBreakdown.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryReportsIV.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 67,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CostSharesBreakdown.Report.al",
+        "status": "modified",
+        "key": "report/5848",
+        "type": "report",
+        "id": 5848,
+        "name": "Cost Shares Breakdown",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5848"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
