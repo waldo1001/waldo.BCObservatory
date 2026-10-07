@@ -1,0 +1,26 @@
+{
+  "video_id": "IAacWsvav1E",
+  "item_id": "video/yt-microsoft/IAacWsvav1E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 3 over-generalized. The transcript says only that certain indexes, such as the unique system ID index, cannot be turned off, not that every unique index is blocked.",
+    "Key point 4 said disabled indexes are queued. In the transcript, enabling an index (key four, created disabled) is what gets queued for the next maintenance window in SaaS. Locally in Docker or on-prem it happens immediately.",
+    "All six quotes are verbatim (one crosses a segment boundary). Added a quote about the maintenance-window queueing.",
+    "Feature statuses left as unclear. The transcript gives no explicit preview or GA statement."
+  ],
+  "input_hash": "d894d6f779c644ef6b47bd852985d3ff1082fcd48e5b683b17cae6729d4009a9",
+  "by": "opus",
+  "at": "2026-10-07T22:48:51.255Z",
+  "applied": [
+    "quote at 316s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.092565
+  }
+}

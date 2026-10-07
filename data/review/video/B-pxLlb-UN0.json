@@ -1,0 +1,25 @@
+{
+  "video_id": "B-pxLlb-UN0",
+  "item_id": "video/yt-microsoft/B-pxLlb-UN0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary lists separate product and price updates as a change. The transcript calls this an existing setting ('do you know this setting'); the new part is that unit cost is now included in price sync. I rewrote the summary so it is not presented as new.",
+    "The transcript does not state a release status for any feature, so all statuses stay unclear.",
+    "All 7 quotes match the transcript word for word. The key points are supported, including the April upgrade advice, the manual change needed for upgraded stores, and the 2000-variant support.",
+    "The transcript says 'In January' and 'valid till end of December 2026'. Reading this as the January 2026 API version is a reasonable inference."
+  ],
+  "input_hash": "90cea9822da78464f0c15fa6b7be13dc5ab075cf022854e16de337fe18f896d3",
+  "by": "opus",
+  "at": "2026-10-07T22:49:30.530Z",
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08421300000000001
+  }
+}

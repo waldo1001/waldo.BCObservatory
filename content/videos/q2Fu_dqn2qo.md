@@ -17,12 +17,12 @@ tags:
   - demo tool
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:36.253Z"
   flags: []
 generated:
-  at: "2026-10-06T17:44:14.874Z"
+  at: "2026-10-07T22:49:36.290Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,6 +43,13 @@ evidence:
     commit: null
     t: 26
     quote: we are have added demo data across fixed assets, sales, purchasing, and subscription billing
+  - kind: video
+    url: https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=39s
+    title: "What's New: Enhanced Demo Data (2026 release wave 1)"
+    date: "2026-04-01T12:00:57.000Z"
+    commit: null
+    t: 39
+    quote: Everything by the way is part of the demo data control tool under analytics. So you just install that
   - kind: video
     url: https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=52s
     title: "What's New: Enhanced Demo Data (2026 release wave 1)"
@@ -137,11 +144,6 @@ features:
     t: 137
     verified: false
     status_source: video
-  - name: Analysis Mode on Lists
-    status: unclear
-    t: 160
-    verified: false
-    status_source: video
   - name: Demo Data Control Tool
     status: unclear
     t: 39
@@ -154,6 +156,9 @@ quotes:
     check: exact
   - t: 26
     text: we are have added demo data across fixed assets, sales, purchasing, and subscription billing
+    check: exact
+  - t: 39
+    text: Everything by the way is part of the demo data control tool under analytics. So you just install that
     check: exact
   - t: 52
     text: For fixed assets, we added transaction data for acquisitions and depreciations. And when we have that, you can now demo all the reports
@@ -176,7 +181,7 @@ quotes:
 
 > Enhanced demo data in Business Central (2026 release wave 1) covers fixed assets, sales, purchasing and subscription billing. It adds transactions and variation so reports, analysis mode and Power BI apps show more realistic data. A demo data tool under analytics provides access to it.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=q2Fu_dqn2qo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=q2Fu_dqn2qo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -205,20 +210,20 @@ Subscription billing gets master data and transactions, which fills analysis mod
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Fixed Assets Transaction Demo Data | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=52s) |  |
-| Sales Demo Data Enhancements | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=69s) |  |
-| Purchasing Demo Data Enhancements | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=84s) |  |
-| Finance General Ledger Improvement | status not stated | [1:36](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=96s) |  |
-| Subscription Billing Demo Data | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=137s) |  |
-| Analysis Mode on Lists | status not stated, demoed | [2:40](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=160s) |  |
-| Demo Data Control Tool | status not stated | [0:39](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=39s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Fixed Assets Transaction Demo Data | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=52s) |
+| Sales Demo Data Enhancements | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=69s) |
+| Purchasing Demo Data Enhancements | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=84s) |
+| Finance General Ledger Improvement | status not stated | [1:36](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=96s) |
+| Subscription Billing Demo Data | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=137s) |
+| Demo Data Control Tool | status not stated | [0:39](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=39s) |
 
 ## Quotes
 
 - [0:06](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=6s) "there's only one value of this, of course, it's just when you do your demos that all reports and Power BI just showcase a"
 - [0:26](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=26s) "we are have added demo data across fixed assets, sales, purchasing, and subscription billing"
+- [0:39](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=39s) "Everything by the way is part of the demo data control tool under analytics. So you just install that"
 - [0:52](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=52s) "For fixed assets, we added transaction data for acquisitions and depreciations. And when we have that, you can now demo all the reports"
 - [1:24](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=84s) "we added more document demo data but we also spread it or made more variation in the in the"
 - [1:36](https://www.youtube.com/watch?v=q2Fu_dqn2qo&t=96s) "when you post documents having this demo data, there's an added benefit that also in finance things are coming in the finance in the"

@@ -266,15 +266,21 @@
       "check": "exact"
     },
     {
+      "t": 364.7,
+      "text": "We only create this document then we scroll down to invoice details and activate the new toggle receipt on invoice",
+      "why_it_matters": "Shows the receipt on invoice toggle is set on the drop shipment purchase document.",
+      "check": "exact"
+    },
+    {
       "t": 457.3,
       "text": "I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a",
       "why_it_matters": "Demonstrates automatic processing of purchase orders through payables agents when using receipt on invoice toggle.",
       "check": "exact"
     },
     {
-      "t": 570.3,
-      "text": "Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents",
-      "why_it_matters": "Summarizes the key benefits: flexible operation sequences, error recovery, and multiple document creation methods.",
+      "t": 519,
+      "text": "it's the only one which is not invoiced on purchase side and we use the undo shipment to cancel",
+      "why_it_matters": "Shows undo shipment being used on a drop shipment that is not yet invoiced on the purchase side.",
       "check": "exact"
     }
   ],

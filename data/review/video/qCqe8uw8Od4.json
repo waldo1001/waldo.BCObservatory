@@ -1,0 +1,35 @@
+{
+  "video_id": "qCqe8uw8Od4",
+  "item_id": "video/yt-microsoft/qCqe8uw8Od4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Every feature status was 'unclear', but the transcript gives statuses. At 399.4 it says 'All of this is available in 28.0' (GA for ABC analysis, Item Age Composition and the modernized layouts). Subtotals and the pre-built analysis views are announced for 28.x. The four legacy reports are announced for removal.",
+    "The quote at 399.4 ('this is coming in 21 28.x') is under 8 words and says little on its own, so I dropped it. I added the 28.0 availability quote in its place.",
+    "The summary and key points match the transcript."
+  ],
+  "input_hash": "d1e8aa0d08ceee3975de812fec1d35a9d97e89833730af82cca6876df586a04f",
+  "by": "opus",
+  "at": "2026-10-07T22:49:33.807Z",
+  "applied": [
+    "Legacy Inventory Report Deprecation: status announced",
+    "Analysis Views for Item Ledger Entries: status announced",
+    "dropped 1 quote(s)",
+    "quote at 399s"
+  ],
+  "rejected_edits": [
+    "status ABC Analysis in Power BI -> ga: evidence not verbatim or does not state the status",
+    "status ABC Analysis Excel Layout -> ga: evidence not verbatim or does not state the status",
+    "status ABC Analysis Setup Page -> ga: evidence not verbatim or does not state the status",
+    "status Item Age Composition Report -> ga: evidence not verbatim or does not state the status",
+    "status Excel and Word Layout Modernization -> ga: evidence not verbatim or does not state the status",
+    "status Inventory Report Subtotals -> announced: evidence not verbatim or does not state the status",
+    "status Inventory Analytics Help and Discoverability -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.089925
+  }
+}

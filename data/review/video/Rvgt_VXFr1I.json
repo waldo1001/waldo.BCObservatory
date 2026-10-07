@@ -1,0 +1,27 @@
+{
+  "video_id": "Rvgt_VXFr1I",
+  "item_id": "video/yt-microsoft/Rvgt_VXFr1I",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point on setup and teardown events overstated the transcript. The speaker says tests relying on test runner setup and teardown events 'may not work', not that they are unsupported. I corrected it.",
+    "The key points were missing test isolation behavior and the AL disable test running setting, both covered at 352-391s. I added them.",
+    "All feature statuses stay unclear. The video says the features were 'added in this release' but never says whether they are preview or generally available.",
+    "The AL MCP feature is only mentioned as a pointer to another session. Its description repeats tool names that look like caption errors ('GitHub Copilot key', 'Cloud Code'). I kept it because the transcript does support the basic claim.",
+    "All quotes check out as verbatim against the transcript."
+  ],
+  "input_hash": "055c9c0ca26773e84446dd802aaed35dc77825d7eda4c6cdd897f4a8bc01ca86",
+  "by": "opus",
+  "at": "2026-10-07T22:48:50.890Z",
+  "applied": [
+    "quote at 378s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.079129
+  }
+}

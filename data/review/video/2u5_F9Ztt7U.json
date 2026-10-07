@@ -1,0 +1,32 @@
+{
+  "video_id": "2u5_F9Ztt7U",
+  "item_id": "video/yt-microsoft/2u5_F9Ztt7U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on indexes reversed the claim: the transcript says having many indexes slows writes, not that removing them does.",
+    "Key point on memory said large documents may hit out-of-memory exceptions. The transcript says there will be fewer out-of-memory exceptions, plus new AL errors when excessive memory use is caught.",
+    "Key points left out the Word add-in and layout lifecycle features and the new telemetry signals, so I added them.",
+    "The Updated Security Documentation description says 'secure development initiative', but the transcript says 'secure future initiative'. This is minor and the feature is otherwise supported.",
+    "'Intra' in the captions is a transcription of Entra. The security-group feature name keeps the caption spelling.",
+    "Set the hardened URI validation status to ga: the transcript says it was backported to versions 26 and 27 and is in effect in the service.",
+    "All six quotes are verbatim."
+  ],
+  "input_hash": "b5e47e7696717c3329a0f215762672d176e71f0775fea61cbe9ee13c185afcc5",
+  "by": "opus",
+  "at": "2026-10-07T22:48:32.946Z",
+  "applied": [
+    "quote at 336s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Hardened URI Validation in HTTP Client -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11188500000000001
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - al test runner
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:50.890Z"
   flags: []
 generated:
-  at: "2026-10-06T16:57:00.444Z"
+  at: "2026-10-07T22:48:50.931Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 366
     quote: we actually configure this dynamically based on the required test isolation property that's set on the test code unit.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=378s
+    title: "What's New: Running Tests from Visual Studio Code (2026 release wave 1)"
+    date: "2026-04-01T12:01:32.000Z"
+    commit: null
+    t: 378
+    quote: you can disable the test integration in VS Code using the AL disable test running setting.
   - kind: video
     url: https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=404s
     title: "What's New: Running Tests from Visual Studio Code (2026 release wave 1)"
@@ -189,6 +196,9 @@ quotes:
   - t: 366
     text: we actually configure this dynamically based on the required test isolation property that's set on the test code unit.
     check: exact
+  - t: 378
+    text: you can disable the test integration in VS Code using the AL disable test running setting.
+    check: exact
   - t: 404
     text: giving the agent the ability to run and validate its own AL test own AL code using tests um significantly improves the accuracy of
     check: exact
@@ -201,7 +211,7 @@ quotes:
 
 > Running AL tests from Visual Studio Code in the 2026 release wave 1: test explorer, run profiles, code lens, debugging, code coverage and Copilot agent test fixing. It also covers limits: no AI or data-driven test suites, because AL test runners are not used.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Rvgt_VXFr1I) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 8:27 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Rvgt_VXFr1I) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 8:27 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -211,13 +221,13 @@ It also covers a Copilot agent that can run tests, find failing ones and fix the
 
 ## Key points
 
-- Tests run directly in VS Code, with a testing explorer grouping tests by project and codeunit and showing pass/fail status.
-- Run profiles: publish and run, run only, debug, and run with code coverage collection.
-- Code lens shows how many tests executed a procedure and their status, and can run the associated tests.
-- Debugging can start from the test explorer, the test sidebar, or test results, and the debug session is set up automatically.
-- The Copilot agent can run tests and fix failing test code, but the run test tool must be enabled.
-- The framework uses launch.json, supports multiple sandbox or on-prem instances, and can pick different companies through the startup company property.
-- AL test runners are not used, so AI and data-driven test suites are not supported, and test runner setup and teardown events are not supported.
+- Tests run directly in VS Code, with a testing explorer grouping tests by project and codeunit and showing pass/fail status; this uses only platform parts, with no extra application added.
+- Run profiles: publish and run in one operation, run only, debug, and run with code coverage collection.
+- After a code coverage run, code lens shows how many tests executed a procedure and how many passed, and clicking it runs those tests.
+- Debugging can start from the test explorer, the test sidebar, or test results ('debug failed test'), and the debug session is set up automatically.
+- Copilot agents can run tests out of the box once the run test tool is enabled; in the demo the agent fixed the bug and ran the tests again to validate the fix.
+- The framework uses launch.json, so it can target multiple sandbox or on-prem servers and pick the test company through the startup company property.
+- AL test runners are not used, so AI and data-driven test suites are not supported, and codeunits relying on test runner setup and teardown events may not work.
 
 ## Chapters
 
@@ -231,18 +241,18 @@ It also covers a Copilot agent that can run tests, find failing ones and fix the
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Run tests in Visual Studio Code | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=17s) |  |
-| Run profiles for tests | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=35s) |  |
-| Code lens for test execution | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=128s) |  |
-| Debug tests from VS Code | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=196s) |  |
-| Copilot agent for test fixing | status not stated, demoed | [4:26](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=266s) |  |
-| Test framework using launch.json configuration | status not stated | [5:01](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=301s) |  |
-| No support for AI and data-driven test suites | status not stated | [5:37](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=337s) |  |
-| Dynamic test isolation configuration | status not stated | [5:52](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=352s) |  |
-| Disable test integration in VS Code | status not stated | [6:18](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=378s) |  |
-| AL MCP for agents outside VS Code | status not stated | [7:46](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=466s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Run tests in Visual Studio Code | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=17s) |
+| Run profiles for tests | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=35s) |
+| Code lens for test execution | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=128s) |
+| Debug tests from VS Code | status not stated, demoed | [3:16](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=196s) |
+| Copilot agent for test fixing | status not stated, demoed | [4:26](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=266s) |
+| Test framework using launch.json configuration | status not stated | [5:01](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=301s) |
+| No support for AI and data-driven test suites | status not stated | [5:37](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=337s) |
+| Dynamic test isolation configuration | status not stated | [5:52](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=352s) |
+| Disable test integration in VS Code | status not stated | [6:18](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=378s) |
+| AL MCP for agents outside VS Code | status not stated | [7:46](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=466s) |
 
 ## Quotes
 
@@ -252,6 +262,7 @@ It also covers a Copilot agent that can run tests, find failing ones and fix the
 - [4:37](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=277s) "the good thing about having integrated with the VS Code tools is that we get the ability for agents to run tests out of"
 - [5:37](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=337s) "we are not using AL test runners. This means that we currently do not have any support for running AI or data-driven test suites."
 - [6:06](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=366s) "we actually configure this dynamically based on the required test isolation property that's set on the test code unit."
+- [6:18](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=378s) "you can disable the test integration in VS Code using the AL disable test running setting."
 - [6:44](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=404s) "giving the agent the ability to run and validate its own AL test own AL code using tests um significantly improves the accuracy of"
 - [7:46](https://www.youtube.com/watch?v=Rvgt_VXFr1I&t=466s) "we will have a bit on the AL MCP. And this is a tool for those of you who are not using VS Code"
 

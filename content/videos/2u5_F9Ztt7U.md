@@ -2,7 +2,7 @@
 id: video/2u5_F9Ztt7U
 type: video
 title: "What's New: Server and Database (2026 release wave 1)"
-summary: "Server and database changes in Business Central 2026 release wave 1: MCP server protocol compliance and resources, lower per-tenant memory and base64 handling, index usage insights, analysis views in AL apps, document report layout lifecycle, hardened HTTP client URI validation, and new telemetry."
+summary: "Server and database changes in Business Central 2026 release wave 1: MCP server protocol compliance and resources, lower per-tenant memory and base64 handling, index usage insights, analysis views in AL apps, the Word add-in and layout lifecycle for document reports, hardened HTTP client URI validation, Entra security groups on-premises, a permission analysis page, and new telemetry."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - on-premises configuration
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:32.947Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:32.984Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,6 +51,13 @@ evidence:
     commit: null
     t: 193
     quote: You don't need to change any code. What you'll see is fewer out of memory exceptions, but also AL errors where we have caught
+  - kind: video
+    url: https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=335s
+    title: "What's New: Server and Database (2026 release wave 1)"
+    date: "2026-04-08T10:05:39.000Z"
+    commit: null
+    t: 335
+    quote: Plus, having a lot of indexes can make write operations smaller, not smaller, but slower.
   - kind: video
     url: https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=359s
     title: "What's New: Server and Database (2026 release wave 1)"
@@ -200,6 +207,9 @@ quotes:
   - t: 193
     text: You don't need to change any code. What you'll see is fewer out of memory exceptions, but also AL errors where we have caught
     check: exact
+  - t: 335
+    text: Plus, having a lot of indexes can make write operations smaller, not smaller, but slower.
+    check: exact
   - t: 359
     text: Analysis mode is a hugely popular feature with with Business Central users. And in this release wave, we allow AL developers to include analysis
     check: exact
@@ -213,9 +223,9 @@ quotes:
 
 # What's New: Server and Database (2026 release wave 1)
 
-> Server and database changes in Business Central 2026 release wave 1: MCP server protocol compliance and resources, lower per-tenant memory and base64 handling, index usage insights, analysis views in AL apps, document report layout lifecycle, hardened HTTP client URI validation, and new telemetry.
+> Server and database changes in Business Central 2026 release wave 1: MCP server protocol compliance and resources, lower per-tenant memory and base64 handling, index usage insights, analysis views in AL apps, the Word add-in and layout lifecycle for document reports, hardened HTTP client URI validation, Entra security groups on-premises, a permission analysis page, and new telemetry.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2u5_F9Ztt7U) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 17:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=2u5_F9Ztt7U) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 17:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -225,13 +235,13 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 
 ## Key points
 
-- The MCP server supports protocol compliance, so MCP clients other than the default one can be used. MCP resources allow data extraction for analytics.
-- Memory per tenant is lower and base64 handling is optimized. A new platform codeunit converts base64 with a smaller memory footprint and can write the result to a stream.
-- Existing code needs no changes, but very large documents may now hit out-of-memory exceptions or new AL errors. Use the stream overloads and set your own limits.
-- Index insights show how much space indexes use and whether they are used. Unused metadata-defined indexes can be removed or indexes auto-tuned. Removing many indexes can slow writes.
-- AL developers can ship analysis view definitions in apps: define the view in the client, export to JSON, add metadata, and include it in the app.
+- The MCP server supports protocol compliance, so MCP clients other than the default one can be used. MCP resources (file support) allow data extraction, for example for statistical analysis.
+- Memory per tenant is lower and base64 handling is optimized. A new platform codeunit converts base64 with a smaller memory footprint, and a new method can write the result to a stream.
+- Existing code needs no changes. Expect fewer out-of-memory exceptions, but new AL errors when excessive memory use is caught, for example on very large documents. Put limits in and use the stream overloads.
+- Index insights show how much space indexes use and whether they are used. Metadata-defined indexes can be turned off and back on, and auto-tuned indexes can be removed to reclaim space. Many indexes make write operations slower.
+- AL developers can ship analysis view definitions in apps: define the view in the client, export it to JSON, add metadata, and include it in the app.
+- The Word add-in for document reports has a better UI, search in the data picker and an easy way to define tables. Report layouts now have a lifecycle status: draft, pending approval, approved and retired.
 - HTTP client URI validation is hardened to limit outgoing calls from AL, such as calls to internal ports. It is mandatory in hosted environments, has two server settings on-premises, and was backported to versions 26 and 27.
-- On-premises, enabling the service setting enable intra groups on prem makes the server fetch Entra ID security groups at login. A new permission analysis page gives a permission overview.
 
 ## Chapters
 
@@ -248,22 +258,22 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| MCP Protocol Compliance | status not stated | [1:00](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=60s) |  |
-| File Support Using MCP Resources | status not stated | [1:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=88s) |  |
-| Reduced Memory Footprint Per Tenant | status not stated | [1:52](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=112s) |  |
-| Platform Codeunit for Base64 Conversion | status not stated | [2:24](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=144s) |  |
-| Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |  |
-| AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |  |
-| Word Add-in for Document Reports Enhancement | status not stated | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |  |
-| Layout Lifecycle Control for Report Layouts | generally available (roadmap [573320](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |  |
-| Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |  |
-| Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |  |
-| Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |  |
-| Updated Security Documentation and Guide | status not stated | [10:23](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=623s) |  |
-| Telemetry for MCP Configuration and Usage | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |  |
-| Client Hardware and Network Telemetry | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |  |
+| Feature | Status | At |
+|---|---|---|
+| MCP Protocol Compliance | status not stated | [1:00](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=60s) |
+| File Support Using MCP Resources | status not stated | [1:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=88s) |
+| Reduced Memory Footprint Per Tenant | status not stated | [1:52](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=112s) |
+| Platform Codeunit for Base64 Conversion | status not stated | [2:24](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=144s) |
+| Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |
+| AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |
+| Word Add-in for Document Reports Enhancement | status not stated | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |
+| Layout Lifecycle Control for Report Layouts | generally available (roadmap [573320](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |
+| Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |
+| Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |
+| Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
+| Updated Security Documentation and Guide | status not stated | [10:23](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=623s) |
+| Telemetry for MCP Configuration and Usage | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |
+| Client Hardware and Network Telemetry | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -280,6 +290,7 @@ Not found in BC28-30: codeunit "platform code unit for dealing with base 64 conv
 - [0:27](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=27s) "The main investments in this release wave are three things. Make it faster, more effective document layouts, and hardening or security."
 - [2:09](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=129s) "we realized that one of the common causes of varying performance was basically memory pressure, and a lot of the memory pressure comes actually"
 - [3:13](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=193s) "You don't need to change any code. What you'll see is fewer out of memory exceptions, but also AL errors where we have caught"
+- [5:35](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=335s) "Plus, having a lot of indexes can make write operations smaller, not smaller, but slower."
 - [5:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=359s) "Analysis mode is a hugely popular feature with with Business Central users. And in this release wave, we allow AL developers to include analysis"
 - [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) "we have hardened the URI validation in the HTTP client, so that we now limit more outgoing calls from your AL code"
 - [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) "This has been backported to 26, version 26 and 27, which is wave 1 2025 and wave 2 2025, and it is in effect"

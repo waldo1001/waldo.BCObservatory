@@ -4,13 +4,13 @@
   "summary": "Business Central enhanced financial reporting in the 2026 release wave 1: tile view, report categories, lifecycle status, company defaults in General Ledger Setup, dimension perspectives, report scheduling, audit log and analysis mode. All features are demoed; status is not stated.",
   "overview": "This 22-minute What's New session covers enhancements to financial reporting in Business Central, aimed at controllers and the finance department. It starts with a tile view that replaces the list of reports for all users, then moves to features for report authors: categories, lifecycle status and company-level defaults.\n\nIt then shows dimension perspectives for running a report across dimension values, report scheduling with delivery by inbox or email, and an audit log for administrators that can be opened in analysis mode. The video ends with documentation and learning resources, including aka.ms/bcfinanceanalytics, and partner resources.",
   "key_points": [
-    "Tile view shows each report's category, name, code, status, last run time and description. Fields are blank when no data or description is entered.",
-    "Reports can be placed in 10 default categories (for example assets, liabilities, profitability analysis) or in custom categories.",
-    "Report, row and column definitions have a lifecycle status of active, draft or retired. Draft and retired are blocked states and prevent use of the report definition.",
-    "General Ledger Setup holds company defaults for view by, negative number format, company logo position and status. Report definitions that use the default inherit them, and individual reports can override them.",
-    "Dimension perspectives are defined once and reused. They can be simple (one run per dimension value, merged into one PDF), custom (selected values) or cross-dimensional. They can be overridden on the request page at runtime.",
-    "Report schedules support a recurrence formula (such as weekly), recipients, custom filters for request page values, and Excel or PDF output. Schedule logs show what ran and when, with links to the report inbox or sent emails.",
-    "The audit log shows who ran which report, when and in which format, with filters for the last 30 days, year to date and custom ranges. It can be opened in analysis mode for custom usage reports."
+    "Tile view is opened by switching from list to tiles. It shows each report's category, name, code, status, last run time and internal description. Fields are blank when there is no data or description. List views can still be added.",
+    "Reports can be placed in shipped categories (the presenter says about 10, from assets and liabilities to profitability and revenue analysis) or in custom categories. Categories are mainly for navigation.",
+    "Report, row and column definitions have a lifecycle status. The shipped states are active, draft and retired, and authors can define their own. In the sample setup, draft and retired are blocked, meaning not ready to use. Blocked definitions show a notification and different styling.",
+    "General Ledger Setup holds company defaults for view by, negative number format, company logo position and status. Report definitions set to default inherit them, and individual reports can override them.",
+    "Dimension perspectives are defined once and reused. They can be simple (one run per dimension value), custom (selected values) or cross-dimensional (combinations across dimensions). Output is merged into one PDF or into one Excel worksheet per value. The perspective can be overridden on the request page.",
+    "Report schedules support Excel and PDF output, delivery to the report inbox and email, a recurrence formula (such as weekly), recipients and custom filters for request page values. Schedule logs show what ran and link to the report inbox or sent emails.",
+    "The audit log, for all reports or for a single report, shows who ran which report, when and in which format. It has filters for the last 30 days, year to date and custom ranges, and can be opened in analysis mode for usage reports."
   ],
   "audience": [
     "functional consultant",

@@ -1,0 +1,24 @@
+{
+  "video_id": "xJ8gYzvWnTI",
+  "item_id": "video/yt-microsoft/xJ8gYzvWnTI",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim spans of the transcript.",
+    "Feature statuses are correctly left unclear: the transcript never states preview or GA.",
+    "Minor: the review bar chapter starts at 148.2, but that segment is still about system columns; the review bar begins at 161.6.",
+    "Key points omit that the Created/Updated by column can be toggled in list settings (t=250.2); not critical.",
+    "The purchasing system tag is supported by the payables agent and the purchase invoice review in the demo."
+  ],
+  "input_hash": "e377838e9f0b9b4f5f788319038e8997141e827187db3e3c715c0142ee1e5942",
+  "by": "opus",
+  "at": "2026-10-07T22:49:20.509Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055077
+  }
+}

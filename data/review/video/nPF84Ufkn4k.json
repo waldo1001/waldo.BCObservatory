@@ -1,0 +1,29 @@
+{
+  "video_id": "nPF84Ufkn4k",
+  "item_id": "video/yt-microsoft/nPF84Ufkn4k",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 25 quotes are verbatim or differ only in case or punctuation, including the spans that cross segment boundaries.",
+    "Two near-duplicate grounding quotes both start at t=806. I left them because dropping by t would remove both.",
+    "Key point on prompts said 'about 20 per one feature description', which is garbled. The transcript has the host guessing 11 and Esteban saying nowadays more like 20. Rewritten.",
+    "Key point on grounding said 'good but not perfect'. The transcript only says evaluator prompts are 'pretty good at it'. Rewritten.",
+    "Agent Knowledge Base Integration description says agents 'will be able to' consult knowledge bases. The transcript presents this as something being looked into that still needs verification. I kept the feature with status unclear.",
+    "Tool Integration Feature overlaps with MCP Tools Integration for Agents. Both are supported, so I kept them.",
+    "'GPT-o1' comes from captioned '0.1'. That reading is plausible, so I left it.",
+    "All feature statuses are unclear, which is correct because the transcript states no release status."
+  ],
+  "input_hash": "e89ebf103048eddbf885af2aa22e697c10f2dd2d82605f7585ddde2f9fa00071",
+  "by": "opus",
+  "at": "2026-10-07T22:48:33.123Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.233829
+  }
+}

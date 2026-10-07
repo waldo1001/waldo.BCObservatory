@@ -15,12 +15,12 @@ tags:
   - order processing
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:51.841Z"
   flags: []
 generated:
-  at: "2026-10-06T17:00:35.617Z"
+  at: "2026-10-07T22:48:51.876Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,7 +149,7 @@ quotes:
 
 > Shopify connector in Business Central: a new currency handling setting on the Shopify shop card lets sales documents be created in the presentment currency instead of the shop currency. Covers the default behavior, the new processed currency field on orders, and switching between modes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NMO822Jf_4E) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 4:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NMO822Jf_4E) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 4:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,12 +178,12 @@ A demo shows the new currency handling field in the order processing section of 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Presentment currency support in Shopify order processing | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=NMO822Jf_4E&t=56s) |  |
-| Currency handling field on Shopify shop card | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=NMO822Jf_4E&t=73s) |  |
-| Processed currency field in orders | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=NMO822Jf_4E&t=152s) |  |
-| Price synchronization for catalogs linked to markets | status not stated | [0:07](https://www.youtube.com/watch?v=NMO822Jf_4E&t=7s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Presentment currency support in Shopify order processing | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=NMO822Jf_4E&t=56s) |
+| Currency handling field on Shopify shop card | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=NMO822Jf_4E&t=73s) |
+| Processed currency field in orders | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=NMO822Jf_4E&t=152s) |
+| Price synchronization for catalogs linked to markets | status not stated | [0:07](https://www.youtube.com/watch?v=NMO822Jf_4E&t=7s) |
 
 ## Quotes
 

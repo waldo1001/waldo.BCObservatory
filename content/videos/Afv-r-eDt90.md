@@ -17,12 +17,12 @@ tags:
   - analytics
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:16.532Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:16.580Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,6 +57,13 @@ evidence:
     commit: null
     t: 88
     quote: Basically, it should be as simple as 1 2 3. One, you go to a Business Central, set up your analysis view directly. Two,
+  - kind: video
+    url: https://www.youtube.com/watch?v=Afv-r-eDt90&t=262s
+    title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
+    date: "2026-04-01T12:01:21.000Z"
+    commit: null
+    t: 262
+    quote: I can also set some additional properties such as the caption or the tool tip or also the visibility which will override the settings
   - kind: video
     url: https://www.youtube.com/watch?v=Afv-r-eDt90&t=358s
     title: "What's New: Enhanced Analysis Mode (2026 release wave 1)"
@@ -165,6 +172,9 @@ quotes:
   - t: 88
     text: Basically, it should be as simple as 1 2 3. One, you go to a Business Central, set up your analysis view directly. Two,
     check: exact
+  - t: 262
+    text: I can also set some additional properties such as the caption or the tool tip or also the visibility which will override the settings
+    check: exact
   - t: 358
     text: You can see this is an a view that comes from my app because it has this locked icon. So, this basically means that
     check: exact
@@ -177,7 +187,7 @@ quotes:
 
 > Enhanced analysis mode in Business Central (2026 release wave 1): developers can package analysis views in AL apps via exported JSON files, page extensions and profile customizations. Also covers view descriptions as tooltips, read-only shipped views, and built-in views announced for 28.x.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Afv-r-eDt90) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Afv-r-eDt90) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -187,13 +197,13 @@ The demo then shows the result in a deployed environment. Shipped views appear r
 
 ## Key points
 
-- Analysis views can be exported from Business Central as JSON files and packaged in AL apps through page extensions or source pages.
-- Page extensions use a definition file property that points to the exported JSON file.
-- Views can also be added to page customizations and profile extensions, so they are available only to users with specific roles.
+- Analysis views can be exported from Business Central as JSON files (Share > Export definition) and packaged in AL apps through page extensions, page customizations or source pages.
+- Page extensions use a definition file property that points to the exported JSON file; caption, tooltip and visibility properties set in AL override the settings in the JSON file.
+- Views can be added to page customizations assigned to a profile or profile extension, so they are available only to users with that role.
 - Views shipped in an app are read-only and show a locked icon; the filter pane is removed, and users can duplicate a view to edit the copy.
-- Descriptions set through the rename action in analysis mode show as tooltips and override the JSON settings.
+- Users can add a description to a view through the rename action in analysis mode; it shows as a tooltip.
 - Users can hide views they do not need through personalization mode.
-- Built-in analysis views are announced for 28.x, including sales orders, change log entries, user lists, GL register, fixed asset ledgers and item ledger entries.
+- Built-in analysis views are coming in 28.x for sales orders, change log entries, user lists, GL register, fixed asset ledgers and item ledger entries (inventory and purchasing).
 
 ## Chapters
 
@@ -236,6 +246,7 @@ Not found in BC28-30: page "user lists", page "GL register", page "fixed asset l
 - [0:32](https://www.youtube.com/watch?v=Afv-r-eDt90&t=32s) "it's the most used analysis feature in Business Central ever. Almost every single customer have users who use analysis mode"
 - [1:02](https://www.youtube.com/watch?v=Afv-r-eDt90&t=62s) "you can ship analysis views from your AL apps, but also as a user you can describe your AL your your views and they"
 - [1:28](https://www.youtube.com/watch?v=Afv-r-eDt90&t=88s) "Basically, it should be as simple as 1 2 3. One, you go to a Business Central, set up your analysis view directly. Two,"
+- [4:22](https://www.youtube.com/watch?v=Afv-r-eDt90&t=262s) "I can also set some additional properties such as the caption or the tool tip or also the visibility which will override the settings"
 - [5:58](https://www.youtube.com/watch?v=Afv-r-eDt90&t=358s) "You can see this is an a view that comes from my app because it has this locked icon. So, this basically means that"
 - [7:50](https://www.youtube.com/watch?v=Afv-r-eDt90&t=470s) "These are coming in 28.x. So, for sales we aim to have analysis views on sales orders on for security related pages on the"
 

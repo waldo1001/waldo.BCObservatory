@@ -2,7 +2,7 @@
 id: video/OvI9jaA1mJY
 type: video
 title: "What's New: Payables Agent (2026 release wave 1)"
-summary: "Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages."
+summary: "Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages. Some features may only arrive in an upcoming minor release."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - feedback
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:16.479Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:16.518Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -180,9 +180,9 @@ quotes:
 
 # What's New: Payables Agent (2026 release wave 1)
 
-> Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages.
+> Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages. Some features may only arrive in an upcoming minor release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=OvI9jaA1mJY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 3:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=OvI9jaA1mJY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 3:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -194,11 +194,11 @@ The video also covers the inbound e-documents list, which shows more information
 
 - Matching is one-to-one between invoice lines and purchase order lines, with AI interpreting line descriptions across open purchase orders.
 - The agent warns when the received quantity is not sufficient for invoicing; receipt must still be done manually for now.
-- Pricing after the free trial: 50 Copilot credits per invoice document plus 5 per invoice line, so a five-line invoice costs 75 credits.
+- Pricing after the free trial: 50 Copilot credits per invoice document plus 5 per invoice line, so a five-line invoice costs 75 credits (about 75 cents at roughly 1 US cent per credit).
 - Analysis assist on the posted purchase invoice lines page can give invoice volume and average line count to project cost.
 - The inbound e-documents list shows more information and can open the agent tasks for an invoice; users in the same mailbox can see which emails were processed.
 - Users can try a single uploaded invoice for free without a shared mailbox or full activation; the agent is also surfaced on the purchase invoice page and list.
-- The agent is generally available in all countries and regions where Business Central is available, in all localization languages; feedback can be sent from the purchase document draft page.
+- The agent is now available in all countries and regions where Business Central is available, in all localization languages; feedback can be sent from the purchase document draft page.
 
 ## Chapters
 

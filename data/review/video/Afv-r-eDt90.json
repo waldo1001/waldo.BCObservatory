@@ -1,0 +1,27 @@
+{
+  "video_id": "Afv-r-eDt90",
+  "item_id": "video/yt-microsoft/Afv-r-eDt90",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and feature description misattribute the JSON override: the transcript says properties set in the AL page extension (caption, tooltip, visibility) override the JSON file settings, not descriptions set through the rename action. Key point corrected; the feature description of 'Analysis view descriptions and tooltips' still carries this error.",
+    "Evidence quote for 'Built-in analysis views across Business Central application areas' starts in segment 470.9, not 455.1; evidence_t corrected.",
+    "Built-in views list also includes purchasing (item ledger entries); added to key point.",
+    "Remaining quotes are verbatim and the summary is supported."
+  ],
+  "input_hash": "e89cd0a5c62464190316084659c1eb3b89c552e8ed289c4f3619e0d4e2a6ebf0",
+  "by": "opus",
+  "at": "2026-10-07T22:49:16.532Z",
+  "applied": [
+    "Built-in analysis views across Business Central application areas: status announced",
+    "quote at 263s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.083457
+  }
+}

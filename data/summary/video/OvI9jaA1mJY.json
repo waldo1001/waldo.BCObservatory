@@ -1,16 +1,16 @@
 {
   "video_id": "OvI9jaA1mJY",
   "item_id": "video/yt-microsoft/OvI9jaA1mJY",
-  "summary": "Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages.",
+  "summary": "Payables agent updates in Business Central 2026 release wave 1: one-to-one invoice and purchase order line matching, receipt quantity warnings, e-document and email visibility, Copilot credit pricing (50 per invoice plus 5 per line), easier discovery, and availability in all Business Central countries and languages. Some features may only arrive in an upcoming minor release.",
   "overview": "This four-minute What's New video covers changes to the Payables agent in 2026 release wave 1. The agent can now match invoice lines to purchase order lines one to one, using AI to read line descriptions and find the best match among open purchase orders. It checks whether the received quantity is enough to invoice and shows a warning if not. Receipt still has to be done manually for now.\n\nThe video also covers the inbound e-documents list, which shows more information and links to agent tasks, and email processing visibility for finance teams sharing the agent's mailbox. It explains the pricing, which is free up to a certain number of invoices and then based on Copilot credits. It also covers discovery, single invoice processing without setup, global availability and in-document feedback. Some features may arrive in an upcoming minor release rather than the major release.",
   "key_points": [
     "Matching is one-to-one between invoice lines and purchase order lines, with AI interpreting line descriptions across open purchase orders.",
     "The agent warns when the received quantity is not sufficient for invoicing; receipt must still be done manually for now.",
-    "Pricing after the free trial: 50 Copilot credits per invoice document plus 5 per invoice line, so a five-line invoice costs 75 credits.",
+    "Pricing after the free trial: 50 Copilot credits per invoice document plus 5 per invoice line, so a five-line invoice costs 75 credits (about 75 cents at roughly 1 US cent per credit).",
     "Analysis assist on the posted purchase invoice lines page can give invoice volume and average line count to project cost.",
     "The inbound e-documents list shows more information and can open the agent tasks for an invoice; users in the same mailbox can see which emails were processed.",
     "Users can try a single uploaded invoice for free without a shared mailbox or full activation; the agent is also surfaced on the purchase invoice page and list.",
-    "The agent is generally available in all countries and regions where Business Central is available, in all localization languages; feedback can be sent from the purchase document draft page."
+    "The agent is now available in all countries and regions where Business Central is available, in all localization languages; feedback can be sent from the purchase document draft page."
   ],
   "audience": [
     "functional consultant",

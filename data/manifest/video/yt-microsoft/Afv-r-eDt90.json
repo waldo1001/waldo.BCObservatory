@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Afv-r-eDt90",
   "published_at": "2026-04-01T12:01:21.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 7
     },
     "published": {
-      "at": "2026-10-06T17:04:52.878Z",
+      "at": "2026-10-07T22:49:16.587Z",
       "path": "content/videos/Afv-r-eDt90.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:49:16.538Z",
+      "path": "data/review/video/Afv-r-eDt90.json",
+      "verdict": "fix",
+      "applied": 3,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.083457
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "366e7d502783fa444627854536617b9f68e9fc6ad98c81c3d4bdb6b5a4554cf6"
+  "output_hash": "b45baa1b31ef429cf66271ecb379abab084167c52d150bcf8e04e53c4dbcf235",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:49:16.532Z"
+  }
 }

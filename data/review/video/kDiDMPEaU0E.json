@@ -1,0 +1,26 @@
+{
+  "video_id": "kDiDMPEaU0E",
+  "item_id": "video/yt-microsoft/kDiDMPEaU0E",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim, some running across segment boundaries, which is acceptable.",
+    "Leaving every feature status as unclear is correct. The transcript only says the capability is introduced 'with this release' and never says preview or GA.",
+    "The directed put-away and pick key point dropped a condition. The transcript says the match must come before the quantity only when a line is added manually; Get order lines still works as before.",
+    "The page did not mention that posting an invoice matched only to order lines fails until at least one receipt line is matched. Added a key point and a quote for this."
+  ],
+  "input_hash": "d5ebcdb8ecefdb0d27449a0b31257fa862d93c91625c958cf45123add1067925",
+  "by": "opus",
+  "at": "2026-10-07T22:49:44.240Z",
+  "applied": [
+    "quote at 232s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.072965
+  }
+}

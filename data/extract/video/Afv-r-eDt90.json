@@ -268,6 +268,12 @@
       "check": "exact"
     },
     {
+      "t": 262.5,
+      "text": "I can also set some additional properties such as the caption or the tool tip or also the visibility which will override the settings",
+      "why_it_matters": "Shows that AL properties, not the rename action, override the JSON definition.",
+      "check": "exact"
+    },
+    {
       "t": 358.7,
       "text": "You can see this is an a view that comes from my app because it has this locked icon. So, this basically means that",
       "why_it_matters": "Demonstrates that packaged views are protected as read-only to maintain data integrity and design intent.",

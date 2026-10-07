@@ -1,0 +1,24 @@
+{
+  "video_id": "NMO822Jf_4E",
+  "item_id": "video/yt-microsoft/NMO822Jf_4E",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim; the quotes at 189.5 and 252.5 run on into the next caption segment, which is acceptable.",
+    "Feature statuses are all unclear. The transcript never states preview or GA; the 2026 release wave 1 label comes only from the title.",
+    "The price synchronization feature is from a previous release but is mentioned in the transcript and tied to the new feature, so it stays.",
+    "Key point 'not editable once populated' is a mild paraphrase of 'it's not editable'; acceptable.",
+    "Chapter boundary at 110.5 does not line up exactly with segment 111.9; minor."
+  ],
+  "input_hash": "19fbd9ba2394605efb02c4384592b41b74f00ebd5ae17b5c286cc9405e1a293c",
+  "by": "opus",
+  "at": "2026-10-07T22:48:51.841Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.054317000000000004
+  }
+}

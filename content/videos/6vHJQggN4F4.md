@@ -17,12 +17,12 @@ tags:
   - price synchronization
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:09.066Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:09.104Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -58,6 +58,13 @@ evidence:
     t: 228
     quote: you can add item to specific collection, which is configured as a tax override
   - kind: video
+    url: https://www.youtube.com/watch?v=6vHJQggN4F4&t=320s
+    title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
+    date: "2026-04-01T12:01:21.000Z"
+    commit: null
+    t: 320
+    quote: One of them it's maybe using assembly bill of material, which can be only connected to the parent item, and not to variant.
+  - kind: video
     url: https://www.youtube.com/watch?v=6vHJQggN4F4&t=332s
     title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
     date: "2026-04-01T12:01:21.000Z"
@@ -65,12 +72,12 @@ evidence:
     t: 332
     quote: we can utilize function which is called add item as a Shopify variant, and add couple of more items
   - kind: video
-    url: https://www.youtube.com/watch?v=6vHJQggN4F4&t=385s
+    url: https://www.youtube.com/watch?v=6vHJQggN4F4&t=360s
     title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
     date: "2026-04-01T12:01:21.000Z"
     commit: null
-    t: 385
-    quote: you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided
+    t: 360
+    quote: you can notice that price is changing as well. So, apparently the number of seats and number and price is very much related.
   - kind: video
     url: https://www.youtube.com/watch?v=6vHJQggN4F4&t=422s
     title: "What's New: Product Information Management in Shopify Connector (2026 release wave 1)"
@@ -173,11 +180,14 @@ quotes:
   - t: 228
     text: you can add item to specific collection, which is configured as a tax override
     check: exact
+  - t: 320
+    text: One of them it's maybe using assembly bill of material, which can be only connected to the parent item, and not to variant.
+    check: exact
   - t: 332
     text: we can utilize function which is called add item as a Shopify variant, and add couple of more items
     check: exact
-  - t: 385
-    text: you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided
+  - t: 360
+    text: you can notice that price is changing as well. So, apparently the number of seats and number and price is very much related.
     check: exact
   - t: 422
     text: Now we got the marketing text as well. Because we have a toggle about marketing text, now you can get it from Shopify as
@@ -188,7 +198,7 @@ quotes:
 
 > Product information management changes in the Business Central Shopify connector (2026 release wave 1): variant image export, item attributes as Shopify options, collections and tax override, adding items as Shopify variants, and importing images and marketing text from Shopify.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6vHJQggN4F4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6vHJQggN4F4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -201,10 +211,10 @@ It then shows the "add item as Shopify variant" function, which presents a flat 
 - Item variants can have images, and these are exported to Shopify with the product so each variant shows its own image in the online store.
 - The item attributes setup page gets a new column for choosing which attributes export as Shopify options. It only shows when the Shopify connector is installed with stores connected.
 - Not every attribute is exported as an option. Some are only added to the product description.
-- Collections are configured on the Shopify shop card. Item categories determine which collections items are assigned to on export. Collections must be imported from Shopify first or set up manually.
+- Custom product collections are configured on the Shopify shop card. You can start by importing collections from Shopify, then use rules such as item category to decide which collections items are assigned to on export.
 - Items with reduced or non-standard tax rates can be put in a collection configured as tax override, so Shopify applies the correct tax.
-- The 'add item as Shopify variant' function turns separate items into variants of a parent item. Their prices are synchronized, so variants can have different prices.
-- Importing products from Shopify synchronizes images. Marketing text is imported only if the marketing text toggle is enabled on the Shopify shop card.
+- The 'add item as Shopify variant' function presents separate Business Central items as variants of a parent item in Shopify. This is useful when you keep a flat item list, for example because assembly BOMs can only be connected to the parent item. Each item keeps its own price, so variant prices can differ.
+- Importing products from Shopify synchronizes images. Marketing text is also imported when the marketing text toggle is enabled on the Shopify shop card.
 
 ## Chapters
 
@@ -217,16 +227,16 @@ It then shows the "add item as Shopify variant" function, which presents a flat 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Item Variant Image Export to Shopify | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=6vHJQggN4F4&t=61s) |  |
-| Item Attributes for Shopify Options | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=6vHJQggN4F4&t=99s) |  |
-| Custom Product Collections | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=6vHJQggN4F4&t=174s) |  |
-| Tax Override via Collections | status not stated | [3:36](https://www.youtube.com/watch?v=6vHJQggN4F4&t=216s) |  |
-| Add Item as Shopify Variant Function | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=6vHJQggN4F4&t=303s) |  |
-| Variant Price Synchronization | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=6vHJQggN4F4&t=346s) |  |
-| Product Image Synchronization from Shopify | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=6vHJQggN4F4&t=401s) |  |
-| Marketing Text Import from Shopify | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=6vHJQggN4F4&t=401s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Item Variant Image Export to Shopify | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=6vHJQggN4F4&t=61s) |
+| Item Attributes for Shopify Options | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=6vHJQggN4F4&t=99s) |
+| Custom Product Collections | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=6vHJQggN4F4&t=174s) |
+| Tax Override via Collections | status not stated | [3:36](https://www.youtube.com/watch?v=6vHJQggN4F4&t=216s) |
+| Add Item as Shopify Variant Function | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=6vHJQggN4F4&t=303s) |
+| Variant Price Synchronization | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=6vHJQggN4F4&t=346s) |
+| Product Image Synchronization from Shopify | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=6vHJQggN4F4&t=401s) |
+| Marketing Text Import from Shopify | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=6vHJQggN4F4&t=401s) |
 
 ## AL objects mentioned
 
@@ -246,8 +256,9 @@ Not found in BC28-30: page "Shopify shops", page "Shopify shop card", page "list
 - [1:39](https://www.youtube.com/watch?v=6vHJQggN4F4&t=99s) "you can see the new column. It's only visible if you have Shopify uh connector installed with uh uh some stores connected"
 - [3:06](https://www.youtube.com/watch?v=6vHJQggN4F4&t=186s) "you can decide which collection you want to assign to items as soon as they exported to Shopify from Business Central"
 - [3:48](https://www.youtube.com/watch?v=6vHJQggN4F4&t=228s) "you can add item to specific collection, which is configured as a tax override"
+- [5:20](https://www.youtube.com/watch?v=6vHJQggN4F4&t=320s) "One of them it's maybe using assembly bill of material, which can be only connected to the parent item, and not to variant."
 - [5:32](https://www.youtube.com/watch?v=6vHJQggN4F4&t=332s) "we can utilize function which is called add item as a Shopify variant, and add couple of more items"
-- [6:25](https://www.youtube.com/watch?v=6vHJQggN4F4&t=385s) "you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided"
+- [6:00](https://www.youtube.com/watch?v=6vHJQggN4F4&t=360s) "you can notice that price is changing as well. So, apparently the number of seats and number and price is very much related."
 - [7:02](https://www.youtube.com/watch?v=6vHJQggN4F4&t=422s) "Now we got the marketing text as well. Because we have a toggle about marketing text, now you can get it from Shopify as"
 
 ## Disclaimers in the video

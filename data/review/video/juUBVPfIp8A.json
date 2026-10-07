@@ -1,0 +1,27 @@
+{
+  "video_id": "juUBVPfIp8A",
+  "item_id": "video/yt-microsoft/juUBVPfIp8A",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Agent development and design: evidence quote starts in segment 55.4, not 44; evidence_t corrected.",
+    "All 14 quotes verified verbatim against the transcript (some cross segment boundaries, which is acceptable).",
+    "Agent library announced status supported by quote at 947.3.",
+    "Agent evaluation support left unclear: 'still in the early stages' does not state a release status.",
+    "Summary and key points are supported by the transcript."
+  ],
+  "input_hash": "8c2a30179f3017c788275041f7ec788a7419a196d55486cdd332547edb055e89",
+  "by": "opus",
+  "at": "2026-10-07T22:49:50.869Z",
+  "applied": [
+    "Agent development and design: status preview",
+    "Agent library: status announced"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.109477
+  }
+}

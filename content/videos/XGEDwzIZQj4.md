@@ -16,12 +16,12 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:06.604Z"
   flags: []
 generated:
-  at: "2026-10-06T17:01:13.433Z"
+  at: "2026-10-07T22:49:06.643Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 527
     quote: We cannot confidently say which one of the setup is better because, well, it could be a fluke because of those five runs.
+  - kind: video
+    url: https://www.youtube.com/watch?v=XGEDwzIZQj4&t=653s
+    title: "What's New: BC-Bench (2026 release wave 1)"
+    date: "2026-04-01T12:01:22.000Z"
+    commit: null
+    t: 653
+    quote: So, if you look at the pass at at five metrics, uh it increased tenfold uh just in 10 month 12 months.
 links:
   learn: []
   objects: []
@@ -154,13 +161,16 @@ quotes:
   - t: 527
     text: We cannot confidently say which one of the setup is better because, well, it could be a fluke because of those five runs.
     check: exact
+  - t: 653
+    text: So, if you look at the pass at at five metrics, uh it increased tenfold uh just in 10 month 12 months.
+    check: exact
 ---
 
 # What's New: BC-Bench (2026 release wave 1)
 
 > BC-Bench is a benchmarking tool for AI coding agents fixing real Business Central AL bugs from Microsoft's backlog. The video covers how it works, the leaderboard metrics (mean resolution rate, pass at five, execution time), and how to access or fork the MIT-licensed GitHub repository.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XGEDwzIZQj4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:05 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XGEDwzIZQj4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:05 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,10 +183,10 @@ The presenter explains the leaderboard: results are aggregated over five runs be
 - BC-Bench tests combinations of LLM model, MCP server, instructions and agent harness on real Business Central bugs from Microsoft's backlog.
 - Each benchmark task contains the bug description and repro steps as the problem statement, the BC developer's unit test, and the expected fix.
 - Mean resolution rate is averaged over five runs and shown with a 95% confidence interval; one example setup reached 68.5%.
-- If confidence intervals overlap, the setups cannot be confidently compared, since the difference could be a fluke.
+- If confidence intervals overlap, the setups cannot be confidently compared, since the difference could be a fluke; non-overlapping intervals showed Opus 4.6 is an improvement over Opus 4.5.
 - Pass at five measures how consistently the agent resolves the same tasks across all five runs; average execution time is also reported.
-- Only Cloud Code and GitHub Copilot harnesses are supported currently; trying it needs a GitHub account and a subscription to one of them.
-- The repository is public under the MIT license. You can contribute tasks or fork it and replace the Microsoft-based dataset with your own to benchmark private code.
+- Compared with a GPT-4.1 run, the pass at five metric increased tenfold in about 12 months.
+- A version column records BC-Bench and agent harness updates instead of rerunning all results after every update.
 
 ## Chapters
 
@@ -189,16 +199,16 @@ The presenter explains the leaderboard: results are aggregated over five runs be
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Bench benchmarking tool | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=40s) |  |
-| BC Bench bug-fixing dataset | status not stated, demoed | [4:00](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=240s) |  |
-| Mean resolution rate with confidence intervals | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=422s) |  |
-| Pass at five consistency metric | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=562s) |  |
-| Average execution time metric | status not stated, demoed | [9:58](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=598s) |  |
-| GitHub repository access for BC Bench | status not stated, demoed | [4:57](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=297s) |  |
-| Model comparison across AI providers | status not stated, demoed | [6:28](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=388s) |  |
-| Custom dataset contribution capability | status not stated | [12:02](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=722s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Bench benchmarking tool | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=40s) |
+| BC Bench bug-fixing dataset | status not stated, demoed | [4:00](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=240s) |
+| Mean resolution rate with confidence intervals | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=422s) |
+| Pass at five consistency metric | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=562s) |
+| Average execution time metric | status not stated, demoed | [9:58](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=598s) |
+| GitHub repository access for BC Bench | status not stated, demoed | [4:57](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=297s) |
+| Model comparison across AI providers | status not stated, demoed | [6:28](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=388s) |
+| Custom dataset contribution capability | status not stated | [12:02](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=722s) |
 
 ## Quotes
 
@@ -207,6 +217,7 @@ The presenter explains the leaderboard: results are aggregated over five runs be
 - [3:01](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=181s) "Whereas in AL, we only have 330 as of the time of this recording."
 - [7:27](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=447s) "This specific setup managed to achieve 68.5% resolution rate on average, meaning on average of five runs, it resolved 68% of the all the"
 - [8:47](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=527s) "We cannot confidently say which one of the setup is better because, well, it could be a fluke because of those five runs."
+- [10:53](https://www.youtube.com/watch?v=XGEDwzIZQj4&t=653s) "So, if you look at the pass at at five metrics, uh it increased tenfold uh just in 10 month 12 months."
 
 ## Disclaimers in the video
 

@@ -4,13 +4,13 @@
   "summary": "Business Central agent runtime internals: the task execution engine, Logical Client API reuse, memory, grounding validation, loop detection, timeline grouping, multiple prompts and models, and how the team tests accuracy. Covers the sales order and payables agents as examples.",
   "overview": "Episode 13 of Business Central Under the Hood explains how the agent runtime works. The runtime holds the data model for agent tasks, the task execution engine and supporting functions such as timeline data. Agents interact with Business Central through the Logical Client API, a JSON API originally built to render pages on Windows, web and mobile clients. Because an LLM is stateless, the runtime keeps partial memory of visited pages, search results and agent notes and includes it in later prompts.\n\nThe talk then covers the supporting prompts: input content analysis, output validation, grounding with a second LLM call, loop detection with recovery nudges, and timeline grouping. It ends with model selection (mini vs full models, reasoning models tested and found too slow), scenario-based accuracy and challenge tests, prompt tuning when models change, and planned work such as MCP tools, cross-task memory and knowledge base access.",
   "key_points": [
-    "The Logical Client API gives agents page fields, actions and tooltips as JSON. It was built for rendering clients, not for AI, and is reused for agents.",
-    "LLM calls are stateless, so the runtime keeps partial memory (visited pages, search results, agent notes) and includes it in later prompts. Memory currently lasts only within one task.",
-    "Grounding uses a second LLM prompt to check that generated content with data matches data the agent has seen. It costs two calls instead of one and is good but not perfect.",
-    "Loop detection separates expected repetition from true loops. When it finds one, the runtime speaks as the user and tells the agent to get out of it. If that fails, the user must intervene.",
-    "The runtime uses many prompts (about 20 per one feature description) and more than one model. Simple prompts like summarization and grounding can often use mini models, while execute task uses a full model.",
-    "Reasoning models (GPT-o1, GPT-5 with reasoning) added significant latency for execute task with no clear accuracy benefit so far. The team keeps re-evaluating.",
-    "Tests check that goals are reached, not exact steps. They are split into accuracy tests and challenge tests, and no model upgrade has worked without some prompt tweaks."
+    "The Logical Client API gives agents page fields, actions and tooltips as JSON. It existed long before AI to render the Windows, web and mobile clients, and is reused for agents.",
+    "LLM calls are stateless, so the runtime keeps memory (visited pages, search results, notes the agent writes) and includes it in later prompts. Today that memory lasts only within the current task.",
+    "Grounding uses a second LLM prompt as an evaluator to check that generated content with data matches data the agent has seen. It costs two LLM calls instead of one.",
+    "Loop detection separates expected repetition from true loops. When it finds one, the runtime speaks as the user and tells the agent to get out of it. If that fails, a user must intervene.",
+    "The runtime uses many prompts (the host guessed 11, Esteban said nowadays more like 20) and more than one model. Simpler prompts like summarization and grounding can often use mini models, while execute task, the most complex prompt, uses a full model.",
+    "Reasoning models (o1, GPT-5 with reasoning) added significant latency for execute task with no clear benefit for this use case so far. The team keeps re-evaluating.",
+    "Tests check that the goal is reached, not exact steps. They are split into accuracy tests and challenge tests, and every model upgrade so far has needed some prompt tweaks."
   ],
   "audience": [
     "developer",

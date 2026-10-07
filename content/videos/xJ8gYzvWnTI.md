@@ -16,12 +16,12 @@ tags:
   - custom agents
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:20.509Z"
   flags: []
 generated:
-  at: "2026-10-07T00:17:53.935Z"
+  at: "2026-10-07T22:49:20.539Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -180,7 +180,7 @@ quotes:
 
 > Business Central 2026 release wave 1 user experience changes, focused on working with agents: a dedicated agent task pane, created/updated by system columns, a review bar for agent changes, a cancel all agent tasks action, an updated icon and a new feedback button.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xJ8gYzvWnTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 6:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xJ8gYzvWnTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 6:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,17 +208,17 @@ The video demos the agent task pane, the system columns, the review bar and the 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Updated Business Central icon | status not stated | [0:19](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=19s) |  |
-| Dedicated agent task pane | generally available (roadmap [573363](../features/573363.md)), demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |  |
-| Sales order agent | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
-| Payables agent | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
-| Custom agents capability | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
-| Created/updated by system columns | generally available (roadmap [573364](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |  |
-| Review bar for agent changes | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |  |
-| Cancel all agent tasks action | status not stated | [4:38](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=278s) |  |
-| Enhanced feedback experience | status not stated | [5:25](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=325s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Updated Business Central icon | status not stated | [0:19](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=19s) |
+| Dedicated agent task pane | generally available (roadmap [573363](../features/573363.md)), demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |
+| Sales order agent | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
+| Payables agent | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
+| Custom agents capability | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
+| Created/updated by system columns | generally available (roadmap [573364](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |
+| Review bar for agent changes | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |
+| Cancel all agent tasks action | status not stated | [4:38](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=278s) |
+| Enhanced feedback experience | status not stated | [5:25](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=325s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

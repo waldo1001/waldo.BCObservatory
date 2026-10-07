@@ -18,18 +18,32 @@ tags:
   - analysis tabs
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:33.807Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:33.854Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: c94436445b26e57eac0720d94a2287da7ad9d999847f61073dfabf95fd0c3303
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=qCqe8uw8Od4&t=379s
+    title: "Legacy Inventory Report Deprecation: announced"
+    date: "2026-04-01T12:01:02.000Z"
+    commit: null
+    t: 379
+    quote: then we are deprecating four the the four reports will will be removed from the product over the next three release
+  - kind: video
+    url: https://www.youtube.com/watch?v=qCqe8uw8Od4&t=459s
+    title: "Analysis Views for Item Ledger Entries: announced"
+    date: "2026-04-01T12:01:02.000Z"
+    commit: null
+    t: 459
+    quote: for item ledger entries in version 28.x we will add these four new um pre-built analysis views
   - kind: video
     url: https://www.youtube.com/watch?v=qCqe8uw8Od4&t=16s
     title: "What's New: Enhanced Inventory Analytics (2026 release wave 1)"
@@ -64,7 +78,7 @@ evidence:
     date: "2026-04-01T12:01:02.000Z"
     commit: null
     t: 399
-    quote: this is coming in 21 28.x
+    quote: All of this is available in 28.0. Um And then we got some feedback
   - kind: video
     url: https://www.youtube.com/watch?v=qCqe8uw8Od4&t=413s
     title: "What's New: Enhanced Inventory Analytics (2026 release wave 1)"
@@ -141,9 +155,9 @@ features:
     verified: false
     status_source: video
   - name: Legacy Inventory Report Deprecation
-    status: unclear
+    status: announced
     t: 379
-    verified: false
+    verified: true
     status_source: video
   - name: Inventory Report Subtotals
     status: unclear
@@ -151,9 +165,9 @@ features:
     verified: false
     status_source: video
   - name: Analysis Views for Item Ledger Entries
-    status: unclear
+    status: announced
     t: 447
-    verified: false
+    verified: true
     status_source: video
   - name: Inventory Analytics Help and Discoverability
     status: unclear
@@ -177,7 +191,7 @@ quotes:
     text: in the German and Swiss version of Business Central it actually had ABC analysis already whereas other localizations did not
     check: exact
   - t: 399
-    text: this is coming in 21 28.x
+    text: All of this is available in 28.0. Um And then we got some feedback
     check: exact
   - t: 413
     text: in 28.0 versions the inventory reports do not have subsections or subtotals
@@ -191,7 +205,7 @@ quotes:
 
 > Enhanced inventory analytics in Business Central 2026 release wave 1: ABC analysis in Power BI and Excel, an Item Age Composition report, eight reports moved to Excel and Word layouts, four legacy reports to be deprecated, and subtotals and analysis views planned for 28.x.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qCqe8uw8Od4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:08 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qCqe8uw8Od4) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 13:08 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -227,9 +241,9 @@ It also covers modernizing inventory reports. Eight reports get Excel and Word l
 | ABC Analysis Setup Page | status not stated | [3:59](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=239s) |  |
 | Item Age Composition Report | status not stated, demoed | [5:14](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=314s) |  |
 | Excel and Word Layout Modernization | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=360s) |  |
-| Legacy Inventory Report Deprecation | status not stated | [6:19](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=379s) |  |
+| Legacy Inventory Report Deprecation | announced | [6:19](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=379s) | "then we are deprecating four the the four reports will will be removed from the product over the next three release" ([6:19](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=379s)) |
 | Inventory Report Subtotals | status not stated | [6:53](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=413s) |  |
-| Analysis Views for Item Ledger Entries | status not stated | [7:27](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=447s) |  |
+| Analysis Views for Item Ledger Entries | announced | [7:27](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=447s) | "for item ledger entries in version 28.x we will add these four new um pre-built analysis views" ([7:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=459s)) |
 | Inventory Analytics Help and Discoverability | status not stated | [4:33](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=273s) |  |
 
 ## AL objects mentioned
@@ -247,7 +261,7 @@ Not found in BC28-30: table "Item Ledger Entries".
 - [0:51](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=51s) "Everything you could do back 6 12 months ago with legacy reports in IDE you can now do either with Power BI with Excel"
 - [1:52](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=112s) "you are categorizing your inventory in three A B and C types. You define what's the percentage of your sales that should be class"
 - [2:45](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=165s) "in the German and Swiss version of Business Central it actually had ABC analysis already whereas other localizations did not"
-- [6:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=399s) "this is coming in 21 28.x"
+- [6:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=399s) "All of this is available in 28.0. Um And then we got some feedback"
 - [6:53](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=413s) "in 28.0 versions the inventory reports do not have subsections or subtotals"
 - [7:39](https://www.youtube.com/watch?v=qCqe8uw8Od4&t=459s) "for item ledger entries in version 28.x we will add these four new um pre-built analysis views so that when you open that in"
 

@@ -17,12 +17,12 @@ tags:
   - user experience
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:47.573Z"
   flags: []
 generated:
-  at: "2026-10-06T16:54:02.700Z"
+  at: "2026-10-07T22:48:47.615Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,6 +36,13 @@ evidence:
     commit: null
     t: 243
     quote: we want to make the experience easier for everybody and that's why in preview we are releasing a new action.
+  - kind: video
+    url: https://www.youtube.com/watch?v=mS6NDhj20yI&t=674s
+    title: "Modernized report selection pages: announced"
+    date: "2026-04-08T10:03:00.000Z"
+    commit: null
+    t: 674
+    quote: As part of this, we also modernized the report selection pages in the application. This is coming in 28.x.
   - kind: video
     url: https://www.youtube.com/watch?v=mS6NDhj20yI&t=45s
     title: "What's New: Enhanced Document Reporting (2026 release wave 1)"
@@ -154,9 +161,9 @@ features:
     verified: false
     status_source: video
   - name: Modernized report selection pages
-    status: unclear
+    status: announced
     t: 664
-    verified: false
+    verified: true
     status_source: video
   - name: 36 new document type APIs
     status: unclear
@@ -189,7 +196,7 @@ quotes:
 
 > Enhanced document reporting in Business Central 2026 release wave 1: Word add-in data picker improvements, a preview insert table action, layout lifecycle states for user-defined layouts, a company-level default document language, modernized report selection pages (28.x) and 36 new document type APIs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mS6NDhj20yI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 18:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mS6NDhj20yI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 18:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,11 +207,11 @@ It then covers layout management and multi-language support. User-defined layout
 ## Key points
 
 - The insert table action in the Word add-in data control section is in preview. It lets you set columns, headers and data items in one place.
-- The data picker now has a filter section for searching fields across levels and labels, double-click insertion, automatic cursor movement in tables and dark mode.
+- The data picker now has a filter section for searching fields across levels and labels, double-click insertion, automatic cursor movement in tables and dark mode; these are available in both the preview and release versions of the Word add-in.
 - User-defined layouts can be set to draft, pending approval, approved or retired. Only approved layouts appear on report request pages.
 - Layout lifecycle applies only to user-defined layouts, not to app-deployed layouts, in this release wave.
 - A company-level default language is used for documents when the customer card has no language specified, even if the user works in another language such as French.
-- Modernized report selection pages with teaching tips and aligned captions and categories are coming in 28.x, which is subject to change.
+- Modernized report selection pages with teaching tips and aligned captions and categories are coming in 28.x.
 - 36 new APIs cover sales, purchasing, inventory and assembly document types, for use with Copilot Studio and other automations.
 
 ## Chapters
@@ -230,7 +237,7 @@ It then covers layout management and multi-language support. User-defined layout
 | Layout lifecycle and status management | status not stated, demoed | [5:55](https://www.youtube.com/watch?v=mS6NDhj20yI&t=355s) |  |
 | Company-level default language for documents | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=mS6NDhj20yI&t=497s) |  |
 | Refactored tooltips on table level | status not stated | [10:44](https://www.youtube.com/watch?v=mS6NDhj20yI&t=644s) |  |
-| Modernized report selection pages | status not stated, demoed | [11:04](https://www.youtube.com/watch?v=mS6NDhj20yI&t=664s) |  |
+| Modernized report selection pages | announced, demoed | [11:04](https://www.youtube.com/watch?v=mS6NDhj20yI&t=664s) | "As part of this, we also modernized the report selection pages in the application. This is coming in 28.x." ([11:14](https://www.youtube.com/watch?v=mS6NDhj20yI&t=674s)) |
 | 36 new document type APIs | status not stated | [11:51](https://www.youtube.com/watch?v=mS6NDhj20yI&t=711s) |  |
 
 ## Quotes

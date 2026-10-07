@@ -1,0 +1,27 @@
+{
+  "video_id": "XGEDwzIZQj4",
+  "item_id": "video/yt-microsoft/XGEDwzIZQj4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five kept quotes are exact transcript spans; the 447 quote runs into the next segment, which is fine.",
+    "The summary and key points match the transcript, including 68.5% resolution over five runs, overlapping confidence intervals, the supported agent harnesses, MIT license and the fork option.",
+    "All features are left as unclear. BC-Bench is a public GitHub tool, not a Business Central feature, and the transcript gives no preview or GA status.",
+    "The page leaves out how much the models have improved: pass at five went up tenfold in 12 months compared with GPT-4.1, and Opus 4.6 is a measurable improvement over Opus 4.5. I added a quote and a key point for this.",
+    "Captions spell Claude Code as 'Cloud Code'. The page keeps the caption wording."
+  ],
+  "input_hash": "e78db6ed484f250efdf5c2bc53e6dd80b95ba8688f502e602ec05a1e09d796d1",
+  "by": "opus",
+  "at": "2026-10-07T22:49:06.604Z",
+  "applied": [
+    "quote at 654s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.08740500000000001
+  }
+}

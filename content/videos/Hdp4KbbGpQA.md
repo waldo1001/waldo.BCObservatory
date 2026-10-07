@@ -20,12 +20,12 @@ tags:
   - software engineering tasks
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:27.770Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:27.830Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,6 +103,13 @@ evidence:
     t: 892
     quote: We did see an increase on the average accuracy or what we call resolution rate. But there is a overlap on the confidence interval.
   - kind: video
+    url: https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=931s
+    title: "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks"
+    date: "2026-05-07T14:00:23.000Z"
+    commit: null
+    t: 931
+    quote: We provided some feedback to the developer experience team and now we have a new version of AL2 MCP server.
+  - kind: video
     url: https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=968s
     title: "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks"
     date: "2026-05-07T14:00:23.000Z"
@@ -123,13 +130,6 @@ evidence:
     commit: null
     t: 1260
     quote: the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the
-  - kind: video
-    url: https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1338s
-    title: "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks"
-    date: "2026-05-07T14:00:23.000Z"
-    commit: null
-    t: 1338
-    quote: with that the ability to run test we would get say resolution of say a 40% or something and and then so the agent
   - kind: video
     url: https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s
     title: "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks"
@@ -277,16 +277,6 @@ features:
     t: 1619
     verified: false
     status_source: video
-  - name: Agent runtime with page introspection
-    status: unclear
-    t: 1593
-    verified: false
-    status_source: video
-  - name: BC-Bench model ranking
-    status: unclear
-    t: 1619
-    verified: false
-    status_source: video
   - name: AL code parity with Python
     status: unclear
     t: 1697
@@ -337,6 +327,9 @@ quotes:
   - t: 892
     text: We did see an increase on the average accuracy or what we call resolution rate. But there is a overlap on the confidence interval.
     check: exact
+  - t: 931
+    text: We provided some feedback to the developer experience team and now we have a new version of AL2 MCP server.
+    check: exact
   - t: 968
     text: If we figure out this tool doesn't make any difference then we don't need to support it anymore and then we can focus our
     check: exact
@@ -345,9 +338,6 @@ quotes:
     check: exact
   - t: 1260
     text: the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the
-    check: exact
-  - t: 1338
-    text: with that the ability to run test we would get say resolution of say a 40% or something and and then so the agent
     check: exact
   - t: 1619
     text: Cloud Opus 45 is the best model we have access so far and it outperforms than any other models we have access to through
@@ -376,7 +366,7 @@ quotes:
 
 > BC-Bench is Microsoft's offline benchmark for measuring how coding agents perform on real AL bug-fixing tasks in Business Central. The episode covers its method, the 66-task dataset, early results for the AL2 MCP server, model ranking (Claude Opus 4.5 best) and planned categories.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Hdp4KbbGpQA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-07 · 31:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Hdp4KbbGpQA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-05-07 · 31:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -386,13 +376,13 @@ The team uses the benchmark to compare models and to decide whether tooling such
 
 ## Key points
 
-- BC-Bench is an offline evaluation framework for coding agents on real AL engineering tasks. It currently covers bug fixing only, with 66 tasks at the time of recording and a dataset that keeps growing.
-- Method: take a historical bug, recreate the code state at that time, let the agent fix it, and validate with the original unit tests.
-- Task criteria: a pull request must resolve exactly one bug, full context must be available, and the tests must be independent of the fix.
-- AL2 MCP server (compile, symbol finding, test running) showed a higher average resolution rate, but overlapping confidence intervals mean the impact is not conclusively proven. The team says tools with no measurable difference may stop being supported.
-- Comparisons used a mini BC agent (about 200 lines of Python, with only PowerShell and Microsoft Foundry endpoint access) and the terminal variant of GitHub Copilot agent.
-- Claude Opus 4.5 is the best-performing model among those available through GitHub Copilot. The ranking is close to SWE Bench Python results, and AL performance is roughly equal to Python.
-- Planned items: test generation, code review, refactoring and possibly feature addition categories; running tests via the MCP server; a public BC-Bench; a partner dataset. No timelines were given.
+- BC-Bench is an offline evaluation framework for coding agents on real AL engineering tasks. It is an internal developer tool, not a product feature. It currently covers bug fixing only, with 66 tasks at the time of recording and a dataset that keeps growing.
+- Method (adapted from SWE Bench): take a historical bug, recreate the code state at that time from a base commit, let the agent fix it, and validate with the original unit tests. Tests run through AL-Go and BC Container Helper.
+- Task criteria: a pull request must resolve exactly one bug, the bug must include full context, and the tests must not depend on the fix (for example, exact error messages).
+- The AL2 MCP server brings AL language extension tools such as compile and symbol finding to agents. It showed a higher average resolution rate, but the confidence intervals overlap, so the improvement is not conclusive. A new version has been built based on BC-Bench feedback.
+- Comparisons used a mini BC agent (about 200 lines of Python, with only PowerShell and Microsoft Foundry endpoint access) and a terminal/pipeline variant of the GitHub Copilot agent. Custom instructions and skills can also be varied.
+- Claude Opus 4.5 is the best-performing model among those available through GitHub Copilot. The ranking is close to SWE Bench Python results, and AL performance is roughly equal to Python, even though there are over 2 million public Python repositories and only about 300 AL ones.
+- Planned items: test generation, code review and refactoring categories, possibly feature addition, running tests via the MCP server, a public BC-Bench and a partner dataset. No timelines were given.
 
 ## Chapters
 
@@ -412,23 +402,21 @@ The team uses the benchmark to compare models and to decide whether tooling such
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| BC Bench | status not stated | [0:11](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=11s) |  |
-| AL2 MCP Server | status not stated | [13:16](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=796s) |  |
-| Mini BC Agent | status not stated | [17:05](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1025s) |  |
-| GitHub Copilot Agent Terminal Variant | status not stated | [17:42](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1062s) |  |
-| Test Generation Category | status not stated | [20:14](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1214s) |  |
-| Code Review Category | status not stated | [20:26](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1226s) |  |
-| Test Execution via MCP | status not stated | [21:00](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1260s) |  |
-| Code Refactoring Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |  |
-| Feature Addition Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |  |
-| Claude Opus 4.5 Performance | status not stated | [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) |  |
-| Agent runtime with page introspection | status not stated | [26:33](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1593s) |  |
-| BC-Bench model ranking | status not stated | [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) |  |
-| AL code parity with Python | status not stated | [28:17](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1697s) |  |
-| Public BC-Bench dataset | status not stated | [29:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1799s) |  |
-| Partner dataset for BC-Bench | status not stated | [31:13](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1873s) |  |
+| Feature | Status | At |
+|---|---|---|
+| BC Bench | status not stated | [0:11](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=11s) |
+| AL2 MCP Server | status not stated | [13:16](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=796s) |
+| Mini BC Agent | status not stated | [17:05](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1025s) |
+| GitHub Copilot Agent Terminal Variant | status not stated | [17:42](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1062s) |
+| Test Generation Category | status not stated | [20:14](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1214s) |
+| Code Review Category | status not stated | [20:26](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1226s) |
+| Test Execution via MCP | status not stated | [21:00](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1260s) |
+| Code Refactoring Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
+| Feature Addition Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
+| Claude Opus 4.5 Performance | status not stated | [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) |
+| AL code parity with Python | status not stated | [28:17](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1697s) |
+| Public BC-Bench dataset | status not stated | [29:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1799s) |
+| Partner dataset for BC-Bench | status not stated | [31:13](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1873s) |
 
 ## AL objects mentioned
 
@@ -450,10 +438,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [14:01](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=841s) "having BC bench because we'll know that we we we are going to invest into adding more tools to to the Visual Studio code"
 - [14:41](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=881s) "the short answer is not conclusively. We we run them we actually did a rigorous analysis on on this AL2 MCP server. We run"
 - [14:52](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=892s) "We did see an increase on the average accuracy or what we call resolution rate. But there is a overlap on the confidence interval."
+- [15:31](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=931s) "We provided some feedback to the developer experience team and now we have a new version of AL2 MCP server."
 - [16:08](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=968s) "If we figure out this tool doesn't make any difference then we don't need to support it anymore and then we can focus our"
 - [17:56](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1076s) "No, it is a well, it's similar to GitHub copilot in Visual Studio code but designed for to be running in terminal and in"
 - [21:00](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1260s) "the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the"
-- [22:18](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1338s) "with that the ability to run test we would get say resolution of say a 40% or something and and then so the agent"
 - [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) "Cloud Opus 45 is the best model we have access so far and it outperforms than any other models we have access to through"
 - [27:45](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1665s) "the ranking we see for for PC bench is more or less the same, isn't it? Yes. Yes. And that's So that's that's comforting"
 - [27:45](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1665s) "the the ranking we see for for PC bench is more or less the same, isn't it?"

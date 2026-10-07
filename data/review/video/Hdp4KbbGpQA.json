@@ -1,0 +1,38 @@
+{
+  "video_id": "Hdp4KbbGpQA",
+  "item_id": "video/yt-microsoft/Hdp4KbbGpQA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Agent runtime with page introspection' comes from a speculative aside about the BC agent runtime. It is not a BC-Bench capability, so I dropped it.",
+    "Feature 'BC-Bench model ranking' repeats 'Claude Opus 4.5 Performance', so I dropped it.",
+    "The AL2 MCP server key point lists test running as a current tool. The transcript says 'maybe running tests' and later calls running tests via MCP the next planned item. I corrected the key point.",
+    "The quote at 1338 is the host's muddled hypothetical about a 40% resolution rate. It is misleading, so I dropped it.",
+    "Two quotes share t 1665.5 and overlap. I kept them because dropping by t would remove both.",
+    "Several roadmap items are stated as plans in the transcript, so I set them to announced with verbatim evidence. Feature addition is only 'potentially', so it stays unclear.",
+    "'Cloud Opus 45' in the captions is read as Claude Opus 4.5, which is a reasonable reading."
+  ],
+  "input_hash": "88e1efc79cf5a7a35eca7d218ad440ed7b2ede327eea7c5ea43b34f8cb27db5a",
+  "by": "opus",
+  "at": "2026-10-07T22:48:27.770Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 1 quote(s)",
+    "quote at 932s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Test Generation Category -> announced: evidence not verbatim or does not state the status",
+    "status Code Review Category -> announced: evidence not verbatim or does not state the status",
+    "status Test Execution via MCP -> announced: evidence not verbatim or does not state the status",
+    "status Code Refactoring Category -> announced: evidence not verbatim or does not state the status",
+    "status Public BC-Bench dataset -> announced: evidence not verbatim or does not state the status",
+    "status Partner dataset for BC-Bench -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.198157
+  }
+}

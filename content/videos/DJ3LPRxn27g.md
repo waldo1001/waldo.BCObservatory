@@ -16,12 +16,12 @@ tags:
   - order planning
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:03.453Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:03.495Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     t: 233
     quote: So now you can do it from the sales order page, from order planning page or from the planning worksheet
   - kind: video
+    url: https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s
+    title: "What's New: Drop Shipments (2026 release wave 1)"
+    date: "2026-04-01T12:01:27.000Z"
+    commit: null
+    t: 364
+    quote: We only create this document then we scroll down to invoice details and activate the new toggle receipt on invoice
+  - kind: video
     url: https://www.youtube.com/watch?v=DJ3LPRxn27g&t=457s
     title: "What's New: Drop Shipments (2026 release wave 1)"
     date: "2026-04-01T12:01:27.000Z"
@@ -71,12 +78,12 @@ evidence:
     t: 457
     quote: I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a
   - kind: video
-    url: https://www.youtube.com/watch?v=DJ3LPRxn27g&t=570s
+    url: https://www.youtube.com/watch?v=DJ3LPRxn27g&t=519s
     title: "What's New: Drop Shipments (2026 release wave 1)"
     date: "2026-04-01T12:01:27.000Z"
     commit: null
-    t: 570
-    quote: Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents
+    t: 519
+    quote: it's the only one which is not invoiced on purchase side and we use the undo shipment to cancel
 links:
   learn: []
   objects:
@@ -179,11 +186,14 @@ quotes:
   - t: 233
     text: So now you can do it from the sales order page, from order planning page or from the planning worksheet
     check: exact
+  - t: 364
+    text: We only create this document then we scroll down to invoice details and activate the new toggle receipt on invoice
+    check: exact
   - t: 457
     text: I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a
     check: exact
-  - t: 570
-    text: Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents
+  - t: 519
+    text: it's the only one which is not invoiced on purchase side and we use the undo shipment to cancel
     check: exact
 ---
 
@@ -191,7 +201,7 @@ quotes:
 
 > Drop shipment changes in Business Central 2026 release wave 1: flexible operation sequences, a get order lines function, more ways to create purchase documents, drop shipment support in order planning, a receipt on invoice toggle, and undo shipment. All are demoed in three scenarios.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DJ3LPRxn27g) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:19 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DJ3LPRxn27g) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:19 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -201,13 +211,13 @@ It also covers new ways to create drop shipment purchase documents, drop shipmen
 
 ## Key points
 
-- Previously the order was fixed: post receipt/shipment, then sales invoice, then purchase invoice. In 2026 wave 1 purchase and sales operations can be processed independently.
-- Drop shipment purchase documents can be created from the sales order page, order planning page, planning worksheet, requisition worksheet, or directly in a purchase order. Before, only the requisition worksheet or one-by-one purchase order creation was available.
-- The order planning page now calculates sales demand including drop shipment lines.
-- The receipt on invoice toggle on purchase invoices posts receipt and invoice together and updates the related purchase order and shipment automatically. It requires matching with orders.
-- Get order lines is a more elaborate replacement for get receipt lines, for invoices connected to multiple orders or receipts. Some scenarios require the receipt on invoice toggle.
-- A purchase order can be posted as receipt and invoice in one operation, and the shipment is updated automatically.
-- Undo shipment works for drop shipments, to cancel the transaction and return items to the vendor for reprocessing.
+- Previously the order was fixed: post receipt/shipment, then sales invoice, then purchase invoice. In 2026 wave 1 the sales and purchase invoices can be posted in either order, so the purchase side can be handled independently of the sales side.
+- Drop shipment purchase documents can now also be created from the sales order page (Actions > Functions > Create Purchase Document > Create Purchase Order), the order planning page, or the planning worksheet. Before, only the requisition worksheet (Get Sales Orders) or one-by-one creation from a purchase order was available.
+- The order planning page now includes drop shipment lines when calculating sales demand. The planning worksheet has a new drop shipment group with a get order lines action.
+- A drop shipment purchase order can be posted as receipt and invoice in one step, and the shipment is updated automatically.
+- Get order lines is a more elaborate replacement for get receipt lines, for example when an invoice is connected to multiple orders or receipts.
+- If the receipt on invoice toggle is turned on in the invoice details of the drop shipment purchase order, you can post a purchase invoice built with get order lines. The purchase order is then shown as received and invoiced without being posted manually.
+- Undo shipment now works for drop shipments. In the demo it was used on the shipment not yet invoiced on the purchase side, which returned the item to the vendor so it could be processed again.
 
 ## Chapters
 
@@ -222,15 +232,15 @@ It also covers new ways to create drop shipment purchase documents, drop shipmen
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Flexible Drop Shipment Operation Sequences | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=32s) |  |
-| Get Order Lines Functionality | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=152s) |  |
-| Multiple Purchase Document Creation Methods | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=206s) |  |
-| Drop Shipment Support in Order Planning | status not stated, demoed | [4:06](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=246s) |  |
-| Receipt on Invoice Toggle | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s) |  |
-| Undo Shipment for Drop Shipments | status not stated, demoed | [8:28](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=508s) |  |
-| Direct Receipt and Invoice Posting in Purchase Order | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=112s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Flexible Drop Shipment Operation Sequences | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=32s) |
+| Get Order Lines Functionality | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=152s) |
+| Multiple Purchase Document Creation Methods | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=206s) |
+| Drop Shipment Support in Order Planning | status not stated, demoed | [4:06](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=246s) |
+| Receipt on Invoice Toggle | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s) |
+| Undo Shipment for Drop Shipments | status not stated, demoed | [8:28](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=508s) |
+| Direct Receipt and Invoice Posting in Purchase Order | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=112s) |
 
 ## AL objects mentioned
 
@@ -253,5 +263,6 @@ Not found in BC28-30: page "requisition worksheet", page "shipment".
 - [1:52](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=112s) "now most scenarios are unlocked again you starting the same way you post receipt maybe shipment like together"
 - [2:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=152s) "we also have a functionality which is called order get order lines. You can use get order lines as a more elaborate replacement for"
 - [3:53](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=233s) "So now you can do it from the sales order page, from order planning page or from the planning worksheet"
+- [6:04](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s) "We only create this document then we scroll down to invoice details and activate the new toggle receipt on invoice"
 - [7:37](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=457s) "I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a"
-- [9:30](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=570s) "Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents"
+- [8:39](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=519s) "it's the only one which is not invoiced on purchase side and we use the undo shipment to cancel"

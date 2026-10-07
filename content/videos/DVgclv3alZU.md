@@ -18,12 +18,12 @@ tags:
   - power bi apps
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:38.678Z"
   flags: []
 generated:
-  at: "2026-10-06T16:51:15.927Z"
+  at: "2026-10-07T22:48:38.712Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -174,7 +174,7 @@ quotes:
 
 > Business Central 2026 release wave 1 Power BI and Excel changes: a five-click Power BI demo deployment for demo companies, Excel pivot tables on Power BI semantic models, agentic Excel, calendar configuration guidance, and updated Power BI Subscription Billing, Sales and Inventory apps.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DVgclv3alZU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 14:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DVgclv3alZU) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 14:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -206,15 +206,15 @@ It also describes using Excel with Power BI apps through Get Data from Fabric to
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Five Clicks to Power BI Demo | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=DVgclv3alZU&t=91s) |  |
-| Excel as Client for Power BI Semantic Models | status not stated | [4:57](https://www.youtube.com/watch?v=DVgclv3alZU&t=297s) |  |
-| Agentic Excel Capabilities | status not stated | [6:31](https://www.youtube.com/watch?v=DVgclv3alZU&t=391s) |  |
-| Calendar Configuration for Power BI Apps | status not stated | [7:46](https://www.youtube.com/watch?v=DVgclv3alZU&t=466s) |  |
-| Power BI Subscription Billing App Updates | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |  |
-| Power BI Sales App - Customer Retention Analysis | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |  |
-| Power BI Inventory App - ABC Analysis | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Five Clicks to Power BI Demo | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=DVgclv3alZU&t=91s) |
+| Excel as Client for Power BI Semantic Models | status not stated | [4:57](https://www.youtube.com/watch?v=DVgclv3alZU&t=297s) |
+| Agentic Excel Capabilities | status not stated | [6:31](https://www.youtube.com/watch?v=DVgclv3alZU&t=391s) |
+| Calendar Configuration for Power BI Apps | status not stated | [7:46](https://www.youtube.com/watch?v=DVgclv3alZU&t=466s) |
+| Power BI Subscription Billing App Updates | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |
+| Power BI Sales App - Customer Retention Analysis | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |
+| Power BI Inventory App - ABC Analysis | status not stated | [8:37](https://www.youtube.com/watch?v=DVgclv3alZU&t=517s) |
 
 ## Quotes
 

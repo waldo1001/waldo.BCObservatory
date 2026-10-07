@@ -1,0 +1,30 @@
+{
+  "video_id": "uxQRfChp96c",
+  "item_id": "video/yt-microsoft/uxQRfChp96c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at t=789.2 appears twice, once as a lowercase copy. I dropped both and re-added one clean span.",
+    "Key point overreach: the transcript says draft and retired are blocked in the sample setup and that a blocked definition is not ready to use, with a notification and different styling. It does not say blocked states prevent use. It also says authors can define their own states. Key point reworded.",
+    "The transcript says the dimension perspective output also works for Excel, with one worksheet per dimension value. This was added to the key points.",
+    "The transcript hedges the category count ('I think, 10'). The key point now reflects that.",
+    "No release status is stated for any feature, so 'unclear' is correct throughout. The summary is accurate."
+  ],
+  "input_hash": "2aa7ed5f0c7f3dcf01aeaff022f9e6f78dbc3f7e30eb3e6da3a726de3d3c0c4d",
+  "by": "opus",
+  "at": "2026-10-07T22:49:46.954Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 789s",
+    "quote at 287s",
+    "quote at 647s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.135741
+  }
+}

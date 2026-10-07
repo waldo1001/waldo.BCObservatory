@@ -16,12 +16,12 @@ tags:
   - power platform
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:23.955Z"
   flags: []
 generated:
-  at: "2026-10-06T17:05:21.324Z"
+  at: "2026-10-07T22:49:23.992Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,7 +168,7 @@ quotes:
 
 > Business Central integration with Microsoft Copilot Studio (2026 release wave 1): building a no-code agent that reaches Business Central through the Power Platform connector or the MCP server, publishing it to Teams and Microsoft 365 Copilot chat, and how Copilot credits apply to licensing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GK6hM-nBYZk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GK6hM-nBYZk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 9:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -198,15 +198,15 @@ A demo builds a laptop agent in Copilot Studio and then uses it in Microsoft 365
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Studio Agent Building | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=7s) |  |
-| MCP Server for Business Central | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=162s) |  |
-| Business Central Power Platform Connector | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=147s) |  |
-| Copilot Studio Agent Knowledge Sources | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=233s) |  |
-| Copilot Studio Multi-Tool Support | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=310s) |  |
-| Publishing Agents to Multiple Channels | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=106s) |  |
-| Copilot Studio Licensing Model | status not stated | [7:48](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=468s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Studio Agent Building | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=7s) |
+| MCP Server for Business Central | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=162s) |
+| Business Central Power Platform Connector | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=147s) |
+| Copilot Studio Agent Knowledge Sources | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=233s) |
+| Copilot Studio Multi-Tool Support | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=310s) |
+| Publishing Agents to Multiple Channels | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=106s) |
+| Copilot Studio Licensing Model | status not stated | [7:48](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=468s) |
 
 ## Quotes
 

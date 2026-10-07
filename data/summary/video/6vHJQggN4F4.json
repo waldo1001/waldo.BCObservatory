@@ -7,10 +7,10 @@
     "Item variants can have images, and these are exported to Shopify with the product so each variant shows its own image in the online store.",
     "The item attributes setup page gets a new column for choosing which attributes export as Shopify options. It only shows when the Shopify connector is installed with stores connected.",
     "Not every attribute is exported as an option. Some are only added to the product description.",
-    "Collections are configured on the Shopify shop card. Item categories determine which collections items are assigned to on export. Collections must be imported from Shopify first or set up manually.",
+    "Custom product collections are configured on the Shopify shop card. You can start by importing collections from Shopify, then use rules such as item category to decide which collections items are assigned to on export.",
     "Items with reduced or non-standard tax rates can be put in a collection configured as tax override, so Shopify applies the correct tax.",
-    "The 'add item as Shopify variant' function turns separate items into variants of a parent item. Their prices are synchronized, so variants can have different prices.",
-    "Importing products from Shopify synchronizes images. Marketing text is imported only if the marketing text toggle is enabled on the Shopify shop card."
+    "The 'add item as Shopify variant' function presents separate Business Central items as variants of a parent item in Shopify. This is useful when you keep a flat item list, for example because assembly BOMs can only be connected to the parent item. Each item keeps its own price, so variant prices can differ.",
+    "Importing products from Shopify synchronizes images. Marketing text is also imported when the marketing text toggle is enabled on the Shopify shop card."
   ],
   "audience": [
     "functional consultant",

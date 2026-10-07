@@ -298,6 +298,12 @@
       "check": "exact"
     },
     {
+      "t": 378.1,
+      "text": "you can disable the test integration in VS Code using the AL disable test running setting.",
+      "why_it_matters": "Shows how to opt out of the integration when it clashes with existing third-party test tooling.",
+      "check": "exact"
+    },
+    {
       "t": 404.5,
       "text": "giving the agent the ability to run and validate its own AL test own AL code using tests um significantly improves the accuracy of",
       "why_it_matters": "States the design decision and benefit that agent self-validation through test execution improves agentic development accuracy.",

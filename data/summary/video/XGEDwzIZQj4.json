@@ -7,10 +7,10 @@
     "BC-Bench tests combinations of LLM model, MCP server, instructions and agent harness on real Business Central bugs from Microsoft's backlog.",
     "Each benchmark task contains the bug description and repro steps as the problem statement, the BC developer's unit test, and the expected fix.",
     "Mean resolution rate is averaged over five runs and shown with a 95% confidence interval; one example setup reached 68.5%.",
-    "If confidence intervals overlap, the setups cannot be confidently compared, since the difference could be a fluke.",
+    "If confidence intervals overlap, the setups cannot be confidently compared, since the difference could be a fluke; non-overlapping intervals showed Opus 4.6 is an improvement over Opus 4.5.",
     "Pass at five measures how consistently the agent resolves the same tasks across all five runs; average execution time is also reported.",
-    "Only Cloud Code and GitHub Copilot harnesses are supported currently; trying it needs a GitHub account and a subscription to one of them.",
-    "The repository is public under the MIT license. You can contribute tasks or fork it and replace the Microsoft-based dataset with your own to benchmark private code."
+    "Compared with a GPT-4.1 run, the pass at five metric increased tenfold in about 12 months.",
+    "A version column records BC-Bench and agent harness updates instead of rerunning all results after every update."
   ],
   "audience": [
     "developer",

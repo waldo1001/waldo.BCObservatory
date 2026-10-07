@@ -260,15 +260,21 @@
       "check": "exact"
     },
     {
+      "t": 320.8,
+      "text": "One of them it's maybe using assembly bill of material, which can be only connected to the parent item, and not to variant.",
+      "why_it_matters": "Explains why you might keep a flat item list in Business Central and use the add item as Shopify variant function.",
+      "check": "exact"
+    },
+    {
       "t": 332,
       "text": "we can utilize function which is called add item as a Shopify variant, and add couple of more items",
       "why_it_matters": "Introduces functionality to convert individual Business Central items into Shopify variants for flexible catalog management.",
       "check": "exact"
     },
     {
-      "t": 385.4,
-      "text": "you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided",
-      "why_it_matters": "Shows that bidirectional synchronization is supported - items can be created in Business Central from Shopify products.",
+      "t": 360.4,
+      "text": "you can notice that price is changing as well. So, apparently the number of seats and number and price is very much related.",
+      "why_it_matters": "Shows that items added as variants keep their own prices in Shopify.",
       "check": "exact"
     },
     {

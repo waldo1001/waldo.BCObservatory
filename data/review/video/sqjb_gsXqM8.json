@@ -1,0 +1,26 @@
+{
+  "video_id": "sqjb_gsXqM8",
+  "item_id": "video/yt-microsoft/sqjb_gsXqM8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim and the subcontracting 'announced' evidence quote is verbatim at t=861.4.",
+    "The WIP key point said 'with a more complex setup', which the transcript does not say. The presenter only calls it 'a difficult one' and suggests experimenting. Reworded.",
+    "The explode routing key point said output operations are split into one line per unit. The transcript says the last output operation is split into journal lines with quantity one each. Reworded.",
+    "The Item Tracking feature description has the same imprecision about which operation is split. Descriptions cannot be edited here, so this is noted only.",
+    "The 'Sending Posted Sales Documents' description says 'attachment effect box', a caption artifact for the attachment fact box. Noted only."
+  ],
+  "input_hash": "4c3a76ca627dc0c93e85061d4046b9fce1c0c8b81fa0e291d1e49cb0899cd7b1",
+  "by": "opus",
+  "at": "2026-10-07T22:49:33.012Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10439300000000001
+  }
+}

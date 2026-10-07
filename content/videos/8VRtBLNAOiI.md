@@ -16,12 +16,12 @@ tags:
   - document posting
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:05.377Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:05.417Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,7 +34,7 @@ evidence:
     date: "2026-04-01T12:01:21.000Z"
     commit: null
     t: 427
-    quote: this is something what we plan to deliver uh next release
+    quote: this is something what we plan to deliver uh next release because first we want to get the feedback
   - kind: video
     url: https://www.youtube.com/watch?v=8VRtBLNAOiI&t=29s
     title: "Introducing: Self-Billing Invoices (2026 release wave 1)"
@@ -165,7 +165,7 @@ quotes:
 
 > Self-billing invoices in Business Central (2026 release wave 1): the customer creates the purchase invoice on behalf of the vendor. Covers the vendor card agreement field, the posted self-billing invoice number series, report selection, and a demo. Electronic invoicing based on self-billing is planned for the next release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=8VRtBLNAOiI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=8VRtBLNAOiI) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 7:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -200,7 +200,7 @@ The video walks through setup and then demos it: the vendor card, a purchase inv
 | Self-Billing Agreement Field on Vendor Card | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=127s) |  |
 | Posted Self-Billing Invoice Number Series | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=144s) |  |
 | Self-Billing Invoice Report Selection | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=186s) |  |
-| Electronic Invoicing for Self-Billing | announced | [6:50](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=410s) | "this is something what we plan to deliver uh next release" ([7:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=427s)) |
+| Electronic Invoicing for Self-Billing | announced | [6:50](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=410s) | "this is something what we plan to deliver uh next release because first we want to get the feedback" ([7:07](https://www.youtube.com/watch?v=8VRtBLNAOiI&t=427s)) |
 
 ## AL objects mentioned
 

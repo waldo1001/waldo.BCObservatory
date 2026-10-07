@@ -1,0 +1,26 @@
+{
+  "video_id": "DVgclv3alZU",
+  "item_id": "video/yt-microsoft/DVgclv3alZU",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All features, key points and summary are supported by the transcript.",
+    "Five-click deployment correctly limited to demo companies, with production support only hoped for later (105.8s).",
+    "Recurring refresh not part of deployment for this release is supported (240.6s, 261.6s).",
+    "Customer retention is attributed to the Sales app by context; the presenter lists sales among the updated apps at 517.9s, which is acceptable.",
+    "Calendar item is documentation guidance, and the description reflects that correctly.",
+    "Feature statuses left unclear because the transcript states no preview or GA status.",
+    "Quotes are verbatim; some end mid-sentence at caption boundaries but remain usable."
+  ],
+  "input_hash": "5489947d3db7a54f91ce7b5ee6094eb7e806894ed49484af4ca8bca5c3b166d6",
+  "by": "opus",
+  "at": "2026-10-07T22:48:38.678Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.087725
+  }
+}

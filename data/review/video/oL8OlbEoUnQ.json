@@ -1,0 +1,31 @@
+{
+  "video_id": "oL8OlbEoUnQ",
+  "item_id": "video/yt-microsoft/oL8OlbEoUnQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim; the quotes at 61.2 and 618.2 run on into the next segment, which is acceptable.",
+    "Key point 2 said 'vendor amounts must match'. The transcript says the purchase invoice is filtered to the vendor and its amount must match the total of the received invoice. Reworded.",
+    "The PEPPOL first-party app is described as shipped, so its status is set to ga with evidence.",
+    "French electronic invoicing is explicitly work in progress, and the phase-out of electronic document formats is a stated plan. Both are set to announced with evidence.",
+    "The other 'we enabled' features stay unclear because the transcript gives no explicit release status for them."
+  ],
+  "input_hash": "e26d00971a3d5675d010517099219c0f4e80f9000e8f020a005ae890b217c51d",
+  "by": "opus",
+  "at": "2026-10-07T22:49:54.978Z",
+  "applied": [
+    "French electronic invoicing: status announced",
+    "Verify tool in Spain: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status PEPPOL moved to first-party app -> ga: evidence not verbatim or does not state the status",
+    "status Electronic document formats phasing out -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10392100000000001
+  }
+}

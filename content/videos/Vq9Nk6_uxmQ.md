@@ -20,12 +20,12 @@ tags:
   - custom pages
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:37.225Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:37.270Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,7 @@ evidence:
     date: "2026-04-23T14:00:48.000Z"
     commit: null
     t: 2112
-    quote: The second item that we are going to be looking into is giving you the ability to test your agents which we will be
+    quote: giving you the ability to test your agents which we will be releasing quite soon
   - kind: video
     url: https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=64s
     title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
@@ -478,7 +478,7 @@ quotes:
 
 > Building custom agents in Business Central sandboxes without code: the three required parts (instructions, profile, permissions), how the platform wraps instructions in a larger prompt, how profiles limit the agent UI, and when an agent fits better than AL code. Also covers the sample agents and the announced agent testing capability.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-23 · 36:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-23 · 36:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -550,7 +550,7 @@ The video spends time on profiles, which limit the agent's UI and set the starti
 | Multi-language email processing | status not stated | [33:18](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=1998s) |  |
 | Low-frequency task automation with agents | status not stated | [33:52](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2032s) |  |
 | Agent SDK | status not stated | [34:57](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2097s) |  |
-| Agent testing capability | announced | [35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s) | "The second item that we are going to be looking into is giving you the ability to test your agents which we will be" ([35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s)) |
+| Agent testing capability | announced | [35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s) | "giving you the ability to test your agents which we will be releasing quite soon" ([35:12](https://www.youtube.com/watch?v=Vq9Nk6_uxmQ&t=2112s)) |
 
 ## AL objects mentioned
 

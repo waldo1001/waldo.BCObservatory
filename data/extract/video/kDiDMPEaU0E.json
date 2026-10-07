@@ -275,6 +275,12 @@
       "check": "exact"
     },
     {
+      "t": 232.2,
+      "text": "If I try to post it now, there will be an error that it has to be matched at least one receipt line",
+      "why_it_matters": "Shows that an invoice matched only to order lines cannot be posted until it is matched to at least one receipt line.",
+      "check": "exact"
+    },
+    {
       "t": 267.3,
       "text": "We have invoice line on top and then we have order line and receipt lines in a tree structure",
       "why_it_matters": "Describes the UI hierarchy showing how the matching information is organized and visualized.",

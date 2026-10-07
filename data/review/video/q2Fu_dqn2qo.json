@@ -1,0 +1,28 @@
+{
+  "video_id": "q2Fu_dqn2qo",
+  "item_id": "video/yt-microsoft/q2Fu_dqn2qo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim, including the ones that run on into the next segment (96.6 and 137.8).",
+    "'Analysis Mode on Lists' is not new in this release. The presenter only uses it in the screenshots as another way to demo the subscription billing data, so it is dropped as a feature. The key point that describes it as a demo approach stays.",
+    "The transcript never says whether anything is in preview or GA, so every feature stays unclear.",
+    "The demo data control tool had no quote, so one is added. It is the main way users get the data.",
+    "The 9 additional back orders were stated with hedging ('I think'). That is acceptable as is.",
+    "The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "981696f373b599bf1a6d9eba507599251391ffd09b109c770c4d8eee186ca4af",
+  "by": "opus",
+  "at": "2026-10-07T22:49:36.253Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 40s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061693
+  }
+}

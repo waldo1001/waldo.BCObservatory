@@ -150,10 +150,10 @@
     {
       "name": "Legacy Inventory Report Deprecation",
       "description": "Four legacy inventory reports are being deprecated and will be removed from the product over the next three release waves.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 379.4,
+      "status_evidence_quote": "then we are deprecating four the the four reports will will be removed from the product over the next three release",
+      "status_evidence_verified": true,
       "t_start": 379.4,
       "t_end": 399.4,
       "is_demoed": false,
@@ -190,10 +190,10 @@
     {
       "name": "Analysis Views for Item Ledger Entries",
       "description": "New ability to supply analysis views with application in AL, with four pre-built analysis views for item ledger entries that users can customize or hide.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 459.1,
+      "status_evidence_quote": "for item ledger entries in version 28.x we will add these four new um pre-built analysis views",
+      "status_evidence_verified": true,
       "t_start": 447.8,
       "t_end": 477.3,
       "is_demoed": false,
@@ -266,8 +266,8 @@
     },
     {
       "t": 399.4,
-      "text": "this is coming in 21 28.x",
-      "why_it_matters": "Clarifies that some features are arriving after the initial 28.0 GA release in version 28.x",
+      "text": "All of this is available in 28.0. Um And then we got some feedback",
+      "why_it_matters": "States that the ABC analysis, the new reports and the modernized layouts are available in version 28.0.",
       "check": "exact"
     },
     {

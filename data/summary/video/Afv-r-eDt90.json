@@ -4,13 +4,13 @@
   "summary": "Enhanced analysis mode in Business Central (2026 release wave 1): developers can package analysis views in AL apps via exported JSON files, page extensions and profile customizations. Also covers view descriptions as tooltips, read-only shipped views, and built-in views announced for 28.x.",
   "overview": "The video explains why analysis mode is getting further investment and demos how to ship analysis views from AL apps. The workflow is to set up a view in Business Central, export it as JSON, and reference that file from a page extension or source page using the definition file property.\n\nThe demo then shows the result in a deployed environment. Shipped views appear read-only with a locked icon, users can duplicate them to get editable copies, and users can hide views through personalization. The presenter also announces built-in analysis views for sales, finance, inventory and purchasing pages, coming in 28.x.",
   "key_points": [
-    "Analysis views can be exported from Business Central as JSON files and packaged in AL apps through page extensions or source pages.",
-    "Page extensions use a definition file property that points to the exported JSON file.",
-    "Views can also be added to page customizations and profile extensions, so they are available only to users with specific roles.",
+    "Analysis views can be exported from Business Central as JSON files (Share > Export definition) and packaged in AL apps through page extensions, page customizations or source pages.",
+    "Page extensions use a definition file property that points to the exported JSON file; caption, tooltip and visibility properties set in AL override the settings in the JSON file.",
+    "Views can be added to page customizations assigned to a profile or profile extension, so they are available only to users with that role.",
     "Views shipped in an app are read-only and show a locked icon; the filter pane is removed, and users can duplicate a view to edit the copy.",
-    "Descriptions set through the rename action in analysis mode show as tooltips and override the JSON settings.",
+    "Users can add a description to a view through the rename action in analysis mode; it shows as a tooltip.",
     "Users can hide views they do not need through personalization mode.",
-    "Built-in analysis views are announced for 28.x, including sales orders, change log entries, user lists, GL register, fixed asset ledgers and item ledger entries."
+    "Built-in analysis views are coming in 28.x for sales orders, change log entries, user lists, GL register, fixed asset ledgers and item ledger entries (inventory and purchasing)."
   ],
   "audience": [
     "developer",

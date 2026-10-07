@@ -16,12 +16,12 @@ tags:
   - sql indexes
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:51.255Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:51.301Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -56,6 +56,13 @@ evidence:
     commit: null
     t: 316
     quote: those indices you have normally not been able to turn on but you can now turn them on here
+  - kind: video
+    url: https://www.youtube.com/watch?v=IAacWsvav1E&t=316s
+    title: "What's New: Enhanced Index Management (2026 release wave 1)"
+    date: "2026-04-08T10:01:34.000Z"
+    commit: null
+    t: 316
+    quote: We say here they will be in queued and turned on in the subsequent maintenance window overnight depending on local time.
   - kind: video
     url: https://www.youtube.com/watch?v=IAacWsvav1E&t=368s
     title: "What's New: Enhanced Index Management (2026 release wave 1)"
@@ -153,6 +160,9 @@ quotes:
   - t: 316
     text: those indices you have normally not been able to turn on but you can now turn them on here
     check: fuzzy
+  - t: 316
+    text: We say here they will be in queued and turned on in the subsequent maintenance window overnight depending on local time.
+    check: exact
   - t: 368
     text: when we develop the base app, we are trying to guess the types of indexes that would make sense, but we don't necessarily know
     check: exact
@@ -165,7 +175,7 @@ quotes:
 
 > Enhanced index management in Business Central (2026 release wave 1): a Table Data Information Management page with per-index drilldown, a runtime index on/off toggle in the client, per-company index activation, and new telemetry events LC 63 and 64 for index enable and disable.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=IAacWsvav1E) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 13:36 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=IAacWsvav1E) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-08 · 13:36 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -177,8 +187,9 @@ It also demos turning indexes on and off at runtime, which resembles the C/SIDE 
 
 - The Table Data Information Management page lets you drill down from table information to per-index data, per table and per company, including index size and advanced usage information.
 - A detailed view shows which fields are in an index and which are included, so you can judge whether it covers a query without reading source code. It needs technical knowledge to interpret.
-- Indexes can be turned on and off in the client at runtime. Indexes defined as unique, such as the one on system ID, cannot be disabled.
-- In SaaS, disabled indexes are queued for the next maintenance window. In on-premises or local deployments the change applies immediately.
+- Indexes can be turned on and off in the client at runtime. Some cannot be turned off, for example the system ID index, which is defined as unique.
+- Turning off an index removes it from SQL, saving storage and making table updates cheaper.
+- Enabling an index that was created disabled is queued and applied in the next maintenance window in SaaS. In local Docker or on-prem it happens immediately.
 - Indexes can ship disabled by default and be enabled per company, avoiding storage and update costs for indexes a company does not need.
 - Telemetry events LC 63 and 64 record index enable and disable done through the client, alongside existing lifecycle events for AL-based index operations. They are documented at ak.ms/bctelemetry.
 
@@ -197,13 +208,13 @@ It also demos turning indexes on and off at runtime, which resembles the C/SIDE 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Table Data Information Management Page with Index Drilldown | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=IAacWsvav1E&t=82s) |  |
-| Index Field and Coverage Information Display | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=IAacWsvav1E&t=143s) |  |
-| Runtime Index Toggle Capability in Client | status not stated, demoed | [2:59](https://www.youtube.com/watch?v=IAacWsvav1E&t=179s) |  |
-| Per-Company Selective Index Activation | status not stated, demoed | [5:44](https://www.youtube.com/watch?v=IAacWsvav1E&t=344s) |  |
-| Index Lifecycle Telemetry Events | status not stated | [6:54](https://www.youtube.com/watch?v=IAacWsvav1E&t=414s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Table Data Information Management Page with Index Drilldown | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=IAacWsvav1E&t=82s) |
+| Index Field and Coverage Information Display | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=IAacWsvav1E&t=143s) |
+| Runtime Index Toggle Capability in Client | status not stated, demoed | [2:59](https://www.youtube.com/watch?v=IAacWsvav1E&t=179s) |
+| Per-Company Selective Index Activation | status not stated, demoed | [5:44](https://www.youtube.com/watch?v=IAacWsvav1E&t=344s) |
+| Index Lifecycle Telemetry Events | status not stated | [6:54](https://www.youtube.com/watch?v=IAacWsvav1E&t=414s) |
 
 ## AL objects mentioned
 
@@ -220,6 +231,7 @@ Not found in BC28-30: page "Table Information page", page "Table Data Informatio
 - [3:39](https://www.youtube.com/watch?v=IAacWsvav1E&t=219s) "the full kind of C/SIDE experience is coming now where you can now turn indexes on and off directly in the client"
 - [4:10](https://www.youtube.com/watch?v=IAacWsvav1E&t=250s) "If we start here with the system ID, it is defined as being unique. It would be a semantically different experience if you turned"
 - [5:16](https://www.youtube.com/watch?v=IAacWsvav1E&t=316s) "those indices you have normally not been able to turn on but you can now turn them on here"
+- [5:16](https://www.youtube.com/watch?v=IAacWsvav1E&t=316s) "We say here they will be in queued and turned on in the subsequent maintenance window overnight depending on local time."
 - [6:08](https://www.youtube.com/watch?v=IAacWsvav1E&t=368s) "when we develop the base app, we are trying to guess the types of indexes that would make sense, but we don't necessarily know"
 - [7:51](https://www.youtube.com/watch?v=IAacWsvav1E&t=471s) "I want to highlight what I think is a new ability that we haven't had since C/SIDE and that is the ability to create"
 

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Rvgt_VXFr1I",
   "published_at": "2026-04-01T12:01:32.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T16:57:00.451Z",
+      "at": "2026-10-07T22:48:50.937Z",
       "path": "content/videos/Rvgt_VXFr1I.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:48:50.895Z",
+      "path": "data/review/video/Rvgt_VXFr1I.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.079129
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "108d94002d396d28b3f51019913d6483c6af9c9b5fd30c747f8c79529e2014b8"
+  "output_hash": "0a7f854591b570f581512c3ee9e041acc10a53b4a321696f17a911c32097b63a",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:48:50.890Z"
+  }
 }

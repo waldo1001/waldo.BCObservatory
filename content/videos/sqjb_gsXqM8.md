@@ -18,12 +18,12 @@ tags:
   - inventory posting
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:33.012Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:33.058Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -249,7 +249,7 @@ quotes:
 
 > Supply Chain Management changes in Business Central 2026 release wave 1: quality management extension, drop shipment and purchase order matching, approvals for item journals and requisition worksheets, item variants, manufacturing and WIP posting changes, and subcontracting (announced, later in the season).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sqjb_gsXqM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 17:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sqjb_gsXqM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 17:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -259,13 +259,13 @@ Several features are demoed, including drop shipment purchase creation, purchase
 
 ## Key points
 
-- Drop shipment: more ways to create purchase documents for drop shipment sales lines, a new toggle marks drop shipment lines, order posting is more flexible, and mistakes can be undone.
-- Purchase order matching: invoices can be received before orders and linked to purchase orders, including one invoice line to several orders and receipts. It needs settings on specific documents, and not all documents allow it.
-- Approvals now cover item journals and requisition worksheets through workflow templates, for batches only and not lines (performance). Also available via Power Automate.
-- Item tracking works on manufacturing output journals. Explode routing splits output operations into one line per unit when serial tracking is required.
-- WIP posting no longer needs a blank location in inventory posting setup. Capacity and output post using the production order location, allowing a WIP account per location, with a more complex setup.
-- Purchase quotes can be created without a vendor. The vendor is created on conversion to an order, which needs a vendor template and contact information.
-- Subcontracting for production orders (fact box, purchase documents, transfer orders, warehouse receipts, item charges) was announced as arriving later in the season.
+- Drop shipment: more ways to create purchase documents for drop shipment sales documents, a new drop shipment toggle on lines created from Create Purchase Order, more flexible posting order (post receipt and invoice without waiting for the customer invoice), and undo support.
+- Purchase order matching: invoices received before goods can be linked to purchase orders, one invoice line can link to multiple orders and receipts, and posting can mark the order as received. A setting controls this per document, since not all documents allow these scenarios.
+- Get receipt lines now support filters on vendor order, vendor shipment and vendor item number fields; similar filtering is added for get shipment and service shipment lines.
+- Approvals now cover item journals and requisition worksheets through workflow templates, for batches only and not lines (performance). Also usable via Power Automate.
+- Item tracking works on manufacturing output journals. With serial tracking, explode routing splits the last output operation into journal lines with quantity one each.
+- WIP posting no longer needs a blank-location line in inventory posting setup. Capacity entries post using the production order line location, allowing a different WIP account per location.
+- Purchase quotes can be created without a vendor (contact still required). The vendor is created on conversion to an order, which needs a vendor template.
 
 ## Chapters
 

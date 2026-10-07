@@ -1,0 +1,29 @@
+{
+  "video_id": "6vHJQggN4F4",
+  "item_id": "video/yt-microsoft/6vHJQggN4F4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The collections key point said collections 'must be imported from Shopify first or set up manually'. The transcript only says you can start by importing collections from Shopify. Manual setup is never mentioned, so I rewrote the point.",
+    "The quote at t=385.4 ('you can use one or another approach...') is filler with no useful content, so I dropped it.",
+    "I added quotes for two supported details the page lacked: assembly BOMs can only connect to the parent item (the reason for keeping a flat item list), and the variant price changing with seat count.",
+    "No feature statuses are stated in the transcript. The release wave appears only in the video title, so every feature stays unclear.",
+    "All other quotes are verbatim and start at the right t; some run on into the next segment, which is allowed."
+  ],
+  "input_hash": "9eca446ca037ed471274887bb307a1d64832a0f8ebbe8ac5b91b873ed27f9390",
+  "by": "opus",
+  "at": "2026-10-07T22:49:09.066Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 321s",
+    "quote at 360s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077641
+  }
+}

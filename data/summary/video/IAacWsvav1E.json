@@ -6,8 +6,9 @@
   "key_points": [
     "The Table Data Information Management page lets you drill down from table information to per-index data, per table and per company, including index size and advanced usage information.",
     "A detailed view shows which fields are in an index and which are included, so you can judge whether it covers a query without reading source code. It needs technical knowledge to interpret.",
-    "Indexes can be turned on and off in the client at runtime. Indexes defined as unique, such as the one on system ID, cannot be disabled.",
-    "In SaaS, disabled indexes are queued for the next maintenance window. In on-premises or local deployments the change applies immediately.",
+    "Indexes can be turned on and off in the client at runtime. Some cannot be turned off, for example the system ID index, which is defined as unique.",
+    "Turning off an index removes it from SQL, saving storage and making table updates cheaper.",
+    "Enabling an index that was created disabled is queued and applied in the next maintenance window in SaaS. In local Docker or on-prem it happens immediately.",
     "Indexes can ship disabled by default and be enabled per company, avoiding storage and update costs for indexes a company does not need.",
     "Telemetry events LC 63 and 64 record index enable and disable done through the client, alongside existing lifecycle events for AL-based index operations. They are documented at ak.ms/bctelemetry."
   ],

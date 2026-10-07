@@ -6,10 +6,11 @@
   "key_points": [
     "The current get receipt line experience matches only one invoice line to one receipt line; the new capability matches an invoice line to one or multiple non-received order lines or to many partial receipt lines.",
     "The Get order lines action shows all available order lines and creates one invoice line per order line.",
-    "The matched order line user interface shows the invoice line on top, with order lines and receipt lines below it in a tree structure.",
+    "The matched order line user interface shows the invoice line on top, with order lines and receipt lines below it in a tree structure; quantity to invoice is editable, so receipts can be invoiced partially.",
+    "An invoice matched only to order lines cannot be posted until it is matched to at least one receipt line; Get receipt lines or Get order lines adds the posted receipts.",
     "Setting the received on invoice flag on a purchase order makes the receipt post automatically when the invoice is posted; this is shown for simple purchase orders.",
     "With item tracking, the item tracking entries action shows which serial numbers are invoiced, and the receipt shipment number field shows which receipt they belong to.",
-    "At a directed put-away and pick location, the match must be set before the quantity can be entered, which differs from non-directed locations."
+    "At a directed put-away and pick location, a manually added invoice line must be matched before its quantity can be entered; Get order lines works the same as before."
   ],
   "audience": [
     "functional consultant",

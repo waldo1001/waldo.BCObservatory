@@ -1,0 +1,25 @@
+{
+  "video_id": "GK6hM-nBYZk",
+  "item_id": "video/yt-microsoft/GK6hM-nBYZk",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim; some run across caption breaks, which is allowed.",
+    "The summary and key points match the transcript.",
+    "MCP server status stays unclear: the video says only that it was added as preview in a previous wave and gives no status for 2026 release wave 1.",
+    "No other feature has a stated release status in the transcript.",
+    "Added a quote noting that Business Central's built-in agents are also billed in Copilot credits.",
+    "Copilot Studio Licensing Model is more a pricing note than a feature, but the transcript supports it, so it stays."
+  ],
+  "input_hash": "4c01b40b635e2cd0f24bd576343e45b8ecf46f05cd08b59cd94d8ab3303523eb",
+  "by": "opus",
+  "at": "2026-10-07T22:49:23.955Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.082173
+  }
+}

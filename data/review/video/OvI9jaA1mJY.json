@@ -1,0 +1,25 @@
+{
+  "video_id": "OvI9jaA1mJY",
+  "item_id": "video/yt-microsoft/OvI9jaA1mJY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts, quotes and the GA evidence quote (24 words, t=142.5) check out against the transcript.",
+    "Key points left out the caveat at 187.2 that some features may only arrive in an upcoming minor release, and the per-invoice cost (about 1 US cent per credit, about 75 cents per invoice). Both added.",
+    "The last key point said 'generally available'. The transcript says 'now available', so the wording now follows the transcript."
+  ],
+  "input_hash": "e27a6eec2a71663aa13a362de988cbfd3eeaa5da37386fa3fbecf46e4350493d",
+  "by": "opus",
+  "at": "2026-10-07T22:49:16.479Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.059468999999999994
+  }
+}

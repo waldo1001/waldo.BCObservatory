@@ -20,12 +20,12 @@ tags:
   - test context
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:50.869Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:50.911Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -301,7 +301,7 @@ quotes:
 
 > AI Development Toolkit updates in Business Central 2026 release wave 1: the renamed toolkit, simpler BC AI Resources authentication, content filtering and prompt injection protection for Azure Open AI, and evaluation features (suite configurations, multi-language, Copilot credit insights, agent evaluation).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=juUBVPfIp8A) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 20:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=juUBVPfIp8A) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 20:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

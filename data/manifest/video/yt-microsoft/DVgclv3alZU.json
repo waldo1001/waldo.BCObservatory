@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=DVgclv3alZU",
   "published_at": "2026-04-08T10:04:12.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T16:51:15.935Z",
+      "at": "2026-10-07T22:48:38.716Z",
       "path": "content/videos/DVgclv3alZU.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:48:38.679Z",
+      "path": "data/review/video/DVgclv3alZU.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.087725
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09f69cc62b27f9c7823acf9540e031923fdf1706e543838a4f70b82a3527defc"
+  "output_hash": "01d9be932c5036d29419832c1a538c463e654b7fa2b8c364410cd6689efd150e",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:48:38.678Z"
+  }
 }

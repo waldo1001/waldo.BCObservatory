@@ -20,12 +20,12 @@ tags:
   - partner resources
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:46.954Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:47.001Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     t: 270
     quote: The most important thing here is that you can define whether a report's in a given state and this is actually not only reports,
   - kind: video
+    url: https://www.youtube.com/watch?v=uxQRfChp96c&t=286s
+    title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
+    date: "2026-04-01T12:00:59.000Z"
+    commit: null
+    t: 286
+    quote: we say the active state is the only one that is not blocked, both draft and retired state of definitions are considered blocked
+  - kind: video
     url: https://www.youtube.com/watch?v=uxQRfChp96c&t=413s
     title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
     date: "2026-04-01T12:00:59.000Z"
@@ -75,19 +82,19 @@ evidence:
     t: 618
     quote: Basically we get the report run by each value of the this dimension and then merged together in one PDF. This also works for
   - kind: video
-    url: https://www.youtube.com/watch?v=uxQRfChp96c&t=789s
+    url: https://www.youtube.com/watch?v=uxQRfChp96c&t=647s
     title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
     date: "2026-04-01T12:00:59.000Z"
     commit: null
-    t: 789
-    quote: I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh
+    t: 647
+    quote: one worksheet for each value of the dimension administration, production, purchasing, and sales.
   - kind: video
     url: https://www.youtube.com/watch?v=uxQRfChp96c&t=789s
     title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
     date: "2026-04-01T12:00:59.000Z"
     commit: null
     t: 789
-    quote: i can set the recurrence formula here weekly i can even set recipients so i can
+    quote: I can set the recurrence formula here weekly. I can even set recipients
   - kind: video
     url: https://www.youtube.com/watch?v=uxQRfChp96c&t=813s
     title: "What's New: Enhanced Financial Reporting (2026 release wave 1)"
@@ -234,6 +241,9 @@ quotes:
   - t: 270
     text: The most important thing here is that you can define whether a report's in a given state and this is actually not only reports,
     check: exact
+  - t: 286
+    text: we say the active state is the only one that is not blocked, both draft and retired state of definitions are considered blocked
+    check: exact
   - t: 413
     text: If you do it like this, then you control the negative if all your report definition use the default here, then you control that
     check: exact
@@ -243,12 +253,12 @@ quotes:
   - t: 618
     text: Basically we get the report run by each value of the this dimension and then merged together in one PDF. This also works for
     check: exact
-  - t: 789
-    text: I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh
+  - t: 647
+    text: one worksheet for each value of the dimension administration, production, purchasing, and sales.
     check: exact
   - t: 789
-    text: i can set the recurrence formula here weekly i can even set recipients so i can
-    check: fuzzy
+    text: I can set the recurrence formula here weekly. I can even set recipients
+    check: exact
   - t: 813
     text: the request page values for this particular invocation so in case you have special way like you i
     check: fuzzy
@@ -270,7 +280,7 @@ quotes:
 
 > Business Central enhanced financial reporting in the 2026 release wave 1: tile view, report categories, lifecycle status, company defaults in General Ledger Setup, dimension perspectives, report scheduling, audit log and analysis mode. All features are demoed; status is not stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uxQRfChp96c) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 21:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uxQRfChp96c) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 21:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -280,13 +290,13 @@ It then shows dimension perspectives for running a report across dimension value
 
 ## Key points
 
-- Tile view shows each report's category, name, code, status, last run time and description. Fields are blank when no data or description is entered.
-- Reports can be placed in 10 default categories (for example assets, liabilities, profitability analysis) or in custom categories.
-- Report, row and column definitions have a lifecycle status of active, draft or retired. Draft and retired are blocked states and prevent use of the report definition.
-- General Ledger Setup holds company defaults for view by, negative number format, company logo position and status. Report definitions that use the default inherit them, and individual reports can override them.
-- Dimension perspectives are defined once and reused. They can be simple (one run per dimension value, merged into one PDF), custom (selected values) or cross-dimensional. They can be overridden on the request page at runtime.
-- Report schedules support a recurrence formula (such as weekly), recipients, custom filters for request page values, and Excel or PDF output. Schedule logs show what ran and when, with links to the report inbox or sent emails.
-- The audit log shows who ran which report, when and in which format, with filters for the last 30 days, year to date and custom ranges. It can be opened in analysis mode for custom usage reports.
+- Tile view is opened by switching from list to tiles. It shows each report's category, name, code, status, last run time and internal description. Fields are blank when there is no data or description. List views can still be added.
+- Reports can be placed in shipped categories (the presenter says about 10, from assets and liabilities to profitability and revenue analysis) or in custom categories. Categories are mainly for navigation.
+- Report, row and column definitions have a lifecycle status. The shipped states are active, draft and retired, and authors can define their own. In the sample setup, draft and retired are blocked, meaning not ready to use. Blocked definitions show a notification and different styling.
+- General Ledger Setup holds company defaults for view by, negative number format, company logo position and status. Report definitions set to default inherit them, and individual reports can override them.
+- Dimension perspectives are defined once and reused. They can be simple (one run per dimension value), custom (selected values) or cross-dimensional (combinations across dimensions). Output is merged into one PDF or into one Excel worksheet per value. The perspective can be overridden on the request page.
+- Report schedules support Excel and PDF output, delivery to the report inbox and email, a recurrence formula (such as weekly), recipients and custom filters for request page values. Schedule logs show what ran and link to the report inbox or sent emails.
+- The audit log, for all reports or for a single report, shows who ran which report, when and in which format. It has filters for the last 30 days, year to date and custom ranges, and can be opened in analysis mode for usage reports.
 
 ## Chapters
 
@@ -303,19 +313,19 @@ It then shows dimension perspectives for running a report across dimension value
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Tile view for financial reports | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=uxQRfChp96c&t=90s) |  |
-| Report categories | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=uxQRfChp96c&t=177s) |  |
-| Life cycle status for report definitions | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=uxQRfChp96c&t=228s) |  |
-| Company-specific default properties | status not stated, demoed | [6:12](https://www.youtube.com/watch?v=uxQRfChp96c&t=372s) |  |
-| Dimension perspectives | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=uxQRfChp96c&t=471s) |  |
-| Report scheduling | status not stated, demoed | [12:25](https://www.youtube.com/watch?v=uxQRfChp96c&t=745s) |  |
-| Report recurrence formula | status not stated, demoed | [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) |  |
-| Custom filters for scheduled reports | status not stated, demoed | [13:33](https://www.youtube.com/watch?v=uxQRfChp96c&t=813s) |  |
-| Schedule logs for reports | status not stated, demoed | [13:53](https://www.youtube.com/watch?v=uxQRfChp96c&t=833s) |  |
-| Audit log for financial reporting | status not stated, demoed | [14:14](https://www.youtube.com/watch?v=uxQRfChp96c&t=854s) |  |
-| Analysis mode for audit logs | status not stated, demoed | [15:15](https://www.youtube.com/watch?v=uxQRfChp96c&t=915s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Tile view for financial reports | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=uxQRfChp96c&t=90s) |
+| Report categories | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=uxQRfChp96c&t=177s) |
+| Life cycle status for report definitions | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=uxQRfChp96c&t=228s) |
+| Company-specific default properties | status not stated, demoed | [6:12](https://www.youtube.com/watch?v=uxQRfChp96c&t=372s) |
+| Dimension perspectives | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=uxQRfChp96c&t=471s) |
+| Report scheduling | status not stated, demoed | [12:25](https://www.youtube.com/watch?v=uxQRfChp96c&t=745s) |
+| Report recurrence formula | status not stated, demoed | [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) |
+| Custom filters for scheduled reports | status not stated, demoed | [13:33](https://www.youtube.com/watch?v=uxQRfChp96c&t=813s) |
+| Schedule logs for reports | status not stated, demoed | [13:53](https://www.youtube.com/watch?v=uxQRfChp96c&t=833s) |
+| Audit log for financial reporting | status not stated, demoed | [14:14](https://www.youtube.com/watch?v=uxQRfChp96c&t=854s) |
+| Analysis mode for audit logs | status not stated, demoed | [15:15](https://www.youtube.com/watch?v=uxQRfChp96c&t=915s) |
 
 ## AL objects mentioned
 
@@ -328,11 +338,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:17](https://www.youtube.com/watch?v=uxQRfChp96c&t=17s) "If we allow controllers and the finance department to have to work better with financial reporting, we are actually helping every single customer Business"
 - [3:24](https://www.youtube.com/watch?v=uxQRfChp96c&t=204s) "The types of categories are where we ship, I think, 10 different types of categories from assets and liabilities all the way down to"
 - [4:30](https://www.youtube.com/watch?v=uxQRfChp96c&t=270s) "The most important thing here is that you can define whether a report's in a given state and this is actually not only reports,"
+- [4:46](https://www.youtube.com/watch?v=uxQRfChp96c&t=286s) "we say the active state is the only one that is not blocked, both draft and retired state of definitions are considered blocked"
 - [6:53](https://www.youtube.com/watch?v=uxQRfChp96c&t=413s) "If you do it like this, then you control the negative if all your report definition use the default here, then you control that"
 - [9:18](https://www.youtube.com/watch?v=uxQRfChp96c&t=558s) "You have 15 pages, but over here when you look at the page, it's page one of three. So how come there's 15 pages"
 - [10:18](https://www.youtube.com/watch?v=uxQRfChp96c&t=618s) "Basically we get the report run by each value of the this dimension and then merged together in one PDF. This also works for"
-- [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) "I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh"
-- [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) "i can set the recurrence formula here weekly i can even set recipients so i can"
+- [10:47](https://www.youtube.com/watch?v=uxQRfChp96c&t=647s) "one worksheet for each value of the dimension administration, production, purchasing, and sales."
+- [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) "I can set the recurrence formula here weekly. I can even set recipients"
 - [13:33](https://www.youtube.com/watch?v=uxQRfChp96c&t=813s) "the request page values for this particular invocation so in case you have special way like you i"
 - [14:26](https://www.youtube.com/watch?v=uxQRfChp96c&t=866s) "The audit log is let's go back to the tile here. Um and you can get the audit log either in context of a"
 - [14:59](https://www.youtube.com/watch?v=uxQRfChp96c&t=899s) "We also created filters on this page so you can you can um easily dive into all logs last 30 days and year to"

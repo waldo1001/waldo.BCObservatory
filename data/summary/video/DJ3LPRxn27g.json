@@ -4,13 +4,13 @@
   "summary": "Drop shipment changes in Business Central 2026 release wave 1: flexible operation sequences, a get order lines function, more ways to create purchase documents, drop shipment support in order planning, a receipt on invoice toggle, and undo shipment. All are demoed in three scenarios.",
   "overview": "The video covers what changed for drop shipments in 2026 release wave 1. Before, posting had a fixed order: receipt or shipment first, then the sales invoice, then the purchase invoice. Now purchase and sales operations can be processed independently.\n\nIt also covers new ways to create drop shipment purchase documents, drop shipment demand in order planning, and a get order lines function for invoices connected to multiple orders or receipts. Demos cover posting receipt and invoice together, the receipt on invoice toggle on purchase invoices, and undoing a drop shipment shipment.",
   "key_points": [
-    "Previously the order was fixed: post receipt/shipment, then sales invoice, then purchase invoice. In 2026 wave 1 purchase and sales operations can be processed independently.",
-    "Drop shipment purchase documents can be created from the sales order page, order planning page, planning worksheet, requisition worksheet, or directly in a purchase order. Before, only the requisition worksheet or one-by-one purchase order creation was available.",
-    "The order planning page now calculates sales demand including drop shipment lines.",
-    "The receipt on invoice toggle on purchase invoices posts receipt and invoice together and updates the related purchase order and shipment automatically. It requires matching with orders.",
-    "Get order lines is a more elaborate replacement for get receipt lines, for invoices connected to multiple orders or receipts. Some scenarios require the receipt on invoice toggle.",
-    "A purchase order can be posted as receipt and invoice in one operation, and the shipment is updated automatically.",
-    "Undo shipment works for drop shipments, to cancel the transaction and return items to the vendor for reprocessing."
+    "Previously the order was fixed: post receipt/shipment, then sales invoice, then purchase invoice. In 2026 wave 1 the sales and purchase invoices can be posted in either order, so the purchase side can be handled independently of the sales side.",
+    "Drop shipment purchase documents can now also be created from the sales order page (Actions > Functions > Create Purchase Document > Create Purchase Order), the order planning page, or the planning worksheet. Before, only the requisition worksheet (Get Sales Orders) or one-by-one creation from a purchase order was available.",
+    "The order planning page now includes drop shipment lines when calculating sales demand. The planning worksheet has a new drop shipment group with a get order lines action.",
+    "A drop shipment purchase order can be posted as receipt and invoice in one step, and the shipment is updated automatically.",
+    "Get order lines is a more elaborate replacement for get receipt lines, for example when an invoice is connected to multiple orders or receipts.",
+    "If the receipt on invoice toggle is turned on in the invoice details of the drop shipment purchase order, you can post a purchase invoice built with get order lines. The purchase order is then shown as received and invoiced without being posted manually.",
+    "Undo shipment now works for drop shipments. In the demo it was used on the shipment not yet invoiced on the purchase side, which returned the item to the vendor so it could be processed again."
   ],
   "audience": [
     "functional consultant",

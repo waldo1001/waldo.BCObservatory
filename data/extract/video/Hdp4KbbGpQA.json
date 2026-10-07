@@ -319,46 +319,6 @@
       "system": "copilot"
     },
     {
-      "name": "Agent runtime with page introspection",
-      "description": "Agents can look at pages and PC pages in a certain way as part of the agent runtime capability.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1593.9,
-      "t_end": 1607.2,
-      "is_demoed": false,
-      "caveats": [
-        "Speculative",
-        "More in the future"
-      ],
-      "tags": [
-        "agent",
-        "runtime",
-        "pages",
-        "future"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "BC-Bench model ranking",
-      "description": "Claude Opus 4.5 outperforms other models available through GitHub Copilot; ranking correlates closely with SWE Bench rankings for Python tasks.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1619.1,
-      "t_end": 1686,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "model performance",
-        "claude opus",
-        "benchmarking"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "AL code parity with Python",
       "description": "Models perform equivalently well on AL code as on Python code despite there being over 2 million Python repositories versus only 300 AL repositories publicly available.",
       "status": "unclear",
@@ -514,6 +474,12 @@
       "check": "exact"
     },
     {
+      "t": 931.6,
+      "text": "We provided some feedback to the developer experience team and now we have a new version of AL2 MCP server.",
+      "why_it_matters": "Shows that BC-Bench results led to an updated version of the AL2 MCP server.",
+      "check": "exact"
+    },
+    {
       "t": 968.6,
       "text": "If we figure out this tool doesn't make any difference then we don't need to support it anymore and then we can focus our",
       "why_it_matters": "Shows how BC Bench enables prioritization and resource allocation by proving tool utility empirically.",
@@ -529,12 +495,6 @@
       "t": 1260.7,
       "text": "the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the",
       "why_it_matters": "Identifies test execution as the next tooling priority, intended to close the feedback loop agents currently lack.",
-      "check": "exact"
-    },
-    {
-      "t": 1338,
-      "text": "with that the ability to run test we would get say resolution of say a 40% or something and and then so the agent",
-      "why_it_matters": "Provides expected performance improvement targets if test execution is added, showing how BC Bench enables hypothesis-driven feature development.",
       "check": "exact"
     },
     {

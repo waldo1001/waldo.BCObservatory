@@ -216,6 +216,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 316,
+      "text": "We say here they will be in queued and turned on in the subsequent maintenance window overnight depending on local time.",
+      "why_it_matters": "Explains when an index enabled in the client takes effect in SaaS.",
+      "check": "exact"
+    },
+    {
       "t": 368.4,
       "text": "when we develop the base app, we are trying to guess the types of indexes that would make sense, but we don't necessarily know",
       "why_it_matters": "Articulates the design principle driving the feature - acknowledging that Microsoft cannot optimize indexes for all customer scenarios.",

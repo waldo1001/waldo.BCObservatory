@@ -20,12 +20,12 @@ tags:
   - timeline grouping
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:48:33.123Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:48:33.160Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -473,7 +473,7 @@ quotes:
 
 > Business Central agent runtime internals: the task execution engine, Logical Client API reuse, memory, grounding validation, loop detection, timeline grouping, multiple prompts and models, and how the team tests accuracy. Covers the sales order and payables agents as examples.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nPF84Ufkn4k) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-17 · 41:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=nPF84Ufkn4k) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-17 · 41:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -483,13 +483,13 @@ The talk then covers the supporting prompts: input content analysis, output vali
 
 ## Key points
 
-- The Logical Client API gives agents page fields, actions and tooltips as JSON. It was built for rendering clients, not for AI, and is reused for agents.
-- LLM calls are stateless, so the runtime keeps partial memory (visited pages, search results, agent notes) and includes it in later prompts. Memory currently lasts only within one task.
-- Grounding uses a second LLM prompt to check that generated content with data matches data the agent has seen. It costs two calls instead of one and is good but not perfect.
-- Loop detection separates expected repetition from true loops. When it finds one, the runtime speaks as the user and tells the agent to get out of it. If that fails, the user must intervene.
-- The runtime uses many prompts (about 20 per one feature description) and more than one model. Simple prompts like summarization and grounding can often use mini models, while execute task uses a full model.
-- Reasoning models (GPT-o1, GPT-5 with reasoning) added significant latency for execute task with no clear accuracy benefit so far. The team keeps re-evaluating.
-- Tests check that goals are reached, not exact steps. They are split into accuracy tests and challenge tests, and no model upgrade has worked without some prompt tweaks.
+- The Logical Client API gives agents page fields, actions and tooltips as JSON. It existed long before AI to render the Windows, web and mobile clients, and is reused for agents.
+- LLM calls are stateless, so the runtime keeps memory (visited pages, search results, notes the agent writes) and includes it in later prompts. Today that memory lasts only within the current task.
+- Grounding uses a second LLM prompt as an evaluator to check that generated content with data matches data the agent has seen. It costs two LLM calls instead of one.
+- Loop detection separates expected repetition from true loops. When it finds one, the runtime speaks as the user and tells the agent to get out of it. If that fails, a user must intervene.
+- The runtime uses many prompts (the host guessed 11, Esteban said nowadays more like 20) and more than one model. Simpler prompts like summarization and grounding can often use mini models, while execute task, the most complex prompt, uses a full model.
+- Reasoning models (o1, GPT-5 with reasoning) added significant latency for execute task with no clear benefit for this use case so far. The team keeps re-evaluating.
+- Tests check that the goal is reached, not exact steps. They are split into accuracy tests and challenge tests, and every model upgrade so far has needed some prompt tweaks.
 
 ## Chapters
 
@@ -511,33 +511,33 @@ The talk then covers the supporting prompts: input content analysis, output vali
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Runtime | status not stated | [0:11](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=11s) |  |
-| Agent SDK | status not stated | [2:13](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=133s) |  |
-| Logical Client API | status not stated | [2:38](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=158s) |  |
-| Agent Memory System | status not stated | [5:48](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=348s) |  |
-| Execute Task Prompt | status not stated, demoed | [5:21](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=321s) |  |
-| Input Content Analysis | status not stated | [11:27](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=687s) |  |
-| Output Content Validation | status not stated | [12:19](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=739s) |  |
-| Grounding Validation | status not stated, demoed | [13:13](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=793s) |  |
-| Loop Detection in Agent Execution | status not stated | [15:27](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=927s) |  |
-| Agent Intervention Prompts | status not stated | [16:43](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1003s) |  |
-| Validation Error Recovery | status not stated | [17:19](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1039s) |  |
-| Timeline Step Grouping and Summarization | status not stated | [18:03](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1083s) |  |
-| Agent Task Logs | status not stated | [19:29](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1169s) |  |
-| Multiple Prompts in Agent Runtime | status not stated | [19:42](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1182s) |  |
-| Multi-Model Runtime Strategy | status not stated | [21:14](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1274s) |  |
-| Mini vs Full Model Evaluation | status not stated | [22:06](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1326s) |  |
-| Reasoning Model Evaluation for Agent Execution | status not stated | [22:51](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1371s) |  |
-| Dynamic Model Selection Strategy | status not stated | [25:29](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1529s) |  |
-| Agent Scenario-Based Testing Framework | status not stated | [26:04](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1564s) |  |
-| Model-Specific Prompt Tuning | status not stated | [27:03](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1623s) |  |
-| MCP Tools Integration for Agents | status not stated | [34:30](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2070s) |  |
-| Cross-Task Memory for Agents | status not stated | [35:05](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2105s) |  |
-| Agent Knowledge Base Integration | status not stated | [37:00](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2220s) |  |
-| Agent Accuracy Improvements | status not stated | [39:11](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2351s) |  |
-| Tool Integration Feature | status not stated | [40:30](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2430s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Runtime | status not stated | [0:11](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=11s) |
+| Agent SDK | status not stated | [2:13](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=133s) |
+| Logical Client API | status not stated | [2:38](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=158s) |
+| Agent Memory System | status not stated | [5:48](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=348s) |
+| Execute Task Prompt | status not stated, demoed | [5:21](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=321s) |
+| Input Content Analysis | status not stated | [11:27](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=687s) |
+| Output Content Validation | status not stated | [12:19](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=739s) |
+| Grounding Validation | status not stated, demoed | [13:13](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=793s) |
+| Loop Detection in Agent Execution | status not stated | [15:27](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=927s) |
+| Agent Intervention Prompts | status not stated | [16:43](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1003s) |
+| Validation Error Recovery | status not stated | [17:19](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1039s) |
+| Timeline Step Grouping and Summarization | status not stated | [18:03](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1083s) |
+| Agent Task Logs | status not stated | [19:29](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1169s) |
+| Multiple Prompts in Agent Runtime | status not stated | [19:42](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1182s) |
+| Multi-Model Runtime Strategy | status not stated | [21:14](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1274s) |
+| Mini vs Full Model Evaluation | status not stated | [22:06](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1326s) |
+| Reasoning Model Evaluation for Agent Execution | status not stated | [22:51](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1371s) |
+| Dynamic Model Selection Strategy | status not stated | [25:29](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1529s) |
+| Agent Scenario-Based Testing Framework | status not stated | [26:04](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1564s) |
+| Model-Specific Prompt Tuning | status not stated | [27:03](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=1623s) |
+| MCP Tools Integration for Agents | status not stated | [34:30](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2070s) |
+| Cross-Task Memory for Agents | status not stated | [35:05](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2105s) |
+| Agent Knowledge Base Integration | status not stated | [37:00](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2220s) |
+| Agent Accuracy Improvements | status not stated | [39:11](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2351s) |
+| Tool Integration Feature | status not stated | [40:30](https://www.youtube.com/watch?v=nPF84Ufkn4k&t=2430s) |
 
 ## AL objects mentioned
 

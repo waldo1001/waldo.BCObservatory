@@ -18,12 +18,12 @@ tags:
   - france
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:54.978Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:55.038Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,7 +36,14 @@ evidence:
     date: "2026-04-01T12:00:53.000Z"
     commit: null
     t: 181
-    quote: this is a public preview but this is completed
+    quote: Now this is a public preview but this is completed. This is a public preview only because this is not enforced to be used
+  - kind: video
+    url: https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s
+    title: "French electronic invoicing: announced"
+    date: "2026-04-01T12:00:53.000Z"
+    commit: null
+    t: 219
+    quote: And work in progress French electronic invoicing. This is something what we are working on.
   - kind: video
     url: https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=34s
     title: "What's New: E-Documents (2026 release wave 1)"
@@ -167,9 +174,9 @@ features:
     verified: false
     status_source: video
   - name: French electronic invoicing
-    status: unclear
+    status: announced
     t: 219
-    verified: false
+    verified: true
     status_source: video
   - name: PEPPOL 3.0 format enum and extensibility
     status: unclear
@@ -227,7 +234,7 @@ quotes:
 
 > E-Documents changes in 2026 release wave 1: PEPPOL moved from the base app to a first-party app, inbound e-documents can be linked to existing purchase invoices (intercompany vendors only), and localization updates for Spain, Denmark and France. Includes demos of the PEPPOL 3.0 setup page and the linking feature.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oL8OlbEoUnQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 12:52 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=oL8OlbEoUnQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 12:52 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -237,8 +244,8 @@ It also shows linking an inbound e-document to a purchase invoice that already e
 
 ## Key points
 
-- PEPPOL is now a first-party app instead of part of the base app; electronic document formats in the base app will be phased out and the code removed from the base app.
-- Inbound e-documents can be linked to an already created purchase invoice. This is currently allowed only for intercompany vendors, and the vendor amounts must match the total on the received invoice.
+- PEPPOL is now a first-party app instead of part of the base app. The plan is to obsolete the PEPPOL code in the base app and remove it, and the electronic document formats are being phased out in favor of e-documents.
+- Inbound e-documents can be linked to an existing purchase invoice. This is currently allowed only for intercompany vendors. Only invoices for that vendor whose amount matches the total of the received invoice can be linked.
 - The PEPPOL app exposes 10 interfaces, split by part of the PEPPOL 3.0 format, so developers can extend one part without changing the whole format. A PEPPOL validation interface allows custom validation before the format is created.
 - A new PEPPOL 3.0 setup page lets users select enum values and configure the PEPPOL implementation.
 - Vendor templates can set a default e-document type (purchase invoice or purchase order). Service participant can now be linked to company information.
@@ -264,9 +271,9 @@ It also shows linking an inbound e-document to a purchase invoice that already e
 | Default e-document type on vendor templates | status not stated | [2:19](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=139s) |  |
 | Service participant linked to company information | status not stated | [2:33](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=153s) |  |
 | Payment with e-documents | status not stated | [2:48](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=168s) |  |
-| Verify tool in Spain | preview | [3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s) | "this is a public preview but this is completed" ([3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s)) |
+| Verify tool in Spain | preview | [3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s) | "Now this is a public preview but this is completed. This is a public preview only because this is not enforced to be used" ([3:01](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=181s)) |
 | E-invoicing in Denmark with carbon footprint | status not stated | [3:18](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=198s) |  |
-| French electronic invoicing | status not stated | [3:39](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s) |  |
+| French electronic invoicing | announced | [3:39](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s) | "And work in progress French electronic invoicing. This is something what we are working on." ([3:39](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=219s)) |
 | PEPPOL 3.0 format enum and extensibility | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=302s) |  |
 | PEPPOL validation interface | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=366s) |  |
 | PEPPOL 3.0 setup page | status not stated, demoed | [7:17](https://www.youtube.com/watch?v=oL8OlbEoUnQ&t=437s) |  |

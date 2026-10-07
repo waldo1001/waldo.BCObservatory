@@ -377,6 +377,12 @@
       "check": "exact"
     },
     {
+      "t": 335.5,
+      "text": "Plus, having a lot of indexes can make write operations smaller, not smaller, but slower.",
+      "why_it_matters": "Explains the write-performance reason for removing unneeded indexes.",
+      "check": "exact"
+    },
+    {
       "t": 359.8,
       "text": "Analysis mode is a hugely popular feature with with Business Central users. And in this release wave, we allow AL developers to include analysis",
       "why_it_matters": "Announces that a frequently-requested capability has been extended to allow developers to include analysis views directly in applications.",

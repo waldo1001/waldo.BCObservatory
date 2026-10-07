@@ -145,24 +145,6 @@
       "system": "sales"
     },
     {
-      "name": "Analysis Mode on Lists",
-      "description": "Demonstrates using lists in analysis mode within Business Central as an alternative to Power BI apps for viewing reports and data visualization.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 160.3,
-      "t_end": 174.9,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "analysis mode",
-        "reporting",
-        "lists"
-      ],
-      "system": "reporting"
-    },
-    {
       "name": "Demo Data Control Tool",
       "description": "A tool under analytics that can be installed to access enhanced demo data across fixed assets, sales, purchasing, and subscription billing. Can be extended to other scenarios.",
       "status": "unclear",
@@ -196,6 +178,12 @@
       "t": 26.5,
       "text": "we are have added demo data across fixed assets, sales, purchasing, and subscription billing",
       "why_it_matters": "Identifies the four main areas where demo data enhancements have been made in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 39.8,
+      "text": "Everything by the way is part of the demo data control tool under analytics. So you just install that",
+      "why_it_matters": "Tells users where the enhanced demo data comes from and how to get it (install the tool under analytics).",
       "check": "exact"
     },
     {

@@ -2,7 +2,7 @@
 id: video/B-pxLlb-UN0
 type: video
 title: "What's New: Shopify Connector - Overview (2026 release wave 1)"
-summary: "Shopify connector changes in Business Central 2026 release wave 1: variant images and attributes, collections import, separate product and price updates, unit cost sync, presentment currency, fulfillment limits removed, tax code field removed, and the Shopify API upgrade to the January 2026 version."
+summary: "Shopify connector changes in Business Central 2026 release wave 1: variant images and attributes, custom collections import, item import with marketing text, article-type meta fields, unit cost in price sync, tax code field removed, presentment currency in sales documents, fulfillment limitations removed, and the move to the Shopify API version released in January (valid through December 2026)."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - shopify api
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:30.530Z"
   flags: []
 generated:
-  at: "2026-10-06T17:39:45.983Z"
+  at: "2026-10-07T22:49:30.564Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -207,9 +207,9 @@ quotes:
 
 # What's New: Shopify Connector - Overview (2026 release wave 1)
 
-> Shopify connector changes in Business Central 2026 release wave 1: variant images and attributes, collections import, separate product and price updates, unit cost sync, presentment currency, fulfillment limits removed, tax code field removed, and the Shopify API upgrade to the January 2026 version.
+> Shopify connector changes in Business Central 2026 release wave 1: variant images and attributes, custom collections import, item import with marketing text, article-type meta fields, unit cost in price sync, tax code field removed, presentment currency in sales documents, fulfillment limitations removed, and the move to the Shopify API version released in January (valid through December 2026).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=B-pxLlb-UN0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 11:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=B-pxLlb-UN0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 11:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -239,21 +239,21 @@ On the order side, it covers presentment currency in imported sales documents, a
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Item variant images and attributes support | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=56s) |  |
-| Shopify collections import and mapping | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=110s) |  |
-| Item import from Shopify with product details | status not stated | [2:39](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=159s) |  |
-| Meta field support including article links | status not stated | [3:18](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=198s) |  |
-| Separated product and price update controls | status not stated | [4:03](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=243s) |  |
-| Unit cost in price synchronization | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=262s) |  |
-| Tax code field removal | status not stated | [4:54](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=294s) |  |
-| Presentment currency in sales documents | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=339s) |  |
-| Fulfillment troubleshooting information | status not stated | [7:36](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=456s) |  |
-| Fulfillment limitations removed | status not stated | [8:19](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=499s) |  |
-| Shopify API field changes for return information | status not stated | [9:23](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=563s) |  |
-| Shopify API version upgrade to January 2026 release | status not stated | [9:48](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=588s) |  |
-| Product variant support for 2000 variants | status not stated | [10:15](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=615s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Item variant images and attributes support | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=56s) |
+| Shopify collections import and mapping | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=110s) |
+| Item import from Shopify with product details | status not stated | [2:39](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=159s) |
+| Meta field support including article links | status not stated | [3:18](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=198s) |
+| Separated product and price update controls | status not stated | [4:03](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=243s) |
+| Unit cost in price synchronization | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=262s) |
+| Tax code field removal | status not stated | [4:54](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=294s) |
+| Presentment currency in sales documents | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=339s) |
+| Fulfillment troubleshooting information | status not stated | [7:36](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=456s) |
+| Fulfillment limitations removed | status not stated | [8:19](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=499s) |
+| Shopify API field changes for return information | status not stated | [9:23](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=563s) |
+| Shopify API version upgrade to January 2026 release | status not stated | [9:48](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=588s) |
+| Product variant support for 2000 variants | status not stated | [10:15](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=615s) |
 
 ## Quotes
 

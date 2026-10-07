@@ -18,12 +18,12 @@ tags:
   - public preview
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:49:00.408Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:49:00.449Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     commit: null
     t: 348
     quote: agent told me that there is no such tool in the MCP server to uninstall the extension because we intentionally are not introducing breaking
+  - kind: video
+    url: https://www.youtube.com/watch?v=U1dAdtUjidc&t=497s
+    title: "What's New: Admin Center MCP Server (2026 release wave 1)"
+    date: "2026-04-01T12:01:24.000Z"
+    commit: null
+    t: 497
+    quote: you can use any client that supports MCP servers including um Microsoft Copilot Studio to connect to the new MCP server for the Admin
   - kind: video
     url: https://www.youtube.com/watch?v=U1dAdtUjidc&t=550s
     title: "What's New: Admin Center MCP Server (2026 release wave 1)"
@@ -179,6 +186,9 @@ quotes:
   - t: 348
     text: agent told me that there is no such tool in the MCP server to uninstall the extension because we intentionally are not introducing breaking
     check: exact
+  - t: 497
+    text: you can use any client that supports MCP servers including um Microsoft Copilot Studio to connect to the new MCP server for the Admin
+    check: exact
   - t: 550
     text: For now, this is in public preview. So, we're still actively working on this and we have some ideas on how to improve it
     check: exact
@@ -194,7 +204,7 @@ quotes:
 
 > Admin Center MCP Server (in public preview, 2026 release wave 1) lets an MCP client such as VS Code query and manage Business Central environments through the Admin Center API using natural language. The video demos setup, update queries and failed-update analysis, and lists preview limitations.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=U1dAdtUjidc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=U1dAdtUjidc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-04-01 · 10:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -204,13 +214,13 @@ It also shows analyzing a failed update, where the failure message pointed to AL
 
 ## Key points
 
-- The Admin Center MCP Server is in public preview and can be connected to VS Code and other MCP-compatible clients.
+- The Admin Center MCP Server is in public preview and can be connected to VS Code or any client that supports MCP servers, including Microsoft Copilot Studio.
 - Authentication uses standard Entra authentication, the same mechanism as the Admin API.
 - Natural language questions can list environments and show their pending updates; the server chooses the API endpoints to call.
 - Failed update analysis can identify root causes, especially when the source code of the failing extension is in the same context.
+- It can poll operations, for example copying a production environment, waiting for the copy to finish, then running the update.
 - It cannot run destructive operations: deleting or renaming environments, or uninstalling apps. In the demo the agent said no uninstall tool exists.
 - It cannot manage security group settings, and settings for linked Power Platform environments are not available yet.
-- Some Admin Center API endpoints are not yet known to the MCP server during the preview.
 
 ## Chapters
 
@@ -249,6 +259,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:20](https://www.youtube.com/watch?v=U1dAdtUjidc&t=140s) "just using a natural language question, the MCP server figures out what tools to use, what API endpoints to call to give you an"
 - [3:19](https://www.youtube.com/watch?v=U1dAdtUjidc&t=199s) "failure message indicates that it failed in data upgrade because of some logic in AL that that was failing essentially."
 - [5:48](https://www.youtube.com/watch?v=U1dAdtUjidc&t=348s) "agent told me that there is no such tool in the MCP server to uninstall the extension because we intentionally are not introducing breaking"
+- [8:17](https://www.youtube.com/watch?v=U1dAdtUjidc&t=497s) "you can use any client that supports MCP servers including um Microsoft Copilot Studio to connect to the new MCP server for the Admin"
 - [9:10](https://www.youtube.com/watch?v=U1dAdtUjidc&t=550s) "For now, this is in public preview. So, we're still actively working on this and we have some ideas on how to improve it"
 - [9:24](https://www.youtube.com/watch?v=U1dAdtUjidc&t=564s) "During the public preview, there's a few API endpoints that that are available in the Admin Center API but that are not known to"
 - [9:36](https://www.youtube.com/watch?v=U1dAdtUjidc&t=576s) "You cannot execute potentially destructive operations like deleting and and renaming environments or uninstalling apps."

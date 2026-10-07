@@ -336,6 +336,12 @@
       "check": "exact"
     },
     {
+      "t": 286.9,
+      "text": "we say the active state is the only one that is not blocked, both draft and retired state of definitions are considered blocked",
+      "why_it_matters": "Explains which lifecycle states count as blocked in the sample setup.",
+      "check": "exact"
+    },
+    {
       "t": 413,
       "text": "If you do it like this, then you control the negative if all your report definition use the default here, then you control that",
       "why_it_matters": "Shows how company defaults provide centralized control over formatting across all reports.",
@@ -354,16 +360,16 @@
       "check": "exact"
     },
     {
-      "t": 789.2,
-      "text": "I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh",
-      "why_it_matters": "Shows scheduling flexibility including recipient group management for report distribution.",
+      "t": 647.4,
+      "text": "one worksheet for each value of the dimension administration, production, purchasing, and sales.",
+      "why_it_matters": "Shows that dimension perspectives produce one Excel worksheet per dimension value.",
       "check": "exact"
     },
     {
       "t": 789.2,
-      "text": "i can set the recurrence formula here weekly i can even set recipients so i can",
-      "why_it_matters": "Demonstrates the capability to configure recurring report delivery with specific recipients.",
-      "check": "fuzzy"
+      "text": "I can set the recurrence formula here weekly. I can even set recipients",
+      "why_it_matters": "Shows that report schedules support a recurrence formula and named recipients.",
+      "check": "exact"
     },
     {
       "t": 813.9,
