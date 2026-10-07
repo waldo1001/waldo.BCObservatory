@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/97",
+  "number": 97,
+  "title": "Add per-row AL performance guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields and how to avoid cloning records before Modify or Delete in loops, with corrections to the commit checkpoint sample.",
+  "key_points": [
+    "Added two new performance guidance documents with code examples for SetAutoCalcFields usage and avoiding record cloning patterns",
+    "Updated commit-checkpoint example to select at most 500 ordered keys into a temporary buffer before processing",
+    "Enhanced reviewer retrieval to precisely identify per-row Commit and clone-before-write patterns with exclusions for valid checkpoints",
+    "Clarified the scope of clone guidance to require Copy, GetTable, or by-value writing helpers before Modify/Delete operations",
+    "Added comprehensive documentation sourcing AL database methods, Query.TopNumberOfRows, SetAutoCalcFields, Record.Copy, and RecordRef.GetTable"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004411,
+    "changes_in_call": 1
+  }
+}

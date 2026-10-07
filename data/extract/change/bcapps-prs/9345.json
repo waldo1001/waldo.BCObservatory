@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9345",
+  "number": 9345,
+  "title": "[master]Codeunits 8364, 8365, 8367 Add integration event OnAfterPopulateLineBufferForReporting to filter Dimension Perspective sections before rendering",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Three Dimension Perspective codeunits now expose an integration event that allows filtering which sections appear before rendering in financial reports.",
+  "key_points": [
+    "Adds OnAfterPopulateLineBufferForReporting integration event to DimPerspectiveBusinessUnit",
+    "Adds OnAfterPopulateLineBufferForReporting integration event to DimPerspectiveCustom",
+    "Adds OnAfterPopulateLineBufferForReporting integration event to DimPerspectiveDimension",
+    "Enables extensions to control Dimension Perspective section visibility before rendering",
+    "Minimal changes with 6 lines per codeunit"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003475,
+    "changes_in_call": 1
+  }
+}

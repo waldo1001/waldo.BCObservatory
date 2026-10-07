@@ -1,0 +1,97 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 96,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/96",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T10:50:30Z",
+  "merge_commit_sha": "98af9aa1fc10bb7df78c2bcc012e1a4803877c91",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add missing AL review leaf skills",
+  "body_hash": "7aa1f77fee2d4603e6978c79743e5e977f2d1e650fe71bfd47c56c7257f6825c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/skills/review/al-appsource-review.md",
+      "status": "added",
+      "additions": 128,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "added",
+      "additions": 131,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-telemetry-review.md",
+      "status": "added",
+      "additions": 127,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-testing-review.md",
+      "status": "added",
+      "additions": 130,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 521,
+    "deletions": 1,
+    "al": 5
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-appsource-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-telemetry-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-testing-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

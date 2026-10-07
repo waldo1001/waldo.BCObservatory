@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 95,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/95",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T09:26:44Z",
+  "merge_commit_sha": "9214f73819ddcec6f46a6476509f8faf439547ed",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope",
+  "body_hash": "9f09bca395a46b2e6d2ce43aa3123909791c5a05bd0d15b40ae1d93efe95eef3",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

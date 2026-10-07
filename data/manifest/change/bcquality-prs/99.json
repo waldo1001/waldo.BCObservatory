@@ -6,10 +6,35 @@
   "title": "Add lifecycle error and privacy knowledge",
   "url": "https://github.com/microsoft/BCQuality/pull/99",
   "published_at": "2026-07-14T10:52:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:27.340Z",
+      "change_class": "code",
+      "files": 25,
+      "al": 25,
+      "objects": 0,
+      "unjoined": 25
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:33.205Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005045
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:33.207Z",
+      "objects": 0,
+      "unjoined": 25,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:33.212Z",
+      "path": "content/changes/bcquality/99.md"
     }
   },
   "input_hash": "e0ebdd35c70686f53e7e78bf40abe5982f65ee1e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add lifecycle error and privacy knowledge"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3bdfe0af512cbaa3cf71ff9002683aa9b8556c85d57195eaae90cd41cd274417"
 }

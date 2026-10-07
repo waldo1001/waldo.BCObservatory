@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/93",
+  "number": 93,
+  "title": "Fix lifecycle compatibility guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Development guidance and code examples were corrected across multiple AL development topics including error handling, events, upgrades, APIs, and lifecycle management to align with current platform capabilities and best practices.",
+  "key_points": [
+    "Clarified examples and documentation for error collection with ErrorBehavior, event handling with IsHandled, and data transfer skipping triggers",
+    "Updated API versioning guidance to require separate page objects for version-specific shapes and aligned examples with APIVersion defaulting to beta",
+    "Corrected lifecycle guidance for obsoletions, public members, and test transaction models with improved samples",
+    "Fixed examples for SecretText exposure prevention, interface default implementations, and upgrade tag registration",
+    "Enhanced web services review examples and refined upgrade codeunit subtype documentation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "correct collectible-error, DataTransfer, upgrade-tag, obsoletion, and test-transaction guidance and samples",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004299,
+    "changes_in_call": 1
+  }
+}

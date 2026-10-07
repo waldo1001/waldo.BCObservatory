@@ -6,10 +6,35 @@
   "title": "Project Task Billing Method reverts to original value in project card without validation or error",
   "url": "https://github.com/microsoft/BCApps/pull/9280",
   "published_at": "2026-07-14T09:27:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:34.398Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:42.007Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003655
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:42.210Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:42.215Z",
+      "path": "content/changes/bcapps/9280.md"
     }
   },
   "input_hash": "00b1a1d30dacab85a1c376c250c5815ed2f0917e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "project task billing method reverts to original value in project card without validation or error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07044b86aa45fea4fc3baf4230a11c07bb972aee0cfc5f7ded9eb80838b7aaa4"
 }

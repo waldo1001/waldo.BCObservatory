@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/95",
+  "number": 95,
+  "title": "style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries to keep correctness issues out of the style scope, reducing false-positive findings in code review.",
+  "key_points": [
+    "Mechanical conventions already enforced by CodeCop (like this keyword, tooltip requirements, label scope) are downgraded to info severity instead of minor",
+    "Correctness, logic, and data-integrity defects are redirected from the style domain to appropriate channels like al-code-review's agent channel",
+    "Severity calibration reserves minor for style issues with concrete downstream impact that analyzers don't catch (translation loss, option caption mismatches, misleading invocations)",
+    "Domain boundaries clarified with concrete counter-examples and a reliable test: if no style best practice can be cited, it's likely not a style finding",
+    "Changes are guidance-only edits to the skill; no schema or engine changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00425,
+    "changes_in_call": 1
+  }
+}

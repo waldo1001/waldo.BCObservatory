@@ -6,10 +6,18 @@
   "title": "Correct security and privacy knowledge guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/92",
   "published_at": "2026-07-14T09:25:03Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:37.291Z",
+      "change_class": "code",
+      "files": 34,
+      "al": 34,
+      "objects": 0,
+      "unjoined": 34
     }
   },
   "input_hash": "aca3986fd0702ed6829b71c8ef6645d87550ae70:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "correct security and privacy knowledge guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ea7c3a5ea25b4f410618db27f0bf4ffb548d0a1fc6e1a24e9dc2c2063da4057"
 }

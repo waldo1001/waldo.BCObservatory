@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9340",
+  "number": 9340,
+  "title": "[main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The OnAfterGLFinishPosting event in the Gen. Jnl.-Post Line codeunit now includes a NextVATEntryNo variable parameter, allowing event subscribers to access the next VAT entry number during posting.",
+  "key_points": [
+    "Added NextVATEntryNo variable to OnAfterGLFinishPosting event",
+    "Change applied across all localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU)",
+    "Enables event subscribers to reference the next VAT entry number",
+    "Small code change replicated consistently across regional variants"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005422,
+    "changes_in_call": 1
+  }
+}

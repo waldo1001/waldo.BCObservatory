@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9280",
+  "number": 9280,
+  "title": "Project Task Billing Method reverts to original value in project card without validation or error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers, fixing a race condition that previously caused the value to revert without error.",
+  "key_points": [
+    "A Modify() call in the OnValidate trigger ensures the updated billing method value is persisted to the database before the platform refreshes the page",
+    "The fix guards against unnecessary modifications by checking if the value actually changed using xRec comparison",
+    "Three test cases validate the core fix, the early-exit path when no tasks exist, and prevention of redundant Modify() calls"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003655,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/99",
+  "number": 99,
+  "title": "Add lifecycle error and privacy knowledge",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Five new knowledge articles with code samples were added covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy exposure, and FeatureTelemetry logging, plus related review skills were updated.",
+  "key_points": [
+    "Added five focused rules with good and bad AL examples for TryFunction calls, upgrade phases, install code dispatch, ErrorInfo classification, and FeatureTelemetry.LogError payloads",
+    "Integrated new rules into error-handling, upgrade, and privacy review skills with typed ErrorInfo retrieval and upgrade-helper analysis",
+    "Corrected conflicting guidance in existing articles about install behavior, validation triggers, and ErrorType usage",
+    "All changes validated through frontmatter checks, knowledge-index tests, JSON parsing, and reference resolution"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005045,
+    "changes_in_call": 1
+  }
+}

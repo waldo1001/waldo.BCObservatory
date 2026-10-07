@@ -1,0 +1,97 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9345,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9345",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T10:13:01Z",
+  "merge_commit_sha": "25d4e8f3f79b58b6d27321b22771a3fa88f9560e",
+  "author": "AndreasHans",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "[master]Codeunits 8364, 8365, 8367 Add integration event OnAfterPopulateLineBufferForReporting to filter Dimension Perspective sections before rendering",
+  "body_hash": "8cea3aae110ae730eef9e2f53564c9c4796005fbb7ddd7771dbaaeffda956ffb",
+  "fixes_issues": [],
+  "work_items": [
+    641549
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveBusinessUnit.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveCustom.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveDimension.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 18,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveBusinessUnit.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8364",
+        "type": "codeunit",
+        "id": 8364,
+        "name": "DimPerspectiveBusinessUnit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8364"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveCustom.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8365",
+        "type": "codeunit",
+        "id": 8365,
+        "name": "DimPerspectiveCustom",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8365"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/DimPerspectiveDimension.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8367",
+        "type": "codeunit",
+        "id": 8367,
+        "name": "DimPerspectiveDimension",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8367"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

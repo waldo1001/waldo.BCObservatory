@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9092",
+  "number": 9092,
+  "title": "[Master]-Take Payment Discounts setting does not work as expected in the Suggest Vendor Payments EB routine from the EB Payment Journal in the Belgian version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Suggest Vendor Payments EB routine in the Belgian version now correctly applies the Take Payment Discounts setting when processing vendor payments through the EB Payment Journal.",
+  "key_points": [
+    "Fixed the Take Payment Discounts setting functionality in Suggest Vendor Payments EB report",
+    "Issue affected Belgian localization of vendor payment processing",
+    "Changes include improved logic in the report and expanded test coverage",
+    "Localized payment journal processing now respects discount preferences"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": "Take Payment Discounts setting does not work as expected in the Suggest Vendor Payments EB routine",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003235,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.",
   "url": "https://github.com/microsoft/BCApps/pull/9222",
   "published_at": "2026-07-14T10:05:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:33.400Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:38.391Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003729
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:38.546Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:38.551Z",
+      "path": "content/changes/bcapps/9222.md"
     }
   },
   "input_hash": "60101de0dafe1856d00b98d3a38bc4b5dd02b6f6:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "when issuing a prepayment invoice with an invoice discount applied the prepayment amount does not take into account the total amount including tax"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d488550900cce086fec4ee5740699d42dfd6d0c619ff38edc68cbff900dc52d"
 }

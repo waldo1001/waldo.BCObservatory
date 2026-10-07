@@ -6,10 +6,35 @@
   "title": "[master]Codeunits 8364, 8365, 8367 Add integration event OnAfterPopulateLineBufferForReporting to filter Dimension Perspective sections before rendering",
   "url": "https://github.com/microsoft/BCApps/pull/9345",
   "published_at": "2026-07-14T10:13:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:29.411Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:34.467Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003475
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:34.696Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:34.702Z",
+      "path": "content/changes/bcapps/9345.md"
     }
   },
   "input_hash": "25d4e8f3f79b58b6d27321b22771a3fa88f9560e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "master codeunits 8364 8365 8367 add integration event onafterpopulatelinebufferforreporting to filter dimension perspective sections before rendering"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aab6ed9b3105ae39d86e6bec38213e93c970d7de2c06f5336c76221bcf7e3dcb"
 }

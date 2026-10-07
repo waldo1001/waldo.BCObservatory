@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9068",
+  "number": 9068,
+  "title": "[master][ALAppExtensions #30085][Event Request] Codeunit 11000007 \"Check BTL91\" - OnBeforeCheckFreelyTransferableMaximumAmount",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "An event request was added to the Check BTL91 codeunit to allow customization of free transfer amount validation in the Dutch localization.",
+  "key_points": [
+    "Added OnBeforeCheckFreelyTransferableMaximumAmount event to codeunit 11000007",
+    "Enables extensions to intercept and customize BTL91 compliance checks",
+    "Specific to Dutch banking payment processing",
+    "Affects validation logic for freely transferable maximum amounts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003128,
+    "changes_in_call": 1
+  }
+}

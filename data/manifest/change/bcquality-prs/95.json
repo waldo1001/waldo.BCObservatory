@@ -6,10 +6,35 @@
   "title": "style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope",
   "url": "https://github.com/microsoft/BCQuality/pull/95",
   "published_at": "2026-07-14T09:26:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:34.426Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:41.999Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00425
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:42.000Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:42.004Z",
+      "path": "content/changes/bcquality/95.md"
     }
   },
   "input_hash": "9214f73819ddcec6f46a6476509f8faf439547ed:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "style review calibrate analyzer redundant rules to info keep correctness bugs out of style scope"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd33a5ffeb9c6f795446140d68328f42ea597aec26ad471482cf7392dae60a0a"
 }

@@ -6,10 +6,35 @@
   "title": "[main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code",
   "url": "https://github.com/microsoft/BCApps/pull/9340",
   "published_at": "2026-07-14T10:26:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:28.421Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:36.144Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005422
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:36.304Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:36.310Z",
+      "path": "content/changes/bcapps/9340.md"
     }
   },
   "input_hash": "b107781f1706064354776b7e855bf18ec54e0a05:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "gen jnl post line add var nextvatentryno to onafterglfinishposting in code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ed16823c955efbcafd91b20ea8e0dc4dfed094e532a0ac22d9365b0b8874bd22"
 }

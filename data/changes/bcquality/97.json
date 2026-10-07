@@ -1,0 +1,145 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 97,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/97",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T10:51:40Z",
+  "merge_commit_sha": "078b869e3303ccaa59e9836301fe8dbec68c614d",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add per-row AL performance guidance",
+  "body_hash": "b700fcb56fac26e2a21e51f1c6df4b03b2315ddb24df2e02876d5c695b1b5ea1",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.bad.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.good.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-commit-inside-loops.good.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/avoid-commit-inside-loops.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.good.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-performance-review.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 174,
+    "deletions": 18,
+    "al": 9
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-commit-inside-loops.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/avoid-commit-inside-loops.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-performance-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

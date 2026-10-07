@@ -6,10 +6,35 @@
   "title": "Add per-row AL performance guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/97",
   "published_at": "2026-07-14T10:51:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:26.366Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 0,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:32.108Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004411
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:32.110Z",
+      "objects": 0,
+      "unjoined": 9,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:32.113Z",
+      "path": "content/changes/bcquality/97.md"
     }
   },
   "input_hash": "078b869e3303ccaa59e9836301fe8dbec68c614d:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add per row al performance guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ba83dd69860c4115d27544e5629394eb06442d0643108b49111a91a0016355c"
 }

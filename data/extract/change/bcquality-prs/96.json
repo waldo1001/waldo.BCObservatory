@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/96",
+  "number": 96,
+  "title": "Add missing AL review leaf skills",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry review scenarios, integrated into the main AL code review capability.",
+  "key_points": [
+    "Added four specialized review skills: testing, data modeling, AppSource, and telemetry",
+    "Mapped domain articles to specific review guidance and worklist cues",
+    "Registered all skills as leaves under the AL code review super-skill",
+    "Validated 215 articles with full coverage and deterministic knowledge index",
+    "Verified routing logic and internal reference paths for all new skills"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "add testing, data-modeling, AppSource, and telemetry review leaves",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00337,
+    "changes_in_call": 1
+  }
+}

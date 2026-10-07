@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9222",
+  "number": 9222,
+  "title": "[Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an issue where prepayment invoices with invoice discounts applied were not correctly including tax when the prepayment include tax setting was enabled. The reconciliation logic now uses the tax-inclusive amount as the target when calculating the prepayment difference.",
+  "key_points": [
+    "Prepayment amount calculation now properly accounts for tax when invoice discount is applied",
+    "The UpdateDifferenceAmount procedure uses tax-inclusive amount for reconciliation when Prepmt. Include Tax is true",
+    "Issue only affected the invoice-discount code path; non-discount and non-include-tax scenarios unaffected",
+    "Added test cases for Canada and US locales to verify correct tax handling"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003729,
+    "changes_in_call": 1
+  }
+}
