@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11945",
+  "number": 11945,
+  "title": "Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting inventory put-away lines with serial tracking are no longer incorrectly split into quantity-1 lines when not marked as last operation.",
+  "key_points": [
+    "Serial tracking fallback logic is intercepted for non-physical NotLastOperation lines",
+    "Full remaining quantity is inserted through the standard inventory put-away path for NotLastOperation",
+    "Regression test added to verify line cardinality, zero base quantities, blank tracking, and absence of physical ledger entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003388,
+    "changes_in_call": 1
+  }
+}

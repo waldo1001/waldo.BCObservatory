@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10085,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10085",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T18:42:59Z",
+  "merge_commit_sha": "e20f1962c7b2faaece752fcad7e766ee8457dfe9",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "ExpenseManagement",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add opt-in API test authentication providers",
+  "body_hash": "011e4663b14a2fb9c8ad5ff2439f262b8f08a796b974bb3551f3f306d19e1db3",
+  "fixes_issues": [],
+  "work_items": [
+    646383
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 9,
+    "additions": 494,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

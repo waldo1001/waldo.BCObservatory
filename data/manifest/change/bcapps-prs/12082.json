@@ -6,10 +6,35 @@
   "title": "Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)",
   "url": "https://github.com/microsoft/BCApps/pull/12082",
   "published_at": "2026-09-30T11:00:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:00.905Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:05.692Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003198
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:05.882Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:05.887Z",
+      "path": "content/changes/bcapps/12082.md"
     }
   },
   "input_hash": "94ce0650faff6b0f0f4f5ec6a271f3f3f5dccf08:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650429 repair item subcontracting show document opens the wrong transfer order from transfer lines page 5749"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ffa63fecfdfbdd9dfd3f9ad50e66c53c488ee2d2d64cf8fe3a8607f4ba39840"
 }

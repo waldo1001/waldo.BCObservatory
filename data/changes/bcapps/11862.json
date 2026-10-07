@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11862,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11862",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T18:43:02Z",
+  "merge_commit_sha": "f1399d0d45acb804139d065311151d256cc3689d",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Separate URL and fixture prerequisites",
+  "body_hash": "70954d0efbdcfb0b972a452d6fffbb466ad0b87327ff3b5e9c698793a9d49a19",
+  "fixes_issues": [],
+  "work_items": [
+    646383
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 25,
+    "additions": 740,
+    "deletions": 48,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

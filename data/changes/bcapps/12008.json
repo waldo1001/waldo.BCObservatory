@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12008,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12008",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-30T11:09:39Z",
+  "merge_commit_sha": "5074f740f8fb948ebd65cde0665b45fe829dbdc2",
+  "author": "v-maheshsharma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.",
+  "body_hash": "3187d46b1eb2c2112a2fb8b915719b1950fcfe30e06a86ea95247be4aeb2f0cf",
+  "fixes_issues": [],
+  "work_items": [
+    651716
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INTDS/app/.resources/TDSUseCases/b8a33720-278b-45b4-8465-2d9fa273d813.json",
+      "status": "modified",
+      "additions": 6595,
+      "deletions": 6624,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 6596,
+    "deletions": 6625,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18694",
+        "type": "codeunit",
+        "id": 18694,
+        "name": "TDS Tax Configuration",
+        "app": "INTDS",
+        "cc": "in",
+        "page": "codeunit/18694-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INTDS"
+  ]
+}

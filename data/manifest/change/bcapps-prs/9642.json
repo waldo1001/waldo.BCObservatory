@@ -6,10 +6,35 @@
   "title": "[Bug]: E-Documents for Germany - FindEDocumentService always selects last matching service, ignoring which service triggered the export",
   "url": "https://github.com/microsoft/BCApps/pull/9642",
   "published_at": "2026-09-29T22:23:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:05.898Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 9,
+      "objects": 0,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:11.974Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005185
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:12.168Z",
+      "objects": 0,
+      "unjoined": 9,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:12.173Z",
+      "path": "content/changes/bcapps/9642.md"
     }
   },
   "input_hash": "0b91a89d90c4803d17db5e2f1fe6178eefde6109:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug e documents for germany findedocumentservice always selects last matching service ignoring which service triggered the export"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a93fc52fe5720ddf17c292411bb292d7b628729e779ef9ba28f15c64606a9d60"
 }

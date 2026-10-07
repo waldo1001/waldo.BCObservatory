@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11967",
+  "number": 11967,
+  "title": "Block Edit in Excel for pages based on the User table",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Edit in Excel now blocks page-based editing for tables that are the User table to prevent authentication corruption when users are edited via Excel and published back. A new check in the Edit in Excel implementation logs telemetry and raises an error before workbook generation.",
+  "key_points": [
+    "Adds CheckPageIsSupported validation in codeunit 1482 to block User table pages",
+    "Check runs at all entry points before workbook creation and web service setup",
+    "Uses source table identification to cover all User-based pages including renamed or localized ones",
+    "Logs telemetry event 0000U9E when block occurs",
+    "New tests verify the blocking behavior for pages with User as source table"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004067,
+    "changes_in_call": 1
+  }
+}

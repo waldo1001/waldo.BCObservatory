@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11813,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11813",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T20:54:36Z",
+  "merge_commit_sha": "7fa7dd8616c38f39157d632f9b2d8eecc0ba6b7f",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 633676: Expense Agent - Setup wizard - Cannot clear default approver once saved from assist edit",
+  "body_hash": "d6c0d052cce113863f9798e9f1f443d57c7c9a8601d5261999a8fef4dd4447b3",
+  "fixes_issues": [],
+  "work_items": [
+    633676
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

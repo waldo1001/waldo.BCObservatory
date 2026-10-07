@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9642",
+  "number": 9642,
+  "title": "[Bug]: E-Documents for Germany - FindEDocumentService always selects last matching service, ignoring which service triggered the export",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "E-Document exports for Germany now use the service that triggered the export instead of always selecting the last matching service, ensuring correct settings like PDF embedding are applied.",
+  "key_points": [
+    "XRechnung format passes the triggering service to Export XRechnung Document through SetEDocumentService",
+    "ZUGFeRD uses a new ZUGFeRD Export Context codeunit to carry the service from format into report extensions",
+    "FindEDocumentService and OnAfterFindEDocumentService are deprecated but kept working until CLEAN29 for backward compatibility",
+    "Tests verify both the new path and legacy fallback work correctly",
+    "Context codeunit is public so partners can use it in customized report extensions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "The triggering service is now handed to the export instead",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005185,
+    "changes_in_call": 1
+  }
+}

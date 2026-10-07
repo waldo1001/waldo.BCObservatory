@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11901,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11901",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T15:57:34Z",
+  "merge_commit_sha": "9a1ee191193c6450935f23535f5f231f303b7885",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix expense policy category mode",
+  "body_hash": "118d5d1dc8409640a81c70918f5197671686705c5c95208e835369710494c1f9",
+  "fixes_issues": [],
+  "work_items": [
+    649968
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 41,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+        "status": "modified",
+        "key": "page/7127",
+        "type": "page",
+        "id": 7127,
+        "name": "Expense Policies",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7127"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Fix effective permission filtering",
   "url": "https://github.com/microsoft/BCApps/pull/9692",
   "published_at": "2026-09-30T09:28:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:01.657Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:06.541Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003596
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:06.711Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:06.716Z",
+      "path": "content/changes/bcapps/9692.md"
     }
   },
   "input_hash": "7bf0e152868dfec3457b5e0f69a7e5efdb7b3abb:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix effective permission filtering"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ab747273560a6aa2d15579387e47085a406ddf18b89626d788975e3ab8703d2"
 }

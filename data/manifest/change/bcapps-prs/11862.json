@@ -6,7 +6,7 @@
   "title": "[API tests] Separate URL and fixture prerequisites",
   "url": "https://github.com/microsoft/BCApps/pull/11862",
   "published_at": "2026-09-29T18:43:02Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "api tests separate url and fixture prerequisites"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:58:09.630Z",
+  "retry_after": null
 }

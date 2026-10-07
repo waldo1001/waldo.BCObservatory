@@ -6,10 +6,35 @@
   "title": "[29.x]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.",
   "url": "https://github.com/microsoft/BCApps/pull/12008",
   "published_at": "2026-09-30T11:09:39Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:58.720Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:03.589Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003718
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:03.870Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:03.876Z",
+      "path": "content/changes/bcapps/12008.md"
     }
   },
   "input_hash": "5074f740f8fb948ebd65cde0665b45fe829dbdc2:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "tds amount incorrectly calculated under tax information factbox if you use applies to id in the indian version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2194b8eee5cfe90dbe32d013ee998983a433013a192bb6e3cac44fe601600faf"
 }

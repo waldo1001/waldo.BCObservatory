@@ -6,7 +6,7 @@
   "title": "Bug 629656: Add tests for Company-Initialize in a newly created company",
   "url": "https://github.com/microsoft/BCApps/pull/11988",
   "published_at": "2026-09-30T11:01:23Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 629656 add tests for company initialize in a newly created company"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:57:59.477Z",
+  "retry_after": null
 }

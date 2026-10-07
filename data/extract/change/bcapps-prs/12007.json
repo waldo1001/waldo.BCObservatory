@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12007",
+  "number": 12007,
+  "title": "[Main]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed incorrect TDS amount calculation when applying payments to purchase invoices via Applies-to ID in the Indian version. The system was deducting the gross payment amount instead of the TDS base, resulting in over-deducted TDS.",
+  "key_points": [
+    "Corrected calculation logic in the Applies-to ID TDS use case to properly sum applied TDS base amounts",
+    "Removed an erroneous expression that was overwriting the calculated applied amount with the gross payment amount",
+    "Bumped use-case version from 5 to 6 to ensure the corrected configuration is re-imported",
+    "TDS now calculates correctly for single and multiple applied payments"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Removed the erroneous expression so AppliedAmount retains the correctly summed TDS base",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away",
   "url": "https://github.com/microsoft/BCApps/pull/12068",
   "published_at": "2026-09-30T11:01:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:59.775Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:04.514Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003501
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:04.662Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:04.668Z",
+      "path": "content/changes/bcapps/12068.md"
     }
   },
   "input_hash": "f8b57f64b32eae603cf4cbfee2917f80a3bd1521:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 651757 repair item manufacturing warehouse pick is not generated for make to order subassembly after registered put away"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b9f30290e1eea42ccc0cbe86671d79a29bd590049d4802119b03d58fc67d52c5"
 }

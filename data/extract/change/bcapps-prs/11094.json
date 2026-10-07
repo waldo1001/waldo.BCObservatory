@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11094",
+  "number": 11094,
+  "title": "[FS] Prevent duplicate Field Service customer assets during item synchronization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Field Service Integration now prevents duplicate Customer Assets by setting Products synchronized from Business Central Items to not convert to Customer Assets, keeping BC as the source of truth for Customer Asset creation.",
+  "key_points": [
+    "Products from BC Items now have Convert to Customer Asset set to No",
+    "Default Item-Product mapping includes the new field mapping rule",
+    "Product flag no longer filters Service Items from Customer Asset synchronization",
+    "Runtime enforcement and mapping configuration tested",
+    "Backward compatible with existing coupled items"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Setting Convert to Customer Asset to No for Products synchronized from BC Items.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003669,
+    "changes_in_call": 1
+  }
+}

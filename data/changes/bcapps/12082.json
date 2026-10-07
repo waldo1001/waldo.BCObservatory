@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12082,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12082",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T11:00:31Z",
+  "merge_commit_sha": "94ce0650faff6b0f0f4f5ec6a271f3f3f5dccf08",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)",
+  "body_hash": "309a5a8ddfec27deb34d794154df4532c0dbccf051847bcc1a06cfbcd18325ff",
+  "fixes_issues": [],
+  "work_items": [
+    650429
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferLines.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/SCMLegacySubcNavigation.Codeunit.al",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 74,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferLines.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,18 @@
   "title": "Use lower case file extensions for document attachment file names",
   "url": "https://github.com/microsoft/BCApps/pull/11774",
   "published_at": "2026-09-29T19:15:12Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:08.361Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "81c9e29614995ff878e25b170f4f11b62aee9728:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "use lower case file extensions for document attachment file names"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d198ebcb9c90b807b2e10b26e8b97bccb830561cb9ee829a6b79108f999496b"
 }

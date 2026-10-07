@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11813",
+  "number": 11813,
+  "title": "Bug 633676: Expense Agent - Setup wizard - Cannot clear default approver once saved from assist edit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent Setup Wizard now allows users to clear the default approver field after it has been saved, fixing a previous restriction that prevented modification.",
+  "key_points": [
+    "Default approver can now be cleared in the setup wizard",
+    "Resolves inability to modify the field once saved",
+    "Change made to the Expense Agent Setup Wizard page",
+    "Enables users to remove previously set approver assignments",
+    "Feature requires SaaS environment with Agent framework enabled"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": "Option to clear default approver.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00321,
+    "changes_in_call": 1
+  }
+}

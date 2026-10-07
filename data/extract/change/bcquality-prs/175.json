@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/175",
+  "number": 175,
+  "title": "9 AL/BC patterns: document distribution, price calculation & barcode extensibility",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Nine new AL/BC patterns document best practices for document distribution, report selections, price calculation extensibility, barcode usage, and posting-cascade field mirroring, with verified examples from Business Central source.",
+  "key_points": [
+    "Nine documented patterns for custom document dispatch, printing, email, and report selections",
+    "Guidance for extending Find Entries navigation, price calculation handlers, and price source types",
+    "Rules for matching field types/lengths in TransferFields posting cascades and using barcode modules correctly",
+    "Each pattern includes bad/good code examples and links to relevant BCApps source files",
+    "Entry criteria clarified to recognize document actions, Navigate subscribers, and pricing extensibility topics"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Nine rules about Business Central's document distribution architecture and posting-cascade/pricing extensibility, verified against BCApps source and Microsoft Learn",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005365,
+    "changes_in_call": 1
+  }
+}

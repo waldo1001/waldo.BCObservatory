@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11774,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11774",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T19:15:12Z",
+  "merge_commit_sha": "81c9e29614995ff878e25b170f4f11b62aee9728",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use lower case file extensions for document attachment file names",
+  "body_hash": "262f8dac72a26981d44da1918fb503f6dde8868ff66dc40640c28c9e473ed95a",
+  "fixes_issues": [],
+  "work_items": [
+    647180
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DK/OIOUBL/test/src/OIOUBLERMElecDocumentSales.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOLBISBillingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/Tests/Misc/PEPPOLBISBillingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ElectronicDocumentFormat.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/DocumentSendingPostTests.Codeunit.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/PEPPOLBISBillingTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 80,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ElectronicDocumentFormat.Table.al",
+        "status": "modified",
+        "key": "table/61",
+        "type": "table",
+        "id": 61,
+        "name": "Electronic Document Format",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/61"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

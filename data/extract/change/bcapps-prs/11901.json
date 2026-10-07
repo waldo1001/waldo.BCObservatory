@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11901",
+  "number": 11901,
+  "title": "Fix expense policy category mode",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Policies page now locks the expense category field when opened for a specific category, automatically applies that category to new policies, and reads page-link filters from supported filter groups.",
+  "key_points": [
+    "Category field becomes locked when page is opened in single-category context",
+    "New expense policies automatically inherit the filtered category",
+    "Page-link filter reading now supports multiple filter groups",
+    "Improves user experience for category-scoped policy management"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Lock the expense category field when the page is opened for one category.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003202,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12068,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12068",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T11:01:23Z",
+  "merge_commit_sha": "f8b57f64b32eae603cf4cbfee2917f80a3bd1521",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away",
+  "body_hash": "139e6085ca28e6add7c1c9a56633141427d2d72ead7deae7ecb1ebb635a89c23",
+  "fixes_issues": [],
+  "work_items": [
+    651757
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProductionOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 27,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+        "status": "modified",
+        "key": "table/5405",
+        "type": "table",
+        "id": 5405,
+        "name": "Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

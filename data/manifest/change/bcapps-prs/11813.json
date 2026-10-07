@@ -6,10 +6,35 @@
   "title": "Bug 633676: Expense Agent - Setup wizard - Cannot clear default approver once saved from assist edit",
   "url": "https://github.com/microsoft/BCApps/pull/11813",
   "published_at": "2026-09-29T20:54:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:06.954Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:12.356Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00321
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:12.504Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:16.134Z",
+      "path": "content/changes/bcapps/11813.md"
     }
   },
   "input_hash": "7fa7dd8616c38f39157d632f9b2d8eecc0ba6b7f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 633676 expense agent setup wizard cannot clear default approver once saved from assist edit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c3ef2134a1f61d96fd8f33a0b7eac71b1b114448bc1dac493368d403da3f715"
 }

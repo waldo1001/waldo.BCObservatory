@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12068",
+  "number": 12068,
+  "title": "Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Completely Picked calculation for production orders now includes components supplied by other production-order lines, ensuring warehouse picks are generated for make-to-order subassemblies after put-away registration.",
+  "key_points": [
+    "Fixed FlowField calculation to include supplied-by components when determining if a production order is completely picked",
+    "Prevents premature completion of warehouse pick requests when subassemblies remain unpicked",
+    "Enables follow-up warehouse picks to be generated for supplied components",
+    "Added regression tests for fully picked and mixed picked/unpicked components"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "quote": "include supplied-by production components when calculating whether a production order is completely picked",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003501,
+    "changes_in_call": 1
+  }
+}

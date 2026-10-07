@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9692",
+  "number": 9692,
+  "title": "Fix effective permission filtering",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Effective Permissions page now displays specific object permissions correctly instead of showing wildcard permissions when filtering by object, ensuring the UI accurately reflects the configured authorization.",
+  "key_points": [
+    "Permission buffer population prioritizes exact object IDs over wildcard object ID 0",
+    "Blank permissions on exact records are treated as explicit exclusions that take precedence over wildcard grants",
+    "UI consistency improved while effective authorization calculation remains unchanged",
+    "New tests verify exact grants display instead of wildcard grants and exact exclusions override wildcard grants",
+    "Low-risk change affecting only the permission UI buffer"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003596,
+    "changes_in_call": 1
+  }
+}

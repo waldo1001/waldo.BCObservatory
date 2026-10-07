@@ -6,10 +6,35 @@
   "title": "Block Edit in Excel for pages based on the User table",
   "url": "https://github.com/microsoft/BCApps/pull/11967",
   "published_at": "2026-09-29T17:22:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:58:10.472Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:58:16.146Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004067
+    },
+    "linked": {
+      "at": "2026-10-07T12:58:16.353Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:58:16.357Z",
+      "path": "content/changes/bcapps/11967.md"
     }
   },
   "input_hash": "e022e39b8ffa5bce2ff68171b7ea64f2eb13e073:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "block edit in excel for pages based on the user table"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d4c48c0ca189651cd3b27ec855a04944ce9c94038d57ac4e176bb44c251e0f7"
 }

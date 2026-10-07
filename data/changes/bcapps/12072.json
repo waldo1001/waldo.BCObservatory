@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12072,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12072",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-30T11:01:23Z",
+  "merge_commit_sha": "36aa3b46c637c2f660c73d5cb3f8c7e8fb5ed9aa",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Harden IdentifyTableIDFromText fuzzy tests",
+  "body_hash": "8a3f2886367425496af9723f2114e1594f420f1f54b04a72573cd2f33471467d",
+  "fixes_issues": [],
+  "work_items": [
+    636554
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 3,
+    "additions": 97,
+    "deletions": 28,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

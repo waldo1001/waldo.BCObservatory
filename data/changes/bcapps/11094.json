@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11094,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11094",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-29T22:41:48Z",
+  "merge_commit_sha": "b3405069d90ad6bf233bc747f6e965668d2f5cc8",
+  "author": "tomasevicst",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[FS] Prevent duplicate Field Service customer assets during item synchronization",
+  "body_hash": "c5d5a52fd39f6422564c5e8bbcb9f337a024a4910ca544af2380482fbf519af3",
+  "fixes_issues": [],
+  "work_items": [
+    649195
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Codeunits/FSIntTableSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/test library/src/FSIntegrationTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/test/src/FSIntegrationTest.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 76,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 161,
+    "deletions": 84,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Codeunits/FSIntTableSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6610",
+        "type": "codeunit",
+        "id": 6610,
+        "name": "FS Int. Table Subscriber",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "codeunit/6610"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "FieldServiceIntegration"
+  ]
+}
