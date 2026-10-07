@@ -6,10 +6,35 @@
   "title": "Expense Agent: Improve expense activity history captions",
   "url": "https://github.com/microsoft/BCApps/pull/10614",
   "published_at": "2026-08-31T17:50:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:55.146Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:01.468Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00348
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:01.662Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:01.668Z",
+      "path": "content/changes/bcapps/10614.md"
     }
   },
   "input_hash": "ec5398ebb9058ff5059e9766831bfbfa0e016d20:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent improve expense activity history captions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ba8e4dc047b2d1e1da8e431be75f0ab72d90132620ab69b5643036adc2d837f9"
 }

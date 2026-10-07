@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10600,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10600",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T10:04:56Z",
+  "merge_commit_sha": "15ecb6d1b5d7fc5fd671b2fe046e2831dbf81744",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 641282: [Sustainability][Value Chain] FA Reclassification Journal: add CO2e reclassification % field to split emissions like Acq. Cost %",
+  "body_hash": "c83acb4e9ff3ac105e92b8fb734c892f083b569672174bd8c6c2dfcb857e185f",
+  "fixes_issues": [],
+  "work_items": [
+    641282
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAJournalSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAReclassJournal.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAReclassJournalLine.TableExt.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustValueChainFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 160,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 192,
+    "deletions": 2,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAJournalSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6283",
+        "type": "codeunit",
+        "id": 6283,
+        "name": "Sust. FA Journal Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6283"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAReclassJournal.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6294",
+        "type": "pageextension",
+        "id": 6294,
+        "name": "Sust. FA Reclass. Journal",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6294"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/FixedAssets/SustFAReclassJournalLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6265",
+        "type": "tableextension",
+        "id": 6265,
+        "name": "Sust. FA Reclass. Journal Line",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6265"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

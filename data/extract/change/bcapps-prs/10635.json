@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10635",
+  "number": 10635,
+  "title": "[Subcontracting] (Bug: 638998) Add extensibility to Subcontracting app for IT partner migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Subcontracting app gains integration events for report objects to support partner migration from legacy Italian subcontracting features, and a redundant customization restriction is removed from the Subcontractor Price table.",
+  "key_points": [
+    "Added integration events to Subc. Create Transf. Order report mirroring legacy report 12152 functionality",
+    "Added OnAfterInsertTransferHeader and OnBeforeShowDocument events to Subc. Create SubCReturnOrder report matching legacy report 12153",
+    "Removed redundant AllowInCustomizations property from Subcontractor Price table",
+    "All new events use IntegrationEvent(false, false) following app conventions",
+    "Changes are additive with low risk and no alteration to existing control flow"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "The new W1 Subcontracting app was missing extensibility points that Italian partners depend on when migrating from the legacy IT BaseApp subcontracting objects.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004339,
+    "changes_in_call": 1
+  }
+}

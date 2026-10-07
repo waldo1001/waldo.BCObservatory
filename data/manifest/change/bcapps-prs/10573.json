@@ -6,10 +6,35 @@
   "title": "BC IQ - Adding data categorization",
   "url": "https://github.com/microsoft/BCApps/pull/10573",
   "published_at": "2026-09-01T08:53:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:46.675Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:53.880Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.006636
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:54.034Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:54.040Z",
+      "path": "content/changes/bcapps/10573.md"
     }
   },
   "input_hash": "d3a95cf2569b4eaab009ae43dcc7cfb33a6a1bfd:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bc iq adding data categorization"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af6039788c285a552df40c7d875f210c35a3e42299af0118de8235b50c727cc5"
 }

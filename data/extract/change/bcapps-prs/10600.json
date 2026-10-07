@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10600",
+  "number": 10600,
+  "title": "[Master] - Slice 641282: [Sustainability][Value Chain] FA Reclassification Journal: add CO2e reclassification % field to split emissions like Acq. Cost %",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "A new Reclassify CO2e % field was added to the FA Reclassification Journal to allow CO2e emissions to be reclassified independently from acquisition cost percentages.",
+  "key_points": [
+    "New Reclassify CO2e % field added to FA Reclassification Journal Line table extension",
+    "Field validation requires Sust. Account No. or New Sust. Account No. to be set",
+    "Journal subscriber updated to use the new CO2e percentage field instead of acquisition cost percentage for emission reclassification",
+    "New field exposed on the FA Reclassification Journal page",
+    "Test cases added to verify the functionality with different and zero CO2e percentages"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "fixed-assets"
+  ],
+  "quote": "Adds a new Reclassify CO2e % field to the FA Reclassification Journal so CO2e emissions can be reclassified independently of Reclassify Acq. Cost %.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004167,
+    "changes_in_call": 1
+  }
+}

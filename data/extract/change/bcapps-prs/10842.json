@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10842",
+  "number": 10842,
+  "title": "[SOA] Clarify Email 2 contact mapping action",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Email 2 contact mapping action in the Sales Order Agent now explicitly clarifies that the sender's email is stored in the selected contact's Email 2 field instead of using the vague term \"alternate email\".",
+  "key_points": [
+    "Replaces ambiguous wording with explicit field reference",
+    "Clarifies that Email 2 field is updated",
+    "Improves alignment between action description and actual behavior",
+    "Affects Sales Order Agent contact mapping"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Updates the contact mapping action to explicitly state that the sender's email is stored in the selected contact's Email 2 field.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003267,
+    "changes_in_call": 1
+  }
+}

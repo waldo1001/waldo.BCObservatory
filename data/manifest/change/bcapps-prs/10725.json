@@ -6,7 +6,7 @@
   "title": "Make Peppol BIS 3.0 FR Format public",
   "url": "https://github.com/microsoft/BCApps/pull/10725",
   "published_at": "2026-08-31T16:36:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": true,
     "title_key": "make peppol bis 3 0 fr format public"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:05:57.682Z",
+  "retry_after": null
 }

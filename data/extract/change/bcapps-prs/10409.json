@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10409",
+  "number": 10409,
+  "title": "Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience with pages and notification components, including comprehensive tests for the review flow and architecture documentation.",
+  "key_points": [
+    "Adds Tax Match Review page and order tax-lines UI components for human review of tax matches",
+    "Includes order, sales order, and shop card page extensions to enable review drill-through navigation",
+    "Introduces review-specific test suites covering rate-conflict review and HITL notification scenarios",
+    "Adds architecture and test matrix documentation",
+    "Grants review page access through updated permission set"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Tax Match Review page and order tax-lines part; order / sales-order / shop-card page extensions (review drill-through + Discovered uptake); stateless notification codeunit.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004095,
+    "changes_in_call": 1
+  }
+}

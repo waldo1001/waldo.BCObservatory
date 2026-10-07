@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/10700",
+  "number": 10700,
+  "title": "29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "platform",
+    "integration",
+    "inventory"
+  ],
+  "summary": "Purchase order matching and receipt-on-invoice line tracking capabilities are added to E-Documents integration. New fields and APIs support matching purchase orders with incoming documents and tracking which receipt lines were invoiced.",
+  "key_points": [
+    "New PO matching warning enum for E-Documents processing",
+    "Receipt-on-invoice policy enum and line tracking fields added to Purchase Line",
+    "E-Doc PO matching codeunit enhanced with new API functionality",
+    "Vendor and Purchase document schema updates across all localization layers",
+    "Upgrade scripts added for data migration and schema changes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013639,
+    "changes_in_call": 1
+  }
+}

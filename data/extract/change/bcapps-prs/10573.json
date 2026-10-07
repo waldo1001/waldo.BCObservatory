@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10573",
+  "number": 10573,
+  "title": "BC IQ - Adding data categorization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Data categorization support was added to the Data Classification Evaluation Data codeunit to enhance data classification capabilities in Business Central.",
+  "key_points": [
+    "Data categorization functionality added to codeunit 1751",
+    "Supports improved data classification evaluation",
+    "Minimal code addition with 30 lines",
+    "Part of BC IQ feature set"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006636,
+    "changes_in_call": 1
+  }
+}

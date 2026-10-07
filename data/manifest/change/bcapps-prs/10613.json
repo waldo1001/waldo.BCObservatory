@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries",
   "url": "https://github.com/microsoft/BCApps/pull/10613",
   "published_at": "2026-09-01T10:15:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:45.320Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:50.448Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004077
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:50.638Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:50.645Z",
+      "path": "content/changes/bcapps/10613.md"
     }
   },
   "input_hash": "f504539e29fd9513b9cfd732d54000ebaa3f08b3:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 640775 sustainability reverse sustainability part when reverse in gl entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4cf9baee2ad93bacd9dc858c4641aac1be577925f307243aa26a1986127d67c9"
 }

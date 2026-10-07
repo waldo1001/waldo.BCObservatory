@@ -6,7 +6,7 @@
   "title": "[Subcontracting] Bug 647210 & 647791: Enable IT migration in production and keep Legacy Subcontracting on when app install is declined",
   "url": "https://github.com/microsoft/BCApps/pull/10483",
   "published_at": "2026-09-01T15:00:07Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004654
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:42.089Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:42.093Z",
+      "path": "content/changes/bcapps/10483.md"
     }
   },
   "input_hash": "70938a74d3cc9f6c3196322e0c8b0f69c5f4ddf0:c1",
@@ -48,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3958418bee5f43144ed014950489319a755800973bbcf5e4f98eef9ce5482d0b"
+  "output_hash": "4e960ce315ab426931264fcbced38cffa6614324f3e6bec9aa915077fee40af5"
 }

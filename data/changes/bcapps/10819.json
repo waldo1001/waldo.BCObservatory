@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10819,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10819",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T18:58:57Z",
+  "merge_commit_sha": "5a034511d40534c939e881454fc8e97631a7679b",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path",
+  "body_hash": "38be3f38d7be48a93825380f2a18a3c3f9157f79040d934e8ff507affeaa2028",
+  "fixes_issues": [],
+  "work_items": [
+    648382
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/AppliedPaymentEntry.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/PaymentApplicationProposal.Table.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 24,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/AppliedPaymentEntry.Table.al",
+        "status": "modified",
+        "key": "table/1294",
+        "type": "table",
+        "id": 1294,
+        "name": "Applied Payment Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1294"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Reconciliation/PaymentApplicationProposal.Table.al",
+        "status": "modified",
+        "key": "table/1293",
+        "type": "table",
+        "id": 1293,
+        "name": "Payment Application Proposal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1293"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

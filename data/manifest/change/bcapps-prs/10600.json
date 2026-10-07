@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 641282: [Sustainability][Value Chain] FA Reclassification Journal: add CO2e reclassification % field to split emissions like Acq. Cost %",
   "url": "https://github.com/microsoft/BCApps/pull/10600",
   "published_at": "2026-09-01T10:04:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:45.652Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:51.100Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004167
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:51.245Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:51.250Z",
+      "path": "content/changes/bcapps/10600.md"
     }
   },
   "input_hash": "15ecb6d1b5d7fc5fd671b2fe046e2831dbf81744:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 641282 sustainability value chain fa reclassification journal add co2e reclassification field to split emissions like acq cost"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ef635aa40f298996e080a17ce6b9f840f34b82c45e83ab34fdd393cfcc95d53f"
 }

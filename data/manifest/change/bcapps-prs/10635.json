@@ -6,10 +6,35 @@
   "title": "[Subcontracting] (Bug: 638998) Add extensibility to Subcontracting app for IT partner migration",
   "url": "https://github.com/microsoft/BCApps/pull/10635",
   "published_at": "2026-09-01T11:06:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:44.633Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:49.960Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004339
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:50.143Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:50.149Z",
+      "path": "content/changes/bcapps/10635.md"
     }
   },
   "input_hash": "28ed503a27412410e42c9edec06ca0a7567ed875:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 638998 add extensibility to subcontracting app for it partner migration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ae977592bd97430ede75f6db3c7bc5931eadfa4356d2d4fbac0ef5e9f22cb14"
 }

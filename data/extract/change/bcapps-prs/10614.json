@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10614",
+  "number": 10614,
+  "title": "Expense Agent: Improve expense activity history captions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense report activity logs now display user-friendly captions (Activity, Date and Time, Performed By, Details) instead of technical field names, and the FactBox is renamed from Activity Log to History.",
+  "key_points": [
+    "Renamed the FactBox from Activity Log to History for clearer user communication",
+    "Replaced technical column headers with descriptive labels (Activity, Date and Time, Performed By, Details)",
+    "Field tooltips are now inherited from the activity log table rather than duplicated on the FactBox",
+    "Applies to expense reports, posted expense reports, and manager expense report pages"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "rename the Business Central activity log FactBox to History",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00348,
+    "changes_in_call": 1
+  }
+}

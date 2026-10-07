@@ -6,10 +6,35 @@
   "title": "[MAIN]-Bug 647352 Issue with lot no assignment after posting a transfer order",
   "url": "https://github.com/microsoft/BCApps/pull/10624",
   "published_at": "2026-09-01T08:47:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:49.420Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 7,
+      "objects": 3,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:54.808Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004077
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:54.981Z",
+      "objects": 3,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:54.987Z",
+      "path": "content/changes/bcapps/10624.md"
     }
   },
   "input_hash": "7f753cfa0ba34ee20706372b0f814b12208ef325:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 647352 issue with lot no assignment after posting a transfer order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0b0ce49fab0c8da53f46525d44ffa2d95c9fa35c5c67a74b2644f0bc37216e83"
 }

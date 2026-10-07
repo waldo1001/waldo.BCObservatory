@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10835,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10835",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T11:20:05Z",
+  "merge_commit_sha": "b48003d10e6ea890a31806a1bd7d7aa643db8d86",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 638446: Refactor \"Subc. Subcontracting Tests\" codeunit as it is growing to be very large",
+  "body_hash": "ffecd8c17f06c1037ae3bb9390611f1d5c4d973c101436e6f41faee43b420dda",
+  "fixes_issues": [],
+  "work_items": [
+    638446
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 6,
+    "additions": 1567,
+    "deletions": 1452,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

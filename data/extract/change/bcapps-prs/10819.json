@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10819",
+  "number": 10819,
+  "title": "[Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The OnAfterGetLedgEntryInfo event is re-fired during payment proposal creation on the fast path after a prior performance refactor accidentally stopped raising it.",
+  "key_points": [
+    "Re-fires OnAfterGetLedgEntryInfo event for Customer, Vendor, Employee, and Bank Account entries",
+    "Uses a temporary round-trip mechanism without additional ledger reads",
+    "Restores event subscriptions that update proposal fields",
+    "Low risk change that restores pre-refactoring behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Re-fire the legacy event via a temp round-trip (no second ledger read) so existing subscribers keep updating proposal fields.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003405,
+    "changes_in_call": 1
+  }
+}

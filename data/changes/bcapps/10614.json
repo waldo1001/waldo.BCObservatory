@@ -1,0 +1,136 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10614,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10614",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-31T17:50:57Z",
+  "merge_commit_sha": "ec5398ebb9058ff5059e9766831bfbfa0e016d20",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Expense Agent: Improve expense activity history captions",
+  "body_hash": "efe2459a611bf7d276f9f8c8698468ef1c737a31186dd573d74ccf85f3565bdd",
+  "fixes_issues": [],
+  "work_items": [
+    647739
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Pages/ExpenseActivityLogFactBox.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 12,
+    "deletions": 16,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Pages/ExpenseActivityLogFactBox.Page.al",
+        "status": "modified",
+        "key": "page/7123",
+        "type": "page",
+        "id": 7123,
+        "name": "Expense Activity Log FactBox",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7123"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ActivityLog/Tables/ExpenseActivityLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/7100",
+        "type": "table",
+        "id": 7100,
+        "name": "Expense Activity Log Entry",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7100"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Pages/ManagerExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6980",
+        "type": "page",
+        "id": 6980,
+        "name": "Manager Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6980"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6998",
+        "type": "page",
+        "id": 6998,
+        "name": "Posted Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6998"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

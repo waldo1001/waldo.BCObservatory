@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10573,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10573",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T08:53:57Z",
+  "merge_commit_sha": "d3a95cf2569b4eaab009ae43dcc7cfb33a6a1bfd",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "BC IQ - Adding data categorization",
+  "body_hash": "50929a043e5ad33d069b36d47a8f3bfe28f84520176d9ee4b81aab018eb96b65",
+  "fixes_issues": [],
+  "work_items": [
+    625753
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 30,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/DataClassificationEvalData.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1751",
+        "type": "codeunit",
+        "id": 1751,
+        "name": "Data Classification Eval. Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1751"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

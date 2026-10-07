@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10728,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10728",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T11:06:26Z",
+  "merge_commit_sha": "37a02331f4dfbb223eedef6db6aee3ebcb92949a",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Re-enable SCM Inventory Costing IV ACY tests (AB#642681, AB#642682)",
+  "body_hash": "2114245afa1948042cf109b421de5d2d225f69a9554ef861ad3133117cfac975",
+  "fixes_issues": [],
+  "work_items": [
+    642681,
+    642682
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 12,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10635,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10635",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T11:06:25Z",
+  "merge_commit_sha": "28ed503a27412410e42c9edec06ca0a7567ed875",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] (Bug: 638998) Add extensibility to Subcontracting app for IT partner migration",
+  "body_hash": "c854cf39c9a52805e0350bc718c6b5617eeb3b68a72a24c326d888dae8ab16e7",
+  "fixes_issues": [],
+  "work_items": [
+    638998
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcontractorPrice.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 66,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCreateSubCReturnOrder.Report.al",
+        "status": "modified",
+        "key": "report/20502",
+        "type": "report",
+        "id": 20502,
+        "name": "Subc. Create SubCReturnOrder",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20502"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcontractorPrice.Table.al",
+        "status": "modified",
+        "key": "table/20500",
+        "type": "table",
+        "id": 20500,
+        "name": "Subcontractor Price",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "table/20500"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcCreateTransfOrder.Report.al",
+        "status": "modified",
+        "key": "report/20501",
+        "type": "report",
+        "id": 20501,
+        "name": "Subc. Create Transf. Order",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

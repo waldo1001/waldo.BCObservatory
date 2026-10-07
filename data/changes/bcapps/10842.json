@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10842,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10842",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T11:37:21Z",
+  "merge_commit_sha": "34b5b6eca5b391e32fbd184a710d3289a4657d3d",
+  "author": "tomasevicst",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Clarify Email 2 contact mapping action",
+  "body_hash": "47a71430ff7f6875b21fa0e19b410e27f4f2eef0e9bcd889f11ca6e3caed01ac",
+  "fixes_issues": [],
+  "work_items": [
+    640618
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Validation/SOAFiltersImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4305",
+        "type": "codeunit",
+        "id": 4305,
+        "name": "SOA Filters Impl.",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

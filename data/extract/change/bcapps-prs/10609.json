@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10609",
+  "number": 10609,
+  "title": "[Master]-Inconsistent Validation of Non-Deductible VAT % for Purchase Lines Sharing the Same VAT Identifier- #10607",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Non-deductible VAT validation for purchase lines sharing the same VAT identifier is now applied consistently across all purchase line types and locations.",
+  "key_points": [
+    "Fixed inconsistent validation logic in Non-Deductible VAT implementation",
+    "Validation now applies uniformly regardless of purchase line type",
+    "Updated test coverage across multiple localization layers (AU, CZ, IT, RU, W1)",
+    "Removed redundant validation code from base implementation",
+    "Added comprehensive unit tests for edge cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007019,
+    "changes_in_call": 1
+  }
+}

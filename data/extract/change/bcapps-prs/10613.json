@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10613",
+  "number": 10613,
+  "title": "[Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability",
+    "fixed-assets"
+  ],
+  "summary": "Sustainability ledger entries are now reversed when their related general ledger or fixed asset transactions are reversed, with the sustainability ledger entries linked by transaction number and the fixed asset's CO2e totals automatically negated.",
+  "key_points": [
+    "Sustainability ledger entries are matched to GL transactions via transaction number",
+    "Reversing a GL or FA transaction now reverses linked sustainability entries",
+    "Already-reversed entries are skipped to prevent double reversal",
+    "Fixed asset acquisition CO2e totals are negated during reversal",
+    "New GL posting event passes transaction number for reversal tracking"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "finance",
+    "fixed-assets"
+  ],
+  "quote": "When a G/L transaction that included a sustainability part is reversed (Reverse Transaction), the sustainability part is now reversed too.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004077,
+    "changes_in_call": 1
+  }
+}

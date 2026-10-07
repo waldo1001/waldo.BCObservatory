@@ -6,10 +6,35 @@
   "title": "[SOA] Clarify Email 2 contact mapping action",
   "url": "https://github.com/microsoft/BCApps/pull/10842",
   "published_at": "2026-09-01T11:37:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:05:43.673Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:05:48.119Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003267
+    },
+    "linked": {
+      "at": "2026-10-07T13:05:48.264Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:05:48.269Z",
+      "path": "content/changes/bcapps/10842.md"
     }
   },
   "input_hash": "34b5b6eca5b391e32fbd184a710d3289a4657d3d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa clarify email 2 contact mapping action"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "998429b76c15dc009d2525d056db585ce55a04fd54a9b937323a4ef48b9909c9"
 }

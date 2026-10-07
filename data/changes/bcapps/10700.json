@@ -1,0 +1,1519 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10700,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10700",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-01T07:28:50Z",
+  "merge_commit_sha": "be2896049c46d3f2325ee8b730936ea578b58175",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking",
+  "body_hash": "326280a3c582da25cf75fe384b43b4a440df3eb23363a44ece14431c576f253e",
+  "fixes_issues": [],
+  "work_items": [
+    625392
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FinishDraft/EDocCreatePurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 48,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatchWarning.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+      "status": "modified",
+      "additions": 205,
+      "deletions": 111,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocSelectPOLines.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/LibraryEDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Matching/EDocPOMatchingUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 630,
+      "deletions": 221,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InvoiceableReceipts.Codeunit.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/MatchedOrderLineMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 124,
+      "deletions": 55,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatching.Codeunit.al",
+      "status": "added",
+      "additions": 148,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatchingGroup.Codeunit.al",
+      "status": "added",
+      "additions": 602,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/ReceiptOnInvoicePolicy.Enum.al",
+      "status": "added",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMMatchedOrderLineTests.Codeunit.al",
+      "status": "modified",
+      "additions": 134,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/POMatchingGroupTests.Codeunit.al",
+      "status": "added",
+      "additions": 1292,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 90,
+    "additions": 4085,
+    "deletions": 561,
+    "al": 86
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FinishDraft/EDocCreatePurchaseInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6117",
+        "type": "codeunit",
+        "id": 6117,
+        "name": "E-Doc. Create Purchase Invoice",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6117"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+        "status": "modified",
+        "key": "page/6183",
+        "type": "page",
+        "id": 6183,
+        "name": "E-Doc. Purchase Draft Subform",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6183"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatchWarning.Enum.al",
+        "status": "modified",
+        "key": "enum/6111",
+        "type": "enum",
+        "id": 6111,
+        "name": "E-Doc PO Match Warning",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6111"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6196",
+        "type": "codeunit",
+        "id": 6196,
+        "name": "E-Doc. PO Matching",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6196"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocSelectPOLines.Page.al",
+        "status": "modified",
+        "key": "page/6116",
+        "type": "page",
+        "id": 6116,
+        "name": "E-Doc. Select PO Lines",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6116"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "key": "page/26",
+        "type": "page",
+        "id": 26,
+        "name": "Vendor Card",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "page/26"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "key": "page/26",
+        "type": "page",
+        "id": 26,
+        "name": "Vendor Card",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/26"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InvoiceableReceipts.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5828",
+        "type": "codeunit",
+        "id": 5828,
+        "name": "Invoiceable Receipts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5828"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/MatchedOrderLineMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5826",
+        "type": "codeunit",
+        "id": 5826,
+        "name": "Matched Order Line Mgmt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5826"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatching.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5831",
+        "type": "codeunit",
+        "id": 5831,
+        "name": "PO Matching",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5831"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/POMatchingGroup.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5829",
+        "type": "codeunit",
+        "id": 5829,
+        "name": "PO Matching Group",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5829"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/54",
+        "type": "page",
+        "id": 54,
+        "name": "Purchase Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/54"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/ReceiptOnInvoicePolicy.Enum.al",
+        "status": "added",
+        "key": "enum/5820",
+        "type": "enum",
+        "id": 5820,
+        "name": "Receipt on Invoice Policy",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5820"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "key": "page/26",
+        "type": "page",
+        "id": 26,
+        "name": "Vendor Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/26"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "platform",
+    "integration",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application",
+    "EDocument"
+  ]
+}

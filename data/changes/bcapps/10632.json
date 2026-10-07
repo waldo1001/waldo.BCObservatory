@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10632,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10632",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T09:00:49Z",
+  "merge_commit_sha": "99804e56e3392e88284c4dfd4941dba5043a4162",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (IT + CZ)",
+  "body_hash": "86887f455769fc22b7613d6a862ecd1fee62d399fa2722c86b05c00a01d44ba9",
+  "fixes_issues": [],
+  "work_items": [
+    642684
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

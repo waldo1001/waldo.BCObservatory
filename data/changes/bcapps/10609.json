@@ -1,0 +1,126 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10609,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10609",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-01T05:59:49Z",
+  "merge_commit_sha": "20c3a9a592a2dc7de89d15b0e6739226ca23e562",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Inconsistent Validation of Non-Deductible VAT % for Purchase Lines Sharing the Same VAT Identifier- #10607",
+  "body_hash": "f89ae786bddba9c7049e6455a1226374b3db43e2d302fd7274b5a760ccae0c1d",
+  "fixes_issues": [],
+  "work_items": [
+    647365
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AU/Tests/VAT/NonDeductiblePurchPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/VAT/NonDeductiblePurchPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/VAT/NonDedVATMisc.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/VAT/NonDeductiblePurchPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/VAT/NonDeductiblePurchPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDedVATMisc.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductiblePurchPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleUT.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATPostBasic.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 177,
+    "deletions": 50,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6201",
+        "type": "codeunit",
+        "id": 6201,
+        "name": "Non-Ded. VAT Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6201"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
