@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9196",
+  "number": 9196,
+  "title": "[Master] - What If Impact on Planning and Supply",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing",
+    "purchasing"
+  ],
+  "summary": "What-If Impact analysis feature enables users to examine how supply chain changes affect demand and planning in manufacturing and inventory scenarios.",
+  "key_points": [
+    "New What-If Scenario and What-If Impact tables and pages for analyzing supply changes",
+    "Supply What-If Planning Engine codeunit implements the analysis logic",
+    "Manufacturing Supply What-If Planning Engine handles production-specific scenarios",
+    "Integration with existing requisition worksheet and planning workflows",
+    "Support for transfer orders and purchase orders in impact analysis"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "What-if analysis - Analyze negative impact of supply changes on demand",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004408,
+    "changes_in_call": 1
+  }
+}

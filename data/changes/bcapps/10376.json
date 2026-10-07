@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10376,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10376",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T21:51:00Z",
+  "merge_commit_sha": "dd61f9a59abb5d965451d39d1511933926e50b37",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…",
+  "body_hash": "d316ab7233438ee6556345f232cdf34c5bca56ec2b4be161449ac2adba602245",
+  "fixes_issues": [],
+  "work_items": [
+    647259
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvRedrawTests.Codeunit.al",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 105,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

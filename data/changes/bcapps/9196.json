@@ -1,0 +1,405 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9196,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9196",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T19:37:10Z",
+  "merge_commit_sha": "d70db46f262cb5f4151ce143605e8ee0ea8d9615",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master] - What If Impact on Planning and Supply",
+  "body_hash": "8fa20cf5fa3d5379e9517188b12fa17c939284edcc7c1457eb1b8ab7b6eecc87",
+  "fixes_issues": [],
+  "work_items": [
+    636114
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/CalcItemPlanPlanWksh.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfPlanningEngine.Codeunit.al",
+      "status": "added",
+      "additions": 302,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfScenario.Table.al",
+      "status": "added",
+      "additions": 168,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfScenarios.Page.al",
+      "status": "added",
+      "additions": 170,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/WhatIfImpact.Table.al",
+      "status": "added",
+      "additions": 76,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/WhatIfImpacts.Page.al",
+      "status": "added",
+      "additions": 183,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProdOrderLines.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Planning/MfgSupplyWhatIfPlanEng.Codeunit.al",
+      "status": "added",
+      "additions": 233,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMPlanningAndManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 781,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 23,
+    "additions": 2187,
+    "deletions": 33,
+    "al": 22
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/333",
+        "type": "codeunit",
+        "id": 333,
+        "name": "Req. Wksh.-Make Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/333"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/CalcItemPlanPlanWksh.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5431",
+        "type": "codeunit",
+        "id": 5431,
+        "name": "Calc. Item Plan - Plan Wksh.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5431"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfPlanningEngine.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/5455",
+        "type": "codeunit",
+        "id": 5455,
+        "name": "Supply What-If Planning Engine",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5455"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfScenario.Table.al",
+        "status": "added",
+        "key": "table/5440",
+        "type": "table",
+        "id": 5440,
+        "name": "Supply What-If Scenario",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5440"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/SupplyWhatIfScenarios.Page.al",
+        "status": "added",
+        "key": "page/5440",
+        "type": "page",
+        "id": 5440,
+        "name": "Supply What-If Scenarios",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5440"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/WhatIfImpact.Table.al",
+        "status": "added",
+        "key": "table/5441",
+        "type": "table",
+        "id": 5441,
+        "name": "What-If Impact",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5441"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/WhatIfPlanning/WhatIfImpacts.Page.al",
+        "status": "added",
+        "key": "page/5443",
+        "type": "page",
+        "id": 5443,
+        "name": "What-If Impacts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5443"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+        "status": "modified",
+        "key": "report/99001020",
+        "type": "report",
+        "id": 99001020,
+        "name": "Carry Out Action Msg. - Plan.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/333",
+        "type": "codeunit",
+        "id": 333,
+        "name": "Req. Wksh.-Make Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/333"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000854",
+        "type": "codeunit",
+        "id": 99000854,
+        "name": "Inventory Profile Offsetting",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000854"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/5741",
+        "type": "page",
+        "id": 5741,
+        "name": "Transfer Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5741"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProdOrderLines.Page.al",
+        "status": "modified",
+        "key": "page/99000832",
+        "type": "page",
+        "id": 99000832,
+        "name": "Released Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000832"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Planning/MfgSupplyWhatIfPlanEng.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99000848",
+        "type": "codeunit",
+        "id": 99000848,
+        "name": "Mfg. Supply What-If Plan. Eng.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000848"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/54",
+        "type": "page",
+        "id": 54,
+        "name": "Purchase Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/54"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Requisition/ReqWkshMakeOrder.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

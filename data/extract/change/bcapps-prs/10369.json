@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10369",
+  "number": 10369,
+  "title": "Bug 640428: Fix Production BOM Comment Line TableRelation filters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Table relations in the Production BOM Comment Line table are corrected to properly filter by version. The Version Code field now shows all versions of a production BOM, and the BOM Line No. field correctly filters by both production BOM number and version code.",
+  "key_points": [
+    "Version Code field relation fixed: removed self-referential constraint, now shows all versions for the production BOM",
+    "BOM Line No. field relation fixed: added missing version code filter to prevent selecting lines from different versions",
+    "Library function CreateProductionBOMCommentLine reordered to validate version code before BOM line number",
+    "Tests added to verify version lookup displays all versions and that invalid line numbers from other versions are rejected",
+    "Addresses root cause that production BOM lines are partitioned by version but relations did not account for this"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004142,
+    "changes_in_call": 1
+  }
+}

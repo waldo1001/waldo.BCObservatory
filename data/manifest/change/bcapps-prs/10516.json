@@ -6,10 +6,35 @@
   "title": "Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error",
   "url": "https://github.com/microsoft/BCApps/pull/10516",
   "published_at": "2026-08-27T17:56:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:08.740Z",
+      "change_class": "code",
+      "files": 36,
+      "al": 34,
+      "objects": 17,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:17.418Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.010589
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:17.703Z",
+      "objects": 17,
+      "unjoined": 17,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:17.709Z",
+      "path": "content/changes/bcapps/10516.md"
     }
   },
   "input_hash": "c3f9b761b4c1916d6355488e5f966d05dbb162b1:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ruleset hardening promote al0468 al0520 al0589 al0611 al0749 aw0004 to error"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6ae5c2b882dbccddf953c37c45af64e1f8cb9c7b2e34fd4870785d668efa353c"
 }

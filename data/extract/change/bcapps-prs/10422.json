@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10422",
+  "number": 10422,
+  "title": "[Extensibility Request] issue 30423: expose previous service header",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service Header event subscribers now receive the previous record state through the OnValidateShipToCodeOnBeforeDeleteLines event to track custom field changes during line deletion.",
+  "key_points": [
+    "OnValidateShipToCodeOnBeforeDeleteLines event now passes the previous Service Header record (xRec)",
+    "Allows subscribers to detect custom field changes before handling line deletion",
+    "No change to existing parameter order, maintaining backward compatibility",
+    "Addresses extensibility need for service document processing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "passes the previous Service Header state through the existing extensibility event",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003145,
+    "changes_in_call": 1
+  }
+}

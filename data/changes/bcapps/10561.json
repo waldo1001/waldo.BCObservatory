@@ -1,0 +1,565 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10561,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10561",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T18:05:28Z",
+  "merge_commit_sha": "02e4780c568f98804be46f0f4a106ce26e12162f",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Mileage Rate Setup",
+  "body_hash": "01d64d62039bae9d66eda74633cf8e887cd6624d22495150cb2d16c2d43e4d64",
+  "fixes_issues": [],
+  "work_items": [
+    638119,
+    638122
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVehicleTypeAPI.Page.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensesAPI.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/MileageRateSetupAPI.Page.al",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapabilitiesProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expense.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Reports/ExpenseReportSummaryPage.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseVehicleTypes.Page.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/MileageRateSetup.Page.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseVehicleType.Table.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/MileageRateSetup.Table.al",
+      "status": "added",
+      "additions": 167,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAutoPopulation.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseMileageTest.Codeunit.al",
+      "status": "modified",
+      "additions": 339,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 30,
+    "additions": 880,
+    "deletions": 16,
+    "al": 28
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLinesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6929",
+        "type": "page",
+        "id": 6929,
+        "name": "Expense Report Lines API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6929"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseVehicleTypeAPI.Page.al",
+        "status": "added",
+        "key": "page/7107",
+        "type": "page",
+        "id": 7107,
+        "name": "Expense Vehicle Type API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7107"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpensesAPI.Page.al",
+        "status": "modified",
+        "key": "page/6927",
+        "type": "page",
+        "id": 6927,
+        "name": "Expenses API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6927"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/MileageRateSetupAPI.Page.al",
+        "status": "added",
+        "key": "page/7131",
+        "type": "page",
+        "id": 7131,
+        "name": "Mileage Rate Setup API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7131"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapabilitiesProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6906",
+        "type": "codeunit",
+        "id": 6906,
+        "name": "Expense Capabilities Provider",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+        "status": "modified",
+        "key": "enum/6984",
+        "type": "enum",
+        "id": 6984,
+        "name": "Expense Capability",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Pages/Expense.Page.al",
+        "status": "modified",
+        "key": "page/6988",
+        "type": "page",
+        "id": 6988,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6988"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/CreateExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6983",
+        "type": "codeunit",
+        "id": 6983,
+        "name": "Create Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6983"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportSubPage.Page.al",
+        "status": "modified",
+        "key": "page/6999",
+        "type": "page",
+        "id": 6999,
+        "name": "Expense Report SubPage",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6999"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpenseReportSubP.Page.al",
+        "status": "modified",
+        "key": "page/6993",
+        "type": "page",
+        "id": 6993,
+        "name": "Posted Expense Report SubP.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6993"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Reports/ExpenseReportSummaryPage.Report.al",
+        "status": "modified",
+        "key": "report/6952",
+        "type": "report",
+        "id": 6952,
+        "name": "Expense Report Summary Page",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "report/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseVehicleTypes.Page.al",
+        "status": "added",
+        "key": "page/7130",
+        "type": "page",
+        "id": 7130,
+        "name": "Expense Vehicle Types",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7130"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/MileageRateSetup.Page.al",
+        "status": "added",
+        "key": "page/7128",
+        "type": "page",
+        "id": 7128,
+        "name": "Mileage Rate Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7128"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseVehicleType.Table.al",
+        "status": "added",
+        "key": "table/7108",
+        "type": "table",
+        "id": 7108,
+        "name": "Expense Vehicle Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7108"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/MileageRateSetup.Table.al",
+        "status": "added",
+        "key": "table/6939",
+        "type": "table",
+        "id": 6939,
+        "name": "Mileage Rate Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6939"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6953",
+        "type": "permissionset",
+        "id": 6953,
+        "name": "Expense Agent - Data",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6953"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6952",
+        "type": "permissionset",
+        "id": 6952,
+        "name": "Expense Agent - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6952"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6905",
+        "type": "permissionset",
+        "id": 6905,
+        "name": "Expense Mgmt. Admin",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6906",
+        "type": "permissionset",
+        "id": 6906,
+        "name": "Expense Mgmt. Edit",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6907",
+        "type": "permissionset",
+        "id": 6907,
+        "name": "Expense Mgmt. Read",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6950",
+        "type": "codeunit",
+        "id": 6950,
+        "name": "Expense Agent Privacy Subs.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6950"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAutoPopulation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6912",
+        "type": "codeunit",
+        "id": 6912,
+        "name": "Expense Auto Population",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6912"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6902",
+        "type": "codeunit",
+        "id": 6902,
+        "name": "Expense Rule Validation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6902"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetup.Page.al",
+        "status": "modified",
+        "key": "page/6996",
+        "type": "page",
+        "id": 6996,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6996"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

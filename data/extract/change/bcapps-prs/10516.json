@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/10516",
+  "number": 10516,
+  "title": "Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development",
+    "integration",
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Six AL compiler rules are promoted from Warning to Error severity in the base ruleset, with all existing accepted violations marked by pragmas at their source locations to enforce the rules going forward.",
+  "key_points": [
+    "AL0468, AL0520, AL0589, AL0611, AL0749, and AW0004 rules moved from ruleset overrides to Error level",
+    "45 deliberate violations suppressed with scoped pragmas at call sites instead of remaining invisible as repo-wide warnings",
+    "New violations of these rules now fail the build; known violations stay documented in the code",
+    "Ruleset simplification reduces override count from 94 to 88",
+    "Changes include table extensions, pages, codeunits and reports across localization and base application modules"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010589,
+    "changes_in_call": 1
+  }
+}

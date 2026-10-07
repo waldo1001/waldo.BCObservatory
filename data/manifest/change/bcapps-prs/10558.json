@@ -6,10 +6,18 @@
   "title": "[Master]-When Intrastat line is added manually the \"Intrastat Country/Region Code\" is not automatically populated after adding the \"Country/Region Code\"",
   "url": "https://github.com/microsoft/BCApps/pull/10558",
   "published_at": "2026-08-27T16:37:51Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:10.084Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "f382ab03f977df9358abf46fe17a3e972c9d4bd5:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master when intrastat line is added manually the intrastat country region code is not automatically populated after adding the country region code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad9fb59a9716fc3578d82b6db269ba890c70ab71de6a29d400cb180e94a334a0"
 }

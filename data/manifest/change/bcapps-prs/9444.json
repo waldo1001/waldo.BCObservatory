@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30223: add IsHandled events to Purchase Line (translation, price calc, WMS)",
   "url": "https://github.com/microsoft/BCApps/pull/9444",
   "published_at": "2026-08-27T21:01:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:59.892Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 14,
+      "objects": 14,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:05.122Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004558
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:05.267Z",
+      "objects": 14,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:05.272Z",
+      "path": "content/changes/bcapps/9444.md"
     }
   },
   "input_hash": "ec467a04e8fbf69d03f79bd441a9f767cc8927ff:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30223 add ishandled events to purchase line translation price calc wms"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b63f229c980091d29c055c4470a62894278f1b8c36a9932af34b2a8b1153b8a"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9444",
+  "number": 9444,
+  "title": "[Extensibility Request] issue 30223: add IsHandled events to Purchase Line (translation, price calc, WMS)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Three new IsHandled integration events are added to the Purchase Line table, enabling extensions to intervene in item translation, location-based price calculation, and WMS location checks.",
+  "key_points": [
+    "OnCopyFromItemOnBeforeGetItemTranslation event lets subscribers skip standard item translation",
+    "OnValidateLocationCodeOnBeforePlanPriceCalcByField event allows conditional price planning replacement",
+    "OnBeforeCheckWMS event enables bypassing standard WMS location validation",
+    "Events pass relevant record context (Rec, xRec, CurrFieldNo) for conditional logic",
+    "Changes applied consistently across all localization layers (W1, APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004558,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9774,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9774",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T19:35:11Z",
+  "merge_commit_sha": "8d54dfbd92decee66523842843c26bfc4f97f720",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "body_hash": "a3d4aabc83b10a171b298999a9886c39ac5fcf376844d333038570739a18809a",
+  "fixes_issues": [],
+  "work_items": [
+    644154
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/ItemSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 6,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Inventory/Reports/ItemSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/10135",
+        "type": "report",
+        "id": 10135,
+        "name": "Item Sales Statistics",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10135-ca"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,7 +6,7 @@
   "title": "Route BaseApp/Projects to SCM in CODEOWNERS",
   "url": "https://github.com/microsoft/BCApps/pull/10726",
   "published_at": "2026-08-27T18:11:21Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "route baseapp projects to scm in codeowners"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:07:06.135Z",
+  "retry_after": null
 }

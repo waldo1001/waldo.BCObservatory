@@ -1,0 +1,105 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10571,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10571",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T16:37:51Z",
+  "merge_commit_sha": "2b02c91a4909e027a3814b0328c65ef668c5df86",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.",
+  "body_hash": "f0f15a5dcb278e79f10c63e47304760b7cadfd20618afecd48a8f1cda3539616",
+  "fixes_issues": [],
+  "work_items": [
+    647585
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Deferral/DeferralSummaryGL.Report.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/TestREDSetupGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 569,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Deferral/DeferralSummaryGL.Report.al",
+        "status": "modified",
+        "key": "report/1700",
+        "type": "report",
+        "id": 1700,
+        "name": "Deferral Summary - G/L",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1700"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

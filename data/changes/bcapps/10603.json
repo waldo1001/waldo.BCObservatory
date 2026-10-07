@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10603,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10603",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T19:25:47Z",
+  "merge_commit_sha": "7e52e7a98977ec7acd9d04be09347a884bb43beb",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Expense Agent] Grant policy builder execute permission",
+  "body_hash": "9096683dece3a132cd60ba70f2203e90d0ab9dd0cb91c269215cbbe18f4b2744",
+  "fixes_issues": [],
+  "work_items": [
+    647696
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 21,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseManagementObjects.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6904",
+        "type": "permissionset",
+        "id": 6904,
+        "name": "Expense Management - Objects",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6904"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

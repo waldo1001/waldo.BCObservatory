@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10568",
+  "number": 10568,
+  "title": "Send sample invoices from the demo guide directly",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent demo guide now sends sample invoices immediately when selecting the email option, rather than deferring the send until setup is saved, ensuring invoices are sent regardless of the order of operations.",
+  "key_points": [
+    "Sample invoices are sent synchronously when the email option is chosen in the demo guide",
+    "Send flags are cleared after invoices are sent to prevent duplicate sends when saving setup",
+    "The final success screen only displays after the email has actually been transmitted",
+    "The change removes the dependency on the order in which users perform setup steps"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Now the guide sends the sample invoices right when you choose the email option, so it no longer depends on the order of steps.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00361,
+    "changes_in_call": 1
+  }
+}

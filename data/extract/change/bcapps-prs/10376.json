@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10376",
+  "number": 10376,
+  "title": "[Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed an issue where applying a sales credit memo to a rejected or redrawn bill in the Spanish (Cartera) version caused the Rejected Bills Account to become unbalanced due to duplicate posting.",
+  "key_points": [
+    "Credit memos applied to rejected bills now post the Rejected Bills Account reclassification only once instead of twice",
+    "Prevents duplicate posting by skipping application posting in PostDtldCustApplicationEntry when PostReceivableDocs already handles the rejected bill",
+    "Ensures the Rejected Bills Account clears correctly and transactions remain balanced",
+    "Includes test coverage for the cartera redraw scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003528,
+    "changes_in_call": 1
+  }
+}

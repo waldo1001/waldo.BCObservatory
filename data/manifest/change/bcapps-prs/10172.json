@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30111: add purchase prepayment update events",
   "url": "https://github.com/microsoft/BCApps/pull/10172",
   "published_at": "2026-08-27T22:37:41Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.003588
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:58.806Z",
+      "objects": 4,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:58.818Z",
+      "path": "content/changes/bcapps/10172.md"
     }
   },
   "input_hash": "5490460e7c292cc380813be089c93c2da8ce234d:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45cbd9f5c9b6a23098ff5230a5f1f6c72938be876af13e7006a5be9ad220a9e8"
+  "output_hash": "3ead52a6f500ed1a8ee567d1afe7beb5302f4aab3279e51ac96796ad2d30662d"
 }

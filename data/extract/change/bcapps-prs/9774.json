@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9774",
+  "number": 9774,
+  "title": "[Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new integration event allows extensions to influence whether item variant rows are printed in the Item Sales Statistics report when \"Only Items with Sales\" and \"Breakdown By Variant\" are both enabled, by exposing the skip decision and related data to subscribers.",
+  "key_points": [
+    "New event OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck fires after Item.CalcFields and before the skip check in the Item Variant OnAfterGetRecord trigger",
+    "Event parameters expose Item, ItemVariant, and the PrintOnlyIfSales flag to subscribers",
+    "Extensions can override the SkipRecord variable via a var parameter to fold in their own sales figures",
+    "Solves the issue that extensions could not influence the row skip decision for custom sales quantities",
+    "Event raised at the variant level, enabling subscribers to control row visibility per variant"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

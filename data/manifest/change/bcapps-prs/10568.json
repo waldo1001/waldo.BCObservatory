@@ -6,10 +6,35 @@
   "title": "Send sample invoices from the demo guide directly",
   "url": "https://github.com/microsoft/BCApps/pull/10568",
   "published_at": "2026-08-27T19:45:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:00.868Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:05.827Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00361
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:05.967Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:05.970Z",
+      "path": "content/changes/bcapps/10568.md"
     }
   },
   "input_hash": "0949e0ef706de9fc2e72ab01f96aa42f7112f767:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "send sample invoices from the demo guide directly"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57728624ff9fa02db1527192e042ad5d55bb60ba22ab0f2f38f9267f7795f405"
 }

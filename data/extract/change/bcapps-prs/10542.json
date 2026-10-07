@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10542",
+  "number": 10542,
+  "title": "[Master] - Slice 638097: [Expense Agent] Enable simple interim approval scenario",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense reports now support a two-stage approval flow with interim and final approvers in agent mode, with automatic prepopulation of the final approver from the user's designated approver.",
+  "key_points": [
+    "Added interim and final approver fields to expense report headers with validation rules",
+    "Introduced 'Interim Approved' status for two-step approval workflow (or single-step when no interim approver set)",
+    "UI and API support for assigning interim approvers, restricted to agent mode",
+    "Guards prevent interim approver conflicts (not submitter, not final approver, required selection)",
+    "Activity logging tracks interim approver assignments and interim approvals"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Enables a simple two-stage interim approval step for expense reports in agent mode.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004123,
+    "changes_in_call": 1
+  }
+}

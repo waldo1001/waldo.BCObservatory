@@ -6,10 +6,35 @@
   "title": "[main] bug 640925 - Add report extension for Standard Sales Pro Forma and Draft Invoice",
   "url": "https://github.com/microsoft/BCApps/pull/10543",
   "published_at": "2026-08-27T18:08:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:07.316Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:12.481Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004335
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:12.686Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:12.692Z",
+      "path": "content/changes/bcapps/10543.md"
     }
   },
   "input_hash": "ee2a1fb8eb01c6a88692438258f00c148fc54939:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 640925 add report extension for standard sales pro forma and draft invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0acf0afe2f069a71ae6eddae4ad48d5a7b071375f93c5308c5fe877e7b8befaa"
 }

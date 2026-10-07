@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10603",
+  "number": 10603,
+  "title": "[Expense Agent] Grant policy builder execute permission",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Management roles now have execute permission on the policy builder codeunit to prevent access denied errors when calculating policy status on the Expense Report subpage.",
+  "key_points": [
+    "Added execute permission for codeunit 7107 (Exp. Policies To Eval Builder) to Expense Management - Objects permission set",
+    "Fixes DB:ExecuteObjDenied error when Expense Report SubPage calculates policy status",
+    "Issue occurred because policy builder calls happened without necessary permissions for interactive users",
+    "Includes test coverage to verify the permission grant",
+    "Validated using automated permission verification script"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003447,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…",
   "url": "https://github.com/microsoft/BCApps/pull/10376",
   "published_at": "2026-08-27T21:51:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:00.232Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:05.408Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003528
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:05.549Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:05.554Z",
+      "path": "content/changes/bcapps/10376.md"
     }
   },
   "input_hash": "dd61f9a59abb5d965451d39d1511933926e50b37:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix unbalanced g l when a credit memo is applied to a rejected redraw"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b969fb91cd5d69d9a3de71de1290672afd33eac0c148cd0ab482aeec66333aa"
 }

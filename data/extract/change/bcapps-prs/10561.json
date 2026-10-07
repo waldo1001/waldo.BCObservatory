@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10561",
+  "number": 10561,
+  "title": "Mileage Rate Setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent now supports mileage rate configuration through new tables for vehicle types and mileage rates, with corresponding pages and APIs for managing these setup elements.",
+  "key_points": [
+    "New table structures for vehicle types and mileage rates in the Expense Agent",
+    "API pages added for programmatic access to vehicle types and mileage rate setup",
+    "Existing expense-related pages and tables enhanced with mileage-related fields",
+    "Permission sets updated to include access to new mileage rate objects",
+    "Auto-population and validation logic extended to handle mileage data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005005,
+    "changes_in_call": 1
+  }
+}

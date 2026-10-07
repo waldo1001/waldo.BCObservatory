@@ -6,10 +6,18 @@
   "title": "[main]planning worksheet requires second runof calculate regenerative plan",
   "url": "https://github.com/microsoft/BCApps/pull/10030",
   "published_at": "2026-08-27T15:12:28Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:13.025Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "ccf52a0998cd61c1da721fc25125276adcc000ef:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "planning worksheet requires second runof calculate regenerative plan"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ea6b3271fe4dc0959973b82d9ef16f3a689066782b9fe5683e2458c852b4d1c"
 }

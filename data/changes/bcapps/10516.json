@@ -1,0 +1,580 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10516,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10516",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T17:56:12Z",
+  "merge_commit_sha": "c3f9b761b4c1916d6355488e5f966d05dbb162b1",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error",
+  "body_hash": "40e2e21f9f2015fd3a524efad0a343643678136031026cd9d9e035f70dd254f1",
+  "fixes_issues": [],
+  "work_items": [
+    640773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlBatchCZL.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlLineCZL.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/InvoicePostBufferCZL.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/FIK/app/src/Tables/PaymentBuffer.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/FinanceChargeMemo/OIOUBLIssuedFinChrgMemoHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/Reminder/OIOUBLIssuedReminderHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/SalesCreditMemo/OIOUBLSalesCrMemoHeader.TableExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeaderArchive.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesInvoiceHeader.TableExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/ServiceCreditMemo/OIOUBLServiceCrMemoHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/OIOUBL/app/src/ServiceInvoice/OIOUBLServiceInvoiceHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/tableextension/GSTInvoicePosBuffer.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IT/ServiceDeclarationIT/app/src/ServiceDeclLineIT.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeServiceMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Setup/ElecVATCode.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Master Data Mapping/SAFTVATCode.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AutomaticAccountCodes/app/src/Tables/AutoAccInvoicePostBuffer.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BasicExperience/app/src/page/PurchaseAgentActivitiesBF.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BasicExperience/app/src/page/SOProcessorActivitiesBF.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BasicExperience/app/src/page/SmallBusinessOwnerActBF.PageExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-ScriptHandler/src/Script/Codeunit/ScriptEditorMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/attributes/page/TaxAttributeValueDialog.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-UseCaseBuilder/src/Actions/page/SwitchStatements.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-UseCaseBuilder/src/Statistics/Codeunit/TaxDocumentStatsMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ImageAnalysis/app/src/tables/MSImageAnalyzerSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ImageAnalysis/app/src/tables/MSImageAnalyzerTags.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SustainabilityCopilotSuggestion/test/src/LibrarySustainabilityCopilot.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Reports/GLJournal.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/ElectronicCartaPorteMX.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Dimension/Correction/DimensionCorrection.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSalesOrderList.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Entity/SalesDocumentEntity.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/SynchEngine/IntegrationSynchErrorList.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountantPortalUserTasks.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 25,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 36,
+    "additions": 96,
+    "deletions": 31,
+    "al": 34
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/AutomaticAccountCodes/app/src/Tables/AutoAccInvoicePostBuffer.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/4853",
+        "type": "tableextension",
+        "id": 4853,
+        "name": "AutoAcc. Invoice Post. Buffer",
+        "app": "AutomaticAccountCodes",
+        "cc": "w1",
+        "page": "tableextension/4853"
+      },
+      {
+        "path": "src/Apps/W1/BasicExperience/app/src/page/PurchaseAgentActivitiesBF.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20631",
+        "type": "pageextension",
+        "id": 20631,
+        "name": "Purchase Agent Activities BF",
+        "app": "BasicExperience",
+        "cc": "w1",
+        "page": "pageextension/20631"
+      },
+      {
+        "path": "src/Apps/W1/BasicExperience/app/src/page/SOProcessorActivitiesBF.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20659",
+        "type": "pageextension",
+        "id": 20659,
+        "name": "SO Processor Activities BF",
+        "app": "BasicExperience",
+        "cc": "w1",
+        "page": "pageextension/20659"
+      },
+      {
+        "path": "src/Apps/W1/BasicExperience/app/src/page/SmallBusinessOwnerActBF.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20657",
+        "type": "pageextension",
+        "id": 20657,
+        "name": "Small Business Owner Act BF",
+        "app": "BasicExperience",
+        "cc": "w1",
+        "page": "pageextension/20657"
+      },
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-ScriptHandler/src/Script/Codeunit/ScriptEditorMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20165",
+        "type": "codeunit",
+        "id": 20165,
+        "name": "Script Editor Mgmt.",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "codeunit/20165"
+      },
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/attributes/page/TaxAttributeValueDialog.Page.al",
+        "status": "modified",
+        "key": "page/20259",
+        "type": "page",
+        "id": 20259,
+        "name": "Tax Attribute Value Dialog",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "page/20259"
+      },
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-UseCaseBuilder/src/Actions/page/SwitchStatements.Page.al",
+        "status": "modified",
+        "key": "page/20283",
+        "type": "page",
+        "id": 20283,
+        "name": "Switch Statements",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "page/20283"
+      },
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-UseCaseBuilder/src/Statistics/Codeunit/TaxDocumentStatsMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20301",
+        "type": "codeunit",
+        "id": 20301,
+        "name": "Tax Document Stats Mgmt.",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "codeunit/20301"
+      },
+      {
+        "path": "src/Apps/W1/ImageAnalysis/app/src/tables/MSImageAnalyzerSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/2025",
+        "type": "tableextension",
+        "id": 2025,
+        "name": "MS - Image Analyzer Setup",
+        "app": "ImageAnalysis",
+        "cc": "w1",
+        "page": "tableextension/2025"
+      },
+      {
+        "path": "src/Apps/W1/ImageAnalysis/app/src/tables/MSImageAnalyzerTags.Table.al",
+        "status": "modified",
+        "key": "table/2028",
+        "type": "table",
+        "id": 2028,
+        "name": "MS - Image Analyzer Tags",
+        "app": "ImageAnalysis",
+        "cc": "w1",
+        "page": "table/2028"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/GeneralLedger/Reports/GLJournal.Report.al",
+        "status": "modified",
+        "key": "report/28160",
+        "type": "report",
+        "id": 28160,
+        "name": "G/L Journal",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/28160-au"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/ElectronicCartaPorteMX.Report.al",
+        "status": "modified",
+        "key": "report/10480",
+        "type": "report",
+        "id": 10480,
+        "name": "Electronic Carta Porte MX",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10480-ca"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Dimension/Correction/DimensionCorrection.Page.al",
+        "status": "modified",
+        "key": "page/2588",
+        "type": "page",
+        "id": 2588,
+        "name": "Dimension Correction",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/2588"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSalesOrderList.Page.al",
+        "status": "modified",
+        "key": "page/5353",
+        "type": "page",
+        "id": 5353,
+        "name": "CRM Sales Order List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5353"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Entity/SalesDocumentEntity.Page.al",
+        "status": "modified",
+        "key": "page/6402",
+        "type": "page",
+        "id": 6402,
+        "name": "Sales Document Entity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6402"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/SynchEngine/IntegrationSynchErrorList.Page.al",
+        "status": "modified",
+        "key": "page/5339",
+        "type": "page",
+        "id": 5339,
+        "name": "Integration Synch. Error List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5339"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountantPortalUserTasks.Page.al",
+        "status": "modified",
+        "key": "page/1316",
+        "type": "page",
+        "id": 1316,
+        "name": "Accountant Portal User Tasks",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1316"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlBatchCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/IntrastatJnlLineCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/TableExtensions/InvoicePostBufferCZL.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/FIK/app/src/Tables/PaymentBuffer.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/FinanceChargeMemo/OIOUBLIssuedFinChrgMemoHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/Reminder/OIOUBLIssuedReminderHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesCreditMemo/OIOUBLSalesCrMemoHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesHeaderArchive.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/SalesInvoice/OIOUBLSalesInvoiceHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/ServiceCreditMemo/OIOUBLServiceCrMemoHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/OIOUBL/app/src/ServiceInvoice/OIOUBLServiceInvoiceHeader.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/tableextension/GSTInvoicePosBuffer.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IT/ServiceDeclarationIT/app/src/ServiceDeclLineIT.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeServiceMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Setup/ElecVATCode.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Master Data Mapping/SAFTVATCode.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "development",
+    "integration",
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "AutomaticAccountCodes",
+    "Base Application",
+    "BasicExperience",
+    "INTaxEngine",
+    "ImageAnalysis"
+  ]
+}

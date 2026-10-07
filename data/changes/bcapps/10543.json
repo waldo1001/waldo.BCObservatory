@@ -1,0 +1,86 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10543,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10543",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T18:08:26Z",
+  "merge_commit_sha": "ee2a1fb8eb01c6a88692438258f00c148fc54939",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 640925 - Add report extension for Standard Sales Pro Forma and Draft Invoice",
+  "body_hash": "6ec1a52ecb44d5d872cfba9535fdea624c8e5434ba936060732084f095f6d256",
+  "fixes_issues": [],
+  "work_items": [
+    640925
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesDraftInvoice.rdl",
+      "status": "added",
+      "additions": 6305,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesDraftInvoiceCZL.ReportExt.al",
+      "status": "added",
+      "additions": 237,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInv.rdl",
+      "status": "added",
+      "additions": 6052,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
+      "status": "added",
+      "additions": 415,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Report/ERMSalesReportIII.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 13012,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesDraftInvoiceCZL.ReportExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

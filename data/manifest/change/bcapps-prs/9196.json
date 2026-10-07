@@ -6,10 +6,35 @@
   "title": "[Master] - What If Impact on Planning and Supply",
   "url": "https://github.com/microsoft/BCApps/pull/9196",
   "published_at": "2026-08-27T19:37:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:02.014Z",
+      "change_class": "code",
+      "files": 23,
+      "al": 22,
+      "objects": 14,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:07.861Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004408
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:08.034Z",
+      "objects": 14,
+      "unjoined": 8,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:08.043Z",
+      "path": "content/changes/bcapps/9196.md"
     }
   },
   "input_hash": "d70db46f262cb5f4151ce143605e8ee0ea8d9615:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master what if impact on planning and supply"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8d16d17f860ef68a6c207e5b85f26561a5726b856cad17696d12ff49ae7b6d0"
 }

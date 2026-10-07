@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10562,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10562",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-27T18:05:51Z",
+  "merge_commit_sha": "cc155ebb5ef9af3d5e978c5639e6f1fd2f8a3167",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 647211:  [Subcontracting] Install app by default in new online environments only",
+  "body_hash": "c4ae9e6d257102a642e34be05bf1e7dfe40f5406ecc5d8c4f778abe3a1dc9fa5",
+  "fixes_issues": [],
+  "work_items": [
+    647211
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 10,
+    "deletions": 21,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
