@@ -56,6 +56,7 @@ import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
 import { linkTopics, type TopicLinkRun } from "../link/topics.js";
+import { reviewTopicLinks, type TopicReviewRun } from "../review/topics.js";
 import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
 import { refreshDocsObjects } from "../code/docs-objects.js";
 import { renderCodePages, type CodePagesRun } from "../render/object.js";
@@ -125,6 +126,7 @@ export interface RunReport {
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   topic_links?: Omit<TopicLinkRun, "errors">;
+  topic_reviews?: Omit<TopicReviewRun, "errors">;
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
   code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects>; pages?: CodePagesRun; narratives?: Omit<LocalizationRun, "errors"> };
@@ -263,6 +265,11 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       quota: linking ? quotas.topic_links ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
     });
+    // after the linking, so a link made this run can be reviewed in the same run rather than waiting a night
+    report.topic_reviews = await refreshTopicReviews(opts, errors, {
+      quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
+      clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+    });
     renderVideoIndex(contentDirOf(opts));
     renderPostIndex(contentDirOf(opts));
     renderFeatureIndex(contentDirOf(opts), opts.dataDir);
@@ -352,6 +359,21 @@ async function refreshRoadmapLinks(
     return { ...rest, rejections: run.rejections.slice(0, 10), pages, ...(review ? { review } : {}) };
   } catch (e) {
     errors.push(`roadmap links: ${(e as Error).message.slice(0, 300)}`);
+    return undefined;
+  }
+}
+
+/** Opus review of the topic links (review/topics.ts): a dropped link is gone from the pages refreshTopics writes. */
+async function refreshTopicReviews(opts: NightlyOptions, errors: string[], n: { quota: number; deadline: Date; clock: () => Date; concurrency: number }): Promise<RunReport["topic_reviews"]> {
+  if (n.quota <= 0) return undefined;
+  try {
+    const run = await reviewTopicLinks(opts.dataDir, contentDirOf(opts), n);
+    errors.push(...run.errors);
+    log.info(`topic reviews: ${run.reviewed} of ${run.candidates} hubs, ${run.kept} kept, ${run.dropped} dropped (${run.stopped})`);
+    const { errors: _e, ...rest } = run;
+    return rest;
+  } catch (e) {
+    errors.push(`topic reviews: ${(e as Error).message.slice(0, 300)}`);
     return undefined;
   }
 }

@@ -114,7 +114,10 @@ Deliberate deviations from PLAN, all small:
   10-31% of a page, and the version lens split into one page per transition behind a 15 KB index. 364 MB of real
   bytes, 18,067 pages, 17 s build.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
-  `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
+  `npm run link:topics -- --videos N --posts N` samples on a temp copy. Opus reviews them (D54, quota
+  `topic_reviews` 15): `npm run review:topics -- --data <dir>` reviews a sample the linker wrote and prints every
+  verdict with its reason. A dropped link is gone from the topic pages and the galaxy. The first nightly to produce
+  `data/links/topics.json` has not finished yet, so the review starts on the run after it.
 - M4 weekly digest + RSS done (D36).
 - M4 MCP server + plugin done (D35). npm: bc-observatory@0.1.0 published 2026-10-06 (first publish by
   hand, `npx bc-observatory` verified from the registry). Later releases: bump packages/mcp/package.json and dispatch

@@ -10,6 +10,10 @@
  *
  * A unit is redone only when its hash (its text plus its candidates) changes: new videos and posts get linked on the
  * run after they arrive, and a new topic re-checks the units of its system only. Same shape as link/roadmap.ts.
+ *
+ * Reviews gate (D54, same contract as D21 for roadmap coverage): review/topics.ts has Opus judge every link of one
+ * hub together, and a link it drops is left out of every view. A verdict belongs to one link of one unit hash, so
+ * re-extracting a video or post makes its links due again.
  */
 import { resolve } from "node:path";
 import matter from "gray-matter";
@@ -52,6 +56,16 @@ export interface TopicLinkRun {
 export const topicLinksPath = (dataDir: string) => resolve(dataDir, "links", "topics.json");
 export const loadTopicLinks = (dataDir: string): TopicLinks => readJsonOr<TopicLinks>(topicLinksPath(dataDir), { prompt_version: 0, units: {} });
 
+export interface TopicVerdict { verdict: "keep" | "drop"; reason: string; at: string }
+/** Verdicts per topic id, then per link of a unit hash. A link without a verdict is shown: review lags behind linking. */
+export interface TopicReview { prompt_version: number; verdicts: Record<string, Record<string, TopicVerdict>> }
+export const topicReviewPath = (dataDir: string) => resolve(dataDir, "links", "topics-review.json");
+export const loadTopicReview = (dataDir: string): TopicReview => readJsonOr<TopicReview>(topicReviewPath(dataDir), { prompt_version: 0, verdicts: {} });
+const NO_REVIEW: TopicReview = { prompt_version: 0, verdicts: {} };
+export const topicVerdictKey = (unitKey: string, unitHash: string) => `${unitKey}@${unitHash.slice(0, 16)}`;
+export const topicVerdictOf = (review: TopicReview, topicId: string, unitKey: string, unitHash: string): TopicVerdict | undefined =>
+  review.verdicts[topicId]?.[topicVerdictKey(unitKey, unitHash)];
+
 /** Topic hubs from the rendered topic pages (content/topics), by system. Aliases t1..tn are stable per run. */
 export function topicCandidates(contentDir: string): TopicCandidate[] {
   const out: Omit<TopicCandidate, "alias">[] = [];
@@ -64,7 +78,7 @@ export function topicCandidates(contentDir: string): TopicCandidate[] {
   return out.sort((a, b) => a.id.localeCompare(b.id)).map((c, i) => ({ ...c, alias: `t${i + 1}` }));
 }
 
-interface Pending { kind: "video" | "post"; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string }
+export interface Pending { kind: "video" | "post"; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string }
 
 const unitHash = (text: string, cands: TopicCandidate[]) => sha256(JSON.stringify({ v: PROMPT_VERSION, text, cands: cands.map((c) => [c.id, c.title, c.path]) }));
 const inSystems = (all: TopicCandidate[], systems: string[]) => all.filter((c) => systems.includes(c.system));
@@ -194,10 +208,13 @@ export async function linkTopics(
   return { links, run };
 }
 
-/** Per topic id: the videos and posts linked to it (the topic pages and the graph read this). */
-export function mediaByTopic(links: TopicLinks): Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]> {
+/** Per topic id: the videos and posts linked to it, minus links Opus dropped (the topic pages and the graph read this). */
+export function mediaByTopic(links: TopicLinks, review: TopicReview = NO_REVIEW): Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]> {
   const m = new Map<string, { key: string; kind: "video" | "post"; title: string; quote: string }[]>();
-  for (const u of Object.values(links.units)) for (const x of u.matches) m.set(x.topic, [...(m.get(x.topic) ?? []), { key: u.key, kind: u.kind, title: u.title, quote: x.quote }]);
+  for (const u of Object.values(links.units)) for (const x of u.matches) {
+    if (topicVerdictOf(review, x.topic, u.key, u.hash)?.verdict === "drop") continue;
+    m.set(x.topic, [...(m.get(x.topic) ?? []), { key: u.key, kind: u.kind, title: u.title, quote: x.quote }]);
+  }
   for (const l of m.values()) l.sort((a, b) => a.key.localeCompare(b.key));
   return m;
 }

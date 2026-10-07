@@ -338,3 +338,18 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   caps at 12 with a link to the object page, which carries them all with version pills anyway; the cap only bites
   on 47 of 943 objects, so it is a guard against the next Table 38, not the saving. Result: 418 MB → 364 MB of
   real bytes, the version landing page 904 KB → 15 KB, the heaviest single page 834 KB → 584 KB, build 17 s.
+- **D54 Opus reviews the topic links.** The roadmap links have had an Opus gate since D21; the topic links (D43)
+  shipped without one, so whatever Haiku matched went straight onto the topic pages and into the galaxy. They now
+  get the same contract: `review/topics.ts` judges them, a dropped link is left out of `mediaByTopic`, and the topic
+  pages and the graph that reads those pages lose it with no further wiring. A verdict belongs to one link of one
+  unit hash, so re-extracting a video or post makes its links due again; a call that does not answer every ref is
+  distrusted whole, and those hubs stay due. What the reviewer has that the matcher did not: every link proposed to
+  the same hub at once, and the hub's subtopics and the sections beside it — the commonest error is an item that
+  belongs one section over, and naming the siblings is what lets the model say so. On a sample of 38 links it kept
+  20 and dropped 18, among them a post about reviewing AL code *with GitHub Copilot* filed under building Copilot
+  features *into* Business Central, a tradeshow schedule that mentions AI in passing, and a Dataverse video filed
+  under Power Automate. A hub with two or more links gets its own call because that comparison is the point; the
+  single-link hubs have nothing to compare, so six share a call — 34 calls and $2.45 became 9 calls and $0.91 for
+  the same 38 verdicts. Quota `topic_reviews` 15 a night. Also fixed: `topic_links` was never in `LLM_QUOTAS`, so
+  since D43 the guard neither scaled it nor stopped it when usage ran high; both link quotas are in it now, and
+  `facts_only` zeroes the reviews, not the matchers.

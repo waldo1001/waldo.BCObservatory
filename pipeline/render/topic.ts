@@ -12,7 +12,7 @@ import { exists, readText, removeIfExists, writeJson, writeText } from "../lib/f
 import type { ManifestItem } from "../lib/manifest.js";
 import { validateOrThrow } from "../lib/schema.js";
 import type { TopicHub } from "../link/toc.js";
-import { loadTopicLinks, mediaByTopic } from "../link/topics.js";
+import { loadTopicLinks, loadTopicReview, mediaByTopic } from "../link/topics.js";
 import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js";
 import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -108,7 +108,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
   writeJson(resolve(dataDir, "hubs", "topics.json"), { hubs: hubs.length, generated_by: "pipeline/link/toc.ts", topics: hubs });
   const byId = new Map(hubs.map((h) => [h.id, h]));
   const byItem = new Map(items.map((i) => [i.id, i]));
-  const media = mediaByTopic(loadTopicLinks(dataDir));
+  const media = mediaByTopic(loadTopicLinks(dataDir), loadTopicReview(dataDir));
   const dir = resolve(contentDir, "topics");
   const keep = new Set<string>();
   const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");

@@ -134,6 +134,13 @@
         "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }
       }
     },
+    "topic_reviews": {
+      "type": "object", "required": ["candidates", "calls", "reviewed", "kept", "dropped", "failed", "stopped"],
+      "properties": {
+        "candidates": { "type": "integer" }, "calls": { "type": "integer" }, "reviewed": { "type": "integer" }, "kept": { "type": "integer" }, "dropped": { "type": "integer" },
+        "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" }
+      }
+    },
     "hubs": {
       "type": "object",
       "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],
