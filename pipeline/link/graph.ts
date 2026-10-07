@@ -6,52 +6,70 @@
  * - edges: topic-subtopic (relates), feature-video (demonstrates), object-topic (documents), object-localization
  *   (localizes), extension-base object (extends), video/post-source (authored), page-system (via group)
  * - group = galaxy system: the page's `system`, for objects their namespace (Microsoft.Sales.* -> sales)
- * - layout: system centres on a two-arm spiral with seeded jitter (design/tokens.json galaxy.systemLayout, D42), then
- *   d3-force with fixed start positions around each system's centre and a fixed number of ticks, so the same input
- *   gives the same picture night after night (`layout: spiral+d3-force@seed:42`)
+ * - layout (D66, galaxy-layout.ts): system order from cross-system edge weight on the two-arm spiral, hubs on the
+ *   Learn table-of-contents tree, objects in namespace plots; no forces, so the same input gives the same picture
+ * - per star (D66): cross-system edges (`cross`), evidence (`ev`, now with videos and posts naming an object),
+ *   obsolete majors (`ob`), published events (`ec`), media bodies (`mb`); per system the hub tree and namespace plots;
+ *   the heaviest system pairs (`sysedges`)
  *
- * Writes data/graph/summary.json (systems + summary nodes with x/y, ≤ ~500 KB), data/graph/full.jsonl (every edge) and
- * data/graph/ego/<node id>.json (one hop) for the summary nodes. Rewritten only when the graph changes.
+ * Writes data/graph/summary.json (systems + summary nodes with x/y), data/graph/landed.json (videos and posts of the
+ * last 7 days up to the run date), data/graph/full.jsonl (every edge) and data/graph/ego/<node id>.json (one hop) for
+ * the summary nodes. Rewritten only when they change.
  */
 import { createHash } from "node:crypto";
 import { relative, resolve } from "node:path";
-import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type SimulationNodeDatum } from "d3-force";
 import matter from "gray-matter";
-import { loadSources, taxonomy } from "../lib/config.js";
-import { exists, listFiles, readText, removeIfExists, writeText } from "../lib/fsx.js";
+import { loadConfig, loadSources, taxonomy } from "../lib/config.js";
+import { exists, listFiles, readJsonOr, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { objectSystem } from "../lib/systems.js";
+import type { TimelineEntry } from "../code/diff.js";
+import { LAYOUT, layoutGalaxy, type Plot } from "./galaxy-layout.js";
 
-export { objectSystem };
+export { objectSystem, LAYOUT };
 
 export const TOP_OBJECTS = 300;
-export const LAYOUT = "spiral+d3-force@seed:42";
-/** World units per design unit: the handoff's spiral (r = 85 + 30k) scaled so the open clusters of the inner arms keep apart. */
-const SPIRAL_SCALE = 5.5;
-const TICKS = 300;
+/** Ports per focused star (tokens.D-galaxy-honest.json galaxy.crossEdgeLimit); the rest is a count. */
+export const CROSS_SYSTEMS = 6;
+const CROSS_NAMED = 3;
+const MEDIA_BODIES = 6;
+const LANDED_DAYS = 7;
 
-export interface GNode extends SimulationNodeDatum {
+export interface GNode {
   id: string; type: string; label: string; tier: string; group: string; weight: number; url: string; lit_at: string | null; x?: number; y?: number;
-  /** Evidence items on a hub (Learn pages, videos, posts): the star's brightness. */
+  /** Evidence on the star (Learn pages, videos, posts, and videos and posts naming an object): its brightness. */
   ev?: number;
   /** Share of that evidence from community sources (0..1): community-heavy stars get a ring. */
   cs?: number;
   /** Objects: the BC majors they changed in (the galaxy's version lens). */
   cv?: string[];
+  /** Objects: the BC majors in which they were marked obsolete (code timelines). */
+  ob?: string[];
+  /** Objects: published events (integration, business, internal). */
+  ec?: number;
+  /**
+   * Cross-system edges, heaviest target system first: [system, distinct targets, most frequent kind, up to 3 targets].
+   * A target that is a summary star is its id (its label is in the summary); any other is [id, label].
+   */
+  cross?: [string, number, string, (string | [string, string])[]][];
+  /** Target systems beyond CROSS_SYSTEMS. */
+  crossMore?: number;
+  /** Media bodies: total and the newest MEDIA_BODIES as [id, "v" | "p", date]. */
+  mb?: { n: number; top: [string, string, string | null][] };
 }
 export interface GEdge { s: string; t: string; type: string; w?: number }
 
-const h32 = (s: string) => createHash("sha256").update(s).digest().readUInt32BE(0);
-
 export interface Graph {
-  systems: { id: string; label: string; x: number; y: number; r: number }[]; nodes: GNode[]; edges: GEdge[];
+  systems: { id: string; label: string; x: number; y: number; r: number; ord?: number; tree?: [string, string][]; plots?: Plot[] }[]; nodes: GNode[]; edges: GEdge[];
   /** Per source (blog or channel): the hubs its videos and posts link to, i.e. where it touches the galaxy. */
   touches: Record<string, string[]>;
   /** Per source: how many of its items fall in each galaxy system. */
   reach: Record<string, Record<string, number>>;
+  /** What the layout and the star fields need besides nodes and edges. */
+  aux: { ns: Map<string, { ns: string | null; app: string | null }>; parent: Map<string, string | null>; media: Map<string, Set<string>> };
 }
 
 /** Read every content page and build nodes and edges (no layout yet). */
-export function buildGraph(contentDir: string, siteBase: string): Graph {
+export function buildGraph(contentDir: string, _siteBase = ""): Graph {
   const nodes = new Map<string, GNode>();
   const edges = new Map<string, GEdge>();
   const systemIds = new Set(taxonomy().systems.map((s) => s.id));
@@ -71,6 +89,7 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
     if (!fm.id || !fm.type) continue;
     pages.push({ id: fm.id, fm, path: relative(contentDir, f).replace(/\.md$/, "") });
   }
+  pages.sort((a, b) => a.id.localeCompare(b.id));
   const sources = new Map(loadSources().map((s) => [s.id, s]));
   // AL objects by exact type and name ("table Customer"): videos and posts name them that way. Exact only, and a name
   // two objects of one type share (an object moved between apps) is left out rather than guessed.
@@ -82,12 +101,16 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
   }
   const mentioned = (fm: Record<string, any>) => [...new Set([...(fm.objects_mentioned ?? []), ...(fm.code_objects_mentioned ?? [])]
     .map((m: unknown) => objectByName.get(String(m).toLowerCase().trim())).filter((x): x is string => !!x))];
+  const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map() };
+  const addMedia = (hub: string, m: string) => (aux.media.get(hub) ?? aux.media.set(hub, new Set()).get(hub)!).add(m);
   for (const { id, fm, path } of pages) {
     if (fm.type === "digest") continue;
     const group = fm.type === "object" ? objectSystem(fm.namespace) : fm.type === "localization" ? "localization" : fm.type === "source" ? "sources" : sys(fm.system);
     const date = fm.published_at ?? fm.ga_date ?? null;
     // url relative to the site root (siteBase prefixes it in the browser): keeps the summary small
     add({ id, type: fm.type, label: String(fm.title ?? id), tier: fm.tier === "community" ? "community" : fm.tier === "mixed" ? "mixed" : "official", group, url: `${path}/`, lit_at: date ? String(date).slice(0, 10) : null });
+    if (fm.type === "object") aux.ns.set(id, { ns: fm.namespace ?? null, app: fm.app ?? null });
+    if (fm.type === "topic") aux.parent.set(id, typeof fm.parent === "string" ? fm.parent : null);
     const L = fm.links ?? {};
     for (const t of L.topics ?? []) edge(id, t, fm.type === "object" ? "documents" : "relates");
     for (const v of L.videos ?? []) edge(id, v, "demonstrates");
@@ -96,7 +119,8 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
     // a localization's objects are the same pairs as the objects' localizations: one edge type for both directions
     for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : "mentions");
     for (const p of L.posts ?? []) edge(id, p, "discusses");
-    if (fm.type === "video" || fm.type === "post") for (const o of mentioned(fm)) edge(id, o, "mentions");
+    if (fm.type === "video" || fm.type === "post") for (const o of mentioned(fm)) { edge(id, o, "mentions"); addMedia(o, id); }
+    if (["topic", "feature", "object", "localization"].includes(fm.type)) for (const m of [...(L.videos ?? []), ...(L.posts ?? [])]) addMedia(id, m);
     const src = fm.type === "post" ? fm.source_id : fm.type === "video" ? fm.channel : null;
     if (src) {
       const s = sources.get(src);
@@ -108,7 +132,8 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
   const live = [...edges.values()].filter((e) => nodes.has(e.s) && nodes.has(e.t));
   for (const e of live) { nodes.get(e.s)!.weight += e.w ?? 1; nodes.get(e.t)!.weight += e.w ?? 1; }
   for (const { id, fm } of pages) { const n = nodes.get(id); if (n) n.weight += (fm.links?.learn?.length ?? 0) * 0.5; }
-  // evidence per hub (Learn pages + linked videos and posts) and its community share; object versions
+  for (const [hub, set] of aux.media) for (const m of [...set]) if (!nodes.has(m)) set.delete(m);
+  // evidence per star (Learn pages + videos and posts linked to it or naming it) and its community share; object versions
   const touches: Record<string, Set<string>> = {};
   const reach: Record<string, Record<string, number>> = {};
   const sourceOf = new Map(pages.filter((p) => p.fm.type === "post" || p.fm.type === "video").map((p) => [p.id, p.fm.type === "post" ? p.fm.source_id : p.fm.channel]));
@@ -117,7 +142,7 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
     if (!n) continue;
     const L = fm.links ?? {};
     if (["topic", "feature", "object", "localization"].includes(fm.type)) {
-      const media = [...(L.videos ?? []), ...(L.posts ?? [])].map((x: string) => nodes.get(x)).filter(Boolean) as GNode[];
+      const media = [...(aux.media.get(id) ?? [])].map((x) => nodes.get(x)!);
       const ev = (L.learn?.length ?? 0) + media.length;
       if (ev) { n.ev = ev; n.cs = Math.round((media.filter((m) => m.tier === "community").length / ev) * 100) / 100; }
       if (fm.type === "object" && fm.changed_in?.length) n.cv = fm.changed_in.map(String);
@@ -130,13 +155,14 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
       for (const sy of new Set([fm.system, ...(fm.systems ?? [])].filter((x) => systemIds.has(x)))) { const r = (reach[`source/${src}`] ??= {}); r[sy] = (r[sy] ?? 0) + 1; }
     }
   }
-  const systems = taxonomy().systems.map((s) => ({ id: s.id, label: s.label, x: 0, y: 0, r: 0 }));
+  const systems: Graph["systems"] = taxonomy().systems.map((s) => ({ id: s.id, label: s.label, x: 0, y: 0, r: 0 }));
   if (![...systems].some((s) => s.id === "localization")) systems.push({ id: "localization", label: "Localizations", x: 0, y: 0, r: 0 });
   systems.push({ id: "sources", label: "Sources", x: 0, y: 0, r: 0 });
   return {
     systems, nodes: [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id)), edges: live.sort((a, b) => `${a.s}|${a.t}|${a.type}`.localeCompare(`${b.s}|${b.t}|${b.type}`)),
     touches: Object.fromEntries(Object.entries(touches).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].filter((h) => nodes.has(h)).sort()])),
     reach: Object.fromEntries(Object.entries(reach).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, Object.fromEntries(Object.entries(v).sort(([a], [b]) => a.localeCompare(b)))])),
+    aux,
   };
 }
 
@@ -147,82 +173,180 @@ export function summaryNodes(g: Graph): Set<string> {
   return keep;
 }
 
-/**
- * System centres on a two-arm spiral (HANDOFF 5): k = i >> 1, r = 85 + 30k (±10), angle = (i % 2)·π + 0.55k − 0.6
- * (±0.15), y squashed by 0.8. The jitter comes from a hash of the system id, so it is stable. Taxonomy order decides
- * who sits near the core.
- */
-export function spiral(ids: string[]): { x: number; y: number }[] {
-  return ids.map((id, i) => {
-    const k = i >> 1, h = h32(`spiral:${id}`);
-    const jr = ((h % 2001) / 1000 - 1) * 10, ja = (((h >>> 11) % 2001) / 1000 - 1) * 0.15;
-    const r = (85 + 30 * k + jr) * SPIRAL_SCALE, a = (i % 2) * Math.PI + 0.55 * k - 0.6 + ja;
-    return { x: Math.round(r * Math.cos(a)), y: Math.round(r * Math.sin(a) * 0.8) };
-  });
+/** The code pillar the graph reads (D45): relations of one major, keyed by object page key (`table/18`). */
+export interface CodeInput {
+  edges: { s: string; t: string; k: string }[];
+  events: Record<string, Record<string, { kind: string }>>;
+  /** Per object type: page id part -> majors it was marked obsolete in (data/code/timelines/<type>.json). */
+  obsoleted: (type: string, id: string) => string[];
 }
 
-/** Deterministic force layout: systems on the spiral, nodes start near their system by hash, fixed tick count. */
-export function layout(g: Graph, keep: Set<string>): Graph {
-  const sys = g.systems;
-  const centres = spiral(sys.map((s) => s.id));
-  sys.forEach((s, i) => { s.x = centres[i].x; s.y = centres[i].y; });
-  const centre = new Map(sys.map((s) => [s.id, s]));
-  const nodes = g.nodes.filter((n) => keep.has(n.id)).map((n) => {
-    const c = centre.get(n.group) ?? { x: 0, y: 0 };
-    const h = h32(n.id), a = ((h % 3600) / 3600) * 2 * Math.PI, r = 40 + ((h >>> 12) % 160);
-    return { ...n, x: c.x + r * Math.cos(a), y: c.y + r * Math.sin(a) };
-  });
-  const ids = new Set(nodes.map((n) => n.id));
-  const groupOf = new Map(nodes.map((n) => [n.id, n.group]));
-  // links inside a system hold its stars together; links across systems barely pull (they would drag stars away)
-  const links = g.edges.filter((e) => ids.has(e.s) && ids.has(e.t)).map((e) => ({ source: e.s, target: e.t, same: groupOf.get(e.s) === groupOf.get(e.t) }));
-  const sim = forceSimulation(nodes as GNode[])
-    .force("link", forceLink(links).id((d: any) => d.id).distance(20).strength((l: any) => (l.same ? 0.05 : 0.001)))
-    // a loose pull and some repulsion: open clusters with space between the stars (the handoff's look), not blobs
-    .force("charge", forceManyBody().strength(-14).distanceMax(160))
-    .force("x", forceX((d: any) => centre.get(d.group)?.x ?? 0).strength(0.07))
-    .force("y", forceY((d: any) => centre.get(d.group)?.y ?? 0).strength(0.07))
-    .force("collide", forceCollide((d: any) => 2 + Math.min(12, Math.sqrt(d.weight))))
-    .stop();
-  for (let i = 0; i < TICKS; i++) sim.tick();
-  for (const s of sys) {
-    const mine = nodes.filter((n) => n.group === s.id);
-    const d = mine.map((n) => Math.hypot(n.x! - s.x, n.y! - s.y)).sort((a, b) => a - b);
-    // 90th percentile (outliers do not inflate it), capped so neighbouring systems never overlap
-    const cap = 0.45 * Math.min(...sys.filter((o) => o !== s).map((o) => Math.hypot(o.x - s.x, o.y - s.y)));
-    s.r = d.length ? Math.round(Math.min(cap, d[Math.floor(d.length * 0.9)] + 20)) : 0;
+/** Relations of the first narrative major that has them, and the timelines; empty when the code pillar is absent. */
+export function loadCode(dataDir: string, major?: string): CodeInput {
+  const order = major ? [major] : loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
+  const m = order.find((x) => exists(resolve(dataDir, "code", "relations", `${x}.json`)));
+  const rel = m ? readJsonOr<{ edges: CodeInput["edges"]; events: CodeInput["events"] }>(resolve(dataDir, "code", "relations", `${m}.json`), { edges: [], events: {} }) : { edges: [], events: {} };
+  type Timeline = Record<string, Pick<TimelineEntry, "obsoleted">>;
+  const timelines = new Map<string, Timeline>();
+  const obsoleted = (type: string, id: string) => {
+    if (!timelines.has(type)) timelines.set(type, readJsonOr<{ objects?: Timeline }>(resolve(dataDir, "code", "timelines", `${type}.json`), {}).objects ?? {});
+    return [...new Set((timelines.get(type)![id]?.obsoleted ?? []).map((o) => String(o.version)))].sort();
+  };
+  return { edges: rel.edges.map(({ s, t, k }) => ({ s, t, k })), events: rel.events, obsoleted };
+}
+
+const pairKey = (a: string, b: string) => (a < b ? `${a}|${b}` : `${b}|${a}`);
+/** `object/table/18` -> `table/18` and back. */
+const codeKey = (id: string) => id.slice("object/".length);
+
+/** Weight between systems: code edges whose ends sit in two systems, plus summary edges across systems. */
+export function systemWeights(g: Graph, keep: Set<string>, code: CodeInput): Map<string, number> {
+  const group = new Map(g.nodes.map((n) => [n.id, n.group]));
+  const w = new Map<string, number>();
+  const bump = (a: string | undefined, b: string | undefined, by = 1) => { if (a && b && a !== b) w.set(pairKey(a, b), (w.get(pairKey(a, b)) ?? 0) + by); };
+  for (const e of code.edges) bump(group.get(`object/${e.s}`), group.get(`object/${e.t}`));
+  for (const e of g.edges) if (keep.has(e.s) && keep.has(e.t)) bump(group.get(e.s), group.get(e.t), e.w ?? 1);
+  return w;
+}
+
+/** Layout, plus the star fields that need the code pillar or the whole graph (D66). */
+export function layout(g: Graph, keep: Set<string>, code: CodeInput, tocOrder: Map<string, number>): Graph {
+  const weights = systemWeights(g, keep, code);
+  const degree = new Map<string, number>();
+  for (const e of code.edges) for (const k of [e.s, e.t]) degree.set(k, (degree.get(k) ?? 0) + 1);
+  const objects = new Map([...g.aux.ns].map(([id, v]) => [id, { ...v, degree: degree.get(codeKey(id)) ?? 0 }]));
+  const L = layoutGalaxy({ systems: g.systems, nodes: g.nodes, parent: g.aux.parent, tocOrder, objects, weights });
+  const placed = new Map(L.systems.map((s) => [s.id, s]));
+  const byId = new Map(g.nodes.map((n) => [n.id, n]));
+  const label = (id: string) => byId.get(id)?.label ?? id;
+  // the hub tree of each system, for the tree guides
+  const tree = new Map<string, [string, string][]>();
+  for (const [child, parent] of [...g.aux.parent].sort(([a], [b]) => a.localeCompare(b))) {
+    const c = byId.get(child), p = parent ? byId.get(parent) : undefined;
+    if (c && p && c.group === p.group && keep.has(child) && keep.has(parent!)) tree.set(c.group, [...(tree.get(c.group) ?? []), [parent!, child]]);
   }
-  const placed = new Map(nodes.map((n) => [n.id, n]));
-  return { ...g, nodes: g.nodes.map((n) => { const p = placed.get(n.id); return p ? { ...n, x: Math.round(p.x!), y: Math.round(p.y!) } : n; }) };
+  const systems = L.systems.map((s) => {
+    const base = g.systems.find((x) => x.id === s.id)!;
+    return { id: s.id, label: base.label, x: s.x, y: s.y, r: s.r, ord: s.ord, ...(tree.get(s.id)?.length ? { tree: tree.get(s.id) } : {}), ...(L.plots.get(s.id)?.length ? { plots: L.plots.get(s.id) } : {}) };
+  });
+  // cross-system edges per star: code relations for objects, page links for everything else
+  const codeAdj = new Map<string, { other: string; k: string }[]>();
+  for (const e of code.edges) for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) {
+    const id = `object/${a}`;
+    if (keep.has(id)) codeAdj.set(id, [...(codeAdj.get(id) ?? []), { other: `object/${b}`, k: e.k }]);
+  }
+  const pageAdj = new Map<string, { other: string; k: string }[]>();
+  for (const e of g.edges) for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) if (keep.has(a) && keep.has(b) && byId.get(a)?.type !== "object") pageAdj.set(a, [...(pageAdj.get(a) ?? []), { other: b, k: e.type }]);
+  const crossOf = (n: GNode): Pick<GNode, "cross" | "crossMore"> => {
+    const adj = (n.type === "object" ? codeAdj : pageAdj).get(n.id) ?? [];
+    const by = new Map<string, Map<string, { n: number; kinds: Map<string, number> }>>();
+    for (const { other, k } of adj) {
+      const sys = byId.get(other)?.group;
+      if (!sys || sys === n.group) continue;
+      const m = by.get(sys) ?? by.set(sys, new Map()).get(sys)!;
+      const t = m.get(other) ?? m.set(other, { n: 0, kinds: new Map() }).get(other)!;
+      t.n++; t.kinds.set(k, (t.kinds.get(k) ?? 0) + 1);
+    }
+    if (!by.size) return {};
+    const rows = [...by].map(([sys, m]) => {
+      const kinds = new Map<string, number>();
+      for (const t of m.values()) for (const [k, c] of t.kinds) kinds.set(k, (kinds.get(k) ?? 0) + c);
+      const kind = [...kinds].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+      const named = [...m].sort((a, b) => b[1].n - a[1].n || (byId.get(b[0])?.weight ?? 0) - (byId.get(a[0])?.weight ?? 0) || a[0].localeCompare(b[0])).slice(0, CROSS_NAMED).map(([id]) => (keep.has(id) ? id : [id, label(id)] as [string, string]));
+      return [sys, m.size, kind, named] as [string, number, string, (string | [string, string])[]];
+    }).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    return { cross: rows.slice(0, CROSS_SYSTEMS), ...(rows.length > CROSS_SYSTEMS ? { crossMore: rows.length - CROSS_SYSTEMS } : {}) };
+  };
+  const mediaOf = (n: GNode): Pick<GNode, "mb"> => {
+    const ms = [...(g.aux.media.get(n.id) ?? [])].map((id) => byId.get(id)!).filter(Boolean);
+    if (!ms.length) return {};
+    const top = ms.sort((a, b) => (b.lit_at ?? "").localeCompare(a.lit_at ?? "") || a.id.localeCompare(b.id)).slice(0, MEDIA_BODIES).map((m) => [m.id, m.type === "video" ? "v" : "p", m.lit_at] as [string, string, string | null]);
+    return { mb: { n: ms.length, top } };
+  };
+  const objectFields = (n: GNode): Pick<GNode, "ob" | "ec"> => {
+    const [type, id] = codeKey(n.id).split("/");
+    const ob = /^\d+$/.test(id ?? "") ? code.obsoleted(type, id) : [];
+    const ec = Object.values(code.events[codeKey(n.id)] ?? {}).filter((e) => e.kind !== "trigger_event").length;
+    return { ...(ob.length ? { ob } : {}), ...(ec ? { ec } : {}) };
+  };
+  return {
+    ...g, systems,
+    nodes: g.nodes.map((n) => {
+      if (!keep.has(n.id)) return n;
+      const p = L.pos.get(n.id) ?? placed.get(n.group) ?? { x: 0, y: 0 };
+      return { ...n, x: Math.round(p.x), y: Math.round(p.y), ...crossOf(n), ...mediaOf(n), ...(n.type === "object" ? objectFields(n) : {}) };
+    }),
+  };
+}
+
+/**
+ * The heaviest system pairs: the top 2 of each system, each pair once, as [a, b, weight]. Localizations and Sources
+ * stay out: they touch every system by construction (the same reason they stay out of the system chain).
+ */
+export function heaviestPairs(weights: Map<string, number>, ids: string[], perSystem = 2): [string, string, number][] {
+  const systems = ids.filter((s) => s !== "localization" && s !== "sources");
+  weights = new Map([...weights].filter(([k]) => k.split("|").every((x) => systems.includes(x))));
+  const out = new Map<string, [string, string, number]>();
+  for (const s of systems) {
+    const mine = [...weights].filter(([k]) => k.split("|").includes(s)).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, perSystem);
+    for (const [k, w] of mine) { const [a, b] = k.split("|"); if (systems.includes(a) && systems.includes(b)) out.set(k, [a, b, w]); }
+  }
+  return [...out.values()].sort((a, b) => b[2] - a[2] || `${a[0]}|${a[1]}`.localeCompare(`${b[0]}|${b[1]}`));
+}
+
+/** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to. */
+export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: [string, string, string, string[]][] } {
+  const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
+  const hubs = new Map<string, Set<string>>();
+  for (const e of g.edges) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
+  const items = g.nodes.filter((n) => (n.type === "video" || n.type === "post") && n.lit_at && n.lit_at >= from && n.lit_at <= today)
+    .sort((a, b) => b.lit_at!.localeCompare(a.lit_at!) || a.id.localeCompare(b.id))
+    .map((n) => [n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort()] as [string, string, string, string[]]);
+  return { anchor: today, days: LANDED_DAYS, items };
+}
+
+/** Global TOC order of the topic hubs (data/hubs/topics.json lists them in TOC walk order). */
+export function tocOrder(dataDir: string): Map<string, number> {
+  const hubs = readJsonOr<{ topics?: { id: string }[] }>(resolve(dataDir, "hubs", "topics.json"), {}).topics ?? [];
+  return new Map(hubs.map((h, i) => [h.id, i]));
 }
 
 const writeIfChanged = (p: string, text: string) => { if (!exists(p) || readText(p) !== text) { writeText(p, text); return true; } return false; };
-const strip = ({ index: _i, vx: _vx, vy: _vy, fx: _fx, fy: _fy, ...n }: GNode) => ({ ...n, weight: Math.round(n.weight * 10) / 10 });
+const strip = (n: GNode) => ({ ...n, weight: Math.round(n.weight * 10) / 10 });
 /** Summary nodes leave out `url` when it is the page path derived from the id (`object/table/18` -> `objects/table/18/`). */
 export const pathOfId = (id: string) => { const i = id.indexOf("/"); return `${id.slice(0, i)}s/${id.slice(i + 1)}/`; };
 const slim = (n: ReturnType<typeof strip>) => (n.url === pathOfId(n.id) ? (({ url: _u, ...rest }) => rest)(n) : n);
+/** Ego files keep the plain node: the per-star fields live in the summary only. */
+const egoNode = ({ cross: _c, crossMore: _m, mb: _b, ob: _o, ec: _e, ...n }: GNode) => strip(n);
 
-export interface GraphRun { nodes: number; edges: number; summary_nodes: number; summary_bytes: number; ego: number; written: number }
+export interface GraphRun { nodes: number; edges: number; summary_nodes: number; summary_bytes: number; landed: number; ego: number; written: number }
+export interface GraphOptions { /** Run date (YYYY-MM-DD): the end of the "landed" week. */ today?: string; /** Relations major; default the first narrative major that has them. */ major?: string }
 
-export function renderGraph(contentDir: string, dataDir: string, siteBase = ""): GraphRun {
+export function renderGraph(contentDir: string, dataDir: string, siteBase = "", opts: GraphOptions = {}): GraphRun {
   const g0 = buildGraph(contentDir, siteBase);
   const keep = summaryNodes(g0);
-  const g = layout(g0, keep);
+  const code = loadCode(dataDir, opts.major);
+  const g = layout(g0, keep, code, tocOrder(dataDir));
   const dir = resolve(dataDir, "graph");
   let written = 0;
   const summaryNodesList = g.nodes.filter((n) => keep.has(n.id)).map(strip).map(slim);
   const summaryEdges = g.edges.filter((e) => keep.has(e.s) && keep.has(e.t)).map(({ w, ...e }) => (w && w > 1 ? { ...e, w } : e));
-  // version 1 of schemas/graph.json; generated_at is fixed to the input so an unchanged graph is not rewritten
   // where each source touches the galaxy, limited to stars the summary draws
   const touches = Object.fromEntries(Object.entries(g.touches).map(([k, v]) => [k, v.filter((h) => keep.has(h))]).filter(([, v]) => v.length));
-  const summary = { version: 1, generated_at: createHash("sha256").update(JSON.stringify([summaryNodesList, summaryEdges, touches, g.reach])).digest("hex").slice(0, 16), layout: LAYOUT, systems: g.systems.filter((s) => s.r > 0), nodes: summaryNodesList, edges: summaryEdges, touches, reach: g.reach };
+  const systems = g.systems.filter((s) => s.r > 0 && summaryNodesList.some((n) => n.group === s.id));
+  const sysedges = heaviestPairs(systemWeights(g0, keep, code), systems.map((s) => s.id));
+  // version 1 of schemas/graph.json; generated_at is fixed to the input so an unchanged graph is not rewritten
+  const body = { layout: LAYOUT, systems, sysedges, nodes: summaryNodesList, edges: summaryEdges, touches, reach: g.reach };
+  const summary = { version: 1, generated_at: createHash("sha256").update(JSON.stringify(body)).digest("hex").slice(0, 16), ...body };
   const summaryText = `${JSON.stringify(summary)}\n`;
   if (writeIfChanged(resolve(dir, "summary.json"), summaryText)) written++;
+  const week = landed(g, keep, opts.today ?? new Date().toISOString().slice(0, 10));
+  if (writeIfChanged(resolve(dir, "landed.json"), `${JSON.stringify(week)}\n`)) written++;
   if (writeIfChanged(resolve(dir, "full.jsonl"), g.edges.map((e) => JSON.stringify(e)).join("\n") + "\n")) written++;
   // ego graphs for summary nodes
   const byNode = new Map<string, GEdge[]>();
   for (const e of g.edges) { byNode.set(e.s, [...(byNode.get(e.s) ?? []), e]); byNode.set(e.t, [...(byNode.get(e.t) ?? []), e]); }
-  const nodeById = new Map(g.nodes.map((n) => [n.id, strip(n)]));
+  const nodeById = new Map(g.nodes.map((n) => [n.id, egoNode(n)]));
   const egoDir = resolve(dir, "ego");
   const wanted = new Set<string>();
   for (const id of keep) {
@@ -233,5 +357,5 @@ export function renderGraph(contentDir: string, dataDir: string, siteBase = ""):
     if (writeIfChanged(file, `${JSON.stringify({ id, nodes: ns, edges: es })}\n`)) written++;
   }
   for (const f of listFiles(egoDir, ".json")) if (!wanted.has(f)) { removeIfExists(f); written++; }
-  return { nodes: g.nodes.length, edges: g.edges.length, summary_nodes: summaryNodesList.length, summary_bytes: summaryText.length, ego: wanted.size, written };
+  return { nodes: g.nodes.length, edges: g.edges.length, summary_nodes: summaryNodesList.length, summary_bytes: summaryText.length, landed: week.items.length, ego: wanted.size, written };
 }

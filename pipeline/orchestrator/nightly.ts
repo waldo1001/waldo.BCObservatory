@@ -329,7 +329,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); }
     await phase("search-index", async () => { try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); } });
     await phase("objects-index", async () => { try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
-    await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, ""); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
+    await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, "", { today: date }); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,

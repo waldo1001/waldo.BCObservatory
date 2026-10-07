@@ -4,11 +4,18 @@
   "title": "Galaxy graph (nodes with baked layout, typed edges)",
   "type": "object",
   "required": ["version", "generated_at", "layout", "nodes", "edges"],
+  "$defs": { "pair": { "type": "array", "prefixItems": [{ "type": "string" }, { "type": "string" }], "minItems": 2, "items": false } },
   "properties": {
     "version": { "const": 1 },
     "generated_at": { "type": "string" },
-    "layout": { "type": "string", "description": "e.g. d3-force@seed:42" },
-    "systems": { "type": "array", "items": { "type": "object", "required": ["id", "label"], "properties": { "id": { "type": "string" }, "label": { "type": "string" }, "x": { "type": "number" }, "y": { "type": "number" }, "r": { "type": "number" } } } },
+    "layout": { "type": "string", "description": "the layout method, e.g. learn-tree+ns-treemap@1 (D66); older graphs: spiral+d3-force@seed:42" },
+    "systems": { "type": "array", "items": { "type": "object", "required": ["id", "label"], "properties": {
+      "id": { "type": "string" }, "label": { "type": "string" }, "x": { "type": "number" }, "y": { "type": "number" }, "r": { "type": "number" },
+      "ord": { "type": "number", "description": "place in the system chain on the spiral (D66): even one arm, odd the other, outward" },
+      "tree": { "type": "array", "items": { "$ref": "#/$defs/pair" }, "description": "Learn TOC tree inside the system as [parent hub id, child hub id]: the tree guides" },
+      "plots": { "type": "array", "items": { "type": "array", "prefixItems": [{ "type": "string" }, { "type": "number" }, { "type": "number" }, { "type": "number" }, { "type": "number" }, { "type": "number" }], "minItems": 6, "items": false }, "description": "namespace plots as [namespace path, x, y, w, h, objects] in world units, sized by every object of the system" }
+    } } },
+    "sysedges": { "type": "array", "items": { "type": "array", "prefixItems": [{ "type": "string" }, { "type": "string" }, { "type": "number" }], "minItems": 3, "items": false }, "description": "the two heaviest cross-system pairs of each system as [system, system, weight]; Localizations and Sources left out" },
     "nodes": {
       "type": "array",
       "items": {
@@ -20,9 +27,16 @@
           "group": { "type": "string", "description": "galaxy system id" }, "weight": { "type": "number" },
           "url": { "type": "string", "description": "absent in the summary when it is the page path of the id: <type>s/<rest>/" }, "x": { "type": "number" }, "y": { "type": "number" },
           "lit_at": { "type": ["string", "null"], "description": "last content date; drives the newly-lit effect" },
-          "ev": { "type": "number", "description": "evidence items on a hub (Learn pages, videos, posts): brightness" },
+          "ev": { "type": "number", "description": "evidence on the star (Learn pages, videos and posts linked to it or naming it exactly): brightness" },
           "cs": { "type": "number", "minimum": 0, "maximum": 1, "description": "community share of that evidence" },
-          "cv": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors they changed in" }
+          "cv": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors they changed in" },
+          "ob": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors in which they were marked obsolete (code timelines)" },
+          "ec": { "type": "number", "description": "objects: published events (integration, business, internal)" },
+          "cross": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 4, "items": false, "prefixItems": [{ "type": "string" }, { "type": "number" }, { "type": "string" }, { "type": "array", "maxItems": 3, "items": { "anyOf": [{ "type": "string" }, { "$ref": "#/$defs/pair" }] } }] },
+            "description": "cross-system edges, heaviest first: [target system, distinct targets, most frequent kind, up to 3 targets]; a target that is a summary star is its id, any other [id, label]. Objects: code relations; other stars: page links" },
+          "crossMore": { "type": "number", "description": "target systems beyond the 6 in cross" },
+          "mb": { "type": "object", "required": ["n", "top"], "description": "media bodies: videos and posts on the star, total and the newest 6 as [id, v or p, date]",
+            "properties": { "n": { "type": "number" }, "top": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 3, "items": false, "prefixItems": [{ "type": "string" }, { "enum": ["v", "p"] }, { "type": ["string", "null"] }] } } } }
         }
       }
     },

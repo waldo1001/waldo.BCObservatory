@@ -1,0 +1,122 @@
+{
+ "systems": [
+  {
+   "id": "finance",
+   "label": "Finance",
+   "x": 333,
+   "y": -220,
+   "r": 60,
+   "ord": 0,
+   "plots": [
+    [
+     "Finance.GeneralLedger.Account",
+     341,
+     -255.2,
+     41.1,
+     23.3,
+     1
+    ],
+    [
+     "Finance.GeneralLedger.Ledger",
+     341,
+     -232,
+     41.1,
+     23.3,
+     1
+    ],
+    [
+     "Finance.VAT.Setup",
+     340.7,
+     -207.7,
+     41.6,
+     23.2,
+     1
+    ]
+   ]
+  },
+  {
+   "id": "sales",
+   "label": "Sales & Receivables",
+   "x": -413,
+   "y": 210,
+   "r": 60,
+   "ord": 1,
+   "plots": [
+    [
+     "Sales.Customer",
+     -405.7,
+     174.1,
+     42.3,
+     35.9,
+     1
+    ],
+    [
+     "Sales.Document",
+     -405.7,
+     210,
+     42.3,
+     35.9,
+     1
+    ]
+   ]
+  },
+  {
+   "id": "sources",
+   "label": "Sources",
+   "x": 549,
+   "y": -1640,
+   "r": 60,
+   "ord": 20
+  }
+ ],
+ "positions": {
+  "feature/9": [
+   323,
+   -163
+  ],
+  "object/table/15": [
+   362,
+   -244
+  ],
+  "object/table/17": [
+   362,
+   -220
+  ],
+  "object/table/18": [
+   -384,
+   192
+  ],
+  "object/table/325": [
+   362,
+   -196
+  ],
+  "object/table/37": [
+   -384,
+   228
+  ],
+  "source/blog": [
+   591,
+   -1640
+  ],
+  "source/yt-ms": [
+   507,
+   -1640
+  ],
+  "topic/fin": [
+   318,
+   -220
+  ],
+  "topic/fin/gl": [
+   300,
+   -259
+  ],
+  "topic/fin/vat": [
+   300,
+   -181
+  ],
+  "topic/sales": [
+   -446,
+   210
+  ]
+ }
+}
