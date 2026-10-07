@@ -23,6 +23,7 @@ import { loadConfig, loadSources, taxonomy } from "../lib/config.js";
 import { exists, listFiles, readJsonOr, readText, removeIfExists, writeText } from "../lib/fsx.js";
 import { objectSystem } from "../lib/systems.js";
 import type { TimelineEntry } from "../code/diff.js";
+import { nsSegments } from "../lib/treemap.js";
 import { LAYOUT, layoutGalaxy, type Plot } from "./galaxy-layout.js";
 
 export { objectSystem, LAYOUT };
@@ -46,6 +47,10 @@ export interface GNode {
   ob?: string[];
   /** Objects: published events (integration, business, internal). */
   ec?: number;
+  /** Objects: distinct objects they share a code relation with (the neighbourhood's size). */
+  nn?: number;
+  /** Objects: namespace path without the vendor (`Sales.Customer`), the atlas's `?ns=`. */
+  ns?: string;
   /**
    * Cross-system edges, heaviest target system first: [system, distinct targets, most frequent kind, up to 3 targets].
    * A target that is a summary star is its id (its label is in the summary); any other is [id, label].
@@ -263,11 +268,13 @@ export function layout(g: Graph, keep: Set<string>, code: CodeInput, tocOrder: M
     const top = ms.sort((a, b) => (b.lit_at ?? "").localeCompare(a.lit_at ?? "") || a.id.localeCompare(b.id)).slice(0, MEDIA_BODIES).map((m) => [m.id, m.type === "video" ? "v" : "p", m.lit_at] as [string, string, string | null]);
     return { mb: { n: ms.length, top } };
   };
-  const objectFields = (n: GNode): Pick<GNode, "ob" | "ec"> => {
+  const objectFields = (n: GNode): Pick<GNode, "ob" | "ec" | "ns" | "nn"> => {
     const [type, id] = codeKey(n.id).split("/");
     const ob = /^\d+$/.test(id ?? "") ? code.obsoleted(type, id) : [];
     const ec = Object.values(code.events[codeKey(n.id)] ?? {}).filter((e) => e.kind !== "trigger_event").length;
-    return { ...(ob.length ? { ob } : {}), ...(ec ? { ec } : {}) };
+    const a = g.aux.ns.get(n.id);
+    const nn = new Set((codeAdj.get(n.id) ?? []).map((x) => x.other)).size;
+    return { ...(ob.length ? { ob } : {}), ...(ec ? { ec } : {}), ...(nn ? { nn } : {}), ...(a ? { ns: nsSegments(a.ns, a.app).join(".") } : {}) };
   };
   return {
     ...g, systems,
@@ -294,14 +301,14 @@ export function heaviestPairs(weights: Map<string, number>, ids: string[], perSy
   return [...out.values()].sort((a, b) => b[2] - a[2] || `${a[0]}|${a[1]}`.localeCompare(`${b[0]}|${b[1]}`));
 }
 
-/** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to. */
-export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: [string, string, string, string[]][] } {
+/** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to and their title. */
+export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: [string, string, string, string[], string][] } {
   const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
   const hubs = new Map<string, Set<string>>();
   for (const e of g.edges) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
   const items = g.nodes.filter((n) => (n.type === "video" || n.type === "post") && n.lit_at && n.lit_at >= from && n.lit_at <= today)
     .sort((a, b) => b.lit_at!.localeCompare(a.lit_at!) || a.id.localeCompare(b.id))
-    .map((n) => [n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort()] as [string, string, string, string[]]);
+    .map((n) => [n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort(), n.label] as [string, string, string, string[], string]);
   return { anchor: today, days: LANDED_DAYS, items };
 }
 
@@ -317,7 +324,7 @@ const strip = (n: GNode) => ({ ...n, weight: Math.round(n.weight * 10) / 10 });
 export const pathOfId = (id: string) => { const i = id.indexOf("/"); return `${id.slice(0, i)}s/${id.slice(i + 1)}/`; };
 const slim = (n: ReturnType<typeof strip>) => (n.url === pathOfId(n.id) ? (({ url: _u, ...rest }) => rest)(n) : n);
 /** Ego files keep the plain node: the per-star fields live in the summary only. */
-const egoNode = ({ cross: _c, crossMore: _m, mb: _b, ob: _o, ec: _e, ...n }: GNode) => strip(n);
+const egoNode = ({ cross: _c, crossMore: _m, mb: _b, ob: _o, ec: _e, ns: _n, nn: _k, ...n }: GNode) => strip(n);
 
 export interface GraphRun { nodes: number; edges: number; summary_nodes: number; summary_bytes: number; landed: number; ego: number; written: number }
 export interface GraphOptions { /** Run date (YYYY-MM-DD): the end of the "landed" week. */ today?: string; /** Relations major; default the first narrative major that has them. */ major?: string }

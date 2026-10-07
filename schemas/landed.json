@@ -9,8 +9,8 @@
     "days": { "type": "number" },
     "items": {
       "type": "array",
-      "items": { "type": "array", "minItems": 4, "items": false, "description": "[media id, v or p, published date, summary stars it links to]",
-        "prefixItems": [{ "type": "string" }, { "enum": ["v", "p"] }, { "type": "string" }, { "type": "array", "items": { "type": "string" } }] }
+      "items": { "type": "array", "minItems": 4, "items": false, "description": "[media id, v or p, published date, summary stars it links to, title]",
+        "prefixItems": [{ "type": "string" }, { "enum": ["v", "p"] }, { "type": "string" }, { "type": "array", "items": { "type": "string" } }, { "type": "string" }] }
     }
   }
 }

@@ -122,7 +122,7 @@ test("graph (D66): valid summary and landed week, star fields, golden positions,
   assert.deepEqual(n("object/table/325").ob, ["29"]);
   // Table 18 (sales) points into finance: a port with the object at the far end
   assert.deepEqual(n("object/table/18").cross, [["finance", 1, "table_relation", ["object/table/15"]]]);
-  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"]]] }, "the post of 09-20 is older than the week");
+  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes"]] }, "the post of 09-20 is older than the week");
   const fin = s.systems.find((x: any) => x.id === "finance");
   assert.deepEqual(fin.tree, [["topic/fin", "topic/fin/gl"], ["topic/fin", "topic/fin/vat"]]);
   assert.deepEqual(fin.plots.map((p: any) => [p[0], p[5]]).sort(), [["Finance.GeneralLedger.Account", 1], ["Finance.GeneralLedger.Ledger", 1], ["Finance.VAT.Setup", 1]]);

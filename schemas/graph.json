@@ -32,6 +32,8 @@
           "cv": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors they changed in" },
           "ob": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors in which they were marked obsolete (code timelines)" },
           "ec": { "type": "number", "description": "objects: published events (integration, business, internal)" },
+          "nn": { "type": "number", "description": "objects: distinct objects they share a code relation with" },
+          "ns": { "type": "string", "description": "objects: namespace path without the vendor (Sales.Customer), the atlas's ?ns=" },
           "cross": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 4, "items": false, "prefixItems": [{ "type": "string" }, { "type": "number" }, { "type": "string" }, { "type": "array", "maxItems": 3, "items": { "anyOf": [{ "type": "string" }, { "$ref": "#/$defs/pair" }] } }] },
             "description": "cross-system edges, heaviest first: [target system, distinct targets, most frequent kind, up to 3 targets]; a target that is a summary star is its id, any other [id, label]. Objects: code relations; other stars: page links" },
           "crossMore": { "type": "number", "description": "target systems beyond the 6 in cross" },
