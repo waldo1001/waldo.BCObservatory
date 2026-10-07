@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10235",
+  "number": 10235,
+  "title": "[Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription Line start date changes are now blocked when billing has occurred, preventing periods from being invoiced multiple times or skipped. The validation runs on all edit paths instead of just two subpages.",
+  "key_points": [
+    "Moved start date validation from UpdateServiceCommitment to OnValidate trigger to cover all edit paths (pages, code, import, API)",
+    "Fixed validation logic to detect whether billing actually occurred rather than just summing archived amounts",
+    "Added exemption for temporary records used during subscription renewal",
+    "Added missing secondary key on Billing Line Archive for efficient filtering",
+    "Provides extensibility hook via OnAfterCheckSubscriptionLineStartDateChangeAllowed event"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "The Subscription Line start date could still be changed after the line had been billed.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004553,
+    "changes_in_call": 1
+  }
+}

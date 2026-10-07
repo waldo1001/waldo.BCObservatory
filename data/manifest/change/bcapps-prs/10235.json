@@ -6,10 +6,35 @@
   "title": "[Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths",
   "url": "https://github.com/microsoft/BCApps/pull/10235",
   "published_at": "2026-08-29T15:19:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:22.940Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:28.430Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004553
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:28.632Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:28.638Z",
+      "path": "content/changes/bcapps/10235.md"
     }
   },
   "input_hash": "6baee5c898ef00cee09ab6c21c1360a166f7ec60:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscriptionbilling enforce subscription line start date change rules on all edit paths"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ede18083d6c0419a104a0a30fbebfdc8784f5848cc1690da68958682ff677f3"
 }

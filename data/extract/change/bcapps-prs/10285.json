@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10285",
+  "number": 10285,
+  "title": "[Extensibility Request] issue 29642: add Inventory Valuation events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Inventory Valuation report 10139 now exposes two integration events to let extensions skip items and adjust Value Entry filters, matching the W1 report's extensibility.",
+  "key_points": [
+    "Added OnAfterGetRecord publisher to skip items during report processing",
+    "Added AdjustItemLedgEntryToAsOfDate publisher to refine valuation entry filters",
+    "Enables extensions to compile for North America without changes",
+    "Maintains compatibility with W1 Inventory Valuation report events"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Extensions can skip an item and adjust Value Entry filters in its equivalent processing flow.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003198,
+    "changes_in_call": 1
+  }
+}

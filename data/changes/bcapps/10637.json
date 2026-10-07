@@ -1,0 +1,441 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10637,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10637",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T15:30:39Z",
+  "merge_commit_sha": "d0c590892ce825c6b40edf3c810d39fe18c8634a",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 639548 [Expense Agent] Consolidate country demo data into single W1 app",
+  "body_hash": "97cd7ed73af5cba40399590b4263c66ecbd8c85a74ff89fcfea271b1af084f7f",
+  "fixes_issues": [],
+  "work_items": [
+    639548,
+    646163
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 340,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 241,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps BE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CA/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CH/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps ES/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps GB/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NL/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NO/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 413,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/AU/ExpenseAgent_AU/app/src/ExpenseEventSubscriberAU.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 259,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CA/ExpenseAgent_CA/app/src/ExpenseEventSubscriberCA.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 297,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/ExpenseAgent_DE/app/src/ExpenseEventSubscriberDE.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 280,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/ExpenseAgent_DK/app/src/ExpenseEventSubscriberDK.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 273,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/ES/ExpenseAgent_ES/app/src/ExpenseEventSubscriberES.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 325,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/ExpenseAgent_FR/app/src/ExpenseEventSubscriberFR.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 280,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ExpenseAgent_GB/app/src/ExpenseEventSubscriberGB.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 266,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NZ/ExpenseAgent_NZ/app/src/ExpenseEventSubscriberNZ.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 290,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/ExpenseAgent_US/app/src/ExpenseEventSubscriberUS.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 266,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/app.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 100,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1428,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreateExpenseCountryData.Codeunit.al",
+      "status": "added",
+      "additions": 428,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreateExpenseGLAccounts.Codeunit.al",
+      "status": "added",
+      "additions": 1494,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreateExpensePostingGroups.Codeunit.al",
+      "status": "added",
+      "additions": 512,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/CreatePostedExpenseReports.Codeunit.al",
+      "status": "added",
+      "additions": 211,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/ES/2.Master Data/UpdateEmployeeES.Codeunit.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/ExpenseDemoDataSubscriber.Codeunit.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Country/ExpenseGLAccountNames.Codeunit.al",
+      "status": "added",
+      "additions": 398,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/1.Setup Data/CreateExpenseGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Data/ExpenseAgentContosoModule.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 16,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/Demo Tool/Contoso Helpers/ContosoExpenseAgent.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/demo data/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 53,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 44,
+    "additions": 4741,
+    "deletions": 3753,
+    "al": 13
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseCategories.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6973",
+        "type": "codeunit",
+        "id": 6973,
+        "name": "Create Expense Categories",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6973"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/CreateExpenseGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6971",
+        "type": "codeunit",
+        "id": 6971,
+        "name": "Create Expense GL Account",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6971"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/AT/ExpenseAgent_AT/app/src/ExpenseEventSubscriberAT.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/AU/ExpenseAgent_AU/app/src/ExpenseEventSubscriberAU.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CA/ExpenseAgent_CA/app/src/ExpenseEventSubscriberCA.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/ExpenseAgent_DE/app/src/ExpenseEventSubscriberDE.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/ExpenseAgent_DK/app/src/ExpenseEventSubscriberDK.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/ES/ExpenseAgent_ES/app/src/ExpenseEventSubscriberES.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/ExpenseAgent_FR/app/src/ExpenseEventSubscriberFR.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ExpenseAgent_GB/app/src/ExpenseEventSubscriberGB.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NZ/ExpenseAgent_NZ/app/src/ExpenseEventSubscriberNZ.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/US/ExpenseAgent_US/app/src/ExpenseEventSubscriberUS.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

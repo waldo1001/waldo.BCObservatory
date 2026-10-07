@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10567",
+  "number": 10567,
+  "title": "SOA : Create Task from TaskPane respects review configuration for known senders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Tasks created manually in the SOA Create Task pane now respect the review configuration for known senders, and typing a sender email automatically resolves the matching contact or customer.",
+  "key_points": [
+    "Manual task creation now honors the configured review setting (No review, First message, All messages)",
+    "SOATaskMessage.MessageRequiresReview refactored to accept sender address instead of Email Inbox record for code reuse",
+    "SOA Create Task page resolves and initializes contact/customer when a sender email is typed in, matching the lookup behavior",
+    "Sample message personalization, location, and language are now populated for manually created tasks",
+    "Prior selections are cleared and lookup is skipped on empty input to prevent stale matches"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003806,
+    "changes_in_call": 1
+  }
+}

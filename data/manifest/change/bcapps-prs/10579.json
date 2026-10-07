@@ -6,10 +6,18 @@
   "title": "[Bug 638696] Add teaching tip to Effective Permissions page 9852",
   "url": "https://github.com/microsoft/BCApps/pull/10579",
   "published_at": "2026-08-28T14:35:37Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:32.902Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "b89ada6af35a4e3406dae76965897025ab4e74b5:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 638696 add teaching tip to effective permissions page 9852"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe2447799dbd5a21a01b697a6d4cd64c43d08808b91532b84153a8bafccdd427"
 }

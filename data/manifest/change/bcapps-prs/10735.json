@@ -6,10 +6,35 @@
   "title": "[Slice-631381] Add Mark as Accepted in posted documents for Spanish SII",
   "url": "https://github.com/microsoft/BCApps/pull/10735",
   "published_at": "2026-08-28T16:02:55Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:29.412Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:34.668Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004414
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:34.824Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:34.829Z",
+      "path": "content/changes/bcapps/10735.md"
     }
   },
   "input_hash": "eaa0c769886f75ba97e7d57fc8532280340ca360:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "slice 631381 add mark as accepted in posted documents for spanish sii"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6986ee6a0a345c4ca4db3d57c367639b021bbbeb57bf064977b4568c2fd1160c"
 }

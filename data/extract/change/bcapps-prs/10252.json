@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10252",
+  "number": 10252,
+  "title": "Adjust audit log tables",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Audit log table references were removed from the Financial Report Auditing codeunit to resolve an issue.",
+  "key_points": [
+    "Audit log table references deleted from Financial Report Auditing codeunit",
+    "4 lines of code removed",
+    "Addresses a specific issue with audit logging in financial reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Remove audit log tables",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003012,
+    "changes_in_call": 1
+  }
+}

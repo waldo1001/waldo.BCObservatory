@@ -1,0 +1,118 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10567,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10567",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-30T20:13:48Z",
+  "merge_commit_sha": "7ed90e99e28dd15fa72a0920fe567b66cb9e499a",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "SOA : Create Task from TaskPane respects review configuration for known senders",
+  "body_hash": "83fe9c886b41a26ab06fed0e65ed9a4eef713e15e4150a676a0999bca6845d07",
+  "fixes_issues": [],
+  "work_items": [
+    640666
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTask.Page.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOARetrieveEmails.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskMessage.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 35,
+    "deletions": 11,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTask.Page.al",
+        "status": "modified",
+        "key": "page/4409",
+        "type": "page",
+        "id": 4409,
+        "name": "SOA Create Task",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4409"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOACreateTaskImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4415",
+        "type": "codeunit",
+        "id": 4415,
+        "name": "SOA Create Task Impl",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4415"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOARetrieveEmails.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4582",
+        "type": "codeunit",
+        "id": 4582,
+        "name": "SOA Retrieve Emails",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4582"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOATaskMessage.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4398",
+        "type": "codeunit",
+        "id": 4398,
+        "name": "SOA Task Message",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4398"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

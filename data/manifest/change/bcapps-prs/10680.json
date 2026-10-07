@@ -6,10 +6,35 @@
   "title": "Maintenance update",
   "url": "https://github.com/microsoft/BCApps/pull/10680",
   "published_at": "2026-08-28T21:31:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:24.781Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:29.531Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003535
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:29.708Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:29.714Z",
+      "path": "content/changes/bcapps/10680.md"
     }
   },
   "input_hash": "36e268a87492672aa6314409d1e40bb9d1c1142b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "maintenance update"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f3700ac21495ab1dd93d96b332b741862c8dfd5652efa22f4e0a28ef3b81b21"
 }

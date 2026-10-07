@@ -6,10 +6,18 @@
   "title": "[MCP] Change System Tool factbox caption to 'Active System Tools'",
   "url": "https://github.com/microsoft/BCApps/pull/10432",
   "published_at": "2026-08-28T15:06:54Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:32.189Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "64e7190cfe271beefe15cbaff6cdadab62cd96d7:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp change system tool factbox caption to active system tools"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "89b952276c280f52dafaf2d83db98c97c2df5ec20e3919c69797b4d9bf57581d"
 }

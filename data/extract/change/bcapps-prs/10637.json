@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10637",
+  "number": 10637,
+  "title": "[Master] - Bug 639548 [Expense Agent] Consolidate country demo data into single W1 app",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent demo data is consolidated from separate country packages into a single W1 implementation, with country-specific demo data centralized while localization apps retain only integration hooks.",
+  "key_points": [
+    "Moved demo data setup, master, transactional, and historical data from AT, AU, CA, DE, DK, ES, FR, GB, NZ, US extensions into W1 demo-data app",
+    "Centralized G/L accounts, posting groups, categories, per-diem rules, and posted reports with country awareness",
+    "Country Expense Agent subscribers now contain only remaining integration hooks, with obsolete code marked for BC30 cleanup",
+    "Simplified maintenance by eliminating duplicate implementations across 10+ countries",
+    "Updated build configuration, project groups, manifests, and object ID ranges"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "copilot"
+  ],
+  "quote": "Consolidates Expense Agent demo data into the W1 demo-data extension instead of maintaining separate implementations and packages for each country.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007124,
+    "changes_in_call": 1
+  }
+}

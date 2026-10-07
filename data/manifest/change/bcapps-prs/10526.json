@@ -6,10 +6,35 @@
   "title": "Use BaseApp's new PO Matching module in E-Documents",
   "url": "https://github.com/microsoft/BCApps/pull/10526",
   "published_at": "2026-08-28T18:52:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:29.928Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:34.978Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003894
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:38.918Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:38.924Z",
+      "path": "content/changes/bcapps/10526.md"
     }
   },
   "input_hash": "ee0f5acb9e892c7f521af6dc120b070291567a68:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "use baseapp s new po matching module in e documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9cb6eb50a37f2c3cc2f884e836bb649f419341623d4eed18c7546422a407478f"
 }

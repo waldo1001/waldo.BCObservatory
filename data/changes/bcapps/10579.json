@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10579,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10579",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T14:35:37Z",
+  "merge_commit_sha": "b89ada6af35a4e3406dae76965897025ab4e74b5",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug 638696] Add teaching tip to Effective Permissions page 9852",
+  "body_hash": "0863e70f2ed3a7c895f3da6a803b206603c853d4cf7fd550e6898b415e1acd43",
+  "fixes_issues": [],
+  "work_items": [
+    638696
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/Permissions/EffectivePermissions.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/Permissions/EffectivePermissions.Page.al",
+        "status": "modified",
+        "key": "page/9852",
+        "type": "page",
+        "id": 9852,
+        "name": "Effective Permissions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9852"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

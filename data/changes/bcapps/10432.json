@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10432,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10432",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T15:06:54Z",
+  "merge_commit_sha": "64e7190cfe271beefe15cbaff6cdadab62cd96d7",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Change System Tool factbox caption to 'Active System Tools'",
+  "body_hash": "c9a4145fa5e6023dcc6e02e8a6cedb612b255d3814d022723a0022d5b4087152",
+  "fixes_issues": [],
+  "work_items": [
+    647280
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPSystemToolList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPSystemToolList.Page.al",
+        "status": "modified",
+        "key": "page/8365",
+        "type": "page",
+        "id": 8365,
+        "name": "MCP System Tool List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8365"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

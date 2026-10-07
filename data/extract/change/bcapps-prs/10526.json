@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10526",
+  "number": 10526,
+  "title": "Use BaseApp's new PO Matching module in E-Documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Documents now leverages BaseApp's new PO Matching module to support one-to-many matching and receiving at invoice for two-way matches, with additional warnings for amount mismatches and expanded matching fields.",
+  "key_points": [
+    "Integrates BaseApp's new PO Matching API surface into E-Document creation workflow",
+    "Enables one-to-many purchase order line matching against invoices",
+    "Supports receiving at invoice time for two-way matches",
+    "Adds warning notifications when invoice amounts don't match purchase orders",
+    "Expands page fields to show more matching information for Payables Agent decisions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "quote": "Uptakes the new API surface for BaseApp's PO Matching module at E-Document creation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003894,
+    "changes_in_call": 1
+  }
+}

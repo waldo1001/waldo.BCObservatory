@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10279,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10279",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T13:51:17Z",
+  "merge_commit_sha": "41e093172259dc8dd4cf0b392ed3c023d041c861",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30414: add sales budget navigation events",
+  "body_hash": "3312447c23272d117df14106c607e083db7b3555c594f1a81fc7da75201dfa9e",
+  "fixes_issues": [],
+  "work_items": [
+    646682
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Analysis/SalesBudgetOverviewMatrix.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 34,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Analysis/SalesBudgetOverviewMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9239",
+        "type": "page",
+        "id": 9239,
+        "name": "Sales Budget Overview Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9239"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

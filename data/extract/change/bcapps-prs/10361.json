@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10361",
+  "number": 10361,
+  "title": "[main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Line Discount Amount is now correctly preserved when transferring project planning lines to a sales invoice, eliminating rounding discrepancies caused by recalculation from the rounded percentage.",
+  "key_points": [
+    "Fixed rounding discrepancy where line discount amount was recalculated from rounded percentage instead of preserving the original value",
+    "After percentage validation, the exact line discount amount from the planning line is now transferred to the sales line",
+    "Handles partial invoicing and credit memos through quantity ratio calculation",
+    "Converts discount amount to invoice currency when needed",
+    "Added test case validating that discount amount remains accurate through the transfer process"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "sales"
+  ],
+  "quote": "Line Discount Amount rounding discrepancy when transferring Project Planning Lines to a Sales Invoice.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004028,
+    "changes_in_call": 1
+  }
+}

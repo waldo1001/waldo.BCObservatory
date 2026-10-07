@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10735",
+  "number": 10735,
+  "title": "[Slice-631381] Add Mark as Accepted in posted documents for Spanish SII",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "service"
+  ],
+  "summary": "Spanish SII posted documents now include a Mark as Accepted action to resolve stuck Incorrect or Pending statuses directly from the document page, matching the behavior available on the SII History page.",
+  "key_points": [
+    "New Mark as Accepted action added to posted sales, purchase, and service invoice and credit memo pages for Spanish localization",
+    "Resolves SII document status by source, type, and number without requiring the SII posting date to match",
+    "Action gated behind SII enabled check and Show Advanced Actions setting",
+    "Returns success status to the page which handles user messaging",
+    "Nine new tests added covering happy path scenarios and edge cases"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Documents can get stuck in an Incorrect or Pending SII status and there was no way to clear that from the posted document itself.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004414,
+    "changes_in_call": 1
+  }
+}

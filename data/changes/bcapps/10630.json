@@ -1,0 +1,201 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10630,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10630",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T16:25:01Z",
+  "merge_commit_sha": "edc04499c4c3da1ae9d3dcf8051aa97170ef8597",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Ownership: Needs Review",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Extend OnBeforeCheckBankAcc to skip specific bank reversal checks",
+  "body_hash": "808d073ce6ff7c8ea2715a5cfe418ea4c72feae28fb27ed14740953d15e91d21",
+  "fixes_issues": [],
+  "work_items": [
+    647663
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Reverse/ERMReverseBankLedger.Codeunit.al",
+      "status": "modified",
+      "additions": 153,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/Tests/Reverse/ERMReverseBankLedger.Codeunit.al",
+      "status": "modified",
+      "additions": 153,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Reverse/ERMReverseBankLedger.Codeunit.al",
+      "status": "modified",
+      "additions": 153,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 539,
+    "deletions": 32,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/179"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/179"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/179"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/179"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/179"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "key": "table/179",
+        "type": "table",
+        "id": 179,
+        "name": "Reversal Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/179"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Reversal/ReversalEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

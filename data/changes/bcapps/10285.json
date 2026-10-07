@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10285,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10285",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T17:42:40Z",
+  "merge_commit_sha": "89044e31d6387cd3cc7d9980a85d9ca11b044e27",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 29642: add Inventory Valuation events",
+  "body_hash": "6f09b02df8ecbc1bd6c768ad743404b3c3a407ba1b8d35fd4b1135eada61de6a",
+  "fixes_issues": [],
+  "work_items": [
+    619718
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Reports/InventoryValuation.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 19,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Reports/InventoryValuation.Report.al",
+        "status": "modified",
+        "key": "report/10139",
+        "type": "report",
+        "id": 10139,
+        "name": "Inventory Valuation",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10139-ca"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

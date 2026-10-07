@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10546",
+  "number": 10546,
+  "title": "[Main] Reopening and re-finishing production order reposts backward-flushed routing capacityupdate",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed an issue where reopening and re-finishing a production order would incorrectly repost backward-flushed routing capacity entries.",
+  "key_points": [
+    "Production order status management now correctly handles routing capacity postings when orders are reopened",
+    "Backward-flushed routing capacities are properly recalculated during re-finishing",
+    "Bug fix prevents duplicate or incorrect capacity ledger entries in manufacturing workflows",
+    "Changes to codeunit 5407 'Prod. Order Status Management'",
+    "Test coverage added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Reopening and re-finishing production order reposts backward-flushed routing capacity",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003409,
+    "changes_in_call": 1
+  }
+}

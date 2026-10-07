@@ -1,0 +1,150 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10526,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10526",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T18:52:07Z",
+  "merge_commit_sha": "ee0f5acb9e892c7f521af6dc120b070291567a68",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use BaseApp's new PO Matching module in E-Documents",
+  "body_hash": "b770d2d8816ae1120bc90b7f21efd0fdc8feb68729214d9a34b13249ac997ed5",
+  "fixes_issues": [],
+  "work_items": [
+    625392
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FinishDraft/EDocCreatePurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 48,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatchWarning.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+      "status": "modified",
+      "additions": 205,
+      "deletions": 111,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocSelectPOLines.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/LibraryEDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 18,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Matching/EDocPOMatchingUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 630,
+      "deletions": 221,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 935,
+    "deletions": 410,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FinishDraft/EDocCreatePurchaseInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6117",
+        "type": "codeunit",
+        "id": 6117,
+        "name": "E-Doc. Create Purchase Invoice",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6117"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocPurchaseDraftSubform.Page.al",
+        "status": "modified",
+        "key": "page/6183",
+        "type": "page",
+        "id": 6183,
+        "name": "E-Doc. Purchase Draft Subform",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6183"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatchWarning.Enum.al",
+        "status": "modified",
+        "key": "enum/6111",
+        "type": "enum",
+        "id": 6111,
+        "name": "E-Doc PO Match Warning",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6111"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6196",
+        "type": "codeunit",
+        "id": 6196,
+        "name": "E-Doc. PO Matching",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6196"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocSelectPOLines.Page.al",
+        "status": "modified",
+        "key": "page/6116",
+        "type": "page",
+        "id": 6116,
+        "name": "E-Doc. Select PO Lines",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6116"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

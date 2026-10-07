@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10093",
+  "number": 10093,
+  "title": "[Bug][SubscriptionBilling]: \"Prices Including VAT\" handling is incomplete — contract billing invoice treats VAT‑exclusive Subscription Line amounts as VAT‑inclusive",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Subscription Billing contract billing feature now correctly grosses up net prices to VAT-inclusive amounts when a customer or vendor uses prices including VAT, ensuring VAT calculations reconcile with the original order.",
+  "key_points": [
+    "Added a helper function to convert net prices to VAT-inclusive prices by applying the line's VAT factor",
+    "Applied the gross-up logic at all price-assignment sites for both sales (Unit Price) and purchase (Direct Unit Cost) paths",
+    "Zero-VAT and full-VAT lines are excluded from the conversion logic",
+    "Comprehensive test coverage added for VAT-inclusive and VAT-exclusive scenarios for both customer and vendor billing",
+    "Change is gated on the document header's Prices Including VAT flag and does not affect other documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "the contract invoice was created with the net (VAT-exclusive) amount placed onto a Prices Including VAT = YES document",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004135,
+    "changes_in_call": 1
+  }
+}

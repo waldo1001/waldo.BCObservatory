@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10630",
+  "number": 10630,
+  "title": "Extend OnBeforeCheckBankAcc to skip specific bank reversal checks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The OnBeforeCheckBankAcc event in the Reversal Entry table gains two Boolean parameters that let extensions skip the Open and Statement No. validations independently when reversing bank account ledger entries.",
+  "key_points": [
+    "Two new Boolean parameters added to OnBeforeCheckBankAcc event to control Open and Statement No. validation checks",
+    "Extensions can now skip specific bank reversal checks without handling the entire validation",
+    "Event signature extended with trailing parameters while maintaining compatibility with existing subscribers",
+    "Changes applied across all regional layers (W1, APAC, BE, CH, ES, FR, IT, RU, SE)",
+    "New tests added to verify skipping individual checks during bank entry reversal"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "This change lets extensions independently skip the Open and Statement No. validations when reversing a bank account ledger entry.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00412,
+    "changes_in_call": 1
+  }
+}

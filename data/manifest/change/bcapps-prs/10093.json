@@ -6,10 +6,35 @@
   "title": "[Bug][SubscriptionBilling]: \"Prices Including VAT\" handling is incomplete — contract billing invoice treats VAT‑exclusive Subscription Line amounts as VAT‑inclusive",
   "url": "https://github.com/microsoft/BCApps/pull/10093",
   "published_at": "2026-08-28T22:48:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:24.447Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:29.937Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004135
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:30.147Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:30.154Z",
+      "path": "content/changes/bcapps/10093.md"
     }
   },
   "input_hash": "f2743e3fa563471be1f587651773b4cec9f3bedb:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "bug subscriptionbilling prices including vat handling is incomplete contract billing invoice treats vat exclusive subscription line amounts as vat inclusive"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30bb9b9813a9510ec676a830a4ef77ee2e633417257695c9ba5cb210bc7fe7f7"
 }

@@ -6,10 +6,35 @@
   "title": "Extend OnBeforeCheckBankAcc to skip specific bank reversal checks",
   "url": "https://github.com/microsoft/BCApps/pull/10630",
   "published_at": "2026-08-28T16:25:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:06:27.514Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 8,
+      "objects": 6,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:06:33.375Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00412
+    },
+    "linked": {
+      "at": "2026-10-07T13:06:33.562Z",
+      "objects": 6,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:06:33.573Z",
+      "path": "content/changes/bcapps/10630.md"
     }
   },
   "input_hash": "edc04499c4c3da1ae9d3dcf8051aa97170ef8597:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "extend onbeforecheckbankacc to skip specific bank reversal checks"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "300f6c480362843d64078c6e139407ba998ba6d355af0482c13a7c515a5650ce"
 }

@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10093,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10093",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-28T22:48:09Z",
+  "merge_commit_sha": "f2743e3fa563471be1f587651773b4cec9f3bedb",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][SubscriptionBilling]: \"Prices Including VAT\" handling is incomplete — contract billing invoice treats VAT‑exclusive Subscription Line amounts as VAT‑inclusive",
+  "body_hash": "c504d0c591153ffcde219d4eb52b6c3303401111e9dfe8d491b9c1d3c312a040",
+  "fixes_issues": [
+    8642
+  ],
+  "work_items": [
+    648227
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingDocsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 243,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 283,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8060",
+        "type": "codeunit",
+        "id": 8060,
+        "name": "Create Billing Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8060"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 8642,
+      "title": "[Bug][SubscriptionBilling]: \"Prices Including VAT\" handling is incomplete — contract billing invoice treats VAT‑exclusive Subscription Line amounts as VAT‑inclusive",
+      "state": "closed"
+    }
+  ]
+}
