@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/bertverbeek-nl/1263",
+  "url": "https://www.bertverbeek.nl/blog/2026/02/20/agents-in-business-central-part-4-troubleshooting/",
+  "title": "Agents in Business Central – part 4 – troubleshooting",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-02-20T09:00:00.000Z",
+  "words": 464,
+  "summary": "This post explains how to troubleshoot Business Central agents when they don't behave as expected. It covers diagnostic tools like the Agent Consumption page and Agent Task Log, and identifies common pitfalls including unclear error messages, poorly written tooltips, excessive fields, and duplicate captions that confuse agents.",
+  "key_points": [
+    "Use the Agent Consumption page to monitor credit usage and communicate costs to users",
+    "Review Agent Task Log details to see what the agent observed, remembered, and accessed",
+    "Write clear, actionable error messages that explain both the problem and how to solve it",
+    "Keep tooltips precise since agents read them to understand fields",
+    "Minimize fields and actions, and avoid duplicate captions that confuse the agent"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "troubleshooting",
+    "diagnostics",
+    "error messages",
+    "agent design",
+    "consumption billing"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Consumption page",
+    "Agent Task Log",
+    "View details option",
+    "What the agent saw section"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Because no matter how well you design an agent, there will be moments where it doesn't behave as expected.",
+      "why_it_matters": "Establishes that troubleshooting is an essential skill for agent builders, not an edge case"
+    },
+    {
+      "text": "Agent then will try to solve the error. So actionable error messages will be perfect.",
+      "why_it_matters": "Shows that error messages serve the agent as instructions, not just users, requiring a different design approach"
+    },
+    {
+      "text": "So describe it very carefully. Too much fields. In part 3 was it all about what the agent saw.",
+      "why_it_matters": "Highlights that simplicity and clarity in UI design directly impact agent behavior and decision-making"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

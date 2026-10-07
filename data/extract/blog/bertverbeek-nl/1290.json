@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/bertverbeek-nl/1290",
+  "url": "https://www.bertverbeek.nl/blog/2026/02/26/agents-in-business-central-part-6-the-conclusion/",
+  "title": "Agents in Business Central – part 6 – The conclusion",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-02-26T09:33:11.000Z",
+  "words": 592,
+  "summary": "This post compares agents built directly in Business Central with those created in Copilot Studio, covering deployment, licensing, capabilities, and integration scenarios. It provides guidance on choosing between the two approaches based on business requirements.",
+  "key_points": [
+    "BC agents offer familiar ALM, easy multi-customer deployment via AppSource, and full BC integration, but lack chat interfaces and require AL code for triggering",
+    "Copilot Studio provides chat options, many Power Platform connectors, model selection, and external knowledge sources, but deployment and licensing are complex",
+    "BC agents suit large-scale email processing and data entry tasks, while Copilot Studio excels when rich user interaction and varied integrations matter",
+    "Future agent-to-agent protocol support could combine BC robustness with better chat interfaces and simpler integrations"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "agents",
+    "business central",
+    "copilot studio",
+    "licensing",
+    "deployment",
+    "alm",
+    "integrations"
+  ],
+  "objects": [],
+  "features": [
+    "Agents in Business Central",
+    "Agent Framework",
+    "Copilot Studio integration",
+    "Agent triggering",
+    "Power Platform connectors",
+    "Chat interfaces",
+    "Agent-to-agent protocol"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The disadvantage of Copilot Studio is its licensing model. You get paid to build it, but there is no recurring revenue.",
+      "why_it_matters": "Highlights a key business consideration when choosing between the two platforms"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

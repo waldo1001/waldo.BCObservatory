@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/13442",
+  "url": "https://demiliani.com/2026/02/23/dynamics-365-business-central-download-symbols-from-microsofts-public-nuget-source/",
+  "title": "Dynamics 365 Business Central: download symbols from Microsoft’s public NuGet source.",
+  "source": "demiliani-com",
+  "published_at": "2026-02-23T11:30:08.000Z",
+  "words": 238,
+  "summary": "AL Language Extension version 17 introduces a new command to download app symbols directly from Microsoft's public NuGet feeds, making it easier to manage dependencies without manually downloading from a specific environment or sharing symbols across projects.",
+  "key_points": [
+    "AL Language Extension version 17 adds 'AL: Download Symbols from Global Sources' command in VS Code",
+    "Symbols download automatically based on the application version specified in app.json",
+    "Country/region-specific packages can be selected during download",
+    "New settings allow configuring custom NuGet feeds and restricting downloads to only custom sources"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "symbols",
+    "nuget",
+    "al language",
+    "development setup",
+    "dependencies",
+    "extensions"
+  ],
+  "objects": [],
+  "features": [
+    "AL: Download Symbols from Global Sources",
+    "al.symbolsCountryRegion setting",
+    "al.nugetFeeds setting",
+    "al.useOnlyCustomFeeds setting"
+  ],
+  "versions": [
+    "AL Language Extension 17"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "starting from AL Language Extension version 17, now you have a new command called AL: Download Symbols from Global Sources.",
+      "why_it_matters": "Marks the introduction of a significant feature for managing AL project dependencies more efficiently"
+    },
+    {
+      "text": "Symbols are autyomatically downloaded from the Microsoft NuGet feed accordingly to the version you've specified in your app.json file",
+      "why_it_matters": "Explains the automatic version matching behavior that eliminates manual symbol management"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

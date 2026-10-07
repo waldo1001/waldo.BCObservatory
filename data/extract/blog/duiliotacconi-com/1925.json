@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/duiliotacconi-com/1925",
+  "url": "https://duiliotacconi.com/2026/02/23/dynamics-365-business-central-online-wait-statistics-in-telemetry-the-ai-boost/",
+  "title": "Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-02-23T17:32:46.000Z",
+  "words": 1905,
+  "summary": "Wait Statistics in Dynamics 365 Business Central Online provides telemetry data through a Database Wait Statistics page that groups SQL Server wait counters. The post explains how to interpret wait metrics for performance troubleshooting and demonstrates using AI to analyze exported telemetry data from BCPT load testing.",
+  "key_points": [
+    "Wait Statistics page in Business Central Online emits telemetry showing grouped wait categories with task counts, wait times, signal wait times, and max wait times since last database restart",
+    "Interpreting wait statistics requires calculating deltas between consecutive telemetry snapshots to understand how wait times evolve during a workload",
+    "AI can analyze exported wait statistics telemetry to provide performance insights quickly, making complex SQL Server analysis more accessible",
+    "Lock wait times dominated during inventory posting load tests despite low task counts, accounting for 46% of total wait time"
+  ],
+  "systems": [
+    "platform",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "wait statistics",
+    "telemetry",
+    "performance troubleshooting",
+    "sql server",
+    "load testing",
+    "ai analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Database Wait Statistics"
+    }
+  ],
+  "features": [
+    "Database Wait Statistics page",
+    "Emit Telemetry button",
+    "Wait category aggregation",
+    "Signal wait time tracking",
+    "Business Central Performance Toolkit (BCPT)",
+    "KQL telemetry analysis",
+    "AI-assisted performance analysis"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Lock wait time is quite serious in this scenario and covers 46% of the time tasks were waiting.",
+      "why_it_matters": "Demonstrates practical use of wait statistics in identifying performance bottlenecks during real workloads like inventory posting."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

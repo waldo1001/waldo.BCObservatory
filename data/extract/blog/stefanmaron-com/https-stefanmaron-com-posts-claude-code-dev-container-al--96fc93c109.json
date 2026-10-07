@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/",
+  "url": "https://stefanmaron.com/posts/claude-code-dev-container-al/",
+  "title": "Building a Plug & Play Claude Code Dev Container for AL Development",
+  "source": "stefanmaron-com",
+  "published_at": "2026-02-20T08:00:00.000Z",
+  "words": 1454,
+  "summary": "Setting up a reusable dev container that runs Claude Code with AL development tools installed, persistent authentication across rebuilds, and network isolation to safely use Claude Code with dangerous permissions enabled in a sandboxed environment.",
+  "key_points": [
+    "Named Docker volumes store Claude Code credentials and config persistently, eliminating need to re-authenticate after container rebuilds",
+    "Git credentials are stripped via environment variables to prevent Claude Code from accessing GitHub, with VS Code GitHub auth also disabled",
+    "Dev Container Features distribute the setup as a composable, shareable unit via GHCR instead of manual Dockerfile copying",
+    "Debugging involved comparing directory snapshots before and after onboarding to identify that ~/.claude.json outside the mount scope blocked authentication persistence",
+    "Anthropic maintains an official dev container with network-level firewall isolation that can serve as a better foundation than custom solutions"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "claude code",
+    "dev containers",
+    "al development",
+    "automation",
+    "authentication",
+    "devops",
+    "sandbox security"
+  ],
+  "objects": [],
+  "features": [
+    "Claude Code integration",
+    "dev container features",
+    "persistent authentication",
+    "git credential stripping",
+    "voice prompting",
+    "named Docker volumes",
+    "network isolation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "That level of autonomous handling still surprises me a bit. You don't get that with Copilot.",
+      "why_it_matters": "Demonstrates Claude Code's autonomous problem-solving capabilities beyond what traditional AI assistants offer, particularly in fixing deployment issues independently"
+    },
+    {
+      "text": "A dev container is the right sandbox. If Claude Code decides to do something destructive, it destroys the container - not your machine.",
+      "why_it_matters": "Explains the security model that makes running Claude Code with bypassed permissions safe through containerization isolation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/02/26/agents-in-business-central-part-6-the-conclusion/",
   "published_at": "2026-02-26T09:33:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:21.755Z",
+      "path": "vault:posts/bertverbeek-nl/1290.md",
+      "words": 592
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:21.770Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:21.771Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:21.772Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:21.782Z",
+      "path": "content/posts/bertverbeek-nl/1290.md"
     }
   },
   "input_hash": "2026-03-10T11:52:55.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7658337d1d8aa16a910bc0a081d5a7a10720d97fc08c16180e6a463a9bf13ef"
 }

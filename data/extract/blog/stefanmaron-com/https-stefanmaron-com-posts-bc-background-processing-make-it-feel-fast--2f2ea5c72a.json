@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/",
+  "url": "https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/",
+  "title": "If You Can't Make It Fast, Make It Feel Fast",
+  "source": "stefanmaron-com",
+  "published_at": "2026-02-24T08:00:00.000Z",
+  "words": 1311,
+  "summary": "When operations take time despite optimization, BC developers can make them feel faster by moving blocking work to the background instead of waiting for user input. The post explores four background processing tools (Page Background Tasks, StartSession, TaskScheduler, and Job Queue), their use cases, and how BC online's auto-scaling distributes batch workloads across server instances to keep UI sessions responsive.",
+  "key_points": [
+    "User perception matters as much as actual performance; blocking work that doesn't need the user can feel slow even if correct",
+    "BC offers four layered background processing options suited for different scenarios, from read-only UI calculations to recurring scheduled tasks",
+    "Job Queue is most capable for recurring work but recurring entries should never error; chain them so failures in transactional entries don't stop the recurring job",
+    "TaskScheduler and Job Queue work cross-cluster in BC online, allowing heavy batch work to distribute across available servers while keeping UI sessions on responsive instances",
+    "Medical device manufacturer case study: moving production planning from synchronous to background Job Queue eliminated 2-minute waits and deadlocks with 20 concurrent users"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "background processing",
+    "performance perception",
+    "job queue",
+    "async processing",
+    "page background tasks",
+    "user experience",
+    "scalability"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job Queue Log Entry"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit.Run"
+    }
+  ],
+  "features": [
+    "Page Background Tasks",
+    "StartSession",
+    "TaskScheduler",
+    "Job Queue",
+    "Change Global Dimensions",
+    "Job Queue Category",
+    "background session processing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If users are blocked waiting for a process that doesn't require their input, that is a design choice - not a performance constraint.",
+      "why_it_matters": "Frames the core insight that separating user experience from technical performance is an architectural decision, not a limitation"
+    },
+    {
+      "text": "Recurring Job Queue entries should never error. Use Codeunit.Run with error handling, or wrap logic in if not Codeunit.Run(...).",
+      "why_it_matters": "Provides critical best practice for preventing silent failures that stop background processing without alerting administrators"
+    },
+    {
+      "text": "If you push heavy work into TaskScheduler or Job Queue entries, that work can be distributed across whichever NST in the cluster has capacity.",
+      "why_it_matters": "Explains the cloud advantage of database-backed background tasks that enable auto-scaling and server instance load balancing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

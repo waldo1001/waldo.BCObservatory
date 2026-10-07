@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/02/23/dynamics-365-business-central-online-wait-statistics-in-telemetry-the-ai-boost/",
   "published_at": "2026-02-23T17:32:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:22.411Z",
+      "path": "vault:posts/duiliotacconi-com/1925.md",
+      "words": 1905
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:22.435Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:22.436Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:22.437Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:22.449Z",
+      "path": "content/posts/duiliotacconi-com/1925.md"
     }
   },
   "input_hash": "2026-02-23T17:33:26.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d5bf17a2ff272355cca092c5d919c85a8fa1116c9f1e6116bb3b5d06a184cbe"
 }

@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/02/why-api-templates-dont-work-on-business.html",
   "published_at": "2026-02-28T06:40:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:21.682Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md",
+      "words": 1156
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:21.719Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:21.721Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:21.722Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:21.740Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md"
     }
   },
   "input_hash": "2026-02-28T06:40:20.249Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "518e4243233df53ef6c0811bad13a8862a1e5b1cd9e783d84bb149b35e69544b"
 }

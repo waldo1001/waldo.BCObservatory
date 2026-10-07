@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/turning-streams-into-blog-posts/",
   "published_at": "2026-02-24T15:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:21.218Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e.md",
+      "words": 723
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:21.230Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:21.232Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:21.234Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:21.291Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb42b6754ea3c3ec580fcdc03e4846d702f6bc529288b31e4b2d2e0d34897ff1"
 }

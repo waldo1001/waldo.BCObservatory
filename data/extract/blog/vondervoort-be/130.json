@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/vondervoort-be/130",
+  "url": "https://www.vondervoort.be/index.php/2026/02/23/alcops-the-next-chapter-of-lintercop/",
+  "title": "ALCops: The Next Chapter of LinterCop",
+  "source": "vondervoort-be",
+  "published_at": "2026-02-23T18:39:34.000Z",
+  "words": 646,
+  "summary": "ALCops is a new community-driven code analyzer collection for AL that succeeds LinterCop, with about 95% of the original rules migrated. It provides VS Code extension and AL-Go support for daily AL development, with future work on Azure DevOps integration and AI tool compatibility.",
+  "key_points": [
+    "ALCops is a fresh start community project built on the foundation of BusinessCentral.LinterCop, allowing breaking changes without damaging existing setups",
+    "The original LinterCop repository will transition to read-only as development resources concentrate on ALCops",
+    "Current v0.5.0 covers 95% of LinterCop rules with VS Code and AL-Go support, ready for daily AL development use",
+    "Future roadmap includes Azure DevOps extension, AI agent integration (Claude Code, GitHub Copilot), and potential MCP integration"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "code analysis",
+    "linting",
+    "devops integration",
+    "community project",
+    "tooling"
+  ],
+  "objects": [],
+  "features": [
+    "code analyzers for AL",
+    "VS Code extension",
+    "AL-Go support",
+    "Azure DevOps integration",
+    "AI agent integration"
+  ],
+  "versions": [
+    "0.5.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Starting fresh meant we could allow breaking changes without damaging existing setups.",
+      "why_it_matters": "Explains the strategic advantage of creating a new project rather than continuing LinterCop maintenance"
+    },
+    {
+      "text": "my focus will be on expanding DevOps integrations and exploring better interaction with agent-based AI tools like Claude Code and GitHub Copilot.",
+      "why_it_matters": "Indicates the emerging direction for ALCops toward AI and automation integration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/02/23/dynamics-365-business-central-download-symbols-from-microsofts-public-nuget-source/",
   "published_at": "2026-02-23T11:30:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:22.355Z",
+      "path": "vault:posts/demiliani-com/13442.md",
+      "words": 238
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:22.368Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:22.369Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:22.370Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:22.380Z",
+      "path": "content/posts/demiliani-com/13442.md"
     }
   },
   "input_hash": "2026-02-25T18:47:39.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44c66699d7638f22c0958b1d34c68ad0b194c2175b29d2c6a6a66270e2937f43"
 }

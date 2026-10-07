@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/02/20/agents-in-business-central-part-4-troubleshooting/",
   "published_at": "2026-02-20T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:26.939Z",
+      "path": "vault:posts/bertverbeek-nl/1263.md",
+      "words": 464
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:27.006Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:27.008Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:27.022Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:27.076Z",
+      "path": "content/posts/bertverbeek-nl/1263.md"
     }
   },
   "input_hash": "2026-02-19T12:31:20.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "234fa87eea91b285957e0741aba6a1749907096fb7f5cf1dc71ad6505e9b89c1"
 }

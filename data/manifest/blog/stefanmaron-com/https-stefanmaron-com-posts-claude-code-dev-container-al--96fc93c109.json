@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/claude-code-dev-container-al/",
   "published_at": "2026-02-20T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:22.935Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109.md",
+      "words": 1454
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:22.945Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:22.947Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:22.948Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:22.964Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd149f3b9047034548bf2d39e6f77b07a32190c6d8c00936598f6e95351e3462"
 }

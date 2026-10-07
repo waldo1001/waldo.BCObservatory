@@ -7,13 +7,39 @@
   "url": "https://www.vondervoort.be/index.php/2026/02/23/alcops-the-next-chapter-of-lintercop/",
   "published_at": "2026-02-23T18:39:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:21.912Z",
+      "path": "vault:posts/vondervoort-be/130.md",
+      "words": 646
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:21.931Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:21.933Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:21.933Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:21.944Z",
+      "path": "content/posts/vondervoort-be/130.md"
     }
   },
   "input_hash": "2026-02-23T18:39:34.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64e87fb41a3a5a8a9c43ded55136becc640f80ee3b41efbf71bbf4749eab0dae"
 }

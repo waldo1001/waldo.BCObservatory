@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/02/20/crafting-cards-with-ai-a-game-development-journey/",
   "published_at": "2026-02-20T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:22.705Z",
+      "path": "vault:posts/aardvarklabs-blog/3081.md",
+      "words": 500
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:22.712Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:22.713Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:22.714Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:22.723Z",
+      "path": "content/posts/aardvarklabs-blog/3081.md"
     }
   },
   "input_hash": "2026-02-05T04:25:49.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f72cfc03a6cac6e75a9958339f22746a5f44102ff9da958ce214b3f117eee137"
 }

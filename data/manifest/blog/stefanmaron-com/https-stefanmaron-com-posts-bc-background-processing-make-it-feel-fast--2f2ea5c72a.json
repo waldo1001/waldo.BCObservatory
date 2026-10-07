@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/",
   "published_at": "2026-02-24T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:21.831Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md",
+      "words": 1311
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:21.855Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:21.862Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:21.863Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:21.877Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f5fc5bbb12912bc47dd02d44727855501197e3b29efb10fdcb335c8eae22b82f"
 }

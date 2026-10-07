@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/bertverbeek-nl/1252",
+  "url": "https://www.bertverbeek.nl/blog/2026/02/18/agents-in-business-central-part-3-limiting-the-agent/",
+  "title": "Agents in Business Central – part 3 – limiting the agent",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-02-18T09:00:00.000Z",
+  "words": 616,
+  "summary": "This post explains how to control and limit agent behavior in Business Central by assigning a dedicated role center, restricting pages and fields, and setting up granular permission sets. It also clarifies the intersection model where agents operate with only the permissions shared between the triggering user and the agent itself.",
+  "key_points": [
+    "Agents run as dedicated users and must be secured like any other user with role centers, page restrictions, and custom permissions",
+    "Create custom role centers for agents to show only essential pages, parts, and actions needed for their tasks",
+    "Use AL page customization properties (ClearLayout, ClearActions, ClearViews) to hide unnecessary elements and reduce unexpected agent behavior",
+    "Agents execute with the intersection of their own permissions and the permissions of the user who triggered the task, preventing unauthorized actions"
+  ],
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "security",
+    "permissions",
+    "role center",
+    "agent control",
+    "user management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "pagecustomization"
+    }
+  ],
+  "features": [
+    "Agent role center assignment",
+    "Page customization for agents",
+    "Permission sets for agents",
+    "Field and action limitations",
+    "Agent task logging",
+    "Permission intersection model"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Agents operate as a dedicated user in Business Central, running tasks in separate sessions.",
+      "why_it_matters": "This clarifies that agents must be secured like regular users with appropriate role centers and permissions"
+    },
+    {
+      "text": "Business Central executes agent tasks with the intersection of the agent's permissions and the permissions of the last user who interacted with the task.",
+      "why_it_matters": "This is a critical security mechanism that prevents agents from performing actions the triggering user cannot perform"
+    },
+    {
+      "text": "Fewer fields and actions = fewer surprising scenarios = fewer unpredictable outcomes.",
+      "why_it_matters": "Explains the practical benefit of limiting agent page customization to ensure predictable and controlled behavior"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
