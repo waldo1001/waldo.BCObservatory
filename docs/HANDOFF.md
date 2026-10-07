@@ -113,11 +113,21 @@ Deliberate deviations from PLAN, all small:
   into 20,744 pages, `is:global` styles on the three components whose scoped `data-astro-cid-*` attributes cost
   10-31% of a page, and the version lens split into one page per transition behind a 15 KB index. 364 MB of real
   bytes, 18,067 pages, 17 s build.
-- ⚠️ The 2026-10-07 nightly (run 37547681311) failed: OOM, restart, then the leak gate blocked the recovery commit.
-  Nothing leaked to main; the gate did its job. The leak is fixed (D55) and the post-loop phases now log heap, so
-  the next OOM names its phase. The OOM itself is NOT diagnosed: it is somewhere after the item loop, and
-  loadObjectWorld, renderCodePages, refreshCodeDerived and the topic-link planning were all measured clean.
-  Read `phase ...` lines in the next run's log before looking anywhere else.
+- ⚠️ Two nightlies failed on 2026-10-07 (runs 37547681311 and 37551643134), both the same way: the heap ran out,
+  the wrapper restarted as designed, and the recovery commit hit the leak gate on
+  `content/posts/bertverbeek-nl/1252.md`. **Nothing leaked to main** — the gate did its job, and the checkpoint
+  gate also correctly skipped the one checkpoint that would have carried it. Three fixes went in afterwards:
+  - **D55** the leak: the page, not the serialized extraction, is now what the repeat guard checks, and the byline
+    moved between the title and the summary so the post's own words are never adjacent to ours. Note that pages
+    already published keep the old layout until their item is re-published; they are leak-clean either way.
+  - **D56** the OOM bound: a model call's output is capped at 64 MB, so a runaway `claude -p` stream fails that
+    call instead of the run. This is a bound, not a diagnosis.
+  - **D55** instrumentation: every post-loop phase logs `phase <name>: <ms>, heap <n> MB, rss <n> MB`. Both OOMs
+    grew from ~133 MB at the last checkpoint to 8 GB about 6m45s later with nothing logged in between.
+  The OOM is **not diagnosed**. Measured clean locally: loadObjectWorld 184 MB, renderCodePages 501 MB, a full
+  refreshCodeDerived recompute 30 MB, topic-link planning 39 MB, search index + objects index + graph 325 MB,
+  the localization prompts and schemas (biggest schema 12 KB). Read the `phase ...` lines of the next failing run
+  before looking anywhere else. Run 37554068906 was dispatched with all three fixes.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. Opus reviews them (D54, quota
   `topic_reviews` 15): `npm run review:topics -- --data <dir>` reviews a sample the linker wrote and prints every
