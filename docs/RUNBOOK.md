@@ -17,7 +17,7 @@ infra/mini/00-preflight.sh        # read-only report
 infra/mini/10-brew.sh             # uv only by default (no shared-library upgrades)
 infra/mini/20-worker-user.sh      # sudo: creates bcobs
 infra/mini/30-claude.sh           # installs claude for bcobs; asks for the setup-token (owner pastes)
-infra/mini/35-tools.sh            # sudo: yt-dlp + deno for bcobs via uv (keeps Jarvis's brew libraries untouched)
+infra/mini/35-tools.sh            # sudo: yt-dlp, deno, graphify-al for bcobs via uv (keeps Jarvis's brew libraries untouched)
 infra/mini/40-runner.sh <token>   # registration token from: gh api -X POST repos/waldo1001/waldo.BCObservatory/actions/runners/registration-token -q .token
 infra/mini/50-daemon.sh           # sudo: LaunchDaemon com.bcobservatory.runner
 infra/mini/60-vault.sh            # clones the private vault with the deploy key
@@ -80,6 +80,23 @@ a `claude setup-token` token returns `unavailable:scope`.
   For extractor 4: `grep -c '"controls":\[{' data/code/30/apps/objects-page-1.jsonl` is about 1,400 (BC30 apps, measured on a scratch run).
 - Until a major is re-extracted its records lack the new members; readers must not depend on them. Version and
   country diffs ignore page controls and actions, so they do not churn while majors are at different extractors.
+
+## Local development (developer Mac)
+
+```bash
+uv tool install --python 3.12 "graphifyy[al] @ git+https://github.com/StefanMaron/graphify-al@<ref>"   # spec from config/tooling.json
+uv tool list --show-version-specifiers | grep graphify   # shows the pinned rev
+BCOBS_CACHE_DIR=$HOME/.cache/bcobs npm run nightly -- --dry-run --pillars code   # the fetch stage creates the sparse checkout
+uv tool uninstall graphifyy   # to remove
+```
+
+## Atlas in your own Claude Code
+
+- `claude mcp add --transport http bc-code-atlas https://bc-code-atlas.stefanmaron.dev/mcp` (user scope), or install
+  the plugin, which connects it next to `bc-observatory`; `claude mcp remove bc-code-atlas` undoes it. VS Code:
+  `.vscode/mcp.json` with `{"servers": {"bc-code-atlas": {"type": "http", "url": "https://bc-code-atlas.stefanmaron.dev/mcp"}}}`.
+- Etiquette (D67 decision 1): it is one person's server. Resolve, don't search; one or two calls per question; never
+  `bcatlas_request_version` unasked. Nothing scheduled (nightly, selfcheck, workflows) ever calls it.
 
 ## Recovery
 

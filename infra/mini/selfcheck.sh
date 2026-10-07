@@ -7,6 +7,7 @@ ENV_FILE="${BCOBS_ENV_FILE:-$HOME/.config/bcobservatory/env}"
 export PATH="$HOME/.local/bin:/opt/homebrew/opt/node@22/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$(dirname "$0")/../.."
 pin="$(node -p "require('./config/tooling.json').claude_code.pin ?? ''")"
+graphify_ref="$(node -p "require('./config/tooling.json').graphify_al?.ref ?? ''")"
 fail=0
 check() { local name="$1"; shift; local out; if out="$("$@" 2>&1)"; then echo "ok    $name: $(echo "$out" | tail -1)"; else echo "FAIL  $name:"; echo "$out" | tail -5 | sed 's/^/      /'; fail=1; fi; }
 withenv() { ( set -a; . "$ENV_FILE"; set +a; [[ -z "${ANTHROPIC_API_KEY:-}" ]] || { echo "ANTHROPIC_API_KEY is set" >&2; exit 1; }; bash -c "$1" ); }
@@ -16,6 +17,8 @@ check "node" node -v
 check "claude version" bash -c "v=\$(claude --version | cut -d' ' -f1); [[ -z '$pin' || \$v == '$pin' ]] && echo \$v || { echo \"claude \$v, pinned $pin\"; exit 1; }"
 check "yt-dlp" yt-dlp --version
 check "deno" bash -c 'set -o pipefail; deno --version | head -1'
+# D67: the call graph's tool, installed by 35-tools.sh at the ref tooling.json pins (uv tool list shows the git rev)
+check "graphify-al" bash -c "v=\$(graphify --version) && { [[ -z '$graphify_ref' ]] || uv tool list --show-version-specifiers | grep -q '$graphify_ref' || { echo \"\$v, not at the pinned $graphify_ref\"; exit 1; }; } && echo \"\$v @ ${graphify_ref:0:12}\""
 check "env file mode" bash -c "[[ \$(stat -f %Lp '$ENV_FILE') == 600 ]] && echo 600"
 check "npm ci (no scripts, no secrets)" bash -c 'npm ci --ignore-scripts --no-audit --no-fund --silent && echo installed'
 check "claude -p ping" withenv "npm run -s llm:ping"
