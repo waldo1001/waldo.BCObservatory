@@ -6,10 +6,35 @@
   "title": "Expose AppService location and EUDB membership on Environment Information for internal consumption",
   "url": "https://github.com/microsoft/BCApps/pull/9716",
   "published_at": "2026-07-28T16:28:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:13.685Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:18.467Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003356
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:18.606Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:18.612Z",
+      "path": "content/changes/bcapps/9716.md"
     }
   },
   "input_hash": "ebd4f6c0309aa022fc8ab99c118a430019c8d3fa:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expose appservice location and eudb membership on environment information for internal consumption"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b638188097107a6a8936c74e0a0a6e23807c1d333a3556f642829639fe16fd2"
 }

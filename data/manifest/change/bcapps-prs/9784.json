@@ -6,10 +6,35 @@
   "title": "[E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E",
   "url": "https://github.com/microsoft/BCApps/pull/9784",
   "published_at": "2026-07-29T08:34:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:04.305Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:12.187Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005246
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:12.403Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:12.408Z",
+      "path": "content/changes/bcapps/9784.md"
     }
   },
   "input_hash": "eaf156e51958ba29644a83b8c992a8bc4eb60ff8:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document formats fix defects in v2 draft migration for xrechnung pint a nz and factura e"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "88c3179d556b20288c79fa6ae5007de73d0fbba8b9655809330ee423b18257a2"
 }

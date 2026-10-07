@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9582",
+  "number": 9582,
+  "title": "636017 Move Inventory report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "development",
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Report action tooltips for 11 inventory reports are moved from page actions to the report objects themselves, removing duplicate tooltip definitions across pages and role centers in the W1 and country layers.",
+  "key_points": [
+    "11 inventory reports now have tooltips defined at the report level instead of on page actions",
+    "Duplicate tooltip definitions removed from 7 pages and role centers across multiple country layers",
+    "Leverages the 2025 release wave 1 feature for running objects to inherit UI descriptors from target objects",
+    "Inventory area report action tooltips migration is now complete",
+    "Changes are metadata and tooltip only with no functional behavior differences"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "The tooltip is now defined once on the report and applies wherever the report is invoked.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011018,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9311",
+  "number": 9311,
+  "title": "Withholding Tax for Employee",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Withholding tax support for employee transactions has been added, allowing users to calculate and track employee-related withholding taxes similar to existing purchase-based functionality with new employee setup tables, calculation logic, and ledger entries.",
+  "key_points": [
+    "New employee withholding tax feature with setup tables including groups, group lines, and threshold accumulators",
+    "Employee withholding calculation codeunit for transaction processing and subscriber patterns",
+    "Extended employee card and employee ledger entry to support withholding tax tracking",
+    "Withholding tax posting setup extended to support both purchase and expense transactions",
+    "Permission sets updated to include new employee-related withholding tax objects"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011163,
+    "changes_in_call": 1
+  }
+}

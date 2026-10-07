@@ -6,7 +6,7 @@
   "title": "Add maxlength for updated and new countries",
   "url": "https://github.com/microsoft/BCApps/pull/9800",
   "published_at": "2026-07-29T08:55:50Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "add maxlength for updated and new countries"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:15:02.853Z",
+  "retry_after": null
 }

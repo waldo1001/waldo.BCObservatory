@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9441,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9441",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T13:28:39Z",
+  "merge_commit_sha": "aab43577a8bdb91e44603d4552bf670630d464c9",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30337: add OnCreateProdOrderLineOnBeforeCreateProdOrderLineFromItem event",
+  "body_hash": "467d283928c4ab47e1dc67053154677bd0108821e1d7c8d9d26ee7d64c3d0431",
+  "fixes_issues": [],
+  "work_items": [
+    641918
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CreateProdOrderLines.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 15,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 28,
+    "deletions": 15,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CreateProdOrderLines.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000787",
+        "type": "codeunit",
+        "id": 99000787,
+        "name": "Create Prod. Order Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000787"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

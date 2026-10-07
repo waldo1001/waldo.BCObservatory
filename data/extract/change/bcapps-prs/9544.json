@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9544",
+  "number": 9544,
+  "title": "636017 Move CRM report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm",
+    "development",
+    "sales"
+  ],
+  "summary": "CRM report action tooltips are moved from page actions to report objects, and this change is propagated across all country forks to maintain consistency.",
+  "key_points": [
+    "16 CRM reports now have tooltips defined at the report level instead of on page actions",
+    "Duplicate tooltips removed from page actions in W1 and all country forks",
+    "Change applied to all country layers including APAC, BE, CH, DACH, NA, NL, NO, and RU",
+    "Tooltips are now defined once and apply wherever reports are invoked",
+    "Metadata-only change with no runtime behavior impact"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": "Moves the report action ToolTips for the CRM / Marketing reports off the page actions that run them and onto the report objects themselves.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010725,
+    "changes_in_call": 1
+  }
+}

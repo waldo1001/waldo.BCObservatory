@@ -6,10 +6,35 @@
   "title": "636017 Move CRM report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9544",
   "published_at": "2026-07-29T06:50:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:07.018Z",
+      "change_class": "code",
+      "files": 41,
+      "al": 41,
+      "objects": 29,
+      "unjoined": 12
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:12.767Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.010725
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:12.973Z",
+      "objects": 29,
+      "unjoined": 12,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:12.984Z",
+      "path": "content/changes/bcapps/9544.md"
     }
   },
   "input_hash": "d86ecf324ac3682e1d2394fb3ba0425a4b95de24:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move crm report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df18d326888380f3098a0efd41fa156d54fb57516f44de1b7cae54855846217b"
 }

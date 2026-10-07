@@ -1,0 +1,193 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9433,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9433",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T21:10:12Z",
+  "merge_commit_sha": "5cc65460790be3d24fcb035a13bd432b5098a77f",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Item Price List and Res. Price List report action tooltip…",
+  "body_hash": "17026330e55dc3a25e94ee2fec68052905e62df0abef37045bacd09948c0fc7d",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Pricing/Reports/ItemPriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Pricing/Reports/ResPriceList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 2,
+    "deletions": 8,
+    "al": 10
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "key": "page/31",
+        "type": "page",
+        "id": 31,
+        "name": "Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/31"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Pricing/Reports/ItemPriceList.Report.al",
+        "status": "modified",
+        "key": "report/7050",
+        "type": "report",
+        "id": 7050,
+        "name": "Item Price List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7050"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Pricing/Reports/ResPriceList.Report.al",
+        "status": "modified",
+        "key": "report/7054",
+        "type": "report",
+        "id": 7054,
+        "name": "Res. Price List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7054"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+        "status": "modified",
+        "key": "page/77",
+        "type": "page",
+        "id": 77,
+        "name": "Resource List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/77"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Resources/Resource/ResourceList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "inventory",
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9788",
+  "number": 9788,
+  "title": "[Master]-Incorrect Reservation Split Generated After Replanning a Replenishment Production Order Created by MRP Planning Run",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed incorrect reservation splits when replanning production orders with multiple component lines using the same item. The fix rebuilds the reservation split instead of only adjusting the delta.",
+  "key_points": [
+    "Resolves issue where replanning kept old reservation splits and only adjusted deltas",
+    "Adds event subscriber OnAfterShouldDeleteReservEntry in manufacturing layer",
+    "Handles cases with same component item on multiple production order lines",
+    "No schema changes required",
+    "Includes test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "replanning kept the old reservation split and only adjusted the delta, producing an incorrect reserved quantity per line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003235,
+    "changes_in_call": 1
+  }
+}

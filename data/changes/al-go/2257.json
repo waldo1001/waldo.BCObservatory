@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2257,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2257",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-29T07:23:44Z",
+  "merge_commit_sha": "252b22276a1e3c495a2ab8c8167cdd6a84cb3bbb",
+  "author": "FreundDK",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Test Result Analyzer fails if no stack trace is available",
+  "body_hash": "e100995a4612910d5f4119f69a554de3900fec9bc6945616bba8956a8bfa8644",
+  "fixes_issues": [
+    2256
+  ],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 2256,
+      "title": "[Bug]: Test Result Analyzer fails if no stack trace is available",
+      "state": "closed"
+    }
+  ]
+}

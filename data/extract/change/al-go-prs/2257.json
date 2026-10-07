@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2257",
+  "number": 2257,
+  "title": "Test Result Analyzer fails if no stack trace is available",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed Test Result Analyzer to handle XML elements without stack traces by using InnerText instead of the potentially null text property.",
+  "key_points": [
+    "Switched from #Text to InnerText for XML element content retrieval",
+    "Prevents null reference errors when analyzing test results with empty stack traces",
+    "Ensures the analyzer handles edge cases in test failure reporting",
+    "Uses safer XML property access pattern"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "TestResultAnalyzer uses \"#Text\", which might be null instead of InnerText",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003143,
+    "changes_in_call": 1
+  }
+}

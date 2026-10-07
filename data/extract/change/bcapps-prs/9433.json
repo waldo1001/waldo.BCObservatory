@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9433",
+  "number": 9433,
+  "title": "636017 Move Item Price List and Res. Price List report action tooltip…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "inventory",
+    "projects"
+  ],
+  "summary": "Report action tooltips for Item Price List and Res. Price List reports are moved from page actions to the report objects themselves, consolidating the tooltip definition to a single location.",
+  "key_points": [
+    "Tooltip text moved from Item List and Resource List page actions to their corresponding report objects",
+    "Duplicate tooltip removed from page actions in W1 and country-layer variants",
+    "No runtime behavior change; tooltip content remains identical to users",
+    "Part of ongoing cleanup to centralize report action tooltips",
+    "Metadata-only change with low risk"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004174,
+    "changes_in_call": 1
+  }
+}

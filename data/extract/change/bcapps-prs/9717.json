@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9717",
+  "number": 9717,
+  "title": "Fix internal admin losing SUPER during customized plan provisioning",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Internal tenant administrators no longer lose SUPER permission set when their customized plan configuration omits it during first-time provisioning, preventing accidental lockout.",
+  "key_points": [
+    "Added IsUserInternalAdmin helper to check Global Admin, Dynamics 365 Admin, and BC Admin plans",
+    "Applied internal-admin exemption to customized plan branch where it was previously bypassed",
+    "Delegated admins intentionally excluded from exemption as their SUPER is governed separately",
+    "Added six comprehensive tests covering various admin and user scenarios with customized plans",
+    "Default plan behavior and existing users remain unaffected"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004209,
+    "changes_in_call": 1
+  }
+}

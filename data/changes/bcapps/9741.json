@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9741,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9741",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T12:47:29Z",
+  "merge_commit_sha": "5e3b7ae9e109afc2ec738858c2755801dcfaa4b3",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Subcontracting] Bug 638816: Preserve Transfer WIP Item flag when toggling off Direct Transfer without a transit route",
+  "body_hash": "01bd0f5688d2f5b066343373330aef98f69e27b7ea21a0789ab7589a4260a437",
+  "fixes_issues": [],
+  "work_items": [
+    638816
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferLineExt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPTransCreateTest.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 72,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Transfer/SubcTransferLineExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20544",
+        "type": "codeunit",
+        "id": 20544,
+        "name": "Subc. Transfer Line Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20544"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

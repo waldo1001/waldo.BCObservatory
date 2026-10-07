@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9609",
+  "number": 9609,
+  "title": "Bug 642555: [master] [NL] SEPA Direct Debit Export (Report 11000015 – pain.008.001.08) exports unstructured address instead of structured",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The SEPA Direct Debit export now formats debtor, creditor, and related addresses as structured XML elements with street, postal code, town, and country instead of a single unstructured text line, as required by banks.",
+  "key_points": [
+    "Address elements now exported as structured XML fields (<StrtNm>, <PstCd>, <TwnNm>, <Ctry>) instead of unstructured <AdrLine>",
+    "Applies to debtor, creditor, ultimate creditor, and ultimate debtor addresses",
+    "Each address element is only written when it contains a value",
+    "Aligns Dutch SEPA Direct Debit export with bank requirements"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Banks require the address to be provided in structured form.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003546,
+    "changes_in_call": 1
+  }
+}

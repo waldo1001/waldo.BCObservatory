@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9741",
+  "number": 9741,
+  "title": "[Subcontracting] Bug 638816: Preserve Transfer WIP Item flag when toggling off Direct Transfer without a transit route",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed a bug where toggling off Direct Transfer on a Subcontracting Transfer Order with a WIP item and no transfer route caused an error. The Transfer WIP Item flag is now properly preserved during the toggle operation.",
+  "key_points": [
+    "The Transfer WIP Item flag was being reset when Direct Transfer was toggled off and no transfer route existed",
+    "The fix restores the Transfer WIP Item field alongside other Subcontracting fields during the copy operation",
+    "Previously added guard logic now correctly skips redundant re-validation in all toggle scenarios",
+    "Added test case covering the scenario without a transit route",
+    "Existing toggle tests continue to pass"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004098,
+    "changes_in_call": 1
+  }
+}

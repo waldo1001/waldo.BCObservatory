@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9716",
+  "number": 9716,
+  "title": "Expose AppService location and EUDB membership on Environment Information for internal consumption",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Environment Information now exposes App Service location and EU Data Boundary membership status for internal use, restricted to Microsoft-published callers and returning defaults outside SaaS.",
+  "key_points": [
+    "Two new procedures added to expose AppService location and EUDB membership",
+    "Both procedures restricted to Microsoft-published callers only",
+    "Returns empty location and false EUDB status when outside SaaS infrastructure",
+    "Includes partner and standard test coverage for the new functionality",
+    "IsApplicationServiceInEUDB() returns false when outside EUDB or information unavailable"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003356,
+    "changes_in_call": 1
+  }
+}

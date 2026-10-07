@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9673",
+  "number": 9673,
+  "title": "Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment reconciliation journal posting now rounds imported bank fee amounts according to the posting currency's amount rounding precision to prevent posting failures.",
+  "key_points": [
+    "Bank fee amounts are rounded before being copied to the general journal",
+    "Rounding follows the posting currency's configured precision rules",
+    "Fixes posting failures when imported amounts don't match the expected rounding precision",
+    "Test coverage added for local currency, foreign currency, and edge cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Round payment reconciliation amounts according to the posting currency's amount rounding precision before posting.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003437,
+    "changes_in_call": 1
+  }
+}

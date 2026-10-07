@@ -6,10 +6,35 @@
   "title": "[FI] Obsolete unused 'Print on Invoice' VAT setting",
   "url": "https://github.com/microsoft/BCApps/pull/9352",
   "published_at": "2026-07-28T16:33:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:12.603Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 2,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:18.617Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": false,
+      "cost_usd": 0.004441
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:18.804Z",
+      "objects": 2,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:18.810Z",
+      "path": "content/changes/bcapps/9352.md"
     }
   },
   "input_hash": "4ed4488ba8239fa1ad154af6fa0379fbfa7bba3a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fi obsolete unused print on invoice vat setting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83a735ed15e61009f1df16a46b6d08f2cd9e9b54620201acbfb35704e8290774"
 }

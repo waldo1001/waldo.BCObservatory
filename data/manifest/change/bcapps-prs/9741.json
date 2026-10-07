@@ -6,10 +6,25 @@
   "title": "[Subcontracting] Bug 638816: Preserve Transfer WIP Item flag when toggling off Direct Transfer without a transit route",
   "url": "https://github.com/microsoft/BCApps/pull/9741",
   "published_at": "2026-07-28T12:47:29Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:15.838Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:22.955Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004098
     }
   },
   "input_hash": "5e3b7ae9e109afc2ec738858c2755801dcfaa4b3:c1",
@@ -30,5 +45,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting bug 638816 preserve transfer wip item flag when toggling off direct transfer without a transit route"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9acc19329b46aea649b02066fbcc8f96951044c919771534239b4210e9732137"
 }

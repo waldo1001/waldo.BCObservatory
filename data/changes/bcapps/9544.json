@@ -1,0 +1,715 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9544,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9544",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T06:50:06Z",
+  "merge_commit_sha": "d86ecf324ac3682e1d2394fb3ba0425a4b95de24",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move CRM report action tooltips to report objects",
+  "body_hash": "3c3e855c73fb43e8d0dec18997eab5699ad6374bbc8b236d55b4c1e57783b7b9",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/CRM/Contact/ContactList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/CRM/Reports/ContactLabels.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/CRM/Contact/CreateContsfromVendors.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignCard.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Campaign/DeleteCampaignEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Contact/ContactList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromBankAccs.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromCustomers.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromVendors.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Interaction/DeleteInteractionLogEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Interaction/InteractionLogEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Interaction/RelocateAttachments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Opportunity/DeleteOpportunities.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Opportunity/OpportunityEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/CampaignDetails.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/ContactLabels.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/QuestionnaireHandouts.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/SalesCycleAnalysis.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/SalespersonOpportunities.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/SalespersonTasks.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Reports/TeamTasks.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Segment/DeleteLoggedSegments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Segment/LoggedSegments.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Task/DeleteTasks.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Task/TaskList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Team/Teams.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 41,
+    "additions": 18,
+    "deletions": 57,
+    "al": 41
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignCard.Page.al",
+        "status": "modified",
+        "key": "page/5086",
+        "type": "page",
+        "id": 5086,
+        "name": "Campaign Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5086"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignEntries.Page.al",
+        "status": "modified",
+        "key": "page/5089",
+        "type": "page",
+        "id": 5089,
+        "name": "Campaign Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5089"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Campaign/CampaignList.Page.al",
+        "status": "modified",
+        "key": "page/5087",
+        "type": "page",
+        "id": 5087,
+        "name": "Campaign List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5087"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Campaign/DeleteCampaignEntries.Report.al",
+        "status": "modified",
+        "key": "report/5189",
+        "type": "report",
+        "id": 5189,
+        "name": "Delete Campaign Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5189"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Contact/ContactList.Page.al",
+        "status": "modified",
+        "key": "page/5052",
+        "type": "page",
+        "id": 5052,
+        "name": "Contact List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5052"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromBankAccs.Report.al",
+        "status": "modified",
+        "key": "report/5193",
+        "type": "report",
+        "id": 5193,
+        "name": "Create Conts. from Bank Accs.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5193"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromCustomers.Report.al",
+        "status": "modified",
+        "key": "report/5195",
+        "type": "report",
+        "id": 5195,
+        "name": "Create Conts. from Customers",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5195"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Contact/CreateContsfromVendors.Report.al",
+        "status": "modified",
+        "key": "report/5194",
+        "type": "report",
+        "id": 5194,
+        "name": "Create Conts. from Vendors",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5194"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Interaction/DeleteInteractionLogEntries.Report.al",
+        "status": "modified",
+        "key": "report/5190",
+        "type": "report",
+        "id": 5190,
+        "name": "Delete Interaction Log Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5190"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Interaction/InteractionLogEntries.Page.al",
+        "status": "modified",
+        "key": "page/5076",
+        "type": "page",
+        "id": 5076,
+        "name": "Interaction Log Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5076"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Interaction/RelocateAttachments.Report.al",
+        "status": "modified",
+        "key": "report/5181",
+        "type": "report",
+        "id": 5181,
+        "name": "Relocate Attachments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5181"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Opportunity/DeleteOpportunities.Report.al",
+        "status": "modified",
+        "key": "report/5182",
+        "type": "report",
+        "id": 5182,
+        "name": "Delete Opportunities",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5182"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Opportunity/OpportunityEntries.Page.al",
+        "status": "modified",
+        "key": "page/5130",
+        "type": "page",
+        "id": 5130,
+        "name": "Opportunity Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5130"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/CampaignDetails.Report.al",
+        "status": "modified",
+        "key": "report/5060",
+        "type": "report",
+        "id": 5060,
+        "name": "Campaign - Details",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5060"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/ContactLabels.Report.al",
+        "status": "modified",
+        "key": "report/5056",
+        "type": "report",
+        "id": 5056,
+        "name": "Contact - Labels",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5056"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/QuestionnaireHandouts.Report.al",
+        "status": "modified",
+        "key": "report/5066",
+        "type": "report",
+        "id": 5066,
+        "name": "Questionnaire - Handouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5066"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/SalesCycleAnalysis.Report.al",
+        "status": "modified",
+        "key": "report/5062",
+        "type": "report",
+        "id": 5062,
+        "name": "Sales Cycle - Analysis",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5062"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/SalespersonOpportunities.Report.al",
+        "status": "modified",
+        "key": "report/5058",
+        "type": "report",
+        "id": 5058,
+        "name": "Salesperson - Opportunities",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5058"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/SalespersonTasks.Report.al",
+        "status": "modified",
+        "key": "report/5057",
+        "type": "report",
+        "id": 5057,
+        "name": "Salesperson - Tasks",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5057"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Reports/TeamTasks.Report.al",
+        "status": "modified",
+        "key": "report/5059",
+        "type": "report",
+        "id": 5059,
+        "name": "Team - Tasks",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5059"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+        "status": "modified",
+        "key": "page/9026",
+        "type": "page",
+        "id": 9026,
+        "name": "Sales & Relationship Mgr. RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9026"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Segment/DeleteLoggedSegments.Report.al",
+        "status": "modified",
+        "key": "report/5191",
+        "type": "report",
+        "id": 5191,
+        "name": "Delete Logged Segments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5191"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Segment/LoggedSegments.Page.al",
+        "status": "modified",
+        "key": "page/5139",
+        "type": "page",
+        "id": 5139,
+        "name": "Logged Segments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5139"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Task/DeleteTasks.Report.al",
+        "status": "modified",
+        "key": "report/5188",
+        "type": "report",
+        "id": 5188,
+        "name": "Delete Tasks",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5188"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Task/TaskList.Page.al",
+        "status": "modified",
+        "key": "page/5096",
+        "type": "page",
+        "id": 5096,
+        "name": "Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5096"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Team/Teams.Page.al",
+        "status": "modified",
+        "key": "page/5105",
+        "type": "page",
+        "id": 5105,
+        "name": "Teams",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5105"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9018",
+        "type": "page",
+        "id": 9018,
+        "name": "Administrator Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9005",
+        "type": "page",
+        "id": 9005,
+        "name": "Sales Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9005"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+        "status": "modified",
+        "key": "page/9035",
+        "type": "page",
+        "id": 9035,
+        "name": "Data Administration",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9035"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/CRM/Contact/ContactList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/CRM/Reports/ContactLabels.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/CRM/RoleCenters/SalesRelationshipMgrRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/SalesManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/CRM/Contact/CreateContsfromVendors.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "crm",
+    "development",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

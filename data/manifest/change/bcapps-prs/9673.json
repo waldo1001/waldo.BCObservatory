@@ -6,10 +6,35 @@
   "title": "Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts",
   "url": "https://github.com/microsoft/BCApps/pull/9673",
   "published_at": "2026-07-29T00:39:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:08.102Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:12.992Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003437
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:13.155Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:13.160Z",
+      "path": "content/changes/bcapps/9673.md"
     }
   },
   "input_hash": "565aee33089ba3d336c3a4c7d0290d124a1dbdbb:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 643235 payment reconciliation journal does not round imported bank fee amounts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df4bc0de8f3688e082c3e44c80f3644f20c630219991e4acedaddec9d432eabb"
 }

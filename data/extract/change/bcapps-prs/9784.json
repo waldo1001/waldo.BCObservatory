@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9784",
+  "number": 9784,
+  "title": "[E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed defects in V2 draft migration for XRechnung, PINT A-NZ, and Factura-E e-document formats, including incorrect reset logic, dead fallback code, and missing field mappings for purchase line matching.",
+  "key_points": [
+    "XRechnung: ResetDraft was not called from ReadIntoDraft, causing duplicate lines on re-runs; added root element validation to reject unsupported documents",
+    "PINT A-NZ: VendorParticipantId and vendor address fields were passed by value instead of by reference, making vendor-matching fallbacks unreachable; credit notes missing billing reference mapping",
+    "Factura-E: Corrective invoice number incorrectly mapped to Purchase Order No instead of Applies-to Ext. Invoice No, preventing credit memo matching",
+    "Added three regression tests for XRechnung mirroring OIOUBL test patterns",
+    "Aligns migration defects with DK OIOUBL reference implementation standards"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005246,
+    "changes_in_call": 1
+  }
+}

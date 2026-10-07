@@ -6,10 +6,35 @@
   "title": "636017 Move Inventory report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9582",
   "published_at": "2026-07-29T08:18:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:15:05.730Z",
+      "change_class": "code",
+      "files": 63,
+      "al": 63,
+      "objects": 19,
+      "unjoined": 44
+    },
+    "extracted": {
+      "at": "2026-10-07T13:15:11.961Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.011018
+    },
+    "linked": {
+      "at": "2026-10-07T13:15:12.172Z",
+      "objects": 19,
+      "unjoined": 44,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:15:12.183Z",
+      "path": "content/changes/bcapps/9582.md"
     }
   },
   "input_hash": "edc053f684455a9c4c8e937deee366104150d6fa:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move inventory report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "430573c5cabf4b10496b959ea607e3814f9674a975a4702b10c012333a47afdf"
 }

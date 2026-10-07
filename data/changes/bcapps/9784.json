@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9784,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9784",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T08:34:17Z",
+  "merge_commit_sha": "eaf156e51958ba29644a83b8c992a8bc4eb60ff8",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E",
+  "body_hash": "daf0b855e860e667507fa502cfbb4a1a7650548f5648568b49b6409e75443b35",
+  "fixes_issues": [],
+  "work_items": [
+    644279
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/APAC/EDocumentFormats/PINT A-NZ/app/src/Core/EDocumentPINTANZHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/APAC/EDocumentFormats/PINT A-NZ/app/src/Core/PINTANZImport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/EDocumentXRechnungHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungStructuredTests.Codeunit.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/ES/EDocumentFormats/FacturaE/app/src/Core/EDocumentFacturaEHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 90,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/EDocumentXRechnungHandler.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

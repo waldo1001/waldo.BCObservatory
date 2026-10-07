@@ -1,0 +1,921 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9582,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9582",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-29T08:18:27Z",
+  "merge_commit_sha": "edc053f684455a9c4c8e937deee366104150d6fa",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Inventory report action tooltips to report objects",
+  "body_hash": "2c29b13a337a944bdc6f10930862490c07aca0aee7934ca9e037bea8cdad9018",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Reports/ItemVendorCatalog.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Location/StockkeepingUnitList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryAvailability.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryCustomerSales.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryOrderDetails.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryPurchaseOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventorySalesBackOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryTop10List.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryTransactionDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryVendorPurchases.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemExpirationQuantity.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemVendorCatalog.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 63,
+    "additions": 13,
+    "deletions": 111,
+    "al": 63
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Reports/ItemVendorCatalog.Report.al",
+        "status": "modified",
+        "key": "report/10164",
+        "type": "report",
+        "id": 10164,
+        "name": "Item/Vendor Catalog",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10164-ca"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "key": "page/31",
+        "type": "page",
+        "id": 31,
+        "name": "Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/31"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Location/StockkeepingUnitList.Page.al",
+        "status": "modified",
+        "key": "page/5701",
+        "type": "page",
+        "id": 5701,
+        "name": "Stockkeeping Unit List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5701"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryAvailability.Report.al",
+        "status": "modified",
+        "key": "report/705",
+        "type": "report",
+        "id": 705,
+        "name": "Inventory Availability",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/705"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryCustomerSales.Report.al",
+        "status": "modified",
+        "key": "report/713",
+        "type": "report",
+        "id": 713,
+        "name": "Inventory - Customer Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/713"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryOrderDetails.Report.al",
+        "status": "modified",
+        "key": "report/708",
+        "type": "report",
+        "id": 708,
+        "name": "Inventory Order Details",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/708"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryPurchaseOrders.Report.al",
+        "status": "modified",
+        "key": "report/709",
+        "type": "report",
+        "id": 709,
+        "name": "Inventory Purchase Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/709"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventorySalesBackOrders.Report.al",
+        "status": "modified",
+        "key": "report/718",
+        "type": "report",
+        "id": 718,
+        "name": "Inventory - Sales Back Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/718"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryTop10List.Report.al",
+        "status": "modified",
+        "key": "report/711",
+        "type": "report",
+        "id": 711,
+        "name": "Inventory - Top 10 List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/711"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryTransactionDetail.Report.al",
+        "status": "modified",
+        "key": "report/704",
+        "type": "report",
+        "id": 704,
+        "name": "Inventory - Transaction Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/704"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/InventoryVendorPurchases.Report.al",
+        "status": "modified",
+        "key": "report/714",
+        "type": "report",
+        "id": 714,
+        "name": "Inventory - Vendor Purchases",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/714"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+        "status": "modified",
+        "key": "report/5808",
+        "type": "report",
+        "id": 5808,
+        "name": "Item Age Composition - Value",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5808"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemExpirationQuantity.Report.al",
+        "status": "modified",
+        "key": "report/5809",
+        "type": "report",
+        "id": 5809,
+        "name": "Item Expiration - Quantity",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5809"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemVendorCatalog.Report.al",
+        "status": "modified",
+        "key": "report/720",
+        "type": "report",
+        "id": 720,
+        "name": "Item/Vendor Catalog",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/720"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+        "status": "modified",
+        "key": "page/291",
+        "type": "page",
+        "id": 291,
+        "name": "Req. Worksheet",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/291"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9007",
+        "type": "page",
+        "id": 9007,
+        "name": "Purchasing Agent Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9007"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "key": "page/9020",
+        "type": "page",
+        "id": 9020,
+        "name": "Small Business Owner RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9006",
+        "type": "page",
+        "id": 9006,
+        "name": "Order Processor Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9006"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Requisition/ReqWorksheet.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/RoleCenters/OrderProcessorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/SmallBusinessOwnerRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory",
+    "development",
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

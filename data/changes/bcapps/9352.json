@@ -1,0 +1,113 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9352,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9352",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-28T16:33:15Z",
+  "merge_commit_sha": "4ed4488ba8239fa1ad154af6fa0379fbfa7bba3a",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FI] Obsolete unused 'Print on Invoice' VAT setting",
+  "body_hash": "a5289b5d8d921e8da7aed2be2c1ceffe77c7cc6d87374b16cc5669ae6b9eddf4",
+  "fixes_issues": [],
+  "work_items": [
+    622873
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATBusinessPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATBusinessPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATProductPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATProductPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/VATEXPReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 42,
+    "deletions": 0,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATBusinessPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/323",
+        "type": "table",
+        "id": 323,
+        "name": "VAT Business Posting Group",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/323"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATProductPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/324",
+        "type": "table",
+        "id": 324,
+        "name": "VAT Product Posting Group",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/324"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATBusinessPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/VAT/Setup/VATProductPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

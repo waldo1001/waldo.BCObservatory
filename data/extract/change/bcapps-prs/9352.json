@@ -1,0 +1,43 @@
+{
+  "item_id": "change/bcapps-prs/9352",
+  "number": 9352,
+  "title": "[FI] Obsolete unused 'Print on Invoice' VAT setting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The unused 'Print on Invoice' VAT field on VAT posting groups is marked obsolete on the pending-to-removed cycle, with no behavioral impact until final removal in a future version.",
+  "key_points": [
+    "Field 13400 marked as Pending obsolete on VAT Business Posting Group (323) and VAT Product Posting Group (324)",
+    "Corresponding UI controls on pages 470 and 471 marked as Pending obsolete",
+    "Test codeunit 144017 guarded by CLEAN29 flag since it only exercises the deprecated field",
+    "No data migration needed as the field contains no meaningful data and is consumed nowhere",
+    "Field will be fully removed at CLEANSCHEMA32 after the Pending cycle completes"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "VAT Business Posting Group",
+      "member": "Print on Invoice",
+      "replacement": null
+    },
+    {
+      "object": "VAT Product Posting Group",
+      "member": "Print on Invoice",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004441,
+    "changes_in_call": 1
+  }
+}
