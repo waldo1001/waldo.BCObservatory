@@ -4,13 +4,13 @@
   "summary": "Business Central E-Documents enhancements in 2025 release wave 1: deleting incorrect e-documents, two-step processing with preview of incoming invoices, automatic PDF extraction and attachment, and embedding a PDF in XML export. Azure Document Intelligence for PDF OCR is in preview.",
   "overview": "The video walks through the e-documents journey and the features added in 2025 release wave 1. Several are demoed: deleting incorrect e-documents, two-step processing with a preview before the purchase invoice is created, PDF extraction into the fact box, and embedding the invoice PDF in the XML export.\n\nIt also covers sending via a service and email in parallel, attaching multiple incoming documents at once, recreating accidentally deleted purchase documents, and exporting reminders and Finance charge information. Azure Document Intelligence, an OCR service embedded in Business Central, is in preview and will get a separate session. The presenters say some features arrive in April and others in May or June, and that more than 50% are based on feedback.",
   "key_points": [
-    "Incorrect e-documents can be deleted, and the system can recognize and remove duplicates. Documents deleted this way may not be retrievable if they came from an external service.",
-    "Two-step processing lets users preview lines and extracted data of an incoming e-invoice before the purchase invoice is created.",
-    "On receipt, PDFs are extracted from the payload and shown in the e-document fact box. On sending sales invoices, the invoice PDF is attached automatically.",
-    "The invoice PDF can be embedded in the XML export. Receivers using Business Central see the printed version in the fact box.",
+    "Incorrect e-documents can be deleted, and the system can recognize and remove duplicates. You are asked to confirm before deleting because the document may not be retrievable, especially if it came from an external service.",
+    "Two-step processing is controlled by a new Automatic Processing field on the E-Document Services page. Before this release, processing was always automatic. Setting the field to No lets users check the preview lines and extracted data (Related > View extracted data) before the purchase invoice is created with Reprocess document.",
+    "On receipt, embedded PDFs are extracted from the payload and shown in the e-document fact box. On sending sales invoices, the invoice PDF is attached automatically.",
+    "A new 'Embed document PDF to export' parameter on the Exporting tab of the e-document service embeds the invoice PDF in the exported XML. Receivers using Business Central see the printed version in the fact box.",
     "E-documents can be sent through a service connector and by email to specific persons at the same time. Multiple incoming documents can be attached at once.",
-    "Azure Document Intelligence turns PDF invoices into machine-readable data, so PDF and electronic invoices share one user experience. It is in preview and work in progress.",
-    "Presenters say some features arrive in April and others in May or June."
+    "If a purchase invoice or credit memo linked to an e-document is deleted by accident, it can be recreated from the e-document.",
+    "Azure Document Intelligence turns PDF invoices into machine-readable data, so PDF and electronic invoices share one user experience. It is in preview and work in progress."
   ],
   "audience": [
     "functional consultant",

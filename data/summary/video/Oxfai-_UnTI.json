@@ -1,15 +1,16 @@
 {
   "video_id": "Oxfai-_UnTI",
   "item_id": "video/yt-microsoft/Oxfai-_UnTI",
-  "summary": "Financial reporting administration changes in the 2025 release wave 1: telemetry on financial report usage and definition lifecycle changes in Application Insights and Microsoft Purview, plus change log, sensitive field monitoring, data analysis, and new permissions, troubleshooting and FAQ documentation. Purview data is in preview.",
+  "summary": "Business Central 2025 release wave 1 adds two financial reporting features for administrators: telemetry on report usage (view, print to PDF, Excel layout) and on report definition lifecycle changes in Application Insights, plus similar events in Microsoft Purview (Business Central data in Purview is in preview). New documentation covers auditing definition changes with change log, sensitive field monitoring and data analysis, plus permission sets, troubleshooting and an FAQ.",
   "overview": "The video, aimed at administrators, covers two new features and new auditing documentation for financial reporting in 2025 release wave 1. The first feature is telemetry on how financial reports are used and how report definitions change over their lifecycle. It is available in Application Insights and in Microsoft Purview, where Business Central data is currently in preview.\n\nThe second part is about auditing changes to report row and column definitions. It covers the change log, which needs setup on specific tables, and sensitive field monitoring, which adds email notifications. It also shows the data analysis feature used to view changes by definition or by user, and points to new documentation on permissions, troubleshooting and FAQs.",
   "key_points": [
-    "Telemetry records financial report usage, such as viewing a report, printing it to PDF, or opening it with an Excel layout, and lifecycle changes to report definitions.",
-    "Telemetry can be viewed in Application Insights and in Microsoft Purview. Business Central data in Microsoft Purview is currently in preview.",
-    "To track changes to report row and column definitions, the change log must be set up on specific report definition tables. New documentation lists those tables.",
-    "Sensitive field monitoring is described as the deluxe version of change log. It sends email notifications when tracked values change and needs extra setup beyond the standard change log.",
-    "The data analysis feature can be used to analyze report definition changes with pivots, by definition or by user.",
-    "New documentation covers permission sets for viewing and editing financial reports, a troubleshooting article for administrators, and a financial reporting FAQ page."
+    "The release has two new features: telemetry on financial report usage and on report definition lifecycle changes, and the same events in Microsoft Purview.",
+    "Telemetry logs report usage, such as viewing a report, printing it to PDF, or opening it with an Excel layout. It also logs author actions on row, column and report definitions, so you can see who ran which reports and who changed which definitions.",
+    "The telemetry events appear in Application Insights, where retention depends on your telemetry retention policy. The presenter recommends querying by event IDs rather than by message text.",
+    "Similar events will eventually surface in Microsoft Purview. Business Central data in Microsoft Purview is currently in preview.",
+    "A new Microsoft Learn article, Audit changes to financial reporting, lists the report definition tables on which you need to set up change log.",
+    "Sensitive field monitoring is described as the deluxe version of change log. It gives you the change log plus email notifications when someone changes a value.",
+    "You can open the change log page in analysis mode and pivot the data, either by which definition changed or by who changed what and when."
   ],
   "audience": [
     "administrator",

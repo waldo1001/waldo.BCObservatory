@@ -95,26 +95,6 @@
         "admin-api"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Automated App Update Installation",
-      "description": "The ability to automatically check for and install app updates across customer environments using the tenant discovery endpoint with conditional logic.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 62.2,
-      "t_end": 136.3,
-      "is_demoed": true,
-      "caveats": [
-        "Requires setting up conditional logic to control when updates should be installed"
-      ],
-      "tags": [
-        "automation",
-        "app-updates",
-        "updates"
-      ],
-      "system": "administration"
     }
   ],
   "objects": [

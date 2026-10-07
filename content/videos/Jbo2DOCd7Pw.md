@@ -15,12 +15,12 @@ tags:
   - app source extension
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:19.800Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:19.852Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,6 +34,13 @@ evidence:
     commit: null
     t: 80
     quote: Integration between Business Central and field service was already announced and released last year. This was the basic integration for projects.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=57s
+    title: "What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)"
+    date: "2025-04-01T15:00:23.000Z"
+    commit: null
+    t: 57
+    quote: that integration is included uh out of the box in business central and that of course reduces implementation costs
   - kind: video
     url: https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=67s
     title: "What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)"
@@ -135,6 +142,9 @@ features:
 objects_mentioned:
   - page Schedule Board
 quotes:
+  - t: 57
+    text: that integration is included uh out of the box in business central and that of course reduces implementation costs
+    check: exact
   - t: 67
     text: with Business Central premium license you have a right to buy an attach license for field service for just $20
     check: exact
@@ -153,7 +163,7 @@ quotes:
 
 > Field Service integration for service management in Business Central (2025 release wave 1): it extends the earlier project-based integration to service orders and service items, synced to Field Service work orders through Dataverse data sync. It covers requirements, the assisted setup wizard, and a demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Jbo2DOCd7Pw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Jbo2DOCd7Pw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -163,13 +173,13 @@ It covers licensing and technical requirements, then the assisted setup wizard t
 
 ## Key points
 
+- The integration with Field Service is included out of the box in Business Central, which the speaker says reduces implementation costs.
 - The earlier Field Service integration for projects was released the previous year. The new integration extends it to service management (service orders and service items).
 - A Business Central premium license is required. According to the video, it gives the right to buy an attach license for Field Service for $20.
 - The integration is based on Dataverse data sync technology, which must be enabled in the Business Central instance.
 - It also requires Dynamics 365 Sales integration and virtual tables enabled in the environment.
-- The Field Service integration app must be downloaded and installed manually from AppSource. It is not installed in Business Central by default.
-- An assisted setup wizard walks through the whole configuration, including Dataverse, Sales integration and virtual tables.
-- In the demo, service items are created from item sales. Their linked service orders sync to Field Service work orders, which can be scheduled and assigned on the schedule board by drag and drop.
+- The Field Service integration app must be downloaded and installed from AppSource. It is not installed in Business Central by default.
+- An assisted setup wizard guides you through the whole setup process.
 
 ## Chapters
 
@@ -202,6 +212,7 @@ Not found in BC28-30: page "Schedule Board".
 
 ## Quotes
 
+- [0:57](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=57s) "that integration is included uh out of the box in business central and that of course reduces implementation costs"
 - [1:07](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=67s) "with Business Central premium license you have a right to buy an attach license for field service for just $20"
 - [1:20](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=80s) "Integration between Business Central and field service was already announced and released last year. This was the basic integration for projects."
 - [1:59](https://www.youtube.com/watch?v=Jbo2DOCd7Pw&t=119s) "This integration is based on data vers data sync technology. So you need to enable that in your business central instance"

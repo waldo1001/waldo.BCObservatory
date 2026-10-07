@@ -5,11 +5,11 @@
   "overview": "The video explains a gap in admin center API automation. S2S app authentication already existed, but there was no way to get a list of tenants the app has access to. Partners managing environments in many customer tenants had to maintain that list themselves. In this release wave, the tenant discovery endpoint addresses this.\n\nThe demo uses a Logic App that starts by calling the manageable tenants API, so it begins with the list of tenants it can manage. It then checks for app updates and installs them, with conditional logic controlling when updates are installed. The video closes with use cases for partners with more advanced automation across customer environments.",
   "key_points": [
     "The tenant discovery endpoint gives a list of tenants to which an app has access.",
-    "Before it, partners managing many customer tenants had to keep their own list of tenants somewhere the app could read.",
+    "Before it, partners managing many customer tenants had to keep their own list of tenants somewhere the app could refer to.",
     "The manageable tenants API returns the tenants that can be managed by the authenticating app.",
-    "It extends the earlier S2S app authentication for the admin center API.",
-    "The demo is a Logic App that starts from the manageable tenants API list and automates checking for and installing app updates.",
-    "Automated update installation needs conditional logic to control when updates are installed."
+    "It is a continuation of the earlier S2S app authentication for the admin center API.",
+    "The demo is a recurring Logic App that starts from the manageable tenants API list, gets each tenant's environments, checks for app updates and installs them.",
+    "Additional conditions can optionally be added to control when app updates are installed."
   ],
   "audience": [
     "partner",

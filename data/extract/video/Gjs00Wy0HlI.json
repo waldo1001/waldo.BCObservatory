@@ -242,6 +242,12 @@
       "check": "exact"
     },
     {
+      "t": 563.3,
+      "text": "we do create them as shortlived artifacts meaning that you can you can use a setting to to define that that these shortlived artifacts",
+      "why_it_matters": "Shows that retention for short-lived artifacts can be configured, and that one day is still the default.",
+      "check": "exact"
+    },
+    {
       "t": 630.5,
       "text": "it actually makes sense to have a versioning strategy where three digits are controlled by appjon and only one digit controlled by GitHub which",
       "why_it_matters": "Explains the design rationale for Versioning Strategy 3 addressing partner feedback",

@@ -4,12 +4,13 @@
   "summary": "Financial reporting changes for report users in 2025 release wave 1 of Business Central: slimmer interface, internal description for audit, accounting format for negative numbers, portrait PDF export, and Excel layouts with a default layout option. All were demoed.",
   "overview": "This 8-minute video from the Business Central channel (published 2025-04-01) walks through what is new in financial reporting for people who run and read financial reports. It uses the income statement report to show each change.\n\nThe changes covered are a more compact title area, a separate internal description next to the display title, an accounting format for negative numbers, portrait mode for PDF export, and Excel layouts that can be saved, reused and set as the default for export.",
   "key_points": [
-    "The financial reporting interface is slimmer, with a more compact title display and better use of screen space.",
-    "Reports show an internal description separate from the display title. The presenter says it is used for audit purposes.",
-    "A negative amount format option lets users show negatives in parentheses (accounting format) instead of with a minus sign. It applies to view, export and PDF.",
-    "PDF export can now be done in portrait mode. Landscape was the only option before.",
-    "Excel layouts can be created and managed for financial reports, so templates are saved and reused. Formatting in Excel is manual, and the data tab has to be hidden separately.",
-    "One Excel layout can be set as the default on the report, so exports to Excel use it without re-uploading. This is set manually."
+    "The financial reporting interface is slimmer. The display title takes less room, which leaves more space on screen, and you can use personalization to hide the row number.",
+    "Reports show an internal description, which the presenter says is used for audit purposes. The old description field is now called display title and is used when viewing the report and in PDF export.",
+    "Report authors can add an introductory paragraph and a closing paragraph. These show in view mode and in the PDF.",
+    "A new negative amount format option shows negative numbers in parentheses (accounting format) instead of with a minus sign. It applies in view mode and when printing or exporting.",
+    "PDF output can now use portrait mode. Before, it was always landscape.",
+    "Excel layouts are set up from Definitions > Excel layouts. You enter a code, a description and a file name, then export a template, build the report in Excel (in the demo, on a separate sheet with the data tab hidden) and import it back.",
+    "You can keep several Excel layouts per report and run any of them directly. The layouts are stored in Business Central and shared between users of the report."
   ],
   "audience": [
     "end user",

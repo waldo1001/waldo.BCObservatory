@@ -225,6 +225,12 @@
       "text": "this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields",
       "why_it_matters": "Demonstrates how automatic catalog creation simplifies configuration and improves pricing accuracy.",
       "check": "exact"
+    },
+    {
+      "t": 166.2,
+      "text": "in created Shopify Company the company ID is filled in with the customer number which enhances tracability",
+      "why_it_matters": "Explains how the exported Shopify company is linked back to the Business Central customer for traceability.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

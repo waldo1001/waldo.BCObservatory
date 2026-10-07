@@ -1,0 +1,26 @@
+{
+  "video_id": "PB2ZG8fM3EE",
+  "item_id": "video/yt-microsoft/PB2ZG8fM3EE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Web search feature evidence quote is at segment t=503.4, not t=199.8; corrected evidence_t.",
+    "Update 26 statement says the feature can be tried but does not say preview or GA, so the core autofill status stays unclear.",
+    "Added quote about availability on any environment and any language, which the page was missing.",
+    "All existing quotes are verbatim; summary and key points are supported by the transcript."
+  ],
+  "input_hash": "cc278908286ef14c4782ec52b50c254c57bc20fd2a52535102c8f0a56957b9b3",
+  "by": "opus",
+  "at": "2026-10-07T22:59:17.470Z",
+  "applied": [
+    "Web search for public information: status announced",
+    "quote at 503s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07970100000000001
+  }
+}

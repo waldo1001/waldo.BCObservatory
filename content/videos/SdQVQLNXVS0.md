@@ -19,25 +19,18 @@ tags:
   - excel integration
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:02.289Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:02.328Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: ea5d04151b91eed4da94ae5e7a0ab6876ad311fae3c2ff45a101ec959e3b982d
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s
-    title: "Barcode label printing for tracked items: generally available"
-    date: "2025-04-01T15:00:27.000Z"
-    commit: null
-    t: 163
-    quote: Barcode labels can be printed for items with tracking from both released and finished production orders.
   - kind: video
     url: https://www.youtube.com/watch?v=SdQVQLNXVS0&t=5s
     title: "What's New in Manufacturing: Order Processing (2025 release wave 1)"
@@ -162,9 +155,9 @@ features:
     verified: false
     status_source: video
   - name: Barcode label printing for tracked items
-    status: ga
+    status: unclear
     t: 163
-    verified: true
+    verified: false
     status_source: video
 objects_mentioned:
   - page planning worksheet
@@ -197,7 +190,7 @@ quotes:
 
 > Business Central 2025 release wave 1 usability changes in manufacturing production order handling: bulk status change, safety lead time buffer, attachments, default posting group, routing link code updates, item tracking in consumption and output journals, and barcode labels for tracked items.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=SdQVQLNXVS0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=SdQVQLNXVS0) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,13 +200,13 @@ Most items are demoed. Production orders can be moved between statuses in bulk, 
 
 ## Key points
 
+- Production order handling gains the ability to block output transactions, plus attachments and edit in Excel support.
 - Production orders can be bulk moved between statuses: select all and use change status. Orders that do not convert need analysis and action.
 - Production orders show a buffer between due date and end date based on safety lead time, set on the manufacturing setup or the item card. The manual scheduling field must be activated on the manufacturing setup page.
 - Orders can be rescheduled without changing the due date. Moving the end date beyond the due date prompts a confirmation.
 - Attachments are now available in production order headers and lines, which are populated with information about items, bills of material and routing.
 - The business posting group code in a production order can default from the default general business posting group field on the manufacturing setup page.
 - Routing link code can be updated within routings, which affects the start date of connected components. The overview of activities and routings is also enhanced.
-- Consumption and output journals now have item tracking and lines like the item journal. Edit in Excel can populate item tracking details. Barcode labels can be printed for tracked items from released and finished production orders.
 
 ## Chapters
 
@@ -226,18 +219,18 @@ Most items are demoed. Production orders can be moved between statuses in bulk, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Ability to block output transactions | status not stated | [0:05](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=5s) |  |
-| Bulk status change for production orders | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=37s) |  |
-| Safety lead time buffer in production orders | status not stated | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |  |
-| Rescheduling production orders without changing due date | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |  |
-| Attachments in production order headers and lines | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) |  |
-| Default business posting group in production orders | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=91s) |  |
-| Improved component availability information | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=103s) |  |
-| Enhanced routing overview and link code updates | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |  |
-| Item tracking in consumption and output journals | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s) |  |
-| Barcode label printing for tracked items | generally available, demoed | [2:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s) | "Barcode labels can be printed for items with tracking from both released and finished production orders." ([2:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s)) |
+| Feature | Status | At |
+|---|---|---|
+| Ability to block output transactions | status not stated | [0:05](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=5s) |
+| Bulk status change for production orders | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=37s) |
+| Safety lead time buffer in production orders | status not stated | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |
+| Rescheduling production orders without changing due date | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=57s) |
+| Attachments in production order headers and lines | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=81s) |
+| Default business posting group in production orders | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=91s) |
+| Improved component availability information | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=103s) |
+| Enhanced routing overview and link code updates | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=120s) |
+| Item tracking in consumption and output journals | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=133s) |
+| Barcode label printing for tracked items | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=SdQVQLNXVS0&t=163s) |
 
 ## AL objects mentioned
 

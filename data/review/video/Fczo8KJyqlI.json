@@ -1,0 +1,28 @@
+{
+  "video_id": "Fczo8KJyqlI",
+  "item_id": "video/yt-microsoft/Fczo8KJyqlI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Transcript is minimal: the demo section (about 90s to 171s) has no narration, only caption noise ('he', 'a').",
+    "Key point 'demonstrated live in the Business Central client' is unsupported; presenter says 'let's play the video', so the demo is a recording played without commentary.",
+    "Publication date is not in the transcript (presumably from metadata); removed from the rewritten summary and key points.",
+    "Quotes are verbatim; kept.",
+    "Feature is generic but supported by the intro; status unclear is correct."
+  ],
+  "input_hash": "a26b98a6d428978724849b8bc7a5996b69c5a5e5de5ffd8b25b17566289dfb67",
+  "by": "opus",
+  "at": "2026-10-07T22:59:43.432Z",
+  "applied": [
+    "User Interface and Experience Improvements: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040269
+  }
+}

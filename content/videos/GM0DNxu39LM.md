@@ -13,12 +13,12 @@ tags:
   - integration setup
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:12.679Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:12.722Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -31,14 +31,14 @@ evidence:
     date: "2025-04-01T15:00:25.000Z"
     commit: null
     t: 65
-    quote: They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in
+    quote: They're available from 26.0. So from April release they will be in public preview for 1 month
   - kind: video
     url: https://www.youtube.com/watch?v=GM0DNxu39LM&t=65s
     title: "Signup E-Document Connector: preview"
     date: "2025-04-01T15:00:25.000Z"
     commit: null
     t: 65
-    quote: They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in
+    quote: They're available from 26.0. So from April release they will be in public preview for 1 month
   - kind: video
     url: https://www.youtube.com/watch?v=GM0DNxu39LM&t=16s
     title: "What's New: E-Documents Connectors (2025 release wave 1)"
@@ -133,11 +133,6 @@ features:
     t: 251
     verified: false
     status_source: video
-  - name: Multiple Global E-Document Connectors
-    status: unclear
-    t: 16
-    verified: false
-    status_source: video
 objects_mentioned:
   - page E Document Services
 quotes:
@@ -162,7 +157,7 @@ quotes:
 
 > E-Documents connectors in Business Central 2025 release wave 1: new Logic and Signup connectors (public preview from 26.0, general availability from 26.1), a Continue connector planned for about 26.2, and installing connectors from AppSource through the E Document Services page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GM0DNxu39LM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GM0DNxu39LM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -193,12 +188,11 @@ It also shows a change in delivery. First-party connectors used to be pre-instal
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Logic E-Document Connector | preview, demoed | [0:52](https://www.youtube.com/watch?v=GM0DNxu39LM&t=52s) | "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in" ([1:05](https://www.youtube.com/watch?v=GM0DNxu39LM&t=65s)) |
-| Signup E-Document Connector | preview, demoed | [0:52](https://www.youtube.com/watch?v=GM0DNxu39LM&t=52s) | "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in" ([1:05](https://www.youtube.com/watch?v=GM0DNxu39LM&t=65s)) |
+| Logic E-Document Connector | preview, demoed | [0:52](https://www.youtube.com/watch?v=GM0DNxu39LM&t=52s) | "They're available from 26.0. So from April release they will be in public preview for 1 month" ([1:05](https://www.youtube.com/watch?v=GM0DNxu39LM&t=65s)) |
+| Signup E-Document Connector | preview, demoed | [0:52](https://www.youtube.com/watch?v=GM0DNxu39LM&t=52s) | "They're available from 26.0. So from April release they will be in public preview for 1 month" ([1:05](https://www.youtube.com/watch?v=GM0DNxu39LM&t=65s)) |
 | Continue E-Document Connector | status not stated | [1:19](https://www.youtube.com/watch?v=GM0DNxu39LM&t=79s) |  |
 | AppSource E-Document Connector Installation | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=GM0DNxu39LM&t=134s) |  |
 | E-Document Service Integration Setup | status not stated, demoed | [4:11](https://www.youtube.com/watch?v=GM0DNxu39LM&t=251s) |  |
-| Multiple Global E-Document Connectors | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=GM0DNxu39LM&t=16s) |  |
 
 ## AL objects mentioned
 

@@ -1,0 +1,28 @@
+{
+  "video_id": "MaMwHvimNTY",
+  "item_id": "video/yt-microsoft/MaMwHvimNTY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes are verbatim in the transcript. The 42.2 quote stops at 'related to uh', but it is still verbatim, so I kept it.",
+    "The summary said 'Demoed setup is optional', which is misleading. Factors and formulas are optional, but choosing the water and waste emission scope on the category is mandatory (t=334.2). Rewrote the summary.",
+    "A key point said water type applies only to water intensity postings. The transcript says water type must be chosen for any water posting, alongside the intensity type (t=278.6, 472.4). Corrected it.",
+    "Features are left as unclear. The transcript says the functionality comes with this wave but never states a preview or GA status.",
+    "Added a quote about the mandatory water and waste scope selection."
+  ],
+  "input_hash": "eb1b3a34ad26f0cc89f4e59b1ea54cfbec56afeff46b94f1986a2a698a3e3ae2",
+  "by": "opus",
+  "at": "2026-10-07T22:59:15.258Z",
+  "applied": [
+    "quote at 334s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086085
+  }
+}

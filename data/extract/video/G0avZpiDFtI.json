@@ -422,9 +422,21 @@
       "check": "exact"
     },
     {
+      "t": 441.4,
+      "text": "in case you need to know whether any um outgoing calls are failing due to this hardening there's a new telemetry event RT52",
+      "why_it_matters": "Names the telemetry event to use when troubleshooting certificate validation failures before enforcement.",
+      "check": "exact"
+    },
+    {
       "t": 491.8,
       "text": "we will block UI pages published by Microsoft as SOAP endpoints.",
       "why_it_matters": "Announces the blocking of UI pages as SOAP endpoints, a security-focused change affecting integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 573,
+      "text": "In case you need to know whether any of these pages are actually being called, there is a new telemetry event",
+      "why_it_matters": "Leads into RT53, which shows whether blocked SOAP endpoints on UI pages are still being called.",
       "check": "exact"
     },
     {

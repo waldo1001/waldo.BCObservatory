@@ -1,0 +1,30 @@
+{
+  "video_id": "669rJN75L2g",
+  "item_id": "video/yt-microsoft/669rJN75L2g",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point said automated update installation needs conditional logic; transcript says conditions can optionally be added ('you can add additional conditions'). Corrected.",
+    "Automated App Update Installation is a demo scenario built in a Logic App, not a product feature, and its description overstated conditional logic; dropped.",
+    "Tenant discovery endpoint status set to ga based on 'in this release wave, we fixed it' wording; S2S auth set to ga as it was 'built some time ago'.",
+    "All five quotes verified verbatim (t=84.6 quote runs into the next segment, acceptable)."
+  ],
+  "input_hash": "ef67472d23a19eaacaacffd2bd0ee7dc6c1f766ca9b0b1cd42470a10a0294a53",
+  "by": "opus",
+  "at": "2026-10-07T23:00:39.709Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Manageable Tenants API: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Tenant Discovery Endpoint -> ga: evidence not verbatim or does not state the status",
+    "status S2S App Authentication for Admin Center API -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061305
+  }
+}

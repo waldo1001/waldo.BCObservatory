@@ -17,12 +17,12 @@ tags:
   - test http request policy
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:24.844Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:24.885Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,7 +193,7 @@ quotes:
 
 > HTTP client Handler for mocking outbound HTTP calls in AL tests (2025 release wave 1). Covers intercepting requests, simulating responses, telling requests apart, the fall-through mechanism, and the test HTTP request policy options. Known limits: no cookies or redirection status codes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JI9OpaBx0nk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JI9OpaBx0nk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -224,17 +224,17 @@ The demo shows how to set up the Handler, attach it to a test with the Handler f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| HTTP client Handler | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=85s) |  |
-| HTTP client Handler attribute | status not stated, demoed | [2:26](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=146s) |  |
-| Handler functions attribute | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=164s) |  |
-| Request object properties | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=225s) |  |
-| Fall-through mechanism | status not stated, demoed | [5:16](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=316s) |  |
-| Test HTTP request policy | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=500s) |  |
-| Allow all outbound requests policy | status not stated, demoed | [8:52](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=532s) |  |
-| Allow outbound from Handler policy | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=572s) |  |
-| Block outbound requests policy | status not stated, demoed | [10:08](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=608s) |  |
+| Feature | Status | At |
+|---|---|---|
+| HTTP client Handler | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=85s) |
+| HTTP client Handler attribute | status not stated, demoed | [2:26](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=146s) |
+| Handler functions attribute | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=164s) |
+| Request object properties | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=225s) |
+| Fall-through mechanism | status not stated, demoed | [5:16](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=316s) |
+| Test HTTP request policy | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=500s) |
+| Allow all outbound requests policy | status not stated, demoed | [8:52](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=532s) |
+| Allow outbound from Handler policy | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=572s) |
+| Block outbound requests policy | status not stated, demoed | [10:08](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=608s) |
 
 ## AL objects mentioned
 

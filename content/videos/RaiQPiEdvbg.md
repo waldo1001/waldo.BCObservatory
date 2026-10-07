@@ -16,12 +16,12 @@ tags:
   - sustainability journal
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:02.659Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:02.773Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,7 +167,7 @@ quotes:
 
 > Posting sustainability emissions through the Business Central general journal (2025 release wave 1): which document types are allowed, which emissions are supported, and the limits compared with the sustainability journal and purchase documents. Includes a live demo and validation errors.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RaiQPiEdvbg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:51 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RaiQPiEdvbg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 6:51 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -197,14 +197,14 @@ The presenter explains the requirements and limits, then demonstrates posting in
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Post emissions through general journal | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=6s) |  |
-| Greenhouse gas emissions selection in general journal | status not stated, demoed | [3:14](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=194s) |  |
-| Sustainability account selection with defaults | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=260s) |  |
-| Validation for sustainability posting in general journal | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=330s) |  |
-| Water and waste management in sustainability journal | status not stated | [1:38](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=98s) |  |
-| Emission formulas in sustainability journal | status not stated | [1:58](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=118s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Post emissions through general journal | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=6s) |
+| Greenhouse gas emissions selection in general journal | status not stated, demoed | [3:14](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=194s) |
+| Sustainability account selection with defaults | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=260s) |
+| Validation for sustainability posting in general journal | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=330s) |
+| Water and waste management in sustainability journal | status not stated | [1:38](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=98s) |
+| Emission formulas in sustainability journal | status not stated | [1:58](https://www.youtube.com/watch?v=RaiQPiEdvbg&t=118s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,26 @@
+{
+  "video_id": "CCIGX86ljYQ",
+  "item_id": "video/yt-microsoft/CCIGX86ljYQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript.",
+    "Leaving every feature status as unclear is correct. The video is a launch event session and never says whether these features are preview or generally available.",
+    "In the key points, the two-step processing point said 'draft document', but the transcript says 'training document' (probably a caption error). I reworded it neutrally.",
+    "The key point and the description of the 'E-document lines subform' feature say the subform shows GL account information. In the transcript, the GL accounts appear on the purchase invoice that was created, not on the subform. I corrected the key point. The feature description still has this error.",
+    "'service and locks' in the fact box is taken from the captions as written. It may be a caption error for 'logs'."
+  ],
+  "input_hash": "0b8337b8b07136282d04b9a17a5bcd3a628c58720052581a9974df7f091e3b24",
+  "by": "opus",
+  "at": "2026-10-07T23:00:35.604Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063761
+  }
+}

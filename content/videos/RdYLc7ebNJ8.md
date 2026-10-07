@@ -16,12 +16,12 @@ tags:
   - internal description
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:19.043Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:19.081Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,7 +55,7 @@ evidence:
     date: "2025-04-01T15:00:35.000Z"
     commit: null
     t: 187
-    quote: This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we
+    quote: It's been like that forever in in this feature. As a new thing, we also added portrait um mode.
   - kind: video
     url: https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s
     title: "What’s New: Financial Reporting (for Report Users) (2025 release wave 1)"
@@ -70,6 +70,13 @@ evidence:
     commit: null
     t: 434
     quote: I might want to pick one of these as my default layout. So that's what this default Excel layout is for.
+  - kind: video
+    url: https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=458s
+    title: "What’s New: Financial Reporting (for Report Users) (2025 release wave 1)"
+    date: "2025-04-01T15:00:35.000Z"
+    commit: null
+    t: 458
+    quote: I can just have my Excel layout um present in business central and I can share this between the users of the report.
 links:
   learn: []
   objects: []
@@ -147,7 +154,7 @@ quotes:
     text: This is the thing we use for audit purposes. And the prior uh version had a description here.
     check: exact
   - t: 187
-    text: This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we
+    text: It's been like that forever in in this feature. As a new thing, we also added portrait um mode.
     check: exact
   - t: 220
     text: There's a new thing here in this wave. We added something we call Excel layouts.
@@ -155,13 +162,16 @@ quotes:
   - t: 434
     text: I might want to pick one of these as my default layout. So that's what this default Excel layout is for.
     check: exact
+  - t: 458
+    text: I can just have my Excel layout um present in business central and I can share this between the users of the report.
+    check: exact
 ---
 
 # What’s New: Financial Reporting (for Report Users) (2025 release wave 1)
 
 > Financial reporting changes for report users in 2025 release wave 1 of Business Central: slimmer interface, internal description for audit, accounting format for negative numbers, portrait PDF export, and Excel layouts with a default layout option. All were demoed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RdYLc7ebNJ8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RdYLc7ebNJ8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,12 +181,13 @@ The changes covered are a more compact title area, a separate internal descripti
 
 ## Key points
 
-- The financial reporting interface is slimmer, with a more compact title display and better use of screen space.
-- Reports show an internal description separate from the display title. The presenter says it is used for audit purposes.
-- A negative amount format option lets users show negatives in parentheses (accounting format) instead of with a minus sign. It applies to view, export and PDF.
-- PDF export can now be done in portrait mode. Landscape was the only option before.
-- Excel layouts can be created and managed for financial reports, so templates are saved and reused. Formatting in Excel is manual, and the data tab has to be hidden separately.
-- One Excel layout can be set as the default on the report, so exports to Excel use it without re-uploading. This is set manually.
+- The financial reporting interface is slimmer. The display title takes less room, which leaves more space on screen, and you can use personalization to hide the row number.
+- Reports show an internal description, which the presenter says is used for audit purposes. The old description field is now called display title and is used when viewing the report and in PDF export.
+- Report authors can add an introductory paragraph and a closing paragraph. These show in view mode and in the PDF.
+- A new negative amount format option shows negative numbers in parentheses (accounting format) instead of with a minus sign. It applies in view mode and when printing or exporting.
+- PDF output can now use portrait mode. Before, it was always landscape.
+- Excel layouts are set up from Definitions > Excel layouts. You enter a code, a description and a file name, then export a template, build the report in Excel (in the demo, on a separate sheet with the data tab hidden) and import it back.
+- You can keep several Excel layouts per report and run any of them directly. The layouts are stored in Business Central and shared between users of the report.
 
 ## Chapters
 
@@ -189,14 +200,14 @@ The changes covered are a more compact title area, a separate internal descripti
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Internal description for audit purposes | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s) |  |
-| Slimmer user interface | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=74s) |  |
-| Negative amount format option | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=145s) |  |
-| Portrait mode for PDF export | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) |  |
-| Excel layouts | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s) |  |
-| Default Excel layout | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=434s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Internal description for audit purposes | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s) |
+| Slimmer user interface | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=74s) |
+| Negative amount format option | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=145s) |
+| Portrait mode for PDF export | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) |
+| Excel layouts | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s) |
+| Default Excel layout | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=434s) |
 
 ## AL objects mentioned
 
@@ -211,6 +222,7 @@ More than one object has this name, so none is linked: report "income statement"
 - [0:06](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=6s) "Welcome to the 2025 release wave 1. What's new in financial reporting?"
 - [0:19](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=19s) "slimmer user interface, accounting format for negative numbers, portrait mode for PDF, and finally uh Excel layouts"
 - [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s) "This is the thing we use for audit purposes. And the prior uh version had a description here."
-- [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) "This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we"
+- [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) "It's been like that forever in in this feature. As a new thing, we also added portrait um mode."
 - [3:40](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s) "There's a new thing here in this wave. We added something we call Excel layouts."
 - [7:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=434s) "I might want to pick one of these as my default layout. So that's what this default Excel layout is for."
+- [7:38](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=458s) "I can just have my Excel layout um present in business central and I can share this between the users of the report."

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=RaiQPiEdvbg",
   "published_at": "2025-04-01T15:00:37.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 3
     },
     "published": {
-      "at": "2026-10-06T18:43:25.582Z",
+      "at": "2026-10-07T22:59:02.784Z",
       "path": "content/videos/RaiQPiEdvbg.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:59:02.660Z",
+      "path": "data/review/video/RaiQPiEdvbg.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.051873
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9121c445d56c1da6f85739f2b41299ed69bf98231feaf1a7e0431eb4d88bed2"
+  "output_hash": "a886bbbda1f88c2e4aee2854cfbdf492449bf48145e04c6e186687acf14e8deb",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:59:02.659Z"
+  }
 }

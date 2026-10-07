@@ -2,7 +2,7 @@
 id: video/BwBR8JwwQa4
 type: video
 title: "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)"
-summary: "Shopify connector B2B changes in the 2025 release wave 1: import of all Shopify company locations with addresses, tax IDs and payment terms, tax ID mapping, customer export with tax ID and company ID, payment terms mapping, and catalog sync with customer-specific prices. Demoed in a 4-minute video."
+summary: Shopify connector B2B changes in 2025 release wave 1. The connector imports all Shopify company locations with addresses, tax IDs and payment terms, and the tax ID can be used for automatic entity mapping. When a customer is exported to Shopify, the connector sends the tax ID (registration number or VAT registration number, set on the Shopify Shop Card) and fills the company ID with the customer number. Catalogs are created with the customer number filled in, so prices are customer-specific.
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - customer export
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:20.769Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:20.818Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     commit: null
     t: 151
     quote: this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields
+  - kind: video
+    url: https://www.youtube.com/watch?v=BwBR8JwwQa4&t=166s
+    title: "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)"
+    date: "2025-04-01T15:00:22.000Z"
+    commit: null
+    t: 166
+    quote: in created Shopify Company the company ID is filled in with the customer number which enhances tracability
 links:
   learn: []
   objects: []
@@ -153,13 +160,16 @@ quotes:
   - t: 151
     text: this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields
     check: exact
+  - t: 166
+    text: in created Shopify Company the company ID is filled in with the customer number which enhances tracability
+    check: exact
 ---
 
 # What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)
 
-> Shopify connector B2B changes in the 2025 release wave 1: import of all Shopify company locations with addresses, tax IDs and payment terms, tax ID mapping, customer export with tax ID and company ID, payment terms mapping, and catalog sync with customer-specific prices. Demoed in a 4-minute video.
+> Shopify connector B2B changes in 2025 release wave 1. The connector imports all Shopify company locations with addresses, tax IDs and payment terms, and the tax ID can be used for automatic entity mapping. When a customer is exported to Shopify, the connector sends the tax ID (registration number or VAT registration number, set on the Shopify Shop Card) and fills the company ID with the customer number. Catalogs are created with the customer number filled in, so prices are customer-specific.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BwBR8JwwQa4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=BwBR8JwwQa4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,12 +180,12 @@ It also shows the export direction: customer export now sends tax ID and company
 ## Key points
 
 - The connector imports all company locations from Shopify, with address, tax ID and payment terms for each location.
-- Shopify admin cannot set a default location, so the connector uses the first imported location as the default.
-- Imported tax ID can be used for automatic entity mapping of Shopify companies to Business Central customers by registration number.
-- A new field on the Shopify Shop Card sets which tax ID is sent to Shopify: registration number or VAT registration number.
-- Shopify payment terms must be mapped to Business Central payment terms; the details are stored in the default company location.
-- Automatic catalog creation keeps prices equal between Shopify and Business Central and needs the sync prices toggle enabled; the customer number is filled in for customer-specific prices.
-- The connector fills the company/attention field in the created location with the company name, which is used in imported orders.
+- Shopify admin cannot set a default location, so the connector uses the first imported location as the default. The default location is the main source when creating or updating customer cards.
+- Imported tax ID can be used for automatic entity mapping of Shopify companies to Business Central customers by registration number, based on Shopify Shop Card settings.
+- A new company Tax ID mapping field on the Shopify Shop Card sets which tax ID is sent to Shopify: registration number or VAT registration number.
+- Shopify payment terms must be mapped to Business Central payment terms. On export, the payment term details are stored in the default company location.
+- When the connector creates a catalog, it fills in the customer number so prices are calculated for that customer. You need to turn on the sync prices toggle and run sync prices.
+- In the created Shopify company, the company ID is filled with the Business Central customer number for traceability.
 
 ## Chapters
 
@@ -187,15 +197,15 @@ It also shows the export direction: customer export now sends tax ID and company
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify B2B company locations import | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=5s) |  |
-| Tax ID automatic entity mapping | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=5s) |  |
-| Customer export with tax ID and company ID | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |  |
-| Payment terms mapping | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=69s) |  |
-| Automatic catalog creation with customer-specific pricing | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |  |
-| Shopify shop card tax ID mapping field | generally available (roadmap [573342](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |  |
-| Company attention field in location | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=186s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify B2B company locations import | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=5s) |
+| Tax ID automatic entity mapping | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=5s) |
+| Customer export with tax ID and company ID | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
+| Payment terms mapping | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=69s) |
+| Automatic catalog creation with customer-specific pricing | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
+| Shopify shop card tax ID mapping field | generally available (roadmap [573342](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |
+| Company attention field in location | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=186s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -215,3 +225,4 @@ Not found in BC28-30: page "Shopify Shop Card", page "Shopify Locations".
 - [1:48](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=108s) "It is important to map Shopify payment terms to business central payment terms"
 - [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) "the new company Tax ID mapping field on the Shopify shop car page lets you choose to send either the registration number or the"
 - [2:31](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=151s) "this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields"
+- [2:46](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=166s) "in created Shopify Company the company ID is filled in with the customer number which enhances tracability"

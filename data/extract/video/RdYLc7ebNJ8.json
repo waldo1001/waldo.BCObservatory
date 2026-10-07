@@ -194,8 +194,8 @@
     },
     {
       "t": 187.9,
-      "text": "This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we",
-      "why_it_matters": "Confirms portrait mode for PDF is new in this wave, contrasting with previous landscape-only behavior.",
+      "text": "It's been like that forever in in this feature. As a new thing, we also added portrait um mode.",
+      "why_it_matters": "States that portrait mode for PDF is new and that landscape was the only option before.",
       "check": "exact"
     },
     {
@@ -208,6 +208,12 @@
       "t": 434.6,
       "text": "I might want to pick one of these as my default layout. So that's what this default Excel layout is for.",
       "why_it_matters": "Explains the default layout mechanism allows users to streamline repeated exports without re-uploading.",
+      "check": "exact"
+    },
+    {
+      "t": 458.3,
+      "text": "I can just have my Excel layout um present in business central and I can share this between the users of the report.",
+      "why_it_matters": "Shows that Excel layouts are stored in Business Central and shared between report users.",
       "check": "exact"
     }
   ],

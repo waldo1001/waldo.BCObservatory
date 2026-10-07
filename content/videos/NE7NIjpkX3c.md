@@ -2,7 +2,7 @@
 id: video/NE7NIjpkX3c
 type: video
 title: "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)"
-summary: "Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from an AL sandbox, GPT-4o and GPT-4o mini access, model version testing, handling fabrications with response validation, grounding, and limiting tools to about five."
+summary: "Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from a latest sandbox environment, GPT-4o and GPT-4o mini access, testing prompts against model version changes, handling fabrications by validating responses, grounding, and keeping to about five tools."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - grounding
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:25.993Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:26.044Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -102,6 +102,13 @@ evidence:
     commit: null
     t: 944
     quote: whenever we never surface any llm response from a system to the user unless we verify they're grounded and they true
+  - kind: video
+    url: https://www.youtube.com/watch?v=NE7NIjpkX3c&t=964s
+    title: "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)"
+    date: "2025-04-01T15:00:34.000Z"
+    commit: null
+    t: 964
+    quote: you might use 40 mini as a cheaper faster model to validate its responses and this is like a very simple pattern
   - kind: video
     url: https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1065s
     title: "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)"
@@ -291,6 +298,9 @@ quotes:
   - t: 944
     text: whenever we never surface any llm response from a system to the user unless we verify they're grounded and they true
     check: exact
+  - t: 964
+    text: you might use 40 mini as a cheaper faster model to validate its responses and this is like a very simple pattern
+    check: exact
   - t: 1065
     text: having that small technique just to validate llm for this particular feature allow us to increase accuracy meaning it works from 6
     check: fuzzy
@@ -310,9 +320,9 @@ quotes:
 
 # What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)
 
-> Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from an AL sandbox, GPT-4o and GPT-4o mini access, model version testing, handling fabrications with response validation, grounding, and limiting tools to about five.
+> Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from a latest sandbox environment, GPT-4o and GPT-4o mini access, testing prompts against model version changes, handling fabrications by validating responses, grounding, and keeping to about five tools.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NE7NIjpkX3c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 27:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=NE7NIjpkX3c) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 27:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -322,12 +332,12 @@ The rest covers practical considerations. Model versions change behavior and are
 
 ## Key points
 
-- Partners can upload a Copilot extension to an AL sandbox and run it in the Microsoft cloud on Microsoft AI resources, with no LLM deployment or availability to manage.
+- Partners can upload a Copilot extension to a latest sandbox environment and run it in the Microsoft cloud on Microsoft AI resources, with no LLM deployment or availability to manage.
 - GPT-4o and GPT-4o mini are available through an Azure OpenAI abstraction layer, so partners do not manage model versions themselves.
 - Deep Seek R1 and other reasoning models are not yet in Business Central. They come only after capacity exists in all Azure regions where customers are, and no timeline was given.
 - Model versions can change behavior overnight and are not necessarily backward compatible. Write test automation from day zero to catch prompt regressions, which matters more than prompt styling.
-- Fabrications come from models predicting likely text. Validate LLM responses and do not show them to users unless they are verified as grounded.
-- Validation added to the marketing text feature raised accuracy from 6% to very high numbers. The documentation chat checks grounding against Microsoft Learn articles, which may add 200+ ms of latency.
+- Fabrications come from models predicting likely text. Validate LLM responses, for example with GPT-4o mini as a cheaper validator, and do not show them to users unless they are verified as grounded.
+- Validation added to the marketing text feature raised accuracy from 6% to very high numbers. The documentation chat checks grounding against Microsoft Learn articles, which may add about 200 ms of latency.
 - Define tools in AL to pull real Business Central data into responses. Keep to around five tools, since too many reduce reliability.
 
 ## Chapters
@@ -347,22 +357,22 @@ The rest covers practical considerations. Model versions change behavior and are
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Extension Cloud Deployment | status not stated | [0:05](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=5s) |  |
-| Shared Infrastructure for Copilot | status not stated | [1:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=86s) |  |
-| GPT-4o and GPT-4o Mini Model Access | status not stated | [2:18](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=138s) |  |
-| Azure OpenAI Abstraction Layer | status not stated | [2:58](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=178s) |  |
-| Additional Models Coming When Capacity Available | status not stated | [3:18](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=198s) |  |
-| Prompt Engineering Guidelines | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=257s) |  |
-| Model Version Variations | status not stated, demoed | [7:01](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=421s) |  |
-| Test Automation for Prompt Validation | status not stated | [9:20](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=560s) |  |
-| Hallucinations and Fabrications Management | status not stated, demoed | [11:00](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=660s) |  |
-| LLM Response Validation | status not stated | [14:23](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=863s) |  |
-| Marketing Text Generation with Validation | status not stated | [16:44](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1004s) |  |
-| Copilot Documentation Chat with Grounding | status not stated | [18:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1106s) |  |
-| Tools for Copilot Extensions | status not stated, demoed | [20:19](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1219s) |  |
-| Function Calling for Copilot | status not stated | [24:22](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1462s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Extension Cloud Deployment | status not stated | [0:05](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=5s) |
+| Shared Infrastructure for Copilot | status not stated | [1:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=86s) |
+| GPT-4o and GPT-4o Mini Model Access | status not stated | [2:18](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=138s) |
+| Azure OpenAI Abstraction Layer | status not stated | [2:58](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=178s) |
+| Additional Models Coming When Capacity Available | status not stated | [3:18](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=198s) |
+| Prompt Engineering Guidelines | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=257s) |
+| Model Version Variations | status not stated, demoed | [7:01](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=421s) |
+| Test Automation for Prompt Validation | status not stated | [9:20](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=560s) |
+| Hallucinations and Fabrications Management | status not stated, demoed | [11:00](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=660s) |
+| LLM Response Validation | status not stated | [14:23](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=863s) |
+| Marketing Text Generation with Validation | status not stated | [16:44](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1004s) |
+| Copilot Documentation Chat with Grounding | status not stated | [18:26](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1106s) |
+| Tools for Copilot Extensions | status not stated, demoed | [20:19](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1219s) |
+| Function Calling for Copilot | status not stated | [24:22](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1462s) |
 
 ## AL objects mentioned
 
@@ -387,6 +397,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [14:03](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=843s) "large language models always try to predict next words or talking and it always try to be helpful and finish the sentence and instead"
 - [14:43](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=883s) "always validate l l m response"
 - [15:44](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=944s) "whenever we never surface any llm response from a system to the user unless we verify they're grounded and they true"
+- [16:04](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=964s) "you might use 40 mini as a cheaper faster model to validate its responses and this is like a very simple pattern"
 - [17:45](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1065s) "having that small technique just to validate llm for this particular feature allow us to increase accuracy meaning it works from 6"
 - [22:01](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1321s) "exactly same approach we can use in business Central to make sure we can answer the question about business data in a trustful and"
 - [25:23](https://www.youtube.com/watch?v=NE7NIjpkX3c&t=1523s) "tools are awesome it's a best tool for a job to retrieve data from a system to enrich your responses to make sure it's"

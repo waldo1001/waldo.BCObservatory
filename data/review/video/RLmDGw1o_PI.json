@@ -1,0 +1,28 @@
+{
+  "video_id": "RLmDGw1o_PI",
+  "item_id": "video/yt-microsoft/RLmDGw1o_PI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Copy, export and import of report definitions is described as a menu 'from last wave', not new in 2025 wave 1. Kept the feature but added a key point that clarifies this.",
+    "The caption at 183.3 says 'column definitions' while the presenter is in row definitions. The later 'Again in column definitions' at 351.7 supports an internal description on row definitions, so I kept that feature.",
+    "The quote at 375 stopped before 'monthto date', so I replaced it with a span that names the feature.",
+    "The display title change (caption replacing description) was missing from the key points. Added it.",
+    "All feature statuses are unclear. The transcript says 'new' but never says preview or GA."
+  ],
+  "input_hash": "ebeb6dee08bce234554cb721eff9fd3462b4a2cf413c16a0423b02c06ba72e1d",
+  "by": "opus",
+  "at": "2026-10-07T22:59:59.930Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 375s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.067217
+  }
+}

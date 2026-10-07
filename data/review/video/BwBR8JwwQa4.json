@@ -1,0 +1,28 @@
+{
+  "video_id": "BwBR8JwwQa4",
+  "item_id": "video/yt-microsoft/BwBR8JwwQa4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quotes are verbatim and the features match the transcript. All statuses are unclear, which fits: the video only says 'in this release' and never states preview or GA.",
+    "The summary said 'Demoed in a 4-minute video', but the video is 212 seconds (about 3.5 minutes). The summary has been rewritten.",
+    "The key points left out that the Shopify company ID is filled with the BC customer number for traceability (t 166.2). A key point and a quote were added for it.",
+    "The 'Payment terms mapping' feature starts at t 69.3, but the mapping itself is first discussed at 108.5 and 176.2. This is minor and was left as is.",
+    "The 'crm' system tag is weakly supported, which is minor."
+  ],
+  "input_hash": "91e32c6672c2e15c63786188cca7ef800d2750e3a0250127cce235a6c62e33cd",
+  "by": "opus",
+  "at": "2026-10-07T23:00:20.769Z",
+  "applied": [
+    "quote at 166s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058585
+  }
+}

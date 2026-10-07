@@ -1,16 +1,16 @@
 {
   "video_id": "Gjs00Wy0HlI",
   "item_id": "video/yt-microsoft/Gjs00Wy0HlI",
-  "summary": "AL-Go for GitHub changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols, short-lived artifacts, versioning strategy 3 and commit options. Shows how each is configured for Business Central build pipelines.",
+  "summary": "AL-Go for GitHub build and performance changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols as settings, full short-lived artifacts replacing the old intermediate build artifacts, versioning strategy 3 and commit options. Most are shown with settings examples and demos from Business Central repositories.",
   "overview": "This 14-minute video from the Business Central channel walks through what is new in AL-Go for GitHub on build and performance. It starts with incremental builds, which now apply to CI/CD builds and not only pull requests, and pairs them with workflow concurrency so earlier builds are cancelled when commits arrive quickly.\n\nIt then covers conditional settings based on build modes, preprocessor symbols as settings, a change to how full artifacts are created as short-lived artifacts, versioning strategy 3, and a commit options construct for injecting messages, auto-merge and pull request labels, for example to integrate with work item tools.",
   "key_points": [
-    "Incremental builds build only the apps modified in the commit; before they were enabled only for pull requests, now CI/CD builds are covered with complete artifact sets.",
-    "Workflow concurrency can cancel prior builds when several commits come in quickly, and it works with incremental builds on a branch.",
-    "Conditional settings can now depend on build mode, so modes such as default and next major can use different artifacts and behaviors.",
-    "Preprocessor symbols can be added as AL-Go settings to select different code paths at compile time.",
-    "Full artifacts are now created in all builds as short-lived artifacts, replacing artificial intermediate artifacts, with a configurable retention period instead of the one-day default.",
+    "Incremental builds build only the apps modified in the commit. Before, they were enabled only for pull requests; now CI/CD builds use them too, and apps that were not rebuilt are copied from the last known good build so the artifact set stays complete.",
+    "Workflow concurrency can cancel prior builds when several commits come in quickly. It works with incremental builds, which then build all changes since the last known good build.",
+    "Conditional settings can now depend on build mode. For example, the next major build mode can use the next major artifact instead of the 25.4 artifact.",
+    "Preprocessor symbols can be added as an AL-Go setting (an array), including inside conditional settings per build mode, and are passed to the compiler.",
+    "Full artifacts are now created in all builds as short-lived artifacts, replacing the artificial intermediate build artifacts used for multi-project dependencies. Retention defaults to one day and a setting can make it longer.",
     "Versioning strategy 3: app.json controls major, minor and build numbers, and the GitHub counter controls only the fourth digit.",
-    "The commit options construct supports a message suffix, auto-merge and pull request labels, useful for work item management integration."
+    "The commit options construct supports a message suffix, auto-merge and pull request labels. It is used with the Azure Boards integration to link pull requests to work items."
   ],
   "audience": [
     "developer",

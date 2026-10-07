@@ -5,12 +5,12 @@
   "overview": "The video walks report authors through what changed in financial reporting in the 2025 release wave 1. It covers report definition editing (internal description, intro and closing paragraphs, negative amount format), Excel layouts, and copy, export and import of report definitions, which the video notes came from the last wave.\n\nIt then covers row definitions (internal description, where used action, double underline option, new documentation page) and column definitions (month-to-date column type alongside year-to-date, and documentation).",
   "key_points": [
     "Report definitions have an internal description field for documenting the definition for future reference.",
+    "The report definition list now shows a display title (caption) instead of description, because it is really the title of the report.",
     "Authors can edit intro and closing paragraphs that show when users run the report.",
     "Negative amounts can be shown with parentheses or a minus sign; the change is reflected in the PDF version.",
-    "Excel layouts can be defined and exported for financial reports, with a default layout set for users.",
-    "The where used action shows which reports use a row or column definition, and is available in list and edit mode.",
-    "The double underline option for rows existed before but was hidden; it is now visible.",
-    "A month-to-date column type is added next to the existing year-to-date option."
+    "Excel layouts can be defined for financial reports, with one chosen as the default for users to consume.",
+    "Copy, export and import of report definitions was a menu added in the previous wave.",
+    "Row and column definitions can be documented with an internal description."
   ],
   "audience": [
     "functional consultant",

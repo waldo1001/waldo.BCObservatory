@@ -17,12 +17,12 @@ tags:
   - multilingual support
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:33.110Z"
   flags: []
 generated:
-  at: "2026-10-06T18:46:07.002Z"
+  at: "2026-10-07T22:59:33.162Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -31,46 +31,60 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
+    title: "Calculate CO2 copilot action: preview"
+    date: "2025-04-01T15:00:32.000Z"
+    commit: null
+    t: 947
+    quote: in this first release it will be delivered as a public preview as all our copilot features
+  - kind: video
+    url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
+    title: "Emission factor file uploads: preview"
+    date: "2025-04-01T15:00:32.000Z"
+    commit: null
+    t: 947
+    quote: in this first release it will be delivered as a public preview as all our copilot features
+  - kind: video
+    url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Automated emission factor suggestions: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Contextual warnings for missing data: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: in this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Public information fallback: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: in this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Description refinement and regeneration: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: in this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Calculation explanation transparency: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: in this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s
     title: "Flexible emission factor update settings: preview"
     date: "2025-04-01T15:00:32.000Z"
     commit: null
     t: 947
-    quote: in this first release it will be delivered as a public preview
+    quote: in this first release it will be delivered as a public preview as all our copilot features
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=54s
     title: "What's New: Copilot for Sustainability (2025 release wave 1)"
@@ -78,6 +92,13 @@ evidence:
     commit: null
     t: 54
     quote: most emissions again do not have uh total amounts already ready. So you will not get them for example for your hotel stays for
+  - kind: video
+    url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=175s
+    title: "What's New: Copilot for Sustainability (2025 release wave 1)"
+    date: "2025-04-01T15:00:32.000Z"
+    commit: null
+    t: 175
+    quote: this is not enough to say car you need to explain which car so system will find proper uh emission for this car
   - kind: video
     url: https://www.youtube.com/watch?v=JBGuaqk5nXk&t=195s
     title: "What's New: Copilot for Sustainability (2025 release wave 1)"
@@ -150,14 +171,14 @@ chapters:
     title: Availability, language support and future roadmap
 features:
   - name: Calculate CO2 copilot action
-    status: unclear
+    status: preview
     t: 86
-    verified: false
+    verified: true
     status_source: video
   - name: Emission factor file uploads
-    status: unclear
+    status: preview
     t: 367
-    verified: false
+    verified: true
     status_source: video
   - name: Automated emission factor suggestions
     status: preview
@@ -194,6 +215,9 @@ quotes:
   - t: 54
     text: most emissions again do not have uh total amounts already ready. So you will not get them for example for your hotel stays for
     check: exact
+  - t: 175
+    text: this is not enough to say car you need to explain which car so system will find proper uh emission for this car
+    check: exact
   - t: 195
     text: if we have emission factors it will be showed in a copilot prompt as automated suggestion so that's good system will not run lm
     check: exact
@@ -215,7 +239,7 @@ quotes:
 
 > Copilot for Sustainability in Business Central, covered in the 2025 release wave 1 What's New video. It shows the Calculate CO2 action on sustainability journal lines, emission factor file uploads, calculation explanations, warnings and regeneration. Delivered as a public preview in the first release, English officially supported.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JBGuaqk5nXk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 17:24 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JBGuaqk5nXk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 17:24 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -247,18 +271,19 @@ The demo covers preparing factor files, reviewing matched factors and sources, r
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Calculate CO2 copilot action | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=86s) |  |
-| Emission factor file uploads | status not stated, demoed | [6:07](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=367s) |  |
-| Automated emission factor suggestions | preview, demoed | [3:15](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=195s) | "this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
-| Contextual warnings for missing data | preview, demoed | [4:00](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=240s) | "in this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
-| Public information fallback | preview, demoed | [4:13](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=253s) | "in this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
-| Description refinement and regeneration | preview, demoed | [14:12](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=852s) | "in this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
-| Calculation explanation transparency | preview, demoed | [11:17](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=677s) | "in this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
-| Flexible emission factor update settings | preview | [1:46](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=106s) | "in this first release it will be delivered as a public preview" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Calculate CO2 copilot action | preview, demoed | [1:26](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=86s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Emission factor file uploads | preview, demoed | [6:07](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=367s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Automated emission factor suggestions | preview, demoed | [3:15](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=195s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Contextual warnings for missing data | preview, demoed | [4:00](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=240s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Public information fallback | preview, demoed | [4:13](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=253s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Description refinement and regeneration | preview, demoed | [14:12](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=852s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Calculation explanation transparency | preview, demoed | [11:17](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=677s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
+| Flexible emission factor update settings | preview | [1:46](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=106s) | "in this first release it will be delivered as a public preview as all our copilot features" ([15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s)) |
 
 ## Quotes
 
 - [0:54](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=54s) "most emissions again do not have uh total amounts already ready. So you will not get them for example for your hotel stays for"
+- [2:55](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=175s) "this is not enough to say car you need to explain which car so system will find proper uh emission for this car"
 - [3:15](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=195s) "if we have emission factors it will be showed in a copilot prompt as automated suggestion so that's good system will not run lm"
 - [9:21](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=561s) "you can see that copilot suggested six lines out of six and the confidence is 100%. It means everything was very accurate."
 - [15:47](https://www.youtube.com/watch?v=JBGuaqk5nXk&t=947s) "this copilot will come in 26.1 or two. So we are currently completing uh this functionality and in this first release it will be"

@@ -1,0 +1,26 @@
+{
+  "video_id": "SdQVQLNXVS0",
+  "item_id": "video/yt-microsoft/SdQVQLNXVS0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Barcode label printing feature was marked ga, but its evidence quote only describes the capability and does not state a release status; set to unclear.",
+    "All six quotes are verbatim; the 37.5 quote correctly runs on into the 48.1 segment.",
+    "Key points left out the ability to block output transactions, which the transcript mentions at 5.4; added it.",
+    "Features, chapters and summary are otherwise supported by the transcript."
+  ],
+  "input_hash": "2d72bd1dddac976fa4a615bdd2441735b20236eeb2d777051eafac951eb55a22",
+  "by": "opus",
+  "at": "2026-10-07T23:00:02.289Z",
+  "applied": [
+    "Barcode label printing for tracked items: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057512999999999995
+  }
+}

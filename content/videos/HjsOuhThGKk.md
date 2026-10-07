@@ -2,7 +2,7 @@
 id: video/HjsOuhThGKk
 type: video
 title: "What's New: Summarize with Copilot (2025 release wave 1)"
-summary: "Summarize with Copilot in Business Central (2025 release wave 1): a summary fact box on pages such as the customer card and posted sales invoice, with drill-down, a copilot pane for follow-up questions, and a refresh button. Summaries are grounded in database facts and respect user permissions."
+summary: Summarize with Copilot in Business Central (2025 release wave 1, in preview) adds a summary fact box to pages such as the customer card and posted sales invoice. It also offers drill-down to source fields, a Show more option that opens the Copilot pane for follow-up questions, and a refresh button. Summaries are grounded in database facts and respect user permissions. The presenter says the feature is available in version 26 in all localizations and languages; developers can influence summaries through code but cannot create their own.
 tier: official
 language: en
 tags:
@@ -18,18 +18,25 @@ tags:
   - refresh summary
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:36.338Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:36.385Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 8c5f370644fede28bd31e498ddc0d720031dfb82864460af6b8ee5fabcc70502
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=HjsOuhThGKk&t=361s
+    title: "Summary fact box: preview"
+    date: "2025-04-01T15:00:31.000Z"
+    commit: null
+    t: 361
+    quote: while in preview uh we're focused on this these sources of information these knowledge sources
   - kind: video
     url: https://www.youtube.com/watch?v=HjsOuhThGKk&t=25s
     title: "What's New: Summarize with Copilot (2025 release wave 1)"
@@ -44,6 +51,20 @@ evidence:
     commit: null
     t: 300
     quote: a way for co pilot to present information to me and this is all information and data that i have access
+  - kind: video
+    url: https://www.youtube.com/watch?v=HjsOuhThGKk&t=320s
+    title: "What's New: Summarize with Copilot (2025 release wave 1)"
+    date: "2025-04-01T15:00:31.000Z"
+    commit: null
+    t: 320
+    quote: based on my permissions so it doesn't have access to any more information than what I would normally be able to see
+  - kind: video
+    url: https://www.youtube.com/watch?v=HjsOuhThGKk&t=361s
+    title: "What's New: Summarize with Copilot (2025 release wave 1)"
+    date: "2025-04-01T15:00:31.000Z"
+    commit: null
+    t: 361
+    quote: while in preview uh we're focused on this these sources of information these knowledge sources and over time we really think we can grow
   - kind: video
     url: https://www.youtube.com/watch?v=HjsOuhThGKk&t=381s
     title: "What's New: Summarize with Copilot (2025 release wave 1)"
@@ -104,9 +125,9 @@ chapters:
     title: Call to action and feedback
 features:
   - name: Summary fact box
-    status: unclear
+    status: preview
     t: 65
-    verified: false
+    verified: true
     status_source: video
   - name: Interactive summary drill-down
     status: unclear
@@ -133,11 +154,6 @@ features:
     t: 401
     verified: false
     status_source: video
-  - name: Summary on related entities
-    status: unclear
-    t: 160
-    verified: false
-    status_source: video
 objects_mentioned:
   - page customer card
   - page posted sales invoice
@@ -149,6 +165,12 @@ quotes:
   - t: 300
     text: a way for co pilot to present information to me and this is all information and data that i have access
     check: fuzzy
+  - t: 320
+    text: based on my permissions so it doesn't have access to any more information than what I would normally be able to see
+    check: exact
+  - t: 361
+    text: while in preview uh we're focused on this these sources of information these knowledge sources and over time we really think we can grow
+    check: exact
   - t: 381
     text: when you upgrade to version 26 of business Central you'll find this feature available no matter which country localization and your environment no matter
     check: exact
@@ -159,9 +181,9 @@ quotes:
 
 # What's New: Summarize with Copilot (2025 release wave 1)
 
-> Summarize with Copilot in Business Central (2025 release wave 1): a summary fact box on pages such as the customer card and posted sales invoice, with drill-down, a copilot pane for follow-up questions, and a refresh button. Summaries are grounded in database facts and respect user permissions.
+> Summarize with Copilot in Business Central (2025 release wave 1, in preview) adds a summary fact box to pages such as the customer card and posted sales invoice. It also offers drill-down to source fields, a Show more option that opens the Copilot pane for follow-up questions, and a refresh button. Summaries are grounded in database facts and respect user permissions. The presenter says the feature is available in version 26 in all localizations and languages; developers can influence summaries through code but cannot create their own.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HjsOuhThGKk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=HjsOuhThGKk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,13 +218,12 @@ It also shows the summary on a posted sales invoice, the refresh button that reg
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Summary fact box | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=HjsOuhThGKk&t=65s) |  |
+| Summary fact box | preview, demoed | [1:05](https://www.youtube.com/watch?v=HjsOuhThGKk&t=65s) | "while in preview uh we're focused on this these sources of information these knowledge sources" ([6:01](https://www.youtube.com/watch?v=HjsOuhThGKk&t=361s)) |
 | Interactive summary drill-down | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=HjsOuhThGKk&t=99s) |  |
 | Show more and copilot pane | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=HjsOuhThGKk&t=201s) |  |
 | Summary on posted sales invoice | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=HjsOuhThGKk&t=284s) |  |
 | Refresh summary button | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=HjsOuhThGKk&t=341s) |  |
 | Developer influence on summaries | status not stated | [6:41](https://www.youtube.com/watch?v=HjsOuhThGKk&t=401s) |  |
-| Summary on related entities | status not stated, demoed | [2:40](https://www.youtube.com/watch?v=HjsOuhThGKk&t=160s) |  |
 
 ## AL objects mentioned
 
@@ -218,6 +239,8 @@ Not found in BC28-30: page "statistics".
 
 - [0:25](https://www.youtube.com/watch?v=HjsOuhThGKk&t=25s) "and it's seamlessly integrated into business Central so you can get to these insights without having to export your data to other apps"
 - [5:00](https://www.youtube.com/watch?v=HjsOuhThGKk&t=300s) "a way for co pilot to present information to me and this is all information and data that i have access"
+- [5:20](https://www.youtube.com/watch?v=HjsOuhThGKk&t=320s) "based on my permissions so it doesn't have access to any more information than what I would normally be able to see"
+- [6:01](https://www.youtube.com/watch?v=HjsOuhThGKk&t=361s) "while in preview uh we're focused on this these sources of information these knowledge sources and over time we really think we can grow"
 - [6:21](https://www.youtube.com/watch?v=HjsOuhThGKk&t=381s) "when you upgrade to version 26 of business Central you'll find this feature available no matter which country localization and your environment no matter"
 - [6:41](https://www.youtube.com/watch?v=HjsOuhThGKk&t=401s) "now you can't directly extend or create your own summaries yes if you're a developer"
 

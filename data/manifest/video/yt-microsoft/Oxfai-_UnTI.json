@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Oxfai-_UnTI",
   "published_at": "2025-04-01T15:00:34.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 1
     },
     "published": {
-      "at": "2026-10-06T18:45:00.997Z",
+      "at": "2026-10-07T22:59:26.296Z",
       "path": "content/videos/Oxfai-_UnTI.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:59:26.248Z",
+      "path": "data/review/video/Oxfai-_UnTI.json",
+      "verdict": "fix",
+      "applied": 4,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.086621
     }
   },
   "input_hash": null,
@@ -76,5 +85,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e49cfc649ae8c40e8f794654af9c8deda64fa996d694a0543778c9266ae71e7"
+  "output_hash": "5901a084f035bb28cecf4ae5a5ba94a667b6164227a425242ccfe953b76d6d55",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:59:26.242Z"
+  }
 }

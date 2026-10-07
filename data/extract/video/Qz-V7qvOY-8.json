@@ -266,24 +266,6 @@
         "document distribution"
       ],
       "system": "localization"
-    },
-    {
-      "name": "Duplicate document automatic removal",
-      "description": "System automatically recognizes and removes duplicate e-documents when the same type is entered multiple times.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 128.1,
-      "t_end": 148.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "duplicate detection",
-        "automation",
-        "data quality"
-      ],
-      "system": "localization"
     }
   ],
   "objects": [
@@ -354,6 +336,18 @@
       "t": 444.7,
       "text": "with feedback from the community from our users and our partners there was a request to actually being able to review uh the document",
       "why_it_matters": "Demonstrates how customer feedback drove the implementation of two-step processing workflow",
+      "check": "exact"
+    },
+    {
+      "t": 444.7,
+      "text": "page we now have this new field called automatic processing and as Alexander said before this release this was always uh true",
+      "why_it_matters": "Identifies the setting that enables two-step processing on the E-Document Services page.",
+      "check": "exact"
+    },
+    {
+      "t": 686.3,
+      "text": "here we can see we have a new parameter embed document PDF to export and I will actually enable this",
+      "why_it_matters": "Names the service parameter that embeds the invoice PDF in the exported XML.",
       "check": "exact"
     },
     {

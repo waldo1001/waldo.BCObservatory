@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=LDzOda1IOnE",
   "published_at": "2025-04-01T15:00:33.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T18:45:38.579Z",
+      "at": "2026-10-07T22:59:24.688Z",
       "path": "content/videos/LDzOda1IOnE.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:59:24.649Z",
+      "path": "data/review/video/LDzOda1IOnE.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.061173000000000005
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8f303109f8879ffd36aeacfd9a809c3baecd1649fb7d6477c59ab4618005d94"
+  "output_hash": "d4c6875b0bbc9b6e7a08cfbe5a9248767e6401b5a3299ec2035917c38b19d1ba",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:59:24.648Z"
+  }
 }

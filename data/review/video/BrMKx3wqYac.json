@@ -1,0 +1,27 @@
+{
+  "video_id": "BrMKx3wqYac",
+  "item_id": "video/yt-microsoft/BrMKx3wqYac",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 8 quotes appear verbatim in the transcript. The 132.8 quote is garbled because the captions misheard 'billed' as 'built', but it is still usable.",
+    "The transcript never states a preview or GA status for any feature, so every feature correctly stays 'unclear'.",
+    "The key point saying linked environments 'must have the same environment type and geography' goes too far. The presenter only says the selected environment is of the same type and geography. I softened it.",
+    "The key points left out that prepaid and pay-as-you-go work together (prepaid capacity is used first, then pay-as-you-go covers the rest) and that the Copilot Studio trial gives 25,000 messages. I added both.",
+    "Some chapter boundaries are a little off. Billing mechanism content starts around 194.5, not 152.9, and setup starts around 453.7, while 378 to 453 still covers billing scenarios. Chapters can't be edited here."
+  ],
+  "input_hash": "b61413a39655a1a425110e562b8490904e05eba83f99c9f011d5b45b72742dbc",
+  "by": "opus",
+  "at": "2026-10-07T23:00:39.829Z",
+  "applied": [
+    "quote at 480s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.103877
+  }
+}

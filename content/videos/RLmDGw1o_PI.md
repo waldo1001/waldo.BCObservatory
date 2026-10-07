@@ -17,12 +17,12 @@ tags:
   - negative amount format
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:59.930Z"
   flags: []
 generated:
-  at: "2026-10-06T18:48:06.527Z"
+  at: "2026-10-07T22:59:59.970Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,7 @@ evidence:
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 375
-    quote: you have been able to do year-to- date for many years but now as a new thing in this wave we also added the
+    quote: but now as a new thing in this wave we also added the monthto date.
 links:
   learn: []
   objects: []
@@ -180,7 +180,7 @@ quotes:
     text: the double underline option is now not hidden anymore.
     check: exact
   - t: 375
-    text: you have been able to do year-to- date for many years but now as a new thing in this wave we also added the
+    text: but now as a new thing in this wave we also added the monthto date.
     check: exact
 ---
 
@@ -188,7 +188,7 @@ quotes:
 
 > Financial reporting changes for report authors in Business Central 2025 release wave 1: internal descriptions, intro and closing paragraphs, negative amount format, Excel layouts, where used action, visible double underline, month-to-date columns, and new row and column definition documentation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RLmDGw1o_PI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RLmDGw1o_PI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -199,12 +199,12 @@ It then covers row definitions (internal description, where used action, double 
 ## Key points
 
 - Report definitions have an internal description field for documenting the definition for future reference.
+- The report definition list now shows a display title (caption) instead of description, because it is really the title of the report.
 - Authors can edit intro and closing paragraphs that show when users run the report.
 - Negative amounts can be shown with parentheses or a minus sign; the change is reflected in the PDF version.
-- Excel layouts can be defined and exported for financial reports, with a default layout set for users.
-- The where used action shows which reports use a row or column definition, and is available in list and edit mode.
-- The double underline option for rows existed before but was hidden; it is now visible.
-- A month-to-date column type is added next to the existing year-to-date option.
+- Excel layouts can be defined for financial reports, with one chosen as the default for users to consume.
+- Copy, export and import of report definitions was a menu added in the previous wave.
+- Row and column definitions can be documented with an internal description.
 
 ## Chapters
 
@@ -218,19 +218,19 @@ It then covers row definitions (internal description, where used action, double 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Internal description for report definitions | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=31s) |  |
-| Intro and closing paragraphs for reports | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=61s) |  |
-| Negative amount format option | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=102s) |  |
-| Excel layouts for financial reports | status not stated | [1:53](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=113s) |  |
-| Copy, export and import report definitions | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=141s) |  |
-| Internal description for row definitions | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=183s) |  |
-| Where used action for row and column definitions | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=198s) |  |
-| Double underline option for rows | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=256s) |  |
-| Enhanced documentation for row definitions | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=301s) |  |
-| Month-to-date column type | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=375s) |  |
-| Documentation for column definitions | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=389s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Internal description for report definitions | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=31s) |
+| Intro and closing paragraphs for reports | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=61s) |
+| Negative amount format option | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=102s) |
+| Excel layouts for financial reports | status not stated | [1:53](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=113s) |
+| Copy, export and import report definitions | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=141s) |
+| Internal description for row definitions | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=183s) |
+| Where used action for row and column definitions | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=198s) |
+| Double underline option for rows | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=256s) |
+| Enhanced documentation for row definitions | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=301s) |
+| Month-to-date column type | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=375s) |
+| Documentation for column definitions | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=389s) |
 
 ## Quotes
 
@@ -239,4 +239,4 @@ It then covers row definitions (internal description, where used action, double 
 - [1:53](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=113s) "there's also a new thing where we have support for Excel layouts."
 - [3:18](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=198s) "there's also uh something um a new thing here a new action called where used."
 - [4:16](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=256s) "the double underline option is now not hidden anymore."
-- [6:15](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=375s) "you have been able to do year-to- date for many years but now as a new thing in this wave we also added the"
+- [6:15](https://www.youtube.com/watch?v=RLmDGw1o_PI&t=375s) "but now as a new thing in this wave we also added the monthto date."

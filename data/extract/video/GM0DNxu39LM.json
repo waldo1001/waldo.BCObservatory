@@ -53,7 +53,7 @@
       "description": "New e-document connector providing electronic invoice handling capabilities. Available from Business Central version 26.0 in public preview for 1 month, then general availability from 26.1.",
       "status": "preview",
       "status_evidence_t": 65.4,
-      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in",
+      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month",
       "status_evidence_verified": true,
       "t_start": 52.6,
       "t_end": 79.8,
@@ -73,7 +73,7 @@
       "description": "New e-document connector for electronic invoice handling. Available from Business Central version 26.0 in public preview for 1 month, then general availability from 26.1.",
       "status": "preview",
       "status_evidence_t": 65.4,
-      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in",
+      "status_evidence_quote": "They're available from 26.0. So from April release they will be in public preview for 1 month",
       "status_evidence_verified": true,
       "t_start": 52.6,
       "t_end": 79.8,
@@ -147,27 +147,6 @@
         "user experience",
         "connectors",
         "setup"
-      ],
-      "system": "localization"
-    },
-    {
-      "name": "Multiple Global E-Document Connectors",
-      "description": "Strategy to provide multiple globally-available e-document connectors. Previous releases had Pag and Avalara; 2025 wave 1 adds Logic and Signup, with Continue planned for 26.2.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 16.7,
-      "t_end": 92.2,
-      "is_demoed": true,
-      "caveats": [
-        "Local connectors available only through AppSource by local providers"
-      ],
-      "tags": [
-        "e-documents",
-        "connectors",
-        "localization",
-        "strategy"
       ],
       "system": "localization"
     }

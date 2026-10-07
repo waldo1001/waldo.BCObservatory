@@ -2,7 +2,7 @@
 id: video/Fczo8KJyqlI
 type: video
 title: "What's New: Business Central User Experience and Productivity (2025 release wave 1)"
-summary: Business Central 2025 release wave 1 user interface, user experience and productivity changes, shown in a 3-minute demo published 2025-04-01. It is a short overview with no named objects or feature status given.
+summary: Short overview video of Business Central 2025 release wave 1 changes to user interface, user experience and productivity. After a brief intro the presenter plays an unnarrated demo video, so the transcript names no specific changes, objects or feature status.
 tier: official
 language: en
 tags:
@@ -12,12 +12,12 @@ tags:
   - 2025 wave 1
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:43.432Z"
   flags: []
 generated:
-  at: "2026-10-06T18:46:33.933Z"
+  at: "2026-10-07T22:59:43.475Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -105,9 +105,9 @@ quotes:
 
 # What's New: Business Central User Experience and Productivity (2025 release wave 1)
 
-> Business Central 2025 release wave 1 user interface, user experience and productivity changes, shown in a 3-minute demo published 2025-04-01. It is a short overview with no named objects or feature status given.
+> Short overview video of Business Central 2025 release wave 1 changes to user interface, user experience and productivity. After a brief intro the presenter plays an unnarrated demo video, so the transcript names no specific changes, objects or feature status.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Fczo8KJyqlI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Fczo8KJyqlI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 3:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -118,10 +118,10 @@ The presenter walks through the client and points out that some new elements wil
 ## Key points
 
 - Covers Business Central 2025 release wave 1 changes to user interface, user experience and productivity.
-- Runs about 3 minutes, published 2025-04-01.
-- Chapters: Introduction and Overview, UI and UX Changes Demo, Demo Continuation, Closing Remarks.
+- Runs about 3 minutes.
 - The presenter says users will probably notice some new elements in this wave.
-- The changes are demonstrated live in the Business Central client.
+- The changes are shown in a played demo video without spoken narration, so the transcript does not describe individual changes.
+- Chapters: Introduction and Overview, UI and UX Changes Demo, Demo Continuation, Closing Remarks.
 
 ## Chapters
 
@@ -132,9 +132,9 @@ The presenter walks through the client and points out that some new elements wil
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| User Interface and Experience Improvements | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Fczo8KJyqlI&t=6s) |  |
+| Feature | Status | At |
+|---|---|---|
+| User Interface and Experience Improvements | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Fczo8KJyqlI&t=6s) |
 
 ## Quotes
 

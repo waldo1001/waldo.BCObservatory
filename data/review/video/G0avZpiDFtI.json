@@ -1,0 +1,45 @@
+{
+  "video_id": "G0avZpiDFtI",
+  "item_id": "video/yt-microsoft/G0avZpiDFtI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word, and the ones that run across segment boundaries are valid.",
+    "All features were marked unclear, but the transcript says most of them shipped in this release wave. I set those to ga with evidence quotes.",
+    "I left 'Calculate Only Visible Flow Fields' as unclear. It must be switched on with a feature management key and is planned to become the default later, so neither ga nor preview is clearly stated.",
+    "The key points left out the new troubleshooting telemetry events RT52 (certificate validation failures) and RT53 (SOAP calls to UI pages). I added them.",
+    "The summary and the other key points match the transcript."
+  ],
+  "input_hash": "b033894ab1b33690094eda6e3b72a5d195743b0518c05588ec98778f93491f74",
+  "by": "opus",
+  "at": "2026-10-07T23:00:19.486Z",
+  "applied": [
+    "quote at 441s",
+    "quote at 573s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Net Formats for Numbers -> ga: evidence not verbatim or does not state the status",
+    "status Get URL AL Function with Layout Parameter -> ga: evidence not verbatim or does not state the status",
+    "status Set AutoCalc Fields Method -> ga: evidence not verbatim or does not state the status",
+    "status Session Information Stack Property -> ga: evidence not verbatim or does not state the status",
+    "status Telemetry Custom Dimensions User Type and Guest User -> ga: evidence not verbatim or does not state the status",
+    "status Faster Copy Company -> ga: evidence not verbatim or does not state the status",
+    "status Database Missing Indexes Page Enhancements -> ga: evidence not verbatim or does not state the status",
+    "status Enable SQL Multi-Subnet Failover Option -> ga: evidence not verbatim or does not state the status",
+    "status HTTP Server Certificate Validation -> ga: evidence not verbatim or does not state the status",
+    "status Block UI Pages as SOAP Endpoints -> ga: evidence not verbatim or does not state the status",
+    "status PDF Post-Processing in Reports -> ga: evidence not verbatim or does not state the status",
+    "status Report Metadata in Word Layouts -> ga: evidence not verbatim or does not state the status",
+    "status Excel Multiple Worksheet Property Override -> ga: evidence not verbatim or does not state the status",
+    "status Layout Obsolescence Support -> ga: evidence not verbatim or does not state the status",
+    "status Report Layouts Page Enhancements -> ga: evidence not verbatim or does not state the status",
+    "status Layout Validation Action -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.13910499999999998
+  }
+}

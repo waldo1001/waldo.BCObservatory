@@ -76,10 +76,10 @@
     {
       "name": "Summary fact box",
       "description": "A new space on pages where copilot presents concise and simple summaries of key information tailored to the user's role, such as customer overdue amounts, payment terms, and average collection periods.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 361.2,
+      "status_evidence_quote": "while in preview uh we're focused on this these sources of information these knowledge sources",
+      "status_evidence_verified": true,
       "t_start": 65.9,
       "t_end": 99.9,
       "is_demoed": true,
@@ -194,29 +194,6 @@
         "custom summaries"
       ],
       "system": "development"
-    },
-    {
-      "name": "Summary on related entities",
-      "description": "Copilot can expand summaries beyond the current page to include information from related pages through fact boxes and statistics pages for entities like customers, vendors, products, and fixed assets.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 160.8,
-      "t_end": 201.4,
-      "is_demoed": true,
-      "caveats": [
-        "Future roadmap may expand to more related entities"
-      ],
-      "tags": [
-        "related pages",
-        "customers",
-        "vendors",
-        "products",
-        "fixed assets",
-        "360 view"
-      ],
-      "system": "copilot"
     }
   ],
   "objects": [
@@ -254,6 +231,18 @@
       "text": "a way for co pilot to present information to me and this is all information and data that i have access",
       "why_it_matters": "Clarifies that copilot summaries respect user permissions and only display data the user can access.",
       "check": "fuzzy"
+    },
+    {
+      "t": 320.9,
+      "text": "based on my permissions so it doesn't have access to any more information than what I would normally be able to see",
+      "why_it_matters": "Confirms that summaries respect user permissions.",
+      "check": "exact"
+    },
+    {
+      "t": 361.2,
+      "text": "while in preview uh we're focused on this these sources of information these knowledge sources and over time we really think we can grow",
+      "why_it_matters": "States that the feature is in preview and that its knowledge sources are currently limited.",
+      "check": "exact"
     },
     {
       "t": 381.2,

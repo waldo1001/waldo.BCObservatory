@@ -2,7 +2,7 @@
 id: video/MaMwHvimNTY
 type: video
 title: "What's New: Water and Waste Management (2025 release wave 1)"
-summary: "Water and waste management in Business Central sustainability (2025 release wave 1): new water and waste scope, intensity types, water type enums, responsibility centers as facilities, sustainability journal posting, and goals. Demoed setup is optional, and posting is limited to the sustainability journal."
+summary: Business Central 2025 release wave 1 extends sustainability from emissions to water and waste management. It adds a water and waste scope on categories, optional water intensity, discharge into water and waste intensity factors with custom formulas, responsibility centers as facilities with water capacity, required intensity types and water types on journal lines, and water and waste targets and baselines in sustainability goals. Water and waste data can currently be posted only through the sustainability journal.
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - waste tracking
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:15.258Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:15.280Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     commit: null
     t: 293
     quote: Both of these uh options are enums so you can extend if you have additional option to track okay.
+  - kind: video
+    url: https://www.youtube.com/watch?v=MaMwHvimNTY&t=334s
+    title: "What's New: Water and Waste Management (2025 release wave 1)"
+    date: "2025-04-01T15:00:35.000Z"
+    commit: null
+    t: 334
+    quote: what is mandatory you need to choose uh as a emission scope water and waste
   - kind: video
     url: https://www.youtube.com/watch?v=MaMwHvimNTY&t=492s
     title: "What's New: Water and Waste Management (2025 release wave 1)"
@@ -207,6 +214,9 @@ quotes:
   - t: 293
     text: Both of these uh options are enums so you can extend if you have additional option to track okay.
     check: exact
+  - t: 334
+    text: what is mandatory you need to choose uh as a emission scope water and waste
+    check: exact
   - t: 492
     text: What is difference with emissions? You can track emissions with sustainability journal with general journal from this wave and purchase document but water and
     check: exact
@@ -217,9 +227,9 @@ quotes:
 
 # What's New: Water and Waste Management (2025 release wave 1)
 
-> Water and waste management in Business Central sustainability (2025 release wave 1): new water and waste scope, intensity types, water type enums, responsibility centers as facilities, sustainability journal posting, and goals. Demoed setup is optional, and posting is limited to the sustainability journal.
+> Business Central 2025 release wave 1 extends sustainability from emissions to water and waste management. It adds a water and waste scope on categories, optional water intensity, discharge into water and waste intensity factors with custom formulas, responsibility centers as facilities with water capacity, required intensity types and water types on journal lines, and water and waste targets and baselines in sustainability goals. Water and waste data can currently be posted only through the sustainability journal.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MaMwHvimNTY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MaMwHvimNTY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -229,13 +239,13 @@ It then shows responsibility centers used as facilities with water capacity fiel
 
 ## Key points
 
-- A new water and waste scope sits alongside scope one, two and three for emissions.
-- Water and waste factors and formulas are optional. Without factors, you can enter the total intensity in the journal.
-- Responsibility centers can be treated as facilities. This is optional and only needed for facility-based reporting. A new sustainability fast tab holds water capacity unit and quantity, and needs a standard unit of measure.
-- Water intensity type options are withdrawn, discharge, consume and recycled. Waste options are generated, disposed and recovered. One must be selected, and both enums are extensible.
-- Water type options are surface water, sea water, groundwater, third party water and produced water. They apply only to water intensity postings.
-- Water and waste data can be posted only through the sustainability journal. Unlike emissions, they cannot be posted through the general journal or purchase documents.
-- Sustainability goals support water and waste intensity as targets and baselines, with the baseline based on a previous period.
+- A new water and waste scope sits alongside scope one, two and three for emissions. Choosing it on the sustainability category is mandatory, along with whether to track water intensity, discharge into water or waste intensity.
+- Water and waste factors and custom formulas are optional. Without factors, you can enter the total intensity in the journal.
+- Responsibility centers can be treated as facilities. This is optional and only needed for reporting against facility capacity. A new sustainability fast tab holds water capacity dimension, capacity unit (a standard unit of measure) and capacity quantity.
+- Water intensity type options are withdrawn, discharge, consume and recycled. Waste options are generated, disposed and recovered. One must be selected, and the enums are extensible.
+- Water type options are surface water, sea water, groundwater, third party water and produced water. A water type must be chosen for water postings.
+- Water and waste data can currently be posted only through the sustainability journal. Unlike emissions, they cannot be posted through the general journal or purchase documents. Posted values land in sustainability ledger entries.
+- Sustainability goals support water and waste intensity as targets and baselines. Targets are free forecast values, and the baseline is based on a previous period.
 
 ## Chapters
 
@@ -250,20 +260,20 @@ It then shows responsibility centers used as facilities with water capacity fiel
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Water management setup | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=MaMwHvimNTY&t=52s) |  |
-| Water intensity factor | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=MaMwHvimNTY&t=70s) |  |
-| Discharge into water factor | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=MaMwHvimNTY&t=90s) |  |
-| Responsibility centers as facilities | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=MaMwHvimNTY&t=105s) |  |
-| Water capacity dimensions | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=MaMwHvimNTY&t=149s) |  |
-| Waste management scope | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=MaMwHvimNTY&t=190s) |  |
-| Waste intensity factor | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=MaMwHvimNTY&t=216s) |  |
-| Water intensity type enum | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=MaMwHvimNTY&t=249s) |  |
-| Waste intensity type enum | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=MaMwHvimNTY&t=249s) |  |
-| Water type enum | status not stated, demoed | [4:38](https://www.youtube.com/watch?v=MaMwHvimNTY&t=278s) |  |
-| Water and waste journal entries | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=MaMwHvimNTY&t=413s) |  |
-| Sustainability goals for water and waste | status not stated | [8:32](https://www.youtube.com/watch?v=MaMwHvimNTY&t=512s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Water management setup | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=MaMwHvimNTY&t=52s) |
+| Water intensity factor | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=MaMwHvimNTY&t=70s) |
+| Discharge into water factor | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=MaMwHvimNTY&t=90s) |
+| Responsibility centers as facilities | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=MaMwHvimNTY&t=105s) |
+| Water capacity dimensions | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=MaMwHvimNTY&t=149s) |
+| Waste management scope | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=MaMwHvimNTY&t=190s) |
+| Waste intensity factor | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=MaMwHvimNTY&t=216s) |
+| Water intensity type enum | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=MaMwHvimNTY&t=249s) |
+| Waste intensity type enum | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=MaMwHvimNTY&t=249s) |
+| Water type enum | status not stated, demoed | [4:38](https://www.youtube.com/watch?v=MaMwHvimNTY&t=278s) |
+| Water and waste journal entries | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=MaMwHvimNTY&t=413s) |
+| Sustainability goals for water and waste | status not stated | [8:32](https://www.youtube.com/watch?v=MaMwHvimNTY&t=512s) |
 
 ## AL objects mentioned
 
@@ -281,6 +291,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:23](https://www.youtube.com/watch?v=MaMwHvimNTY&t=203s) "You have three different uh scope one, scope two, scope three, autoscope emissions and plus now we have water and waste scope."
 - [3:47](https://www.youtube.com/watch?v=MaMwHvimNTY&t=227s) "So if you do not have factors both for waste and water you can enter your total uh intensity in your journal and that's"
 - [4:53](https://www.youtube.com/watch?v=MaMwHvimNTY&t=293s) "Both of these uh options are enums so you can extend if you have additional option to track okay."
+- [5:34](https://www.youtube.com/watch?v=MaMwHvimNTY&t=334s) "what is mandatory you need to choose uh as a emission scope water and waste"
 - [8:12](https://www.youtube.com/watch?v=MaMwHvimNTY&t=492s) "What is difference with emissions? You can track emissions with sustainability journal with general journal from this wave and purchase document but water and"
 - [8:45](https://www.youtube.com/watch?v=MaMwHvimNTY&t=525s) "Baseline is uh based on your previous period you want to track."
 

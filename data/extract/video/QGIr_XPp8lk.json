@@ -233,10 +233,10 @@
     {
       "name": "Deprecated e-document integration interface removal timeline",
       "description": "Old e-document integration interface is deprecated and will be removed in three waves by 2026 wave 2.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 761.2,
+      "status_evidence_quote": "The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2",
+      "status_evidence_verified": true,
       "t_start": 761.2,
       "t_end": 773.2,
       "is_demoed": false,
@@ -326,6 +326,12 @@
       "check": "snapped"
     },
     {
+      "t": 687.7,
+      "text": "It is also safe because now we actually catch errors when HTTP communication fails on the receiving side.",
+      "why_it_matters": "States the concrete error handling improvement on the receiving side.",
+      "check": "exact"
+    },
+    {
       "t": 761.2,
       "text": "The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2",
       "why_it_matters": "Provides explicit timeline for when migration from old to new interfaces must be completed",
@@ -335,6 +341,12 @@
       "t": 773.2,
       "text": "Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn",
       "why_it_matters": "Indicates that migration support and documentation resources are available for developers",
+      "check": "exact"
+    },
+    {
+      "t": 803.4,
+      "text": "They are all available on AL app extensions and you can find them under e document connectors",
+      "why_it_matters": "Points developers to reference connector implementations to use as examples.",
       "check": "exact"
     }
   ],

@@ -1,0 +1,32 @@
+{
+  "video_id": "D56EVy3JgHA",
+  "item_id": "video/yt-microsoft/D56EVy3JgHA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The preview evidence quote 'currently this is still a public preview' is only 7 words, and each feature pointed it at its own segment instead of t=740, where the words actually appear. Replaced it with a longer verbatim span at t=740.",
+    "The key point saying Copilot LLM matching may miss very different lines with no item references is not in the transcript. Copilot matched everything except the transport line, which was not on the purchase order.",
+    "The key point 'Some line types need additional setup' is not supported. The transcript says only items and GL accounts can be saved for future use, because other types have no item references or GL mapping.",
+    "The key point said complex options go through the purchase order. The transcript says 'go back to the invoice itself', so the wording now just says complex lines can still be created manually.",
+    "Added a quote showing that the learn matching rule creates item references in the background."
+  ],
+  "input_hash": "0f5895cdc12b01afcaa31b967850df0fe1177cf6a1f5b934a217eb7719da7303",
+  "by": "opus",
+  "at": "2026-10-07T23:00:05.382Z",
+  "applied": [
+    "Support for All Entry Types: status preview",
+    "Automatic Extra Line Addition from Invoice: status preview",
+    "Item References for Auto-Matching: status preview",
+    "Learn Matching Rule Feature: status preview",
+    "Create Purchase Order Line from Invoice: status preview",
+    "quote at 394s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.088649
+  }
+}

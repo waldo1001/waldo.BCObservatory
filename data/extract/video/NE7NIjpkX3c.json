@@ -502,6 +502,12 @@
       "check": "exact"
     },
     {
+      "t": 964.6,
+      "text": "you might use 40 mini as a cheaper faster model to validate its responses and this is like a very simple pattern",
+      "why_it_matters": "This is the concrete validation pattern Microsoft says it uses: GPT-4o does the main work and GPT-4o mini checks its responses.",
+      "check": "exact"
+    },
+    {
       "t": 1065.5,
       "text": "having that small technique just to validate llm for this particular feature allow us to increase accuracy meaning it works from 6",
       "why_it_matters": "Quantifies the impact of validation on feature accuracy, showing dramatic improvement",

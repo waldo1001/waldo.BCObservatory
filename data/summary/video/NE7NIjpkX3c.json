@@ -1,15 +1,15 @@
 {
   "video_id": "NE7NIjpkX3c",
   "item_id": "video/yt-microsoft/NE7NIjpkX3c",
-  "summary": "Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from an AL sandbox, GPT-4o and GPT-4o mini access, model version testing, handling fabrications with response validation, grounding, and limiting tools to about five.",
+  "summary": "Practical guidance for partners building Business Central Copilot extensions in 2025 release wave 1: running the extension in the Microsoft cloud from a latest sandbox environment, GPT-4o and GPT-4o mini access, testing prompts against model version changes, handling fabrications by validating responses, grounding, and keeping to about five tools.",
   "overview": "The session explains that partners can upload a Copilot extension to a Business Central sandbox and run it in the Microsoft cloud on Microsoft AI resources, without managing LLM models, deployment or availability. Partners now use the same framework and infrastructure as Microsoft. GPT-4o and GPT-4o mini are available through an abstraction layer. Models such as Deep Seek R1 and other reasoning models are not yet available in Business Central, because capacity is needed in all Azure regions first.\n\nThe rest covers practical considerations. Model versions change behavior and are not necessarily backward compatible, so test automation should start from day zero. Fabrications are called the number one priority. The video shows validating LLM responses with a marketing text example (accuracy raised from 6%) and a documentation chat grounded in Microsoft Learn. It also covers tools defined in AL for grounding, with a recommended limit of around five.",
   "key_points": [
-    "Partners can upload a Copilot extension to an AL sandbox and run it in the Microsoft cloud on Microsoft AI resources, with no LLM deployment or availability to manage.",
+    "Partners can upload a Copilot extension to a latest sandbox environment and run it in the Microsoft cloud on Microsoft AI resources, with no LLM deployment or availability to manage.",
     "GPT-4o and GPT-4o mini are available through an Azure OpenAI abstraction layer, so partners do not manage model versions themselves.",
     "Deep Seek R1 and other reasoning models are not yet in Business Central. They come only after capacity exists in all Azure regions where customers are, and no timeline was given.",
     "Model versions can change behavior overnight and are not necessarily backward compatible. Write test automation from day zero to catch prompt regressions, which matters more than prompt styling.",
-    "Fabrications come from models predicting likely text. Validate LLM responses and do not show them to users unless they are verified as grounded.",
-    "Validation added to the marketing text feature raised accuracy from 6% to very high numbers. The documentation chat checks grounding against Microsoft Learn articles, which may add 200+ ms of latency.",
+    "Fabrications come from models predicting likely text. Validate LLM responses, for example with GPT-4o mini as a cheaper validator, and do not show them to users unless they are verified as grounded.",
+    "Validation added to the marketing text feature raised accuracy from 6% to very high numbers. The documentation chat checks grounding against Microsoft Learn articles, which may add about 200 ms of latency.",
     "Define tools in AL to pull real Business Central data into responses. Keep to around five tools, since too many reduce reliability."
   ],
   "audience": [

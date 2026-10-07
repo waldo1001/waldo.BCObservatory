@@ -16,12 +16,12 @@ tags:
   - resource and item charges
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:05.382Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:05.426Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,35 +34,35 @@ evidence:
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 740
-    quote: currently this is still a public preview
+    quote: So currently this is still a public preview because we want to improve in a few more places
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s
     title: "Automatic Extra Line Addition from Invoice: preview"
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 740
-    quote: currently this is still a public preview
+    quote: So currently this is still a public preview because we want to improve in a few more places
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s
     title: "Item References for Auto-Matching: preview"
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 740
-    quote: currently this is still a public preview
+    quote: So currently this is still a public preview because we want to improve in a few more places
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s
     title: "Learn Matching Rule Feature: preview"
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 740
-    quote: currently this is still a public preview
+    quote: So currently this is still a public preview because we want to improve in a few more places
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s
     title: "Create Purchase Order Line from Invoice: preview"
     date: "2025-04-01T15:00:27.000Z"
     commit: null
     t: 740
-    quote: currently this is still a public preview
+    quote: So currently this is still a public preview because we want to improve in a few more places
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=29s
     title: "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)"
@@ -91,6 +91,13 @@ evidence:
     commit: null
     t: 235
     quote: every time when LLM finds some similarity some match you can mark the system will automatically create item reference for future usage.
+  - kind: video
+    url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=393s
+    title: "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)"
+    date: "2025-04-01T15:00:27.000Z"
+    commit: null
+    t: 393
+    quote: that means we are making an item reference in the background and in the future we can automatically match this
   - kind: video
     url: https://www.youtube.com/watch?v=D56EVy3JgHA&t=576s
     title: "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)"
@@ -211,6 +218,9 @@ quotes:
   - t: 235
     text: every time when LLM finds some similarity some match you can mark the system will automatically create item reference for future usage.
     check: exact
+  - t: 393
+    text: that means we are making an item reference in the background and in the future we can automatically match this
+    check: exact
   - t: 576
     text: we have now to do that. Basically on the imported lines you can now click the three dots and we have this create purchase
     check: exact
@@ -229,7 +239,7 @@ quotes:
 
 > Purchase order matching enhancements for e-documents with Copilot in 2025 release wave 1, in public preview. Covers matching more entry types, item references as auto-match criteria, the learn matching rule, and adding invoice lines to a purchase order from the matching page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=D56EVy3JgHA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=D56EVy3JgHA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 12:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -240,12 +250,12 @@ Demos cover learning matching rules through item references, auto-matching on la
 ## Key points
 
 - Matching support is extended beyond general ledger accounts and items to resources, item charges and other entry types (in preview).
-- Extra lines from an inbound electronic invoice can be added to the purchase order from the matching page, without creating them manually. Some line types need additional setup.
+- Extra lines from an inbound electronic invoice, such as a transport cost, can be added to the purchase order from the matching page, without creating them manually. Previously the invoice could not be posted because it could not be partially invoiced.
 - Auto-matching previously needed 80% string similarity. Existing item references now also count as auto-matching criteria, without running the LLM.
-- The learn matching rule lets users mark matched lines so item references are created for future invoices. It works only for GL accounts and items. For GL accounts it uses text to account mapping.
-- On imported lines, the three-dot menu has an option to create a purchase order line. Units of measure and cost are filled in automatically. Complex options are available through the purchase order itself.
-- Copilot LLM matching may not match lines that are very different and have no item references.
-- The feature is in public preview, and the presenter asks for feedback.
+- The learn matching rule lets users mark matched lines so item references are created in the background for future invoices. It works only for GL accounts and items. For GL accounts it uses text to account mapping, and for other types it does nothing.
+- On imported lines, the three-dot menu has a create purchase order line action. Units of measure and cost are filled in automatically, and the quantity can be changed. More complex lines can still be created manually.
+- Generated item references are marked as autogenerated from the source e-document, so users can trace them back.
+- The feature is in public preview, with more improvements planned for later waves before general availability. The presenter asks for feedback.
 
 ## Chapters
 
@@ -261,11 +271,11 @@ Demos cover learning matching rules through item references, auto-matching on la
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Support for All Entry Types | preview | [0:29](https://www.youtube.com/watch?v=D56EVy3JgHA&t=29s) | "currently this is still a public preview" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
-| Automatic Extra Line Addition from Invoice | preview, demoed | [0:41](https://www.youtube.com/watch?v=D56EVy3JgHA&t=41s) | "currently this is still a public preview" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
-| Item References for Auto-Matching | preview, demoed | [1:02](https://www.youtube.com/watch?v=D56EVy3JgHA&t=62s) | "currently this is still a public preview" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
-| Learn Matching Rule Feature | preview, demoed | [3:34](https://www.youtube.com/watch?v=D56EVy3JgHA&t=214s) | "currently this is still a public preview" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
-| Create Purchase Order Line from Invoice | preview, demoed | [9:36](https://www.youtube.com/watch?v=D56EVy3JgHA&t=576s) | "currently this is still a public preview" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
+| Support for All Entry Types | preview | [0:29](https://www.youtube.com/watch?v=D56EVy3JgHA&t=29s) | "So currently this is still a public preview because we want to improve in a few more places" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
+| Automatic Extra Line Addition from Invoice | preview, demoed | [0:41](https://www.youtube.com/watch?v=D56EVy3JgHA&t=41s) | "So currently this is still a public preview because we want to improve in a few more places" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
+| Item References for Auto-Matching | preview, demoed | [1:02](https://www.youtube.com/watch?v=D56EVy3JgHA&t=62s) | "So currently this is still a public preview because we want to improve in a few more places" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
+| Learn Matching Rule Feature | preview, demoed | [3:34](https://www.youtube.com/watch?v=D56EVy3JgHA&t=214s) | "So currently this is still a public preview because we want to improve in a few more places" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
+| Create Purchase Order Line from Invoice | preview, demoed | [9:36](https://www.youtube.com/watch?v=D56EVy3JgHA&t=576s) | "So currently this is still a public preview because we want to improve in a few more places" ([12:20](https://www.youtube.com/watch?v=D56EVy3JgHA&t=740s)) |
 | Auto-Matching Based on 80% Similarity | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=D56EVy3JgHA&t=294s) |  |
 | Copilot Matching with LLM | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=D56EVy3JgHA&t=308s) |  |
 
@@ -286,6 +296,7 @@ Not found in BC28-30: page "matching page".
 - [0:41](https://www.youtube.com/watch?v=D56EVy3JgHA&t=41s) "second is that we now we can include extra lines into a purchase order automatically from inbound invoice just imagine we had"
 - [3:34](https://www.youtube.com/watch?v=D56EVy3JgHA&t=214s) "We previously work only if we had 80% of string similarity but now we added item references. So if we already have item reference"
 - [3:55](https://www.youtube.com/watch?v=D56EVy3JgHA&t=235s) "every time when LLM finds some similarity some match you can mark the system will automatically create item reference for future usage."
+- [6:33](https://www.youtube.com/watch?v=D56EVy3JgHA&t=393s) "that means we are making an item reference in the background and in the future we can automatically match this"
 - [9:36](https://www.youtube.com/watch?v=D56EVy3JgHA&t=576s) "we have now to do that. Basically on the imported lines you can now click the three dots and we have this create purchase"
 - [10:45](https://www.youtube.com/watch?v=D56EVy3JgHA&t=645s) "Now, this only works for GL accounts and items. So, GL accounts, we use the text to account mapping if you're familiar with that."
 - [12:03](https://www.youtube.com/watch?v=D56EVy3JgHA&t=723s) "It doesn't mean that this is everything. Uh this is what we try to to improve based on your feedback on your usage of"

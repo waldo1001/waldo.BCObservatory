@@ -1,0 +1,33 @@
+{
+  "video_id": "JBGuaqk5nXk",
+  "item_id": "video/yt-microsoft/JBGuaqk5nXk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The preview evidence quote is in segment 947.5, but the features gave other start times (106.3, 195.2, 240.3 and so on) as their evidence location. Set evidence_t to 947.5.",
+    "The availability statement covers the whole Copilot, but 'Calculate CO2 copilot action' and 'Emission factor file uploads' were marked unclear while the other features were marked preview. Set all features to preview for consistency.",
+    "Summary, key points and quotes are supported by the transcript.",
+    "Added a quote on why the line description must be specific."
+  ],
+  "input_hash": "a770af77256042b6333d60fbe6305f84ab40ae28c76dad28247356ce33b5f6ea",
+  "by": "opus",
+  "at": "2026-10-07T22:59:33.110Z",
+  "applied": [
+    "Calculate CO2 copilot action: status preview",
+    "Emission factor file uploads: status preview",
+    "Automated emission factor suggestions: status preview",
+    "Contextual warnings for missing data: status preview",
+    "Public information fallback: status preview",
+    "Description refinement and regeneration: status preview",
+    "Calculation explanation transparency: status preview",
+    "Flexible emission factor update settings: status preview",
+    "quote at 175s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09684500000000001
+  }
+}

@@ -18,12 +18,12 @@ tags:
   - validation logic
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:17.470Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:17.509Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,6 +72,13 @@ evidence:
     commit: null
     t: 503
     quote: but do note that the ability to search the web will be available later during the wave
+  - kind: video
+    url: https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=503s
+    title: "What's New: Autofill Fields with Copilot (2025 release wave 1)"
+    date: "2025-04-01T15:00:34.000Z"
+    commit: null
+    t: 503
+    quote: you get to try out this feature yourselves. Um, and you can do that on any environment and on any language as well
   - kind: video
     url: https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=518s
     title: "What's New: Autofill Fields with Copilot (2025 release wave 1)"
@@ -191,6 +198,9 @@ quotes:
   - t: 503
     text: but do note that the ability to search the web will be available later during the wave
     check: exact
+  - t: 503
+    text: you get to try out this feature yourselves. Um, and you can do that on any environment and on any language as well
+    check: exact
   - t: 518
     text: Copilot is actually ready to work also with your custom fields and your custom pages as well. Um and if you're a developer watching
     check: exact
@@ -200,7 +210,7 @@ quotes:
 
 > Copilot autofill in Business Central (2025 release wave 1) suggests values for blank fields on card and document pages, demoed on customer and fixed asset records. Suggestions are not saved until the user keeps them, and field validation overrides them. Web search is announced for later in the wave, not in the initial update 26 release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=PB2ZG8fM3EE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=PB2ZG8fM3EE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 9:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -259,6 +269,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:26](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=266s) "it may trigger setting values for other fields where copilot already has a suggestion and in that"
 - [8:23](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=503s) "if you upgrade to update 26 of Business Central, you get to try out this feature yourselves. Um, and you can do that on"
 - [8:23](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=503s) "but do note that the ability to search the web will be available later during the wave"
+- [8:23](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=503s) "you get to try out this feature yourselves. Um, and you can do that on any environment and on any language as well"
 - [8:38](https://www.youtube.com/watch?v=PB2ZG8fM3EE&t=518s) "Copilot is actually ready to work also with your custom fields and your custom pages as well. Um and if you're a developer watching"
 
 ## Disclaimers in the video

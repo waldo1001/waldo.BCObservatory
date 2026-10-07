@@ -18,12 +18,12 @@ tags:
   - report layouts
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:19.486Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:19.546Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,12 +59,26 @@ evidence:
     t: 421
     quote: in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management.
   - kind: video
+    url: https://www.youtube.com/watch?v=G0avZpiDFtI&t=441s
+    title: "What's New: Server and Database (2025 release wave 1)"
+    date: "2025-04-01T15:00:26.000Z"
+    commit: null
+    t: 441
+    quote: in case you need to know whether any um outgoing calls are failing due to this hardening there's a new telemetry event RT52
+  - kind: video
     url: https://www.youtube.com/watch?v=G0avZpiDFtI&t=491s
     title: "What's New: Server and Database (2025 release wave 1)"
     date: "2025-04-01T15:00:26.000Z"
     commit: null
     t: 491
     quote: we will block UI pages published by Microsoft as SOAP endpoints.
+  - kind: video
+    url: https://www.youtube.com/watch?v=G0avZpiDFtI&t=573s
+    title: "What's New: Server and Database (2025 release wave 1)"
+    date: "2025-04-01T15:00:26.000Z"
+    commit: null
+    t: 573
+    quote: In case you need to know whether any of these pages are actually being called, there is a new telemetry event
   - kind: video
     url: https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s
     title: "What's New: Server and Database (2025 release wave 1)"
@@ -210,8 +224,14 @@ quotes:
   - t: 421
     text: in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management.
     check: exact
+  - t: 441
+    text: in case you need to know whether any um outgoing calls are failing due to this hardening there's a new telemetry event RT52
+    check: exact
   - t: 491
     text: we will block UI pages published by Microsoft as SOAP endpoints.
+    check: exact
+  - t: 573
+    text: In case you need to know whether any of these pages are actually being called, there is a new telemetry event
     check: exact
   - t: 601
     text: we added the ability to do PDF post-processing in the context of running a report.
@@ -225,7 +245,7 @@ quotes:
 
 > Business Central 2025 release wave 1 server and database changes: AL runtime additions (net formats, flow field calculation), faster copy company, missing indexes page fields, SQL multi-subnet failover, HTTP certificate validation, SOAP endpoint blocking, and report PDF and layout features.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=G0avZpiDFtI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 15:13 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=G0avZpiDFtI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 15:13 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -241,7 +261,7 @@ Database and security items include a copy company operation up to five times fa
 - The database missing indexes page now shows seeks, scans, average total cost, average impact and estimated benefit.
 - Outgoing HTTP client calls now validate server certificates and do not call endpoints with invalid ones. In version 26 this can be disabled via a feature management key. In October 2025 it will be enforced with no way to disable it.
 - Microsoft-owned UI pages are blocked from being published as SOAP endpoints. This can be disabled via feature management for now, and per-tenant extensions can still expose pages. Enforcement comes in a later release wave.
-- Reports gain PDF post-processing in the on pre-rendering trigger (append, embed documents, set passwords). The report layouts page gains a validate action, which in version 26 checks fonts for RDL layouts only.
+- New telemetry events help troubleshooting: RT52 logs outgoing calls that fail certificate validation, and RT53 logs calls to SOAP endpoints on Microsoft UI pages.
 
 ## Chapters
 
@@ -252,25 +272,25 @@ Database and security items include a copy company operation up to five times fa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Net Formats for Numbers | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=G0avZpiDFtI&t=22s) |  |
-| Get URL AL Function with Layout Parameter | status not stated | [1:29](https://www.youtube.com/watch?v=G0avZpiDFtI&t=89s) |  |
-| Calculate Only Visible Flow Fields | status not stated | [1:50](https://www.youtube.com/watch?v=G0avZpiDFtI&t=110s) |  |
-| Set AutoCalc Fields Method | status not stated | [2:26](https://www.youtube.com/watch?v=G0avZpiDFtI&t=146s) |  |
-| Session Information Stack Property | status not stated | [2:43](https://www.youtube.com/watch?v=G0avZpiDFtI&t=163s) |  |
-| Telemetry Custom Dimensions User Type and Guest User | status not stated | [3:13](https://www.youtube.com/watch?v=G0avZpiDFtI&t=193s) |  |
-| Faster Copy Company | status not stated | [3:49](https://www.youtube.com/watch?v=G0avZpiDFtI&t=229s) |  |
-| Database Missing Indexes Page Enhancements | status not stated | [4:24](https://www.youtube.com/watch?v=G0avZpiDFtI&t=264s) |  |
-| Enable SQL Multi-Subnet Failover Option | status not stated | [5:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=330s) |  |
-| HTTP Server Certificate Validation | status not stated | [6:14](https://www.youtube.com/watch?v=G0avZpiDFtI&t=374s) |  |
-| Block UI Pages as SOAP Endpoints | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=G0avZpiDFtI&t=477s) |  |
-| PDF Post-Processing in Reports | status not stated | [10:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s) |  |
-| Report Metadata in Word Layouts | status not stated, demoed | [11:18](https://www.youtube.com/watch?v=G0avZpiDFtI&t=678s) |  |
-| Excel Multiple Worksheet Property Override | status not stated | [12:17](https://www.youtube.com/watch?v=G0avZpiDFtI&t=737s) |  |
-| Layout Obsolescence Support | status not stated | [13:15](https://www.youtube.com/watch?v=G0avZpiDFtI&t=795s) |  |
-| Report Layouts Page Enhancements | status not stated | [13:50](https://www.youtube.com/watch?v=G0avZpiDFtI&t=830s) |  |
-| Layout Validation Action | status not stated | [14:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=870s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Net Formats for Numbers | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=G0avZpiDFtI&t=22s) |
+| Get URL AL Function with Layout Parameter | status not stated | [1:29](https://www.youtube.com/watch?v=G0avZpiDFtI&t=89s) |
+| Calculate Only Visible Flow Fields | status not stated | [1:50](https://www.youtube.com/watch?v=G0avZpiDFtI&t=110s) |
+| Set AutoCalc Fields Method | status not stated | [2:26](https://www.youtube.com/watch?v=G0avZpiDFtI&t=146s) |
+| Session Information Stack Property | status not stated | [2:43](https://www.youtube.com/watch?v=G0avZpiDFtI&t=163s) |
+| Telemetry Custom Dimensions User Type and Guest User | status not stated | [3:13](https://www.youtube.com/watch?v=G0avZpiDFtI&t=193s) |
+| Faster Copy Company | status not stated | [3:49](https://www.youtube.com/watch?v=G0avZpiDFtI&t=229s) |
+| Database Missing Indexes Page Enhancements | status not stated | [4:24](https://www.youtube.com/watch?v=G0avZpiDFtI&t=264s) |
+| Enable SQL Multi-Subnet Failover Option | status not stated | [5:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=330s) |
+| HTTP Server Certificate Validation | status not stated | [6:14](https://www.youtube.com/watch?v=G0avZpiDFtI&t=374s) |
+| Block UI Pages as SOAP Endpoints | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=G0avZpiDFtI&t=477s) |
+| PDF Post-Processing in Reports | status not stated | [10:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s) |
+| Report Metadata in Word Layouts | status not stated, demoed | [11:18](https://www.youtube.com/watch?v=G0avZpiDFtI&t=678s) |
+| Excel Multiple Worksheet Property Override | status not stated | [12:17](https://www.youtube.com/watch?v=G0avZpiDFtI&t=737s) |
+| Layout Obsolescence Support | status not stated | [13:15](https://www.youtube.com/watch?v=G0avZpiDFtI&t=795s) |
+| Report Layouts Page Enhancements | status not stated | [13:50](https://www.youtube.com/watch?v=G0avZpiDFtI&t=830s) |
+| Layout Validation Action | status not stated | [14:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=870s) |
 
 ## AL objects mentioned
 
@@ -285,7 +305,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:49](https://www.youtube.com/watch?v=G0avZpiDFtI&t=229s) "This operation is now up to five times faster especially if you have a lot of data."
 - [6:33](https://www.youtube.com/watch?v=G0avZpiDFtI&t=393s) "we now validate whether that certificate is valid. If not, we will actually not call the endpoint."
 - [7:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=421s) "in October 2025 this validation will be enforced and uh you can no longer disable this hardening in feature management."
+- [7:21](https://www.youtube.com/watch?v=G0avZpiDFtI&t=441s) "in case you need to know whether any um outgoing calls are failing due to this hardening there's a new telemetry event RT52"
 - [8:11](https://www.youtube.com/watch?v=G0avZpiDFtI&t=491s) "we will block UI pages published by Microsoft as SOAP endpoints."
+- [9:33](https://www.youtube.com/watch?v=G0avZpiDFtI&t=573s) "In case you need to know whether any of these pages are actually being called, there is a new telemetry event"
 - [10:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s) "we added the ability to do PDF post-processing in the context of running a report."
 - [11:28](https://www.youtube.com/watch?v=G0avZpiDFtI&t=688s) "if you open the XML here in the developer experience in Word, you now have this BC report information."
 

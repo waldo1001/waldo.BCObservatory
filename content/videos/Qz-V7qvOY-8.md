@@ -17,12 +17,12 @@ tags:
   - e-document services
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:01.818Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:01.863Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,6 +85,20 @@ evidence:
     commit: null
     t: 444
     quote: with feedback from the community from our users and our partners there was a request to actually being able to review uh the document
+  - kind: video
+    url: https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=444s
+    title: "What's New: Enhancements in E-Documents (2025 release wave 1)"
+    date: "2025-04-01T15:00:37.000Z"
+    commit: null
+    t: 444
+    quote: page we now have this new field called automatic processing and as Alexander said before this release this was always uh true
+  - kind: video
+    url: https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=686s
+    title: "What's New: Enhancements in E-Documents (2025 release wave 1)"
+    date: "2025-04-01T15:00:37.000Z"
+    commit: null
+    t: 686
+    quote: here we can see we have a new parameter embed document PDF to export and I will actually enable this
   - kind: video
     url: https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=801s
     title: "What's New: Enhancements in E-Documents (2025 release wave 1)"
@@ -185,11 +199,6 @@ features:
     t: 666
     verified: false
     status_source: video
-  - name: Duplicate document automatic removal
-    status: unclear
-    t: 128
-    verified: false
-    status_source: video
 objects_mentioned:
   - page E Document Services
   - page E-documents list page
@@ -216,6 +225,12 @@ quotes:
   - t: 444
     text: with feedback from the community from our users and our partners there was a request to actually being able to review uh the document
     check: exact
+  - t: 444
+    text: page we now have this new field called automatic processing and as Alexander said before this release this was always uh true
+    check: exact
+  - t: 686
+    text: here we can see we have a new parameter embed document PDF to export and I will actually enable this
+    check: exact
   - t: 801
     text: in this release in this busy cental launch event we will have six different sessions related to electronic uh documents
     check: exact
@@ -225,7 +240,7 @@ quotes:
 
 > Business Central E-Documents enhancements in 2025 release wave 1: deleting incorrect e-documents, two-step processing with preview of incoming invoices, automatic PDF extraction and attachment, and embedding a PDF in XML export. Azure Document Intelligence for PDF OCR is in preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Qz-V7qvOY-8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Qz-V7qvOY-8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -235,13 +250,13 @@ It also covers sending via a service and email in parallel, attaching multiple i
 
 ## Key points
 
-- Incorrect e-documents can be deleted, and the system can recognize and remove duplicates. Documents deleted this way may not be retrievable if they came from an external service.
-- Two-step processing lets users preview lines and extracted data of an incoming e-invoice before the purchase invoice is created.
-- On receipt, PDFs are extracted from the payload and shown in the e-document fact box. On sending sales invoices, the invoice PDF is attached automatically.
-- The invoice PDF can be embedded in the XML export. Receivers using Business Central see the printed version in the fact box.
+- Incorrect e-documents can be deleted, and the system can recognize and remove duplicates. You are asked to confirm before deleting because the document may not be retrievable, especially if it came from an external service.
+- Two-step processing is controlled by a new Automatic Processing field on the E-Document Services page. Before this release, processing was always automatic. Setting the field to No lets users check the preview lines and extracted data (Related > View extracted data) before the purchase invoice is created with Reprocess document.
+- On receipt, embedded PDFs are extracted from the payload and shown in the e-document fact box. On sending sales invoices, the invoice PDF is attached automatically.
+- A new 'Embed document PDF to export' parameter on the Exporting tab of the e-document service embeds the invoice PDF in the exported XML. Receivers using Business Central see the printed version in the fact box.
 - E-documents can be sent through a service connector and by email to specific persons at the same time. Multiple incoming documents can be attached at once.
+- If a purchase invoice or credit memo linked to an e-document is deleted by accident, it can be recreated from the e-document.
 - Azure Document Intelligence turns PDF invoices into machine-readable data, so PDF and electronic invoices share one user experience. It is in preview and work in progress.
-- Presenters say some features arrive in April and others in May or June.
 
 ## Chapters
 
@@ -269,7 +284,6 @@ It also covers sending via a service and email in parallel, attaching multiple i
 | Fix unposted purchase documents | status not stated | [3:28](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=208s) |  |
 | Azure Document Intelligence for PDF processing | preview | [4:09](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=249s) | "this is still work in progress we have this in the preview uh but this is something what will come very soon" ([5:50](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=350s)) |
 | Embed PDF in e-document XML export | status not stated, demoed | [11:06](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=666s) |  |
-| Duplicate document automatic removal | status not stated | [2:08](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=128s) |  |
 
 ## AL objects mentioned
 
@@ -290,6 +304,8 @@ Not found in BC28-30: page "E Document Services", page "E-documents list page", 
 - [5:50](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=350s) "this is still work in progress we have this in the preview uh but this is something what will come very soon"
 - [6:10](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=370s) "this is the main message you will have the same user experience and all features already existing for electronic invoicing"
 - [7:24](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=444s) "with feedback from the community from our users and our partners there was a request to actually being able to review uh the document"
+- [7:24](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=444s) "page we now have this new field called automatic processing and as Alexander said before this release this was always uh true"
+- [11:26](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=686s) "here we can see we have a new parameter embed document PDF to export and I will actually enable this"
 - [13:21](https://www.youtube.com/watch?v=Qz-V7qvOY-8&t=801s) "in this release in this busy cental launch event we will have six different sessions related to electronic uh documents"
 
 ## Disclaimers in the video

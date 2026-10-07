@@ -17,12 +17,12 @@ tags:
   - source code access
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:24.648Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:24.683Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -165,7 +165,7 @@ quotes:
 
 > Opening Visual Studio Code from the Business Central web client gets three additions in 2025 release wave 1: generating launch configurations, formatting and downloading extension dependencies, and symbol search in VS Code, including use with Copilot. All are demoed.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LDzOda1IOnE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LDzOda1IOnE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 11:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -197,13 +197,13 @@ Demos cover generating launch configurations from Help and Support and Extension
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Generate launch configurations | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=LDzOda1IOnE&t=180s) |  |
-| Extension dependencies formatting | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=260s) |  |
-| Download dependencies to VS Code | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=200s) |  |
-| Symbol search in VS Code | status not stated, demoed | [8:02](https://www.youtube.com/watch?v=LDzOda1IOnE&t=482s) |  |
-| Copilot integration with symbol search | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=LDzOda1IOnE&t=553s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Generate launch configurations | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=LDzOda1IOnE&t=180s) |
+| Extension dependencies formatting | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=260s) |
+| Download dependencies to VS Code | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=200s) |
+| Symbol search in VS Code | status not stated, demoed | [8:02](https://www.youtube.com/watch?v=LDzOda1IOnE&t=482s) |
+| Copilot integration with symbol search | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=LDzOda1IOnE&t=553s) |
 
 ## AL objects mentioned
 

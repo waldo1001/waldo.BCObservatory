@@ -16,12 +16,12 @@ tags:
   - sustainability setup
 system: assembly
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:19.236Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:19.284Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -42,6 +42,20 @@ evidence:
     commit: null
     t: 75
     quote: So everything is started with the purchase document. you will get this first uh incoming emission from purchase documents in this wave only for
+  - kind: video
+    url: https://www.youtube.com/watch?v=JoGW2xlIq0I&t=75s
+    title: "What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)"
+    date: "2025-04-01T15:00:24.000Z"
+    commit: null
+    t: 75
+    quote: So uh item charge cannot be applied in this wave. This is something what we are planning for the future
+  - kind: video
+    url: https://www.youtube.com/watch?v=JoGW2xlIq0I&t=106s
+    title: "What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)"
+    date: "2025-04-01T15:00:24.000Z"
+    commit: null
+    t: 106
+    quote: In this way, we do not support uh different printouts. We have this information on post sales invoice document.
   - kind: video
     url: https://www.youtube.com/watch?v=JoGW2xlIq0I&t=130s
     title: "What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)"
@@ -163,6 +177,12 @@ quotes:
   - t: 75
     text: So everything is started with the purchase document. you will get this first uh incoming emission from purchase documents in this wave only for
     check: exact
+  - t: 75
+    text: So uh item charge cannot be applied in this wave. This is something what we are planning for the future
+    check: exact
+  - t: 106
+    text: In this way, we do not support uh different printouts. We have this information on post sales invoice document.
+    check: exact
   - t: 130
     text: all value chain works only with the carbon equivalent. So whatever you enter as your uh beginning on purchase documents if you enter carbon
     check: exact
@@ -181,7 +201,7 @@ quotes:
 
 > Value chain automation for Scope 3 emissions in Business Central 2025 release wave 1: sustainability value entries created from purchase invoices and assembly orders, with carbon equivalent per unit. Covers setup, manual emissions entry, and limits (average costing only, no item charges). Value chain functionality is in public review.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JoGW2xlIq0I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:21 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JoGW2xlIq0I) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 10:21 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -211,17 +231,17 @@ The demo covers the setup (Procurement fast tab), manual emissions entry for ite
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sustainability Value Entry | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=58s) |  |
-| Value Chain Tracking Field | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=213s) |  |
-| Manual Emissions Entry for Existing Items | status not stated, demoed | [4:34](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=274s) |  |
-| Automatic Emissions Collection from Purchase Documents | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=300s) |  |
-| Assembly Order Emissions Calculation | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=151s) |  |
-| Carbon Equivalent Calculation | status not stated, demoed | [2:10](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=130s) |  |
-| Sustainability Ledger Entry | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=26s) |  |
-| Sustainability Value Entry on Sales Invoice | status not stated | [1:28](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=88s) |  |
-| Procurement Fast Tab in Sustainability Setup | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=197s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sustainability Value Entry | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=58s) |
+| Value Chain Tracking Field | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=213s) |
+| Manual Emissions Entry for Existing Items | status not stated, demoed | [4:34](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=274s) |
+| Automatic Emissions Collection from Purchase Documents | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=300s) |
+| Assembly Order Emissions Calculation | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=151s) |
+| Carbon Equivalent Calculation | status not stated, demoed | [2:10](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=130s) |
+| Sustainability Ledger Entry | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=26s) |
+| Sustainability Value Entry on Sales Invoice | status not stated | [1:28](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=88s) |
+| Procurement Fast Tab in Sustainability Setup | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=197s) |
 
 ## AL objects mentioned
 
@@ -236,6 +256,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:58](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=58s) "We have now new functionality. We have sustain sustainability value entry. And this is very very similar what we have in the existing value"
 - [1:15](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=75s) "So everything is started with the purchase document. you will get this first uh incoming emission from purchase documents in this wave only for"
+- [1:15](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=75s) "So uh item charge cannot be applied in this wave. This is something what we are planning for the future"
+- [1:46](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=106s) "In this way, we do not support uh different printouts. We have this information on post sales invoice document."
 - [2:10](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=130s) "all value chain works only with the carbon equivalent. So whatever you enter as your uh beginning on purchase documents if you enter carbon"
 - [3:17](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=197s) "In this moment system work only with average method."
 - [3:45](https://www.youtube.com/watch?v=JoGW2xlIq0I&t=225s) "If you want to get create a sustainability value entry together, you need to enable you need you must enable this field. Without enabling"

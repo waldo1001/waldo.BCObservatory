@@ -1,0 +1,30 @@
+{
+  "video_id": "HjsOuhThGKk",
+  "item_id": "video/yt-microsoft/HjsOuhThGKk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript says the feature is in preview ('while in preview', t 361.2), but every feature was marked unclear. I set Summary fact box to preview with verbatim evidence.",
+    "The 'Summary on related entities' description presents the presenter's future plan (a 360 view of customers, vendors, products and fixed assets) as a current capability, so I dropped it. The supported part (related pages, fact boxes, statistics pages) is already in the key points.",
+    "The 'Summary on posted sales invoice' t_start (284.4) is slightly early; the posted invoice summary appears at 300.7. Minor, left as is.",
+    "Added a quote for the preview status and a quote for permissions scoping.",
+    "Updated the summary to mention the preview status and version 26 availability."
+  ],
+  "input_hash": "75b8f61f6a10610220e09e4d0cda285ef3d97b8e74a00ac43ccc1f97030a4abe",
+  "by": "opus",
+  "at": "2026-10-07T22:59:36.338Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "Summary fact box: status preview",
+    "quote at 361s",
+    "quote at 321s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.073385
+  }
+}

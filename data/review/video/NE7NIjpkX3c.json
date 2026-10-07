@@ -1,0 +1,28 @@
+{
+  "video_id": "NE7NIjpkX3c",
+  "item_id": "video/yt-microsoft/NE7NIjpkX3c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 15 quotes match the transcript word for word. Some run on into the next caption segment, which is allowed.",
+    "The summary and key points say 'AL sandbox'. The caption says 'a l latest sunbox environment', which most likely means 'a latest sandbox environment'. Changed to 'latest sandbox environment'.",
+    "A key point said the grounding check adds '200+ ms' of latency. The transcript says 'maybe you need to wait extra 200 milliseconds'. Changed to 'about 200 ms'.",
+    "Added a quote about using GPT-4o mini as a cheaper, faster validator model. This pattern is central to the talk and the page did not cover it.",
+    "No status is stated for any feature, so all remain unclear. 'In this release' gives no preview or GA status."
+  ],
+  "input_hash": "5217e51f188018b96a4c01bac258ae45532605d2b0492e95c168777c7a439631",
+  "by": "opus",
+  "at": "2026-10-07T22:59:25.993Z",
+  "applied": [
+    "quote at 965s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.150145
+  }
+}

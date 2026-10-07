@@ -2,7 +2,7 @@
 id: video/Oxfai-_UnTI
 type: video
 title: "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)"
-summary: "Financial reporting administration changes in the 2025 release wave 1: telemetry on financial report usage and definition lifecycle changes in Application Insights and Microsoft Purview, plus change log, sensitive field monitoring, data analysis, and new permissions, troubleshooting and FAQ documentation. Purview data is in preview."
+summary: "Business Central 2025 release wave 1 adds two financial reporting features for administrators: telemetry on report usage (view, print to PDF, Excel layout) and on report definition lifecycle changes in Application Insights, plus similar events in Microsoft Purview (Business Central data in Purview is in preview). New documentation covers auditing definition changes with change log, sensitive field monitoring and data analysis, plus permission sets, troubleshooting and an FAQ."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - data analysis
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:26.242Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:26.287Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,6 +59,13 @@ evidence:
     t: 236
     quote: Business central in uh data in Microsoft purview is uh in currently in preview.
   - kind: video
+    url: https://www.youtube.com/watch?v=Oxfai-_UnTI&t=236s
+    title: "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)"
+    date: "2025-04-01T15:00:34.000Z"
+    commit: null
+    t: 236
+    quote: Now the similar type of events will eventually surface in Microsoft purview.
+  - kind: video
     url: https://www.youtube.com/watch?v=Oxfai-_UnTI&t=294s
     title: "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)"
     date: "2025-04-01T15:00:34.000Z"
@@ -72,6 +79,13 @@ evidence:
     commit: null
     t: 320
     quote: you can use the deluxe version of change log which is called um which is called uh sensitive field monitoring.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Oxfai-_UnTI&t=335s
+    title: "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)"
+    date: "2025-04-01T15:00:34.000Z"
+    commit: null
+    t: 335
+    quote: you will both get change log, but you also have the ability to get email notifications if someone changes a value for that
 links:
   learn: []
   objects: []
@@ -159,19 +173,25 @@ quotes:
   - t: 236
     text: Business central in uh data in Microsoft purview is uh in currently in preview.
     check: exact
+  - t: 236
+    text: Now the similar type of events will eventually surface in Microsoft purview.
+    check: exact
   - t: 294
     text: this new article tells you as an ad administrator what are the report uh definition tables. What are the tables behind report row and
     check: exact
   - t: 320
     text: you can use the deluxe version of change log which is called um which is called uh sensitive field monitoring.
     check: exact
+  - t: 335
+    text: you will both get change log, but you also have the ability to get email notifications if someone changes a value for that
+    check: exact
 ---
 
 # What’s New: Financial Reporting (for Administrators) (2025 release wave 1)
 
-> Financial reporting administration changes in the 2025 release wave 1: telemetry on financial report usage and definition lifecycle changes in Application Insights and Microsoft Purview, plus change log, sensitive field monitoring, data analysis, and new permissions, troubleshooting and FAQ documentation. Purview data is in preview.
+> Business Central 2025 release wave 1 adds two financial reporting features for administrators: telemetry on report usage (view, print to PDF, Excel layout) and on report definition lifecycle changes in Application Insights, plus similar events in Microsoft Purview (Business Central data in Purview is in preview). New documentation covers auditing definition changes with change log, sensitive field monitoring and data analysis, plus permission sets, troubleshooting and an FAQ.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Oxfai-_UnTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Oxfai-_UnTI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 7:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,12 +201,13 @@ The second part is about auditing changes to report row and column definitions. 
 
 ## Key points
 
-- Telemetry records financial report usage, such as viewing a report, printing it to PDF, or opening it with an Excel layout, and lifecycle changes to report definitions.
-- Telemetry can be viewed in Application Insights and in Microsoft Purview. Business Central data in Microsoft Purview is currently in preview.
-- To track changes to report row and column definitions, the change log must be set up on specific report definition tables. New documentation lists those tables.
-- Sensitive field monitoring is described as the deluxe version of change log. It sends email notifications when tracked values change and needs extra setup beyond the standard change log.
-- The data analysis feature can be used to analyze report definition changes with pivots, by definition or by user.
-- New documentation covers permission sets for viewing and editing financial reports, a troubleshooting article for administrators, and a financial reporting FAQ page.
+- The release has two new features: telemetry on financial report usage and on report definition lifecycle changes, and the same events in Microsoft Purview.
+- Telemetry logs report usage, such as viewing a report, printing it to PDF, or opening it with an Excel layout. It also logs author actions on row, column and report definitions, so you can see who ran which reports and who changed which definitions.
+- The telemetry events appear in Application Insights, where retention depends on your telemetry retention policy. The presenter recommends querying by event IDs rather than by message text.
+- Similar events will eventually surface in Microsoft Purview. Business Central data in Microsoft Purview is currently in preview.
+- A new Microsoft Learn article, Audit changes to financial reporting, lists the report definition tables on which you need to set up change log.
+- Sensitive field monitoring is described as the deluxe version of change log. It gives you the change log plus email notifications when someone changes a value.
+- You can open the change log page in analysis mode and pivot the data, either by which definition changed or by who changed what and when.
 
 ## Chapters
 
@@ -201,15 +222,15 @@ The second part is about auditing changes to report row and column definitions. 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Telemetry on Financial Report Usage and Lifecycle Changes | status not stated, demoed | [0:08](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=8s) |  |
-| Change Log for Financial Report Definitions | status not stated | [4:21](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=261s) |  |
-| Sensitive Field Monitoring for Financial Reports | status not stated | [5:20](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=320s) |  |
-| Data Analysis for Financial Report Changes | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=351s) |  |
-| Financial Report Permissions Documentation | status not stated | [6:28](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=388s) |  |
-| Troubleshooting Financial Reporting Documentation | status not stated | [6:53](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=413s) |  |
-| Financial Reporting FAQ Documentation | status not stated | [7:09](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=429s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Telemetry on Financial Report Usage and Lifecycle Changes | status not stated, demoed | [0:08](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=8s) |
+| Change Log for Financial Report Definitions | status not stated | [4:21](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=261s) |
+| Sensitive Field Monitoring for Financial Reports | status not stated | [5:20](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=320s) |
+| Data Analysis for Financial Report Changes | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=351s) |
+| Financial Report Permissions Documentation | status not stated | [6:28](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=388s) |
+| Troubleshooting Financial Reporting Documentation | status not stated | [6:53](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=413s) |
+| Financial Reporting FAQ Documentation | status not stated | [7:09](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=429s) |
 
 ## AL objects mentioned
 
@@ -223,8 +244,10 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:09](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=69s) "One type of user we call the author. The author can uh likely edit uh report row column definitions and similarly do actions such"
 - [1:57](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=117s) "Whenever users view a report or they print a report to PDF or if they open a report with an Excel layout, all of"
 - [3:56](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=236s) "Business central in uh data in Microsoft purview is uh in currently in preview."
+- [3:56](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=236s) "Now the similar type of events will eventually surface in Microsoft purview."
 - [4:54](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=294s) "this new article tells you as an ad administrator what are the report uh definition tables. What are the tables behind report row and"
 - [5:20](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=320s) "you can use the deluxe version of change log which is called um which is called uh sensitive field monitoring."
+- [5:35](https://www.youtube.com/watch?v=Oxfai-_UnTI&t=335s) "you will both get change log, but you also have the ability to get email notifications if someone changes a value for that"
 
 ## Disclaimers in the video
 

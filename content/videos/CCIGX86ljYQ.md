@@ -18,12 +18,12 @@ tags:
   - pdf attachments
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:00:35.604Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:00:35.648Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,7 +184,7 @@ quotes:
 
 > Document preview in Business Central E-Documents (2025 release wave 1): incoming XML e-documents can be reviewed before or after processing. The video demos the extracted data view, the e-document lines subform, and embedded PDFs stored as attachments. It also covers the one-step and two-step processing options.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=CCIGX86ljYQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 5:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=CCIGX86ljYQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 5:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -195,11 +195,11 @@ The demo walks through the e-document card with new fact boxes, a lines subform,
 ## Key points
 
 - Incoming e-documents can be previewed before processing, so users can inspect vendor data before a purchase invoice is created.
-- The extracted data view shows header and line information read from the received XML.
-- Two-step processing first creates a draft document, then lets the user decide whether to process it into a purchase invoice. One-step automatic processing remains the default.
+- The extracted data view (Related > View extracted data) shows header and line information read from the received XML.
+- One-step automatic processing remains the default, but it can be turned off. In two-step processing, the document is first imported, and the user then decides whether to process it into a purchase invoice.
 - PDFs embedded in XML e-documents are extracted automatically and stored as attachments, which can be opened from the e-document card.
-- The e-document card has improved fact boxes, including service and locks information, and a new attachments fact box.
-- A new lines subform on the e-document card shows the lines received in the XML, for both processed and unprocessed documents, with GL account information where applicable.
+- The e-document card has an improved fact box (the captions say service and locks are shown there) and an attachments fact box.
+- A new lines subform on the e-document card shows the lines received in the XML, for both processed and unprocessed documents. In the demo, the purchase invoice created from the e-document showed the lines with GL accounts set.
 - The presenter says six sessions cover e-documents in this release wave.
 
 ## Chapters
@@ -217,14 +217,14 @@ The demo walks through the e-document card with new fact boxes, a lines subform,
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Document preview in e-documents | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=110s) |  |
-| Two-step e-document processing | status not stated | [1:17](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=77s) |  |
-| Extracted data view for e-documents | status not stated, demoed | [3:49](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=229s) |  |
-| Embedded PDF attachments in e-documents | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=248s) |  |
-| E-document card improvements | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=248s) |  |
-| E-document lines subform | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=198s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Document preview in e-documents | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=110s) |
+| Two-step e-document processing | status not stated | [1:17](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=77s) |
+| Extracted data view for e-documents | status not stated, demoed | [3:49](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=229s) |
+| Embedded PDF attachments in e-documents | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=248s) |
+| E-document card improvements | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=248s) |
+| E-document lines subform | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=CCIGX86ljYQ&t=198s) |
 
 ## AL objects mentioned
 

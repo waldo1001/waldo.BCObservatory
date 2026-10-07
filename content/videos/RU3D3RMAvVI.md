@@ -15,12 +15,12 @@ tags:
   - al development
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:47.261Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:47.298Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,7 +141,7 @@ quotes:
 
 > Power BI embedding changes in the 2025 release wave 1 for Business Central: a cleaner embed UI and a new AL page type, User Control Host, for hosting control addins. The video demos migrating a page to this type and lists unsupported properties and actions. Shown in preview version 26.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=RU3D3RMAvVI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=RU3D3RMAvVI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 8:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,12 +170,12 @@ The second area is the new User Control Host page type in AL, built for hosting 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Improved Power BI Embed User Interface | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=45s) |  |
-| User Control Host Page Type | status not stated, demoed | [3:42](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=222s) |  |
-| Simplified Property Model for User Control Host | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=356s) |  |
-| Power BI Report Reflow and Responsive Design | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=157s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Improved Power BI Embed User Interface | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=45s) |
+| User Control Host Page Type | status not stated, demoed | [3:42](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=222s) |
+| Simplified Property Model for User Control Host | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=356s) |
+| Power BI Report Reflow and Responsive Design | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=157s) |
 
 ## AL objects mentioned
 

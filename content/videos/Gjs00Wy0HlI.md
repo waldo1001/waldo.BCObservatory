@@ -2,7 +2,7 @@
 id: video/Gjs00Wy0HlI
 type: video
 title: "What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)"
-summary: "AL-Go for GitHub changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols, short-lived artifacts, versioning strategy 3 and commit options. Shows how each is configured for Business Central build pipelines."
+summary: "AL-Go for GitHub build and performance changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols as settings, full short-lived artifacts replacing the old intermediate build artifacts, versioning strategy 3 and commit options. Most are shown with settings examples and demos from Business Central repositories."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - ci/cd
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:48.942Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:48.987Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -58,6 +58,13 @@ evidence:
     commit: null
     t: 376
     quote: with the latest version of Ego now, we also support conditional settings based on build modes.
+  - kind: video
+    url: https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=563s
+    title: "What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)"
+    date: "2025-04-01T15:00:30.000Z"
+    commit: null
+    t: 563
+    quote: we do create them as shortlived artifacts meaning that you can you can use a setting to to define that that these shortlived artifacts
   - kind: video
     url: https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=630s
     title: "What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)"
@@ -160,6 +167,9 @@ quotes:
   - t: 376
     text: with the latest version of Ego now, we also support conditional settings based on build modes.
     check: exact
+  - t: 563
+    text: we do create them as shortlived artifacts meaning that you can you can use a setting to to define that that these shortlived artifacts
+    check: exact
   - t: 630
     text: it actually makes sense to have a versioning strategy where three digits are controlled by appjon and only one digit controlled by GitHub which
     check: exact
@@ -170,9 +180,9 @@ quotes:
 
 # What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)
 
-> AL-Go for GitHub changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols, short-lived artifacts, versioning strategy 3 and commit options. Shows how each is configured for Business Central build pipelines.
+> AL-Go for GitHub build and performance changes in the 2025 release wave 1: incremental builds for CI/CD, workflow concurrency, conditional settings by build mode, preprocessor symbols as settings, full short-lived artifacts replacing the old intermediate build artifacts, versioning strategy 3 and commit options. Most are shown with settings examples and demos from Business Central repositories.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Gjs00Wy0HlI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Gjs00Wy0HlI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,13 +192,13 @@ It then covers conditional settings based on build modes, preprocessor symbols a
 
 ## Key points
 
-- Incremental builds build only the apps modified in the commit; before they were enabled only for pull requests, now CI/CD builds are covered with complete artifact sets.
-- Workflow concurrency can cancel prior builds when several commits come in quickly, and it works with incremental builds on a branch.
-- Conditional settings can now depend on build mode, so modes such as default and next major can use different artifacts and behaviors.
-- Preprocessor symbols can be added as AL-Go settings to select different code paths at compile time.
-- Full artifacts are now created in all builds as short-lived artifacts, replacing artificial intermediate artifacts, with a configurable retention period instead of the one-day default.
+- Incremental builds build only the apps modified in the commit. Before, they were enabled only for pull requests; now CI/CD builds use them too, and apps that were not rebuilt are copied from the last known good build so the artifact set stays complete.
+- Workflow concurrency can cancel prior builds when several commits come in quickly. It works with incremental builds, which then build all changes since the last known good build.
+- Conditional settings can now depend on build mode. For example, the next major build mode can use the next major artifact instead of the 25.4 artifact.
+- Preprocessor symbols can be added as an AL-Go setting (an array), including inside conditional settings per build mode, and are passed to the compiler.
+- Full artifacts are now created in all builds as short-lived artifacts, replacing the artificial intermediate build artifacts used for multi-project dependencies. Retention defaults to one day and a setting can make it longer.
 - Versioning strategy 3: app.json controls major, minor and build numbers, and the GitHub counter controls only the fourth digit.
-- The commit options construct supports a message suffix, auto-merge and pull request labels, useful for work item management integration.
+- The commit options construct supports a message suffix, auto-merge and pull request labels. It is used with the Azure Boards integration to link pull requests to work items.
 
 ## Chapters
 
@@ -202,15 +212,15 @@ It then covers conditional settings based on build modes, preprocessor symbols a
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Incremental Builds | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=46s) |  |
-| Workflow Concurrency | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=220s) |  |
-| Conditional Settings Based Build Modes | status not stated, demoed | [5:54](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=354s) |  |
-| Preprocessor Symbols in AL-Go | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=423s) |  |
-| Short-Lived Artifacts | status not stated | [8:29](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=509s) |  |
-| Versioning Strategy 3 | status not stated | [10:03](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=603s) |  |
-| Commit Options | status not stated, demoed | [11:01](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=661s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Incremental Builds | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=46s) |
+| Workflow Concurrency | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=220s) |
+| Conditional Settings Based Build Modes | status not stated, demoed | [5:54](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=354s) |
+| Preprocessor Symbols in AL-Go | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=423s) |
+| Short-Lived Artifacts | status not stated | [8:29](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=509s) |
+| Versioning Strategy 3 | status not stated | [10:03](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=603s) |
+| Commit Options | status not stated, demoed | [11:01](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=661s) |
 
 ## AL objects mentioned
 
@@ -226,6 +236,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:21](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=81s) "The primary reason for that was that we wanted every CI/CD build to have like a complete set of artifacts built and we've solved"
 - [3:50](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=230s) "it works very well with incremental builds if you set up incremental builds on a branch"
 - [6:16](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=376s) "with the latest version of Ego now, we also support conditional settings based on build modes."
+- [9:23](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=563s) "we do create them as shortlived artifacts meaning that you can you can use a setting to to define that that these shortlived artifacts"
 - [10:30](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=630s) "it actually makes sense to have a versioning strategy where three digits are controlled by appjon and only one digit controlled by GitHub which"
 - [11:29](https://www.youtube.com/watch?v=Gjs00Wy0HlI&t=689s) "in the latest versions of go we now allow that. Uh so what you'll do is you'll add this commit options construct."
 

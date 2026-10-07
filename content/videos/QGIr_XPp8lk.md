@@ -2,7 +2,7 @@
 id: video/QGIr_XPp8lk
 type: video
 title: "What's New: Extending E-Documents with New Interface (2025 release wave 1)"
-summary: "E-document framework changes in 2025 release wave 1 (version 26): five new interfaces for building connectors (sender, response handler, receiver, received document marker, document action), replacing the old e-document integration interface, which is deprecated and removed in three waves by 2026 wave 2."
+summary: The 2025 release wave 1 (version 26) of the e-document framework adds five new interfaces for building connectors. Four of them (I document sender, I document response handler, I document receiver, I received document marker) replace the old e-document integration interface. The fifth, I document action, standardizes custom document actions. The old interface is deprecated and will be removed in three waves, that is 2026 wave 2.
 tier: official
 language: en
 tags:
@@ -17,18 +17,25 @@ tags:
   - migration
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:59:56.243Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:59:56.292Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: bba58f3bacd064d116ee968d02194f35308947242e4d1e850b4c4f9113cf6922
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s
+    title: "Deprecated e-document integration interface removal timeline: announced"
+    date: "2025-04-01T15:00:29.000Z"
+    commit: null
+    t: 761
+    quote: The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2
   - kind: video
     url: https://www.youtube.com/watch?v=QGIr_XPp8lk&t=5s
     title: "What's New: Extending E-Documents with New Interface (2025 release wave 1)"
@@ -72,6 +79,13 @@ evidence:
     t: 497
     quote: we had to throw in this is handled event called on after insert imported document for you to go fetch the XML from from
   - kind: video
+    url: https://www.youtube.com/watch?v=QGIr_XPp8lk&t=687s
+    title: "What's New: Extending E-Documents with New Interface (2025 release wave 1)"
+    date: "2025-04-01T15:00:29.000Z"
+    commit: null
+    t: 687
+    quote: It is also safe because now we actually catch errors when HTTP communication fails on the receiving side.
+  - kind: video
     url: https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s
     title: "What's New: Extending E-Documents with New Interface (2025 release wave 1)"
     date: "2025-04-01T15:00:29.000Z"
@@ -85,6 +99,13 @@ evidence:
     commit: null
     t: 773
     quote: Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn
+  - kind: video
+    url: https://www.youtube.com/watch?v=QGIr_XPp8lk&t=803s
+    title: "What's New: Extending E-Documents with New Interface (2025 release wave 1)"
+    date: "2025-04-01T15:00:29.000Z"
+    commit: null
+    t: 803
+    quote: They are all available on AL app extensions and you can find them under e document connectors
 links:
   learn: []
   objects: []
@@ -169,9 +190,9 @@ features:
     verified: false
     status_source: video
   - name: Deprecated e-document integration interface removal timeline
-    status: unclear
+    status: announced
     t: 761
-    verified: false
+    verified: true
     status_source: video
 objects_mentioned:
   - interface I document sender
@@ -199,19 +220,25 @@ quotes:
   - t: 497
     text: we had to throw in this is handled event called on after insert imported document for you to go fetch the XML from from
     check: snapped
+  - t: 687
+    text: It is also safe because now we actually catch errors when HTTP communication fails on the receiving side.
+    check: exact
   - t: 761
     text: The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2
     check: exact
   - t: 773
     text: Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn
     check: exact
+  - t: 803
+    text: They are all available on AL app extensions and you can find them under e document connectors
+    check: exact
 ---
 
 # What's New: Extending E-Documents with New Interface (2025 release wave 1)
 
-> E-document framework changes in 2025 release wave 1 (version 26): five new interfaces for building connectors (sender, response handler, receiver, received document marker, document action), replacing the old e-document integration interface, which is deprecated and removed in three waves by 2026 wave 2.
+> The 2025 release wave 1 (version 26) of the e-document framework adds five new interfaces for building connectors. Four of them (I document sender, I document response handler, I document receiver, I received document marker) replace the old e-document integration interface. The fifth, I document action, standardizes custom document actions. The old interface is deprecated and will be removed in three waves, that is 2026 wave 2.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QGIr_XPp8lk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=QGIr_XPp8lk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-04-01 · 13:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -221,13 +248,13 @@ It then walks through the five new interfaces, shows how sending and receiving c
 
 ## Key points
 
-- Sending: implement I document sender. It has the same parameters as before plus a send context codeunit as third parameter, which wraps HTTP request and response information.
-- I document response handler is optional and is used only for asynchronous services that verify contents before responding.
+- Sending: implement I document sender. It has the same parameters as before except for a send context codeunit as the third parameter, which wraps HTTP request and response information and any data you want to send.
+- I document response handler is optional and is used for asynchronous services that process and verify contents before responding. You implement its get response method, which returns true or false.
 - Receiving: I document receiver has two functions, receive documents (metadata) and download document (contents). This removes the need for the is handled event on after insert imported document.
-- I received document marker is optional and acknowledges receipt to services that track received status, to prevent duplicate sending.
-- I document action standardizes custom service calls, and the framework handles state updates.
-- Receiving logic gets error handling for an unavailable integration service, so the framework stays in control and avoids unexpected e-document states.
-- The old e-document integration interface is deprecated and will be removed in three waves, ending 2026 wave 2. Migrate before then, using the documentation on Microsoft Learn.
+- I received document marker is optional and acknowledges receipt to services that track received status, so they do not send the document again.
+- I document action standardizes custom service calls, and the framework handles state updates so the user experience is the same across connectors.
+- The framework now catches errors when HTTP communication fails on the receiving side, so it stays in control and avoids unexpected e-document states.
+- The old e-document integration interface is deprecated and will be removed in three waves, that is 2026 wave 2. Migration is described as simple; follow the 'extending the e-documents functionality' documentation on Microsoft Learn.
 
 ## Chapters
 
@@ -253,7 +280,7 @@ It then walks through the five new interfaces, shows how sending and receiving c
 | Send context code unit wrapper | status not stated, demoed | [6:01](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=361s) |  |
 | Receive context data template | status not stated, demoed | [9:16](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=556s) |  |
 | Updated Avalara connector | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=317s) |  |
-| Deprecated e-document integration interface removal timeline | status not stated | [12:41](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s) |  |
+| Deprecated e-document integration interface removal timeline | announced | [12:41](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s) | "The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2" ([12:41](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s)) |
 
 ## AL objects mentioned
 
@@ -276,8 +303,10 @@ Not found in BC28-30: interface "I document sender", interface "I document respo
 - [3:59](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=239s) "we are providing now five new interfaces and don't worry it's uh it is not meant to scare you that there are five because"
 - [5:49](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=349s) "In the new version for sending specifically you implement the I document sender and the I document sender has the same parameters as before"
 - [8:17](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=497s) "we had to throw in this is handled event called on after insert imported document for you to go fetch the XML from from"
+- [11:27](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=687s) "It is also safe because now we actually catch errors when HTTP communication fails on the receiving side."
 - [12:41](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=761s) "The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2"
 - [12:53](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=773s) "Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn"
+- [13:23](https://www.youtube.com/watch?v=QGIr_XPp8lk&t=803s) "They are all available on AL app extensions and you can find them under e document connectors"
 
 ## Disclaimers in the video
 

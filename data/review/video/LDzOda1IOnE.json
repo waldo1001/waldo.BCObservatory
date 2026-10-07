@@ -1,0 +1,23 @@
+{
+  "video_id": "LDzOda1IOnE",
+  "item_id": "video/yt-microsoft/LDzOda1IOnE",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim. Some run on into the next segment, which is allowed.",
+    "The summary and key points match the transcript, including that publish and attach are sandbox-only, symbol search needs source code to be available, and Copilot uses the symbol keyword.",
+    "All feature statuses stay unclear. The transcript only says 'this release' and never calls a feature preview or GA. 'Preview environment' describes the demo environment, not a feature's status.",
+    "The '2025 release wave 1' in the summary comes from the video title. The transcript itself never names the release wave."
+  ],
+  "input_hash": "ef018273210203d726e25de17a0a3f6ea4f07e4a41b5c5fae98a06fd551da3df",
+  "by": "opus",
+  "at": "2026-10-07T22:59:24.648Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061173000000000005
+  }
+}

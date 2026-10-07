@@ -5,11 +5,11 @@
   "overview": "The video explains why reviewing incoming electronic documents matters, since this is required for compliance in many countries. Before, users could not review an incoming document before processing, and even afterwards they could not see its details. Now the XML is read and its content is shown in a human-readable form.\n\nThe demo walks through the e-document card with new fact boxes, a lines subform, an extracted data view with header and line information, and PDFs embedded in the XML shown as attachments. It also describes the two-step processing option, and points viewers to six other e-document sessions.",
   "key_points": [
     "Incoming e-documents can be previewed before processing, so users can inspect vendor data before a purchase invoice is created.",
-    "The extracted data view shows header and line information read from the received XML.",
-    "Two-step processing first creates a draft document, then lets the user decide whether to process it into a purchase invoice. One-step automatic processing remains the default.",
+    "The extracted data view (Related > View extracted data) shows header and line information read from the received XML.",
+    "One-step automatic processing remains the default, but it can be turned off. In two-step processing, the document is first imported, and the user then decides whether to process it into a purchase invoice.",
     "PDFs embedded in XML e-documents are extracted automatically and stored as attachments, which can be opened from the e-document card.",
-    "The e-document card has improved fact boxes, including service and locks information, and a new attachments fact box.",
-    "A new lines subform on the e-document card shows the lines received in the XML, for both processed and unprocessed documents, with GL account information where applicable.",
+    "The e-document card has an improved fact box (the captions say service and locks are shown there) and an attachments fact box.",
+    "A new lines subform on the e-document card shows the lines received in the XML, for both processed and unprocessed documents. In the demo, the purchase invoice created from the e-document showed the lines with GL accounts set.",
     "The presenter says six sessions cover e-documents in this release wave."
   ],
   "audience": [

@@ -1,16 +1,16 @@
 {
   "video_id": "BwBR8JwwQa4",
   "item_id": "video/yt-microsoft/BwBR8JwwQa4",
-  "summary": "Shopify connector B2B changes in the 2025 release wave 1: import of all Shopify company locations with addresses, tax IDs and payment terms, tax ID mapping, customer export with tax ID and company ID, payment terms mapping, and catalog sync with customer-specific prices. Demoed in a 4-minute video.",
+  "summary": "Shopify connector B2B changes in 2025 release wave 1. The connector imports all Shopify company locations with addresses, tax IDs and payment terms, and the tax ID can be used for automatic entity mapping. When a customer is exported to Shopify, the connector sends the tax ID (registration number or VAT registration number, set on the Shopify Shop Card) and fills the company ID with the customer number. Catalogs are created with the customer number filled in, so prices are customer-specific.",
   "overview": "The video covers how the Shopify connector handles B2B companies and company locations. It imports every company location from Shopify into Business Central, including address, tax ID and payment terms, and shows how the imported tax ID can drive automatic entity mapping of Shopify companies to Business Central customers by registration number.\n\nIt also shows the export direction: customer export now sends tax ID and company ID to Shopify, which helps order creation and traceability. The demo covers payment terms mapping, the new tax ID mapping field on the Shopify Shop Card, and catalog creation where the customer number is filled in so prices are calculated for that customer.",
   "key_points": [
     "The connector imports all company locations from Shopify, with address, tax ID and payment terms for each location.",
-    "Shopify admin cannot set a default location, so the connector uses the first imported location as the default.",
-    "Imported tax ID can be used for automatic entity mapping of Shopify companies to Business Central customers by registration number.",
-    "A new field on the Shopify Shop Card sets which tax ID is sent to Shopify: registration number or VAT registration number.",
-    "Shopify payment terms must be mapped to Business Central payment terms; the details are stored in the default company location.",
-    "Automatic catalog creation keeps prices equal between Shopify and Business Central and needs the sync prices toggle enabled; the customer number is filled in for customer-specific prices.",
-    "The connector fills the company/attention field in the created location with the company name, which is used in imported orders."
+    "Shopify admin cannot set a default location, so the connector uses the first imported location as the default. The default location is the main source when creating or updating customer cards.",
+    "Imported tax ID can be used for automatic entity mapping of Shopify companies to Business Central customers by registration number, based on Shopify Shop Card settings.",
+    "A new company Tax ID mapping field on the Shopify Shop Card sets which tax ID is sent to Shopify: registration number or VAT registration number.",
+    "Shopify payment terms must be mapped to Business Central payment terms. On export, the payment term details are stored in the default company location.",
+    "When the connector creates a catalog, it fills in the customer number so prices are calculated for that customer. You need to turn on the sync prices toggle and run sync prices.",
+    "In the created Shopify company, the company ID is filled with the Business Central customer number for traceability."
   ],
   "audience": [
     "functional consultant",

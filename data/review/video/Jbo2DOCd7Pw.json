@@ -1,0 +1,29 @@
+{
+  "video_id": "Jbo2DOCd7Pw",
+  "item_id": "video/yt-microsoft/Jbo2DOCd7Pw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The facts, quotes and summary are generally supported by the transcript.",
+    "The Service Management feature had no status. At 91.2 the speaker says it is being released in this wave, so I set it to ga with that evidence.",
+    "The Dataverse feature description says 'real-time synchronization', which the transcript does not state. It only says the integration keeps the data in sync. This is minor, and the feature itself is supported.",
+    "The page left out that the integration is included out of the box in Business Central. I added a quote and a key point for this."
+  ],
+  "input_hash": "ecb6a4d7ade997bf92fe4f60422e56d496ff55101a73af65f42722e33417ca49",
+  "by": "opus",
+  "at": "2026-10-07T23:00:19.800Z",
+  "applied": [
+    "Field Service Integration for Projects: status ga",
+    "quote at 58s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Field Service Integration for Service Management -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.070985
+  }
+}

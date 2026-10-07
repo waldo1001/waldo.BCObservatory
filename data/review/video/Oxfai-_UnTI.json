@@ -1,0 +1,29 @@
+{
+  "video_id": "Oxfai-_UnTI",
+  "item_id": "video/yt-microsoft/Oxfai-_UnTI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes are verbatim. The t=320 quote runs into the next segment, which is fine.",
+    "The transcript names only two new features: telemetry on usage and lifecycle changes, and the same events in Microsoft Purview. Change log, sensitive field monitoring, data analysis and permissions are covered by new documentation, not new features. The summary did not make that clear.",
+    "The key point said telemetry 'can be viewed' in Purview. The transcript says the similar events 'will eventually surface' in Purview, and that Business Central data in Purview is in preview.",
+    "The key point said sensitive field monitoring 'needs extra setup beyond the standard change log'. The transcript does not say that. It only says that once you set it up, you get the change log plus email notifications.",
+    "No feature has an explicit GA or preview status. The Purview preview applies to Business Central data in Purview in general, so all feature statuses stay unclear."
+  ],
+  "input_hash": "21b24ae668abd69259caccd199d73249722f6518b9bad27690677e7cf9980cb9",
+  "by": "opus",
+  "at": "2026-10-07T22:59:26.242Z",
+  "applied": [
+    "quote at 335s",
+    "quote at 236s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086621
+  }
+}
