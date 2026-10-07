@@ -4,21 +4,16 @@ Written at the end of the planning session so a fresh Claude Code session in thi
 without the original conversation. Read in this order: `AGENTS.md` → this file → `docs/PLAN.md` →
 `docs/DECISIONS.md` → `docs/research/2026-10-06-research-findings.md`.
 
-## Open specs, not yet implemented (2026-10-07)
+## Open specs, not yet implemented
 
-- **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
-  PLAN milestone M7. Status: every tranche (1 to 4b) is on main as of 2026-10-07 evening; D65 not yet appended. Each tranche has a deviations section, 8.1 to 8.5, with its measured numbers.
-  Open: the D65 entry itself (section 12, coverage numbers in 8.5) and the open questions listed in 8.1-8.5. Until
-  the next full nightly the live site still shows the old hubs, no Related block and no app pages.
+None as of 2026-10-07 21:30. Every spec in `docs/specs/` is implemented (each has a "built, deviations" section).
+Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
+spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **BC Code Atlas as a grounding partner**: `docs/specs/code-atlas.md`, decision D67 (appended), PLAN milestone M9.
-  Status: done, 2026-10-07 evening. The plugin (0.2.0, installed on waldo's Mac) connects bc-code-atlas with the
-  `bc-grounding` skill; object pages carry "Ask your agent" and, once the code-pages phase of the first graph night
-  has run, Calls / Called by / Implements; video and post pages join the objects they name; graphify-al is pinned and
-  installed for `bcobs` (selfcheck green); the first call graph (BC29, W1 + apps) landed in run 37664505302 and passed
-  the precision check (spec section 7). Open: the message to Stefan (decision 12); BC30's graph was built while a
-  manual control run used the same checkout, so compare `data/code/graph/30/manifest.json` with BC29's (15,711 edges,
-  1,350 unresolved) and, if it looks off, delete `graphify-out` under the BC30 checkout and bump `CALLGRAPH_VERSION`.
+Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
+Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
+edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
+questions in its section 12).
 
 ## Where things stand
 
