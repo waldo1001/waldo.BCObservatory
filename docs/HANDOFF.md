@@ -6,21 +6,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Open specs, not yet implemented (2026-10-07)
 
-- **Source stage: the original source, in the page**: `docs/specs/source-embed.md`, decision D60, PLAN milestone M5.
-  Status: proposed, spec complete, no code written. Video pages play the YouTube video click-to-load with chapter
-  seeking; post pages show the blog in a sandboxed frame when a nightly probe says it may be framed, else a source
-  card. Start at section 9 (files) and section 6 (the probe, deterministic, tests in 6.7); section 10 is the
-  verification matrix. Phase 2 (section 8) builds on `EvidenceChip.astro` from D64, which is on main: an `<a>` with
-  the real deep link, `data-kind`, and `data-t` for a second of a video. D64 put chips on feature pages only and left
-  the video and post templates to this work: phase 1 can add `<EvidenceList evidence={fm.evidence ?? []} />` there
-  (a video's quotes each become a chip with its second). Until then, every video and post page still sends the
-  reader to YouTube or the blog with one button.
-
-- **Merged BCApps pull requests as observed changes**: `docs/specs/bcapps-pull-requests.md`, decision D61, PLAN
-  milestone M6. Status: proposed, spec complete, no code written. Start at the spec's section 6 (tasks, in order)
-  and section 5 (tests first). The answer to "does the observatory observe BCApps pull requests?" is no until this
-  lands.
-
 - **Discovery: find the right hub, explain every field, point onward**: `docs/specs/discovery.md`, decision D65,
   PLAN milestone M7. Status: proposed, spec complete, no code written. Four zero-LLM tranches with exit criteria in
   section 8; start with tranche 1 (render the extracted field ToolTips, join hubs to their objects through
@@ -40,6 +25,14 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **Source stage, D60** (`docs/specs/source-embed.md`, M5): phases 1 and 2 on main. Video pages play click-to-load
+  with chapter seeking, post pages frame the blog when the nightly probe allows it (else a source card), evidence chips
+  open the player at their second, list posters, mini-player, WordPress cards. Sections 13 and 14 of the spec record
+  what was built and where it differs.
+- **Code changes, D61** (`docs/specs/bcapps-pull-requests.md`, M6): every phase on main. Merged BCApps, AL-Go and
+  BCQuality pull requests are pages under `content/changes/<repo>/<n>`, joined by exact file path to object pages,
+  with "Recent changes" on object pages, a digest section, search, graph and `whats_new`. Section 12 of the spec records
+  the deviations.
 - **Galaxy views, D66** (`docs/specs/galaxy-views.md`, M8): all five phases on main. The galaxy on the Learn tree
   and namespace plots with ports and a lens bar (D), the neighbourhood explorer at `/neighbourhood/` (C), question
   entries on the home page, Tilt with namespace tiles as level of detail (A). The new summary, `landed.json` and
