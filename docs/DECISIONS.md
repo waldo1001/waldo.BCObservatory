@@ -609,3 +609,15 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   why its number differs. The counts live on in the Sections cards, the lede moved to the "About, and for your agent"
   block, the Search button went (the header field is the one search; Ctrl+K stays the object finder, D46). The
   header row is wider than the page (1440px) so it fits one line on a 1440 screen; narrower, the search wraps.
+- **D71 The this-week rings draw only under the this-week lens; the header pill leaves the home page.** The pulse
+  rings for "landed this week" (D66) were always on: every hub a video or post of the week links to carried one,
+  on every lens, at every level. On 2026-10-07 that was 99 hubs for 74 items, so the whole overview flashed and
+  the rings pointed at nothing. Now the rings and their pulse draw only while `this week` is the active lens
+  (`landedRingsOn` in `galaxy-core.ts`, gating both the draw and the animation loop), at every level; the lens
+  chip, the questions menu and the header pill all set that lens through `#lens=landed`. Idle, the hubs are plain
+  stars. The accent colour of the week's media bodies beside the hubs (system and star levels) stays: it colours a
+  thing that is already drawn, and the panel's "Landed in" rows point at it. The home page showed the control
+  twice, D70's pill "74 new this week" in the header and "this week 99" in the lens bar, with two numbers (items
+  versus stars). The chip keeps the star count, like every other lens chip; the panel heading bridges the two
+  ("74 videos and posts landed"). The pill now renders on every page except the home page (`section="home"`),
+  where the chip is the one control. Spec: `docs/specs/this-week-lens.md`.

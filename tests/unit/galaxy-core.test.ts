@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseHash, portSpot, sortRows } from "../../site/src/scripts/galaxy-core.js";
+import { landedRingsOn, parseHash, portSpot, sortRows } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -26,4 +26,9 @@ test("list view sort: numbers highest first, names A to Z, ties stable", () => {
   assert.deepEqual(sortRows(rows, "star").map((r) => r.id), ["c", "b", "a"]);
   assert.deepEqual(sortRows(rows, "evidence").map((r) => r.id), ["c", "b", "a"]);
   assert.deepEqual(sortRows(rows, "changed").map((r) => r.id), ["c", "b", "a"]);
+});
+
+test("landed rings draw only under the this-week lens (D71)", () => {
+  assert.equal(landedRingsOn("landed"), true);
+  for (const id of ["version:30", "q:sift", "type:topic", "", null, undefined]) assert.equal(landedRingsOn(id), false, String(id));
 });

@@ -8,7 +8,7 @@
  *   plots are drawn behind the stars of the system in view.
  * - Encodings: hue = system; brightness = evidence on the star (Learn pages, videos, posts); size = connections;
  *   circle hub, rounded square object, triangle video, bar post; dashed teal ring = community evidence; accent ring
- *   and pulse = landed this week; accent frame = changed in the lens version; hollow dashed square = obsolete.
+ *   and pulse = landed this week, while the this-week lens is on (D71); accent frame = changed in the lens version; hollow dashed square = obsolete.
  * - A focused star draws its edges: solid inside its system, dashed to a port per target system (max 6). Ports are
  *   buttons; the panel lists the same crossings, so the ports are never the only way.
  * - Lenses, one at a time: changed in a version, this week, then type, tier, localization, source, no evidence, and
@@ -51,7 +51,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { parseHash, portSpot, sortRows, type SortKey } from "./galaxy-core.js";
+import { landedRingsOn, parseHash, portSpot, sortRows, type SortKey } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -248,7 +248,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   let raf = 0;
   let labelsFading = false;
   const drawing = () => level === 3 && !reduce.matches && Number.isFinite(focusAt) && performance.now() - focusAt < DRAW_MS;
-  const animating = () => !!anim || !!tiltAnim || labelsFading || drawing() || (!reduce.matches && lit.size > 0 && !tilted());
+  const animating = () => !!anim || !!tiltAnim || labelsFading || drawing() || (!reduce.matches && lit.size > 0 && landedRingsOn(lens?.id) && !tilted());
   const loop = () => {
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame((t) => {
@@ -453,8 +453,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         });
       }
     }
-    // landed this week: pulse ring (scale .7 to 1.25, opacity .9 to 0, 2400 ms); a static double ring under reduced motion
-    if (lit.size) {
+    // landed this week, only while the this-week lens is on (D71): pulse ring (scale .7 to 1.25, opacity .9 to 0, 2400 ms); a static double ring under reduced motion
+    if (lit.size && landedRingsOn(lens?.id)) {
       const k = (t % 2400) / 2400;
       ctx.strokeStyle = colors.accent; ctx.lineWidth = 1.5;
       for (const id of lit) {

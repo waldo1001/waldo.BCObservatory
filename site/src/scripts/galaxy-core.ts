@@ -42,3 +42,6 @@ export function sortRows<T extends Sortable>(rows: T[], key: SortKey): T[] {
   };
   return [...rows].sort((a, b) => by[key](a, b) || a.label.localeCompare(b.label, "en", { numeric: true }) || a.id.localeCompare(b.id));
 }
+
+/** D71: the landed-this-week rings and pulse draw only while the this-week lens is the active lens. */
+export const landedRingsOn = (lensId: string | null | undefined): boolean => lensId === "landed";

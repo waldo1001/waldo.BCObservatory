@@ -127,7 +127,8 @@ Canvas 2D and DOM, no new runtime library, no WebGL. `site/src/scripts/galaxy.ts
   (today: solid ring when `cs >= 0.5`; the handoff changes the rule).
 - Brightness from `ev` (unchanged formula shape, `sqrt`; the handoff's linear formula makes most hubs near-black at
   `maxEv`; I will compare both on real data and keep `sqrt` unless the linear one reads better).
-- "This week": pulse from `landed.json` (anchor date, not the browser date), accent bodies, panel rows.
+- "This week": pulse from `landed.json` (anchor date, not the browser date), accent bodies, panel rows. Since D71 the pulse draws only
+  while the this-week lens is on (`docs/specs/this-week-lens.md`).
 - **List view** of the focused system (sortable table: star, kind, connections, evidence, changed in) and the
   **390 px** layout: static locator strip, identity, exit chips, three lists.
 - Keyboard: Tab through stars in list order, arrows to the nearest star in that direction, Enter focuses, Esc up.

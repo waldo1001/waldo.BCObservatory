@@ -12,7 +12,8 @@ const nav = [
   ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
   ["videos", "Videos"], ["posts", "Posts"], ["digests", "Weekly"], ["sources", "Sources"],
 ];
-// D70: the week's new videos and posts as a pill in the header, on every page
+// D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
+// galaxy's own "this week" lens chip is the control (D71)
 const week = landed();
 ---
 <html lang="en">
@@ -39,7 +40,7 @@ const week = landed();
           <nav class="site-nav" aria-label="Sections">
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
-          {week.count > 0 && (
+          {week.count > 0 && section !== "home" && (
             <a class="new-pill" href={`${base}#lens=landed`} title={`Videos and posts of the 7 days up to ${week.anchor}, lit in the galaxy`}>
               <b>{week.count}</b> new this week
             </a>
