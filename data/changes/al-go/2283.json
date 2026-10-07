@@ -1,0 +1,56 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2283,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2283",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-21T09:54:04Z",
+  "merge_commit_sha": "aebdfe1a7536e9ada2d8021a323dcdb14b7704b1",
+  "author": "spetersenms",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix issue 2267: appsourcecop.json is not created for testapps",
+  "body_hash": "27800ef514ac54d96f0db95f7d25e65bc81f2138974ae856a4c85bf328e38246",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/CompileApps/Compile.ps1",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 6,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/CompileApps/Compile.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

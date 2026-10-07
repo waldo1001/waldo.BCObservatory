@@ -1,0 +1,55 @@
+{
+  "item_id": "change/bcapps-prs/9635",
+  "number": 9635,
+  "title": "Obsolete MLLM Payables Agent rollout scaffold",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "MLLM processing is now the permanent behavior for the Payables Agent feature. The rollout scaffold including the MLLM toggle, setup page, and related integration events are obsoleted, and the feature configuration experiment gate is removed.",
+  "key_points": [
+    "Obsoleted the Use MLLM Processing field and PA MLLM Setup page as the feature is fully rolled out",
+    "Removed the EDocMLLMExtraction feature configuration experiment gate; PreferredStructureDataImplementation now returns MLLM directly",
+    "Obsoleted the UseMLLMWhenEnabledInSetup subscriber and OnAfterSetIStructureReceivedEDocumentForPdf integration event",
+    "Updated tests to assert MLLM is the preferred implementation instead of testing experiment-based switching",
+    "Changes guarded by CLEAN29/CLEANSCHEMA29 for backward compatibility during cleanup"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "Payables Agent Setup",
+      "member": "Use MLLM Processing (field 11)",
+      "replacement": null
+    },
+    {
+      "object": "PA MLLM Setup",
+      "member": null,
+      "replacement": null
+    },
+    {
+      "object": "PA Events",
+      "member": "UseMLLMWhenEnabledInSetup",
+      "replacement": null
+    },
+    {
+      "object": "E-Doc. PDF File Format",
+      "member": "OnAfterSetIStructureReceivedEDocumentForPdf",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "MLLM Payables Agent feature (and MLLM PDF extraction) is fully rolled out. This removes / obsoletes the rollout scaffold so MLLM is the permanent behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004908,
+    "changes_in_call": 1
+  }
+}

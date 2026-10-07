@@ -6,10 +6,35 @@
   "title": "[Shopify] Store tax lines linked to order shipping charges",
   "url": "https://github.com/microsoft/BCApps/pull/9537",
   "published_at": "2026-07-21T20:29:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:59.427Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:04.504Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004097
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:04.682Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:04.687Z",
+      "path": "content/changes/bcapps/9537.md"
     }
   },
   "input_hash": "bb8504c535febd758b9ff496d4ca5cc74ba3eabd:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify store tax lines linked to order shipping charges"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "166ecaa97ab129ce80c4c256f68a6fb90381acd48d3efa450ac36c17980b6431"
 }

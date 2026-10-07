@@ -6,10 +6,35 @@
   "title": "Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)",
   "url": "https://github.com/microsoft/BCApps/pull/9482",
   "published_at": "2026-07-21T15:44:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:00.766Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:06.811Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004635
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:07.008Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:07.015Z",
+      "path": "content/changes/bcapps/9482.md"
     }
   },
   "input_hash": "66823610bb2f65fde39296c0ac3f34facc5e1b01:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "make service invoked system application facades callable by any user privacy notice page summary provider"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e9aa07dd9db4cb15c45ad8bac77242afb1b965266c89473f72d35317697b28d"
 }

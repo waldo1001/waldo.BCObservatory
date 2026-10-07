@@ -6,7 +6,7 @@
   "title": "[MCP] Register MCP server as a Copilot capability",
   "url": "https://github.com/microsoft/BCApps/pull/8634",
   "published_at": "2026-07-21T17:30:18Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 6,
       "objects": 6,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:03.499Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004394
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:03.677Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:03.683Z",
+      "path": "content/changes/bcapps/8634.md"
     }
   },
   "input_hash": "10c4a4cd608ac1aace23dd323aad88637723620f:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7709b0408a605a44cdd93305fcaa52d5832d829bfbda95046f08c8a905c82e7a"
+  "output_hash": "980a306d0a1b8c4ac71dd560453b698a739b69b108c361da47686b02083e5aa2"
 }

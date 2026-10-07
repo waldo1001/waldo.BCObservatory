@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/118",
+  "number": 118,
+  "title": "knowledge: 3 FP-suppression guards from BC apps negative feedback",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Three knowledge articles are added to clarify AL facts that were incorrectly flagged by the review agent, suppressing false-positive findings for ObsoleteReason omissions, bare Get() calls, and OnAfterGetCurrRecord behavior.",
+  "key_points": [
+    "ObsoleteTag carries removal version; ObsoleteReason need not restate it",
+    "Bare Rec.Get() raises an error when record is missing, not silently ignored",
+    "OnAfterGetCurrRecord fires on current-record change, not per row; CalcFields there is not N+1",
+    "Articles follow existing negative-clarification style with false-positive keyword",
+    "Knowledge index grows from 245 to 248 entries"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Each encodes an AL fact that the review agent got wrong, so the corresponding finding is suppressed going forward.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003849,
+    "changes_in_call": 1
+  }
+}

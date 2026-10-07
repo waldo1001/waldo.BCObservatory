@@ -1,0 +1,161 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9537,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9537",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-21T20:29:09Z",
+  "merge_commit_sha": "bb8504c535febd758b9ff496d4ca5cc74ba3eabd",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Store tax lines linked to order shipping charges",
+  "body_hash": "9c2dea4572b1af36328af11df18c63e256334bd78e35c98962d7eb47b741f2ab",
+  "fixes_issues": [],
+  "work_items": [
+    642379
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrderTaxLines.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderTaxLine.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Shipping/Codeunits/ShpfyShippingCharges.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Shipping/Pages/ShpfyOrderShippingCharges.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Shipping/Tables/ShpfyOrderShippingCharges.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Shipping/ShpfyShippingChargesTest.Codeunit.al",
+      "status": "modified",
+      "additions": 294,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 379,
+    "deletions": 42,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyImportOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30161",
+        "type": "codeunit",
+        "id": 30161,
+        "name": "Shpfy Import Order",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30161"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Pages/ShpfyOrderTaxLines.Page.al",
+        "status": "modified",
+        "key": "page/30168",
+        "type": "page",
+        "id": 30168,
+        "name": "Shpfy Order Tax Lines",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30168"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Tables/ShpfyOrderTaxLine.Table.al",
+        "status": "modified",
+        "key": "table/30122",
+        "type": "table",
+        "id": 30122,
+        "name": "Shpfy Order Tax Line",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30122"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Shipping/Codeunits/ShpfyShippingCharges.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30191",
+        "type": "codeunit",
+        "id": 30191,
+        "name": "Shpfy Shipping Charges",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30191"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Shipping/Pages/ShpfyOrderShippingCharges.Page.al",
+        "status": "modified",
+        "key": "page/30128",
+        "type": "page",
+        "id": 30128,
+        "name": "Shpfy Order Shipping Charges",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30128"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Shipping/Tables/ShpfyOrderShippingCharges.Table.al",
+        "status": "modified",
+        "key": "table/30130",
+        "type": "table",
+        "id": 30130,
+        "name": "Shpfy Order Shipping Charges",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30130"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

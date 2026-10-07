@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9138",
+  "number": 9138,
+  "title": "[Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "A new Belgium localization app for Shopify Connector enables mapping customer tax IDs to the Enterprise No. field, which is required for Belgian B2B company sync. The W1 Shopify app notifies users if the optional Belgian app is not installed.",
+  "key_points": [
+    "New Shopify Connector BE app adds Enterprise No. as a tax ID mapping option for Belgian customers",
+    "Enum extension and codeunit implement the mapping logic for field 11310 (Enterprise No.)",
+    "W1 Shopify Shop Mgt. shows dismissable notification when Belgian localization is detected but the optional BE app is not installed",
+    "App is opt-in and registered only for Belgium in build configuration",
+    "Test project validates tax ID mapping and filtering for the Belgian implementation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004469,
+    "changes_in_call": 1
+  }
+}

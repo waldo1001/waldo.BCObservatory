@@ -6,10 +6,35 @@
   "title": "knowledge: 3 FP-suppression guards from BC apps negative feedback",
   "url": "https://github.com/microsoft/BCQuality/pull/118",
   "published_at": "2026-07-21T08:56:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:09.430Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:15.635Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.003849
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:15.637Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:17:15.640Z",
+      "path": "content/changes/bcquality/118.md"
     }
   },
   "input_hash": "8fb7f61808c5ddacc809abb5aac5230db1186cca:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge 3 fp suppression guards from bc apps negative feedback"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "442b392c910681f9a64611ca470b5c935cfb7031ca27f214b73d39e85fe29307"
 }

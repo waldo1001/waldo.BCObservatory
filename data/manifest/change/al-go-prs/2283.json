@@ -6,10 +6,18 @@
   "title": "Fix issue 2267: appsourcecop.json is not created for testapps",
   "url": "https://github.com/microsoft/AL-Go/pull/2283",
   "published_at": "2026-07-21T09:54:04Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:07.027Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "aebdfe1a7536e9ada2d8021a323dcdb14b7704b1:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix issue 2267 appsourcecop json is not created for testapps"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ca036ca058942cbdea889453e11798ab36f2ad02c3a9b2057566811fccf682c"
 }

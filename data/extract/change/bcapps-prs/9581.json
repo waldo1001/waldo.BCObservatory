@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9581",
+  "number": 9581,
+  "title": "[Shopify] Add Unlisted to Status for Created Products and update status tooltip",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify integration now supports Unlisted status when creating products and displays it in the status field tooltip. An Unlisted value was added to the product status enum with a new codeunit implementing the creation status interface.",
+  "key_points": [
+    "Added Unlisted value to the status picker for new product creation on Shop Card",
+    "Updated Status field tooltip to include Unlisted alongside Active, Archived, and Draft",
+    "Created new codeunit implementing ICreateProductStatusValue interface for Unlisted status",
+    "Registered new functionality in Shopify Objects permission set"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003659,
+    "changes_in_call": 1
+  }
+}

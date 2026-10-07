@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8554",
+  "number": 8554,
+  "title": "[Shopify] Fix incorrect G/L line on credit memo for refund with exchange item",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify connector now correctly handles credit memos for refunds involving exchange items by tracking exchange line items separately and emitting offsetting credit memo lines instead of incorrect G/L refund account entries.",
+  "key_points": [
+    "Tracks exchange items from Shopify via new paginated GraphQL queries on both order and refund imports",
+    "Marks exchange-item order lines and skips them during sales invoice creation to prevent double-counting",
+    "Generates synthetic negative-quantity refund lines during refund import to offset the exchange value in credit memos",
+    "Resolves location from the fulfillment data when creating the credit memo line for exchange items",
+    "Fixes incorrect G/L account posting that previously doubled the customer-balance impact of exchange values"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005376,
+    "changes_in_call": 1
+  }
+}

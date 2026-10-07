@@ -6,10 +6,35 @@
   "title": "[Shopify] Add Unlisted to Status for Created Products and update status tooltip",
   "url": "https://github.com/microsoft/BCApps/pull/9581",
   "published_at": "2026-07-21T16:14:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:59.660Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:04.806Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003659
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:05.004Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:05.010Z",
+      "path": "content/changes/bcapps/9581.md"
     }
   },
   "input_hash": "03bf5578f71adeae55f2d237687a5abea122a205:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify add unlisted to status for created products and update status tooltip"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ca96d1448ed636553f73814f74cc67f1a7419b510bfd819b8d484a04a87a684"
 }

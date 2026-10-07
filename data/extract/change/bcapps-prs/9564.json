@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9564",
+  "number": 9564,
+  "title": "[main] bug 640380 - Add Word layout and email body support for Purchase Quote and Sales Shipment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Word layouts and email body support have been added for Purchase Quote and Sales Shipment reports in the Czech localization, enabling these documents to be sent via email.",
+  "key_points": [
+    "Purchase Quote and Sales Shipment reports now have Word layouts",
+    "Email body support added for both documents",
+    "New .docx email template files created for each report",
+    "Report definitions updated to include layout configurations",
+    "Czech localization package extended with email capabilities"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "sales",
+    "purchasing"
+  ],
+  "quote": "The word layouts and email body support has been added for purchase quote and sales shipment reports.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003448,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9537",
+  "number": 9537,
+  "title": "[Shopify] Store tax lines linked to order shipping charges",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify order imports now persist tax lines linked to shipping charges in the existing tax-lines table, with a new action on the Shipping Costs page exposing these details including Channel Liable status.",
+  "key_points": [
+    "Tax lines from Shopify shipping charges are parsed and stored with the shipping line ID as parent reference",
+    "Shipping charge deletion removes associated tax lines automatically",
+    "New Tax Lines action on Shipping Costs page displays tax information for each shipping charge",
+    "Reimport logic uses delete-then-recreate to prevent duplicates or stale records",
+    "Currency and field lookups in tax-lines page now resolve through shipping charges"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004097,
+    "changes_in_call": 1
+  }
+}

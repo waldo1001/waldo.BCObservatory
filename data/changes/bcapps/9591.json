@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9591,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9591",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-21T08:56:29Z",
+  "merge_commit_sha": "49dd5cf3b2e8dcb04593b2f1b217b0877ea6f807",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 29875: add OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event",
+  "body_hash": "dc5d5f51538a95ce035015d1c9218a1b349b682197334544d0eb588f0d5786cb",
+  "fixes_issues": [],
+  "work_items": [
+    629859
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Codeunits/RelPurchAdvLetterDocCZZ.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 17,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Codeunits/RelPurchAdvLetterDocCZZ.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

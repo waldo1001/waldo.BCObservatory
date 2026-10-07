@@ -6,10 +6,35 @@
   "title": "[PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007",
   "url": "https://github.com/microsoft/BCApps/pull/8646",
   "published_at": "2026-07-21T13:07:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:17:02.332Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:17:08.313Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004945
+    },
+    "linked": {
+      "at": "2026-10-07T13:17:08.536Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:17:08.548Z",
+      "path": "content/changes/bcapps/8646.md"
     }
   },
   "input_hash": "6ee7f88f02c7385870a5a2b6e438fdc3d58f60c6:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "peppol add peppol se localization swedish organisation number for endpoints under scheme 0007"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04f0f8a6f2f4e7f3f6642b8852b77f7791bc88d7277b5d624449a6cbe8648106"
 }

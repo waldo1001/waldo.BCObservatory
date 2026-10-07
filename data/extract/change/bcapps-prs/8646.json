@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8646",
+  "number": 8646,
+  "title": "[PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A Swedish PEPPOL localization app normalizes Swedish organisation numbers in electronic addresses and legal entity identifiers to the correct 10-digit format when emitted under scheme 0007, following the PEPPOL BIS 3.0 standard.",
+  "key_points": [
+    "New PEPPOL SE localization app with enum extension and party info provider for Swedish-specific formatting",
+    "Swedish organisation numbers stripped to 10 digits (from 14-digit VAT) when scheme 0007 is used, while preserving full VAT in tax scheme fields",
+    "New PEPPOL 3.0 Setup records default to SE formats; existing setups maintain their configuration",
+    "Comprehensive test coverage including unit tests through enum dispatch and end-to-end invoice export validation",
+    "W1 PEPPOL app unchanged; SE-specific behaviour only activates when SE formats are selected"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004945,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9591",
+  "number": 9591,
+  "title": "[Extensibility Request] issue 29875: add OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A new OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event was added to the purchase advance letter document codeunit in the Czech localization, allowing extensions to intercept and customize approval checks.",
+  "key_points": [
+    "New event added to RelPurchAdvLetterDocCZZ codeunit",
+    "Enables extensions to handle purchase advance letter pending approval checks",
+    "Supports IsHandled pattern for event cancellation",
+    "Addresses extensibility request for Czech advance payments",
+    "Small code change with minimal impact"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003134,
+    "changes_in_call": 1
+  }
+}

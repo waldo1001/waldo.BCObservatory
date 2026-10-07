@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2313",
+  "number": 2313,
+  "title": "Fix dependency resolution when branch name contains ']' character",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed dependency resolution in GitHub Helper to correctly handle branch names containing the ] character by using literal path interpretation instead of wildcard matching.",
+  "key_points": [
+    "Branch names can legally contain ] characters, which are treated as wildcards in PowerShell -Path parameter",
+    "GetDependencies was returning the folder itself instead of enumerating .app files when ] appeared in the folder name",
+    "Changed from -Path to -LiteralPath to treat the folder path literally without wildcard interpretation",
+    "No behavior change for existing branch names without brackets",
+    "Includes regression test to prevent future breakage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003647,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9482",
+  "number": 9482,
+  "title": "Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "Two System Application facade codeunits now declare inherent entitlements and permissions so any authenticated user can call them in low-permission sessions like web services, OData, Copilot, and agents, instead of requiring explicit Execute permission.",
+  "key_points": [
+    "Privacy Notice and Page Summary Provider facades previously blocked non-SUPER users with NavPermissionException",
+    "Root cause was facades missing InherentEntitlements and InherentPermissions declarations that their implementation codeunits had",
+    "Adding inherent grants aligns facades with their delegate implementations and allows Copilot capabilities and agent tasks to function for all users",
+    "Actual table access remains controlled by implementation codeunits' declared tabledata permissions",
+    "Fixes permission denial for Entra tenant admins and other low-permission session users"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "quote": "This makes them callable by any authenticated user by declaring the inherent grants, matching their impls.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004635,
+    "changes_in_call": 1
+  }
+}

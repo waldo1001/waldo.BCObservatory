@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 118,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/118",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-21T08:56:16Z",
+  "merge_commit_sha": "8fb7f61808c5ddacc809abb5aac5230db1186cca",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge: 3 FP-suppression guards from BC apps negative feedback",
+  "body_hash": "0229d1b6a026606a8d72c1cab013ce884a2d9ecc4e75c8113b84b870206ab107",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/error-handling/unchecked-get-throws-when-record-not-found.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/onaftergetcurrrecord-is-not-per-row.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/obsoletereason-need-not-restate-removal-version.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 78,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/error-handling/unchecked-get-throws-when-record-not-found.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/onaftergetcurrrecord-is-not-per-row.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/obsoletereason-need-not-restate-removal-version.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}
