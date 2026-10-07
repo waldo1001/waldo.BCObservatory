@@ -68,8 +68,8 @@ export interface GNode {
   cross?: [string, number, string, (string | [string, string])[]][];
   /** Target systems beyond CROSS_SYSTEMS. */
   crossMore?: number;
-  /** Media bodies: total and the newest MEDIA_BODIES as [id, "v" | "p", date]. */
-  mb?: { n: number; top: [string, string, string | null][] };
+  /** Media bodies: total and the newest MEDIA_BODIES as [id, "v" | "p", date, source id?] (the source only when known, D73). */
+  mb?: { n: number; top: ([string, string, string | null] | [string, string, string | null, string])[] };
 }
 export interface GEdge { s: string; t: string; type: string; w?: number }
 
@@ -295,10 +295,11 @@ export function layout(g: Graph, keep: Set<string>, code: CodeInput, tocOrder: M
     }).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     return { cross: rows.slice(0, CROSS_SYSTEMS), ...(rows.length > CROSS_SYSTEMS ? { crossMore: rows.length - CROSS_SYSTEMS } : {}) };
   };
+  const srcOf = mediaSources(g);
   const mediaOf = (n: GNode): Pick<GNode, "mb"> => {
     const ms = [...(g.aux.media.get(n.id) ?? [])].map((id) => byId.get(id)!).filter(Boolean);
     if (!ms.length) return {};
-    const top = ms.sort((a, b) => (b.lit_at ?? "").localeCompare(a.lit_at ?? "") || a.id.localeCompare(b.id)).slice(0, MEDIA_BODIES).map((m) => [m.id, m.type === "video" ? "v" : "p", m.lit_at] as [string, string, string | null]);
+    const top = ms.sort((a, b) => (b.lit_at ?? "").localeCompare(a.lit_at ?? "") || a.id.localeCompare(b.id)).slice(0, MEDIA_BODIES).map((m) => withSource([m.id, m.type === "video" ? "v" : "p", m.lit_at] as [string, string, string | null], srcOf.get(m.id)));
     return { mb: { n: ms.length, top } };
   };
   const objectFields = (n: GNode): Pick<GNode, "ob" | "ec" | "ns" | "nn"> => {
@@ -334,14 +335,29 @@ export function heaviestPairs(weights: Map<string, number>, ids: string[], perSy
   return [...out.values()].sort((a, b) => b[2] - a[2] || `${a[0]}|${a[1]}`.localeCompare(`${b[0]}|${b[1]}`));
 }
 
-/** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to and their title. */
-export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: [string, string, string, string[], string][] } {
+/**
+ * Media id -> bare source id (blog or channel, without `source/`), from the "authored" edges (D73). The panel resolves
+ * the name through the source node; a video or post without an authored edge is not in the map.
+ */
+export function mediaSources(g: Graph): Map<string, string> {
+  const out = new Map<string, string>();
+  // edges are stored with their ends sorted (post/... < source/... < video/...): look at both
+  for (const e of g.edges) if (e.type === "authored") for (const [src, m] of [[e.s, e.t], [e.t, e.s]]) if (src.startsWith("source/") && /^(video|post)\//.test(m)) out.set(m, src.slice("source/".length));
+  return out;
+}
+/** Append the source id to a media tuple when it is known: omitted, never null, so old readers see the old length. */
+const withSource = <T extends unknown[]>(t: T, src: string | undefined): T | [...T, string] => (src ? [...t, src] : t);
+
+/** One landed item: [id, v | p, date, summary stars it links to, title, source id?]. */
+export type LandedItem = [string, string, string, string[], string] | [string, string, string, string[], string, string];
+/** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to, their title and source (D73). */
+export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: LandedItem[] } {
   const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
-  const hubs = new Map<string, Set<string>>();
+  const hubs = new Map<string, Set<string>>(), src = mediaSources(g);
   for (const e of g.edges) if (!isRelated(e)) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
   const items = g.nodes.filter((n) => (n.type === "video" || n.type === "post") && n.lit_at && n.lit_at >= from && n.lit_at <= today)
     .sort((a, b) => b.lit_at!.localeCompare(a.lit_at!) || a.id.localeCompare(b.id))
-    .map((n) => [n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort(), n.label] as [string, string, string, string[], string]);
+    .map((n) => withSource([n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort(), n.label] as [string, string, string, string[], string], src.get(n.id)));
   return { anchor: today, days: LANDED_DAYS, items };
 }
 
@@ -357,8 +373,8 @@ export interface LayersFile {
   objects: [string, number, number, number, number[], number, string, number][];
   /** [hub id, x, y, media]: the system's topic hubs and roadmap features */
   hubs: [string, number, number, number][];
-  /** [media id, v | p, hub indexes, title] */
-  media: [string, string, number[], string][];
+  /** [media id, v | p, hub indexes, title, source id?] (the bare source id only when known, D73) */
+  media: ([string, string, number[], string] | [string, string, number[], string, string])[];
   /** countries that replace at least one object of the system, with how many */
   countries: Record<string, number>;
 }
@@ -371,7 +387,7 @@ export interface LayersFile {
  */
 export function layersFiles(g: Graph, keep: Set<string>): LayersFile[] {
   const pos = g.aux.pos ?? new Map();
-  const byId = new Map(g.nodes.map((n) => [n.id, n]));
+  const byId = new Map(g.nodes.map((n) => [n.id, n])), srcOf = mediaSources(g);
   const hubsOf = new Map<string, Set<string>>();
   for (const e of g.edges) if (e.type === "documents") {
     const [o, h] = e.s.startsWith("object/") ? [e.s, e.t] : [e.t, e.s];
@@ -397,7 +413,7 @@ export function layersFiles(g: Graph, keep: Set<string>): LayersFile[] {
     out.push({
       system: s.id, label: s.label, x: s.x, y: s.y, r: s.r, objects: rows,
       hubs: hubs.map((h) => { const p = pos.get(h.id)!; return [h.id, r1(p.x), r1(p.y), g.aux.media.get(h.id)?.size ?? 0]; }),
-      media: [...mediaIx].sort(([a], [b]) => a.localeCompare(b)).map(([m, ix]) => [m, byId.get(m)?.type === "video" ? "v" : "p", ix, byId.get(m)?.label ?? m]),
+      media: [...mediaIx].sort(([a], [b]) => a.localeCompare(b)).map(([m, ix]) => withSource([m, byId.get(m)?.type === "video" ? "v" : "p", ix, byId.get(m)?.label ?? m] as [string, string, number[], string], srcOf.get(m))),
       countries: Object.fromEntries(Object.entries(countries).sort(([a], [b]) => a.localeCompare(b))),
     });
   }

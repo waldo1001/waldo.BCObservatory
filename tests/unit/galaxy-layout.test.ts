@@ -117,12 +117,12 @@ test("graph (D66): valid summary and landed week, star fields, golden positions,
   const n = (id: string) => s.nodes.find((x: any) => x.id === id);
   // the video names Table 17 exactly: evidence on the object, a media body on the hub that links it
   assert.equal(n("object/table/17").ev, 1);
-  assert.deepEqual(n("topic/fin/gl").mb, { n: 1, top: [["video/v1", "v", "2026-10-05"]] });
+  assert.deepEqual(n("topic/fin/gl").mb, { n: 1, top: [["video/v1", "v", "2026-10-05", "yt-ms"]] }, "the source id rides along (D73)");
   assert.deepEqual(n("object/table/17").ec, 1, "trigger events are not published events");
   assert.deepEqual(n("object/table/325").ob, ["29"]);
   // Table 18 (sales) points into finance: a port with the object at the far end
   assert.deepEqual(n("object/table/18").cross, [["finance", 1, "table_relation", ["object/table/15"]]]);
-  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes"]] }, "the post of 09-20 is older than the week");
+  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes", "yt-ms"]] }, "the post of 09-20 is older than the week");
   const fin = s.systems.find((x: any) => x.id === "finance");
   assert.deepEqual(fin.tree, [["topic/fin", "topic/fin/gl"], ["topic/fin", "topic/fin/vat"]]);
   assert.deepEqual(fin.plots.map((p: any) => [p[0], p[5]]).sort(), [["Finance.GeneralLedger.Account", 1], ["Finance.GeneralLedger.Ledger", 1], ["Finance.VAT.Setup", 1]]);
@@ -132,4 +132,28 @@ test("graph (D66): valid summary and landed week, star fields, golden positions,
   assert.deepEqual(golden, JSON.parse(readFileSync(GOLDEN, "utf8")));
   assert.ok(r.landed === 1);
   assert.equal(renderGraph(content, data, "", opts).written, 0, "same input, same output: nothing rewritten");
+});
+
+test("graph (D73): media tuples carry the bare source id, unlisted sources too; no source, the old length", () => {
+  const { content, data } = fixture();
+  // "blog" and "yt-ms" are not in sources.yaml: the pipeline passes the id, it does not resolve names
+  writeText(join(content, "posts/blog/2.md"), page({ id: "post/blog/2", type: "post", title: "VAT again", tier: "community", source_id: "blog", system: "finance", published_at: "2026-10-06", links: L({ topics: ["topic/fin/vat"] }) }));
+  writeText(join(content, "topics/fin/vat.md"), page({ id: "topic/fin/vat", type: "topic", title: "VAT", tier: "official", system: "finance", parent: "topic/fin", links: L({ topics: ["topic/fin"], posts: ["post/blog/1", "post/blog/2", "post/anon/3"] }) }));
+  writeText(join(content, "posts/anon/3.md"), page({ id: "post/anon/3", type: "post", title: "No source", tier: "community", system: "finance", published_at: "2026-10-04", links: L({ topics: ["topic/fin/vat"] }) }));
+  renderGraph(content, data, "", { today: "2026-10-07", major: "29" });
+  const landed = JSON.parse(readFileSync(join(data, "graph/landed.json"), "utf8"));
+  assert.ok(validate("landed", landed).ok, JSON.stringify(validate("landed", landed).errors));
+  const item = (id: string) => landed.items.find((i: unknown[]) => i[0] === id);
+  assert.equal(item("post/blog/2")[5], "blog");
+  assert.equal(item("video/v1")[5], "yt-ms");
+  assert.equal(item("post/anon/3").length, 5, "no source: the old tuple, nothing appended");
+  const s = JSON.parse(readFileSync(join(data, "graph/summary.json"), "utf8"));
+  assert.ok(validate("graph", s).ok, JSON.stringify(validate("graph", s).errors));
+  const vat = s.nodes.find((x: any) => x.id === "topic/fin/vat");
+  assert.deepEqual(vat.mb.top, [["post/blog/2", "p", "2026-10-06", "blog"], ["post/anon/3", "p", "2026-10-04"], ["post/blog/1", "p", "2026-09-20", "blog"]]);
+  const fin = JSON.parse(readFileSync(join(data, "graph/layers/finance.json"), "utf8"));
+  const m = (id: string) => fin.media.find((x: unknown[]) => x[0] === id);
+  assert.equal(m("video/v1")[4], "yt-ms");
+  assert.equal(m("post/blog/2")[4], "blog");
+  assert.equal(m("post/anon/3").length, 4);
 });

@@ -37,8 +37,8 @@
           "cross": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 4, "items": false, "prefixItems": [{ "type": "string" }, { "type": "number" }, { "type": "string" }, { "type": "array", "maxItems": 3, "items": { "anyOf": [{ "type": "string" }, { "$ref": "#/$defs/pair" }] } }] },
             "description": "cross-system edges, heaviest first: [target system, distinct targets, most frequent kind, up to 3 targets]; a target that is a summary star is its id, any other [id, label]. Objects: code relations; other stars: page links" },
           "crossMore": { "type": "number", "description": "target systems beyond the 6 in cross" },
-          "mb": { "type": "object", "required": ["n", "top"], "description": "media bodies: videos and posts on the star, total and the newest 6 as [id, v or p, date]",
-            "properties": { "n": { "type": "number" }, "top": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 3, "items": false, "prefixItems": [{ "type": "string" }, { "enum": ["v", "p"] }, { "type": ["string", "null"] }] } } } }
+          "mb": { "type": "object", "required": ["n", "top"], "description": "media bodies: videos and posts on the star, total and the newest 6 as [id, v or p, date, source] (source: the bare blog or channel id, only when known, D73)",
+            "properties": { "n": { "type": "number" }, "top": { "type": "array", "maxItems": 6, "items": { "type": "array", "minItems": 3, "items": false, "prefixItems": [{ "type": "string" }, { "enum": ["v", "p"] }, { "type": ["string", "null"] }, { "type": "string" }] } } } }
         }
       }
     },
