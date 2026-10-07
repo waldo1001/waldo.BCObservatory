@@ -1,0 +1,265 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 142,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/142",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-09-14T10:42:46Z",
+  "merge_commit_sha": "45ac371e7a8252f2ce7176060a640ea9506b320c",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add AL-focused AppSource validation guidance",
+  "body_hash": "c25a11c3e4dda3e9e4a8f368f2d96c5ba2d15a66b2ea817dc4c9b897a0ed8e9b",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/appsource/define-profiles-as-al-objects.bad.al",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/define-profiles-as-al-objects.good.al",
+      "status": "added",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/define-profiles-as-al-objects.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.bad.al",
+      "status": "added",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.good.al",
+      "status": "added",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.bad.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.good.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.bad.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.good.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.good.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/use-invariant-date-literals.bad.al",
+      "status": "added",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/use-invariant-date-literals.good.al",
+      "status": "added",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/appsource/use-invariant-date-literals.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-appsource-review.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 322,
+    "deletions": 4,
+    "al": 19
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/appsource/define-profiles-as-al-objects.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/define-profiles-as-al-objects.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/define-profiles-as-al-objects.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/use-invariant-date-literals.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/use-invariant-date-literals.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/appsource/use-invariant-date-literals.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-appsource-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11163,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11163",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-09-11T15:41:23Z",
+  "merge_commit_sha": "0d09ab124e7bfe7d29cf82d01fd3722a972dc3fb",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.",
+  "body_hash": "97cd5853cf5d040232fe19c1fa24a4f32f458c0fb5ad94e05b20e0927f32a072",
+  "fixes_issues": [],
+  "work_items": [
+    649336
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/Currency/ExchRateAdjmtProcess.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/ExchRateAdjmtLedgEntries.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/ExchRateAdjmtProcess.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMExchRateAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 93,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 102,
+    "deletions": 7,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/Currency/ExchRateAdjmtProcess.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/699",
+        "type": "codeunit",
+        "id": 699,
+        "name": "Exch. Rate Adjmt. Process",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/699"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/ExchRateAdjmtLedgEntries.Page.al",
+        "status": "modified",
+        "key": "page/186",
+        "type": "page",
+        "id": 186,
+        "name": "Exch.Rate Adjmt. Ledg.Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/186"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/ExchRateAdjmtProcess.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/699",
+        "type": "codeunit",
+        "id": 699,
+        "name": "Exch. Rate Adjmt. Process",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/699"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

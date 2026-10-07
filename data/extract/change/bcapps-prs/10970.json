@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10970",
+  "number": 10970,
+  "title": "[Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed subscription billing to correctly include usage data entries whose charge periods span across billing rhythm periods, preventing lost billing and reconciliation errors.",
+  "key_points": [
+    "Usage entries that span multiple billing periods are now captured entirely in one billing line",
+    "New GetUsageDataChargeEndDateCrossingPeriodEnd method detects entries crossing period boundaries",
+    "Billing period is extended to encompass crossing entries using CalculateNextBillingToDateForServiceCommitment",
+    "Prevents duplicate billing lines by starting the next period after the stretch point",
+    "Resolves reconciliation issues between billing lines and usage data totals"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "entry's amount is billed in no Billing Line at all",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003788,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[29x]-Mismatch between Purchase Invoice Total in Lines and Statistics after VAT adjustment",
   "url": "https://github.com/microsoft/BCApps/pull/10798",
   "published_at": "2026-09-14T11:35:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:29.940Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:35.001Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003618
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:35.208Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:35.213Z",
+      "path": "content/changes/bcapps/10798.md"
     }
   },
   "input_hash": "31461c012134ac4353b30c77edc3e3e712348a55:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "29x mismatch between purchase invoice total in lines and statistics after vat adjustment"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d6813158f2958d78de065b956c715d0670274b8a38290caf4c936d4897dd7916"
 }

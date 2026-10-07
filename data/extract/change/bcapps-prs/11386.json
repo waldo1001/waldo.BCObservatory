@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11386",
+  "number": 11386,
+  "title": "Fix E-Doc. Item Charge Mapping codeunit ID",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Doc. Item Charge Mapping codeunit ID was corrected from 6532 to the properly assigned ID 6246.",
+  "key_points": [
+    "Codeunit ID changed from 6532 to 6246",
+    "Fixes object identifier mismatch in EDocument module",
+    "One-line change in codeunit declaration",
+    "Ensures correct assignment of module resources"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The E-Doc. Item Charge Mapping codeunit uses an incorrect object ID. It must use the assigned codeunit ID 6246.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003133,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11242,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11242",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-14T10:04:07Z",
+  "merge_commit_sha": "7ba0795bf5eebc3b410e86144e5863f75c6c72cb",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 640925 - Enhance draft and proforma invoice report layouts and upgrade tag definitions",
+  "body_hash": "8d668c61f98c20580a318b29a98001fa272654732b83231d2a40b0cfb5f8f9ae",
+  "fixes_issues": [],
+  "work_items": [
+    640925
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/InstallApplicationCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 124,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInv.rdl",
+      "status": "modified",
+      "additions": 407,
+      "deletions": 140,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 569,
+    "deletions": 142,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/InstallApplicationCZL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/ReportExtensions/StdSalesProFormaInvCZL.ReportExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

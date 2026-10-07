@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11242",
+  "number": 11242,
+  "title": "[main] bug 640925 - Enhance draft and proforma invoice report layouts and upgrade tag definitions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Czech localization's Draft and Pro Forma Invoice report layouts are enhanced with improved alignment and new fields, and an upgrade procedure automatically sets the CZ-specific layouts as default during upgrades while preserving existing customizations.",
+  "key_points": [
+    "Pro Forma Invoice report layout updated with new columns (TotalLbl, VATIdentifier) and improved alignment",
+    "VAT calculation logic fixed to use SalesPost.GetSalesLines with temporary records, filtering out non-Item line types for correct VAT amounts",
+    "Automatic upgrade procedure added to set CZ-specific RDL layouts as default during upgrade, only when no custom layout has been selected",
+    "New tabledata permissions added for Report Layout Selection and Tenant Report Layout tables",
+    "Existing custom layout selections are preserved during upgrade"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004253,
+    "changes_in_call": 1
+  }
+}

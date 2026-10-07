@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11144,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11144",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-12T15:54:05Z",
+  "merge_commit_sha": "9ee4ba5cbcace23b5d505f4b59bdde20bd263949",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters",
+  "body_hash": "a492a6a1d01c93b0fef403fae61874bd96dc1a693f1b3a16557f133b9083ff42",
+  "fixes_issues": [],
+  "work_items": [
+    649310
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/PostInventoryCosttoGL.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryReportsI.Codeunit.al",
+      "status": "modified",
+      "additions": 85,
+      "deletions": 8,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 95,
+    "deletions": 18,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/PostInventoryCosttoGL.Report.al",
+        "status": "modified",
+        "key": "report/1002",
+        "type": "report",
+        "id": 1002,
+        "name": "Post Inventory Cost to G/L",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1002"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

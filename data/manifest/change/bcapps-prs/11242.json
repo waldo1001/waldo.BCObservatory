@@ -6,10 +6,35 @@
   "title": "[main] bug 640925 - Enhance draft and proforma invoice report layouts and upgrade tag definitions",
   "url": "https://github.com/microsoft/BCApps/pull/11242",
   "published_at": "2026-09-14T10:04:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:32.510Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:37.910Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004253
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:38.091Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:38.097Z",
+      "path": "content/changes/bcapps/11242.md"
     }
   },
   "input_hash": "7ba0795bf5eebc3b410e86144e5863f75c6c72cb:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 640925 enhance draft and proforma invoice report layouts and upgrade tag definitions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c5a36c20db96f80e9d5d4194d6e14fba0b98ea4d4723077d20000275b0effe65"
 }

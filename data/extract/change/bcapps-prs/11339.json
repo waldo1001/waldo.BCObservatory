@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11339",
+  "number": 11339,
+  "title": "Prevent order matching for invoice lines created by Get Receipt Lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "purchasing"
+  ],
+  "summary": "Matched order line functionality now rejects invoice lines created through Get Receipt Lines, preventing inconsistent matching information when working with similar purchase orders.",
+  "key_points": [
+    "CheckLineCanBeMatched validation blocks matching attempts on lines with a populated Receipt No. field",
+    "Guard enforced at both per-line entry points (page drill-down, action) and header-opened paths (codeunit functions)",
+    "Error message immediately informs users that matched order lines aren't supported for Get Receipt Lines-created lines",
+    "Test coverage includes both per-line and header-path rejection scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Matched order lines are not supported for lines created with the Get Receipt Lines function.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003967,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Master]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters",
   "url": "https://github.com/microsoft/BCApps/pull/11144",
   "published_at": "2026-09-12T15:54:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:36.542Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:02:41.288Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002903
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:41.440Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:41.446Z",
+      "path": "content/changes/bcapps/11144.md"
     }
   },
   "input_hash": "9ee4ba5cbcace23b5d505f4b59bdde20bd263949:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master post inventory cost to g l fails when concatenated dimension text exceeds 250 characters"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "89e88fe93bd80a98912a008372a6624b030bd9a9f761a1315f8f431bf7db7f76"
 }

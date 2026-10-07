@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11381",
+  "number": 11381,
+  "title": "Slice 641293: [Expense Agent] Expense Locations and Per-diem rules in configuration - added check for existing country",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent setup codeunits now check for existing country and currency codes before creating configuration records, preventing errors when demo data is incomplete.",
+  "key_points": [
+    "Added validation to skip expense location setup for non-existing country codes",
+    "Added validation to skip expense rule condition setup for missing data",
+    "Added validation to skip expense rule header setup for missing data",
+    "Prevents creation failures in customer databases with less data than demo data"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Skip creation for setup for non-existing country- and currency codes",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003126,
+    "changes_in_call": 1
+  }
+}

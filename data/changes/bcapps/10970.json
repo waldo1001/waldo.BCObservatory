@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10970,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10970",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-11T17:56:35Z",
+  "merge_commit_sha": "0896e1947b431a5714707d05ce8a9e88c7234804",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods",
+  "body_hash": "3cdb64341142040d33e50b750a175fda0117eea1d7c5b182c73e5dccd5fe5133",
+  "fixes_issues": [],
+  "work_items": [
+    648766
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/BillingProposal.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 294,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 321,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/BillingProposal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8062",
+        "type": "codeunit",
+        "id": 8062,
+        "name": "Billing Proposal",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8062"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

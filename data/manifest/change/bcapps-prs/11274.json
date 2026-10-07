@@ -6,7 +6,7 @@
   "title": "[Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location",
   "url": "https://github.com/microsoft/BCApps/pull/11274",
   "published_at": "2026-09-14T17:44:15Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003062
+    },
+    "linked": {
+      "at": "2026-10-07T13:02:28.129Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:02:28.134Z",
+      "path": "content/changes/bcapps/11274.md"
     }
   },
   "input_hash": "6258fb401eb1e432f51bc89a58509ad4f14af0fb:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08b46eb225890ad4b033650b0b7037e0ad4f721e662ba3821f87d37687632636"
+  "output_hash": "210706b5f670a2f804143bbb7b86cb5b282c4dec3f20657c62362eaecc7ed11e"
 }

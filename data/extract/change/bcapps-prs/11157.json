@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11157",
+  "number": 11157,
+  "title": "[main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "warehouse"
+  ],
+  "summary": "A fix prevents Assemble-to-Order sales lines from incorrectly blocking the shipment of unrelated non-ATO lines on the same order when warehouse activities are pending.",
+  "key_points": [
+    "Posting inventory picks for non-ATO lines no longer fails due to pending warehouse activities on separate ATO lines",
+    "The assembly order's Quantity to Assemble is not updated when component warehouse activities remain outstanding",
+    "A new event subscriber on 'OnBeforeModifySalesLine' handles the skip logic",
+    "Allows independent posting of non-ATO lines without interference from unrelated ATO line workflows",
+    "Test coverage added for Assembly-to-Order warehouse scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "assembly",
+    "warehouse",
+    "sales"
+  ],
+  "quote": "Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004124,
+    "changes_in_call": 1
+  }
+}

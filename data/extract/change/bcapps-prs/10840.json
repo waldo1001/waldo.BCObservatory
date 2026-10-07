@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10840",
+  "number": 10840,
+  "title": "Bugs/625412 Wrong posted G/L Entries and VAT Entries using Cash Basis Unrealized VAT from a partial Credit Memo if we mix VAT types and use only part of the amount in the Mexican version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "sales"
+  ],
+  "summary": "Cash-basis VAT calculations for partial credit memo applications now correctly determine settled amounts per VAT posting group, preventing incorrect G/L entries between realized and unrealized VAT accounts.",
+  "key_points": [
+    "Fixed VAT realization to use settled amount per VAT group instead of total settled amount",
+    "Added dedicated calculation for credit memo portion associated with each VAT posting group",
+    "Currency factor is applied before VAT amount calculation",
+    "Added condition to prevent G/L entries when credit memo application does not represent actual VAT realization",
+    "Comprehensive test coverage added for cash-basis VAT credit memo scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "quote": "Cash-basis VAT credit memos now realize VAT correctly for each VAT posting group.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003921,
+    "changes_in_call": 1
+  }
+}

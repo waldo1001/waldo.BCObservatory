@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/148",
+  "number": 148,
+  "title": "Add Job Queue reliability and scheduling guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Six new performance guidance articles document reliability and scheduling practices for Job Queue and Task Scheduler workloads, including idempotency requirements, UI independence, failure propagation, category-based serialization, on-hold behavior, and duplicate task prevention.",
+  "key_points": [
+    "Require external side effects in Job Queue handlers to be idempotent across retries using unique idempotency keys",
+    "Job Queue handlers must be independent of client UI and operate in background sessions",
+    "Execution failures must propagate so the dispatcher can log and retry according to configuration",
+    "Use Job Queue Category Code to serialize jobs that require mutual exclusion",
+    "Putting an entry on hold prevents future runs but does not stop currently executing work, requiring cooperative cancellation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "quote": "These behaviors depend on platform contracts that are easy to misread from otherwise valid AL code.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004428,
+    "changes_in_call": 1
+  }
+}

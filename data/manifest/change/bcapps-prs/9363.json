@@ -6,10 +6,18 @@
   "title": "GP - Updates 202607",
   "url": "https://github.com/microsoft/BCApps/pull/9363",
   "published_at": "2026-09-11T15:02:01Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:02:39.386Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
     }
   },
   "input_hash": "157db9ea391d22cbae9b4cb50520223bb05bd13c:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "gp updates 202607"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db39b26fa75605483f96189c920277ec6d3582d6b9be71150caa498dbf769641"
 }

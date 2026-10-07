@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11320",
+  "number": 11320,
+  "title": "[Master]-[Subcontracting] Purchase Return Order cannot be posted for subcontracting, while Corrective Credit Memo works well",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Purchase Return Orders for subcontracting can now be posted correctly, matching the behavior of Corrective Credit Memos.",
+  "key_points": [
+    "Fixed posting logic in manufacturing purchase document management",
+    "Corrective Credit Memos and Purchase Return Orders now handle subcontracting consistently",
+    "Test coverage expanded for subcontracting manufacturing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002967,
+    "changes_in_call": 1
+  }
+}
