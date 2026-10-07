@@ -1,0 +1,120 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9428,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9428",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T12:32:38Z",
+  "merge_commit_sha": "85bc9e2349dbbcda9a42121dbd6ade934d3c1acc",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "637301 Report layout override lifecycle",
+  "body_hash": "339c4003c03826a0b10b62778814895bb37e06446ddb7fdfa181a2572c69e0cb",
+  "fixes_issues": [],
+  "work_items": [
+    637301
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutEditDialog.page.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+      "status": "modified",
+      "additions": 118,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/Layouts/TestReportLayoutsReport2.rdl",
+      "status": "added",
+      "additions": 77,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/ReportLayoutsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 735,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/Reports/TestReportLayoutsReport.Report.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 982,
+    "deletions": 35,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutEditDialog.page.al",
+        "status": "modified",
+        "key": "page/9661",
+        "type": "page",
+        "id": 9661,
+        "name": "Report Layout Edit Dialog",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9661"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayouts.page.al",
+        "status": "modified",
+        "key": "page/9660",
+        "type": "page",
+        "id": 9660,
+        "name": "Report Layouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9660"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutsImpl.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9660",
+        "type": "codeunit",
+        "id": 9660,
+        "name": "Report Layouts Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9660"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

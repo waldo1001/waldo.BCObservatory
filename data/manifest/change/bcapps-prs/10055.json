@@ -6,10 +6,35 @@
   "title": "Fix: migrating a document attachment deletes shared Tenant Media",
   "url": "https://github.com/microsoft/BCApps/pull/10055",
   "published_at": "2026-08-17T13:22:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:02.748Z",
+      "change_class": "code",
+      "files": 26,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:08.088Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004799
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:08.253Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:08.259Z",
+      "path": "content/changes/bcapps/10055.md"
     }
   },
   "input_hash": "473bb07683d69a4637515209367837b444b3a43e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix migrating a document attachment deletes shared tenant media"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f2943b21d751ea7850fce5c3c6fd3d98e745ac125e58d7eb36976166cbbc671"
 }

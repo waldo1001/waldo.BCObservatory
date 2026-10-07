@@ -1,0 +1,130 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10096,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10096",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T14:10:46Z",
+  "merge_commit_sha": "a1d18ab344b9f6adc06f28b809deb3eb2769183c",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Close Income Statement grouping when no dimensions are selected",
+  "body_hash": "03a662a0ff0f5a178c2931d04046b0cf72843ae0d35eea8bf4bbb495ea1e3d6b",
+  "fixes_issues": [],
+  "work_items": [
+    646076,
+    646077
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/Tests/Report/ERMFinancialReports.Codeunit.al",
+      "status": "modified",
+      "additions": 197,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Report/ERMFinancialReports.Codeunit.al",
+      "status": "modified",
+      "additions": 197,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DE/Tests/Report/ERMFinancialReports.Codeunit.al",
+      "status": "modified",
+      "additions": 197,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Report/ERMFinancialReports.Codeunit.al",
+      "status": "modified",
+      "additions": 199,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Report/ERMFinancialReports.Codeunit.al",
+      "status": "modified",
+      "additions": 197,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 1179,
+    "deletions": 36,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "key": "report/94",
+        "type": "report",
+        "id": 94,
+        "name": "Close Income Statement",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/94"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "key": "report/94",
+        "type": "report",
+        "id": 94,
+        "name": "Close Income Statement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/94"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10255",
+  "number": 10255,
+  "title": "Add expense activity history foundation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense activity history foundation adds tracking of lifecycle events for expense reports with an append-only activity log table, read-only APIs scoped by report and user role, factbox UI components, and comprehensive test coverage.",
+  "key_points": [
+    "New append-only activity log table records expense report lifecycle events (Created, Submitted, Approved, Rejected, Posted, etc.)",
+    "Activity log captures actor, role, comments, financial snapshots, categories, and receipt counts for each event",
+    "Read-only APIs expose activity history filtered by report scope or limited to Expense User role with actor role requirements",
+    "Factbox components display activity history in active/posted reports and manager views",
+    "ActivityLog capability registered with comprehensive unit, API, and posting tests"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "add a single append-only expense activity table whose source reference moves from the active report to the posted report",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00538,
+    "changes_in_call": 1
+  }
+}

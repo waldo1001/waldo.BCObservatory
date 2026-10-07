@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9428",
+  "number": 9428,
+  "title": "637301 Report layout override lifecycle",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override records with lifecycle properties (status, description, obsolescence) scoped per field and per company, preserving existing company-level overrides while offering copy as an escape hatch.",
+  "key_points": [
+    "Extension layouts now create override records instead of copies, leaving originals visible",
+    "Status changes and edit info writes apply to all companies by default via override records",
+    "Scope is resolved per field, so description-only or obsolete-only overrides don't force status changes into wrong scope",
+    "Company precedence preserved: existing company-level overrides stay in that company on further changes",
+    "Only modified fields are written to overrides; no-op edits create no records"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00448,
+    "changes_in_call": 1
+  }
+}

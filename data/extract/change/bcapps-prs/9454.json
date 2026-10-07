@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9454",
+  "number": 9454,
+  "title": "Fix site scoped contextinfo",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "SharePoint request-digest calls now correctly target site-scoped URLs instead of tenant root for operations like CreateList, CreateListItem, CreateFolder, and UpdateListItemMetaDataField.",
+  "key_points": [
+    "Request-digest acquisition now uses site-base URL accessor instead of hostname-only for proper site scoping",
+    "GetHost() method remains unchanged to preserve behavior for hostname-only consumers",
+    "Added regression tests to verify contextinfo requests retain the configured /sites/<site> path",
+    "Fixes site-scoped SharePoint URL targeting issue that was incorrectly routing to tenant root",
+    "No breaking changes to public APIs or schema"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004056,
+    "changes_in_call": 1
+  }
+}

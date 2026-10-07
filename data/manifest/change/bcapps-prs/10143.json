@@ -6,10 +6,35 @@
   "title": "Handle non-invoice or currupt PDF extraction",
   "url": "https://github.com/microsoft/BCApps/pull/10143",
   "published_at": "2026-08-17T16:40:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:00.145Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:05.458Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003996
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:05.654Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:05.660Z",
+      "path": "content/changes/bcapps/10143.md"
     }
   },
   "input_hash": "6f6a3438918a7b1b3ed03f55ec7663d50e9750f6:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "handle non invoice or currupt pdf extraction"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "021548a756d27cea5b0c9d2b74d3d3c00d670b12f96bff076f5fa848430d295e"
 }

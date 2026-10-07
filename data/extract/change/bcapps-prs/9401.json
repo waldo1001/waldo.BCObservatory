@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9401",
+  "number": 9401,
+  "title": "Fix Incoming Documents default processed filter",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Incoming Documents page now defaults to showing only unprocessed records when opened without a filter, while preserving explicit filter choices. This restores the expected behavior after a regression.",
+  "key_points": [
+    "Default view shows unprocessed documents (Processed = false) when page opens without a filter",
+    "Explicitly applied filters (both true and false) are now preserved instead of being cleared",
+    "Regression tests added to verify all three filter scenarios work correctly",
+    "No impact on data, permissions, or upgrade process"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003355,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10143",
+  "number": 10143,
+  "title": "Handle non-invoice or currupt PDF extraction",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-document extraction now detects non-invoice or corrupt PDFs that return empty data and stops with a clear error, preventing creation of empty drafts and unnecessary vendor searches.",
+  "key_points": [
+    "Added detection for ADI responses with no meaningful extracted invoice data (non-invoice documents, blank or corrupt PDFs)",
+    "Stops the structure step with actionable error message instead of creating empty draft",
+    "Valid header and line values continue to be preserved and processed normally",
+    "New manual 'Create draft' action available on purchase draft page and Payables Agent",
+    "Added comprehensive tests for detection of empty extraction responses"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003996,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10248",
+  "number": 10248,
+  "title": "Bug 646799: Spend Request fields in Posted Gen. Journal Line have wrong/different field numbers in country versions (correct in w1)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Spend Request field numbers in the Posted Gen. Journal Line table are corrected to match the base W1 version across all country localizations.",
+  "key_points": [
+    "Field ID mismatches in Posted Gen. Journal Line table across country versions are fixed",
+    "Changes applied to 12 country localization layers (APAC, BE, CH, ES, FI, FR, GB, IT, NA, NL, NO, RU, SE)",
+    "Aligns country-specific tables with the correct W1 field numbering",
+    "No functional behavior change to end users",
+    "Fixes compilation or data consistency issues for extensions targeting specific countries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Posted Gen. Journal Line table is correct in w1 but has wrong IDs in country versions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003958,
+    "changes_in_call": 1
+  }
+}

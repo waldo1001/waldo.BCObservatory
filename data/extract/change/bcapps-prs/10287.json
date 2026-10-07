@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10287",
+  "number": 10287,
+  "title": "Move SOA item search and attachment extraction to GPT-5.5 deployments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Sales Order Agent AI operations move to GPT-5.5 chat deployments for attachment extraction, item search expansion, and item selection while leaving other SOA AI calls on GPT-4.1.",
+  "key_points": [
+    "Attachment extraction, keyword expansion, and item ranking now use GPT-5.5 chat deployments",
+    "Message and attachment relevance checks remain on GPT-4.1 latest",
+    "Multimodal file support continues for attachment extraction through updated allow-list",
+    "No changes to prompts, schemas, temperature, max tokens, or JSON mode settings"
+  ],
+  "change_kind": "other",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "Moves three Sales Order Agent AI calls to the GPT-5.5 chat deployments",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003615,
+    "changes_in_call": 1
+  }
+}

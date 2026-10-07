@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9401,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9401",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T13:05:10Z",
+  "merge_commit_sha": "042757f47f6c08c0f92199232794c51ae2d19757",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix Incoming Documents default processed filter",
+  "body_hash": "7ba0b55946cfb71236c39293e7e8cf9804c7380c11c82ec77eaa436e2b2569be",
+  "fixes_issues": [],
+  "work_items": [
+    637747
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocuments.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMIncomingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 55,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocuments.Page.al",
+        "status": "modified",
+        "key": "page/190",
+        "type": "page",
+        "id": 190,
+        "name": "Incoming Documents",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/190"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

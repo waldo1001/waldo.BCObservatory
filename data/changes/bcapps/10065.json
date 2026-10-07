@@ -1,0 +1,104 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10065,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10065",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T10:46:56Z",
+  "merge_commit_sha": "f86c5eef28b8770ae2e02970d1d0bec607cbb71b",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Quality Management] Quality Inspection User assignment fixes",
+  "body_hash": "be765383d24a6afb3dc126e214574479ac43d4b384563520a0a495f72e30cb62",
+  "fixes_issues": [],
+  "work_items": [
+    642612,
+    642613
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/AccessControl/QltyPermissionMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsMisc.Codeunit.al",
+      "status": "modified",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsTestTable.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 40,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 115,
+    "deletions": 45,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/AccessControl/QltyPermissionMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20406",
+        "type": "codeunit",
+        "id": 20406,
+        "name": "Qlty. Permission Mgmt.",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20406"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

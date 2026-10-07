@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10055",
+  "number": 10055,
+  "title": "Fix: migrating a document attachment deletes shared Tenant Media",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Document attachment migration no longer deletes shared Tenant Media records, preventing silent loss of content when attachments are copied to posted documents.",
+  "key_points": [
+    "Adds guard to prevent deletion of Tenant Media when other attachments reference the same media row",
+    "Introduces three new unit tests verifying shared media protection and proper cleanup when attachment is the sole owner",
+    "Fixes silent skipping of copied attachments during external storage migration that left records with missing content",
+    "Protects internal Tenant Media deletion the same way external blob deletion was already protected"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Deleting that row on behalf of one attachment destroys the content of every attachment copied from it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004799,
+    "changes_in_call": 1
+  }
+}

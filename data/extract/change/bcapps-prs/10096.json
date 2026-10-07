@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10096",
+  "number": 10096,
+  "title": "Fix Close Income Statement grouping when no dimensions are selected",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed the Close Income Statement report to properly group G/L entries by account, business unit, and source currency when no dimensions are selected, and ensured closing lines retain source currency codes even when amounts net to zero.",
+  "key_points": [
+    "Entry grouping now works correctly regardless of dimension selection by keying the buffer on business unit, dimension combination, and source currency",
+    "Added dimension buffer ID mapping to handle cases where dimension combinations are reused across source currencies",
+    "Source currency codes are preserved on closing lines even when the source currency amount nets to zero",
+    "Entry grouping state is properly cleared between account batches using the new ResetEntryNoGrouping method",
+    "Added comprehensive tests covering both scenarios with and without Additional Reporting Currency"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "entries that share those values collapse into one closing line even when no dimensions are selected",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004041,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "637301 Report layout override lifecycle",
   "url": "https://github.com/microsoft/BCApps/pull/9428",
   "published_at": "2026-08-17T12:32:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:06.741Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:12.563Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00448
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:16.359Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:16.363Z",
+      "path": "content/changes/bcapps/9428.md"
     }
   },
   "input_hash": "85bc9e2349dbbcda9a42121dbd6ade934d3c1acc:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "637301 report layout override lifecycle"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f18c1ddfcc51014bd91f7628bc784589bb5fe310de53dd98c685080958392e71"
 }

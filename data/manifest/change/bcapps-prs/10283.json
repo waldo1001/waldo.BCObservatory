@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30419: add time sheet filtering events",
   "url": "https://github.com/microsoft/BCApps/pull/10283",
   "published_at": "2026-08-17T16:40:08Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": false,
       "cost_usd": 0.003385
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:58.585Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:58.590Z",
+      "path": "content/changes/bcapps/10283.md"
     }
   },
   "input_hash": "e0bda8f11ea05763aa9e1c6af449394ce436ea1a:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "444d4079a2a36b508f1facb46c969b14f302cf5f307514bed1b08925729accfe"
+  "output_hash": "d8eabd7fed3c6053b4c977c9a4f876276c403508a1b59af97f32141f47c7c059"
 }

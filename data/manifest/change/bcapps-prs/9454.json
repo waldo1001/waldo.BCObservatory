@@ -6,10 +6,35 @@
   "title": "Fix site scoped contextinfo",
   "url": "https://github.com/microsoft/BCApps/pull/9454",
   "published_at": "2026-08-17T13:12:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:03.838Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:08.760Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004056
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:08.936Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:08.944Z",
+      "path": "content/changes/bcapps/9454.md"
     }
   },
   "input_hash": "6561ab791f54f260e13b593467121d6895909629:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "fix site scoped contextinfo"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e4a105475b7036a486a519a58c2fae6785c10a701e6613897fc3489d58bb125"
 }

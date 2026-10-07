@@ -1,0 +1,557 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9973,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9973",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T10:47:12Z",
+  "merge_commit_sha": "782c296458f714846fd965267e85840c0fbb263b",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[WHT]-Withholding Tax is not deducted from Expense Report lines based on the Expense Category during posting",
+  "body_hash": "d6637d8aacb4f856f802e1f32b0d265cb54eed7f976028a89f32162cf7c3e5cb",
+  "fixes_issues": [],
+  "work_items": [
+    645160
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps BE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CA/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CH/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps ES/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps GB/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IS/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps MX/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NL/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NO/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps RU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps SE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps W1/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/ExpWithholdingTax.PermissionSet.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpReportBuffer.Table.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpReportPostHandler.Codeunit.al",
+      "status": "added",
+      "additions": 260,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTGeneralJournal.PageExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WHTEmployeeCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WthldgTaxEmplSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/rulesets/base.ruleset.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 42,
+    "additions": 578,
+    "deletions": 17,
+    "al": 19
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/ExpWithholdingTax.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/7058",
+        "type": "permissionset",
+        "id": 7058,
+        "name": "Exp. Withholding Tax",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "permissionset/7058"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpReportBuffer.Table.al",
+        "status": "added",
+        "key": "table/7059",
+        "type": "table",
+        "id": 7059,
+        "name": "WHT Exp. Report Buffer",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "table/7059"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpReportPostHandler.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7057",
+        "type": "codeunit",
+        "id": 7057,
+        "name": "WHT Exp. Report Post Handler",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/7057"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTExpenseCategoryMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7056",
+        "type": "codeunit",
+        "id": 7056,
+        "name": "WHT Expense Category Mgt.",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/7056"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseWithholdingTax/app/src/WHTGeneralJournal.PageExt.al",
+        "status": "added",
+        "key": "pageextension/7058",
+        "type": "pageextension",
+        "id": 7058,
+        "name": "WHT General Journal",
+        "app": "ExpenseWithholdingTax",
+        "cc": "w1",
+        "page": "pageextension/7058"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WHTEmployeeCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6790",
+        "type": "codeunit",
+        "id": 6790,
+        "name": "WHT Employee Calculation",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6790"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Employee/Transaction/WthldgTaxEmplSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6791",
+        "type": "codeunit",
+        "id": 6791,
+        "name": "Wthldg Tax Empl. Subscribers",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6791"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/12"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "apps": [
+    "Base Application",
+    "ExpenseAgent",
+    "ExpenseWithholdingTax",
+    "WithholdingTax"
+  ]
+}

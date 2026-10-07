@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8318",
+  "number": 8318,
+  "title": "SharePoint Graph Module - extend functionality with additional methods",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The SharePoint Graph module gains update and rename operations for drive items and list items via MS Graph PATCH endpoints, plus enhanced test infrastructure for multi-step operations.",
+  "key_points": [
+    "Added UpdateDriveItem, RenameDriveItem, and UpdateDriveItemByPath methods for file operations",
+    "Added UpdateListItem and GetListItem methods for list item metadata management",
+    "Upgraded test handler to support multi-step HTTP operations beyond single-response mode",
+    "All changes are additive with no breaking changes to existing functionality",
+    "Includes 22 new tests covering drive item updates, list item operations, and handler infrastructure"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "adding update operations for both drive items and list items, backed by the standard MS Graph PATCH endpoints",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004207,
+    "changes_in_call": 1
+  }
+}

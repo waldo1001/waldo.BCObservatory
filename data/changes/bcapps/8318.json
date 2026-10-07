@@ -1,0 +1,165 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8318,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8318",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T14:12:36Z",
+  "merge_commit_sha": "7ababe1688c35d2dff2affdc554b921cb19f021c",
+  "author": "Drakonian",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: System Application",
+    "Approved",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "SharePoint Graph Module - extend functionality with additional methods",
+  "body_hash": "6749ae0338b8e85fd2c1cd3c1250e6ca886062f2bf2217ce72ef5e8b662318fa",
+  "fixes_issues": [
+    8317
+  ],
+  "work_items": [
+    640918
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/SharePoint/README.md",
+      "status": "modified",
+      "additions": 862,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/graph/SharePointGraphClient.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/graph/SharePointGraphClientImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 298,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/graph/helpers/SharePointGraphParser.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/graph/helpers/SharePointGraphUriBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/SharePoint/src/graph/SharePointGraphTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 85,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test Library/SharePoint/src/graph/SharePointHttpClientHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/SharePoint/src/graph/SharePointGraphAdvancedTest.Codeunit.al",
+      "status": "modified",
+      "additions": 357,
+      "deletions": 10,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/SharePoint/src/graph/SharePointGraphClientTest.Codeunit.al",
+      "status": "modified",
+      "additions": 258,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 2090,
+    "deletions": 34,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/SharePoint/src/graph/SharePointGraphClient.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9119",
+        "type": "codeunit",
+        "id": 9119,
+        "name": "SharePoint Graph Client",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9119"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/graph/SharePointGraphClientImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9120",
+        "type": "codeunit",
+        "id": 9120,
+        "name": "SharePoint Graph Client Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9120"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/graph/helpers/SharePointGraphParser.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9122",
+        "type": "codeunit",
+        "id": 9122,
+        "name": "SharePoint Graph Parser",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9122"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/graph/helpers/SharePointGraphUriBuilder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9121",
+        "type": "codeunit",
+        "id": 9121,
+        "name": "SharePoint Graph Uri Builder",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9121"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "System Application"
+  ],
+  "issues": [
+    {
+      "number": 8317,
+      "title": "[BC Idea]: SharePoint Graph Module - extend functionality with additional methods",
+      "state": "closed"
+    }
+  ]
+}

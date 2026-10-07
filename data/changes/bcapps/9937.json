@@ -1,0 +1,121 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9937,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9937",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T08:36:58Z",
+  "merge_commit_sha": "e0dc3aff2170423cb9c760f3e108bf4e7526c43c",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix error when selecting item as the line type in German language ",
+  "body_hash": "6c970aa283eb73fb8ce1677a880218d25fd8f2c3bec881f2f9e974d6769cf9aa",
+  "fixes_issues": [],
+  "work_items": [
+    644921
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Misc/OptionLookupBufferTest.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/OptionLookupBufferTest.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 76,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/508",
+        "type": "page",
+        "id": 508,
+        "name": "Blanket Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/508"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/508",
+        "type": "page",
+        "id": 508,
+        "name": "Blanket Sales Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/508"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

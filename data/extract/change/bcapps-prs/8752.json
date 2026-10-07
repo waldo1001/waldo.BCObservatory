@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8752",
+  "number": 8752,
+  "title": "[Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Open TO from PO actions on subcontracting purchase order lines are now properly disabled for non-subcontracting lines instead of appearing enabled but doing nothing.",
+  "key_points": [
+    "Transfer Order and Return Transfer Order actions disabled on purchase lines without production order numbers",
+    "Action enablement now depends on line-level subcontracting status via OnAfterGetCurrRecord trigger",
+    "Prevents confusing UI behavior where actions appear available but execute no operation",
+    "Regression test added to verify correct action state for both subcontracting and non-subcontracting lines"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00413,
+    "changes_in_call": 1
+  }
+}

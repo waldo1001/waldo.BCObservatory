@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10238",
+  "number": 10238,
+  "title": "Remove consumed credits from Payables Agent setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Payables Agent setup page no longer displays consumed Copilot credits information, and the related calculation code has been removed as part of monetization changes.",
+  "key_points": [
+    "Consumed Copilot credits section removed from Payables Agent setup page",
+    "Internal PACostEstimate codeunit deleted as it was only used by removed UI controls",
+    "Change aligns with upcoming monetization changes for the Payables Agent",
+    "No other references to removed functionality remain in the codebase",
+    "Low-risk change with no impact on extensions"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Removed the consumed Copilot credits section from the Payables Agent setup page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003742,
+    "changes_in_call": 1
+  }
+}

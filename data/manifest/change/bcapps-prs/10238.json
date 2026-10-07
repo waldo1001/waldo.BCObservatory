@@ -6,10 +6,31 @@
   "title": "Remove consumed credits from Payables Agent setup",
   "url": "https://github.com/microsoft/BCApps/pull/10238",
   "published_at": "2026-08-17T12:25:06Z",
-  "state": "discovered",
+  "state": "linked",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:08.080Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:16.379Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.003742
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:16.514Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
     }
   },
   "input_hash": "dd79cab69c58cdd192feb1d9d75d2a60827397e7:c1",
@@ -29,5 +50,8 @@
     ],
     "community_contribution": false,
     "title_key": "remove consumed credits from payables agent setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e53bec34a2d4c8dcc5988e5c7de6342442a3f9d717c51ec51c44176fa6daf02a"
 }
