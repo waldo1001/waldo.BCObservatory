@@ -76,5 +76,5 @@ Each step ships on its own.
 - D layout: hubs on the Learn tree left and objects in namespace plots right (as drawn), or objects orbiting the hub whose
   Learn pages name them? Decide before step 1.
 - Is C a page of its own per object (own URL, own markdown twin) or a state of the object page?
-- Where do the question entries sit on the home: above the galaxy as a row, or as the lens bar's presets?
+- Where do the question entries sit on the home: above the galaxy as a row, or as the lens bar's presets? Decided (D70): neither; a "Questions" menu in the header of every page.
 - The remaining open questions are in section 8 of each view addendum.

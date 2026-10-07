@@ -540,3 +540,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   a wake clears it; the same local nightly that died in 45 s finishes with a peak heap of 371 MB. Code extraction
   also runs in its own lane of one (`config/budget.json` lanes), kept as headroom: an earlier reading of the same
   heartbeats blamed three majors in parallel, which was wrong.
+- **D70 The home page opens on the galaxy.** The hero (kicker, a display title repeating the wordmark, lede, six
+  count boxes, Explore/Search/llms.txt buttons) and the grid of eight question cards took a full screen before the
+  galaxy began, and "what is new" sat below it. Now the galaxy is the first thing on the home page and fills the
+  viewport under the header (`--hdr-h`, measured from the header). The question entries (D66) moved into a
+  "Questions" menu in the header of every page (`site/src/lib/questions.ts`); galaxy questions link to the home path
+  with a lens hash, so on the home page only the hash changes. A pill beside it, "N new this week", counts the videos
+  and posts of `graph/landed.json` and opens the this-week lens; the lens chip counts the stars they light, which is
+  why its number differs. The counts live on in the Sections cards, the lede moved to the "About, and for your agent"
+  block, the Search button went (the header field is the one search; Ctrl+K stays the object finder, D46). The
+  header row is wider than the page (1440px) so it fits one line on a 1440 screen; narrower, the search wraps.

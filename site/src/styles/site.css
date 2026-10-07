@@ -30,6 +30,28 @@ img { max-width: 100%; }
   background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card);
   font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: min(240px, 60vw);
 }
+/* D70: wider than the page so wordmark, nav, questions, the week's pill and search fit one row on a laptop */
+.site-header .wrap { max-width: max(var(--page-max), 1440px); gap: 8px 20px; }
+.site-nav { gap: 4px 14px; }
+.ask { position: relative; font-size: 14px; }
+.ask summary { list-style: none; cursor: pointer; color: var(--text-2); min-height: 40px; display: flex; align-items: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: var(--r-card); white-space: nowrap; }
+.ask summary::-webkit-details-marker { display: none; }
+.ask summary::after { content: "▾"; font-size: 11px; color: var(--muted); }
+.ask summary:hover, .ask[open] summary { color: var(--text); border-color: var(--line-strong); }
+.ask ul {
+  position: absolute; z-index: 60; top: calc(100% + 6px); left: 0; width: min(360px, calc(100vw - 32px)); max-height: 70vh; overflow-y: auto;
+  list-style: none; margin: 0; padding: 6px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--r-panel);
+  box-shadow: 0 12px 32px rgb(0 0 0 / .35);
+}
+.ask a { display: grid; gap: 2px; padding: 8px 10px; border-radius: var(--r-card); color: var(--text); text-decoration: none; }
+.ask a:hover, .ask a:focus-visible { background: var(--surface-raised); }
+.ask b { font-size: 14px; font-weight: 600; }
+.new-pill {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 12px; white-space: nowrap; font: 500 13px var(--font-mono);
+  color: var(--accent); background: var(--accent-surface); border: 1px solid var(--accent); border-radius: 999px; text-decoration: none;
+}
+.new-pill:hover { color: var(--accent); filter: brightness(1.1); }
+.new-pill b { font-weight: 700; }
 .icon-btn {
   background: transparent; color: var(--text-2); border: 1px solid var(--line); border-radius: var(--r-card);
   min-width: 40px; min-height: 40px; cursor: pointer; font: 400 14px var(--font-mono);

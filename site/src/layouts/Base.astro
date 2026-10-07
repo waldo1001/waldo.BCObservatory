@@ -3,6 +3,8 @@ import "@fontsource-variable/bricolage-grotesque/opsz.css";
 import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/500.css";
 import "../styles/site.css";
+import { questions } from "../lib/questions";
+import { landed } from "../lib/state";
 interface Props { title: string; description?: string; markdown?: string; section?: string; bare?: boolean }
 const { title, description, markdown, section, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -11,6 +13,9 @@ const nav = [
   ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
   ["videos", "Videos"], ["posts", "Posts"], ["digests", "Weekly"], ["sources", "Sources"],
 ];
+// D70: the question entries and the week's new videos and posts sit in the header, on every page
+const asks = questions(base);
+const week = landed();
 ---
 <html lang="en">
   <head>
@@ -36,6 +41,17 @@ const nav = [
           <nav class="site-nav" aria-label="Sections">
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
+          <details class="ask">
+            <summary>Questions</summary>
+            <ul>
+              {asks.map((q) => <li><a href={q.href}><b>{q.ask}</b><span class="mono-meta">{q.where}</span></a></li>)}
+            </ul>
+          </details>
+          {week.count > 0 && (
+            <a class="new-pill" href={`${base}#lens=landed`} title={`Videos and posts of the 7 days up to ${week.anchor}, lit in the galaxy`}>
+              <b>{week.count}</b> new this week
+            </a>
+          )}
           <form class="site-search" role="search" action={`${base}search/`} method="get">
             <label class="skip" for="q">Search the knowledge base</label>
             <input id="q" name="q" type="search" placeholder="Search: table 18, Sales-Post, BE" autocomplete="off" />
@@ -63,6 +79,18 @@ const nav = [
       mountPalette(document.body.dataset.base ?? "/");
     </script>
     <script is:inline>
+      // the header's height as --hdr-h, so a page can fill the rest of the viewport (the home galaxy, D70)
+      const hdr = document.querySelector(".site-header");
+      if (hdr) {
+        const set = () => document.documentElement.style.setProperty("--hdr-h", `${hdr.offsetHeight}px`);
+        set();
+        if (window.ResizeObserver) new ResizeObserver(set).observe(hdr);
+      }
+      // the questions menu closes on Esc, on a click outside it and on a pick (a same-page hash link would leave it open)
+      for (const d of document.querySelectorAll("details.ask")) {
+        document.addEventListener("click", (e) => { if (d.open && (!d.contains(e.target) || e.target.closest("a"))) d.open = false; });
+        d.addEventListener("keydown", (e) => { if (e.key === "Escape" && d.open) { d.open = false; d.querySelector("summary").focus(); } });
+      }
       for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {
         const root = document.documentElement;
         const now = root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");

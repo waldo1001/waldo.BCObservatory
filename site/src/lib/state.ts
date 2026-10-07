@@ -14,6 +14,14 @@ export function latestRun(): RunSummary | null {
   return files.length ? (JSON.parse(readFileSync(join(dir, files[files.length - 1]), "utf8")) as RunSummary) : null;
 }
 
+/** The videos and posts of the week (data/graph/landed.json, D66): the header's "new this week" pill (D70). */
+export function landed(): { anchor: string | null; count: number } {
+  const p = join(DATA, "graph", "landed.json");
+  if (!existsSync(p)) return { anchor: null, count: 0 };
+  const j = JSON.parse(readFileSync(p, "utf8")) as { anchor?: string | null; items?: unknown[] };
+  return { anchor: j.anchor ?? null, count: j.items?.length ?? 0 };
+}
+
 function countJson(dir: string): number {
   let n = 0;
   for (const name of readdirSync(dir)) {
