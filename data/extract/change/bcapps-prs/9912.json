@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9912",
+  "number": 9912,
+  "title": "Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The IRS Forms setup wizard registration that was accidentally removed during a code cleanup sweep has been restored, allowing US users to access the 1099 setup guide from the Assisted Setup list again.",
+  "key_points": [
+    "Re-registered the IRS Forms wizard page in the Assisted Setup list via codeunit 10030 with an unconditional subscriber",
+    "Automatically marks the setup as complete for companies that have already configured 1099 reporting periods",
+    "Includes permission guards to prevent page failures for users without access to the IRS Reporting Period table",
+    "Added comprehensive test coverage with four test cases validating registration, completion logic, and UI behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004451,
+    "changes_in_call": 1
+  }
+}

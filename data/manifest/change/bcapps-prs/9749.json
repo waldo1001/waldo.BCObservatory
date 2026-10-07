@@ -6,7 +6,7 @@
   "title": "OIOUBL fixes after schematron update",
   "url": "https://github.com/microsoft/BCApps/pull/9749",
   "published_at": "2026-08-10T08:11:20Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 8,
       "objects": 0,
       "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:37.929Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00483
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:38.097Z",
+      "objects": 0,
+      "unjoined": 8,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:38.108Z",
+      "path": "content/changes/bcapps/9749.md"
     }
   },
   "input_hash": "5950fa9832ba50af1751fb24679112d9ef1baf0c:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ddb05479d71450304e2683edffc774c280cfceef8275de24eeab7ac651cabf6c"
+  "output_hash": "1600b653069ae180bb3356177218b2ea7a13b9b13d15823837b1bcb8360218ed"
 }

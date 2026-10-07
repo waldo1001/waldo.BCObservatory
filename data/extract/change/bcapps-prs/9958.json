@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9958",
+  "number": 9958,
+  "title": "[Main] -Detail Trial Balance - Running Balance Incorrect When \"Include Closing Entries\" Is Disabled",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed the Detail Trial Balance report so that excluded closing entries no longer incorrectly accumulate into the running balance column, ensuring displayed balances reconcile with visible entries.",
+  "key_points": [
+    "Closing entries that are skipped from printing were still contributing to the running balance calculation",
+    "Reordered the trigger to check and skip closing entries before accumulating amounts into GLBalance",
+    "Running balance now accurately reflects only the entries actually displayed on the report",
+    "Matches existing pattern used for reversed entries and corrections-only filters",
+    "Added test cases across multiple localization layers to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Reordered the trigger to compute ClosingEntry and perform CurrReport.Skip() before the GLBalance := GLBalance + Amount line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003841,
+    "changes_in_call": 1
+  }
+}

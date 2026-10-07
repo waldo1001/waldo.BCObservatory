@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10022",
+  "number": 10022,
+  "title": "Known senders table should only be inserted to when the task is coming from an email",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Known Senders table now only gets populated when tasks arrive from email, preventing unwanted entries when tasks are created by manually uploading PDFs.",
+  "key_points": [
+    "Restricts population of the PA Known Sender table to email-sourced tasks only",
+    "Prevents table entries when tasks are created through manual PDF uploads",
+    "Uses the same source-distinguishing approach as GetAgentTaskMessagePageId",
+    "Fixes issue where table was incorrectly populated for non-email task creation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "The table was getting populated when creating tasks by manually uploading a PDF. This functionality is scoped to tasks received by email.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003212,
+    "changes_in_call": 1
+  }
+}

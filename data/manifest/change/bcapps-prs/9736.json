@@ -6,7 +6,7 @@
   "title": "Split Tests-SCM and Tests-ERM into sub-domain apps to parallelize the legacy test stage",
   "url": "https://github.com/microsoft/BCApps/pull/9736",
   "published_at": "2026-08-07T11:28:27Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "split tests scm and tests erm into sub domain apps to parallelize the legacy test stage"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:12:43.710Z",
+  "retry_after": null
 }

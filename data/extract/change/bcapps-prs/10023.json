@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10023",
+  "number": 10023,
+  "title": "[Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Invoice split payment posting in the Spanish version now preserves the alternative customer posting group from sales documents instead of defaulting to the customer's current posting group.",
+  "key_points": [
+    "Fixed incorrect posting group assignment when creating bill and close invoice journal lines",
+    "Posting group now explicitly set from the original sales document instead of defaulting at posting time",
+    "Affects Spanish localization for invoice split payment processing",
+    "Customer ledger entries now show the correct alternative posting group",
+    "Added test coverage for cartera posting scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003634,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10011",
+  "number": 10011,
+  "title": "Improve performance when posting credit memos by skipping unnecessary lookups on empty keys",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Credit memo posting now skips unnecessary table lookups when source keys are empty, improving performance for both purchase and sales credit memos without changing functional behavior.",
+  "key_points": [
+    "Purch. Cr. Memo Line avoids full-key scans when Order No. is empty",
+    "Sales Cr.Memo Line exits early when Applies-to Doc. No. is empty",
+    "Prevents broad table scans during credit memo posting operations",
+    "Performance optimization maintains existing functional behavior",
+    "Applied across all localization layers"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004318,
+    "changes_in_call": 1
+  }
+}

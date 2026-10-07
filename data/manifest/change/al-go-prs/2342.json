@@ -6,10 +6,35 @@
   "title": "Fix incremental builds poisoning buildMode-specific artifacts (#2337)",
   "url": "https://github.com/microsoft/AL-Go/pull/2342",
   "published_at": "2026-08-07T07:33:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:46.859Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 0,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:55.162Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004016
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:55.164Z",
+      "objects": 0,
+      "unjoined": 5,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:12:55.169Z",
+      "path": "content/changes/al-go/2342.md"
     }
   },
   "input_hash": "93300d797386e3faa2796faf09584b5c9e76494b:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix incremental builds poisoning buildmode specific artifacts 2337"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "da0ac110dbea72656844095b0cde897399d1b8dc2f713c6185fd0dc7c9bfe75a"
 }

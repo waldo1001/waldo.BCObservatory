@@ -1,0 +1,442 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10011,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10011",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T05:43:08Z",
+  "merge_commit_sha": "b7227bc701fc847473535dcbac37bdec63ef2ec3",
+  "author": "JakovljevicDusan",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Improve performance when posting credit memos by skipping unnecessary lookups on empty keys",
+  "body_hash": "5650c170adf6be4a37d4fba1f3c92c3e01a819ebed48ef14d1c2e42a14434c57",
+  "fixes_issues": [],
+  "work_items": [
+    645247
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 33,
+    "deletions": 11,
+    "al": 22
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/115"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/PurchCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/125",
+        "type": "table",
+        "id": 125,
+        "name": "Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/125"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/SalesCrMemoLine.Table.al",
+        "status": "modified",
+        "key": "table/115",
+        "type": "table",
+        "id": 115,
+        "name": "Sales Cr.Memo Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/115"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

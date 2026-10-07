@@ -6,7 +6,7 @@
   "title": "Fix Agent List and Agent Task List filter and refresh issues (AB#646062)",
   "url": "https://github.com/microsoft/BCApps/pull/10032",
   "published_at": "2026-08-08T00:14:43Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.005076
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:37.773Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:37.778Z",
+      "path": "content/changes/bcapps/10032.md"
     }
   },
   "input_hash": "169a3a477091eb7b20259bb299539485d25144af:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "32c6b784f9147e1d71c35ca545744dd7c01e15eda6ac5081532bedd574ced2c8"
+  "output_hash": "fb674d99f153909641e3a63933240b745aaabccfdf9a6cbd8630dacf58debad8"
 }

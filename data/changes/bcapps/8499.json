@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8499,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8499",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T17:33:28Z",
+  "merge_commit_sha": "daca6e62c20b3f972dff17be98b11cc1cb76d80a",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Adding `IsVerifiedDomain` to the `AzureADTenant` module",
+  "body_hash": "f77957f156c694d56820a8bebc82d403479934bcea6736fc262d95f84a9c2ec8",
+  "fixes_issues": [],
+  "work_items": [
+    625413
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Azure AD Tenant/src/AzureADTenant.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Azure AD Tenant/src/AzureADTenantImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 40,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Azure AD Tenant/src/AzureADTenant.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/433",
+        "type": "codeunit",
+        "id": 433,
+        "name": "Azure AD Tenant",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/433"
+      },
+      {
+        "path": "src/System Application/App/Azure AD Tenant/src/AzureADTenantImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3705",
+        "type": "codeunit",
+        "id": 3705,
+        "name": "Azure AD Tenant Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3705"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

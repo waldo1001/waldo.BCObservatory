@@ -1,0 +1,39 @@
+{
+  "item_id": "change/bcapps-prs/10009",
+  "number": 10009,
+  "title": "Disable low-usage Change Log Entry index",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Change Log Entry table's Key4 index on Notification Message Id is disabled to improve write performance. The index showed negligible read usage (967 reads) compared to extremely high write maintenance costs (1.3 billion writes), making it a significant performance drain.",
+  "key_points": [
+    "Key4 (Notification Message Id) index disabled in Change Log Entry table due to 1.36 million writes per read ratio",
+    "Index remains in schema as disabled following obsoletion lifecycle: Pending in 29.0, Removed in 32.0",
+    "Telemetry analysis across 40k databases shows minimal functional impact with strong performance benefit",
+    "Extensions using SetCurrentKey or sorting by Notification Message Id can add their own table-extension key",
+    "Schema synchronization during upgrade will remove the physical index, potentially creating transient deployment load on large tables"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Change Log Entry",
+      "member": "Key4",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004659,
+    "changes_in_call": 1
+  }
+}

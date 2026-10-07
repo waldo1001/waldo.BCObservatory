@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8499",
+  "number": 8499,
+  "title": "Adding `IsVerifiedDomain` to the `AzureADTenant` module",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Azure AD Tenant module now includes a method to check if a domain is verified in the tenant's list of verified domains, retrieved from Microsoft Graph.",
+  "key_points": [
+    "New IsVerifiedDomain method added to validate domains against tenant's verified domain list",
+    "Uses Microsoft Graph /organization endpoint to retrieve verified domains",
+    "Supports skip review for trusted senders functionality",
+    "Returns empty list if LicensingService change is not deployed",
+    "Part of system-wide trusted sender handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Allows a consumer to validate whether a given domain is in the list of verified domains of a tenant",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003485,
+    "changes_in_call": 1
+  }
+}

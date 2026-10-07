@@ -1,0 +1,29 @@
+{
+  "item_id": "change/al-go-prs/2321",
+  "number": 2321,
+  "title": "fix: error on delivery of multiple release artifacts of same project",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The CreateRelease workflow now prevents redundant artifact deliveries by only running NuGet and Storage delivery steps when the matrix processes the Apps artifact type, eliminating duplicate delivery attempts.",
+  "key_points": [
+    "Modified if conditions in CreateRelease.yaml templates to check matrix.atype == 'Apps'",
+    "Prevents Deliver to NuGet step from running multiple times per project",
+    "Prevents Deliver to Storage step from running multiple times per project",
+    "Fixes issue where matrix iterations over different artifact types triggered redundant deliveries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00344,
+    "changes_in_call": 1
+  }
+}

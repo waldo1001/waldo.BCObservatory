@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9967",
+  "number": 9967,
+  "title": "[Main]-Production BOM Version certification does not check Variant Mandatory on lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production BOM Version certification now validates that variant codes are populated for items marked as Variant Mandatory, preventing incomplete configurations from being certified.",
+  "key_points": [
+    "Adds validation during Production BOM Version certification",
+    "Checks that Variant Code is populated for items with Variant Mandatory enabled",
+    "Prevents certification of incomplete Production BOM lines with mandatory variants",
+    "Includes test coverage for the new validation logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Production BOM Version certification does not check Variant Mandatory on lines",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0034,
+    "changes_in_call": 1
+  }
+}

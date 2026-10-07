@@ -1,0 +1,68 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2321,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2321",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-07T08:07:28Z",
+  "merge_commit_sha": "92a37f15c9e6bf29a5cd66d02ff761b8b0022649",
+  "author": "OleWunschmann",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "fix: error on delivery of multiple release artifacts of same project",
+  "body_hash": "278a030e7a85f86917336454c701b1bdc408295971b74af4e3142fcc82f9db4c",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/CreateRelease.yaml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/CreateRelease.yaml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 5,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Templates/AppSource App/.github/workflows/CreateRelease.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/CreateRelease.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "[Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.",
   "url": "https://github.com/microsoft/BCApps/pull/10023",
   "published_at": "2026-08-07T07:28:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:49.197Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:55.175Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003634
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:55.400Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:55.405Z",
+      "path": "content/changes/bcapps/10023.md"
     }
   },
   "input_hash": "c322b940bcd54c0b95e93bfb9b845c373a938831:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master customer ledger bill entries display default customer posting group instead of alternative customer posting group set on sales documents in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b13855620d6710845bb99baf8d34502beb5e56d6b9b3f6d4ea75f51f54aa6534"
 }

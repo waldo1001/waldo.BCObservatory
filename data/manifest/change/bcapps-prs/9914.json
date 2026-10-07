@@ -6,10 +6,35 @@
   "title": "[APIV2] Return unapplied lines from the Vendor Payments API",
   "url": "https://github.com/microsoft/BCApps/pull/9914",
   "published_at": "2026-08-07T10:18:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:42.430Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:47.994Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004112
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:48.157Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:48.163Z",
+      "path": "content/changes/bcapps/9914.md"
     }
   },
   "input_hash": "853809086c99c790d0b77da9b1409d56972710d5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "apiv2 return unapplied lines from the vendor payments api"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0a3f01f8829c612b23899e960f8b80f57950d09a93d12f723cc9f0dc22781f20"
 }

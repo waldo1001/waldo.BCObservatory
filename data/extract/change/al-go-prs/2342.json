@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2342",
+  "number": 2342,
+  "title": "Fix incremental builds poisoning buildMode-specific artifacts (#2337)",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed incremental builds in AL-Go that were corrupting buildMode-specific artifacts by re-publishing default build mode apps under incorrect artifact names, causing dependent projects to fail with runtime version mismatches.",
+  "key_points": [
+    "DetermineBuildProject now receives buildMode parameter to download artifacts matching the current build mode dimension",
+    "Build-mode-prefixed artifact masks are used instead of build-mode-agnostic masks to select correct artifacts",
+    "Downloaded artifacts are extracted into build-mode-agnostic folders for later build steps, maintaining compatibility",
+    "Fixes propagating corruption in incremental builds where each run becomes the baseline for the next",
+    "Prevents AL1153 compiler errors from runtime version mismatches in multi-project repositories"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004016,
+    "changes_in_call": 1
+  }
+}

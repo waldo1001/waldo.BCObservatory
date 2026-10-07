@@ -6,10 +6,35 @@
   "title": "[Main] -Detail Trial Balance - Running Balance Incorrect When \"Include Closing Entries\" Is Disabled",
   "url": "https://github.com/microsoft/BCApps/pull/9958",
   "published_at": "2026-08-07T10:14:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:45.582Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:50.719Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003841
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:50.903Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:50.908Z",
+      "path": "content/changes/bcapps/9958.md"
     }
   },
   "input_hash": "f6877f69cdd6648fe82daef92875f81cfa234f6c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "detail trial balance running balance incorrect when include closing entries is disabled"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c39641f9ccc299db2634242e6232cc4fd704ef3f0db0471eec783b32329cc17f"
 }

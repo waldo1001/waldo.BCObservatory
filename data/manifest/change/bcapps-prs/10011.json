@@ -6,10 +6,25 @@
   "title": "Improve performance when posting credit memos by skipping unnecessary lookups on empty keys",
   "url": "https://github.com/microsoft/BCApps/pull/10011",
   "published_at": "2026-08-07T05:43:08Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:48.313Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 22,
+      "objects": 22,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:55.408Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.004318
     }
   },
   "input_hash": "b7227bc701fc847473535dcbac37bdec63ef2ec3:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "improve performance when posting credit memos by skipping unnecessary lookups on empty keys"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "579bb9c612e7c3e86e565628a9ba7ad9a33fac3fa3a2582b946c8fe7ddb2185d"
 }

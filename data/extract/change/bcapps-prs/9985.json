@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9985",
+  "number": 9985,
+  "title": "[Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Purchase order correction now allows quantity increases for Service and Non-Inventory items, which updates the purchase order with negative received and invoiced values when the corrective credit memo is posted.",
+  "key_points": [
+    "Service and Non-Inventory item types can now have their corrective credit memo quantities increased",
+    "Posting the corrected invoice updates the purchase order with negative received and invoiced values",
+    "Changes applied across multiple localization layers for consistent behavior",
+    "Test coverage added to validate the new functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004236,
+    "changes_in_call": 1
+  }
+}

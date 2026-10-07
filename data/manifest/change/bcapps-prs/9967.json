@@ -6,10 +6,35 @@
   "title": "[Main]-Production BOM Version certification does not check Variant Mandatory on lines",
   "url": "https://github.com/microsoft/BCApps/pull/9967",
   "published_at": "2026-08-07T10:18:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:45.386Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:50.207Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0034
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:50.374Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:50.379Z",
+      "path": "content/changes/bcapps/9967.md"
     }
   },
   "input_hash": "3279ed9a573d81aa5792e13c5ff8b71235032f88:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "production bom version certification does not check variant mandatory on lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e95fbb81725f035c498eaec1e5af4a9894e996a5adbfcc917df2b24a4ee0a57"
 }

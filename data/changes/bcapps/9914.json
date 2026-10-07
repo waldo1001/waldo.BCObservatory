@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9914,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9914",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T10:18:53Z",
+  "merge_commit_sha": "853809086c99c790d0b77da9b1409d56972710d5",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[APIV2] Return unapplied lines from the Vendor Payments API",
+  "body_hash": "dde50ec1b9c27379a5aeeb9dd0553558b8285967e187cebdb33fbc206dff0153",
+  "fixes_issues": [],
+  "work_items": [
+    644954
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/APIV2/app/src/pages/APIV2VendorPayments.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2ApplyVendorEntE2E.Codeunit.al",
+      "status": "added",
+      "additions": 210,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2VendorPaymentsE2E.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/_Exclude_APIV2__Tests/_Exclude_APIV2__Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 336,
+    "deletions": 35,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/APIV2/app/src/pages/APIV2VendorPayments.Page.al",
+        "status": "modified",
+        "key": "page/30060",
+        "type": "page",
+        "id": 30060,
+        "name": "APIV2 - Vendor Payments",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "page/30060"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "APIV2"
+  ]
+}

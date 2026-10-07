@@ -1,0 +1,413 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9985,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9985",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T13:56:42Z",
+  "merge_commit_sha": "3d9202436352fb5ced08a0154f32e2e1e530ead3",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values",
+  "body_hash": "1edd143f782da18edf160176a071a23b8199b257add3f4d8bac26f0bdf3b21c6",
+  "fixes_issues": [],
+  "work_items": [
+    645182
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NZ/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365CorrectPurchaseInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 175,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 25,
+    "additions": 1565,
+    "deletions": 0,
+    "al": 18
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/1313"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/1313"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1313"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

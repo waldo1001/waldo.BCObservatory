@@ -6,10 +6,18 @@
   "title": "[main] bug 644148 - Use VAT base amount (after discounts) for reverse charge limit check",
   "url": "https://github.com/microsoft/BCApps/pull/9746",
   "published_at": "2026-08-06T13:47:17Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:51.669Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "9900a198098549ac4c255eb8a4fb225930bdf501:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 644148 use vat base amount after discounts for reverse charge limit check"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f7a2f929e30056a6708e6786ec9c4c75910b6a047956e28c107393fa547d6608"
 }

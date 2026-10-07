@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9749",
+  "number": 9749,
+  "title": "OIOUBL fixes after schematron update",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "OIOUBL export now correctly handles discounts by reporting them with proper VAT categories per tax type instead of using a synthetic ReverseCharge, ensuring compliance with updated schematron validation rules.",
+  "key_points": [
+    "Discounts are now exported with the correct VAT category matching each line's tax type instead of always using ReverseCharge",
+    "Tax totals and subtotals are now split per VAT category to match all reported tax categories",
+    "Line-level taxable amounts are reported before discounts to allow header-level allowances to subtract correctly",
+    "Header-level allowance charges are now emitted multiple times per VAT type pair instead of a single ReverseCharge entry",
+    "Validation against the OIOUBL schematron now passes for documents with header or line discounts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00483,
+    "changes_in_call": 1
+  }
+}

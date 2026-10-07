@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9914",
+  "number": 9914,
+  "title": "[APIV2] Return unapplied lines from the Vendor Payments API",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments and those with non-invoice applications, matching the behavior of the Customer Payments API.",
+  "key_points": [
+    "Removed record-filtering logic that hid unapplied payment lines from the Vendor Payments API",
+    "The appliesToInvoiceNumber field is now empty for non-invoice applications instead of showing credit memo numbers",
+    "All payment lines are now visible regardless of application status or type",
+    "Added comprehensive test coverage for unapplied payments and non-invoice applications",
+    "Journal-batch scoping and POST/PATCH logic remain unchanged"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004112,
+    "changes_in_call": 1
+  }
+}

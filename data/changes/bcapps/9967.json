@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9967,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9967",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T10:18:53Z",
+  "merge_commit_sha": "3279ed9a573d81aa5792e13c5ff8b71235032f88",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Production BOM Version certification does not check Variant Mandatory on lines",
+  "body_hash": "a0a147dc4c410fb88dca11ad35efc09d85b0d1cf0142ea3523326bd6b4019f75",
+  "fixes_issues": [],
+  "work_items": [
+    642632
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/SCM-Manufacturing/SCMManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMVersion.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 171,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMVersion.Table.al",
+        "status": "modified",
+        "key": "table/99000779",
+        "type": "table",
+        "id": 99000779,
+        "name": "Production BOM Version",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000779"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

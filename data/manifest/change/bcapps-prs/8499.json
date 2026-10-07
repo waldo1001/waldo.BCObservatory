@@ -6,10 +6,35 @@
   "title": "Adding `IsVerifiedDomain` to the `AzureADTenant` module",
   "url": "https://github.com/microsoft/BCApps/pull/8499",
   "published_at": "2026-08-07T17:33:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:39.356Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:44.076Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003485
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:44.257Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:44.263Z",
+      "path": "content/changes/bcapps/8499.md"
     }
   },
   "input_hash": "daca6e62c20b3f972dff17be98b11cc1cb76d80a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "adding isverifieddomain to the azureadtenant module"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "29164d98fc7f6001ba86bd65c0e0cb532fea0084f4b63f102c2fe30ffd099474"
 }

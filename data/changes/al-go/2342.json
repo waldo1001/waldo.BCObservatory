@@ -1,0 +1,111 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2342,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2342",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-07T07:33:32Z",
+  "merge_commit_sha": "93300d797386e3faa2796faf09584b5c9e76494b",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fix incremental builds poisoning buildMode-specific artifacts (#2337)",
+  "body_hash": "a88c92a3b7485da93b7efcd54465a5f7de591855e1183399789f79925bdd0efc",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/DetermineBuildProject/DetermineBuildProject.ps1",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DetermineBuildProject/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/DetermineBuildProject/action.yaml",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/_BuildALGoProject.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/_BuildALGoProject.yaml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Tests/DetermineBuildProject.Action.Test.ps1",
+      "status": "added",
+      "additions": 120,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 152,
+    "deletions": 6,
+    "al": 5
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/DetermineBuildProject/DetermineBuildProject.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DetermineBuildProject/README.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/DetermineBuildProject/action.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.github/workflows/_BuildALGoProject.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/_BuildALGoProject.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

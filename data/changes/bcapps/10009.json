@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10009,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10009",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T16:55:21Z",
+  "merge_commit_sha": "6f2e279e1b24ed3185024cf9c07b20b29a8c56e8",
+  "author": "PredragMaricic",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Disable low-usage Change Log Entry index",
+  "body_hash": "0497fecd9f0740d7482e3228d6c464e161d82adbf7bb219f39f534f986c1aec7",
+  "fixes_issues": [],
+  "work_items": [
+    644754
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/ChangeLog/ChangeLogEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 10,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/ChangeLog/ChangeLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/405",
+        "type": "table",
+        "id": 405,
+        "name": "Change Log Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
