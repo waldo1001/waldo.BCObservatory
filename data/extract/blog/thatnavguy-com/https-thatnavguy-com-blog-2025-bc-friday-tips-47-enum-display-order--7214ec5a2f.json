@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/",
+  "title": "BC Friday Tips #47 Enum Display Order",
+  "source": "thatnavguy-com",
+  "published_at": "2025-09-12T00:00:00.000Z",
+  "words": 74,
+  "summary": "Enum values in AL display in the order they appear in code, not by their ordinal values. This allows developers to rearrange enum values without needing to renumber ordinals.",
+  "key_points": [
+    "Enum display order is determined by code sequence, not ordinal numbers",
+    "Developers can reorder enum values without modifying ordinal assignments",
+    "Understanding this behavior prevents confusion when organizing enum values"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "enum",
+    "al language",
+    "display order",
+    "ordinal values"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Enum (unspecified in post)"
+    }
+  ],
+  "features": [
+    "Enum value ordering"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Enum values in AL are displayed based on their order in the code, not their ordinal.",
+      "why_it_matters": "This clarifies a fundamental misunderstanding developers might have about how enums are rendered in the UI."
+    },
+    {
+      "text": "You can rearrange values without renumbering the ordinals.",
+      "why_it_matters": "This demonstrates a practical benefit of understanding enum display mechanics, enabling cleaner code maintenance."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

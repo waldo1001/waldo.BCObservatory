@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2025/09/10/late-payment-prediction-in-fabric-instead-of-bc/",
   "published_at": "2025-09-10T12:06:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:17.326Z",
+      "path": "vault:posts/bertverbeek-nl/1173.md",
+      "words": 715
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:17.335Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:17.336Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:17.337Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:17.343Z",
+      "path": "content/posts/bertverbeek-nl/1173.md"
     }
   },
   "input_hash": "2025-09-10T12:28:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62940af9d577f2f60a5c642df24a3d72168098b15d6cd08fdb9a763f449e01d1"
 }

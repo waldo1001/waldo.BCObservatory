@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/12455",
+  "url": "https://demiliani.com/2025/09/04/model-context-protocol-and-the-too-many-tools-problem/",
+  "title": "Model Context Protocol and the “too many tools” problem.",
+  "source": "demiliani-com",
+  "published_at": "2025-09-04T08:40:01.000Z",
+  "words": 720,
+  "summary": "Exposing too many tools to LLMs through MCP servers degrades performance by consuming context window capacity and causing suboptimal tool selection. The post explains the problem, shows how clients like Cursor and GitHub Copilot enforce hard limits, and recommends designing focused MCP servers scoped to specific workflows rather than monolithic servers with every available tool.",
+  "key_points": [
+    "Too many exposed MCP tools consume context window capacity and reduce room for project context, causing slower performance and hallucinations",
+    "Cursor enforces a 40-tool limit and GitHub Copilot a 128-tool limit to prevent context flooding",
+    "Best practice is to build scoped MCP servers around user workflows rather than single monolithic servers with all tools",
+    "Manually selecting needed tools per conversation is tedious but prevents overwhelming the agent"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "mcp",
+    "context window",
+    "tool management",
+    "llm performance",
+    "agent design",
+    "api integration"
+  ],
+  "objects": [],
+  "features": [
+    "MCP server autodiscovery",
+    "Model Context Protocol",
+    "Claude Code",
+    "Cursor MCP integration",
+    "GitHub Copilot MCP support",
+    "MCP Proxy"
+  ],
+  "versions": [
+    "claude-sonnet-4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Having too many tools exposed in an MCP server can degrade the performances and the output of your LLM!",
+      "why_it_matters": "Directly states the core problem that motivates the entire discussion about tool management"
+    },
+    {
+      "text": "if tools are crowding out the context window, there's less room for context about the current project or goal.",
+      "why_it_matters": "Explains the root cause of performance degradation and why limiting tools matters for agent effectiveness"
+    },
+    {
+      "text": "a well-designed MCP server gives agents exactly what they need to accomplish their goals without overwhelming them with choices they don't need.",
+      "why_it_matters": "Summarizes the design philosophy and best practice recommendation for building effective MCP servers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2523",
+  "url": "https://aardvarklabs.blog/2025/09/05/step-by-step-guide-to-page-customizations-for-business-central-in-al/",
+  "title": "Step-by-Step Guide to Page Customizations for Business Central in AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-09-05T12:00:00.000Z",
+  "words": 1090,
+  "summary": "Page customizations in Business Central allow developers to tailor page layouts to specific user profiles without modifying core functionality. The post demonstrates how to create page customization objects and profiles in AL code to hide fields and actions, hide financial data from data entry users, and deploy customizations as part of an extension.",
+  "key_points": [
+    "Page customizations are profile-specific layout changes that work similarly to page extensions but do not require object IDs",
+    "Customizations can only modify visibility and move fields; they cannot add triggers, procedures, or actions to maintain functional parity across all users",
+    "A profile definition links customizations to a role center and applies them when users switch to that profile",
+    "Multiple profiles can reuse the same customizations, allowing layered access control without code duplication"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page customization",
+    "profiles",
+    "user roles",
+    "al development",
+    "page extensions",
+    "layout design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "other",
+      "name": "ARD_DataEntryCustomerList"
+    },
+    {
+      "type": "other",
+      "name": "ARD_DataEntryCustomerCard"
+    },
+    {
+      "type": "other",
+      "name": "ARD_DataEntry"
+    }
+  ],
+  "features": [
+    "Page customization objects",
+    "Profile-specific layouts",
+    "Field visibility control",
+    "Action visibility control",
+    "Field repositioning",
+    "Role center association"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can't add triggers, procedures, or actions. This maintains parity with the in-browser Page Customization capabilities.",
+      "why_it_matters": "Clarifies the fundamental limitation of page customizations and ensures consistent functionality across all users regardless of their profile"
+    },
+    {
+      "text": "A customization can be listed in more than one profile. This allows you to reuse page customizations for several similar profiles.",
+      "why_it_matters": "Shows how to efficiently design customizations across multiple user roles without duplicating code"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

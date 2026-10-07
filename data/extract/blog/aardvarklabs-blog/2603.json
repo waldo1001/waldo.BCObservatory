@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2603",
+  "url": "https://aardvarklabs.blog/2025/09/12/guide-to-handling-header-and-detail-imports-into-business-central-with-al/",
+  "title": "Guide to Handling Header and Detail Imports into Business Central with AL",
+  "source": "aardvarklabs-blog",
+  "published_at": "2025-09-12T12:00:00.000Z",
+  "words": 2193,
+  "summary": "This guide demonstrates how to parse and import delimited files containing header and detail records (like sales orders) into Business Central using AL. It covers two formats: normalized (separate header/detail lines identified by markers) and denormalized (merged header/detail data on single lines), with code examples for parsing both formats into staging tables and creating sales orders.",
+  "key_points": [
+    "Normalized format uses marker characters (H/D) to distinguish header and detail lines, while denormalized format repeats header fields on each detail line",
+    "Data is parsed into separate staging tables (ARD_SalesHeader and ARD_SalesDetail) before creating actual sales orders",
+    "Denormalized parsing relies on detecting changes in an anchor field (external document number) to create new headers",
+    "The parsing logic handles line-by-line text processing, field extraction via delimiters, and linking details to headers via ID tracking"
+  ],
+  "systems": [
+    "sales",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "file import",
+    "delimited data",
+    "header-detail",
+    "al programming",
+    "data parsing",
+    "staging tables"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_SalesHeader"
+    },
+    {
+      "type": "table",
+      "name": "ARD_SalesDetail"
+    },
+    {
+      "type": "page",
+      "name": "ARDSalesImport"
+    },
+    {
+      "type": "page",
+      "name": "SalesImportCard"
+    },
+    {
+      "type": "page",
+      "name": "SalesImportDetails"
+    }
+  ],
+  "features": [
+    "delimited file import",
+    "text parsing",
+    "staging tables",
+    "sales order creation",
+    "normalized import",
+    "denormalized import"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When dealing with a denormalized structure we must have something to anchor us. In this case the External Document Number will be our identifier.",
+      "why_it_matters": "Explains the key technique for detecting new headers in merged-format files without explicit markers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

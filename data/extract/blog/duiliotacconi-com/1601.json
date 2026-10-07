@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/duiliotacconi-com/1601",
+  "url": "https://duiliotacconi.com/2025/09/05/when-auditing-meets-telemetry-a-practical-example/",
+  "title": "When Auditing meets Telemetry: a practical example.",
+  "source": "duiliotacconi-com",
+  "published_at": "2025-09-05T11:55:09.000Z",
+  "words": 699,
+  "summary": "When investigating a deleted Default Dimension record, the author demonstrates how telemetry and Change Log together can identify unexpected data deletions caused by application logic. By combining audit trails with telemetry traces, the investigation revealed the user did perform the action unknowingly through a calculation process that incorrectly deleted temporary records.",
+  "key_points": [
+    "Change Log records what changed (user, date, deletion event) but not always why or the context of the action",
+    "Telemetry traces provide execution context showing which code triggered the deletion and when",
+    "The combination of both auditing tools solved a mystery where the user was innocent but the Change Log was factually correct",
+    "A late placement of a temporary record check caused real data deletion instead of temporary record deletion",
+    "Moving the temporary record validation to the start of the OnAfterDeleteEvent prevented accidental dimension deletion"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "auditing",
+    "change log",
+    "telemetry",
+    "troubleshooting",
+    "data security"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Default Dimension"
+    }
+  ],
+  "features": [
+    "Change Log",
+    "Microsoft Purview",
+    "Telemetry",
+    "OnAfterDeleteEvent",
+    "Security Auditing",
+    "Data Auditing"
+  ],
+  "versions": [
+    "2024 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Telemetry can do A LOT of good things but unfortunately it was not meant to be used for pure AUDITING purposes.",
+      "why_it_matters": "Clarifies the intended scope of telemetry and sets expectations for when to use Change Log instead"
+    },
+    {
+      "text": "With a simple query that scanned both traces and page views, we were able to determine the innocence of the user",
+      "why_it_matters": "Shows how telemetry provides execution context that audit logs alone cannot, solving investigations faster"
+    },
+    {
+      "text": "just one line, and where you place it, makes a big difference",
+      "why_it_matters": "Demonstrates how code placement of validation logic directly impacts whether temporary or real data gets deleted"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

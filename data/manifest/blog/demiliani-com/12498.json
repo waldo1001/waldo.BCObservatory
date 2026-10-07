@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/09/18/dynamics-365-business-central-introducing-the-new-maskedtype-enum-field-level-property/",
   "published_at": "2025-09-18T19:09:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:16.644Z",
+      "path": "vault:posts/demiliani-com/12498.md",
+      "words": 400
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:16.653Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:16.654Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:16.655Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:16.662Z",
+      "path": "content/posts/demiliani-com/12498.md"
     }
   },
   "input_hash": "2025-09-18T19:09:51.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "56db995142276d5067746212f3e6cca2f96ab8020e9e829f75e90d3337190cc1"
 }

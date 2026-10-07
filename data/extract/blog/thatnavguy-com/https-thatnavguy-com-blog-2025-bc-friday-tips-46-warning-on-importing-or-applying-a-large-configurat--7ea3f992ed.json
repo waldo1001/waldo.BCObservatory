@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/",
+  "title": "BC Friday Tips #46 Warning on Importing or Applying a Large Configuration Package",
+  "source": "thatnavguy-com",
+  "published_at": "2025-09-05T00:00:00.000Z",
+  "words": 131,
+  "summary": "Business Central warns when importing or applying large configuration packages because they can degrade performance and lock out users. Import warnings trigger at files over 3MB, and apply warnings trigger at packages with more than 5,000 records total.",
+  "key_points": [
+    "Import warnings occur for configuration package files larger than 3MB",
+    "Apply warnings occur for packages containing more than 5,000 records across the entire package",
+    "Large package operations can slow the system and prevent other users from working",
+    "Schedule large package imports and applications outside business hours to minimize disruption"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "configuration packages",
+    "performance",
+    "data import",
+    "system warnings",
+    "user impact"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Config. Package Management"
+    }
+  ],
+  "features": [
+    "configuration package import",
+    "configuration package application",
+    "performance warnings",
+    "system load management"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Large packages can slow down performance and even block other users while they're being processed.",
+      "why_it_matters": "Explains the business impact of large configuration packages on system availability and user productivity"
+    },
+    {
+      "text": "Import: when the file is larger than 3MB. Apply: when the package has more than 5,000 records.",
+      "why_it_matters": "Defines the exact thresholds that trigger performance warnings in Business Central"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

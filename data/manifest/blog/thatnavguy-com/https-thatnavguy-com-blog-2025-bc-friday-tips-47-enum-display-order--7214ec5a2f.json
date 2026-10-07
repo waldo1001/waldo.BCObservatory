@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/",
   "published_at": "2025-09-12T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:16.826Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f.md",
+      "words": 74
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:16.832Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:16.833Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:16.834Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:16.840Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be223153788aba9840675ed62f430be8f73fd100aa28e0d02d23656b26049ab6"
 }

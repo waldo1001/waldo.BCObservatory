@@ -7,13 +7,39 @@
   "url": "https://jpearson.blog/2025/09/05/embed-visual-studio-code-in-business-central/",
   "published_at": "2025-09-05T15:53:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:18.006Z",
+      "path": "vault:posts/jpearson-blog/1583.md",
+      "words": 87
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:18.011Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:18.012Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:18.013Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:18.018Z",
+      "path": "content/posts/jpearson-blog/1583.md"
     }
   },
   "input_hash": "2025-09-05T15:54:56.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5705b37433efc745056aa83a8dd36066ef0ef80d7bd8a18d08ac70a8e28af49a"
 }

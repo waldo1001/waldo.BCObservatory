@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12030",
+  "url": "https://gerardorenteria.blog/2025/09/05/%f0%9f%93%96-improving-the-error-experience-in-bc-with-contextual-links-%f0%9f%93%a2/",
+  "title": "📖 Improving the error experience in BC with contextual links 📢",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-09-05T21:18:50.000Z",
+  "words": 1063,
+  "summary": "Business Central's Forward Links feature provides contextual help URLs for common errors. Custom ForwardLinks can be added via Event Subscribers to complement Microsoft's standard links, helping users solve problems faster by displaying support URLs directly in error messages.",
+  "key_points": [
+    "Forward Links are predefined error-to-documentation mappings (Name, Description, Link) that appear automatically in Error Messages pages",
+    "Custom ForwardLinks can coexist with standard ones by using Event Subscribers on the Named Forward Link table",
+    "Event Subscriber code executes on load to register custom links like CUSTOM_GENERAL_VALIDATION, CUSTOM_INTEGRATION_PBI, and CUSTOM_WORKFLOW_HELP",
+    "A test page can simulate multiple errors simultaneously to verify ForwardLink behavior in realistic scenarios"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "forward links",
+    "contextual help",
+    "event subscribers",
+    "custom links",
+    "user experience"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "GDRGForwardLinkMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGForwardLinkSubscriber"
+    },
+    {
+      "type": "page",
+      "name": "GDRGForwardLinksTestPage"
+    },
+    {
+      "type": "page",
+      "name": "GDRGErrorMessagesExt"
+    }
+  ],
+  "features": [
+    "Forward Links",
+    "Custom ForwardLinks",
+    "Event Subscribers",
+    "Error Messages page",
+    "Support URL field",
+    "Error simulation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When an error occurs that has an associated ForwardLink, Business Central automatically displays the Support URL field on the Error Messages page.",
+      "why_it_matters": "Explains how ForwardLinks integrate into the standard error handling workflow to provide immediate help"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

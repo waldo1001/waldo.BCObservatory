@@ -1,0 +1,91 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875",
+  "url": "https://www.sauravdhyani.com/2025/09/exploring-vibe-coding-with-github.html",
+  "title": "🚀 Exploring Vibe Coding with GitHub Copilot for Business Central.",
+  "source": "sauravdhyani-com",
+  "published_at": "2025-09-04T05:30:00.000Z",
+  "words": 845,
+  "summary": "Vibe Coding is a development approach where developers partner with AI tools like GitHub Copilot to co-create AL solutions for Business Central by providing context through coding standards, requirement documents, and integration with Microsoft Learn MCP. The post explains practical setup steps and how to configure Copilot Agent mode for holistic project development.",
+  "key_points": [
+    "Vibe Coding treats AI as a coding partner rather than just a tool, requiring clear coding standards and context to generate accurate solutions",
+    "GitHub Copilot's Agent mode can analyze multiple files and workspace context to understand requirements holistically and auto-execute tasks",
+    "Creating a copilot-instructions.md file establishes a living style guide with field prefixes, naming rules, and documentation standards for the AI partner",
+    "Microsoft Learn MCP integration enables Copilot to access official documentation directly, improving context-aware and standards-compliant code generation",
+    "The workflow involves setting up a workspace, defining instructions, adding functional requirement documents in markdown, and integrating MCP before generating code"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "ai-assisted development",
+    "github copilot",
+    "vibe coding",
+    "al development",
+    "workspace setup",
+    "model context protocol"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json"
+    },
+    {
+      "type": "table",
+      "name": "default table"
+    },
+    {
+      "type": "page",
+      "name": "default page"
+    },
+    {
+      "type": "other",
+      "name": "launch.json"
+    },
+    {
+      "type": "other",
+      "name": "tasks.json"
+    },
+    {
+      "type": "other",
+      "name": "copilot-instructions.md"
+    }
+  ],
+  "features": [
+    "GitHub Copilot Agent Mode",
+    "Copilot Instructions File",
+    "Model Context Protocol Integration",
+    "Workspace Creation with Copilot",
+    "AI-Assisted Code Generation",
+    "Context-Aware Development"
+  ],
+  "versions": [
+    "Business Central 26",
+    "runtime 14.0",
+    "v19"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Vibe Coding is all about working with AI - not just using it as a tool but treating it as a coding partner.",
+      "why_it_matters": "Establishes the core philosophy that AI should be a collaborator with proper context rather than a simple utility, fundamentally changing how developers approach coding."
+    },
+    {
+      "text": "The core of vibe coding is setting the rules for your AI partner.",
+      "why_it_matters": "Emphasizes that providing clear coding conventions and style guides through documentation is essential for AI to generate high-quality, consistent solutions."
+    },
+    {
+      "text": "By combining human intent with AI execution, we're unlocking new productivity levels for Business Central developers.",
+      "why_it_matters": "Highlights the value proposition of Vibe Coding as a paradigm shift that significantly improves developer productivity when human oversight meets AI capabilities."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

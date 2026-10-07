@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/demiliani-com/12482",
+  "url": "https://demiliani.com/2025/09/10/dynamics-365-business-central-update-sandbox-environments-to-preview-versions/",
+  "title": "Dynamics 365 Business Central: update sandbox environments to preview versions.",
+  "source": "demiliani-com",
+  "published_at": "2025-09-10T11:36:33.000Z",
+  "words": 198,
+  "summary": "Partners can now update existing sandbox environments to preview versions of Dynamics 365 Business Central, starting with version 27 in September 2025, to test new features with their own data and installed extensions. However, preview sandbox environments cannot be updated to other versions and are automatically deleted one month after the preview period ends.",
+  "key_points": [
+    "Sandbox environments can be updated to public preview versions instead of creating new environments from scratch",
+    "This feature began with the preview version of Business Central version 27 in September 2025",
+    "Preview sandbox environments retain custom data and installed extensions (PTEs and AppSource apps) during testing",
+    "Preview sandboxes cannot be updated to another version and are automatically deleted one month after preview period ends"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "sandbox",
+    "preview",
+    "environment management",
+    "testing",
+    "version updates",
+    "extensions"
+  ],
+  "objects": [],
+  "features": [
+    "Sandbox environment preview version updates",
+    "Version 27 preview access",
+    "Custom data testing in preview",
+    "Extension compatibility testing"
+  ],
+  "versions": [
+    "27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Now you can also update a current sandbox environment to this public preview version",
+      "why_it_matters": "Explains the new capability that allows testing with existing sandbox data rather than creating fresh environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

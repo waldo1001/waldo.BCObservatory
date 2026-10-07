@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/jpearson-blog/1583",
+  "url": "https://jpearson.blog/2025/09/05/embed-visual-studio-code-in-business-central/",
+  "title": "Embed Visual Studio Code in Business Central",
+  "source": "jpearson-blog",
+  "published_at": "2025-09-05T15:53:18.000Z",
+  "words": 87,
+  "summary": "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in provides a text viewing and editing experience for displaying large blocks of text such as integration requests, responses, or imported file contents.",
+  "key_points": [
+    "Monaco editor can be embedded in a Business Central control add-in",
+    "Improves on the WebPageViewer add-in for text handling",
+    "Suitable for displaying large text blocks from integrations or imported files",
+    "Provides both viewing and editing capabilities"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "control add-in",
+    "monaco editor",
+    "visual studio code",
+    "text editing",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "Monaco editor embedding",
+    "Control add-in development"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "We can embed Visual Studio Code's Monaco editor in a control add-in for a lovely text viewing and editing experience.",
+      "why_it_matters": "Describes the core capability and benefit of the solution being presented"
+    },
+    {
+      "text": "Maybe the request / response from some integration. Maybe the contents of a text file that has been imported.",
+      "why_it_matters": "Explains practical use cases where embedded text editors are valuable in Business Central"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thinkaboutit-be/7109",
+  "url": "https://thinkaboutit.be/2025/09/quick-tip-public-preview-for-business-central-2025-release-wave-2-is-available/",
+  "title": "Quick Tip: Public preview for Business Central 2025 release wave 2 is available.",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-09-04T09:36:33.000Z",
+  "words": 254,
+  "summary": "Business Central version 27 is available in public preview for testing. Contributors can report bugs via a forms submission or provide feedback in the Yammer group, helping Microsoft identify and fix issues before the official release.",
+  "key_points": [
+    "Version 27 of Business Central is now available as a preview sandbox for testing",
+    "Bugs should be reported through a forms submission at aka.ms/bcpreviewbugs",
+    "Feedback and questions can be shared in the Public Preview 2025 release wave 2 Yammer group",
+    "Several feature keys are now mandatory, removed, enabled by default, or disabled by default",
+    "Notable features include package tracking in physical inventory, related table fields in analysis mode, and semantic similarity search"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "inventory"
+  ],
+  "topics": [
+    "public preview",
+    "testing",
+    "bug reporting",
+    "version 27",
+    "release wave 2",
+    "feature keys"
+  ],
+  "objects": [],
+  "features": [
+    "Package tracking in physical inventory orders",
+    "Add fields from related tables in analysis mode",
+    "Server certificate validation for HTTP requests",
+    "Default values for financial reports",
+    "Advanced Tell Me",
+    "Semantic similarity search on application metadata"
+  ],
+  "versions": [
+    "27",
+    "2025 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can now create a preview sandbox of version 27 of Business Central.",
+      "why_it_matters": "Signals the availability of the preview environment for early testing and feedback."
+    },
+    {
+      "text": "Submit the bug here https://aka.ms/bcpreviewbugs.",
+      "why_it_matters": "Provides the specific mechanism for reporting issues discovered during testing."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

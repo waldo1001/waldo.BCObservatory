@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/bertverbeek-nl/1173",
+  "url": "https://www.bertverbeek.nl/blog/2025/09/10/late-payment-prediction-in-fabric-instead-of-bc/",
+  "title": "Late Payment prediction in Fabric instead of BC",
+  "source": "bertverbeek-nl",
+  "published_at": "2025-09-10T12:06:03.000Z",
+  "words": 715,
+  "summary": "Building a late payment prediction model in Microsoft Fabric using AutoML instead of the native Business Central feature. The post demonstrates how to export BC customer ledger data, engineer features from payment history, train an automated machine learning model, and score open invoices to forecast payment dates for cash flow planning.",
+  "key_points": [
+    "AutoML automates machine learning workflow steps like model selection and feature engineering, making AI accessible beyond data scientists",
+    "Feature engineering extracts payment patterns including customer history, payment terms, and posting dates to train the prediction model",
+    "Only closed invoices are used for training to ensure reliable historical data, while open invoices receive predictions for expected close dates",
+    "The trained model and predictions are registered in MLflow and stored in Fabric lakehouse for use in Power BI and other analytics tools",
+    "Data export from Business Central occurs through APIs or bc2adls integration into Fabric for the unified analytics workflow"
+  ],
+  "systems": [
+    "finance",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "late payment prediction",
+    "automl",
+    "machine learning",
+    "microsoft fabric",
+    "cash flow forecasting",
+    "data export",
+    "feature engineering"
+  ],
+  "objects": [],
+  "features": [
+    "AutoML",
+    "Late Payment Prediction",
+    "MLflow Model Management",
+    "Feature Engineering",
+    "Data Export via API",
+    "bc2adls Integration",
+    "Lakehouse Storage"
+  ],
+  "versions": [
+    "October 2018 release"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Only closed invoices (where you know exactly how long it took to pay) are used to train the model.",
+      "why_it_matters": "Critical principle for ensuring model accuracy by using only reliable historical data without future information leakage"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

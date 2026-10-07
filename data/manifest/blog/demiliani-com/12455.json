@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2025/09/04/model-context-protocol-and-the-too-many-tools-problem/",
   "published_at": "2025-09-04T08:40:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:19.153Z",
+      "path": "vault:posts/demiliani-com/12455.md",
+      "words": 720
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:22.658Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:22.659Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:22.660Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:22.667Z",
+      "path": "content/posts/demiliani-com/12455.md"
     }
   },
   "input_hash": "2025-09-04T08:40:01.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "798c1fa28705b8b0e08f6aa78994ab941b8387952f1139a889a69e348706a986"
 }

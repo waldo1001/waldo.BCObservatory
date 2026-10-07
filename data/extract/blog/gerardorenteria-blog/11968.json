@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11968",
+  "url": "https://gerardorenteria.blog/2025/09/04/%f0%9f%8c%9f-improving-business-central-user-tasks-%f0%9f%9b%a0%ef%b8%8f/",
+  "title": "🌟 Improving Business Central user tasks 🛠️",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-09-04T21:42:13.000Z",
+  "words": 1105,
+  "summary": "The post presents an enhancement to Business Central's standard user task functionality that links tasks directly to specific records like customers or vendors. Instead of standalone tasks, users can now create contextualized tasks from record cards or through a record selector, with a Related Record section for navigation.",
+  "key_points": [
+    "User tasks can be linked to specific records (customers, vendors, items, sales orders, or any table) through a new Select Related Record button",
+    "A Related Record FactBox on any card displays only tasks related to that specific record and allows creating new linked tasks automatically",
+    "Tasks created from record cards are automatically contextualized to the current record, and a Go to Related Record button enables quick navigation",
+    "The implementation includes a table extension for contextual fields, a codeunit for linking operations, and page extensions for task cards and record selectors"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "user tasks",
+    "record linking",
+    "task management",
+    "al development",
+    "contextual features"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "User Task"
+    },
+    {
+      "type": "codeunit",
+      "name": "PTEUserTaskRecordMgt"
+    },
+    {
+      "type": "page",
+      "name": "PTEUserTasksFactBox"
+    },
+    {
+      "type": "page",
+      "name": "PTETableSelectorForTask"
+    },
+    {
+      "type": "page",
+      "name": "PTERecordSelector"
+    },
+    {
+      "type": "page",
+      "name": "PTECustomerCardExt"
+    }
+  ],
+  "features": [
+    "related record linking",
+    "contextual task creation",
+    "record selector",
+    "task factbox",
+    "task navigation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The key to this is the \"Related Record\" section at the bottom of the page.",
+      "why_it_matters": "Shows where the core enhancement for task-record connection is implemented"
+    },
+    {
+      "text": "I believe this proposal is the natural evolution of the user task functionality in Business Central, providing them with intelligent context.",
+      "why_it_matters": "Articulates the improvement philosophy: adding context to make tasks more useful and connected to business operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

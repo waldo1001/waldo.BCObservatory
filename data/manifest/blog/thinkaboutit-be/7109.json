@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/09/quick-tip-public-preview-for-business-central-2025-release-wave-2-is-available/",
   "published_at": "2025-09-04T09:36:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:39:22.752Z",
+      "path": "vault:posts/thinkaboutit-be/7109.md",
+      "words": 254
+    },
+    "extracted": {
+      "at": "2026-10-07T01:39:22.765Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:39:22.767Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:39:22.768Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:39:22.773Z",
+      "path": "content/posts/thinkaboutit-be/7109.md"
     }
   },
   "input_hash": "2025-09-04T09:36:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e979ab6abad1bab28736b17a5303e80bbabb766eb7c58185d277f9071252a15f"
 }
