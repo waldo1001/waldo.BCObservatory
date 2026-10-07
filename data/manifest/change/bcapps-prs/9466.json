@@ -6,10 +6,18 @@
   "title": "[Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event",
   "url": "https://github.com/microsoft/BCApps/pull/9466",
   "published_at": "2026-07-24T07:38:56Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:15.889Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
     }
   },
   "input_hash": "2132849b6f671a6c029fafedccaa667b08c750a3:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30351 extend oncheckexpirationdateonbeforeassignexpirationdate event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0724cbb86d68899ca805f8f672c00f8ad1b2ed069c887702f20d9237debd9d01"
 }

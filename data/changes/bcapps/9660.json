@@ -1,0 +1,113 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9660,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9660",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T05:34:53Z",
+  "merge_commit_sha": "89e1369153eaff61649d35325b722944f4927074",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same",
+  "body_hash": "bb511385e9f20d264429d73d17c587098dd4b37d8f805ceea263256db457e89c",
+  "fixes_issues": [],
+  "work_items": [
+    643947
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderCompLineList.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponents.Page.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderCompLineList.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponents.Page.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMAvailabilitybyEvent.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 174,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderCompLineList.Page.al",
+        "status": "modified",
+        "key": "page/5407",
+        "type": "page",
+        "id": 5407,
+        "name": "Prod. Order Comp. Line List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5407"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponents.Page.al",
+        "status": "modified",
+        "key": "page/99000818",
+        "type": "page",
+        "id": 99000818,
+        "name": "Prod. Order Components",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000818"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderCompLineList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponents.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

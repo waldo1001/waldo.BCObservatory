@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9682",
+  "number": 9682,
+  "title": "[E-Document Formats][OIOUBL] Migrate NAV PR 247162 into BCApps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "New OIOUBL e-document format reader for Denmark that parses OIOUBL XML invoices and credit notes into purchase staging tables, enabling structured e-document import using vendor VAT registration, GLN, or PEPPOL identifiers.",
+  "key_points": [
+    "OIOUBL format handler codeunit implements IStructuredFormatReader to parse Invoice and CreditNote XML",
+    "Vendor lookup uses VAT registration number, GLN, or PEPPOL participant ID",
+    "Reuses public E-Document PEPPOL Utility helpers instead of private XML parsing",
+    "Includes structured integration tests and OIOUBL invoice/credit note test resources",
+    "Mirrors the same implementation pattern as existing PINT A-NZ handler"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Migrates internal NAV PR 247162 (OIOUBL structured E-Document reader) into BCApps",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004239,
+    "changes_in_call": 1
+  }
+}

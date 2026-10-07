@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9297",
+  "number": 9297,
+  "title": "[Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixed a bug preventing posting of inventory picks for assemble-to-order items by skipping bin content validation for ATO pick lines, which don't have bin content until assembly posting occurs.",
+  "key_points": [
+    "ATO pick lines were incorrectly validated against bin content that doesn't exist yet",
+    "Validation only happens during assembly posting, not before the pick",
+    "Solution skips bin content checks for ATO lines in the validation loop",
+    "Test case added to prevent regression"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "assembly"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003285,
+    "changes_in_call": 1
+  }
+}

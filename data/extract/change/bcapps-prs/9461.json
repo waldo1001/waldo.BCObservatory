@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9461",
+  "number": 9461,
+  "title": "[Extensibility Request] issue 30335: add OnBeforeRecreateSalesLine IsHandled event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A new OnBeforeRecreateSalesLine integration event with IsHandled flag was added to the Sales Header table in all country layers, enabling extensions to skip the standard sales line recreation logic and provide custom implementations.",
+  "key_points": [
+    "New OnBeforeRecreateSalesLine IsHandled integration event published in RecreateSalesLinesHandleSupplementTypes",
+    "Allows subscribers to bypass standard CreateSalesLine call and implement custom sales line creation",
+    "Change propagated across all country-specific layers (W1, NA, GB, BE, CH, CZ, ES, FI, FR, IT, NL, NO, RU, SE, APAC)",
+    "Enables conditional business logic based on extension fields without modifying core recreation flow",
+    "Addresses extensibility gap for complex sales line recreation scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004461,
+    "changes_in_call": 1
+  }
+}

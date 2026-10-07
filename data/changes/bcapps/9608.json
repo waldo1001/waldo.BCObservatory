@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9608,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9608",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T19:29:25Z",
+  "merge_commit_sha": "7b0e5c1123e5b5b90f0c77641bc5754661324d89",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 642638: [master] IRS 1099 reporting fields inconsistently stamped on Vendor Ledger Entries for non-1099 vendors - General Journal vs. Purchase Invoice",
+  "body_hash": "2a75076764facf71eda8a6444be15e299a682b742db04a7937e7663b8d172030",
+  "fixes_issues": [],
+  "work_items": [
+    642638
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099BaseAppSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/IRSForms/test/src/IRS1099VendorTests.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 84,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099BaseAppSubscribers.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

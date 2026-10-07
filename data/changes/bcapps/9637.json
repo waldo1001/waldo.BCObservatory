@@ -1,0 +1,313 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9637,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9637",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T12:18:43Z",
+  "merge_commit_sha": "c5beb83a48359fbec95a9c7b8df8875dadc79d9b",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Event Requests] Add integration events across base app and SMTP module",
+  "body_hash": "e54b1da7f15af5044a92e53377b4ee7ce9b75af14b646e81878189b9033f25a7",
+  "fixes_issues": [],
+  "work_items": [
+    638127,
+    639938,
+    639940,
+    640704,
+    640904,
+    640952,
+    640954,
+    641298,
+    641557,
+    641619
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - SMTP API/app/src/SMTPMessage.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - SMTP API/app/src/SMTPMessageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - SMTP Connector/app/src/SMTPConnectorImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Utilities/LocalFunctionalityMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/ICInboxOutboxMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/NoSeries/SequenceNoMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMQuotetoSalesQuote.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigExcelExchange.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 99,
+    "deletions": 7,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - SMTP API/app/src/SMTPMessage.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4613",
+        "type": "codeunit",
+        "id": 4613,
+        "name": "SMTP Message",
+        "app": "Email - SMTP API",
+        "cc": "w1",
+        "page": "codeunit/4613"
+      },
+      {
+        "path": "src/Apps/W1/Email - SMTP API/app/src/SMTPMessageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4614",
+        "type": "codeunit",
+        "id": 4614,
+        "name": "SMTP Message Impl",
+        "app": "Email - SMTP API",
+        "cc": "w1",
+        "page": "codeunit/4614"
+      },
+      {
+        "path": "src/Apps/W1/Email - SMTP Connector/app/src/SMTPConnectorImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4513",
+        "type": "codeunit",
+        "id": 4513,
+        "name": "SMTP Connector Impl.",
+        "app": "Email - SMTP Connector",
+        "cc": "w1",
+        "page": "codeunit/4513"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6620",
+        "type": "codeunit",
+        "id": 6620,
+        "name": "Copy Document Mgt.",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/6620"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6620",
+        "type": "codeunit",
+        "id": 6620,
+        "name": "Copy Document Mgt.",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/6620"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Utilities/LocalFunctionalityMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11400",
+        "type": "codeunit",
+        "id": 11400,
+        "name": "Local Functionality Mgt.",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/11400-nl"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/ICInboxOutboxMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/427",
+        "type": "codeunit",
+        "id": 427,
+        "name": "ICInboxOutboxMgt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/427"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/NoSeries/SequenceNoMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9500",
+        "type": "codeunit",
+        "id": 9500,
+        "name": "Sequence No. Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9500"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMQuotetoSalesQuote.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5348",
+        "type": "codeunit",
+        "id": 5348,
+        "name": "CRM Quote to Sales Quote",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5348"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+        "status": "modified",
+        "key": "table/472",
+        "type": "table",
+        "id": 472,
+        "name": "Job Queue Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/472"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigExcelExchange.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8618",
+        "type": "codeunit",
+        "id": 8618,
+        "name": "Config. Excel Exchange",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8618"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6620",
+        "type": "codeunit",
+        "id": 6620,
+        "name": "Copy Document Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6620"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Utilities/CopyDocumentMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "apps": [
+    "Base Application",
+    "Email - SMTP API",
+    "Email - SMTP Connector"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9608",
+  "number": 9608,
+  "title": "Bug 642638: [master] IRS 1099 reporting fields inconsistently stamped on Vendor Ledger Entries for non-1099 vendors - General Journal vs. Purchase Invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "IRS 1099 reporting fields on vendor ledger entries are now consistently left empty for vendors without a 1099 Form Box No., whether posted through a General Journal or Purchase Invoice.",
+  "key_points": [
+    "IRS 1099 fields were being inconsistently stamped on vendor ledger entries for non-1099 vendors depending on the posting method",
+    "The fix ensures IRS data is only copied to vendor ledger entries when the vendor actually has a 1099 Form Box No.",
+    "Tests were added to verify that vendors without a Form Box No. get empty IRS fields from General Journal posting",
+    "This prevents non-1099 vendors from having incorrect and non-editable IRS reporting fields on their ledger entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Copy the IRS 1099 fields to the vendor ledger entry only when the vendor has a 1099 Form Box No.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003664,
+    "changes_in_call": 1
+  }
+}

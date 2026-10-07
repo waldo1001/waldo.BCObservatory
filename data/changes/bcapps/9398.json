@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9398,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9398",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T05:53:22Z",
+  "merge_commit_sha": "6964344f37630df269a31156b45a4e8c6b0d00f1",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit",
+  "body_hash": "585964ecc8f93ad5ddefe559b3bd7bacf2d2de98c8a1546e7ec7cd8a3603fa66",
+  "fixes_issues": [],
+  "work_items": [
+    642126
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/CalcInventoryAdjmtOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Assembly/SCMCalculateAssemblyCost.Codeunit.al",
+      "status": "modified",
+      "additions": 232,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 239,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/CalcInventoryAdjmtOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5896",
+        "type": "codeunit",
+        "id": 5896,
+        "name": "Calc. Inventory Adjmt. - Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5896"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

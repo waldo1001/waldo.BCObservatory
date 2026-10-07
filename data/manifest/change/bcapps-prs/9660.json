@@ -6,10 +6,18 @@
   "title": "[Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same",
   "url": "https://github.com/microsoft/BCApps/pull/9660",
   "published_at": "2026-07-24T05:34:53Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:15.220Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 2,
+      "unjoined": 2
     }
   },
   "input_hash": "89e1369153eaff61649d35325b722944f4927074:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "master act consumption qty field in component of a firm planned order has amounts that point to a released production order that has the same document no if the component is the same"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8177fa43897ddc83a77203814a2a90515880e027631b7caef57bcfa7f2d72c82"
 }

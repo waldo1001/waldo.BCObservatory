@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9464",
+  "number": 9464,
+  "title": "[Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "An integration event is added to the CheckTrackingIfRequired procedure in the Item Journal Line table, allowing extensions to perform custom item tracking validation and raise more meaningful error messages before standard checks run.",
+  "key_points": [
+    "New OnBeforeCheckTrackingIfRequired event fires at the start of CheckTrackingIfRequired",
+    "Enables extensions to validate item tracking separately before standard validation",
+    "Provides context about which document line and item are affected in errors",
+    "Change applied across all country layers (W1, APAC, CH, ES, FR, GB, IT, RU)"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003654,
+    "changes_in_call": 1
+  }
+}

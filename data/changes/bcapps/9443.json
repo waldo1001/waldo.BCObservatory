@@ -1,0 +1,298 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9443,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9443",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T07:38:56Z",
+  "merge_commit_sha": "e51e0d10ac9a4449fd54edc8134f1393b273aabb",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation",
+  "body_hash": "8baa578e76293ee52128369feabfed2f252f0074750fdda0b9d0ec01cf41d17e",
+  "fixes_issues": [],
+  "work_items": [
+    641640
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 14,
+    "additions": 154,
+    "deletions": 28,
+    "al": 14
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/38"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseHeader.Table.al",
+        "status": "modified",
+        "key": "table/38",
+        "type": "table",
+        "id": 38,
+        "name": "Purchase Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/38"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

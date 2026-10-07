@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9455",
+  "number": 9455,
+  "title": "Update permissions for G/L Transaction table",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration",
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Permission sets for general ledger transactions are updated across multiple localization layers to align with access requirements for posting and compression operations.",
+  "key_points": [
+    "Added read permission for G/L Transaction table to multiple permission sets across W1, RU, CH, NA, ES, IT, NL, BE, and APAC layers",
+    "Updated permission sets include payables, receivables, fixed assets, general ledger, inventory, jobs, and Dynamics 365 role-based sets",
+    "Covers both OnPrem and cloud permission sets for consistent access controls",
+    "Enables users with relevant roles to access general ledger transaction data when performing finance operations",
+    "No breaking changes to existing permissions, only additions of read access"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011386,
+    "changes_in_call": 1
+  }
+}

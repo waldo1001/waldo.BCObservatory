@@ -1,0 +1,190 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9464,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9464",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T07:38:56Z",
+  "merge_commit_sha": "6f70ccfa86c67246877afe28a5af84674db14381",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line",
+  "body_hash": "c4088eec58a489f1bed877c49f0e24e5e9a113c58cd9cc7d15de63d62eaa342d",
+  "fixes_issues": [],
+  "work_items": [
+    642241
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 48,
+    "deletions": 0,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/83"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Journal/ItemJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/83",
+        "type": "table",
+        "id": 83,
+        "name": "Item Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/83"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

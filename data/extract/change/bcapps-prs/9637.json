@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9637",
+  "number": 9637,
+  "title": "[Event Requests] Add integration events across base app and SMTP module",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "summary": "Ten new and extended integration events were added across the base application and SMTP email modules to enable partners to customize standard behavior without modifying base application code.",
+  "key_points": [
+    "New events for intercompany inbox/outbox management in sales invoices and credit memos",
+    "Job Queue Entry events for status changes and message display",
+    "Sequence number management events for number generation",
+    "Copy Document Management events for sales shipment line handling",
+    "SMTP email events to thread EmailMessageId through AddFrom operations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010027,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Event Requests] Add integration events across base app and SMTP module",
   "url": "https://github.com/microsoft/BCApps/pull/9637",
   "published_at": "2026-07-24T12:18:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:03.758Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 15,
+      "objects": 12,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:10.025Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.010027
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:10.465Z",
+      "objects": 12,
+      "unjoined": 3,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:10.503Z",
+      "path": "content/changes/bcapps/9637.md"
     }
   },
   "input_hash": "c5beb83a48359fbec95a9c7b8df8875dadc79d9b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "event requests add integration events across base app and smtp module"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "605f4f508b30acd2864e5a0d1234b7c1b97a438e2ae9cb90fe40860f8a50c00c"
 }

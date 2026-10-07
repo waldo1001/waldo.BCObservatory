@@ -1,0 +1,943 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9455,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9455",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-25T13:14:27Z",
+  "merge_commit_sha": "f66be902a2b40a5bc578d31784d2255439b1e2b7",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Update permissions for G/L Transaction table",
+  "body_hash": "cf1b6531fc72ff3b0ee76aec8e1e76a95ad7abb3eccc3735a5411c25a4c29d0d",
+  "fixes_issues": [],
+  "work_items": [
+    640912
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Ledger/DateCompressVATEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Permissions/OnPrem/Sales And Recievables/Journals/RecievablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Receivables/DateCompressCustomerLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Permissions/d365setup.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Fixed Assets/Journals/FixedAssetsJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/General Ledger/GeneralLedgerEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/General Ledger/Journals/GeneralLedgerJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Inventory/InventoryPeriodic.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Purchase And Payables/Documents/PayablesDocumentsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Sales And Recievables/Documents/RecievablesDocumentsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365banking.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365financialrep.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365purchdocedit.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Permissions/d365purchdocpost.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/System/User/UserManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Ledger/DateCompressVATEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Fixed Assets/Journals/FixedAssetsJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/GeneralLedgerEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/Journals/GeneralLedgerJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/Registers/GLRegistersRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Inventory/InventoryPeriodic.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsView.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Purchase And Payables/Documents/PayablesDocumentsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Sales And Recievables/Documents/RecievablesDocumentsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Sales And Recievables/Journals/RecievablesJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365banking.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365customeredit.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365financialrep.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365purchdocpost.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365salesdocpost.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365setup.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Receivables/DateCompressCustomerLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Permissions/OnPrem/Service/Documents/ServiceDocumentsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/User/UserManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 57,
+    "additions": 57,
+    "deletions": 1,
+    "al": 57
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/3602",
+        "type": "permissionset",
+        "id": 3602,
+        "name": "Payables Journals - Post",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "permissionset/3602"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+        "status": "modified",
+        "key": "report/86",
+        "type": "report",
+        "id": 86,
+        "name": "Adjust Add. Reporting Currency",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/86"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/3602",
+        "type": "permissionset",
+        "id": 3602,
+        "name": "Payables Journals - Post",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "permissionset/3602"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Fixed Assets/Journals/FixedAssetsJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/2018",
+        "type": "permissionset",
+        "id": 2018,
+        "name": "Fixed Assets Journals - Post",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "permissionset/2018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+        "status": "modified",
+        "key": "report/98",
+        "type": "report",
+        "id": 98,
+        "name": "Date Compress General Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/98"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+        "status": "modified",
+        "key": "report/86",
+        "type": "report",
+        "id": 86,
+        "name": "Adjust Add. Reporting Currency",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/86"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Ledger/DateCompressVATEntries.Report.al",
+        "status": "modified",
+        "key": "report/95",
+        "type": "report",
+        "id": 95,
+        "name": "Date Compress VAT Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/95"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Fixed Assets/Journals/FixedAssetsJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/2018",
+        "type": "permissionset",
+        "id": 2018,
+        "name": "Fixed Assets Journals - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/2018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/GeneralLedgerEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6720",
+        "type": "permissionset",
+        "id": 6720,
+        "name": "General Ledger - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6720"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/Journals/GeneralLedgerJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/2118",
+        "type": "permissionset",
+        "id": 2118,
+        "name": "General Ledger Journals - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/2118"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/General Ledger/Registers/GLRegistersRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6912",
+        "type": "permissionset",
+        "id": 6912,
+        "name": "G/L Registers - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6912"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Inventory/InventoryPeriodic.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/4936",
+        "type": "permissionset",
+        "id": 4936,
+        "name": "Inventory - Periodic",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/4936"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsView.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/5679",
+        "type": "permissionset",
+        "id": 5679,
+        "name": "Jobs - View",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5679"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Purchase And Payables/Documents/PayablesDocumentsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/862",
+        "type": "permissionset",
+        "id": 862,
+        "name": "Payables Documents - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/862"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/3602",
+        "type": "permissionset",
+        "id": 3602,
+        "name": "Payables Journals - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/3602"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Sales And Recievables/Documents/RecievablesDocumentsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/2529",
+        "type": "permissionset",
+        "id": 2529,
+        "name": "Recievables Documents - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/2529"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Sales And Recievables/Journals/RecievablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6207",
+        "type": "permissionset",
+        "id": 6207,
+        "name": "Recievables Journals - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6207"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5117",
+        "type": "permissionset",
+        "id": 5117,
+        "name": "D365 AUTOMATION",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365banking.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5759",
+        "type": "permissionset",
+        "id": 5759,
+        "name": "D365 BANKING",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5759"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365customeredit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5729",
+        "type": "permissionset",
+        "id": 5729,
+        "name": "D365 CUSTOMER, EDIT",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5729"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365financialrep.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7576",
+        "type": "permissionset",
+        "id": 7576,
+        "name": "D365 FINANCIAL REP.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7576"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365purchdocpost.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/2909",
+        "type": "permissionset",
+        "id": 2909,
+        "name": "D365 PURCH DOC, POST",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/2909"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1044",
+        "type": "permissionset",
+        "id": 1044,
+        "name": "D365 READ",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365salesdocpost.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/9977",
+        "type": "permissionset",
+        "id": 9977,
+        "name": "D365 SALES DOC, POST",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/9977"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365setup.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/191",
+        "type": "permissionset",
+        "id": 191,
+        "name": "D365 SETUP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/191"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7931",
+        "type": "permissionset",
+        "id": 7931,
+        "name": "D365 TEAM MEMBER",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6121",
+        "type": "permissionset",
+        "id": 6121,
+        "name": "INTELLIGENT CLOUD",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+        "status": "modified",
+        "key": "report/398",
+        "type": "report",
+        "id": 398,
+        "name": "Date Compress Vendor Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/398"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Receivables/DateCompressCustomerLedger.Report.al",
+        "status": "modified",
+        "key": "report/198",
+        "type": "report",
+        "id": 198,
+        "name": "Date Compress Customer Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/198"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Permissions/OnPrem/Service/Documents/ServiceDocumentsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8322",
+        "type": "permissionset",
+        "id": 8322,
+        "name": "Service Documents - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/8322"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/User/UserManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/418",
+        "type": "codeunit",
+        "id": 418,
+        "name": "User Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/418"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/AdjustAddReportingCurrency.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Ledger/DateCompressVATEntries.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Permissions/OnPrem/Sales And Recievables/Journals/RecievablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Receivables/DateCompressCustomerLedger.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Permissions/d365setup.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Ledger/DateCompressGeneralLedger.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/General Ledger/GeneralLedgerEdit.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/General Ledger/Journals/GeneralLedgerJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Inventory/InventoryPeriodic.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Purchase And Payables/Documents/PayablesDocumentsPost.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Purchase And Payables/Journals/PayablesJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/OnPrem/Sales And Recievables/Documents/RecievablesDocumentsPost.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365banking.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365financialrep.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365purchdocedit.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Permissions/d365purchdocpost.permissionset.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/System/User/UserManagement.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "administration",
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

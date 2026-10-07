@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9702",
+  "number": 9702,
+  "title": "Default new E-Document services to import v2 and let users select the draft format",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "New E-Document services now default to the v2 import pipeline and expose a draft format selector on the service card. Users can configure the format v2 needs to convert incoming structured documents into drafts, while existing connectors maintain their prior import versions.",
+  "key_points": [
+    "New services default to Import Process Version 2.0 and the selector is now visible",
+    "Added draft format field to the service card (only for v2) letting users pick how to read structured data",
+    "ForNAV connector automatically pins to Version 1.0 since its inbound is not yet v2-compatible",
+    "Selectable draft format prevents v2 import failures when structured formats return Unspecified",
+    "Tests verify v2 defaults and draft format persistence"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "New E-Document services should default to the v2 import pipeline and let users actually configure it end-to-end.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00424,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9450",
+  "number": 9450,
+  "title": "[Extensibility Request] issue 30290: Add OnBeforeUpdateSetupOnBillToCustomerChangeInSalesHeader event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A new integration event OnBeforeUpdateSetupOnBillToCustomerChangeInSalesHeader is added to the Sales Header table to allow extensions to override or skip the standard VAT registration update logic when the bill-to customer changes.",
+  "key_points": [
+    "New IntegrationEvent added before AltCustVATRegFacade.UpdateSetupOnBillToCustomerChangeInSalesHeader call",
+    "Event has IsHandled parameter that allows subscribers to prevent standard logic execution",
+    "Change applied consistently across all localization layers (W1, NA, BE, CH, CZ, ES, FI, FR, GB, IT, NL, NO, RU, SE, APAC)",
+    "Enables extensions to implement custom VAT registration and posting group assignment without conflicts",
+    "Maintains backward compatibility as event is optional"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004639,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9398",
+  "number": 9398,
+  "title": "[Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Assembly overhead costs are now recalculated consistently after updating the item's standard cost, ensuring that per-unit and per-output indirect costs use uniform rounding.",
+  "key_points": [
+    "Assembly overhead recalculation runs after both branches of the indirect cost logic",
+    "Fixes inconsistent rounding between per-unit and per-output indirect costs",
+    "Overhead is recomputed from stable material and capacity amounts multiplied by indirect percentage",
+    "Costs are rounded and indirect cost shares are recalculated after overhead adjustment"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costs",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003846,
+    "changes_in_call": 1
+  }
+}

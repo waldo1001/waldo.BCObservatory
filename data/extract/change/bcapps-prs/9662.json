@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9662",
+  "number": 9662,
+  "title": "[Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "Fixed incorrect depreciation calculation when using the declining-balance method in fixed asset depreciation processing across multiple localization layers.",
+  "key_points": [
+    "Depreciation calculation for declining-balance method was producing wrong results",
+    "Fix applied to the Depreciation Calculation codeunit across five localization layers (W1, FR, GB, IT, RU)",
+    "Test cases added to verify the declining-balance depreciation calculation",
+    "Changes ensure accurate depreciation amounts when running fixed asset depreciation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006409,
+    "changes_in_call": 1
+  }
+}

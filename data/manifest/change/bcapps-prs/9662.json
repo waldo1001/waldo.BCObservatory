@@ -6,10 +6,35 @@
   "title": "[Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation",
   "url": "https://github.com/microsoft/BCApps/pull/9662",
   "published_at": "2026-07-24T09:46:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:05.262Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 5,
+      "objects": 3,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:11.660Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.006409
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:11.872Z",
+      "objects": 3,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:11.877Z",
+      "path": "content/changes/bcapps/9662.md"
     }
   },
   "input_hash": "adace9c3c1b268b31bf6725ac1c111a2bef3a82c:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master fixed asset declining balance method wrong calculation when running depreciation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9c55c472ffde0c93e8fc2f96631fef32db3d77df2b3601319d8c793560fb420d"
 }

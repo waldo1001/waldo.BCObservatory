@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9297,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9297",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-24T06:21:32Z",
+  "merge_commit_sha": "a53288c3ce5b47be2c667087e78b49623bee820f",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order",
+  "body_hash": "e37622bab6989625990716c3c704f2d7db4dab5733d575b4f03e4c9cbb754075",
+  "fixes_issues": [],
+  "work_items": [
+    642202
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Assembly/SCMWhseAsmToOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 127,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 136,
+    "deletions": 13,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Activity/WhseActivityPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7324",
+        "type": "codeunit",
+        "id": 7324,
+        "name": "Whse.-Activity-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7324"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

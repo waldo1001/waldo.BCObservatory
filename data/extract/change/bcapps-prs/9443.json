@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9443",
+  "number": 9443,
+  "title": "[Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "A new handled integration event OnValidatePayToVendorNoOnBeforeRecreatePurchLines was added to the Pay-to Vendor No. field validation in Purchase Header, allowing extensions to take ownership of purchase line recreation logic instead of being forced to replicate the entire validation trigger.",
+  "key_points": [
+    "New integration event raised before RecreatePurchLines call in Pay-to Vendor No. field validation",
+    "Event includes IsHandled flag that allows subscribers to skip the standard recreation logic",
+    "Exposes Rec and xRec parameters for subscribers to access purchase header data",
+    "Applied across all localization layers (W1, APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE)",
+    "Enables custom purchase line recreation logic that preserves extension-specific information"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004462,
+    "changes_in_call": 1
+  }
+}

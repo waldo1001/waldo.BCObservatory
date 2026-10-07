@@ -6,10 +6,35 @@
   "title": "[Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit",
   "url": "https://github.com/microsoft/BCApps/pull/9398",
   "published_at": "2026-07-24T05:53:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:13.145Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:20.324Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003846
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:20.476Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:20.482Z",
+      "path": "content/changes/bcapps/9398.md"
     }
   },
   "input_hash": "6964344f37630df269a31156b45a4e8c6b0d00f1:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "incorrect cost amount actual in value entries after posting assembly process and calulating the assembly standard costsinitial commit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d1e1fc7cd85b49995084e4e33dc3754167a881a77a6d507abd5391bb9fb2216a"
 }
