@@ -6,10 +6,18 @@
   "title": "Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table\"",
   "url": "https://github.com/microsoft/BCApps/pull/9071",
   "published_at": "2026-07-13T11:31:45Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:54.854Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
     }
   },
   "input_hash": "b477d1fe9c918294f5d58b5738332a29dfbed6ea:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "merged from 28 x the transaction cannot be completed because it will cause inconsistencies in the g l entry table"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63d94499900906842b2b4516c7b4f76a3e59d1705640bd4a49a82fc076321ae6"
 }

@@ -1,0 +1,61 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9201,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9201",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T21:30:47Z",
+  "merge_commit_sha": "58530be574948b353551041fe7b9c4848b530b8b",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Incident 51000001072719 : [BC-IN][28.1] Wrong TDS amount is being reflected on the TDS Entries page while posting a Purchase Invoice against a foreign (NRI) vendor.",
+  "body_hash": "0c8f847c16383bce1cf5b62edb18e76dab19aec500554004f96d35f123e63664",
+  "fixes_issues": [],
+  "work_items": [
+    641470
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INTDS/app/.resources/TDSUseCases/fee5dfff-0bc1-4246-ad90-6cb3dc44a451.json",
+      "status": "modified",
+      "additions": 4626,
+      "deletions": 4613,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 4627,
+    "deletions": 4614,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

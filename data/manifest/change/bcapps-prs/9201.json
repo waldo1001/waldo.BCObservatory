@@ -6,10 +6,35 @@
   "title": "[Main]-Incident 51000001072719 : [BC-IN][28.1] Wrong TDS amount is being reflected on the TDS Entries page while posting a Purchase Invoice against a foreign (NRI) vendor.",
   "url": "https://github.com/microsoft/BCApps/pull/9201",
   "published_at": "2026-07-13T21:30:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:48.657Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:53.382Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003704
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:53.587Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:53.592Z",
+      "path": "content/changes/bcapps/9201.md"
     }
   },
   "input_hash": "58530be574948b353551041fe7b9c4848b530b8b:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": true,
     "title_key": "incident 51000001072719 bc in 28 1 wrong tds amount is being reflected on the tds entries page while posting a purchase invoice against a foreign nri vendor"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9a063c772b23ce6f14667171e72abca002fd2aaf5bf5a4cdf64739a7f6a42ed1"
 }

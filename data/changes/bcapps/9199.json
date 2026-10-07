@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9199,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9199",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T22:30:11Z",
+  "merge_commit_sha": "36fe150e6ef178458191ac93d402a7a857505b89",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Incident 21000001049308 : [BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly",
+  "body_hash": "c4037a5d9719f59e64efa42eb8f2ad86cabde7fec4de68c3d3ab586ffaadc5f3",
+  "fixes_issues": [],
+  "work_items": [
+    641225
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INTaxBase/app/src/codeunit/TaxBaseSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INTaxBase/app/src/codeunit/TaxBaseSubscribers.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9307",
+  "number": 9307,
+  "title": "Added missing event call so the search results page subscribes to the…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The data search result records page now subscribes to the same event as the search page itself to ensure consistent event handling.",
+  "key_points": [
+    "Added missing event subscription call to Data Search Result Records page",
+    "Synchronizes event handling between search page and results page",
+    "Ensures consistent behavior across search functionality",
+    "Fixes event subscription gap in data search feature"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Added missing event call so the search results page subscribes to the same event as the search itself.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00299,
+    "changes_in_call": 1
+  }
+}

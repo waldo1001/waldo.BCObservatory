@@ -1,0 +1,151 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9177,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9177",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T14:03:33Z",
+  "merge_commit_sha": "dc17377132f003fdbf6cc019778f3dbbbef5ac4f",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[master] - Calculate Calendar reports missing from Work/Machine Center Cards and missing filter fields on request pages",
+  "body_hash": "52da27c358cb4f07527506bae4f44f3418c3bce52d41fd7deb1ab7336e499bb6",
+  "fixes_issues": [],
+  "work_items": [
+    641376
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/SCM-Manufacturing/SCMManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 207,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/CalcMachineCenterCalendar.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCard.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/CalculateWorkCenterCalendar.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufacturing.Codeunit.al",
+      "status": "modified",
+      "additions": 207,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 484,
+    "deletions": 4,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/CalcMachineCenterCalendar.Report.al",
+        "status": "modified",
+        "key": "report/99001045",
+        "type": "report",
+        "id": 99001045,
+        "name": "Calc. Machine Center Calendar",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001045"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000760",
+        "type": "page",
+        "id": 99000760,
+        "name": "Machine Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000760"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/CalculateWorkCenterCalendar.Report.al",
+        "status": "modified",
+        "key": "report/99001046",
+        "type": "report",
+        "id": 99001046,
+        "name": "Calculate Work Center Calendar",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001046"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCard.Page.al",
+        "status": "modified",
+        "key": "page/99000754",
+        "type": "page",
+        "id": 99000754,
+        "name": "Work Center Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000754"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

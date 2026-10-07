@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9177",
+  "number": 9177,
+  "title": "[master] - Calculate Calendar reports missing from Work/Machine Center Cards and missing filter fields on request pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The Calculate Calendar reports are now accessible from Work Center and Machine Center Cards through a new processing action, and their request pages include additional filter fields for Work Center Group Code and Work Center No.",
+  "key_points": [
+    "Added area(processing) with calendar actions to Work Center and Machine Center Cards",
+    "Extended RequestFilterFields on Calculate Machine Center Calendar report with Work Center No.",
+    "Extended RequestFilterFields on Calculate Work Center Calendar report with Work Center Group Code",
+    "Users can now access calendar reports directly from card pages using RunPageOnRec",
+    "Improved filtering capabilities on calendar report request pages"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003659,
+    "changes_in_call": 1
+  }
+}

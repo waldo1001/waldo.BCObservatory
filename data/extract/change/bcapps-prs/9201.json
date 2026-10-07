@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9201",
+  "number": 9201,
+  "title": "[Main]-Incident 51000001072719 : [BC-IN][28.1] Wrong TDS amount is being reflected on the TDS Entries page while posting a Purchase Invoice against a foreign (NRI) vendor.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed TDS amount currency conversion for foreign vendors without PAN under concessional codes by adding the missing Currency Code field mapping in the tax engine use case configuration.",
+  "key_points": [
+    "TDS Entry amounts are now correctly converted from foreign currency to local currency (INR) for NRI vendors without PAN",
+    "Currency Code field mapping was added to the TDS Entry insert record in the tax engine configuration",
+    "The fix aligns the non-PAN concessional code use case with other working NRI vendor scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003704,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9315",
+  "number": 9315,
+  "title": "[Projects] Add Assigned Resources to projects and project tasks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects",
+    "administration"
+  ],
+  "summary": "Projects now support assigning resources at the project level or to specific posting-type tasks, with multiple resources per project or task managed through a new Assigned Resources table and UI actions.",
+  "key_points": [
+    "New Job Assigned Resource table stores resource assignments linked to projects and optional posting-type tasks",
+    "Assigned Resources actions added to project cards, lists, and task pages for managing assignments",
+    "Task-level assignments restricted to posting-type tasks; changing a task type away from posting is blocked if assignments exist",
+    "Assigned resources cascade-delete with projects or tasks; assignments archived and restored alongside job archives",
+    "Copy Project Tasks includes optional toggle to copy assigned resources without overwriting existing entries"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010262,
+    "changes_in_call": 1
+  }
+}

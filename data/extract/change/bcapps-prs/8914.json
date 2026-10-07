@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8914",
+  "number": 8914,
+  "title": "[Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an issue where editing a sales order line's description would unexpectedly change invoice totals by ensuring calculations only run when the item number changes.",
+  "key_points": [
+    "The Description field validation was unconditionally recalculating totals on every edit",
+    "Total recalculation now only triggers when the item number actually changes",
+    "Prevention of duplicate delta updates to invoice amounts",
+    "Includes test coverage for the fix",
+    "Affects all localized versions of the sales order subform page"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003462,
+    "changes_in_call": 1
+  }
+}

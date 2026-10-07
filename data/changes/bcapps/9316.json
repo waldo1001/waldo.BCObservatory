@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9316,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9316",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T15:52:17Z",
+  "merge_commit_sha": "20deff8d3e492e0b18bdf25a2589e49e09f23b4a",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails",
+  "body_hash": "4bc8cb6ab1de19407b1f6b56c0a3244e4d696c172a7baf187a09b21ab9231417",
+  "fixes_issues": [],
+  "work_items": [
+    642033
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyOrderMapping.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Handling/ShpfyOrderTest.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 55,
+    "deletions": 9,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order handling/Codeunits/ShpfyOrderMapping.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30163",
+        "type": "codeunit",
+        "id": 30163,
+        "name": "Shpfy Order Mapping",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30163"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

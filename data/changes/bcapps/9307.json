@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9307,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9307",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T08:49:41Z",
+  "merge_commit_sha": "dd8e20703c046290abe70266cfb2e090ec18ee6d",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "Added missing event call so the search results page subscribes to the…",
+  "body_hash": "a9fdea6afbef75411ac127157d822dd20dc8065a1b4b5bf2a283ca7732c95e26",
+  "fixes_issues": [],
+  "work_items": [
+    641846
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/DataSearch/App/DataSearchResultRecords.page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/DataSearch/App/DataSearchResultRecords.page.al",
+        "status": "modified",
+        "key": "page/2682",
+        "type": "page",
+        "id": 2682,
+        "name": "Data Search Result Records",
+        "app": "DataSearch",
+        "cc": "w1",
+        "page": "page/2682"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "DataSearch"
+  ]
+}

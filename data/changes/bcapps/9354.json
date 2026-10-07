@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9354,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9354",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-13T21:30:47Z",
+  "merge_commit_sha": "c6d84bab1c577a6bacd7ff3b6b8689a790506c87",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork"
+  ],
+  "community_contribution": true,
+  "title": "Incident 51000001074180 : [BC-IN] GST Component code alignment issue in Pay GST Calculation details.",
+  "body_hash": "1f6f93169cdb28c2d1a8114d0bbbd5ff6b7b29d47a075f42f1910072e66af348",
+  "fixes_issues": [],
+  "work_items": [
+    642154
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/codeunit/GSTSettlement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/page/PayGSTCalculationDetails.page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTPaymentBufferDetails.table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 6,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/codeunit/GSTSettlement.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/page/PayGSTCalculationDetails.page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReturnSettlement/src/table/GSTPaymentBufferDetails.table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

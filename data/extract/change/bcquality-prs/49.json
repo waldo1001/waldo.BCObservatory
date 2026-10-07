@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/49",
+  "number": 49,
+  "title": "Promote security knowledge from community to Microsoft layer",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Five security knowledge articles moved from the community layer to the Microsoft layer with minor content refinements to remove non-existent references and contribution prompts.",
+  "key_points": [
+    "Security domain knowledge relocated from community to Microsoft layer through byte-for-byte file moves",
+    "Removed references to missing example files and removed contribution boilerplate text",
+    "Best practice guidance improved for temporary table data protection to clarify automatic cleanup behavior",
+    "One article kept in community layer pending domain review",
+    "No changes to article count or frontmatter configuration"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Pure `git mv` relocation of the SECURITY knowledge domain from the community layer to the Microsoft layer.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004013,
+    "changes_in_call": 1
+  }
+}

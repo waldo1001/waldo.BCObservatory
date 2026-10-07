@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/94",
+  "number": 94,
+  "title": "Correct performance knowledge guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Multiple performance knowledge articles were refined to correct semantic guidance on partial records, transactions, N+1 queries, SIFT indexes, bulk writes, and read isolation, with unsafe examples replaced and two overly broad rules removed.",
+  "key_points": [
+    "Corrected semantics and code samples across six performance guidance topics",
+    "Removed invalid filter-only fields rule and generic production-scale article",
+    "Narrowed guidance on singletons, TextBuilder, dictionaries, and temporary tables",
+    "Preserved behavior consistency between paired good and bad examples",
+    "Replaced unsafe Sales Header deletion scenario with staging-table approach"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "correct partial-record, transaction, N+1, SIFT, bulk-write, and read-isolation semantics and samples",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004235,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails",
   "url": "https://github.com/microsoft/BCApps/pull/9316",
   "published_at": "2026-07-13T15:52:17Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:51.204Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "20deff8d3e492e0b18bdf25a2589e49e09f23b4a:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify preserve manually set sell to customer no when bill to mapping fails"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0309fa57a8d84b626226204308e9de346f1a9d43cb8de9195b2a190d8730d19a"
 }

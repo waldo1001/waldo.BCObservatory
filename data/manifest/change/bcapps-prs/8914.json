@@ -6,10 +6,35 @@
   "title": "[Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes",
   "url": "https://github.com/microsoft/BCApps/pull/8914",
   "published_at": "2026-07-14T05:30:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:44.997Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 3,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:49.903Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003462
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:50.119Z",
+      "objects": 3,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:50.125Z",
+      "path": "content/changes/bcapps/8914.md"
     }
   },
   "input_hash": "8a04668a4931120e530e2d0e93cad7d2aecca92d:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master changing sales order line description on a sales order unexpectedly changes the invoice total amounts changes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "63136cc4e5a57c2ef4b57571ccb5f956a2bccd79823c3732957d1000125a3889"
 }

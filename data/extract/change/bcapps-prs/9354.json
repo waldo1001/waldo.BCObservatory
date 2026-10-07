@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9354",
+  "number": 9354,
+  "title": "Incident 51000001074180 : [BC-IN] GST Component code alignment issue in Pay GST Calculation details.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "GST Settlement calculation now processes components in the configured Return & Reco Sequence order instead of alphabetically, ensuring correct Credit Utilized and Surplus Credit display in Pay GST Calculation Details.",
+  "key_points": [
+    "Settlement procedures in GST Settlement codeunit now use SetCurrentKey with Sequence No. to iterate in correct order",
+    "GST Payment Buffer Details table adds LineOrder key for consistent display sorting",
+    "Pay GST Calculation Details page sorts by Line No. to show components in configured sequence",
+    "Calculation and posting logic unchanged; only iteration and display order corrected",
+    "Fixes GST component processing for India localization with multiple liability components"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "Process GST Payment Buffer in Return & Reco Component Sequence No. order instead of clustered GST Component Code order during settlement calculation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003884,
+    "changes_in_call": 1
+  }
+}

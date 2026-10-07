@@ -1,0 +1,706 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9315,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9315",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T00:41:43Z",
+  "merge_commit_sha": "846f9c2a28595d562cf0a883e1bcf4980835e9a7",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "[Projects] Add Assigned Resources to projects and project tasks",
+  "body_hash": "a9006d4a766d022089bafb2eb3db05133a986d014f52646f743643580c56f0ac",
+  "fixes_issues": [],
+  "work_items": [
+    640497,
+    640498,
+    640501
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsRead.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsView.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/Journals/JobsJournalsEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/Journals/JobsJournalsPost.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365jobsedit.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365jobsview.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchive.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveCard.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveList.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobAssignedResArchive.Page.al",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobAssignedResourceArchive.Table.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobTaskArchiveLines.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobTaskArchiveLinesSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/CopyJob.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/CopyJobTasks.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobAssignedResource.Table.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobAssignedResources.Page.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTask.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskCard.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLinesSubform.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryJob.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/JobArchiving.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/UTCCopyJob.Codeunit.al",
+      "status": "modified",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/UTTJob.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/UTTJobTaskLine.Codeunit.al",
+      "status": "modified",
+      "additions": 140,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 41,
+    "additions": 1062,
+    "deletions": 0,
+    "al": 36
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6719",
+        "type": "permissionset",
+        "id": 6719,
+        "name": "Jobs - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6719"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsRead.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/1087",
+        "type": "permissionset",
+        "id": 1087,
+        "name": "Jobs - Read",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1087"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/JobsView.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/5679",
+        "type": "permissionset",
+        "id": 5679,
+        "name": "Jobs - View",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5679"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/Journals/JobsJournalsEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/7787",
+        "type": "permissionset",
+        "id": 7787,
+        "name": "Jobs Journals - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7787"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Jobs/Journals/JobsJournalsPost.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/3414",
+        "type": "permissionset",
+        "id": 3414,
+        "name": "Jobs Journals - Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/3414"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365automation.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/5117",
+        "type": "permissionset",
+        "id": 5117,
+        "name": "D365 AUTOMATION",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/5117"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365basicisv.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/732",
+        "type": "permissionset",
+        "id": 732,
+        "name": "D365 BASIC ISV",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/732"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365jobsedit.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/9886",
+        "type": "permissionset",
+        "id": 9886,
+        "name": "D365 JOBS, EDIT",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/9886"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365jobsview.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/448",
+        "type": "permissionset",
+        "id": 448,
+        "name": "D365 JOBS, VIEW",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/448"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365read.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1044",
+        "type": "permissionset",
+        "id": 1044,
+        "name": "D365 READ",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/d365teammember.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/7931",
+        "type": "permissionset",
+        "id": 7931,
+        "name": "D365 TEAM MEMBER",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/7931"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/intelligentcloud.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/6121",
+        "type": "permissionset",
+        "id": 6121,
+        "name": "INTELLIGENT CLOUD",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/6121"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchive.Table.al",
+        "status": "modified",
+        "key": "table/5135",
+        "type": "table",
+        "id": 5135,
+        "name": "Job Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5135"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveCard.Page.al",
+        "status": "modified",
+        "key": "page/5177",
+        "type": "page",
+        "id": 5177,
+        "name": "Job Archive Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5177"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveList.Page.al",
+        "status": "modified",
+        "key": "page/5176",
+        "type": "page",
+        "id": 5176,
+        "name": "Job Archive List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5176"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobArchiveManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5139",
+        "type": "codeunit",
+        "id": 5139,
+        "name": "Job Archive Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5139"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobAssignedResArchive.Page.al",
+        "status": "added",
+        "key": "page/1045",
+        "type": "page",
+        "id": 1045,
+        "name": "Job Assigned Res. Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1045"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobAssignedResourceArchive.Table.al",
+        "status": "added",
+        "key": "table/5140",
+        "type": "table",
+        "id": 5140,
+        "name": "Job Assigned Resource Archive",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5140"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobTaskArchiveLines.Page.al",
+        "status": "modified",
+        "key": "page/5178",
+        "type": "page",
+        "id": 5178,
+        "name": "Job Task Archive Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5178"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Archive/JobTaskArchiveLinesSubform.Page.al",
+        "status": "modified",
+        "key": "page/5181",
+        "type": "page",
+        "id": 5181,
+        "name": "Job Task Archive Lines Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5181"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/CopyJob.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1006",
+        "type": "codeunit",
+        "id": 1006,
+        "name": "Copy Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1006"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/CopyJobTasks.Page.al",
+        "status": "modified",
+        "key": "page/1041",
+        "type": "page",
+        "id": 1041,
+        "name": "Copy Job Tasks",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1041"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+        "status": "modified",
+        "key": "table/167",
+        "type": "table",
+        "id": 167,
+        "name": "Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/167"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobAssignedResource.Table.al",
+        "status": "added",
+        "key": "table/1008",
+        "type": "table",
+        "id": 1008,
+        "name": "Job Assigned Resource",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1008"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobAssignedResources.Page.al",
+        "status": "added",
+        "key": "page/1044",
+        "type": "page",
+        "id": 1044,
+        "name": "Job Assigned Resources",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1044"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "key": "page/88",
+        "type": "page",
+        "id": 88,
+        "name": "Job Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/88"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "key": "page/89",
+        "type": "page",
+        "id": 89,
+        "name": "Job List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/89"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTask.Table.al",
+        "status": "modified",
+        "key": "table/1001",
+        "type": "table",
+        "id": 1001,
+        "name": "Job Task",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1001"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskCard.Page.al",
+        "status": "modified",
+        "key": "page/1003",
+        "type": "page",
+        "id": 1003,
+        "name": "Job Task Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1003"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+        "status": "modified",
+        "key": "page/1002",
+        "type": "page",
+        "id": 1002,
+        "name": "Job Task Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1002"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskLinesSubform.Page.al",
+        "status": "modified",
+        "key": "page/1001",
+        "type": "page",
+        "id": 1001,
+        "name": "Job Task Lines Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1001"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+        "status": "modified",
+        "key": "page/1004",
+        "type": "page",
+        "id": 1004,
+        "name": "Job Task List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1004"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskLines.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Projects/Project/Job/JobTaskList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "projects",
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

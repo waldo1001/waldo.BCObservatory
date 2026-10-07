@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/9224",
+  "number": 9224,
+  "title": "[main] GitHub event batch 1746",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "inventory",
+    "manufacturing",
+    "warehouse"
+  ],
+  "summary": "Multiple fixes across inventory, sales, and warehouse functionality, including corrections to item journal posting, sales document copying, and warehouse document creation in various localization layers.",
+  "key_points": [
+    "Item Journal Posting Line codeunit updated across multiple localization layers (W1, APAC, CH, ES, IT, RU) with enhanced logic",
+    "Sales Document Copy report modified to improve document copying behavior",
+    "Sales Price Calculation Management codeunit refinements",
+    "Calculate Plan and Warehouse Source Create Document reports adjusted",
+    "Fixes address issues across inventory, sales, and warehouse modules"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "sales",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004814,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Promote security knowledge from community to Microsoft layer",
   "url": "https://github.com/microsoft/BCQuality/pull/49",
   "published_at": "2026-07-14T09:23:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:42.763Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 13,
+      "objects": 0,
+      "unjoined": 13
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:47.574Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004013
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:47.575Z",
+      "objects": 0,
+      "unjoined": 13,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:47.579Z",
+      "path": "content/changes/bcquality/49.md"
     }
   },
   "input_hash": "bfda67a95a3787801074310afa8404ce021c7766:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "promote security knowledge from community to microsoft layer"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db9621f0f961013caf216f9d8da232bf51382c1cc45415a9ffb3e773718b9999"
 }

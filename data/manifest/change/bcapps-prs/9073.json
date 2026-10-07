@@ -6,10 +6,18 @@
   "title": "Data Exchange Definition export performance improvement",
   "url": "https://github.com/microsoft/BCApps/pull/9073",
   "published_at": "2026-07-13T15:07:57Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:51.454Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
     }
   },
   "input_hash": "dc5a76e7fe5936013c1abb78dd0c710a9ff6279c:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "data exchange definition export performance improvement"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdafafb4f582d0ec02979b91732fb63ca1ef1db19656ebbc82be9030e2f4546d"
 }

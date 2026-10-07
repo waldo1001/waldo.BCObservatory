@@ -1,0 +1,157 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8914,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8914",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T05:30:47Z",
+  "merge_commit_sha": "8a04668a4931120e530e2d0e93cad7d2aecca92d",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes",
+  "body_hash": "f1943e329d133c28e193b6a8418de1ba500b29f8213a7577193c22cdf63573ec",
+  "fixes_issues": [],
+  "work_items": [
+    640927
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/DocumentTotalsPages.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 67,
+    "deletions": 21,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/46"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/46"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/46"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
