@@ -6,12 +6,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Open specs, not yet implemented
 
-- **Table columns** (`docs/specs/table-columns.md`, D74, M12). Status: proposed 2026-10-07, nothing implemented.
-  Start with phase 1 task 1 (`site/src/styles/site.css:178`, `td { overflow-wrap: anywhere }` → `break-word`), then
-  `wrapTables` in `site/src/lib/links.ts`; phase 2 is the video renderer (`pipeline/render/video.ts:107-114`). Until it
-  lands readers see short columns crushed to one character (timestamps, field types, the "Δ BC28" pill) on object
-  and video pages, and an empty Evidence column on 429 of 611 video pages.
-
 - **Atlas on pages** (`docs/specs/atlas-on-pages.md`, D75, M13). Status: proposed 2026-10-07, nothing implemented.
   Start with phase 0 task 1: count `## Calls` on `origin/main` object pages after the next finished nightly (the
   committed BC28/29 graphs render 5,582 Calls and 2,808 Called by sections; today 0 pages show them). Then phase 1:
@@ -33,6 +27,10 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **Table columns keep their words, D74** (`docs/specs/table-columns.md`, M12): both phases on `dev/extract`. `td`
+  wraps with `break-word`, markdown tables sit in `.table-scroll` and fill the width, pills never wrap; on
+  `objects/table/32/` at 1280 Name/Type went from 89/76 to 136/99 px. The next nightly rewrites the 429 video pages
+  with no verified evidence to a three-column Features table (no LLM). Deviations in the spec's section 12.
 - **One version pill in the galaxy lens bar, D72** (`docs/specs/version-lens.md`, M10): both phases on `dev/next`.
   The seven "changed in BC<v>" pills are one pill for the remembered major plus a version menu with counts, labels
   from `config/versions.json`; the Objects atlas takes its majors from config; every printed version list goes

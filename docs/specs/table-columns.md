@@ -1,6 +1,6 @@
 # Table columns keep their words: no more one-character columns
 
-Status: proposed, 2026-10-07. Decision: D74 (reserved, appended to `docs/DECISIONS.md` at ship time). Owner: waldo.
+Status: implemented, 2026-10-07 (`4460cca46` phase 1, `dffc560d0` phase 2). Decision: D74 (in `docs/DECISIONS.md`). Owner: waldo.
 Scope: the site's table CSS, a table wrapper in the site's HTML post-processing, the version pill, and the video
 page's Features table. Every claim below was verified against the tree at `0b5ebf485` on 2026-10-07, and the widths
 were measured on the live site with headless Chromium (1280 and 390 px viewports). Not in scope: the galaxy's and
@@ -189,17 +189,46 @@ Docs at ship time: `docs/DECISIONS.md`, `docs/PLAN.md`, `docs/HANDOFF.md`.
 
 ## 11. Definition of Done
 
-- [ ] Section 5 tests written first, then green with `npm test`.
-- [ ] Phase 1 shipped; section 7 measurements pass on the local build and then on the live site.
-- [ ] Phase 2 shipped; the video counts in section 7 hold after the content commit.
-- [ ] D74 appended to `docs/DECISIONS.md` (text from section 3).
-- [ ] PLAN row M12 marked shipped; HANDOFF "Open specs" entry removed.
-- [ ] This section 12 renamed "Built, deviations" and filled in.
+- [x] Section 5 tests written first, then green with `npm test`.
+- [x] Phase 1 shipped; section 7 measurements pass on the local build and then on the live site.
+- [x] Phase 2 shipped; the video counts in section 7 hold after the content commit.
+- [x] D74 appended to `docs/DECISIONS.md` (text from section 3).
+- [x] PLAN row M12 marked shipped; HANDOFF "Open specs" entry removed.
+- [x] This section 12 renamed "Built, deviations" and filled in.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-`docs/DECISIONS.md`, appended at ship time: the D74 text from section 3.
+Built on `dev/extract` from `28f7805db`, cited lines re-verified there (`site.css:107/178/197`, `video.ts:107-114`,
+ten `siteLinks` callers) and unchanged since `0b5ebf485`. Phase 1 `4460cca46`, phase 2 `dffc560d0`. The "live
+site" items of section 11 hold on the local build; they are re-checked live after the push and the next nightly.
 
-`docs/PLAN.md` section 5, before the `v0.2+` row (already added by this spec, status proposed).
+Measured on the local build with headless Chromium, column widths in px (before → after):
 
-`docs/HANDOFF.md`, "Open specs, not yet implemented" (already added by this spec).
+| Page, viewport | Table | Before | After |
+|---|---|---|---|
+| `videos/YX9UfUF0EsA/`, 1280 | Feature / Status / At / Evidence | 193 / 173 / 43 / 375 | 213 / 178 / 56 / 336 |
+| `objects/table/18/`, 1280 | No. / Name / Type / Explanation / Notes | 42 / 89 / 73 / 306 / 273 | 54 / 132 / 110 / 211 / 277 |
+| `objects/table/32/`, 1280 | same | 42 / 89 / 76 / 279 / 298 | 54 / 136 / 99 / 203 / 292 |
+| `objects/table/32/`, 1280 | Property / Value (row width) | 397 of 784 | 784 of 784 |
+| `objects/table/32/`, 390 | Fields table | 358 wide, row 5 540 px high | 551 in a 358 px scroller, row 5 225 px |
+
+One-word cells broken over two lines or more (first table rows checked per page, 1280): 37 / 142 / 87 → 0 / 0 / 0.
+`.pill` height at 390: 30 → 16 px. After phase 2 rendered locally (then discarded): 182 pages with four columns,
+429 with three, as section 7 expects.
+
+Deviations:
+
+- **The section 4 example is wrong:** `YX9UfUF0EsA` has verified evidence on some rows (e.g. "MVP private preview
+  access" at 35:41), so it keeps all four columns; its Evidence column was not empty, only sparse. The 429 count is
+  right; the example page is not one of them.
+- **One CSS line outside tables:** `.evidence > li { min-width: 0; }`. At 390 px object pages scrolled sideways
+  before this change too (`objects/table/32/` 533 px, `table/18/` 463 px): a grid item in the evidence list took
+  the min-content width of a long mono source path. Section 7 requires no page scroll, so the grid item may now
+  shrink and the path wraps (`break-word`). After: 390/390 on all three pages.
+- **`wrapTables` is called at `set:html`** (`set:html={wrapTables(html)}`) rather than in the `const html` chain,
+  so it runs last on every page, after `siteLinks`, `markMembers`, `tagSeekLinks` and `posterRows`.
+- **The version pill needed CSS only** (`white-space: nowrap`); `VersionTimeline.astro` and `object.ts` untouched.
+- **A local re-render touches 575 video pages, not 429:** the extra pages carry other renderer changes already on
+  main but not yet in `content/` (D67 object links). The table change itself is 429 pages.
+- `tests/unit/site-links.test.ts` is new (`source-stage.test.ts` covers `tagSeekLinks` only) and adds a `siteLinks`
+  case.

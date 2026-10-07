@@ -633,3 +633,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   bridged. Rejected: a segmented control (still seven targets), two pills plus the select (hides four majors),
   "since" ranges or unions (changes the one-lens model; later), `localStorage` (a different home page per reader).
   Spec: `docs/specs/version-lens.md`.
+- **D74 Table columns keep their words.** Table cells wrap with `overflow-wrap: break-word`, never `anywhere`:
+  `anywhere` lowers a column's min-content width to one character and lets the auto layout crush short columns.
+  Markdown tables on the site are wrapped in `div.table-scroll` (the scroll container, `wrapTables` in
+  `site/src/lib/links.ts`) and stay real tables, so they fill the width. Pills never wrap. A generated table leaves
+  out a column that is empty on every row (first case: the video Features table's Evidence). Rejected:
+  `table-layout: fixed` with per-shape widths, `nowrap` on short columns, no `overflow-wrap` at all, hiding empty
+  cells with `:empty`, dropping Evidence on every video page. Spec: `docs/specs/table-columns.md`.
