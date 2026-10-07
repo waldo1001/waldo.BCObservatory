@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
@@ -40,11 +40,9 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos:
-    - video/i0gBrA1tx50
+  videos: []
   posts:
     - post/demiliani-com/13588
-    - post/demiliani-com/14182
   guidelines: []
 learn_toc_path:
   - Development
@@ -57,8 +55,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
-  blog: 2
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
@@ -81,7 +79,5 @@ Path: [Development](../../../development.md) > [Rules, guidelines, and best prac
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../../posts/demiliani-com/13588.md) (community post): "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery"
-- [New EU rules for software: what you need to know.](../../../../../posts/demiliani-com/14182.md) (community post): "Developers are responsible for damage regardless of intent if they cannot prove professional development"
-- [What’s new: ALGraph (2026 release wave 2)](../../../../../videos/i0gBrA1tx50.md) (video): "security analysis; debuggable boundaries; HTTP client caller auditing"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

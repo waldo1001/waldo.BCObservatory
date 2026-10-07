@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
@@ -50,10 +50,6 @@ links:
   localizations: []
   videos:
     - video/EurgqGU1jG0
-    - video/Hdp4KbbGpQA
-    - video/npkC4wyucyY
-    - video/xWOddQt1GUM
-    - video/yIYUCSK0Bh4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -67,7 +63,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 5
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -92,9 +88,5 @@ Path: [Development](../../../development.md) > [Rules, guidelines, and best prac
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [20260504 - Super fast tests covering 100% of your code](../../../../../videos/EurgqGU1jG0.md) (video): "automated testing; code coverage; interfaces; test patterns"
-- [Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks](../../../../../videos/Hdp4KbbGpQA.md) (video): "test generation; code review; code refactoring; feature addition"
-- [What's new in BC-Bench (2026 release wave 2)](../../../../../videos/npkC4wyucyY.md) (video): "code review category; BC Quality plugin; AL review agent; LM-as-judge"
-- [Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role](../../../../../videos/xWOddQt1GUM.md) (video): "AI-generated test creation for AL; TDD approach for AL with AI; Automated testing"
-- [Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?](../../../../../videos/yIYUCSK0Bh4.md) (video): "AL test generation evaluation; Self-Improving Code Review Agent Pipeline"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

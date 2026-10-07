@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3aa4caf90f3f1773261d66814b8650f1128f4c6a6f9c791c528a34e537561ab6
+  input_hash: 5a704772be59bdaf52322ed676ba872d4b75d6182e8c12f9f6104bdd0e2a798b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolDeleting.Interface.al

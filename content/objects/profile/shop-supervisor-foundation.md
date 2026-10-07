@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d311095b43cfc89b69b615fb653fc50d2bc3d3d783e5b32be62bf2645bf9d672
+  input_hash: 84d24a2fc57fa9882720a8611cb195746038d38127626279ba151eae51c92798
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisorFoundation.Profile.al

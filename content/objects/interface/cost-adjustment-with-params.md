@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cfef5781a00adaee109db8c20f1e30badfe7c5eede80bc01bd96d5529edb33ce
+  input_hash: a7d95c0f5e12e7439cf046a820d45a237de6b92108cd8bb7b672fc0088da89a4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentWithParams.Interface.al

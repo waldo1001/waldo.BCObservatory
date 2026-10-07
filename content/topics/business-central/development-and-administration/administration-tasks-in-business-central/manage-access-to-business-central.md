@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a4a6b038fe376c17128e50483e5b7850db107df135844dd34439ebbbb7972c0
@@ -84,8 +84,7 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions
   localizations: []
-  videos:
-    - video/TBBlYpwbAFk
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -100,7 +99,7 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -157,12 +156,6 @@ Path: [Development and administration](../../development-and-administration.md) 
 
 - [Control Access Using Security Groups](https://learn.microsoft.com/dynamics365/business-central/ui-security-groups): This article describes how to use security groups to define user permissions.
 - [Manage Access to Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-access-overview): Administrators use a layered approach to controlling access to Business Central and its capabilities.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)](../../../../videos/TBBlYpwbAFk.md) (video): "Environment-Level Access Controls for Delegated Administrators; partner access control; environment-level security"
 
 ## Business Central pages and reports
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d0abc444fe6d40d1fd85e2ef8a20b3e909ef68036fe309f8873c4ff4e1e0fe16
+  input_hash: 0d0776f843d5bfdb759331d38720c4161a4ce9bdbccf18124a4de16934dfcb4f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al

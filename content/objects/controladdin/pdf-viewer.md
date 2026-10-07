@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 960c856b1de22090c31887c2b1f79fe3834592a0fbbcee894ac7bdfa3b0712a9
+  input_hash: 16cc0666fa392babed3a8755c4e30677d05de2f59ef3e8dd5a409de3ccd8351e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al

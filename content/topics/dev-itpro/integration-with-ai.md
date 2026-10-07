@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c2dd5f9cf5ebc4993d1fb12616a73bd1c730dd902c12bbed7966eba02503f218
@@ -309,7 +309,6 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
-    - video/YIeE63Kn8sI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -324,7 +323,7 @@ children:
 coverage:
   learn: 56
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -353,7 +352,6 @@ Path: Integration with AI · tier official · system copilot · no narrative yet
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
-- [Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool](../../videos/YIeE63Kn8sI.md) (video): "ai strategy; business process optimization; ai implementation approach; ai governance"
 
 ## Business Central pages and reports
 

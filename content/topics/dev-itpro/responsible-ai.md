@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,10 +50,7 @@ links:
   localizations: []
   videos:
     - video/06vgkq2EXmA
-    - video/94Lqd7Ap8YQ
     - video/NE7NIjpkX3c
-    - video/QCo-uIfPs9g
-    - video/RfHVHa_Qiqk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -64,7 +61,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 5
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -107,9 +104,6 @@ The pages are independent, so start with the one that matches your scenario. Par
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../videos/06vgkq2EXmA.md) (video): "Jailbreak Prevention; Harmful Input Dataset Testing"
-- [#BCTalent and AI: A Partner’s Guide](../../videos/94Lqd7Ap8YQ.md) (video): "AI Power User Certification Path; Partner Technical Upskilling in AI"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../videos/NE7NIjpkX3c.md) (video): "Hallucinations and Fabrications Management"
-- [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features"
-- [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../videos/RfHVHa_Qiqk.md) (video): "Cost-accuracy tradeoff analysis; Prompt engineering for cost reduction"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

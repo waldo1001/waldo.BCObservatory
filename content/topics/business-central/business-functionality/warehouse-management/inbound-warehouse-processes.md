@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b07578998b77b0aeddd4e0bb55e601af3895a3db5471337673f0fdb4450eee2f
@@ -89,7 +89,6 @@ links:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
   videos:
-    - video/kDiDMPEaU0E
     - video/QdWPlIV3Avk
   posts: []
   guidelines: []
@@ -103,7 +102,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -144,7 +143,6 @@ Path: [Business functionality](../../business-functionality.md) > [Warehouse man
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../../videos/kDiDMPEaU0E.md) (video): "purchase order matching; purchase invoice; receipt lines; order lines"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Warehouse receipt for subcontracting operations; Inventory put-away for basic warehouse locations"
 
 ## Business Central pages and reports

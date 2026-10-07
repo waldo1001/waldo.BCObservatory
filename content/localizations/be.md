@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -181,7 +181,7 @@ Adds the Belgian electronic banking suite: payment journal templates, batches an
 
 Why: Learn describes these as the Belgian formats for electronic payments, CODA bank statements and domiciliation direct debit.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), codeunit/2000000 "PmtJrnlManagement" (own), codeunit/2000004 "Check SEPA Payments" (own), report/2000005 "File SEPA Payments" (own), report/2000019 "Suggest Vendor Payments EB" (own), codeunit/2000040 "Coda Import Management" (own), codeunit/2000042 "Post Coded Bank Statement" (own), page/11308 "Electronic Banking Setup" (own).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/2000000 "PmtJrnlManagement"](../objects/codeunit/2000000-be.md) (own), [codeunit/2000004 "Check SEPA Payments"](../objects/codeunit/2000004-be.md) (own), [report/2000005 "File SEPA Payments"](../objects/report/2000005-be.md) (own), [report/2000019 "Suggest Vendor Payments EB"](../objects/report/2000019-be.md) (own), [codeunit/2000040 "Coda Import Management"](../objects/codeunit/2000040-be.md) (own), [codeunit/2000042 "Post Coded Bank Statement"](../objects/codeunit/2000042-be.md) (own), [page/11308 "Electronic Banking Setup"](../objects/page/11308-be.md) (own).
 
 [All 60 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -191,7 +191,7 @@ Extends VAT reporting with non-deductible VAT, manual VAT corrections, represent
 
 Why: Learn documents monthly or quarterly VAT declarations, annual listings, manual corrections and non-deductible VAT setup for Belgium.
 
-Objects: [report/12 "VAT Statement"](../objects/report/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/15 "G/L Account"](../objects/table/15.md), [table/17 "G/L Entry"](../objects/table/17.md), table/11301 "Manual VAT Correction" (own), report/11307 "VAT - Form" (own), report/11308 "VAT Annual Listing" (own).
+Objects: [report/12 "VAT Statement"](../objects/report/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/256 "VAT Statement Line"](../objects/table/256.md), [table/15 "G/L Account"](../objects/table/15.md), [table/17 "G/L Entry"](../objects/table/17.md), [table/11301 "Manual VAT Correction"](../objects/table/11301-be.md) (own), [report/11307 "VAT - Form"](../objects/report/11307-be.md) (own), [report/11308 "VAT Annual Listing"](../objects/report/11308-be.md) (own).
 
 [All 48 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -201,7 +201,7 @@ Adds Enterprise No. to purchase documents and vendors, and non-deductible VAT pe
 
 Why: Learn covers setting vendors for automatic payment suggestions and non-deductible VAT.
 
-Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), report/11301 "Purchase Ledger" (own), [page/161 "Purchase Statistics"](../objects/page/161.md), [page/400 "Purchase Invoice Statistics"](../objects/page/400.md), [table/123 "Purch. Inv. Line"](../objects/table/123.md).
+Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [report/11301 "Purchase Ledger"](../objects/report/11301-be.md) (own), [page/161 "Purchase Statistics"](../objects/page/161.md), [page/400 "Purchase Invoice Statistics"](../objects/page/400.md), [table/123 "Purch. Inv. Line"](../objects/table/123.md).
 
 [All 18 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -211,7 +211,7 @@ Adds Enterprise No. to customers and sales and reminder documents, plus VAT Liab
 
 Why: Learn documents enterprise numbers and the domiciliation number used for direct debit.
 
-Objects: [table/18 "Customer"](../objects/table/18.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [table/36 "Sales Header"](../objects/table/36.md), [table/1381 "Customer Templ."](../objects/table/1381.md), [table/287 "Customer Bank Account"](../objects/table/287.md), report/11300 "Sales Ledger" (own), codeunit/854 "Sales Post Invoice Events BE" (own), [table/311 "Sales & Receivables Setup"](../objects/table/311.md).
+Objects: [table/18 "Customer"](../objects/table/18.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [table/36 "Sales Header"](../objects/table/36.md), [table/1381 "Customer Templ."](../objects/table/1381.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/11300 "Sales Ledger"](../objects/report/11300-be.md) (own), [codeunit/854 "Sales Post Invoice Events BE"](../objects/codeunit/854-be.md) (own), [table/311 "Sales & Receivables Setup"](../objects/table/311.md).
 
 [All 18 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -221,7 +221,7 @@ Adds Belgian service document reports (invoice, credit memo, shipment, test) and
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: report/11321 "Service - Invoice (BE)" (own), report/11322 "Service - Credit Memo (BE)" (own), report/11323 "Service - Shipment (BE)" (own), report/11325 "Service Document - Test (BE)" (own), codeunit/11309 "Service Line Mgt. BE" (own), codeunit/11350 "Serv. Document Mgt. BE" (own), tableextension/11300 "Service Header BE" (own).
+Objects: [report/11321 "Service - Invoice (BE)"](../objects/report/11321-be.md) (own), [report/11322 "Service - Credit Memo (BE)"](../objects/report/11322-be.md) (own), [report/11323 "Service - Shipment (BE)"](../objects/report/11323-be.md) (own), [report/11325 "Service Document - Test (BE)"](../objects/report/11325-be.md) (own), [codeunit/11309 "Service Line Mgt. BE"](../objects/codeunit/11309-be.md) (own), [codeunit/11350 "Serv. Document Mgt. BE"](../objects/codeunit/11350-be.md) (own), [tableextension/11300 "Service Header BE"](../objects/tableextension/11300-be.md) (own).
 
 [All 11 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -231,7 +231,7 @@ Supports Belgian Intrastat. Tariff Number and Intrastat Jnl. Line get conversion
 
 Why: Learn describes simplified and extended declarations, tariff number setup and export to the OneGate portal.
 
-Objects: [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), report/11332 "Import Tariff Numbers Part 2" (own), report/11333 "Import Tariff Numbers Part 1" (own), tableextension/11310 "Location BE" (own).
+Objects: [table/260 "Tariff Number"](../objects/table/260.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md) (own), [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md) (own), [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md) (own).
 
 [All 8 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -241,7 +241,7 @@ Company Information gets enterprise, branch, Intrastat establishment and XML seq
 
 Why: Learn documents enterprise and branch numbers and the Intrastat establishment number.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/10 "Shipment Method"](../objects/table/10.md), codeunit/11311 "Serv. Report Selection Mgt. BE" (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/10 "Shipment Method"](../objects/table/10.md), [codeunit/11311 "Serv. Report Selection Mgt. BE"](../objects/codeunit/11311-be.md) (own).
 
 [All 7 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -251,7 +251,7 @@ Holds a Transaction Coding table and page used with CODA, plus a codeunit that c
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: table/2000043 "Transaction Coding" (own), page/2000045 "Transaction Coding" (own), codeunit/104153 "Copy Inv. No. To Pmt. Ref" (own).
+Objects: [table/2000043 "Transaction Coding"](../objects/table/2000043-be.md) (own), [page/2000045 "Transaction Coding"](../objects/page/2000045-be.md) (own), [codeunit/104153 "Copy Inv. No. To Pmt. Ref"](../objects/codeunit/104153-be.md) (own).
 
 [All 5 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -402,115 +402,115 @@ Objects: [codeunit/5760 "Whse.-Post Receipt"](../objects/codeunit/5760.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+107 objects only this country has.
 
-- codeunit/854 "Sales Post Invoice Events BE"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/11300 "VATLogicalTests"
-- codeunit/11308 "INTERVAT Helper"
-- codeunit/11309 "Service Line Mgt. BE"
-- codeunit/11310 "VAT Amount Line Mgt. BE"
-- codeunit/11311 "Serv. Report Selection Mgt. BE"
-- codeunit/11350 "Serv. Document Mgt. BE"
-- codeunit/104151 "ISO Code UPG.BE"
-- codeunit/104153 "Copy Inv. No. To Pmt. Ref"
-- codeunit/2000000 "PmtJrnlManagement"
-- codeunit/2000001 "CheckPaymJnlLine"
-- codeunit/2000002 "Check Domestic Payments"
-- codeunit/2000003 "Check International Payments"
-- codeunit/2000004 "Check SEPA Payments"
-- codeunit/2000005 "Check Non Euro SEPA Payments"
-- codeunit/2000020 "DomiciliationJnlManagement"
-- codeunit/2000021 "File Domiciliations"
-- codeunit/2000040 "Coda Import Management"
-- codeunit/2000041 "CODA Write Statements"
-- codeunit/2000042 "Post Coded Bank Statement"
-- enum/277 "VAT Stmt. Line Document Type"
-- page/11300 "Financial Journal"
-- page/11301 "VAT VIES Correction"
-- page/11303 "Manual VAT Correction List"
-- page/11306 "Representative Card"
-- page/11307 "Representative List"
-- page/11308 "Electronic Banking Setup"
-- page/2000000 "EB Payment Journal Templates"
-- page/2000001 "EB Payment Journal"
-- page/2000002 "IBLC/BLWI Transaction Codes"
-- page/2000003 "EB Payment Journal Batches"
-- page/2000005 "Export Protocols"
-- page/2000006 "Export Check Error Logs"
-- page/2000020 "Domicil. Journal Templates"
-- page/2000021 "Domiciliation Journal Batches"
-- page/2000022 "Domiciliation Journal"
-- page/2000040 "CODA Statement"
-- page/2000041 "CODA Statement Lines"
-- page/2000042 "CODA Statement List"
-- page/2000043 "CODA Statement Info"
-- page/2000045 "Transaction Coding"
-- pageextension/11307 "SourceCodeSetupBE"
-- pageextension/11310 "VAT Specification Subform BE"
-- report/11300 "Sales Ledger"
-- report/11301 "Purchase Ledger"
-- report/11302 "General Ledger"
-- report/11303 "Centralization Ledger"
-- report/11304 "Financial Ledger"
-- report/11306 "Trial Balance - Debit/Credit"
-- report/11307 "VAT - Form"
-- report/11308 "VAT Annual Listing"
-- report/11309 "VAT Annual Listing - Disk"
-- report/11310 "VAT Statement Lines"
-- report/11311 "VAT Statement Summary"
-- report/11312 "Checklist Revenue and VAT"
-- report/11313 "Link to Accon"
-- report/11315 "VAT-VIES Declaration Disk BE"
-- report/11321 "Service - Invoice (BE)"
-- report/11322 "Service - Credit Memo (BE)"
-- report/11323 "Service - Shipment (BE)"
-- report/11325 "Service Document - Test (BE)"
-- report/11332 "Import Tariff Numbers Part 2"
-- report/11333 "Import Tariff Numbers Part 1"
-- report/2000001 "File Domestic Payments"
-- report/2000002 "File International Payments"
-- report/2000004 "Payment Journal Post"
-- report/2000005 "File SEPA Payments"
-- report/2000006 "File Non Euro SEPA Payments"
-- report/2000007 "File SEPA 001.001.09 Pmts"
-- report/2000008 "File FCY SEPA 001.001.09 Pmts"
-- report/2000019 "Suggest Vendor Payments EB"
-- report/2000020 "Domiciliation Journal - Test"
-- report/2000021 "File Domiciliations"
-- report/2000022 "Create Gen. Jnl. Lines"
-- report/2000030 "Import CODA Statement"
-- report/2000039 "Suggest domicilations"
-- report/2000040 "CODA Statement - Test"
-- report/2000041 "CODA Statement - List"
-- report/2000058 "Initialise CODA Stmt. Lines"
-- report/2000059 "Post CODA Stmt. Lines"
-- table/11300 "VAT VIES Correction"
-- table/11301 "Manual VAT Correction"
-- table/11303 "VAT Summary Buffer"
-- table/11306 "Electronic Banking Setup"
-- table/11307 "G/L Entry Application Buffer"
-- table/11308 "Representative"
-- table/2000000 "Payment Journal Template"
-- table/2000001 "Payment Journal Line"
-- table/2000002 "Paym. Journal Batch"
-- table/2000003 "IBLC/BLWI Transaction Code"
-- table/2000005 "Export Protocol"
-- table/2000006 "Export Check Error Log"
-- table/2000020 "Domiciliation Journal Template"
-- table/2000021 "Domiciliation Journal Batch"
-- table/2000022 "Domiciliation Journal Line"
-- table/2000040 "CODA Statement"
-- table/2000041 "CODA Statement Line"
-- table/2000042 "CODA Statement Source Line"
-- table/2000043 "Transaction Coding"
-- tableextension/11300 "Service Header BE"
-- tableextension/11301 "Service Cr.Memo Header BE"
-- tableextension/11303 "Service Invoice Header BE"
-- tableextension/11305 "Service Shipment Header BE"
-- tableextension/11307 "SourceCodeSetupBE"
-- tableextension/11308 "Service Header Archive BE"
-- tableextension/11310 "Location BE"
+- [codeunit/854 "Sales Post Invoice Events BE"](../objects/codeunit/854-be.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-be.md)
+- [codeunit/11300 "VATLogicalTests"](../objects/codeunit/11300-be.md)
+- [codeunit/11308 "INTERVAT Helper"](../objects/codeunit/11308-be.md)
+- [codeunit/11309 "Service Line Mgt. BE"](../objects/codeunit/11309-be.md)
+- [codeunit/11310 "VAT Amount Line Mgt. BE"](../objects/codeunit/11310-be.md)
+- [codeunit/11311 "Serv. Report Selection Mgt. BE"](../objects/codeunit/11311-be.md)
+- [codeunit/11350 "Serv. Document Mgt. BE"](../objects/codeunit/11350-be.md)
+- [codeunit/104151 "ISO Code UPG.BE"](../objects/codeunit/104151-be.md)
+- [codeunit/104153 "Copy Inv. No. To Pmt. Ref"](../objects/codeunit/104153-be.md)
+- [codeunit/2000000 "PmtJrnlManagement"](../objects/codeunit/2000000-be.md)
+- [codeunit/2000001 "CheckPaymJnlLine"](../objects/codeunit/2000001-be.md)
+- [codeunit/2000002 "Check Domestic Payments"](../objects/codeunit/2000002-be.md)
+- [codeunit/2000003 "Check International Payments"](../objects/codeunit/2000003-be.md)
+- [codeunit/2000004 "Check SEPA Payments"](../objects/codeunit/2000004-be.md)
+- [codeunit/2000005 "Check Non Euro SEPA Payments"](../objects/codeunit/2000005-be.md)
+- [codeunit/2000020 "DomiciliationJnlManagement"](../objects/codeunit/2000020-be.md)
+- [codeunit/2000021 "File Domiciliations"](../objects/codeunit/2000021-be.md)
+- [codeunit/2000040 "Coda Import Management"](../objects/codeunit/2000040-be.md)
+- [codeunit/2000041 "CODA Write Statements"](../objects/codeunit/2000041-be.md)
+- [codeunit/2000042 "Post Coded Bank Statement"](../objects/codeunit/2000042-be.md)
+- [enum/277 "VAT Stmt. Line Document Type"](../objects/enum/277-be.md)
+- [page/11300 "Financial Journal"](../objects/page/11300-be.md)
+- [page/11301 "VAT VIES Correction"](../objects/page/11301-be.md)
+- [page/11303 "Manual VAT Correction List"](../objects/page/11303-be.md)
+- [page/11306 "Representative Card"](../objects/page/11306-be.md)
+- [page/11307 "Representative List"](../objects/page/11307-be.md)
+- [page/11308 "Electronic Banking Setup"](../objects/page/11308-be.md)
+- [page/2000000 "EB Payment Journal Templates"](../objects/page/2000000-be.md)
+- [page/2000001 "EB Payment Journal"](../objects/page/2000001-be.md)
+- [page/2000002 "IBLC/BLWI Transaction Codes"](../objects/page/2000002-be.md)
+- [page/2000003 "EB Payment Journal Batches"](../objects/page/2000003-be.md)
+- [page/2000005 "Export Protocols"](../objects/page/2000005-be.md)
+- [page/2000006 "Export Check Error Logs"](../objects/page/2000006-be.md)
+- [page/2000020 "Domicil. Journal Templates"](../objects/page/2000020-be.md)
+- [page/2000021 "Domiciliation Journal Batches"](../objects/page/2000021-be.md)
+- [page/2000022 "Domiciliation Journal"](../objects/page/2000022-be.md)
+- [page/2000040 "CODA Statement"](../objects/page/2000040-be.md)
+- [page/2000041 "CODA Statement Lines"](../objects/page/2000041-be.md)
+- [page/2000042 "CODA Statement List"](../objects/page/2000042-be.md)
+- [page/2000043 "CODA Statement Info"](../objects/page/2000043-be.md)
+- [page/2000045 "Transaction Coding"](../objects/page/2000045-be.md)
+- [pageextension/11307 "SourceCodeSetupBE"](../objects/pageextension/11307-be.md)
+- [pageextension/11310 "VAT Specification Subform BE"](../objects/pageextension/11310-be.md)
+- [report/11300 "Sales Ledger"](../objects/report/11300-be.md)
+- [report/11301 "Purchase Ledger"](../objects/report/11301-be.md)
+- [report/11302 "General Ledger"](../objects/report/11302-be.md)
+- [report/11303 "Centralization Ledger"](../objects/report/11303-be.md)
+- [report/11304 "Financial Ledger"](../objects/report/11304-be.md)
+- [report/11306 "Trial Balance - Debit/Credit"](../objects/report/11306-be.md)
+- [report/11307 "VAT - Form"](../objects/report/11307-be.md)
+- [report/11308 "VAT Annual Listing"](../objects/report/11308-be.md)
+- [report/11309 "VAT Annual Listing - Disk"](../objects/report/11309-be.md)
+- [report/11310 "VAT Statement Lines"](../objects/report/11310-be.md)
+- [report/11311 "VAT Statement Summary"](../objects/report/11311-be.md)
+- [report/11312 "Checklist Revenue and VAT"](../objects/report/11312-be.md)
+- [report/11313 "Link to Accon"](../objects/report/11313-be.md)
+- [report/11315 "VAT-VIES Declaration Disk BE"](../objects/report/11315-be.md)
+- [report/11321 "Service - Invoice (BE)"](../objects/report/11321-be.md)
+- [report/11322 "Service - Credit Memo (BE)"](../objects/report/11322-be.md)
+- [report/11323 "Service - Shipment (BE)"](../objects/report/11323-be.md)
+- [report/11325 "Service Document - Test (BE)"](../objects/report/11325-be.md)
+- [report/11332 "Import Tariff Numbers Part 2"](../objects/report/11332-be.md)
+- [report/11333 "Import Tariff Numbers Part 1"](../objects/report/11333-be.md)
+- [report/2000001 "File Domestic Payments"](../objects/report/2000001-be.md)
+- [report/2000002 "File International Payments"](../objects/report/2000002-be.md)
+- [report/2000004 "Payment Journal Post"](../objects/report/2000004-be.md)
+- [report/2000005 "File SEPA Payments"](../objects/report/2000005-be.md)
+- [report/2000006 "File Non Euro SEPA Payments"](../objects/report/2000006-be.md)
+- [report/2000007 "File SEPA 001.001.09 Pmts"](../objects/report/2000007-be.md)
+- [report/2000008 "File FCY SEPA 001.001.09 Pmts"](../objects/report/2000008-be.md)
+- [report/2000019 "Suggest Vendor Payments EB"](../objects/report/2000019-be.md)
+- [report/2000020 "Domiciliation Journal - Test"](../objects/report/2000020-be.md)
+- [report/2000021 "File Domiciliations"](../objects/report/2000021-be.md)
+- [report/2000022 "Create Gen. Jnl. Lines"](../objects/report/2000022-be.md)
+- [report/2000030 "Import CODA Statement"](../objects/report/2000030-be.md)
+- [report/2000039 "Suggest domicilations"](../objects/report/2000039-be.md)
+- [report/2000040 "CODA Statement - Test"](../objects/report/2000040-be.md)
+- [report/2000041 "CODA Statement - List"](../objects/report/2000041-be.md)
+- [report/2000058 "Initialise CODA Stmt. Lines"](../objects/report/2000058-be.md)
+- [report/2000059 "Post CODA Stmt. Lines"](../objects/report/2000059-be.md)
+- [table/11300 "VAT VIES Correction"](../objects/table/11300-be.md)
+- [table/11301 "Manual VAT Correction"](../objects/table/11301-be.md)
+- [table/11303 "VAT Summary Buffer"](../objects/table/11303-be.md)
+- [table/11306 "Electronic Banking Setup"](../objects/table/11306-be.md)
+- [table/11307 "G/L Entry Application Buffer"](../objects/table/11307-be.md)
+- [table/11308 "Representative"](../objects/table/11308-be.md)
+- [table/2000000 "Payment Journal Template"](../objects/table/2000000-be.md)
+- [table/2000001 "Payment Journal Line"](../objects/table/2000001-be.md)
+- [table/2000002 "Paym. Journal Batch"](../objects/table/2000002-be.md)
+- [table/2000003 "IBLC/BLWI Transaction Code"](../objects/table/2000003-be.md)
+- [table/2000005 "Export Protocol"](../objects/table/2000005-be.md)
+- [table/2000006 "Export Check Error Log"](../objects/table/2000006-be.md)
+- [table/2000020 "Domiciliation Journal Template"](../objects/table/2000020-be.md)
+- [table/2000021 "Domiciliation Journal Batch"](../objects/table/2000021-be.md)
+- [table/2000022 "Domiciliation Journal Line"](../objects/table/2000022-be.md)
+- [table/2000040 "CODA Statement"](../objects/table/2000040-be.md)
+- [table/2000041 "CODA Statement Line"](../objects/table/2000041-be.md)
+- [table/2000042 "CODA Statement Source Line"](../objects/table/2000042-be.md)
+- [table/2000043 "Transaction Coding"](../objects/table/2000043-be.md)
+- [tableextension/11300 "Service Header BE"](../objects/tableextension/11300-be.md)
+- [tableextension/11301 "Service Cr.Memo Header BE"](../objects/tableextension/11301-be.md)
+- [tableextension/11303 "Service Invoice Header BE"](../objects/tableextension/11303-be.md)
+- [tableextension/11305 "Service Shipment Header BE"](../objects/tableextension/11305-be.md)
+- [tableextension/11307 "SourceCodeSetupBE"](../objects/tableextension/11307-be.md)
+- [tableextension/11308 "Service Header Archive BE"](../objects/tableextension/11308-be.md)
+- [tableextension/11310 "Location BE"](../objects/tableextension/11310-be.md)
 
 ## Other versions
 

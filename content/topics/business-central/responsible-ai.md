@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:18.363Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,12 +155,7 @@ links:
   videos:
     - video/7SSNcUMFtCw
     - video/fgWFOMPJd6U
-    - video/Hdp4KbbGpQA
-    - video/p460TIQL2zw
-  posts:
-    - post/aardvarklabs-blog/3227
-    - post/demiliani-com/13982
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1332073184894863010
+  posts: []
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -170,8 +165,8 @@ children: []
 coverage:
   learn: 16
   code: 0
-  video: 4
-  blog: 3
+  video: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -226,12 +221,7 @@ Start with the index page to find the feature you need. Read the Copilot applica
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [The Unbounded Growth Equation: Why AI Works Best When You Keep (and Grow) Your Team](../../posts/aardvarklabs-blog/3227.md) (community post): "AI succeeds as a force multiplier that amplifies existing teams rather than replacing them"
-- [The hidden cost of asking AI to do everything…](../../posts/demiliani-com/13982.md) (community post): "Smart AI usage in Business Central requires understanding hidden costs"
-- [How User and AI Agent Avatars Improve Record Ownership in Business Central BC 28](../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1332073184894863010.md) (community post): "distinguish human-created from AI-generated records"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; responsible ai"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../videos/fgWFOMPJd6U.md) (video): "Harm testing for AI responses; Accuracy and grounding testing"
-- [Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks](../../videos/Hdp4KbbGpQA.md) (video): "ai evaluation; tool evaluation; claude opus 4.5 performance"
-- [Context Switching and Mental Load in AI-era is real.](../../videos/p460TIQL2zw.md) (video): "ai tools productivity mental load context switching work quality"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

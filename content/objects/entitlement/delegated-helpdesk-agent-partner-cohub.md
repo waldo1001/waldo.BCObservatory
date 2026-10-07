@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 577d4e90373604175d8d9640e56f488daa31440eba6ea39f1b0870714b50ed38
+  input_hash: 5763bcc8ab919b1db0c653f4390569fed7d525936a4a01f695d82875c6a3aeee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al

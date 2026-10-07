@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 032cb956a9a8d330de34911997a440d171991134ad6b4fe6b3f83fbbb875a8f1
+  input_hash: f58d185aee7ad37bd9cf8c6e81e58a8ffeacf7957bf43b5a877ef11d09d98693
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineProvider.Interface.al

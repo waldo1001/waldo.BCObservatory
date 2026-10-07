@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8f8d60e28a5e5ec3d729d48284fbe541894b3ae42ec3e5e2b75c6fce43d12ce1
@@ -317,11 +317,8 @@ links:
   localizations: []
   videos:
     - video/dD_2NEs3A40
-    - video/GwrMf1umTFg
     - video/MgWlmZAlqGI
-    - video/NI6WYze-JSU
     - video/pEXl-POet_4
-    - video/Sc8eGyMkBTA
     - video/sVlPlmok5U8
     - video/wlVewBgq9-Q
   posts: []
@@ -336,7 +333,7 @@ children:
 coverage:
   learn: 43
   code: 0
-  video: 8
+  video: 5
   blog: 0
   guideline: 0
 bc_forms:
@@ -430,11 +427,8 @@ Path: [Business functionality](../business-functionality.md) > Project managemen
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Project Management; terminology change; location code initialization"
-- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../videos/GwrMf1umTFg.md) (video): "Project tracking in Expense Agent web app; Project visibility options"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
-- [Expense Agent: Project Expenses (2026 release wave 1)](../../../videos/NI6WYze-JSU.md) (video): "Project tracking configuration in Expense Agent setup"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"
-- [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../../../videos/Sc8eGyMkBTA.md) (video): "Value chain automation; carbon footprint; project sustainability"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "Project Management Receive Project Items with Receipts or Put-Aways"
 - [How to Create Projects in Business Central (2025)](../../../videos/wlVewBgq9-Q.md) (video): "How to Create Projects in Business Central (2025). Topics: project creation; project tasks; project planning lines"
 

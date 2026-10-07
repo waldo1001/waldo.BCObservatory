@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 94b2e3b4505d82f34a89001123c34c9d423d9db69edc41a1bcd232e6109139ed
@@ -130,7 +130,6 @@ links:
   localizations: []
   videos:
     - video/giNi8WtCX_s
-    - video/WACQbAEVOJg
     - video/zt9_HEmPKNg
   posts: []
   guidelines: []
@@ -144,7 +143,7 @@ children: []
 coverage:
   learn: 13
   code: 0
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -247,7 +246,6 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../../videos/giNi8WtCX_s.md) (video): "Subassembly display options in BOM; BOM version list view with date and status"
-- [What's new in SCM: Overview (2026 release wave 2)](../../../../videos/WACQbAEVOJg.md) (video): "Create released production orders from planning worksheet"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "Shop calendars; Work center groups; Work center posting settings"
 
 ## Business Central pages and reports

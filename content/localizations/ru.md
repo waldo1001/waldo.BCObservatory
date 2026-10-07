@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -321,7 +321,7 @@ Holds most of the local objects: management codeunits for VAT ledgers, settlemen
 
 Why: Learn documents these as the Russian VAT ledgers, tax registers, tax differences, cash reports CO-3 and CO-4 and printed forms such as TORG-29 and INV-17.
 
-Objects: codeunit/12411 "VAT Settlement Management" (own), codeunit/12423 "VAT Ledger Management" (own), codeunit/12412 "PrepmtDiffManagement" (own), codeunit/12404 "G/L Corresp. Management" (own), codeunit/12417 "VAT Allocation-Post" (own), codeunit/12418 "VAT Reinstatement Management" (own), codeunit/17201 "Tax Register Mgt." (own), codeunit/17301 "Tax Diff.-Post Jnl. Line" (own).
+Objects: [codeunit/12411 "VAT Settlement Management"](../objects/codeunit/12411-ru.md) (own), [codeunit/12423 "VAT Ledger Management"](../objects/codeunit/12423-ru.md) (own), [codeunit/12412 "PrepmtDiffManagement"](../objects/codeunit/12412-ru.md) (own), [codeunit/12404 "G/L Corresp. Management"](../objects/codeunit/12404-ru.md) (own), [codeunit/12417 "VAT Allocation-Post"](../objects/codeunit/12417-ru.md) (own), [codeunit/12418 "VAT Reinstatement Management"](../objects/codeunit/12418-ru.md) (own), [codeunit/17201 "Tax Register Mgt."](../objects/codeunit/17201-ru.md) (own), [codeunit/17301 "Tax Diff.-Post Jnl. Line"](../objects/codeunit/17301-ru.md) (own).
 
 [All 628 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -451,7 +451,7 @@ A page extension adds Russian entries to the production order report selection.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: pageextension/12420 "ReportSelectionProdOrderRU" (own).
+Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageextension/12420-ru.md) (own).
 
 [All 1 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
@@ -682,641 +682,641 @@ Objects: pageextension/12420 "ReportSelectionProdOrderRU" (own).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+633 objects only this country has.
 
-- codeunit/355 "Local Navigate Handler"
-- codeunit/12400 "Localisation Management"
-- codeunit/12401 "Local Report Management"
-- codeunit/12402 "G/L Reg. - Corresp. Entries"
-- codeunit/12403 "Internal Report Management"
-- codeunit/12404 "G/L Corresp. Management"
-- codeunit/12406 "PeriodReportManagement"
-- codeunit/12408 "XML-Excel Reports Mgt."
-- codeunit/12410 "VAT Prepayment-Post"
-- codeunit/12411 "VAT Settlement Management"
-- codeunit/12412 "PrepmtDiffManagement"
-- codeunit/12413 "GenJnlArchManagement"
-- codeunit/12415 "EmployeeVendor-Update"
-- codeunit/12416 "Excel Management"
-- codeunit/12417 "VAT Allocation-Post"
-- codeunit/12418 "VAT Reinstatement Management"
-- codeunit/12420 "Doc. Signature Management"
-- codeunit/12421 "Agreement Management"
-- codeunit/12422 "Corrective Document Mgt."
-- codeunit/12423 "VAT Ledger Management"
-- codeunit/12424 "VAT Invoice Journal Management"
-- codeunit/12462 "Item Report Management"
-- codeunit/12470 "FA Document-Post (Yes/No)"
-- codeunit/12471 "FA Document-Post"
-- codeunit/12472 "Copy FA Document Mgt."
-- codeunit/14930 "Excel Report Builder Manager"
-- codeunit/14931 "Factura-Invoice Report Helper"
-- codeunit/14932 "Corr. Factura-Invoice Helper"
-- codeunit/14933 "Waybill 1-T Report Helper"
-- codeunit/14934 "TORG-12 Report Helper"
-- codeunit/14935 "TORG-13 Report Helper"
-- codeunit/14936 "Cash Order Report Helper"
-- codeunit/14937 "Bank Payment Order Helper"
-- codeunit/14938 "Purchase Receipt M-4 Helper"
-- codeunit/14939 "Torg-16 Document Helper"
-- codeunit/14940 "Update G/L Corr. Analysis View"
-- codeunit/14941 "GLCorrAnViewEntrToGLCorrEntr"
-- codeunit/14942 "Shipment Request M-11 Helper"
-- codeunit/14943 "INV-17 Report Helper"
-- codeunit/14944 "Sales Shipment M-15 Helper"
-- codeunit/14945 "Advance Statement Helper"
-- codeunit/14946 "FA-1 Report Helper"
-- codeunit/14947 "INV-18 Report Helper"
-- codeunit/14948 "FA-2 Report Helper"
-- codeunit/14949 "TORG-29 Helper"
-- codeunit/14951 "FA-14 Helper"
-- codeunit/14952 "FA-3 Report Helper"
-- codeunit/14953 "FA-4 Report Helper"
-- codeunit/14954 "FA-15 Report Helper"
-- codeunit/14955 "Recon. Act Report Helper"
-- codeunit/17200 "Tax Register Term Mgt."
-- codeunit/17201 "Tax Register Mgt."
-- codeunit/17202 "Tax Dimension Mgt."
-- codeunit/17203 "Create Tax Register GL Entry"
-- codeunit/17204 "Create Tax Register CV Entry"
-- codeunit/17205 "Create Tax Register FA Entry"
-- codeunit/17206 "Create Tax Register Item Entry"
-- codeunit/17207 "Create Tax Register FE Entry"
-- codeunit/17209 "Lookup Management"
-- codeunit/17300 "TaxDiffJnlManagement"
-- codeunit/17301 "Tax Diff.-Post Jnl. Line"
-- codeunit/17302 "Tax Diff.-Post Jnl. Batch"
-- codeunit/17303 "Tax Calc. Mgt."
-- codeunit/17304 "Tax Calc. Dim. Mgt."
-- codeunit/17305 "Create Tax Calc. Entries"
-- codeunit/17306 "Create Tax Calc. Item Entries"
-- codeunit/17307 "Create Tax Calc. FA Entries"
-- codeunit/17308 "FA Entry - Edit"
-- codeunit/26550 "Statutory Report Management"
-- codeunit/26581 "AccSchedExtensionManagement"
-- enum/12400 "FA Depr. Method Internal RU"
-- page/12400 "Company Address"
-- page/12401 "G/L Correspondence Entries"
-- page/12402 "G/L Correspondence Analysis"
-- page/12403 "G/L Corresp. General Ledger"
-- page/12405 "G/L Account Turnover"
-- page/12406 "Customer G/L Turnover"
-- page/12407 "Vendor G/L Turnover"
-- page/12408 "Gen. Journal Line Card"
-- page/12409 "Posted Gen. Journals"
-- page/12410 "Posted Gen. Journal Line Card"
-- page/12411 "Posted Gen. Journal Batches"
-- page/12412 "VAT Ledger List"
-- page/12413 "VAT Sales Ledger Subform"
-- page/12414 "VAT Purchase Ledger Subform"
-- page/12415 "VAT Ledger Connection"
-- page/12420 "Bank Directory List"
-- page/12421 "Bank Directory Card"
-- page/12422 "Bank Payment Order"
-- page/12423 "Ingoing Cash Order"
-- page/12424 "Payment Order List"
-- page/12425 "Posted Payment Order List"
-- page/12426 "Cash Account Card"
-- page/12427 "Resp. Employee Card"
-- page/12428 "KBK Codes"
-- page/12429 "Tax Authority/Fund Card"
-- page/12430 "OKATO Codes"
-- page/12431 "Advance Statement"
-- page/12432 "Advance Statement Subform"
-- page/12433 "Posted Advance Statement"
-- page/12434 "Posted Adv. Statement Subform"
-- page/12437 "VAT Settlement Journal"
-- page/12438 "Cash Order Journal"
-- page/12441 "VAT Sales Ledger Card"
-- page/12442 "VAT Purchase Ledger Card"
-- page/12443 "VAT Ledger Line CD No."
-- page/12444 "VAT Ledger Line Tariff No."
-- page/12445 "Select Reporting Period"
-- page/12446 "Outgoing Cash Order"
-- page/12448 "Report Selection - Print"
-- page/12449 "Item G/L Turnover"
-- page/12454 "Report Selection - Item. Docs"
-- page/12463 "Document Signatures"
-- page/12464 "Posted Document Signatures"
-- page/12465 "Default Signature Setup"
-- page/12470 "FA Writeoff Act"
-- page/12471 "FA Writeoff Act Subform"
-- page/12472 "Posted FA Writeoff Act"
-- page/12473 "Posted FA Writeoff Act Subf"
-- page/12474 "FA Release Act"
-- page/12475 "FA Release Act Subform"
-- page/12476 "Posted FA Release Act"
-- page/12477 "Posted FA Release Act Subform"
-- page/12478 "FA Movement Act"
-- page/12479 "FA Movement Act Subform"
-- page/12480 "Posted FA Movement Act"
-- page/12481 "Posted FA Movement Act Subform"
-- page/12482 "Posted FA Document List"
-- page/12483 "FA Document List"
-- page/12484 "Report Selection - FA"
-- page/12485 "Depreciation Code List"
-- page/12486 "Precious Metal"
-- page/12487 "Item/FA Precious Metal"
-- page/12488 "Depreciation Code"
-- page/12489 "Depreciation Group"
-- page/12493 "Company Address List"
-- page/12494 "Taxpayer Document Types"
-- page/12495 "FA Comments"
-- page/12496 "Posted FA Comments"
-- page/12497 "FA Sheet"
-- page/12499 "FA G/L Turnover"
-- page/14900 "Customer Agreements"
-- page/14901 "Customer Agreement Card"
-- page/14902 "Vendor Agreement Card"
-- page/14905 "Letter of Attorney Card"
-- page/14906 "Letter of Attorney List"
-- page/14907 "Letter of Attorney Subform"
-- page/14908 "FA Charge Card"
-- page/14909 "FA Charge List"
-- page/14910 "Invent. Act Card"
-- page/14911 "Invent. Act List"
-- page/14912 "Invent. Act Subform"
-- page/14913 "Vendor Agreements"
-- page/14914 "Customer G/L Turnover Agr."
-- page/14915 "Vendor G/L Turnover Agr."
-- page/14916 "Agreement Groups"
-- page/14918 "Payment Order Codes"
-- page/14919 "Excel Templates"
-- page/14920 "Assessed Tax Allowances"
-- page/14921 "Assessed Tax Code Card"
-- page/14922 "Assessed Tax Code List"
-- page/14924 "VAT Reversal on Date"
-- page/14925 "VAT Settlement Worksheet"
-- page/14926 "VAT Allocation"
-- page/14927 "Default VAT Allocation"
-- page/14928 "Group VAT Allocation"
-- page/14929 "Field Selection"
-- page/14933 "Bank Account Details"
-- page/14939 "Journal Posting Preview Setup"
-- page/14940 "G/L Corr. Analysis by Dim."
-- page/14941 "G/L Corr. Analysis View Card"
-- page/14942 "G/L Corr. Analysis View List"
-- page/14943 "G/L Corr. Analysis View Filter"
-- page/14944 "G/L Corr. Analysis View Entr."
-- page/14945 "G/L Corr. by Dimension"
-- page/14946 "VAT Reinstatement Journal"
-- page/14947 "VAT Reinstatement Worksheet"
-- page/14954 "G/L Corresp. Entries Preview"
-- page/14971 "Sales Corrective Invoice"
-- page/14972 "Sales Corr. Invoice Subform"
-- page/14973 "Sales Corrective Credit Memo"
-- page/14974 "Sales Corr. Cr. Memo Subform"
-- page/14975 "Sales Invoice Lines"
-- page/14976 "Sales Cr. Memo Lines"
-- page/14977 "VAT Entry Types"
-- page/17201 "Tax Register Setup"
-- page/17202 "Tax Register Worksheet"
-- page/17203 "Tax Register Card"
-- page/17204 "Tax Register Line Subform"
-- page/17205 "Tax Register Calc. Templ. Subf"
-- page/17206 "Tax Register Entr. Templ. Subf"
-- page/17207 "Tax Register Term"
-- page/17208 "Tax Register Term Lines"
-- page/17209 "Tax Register Accumulation"
-- page/17210 "Tax Register Accum. Subform"
-- page/17211 "Tax Register Line List"
-- page/17212 "Tax Register Templates"
-- page/17213 "Tax Register Accumulat. Lines"
-- page/17214 "Tax Register G/L Corr. Entries"
-- page/17215 "Tax Register Field Select"
-- page/17216 "Tax Register Calc. Buffer"
-- page/17217 "Tax Register Template Subform"
-- page/17218 "Tax Register Sections"
-- page/17219 "Tax Register Section Card"
-- page/17220 "Tax Register G/L Entry"
-- page/17221 "Tax Register (1.3) Item"
-- page/17222 "Tax Register (1.4) Item"
-- page/17223 "Tax Register (1.6) CV"
-- page/17224 "Tax Register (1.8) CV"
-- page/17225 "Tax Register (2.1) FA"
-- page/17226 "Tax Register (2.3) Item"
-- page/17227 "Tax Register (2.4) Item"
-- page/17228 "Tax Register (2.7) FE"
-- page/17229 "Tax Register (2.8) CV"
-- page/17230 "Tax Register (2.9) CV"
-- page/17232 "Tax Register (4.1) FA"
-- page/17233 "Tax Register (4.4) FA"
-- page/17234 "Tax Register (4.23) FA"
-- page/17235 "Tax Register (4.55) CV"
-- page/17236 "Tax Register Create"
-- page/17239 "Tax Reg. FA Template Subform"
-- page/17241 "Tax Reg Dimension Filters"
-- page/17242 "Tax Reg G/L Corres Dim Filters"
-- page/17243 "Tax Customer Ledger Entries"
-- page/17244 "Tax Vendor Ledger Entries"
-- page/17245 "Option Values"
-- page/17246 "Tax Reg. Norm Jurisdictions"
-- page/17247 "Tax Register Norm Groups"
-- page/17248 "Tax Register Norm Details"
-- page/17249 "Lookup Code (RecordRef)"
-- page/17280 "Tax Reg. Norm Details (Calc)"
-- page/17281 "Tax Reg. Norm Template Setup"
-- page/17282 "Tax Reg. Norm Terms"
-- page/17283 "Tax Reg. Norm Term Formula"
-- page/17284 "Tax Reg. Norm Template Lines"
-- page/17285 "Tax Reg. Norm Accum. Lines"
-- page/17286 "Tax Reg. Norm Calc. Buffer"
-- page/17287 "Tax Reg. Norm Dim. Filters"
-- page/17288 "Tax Reg G/L Corr. Dim. Filters"
-- page/17300 "Tax Differences"
-- page/17301 "Tax Diff. Posting Groups"
-- page/17302 "Tax Difference Registers"
-- page/17303 "Tax Diff. Journal Templates"
-- page/17304 "Tax Diff. Jnl. Template List"
-- page/17305 "Tax Difference Journal Batches"
-- page/17306 "Tax Difference Journal"
-- page/17307 "Tax Diff. Ledger Entries"
-- page/17308 "Tax Calc. Section Card"
-- page/17309 "Tax Calc. Section List"
-- page/17310 "Tax Calc. List"
-- page/17311 "Tax Calc. Setup Card"
-- page/17312 "Tax Calc. Select Setup Subf"
-- page/17313 "Tax Calc. Line Subform"
-- page/17314 "Tax Calc. Line Select Subf"
-- page/17315 "Tax Calc. Subform"
-- page/17316 "Tax Calc. Terms"
-- page/17317 "Tax Calc. Term Lines"
-- page/17318 "Tax Calc. Dimension Filters"
-- page/17319 "Tax Calc. Selection Setup"
-- page/17320 "Tax Calc. Lines"
-- page/17321 "Tax Calc. Accumulation"
-- page/17322 "Tax Calc. Accum. Subform"
-- page/17323 "Tax Calc. Accumulat. Lines"
-- page/17324 "Tax Calc. Calc. Buffer"
-- page/17325 "Tax Calc. Entries"
-- page/17326 "Tax Calc. Item Entries"
-- page/17327 "Tax Calc. FA Entries"
-- page/17328 "Tax Calc. Create"
-- page/17329 "Tax Calc. Corresp. Entries"
-- page/17330 "Tax Calc. Cor. Dim. Filters"
-- page/17331 "Future Period Expense Card"
-- page/17332 "FE Depreciation Books Subform"
-- page/17333 "Future Expense Journal"
-- page/17334 "Tax Diff. Groups"
-- page/17335 "Tax Dif G/L Corr. Dim. Filters"
-- page/17336 "FA Tax Differences Detailed"
-- page/17337 "FA Tax Differences"
-- page/17338 "Future Period Expenses"
-- page/17353 "Person Documents"
-- page/26550 "Statutory Reports"
-- page/26551 "Statutory Report Groups"
-- page/26552 "Statutory Report Tables"
-- page/26553 "Report Table Rows"
-- page/26554 "Report Table Columns"
-- page/26555 "Table Individual Requisites"
-- page/26561 "Report Data Card"
-- page/26562 "Report Data List"
-- page/26563 "Statutory Report Data Overview"
-- page/26564 "Statutory Report Data Subform"
-- page/26567 "Table Individ. Rqst. Subform"
-- page/26568 "Stat. Report Excel Sheets"
-- page/26569 "Stat. Report Data Change Log"
-- page/26571 "Report Export Log"
-- page/26572 "Copy Statutory Report"
-- page/26574 "Create Report Data"
-- page/26575 "Export File"
-- page/26576 "Create Requisites Codes"
-- page/26577 "Create Acc. Schedule"
-- page/26579 "Select Excel Sheet Name"
-- page/26581 "Statutory Report Setup"
-- page/26583 "Page Indication XML Elements"
-- page/26585 "XML Element Expression Lines"
-- page/26586 "Format Versions"
-- page/26587 "XML Element Lines"
-- page/26588 "XML Element Line List"
-- page/26589 "Compound XML Element Lines"
-- page/26590 "Acc. Schedule Extensions"
-- page/26591 "Acc. Sched. Formula Drill-Down"
-- page/26592 "Stat. Report Table Mapping"
-- page/26593 "Stat. Rep. Table Map. Subform"
-- page/26594 "Stat. Rep. Table Cell Mapping"
-- page/26595 "Acc. Schedule Lines"
-- page/26596 "Column Layouts"
-- page/35600 "Cash Accounts"
-- page/35601 "Responsible Employees"
-- page/35602 "Tax Authorities"
-- page/35603 "Vendors"
-- page/35604 "FA Release Acts"
-- page/35605 "FA Movement Acts"
-- page/35606 "FA Writeoff Acts"
-- page/35607 "Posted FA Release Acts"
-- page/35608 "Posted FA Movement Acts"
-- page/35609 "Posted FA Writeoff Acts"
-- page/35610 "Purchase Advance Reports"
-- page/35611 "Posted Purch. Advance Reports"
-- page/35613 "G/L Corresp. Gen. Ledger Lines"
-- page/35622 "_Stat. Report Data Subform"
-- page/35623 "_Scalable Table Data Subform"
-- page/35628 "VAT Purchase Ledgers"
-- page/35629 "VAT Sales Ledgers"
-- page/35630 "Bank Accounts"
-- page/36847 "Sales Corrective Invoice List"
-- page/36848 "Sales Corrective Credit Memos"
-- pageextension/12400 "SourceCodeSetupRU"
-- pageextension/12420 "ReportSelectionProdOrderRU"
-- query/12400 "Value Entry Item Tariff No."
-- report/12400 "Bank Payment Order"
-- report/12402 "Cash Outgoing Order"
-- report/12403 "Cash Ingoing Order"
-- report/12407 "Order Item Shipment TORG-12"
-- report/12409 "Order Proforma-Invoice (A)"
-- report/12411 "Order Factura-Invoice (A)"
-- report/12412 "Order Item Waybill 1-T"
-- report/12413 "Posted Inv. Shipment TORG-12"
-- report/12414 "Posted Ship. Shipment TORG-12"
-- report/12418 "Posted Factura-Invoice (A)"
-- report/12419 "Posted Ship. Item Waybill 1-T"
-- report/12420 "Posted Inv. Item Waybill 1-T"
-- report/12423 "Calc. FA Inventory"
-- report/12424 "Copy Payment Document"
-- report/12425 "Copy Pay Document"
-- report/12429 "Calc. Recurring Journal"
-- report/12430 "Create G/L Correspondence"
-- report/12431 "G/L Corresp. General Ledger"
-- report/12432 "G/L Corresp. Journal Order"
-- report/12435 "G/L Corresp Entries Analysis"
-- report/12436 "G/L Account Turnover"
-- report/12437 "G/L Account Card"
-- report/12438 "G/L Account Entries Analysis"
-- report/12439 "Customer Turnover"
-- report/12440 "Customer Post. Gr. Turnover"
-- report/12441 "Customer Accounting Card"
-- report/12442 "Customer Entries Analysis"
-- report/12443 "Vendor Post. Gr. Turnover"
-- report/12444 "Vendor Turnover"
-- report/12445 "Vendor Accounting Card"
-- report/12446 "Vendor Entries Analysis"
-- report/12447 "Bank Account G/L Turnover"
-- report/12448 "Bank Account Card"
-- report/12450 "Customer G/L Turnover"
-- report/12451 "Vendor G/L Turnover"
-- report/12452 "Advance Statement"
-- report/12453 "Return Prepayment"
-- report/12454 "Posted Advance Statement"
-- report/12455 "Create VAT Purchase Ledger"
-- report/12456 "Create VAT Sales Ledger"
-- report/12457 "Posted Cash Outgoing Order"
-- report/12458 "Posted Cash Ingoing Order"
-- report/12459 "Posted Bank Payment Order"
-- report/12460 "VAT Ledger Export"
-- report/12461 "VAT Ledger Export XML"
-- report/12463 "Cash Order Journal CO-3"
-- report/12464 "Fixed Asset G/L Turnover"
-- report/12466 "FA Turnover"
-- report/12469 "Item Turnover (Qty.)"
-- report/12471 "Shipment Request M-11"
-- report/12472 "Sales Shipment M-15"
-- report/12473 "Posted Sales Shipment M-15"
-- report/12475 "Purchase Receipt M-4"
-- report/12476 "Item Card M-17"
-- report/12477 "Item Reclass. TORG-13"
-- report/12481 "Phys. Inventory Form INV-3"
-- report/12482 "Phys. Inventory Form INV-19"
-- report/12483 "Posted Purchase Receipt M-4"
-- report/12484 "Posted Cr. M. Factura-Invoice"
-- report/12485 "FA Comparative Sheet INV-18"
-- report/12486 "FA Phys. Inventory INV-1"
-- report/12487 "Copy FA"
-- report/12488 "Copy FA Document"
-- report/12490 "FA Release Act FA-1"
-- report/12492 "FA Posted Release Act FA-1"
-- report/12493 "FA Write-off Act FA-4"
-- report/12494 "FA Posted Writeoff Act FA-4"
-- report/12495 "FA Inventory Card FA-6"
-- report/14900 "Import Currency Exch. Rate"
-- report/14901 "Purch. without Vend. VAT Inv."
-- report/14902 "Cash Report CO-4"
-- report/14905 "Letter of Attorney M-2A"
-- report/14907 "Change Vendor VAT Invoice"
-- report/14910 "Customer - Reconciliation Act"
-- report/14911 "Vendor - Reconciliation Act"
-- report/14912 "Allocate FA Charges"
-- report/14913 "Create Invent. Act Lines"
-- report/14914 "Invent. Act INV-17"
-- report/14915 "Supplement to INV-17"
-- report/14916 "Posted Cr. M. Shipment TORG-12"
-- report/14917 "Act Items Receipt M-7"
-- report/14918 "Items Receipt Act TORG-1"
-- report/14919 "Item Report TORG-29"
-- report/14920 "Calculate Assessed Tax"
-- report/14921 "FA Phys. Inventory INV-1a"
-- report/14925 "Receipt Deviations TORG-2"
-- report/14926 "Inventory for Deferrals INV-11"
-- report/14927 "VAT Invoices Journal"
-- report/14928 "Unrealized VAT Analysis"
-- report/14930 "Item Write-off act TORG-16"
-- report/14931 "Posted Item Write-off TORG-16"
-- report/14933 "Calculate Group Depreciation"
-- report/14934 "Write-off for Tax Ledger"
-- report/14939 "Pstd. Purch. Factura-Invoice"
-- report/14940 "Analytic Account Card by Dim."
-- report/14941 "Update G/L Corr.Analysis Views"
-- report/14951 "Bill of Lading"
-- report/14962 "Create VAT Purch. Led. Ad. Sh."
-- report/14963 "Create VAT Sales Led. Ad. Sh."
-- report/14966 "Sales Corr. Factura-Invoice"
-- report/14967 "Pstd. Sales Corr. Fact. Inv."
-- report/14968 "Pstd. Sales Corr. Cr. M. Fact."
-- report/14970 "Comparing Depr. Book Entries"
-- report/14971 "Transfer VAT Bus. Post. Group"
-- report/14972 "Suggest VAT Reinst. Lines"
-- report/14973 "Copy to VAT Reinst. Journal"
-- report/14976 "Transfer Order TORG-13"
-- report/14977 "Transfer Receipt TORG-13"
-- report/14978 "Transfer Shipment TORG-13"
-- report/14980 "Purch. FA Receipt FA-14"
-- report/14981 "Posted Purch. FA Receipt FA-14"
-- report/14982 "Sales FA Release FA-1"
-- report/14983 "Posted Sales FA Release FA-1"
-- report/14986 "FA Movement FA-2"
-- report/14987 "FA Posted Movement FA-2"
-- report/14988 "FA Movement FA-3"
-- report/14989 "FA Posted Movement FA-3"
-- report/14990 "FA Writeoff Act FA-4a"
-- report/14991 "Posted FA Writeoff Act FA-4a"
-- report/14992 "FA Movement FA-15"
-- report/14993 "Posted FA Movement FA-15"
-- report/17200 "Copy Tax Register Section"
-- report/17201 "Create Closing Gen. Jnl. Line"
-- report/17204 "Create Tax Registers"
-- report/17205 "Initial Due Date Create"
-- report/17206 "Create Item Batch"
-- report/17207 "Create Norm Details"
-- report/17208 "Tax Register"
-- report/17300 "Calculate Tax Diff. for FE"
-- report/17301 "Calculate Tax Diff. for Calc."
-- report/17302 "Calculate FE Depreciation"
-- report/17303 "Calculate FE Depr. with Norm"
-- report/17304 "Create FE from Sold FA"
-- report/17305 "Create Tax Diff. for Disp. FE"
-- report/17306 "Calculate Tax Diff. for FA"
-- report/17307 "Calc. Tax Diff.- Disposed FA"
-- report/17308 "Calc. Tax Diff.- Depr. Bonus"
-- report/17309 "Create Tax Calculation"
-- report/17310 "Copy Tax Calc. Section"
-- report/17450 "Spreadsheet Gen. Journal"
-- table/12049 "G/L Correspondence Buffer"
-- table/12400 "G/L Correspondence"
-- table/12401 "G/L Correspondence Entry"
-- table/12402 "G/L Corresp. Posting Buffer"
-- table/12403 "Gen. Journal Line Archive"
-- table/12404 "VAT Ledger"
-- table/12405 "VAT Ledger Line"
-- table/12406 "VAT Ledger Connection"
-- table/12407 "CD No. Header"
-- table/12408 "CD No. Information"
-- table/12409 "Bank Directory"
-- table/12410 "CD Tracking Setup"
-- table/12411 "VAT Ledger Line CD No."
-- table/12412 "VAT Ledger Line Tariff No."
-- table/12420 "Document Signature"
-- table/12421 "Posted Document Signature"
-- table/12425 "Company Address"
-- table/12426 "KBK"
-- table/12427 "OKATO"
-- table/12428 "Default Signature Setup"
-- table/12429 "Taxpayer Document Type"
-- table/12430 "Document Print Buffer"
-- table/12436 "Bank Account Details"
-- table/12450 "Item Document Header"
-- table/12451 "Item Receipt Header"
-- table/12452 "Item Receipt Line"
-- table/12453 "Item Document Line"
-- table/12454 "Item Shipment Header"
-- table/12455 "Item Shipment Line"
-- table/12458 "Direct Transfer Header"
-- table/12459 "Direct Transfer Line"
-- table/12470 "FA Document Header"
-- table/12471 "Posted FA Doc. Header"
-- table/12472 "Posted FA Doc. Line"
-- table/12473 "Depreciation Code"
-- table/12474 "Item/FA Precious Metal"
-- table/12475 "Precious Metal"
-- table/12476 "Depreciation Group"
-- table/12477 "FA Document Line"
-- table/12478 "FA Comment"
-- table/12479 "Posted FA Comment"
-- table/14901 "Vendor Agreement"
-- table/14902 "Customer Agreement"
-- table/14903 "Agreement Group"
-- table/14905 "Letter of Attorney Header"
-- table/14906 "Letter of Attorney Line"
-- table/14907 "FA Charge"
-- table/14908 "Invent. Act Header"
-- table/14909 "Invent. Act Line"
-- table/14917 "CD No. Format"
-- table/14918 "Payment Order Code"
-- table/14919 "Excel Template"
-- table/14920 "Assessed Tax Allowance"
-- table/14921 "Assessed Tax Code"
-- table/14925 "VAT Allocation Line"
-- table/14926 "Default VAT Allocation Line"
-- table/14927 "VAT Document Entry Buffer"
-- table/14929 "Journal Posting Preview Setup"
-- table/14930 "Excel Template Sheet"
-- table/14931 "Excel Template Section"
-- table/14932 "Excel Template Sheet Buffer"
-- table/14940 "G/L Corr. Analysis View"
-- table/14941 "G/L Corr. Analysis View Filter"
-- table/14942 "G/L Corr. Analysis View Entry"
-- table/14949 "VAT Entry Type"
-- table/17200 "Tax Register"
-- table/17201 "Tax Register Line Setup"
-- table/17202 "Tax Register Template"
-- table/17203 "Tax Register G/L Corr. Entry"
-- table/17204 "Tax Register Term"
-- table/17205 "Tax Register Term Formula"
-- table/17206 "Tax Register Calc. Buffer"
-- table/17207 "Tax Register Section"
-- table/17208 "Tax Register Accumulation"
-- table/17209 "Tax Register G/L Entry"
-- table/17210 "Tax Register CV Entry"
-- table/17211 "Tax Register FA Entry"
-- table/17212 "Tax Register Item Entry"
-- table/17213 "Tax Register FE Entry"
-- table/17215 "Tax Register Dim. Comb."
-- table/17216 "Tax Register Dim. Value Comb."
-- table/17217 "Tax Register Dim. Def. Value"
-- table/17218 "Tax Register Dim. Filter"
-- table/17219 "Tax Register Dim. Corr. Filter"
-- table/17220 "Tax Register Norm Jurisdiction"
-- table/17221 "Tax Register Norm Group"
-- table/17222 "Tax Register Norm Detail"
-- table/17223 "Lookup Buffer"
-- table/17236 "Tax Register Setup"
-- table/17237 "Gen. Template Profile"
-- table/17238 "Gen. Term Profile"
-- table/17239 "Tax Reg. Norm Template Line"
-- table/17240 "Tax Reg. Norm Term"
-- table/17241 "Tax Reg. Norm Term Formula"
-- table/17242 "Tax Reg. Norm Accumulation"
-- table/17243 "Tax Reg. Norm Dim. Filter"
-- table/17244 "Tax Reg. G/L Corr. Dim. Filter"
-- table/17300 "Tax Difference"
-- table/17301 "Tax Diff. Posting Group"
-- table/17302 "Tax Diff. Register"
-- table/17303 "Tax Diff. Journal Template"
-- table/17304 "Tax Diff. Journal Batch"
-- table/17305 "Tax Diff. Journal Line"
-- table/17306 "Tax Diff. Ledger Entry"
-- table/17307 "Tax Calc. Section"
-- table/17308 "Tax Calc. Header"
-- table/17309 "Tax Calc. Selection Setup"
-- table/17310 "Tax Calc. Line"
-- table/17311 "Tax Calc. Term"
-- table/17312 "Tax Calc. Term Formula"
-- table/17313 "Tax Calc. Dim. Filter"
-- table/17314 "Tax Calc. Accumulation"
-- table/17315 "Tax Calc. G/L Entry"
-- table/17316 "Tax Calc. Buffer Entry"
-- table/17317 "Tax Calc. Item Entry"
-- table/17318 "Tax Calc. FA Entry"
-- table/17319 "Tax Calc. G/L Corr. Entry"
-- table/17320 "Tax Calc. Dim. Corr. Filter"
-- table/17321 "Tax Diff. Group"
-- table/17322 "Tax Diff. Corr. Dim. Filter"
-- table/17323 "Tax Diff. FA Posting Buffer"
-- table/17324 "Tax Diff. FA Buffer"
-- table/17352 "Person Document"
-- table/17448 "Key Including In Report"
-- table/17449 "Including In Report"
-- table/26550 "Statutory Report"
-- table/26551 "Statutory Report Group"
-- table/26552 "Statutory Report Table"
-- table/26553 "Stat. Report Table Row"
-- table/26554 "Stat. Report Table Column"
-- table/26555 "Scalable Table Row"
-- table/26556 "Table Individual Requisite"
-- table/26561 "Requisite Condition Line"
-- table/26562 "Stat. Report Excel Sheet"
-- table/26563 "Statutory Report Data Header"
-- table/26564 "Statutory Report Data Value"
-- table/26565 "Stat. Report Data Change Log"
-- table/26567 "Export Log Entry"
-- table/26568 "Statutory Report Buffer"
-- table/26569 "Statutory Report Setup"
-- table/26570 "XML Element Line"
-- table/26571 "Page Indication XML Element"
-- table/26572 "XML Element Expression Line"
-- table/26573 "Format Version"
-- table/26584 "Acc. Schedule Extension"
-- table/26585 "Acc. Sched. Expression Buffer"
-- table/26587 "Stat. Report Table Mapping"
-- tableextension/12401 "SourceCodeSetupRU"
-- tableextension/12410 "Location RU"
-- tableextension/14958 "Package No. Information RU"
-- xmlport/12427 "OKATO"
-- xmlport/17200 "Tax Register Setup"
-- xmlport/17202 "Norm Jurisdiction"
-- xmlport/17300 "Tax Differences Registers"
-- xmlport/26550 "Statutory Reports"
-- xmlport/26551 "Format Versions"
-- xmlport/26552 "Account Schedules"
+- [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-ru.md)
+- [codeunit/12400 "Localisation Management"](../objects/codeunit/12400-ru.md)
+- [codeunit/12401 "Local Report Management"](../objects/codeunit/12401-ru.md)
+- [codeunit/12402 "G/L Reg. - Corresp. Entries"](../objects/codeunit/12402-ru.md)
+- [codeunit/12403 "Internal Report Management"](../objects/codeunit/12403-ru.md)
+- [codeunit/12404 "G/L Corresp. Management"](../objects/codeunit/12404-ru.md)
+- [codeunit/12406 "PeriodReportManagement"](../objects/codeunit/12406-ru.md)
+- [codeunit/12408 "XML-Excel Reports Mgt."](../objects/codeunit/12408-ru.md)
+- [codeunit/12410 "VAT Prepayment-Post"](../objects/codeunit/12410-ru.md)
+- [codeunit/12411 "VAT Settlement Management"](../objects/codeunit/12411-ru.md)
+- [codeunit/12412 "PrepmtDiffManagement"](../objects/codeunit/12412-ru.md)
+- [codeunit/12413 "GenJnlArchManagement"](../objects/codeunit/12413-ru.md)
+- [codeunit/12415 "EmployeeVendor-Update"](../objects/codeunit/12415-ru.md)
+- [codeunit/12416 "Excel Management"](../objects/codeunit/12416-ru.md)
+- [codeunit/12417 "VAT Allocation-Post"](../objects/codeunit/12417-ru.md)
+- [codeunit/12418 "VAT Reinstatement Management"](../objects/codeunit/12418-ru.md)
+- [codeunit/12420 "Doc. Signature Management"](../objects/codeunit/12420-ru.md)
+- [codeunit/12421 "Agreement Management"](../objects/codeunit/12421-ru.md)
+- [codeunit/12422 "Corrective Document Mgt."](../objects/codeunit/12422-ru.md)
+- [codeunit/12423 "VAT Ledger Management"](../objects/codeunit/12423-ru.md)
+- [codeunit/12424 "VAT Invoice Journal Management"](../objects/codeunit/12424-ru.md)
+- [codeunit/12462 "Item Report Management"](../objects/codeunit/12462-ru.md)
+- [codeunit/12470 "FA Document-Post (Yes/No)"](../objects/codeunit/12470-ru.md)
+- [codeunit/12471 "FA Document-Post"](../objects/codeunit/12471-ru.md)
+- [codeunit/12472 "Copy FA Document Mgt."](../objects/codeunit/12472-ru.md)
+- [codeunit/14930 "Excel Report Builder Manager"](../objects/codeunit/14930-ru.md)
+- [codeunit/14931 "Factura-Invoice Report Helper"](../objects/codeunit/14931-ru.md)
+- [codeunit/14932 "Corr. Factura-Invoice Helper"](../objects/codeunit/14932-ru.md)
+- [codeunit/14933 "Waybill 1-T Report Helper"](../objects/codeunit/14933-ru.md)
+- [codeunit/14934 "TORG-12 Report Helper"](../objects/codeunit/14934-ru.md)
+- [codeunit/14935 "TORG-13 Report Helper"](../objects/codeunit/14935-ru.md)
+- [codeunit/14936 "Cash Order Report Helper"](../objects/codeunit/14936-ru.md)
+- [codeunit/14937 "Bank Payment Order Helper"](../objects/codeunit/14937-ru.md)
+- [codeunit/14938 "Purchase Receipt M-4 Helper"](../objects/codeunit/14938-ru.md)
+- [codeunit/14939 "Torg-16 Document Helper"](../objects/codeunit/14939-ru.md)
+- [codeunit/14940 "Update G/L Corr. Analysis View"](../objects/codeunit/14940-ru.md)
+- [codeunit/14941 "GLCorrAnViewEntrToGLCorrEntr"](../objects/codeunit/14941-ru.md)
+- [codeunit/14942 "Shipment Request M-11 Helper"](../objects/codeunit/14942-ru.md)
+- [codeunit/14943 "INV-17 Report Helper"](../objects/codeunit/14943-ru.md)
+- [codeunit/14944 "Sales Shipment M-15 Helper"](../objects/codeunit/14944-ru.md)
+- [codeunit/14945 "Advance Statement Helper"](../objects/codeunit/14945-ru.md)
+- [codeunit/14946 "FA-1 Report Helper"](../objects/codeunit/14946-ru.md)
+- [codeunit/14947 "INV-18 Report Helper"](../objects/codeunit/14947-ru.md)
+- [codeunit/14948 "FA-2 Report Helper"](../objects/codeunit/14948-ru.md)
+- [codeunit/14949 "TORG-29 Helper"](../objects/codeunit/14949-ru.md)
+- [codeunit/14951 "FA-14 Helper"](../objects/codeunit/14951-ru.md)
+- [codeunit/14952 "FA-3 Report Helper"](../objects/codeunit/14952-ru.md)
+- [codeunit/14953 "FA-4 Report Helper"](../objects/codeunit/14953-ru.md)
+- [codeunit/14954 "FA-15 Report Helper"](../objects/codeunit/14954-ru.md)
+- [codeunit/14955 "Recon. Act Report Helper"](../objects/codeunit/14955-ru.md)
+- [codeunit/17200 "Tax Register Term Mgt."](../objects/codeunit/17200-ru.md)
+- [codeunit/17201 "Tax Register Mgt."](../objects/codeunit/17201-ru.md)
+- [codeunit/17202 "Tax Dimension Mgt."](../objects/codeunit/17202-ru.md)
+- [codeunit/17203 "Create Tax Register GL Entry"](../objects/codeunit/17203-ru.md)
+- [codeunit/17204 "Create Tax Register CV Entry"](../objects/codeunit/17204-ru.md)
+- [codeunit/17205 "Create Tax Register FA Entry"](../objects/codeunit/17205-ru.md)
+- [codeunit/17206 "Create Tax Register Item Entry"](../objects/codeunit/17206-ru.md)
+- [codeunit/17207 "Create Tax Register FE Entry"](../objects/codeunit/17207-ru.md)
+- [codeunit/17209 "Lookup Management"](../objects/codeunit/17209-ru.md)
+- [codeunit/17300 "TaxDiffJnlManagement"](../objects/codeunit/17300-ru.md)
+- [codeunit/17301 "Tax Diff.-Post Jnl. Line"](../objects/codeunit/17301-ru.md)
+- [codeunit/17302 "Tax Diff.-Post Jnl. Batch"](../objects/codeunit/17302-ru.md)
+- [codeunit/17303 "Tax Calc. Mgt."](../objects/codeunit/17303-ru.md)
+- [codeunit/17304 "Tax Calc. Dim. Mgt."](../objects/codeunit/17304-ru.md)
+- [codeunit/17305 "Create Tax Calc. Entries"](../objects/codeunit/17305-ru.md)
+- [codeunit/17306 "Create Tax Calc. Item Entries"](../objects/codeunit/17306-ru.md)
+- [codeunit/17307 "Create Tax Calc. FA Entries"](../objects/codeunit/17307-ru.md)
+- [codeunit/17308 "FA Entry - Edit"](../objects/codeunit/17308-ru.md)
+- [codeunit/26550 "Statutory Report Management"](../objects/codeunit/26550-ru.md)
+- [codeunit/26581 "AccSchedExtensionManagement"](../objects/codeunit/26581-ru.md)
+- [enum/12400 "FA Depr. Method Internal RU"](../objects/enum/12400-ru.md)
+- [page/12400 "Company Address"](../objects/page/12400-ru.md)
+- [page/12401 "G/L Correspondence Entries"](../objects/page/12401-ru.md)
+- [page/12402 "G/L Correspondence Analysis"](../objects/page/12402-ru.md)
+- [page/12403 "G/L Corresp. General Ledger"](../objects/page/12403-ru.md)
+- [page/12405 "G/L Account Turnover"](../objects/page/12405-ru.md)
+- [page/12406 "Customer G/L Turnover"](../objects/page/12406-ru.md)
+- [page/12407 "Vendor G/L Turnover"](../objects/page/12407-ru.md)
+- [page/12408 "Gen. Journal Line Card"](../objects/page/12408-ru.md)
+- [page/12409 "Posted Gen. Journals"](../objects/page/12409-ru.md)
+- [page/12410 "Posted Gen. Journal Line Card"](../objects/page/12410-ru.md)
+- [page/12411 "Posted Gen. Journal Batches"](../objects/page/12411-ru.md)
+- [page/12412 "VAT Ledger List"](../objects/page/12412-ru.md)
+- [page/12413 "VAT Sales Ledger Subform"](../objects/page/12413-ru.md)
+- [page/12414 "VAT Purchase Ledger Subform"](../objects/page/12414-ru.md)
+- [page/12415 "VAT Ledger Connection"](../objects/page/12415-ru.md)
+- [page/12420 "Bank Directory List"](../objects/page/12420-ru.md)
+- [page/12421 "Bank Directory Card"](../objects/page/12421-ru.md)
+- [page/12422 "Bank Payment Order"](../objects/page/12422-ru.md)
+- [page/12423 "Ingoing Cash Order"](../objects/page/12423-ru.md)
+- [page/12424 "Payment Order List"](../objects/page/12424-ru.md)
+- [page/12425 "Posted Payment Order List"](../objects/page/12425-ru.md)
+- [page/12426 "Cash Account Card"](../objects/page/12426-ru.md)
+- [page/12427 "Resp. Employee Card"](../objects/page/12427-ru.md)
+- [page/12428 "KBK Codes"](../objects/page/12428-ru.md)
+- [page/12429 "Tax Authority/Fund Card"](../objects/page/12429-ru.md)
+- [page/12430 "OKATO Codes"](../objects/page/12430-ru.md)
+- [page/12431 "Advance Statement"](../objects/page/12431-ru.md)
+- [page/12432 "Advance Statement Subform"](../objects/page/12432-ru.md)
+- [page/12433 "Posted Advance Statement"](../objects/page/12433-ru.md)
+- [page/12434 "Posted Adv. Statement Subform"](../objects/page/12434-ru.md)
+- [page/12437 "VAT Settlement Journal"](../objects/page/12437-ru.md)
+- [page/12438 "Cash Order Journal"](../objects/page/12438-ru.md)
+- [page/12441 "VAT Sales Ledger Card"](../objects/page/12441-ru.md)
+- [page/12442 "VAT Purchase Ledger Card"](../objects/page/12442-ru.md)
+- [page/12443 "VAT Ledger Line CD No."](../objects/page/12443-ru.md)
+- [page/12444 "VAT Ledger Line Tariff No."](../objects/page/12444-ru.md)
+- [page/12445 "Select Reporting Period"](../objects/page/12445-ru.md)
+- [page/12446 "Outgoing Cash Order"](../objects/page/12446-ru.md)
+- [page/12448 "Report Selection - Print"](../objects/page/12448-ru.md)
+- [page/12449 "Item G/L Turnover"](../objects/page/12449-ru.md)
+- [page/12454 "Report Selection - Item. Docs"](../objects/page/12454-ru.md)
+- [page/12463 "Document Signatures"](../objects/page/12463-ru.md)
+- [page/12464 "Posted Document Signatures"](../objects/page/12464-ru.md)
+- [page/12465 "Default Signature Setup"](../objects/page/12465-ru.md)
+- [page/12470 "FA Writeoff Act"](../objects/page/12470-ru.md)
+- [page/12471 "FA Writeoff Act Subform"](../objects/page/12471-ru.md)
+- [page/12472 "Posted FA Writeoff Act"](../objects/page/12472-ru.md)
+- [page/12473 "Posted FA Writeoff Act Subf"](../objects/page/12473-ru.md)
+- [page/12474 "FA Release Act"](../objects/page/12474-ru.md)
+- [page/12475 "FA Release Act Subform"](../objects/page/12475-ru.md)
+- [page/12476 "Posted FA Release Act"](../objects/page/12476-ru.md)
+- [page/12477 "Posted FA Release Act Subform"](../objects/page/12477-ru.md)
+- [page/12478 "FA Movement Act"](../objects/page/12478-ru.md)
+- [page/12479 "FA Movement Act Subform"](../objects/page/12479-ru.md)
+- [page/12480 "Posted FA Movement Act"](../objects/page/12480-ru.md)
+- [page/12481 "Posted FA Movement Act Subform"](../objects/page/12481-ru.md)
+- [page/12482 "Posted FA Document List"](../objects/page/12482-ru.md)
+- [page/12483 "FA Document List"](../objects/page/12483-ru.md)
+- [page/12484 "Report Selection - FA"](../objects/page/12484-ru.md)
+- [page/12485 "Depreciation Code List"](../objects/page/12485-ru.md)
+- [page/12486 "Precious Metal"](../objects/page/12486-ru.md)
+- [page/12487 "Item/FA Precious Metal"](../objects/page/12487-ru.md)
+- [page/12488 "Depreciation Code"](../objects/page/12488-ru.md)
+- [page/12489 "Depreciation Group"](../objects/page/12489-ru.md)
+- [page/12493 "Company Address List"](../objects/page/12493-ru.md)
+- [page/12494 "Taxpayer Document Types"](../objects/page/12494-ru.md)
+- [page/12495 "FA Comments"](../objects/page/12495-ru.md)
+- [page/12496 "Posted FA Comments"](../objects/page/12496-ru.md)
+- [page/12497 "FA Sheet"](../objects/page/12497-ru.md)
+- [page/12499 "FA G/L Turnover"](../objects/page/12499-ru.md)
+- [page/14900 "Customer Agreements"](../objects/page/14900-ru.md)
+- [page/14901 "Customer Agreement Card"](../objects/page/14901-ru.md)
+- [page/14902 "Vendor Agreement Card"](../objects/page/14902-ru.md)
+- [page/14905 "Letter of Attorney Card"](../objects/page/14905-ru.md)
+- [page/14906 "Letter of Attorney List"](../objects/page/14906-ru.md)
+- [page/14907 "Letter of Attorney Subform"](../objects/page/14907-ru.md)
+- [page/14908 "FA Charge Card"](../objects/page/14908-ru.md)
+- [page/14909 "FA Charge List"](../objects/page/14909-ru.md)
+- [page/14910 "Invent. Act Card"](../objects/page/14910-ru.md)
+- [page/14911 "Invent. Act List"](../objects/page/14911-ru.md)
+- [page/14912 "Invent. Act Subform"](../objects/page/14912-ru.md)
+- [page/14913 "Vendor Agreements"](../objects/page/14913-ru.md)
+- [page/14914 "Customer G/L Turnover Agr."](../objects/page/14914-ru.md)
+- [page/14915 "Vendor G/L Turnover Agr."](../objects/page/14915-ru.md)
+- [page/14916 "Agreement Groups"](../objects/page/14916-ru.md)
+- [page/14918 "Payment Order Codes"](../objects/page/14918-ru.md)
+- [page/14919 "Excel Templates"](../objects/page/14919-ru.md)
+- [page/14920 "Assessed Tax Allowances"](../objects/page/14920-ru.md)
+- [page/14921 "Assessed Tax Code Card"](../objects/page/14921-ru.md)
+- [page/14922 "Assessed Tax Code List"](../objects/page/14922-ru.md)
+- [page/14924 "VAT Reversal on Date"](../objects/page/14924-ru.md)
+- [page/14925 "VAT Settlement Worksheet"](../objects/page/14925-ru.md)
+- [page/14926 "VAT Allocation"](../objects/page/14926-ru.md)
+- [page/14927 "Default VAT Allocation"](../objects/page/14927-ru.md)
+- [page/14928 "Group VAT Allocation"](../objects/page/14928-ru.md)
+- [page/14929 "Field Selection"](../objects/page/14929-ru.md)
+- [page/14933 "Bank Account Details"](../objects/page/14933-ru.md)
+- [page/14939 "Journal Posting Preview Setup"](../objects/page/14939-ru.md)
+- [page/14940 "G/L Corr. Analysis by Dim."](../objects/page/14940-ru.md)
+- [page/14941 "G/L Corr. Analysis View Card"](../objects/page/14941-ru.md)
+- [page/14942 "G/L Corr. Analysis View List"](../objects/page/14942-ru.md)
+- [page/14943 "G/L Corr. Analysis View Filter"](../objects/page/14943-ru.md)
+- [page/14944 "G/L Corr. Analysis View Entr."](../objects/page/14944-ru.md)
+- [page/14945 "G/L Corr. by Dimension"](../objects/page/14945-ru.md)
+- [page/14946 "VAT Reinstatement Journal"](../objects/page/14946-ru.md)
+- [page/14947 "VAT Reinstatement Worksheet"](../objects/page/14947-ru.md)
+- [page/14954 "G/L Corresp. Entries Preview"](../objects/page/14954-ru.md)
+- [page/14971 "Sales Corrective Invoice"](../objects/page/14971-ru.md)
+- [page/14972 "Sales Corr. Invoice Subform"](../objects/page/14972-ru.md)
+- [page/14973 "Sales Corrective Credit Memo"](../objects/page/14973-ru.md)
+- [page/14974 "Sales Corr. Cr. Memo Subform"](../objects/page/14974-ru.md)
+- [page/14975 "Sales Invoice Lines"](../objects/page/14975-ru.md)
+- [page/14976 "Sales Cr. Memo Lines"](../objects/page/14976-ru.md)
+- [page/14977 "VAT Entry Types"](../objects/page/14977-ru.md)
+- [page/17201 "Tax Register Setup"](../objects/page/17201-ru.md)
+- [page/17202 "Tax Register Worksheet"](../objects/page/17202-ru.md)
+- [page/17203 "Tax Register Card"](../objects/page/17203-ru.md)
+- [page/17204 "Tax Register Line Subform"](../objects/page/17204-ru.md)
+- [page/17205 "Tax Register Calc. Templ. Subf"](../objects/page/17205-ru.md)
+- [page/17206 "Tax Register Entr. Templ. Subf"](../objects/page/17206-ru.md)
+- [page/17207 "Tax Register Term"](../objects/page/17207-ru.md)
+- [page/17208 "Tax Register Term Lines"](../objects/page/17208-ru.md)
+- [page/17209 "Tax Register Accumulation"](../objects/page/17209-ru.md)
+- [page/17210 "Tax Register Accum. Subform"](../objects/page/17210-ru.md)
+- [page/17211 "Tax Register Line List"](../objects/page/17211-ru.md)
+- [page/17212 "Tax Register Templates"](../objects/page/17212-ru.md)
+- [page/17213 "Tax Register Accumulat. Lines"](../objects/page/17213-ru.md)
+- [page/17214 "Tax Register G/L Corr. Entries"](../objects/page/17214-ru.md)
+- [page/17215 "Tax Register Field Select"](../objects/page/17215-ru.md)
+- [page/17216 "Tax Register Calc. Buffer"](../objects/page/17216-ru.md)
+- [page/17217 "Tax Register Template Subform"](../objects/page/17217-ru.md)
+- [page/17218 "Tax Register Sections"](../objects/page/17218-ru.md)
+- [page/17219 "Tax Register Section Card"](../objects/page/17219-ru.md)
+- [page/17220 "Tax Register G/L Entry"](../objects/page/17220-ru.md)
+- [page/17221 "Tax Register (1.3) Item"](../objects/page/17221-ru.md)
+- [page/17222 "Tax Register (1.4) Item"](../objects/page/17222-ru.md)
+- [page/17223 "Tax Register (1.6) CV"](../objects/page/17223-ru.md)
+- [page/17224 "Tax Register (1.8) CV"](../objects/page/17224-ru.md)
+- [page/17225 "Tax Register (2.1) FA"](../objects/page/17225-ru.md)
+- [page/17226 "Tax Register (2.3) Item"](../objects/page/17226-ru.md)
+- [page/17227 "Tax Register (2.4) Item"](../objects/page/17227-ru.md)
+- [page/17228 "Tax Register (2.7) FE"](../objects/page/17228-ru.md)
+- [page/17229 "Tax Register (2.8) CV"](../objects/page/17229-ru.md)
+- [page/17230 "Tax Register (2.9) CV"](../objects/page/17230-ru.md)
+- [page/17232 "Tax Register (4.1) FA"](../objects/page/17232-ru.md)
+- [page/17233 "Tax Register (4.4) FA"](../objects/page/17233-ru.md)
+- [page/17234 "Tax Register (4.23) FA"](../objects/page/17234-ru.md)
+- [page/17235 "Tax Register (4.55) CV"](../objects/page/17235-ru.md)
+- [page/17236 "Tax Register Create"](../objects/page/17236-ru.md)
+- [page/17239 "Tax Reg. FA Template Subform"](../objects/page/17239-ru.md)
+- [page/17241 "Tax Reg Dimension Filters"](../objects/page/17241-ru.md)
+- [page/17242 "Tax Reg G/L Corres Dim Filters"](../objects/page/17242-ru.md)
+- [page/17243 "Tax Customer Ledger Entries"](../objects/page/17243-ru.md)
+- [page/17244 "Tax Vendor Ledger Entries"](../objects/page/17244-ru.md)
+- [page/17245 "Option Values"](../objects/page/17245-ru.md)
+- [page/17246 "Tax Reg. Norm Jurisdictions"](../objects/page/17246-ru.md)
+- [page/17247 "Tax Register Norm Groups"](../objects/page/17247-ru.md)
+- [page/17248 "Tax Register Norm Details"](../objects/page/17248-ru.md)
+- [page/17249 "Lookup Code (RecordRef)"](../objects/page/17249-ru.md)
+- [page/17280 "Tax Reg. Norm Details (Calc)"](../objects/page/17280-ru.md)
+- [page/17281 "Tax Reg. Norm Template Setup"](../objects/page/17281-ru.md)
+- [page/17282 "Tax Reg. Norm Terms"](../objects/page/17282-ru.md)
+- [page/17283 "Tax Reg. Norm Term Formula"](../objects/page/17283-ru.md)
+- [page/17284 "Tax Reg. Norm Template Lines"](../objects/page/17284-ru.md)
+- [page/17285 "Tax Reg. Norm Accum. Lines"](../objects/page/17285-ru.md)
+- [page/17286 "Tax Reg. Norm Calc. Buffer"](../objects/page/17286-ru.md)
+- [page/17287 "Tax Reg. Norm Dim. Filters"](../objects/page/17287-ru.md)
+- [page/17288 "Tax Reg G/L Corr. Dim. Filters"](../objects/page/17288-ru.md)
+- [page/17300 "Tax Differences"](../objects/page/17300-ru.md)
+- [page/17301 "Tax Diff. Posting Groups"](../objects/page/17301-ru.md)
+- [page/17302 "Tax Difference Registers"](../objects/page/17302-ru.md)
+- [page/17303 "Tax Diff. Journal Templates"](../objects/page/17303-ru.md)
+- [page/17304 "Tax Diff. Jnl. Template List"](../objects/page/17304-ru.md)
+- [page/17305 "Tax Difference Journal Batches"](../objects/page/17305-ru.md)
+- [page/17306 "Tax Difference Journal"](../objects/page/17306-ru.md)
+- [page/17307 "Tax Diff. Ledger Entries"](../objects/page/17307-ru.md)
+- [page/17308 "Tax Calc. Section Card"](../objects/page/17308-ru.md)
+- [page/17309 "Tax Calc. Section List"](../objects/page/17309-ru.md)
+- [page/17310 "Tax Calc. List"](../objects/page/17310-ru.md)
+- [page/17311 "Tax Calc. Setup Card"](../objects/page/17311-ru.md)
+- [page/17312 "Tax Calc. Select Setup Subf"](../objects/page/17312-ru.md)
+- [page/17313 "Tax Calc. Line Subform"](../objects/page/17313-ru.md)
+- [page/17314 "Tax Calc. Line Select Subf"](../objects/page/17314-ru.md)
+- [page/17315 "Tax Calc. Subform"](../objects/page/17315-ru.md)
+- [page/17316 "Tax Calc. Terms"](../objects/page/17316-ru.md)
+- [page/17317 "Tax Calc. Term Lines"](../objects/page/17317-ru.md)
+- [page/17318 "Tax Calc. Dimension Filters"](../objects/page/17318-ru.md)
+- [page/17319 "Tax Calc. Selection Setup"](../objects/page/17319-ru.md)
+- [page/17320 "Tax Calc. Lines"](../objects/page/17320-ru.md)
+- [page/17321 "Tax Calc. Accumulation"](../objects/page/17321-ru.md)
+- [page/17322 "Tax Calc. Accum. Subform"](../objects/page/17322-ru.md)
+- [page/17323 "Tax Calc. Accumulat. Lines"](../objects/page/17323-ru.md)
+- [page/17324 "Tax Calc. Calc. Buffer"](../objects/page/17324-ru.md)
+- [page/17325 "Tax Calc. Entries"](../objects/page/17325-ru.md)
+- [page/17326 "Tax Calc. Item Entries"](../objects/page/17326-ru.md)
+- [page/17327 "Tax Calc. FA Entries"](../objects/page/17327-ru.md)
+- [page/17328 "Tax Calc. Create"](../objects/page/17328-ru.md)
+- [page/17329 "Tax Calc. Corresp. Entries"](../objects/page/17329-ru.md)
+- [page/17330 "Tax Calc. Cor. Dim. Filters"](../objects/page/17330-ru.md)
+- [page/17331 "Future Period Expense Card"](../objects/page/17331-ru.md)
+- [page/17332 "FE Depreciation Books Subform"](../objects/page/17332-ru.md)
+- [page/17333 "Future Expense Journal"](../objects/page/17333-ru.md)
+- [page/17334 "Tax Diff. Groups"](../objects/page/17334-ru.md)
+- [page/17335 "Tax Dif G/L Corr. Dim. Filters"](../objects/page/17335-ru.md)
+- [page/17336 "FA Tax Differences Detailed"](../objects/page/17336-ru.md)
+- [page/17337 "FA Tax Differences"](../objects/page/17337-ru.md)
+- [page/17338 "Future Period Expenses"](../objects/page/17338-ru.md)
+- [page/17353 "Person Documents"](../objects/page/17353-ru.md)
+- [page/26550 "Statutory Reports"](../objects/page/26550-ru.md)
+- [page/26551 "Statutory Report Groups"](../objects/page/26551-ru.md)
+- [page/26552 "Statutory Report Tables"](../objects/page/26552-ru.md)
+- [page/26553 "Report Table Rows"](../objects/page/26553-ru.md)
+- [page/26554 "Report Table Columns"](../objects/page/26554-ru.md)
+- [page/26555 "Table Individual Requisites"](../objects/page/26555-ru.md)
+- [page/26561 "Report Data Card"](../objects/page/26561-ru.md)
+- [page/26562 "Report Data List"](../objects/page/26562-ru.md)
+- [page/26563 "Statutory Report Data Overview"](../objects/page/26563-ru.md)
+- [page/26564 "Statutory Report Data Subform"](../objects/page/26564-ru.md)
+- [page/26567 "Table Individ. Rqst. Subform"](../objects/page/26567-ru.md)
+- [page/26568 "Stat. Report Excel Sheets"](../objects/page/26568-ru.md)
+- [page/26569 "Stat. Report Data Change Log"](../objects/page/26569-ru.md)
+- [page/26571 "Report Export Log"](../objects/page/26571-ru.md)
+- [page/26572 "Copy Statutory Report"](../objects/page/26572-ru.md)
+- [page/26574 "Create Report Data"](../objects/page/26574-ru.md)
+- [page/26575 "Export File"](../objects/page/26575-ru.md)
+- [page/26576 "Create Requisites Codes"](../objects/page/26576-ru.md)
+- [page/26577 "Create Acc. Schedule"](../objects/page/26577-ru.md)
+- [page/26579 "Select Excel Sheet Name"](../objects/page/26579-ru.md)
+- [page/26581 "Statutory Report Setup"](../objects/page/26581-ru.md)
+- [page/26583 "Page Indication XML Elements"](../objects/page/26583-ru.md)
+- [page/26585 "XML Element Expression Lines"](../objects/page/26585-ru.md)
+- [page/26586 "Format Versions"](../objects/page/26586-ru.md)
+- [page/26587 "XML Element Lines"](../objects/page/26587-ru.md)
+- [page/26588 "XML Element Line List"](../objects/page/26588-ru.md)
+- [page/26589 "Compound XML Element Lines"](../objects/page/26589-ru.md)
+- [page/26590 "Acc. Schedule Extensions"](../objects/page/26590-ru.md)
+- [page/26591 "Acc. Sched. Formula Drill-Down"](../objects/page/26591-ru.md)
+- [page/26592 "Stat. Report Table Mapping"](../objects/page/26592-ru.md)
+- [page/26593 "Stat. Rep. Table Map. Subform"](../objects/page/26593-ru.md)
+- [page/26594 "Stat. Rep. Table Cell Mapping"](../objects/page/26594-ru.md)
+- [page/26595 "Acc. Schedule Lines"](../objects/page/26595-ru.md)
+- [page/26596 "Column Layouts"](../objects/page/26596-ru.md)
+- [page/35600 "Cash Accounts"](../objects/page/35600-ru.md)
+- [page/35601 "Responsible Employees"](../objects/page/35601-ru.md)
+- [page/35602 "Tax Authorities"](../objects/page/35602-ru.md)
+- [page/35603 "Vendors"](../objects/page/35603-ru.md)
+- [page/35604 "FA Release Acts"](../objects/page/35604-ru.md)
+- [page/35605 "FA Movement Acts"](../objects/page/35605-ru.md)
+- [page/35606 "FA Writeoff Acts"](../objects/page/35606-ru.md)
+- [page/35607 "Posted FA Release Acts"](../objects/page/35607-ru.md)
+- [page/35608 "Posted FA Movement Acts"](../objects/page/35608-ru.md)
+- [page/35609 "Posted FA Writeoff Acts"](../objects/page/35609-ru.md)
+- [page/35610 "Purchase Advance Reports"](../objects/page/35610-ru.md)
+- [page/35611 "Posted Purch. Advance Reports"](../objects/page/35611-ru.md)
+- [page/35613 "G/L Corresp. Gen. Ledger Lines"](../objects/page/35613-ru.md)
+- [page/35622 "_Stat. Report Data Subform"](../objects/page/35622-ru.md)
+- [page/35623 "_Scalable Table Data Subform"](../objects/page/35623-ru.md)
+- [page/35628 "VAT Purchase Ledgers"](../objects/page/35628-ru.md)
+- [page/35629 "VAT Sales Ledgers"](../objects/page/35629-ru.md)
+- [page/35630 "Bank Accounts"](../objects/page/35630-ru.md)
+- [page/36847 "Sales Corrective Invoice List"](../objects/page/36847-ru.md)
+- [page/36848 "Sales Corrective Credit Memos"](../objects/page/36848-ru.md)
+- [pageextension/12400 "SourceCodeSetupRU"](../objects/pageextension/12400-ru.md)
+- [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageextension/12420-ru.md)
+- [query/12400 "Value Entry Item Tariff No."](../objects/query/12400-ru.md)
+- [report/12400 "Bank Payment Order"](../objects/report/12400-ru.md)
+- [report/12402 "Cash Outgoing Order"](../objects/report/12402-ru.md)
+- [report/12403 "Cash Ingoing Order"](../objects/report/12403-ru.md)
+- [report/12407 "Order Item Shipment TORG-12"](../objects/report/12407-ru.md)
+- [report/12409 "Order Proforma-Invoice (A)"](../objects/report/12409-ru.md)
+- [report/12411 "Order Factura-Invoice (A)"](../objects/report/12411-ru.md)
+- [report/12412 "Order Item Waybill 1-T"](../objects/report/12412-ru.md)
+- [report/12413 "Posted Inv. Shipment TORG-12"](../objects/report/12413-ru.md)
+- [report/12414 "Posted Ship. Shipment TORG-12"](../objects/report/12414-ru.md)
+- [report/12418 "Posted Factura-Invoice (A)"](../objects/report/12418-ru.md)
+- [report/12419 "Posted Ship. Item Waybill 1-T"](../objects/report/12419-ru.md)
+- [report/12420 "Posted Inv. Item Waybill 1-T"](../objects/report/12420-ru.md)
+- [report/12423 "Calc. FA Inventory"](../objects/report/12423-ru.md)
+- [report/12424 "Copy Payment Document"](../objects/report/12424-ru.md)
+- [report/12425 "Copy Pay Document"](../objects/report/12425-ru.md)
+- [report/12429 "Calc. Recurring Journal"](../objects/report/12429-ru.md)
+- [report/12430 "Create G/L Correspondence"](../objects/report/12430-ru.md)
+- [report/12431 "G/L Corresp. General Ledger"](../objects/report/12431-ru.md)
+- [report/12432 "G/L Corresp. Journal Order"](../objects/report/12432-ru.md)
+- [report/12435 "G/L Corresp Entries Analysis"](../objects/report/12435-ru.md)
+- [report/12436 "G/L Account Turnover"](../objects/report/12436-ru.md)
+- [report/12437 "G/L Account Card"](../objects/report/12437-ru.md)
+- [report/12438 "G/L Account Entries Analysis"](../objects/report/12438-ru.md)
+- [report/12439 "Customer Turnover"](../objects/report/12439-ru.md)
+- [report/12440 "Customer Post. Gr. Turnover"](../objects/report/12440-ru.md)
+- [report/12441 "Customer Accounting Card"](../objects/report/12441-ru.md)
+- [report/12442 "Customer Entries Analysis"](../objects/report/12442-ru.md)
+- [report/12443 "Vendor Post. Gr. Turnover"](../objects/report/12443-ru.md)
+- [report/12444 "Vendor Turnover"](../objects/report/12444-ru.md)
+- [report/12445 "Vendor Accounting Card"](../objects/report/12445-ru.md)
+- [report/12446 "Vendor Entries Analysis"](../objects/report/12446-ru.md)
+- [report/12447 "Bank Account G/L Turnover"](../objects/report/12447-ru.md)
+- [report/12448 "Bank Account Card"](../objects/report/12448-ru.md)
+- [report/12450 "Customer G/L Turnover"](../objects/report/12450-ru.md)
+- [report/12451 "Vendor G/L Turnover"](../objects/report/12451-ru.md)
+- [report/12452 "Advance Statement"](../objects/report/12452-ru.md)
+- [report/12453 "Return Prepayment"](../objects/report/12453-ru.md)
+- [report/12454 "Posted Advance Statement"](../objects/report/12454-ru.md)
+- [report/12455 "Create VAT Purchase Ledger"](../objects/report/12455-ru.md)
+- [report/12456 "Create VAT Sales Ledger"](../objects/report/12456-ru.md)
+- [report/12457 "Posted Cash Outgoing Order"](../objects/report/12457-ru.md)
+- [report/12458 "Posted Cash Ingoing Order"](../objects/report/12458-ru.md)
+- [report/12459 "Posted Bank Payment Order"](../objects/report/12459-ru.md)
+- [report/12460 "VAT Ledger Export"](../objects/report/12460-ru.md)
+- [report/12461 "VAT Ledger Export XML"](../objects/report/12461-ru.md)
+- [report/12463 "Cash Order Journal CO-3"](../objects/report/12463-ru.md)
+- [report/12464 "Fixed Asset G/L Turnover"](../objects/report/12464-ru.md)
+- [report/12466 "FA Turnover"](../objects/report/12466-ru.md)
+- [report/12469 "Item Turnover (Qty.)"](../objects/report/12469-ru.md)
+- [report/12471 "Shipment Request M-11"](../objects/report/12471-ru.md)
+- [report/12472 "Sales Shipment M-15"](../objects/report/12472-ru.md)
+- [report/12473 "Posted Sales Shipment M-15"](../objects/report/12473-ru.md)
+- [report/12475 "Purchase Receipt M-4"](../objects/report/12475-ru.md)
+- [report/12476 "Item Card M-17"](../objects/report/12476-ru.md)
+- [report/12477 "Item Reclass. TORG-13"](../objects/report/12477-ru.md)
+- [report/12481 "Phys. Inventory Form INV-3"](../objects/report/12481-ru.md)
+- [report/12482 "Phys. Inventory Form INV-19"](../objects/report/12482-ru.md)
+- [report/12483 "Posted Purchase Receipt M-4"](../objects/report/12483-ru.md)
+- [report/12484 "Posted Cr. M. Factura-Invoice"](../objects/report/12484-ru.md)
+- [report/12485 "FA Comparative Sheet INV-18"](../objects/report/12485-ru.md)
+- [report/12486 "FA Phys. Inventory INV-1"](../objects/report/12486-ru.md)
+- [report/12487 "Copy FA"](../objects/report/12487-ru.md)
+- [report/12488 "Copy FA Document"](../objects/report/12488-ru.md)
+- [report/12490 "FA Release Act FA-1"](../objects/report/12490-ru.md)
+- [report/12492 "FA Posted Release Act FA-1"](../objects/report/12492-ru.md)
+- [report/12493 "FA Write-off Act FA-4"](../objects/report/12493-ru.md)
+- [report/12494 "FA Posted Writeoff Act FA-4"](../objects/report/12494-ru.md)
+- [report/12495 "FA Inventory Card FA-6"](../objects/report/12495-ru.md)
+- [report/14900 "Import Currency Exch. Rate"](../objects/report/14900-ru.md)
+- [report/14901 "Purch. without Vend. VAT Inv."](../objects/report/14901-ru.md)
+- [report/14902 "Cash Report CO-4"](../objects/report/14902-ru.md)
+- [report/14905 "Letter of Attorney M-2A"](../objects/report/14905-ru.md)
+- [report/14907 "Change Vendor VAT Invoice"](../objects/report/14907-ru.md)
+- [report/14910 "Customer - Reconciliation Act"](../objects/report/14910-ru.md)
+- [report/14911 "Vendor - Reconciliation Act"](../objects/report/14911-ru.md)
+- [report/14912 "Allocate FA Charges"](../objects/report/14912-ru.md)
+- [report/14913 "Create Invent. Act Lines"](../objects/report/14913-ru.md)
+- [report/14914 "Invent. Act INV-17"](../objects/report/14914-ru.md)
+- [report/14915 "Supplement to INV-17"](../objects/report/14915-ru.md)
+- [report/14916 "Posted Cr. M. Shipment TORG-12"](../objects/report/14916-ru.md)
+- [report/14917 "Act Items Receipt M-7"](../objects/report/14917-ru.md)
+- [report/14918 "Items Receipt Act TORG-1"](../objects/report/14918-ru.md)
+- [report/14919 "Item Report TORG-29"](../objects/report/14919-ru.md)
+- [report/14920 "Calculate Assessed Tax"](../objects/report/14920-ru.md)
+- [report/14921 "FA Phys. Inventory INV-1a"](../objects/report/14921-ru.md)
+- [report/14925 "Receipt Deviations TORG-2"](../objects/report/14925-ru.md)
+- [report/14926 "Inventory for Deferrals INV-11"](../objects/report/14926-ru.md)
+- [report/14927 "VAT Invoices Journal"](../objects/report/14927-ru.md)
+- [report/14928 "Unrealized VAT Analysis"](../objects/report/14928-ru.md)
+- [report/14930 "Item Write-off act TORG-16"](../objects/report/14930-ru.md)
+- [report/14931 "Posted Item Write-off TORG-16"](../objects/report/14931-ru.md)
+- [report/14933 "Calculate Group Depreciation"](../objects/report/14933-ru.md)
+- [report/14934 "Write-off for Tax Ledger"](../objects/report/14934-ru.md)
+- [report/14939 "Pstd. Purch. Factura-Invoice"](../objects/report/14939-ru.md)
+- [report/14940 "Analytic Account Card by Dim."](../objects/report/14940-ru.md)
+- [report/14941 "Update G/L Corr.Analysis Views"](../objects/report/14941-ru.md)
+- [report/14951 "Bill of Lading"](../objects/report/14951-ru.md)
+- [report/14962 "Create VAT Purch. Led. Ad. Sh."](../objects/report/14962-ru.md)
+- [report/14963 "Create VAT Sales Led. Ad. Sh."](../objects/report/14963-ru.md)
+- [report/14966 "Sales Corr. Factura-Invoice"](../objects/report/14966-ru.md)
+- [report/14967 "Pstd. Sales Corr. Fact. Inv."](../objects/report/14967-ru.md)
+- [report/14968 "Pstd. Sales Corr. Cr. M. Fact."](../objects/report/14968-ru.md)
+- [report/14970 "Comparing Depr. Book Entries"](../objects/report/14970-ru.md)
+- [report/14971 "Transfer VAT Bus. Post. Group"](../objects/report/14971-ru.md)
+- [report/14972 "Suggest VAT Reinst. Lines"](../objects/report/14972-ru.md)
+- [report/14973 "Copy to VAT Reinst. Journal"](../objects/report/14973-ru.md)
+- [report/14976 "Transfer Order TORG-13"](../objects/report/14976-ru.md)
+- [report/14977 "Transfer Receipt TORG-13"](../objects/report/14977-ru.md)
+- [report/14978 "Transfer Shipment TORG-13"](../objects/report/14978-ru.md)
+- [report/14980 "Purch. FA Receipt FA-14"](../objects/report/14980-ru.md)
+- [report/14981 "Posted Purch. FA Receipt FA-14"](../objects/report/14981-ru.md)
+- [report/14982 "Sales FA Release FA-1"](../objects/report/14982-ru.md)
+- [report/14983 "Posted Sales FA Release FA-1"](../objects/report/14983-ru.md)
+- [report/14986 "FA Movement FA-2"](../objects/report/14986-ru.md)
+- [report/14987 "FA Posted Movement FA-2"](../objects/report/14987-ru.md)
+- [report/14988 "FA Movement FA-3"](../objects/report/14988-ru.md)
+- [report/14989 "FA Posted Movement FA-3"](../objects/report/14989-ru.md)
+- [report/14990 "FA Writeoff Act FA-4a"](../objects/report/14990-ru.md)
+- [report/14991 "Posted FA Writeoff Act FA-4a"](../objects/report/14991-ru.md)
+- [report/14992 "FA Movement FA-15"](../objects/report/14992-ru.md)
+- [report/14993 "Posted FA Movement FA-15"](../objects/report/14993-ru.md)
+- [report/17200 "Copy Tax Register Section"](../objects/report/17200-ru.md)
+- [report/17201 "Create Closing Gen. Jnl. Line"](../objects/report/17201-ru.md)
+- [report/17204 "Create Tax Registers"](../objects/report/17204-ru.md)
+- [report/17205 "Initial Due Date Create"](../objects/report/17205-ru.md)
+- [report/17206 "Create Item Batch"](../objects/report/17206-ru.md)
+- [report/17207 "Create Norm Details"](../objects/report/17207-ru.md)
+- [report/17208 "Tax Register"](../objects/report/17208-ru.md)
+- [report/17300 "Calculate Tax Diff. for FE"](../objects/report/17300-ru.md)
+- [report/17301 "Calculate Tax Diff. for Calc."](../objects/report/17301-ru.md)
+- [report/17302 "Calculate FE Depreciation"](../objects/report/17302-ru.md)
+- [report/17303 "Calculate FE Depr. with Norm"](../objects/report/17303-ru.md)
+- [report/17304 "Create FE from Sold FA"](../objects/report/17304-ru.md)
+- [report/17305 "Create Tax Diff. for Disp. FE"](../objects/report/17305-ru.md)
+- [report/17306 "Calculate Tax Diff. for FA"](../objects/report/17306-ru.md)
+- [report/17307 "Calc. Tax Diff.- Disposed FA"](../objects/report/17307-ru.md)
+- [report/17308 "Calc. Tax Diff.- Depr. Bonus"](../objects/report/17308-ru.md)
+- [report/17309 "Create Tax Calculation"](../objects/report/17309-ru.md)
+- [report/17310 "Copy Tax Calc. Section"](../objects/report/17310-ru.md)
+- [report/17450 "Spreadsheet Gen. Journal"](../objects/report/17450-ru.md)
+- [table/12049 "G/L Correspondence Buffer"](../objects/table/12049-ru.md)
+- [table/12400 "G/L Correspondence"](../objects/table/12400-ru.md)
+- [table/12401 "G/L Correspondence Entry"](../objects/table/12401-ru.md)
+- [table/12402 "G/L Corresp. Posting Buffer"](../objects/table/12402-ru.md)
+- [table/12403 "Gen. Journal Line Archive"](../objects/table/12403-ru.md)
+- [table/12404 "VAT Ledger"](../objects/table/12404-ru.md)
+- [table/12405 "VAT Ledger Line"](../objects/table/12405-ru.md)
+- [table/12406 "VAT Ledger Connection"](../objects/table/12406-ru.md)
+- [table/12407 "CD No. Header"](../objects/table/12407-ru.md)
+- [table/12408 "CD No. Information"](../objects/table/12408-ru.md)
+- [table/12409 "Bank Directory"](../objects/table/12409-ru.md)
+- [table/12410 "CD Tracking Setup"](../objects/table/12410-ru.md)
+- [table/12411 "VAT Ledger Line CD No."](../objects/table/12411-ru.md)
+- [table/12412 "VAT Ledger Line Tariff No."](../objects/table/12412-ru.md)
+- [table/12420 "Document Signature"](../objects/table/12420-ru.md)
+- [table/12421 "Posted Document Signature"](../objects/table/12421-ru.md)
+- [table/12425 "Company Address"](../objects/table/12425-ru.md)
+- [table/12426 "KBK"](../objects/table/12426-ru.md)
+- [table/12427 "OKATO"](../objects/table/12427-ru.md)
+- [table/12428 "Default Signature Setup"](../objects/table/12428-ru.md)
+- [table/12429 "Taxpayer Document Type"](../objects/table/12429-ru.md)
+- [table/12430 "Document Print Buffer"](../objects/table/12430-ru.md)
+- [table/12436 "Bank Account Details"](../objects/table/12436-ru.md)
+- [table/12450 "Item Document Header"](../objects/table/12450-ru.md)
+- [table/12451 "Item Receipt Header"](../objects/table/12451-ru.md)
+- [table/12452 "Item Receipt Line"](../objects/table/12452-ru.md)
+- [table/12453 "Item Document Line"](../objects/table/12453-ru.md)
+- [table/12454 "Item Shipment Header"](../objects/table/12454-ru.md)
+- [table/12455 "Item Shipment Line"](../objects/table/12455-ru.md)
+- [table/12458 "Direct Transfer Header"](../objects/table/12458-ru.md)
+- [table/12459 "Direct Transfer Line"](../objects/table/12459-ru.md)
+- [table/12470 "FA Document Header"](../objects/table/12470-ru.md)
+- [table/12471 "Posted FA Doc. Header"](../objects/table/12471-ru.md)
+- [table/12472 "Posted FA Doc. Line"](../objects/table/12472-ru.md)
+- [table/12473 "Depreciation Code"](../objects/table/12473-ru.md)
+- [table/12474 "Item/FA Precious Metal"](../objects/table/12474-ru.md)
+- [table/12475 "Precious Metal"](../objects/table/12475-ru.md)
+- [table/12476 "Depreciation Group"](../objects/table/12476-ru.md)
+- [table/12477 "FA Document Line"](../objects/table/12477-ru.md)
+- [table/12478 "FA Comment"](../objects/table/12478-ru.md)
+- [table/12479 "Posted FA Comment"](../objects/table/12479-ru.md)
+- [table/14901 "Vendor Agreement"](../objects/table/14901-ru.md)
+- [table/14902 "Customer Agreement"](../objects/table/14902-ru.md)
+- [table/14903 "Agreement Group"](../objects/table/14903-ru.md)
+- [table/14905 "Letter of Attorney Header"](../objects/table/14905-ru.md)
+- [table/14906 "Letter of Attorney Line"](../objects/table/14906-ru.md)
+- [table/14907 "FA Charge"](../objects/table/14907-ru.md)
+- [table/14908 "Invent. Act Header"](../objects/table/14908-ru.md)
+- [table/14909 "Invent. Act Line"](../objects/table/14909-ru.md)
+- [table/14917 "CD No. Format"](../objects/table/14917-ru.md)
+- [table/14918 "Payment Order Code"](../objects/table/14918-ru.md)
+- [table/14919 "Excel Template"](../objects/table/14919-ru.md)
+- [table/14920 "Assessed Tax Allowance"](../objects/table/14920-ru.md)
+- [table/14921 "Assessed Tax Code"](../objects/table/14921-ru.md)
+- [table/14925 "VAT Allocation Line"](../objects/table/14925-ru.md)
+- [table/14926 "Default VAT Allocation Line"](../objects/table/14926-ru.md)
+- [table/14927 "VAT Document Entry Buffer"](../objects/table/14927-ru.md)
+- [table/14929 "Journal Posting Preview Setup"](../objects/table/14929-ru.md)
+- [table/14930 "Excel Template Sheet"](../objects/table/14930-ru.md)
+- [table/14931 "Excel Template Section"](../objects/table/14931-ru.md)
+- [table/14932 "Excel Template Sheet Buffer"](../objects/table/14932-ru.md)
+- [table/14940 "G/L Corr. Analysis View"](../objects/table/14940-ru.md)
+- [table/14941 "G/L Corr. Analysis View Filter"](../objects/table/14941-ru.md)
+- [table/14942 "G/L Corr. Analysis View Entry"](../objects/table/14942-ru.md)
+- [table/14949 "VAT Entry Type"](../objects/table/14949-ru.md)
+- [table/17200 "Tax Register"](../objects/table/17200-ru.md)
+- [table/17201 "Tax Register Line Setup"](../objects/table/17201-ru.md)
+- [table/17202 "Tax Register Template"](../objects/table/17202-ru.md)
+- [table/17203 "Tax Register G/L Corr. Entry"](../objects/table/17203-ru.md)
+- [table/17204 "Tax Register Term"](../objects/table/17204-ru.md)
+- [table/17205 "Tax Register Term Formula"](../objects/table/17205-ru.md)
+- [table/17206 "Tax Register Calc. Buffer"](../objects/table/17206-ru.md)
+- [table/17207 "Tax Register Section"](../objects/table/17207-ru.md)
+- [table/17208 "Tax Register Accumulation"](../objects/table/17208-ru.md)
+- [table/17209 "Tax Register G/L Entry"](../objects/table/17209-ru.md)
+- [table/17210 "Tax Register CV Entry"](../objects/table/17210-ru.md)
+- [table/17211 "Tax Register FA Entry"](../objects/table/17211-ru.md)
+- [table/17212 "Tax Register Item Entry"](../objects/table/17212-ru.md)
+- [table/17213 "Tax Register FE Entry"](../objects/table/17213-ru.md)
+- [table/17215 "Tax Register Dim. Comb."](../objects/table/17215-ru.md)
+- [table/17216 "Tax Register Dim. Value Comb."](../objects/table/17216-ru.md)
+- [table/17217 "Tax Register Dim. Def. Value"](../objects/table/17217-ru.md)
+- [table/17218 "Tax Register Dim. Filter"](../objects/table/17218-ru.md)
+- [table/17219 "Tax Register Dim. Corr. Filter"](../objects/table/17219-ru.md)
+- [table/17220 "Tax Register Norm Jurisdiction"](../objects/table/17220-ru.md)
+- [table/17221 "Tax Register Norm Group"](../objects/table/17221-ru.md)
+- [table/17222 "Tax Register Norm Detail"](../objects/table/17222-ru.md)
+- [table/17223 "Lookup Buffer"](../objects/table/17223-ru.md)
+- [table/17236 "Tax Register Setup"](../objects/table/17236-ru.md)
+- [table/17237 "Gen. Template Profile"](../objects/table/17237-ru.md)
+- [table/17238 "Gen. Term Profile"](../objects/table/17238-ru.md)
+- [table/17239 "Tax Reg. Norm Template Line"](../objects/table/17239-ru.md)
+- [table/17240 "Tax Reg. Norm Term"](../objects/table/17240-ru.md)
+- [table/17241 "Tax Reg. Norm Term Formula"](../objects/table/17241-ru.md)
+- [table/17242 "Tax Reg. Norm Accumulation"](../objects/table/17242-ru.md)
+- [table/17243 "Tax Reg. Norm Dim. Filter"](../objects/table/17243-ru.md)
+- [table/17244 "Tax Reg. G/L Corr. Dim. Filter"](../objects/table/17244-ru.md)
+- [table/17300 "Tax Difference"](../objects/table/17300-ru.md)
+- [table/17301 "Tax Diff. Posting Group"](../objects/table/17301-ru.md)
+- [table/17302 "Tax Diff. Register"](../objects/table/17302-ru.md)
+- [table/17303 "Tax Diff. Journal Template"](../objects/table/17303-ru.md)
+- [table/17304 "Tax Diff. Journal Batch"](../objects/table/17304-ru.md)
+- [table/17305 "Tax Diff. Journal Line"](../objects/table/17305-ru.md)
+- [table/17306 "Tax Diff. Ledger Entry"](../objects/table/17306-ru.md)
+- [table/17307 "Tax Calc. Section"](../objects/table/17307-ru.md)
+- [table/17308 "Tax Calc. Header"](../objects/table/17308-ru.md)
+- [table/17309 "Tax Calc. Selection Setup"](../objects/table/17309-ru.md)
+- [table/17310 "Tax Calc. Line"](../objects/table/17310-ru.md)
+- [table/17311 "Tax Calc. Term"](../objects/table/17311-ru.md)
+- [table/17312 "Tax Calc. Term Formula"](../objects/table/17312-ru.md)
+- [table/17313 "Tax Calc. Dim. Filter"](../objects/table/17313-ru.md)
+- [table/17314 "Tax Calc. Accumulation"](../objects/table/17314-ru.md)
+- [table/17315 "Tax Calc. G/L Entry"](../objects/table/17315-ru.md)
+- [table/17316 "Tax Calc. Buffer Entry"](../objects/table/17316-ru.md)
+- [table/17317 "Tax Calc. Item Entry"](../objects/table/17317-ru.md)
+- [table/17318 "Tax Calc. FA Entry"](../objects/table/17318-ru.md)
+- [table/17319 "Tax Calc. G/L Corr. Entry"](../objects/table/17319-ru.md)
+- [table/17320 "Tax Calc. Dim. Corr. Filter"](../objects/table/17320-ru.md)
+- [table/17321 "Tax Diff. Group"](../objects/table/17321-ru.md)
+- [table/17322 "Tax Diff. Corr. Dim. Filter"](../objects/table/17322-ru.md)
+- [table/17323 "Tax Diff. FA Posting Buffer"](../objects/table/17323-ru.md)
+- [table/17324 "Tax Diff. FA Buffer"](../objects/table/17324-ru.md)
+- [table/17352 "Person Document"](../objects/table/17352-ru.md)
+- [table/17448 "Key Including In Report"](../objects/table/17448-ru.md)
+- [table/17449 "Including In Report"](../objects/table/17449-ru.md)
+- [table/26550 "Statutory Report"](../objects/table/26550-ru.md)
+- [table/26551 "Statutory Report Group"](../objects/table/26551-ru.md)
+- [table/26552 "Statutory Report Table"](../objects/table/26552-ru.md)
+- [table/26553 "Stat. Report Table Row"](../objects/table/26553-ru.md)
+- [table/26554 "Stat. Report Table Column"](../objects/table/26554-ru.md)
+- [table/26555 "Scalable Table Row"](../objects/table/26555-ru.md)
+- [table/26556 "Table Individual Requisite"](../objects/table/26556-ru.md)
+- [table/26561 "Requisite Condition Line"](../objects/table/26561-ru.md)
+- [table/26562 "Stat. Report Excel Sheet"](../objects/table/26562-ru.md)
+- [table/26563 "Statutory Report Data Header"](../objects/table/26563-ru.md)
+- [table/26564 "Statutory Report Data Value"](../objects/table/26564-ru.md)
+- [table/26565 "Stat. Report Data Change Log"](../objects/table/26565-ru.md)
+- [table/26567 "Export Log Entry"](../objects/table/26567-ru.md)
+- [table/26568 "Statutory Report Buffer"](../objects/table/26568-ru.md)
+- [table/26569 "Statutory Report Setup"](../objects/table/26569-ru.md)
+- [table/26570 "XML Element Line"](../objects/table/26570-ru.md)
+- [table/26571 "Page Indication XML Element"](../objects/table/26571-ru.md)
+- [table/26572 "XML Element Expression Line"](../objects/table/26572-ru.md)
+- [table/26573 "Format Version"](../objects/table/26573-ru.md)
+- [table/26584 "Acc. Schedule Extension"](../objects/table/26584-ru.md)
+- [table/26585 "Acc. Sched. Expression Buffer"](../objects/table/26585-ru.md)
+- [table/26587 "Stat. Report Table Mapping"](../objects/table/26587-ru.md)
+- [tableextension/12401 "SourceCodeSetupRU"](../objects/tableextension/12401-ru.md)
+- [tableextension/12410 "Location RU"](../objects/tableextension/12410-ru.md)
+- [tableextension/14958 "Package No. Information RU"](../objects/tableextension/14958-ru.md)
+- [xmlport/12427 "OKATO"](../objects/xmlport/12427-ru.md)
+- [xmlport/17200 "Tax Register Setup"](../objects/xmlport/17200-ru.md)
+- [xmlport/17202 "Norm Jurisdiction"](../objects/xmlport/17202-ru.md)
+- [xmlport/17300 "Tax Differences Registers"](../objects/xmlport/17300-ru.md)
+- [xmlport/26550 "Statutory Reports"](../objects/xmlport/26550-ru.md)
+- [xmlport/26551 "Format Versions"](../objects/xmlport/26551-ru.md)
+- [xmlport/26552 "Account Schedules"](../objects/xmlport/26552-ru.md)
 
 ## Other versions
 

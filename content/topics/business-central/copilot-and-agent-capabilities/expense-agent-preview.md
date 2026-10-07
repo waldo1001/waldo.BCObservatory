@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,7 +104,6 @@ links:
   localizations: []
   videos:
     - video/4TE8uwIi91k
-    - video/9esVS6I4wrY
     - video/ARKckFygbWQ
     - video/egE6UdOfar0
     - video/Fz8NLByllRc
@@ -115,9 +114,7 @@ links:
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
-    - post/thinkaboutit-be/7797
     - post/thinkaboutit-be/7920
-    - post/thinkaboutit-be/8022
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -129,8 +126,8 @@ children:
 coverage:
   learn: 10
   code: 0
-  video: 11
-  blog: 3
+  video: 10
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
@@ -182,11 +179,8 @@ Administrators should begin with the setup page. End users can go straight to th
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Quick Tip: Business Central Launch Edition 2026 Wave 1: 37 Sessions](../../../posts/thinkaboutit-be/7797.md) (community post): "New Payables Agent and Business Central integration with Microsoft Copilot Studio"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent in public preview, a new Expense Management module"
-- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
-- [Getting Started With Agents: Billing Agents in Business Central - Configure "Pay as You Go" (2025)](../../../videos/9esVS6I4wrY.md) (video): "billing agents; pay-as-you-go; copilot consumption; cost monitoring"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
 - [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../videos/egE6UdOfar0.md) (video): "Introducing: Expense Agent in Business Central (2026 release wave 1). Topics: expense management; ai agent; receipt processing"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Expense Agent: Mileage Allowances; mileage allowances; expense agent"

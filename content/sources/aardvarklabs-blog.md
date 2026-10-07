@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 30 posts in the knowledge base, 2026-03-13 to 2026-10-02, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 35 posts in the knowledge base, 2026-02-06 to 2026-10-02, mostly about development, copilot, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T01:01:30.439Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: efaa727ff85a65d01132780308f7969a73497663fb5f7e4645b8234f10a111b1
+  input_hash: 5f9260b0cee2dcc642e9613788edb3b55ce62f11d1c6ad9c907d57e05913203b
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -33,6 +33,11 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/3032
+    - post/aardvarklabs-blog/2936
+    - post/aardvarklabs-blog/3081
+    - post/aardvarklabs-blog/3120
+    - post/aardvarklabs-blog/3118
     - post/aardvarklabs-blog/2724
     - post/aardvarklabs-blog/3227
     - post/aardvarklabs-blog/3214
@@ -70,31 +75,33 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 30
+item_count: 35
 footprint:
   systems:
     - id: development
-      weight: 33
-    - id: integration
-      weight: 21
+      weight: 40
     - id: copilot
-      weight: 19
+      weight: 23
+    - id: integration
+      weight: 22
     - id: platform
-      weight: 14
+      weight: 15
     - id: administration
-      weight: 12
+      weight: 13
     - id: reporting
-      weight: 5
+      weight: 6
   topics:
     - id: al development
+      weight: 6
+    - id: copilot
+      weight: 5
+    - id: al code
       weight: 4
     - id: automation
       weight: 4
-    - id: al code
-      weight: 3
     - id: api
       weight: 3
-    - id: copilot
+    - id: json
       weight: 3
     - id: power automate
       weight: 3
@@ -104,10 +111,10 @@ footprint:
       weight: 2
     - id: ai agents
       weight: 2
-    - id: ai development
-      weight: 2
   objects:
     - id: table Customer
+      weight: 3
+    - id: table Sales Header
       weight: 3
     - id: codeunit ARD_CashFlowAgentFactory
       weight: 2
@@ -125,20 +132,18 @@ footprint:
       weight: 2
     - id: table ARD_CashflowAgentSetup
       weight: 2
-    - id: table Sales Header
-      weight: 2
     - id: table Vendor
       weight: 2
     - id: api ARD_PAFileStagingAPI
       weight: 1
   features: []
-first_item: "2026-03-13"
+first_item: "2026-02-06"
 last_item: "2026-10-02"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 30 posts in the knowledge base, 2026-03-13 to 2026-10-02, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 35 posts in the knowledge base, 2026-02-06 to 2026-10-02, mostly about development, copilot, integration.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -146,16 +151,16 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (33) | al development (4) | table Customer (3) |
-| integration (21) | automation (4) | codeunit ARD_CashFlowAgentFactory (2) |
-| copilot (19) | al code (3) | codeunit ARD_CashFlowAgentKPILogging (2) |
-| platform (14) | api (3) | codeunit ARD_CashFlowAgentMetadata (2) |
-| administration (12) | copilot (3) | codeunit ARD_CashFlowAgentSetup (2) |
-| reporting (5) | power automate (3) | page ARD_Cash Flow Agent KPI (2) |
+| development (40) | al development (6) | table Customer (3) |
+| copilot (23) | copilot (5) | table Sales Header (3) |
+| integration (22) | al code (4) | codeunit ARD_CashFlowAgentFactory (2) |
+| platform (15) | automation (4) | codeunit ARD_CashFlowAgentKPILogging (2) |
+| administration (13) | api (3) | codeunit ARD_CashFlowAgentMetadata (2) |
+| reporting (6) | json (3) | codeunit ARD_CashFlowAgentSetup (2) |
+|  | power automate (3) | page ARD_Cash Flow Agent KPI (2) |
 |  | sftp (3) | page ARD_Cash Flow Agent Setup (2) |
 |  | administration api (2) | table ARD_CashFlowAgentKPI (2) |
 |  | ai agents (2) | table ARD_CashflowAgentSetup (2) |
-|  | ai development (2) | table Sales Header (2) |
 |  |  | table Vendor (2) |
 |  |  | api ARD_PAFileStagingAPI (1) |
 
@@ -163,7 +168,7 @@ last_item: "2026-10-02"
 
 Items per quarter, oldest first:
 
-- 2026-Q1: *** 3
+- 2026-Q1: ******** 8
 - 2026-Q2: ************* 13
 - 2026-Q3: ************* 13
 - 2026-Q4: * 1

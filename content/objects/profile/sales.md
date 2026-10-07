@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1bc0c6c12b73bafedf409d6fd4bfa48fe384362fcb6f84650c4341673c0ba56b
+  input_hash: 2b74f5c655cb730e9a17d63049044ff43eca22ac6279c9b5f94c85945e6896bd
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/CRM/RoleCenters/Sales.Profile.al

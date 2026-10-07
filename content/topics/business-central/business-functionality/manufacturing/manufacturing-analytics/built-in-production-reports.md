@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 603ca2040ca578adbf361dfe9d0e6dc98d82325bd72d52c379334ead451de2f7
@@ -153,9 +153,7 @@ links:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
   localizations: []
   videos:
-    - video/6NuJOL8DEqA
     - video/9X-IWRkI2GM
-    - video/GEuUFcgFZF0
     - video/JT4ownMbotw
     - video/VoiUhPb6HQ0
   posts: []
@@ -171,7 +169,7 @@ children: []
 coverage:
   learn: 16
   code: 0
-  video: 5
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -228,9 +226,7 @@ Path: [Business functionality](../../../business-functionality.md) > [Manufactur
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../../videos/6NuJOL8DEqA.md) (video): "Work Center Load Report; Expected Capacity Need Report; Finished Production Order Breakdown Report"
 - [What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)](../../../../../videos/9X-IWRkI2GM.md) (video): "Production Order VIP Report; Production Cost Shares Report; Work/Machine Center Load Report"
-- [Manufacturing Foundations BOM (2026)](../../../../../videos/GEuUFcgFZF0.md) (video): "Production order creation from BOM; Production order components action"
 - [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../../videos/JT4ownMbotw.md) (video): "Manufacturing reports with modernized layouts; Manufacturing analytics landing page"
 - [Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences](../../../../../videos/VoiUhPb6HQ0.md) (video): "Manufacturing reporting changes in BC 2025 Wave 2; Production Order Work in Progress report"
 

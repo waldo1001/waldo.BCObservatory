@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 81e568c6752970a548fb314f1132ae42f025751c213e3c12334733c1c46f1707
@@ -146,7 +146,6 @@ links:
   localizations: []
   videos:
     - video/8KMcu4B_eTk
-    - video/vnaySMIKnp8
   posts:
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549
   guidelines: []
@@ -160,7 +159,7 @@ children: []
 coverage:
   learn: 15
   code: 0
-  video: 2
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -240,7 +239,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549.md) (community post): "Copy Location feature allows users to duplicate existing warehouse configurations"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates"
-- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../../videos/vnaySMIKnp8.md) (video): "Warehouse Putaway for Production Output; Automatic Putaway Document Generation"
 
 ## Business Central pages and reports
 

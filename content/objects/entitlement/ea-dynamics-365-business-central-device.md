@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7530cdfc804324b4237e0851701b4bc0b5c415ceff6bf487b3355335a934b5e4
+  input_hash: 5a540892e076da0001155641a95e86a48f84a503b5352c878271d81bb6e6559e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralDevice.Entitlement.al

@@ -47,6 +47,42 @@
         }
       ]
     },
+    "post/aardvarklabs-blog/2936": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/2936",
+      "hash": "3687190ea341b724fa43d2eea3354bce67a42f698c3f046c55bce344b9863456",
+      "title": "Integrating Analysis Views in Business Central Extensions",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
+          "quote": "include them in page or page extension AL code"
+        },
+        {
+          "topic": "topic/dev-itpro/development/data-analytics-and-reporting",
+          "quote": "package and deploy Analysis Views in extensions"
+        }
+      ]
+    },
+    "post/aardvarklabs-blog/3032": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/3032",
+      "hash": "98d6ed1d6f9c8ba7e57632fd8d42f595709b2f08317803988dca70df0642f513",
+      "title": "Using AI to Simplify Complex Documentation and Design Tasks",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "using Microsoft 365 Copilot with Notebooks to parse supplier requirements"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "map them to Business Central AL development tasks"
+        }
+      ]
+    },
     "post/aardvarklabs-blog/3060": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3060",
@@ -61,6 +97,20 @@
         }
       ]
     },
+    "post/aardvarklabs-blog/3081": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/3081",
+      "hash": "5e06b4f24bfcde2c71bb559e5d815301f3ef218fe59bfd540e1e6d65e186a6b6",
+      "title": "How Copilot and AI Inspired My Card Game Design",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Copilot can assist in creative learning, from initial concept through final game production"
+        }
+      ]
+    },
     "post/aardvarklabs-blog/3097": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3097",
@@ -72,6 +122,38 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
+        }
+      ]
+    },
+    "post/aardvarklabs-blog/3118": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/3118",
+      "hash": "b4699111de0ead97df758b01fc47f851b1a62c48f515b7064897bfcbc82e37af",
+      "title": "Leveraging RecordRef and FieldRef for Dynamic Coding",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+          "quote": "use weakly typed RecordRef and FieldRef objects in Business Central AL"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data",
+          "quote": "demonstrates practical use cases like summing amounts across different table types"
+        }
+      ]
+    },
+    "post/aardvarklabs-blog/3120": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/3120",
+      "hash": "6e0ebd7a411f33852df0baf09c134efdd354024dddbc94a9c08d79cfd366c601",
+      "title": "Understanding Dimension Set Id in AL for Business Central",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-07T01:11:37.258Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
+          "quote": "Dimension Set ID deduplicates dimension combinations to reduce data storage"
         }
       ]
     },
@@ -443,6 +525,98 @@
         }
       ]
     },
+    "post/bertverbeek-nl/1219": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1219",
+      "hash": "ed475bb933c46f162466c2d71d1780c0c15e10920c2d1089cbcf37a7afe2bdea",
+      "title": "Agents in Business Central – part 1 – the architecture",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Custom agents require enabling the feature, assigning AGENT-ADMIN permissions"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1237": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1237",
+      "hash": "3f159fc50062acabd48eab609c4432cadcb369adaa417d93e62b04a50098aff5",
+      "title": "Agents in Business Central – part 2 – the prompt",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Building effective agents in Business Central requires well-structured prompts"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1252": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1252",
+      "hash": "eaad122e5a0fba3ef4c4b793a419d70300155e0babfbcc99686626166dde57b5",
+      "title": "Agents in Business Central – part 3 – limiting the agent",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+          "quote": "Agents run as dedicated users and must be secured like any other user"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1263": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1263",
+      "hash": "88b12ede0d4b13a11187f705aa9cd3db7ca51ce082143e9fb2e47e7fc2a7b8b9",
+      "title": "Agents in Business Central – part 4 – troubleshooting",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting",
+          "quote": "how to troubleshoot Business Central agents when they don't behave as expected"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1272": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1272",
+      "hash": "7b07cd2e0f0761776a51195135cdbfc821e7a62af3bb8cab2007e232acdb6de1",
+      "title": "Agents in Business Central – part 5 – Creating agent from code",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:31.108Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "how to create, configure, and register agents programmatically in Business Central using AL code"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1290": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1290",
+      "hash": "2978ed1993d68675a7a41868446a4db4e3970348be6d42261334bc374fd0b4c0",
+      "title": "Agents in Business Central – part 6 – The conclusion",
+      "source": "bertverbeek-nl",
+      "at": "2026-10-07T01:11:32.320Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
+          "quote": "Copilot Studio provides chat options, many Power Platform connectors, model selection"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "BC agents offer familiar ALM, easy multi-customer deployment via AppSource"
+        }
+      ]
+    },
     "post/bertverbeek-nl/1318": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1318",
@@ -458,6 +632,43 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
           "quote": "Sync operates directly from the SQL database using change logs"
+        }
+      ]
+    },
+    "post/demiliani-com/13391": {
+      "kind": "post",
+      "key": "post/demiliani-com/13391",
+      "hash": "6a5305f0da91ab4360f98fc74afab65d1069d19c5fbae2355b6e5c2efeeeee11",
+      "title": "Dynamics 365 Business Central: BCMCPProxy vNext",
+      "source": "demiliani-com",
+      "at": "2026-10-07T01:11:39.684Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "bridges Model Context Protocol clients with Business Central's API"
+        }
+      ]
+    },
+    "post/demiliani-com/13442": {
+      "kind": "post",
+      "key": "post/demiliani-com/13442",
+      "hash": "a37e69ebf70e4523320143a147095e182f17b2d4dc2e03dc6b7c2d67ade9a8c7",
+      "title": "Dynamics 365 Business Central: download symbols from Microsoft’s public NuGet source.",
+      "source": "demiliani-com",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": []
+    },
+    "post/demiliani-com/13470": {
+      "kind": "post",
+      "key": "post/demiliani-com/13470",
+      "hash": "70e1de1914d0571189fd5b664b787ba6c31d1bf69a89a8f0acd9d7cd3263b656",
+      "title": "Creating MCP servers for Dynamics 365 Business Central with Azure Logic Apps.",
+      "source": "demiliani-com",
+      "at": "2026-10-07T01:11:39.684Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "create AI-powered agent tools for Dynamics 365 Business Central through low-code workflows"
         }
       ]
     },
@@ -926,6 +1137,60 @@
         }
       ]
     },
+    "post/duiliotacconi-com/1850": {
+      "kind": "post",
+      "key": "post/duiliotacconi-com/1850",
+      "hash": "cca4c417e978c93cc2d1b572207cc98f7188daed38675d75254274395a3e5b60",
+      "title": "Rec.Truncate in AL",
+      "source": "duiliotacconi-com",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks/statements",
+          "quote": "Rec.Truncate is a new AL statement that rapidly deletes all records"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "It works best when deleting 50-60% or more of a table's content"
+        }
+      ]
+    },
+    "post/duiliotacconi-com/1894": {
+      "kind": "post",
+      "key": "post/duiliotacconi-com/1894",
+      "hash": "6bc77cfb12e002d47a3f4cade63d1980466acb9d4ffd3f7d91d51d258da90c26",
+      "title": "FlowFields with same filters and table in a single OUTER APPLY",
+      "source": "duiliotacconi-com",
+      "at": "2026-10-07T01:11:38.923Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters",
+          "quote": "FlowFields with identical table filters into a single OUTER APPLY"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "reducing SQL queries and improving query performance"
+        }
+      ]
+    },
+    "post/duiliotacconi-com/1925": {
+      "kind": "post",
+      "key": "post/duiliotacconi-com/1925",
+      "hash": "da7c831525a93b2d1db89b201225248340d772643b1a7687e612acda73c1fad5",
+      "title": "Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost",
+      "source": "duiliotacconi-com",
+      "at": "2026-10-07T01:11:38.923Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
+          "quote": "Wait Statistics in Dynamics 365 Business Central Online provides telemetry data"
+        },
+        {
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "AI can analyze exported wait statistics telemetry to provide performance insights"
+        }
+      ]
+    },
     "post/duiliotacconi-com/1983": {
       "kind": "post",
       "key": "post/duiliotacconi-com/1983",
@@ -1391,6 +1656,37 @@
         }
       ]
     },
+    "post/gerardorenteria-blog/13623": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/13623",
+      "hash": "d1f4f96f84f0a336575e7802f2ae1653dd1829b4ad8b1ac211856cbbe84c37f4",
+      "title": "🔧BC Launch Profile: VS Code Extension for Managing Business Central Environments 🔄",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:32.985Z",
+      "matches": []
+    },
+    "post/gerardorenteria-blog/13675": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/13675",
+      "hash": "03396f519bdd7642f84de98fc5fc9529a3cee90cdff3276009a292afe3053375",
+      "title": "📝 Adding Notes to Financial Report Lines 📊",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:41.449Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/financial-reporting",
+          "quote": "AL extension adds line-level notes to financial reports (Account Schedules)"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Notes appear in the definition page, matrix overview, printed reports"
+        },
+        {
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-excel",
+          "quote": "Excel export includes a bold Notes column with all line notes"
+        }
+      ]
+    },
     "post/gerardorenteria-blog/13744": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/13744",
@@ -1402,6 +1698,70 @@
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
           "quote": "Cumulative updates for Business Central replace previous releases and fix vulnerabilities"
+        }
+      ]
+    },
+    "post/gerardorenteria-blog/13945": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/13945",
+      "hash": "365fea57b8055275c9c65330e44eb72e81e9462b8df97fa2a897dcbc56f4c395",
+      "title": "⚙️ GitHub Copilot: Workspace-Level Control Over AI Context 🔄",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "GitHub Copilot allows developers to organize and control AI context"
+        }
+      ]
+    },
+    "post/gerardorenteria-blog/13993": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/13993",
+      "hash": "3bbace9ecc0b4c2f4bbf7c53e1ae0be8049f710b719df7f0ca72ceac51f78cdb",
+      "title": "🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Agent Skills are reusable instruction packages in VS Code that orchestrate external tools"
+        }
+      ]
+    },
+    "post/gerardorenteria-blog/14079": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/14079",
+      "hash": "2e8812100d4fcd2929e2981390cd56990de701db0e80e470f292dc5f3d34aec6",
+      "title": "AL Language extension for Microsoft Dynamics 365 Business Central – versions",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "AL Language extension changelog documenting features added across versions"
+        }
+      ]
+    },
+    "post/gerardorenteria-blog/14103": {
+      "kind": "post",
+      "key": "post/gerardorenteria-blog/14103",
+      "hash": "a6bb3f32fe04990c80074260139d0d2f598a796318bd8495882a0860a077b6bf",
+      "title": "New Application Ideas of Dynamics 365 Business Central (2026 FEB)",
+      "source": "gerardorenteria-blog",
+      "at": "2026-10-07T01:11:32.320Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Copilot and agent enhancements include sales to purchase traceability, improved performance, extensibility"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "Financial management ideas include VAT validation updates, flexible subscription billing"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/automation-api/extension",
+          "quote": "Development feature requests focus on multiselect functionality, report extensions, Shopify connector improvements"
         }
       ]
     },
@@ -1693,6 +2053,20 @@
         }
       ]
     },
+    "post/katson-com/4727": {
+      "kind": "post",
+      "key": "post/katson-com/4727",
+      "hash": "fa198c47914c1e6cb469090d13ab17e8b2e84f51e8788eb52011acdfb0ea5cf9",
+      "title": "Spread the Fire. Don’t Keep It to Yourself.",
+      "source": "katson-com",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "agentic coding techniques, and development tools ultimately builds reputation"
+        }
+      ]
+    },
     "post/katson-com/4756": {
       "kind": "post",
       "key": "post/katson-com/4756",
@@ -1752,6 +2126,20 @@
         }
       ]
     },
+    "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-01/": {
+      "kind": "post",
+      "key": "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-01/",
+      "hash": "d01347c1a61f83c57379891c28485f4cac00fb14e283e3e2f813a14bcb5de9d9",
+      "title": "Business Central Development Serie - Part 1: Introduction",
+      "source": "kine-cz",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "quote": "importance of architecture, best practices, and long-term maintenance for Business Central"
+        }
+      ]
+    },
     "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/": {
       "kind": "post",
       "key": "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/",
@@ -1767,6 +2155,20 @@
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
           "quote": "AI produces plausible code that passes basic checks but creates performance problems invisible until specific data conditions"
+        }
+      ]
+    },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090",
+      "hash": "4ddca877bc17fc4567f3eb7ae2855cb32e38ad2afb948854f71c641ff01ba82c",
+      "title": "Why API Templates Don't Work on Business Central Custom API Pages",
+      "source": "mohana-blog",
+      "at": "2026-10-07T01:11:39.684Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "API templates in Business Central only work with specific standard API pages"
         }
       ]
     },
@@ -1977,6 +2379,24 @@
         }
       ]
     },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190",
+      "hash": "ecdc8975fe5473d755ef125897a64bc97d4ebb07be49eded9707525b4715aefe",
+      "title": "Create Purchase Quotes for Contacts in Business Central",
+      "source": "mohana-blog",
+      "at": "2026-10-07T01:11:40.282Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Creating purchase quotes in Business Central now allows selecting contacts"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
+          "quote": "A vendor template is automatically selected based on territory"
+        }
+      ]
+    },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772",
@@ -1988,6 +2408,28 @@
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
           "quote": "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
+        }
+      ]
+    },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001",
+      "hash": "0da0effb87d47df71043d43fffbd4a3cd1d793981b1c4189e4ca9019e05bf83f",
+      "title": "Create Purchase Orders from Drop Shipments",
+      "source": "mohana-blog",
+      "at": "2026-10-07T01:11:40.282Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/planning",
+          "quote": "Drop shipment lines are now visible and included in order planning calculations"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Create Purchase Orders action on sales orders eliminates the need to manually"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "streamlines drop shipment workflows by adding a Create Purchase Orders action on sales orders"
         }
       ]
     },
@@ -2005,6 +2447,20 @@
         }
       ]
     },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683",
+      "hash": "726f9ed39163692d9eba7e5fbc542f6e525de8ef1a4e6a206cb3b8af5a08d51a",
+      "title": "Define Item Attributes for Item Variants",
+      "source": "mohana-blog",
+      "at": "2026-10-07T01:11:40.142Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-inventory",
+          "quote": "Define Item Attributes for Item Variants. Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level"
+        }
+      ]
+    },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8684128894807176700": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8684128894807176700",
@@ -2013,6 +2469,24 @@
       "source": "mohana-blog",
       "at": "2026-10-07T00:21:03.863Z",
       "matches": []
+    },
+    "post/olofsimren-com/3653": {
+      "kind": "post",
+      "key": "post/olofsimren-com/3653",
+      "hash": "71ec171d044ee6aaeaa5d434d6846157b078f900f7bb9a29867cae76ee56c75c",
+      "title": "Business Central Configuration Audit using Vibe Coding",
+      "source": "olofsimren-com",
+      "at": "2026-10-07T01:11:43.373Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/working-with-apps",
+          "quote": "Vibe coding (AI-assisted development) enabled writing 5400 lines of validation logic"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "The extension checks for 200+ configuration issues including circular BOM references"
+        }
+      ]
     },
     "post/olofsimren-com/3696": {
       "kind": "post",
@@ -2471,6 +2945,24 @@
       "at": "2026-10-07T00:19:57.882Z",
       "matches": []
     },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/",
+      "hash": "7eee24df241baf64e5000cad7bc84e5b90b90c409ba3141cb0ce5653743bd9ea",
+      "title": "If You Can't Make It Fast, Make It Feel Fast",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:38.923Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
+          "quote": "moving blocking work to the background instead of waiting for user input"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "User perception matters as much as actual performance"
+        }
+      ]
+    },
     "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
@@ -2522,6 +3014,38 @@
         }
       ]
     },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/",
+      "hash": "7bdb4531a019d4aacfe57ec05c2248a5fe87a7a88846032b43acf82a3a1a52a8",
+      "title": "Building a Plug & Play Claude Code Dev Container for AL Development",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:31.567Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started",
+          "quote": "reusable dev container that runs Claude Code with AL development tools"
+        }
+      ]
+    },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/",
+      "hash": "7d9b0ecf90e8918a2f85cabc3679d657fe43e8707e93b95af3b0a3b222dfce37",
+      "title": "Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": []
+    },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/",
+      "hash": "7f7bbbfc9756e75e30dc1a48e9c32bb095cf5b96a72aa56da4740301e0404db2",
+      "title": "Introducing ALCops — LinterCop's Next Chapter",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": []
+    },
     "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
@@ -2536,6 +3060,20 @@
         }
       ]
     },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
+      "hash": "21c1881e420bb7c1b5608429fdc0cf973c754b68c89c4f623a2fffbdfa7d9db0",
+      "title": "Optimizing BC Code History Downloads with HTTP Range Requests",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline"
+        }
+      ]
+    },
     "post/stefanmaron-com/https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/",
@@ -2544,6 +3082,20 @@
       "source": "stefanmaron-com",
       "at": "2026-10-07T00:19:54.545Z",
       "matches": []
+    },
+    "post/stefanmaron-com/https://stefanmaron.com/posts/turning-streams-into-blog-posts/": {
+      "kind": "post",
+      "key": "post/stefanmaron-com/https://stefanmaron.com/posts/turning-streams-into-blog-posts/",
+      "hash": "29f9a3250a40f916cee00a32d9f9a52df8b12c9ebfe9f2f25b232b8a6c81a047",
+      "title": "Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)",
+      "source": "stefanmaron-com",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Claude Code skill to automatically convert YouTube live streams into blog posts"
+        }
+      ]
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/": {
       "kind": "post",
@@ -2610,6 +3162,29 @@
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
           "quote": "AL Runner's changelog generator now handles scoped commit prefixes"
+        }
+      ]
+    },
+    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/": {
+      "kind": "post",
+      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/",
+      "hash": "1f03eccab100bd3dbe308c2efe59c51d3bc164224d070e14b8a3a61d4f49b50b",
+      "title": "BC Friday Tips #65 Freeze Column Property",
+      "source": "thatnavguy-com",
+      "at": "2026-10-07T01:11:38.923Z",
+      "matches": []
+    },
+    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/": {
+      "kind": "post",
+      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/",
+      "hash": "5c0d2b80f79eb54d3c209274752af82875145ed7f7ffbc5c49aa8e3258fff4bb",
+      "title": "BC Friday Tips #66 API v2 app",
+      "source": "thatnavguy-com",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "The Exclude_APIV2 app contains standard API V2 objects that Microsoft uses internally"
         }
       ]
     },
@@ -2922,6 +3497,38 @@
       "at": "2026-10-07T00:19:58.536Z",
       "matches": []
     },
+    "post/thedynamicsexplorer-com/37042": {
+      "kind": "post",
+      "key": "post/thedynamicsexplorer-com/37042",
+      "hash": "62f6b42c9d588f3795f782d05ee4fca4b8fa1ed123b7010882928145082cb548",
+      "title": "Dynamics 365 Business Central – Why when I create new users do they get full access by default",
+      "source": "thedynamicsexplorer-com",
+      "at": "2026-10-07T01:11:43.373Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+          "quote": "Administrators can remove permission sets like D365 BUS FULL ACCESS to restrict default access"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses",
+          "quote": "New users inherit default permissions based on their license type and security group assignments"
+        }
+      ]
+    },
+    "post/thedynamicsexplorer-com/37144": {
+      "kind": "post",
+      "key": "post/thedynamicsexplorer-com/37144",
+      "hash": "e43334da6356f3ecc89e1202480e0ea527d474846c2e3ba468b62eb12365fa87",
+      "title": "Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals",
+      "source": "thedynamicsexplorer-com",
+      "at": "2026-10-07T01:11:37.258Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "Recurring journals retain lines after posting with updated posting dates"
+        }
+      ]
+    },
     "post/thedynamicsexplorer-com/37202": {
       "kind": "post",
       "key": "post/thedynamicsexplorer-com/37202",
@@ -2969,6 +3576,47 @@
         {
           "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
           "quote": "existing inventory is not revalued. Understanding these considerations is essential"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/7582": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/7582",
+      "hash": "89508beba3dc99ee58829343b002e1ce6683278fca1f5f83b0b7d5bf34881c11",
+      "title": "Earning the MVP Title, One Year at a Time",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-07T01:11:44.962Z",
+      "matches": []
+    },
+    "post/thinkaboutit-be/7609": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/7609",
+      "hash": "cf5fa35fc0a9c8fe6dc2251b17982ab40af7764a0897a46db511a7d9500191ee",
+      "title": "Introducing AL Table Visualizer: An Interactive ER Diagram for Your Business Central Tables",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-07T01:11:32.110Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "quote": "Reads local .al files and compiled .app symbol packages to extract TableRelation definitions"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/7635": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/7635",
+      "hash": "34fe7f7075645769aa25510980eb98e7cffbcb0aa8459e57026c1ed9d0a65530",
+      "title": "Business Central Analytics: The Technology Is Not the Hard Part",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-07T01:11:41.449Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Business Central supports analytics through standard Power BI apps"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo",
+          "quote": "analytics tools like Power BI, Data Analysis mode, and APIs enable dashboards"
         }
       ]
     },
@@ -3532,6 +4180,28 @@
       "at": "2026-10-07T00:20:51.942Z",
       "matches": []
     },
+    "post/vondervoort-be/130": {
+      "kind": "post",
+      "key": "post/vondervoort-be/130",
+      "hash": "80f191b9b56f9b87ff4d9398abbb0c80b4518599fe1932b90d9e43bb607bb7cc",
+      "title": "ALCops: The Next Chapter of LinterCop",
+      "source": "vondervoort-be",
+      "at": "2026-10-07T01:11:32.175Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "code analyzer collection for AL that succeeds LinterCop"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "provides VS Code extension and AL-Go support for daily AL development"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "AI agent integration (Claude Code, GitHub Copilot), and potential MCP integration"
+        }
+      ]
+    },
     "post/vondervoort-be/147": {
       "kind": "post",
       "key": "post/vondervoort-be/147",
@@ -3547,6 +4217,24 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "ALCops now integrates with AI assistants like Claude, Codex, and Cursor via an MCP server"
+        }
+      ]
+    },
+    "post/vondervoort-be/84": {
+      "kind": "post",
+      "key": "post/vondervoort-be/84",
+      "hash": "4455fc1f995ec710a254f24d54d30804f825473f248078a7fc9d8e5a494e66fa",
+      "title": "Dutch Dynamics Community Event 10 February 2026",
+      "source": "vondervoort-be",
+      "at": "2026-10-07T01:11:32.320Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Creating AI agents in Business Central version 27.4 allows developers to build agents"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Effective prompts and instruction files significantly improve AI code assistance and make Copilot"
         }
       ]
     },

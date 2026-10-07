@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4d228a788ff12d7986d3c25346a454358022fbeece15ece8a0294652e60f3915
+  input_hash: 5a807fdf77181c9c3df5c0aa851d689c0fcd736e71f66b5aa72a5dccd7b958b6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20SMTP%20API/app/src/ISMTPClient.Interface.al

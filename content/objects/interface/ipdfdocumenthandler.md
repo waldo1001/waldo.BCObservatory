@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4b575877abb6521e55746c5c5ab53f515d291155f191e4d326c9cb9363685178
+  input_hash: 54f878a537d7f16629203857870d4d0a8301bf9c1ab8510e95f6df288b3f0917
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al

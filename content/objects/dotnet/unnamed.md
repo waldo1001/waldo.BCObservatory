@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 93b9133642365aebb9eab3261bf99fb2595a3ccebbb05e8ef9e2bdf477f0d896
+  input_hash: 3fc58accbba8294b87f34d0be3413627bcd9c690c3060a12fe3ca2c7a0562ccd
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Modules/System/DotNetAliases/dotnet.al

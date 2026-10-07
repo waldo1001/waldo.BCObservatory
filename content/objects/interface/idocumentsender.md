@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 80f7afaf6c80780906eff6249bf9e41ba4481248e31b66863cc3044240246309
+  input_hash: 86993315b4d27fba94e0a3ec854d3f8bfd57725410fc106d4698361859233f57
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentSender.Interface.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f8610caf7d7af1c121d5f3d6c7ca74949b762bac21ef9196351446723e566ee4
+  input_hash: 4c97e330bcec5ccbac4da760159885f325920f5f93d4f78a4c77838247d20357
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseInvoice.Interface.al

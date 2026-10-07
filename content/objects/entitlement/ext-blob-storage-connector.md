@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 754a87326ceeb3a5364e7b8e8e6b68d3747aa4ee086f1070d121cf23722c614a
+  input_hash: 929ab86d31423441ff789784000c1c61150d8c7f3bc9a198d69412ebaf2faffc
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al

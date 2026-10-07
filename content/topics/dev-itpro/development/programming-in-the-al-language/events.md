@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
@@ -115,9 +115,6 @@ links:
   videos:
     - video/P-7dYVfB73E
   posts:
-    - post/aardvarklabs-blog/3704
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/
-    - post/gerardorenteria-blog/15143
     - post/waldo-be/317951
     - post/waldo-be/318335
   guidelines: []
@@ -132,7 +129,7 @@ coverage:
   learn: 11
   code: 0
   video: 1
-  blog: 5
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
@@ -163,9 +160,6 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "subscribes to the OnAfterPostSalesDoc event, generates the invoice"
-- [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/.md) (community post): "handler lens that shows test usage counts for handler functions"
-- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "Hook into OnAfterGetRecDefaultDimIDProcedure to extend"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "Business Central v26 removed invocation of 82 obsoleted events from the legacy invoice posting system"
 - [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "Event Recorder captures events in order of execution with event type classification"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Events; extensibility; componentization; code customization; extensions; cloud migration; event telemetry"

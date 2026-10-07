@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 83a5585f7a09966b98dfea344500311c46c438fe88b74fca4fe1157a96b0ca66
+  input_hash: 10113597371bce4095a200bc32c369d21d690242637247f0d3f1379952c5ed56
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al

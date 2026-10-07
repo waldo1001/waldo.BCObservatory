@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a567ae6079e607bda8638ac0c1293bbd9f6d987f0705591fa3f30e35dc065f5
@@ -72,11 +72,8 @@ links:
   topics:
     - topic/business-central/business-functionality/general-business-functionality/workflows
   localizations: []
-  videos:
-    - video/qZALauRY_So
-    - video/sqjb_gsXqM8
+  videos: []
   posts:
-    - post/olofsimren-com/3696
     - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
@@ -90,8 +87,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 2
-  blog: 2
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 654
@@ -126,10 +123,7 @@ Path: [Business functionality](../../../business-functionality.md) > [General bu
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Quality Management in Business Central Version 28](../../../../../posts/olofsimren-com/3696.md) (community post): "workflows can move rejected items to quarantine locations or trigger notifications"
 - [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "Approval workflows now lock planning worksheet batches and prevent line modifications"
-- [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../../videos/qZALauRY_So.md) (video): "approvals; workflow; notification; Approval Notifications via Email and Copilot Chat"
-- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../../../videos/sqjb_gsXqM8.md) (video): "Approval Workflows for Item Journals and Requisition Worksheets"
 
 ## Business Central pages and reports
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4c0eb15d289169bc1d4fcba7449a352962e97da9261c68889d10d66c1ee33a5f
+  input_hash: 9b885d0946b78ad5ef42babc84e4137e7057bd91dd94174abd13d1a0d860f2ac
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Feature%20Key/src/FeatureManagement.Interface.al

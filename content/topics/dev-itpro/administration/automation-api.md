@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -323,10 +323,8 @@ links:
     - topic/dev-itpro/administration/automation-api/user-group-member
     - topic/dev-itpro/administration/automation-api/user-permission
   localizations: []
-  videos:
-    - video/zei-IszvYNU
-  posts:
-    - post/aardvarklabs-blog/3998
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -354,8 +352,8 @@ children:
 coverage:
   learn: 55
   code: 0
-  video: 1
-  blog: 1
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -392,12 +390,5 @@ Path: [Administration](../administration.md) > Automation API Â· tier official Â
 
 - [apicategoryroutes resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_apicategoryroutes): An apicategoryroutes object in Dynamics 365 Business Central.
 - [Introduction to automation APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis): Learn how automation APIs create companies, apply configuration packages, manage extensions, assign permissions, and inspect security settings.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Mastering Business Central API for App Management](../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API"
-- [MCP Server and All Microsoft API's (2026 release wave 1)](../../../videos/zei-IszvYNU.md) (video): "All Microsoft published APIs available in MCP server; Add tools by API group"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

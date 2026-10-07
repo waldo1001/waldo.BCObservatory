@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1015abc79104b2bdcf5cf1fc038111bd0501af9de827bdab77c7094a389b4376
+  input_hash: db7a5ca1a2d0ba4871def0cb37bf208e460c470ae8e04b26d204a609953b90b8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al

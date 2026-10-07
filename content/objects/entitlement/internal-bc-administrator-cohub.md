@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cb72d177f9ee2508f93bd6ab56379fe135354c34fa40709d2ffe7fccd6bddbbd
+  input_hash: c0ecd2c85bbd60972405b68be616c0ba4f084aa60b0091ec190e009d674dbc52
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/InternalBCAdministratorCOHUB.Entitlement.al

@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -100,7 +100,7 @@ Adds upgrade plumbing: Upgrade - Local App and Local Upgrade Tag Definitions, wh
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/104150 "Upgrade - Local App" (own), codeunit/11790 "Local Upgrade Tag Definitions" (own).
+Objects: [codeunit/104150 "Upgrade - Local App"](../objects/codeunit/104150-cz.md) (own), [codeunit/11790 "Local Upgrade Tag Definitions"](../objects/codeunit/11790-cz.md) (own).
 
 [All 2 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -179,10 +179,10 @@ Objects: [codeunit/104051 "Update VAT Date Field"](../objects/codeunit/104051.md
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+2 objects only this country has.
 
-- codeunit/11790 "Local Upgrade Tag Definitions"
-- codeunit/104150 "Upgrade - Local App"
+- [codeunit/11790 "Local Upgrade Tag Definitions"](../objects/codeunit/11790-cz.md)
+- [codeunit/104150 "Upgrade - Local App"](../objects/codeunit/104150-cz.md)
 
 ## Other versions
 

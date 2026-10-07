@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6aaacc06b94f39c816be8794110f03bb333ad2e63c7cbe2de327a347a73d95a2
+  input_hash: 7b9d7c10334284ac9ca547dbbf86cebeea11ccd0b6437380d6fede50b64668cf
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOAuthClientv2.Interface.al

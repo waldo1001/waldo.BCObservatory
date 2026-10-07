@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2d7497982497d5fbbebe5153ba8fec411bca811530b879d531d3c4ccc5b6a59f
+  input_hash: 5a0c9b8190ce75c9e294a744ea34261c647f8af56fccae74e60df6cdbbc144a6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/entitlements/AzureADApplicationAutomationEmailLogging.Entitlement.al

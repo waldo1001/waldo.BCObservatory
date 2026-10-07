@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 059de4a5a07b7fb9ecf5db6c62e0fde637536d5a32547994b3a9c68747046252
@@ -318,8 +318,7 @@ links:
   videos:
     - video/S5Xw-b8YF-c
     - video/sk5CaXnvvng
-  posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -336,7 +335,7 @@ coverage:
   learn: 294
   code: 0
   video: 2
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 812
@@ -371,7 +370,6 @@ Path: [Integration](../integration.md) > Web services · tier official · system
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236.md) (community post): "building integration and data exchange solutions"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document from External Sources"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Web services; odata; http status codes; error handling"
 

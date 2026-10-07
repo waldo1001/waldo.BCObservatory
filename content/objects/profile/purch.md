@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0a079266137b7f255da2f7f323168599ae52f1fcd106254568e7506353f9aedb
+  input_hash: e48177b40dbe1de92fcb6142fee262a6758dca836f50128b99ed2565ec15658e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al

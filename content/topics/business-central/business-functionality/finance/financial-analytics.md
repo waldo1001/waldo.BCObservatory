@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e9d87c5c7bc5c5d2c15f618694b5c366328cca38971729abf17d5e323363617
@@ -313,7 +313,6 @@ links:
   localizations: []
   videos:
     - video/fxrVyBD8UoU
-    - video/HI7VcPzR2OE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -330,7 +329,7 @@ children:
 coverage:
   learn: 129
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -544,7 +543,6 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
-- [What's New: Financial Management - Overview (2024 release wave 1)](../../../../videos/HI7VcPzR2OE.md) (video): "GL Revaluation and Currency Code on GL Entries; Excel Reports for Financial Data; Consolidation"
 
 ## Business Central pages and reports
 

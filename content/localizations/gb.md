@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -156,7 +156,7 @@ Adds the GovTalk and Making Tax Digital framework (setup, message, MTD liability
 
 Why: Learn explains that MTD requires VAT returns and fraud prevention headers to be exchanged with HMRC, and that VAT audit reports export data as CSV.
 
-Objects: codeunit/10522 "Submit VAT Declaration Request" (own), codeunit/10524 "Create VAT Declaration Request" (own), table/10523 "GovTalk Setup" (own), table/10533 "MTD-Liability" (own), [report/130 "EC Sales List"](../objects/report/130.md), [table/747 "VAT Report Archive"](../objects/table/747.md), report/10512 "VAT Audit" (own), report/10529 "Reverse Charge Sales List" (own).
+Objects: [codeunit/10522 "Submit VAT Declaration Request"](../objects/codeunit/10522-gb.md) (own), [codeunit/10524 "Create VAT Declaration Request"](../objects/codeunit/10524-gb.md) (own), [table/10523 "GovTalk Setup"](../objects/table/10523-gb.md) (own), [table/10533 "MTD-Liability"](../objects/table/10533-gb.md) (own), [report/130 "EC Sales List"](../objects/report/130.md), [table/747 "VAT Report Archive"](../objects/table/747.md), [report/10512 "VAT Audit"](../objects/report/10512-gb.md) (own), [report/10529 "Reverse Charge Sales List"](../objects/report/10529-gb.md) (own).
 
 [All 37 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -166,7 +166,7 @@ Adds reverse charge fields on sales lines and posted lines, setup fields in Sale
 
 Why: Learn describes reverse charge VAT as a measure against carousel fraud on certain electronic goods.
 
-Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), report/10572 "Sales - Invoice GB" (own), report/10573 "Sales - Credit Memo GB" (own), report/10570 "Sales - Quote GB" (own), report/10571 "Order Confirmation GB" (own), table/10555 "Fin. Charge Interest Rate" (own).
+Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [report/10572 "Sales - Invoice GB"](../objects/report/10572-gb.md) (own), [report/10573 "Sales - Credit Memo GB"](../objects/report/10573-gb.md) (own), [report/10570 "Sales - Quote GB"](../objects/report/10570-gb.md) (own), [report/10571 "Order Confirmation GB"](../objects/report/10571-gb.md) (own), [table/10555 "Fin. Charge Interest Rate"](../objects/table/10555-gb.md) (own).
 
 [All 16 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -176,7 +176,7 @@ Adds reverse charge fields on purchase lines and setup, an Invoice Receipt Date 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/23 "Vendor"](../objects/table/23.md), report/10577 "Purchase - Invoice GB" (own), report/10576 "Order GB" (own), [page/26 "Vendor Card"](../objects/page/26.md).
+Objects: [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/23 "Vendor"](../objects/table/23.md), [report/10577 "Purchase - Invoice GB"](../objects/report/10577-gb.md) (own), [report/10576 "Order GB"](../objects/report/10576-gb.md) (own), [page/26 "Vendor Card"](../objects/page/26.md).
 
 [All 14 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -196,7 +196,7 @@ Adds statutory fields to Company Information (supplementary VAT registration, re
 
 Why: Learn says the statutory information is required by law and the postcode extension uses the Ideal Postcodes API.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [page/1 "Company Information"](../objects/page/1.md), codeunit/10500 "Postcode Business Logic" (own), page/10500 "Postcode Search" (own), page/10501 "Postcode Configuration Page" (own), page/10502 "Postcode Service Lookup" (own), table/10501 "Postcode Notification Memory" (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [page/1 "Company Information"](../objects/page/1.md), [codeunit/10500 "Postcode Business Logic"](../objects/codeunit/10500-gb.md) (own), [page/10500 "Postcode Search"](../objects/page/10500-gb.md) (own), [page/10501 "Postcode Configuration Page"](../objects/page/10501-gb.md) (own), [page/10502 "Postcode Service Lookup"](../objects/page/10502-gb.md) (own), [table/10501 "Postcode Notification Memory"](../objects/table/10501-gb.md) (own).
 
 [All 7 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -206,7 +206,7 @@ Adds BACS ledger entry and register tables, a Check Preview GB page, a Reconcile
 
 Why: Learn states that check printing uses the APACS specification layout.
 
-Objects: page/10510 "Check Preview GB" (own), [report/1401 "Check"](../objects/report/1401.md), table/10550 "BACS Ledger Entry" (own), table/10551 "BACS Register" (own), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md).
+Objects: [page/10510 "Check Preview GB"](../objects/page/10510-gb.md) (own), [report/1401 "Check"](../objects/report/1401.md), [table/10550 "BACS Ledger Entry"](../objects/table/10550-gb.md) (own), [table/10551 "BACS Register"](../objects/table/10551-gb.md) (own), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md).
 
 [All 5 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -216,7 +216,7 @@ Adds the EC Sales List submit codeunit for the UK ECSL flow.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/142 "EC Sales List Submit" (own).
+Objects: [codeunit/142 "EC Sales List Submit"](../objects/codeunit/142-gb.md) (own).
 
 [All 4 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -266,7 +266,7 @@ Adds the FA - Projected Value report.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: report/10560 "FA - Projected Value" (own).
+Objects: [report/10560 "FA - Projected Value"](../objects/report/10560-gb.md) (own).
 
 [All 1 objects of FixedAsset in the diff](?ns=FixedAsset#country-diff)
 
@@ -306,7 +306,7 @@ Adds Local Application Management, a UK-specific utility codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/10529 "Local Application Management" (own).
+Objects: [codeunit/10529 "Local Application Management"](../objects/codeunit/10529-gb.md) (own).
 
 [All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -371,57 +371,57 @@ Objects: codeunit/10529 "Local Application Management" (own).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+49 objects only this country has.
 
-- codeunit/141 "EC Sales List Populate XML"
-- codeunit/142 "EC Sales List Submit"
-- codeunit/1883 "Sandbox Cleanup local"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/10500 "Postcode Business Logic"
-- codeunit/10520 "GovTalkMessageManagement"
-- codeunit/10521 "HMRC GovTalk Message Scheduler"
-- codeunit/10522 "Submit VAT Declaration Request"
-- codeunit/10523 "GovTalk Setup"
-- codeunit/10524 "Create VAT Declaration Request"
-- codeunit/10527 "HMRCSubmissionHelpers"
-- codeunit/10528 "GovTalk VAT Report Validate"
-- codeunit/10529 "Local Application Management"
-- codeunit/104150 "UPG GB"
-- enumextension/10400 "VAT Report Status"
-- page/10500 "Postcode Search"
-- page/10501 "Postcode Configuration Page"
-- page/10502 "Postcode Service Lookup"
-- page/10510 "Check Preview GB"
-- page/10523 "GovTalk Setup"
-- report/10511 "VAT Entry Exception Report"
-- report/10512 "VAT Audit"
-- report/10529 "Reverse Charge Sales List"
-- report/10560 "FA - Projected Value"
-- report/10570 "Sales - Quote GB"
-- report/10571 "Order Confirmation GB"
-- report/10572 "Sales - Invoice GB"
-- report/10573 "Sales - Credit Memo GB"
-- report/10574 "Blanket Sales Order GB"
-- report/10576 "Order GB"
-- report/10577 "Purchase - Invoice GB"
-- report/10578 "Purchase - Credit Memo GB"
-- report/10579 "Blanket Purchase Order GB"
-- table/10501 "Postcode Notification Memory"
-- table/10520 "GovTalkMessage"
-- table/10523 "GovTalk Setup"
-- table/10524 "GovTalk Message Parts"
-- table/10533 "MTD-Liability"
-- table/10534 "MTD-Payment"
-- table/10535 "MTD-Return Details"
-- table/10536 "MTD-Missing Fraud Prev. Hdr"
-- table/10537 "MTD-Default Fraud Prev. Hdr"
-- table/10538 "MTD-Session Fraud Prev. Hdr"
-- table/10550 "BACS Ledger Entry"
-- table/10551 "BACS Register"
-- table/10555 "Fin. Charge Interest Rate"
-- table/10560 "Accounting Period GB"
-- table/10561 "Payment Period Setup"
-- table/10562 "Payment Application Buffer"
+- [codeunit/141 "EC Sales List Populate XML"](../objects/codeunit/141-gb.md)
+- [codeunit/142 "EC Sales List Submit"](../objects/codeunit/142-gb.md)
+- [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-gb.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-gb.md)
+- [codeunit/10500 "Postcode Business Logic"](../objects/codeunit/10500-gb.md)
+- [codeunit/10520 "GovTalkMessageManagement"](../objects/codeunit/10520-gb.md)
+- [codeunit/10521 "HMRC GovTalk Message Scheduler"](../objects/codeunit/10521-gb.md)
+- [codeunit/10522 "Submit VAT Declaration Request"](../objects/codeunit/10522-gb.md)
+- [codeunit/10523 "GovTalk Setup"](../objects/codeunit/10523-gb.md)
+- [codeunit/10524 "Create VAT Declaration Request"](../objects/codeunit/10524-gb.md)
+- [codeunit/10527 "HMRCSubmissionHelpers"](../objects/codeunit/10527-gb.md)
+- [codeunit/10528 "GovTalk VAT Report Validate"](../objects/codeunit/10528-gb.md)
+- [codeunit/10529 "Local Application Management"](../objects/codeunit/10529-gb.md)
+- [codeunit/104150 "UPG GB"](../objects/codeunit/104150-gb.md)
+- [enumextension/10400 "VAT Report Status"](../objects/enumextension/10400-gb.md)
+- [page/10500 "Postcode Search"](../objects/page/10500-gb.md)
+- [page/10501 "Postcode Configuration Page"](../objects/page/10501-gb.md)
+- [page/10502 "Postcode Service Lookup"](../objects/page/10502-gb.md)
+- [page/10510 "Check Preview GB"](../objects/page/10510-gb.md)
+- [page/10523 "GovTalk Setup"](../objects/page/10523-gb.md)
+- [report/10511 "VAT Entry Exception Report"](../objects/report/10511-gb.md)
+- [report/10512 "VAT Audit"](../objects/report/10512-gb.md)
+- [report/10529 "Reverse Charge Sales List"](../objects/report/10529-gb.md)
+- [report/10560 "FA - Projected Value"](../objects/report/10560-gb.md)
+- [report/10570 "Sales - Quote GB"](../objects/report/10570-gb.md)
+- [report/10571 "Order Confirmation GB"](../objects/report/10571-gb.md)
+- [report/10572 "Sales - Invoice GB"](../objects/report/10572-gb.md)
+- [report/10573 "Sales - Credit Memo GB"](../objects/report/10573-gb.md)
+- [report/10574 "Blanket Sales Order GB"](../objects/report/10574-gb.md)
+- [report/10576 "Order GB"](../objects/report/10576-gb.md)
+- [report/10577 "Purchase - Invoice GB"](../objects/report/10577-gb.md)
+- [report/10578 "Purchase - Credit Memo GB"](../objects/report/10578-gb.md)
+- [report/10579 "Blanket Purchase Order GB"](../objects/report/10579-gb.md)
+- [table/10501 "Postcode Notification Memory"](../objects/table/10501-gb.md)
+- [table/10520 "GovTalkMessage"](../objects/table/10520-gb.md)
+- [table/10523 "GovTalk Setup"](../objects/table/10523-gb.md)
+- [table/10524 "GovTalk Message Parts"](../objects/table/10524-gb.md)
+- [table/10533 "MTD-Liability"](../objects/table/10533-gb.md)
+- [table/10534 "MTD-Payment"](../objects/table/10534-gb.md)
+- [table/10535 "MTD-Return Details"](../objects/table/10535-gb.md)
+- [table/10536 "MTD-Missing Fraud Prev. Hdr"](../objects/table/10536-gb.md)
+- [table/10537 "MTD-Default Fraud Prev. Hdr"](../objects/table/10537-gb.md)
+- [table/10538 "MTD-Session Fraud Prev. Hdr"](../objects/table/10538-gb.md)
+- [table/10550 "BACS Ledger Entry"](../objects/table/10550-gb.md)
+- [table/10551 "BACS Register"](../objects/table/10551-gb.md)
+- [table/10555 "Fin. Charge Interest Rate"](../objects/table/10555-gb.md)
+- [table/10560 "Accounting Period GB"](../objects/table/10560-gb.md)
+- [table/10561 "Payment Period Setup"](../objects/table/10561-gb.md)
+- [table/10562 "Payment Application Buffer"](../objects/table/10562-gb.md)
 
 ## Other versions
 

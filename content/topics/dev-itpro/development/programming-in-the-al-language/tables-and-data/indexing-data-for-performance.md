@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -100,8 +100,6 @@ links:
     - video/IAacWsvav1E
   posts:
     - post/aardvarklabs-blog/3761
-    - post/aardvarklabs-blog/3983
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951
     - post/waldo-be/318212
   guidelines: []
@@ -117,7 +115,7 @@ coverage:
   learn: 9
   code: 0
   video: 1
-  blog: 5
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -147,8 +145,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Optimizing Business Central Indexes for Performance with Copilot"
-- [Business Central v29: SQL Table Extensions Redesign Explained](../../../../../posts/aardvarklabs-blog/3983.md) (community post): "storing all custom fields directly in the primary SQL table instead of creating separate extension tables"
-- [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/.md) (community post): "index management via new DMV queries and disable/enable capabilities"
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added through development via AppSource apps"
 - [What's New: Enhanced Index Management (2026 release wave 1)](../../../../../videos/IAacWsvav1E.md) (video): "Enhanced Index Management database performance storage optimization index lifecycle"

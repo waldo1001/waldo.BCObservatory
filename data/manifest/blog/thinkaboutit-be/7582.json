@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/02/earning-the-mvp-title-one-year-at-a-time/",
   "published_at": "2026-02-09T09:51:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:02:53.998Z",
+      "path": "vault:posts/thinkaboutit-be/7582.md",
+      "words": 415
+    },
+    "extracted": {
+      "at": "2026-10-07T01:02:54.006Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:02:54.007Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:02:54.008Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:02:54.014Z",
+      "path": "content/posts/thinkaboutit-be/7582.md"
     }
   },
   "input_hash": "2026-02-09T09:51:38.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "402ec2765301e58df812594b60b4872b0dce9b2fef508739fb777ec14e621137"
 }

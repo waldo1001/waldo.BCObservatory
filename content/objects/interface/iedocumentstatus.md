@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ff74447d65a281f1d6dab8fd6aa4918e37a5c83960ffc4aab0fbf880060ffe46
+  input_hash: 1e9a8fe7b72b8a38c8ec737ffff52ec28cd73bc5ed88f42ce8040cf80537fddb
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al

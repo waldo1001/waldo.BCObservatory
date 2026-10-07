@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c1346913c56660145a86c78df755f50dc9b2260b080b9fdd9b7870929fed1757
@@ -161,8 +161,7 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
   videos: []
-  posts:
-    - post/aardvarklabs-blog/3214
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -175,7 +174,7 @@ coverage:
   learn: 19
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: c1346913c56660145a86c78df755f50dc9b2260b080b9fdd9b7870929fed1757
@@ -196,11 +195,5 @@ Path: [Development](../development.md) > Rules, guidelines, and best practices Â
 
 - [Deprecate external business events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events): Learn how to deprecate external business events in AL for Business Central.
 - [Obsolete objects, methods, and symbols in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-obsolete-objects): Description of how you use the obsoletion properties and attributes to obsolete an object, a method, or other symbols used in AL for Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Streamline AL Development Using Copilot Code Review](../../../posts/aardvarklabs-blog/3214.md) (community post): "comprehensive guidelines covering best practices, code quality, performance, security, extensibility"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

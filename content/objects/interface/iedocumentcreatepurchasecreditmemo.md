@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 81091e092fd4b93b0deff5a73d5ad10de6e28443bfc615061ee796ca20a6ac73
+  input_hash: e3f4cff87ce25ea92a6a3004534942473d297fccb1d5a3b6eae97d93b3ccdd1b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al

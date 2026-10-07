@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b90d3044b19722acdc836d54fe844c184cbfe6e114b9b660df4cc9c71bc48dbb
+  input_hash: 50513f0d9a1123929ad3a8ec3867b8bbfb6ca2c91f0d2ea3d4bef39dec613068
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedHelpdeskagentPartnerEmailLogging.Entitlement.al

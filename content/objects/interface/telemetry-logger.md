@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7e8af975e93cca2a3402f588d01e035988936d4189210952aad12d551e154589
+  input_hash: 12902b44c602166cd4a0e8ba056f4295ba72b8925f9f03276ff63d830e68a0f8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al

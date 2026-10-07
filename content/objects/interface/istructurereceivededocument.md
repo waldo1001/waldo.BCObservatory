@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3c80673dc0916e79b17a0086f6d20a6c8a5f9e4e95716b2648e26d9520cd514a
+  input_hash: 599860a0f1a01c6b8139ff8e93bd0207b7c1fdfbbe26ce00ebe741d376394028
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructureReceivedEDocument.Interface.al

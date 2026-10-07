@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a75965ab6f5e784a7cf149d67f5c81dc0ca45006116743906f249843814f7390
+  input_hash: 7305d660a67689de352759da9132f9de667e49843ddb0c5524d4da2a006e5974
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/SharePoint%20Authorization/src/SharePointAuthorization.Interface.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f767ef510965e02cd52807b6bf86243117fa8c329c2e9db1f023c99d155d6896
@@ -325,11 +325,11 @@ links:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
   localizations: []
   videos:
-    - video/8C9JmtHdExM
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
-    - video/sqjb_gsXqM8
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -341,8 +341,8 @@ children:
 coverage:
   learn: 62
   code: 0
-  video: 4
-  blog: 0
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 29
@@ -467,10 +467,10 @@ Path: [Business functionality](../business-functionality.md) > Purchasing · tie
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
+- [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually"
 - [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "Flexible Drop Shipment Operation Sequences; Get Order Lines Functionality; Multiple Purchase Document Creation Methods"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
-- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "purchase order matching; drop shipment; purchase quote without vendor"
 
 ## Business Central pages and reports
 

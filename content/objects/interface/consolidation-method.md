@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1bee4cbf70364d3c8ef96a262b9264b9f2bc5afa0bb787341ec4359b72da1613
+  input_hash: ffb9c850ca344f7ce08bc71ef04110b72d44d89fc30462953706d45d9fb1ec90
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/Consolidation/ConsolidationMethod.Interface.al

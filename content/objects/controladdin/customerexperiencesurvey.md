@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5dd7cf4651ce53f6c76bc08f25afc4c886f3dd171179d28dd825c82bb814765b
+  input_hash: 3d33503a1a0c8dd17a1d52e6b37db679143317904308a18a99c7a8dcb49da63a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c6e6bf0af791d2bbe323ff44dc0366b69cf69b4bf7ac20637ceb58b2bf1f889b
@@ -56,8 +56,7 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos:
-    - video/P1V4jy08YM8
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +69,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -101,12 +100,6 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Create prepayment invoices](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices): Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
 - [Invoice prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-invoice-prepayments): Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central.
 - [Set up prepayments](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-prepayments): Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Expense Agent: Configuration (2026 release wave 1)](../../../../videos/P1V4jy08YM8.md) (video): "payment methods; posting group defaults; expense categories; approval notifications"
 
 ## Business Central pages and reports
 

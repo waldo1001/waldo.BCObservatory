@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cd950cbe7909f8543b3640cd111e64e3a00f04245b138f6129dac20ce22f7691
+  input_hash: 5e21d9198c7b9cf631b2cc679cf85d32dee1037781d68a02996b9343d0c6a33f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al

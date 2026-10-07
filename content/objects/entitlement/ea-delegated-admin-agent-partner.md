@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a50f05f468e70ad8037f2e91ebd5e471bdfcdd07d1e4011dd7a65ef8c86b2143
+  input_hash: 7c2a51a1da9ef02ca4815b36ceb253d123246a9adc2fdc5434f98b86f1cacd9a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al

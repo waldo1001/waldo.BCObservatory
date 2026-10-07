@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 888b74b93d1eeef22093ba36d001ab2c7bf2b77c2a4111f3091c847717c8cf31
@@ -96,10 +96,7 @@ links:
   topics:
     - topic/business-central/business-functionality/design-details
   localizations: []
-  videos:
-    - video/8KMcu4B_eTk
-    - video/SdQVQLNXVS0
-    - video/WZUQ9X26MLo
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -112,7 +109,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 3
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -137,13 +134,5 @@ Path: [Business functionality](../../business-functionality.md) > [Design detail
 - [Design details - Item tracking in the warehouse](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse): Inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.
 - [Design details - Item Tracking Lines page](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-lines-window): Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
 - [Design details - Item tracking posting structure](https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure): Learn how to use item ledger entries as the primary carrier of item tracking numbers in the Item Tracking Posting Structure.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "item tracking; basic warehouse; bin capacity; warehouse class"
-- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "Item tracking in consumption and output journals; Barcode label printing for tracked items"
-- [What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)](../../../../videos/WZUQ9X26MLo.md) (video): "Lot number certificate information capture; EUTR flag on purchase lines"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

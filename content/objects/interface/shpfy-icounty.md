@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: dfe50311338de4ff7104c5c96f320b898a9d4b3092c55e5fe92b61456d0da490
+  input_hash: b3fc34eb6fe9853ab736902e85f2c97568cf1278c250b166d5719151a56ee3ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al

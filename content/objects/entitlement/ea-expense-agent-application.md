@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: db90d935f70c7600a738e63e86472d780a4f7c7b4b62cc81003bf9979d411f1e
+  input_hash: ff3cb4be368f2279e31852d81d2e58019407990e62747a345aa1a723b40aac94
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al

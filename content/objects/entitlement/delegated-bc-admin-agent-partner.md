@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 348040da33b1cd6b0c84f91feaefb67410bb1a54d18e3c939ad262dc3878ec2e
+  input_hash: 5650606398dce9cb37388e339b71921bfcfdc4a7b3f22420eb63f06c4c79a1af
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al

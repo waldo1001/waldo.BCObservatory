@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fb4f792c745264526782c056b2d7bee76f1d439ffd17284321f8b519c401588d
@@ -73,8 +73,7 @@ links:
     - topic/business-central/business-functionality/local-functionality/spain
   localizations: []
   videos: []
-  posts:
-    - post/thinkaboutit-be/8204
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -88,7 +87,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 10751
@@ -168,12 +167,6 @@ Path: [Business functionality](../../../business-functionality.md) > [Local func
 - [Receivables Cartera module [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module): Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
 - [SII Invoice Types in Sales and Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central supports SII and the different invoice and credit memo types used in the Spanish version.
 - [VERIFACTU with external service integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Quick Tip: What’s in Business Central Update 28.5?](../../../../../posts/thinkaboutit-be/8204.md) (community post): "Embedded Verifactu functionality for Spain is now generally available"
 
 ## Business Central pages and reports
 

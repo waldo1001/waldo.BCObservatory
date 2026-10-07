@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1e20be4778d11438b0fd5721caf058eaea533ec01f69637dd5f01151fc974c47
+  input_hash: d479af8bb1d2b7b2b70b304cd0fd17bd0179466ab0fdabadd9d1e4863dbf6169
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralPremiumAPIV2.Entitlement.al

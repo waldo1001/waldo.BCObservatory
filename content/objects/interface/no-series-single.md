@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 39d7099d09216d08569c42d9576a53cb8b099d783d75ef83d6682a2c43138316
+  input_hash: 16258ff315e762a9fff37692c3e572741c54a01ca7861264f5bf2076b742362a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al

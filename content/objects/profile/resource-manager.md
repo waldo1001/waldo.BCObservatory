@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 909ec660c5ea0ed9bdc85f4436e411c4166e70a47138c09c6909f0e8216a9c10
+  input_hash: ea58392431c08c17b76a77507de55fea9fbcd077040b1fc49add0a406fc90d84
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Projects/RoleCenters/ResourceManager.Profile.al

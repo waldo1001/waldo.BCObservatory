@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 724462d95f44dee109df53b1acb81ee42db5d378c9a1103e8cad27b7dcfe8338
@@ -56,8 +56,7 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
-  videos:
-    - video/W3xWt6j4-Ms
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -71,7 +70,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -134,12 +133,6 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Analyze cash flows](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow): Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
 - [Understand the general ledger and Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger): This article describes the general ledger, chart of accounts, and account categories.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Comparing Financial Reporting Tools Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/W3xWt6j4-Ms.md) (video): "account schedules; financial reporting; account categories; account subcategories"
 
 ## Business Central pages and reports
 

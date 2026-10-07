@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -50,7 +50,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126
   guidelines: []
 learn_toc_path:
@@ -64,7 +63,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -87,7 +86,6 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [A
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to See When Your SQL Server Backup or Restore Will Finish](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824.md) (community post): "SQL Server query shows the estimated completion time for active backup"
 - [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126.md) (community post): "manage database indexes directly from the client without SQL access"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

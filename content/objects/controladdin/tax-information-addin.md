@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3146eb87304c9cd6031ea4d61068f3f5d9eeb55483203842934923a0e4c3df49
+  input_hash: 07ecd2926cf26109a731d6a5add77a03ae36671eef49a61a41bb41bdc013cce4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al

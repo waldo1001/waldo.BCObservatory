@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2d95ef0813e0aebf1982d2efbd971b6f06c0739cd66479294ac22e9df936b645
+  input_hash: c5cd704029314f1aaff6d63cfe924c4e61b3a23a879640f91e1b34e96bed9136
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al

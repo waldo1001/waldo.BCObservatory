@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0ce5d30b9e50b88e4e92543a2007342e90704038cf2da46c8f3b8d940617e32b
@@ -56,8 +56,7 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos:
-    - video/wlVewBgq9-Q
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +69,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -109,12 +108,6 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set up projects, prices, and project posting groups](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-jobs): Describes how to set up general information about projects.
 - [Set Up Resources, Time Sheets, and Projects](https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects): This topic outlines how to set up resources, time sheets, to manage projects and their budgets.
 - [Set up time sheets and their approval](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets): Learn how to use time sheets to track time for projects and resources.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [How to Create Projects in Business Central (2025)](../../../../videos/wlVewBgq9-Q.md) (video): "project creation; project tasks; project planning lines; budget tracking; project posting groups"
 
 ## Business Central pages and reports
 

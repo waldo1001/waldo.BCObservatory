@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 95994160111ef7f09851dcb0f8e53dd8ace30d5411d3e0c1eb9a3cf8da1cb0fd
+  input_hash: 2d1da5abd88364b208fb6b7f5501597fbbd98aacbde745ea824781388cfce0f7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralTeamMemberEmbeddedBaseApp.Entitlement.al

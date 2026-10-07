@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,10 +50,8 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/9cOdjHU15rE
     - video/ayXdXFyFEjY
     - video/KpQS7c6YGRo
-    - video/lNASlydCidI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -65,7 +63,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 4
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -107,10 +105,8 @@ The section has three pages and no subtopics. Start with the overview page to se
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#BCTalent and AI: A Learner’s Guide](../../../videos/9cOdjHU15rE.md) (video): "BC Copilot for item description generation"
 - [Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)](../../../videos/ayXdXFyFEjY.md) (video): "product descriptions; copilot; ai-generated content; image analysis"
 - [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "marketing text suggestions; copilot; ai-powered features"
-- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Marketing Text Suggestions Built-in Capability"
 
 ## Business Central pages and reports
 

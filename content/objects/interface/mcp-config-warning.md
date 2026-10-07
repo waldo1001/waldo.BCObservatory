@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e036d6c1df231facb862f880d0c9067a095cf703505b5bd8238ea22e8dc608df
+  input_hash: b649cee3d8effaad52022752dce60c8dfe39aadbfd64f793cefdafa6ec82ef67
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al

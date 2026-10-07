@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6419c775f2b66201983c15914269167cccc44501b51d6357caad0e1614044643
@@ -131,9 +131,6 @@ links:
   videos:
     - video/8037fdtrU1o
     - video/bvGdaxC3sq8
-    - video/KQRT25igPTk
-    - video/NwMLT-k6J6Q
-    - video/qwEnuR0vgYo
   posts: []
   guidelines: []
 learn_toc_path:
@@ -145,7 +142,7 @@ children: []
 coverage:
   learn: 13
   code: 0
-  video: 5
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -194,9 +191,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [What's New: Contoso Demo Tool (2025 release wave 1)](../../../videos/8037fdtrU1o.md) (video): "Modular demo data architecture; Code-based demo data definition"
 - [Introducing: Contoso Demo Tool (2023 release wave 2)](../../../videos/bvGdaxC3sq8.md) (video): "Demo Data Module Interface; Helper Code Units for Demo Data"
-- [Guidelines for Using the Welcome Banner](../../../videos/KQRT25igPTk.md) (video): "welcome banner; onboarding experience; user checklists; role center"
-- [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
-- [Business Central 29.0 Is GA: New Environment](../../../videos/qwEnuR0vgYo.md) (video): "Localization Selection in Environment Setup; Version 28 Deprecation"
 
 ## Business Central pages and reports
 

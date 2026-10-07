@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 70b841da7144463f0109bc7979517bbdce37c951d7a64a09074d6ebf0f1abc38
+  input_hash: 4f910de5107ac0eadfaf4ec5ca22e45d4708868dd558d13f05eeaf96549f1ead
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SAF-T/app/src/Setup/CreateStandardDataSAFT.Interface.al

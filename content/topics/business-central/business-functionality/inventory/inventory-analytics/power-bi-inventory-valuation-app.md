@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b1de54b4b41d6ccd9d3fc1ed933d6c6f20345f3e4d782c190f4cc8d5744357a3
@@ -64,8 +64,7 @@ links:
   topics:
     - topic/business-central/business-functionality/inventory/inventory-analytics
   localizations: []
-  videos:
-    - video/6lUli23t3fU
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -79,7 +78,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -104,12 +103,6 @@ Path: [Business functionality](../../../business-functionality.md) > [Inventory]
 - [Inventory Valuation KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis): The Inventory Valuation App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Valuation Report.
 - [Inventory valuation landing page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app): The Inventory Landing Page gives an overview of how the Inventory Report works.
 - [Inventory Valuation Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview): The Inventory Valuation Overview report shows item values on a location by location basis.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Inventory Forecasting Report; Seasonality Control in Forecasting"
 
 ## Business Central pages and reports
 

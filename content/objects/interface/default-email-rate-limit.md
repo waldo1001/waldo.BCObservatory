@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3e28131c165e6a9b51e34ed35075631ccb41a0f6cb226280a32feda1064f6dac
+  input_hash: 75a2394150ea2ce0d79db8a8871c82d7cb7abf5221831fc07ed2d23e6f9b782c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al

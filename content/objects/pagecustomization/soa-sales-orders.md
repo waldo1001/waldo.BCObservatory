@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8428de2dc5b44aec377c3ffe89b6bfe2a01c14993634e0d322a237a7e96a1b10
+  input_hash: 6237354005025d6f6f82244cf0c283752d590d3edf07d282090263433c167587
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesOrders.PageCust.al

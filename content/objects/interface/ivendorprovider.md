@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6d6341576338421368da184a0bebae119282b9dffccfeeb65d117fe2d058be0d
+  input_hash: ddb0ef3e416cc3c6332c3d2a33cb0a3f8a0685cd828231991ca9df8fb4cbb45a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IVendorProvider.Interface.al

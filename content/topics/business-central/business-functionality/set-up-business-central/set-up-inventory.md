@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3945346150bcce19c1c62ca93c44424ca5a1e733e39daa4c46f98e575b6fc900
@@ -115,7 +115,7 @@ links:
   videos:
     - video/X3xygXmgRqU
   posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129
   guidelines: []
 learn_toc_path:
@@ -182,7 +182,7 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md) (community post): "Item journals now support batch-level approval workflows"
+- [Define Item Attributes for Item Variants](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7926273720702299683.md) (community post): "Define Item Attributes for Item Variants. Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md) (community post): "Attributes can be defined at the variant level so each variant maintains distinct values"
 - [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "Multiple Locations Setup; Intransit Locations; Transfer Routes"
 

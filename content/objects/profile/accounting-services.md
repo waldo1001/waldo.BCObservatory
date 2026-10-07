@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2566f43b82eb410d269ba8e11f624185295fec9a8d16afc9e17736bd93f25d14
+  input_hash: 6743e2dc860f73a67397c4422f4935a18a11594df0be8cb98dd9793dac99c54b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2833c399d853b8454298e733df6f1d5e7821bc8fce4339153f53e20ebf28c24e
+  input_hash: 3c47bc06ef9a13b9543b4127f9abf0c03319e575ac310d89ebd85da87751eafc
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralTeamMemberCOHUB.Entitlement.al

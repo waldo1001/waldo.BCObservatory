@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 68d3df1f66217b4820d3fe445b237acdbde93de7983cff066983db0fc8942838
@@ -64,8 +64,7 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/manage-inventory-costs
   localizations: []
-  videos:
-    - video/w0okH0v0VvY
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -79,7 +78,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -103,12 +102,6 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Restrict backdated cost postings](https://learn.microsoft.com/dynamics365/business-central/finance-restrict-backdated-cost-postings): Set a date floor on the Inventory Setup page so that user postings can no longer write cost into closed periods.
 - [Schedule jobs for adjusting & reconciling inventory cost](https://learn.microsoft.com/dynamics365/business-central/finance-adjust-reconcile-inventory-cost-job-queue): Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
 - [Work with inventory periods](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-work-with-inventory-periods): You can control the timeframe in which people can post changes to inventory by defining inventory periods.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Cost Adjustment (2024 release wave 1)](../../../../../videos/w0okH0v0VvY.md) (video): "Inventory Cost Adjustment Tool; Cost Adjustment Logging Options"
 
 ## Business Central pages and reports
 

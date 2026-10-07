@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37042",
+  "url": "https://thedynamicsexplorer.com/2026/02/09/dynamics-365-business-central-why-when-i-create-new-users-do-they-get-full-access-by-default/",
+  "title": "Dynamics 365 Business Central – Why when I create new users do they get full access by default",
+  "source": "thedynamicsexplorer-com",
+  "published_at": "2026-02-09T10:30:00.000Z",
+  "words": 381,
+  "summary": "New users in Business Central automatically receive full access to their first company based on their assigned license. Administrators can prevent this by modifying permission sets in the License Configuration page.",
+  "key_points": [
+    "New users inherit default permissions based on their license type and security group assignments",
+    "The License Configuration page controls which permission sets are automatically granted with each license",
+    "Administrators can remove permission sets like D365 BUS FULL ACCESS to restrict default access",
+    "Changes to license configuration apply only to newly created users, not existing ones"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "user permissions",
+    "license configuration",
+    "access control",
+    "security",
+    "user setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Licence Configuration"
+    }
+  ],
+  "features": [
+    "License Configuration",
+    "Permission Set Management",
+    "Default User Permissions",
+    "User Access Control"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Now when I create a new user that's been assigned this licence they won't have full access.",
+      "why_it_matters": "Demonstrates the practical outcome of modifying license configuration to enforce principle of least privilege"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

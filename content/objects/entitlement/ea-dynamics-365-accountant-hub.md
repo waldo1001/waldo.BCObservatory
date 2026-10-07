@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a70c91f871f23ce1618e886140aa852a309980003a7f774b63f35a6dac33c1b3
+  input_hash: fa8b5091e3f2f1a7902f8c105923db85e03b5b8043bcb4fb6c90617851e4d1e8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9158d4900e860026c7abaa1005310e09b7e766a1ce00b6eee11968647d0f490e
+  input_hash: a61ed0a2f2e969d18874e42ab70d60d23855c0c643c305df54e77db49b91d573
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al

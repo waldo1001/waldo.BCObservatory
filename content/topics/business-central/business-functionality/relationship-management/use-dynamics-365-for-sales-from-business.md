@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a06ceab56677131c25e13ced55c2af21277bcaf1a54ce26564c5204b3f9b5b3a
@@ -48,8 +48,7 @@ links:
   topics:
     - topic/business-central/business-functionality/relationship-management
   localizations: []
-  videos:
-    - video/kwGEoxN46hk
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -62,7 +61,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -82,12 +81,6 @@ Path: [Business functionality](../../business-functionality.md) > [Relationship 
 - [Coupling and synchronizing](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually): Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.
 - [Manage customers using Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm): Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
 - [View the Status of Synchronization Jobs](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status): Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)](../../../../videos/kwGEoxN46hk.md) (video): "Sales Order Agent; contact management; agent configuration"
 
 ## Business Central pages and reports
 

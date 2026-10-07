@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ac72153ec85fe09c153d45383dead54e08d1b261bc3214cacfe3f417a4fc6d10
+  input_hash: 1e233c7e108dd7a0c393bac76ae018e13a9d6f1a6574ba5fa612d026bda5c57c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365AdminPartnerEmailLogging.Entitlement.al

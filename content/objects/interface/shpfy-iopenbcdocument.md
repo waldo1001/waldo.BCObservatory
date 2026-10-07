@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5198a40d053355e0f489d3c898ec42c31f3290b3cb1b5846eca7ff92726587d0
+  input_hash: ee313c92ec4fe3832105ede7c8262c2ef7a3955d4bb3e805da9dce0500b6b6d0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenBCDocument.Interface.al

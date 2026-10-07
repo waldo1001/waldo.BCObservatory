@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8eec67f68cb203604cb589ca286c793f6a1aa8c7370618a249336e7b4168bb64
+  input_hash: e7282406a2f8a87e5e33760f4c3d86bf5902aec02125b12537937aa5b851543e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al

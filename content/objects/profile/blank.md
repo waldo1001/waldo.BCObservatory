@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7f4615f70134df89b310057a1df6edc1b8bd011d041f7d01273304faf6cfa3c4
+  input_hash: c3c2b2e56c02de1c405b8e8c8e35d2d64bbb2ed33998d18ca3c0beb6ec568a91
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Default%20Role%20Center/src/Blank.Profile.al

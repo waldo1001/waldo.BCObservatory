@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8ecfaafcf028800bd79c78efd19c8ffecb143e7229de085e8888f0fa6fea1841
+  input_hash: c6639014d39f4d0abd22b8544aa047823ef90fcb5be75e3887396107af094fb4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al

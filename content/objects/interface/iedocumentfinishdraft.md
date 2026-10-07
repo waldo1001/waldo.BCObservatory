@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1522b14c3323db95937e81008304a15cc5c885a8d8b4bace5b35d5b4fa46da00
+  input_hash: 1db5bfcf42fd5a4acc977ccbf3e1730262718edb9a0f808a8e31378f6e760ca3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentFinishDraft.Interface.al

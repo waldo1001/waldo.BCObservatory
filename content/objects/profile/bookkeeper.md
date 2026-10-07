@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 92fb8b71196004b7a1c53ed833659893167d2483ae95b22db5afa10f391be611
+  input_hash: 0acbf49be66bf20946f4a3b86ba2adfa5e7186320d73dd571e824feae37d190b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/BookKeeper.Profile.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 027f2589031741f2fa6b62e0f93ddc232f491ae8510b27ba2f6d3aa58a5ddd62
+  input_hash: 82cec45437f4c4f88165f41482fbfb67c59da58ef1ae7e98a4e8693f9dfadeb0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Integration/Interfaces/ISentDocumentActions.Interface.al

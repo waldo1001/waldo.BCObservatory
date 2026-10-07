@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 55181c86aa8684b22d0df108a8916b10d83dd9c4a61417fc2cf0dfd8c7de61cd
+  input_hash: a6517a689f2ab3adff33c83711592ef137554830fd8a4191c1c244199d55e658
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/External%20File%20Storage/src/Scenario/FileScenario.Interface.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: af0dc916f1082e51292d9a72cbaa893d8df8b841fc006503ecea40218ebf63aa
+  input_hash: abd238e1756070f5949b91ea242f53b871b664141c74968bde9248a349a9ea73
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al

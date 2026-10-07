@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8bc58b8b36afd60ab4c4a84f3d0f340d97ee10239ed091942c13b357f090958b
@@ -326,12 +326,10 @@ links:
   localizations: []
   videos:
     - video/m8-7-JKq4dc
-    - video/YSDfDjrMUb0
   posts:
     - post/olofsimren-com/3696
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/
-    - post/thinkaboutit-be/7730
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -343,8 +341,8 @@ children:
 coverage:
   learn: 75
   code: 0
-  video: 2
-  blog: 4
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 30
@@ -492,9 +490,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Quality inspections can be triggered automatically when posting receipts; quality management needs"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md) (community post): "Item variants can now have their own pictures for visual identification"
 - [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md) (community post): "Item table in Business Central has multiple blocked fields"
-- [Business Central 2026 Release Wave 1: A Mix of Platform Evolution and Practical Improvements](../../../posts/thinkaboutit-be/7730.md) (community post): "variant-level images and attributes, independent drop shipment invoice posting"
 - [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
-- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Tariff code synchronization; Find mapping by barcode; Unlisted product status"
 
 ## Business Central pages and reports
 

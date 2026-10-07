@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -96,7 +96,7 @@ Adds tables "IRS Numbers", "IRS Groups" and "IRS Types" and an IRS Number field 
 
 Why: Learn says the IRS mapping is needed to generate compliant data files for the tax authorities. The core app setup supports migration to the W1 model from version 24.0.
 
-Objects: table/10900 "IRS Numbers" (own), table/10901 "IRS Groups" (own), table/10902 "IRS Types" (own), [table/15 "G/L Account"](../objects/table/15.md), report/10940 "VAT Reconciliation A" (own), report/10941 "VAT Balancing Report" (own), report/10913 "IRS notification" (own), table/10903 "IS Core App Setup" (own).
+Objects: [table/10900 "IRS Numbers"](../objects/table/10900-is.md) (own), [table/10901 "IRS Groups"](../objects/table/10901-is.md) (own), [table/10902 "IRS Types"](../objects/table/10902-is.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [report/10940 "VAT Reconciliation A"](../objects/report/10940-is.md) (own), [report/10941 "VAT Balancing Report"](../objects/report/10941-is.md) (own), [report/10913 "IRS notification"](../objects/report/10913-is.md) (own), [table/10903 "IS Core App Setup"](../objects/table/10903-is.md) (own).
 
 [All 8 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -106,7 +106,7 @@ Sales & Receivables Setup gets Electronic Invoicing and Credit Memo Nos. Paym. D
 
 Why: Learn says that when invoices are printed several times, a government report confirming ERP compliance must be sent. The IRS Notification report prints the required statements.
 
-Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), report/10913 "IRS notification" (own).
+Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [report/10913 "IRS notification"](../objects/report/10913-is.md) (own).
 
 [All 2 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -143,15 +143,15 @@ Objects: [table/5611 "Depreciation Book"](../objects/table/5611.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+7 objects only this country has.
 
-- report/10913 "IRS notification"
-- report/10940 "VAT Reconciliation A"
-- report/10941 "VAT Balancing Report"
-- table/10900 "IRS Numbers"
-- table/10901 "IRS Groups"
-- table/10902 "IRS Types"
-- table/10903 "IS Core App Setup"
+- [report/10913 "IRS notification"](../objects/report/10913-is.md)
+- [report/10940 "VAT Reconciliation A"](../objects/report/10940-is.md)
+- [report/10941 "VAT Balancing Report"](../objects/report/10941-is.md)
+- [table/10900 "IRS Numbers"](../objects/table/10900-is.md)
+- [table/10901 "IRS Groups"](../objects/table/10901-is.md)
+- [table/10902 "IRS Types"](../objects/table/10902-is.md)
+- [table/10903 "IS Core App Setup"](../objects/table/10903-is.md)
 
 ## Other versions
 

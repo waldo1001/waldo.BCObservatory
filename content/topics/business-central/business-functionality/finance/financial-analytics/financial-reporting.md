@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 34b966ca42180bb6ff0521f53a7f3fc90c0ee4d675dfb2f7ec1f9bee47682086
@@ -185,7 +185,6 @@ links:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
   videos:
-    - video/_ynMUzh956w
     - video/adsSh_dm9BY
     - video/b54ehH4AlFA
     - video/Fs90uUdWi0M
@@ -195,7 +194,8 @@ links:
     - video/RLmDGw1o_PI
     - video/uxQRfChp96c
     - video/v4LXW8BO4GQ
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/13675
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -208,8 +208,8 @@ children: []
 coverage:
   learn: 20
   code: 0
-  video: 10
-  blog: 0
+  video: 9
+  blog: 1
   guideline: 0
 bc_forms:
   - 25
@@ -283,7 +283,7 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../../../videos/_ynMUzh956w.md) (video): "Sustainability journals; Chart of sustainability accounts; Standard sustainability reports"
+- [📝 Adding Notes to Financial Report Lines 📊](../../../../../posts/gerardorenteria-blog/13675.md) (community post): "AL extension adds line-level notes to financial reports (Account Schedules)"
 - [What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)](../../../../../videos/adsSh_dm9BY.md) (video): "financial reporting; report definitions; internal description"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 - [What's New: Financial Analytics (2025 release wave 2)](../../../../../videos/Fs90uUdWi0M.md) (video): "Dynamic date headers in financial reporting; Additional reporting currency support"

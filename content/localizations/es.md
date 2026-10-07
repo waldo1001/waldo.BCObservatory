@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -249,7 +249,7 @@ Changes Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch and the journal tables with Ca
 
 Why: Learn describes EC tracking, 340/347/349 declarations, transaction numbers and income statement closing as local requirements.
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/290 "VAT Amount Line"](../objects/table/290.md), [report/12 "VAT Statement"](../objects/report/12.md), [report/94 "Close Income Statement"](../objects/report/94.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), codeunit/7000000 "CarteraManagement" (own).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/290 "VAT Amount Line"](../objects/table/290.md), [report/12 "VAT Statement"](../objects/report/12.md), [report/94 "Close Income Statement"](../objects/report/94.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [codeunit/7000000 "CarteraManagement"](../objects/codeunit/7000000-es.md) (own).
 
 [All 161 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -259,7 +259,7 @@ Adds Cartera bill fields and CCC fields on customer ledger and bank account tabl
 
 Why: Learn documents corrective invoices, the receivables Cartera module and EC.
 
-Objects: [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/92 "Customer Posting Group"](../objects/table/92.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/226 "CustEntry-Apply Posted Entries"](../objects/codeunit/226.md), codeunit/7000092 "Bill group - Export N19" (own), page/7000009 "Bill Groups" (own).
+Objects: [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/92 "Customer Posting Group"](../objects/table/92.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/226 "CustEntry-Apply Posted Entries"](../objects/codeunit/226.md), [codeunit/7000092 "Bill group - Export N19"](../objects/codeunit/7000092-es.md) (own), [page/7000009 "Bill Groups"](../objects/page/7000009-es.md) (own).
 
 [All 105 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -269,7 +269,7 @@ Adds payment order pages, N34 and N34.1 export codeunits, and bill and autodocum
 
 Why: Learn documents the payments Cartera module, AEB N34.1 electronic payments and same external document numbers across fiscal years.
 
-Objects: [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), codeunit/7000090 "Payment order - Export N34" (own), codeunit/7000060 "PO - Export N34.1" (own), page/7000050 "Payment Orders" (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
+Objects: [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [codeunit/7000090 "Payment order - Export N34"](../objects/codeunit/7000090-es.md) (own), [codeunit/7000060 "PO - Export N34.1"](../objects/codeunit/7000060-es.md) (own), [page/7000050 "Payment Orders"](../objects/page/7000050-es.md) (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
 
 [All 85 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -279,7 +279,7 @@ Adds the SII framework: XML creator, job management, upload and retry codeunits,
 
 Why: Learn covers SII setup and invoice types, and VERI*FACTU as an SII alternative.
 
-Objects: codeunit/10750 "SII XML Creator" (own), codeunit/10756 "SII Management" (own), codeunit/10752 "SII Doc. Upload Management" (own), page/10751 "SII Setup" (own), page/10752 "SII History" (own), codeunit/10721 "Create Electronic Payments" (own), codeunit/10701 "Elect. Pmts Management" (own), enum/10700 "SII Sales Special Scheme Code" (own).
+Objects: [codeunit/10750 "SII XML Creator"](../objects/codeunit/10750-es.md) (own), [codeunit/10756 "SII Management"](../objects/codeunit/10756-es.md) (own), [codeunit/10752 "SII Doc. Upload Management"](../objects/codeunit/10752-es.md) (own), [page/10751 "SII Setup"](../objects/page/10751-es.md) (own), [page/10752 "SII History"](../objects/page/10752-es.md) (own), [codeunit/10721 "Create Electronic Payments"](../objects/codeunit/10721-es.md) (own), [codeunit/10701 "Elect. Pmts Management"](../objects/codeunit/10701-es.md) (own), [enum/10700 "SII Sales Special Scheme Code"](../objects/enum/10700-es.md) (own).
 
 [All 83 objects of EServices in the diff](?ns=EServices#country-diff)
 
@@ -289,7 +289,7 @@ Adds ES extensions on service headers, lines and posted documents, edit codeunit
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), codeunit/10763 "Service Document Subscr. ES" (own), codeunit/10789 "Service Posting Subscr. ES" (own), tableextension/10790 "Service Header ES" (own), report/10792 "Service Invoice (ES)" (own), report/10790 "Service Order (ES)" (own), codeunit/10768 "Service Invoice Header - Edit" (own), page/10768 "Posted Serv. Invoice - Update" (own).
+Objects: [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [codeunit/10763 "Service Document Subscr. ES"](../objects/codeunit/10763-es.md) (own), [codeunit/10789 "Service Posting Subscr. ES"](../objects/codeunit/10789-es.md) (own), [tableextension/10790 "Service Header ES"](../objects/tableextension/10790-es.md) (own), [report/10792 "Service Invoice (ES)"](../objects/report/10792-es.md) (own), [report/10790 "Service Order (ES)"](../objects/report/10790-es.md) (own), [codeunit/10768 "Service Invoice Header - Edit"](../objects/codeunit/10768-es.md) (own), [page/10768 "Posted Serv. Invoice - Update"](../objects/page/10768-es.md) (own).
 
 [All 30 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -299,7 +299,7 @@ Extends Payment Terms with due date limit fields, and Company Information with C
 
 Why: Learn explains legal limits on payment delays and NACE code entry.
 
-Objects: [table/3 "Payment Terms"](../objects/table/3.md), [table/79 "Company Information"](../objects/table/79.md), [page/344 "Navigate"](../objects/page/344.md), [table/9 "Country/Region"](../objects/table/9.md), [table/225 "Post Code"](../objects/table/225.md), table/7000009 "Category Code" (own), [table/242 "Source Code Setup"](../objects/table/242.md), [table/265 "Document Entry"](../objects/table/265.md).
+Objects: [table/3 "Payment Terms"](../objects/table/3.md), [table/79 "Company Information"](../objects/table/79.md), [page/344 "Navigate"](../objects/page/344.md), [table/9 "Country/Region"](../objects/table/9.md), [table/225 "Post Code"](../objects/table/225.md), [table/7000009 "Category Code"](../objects/table/7000009-es.md) (own), [table/242 "Source Code Setup"](../objects/table/242.md), [table/265 "Document Entry"](../objects/table/265.md).
 
 [All 13 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -309,7 +309,7 @@ Bank Account gains CCC, E-Pay and bill group fields, with totals procedures. Pay
 
 Why: Learn documents CCC codes and electronic payment setup.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [table/277 "Bank Account Posting Group"](../objects/table/277.md), [table/1207 "Direct Debit Collection"](../objects/table/1207.md), [codeunit/1222 "SEPA CT-Prepare Source"](../objects/codeunit/1222.md), report/7000005 "Bank - Risk" (own), [report/1401 "Check"](../objects/report/1401.md), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [table/277 "Bank Account Posting Group"](../objects/table/277.md), [table/1207 "Direct Debit Collection"](../objects/table/1207.md), [codeunit/1222 "SEPA CT-Prepare Source"](../objects/codeunit/1222.md), [report/7000005 "Bank - Risk"](../objects/report/7000005-es.md) (own), [report/1401 "Check"](../objects/report/1401.md), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
 
 [All 12 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -319,7 +319,7 @@ Adds the G/L accounts equivalence tool tables, historic account tables, buffers 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: table/10720 "G/L Accounts Equivalence Tool" (own), table/10721 "Historic G/L Account" (own), table/10722 "New G/L Account" (own), xmlport/10720 "G/L Importing Tool" (own), xmlport/10700 "Hist. Consolid. Import/Export" (own), table/10700 "Inc. Stmt. Clos. Buffer" (own), table/10703 "Acc. Schedule Buffer" (own), enum/10727 "ES Document Situation" (own).
+Objects: [table/10720 "G/L Accounts Equivalence Tool"](../objects/table/10720-es.md) (own), [table/10721 "Historic G/L Account"](../objects/table/10721-es.md) (own), [table/10722 "New G/L Account"](../objects/table/10722-es.md) (own), [xmlport/10720 "G/L Importing Tool"](../objects/xmlport/10720-es.md) (own), [xmlport/10700 "Hist. Consolid. Import/Export"](../objects/xmlport/10700-es.md) (own), [table/10700 "Inc. Stmt. Clos. Buffer"](../objects/table/10700-es.md) (own), [table/10703 "Acc. Schedule Buffer"](../objects/table/10703-es.md) (own), [enum/10727 "ES Document Situation"](../objects/enum/10727-es.md) (own).
 
 [All 11 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
 
@@ -329,7 +329,7 @@ Holds the Post Payment Order report and SII activity cue extension. Other object
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: report/7000080 "Post Payment Order" (own), pageextension/7000030 "SII O365 Activities" (own).
+Objects: [report/7000080 "Post Payment Order"](../objects/report/7000080-es.md) (own), [pageextension/7000030 "SII O365 Activities"](../objects/pageextension/7000030-es.md) (own).
 
 [All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -349,7 +349,7 @@ Changes local permission sets and adds SII permission set extensions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: permissionsetextension/1001 "SII LOCAL" (own), permissionsetextension/7000002 "SII LOCAL READ" (own), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/1083 "Bank Accounts - View"](../objects/permissionset/1083.md), [permissionset/4103 "General Ledger Journals - Edit"](../objects/permissionset/4103.md).
+Objects: [permissionsetextension/1001 "SII LOCAL"](../objects/permissionsetextension/1001-es.md) (own), [permissionsetextension/7000002 "SII LOCAL READ"](../objects/permissionsetextension/7000002-es.md) (own), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/1083 "Bank Accounts - View"](../objects/permissionset/1083.md), [permissionset/4103 "General Ledger Journals - Edit"](../objects/permissionset/4103.md).
 
 [All 7 objects of Security in the diff](?ns=Security#country-diff)
 
@@ -359,7 +359,7 @@ Suggest Worksheet Lines splits sales and purchase invoices by installments. A se
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [report/840 "Suggest Worksheet Lines"](../objects/report/840.md), codeunit/7000034 "Serv. SuggestWorksheetLines ES" (own), [reportextension/6485 "Serv. Suggest Worksheet Lines"](../objects/reportextension/6485.md).
+Objects: [report/840 "Suggest Worksheet Lines"](../objects/report/840.md), [codeunit/7000034 "Serv. SuggestWorksheetLines ES"](../objects/codeunit/7000034-es.md) (own), [reportextension/6485 "Serv. Suggest Worksheet Lines"](../objects/reportextension/6485.md).
 
 [All 3 objects of CashFlow in the diff](?ns=CashFlow#country-diff)
 
@@ -369,7 +369,7 @@ Copy Document Mgt. adds checks and ledger entry updates for Cartera bills. Adds 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), codeunit/10760 "Localization Management" (own), codeunit/7000030 "SII DataClass EvalData Country" (own).
+Objects: [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/10760 "Localization Management"](../objects/codeunit/10760-es.md) (own), [codeunit/7000030 "SII DataClass EvalData Country"](../objects/codeunit/7000030-es.md) (own).
 
 [All 3 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -389,7 +389,7 @@ Cue tables gain Cartera document counts, and an SII activities cue is added.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/9060 "SB Owner Cue"](../objects/table/9060.md), tableextension/7000043 "SII Activities Cue" (own).
+Objects: [table/9060 "SB Owner Cue"](../objects/table/9060.md), [tableextension/7000043 "SII Activities Cue"](../objects/tableextension/7000043-es.md) (own).
 
 [All 2 objects of RoleCenters in the diff](?ns=RoleCenters#country-diff)
 
@@ -399,7 +399,7 @@ Adds SII cues to the accountant portal activities.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: pageextension/7000041 "SII AccountantPortal Act. Cues" (own).
+Objects: [pageextension/7000041 "SII AccountantPortal Act. Cues"](../objects/pageextension/7000041-es.md) (own).
 
 [All 1 objects of AccountantPortal in the diff](?ns=AccountantPortal#country-diff)
 
@@ -575,397 +575,397 @@ Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+389 objects only this country has.
 
-- codeunit/1883 "Sandbox Cleanup local"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/10700 "Due Date-Adjust"
-- codeunit/10701 "Elect. Pmts Management"
-- codeunit/10710 "Serv. Make 349 Declaration"
-- codeunit/10721 "Create Electronic Payments"
-- codeunit/10740 "No Taxable Mgt."
-- codeunit/10741 "Serv. No Taxable Mgt."
-- codeunit/10750 "SII XML Creator"
-- codeunit/10751 "SII Job Management"
-- codeunit/10752 "SII Doc. Upload Management"
-- codeunit/10753 "SII Job Upload Pending Docs."
-- codeunit/10754 "SII Job Retry Comm. Error"
-- codeunit/10755 "SII Initial Doc. Upload"
-- codeunit/10756 "SII Management"
-- codeunit/10757 "SII Recreate Missing Entries"
-- codeunit/10758 "SII Scheme Code Mgt."
-- codeunit/10759 "Serv. SII Management"
-- codeunit/10760 "Localization Management"
-- codeunit/10762 "Service History Subscr. ES"
-- codeunit/10763 "Service Document Subscr. ES"
-- codeunit/10765 "Sales Invoice Header - Edit"
-- codeunit/10767 "Purch. Cr. Memo Hdr. - Edit"
-- codeunit/10768 "Service Invoice Header - Edit"
-- codeunit/10769 "Service Cr. Memo Header - Edit"
-- codeunit/10788 "Sales Document Subscr. ES"
-- codeunit/10789 "Service Posting Subscr. ES"
-- codeunit/10791 "Serv. Report Selection Mgt. ES"
-- codeunit/10840 "No Taxable - Generate Entries"
-- codeunit/104100 "UPG SII"
-- codeunit/104102 "Upg No Taxable"
-- codeunit/104107 "Upg Report Selections"
-- codeunit/7000000 "CarteraManagement"
-- codeunit/7000001 "G/L Reg.-Docs."
-- codeunit/7000003 "BG/PO-Post and Print"
-- codeunit/7000004 "Document-Move"
-- codeunit/7000005 "Invoice-Split Payment"
-- codeunit/7000006 "Document-Post"
-- codeunit/7000007 "Document-Misc"
-- codeunit/7000008 "Document-Edit"
-- codeunit/7000009 "Posted Cartera Doc.- Edit"
-- codeunit/7000010 "Company-Initialize Cartera"
-- codeunit/7000026 "SII Purchase Subscribers"
-- codeunit/7000027 "SII Sales Subscribers"
-- codeunit/7000029 "SII VAT Subscribers"
-- codeunit/7000030 "SII DataClass EvalData Country"
-- codeunit/7000034 "Serv. SuggestWorksheetLines ES"
-- codeunit/7000035 "Serv. Invoice-Split Payment"
-- codeunit/7000060 "PO - Export N34.1"
-- codeunit/7000089 "Bill group - Export factoring"
-- codeunit/7000090 "Payment order - Export N34"
-- codeunit/7000091 "Bill group - Export N58"
-- codeunit/7000092 "Bill group - Export N19"
-- codeunit/7000093 "Bill group - Export N32"
-- enum/10700 "SII Sales Special Scheme Code"
-- enum/10701 "SII Purch. Special Scheme Code"
-- enum/10702 "SII Sales Upload Scheme Code"
-- enum/10703 "SII Purch. Upload Scheme Code"
-- enum/10704 "SII Operation Date Type"
-- enum/10705 "SII Tax Period"
-- enum/10706 "SII Sales Invoice Type"
-- enum/10707 "SII Purch. Invoice Type"
-- enum/10708 "SII Sales Credit Memo Type"
-- enum/10709 "SII Purch. Credit Memo Type"
-- enum/10710 "SII ID Type"
-- enum/10711 "SII Document Status"
-- enum/10712 "SII Sales Upload Invoice Type"
-- enum/10713 "SII Purch. Upload Invoice Type"
-- enum/10714 "SII Sales Upload Credit Memo Type"
-- enum/10715 "SII Purch. Upload Cr. Memo Type"
-- enum/10721 "SII Exemption Code"
-- enum/10722 "ES Bill Type"
-- enum/10723 "ES Document Status"
-- enum/10724 "Cartera Document Status"
-- enum/10727 "ES Document Situation"
-- enum/10755 "SII Doc. Upload State Document Source"
-- enum/10756 "SII Doc. Upload State Document Type"
-- enum/7000000 "Cartera Document Type"
-- enum/7000025 "Cartera Document Doc. Type"
-- enum/7000026 "Cartera Dealing Type"
-- enum/7000045 "Report Selection Usage Cartera"
-- enumextension/20 "G/L Account Report Type ES"
-- page/10700 "Payment Days"
-- page/10701 "Non-Payment Periods"
-- page/10704 "Transference Format"
-- page/10705 "Copy Data Transference Format"
-- page/10706 "Statistical Codes"
-- page/10710 "XML Transference Format"
-- page/10734 "G/L Account Selection"
-- page/10735 "Gen. Prod. Post. Gr. Selection"
-- page/10736 "Customer/Vendor Warnings 349"
-- page/10737 "Gen. Prod. Post. Selection 340"
-- page/10738 "Rev. Chg. Post. Selection 340"
-- page/10740 "No Taxable Entries"
-- page/10744 "340 Declaration Lines"
-- page/10745 "Operation Codes"
-- page/10751 "SII Setup"
-- page/10752 "SII History"
-- page/10753 "Recreate Missing SII Entries"
-- page/10765 "Posted Sales Invoice - Update"
-- page/10767 "Posted Purch. Cr.Memo - Update"
-- page/10768 "Posted Serv. Invoice - Update"
-- page/10769 "Posted Serv. Cr. Memo - Update"
-- page/10770 "SII Sales Doc. Scheme Codes"
-- page/10771 "SII Purch. Doc. Scheme Codes"
-- page/35290 "Rec. Docs Analysis Fact Box"
-- page/35291 "BG Analysis Fact Box"
-- page/35292 "Post. BG Analysis LCY Fact Box"
-- page/35293 "Post. BG Analysis Non LCY FB"
-- page/35294 "Closed BG Analysis LCY FB"
-- page/35295 "Closed BG Analysis Non LCY FB"
-- page/35296 "Closed Docs Analysis LCY FB"
-- page/35297 "Closed Docs Analysis NonLCY FB"
-- page/35298 "Pmt Orders Analysis Fact Box"
-- page/35299 "Post. PO Analysis LCY Fact Box"
-- page/35300 "Post. PO Analysis Non LCY FB"
-- page/35301 "Closed PO Analysis LCY FB"
-- page/35302 "Closed PO Analysis Non LCY FB"
-- page/35303 "Bank Account Information FB"
-- page/35304 "Cartera Receiv. Statistics FB"
-- page/35305 "Cartera Payables Statistics FB"
-- page/35306 "Cartera Fact. Statistics FB"
-- page/36848 "Bank Cat.Post.Rec.Bills Matrix"
-- page/36850 "Bank Cat.Post.Pay.Bills Matrix"
-- page/7000001 "Receivables Cartera Docs"
-- page/7000002 "Payables Cartera Docs"
-- page/7000003 "Cartera Documents"
-- page/7000004 "Docs. in BG Subform"
-- page/7000005 "Docs. in Posted BG Subform"
-- page/7000006 "Posted Cartera Documents"
-- page/7000007 "Closed Cartera Documents"
-- page/7000008 "Docs. in Closed BG Subform"
-- page/7000009 "Bill Groups"
-- page/7000010 "Receivable Closed Cartera Docs"
-- page/7000011 "Bill Groups List"
-- page/7000012 "Posted Bill Groups"
-- page/7000013 "Payable Closed Cartera Docs"
-- page/7000014 "Posted Bill Groups List"
-- page/7000015 "Closed Bill Groups"
-- page/7000017 "Closed Bill Groups List"
-- page/7000018 "Bank Account Selection"
-- page/7000019 "Documents Analysis"
-- page/7000020 "Bill Groups Analysis"
-- page/7000021 "Posted Bill Groups Analysis"
-- page/7000022 "Closed Bill Groups Analysis"
-- page/7000023 "Category Codes"
-- page/7000024 "BG/PO Comment List"
-- page/7000025 "BG/PO Comment Sheet"
-- page/7000026 "Operation Fees"
-- page/7000029 "Documents Maturity"
-- page/7000030 "Documents Maturity Lines"
-- page/7000031 "Bill Groups Maturity"
-- page/7000032 "BG/PO Maturity Lines"
-- page/7000033 "Posted Bill Groups Maturity"
-- page/7000034 "Posted Bill Gr. Maturity Lines"
-- page/7000036 "Cartera Journal"
-- page/7000037 "Check Discount Credit Limit"
-- page/7000040 "Cartera Setup"
-- page/7000041 "Cartera Source Cd. Setup"
-- page/7000044 "Closed Documents Analysis"
-- page/7000045 "Report Selection - Cartera"
-- page/7000048 "Installments"
-- page/7000049 "Fee Ranges"
-- page/7000050 "Payment Orders"
-- page/7000051 "Payment Orders List"
-- page/7000052 "Payment Orders Maturity"
-- page/7000053 "Payment Orders Analysis"
-- page/7000054 "Posted Payment Orders"
-- page/7000055 "Posted Payment Orders List"
-- page/7000057 "Posted Payment Orders Maturity"
-- page/7000058 "Post. Pmt. Ord. Maturity Lin."
-- page/7000059 "Post. Payment Orders Analysis"
-- page/7000060 "Closed Payment Orders"
-- page/7000061 "Closed Payment Orders List"
-- page/7000062 "Closed Pmt. Ord. Analysis"
-- page/7000063 "Customer Ratings"
-- page/7000064 "Posted Bill Group Select."
-- page/7000065 "Posted Payment Orders Select."
-- page/7000066 "Bank Cat. Posted Receiv. Bills"
-- page/7000067 "Posted Bills"
-- page/7000068 "Posted Bills Analysis"
-- page/7000069 "Posted Receiv. Bills Maturity"
-- page/7000070 "Posted Bills Maturity Lin."
-- page/7000071 "Bank Cat. Posted Payable Bills"
-- page/7000072 "Posted Payable Bills Maturity"
-- page/7000073 "Suffixes"
-- page/7000075 "Docs. in PO Subform"
-- page/7000076 "Docs. in Posted PO Subform"
-- page/7000077 "Docs. in Closed PO Subform"
-- pageextension/10710 "Service Order Archive ES"
-- pageextension/10730 "Service Order ES"
-- pageextension/10731 "Posted Service Credit Memos ES"
-- pageextension/10732 "Posted Service Credit Memo ES"
-- pageextension/10733 "Service Invoice ES"
-- pageextension/10735 "Service Credit Memo ES"
-- pageextension/10736 "Posted Service Inv. Update ES"
-- pageextension/10737 "Posted Service Invoices ES"
-- pageextension/10738 "Posted Service Invoice ES"
-- pageextension/7000000 "SII Purchase Credit Memo"
-- pageextension/7000001 "SII Purchase Invoice"
-- pageextension/7000002 "SII Purchase Order"
-- pageextension/7000003 "SII Purchase Return Order"
-- pageextension/7000004 "SII Posted Purch. Credit Memo"
-- pageextension/7000005 "SII Posted Purchase Invoice"
-- pageextension/7000006 "SII Sales Credit Memo"
-- pageextension/7000007 "SII Sales Invoice"
-- pageextension/7000008 "SII Sales Order"
-- pageextension/7000009 "SII Sales Return Order"
-- pageextension/7000010 "SII Posted Sales Credit Memo"
-- pageextension/7000011 "SII Posted Sales Invoice"
-- pageextension/7000027 "SII Payment Methods"
-- pageextension/7000030 "SII O365 Activities"
-- pageextension/7000031 "SII Accountant Activities"
-- pageextension/7000032 "SII Account Manager Activities"
-- pageextension/7000033 "SII Acc. Payables Activities"
-- pageextension/7000035 "SII Acc. Receivable Activities"
-- pageextension/7000036 "SII VAT Clauses"
-- pageextension/7000037 "SII VAT Posting Setup"
-- pageextension/7000039 "SII Bookkeeper Activities"
-- pageextension/7000040 "SII Finance Manager RC"
-- pageextension/7000041 "SII AccountantPortal Act. Cues"
-- pageextension/7000042 "SII PostedPurchaseCreditMemos"
-- pageextension/7000043 "SII Posted Purchase Invoices"
-- pageextension/7000045 "SII VAT Posting Setup Card"
-- pageextension/7000046 "SII Posted Sales Credit Memos"
-- pageextension/7000047 "SII Posted Sales Invoices"
-- pageextension/7000048 "SII Pstd. Sales Cr.Memo Update"
-- pageextension/7000049 "SII SO Processor Activities"
-- pageextension/7000051 "SII Posted Purch.CrMemo Update"
-- permissionsetextension/1001 "SII LOCAL"
-- permissionsetextension/7000002 "SII LOCAL READ"
-- report/10700 "Set Period Trans. Nos."
-- report/10702 "Customer - Annual Declaration"
-- report/10703 "Vendor - Annual Declaration"
-- report/10704 "Sales Invoice Book"
-- report/10705 "Purchases Invoice Book"
-- report/10706 "Account - Official Acc. Book"
-- report/10707 "Make 347 Declaration"
-- report/10708 "Make 347 Declaration Labels"
-- report/10709 "Make 349 Declaration Labels"
-- report/10710 "Make 349 Declaration"
-- report/10711 "Detail Account Statement"
-- report/10712 "Purchases - AutoInvoice"
-- report/10713 "Purchases - AutoCredit Memo"
-- report/10714 "AutoInvoices List"
-- report/10715 "Telematic VAT Declaration"
-- report/10716 "Official Acc.Summarized Book"
-- report/10717 "Normalized Account Schedule"
-- report/10718 "XML VAT Declaration"
-- report/10720 "Export Schedules to ASC format"
-- report/10721 "Export Electronic Payments"
-- report/10722 "Void Electronic Payments"
-- report/10723 "Main Accounting Book"
-- report/10725 "Detail Acc. Stat.- C&O Entries"
-- report/10740 "Long Term Sales Invoices"
-- report/10741 "Long Term Purchase Invoices"
-- report/10742 "Test VAT Registration Number"
-- report/10743 "Make 340 Declaration"
-- report/10746 "Not Fully Applied Cash Pmts."
-- report/10747 "Customer - Overdue Payments"
-- report/10748 "Vendor - Overdue Payments"
-- report/10790 "Service Order (ES)"
-- report/10791 "Service Credit Memo (ES)"
-- report/10792 "Service Invoice (ES)"
-- report/7000000 "Bill Group Listing"
-- report/7000001 "Posted Bill Group Listing"
-- report/7000002 "Closed Bill Group Listing"
-- report/7000003 "Receivable Bill"
-- report/7000004 "Bank - Summ. Bill Group"
-- report/7000005 "Bank - Risk"
-- report/7000006 "Customer - Due Payments"
-- report/7000007 "Vendor - Due Payments"
-- report/7000008 "Bill Group - Test"
-- report/7000009 "Payment Order - Test"
-- report/7000010 "Payment Order Listing"
-- report/7000011 "Posted Payment Order Listing"
-- report/7000012 "Closed Payment Order Listing"
-- report/7000050 "Notice Assignment Credits"
-- report/7000060 "PO - Export N34.1"
-- report/7000061 "Void PO - Export"
-- report/7000080 "Post Payment Order"
-- report/7000082 "Settle Docs. in Posted PO"
-- report/7000083 "Redraw Payable Bills"
-- report/7000084 "Partial Settl.- Receivable"
-- report/7000085 "Partial Settl. - Payable"
-- report/7000086 "Batch Settl. Posted Bill Grs."
-- report/7000087 "Batch Settl. Posted POs"
-- report/7000089 "Bill group - Export factoring"
-- report/7000090 "Payment order - Export N34"
-- report/7000091 "Bill group - Export N58"
-- report/7000092 "Bill group - Export N19"
-- report/7000093 "Bill group - Export N32"
-- report/7000094 "Categorize Posted Documents"
-- report/7000095 "Categorize Documents"
-- report/7000096 "Redraw Receivable Bills"
-- report/7000097 "Reject Docs."
-- report/7000098 "Settle Docs. in Post. Bill Gr."
-- report/7000099 "Post Bill Group"
-- table/10700 "Inc. Stmt. Clos. Buffer"
-- table/10701 "Payment Day"
-- table/10702 "Non-Payment Period"
-- table/10703 "Acc. Schedule Buffer"
-- table/10704 "Sales/Purch. Book VAT Buffer"
-- table/10705 "AEAT Transference Format"
-- table/10706 "Statistical Code"
-- table/10710 "AEAT Transference Format XML"
-- table/10720 "G/L Accounts Equivalence Tool"
-- table/10721 "Historic G/L Account"
-- table/10722 "New G/L Account"
-- table/10723 "G/L Acc. Equiv. Tool Setup"
-- table/10724 "History of Equivalences COA"
-- table/10725 "Hist. G/L Account (An. View)"
-- table/10726 "G/L Account Buffer"
-- table/10727 "Selected G/L Accounts"
-- table/10730 "Gen. Prod. Post. Group Buffer"
-- table/10731 "Selected Gen. Prod. Post. Gr."
-- table/10732 "Customer/Vendor Warning 349"
-- table/10733 "Selected Gen. Prod. Post. 340"
-- table/10734 "Selected Rev. Charge Grp. 340"
-- table/10740 "No Taxable Entry"
-- table/10743 "Customer Cash Buffer"
-- table/10744 "340 Declaration Line"
-- table/10745 "Operation Code"
-- table/10750 "SII History"
-- table/10751 "SII Setup"
-- table/10752 "SII Doc. Upload State"
-- table/10753 "SII Session"
-- table/10754 "SII Missing Entries State"
-- table/10755 "SII Sales Document Scheme Code"
-- table/10756 "SII Purch. Doc. Scheme Code"
-- table/10799 "SII Sending State"
-- table/7000002 "Cartera Doc."
-- table/7000003 "Posted Cartera Doc."
-- table/7000004 "Closed Cartera Doc."
-- table/7000005 "Bill Group"
-- table/7000006 "Posted Bill Group"
-- table/7000007 "Closed Bill Group"
-- table/7000008 "BG/PO Comment Line"
-- table/7000009 "Category Code"
-- table/7000010 "Operation Fee"
-- table/7000011 "Doc. Post. Buffer"
-- table/7000012 "BG/PO Post. Buffer"
-- table/7000013 "Cartera Report Selections"
-- table/7000014 "Customer Pmt. Address"
-- table/7000015 "Vendor Pmt. Address"
-- table/7000016 "Cartera Setup"
-- table/7000018 "Installment"
-- table/7000019 "Fee Range"
-- table/7000020 "Payment Order"
-- table/7000021 "Posted Payment Order"
-- table/7000022 "Closed Payment Order"
-- table/7000023 "Customer Rating"
-- table/7000024 "Suffix"
-- tableextension/254 "SII VAT Entry"
-- tableextension/10710 "Service Header Archive ES"
-- tableextension/10711 "Service Line Archive ES"
-- tableextension/10790 "Service Header ES"
-- tableextension/10791 "Service Line ES"
-- tableextension/10792 "Service Invoice Header ES"
-- tableextension/10793 "Service Invoice Line ES"
-- tableextension/10794 "Service Cr.Memo Header ES"
-- tableextension/10795 "Service Cr.Memo Line ES"
-- tableextension/10796 "Service Shipment Header ES"
-- tableextension/7000000 "SourceCodeSetupES"
-- tableextension/7000012 "SII Purchase Header"
-- tableextension/7000013 "SII Purchase Line"
-- tableextension/7000014 "SII Purch. Inv. Header"
-- tableextension/7000015 "SII Purch. Inv. Line"
-- tableextension/7000016 "SII Purch. Cr. Memo Hdr."
-- tableextension/7000017 "SII Purch. Cr. Memo Line"
-- tableextension/7000018 "SII Vendor Ledger Entry"
-- tableextension/7000019 "SII Sales Header"
-- tableextension/7000020 "SII Sales Line"
-- tableextension/7000021 "SII Sales Inv. Header"
-- tableextension/7000022 "SII Sales Inv. Line"
-- tableextension/7000023 "SII Sales Cr. Memo Header"
-- tableextension/7000024 "SII Sales Cr. Memo Line"
-- tableextension/7000025 "SII Cust. Ledger Entry"
-- tableextension/7000026 "SII Payment Method"
-- tableextension/7000028 "SII Gen. Journal Line"
-- tableextension/7000029 "SII VAT Clause"
-- tableextension/7000030 "SII VAT Posting Setup"
-- tableextension/7000031 "SII Finance Cue"
-- tableextension/7000040 "SII No Taxable Entry"
-- tableextension/7000043 "SII Activities Cue"
-- tableextension/7000045 "SII Purchase Cue"
-- tableextension/7000046 "SII Sales Cue"
-- xmlport/10700 "Hist. Consolid. Import/Export"
-- xmlport/10720 "G/L Importing Tool"
+- [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-es.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-es.md)
+- [codeunit/10700 "Due Date-Adjust"](../objects/codeunit/10700-es.md)
+- [codeunit/10701 "Elect. Pmts Management"](../objects/codeunit/10701-es.md)
+- [codeunit/10710 "Serv. Make 349 Declaration"](../objects/codeunit/10710-es.md)
+- [codeunit/10721 "Create Electronic Payments"](../objects/codeunit/10721-es.md)
+- [codeunit/10740 "No Taxable Mgt."](../objects/codeunit/10740-es.md)
+- [codeunit/10741 "Serv. No Taxable Mgt."](../objects/codeunit/10741-es.md)
+- [codeunit/10750 "SII XML Creator"](../objects/codeunit/10750-es.md)
+- [codeunit/10751 "SII Job Management"](../objects/codeunit/10751-es.md)
+- [codeunit/10752 "SII Doc. Upload Management"](../objects/codeunit/10752-es.md)
+- [codeunit/10753 "SII Job Upload Pending Docs."](../objects/codeunit/10753-es.md)
+- [codeunit/10754 "SII Job Retry Comm. Error"](../objects/codeunit/10754-es.md)
+- [codeunit/10755 "SII Initial Doc. Upload"](../objects/codeunit/10755-es.md)
+- [codeunit/10756 "SII Management"](../objects/codeunit/10756-es.md)
+- [codeunit/10757 "SII Recreate Missing Entries"](../objects/codeunit/10757-es.md)
+- [codeunit/10758 "SII Scheme Code Mgt."](../objects/codeunit/10758-es.md)
+- [codeunit/10759 "Serv. SII Management"](../objects/codeunit/10759-es.md)
+- [codeunit/10760 "Localization Management"](../objects/codeunit/10760-es.md)
+- [codeunit/10762 "Service History Subscr. ES"](../objects/codeunit/10762-es.md)
+- [codeunit/10763 "Service Document Subscr. ES"](../objects/codeunit/10763-es.md)
+- [codeunit/10765 "Sales Invoice Header - Edit"](../objects/codeunit/10765-es.md)
+- [codeunit/10767 "Purch. Cr. Memo Hdr. - Edit"](../objects/codeunit/10767-es.md)
+- [codeunit/10768 "Service Invoice Header - Edit"](../objects/codeunit/10768-es.md)
+- [codeunit/10769 "Service Cr. Memo Header - Edit"](../objects/codeunit/10769-es.md)
+- [codeunit/10788 "Sales Document Subscr. ES"](../objects/codeunit/10788-es.md)
+- [codeunit/10789 "Service Posting Subscr. ES"](../objects/codeunit/10789-es.md)
+- [codeunit/10791 "Serv. Report Selection Mgt. ES"](../objects/codeunit/10791-es.md)
+- [codeunit/10840 "No Taxable - Generate Entries"](../objects/codeunit/10840-es.md)
+- [codeunit/104100 "UPG SII"](../objects/codeunit/104100-es.md)
+- [codeunit/104102 "Upg No Taxable"](../objects/codeunit/104102-es.md)
+- [codeunit/104107 "Upg Report Selections"](../objects/codeunit/104107-es.md)
+- [codeunit/7000000 "CarteraManagement"](../objects/codeunit/7000000-es.md)
+- [codeunit/7000001 "G/L Reg.-Docs."](../objects/codeunit/7000001-es.md)
+- [codeunit/7000003 "BG/PO-Post and Print"](../objects/codeunit/7000003-es.md)
+- [codeunit/7000004 "Document-Move"](../objects/codeunit/7000004-es.md)
+- [codeunit/7000005 "Invoice-Split Payment"](../objects/codeunit/7000005-es.md)
+- [codeunit/7000006 "Document-Post"](../objects/codeunit/7000006-es.md)
+- [codeunit/7000007 "Document-Misc"](../objects/codeunit/7000007-es.md)
+- [codeunit/7000008 "Document-Edit"](../objects/codeunit/7000008-es.md)
+- [codeunit/7000009 "Posted Cartera Doc.- Edit"](../objects/codeunit/7000009-es.md)
+- [codeunit/7000010 "Company-Initialize Cartera"](../objects/codeunit/7000010-es.md)
+- [codeunit/7000026 "SII Purchase Subscribers"](../objects/codeunit/7000026-es.md)
+- [codeunit/7000027 "SII Sales Subscribers"](../objects/codeunit/7000027-es.md)
+- [codeunit/7000029 "SII VAT Subscribers"](../objects/codeunit/7000029-es.md)
+- [codeunit/7000030 "SII DataClass EvalData Country"](../objects/codeunit/7000030-es.md)
+- [codeunit/7000034 "Serv. SuggestWorksheetLines ES"](../objects/codeunit/7000034-es.md)
+- [codeunit/7000035 "Serv. Invoice-Split Payment"](../objects/codeunit/7000035-es.md)
+- [codeunit/7000060 "PO - Export N34.1"](../objects/codeunit/7000060-es.md)
+- [codeunit/7000089 "Bill group - Export factoring"](../objects/codeunit/7000089-es.md)
+- [codeunit/7000090 "Payment order - Export N34"](../objects/codeunit/7000090-es.md)
+- [codeunit/7000091 "Bill group - Export N58"](../objects/codeunit/7000091-es.md)
+- [codeunit/7000092 "Bill group - Export N19"](../objects/codeunit/7000092-es.md)
+- [codeunit/7000093 "Bill group - Export N32"](../objects/codeunit/7000093-es.md)
+- [enum/10700 "SII Sales Special Scheme Code"](../objects/enum/10700-es.md)
+- [enum/10701 "SII Purch. Special Scheme Code"](../objects/enum/10701-es.md)
+- [enum/10702 "SII Sales Upload Scheme Code"](../objects/enum/10702-es.md)
+- [enum/10703 "SII Purch. Upload Scheme Code"](../objects/enum/10703-es.md)
+- [enum/10704 "SII Operation Date Type"](../objects/enum/10704-es.md)
+- [enum/10705 "SII Tax Period"](../objects/enum/10705-es.md)
+- [enum/10706 "SII Sales Invoice Type"](../objects/enum/10706-es.md)
+- [enum/10707 "SII Purch. Invoice Type"](../objects/enum/10707-es.md)
+- [enum/10708 "SII Sales Credit Memo Type"](../objects/enum/10708-es.md)
+- [enum/10709 "SII Purch. Credit Memo Type"](../objects/enum/10709-es.md)
+- [enum/10710 "SII ID Type"](../objects/enum/10710-es.md)
+- [enum/10711 "SII Document Status"](../objects/enum/10711-es.md)
+- [enum/10712 "SII Sales Upload Invoice Type"](../objects/enum/10712-es.md)
+- [enum/10713 "SII Purch. Upload Invoice Type"](../objects/enum/10713-es.md)
+- [enum/10714 "SII Sales Upload Credit Memo Type"](../objects/enum/10714-es.md)
+- [enum/10715 "SII Purch. Upload Cr. Memo Type"](../objects/enum/10715-es.md)
+- [enum/10721 "SII Exemption Code"](../objects/enum/10721-es.md)
+- [enum/10722 "ES Bill Type"](../objects/enum/10722-es.md)
+- [enum/10723 "ES Document Status"](../objects/enum/10723-es.md)
+- [enum/10724 "Cartera Document Status"](../objects/enum/10724-es.md)
+- [enum/10727 "ES Document Situation"](../objects/enum/10727-es.md)
+- [enum/10755 "SII Doc. Upload State Document Source"](../objects/enum/10755-es.md)
+- [enum/10756 "SII Doc. Upload State Document Type"](../objects/enum/10756-es.md)
+- [enum/7000000 "Cartera Document Type"](../objects/enum/7000000-es.md)
+- [enum/7000025 "Cartera Document Doc. Type"](../objects/enum/7000025-es.md)
+- [enum/7000026 "Cartera Dealing Type"](../objects/enum/7000026-es.md)
+- [enum/7000045 "Report Selection Usage Cartera"](../objects/enum/7000045-es.md)
+- [enumextension/20 "G/L Account Report Type ES"](../objects/enumextension/20-es.md)
+- [page/10700 "Payment Days"](../objects/page/10700-es.md)
+- [page/10701 "Non-Payment Periods"](../objects/page/10701-es.md)
+- [page/10704 "Transference Format"](../objects/page/10704-es.md)
+- [page/10705 "Copy Data Transference Format"](../objects/page/10705-es.md)
+- [page/10706 "Statistical Codes"](../objects/page/10706-es.md)
+- [page/10710 "XML Transference Format"](../objects/page/10710-es.md)
+- [page/10734 "G/L Account Selection"](../objects/page/10734-es.md)
+- [page/10735 "Gen. Prod. Post. Gr. Selection"](../objects/page/10735-es.md)
+- [page/10736 "Customer/Vendor Warnings 349"](../objects/page/10736-es.md)
+- [page/10737 "Gen. Prod. Post. Selection 340"](../objects/page/10737-es.md)
+- [page/10738 "Rev. Chg. Post. Selection 340"](../objects/page/10738-es.md)
+- [page/10740 "No Taxable Entries"](../objects/page/10740-es.md)
+- [page/10744 "340 Declaration Lines"](../objects/page/10744-es.md)
+- [page/10745 "Operation Codes"](../objects/page/10745-es.md)
+- [page/10751 "SII Setup"](../objects/page/10751-es.md)
+- [page/10752 "SII History"](../objects/page/10752-es.md)
+- [page/10753 "Recreate Missing SII Entries"](../objects/page/10753-es.md)
+- [page/10765 "Posted Sales Invoice - Update"](../objects/page/10765-es.md)
+- [page/10767 "Posted Purch. Cr.Memo - Update"](../objects/page/10767-es.md)
+- [page/10768 "Posted Serv. Invoice - Update"](../objects/page/10768-es.md)
+- [page/10769 "Posted Serv. Cr. Memo - Update"](../objects/page/10769-es.md)
+- [page/10770 "SII Sales Doc. Scheme Codes"](../objects/page/10770-es.md)
+- [page/10771 "SII Purch. Doc. Scheme Codes"](../objects/page/10771-es.md)
+- [page/35290 "Rec. Docs Analysis Fact Box"](../objects/page/35290-es.md)
+- [page/35291 "BG Analysis Fact Box"](../objects/page/35291-es.md)
+- [page/35292 "Post. BG Analysis LCY Fact Box"](../objects/page/35292-es.md)
+- [page/35293 "Post. BG Analysis Non LCY FB"](../objects/page/35293-es.md)
+- [page/35294 "Closed BG Analysis LCY FB"](../objects/page/35294-es.md)
+- [page/35295 "Closed BG Analysis Non LCY FB"](../objects/page/35295-es.md)
+- [page/35296 "Closed Docs Analysis LCY FB"](../objects/page/35296-es.md)
+- [page/35297 "Closed Docs Analysis NonLCY FB"](../objects/page/35297-es.md)
+- [page/35298 "Pmt Orders Analysis Fact Box"](../objects/page/35298-es.md)
+- [page/35299 "Post. PO Analysis LCY Fact Box"](../objects/page/35299-es.md)
+- [page/35300 "Post. PO Analysis Non LCY FB"](../objects/page/35300-es.md)
+- [page/35301 "Closed PO Analysis LCY FB"](../objects/page/35301-es.md)
+- [page/35302 "Closed PO Analysis Non LCY FB"](../objects/page/35302-es.md)
+- [page/35303 "Bank Account Information FB"](../objects/page/35303-es.md)
+- [page/35304 "Cartera Receiv. Statistics FB"](../objects/page/35304-es.md)
+- [page/35305 "Cartera Payables Statistics FB"](../objects/page/35305-es.md)
+- [page/35306 "Cartera Fact. Statistics FB"](../objects/page/35306-es.md)
+- [page/36848 "Bank Cat.Post.Rec.Bills Matrix"](../objects/page/36848-es.md)
+- [page/36850 "Bank Cat.Post.Pay.Bills Matrix"](../objects/page/36850-es.md)
+- [page/7000001 "Receivables Cartera Docs"](../objects/page/7000001-es.md)
+- [page/7000002 "Payables Cartera Docs"](../objects/page/7000002-es.md)
+- [page/7000003 "Cartera Documents"](../objects/page/7000003-es.md)
+- [page/7000004 "Docs. in BG Subform"](../objects/page/7000004-es.md)
+- [page/7000005 "Docs. in Posted BG Subform"](../objects/page/7000005-es.md)
+- [page/7000006 "Posted Cartera Documents"](../objects/page/7000006-es.md)
+- [page/7000007 "Closed Cartera Documents"](../objects/page/7000007-es.md)
+- [page/7000008 "Docs. in Closed BG Subform"](../objects/page/7000008-es.md)
+- [page/7000009 "Bill Groups"](../objects/page/7000009-es.md)
+- [page/7000010 "Receivable Closed Cartera Docs"](../objects/page/7000010-es.md)
+- [page/7000011 "Bill Groups List"](../objects/page/7000011-es.md)
+- [page/7000012 "Posted Bill Groups"](../objects/page/7000012-es.md)
+- [page/7000013 "Payable Closed Cartera Docs"](../objects/page/7000013-es.md)
+- [page/7000014 "Posted Bill Groups List"](../objects/page/7000014-es.md)
+- [page/7000015 "Closed Bill Groups"](../objects/page/7000015-es.md)
+- [page/7000017 "Closed Bill Groups List"](../objects/page/7000017-es.md)
+- [page/7000018 "Bank Account Selection"](../objects/page/7000018-es.md)
+- [page/7000019 "Documents Analysis"](../objects/page/7000019-es.md)
+- [page/7000020 "Bill Groups Analysis"](../objects/page/7000020-es.md)
+- [page/7000021 "Posted Bill Groups Analysis"](../objects/page/7000021-es.md)
+- [page/7000022 "Closed Bill Groups Analysis"](../objects/page/7000022-es.md)
+- [page/7000023 "Category Codes"](../objects/page/7000023-es.md)
+- [page/7000024 "BG/PO Comment List"](../objects/page/7000024-es.md)
+- [page/7000025 "BG/PO Comment Sheet"](../objects/page/7000025-es.md)
+- [page/7000026 "Operation Fees"](../objects/page/7000026-es.md)
+- [page/7000029 "Documents Maturity"](../objects/page/7000029-es.md)
+- [page/7000030 "Documents Maturity Lines"](../objects/page/7000030-es.md)
+- [page/7000031 "Bill Groups Maturity"](../objects/page/7000031-es.md)
+- [page/7000032 "BG/PO Maturity Lines"](../objects/page/7000032-es.md)
+- [page/7000033 "Posted Bill Groups Maturity"](../objects/page/7000033-es.md)
+- [page/7000034 "Posted Bill Gr. Maturity Lines"](../objects/page/7000034-es.md)
+- [page/7000036 "Cartera Journal"](../objects/page/7000036-es.md)
+- [page/7000037 "Check Discount Credit Limit"](../objects/page/7000037-es.md)
+- [page/7000040 "Cartera Setup"](../objects/page/7000040-es.md)
+- [page/7000041 "Cartera Source Cd. Setup"](../objects/page/7000041-es.md)
+- [page/7000044 "Closed Documents Analysis"](../objects/page/7000044-es.md)
+- [page/7000045 "Report Selection - Cartera"](../objects/page/7000045-es.md)
+- [page/7000048 "Installments"](../objects/page/7000048-es.md)
+- [page/7000049 "Fee Ranges"](../objects/page/7000049-es.md)
+- [page/7000050 "Payment Orders"](../objects/page/7000050-es.md)
+- [page/7000051 "Payment Orders List"](../objects/page/7000051-es.md)
+- [page/7000052 "Payment Orders Maturity"](../objects/page/7000052-es.md)
+- [page/7000053 "Payment Orders Analysis"](../objects/page/7000053-es.md)
+- [page/7000054 "Posted Payment Orders"](../objects/page/7000054-es.md)
+- [page/7000055 "Posted Payment Orders List"](../objects/page/7000055-es.md)
+- [page/7000057 "Posted Payment Orders Maturity"](../objects/page/7000057-es.md)
+- [page/7000058 "Post. Pmt. Ord. Maturity Lin."](../objects/page/7000058-es.md)
+- [page/7000059 "Post. Payment Orders Analysis"](../objects/page/7000059-es.md)
+- [page/7000060 "Closed Payment Orders"](../objects/page/7000060-es.md)
+- [page/7000061 "Closed Payment Orders List"](../objects/page/7000061-es.md)
+- [page/7000062 "Closed Pmt. Ord. Analysis"](../objects/page/7000062-es.md)
+- [page/7000063 "Customer Ratings"](../objects/page/7000063-es.md)
+- [page/7000064 "Posted Bill Group Select."](../objects/page/7000064-es.md)
+- [page/7000065 "Posted Payment Orders Select."](../objects/page/7000065-es.md)
+- [page/7000066 "Bank Cat. Posted Receiv. Bills"](../objects/page/7000066-es.md)
+- [page/7000067 "Posted Bills"](../objects/page/7000067-es.md)
+- [page/7000068 "Posted Bills Analysis"](../objects/page/7000068-es.md)
+- [page/7000069 "Posted Receiv. Bills Maturity"](../objects/page/7000069-es.md)
+- [page/7000070 "Posted Bills Maturity Lin."](../objects/page/7000070-es.md)
+- [page/7000071 "Bank Cat. Posted Payable Bills"](../objects/page/7000071-es.md)
+- [page/7000072 "Posted Payable Bills Maturity"](../objects/page/7000072-es.md)
+- [page/7000073 "Suffixes"](../objects/page/7000073-es.md)
+- [page/7000075 "Docs. in PO Subform"](../objects/page/7000075-es.md)
+- [page/7000076 "Docs. in Posted PO Subform"](../objects/page/7000076-es.md)
+- [page/7000077 "Docs. in Closed PO Subform"](../objects/page/7000077-es.md)
+- [pageextension/10710 "Service Order Archive ES"](../objects/pageextension/10710-es.md)
+- [pageextension/10730 "Service Order ES"](../objects/pageextension/10730-es.md)
+- [pageextension/10731 "Posted Service Credit Memos ES"](../objects/pageextension/10731-es.md)
+- [pageextension/10732 "Posted Service Credit Memo ES"](../objects/pageextension/10732-es.md)
+- [pageextension/10733 "Service Invoice ES"](../objects/pageextension/10733-es.md)
+- [pageextension/10735 "Service Credit Memo ES"](../objects/pageextension/10735-es.md)
+- [pageextension/10736 "Posted Service Inv. Update ES"](../objects/pageextension/10736-es.md)
+- [pageextension/10737 "Posted Service Invoices ES"](../objects/pageextension/10737-es.md)
+- [pageextension/10738 "Posted Service Invoice ES"](../objects/pageextension/10738-es.md)
+- [pageextension/7000000 "SII Purchase Credit Memo"](../objects/pageextension/7000000-es.md)
+- [pageextension/7000001 "SII Purchase Invoice"](../objects/pageextension/7000001-es.md)
+- [pageextension/7000002 "SII Purchase Order"](../objects/pageextension/7000002-es.md)
+- [pageextension/7000003 "SII Purchase Return Order"](../objects/pageextension/7000003-es.md)
+- [pageextension/7000004 "SII Posted Purch. Credit Memo"](../objects/pageextension/7000004-es.md)
+- [pageextension/7000005 "SII Posted Purchase Invoice"](../objects/pageextension/7000005-es.md)
+- [pageextension/7000006 "SII Sales Credit Memo"](../objects/pageextension/7000006-es.md)
+- [pageextension/7000007 "SII Sales Invoice"](../objects/pageextension/7000007-es.md)
+- [pageextension/7000008 "SII Sales Order"](../objects/pageextension/7000008-es.md)
+- [pageextension/7000009 "SII Sales Return Order"](../objects/pageextension/7000009-es.md)
+- [pageextension/7000010 "SII Posted Sales Credit Memo"](../objects/pageextension/7000010-es.md)
+- [pageextension/7000011 "SII Posted Sales Invoice"](../objects/pageextension/7000011-es.md)
+- [pageextension/7000027 "SII Payment Methods"](../objects/pageextension/7000027-es.md)
+- [pageextension/7000030 "SII O365 Activities"](../objects/pageextension/7000030-es.md)
+- [pageextension/7000031 "SII Accountant Activities"](../objects/pageextension/7000031-es.md)
+- [pageextension/7000032 "SII Account Manager Activities"](../objects/pageextension/7000032-es.md)
+- [pageextension/7000033 "SII Acc. Payables Activities"](../objects/pageextension/7000033-es.md)
+- [pageextension/7000035 "SII Acc. Receivable Activities"](../objects/pageextension/7000035-es.md)
+- [pageextension/7000036 "SII VAT Clauses"](../objects/pageextension/7000036-es.md)
+- [pageextension/7000037 "SII VAT Posting Setup"](../objects/pageextension/7000037-es.md)
+- [pageextension/7000039 "SII Bookkeeper Activities"](../objects/pageextension/7000039-es.md)
+- [pageextension/7000040 "SII Finance Manager RC"](../objects/pageextension/7000040-es.md)
+- [pageextension/7000041 "SII AccountantPortal Act. Cues"](../objects/pageextension/7000041-es.md)
+- [pageextension/7000042 "SII PostedPurchaseCreditMemos"](../objects/pageextension/7000042-es.md)
+- [pageextension/7000043 "SII Posted Purchase Invoices"](../objects/pageextension/7000043-es.md)
+- [pageextension/7000045 "SII VAT Posting Setup Card"](../objects/pageextension/7000045-es.md)
+- [pageextension/7000046 "SII Posted Sales Credit Memos"](../objects/pageextension/7000046-es.md)
+- [pageextension/7000047 "SII Posted Sales Invoices"](../objects/pageextension/7000047-es.md)
+- [pageextension/7000048 "SII Pstd. Sales Cr.Memo Update"](../objects/pageextension/7000048-es.md)
+- [pageextension/7000049 "SII SO Processor Activities"](../objects/pageextension/7000049-es.md)
+- [pageextension/7000051 "SII Posted Purch.CrMemo Update"](../objects/pageextension/7000051-es.md)
+- [permissionsetextension/1001 "SII LOCAL"](../objects/permissionsetextension/1001-es.md)
+- [permissionsetextension/7000002 "SII LOCAL READ"](../objects/permissionsetextension/7000002-es.md)
+- [report/10700 "Set Period Trans. Nos."](../objects/report/10700-es.md)
+- [report/10702 "Customer - Annual Declaration"](../objects/report/10702-es.md)
+- [report/10703 "Vendor - Annual Declaration"](../objects/report/10703-es.md)
+- [report/10704 "Sales Invoice Book"](../objects/report/10704-es.md)
+- [report/10705 "Purchases Invoice Book"](../objects/report/10705-es.md)
+- [report/10706 "Account - Official Acc. Book"](../objects/report/10706-es.md)
+- [report/10707 "Make 347 Declaration"](../objects/report/10707-es.md)
+- [report/10708 "Make 347 Declaration Labels"](../objects/report/10708-es.md)
+- [report/10709 "Make 349 Declaration Labels"](../objects/report/10709-es.md)
+- [report/10710 "Make 349 Declaration"](../objects/report/10710-es.md)
+- [report/10711 "Detail Account Statement"](../objects/report/10711-es.md)
+- [report/10712 "Purchases - AutoInvoice"](../objects/report/10712-es.md)
+- [report/10713 "Purchases - AutoCredit Memo"](../objects/report/10713-es.md)
+- [report/10714 "AutoInvoices List"](../objects/report/10714-es.md)
+- [report/10715 "Telematic VAT Declaration"](../objects/report/10715-es.md)
+- [report/10716 "Official Acc.Summarized Book"](../objects/report/10716-es.md)
+- [report/10717 "Normalized Account Schedule"](../objects/report/10717-es.md)
+- [report/10718 "XML VAT Declaration"](../objects/report/10718-es.md)
+- [report/10720 "Export Schedules to ASC format"](../objects/report/10720-es.md)
+- [report/10721 "Export Electronic Payments"](../objects/report/10721-es.md)
+- [report/10722 "Void Electronic Payments"](../objects/report/10722-es.md)
+- [report/10723 "Main Accounting Book"](../objects/report/10723-es.md)
+- [report/10725 "Detail Acc. Stat.- C&O Entries"](../objects/report/10725-es.md)
+- [report/10740 "Long Term Sales Invoices"](../objects/report/10740-es.md)
+- [report/10741 "Long Term Purchase Invoices"](../objects/report/10741-es.md)
+- [report/10742 "Test VAT Registration Number"](../objects/report/10742-es.md)
+- [report/10743 "Make 340 Declaration"](../objects/report/10743-es.md)
+- [report/10746 "Not Fully Applied Cash Pmts."](../objects/report/10746-es.md)
+- [report/10747 "Customer - Overdue Payments"](../objects/report/10747-es.md)
+- [report/10748 "Vendor - Overdue Payments"](../objects/report/10748-es.md)
+- [report/10790 "Service Order (ES)"](../objects/report/10790-es.md)
+- [report/10791 "Service Credit Memo (ES)"](../objects/report/10791-es.md)
+- [report/10792 "Service Invoice (ES)"](../objects/report/10792-es.md)
+- [report/7000000 "Bill Group Listing"](../objects/report/7000000-es.md)
+- [report/7000001 "Posted Bill Group Listing"](../objects/report/7000001-es.md)
+- [report/7000002 "Closed Bill Group Listing"](../objects/report/7000002-es.md)
+- [report/7000003 "Receivable Bill"](../objects/report/7000003-es.md)
+- [report/7000004 "Bank - Summ. Bill Group"](../objects/report/7000004-es.md)
+- [report/7000005 "Bank - Risk"](../objects/report/7000005-es.md)
+- [report/7000006 "Customer - Due Payments"](../objects/report/7000006-es.md)
+- [report/7000007 "Vendor - Due Payments"](../objects/report/7000007-es.md)
+- [report/7000008 "Bill Group - Test"](../objects/report/7000008-es.md)
+- [report/7000009 "Payment Order - Test"](../objects/report/7000009-es.md)
+- [report/7000010 "Payment Order Listing"](../objects/report/7000010-es.md)
+- [report/7000011 "Posted Payment Order Listing"](../objects/report/7000011-es.md)
+- [report/7000012 "Closed Payment Order Listing"](../objects/report/7000012-es.md)
+- [report/7000050 "Notice Assignment Credits"](../objects/report/7000050-es.md)
+- [report/7000060 "PO - Export N34.1"](../objects/report/7000060-es.md)
+- [report/7000061 "Void PO - Export"](../objects/report/7000061-es.md)
+- [report/7000080 "Post Payment Order"](../objects/report/7000080-es.md)
+- [report/7000082 "Settle Docs. in Posted PO"](../objects/report/7000082-es.md)
+- [report/7000083 "Redraw Payable Bills"](../objects/report/7000083-es.md)
+- [report/7000084 "Partial Settl.- Receivable"](../objects/report/7000084-es.md)
+- [report/7000085 "Partial Settl. - Payable"](../objects/report/7000085-es.md)
+- [report/7000086 "Batch Settl. Posted Bill Grs."](../objects/report/7000086-es.md)
+- [report/7000087 "Batch Settl. Posted POs"](../objects/report/7000087-es.md)
+- [report/7000089 "Bill group - Export factoring"](../objects/report/7000089-es.md)
+- [report/7000090 "Payment order - Export N34"](../objects/report/7000090-es.md)
+- [report/7000091 "Bill group - Export N58"](../objects/report/7000091-es.md)
+- [report/7000092 "Bill group - Export N19"](../objects/report/7000092-es.md)
+- [report/7000093 "Bill group - Export N32"](../objects/report/7000093-es.md)
+- [report/7000094 "Categorize Posted Documents"](../objects/report/7000094-es.md)
+- [report/7000095 "Categorize Documents"](../objects/report/7000095-es.md)
+- [report/7000096 "Redraw Receivable Bills"](../objects/report/7000096-es.md)
+- [report/7000097 "Reject Docs."](../objects/report/7000097-es.md)
+- [report/7000098 "Settle Docs. in Post. Bill Gr."](../objects/report/7000098-es.md)
+- [report/7000099 "Post Bill Group"](../objects/report/7000099-es.md)
+- [table/10700 "Inc. Stmt. Clos. Buffer"](../objects/table/10700-es.md)
+- [table/10701 "Payment Day"](../objects/table/10701-es.md)
+- [table/10702 "Non-Payment Period"](../objects/table/10702-es.md)
+- [table/10703 "Acc. Schedule Buffer"](../objects/table/10703-es.md)
+- [table/10704 "Sales/Purch. Book VAT Buffer"](../objects/table/10704-es.md)
+- [table/10705 "AEAT Transference Format"](../objects/table/10705-es.md)
+- [table/10706 "Statistical Code"](../objects/table/10706-es.md)
+- [table/10710 "AEAT Transference Format XML"](../objects/table/10710-es.md)
+- [table/10720 "G/L Accounts Equivalence Tool"](../objects/table/10720-es.md)
+- [table/10721 "Historic G/L Account"](../objects/table/10721-es.md)
+- [table/10722 "New G/L Account"](../objects/table/10722-es.md)
+- [table/10723 "G/L Acc. Equiv. Tool Setup"](../objects/table/10723-es.md)
+- [table/10724 "History of Equivalences COA"](../objects/table/10724-es.md)
+- [table/10725 "Hist. G/L Account (An. View)"](../objects/table/10725-es.md)
+- [table/10726 "G/L Account Buffer"](../objects/table/10726-es.md)
+- [table/10727 "Selected G/L Accounts"](../objects/table/10727-es.md)
+- [table/10730 "Gen. Prod. Post. Group Buffer"](../objects/table/10730-es.md)
+- [table/10731 "Selected Gen. Prod. Post. Gr."](../objects/table/10731-es.md)
+- [table/10732 "Customer/Vendor Warning 349"](../objects/table/10732-es.md)
+- [table/10733 "Selected Gen. Prod. Post. 340"](../objects/table/10733-es.md)
+- [table/10734 "Selected Rev. Charge Grp. 340"](../objects/table/10734-es.md)
+- [table/10740 "No Taxable Entry"](../objects/table/10740-es.md)
+- [table/10743 "Customer Cash Buffer"](../objects/table/10743-es.md)
+- [table/10744 "340 Declaration Line"](../objects/table/10744-es.md)
+- [table/10745 "Operation Code"](../objects/table/10745-es.md)
+- [table/10750 "SII History"](../objects/table/10750-es.md)
+- [table/10751 "SII Setup"](../objects/table/10751-es.md)
+- [table/10752 "SII Doc. Upload State"](../objects/table/10752-es.md)
+- [table/10753 "SII Session"](../objects/table/10753-es.md)
+- [table/10754 "SII Missing Entries State"](../objects/table/10754-es.md)
+- [table/10755 "SII Sales Document Scheme Code"](../objects/table/10755-es.md)
+- [table/10756 "SII Purch. Doc. Scheme Code"](../objects/table/10756-es.md)
+- [table/10799 "SII Sending State"](../objects/table/10799-es.md)
+- [table/7000002 "Cartera Doc."](../objects/table/7000002-es.md)
+- [table/7000003 "Posted Cartera Doc."](../objects/table/7000003-es.md)
+- [table/7000004 "Closed Cartera Doc."](../objects/table/7000004-es.md)
+- [table/7000005 "Bill Group"](../objects/table/7000005-es.md)
+- [table/7000006 "Posted Bill Group"](../objects/table/7000006-es.md)
+- [table/7000007 "Closed Bill Group"](../objects/table/7000007-es.md)
+- [table/7000008 "BG/PO Comment Line"](../objects/table/7000008-es.md)
+- [table/7000009 "Category Code"](../objects/table/7000009-es.md)
+- [table/7000010 "Operation Fee"](../objects/table/7000010-es.md)
+- [table/7000011 "Doc. Post. Buffer"](../objects/table/7000011-es.md)
+- [table/7000012 "BG/PO Post. Buffer"](../objects/table/7000012-es.md)
+- [table/7000013 "Cartera Report Selections"](../objects/table/7000013-es.md)
+- [table/7000014 "Customer Pmt. Address"](../objects/table/7000014-es.md)
+- [table/7000015 "Vendor Pmt. Address"](../objects/table/7000015-es.md)
+- [table/7000016 "Cartera Setup"](../objects/table/7000016-es.md)
+- [table/7000018 "Installment"](../objects/table/7000018-es.md)
+- [table/7000019 "Fee Range"](../objects/table/7000019-es.md)
+- [table/7000020 "Payment Order"](../objects/table/7000020-es.md)
+- [table/7000021 "Posted Payment Order"](../objects/table/7000021-es.md)
+- [table/7000022 "Closed Payment Order"](../objects/table/7000022-es.md)
+- [table/7000023 "Customer Rating"](../objects/table/7000023-es.md)
+- [table/7000024 "Suffix"](../objects/table/7000024-es.md)
+- [tableextension/254 "SII VAT Entry"](../objects/tableextension/254-es.md)
+- [tableextension/10710 "Service Header Archive ES"](../objects/tableextension/10710-es.md)
+- [tableextension/10711 "Service Line Archive ES"](../objects/tableextension/10711-es.md)
+- [tableextension/10790 "Service Header ES"](../objects/tableextension/10790-es.md)
+- [tableextension/10791 "Service Line ES"](../objects/tableextension/10791-es.md)
+- [tableextension/10792 "Service Invoice Header ES"](../objects/tableextension/10792-es.md)
+- [tableextension/10793 "Service Invoice Line ES"](../objects/tableextension/10793-es.md)
+- [tableextension/10794 "Service Cr.Memo Header ES"](../objects/tableextension/10794-es.md)
+- [tableextension/10795 "Service Cr.Memo Line ES"](../objects/tableextension/10795-es.md)
+- [tableextension/10796 "Service Shipment Header ES"](../objects/tableextension/10796-es.md)
+- [tableextension/7000000 "SourceCodeSetupES"](../objects/tableextension/7000000-es.md)
+- [tableextension/7000012 "SII Purchase Header"](../objects/tableextension/7000012-es.md)
+- [tableextension/7000013 "SII Purchase Line"](../objects/tableextension/7000013-es.md)
+- [tableextension/7000014 "SII Purch. Inv. Header"](../objects/tableextension/7000014-es.md)
+- [tableextension/7000015 "SII Purch. Inv. Line"](../objects/tableextension/7000015-es.md)
+- [tableextension/7000016 "SII Purch. Cr. Memo Hdr."](../objects/tableextension/7000016-es.md)
+- [tableextension/7000017 "SII Purch. Cr. Memo Line"](../objects/tableextension/7000017-es.md)
+- [tableextension/7000018 "SII Vendor Ledger Entry"](../objects/tableextension/7000018-es.md)
+- [tableextension/7000019 "SII Sales Header"](../objects/tableextension/7000019-es.md)
+- [tableextension/7000020 "SII Sales Line"](../objects/tableextension/7000020-es.md)
+- [tableextension/7000021 "SII Sales Inv. Header"](../objects/tableextension/7000021-es.md)
+- [tableextension/7000022 "SII Sales Inv. Line"](../objects/tableextension/7000022-es.md)
+- [tableextension/7000023 "SII Sales Cr. Memo Header"](../objects/tableextension/7000023-es.md)
+- [tableextension/7000024 "SII Sales Cr. Memo Line"](../objects/tableextension/7000024-es.md)
+- [tableextension/7000025 "SII Cust. Ledger Entry"](../objects/tableextension/7000025-es.md)
+- [tableextension/7000026 "SII Payment Method"](../objects/tableextension/7000026-es.md)
+- [tableextension/7000028 "SII Gen. Journal Line"](../objects/tableextension/7000028-es.md)
+- [tableextension/7000029 "SII VAT Clause"](../objects/tableextension/7000029-es.md)
+- [tableextension/7000030 "SII VAT Posting Setup"](../objects/tableextension/7000030-es.md)
+- [tableextension/7000031 "SII Finance Cue"](../objects/tableextension/7000031-es.md)
+- [tableextension/7000040 "SII No Taxable Entry"](../objects/tableextension/7000040-es.md)
+- [tableextension/7000043 "SII Activities Cue"](../objects/tableextension/7000043-es.md)
+- [tableextension/7000045 "SII Purchase Cue"](../objects/tableextension/7000045-es.md)
+- [tableextension/7000046 "SII Sales Cue"](../objects/tableextension/7000046-es.md)
+- [xmlport/10700 "Hist. Consolid. Import/Export"](../objects/xmlport/10700-es.md)
+- [xmlport/10720 "G/L Importing Tool"](../objects/xmlport/10720-es.md)
 
 ## Other versions
 

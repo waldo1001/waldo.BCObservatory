@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c5fd76f7b1940aea57cc9d060bf2310681ad72bc0664f993237de83013ee524b
+  input_hash: 51f9705ea60e5e063c2e02a6abdf4ca284fd30f0858e79ad160d591c4a00d741
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al

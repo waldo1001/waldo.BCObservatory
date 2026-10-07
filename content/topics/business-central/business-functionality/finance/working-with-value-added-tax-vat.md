@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ad028dba20c6aa3ae5ccbe234005244d2b06633a03b29c05b1662f3109f2f4e9
@@ -141,15 +141,9 @@ links:
     - topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat
   localizations: []
   videos:
-    - video/Ax8yXCf7BY4
-    - video/Cj_n5x3gN_Y
     - video/fdzTWZyT6mI
-    - video/lcpk-gPfGQU
     - video/MWXwtRr6-Wk
-    - video/N_J1HB_fUCM
-    - video/tj1vvsmAMVs
   posts:
-    - post/gerardorenteria-blog/14717
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/
   guidelines: []
 learn_toc_path:
@@ -163,8 +157,8 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 7
-  blog: 2
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 7
@@ -257,15 +251,9 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../../../../posts/gerardorenteria-blog/14717.md) (community post): "VAT handling improvements, bank reconciliation enhancements, and new reporting"
 - [Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md) (community post): "VAT Product Posting Group changes; Prices Incl. VAT; vat; pricing"
-- [What's New: Legislation and Localization (2023 release wave 2)](../../../../videos/Ax8yXCf7BY4.md) (video): "legislation compliance; delocalization; eu three-party trade; automatic account codes"
-- [What's New: Excise Taxes (2026 release wave 1)](../../../../videos/Cj_n5x3gN_Y.md) (video): "Excise taxes; excise duties; tax calculation; regulatory compliance"
 - [Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)](../../../../videos/fdzTWZyT6mI.md) (video): "Multiple VAT Numbers for Customers (2024 release wave 2). Topics: multiple vat numbers; customers; vat registration"
-- [What's New: Excise Taxes Framework (2025 release wave 2)](../../../../videos/lcpk-gPfGQU.md) (video): "Excise Taxes Framework; Excise Journal; Excise Tax Registration Transaction Logs"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date in Business Central; VAT Date field; VAT setup"
-- [What's new in Finance: Overview (2026 release wave 2)](../../../../videos/N_J1HB_fUCM.md) (video): "Excise taxes; self-billing; withholding taxes; localization"
-- [What's new in Expense Agent: Overview (2026 release wave 2)](../../../../videos/tj1vvsmAMVs.md) (video): "VAT Reclaim in Expense Reports; VAT Specification per Expense Line"
 
 ## Business Central pages and reports
 

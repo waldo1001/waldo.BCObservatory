@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -224,7 +224,7 @@ Adds BAS, GST and WHT functionality to posting and reporting. This includes BAS 
 
 Why: Learn describes GST and BAS reporting to the ATO, and WHT on payments to vendors without an ABN, as local requirements.
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/254 "VAT Entry"](../objects/table/254.md), codeunit/11601 "BAS Management" (own), codeunit/28040 "WHTManagement" (own), page/11600 "BAS Setup" (own), report/11603 "Calculate GST Settlement" (own).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/11601 "BAS Management"](../objects/codeunit/11601-au.md) (own), [codeunit/28040 "WHTManagement"](../objects/codeunit/28040-au.md) (own), [page/11600 "BAS Setup"](../objects/page/11600-au.md) (own), [report/11603 "Calculate GST Settlement"](../objects/report/11603-au.md) (own).
 
 [All 174 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -244,7 +244,7 @@ Adds adjustment note, WHT, sales tax exemption and tax document fields to sales 
 
 Why: Learn documents GST on prepayments and tax invoice and credit memo handling.
 
-Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/18 "Customer"](../objects/table/18.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), report/17110 "AU/NZ Statement" (own).
+Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/18 "Customer"](../objects/table/18.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [report/17110 "AU/NZ Statement"](../objects/report/17110-au.md) (own).
 
 [All 27 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -254,7 +254,7 @@ Adds ABN, tax period, WHT registration and RDO fields to Company Information, pl
 
 Why: Learn explains that postal codes can cover several cities and same-named cities exist in different states, so city and state dropdowns improve address accuracy.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/9 "Country/Region"](../objects/table/9.md), table/28004 "County" (own), page/28003 "Counties" (own), table/28002 "Address Buffer" (own), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/242 "Source Code Setup"](../objects/table/242.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/9 "Country/Region"](../objects/table/9.md), [table/28004 "County"](../objects/table/28004-au.md) (own), [page/28003 "Counties"](../objects/page/28003-au.md) (own), [table/28002 "Address Buffer"](../objects/table/28002-au.md) (own), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/242 "Source Code Setup"](../objects/table/242.md).
 
 [All 19 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -264,7 +264,7 @@ Adds EFT payments (EFT Management, EFT Register table and page, Create EFT File 
 
 Why: Learn describes EFT as the way to pay vendors with bank file export.
 
-Objects: codeunit/11603 "EFT Management" (own), table/11609 "EFT Register" (own), report/11608 "Create EFT File" (own), report/11607 "Transfer EFT Register" (own), [table/270 "Bank Account"](../objects/table/270.md), report/28021 "Bank Account Reconciliation" (own), report/28023 "Deposit Slip" (own), report/28020 "Bank Detail Cashflow Compare" (own).
+Objects: [codeunit/11603 "EFT Management"](../objects/codeunit/11603-au.md) (own), [table/11609 "EFT Register"](../objects/table/11609-au.md) (own), [report/11608 "Create EFT File"](../objects/report/11608-au.md) (own), [report/11607 "Transfer EFT Register"](../objects/report/11607-au.md) (own), [table/270 "Bank Account"](../objects/table/270.md), [report/28021 "Bank Account Reconciliation"](../objects/report/28021-au.md) (own), [report/28023 "Deposit Slip"](../objects/report/28023-au.md) (own), [report/28020 "Bank Detail Cashflow Compare"](../objects/report/28020-au.md) (own).
 
 [All 15 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -274,7 +274,7 @@ Adds the WHT Product Posting Group to Item, Item Template and Item Charge, a ven
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5804 "ItemCostManagement"](../objects/codeunit/5804.md), [table/27 "Item"](../objects/table/27.md), [table/5800 "Item Charge"](../objects/table/5800.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/83 "Item Journal Line"](../objects/table/83.md), report/14311 "Stock Card" (own), report/28022 "Stock Movement" (own).
+Objects: [codeunit/5804 "ItemCostManagement"](../objects/codeunit/5804.md), [table/27 "Item"](../objects/table/27.md), [table/5800 "Item Charge"](../objects/table/5800.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/83 "Item Journal Line"](../objects/table/83.md), [report/14311 "Stock Card"](../objects/report/14311-au.md) (own), [report/28022 "Stock Movement"](../objects/report/28022-au.md) (own).
 
 [All 8 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -284,7 +284,7 @@ Adds barcode management with a barcode checking report and a barcode batch job, 
 
 Why: Learn lists barcode printing and delivery point identifier among the address features.
 
-Objects: codeunit/28001 "BarCode Management" (own), report/28000 "BarCode Checking" (own), report/28001 "BarCode Batch Job" (own).
+Objects: [codeunit/28001 "BarCode Management"](../objects/codeunit/28001-au.md) (own), [report/28000 "BarCode Checking"](../objects/report/28000-au.md) (own), [report/28001 "BarCode Batch Job"](../objects/report/28001-au.md) (own).
 
 [All 3 objects of Text in the diff](?ns=Text#country-diff)
 
@@ -294,7 +294,7 @@ Adds the BAS Export codeunit and a source code table extension for the APAC laye
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/11604 "BAS Export" (own), tableextension/28160 "SourcecodeAPAC" (own).
+Objects: [codeunit/11604 "BAS Export"](../objects/codeunit/11604-au.md) (own), [tableextension/28160 "SourcecodeAPAC"](../objects/tableextension/28160-au.md) (own).
 
 [All 2 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -324,7 +324,7 @@ Adds an APAC service document management codeunit and a Service Manager role cen
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/11612 "Serv. Document Mgt. APAC" (own), pageextension/28041 "Serv.ServiceMgrRoleCenter APAC" (own).
+Objects: [codeunit/11612 "Serv. Document Mgt. APAC"](../objects/codeunit/11612-au.md) (own), [pageextension/28041 "Serv.ServiceMgrRoleCenter APAC"](../objects/pageextension/28041-au.md) (own).
 
 [All 2 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -384,7 +384,7 @@ Adds the CodeUnit Selection page.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: page/28001 "CodeUnit Selection" (own).
+Objects: [page/28001 "CodeUnit Selection"](../objects/page/28001-au.md) (own).
 
 [All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -516,177 +516,177 @@ Objects: page/28001 "CodeUnit Selection" (own).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+169 objects only this country has.
 
-- codeunit/355 "Local Navigate Handler"
-- codeunit/11600 "ABN Management"
-- codeunit/11601 "BAS Management"
-- codeunit/11602 "Import Subsidiary"
-- codeunit/11603 "EFT Management"
-- codeunit/11604 "BAS Export"
-- codeunit/11612 "Serv. Document Mgt. APAC"
-- codeunit/17100 "Recurring Amount - Distribute"
-- codeunit/28000 "Post Code Check"
-- codeunit/28001 "BarCode Management"
-- codeunit/28002 "Serv. Post Code Check"
-- codeunit/28020 "Report Management APAC"
-- codeunit/28040 "WHTManagement"
-- codeunit/28041 "G/L Reg.-WHT Entries"
-- codeunit/28042 "Service Format Address APAC"
-- codeunit/28066 "Purch. Cr. Memo Hdr. - Edit"
-- codeunit/28070 "TaxInvoiceManagement"
-- codeunit/28071 "Purch. Tax Inv.-Printed"
-- codeunit/28072 "Sales Tax Inv.-Printed"
-- codeunit/28073 "Purch. Tax Cr.Memo-Printed"
-- codeunit/28074 "Sales Tax Cr.Memo-Printed"
-- codeunit/28090 "PostDatedCheckMgt"
-- page/11600 "BAS Setup"
-- page/11601 "BAS Calculation Sheet"
-- page/11602 "BAS Calc. Schedule Fields"
-- page/11603 "BAS Calc. Schedule List"
-- page/11604 "BAS Business Units"
-- page/11605 "BAS ATO Receipt"
-- page/11606 "BAS Calc. Sheet Entries"
-- page/11607 "BAS Comment Lines"
-- page/11608 "BAS Setup Names"
-- page/11609 "BAS Setup Preview"
-- page/11610 "BAS Setup Preview Subform"
-- page/11611 "BAS - XML Field IDs"
-- page/11612 "BAS XML Field Setup Names"
-- page/11613 "BAS Business Units-Settlement"
-- page/11614 "BAS - XML Field IDs Setup"
-- page/11615 "EFT Register"
-- page/17101 "Amount Distribution"
-- page/28001 "CodeUnit Selection"
-- page/28003 "Counties"
-- page/28040 "WHT Business Posting Group"
-- page/28041 "WHT Product Posting Group"
-- page/28042 "WHT Revenue Types"
-- page/28043 "WHT Posting Setup"
-- page/28044 "WHT Entry"
-- page/28066 "Posted Purch. Cr.Memo - Update"
-- page/28071 "Posted Sales Tax Invoice"
-- page/28072 "Posted Sales Tax Inv. Subform"
-- page/28073 "Posted Sales Tax Credit Memo"
-- page/28074 "Posted Sales Tax Cr. Memo Sub"
-- page/28075 "Posted Purchase Tax Invoice"
-- page/28076 "Posted Purch. Tax Inv. Subform"
-- page/28077 "Posted Purch. Tax Credit Memo"
-- page/28078 "Posted Purch. Tax Cr. Memo Sub"
-- page/28079 "Posted Purch. Tax Invoices"
-- page/28080 "Posted Purch. Tax Cr. Memos"
-- page/28081 "Posted Sales Tax Invoices"
-- page/28082 "Posted Sales Tax Cr. Memos"
-- page/28090 "Post Dated Checks"
-- page/28091 "Post Dated Checks List"
-- page/28092 "Post Dated Checks-Purchases"
-- page/28093 "Post Dated Checks List-Purch."
-- page/28164 "GST Purchase Entries"
-- page/28165 "GST Sales Entries"
-- page/28166 "GST Purchase Entries Preview"
-- page/28167 "GST Sales Entries Preview"
-- pageextension/28040 "SourceCodeSetupAPAC"
-- pageextension/28041 "Serv.ServiceMgrRoleCenter APAC"
-- report/11600 "Withholding Summary"
-- report/11603 "Calculate GST Settlement"
-- report/11604 "BAS-Update"
-- report/11605 "Export BAS Setup to Excel"
-- report/11606 "Print BAS Export File"
-- report/11607 "Transfer EFT Register"
-- report/11608 "Create EFT File"
-- report/14303 "WHT Certificate"
-- report/14304 "WHT certificate preprint"
-- report/14305 "WHT Certificate TH - Copy"
-- report/14306 "WHT certificate preprint Copy"
-- report/14307 "WHT PND 1"
-- report/14308 "WHT PND 2"
-- report/14309 "WHT PND 3"
-- report/14310 "WHT Report - PND 53"
-- report/14311 "Stock Card"
-- report/16626 "Certificate of Creditable tax"
-- report/16627 "Monthly Remittance Return WHT"
-- report/16628 "Annual Information Return WHT"
-- report/16629 "Quarterly VAT Return"
-- report/16630 "E-Filing"
-- report/16631 "Monthly VAT Declaration"
-- report/16632 "WHT E-Filing"
-- report/17109 "Transaction Detail Report"
-- report/17110 "AU/NZ Statement"
-- report/17111 "Items Received & Not Invoiced"
-- report/17116 "Aged Acc. Rec. (BackDating)"
-- report/17117 "Aged Acc. Pay. (BackDating)"
-- report/28000 "BarCode Checking"
-- report/28001 "BarCode Batch Job"
-- report/28020 "Bank Detail Cashflow Compare"
-- report/28021 "Bank Account Reconciliation"
-- report/28022 "Stock Movement"
-- report/28023 "Deposit Slip"
-- report/28024 "Balance Sheet"
-- report/28025 "Income Statement"
-- report/28026 "Financial Analysis Report"
-- report/28027 "VAT Report - Vendor"
-- report/28028 "VAT Report - Customer"
-- report/28029 "Purchase Receipts"
-- report/28040 "WHT Certificate - Other"
-- report/28041 "Calc. and Post WHT Settlement"
-- report/28043 "WHT Certificate - Other Copy"
-- report/28070 "Pending Sales Tax Invoice"
-- report/28071 "Purch. - Tax Invoice"
-- report/28072 "Sales - Tax Invoice"
-- report/28073 "Purch. - Tax Cr. Memo"
-- report/28074 "Sales - Tax Cr. Memo"
-- report/28090 "Post Dated Checks"
-- report/28091 "Create Check Installments"
-- report/28092 "PDC Acknowledgement Receipt"
-- report/28140 "Adjust Settlement Exch. Rates"
-- report/28160 "G/L Journal"
-- report/28161 "Journals"
-- report/28162 "G/L Trial Balance"
-- report/28163 "G/L Detail Trial Balance"
-- report/28164 "GST Purchase Report"
-- report/28165 "GST Sales Report"
-- report/28166 "BAS - Import/Export"
-- report/28167 "BAS - Import/Export Setup"
-- table/11600 "BAS Setup"
-- table/11601 "BAS Calculation Sheet"
-- table/11602 "BAS XML Field ID"
-- table/11603 "BAS Business Unit"
-- table/11604 "BAS Calc. Sheet Entry"
-- table/11605 "BAS Comment Line"
-- table/11606 "BAS Setup Name"
-- table/11607 "BAS XML Field Setup Name"
-- table/11608 "BAS XML Field ID Setup"
-- table/11609 "EFT Register"
-- table/16608 "Temp WHT Entry - EFiling"
-- table/28002 "Address Buffer"
-- table/28003 "Address ID"
-- table/28004 "County"
-- table/28040 "WHT Business Posting Group"
-- table/28041 "WHT Product Posting Group"
-- table/28042 "WHT Revenue Types"
-- table/28043 "WHT Posting Setup"
-- table/28044 "WHT Entry"
-- table/28045 "WHT Certificate Buffer"
-- table/28046 "Temp WHT Entry"
-- table/28070 "Tax Posting Buffer"
-- table/28071 "Sales Tax Invoice Header"
-- table/28072 "Sales Tax Invoice Line"
-- table/28073 "Sales Tax Cr.Memo Header"
-- table/28074 "Sales Tax Cr.Memo Line"
-- table/28075 "Purch. Tax Inv. Header"
-- table/28076 "Purch. Tax Inv. Line"
-- table/28077 "Purch. Tax Cr. Memo Hdr."
-- table/28078 "Purch. Tax Cr. Memo Line"
-- table/28079 "Tax Document Buffer Build"
-- table/28080 "Tax Document Buffer"
-- table/28090 "Post Dated Check Line"
-- table/28160 "GST Purchase Entry"
-- table/28161 "GST Sales Entry"
-- tableextension/28040 "SourceCodeSetupAPAC"
-- tableextension/28072 "Serv. Sales Tax Invoice Line"
-- tableextension/28074 "Serv. Sales Tax Cr.Memo Line"
-- tableextension/28160 "SourcecodeAPAC"
-- xmlport/16630 "WHT-EFiling"
+- [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-au.md)
+- [codeunit/11600 "ABN Management"](../objects/codeunit/11600-au.md)
+- [codeunit/11601 "BAS Management"](../objects/codeunit/11601-au.md)
+- [codeunit/11602 "Import Subsidiary"](../objects/codeunit/11602-au.md)
+- [codeunit/11603 "EFT Management"](../objects/codeunit/11603-au.md)
+- [codeunit/11604 "BAS Export"](../objects/codeunit/11604-au.md)
+- [codeunit/11612 "Serv. Document Mgt. APAC"](../objects/codeunit/11612-au.md)
+- [codeunit/17100 "Recurring Amount - Distribute"](../objects/codeunit/17100-au.md)
+- [codeunit/28000 "Post Code Check"](../objects/codeunit/28000-au.md)
+- [codeunit/28001 "BarCode Management"](../objects/codeunit/28001-au.md)
+- [codeunit/28002 "Serv. Post Code Check"](../objects/codeunit/28002-au.md)
+- [codeunit/28020 "Report Management APAC"](../objects/codeunit/28020-au.md)
+- [codeunit/28040 "WHTManagement"](../objects/codeunit/28040-au.md)
+- [codeunit/28041 "G/L Reg.-WHT Entries"](../objects/codeunit/28041-au.md)
+- [codeunit/28042 "Service Format Address APAC"](../objects/codeunit/28042-au.md)
+- [codeunit/28066 "Purch. Cr. Memo Hdr. - Edit"](../objects/codeunit/28066-au.md)
+- [codeunit/28070 "TaxInvoiceManagement"](../objects/codeunit/28070-au.md)
+- [codeunit/28071 "Purch. Tax Inv.-Printed"](../objects/codeunit/28071-au.md)
+- [codeunit/28072 "Sales Tax Inv.-Printed"](../objects/codeunit/28072-au.md)
+- [codeunit/28073 "Purch. Tax Cr.Memo-Printed"](../objects/codeunit/28073-au.md)
+- [codeunit/28074 "Sales Tax Cr.Memo-Printed"](../objects/codeunit/28074-au.md)
+- [codeunit/28090 "PostDatedCheckMgt"](../objects/codeunit/28090-au.md)
+- [page/11600 "BAS Setup"](../objects/page/11600-au.md)
+- [page/11601 "BAS Calculation Sheet"](../objects/page/11601-au.md)
+- [page/11602 "BAS Calc. Schedule Fields"](../objects/page/11602-au.md)
+- [page/11603 "BAS Calc. Schedule List"](../objects/page/11603-au.md)
+- [page/11604 "BAS Business Units"](../objects/page/11604-au.md)
+- [page/11605 "BAS ATO Receipt"](../objects/page/11605-au.md)
+- [page/11606 "BAS Calc. Sheet Entries"](../objects/page/11606-au.md)
+- [page/11607 "BAS Comment Lines"](../objects/page/11607-au.md)
+- [page/11608 "BAS Setup Names"](../objects/page/11608-au.md)
+- [page/11609 "BAS Setup Preview"](../objects/page/11609-au.md)
+- [page/11610 "BAS Setup Preview Subform"](../objects/page/11610-au.md)
+- [page/11611 "BAS - XML Field IDs"](../objects/page/11611-au.md)
+- [page/11612 "BAS XML Field Setup Names"](../objects/page/11612-au.md)
+- [page/11613 "BAS Business Units-Settlement"](../objects/page/11613-au.md)
+- [page/11614 "BAS - XML Field IDs Setup"](../objects/page/11614-au.md)
+- [page/11615 "EFT Register"](../objects/page/11615-au.md)
+- [page/17101 "Amount Distribution"](../objects/page/17101-au.md)
+- [page/28001 "CodeUnit Selection"](../objects/page/28001-au.md)
+- [page/28003 "Counties"](../objects/page/28003-au.md)
+- [page/28040 "WHT Business Posting Group"](../objects/page/28040-au.md)
+- [page/28041 "WHT Product Posting Group"](../objects/page/28041-au.md)
+- [page/28042 "WHT Revenue Types"](../objects/page/28042-au.md)
+- [page/28043 "WHT Posting Setup"](../objects/page/28043-au.md)
+- [page/28044 "WHT Entry"](../objects/page/28044-au.md)
+- [page/28066 "Posted Purch. Cr.Memo - Update"](../objects/page/28066-au.md)
+- [page/28071 "Posted Sales Tax Invoice"](../objects/page/28071-au.md)
+- [page/28072 "Posted Sales Tax Inv. Subform"](../objects/page/28072-au.md)
+- [page/28073 "Posted Sales Tax Credit Memo"](../objects/page/28073-au.md)
+- [page/28074 "Posted Sales Tax Cr. Memo Sub"](../objects/page/28074-au.md)
+- [page/28075 "Posted Purchase Tax Invoice"](../objects/page/28075-au.md)
+- [page/28076 "Posted Purch. Tax Inv. Subform"](../objects/page/28076-au.md)
+- [page/28077 "Posted Purch. Tax Credit Memo"](../objects/page/28077-au.md)
+- [page/28078 "Posted Purch. Tax Cr. Memo Sub"](../objects/page/28078-au.md)
+- [page/28079 "Posted Purch. Tax Invoices"](../objects/page/28079-au.md)
+- [page/28080 "Posted Purch. Tax Cr. Memos"](../objects/page/28080-au.md)
+- [page/28081 "Posted Sales Tax Invoices"](../objects/page/28081-au.md)
+- [page/28082 "Posted Sales Tax Cr. Memos"](../objects/page/28082-au.md)
+- [page/28090 "Post Dated Checks"](../objects/page/28090-au.md)
+- [page/28091 "Post Dated Checks List"](../objects/page/28091-au.md)
+- [page/28092 "Post Dated Checks-Purchases"](../objects/page/28092-au.md)
+- [page/28093 "Post Dated Checks List-Purch."](../objects/page/28093-au.md)
+- [page/28164 "GST Purchase Entries"](../objects/page/28164-au.md)
+- [page/28165 "GST Sales Entries"](../objects/page/28165-au.md)
+- [page/28166 "GST Purchase Entries Preview"](../objects/page/28166-au.md)
+- [page/28167 "GST Sales Entries Preview"](../objects/page/28167-au.md)
+- [pageextension/28040 "SourceCodeSetupAPAC"](../objects/pageextension/28040-au.md)
+- [pageextension/28041 "Serv.ServiceMgrRoleCenter APAC"](../objects/pageextension/28041-au.md)
+- [report/11600 "Withholding Summary"](../objects/report/11600-au.md)
+- [report/11603 "Calculate GST Settlement"](../objects/report/11603-au.md)
+- [report/11604 "BAS-Update"](../objects/report/11604-au.md)
+- [report/11605 "Export BAS Setup to Excel"](../objects/report/11605-au.md)
+- [report/11606 "Print BAS Export File"](../objects/report/11606-au.md)
+- [report/11607 "Transfer EFT Register"](../objects/report/11607-au.md)
+- [report/11608 "Create EFT File"](../objects/report/11608-au.md)
+- [report/14303 "WHT Certificate"](../objects/report/14303-au.md)
+- [report/14304 "WHT certificate preprint"](../objects/report/14304-au.md)
+- [report/14305 "WHT Certificate TH - Copy"](../objects/report/14305-au.md)
+- [report/14306 "WHT certificate preprint Copy"](../objects/report/14306-au.md)
+- [report/14307 "WHT PND 1"](../objects/report/14307-au.md)
+- [report/14308 "WHT PND 2"](../objects/report/14308-au.md)
+- [report/14309 "WHT PND 3"](../objects/report/14309-au.md)
+- [report/14310 "WHT Report - PND 53"](../objects/report/14310-au.md)
+- [report/14311 "Stock Card"](../objects/report/14311-au.md)
+- [report/16626 "Certificate of Creditable tax"](../objects/report/16626-au.md)
+- [report/16627 "Monthly Remittance Return WHT"](../objects/report/16627-au.md)
+- [report/16628 "Annual Information Return WHT"](../objects/report/16628-au.md)
+- [report/16629 "Quarterly VAT Return"](../objects/report/16629-au.md)
+- [report/16630 "E-Filing"](../objects/report/16630-au.md)
+- [report/16631 "Monthly VAT Declaration"](../objects/report/16631-au.md)
+- [report/16632 "WHT E-Filing"](../objects/report/16632-au.md)
+- [report/17109 "Transaction Detail Report"](../objects/report/17109-au.md)
+- [report/17110 "AU/NZ Statement"](../objects/report/17110-au.md)
+- [report/17111 "Items Received & Not Invoiced"](../objects/report/17111-au.md)
+- [report/17116 "Aged Acc. Rec. (BackDating)"](../objects/report/17116-au.md)
+- [report/17117 "Aged Acc. Pay. (BackDating)"](../objects/report/17117-au.md)
+- [report/28000 "BarCode Checking"](../objects/report/28000-au.md)
+- [report/28001 "BarCode Batch Job"](../objects/report/28001-au.md)
+- [report/28020 "Bank Detail Cashflow Compare"](../objects/report/28020-au.md)
+- [report/28021 "Bank Account Reconciliation"](../objects/report/28021-au.md)
+- [report/28022 "Stock Movement"](../objects/report/28022-au.md)
+- [report/28023 "Deposit Slip"](../objects/report/28023-au.md)
+- [report/28024 "Balance Sheet"](../objects/report/28024-au.md)
+- [report/28025 "Income Statement"](../objects/report/28025-au.md)
+- [report/28026 "Financial Analysis Report"](../objects/report/28026-au.md)
+- [report/28027 "VAT Report - Vendor"](../objects/report/28027-au.md)
+- [report/28028 "VAT Report - Customer"](../objects/report/28028-au.md)
+- [report/28029 "Purchase Receipts"](../objects/report/28029-au.md)
+- [report/28040 "WHT Certificate - Other"](../objects/report/28040-au.md)
+- [report/28041 "Calc. and Post WHT Settlement"](../objects/report/28041-au.md)
+- [report/28043 "WHT Certificate - Other Copy"](../objects/report/28043-au.md)
+- [report/28070 "Pending Sales Tax Invoice"](../objects/report/28070-au.md)
+- [report/28071 "Purch. - Tax Invoice"](../objects/report/28071-au.md)
+- [report/28072 "Sales - Tax Invoice"](../objects/report/28072-au.md)
+- [report/28073 "Purch. - Tax Cr. Memo"](../objects/report/28073-au.md)
+- [report/28074 "Sales - Tax Cr. Memo"](../objects/report/28074-au.md)
+- [report/28090 "Post Dated Checks"](../objects/report/28090-au.md)
+- [report/28091 "Create Check Installments"](../objects/report/28091-au.md)
+- [report/28092 "PDC Acknowledgement Receipt"](../objects/report/28092-au.md)
+- [report/28140 "Adjust Settlement Exch. Rates"](../objects/report/28140-au.md)
+- [report/28160 "G/L Journal"](../objects/report/28160-au.md)
+- [report/28161 "Journals"](../objects/report/28161-au.md)
+- [report/28162 "G/L Trial Balance"](../objects/report/28162-au.md)
+- [report/28163 "G/L Detail Trial Balance"](../objects/report/28163-au.md)
+- [report/28164 "GST Purchase Report"](../objects/report/28164-au.md)
+- [report/28165 "GST Sales Report"](../objects/report/28165-au.md)
+- [report/28166 "BAS - Import/Export"](../objects/report/28166-au.md)
+- [report/28167 "BAS - Import/Export Setup"](../objects/report/28167-au.md)
+- [table/11600 "BAS Setup"](../objects/table/11600-au.md)
+- [table/11601 "BAS Calculation Sheet"](../objects/table/11601-au.md)
+- [table/11602 "BAS XML Field ID"](../objects/table/11602-au.md)
+- [table/11603 "BAS Business Unit"](../objects/table/11603-au.md)
+- [table/11604 "BAS Calc. Sheet Entry"](../objects/table/11604-au.md)
+- [table/11605 "BAS Comment Line"](../objects/table/11605-au.md)
+- [table/11606 "BAS Setup Name"](../objects/table/11606-au.md)
+- [table/11607 "BAS XML Field Setup Name"](../objects/table/11607-au.md)
+- [table/11608 "BAS XML Field ID Setup"](../objects/table/11608-au.md)
+- [table/11609 "EFT Register"](../objects/table/11609-au.md)
+- [table/16608 "Temp WHT Entry - EFiling"](../objects/table/16608-au.md)
+- [table/28002 "Address Buffer"](../objects/table/28002-au.md)
+- [table/28003 "Address ID"](../objects/table/28003-au.md)
+- [table/28004 "County"](../objects/table/28004-au.md)
+- [table/28040 "WHT Business Posting Group"](../objects/table/28040-au.md)
+- [table/28041 "WHT Product Posting Group"](../objects/table/28041-au.md)
+- [table/28042 "WHT Revenue Types"](../objects/table/28042-au.md)
+- [table/28043 "WHT Posting Setup"](../objects/table/28043-au.md)
+- [table/28044 "WHT Entry"](../objects/table/28044-au.md)
+- [table/28045 "WHT Certificate Buffer"](../objects/table/28045-au.md)
+- [table/28046 "Temp WHT Entry"](../objects/table/28046-au.md)
+- [table/28070 "Tax Posting Buffer"](../objects/table/28070-au.md)
+- [table/28071 "Sales Tax Invoice Header"](../objects/table/28071-au.md)
+- [table/28072 "Sales Tax Invoice Line"](../objects/table/28072-au.md)
+- [table/28073 "Sales Tax Cr.Memo Header"](../objects/table/28073-au.md)
+- [table/28074 "Sales Tax Cr.Memo Line"](../objects/table/28074-au.md)
+- [table/28075 "Purch. Tax Inv. Header"](../objects/table/28075-au.md)
+- [table/28076 "Purch. Tax Inv. Line"](../objects/table/28076-au.md)
+- [table/28077 "Purch. Tax Cr. Memo Hdr."](../objects/table/28077-au.md)
+- [table/28078 "Purch. Tax Cr. Memo Line"](../objects/table/28078-au.md)
+- [table/28079 "Tax Document Buffer Build"](../objects/table/28079-au.md)
+- [table/28080 "Tax Document Buffer"](../objects/table/28080-au.md)
+- [table/28090 "Post Dated Check Line"](../objects/table/28090-au.md)
+- [table/28160 "GST Purchase Entry"](../objects/table/28160-au.md)
+- [table/28161 "GST Sales Entry"](../objects/table/28161-au.md)
+- [tableextension/28040 "SourceCodeSetupAPAC"](../objects/tableextension/28040-au.md)
+- [tableextension/28072 "Serv. Sales Tax Invoice Line"](../objects/tableextension/28072-au.md)
+- [tableextension/28074 "Serv. Sales Tax Cr.Memo Line"](../objects/tableextension/28074-au.md)
+- [tableextension/28160 "SourcecodeAPAC"](../objects/tableextension/28160-au.md)
+- [xmlport/16630 "WHT-EFiling"](../objects/xmlport/16630-au.md)
 
 ## Other versions
 

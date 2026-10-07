@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f3e7286da03b9ac244c0a2da0047e0e967fb5517a08c592a5e38bde95aa4b2a9
@@ -72,10 +72,8 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos:
-    - video/JKsLjwSh0SQ
-  posts:
-    - post/waldo-be/317951
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -87,8 +85,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
-  blog: 1
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: f3e7286da03b9ac244c0a2da0047e0e967fb5517a08c592a5e38bde95aa4b2a9
@@ -109,12 +107,5 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.
 - [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
 - [Upgrading Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions): Describes how to add code to upgrade data in a new extension version.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "Developers should implement their own validation checks during upgrades to catch dependencies on non-invoked events"
-- [What's New in AL: Dependency Publishing (2024 release wave 2)](../../../../videos/JKsLjwSh0SQ.md) (video): "dependency publishing; extension management; deployment lifecycle; breaking changes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

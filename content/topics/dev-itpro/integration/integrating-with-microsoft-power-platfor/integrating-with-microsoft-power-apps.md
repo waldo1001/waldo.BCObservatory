@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e8a92be635f0e32edf1e5b1dca470a5a06c0027dde0320e46df27410561c37c
@@ -56,8 +56,7 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos:
-    - video/HvgGcTnYo9g
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +69,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -90,11 +89,5 @@ Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Pl
 - [Best practices for Power Apps with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-best-practices): Learn how to best develop Power Apps for Business Central
 - [Business Central and Power Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview): Get an overview Business Central and Power Apps integration
 - [Sample Power Apps for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples): Sample apps that give partners an easy way to get started with building Power Apps
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Bartek Ingredients Inc.](../../../../videos/HvgGcTnYo9g.md) (video): "Power Apps integration for data entry; Production reporting and analytics"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

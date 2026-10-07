@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 77d9f700f58ba488366f60450edce8b00817d51fa35da6f1eb15899fa45d83d3
@@ -152,7 +152,6 @@ links:
     - topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
   localizations: []
   videos:
-    - video/88s0QjsaCUQ
     - video/AR2FiD64wbw
     - video/B-pxLlb-UN0
     - video/BwBR8JwwQa4
@@ -172,7 +171,7 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 8
+  video: 7
   blog: 0
   guideline: 0
 bc_forms:
@@ -257,7 +256,6 @@ Path: [Business functionality](../business-functionality.md) > Online store with
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Understanding the Sign Up Context and Using it for Profiling Customers](../../../videos/88s0QjsaCUQ.md) (video): "sign up context; customer profiling; onboarding experience; app provisioning"
 - [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "shopify connector; meta fields; data synchronization; language translation; pricing"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "shopify connector; product information management; item variants; presentment currency"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"

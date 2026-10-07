@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a5a3a965b60974f2579e6cf16e3a3146c796da54a09cf034dc14b6b5b42efd2b
+  input_hash: 5e251042225ee9411413fb07d966188a640c0c6c80793a9cb4f131d2d075877d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralBasicFinancialsBaseApp.Entitlement.al

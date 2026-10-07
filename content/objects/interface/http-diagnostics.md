@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0183bce57877daf54037340562332c23cf8aa44cf23c14b529660b929ab6f2b8
+  input_hash: cc6a4635ed45a19494c9c37f58b4f3f64c5bbfae8cb1dfb1318ca624920adc5c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al

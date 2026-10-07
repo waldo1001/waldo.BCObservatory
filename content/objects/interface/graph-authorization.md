@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e95fe8790d72d15a1cf35d376b3527c030dcf24461ba06a3c0ba5386fb42dd90
+  input_hash: 698b24ac9f20e1862de44ac6845b48e60ace62ac2072094725cf79cf31ad3b7b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al

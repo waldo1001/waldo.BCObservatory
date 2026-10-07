@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 405cb14cae5c54c484d7b484dde3908311af1682b488b695d167468186dcd356
+  input_hash: ea275783fd836e051fc9ecf83be7fbfb7a60cbf00a78a1cd0b95fdc76a7bc6b7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/HumanResources/RoleCenters/Employee.Profile.al

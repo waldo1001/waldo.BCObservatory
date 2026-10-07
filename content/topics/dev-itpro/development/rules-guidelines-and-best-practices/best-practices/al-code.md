@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -56,12 +56,8 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos:
-    - video/gd2TycVywv4
-    - video/Ir5BCNHgLm8
-  posts:
-    - post/katson-com/4756
-    - post/thinkaboutit-be/8170
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -74,8 +70,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 2
-  blog: 2
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -94,14 +90,5 @@ Path: [Development](../../../development.md) > [Rules, guidelines, and best prac
 - [Best Practices for Deprecation of AL Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines): Description of best practices and guidelines for deprecating code in the Base App for Business Central.
 - [Prefix and suffix for naming in extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-prefix-suffix): Use a prefix or suffix for names in your extension. This rule applies to all objects, including tables, pages, and codeunits. This topic explains the benefits and guidelines for using a prefix or suffix."
 - [Rules and guidelines for AL code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-overview): Describing the steps you must go through to successfully submit your Dynamics 365 Business Central app to Marketplace.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Spec-Driven Development — The Way to Build Apps with Agents](../../../../../posts/katson-com/4756.md) (community post): "consistent coding rules ensure coherent output regardless of which developer or AI model works on the codebase"
-- [Plan, Custom Agents, and Session Target: What Actually Changed in Copilot Chat](../../../../../posts/thinkaboutit-be/8170.md) (community post): "Planning agents can be configured with read-only tools to review code"
-- [20260326 - From AI Novice to Agentic Thinking For the CAL Brained](../../../../../videos/gd2TycVywv4.md) (video): "GitHub Copilot; business central development; XML documentation for code objects"
-- [I Built an AI Course That Writes AL Code With You — Here's What It Looks Like](../../../../../videos/Ir5BCNHgLm8.md) (video): "coding standards; al objects; object creation with claude file generation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bd530fa515b2e844edca443bf15082908e36d7021b42546a0dfcd7a308da2c55
@@ -96,9 +96,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos:
-    - video/c3paEbmDNmM
-    - video/tDcT_51ktqo
+  videos: []
   posts:
     - post/demiliani-com/15968
   guidelines: []
@@ -113,7 +111,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 2
+  video: 0
   blog: 1
   guideline: 0
 bc_forms:
@@ -168,8 +166,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central 2026"
-- [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Server-Side Analysis Views on Queries"
-- [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../../videos/tDcT_51ktqo.md) (video): "Query UI and Data Analysis"
 
 ## Business Central pages and reports
 

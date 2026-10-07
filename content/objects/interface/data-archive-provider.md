@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4ad31855ff724ebe29cf87a9dd75ea3fb335fe0d01a85db5c531c28a1cd54adc
+  input_hash: 94a528483eb04a4ef01cd24218c389758f345ba06b5246ff6f539c8dd414dec0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Data%20Archive/src/DataArchiveProvider.Interface.al

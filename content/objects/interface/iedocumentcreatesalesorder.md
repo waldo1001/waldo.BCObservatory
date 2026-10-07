@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8da9cf49a295ecd723fbb4a108c95235292e8e3bdf68174bdb2e5dbdbb73997c
+  input_hash: caf8b4a6d83fbbacb2eddb48a21d4e4ca532fabdf4fedb1923a6dd6b344af5e9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/IEDocumentCreateSalesOrder.Interface.al

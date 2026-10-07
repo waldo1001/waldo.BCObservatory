@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 38461f642d36fdfa894bb8f0d0f4f2a690dbb2dc0a227d6738706828d78de1f7
+  input_hash: 66b7a38674d5884a9843be651719929ddddc9486c264d1dd12da669ce8bdb234
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al

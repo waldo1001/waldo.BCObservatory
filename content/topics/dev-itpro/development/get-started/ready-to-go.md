@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8a1bf28067f90a84ba078558a5a8d961ea5375c5e093ecff2d64d048313ebb6d
@@ -40,8 +40,7 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos:
-    - video/Ug_uM59DRRE
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +53,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -72,11 +71,5 @@ Path: [Development](../../development.md) > [Get started](../get-started.md) > R
 
 - [Get started building apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/get-started): Learn how you can get started building apps for Dynamics 365 Business Central in six easy steps.
 - [The SMB opportunity for app publishers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher): Learn about the business opportunity we see for software companies in the SMB space if you build your solution on Dynamics 365 Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Demo or Disaster? How to build better Business Central demos?](../../../../videos/Ug_uM59DRRE.md) (video): "Demo Data Generator Tool; Kontoso Framework; open source"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

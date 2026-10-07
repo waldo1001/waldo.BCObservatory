@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2059619dfb3d13aeab4ad62691229961fb67c4c187208b8deca1106f5c7ffe53
+  input_hash: 4d68c0b4fb0c219e684023e048130af0b5b9d09b52ed73f5598895e4f26fdec7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al

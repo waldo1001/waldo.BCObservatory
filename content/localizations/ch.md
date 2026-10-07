@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -221,7 +221,7 @@ Adds Swiss VAT statement handling with cipher setup, VAT Entry foreign currency 
 
 Why: Learn says Swiss VAT uses official Federal Tax Administration exchange rates for foreign currency VAT and supports foreign currency balances on bank accounts.
 
-Objects: [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/597 "Exch. Rate Adjmt. Subscribers"](../objects/codeunit/597.md), [report/596 "Exch. Rate Adjustment"](../objects/report/596.md), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), page/11023 "VAT Cipher Codes" (own), page/11024 "VAT Cipher Setup" (own), page/11500 "G/L Acc. Provisional Balance" (own).
+Objects: [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/597 "Exch. Rate Adjmt. Subscribers"](../objects/codeunit/597.md), [report/596 "Exch. Rate Adjustment"](../objects/report/596.md), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [page/11023 "VAT Cipher Codes"](../objects/page/11023-ch.md) (own), [page/11024 "VAT Cipher Setup"](../objects/page/11024-ch.md) (own), [page/11500 "G/L Acc. Provisional Balance"](../objects/page/11500-ch.md) (own).
 
 [All 76 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -231,7 +231,7 @@ Adds vendor bank account fields for Swiss payment forms, ESR type, clearing and 
 
 Why: Learn documents delivery reminders to vendors (setup, creation, issue) and the Vendor Payments List report.
 
-Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md), [table/475 "Vendor Payment Buffer"](../objects/table/475.md), codeunit/5005270 "Issue Delivery Reminder" (own), codeunit/5005271 "Create Delivery Reminder" (own), page/5005270 "Delivery Reminder" (own), report/11507 "Vendor Payments List" (own).
+Objects: [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md), [table/475 "Vendor Payment Buffer"](../objects/table/475.md), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-ch.md) (own), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-ch.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-ch.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md) (own).
 
 [All 75 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -241,7 +241,7 @@ Adds Swiss electronic payment support: ESR, DTA/EZAG, LSV+ and Swiss SEPA credit
 
 Why: Learn describes ESR, LSV+ and SEPA credit transfer as the Swiss electronic payment methods, and Bank Directory import from SIX clearing files.
 
-Objects: codeunit/3010531 "EsrMgt" (own), codeunit/3010831 "LSVMgt" (own), codeunit/3010541 "DtaMgt" (own), codeunit/11520 "Swiss SEPA CT-Export File" (own), codeunit/11530 "Swiss SEPA DD-Export File" (own), [table/1226 "Payment Export Data"](../objects/table/1226.md), page/3010831 "LSV Setup" (own), page/11501 "Bank Directory" (own).
+Objects: [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md) (own), [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md) (own), [codeunit/3010541 "DtaMgt"](../objects/codeunit/3010541-ch.md) (own), [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md) (own), [codeunit/11530 "Swiss SEPA DD-Export File"](../objects/codeunit/11530-ch.md) (own), [table/1226 "Payment Export Data"](../objects/table/1226.md), [page/3010831 "LSV Setup"](../objects/page/3010831-ch.md) (own), [page/11501 "Bank Directory"](../objects/page/11501-ch.md) (own).
 
 [All 63 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -251,7 +251,7 @@ Adds quote management on sales documents: quote status, probability, follow-up a
 
 Why: Learn describes subtotals, begin and end totals in quotes and orders, invoice rounding for payment discounts and optional shipment printing.
 
-Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/36 "Sales Header"](../objects/table/36.md), codeunit/3010801 "QuoteMgt" (own), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/287 "Customer Bank Account"](../objects/table/287.md), report/3010801 "Quote Analysis" (own), [table/21 "Cust. Ledger Entry"](../objects/table/21.md).
+Objects: [table/37 "Sales Line"](../objects/table/37.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/3010801 "QuoteMgt"](../objects/codeunit/3010801-ch.md) (own), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [report/3010801 "Quote Analysis"](../objects/report/3010801-ch.md) (own), [table/21 "Cust. Ledger Entry"](../objects/table/21.md).
 
 [All 38 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -261,7 +261,7 @@ Adds physical inventory orders and recording as new tables, customer and salespe
 
 Why: Learn says Swiss inventory uses default location codes from the item card, tracks invoices with multiple shipments and stores customer and salesperson information.
 
-Objects: [table/27 "Item"](../objects/table/27.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), table/5005350 "Phys. Inventory Order Header" (own), table/5005351 "Phys. Inventory Order Line" (own), [table/313 "Inventory Setup"](../objects/table/313.md), report/11503 "Item ABC Analysis" (own), report/11517 "Inventory Value (Help Report)" (own).
+Objects: [table/27 "Item"](../objects/table/27.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-ch.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-ch.md) (own), [table/313 "Inventory Setup"](../objects/table/313.md), [report/11503 "Item ABC Analysis"](../objects/report/11503-ch.md) (own), [report/11517 "Inventory Value (Help Report)"](../objects/report/11517-ch.md) (own).
 
 [All 34 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -271,7 +271,7 @@ Extends Company Information with Swiss fields (tax office, authorized numbers, p
 
 Why: Learn documents importing the Swiss post code file from Swiss Post.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), table/26100 "DACH Report Selections" (own), report/11502 "Import Post Codes" (own), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/225 "Post Code"](../objects/table/225.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md) (own), [report/11502 "Import Post Codes"](../objects/report/11502-ch.md) (own), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/225 "Post Code"](../objects/table/225.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md).
 
 [All 21 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -281,7 +281,7 @@ Holds Swiss SEPA direct debit pain.008 xmlport, Data Export Setup, an Intrastat 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: xmlport/11501 "SEPA DD pain.008.001.02.ch03" (own), table/11009 "Data Export Setup" (own), report/11001 "Intrastat - Item List" (own).
+Objects: [xmlport/11501 "SEPA DD pain.008.001.02.ch03"](../objects/xmlport/11501-ch.md) (own), [table/11009 "Data Export Setup"](../objects/table/11009-ch.md) (own), [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md) (own).
 
 [All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -291,7 +291,7 @@ Adds fields to Fixed Asset for a BWR depreciation book and premium depreciation.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), report/11011 "Fixed Asset - Book Value 03" (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), report/11100 "Fixed Assets - List AT" (own).
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-ch.md) (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [report/11100 "Fixed Assets - List AT"](../objects/report/11100-ch.md) (own).
 
 [All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
@@ -301,7 +301,7 @@ Adds local permission set extensions for delivery reminders and changes the LOCA
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), permissionsetextension/5005270 "DR LOCAL" (own), permissionsetextension/5005271 "DR LOCAL READ" (own), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionsetextension/5005270 "DR LOCAL"](../objects/permissionsetextension/5005270-ch.md) (own), [permissionsetextension/5005271 "DR LOCAL READ"](../objects/permissionsetextension/5005271-ch.md) (own), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
 
 [All 6 objects of Security in the diff](?ns=Security#country-diff)
 
@@ -311,7 +311,7 @@ Adds Swiss fields to service lines and invoice lines via table extensions, a ser
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/11524 "Serv. Document Mgt. CH" (own), tableextension/11550 "Service Line CH" (own), tableextension/11551 "Service Invoice Line CH" (own), tableextension/11552 "Service Line Archive CH" (own).
+Objects: [codeunit/11524 "Serv. Document Mgt. CH"](../objects/codeunit/11524-ch.md) (own), [tableextension/11550 "Service Line CH"](../objects/tableextension/11550-ch.md) (own), [tableextension/11551 "Service Invoice Line CH"](../objects/tableextension/11551-ch.md) (own), [tableextension/11552 "Service Line Archive CH"](../objects/tableextension/11552-ch.md) (own).
 
 [All 4 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -331,7 +331,7 @@ Adds a Certificate table and an ELM interop input page.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: table/11014 "Certificate" (own), page/35563 "ELM Interop Input" (own).
+Objects: [table/11014 "Certificate"](../objects/table/11014-ch.md) (own), [page/35563 "ELM Interop Input"](../objects/page/35563-ch.md) (own).
 
 [All 2 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
 
@@ -341,7 +341,7 @@ Adds a GeneralMgt codeunit and extends ArchiveManagement with procedures to arch
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5063 "ArchiveManagement"](../objects/codeunit/5063.md), codeunit/11501 "GeneralMgt" (own).
+Objects: [codeunit/5063 "ArchiveManagement"](../objects/codeunit/5063.md), [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-ch.md) (own).
 
 [All 2 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -371,7 +371,7 @@ Adds a page extension for the Manufacturing Manager role center shared by the DA
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: pageextension/11010 "Manufacturing Manager RC DACH" (own).
+Objects: [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageextension/11010-ch.md) (own).
 
 [All 1 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
@@ -500,231 +500,231 @@ Objects: pageextension/11010 "Manufacturing Manager RC DACH" (own).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+223 objects only this country has.
 
-- codeunit/355 "Local Navigate Handler"
-- codeunit/1883 "Sandbox Cleanup local"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/11000 "Data Export Management"
-- codeunit/11004 "Report Sel. Purch. Subscribers"
-- codeunit/11110 "Update VAT-AT"
-- codeunit/11500 "BankMgt"
-- codeunit/11501 "GeneralMgt"
-- codeunit/11503 "CHMgt"
-- codeunit/11515 "CH Report Management"
-- codeunit/11520 "Swiss SEPA CT-Export File"
-- codeunit/11521 "SEPA CAMT 053 Bank Rec. Lines"
-- codeunit/11522 "SEPA CAMT 054 Bank Rec. Lines"
-- codeunit/11523 "Serv. Bank Payment Mgt."
-- codeunit/11524 "Serv. Document Mgt. CH"
-- codeunit/11530 "Swiss SEPA DD-Export File"
-- codeunit/14060 "UPG Data Out Of Geo. Apps"
-- codeunit/26100 "Update VAT-CH"
-- codeunit/35517 "CH Upgrade Tag Def."
-- codeunit/104100 "Upg Local Functionality"
-- codeunit/3010531 "EsrMgt"
-- codeunit/3010541 "DtaMgt"
-- codeunit/3010801 "QuoteMgt"
-- codeunit/3010831 "LSVMgt"
-- codeunit/5005270 "Issue Delivery Reminder"
-- codeunit/5005271 "Create Delivery Reminder"
-- codeunit/5005272 "Deliv.-Rem. Ext. Text Transfer"
-- codeunit/5005273 "Iss. Delivery Remind. printed"
-- codeunit/5005274 "DR Data Class. Eval. Data"
-- codeunit/5005396 "Print Document Comfort"
-- codeunit/5005397 "Format Adress Comfort"
-- enum/11003 "Data Export File Encoding"
-- enum/11503 "SEPA CT Batch Booking"
-- enum/5005272 "Delivery Reminder Date Type"
-- enumextension/26101 "Report Selection Usage Del. Rem."
-- enumextension/26102 "Report Sel. Usage Purch. DACH"
-- page/11000 "Place of Dispatchers"
-- page/11001 "Place of Receivers"
-- page/11002 "Data Exports"
-- page/11003 "Data Export Record Definitions"
-- page/11004 "Data Export Record Source"
-- page/11007 "Data Export Table Relation"
-- page/11008 "Data Export Table Relation Sub"
-- page/11009 "Data Export Field List"
-- page/11014 "Data Export Record Types"
-- page/11023 "VAT Cipher Codes"
-- page/11024 "VAT Cipher Setup"
-- page/11026 "Data Export Table Keys"
-- page/11027 "Data Export Record Fields"
-- page/11500 "G/L Acc. Provisional Balance"
-- page/11501 "Bank Directory"
-- page/35516 "Cash Receipt Journal FactBox"
-- page/35517 "Payment Journal FactBox"
-- page/35561 "Modify Posting Day Input"
-- page/35562 "Modify Document Number Input"
-- page/35563 "ELM Interop Input"
-- page/3010531 "ESR Setup"
-- page/3010532 "ESR Setup List"
-- page/3010541 "DTA Setup"
-- page/3010542 "DTA Setup List"
-- page/3010543 "DTA EZAG Pictures"
-- page/3010830 "LSV Setup List"
-- page/3010831 "LSV Setup"
-- page/3010832 "LSV Journal List"
-- page/3010834 "LSV Journal"
-- page/3010835 "LSV Journal Line List"
-- page/5005270 "Delivery Reminder"
-- page/5005271 "Delivery Reminder Sub."
-- page/5005272 "Delivery Reminder List"
-- page/5005273 "Issued Delivery Reminder"
-- page/5005274 "Issued Delivery Reminder Sub"
-- page/5005275 "Issued Delivery Reminders List"
-- page/5005276 "Deliv. Reminder Ledger Entries"
-- page/5005277 "Delivery Reminder Comment Line"
-- page/5005278 "Deliv. Rem. Comment Line List"
-- page/5005279 "Delivery Reminder Terms"
-- page/5005280 "Delivery Reminder Terms List"
-- page/5005281 "Delivery Reminder Levels"
-- page/5005283 "Delivery Reminder Text"
-- pageextension/11010 "Manufacturing Manager RC DACH"
-- pageextension/11553 "Bank Export/Import Setup CH"
-- pageextension/5005270 "SourceCodeSetupDACH"
-- pageextension/5005271 "DRVendorTemplCard"
-- pageextension/5005272 "DRPurchSetup"
-- pageextension/5005273 "DRExtendedText"
-- pageextension/5005274 "DRPurchMgrRoleCenter"
-- pageextension/5005275 "DRPurchAgentRoleCenter"
-- pageextension/5005276 "DRPurchaseOrder"
-- pageextension/5005277 "DRVendorCard"
-- permissionsetextension/5005270 "DR LOCAL"
-- permissionsetextension/5005271 "DR LOCAL READ"
-- report/11001 "Intrastat - Item List"
-- report/11002 "G/L Total-Balance"
-- report/11003 "Customer Total-Balance"
-- report/11004 "Vendor Total-Balance"
-- report/11005 "VAT Statement Germany"
-- report/11006 "Vendor Detailed Aging"
-- report/11007 "VAT-Vies Declaration Tax - DE"
-- report/11010 "VAT Statement Schedule"
-- report/11011 "Fixed Asset - Book Value 03"
-- report/11015 "Export Business Data"
-- report/11100 "Fixed Assets - List AT"
-- report/11108 "VAT - VIES Declaration XML"
-- report/11109 "Paragraph 131 Export"
-- report/11110 "VAT Statement AT"
-- report/11111 "Crossborder Services"
-- report/11112 "Update VAT Statement Template"
-- report/11500 "Provisional Trial Balance"
-- report/11502 "Import Post Codes"
-- report/11503 "Item ABC Analysis"
-- report/11504 "Import Bank Directory"
-- report/11505 "SR Item Acc Sheet Net Change"
-- report/11506 "SR Item Acc Sheet Inv. Value"
-- report/11507 "Vendor Payments List"
-- report/11509 "Vendor Payment Order"
-- report/11512 "Sales Picking List"
-- report/11514 "G/L Setup Information"
-- report/11517 "Inventory Value (Help Report)"
-- report/11518 "Old Swiss VAT Statement"
-- report/11521 "SR G/L Entries Foreign Currenc"
-- report/11529 "SR Account Interest"
-- report/11535 "SR Cust. Orders per Period"
-- report/11537 "SR Cust. Due Amount per Period"
-- report/11539 "SR Cust. Ranking"
-- report/11540 "SR Cust. - Balance to Date"
-- report/11553 "SR Ven. Due Amount per Period"
-- report/11554 "SR Vendor Orders per Period"
-- report/11557 "SR Vendor Ranking"
-- report/11559 "SR Vendor - Balance to Date"
-- report/11561 "SR Vendor Payment Advice"
-- report/11563 "SR G/L Acc Sheet Bal Account"
-- report/11564 "SR G/L Acc Sheet Foreign Curr"
-- report/11565 "SR G/L Acc Sheet Reportig Cur"
-- report/11566 "SR G/L Acc Sheet Posting Info"
-- report/11567 "SR G/L Acc Sheet VAT Info"
-- report/11568 "SR Cust. Paymt List Standard"
-- report/11569 "SR Cust. Paymt List FCY Amount"
-- report/11570 "SR Cust. Paymt List Posting In"
-- report/11577 "SR Item Ranking"
-- report/11581 "SR Item Vendor Shipping Rem."
-- report/26100 "Swiss VAT Statement"
-- report/3010531 "Customer ESR Journal"
-- report/3010532 "Sales Invoice ESR"
-- report/3010533 "ESR Coupon"
-- report/3010534 "Service - Invoice ESR"
-- report/3010535 "Service - ESR Coupon"
-- report/3010541 "DTA File"
-- report/3010542 "EZAG File"
-- report/3010543 "DTA Payment Order"
-- report/3010544 "EZAG Payment Order"
-- report/3010545 "DTA Payment Journal"
-- report/3010546 "DTA Suggest Vendor Payments"
-- report/3010801 "Quote Analysis"
-- report/3010831 "LSV Suggest Collection"
-- report/3010832 "LSV Collection Journal"
-- report/3010833 "LSV Close Collection"
-- report/3010834 "Write LSV File"
-- report/3010835 "LSV Collection Order"
-- report/3010836 "LSV Collection Authorisation"
-- report/3010837 "LSV Customerbank List"
-- report/3010838 "LSV Collection Advice"
-- report/3010839 "LSV Write DebitDirect File"
-- report/5005272 "Delivery Reminder - Test"
-- report/5005273 "Issued Delivery Reminder"
-- report/5005340 "Create Delivery Reminder"
-- report/5005341 "Issue Delivery Reminder"
-- table/11000 "Place of Dispatcher"
-- table/11001 "Place of Receiver"
-- table/11002 "Data Export"
-- table/11003 "Data Export Record Definition"
-- table/11004 "Data Export Record Source"
-- table/11005 "Data Export Record Field"
-- table/11006 "Data Export Table Relation"
-- table/11007 "Data Export Record Type"
-- table/11008 "Data Export Buffer"
-- table/11009 "Data Export Setup"
-- table/11010 "Data Exp. Primary Key Buffer"
-- table/11014 "Certificate"
-- table/11015 "Key Buffer"
-- table/11016 "Number Series Buffer"
-- table/11017 "VAT Cipher Code"
-- table/11018 "VAT Cipher Setup"
-- table/11500 "Bank Directory"
-- table/11501 "VAT Currency Adjustment Buffer"
-- table/26100 "DACH Report Selections"
-- table/3010531 "ESR Setup"
-- table/3010541 "DTA Setup"
-- table/3010831 "LSV Setup"
-- table/3010832 "LSV Journal"
-- table/3010834 "LSV Journal Line"
-- table/5005270 "Delivery Reminder Header"
-- table/5005271 "Delivery Reminder Line"
-- table/5005272 "Issued Deliv. Reminder Header"
-- table/5005273 "Issued Deliv. Reminder Line"
-- table/5005274 "Delivery Reminder Ledger Entry"
-- table/5005275 "Delivery Reminder Comment Line"
-- table/5005276 "Delivery Reminder Term"
-- table/5005277 "Delivery Reminder Level"
-- table/5005278 "Delivery Reminder Text"
-- table/5005350 "Phys. Inventory Order Header"
-- table/5005351 "Phys. Inventory Order Line"
-- table/5005352 "Phys. Invt. Recording Header"
-- table/5005353 "Phys. Invt. Recording Line"
-- table/5005354 "Post. Phys. Invt. Order Header"
-- table/5005355 "Posted Phys. Invt. Order Line"
-- table/5005356 "Posted Phys. Invt. Rec. Header"
-- table/5005357 "Posted Phys. Invt. Rec. Line"
-- table/5005358 "Phys. Inventory Comment Line"
-- table/5005359 "Posted Phys. Invt. Track. Line"
-- table/5005360 "Phys. Invt. Tracking Buffer"
-- table/5005361 "Expect. Phys. Inv. Track. Line"
-- table/5005362 "Post. Exp. Ph. In. Track. Line"
-- table/5005363 "Phys. Invt. Diff. List Buffer"
-- tableextension/11550 "Service Line CH"
-- tableextension/11551 "Service Invoice Line CH"
-- tableextension/11552 "Service Line Archive CH"
-- tableextension/11553 "Bank Export/Import Setup CH"
-- tableextension/5005270 "SourceCodeSetupDACH"
-- tableextension/5005280 "DRVendor"
-- tableextension/5005281 "DRVendorTempl"
-- tableextension/5005282 "DRPurchSetup"
-- tableextension/5005283 "DRExtendedTextHeader"
-- xmlport/11501 "SEPA DD pain.008.001.02.ch03"
+- [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-ch.md)
+- [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-ch.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-ch.md)
+- [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-ch.md)
+- [codeunit/11004 "Report Sel. Purch. Subscribers"](../objects/codeunit/11004-ch.md)
+- [codeunit/11110 "Update VAT-AT"](../objects/codeunit/11110-ch.md)
+- [codeunit/11500 "BankMgt"](../objects/codeunit/11500-ch.md)
+- [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-ch.md)
+- [codeunit/11503 "CHMgt"](../objects/codeunit/11503-ch.md)
+- [codeunit/11515 "CH Report Management"](../objects/codeunit/11515-ch.md)
+- [codeunit/11520 "Swiss SEPA CT-Export File"](../objects/codeunit/11520-ch.md)
+- [codeunit/11521 "SEPA CAMT 053 Bank Rec. Lines"](../objects/codeunit/11521-ch.md)
+- [codeunit/11522 "SEPA CAMT 054 Bank Rec. Lines"](../objects/codeunit/11522-ch.md)
+- [codeunit/11523 "Serv. Bank Payment Mgt."](../objects/codeunit/11523-ch.md)
+- [codeunit/11524 "Serv. Document Mgt. CH"](../objects/codeunit/11524-ch.md)
+- [codeunit/11530 "Swiss SEPA DD-Export File"](../objects/codeunit/11530-ch.md)
+- [codeunit/14060 "UPG Data Out Of Geo. Apps"](../objects/codeunit/14060-ch.md)
+- [codeunit/26100 "Update VAT-CH"](../objects/codeunit/26100-ch.md)
+- [codeunit/35517 "CH Upgrade Tag Def."](../objects/codeunit/35517-ch.md)
+- [codeunit/104100 "Upg Local Functionality"](../objects/codeunit/104100-ch.md)
+- [codeunit/3010531 "EsrMgt"](../objects/codeunit/3010531-ch.md)
+- [codeunit/3010541 "DtaMgt"](../objects/codeunit/3010541-ch.md)
+- [codeunit/3010801 "QuoteMgt"](../objects/codeunit/3010801-ch.md)
+- [codeunit/3010831 "LSVMgt"](../objects/codeunit/3010831-ch.md)
+- [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-ch.md)
+- [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-ch.md)
+- [codeunit/5005272 "Deliv.-Rem. Ext. Text Transfer"](../objects/codeunit/5005272-ch.md)
+- [codeunit/5005273 "Iss. Delivery Remind. printed"](../objects/codeunit/5005273-ch.md)
+- [codeunit/5005274 "DR Data Class. Eval. Data"](../objects/codeunit/5005274-ch.md)
+- [codeunit/5005396 "Print Document Comfort"](../objects/codeunit/5005396-ch.md)
+- [codeunit/5005397 "Format Adress Comfort"](../objects/codeunit/5005397-ch.md)
+- [enum/11003 "Data Export File Encoding"](../objects/enum/11003-ch.md)
+- [enum/11503 "SEPA CT Batch Booking"](../objects/enum/11503-ch.md)
+- [enum/5005272 "Delivery Reminder Date Type"](../objects/enum/5005272-ch.md)
+- [enumextension/26101 "Report Selection Usage Del. Rem."](../objects/enumextension/26101-ch.md)
+- [enumextension/26102 "Report Sel. Usage Purch. DACH"](../objects/enumextension/26102-ch.md)
+- [page/11000 "Place of Dispatchers"](../objects/page/11000-ch.md)
+- [page/11001 "Place of Receivers"](../objects/page/11001-ch.md)
+- [page/11002 "Data Exports"](../objects/page/11002-ch.md)
+- [page/11003 "Data Export Record Definitions"](../objects/page/11003-ch.md)
+- [page/11004 "Data Export Record Source"](../objects/page/11004-ch.md)
+- [page/11007 "Data Export Table Relation"](../objects/page/11007-ch.md)
+- [page/11008 "Data Export Table Relation Sub"](../objects/page/11008-ch.md)
+- [page/11009 "Data Export Field List"](../objects/page/11009-ch.md)
+- [page/11014 "Data Export Record Types"](../objects/page/11014-ch.md)
+- [page/11023 "VAT Cipher Codes"](../objects/page/11023-ch.md)
+- [page/11024 "VAT Cipher Setup"](../objects/page/11024-ch.md)
+- [page/11026 "Data Export Table Keys"](../objects/page/11026-ch.md)
+- [page/11027 "Data Export Record Fields"](../objects/page/11027-ch.md)
+- [page/11500 "G/L Acc. Provisional Balance"](../objects/page/11500-ch.md)
+- [page/11501 "Bank Directory"](../objects/page/11501-ch.md)
+- [page/35516 "Cash Receipt Journal FactBox"](../objects/page/35516-ch.md)
+- [page/35517 "Payment Journal FactBox"](../objects/page/35517-ch.md)
+- [page/35561 "Modify Posting Day Input"](../objects/page/35561-ch.md)
+- [page/35562 "Modify Document Number Input"](../objects/page/35562-ch.md)
+- [page/35563 "ELM Interop Input"](../objects/page/35563-ch.md)
+- [page/3010531 "ESR Setup"](../objects/page/3010531-ch.md)
+- [page/3010532 "ESR Setup List"](../objects/page/3010532-ch.md)
+- [page/3010541 "DTA Setup"](../objects/page/3010541-ch.md)
+- [page/3010542 "DTA Setup List"](../objects/page/3010542-ch.md)
+- [page/3010543 "DTA EZAG Pictures"](../objects/page/3010543-ch.md)
+- [page/3010830 "LSV Setup List"](../objects/page/3010830-ch.md)
+- [page/3010831 "LSV Setup"](../objects/page/3010831-ch.md)
+- [page/3010832 "LSV Journal List"](../objects/page/3010832-ch.md)
+- [page/3010834 "LSV Journal"](../objects/page/3010834-ch.md)
+- [page/3010835 "LSV Journal Line List"](../objects/page/3010835-ch.md)
+- [page/5005270 "Delivery Reminder"](../objects/page/5005270-ch.md)
+- [page/5005271 "Delivery Reminder Sub."](../objects/page/5005271-ch.md)
+- [page/5005272 "Delivery Reminder List"](../objects/page/5005272-ch.md)
+- [page/5005273 "Issued Delivery Reminder"](../objects/page/5005273-ch.md)
+- [page/5005274 "Issued Delivery Reminder Sub"](../objects/page/5005274-ch.md)
+- [page/5005275 "Issued Delivery Reminders List"](../objects/page/5005275-ch.md)
+- [page/5005276 "Deliv. Reminder Ledger Entries"](../objects/page/5005276-ch.md)
+- [page/5005277 "Delivery Reminder Comment Line"](../objects/page/5005277-ch.md)
+- [page/5005278 "Deliv. Rem. Comment Line List"](../objects/page/5005278-ch.md)
+- [page/5005279 "Delivery Reminder Terms"](../objects/page/5005279-ch.md)
+- [page/5005280 "Delivery Reminder Terms List"](../objects/page/5005280-ch.md)
+- [page/5005281 "Delivery Reminder Levels"](../objects/page/5005281-ch.md)
+- [page/5005283 "Delivery Reminder Text"](../objects/page/5005283-ch.md)
+- [pageextension/11010 "Manufacturing Manager RC DACH"](../objects/pageextension/11010-ch.md)
+- [pageextension/11553 "Bank Export/Import Setup CH"](../objects/pageextension/11553-ch.md)
+- [pageextension/5005270 "SourceCodeSetupDACH"](../objects/pageextension/5005270-ch.md)
+- [pageextension/5005271 "DRVendorTemplCard"](../objects/pageextension/5005271-ch.md)
+- [pageextension/5005272 "DRPurchSetup"](../objects/pageextension/5005272-ch.md)
+- [pageextension/5005273 "DRExtendedText"](../objects/pageextension/5005273-ch.md)
+- [pageextension/5005274 "DRPurchMgrRoleCenter"](../objects/pageextension/5005274-ch.md)
+- [pageextension/5005275 "DRPurchAgentRoleCenter"](../objects/pageextension/5005275-ch.md)
+- [pageextension/5005276 "DRPurchaseOrder"](../objects/pageextension/5005276-ch.md)
+- [pageextension/5005277 "DRVendorCard"](../objects/pageextension/5005277-ch.md)
+- [permissionsetextension/5005270 "DR LOCAL"](../objects/permissionsetextension/5005270-ch.md)
+- [permissionsetextension/5005271 "DR LOCAL READ"](../objects/permissionsetextension/5005271-ch.md)
+- [report/11001 "Intrastat - Item List"](../objects/report/11001-ch.md)
+- [report/11002 "G/L Total-Balance"](../objects/report/11002-ch.md)
+- [report/11003 "Customer Total-Balance"](../objects/report/11003-ch.md)
+- [report/11004 "Vendor Total-Balance"](../objects/report/11004-ch.md)
+- [report/11005 "VAT Statement Germany"](../objects/report/11005-ch.md)
+- [report/11006 "Vendor Detailed Aging"](../objects/report/11006-ch.md)
+- [report/11007 "VAT-Vies Declaration Tax - DE"](../objects/report/11007-ch.md)
+- [report/11010 "VAT Statement Schedule"](../objects/report/11010-ch.md)
+- [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-ch.md)
+- [report/11015 "Export Business Data"](../objects/report/11015-ch.md)
+- [report/11100 "Fixed Assets - List AT"](../objects/report/11100-ch.md)
+- [report/11108 "VAT - VIES Declaration XML"](../objects/report/11108-ch.md)
+- [report/11109 "Paragraph 131 Export"](../objects/report/11109-ch.md)
+- [report/11110 "VAT Statement AT"](../objects/report/11110-ch.md)
+- [report/11111 "Crossborder Services"](../objects/report/11111-ch.md)
+- [report/11112 "Update VAT Statement Template"](../objects/report/11112-ch.md)
+- [report/11500 "Provisional Trial Balance"](../objects/report/11500-ch.md)
+- [report/11502 "Import Post Codes"](../objects/report/11502-ch.md)
+- [report/11503 "Item ABC Analysis"](../objects/report/11503-ch.md)
+- [report/11504 "Import Bank Directory"](../objects/report/11504-ch.md)
+- [report/11505 "SR Item Acc Sheet Net Change"](../objects/report/11505-ch.md)
+- [report/11506 "SR Item Acc Sheet Inv. Value"](../objects/report/11506-ch.md)
+- [report/11507 "Vendor Payments List"](../objects/report/11507-ch.md)
+- [report/11509 "Vendor Payment Order"](../objects/report/11509-ch.md)
+- [report/11512 "Sales Picking List"](../objects/report/11512-ch.md)
+- [report/11514 "G/L Setup Information"](../objects/report/11514-ch.md)
+- [report/11517 "Inventory Value (Help Report)"](../objects/report/11517-ch.md)
+- [report/11518 "Old Swiss VAT Statement"](../objects/report/11518-ch.md)
+- [report/11521 "SR G/L Entries Foreign Currenc"](../objects/report/11521-ch.md)
+- [report/11529 "SR Account Interest"](../objects/report/11529-ch.md)
+- [report/11535 "SR Cust. Orders per Period"](../objects/report/11535-ch.md)
+- [report/11537 "SR Cust. Due Amount per Period"](../objects/report/11537-ch.md)
+- [report/11539 "SR Cust. Ranking"](../objects/report/11539-ch.md)
+- [report/11540 "SR Cust. - Balance to Date"](../objects/report/11540-ch.md)
+- [report/11553 "SR Ven. Due Amount per Period"](../objects/report/11553-ch.md)
+- [report/11554 "SR Vendor Orders per Period"](../objects/report/11554-ch.md)
+- [report/11557 "SR Vendor Ranking"](../objects/report/11557-ch.md)
+- [report/11559 "SR Vendor - Balance to Date"](../objects/report/11559-ch.md)
+- [report/11561 "SR Vendor Payment Advice"](../objects/report/11561-ch.md)
+- [report/11563 "SR G/L Acc Sheet Bal Account"](../objects/report/11563-ch.md)
+- [report/11564 "SR G/L Acc Sheet Foreign Curr"](../objects/report/11564-ch.md)
+- [report/11565 "SR G/L Acc Sheet Reportig Cur"](../objects/report/11565-ch.md)
+- [report/11566 "SR G/L Acc Sheet Posting Info"](../objects/report/11566-ch.md)
+- [report/11567 "SR G/L Acc Sheet VAT Info"](../objects/report/11567-ch.md)
+- [report/11568 "SR Cust. Paymt List Standard"](../objects/report/11568-ch.md)
+- [report/11569 "SR Cust. Paymt List FCY Amount"](../objects/report/11569-ch.md)
+- [report/11570 "SR Cust. Paymt List Posting In"](../objects/report/11570-ch.md)
+- [report/11577 "SR Item Ranking"](../objects/report/11577-ch.md)
+- [report/11581 "SR Item Vendor Shipping Rem."](../objects/report/11581-ch.md)
+- [report/26100 "Swiss VAT Statement"](../objects/report/26100-ch.md)
+- [report/3010531 "Customer ESR Journal"](../objects/report/3010531-ch.md)
+- [report/3010532 "Sales Invoice ESR"](../objects/report/3010532-ch.md)
+- [report/3010533 "ESR Coupon"](../objects/report/3010533-ch.md)
+- [report/3010534 "Service - Invoice ESR"](../objects/report/3010534-ch.md)
+- [report/3010535 "Service - ESR Coupon"](../objects/report/3010535-ch.md)
+- [report/3010541 "DTA File"](../objects/report/3010541-ch.md)
+- [report/3010542 "EZAG File"](../objects/report/3010542-ch.md)
+- [report/3010543 "DTA Payment Order"](../objects/report/3010543-ch.md)
+- [report/3010544 "EZAG Payment Order"](../objects/report/3010544-ch.md)
+- [report/3010545 "DTA Payment Journal"](../objects/report/3010545-ch.md)
+- [report/3010546 "DTA Suggest Vendor Payments"](../objects/report/3010546-ch.md)
+- [report/3010801 "Quote Analysis"](../objects/report/3010801-ch.md)
+- [report/3010831 "LSV Suggest Collection"](../objects/report/3010831-ch.md)
+- [report/3010832 "LSV Collection Journal"](../objects/report/3010832-ch.md)
+- [report/3010833 "LSV Close Collection"](../objects/report/3010833-ch.md)
+- [report/3010834 "Write LSV File"](../objects/report/3010834-ch.md)
+- [report/3010835 "LSV Collection Order"](../objects/report/3010835-ch.md)
+- [report/3010836 "LSV Collection Authorisation"](../objects/report/3010836-ch.md)
+- [report/3010837 "LSV Customerbank List"](../objects/report/3010837-ch.md)
+- [report/3010838 "LSV Collection Advice"](../objects/report/3010838-ch.md)
+- [report/3010839 "LSV Write DebitDirect File"](../objects/report/3010839-ch.md)
+- [report/5005272 "Delivery Reminder - Test"](../objects/report/5005272-ch.md)
+- [report/5005273 "Issued Delivery Reminder"](../objects/report/5005273-ch.md)
+- [report/5005340 "Create Delivery Reminder"](../objects/report/5005340-ch.md)
+- [report/5005341 "Issue Delivery Reminder"](../objects/report/5005341-ch.md)
+- [table/11000 "Place of Dispatcher"](../objects/table/11000-ch.md)
+- [table/11001 "Place of Receiver"](../objects/table/11001-ch.md)
+- [table/11002 "Data Export"](../objects/table/11002-ch.md)
+- [table/11003 "Data Export Record Definition"](../objects/table/11003-ch.md)
+- [table/11004 "Data Export Record Source"](../objects/table/11004-ch.md)
+- [table/11005 "Data Export Record Field"](../objects/table/11005-ch.md)
+- [table/11006 "Data Export Table Relation"](../objects/table/11006-ch.md)
+- [table/11007 "Data Export Record Type"](../objects/table/11007-ch.md)
+- [table/11008 "Data Export Buffer"](../objects/table/11008-ch.md)
+- [table/11009 "Data Export Setup"](../objects/table/11009-ch.md)
+- [table/11010 "Data Exp. Primary Key Buffer"](../objects/table/11010-ch.md)
+- [table/11014 "Certificate"](../objects/table/11014-ch.md)
+- [table/11015 "Key Buffer"](../objects/table/11015-ch.md)
+- [table/11016 "Number Series Buffer"](../objects/table/11016-ch.md)
+- [table/11017 "VAT Cipher Code"](../objects/table/11017-ch.md)
+- [table/11018 "VAT Cipher Setup"](../objects/table/11018-ch.md)
+- [table/11500 "Bank Directory"](../objects/table/11500-ch.md)
+- [table/11501 "VAT Currency Adjustment Buffer"](../objects/table/11501-ch.md)
+- [table/26100 "DACH Report Selections"](../objects/table/26100-ch.md)
+- [table/3010531 "ESR Setup"](../objects/table/3010531-ch.md)
+- [table/3010541 "DTA Setup"](../objects/table/3010541-ch.md)
+- [table/3010831 "LSV Setup"](../objects/table/3010831-ch.md)
+- [table/3010832 "LSV Journal"](../objects/table/3010832-ch.md)
+- [table/3010834 "LSV Journal Line"](../objects/table/3010834-ch.md)
+- [table/5005270 "Delivery Reminder Header"](../objects/table/5005270-ch.md)
+- [table/5005271 "Delivery Reminder Line"](../objects/table/5005271-ch.md)
+- [table/5005272 "Issued Deliv. Reminder Header"](../objects/table/5005272-ch.md)
+- [table/5005273 "Issued Deliv. Reminder Line"](../objects/table/5005273-ch.md)
+- [table/5005274 "Delivery Reminder Ledger Entry"](../objects/table/5005274-ch.md)
+- [table/5005275 "Delivery Reminder Comment Line"](../objects/table/5005275-ch.md)
+- [table/5005276 "Delivery Reminder Term"](../objects/table/5005276-ch.md)
+- [table/5005277 "Delivery Reminder Level"](../objects/table/5005277-ch.md)
+- [table/5005278 "Delivery Reminder Text"](../objects/table/5005278-ch.md)
+- [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-ch.md)
+- [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-ch.md)
+- [table/5005352 "Phys. Invt. Recording Header"](../objects/table/5005352-ch.md)
+- [table/5005353 "Phys. Invt. Recording Line"](../objects/table/5005353-ch.md)
+- [table/5005354 "Post. Phys. Invt. Order Header"](../objects/table/5005354-ch.md)
+- [table/5005355 "Posted Phys. Invt. Order Line"](../objects/table/5005355-ch.md)
+- [table/5005356 "Posted Phys. Invt. Rec. Header"](../objects/table/5005356-ch.md)
+- [table/5005357 "Posted Phys. Invt. Rec. Line"](../objects/table/5005357-ch.md)
+- [table/5005358 "Phys. Inventory Comment Line"](../objects/table/5005358-ch.md)
+- [table/5005359 "Posted Phys. Invt. Track. Line"](../objects/table/5005359-ch.md)
+- [table/5005360 "Phys. Invt. Tracking Buffer"](../objects/table/5005360-ch.md)
+- [table/5005361 "Expect. Phys. Inv. Track. Line"](../objects/table/5005361-ch.md)
+- [table/5005362 "Post. Exp. Ph. In. Track. Line"](../objects/table/5005362-ch.md)
+- [table/5005363 "Phys. Invt. Diff. List Buffer"](../objects/table/5005363-ch.md)
+- [tableextension/11550 "Service Line CH"](../objects/tableextension/11550-ch.md)
+- [tableextension/11551 "Service Invoice Line CH"](../objects/tableextension/11551-ch.md)
+- [tableextension/11552 "Service Line Archive CH"](../objects/tableextension/11552-ch.md)
+- [tableextension/11553 "Bank Export/Import Setup CH"](../objects/tableextension/11553-ch.md)
+- [tableextension/5005270 "SourceCodeSetupDACH"](../objects/tableextension/5005270-ch.md)
+- [tableextension/5005280 "DRVendor"](../objects/tableextension/5005280-ch.md)
+- [tableextension/5005281 "DRVendorTempl"](../objects/tableextension/5005281-ch.md)
+- [tableextension/5005282 "DRPurchSetup"](../objects/tableextension/5005282-ch.md)
+- [tableextension/5005283 "DRExtendedTextHeader"](../objects/tableextension/5005283-ch.md)
+- [xmlport/11501 "SEPA DD pain.008.001.02.ch03"](../objects/xmlport/11501-ch.md)
 
 ## Other versions
 

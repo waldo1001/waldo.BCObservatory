@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -82,14 +82,10 @@ links:
   videos:
     - video/snVsG69X-kw
     - video/XcQFvNnKpxk
-    - video/XGEDwzIZQj4
   posts:
     - post/duiliotacconi-com/1983
     - post/duiliotacconi-com/2001
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126
-    - post/thinkaboutit-be/7683
-    - post/waldo-be/317739
-    - post/waldo-be/318461
   guidelines: []
 learn_toc_path:
   - Performance
@@ -99,8 +95,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 3
-  blog: 6
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -130,11 +126,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../posts/duiliotacconi-com/1983.md) (community post): "ability to enable or disable database indexes directly in the UI"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
 - [Manage Database Index Usage in Business Central.](../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126.md) (community post): "Disabling indexes reduces storage usage and improves insert/update/delete performance"
-- [API Pages vs API Queries in Business Central: When to Use Each](../../posts/thinkaboutit-be/7683.md) (community post): "API queries are read-only, support multi-table server-side joins, aggregations"
-- [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../posts/waldo-be/317739.md) (community post): "to improve system performance and resolve resource issues"
-- [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../posts/waldo-be/318461.md) (community post): "Performance improved dramatically after the fix: query count dropped from 19,946 to 18"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "Load Balancing; VM scaling; Automatic VM Scale-Out; Database Scaling and Monitoring"
 - [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "performance testing before go-live with performance toolkit concurrency testing"
-- [What's New: BC-Bench (2026 release wave 1)](../../videos/XGEDwzIZQj4.md) (video): "Performance measurement; Average execution time metric"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

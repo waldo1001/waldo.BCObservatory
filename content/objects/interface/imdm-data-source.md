@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0996086cf85451078dbd0fd89677062b265ca24634556d264e54abd7c208bc2b
+  input_hash: 8e473091ab3f147cf8ccaa72449ffc63cb3e1232d86657599e239e04e6a2ae8d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMDataSource.Interface.al

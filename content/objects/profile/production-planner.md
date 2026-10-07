@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 12cb0ee9ecba96155a8558f918ca9342e0ba773db69c093d1dfd49b341f76787
+  input_hash: 6782ebabf9edeecd8feb39cfe0013989e38617a86d318bd7a1af0ed42b0331b6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al

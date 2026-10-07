@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e7cb1aeb05146f784488bc3bf0c3803de2d15813953754f4413bd0f5a56016a4
@@ -148,10 +148,7 @@ links:
     - topic/business-central/business-functionality/sustainability-management
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
   localizations: []
-  videos:
-    - video/NYG4pOtW-Xw
-    - video/qPInVj03wkY
-    - video/t_UXxbvgnHY
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -165,7 +162,7 @@ children:
 coverage:
   learn: 17
   code: 0
-  video: 3
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -198,14 +195,6 @@ Path: [Business functionality](../../business-functionality.md) > [Sustainabilit
 - [Handle External ESG reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting): Learn how to set up, run and export External ESG reports.
 - [Sustainability financial reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting): Describes how to use financial reports to create various views and reports for analyzing sustainability performance data.
 - [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports): Explore the sustainability reports and analytics in the standard version of Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New in Sustainability (2024 release wave 2)](../../../../videos/NYG4pOtW-Xw.md) (video): "Sustainability Manager Role Center; Sustainability Scorecards and Goals"
-- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../../videos/qPInVj03wkY.md) (video): "Reporting CSRD esg aggregation compliance reporting sustainability ledger power app carbon emissions"
-- [What's new in Sustainability (2026 release wave 2)](../../../../videos/t_UXxbvgnHY.md) (video): "ESG report layout with lot details; Sustainability ledger entry reversal; Collect from GL"
 
 ## Business Central pages and reports
 

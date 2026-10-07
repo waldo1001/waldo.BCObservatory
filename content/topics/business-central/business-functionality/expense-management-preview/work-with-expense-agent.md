@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,7 +78,6 @@ links:
     - video/Fz8NLByllRc
     - video/GwrMf1umTFg
     - video/M0IzeLSn7qU
-    - video/pjML7lXSsd0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -91,7 +90,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 5
+  video: 4
   blog: 0
   guideline: 0
 bc_forms: []
@@ -138,6 +137,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"
-- [Introducing: Expense Management (2026 release wave 1)](../../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization; Expense approval workflow"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

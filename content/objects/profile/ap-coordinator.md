@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0013976f40fdebaaa12403283ddb6a982c593fa48e75a973d79bdb07b9fccc58
+  input_hash: 78a7e7742f9a0aab8b095f876cc923ba34f1782af8b4d5b29e01ad2cb5e2976b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/ApCoordinator.Profile.al

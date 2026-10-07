@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e5822a943df13a5fcccd26b295eb1e320a6d73b8f020cf5ca1b5b6fbd6c30f55
@@ -59,10 +59,7 @@ links:
   videos:
     - video/1QuV_vkbNVU
     - video/6dEZQlmBlyI
-    - video/JT4ownMbotw
     - video/PIWxU93eCT4
-    - video/SdQVQLNXVS0
-    - video/Sh3ySQSTw-o
   posts: []
   guidelines: []
 learn_toc_path:
@@ -75,7 +72,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 6
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -105,10 +102,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Introducing Spreadsheets for Business Central](../../../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"
 - [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../../videos/6dEZQlmBlyI.md) (video): "Use Data from a Report inside your Spreadsheet with Business Central"
-- [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../videos/JT4ownMbotw.md) (video): "Excel layouts for manufacturing reports; In-client help and teaching tips for reports"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../../videos/PIWxU93eCT4.md) (video): "Edit sales price lists in Excel"
-- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "excel integration; Barcode label printing for tracked items"
-- [What's new: Server and Database (2026 release wave 2)](../../../../videos/Sh3ySQSTw-o.md) (video): "Streaming-based Excel import; Telemetry for Excel export audit"
 
 ## Business Central pages and reports
 

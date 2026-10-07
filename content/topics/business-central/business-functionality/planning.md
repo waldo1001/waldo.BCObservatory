@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2c0efdb54fdf8b9ca586037daec2328e07f0bc0440cd110faedfb108ce1c8654
@@ -98,6 +98,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
     - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
@@ -110,7 +111,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 291
@@ -167,6 +168,7 @@ Path: [Business functionality](../business-functionality.md) > Planning · tier 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
 - [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
 
 ## Business Central pages and reports

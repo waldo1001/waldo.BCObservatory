@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9011ae4b9652016e5e9be2e061d8c2c8a881ae84acb082434c05c2dbfb0a2046
+  input_hash: 77294fc4001dd126412f29afefdb1b4d74b956bf3cfdf18e279149273572a81c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPrepareDraft.Interface.al

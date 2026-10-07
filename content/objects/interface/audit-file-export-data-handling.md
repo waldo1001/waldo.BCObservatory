@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 31efdd77f075839dfe9beb5f5d9ebddde53e376105355c49eb91e5042b20eadc
+  input_hash: 0410348d32c15da52bfc62abef04f4949c94d1f00d39d4f2f0c16ea799eabc74
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataHandling.Interface.al

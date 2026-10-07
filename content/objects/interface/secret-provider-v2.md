@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 87fc37a6ff65e13a1cbfd2064f5e4d7502811f77c2851bb083d125ed867b08a4
+  input_hash: bcbc08ebabdde4b11deda0e392a537374c4a9a270a1949e31cd2ed4de129617f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Secrets/src/SecretProviderv2.Interface.al

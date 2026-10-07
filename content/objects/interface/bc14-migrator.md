@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9249360e461d2b22dba6901586ad21362e029a73600a4f1c46711a9f8b5ea5a5
+  input_hash: 83052889738f9b1b4ccde9ecc0b8316ed8f9530fbb43419f10180a3ed01bf5e6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al

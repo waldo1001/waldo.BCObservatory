@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e697587d1818c505736d570405bafb81e35b187cc4d1c0f4ff8e040c993ebee3
@@ -82,7 +82,8 @@ links:
   localizations: []
   videos:
     - video/jqVt0hYDfz0
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2936
   guidelines: []
 learn_toc_path:
   - Development
@@ -94,7 +95,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -149,6 +150,7 @@ Path: [Development](../development.md) > Data analytics and reporting · tier of
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Integrating Analysis Views in Business Central Extensions](../../../posts/aardvarklabs-blog/2936.md) (community post): "package and deploy Analysis Views in extensions"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 
 ## Business Central pages and reports

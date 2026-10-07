@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 66ba53cb616a3eb79b656e3bb8f97d8f9a490a8bf04fd2c8e68304da09def765
+  input_hash: 6ef9f0ac3eca8f5cc6a9ad511dfc0eed5967c85c04b9ffbf9e6c11a42396ac79
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al

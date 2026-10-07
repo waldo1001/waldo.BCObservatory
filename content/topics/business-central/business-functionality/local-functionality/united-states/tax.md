@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 24efd1f8e11c07b4bac6043fd23e9d4a85edf3e9a48241edff0944a677cc8994
@@ -115,7 +115,6 @@ links:
   videos:
     - video/k0pugXY4CEw
     - video/WI_3mjpQ2JU
-    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -129,7 +128,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -193,7 +192,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
 - [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "1099 reporting; irs integration; us tax forms; vendor setup; electronic filing"
-- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../../../videos/YSDfDjrMUb0.md) (video): "Shopify Connector localization extensions - Belgium and US; Tax details on Shopify refunds"
 
 ## Business Central pages and reports
 

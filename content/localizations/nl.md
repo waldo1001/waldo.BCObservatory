@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -149,7 +149,7 @@ Adds the Dutch telebanking stack: proposals, payment history, transaction modes,
 
 Why: Learn describes telebanking, payment files, direct debit files and bank statement import as the Dutch electronic banking functionality.
 
-Objects: codeunit/11000000 "Process Proposal Lines" (own), codeunit/11000001 "Financial Interface Telebank" (own), codeunit/11404 "Import SEPA CAMT" (own), codeunit/11405 "Process CBG Statement Lines" (own), page/11000001 "Telebank Proposal" (own), page/11000005 "Payment History Card" (own), page/11400 "Bank/Giro Journal" (own), [table/270 "Bank Account"](../objects/table/270.md).
+Objects: [codeunit/11000000 "Process Proposal Lines"](../objects/codeunit/11000000-nl.md) (own), [codeunit/11000001 "Financial Interface Telebank"](../objects/codeunit/11000001-nl.md) (own), [codeunit/11404 "Import SEPA CAMT"](../objects/codeunit/11404-nl.md) (own), [codeunit/11405 "Process CBG Statement Lines"](../objects/codeunit/11405-nl.md) (own), [page/11000001 "Telebank Proposal"](../objects/page/11000001-nl.md) (own), [page/11000005 "Payment History Card"](../objects/page/11000005-nl.md) (own), [page/11400 "Bank/Giro Journal"](../objects/page/11400-nl.md) (own), [table/270 "Bank Account"](../objects/table/270.md).
 
 [All 83 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -159,7 +159,7 @@ Adds electronic tax declarations (VAT and ICP) with Digipoort communication, tax
 
 Why: Learn explains that electronic VAT and ICP declarations are submitted as XBRL through Digipoort with certificates, and that G/L entries can be applied and unapplied.
 
-Objects: codeunit/11409 "Elec. Tax Declaration Mgt." (own), codeunit/11000054 "Digipoort Communication" (own), interface/digipoort communication "DigiPoort Communication" (own), report/11403 "Create Elec. VAT Declaration" (own), report/11404 "Create Elec. ICP Declaration" (own), report/11412 "Tax Authority - Audit File" (own), [table/17 "G/L Entry"](../objects/table/17.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
+Objects: [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md) (own), [codeunit/11000054 "Digipoort Communication"](../objects/codeunit/11000054-nl.md) (own), [interface/digipoort communication "DigiPoort Communication"](../objects/interface/digipoort-communication-nl.md) (own), [report/11403 "Create Elec. VAT Declaration"](../objects/report/11403-nl.md) (own), [report/11404 "Create Elec. ICP Declaration"](../objects/report/11404-nl.md) (own), [report/11412 "Tax Authority - Audit File"](../objects/report/11412-nl.md) (own), [table/17 "G/L Entry"](../objects/table/17.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
 
 [All 46 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -169,7 +169,7 @@ Adds Dutch table and page extensions on service headers, contracts, quotes, orde
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/11412 "Serv. Document Mgt. NL" (own), tableextension/11451 "Service Header NL" (own), tableextension/11450 "Service Contract Header NL" (own), pageextension/11454 "Service Order NL" (own), pageextension/11453 "Service Invoice NL" (own), pageextension/11450 "Service Contract NL" (own).
+Objects: [codeunit/11412 "Serv. Document Mgt. NL"](../objects/codeunit/11412-nl.md) (own), [tableextension/11451 "Service Header NL"](../objects/tableextension/11451-nl.md) (own), [tableextension/11450 "Service Contract Header NL"](../objects/tableextension/11450-nl.md) (own), [pageextension/11454 "Service Order NL"](../objects/pageextension/11454-nl.md) (own), [pageextension/11453 "Service Invoice NL"](../objects/pageextension/11453-nl.md) (own), [pageextension/11450 "Service Contract NL"](../objects/pageextension/11450-nl.md) (own).
 
 [All 18 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -179,7 +179,7 @@ Adds Dutch post code management with range and update log tables and import repo
 
 Why: Learn describes subscribing to and importing post code data and monthly updates, with date validation and gap checking.
 
-Objects: codeunit/11401 "Post Code Management" (own), table/11406 "Post Code Range" (own), table/11407 "Post Code Update Log Entry" (own), report/11414 "Import Post Codes" (own), report/11415 "Import Post Codes Update" (own), page/11407 "Post Code Ranges" (own), [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md).
+Objects: [codeunit/11401 "Post Code Management"](../objects/codeunit/11401-nl.md) (own), [table/11406 "Post Code Range"](../objects/table/11406-nl.md) (own), [table/11407 "Post Code Update Log Entry"](../objects/table/11407-nl.md) (own), [report/11414 "Import Post Codes"](../objects/report/11414-nl.md) (own), [report/11415 "Import Post Codes Update"](../objects/report/11415-nl.md) (own), [page/11407 "Post Code Ranges"](../objects/page/11407-nl.md) (own), [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md).
 
 [All 14 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -189,7 +189,7 @@ Adds Transaction Mode Code and bank account fields to the vendor, purchase heade
 
 Why: Learn describes CMR notes for purchase returns and the use of transaction modes for vendor payments.
 
-Objects: [table/23 "Vendor"](../objects/table/23.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md), report/11410 "CMR - Return Shipment" (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
+Objects: [table/23 "Vendor"](../objects/table/23.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md), [report/11410 "CMR - Return Shipment"](../objects/report/11410-nl.md) (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
 
 [All 10 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -199,7 +199,7 @@ Adds Transaction Mode Code and bank account fields to the customer, sales header
 
 Why: Learn describes CMR notes for sales shipments and SEPA direct debit through transaction modes.
 
-Objects: [table/18 "Customer"](../objects/table/18.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), report/11401 "CMR - Sales Shipment" (own), [table/1381 "Customer Templ."](../objects/table/1381.md).
+Objects: [table/18 "Customer"](../objects/table/18.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [report/11401 "CMR - Sales Shipment"](../objects/report/11401-nl.md) (own), [table/1381 "Customer Templ."](../objects/table/1381.md).
 
 [All 9 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -209,7 +209,7 @@ Adds a CMR transfer shipment report. The Intrastat journal batch gets Export Dat
 
 Why: Learn describes CMR notes for transfer shipments.
 
-Objects: report/11402 "CMR - Transfer Shipment" (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
+Objects: [report/11402 "CMR - Transfer Shipment"](../objects/report/11402-nl.md) (own), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
 
 [All 3 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -249,7 +249,7 @@ Adds Local Functionality Mgt., a codeunit for Dutch local functionality.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/11400 "Local Functionality Mgt." (own).
+Objects: [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-nl.md) (own).
 
 [All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -310,152 +310,152 @@ Objects: codeunit/11400 "Local Functionality Mgt." (own).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+144 objects only this country has.
 
-- codeunit/1883 "Sandbox Cleanup local"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/11400 "Local Functionality Mgt."
-- codeunit/11401 "Post Code Management"
-- codeunit/11402 "Post Code Lookup - Table"
-- codeunit/11404 "Import SEPA CAMT"
-- codeunit/11405 "Process CBG Statement Lines"
-- codeunit/11406 "Imp. SEPA CAMT Pre-Mapping"
-- codeunit/11407 "Imp. SEPA CAMT Post-Mapping"
-- codeunit/11408 "Imp. Bank Trans. Data Updates"
-- codeunit/11409 "Elec. Tax Declaration Mgt."
-- codeunit/11411 "Serv. Post Code Mgt."
-- codeunit/11412 "Serv. Document Mgt. NL"
-- codeunit/104170 "UPG SEPA NL"
-- codeunit/104171 "Elec. Tax. Decl. Upgrade"
-- codeunit/11000000 "Process Proposal Lines"
-- codeunit/11000001 "Financial Interface Telebank"
-- codeunit/11000002 "CBG Journal Telebank Interface"
-- codeunit/11000005 "Import Protocol Management"
-- codeunit/11000006 "CBG Statement Reconciliation"
-- codeunit/11000007 "Check BTL91"
-- codeunit/11000008 "Check BBV"
-- codeunit/11000009 "Check PAYMUL"
-- codeunit/11000010 "Check SEPA ISO20022"
-- codeunit/11000011 "Check SEPA Pain 008.001.02"
-- codeunit/11000012 "Report Checksum"
-- codeunit/11000052 "Digipoort Onprem Communication"
-- codeunit/11000053 "Digipoort SaaS Communication"
-- codeunit/11000054 "Digipoort Communication"
-- enum/11409 "Elec. Tax Declaration Period"
-- enum/11000006 "CBG Statement Information Type"
-- enum/11000007 "CBG Statement Line Account Type"
-- interface/digipoort communication "DigiPoort Communication"
-- page/11400 "Bank/Giro Journal"
-- page/11401 "Bank/Giro Journal Subform"
-- page/11402 "Bank/Giro Journal List"
-- page/11403 "Cash Journal"
-- page/11404 "Cash Journal Subform"
-- page/11405 "Cash Journal List"
-- page/11406 "Freely Transferable Maximums"
-- page/11407 "Post Code Ranges"
-- page/11408 "Post Code Updates"
-- page/11409 "Gen. Journal Templ. List (CBG)"
-- page/11410 "Elec. Tax Declaration Setup"
-- page/11411 "Elec. Tax Declaration Card"
-- page/11412 "Elec. Tax Declaration List"
-- page/11413 "Elec. Tax Decl. Line Subform"
-- page/11414 "Elec. Tax Decl. VAT Categ."
-- page/11415 "Elec. Tax Decl. Error Log"
-- page/11416 "Elec. Tax Decl. Response Msgs."
-- page/35001 "Bank/Giro Jnl. Subf. Info"
-- page/11000000 "Telebank - Bank Overview"
-- page/11000001 "Telebank Proposal"
-- page/11000002 "Proposal Detail Line"
-- page/11000003 "Detail Line Subform"
-- page/11000004 "Detail Lines"
-- page/11000005 "Payment History Card"
-- page/11000006 "Payment History Line Overview"
-- page/11000007 "Payment History List"
-- page/11000008 "Payment History Line Subform"
-- page/11000009 "Payment History Line Detail"
-- page/11000010 "Transaction Mode List"
-- page/11000011 "Transaction Mode Card"
-- page/11000012 "Export Protocols"
-- page/11000014 "CBG Statement Line Add. Info."
-- page/11000015 "Import Protocols"
-- page/11000016 "Import Protocol List"
-- page/11000017 "AL Objects (Telebanking)"
-- pageextension/11400 "SourceCodeSetupNL"
-- pageextension/11450 "Service Contract NL"
-- pageextension/11451 "Service Contract Quote NL"
-- pageextension/11452 "Service Credit Memo NL"
-- pageextension/11453 "Service Invoice NL"
-- pageextension/11454 "Service Order NL"
-- pageextension/11455 "Service Quote NL"
-- pageextension/11456 "Posted Service Credit Memo NL"
-- pageextension/11457 "Posted Service Invoice NL"
-- pageextension/11458 "Filed Service Contract NL"
-- pageextension/11460 "Service Quote Archive NL"
-- pageextension/11461 "Service Order Archive NL"
-- query/11400 "Data Exch. Find Column No."
-- query/11401 "CountPartnerTypes"
-- report/11400 "CBG Posting - Test"
-- report/11401 "CMR - Sales Shipment"
-- report/11402 "CMR - Transfer Shipment"
-- report/11403 "Create Elec. VAT Declaration"
-- report/11404 "Create Elec. ICP Declaration"
-- report/11405 "Submit Elec. Tax Declaration"
-- report/11406 "Process Response Messages"
-- report/11408 "Receive Response Messages"
-- report/11409 "VAT- VIES Decl. Tax Auth NL"
-- report/11410 "CMR - Return Shipment"
-- report/11412 "Tax Authority - Audit File"
-- report/11414 "Import Post Codes"
-- report/11415 "Import Post Codes Update"
-- report/11420 "Export Financial Data to XML"
-- report/11000000 "Get Proposal Entries"
-- report/11000001 "Proposal Overview"
-- report/11000002 "Payment History Overview"
-- report/11000003 "Paymt. History - Change Status"
-- report/11000004 "Docket"
-- report/11000007 "Export BTL91-ABN AMRO"
-- report/11000008 "Export BBV"
-- report/11000009 "Export PAYMUL"
-- report/11000010 "Export BTL91-RABO"
-- report/11000011 "Export SEPA ISO20022"
-- report/11000012 "SEPA ISO20022 Pain 01.01.03"
-- report/11000013 "SEPA ISO20022 Pain 008.001.02"
-- report/11000014 "SEPA ISO20022 Pain 01.01.09"
-- report/11000015 "SEPA ISO20022 Pain 008.001.08"
-- report/11000021 "Import Rabobank mut.asc"
-- report/11000022 "Import Rabobank vvmut.asc"
-- report/11000023 "Import Rabobank ASCII"
-- table/11307 "G/L Entry Application Buffer"
-- table/11400 "CBG Statement"
-- table/11401 "CBG Statement Line"
-- table/11403 "Reporting ICP"
-- table/11404 "Audit File Buffer"
-- table/11405 "Freely Transferable Maximum"
-- table/11406 "Post Code Range"
-- table/11407 "Post Code Update Log Entry"
-- table/11408 "Elec. Tax Declaration Setup"
-- table/11409 "Elec. Tax Declaration Header"
-- table/11410 "Elec. Tax Declaration Line"
-- table/11411 "Elec. Tax Decl. VAT Category"
-- table/11412 "Elec. Tax Decl. Error Log"
-- table/11413 "Elec. Tax Decl. Response Msg."
-- table/11000000 "Proposal Line"
-- table/11000001 "Payment History"
-- table/11000002 "Payment History Line"
-- table/11000003 "Detail Line"
-- table/11000004 "Transaction Mode"
-- table/11000005 "Export Protocol"
-- table/11000006 "CBG Statement Line Add. Info."
-- table/11000007 "Import Protocol"
-- table/11000008 "Reconciliation Buffer"
-- table/11000009 "Payment History Export Buffer"
-- tableextension/11400 "SourceCodeSetupNL"
-- tableextension/11450 "Service Contract Header NL"
-- tableextension/11451 "Service Header NL"
-- tableextension/11453 "Service Cr.Memo Header NL"
-- tableextension/11454 "Service Invoice Header NL"
-- tableextension/11455 "Filed Serv. Contract Header NL"
-- tableextension/11460 "Service Header Archive NL"
+- [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-nl.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-nl.md)
+- [codeunit/11400 "Local Functionality Mgt."](../objects/codeunit/11400-nl.md)
+- [codeunit/11401 "Post Code Management"](../objects/codeunit/11401-nl.md)
+- [codeunit/11402 "Post Code Lookup - Table"](../objects/codeunit/11402-nl.md)
+- [codeunit/11404 "Import SEPA CAMT"](../objects/codeunit/11404-nl.md)
+- [codeunit/11405 "Process CBG Statement Lines"](../objects/codeunit/11405-nl.md)
+- [codeunit/11406 "Imp. SEPA CAMT Pre-Mapping"](../objects/codeunit/11406-nl.md)
+- [codeunit/11407 "Imp. SEPA CAMT Post-Mapping"](../objects/codeunit/11407-nl.md)
+- [codeunit/11408 "Imp. Bank Trans. Data Updates"](../objects/codeunit/11408-nl.md)
+- [codeunit/11409 "Elec. Tax Declaration Mgt."](../objects/codeunit/11409-nl.md)
+- [codeunit/11411 "Serv. Post Code Mgt."](../objects/codeunit/11411-nl.md)
+- [codeunit/11412 "Serv. Document Mgt. NL"](../objects/codeunit/11412-nl.md)
+- [codeunit/104170 "UPG SEPA NL"](../objects/codeunit/104170-nl.md)
+- [codeunit/104171 "Elec. Tax. Decl. Upgrade"](../objects/codeunit/104171-nl.md)
+- [codeunit/11000000 "Process Proposal Lines"](../objects/codeunit/11000000-nl.md)
+- [codeunit/11000001 "Financial Interface Telebank"](../objects/codeunit/11000001-nl.md)
+- [codeunit/11000002 "CBG Journal Telebank Interface"](../objects/codeunit/11000002-nl.md)
+- [codeunit/11000005 "Import Protocol Management"](../objects/codeunit/11000005-nl.md)
+- [codeunit/11000006 "CBG Statement Reconciliation"](../objects/codeunit/11000006-nl.md)
+- [codeunit/11000007 "Check BTL91"](../objects/codeunit/11000007-nl.md)
+- [codeunit/11000008 "Check BBV"](../objects/codeunit/11000008-nl.md)
+- [codeunit/11000009 "Check PAYMUL"](../objects/codeunit/11000009-nl.md)
+- [codeunit/11000010 "Check SEPA ISO20022"](../objects/codeunit/11000010-nl.md)
+- [codeunit/11000011 "Check SEPA Pain 008.001.02"](../objects/codeunit/11000011-nl.md)
+- [codeunit/11000012 "Report Checksum"](../objects/codeunit/11000012-nl.md)
+- [codeunit/11000052 "Digipoort Onprem Communication"](../objects/codeunit/11000052-nl.md)
+- [codeunit/11000053 "Digipoort SaaS Communication"](../objects/codeunit/11000053-nl.md)
+- [codeunit/11000054 "Digipoort Communication"](../objects/codeunit/11000054-nl.md)
+- [enum/11409 "Elec. Tax Declaration Period"](../objects/enum/11409-nl.md)
+- [enum/11000006 "CBG Statement Information Type"](../objects/enum/11000006-nl.md)
+- [enum/11000007 "CBG Statement Line Account Type"](../objects/enum/11000007-nl.md)
+- [interface/digipoort communication "DigiPoort Communication"](../objects/interface/digipoort-communication-nl.md)
+- [page/11400 "Bank/Giro Journal"](../objects/page/11400-nl.md)
+- [page/11401 "Bank/Giro Journal Subform"](../objects/page/11401-nl.md)
+- [page/11402 "Bank/Giro Journal List"](../objects/page/11402-nl.md)
+- [page/11403 "Cash Journal"](../objects/page/11403-nl.md)
+- [page/11404 "Cash Journal Subform"](../objects/page/11404-nl.md)
+- [page/11405 "Cash Journal List"](../objects/page/11405-nl.md)
+- [page/11406 "Freely Transferable Maximums"](../objects/page/11406-nl.md)
+- [page/11407 "Post Code Ranges"](../objects/page/11407-nl.md)
+- [page/11408 "Post Code Updates"](../objects/page/11408-nl.md)
+- [page/11409 "Gen. Journal Templ. List (CBG)"](../objects/page/11409-nl.md)
+- [page/11410 "Elec. Tax Declaration Setup"](../objects/page/11410-nl.md)
+- [page/11411 "Elec. Tax Declaration Card"](../objects/page/11411-nl.md)
+- [page/11412 "Elec. Tax Declaration List"](../objects/page/11412-nl.md)
+- [page/11413 "Elec. Tax Decl. Line Subform"](../objects/page/11413-nl.md)
+- [page/11414 "Elec. Tax Decl. VAT Categ."](../objects/page/11414-nl.md)
+- [page/11415 "Elec. Tax Decl. Error Log"](../objects/page/11415-nl.md)
+- [page/11416 "Elec. Tax Decl. Response Msgs."](../objects/page/11416-nl.md)
+- [page/35001 "Bank/Giro Jnl. Subf. Info"](../objects/page/35001-nl.md)
+- [page/11000000 "Telebank - Bank Overview"](../objects/page/11000000-nl.md)
+- [page/11000001 "Telebank Proposal"](../objects/page/11000001-nl.md)
+- [page/11000002 "Proposal Detail Line"](../objects/page/11000002-nl.md)
+- [page/11000003 "Detail Line Subform"](../objects/page/11000003-nl.md)
+- [page/11000004 "Detail Lines"](../objects/page/11000004-nl.md)
+- [page/11000005 "Payment History Card"](../objects/page/11000005-nl.md)
+- [page/11000006 "Payment History Line Overview"](../objects/page/11000006-nl.md)
+- [page/11000007 "Payment History List"](../objects/page/11000007-nl.md)
+- [page/11000008 "Payment History Line Subform"](../objects/page/11000008-nl.md)
+- [page/11000009 "Payment History Line Detail"](../objects/page/11000009-nl.md)
+- [page/11000010 "Transaction Mode List"](../objects/page/11000010-nl.md)
+- [page/11000011 "Transaction Mode Card"](../objects/page/11000011-nl.md)
+- [page/11000012 "Export Protocols"](../objects/page/11000012-nl.md)
+- [page/11000014 "CBG Statement Line Add. Info."](../objects/page/11000014-nl.md)
+- [page/11000015 "Import Protocols"](../objects/page/11000015-nl.md)
+- [page/11000016 "Import Protocol List"](../objects/page/11000016-nl.md)
+- [page/11000017 "AL Objects (Telebanking)"](../objects/page/11000017-nl.md)
+- [pageextension/11400 "SourceCodeSetupNL"](../objects/pageextension/11400-nl.md)
+- [pageextension/11450 "Service Contract NL"](../objects/pageextension/11450-nl.md)
+- [pageextension/11451 "Service Contract Quote NL"](../objects/pageextension/11451-nl.md)
+- [pageextension/11452 "Service Credit Memo NL"](../objects/pageextension/11452-nl.md)
+- [pageextension/11453 "Service Invoice NL"](../objects/pageextension/11453-nl.md)
+- [pageextension/11454 "Service Order NL"](../objects/pageextension/11454-nl.md)
+- [pageextension/11455 "Service Quote NL"](../objects/pageextension/11455-nl.md)
+- [pageextension/11456 "Posted Service Credit Memo NL"](../objects/pageextension/11456-nl.md)
+- [pageextension/11457 "Posted Service Invoice NL"](../objects/pageextension/11457-nl.md)
+- [pageextension/11458 "Filed Service Contract NL"](../objects/pageextension/11458-nl.md)
+- [pageextension/11460 "Service Quote Archive NL"](../objects/pageextension/11460-nl.md)
+- [pageextension/11461 "Service Order Archive NL"](../objects/pageextension/11461-nl.md)
+- [query/11400 "Data Exch. Find Column No."](../objects/query/11400-nl.md)
+- [query/11401 "CountPartnerTypes"](../objects/query/11401-nl.md)
+- [report/11400 "CBG Posting - Test"](../objects/report/11400-nl.md)
+- [report/11401 "CMR - Sales Shipment"](../objects/report/11401-nl.md)
+- [report/11402 "CMR - Transfer Shipment"](../objects/report/11402-nl.md)
+- [report/11403 "Create Elec. VAT Declaration"](../objects/report/11403-nl.md)
+- [report/11404 "Create Elec. ICP Declaration"](../objects/report/11404-nl.md)
+- [report/11405 "Submit Elec. Tax Declaration"](../objects/report/11405-nl.md)
+- [report/11406 "Process Response Messages"](../objects/report/11406-nl.md)
+- [report/11408 "Receive Response Messages"](../objects/report/11408-nl.md)
+- [report/11409 "VAT- VIES Decl. Tax Auth NL"](../objects/report/11409-nl.md)
+- [report/11410 "CMR - Return Shipment"](../objects/report/11410-nl.md)
+- [report/11412 "Tax Authority - Audit File"](../objects/report/11412-nl.md)
+- [report/11414 "Import Post Codes"](../objects/report/11414-nl.md)
+- [report/11415 "Import Post Codes Update"](../objects/report/11415-nl.md)
+- [report/11420 "Export Financial Data to XML"](../objects/report/11420-nl.md)
+- [report/11000000 "Get Proposal Entries"](../objects/report/11000000-nl.md)
+- [report/11000001 "Proposal Overview"](../objects/report/11000001-nl.md)
+- [report/11000002 "Payment History Overview"](../objects/report/11000002-nl.md)
+- [report/11000003 "Paymt. History - Change Status"](../objects/report/11000003-nl.md)
+- [report/11000004 "Docket"](../objects/report/11000004-nl.md)
+- [report/11000007 "Export BTL91-ABN AMRO"](../objects/report/11000007-nl.md)
+- [report/11000008 "Export BBV"](../objects/report/11000008-nl.md)
+- [report/11000009 "Export PAYMUL"](../objects/report/11000009-nl.md)
+- [report/11000010 "Export BTL91-RABO"](../objects/report/11000010-nl.md)
+- [report/11000011 "Export SEPA ISO20022"](../objects/report/11000011-nl.md)
+- [report/11000012 "SEPA ISO20022 Pain 01.01.03"](../objects/report/11000012-nl.md)
+- [report/11000013 "SEPA ISO20022 Pain 008.001.02"](../objects/report/11000013-nl.md)
+- [report/11000014 "SEPA ISO20022 Pain 01.01.09"](../objects/report/11000014-nl.md)
+- [report/11000015 "SEPA ISO20022 Pain 008.001.08"](../objects/report/11000015-nl.md)
+- [report/11000021 "Import Rabobank mut.asc"](../objects/report/11000021-nl.md)
+- [report/11000022 "Import Rabobank vvmut.asc"](../objects/report/11000022-nl.md)
+- [report/11000023 "Import Rabobank ASCII"](../objects/report/11000023-nl.md)
+- [table/11307 "G/L Entry Application Buffer"](../objects/table/11307-nl.md)
+- [table/11400 "CBG Statement"](../objects/table/11400-nl.md)
+- [table/11401 "CBG Statement Line"](../objects/table/11401-nl.md)
+- [table/11403 "Reporting ICP"](../objects/table/11403-nl.md)
+- [table/11404 "Audit File Buffer"](../objects/table/11404-nl.md)
+- [table/11405 "Freely Transferable Maximum"](../objects/table/11405-nl.md)
+- [table/11406 "Post Code Range"](../objects/table/11406-nl.md)
+- [table/11407 "Post Code Update Log Entry"](../objects/table/11407-nl.md)
+- [table/11408 "Elec. Tax Declaration Setup"](../objects/table/11408-nl.md)
+- [table/11409 "Elec. Tax Declaration Header"](../objects/table/11409-nl.md)
+- [table/11410 "Elec. Tax Declaration Line"](../objects/table/11410-nl.md)
+- [table/11411 "Elec. Tax Decl. VAT Category"](../objects/table/11411-nl.md)
+- [table/11412 "Elec. Tax Decl. Error Log"](../objects/table/11412-nl.md)
+- [table/11413 "Elec. Tax Decl. Response Msg."](../objects/table/11413-nl.md)
+- [table/11000000 "Proposal Line"](../objects/table/11000000-nl.md)
+- [table/11000001 "Payment History"](../objects/table/11000001-nl.md)
+- [table/11000002 "Payment History Line"](../objects/table/11000002-nl.md)
+- [table/11000003 "Detail Line"](../objects/table/11000003-nl.md)
+- [table/11000004 "Transaction Mode"](../objects/table/11000004-nl.md)
+- [table/11000005 "Export Protocol"](../objects/table/11000005-nl.md)
+- [table/11000006 "CBG Statement Line Add. Info."](../objects/table/11000006-nl.md)
+- [table/11000007 "Import Protocol"](../objects/table/11000007-nl.md)
+- [table/11000008 "Reconciliation Buffer"](../objects/table/11000008-nl.md)
+- [table/11000009 "Payment History Export Buffer"](../objects/table/11000009-nl.md)
+- [tableextension/11400 "SourceCodeSetupNL"](../objects/tableextension/11400-nl.md)
+- [tableextension/11450 "Service Contract Header NL"](../objects/tableextension/11450-nl.md)
+- [tableextension/11451 "Service Header NL"](../objects/tableextension/11451-nl.md)
+- [tableextension/11453 "Service Cr.Memo Header NL"](../objects/tableextension/11453-nl.md)
+- [tableextension/11454 "Service Invoice Header NL"](../objects/tableextension/11454-nl.md)
+- [tableextension/11455 "Filed Serv. Contract Header NL"](../objects/tableextension/11455-nl.md)
+- [tableextension/11460 "Service Header Archive NL"](../objects/tableextension/11460-nl.md)
 
 ## Other versions
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 56927537ffc06a6b885d4557d334f0a64f7b916cb83305cb76f08e829c44f86d
@@ -316,7 +316,6 @@ links:
   localizations: []
   videos:
     - video/jJxBswIy_Xw
-    - video/q2Fu_dqn2qo
     - video/ywyaIenKix8
   posts: []
   guidelines: []
@@ -334,7 +333,7 @@ children:
 coverage:
   learn: 47
   code: 0
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -396,7 +395,6 @@ Path: [Business functionality](../../business-functionality.md) > [Sales](../sal
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
-- [What's New: Enhanced Demo Data (2026 release wave 1)](../../../../videos/q2Fu_dqn2qo.md) (video): "Sales Demo Data Enhancements; Subscription Billing Demo Data"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"
 
 ## Business Central pages and reports

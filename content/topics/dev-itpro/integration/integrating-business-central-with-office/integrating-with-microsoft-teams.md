@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 046db4ac1675927d209c40e73faacdc542a406d6ea64db390f462ed3136a9f27
@@ -73,8 +73,7 @@ links:
   localizations: []
   videos:
     - video/_OClSlushOU
-  posts:
-    - post/gerardorenteria-blog/12166
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -88,7 +87,7 @@ coverage:
   learn: 6
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 046db4ac1675927d209c40e73faacdc542a406d6ea64db390f462ed3136a9f27
@@ -116,7 +115,6 @@ Path: [Integration](../../integration.md) > [Integrating Business Central with O
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [📅 Exporting ICS (Calendar) Files for Business Central 💡](../../../../posts/gerardorenteria-blog/12166.md) (community post): "export critical time and planning information from Business Central as ICS calendar files for seamless integration with Outlook, Teams"
 - [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Work Seamlessly with Microsoft Outlook, Excel, and Teams integration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

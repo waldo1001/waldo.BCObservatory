@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d4ad2f8c5bb3073c8c971248247f4101fe15ac52e9acfaffa2cfaab54a80416d
+  input_hash: 7663e1b9c476ad565baa72cd7637e054fc993bb3d270d39ff424dfdfb83deba6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Azure%20Function/AzureFunctionsAuthentication.interface.al

@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/02/08/%f0%9f%94%a7bc-launch-profile-vs-code-extension-for-managing-business-central-environments-%f0%9f%94%84/",
   "published_at": "2026-02-08T19:01:17.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:03:21.234Z",
+      "path": "vault:posts/gerardorenteria-blog/13623.md",
+      "words": 957
+    },
+    "extracted": {
+      "at": "2026-10-07T01:03:21.245Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:03:21.246Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:03:21.247Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:03:21.256Z",
+      "path": "content/posts/gerardorenteria-blog/13623.md"
     }
   },
   "input_hash": "2026-02-08T19:01:38.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6271ea095ce17cb7db3a92c0aa4aa5ab0f91481febb3b37c883cd6726c3e7ab"
 }

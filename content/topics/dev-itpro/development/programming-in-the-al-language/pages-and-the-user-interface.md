@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -317,14 +317,8 @@ links:
   localizations: []
   videos:
     - video/2Zz55J8rt8I
-    - video/5qWLFUqFsi0
-    - video/dUpixjiNaGY
-    - video/lH2Z4xfdhmY
     - video/rWZcmEwwVHg
-    - video/ugHFHtSxTlw
-  posts:
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1483211802825342389
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -343,8 +337,8 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 6
-  blog: 2
+  video: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -378,13 +372,7 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you"
-- [Business Central 2026 Wave 2: Preview Images Directly in the Web Client](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1483211802825342389.md) (community post): "Business Central 2026 Wave 2 introduces native image preview functionality in the web client"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
-- [Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)](../../../../videos/5qWLFUqFsi0.md) (video): "Page regions for spreadsheet presentation; Preview mode with tabbed navigation"
-- [Preview Images Directly in Business Central Web Client](../../../../videos/dUpixjiNaGY.md) (video): "Image Preview in Web Client; File View From Stream Method"
-- [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property; page search"
 - [What's New: Business Central User Experience (2024 release wave 2)](../../../../videos/rWZcmEwwVHg.md) (video): "Access Keys for Additional Languages; Modernized Search with Full-Text Index; Faster Column Resizing"
-- [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Fluent Design Language; Figma for UI Design; Company Switcher; Onboarding"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

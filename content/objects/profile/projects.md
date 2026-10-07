@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 745022f4086947a84faf5353839b0bc20adb9c7ce4962ad6351d033cc3d84439
+  input_hash: ffaddb2246531551ff47d28795b90cf9a02dd7c5f1a39fec3b5283e5adb3c4b3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al

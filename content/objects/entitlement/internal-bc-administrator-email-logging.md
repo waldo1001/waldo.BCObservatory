@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9f5a6cef9af4e6c70ff583d712b6eaff54fa5b6cccb16ac69797fa71410de550
+  input_hash: fc4771e39c433376a92254d75566f1c3b2088bded539682413e5ae96ea2b9139
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al

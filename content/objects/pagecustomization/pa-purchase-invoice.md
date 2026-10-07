@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c89c70d5fbeb9a242ea6538ad68c19e05b1dfd70a7437a24c698ae4c299690f6
+  input_hash: e3cb2002a0cd44718bbab9e668f55972a6cd23dd4717f3a9f204af2e5b1de42f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseInvoice.PageCust.al

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:24:07.451Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,6 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
   localizations: []
   videos:
-    - video/_1onqwZz4rA
     - video/kJfGIKor3VA
     - video/VEVo5LgCGfw
   posts:
@@ -106,7 +105,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -156,7 +155,6 @@ Three calendar pages give more detail on the calendar settings: fiscal, standard
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Business Central standard Power BI reports are now distributed through official Power BI template apps"
-- [What's New: Demo Data for Analytics (2025 release wave 2)](../../../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics; Sales Documents Demo Data"
 - [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../../../../videos/kJfGIKor3VA.md) (video): "Drill-back from Power BI to Business Central; Dynamic dimension naming in Power BI apps"
 - [What's New: Open Sourcing Power BI Apps for Business Central (2025 release wave 2)](../../../../videos/VEVo5LgCGfw.md) (video): "Open-sourced Power BI apps for Business Central; Wave 1 Power BI apps open sourcing"
 

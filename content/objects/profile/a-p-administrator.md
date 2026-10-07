@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ca7d9a0ff79aac1d660bc768377d460e906af3bbcf836289976e1ea68d481147
+  input_hash: f902ae219ebe7cdf1d2f4a03e011d41d04478ce9050d34565e60f1b68d4b9a23
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/APAdministrator.Profile.al

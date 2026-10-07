@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -80,13 +80,9 @@ links:
   topics:
     - topic/dev-itpro/development/the-al-programming-language
   localizations: []
-  videos:
-    - video/ADXkUFI_VWI
-    - video/i0gBrA1tx50
-    - video/qFGTq40UinE
+  videos: []
   posts:
-    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/
-    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/
+    - post/vondervoort-be/130
     - post/vondervoort-be/147
   guidelines: []
 learn_toc_path:
@@ -99,8 +95,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 3
-  blog: 3
+  video: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -127,11 +123,7 @@ Path: [Development](../../development.md) > [The AL programming language](../the
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/.md) (community post): "bc-code-atlas enhancements for cross-app call graphs"
-- [Weekly Recap: August 14-21](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/.md) (community post): "bc-code-atlas's fork caught up 677 commits discovering undocumented AL-specific behaviors"
+- [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
-- [Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler](../../../../videos/ADXkUFI_VWI.md) (video): "Inner Workings of The AL Compiler; compiler architecture; roslyn"
-- [What’s new: ALGraph (2026 release wave 2)](../../../../videos/i0gBrA1tx50.md) (video): "AL Graph; call graphs; code auditing; security analysis; AL Graph query language"
-- [GitHub Copilot Can Generate Your Entire App Blueprint (Most Developers Miss This)](../../../../videos/qFGTq40UinE.md) (video): "GitHub Copilot inline suggestions in VS Code; GitHub Copilot chat interface; GitHub Copilot agent mode"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

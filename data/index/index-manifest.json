@@ -1,19 +1,24 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 18049,
+  "pages": 22412,
   "shards": [
     {
       "file": "pages-1.json",
-      "count": 18049,
-      "sha256": "9fed2216f7747c11be2dd897560e7436ad3fa663df9daa40b551842179cc2838"
+      "count": 20886,
+      "sha256": "5e7d68b4c9741e4f948231897376e99836e5a336085d2105c22d7f6f90f0f684"
+    },
+    {
+      "file": "pages-2.json",
+      "count": 1526,
+      "sha256": "4849774dfac9884480e6b0f86db8b859b42d3d0ebef03eac9b432e4c0b8e22d3"
     }
   ],
   "by_type": {
     "digest": 4,
     "feature": 80,
     "localization": 22,
-    "object": 16425,
-    "post": 267,
+    "object": 20744,
+    "post": 311,
     "source": 29,
     "topic": 605,
     "video": 617

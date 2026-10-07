@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c866176a0e45185d772b3002d80b38829e7331dcfa30899f60512606952f31ee
+  input_hash: fc4011d35f7c5d5ab3f493d45284663b9639fa6991fa8ee88949f64c963a9d5a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 784bbcb7c50b4ad11fac39b1524aefa8d20038a9ee81ef5068630fbbe8b3ddc7
+  input_hash: 95330ac084fdb664612f057fee10038e5e2fa8c5a81e998630a55ce169defa74
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Entitlements/AzureADApplicationApi.Entitlement.al

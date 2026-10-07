@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 527a1ae165fb88fd764247f29b10dfeb9e56cdb65456e0d7822c81a161625c22
+  input_hash: e938459c83f3e239d20d51f2d6fd549f4bd2ec639c3b35255f97abba31a671a3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EAInternalBCAdministrator.Entitlement.al

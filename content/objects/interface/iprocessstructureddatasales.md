@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 041a8ccbde08c07e737223e15a26c2c3c9035db7611eab54012b7bdbbb03dc15
+  input_hash: a580d679302b5037f297d5552c4b2fe2d5085a05d9445f456c67679540864b85
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredDataSales.Interface.al

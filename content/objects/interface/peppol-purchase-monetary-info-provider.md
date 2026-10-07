@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cc1b4c50ea7bf16210d500f11fe1df62f9c12cc95c22f59e8e4908ba8247c8b6
+  input_hash: 8b83e412eaa8df99a0aa5b2fb5f84d1a5ce1579dc036d39629894b1d32a5a3c5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al

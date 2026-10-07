@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8e5d1a7a4599eb907dce23aa62159950f6b25c4551e5801ef408b49e9a4696df
+  input_hash: 4cb00ed72bc04ac7f6f4e3d06bb1d46f8bea381e1ff6452cde6ebdfea6e94ce0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6990e164e39e324bc1b4af09d7fb7062166496d00e69af801ed17d9e1d4b8a56
+  input_hash: 19f75550a08ca622e41c2e47c362e589afbf547dcea9af4071acf3ca75cbf4ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al

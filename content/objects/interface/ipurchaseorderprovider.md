@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: aa09a74b57fce84a8418acdb6c972c09df63ca960f25b1b3a9ca3df87cf79a9c
+  input_hash: b6f4cb1e419212e9e17bc53d523d1726cf37f518921117f45e7a0c1470fa307b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseOrderProvider.Interface.al

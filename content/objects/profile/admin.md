@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c535bf21a86b59c486cb842d36aaf116c569ef77ca5419f9b6ef72dc62a26d64
+  input_hash: e2fef2ef4bc935a12b2c393aa2a4de2dc7dc4375a5e2f809de772a285e0f3ae1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/Admin.Profile.al

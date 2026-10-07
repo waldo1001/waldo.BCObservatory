@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -312,7 +312,7 @@ Adds customer and vendor bill handling, bill posting groups, ABI/CAB and BBAN on
 
 Why: Learn describes automatic customer and vendor bills and SEPA payments as the Italian way to issue payments and collections.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), codeunit/12172 "Customer Bill - Post + Print" (own), codeunit/12173 "Vendor Bill List - Post" (own), codeunit/12177 "SEPA - DD Export Mgt." (own), [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [codeunit/1232 "SEPA DD-Prepare Source"](../objects/codeunit/1232.md), page/12175 "Customer Bill Card" (own).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [codeunit/12172 "Customer Bill - Post + Print"](../objects/codeunit/12172-it.md) (own), [codeunit/12173 "Vendor Bill List - Post"](../objects/codeunit/12173-it.md) (own), [codeunit/12177 "SEPA - DD Export Mgt."](../objects/codeunit/12177-it.md) (own), [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [codeunit/1232 "SEPA DD-Prepare Source"](../objects/codeunit/1232.md), [page/12175 "Customer Bill Card"](../objects/page/12175-it.md) (own).
 
 [All 81 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -322,7 +322,7 @@ Adds fiscal inventory valuation (LIFO categories and bands, item cost history, b
 
 Why: Learn documents fiscal inventory valuation with year average, weighted average, FIFO, LIFO and discrete LIFO costs, and Italian Intrastat with periodicity and corrective entries.
 
-Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), table/12131 "Item Cost History" (own), table/12129 "Lifo Category" (own), report/12135 "Fiscal Inventory Valuation" (own), report/12137 "LIFO Valuation" (own).
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/12131 "Item Cost History"](../objects/table/12131-it.md) (own), [table/12129 "Lifo Category"](../objects/table/12129-it.md) (own), [report/12135 "Fiscal Inventory Valuation"](../objects/report/12135-it.md) (own), [report/12137 "LIFO Valuation"](../objects/report/12137-it.md) (own).
 
 [All 49 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -332,7 +332,7 @@ Italian extensions for service documents, archives and contracts: operation type
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/12109 "Serv. Local Integration IT" (own), codeunit/12140 "Serv. Document Mgt. IT" (own), tableextension/12152 "Service Header IT" (own), tableextension/12153 "Service Line IT" (own), codeunit/12197 "Service Company Initialize IT" (own), codeunit/12192 "Serv. Payment Lines Mgt." (own), pageextension/12460 "Service Mgt. Setup IT" (own), codeunit/12189 "Serv. Fattura Subscribers" (own).
+Objects: [codeunit/12109 "Serv. Local Integration IT"](../objects/codeunit/12109-it.md) (own), [codeunit/12140 "Serv. Document Mgt. IT"](../objects/codeunit/12140-it.md) (own), [tableextension/12152 "Service Header IT"](../objects/tableextension/12152-it.md) (own), [tableextension/12153 "Service Line IT"](../objects/tableextension/12153-it.md) (own), [codeunit/12197 "Service Company Initialize IT"](../objects/codeunit/12197-it.md) (own), [codeunit/12192 "Serv. Payment Lines Mgt."](../objects/codeunit/12192-it.md) (own), [pageextension/12460 "Service Mgt. Setup IT"](../objects/pageextension/12460-it.md) (own), [codeunit/12189 "Serv. Fattura Subscribers"](../objects/codeunit/12189-it.md) (own).
 
 [All 49 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -352,7 +352,7 @@ Adds Italian fields to purchase documents and vendors: operation type, activity 
 
 Why: Learn describes withholding tax for third-party services and vendor purchases, calculated at payment rather than at invoice posting.
 
-Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/39 "Purchase Line"](../objects/table/39.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), table/12122 "Customs Authority Vendor" (own).
+Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/39 "Purchase Line"](../objects/table/39.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/12122 "Customs Authority Vendor"](../objects/table/12122-it.md) (own).
 
 [All 39 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -362,7 +362,7 @@ Legacy Italian subcontracting: subcontracting orders and transfer orders, subcon
 
 Why: Learn states this legacy subcontracting is deprecated and replaced by the Subcontracting app, with a migration app for sandbox environments.
 
-Objects: codeunit/12152 "SubcontractingManagement" (own), codeunit/12153 "SubcontractingPricesMgt" (own), table/12152 "Subcontractor Prices" (own), page/12152 "Subcontracting Order" (own), page/12154 "Subcontr. Transfer Order" (own), report/12152 "Create Subcontr.Transf. Order" (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [table/99000765 "Manufacturing Setup"](../objects/table/99000765.md).
+Objects: [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md) (own), [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md) (own), [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md) (own), [page/12152 "Subcontracting Order"](../objects/page/12152-it.md) (own), [page/12154 "Subcontr. Transfer Order"](../objects/page/12154-it.md) (own), [report/12152 "Create Subcontr.Transf. Order"](../objects/report/12152-it.md) (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [table/99000765 "Manufacturing Setup"](../objects/table/99000765.md).
 
 [All 29 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
@@ -372,7 +372,7 @@ Extends Company Information (fiscal code, REA, SIA code), Payment Terms (install
 
 Why: Learn documents installment payment terms with percentages, due date calculations and discount dates, and the fiscal denial list for countries and vendors.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md), [table/308 "No. Series"](../objects/table/308.md), table/12170 "Payment Lines" (own), table/12171 "Posted Payment Lines" (own), table/12159 "Company Officials" (own), codeunit/12196 "Company Initialize IT" (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md), [table/308 "No. Series"](../objects/table/308.md), [table/12170 "Payment Lines"](../objects/table/12170-it.md) (own), [table/12171 "Posted Payment Lines"](../objects/table/12171-it.md) (own), [table/12159 "Company Officials"](../objects/table/12159-it.md) (own), [codeunit/12196 "Company Initialize IT"](../objects/codeunit/12196-it.md) (own).
 
 [All 28 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -382,7 +382,7 @@ FatturaPA electronic invoicing: setup, code tables, header and line tables, XML 
 
 Why: Learn explains that FatturaPA is used to invoice public administration through the SDI platform, including credit memos, self-billing and prepayments.
 
-Objects: codeunit/12179 "Export FatturaPA Document" (own), table/12205 "Fattura Setup" (own), page/12204 "Fattura Setup" (own), codeunit/12185 "Export Self-Billing Documents" (own), codeunit/12180 "FatturaPA Sales Validation" (own), table/12203 "Fattura Header" (own), table/12204 "Fattura Line" (own), page/12203 "Self-Billing Documents" (own).
+Objects: [codeunit/12179 "Export FatturaPA Document"](../objects/codeunit/12179-it.md) (own), [table/12205 "Fattura Setup"](../objects/table/12205-it.md) (own), [page/12204 "Fattura Setup"](../objects/page/12204-it.md) (own), [codeunit/12185 "Export Self-Billing Documents"](../objects/codeunit/12185-it.md) (own), [codeunit/12180 "FatturaPA Sales Validation"](../objects/codeunit/12180-it.md) (own), [table/12203 "Fattura Header"](../objects/table/12203-it.md) (own), [table/12204 "Fattura Line"](../objects/table/12204-it.md) (own), [page/12203 "Self-Billing Documents"](../objects/page/12203-it.md) (own).
 
 [All 19 objects of EServices in the diff](?ns=EServices#country-diff)
 
@@ -392,7 +392,7 @@ Adds compressed depreciation, anticipated and accelerated/reduced depreciation p
 
 Why: Learn documents compressed depreciation to reduce ledger entries, alternate depreciation methods, and the Depreciation Book report by year and class.
 
-Objects: [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), table/12100 "Compress Depreciation" (own), report/12119 "Depreciation Book" (own), [table/5643 "Depreciation Table Line"](../objects/table/5643.md), [codeunit/5611 "Calculate Normal Depreciation"](../objects/codeunit/5611.md), [table/5600 "Fixed Asset"](../objects/table/5600.md).
+Objects: [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/12100 "Compress Depreciation"](../objects/table/12100-it.md) (own), [report/12119 "Depreciation Book"](../objects/report/12119-it.md) (own), [table/5643 "Depreciation Table Line"](../objects/table/5643.md), [codeunit/5611 "Calculate Normal Depreciation"](../objects/codeunit/5611.md), [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 [All 12 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
@@ -402,7 +402,7 @@ Italian number series extensions (No. Series Type, VAT register), the CBI paymen
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: tableextension/12145 "NoSeriesIT" (own), tableextension/12146 "NoSeriesLineIT" (own), codeunit/12148 "No. Series IT" (own), xmlport/12100 "CBI Payment Request.00.04.00" (own), table/12118 "Intra - form Buffer" (own).
+Objects: [tableextension/12145 "NoSeriesIT"](../objects/tableextension/12145-it.md) (own), [tableextension/12146 "NoSeriesLineIT"](../objects/tableextension/12146-it.md) (own), [codeunit/12148 "No. Series IT"](../objects/codeunit/12148-it.md) (own), [xmlport/12100 "CBI Payment Request.00.04.00"](../objects/xmlport/12100-it.md) (own), [table/12118 "Intra - form Buffer"](../objects/table/12118-it.md) (own).
 
 [All 10 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -412,7 +412,7 @@ Own tables and pages for activity codes, appointment codes, Spesometro appointme
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: table/12124 "Activity Code" (own), table/12125 "Appointment Code" (own), table/12126 "Spesometro Appointment" (own), table/12123 "Check Fiscal Code Setup" (own), codeunit/12104 "LocalApplicationManagement" (own), codeunit/12112 "IT - Report Management" (own).
+Objects: [table/12124 "Activity Code"](../objects/table/12124-it.md) (own), [table/12125 "Appointment Code"](../objects/table/12125-it.md) (own), [table/12126 "Spesometro Appointment"](../objects/table/12126-it.md) (own), [table/12123 "Check Fiscal Code Setup"](../objects/table/12123-it.md) (own), [codeunit/12104 "LocalApplicationManagement"](../objects/codeunit/12104-it.md) (own), [codeunit/12112 "IT - Report Management"](../objects/codeunit/12112-it.md) (own).
 
 [All 9 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -422,7 +422,7 @@ Flat file management for Italian exports, the blacklist communication amount tab
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/12133 "Flat File Management" (own), table/12194 "Blacklist Comm. Amount" (own), table/12197 "Document Relation" (own).
+Objects: [codeunit/12133 "Flat File Management"](../objects/codeunit/12133-it.md) (own), [table/12194 "Blacklist Comm. Amount"](../objects/table/12194-it.md) (own), [table/12197 "Document Relation"](../objects/table/12197-it.md) (own).
 
 [All 3 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
 
@@ -442,7 +442,7 @@ Adds feature management for Italy and application area handling for legacy subco
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/12100 "Feature Management IT" (own), [codeunit/9181 "Application Area Localization"](../objects/codeunit/9181.md).
+Objects: [codeunit/12100 "Feature Management IT"](../objects/codeunit/12100-it.md) (own), [codeunit/9181 "Application Area Localization"](../objects/codeunit/9181.md).
 
 [All 2 objects of Environment in the diff](?ns=Environment#country-diff)
 
@@ -689,335 +689,335 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+327 objects only this country has.
 
-- codeunit/355 "Local Navigate Handler"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/12100 "Feature Management IT"
-- codeunit/12101 "Withholding - Contribution"
-- codeunit/12104 "LocalApplicationManagement"
-- codeunit/12109 "Serv. Local Integration IT"
-- codeunit/12112 "IT - Report Management"
-- codeunit/12131 "Spesometro Export"
-- codeunit/12132 "Withholding Tax Export"
-- codeunit/12133 "Flat File Management"
-- codeunit/12134 "Declaration of Intent Export"
-- codeunit/12136 "VATSettl ActCode FeatDataUpd"
-- codeunit/12140 "Serv. Document Mgt. IT"
-- codeunit/12148 "No. Series IT"
-- codeunit/12150 "VAT Pmt. Comm. XML Generator"
-- codeunit/12151 "VAT Pmt. Comm. Data Lookup"
-- codeunit/12152 "SubcontractingManagement"
-- codeunit/12153 "SubcontractingPricesMgt"
-- codeunit/12170 "Recall Customer Bill"
-- codeunit/12171 "Vend. Bill List-Change Status"
-- codeunit/12172 "Customer Bill - Post + Print"
-- codeunit/12173 "Vendor Bill List - Post"
-- codeunit/12174 "Incl. in VAT Report Validation"
-- codeunit/12175 "Vendor Bills Floppy"
-- codeunit/12176 "Customer Bills Floppy"
-- codeunit/12177 "SEPA - DD Export Mgt."
-- codeunit/12178 "SEPA CT CBI-Check Line"
-- codeunit/12179 "Export FatturaPA Document"
-- codeunit/12180 "FatturaPA Sales Validation"
-- codeunit/12181 "FatturaPA Service Validation"
-- codeunit/12182 "Datifattura Export"
-- codeunit/12183 "Datifattura Validate"
-- codeunit/12184 "Fattura Doc. Helper"
-- codeunit/12185 "Export Self-Billing Documents"
-- codeunit/12186 "Sales Invoice Header - Edit"
-- codeunit/12187 "Service Invoice Header - Edit"
-- codeunit/12188 "Service Cr. Memo Header - Edit"
-- codeunit/12189 "Serv. Fattura Subscribers"
-- codeunit/12191 "Serv. Shipment Header - Edit"
-- codeunit/12192 "Serv. Payment Lines Mgt."
-- codeunit/12193 "Serv. VAT Report Validation"
-- codeunit/12195 "Periodic VAT Settlement"
-- codeunit/12196 "Company Initialize IT"
-- codeunit/12197 "Service Company Initialize IT"
-- codeunit/12261 "Service History Subscr. IT"
-- codeunit/104151 "UPG.IT Detailed Ledger Entries"
-- codeunit/104153 "UPG Per. VAT Settl. Entry IT"
-- codeunit/99008501 "Legacy Subc. Feature Handler"
-- codeunit/99008502 "Legacy Subc. Upgrade"
-- codeunit/99008503 "Legacy Subc. Install"
-- enum/12116 "Withholding Tax Reason"
-- enum/12145 "No. Series Type"
-- enum/12170 "Payment Lines Document Type"
-- enum/12174 "Customer Bill Type"
-- enum/12192 "Period Source Type"
-- enum/12198 "Fattura Code Type"
-- enum/12200 "Fattura Entry Type"
-- enum/13115 "Non-Taxable Income Type"
-- enumextension/12136 "FeatureUpd VATSettl Act. Code"
-- page/12100 "VAT Exemptions"
-- page/12101 "Interest on Arrears"
-- page/12102 "Subform Sent Vendor Bill Lines"
-- page/12103 "Withholding Tax Export"
-- page/12104 "Withhold Codes"
-- page/12105 "Withhold Code Lines"
-- page/12106 "Contribution Codes-INPS"
-- page/12107 "Contribution Code Lines"
-- page/12108 "Contribution Brackets"
-- page/12109 "Contribution Bracket Lines"
-- page/12111 "Show Computed Withh. Contrib."
-- page/12112 "Withholding Tax Card"
-- page/12113 "Withholding Tax List"
-- page/12114 "Contribution Card"
-- page/12115 "Contribution List"
-- page/12117 "Before Start Item Cost"
-- page/12118 "Item Cost History List"
-- page/12119 "Customs Offices"
-- page/12120 "Spesometro Appointments"
-- page/12121 "Periodic VAT Settlement List"
-- page/12122 "Withholding Tax Payment List"
-- page/12123 "Periodic VAT Settlement Card"
-- page/12124 "Activity Codes"
-- page/12125 "Appointment Codes"
-- page/12126 "Annual VAT Communication"
-- page/12127 "Annual VAT Comm. Preview"
-- page/12128 "Lifo Category"
-- page/12130 "Lifo Band List"
-- page/12131 "Contribution Payment List"
-- page/12132 "Customs Authority Vendors"
-- page/12133 "Withh. Taxes-Contribution Card"
-- page/12134 "Withholding Exceptional Events"
-- page/12135 "Computed Withholding Tax"
-- page/12136 "Computed Contribution"
-- page/12137 "Item Costing Setup"
-- page/12140 "VAT Identifier"
-- page/12141 "VAT Book Entries"
-- page/12143 "GL Book Entries"
-- page/12144 "Operation Types"
-- page/12147 "Customer Aging"
-- page/12148 "Vendor Aging"
-- page/12149 "G/L Book Reprinting Info."
-- page/12150 "VAT Register Reprinting Info."
-- page/12151 "VAT Registers"
-- page/12152 "Subcontracting Order"
-- page/12153 "Subcontracting Order Subform"
-- page/12154 "Subcontr. Transfer Order"
-- page/12155 "Subcontr.Transfer Ord. Subform"
-- page/12156 "Subcontracting Prices"
-- page/12157 "Transport Reason Codes"
-- page/12158 "Goods Appearance"
-- page/12159 "Company Officials Card"
-- page/12160 "Company Officials"
-- page/12161 "Declaration of Intent Export"
-- page/12165 "Posted Transfer Shpt. - Update"
-- page/12166 "Posted Service Shpt. - Update"
-- page/12169 "Company Types"
-- page/12170 "Payment Terms Lines"
-- page/12171 "Payment Date Lines"
-- page/12172 "Posted Payments"
-- page/12173 "Fixed Due Dates"
-- page/12174 "Stop Payment Periods"
-- page/12175 "Customer Bill Card"
-- page/12176 "Subform Customer Bill Line"
-- page/12178 "List of Customer Bills"
-- page/12179 "ABI/CAB List"
-- page/12180 "Issued Customer Bill Card"
-- page/12181 "Subform Issued Cust.Bill Lines"
-- page/12182 "List of Issued Cust. Bills"
-- page/12183 "Bill Posting Group"
-- page/12184 "Bill"
-- page/12185 "Vendor Bill Card"
-- page/12186 "Subform Vendor Bill Lines"
-- page/12187 "VAT Plafond Periods"
-- page/12188 "Manual vendor Payment Line"
-- page/12189 "Service Tariff Numbers"
-- page/12190 "Vendor Bill List Sent Card"
-- page/12192 "Posted Vendor Bill Card"
-- page/12193 "Subform Posted Vend Bill Lines"
-- page/12194 "List of Open Vendor Bills"
-- page/12195 "List of Posted Vend. Bill List"
-- page/12196 "List of Sent Vendor Bills"
-- page/12197 "Contribution Codes-INAIL"
-- page/12198 "Vendor Bill Withh. Tax"
-- page/12199 "VAT Transaction Report Amounts"
-- page/12200 "Fattura Codes"
-- page/12201 "Fattura Project Info"
-- page/12202 "VAT Transaction Nature"
-- page/12203 "Self-Billing Documents"
-- page/12204 "Fattura Setup"
-- page/12206 "Fattura Document Type List"
-- page/12210 "Withholding Tax Lines"
-- page/12211 "Posted Sales Invoice - Update"
-- page/12212 "Posted Serv. Invoice - Update"
-- page/12213 "Posted Serv. Cr. Memo - Update"
-- page/12215 "Periodic VAT Settl. Card"
-- page/12216 "Periodic VAT Settl. List"
-- page/12217 "Periodic VAT Split"
-- page/35461 "Customer Aging Matrix"
-- page/35463 "Vendor Aging Matrix"
-- page/35480 "Customer Bill Information"
-- page/35481 "Issued Cust. Bill Information"
-- page/35490 "Subcontracting Order List"
-- page/35491 "Subcontracting Transfer List"
-- page/35492 "INPS Contribution List"
-- page/35493 "INAIL Contribution List"
-- pageextension/12140 "Service Order Archive IT"
-- pageextension/12141 "Service Order Archive Lines IT"
-- pageextension/12142 "Service Quote Archive Lines IT"
-- pageextension/12143 "Service Contract IT"
-- pageextension/12145 "NoSeriesIT"
-- pageextension/12150 "Filed Service Contract IT"
-- pageextension/12168 "Posted Service Ship. Update IT"
-- pageextension/12212 "Posted Service Inv. Update IT"
-- pageextension/12444 "Service Credit Memo IT"
-- pageextension/12445 "Service Credit Memo Subform IT"
-- pageextension/12446 "Service Invoice IT"
-- pageextension/12447 "Service Invoice Subform IT"
-- pageextension/12448 "Service Item Wksh. Subform IT"
-- pageextension/12449 "Service Lines IT"
-- pageextension/12451 "Service Order IT"
-- pageextension/12452 "Service Quote IT"
-- pageextension/12453 "Posted Serv. Cr.Memo Subf. IT"
-- pageextension/12454 "Posted Service Credit Memo IT"
-- pageextension/12455 "Posted Service Credit Memos IT"
-- pageextension/12456 "Posted Service Invoice IT"
-- pageextension/12458 "Posted Service Inv. Subf. IT"
-- pageextension/12460 "Service Mgt. Setup IT"
-- pageextension/12462 "Posted Service Shipment IT"
-- report/12101 "Withholding Taxes"
-- report/12102 "Contribution"
-- report/12103 "Summary Withholding Payment"
-- report/12104 "Customer Sheet - Print"
-- report/12105 "Compensation Details"
-- report/12106 "Certifications"
-- report/12107 "Calculate Interest on Arrears"
-- report/12108 "VAT Register Grouped"
-- report/12109 "Account Book Sheet - Print"
-- report/12110 "Vendor Sheet - Print"
-- report/12111 "Denied Vendors List"
-- report/12112 "Bank Sheet - Print"
-- report/12113 "Close/Open Balance Sheet"
-- report/12115 "Calculate End Year Costs"
-- report/12116 "Vendor Account Bills List"
-- report/12117 "Customer Bills List"
-- report/12119 "Depreciation Book"
-- report/12120 "VAT Register - Print"
-- report/12121 "G/L Book - Print"
-- report/12123 "Lifo Entries"
-- report/12125 "Exp. Annual VAT Communication"
-- report/12126 "Annual VAT Comm. - 2010"
-- report/12127 "Exp.Annual VAT Comm. - 2010"
-- report/12135 "Fiscal Inventory Valuation"
-- report/12136 "Ledger Entry Details"
-- report/12137 "LIFO Valuation"
-- report/12150 "VAT Payment Communication"
-- report/12152 "Create Subcontr.Transf. Order"
-- report/12153 "Create Subcontr. Return Order"
-- report/12154 "Subcontract. Transfer Shipment"
-- report/12155 "Subcontr. Dispatching List"
-- report/12170 "List of Bank Receipts"
-- report/12171 "Closing Bank Receipts"
-- report/12172 "Cust Bills Floppy"
-- report/12173 "Issued Cust Bills Floppy"
-- report/12174 "Issued Cust Bills Report"
-- report/12175 "Vendor Bills Floppy"
-- report/12176 "Suggest Customer Bills"
-- report/12177 "Suggest Vendor Bills"
-- report/12178 "Vendor Bill Report"
-- report/12179 "Issued Vendor Bill List"
-- report/12180 "Issuing Customer Bill"
-- report/12181 "VAT Exemption Register"
-- report/12182 "VAT Plafond Period"
-- report/12183 "Withholding Tax - Test"
-- report/12190 "Update VAT Transaction Data"
-- report/12191 "VAT Transaction"
-- report/12193 "Export VAT Transactions"
-- report/12194 "Declaration of Intent Report"
-- report/12195 "Datifattura Suggest Lines"
-- table/12100 "Compress Depreciation"
-- table/12101 "Interest on Arrears"
-- table/12104 "Withhold Code"
-- table/12105 "Withhold Code Line"
-- table/12106 "Contribution Code"
-- table/12107 "Contribution Code Line"
-- table/12108 "Contribution Bracket"
-- table/12109 "Contribution Bracket Line"
-- table/12111 "Computed Withholding Tax"
-- table/12112 "Computed Contribution"
-- table/12113 "Tmp Withholding Contribution"
-- table/12114 "Withholding Tax Payment"
-- table/12115 "Contribution Payment"
-- table/12116 "Withholding Tax"
-- table/12117 "Contributions"
-- table/12118 "Intra - form Buffer"
-- table/12119 "Customs Office"
-- table/12122 "Customs Authority Vendor"
-- table/12123 "Check Fiscal Code Setup"
-- table/12124 "Activity Code"
-- table/12125 "Appointment Code"
-- table/12126 "Spesometro Appointment"
-- table/12129 "Lifo Category"
-- table/12130 "Lifo Band"
-- table/12131 "Item Cost History"
-- table/12132 "Item Costing Setup"
-- table/12133 "Before Start Item Cost"
-- table/12134 "Withholding Exceptional Event"
-- table/12135 "Periodic Settlement VAT Entry"
-- table/12136 "Periodic VAT Settlement Entry"
-- table/12137 "Purch. Withh. Contribution"
-- table/12140 "VAT Identifier"
-- table/12142 "VAT Book Entry"
-- table/12144 "GL Book Entry"
-- table/12147 "VAT Register"
-- table/12148 "VAT Register - Buffer"
-- table/12149 "Reprint Info Fiscal Reports"
-- table/12152 "Subcontractor Prices"
-- table/12153 "Goods Appearance"
-- table/12154 "Transport Reason Code"
-- table/12159 "Company Officials"
-- table/12169 "Company Types"
-- table/12170 "Payment Lines"
-- table/12171 "Posted Payment Lines"
-- table/12172 "Fixed Due Dates"
-- table/12173 "Deferring Due Dates"
-- table/12174 "Customer Bill Header"
-- table/12175 "Customer Bill Line"
-- table/12176 "ABI/CAB Codes"
-- table/12177 "Issued Customer Bill Header"
-- table/12178 "Issued Customer Bill Line"
-- table/12179 "Bill Posting Group"
-- table/12180 "Bill"
-- table/12181 "Vendor Bill Header"
-- table/12182 "Vendor Bill Line"
-- table/12183 "Posted Vendor Bill Header"
-- table/12184 "Posted Vendor Bill Line"
-- table/12185 "Vendor Bill Withholding Tax"
-- table/12186 "VAT Exemption"
-- table/12187 "VAT Plafond Period"
-- table/12189 "Service Tariff Number"
-- table/12194 "Blacklist Comm. Amount"
-- table/12195 "VAT Transaction Report Amount"
-- table/12196 "Incl. in VAT Report Error Log"
-- table/12197 "Document Relation"
-- table/12198 "Fattura Code"
-- table/12199 "Fattura Project Info"
-- table/12202 "VAT Transaction Nature"
-- table/12203 "Fattura Header"
-- table/12204 "Fattura Line"
-- table/12205 "Fattura Setup"
-- table/12206 "Fattura Document Type"
-- table/12210 "Withholding Tax Line"
-- tableextension/12140 "Service Header Archive IT"
-- tableextension/12141 "Service Line Archive IT"
-- tableextension/12145 "NoSeriesIT"
-- tableextension/12146 "NoSeriesLineIT"
-- tableextension/12147 "GeneralLedgerSetupIT"
-- tableextension/12150 "Filed Serv. Contract Header IT"
-- tableextension/12151 "Service Contract Header IT"
-- tableextension/12152 "Service Header IT"
-- tableextension/12153 "Service Line IT"
-- tableextension/12454 "Service Cr.Memo Header IT"
-- tableextension/12455 "Service Cr.Memo Line IT"
-- tableextension/12456 "Service Invoice Header IT"
-- tableextension/12457 "Service Invoice Line IT"
-- tableextension/12458 "Service Shipment Header IT"
-- tableextension/12460 "Service Mgt. Setup IT"
-- xmlport/12100 "CBI Payment Request.00.04.00"
+- [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-it.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-it.md)
+- [codeunit/12100 "Feature Management IT"](../objects/codeunit/12100-it.md)
+- [codeunit/12101 "Withholding - Contribution"](../objects/codeunit/12101-it.md)
+- [codeunit/12104 "LocalApplicationManagement"](../objects/codeunit/12104-it.md)
+- [codeunit/12109 "Serv. Local Integration IT"](../objects/codeunit/12109-it.md)
+- [codeunit/12112 "IT - Report Management"](../objects/codeunit/12112-it.md)
+- [codeunit/12131 "Spesometro Export"](../objects/codeunit/12131-it.md)
+- [codeunit/12132 "Withholding Tax Export"](../objects/codeunit/12132-it.md)
+- [codeunit/12133 "Flat File Management"](../objects/codeunit/12133-it.md)
+- [codeunit/12134 "Declaration of Intent Export"](../objects/codeunit/12134-it.md)
+- [codeunit/12136 "VATSettl ActCode FeatDataUpd"](../objects/codeunit/12136-it.md)
+- [codeunit/12140 "Serv. Document Mgt. IT"](../objects/codeunit/12140-it.md)
+- [codeunit/12148 "No. Series IT"](../objects/codeunit/12148-it.md)
+- [codeunit/12150 "VAT Pmt. Comm. XML Generator"](../objects/codeunit/12150-it.md)
+- [codeunit/12151 "VAT Pmt. Comm. Data Lookup"](../objects/codeunit/12151-it.md)
+- [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md)
+- [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md)
+- [codeunit/12170 "Recall Customer Bill"](../objects/codeunit/12170-it.md)
+- [codeunit/12171 "Vend. Bill List-Change Status"](../objects/codeunit/12171-it.md)
+- [codeunit/12172 "Customer Bill - Post + Print"](../objects/codeunit/12172-it.md)
+- [codeunit/12173 "Vendor Bill List - Post"](../objects/codeunit/12173-it.md)
+- [codeunit/12174 "Incl. in VAT Report Validation"](../objects/codeunit/12174-it.md)
+- [codeunit/12175 "Vendor Bills Floppy"](../objects/codeunit/12175-it.md)
+- [codeunit/12176 "Customer Bills Floppy"](../objects/codeunit/12176-it.md)
+- [codeunit/12177 "SEPA - DD Export Mgt."](../objects/codeunit/12177-it.md)
+- [codeunit/12178 "SEPA CT CBI-Check Line"](../objects/codeunit/12178-it.md)
+- [codeunit/12179 "Export FatturaPA Document"](../objects/codeunit/12179-it.md)
+- [codeunit/12180 "FatturaPA Sales Validation"](../objects/codeunit/12180-it.md)
+- [codeunit/12181 "FatturaPA Service Validation"](../objects/codeunit/12181-it.md)
+- [codeunit/12182 "Datifattura Export"](../objects/codeunit/12182-it.md)
+- [codeunit/12183 "Datifattura Validate"](../objects/codeunit/12183-it.md)
+- [codeunit/12184 "Fattura Doc. Helper"](../objects/codeunit/12184-it.md)
+- [codeunit/12185 "Export Self-Billing Documents"](../objects/codeunit/12185-it.md)
+- [codeunit/12186 "Sales Invoice Header - Edit"](../objects/codeunit/12186-it.md)
+- [codeunit/12187 "Service Invoice Header - Edit"](../objects/codeunit/12187-it.md)
+- [codeunit/12188 "Service Cr. Memo Header - Edit"](../objects/codeunit/12188-it.md)
+- [codeunit/12189 "Serv. Fattura Subscribers"](../objects/codeunit/12189-it.md)
+- [codeunit/12191 "Serv. Shipment Header - Edit"](../objects/codeunit/12191-it.md)
+- [codeunit/12192 "Serv. Payment Lines Mgt."](../objects/codeunit/12192-it.md)
+- [codeunit/12193 "Serv. VAT Report Validation"](../objects/codeunit/12193-it.md)
+- [codeunit/12195 "Periodic VAT Settlement"](../objects/codeunit/12195-it.md)
+- [codeunit/12196 "Company Initialize IT"](../objects/codeunit/12196-it.md)
+- [codeunit/12197 "Service Company Initialize IT"](../objects/codeunit/12197-it.md)
+- [codeunit/12261 "Service History Subscr. IT"](../objects/codeunit/12261-it.md)
+- [codeunit/104151 "UPG.IT Detailed Ledger Entries"](../objects/codeunit/104151-it.md)
+- [codeunit/104153 "UPG Per. VAT Settl. Entry IT"](../objects/codeunit/104153-it.md)
+- [codeunit/99008501 "Legacy Subc. Feature Handler"](../objects/codeunit/99008501-it.md)
+- [codeunit/99008502 "Legacy Subc. Upgrade"](../objects/codeunit/99008502-it.md)
+- [codeunit/99008503 "Legacy Subc. Install"](../objects/codeunit/99008503-it.md)
+- [enum/12116 "Withholding Tax Reason"](../objects/enum/12116-it.md)
+- [enum/12145 "No. Series Type"](../objects/enum/12145-it.md)
+- [enum/12170 "Payment Lines Document Type"](../objects/enum/12170-it.md)
+- [enum/12174 "Customer Bill Type"](../objects/enum/12174-it.md)
+- [enum/12192 "Period Source Type"](../objects/enum/12192-it.md)
+- [enum/12198 "Fattura Code Type"](../objects/enum/12198-it.md)
+- [enum/12200 "Fattura Entry Type"](../objects/enum/12200-it.md)
+- [enum/13115 "Non-Taxable Income Type"](../objects/enum/13115-it.md)
+- [enumextension/12136 "FeatureUpd VATSettl Act. Code"](../objects/enumextension/12136-it.md)
+- [page/12100 "VAT Exemptions"](../objects/page/12100-it.md)
+- [page/12101 "Interest on Arrears"](../objects/page/12101-it.md)
+- [page/12102 "Subform Sent Vendor Bill Lines"](../objects/page/12102-it.md)
+- [page/12103 "Withholding Tax Export"](../objects/page/12103-it.md)
+- [page/12104 "Withhold Codes"](../objects/page/12104-it.md)
+- [page/12105 "Withhold Code Lines"](../objects/page/12105-it.md)
+- [page/12106 "Contribution Codes-INPS"](../objects/page/12106-it.md)
+- [page/12107 "Contribution Code Lines"](../objects/page/12107-it.md)
+- [page/12108 "Contribution Brackets"](../objects/page/12108-it.md)
+- [page/12109 "Contribution Bracket Lines"](../objects/page/12109-it.md)
+- [page/12111 "Show Computed Withh. Contrib."](../objects/page/12111-it.md)
+- [page/12112 "Withholding Tax Card"](../objects/page/12112-it.md)
+- [page/12113 "Withholding Tax List"](../objects/page/12113-it.md)
+- [page/12114 "Contribution Card"](../objects/page/12114-it.md)
+- [page/12115 "Contribution List"](../objects/page/12115-it.md)
+- [page/12117 "Before Start Item Cost"](../objects/page/12117-it.md)
+- [page/12118 "Item Cost History List"](../objects/page/12118-it.md)
+- [page/12119 "Customs Offices"](../objects/page/12119-it.md)
+- [page/12120 "Spesometro Appointments"](../objects/page/12120-it.md)
+- [page/12121 "Periodic VAT Settlement List"](../objects/page/12121-it.md)
+- [page/12122 "Withholding Tax Payment List"](../objects/page/12122-it.md)
+- [page/12123 "Periodic VAT Settlement Card"](../objects/page/12123-it.md)
+- [page/12124 "Activity Codes"](../objects/page/12124-it.md)
+- [page/12125 "Appointment Codes"](../objects/page/12125-it.md)
+- [page/12126 "Annual VAT Communication"](../objects/page/12126-it.md)
+- [page/12127 "Annual VAT Comm. Preview"](../objects/page/12127-it.md)
+- [page/12128 "Lifo Category"](../objects/page/12128-it.md)
+- [page/12130 "Lifo Band List"](../objects/page/12130-it.md)
+- [page/12131 "Contribution Payment List"](../objects/page/12131-it.md)
+- [page/12132 "Customs Authority Vendors"](../objects/page/12132-it.md)
+- [page/12133 "Withh. Taxes-Contribution Card"](../objects/page/12133-it.md)
+- [page/12134 "Withholding Exceptional Events"](../objects/page/12134-it.md)
+- [page/12135 "Computed Withholding Tax"](../objects/page/12135-it.md)
+- [page/12136 "Computed Contribution"](../objects/page/12136-it.md)
+- [page/12137 "Item Costing Setup"](../objects/page/12137-it.md)
+- [page/12140 "VAT Identifier"](../objects/page/12140-it.md)
+- [page/12141 "VAT Book Entries"](../objects/page/12141-it.md)
+- [page/12143 "GL Book Entries"](../objects/page/12143-it.md)
+- [page/12144 "Operation Types"](../objects/page/12144-it.md)
+- [page/12147 "Customer Aging"](../objects/page/12147-it.md)
+- [page/12148 "Vendor Aging"](../objects/page/12148-it.md)
+- [page/12149 "G/L Book Reprinting Info."](../objects/page/12149-it.md)
+- [page/12150 "VAT Register Reprinting Info."](../objects/page/12150-it.md)
+- [page/12151 "VAT Registers"](../objects/page/12151-it.md)
+- [page/12152 "Subcontracting Order"](../objects/page/12152-it.md)
+- [page/12153 "Subcontracting Order Subform"](../objects/page/12153-it.md)
+- [page/12154 "Subcontr. Transfer Order"](../objects/page/12154-it.md)
+- [page/12155 "Subcontr.Transfer Ord. Subform"](../objects/page/12155-it.md)
+- [page/12156 "Subcontracting Prices"](../objects/page/12156-it.md)
+- [page/12157 "Transport Reason Codes"](../objects/page/12157-it.md)
+- [page/12158 "Goods Appearance"](../objects/page/12158-it.md)
+- [page/12159 "Company Officials Card"](../objects/page/12159-it.md)
+- [page/12160 "Company Officials"](../objects/page/12160-it.md)
+- [page/12161 "Declaration of Intent Export"](../objects/page/12161-it.md)
+- [page/12165 "Posted Transfer Shpt. - Update"](../objects/page/12165-it.md)
+- [page/12166 "Posted Service Shpt. - Update"](../objects/page/12166-it.md)
+- [page/12169 "Company Types"](../objects/page/12169-it.md)
+- [page/12170 "Payment Terms Lines"](../objects/page/12170-it.md)
+- [page/12171 "Payment Date Lines"](../objects/page/12171-it.md)
+- [page/12172 "Posted Payments"](../objects/page/12172-it.md)
+- [page/12173 "Fixed Due Dates"](../objects/page/12173-it.md)
+- [page/12174 "Stop Payment Periods"](../objects/page/12174-it.md)
+- [page/12175 "Customer Bill Card"](../objects/page/12175-it.md)
+- [page/12176 "Subform Customer Bill Line"](../objects/page/12176-it.md)
+- [page/12178 "List of Customer Bills"](../objects/page/12178-it.md)
+- [page/12179 "ABI/CAB List"](../objects/page/12179-it.md)
+- [page/12180 "Issued Customer Bill Card"](../objects/page/12180-it.md)
+- [page/12181 "Subform Issued Cust.Bill Lines"](../objects/page/12181-it.md)
+- [page/12182 "List of Issued Cust. Bills"](../objects/page/12182-it.md)
+- [page/12183 "Bill Posting Group"](../objects/page/12183-it.md)
+- [page/12184 "Bill"](../objects/page/12184-it.md)
+- [page/12185 "Vendor Bill Card"](../objects/page/12185-it.md)
+- [page/12186 "Subform Vendor Bill Lines"](../objects/page/12186-it.md)
+- [page/12187 "VAT Plafond Periods"](../objects/page/12187-it.md)
+- [page/12188 "Manual vendor Payment Line"](../objects/page/12188-it.md)
+- [page/12189 "Service Tariff Numbers"](../objects/page/12189-it.md)
+- [page/12190 "Vendor Bill List Sent Card"](../objects/page/12190-it.md)
+- [page/12192 "Posted Vendor Bill Card"](../objects/page/12192-it.md)
+- [page/12193 "Subform Posted Vend Bill Lines"](../objects/page/12193-it.md)
+- [page/12194 "List of Open Vendor Bills"](../objects/page/12194-it.md)
+- [page/12195 "List of Posted Vend. Bill List"](../objects/page/12195-it.md)
+- [page/12196 "List of Sent Vendor Bills"](../objects/page/12196-it.md)
+- [page/12197 "Contribution Codes-INAIL"](../objects/page/12197-it.md)
+- [page/12198 "Vendor Bill Withh. Tax"](../objects/page/12198-it.md)
+- [page/12199 "VAT Transaction Report Amounts"](../objects/page/12199-it.md)
+- [page/12200 "Fattura Codes"](../objects/page/12200-it.md)
+- [page/12201 "Fattura Project Info"](../objects/page/12201-it.md)
+- [page/12202 "VAT Transaction Nature"](../objects/page/12202-it.md)
+- [page/12203 "Self-Billing Documents"](../objects/page/12203-it.md)
+- [page/12204 "Fattura Setup"](../objects/page/12204-it.md)
+- [page/12206 "Fattura Document Type List"](../objects/page/12206-it.md)
+- [page/12210 "Withholding Tax Lines"](../objects/page/12210-it.md)
+- [page/12211 "Posted Sales Invoice - Update"](../objects/page/12211-it.md)
+- [page/12212 "Posted Serv. Invoice - Update"](../objects/page/12212-it.md)
+- [page/12213 "Posted Serv. Cr. Memo - Update"](../objects/page/12213-it.md)
+- [page/12215 "Periodic VAT Settl. Card"](../objects/page/12215-it.md)
+- [page/12216 "Periodic VAT Settl. List"](../objects/page/12216-it.md)
+- [page/12217 "Periodic VAT Split"](../objects/page/12217-it.md)
+- [page/35461 "Customer Aging Matrix"](../objects/page/35461-it.md)
+- [page/35463 "Vendor Aging Matrix"](../objects/page/35463-it.md)
+- [page/35480 "Customer Bill Information"](../objects/page/35480-it.md)
+- [page/35481 "Issued Cust. Bill Information"](../objects/page/35481-it.md)
+- [page/35490 "Subcontracting Order List"](../objects/page/35490-it.md)
+- [page/35491 "Subcontracting Transfer List"](../objects/page/35491-it.md)
+- [page/35492 "INPS Contribution List"](../objects/page/35492-it.md)
+- [page/35493 "INAIL Contribution List"](../objects/page/35493-it.md)
+- [pageextension/12140 "Service Order Archive IT"](../objects/pageextension/12140-it.md)
+- [pageextension/12141 "Service Order Archive Lines IT"](../objects/pageextension/12141-it.md)
+- [pageextension/12142 "Service Quote Archive Lines IT"](../objects/pageextension/12142-it.md)
+- [pageextension/12143 "Service Contract IT"](../objects/pageextension/12143-it.md)
+- [pageextension/12145 "NoSeriesIT"](../objects/pageextension/12145-it.md)
+- [pageextension/12150 "Filed Service Contract IT"](../objects/pageextension/12150-it.md)
+- [pageextension/12168 "Posted Service Ship. Update IT"](../objects/pageextension/12168-it.md)
+- [pageextension/12212 "Posted Service Inv. Update IT"](../objects/pageextension/12212-it.md)
+- [pageextension/12444 "Service Credit Memo IT"](../objects/pageextension/12444-it.md)
+- [pageextension/12445 "Service Credit Memo Subform IT"](../objects/pageextension/12445-it.md)
+- [pageextension/12446 "Service Invoice IT"](../objects/pageextension/12446-it.md)
+- [pageextension/12447 "Service Invoice Subform IT"](../objects/pageextension/12447-it.md)
+- [pageextension/12448 "Service Item Wksh. Subform IT"](../objects/pageextension/12448-it.md)
+- [pageextension/12449 "Service Lines IT"](../objects/pageextension/12449-it.md)
+- [pageextension/12451 "Service Order IT"](../objects/pageextension/12451-it.md)
+- [pageextension/12452 "Service Quote IT"](../objects/pageextension/12452-it.md)
+- [pageextension/12453 "Posted Serv. Cr.Memo Subf. IT"](../objects/pageextension/12453-it.md)
+- [pageextension/12454 "Posted Service Credit Memo IT"](../objects/pageextension/12454-it.md)
+- [pageextension/12455 "Posted Service Credit Memos IT"](../objects/pageextension/12455-it.md)
+- [pageextension/12456 "Posted Service Invoice IT"](../objects/pageextension/12456-it.md)
+- [pageextension/12458 "Posted Service Inv. Subf. IT"](../objects/pageextension/12458-it.md)
+- [pageextension/12460 "Service Mgt. Setup IT"](../objects/pageextension/12460-it.md)
+- [pageextension/12462 "Posted Service Shipment IT"](../objects/pageextension/12462-it.md)
+- [report/12101 "Withholding Taxes"](../objects/report/12101-it.md)
+- [report/12102 "Contribution"](../objects/report/12102-it.md)
+- [report/12103 "Summary Withholding Payment"](../objects/report/12103-it.md)
+- [report/12104 "Customer Sheet - Print"](../objects/report/12104-it.md)
+- [report/12105 "Compensation Details"](../objects/report/12105-it.md)
+- [report/12106 "Certifications"](../objects/report/12106-it.md)
+- [report/12107 "Calculate Interest on Arrears"](../objects/report/12107-it.md)
+- [report/12108 "VAT Register Grouped"](../objects/report/12108-it.md)
+- [report/12109 "Account Book Sheet - Print"](../objects/report/12109-it.md)
+- [report/12110 "Vendor Sheet - Print"](../objects/report/12110-it.md)
+- [report/12111 "Denied Vendors List"](../objects/report/12111-it.md)
+- [report/12112 "Bank Sheet - Print"](../objects/report/12112-it.md)
+- [report/12113 "Close/Open Balance Sheet"](../objects/report/12113-it.md)
+- [report/12115 "Calculate End Year Costs"](../objects/report/12115-it.md)
+- [report/12116 "Vendor Account Bills List"](../objects/report/12116-it.md)
+- [report/12117 "Customer Bills List"](../objects/report/12117-it.md)
+- [report/12119 "Depreciation Book"](../objects/report/12119-it.md)
+- [report/12120 "VAT Register - Print"](../objects/report/12120-it.md)
+- [report/12121 "G/L Book - Print"](../objects/report/12121-it.md)
+- [report/12123 "Lifo Entries"](../objects/report/12123-it.md)
+- [report/12125 "Exp. Annual VAT Communication"](../objects/report/12125-it.md)
+- [report/12126 "Annual VAT Comm. - 2010"](../objects/report/12126-it.md)
+- [report/12127 "Exp.Annual VAT Comm. - 2010"](../objects/report/12127-it.md)
+- [report/12135 "Fiscal Inventory Valuation"](../objects/report/12135-it.md)
+- [report/12136 "Ledger Entry Details"](../objects/report/12136-it.md)
+- [report/12137 "LIFO Valuation"](../objects/report/12137-it.md)
+- [report/12150 "VAT Payment Communication"](../objects/report/12150-it.md)
+- [report/12152 "Create Subcontr.Transf. Order"](../objects/report/12152-it.md)
+- [report/12153 "Create Subcontr. Return Order"](../objects/report/12153-it.md)
+- [report/12154 "Subcontract. Transfer Shipment"](../objects/report/12154-it.md)
+- [report/12155 "Subcontr. Dispatching List"](../objects/report/12155-it.md)
+- [report/12170 "List of Bank Receipts"](../objects/report/12170-it.md)
+- [report/12171 "Closing Bank Receipts"](../objects/report/12171-it.md)
+- [report/12172 "Cust Bills Floppy"](../objects/report/12172-it.md)
+- [report/12173 "Issued Cust Bills Floppy"](../objects/report/12173-it.md)
+- [report/12174 "Issued Cust Bills Report"](../objects/report/12174-it.md)
+- [report/12175 "Vendor Bills Floppy"](../objects/report/12175-it.md)
+- [report/12176 "Suggest Customer Bills"](../objects/report/12176-it.md)
+- [report/12177 "Suggest Vendor Bills"](../objects/report/12177-it.md)
+- [report/12178 "Vendor Bill Report"](../objects/report/12178-it.md)
+- [report/12179 "Issued Vendor Bill List"](../objects/report/12179-it.md)
+- [report/12180 "Issuing Customer Bill"](../objects/report/12180-it.md)
+- [report/12181 "VAT Exemption Register"](../objects/report/12181-it.md)
+- [report/12182 "VAT Plafond Period"](../objects/report/12182-it.md)
+- [report/12183 "Withholding Tax - Test"](../objects/report/12183-it.md)
+- [report/12190 "Update VAT Transaction Data"](../objects/report/12190-it.md)
+- [report/12191 "VAT Transaction"](../objects/report/12191-it.md)
+- [report/12193 "Export VAT Transactions"](../objects/report/12193-it.md)
+- [report/12194 "Declaration of Intent Report"](../objects/report/12194-it.md)
+- [report/12195 "Datifattura Suggest Lines"](../objects/report/12195-it.md)
+- [table/12100 "Compress Depreciation"](../objects/table/12100-it.md)
+- [table/12101 "Interest on Arrears"](../objects/table/12101-it.md)
+- [table/12104 "Withhold Code"](../objects/table/12104-it.md)
+- [table/12105 "Withhold Code Line"](../objects/table/12105-it.md)
+- [table/12106 "Contribution Code"](../objects/table/12106-it.md)
+- [table/12107 "Contribution Code Line"](../objects/table/12107-it.md)
+- [table/12108 "Contribution Bracket"](../objects/table/12108-it.md)
+- [table/12109 "Contribution Bracket Line"](../objects/table/12109-it.md)
+- [table/12111 "Computed Withholding Tax"](../objects/table/12111-it.md)
+- [table/12112 "Computed Contribution"](../objects/table/12112-it.md)
+- [table/12113 "Tmp Withholding Contribution"](../objects/table/12113-it.md)
+- [table/12114 "Withholding Tax Payment"](../objects/table/12114-it.md)
+- [table/12115 "Contribution Payment"](../objects/table/12115-it.md)
+- [table/12116 "Withholding Tax"](../objects/table/12116-it.md)
+- [table/12117 "Contributions"](../objects/table/12117-it.md)
+- [table/12118 "Intra - form Buffer"](../objects/table/12118-it.md)
+- [table/12119 "Customs Office"](../objects/table/12119-it.md)
+- [table/12122 "Customs Authority Vendor"](../objects/table/12122-it.md)
+- [table/12123 "Check Fiscal Code Setup"](../objects/table/12123-it.md)
+- [table/12124 "Activity Code"](../objects/table/12124-it.md)
+- [table/12125 "Appointment Code"](../objects/table/12125-it.md)
+- [table/12126 "Spesometro Appointment"](../objects/table/12126-it.md)
+- [table/12129 "Lifo Category"](../objects/table/12129-it.md)
+- [table/12130 "Lifo Band"](../objects/table/12130-it.md)
+- [table/12131 "Item Cost History"](../objects/table/12131-it.md)
+- [table/12132 "Item Costing Setup"](../objects/table/12132-it.md)
+- [table/12133 "Before Start Item Cost"](../objects/table/12133-it.md)
+- [table/12134 "Withholding Exceptional Event"](../objects/table/12134-it.md)
+- [table/12135 "Periodic Settlement VAT Entry"](../objects/table/12135-it.md)
+- [table/12136 "Periodic VAT Settlement Entry"](../objects/table/12136-it.md)
+- [table/12137 "Purch. Withh. Contribution"](../objects/table/12137-it.md)
+- [table/12140 "VAT Identifier"](../objects/table/12140-it.md)
+- [table/12142 "VAT Book Entry"](../objects/table/12142-it.md)
+- [table/12144 "GL Book Entry"](../objects/table/12144-it.md)
+- [table/12147 "VAT Register"](../objects/table/12147-it.md)
+- [table/12148 "VAT Register - Buffer"](../objects/table/12148-it.md)
+- [table/12149 "Reprint Info Fiscal Reports"](../objects/table/12149-it.md)
+- [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md)
+- [table/12153 "Goods Appearance"](../objects/table/12153-it.md)
+- [table/12154 "Transport Reason Code"](../objects/table/12154-it.md)
+- [table/12159 "Company Officials"](../objects/table/12159-it.md)
+- [table/12169 "Company Types"](../objects/table/12169-it.md)
+- [table/12170 "Payment Lines"](../objects/table/12170-it.md)
+- [table/12171 "Posted Payment Lines"](../objects/table/12171-it.md)
+- [table/12172 "Fixed Due Dates"](../objects/table/12172-it.md)
+- [table/12173 "Deferring Due Dates"](../objects/table/12173-it.md)
+- [table/12174 "Customer Bill Header"](../objects/table/12174-it.md)
+- [table/12175 "Customer Bill Line"](../objects/table/12175-it.md)
+- [table/12176 "ABI/CAB Codes"](../objects/table/12176-it.md)
+- [table/12177 "Issued Customer Bill Header"](../objects/table/12177-it.md)
+- [table/12178 "Issued Customer Bill Line"](../objects/table/12178-it.md)
+- [table/12179 "Bill Posting Group"](../objects/table/12179-it.md)
+- [table/12180 "Bill"](../objects/table/12180-it.md)
+- [table/12181 "Vendor Bill Header"](../objects/table/12181-it.md)
+- [table/12182 "Vendor Bill Line"](../objects/table/12182-it.md)
+- [table/12183 "Posted Vendor Bill Header"](../objects/table/12183-it.md)
+- [table/12184 "Posted Vendor Bill Line"](../objects/table/12184-it.md)
+- [table/12185 "Vendor Bill Withholding Tax"](../objects/table/12185-it.md)
+- [table/12186 "VAT Exemption"](../objects/table/12186-it.md)
+- [table/12187 "VAT Plafond Period"](../objects/table/12187-it.md)
+- [table/12189 "Service Tariff Number"](../objects/table/12189-it.md)
+- [table/12194 "Blacklist Comm. Amount"](../objects/table/12194-it.md)
+- [table/12195 "VAT Transaction Report Amount"](../objects/table/12195-it.md)
+- [table/12196 "Incl. in VAT Report Error Log"](../objects/table/12196-it.md)
+- [table/12197 "Document Relation"](../objects/table/12197-it.md)
+- [table/12198 "Fattura Code"](../objects/table/12198-it.md)
+- [table/12199 "Fattura Project Info"](../objects/table/12199-it.md)
+- [table/12202 "VAT Transaction Nature"](../objects/table/12202-it.md)
+- [table/12203 "Fattura Header"](../objects/table/12203-it.md)
+- [table/12204 "Fattura Line"](../objects/table/12204-it.md)
+- [table/12205 "Fattura Setup"](../objects/table/12205-it.md)
+- [table/12206 "Fattura Document Type"](../objects/table/12206-it.md)
+- [table/12210 "Withholding Tax Line"](../objects/table/12210-it.md)
+- [tableextension/12140 "Service Header Archive IT"](../objects/tableextension/12140-it.md)
+- [tableextension/12141 "Service Line Archive IT"](../objects/tableextension/12141-it.md)
+- [tableextension/12145 "NoSeriesIT"](../objects/tableextension/12145-it.md)
+- [tableextension/12146 "NoSeriesLineIT"](../objects/tableextension/12146-it.md)
+- [tableextension/12147 "GeneralLedgerSetupIT"](../objects/tableextension/12147-it.md)
+- [tableextension/12150 "Filed Serv. Contract Header IT"](../objects/tableextension/12150-it.md)
+- [tableextension/12151 "Service Contract Header IT"](../objects/tableextension/12151-it.md)
+- [tableextension/12152 "Service Header IT"](../objects/tableextension/12152-it.md)
+- [tableextension/12153 "Service Line IT"](../objects/tableextension/12153-it.md)
+- [tableextension/12454 "Service Cr.Memo Header IT"](../objects/tableextension/12454-it.md)
+- [tableextension/12455 "Service Cr.Memo Line IT"](../objects/tableextension/12455-it.md)
+- [tableextension/12456 "Service Invoice Header IT"](../objects/tableextension/12456-it.md)
+- [tableextension/12457 "Service Invoice Line IT"](../objects/tableextension/12457-it.md)
+- [tableextension/12458 "Service Shipment Header IT"](../objects/tableextension/12458-it.md)
+- [tableextension/12460 "Service Mgt. Setup IT"](../objects/tableextension/12460-it.md)
+- [xmlport/12100 "CBI Payment Request.00.04.00"](../objects/xmlport/12100-it.md)
 
 ## Other versions
 

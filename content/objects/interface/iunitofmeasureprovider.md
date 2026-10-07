@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8faa7e375df98bb473887229a5592364b39fa307baf51962b88c991ef226f34a
+  input_hash: 7b11b06c412fba9e050afea44e43e943de810932c52b9852b2eb1eaf9e6b0ff4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IUnitOfMeasureProvider.Interface.al

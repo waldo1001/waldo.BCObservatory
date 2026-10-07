@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 11e44f9565aeb836490274f100f702a0d7bd718bfc5ee90ad439252322691e59
+  input_hash: 9ad7aeda97cb287a023a1511b1761eac664197f2c4e0ce73e6923d55ab0dea6a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al

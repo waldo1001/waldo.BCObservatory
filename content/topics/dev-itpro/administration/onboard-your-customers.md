@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d692987bb2ad4aea50701d375f7a7ecc7e3da99352faca448c809f849df5cdc3
@@ -90,7 +90,6 @@ links:
   localizations: []
   videos:
     - video/3uVf6BEXt1w
-    - video/HSgTJbyi0a4
     - video/XNfgf7tCeaw
   posts: []
   guidelines: []
@@ -103,7 +102,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -135,7 +134,6 @@ Path: [Administration](../administration.md) > Onboard your customers · tier of
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
-- [The Human Aspect of Onboarding](../../../videos/HSgTJbyi0a4.md) (video): "Onboarding framework; Personalized onboarding experience; Scalable partner onboarding"
 - [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup"
 
 ## Business Central pages and reports

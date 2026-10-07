@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0232e80c771e87ce4556e9ddd38887b9ae9db4064e5e456833f5065ec412b5ee
+  input_hash: a9b084b0a17aa21eda514c45b3f717ad373b6cccacd2d23a1730e2fe166e42b5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:05.019Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,39 +203,17 @@ links:
     - topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al
   localizations: []
   videos:
-    - video/0h8QBNmeORQ
     - video/3UcLmXqyl44
-    - video/AMVAiPTfSrU
     - video/aNRzlbxVPWE
-    - video/e4S2LXKAARs
-    - video/eDi32pS8eMo
-    - video/FUtePZVZLKs
-    - video/gd2TycVywv4
-    - video/jfvUkNa4gyg
-    - video/jWJc_D67Vfw
     - video/MKuOgMWXJ_8
     - video/moPzf04Mwlc
-    - video/Rvgt_VXFr1I
-    - video/Ty6ZvzJYAvI
-    - video/UFLo2XGGS14
-    - video/uMKLsKfKPc0
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
-    - video/XGEDwzIZQj4
-    - video/xqwJTCPD9tA
   posts:
-    - post/demiliani-com/13695
+    - post/bertverbeek-nl/1290
     - post/demiliani-com/13755
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/
-    - post/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven
-    - post/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents
-    - post/gerardorenteria-blog/14522
-    - post/gerardorenteria-blog/1968
     - post/kauffmann-nl/8436
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/
-    - post/thinkaboutit-be/7920
-    - post/waldo-be/318627
+    - post/vondervoort-be/84
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -247,8 +225,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 20
-  blog: 12
+  video: 6
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -306,37 +284,15 @@ For operation and code, "Run an agent" explains tasks, "Iterate and manage an ag
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Why Customer’s AI project fail? The gap between hype and reality.](../../../posts/demiliani-com/13695.md) (community post): "Building reliable, integrated AI agents for Business Central requires proper architecture"
+- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "Custom Business Central agents can now be deployed to production starting with update 28.1"
-- [Weekly Review: Business Central AL Development – May 17–23, 2026](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/.md) (community post): "Near-autonomous AL development pipelines can handle 12 stages with 3 human checkpoints"
-- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/.md) (community post): "Teams can standardize AI-assisted AL development by packaging guidelines"
-- [The Engineering Stairway to Heaven](../../../posts/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven.md) (community post): "Engineering is evolving through a stairway of six ascending steps from"
-- [Which Tasks Should You Delegate to AI Agents?](../../../posts/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents.md) (community post): "A framework for deciding which tasks to delegate to AI agents based on four dimensions"
-- [🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message](../../../posts/gerardorenteria-blog/14522.md) (community post): "VS Code Agent Hooks allow developers to automatically run scripts at specific"
-- [Visual Studio Code – versions](../../../posts/gerardorenteria-blog/1968.md) (community post): "Agent-first development became central with autonomous task completion, background agents, and multi-agent orchestration"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code by exporting the agent XML configuration"
-- [BC Tech Days 2026](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/.md) (community post): "AI agents were the dominant topic across all sessions at BC Tech Days"
-- [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent automates receipt extraction, categorization, per diem calculation"
-- [“the waldo way”](../../../posts/waldo-be/318627.md) (community post): "agentic development harness for the team to accelerate adoption"
-- [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; agentic ai; order processing; invoice classification"
+- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
-- [How 3 Partners are Building Powerful Agents for Business Central](../../../videos/AMVAiPTfSrU.md) (video): "agents; copilot studio; mcp server; Reusable agent development"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL"
-- [20251208 - You don't have to make Test Plans anymore...](../../../videos/e4S2LXKAARs.md) (video): "AI-assisted test plan generation; Test plan methodology"
-- [Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)](../../../videos/eDi32pS8eMo.md) (video): "AI-powered Reporting Skills; Agent-driven Spreadsheet Building"
-- [AI consuming AI output. #businesscentral #bc #msdyn365bc](../../../videos/FUtePZVZLKs.md) (video): "ai output consumption; documentation generation; extension development"
-- [20260326 - From AI Novice to Agentic Thinking For the CAL Brained](../../../videos/gd2TycVywv4.md) (video): "agentic thinking; code generation; Agentic development training program"
-- [AL Development using Claude Code - The Business Central Coding Stream](../../../videos/jfvUkNa4gyg.md) (video): "Agent-based development workflow; Planning agent with requirements; Develop agent with code review"
-- [20260518 - Learning AI the Way I Learned NAV](../../../videos/jWJc_D67Vfw.md) (video): "Deep learning methodology for complex systems; 90-day deep learning methodology"
 - [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
 - [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"
-- [What's New: Running Tests from Visual Studio Code (2026 release wave 1)](../../../videos/Rvgt_VXFr1I.md) (video): "Copilot agent for test fixing; AL MCP for agents outside VS Code"
-- [Episode 521: 50 Developers, Zero Playbook: The Leadership Conversation Nobody's Having](../../../videos/Ty6ZvzJYAvI.md) (video): "Custom agents and orchestration; Custom agents for Business Central"
-- [What's new: Agentic Developer Loop (2026 release wave 2)](../../../videos/UFLo2XGGS14.md) (video): "Agentic developer loop; snapshot debugging; sampling profiling; mcp"
-- [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../videos/uMKLsKfKPc0.md) (video): "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
-- [What's New: BC-Bench (2026 release wave 1)](../../../videos/XGEDwzIZQj4.md) (video): "ai coding agents; benchmarking; bug fixing; mcp servers; llm models"
-- [Designing Modern Integrations in Business Central](../../../videos/xqwJTCPD9tA.md) (video): "Designing Modern Integrations in Business Central. Topics: modern integrations; ai agents"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

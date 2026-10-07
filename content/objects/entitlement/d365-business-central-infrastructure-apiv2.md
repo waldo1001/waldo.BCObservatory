@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: de7e2caf571d71ff95dc4eafab79114d354039c8c5de560e86eca165c9918626
+  input_hash: 13061ae597cc9ce1381fd2464754df70606bf007bec63d45d1216bb8c412beba
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al

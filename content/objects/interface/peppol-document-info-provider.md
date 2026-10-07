@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 829d7d7a4e9ba3fb09449d5d2c5aa082ffbe212b39aee45238af4d03ff2c721c
+  input_hash: d26994f3bd93c1577bf5d739d3e22aa81a900ab0f214976bb2faf256b2fa36f6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLDocumentInfoProvider.Interface.al

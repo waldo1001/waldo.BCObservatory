@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f4997628a78b90e41d1d247099e8e8308936fb4d3c9919189d4a3c7f862e83ca
+  input_hash: ca44bf48d504147f9ce22ae1ca681cfd2cc4c787f8bf23806fba0da687af5a48
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/AccountingManager.Profile.al

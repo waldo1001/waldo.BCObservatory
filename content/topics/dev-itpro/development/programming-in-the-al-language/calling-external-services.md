@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -89,11 +89,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
   videos:
-    - video/1OiiA7SgqBY
     - video/qNHUj3ZEang
   posts:
     - post/demiliani-com/13640
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643
   guidelines: []
 learn_toc_path:
   - Development
@@ -105,8 +103,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 2
-  blog: 2
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -135,8 +133,6 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit"
-- [How I Recreated the Extension Upload Experience in Business Central](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643.md) (community post): "custom app recreates the deprecated in-product extension upload functionality"
-- [#BCTalent Stories: SOCITAS](../../../../videos/1OiiA7SgqBY.md) (video): "API and AI Model Integration; Business Central Performance and Features"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "REST client; cookies; exception handling; collectible errors"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ebba1a08483112d3a3e70b500969c5b070abfa616c215fbe5159c10bdd8908b6
+  input_hash: 753409024637a3ad7b7fd7076b8896f52c44e2a2494bfc2d97bc661344353018
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/President.Profile.al

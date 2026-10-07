@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -66,8 +66,7 @@ links:
   localizations: []
   videos:
     - video/2vUCR16b85o
-  posts:
-    - post/demiliani-com/13657
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -79,7 +78,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -104,7 +103,6 @@ Path: [Integration](../integration.md) > Integrating with Azure services · tier
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Azure Blob Storage: optimize costs and performance with the new Smart Tier option.](../../../posts/demiliani-com/13657.md) (community post): "This feature is useful when access patterns are unpredictable and you want to optimize expenses for data lakes"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

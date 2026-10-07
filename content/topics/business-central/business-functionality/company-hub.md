@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 98544335c85ccbc9658bd676f1103b3bf0f8589879af1dd977134f66888f9516
@@ -48,11 +48,8 @@ links:
   topics:
     - topic/business-central/business-functionality
   localizations: []
-  videos:
-    - video/2nXR8XUpx1Y
-    - video/q7ZokiKuhcw
-  posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -63,8 +60,8 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 2
-  blog: 1
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms:
   - 1151
@@ -87,14 +84,6 @@ Path: [Business functionality](../business-functionality.md) > Company hub · ti
 - [Add companies to your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company): Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
 - [Manage work across multiple companies in the company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub): Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
 - [Troubleshooting your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-troubleshooting): Troubleshoot common connectivity and data-refresh issues when using the company hub in Dynamics 365 Business Central to manage multiple companies.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549.md) (community post): "Copy Location duplicates warehouse configuration, settings, and operational setup"
-- [BCTalent Stories: Carcyn & Olivia from Clients First](../../../videos/2nXR8XUpx1Y.md) (video): "erp implementation; training; consulting; onboarding"
-- [Use Company Badges to Identify the Company](../../../videos/q7ZokiKuhcw.md) (video): "Use Company Badges to Identify the Company"
 
 ## Business Central pages and reports
 

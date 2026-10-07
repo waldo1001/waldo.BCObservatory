@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 35ea574e7849e7d885930bda3e02e3fe3c39c789d36f335c8458ab304323b168
+  input_hash: f751ea0b9589c509c0752a456d3a1d3056a70b9426698a2705781f2a0129fe76
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al

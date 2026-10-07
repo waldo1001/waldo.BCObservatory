@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fde84c7445504ea526bb607ea3879b00d4d926486c43dadb75b4000a827c4bd9
@@ -57,8 +57,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts:
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -71,7 +70,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: fde84c7445504ea526bb607ea3879b00d4d926486c43dadb75b4000a827c4bd9
@@ -90,11 +89,5 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [U
 - [Install a Business Central 2025 release Wave 2 (version 27) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v27): This article describes the tasks required for getting the monthly version 27 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrading Microsoft System and Base Application to Version 27](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v27): Describes how to upgrade an unmodified Business Central version 15 through 25 to version 27
 - [Upgrading to Dynamics 365 Business Central 2025 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v27): Provides an overview of Business Central 2025 release wave 2 upgrade process.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "Three cumulative updates released for different release waves and versions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

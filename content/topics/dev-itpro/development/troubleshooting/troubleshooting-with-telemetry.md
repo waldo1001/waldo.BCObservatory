@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -80,13 +80,11 @@ links:
   topics:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
-  videos:
-    - video/rdnYN7czJs4
-    - video/UFLo2XGGS14
+  videos: []
   posts:
+    - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
     - post/waldo-be/318461
-    - post/waldo-be/318604
   guidelines: []
 learn_toc_path:
   - Development
@@ -98,7 +96,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 2
+  video: 0
   blog: 3
   guideline: 0
 bc_forms: []
@@ -126,10 +124,8 @@ Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "Wait Statistics in Dynamics 365 Business Central Online provides telemetry data"
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "sqlServerSessionId to Long Running Queries telemetry signals, enabling identification"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "ask natural language questions about Business Central telemetry data instead of writing complex KQL queries"
-- [OptimAL – performance still matters](../../../../posts/waldo-be/318604.md) (community post): "telemetry analysis, and hands-on code optimization"
-- [What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)](../../../../videos/rdnYN7czJs4.md) (video): "Starter Dashboard for AL-Go Telemetry; AL-Go Maintenance Page"
-- [What's new: Agentic Developer Loop (2026 release wave 2)](../../../../videos/UFLo2XGGS14.md) (video): "Telemetry-driven agent investigation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

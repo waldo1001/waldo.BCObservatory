@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6c9d346b6a6cf82c83549e59caccac3d5d3d5a5f6cb18a631c280baa3da1a513
+  input_hash: c402a1e7cd74b0fa42e66b8e2e82042fb66d558aa7a62a72dfdc641e6d8641c0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al

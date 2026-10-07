@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: dce3a2722df04cb31d55ac81eb8628ead023528d6929ffc7419653d576e1abb1
+  input_hash: b6de3e0bcf25c20213ff31869493c918b9eb7bcfbdb66931f6f7e79e2e8f8a69
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/Fin.Profile.al

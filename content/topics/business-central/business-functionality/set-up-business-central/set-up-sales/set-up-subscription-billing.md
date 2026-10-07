@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6ff638ebedbbc6e6e61072b649efcf33cec78a4293f9a5bbd0e1d88645fe14ab
@@ -80,8 +80,7 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales
   localizations: []
-  videos:
-    - video/2isrH3RcSK8
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -95,7 +94,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -125,12 +124,6 @@ Path: [Business functionality](../../../business-functionality.md) > [Set up Bus
 - [Subscription contract types](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types): You can use different types of contracts in subscription billing.
 - [Subscription lines for items](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items): You can use subscription lines for items in subscription billing.
 - [Subscription packages and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments): You can use subscription lines in subscription billing.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../../../videos/2isrH3RcSK8.md) (video): "Subscription billing; Power BI reports expansion"
 
 ## Business Central pages and reports
 

@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -116,7 +116,7 @@ Adds the automatic account tables (table 11203 "Automatic Acc. Header", table 11
 
 Why: Learn describes automatic account codes as assigning accounts during posting. It describes SIE as the standard import export format for general ledger data. EU 3-Party Trade supports Swedish VAT reporting and VIES.
 
-Objects: table/11203 "Automatic Acc. Header" (own), table/11204 "Automatic Acc. Line" (own), table/11207 "SIE Dimension" (own), table/11208 "SIE Import Buffer" (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
+Objects: [table/11203 "Automatic Acc. Header"](../objects/table/11203-se.md) (own), [table/11204 "Automatic Acc. Line"](../objects/table/11204-se.md) (own), [table/11207 "SIE Dimension"](../objects/table/11207-se.md) (own), [table/11208 "SIE Import Buffer"](../objects/table/11208-se.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [table/256 "VAT Statement Line"](../objects/table/256.md).
 
 [All 10 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -192,12 +192,12 @@ Objects: [table/79 "Company Information"](../objects/table/79.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+4 objects only this country has.
 
-- table/11203 "Automatic Acc. Header"
-- table/11204 "Automatic Acc. Line"
-- table/11207 "SIE Dimension"
-- table/11208 "SIE Import Buffer"
+- [table/11203 "Automatic Acc. Header"](../objects/table/11203-se.md)
+- [table/11204 "Automatic Acc. Line"](../objects/table/11204-se.md)
+- [table/11207 "SIE Dimension"](../objects/table/11207-se.md)
+- [table/11208 "SIE Import Buffer"](../objects/table/11208-se.md)
 
 ## Other versions
 

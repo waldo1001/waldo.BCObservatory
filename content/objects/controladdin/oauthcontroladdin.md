@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: acad5db17ac5491545f71fcd799f3e626c8670fe874c0c0412a3d39ef2c4ca7d
+  input_hash: 25026c0b81b08bd1f94c8fc915fd1abc48bced772831aec18a9a7b489481a36c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/OAuthControlAddIn.ControlAddIn.al

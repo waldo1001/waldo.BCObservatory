@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -249,7 +249,7 @@ Adds the CFDI electronic invoicing engine: stamp, send and cancel codeunits for 
 
 Why: Learn describes CFDI XML invoices stamped through PAC web services with SAT certificates, and XML exports of accounts to SAT.
 
-Objects: codeunit/10145 "E-Invoice Mgt." (own), codeunit/10146 "EInvoice Communication" (own), codeunit/10174 "EInvoice OnPrem Communication" (own), codeunit/10175 "EInvoice SaaS Communication" (own), codeunit/27006 "Service E-Invoice Mgt." (own), codeunit/27000 "Export Accounts" (own), page/10455 "PAC Web Services" (own), page/27010 "Mexican CFDI Wizard" (own).
+Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-mx.md) (own), [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-mx.md) (own), [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-mx.md) (own), [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-mx.md) (own), [codeunit/27006 "Service E-Invoice Mgt."](../objects/codeunit/27006-mx.md) (own), [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-mx.md) (own), [page/10455 "PAC Web Services"](../objects/page/10455-mx.md) (own), [page/27010 "Mexican CFDI Wizard"](../objects/page/27010-mx.md) (own).
 
 [All 124 objects of eServices in the diff](?ns=eServices#country-diff)
 
@@ -269,7 +269,7 @@ Sales tax calculation with tax areas, jurisdictions and an external tax engine i
 
 Why: Learn explains VAT recalculation on foreign currency payments and SAT account codes for electronic accounting.
 
-Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/318 "Tax Area"](../objects/table/318.md), interface/external tax engine "External Tax Engine" (own).
+Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/318 "Tax Area"](../objects/table/318.md), [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-mx.md) (own).
 
 [All 101 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -279,7 +279,7 @@ EFT export codeunits and Data Exchange mappings (ACH, RB, Cecoban, IAT, with MX 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), codeunit/10098 "Generate EFT" (own), codeunit/10331 "EFT Export Mgt" (own), codeunit/10333 "Exp. Mapping Head EFT MX" (own), codeunit/10335 "Exp. Mapping Det EFT MX" (own), codeunit/10092 "Export Payments (Cecoban)" (own), [page/370 "Bank Account Card"](../objects/page/370.md), [table/272 "Check Ledger Entry"](../objects/table/272.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md) (own), [codeunit/10333 "Exp. Mapping Head EFT MX"](../objects/codeunit/10333-mx.md) (own), [codeunit/10335 "Exp. Mapping Det EFT MX"](../objects/codeunit/10335-mx.md) (own), [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-mx.md) (own), [page/370 "Bank Account Card"](../objects/page/370.md), [table/272 "Check Ledger Entry"](../objects/table/272.md).
 
 [All 94 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -299,7 +299,7 @@ Carta de Porte support on transfer orders and shipments: transport, vehicle, ins
 
 Why: Learn describes Carta de Porte packing slips and transfer orders sent as CFDI with digital signatures.
 
-Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/27 "Item"](../objects/table/27.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/5741 "Transfer Line"](../objects/table/5741.md), [table/5745 "Transfer Shipment Line"](../objects/table/5745.md), [page/5743 "Posted Transfer Shipment"](../objects/page/5743.md), codeunit/10461 "Transfer Shpt. Header - Edit" (own).
+Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/27 "Item"](../objects/table/27.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/5741 "Transfer Line"](../objects/table/5741.md), [table/5745 "Transfer Shipment Line"](../objects/table/5745.md), [page/5743 "Posted Transfer Shipment"](../objects/page/5743.md), [codeunit/10461 "Transfer Shpt. Header - Edit"](../objects/codeunit/10461-mx.md) (own).
 
 [All 41 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
@@ -309,7 +309,7 @@ Sales tax and CFDI support for service documents: events in Serv-Documents Mgt.,
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), codeunit/10288 "Serv-Documents Mgt. NA" (own), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [table/5902 "Service Line"](../objects/table/5902.md), report/10470 "Service Order-Sales Tax" (own), [report/5915 "Service Document - Test"](../objects/report/5915.md).
+Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-mx.md) (own), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [table/5902 "Service Line"](../objects/table/5902.md), [report/10470 "Service Order-Sales Tax"](../objects/report/10470-mx.md) (own), [report/5915 "Service Document - Test"](../objects/report/5915.md).
 
 [All 39 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -319,7 +319,7 @@ NA job and resource reports, plus extra budget fields on the Job Difference Buff
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), report/10210 "Job Actual to Budget (Cost)" (own), report/10211 "Job Actual to Budget (Price)" (own), report/10215 "Job Cost Budget" (own), report/10219 "Job Cost Suggested Billing" (own), report/10216 "Job List" (own), report/10217 "Job Register" (own), report/10200 "Resource Usage" (own).
+Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-mx.md) (own), [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-mx.md) (own), [report/10215 "Job Cost Budget"](../objects/report/10215-mx.md) (own), [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-mx.md) (own), [report/10216 "Job List"](../objects/report/10216-mx.md) (own), [report/10217 "Job Register"](../objects/report/10217-mx.md) (own), [report/10200 "Resource Usage"](../objects/report/10200-mx.md) (own).
 
 [All 17 objects of Projects in the diff](?ns=Projects#country-diff)
 
@@ -339,7 +339,7 @@ Holds upgrade codeunits for CFDI, EFT, sales tax and RFC, the CFDI Subject to Ta
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: table/27008 "CFDI Subject to Tax" (own), page/27008 "CFDI Subjects to Tax" (own), xmlport/27008 "CFDI Subject to Tax" (own), report/10408 "Bank Reconciliation" (own), codeunit/10124 "BankRec-Printed" (own), profile/credit manager "CREDIT MANAGER" (own), profile/hr manager "HR MANAGER" (own), profile/payroll administrator "PAYROLL ADMINISTRATOR" (own).
+Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md) (own), [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-mx.md) (own), [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-mx.md) (own), [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-mx.md) (own), [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-mx.md) (own).
 
 [All 15 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -349,7 +349,7 @@ Document Totals, Copy Document and the assisted setup wizard are adapted for sal
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), codeunit/10202 "Entry Application Management" (own).
+Objects: [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), [codeunit/10202 "Entry Application Management"](../objects/codeunit/10202-mx.md) (own).
 
 [All 11 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -379,7 +379,7 @@ Employee gets RFC No. and License No. fields. Adds Human Resources and Payroll r
 
 Why: Learn describes RFC identification for Mexican persons.
 
-Objects: [table/5200 "Employee"](../objects/table/5200.md), page/36600 "Human Resources Role Center" (own), page/36601 "Payroll Role Center" (own).
+Objects: [table/5200 "Employee"](../objects/table/5200.md), [page/36600 "Human Resources Role Center"](../objects/page/36600-mx.md) (own), [page/36601 "Payroll Role Center"](../objects/page/36601-mx.md) (own).
 
 [All 3 objects of HumanResources in the diff](?ns=HumanResources#country-diff)
 
@@ -547,503 +547,503 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+495 objects only this country has.
 
-- codeunit/400 "ExternalTaxEngineDefault"
-- codeunit/5968 "Serv. Sales Tax Calculate"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/10001 "Shipment Line - Edit"
-- codeunit/10011 "Ship-Post (Yes/No)"
-- codeunit/10012 "Ship-Post + Print"
-- codeunit/10021 "Invoice-Post (Yes/No)"
-- codeunit/10022 "Invoice-Post + Print"
-- codeunit/10025 "Paragraph Handling"
-- codeunit/10059 "Serv. Event Subscribers NA"
-- codeunit/10090 "Export Payments (ACH)"
-- codeunit/10091 "Export Payments (RB)"
-- codeunit/10092 "Export Payments (Cecoban)"
-- codeunit/10093 "Export Payments (IAT)"
-- codeunit/10094 "Export EFT (ACH)"
-- codeunit/10095 "Export EFT (RB)"
-- codeunit/10096 "Export EFT (Cecoban)"
-- codeunit/10097 "Export EFT (IAT)"
-- codeunit/10098 "Generate EFT"
-- codeunit/10100 "Post Sales Tax Jnl"
-- codeunit/10101 "Post- Print Sales Tax Jnl"
-- codeunit/10102 "Manage Sales Tax Journal"
-- codeunit/10124 "BankRec-Printed"
-- codeunit/10125 "Posted Bank Rec.-Delete"
-- codeunit/10126 "Bank Acc. Ledg. Entry-Reset"
-- codeunit/10127 "Bank Rec. Wksh. Notification"
-- codeunit/10130 "Bank Reconciliation Mgt."
-- codeunit/10143 "Deposit-Printed"
-- codeunit/10144 "Posted Deposit-Delete"
-- codeunit/10145 "E-Invoice Mgt."
-- codeunit/10146 "EInvoice Communication"
-- codeunit/10148 "Sales Tax Amount Line Calc"
-- codeunit/10150 "O365 Tax Settings Management"
-- codeunit/10151 "E-Invoice Cancel Request Batch"
-- codeunit/10152 "Serv.EInv.Cancel Request Batch"
-- codeunit/10174 "EInvoice OnPrem Communication"
-- codeunit/10175 "EInvoice SaaS Communication"
-- codeunit/10200 "EFT Recipient Bank Account Mgt"
-- codeunit/10202 "Entry Application Management"
-- codeunit/10250 "Bulk Vendor Remit Reporting"
-- codeunit/10288 "Serv-Documents Mgt. NA"
-- codeunit/10320 "Exp. Launcher EFT"
-- codeunit/10321 "Exp. Validation EFT"
-- codeunit/10322 "Exp. Writing EFT"
-- codeunit/10323 "Exp. External Data EFT"
-- codeunit/10324 "Exp. User Feedback EFT"
-- codeunit/10325 "Exp. Pre-Mapping Head EFT"
-- codeunit/10326 "Exp. Mapping Head EFT US"
-- codeunit/10327 "Exp. Pre-Mapping Det EFT US"
-- codeunit/10328 "Exp. Mapping Det EFT US"
-- codeunit/10329 "Exp. Pre-Mapping Foot EFT"
-- codeunit/10330 "Exp. Mapping Foot EFT US"
-- codeunit/10331 "EFT Export Mgt"
-- codeunit/10332 "Exp. Mapping Head EFT CA"
-- codeunit/10333 "Exp. Mapping Head EFT MX"
-- codeunit/10334 "Exp. Mapping Det EFT RB"
-- codeunit/10335 "Exp. Mapping Det EFT MX"
-- codeunit/10336 "Exp. Mapping Foot EFT CA"
-- codeunit/10337 "Exp. Mapping Foot EFT MX"
-- codeunit/10338 "Exp. Pre-Mapping Det EFT CA"
-- codeunit/10339 "Exp. Pre-Mapping Det EFT MX"
-- codeunit/10340 "EFT Values"
-- codeunit/10401 "Print Check Helper"
-- codeunit/10461 "Transfer Shpt. Header - Edit"
-- codeunit/10749 "Serv. Document Print NA"
-- codeunit/27000 "Export Accounts"
-- codeunit/27001 "Export Accounts Xml Helper"
-- codeunit/27006 "Service E-Invoice Mgt."
-- codeunit/27030 "SAT Utilities"
-- codeunit/27031 "Update SAT Payment Catalogs"
-- codeunit/27032 "Update CFDI Fields Sales Doc"
-- codeunit/27090 "Serv. Export Accounts"
-- codeunit/27091 "Update CFDI Fields Serv. Doc"
-- codeunit/104151 "UPG. MX CFDI"
-- codeunit/104152 "UPG. Data Exchange Definition"
-- codeunit/104153 "Upgrade - EFT"
-- codeunit/104154 "Upgrade - Sales Tax"
-- codeunit/104155 "Upgrade CFDI RFC Number"
-- codeunit/104156 "Upgrade VAT Setup NA"
-- enum/398 "Sales Tax Country"
-- enum/399 "External Tax Engine"
-- enum/10012 "Sales Tax Document Area"
-- enum/10025 "GST HST Tax Type"
-- interface/einvoice communication v2 "EInvoice Communication V2"
-- interface/external tax engine "External Tax Engine"
-- page/10000 "Import Budget Information"
-- page/10007 "Customer Credit Information"
-- page/10009 "Customer Order Header Status"
-- page/10010 "Customer Order Lines Status"
-- page/10011 "Customer Order Header Part"
-- page/10012 "Customer Order Lines Part"
-- page/10013 "Vendor Locations"
-- page/10017 "GIFI Codes"
-- page/10025 "Customer Order Status"
-- page/10026 "Sales Order Shipment"
-- page/10027 "Sales Order Shipment Subform"
-- page/10028 "Sales Order Invoice"
-- page/10029 "Sales Order Invoice Subform"
-- page/10038 "Sales Order Stats."
-- page/10039 "Purchase Order Stats."
-- page/10040 "Sales Tax Lines Subform"
-- page/10041 "Sales Invoice Stats."
-- page/10042 "Sales Stats."
-- page/10043 "Purchase Stats."
-- page/10044 "Sales Credit Memo Stats."
-- page/10045 "Purchase Invoice Stats."
-- page/10046 "Purch. Credit Memo Stats."
-- page/10052 "Service Order Stats."
-- page/10053 "Service Stats."
-- page/10056 "Service Invoice Stats."
-- page/10057 "Service Credit Memo Stats."
-- page/10060 "Sales Tax Lines Serv. Subform"
-- page/10100 "Account Identifiers"
-- page/10101 "Sales Tax Journal"
-- page/10125 "Posted Bank Rec. Worksheet"
-- page/10126 "Posted Bank Rec. Chk Lines Sub"
-- page/10127 "Posted Bank Rec. Dep Lines Sub"
-- page/10128 "Posted Bank Rec. Adj Lines Sub"
-- page/10129 "Posted Bank Rec. List"
-- page/10130 "Bank Comment Sheet"
-- page/10131 "Bank Comment List"
-- page/10134 "Posted Bank Rec. Lines"
-- page/10143 "Posted Deposit"
-- page/10144 "Posted Deposit Subform"
-- page/10147 "Posted Deposit List"
-- page/10148 "Posted Deposit Lines"
-- page/10150 "O365 Tax Settings Card"
-- page/10151 "O365 Tax Settings List"
-- page/10240 "B10 Adjustments"
-- page/10350 "BC O365 Tax Settings Card"
-- page/10351 "BC O365 Tax Settings List"
-- page/10352 "BC O365 Tax Settings"
-- page/10353 "BC O365 Tax Settings Part"
-- page/10452 "Service Order Stats. Dyn"
-- page/10455 "PAC Web Services"
-- page/10456 "PAC Web Service Details"
-- page/10457 "MX Electronic Invoice Setup"
-- page/10458 "MX Electroninc - CompanyInfo"
-- page/10459 "MX Electroninc - GLSetup"
-- page/10461 "Posted Transfer Shpt. - Update"
-- page/10807 "Sales Tax Setup Wizard"
-- page/10810 "Generate EFT Files"
-- page/10811 "Generate EFT File Lines"
-- page/27000 "Export Electr. Accounting"
-- page/27001 "SAT Account Codes"
-- page/27002 "SAT Payment Method Codes"
-- page/27003 "CFDI Cancellation Reasons"
-- page/27004 "CFDI Export Codes"
-- page/27006 "CFDI Relation Documents"
-- page/27007 "CFDI Transport Operators"
-- page/27008 "CFDI Subjects to Tax"
-- page/27009 "SAT Addresses"
-- page/27010 "Mexican CFDI Wizard"
-- page/27011 "SAT Payment Terms Subform"
-- page/27012 "SAT Payment Methods Subform"
-- page/27013 "SAT Item Subform"
-- page/27014 "SAT Customer Subform"
-- page/27015 "SAT CFDI Document Information"
-- page/27016 "SAT Tax Schemas"
-- page/27017 "SAT Payment Terms"
-- page/27018 "SAT Payment Methods"
-- page/27019 "SAT Weight Unit of Measures"
-- page/27021 "SAT Federal Motor Transports"
-- page/27022 "SAT Trailer Types"
-- page/27023 "SAT Permission Types"
-- page/27024 "SAT Hazardous Materials"
-- page/27025 "SAT Packaging Types"
-- page/27026 "SAT States"
-- page/27027 "SAT Municipalities"
-- page/27028 "SAT Localities"
-- page/27029 "SAT Suburb List"
-- page/27038 "SAT Transfer Reasons"
-- page/27039 "SAT Material Types"
-- page/27040 "SAT Classifications"
-- page/27041 "SAT Relationship Types"
-- page/27042 "SAT Use Codes"
-- page/27043 "SAT Units Of Measure"
-- page/27044 "SAT Country Codes"
-- page/27045 "SAT International Trade Terms"
-- page/27046 "SAT Custom Units"
-- page/27047 "SAT Customs Regimes"
-- page/27048 "SAT Customs Document Types"
-- page/36600 "Human Resources Role Center"
-- page/36601 "Payroll Role Center"
-- page/36603 "Credit & Collections Mgr. RC"
-- page/36623 "Credit Manager Activities"
-- page/36626 "Sales Order Shipment List"
-- page/36628 "Sales Order Invoice List"
-- page/36629 "Customer List - Collections"
-- page/36630 "Customer List - Credit Mgmt."
-- page/36631 "Customer List - Order Status"
-- page/36632 "Comment Sheet Part"
-- page/36640 "Order Header Status Factbox"
-- page/36641 "Order Lines Status Factbox"
-- page/36642 "Customer Credit FactBox"
-- page/36740 "Sales Tax Lines Subform Dyn"
-- pageextension/10002 "SourceCodeSetupNA"
-- pageextension/10011 "Service Order Archive NA"
-- pageextension/10012 "Posted Service Credit Memo NA"
-- pageextension/10013 "Posted Service Credit Memos NA"
-- pageextension/10014 "Posted Service Invoice NA"
-- pageextension/10015 "Posted Service Invoices NA"
-- pageextension/10016 "Posted Service Inv.Update NA"
-- pageextension/10020 "Service Credit Memo NA"
-- pageextension/10021 "Service Credit Memos NA"
-- pageextension/10022 "Service Invoice NA"
-- pageextension/10023 "Service Invoices NA"
-- pageextension/10024 "Service Order NA"
-- pageextension/10025 "Service Orders NA"
-- pageextension/10026 "Service Quote NA"
-- pageextension/10027 "Service Quotes NA"
-- pageextension/10028 "Service Invoice Subform NA"
-- pageextension/10029 "ReservationWkshFactBoxNA"
-- profile/credit manager "CREDIT MANAGER"
-- profile/hr manager "HR MANAGER"
-- profile/payroll administrator "PAYROLL ADMINISTRATOR"
-- report/10000 "Account Schedule Layout"
-- report/10001 "Budget"
-- report/10002 "Chart of Accounts"
-- report/10003 "Closing Trial Balance"
-- report/10004 "Account Balances by GIFI Code"
-- report/10005 "Export GIFI Info. to Excel"
-- report/10007 "Consolidated Trial Balance"
-- report/10008 "Consolidated Trial Balance (4)"
-- report/10009 "Cross Reference by Account No."
-- report/10010 "Cross Reference by Source"
-- report/10017 "Currency Balances - Rec./Pay."
-- report/10018 "General Ledger Worksheet"
-- report/10019 "G/L Register"
-- report/10021 "Trial Balance Detail/Summary"
-- report/10022 "Trial Balance"
-- report/10023 "Trial Balance, per Global Dim."
-- report/10025 "Trial Balance, Spread G. Dim."
-- report/10026 "Trial Balance, Spread Periods"
-- report/10030 "Budget Amount by Period"
-- report/10031 "Budget from History"
-- report/10040 "Aged Accounts Receivable NA"
-- report/10041 "Cash Applied"
-- report/10042 "Customer Account Detail"
-- report/10043 "Customer Comment List"
-- report/10044 "Customer Labels NA"
-- report/10045 "Customer Listing"
-- report/10046 "Customer Register"
-- report/10047 "Customer Sales Statistics"
-- report/10048 "Customer/Item Statistics"
-- report/10049 "Cust./Item Stat. by Salespers."
-- report/10050 "Daily Invoicing Report"
-- report/10051 "Drop Shipment Status"
-- report/10052 "Item Status by Salesperson"
-- report/10053 "Open Customer Entries"
-- report/10054 "Open Sales Invoices by Job"
-- report/10055 "Outstanding Sales Order Aging"
-- report/10056 "Outstanding Sales Order Status"
-- report/10057 "Projected Cash Receipts"
-- report/10059 "Salesperson Commissions"
-- report/10060 "Salesperson Statistics by Inv."
-- report/10061 "Ship-To Address Listing"
-- report/10069 "Sales Blanket Order"
-- report/10070 "Sales Invoice (Pre-Printed)"
-- report/10071 "Customer Stmt. (Pre-Printed)"
-- report/10072 "Customer Statements"
-- report/10073 "Sales Credit Memo NA"
-- report/10074 "Sales Invoice NA"
-- report/10075 "Sales Order"
-- report/10076 "Sales Quote NA"
-- report/10077 "Sales Shipment NA"
-- report/10078 "Shipping Labels"
-- report/10079 "UPS COD Tags"
-- report/10080 "Sales Shipment per Package"
-- report/10081 "Return Authorization"
-- report/10082 "Return Receipt"
-- report/10083 "Export Electronic Payments"
-- report/10084 "Void/Transmit Elec. Payments"
-- report/10085 "Aged Accounts Payable NA"
-- report/10086 "Cash Application"
-- report/10088 "Cash Requirements by Due Date"
-- report/10089 "Payment Journal - Test"
-- report/10091 "Item Statistics by Purchaser"
-- report/10092 "Open Purchase Invoices by Job"
-- report/10093 "Open Vendor Entries"
-- report/10094 "Outstanding Order Stat. by PO"
-- report/10095 "Outstanding Purch. Order Aging"
-- report/10096 "Outstanding Purch.Order Status"
-- report/10098 "Projected Cash Payments"
-- report/10100 "Purchaser Stat. by Invoice"
-- report/10101 "Reconcile AP to GL"
-- report/10102 "Top __ Vendor List"
-- report/10103 "Vendor Account Detail"
-- report/10104 "Vendor Comment List"
-- report/10105 "Vendor Labels"
-- report/10106 "Vendor - Listing"
-- report/10107 "Vendor Purchase Statistics"
-- report/10108 "AP - Vendor Register"
-- report/10113 "Vendor/Item Statistics"
-- report/10114 "Vendor Item Stat. by Purchaser"
-- report/10119 "Purchase Blanket Order"
-- report/10120 "Purchase Credit Memo NA"
-- report/10121 "Purchase Invoice NA"
-- report/10122 "Purchase Order"
-- report/10123 "Purchase Quote NA"
-- report/10124 "Purchase Receipt NA"
-- report/10125 "Purchase Order (Pre-Printed)"
-- report/10126 "Return Order Confirm"
-- report/10127 "Return Shipment"
-- report/10130 "Availability Projection"
-- report/10131 "Availability Status"
-- report/10132 "Back Order Fill by Customer"
-- report/10133 "Back Order Fill by Item"
-- report/10135 "Item Sales Statistics"
-- report/10136 "Item Transaction Detail"
-- report/10137 "Inventory Labels"
-- report/10138 "Inventory to G/L Reconcile"
-- report/10139 "Inventory Valuation"
-- report/10140 "Issue History"
-- report/10141 "Item Comment List"
-- report/10142 "Item Cost and Price List"
-- report/10143 "Item List"
-- report/10144 "Item Register"
-- report/10145 "Item Sales by Customer"
-- report/10146 "Item Turnover"
-- report/10147 "Items by Sales Tax Group"
-- report/10148 "List Price Sheet"
-- report/10149 "Location List"
-- report/10150 "Over Stock"
-- report/10151 "Physical Inventory Count"
-- report/10152 "Picking List by Item"
-- report/10153 "Picking List by Order"
-- report/10155 "Purchase Advice"
-- report/10156 "Purchase Order Status"
-- report/10157 "Sales History"
-- report/10158 "Sales Order Status"
-- report/10159 "Sales Promotion"
-- report/10160 "Serial Number Sold History"
-- report/10161 "Serial Number Status/Aging"
-- report/10162 "Top __ Inventory Items"
-- report/10163 "Vendor Purchases by Item"
-- report/10164 "Item/Vendor Catalog"
-- report/10165 "List Price Sheet V16"
-- report/10166 "Sales Promotion V16"
-- report/10195 "Cost Breakdown"
-- report/10197 "Resource List"
-- report/10198 "Resource Register"
-- report/10199 "Resource Statistics"
-- report/10200 "Resource Usage"
-- report/10210 "Job Actual to Budget (Cost)"
-- report/10211 "Job Actual to Budget (Price)"
-- report/10212 "Completed Jobs"
-- report/10213 "Customer Jobs (Cost)"
-- report/10214 "Customer Jobs (Price)"
-- report/10215 "Job Cost Budget"
-- report/10216 "Job List"
-- report/10217 "Job Register"
-- report/10219 "Job Cost Suggested Billing"
-- report/10220 "Job Cost Transaction Detail"
-- report/10307 "Country/Region List"
-- report/10308 "Currency List"
-- report/10310 "Language List"
-- report/10312 "Reason Code List"
-- report/10315 "Data Dictionary"
-- report/10321 "Sales Tax Area List"
-- report/10322 "Sales Tax Detail by Area"
-- report/10323 "Sales Tax Detail List"
-- report/10324 "Sales Tax Group List"
-- report/10325 "Sales Tax Jurisdiction List"
-- report/10326 "Assign Tax Area to Customer"
-- report/10327 "Assign Tax Area to Vendor"
-- report/10328 "Assign Tax Area to Location"
-- report/10400 "Check Translation Management"
-- report/10401 "Check (Stub/Stub/Check)"
-- report/10403 "Deposit"
-- report/10408 "Bank Reconciliation"
-- report/10409 "Bank Account - Reconcile"
-- report/10411 "Check (Stub/Check/Stub)"
-- report/10412 "Check (Check/Stub/Stub)"
-- report/10413 "Three Checks per Page"
-- report/10470 "Service Order-Sales Tax"
-- report/10471 "Service Quote-Sales Tax"
-- report/10473 "Service Credit Memo-Sales Tax"
-- report/10474 "Service Invoice-Sales Tax"
-- report/10476 "Elec. Sales Credit Memo MX"
-- report/10477 "Elec. Sales Invoice MX"
-- report/10478 "Elec. Service Cr Memo MX"
-- report/10479 "Elec. Service Invoice MX"
-- report/10480 "Electronic Carta Porte MX"
-- report/10485 "Service Document - Test NA"
-- report/10500 "GST/HST Internet File Transfer"
-- report/11380 "Export Electronic Payment File"
-- report/11383 "ExportElecPayments - Word"
-- report/14022 "Declaration 347 Labels"
-- report/14023 "Declaration 349 Labels"
-- report/14030 "Official journal ledger Summ."
-- table/10000 "PAC Web Service"
-- table/10001 "PAC Web Service Detail"
-- table/10002 "Document Header"
-- table/10003 "Document Line"
-- table/10004 "MX Electronic Invoicing Setup"
-- table/10010 "IRS 1099 Form-Box"
-- table/10011 "Sales Tax Amount Line"
-- table/10012 "Sales Tax Amount Difference"
-- table/10013 "Vendor Location"
-- table/10015 "GIFI Code"
-- table/10016 "IRS 1099 Adjustment"
-- table/10040 "Data Dictionary Info"
-- table/10100 "Account Identifier"
-- table/10122 "Bank Comment Line"
-- table/10123 "Posted Bank Rec. Header"
-- table/10124 "Posted Bank Rec. Line"
-- table/10139 "Item Location Variant Buffer"
-- table/10143 "Posted Deposit Header"
-- table/10144 "Posted Deposit Line"
-- table/10240 "B10 Adjustment"
-- table/10300 "ACH US Header"
-- table/10301 "ACH US Detail"
-- table/10302 "ACH US Footer"
-- table/10303 "ACH RB Header"
-- table/10304 "ACH RB Detail"
-- table/10305 "ACH RB Footer"
-- table/10306 "ACH Cecoban Header"
-- table/10307 "ACH Cecoban Detail"
-- table/10308 "ACH Cecoban Footer"
-- table/10807 "Sales Tax Setup Wizard"
-- table/10810 "EFT Export"
-- table/10811 "EFT Export Workset"
-- table/27000 "SAT Account Code"
-- table/27001 "SAT Payment Method Code"
-- table/27003 "CFDI Cancellation Reason"
-- table/27004 "CFDI Export Code"
-- table/27005 "CFDI Documents"
-- table/27006 "CFDI Relation Document"
-- table/27007 "CFDI Transport Operator"
-- table/27008 "CFDI Subject to Tax"
-- table/27009 "SAT Address"
-- table/27010 "SAT Classification"
-- table/27011 "SAT Relationship Type"
-- table/27012 "SAT Use Code"
-- table/27013 "SAT Unit of Measure"
-- table/27014 "SAT Country Code"
-- table/27016 "SAT Tax Scheme"
-- table/27017 "SAT Payment Term"
-- table/27018 "SAT Payment Method"
-- table/27019 "SAT Weight Unit of Measure"
-- table/27020 "SAT MX Resources"
-- table/27021 "SAT Federal Motor Transport"
-- table/27022 "SAT Trailer Type"
-- table/27023 "SAT Permission Type"
-- table/27024 "SAT Hazardous Material"
-- table/27025 "SAT Packaging Type"
-- table/27026 "SAT State"
-- table/27027 "SAT Municipality"
-- table/27028 "SAT Locality"
-- table/27029 "SAT Suburb"
-- table/27037 "SAT Material Type"
-- table/27038 "SAT Transfer Reason"
-- table/27045 "SAT International Trade Term"
-- table/27046 "SAT Customs Unit"
-- table/27047 "SAT Customs Regime"
-- table/27048 "SAT Customs Document Type"
-- table/36623 "Credit Manager Cue"
-- tableextension/10002 "SourceCodeSetupNA"
-- tableextension/10010 "Service Header Archive NA"
-- tableextension/10011 "Service Header NA"
-- tableextension/10012 "Service Cr.Memo Header NA"
-- tableextension/10013 "Service Invoice Header NA"
-- tableextension/10014 "Service Line NA"
-- tableextension/10015 "Location NA"
-- tableextension/10016 "Serv. G/L Account"
-- tableextension/10019 "Serv. Sales Tax Amount Diff."
-- tableextension/10027 "Mfg. Item NA"
-- xmlport/27003 "CFDI Cancellation Reason"
-- xmlport/27004 "CFDI Export Code"
-- xmlport/27008 "CFDI Subject to Tax"
-- xmlport/27010 "SAT Classification"
-- xmlport/27011 "SAT Relationship Type"
-- xmlport/27012 "SAT Use Code"
-- xmlport/27013 "SAT Unit of Measure"
-- xmlport/27014 "SAT Country Code"
-- xmlport/27015 "SAT Payment Method"
-- xmlport/27016 "SAT Tax Scheme"
-- xmlport/27017 "SAT Payment Term"
-- xmlport/27019 "SAT Weight Unit Of Measure"
-- xmlport/27021 "SAT Federal Motor Transport"
-- xmlport/27022 "SAT Trailer Type"
-- xmlport/27023 "SAT Permission Type"
-- xmlport/27024 "SAT Hazardous Material"
-- xmlport/27025 "SAT Packaging Type"
-- xmlport/27026 "SAT State"
-- xmlport/27027 "SAT Municipality"
-- xmlport/27028 "SAT Locality"
-- xmlport/27029 "SAT Suburb"
-- xmlport/27038 "SAT Transfer Reason"
-- xmlport/27039 "SAT Material Type"
-- xmlport/27045 "SAT International Trade Term"
-- xmlport/27046 "SAT Customs Unit"
-- xmlport/27047 "SAT Customs Regime"
-- xmlport/27048 "SAT Customs Document Type"
+- [codeunit/400 "ExternalTaxEngineDefault"](../objects/codeunit/400-mx.md)
+- [codeunit/5968 "Serv. Sales Tax Calculate"](../objects/codeunit/5968-mx.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-mx.md)
+- [codeunit/10001 "Shipment Line - Edit"](../objects/codeunit/10001-mx.md)
+- [codeunit/10011 "Ship-Post (Yes/No)"](../objects/codeunit/10011-mx.md)
+- [codeunit/10012 "Ship-Post + Print"](../objects/codeunit/10012-mx.md)
+- [codeunit/10021 "Invoice-Post (Yes/No)"](../objects/codeunit/10021-mx.md)
+- [codeunit/10022 "Invoice-Post + Print"](../objects/codeunit/10022-mx.md)
+- [codeunit/10025 "Paragraph Handling"](../objects/codeunit/10025-mx.md)
+- [codeunit/10059 "Serv. Event Subscribers NA"](../objects/codeunit/10059-mx.md)
+- [codeunit/10090 "Export Payments (ACH)"](../objects/codeunit/10090-mx.md)
+- [codeunit/10091 "Export Payments (RB)"](../objects/codeunit/10091-mx.md)
+- [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-mx.md)
+- [codeunit/10093 "Export Payments (IAT)"](../objects/codeunit/10093-mx.md)
+- [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-mx.md)
+- [codeunit/10095 "Export EFT (RB)"](../objects/codeunit/10095-mx.md)
+- [codeunit/10096 "Export EFT (Cecoban)"](../objects/codeunit/10096-mx.md)
+- [codeunit/10097 "Export EFT (IAT)"](../objects/codeunit/10097-mx.md)
+- [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md)
+- [codeunit/10100 "Post Sales Tax Jnl"](../objects/codeunit/10100-mx.md)
+- [codeunit/10101 "Post- Print Sales Tax Jnl"](../objects/codeunit/10101-mx.md)
+- [codeunit/10102 "Manage Sales Tax Journal"](../objects/codeunit/10102-mx.md)
+- [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-mx.md)
+- [codeunit/10125 "Posted Bank Rec.-Delete"](../objects/codeunit/10125-mx.md)
+- [codeunit/10126 "Bank Acc. Ledg. Entry-Reset"](../objects/codeunit/10126-mx.md)
+- [codeunit/10127 "Bank Rec. Wksh. Notification"](../objects/codeunit/10127-mx.md)
+- [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-mx.md)
+- [codeunit/10143 "Deposit-Printed"](../objects/codeunit/10143-mx.md)
+- [codeunit/10144 "Posted Deposit-Delete"](../objects/codeunit/10144-mx.md)
+- [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-mx.md)
+- [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-mx.md)
+- [codeunit/10148 "Sales Tax Amount Line Calc"](../objects/codeunit/10148-mx.md)
+- [codeunit/10150 "O365 Tax Settings Management"](../objects/codeunit/10150-mx.md)
+- [codeunit/10151 "E-Invoice Cancel Request Batch"](../objects/codeunit/10151-mx.md)
+- [codeunit/10152 "Serv.EInv.Cancel Request Batch"](../objects/codeunit/10152-mx.md)
+- [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-mx.md)
+- [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-mx.md)
+- [codeunit/10200 "EFT Recipient Bank Account Mgt"](../objects/codeunit/10200-mx.md)
+- [codeunit/10202 "Entry Application Management"](../objects/codeunit/10202-mx.md)
+- [codeunit/10250 "Bulk Vendor Remit Reporting"](../objects/codeunit/10250-mx.md)
+- [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-mx.md)
+- [codeunit/10320 "Exp. Launcher EFT"](../objects/codeunit/10320-mx.md)
+- [codeunit/10321 "Exp. Validation EFT"](../objects/codeunit/10321-mx.md)
+- [codeunit/10322 "Exp. Writing EFT"](../objects/codeunit/10322-mx.md)
+- [codeunit/10323 "Exp. External Data EFT"](../objects/codeunit/10323-mx.md)
+- [codeunit/10324 "Exp. User Feedback EFT"](../objects/codeunit/10324-mx.md)
+- [codeunit/10325 "Exp. Pre-Mapping Head EFT"](../objects/codeunit/10325-mx.md)
+- [codeunit/10326 "Exp. Mapping Head EFT US"](../objects/codeunit/10326-mx.md)
+- [codeunit/10327 "Exp. Pre-Mapping Det EFT US"](../objects/codeunit/10327-mx.md)
+- [codeunit/10328 "Exp. Mapping Det EFT US"](../objects/codeunit/10328-mx.md)
+- [codeunit/10329 "Exp. Pre-Mapping Foot EFT"](../objects/codeunit/10329-mx.md)
+- [codeunit/10330 "Exp. Mapping Foot EFT US"](../objects/codeunit/10330-mx.md)
+- [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md)
+- [codeunit/10332 "Exp. Mapping Head EFT CA"](../objects/codeunit/10332-mx.md)
+- [codeunit/10333 "Exp. Mapping Head EFT MX"](../objects/codeunit/10333-mx.md)
+- [codeunit/10334 "Exp. Mapping Det EFT RB"](../objects/codeunit/10334-mx.md)
+- [codeunit/10335 "Exp. Mapping Det EFT MX"](../objects/codeunit/10335-mx.md)
+- [codeunit/10336 "Exp. Mapping Foot EFT CA"](../objects/codeunit/10336-mx.md)
+- [codeunit/10337 "Exp. Mapping Foot EFT MX"](../objects/codeunit/10337-mx.md)
+- [codeunit/10338 "Exp. Pre-Mapping Det EFT CA"](../objects/codeunit/10338-mx.md)
+- [codeunit/10339 "Exp. Pre-Mapping Det EFT MX"](../objects/codeunit/10339-mx.md)
+- [codeunit/10340 "EFT Values"](../objects/codeunit/10340-mx.md)
+- [codeunit/10401 "Print Check Helper"](../objects/codeunit/10401-mx.md)
+- [codeunit/10461 "Transfer Shpt. Header - Edit"](../objects/codeunit/10461-mx.md)
+- [codeunit/10749 "Serv. Document Print NA"](../objects/codeunit/10749-mx.md)
+- [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-mx.md)
+- [codeunit/27001 "Export Accounts Xml Helper"](../objects/codeunit/27001-mx.md)
+- [codeunit/27006 "Service E-Invoice Mgt."](../objects/codeunit/27006-mx.md)
+- [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-mx.md)
+- [codeunit/27031 "Update SAT Payment Catalogs"](../objects/codeunit/27031-mx.md)
+- [codeunit/27032 "Update CFDI Fields Sales Doc"](../objects/codeunit/27032-mx.md)
+- [codeunit/27090 "Serv. Export Accounts"](../objects/codeunit/27090-mx.md)
+- [codeunit/27091 "Update CFDI Fields Serv. Doc"](../objects/codeunit/27091-mx.md)
+- [codeunit/104151 "UPG. MX CFDI"](../objects/codeunit/104151-mx.md)
+- [codeunit/104152 "UPG. Data Exchange Definition"](../objects/codeunit/104152-mx.md)
+- [codeunit/104153 "Upgrade - EFT"](../objects/codeunit/104153-mx.md)
+- [codeunit/104154 "Upgrade - Sales Tax"](../objects/codeunit/104154-mx.md)
+- [codeunit/104155 "Upgrade CFDI RFC Number"](../objects/codeunit/104155-mx.md)
+- [codeunit/104156 "Upgrade VAT Setup NA"](../objects/codeunit/104156-mx.md)
+- [enum/398 "Sales Tax Country"](../objects/enum/398-mx.md)
+- [enum/399 "External Tax Engine"](../objects/enum/399-mx.md)
+- [enum/10012 "Sales Tax Document Area"](../objects/enum/10012-mx.md)
+- [enum/10025 "GST HST Tax Type"](../objects/enum/10025-mx.md)
+- [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-mx.md)
+- [interface/external tax engine "External Tax Engine"](../objects/interface/external-tax-engine-mx.md)
+- [page/10000 "Import Budget Information"](../objects/page/10000-mx.md)
+- [page/10007 "Customer Credit Information"](../objects/page/10007-mx.md)
+- [page/10009 "Customer Order Header Status"](../objects/page/10009-mx.md)
+- [page/10010 "Customer Order Lines Status"](../objects/page/10010-mx.md)
+- [page/10011 "Customer Order Header Part"](../objects/page/10011-mx.md)
+- [page/10012 "Customer Order Lines Part"](../objects/page/10012-mx.md)
+- [page/10013 "Vendor Locations"](../objects/page/10013-mx.md)
+- [page/10017 "GIFI Codes"](../objects/page/10017-mx.md)
+- [page/10025 "Customer Order Status"](../objects/page/10025-mx.md)
+- [page/10026 "Sales Order Shipment"](../objects/page/10026-mx.md)
+- [page/10027 "Sales Order Shipment Subform"](../objects/page/10027-mx.md)
+- [page/10028 "Sales Order Invoice"](../objects/page/10028-mx.md)
+- [page/10029 "Sales Order Invoice Subform"](../objects/page/10029-mx.md)
+- [page/10038 "Sales Order Stats."](../objects/page/10038-mx.md)
+- [page/10039 "Purchase Order Stats."](../objects/page/10039-mx.md)
+- [page/10040 "Sales Tax Lines Subform"](../objects/page/10040-mx.md)
+- [page/10041 "Sales Invoice Stats."](../objects/page/10041-mx.md)
+- [page/10042 "Sales Stats."](../objects/page/10042-mx.md)
+- [page/10043 "Purchase Stats."](../objects/page/10043-mx.md)
+- [page/10044 "Sales Credit Memo Stats."](../objects/page/10044-mx.md)
+- [page/10045 "Purchase Invoice Stats."](../objects/page/10045-mx.md)
+- [page/10046 "Purch. Credit Memo Stats."](../objects/page/10046-mx.md)
+- [page/10052 "Service Order Stats."](../objects/page/10052-mx.md)
+- [page/10053 "Service Stats."](../objects/page/10053-mx.md)
+- [page/10056 "Service Invoice Stats."](../objects/page/10056-mx.md)
+- [page/10057 "Service Credit Memo Stats."](../objects/page/10057-mx.md)
+- [page/10060 "Sales Tax Lines Serv. Subform"](../objects/page/10060-mx.md)
+- [page/10100 "Account Identifiers"](../objects/page/10100-mx.md)
+- [page/10101 "Sales Tax Journal"](../objects/page/10101-mx.md)
+- [page/10125 "Posted Bank Rec. Worksheet"](../objects/page/10125-mx.md)
+- [page/10126 "Posted Bank Rec. Chk Lines Sub"](../objects/page/10126-mx.md)
+- [page/10127 "Posted Bank Rec. Dep Lines Sub"](../objects/page/10127-mx.md)
+- [page/10128 "Posted Bank Rec. Adj Lines Sub"](../objects/page/10128-mx.md)
+- [page/10129 "Posted Bank Rec. List"](../objects/page/10129-mx.md)
+- [page/10130 "Bank Comment Sheet"](../objects/page/10130-mx.md)
+- [page/10131 "Bank Comment List"](../objects/page/10131-mx.md)
+- [page/10134 "Posted Bank Rec. Lines"](../objects/page/10134-mx.md)
+- [page/10143 "Posted Deposit"](../objects/page/10143-mx.md)
+- [page/10144 "Posted Deposit Subform"](../objects/page/10144-mx.md)
+- [page/10147 "Posted Deposit List"](../objects/page/10147-mx.md)
+- [page/10148 "Posted Deposit Lines"](../objects/page/10148-mx.md)
+- [page/10150 "O365 Tax Settings Card"](../objects/page/10150-mx.md)
+- [page/10151 "O365 Tax Settings List"](../objects/page/10151-mx.md)
+- [page/10240 "B10 Adjustments"](../objects/page/10240-mx.md)
+- [page/10350 "BC O365 Tax Settings Card"](../objects/page/10350-mx.md)
+- [page/10351 "BC O365 Tax Settings List"](../objects/page/10351-mx.md)
+- [page/10352 "BC O365 Tax Settings"](../objects/page/10352-mx.md)
+- [page/10353 "BC O365 Tax Settings Part"](../objects/page/10353-mx.md)
+- [page/10452 "Service Order Stats. Dyn"](../objects/page/10452-mx.md)
+- [page/10455 "PAC Web Services"](../objects/page/10455-mx.md)
+- [page/10456 "PAC Web Service Details"](../objects/page/10456-mx.md)
+- [page/10457 "MX Electronic Invoice Setup"](../objects/page/10457-mx.md)
+- [page/10458 "MX Electroninc - CompanyInfo"](../objects/page/10458-mx.md)
+- [page/10459 "MX Electroninc - GLSetup"](../objects/page/10459-mx.md)
+- [page/10461 "Posted Transfer Shpt. - Update"](../objects/page/10461-mx.md)
+- [page/10807 "Sales Tax Setup Wizard"](../objects/page/10807-mx.md)
+- [page/10810 "Generate EFT Files"](../objects/page/10810-mx.md)
+- [page/10811 "Generate EFT File Lines"](../objects/page/10811-mx.md)
+- [page/27000 "Export Electr. Accounting"](../objects/page/27000-mx.md)
+- [page/27001 "SAT Account Codes"](../objects/page/27001-mx.md)
+- [page/27002 "SAT Payment Method Codes"](../objects/page/27002-mx.md)
+- [page/27003 "CFDI Cancellation Reasons"](../objects/page/27003-mx.md)
+- [page/27004 "CFDI Export Codes"](../objects/page/27004-mx.md)
+- [page/27006 "CFDI Relation Documents"](../objects/page/27006-mx.md)
+- [page/27007 "CFDI Transport Operators"](../objects/page/27007-mx.md)
+- [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md)
+- [page/27009 "SAT Addresses"](../objects/page/27009-mx.md)
+- [page/27010 "Mexican CFDI Wizard"](../objects/page/27010-mx.md)
+- [page/27011 "SAT Payment Terms Subform"](../objects/page/27011-mx.md)
+- [page/27012 "SAT Payment Methods Subform"](../objects/page/27012-mx.md)
+- [page/27013 "SAT Item Subform"](../objects/page/27013-mx.md)
+- [page/27014 "SAT Customer Subform"](../objects/page/27014-mx.md)
+- [page/27015 "SAT CFDI Document Information"](../objects/page/27015-mx.md)
+- [page/27016 "SAT Tax Schemas"](../objects/page/27016-mx.md)
+- [page/27017 "SAT Payment Terms"](../objects/page/27017-mx.md)
+- [page/27018 "SAT Payment Methods"](../objects/page/27018-mx.md)
+- [page/27019 "SAT Weight Unit of Measures"](../objects/page/27019-mx.md)
+- [page/27021 "SAT Federal Motor Transports"](../objects/page/27021-mx.md)
+- [page/27022 "SAT Trailer Types"](../objects/page/27022-mx.md)
+- [page/27023 "SAT Permission Types"](../objects/page/27023-mx.md)
+- [page/27024 "SAT Hazardous Materials"](../objects/page/27024-mx.md)
+- [page/27025 "SAT Packaging Types"](../objects/page/27025-mx.md)
+- [page/27026 "SAT States"](../objects/page/27026-mx.md)
+- [page/27027 "SAT Municipalities"](../objects/page/27027-mx.md)
+- [page/27028 "SAT Localities"](../objects/page/27028-mx.md)
+- [page/27029 "SAT Suburb List"](../objects/page/27029-mx.md)
+- [page/27038 "SAT Transfer Reasons"](../objects/page/27038-mx.md)
+- [page/27039 "SAT Material Types"](../objects/page/27039-mx.md)
+- [page/27040 "SAT Classifications"](../objects/page/27040-mx.md)
+- [page/27041 "SAT Relationship Types"](../objects/page/27041-mx.md)
+- [page/27042 "SAT Use Codes"](../objects/page/27042-mx.md)
+- [page/27043 "SAT Units Of Measure"](../objects/page/27043-mx.md)
+- [page/27044 "SAT Country Codes"](../objects/page/27044-mx.md)
+- [page/27045 "SAT International Trade Terms"](../objects/page/27045-mx.md)
+- [page/27046 "SAT Custom Units"](../objects/page/27046-mx.md)
+- [page/27047 "SAT Customs Regimes"](../objects/page/27047-mx.md)
+- [page/27048 "SAT Customs Document Types"](../objects/page/27048-mx.md)
+- [page/36600 "Human Resources Role Center"](../objects/page/36600-mx.md)
+- [page/36601 "Payroll Role Center"](../objects/page/36601-mx.md)
+- [page/36603 "Credit & Collections Mgr. RC"](../objects/page/36603-mx.md)
+- [page/36623 "Credit Manager Activities"](../objects/page/36623-mx.md)
+- [page/36626 "Sales Order Shipment List"](../objects/page/36626-mx.md)
+- [page/36628 "Sales Order Invoice List"](../objects/page/36628-mx.md)
+- [page/36629 "Customer List - Collections"](../objects/page/36629-mx.md)
+- [page/36630 "Customer List - Credit Mgmt."](../objects/page/36630-mx.md)
+- [page/36631 "Customer List - Order Status"](../objects/page/36631-mx.md)
+- [page/36632 "Comment Sheet Part"](../objects/page/36632-mx.md)
+- [page/36640 "Order Header Status Factbox"](../objects/page/36640-mx.md)
+- [page/36641 "Order Lines Status Factbox"](../objects/page/36641-mx.md)
+- [page/36642 "Customer Credit FactBox"](../objects/page/36642-mx.md)
+- [page/36740 "Sales Tax Lines Subform Dyn"](../objects/page/36740-mx.md)
+- [pageextension/10002 "SourceCodeSetupNA"](../objects/pageextension/10002-mx.md)
+- [pageextension/10011 "Service Order Archive NA"](../objects/pageextension/10011-mx.md)
+- [pageextension/10012 "Posted Service Credit Memo NA"](../objects/pageextension/10012-mx.md)
+- [pageextension/10013 "Posted Service Credit Memos NA"](../objects/pageextension/10013-mx.md)
+- [pageextension/10014 "Posted Service Invoice NA"](../objects/pageextension/10014-mx.md)
+- [pageextension/10015 "Posted Service Invoices NA"](../objects/pageextension/10015-mx.md)
+- [pageextension/10016 "Posted Service Inv.Update NA"](../objects/pageextension/10016-mx.md)
+- [pageextension/10020 "Service Credit Memo NA"](../objects/pageextension/10020-mx.md)
+- [pageextension/10021 "Service Credit Memos NA"](../objects/pageextension/10021-mx.md)
+- [pageextension/10022 "Service Invoice NA"](../objects/pageextension/10022-mx.md)
+- [pageextension/10023 "Service Invoices NA"](../objects/pageextension/10023-mx.md)
+- [pageextension/10024 "Service Order NA"](../objects/pageextension/10024-mx.md)
+- [pageextension/10025 "Service Orders NA"](../objects/pageextension/10025-mx.md)
+- [pageextension/10026 "Service Quote NA"](../objects/pageextension/10026-mx.md)
+- [pageextension/10027 "Service Quotes NA"](../objects/pageextension/10027-mx.md)
+- [pageextension/10028 "Service Invoice Subform NA"](../objects/pageextension/10028-mx.md)
+- [pageextension/10029 "ReservationWkshFactBoxNA"](../objects/pageextension/10029-mx.md)
+- [profile/credit manager "CREDIT MANAGER"](../objects/profile/credit-manager-mx.md)
+- [profile/hr manager "HR MANAGER"](../objects/profile/hr-manager-mx.md)
+- [profile/payroll administrator "PAYROLL ADMINISTRATOR"](../objects/profile/payroll-administrator-mx.md)
+- [report/10000 "Account Schedule Layout"](../objects/report/10000-mx.md)
+- [report/10001 "Budget"](../objects/report/10001-mx.md)
+- [report/10002 "Chart of Accounts"](../objects/report/10002-mx.md)
+- [report/10003 "Closing Trial Balance"](../objects/report/10003-mx.md)
+- [report/10004 "Account Balances by GIFI Code"](../objects/report/10004-mx.md)
+- [report/10005 "Export GIFI Info. to Excel"](../objects/report/10005-mx.md)
+- [report/10007 "Consolidated Trial Balance"](../objects/report/10007-mx.md)
+- [report/10008 "Consolidated Trial Balance (4)"](../objects/report/10008-mx.md)
+- [report/10009 "Cross Reference by Account No."](../objects/report/10009-mx.md)
+- [report/10010 "Cross Reference by Source"](../objects/report/10010-mx.md)
+- [report/10017 "Currency Balances - Rec./Pay."](../objects/report/10017-mx.md)
+- [report/10018 "General Ledger Worksheet"](../objects/report/10018-mx.md)
+- [report/10019 "G/L Register"](../objects/report/10019-mx.md)
+- [report/10021 "Trial Balance Detail/Summary"](../objects/report/10021-mx.md)
+- [report/10022 "Trial Balance"](../objects/report/10022-mx.md)
+- [report/10023 "Trial Balance, per Global Dim."](../objects/report/10023-mx.md)
+- [report/10025 "Trial Balance, Spread G. Dim."](../objects/report/10025-mx.md)
+- [report/10026 "Trial Balance, Spread Periods"](../objects/report/10026-mx.md)
+- [report/10030 "Budget Amount by Period"](../objects/report/10030-mx.md)
+- [report/10031 "Budget from History"](../objects/report/10031-mx.md)
+- [report/10040 "Aged Accounts Receivable NA"](../objects/report/10040-mx.md)
+- [report/10041 "Cash Applied"](../objects/report/10041-mx.md)
+- [report/10042 "Customer Account Detail"](../objects/report/10042-mx.md)
+- [report/10043 "Customer Comment List"](../objects/report/10043-mx.md)
+- [report/10044 "Customer Labels NA"](../objects/report/10044-mx.md)
+- [report/10045 "Customer Listing"](../objects/report/10045-mx.md)
+- [report/10046 "Customer Register"](../objects/report/10046-mx.md)
+- [report/10047 "Customer Sales Statistics"](../objects/report/10047-mx.md)
+- [report/10048 "Customer/Item Statistics"](../objects/report/10048-mx.md)
+- [report/10049 "Cust./Item Stat. by Salespers."](../objects/report/10049-mx.md)
+- [report/10050 "Daily Invoicing Report"](../objects/report/10050-mx.md)
+- [report/10051 "Drop Shipment Status"](../objects/report/10051-mx.md)
+- [report/10052 "Item Status by Salesperson"](../objects/report/10052-mx.md)
+- [report/10053 "Open Customer Entries"](../objects/report/10053-mx.md)
+- [report/10054 "Open Sales Invoices by Job"](../objects/report/10054-mx.md)
+- [report/10055 "Outstanding Sales Order Aging"](../objects/report/10055-mx.md)
+- [report/10056 "Outstanding Sales Order Status"](../objects/report/10056-mx.md)
+- [report/10057 "Projected Cash Receipts"](../objects/report/10057-mx.md)
+- [report/10059 "Salesperson Commissions"](../objects/report/10059-mx.md)
+- [report/10060 "Salesperson Statistics by Inv."](../objects/report/10060-mx.md)
+- [report/10061 "Ship-To Address Listing"](../objects/report/10061-mx.md)
+- [report/10069 "Sales Blanket Order"](../objects/report/10069-mx.md)
+- [report/10070 "Sales Invoice (Pre-Printed)"](../objects/report/10070-mx.md)
+- [report/10071 "Customer Stmt. (Pre-Printed)"](../objects/report/10071-mx.md)
+- [report/10072 "Customer Statements"](../objects/report/10072-mx.md)
+- [report/10073 "Sales Credit Memo NA"](../objects/report/10073-mx.md)
+- [report/10074 "Sales Invoice NA"](../objects/report/10074-mx.md)
+- [report/10075 "Sales Order"](../objects/report/10075-mx.md)
+- [report/10076 "Sales Quote NA"](../objects/report/10076-mx.md)
+- [report/10077 "Sales Shipment NA"](../objects/report/10077-mx.md)
+- [report/10078 "Shipping Labels"](../objects/report/10078-mx.md)
+- [report/10079 "UPS COD Tags"](../objects/report/10079-mx.md)
+- [report/10080 "Sales Shipment per Package"](../objects/report/10080-mx.md)
+- [report/10081 "Return Authorization"](../objects/report/10081-mx.md)
+- [report/10082 "Return Receipt"](../objects/report/10082-mx.md)
+- [report/10083 "Export Electronic Payments"](../objects/report/10083-mx.md)
+- [report/10084 "Void/Transmit Elec. Payments"](../objects/report/10084-mx.md)
+- [report/10085 "Aged Accounts Payable NA"](../objects/report/10085-mx.md)
+- [report/10086 "Cash Application"](../objects/report/10086-mx.md)
+- [report/10088 "Cash Requirements by Due Date"](../objects/report/10088-mx.md)
+- [report/10089 "Payment Journal - Test"](../objects/report/10089-mx.md)
+- [report/10091 "Item Statistics by Purchaser"](../objects/report/10091-mx.md)
+- [report/10092 "Open Purchase Invoices by Job"](../objects/report/10092-mx.md)
+- [report/10093 "Open Vendor Entries"](../objects/report/10093-mx.md)
+- [report/10094 "Outstanding Order Stat. by PO"](../objects/report/10094-mx.md)
+- [report/10095 "Outstanding Purch. Order Aging"](../objects/report/10095-mx.md)
+- [report/10096 "Outstanding Purch.Order Status"](../objects/report/10096-mx.md)
+- [report/10098 "Projected Cash Payments"](../objects/report/10098-mx.md)
+- [report/10100 "Purchaser Stat. by Invoice"](../objects/report/10100-mx.md)
+- [report/10101 "Reconcile AP to GL"](../objects/report/10101-mx.md)
+- [report/10102 "Top __ Vendor List"](../objects/report/10102-mx.md)
+- [report/10103 "Vendor Account Detail"](../objects/report/10103-mx.md)
+- [report/10104 "Vendor Comment List"](../objects/report/10104-mx.md)
+- [report/10105 "Vendor Labels"](../objects/report/10105-mx.md)
+- [report/10106 "Vendor - Listing"](../objects/report/10106-mx.md)
+- [report/10107 "Vendor Purchase Statistics"](../objects/report/10107-mx.md)
+- [report/10108 "AP - Vendor Register"](../objects/report/10108-mx.md)
+- [report/10113 "Vendor/Item Statistics"](../objects/report/10113-mx.md)
+- [report/10114 "Vendor Item Stat. by Purchaser"](../objects/report/10114-mx.md)
+- [report/10119 "Purchase Blanket Order"](../objects/report/10119-mx.md)
+- [report/10120 "Purchase Credit Memo NA"](../objects/report/10120-mx.md)
+- [report/10121 "Purchase Invoice NA"](../objects/report/10121-mx.md)
+- [report/10122 "Purchase Order"](../objects/report/10122-mx.md)
+- [report/10123 "Purchase Quote NA"](../objects/report/10123-mx.md)
+- [report/10124 "Purchase Receipt NA"](../objects/report/10124-mx.md)
+- [report/10125 "Purchase Order (Pre-Printed)"](../objects/report/10125-mx.md)
+- [report/10126 "Return Order Confirm"](../objects/report/10126-mx.md)
+- [report/10127 "Return Shipment"](../objects/report/10127-mx.md)
+- [report/10130 "Availability Projection"](../objects/report/10130-mx.md)
+- [report/10131 "Availability Status"](../objects/report/10131-mx.md)
+- [report/10132 "Back Order Fill by Customer"](../objects/report/10132-mx.md)
+- [report/10133 "Back Order Fill by Item"](../objects/report/10133-mx.md)
+- [report/10135 "Item Sales Statistics"](../objects/report/10135-mx.md)
+- [report/10136 "Item Transaction Detail"](../objects/report/10136-mx.md)
+- [report/10137 "Inventory Labels"](../objects/report/10137-mx.md)
+- [report/10138 "Inventory to G/L Reconcile"](../objects/report/10138-mx.md)
+- [report/10139 "Inventory Valuation"](../objects/report/10139-mx.md)
+- [report/10140 "Issue History"](../objects/report/10140-mx.md)
+- [report/10141 "Item Comment List"](../objects/report/10141-mx.md)
+- [report/10142 "Item Cost and Price List"](../objects/report/10142-mx.md)
+- [report/10143 "Item List"](../objects/report/10143-mx.md)
+- [report/10144 "Item Register"](../objects/report/10144-mx.md)
+- [report/10145 "Item Sales by Customer"](../objects/report/10145-mx.md)
+- [report/10146 "Item Turnover"](../objects/report/10146-mx.md)
+- [report/10147 "Items by Sales Tax Group"](../objects/report/10147-mx.md)
+- [report/10148 "List Price Sheet"](../objects/report/10148-mx.md)
+- [report/10149 "Location List"](../objects/report/10149-mx.md)
+- [report/10150 "Over Stock"](../objects/report/10150-mx.md)
+- [report/10151 "Physical Inventory Count"](../objects/report/10151-mx.md)
+- [report/10152 "Picking List by Item"](../objects/report/10152-mx.md)
+- [report/10153 "Picking List by Order"](../objects/report/10153-mx.md)
+- [report/10155 "Purchase Advice"](../objects/report/10155-mx.md)
+- [report/10156 "Purchase Order Status"](../objects/report/10156-mx.md)
+- [report/10157 "Sales History"](../objects/report/10157-mx.md)
+- [report/10158 "Sales Order Status"](../objects/report/10158-mx.md)
+- [report/10159 "Sales Promotion"](../objects/report/10159-mx.md)
+- [report/10160 "Serial Number Sold History"](../objects/report/10160-mx.md)
+- [report/10161 "Serial Number Status/Aging"](../objects/report/10161-mx.md)
+- [report/10162 "Top __ Inventory Items"](../objects/report/10162-mx.md)
+- [report/10163 "Vendor Purchases by Item"](../objects/report/10163-mx.md)
+- [report/10164 "Item/Vendor Catalog"](../objects/report/10164-mx.md)
+- [report/10165 "List Price Sheet V16"](../objects/report/10165-mx.md)
+- [report/10166 "Sales Promotion V16"](../objects/report/10166-mx.md)
+- [report/10195 "Cost Breakdown"](../objects/report/10195-mx.md)
+- [report/10197 "Resource List"](../objects/report/10197-mx.md)
+- [report/10198 "Resource Register"](../objects/report/10198-mx.md)
+- [report/10199 "Resource Statistics"](../objects/report/10199-mx.md)
+- [report/10200 "Resource Usage"](../objects/report/10200-mx.md)
+- [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-mx.md)
+- [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-mx.md)
+- [report/10212 "Completed Jobs"](../objects/report/10212-mx.md)
+- [report/10213 "Customer Jobs (Cost)"](../objects/report/10213-mx.md)
+- [report/10214 "Customer Jobs (Price)"](../objects/report/10214-mx.md)
+- [report/10215 "Job Cost Budget"](../objects/report/10215-mx.md)
+- [report/10216 "Job List"](../objects/report/10216-mx.md)
+- [report/10217 "Job Register"](../objects/report/10217-mx.md)
+- [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-mx.md)
+- [report/10220 "Job Cost Transaction Detail"](../objects/report/10220-mx.md)
+- [report/10307 "Country/Region List"](../objects/report/10307-mx.md)
+- [report/10308 "Currency List"](../objects/report/10308-mx.md)
+- [report/10310 "Language List"](../objects/report/10310-mx.md)
+- [report/10312 "Reason Code List"](../objects/report/10312-mx.md)
+- [report/10315 "Data Dictionary"](../objects/report/10315-mx.md)
+- [report/10321 "Sales Tax Area List"](../objects/report/10321-mx.md)
+- [report/10322 "Sales Tax Detail by Area"](../objects/report/10322-mx.md)
+- [report/10323 "Sales Tax Detail List"](../objects/report/10323-mx.md)
+- [report/10324 "Sales Tax Group List"](../objects/report/10324-mx.md)
+- [report/10325 "Sales Tax Jurisdiction List"](../objects/report/10325-mx.md)
+- [report/10326 "Assign Tax Area to Customer"](../objects/report/10326-mx.md)
+- [report/10327 "Assign Tax Area to Vendor"](../objects/report/10327-mx.md)
+- [report/10328 "Assign Tax Area to Location"](../objects/report/10328-mx.md)
+- [report/10400 "Check Translation Management"](../objects/report/10400-mx.md)
+- [report/10401 "Check (Stub/Stub/Check)"](../objects/report/10401-mx.md)
+- [report/10403 "Deposit"](../objects/report/10403-mx.md)
+- [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md)
+- [report/10409 "Bank Account - Reconcile"](../objects/report/10409-mx.md)
+- [report/10411 "Check (Stub/Check/Stub)"](../objects/report/10411-mx.md)
+- [report/10412 "Check (Check/Stub/Stub)"](../objects/report/10412-mx.md)
+- [report/10413 "Three Checks per Page"](../objects/report/10413-mx.md)
+- [report/10470 "Service Order-Sales Tax"](../objects/report/10470-mx.md)
+- [report/10471 "Service Quote-Sales Tax"](../objects/report/10471-mx.md)
+- [report/10473 "Service Credit Memo-Sales Tax"](../objects/report/10473-mx.md)
+- [report/10474 "Service Invoice-Sales Tax"](../objects/report/10474-mx.md)
+- [report/10476 "Elec. Sales Credit Memo MX"](../objects/report/10476-mx.md)
+- [report/10477 "Elec. Sales Invoice MX"](../objects/report/10477-mx.md)
+- [report/10478 "Elec. Service Cr Memo MX"](../objects/report/10478-mx.md)
+- [report/10479 "Elec. Service Invoice MX"](../objects/report/10479-mx.md)
+- [report/10480 "Electronic Carta Porte MX"](../objects/report/10480-mx.md)
+- [report/10485 "Service Document - Test NA"](../objects/report/10485-mx.md)
+- [report/10500 "GST/HST Internet File Transfer"](../objects/report/10500-mx.md)
+- [report/11380 "Export Electronic Payment File"](../objects/report/11380-mx.md)
+- [report/11383 "ExportElecPayments - Word"](../objects/report/11383-mx.md)
+- [report/14022 "Declaration 347 Labels"](../objects/report/14022-mx.md)
+- [report/14023 "Declaration 349 Labels"](../objects/report/14023-mx.md)
+- [report/14030 "Official journal ledger Summ."](../objects/report/14030-mx.md)
+- [table/10000 "PAC Web Service"](../objects/table/10000-mx.md)
+- [table/10001 "PAC Web Service Detail"](../objects/table/10001-mx.md)
+- [table/10002 "Document Header"](../objects/table/10002-mx.md)
+- [table/10003 "Document Line"](../objects/table/10003-mx.md)
+- [table/10004 "MX Electronic Invoicing Setup"](../objects/table/10004-mx.md)
+- [table/10010 "IRS 1099 Form-Box"](../objects/table/10010-mx.md)
+- [table/10011 "Sales Tax Amount Line"](../objects/table/10011-mx.md)
+- [table/10012 "Sales Tax Amount Difference"](../objects/table/10012-mx.md)
+- [table/10013 "Vendor Location"](../objects/table/10013-mx.md)
+- [table/10015 "GIFI Code"](../objects/table/10015-mx.md)
+- [table/10016 "IRS 1099 Adjustment"](../objects/table/10016-mx.md)
+- [table/10040 "Data Dictionary Info"](../objects/table/10040-mx.md)
+- [table/10100 "Account Identifier"](../objects/table/10100-mx.md)
+- [table/10122 "Bank Comment Line"](../objects/table/10122-mx.md)
+- [table/10123 "Posted Bank Rec. Header"](../objects/table/10123-mx.md)
+- [table/10124 "Posted Bank Rec. Line"](../objects/table/10124-mx.md)
+- [table/10139 "Item Location Variant Buffer"](../objects/table/10139-mx.md)
+- [table/10143 "Posted Deposit Header"](../objects/table/10143-mx.md)
+- [table/10144 "Posted Deposit Line"](../objects/table/10144-mx.md)
+- [table/10240 "B10 Adjustment"](../objects/table/10240-mx.md)
+- [table/10300 "ACH US Header"](../objects/table/10300-mx.md)
+- [table/10301 "ACH US Detail"](../objects/table/10301-mx.md)
+- [table/10302 "ACH US Footer"](../objects/table/10302-mx.md)
+- [table/10303 "ACH RB Header"](../objects/table/10303-mx.md)
+- [table/10304 "ACH RB Detail"](../objects/table/10304-mx.md)
+- [table/10305 "ACH RB Footer"](../objects/table/10305-mx.md)
+- [table/10306 "ACH Cecoban Header"](../objects/table/10306-mx.md)
+- [table/10307 "ACH Cecoban Detail"](../objects/table/10307-mx.md)
+- [table/10308 "ACH Cecoban Footer"](../objects/table/10308-mx.md)
+- [table/10807 "Sales Tax Setup Wizard"](../objects/table/10807-mx.md)
+- [table/10810 "EFT Export"](../objects/table/10810-mx.md)
+- [table/10811 "EFT Export Workset"](../objects/table/10811-mx.md)
+- [table/27000 "SAT Account Code"](../objects/table/27000-mx.md)
+- [table/27001 "SAT Payment Method Code"](../objects/table/27001-mx.md)
+- [table/27003 "CFDI Cancellation Reason"](../objects/table/27003-mx.md)
+- [table/27004 "CFDI Export Code"](../objects/table/27004-mx.md)
+- [table/27005 "CFDI Documents"](../objects/table/27005-mx.md)
+- [table/27006 "CFDI Relation Document"](../objects/table/27006-mx.md)
+- [table/27007 "CFDI Transport Operator"](../objects/table/27007-mx.md)
+- [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md)
+- [table/27009 "SAT Address"](../objects/table/27009-mx.md)
+- [table/27010 "SAT Classification"](../objects/table/27010-mx.md)
+- [table/27011 "SAT Relationship Type"](../objects/table/27011-mx.md)
+- [table/27012 "SAT Use Code"](../objects/table/27012-mx.md)
+- [table/27013 "SAT Unit of Measure"](../objects/table/27013-mx.md)
+- [table/27014 "SAT Country Code"](../objects/table/27014-mx.md)
+- [table/27016 "SAT Tax Scheme"](../objects/table/27016-mx.md)
+- [table/27017 "SAT Payment Term"](../objects/table/27017-mx.md)
+- [table/27018 "SAT Payment Method"](../objects/table/27018-mx.md)
+- [table/27019 "SAT Weight Unit of Measure"](../objects/table/27019-mx.md)
+- [table/27020 "SAT MX Resources"](../objects/table/27020-mx.md)
+- [table/27021 "SAT Federal Motor Transport"](../objects/table/27021-mx.md)
+- [table/27022 "SAT Trailer Type"](../objects/table/27022-mx.md)
+- [table/27023 "SAT Permission Type"](../objects/table/27023-mx.md)
+- [table/27024 "SAT Hazardous Material"](../objects/table/27024-mx.md)
+- [table/27025 "SAT Packaging Type"](../objects/table/27025-mx.md)
+- [table/27026 "SAT State"](../objects/table/27026-mx.md)
+- [table/27027 "SAT Municipality"](../objects/table/27027-mx.md)
+- [table/27028 "SAT Locality"](../objects/table/27028-mx.md)
+- [table/27029 "SAT Suburb"](../objects/table/27029-mx.md)
+- [table/27037 "SAT Material Type"](../objects/table/27037-mx.md)
+- [table/27038 "SAT Transfer Reason"](../objects/table/27038-mx.md)
+- [table/27045 "SAT International Trade Term"](../objects/table/27045-mx.md)
+- [table/27046 "SAT Customs Unit"](../objects/table/27046-mx.md)
+- [table/27047 "SAT Customs Regime"](../objects/table/27047-mx.md)
+- [table/27048 "SAT Customs Document Type"](../objects/table/27048-mx.md)
+- [table/36623 "Credit Manager Cue"](../objects/table/36623-mx.md)
+- [tableextension/10002 "SourceCodeSetupNA"](../objects/tableextension/10002-mx.md)
+- [tableextension/10010 "Service Header Archive NA"](../objects/tableextension/10010-mx.md)
+- [tableextension/10011 "Service Header NA"](../objects/tableextension/10011-mx.md)
+- [tableextension/10012 "Service Cr.Memo Header NA"](../objects/tableextension/10012-mx.md)
+- [tableextension/10013 "Service Invoice Header NA"](../objects/tableextension/10013-mx.md)
+- [tableextension/10014 "Service Line NA"](../objects/tableextension/10014-mx.md)
+- [tableextension/10015 "Location NA"](../objects/tableextension/10015-mx.md)
+- [tableextension/10016 "Serv. G/L Account"](../objects/tableextension/10016-mx.md)
+- [tableextension/10019 "Serv. Sales Tax Amount Diff."](../objects/tableextension/10019-mx.md)
+- [tableextension/10027 "Mfg. Item NA"](../objects/tableextension/10027-mx.md)
+- [xmlport/27003 "CFDI Cancellation Reason"](../objects/xmlport/27003-mx.md)
+- [xmlport/27004 "CFDI Export Code"](../objects/xmlport/27004-mx.md)
+- [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md)
+- [xmlport/27010 "SAT Classification"](../objects/xmlport/27010-mx.md)
+- [xmlport/27011 "SAT Relationship Type"](../objects/xmlport/27011-mx.md)
+- [xmlport/27012 "SAT Use Code"](../objects/xmlport/27012-mx.md)
+- [xmlport/27013 "SAT Unit of Measure"](../objects/xmlport/27013-mx.md)
+- [xmlport/27014 "SAT Country Code"](../objects/xmlport/27014-mx.md)
+- [xmlport/27015 "SAT Payment Method"](../objects/xmlport/27015-mx.md)
+- [xmlport/27016 "SAT Tax Scheme"](../objects/xmlport/27016-mx.md)
+- [xmlport/27017 "SAT Payment Term"](../objects/xmlport/27017-mx.md)
+- [xmlport/27019 "SAT Weight Unit Of Measure"](../objects/xmlport/27019-mx.md)
+- [xmlport/27021 "SAT Federal Motor Transport"](../objects/xmlport/27021-mx.md)
+- [xmlport/27022 "SAT Trailer Type"](../objects/xmlport/27022-mx.md)
+- [xmlport/27023 "SAT Permission Type"](../objects/xmlport/27023-mx.md)
+- [xmlport/27024 "SAT Hazardous Material"](../objects/xmlport/27024-mx.md)
+- [xmlport/27025 "SAT Packaging Type"](../objects/xmlport/27025-mx.md)
+- [xmlport/27026 "SAT State"](../objects/xmlport/27026-mx.md)
+- [xmlport/27027 "SAT Municipality"](../objects/xmlport/27027-mx.md)
+- [xmlport/27028 "SAT Locality"](../objects/xmlport/27028-mx.md)
+- [xmlport/27029 "SAT Suburb"](../objects/xmlport/27029-mx.md)
+- [xmlport/27038 "SAT Transfer Reason"](../objects/xmlport/27038-mx.md)
+- [xmlport/27039 "SAT Material Type"](../objects/xmlport/27039-mx.md)
+- [xmlport/27045 "SAT International Trade Term"](../objects/xmlport/27045-mx.md)
+- [xmlport/27046 "SAT Customs Unit"](../objects/xmlport/27046-mx.md)
+- [xmlport/27047 "SAT Customs Regime"](../objects/xmlport/27047-mx.md)
+- [xmlport/27048 "SAT Customs Document Type"](../objects/xmlport/27048-mx.md)
 
 ## Other versions
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ff3e0355bd05ca44519a4142a3e2c2464f389e9d645ae7bc3ac19dbfa601fad9
+  input_hash: 7a11c9a99e640f0b6844fe2e8cb926a76afd821a9439d55d2651dcea16a1d4ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al

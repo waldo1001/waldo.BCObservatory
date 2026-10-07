@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5aae02ffbda02229208dd2eefe3bd75c71f026f6b5c82e4597a0789366c388f6
@@ -57,8 +57,7 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica
   localizations: []
   videos: []
-  posts:
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -72,7 +71,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 5aae02ffbda02229208dd2eefe3bd75c71f026f6b5c82e4597a0789366c388f6
@@ -91,11 +90,5 @@ Path: [Business functionality](../../../business-functionality.md) > [Set up Bus
 - [Setup best practices - Planning parameters](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-planning-parameters): This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
 - [Setup best practices - Reordering policies \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-reordering-policies): The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 - [Setup Best Practices - Supply Planning](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-supply-planning): When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md) (community post): "requisition worksheets, and planning worksheets, enabling batch-level approvals"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

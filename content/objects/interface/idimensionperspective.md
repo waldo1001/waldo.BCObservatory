@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 757f1e8165af342b29237591d206a23c5a435d28f3a5f8d3e554425eee39bc9d
+  input_hash: b0574efe006f8aa79aefabba11694b23e9e6bb031579f38428608c88fe02ee5a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al

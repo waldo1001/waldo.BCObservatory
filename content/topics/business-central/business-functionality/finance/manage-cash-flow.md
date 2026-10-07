@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 37d49d2d709704ba1ca534f068643f8125b28378fa5cf75b426bb6b83737cb24
@@ -48,11 +48,7 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos:
-    - video/-SGaVGOkiF0
-    - video/fpc_XlVEnWw
-    - video/s3d9vW6tuT8
-    - video/z4Ri5SAqUcc
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -65,7 +61,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 4
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -109,15 +105,6 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Analyze cash flows](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow): Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 - [Cash flow overview](https://learn.microsoft.com/dynamics365/business-central/finance-cash-flow-overview): An overview of cash inflows and outflows to help forecast money to be received and paid out.
 - [Make cash flow forecasts using financial reports](https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules): This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "Payment Times Analysis; payment analysis; payment times; vendor payments"
-- [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../videos/fpc_XlVEnWw.md) (video): "vendor payments; payment selection; cash flow; payment criteria"
-- [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "Foreign Currency Budgeting; Travel Request with Multiple Travelers"
-- [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../videos/z4Ri5SAqUcc.md) (video): "vendor payments; payment journals; cash flow; payment discounts"
 
 ## Business Central pages and reports
 

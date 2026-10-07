@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -146,7 +146,7 @@ Adds the Finnish bank reference file solution: setup table and page, imported an
 
 Why: Learn describes electronic banking with LM03 and LUM2 formats, linking customer payments to invoices and exporting vendor payments to bank files. SEPA export uses the new pain.001.001.09 format.
 
-Objects: table/32000000 "Reference File Setup" (own), codeunit/32000000 "Ref. Payment Management" (own), report/32000000 "Import Ref. Payment" (own), report/32000004 "Export Ref. Payment - LUM" (own), report/32000006 "Export Ref. Payment - LMP" (own), codeunit/13413 "Exp. SEPA CT pain.001.001.09" (own), report/13413 "Exp. SEPA CT pain.001.001.09" (own), table/32000001 "Ref. Payment - Imported" (own).
+Objects: [table/32000000 "Reference File Setup"](../objects/table/32000000-fi.md) (own), [codeunit/32000000 "Ref. Payment Management"](../objects/codeunit/32000000-fi.md) (own), [report/32000000 "Import Ref. Payment"](../objects/report/32000000-fi.md) (own), [report/32000004 "Export Ref. Payment - LUM"](../objects/report/32000004-fi.md) (own), [report/32000006 "Export Ref. Payment - LMP"](../objects/report/32000006-fi.md) (own), [codeunit/13413 "Exp. SEPA CT pain.001.001.09"](../objects/codeunit/13413-fi.md) (own), [report/13413 "Exp. SEPA CT pain.001.001.09"](../objects/report/13413-fi.md) (own), [table/32000001 "Ref. Payment - Imported"](../objects/table/32000001-fi.md) (own).
 
 [All 24 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -176,7 +176,7 @@ Adds automatic account headers and lines, Auto. Acc. Group on G/L accounts, jour
 
 Why: Learn documents automatic account codes and posting groups, and printing VAT information per line on invoices.
 
-Objects: table/11203 "Automatic Acc. Header" (own), table/11204 "Automatic Acc. Line" (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/323 "VAT Business Posting Group"](../objects/table/323.md), [table/324 "VAT Product Posting Group"](../objects/table/324.md).
+Objects: [table/11203 "Automatic Acc. Header"](../objects/table/11203-fi.md) (own), [table/11204 "Automatic Acc. Line"](../objects/table/11204-fi.md) (own), [table/15 "G/L Account"](../objects/table/15.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/181 "Posted Gen. Journal Line"](../objects/table/181.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/323 "VAT Business Posting Group"](../objects/table/323.md), [table/324 "VAT Product Posting Group"](../objects/table/324.md).
 
 [All 13 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -186,7 +186,7 @@ Adds Finnish service reports for contracts, contract quotes, quotes, orders and 
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: report/13411 "Service - Invoice (FI)" (own), report/13410 "Service Contract (FI)" (own), report/13412 "Service Contract Quote (FI)" (own), report/13414 "Service Quote (FI)" (own), report/13416 "Service Order (FI)" (own), codeunit/13410 "Serv. Document Mgt. FI" (own), tableextension/13410 "Service Invoice Header FI" (own), pageextension/13410 "Posted Service Invoice FI" (own).
+Objects: [report/13411 "Service - Invoice (FI)"](../objects/report/13411-fi.md) (own), [report/13410 "Service Contract (FI)"](../objects/report/13410-fi.md) (own), [report/13412 "Service Contract Quote (FI)"](../objects/report/13412-fi.md) (own), [report/13414 "Service Quote (FI)"](../objects/report/13414-fi.md) (own), [report/13416 "Service Order (FI)"](../objects/report/13416-fi.md) (own), [codeunit/13410 "Serv. Document Mgt. FI"](../objects/codeunit/13410-fi.md) (own), [tableextension/13410 "Service Invoice Header FI"](../objects/tableextension/13410-fi.md) (own), [pageextension/13410 "Posted Service Invoice FI"](../objects/pageextension/13410-fi.md) (own).
 
 [All 8 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -196,7 +196,7 @@ Adds company registration fields (Company Reg. No., Business Identity Code, Regi
 
 Why: Learn describes the disregard payment discount option as accepting full payment after the discount date within tolerance.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/242 "Source Code Setup"](../objects/table/242.md), tableextension/13400 "SourceCodeSetupFI" (own), pageextension/13400 "SourceCodeSetupFI" (own), codeunit/13461 "Serv. Report Selection Mgt. FI" (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/9 "Country/Region"](../objects/table/9.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/242 "Source Code Setup"](../objects/table/242.md), [tableextension/13400 "SourceCodeSetupFI"](../objects/tableextension/13400-fi.md) (own), [pageextension/13400 "SourceCodeSetupFI"](../objects/pageextension/13400-fi.md) (own), [codeunit/13461 "Serv. Report Selection Mgt. FI"](../objects/codeunit/13461-fi.md) (own).
 
 [All 7 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -206,7 +206,7 @@ Adds the Calc. and Post Depr. Diff. report, a posting buffer table, depreciation
 
 Why: Learn states Finnish tax law requires posting the difference between straight-line and declining balance depreciation to the general ledger.
 
-Objects: report/13402 "Calc. and Post Depr. Diff." (own), table/13401 "Depr. Diff. Posting Buffer" (own), [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5601 "FA Ledger Entry"](../objects/table/5601.md).
+Objects: [report/13402 "Calc. and Post Depr. Diff."](../objects/report/13402-fi.md) (own), [table/13401 "Depr. Diff. Posting Buffer"](../objects/table/13401-fi.md) (own), [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5601 "FA Ledger Entry"](../objects/table/5601.md).
 
 [All 4 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
@@ -236,7 +236,7 @@ Adds the Intrastat - File Setup table for the Finnish Intrastat file.
 
 Why: Learn describes file submission as one way to file Finnish Intrastat reports.
 
-Objects: table/13400 "Intrastat - File Setup" (own).
+Objects: [table/13400 "Intrastat - File Setup"](../objects/table/13400-fi.md) (own).
 
 [All 1 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
@@ -306,50 +306,50 @@ Objects: [report/394 "Suggest Employee Payments"](../objects/report/394.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+42 objects only this country has.
 
-- codeunit/13403 "Export SEPA Payment File"
-- codeunit/13410 "Serv. Document Mgt. FI"
-- codeunit/13413 "Exp. SEPA CT pain.001.001.09"
-- codeunit/13461 "Serv. Report Selection Mgt. FI"
-- codeunit/32000000 "Ref. Payment Management"
-- codeunit/32000001 "Currency Exchange Rate"
-- codeunit/32000002 "Bank Nos Check"
-- page/32000000 "Bank Reference File Setup"
-- page/32000001 "Ref. Payment - Import"
-- page/32000002 "Apply Ref. Payment"
-- page/32000004 "Ref. Payment - Export"
-- page/32000005 "Payment Method Codes"
-- page/32000006 "Bank Payments to send"
-- page/32000007 "Input Dialog"
-- pageextension/13400 "SourceCodeSetupFI"
-- pageextension/13410 "Posted Service Invoice FI"
-- report/13400 "G/L Register FI"
-- report/13402 "Calc. and Post Depr. Diff."
-- report/13403 "Export SEPA Payment File"
-- report/13410 "Service Contract (FI)"
-- report/13411 "Service - Invoice (FI)"
-- report/13412 "Service Contract Quote (FI)"
-- report/13413 "Exp. SEPA CT pain.001.001.09"
-- report/13414 "Service Quote (FI)"
-- report/13416 "Service Order (FI)"
-- report/32000000 "Import Ref. Payment"
-- report/32000001 "Ref. Payment Imported"
-- report/32000003 "Suggest Bank Payments"
-- report/32000004 "Export Ref. Payment - LUM"
-- report/32000005 "Payment"
-- report/32000006 "Export Ref. Payment - LMP"
-- table/11203 "Automatic Acc. Header"
-- table/11204 "Automatic Acc. Line"
-- table/13400 "Intrastat - File Setup"
-- table/13401 "Depr. Diff. Posting Buffer"
-- table/32000000 "Reference File Setup"
-- table/32000001 "Ref. Payment - Imported"
-- table/32000002 "Ref. Payment - Exported"
-- table/32000003 "Foreign Payment Types"
-- table/32000004 "Ref. Payment - Exported Buffer"
-- tableextension/13400 "SourceCodeSetupFI"
-- tableextension/13410 "Service Invoice Header FI"
+- [codeunit/13403 "Export SEPA Payment File"](../objects/codeunit/13403-fi.md)
+- [codeunit/13410 "Serv. Document Mgt. FI"](../objects/codeunit/13410-fi.md)
+- [codeunit/13413 "Exp. SEPA CT pain.001.001.09"](../objects/codeunit/13413-fi.md)
+- [codeunit/13461 "Serv. Report Selection Mgt. FI"](../objects/codeunit/13461-fi.md)
+- [codeunit/32000000 "Ref. Payment Management"](../objects/codeunit/32000000-fi.md)
+- [codeunit/32000001 "Currency Exchange Rate"](../objects/codeunit/32000001-fi.md)
+- [codeunit/32000002 "Bank Nos Check"](../objects/codeunit/32000002-fi.md)
+- [page/32000000 "Bank Reference File Setup"](../objects/page/32000000-fi.md)
+- [page/32000001 "Ref. Payment - Import"](../objects/page/32000001-fi.md)
+- [page/32000002 "Apply Ref. Payment"](../objects/page/32000002-fi.md)
+- [page/32000004 "Ref. Payment - Export"](../objects/page/32000004-fi.md)
+- [page/32000005 "Payment Method Codes"](../objects/page/32000005-fi.md)
+- [page/32000006 "Bank Payments to send"](../objects/page/32000006-fi.md)
+- [page/32000007 "Input Dialog"](../objects/page/32000007-fi.md)
+- [pageextension/13400 "SourceCodeSetupFI"](../objects/pageextension/13400-fi.md)
+- [pageextension/13410 "Posted Service Invoice FI"](../objects/pageextension/13410-fi.md)
+- [report/13400 "G/L Register FI"](../objects/report/13400-fi.md)
+- [report/13402 "Calc. and Post Depr. Diff."](../objects/report/13402-fi.md)
+- [report/13403 "Export SEPA Payment File"](../objects/report/13403-fi.md)
+- [report/13410 "Service Contract (FI)"](../objects/report/13410-fi.md)
+- [report/13411 "Service - Invoice (FI)"](../objects/report/13411-fi.md)
+- [report/13412 "Service Contract Quote (FI)"](../objects/report/13412-fi.md)
+- [report/13413 "Exp. SEPA CT pain.001.001.09"](../objects/report/13413-fi.md)
+- [report/13414 "Service Quote (FI)"](../objects/report/13414-fi.md)
+- [report/13416 "Service Order (FI)"](../objects/report/13416-fi.md)
+- [report/32000000 "Import Ref. Payment"](../objects/report/32000000-fi.md)
+- [report/32000001 "Ref. Payment Imported"](../objects/report/32000001-fi.md)
+- [report/32000003 "Suggest Bank Payments"](../objects/report/32000003-fi.md)
+- [report/32000004 "Export Ref. Payment - LUM"](../objects/report/32000004-fi.md)
+- [report/32000005 "Payment"](../objects/report/32000005-fi.md)
+- [report/32000006 "Export Ref. Payment - LMP"](../objects/report/32000006-fi.md)
+- [table/11203 "Automatic Acc. Header"](../objects/table/11203-fi.md)
+- [table/11204 "Automatic Acc. Line"](../objects/table/11204-fi.md)
+- [table/13400 "Intrastat - File Setup"](../objects/table/13400-fi.md)
+- [table/13401 "Depr. Diff. Posting Buffer"](../objects/table/13401-fi.md)
+- [table/32000000 "Reference File Setup"](../objects/table/32000000-fi.md)
+- [table/32000001 "Ref. Payment - Imported"](../objects/table/32000001-fi.md)
+- [table/32000002 "Ref. Payment - Exported"](../objects/table/32000002-fi.md)
+- [table/32000003 "Foreign Payment Types"](../objects/table/32000003-fi.md)
+- [table/32000004 "Ref. Payment - Exported Buffer"](../objects/table/32000004-fi.md)
+- [tableextension/13400 "SourceCodeSetupFI"](../objects/tableextension/13400-fi.md)
+- [tableextension/13410 "Service Invoice Header FI"](../objects/tableextension/13410-fi.md)
 
 ## Other versions
 

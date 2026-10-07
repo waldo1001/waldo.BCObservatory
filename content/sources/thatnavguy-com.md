@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 23 posts in the knowledge base, 2026-03-27 to 2026-10-02, mostly about development, platform, reporting."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 25 posts in the knowledge base, 2026-02-27 to 2026-10-02, mostly about development, platform, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T01:01:30.439Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 708fb1e1a95462b2e16084b540d68e55c9272681bc507cc6cf859faac3dc413c
+  input_hash: ccbb6da33dc1ece01bb058692d27f1eed0ba2149496cf8fdce613e0dff9b3e4c
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -33,6 +33,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-65-freeze-column-property--96541514c3
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
@@ -63,13 +65,13 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 23
+item_count: 25
 footprint:
   systems:
     - id: development
-      weight: 29
+      weight: 31
     - id: platform
-      weight: 7
+      weight: 9
     - id: reporting
       weight: 6
     - id: administration
@@ -77,11 +79,15 @@ footprint:
     - id: sales
       weight: 5
     - id: integration
-      weight: 3
+      weight: 4
   topics:
     - id: al development
       weight: 8
     - id: developer tools
+      weight: 3
+    - id: extensions
+      weight: 3
+    - id: user experience
       weight: 3
     - id: best practices
       weight: 2
@@ -95,13 +101,11 @@ footprint:
       weight: 2
     - id: error handling
       weight: 2
-    - id: extensions
-      weight: 2
-    - id: report design
-      weight: 2
   objects:
     - id: table Sales Header
       weight: 2
+    - id: api Exclude_APIV2
+      weight: 1
     - id: other Excel Buffer
       weight: 1
     - id: other InitValue
@@ -117,13 +121,13 @@ footprint:
     - id: table Sales Invoice Header
       weight: 1
   features: []
-first_item: "2026-03-27"
+first_item: "2026-02-27"
 last_item: "2026-10-02"
 ---
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 23 posts in the knowledge base, 2026-03-27 to 2026-10-02, mostly about development, platform, reporting.
+> That NAV Guy (Teddy Herryanto, MVP): 25 posts in the knowledge base, 2026-02-27 to 2026-10-02, mostly about development, platform, reporting.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -131,22 +135,22 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (29) | al development (8) | table Sales Header (2) |
-| platform (7) | developer tools (3) | other Excel Buffer (1) |
-| reporting (6) | best practices (2) | other InitValue (1) |
-| administration (5) | business logic (2) | page Configuration Package (1) |
-| sales (5) | community (2) | table Customer (1) |
-| integration (3) | data integrity (2) | table Item (1) |
-|  | data validation (2) | table Item Variant (1) |
-|  | error handling (2) | table Sales Invoice Header (1) |
-|  | extensions (2) |  |
-|  | report design (2) |  |
+| development (31) | al development (8) | table Sales Header (2) |
+| platform (9) | developer tools (3) | api Exclude_APIV2 (1) |
+| reporting (6) | extensions (3) | other Excel Buffer (1) |
+| administration (5) | user experience (3) | other InitValue (1) |
+| sales (5) | best practices (2) | page Configuration Package (1) |
+| integration (4) | business logic (2) | table Customer (1) |
+|  | community (2) | table Item (1) |
+|  | data integrity (2) | table Item Variant (1) |
+|  | data validation (2) | table Sales Invoice Header (1) |
+|  | error handling (2) |  |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: * 1
+- 2026-Q1: *** 3
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
 - 2026-Q4: * 1

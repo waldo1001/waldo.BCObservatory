@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 85d375fcf70da28d059cc548642084759d86b70a5d218e9c79c87e6644d47df3
+  input_hash: 64bd444705d2326f992ee8b023748851b2d2b8310487bc66cb84aae4146d4012
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/SatisfactionSurvey.ControlAddin.al

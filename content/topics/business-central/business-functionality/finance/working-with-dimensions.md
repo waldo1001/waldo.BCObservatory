@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4aad523b92d727f29cb67906abf92f8b4992f0660102b30f79ea23e68ccc780
@@ -51,12 +51,11 @@ links:
   videos:
     - video/4EnvGMwbuBY
     - video/BC82BSrtng0
-    - video/kJfGIKor3VA
     - video/r8HWIk5E0c0
-    - video/tP-0VcN7fcU
     - video/V2mfuDh8Kfk
     - video/vpJg1BxIrs0
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3120
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -68,8 +67,8 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 7
-  blog: 0
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms:
   - 116
@@ -141,11 +140,10 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"
 - [Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics](../../../../videos/BC82BSrtng0.md) (video): "Segments; dimensions; default dimensions; posting; reporting; migration"
-- [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../../../../videos/kJfGIKor3VA.md) (video): "Dynamic dimension names; dimension filters; global dimensions"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Correct dimension in Business Central; Change dimension process"
-- [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Dimension defaults in templates"
 - [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/V2mfuDh8Kfk.md) (video): "segments; dimensions; chart of accounts; migration; global dimensions"
 - [Comparing Segment and Dimension Transaction and Reporting between Dynamics GP and Business Central](../../../../videos/vpJg1BxIrs0.md) (video): "Dimension value posting code settings; Trial balance dimension report"
 

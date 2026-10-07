@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f3750e2c7975249acc3cbffa976cc6855a32ab263f9a0c6412722f263bdaf1db
+  input_hash: ff37e52d130b4c6ca269888d50a72ba0b9f518f4cd40af7309c708cd549843c5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al

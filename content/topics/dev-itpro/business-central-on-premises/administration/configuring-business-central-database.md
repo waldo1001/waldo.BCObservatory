@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9e9a5d8b688c1cfc28ccfa67c3f09a18394ddc46317f40a6f3627220fe3c2f3a
@@ -72,8 +72,7 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/administration
   localizations: []
-  videos:
-    - video/1x3QyBX3swg
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -86,7 +85,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -111,12 +110,6 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [A
 - [Optimizing SQL Server Performance with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance): Describes how to optimize performance when accessing data from the SQL Server database.
 - [Setting SQL Compatibility Level to Optimize Database Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level): Enable query optimizer features in a database by setting the compatibility level
 - [Using Table Partitioning and Data Compression](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression): Learn how to use table partitioning and data compression to improve data access performance in Business Central online.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Microsoft presents: Index management](../../../../videos/1x3QyBX3swg.md) (video): "Index management; sql server indexes; storage optimization; index usage statistics"
 
 ## Business Central pages and reports
 

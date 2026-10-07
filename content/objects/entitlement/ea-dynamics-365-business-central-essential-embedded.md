@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 109bd569faa9afa8eae7748e3aeeb9d6c79dca1833328c722f4857d54a4bed5c
+  input_hash: 4bf9fa8075e74910e853c489d1eb71f88c86bec8370376bd1811c3888f27f1a7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialEmbedded.Entitlement.al

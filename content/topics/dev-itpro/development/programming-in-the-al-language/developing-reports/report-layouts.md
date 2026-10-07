@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 03e55fa18a37d791e5391e794f5557b8593f7580d9a83f94221314fb980a514f
@@ -206,12 +206,9 @@ links:
     - video/W003w36Isto
   posts:
     - post/aardvarklabs-blog/3544
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/
-    - post/thinkaboutit-be/7920
-    - post/thinkaboutit-be/8120
   guidelines: []
 learn_toc_path:
   - Development
@@ -225,7 +222,7 @@ coverage:
   learn: 22
   code: 0
   video: 3
-  blog: 7
+  blog: 4
   guideline: 0
 bc_forms:
   - 21
@@ -273,12 +270,9 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
-- [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/.md) (community post): "report layout lifecycle states in BC 28.1 adds four layout status states"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619.md) (community post): "composite layouts where branding is split into three separate parts"
 - [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
 - [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
-- [Quick Tip: What’s in Business Central Update 28.1](../../../../../posts/thinkaboutit-be/7920.md) (community post): "Report layout administrators can assign statuses to control which layouts users see"
-- [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.0 Preview](../../../../../posts/thinkaboutit-be/8120.md) (community post): "Composable report layouts allow independent application of themes, headers and footers"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"

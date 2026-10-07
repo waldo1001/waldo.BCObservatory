@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9e30d86645d5a5a69241a3dea1cc04b7d4ad7d4774728cbb5af0793ac55215f7
+  input_hash: 1b8cae6f2c3e0d4a7478d85103b51d88d2e5a0bd0857d543986e0f14233e2c46
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Font/BarcodeFontEncoder2D.Interface.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
@@ -48,8 +48,7 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos:
-    - video/H_PHi8pe53w
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -62,7 +61,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -81,11 +80,5 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 - [Best Practices for Deprecation of AL Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines): Description of best practices and guidelines for deprecating code in the Base App for Business Central.
 - [Deprecating explicit and implicit with statements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecating-with-statements-overview): Rationale and description of why explicit and implicit with statements are deprecated in AL.
 - [Microsoft Timeline for Deprecating Code in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-timeline): Description of the timeline for deprecating code in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central 29 0 Default Implementations in AL Interfaces](../../../../videos/H_PHi8pe53w.md) (video): "interface evolution; breaking changes; migration path"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

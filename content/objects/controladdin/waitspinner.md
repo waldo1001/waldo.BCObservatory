@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 07f65af78658140f0e1c1369bc7d8f8bf6e3c5256fc075f7c47a134bbaaede6d
+  input_hash: 45a25dbe88805762a3cbabb03d3c06eacf26ecbc92f404ebc7afdab58531a505
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 062c4f8c9f2bd19a5a7095283b5f3460fff046a46fb0cf894c7bec0e65c1bcad
+  input_hash: d0f833096b1c9e0dad77c170a26f145cf246b6fe63b511caf3d6db4083abf84c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Record%20Reference/src/RecordReference.Interface.al

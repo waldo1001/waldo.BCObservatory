@@ -2,7 +2,7 @@
 id: source/stefanmaron-com
 type: source
 title: Stefan Maron
-summary: "Stefan Maron (MVP): 16 posts in the knowledge base, 2026-03-16 to 2026-09-10, mostly about development, platform, administration."
+summary: "Stefan Maron (MVP): 22 posts in the knowledge base, 2026-02-20 to 2026-09-10, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T01:01:30.439Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c9ee1b393be1b87df8e1347842860c84fa2ae7dc5fbab06703722d273f24b5c6
+  input_hash: eb6882415543c3742730b1dbafc5dab9f5471d5c0faee7ee19d0b502bf84a83e
 evidence:
   - kind: blog
     url: https://stefanmaron.com
@@ -33,6 +33,12 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109
+    - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
+    - post/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e
+    - post/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb
+    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
+    - post/stefanmaron-com/https-stefanmaron-com-posts-claude-code-standalone-docker-sandbox--cc7ff659fa
     - post/stefanmaron-com/https-stefanmaron-com-posts-swappable-claude-profiles-container-mounting-part-3--414f9f698f
     - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
     - post/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831
@@ -56,19 +62,19 @@ url: https://stefanmaron.com
 author: Stefan Maron
 mvp: true
 full_text: false
-item_count: 16
+item_count: 22
 footprint:
   systems:
     - id: development
-      weight: 31
+      weight: 42
     - id: platform
-      weight: 17
-    - id: administration
-      weight: 4
+      weight: 23
     - id: integration
-      weight: 3
+      weight: 7
+    - id: administration
+      weight: 5
     - id: copilot
-      weight: 1
+      weight: 2
     - id: reporting
       weight: 1
   topics:
@@ -76,21 +82,21 @@ footprint:
       weight: 9
     - id: al runner
       weight: 8
+    - id: al development
+      weight: 5
+    - id: claude code
+      weight: 4
+    - id: docker
+      weight: 4
     - id: ci/cd
       weight: 3
-    - id: docker
+    - id: ci/cd pipeline
       weight: 3
     - id: performance
       weight: 3
     - id: al compiler
       weight: 2
-    - id: ci/cd pipeline
-      weight: 2
-    - id: coverage
-      weight: 2
-    - id: debugging
-      weight: 2
-    - id: integration tests
+    - id: authentication
       weight: 2
   objects:
     - id: other AL Runner
@@ -102,6 +108,8 @@ footprint:
     - id: other MsDyn365Bc.On.Linux
       weight: 2
     - id: codeunit CertificateOfSupplyPartiallyShippedOrder
+      weight: 1
+    - id: codeunit Codeunit.Run
       weight: 1
     - id: codeunit SalesLineReserve
       weight: 1
@@ -115,16 +123,14 @@ footprint:
       weight: 1
     - id: other AL Language Tests
       weight: 1
-    - id: other AL-Go
-      weight: 1
   features: []
-first_item: "2026-03-16"
+first_item: "2026-02-20"
 last_item: "2026-09-10"
 ---
 
 # Stefan Maron
 
-> Stefan Maron (MVP): 16 posts in the knowledge base, 2026-03-16 to 2026-09-10, mostly about development, platform, administration.
+> Stefan Maron (MVP): 22 posts in the knowledge base, 2026-02-20 to 2026-09-10, mostly about development, platform, integration.
 
 [https://stefanmaron.com](https://stefanmaron.com) · blog · tier community
 
@@ -132,24 +138,24 @@ last_item: "2026-09-10"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (31) | testing (9) | other AL Runner (5) |
-| platform (17) | al runner (8) | other BusinessCentral.AL.Language.Tests (3) |
-| administration (4) | ci/cd (3) | other bc-code-atlas (2) |
-| integration (3) | docker (3) | other MsDyn365Bc.On.Linux (2) |
-| copilot (1) | performance (3) | codeunit CertificateOfSupplyPartiallyShippedOrder (1) |
-| reporting (1) | al compiler (2) | codeunit SalesLineReserve (1) |
-|  | ci/cd pipeline (2) | codeunit test codeunits (1) |
-|  | coverage (2) | codeunit Test codeunits (1) |
-|  | debugging (2) | enum fixture enums (1) |
-|  | integration tests (2) | interface fixture interface (1) |
+| development (42) | testing (9) | other AL Runner (5) |
+| platform (23) | al runner (8) | other BusinessCentral.AL.Language.Tests (3) |
+| integration (7) | al development (5) | other bc-code-atlas (2) |
+| administration (5) | claude code (4) | other MsDyn365Bc.On.Linux (2) |
+| copilot (2) | docker (4) | codeunit CertificateOfSupplyPartiallyShippedOrder (1) |
+| reporting (1) | ci/cd (3) | codeunit Codeunit.Run (1) |
+|  | ci/cd pipeline (3) | codeunit SalesLineReserve (1) |
+|  | performance (3) | codeunit test codeunits (1) |
+|  | al compiler (2) | codeunit Test codeunits (1) |
+|  | authentication (2) | enum fixture enums (1) |
+|  |  | interface fixture interface (1) |
 |  |  | other AL Language Tests (1) |
-|  |  | other AL-Go (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: * 1
+- 2026-Q1: ******* 7
 - 2026-Q2: ** 2
 - 2026-Q3: ************* 13
 
@@ -171,5 +177,9 @@ Items per quarter, oldest first:
 - [You don't need the base app to run your unit tests](../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (2026-05-24)
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (2026-04-24)
 - [Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)](../posts/stefanmaron-com/https-stefanmaron-com-posts-swappable-claude-profiles-container-mounting-part-3--414f9f698f.md) (2026-03-16)
+- [Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)](../posts/stefanmaron-com/https-stefanmaron-com-posts-claude-code-standalone-docker-sandbox--cc7ff659fa.md) (2026-03-04)
+- [Introducing ALCops — LinterCop's Next Chapter](../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (2026-02-27)
+- [Optimizing BC Code History Downloads with HTTP Range Requests](../posts/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb.md) (2026-02-27)
+- [Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)](../posts/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e.md) (2026-02-24)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

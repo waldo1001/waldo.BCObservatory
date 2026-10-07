@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ad1cff2873a33a13fa6343d75327dee0694d96f2d5736d7b719375609a624407
+  input_hash: aa59a654189c4f5226c26bb94a8ab931d7999f978fa0dca55b79d5d38b4b4c8e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/CRM/RoleCenters/SalesAndRelationshipManager.Profile.al

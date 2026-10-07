@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7cd292b13ff6612b4bb067c1be5b2784ea9f4056b2c99dac6be027820439f938
@@ -80,10 +80,8 @@ links:
   topics:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
-  videos:
-    - video/zy-Tg9bBtHc
-  posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -95,8 +93,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 1
-  blog: 1
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms:
   - 15
@@ -131,13 +129,6 @@ Path: [Business functionality](../../business-functionality.md) > [Warehouse man
 - [Pick items for warehouse shipment](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment): Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
 - [Picking and Shipping in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-picking-and-shipping-in-basic-warehousing): This article describes various levels of complexity in picking and shipping processes.
 - [Ship items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items): This article describes how to ship items from your warehouse.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785.md) (community post): "send shipment confirmations and return documentation directly from the system"
-- [What's New: E-Documents and E-Shipments (2025 release wave 2)](../../../../videos/zy-Tg9bBtHc.md) (video): "E-Shipments; E-Transfer Shipments; Sales Shipment E-Documents"
 
 ## Business Central pages and reports
 

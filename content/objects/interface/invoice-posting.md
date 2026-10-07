@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b41eb6608e9cf4ff7edd160ba4ded09cff39310fd199f1ae6554d88d0d82906c
+  input_hash: cf7f0917c4ac51bacef83ef309c64469669069a03ee121f2e6e80e31da51e660
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al

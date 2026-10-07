@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,7 +121,6 @@ links:
     - video/lcy36b9GS38
     - video/Sc8eGyMkBTA
     - video/t_UXxbvgnHY
-    - video/uan4dV9eVCA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -134,7 +133,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 8
+  video: 7
   blog: 0
   guideline: 0
 bc_forms:
@@ -237,7 +236,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)](../../../../videos/lcy36b9GS38.md) (video): "Value Chain with Item Charges scope three emissions carbon footprint value chain automation"
 - [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../../../../videos/Sc8eGyMkBTA.md) (video): "Value Chain Automation in Projects; Scope Three Coverage via Value Chain"
 - [What's new in Sustainability (2026 release wave 2)](../../../../videos/t_UXxbvgnHY.md) (video): "Value chain emissions in item journals; Scope three tracking by item tracking level"
-- [End To End Sustainability Tracking and Reporting for SMBs](../../../../videos/uan4dV9eVCA.md) (video): "Three Emission Scopes Coverage; Emissions Formulas; ERP Integration for Sustainability"
 
 ## Business Central pages and reports
 

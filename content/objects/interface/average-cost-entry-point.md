@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 641fbd38cdd04fa874d6f8cf65b1550f2110dabf652b0f782b597965738e5740
+  input_hash: 2ee1cb4d44ce52a2baec0cf362793653622706c07ce0d1f27688a74453a22411
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al

@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/bertverbeek-nl/1219",
+  "url": "https://www.bertverbeek.nl/blog/2026/02/10/agents-in-business-central-part-1-the-architecture/",
+  "title": "Agents in Business Central – part 1 – the architecture",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-02-10T07:46:50.000Z",
+  "words": 571,
+  "summary": "Agents in Business Central 27.4 allow you to create custom agents that process tasks asynchronously using an orchestrator architecture. The post explains how agents are triggered via task creation, how the orchestrator manages execution with separate sessions and transactions, and how to handle incoming and outgoing messages programmatically.",
+  "key_points": [
+    "Custom agents require enabling the feature, assigning AGENT-ADMIN permissions, and setting up billing in a sandbox environment",
+    "Agents are triggered by creating tasks using AgentTaskBuilder codeunit, with the orchestrator handling asynchronous execution in separate sessions",
+    "Tasks can be managed (restarted, stopped, status checked) and support conversation tracking with message IDs for reply threads",
+    "Incoming messages are processed via Job Queue triggers and can include attachments using AgentTaskMessageBuilder",
+    "Outgoing messages must be retrieved by status and type, processed, and marked as Sent using the Agent Message codeunit"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "agents",
+    "architecture",
+    "task processing",
+    "messaging",
+    "job queue",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent Task Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Message Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Message"
+    }
+  ],
+  "features": [
+    "Custom agents",
+    "Agent task creation",
+    "Asynchronous execution",
+    "Message handling",
+    "Conversation tracking",
+    "Job Queue integration"
+  ],
+  "versions": [
+    "27.4"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Since Business Central 27.4 minor update you can create your own agents inside Business Central.",
+      "why_it_matters": "Establishes when custom agents became available and marks the beginning of the feature capability"
+    },
+    {
+      "text": "Each task can be seen as a separate user session, thus uncommitted data may not be viewable and concurrent modifications can collide.",
+      "why_it_matters": "Important architectural consideration for developers implementing agent tasks to avoid data consistency issues"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

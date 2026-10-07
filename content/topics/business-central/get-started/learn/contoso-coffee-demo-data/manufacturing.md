@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1b5b2ee869d6962a6e536761b8c976881e41514387dbc09e866ec650c164f305
@@ -112,8 +112,7 @@ links:
   topics:
     - topic/business-central/get-started/learn/contoso-coffee-demo-data
   localizations: []
-  videos:
-    - video/Ug_uM59DRRE
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -127,7 +126,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -155,12 +154,6 @@ Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contos
 - [Use different component supply methods in subcontracting](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods): Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
 - [Use Order Planning to Create and Reserve Supply](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply): Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
 - [Variants](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants): Learn how to update a demand forecast for each variant of a product in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Demo or Disaster? How to build better Business Central demos?](../../../../../videos/Ug_uM59DRRE.md) (video): "Contoso Coffee demo data framework; Demo data module codeunit pattern"
 
 ## Business Central pages and reports
 

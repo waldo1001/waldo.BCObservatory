@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/02/10/agents-in-business-central-part-1-the-architecture/",
   "published_at": "2026-02-10T07:46:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:02:40.925Z",
+      "path": "vault:posts/bertverbeek-nl/1219.md",
+      "words": 571
+    },
+    "extracted": {
+      "at": "2026-10-07T01:02:41.034Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:02:41.035Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:02:41.036Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:02:41.082Z",
+      "path": "content/posts/bertverbeek-nl/1219.md"
     }
   },
   "input_hash": "2026-02-25T10:23:56.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79b9cc1182b1e32efc1766e24a61efe73000cc61fef576f746d501c4781db322"
 }

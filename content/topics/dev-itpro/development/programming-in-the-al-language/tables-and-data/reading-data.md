@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -74,7 +74,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/demiliani-com/13931
     - post/demiliani-com/14031
   guidelines: []
 learn_toc_path:
@@ -89,7 +88,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -115,7 +114,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: Using Semantic Search from AL](../../../../../posts/demiliani-com/13931.md) (community post): "Semantic search converts text into numerical embeddings"
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "Record.ReadIsolation method controls database transaction isolation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

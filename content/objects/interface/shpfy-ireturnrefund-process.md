@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 13bbc0e3e682b232a801fe008e5a2932a4a5f3524da46b6f3695a13a6537b18e
+  input_hash: 866666c6a0ce0849fbab1e7b8168097674e0a449a660f2fd156ca2b7b7b1075c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al

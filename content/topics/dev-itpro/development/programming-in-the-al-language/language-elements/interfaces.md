@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1df987552c2acc93942b6b62fb884791969f7b91f6e38fa7b5191b87c8d7fd15
@@ -58,7 +58,6 @@ links:
   localizations: []
   videos:
     - video/D_Lur52IrIg
-    - video/EurgqGU1jG0
     - video/H_PHi8pe53w
     - video/PHmFqehrPG4
   posts:
@@ -75,7 +74,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 4
+  video: 3
   blog: 1
   guideline: 0
 bc_forms: []
@@ -102,7 +101,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815.md) (community post): "Interfaces can now provide default method bodies, preventing immediate breaking changes"
 - [What's new in AL and Tools (2026 release wave 2)](../../../../../videos/D_Lur52IrIg.md) (video): "interface design; default implementation; public resources"
-- [20260504 - Super fast tests covering 100% of your code](../../../../../videos/EurgqGU1jG0.md) (video): "interfaces; context interfaces pattern; environment interfaces"
 - [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "default implementation for al interfaces; required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"
 

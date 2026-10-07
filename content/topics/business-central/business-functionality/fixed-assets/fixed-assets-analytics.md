@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d7628eebba5bae320d040228663b9ef2ab51febfaf9ea360a4e634bf83941f4d
@@ -260,8 +260,7 @@ links:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/fixed-assets-reports
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed
   localizations: []
-  videos:
-    - video/LKt0K-EdiX0
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -277,7 +276,7 @@ children:
 coverage:
   learn: 33
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -349,12 +348,6 @@ Path: [Business functionality](../../business-functionality.md) > [Fixed assets]
 
 - [Ad-hoc analysis of fixed assets data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa): Learn how to use the data analysis mode to analyze fixed assets data.
 - [Fixed assets analytics](https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview): Learn how to gather, analyze, and share data about fixed assets for business intelligence.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Fixed Assets (2026 release wave 1)](../../../../videos/LKt0K-EdiX0.md) (video): "Bonus depreciation method; Fixed Asset Setup fields for bonus depreciation"
 
 ## Business Central pages and reports
 

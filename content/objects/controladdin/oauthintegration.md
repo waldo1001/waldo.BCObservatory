@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5d7ebace9f77b4a3dadeb0265e2f649a990db374f303af129d8f1ce4f06c1d59
+  input_hash: 5b2f8de69e179b0e906e06201316787edc6ae4f70648abbd52fde42d78672a32
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b2c40b9702752dd2381c274a9698ba9779507174447929d3dd6a66d362a686f1
@@ -311,8 +311,7 @@ links:
     - topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed
   localizations: []
   videos: []
-  posts:
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -329,7 +328,7 @@ coverage:
   learn: 56
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 516
@@ -409,12 +408,6 @@ Path: [Business functionality](../../business-functionality.md) > [Inventory](..
 
 - [Ad-hoc analysis of inventory data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory): Learn how to use the data analysis mode to analyze inventory data.
 - [Inventory analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your inventory for business intelligence and decision-making in your organization.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/.md) (community post): "new Item - ABC Analysis report in BC28 classifies inventory"
 
 ## Business Central pages and reports
 

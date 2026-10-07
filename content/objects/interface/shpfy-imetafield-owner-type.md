@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3e112d9f650ebbf7057525c66113958d20e3c3bf1e9cecf19c7c77b2e71500d2
+  input_hash: 6d9c2107f3db837214423bb596b071befa583a1a49b7ea3ea0e13de6c79398d8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Metafields/Interfaces/ShpfyIMetafieldOwnerType.Interface.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7235df35f2886cdf6a6c65d38c309287b05e0df74ad95979784b7cf9ca819d58
+  input_hash: bfa9531cc9a39c3d281f9615e2951a9d15be49a6a6c77d3c6a6e7c6f529c3122
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al

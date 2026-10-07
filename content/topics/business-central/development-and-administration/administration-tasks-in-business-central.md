@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3f2456115d6fa27a4b4e38563219b1c37151040e5665082f3a513513d861621c
@@ -281,9 +281,7 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
   localizations: []
-  videos:
-    - video/n4qog_IpKqw
-    - video/Ty6ZvzJYAvI
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -298,7 +296,7 @@ children:
 coverage:
   learn: 34
   code: 0
-  video: 2
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -433,13 +431,6 @@ Path: [Development and administration](../development-and-administration.md) > A
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
 - [Specify available languages in your environment](https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages): Learn how to build a list of the languages that are available in your Business Central environment.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [BCTalent Stories: Navitrans](../../../videos/n4qog_IpKqw.md) (video): "Business Central adoption; consultant training; professional certification"
-- [Episode 521: 50 Developers, Zero Playbook: The Leadership Conversation Nobody's Having](../../../videos/Ty6ZvzJYAvI.md) (video): "AI agents for administration; Telemetry component in administration"
 
 ## Business Central pages and reports
 

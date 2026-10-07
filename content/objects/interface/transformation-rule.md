@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fe68abeb09edd4a3e4108c962906c534b049de7830164083e45d392119b1a226
+  input_hash: 71e61895e2fce15b90a3cd22a403e8e8226f7e7fbb00f26f594167708bee7a11
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/System/DataExchange/Transformations/TransformationRule.Interface.al

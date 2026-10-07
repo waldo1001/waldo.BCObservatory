@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6fbc3e40e9fa05456c1368572b52724cdd9d38f42d8d79b7007dc1c7c38e4abe
+  input_hash: df14386a06a6ce26198dbc6ee89e57afbc3a664007390d4383dfa8a38a00d2c8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Products/Interfaces/ShpfyIRemoveProductAction.Interface.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fa646f53fa15eeeaba5a5174d4e75ea4e399669a3191a4bf7c1a9761f2b20638
+  input_hash: a7023339873b4cd7e417fce5350ff3887517c52784a4e7c3677f107a122d7e81
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3e681f12053ed41871ae21d7270263821d2e64f833d78433d94d1612da09caf7
@@ -317,8 +317,6 @@ links:
     - video/f_i4_BRz-oA
     - video/Gwgpj1U1wxI
     - video/lCXrKdxneKo
-    - video/no1mmnPfyNY
-    - video/zE6uElxwSMQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -334,7 +332,7 @@ children:
 coverage:
   learn: 47
   code: 0
-  video: 6
+  video: 4
   blog: 0
   guideline: 0
 bc_forms:
@@ -372,8 +370,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking; Upgrade Progress Tracking"
 - [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
 - [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade to Version 21; Direct Cloud Migration"
-- [20260615 - Are We There Yet? The Journey from NAV to Business Central](../../../videos/no1mmnPfyNY.md) (video): "Navision to BC migration; Extensions concept; App Store model; SaaS version"
-- [Carglass Sweden](../../../videos/zE6uElxwSMQ.md) (video): "cloud migration; Cloud-based Business Central ERP"
 
 ## Business Central pages and reports
 

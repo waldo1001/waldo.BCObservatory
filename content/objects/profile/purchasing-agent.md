@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e1cb097295ed7122940c6cceb7e491cb5bb80c557236699c13c18766077f16e4
+  input_hash: e7a3a91d0c93b9f71dcaee9e3c8318edea94e05fd546e5b7c4822af0266be46e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgent.Profile.al

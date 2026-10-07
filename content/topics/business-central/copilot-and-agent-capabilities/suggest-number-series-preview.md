@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,6 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/6SyNNeHQDUo
     - video/MpDKjl7zzdk
   posts: []
   guidelines: []
@@ -55,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -97,7 +96,6 @@ Start with the how-to page to learn the workflow, then read the FAQ to understan
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Co-Development Initiative (2024 release wave 2)](../../../videos/6SyNNeHQDUo.md) (video): "Copilot-Assisted Number Series Setup"
 - [What's New: Suggest Number Series with Copilot (2024 release wave 2)](../../../videos/MpDKjl7zzdk.md) (video): "Suggest Number Series with Copilot; number series; ai-generated content"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

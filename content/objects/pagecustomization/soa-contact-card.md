@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 42d8565450d37554f740b6e71bed3331bee3ed3261f186115fa771f9b21d2776
+  input_hash: bf7402154a3fe1b968d9398cd51bd2f78622898d5a3e5fe91129188ec5952a7d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAContactCard.PageCust.al

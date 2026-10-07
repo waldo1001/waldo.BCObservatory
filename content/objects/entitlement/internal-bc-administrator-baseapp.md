@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: de6505b0d974f187aea03e2e6f1b8a19db64b1b98fe0db3248368df730647d65
+  input_hash: 4b679ec55cb9d902046195307f6f1a179446fff36408bf9cdaa6773f9eb9db46
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/InternalBCAdministratorBaseApp.Entitlement.al

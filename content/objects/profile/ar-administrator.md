@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b1e29e53ead7af62e6bd63ccb10828179cc9fc4fc4cc50119e89701a6a408f77
+  input_hash: ee1fc52594d9a96ae83af9e2b60cf26774fbd33dbd184655502c1c554788906b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al

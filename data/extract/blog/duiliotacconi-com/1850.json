@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/duiliotacconi-com/1850",
+  "url": "https://duiliotacconi.com/2026/02/10/rec-truncate-in-al/",
+  "title": "Rec.Truncate in AL",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-02-10T16:34:20.000Z",
+  "words": 1186,
+  "summary": "Rec.Truncate is a new AL statement that rapidly deletes all records from a table by unlinking database pages instead of removing rows one by one. It works best when deleting 50-60% or more of a table's content without filters, but falls back to slower row-by-row deletion if constraints are not met, such as when filters are applied, security filters exist, or the table has media fields or marked records.",
+  "key_points": [
+    "Rec.Truncate is based on SQL Server TRUNCATE TABLE and can delete large tables in milliseconds when all conditions are met",
+    "It does not work efficiently with filters; truncate without filters deletes 50K records far faster than DeleteAll, but with filters it becomes dramatically slower",
+    "The statement has multiple constraints: it cannot be used on system/virtual tables, fails if security filters are active, subscribers to OnBeforeDelete/OnAfterDelete exist, or Media fields are present",
+    "Truncate becomes advantageous when deleting at least 50-60% of table content; deleting less than that negates its benefits due to the overhead of saving and restoring records to keep",
+    "Best use cases are staging tables and log tables that are either completely emptied for refilling or kept entirely, not partial deletions"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "rec.truncate",
+    "al statement",
+    "table deletion",
+    "performance",
+    "sql server",
+    "database optimization",
+    "constraints"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Rec.Truncate"
+    }
+  ],
+  "features": [
+    "Rec.Truncate statement",
+    "Fast table clearing",
+    "Filtered deletion",
+    "Security filters",
+    "OnBeforeDelete/OnAfterDelete events",
+    "Media field handling",
+    "FlowField filters",
+    "Database page management"
+  ],
+  "versions": [
+    "BC27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "when cleaning a table with few indexes, the truncate method becomes advantageous if deleting at least 50% - 60% of the content",
+      "why_it_matters": "Provides the critical threshold at which truncate outperforms DeleteAll, essential for deciding which method to use"
+    },
+    {
+      "text": "If filtered, check the number of records to be deleted and decide what to do.",
+      "why_it_matters": "Highlights that truncate with filters requires careful analysis because it can become slower than DeleteAll when deleting small portions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

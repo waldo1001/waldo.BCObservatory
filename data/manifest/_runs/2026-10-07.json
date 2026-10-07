@@ -1,8 +1,8 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-06T23:39:50.809Z",
-  "finished_at": "2026-10-07T00:22:47.995Z",
-  "status": "ok",
+  "started_at": "2026-10-07T01:01:30.439Z",
+  "finished_at": "2026-10-07T01:18:20.158Z",
+  "status": "partial",
   "pipeline": "0.2.0",
   "runner": {
     "node": "v22.22.3",
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 17294
+        "duration_ms": 7568
       },
       {
         "id": "learn-devitpro",
@@ -47,7 +47,7 @@
           "removed": 0
         },
         "note": "5893 pages at cb233a9a87b9",
-        "duration_ms": 15642
+        "duration_ms": 9952
       },
       {
         "id": "m365-roadmap",
@@ -60,8 +60,8 @@
           "unchanged": 80,
           "removed": 0
         },
-        "note": "80 Business Central items of 1889; snapshot unchanged",
-        "duration_ms": 3615
+        "note": "80 Business Central items of 1900; snapshot unchanged",
+        "duration_ms": 420
       },
       {
         "id": "bcquality",
@@ -75,7 +75,7 @@
           "removed": 0
         },
         "note": "435 pages at 86d809b5252a",
-        "duration_ms": 2636
+        "duration_ms": 782
       },
       {
         "id": "alguidelines",
@@ -89,7 +89,7 @@
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 866
+        "duration_ms": 710
       },
       {
         "id": "bcapps",
@@ -97,13 +97,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 1,
+          "changed": 0,
           "updated": 0,
-          "unchanged": 2,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 1273
+        "duration_ms": 761
       },
       {
         "id": "sandbox-history",
@@ -117,7 +117,7 @@
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 709
+        "duration_ms": 720
       },
       {
         "id": "onprem-history",
@@ -131,119 +131,119 @@
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 758
+        "duration_ms": 620
       },
       {
         "id": "yt-microsoft",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 266
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
+        "duration_ms": 106
       },
       {
         "id": "yt-hougaard",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 210
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
+        "duration_ms": 82
       },
       {
         "id": "yt-saurav",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 404
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
+        "duration_ms": 25
       },
       {
         "id": "yt-areopa",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 227
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
+        "duration_ms": 27
       },
       {
         "id": "yt-mibuso",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 153
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+        "duration_ms": 29
       },
       {
         "id": "yt-stefanmaron",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 196
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
+        "duration_ms": 26
       },
       {
         "id": "yt-bcmusings",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 160
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
+        "duration_ms": 26
       },
       {
         "id": "yt-dynamicscorner",
         "kind": "youtube",
-        "ok": true,
+        "ok": false,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 15,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 150
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
+        "duration_ms": 27
       },
       {
         "id": "waldo-be",
@@ -257,7 +257,7 @@
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 418
+        "duration_ms": 394
       },
       {
         "id": "stefanmaron-com",
@@ -271,7 +271,7 @@
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 413
+        "duration_ms": 362
       },
       {
         "id": "kauffmann-nl",
@@ -285,7 +285,7 @@
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 852
+        "duration_ms": 450
       },
       {
         "id": "demiliani-com",
@@ -299,7 +299,7 @@
           "removed": 0
         },
         "note": "89 posts via WordPress REST",
-        "duration_ms": 492
+        "duration_ms": 480
       },
       {
         "id": "freddysblog",
@@ -313,7 +313,7 @@
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 258
+        "duration_ms": 263
       },
       {
         "id": "jpearson-blog",
@@ -327,7 +327,7 @@
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 354
+        "duration_ms": 275
       },
       {
         "id": "katson-com",
@@ -341,7 +341,7 @@
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 1146
+        "duration_ms": 825
       },
       {
         "id": "sauravdhyani-com",
@@ -355,7 +355,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 409
+        "duration_ms": 432
       },
       {
         "id": "gerardorenteria-blog",
@@ -369,7 +369,7 @@
           "removed": 0
         },
         "note": "79 posts via WordPress REST",
-        "duration_ms": 558
+        "duration_ms": 379
       },
       {
         "id": "bertverbeek-nl",
@@ -383,7 +383,7 @@
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 941
+        "duration_ms": 887
       },
       {
         "id": "kine-cz",
@@ -397,7 +397,7 @@
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 269
+        "duration_ms": 273
       },
       {
         "id": "keytogoodcode-com",
@@ -426,7 +426,7 @@
           "removed": 0
         },
         "note": "10 posts via WordPress REST",
-        "duration_ms": 799
+        "duration_ms": 1104
       },
       {
         "id": "mohana-blog",
@@ -440,7 +440,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 569
+        "duration_ms": 404
       },
       {
         "id": "duiliotacconi-com",
@@ -454,7 +454,7 @@
           "removed": 0
         },
         "note": "20 posts via WordPress REST",
-        "duration_ms": 424
+        "duration_ms": 301
       },
       {
         "id": "thinkaboutit-be",
@@ -468,7 +468,7 @@
           "removed": 0
         },
         "note": "61 posts via WordPress REST",
-        "duration_ms": 937
+        "duration_ms": 2042
       },
       {
         "id": "thatnavguy-com",
@@ -482,7 +482,7 @@
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 241
+        "duration_ms": 198
       },
       {
         "id": "dvlprlife-com",
@@ -496,7 +496,7 @@
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 252
+        "duration_ms": 240
       },
       {
         "id": "tine-staric-net",
@@ -510,7 +510,7 @@
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 564
+        "duration_ms": 304
       },
       {
         "id": "aardvarklabs-blog",
@@ -524,7 +524,7 @@
           "removed": 0
         },
         "note": "81 posts via WordPress REST",
-        "duration_ms": 369
+        "duration_ms": 1146
       },
       {
         "id": "vondervoort-be",
@@ -538,7 +538,7 @@
           "removed": 0
         },
         "note": "6 posts via WordPress REST",
-        "duration_ms": 1246
+        "duration_ms": 3328
       },
       {
         "id": "thedynamicsexplorer-com",
@@ -552,7 +552,7 @@
           "removed": 0
         },
         "note": "19 posts via WordPress REST",
-        "duration_ms": 349
+        "duration_ms": 2741
       },
       {
         "id": "vld-bc-com",
@@ -567,7 +567,7 @@
         },
         "deferred": true,
         "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
-        "duration_ms": 0
+        "duration_ms": 1
       },
       {
         "id": "wingate-combined",
@@ -637,17 +637,17 @@
           }
         ],
         "note": "50 digest entries, 9 unregistered hosts",
-        "duration_ms": 3458
+        "duration_ms": 3481
       }
     ],
     "totals": {
       "sources": 40,
-      "failed": 0,
+      "failed": 8,
       "deferred": 2,
       "new": 0,
-      "changed": 1,
+      "changed": 0,
       "updated": 0,
-      "unchanged": 9525,
+      "unchanged": 9406,
       "removed": 0
     }
   },
@@ -661,28 +661,19 @@
       "code_jobs": 100000,
       "hub_refresh": 50000,
       "roadmap_links": 50000,
-      "topic_links": 100000,
+      "topic_links": 50000,
+      "topic_reviews": 50000,
       "coverage_reviews": 50000,
       "opus_reviews": 50000,
       "llm_calls_max": 50000
     },
-    "work": 374,
-    "executed": 52,
+    "work": 281,
+    "executed": 11,
     "skips": 0,
     "quota_use": {
       "posts": {
-        "selected": 348,
-        "available": 348,
-        "limit": 50000
-      },
-      "docs": {
-        "selected": 24,
-        "available": 24,
-        "limit": 50000
-      },
-      "video_extract": {
-        "selected": 1,
-        "available": 1,
+        "selected": 280,
+        "available": 280,
         "limit": 50000
       },
       "code_jobs": {
@@ -694,140 +685,124 @@
     "note": "stopped: memory"
   },
   "llm": {
-    "calls": 1158,
-    "cache_hits": 16,
+    "calls": 191,
+    "cache_hits": 6,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 1071,
-      "claude-sonnet-5-5": 20,
-      "claude-opus-5-5": 67
+      "claude-haiku-4-5-20251001": 14,
+      "claude-opus-5-5": 177
     },
-    "cost_usd": 25.16139790000001,
+    "cost_usd": 8.726270000000005,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 1071,
-        "input": 522549,
-        "output": 530007,
-        "cache_read": 73729,
-        "cache_creation": 7761759,
-        "cost_usd": 18.703474900000018
-      },
-      "claude-sonnet-5-5": {
-        "calls": 20,
-        "input": 56,
-        "output": 81151,
-        "cache_read": 325093,
-        "cache_creation": 656406,
-        "cost_usd": 3.5022646
+        "calls": 14,
+        "input": 3955,
+        "output": 6247,
+        "cache_read": 0,
+        "cache_creation": 142796,
+        "cost_usd": 0.320782
       },
       "claude-opus-5-5": {
-        "calls": 67,
-        "input": 134,
-        "output": 61004,
-        "cache_read": 35532,
-        "cache_creation": 215992,
-        "cost_usd": 2.9556583999999995
+        "calls": 177,
+        "input": 354,
+        "output": 156244,
+        "cache_read": 0,
+        "cache_creation": 659899,
+        "cost_usd": 8.405488000000002
       }
     },
-    "day_cost_usd": 25.161398
+    "day_cost_usd": 33.887668
   },
   "spend": {
-    "today_usd": 0,
+    "today_usd": 25.161398,
     "week_before_usd": 12.3225,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99987.6775,
+    "allowance_usd": 99962.516102,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 1,
+  "items_changed": 0,
   "errors": [
+    "yt-microsoft: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
+    "yt-hougaard: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
+    "yt-saurav: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
+    "yt-areopa: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "yt-mibuso: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+    "yt-stefanmaron: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
+    "yt-bcmusings: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
+    "yt-dynamicscorner: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
     "localization dk narrative: enum must have non-empty array",
     "localization in narrative: enum must have non-empty array",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826 fetched: The operation was aborted due to timeout",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104 fetched: The operation was aborted due to timeout",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419 fetched: The operation was aborted due to timeout",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4842738910605275102 fetched: The operation was aborted due to timeout",
-    "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5505178199606845450 fetched: web lane: fetched took longer than 180 s",
-    "blog/demiliani-com/13512 fetched: The operation was aborted due to timeout",
-    "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/ fetched: web lane: fetched took longer than 180 s",
-    "blog/thinkaboutit-be/7650 fetched: The operation was aborted due to timeout",
-    "content: localizations/at.md: broken link ?ns=Purchases",
-    "content: localizations/at.md: broken link ?ns=Finance",
-    "content: localizations/at.md: broken link ?ns=Inventory",
-    "content: localizations/at.md: broken link ?ns=Foundation",
-    "content: localizations/at.md: broken link ?ns=FixedAssets",
-    "content: localizations/at.md: broken link ?ns=(no namespace",
-    "content: localizations/at.md: broken link ?ns=Security",
-    "content: localizations/at.md: broken link ?ns=CRM",
-    "content: localizations/at.md: broken link ?ns=Sales",
-    "content: localizations/at.md: broken link ?ns=Bank",
-    "content: localizations/at.md: broken link ?ns=Manufacturing",
-    "content: localizations/at.md: broken link ?ns=Microsoft",
-    "content: localizations/at.md: broken link ?ns=Utilities",
-    "content: localizations/au.md: broken link ?ns=Finance",
-    "content: localizations/au.md: broken link ?ns=Purchases",
-    "content: localizations/au.md: broken link ?ns=Sales",
-    "content: localizations/au.md: broken link ?ns=Foundation",
-    "content: localizations/au.md: broken link ?ns=Bank",
-    "content: localizations/au.md: broken link ?ns=Inventory",
-    "content: localizations/au.md: broken link ?ns=Text"
+    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234 fetched: The operation was aborted due to timeout",
+    "blog/demiliani-com/13369 fetched: The operation was aborted due to timeout",
+    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/ fetched: The operation was aborted due to timeout",
+    "blog/jpearson-blog/1590 fetched: The operation was aborted due to timeout",
+    "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790, which has no page",
+    "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790.md",
+    "content: topics/business-central/business-functionality/finance/working-with-currencies.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885, which has no page",
+    "content: topics/business-central/business-functionality/finance/working-with-currencies.md: broken link ../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885.md",
+    "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/, which has no page",
+    "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: broken link ../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md",
+    "content: topics/business-central/business-functionality/inventory.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129, which has no page",
+    "content: topics/business-central/business-functionality/inventory.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/, which has no page",
+    "content: topics/business-central/business-functionality/inventory.md: broken link ../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md",
+    "content: topics/business-central/business-functionality/inventory.md: broken link ../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md",
+    "content: topics/business-central/business-functionality/planning.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
+    "content: topics/business-central/business-functionality/planning.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
+    "content: topics/business-central/business-functionality/purchasing.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190, which has no page",
+    "content: topics/business-central/business-functionality/purchasing.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
+    "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190.md",
+    "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
+    "content: topics/business-central/business-functionality/sales.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
+    "content: topics/business-central/business-functionality/sales.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
+    "content: topics/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027, which has no page",
+    "content: topics/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ.md: broken link ../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md"
   ],
+  "catch_up": "2026-10-10",
   "captions_retried": 0,
-  "checkpoints": 3,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "memory",
     "deadline": "2026-10-07T04:35:00.000Z",
-    "items_touched": 52,
+    "items_touched": 11,
     "stages_run": {
-      "video:extracted": 1,
-      "blog:fetched": 15,
-      "blog:extracted": 18,
-      "blog:summarized": 18,
-      "blog:linked": 18,
-      "blog:published": 18,
-      "code:fetched": 1,
-      "docs:extracted": 24,
-      "docs:summarized": 24,
-      "docs:linked": 24,
-      "docs:published": 24,
+      "blog:fetched": 6,
+      "blog:extracted": 6,
+      "blog:summarized": 6,
+      "blog:linked": 6,
+      "blog:published": 6,
       "code:extracted": 1
     },
-    "advanced": 185,
-    "skipped": 1,
-    "failed_attempts": 8,
+    "advanced": 31,
+    "skipped": 0,
+    "failed_attempts": 4,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 330,
+    "parked": 277,
     "quota_charged": {
-      "video_extract": 1,
-      "docs": 24,
-      "posts": 26,
+      "posts": 10,
       "code_jobs": 1
     },
     "regards": [],
     "errors": [
-      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826 fetched: The operation was aborted due to timeout",
-      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104 fetched: The operation was aborted due to timeout",
-      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419 fetched: The operation was aborted due to timeout",
-      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4842738910605275102 fetched: The operation was aborted due to timeout",
-      "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5505178199606845450 fetched: web lane: fetched took longer than 180 s",
-      "blog/demiliani-com/13512 fetched: The operation was aborted due to timeout",
-      "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/ fetched: web lane: fetched took longer than 180 s",
-      "blog/thinkaboutit-be/7650 fetched: The operation was aborted due to timeout"
+      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234 fetched: The operation was aborted due to timeout",
+      "blog/demiliani-com/13369 fetched: The operation was aborted due to timeout",
+      "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/ fetched: The operation was aborted due to timeout",
+      "blog/jpearson-blog/1590 fetched: The operation was aborted due to timeout"
     ],
-    "parked_left": 318
+    "parked_left": 266
   },
   "code": {
     "version_diffs": 2,
     "country_diffs": 46,
     "timelines": 19,
     "deprecations": 3,
-    "written": 45,
+    "written": 24,
     "relations": 3,
-    "matrix": true,
+    "matrix": false,
     "docs_objects": {
       "links": 5336,
       "missing": 213,
@@ -837,73 +812,71 @@
     },
     "narratives": {
       "ready": 22,
-      "refreshed": 20,
+      "refreshed": 0,
       "failed": 2,
       "waiting": [],
       "stopped": "done"
     },
     "pages": {
-      "objects": 16425,
-      "written": 16445,
+      "objects": 20744,
+      "written": 20764,
       "removed": 0,
-      "localizations": 22
+      "localizations": 22,
+      "own_objects": 4319
     }
   },
   "roadmap_links": {
     "units": 3970,
-    "stale": 3428,
-    "calls": 911,
-    "matched": 564,
-    "rejected": 33,
-    "related": 1640,
+    "stale": 0,
+    "calls": 0,
+    "matched": 0,
+    "rejected": 0,
+    "related": 0,
     "failed": 0,
-    "cost_usd": 13.360267900000022,
-    "rejections": [
-      "video/-vCiEloR61U f5 -> 573354: quote not verbatim: \"ModuleInfo is an AL type that provides information about an application or exten\"",
-      "video/9CW5mydS9Vs f21 -> 573334: quote not verbatim: \"MCP server for test execution enabling test execution through an MCP server\"",
-      "video/9ZmmQEpPyB4 f1 -> 573327: quote not verbatim: \"Brand document reports with report themes\"",
-      "video/9ZmmQEpPyB4 f1 -> 573326: quote not verbatim: \"composable layouts feature to get consistent look and feel\"",
-      "video/G0avZpiDFtI f2 -> 573322: quote not verbatim: \"Get URL AL Function with Layout Parameter constructing URLs that use the layout \"",
-      "video/IDYhxt-8ImI f23 -> 573312: quote not verbatim: \"AI agents to interact with Business Central APIs without requiring direct integr\"",
-      "video/KnyS6ZKI_2c f1 -> 573384: quote not verbatim: \"Steps Modification in Recording. Ability to define insertion points for steps, r\"",
-      "video/OLN-2Ec2GMM f7 -> 573313: quote not verbatim: \"Developers can now define field tooltips once at the table level and any page us\"",
-      "video/Sc8eGyMkBTA f1 -> 573374: quote not verbatim: \"posting purchase invoices for projects, the system generates two lines with sust\"",
-      "video/TH70oJI4Ae0 f2 -> 573332: quote not verbatim: \"table extension fields are stored in the same SQL server table as base table fie\""
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done",
     "classified": 0,
     "unclassified": 0,
     "pages": 697,
     "review": {
-      "candidates": 67,
-      "reviewed": 67,
-      "kept": 241,
-      "dropped": 597,
+      "candidates": 0,
+      "reviewed": 0,
+      "kept": 0,
+      "dropped": 0,
       "failed": 0,
-      "cost_usd": 2.9556583999999995,
+      "cost_usd": 0,
       "stopped": "done"
     }
   },
   "topic_links": {
-    "units": 880,
-    "stale": 880,
-    "calls": 155,
-    "matched": 1034,
-    "rejected": 248,
+    "units": 925,
+    "stale": 45,
+    "calls": 14,
+    "matched": 61,
+    "rejected": 8,
     "failed": 0,
-    "cost_usd": 5.245251000000001,
+    "cost_usd": 0.320782,
     "rejections": [
-      "video/5E6ikveL6N0 -> topic/business-central/business-functionality/finance/manage-inventory-costs: quote not verbatim: \"Inventory Posting Groups; Product Posting Groups; item classification\"",
-      "video/NPhOSQTheXw -> t183: not a candidate of this item",
-      "video/O2RPBlr_GiE -> topic/business-central/business-functionality/finance/manage-payables: quote not verbatim: \"accounts payable aging; aged accounts payable report; aging reports\"",
-      "video/Of0Dw8V-4Yw -> t42: not a candidate of this item",
-      "video/QGG0dW6HqSg -> topic/business-central/business-functionality/finance/working-with-dimensions: quote not verbatim: \"dimensions mapping; intercompany dimensions mapping; dimensions\"",
-      "video/Ry9QvV6D7lg -> topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene: quote not verbatim: \"chart of accounts mapping; global dimensions configuration; dimensions\"",
-      "video/-SGaVGOkiF0 -> topic/business-central/business-functionality/finance/manage-receivables: quote not verbatim: \"customer payments; payment analysis; payment times\"",
-      "video/205F8ljmInU -> topic/business-central/business-functionality/local-functionality/denmark/vat: quote not verbatim: \"danish bookkeeping act; compliance; chart of accounts mapping\"",
-      "video/4EnvGMwbuBY -> t334: not a candidate of this item",
-      "video/4IumfDNN8GU -> topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene: quote not verbatim: \"posting groups; general ledger; chart of accounts\""
+      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/ -> t382: not a candidate of this item",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/ -> t381: not a candidate of this item",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/ -> t491: not a candidate of this item",
+      "post/aardvarklabs-blog/2936 -> t385: not a candidate of this item",
+      "post/demiliani-com/13442 -> t384: not a candidate of this item",
+      "post/demiliani-com/13442 -> t385: not a candidate of this item",
+      "post/gerardorenteria-blog/13623 -> t384: not a candidate of this item",
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/ -> t443: not a candidate of this item"
     ],
+    "stopped": "done"
+  },
+  "topic_reviews": {
+    "candidates": 237,
+    "calls": 177,
+    "reviewed": 237,
+    "kept": 522,
+    "dropped": 573,
+    "failed": 0,
+    "cost_usd": 8.405488000000002,
     "stopped": "done"
   },
   "hubs": {
@@ -919,13 +892,13 @@
     "review_backlog": 23
   },
   "content": {
-    "pages": 18049,
-    "errors": 495
+    "pages": 22412,
+    "errors": 96
   },
   "leak": {
     "vault": "scanned",
     "raw_docs": 675,
-    "files_scanned": 18985,
+    "files_scanned": 19080,
     "findings": 0,
     "blocked": false
   }

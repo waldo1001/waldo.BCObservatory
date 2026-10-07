@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 194e2f11f11c01c69a77d6adec2ece8f0a046e31253c78df1c253f2c9e08c7c5
@@ -137,7 +137,6 @@ links:
   localizations: []
   videos:
     - video/2430rfEywuI
-    - video/a4DaacZvOMM
     - video/Ry9QvV6D7lg
   posts: []
   guidelines: []
@@ -155,7 +154,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -188,7 +187,6 @@ Path: [Administration](../../administration.md) > [Migrate to Business Central o
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "gp assessment; migration planning; cloud migration; gp to business central"
-- [#BCTalent Stories: Sandlapper](../../../../videos/a4DaacZvOMM.md) (video): "gp to bc migration; certification; partner training; onboarding"
 - [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "gp migration; cloud migration; data migration; configuration pages; master data"
 
 ## Business Central pages and reports

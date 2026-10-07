@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -168,7 +168,7 @@ Adds the French payment management module: payment classes, statuses, steps, pay
 
 Why: Learn explains payment classes with statuses and steps that drive slips for vendors and customers, with SEPA export and archiving of processed slips.
 
-Objects: codeunit/10860 "Payment Management" (own), table/10865 "Payment Header" (own), table/10866 "Payment Line" (own), table/10860 "Payment Class" (own), codeunit/10801 "RIB Key" (own), [table/270 "Bank Account"](../objects/table/270.md), report/10883 "SEPA ISO20022" (own), [codeunit/1233 "SEPA DD-Check Line"](../objects/codeunit/1233.md).
+Objects: [codeunit/10860 "Payment Management"](../objects/codeunit/10860-fr.md) (own), [table/10865 "Payment Header"](../objects/table/10865-fr.md) (own), [table/10866 "Payment Line"](../objects/table/10866-fr.md) (own), [table/10860 "Payment Class"](../objects/table/10860-fr.md) (own), [codeunit/10801 "RIB Key"](../objects/codeunit/10801-fr.md) (own), [table/270 "Bank Account"](../objects/table/270.md), [report/10883 "SEPA ISO20022"](../objects/report/10883-fr.md) (own), [codeunit/1233 "SEPA DD-Check Line"](../objects/codeunit/1233.md).
 
 [All 69 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -178,7 +178,7 @@ Adds French G/L reports (journals, trial balances, account statement), FR accoun
 
 Why: Learn describes these as required French reports and tax audit exports, plus apply and unapply of G/L entries (flagged as being replaced).
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/17 "G/L Entry"](../objects/table/17.md), codeunit/10862 "Fiscal Year-FiscalClose" (own), report/10803 "G/L Trial Balance" (own), report/10820 "Export G/L Entries to XML" (own), xmlport/10800 "Export G/L Entries" (own).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/17 "G/L Entry"](../objects/table/17.md), [codeunit/10862 "Fiscal Year-FiscalClose"](../objects/codeunit/10862-fr.md) (own), [report/10803 "G/L Trial Balance"](../objects/report/10803-fr.md) (own), [report/10820 "Export G/L Entries to XML"](../objects/report/10820-fr.md) (own), [xmlport/10800 "Export G/L Entries"](../objects/xmlport/10800-fr.md) (own).
 
 [All 31 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -188,7 +188,7 @@ Implements accelerated (derogatory) depreciation with new fields on FA Posting G
 
 Why: Learn says accelerated depreciation computes differences between tax and accounting books using derogatory posting types.
 
-Objects: [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [codeunit/5605 "Calculate Disposal"](../objects/codeunit/5605.md), [report/5692 "Calculate Depreciation"](../objects/report/5692.md), [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), report/10886 "FA - Proj. Value (Derogatory)" (own), report/10812 "Fixed Asset-Professional Tax" (own).
+Objects: [table/5606 "FA Posting Group"](../objects/table/5606.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [codeunit/5605 "Calculate Disposal"](../objects/codeunit/5605.md), [report/5692 "Calculate Depreciation"](../objects/report/5692.md), [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [report/10886 "FA - Proj. Value (Derogatory)"](../objects/report/10886-fr.md) (own), [report/10812 "Fixed Asset-Professional Tax"](../objects/report/10812-fr.md) (own).
 
 [All 23 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
@@ -198,7 +198,7 @@ Adds SIREN No. and payment-in-progress fields on Customer, RIB fields on custome
 
 Why: Learn covers SIREN setup, VAT paid on debts printing and automatic goods or services indication on French invoices.
 
-Objects: [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md), [report/1303 "Standard Sales - Draft Invoice"](../objects/report/1303.md), table/10825 "Shipment Invoiced" (own), page/10837 "Invoices bound by Shipment" (own), report/10805 "Customer Trial Balance FR" (own), [table/287 "Customer Bank Account"](../objects/table/287.md).
+Objects: [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md), [report/1303 "Standard Sales - Draft Invoice"](../objects/report/1303.md), [table/10825 "Shipment Invoiced"](../objects/table/10825-fr.md) (own), [page/10837 "Invoices bound by Shipment"](../objects/page/10837-fr.md) (own), [report/10805 "Customer Trial Balance FR"](../objects/report/10805-fr.md) (own), [table/287 "Customer Bank Account"](../objects/table/287.md).
 
 [All 20 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -208,7 +208,7 @@ Adds SIREN No., payment-in-progress and payment reporting exclusion fields on Ve
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), report/10807 "Vendor Trial Balance FR" (own), report/10808 "Vendor Detail Trial Balance FR" (own), report/10814 "Vendor Journal" (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
+Objects: [table/23 "Vendor"](../objects/table/23.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [report/10807 "Vendor Trial Balance FR"](../objects/report/10807-fr.md) (own), [report/10808 "Vendor Detail Trial Balance FR"](../objects/report/10808-fr.md) (own), [report/10814 "Vendor Journal"](../objects/report/10814-fr.md) (own), [table/1383 "Vendor Templ."](../objects/table/1383.md).
 
 [All 8 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -218,7 +218,7 @@ Company Information gets French identity fields and SIRET validation with an eve
 
 Why: Learn explains fiscal closing of periods and years, with two open fiscal years allowed, and the company data needed for e-invoicing and DEB.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/50 "Accounting Period"](../objects/table/50.md), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/9 "Country/Region"](../objects/table/9.md), codeunit/355 "Local Navigate Handler" (own), [table/10 "Shipment Method"](../objects/table/10.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/50 "Accounting Period"](../objects/table/50.md), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/9 "Country/Region"](../objects/table/9.md), [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-fr.md) (own), [table/10 "Shipment Method"](../objects/table/10.md).
 
 [All 7 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -340,106 +340,106 @@ Objects: [table/5200 "Employee"](../objects/table/5200.md).
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+98 objects only this country has.
 
-- codeunit/355 "Local Navigate Handler"
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/10801 "RIB Key"
-- codeunit/10802 "FR AccSchedManagement"
-- codeunit/10842 "G/L Entry Application"
-- codeunit/10860 "Payment Management"
-- codeunit/10861 "Payment-Apply"
-- codeunit/10862 "Fiscal Year-FiscalClose"
-- codeunit/10881 "Update Dtld. CV Ledger Entries"
-- codeunit/104101 "UPG.FR"
-- enum/5226 "Employee Marital Status"
-- enum/10862 "Payment Step Action Type"
-- page/10800 "FR Account Schedule Names"
-- page/10801 "FR Account Schedule"
-- page/10818 "Fiscal Year Closing Steps"
-- page/10837 "Invoices bound by Shipment"
-- page/10838 "Shipments bound by Invoice"
-- page/10860 "Payment Class List"
-- page/10861 "Payment Status List"
-- page/10862 "View/Edit Payment Line"
-- page/10863 "Payment Report"
-- page/10864 "Payment Class"
-- page/10865 "Payment Status"
-- page/10866 "Payment Steps"
-- page/10867 "Payment Step Card"
-- page/10868 "Payment Slip"
-- page/10869 "Payment Slip Subform"
-- page/10870 "Payment Slip List"
-- page/10871 "Payment Line Modification"
-- page/10872 "Payment Lines List"
-- page/10873 "Payment Steps List"
-- page/10874 "Payment Step Ledger"
-- page/10875 "Payment Addresses"
-- page/10876 "Payment Bank"
-- page/10877 "Payment Slip Archive"
-- page/10878 "Payment Slip Subform Archive"
-- page/10879 "Payment Slip List Archive"
-- page/10880 "Payment Lines Archive List"
-- page/10881 "Payment Bank Archive"
-- page/10882 "Payment Step Ledger List"
-- report/10800 "G/L Journal"
-- report/10801 "Journals"
-- report/10803 "G/L Trial Balance"
-- report/10804 "G/L Detail Trial Balance"
-- report/10805 "Customer Trial Balance FR"
-- report/10806 "Customer Detail Trial Balance"
-- report/10807 "Vendor Trial Balance FR"
-- report/10808 "Vendor Detail Trial Balance FR"
-- report/10809 "Bank Account Trial Balance"
-- report/10810 "Bank Acc. Detail Trial Balance"
-- report/10811 "FR Account Schedule"
-- report/10812 "Fixed Asset-Professional Tax"
-- report/10813 "Customer Journal"
-- report/10814 "Vendor Journal"
-- report/10815 "Bank Account Journal"
-- report/10820 "Export G/L Entries to XML"
-- report/10842 "G/L Account Statement"
-- report/10843 "Recapitulation Form"
-- report/10860 "Payment List"
-- report/10861 "GL/Cust. Ledger Reconciliation"
-- report/10862 "Suggest Vendor Payments FR"
-- report/10863 "GL/Vend. Ledger Reconciliation"
-- report/10864 "Suggest Customer Payments"
-- report/10865 "Bill"
-- report/10866 "Draft"
-- report/10867 "Remittance"
-- report/10868 "Draft notice"
-- report/10869 "Draft recapitulation"
-- report/10870 "Withdraw notice"
-- report/10871 "Withdraw recapitulation"
-- report/10872 "Duplicate parameter"
-- report/10873 "Archive Payment Slips"
-- report/10876 "EC Sales List - Services"
-- report/10880 "ETEBAC Files"
-- report/10881 "Withdraw"
-- report/10882 "Transfer"
-- report/10883 "SEPA ISO20022"
-- report/10886 "FA - Proj. Value (Derogatory)"
-- table/10800 "FR Acc. Schedule Name"
-- table/10801 "FR Acc. Schedule Line"
-- table/10825 "Shipment Invoiced"
-- table/10860 "Payment Class"
-- table/10861 "Payment Status"
-- table/10862 "Payment Step"
-- table/10863 "Payment Step Ledger"
-- table/10864 "Payment Post. Buffer"
-- table/10865 "Payment Header"
-- table/10866 "Payment Line"
-- table/10867 "Payment Header Archive"
-- table/10868 "Payment Line Archive"
-- table/10869 "Bank Account Buffer"
-- table/10870 "Payment Address"
-- table/10871 "Unreal. CV Ledg. Entry Buffer"
-- table/10880 "Payment Period Setup"
-- table/10881 "Payment Application Buffer"
-- tableextension/10810 "SourceCodeFR"
-- xmlport/10800 "Export G/L Entries"
-- xmlport/10863 "Import/Export Parameters"
+- [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-fr.md)
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-fr.md)
+- [codeunit/10801 "RIB Key"](../objects/codeunit/10801-fr.md)
+- [codeunit/10802 "FR AccSchedManagement"](../objects/codeunit/10802-fr.md)
+- [codeunit/10842 "G/L Entry Application"](../objects/codeunit/10842-fr.md)
+- [codeunit/10860 "Payment Management"](../objects/codeunit/10860-fr.md)
+- [codeunit/10861 "Payment-Apply"](../objects/codeunit/10861-fr.md)
+- [codeunit/10862 "Fiscal Year-FiscalClose"](../objects/codeunit/10862-fr.md)
+- [codeunit/10881 "Update Dtld. CV Ledger Entries"](../objects/codeunit/10881-fr.md)
+- [codeunit/104101 "UPG.FR"](../objects/codeunit/104101-fr.md)
+- [enum/5226 "Employee Marital Status"](../objects/enum/5226-fr.md)
+- [enum/10862 "Payment Step Action Type"](../objects/enum/10862-fr.md)
+- [page/10800 "FR Account Schedule Names"](../objects/page/10800-fr.md)
+- [page/10801 "FR Account Schedule"](../objects/page/10801-fr.md)
+- [page/10818 "Fiscal Year Closing Steps"](../objects/page/10818-fr.md)
+- [page/10837 "Invoices bound by Shipment"](../objects/page/10837-fr.md)
+- [page/10838 "Shipments bound by Invoice"](../objects/page/10838-fr.md)
+- [page/10860 "Payment Class List"](../objects/page/10860-fr.md)
+- [page/10861 "Payment Status List"](../objects/page/10861-fr.md)
+- [page/10862 "View/Edit Payment Line"](../objects/page/10862-fr.md)
+- [page/10863 "Payment Report"](../objects/page/10863-fr.md)
+- [page/10864 "Payment Class"](../objects/page/10864-fr.md)
+- [page/10865 "Payment Status"](../objects/page/10865-fr.md)
+- [page/10866 "Payment Steps"](../objects/page/10866-fr.md)
+- [page/10867 "Payment Step Card"](../objects/page/10867-fr.md)
+- [page/10868 "Payment Slip"](../objects/page/10868-fr.md)
+- [page/10869 "Payment Slip Subform"](../objects/page/10869-fr.md)
+- [page/10870 "Payment Slip List"](../objects/page/10870-fr.md)
+- [page/10871 "Payment Line Modification"](../objects/page/10871-fr.md)
+- [page/10872 "Payment Lines List"](../objects/page/10872-fr.md)
+- [page/10873 "Payment Steps List"](../objects/page/10873-fr.md)
+- [page/10874 "Payment Step Ledger"](../objects/page/10874-fr.md)
+- [page/10875 "Payment Addresses"](../objects/page/10875-fr.md)
+- [page/10876 "Payment Bank"](../objects/page/10876-fr.md)
+- [page/10877 "Payment Slip Archive"](../objects/page/10877-fr.md)
+- [page/10878 "Payment Slip Subform Archive"](../objects/page/10878-fr.md)
+- [page/10879 "Payment Slip List Archive"](../objects/page/10879-fr.md)
+- [page/10880 "Payment Lines Archive List"](../objects/page/10880-fr.md)
+- [page/10881 "Payment Bank Archive"](../objects/page/10881-fr.md)
+- [page/10882 "Payment Step Ledger List"](../objects/page/10882-fr.md)
+- [report/10800 "G/L Journal"](../objects/report/10800-fr.md)
+- [report/10801 "Journals"](../objects/report/10801-fr.md)
+- [report/10803 "G/L Trial Balance"](../objects/report/10803-fr.md)
+- [report/10804 "G/L Detail Trial Balance"](../objects/report/10804-fr.md)
+- [report/10805 "Customer Trial Balance FR"](../objects/report/10805-fr.md)
+- [report/10806 "Customer Detail Trial Balance"](../objects/report/10806-fr.md)
+- [report/10807 "Vendor Trial Balance FR"](../objects/report/10807-fr.md)
+- [report/10808 "Vendor Detail Trial Balance FR"](../objects/report/10808-fr.md)
+- [report/10809 "Bank Account Trial Balance"](../objects/report/10809-fr.md)
+- [report/10810 "Bank Acc. Detail Trial Balance"](../objects/report/10810-fr.md)
+- [report/10811 "FR Account Schedule"](../objects/report/10811-fr.md)
+- [report/10812 "Fixed Asset-Professional Tax"](../objects/report/10812-fr.md)
+- [report/10813 "Customer Journal"](../objects/report/10813-fr.md)
+- [report/10814 "Vendor Journal"](../objects/report/10814-fr.md)
+- [report/10815 "Bank Account Journal"](../objects/report/10815-fr.md)
+- [report/10820 "Export G/L Entries to XML"](../objects/report/10820-fr.md)
+- [report/10842 "G/L Account Statement"](../objects/report/10842-fr.md)
+- [report/10843 "Recapitulation Form"](../objects/report/10843-fr.md)
+- [report/10860 "Payment List"](../objects/report/10860-fr.md)
+- [report/10861 "GL/Cust. Ledger Reconciliation"](../objects/report/10861-fr.md)
+- [report/10862 "Suggest Vendor Payments FR"](../objects/report/10862-fr.md)
+- [report/10863 "GL/Vend. Ledger Reconciliation"](../objects/report/10863-fr.md)
+- [report/10864 "Suggest Customer Payments"](../objects/report/10864-fr.md)
+- [report/10865 "Bill"](../objects/report/10865-fr.md)
+- [report/10866 "Draft"](../objects/report/10866-fr.md)
+- [report/10867 "Remittance"](../objects/report/10867-fr.md)
+- [report/10868 "Draft notice"](../objects/report/10868-fr.md)
+- [report/10869 "Draft recapitulation"](../objects/report/10869-fr.md)
+- [report/10870 "Withdraw notice"](../objects/report/10870-fr.md)
+- [report/10871 "Withdraw recapitulation"](../objects/report/10871-fr.md)
+- [report/10872 "Duplicate parameter"](../objects/report/10872-fr.md)
+- [report/10873 "Archive Payment Slips"](../objects/report/10873-fr.md)
+- [report/10876 "EC Sales List - Services"](../objects/report/10876-fr.md)
+- [report/10880 "ETEBAC Files"](../objects/report/10880-fr.md)
+- [report/10881 "Withdraw"](../objects/report/10881-fr.md)
+- [report/10882 "Transfer"](../objects/report/10882-fr.md)
+- [report/10883 "SEPA ISO20022"](../objects/report/10883-fr.md)
+- [report/10886 "FA - Proj. Value (Derogatory)"](../objects/report/10886-fr.md)
+- [table/10800 "FR Acc. Schedule Name"](../objects/table/10800-fr.md)
+- [table/10801 "FR Acc. Schedule Line"](../objects/table/10801-fr.md)
+- [table/10825 "Shipment Invoiced"](../objects/table/10825-fr.md)
+- [table/10860 "Payment Class"](../objects/table/10860-fr.md)
+- [table/10861 "Payment Status"](../objects/table/10861-fr.md)
+- [table/10862 "Payment Step"](../objects/table/10862-fr.md)
+- [table/10863 "Payment Step Ledger"](../objects/table/10863-fr.md)
+- [table/10864 "Payment Post. Buffer"](../objects/table/10864-fr.md)
+- [table/10865 "Payment Header"](../objects/table/10865-fr.md)
+- [table/10866 "Payment Line"](../objects/table/10866-fr.md)
+- [table/10867 "Payment Header Archive"](../objects/table/10867-fr.md)
+- [table/10868 "Payment Line Archive"](../objects/table/10868-fr.md)
+- [table/10869 "Bank Account Buffer"](../objects/table/10869-fr.md)
+- [table/10870 "Payment Address"](../objects/table/10870-fr.md)
+- [table/10871 "Unreal. CV Ledg. Entry Buffer"](../objects/table/10871-fr.md)
+- [table/10880 "Payment Period Setup"](../objects/table/10880-fr.md)
+- [table/10881 "Payment Application Buffer"](../objects/table/10881-fr.md)
+- [tableextension/10810 "SourceCodeFR"](../objects/tableextension/10810-fr.md)
+- [xmlport/10800 "Export G/L Entries"](../objects/xmlport/10800-fr.md)
+- [xmlport/10863 "Import/Export Parameters"](../objects/xmlport/10863-fr.md)
 
 ## Other versions
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 564be7298e7ac57e866f4b5abb9df04f749701b4d9d2beb5ff60d81060ee0fdb
+  input_hash: 9f99fb8f2b1f11a78b5de355c228a3906294ccefddeb2392f5fbb300b891067f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Email/src/Connector/EmailConnectorv4.Interface.al

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -40,11 +40,8 @@ links:
   topics:
     - topic/dev-itpro/administration/automation-api
   localizations: []
-  videos:
-    - video/_nmA6xJXKiY
-  posts:
-    - post/aardvarklabs-blog/3998
-    - post/demiliani-com/14163
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -56,8 +53,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
-  blog: 2
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -74,13 +71,5 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_extension_get): Gets an extension object in Dynamics 365 Business Central.
 - [extension resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extension): An extension object in Dynamics 365 Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Deploy extensions using the pteInstall endpoint with specific parameters"
-- [Dynamics 365 Business Central: important changes in PTE management.](../../../../posts/demiliani-com/14163.md) (community post): "administrators to upload, schedule installation, and uninstall per-tenant extensions directly"
-- [Introducing: PTEs in Admin Center (2025 release wave 1)](../../../../videos/_nmA6xJXKiY.md) (video): "PTEs in Admin Center; pte; admin center; app management; uninstall; dependencies; api; extensions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

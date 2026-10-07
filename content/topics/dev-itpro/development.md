@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8306266767ad50a98985c9d3258601a742d4f40ccd6d551f7edef34221761f9c
@@ -317,12 +317,8 @@ links:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
   videos:
-    - video/Ccmzcoqzox0
     - video/mnxOSl1Y9PI
-    - video/r1LrZH8IPJY
-    - video/Uy3CmPDzWpY
-  posts:
-    - post/freddysblog/https://freddysblog.com/2026/08/13/the-fkh-web-client
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -342,8 +338,8 @@ children:
 coverage:
   learn: 523
   code: 0
-  video: 4
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 16
@@ -467,11 +463,7 @@ Path: Development · tier official · system development · no narrative yet
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [The Fkh Web Client](../../posts/freddysblog/https://freddysblog.com/2026/08/13/the-fkh-web-client.md) (community post): "Fkh Web Client is a web-based interface that allows developers to manage"
-- [Mavericks of Business Central: Different career paths & opportunities](../../videos/Ccmzcoqzox0.md) (video): "Different career paths & opportunities; consultant roles; developer roles"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
-- [BCTalent Stories: JourneyTEAM](../../videos/r1LrZH8IPJY.md) (video): "ReSkill talent development program; Professional skills training for consultants"
-- [#BCTalent Stories: Triangle](../../videos/Uy3CmPDzWpY.md) (video): "reskill program; team training; product certification; copilot and ai"
 
 ## Business Central pages and reports
 

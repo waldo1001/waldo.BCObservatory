@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eed5ce7cf098aaf53c17b21cf5c075860fb34156714acd5760631db801cbba7c
+  input_hash: 0ecf734c5d51ef710972c1017e9c15eebd0c114141b45f92c36bfaa01195fe7a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Service/RoleCenters/OutboundTechnician.Profile.al

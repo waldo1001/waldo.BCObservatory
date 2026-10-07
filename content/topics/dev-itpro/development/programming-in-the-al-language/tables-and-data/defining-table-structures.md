@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f4fef1b2446c586c258d687af1fd453a03d9d093168b44db9f072869a19e2480
@@ -81,7 +81,6 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos:
-    - video/D_Lur52IrIg
     - video/PZVTTem-nZw
     - video/qABlX4AL3GM
     - video/TH70oJI4Ae0
@@ -100,7 +99,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 4
+  video: 3
   blog: 2
   guideline: 0
 bc_forms: []
@@ -130,7 +129,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/.md) (community post): "The InitValue property sets a default value for new table fields"
-- [What's new in AL and Tools (2026 release wave 2)](../../../../../videos/D_Lur52IrIg.md) (video): "field type migration; big integer; table extension key improvements"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes; data modeling"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"

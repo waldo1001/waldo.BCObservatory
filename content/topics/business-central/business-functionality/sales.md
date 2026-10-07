@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7057eece9376f74152e42cbc191091a340f3b2859370e6619efe877b5f7758d
@@ -332,13 +332,9 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
-    - video/cuez5kIanKo
-    - video/EyAhM6x_FVw
-    - video/O0UTg-e3t5k
     - video/PIWxU93eCT4
-    - video/rmPtE94fby0
   posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -351,7 +347,7 @@ children:
 coverage:
   learn: 133
   code: 0
-  video: 5
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -549,12 +545,8 @@ Path: [Business functionality](../business-functionality.md) > Sales · tier off
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md) (community post): "Checking only the main Blocked field can allow restricted actions like sales on sales-blocked items"
-- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Activate Specific Sales Channels; Multiple Sales Channels Setup"
-- [Episode 518: You Have 18 Months: The AI Marketing Reckoning Nobody's Ready For](../../../videos/EyAhM6x_FVw.md) (video): "ai agents; answer engines; building in public; personal branding; employee advocacy"
-- [Jump to a Master Entity Using a Keyboard Shortcut](../../../videos/O0UTg-e3t5k.md) (video): "keyboard shortcuts; master entity navigation; sales orders"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "streamlines drop shipment workflows by adding a Create Purchase Orders action on sales orders"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
-- [BCTalent Stories: Ciellos](../../../videos/rmPtE94fby0.md) (video): "career transition; consulting skills; ai and copilot; soft skills; business processes"
 
 ## Business Central pages and reports
 

@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2026/02/09/dynamics-365-business-central-why-when-i-create-new-users-do-they-get-full-access-by-default/",
   "published_at": "2026-02-09T10:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:02:48.318Z",
+      "path": "vault:posts/thedynamicsexplorer-com/37042.md",
+      "words": 381
+    },
+    "extracted": {
+      "at": "2026-10-07T01:02:48.327Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:02:48.328Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:02:48.329Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:02:48.337Z",
+      "path": "content/posts/thedynamicsexplorer-com/37042.md"
     }
   },
   "input_hash": "2026-05-01T12:50:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b864d086b389bf68bedcd054d18e6ace2176dc1515cf0901ccbdd86c67d6b45f"
 }

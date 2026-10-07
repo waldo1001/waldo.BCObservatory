@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e79c59b4bfb2f955687f7d4482f7f5aebb4304a41b60d0a11aa7b61c9f50cb31
@@ -57,11 +57,8 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office
   localizations: []
   videos:
-    - video/1ft4o9lQzsU
     - video/6zj34hjbpGU
-    - video/8D8IFkqeTLU
-  posts:
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -73,8 +70,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 3
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 1480
@@ -101,10 +98,7 @@ Path: [Integration](../../integration.md) > [Integrating Business Central with O
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [BC Friday Tips #82 Excel Buffer Character Limit](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values"
-- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Office 365 collaboration for Excel reports"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
-- [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../../../../videos/8D8IFkqeTLU.md) (video): "advanced spreadsheets; date ranges; filters; slicers; cell references"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 610ed42ec2465f96da62c42c918346ead24213a6b31c7513ba01f0581984f70d
@@ -232,8 +232,7 @@ links:
   topics:
     - topic/business-central/development-and-administration/customize-business-central
   localizations: []
-  videos:
-    - video/no1mmnPfyNY
+  videos: []
   posts:
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
   guidelines: []
@@ -247,7 +246,7 @@ children: []
 coverage:
   learn: 26
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms:
@@ -413,7 +412,6 @@ Path: [Development and administration](../../development-and-administration.md) 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "per-tenant extensions support full lifecycle management"
-- [20260615 - Are We There Yet? The Journey from NAV to Business Central](../../../../videos/no1mmnPfyNY.md) (video): "Extensions history; partner ecosystem; value-based selling; saas transition"
 
 ## Business Central pages and reports
 

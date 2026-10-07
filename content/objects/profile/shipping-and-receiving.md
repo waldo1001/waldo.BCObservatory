@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ae1b85e81fcd034e45070dec78e945364b87f2ab33d1e81bede235584e1007e6
+  input_hash: 71ab329c6d3240d69a0fdcee5006c8e56a4c8df1eab18c9c0c25ceed65712ec9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/RoleCenters/ShippingAndReceiving.Profile.al

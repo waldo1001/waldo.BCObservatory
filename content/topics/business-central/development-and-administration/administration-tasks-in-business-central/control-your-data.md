@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 96a39e8b87183ae34a57bfc4fe5d5c7a6e745000b28e6bf7c2940db188c63b3a
@@ -90,11 +90,9 @@ links:
   localizations: []
   videos:
     - video/564XMP2IyLM
-    - video/6sH2u4jt-ow
     - video/b-ixzwDS41c
   posts:
     - post/gerardorenteria-blog/15213
-    - post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/
   guidelines: []
 learn_toc_path:
@@ -107,8 +105,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
-  blog: 3
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 107
@@ -154,10 +152,8 @@ Path: [Development and administration](../../development-and-administration.md) 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [🧹 Cleaning and anonymizing copies in Business Central: environments, companies, and traceability](../../../../posts/gerardorenteria-blog/15213.md) (community post): "A reusable solution for automatically anonymizing sensitive data, marking copied companies"
-- [Introducing bcdb: Read a Business Central Backup Without SQL Server](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/.md) (community post): "bcdb is a tool that reads SQL Server backup files"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
-- [What's Cooking in Business Central: Storing Document Attachments outside the Database](../../../../videos/6sH2u4jt-ow.md) (video): "External Storage for Document Attachments; Scheduled Upload with Job Queue"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 
 ## Business Central pages and reports

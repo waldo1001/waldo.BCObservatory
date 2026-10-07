@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -175,8 +175,6 @@ links:
     - video/O921cRqXdiw
   posts:
     - post/demiliani-com/13676
-    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242
-    - post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/
   guidelines: []
 learn_toc_path:
   - Administration
@@ -194,7 +192,7 @@ coverage:
   learn: 20
   code: 0
   video: 2
-  blog: 3
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -224,8 +222,6 @@ Path: [Administration](../../administration.md) > [Migrate to Business Central o
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../posts/demiliani-com/13676.md) (community post): "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
-- [Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242.md) (community post): "Migration from Dynamics NAV, GP, or SL to Business Central should be planned early"
-- [bcdb restore: Write a Cloud Export Into a Container](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/.md) (community post): "bcdb restore tool writes cloud exports directly into a running Docker container"
 - [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
 - [What's New: Cloud Migration and Upgrade (2023)](../../../../videos/O921cRqXdiw.md) (video): "cloud migration; data replication; performance optimization"
 

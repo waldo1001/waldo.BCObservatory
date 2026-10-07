@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bc80a0d6424f1d3dc541cd5958216ed83a27252daf161384aab3878f8ff81f41
+  input_hash: 12833575d32abb5ad792b9defbac4cdaa95ac44636f778b8ae56aae7ec87e120
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al

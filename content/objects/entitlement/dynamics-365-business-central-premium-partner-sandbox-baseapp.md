@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 41e0a7b4f23c8046141342e43e34dc652565fabfcf717a3fb45adcbe61b385e9
+  input_hash: 3dba100f976febb85f077c3542c85ebf4b2c6ffeb7a089bbc3e330ee7d170204
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralPremiumPartnerSandboxBaseApp.Entitlement.al

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2edb2c175f63caaecee2e872b28450604e0e3c0abbc6a34d2ec9475b0a9b7a15
+  input_hash: 9a3fb076111f65c73f0dff4e9f0aa096d70418cca107c67951fde37438efc302
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al

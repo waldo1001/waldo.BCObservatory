@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ae7529feb972885853a5ab532500ac0f1ee6a0e72866f66be6b83fff61fc5021
+  input_hash: 69860cf3aa95512cfd4e2e0c8f4e14d10c40694272dfd2d2f73bd3792bee29e1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Retention%20Policy/src/Retention%20Period/RetentionPeriod.Interface.al

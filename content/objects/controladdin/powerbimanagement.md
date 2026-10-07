@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b79b5983ee6852df9e7517cb508a040d6b2bff034e7d2fb6ba351515a8f9823f
+  input_hash: 7d491aaf02dd75dd0a88ab2cd791205d6e7aeec36eee1809e8746c715f156535
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al

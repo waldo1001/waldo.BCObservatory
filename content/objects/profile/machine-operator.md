@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d32f467a6d0401f8c89618891a96c2abf4cf2298ff74b959e3eb660945e5a69f
+  input_hash: 929006edc03c9eade316c261d7c2d996ebf43344b95d07fa83699f4e650057b3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/MachineOperator.Profile.al

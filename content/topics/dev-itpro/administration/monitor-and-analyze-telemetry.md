@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -316,11 +316,8 @@ links:
   localizations: []
   videos:
     - video/7rIHz0zrgWU
-    - video/9PWBpwv4LhQ
     - video/BOY2442wHSc
     - video/F_pssS0FtUc
-    - video/snVsG69X-kw
-    - video/uv2NsSD5P7U
   posts:
     - post/waldo-be/317845
     - post/waldo-be/318371
@@ -337,7 +334,7 @@ children:
 coverage:
   learn: 70
   code: 0
-  video: 6
+  video: 3
   blog: 4
   guideline: 0
 bc_forms: []
@@ -376,10 +373,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "BC Telemetry Buddy evolved from a proof of concept to a production-ready tool for analyzing Business Central telemetry"
 - [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "Building effective AI tools for telemetry analysis requires more than access"
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
-- [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "resource governance operational limits quotas capacity management"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
 - [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "telemetry data usage analytics power bi reporting go-live optimization"
-- [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../../videos/snVsG69X-kw.md) (video): "Application insights telemetry; Database lock space monitoring; Telemetry and performance logging"
-- [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "Telemetry signal changes for update events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

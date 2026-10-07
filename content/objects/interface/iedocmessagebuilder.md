@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d274167848f7521c3133a14922bd86ee32c73cfaca69585109f52f85c8efe84d
+  input_hash: f719f7582b35a811d275f5831bf0bc56d8abc2869974adc51b95a0dda740533c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocMessageBuilder.Interface.al

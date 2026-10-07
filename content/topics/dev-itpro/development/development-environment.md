@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: da49025aadcfcc611b6282b6727a1d16f1363db17eb2ece18a53b2c5ba32e22e
@@ -312,12 +312,8 @@ links:
     - topic/dev-itpro/development/development-environment/working-with-apps
     - topic/dev-itpro/development/development-environment/other-tools
   localizations: []
-  videos:
-    - video/LDRziYUdlAg
-  posts:
-    - post/demiliani-com/14011
-    - post/freddysblog/https://freddysblog.com/2026/08/04/file-storage-in-fkh
-    - post/freddysblog/https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -336,8 +332,8 @@ children:
 coverage:
   learn: 54
   code: 0
-  video: 1
-  blog: 3
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms:
   - 149000
@@ -369,15 +365,6 @@ Path: [Development](../development.md) > Development environment · tier officia
 - [Work in sandboxes](development-environment/work-in-sandboxes.md) (3 pages)
 - [Working with apps](development-environment/working-with-apps.md) (5 pages)
 - [Other tools](development-environment/other-tools.md) (3 pages)
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Visual Studio Code Agent hook for auditing your AL coding sessions.](../../../posts/demiliani-com/14011.md) (community post): "Visual Studio Code Agent Hooks enable custom shell commands"
-- [File storage in Fkh (Freddy’s Kubernetes Helper)](../../../posts/freddysblog/https://freddysblog.com/2026/08/04/file-storage-in-fkh.md) (community post): "Fkh file storage provides versioned, authenticated file management in Azure blob storage"
-- [Accessing Fkh containers using a terminal](../../../posts/freddysblog/https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal.md) (community post): "Fkh provides secure, just-in-time terminal access to Business Central containers"
-- [AL-Go for Github April Office Hour](../../../videos/LDRziYUdlAg.md) (video): "al-go; page scripting visualizer; runtime package generation; bc container helper"
 
 ## Business Central pages and reports
 

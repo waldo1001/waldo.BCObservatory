@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0bf524a8774f02f4df65c9a9241c7da7461108a8b7e6a61b19dab5c5f5c5d912
+  input_hash: edc6d6d12a9295ec40cd3f83e34ac86a59e5dd6185f3b63341f5b349382fcd6a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al

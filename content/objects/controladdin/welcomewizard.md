@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2e06c978759b2b0e50d67e8daefa97aeb0dc8620966a59bb5c94283aeb8048b2
+  input_hash: 7b9b3bf173fc3a1af9b551bf8be47ab9417a31a67c6359b496fe4e24c10c3bf0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al

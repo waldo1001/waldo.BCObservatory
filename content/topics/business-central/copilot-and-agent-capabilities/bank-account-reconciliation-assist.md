@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,10 +43,7 @@ links:
   localizations: []
   videos:
     - video/4Te11l2BxmQ
-    - video/jdevJbGgB-k
     - video/jhfwx1K0I7Y
-    - video/lNASlydCidI
-    - video/YX9UfUF0EsA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -58,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 5
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -101,9 +98,6 @@ Both pages mark the feature as preview. The reconcile page mentions 2025 release
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../videos/4Te11l2BxmQ.md) (video): "bank reconciliation; copilot; transaction matching; gl account suggestions"
-- [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Bank reconciliation with LLM; AI developer toolkit"
 - [Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)](../../../videos/jhfwx1K0I7Y.md) (video): "Bank Account Reconciliation Assistance with Copilot; Reconcile with Copilot Action"
-- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Bank Account Reconciliation Assistance Built-in Capability"
-- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../../../videos/YX9UfUF0EsA.md) (video): "LLM-powered bank reconciliation; LLM-powered auto-fill"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 92a2c846413dc9b61a9d662da08d828d1f735dc798d654dafdffd2807dfd21bc
@@ -48,8 +48,7 @@ links:
   topics:
     - topic/dev-itpro/administration
   localizations: []
-  videos:
-    - video/KbXzMR4n4h8
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -61,7 +60,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -80,11 +79,5 @@ Path: [Administration](../administration.md) > Entitlements and permissions · t
 - [Entitlements and permission sets overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview): Learn about the different built-in methods to control which users can do what so that you can design the Business Central permission sets more precisely.
 - [Licensing in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing): Provides an overview of the licensing in Business Central
 - [Special permission sets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-special-permission-sets): Learn about built-in permissions sets that carry special meaning in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../videos/KbXzMR4n4h8.md) (video): "app monetization; appsource; partner center; commercial marketplace"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

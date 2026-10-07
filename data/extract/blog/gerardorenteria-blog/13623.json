@@ -1,0 +1,46 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13623",
+  "url": "https://gerardorenteria.blog/2026/02/08/%f0%9f%94%a7bc-launch-profile-vs-code-extension-for-managing-business-central-environments-%f0%9f%94%84/",
+  "title": "🔧BC Launch Profile: VS Code Extension for Managing Business Central Environments 🔄",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-02-08T19:01:17.000Z",
+  "words": 957,
+  "summary": "BC Launch Profile is a VS Code extension that centralizes and streamlines management of Business Central environment configurations across multiple clients and sandboxes. It eliminates manual editing of launch.json files by enabling instant environment switching, team collaboration through shared JSON profiles, and quick configuration duplication.",
+  "key_points": [
+    "Allows developers to instantly switch between multiple Business Central environments stored in a centralized bclaunchprofiles.json file",
+    "Supports team collaboration by making environment configurations shareable via Git, Teams, or SharePoint",
+    "Provides two modes: updating existing launch.json configurations or duplicating and applying profiles for rapid setup",
+    "Includes search functionality to find configurations by client name, environment type, or tenant ID"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "vs code extension",
+    "environment management",
+    "launch.json configuration",
+    "multi-client development",
+    "team collaboration",
+    "developer tools"
+  ],
+  "objects": [],
+  "features": [
+    "Instant environment switching",
+    "Centralized configuration management",
+    "Shareable team profiles",
+    "Search by client/environment/tenant",
+    "Configuration duplication",
+    "Git version control integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

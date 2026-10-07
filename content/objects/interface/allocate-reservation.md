@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c750d4832d8aa6debb0b639a37ec4e3675fe898aa8ea4d000fe7438b0ca2b10b
+  input_hash: d0a58b7313f680a66f71a2a699aa0a41031439550578722a2cb286948ad7c480
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/Tracking/AllocateReservation.Interface.al

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,18 +66,13 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/0WAOtNaKjws
     - video/9esVS6I4wrY
     - video/BrMKx3wqYac
     - video/nnCLAqEM0Bs
     - video/UQmuMPRlHek
   posts:
-    - post/aardvarklabs-blog/3315
-    - post/aardvarklabs-blog/3348
     - post/demiliani-com/13563
-    - post/demiliani-com/13814
     - post/demiliani-com/15935
-    - post/kauffmann-nl/8459
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -88,8 +83,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 5
-  blog: 6
+  video: 4
+  blog: 2
   guideline: 0
 bc_forms:
   - 7771
@@ -135,13 +130,8 @@ Start with the configuration page. Then read the data movement and Azure OpenAI 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Effective Steps for Troubleshooting Business Central Agents](../../../posts/aardvarklabs-blog/3315.md) (community post): "troubleshoot Business Central agents by examining task logs, step-by-step operations"
-- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "Agents should be treated like users and restricted with profiles and permissions"
 - [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../posts/demiliani-com/13563.md) (community post): "Users can monitor credit consumption directly in Business Central through the Agent page"
-- [Dynamics 365 Business Central: new model choice in Agent definition.](../../../posts/demiliani-com/13814.md) (community post): "GPT-5.3-chat is now the default model for Agents and Managed AI service in version 28.1"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
-- [Install Agent Designer if it is missing](../../../posts/kauffmann-nl/8459.md) (community post): "The Agent Designer is included in the 27.4 monthly update and automatically installs"
-- [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Configuration Telemetry; MCP Resources Support; Embedded Resources"
 - [Getting Started With Agents: Billing Agents in Business Central - Configure "Pay as You Go" (2025)](../../../videos/9esVS6I4wrY.md) (video): "Pay-as-you-go billing for agents; Agent consumption monitoring"
 - [Introducing: AI Consumption Billing for Business Central (2025 release wave 1)](../../../videos/BrMKx3wqYac.md) (video): "ai consumption billing; sales order agent; copilot studio messages"
 - [What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent](../../../videos/nnCLAqEM0Bs.md) (video): "Understanding Copilot Credit Consumptions for Your Business Central Agent; copilot credits; consumption monitoring; agent tasks"

@@ -2,7 +2,7 @@
 id: source/thinkaboutit-be
 type: source
 title: think about IT - Steven Renders
-summary: "think about IT - Steven Renders (Steven Renders): 32 posts in the knowledge base, 2026-03-12 to 2026-10-05, mostly about copilot, reporting, development."
+summary: "think about IT - Steven Renders (Steven Renders): 35 posts in the knowledge base, 2026-02-09 to 2026-10-05, mostly about copilot, reporting, development."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T01:01:30.439Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 39759bdb24b1415719306d7f5559d84052ffc55ca5e8897f02cf1ac57a1a2364
+  input_hash: 4155138e83c7ec2081d8db6e085c75ee30934f89a21a6cc95022206b70c4d963
 evidence:
   - kind: blog
     url: https://thinkaboutit.be
@@ -33,6 +33,9 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/thinkaboutit-be/7582
+    - post/thinkaboutit-be/7609
+    - post/thinkaboutit-be/7635
     - post/thinkaboutit-be/7660
     - post/thinkaboutit-be/7683
     - post/thinkaboutit-be/7730
@@ -72,28 +75,30 @@ url: https://thinkaboutit.be
 author: Steven Renders
 mvp: false
 full_text: false
-item_count: 32
+item_count: 35
 footprint:
   systems:
     - id: copilot
-      weight: 25
+      weight: 26
     - id: reporting
-      weight: 22
+      weight: 24
     - id: development
-      weight: 21
+      weight: 23
     - id: administration
-      weight: 14
+      weight: 15
     - id: platform
       weight: 13
     - id: integration
-      weight: 9
+      weight: 10
   topics:
     - id: al development
       weight: 7
+    - id: power bi
+      weight: 6
     - id: reporting
       weight: 6
-    - id: power bi
-      weight: 5
+    - id: analytics
+      weight: 4
     - id: copilot chat
       weight: 4
     - id: vs code
@@ -101,8 +106,6 @@ footprint:
     - id: admin center
       weight: 3
     - id: agents
-      weight: 3
-    - id: analytics
       weight: 3
     - id: code generation
       weight: 3
@@ -134,13 +137,13 @@ footprint:
     - id: page Item Statistics
       weight: 1
   features: []
-first_item: "2026-03-12"
+first_item: "2026-02-09"
 last_item: "2026-10-05"
 ---
 
 # think about IT - Steven Renders
 
-> think about IT - Steven Renders (Steven Renders): 32 posts in the knowledge base, 2026-03-12 to 2026-10-05, mostly about copilot, reporting, development.
+> think about IT - Steven Renders (Steven Renders): 35 posts in the knowledge base, 2026-02-09 to 2026-10-05, mostly about copilot, reporting, development.
 
 [https://thinkaboutit.be](https://thinkaboutit.be) · blog · tier community
 
@@ -148,14 +151,14 @@ last_item: "2026-10-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (25) | al development (7) | codeunit Rest Api Helper (1) |
-| reporting (22) | reporting (6) | codeunit Sales Posting Helper (1) |
-| development (21) | power bi (5) | codeunit Sales Posting Helper Test (1) |
-| administration (14) | copilot chat (4) | codeunit Semantic Data Search (1) |
-| platform (13) | vs code (4) | other BCQuality (1) |
-| integration (9) | admin center (3) | page API page (1) |
-|  | agents (3) | page Capacity (1) |
-|  | analytics (3) | page Copilot & agent capabilities (1) |
+| copilot (26) | al development (7) | codeunit Rest Api Helper (1) |
+| reporting (24) | power bi (6) | codeunit Sales Posting Helper (1) |
+| development (23) | reporting (6) | codeunit Sales Posting Helper Test (1) |
+| administration (15) | analytics (4) | codeunit Semantic Data Search (1) |
+| platform (13) | copilot chat (4) | other BCQuality (1) |
+| integration (10) | vs code (4) | page API page (1) |
+|  | admin center (3) | page Capacity (1) |
+|  | agents (3) | page Copilot & agent capabilities (1) |
 |  | code generation (3) | page Data Administration (1) |
 |  | copilot (3) | page Data Administration Guide (1) |
 |  |  | page External File Accounts (1) |
@@ -165,7 +168,7 @@ last_item: "2026-10-05"
 
 Items per quarter, oldest first:
 
-- 2026-Q1: **** 4
+- 2026-Q1: ******* 7
 - 2026-Q2: ************ 12
 - 2026-Q3: ************* 13
 - 2026-Q4: *** 3

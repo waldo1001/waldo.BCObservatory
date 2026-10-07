@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -82,8 +82,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3837
     - post/demiliani-com/13961
-    - post/demiliani-com/14203
-    - post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
   guidelines: []
 learn_toc_path:
   - Development
@@ -97,7 +96,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -127,7 +126,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back"
-- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/.md) (community post): "PageBackgroundTask offers an AL-native alternative to JavaScript timers"
+- [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/.md) (community post): "moving blocking work to the background instead of waiting for user input"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

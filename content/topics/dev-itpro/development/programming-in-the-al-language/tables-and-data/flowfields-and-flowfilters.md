@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fe61db885bb95f25bb8854d322aa17292fec5a821b950638783a42e1191c684c
@@ -50,6 +50,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/duiliotacconi-com/1894
     - post/thinkaboutit-be/7846
   guidelines: []
 learn_toc_path:
@@ -64,7 +65,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: fe61db885bb95f25bb8854d322aa17292fec5a821b950638783a42e1191c684c
@@ -87,6 +88,7 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "FlowFields with identical table filters into a single OUTER APPLY"
 - [Quick Tip: CalcFields vs SetAutoCalcFields in AL](../../../../../posts/thinkaboutit-be/7846.md) (community post): "FlowFields in Business Central are not stored in the database and must be calculated explicitly"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

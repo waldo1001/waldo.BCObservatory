@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 516e37befff368ab038355069fc2c3c44edb76087027f0f54b4c11accd0c5a09
@@ -42,9 +42,8 @@ links:
   localizations: []
   videos:
     - video/asSSBl8Cj34
-    - video/DRUr4byy8xQ
-    - video/w9c-j29nAFM
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/37042
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -57,8 +56,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 119
@@ -105,9 +104,8 @@ Path: [Development and administration](../../../development-and-administration.m
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "Administrators can remove permission sets like D365 BUS FULL ACCESS to restrict default access"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
-- [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../../../videos/DRUr4byy8xQ.md) (video): "agent access control; permissions; profiles; sales order agent; agent log entries; user management"
-- [Reskill: Program explainer](../../../../../videos/w9c-j29nAFM.md) (video): "Reskilling Program; Microsoft Talent Program; New Hire Community"
 
 ## Business Central pages and reports
 

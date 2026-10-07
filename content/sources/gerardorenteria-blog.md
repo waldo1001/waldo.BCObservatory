@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 24 posts in the knowledge base, 2026-03-13 to 2026-09-23, mostly about development, copilot, administration."
+summary: "Gerardo Renteria: 30 posts in the knowledge base, 2026-02-08 to 2026-09-23, mostly about development, copilot, administration."
 tier: community
 language: es
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T01:01:30.439Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 89dcb9a828c078462925161b0879be7ce43ad83561c9448a3679ba82048bf983
+  input_hash: b70840fcda3db0dd9b812cb1cd0053355e16304d7263eb87a4b701b66b53b7d0
 evidence:
   - kind: blog
     url: https://gerardorenteria.blog
@@ -33,6 +33,12 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/gerardorenteria-blog/13623
+    - post/gerardorenteria-blog/13675
+    - post/gerardorenteria-blog/13945
+    - post/gerardorenteria-blog/14103
+    - post/gerardorenteria-blog/13993
+    - post/gerardorenteria-blog/14079
     - post/gerardorenteria-blog/14231
     - post/gerardorenteria-blog/12166
     - post/gerardorenteria-blog/14585
@@ -64,42 +70,42 @@ url: https://gerardorenteria.blog
 author: Gerardo Renteria
 mvp: false
 full_text: false
-item_count: 24
+item_count: 30
 footprint:
   systems:
     - id: development
-      weight: 30
+      weight: 40
     - id: copilot
-      weight: 14
+      weight: 18
     - id: administration
       weight: 13
     - id: finance
-      weight: 7
+      weight: 9
+    - id: platform
+      weight: 6
     - id: sales
       weight: 6
-    - id: platform
-      weight: 5
   topics:
+    - id: copilot
+      weight: 6
+    - id: al development
+      weight: 5
     - id: feature requests
       weight: 5
-    - id: al development
-      weight: 4
-    - id: copilot
+    - id: agents
       weight: 4
     - id: localization
       weight: 4
     - id: vs code
-      weight: 3
-    - id: agents
-      weight: 2
+      weight: 4
     - id: al extension
-      weight: 2
-    - id: community ideas
-      weight: 2
-    - id: context management
-      weight: 2
-    - id: extension
-      weight: 2
+      weight: 3
+    - id: financial management
+      weight: 3
+    - id: inventory
+      weight: 3
+    - id: vs code extension
+      weight: 3
   objects:
     - id: codeunit 1255
       weight: 1
@@ -126,13 +132,13 @@ footprint:
     - id: codeunit GDRGEnvCleanupSubscriber
       weight: 1
   features: []
-first_item: "2026-03-13"
+first_item: "2026-02-08"
 last_item: "2026-09-23"
 ---
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 24 posts in the knowledge base, 2026-03-13 to 2026-09-23, mostly about development, copilot, administration.
+> Gerardo Renteria: 30 posts in the knowledge base, 2026-02-08 to 2026-09-23, mostly about development, copilot, administration.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -140,16 +146,16 @@ last_item: "2026-09-23"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (30) | feature requests (5) | codeunit 1255 (1) |
-| copilot (14) | al development (4) | codeunit 90 (1) |
-| administration (13) | copilot (4) | codeunit CLBlameMgmt (1) |
-| finance (7) | localization (4) | codeunit DimensionManagement (1) |
-| sales (6) | vs code (3) | codeunit GDRGCompanyFeatureAdjuster (1) |
-| platform (5) | agents (2) | codeunit GDRGCompanyMarker (1) |
-|  | al extension (2) | codeunit GDRGCopyCompanySubscriber (1) |
-|  | community ideas (2) | codeunit GDRGCustomerDimSubs (1) |
-|  | context management (2) | codeunit GDRGDataAnonymizer (1) |
-|  | extension (2) | codeunit GDRGDerivedDimMgt (1) |
+| development (40) | copilot (6) | codeunit 1255 (1) |
+| copilot (18) | al development (5) | codeunit 90 (1) |
+| administration (13) | feature requests (5) | codeunit CLBlameMgmt (1) |
+| finance (9) | agents (4) | codeunit DimensionManagement (1) |
+| platform (6) | localization (4) | codeunit GDRGCompanyFeatureAdjuster (1) |
+| sales (6) | vs code (4) | codeunit GDRGCompanyMarker (1) |
+|  | al extension (3) | codeunit GDRGCopyCompanySubscriber (1) |
+|  | financial management (3) | codeunit GDRGCustomerDimSubs (1) |
+|  | inventory (3) | codeunit GDRGDataAnonymizer (1) |
+|  | vs code extension (3) | codeunit GDRGDerivedDimMgt (1) |
 |  |  | codeunit GDRGEnvCleanupMgt (1) |
 |  |  | codeunit GDRGEnvCleanupSubscriber (1) |
 
@@ -157,7 +163,7 @@ last_item: "2026-09-23"
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ** 2
+- 2026-Q1: ******** 8
 - 2026-Q2: ************ 12
 - 2026-Q3: ********** 10
 

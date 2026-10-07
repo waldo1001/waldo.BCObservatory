@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4a1bac067f43330077a0b305b36e30e3d37d0d7e10d5f4a1e60ec429933c7f54
+  input_hash: 4a2e718afbd3cf25e5ea45923f3a6aa58b257d216377d180d0f9da0d724cdbb6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/SFTP%20Client/src/ISFTPClient.Interface.al

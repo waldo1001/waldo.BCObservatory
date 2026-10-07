@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a4a57c6745d601f2d90826639e5a3d99076cffa8227cacc7451fa06968edeff9
+  input_hash: 8a8ec7859b10f77b7896d6d58d05003b30a0dc7a6d3b5944cc093e55091e326e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Entitlements/Microsoft365.Entitlement.al

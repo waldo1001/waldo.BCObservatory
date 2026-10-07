@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,6 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
   localizations: []
   videos:
-    - video/1IIlArcHpOY
     - video/6rm45dSB6xg
     - video/cVfZoDwKYpI
     - video/cWVhWBMbXb4
@@ -66,9 +65,7 @@ links:
     - video/GwrMf1umTFg
     - video/NI6WYze-JSU
     - video/vyQnSxRGJDA
-    - video/x0XF0lBvgEE
-  posts:
-    - post/demiliani-com/13563
+  posts: []
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -80,8 +77,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 9
-  blog: 1
+  video: 7
+  blog: 0
   guideline: 0
 bc_forms:
   - 4400
@@ -127,8 +124,6 @@ Start with the overview page for scope, then read the email page if receipts arr
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../../posts/demiliani-com/13563.md) (community post): "Dynamics 365 Business Central Agents consume Copilot credits during execution"
-- [What's New: Working with Instructions for Agents in Business Central](../../../../videos/1IIlArcHpOY.md) (video): "Working with Instructions for Agents; Agent Instructions Framework"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Mileage Expense Calculation"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates; Mileage rate setup table"
@@ -136,7 +131,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "What's new in Expense Agent: Project Handling shows project tracking in Expense Agent"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent: Per Diem Allowances; per diem allowances; expense agent"
-- [Microsoft Ends Business Central Release Plans: What Changes?](../../../../videos/x0XF0lBvgEE.md) (video): "Dynamics 365 Business Central Expense Agent - Withholding Taxes"
 
 ## Business Central pages and reports
 

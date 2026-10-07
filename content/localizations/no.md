@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:56:28.878Z"
+  at: "2026-10-07T01:08:41.552Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -173,7 +173,7 @@ Adds the remittance module for electronic vendor payments: agreements, accounts,
 
 Why: Learn describes remittance for paying Norwegian and foreign vendors through bank formats such as Telepay and BBS, with settlement returns and error codes.
 
-Objects: [table/23 "Vendor"](../objects/table/23.md), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/38 "Purchase Header"](../objects/table/38.md), codeunit/15000002 "Remittance Tools" (own), codeunit/15000031 "Export Remittance" (own), page/15000002 "Remittance Payment Order" (own), report/15000001 "Suggest Remittance Payments" (own).
+Objects: [table/23 "Vendor"](../objects/table/23.md), [table/1383 "Vendor Templ."](../objects/table/1383.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/15000002 "Remittance Tools"](../objects/codeunit/15000002-no.md) (own), [codeunit/15000031 "Export Remittance"](../objects/codeunit/15000031-no.md) (own), [page/15000002 "Remittance Payment Order"](../objects/page/15000002-no.md) (own), [report/15000001 "Suggest Remittance Payments"](../objects/report/15000001-no.md) (own).
 
 [All 52 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
@@ -183,7 +183,7 @@ Adds KID setup and EHF fields (GLN, Account Code, E-Invoice) to customers, sales
 
 Why: Learn documents EHF for public sector customers, KID numbers on sales documents, and recurring orders built from blanket orders.
 
-Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [codeunit/1620 "PEPPOL Validation"](../objects/codeunit/1620.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), table/15000300 "Recurring Group" (own), report/15000300 "Create Recurring Orders" (own), codeunit/15000300 "Repeating Order to Order" (own).
+Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/1605 "PEPPOL Management"](../objects/codeunit/1605.md), [codeunit/1620 "PEPPOL Validation"](../objects/codeunit/1620.md), [table/36 "Sales Header"](../objects/table/36.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/15000300 "Recurring Group"](../objects/table/15000300-no.md) (own), [report/15000300 "Create Recurring Orders"](../objects/report/15000300-no.md) (own), [codeunit/15000300 "Repeating Order to Order"](../objects/codeunit/15000300-no.md) (own).
 
 [All 47 objects of Sales in the diff](?ns=Sales#country-diff)
 
@@ -193,7 +193,7 @@ Adds Norwegian VAT handling: VAT Code and VAT Number on journals, entries and se
 
 Why: Learn covers Norwegian VAT codes, proportional VAT, electronic VAT returns, VAT reconciliation and applying entries in closed periods.
 
-Objects: [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/344 "VAT Reporting Code"](../objects/table/344.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), codeunit/10600 "Norwegian VAT Tools" (own), report/10618 "Trade Settlement 2017" (own), xmlport/10618 "Trade Settlement 2017" (own), report/10630 "VAT Reconciliation" (own), [table/81 "Gen. Journal Line"](../objects/table/81.md).
+Objects: [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/344 "VAT Reporting Code"](../objects/table/344.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/10600 "Norwegian VAT Tools"](../objects/codeunit/10600-no.md) (own), [report/10618 "Trade Settlement 2017"](../objects/report/10618-no.md) (own), [xmlport/10618 "Trade Settlement 2017"](../objects/xmlport/10618-no.md) (own), [report/10630 "VAT Reconciliation"](../objects/report/10630-no.md) (own), [table/81 "Gen. Journal Line"](../objects/table/81.md).
 
 [All 36 objects of Finance in the diff](?ns=Finance#country-diff)
 
@@ -203,7 +203,7 @@ Extends service documents, archives and setup with Norwegian fields through tabl
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/10602 "Service Post Print NO" (own), codeunit/10650 "Serv. Document Mgt. NO" (own), report/10631 "Service - Invoice (NO)" (own), report/10632 "Service - Credit Memo (NO)" (own), report/10613 "Service - Shipment (NO)" (own), tableextension/10602 "Service Header NO" (own), tableextension/10612 "Service Invoice Header NO" (own), pageextension/10621 "Service Mgt. Setup NO" (own).
+Objects: [codeunit/10602 "Service Post Print NO"](../objects/codeunit/10602-no.md) (own), [codeunit/10650 "Serv. Document Mgt. NO"](../objects/codeunit/10650-no.md) (own), [report/10631 "Service - Invoice (NO)"](../objects/report/10631-no.md) (own), [report/10632 "Service - Credit Memo (NO)"](../objects/report/10632-no.md) (own), [report/10613 "Service - Shipment (NO)"](../objects/report/10613-no.md) (own), [tableextension/10602 "Service Header NO"](../objects/tableextension/10602-no.md) (own), [tableextension/10612 "Service Invoice Header NO"](../objects/tableextension/10612-no.md) (own), [pageextension/10621 "Service Mgt. Setup NO"](../objects/pageextension/10621-no.md) (own).
 
 [All 36 objects of Service in the diff](?ns=Service#country-diff)
 
@@ -213,7 +213,7 @@ Provides EHF e-invoice check and export codeunits for sales, service, reminder a
 
 Why: Learn describes EHF file creation for public sector customers, configurable file paths, and OCR payment setup and import.
 
-Objects: codeunit/10628 "E-Invoice Export Common" (own), codeunit/10629 "E-Invoice Check Common" (own), report/10640 "Create Electronic Invoices" (own), report/10642 "Create Electronic Reminders" (own), table/10604 "E-Invoice Export Header" (own), xmlport/10601 "EHF Reminder 3.0" (own), table/15000100 "OCR Setup" (own), report/15000064 "OCR Payment - BBS" (own).
+Objects: [codeunit/10628 "E-Invoice Export Common"](../objects/codeunit/10628-no.md) (own), [codeunit/10629 "E-Invoice Check Common"](../objects/codeunit/10629-no.md) (own), [report/10640 "Create Electronic Invoices"](../objects/report/10640-no.md) (own), [report/10642 "Create Electronic Reminders"](../objects/report/10642-no.md) (own), [table/10604 "E-Invoice Export Header"](../objects/table/10604-no.md) (own), [xmlport/10601 "EHF Reminder 3.0"](../objects/xmlport/10601-no.md) (own), [table/15000100 "OCR Setup"](../objects/table/15000100-no.md) (own), [report/15000064 "OCR Payment - BBS"](../objects/report/15000064-no.md) (own).
 
 [All 35 objects of EServices in the diff](?ns=EServices#country-diff)
 
@@ -223,7 +223,7 @@ Extends SEPA credit transfer export with events and procedures that move lines t
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [table/1226 "Payment Export Data"](../objects/table/1226.md), [table/1200 "Bank Export/Import Setup"](../objects/table/1200.md), codeunit/10636 "Import Pain002" (own), codeunit/10637 "Import CAMT054" (own), codeunit/10638 "Norge SEPA CC-Export File" (own), table/10607 "Regulatory Reporting Code" (own), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
+Objects: [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [table/1226 "Payment Export Data"](../objects/table/1226.md), [table/1200 "Bank Export/Import Setup"](../objects/table/1200.md), [codeunit/10636 "Import Pain002"](../objects/codeunit/10636-no.md) (own), [codeunit/10637 "Import CAMT054"](../objects/codeunit/10637-no.md) (own), [codeunit/10638 "Norge SEPA CC-Export File"](../objects/codeunit/10638-no.md) (own), [table/10607 "Regulatory Reporting Code"](../objects/table/10607-no.md) (own), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
 
 [All 13 objects of Bank in the diff](?ns=Bank#country-diff)
 
@@ -233,7 +233,7 @@ Adds the enterprise register field and classification procedure to Company Infor
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), codeunit/10603 "Serv. Report Selection Mgt. NO" (own), [enum/77 "Report Selection Usage"](../objects/enum/77.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/2 "Company-Initialize"](../objects/codeunit/2.md), [codeunit/10603 "Serv. Report Selection Mgt. NO"](../objects/codeunit/10603-no.md) (own), [enum/77 "Report Selection Usage"](../objects/enum/77.md).
 
 [All 5 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
@@ -253,7 +253,7 @@ Adds a DocumentTools codeunit and a ClassifySAFT procedure in data classificatio
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: codeunit/10601 "DocumentTools" (own), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md).
+Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md).
 
 [All 2 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
@@ -339,167 +339,167 @@ Objects: codeunit/10601 "DocumentTools" (own), [codeunit/1752 "Data Class. Eval.
 
 ## Objects of its own
 
-Country-only objects have no object page yet (their ids repeat across countries).
+159 objects only this country has.
 
-- codeunit/9997 "Upgrade Tag Def - Country"
-- codeunit/10600 "Norwegian VAT Tools"
-- codeunit/10601 "DocumentTools"
-- codeunit/10602 "Service Post Print NO"
-- codeunit/10603 "Serv. Report Selection Mgt. NO"
-- codeunit/10610 "E-Invoice Document Encode"
-- codeunit/10613 "E-Invoice Check Fin. Chrg.Memo"
-- codeunit/10614 "E-Invoice Check Reminder"
-- codeunit/10615 "E-Invoice Check Sales Invoice"
-- codeunit/10616 "E-Invoice Check Sales Cr. Memo"
-- codeunit/10617 "E-Invoice Check Iss. Fin.Chrg."
-- codeunit/10618 "E-Invoice Check Iss. Reminder"
-- codeunit/10619 "E-Invoice Export Sales Invoice"
-- codeunit/10620 "E-Invoice Exp. Sales Cr. Memo"
-- codeunit/10621 "E-Invoice Exp. Iss. Fin. Chrg."
-- codeunit/10622 "E-Invoice Export Iss. Reminder"
-- codeunit/10623 "E-Invoice Check Serv. Document"
-- codeunit/10624 "E-Invoice Check Serv. Invoice"
-- codeunit/10625 "E-Invoice Check Serv. Cr. Memo"
-- codeunit/10626 "E-Invoice Export Serv. Invoice"
-- codeunit/10627 "E-Invoice Exp. Serv. Cr. Memo"
-- codeunit/10628 "E-Invoice Export Common"
-- codeunit/10629 "E-Invoice Check Common"
-- codeunit/10630 "Export EHF Reminder"
-- codeunit/10635 "Import SEPA Common"
-- codeunit/10636 "Import Pain002"
-- codeunit/10637 "Import CAMT054"
-- codeunit/10638 "Norge SEPA CC-Export File"
-- codeunit/10640 "Serv. Event Subscribers NO"
-- codeunit/10650 "Serv. Document Mgt. NO"
-- codeunit/15000000 "Reset Remittance Payment Order"
-- codeunit/15000001 "Remitt. journal - Check line"
-- codeunit/15000002 "Remittance Tools"
-- codeunit/15000003 "Print payment overview"
-- codeunit/15000031 "Export Remittance"
-- codeunit/15000210 "TestEmpolyees1-49"
-- codeunit/15000220 "TestEmpolyees50-199"
-- codeunit/15000230 "TestEmpolyeesUnlimited"
-- codeunit/15000300 "Repeating Order to Order"
-- page/10601 "Settled VAT Periods"
-- page/10604 "VAT Periods"
-- page/10607 "Regulatory Reporting Codes"
-- page/10608 "Gen. Jnl. Line Reg. Rep. Codes"
-- page/10697 "VAT Specifications"
-- page/10698 "VAT Notes"
-- page/15000000 "Remittance Info"
-- page/15000001 "Payment Info"
-- page/15000002 "Remittance Payment Order"
-- page/15000003 "Payment Order Data"
-- page/15000004 "Remittance Account Card"
-- page/15000005 "Waiting Journal"
-- page/15000006 "Remittance Account Overview"
-- page/15000007 "Remittance Agreement Card"
-- page/15000008 "Return Files"
-- page/15000009 "Return File Setup List"
-- page/15000010 "Remittance Agreement Overview"
-- page/15000011 "Settlement Info"
-- page/15000012 "Payment Order - Settl. Status"
-- page/15000013 "Return Error"
-- page/15000027 "Payment Type Codes Abroad"
-- page/15000100 "OCR Setup"
-- page/15000101 "OCR Return Info"
-- page/15000300 "Recurring Groups Card"
-- page/15000301 "Recurring Group Overview"
-- page/15000302 "Recurring Entries"
-- page/15000303 "Recurring Orders Overview"
-- pageextension/10600 "Service Quote Archive NO"
-- pageextension/10601 "Service Quote Archives NO"
-- pageextension/10602 "Service Order Archive NO"
-- pageextension/10603 "Service Order Archives NO"
-- pageextension/10604 "Service Quote Archive Lines NO"
-- pageextension/10605 "Service Order Archive Lines NO"
-- pageextension/10606 "Service List Archive NO"
-- pageextension/10607 "Service Credit Memo NO"
-- pageextension/10608 "Service Invoice NO"
-- pageextension/10611 "Service Credit Memo Subform NO"
-- pageextension/10612 "Service Invoice Subform NO"
-- pageextension/10613 "ServiceItemWorksheet Subf. NO"
-- pageextension/10614 "Service Lines NO"
-- pageextension/10615 "Posted Serv. Cr. Memo Subf. NO"
-- pageextension/10616 "Posted Service Credit Memo NO"
-- pageextension/10617 "Posted Service Credit Memos NO"
-- pageextension/10618 "Posted Service Invoice NO"
-- pageextension/10619 "Posted Service Invoices NO"
-- pageextension/10620 "Posted ServiceInvoice Subf. NO"
-- pageextension/10621 "Service Mgt. Setup NO"
-- pageextension/10622 "Service Order NO"
-- report/10601 "Trial Balance/Previous Period"
-- report/10602 "Trade Settlement"
-- report/10603 "G/L Register Customer/Vendor"
-- report/10606 "Sales Order Picking List"
-- report/10608 "Customer - Balance"
-- report/10609 "Vendor - Balance"
-- report/10610 "Customer - Collection List"
-- report/10611 "Customer - Address List"
-- report/10612 "Vendor - Address List"
-- report/10613 "Service - Shipment (NO)"
-- report/10614 "Cust. Ledger Entries on Hold"
-- report/10616 "Customer - Open Entries"
-- report/10617 "Vendor - Open Entries"
-- report/10618 "Trade Settlement 2017"
-- report/10630 "VAT Reconciliation"
-- report/10631 "Service - Invoice (NO)"
-- report/10632 "Service - Credit Memo (NO)"
-- report/10640 "Create Electronic Invoices"
-- report/10641 "Create Electronic Credit Memos"
-- report/10642 "Create Electronic Reminders"
-- report/10643 "Create Elec. Fin. Chrg. Memos"
-- report/10644 "Create Elec. Service Invoices"
-- report/10645 "Create Elec. Service Cr. Memos"
-- report/15000000 "Rem. paym. order - man. export"
-- report/15000001 "Suggest Remittance Payments"
-- report/15000002 "Remittance Test Report"
-- report/15000003 "Rem. payment order - Import"
-- report/15000004 "Delete rem. payment order"
-- report/15000005 "Waiting Jnl - paym. overview"
-- report/15000006 "Rem. payment order status"
-- report/15000050 "Remittance - export (Bank)"
-- report/15000060 "Remittance - export (BBS)"
-- report/15000061 "Rem. Payment Order - Export"
-- report/15000062 "Remittance - Import (Bank)"
-- report/15000063 "Remittance - Import (BBS)"
-- report/15000064 "OCR Payment - BBS"
-- report/15000065 "OCR Payment - Data Dialog"
-- report/15000100 "OCR Journal - Test"
-- report/15000300 "Create Recurring Orders"
-- table/10601 "Settled VAT Period"
-- table/10602 "VAT Code"
-- table/10603 "VAT Period"
-- table/10604 "E-Invoice Export Header"
-- table/10605 "E-Invoice Export Line"
-- table/10606 "E-Invoice Transfer File"
-- table/10607 "Regulatory Reporting Code"
-- table/10608 "Gen. Jnl. Line Reg. Rep. Code"
-- table/10687 "VAT Specification"
-- table/10688 "VAT Note"
-- table/15000000 "Remittance Agreement"
-- table/15000001 "Remittance Payment Order"
-- table/15000002 "Payment Order Data"
-- table/15000003 "Remittance Account"
-- table/15000004 "Waiting Journal"
-- table/15000005 "Return File"
-- table/15000006 "Return File Setup"
-- table/15000007 "Return Error"
-- table/15000027 "Payment Type Code Abroad"
-- table/15000100 "OCR Setup"
-- table/15000300 "Recurring Group"
-- table/15000301 "Recurring Post"
-- tableextension/10600 "Service Header Archive NO"
-- tableextension/10601 "Service Line Archive NO"
-- tableextension/10602 "Service Header NO"
-- tableextension/10603 "Service Line NO"
-- tableextension/10607 "Service Cr.Memo Header NO"
-- tableextension/10608 "Service Cr.Memo Line NO"
-- tableextension/10610 "Service Invoice Line NO"
-- tableextension/10611 "Service Mgt. Setup NO"
-- tableextension/10612 "Service Invoice Header NO"
-- xmlport/10601 "EHF Reminder 3.0"
-- xmlport/10618 "Trade Settlement 2017"
+- [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-no.md)
+- [codeunit/10600 "Norwegian VAT Tools"](../objects/codeunit/10600-no.md)
+- [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md)
+- [codeunit/10602 "Service Post Print NO"](../objects/codeunit/10602-no.md)
+- [codeunit/10603 "Serv. Report Selection Mgt. NO"](../objects/codeunit/10603-no.md)
+- [codeunit/10610 "E-Invoice Document Encode"](../objects/codeunit/10610-no.md)
+- [codeunit/10613 "E-Invoice Check Fin. Chrg.Memo"](../objects/codeunit/10613-no.md)
+- [codeunit/10614 "E-Invoice Check Reminder"](../objects/codeunit/10614-no.md)
+- [codeunit/10615 "E-Invoice Check Sales Invoice"](../objects/codeunit/10615-no.md)
+- [codeunit/10616 "E-Invoice Check Sales Cr. Memo"](../objects/codeunit/10616-no.md)
+- [codeunit/10617 "E-Invoice Check Iss. Fin.Chrg."](../objects/codeunit/10617-no.md)
+- [codeunit/10618 "E-Invoice Check Iss. Reminder"](../objects/codeunit/10618-no.md)
+- [codeunit/10619 "E-Invoice Export Sales Invoice"](../objects/codeunit/10619-no.md)
+- [codeunit/10620 "E-Invoice Exp. Sales Cr. Memo"](../objects/codeunit/10620-no.md)
+- [codeunit/10621 "E-Invoice Exp. Iss. Fin. Chrg."](../objects/codeunit/10621-no.md)
+- [codeunit/10622 "E-Invoice Export Iss. Reminder"](../objects/codeunit/10622-no.md)
+- [codeunit/10623 "E-Invoice Check Serv. Document"](../objects/codeunit/10623-no.md)
+- [codeunit/10624 "E-Invoice Check Serv. Invoice"](../objects/codeunit/10624-no.md)
+- [codeunit/10625 "E-Invoice Check Serv. Cr. Memo"](../objects/codeunit/10625-no.md)
+- [codeunit/10626 "E-Invoice Export Serv. Invoice"](../objects/codeunit/10626-no.md)
+- [codeunit/10627 "E-Invoice Exp. Serv. Cr. Memo"](../objects/codeunit/10627-no.md)
+- [codeunit/10628 "E-Invoice Export Common"](../objects/codeunit/10628-no.md)
+- [codeunit/10629 "E-Invoice Check Common"](../objects/codeunit/10629-no.md)
+- [codeunit/10630 "Export EHF Reminder"](../objects/codeunit/10630-no.md)
+- [codeunit/10635 "Import SEPA Common"](../objects/codeunit/10635-no.md)
+- [codeunit/10636 "Import Pain002"](../objects/codeunit/10636-no.md)
+- [codeunit/10637 "Import CAMT054"](../objects/codeunit/10637-no.md)
+- [codeunit/10638 "Norge SEPA CC-Export File"](../objects/codeunit/10638-no.md)
+- [codeunit/10640 "Serv. Event Subscribers NO"](../objects/codeunit/10640-no.md)
+- [codeunit/10650 "Serv. Document Mgt. NO"](../objects/codeunit/10650-no.md)
+- [codeunit/15000000 "Reset Remittance Payment Order"](../objects/codeunit/15000000-no.md)
+- [codeunit/15000001 "Remitt. journal - Check line"](../objects/codeunit/15000001-no.md)
+- [codeunit/15000002 "Remittance Tools"](../objects/codeunit/15000002-no.md)
+- [codeunit/15000003 "Print payment overview"](../objects/codeunit/15000003-no.md)
+- [codeunit/15000031 "Export Remittance"](../objects/codeunit/15000031-no.md)
+- [codeunit/15000210 "TestEmpolyees1-49"](../objects/codeunit/15000210-no.md)
+- [codeunit/15000220 "TestEmpolyees50-199"](../objects/codeunit/15000220-no.md)
+- [codeunit/15000230 "TestEmpolyeesUnlimited"](../objects/codeunit/15000230-no.md)
+- [codeunit/15000300 "Repeating Order to Order"](../objects/codeunit/15000300-no.md)
+- [page/10601 "Settled VAT Periods"](../objects/page/10601-no.md)
+- [page/10604 "VAT Periods"](../objects/page/10604-no.md)
+- [page/10607 "Regulatory Reporting Codes"](../objects/page/10607-no.md)
+- [page/10608 "Gen. Jnl. Line Reg. Rep. Codes"](../objects/page/10608-no.md)
+- [page/10697 "VAT Specifications"](../objects/page/10697-no.md)
+- [page/10698 "VAT Notes"](../objects/page/10698-no.md)
+- [page/15000000 "Remittance Info"](../objects/page/15000000-no.md)
+- [page/15000001 "Payment Info"](../objects/page/15000001-no.md)
+- [page/15000002 "Remittance Payment Order"](../objects/page/15000002-no.md)
+- [page/15000003 "Payment Order Data"](../objects/page/15000003-no.md)
+- [page/15000004 "Remittance Account Card"](../objects/page/15000004-no.md)
+- [page/15000005 "Waiting Journal"](../objects/page/15000005-no.md)
+- [page/15000006 "Remittance Account Overview"](../objects/page/15000006-no.md)
+- [page/15000007 "Remittance Agreement Card"](../objects/page/15000007-no.md)
+- [page/15000008 "Return Files"](../objects/page/15000008-no.md)
+- [page/15000009 "Return File Setup List"](../objects/page/15000009-no.md)
+- [page/15000010 "Remittance Agreement Overview"](../objects/page/15000010-no.md)
+- [page/15000011 "Settlement Info"](../objects/page/15000011-no.md)
+- [page/15000012 "Payment Order - Settl. Status"](../objects/page/15000012-no.md)
+- [page/15000013 "Return Error"](../objects/page/15000013-no.md)
+- [page/15000027 "Payment Type Codes Abroad"](../objects/page/15000027-no.md)
+- [page/15000100 "OCR Setup"](../objects/page/15000100-no.md)
+- [page/15000101 "OCR Return Info"](../objects/page/15000101-no.md)
+- [page/15000300 "Recurring Groups Card"](../objects/page/15000300-no.md)
+- [page/15000301 "Recurring Group Overview"](../objects/page/15000301-no.md)
+- [page/15000302 "Recurring Entries"](../objects/page/15000302-no.md)
+- [page/15000303 "Recurring Orders Overview"](../objects/page/15000303-no.md)
+- [pageextension/10600 "Service Quote Archive NO"](../objects/pageextension/10600-no.md)
+- [pageextension/10601 "Service Quote Archives NO"](../objects/pageextension/10601-no.md)
+- [pageextension/10602 "Service Order Archive NO"](../objects/pageextension/10602-no.md)
+- [pageextension/10603 "Service Order Archives NO"](../objects/pageextension/10603-no.md)
+- [pageextension/10604 "Service Quote Archive Lines NO"](../objects/pageextension/10604-no.md)
+- [pageextension/10605 "Service Order Archive Lines NO"](../objects/pageextension/10605-no.md)
+- [pageextension/10606 "Service List Archive NO"](../objects/pageextension/10606-no.md)
+- [pageextension/10607 "Service Credit Memo NO"](../objects/pageextension/10607-no.md)
+- [pageextension/10608 "Service Invoice NO"](../objects/pageextension/10608-no.md)
+- [pageextension/10611 "Service Credit Memo Subform NO"](../objects/pageextension/10611-no.md)
+- [pageextension/10612 "Service Invoice Subform NO"](../objects/pageextension/10612-no.md)
+- [pageextension/10613 "ServiceItemWorksheet Subf. NO"](../objects/pageextension/10613-no.md)
+- [pageextension/10614 "Service Lines NO"](../objects/pageextension/10614-no.md)
+- [pageextension/10615 "Posted Serv. Cr. Memo Subf. NO"](../objects/pageextension/10615-no.md)
+- [pageextension/10616 "Posted Service Credit Memo NO"](../objects/pageextension/10616-no.md)
+- [pageextension/10617 "Posted Service Credit Memos NO"](../objects/pageextension/10617-no.md)
+- [pageextension/10618 "Posted Service Invoice NO"](../objects/pageextension/10618-no.md)
+- [pageextension/10619 "Posted Service Invoices NO"](../objects/pageextension/10619-no.md)
+- [pageextension/10620 "Posted ServiceInvoice Subf. NO"](../objects/pageextension/10620-no.md)
+- [pageextension/10621 "Service Mgt. Setup NO"](../objects/pageextension/10621-no.md)
+- [pageextension/10622 "Service Order NO"](../objects/pageextension/10622-no.md)
+- [report/10601 "Trial Balance/Previous Period"](../objects/report/10601-no.md)
+- [report/10602 "Trade Settlement"](../objects/report/10602-no.md)
+- [report/10603 "G/L Register Customer/Vendor"](../objects/report/10603-no.md)
+- [report/10606 "Sales Order Picking List"](../objects/report/10606-no.md)
+- [report/10608 "Customer - Balance"](../objects/report/10608-no.md)
+- [report/10609 "Vendor - Balance"](../objects/report/10609-no.md)
+- [report/10610 "Customer - Collection List"](../objects/report/10610-no.md)
+- [report/10611 "Customer - Address List"](../objects/report/10611-no.md)
+- [report/10612 "Vendor - Address List"](../objects/report/10612-no.md)
+- [report/10613 "Service - Shipment (NO)"](../objects/report/10613-no.md)
+- [report/10614 "Cust. Ledger Entries on Hold"](../objects/report/10614-no.md)
+- [report/10616 "Customer - Open Entries"](../objects/report/10616-no.md)
+- [report/10617 "Vendor - Open Entries"](../objects/report/10617-no.md)
+- [report/10618 "Trade Settlement 2017"](../objects/report/10618-no.md)
+- [report/10630 "VAT Reconciliation"](../objects/report/10630-no.md)
+- [report/10631 "Service - Invoice (NO)"](../objects/report/10631-no.md)
+- [report/10632 "Service - Credit Memo (NO)"](../objects/report/10632-no.md)
+- [report/10640 "Create Electronic Invoices"](../objects/report/10640-no.md)
+- [report/10641 "Create Electronic Credit Memos"](../objects/report/10641-no.md)
+- [report/10642 "Create Electronic Reminders"](../objects/report/10642-no.md)
+- [report/10643 "Create Elec. Fin. Chrg. Memos"](../objects/report/10643-no.md)
+- [report/10644 "Create Elec. Service Invoices"](../objects/report/10644-no.md)
+- [report/10645 "Create Elec. Service Cr. Memos"](../objects/report/10645-no.md)
+- [report/15000000 "Rem. paym. order - man. export"](../objects/report/15000000-no.md)
+- [report/15000001 "Suggest Remittance Payments"](../objects/report/15000001-no.md)
+- [report/15000002 "Remittance Test Report"](../objects/report/15000002-no.md)
+- [report/15000003 "Rem. payment order - Import"](../objects/report/15000003-no.md)
+- [report/15000004 "Delete rem. payment order"](../objects/report/15000004-no.md)
+- [report/15000005 "Waiting Jnl - paym. overview"](../objects/report/15000005-no.md)
+- [report/15000006 "Rem. payment order status"](../objects/report/15000006-no.md)
+- [report/15000050 "Remittance - export (Bank)"](../objects/report/15000050-no.md)
+- [report/15000060 "Remittance - export (BBS)"](../objects/report/15000060-no.md)
+- [report/15000061 "Rem. Payment Order - Export"](../objects/report/15000061-no.md)
+- [report/15000062 "Remittance - Import (Bank)"](../objects/report/15000062-no.md)
+- [report/15000063 "Remittance - Import (BBS)"](../objects/report/15000063-no.md)
+- [report/15000064 "OCR Payment - BBS"](../objects/report/15000064-no.md)
+- [report/15000065 "OCR Payment - Data Dialog"](../objects/report/15000065-no.md)
+- [report/15000100 "OCR Journal - Test"](../objects/report/15000100-no.md)
+- [report/15000300 "Create Recurring Orders"](../objects/report/15000300-no.md)
+- [table/10601 "Settled VAT Period"](../objects/table/10601-no.md)
+- [table/10602 "VAT Code"](../objects/table/10602-no.md)
+- [table/10603 "VAT Period"](../objects/table/10603-no.md)
+- [table/10604 "E-Invoice Export Header"](../objects/table/10604-no.md)
+- [table/10605 "E-Invoice Export Line"](../objects/table/10605-no.md)
+- [table/10606 "E-Invoice Transfer File"](../objects/table/10606-no.md)
+- [table/10607 "Regulatory Reporting Code"](../objects/table/10607-no.md)
+- [table/10608 "Gen. Jnl. Line Reg. Rep. Code"](../objects/table/10608-no.md)
+- [table/10687 "VAT Specification"](../objects/table/10687-no.md)
+- [table/10688 "VAT Note"](../objects/table/10688-no.md)
+- [table/15000000 "Remittance Agreement"](../objects/table/15000000-no.md)
+- [table/15000001 "Remittance Payment Order"](../objects/table/15000001-no.md)
+- [table/15000002 "Payment Order Data"](../objects/table/15000002-no.md)
+- [table/15000003 "Remittance Account"](../objects/table/15000003-no.md)
+- [table/15000004 "Waiting Journal"](../objects/table/15000004-no.md)
+- [table/15000005 "Return File"](../objects/table/15000005-no.md)
+- [table/15000006 "Return File Setup"](../objects/table/15000006-no.md)
+- [table/15000007 "Return Error"](../objects/table/15000007-no.md)
+- [table/15000027 "Payment Type Code Abroad"](../objects/table/15000027-no.md)
+- [table/15000100 "OCR Setup"](../objects/table/15000100-no.md)
+- [table/15000300 "Recurring Group"](../objects/table/15000300-no.md)
+- [table/15000301 "Recurring Post"](../objects/table/15000301-no.md)
+- [tableextension/10600 "Service Header Archive NO"](../objects/tableextension/10600-no.md)
+- [tableextension/10601 "Service Line Archive NO"](../objects/tableextension/10601-no.md)
+- [tableextension/10602 "Service Header NO"](../objects/tableextension/10602-no.md)
+- [tableextension/10603 "Service Line NO"](../objects/tableextension/10603-no.md)
+- [tableextension/10607 "Service Cr.Memo Header NO"](../objects/tableextension/10607-no.md)
+- [tableextension/10608 "Service Cr.Memo Line NO"](../objects/tableextension/10608-no.md)
+- [tableextension/10610 "Service Invoice Line NO"](../objects/tableextension/10610-no.md)
+- [tableextension/10611 "Service Mgt. Setup NO"](../objects/tableextension/10611-no.md)
+- [tableextension/10612 "Service Invoice Header NO"](../objects/tableextension/10612-no.md)
+- [xmlport/10601 "EHF Reminder 3.0"](../objects/xmlport/10601-no.md)
+- [xmlport/10618 "Trade Settlement 2017"](../objects/xmlport/10618-no.md)
 
 ## Other versions
 

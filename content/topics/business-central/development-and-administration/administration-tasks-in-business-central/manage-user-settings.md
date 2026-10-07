@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T01:17:01.427Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: df5881c49f74ad94a9e2cb1e7cd8c85f6748e7ef0914aa866b5ad3985a5188ef
@@ -41,11 +41,8 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central
   localizations: []
   videos:
-    - video/7muCHEF593Q
     - video/OszitKuf8t0
-    - video/RNR4wsFeedI
-  posts:
-    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9211406592049654259
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -57,8 +54,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 9171
@@ -83,10 +80,7 @@ Path: [Development and administration](../../development-and-administration.md) 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Version 29: Recently Searched in Tell Me and Recently Used Lookups](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9211406592049654259.md) (community post): "Recently Searched in Tell Me displays previous search history for quick access"
-- [How to Access All Features in Business Central (2025)](../../../../videos/7muCHEF593Q.md) (video): "Role-based Homepages; Business Manager Homepage; Accountant Homepage"
 - [What's Cooking in Business Central: Limiting the Available Product Languages](../../../../videos/OszitKuf8t0.md) (video): "Limiting the Available Product Languages; language settings; administration; user settings; product languages"
-- [What's New: Boost Your Productivity with Business Central (2024 release wave 1)](../../../../videos/RNR4wsFeedI.md) (video): "user experience improvements; modern action bar; mobile client; date picker"
 
 ## Business Central pages and reports
 
