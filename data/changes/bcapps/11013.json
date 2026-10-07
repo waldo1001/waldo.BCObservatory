@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11013,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11013",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T14:42:51Z",
+  "merge_commit_sha": "95ff23b4e17cfa0cedfc411a37ac9f989bb7fc18",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Remove 43 unused DotNet alias declarations",
+  "body_hash": "05eeed7505b0aee5cb4e8d035f141714e734012d1da5b429c440de010c14f9cc",
+  "fixes_issues": [],
+  "work_items": [
+    647963
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 168,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 168,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

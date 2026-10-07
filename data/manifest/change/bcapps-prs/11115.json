@@ -6,10 +6,35 @@
   "title": "[29.x ]Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2",
   "url": "https://github.com/microsoft/BCApps/pull/11115",
   "published_at": "2026-09-08T07:33:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:58.413Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:03.634Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00395
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:03.940Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:03.947Z",
+      "path": "content/changes/bcapps/11115.md"
     }
   },
   "input_hash": "0c7b46a443adaa4cd4066a8cfa132d52eddc3a77:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x trial balance excel report shows incorrect figures and formatting differences compared to trial balance obsolete report in business central v28 2"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c73b55dceff24e792e8559e67f0b47599ce8a45657b4adb239e4b75087ceb839"
 }

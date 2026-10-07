@@ -1,0 +1,103 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10945,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10945",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T18:44:50Z",
+  "merge_commit_sha": "dabf035491dc2f9a47f8c3db549204cb8fdf998f",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]- Slice 641299: [Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method",
+  "body_hash": "4e9acb0bb61790792333e481328bc90a769d08c21048f72f3f050e25fbb1c453",
+  "fixes_issues": [],
+  "work_items": [
+    641299
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Reports/StandardESGSalesInvoice.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Reports/StandardESGSalesInvoiceBlueSimple.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Reports/SustEmissionBasis.Enum.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Reports/SustStandardSalesInvoice.ReportExt.al",
+      "status": "modified",
+      "additions": 115,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustainabilityReportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 240,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 374,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Reports/SustEmissionBasis.Enum.al",
+        "status": "added",
+        "key": "enum/6233",
+        "type": "enum",
+        "id": 6233,
+        "name": "Sust. Emission Basis",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "enum/6233"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Reports/SustStandardSalesInvoice.ReportExt.al",
+        "status": "modified",
+        "key": "reportextension/6299",
+        "type": "reportextension",
+        "id": 6299,
+        "name": "Sust. Standard Sales Invoice",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "reportextension/6299"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10944,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10944",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T05:14:43Z",
+  "merge_commit_sha": "0d1164c24b055ad7ae2a408949e737b3539b2e68",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 643971 - Enhance vendor and customer checks in advance letters and update blocked status validation",
+  "body_hash": "71aed0b807585c37fe39554e1aa2bd64939dddd8b209d2f9355feb661dcc2678",
+  "fixes_issues": [],
+  "work_items": [
+    643971
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreatePurchAdvLetterCZZ.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreateSalesAdvLetterCZZ.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CustomerCZZ.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/test/Src/SalesAdvancePaymentsCZZ.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 27,
+    "deletions": 5,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreatePurchAdvLetterCZZ.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Reports/CreateSalesAdvLetterCZZ.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CustomerCZZ.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

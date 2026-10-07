@@ -6,7 +6,7 @@
   "title": "[Master]-\"The record in table Reminder Line already exists.\" error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used",
   "url": "https://github.com/microsoft/BCApps/pull/11158",
   "published_at": "2026-09-08T09:00:18Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.002963
+    },
+    "linked": {
+      "at": "2026-10-07T13:03:56.583Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:03:56.588Z",
+      "path": "content/changes/bcapps/11158.md"
     }
   },
   "input_hash": "c4447096d7bb541a07598ef234ddb6e230bf8002:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef88f161209f71d7889b0307119cea141507756895405aaa59d345203dd1d13b"
+  "output_hash": "a945765e61e9dfc865891ac4c169bd3e0ba63964f2dd610757d5237c69ec4f49"
 }

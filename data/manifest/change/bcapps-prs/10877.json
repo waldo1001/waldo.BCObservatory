@@ -6,10 +6,35 @@
   "title": "[MAIN]-Bug 648518 Source Currency VAT Amount is zero on G/L Entry when posting sales invoice with Line Discount Deferral Code and Discount Posting is No Discounts",
   "url": "https://github.com/microsoft/BCApps/pull/10877",
   "published_at": "2026-09-07T16:07:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:02.748Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 8,
+      "objects": 4,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:08.169Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004167
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:08.402Z",
+      "objects": 4,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:08.408Z",
+      "path": "content/changes/bcapps/10877.md"
     }
   },
   "input_hash": "f97b83bffeb26964068e66f801bcc41ab7540aea:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648518 source currency vat amount is zero on g l entry when posting sales invoice with line discount deferral code and discount posting is no discounts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb9b719770e32f21dbc41e4f34eee687e3d0377154c5e1bea27cc00289522737"
 }

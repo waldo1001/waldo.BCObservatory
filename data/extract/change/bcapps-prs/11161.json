@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11161",
+  "number": 11161,
+  "title": "[29.x][BE][Purchase Ledger Report] Wrong VAT Amounts on the report",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The Belgium-specific Purchase Ledger report now displays correct VAT amounts on document lines by updating the data source logic and fixing RDLC cell alignment.",
+  "key_points": [
+    "Fixed stale VAT amount values being displayed for certain lines in the report",
+    "Corrected RDLC cell alignment to properly show report layout",
+    "Added test coverage for the VAT amount calculations",
+    "Changes limited to Belgium localization of the report"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Fixing an issue with Belgium-specific Purchase Ledger report that was using stale VAT amount values for certain lines",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003319,
+    "changes_in_call": 1
+  }
+}

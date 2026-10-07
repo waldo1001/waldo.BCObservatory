@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10982",
+  "number": 10982,
+  "title": "[Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A Czech localization report fix re-enables a previously disabled test for reminder automation that logs interactions with issued reminder numbers.",
+  "key_points": [
+    "Test TestReminderAutomationLogsInteractionWithIssuedReminderNumber was disabled in Czech localization",
+    "Single line change in ReminderCZL.Report.al file",
+    "Addresses failure that occurred after BCApps uptake",
+    "Affects reminder automation functionality in Czech localization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Enable disabled TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails which is failing in CZ",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003412,
+    "changes_in_call": 1
+  }
+}

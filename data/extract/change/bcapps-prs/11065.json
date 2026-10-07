@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11065",
+  "number": 11065,
+  "title": "Open installation status after AppSource install failure",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "When an AppSource installation fails synchronously, users now see a prompt offering to open the Extension Installation Status page instead of the operation closing silently.",
+  "key_points": [
+    "Failed AppSource installations now display a prompt to open installation status",
+    "Complements platform-side changes that record failures for published global apps",
+    "UI enhancement without schema or public API modifications",
+    "Includes test coverage for prompt acceptance and decline scenarios",
+    "Low-risk change to extension marketplace management"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "When a synchronous AppSource installation fails, prompt the user to open Extension Installation Status instead of closing silently.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00325,
+    "changes_in_call": 1
+  }
+}

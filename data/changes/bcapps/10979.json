@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10979,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10979",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T14:38:04Z",
+  "merge_commit_sha": "856cb8fbb4440e8773474ee12ef94c709c2a0454",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] Promote Excise Taxes action on Item card",
+  "body_hash": "5896b70369f08b4584f814909bb65a525b60e846cb678f92bf725a25848704bd",
+  "fixes_issues": [],
+  "work_items": [
+    648830
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseItemCardExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExciseTaxes/app/src/pageextension/ExciseItemCardExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7415",
+        "type": "pageextension",
+        "id": 7415,
+        "name": "Excise Item Card Ext",
+        "app": "ExciseTaxes",
+        "cc": "w1",
+        "page": "pageextension/7415"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExciseTaxes"
+  ]
+}

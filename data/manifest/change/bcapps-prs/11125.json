@@ -6,10 +6,35 @@
   "title": "[29.x]-[Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method",
   "url": "https://github.com/microsoft/BCApps/pull/11125",
   "published_at": "2026-09-07T17:19:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:05.393Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:10.349Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003573
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:14.235Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:14.240Z",
+      "path": "content/changes/bcapps/11125.md"
     }
   },
   "input_hash": "28e3a7a43d16d6d55f9433539ce8574584b3c33e:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "sustainability value chain esg layouts request page option to print emissions by item tracking for specific carbon tracking method"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "286f12ca516ec31e261b6d01ea0c402c113d49fd31cfd56daac5533d2e5e6754"
 }

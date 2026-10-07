@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11145,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11145",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-08T05:22:16Z",
+  "merge_commit_sha": "b149af232025ef8709bf1d3b6de175a48eabc8e6",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Disable VAT period checks in E-Document item charge tests",
+  "body_hash": "73197f17ef10f3b64a1d6dd8089354c39638b3ab402ef22f832d68f7609beb67",
+  "fixes_issues": [],
+  "work_items": [
+    649216
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10991",
+  "number": 10991,
+  "title": "[Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "User Management now correctly updates Financial Report Audit Log entries when a user is renamed, ensuring audit records reflect the new user name instead of keeping obsolete references.",
+  "key_points": [
+    "Financial Report Audit Log table was missing from user-renaming logic",
+    "Added table to user-renaming handler in User Management codeunit",
+    "Granted required modify and rename permissions for the audit log table",
+    "Audit log entries now update with new user name when user is renamed",
+    "Added test to verify the audit log update behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "quote": "Added the table to the user-renaming handler and granted the required modify/rename permissions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003483,
+    "changes_in_call": 1
+  }
+}

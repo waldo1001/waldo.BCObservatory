@@ -1,0 +1,201 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10877,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10877",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-07T16:07:42Z",
+  "merge_commit_sha": "f97b83bffeb26964068e66f801bcc41ab7540aea",
+  "author": "v-praghav",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN]-Bug 648518 Source Currency VAT Amount is zero on G/L Entry when posting sales invoice with Line Discount Deferral Code and Discount Posting is No Discounts",
+  "body_hash": "c7f6fc80972316d293845ee0c59e6e132f2472fbbaa317c37d4c46d6f304b387",
+  "fixes_issues": [],
+  "work_items": [
+    648518
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 124,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 124,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 125,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 126,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 124,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 735,
+    "deletions": 40,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/815"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/815"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/815"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/815",
+        "type": "codeunit",
+        "id": 815,
+        "name": "Sales Post Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/815"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

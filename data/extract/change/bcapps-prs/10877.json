@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10877",
+  "number": 10877,
+  "title": "[MAIN]-Bug 648518 Source Currency VAT Amount is zero on G/L Entry when posting sales invoice with Line Discount Deferral Code and Discount Posting is No Discounts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an issue where Source Currency VAT Amount was incorrectly set to zero on G/L entries when posting sales invoices with line discounts, deferral codes, and discount posting set to No Discounts. The VAT amount is now calculated correctly across all scenarios.",
+  "key_points": [
+    "Source Currency VAT Amount now calculates correctly when deferrals, line discounts, and No Discounts posting setting are combined",
+    "The fix ensures VAT calculation uses the formula (Unit Price - Discount) × VAT% in all cases",
+    "All Source Currency amounts now balance correctly across G/L entries",
+    "Test cases added to validate the fix across multiple localization layers",
+    "The posting routine in Sales Post Invoice codeunit was corrected to handle this edge case"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "quote": "Source Currency VAT Amount is not zero when all three conditions are present.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004167,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Master] Promote Excise Taxes action on Item card",
   "url": "https://github.com/microsoft/BCApps/pull/10979",
   "published_at": "2026-09-07T14:38:04Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:07.535Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "856cb8fbb4440e8773474ee12ef94c709c2a0454:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master promote excise taxes action on item card"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a812bb74dccb1a5ce6dc727366e8b77c6c1c1bd0605b44b75831d51d0566c192"
 }

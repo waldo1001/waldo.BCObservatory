@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11125",
+  "number": 11125,
+  "title": "[29.x]-[Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "ESG report layouts now support printing emissions by item tracking details as an alternative to the average calculation method, enabling granular emission reporting for items using specific carbon tracking.",
+  "key_points": [
+    "New enum added for emission basis selection (Average or Details by Item Tracking)",
+    "Request page option allows users to choose emission calculation basis on ESG layouts",
+    "Specific Carbon Tracking Method items can now report emissions per tracking dimension (lot/serial)",
+    "Average remains the default behavior, preserving existing report outputs",
+    "Comprehensive test coverage added for the new functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003573,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Open installation status after AppSource install failure",
   "url": "https://github.com/microsoft/BCApps/pull/11065",
   "published_at": "2026-09-07T15:55:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:04:05.079Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:09.668Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00325
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:09.814Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:09.820Z",
+      "path": "content/changes/bcapps/11065.md"
     }
   },
   "input_hash": "8223efd0e94aa357d73e198c96ad99073182fcf6:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "open installation status after appsource install failure"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f1e7d4b576d3a2e70bf35367236711bf4f194306ead4b57ab82d9679ec97c73"
 }

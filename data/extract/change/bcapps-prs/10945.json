@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10945",
+  "number": 10945,
+  "title": "[Master]- Slice 641299: [Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "ESG sales invoice reports now offer a request-page option to print emissions by item tracking details instead of average values, enabling granular emission reporting for items using the Specific Carbon Tracking Method.",
+  "key_points": [
+    "Added request-page option to choose emission basis: Average (default) or Details by Item Tracking",
+    "Supports Specific Carbon Tracking Method by reporting emissions per tracking dimension (lot/serial)",
+    "Default behavior unchanged; existing printouts unaffected unless new option is selected",
+    "New enum created to define emission basis options",
+    "Comprehensive test coverage added"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003719,
+    "changes_in_call": 1
+  }
+}

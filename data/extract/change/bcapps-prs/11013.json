@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11013",
+  "number": 11013,
+  "title": "Remove 43 unused DotNet alias declarations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Removed 43 unused DotNet alias declarations from the DotNet Aliases app that had no consumers anywhere in the repository, reducing total declarations from 517 to 474.",
+  "key_points": [
+    "Deleted 43 unused type declarations across 6 assemblies (DocumentFormat.OpenXml, netstandard, System.Security.Cryptography.Xml, MimeKit, MailKit, System.Drawing.Common)",
+    "All 49 assembly blocks retained and verified to be non-empty after deletion",
+    "Changes limited to a single file (dotnet.al) with 168 deletions and 0 insertions",
+    "No external extensions can consume these aliases because DotNet interop requires OnPrem target while partners target Cloud",
+    "Zero-usage scan performed across all 36,684 AL files to confirm none of the 43 aliases were referenced"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": "Over time it accumulated alias declarations that nothing consumes.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004476,
+    "changes_in_call": 1
+  }
+}

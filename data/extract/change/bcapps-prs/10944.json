@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/10944",
+  "number": 10944,
+  "title": "[main] bug 643971 - Enhance vendor and customer checks in advance letters and update blocked status validation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Advance letter creation now validates blocked customer and vendor status before proceeding, and customer blocked status check is narrowed to exclude Ship-only blocks which are irrelevant for invoicing.",
+  "key_points": [
+    "Upfront blocked-customer/vendor validation added in Create Sales and Purchase Advance Letter reports",
+    "Blocked status check narrowed from all non-blank states to only All and Invoice blocks",
+    "Customers blocked for shipping only can now have advance letters created",
+    "Blocked status caught earlier in the workflow",
+    "Tests updated to validate new blocking behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003893,
+    "changes_in_call": 1
+  }
+}

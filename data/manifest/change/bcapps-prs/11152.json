@@ -6,10 +6,35 @@
   "title": "[29.x]Mark as Accepted in posted documents for Spanish SII",
   "url": "https://github.com/microsoft/BCApps/pull/11152",
   "published_at": "2026-09-08T07:16:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:03:58.668Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:04:03.961Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004273
+    },
+    "linked": {
+      "at": "2026-10-07T13:04:04.179Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:04:04.185Z",
+      "path": "content/changes/bcapps/11152.md"
     }
   },
   "input_hash": "c8e869c68c171e4741f353a291c8d1b90e426eed:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "mark as accepted in posted documents for spanish sii"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e25996e0d6f03d1e3f9a977d404ff0c415be4f8e5b302223f1f55e62e64eb5f"
 }
