@@ -138,7 +138,7 @@ export async function toolDiffObject(a: { type: string; id: string; from: string
   const key = `${a.type.toLowerCase()}/${a.id.toLowerCase()}`;
   let diff: any;
   try { diff = JSON.parse(await dataFile(`code/diffs/version/${a.from}__${a.to}.json`)); } catch {
-    return `No version diff ${a.from} -> ${a.to}. Diffs exist between consecutive snapshot versions (28 -> 29, 29 -> 30).`;
+    return `No version diff ${a.from} -> ${a.to}. Diffs exist between consecutive majors from BC23 to BC30 (23 -> 24, ..., 29 -> 30); a changed member lists only what differs, as [from, to].`;
   }
   const o = (diff.objects as any[]).find((x) => x.key === key);
   if (!o) return `${key} did not change between BC${a.from} and BC${a.to} (or is not a W1 object).`;

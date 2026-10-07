@@ -15,18 +15,23 @@
  */
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { exists, readJson, writeJson } from "../lib/fsx.js";
+import { exists, writeText, readJson, writeJson } from "../lib/fsx.js";
 import { logger } from "../lib/log.js";
 import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./extract.js";
-import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
+import { fullSnapshotRoot, isSkeleton, iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
 import { buildRelations } from "./relations.js";
 import { areaOf } from "../lib/systems.js";
 
 const log = logger("code-diff");
 /** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
-export const DERIVED_VERSION = 5;
+export const DERIVED_VERSION = 6; // 6: changed members as a delta (D62)
 
-export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown }
+/**
+ * A member that differs between two versions. Added: `to`. Removed: `from`. Changed: `to` is its new shape without its
+ * properties (the signature readers show) and `delta` holds exactly what differs, each as [from, to], properties one by
+ * one (D62): BC28 added AutoFormatType to 12,000 fields, and a full before-and-after per member made 27→28 16 MB.
+ */
+export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown; delta?: Record<string, unknown> }
 export interface ObjectDiff {
   key: string; name: string; change: "added" | "removed" | "changed" | "replaced";
   /** Namespace of the object (the newer side), for grouping by area (D49). */
@@ -48,10 +53,24 @@ function members<T>(a: T[], b: T[], id: (x: T) => string, name: (x: T) => string
   for (const [k, x] of B) {
     const y = A.get(k);
     if (!y) out.push({ id: k, name: name(x), change: "added", to: view(x) });
-    else if (!same(view(y), view(x))) out.push({ id: k, name: name(x), change: "changed", from: view(y), to: view(x) });
+    else if (!same(view(y), view(x))) out.push({ id: k, name: name(x), change: "changed", ...changedMember(view(y), view(x)) });
   }
   for (const [k, y] of A) if (!B.has(k)) out.push({ id: k, name: name(y), change: "removed", from: view(y) });
   return out;
+}
+/** The compact form of a changed member: its new shape minus properties, and a [from, to] per differing part (D62). */
+export function changedMember(fromView: unknown, toView: unknown): { to: Record<string, unknown>; delta: Record<string, unknown> } {
+  const f = (fromView ?? {}) as Record<string, unknown>, t = (toView ?? {}) as Record<string, unknown>;
+  const { properties: _p, ...to } = t;
+  const delta: Record<string, unknown> = {};
+  for (const k of new Set([...Object.keys(f), ...Object.keys(t)])) if (k !== "properties" && !same(f[k], t[k])) delta[k] = [f[k] ?? null, t[k] ?? null];
+  if (f.properties || t.properties) {
+    const fp = (f.properties ?? {}) as Record<string, string>, tp = (t.properties ?? {}) as Record<string, string>;
+    const pd: Record<string, [string | null, string | null]> = {};
+    for (const k of [...new Set([...Object.keys(fp), ...Object.keys(tp)])].sort()) if (fp[k] !== tp[k]) pd[k] = [fp[k] ?? null, tp[k] ?? null];
+    if (Object.keys(pd).length) delta.properties = pd;
+  }
+  return { to, delta };
 }
 const procView = (p: AlProcedure) => ({ scope: p.scope, params: p.params, returns: p.returns, event: p.event, obsolete: p.obsolete, subscribes_to: p.subscribes_to, attributes: p.attributes });
 
@@ -194,11 +213,22 @@ const manifestOf = (dataDir: string, major: string, cc: string): SnapshotManifes
 };
 const ref = (major: string, cc: string, m: SnapshotManifest): Ref => ({ version: major, country: cc, commit: m.commit });
 /** Write `doc` unless the file already records the same inputs. */
-function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unknown): boolean {
+function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unknown, layout: "pretty" | "by-object" = "pretty"): boolean {
   const inputs = [DERIVED_VERSION, inputs0];
   if (exists(path) && same(readJson<{ inputs?: unknown }>(path).inputs, inputs)) return false;
-  writeJson(path, { inputs, ...(build() as object) });
+  const value = { inputs, ...(build() as object) };
+  if (layout === "by-object") writeText(path, byObject(value)); else writeJson(path, value);
   return true;
+}
+/**
+ * A diff as compact JSON with one object per line (D62): still one valid JSON document, half the size of indented
+ * JSON (27→28 is 11 MB indented, 6 MB this way), and a git diff of it still reads object by object.
+ */
+export function byObject(value: Record<string, unknown>): string {
+  const { objects, ...head } = value;
+  if (!Array.isArray(objects)) return `${JSON.stringify(value)}\n`;
+  const h = JSON.stringify(head);
+  return `${h.slice(0, -1)}${h.length > 2 ? "," : ""}"objects":[\n${objects.map((o) => JSON.stringify(o)).join(",\n")}\n]}\n`;
 }
 
 export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; matrix?: boolean; written: number }
@@ -226,30 +256,47 @@ export function countryMatrix(diffs: { cc: string; diff: AlDiff }[]): CountryMat
 }
 
 /** Recompute everything derived from the snapshots whose inputs changed. Majors in numeric order. */
-export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDerivedRun {
+export function refreshCodeDerived(dataDir: string, majors: string[], o: { cacheDir?: string } = {}): CodeDerivedRun {
   const run: CodeDerivedRun = { version_diffs: 0, country_diffs: 0, timelines: 0, deprecations: 0, written: 0 };
-  const present = majors.filter((m) => manifestOf(dataDir, m, "w1")).sort((a, b) => Number(a) - Number(b));
-  if (!present.length) return run;
+  // every major with a W1 snapshot, older ones as skeletons (D62); `present` = the full ones, which everything but the
+  // version diffs and the timelines reads
+  const all = majors.filter((m) => manifestOf(dataDir, m, "w1")).sort((a, b) => Number(a) - Number(b));
+  const present = all.filter((m) => !isSkeleton(dataDir, m));
+  if (!all.length) return run;
   // memory: at most two W1 snapshots at a time (a version diff); everything else streams
   const cache = new Map<string, AlObject[]>();
   const w1 = (m: string) => {
     if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, readSnapshot(dataDir, m, "w1")); }
     return cache.get(m)!;
   };
+  /** The full W1 objects of a major: from data/ for a full one, from the runner's cache for a skeleton, else null. */
+  const fullW1 = (m: string): AlObject[] | null => {
+    if (!isSkeleton(dataDir, m)) return w1(m);
+    if (!o.cacheDir || !manifestOf(fullSnapshotRoot(o.cacheDir), m, "w1")) return null;
+    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, readSnapshot(fullSnapshotRoot(o.cacheDir), m, "w1")); }
+    return cache.get(m)!;
+  };
   const root = resolve(dataDir, "code");
 
-  for (let i = 1; i < present.length; i++) {
-    const [a, b] = [present[i - 1], present[i]];
+  for (let i = 1; i < all.length; i++) {
+    const [a, b] = [all[i - 1], all[i]];
     const ma = manifestOf(dataDir, a, "w1")!, mb = manifestOf(dataDir, b, "w1")!;
     run.version_diffs++;
-    if (writeIfInputsChanged(resolve(root, "diffs", "version", `${a}__${b}.json`), [ma.commit, mb.commit, ma.extractor, mb.extractor], () => versionDiff(w1(a), w1(b), ref(a, "w1", ma), ref(b, "w1", mb)))) run.written++;
+    const out = resolve(root, "diffs", "version", `${a}__${b}.json`);
+    // an older major's full copy is only in the runner's cache: without it the committed diff stays as it is
+    const inputs = [ma.commit, mb.commit, ma.extractor, mb.extractor];
+    if (!exists(out) || !same(readJson<{ inputs?: unknown }>(out).inputs, [DERIVED_VERSION, inputs])) {
+      const [fa, fb] = [fullW1(a), fullW1(b)];
+      if (!fa || !fb) { log.warn(`version diff ${a}__${b}: the full snapshot of ${fa ? b : a} is not in the cache; kept as committed`); continue; }
+    }
+    if (writeIfInputsChanged(out, inputs, () => versionDiff(fullW1(a)!, fullW1(b)!, ref(a, "w1", ma), ref(b, "w1", mb)), "by-object")) run.written++;
   }
   for (const m of present) {
     const mw = manifestOf(dataDir, m, "w1")!;
     for (const cc of countriesOf(dataDir, m)) {
       const mc = manifestOf(dataDir, m, cc)!;
       run.country_diffs++;
-      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), readSnapshot(dataDir, m, cc), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)))) run.written++;
+      if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), readSnapshot(dataDir, m, cc), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)), "by-object")) run.written++;
     }
     run.deprecations++;
     if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor], () => {
@@ -278,15 +325,16 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
       countryMatrix([...newest].sort(([a], [b]) => a.localeCompare(b)).map(([cc, { m }]) => ({ cc, diff: readJson<AlDiff>(resolve(root, "diffs", "country", `${m}-${cc}.json`)) }))));
     if (run.matrix) run.written++;
   }
-  const inputs = [DERIVED_VERSION, ...present.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit])];
+  const inputs = [DERIVED_VERSION, ...all.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit])];
   const tlDir = resolve(root, "timelines");
   const stamp = resolve(tlDir, "_inputs.json");
   if (!exists(stamp) || !same(readJson(stamp), inputs)) {
     cache.clear();
     // timelines need only key, name, hash and obsolete state per object
     const slim = (m: string) => [...iterSnapshot(dataDir, m, "w1")].map((o) => ({ type: o.type, id: o.id, name: o.name, hash: o.hash, obsolete: o.obsolete }) as AlObject);
-    const byType = timelines(present.map((m) => ({ version: m, objects: slim(m) })));
-    for (const [type, map] of byType) { writeJson(resolve(tlDir, `${type}.json`), { versions: present, objects: map }); run.written++; }
+    // the skeletons carry exactly these fields, so the timelines reach back to the oldest major
+    const byType = timelines(all.map((m) => ({ version: m, objects: slim(m) })));
+    for (const [type, map] of byType) { writeJson(resolve(tlDir, `${type}.json`), { versions: all, objects: map }); run.written++; }
     writeJson(stamp, inputs);
     run.timelines = byType.size;
   }

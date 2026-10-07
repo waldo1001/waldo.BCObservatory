@@ -455,3 +455,21 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   backfill runs may set `BCOBS_GITHUB_TOKEN` from the Mini env file; a rate limit holds items and leaves the cursor
   instead of failing. Backfill three months. Open pull requests, issues, releases and other repositories are later
   phases of the same spec.
+- **D62 Older majors as diffs: BC23-27, with compact diffs.** The owner chose diffs back to 23 over full snapshots
+  (2026-10-07). Base App is in BCApps only from 29, so 23-27 come from the sandbox history (w1-23 to w1-27), like 28,
+  and are marked `diff_only`. Such a major's code job extracts W1 only (no countries, no apps), writes the full
+  snapshot into the runner's cache (`<cache>/code-snapshots`, outside the repository) and a skeleton into data/: key,
+  name, app, hash and obsolete state per object, which is exactly what the timelines read (1.8 MB for BC27, against
+  38 MB for its full copy). `refreshCodeDerived` diffs consecutive majors through the cached full copies and
+  computes the timelines over every major; the radar, the relations, the docs join and the object pages read full
+  majors only, so an object that existed only before 28 gets no page from a skeleton. A lost cache leaves committed
+  diffs untouched (logged), and a skeleton is never diffed. The timeline runs from the oldest major, as one row that
+  scrolls sideways on a phone and opens at the newest. Measured on the real BC27: 9,193 objects, 23 s, 222 MB; the
+  27→28 diff has 2,027 changed objects (254 added, 31 removed, +847 procedures, +481 events).
+  That diff first came to 16 MB: BC28 added AutoFormatType to 12,424 fields, and a changed member was stored as a
+  full before-and-after. A changed member now keeps its signature as `to` (what the country diff and the MCP need)
+  and a `delta` of exactly what differs, property by property; and diffs are written as compact JSON with one object
+  per line (still one JSON document, git diffs still per object). 27→28 is 5.6 MB, 28→29 2.9 → 1.2 MB, the country
+  diffs 15 → 8.1 MB, so the five older transitions roughly pay for themselves. `DERIVED_VERSION` 6 rewrites every
+  derived file once. At code_jobs 1 a night the extractor bump of D58 runs first (bcapps 29 and 30: DK and IN), then
+  sandbox-history 23-28: the full history lands over about eight nights.

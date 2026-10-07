@@ -58,6 +58,7 @@ import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
 import { linkTopics, type TopicLinkRun } from "../link/topics.js";
 import { reviewTopicLinks, type TopicReviewRun } from "../review/topics.js";
 import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
+import { isSkeleton } from "../code/job.js";
 import { refreshDocsObjects } from "../code/docs-objects.js";
 import { renderCodePages, type CodePagesRun } from "../render/object.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
@@ -282,7 +283,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     };
     try {
       const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
-      report.code = await phase("code-derived", () => ({ ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) }));
+      // older majors are skeletons with their full copy in the cache (D62); the docs join reads full majors only
+      const full = majors.filter((m) => !isSkeleton(opts.dataDir, m));
+      report.code = await phase("code-derived", () => ({ ...refreshCodeDerived(opts.dataDir, majors, { cacheDir: opts.cacheDir }), docs_objects: refreshDocsObjects(opts.dataDir, full, manifest.list("docs")) }));
       // narratives also run after a clean memory stop (catch-up runs end that way)
       if (execution.stop_reason === "done" || execution.stop_reason === "memory") {
         const { errors: nErr, ...nRun } = await optionalPhase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) })) ?? { errors: [] as string[], ready: 0, refreshed: 0, failed: 0, waiting: [], stopped: "skipped" };

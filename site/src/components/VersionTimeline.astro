@@ -16,7 +16,7 @@ const cols = majors().map(({ version, label }, i) => {
   return { version, label, present, changed, text };
 });
 ---
-<section aria-labelledby="timeline">
+<section aria-labelledby="timeline" class="tl">
   <h2 class="section-title" id="timeline">Across versions{obsolete?.state && <small>obsolete {String(obsolete.state).toLowerCase()}{obsolete.tag ? ` since ${obsolete.tag}` : ""}</small>}</h2>
   <ol class="timeline">
     {cols.map((c) => (
@@ -28,8 +28,14 @@ const cols = majors().map(({ version, label }, i) => {
     ))}
   </ol>
 </section>
+<script>
+  // where the row scrolls, show the newest majors first
+  for (const ol of document.querySelectorAll<HTMLElement>(".tl .timeline")) if (ol.scrollWidth > ol.clientWidth) ol.scrollLeft = ol.scrollWidth;
+</script>
 <style>
-  .timeline { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); }
+  /* one row, however many majors (BC23-30 once the older ones are in, D62): it scrolls sideways where it does not fit */
+  .timeline { list-style: none; padding: 0 0 6px; margin: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(104px, 1fr); overflow-x: auto; scroll-snap-type: x proximity; }
+  .timeline li { scroll-snap-align: end; }
   .timeline li { position: relative; padding: 22px 12px 0 0; display: grid; gap: 2px; }
   .timeline li::before { content: ""; position: absolute; top: 6px; left: 0; right: 0; height: 1px; background: var(--line-strong); }
   .timeline li:last-child::before { right: auto; width: 12px; }

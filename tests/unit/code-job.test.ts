@@ -1,13 +1,13 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { mkdtempSync } from "node:fs";
+import { existsSync, mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import type { StageFn } from "../../pipeline/orchestrator/execute.js";
-import { bcappsCountries, codeExtracted, codeFetched, jobFor, layerChain, readSnapshot, snapshotDir, type SourceCodeConfig } from "../../pipeline/code/job.js";
+import { bcappsCountries, codeExtracted, codeFetched, fullSnapshotRoot, jobFor, layerChain, readSnapshot, snapshotDir, type SourceCodeConfig } from "../../pipeline/code/job.js";
 import { readJson } from "../../pipeline/lib/fsx.js";
 import { extractSource, loadParser } from "../../pipeline/code/extract.js";
 
@@ -124,4 +124,32 @@ test("BCApps job: an object shipped by two apps keeps both copies; a country cop
   const bem = readJson<any>(join(snapshotDir(dataDir, "29", "be"), "manifest.json"));
   assert.equal(be.app, "Base Application");
   assert.deepEqual([bem.added, bem.replaced], [2, 1], "report 11300 and BE's CODA app table are new; table 242 replaces the Base Application copy");
+});
+
+test("an older major (config diff_only) leaves a skeleton in data and its full copy in the cache, no countries (D62)", async () => {
+  // Code History shape: one complete branch, the apps at the top level
+  const repo = mkdtempSync(join(tmpdir(), "bcobs-history-"));
+  writeText(join(repo, "Base Application/Customer.Table.al"), al("table", 18, "Customer", "fields { field(1; \"No.\"; Code[20]) { } }"));
+  writeText(join(repo, "System Application/Helper.Codeunit.al"), al("codeunit", 1, "Helper"));
+  writeText(join(repo, "Business Foundation/NoSeries.Table.al"), al("table", 308, "No. Series"));
+  const g = (...a: string[]) => execFileSync("git", a, { cwd: repo, stdio: "pipe" });
+  g("init", "-q"); g("add", "-A"); g("-c", "user.name=t", "-c", "user.email=t@e", "commit", "-q", "-m", "x");
+  const dataDir = join(mkdtempSync(join(tmpdir(), "bcobs-codedata-")), "data");
+  const cacheDir = mkdtempSync(join(tmpdir(), "bcobs-cache-"));
+  const checkouts: string[] = [];
+  const deps = { cacheDir, checkout: async (_url: string, branch: string, _p: string[], dir: string) => { checkouts.push(branch); execFileSync("ln", ["-s", repo, dir]); return "abc"; } };
+  execFileSync("mkdir", ["-p", join(cacheDir, "code")]);
+  const it = item("sandbox-history", "23"); // config/versions.json: BC23 from w1-23, diff_only
+  assert.equal(jobFor(it)?.diffOnly, true);
+  await run(codeFetched(deps))(it, { dataDir } as any);
+  const r = await run(codeExtracted(deps))(it, { dataDir } as any);
+  assert.equal((r as any).data.diff_only, true);
+  assert.deepEqual(checkouts, ["w1-23"], "W1 only: the country branches are not checked out");
+  const skel = readSnapshot(dataDir, "23", "w1");
+  assert.deepEqual(skel.map((o) => `${o.type}/${o.id}`).sort(), ["codeunit/1", "table/18", "table/308"]);
+  assert.ok(skel.every((o) => (o as any).fields === undefined && o.hash), "key, name, hash, obsolete: no members");
+  assert.equal(readJson<any>(join(snapshotDir(dataDir, "23", "w1"), "manifest.json")).layer, "skeleton");
+  const full = readSnapshot(fullSnapshotRoot(cacheDir), "23", "w1").find((o) => o.id === 18)!;
+  assert.equal(full.fields.length, 1, "the full copy, for the version diff, is in the cache");
+  for (const cc of ["be", "nl"]) assert.equal(existsSync(snapshotDir(dataDir, "23", cc)), false);
 });

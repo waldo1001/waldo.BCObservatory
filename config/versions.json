@@ -1,5 +1,5 @@
 {
- "$comment": "Which BC versions the code pillar snapshots in full. Older versions are kept as diffs only (v0.2+). Base App exists in microsoft/BCApps only from 29.0; 28.x Base App comes from StefanMaron's history repos.",
+ "$comment": "Which BC versions the code pillar snapshots in full. Older versions are kept as diffs only (v0.2+). Base App exists in microsoft/BCApps only from 29.0; 28.x Base App comes from StefanMaron's history repos. `diff_only` majors (23-27, D62) are extracted into the runner's cache: the repository keeps their version diffs and a skeleton (key, name, hash, obsolete state) for the timelines, no countries and no apps. They come from the sandbox history, which has w1-23 to w1-29; only the branch they are read from is listed, so ingest discovers no code items it would decline.",
  "snapshot": [
   "28",
   "29",
@@ -11,6 +11,36 @@
   "30"
  ],
  "majors": {
+  "23": {
+   "label": "2023 release wave 2 (BC23)",
+   "sandbox_branch": "w1-23",
+   "snapshot_source": "sandbox-history",
+   "diff_only": true
+  },
+  "24": {
+   "label": "2024 release wave 1 (BC24)",
+   "sandbox_branch": "w1-24",
+   "snapshot_source": "sandbox-history",
+   "diff_only": true
+  },
+  "25": {
+   "label": "2024 release wave 2 (BC25)",
+   "sandbox_branch": "w1-25",
+   "snapshot_source": "sandbox-history",
+   "diff_only": true
+  },
+  "26": {
+   "label": "2025 release wave 1 (BC26)",
+   "sandbox_branch": "w1-26",
+   "snapshot_source": "sandbox-history",
+   "diff_only": true
+  },
+  "27": {
+   "label": "2025 release wave 2 (BC27)",
+   "sandbox_branch": "w1-27",
+   "snapshot_source": "sandbox-history",
+   "diff_only": true
+  },
   "28": {
    "label": "2026 release wave 1 (BC28)",
    "bcapps_branch": "releases/28.x",

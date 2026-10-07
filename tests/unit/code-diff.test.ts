@@ -1,12 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { validate } from "../../pipeline/lib/schema.js";
 import { EXTRACTOR_VERSION, extractSource, loadParser, type AlObject } from "../../pipeline/code/extract.js";
-import { countryDiff, DERIVED_VERSION, deprecations, refreshCodeDerived, timelines, versionDiff } from "../../pipeline/code/diff.js";
-import { writeSnapshot } from "../../pipeline/code/job.js";
+import { byObject, changedMember, countryDiff, DERIVED_VERSION, deprecations, refreshCodeDerived, timelines, versionDiff } from "../../pipeline/code/diff.js";
+import { fullSnapshotRoot, isSkeleton, readSnapshot, skeletonOf, writeSnapshot } from "../../pipeline/code/job.js";
 
 async function objs(src: string, version: string, country = "w1"): Promise<AlObject[]> {
   return extractSource(await loadParser(), src, { version, country, layer: country === "w1" ? "base" : "overlay", file: "x.al" });
@@ -106,4 +106,58 @@ test("refresh writes diffs, timelines and radar once, and again only when a snap
   const diff = JSON.parse(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"));
   assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [DERIVED_VERSION, ["c28", "c29", EXTRACTOR_VERSION, EXTRACTOR_VERSION]]]);
   assert.equal(refreshCodeDerived(dataDir, ["28", "29"]).written, 0, "unchanged inputs: nothing rewritten");
+});
+
+test("an older major kept as a diff: skeleton in data, full copy in the cache, history reaching back (D62)", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-derive-old-"));
+  const dataDir = join(root, "data"), cacheDir = join(root, "cache");
+  const man = (major: string, layer: "base" | "skeleton", commit: string) => ({ major, country: "w1", layer, source: "sandbox-history", repo: "r", branch: "b", commit, build: null, apps: ["Base Application"], files: 1, parse_errors: 0 });
+  const full28 = await objs(V28, "28");
+  // 28 kept as a diff: the full copy in the cache, a skeleton in data/; 29 in full as usual
+  writeSnapshot(fullSnapshotRoot(cacheDir), full28, man("28", "base", "c28"));
+  writeSnapshot(dataDir, full28.map(skeletonOf), man("28", "skeleton", "c28"));
+  writeSnapshot(dataDir, await objs(V29, "29"), man("29", "base", "c29"));
+  assert.equal(isSkeleton(dataDir, "28"), true);
+  assert.ok(readSnapshot(dataDir, "28", "w1").every((o) => (o as any).fields === undefined), "the skeleton carries no members");
+
+  const r = refreshCodeDerived(dataDir, ["28", "29"], { cacheDir });
+  assert.equal(r.version_diffs, 1);
+  const diff = JSON.parse(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"));
+  const customer = diff.objects.find((o: any) => o.key === "table/18");
+  assert.ok(customer.fields.some((f: any) => f.name === "Email" && f.change === "added"), "member-level diff, from the cached full copy");
+  assert.equal(r.deprecations, 1, "the radar reads only the full major");
+  assert.ok(!existsSync(join(dataDir, "code/deprecations/28.json")) && !existsSync(join(dataDir, "code/relations/28.json")));
+  const tl = JSON.parse(readFileSync(join(dataDir, "code/timelines/table.json"), "utf8"));
+  assert.deepEqual(tl.versions, ["28", "29"], "the timeline reaches back to the skeleton");
+
+  // a lost cache leaves the committed diff alone
+  const before = readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8");
+  refreshCodeDerived(dataDir, ["28", "29"], {});
+  assert.equal(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"), before);
+});
+
+test("an older major with neither a diff nor a cached copy is skipped, not diffed from its skeleton", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-derive-old-"));
+  const dataDir = join(root, "data");
+  const man = (major: string, layer: "base" | "skeleton", commit: string) => ({ major, country: "w1", layer, source: "s", repo: "r", branch: "b", commit, build: null, apps: [], files: 1, parse_errors: 0 });
+  writeSnapshot(dataDir, (await objs(V28, "28")).map(skeletonOf), man("28", "skeleton", "c28"));
+  writeSnapshot(dataDir, await objs(V29, "29"), man("29", "base", "c29"));
+  refreshCodeDerived(dataDir, ["28", "29"], { cacheDir: join(root, "no-cache") });
+  assert.ok(!existsSync(join(dataDir, "code/diffs/version/28__29.json")));
+});
+
+test("a changed member keeps its signature and only what differs, property by property (D62)", () => {
+  const from = { name: "Discount %", type: "Decimal", obsolete: null, clean: null, properties: { Caption: "Discount %", MaxValue: "100" } };
+  const to = { name: "Discount %", type: "Decimal", obsolete: null, clean: null, properties: { AutoFormatType: "0", Caption: "Discount %", MaxValue: "100" } };
+  const c = changedMember(from, to);
+  assert.deepEqual(c.to, { name: "Discount %", type: "Decimal", obsolete: null, clean: null }, "the signature, no properties");
+  assert.deepEqual(c.delta, { properties: { AutoFormatType: [null, "0"] } }, "only the property that changed");
+  assert.deepEqual(changedMember({ type: "Text[30]", properties: {} }, { type: "Text[50]", properties: {} }).delta, { type: ["Text[30]", "Text[50]"] });
+});
+
+test("a diff is written as one JSON document with one object per line (D62)", () => {
+  const text = byObject({ inputs: [1], schema: "al-diff@1", objects: [{ key: "table/18" }, { key: "table/23" }] });
+  assert.deepEqual(JSON.parse(text), { inputs: [1], schema: "al-diff@1", objects: [{ key: "table/18" }, { key: "table/23" }] });
+  assert.deepEqual(text.trim().split("\n"), ['{"inputs":[1],"schema":"al-diff@1","objects":[', '{"key":"table/18"},', '{"key":"table/23"}', "]}"]);
+  assert.deepEqual(JSON.parse(byObject({ objects: [] })), { objects: [] });
 });

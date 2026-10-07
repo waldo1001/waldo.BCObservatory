@@ -41,14 +41,14 @@ interface Versions { majors: Record<string, Record<string, unknown>>; repos: Rec
 const REPO_KEY: Record<string, string> = { bcapps: "bcapps", "sandbox-history": "sandbox_history", "onprem-history": "onprem_history" };
 const BRANCH_FIELD: Record<string, string> = { bcapps: "bcapps_branch", "sandbox-history": "sandbox_branch", "onprem-history": "onprem_branch" };
 
-export interface CodeJob { source: string; major: string; repo: string; branch: string; cfg: SourceCodeConfig }
+export interface CodeJob { source: string; major: string; repo: string; branch: string; cfg: SourceCodeConfig; diffOnly: boolean }
 /** The job for a code item, or null when the item is not its major's snapshot source. */
 export function jobFor(item: Pick<ManifestItem, "source" | "meta">, versions: Versions = loadConfig<Versions>("versions")): CodeJob | null {
   const major = String(item.meta?.major ?? "");
   const def = versions.majors[major];
   const cfg = versions.code?.[item.source];
   if (!def || !cfg || def.snapshot_source !== item.source) return null;
-  return { source: item.source, major, repo: versions.repos[REPO_KEY[item.source]], branch: String(def[BRANCH_FIELD[item.source]]), cfg };
+  return { source: item.source, major, repo: versions.repos[REPO_KEY[item.source]], branch: String(def[BRANCH_FIELD[item.source]]), cfg, diffOnly: def.diff_only === true };
 }
 export const codeCheckoutDir = (cacheDir: string, job: Pick<CodeJob, "source" | "major">, country = "w1") =>
   resolve(cacheDir, "code", `${job.source}-${job.major}${country === "w1" ? "" : `-${country}`}`);
@@ -168,13 +168,24 @@ export function overlay(w1: Map<string, AlObject>, country: Map<string, AlObject
 }
 
 export interface SnapshotManifest {
-  schema: "code-snapshot@1"; major: string; country: string; layer: "base" | "overlay"; source: string; repo: string; branch: string;
+  schema: "code-snapshot@1"; major: string; country: string; layer: "base" | "overlay" | "skeleton"; source: string; repo: string; branch: string;
   commit: string; build: string | null; extractor: string; grammar: string; apps: string[]; files: number; parse_errors: number;
   objects: number; by_type: Record<string, number>; shards: string[]; added?: number; replaced?: number; absent?: string[];
   /** BCApps layer chain of a country view, e.g. ["w1", "dach", "de"]. */
   chain?: string[];
 }
 export const snapshotDir = (dataDir: string, major: string, country: string) => resolve(dataDir, "code", major, country);
+/**
+ * Older majors are kept as diffs (PLAN 4.6, D62): their full W1 snapshot lives in the runner's cache, outside the
+ * repository, and data/ gets a skeleton of key, name, hash and obsolete state per object, which is all a timeline
+ * needs. This root takes the place of a data dir for the full copies: <cache>/code-snapshots/code/<major>/w1.
+ */
+export const fullSnapshotRoot = (cacheDir: string) => resolve(cacheDir, "code-snapshots");
+export const skeletonOf = (o: AlObject) => ({ type: o.type, id: o.id, name: o.name, app: o.app, hash: o.hash, obsolete: o.obsolete }) as AlObject;
+export function isSkeleton(dataDir: string, major: string): boolean {
+  const p = join(snapshotDir(dataDir, major, "w1"), "manifest.json");
+  return existsSync(p) && (JSON.parse(readFileSync(p, "utf8")) as SnapshotManifest).layer === "skeleton";
+}
 
 /** Replace a snapshot's shards: objects sorted by key per type, split at SHARD_BYTES; commit/build moved to the manifest. */
 export function writeSnapshot(dataDir: string, objects: AlObject[], m: Omit<SnapshotManifest, "schema" | "objects" | "by_type" | "shards" | "extractor" | "grammar">): SnapshotManifest {
@@ -255,7 +266,16 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
       const commit = (await git(["rev-parse", "HEAD"], root)).trim();
       const base = { source: job.source, repo: job.repo };
       const w1 = await extractApps(root, job.cfg.w1, { version: job.major, country: "w1", layer: "base", docs: job.cfg.docs });
-      writeSnapshot(ctx.dataDir, [...w1.objects.values()], { ...base, major: job.major, country: "w1", layer: "base", branch: job.branch, commit, build: w1.build, apps: job.cfg.w1.map((a) => a.app), files: w1.files, parse_errors: w1.errors });
+      const w1m = { ...base, major: job.major, country: "w1", branch: job.branch, commit, build: w1.build, apps: job.cfg.w1.map((a) => a.app), files: w1.files, parse_errors: w1.errors };
+      if (job.diffOnly) {
+        // D62: the full copy for the version diff stays in the cache; the repository gets the skeleton. No countries
+        // and no apps: an older major is there for the W1 history, not for its localizations.
+        writeSnapshot(fullSnapshotRoot(deps.cacheDir), [...w1.objects.values()], { ...w1m, layer: "base" });
+        writeSnapshot(ctx.dataDir, [...w1.objects.values()].map(skeletonOf), { ...w1m, layer: "skeleton" });
+        log.info(`code ${job.source}/${job.major}: ${w1.objects.size} W1 objects, kept as a diff`);
+        return { output_hash: commit, data: { commit, w1_objects: w1.objects.size, files: w1.files, parse_errors: w1.errors, diff_only: true } };
+      }
+      writeSnapshot(ctx.dataDir, [...w1.objects.values()], { ...w1m, layer: "base" });
       let appObjects = 0;
       if (job.cfg.apps) {
         const apps = expandApps(root, job.cfg.apps);

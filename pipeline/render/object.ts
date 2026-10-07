@@ -22,7 +22,7 @@ import { exists, listFiles, readJson, readText, removeIfExists, writeText } from
 import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
 import { objectKey, type AlObject, type AlProcedure } from "../code/extract.js";
-import { iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
+import { isSkeleton, iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
 import { areaOf } from "../lib/systems.js";
@@ -90,6 +90,8 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     }
   }
   for (const m of order) {
+    // an older major is a skeleton (D62): it adds to an object's life (versions, changes), never its facts or a page
+    if (isSkeleton(dataDir, m)) continue;
     const man = (part: string) => readJson<SnapshotManifest>(resolve(snapshotDir(dataDir, m, part), "manifest.json"));
     const w1m = man("w1");
     const appm = exists(resolve(snapshotDir(dataDir, m, APPS), "manifest.json")) ? man(APPS) : w1m;
