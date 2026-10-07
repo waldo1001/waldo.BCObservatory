@@ -6,10 +6,35 @@
   "title": "[Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank",
   "url": "https://github.com/microsoft/BCApps/pull/8878",
   "published_at": "2026-07-15T15:48:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:17.177Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:21.846Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003123
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:22.004Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:22.016Z",
+      "path": "content/changes/bcapps/8878.md"
     }
   },
   "input_hash": "4ed60c94abde6d10f8777fec56014c635aecde9b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "master service item does not populate ship to country region code when ship to code is blank"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0ded2a3724b549af58f0df69776e2f43a02e557c20f5d1b0ba71a6c3d10c2f29"
 }

@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9140",
+  "number": 9140,
+  "title": "Remap object IDs during Payment Management FR data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Payment Management FR now automatically remaps legacy report and xmlport IDs to their new equivalents when the app is activated, eliminating manual reconfiguration after upgrade.",
+  "key_points": [
+    "Added RemapPaymentStepObjectIDs() method to remap legacy report and xmlport IDs in Payment Step FR records during upgrade",
+    "Built-in mapping covers standard Microsoft FR payment reports and xmlport, with zero values and unmapped IDs left untouched",
+    "New OnAfterRemapPaymentStepObjectIDs integration event allows partners to remap custom reports and xmlports"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003665,
+    "changes_in_call": 1
+  }
+}

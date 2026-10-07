@@ -6,10 +6,25 @@
   "title": "[main] Ship to address Var/protected var fix",
   "url": "https://github.com/microsoft/BCApps/pull/9397",
   "published_at": "2026-07-15T14:22:46Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:24.188Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:31.450Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003263
     }
   },
   "input_hash": "9a16e9d99af31aee6699bc3b048221836df05c48:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "ship to address var protected var fix"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea33ec343093a8b3fab90ffaa3187951d800f30c3040fe50636bccd9cabdad7b"
 }

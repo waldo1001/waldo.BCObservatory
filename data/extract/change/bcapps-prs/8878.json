@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/8878",
+  "number": 8878,
+  "title": "[Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service Item Card now populates Ship-to Country/Region Code from the customer's default location when no specific Ship-to Code is selected.",
+  "key_points": [
+    "Service Item Card page modified to handle blank Ship-to Code scenarios",
+    "Ship-to Country/Region Code now derives from customer's default shipping location",
+    "Fixes behavior where country/region code was not populated in certain cases",
+    "Test coverage added to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003123,
+    "changes_in_call": 1
+  }
+}

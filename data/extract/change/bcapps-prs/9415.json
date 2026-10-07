@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9415",
+  "number": 9415,
+  "title": "[ALAppExtensions #30294][Event Change Request] Report 12121 \"G/L Book - Print\" - \"OnPreDataItemOnAfterSetGLBookEntryFilters\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A new integration event is added to the G/L Book - Print report that allows partners to set custom filters on G/L Book Entry before validation runs.",
+  "key_points": [
+    "Adds OnPreDataItemOnAfterSetGLBookEntryFilters integration event",
+    "Event fires after standard filters are set but before FindFirst() validation",
+    "Partners can add custom filters through subscription",
+    "No behavior change when event is unsubscribed",
+    "Additive change with no impact on existing functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003331,
+    "changes_in_call": 1
+  }
+}

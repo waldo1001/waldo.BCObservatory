@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/7938",
+  "number": 7938,
+  "title": "Bugs/632378 make quality inspection gen rule warning actionable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "Quality inspection generation rule warnings can now be directly acted upon through actionable UI elements in the receiving and warehouse guides, making it easier for users to handle issues with inspection rules.",
+  "key_points": [
+    "Warnings about quality inspection generation rules can now be acted on directly in the receiving guide and warehouse guide pages",
+    "Management codeunit extended with new procedures to support actionable warnings",
+    "Test coverage added for generation rule validation",
+    "Receiving guide page now includes action handling for generation rule issues",
+    "Improved user experience for managing quality inspection configurations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003651,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9404",
+  "number": 9404,
+  "title": "[Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed the Shopify product price calculator to rebuild its cached temporary sales header when the Work Date changes, preventing price sync from applying outdated discounts after changing the work date mid-session.",
+  "key_points": [
+    "Added WorkDate() check to SetShop() guard condition to detect work date changes",
+    "Cached temporary sales header is now rebuilt when work date changes, not just when shop code or SystemModifiedAt changes",
+    "Added regression test that verifies correct discount application after work date change without shop record modification",
+    "SetShopAndCatalog() method already recreates header unconditionally, so it required no changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "running Sync Prices after changing the Work Date could apply the discount valid for the previous Work Date",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003759,
+    "changes_in_call": 1
+  }
+}

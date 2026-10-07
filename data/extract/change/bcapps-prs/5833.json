@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/5833",
+  "number": 5833,
+  "title": "Add Microsoft Graph API Support to SharePoint Connector",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The SharePoint Connector now supports Microsoft Graph API as an alternative to REST API, enabling downloads of files larger than 150 MB through chunked transfers while maintaining backward compatibility.",
+  "key_points": [
+    "Added a toggle to choose between Graph API and legacy REST API implementations",
+    "New helper codeunits encapsulate Graph and REST operations separately",
+    "Graph API enables chunked downloads to bypass the 150 MB response size limit",
+    "Existing accounts default to REST API on upgrade to prevent breaking changes",
+    "Comprehensive test coverage for both API paths, account storage, and routing logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Graph API supports downloading files larger than 150 MB through chunked downloads",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 1
+  }
+}

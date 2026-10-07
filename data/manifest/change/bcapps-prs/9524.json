@@ -6,7 +6,7 @@
   "title": "Set shortLivedArtifactsRetentionDays to 3",
   "url": "https://github.com/microsoft/BCApps/pull/9524",
   "published_at": "2026-07-16T08:44:52Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "set shortlivedartifactsretentiondays to 3"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:18:13.128Z",
+  "retry_after": null
 }

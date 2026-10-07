@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9407,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9407",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T15:35:08Z",
+  "merge_commit_sha": "cb76c35fe6041adbaf63746aff5bceaeee859e9b",
+  "author": "SBalslev",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application"
+  ],
+  "community_contribution": false,
+  "title": "Add Microsoft apps view to AppSource product list (Fix ADO #642217)",
+  "body_hash": "b1ad848d895b7bf53f62a7a5b4267fdb043191a763789692c404cacb63efeed6",
+  "fixes_issues": [],
+  "work_items": [
+    642217
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductList.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductList.Page.al",
+        "status": "modified",
+        "key": "page/2515",
+        "type": "page",
+        "id": 2515,
+        "name": "AppSource Product List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/2515"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[ALAppExtensions #30294][Event Change Request] Report 12121 \"G/L Book - Print\" - \"OnPreDataItemOnAfterSetGLBookEntryFilters\"",
   "url": "https://github.com/microsoft/BCApps/pull/9415",
   "published_at": "2026-07-16T11:33:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:14.533Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:18.918Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003331
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:19.079Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:19.084Z",
+      "path": "content/changes/bcapps/9415.md"
     }
   },
   "input_hash": "3f67e875c4b4e1179775d0a0fa59fa26f09ce9be:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30294 event change request report 12121 g l book print onpredataitemonaftersetglbookentryfilters"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62602c3b342944341066aa0354721067f7bb56aa1f911476c45d547467fe8ad3"
 }

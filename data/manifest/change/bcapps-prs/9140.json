@@ -6,10 +6,35 @@
   "title": "Remap object IDs during Payment Management FR data",
   "url": "https://github.com/microsoft/BCApps/pull/9140",
   "published_at": "2026-07-15T15:35:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:22.274Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:18:31.155Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003665
+    },
+    "linked": {
+      "at": "2026-10-07T13:18:31.437Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:18:31.442Z",
+      "path": "content/changes/bcapps/9140.md"
     }
   },
   "input_hash": "7697163f51241f3e87e4037712d9b935e65a0d6a:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "remap object ids during payment management fr data"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ce620c2e263f4fb9fcfd2d7aa3540bd2edcd639f58359587bfdebc5add422a1f"
 }

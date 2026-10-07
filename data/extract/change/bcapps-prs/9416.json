@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9416",
+  "number": 9416,
+  "title": "[ALAppExtensions #30313]codeunit 441 \"Prepayment Mgt.\"  OnBeforeReleaseSalesDocument",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Codeunit 441 now exposes two new integration events that fire before and after processing pending prepayment sales, allowing partners to hook into the prepayment-driven release flow.",
+  "key_points": [
+    "Added OnBeforeUpdatePendingPrepaymentSales and OnAfterUpdatePendingPrepaymentSales events",
+    "Events wrap the existing sales processing loop in UpdatePendingPrepaymentSales()",
+    "Provides a specific signal for prepayment-driven release distinct from generic release events",
+    "Includes XML documentation matching existing codeunit style",
+    "No behavior changes when unsubscribed"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003581,
+    "changes_in_call": 1
+  }
+}

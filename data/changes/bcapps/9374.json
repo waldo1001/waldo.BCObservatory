@@ -1,0 +1,305 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9374,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9374",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T14:20:44Z",
+  "merge_commit_sha": "b5e2e473f2fa9a459b023125547e64b482ddb154",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.",
+  "body_hash": "422452d684c52d2f52c63391f1fff8ec1874a1d47f2d8f14a3bde2ee0010c151",
+  "fixes_issues": [],
+  "work_items": [
+    642199
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Marketing/TestContactLookup.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 16,
+    "additions": 44,
+    "deletions": 15,
+    "al": 15
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/36"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/CZ/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

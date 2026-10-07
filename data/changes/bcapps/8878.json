@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8878,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8878",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T15:48:16Z",
+  "merge_commit_sha": "4ed60c94abde6d10f8777fec56014c635aecde9b",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank",
+  "body_hash": "e41d8782653d19c69cdbd479d0370d87bcdd0f5e7e20b174e90f80e5742e9ea4",
+  "fixes_issues": [],
+  "work_items": [
+    640471
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Item/ServiceItemCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServiceItems.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 31,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Item/ServiceItemCard.Page.al",
+        "status": "modified",
+        "key": "page/5980",
+        "type": "page",
+        "id": 5980,
+        "name": "Service Item Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5980"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9351",
+  "number": 9351,
+  "title": "[master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription contract renewal detection was optimized to eliminate O(N²) algorithmic complexity that consumed approximately 28 percent of batch posting CPU time.",
+  "key_points": [
+    "Removed inefficient algorithm causing quadratic time complexity during contract renewal detection",
+    "Improves performance of sales posting operations in Subscription Billing module",
+    "Reduces CPU consumption during batch posting by approximately 28 percent",
+    "Refactored contract renewal subscriber logic"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002984,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 5833,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/5833",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-16T08:19:12Z",
+  "merge_commit_sha": "30b880e0f32892b39ee8dd6fe533d3d9fb23dab6",
+  "author": "tinestaric",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Add Microsoft Graph API Support to SharePoint Connector",
+  "body_hash": "e0c305fed90d7d78b826e6d2e4089d30a53133d2399ff90027dd782fbb0c2c70",
+  "fixes_issues": [
+    5383
+  ],
+  "work_items": [
+    612932
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccountWizard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointConnectorImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 232,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointGraphHelper.Codeunit.al",
+      "status": "added",
+      "additions": 387,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointRestHelper.Codeunit.al",
+      "status": "added",
+      "additions": 325,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointUpgrade.Codeunit.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSPAccountTableTest.Codeunit.al",
+      "status": "added",
+      "additions": 144,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSPGraphHelperTest.Codeunit.al",
+      "status": "added",
+      "additions": 601,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSPRestHelperTest.Codeunit.al",
+      "status": "added",
+      "additions": 537,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSharePointDispatchTest.Codeunit.al",
+      "status": "added",
+      "additions": 232,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSharePointUpgradeTest.Codeunit.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 2463,
+    "deletions": 239,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Page.al",
+        "status": "modified",
+        "key": "page/4580",
+        "type": "page",
+        "id": 4580,
+        "name": "Ext. SharePoint Account",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "page/4580"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+        "status": "modified",
+        "key": "table/4580",
+        "type": "table",
+        "id": 4580,
+        "name": "Ext. SharePoint Account",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "table/4580"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccountWizard.Page.al",
+        "status": "modified",
+        "key": "page/4581",
+        "type": "page",
+        "id": 4581,
+        "name": "Ext. SharePoint Account Wizard",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "page/4581"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointConnectorImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4580",
+        "type": "codeunit",
+        "id": 4580,
+        "name": "Ext. SharePoint Connector Impl",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "codeunit/4580"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointGraphHelper.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/4610",
+        "type": "codeunit",
+        "id": 4610,
+        "name": "Ext. SharePoint Graph Helper",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "codeunit/4610"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointRestHelper.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/4609",
+        "type": "codeunit",
+        "id": 4609,
+        "name": "Ext. SharePoint REST Helper",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "codeunit/4609"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointUpgrade.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/4608",
+        "type": "codeunit",
+        "id": 4608,
+        "name": "Ext. SharePoint Upgrade",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "codeunit/4608"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "External File Storage - SharePoint Connector"
+  ],
+  "issues": [
+    {
+      "number": 5383,
+      "title": "[BC Idea]: Add Graph API support to Ext. File Storage Sharepoint Connector",
+      "state": "closed"
+    }
+  ]
+}

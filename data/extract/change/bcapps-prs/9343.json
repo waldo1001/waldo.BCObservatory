@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9343",
+  "number": 9343,
+  "title": "[master][Event Request] Request at table 98 \"General Ledger Setup\",",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Two new integration events are added to the General Ledger Setup table to enable extensions to monitor and react to changes in setup configuration.",
+  "key_points": [
+    "Integration events added to table 98 General Ledger Setup",
+    "Events added across all localization layers (W1, NA, BE, CH, DACH, ES, FR, GB, IT, NL, NO, RU, SE, APAC)",
+    "Enables extension developers to respond to General Ledger Setup changes",
+    "20 lines of code added per localization",
+    "Addresses a feature request for integration points"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00401,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9404,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9404",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T19:22:59Z",
+  "merge_commit_sha": "e286ff6ccca89ef01747a735e56130c38c22e7b4",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache",
+  "body_hash": "c432432f74f9617880d256988a13542f1ef1f61f4b1fdabb2d94852e16be8572",
+  "fixes_issues": [],
+  "work_items": [
+    642194
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfyProductPriceCalc.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Products/ShpfyProductInitTest.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Products/ShpfyProductPriceCalcTest.Codeunit.al",
+      "status": "modified",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 97,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfyProductPriceCalc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30182",
+        "type": "codeunit",
+        "id": 30182,
+        "name": "Shpfy Product Price Calc.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30182"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

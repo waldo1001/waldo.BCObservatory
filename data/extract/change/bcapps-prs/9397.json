@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9397",
+  "number": 9397,
+  "title": "[main] Ship to address Var/protected var fix",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The Ship-to Address table had a label text accidentally moved when a variable was changed from Var to Protected Var, which has been corrected.",
+  "key_points": [
+    "PostCode variable was moved from Var to Protected Var in the Ship-to Address table",
+    "Label Text000 was unintentionally moved along with the variable",
+    "The label has been restored to its correct location",
+    "Change applied to W1, NA, and RU layers",
+    "Fix resolves an issue introduced on the main branch"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "When PostCode variable moved from Var to Protected Var, Label Text000 is also moved accidently.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003263,
+    "changes_in_call": 1
+  }
+}

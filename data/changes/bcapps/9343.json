@@ -1,0 +1,290 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9343,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9343",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T15:48:16Z",
+  "merge_commit_sha": "3e0eef009248abb5babb429090fbc8908bf7e221",
+  "author": "AndreasHans",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "[master][Event Request] Request at table 98 \"General Ledger Setup\",",
+  "body_hash": "8f49f61438a69a147d54b1ebef2b7d30422df9f744b32d69f6e5a1650c477d30",
+  "fixes_issues": [],
+  "work_items": [
+    640858
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 14,
+    "additions": 280,
+    "deletions": 0,
+    "al": 14
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/98"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "key": "table/98",
+        "type": "table",
+        "id": 98,
+        "name": "General Ledger Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/98"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Setup/GeneralLedgerSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

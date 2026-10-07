@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9357",
+  "number": 9357,
+  "title": "[Shopify] Add Compare-at Price field to Shopify Variants page for personalization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Variants page now includes a Compare at Price field control for personalization, allowing users to display and review the Shopify compare-at price for variants.",
+  "key_points": [
+    "Added Compare at Price field control to the Shopify Variants page",
+    "Field is hidden by default to preserve existing layouts",
+    "Users can enable it through personalization options",
+    "Corresponds to field 7 in the Shpfy Variant table",
+    "Positioned after the Price field on the page"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003449,
+    "changes_in_call": 1
+  }
+}

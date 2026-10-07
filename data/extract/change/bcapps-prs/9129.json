@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9129",
+  "number": 9129,
+  "title": "[Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The export of account schedules to Excel no longer produces duplicate rows when a GL budget dimension has been added to the report.",
+  "key_points": [
+    "Resolves duplicate rows appearing in financial report Excel exports",
+    "Fixes issue that occurred after adding GL budget dimensions",
+    "Updates export logic in the account schedule export report",
+    "Adds test coverage for the GL budget dimension scenario",
+    "Affects both base application and regional layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003287,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9114",
+  "number": 9114,
+  "title": "Re-enable Data Classification test (CU 135153 TestDataSensitivities) in CI",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Re-enables the Data Sensitivity classification test in CI by introducing an app-level exclusion mechanism to grandfathered apps still shipping unclassified fields, allowing new regressions to be caught while existing classification debt is addressed per-app.",
+  "key_points": [
+    "Re-enables disabled test CU 135153 TestDataSensitivities that validates all shipped fields have Data Sensitivity classifications",
+    "Introduces temporary allow-list mechanism for apps with unclassified fields via GetAppsPendingDataClassification",
+    "Test still fails for unclassified tables in apps not on the allow-list, ensuring new regressions are caught",
+    "CI configuration updated to trigger full test runs when disabled-test lists change",
+    "No public code changes; test refinement and CI automation only"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004421,
+    "changes_in_call": 1
+  }
+}

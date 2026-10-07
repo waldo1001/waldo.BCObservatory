@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9445,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9445",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-15T14:25:24Z",
+  "merge_commit_sha": "75d5da90a9d83b746f02216cae0810afa6c222ea",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30173: add integration events to Sales Line Discounts page",
+  "body_hash": "5c15e12f96268ad4be5efd2ab793a372331a15dc34fd3553841d17d4cb1063ed",
+  "fixes_issues": [],
+  "work_items": [
+    637953
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Pricing/SalesLineDiscounts.Page.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 25,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Pricing/SalesLineDiscounts.Page.al",
+        "status": "modified",
+        "key": "page/7004",
+        "type": "page",
+        "id": 7004,
+        "name": "Sales Line Discounts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/7004"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

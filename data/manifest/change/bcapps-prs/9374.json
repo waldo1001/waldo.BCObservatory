@@ -6,10 +6,18 @@
   "title": "[master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.",
   "url": "https://github.com/microsoft/BCApps/pull/9374",
   "published_at": "2026-07-15T14:20:44Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:18:26.348Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 15,
+      "objects": 12,
+      "unjoined": 3
     }
   },
   "input_hash": "b5e2e473f2fa9a459b023125547e64b482ddb154:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "master contact no lookup on sales quote returns all customers instead of related contacts after updating to v28 2 regression"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1987c5001640a8cfc28678199e46d6b7ada5b39556a90d2a577d19de938502c6"
 }
