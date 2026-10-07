@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.521Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,8 +60,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/8905
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -112,11 +110,5 @@ The pick pages cover component flushing and over-picking. The put-away page cove
 - [Pick for internal operations in advanced warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing): If your locations use picking and shipping, pick components for production, assembly, and project activities on the Warehouse Pick page.
 - [Pick or move items for production, assembly, or projects in basic warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-for-production): When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
 - [Put away production output](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-away-production-output): This article describes how to put away your production output.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../../../changes/bcapps/8905.md) (code change): "Reservation entries created from job planning lines now maintain consistent source references"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

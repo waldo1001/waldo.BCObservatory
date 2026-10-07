@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -424,20 +424,23 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/inventory/inventory-analytics
   localizations: []
-  videos:
-    - video/m8-7-JKq4dc
+  videos: []
   posts:
-    - post/olofsimren-com/3696
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
   guidelines: []
   changes:
-    - change/bcapps/10220
+    - change/bcapps/10150
+    - change/bcapps/9118
     - change/bcapps/9180
-    - change/bcapps/9447
+    - change/bcapps/9224
+    - change/bcapps/9464
     - change/bcapps/9531
-    - change/bcapps/9582
     - change/bcapps/9602
     - change/bcapps/9631
+    - change/bcapps/9705
+    - change/bcapps/9745
+    - change/bcapps/9810
+    - change/bcapps/9961
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -448,8 +451,8 @@ children:
 coverage:
   learn: 75
   code: 99
-  video: 1
-  blog: 2
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -613,16 +616,19 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10220 [main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty](../../../changes/bcapps/10220.md) (code change): "Calculate Inventory report now skips processing iterations when the Warehouse Entry table contains no records"
-- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers"
-- [#9447 [Extensibility Request] issue 30239: add OnBeforeOnRunOnCheckWarehouse event in Mfg. Item Jnl. Check Line](../../../changes/bcapps/9447.md) (code change): "Extensions can set IsHandled to skip manufacturing checks for their own transactions"
-- [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "Report 152 crashed when an item and its SKUs referenced the same Production BOM"
-- [#9582 636017 Move Inventory report action tooltips to report objects](../../../changes/bcapps/9582.md) (code change): "11 inventory reports now have tooltips defined at the report level"
-- [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "user experience for adding attributes to item categories was corrected"
-- [#9631 [Main]- "Filter by Attribute" action does not apply the filter under specific circumstances](../../../changes/bcapps/9631.md) (code change): "Filter by Attribute action on the Item List page now preserves user-applied filters"
-- [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Quality inspections can be triggered automatically when posting receipts; quality management needs"
-- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Item variants can now have their own pictures for visual identification"
-- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
+- [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../changes/bcapps/10150.md) (code change): "Strict Expiration Posting in Item Tracking Code now clarifies that it uses"
+- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Fixes applied to Sales Line and Sales Shipment Line across multiple localization"
+- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "are now copied to their posted documents, matching the behavior"
+- [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Multiple fixes across inventory, sales, and warehouse functionality"
+- [#9464 [Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line](../../../changes/bcapps/9464.md) (code change): "extensions to perform custom item tracking validation"
+- [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "items with multiple SKUs sharing the same Production BOM"
+- [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "Fixed incorrect user experience workflow when adding attributes to item categories"
+- [#9631 [Main]- "Filter by Attribute" action does not apply the filter under specific circumstances](../../../changes/bcapps/9631.md) (code change): "The 'Filter by Attribute' action on the Item List page now preserves user-applied filters"
+- [#9705 [master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types](../../../changes/bcapps/9705.md) (code change): "Transfer order headers can now be deleted despite having reserved quantities"
+- [#9745 [main] Implement item variant caching in calculate inventory](../../../changes/bcapps/9745.md) (code change): "The Calculate Inventory report now caches item variant information to reduce redundant database lookups"
+- [#9810 [master]-Edit in Excel fails with false duplicate error when creating new Item Variants](../../../changes/bcapps/9810.md) (code change): "Item Variants page no longer fails with a false duplicate key error when creating new variants"
+- [#9961 [Extensibility Request] issue 30381: expose page sender to filter subscribers](../../../changes/bcapps/9961.md) (code change): "Item Availability by BOM Level page"
+- [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) (community post): "Item table in Business Central has multiple blocked fields"
 
 ## Business Central pages and reports
 

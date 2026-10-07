@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -246,6 +246,7 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing
   localizations: []
   videos:
+    - video/gBB0elWQWM8
     - video/tP-0VcN7fcU
   posts: []
   guidelines: []
@@ -260,7 +261,7 @@ children:
 coverage:
   learn: 22
   code: 50
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -370,6 +371,7 @@ Start with the overview of tasks, then follow the page for the area you need. Th
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Warn Salespeople That a Product Will Soon be Out of Stock](../../../../videos/gBB0elWQWM8.md) (video): "Stock out warning on sales lines; Stock out warning toggle"
 - [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Customer templates; Posting groups in customer templates"
 
 ## Business Central pages and reports

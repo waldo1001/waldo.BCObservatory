@@ -2,14 +2,14 @@
 id: object/interface/allocate-reservation
 type: object
 title: Interface "Allocate Reservation"
-summary: Interface "Allocate Reservation" in Base Application (Microsoft.Inventory.Tracking). 4 public procedures. Introduced in BC25, still in BC30.
+summary: Interface "Allocate Reservation" in Base Application (Microsoft.Inventory.Tracking). 4 public procedures. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7fa39a0eeed8d2365088ac2d377114d6fb0fb79c6695d471f2bf4cb1a9529e8e
+  input_hash: 48ebf403e0b000934a7f7cb96289e08baf3d35ef12f26c6d46200d349bf504b8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Tracking/AllocateReservation.Interface.al
@@ -45,9 +45,11 @@ name: Allocate Reservation
 namespace: Microsoft.Inventory.Tracking
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +76,9 @@ relations:
 
 # Interface "Allocate Reservation"
 
-> Interface "Allocate Reservation" in Base Application (Microsoft.Inventory.Tracking). 4 public procedures. Introduced in BC25, still in BC30.
+> Interface "Allocate Reservation" in Base Application (Microsoft.Inventory.Tracking). 4 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Inventory.Tracking · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Tracking/AllocateReservation.Interface.al) · facts from BC29
+Base Application · Microsoft.Inventory.Tracking · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Tracking/AllocateReservation.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

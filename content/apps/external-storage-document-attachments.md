@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1e9b383afa92e066adebe8059a8d4757af0c9fbd5c8601ee3f1ee14c95b09f16
+  input_hash: 6e8a077850f7534dd04f123199d8258a2328132750125e7fc8077670485ad4cd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/External%20Storage%20-%20Document%20Attachments/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/External%20Storage%20-%20Document%20Attachments/app
     title: src/Apps/W1/External Storage - Document Attachments/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -121,4 +121,4 @@ First-party app · folder `src/Apps/W1/External Storage - Document Attachments/a
 |---|---|---|
 | 8751 | [DA Ext. Stor. Admin](../objects/permissionset/8751.md) | DA - External Storage Admin |
 
-Source: [src/Apps/W1/External Storage - Document Attachments/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/External%20Storage%20-%20Document%20Attachments/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External Storage - Document Attachments/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/External%20Storage%20-%20Document%20Attachments/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

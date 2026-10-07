@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,15 +125,15 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
-    - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
   guidelines: []
   changes:
-    - change/bcapps/10213
-    - change/bcapps/11411
-    - change/bcapps/11476
-    - change/bcapps/9196
+    - change/bcapps/10030
+    - change/bcapps/10166
+    - change/bcapps/11522
+    - change/bcapps/11994
     - change/bcapps/9538
 learn_toc_path:
   - Business functionality
@@ -221,14 +221,14 @@ Supporting pages explain behavior that affects results. "Planning With or Withou
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10213 Bug 8845 Old Prices Calculated in Req. Worksheet](../../../changes/bcapps/10213.md) (code change): "accurate price calculations in the requisition planning process"
-- [#11411 [Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529](../../../changes/bcapps/11411.md) (code change): "Fixed inconsistent able-to-make calculations in BOM analysis when component's replenishment method changes"
-- [#11476 [29.X]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529- #11411](../../../changes/bcapps/11476.md) (code change): "Fixed inconsistent able-to-make results in item availability by BOM level"
-- [#9196 [Master] - What If Impact on Planning and Supply](../../../changes/bcapps/9196.md) (code change): "Manufacturing and inventory scenarios. New What-If Scenario and What-If Impact"
-- [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../changes/bcapps/9538.md) (code change): "Req. Worksheet page now correctly displays the intended requisition batch"
-- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
-- [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
-- [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items"
+- [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../changes/bcapps/10030.md) (code change): "Calculate Regenerative Plan twice for SKU-only multi-level BOM structures"
+- [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../changes/bcapps/10166.md) (code change): "preserving distinct cable and cut-length requirements instead of aggregating quantities"
+- [#11522 [main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders](../../../changes/bcapps/11522.md) (code change): "Production order copying in Order Planning now restricts the destination to nonrecurring Planning-type worksheets"
+- [#11994 [Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../changes/bcapps/11994.md) (code change): "Carry Out Action Message - Planning report failed to copy production orders to requisition worksheets"
+- [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../changes/bcapps/9538.md) (code change): "Requisition Worksheet batch after viewing a different batch"
+- [Approval Workflows for Item Journals and Requisition Worksheets](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "Requisition and planning worksheets can require approval before converting"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "drop shipment lines are now visible and included in order planning calculations"
+- [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items by preserving worksheet lines"
 
 ## Business Central pages and reports
 

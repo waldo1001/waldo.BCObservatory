@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:21.756Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -197,16 +197,15 @@ links:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
   videos:
-    - video/giNi8WtCX_s
     - video/zt9_HEmPKNg
   posts: []
   guidelines: []
   changes:
     - change/bcapps/10336
     - change/bcapps/10343
+    - change/bcapps/10364
     - change/bcapps/10369
     - change/bcapps/10899
-    - change/bcapps/11522
     - change/bcapps/12370
     - change/bcapps/9067
     - change/bcapps/9122
@@ -223,7 +222,7 @@ children: []
 coverage:
   learn: 13
   code: 67
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -346,17 +345,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10336 [Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change](../../../../changes/bcapps/10336.md) (code change): "Fixed incorrect calculation of single-level capacity and material costs for stockkeeping units"
 - [#10343 [Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet](../../../../changes/bcapps/10343.md) (code change): "when they access the obsolete Subcontracting Worksheet page, with options to"
+- [#10364 Create released production orders from planning worksheet](../../../../changes/bcapps/10364.md) (code change): "creating released production orders directly instead of creating firm planned orders"
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../../changes/bcapps/10369.md) (code change): "to properly filter by version. The Version Code field now shows all"
 - [#10899 [Extensibility Request] issue 30433: expose consolidated calendar entry before insert](../../../../changes/bcapps/10899.md) (code change): "new integration event exposes consolidated work center calendar entries and their source data"
-- [#11522 [main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders](../../../../changes/bcapps/11522.md) (code change): "Production copy action restricted to Planning worksheet templates with Recurring"
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
-- [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard introduced as a guided multi-step interface for configuring Bill of Materials"
+- [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing"
 - [#9122 Bug 641488: Add "Calendar Entries Available Until" FlowField to Work/Machine Center](../../../../changes/bcapps/9122.md) (code change): "new FlowField called Calendar Entries Available Until has been added to Work Center and Machine Center"
 - [#9123 Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel](../../../../changes/bcapps/9123.md) (code change): "Show Next/Previous Operation No. on routing lines when Type = Parallel"
 - [#9177 [master] - Calculate Calendar reports missing from Work/Machine Center Cards and missing filter fields on request pages](../../../../changes/bcapps/9177.md) (code change): "Calculate Calendar reports are now accessible from Work Center and Machine Center Cards"
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9277.md) (code change): "PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy"
-- [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../../videos/giNi8WtCX_s.md) (video): "Subassembly display options in BOM; BOM version list view with date and status"
-- [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "Shop calendars; Work center groups; Work center posting settings"
+- [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"
 
 ## Business Central pages and reports
 

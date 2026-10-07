@@ -13,6 +13,8 @@
     "1": {
       "name": "Consolidation Import/Export",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -20,7 +22,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -28,6 +30,8 @@
     "10": {
       "name": "IC G/L Account Import/Export",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -35,7 +39,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -43,6 +47,8 @@
     "11": {
       "name": "IC Dimension Import/Export",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -50,7 +56,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -58,6 +64,8 @@
     "12": {
       "name": "IC Outbox Imp/Exp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -65,7 +73,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -73,6 +81,8 @@
     "1000": {
       "name": "SEPA CT pain.001.001.03",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -80,7 +90,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -88,6 +98,7 @@
     "1001": {
       "name": "SEPA CT pain.001.001.09",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -95,7 +106,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -103,6 +114,8 @@
     "1010": {
       "name": "SEPA DD pain.008.001.02",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -110,7 +123,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -118,6 +131,7 @@
     "1011": {
       "name": "SEPA DD pain.008.001.08",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -125,7 +139,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -133,6 +147,8 @@
     "1220": {
       "name": "Data Exch. Import - CSV",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -140,14 +156,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1225": {
       "name": "Imp / Exp Data Exch Def & Map",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -155,7 +175,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -163,6 +183,8 @@
     "1230": {
       "name": "Export Generic CSV",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -170,7 +192,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -178,6 +200,8 @@
     "1231": {
       "name": "Export Generic Fixed Width",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -185,7 +209,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -193,6 +217,8 @@
     "1501": {
       "name": "Import / Export Workflow",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -200,7 +226,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -208,13 +234,16 @@
     "1600": {
       "name": "Sales Invoice - PEPPOL 2.1",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
         "28"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26"
       ],
       "obsoleted": [
@@ -229,13 +258,16 @@
     "1601": {
       "name": "Sales Credit Memo - PEPPOL 2.1",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
         "28"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26"
       ],
       "obsoleted": [
@@ -250,13 +282,16 @@
     "1602": {
       "name": "Sales Invoice - PEPPOL 2.0",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
         "28"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26"
       ],
       "obsoleted": [
@@ -271,13 +306,16 @@
     "1603": {
       "name": "Sales Credit Memo - PEPPOL 2.0",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
         "28"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26"
       ],
       "obsoleted": [
@@ -292,6 +330,8 @@
     "1610": {
       "name": "Sales Invoice - PEPPOL BIS 3.0",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -299,8 +339,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26",
         "29"
       ],
@@ -316,6 +357,8 @@
     "1611": {
       "name": "Sales Cr.Memo - PEPPOL BIS 3.0",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -323,8 +366,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "26",
         "29"
       ],
@@ -340,6 +384,8 @@
     "1660": {
       "name": "Import Payroll",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -347,7 +393,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -355,6 +401,8 @@
     "5050": {
       "name": "Export Contact",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -362,7 +410,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -370,6 +418,8 @@
     "5051": {
       "name": "Export Segment Contact",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -377,7 +427,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -385,6 +435,8 @@
     "5801": {
       "name": "Export Item Data",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -392,8 +444,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "26",
         "27",
         "30"
@@ -404,6 +458,8 @@
     "5875": {
       "name": "Export Phys. Invt. Recording",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -411,7 +467,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -419,6 +475,8 @@
     "5876": {
       "name": "Import Phys. Invt. Recording",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -426,7 +484,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -434,6 +492,8 @@
     "5900": {
       "name": "Imp. IRIS to Area/Symptom Code",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -441,7 +501,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -449,6 +509,8 @@
     "5901": {
       "name": "Import IRIS to Fault Codes",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -456,7 +518,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -464,6 +526,8 @@
     "5902": {
       "name": "Import IRIS to Resol. Codes",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -471,7 +535,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -479,6 +543,8 @@
     "8610": {
       "name": "Config. Data Schema",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -486,7 +552,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -494,6 +560,8 @@
     "8611": {
       "name": "Config. Questionnaire Schema",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -501,10 +569,27 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
+    },
+    "9000": {
+      "name": "Export/Import User Groups",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "22.0"
+        }
+      ],
+      "removed": "25"
     },
     "9001": {
       "name": "Export/Import Security Groups",
@@ -523,9 +608,28 @@
       "obsoleted": [],
       "removed": null
     },
+    "9010": {
+      "name": "Export/Import Plans",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "22.0"
+        }
+      ],
+      "removed": "25"
+    },
     "9171": {
       "name": "Import/Export Permission Sets",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -533,7 +637,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -541,6 +645,8 @@
     "9172": {
       "name": "Import/Export Permissions",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -548,10 +654,42 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
+    },
+    "9173": {
+      "name": "Export Permission Sets",
+      "versions": [
+        "23"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "21.0"
+        }
+      ],
+      "removed": "24"
+    },
+    "9174": {
+      "name": "Import Tenant Permission Sets",
+      "versions": [
+        "23"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "21.0"
+        }
+      ],
+      "removed": "24"
     },
     "9862": {
       "name": "Export Permission Sets System",
@@ -607,6 +745,8 @@
     "9990": {
       "name": "Code Coverage Summary",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -614,7 +754,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -622,6 +762,8 @@
     "9991": {
       "name": "Code Coverage Detailed",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -629,7 +771,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -637,6 +779,8 @@
     "130400": {
       "name": "CAL Test Suite",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -644,7 +788,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -652,6 +796,8 @@
     "130401": {
       "name": "CAL Test Results",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -659,7 +805,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -667,6 +813,8 @@
     "130402": {
       "name": "CAL Import Enabled Codeunit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -674,7 +822,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -682,6 +830,8 @@
     "130403": {
       "name": "CAL Export Test Result",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -689,7 +839,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -697,6 +847,8 @@
     "130406": {
       "name": "CAL Test Coverage Map",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -704,7 +856,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -437,7 +437,6 @@ links:
     - video/tzX0qB9tiBs
     - video/vnaySMIKnp8
     - video/xqFpiqmXjk0
-    - video/zt9_HEmPKNg
   posts:
     - post/olofsimren-com/3545
   guidelines: []
@@ -457,6 +456,7 @@ links:
     - change/bcapps/9075
     - change/bcapps/9087
     - change/bcapps/9118
+    - change/bcapps/9196
     - change/bcapps/9660
     - change/bcapps/9670
     - change/bcapps/9803
@@ -472,7 +472,7 @@ children:
 coverage:
   learn: 65
   code: 110
-  video: 10
+  video: 9
   blog: 1
   guideline: 0
 bc_forms:
@@ -649,26 +649,26 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10879 [Main]Reopening and re-finishing production order reposts backward-flushed routing capacityInitial commit](../../../changes/bcapps/10879.md) (code change): "Production order reopening and re-finishing now correctly handles backward-flushed routing capacity"
 - [#11304 [Master]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/11304.md) (code change): "prevents duplicate production order status checks when the unit of measure code"
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reverse Production Entry fails when production output is posted using a non-base Unit of Measure"
-- [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../changes/bcapps/12066.md) (code change): "Removed CLEAN27 tags from assembly, inventory, manufacturing, and planning codeunits and tables"
+- [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../changes/bcapps/12066.md) (code change): "Removed CLEAN27 tags from assembly, inventory, manufacturing, and planning codeunits"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
-- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Batch of bug fixes addressing issues across sales, inventory, and manufacturing"
+- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Production Order Component and routing line calculation issues resolved"
+- [#9196 [Master] - What If Impact on Planning and Supply](../../../changes/bcapps/9196.md) (code change): "manufacturing and inventory scenarios. New What-If Scenario"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Production order component line pages now properly link component consumption quantities"
 - [#9670 [Main] - Posting from Released production order affects Firm planned production order with same ID.](../../../changes/bcapps/9670.md) (code change): "Posting from Released production order affects Firm planned production order"
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
-- [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders function changes finished orders"
-- [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "production order costing; subcontracting; cost shares page enhancements"
-- [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; bom; production order; assembly; replenishment"
-- [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "Production BOM document attachment; Production BOM active version"
-- [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "Forward flushing; Backward flushing; Manual flushing; Pick plus"
-- [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations"
-- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../videos/SdQVQLNXVS0.md) (video): "production order; safety lead time buffer; Rescheduling production orders"
-- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../../../videos/tzX0qB9tiBs.md) (video): "reverse production order transactions; production order reopening; output reversal"
+- [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
+- [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "Production bill of material and routing on stock keeping unit; Standard cost per stock keeping unit"
+- [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; production order; assembly; replenishment; components; bom versions"
+- [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "production bom; document attachments; bom versions; version comparison"
+- [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "flushing methods; production orders; material consumption"
+- [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations; operational times"
+- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../videos/SdQVQLNXVS0.md) (video): "production order; usability; bulk status change; attachments; scheduling; safety lead time"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../../../videos/tzX0qB9tiBs.md) (video): "reverse production order transactions; production order reopening"
 - [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../videos/vnaySMIKnp8.md) (video): "warehouse putaway; production output; directed putaway and pick"
 - [Manufacturing Foundations Production Orders (2026)](../../../videos/xqFpiqmXjk0.md) (video): "production orders; bill of materials; routing; capacity planning"
-- [Manufacturing Foundations Capacities (2026)](../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; production scheduling; capacity planning"
 
 ## Business Central pages and reports
 

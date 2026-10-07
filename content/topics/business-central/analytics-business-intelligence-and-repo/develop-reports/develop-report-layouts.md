@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,6 @@ links:
   videos:
     - video/-vdhfNMNZQk
     - video/1ft4o9lQzsU
-    - video/2N2NhNH7dsk
     - video/BofJJPqgrTI
     - video/hn92Al_x-s8
     - video/mS6NDhj20yI
@@ -128,7 +127,7 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 8
+  video: 7
   blog: 4
   guideline: 0
 bc_forms:
@@ -189,7 +188,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
-- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Layout status control; Layout lifecycle states; Layout administrator control"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "translatable reports; excel layouts; power query; api integration"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced Document Reporting; document layout; table builder"

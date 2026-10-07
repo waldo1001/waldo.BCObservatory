@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,18 +148,23 @@ links:
   localizations: []
   videos:
     - video/8IOEXgk7q5I
-    - video/N30HebR5nJk
     - video/w0okH0v0VvY
   posts:
-    - post/thedynamicsexplorer-com/10326
     - post/thedynamicsexplorer-com/37371
   guidelines: []
   changes:
     - change/bcapps/10094
+    - change/bcapps/10220
+    - change/bcapps/10298
+    - change/bcapps/11144
     - change/bcapps/11309
     - change/bcapps/11906
+    - change/bcapps/9005
+    - change/bcapps/9062
     - change/bcapps/9212
+    - change/bcapps/9465
     - change/bcapps/9467
+    - change/bcapps/9531
 learn_toc_path:
   - Business functionality
   - Finance
@@ -171,8 +176,8 @@ children:
 coverage:
   learn: 14
   code: 13
-  video: 3
-  blog: 2
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 40
@@ -237,16 +242,21 @@ Start with "Managing inventory costs" and "About unit cost calculation" to learn
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "preventing inventory overstatement and ensuring purchase variance"
-- [#11309 [29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11309.md) (code change): "Post Inventory Cost to G/L report now handles dimension text longer than 250 characters"
+- [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "preventing inventory overstatement and ensuring purchase variance is properly recognized"
+- [#10220 [main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty](../../../../changes/bcapps/10220.md) (code change): "Calculate Inventory report now skips processing iterations when the Warehouse Entry table contains no records"
+- [#10298 [main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.](../../../../changes/bcapps/10298.md) (code change): "WIP Balance is presented incorrectly on the Production Order – WIP"
+- [#11144 [Master]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11144.md) (code change): "Post Inventory Cost to G/L report now handles cases where concatenated dimension"
+- [#11309 [29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11309.md) (code change): "Post Inventory Cost to G/L' report now handles dimension text longer than 250"
 - [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
-- [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single Export/Import action pair"
-- [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "InsertPostValueEntryToGL procedure in codeunit 22 Item Jnl.-Post Line is now public"
-- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Using a GL account for the credit avoids inventory adjustments but leaves the original item ledger entry's Sales Amount"
-- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card in Business Central"
-- [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "Cost adjustment; inventory valuation; high-volume items"
-- [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "item costing; manufacturing overhead; production variances"
-- [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "cost adjustment; inventory valuation; cost monitoring"
+- [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
+- [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "Fixed incorrect consumption amount calculation in the WIP report"
+- [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single"
+- [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "validate item tracking before standard validation runs"
+- [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "reuse the standard General Ledger posting logic for inventory variances"
+- [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../../changes/bcapps/9531.md) (code change): "Report 152 "Calculate Low Level Code" terminates with error"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card has two critical side effects"
+- [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "cost adjustment; inventory valuation; high-volume items"
+- [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "Inventory Cost Adjustment Tool; Cost Adjustment Logging Options; Item Batches"
 
 ## Business Central pages and reports
 

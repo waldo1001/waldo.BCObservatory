@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:42.546Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,8 +58,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts:
-    - post/duiliotacconi-com/1457
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -72,7 +71,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 2c3b64706f9cd9e4b6ab10fed6093bacfe91675fd52b5b1bf621225f22552777
@@ -109,11 +108,5 @@ Both procedures follow the same broad flow: convert the database, publish extens
 - [Install a Business Central 2025 Release Wave 1 (Version 26) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v26): This article describes the tasks required for getting the monthly version 26 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade Microsoft System and Base Application to Version 26](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v26): Learn how to upgrade an unmodified Business Central version 15 through 25 to version 26.
 - [Upgrade to Dynamics 365 Business Central 2025 release wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v26): Provides an overview of the upgrade process for Business Central 2025 release wave 1.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../../../posts/duiliotacconi-com/1457.md) (community post): "Dynamics 365 Business Central 26.x introduces a less-locking inventory posting engine"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

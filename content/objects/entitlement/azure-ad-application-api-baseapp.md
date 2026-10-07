@@ -2,14 +2,14 @@
 id: object/entitlement/azure-ad-application-api-baseapp
 type: object
 title: Entitlement "Azure AD Application Api BaseApp"
-summary: Entitlement "Azure AD Application Api BaseApp" in Base Application (System.Security.AccessControl). Introduced in BC25, still in BC30.
+summary: Entitlement "Azure AD Application Api BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - entitlement
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3e5cf1659bf369fb48bb720c067b5f5ee3084b3389024afdfa77d80c45e277a8
+  input_hash: 3710433e2354077e263c6d267075c60d183894605bc6cef18f09e69ea097cb3a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationApiBaseApp.Entitlement.al
@@ -45,9 +45,11 @@ name: Azure AD Application Api BaseApp
 namespace: System.Security.AccessControl
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +76,9 @@ relations:
 
 # Entitlement "Azure AD Application Api BaseApp"
 
-> Entitlement "Azure AD Application Api BaseApp" in Base Application (System.Security.AccessControl). Introduced in BC25, still in BC30.
+> Entitlement "Azure AD Application Api BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationApiBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationApiBaseApp.Entitlement.al) · facts from BC29
 
 ## Ask your agent
 
@@ -87,7 +89,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

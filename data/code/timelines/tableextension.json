@@ -79,6 +79,7 @@
     "308": {
       "name": "NoSeriesObsolete",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -86,7 +87,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "26",
         "27"
@@ -97,6 +98,7 @@
     "309": {
       "name": "NoSeriesLineObsolete",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -104,7 +106,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "26",
         "27"
@@ -287,6 +289,8 @@
     "3999": {
       "name": "Reten. Pol. Setup Line Ext.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -294,8 +298,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -859,6 +865,8 @@
     "7049": {
       "name": "Feature Price Calc. Parameters",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -866,7 +874,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -874,6 +882,8 @@
     "8900": {
       "name": "Email Address Lookup",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -881,7 +891,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null

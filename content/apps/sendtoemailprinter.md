@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c6481acd0658f27af1b5bca4b358a8a146fe37be0497a1cbe0567daa7e7a478a
+  input_hash: 45ea2db0094970474614148dc195841ed5dfedf943fa728ebe83e4e17e9dfc4f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/SendToEmailPrinter/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/SendToEmailPrinter/app
     title: src/Apps/W1/SendToEmailPrinter/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -158,4 +158,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 5656 | [D365 TEAM MEMBER - Send To Email Printer](../objects/permissionsetextension/5656.md) |  |
 | 5657 | [INTELLIGENT CLOUD - Send To Email Printer](../objects/permissionsetextension/5657.md) |  |
 
-Source: [src/Apps/W1/SendToEmailPrinter/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/SendToEmailPrinter/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SendToEmailPrinter/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/SendToEmailPrinter/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

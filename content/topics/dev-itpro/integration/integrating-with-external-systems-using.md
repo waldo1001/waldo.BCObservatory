@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,7 +48,6 @@ links:
     - change/bcapps/10437
     - change/bcapps/10466
     - change/bcapps/10526
-    - change/bcapps/11815
     - change/bcapps/11846
     - change/bcapps/11895
     - change/bcapps/12055
@@ -113,7 +112,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support"
 - [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items"
 - [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "E-Documents now leverages BaseApp's new PO Matching module"
-- [#11815 Improvements to E-Documents PO matching (E2E findings)](../../../changes/bcapps/11815.md) (code change): "E-Documents PO matching now correctly handles draft page warnings based on receipt status"
 - [#11846 Fix View file on outgoing E-Documents to open the exported file](../../../changes/bcapps/11846.md) (code change): "Opening the View file action on outgoing E-Documents now retrieves and downloads the exported file"
 - [#11895 Make Reject Order reachable on inbound sales order drafts and confirm…](../../../changes/bcapps/11895.md) (code change): "The Reject Order action for inbound sales orders is now accessible directly from the Sales Document Draft page"
 - [#12055 [E-Documents Core] Show error for unmatched inbound Order Response](../../../changes/bcapps/12055.md) (code change): "Unmatched inbound PEPPOL Order Responses now produce a descriptive error"

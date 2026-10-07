@@ -2,14 +2,14 @@
 id: object/profile/o365-sales
 type: object
 title: Profile "O365 SALES"
-summary: Profile "O365 SALES" in Base Application. Introduced in BC25, still in BC30.
+summary: Profile "O365 SALES" in Base Application. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4169843de9be9b9db7812afd810afac5c3ffd3f30c69ba5c0948b4dbc1721483
+  input_hash: e9b1ee04ece51b404c67327ae9c946501548489a7f098f1122c09918c09945d5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al
@@ -46,9 +46,11 @@ caption: O365 Sales Activities
 namespace: null
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Profile "O365 SALES"
 
-> Profile "O365 SALES" in Base Application. Introduced in BC25, still in BC30.
+> Profile "O365 SALES" in Base Application. Present since at least BC23, still in BC30.
 
-Base Application · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al) · facts from BC29
+Base Application · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

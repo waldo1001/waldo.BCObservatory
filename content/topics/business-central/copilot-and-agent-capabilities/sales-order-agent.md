@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,7 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/_JkZCp64jNw
+    - video/0h8QBNmeORQ
     - video/1ht5nxubZ9c
     - video/2ujWYYecA2c
     - video/4nFViDASGhg
@@ -74,8 +74,6 @@ links:
   posts:
     - post/demiliani-com/11739
   guidelines: []
-  changes:
-    - change/bcapps/10005
 learn_toc_path:
   - Copilot and agent capabilities
   - Sales Order Agent
@@ -127,13 +125,12 @@ Start with the overview to understand the scope, then follow the setup page to a
 - [Sales Order Agent overview](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent): Learn about the sales order Copilot agent in Business Central.
 - [Set up Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup): Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../changes/bcapps/10005.md) (code change): "Messages are action-oriented to guide users and agents"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "Sales Order Agent in Business Central 2025 Wave 1 automates email-based sales quote processing"
-- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature"
+- [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; Payables Agent; Custom Agents Framework"
 - [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"
 - [Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)](../../../videos/2ujWYYecA2c.md) (video): "Sales Order Agent; Try It Out Experience; Email Attachment Detection"
 - [What's New: Sales Order Agent Enhancements (2025 release wave 2)](../../../videos/4nFViDASGhg.md) (video): "sales order agent; email processing; attachment analysis; custom instructions"

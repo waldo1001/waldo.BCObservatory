@@ -2,14 +2,14 @@
 id: object/interface/power-bi-service-provider
 type: object
 title: Interface "Power BI Service Provider"
-summary: Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Introduced in BC25, still in BC30, changed in BC28, BC29.
+summary: Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Present since at least BC23, still in BC30, changed in BC25, BC28, BC29.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: "29"
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e2bea9c57cb7bb53a0b154df5d4886d2be064780f0a22af85ccd30679acbcb53
+  input_hash: c276f0e65b072b7f819a3a6affd5a1914957fe262e1f653ffc3bc01f3ed6e43a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al
@@ -48,9 +48,11 @@ name: Power BI Service Provider
 namespace: System.Integration.PowerBI
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -58,6 +60,7 @@ present_in:
   - "29"
   - "30"
 changed_in:
+  - "25"
   - "28"
   - "29"
 source_major: "29"
@@ -79,9 +82,9 @@ relations:
 
 # Interface "Power BI Service Provider"
 
-> Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Introduced in BC25, still in BC30, changed in BC28, BC29.
+> Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Present since at least BC23, still in BC30, changed in BC25, BC28, BC29.
 
-Base Application · System.Integration.PowerBI · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -117,7 +120,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
-- Changed (declaration) in: BC28, BC29
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
+- Changed (declaration) in: BC25, BC28, BC29
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

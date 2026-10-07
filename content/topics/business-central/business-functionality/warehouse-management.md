@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -267,6 +267,7 @@ links:
   videos:
     - video/8KMcu4B_eTk
     - video/sVlPlmok5U8
+    - video/vnaySMIKnp8
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610
   guidelines: []
@@ -277,6 +278,7 @@ links:
     - change/bcapps/8905
     - change/bcapps/9224
     - change/bcapps/9333
+    - change/bcquality/192
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -289,7 +291,7 @@ children:
 coverage:
   learn: 26
   code: 52
-  video: 2
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -391,12 +393,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10277 Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers](../../../changes/bcapps/10277.md) (code change): "Inventory put-away/pick support for subcontracting purchase lines and WIP"
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Posting inventory picks for non-ATO lines no longer fails due to pending warehouse"
 - [#12293 Remove CLEAN27 from Warehouse](../../../changes/bcapps/12293.md) (code change): "Removes CLEAN27 compatibility code from warehouse codeunits, tables, and reports"
-- [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../changes/bcapps/8905.md) (code change): "Updates warehouse activity and job warehouse management processes"
-- [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Multiple fixes across inventory, sales, and warehouse functionality, including corrections"
+- [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../changes/bcapps/8905.md) (code change): "Ensures reservation entries from job planning lines have matching source references"
+- [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "warehouse document creation in various localization layers"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../changes/bcapps/9333.md) (code change): "Warehouse management logic updated to enforce bin content block rules consistently"
-- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "direct transfers; warehouse configuration; outbound warehouse handling; posting methods"
-- [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking; directed pick and put-away"
+- [#192 Add SCM functional knowledge domain](../../../changes/bcquality/192.md) (code change): "supply chain management functional knowledge domain added with nine scoped rules"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "Direct transfers now support outbound warehouse handling at the source location"
+- [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "warehouse receipt; put-away; project purchases; warehouse processes"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../videos/vnaySMIKnp8.md) (video): "Warehouse Putaway for Production Output; Automatic Putaway Document Generation"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:42.869Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -168,7 +168,9 @@ links:
   topics:
     - topic/business-central/business-functionality/inventory/inventory-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/6lUli23t3fU
+    - video/DpYJOkwKxTY
   posts: []
   guidelines: []
 learn_toc_path:
@@ -182,7 +184,7 @@ children: []
 coverage:
   learn: 16
   code: 15
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -248,6 +250,13 @@ Start with the app page to see the full set of reports, then the Inventory Overv
 - [Power BI Inventory app semantic model](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model): Learn how the Power BI Inventory app semantic model organizes inventory, supply, demand, warehouse, and item dimension data from Business Central.
 - [Purchase and Sales Quantity (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty): The Purchase and Sales Quantity report shows purchase and sales quantities for an organization.
 - [Scheduled Receipt (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt): The Scheduled Receipt report lets you view inbound inventory per document type.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Inventory Forecasting Report; Seasonality Control in Forecasting"
+- [What's New: Power BI Reporting for Business Central - New Apps (2024 release wave 2)](../../../../../videos/DpYJOkwKxTY.md) (video): "Power BI Apps for Inventory; Demo Data for Power BI"
 
 ## Business Central pages and reports
 

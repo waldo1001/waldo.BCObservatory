@@ -2,14 +2,14 @@
 id: object/profile/order-processor
 type: object
 title: Profile "ORDER PROCESSOR"
-summary: Profile "ORDER PROCESSOR" in Base Application. Introduced in BC25, still in BC30.
+summary: Profile "ORDER PROCESSOR" in Base Application. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 140fdcf1540874f112d8203d553508fe7fb5099935b48f9d5b3f4e74fbc16578
+  input_hash: 3a0cefef0c2dbd8d203d9f0b7c750b8a4b7bc7e0c6640aa71a4e4ce0ee4610e7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OrderProcessor.Profile.al
@@ -46,9 +46,11 @@ caption: Sales Order Processor
 namespace: null
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Profile "ORDER PROCESSOR"
 
-> Profile "ORDER PROCESSOR" in Base Application. Introduced in BC25, still in BC30.
+> Profile "ORDER PROCESSOR" in Base Application. Present since at least BC23, still in BC30.
 
-Base Application · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OrderProcessor.Profile.al) · facts from BC29
+Base Application · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OrderProcessor.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

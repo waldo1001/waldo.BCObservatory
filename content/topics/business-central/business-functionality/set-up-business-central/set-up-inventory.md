@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,20 +135,14 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos:
-    - video/X3xygXmgRqU
+  videos: []
   posts:
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
   guidelines: []
   changes:
-    - change/bcapps/10150
-    - change/bcapps/10524
-    - change/bcapps/10558
-    - change/bcapps/10903
-    - change/bcapps/10988
     - change/bcapps/11155
-    - change/bcapps/9810
+    - change/bcapps/12124
+    - change/bcapps/9180
     - change/bcapps/9933
 learn_toc_path:
   - Business functionality
@@ -160,8 +154,8 @@ children: []
 coverage:
   learn: 11
   code: 22
-  video: 1
-  blog: 2
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -233,17 +227,11 @@ Location-related pages cover locations with bins, zones and transfer routes, sto
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../../changes/bcapps/10150.md) (code change): "First-Expired-First-Out picking for tracked items"
-- [#10524 Add a purchase order matching API](../../../../changes/bcapps/10524.md) (code change): "New public APIs enable external applications to programmatically create purchase order matches"
-- [#10558 [Master]-When Intrastat line is added manually the "Intrastat Country/Region Code" is not automatically populated after adding the "Country/Region Code"](../../../../changes/bcapps/10558.md) (code change): "The Intrastat Country/Region Code field now automatically populates when users manually enter a Country/Region Code"
-- [#10903 [Extensibility Request] issue 30442: allow filtering item units during weight updates](../../../../changes/bcapps/10903.md) (code change): "Extensions can now filter item units of measure during weight recalculation"
-- [#10988 [Event Request] Codeunit 730 "Copy Item": Add price-specific before event](../../../../changes/bcapps/10988.md) (code change): "New event OnBeforeCopyItemPriceListLines2 fires before copying price list lines"
 - [#11155 Fix missing default item journal batch in Contoso Inventory setup](../../../../changes/bcapps/11155.md) (code change): "Inventory's default item journal batch is now created with its template"
-- [#9810 [master]-Edit in Excel fails with false duplicate error when creating new Item Variants](../../../../changes/bcapps/9810.md) (code change): "Item Variants page no longer fails with a false duplicate key error"
+- [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Prevent default-bin assignment for drop shipments during validation"
+- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers"
 - [#9933 [MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion](../../../../changes/bcapps/9933.md) (code change): "Item Template validation no longer fails with warehouse entry errors"
-- [Define Item Attributes for Item Variants](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants. Business Central 2026 release wave 1 (BC28) introduces item attributes at the variant level"
-- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (community post): "Attributes can be defined at the variant level so each variant maintains distinct values"
-- [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "Multiple Locations Setup; Intransit Locations; Transfer Routes"
+- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "warehouse setup; location management; configuration; business central 2026"
 
 ## Business Central pages and reports
 

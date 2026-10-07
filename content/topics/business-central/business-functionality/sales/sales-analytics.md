@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:39.920Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -376,6 +376,7 @@ links:
     - topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed
   localizations: []
   videos:
+    - video/fJGY6d-2lO8
     - video/rAaUiKByyEE
   posts: []
   guidelines: []
@@ -392,7 +393,7 @@ children:
 coverage:
   learn: 61
   code: 64
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -512,6 +513,7 @@ Subtopics go deeper. The Power BI Sales app describes its reports, semantic mode
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../../../../videos/fJGY6d-2lO8.md) (video): "customer retention; churn analysis; abc analysis; power bi; sales analytics"
 - [What's New: Sales Analytics (2025 release wave 2)](../../../../videos/rAaUiKByyEE.md) (video): "Modernized analytical reports; Customer item sales report"
 
 ## Business Central pages and reports

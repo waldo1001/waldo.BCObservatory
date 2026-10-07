@@ -64,6 +64,8 @@
     "19": {
       "name": "VAT Entries Base Amt. Sum",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -71,14 +73,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "21": {
       "name": "Cust. Ledg. Entry Remain. Amt.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -86,7 +92,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26"
       ],
@@ -96,6 +102,8 @@
     "22": {
       "name": "Cust. Remain. Amt. By Due Date",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -103,7 +111,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -111,6 +119,8 @@
     "25": {
       "name": "Vend. Ledg. Entry Remain. Amt.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -118,7 +128,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26"
       ],
@@ -204,6 +214,8 @@
     "50": {
       "name": "Power BI Customer List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -211,7 +223,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -219,6 +231,8 @@
     "51": {
       "name": "Power BI Vendor List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -226,7 +240,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -234,6 +248,8 @@
     "52": {
       "name": "Power BI Item Purchase List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -241,7 +257,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -249,6 +265,8 @@
     "53": {
       "name": "Power BI GL Amount List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -256,7 +274,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -264,6 +282,8 @@
     "54": {
       "name": "Power BI Jobs List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -271,14 +291,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "55": {
       "name": "Power BI Sales List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -286,7 +310,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -294,6 +318,8 @@
     "56": {
       "name": "Power BI Purchase List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -301,7 +327,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -309,6 +335,8 @@
     "57": {
       "name": "Power BI Item Sales List",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -316,7 +344,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -324,6 +352,8 @@
     "58": {
       "name": "Power BI GL Budgeted Amount",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -331,7 +361,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -339,6 +369,8 @@
     "59": {
       "name": "Power BI Top Cust. Overview",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -346,7 +378,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -354,6 +386,8 @@
     "60": {
       "name": "Power BI Sales Hdr. Cust.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -361,7 +395,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -369,6 +403,8 @@
     "61": {
       "name": "Power BI Cust. Item Ledg. Ent.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -376,7 +412,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -384,6 +420,8 @@
     "62": {
       "name": "Power BI Cust. Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -391,7 +429,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -399,6 +437,8 @@
     "63": {
       "name": "Power BI Vendor Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -406,7 +446,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -414,6 +454,8 @@
     "64": {
       "name": "Power BI Purchase Hdr. Vendor",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -421,7 +463,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -429,6 +471,8 @@
     "65": {
       "name": "Power BI Vend. Item Ledg. Ent.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -436,7 +480,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -444,6 +488,8 @@
     "100": {
       "name": "Top Customer Overview",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -451,7 +497,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -459,6 +505,8 @@
     "101": {
       "name": "Sales Dashboard",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -466,7 +514,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -474,6 +522,8 @@
     "102": {
       "name": "Item Sales by Customer",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -481,7 +531,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -489,6 +539,8 @@
     "103": {
       "name": "Item Sales and Profit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -496,7 +548,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -504,6 +556,8 @@
     "104": {
       "name": "Sales Orders by Sales Person",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -511,7 +565,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -519,6 +573,8 @@
     "105": {
       "name": "Sales Opportunities",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -526,7 +582,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -534,6 +590,8 @@
     "106": {
       "name": "Segment Lines",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -541,7 +599,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -599,6 +657,8 @@
     "130": {
       "name": "Posted Docs. With No Inc. Doc.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -606,7 +666,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -614,6 +674,8 @@
     "133": {
       "name": "Inc. Doc. Atts. Ready for OCR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -621,7 +683,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -629,6 +691,8 @@
     "134": {
       "name": "OCR Vendors",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -636,7 +700,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -644,6 +708,8 @@
     "135": {
       "name": "OCR Vendor Bank Accounts",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -651,7 +717,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -659,6 +725,8 @@
     "141": {
       "name": "EU VAT Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -666,7 +734,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -674,6 +742,8 @@
     "200": {
       "name": "Purchase Invoices By Order",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -681,7 +751,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -689,6 +759,8 @@
     "201": {
       "name": "Sales Invoices By Order",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -696,7 +768,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -704,6 +776,8 @@
     "202": {
       "name": "Service Invoices By Order",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -711,7 +785,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -733,6 +807,8 @@
     "204": {
       "name": "Purch. Cr. Memos By Ret. Order",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -740,7 +816,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -748,6 +824,8 @@
     "205": {
       "name": "Sales Cr. Memos By Ret. Order",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -755,7 +833,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -763,6 +841,8 @@
     "250": {
       "name": "G/L Entry Dimensions",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -770,7 +850,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -778,6 +858,8 @@
     "251": {
       "name": "G/L Budget Entry Dimensions",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -785,7 +867,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -793,6 +875,8 @@
     "252": {
       "name": "Analysis View Entry Dimensions",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -800,7 +884,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -808,6 +892,8 @@
     "253": {
       "name": "Analysis View Budg. Entry Dims",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -815,7 +901,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -823,6 +909,8 @@
     "256": {
       "name": "CF Forecast Entry Dimensions",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -830,7 +918,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -838,6 +926,8 @@
     "257": {
       "name": "Dimension Sets",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -845,7 +935,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -853,6 +943,8 @@
     "260": {
       "name": "Dimension Set Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -860,7 +952,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -868,6 +960,8 @@
     "261": {
       "name": "G/L Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -875,7 +969,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -883,6 +977,8 @@
     "262": {
       "name": "Cust. Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -890,7 +986,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -898,6 +994,8 @@
     "263": {
       "name": "Vendor Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -905,7 +1003,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -913,6 +1011,8 @@
     "264": {
       "name": "Bank Account Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -920,7 +1020,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -928,6 +1028,8 @@
     "265": {
       "name": "Item Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -935,7 +1037,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -943,6 +1045,8 @@
     "266": {
       "name": "Value Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -950,7 +1054,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -958,6 +1062,8 @@
     "267": {
       "name": "FA Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -965,7 +1071,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -973,6 +1079,8 @@
     "268": {
       "name": "Job Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -980,14 +1088,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "269": {
       "name": "Res. Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -995,7 +1107,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1003,6 +1115,8 @@
     "270": {
       "name": "G/L Budget Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1010,7 +1124,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1057,6 +1171,8 @@
     "410": {
       "name": "Analysis View Source",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1064,7 +1180,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1072,6 +1188,8 @@
     "472": {
       "name": "Failed Job Queue Entry",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1079,7 +1197,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1128,6 +1246,8 @@
     "520": {
       "name": "Item By Lot No. Res.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1135,7 +1255,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1143,6 +1263,8 @@
     "521": {
       "name": "Item By Lot No. Item Ledg.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1150,7 +1272,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1158,6 +1280,8 @@
     "522": {
       "name": "Qty. Reserved From Item Ledger",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1165,7 +1289,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26",
         "27"
@@ -1190,6 +1314,8 @@
     "760": {
       "name": "Trailing Sales Order Qry",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1197,7 +1323,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1205,6 +1331,8 @@
     "762": {
       "name": "Acc. Sched. Line Desc. Count",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1212,7 +1340,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1220,6 +1348,8 @@
     "763": {
       "name": "Colm. Layt. Colm. Header Count",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1227,7 +1357,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1235,6 +1365,8 @@
     "770": {
       "name": "Analysis Line Desc. Count",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1242,7 +1374,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1250,6 +1382,8 @@
     "771": {
       "name": "Analysis Column Header Count",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1257,10 +1391,27 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
+    },
+    "773": {
+      "name": "Users in User Groups",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "22.0"
+        }
+      ],
+      "removed": "25"
     },
     "774": {
       "name": "Users in Plans",
@@ -1346,6 +1497,7 @@
     "984": {
       "name": "Get Time Sheet Lines",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1353,7 +1505,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1361,6 +1513,7 @@
     "985": {
       "name": "Get Time Sheet Archive Lines",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1368,7 +1521,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1429,6 +1582,8 @@
     "1232": {
       "name": "Data Exch. Field Details",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1436,14 +1591,32 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "1252": {
+      "name": "Bank Rec. Match Candidates",
+      "versions": [
+        "23"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "21.0"
+        }
+      ],
+      "removed": "24"
+    },
     "1302": {
       "name": "Sales Outstd. Amount On VAT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1451,7 +1624,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1459,6 +1632,8 @@
     "1310": {
       "name": "Cust. Ledg. Entry Sales",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1466,14 +1641,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1311": {
       "name": "Top 10 Customer Sales",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1481,14 +1660,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1312": {
       "name": "Num CustLedgEntries per Cust",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1496,7 +1679,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1504,6 +1687,8 @@
     "1313": {
       "name": "Purch. Outstd. Amount On VAT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1511,7 +1696,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1519,6 +1704,8 @@
     "1316": {
       "name": "Value Item Ledger Entries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1526,7 +1713,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1534,6 +1721,8 @@
     "1319": {
       "name": "Sales by Cust. Grp. Chart Mgt.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1541,7 +1730,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1549,6 +1738,8 @@
     "1501": {
       "name": "Workflow Instance",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1556,14 +1747,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1502": {
       "name": "Workflow Definition",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1571,14 +1766,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1511": {
       "name": "User IDs by Notification Type",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1586,7 +1785,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1594,6 +1793,8 @@
     "2900": {
       "name": "Item With Variants",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1601,7 +1802,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1609,6 +1810,8 @@
     "2901": {
       "name": "Item With Locations",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1616,7 +1819,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1624,6 +1827,8 @@
     "2902": {
       "name": "Item With Variants & Locations",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1631,7 +1836,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1639,6 +1844,8 @@
     "3688": {
       "name": "BOM Component Items",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1646,7 +1853,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1654,6 +1861,8 @@
     "3689": {
       "name": "Item Production BOMs",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1661,7 +1870,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1669,6 +1878,8 @@
     "3691": {
       "name": "Production BOM & Line Details",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1676,7 +1887,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1684,6 +1895,8 @@
     "5001": {
       "name": "Locations from items Sales",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1691,7 +1904,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1699,6 +1912,8 @@
     "5002": {
       "name": "Locations from items Purch",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1706,7 +1921,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1714,6 +1929,8 @@
     "5400": {
       "name": "Delayed Prod. Orders - by Cost",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1721,7 +1938,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1729,6 +1946,8 @@
     "5401": {
       "name": "Pending Prod. Orders - by Cost",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1736,14 +1955,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5402": {
       "name": "Top-10 Prod. Orders - by Cost",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1751,14 +1974,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5403": {
       "name": "My Prod. Orders - By Cost",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1766,14 +1993,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5404": {
       "name": "My Delayed Prod. Orders",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1781,7 +2012,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1802,6 +2033,8 @@
     "5480": {
       "name": "Customer Sales Entity",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1809,7 +2042,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1817,6 +2050,8 @@
     "5481": {
       "name": "Vendor Purchases Entity",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1824,7 +2059,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1832,6 +2067,8 @@
     "5502": {
       "name": "Tax Groups For Tax Areas",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1839,7 +2076,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1860,6 +2097,7 @@
     "5756": {
       "name": "Grouped Item Ledger Entries",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1867,7 +2105,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1915,6 +2153,8 @@
     "5896": {
       "name": "Calculate Actual Material Cost",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1922,8 +2162,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -1958,6 +2200,8 @@
     "6502": {
       "name": "Items With Expiration Date",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1965,7 +2209,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1973,6 +2217,8 @@
     "7150": {
       "name": "Item Analysis View Source",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1980,7 +2226,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1988,6 +2234,8 @@
     "7300": {
       "name": "Lot Numbers by Bin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1995,14 +2243,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7301": {
       "name": "Whse. Employees at Locations",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2010,7 +2262,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2031,6 +2283,8 @@
     "7314": {
       "name": "CalcRsvQtyOnPicksShipsWithIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2038,14 +2292,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7315": {
       "name": "CalcQtyOnBlockedITOnSNQuery",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2053,14 +2311,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7316": {
       "name": "CalcQtyOnBlockedITOnLNQuery",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2068,14 +2330,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7317": {
       "name": "CalcQtyOnBlockedITOnPNQuery",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2083,14 +2349,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7318": {
       "name": "CalcQtyInWhseEntries",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2098,7 +2368,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2106,6 +2376,8 @@
     "7319": {
       "name": "CalcPickableQtyFromWhseEntry",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2113,7 +2385,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2121,6 +2393,8 @@
     "7320": {
       "name": "CalcQtyInReservEntry",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2128,7 +2402,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2136,6 +2410,8 @@
     "7321": {
       "name": "Summarized Stock By Item Trkg.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2143,7 +2419,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2151,6 +2427,8 @@
     "7323": {
       "name": "CalcOutstandQtyOnWhseActLine",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2158,7 +2436,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2166,6 +2444,8 @@
     "7345": {
       "name": "Avail Qty. (Base) In QC Bins",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2173,7 +2453,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2244,6 +2524,8 @@
     "9059": {
       "name": "Service Header Doc. Type Count",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2251,7 +2533,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2259,6 +2541,8 @@
     "9060": {
       "name": "Count Sales Orders",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2266,7 +2550,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2274,6 +2558,8 @@
     "9063": {
       "name": "Count Purchase Orders",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2281,7 +2567,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2315,6 +2601,8 @@
     "9150": {
       "name": "My Customers",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2322,7 +2610,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2330,6 +2618,8 @@
     "9151": {
       "name": "My Vendors",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2337,7 +2627,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2345,6 +2635,8 @@
     "9152": {
       "name": "My Items",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2352,7 +2644,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -2368,6 +2660,8 @@
     "9153": {
       "name": "Non-Inventory Telemetry",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2375,7 +2669,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2393,17 +2687,6 @@
       "changed": [],
       "obsoleted": [],
       "removed": null
-    },
-    "139043": {
-      "name": "Dummy Query",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
     }
   }
 }

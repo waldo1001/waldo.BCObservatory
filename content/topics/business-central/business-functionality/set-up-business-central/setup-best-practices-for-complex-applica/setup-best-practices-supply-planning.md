@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,11 +61,9 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10030
-    - change/bcapps/10166
-    - change/bcapps/10225
     - change/bcapps/10364
-    - change/bcapps/10716
+    - change/bcapps/9196
+    - change/bcapps/9449
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -120,10 +118,8 @@ Start with the introductory page, then read the reordering policies page to choo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../../changes/bcapps/10030.md) (code change): "multi-level assemblies when BOMs are defined at the SKU level"
-- [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../../changes/bcapps/10166.md) (code change): "preserving distinct cable and cut-length requirements instead of aggregating"
-- [#10225 [Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.](../../../../../changes/bcapps/10225.md) (code change): "Order Planning Worksheet now correctly ignores items from purchase orders"
-- [#10364 Create released production orders from planning worksheet](../../../../../changes/bcapps/10364.md) (code change): "The carry out action message feature on the planning worksheet now supports creating released production orders"
-- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../../changes/bcapps/10716.md) (code change): "where item tracking validation was preventing requisition line operations"
+- [#10364 Create released production orders from planning worksheet](../../../../../changes/bcapps/10364.md) (code change): "Create released production orders from planning worksheet"
+- [#9196 [Master] - What If Impact on Planning and Supply](../../../../../changes/bcapps/9196.md) (code change): "Integration with existing requisition worksheet and planning workflows"
+- [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../../changes/bcapps/9449.md) (code change): "Restores the parameter order from before version 28.1"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

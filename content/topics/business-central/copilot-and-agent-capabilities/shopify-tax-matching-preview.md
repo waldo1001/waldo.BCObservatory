@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.119Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,7 +55,6 @@ links:
     - change/bcapps/9784
     - change/bcapps/9792
     - change/bcapps/9796
-    - change/bcapps/9860
 learn_toc_path:
   - Copilot and agent capabilities
   - Shopify tax matching (preview)
@@ -116,7 +115,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fixed defects in V2 draft migration for XRechnung, PINT A-NZ, and Factura-E"
 - [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../../changes/bcapps/9792.md) (code change): "now migrated to the V2 draft import pipeline, enabling the draft-based workflow"
 - [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
-- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD"
 - [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

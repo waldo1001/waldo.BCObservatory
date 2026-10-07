@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,15 +74,15 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos:
-    - video/3tmaVpPTQLw
     - video/5Qfc7r618OM
-    - video/6vHJQggN4F4
     - video/cuez5kIanKo
     - video/e5Dr3jzCLM8
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
     - video/p-pwG6f5srY
+    - video/StIVhsnOHWY
+    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
   changes:
@@ -221,15 +221,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9221 [Shopify] Uptake Admin GraphQL API to version 2026-07](../../../changes/bcapps/9221.md) (code change): "The Shopify connector now supports the Admin GraphQL API version 2026-07"
 - [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../changes/bcapps/9313.md) (code change): "The Shopify variant sync now correctly distinguishes between variants that have stale local timestamps"
 - [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fix Sync Prices using stale WorkDate from SingleInstance cache"
-- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "shopify connector; b2b; order editing; company synchronization"
-- [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify skipped records page; Logging mode field for Shopify connector"
-- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"
+- [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify skipped records page; Logging mode field for Shopify connector; Show record functionality"
 - [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "shopify connector; sales channels; product export; channel activation"
-- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization"
+- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"
 - [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility"
 - [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
-- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; User Error Section"
-- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Shopify connector; custom fields; product synchronization; translations"
+- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Logging Mode Option Field; Shopify API Quarterly Versioning"
+- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Custom Fields and Meta Fields Support; Translation Synchronization; Customer-Specific Pricing via Catalogs"
+- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Sync in foreground mode; Logging mode configuration; Customer validation"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Tariff code synchronization; B2B company synchronization; Market-based catalogs"
 
 ## Business Central pages and reports
 

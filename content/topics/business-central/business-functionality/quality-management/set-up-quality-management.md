@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:26.153Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,8 +70,10 @@ links:
   topics:
     - topic/business-central/business-functionality/quality-management
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/m8-7-JKq4dc
+  posts:
+    - post/olofsimren-com/3696
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -83,8 +85,8 @@ children: []
 coverage:
   learn: 5
   code: 5
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 20400
@@ -127,6 +129,13 @@ Start with the setup and configuration page, then configure results and template
 - [Quality management setup and configuration](https://learn.microsoft.com/dynamics365/business-central/qms-setup): Learn how to set up and configure quality management features, including prerequisites, initial setup steps, and common scenarios.
 - [Quality management workflows](https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows): Learn how to automate quality management processes using workflows.
 - [Set up quality inspection generation rules](https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules): Learn how to configure inspection generation rules to automate quality inspections based on business transactions.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quality Management in Business Central Version 28](../../../../posts/olofsimren-com/3696.md) (community post): "Inspection templates define parameters and accepted values; generation rules link templates to items"
+- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Flexible Quality Configuration; Automated Non-Compliant Item Handling"
 
 ## Business Central pages and reports
 

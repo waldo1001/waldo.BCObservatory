@@ -2,14 +2,14 @@
 id: object/interface/invoice-posting
 type: object
 title: Interface "Invoice Posting"
-summary: Interface "Invoice Posting" in Base Application (Microsoft.Finance.ReceivablesPayables). 15 public procedures. Introduced in BC25, still in BC30.
+summary: Interface "Invoice Posting" in Base Application (Microsoft.Finance.ReceivablesPayables). 15 public procedures. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3de03a95b527f5d086d78d10f40ece3056264e8950b2457f573ad0e5558d8a09
+  input_hash: 1146b1e5d1ea6a2a62798854bfbe9df61bf12f92e3dd8ca301614460542c098b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al
@@ -45,9 +45,11 @@ name: Invoice Posting
 namespace: Microsoft.Finance.ReceivablesPayables
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +76,9 @@ relations:
 
 # Interface "Invoice Posting"
 
-> Interface "Invoice Posting" in Base Application (Microsoft.Finance.ReceivablesPayables). 15 public procedures. Introduced in BC25, still in BC30.
+> Interface "Invoice Posting" in Base Application (Microsoft.Finance.ReceivablesPayables). 15 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.ReceivablesPayables · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.ReceivablesPayables · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/ReceivablesPayables/InvoicePosting.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -105,7 +107,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

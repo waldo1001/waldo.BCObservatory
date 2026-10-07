@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:39.116Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -241,6 +241,7 @@ links:
     - topic/business-central/business-functionality/sales/sales-analytics
   localizations: []
   videos:
+    - video/DVgclv3alZU
     - video/rAaUiKByyEE
     - video/zXoSeH1cmaE
   posts: []
@@ -256,7 +257,7 @@ children: []
 coverage:
   learn: 24
   code: 23
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -343,6 +344,7 @@ Start with the Power BI Sales app page for the overall picture. Then open the re
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../../videos/DVgclv3alZU.md) (video): "Power BI Sales App - Customer Retention Analysis; abc analysis"
 - [What's New: Sales Analytics (2025 release wave 2)](../../../../../videos/rAaUiKByyEE.md) (video): "Updated PowerBI app for sales; Sales forecasting in PowerBI"
 - [What's New: Power BI (for Sales) (2025 release wave 1)](../../../../../videos/zXoSeH1cmaE.md) (video): "Enhanced Power BI Sales App; Opportunity Overview Report; Sales Quote Overview"
 

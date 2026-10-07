@@ -7297,8 +7297,7 @@
 {"s":"change/bcapps/10005","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10005","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10005","t":"topic/business-central/business-functionality/purchasing","type":"relates","w":1}
-{"s":"change/bcapps/10005","t":"topic/business-central/copilot-and-agent-capabilities/payables-agent","type":"relates","w":1}
-{"s":"change/bcapps/10005","t":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","type":"relates","w":1}
+{"s":"change/bcapps/10005","t":"topic/business-central/business-functionality/sales","type":"relates","w":1}
 {"s":"change/bcapps/10007","t":"object/codeunit/4002","type":"changes","w":2}
 {"s":"change/bcapps/10007","t":"object/page/4410","type":"changes","w":2}
 {"s":"change/bcapps/10007","t":"source/bcapps-prs","type":"authored","w":1}
@@ -7364,7 +7363,7 @@
 {"s":"change/bcapps/10030","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10030","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10030","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
-{"s":"change/bcapps/10030","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/10030","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/10031","t":"object/codeunit/6901","type":"changes","w":2}
 {"s":"change/bcapps/10031","t":"object/codeunit/6906","type":"changes","w":2}
 {"s":"change/bcapps/10031","t":"object/codeunit/6950","type":"changes","w":2}
@@ -7661,7 +7660,7 @@
 {"s":"change/bcapps/10150","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10150","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10150","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
-{"s":"change/bcapps/10150","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
+{"s":"change/bcapps/10150","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/10151","t":"object/codeunit/5056","type":"changes","w":2}
 {"s":"change/bcapps/10151","t":"object/codeunit/5057","type":"changes","w":2}
 {"s":"change/bcapps/10151","t":"object/codeunit/5058","type":"changes","w":2}
@@ -7717,7 +7716,7 @@
 {"s":"change/bcapps/10166","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10166","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10166","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
-{"s":"change/bcapps/10166","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/10166","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/10167","t":"object/codeunit/7017","type":"changes","w":2}
 {"s":"change/bcapps/10167","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10167","t":"source/bcapps-prs","type":"relates","w":1}
@@ -7741,7 +7740,6 @@
 {"s":"change/bcapps/10173","t":"object/codeunit/99000758","type":"changes","w":2}
 {"s":"change/bcapps/10173","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10173","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10173","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/10173","t":"topic/business-central/business-functionality/manufacturing","type":"relates","w":1}
 {"s":"change/bcapps/10174","t":"object/report/5848","type":"changes","w":2}
 {"s":"change/bcapps/10174","t":"source/bcapps-prs","type":"authored","w":1}
@@ -7819,8 +7817,6 @@
 {"s":"change/bcapps/10213","t":"object/table/246","type":"changes","w":2}
 {"s":"change/bcapps/10213","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10213","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10213","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
-{"s":"change/bcapps/10213","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/10214","t":"object/codeunit/12","type":"changes","w":2}
 {"s":"change/bcapps/10214","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10214","t":"source/bcapps-prs","type":"relates","w":1}
@@ -7832,11 +7828,11 @@
 {"s":"change/bcapps/10220","t":"object/report/790","type":"changes","w":2}
 {"s":"change/bcapps/10220","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10220","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10220","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
+{"s":"change/bcapps/10220","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/10225","t":"object/codeunit/5520","type":"changes","w":2}
 {"s":"change/bcapps/10225","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10225","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10225","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/10225","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/10227","t":"object/codeunit/12","type":"changes","w":2}
 {"s":"change/bcapps/10227","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10227","t":"source/bcapps-prs","type":"relates","w":1}
@@ -7890,6 +7886,7 @@
 {"s":"change/bcapps/10254","t":"object/codeunit/5817","type":"changes","w":2}
 {"s":"change/bcapps/10254","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10254","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10254","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
 {"s":"change/bcapps/10255","t":"object/codeunit/6901","type":"changes","w":2}
 {"s":"change/bcapps/10255","t":"object/codeunit/6906","type":"changes","w":2}
 {"s":"change/bcapps/10255","t":"object/codeunit/6926","type":"changes","w":2}
@@ -7924,6 +7921,7 @@
 {"s":"change/bcapps/10259","t":"object/tableextension/99000860","type":"changes","w":2}
 {"s":"change/bcapps/10259","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10259","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10259","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/10270","t":"object/codeunit/20400","type":"changes","w":2}
 {"s":"change/bcapps/10270","t":"object/codeunit/20401","type":"changes","w":2}
 {"s":"change/bcapps/10270","t":"object/codeunit/20402","type":"changes","w":2}
@@ -8090,7 +8088,7 @@
 {"s":"change/bcapps/10285","t":"object/report/10139-ca","type":"changes","w":2}
 {"s":"change/bcapps/10285","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10285","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10285","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":1}
+{"s":"change/bcapps/10285","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/10287","t":"object/codeunit/4417","type":"changes","w":2}
 {"s":"change/bcapps/10287","t":"object/codeunit/4421","type":"changes","w":2}
 {"s":"change/bcapps/10287","t":"object/codeunit/4596","type":"changes","w":2}
@@ -8114,6 +8112,7 @@
 {"s":"change/bcapps/10298","t":"object/report/5802","type":"changes","w":2}
 {"s":"change/bcapps/10298","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10298","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10298","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/10301","t":"object/table/6786","type":"changes","w":2}
 {"s":"change/bcapps/10301","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10301","t":"source/bcapps-prs","type":"relates","w":1}
@@ -8274,6 +8273,7 @@
 {"s":"change/bcapps/10364","t":"object/report/99001020","type":"changes","w":2}
 {"s":"change/bcapps/10364","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10364","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10364","t":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","type":"relates","w":1}
 {"s":"change/bcapps/10364","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/10367","t":"object/table/20405","type":"changes","w":2}
 {"s":"change/bcapps/10367","t":"source/bcapps-prs","type":"authored","w":1}
@@ -8669,7 +8669,6 @@
 {"s":"change/bcapps/10524","t":"object/codeunit/5831","type":"changes","w":2}
 {"s":"change/bcapps/10524","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10524","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10524","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/10526","t":"object/codeunit/6117","type":"changes","w":2}
 {"s":"change/bcapps/10526","t":"object/codeunit/6196","type":"changes","w":2}
 {"s":"change/bcapps/10526","t":"object/enum/6111","type":"changes","w":2}
@@ -8739,7 +8738,6 @@
 {"s":"change/bcapps/10558","t":"object/table/4812","type":"changes","w":2}
 {"s":"change/bcapps/10558","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10558","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10558","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/10559","t":"object/enum/10714-es","type":"changes","w":2}
 {"s":"change/bcapps/10559","t":"object/enum/10715-es","type":"changes","w":2}
 {"s":"change/bcapps/10559","t":"object/enum/10755-es","type":"changes","w":2}
@@ -9059,7 +9057,6 @@
 {"s":"change/bcapps/10631","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10631","t":"topic/business-central/business-functionality/finance/set-up-and-use-e-documents","type":"relates","w":1}
 {"s":"change/bcapps/10631","t":"topic/business-central/copilot-and-agent-capabilities/expense-agent-preview","type":"relates","w":1}
-{"s":"change/bcapps/10631","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"relates","w":1}
 {"s":"change/bcapps/10635","t":"object/report/20501","type":"changes","w":2}
 {"s":"change/bcapps/10635","t":"object/report/20502","type":"changes","w":2}
 {"s":"change/bcapps/10635","t":"object/table/20500","type":"changes","w":2}
@@ -9087,6 +9084,7 @@
 {"s":"change/bcapps/10663","t":"object/report/14311-au","type":"changes","w":2}
 {"s":"change/bcapps/10663","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10663","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10663","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/10663","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":1}
 {"s":"change/bcapps/10665","t":"object/codeunit/4400","type":"changes","w":2}
 {"s":"change/bcapps/10665","t":"object/codeunit/4421","type":"changes","w":2}
@@ -9165,13 +9163,14 @@
 {"s":"change/bcapps/10700","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10700","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10700","t":"topic/business-central/business-functionality/purchasing","type":"relates","w":1}
-{"s":"change/bcapps/10700","t":"topic/dev-itpro/integration","type":"relates","w":1}
+{"s":"change/bcapps/10700","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":1}
 {"s":"change/bcapps/10716","t":"object/codeunit/5522","type":"changes","w":2}
 {"s":"change/bcapps/10716","t":"object/codeunit/99000850","type":"changes","w":2}
 {"s":"change/bcapps/10716","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10716","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/10716","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
-{"s":"change/bcapps/10716","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/10716","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/10716","t":"topic/business-central/business-functionality/sales","type":"relates","w":1}
 {"s":"change/bcapps/10717","t":"object/codeunit/104000","type":"changes","w":2}
 {"s":"change/bcapps/10717","t":"object/codeunit/347","type":"changes","w":2}
 {"s":"change/bcapps/10717","t":"object/codeunit/9998","type":"changes","w":2}
@@ -9451,7 +9450,6 @@
 {"s":"change/bcapps/10903","t":"object/table/27","type":"changes","w":2}
 {"s":"change/bcapps/10903","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10903","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10903","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/10914","t":"object/permissionset/6955","type":"changes","w":2}
 {"s":"change/bcapps/10914","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10914","t":"source/bcapps-prs","type":"relates","w":1}
@@ -9527,7 +9525,6 @@
 {"s":"change/bcapps/10988","t":"object/codeunit/730","type":"changes","w":2}
 {"s":"change/bcapps/10988","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10988","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10988","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/10990","t":"object/codeunit/6973","type":"changes","w":2}
 {"s":"change/bcapps/10990","t":"object/codeunit/6975","type":"changes","w":2}
 {"s":"change/bcapps/10990","t":"source/bcapps-prs","type":"authored","w":1}
@@ -9674,6 +9671,8 @@
 {"s":"change/bcapps/11036","t":"object/table/46898","type":"changes","w":2}
 {"s":"change/bcapps/11036","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11036","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/11036","t":"topic/dev-itpro/development/development-environment/code-analysis","type":"relates","w":1}
+{"s":"change/bcapps/11036","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","type":"relates","w":1}
 {"s":"change/bcapps/11036","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices","type":"relates","w":1}
 {"s":"change/bcapps/11040","t":"object/codeunit/3319","type":"changes","w":2}
 {"s":"change/bcapps/11040","t":"object/codeunit/4301","type":"changes","w":2}
@@ -9785,7 +9784,7 @@
 {"s":"change/bcapps/11144","t":"object/report/1002","type":"changes","w":2}
 {"s":"change/bcapps/11144","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11144","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11144","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
+{"s":"change/bcapps/11144","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/11147","t":"object/codeunit/20533","type":"changes","w":2}
 {"s":"change/bcapps/11147","t":"object/report/20501","type":"changes","w":2}
 {"s":"change/bcapps/11147","t":"source/bcapps-prs","type":"authored","w":1}
@@ -10246,7 +10245,7 @@
 {"s":"change/bcapps/11411","t":"object/codeunit/5870","type":"changes","w":2}
 {"s":"change/bcapps/11411","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11411","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11411","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
+{"s":"change/bcapps/11411","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/11419","t":"object/report/11110-at","type":"changes","w":2}
 {"s":"change/bcapps/11419","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11419","t":"source/bcapps-prs","type":"relates","w":1}
@@ -10298,7 +10297,7 @@
 {"s":"change/bcapps/11476","t":"object/codeunit/5870","type":"changes","w":2}
 {"s":"change/bcapps/11476","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11476","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11476","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
+{"s":"change/bcapps/11476","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/11481","t":"object/page/7075","type":"changes","w":2}
 {"s":"change/bcapps/11481","t":"object/table/6951","type":"changes","w":2}
 {"s":"change/bcapps/11481","t":"source/bcapps-prs","type":"authored","w":1}
@@ -10383,7 +10382,7 @@
 {"s":"change/bcapps/11522","t":"object/table/5525","type":"changes","w":2}
 {"s":"change/bcapps/11522","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11522","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11522","t":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","type":"relates","w":1}
+{"s":"change/bcapps/11522","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/11541","t":"object/codeunit/6941","type":"changes","w":2}
 {"s":"change/bcapps/11541","t":"object/page/6991","type":"changes","w":2}
 {"s":"change/bcapps/11541","t":"object/page/6996","type":"changes","w":2}
@@ -10395,6 +10394,7 @@
 {"s":"change/bcapps/11560","t":"object/codeunit/37200","type":"changes","w":2}
 {"s":"change/bcapps/11560","t":"object/codeunit/37201","type":"changes","w":2}
 {"s":"change/bcapps/11560","t":"object/codeunit/37218","type":"changes","w":2}
+{"s":"change/bcapps/11560","t":"object/codeunit/37230","type":"changes","w":2}
 {"s":"change/bcapps/11560","t":"object/codeunit/6102","type":"changes","w":2}
 {"s":"change/bcapps/11560","t":"object/codeunit/6103","type":"changes","w":2}
 {"s":"change/bcapps/11560","t":"object/codeunit/6108","type":"changes","w":2}
@@ -10609,6 +10609,7 @@
 {"s":"change/bcapps/11722","t":"object/codeunit/30473-ca","type":"changes","w":2}
 {"s":"change/bcapps/11722","t":"object/codeunit/30476-ca","type":"changes","w":2}
 {"s":"change/bcapps/11722","t":"object/codeunit/30477-ca","type":"changes","w":2}
+{"s":"change/bcapps/11722","t":"object/codeunit/30479-ca","type":"changes","w":2}
 {"s":"change/bcapps/11722","t":"object/enum/30471-ca","type":"changes","w":2}
 {"s":"change/bcapps/11722","t":"object/enumextension/30470-ca","type":"changes","w":2}
 {"s":"change/bcapps/11722","t":"object/page/30471-ca","type":"changes","w":2}
@@ -10702,7 +10703,6 @@
 {"s":"change/bcapps/11815","t":"object/table/6117","type":"changes","w":2}
 {"s":"change/bcapps/11815","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11815","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11815","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"relates","w":1}
 {"s":"change/bcapps/11822","t":"object/table/40144","type":"changes","w":2}
 {"s":"change/bcapps/11822","t":"object/table/40145","type":"changes","w":2}
 {"s":"change/bcapps/11822","t":"object/table/4038","type":"changes","w":2}
@@ -10840,7 +10840,6 @@
 {"s":"change/bcapps/11959","t":"object/codeunit/99000758","type":"changes","w":2}
 {"s":"change/bcapps/11959","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11959","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11959","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
 {"s":"change/bcapps/11960","t":"object/page/46883","type":"changes","w":2}
 {"s":"change/bcapps/11960","t":"object/page/46885","type":"changes","w":2}
 {"s":"change/bcapps/11960","t":"object/page/46887","type":"changes","w":2}
@@ -10883,7 +10882,7 @@
 {"s":"change/bcapps/11994","t":"object/report/99001020","type":"changes","w":2}
 {"s":"change/bcapps/11994","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11994","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/11994","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/11994","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/11995","t":"object/page/1600","type":"changes","w":2}
 {"s":"change/bcapps/11995","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11995","t":"source/bcapps-prs","type":"relates","w":1}
@@ -10961,6 +10960,7 @@
 {"s":"change/bcapps/12064","t":"object/codeunit/9100","type":"changes","w":2}
 {"s":"change/bcapps/12064","t":"object/codeunit/9101","type":"changes","w":2}
 {"s":"change/bcapps/12064","t":"object/codeunit/9110","type":"changes","w":2}
+{"s":"change/bcapps/12064","t":"object/enum/4580","type":"changes","w":2}
 {"s":"change/bcapps/12064","t":"object/page/4580","type":"changes","w":2}
 {"s":"change/bcapps/12064","t":"object/page/4581","type":"changes","w":2}
 {"s":"change/bcapps/12064","t":"object/table/4580","type":"changes","w":2}
@@ -11144,6 +11144,8 @@
 {"s":"change/bcapps/12124","t":"object/table/246","type":"changes","w":2}
 {"s":"change/bcapps/12124","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/12124","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/12124","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/12124","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/12127","t":"object/report/11110-at","type":"changes","w":2}
 {"s":"change/bcapps/12127","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/12127","t":"source/bcapps-prs","type":"relates","w":1}
@@ -11221,6 +11223,7 @@
 {"s":"change/bcapps/12188","t":"object/codeunit/99000869","type":"changes","w":2}
 {"s":"change/bcapps/12188","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/12188","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/12188","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/12188","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/12189","t":"object/codeunit/1751","type":"changes","w":2}
 {"s":"change/bcapps/12189","t":"object/codeunit/6319","type":"changes","w":2}
@@ -11249,6 +11252,7 @@
 {"s":"change/bcapps/12196","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/12196","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":1}
 {"s":"change/bcapps/12206","t":"object/codeunit/1872-dk","type":"changes","w":2}
+{"s":"change/bcapps/12206","t":"object/codeunit/1873-dk","type":"changes","w":2}
 {"s":"change/bcapps/12206","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/12206","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/12206","t":"topic/dev-itpro/administration/cloud-migration-api","type":"relates","w":1}
@@ -11258,6 +11262,7 @@
 {"s":"change/bcapps/12207","t":"object/codeunit/8358","type":"changes","w":2}
 {"s":"change/bcapps/12207","t":"object/enum/8351","type":"changes","w":2}
 {"s":"change/bcapps/12207","t":"object/page/8368","type":"changes","w":2}
+{"s":"change/bcapps/12207","t":"object/page/8377","type":"changes","w":2}
 {"s":"change/bcapps/12207","t":"object/permissionset/8350","type":"changes","w":2}
 {"s":"change/bcapps/12207","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/12207","t":"source/bcapps-prs","type":"relates","w":1}
@@ -11513,7 +11518,6 @@
 {"s":"change/bcapps/8183","t":"object/pageextension/6149","type":"changes","w":2}
 {"s":"change/bcapps/8183","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/8183","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/8183","t":"topic/business-central/business-functionality/local-functionality/mexico/electronic-invoice","type":"relates","w":1}
 {"s":"change/bcapps/8318","t":"object/codeunit/9119","type":"changes","w":2}
 {"s":"change/bcapps/8318","t":"object/codeunit/9120","type":"changes","w":2}
 {"s":"change/bcapps/8318","t":"object/codeunit/9121","type":"changes","w":2}
@@ -11521,6 +11525,8 @@
 {"s":"change/bcapps/8318","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/8318","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/8318","t":"topic/dev-itpro/integration/integrating-business-central-with-office","type":"relates","w":1}
+{"s":"change/bcapps/8429","t":"object/codeunit/11043-de","type":"changes","w":2}
+{"s":"change/bcapps/8429","t":"object/codeunit/11044-de","type":"changes","w":2}
 {"s":"change/bcapps/8429","t":"object/codeunit/13914-de","type":"changes","w":2}
 {"s":"change/bcapps/8429","t":"object/codeunit/13916-de","type":"changes","w":2}
 {"s":"change/bcapps/8429","t":"object/codeunit/13917-de","type":"changes","w":2}
@@ -11729,7 +11735,7 @@
 {"s":"change/bcapps/8905","t":"object/table/5767","type":"changes","w":2}
 {"s":"change/bcapps/8905","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/8905","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/8905","t":"topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/production-assembly-and-job-activities","type":"relates","w":1}
+{"s":"change/bcapps/8905","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
 {"s":"change/bcapps/8905","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":1}
 {"s":"change/bcapps/8914","t":"object/page/46","type":"changes","w":2}
 {"s":"change/bcapps/8914","t":"source/bcapps-prs","type":"authored","w":1}
@@ -11873,6 +11879,7 @@
 {"s":"change/bcapps/9005","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9005","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9005","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
+{"s":"change/bcapps/9005","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/9014","t":"object/codeunit/6152","type":"changes","w":2}
 {"s":"change/bcapps/9014","t":"object/table/6139","type":"changes","w":2}
 {"s":"change/bcapps/9014","t":"source/bcapps-prs","type":"authored","w":1}
@@ -11915,7 +11922,8 @@
 {"s":"change/bcapps/9062","t":"object/report/5802","type":"changes","w":2}
 {"s":"change/bcapps/9062","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9062","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9062","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
+{"s":"change/bcapps/9062","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
+{"s":"change/bcapps/9062","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":1}
 {"s":"change/bcapps/9066","t":"object/codeunit/7000000-es","type":"changes","w":2}
 {"s":"change/bcapps/9066","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9066","t":"source/bcapps-prs","type":"relates","w":1}
@@ -11966,6 +11974,7 @@
 {"s":"change/bcapps/9067","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9067","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9067","t":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","type":"relates","w":1}
+{"s":"change/bcapps/9067","t":"topic/dev-itpro/development/extensibility/using-events","type":"relates","w":1}
 {"s":"change/bcapps/9068","t":"object/codeunit/11000007-nl","type":"changes","w":2}
 {"s":"change/bcapps/9068","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9068","t":"source/bcapps-prs","type":"relates","w":1}
@@ -12072,6 +12081,7 @@
 {"s":"change/bcapps/9118","t":"object/table/5407","type":"changes","w":2}
 {"s":"change/bcapps/9118","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9118","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9118","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9118","t":"topic/business-central/business-functionality/manufacturing","type":"relates","w":1}
 {"s":"change/bcapps/9120","t":"object/pageextension/20504","type":"changes","w":2}
 {"s":"change/bcapps/9120","t":"object/pageextension/20505","type":"changes","w":2}
@@ -12184,6 +12194,7 @@
 {"s":"change/bcapps/9180","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9180","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9180","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
+{"s":"change/bcapps/9180","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
 {"s":"change/bcapps/9188","t":"object/codeunit/30113","type":"changes","w":2}
 {"s":"change/bcapps/9188","t":"object/codeunit/30124","type":"changes","w":2}
 {"s":"change/bcapps/9188","t":"source/bcapps-prs","type":"authored","w":1}
@@ -12219,7 +12230,8 @@
 {"s":"change/bcapps/9196","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9196","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9196","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
-{"s":"change/bcapps/9196","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
+{"s":"change/bcapps/9196","t":"topic/business-central/business-functionality/manufacturing","type":"relates","w":1}
+{"s":"change/bcapps/9196","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9199","t":"object/codeunit/18544-in","type":"changes","w":2}
 {"s":"change/bcapps/9199","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9199","t":"source/bcapps-prs","type":"relates","w":1}
@@ -12284,6 +12296,7 @@
 {"s":"change/bcapps/9212","t":"object/pageextension/99000759","type":"changes","w":2}
 {"s":"change/bcapps/9212","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9212","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9212","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/9212","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/9217","t":"object/tableextension/8054","type":"changes","w":2}
 {"s":"change/bcapps/9217","t":"object/tableextension/8065","type":"changes","w":2}
@@ -12336,6 +12349,7 @@
 {"s":"change/bcapps/9224","t":"object/report/99001017","type":"changes","w":2}
 {"s":"change/bcapps/9224","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9224","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9224","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9224","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":1}
 {"s":"change/bcapps/9225","t":"object/table/8059","type":"changes","w":2}
 {"s":"change/bcapps/9225","t":"source/bcapps-prs","type":"authored","w":1}
@@ -12617,6 +12631,7 @@
 {"s":"change/bcapps/9346","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9346","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9346","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
+{"s":"change/bcapps/9346","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9347","t":"object/codeunit/13916-de","type":"changes","w":2}
 {"s":"change/bcapps/9347","t":"object/codeunit/13917-de","type":"changes","w":2}
 {"s":"change/bcapps/9347","t":"source/bcapps-prs","type":"authored","w":1}
@@ -12872,7 +12887,6 @@
 {"s":"change/bcapps/9447","t":"object/codeunit/99000760","type":"changes","w":2}
 {"s":"change/bcapps/9447","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9447","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9447","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9448","t":"object/codeunit/7010","type":"changes","w":2}
 {"s":"change/bcapps/9448","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9448","t":"source/bcapps-prs","type":"relates","w":1}
@@ -12881,6 +12895,7 @@
 {"s":"change/bcapps/9449","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9449","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9449","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/9449","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9450","t":"object/table/36","type":"changes","w":2}
 {"s":"change/bcapps/9450","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9450","t":"source/bcapps-prs","type":"relates","w":1}
@@ -12942,10 +12957,12 @@
 {"s":"change/bcapps/9464","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9464","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9464","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
+{"s":"change/bcapps/9464","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9465","t":"object/codeunit/22","type":"changes","w":2}
 {"s":"change/bcapps/9465","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9465","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9465","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
+{"s":"change/bcapps/9465","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/9466","t":"object/codeunit/22","type":"changes","w":2}
 {"s":"change/bcapps/9466","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9466","t":"source/bcapps-prs","type":"relates","w":1}
@@ -12953,6 +12970,7 @@
 {"s":"change/bcapps/9467","t":"object/codeunit/22","type":"changes","w":2}
 {"s":"change/bcapps/9467","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9467","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9467","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/9467","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/9477","t":"object/xmlport/1001","type":"changes","w":2}
 {"s":"change/bcapps/9477","t":"source/bcapps-prs","type":"authored","w":1}
@@ -13019,6 +13037,7 @@
 {"s":"change/bcapps/9531","t":"object/codeunit/3684","type":"changes","w":2}
 {"s":"change/bcapps/9531","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9531","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9531","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
 {"s":"change/bcapps/9531","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9532","t":"object/codeunit/7312","type":"changes","w":2}
 {"s":"change/bcapps/9532","t":"object/codeunit/7314","type":"changes","w":2}
@@ -13037,6 +13056,7 @@
 {"s":"change/bcapps/9538","t":"object/page/291","type":"changes","w":2}
 {"s":"change/bcapps/9538","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9538","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9538","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9538","t":"topic/business-central/business-functionality/planning","type":"relates","w":1}
 {"s":"change/bcapps/9541","t":"object/codeunit/4418","type":"changes","w":2}
 {"s":"change/bcapps/9541","t":"object/codeunit/4419","type":"changes","w":2}
@@ -13322,6 +13342,7 @@
 {"s":"change/bcapps/9580","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9580","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9580","t":"topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports","type":"relates","w":1}
+{"s":"change/bcapps/9580","t":"topic/dev-itpro/development/programming-in-the-al-language/developing-reports","type":"relates","w":1}
 {"s":"change/bcapps/9581","t":"object/codeunit/30205","type":"changes","w":2}
 {"s":"change/bcapps/9581","t":"object/enum/30129","type":"changes","w":2}
 {"s":"change/bcapps/9581","t":"object/page/30126","type":"changes","w":2}
@@ -13350,7 +13371,7 @@
 {"s":"change/bcapps/9582","t":"object/report/720","type":"changes","w":2}
 {"s":"change/bcapps/9582","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9582","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9582","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
+{"s":"change/bcapps/9582","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":1}
 {"s":"change/bcapps/9583","t":"object/page/22","type":"changes","w":2}
 {"s":"change/bcapps/9583","t":"object/page/434","type":"changes","w":2}
 {"s":"change/bcapps/9583","t":"object/page/8901","type":"changes","w":2}
@@ -13504,6 +13525,7 @@
 {"s":"change/bcapps/9638","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9638","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9638","t":"topic/business-central/business-functionality/sales","type":"relates","w":1}
+{"s":"change/bcapps/9642","t":"object/codeunit/11042-de","type":"changes","w":2}
 {"s":"change/bcapps/9642","t":"object/codeunit/13914-de","type":"changes","w":2}
 {"s":"change/bcapps/9642","t":"object/codeunit/13916-de","type":"changes","w":2}
 {"s":"change/bcapps/9642","t":"object/codeunit/13917-de","type":"changes","w":2}
@@ -13668,7 +13690,7 @@
 {"s":"change/bcapps/9705","t":"object/table/5741","type":"changes","w":2}
 {"s":"change/bcapps/9705","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9705","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9705","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/9705","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9708","t":"object/codeunit/4401","type":"changes","w":2}
 {"s":"change/bcapps/9708","t":"object/codeunit/4415","type":"changes","w":2}
 {"s":"change/bcapps/9708","t":"object/enumextension/4400","type":"changes","w":2}
@@ -13760,7 +13782,7 @@
 {"s":"change/bcapps/9745","t":"object/report/790","type":"changes","w":2}
 {"s":"change/bcapps/9745","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9745","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9745","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":1}
+{"s":"change/bcapps/9745","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9746","t":"object/codeunit/31038-cz","type":"changes","w":2}
 {"s":"change/bcapps/9746","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9746","t":"source/bcapps-prs","type":"relates","w":1}
@@ -13876,7 +13898,7 @@
 {"s":"change/bcapps/9810","t":"object/page/5401","type":"changes","w":2}
 {"s":"change/bcapps/9810","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9810","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9810","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":1}
+{"s":"change/bcapps/9810","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9814","t":"object/codeunit/3702","type":"changes","w":2}
 {"s":"change/bcapps/9814","t":"object/codeunit/457","type":"changes","w":2}
 {"s":"change/bcapps/9814","t":"source/bcapps-prs","type":"authored","w":1}
@@ -14271,7 +14293,6 @@
 {"s":"change/bcapps/9860","t":"object/tableextension/6536","type":"changes","w":2}
 {"s":"change/bcapps/9860","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9860","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9860","t":"topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview","type":"relates","w":1}
 {"s":"change/bcapps/9863","t":"object/codeunit/90","type":"changes","w":2}
 {"s":"change/bcapps/9863","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9863","t":"source/bcapps-prs","type":"relates","w":1}
@@ -14625,6 +14646,8 @@
 {"s":"change/bcapps/9898","t":"object/codeunit/99000850","type":"changes","w":2}
 {"s":"change/bcapps/9898","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9898","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9898","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
+{"s":"change/bcapps/9898","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9898","t":"topic/business-central/business-functionality/sales","type":"relates","w":1}
 {"s":"change/bcapps/9904","t":"object/pagecustomization/pa-vendor-card","type":"changes","w":2}
 {"s":"change/bcapps/9904","t":"object/permissionset/3303","type":"changes","w":2}
@@ -14771,7 +14794,7 @@
 {"s":"change/bcapps/9961","t":"object/page/5871","type":"changes","w":2}
 {"s":"change/bcapps/9961","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9961","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/9961","t":"topic/business-central/business-functionality/inventory/inventory-analytics","type":"relates","w":1}
+{"s":"change/bcapps/9961","t":"topic/business-central/business-functionality/inventory","type":"relates","w":1}
 {"s":"change/bcapps/9962","t":"object/codeunit/99000973","type":"changes","w":2}
 {"s":"change/bcapps/9962","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9962","t":"source/bcapps-prs","type":"relates","w":1}
@@ -14779,6 +14802,7 @@
 {"s":"change/bcapps/9963","t":"object/page/5530","type":"changes","w":2}
 {"s":"change/bcapps/9963","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/9963","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/9963","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
 {"s":"change/bcapps/9964","t":"object/enum/1005","type":"changes","w":2}
 {"s":"change/bcapps/9964","t":"object/table/315","type":"changes","w":2}
 {"s":"change/bcapps/9964","t":"source/bcapps-prs","type":"authored","w":1}
@@ -15066,8 +15090,8 @@
 {"s":"change/bcquality/192","t":"source/bcquality-prs","type":"authored","w":1}
 {"s":"change/bcquality/192","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/192","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
-{"s":"change/bcquality/192","t":"topic/business-central/business-functionality/design-details/design-details-item-tracking","type":"relates","w":1}
 {"s":"change/bcquality/192","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":1}
+{"s":"change/bcquality/192","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":1}
 {"s":"change/bcquality/193","t":"source/bcquality-prs","type":"authored","w":1}
 {"s":"change/bcquality/193","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/193","t":"topic/dev-itpro/development/the-al-programming-language/preprocessor-directives-in-al","type":"relates","w":1}
@@ -54700,6 +54724,7 @@
 {"s":"post/aardvarklabs-blog/2565","t":"post/thinkaboutit-be/7061","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2565","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2565","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"topic/dev-itpro/integration/web-services/odata","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2603","t":"post/aardvarklabs-blog/2838","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2603","t":"post/aardvarklabs-blog/2866","type":"relates","w":0.5}
@@ -55319,6 +55344,7 @@
 {"s":"post/demiliani-com/13908","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/13931","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/13931","t":"source/demiliani-com","type":"discusses","w":1}
+{"s":"post/demiliani-com/13931","t":"topic/dev-itpro/development/programming-in-the-al-language","type":"discusses","w":1}
 {"s":"post/demiliani-com/13961","t":"post/demiliani-com/14203","type":"relates","w":0.5}
 {"s":"post/demiliani-com/13961","t":"post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a","type":"relates","w":0.5}
 {"s":"post/demiliani-com/13961","t":"source/demiliani-com","type":"authored","w":1}
@@ -55383,7 +55409,7 @@
 {"s":"post/duiliotacconi-com/1425","t":"source/duiliotacconi-com","type":"discusses","w":1}
 {"s":"post/duiliotacconi-com/1457","t":"source/duiliotacconi-com","type":"authored","w":1}
 {"s":"post/duiliotacconi-com/1457","t":"source/duiliotacconi-com","type":"discusses","w":1}
-{"s":"post/duiliotacconi-com/1457","t":"topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26","type":"discusses","w":1}
+{"s":"post/duiliotacconi-com/1457","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","type":"discusses","w":1}
 {"s":"post/duiliotacconi-com/1501","t":"post/duiliotacconi-com/1925","type":"relates","w":0.5}
 {"s":"post/duiliotacconi-com/1501","t":"post/duiliotacconi-com/2074","type":"relates","w":0.5}
 {"s":"post/duiliotacconi-com/1501","t":"post/waldo-be/318461","type":"relates","w":0.5}
@@ -55444,6 +55470,7 @@
 {"s":"post/duiliotacconi-com/1894","t":"source/duiliotacconi-com","type":"authored","w":1}
 {"s":"post/duiliotacconi-com/1894","t":"source/duiliotacconi-com","type":"discusses","w":1}
 {"s":"post/duiliotacconi-com/1894","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters","type":"discusses","w":1}
+{"s":"post/duiliotacconi-com/1894","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","type":"discusses","w":1}
 {"s":"post/duiliotacconi-com/1925","t":"post/duiliotacconi-com/2074","type":"relates","w":0.5}
 {"s":"post/duiliotacconi-com/1925","t":"post/waldo-be/318461","type":"relates","w":0.5}
 {"s":"post/duiliotacconi-com/1925","t":"source/duiliotacconi-com","type":"authored","w":1}
@@ -55951,7 +55978,8 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"post/olofsimren-com/3779","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"source/mohana-blog","type":"discusses","w":1}
-{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ","type":"discusses","w":1}
+{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows","type":"discusses","w":1}
+{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44","t":"topic/business-central/business-functionality/planning","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e","t":"source/mohana-blog","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b","t":"source/mohana-blog","type":"authored","w":1}
@@ -55975,7 +56003,6 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"source/mohana-blog","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"topic/business-central/business-functionality/planning","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"topic/business-central/business-functionality/purchasing","type":"discusses","w":1}
-{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"topic/business-central/business-functionality/sales","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/DJ3LPRxn27g","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/DvZd6y69sWk","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/PIWxU93eCT4","type":"relates","w":0.5}
@@ -55987,7 +56014,6 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73","t":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73","t":"source/mohana-blog","type":"discusses","w":1}
-{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73","t":"video/X3xygXmgRqU","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270","t":"source/mohana-blog","type":"discusses","w":1}
@@ -56020,16 +56046,19 @@
 {"s":"post/olofsimren-com/3564","t":"source/olofsimren-com","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3585","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3585","t":"source/olofsimren-com","type":"discusses","w":1}
+{"s":"post/olofsimren-com/3585","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3605","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3605","t":"source/olofsimren-com","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3630","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3630","t":"source/olofsimren-com","type":"discusses","w":1}
+{"s":"post/olofsimren-com/3630","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3653","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3653","t":"source/olofsimren-com","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3696","t":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3696","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3696","t":"source/olofsimren-com","type":"discusses","w":1}
-{"s":"post/olofsimren-com/3696","t":"topic/business-central/business-functionality/inventory","type":"discusses","w":1}
+{"s":"post/olofsimren-com/3696","t":"topic/business-central/business-functionality/quality-management/set-up-quality-management","type":"discusses","w":1}
+{"s":"post/olofsimren-com/3696","t":"topic/business-central/business-functionality/set-up-business-central/set-up-quality-management","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3696","t":"video/m8-7-JKq4dc","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3763","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3763","t":"source/olofsimren-com","type":"discusses","w":1}
@@ -56037,8 +56066,6 @@
 {"s":"post/olofsimren-com/3779","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3779","t":"source/olofsimren-com","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3779","t":"topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows","type":"discusses","w":1}
-{"s":"post/olofsimren-com/3779","t":"topic/business-central/business-functionality/planning","type":"discusses","w":1}
-{"s":"post/olofsimren-com/3779","t":"topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ","type":"discusses","w":1}
 {"s":"post/olofsimren-com/3853","t":"source/olofsimren-com","type":"authored","w":1}
 {"s":"post/olofsimren-com/3853","t":"source/olofsimren-com","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5","t":"source/sauravdhyani-com","type":"authored","w":1}
@@ -56055,12 +56082,11 @@
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030","t":"source/sauravdhyani-com","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3","t":"source/sauravdhyani-com","type":"authored","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3","t":"source/sauravdhyani-com","type":"discusses","w":1}
+{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3","t":"topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3","t":"video/8KMcu4B_eTk","type":"relates","w":0.5}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"source/sauravdhyani-com","type":"authored","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"source/sauravdhyani-com","type":"discusses","w":1}
-{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"topic/business-central/business-functionality/inventory","type":"discusses","w":1}
-{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"video/m8-7-JKq4dc","type":"relates","w":0.5}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f","t":"video/X3xygXmgRqU","type":"relates","w":0.5}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9","t":"post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97","type":"relates","w":0.5}
@@ -56314,6 +56340,7 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b","t":"source/thatnavguy-com","type":"discusses","w":1}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b","t":"topic/business-central/business-functionality/finance/accounting-for-costs","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-60-devtoys--387b1c4ee3","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-60-devtoys--387b1c4ee3","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d","t":"source/thatnavguy-com","type":"authored","w":1}
@@ -56370,6 +56397,7 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a","t":"video/JI5KlMxrtoA","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d","t":"source/thatnavguy-com","type":"discusses","w":1}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d","t":"topic/business-central/business-functionality/inventory","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-70-email-scenario-attachment--514b5a1c4e","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-70-email-scenario-attachment--514b5a1c4e","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663","t":"source/thatnavguy-com","type":"authored","w":1}
@@ -56439,6 +56467,7 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-projects-symlynx--6abd209948","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10122","t":"source/thedynamicsexplorer-com","type":"authored","w":1}
 {"s":"post/thedynamicsexplorer-com/10122","t":"source/thedynamicsexplorer-com","type":"discusses","w":1}
+{"s":"post/thedynamicsexplorer-com/10122","t":"topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10232","t":"source/thedynamicsexplorer-com","type":"authored","w":1}
 {"s":"post/thedynamicsexplorer-com/10232","t":"source/thedynamicsexplorer-com","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10232","t":"topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci","type":"discusses","w":1}
@@ -56446,7 +56475,6 @@
 {"s":"post/thedynamicsexplorer-com/10326","t":"post/thedynamicsexplorer-com/37371","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10326","t":"source/thedynamicsexplorer-com","type":"authored","w":1}
 {"s":"post/thedynamicsexplorer-com/10326","t":"source/thedynamicsexplorer-com","type":"discusses","w":1}
-{"s":"post/thedynamicsexplorer-com/10326","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10326","t":"topic/business-central/business-functionality/sales","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10326","t":"video/8IOEXgk7q5I","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10326","t":"video/N30HebR5nJk","type":"relates","w":0.5}
@@ -56507,6 +56535,7 @@
 {"s":"post/thedynamicsexplorer-com/7097","t":"source/thedynamicsexplorer-com","type":"authored","w":1}
 {"s":"post/thedynamicsexplorer-com/7097","t":"source/thedynamicsexplorer-com","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/7097","t":"topic/business-central/business-functionality/planning","type":"discusses","w":1}
+{"s":"post/thedynamicsexplorer-com/7097","t":"topic/business-central/business-functionality/purchasing","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/8821","t":"source/thedynamicsexplorer-com","type":"authored","w":1}
 {"s":"post/thedynamicsexplorer-com/8821","t":"source/thedynamicsexplorer-com","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/9051","t":"post/thinkaboutit-be/7181","type":"relates","w":0.5}
@@ -56807,7 +56836,6 @@
 {"s":"post/thinkaboutit-be/8120","t":"source/thinkaboutit-be","type":"discusses","w":1}
 {"s":"post/thinkaboutit-be/8132","t":"source/thinkaboutit-be","type":"authored","w":1}
 {"s":"post/thinkaboutit-be/8132","t":"source/thinkaboutit-be","type":"discusses","w":1}
-{"s":"post/thinkaboutit-be/8132","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices","type":"discusses","w":1}
 {"s":"post/thinkaboutit-be/8132","t":"video/JI5KlMxrtoA","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/8157","t":"source/thinkaboutit-be","type":"authored","w":1}
 {"s":"post/thinkaboutit-be/8157","t":"source/thinkaboutit-be","type":"discusses","w":1}
@@ -56873,6 +56901,7 @@
 {"s":"post/vondervoort-be/67","t":"source/vondervoort-be","type":"discusses","w":1}
 {"s":"post/vondervoort-be/84","t":"source/vondervoort-be","type":"authored","w":1}
 {"s":"post/vondervoort-be/84","t":"source/vondervoort-be","type":"discusses","w":1}
+{"s":"post/vondervoort-be/84","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"discusses","w":1}
 {"s":"post/waldo-be/317739","t":"source/waldo-be","type":"authored","w":1}
 {"s":"post/waldo-be/317739","t":"source/waldo-be","type":"discusses","w":1}
 {"s":"post/waldo-be/317739","t":"topic/dev-itpro/administration/admin-center","type":"discusses","w":1}
@@ -58305,7 +58334,6 @@
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/-vdhfNMNZQk","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/1ft4o9lQzsU","type":"demonstrates","w":1}
-{"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/2N2NhNH7dsk","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/BofJJPqgrTI","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/hn92Al_x-s8","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts","t":"video/mS6NDhj20yI","type":"demonstrates","w":1}
@@ -58322,9 +58350,9 @@
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"topic/dev-itpro/development/data-analytics-and-reporting","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"topic/dev-itpro/development/extensibility/embedding-power-bi","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
-{"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"video/DpYJOkwKxTY","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"video/DVgclv3alZU","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"video/fy96_jdL1PQ","type":"demonstrates","w":1}
+{"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","t":"video/hSJW3LiOBxg","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central","t":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central","t":"topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central","t":"topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app","type":"relates","w":0.5}
@@ -58453,6 +58481,7 @@
 {"s":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","t":"topic/business-central/business-functionality/design-details/design-details-warehouse-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","t":"video/8IOEXgk7q5I","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/design-details/design-details-item-tracking","t":"topic/business-central/business-functionality/design-details/design-details-supply-planning","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/design-details/design-details-item-tracking","t":"topic/business-central/business-functionality/design-details/design-details-warehouse-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/design-details/design-details-item-tracking","t":"topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/move-items","type":"relates","w":0.5}
@@ -58629,7 +58658,6 @@
 {"s":"topic/business-central/business-functionality/finance/manage-inventory-costs","t":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/manage-inventory-costs","t":"topic/business-central/development-and-administration/customize-business-central/customize-with-extensions","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/manage-inventory-costs","t":"video/8IOEXgk7q5I","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/finance/manage-inventory-costs","t":"video/N30HebR5nJk","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/manage-inventory-costs","t":"video/w0okH0v0VvY","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci","t":"topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci","t":"topic/business-central/business-functionality/finance/manage-receivables","type":"relates","w":0.5}
@@ -58726,6 +58754,9 @@
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"topic/business-central/business-functionality/local-functionality/iceland/general","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"topic/business-central/business-functionality/set-up-business-central/set-up-finance","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/1ugAYeEZLaU","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/4IumfDNN8GU","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/5E6ikveL6N0","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/5zXQ_aIT03s","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/fIktVTGZkjE","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/HpIxYyjQWqs","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/kuKwjRyNcoE","type":"demonstrates","w":1}
@@ -58733,6 +58764,7 @@
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/NkYNL_5Zfoc","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/r8HWIk5E0c0","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/VIda0Ok1SSQ","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/XJ0JHHQ7GzA","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","t":"video/zQhtuFbxJm4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/working-with-currencies","t":"topic/business-central/business-functionality/set-up-business-central/set-up-finance","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/working-with-currencies","t":"topic/dev-itpro/development/development-environment/working-with-apps","type":"relates","w":0.5}
@@ -58772,6 +58804,7 @@
 {"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"topic/business-central/business-functionality/sustainability-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"topic/dev-itpro/development/development-environment/working-with-apps","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"topic/dev-itpro/development/programming-in-the-al-language/formatting-values","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"video/4IumfDNN8GU","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"video/fdzTWZyT6mI","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","t":"video/MWXwtRr6-Wk","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/finance","t":"topic/business-central/business-functionality/finance/accounting-for-costs","type":"relates","w":2}
@@ -58904,6 +58937,8 @@
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","t":"topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","t":"topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","t":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","t":"video/6lUli23t3fU","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","t":"video/DpYJOkwKxTY","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app","type":"relates","w":2}
@@ -58912,6 +58947,7 @@
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/sales/sales-analytics","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/inventory/inventory-analytics","t":"video/qCqe8uw8Od4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/business-functionality/inventory/inventory-analytics","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/business-functionality/local-functionality/czech-republic/inventory","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/business-functionality/local-functionality/italy/inventory","type":"relates","w":0.5}
@@ -58920,7 +58956,6 @@
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/inventory","t":"topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview","type":"relates","w":0.5}
-{"s":"topic/business-central/business-functionality/inventory","t":"video/m8-7-JKq4dc","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/local-functionality/australia/banking-and-payments","t":"topic/business-central/business-functionality/local-functionality/australia/core-finance","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/local-functionality/australia/banking-and-payments","t":"topic/business-central/business-functionality/local-functionality/australia/general","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/local-functionality/australia/banking-and-payments","t":"topic/business-central/business-functionality/local-functionality/australia/tax","type":"relates","w":0.5}
@@ -59642,7 +59677,6 @@
 {"s":"topic/business-central/business-functionality/manufacturing","t":"video/tzX0qB9tiBs","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/manufacturing","t":"video/vnaySMIKnp8","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/manufacturing","t":"video/xqFpiqmXjk0","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/manufacturing","t":"video/zt9_HEmPKNg","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/business-central/get-started/learn/business-process-walkthroughs","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/business-central/get-started","type":"relates","w":0.5}
@@ -59656,13 +59690,13 @@
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/administration/migrate-to-business-central-online","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/administration/understand-business-central-online","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/3tmaVpPTQLw","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/6vHJQggN4F4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/AR2FiD64wbw","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/B-pxLlb-UN0","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/BwBR8JwwQa4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/gy_6QnFpiEw","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/NMO822Jf_4E","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/StIVhsnOHWY","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/YSDfDjrMUb0","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/business-functionality/service-management/planning-service","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/get-started/get-productive-in-business-central/personalize-business-central","type":"relates","w":0.5}
@@ -59697,13 +59731,18 @@
 {"s":"topic/business-central/business-functionality/purchasing","t":"topic/business-central/business-functionality/sustainability-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/purchasing","t":"topic/business-central/get-started/quick-starts","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/purchasing","t":"topic/dev-itpro/development/extensibility/extending-the-base-application/examples","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/purchasing","t":"video/8C9JmtHdExM","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/purchasing","t":"video/DJ3LPRxn27g","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/purchasing","t":"video/DvZd6y69sWk","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/quality-management/set-up-quality-management","t":"topic/business-central/business-functionality/set-up-business-central/set-up-quality-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/quality-management/set-up-quality-management","t":"topic/business-central/get-started/learn/contoso-coffee-demo-data/quality-management","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/quality-management/set-up-quality-management","t":"video/m8-7-JKq4dc","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/quality-management","t":"topic/business-central/business-functionality/quality-management/set-up-quality-management","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/quality-management","t":"topic/business-central/business-functionality/set-up-business-central/set-up-quality-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/quality-management","t":"topic/business-central/get-started/learn/contoso-coffee-demo-data/quality-management","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/quality-management","t":"video/m8-7-JKq4dc","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/quality-management","t":"video/sqjb_gsXqM8","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/quality-management","t":"video/WACQbAEVOJg","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/business-central/business-functionality/relationship-management/manage-interactions","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/business-central/business-functionality/relationship-management/manage-sales-opportunities","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/business-central/business-functionality/relationship-management/manage-segments","type":"relates","w":0.5}
@@ -59734,6 +59773,7 @@
 {"s":"topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed","t":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","t":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","t":"video/DVgclv3alZU","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","t":"video/rAaUiKByyEE","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","t":"video/zXoSeH1cmaE","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports","type":"relates","w":2}
@@ -59741,6 +59781,7 @@
 {"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"topic/business-central/business-functionality/sales/subscription-billing","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"topic/business-central/business-functionality/warehouse-management","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"video/fJGY6d-2lO8","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales/sales-analytics","t":"video/rAaUiKByyEE","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage","t":"topic/business-central/business-functionality/sales/subscription-billing/contracts","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage","t":"topic/business-central/business-functionality/sales/subscription-billing/sales","type":"relates","w":0.5}
@@ -59836,10 +59877,8 @@
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","t":"topic/business-central/copilot-and-agent-capabilities/analysis-assist","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","t":"topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","t":"topic/dev-itpro/development/data-analytics-and-reporting","type":"relates","w":0.5}
-{"s":"topic/business-central/business-functionality/set-up-business-central/set-up-inventory","t":"video/X3xygXmgRqU","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","t":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","t":"topic/business-central/get-started/learn/contoso-coffee-demo-data/manufacturing","type":"relates","w":0.5}
-{"s":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","t":"video/giNi8WtCX_s","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing","t":"video/zt9_HEmPKNg","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-printers","t":"topic/business-central/development-and-administration/administration-tasks-in-business-central","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-printers","t":"topic/business-central/get-started/get-productive-in-business-central/run-and-print-reports","type":"relates","w":0.5}
@@ -59857,6 +59896,7 @@
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","t":"topic/business-central/copilot-and-agent-capabilities/analysis-assist","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","t":"topic/dev-itpro/development/data-analytics-and-reporting","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","t":"video/gBB0elWQWM8","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","t":"video/tP-0VcN7fcU","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management","t":"topic/business-central/business-functionality/warehouse-management/inbound-warehouse-processes","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management","t":"topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes","type":"relates","w":0.5}
@@ -59907,13 +59947,11 @@
 {"s":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","t":"video/JoGW2xlIq0I","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","t":"video/lcy36b9GS38","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","t":"video/Sc8eGyMkBTA","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","t":"video/t_UXxbvgnHY","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"topic/business-central/business-functionality/sustainability-management/sustainability-analytics","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/_ynMUzh956w","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/2_yYu3RgYwo","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/bHXEbtsx0JY","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/sustainability-management","t":"video/bnqxycPzbeI","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/i-MTLNYwA9o","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/JBGuaqk5nXk","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sustainability-management","t":"video/JoGW2xlIq0I","type":"demonstrates","w":1}
@@ -59944,6 +59982,7 @@
 {"s":"topic/business-central/business-functionality/warehouse-management","t":"topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/warehouse-management","t":"video/8KMcu4B_eTk","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/warehouse-management","t":"video/sVlPlmok5U8","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/warehouse-management","t":"video/vnaySMIKnp8","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality","t":"topic/business-central/business-functionality/assembly-management","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality","t":"topic/business-central/business-functionality/company-hub","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality","t":"topic/business-central/business-functionality/design-details","type":"relates","w":2}
@@ -60087,21 +60126,20 @@
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/06vgkq2EXmA","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/2uXVammbab0","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/gvIGhtqADS0","type":"demonstrates","w":1}
-{"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/j5ULVClJaKU","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/mhfjycxWTyY","type":"demonstrates","w":1}
-{"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/oFG9gBkd2NU","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/TSLXzbeyE7Y","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/V7NgFOIcGgM","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/WL3m2dffwU8","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr","t":"video/YX9UfUF0EsA","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","type":"relates","w":0.5}
 {"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"video/FBrZwXpOhmM","type":"demonstrates","w":1}
+{"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"video/H5EuObmeF4o","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"video/OvI9jaA1mJY","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"video/uh5S1i7uDlo","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/payables-agent","t":"video/YsmwHqxL1Zc","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview","t":"video/_1LhwG2ZgFw","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview","t":"video/cZCSi6khZFo","type":"demonstrates","w":1}
-{"s":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","t":"video/_JkZCp64jNw","type":"demonstrates","w":1}
+{"s":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","t":"video/0h8QBNmeORQ","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","t":"video/1ht5nxubZ9c","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","t":"video/2ujWYYecA2c","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/sales-order-agent","t":"video/4nFViDASGhg","type":"demonstrates","w":1}
@@ -60902,6 +60940,7 @@
 {"s":"topic/dev-itpro/development/data-analytics-and-reporting","t":"topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/data-analytics-and-reporting","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/data-analytics-and-reporting","t":"video/jqVt0hYDfz0","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/development/data-analytics-and-reporting","t":"video/qmLVKyHRhNc","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/development-environment/code-analysis","t":"topic/dev-itpro/development/development-environment/compile-publish-and-debug","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/development-environment/code-analysis","t":"topic/dev-itpro/development/development-environment/configure-projects-and-workspaces","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/development-environment/code-analysis","t":"topic/dev-itpro/development/development-environment/configure-the-development-environment","type":"relates","w":0.5}
@@ -61231,6 +61270,7 @@
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/profiles","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/views","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi","t":"video/W2yhU8eXT5w","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/profiles","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/views","type":"relates","w":0.5}
@@ -61322,6 +61362,7 @@
 {"s":"topic/dev-itpro/development/programming-in-the-al-language","t":"topic/dev-itpro/development/system-and-application-reference-documen","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language","t":"topic/dev-itpro/development/the-al-programming-language","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language","t":"topic/dev-itpro/development/troubleshooting","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/development/programming-in-the-al-language","t":"video/lH2Z4xfdhmY","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/programming-in-the-al-language","t":"video/QhHgkCe3kkk","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions","type":"relates","w":0.5}
@@ -61336,6 +61377,7 @@
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"video/-_TaZY2Clh0","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"video/1xdpUmeun-s","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"video/lpwDSdEJrIQ","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"video/qABlX4AL3GM","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing","type":"relates","w":0.5}
@@ -61430,7 +61472,6 @@
 {"s":"topic/dev-itpro/get-started","t":"topic/dev-itpro/get-started/sell","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al","t":"video/EwN3xb2q7vE","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al","t":"video/MNwTt06ZxwY","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al","t":"video/nbGw2g3KMXI","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"relates","w":0.5}
@@ -61438,10 +61479,8 @@
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/3UcLmXqyl44","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/aNRzlbxVPWE","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/MKuOgMWXJ_8","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/moPzf04Mwlc","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/nbGw2g3KMXI","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/Vq9Nk6_uxmQ","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/WFAZLsUTk20","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/build-copilot-user-experience","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al","type":"relates","w":0.5}
@@ -61460,6 +61499,7 @@
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/0WAOtNaKjws","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/4HE3BBCcV84","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/C5cmG3sNjUg","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/EpDIrJE0HzA","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/GeT5E_f9A9Q","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/GK6hM-nBYZk","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/rm-FstU_I80","type":"demonstrates","w":1}
@@ -61529,7 +61569,6 @@
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"video/6Zb7VAvLVm4","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"video/EpDIrJE0HzA","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"video/iViHfCgL2L8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"video/rm-FstU_I80","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi","t":"video/V_ZyGeF5JXE","type":"demonstrates","w":1}
@@ -61550,15 +61589,15 @@
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/3tmaVpPTQLw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/5Qfc7r618OM","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/6vHJQggN4F4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/cuez5kIanKo","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/e5Dr3jzCLM8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/h5PQI4I4b7c","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/inuqqx12yJ8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/lClKXB8xXIE","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/p-pwG6f5srY","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/StIVhsnOHWY","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/YSDfDjrMUb0","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/apis/analytics-api-reference","t":"topic/dev-itpro/integration/web-services/apis/finance-reports-api","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"topic/dev-itpro/integration/web-services/apis/analytics-api-reference","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"topic/dev-itpro/integration/web-services/apis/finance-reports-api","type":"relates","w":2}

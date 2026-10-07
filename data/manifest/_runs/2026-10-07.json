@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-07T15:30:42.268Z",
-  "finished_at": "2026-10-07T15:54:37.019Z",
+  "started_at": "2026-10-07T16:04:55.382Z",
+  "finished_at": "2026-10-07T16:32:32.677Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 814
+        "duration_ms": 1525
       },
       {
         "id": "sandbox-history",
@@ -47,7 +47,7 @@
           "removed": 0
         },
         "note": "8/8 branches",
-        "duration_ms": 760
+        "duration_ms": 1053
       },
       {
         "id": "onprem-history",
@@ -61,7 +61,7 @@
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 727
+        "duration_ms": 887
       }
     ],
     "totals": {
@@ -108,31 +108,40 @@
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 2,
+    "calls": 121,
     "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-sonnet-5-5": 2
+      "claude-haiku-4-5-20251001": 39,
+      "claude-opus-5-5": 82
     },
-    "cost_usd": 0.13972179999999998,
+    "cost_usd": 5.555929,
     "tokens_by_model": {
-      "claude-sonnet-5-5": {
-        "calls": 2,
-        "input": 4,
-        "output": 1073,
-        "cache_read": 679,
-        "cache_creation": 32212,
-        "cost_usd": 0.13972179999999998
+      "claude-haiku-4-5-20251001": {
+        "calls": 39,
+        "input": 18368,
+        "output": 21847,
+        "cache_read": 0,
+        "cache_creation": 388489,
+        "cost_usd": 0.9045810000000002
+      },
+      "claude-opus-5-5": {
+        "calls": 82,
+        "input": 164,
+        "output": 84651,
+        "cache_read": 0,
+        "cache_creation": 369709,
+        "cost_usd": 4.651348
       }
     },
-    "day_cost_usd": 86.944513
+    "day_cost_usd": 92.500442
   },
   "spend": {
-    "today_usd": 86.804791,
+    "today_usd": 86.944513,
     "week_before_usd": 12.3225,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99900.872709,
+    "allowance_usd": 99900.732987,
     "binding": "week",
     "exhausted": false,
     "override": true
@@ -143,7 +152,7 @@
   "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-07T21:05:00.000Z",
+    "deadline": "2026-10-07T21:39:00.000Z",
     "items_touched": 8,
     "stages_run": {
       "code:fetched": 8,
@@ -170,7 +179,7 @@
     "country_diffs": 46,
     "timelines": 19,
     "deprecations": 3,
-    "written": 79,
+    "written": 45,
     "relations": 3,
     "matrix": true,
     "docs_objects": {
@@ -188,8 +197,8 @@
       "stopped": "done"
     },
     "pages": {
-      "objects": 25642,
-      "written": 25664,
+      "objects": 25644,
+      "written": 7326,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9214
@@ -219,10 +228,10 @@
     "skipped_non_code": 0,
     "held": 0,
     "pages": 1074,
-    "relinked": 236,
-    "rerendered": 236,
+    "relinked": 140,
+    "rerendered": 146,
     "api_calls": 0,
-    "narrated": 2
+    "narrated": 0
   },
   "previews": {
     "probed": 0,
@@ -258,23 +267,34 @@
   },
   "topic_links": {
     "units": 2278,
-    "stale": 0,
-    "calls": 0,
-    "matched": 0,
-    "rejected": 0,
+    "stale": 191,
+    "calls": 39,
+    "matched": 286,
+    "rejected": 46,
     "failed": 0,
-    "cost_usd": 0,
-    "rejections": [],
+    "cost_usd": 0.9045810000000002,
+    "rejections": [
+      "video/198d9piIoE0 -> topic/business-central/business-functionality/planning: quote not verbatim: \"demand planning; fulfillment suggestions; allocation policies\"",
+      "video/X3xygXmgRqU -> topic/business-central/business-functionality/set-up-business-central/set-up-inventory: quote not verbatim: \"multiple locations setup; transfer orders; inventory setup\"",
+      "video/qCqe8uw8Od4 -> topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app: quote not verbatim: \"abc analysis in power bi; power bi inventory app\"",
+      "change/bcapps/11135 -> t197: not a candidate of this item",
+      "change/bcapps/10213 -> topic/business-central/business-functionality/design-details/design-details-supply-planning: quote not verbatim: \"prevents accurate price calculations in the requisition planning process\"",
+      "change/bcapps/11959 -> t184: not a candidate of this item",
+      "change/bcapps/10298 -> t186: not a candidate of this item",
+      "change/bcapps/10934 -> t211: not a candidate of this item",
+      "change/bcapps/9447 -> t184: not a candidate of this item",
+      "change/bcapps/9447 -> t232: not a candidate of this item"
+    ],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 0,
-    "calls": 0,
-    "reviewed": 0,
-    "kept": 0,
-    "dropped": 0,
+    "candidates": 72,
+    "calls": 82,
+    "reviewed": 88,
+    "kept": 294,
+    "dropped": 382,
     "failed": 0,
-    "cost_usd": 0,
+    "cost_usd": 4.651348,
     "stopped": "done"
   },
   "hubs": {
@@ -290,7 +310,7 @@
     "review_backlog": 0
   },
   "content": {
-    "pages": 28767,
+    "pages": 28769,
     "errors": 0
   },
   "leak": {

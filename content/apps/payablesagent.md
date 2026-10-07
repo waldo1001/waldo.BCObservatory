@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c62a3ff3b257f302028107d67017e487adeab0e9fee3f2446859dd186f0d015a
+  input_hash: 5bbb3f992fbef5ca3c684b180c485982623746160af887856a07a0a8abad4ed2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PayablesAgent/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/PayablesAgent/app
     title: src/Apps/W1/PayablesAgent/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -288,4 +288,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |  | [PA Vendor Card](../objects/pagecustomization/pa-vendor-card.md) |  |
 |  | [PA Vendors](../objects/pagecustomization/pa-vendors.md) |  |
 
-Source: [src/Apps/W1/PayablesAgent/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PayablesAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PayablesAgent/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/PayablesAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

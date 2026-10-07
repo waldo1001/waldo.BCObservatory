@@ -2,14 +2,14 @@
 id: object/profile/accounting-services
 type: object
 title: Profile "ACCOUNTING SERVICES"
-summary: Profile "ACCOUNTING SERVICES" in Base Application (Microsoft.AccountantPortal). Introduced in BC25, still in BC30.
+summary: Profile "ACCOUNTING SERVICES" in Base Application (Microsoft.AccountantPortal). Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eac9a14c11d906d272aad4b8154346392795b0a5ad43340bcffb46e5c1f9e4a2
+  input_hash: d225d589b16ee6052490e3937ca664b726207ce037adae931b8fe3e96cd3912d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al
@@ -46,9 +46,11 @@ caption: Outsourced Accounting Manager
 namespace: Microsoft.AccountantPortal
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Profile "ACCOUNTING SERVICES"
 
-> Profile "ACCOUNTING SERVICES" in Base Application (Microsoft.AccountantPortal). Introduced in BC25, still in BC30.
+> Profile "ACCOUNTING SERVICES" in Base Application (Microsoft.AccountantPortal). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.AccountantPortal · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al) · facts from BC29
+Base Application · Microsoft.AccountantPortal · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bc0be30da74f3182a11558ba24ad1705bec848a0e5aaa4baa7777620a581e94b
+  input_hash: eb67dc44b61bff994e6766ba3cfb18f0961c658a30cc250bc3c36125c92d792e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/MicrosoftFabricMirroring/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/MicrosoftFabricMirroring/app
     title: src/Apps/W1/MicrosoftFabricMirroring/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -158,4 +158,4 @@ First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespac
 | 48531 | [Fabric Exp Read](../objects/permissionset/48531.md) | MS Fabric Mirroring - Read |
 | 48532 | [Fabric Exp Activate](../objects/permissionset/48532.md) | MS Fabric Mirroring - Activate |
 
-Source: [src/Apps/W1/MicrosoftFabricMirroring/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/MicrosoftFabricMirroring/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/MicrosoftFabricMirroring/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/MicrosoftFabricMirroring/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

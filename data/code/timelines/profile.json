@@ -26,6 +26,8 @@
     "accountant": {
       "name": "ACCOUNTANT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -33,7 +35,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -41,6 +43,8 @@
     "accounting manager": {
       "name": "ACCOUNTING MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -48,7 +52,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -56,6 +60,8 @@
     "accounting services": {
       "name": "ACCOUNTING SERVICES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -63,7 +69,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -71,6 +77,8 @@
     "admin": {
       "name": "ADMIN",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -78,7 +86,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -86,6 +94,8 @@
     "ap coordinator": {
       "name": "AP COORDINATOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -93,7 +103,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -101,6 +111,8 @@
     "ar administrator": {
       "name": "AR ADMINISTRATOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -108,8 +120,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -133,6 +147,8 @@
     "bookkeeper": {
       "name": "BOOKKEEPER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -140,7 +156,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -148,6 +164,8 @@
     "business manager": {
       "name": "BUSINESS MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -155,7 +173,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -163,6 +181,8 @@
     "business manager evaluation": {
       "name": "Business Manager Evaluation",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -170,7 +190,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -178,6 +198,8 @@
     "dispatcher": {
       "name": "DISPATCHER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -185,7 +207,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -193,6 +215,8 @@
     "employee": {
       "name": "EMPLOYEE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -200,7 +224,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -208,6 +232,8 @@
     "fin": {
       "name": "FIN",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -215,7 +241,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -223,6 +249,8 @@
     "hr": {
       "name": "HR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -230,7 +258,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -238,6 +266,8 @@
     "it manager": {
       "name": "IT MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -245,14 +275,33 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
     },
+    "m365 collaboration": {
+      "name": "M365 Collaboration",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "22.0"
+        }
+      ],
+      "removed": "25"
+    },
     "machine operator": {
       "name": "MACHINE OPERATOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -260,7 +309,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -268,6 +317,8 @@
     "manufacturing": {
       "name": "MANUFACTURING",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -275,7 +326,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -283,6 +334,8 @@
     "o365 sales": {
       "name": "O365 SALES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -290,7 +343,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -298,6 +351,8 @@
     "order processor": {
       "name": "ORDER PROCESSOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -305,7 +360,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -313,6 +368,8 @@
     "outbound technician": {
       "name": "OUTBOUND TECHNICIAN",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -320,7 +377,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -328,6 +385,8 @@
     "president": {
       "name": "PRESIDENT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -335,7 +394,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -343,6 +402,8 @@
     "president - small business": {
       "name": "PRESIDENT - SMALL BUSINESS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -350,7 +411,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -358,6 +419,8 @@
     "production planner": {
       "name": "PRODUCTION PLANNER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -365,7 +428,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -373,6 +436,8 @@
     "project manager": {
       "name": "PROJECT MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -380,7 +445,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -388,6 +453,8 @@
     "projects": {
       "name": "PROJECTS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -395,7 +462,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -403,6 +470,8 @@
     "purch": {
       "name": "PURCH",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -410,7 +479,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -418,6 +487,8 @@
     "purchasing agent": {
       "name": "PURCHASING AGENT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -425,7 +496,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -433,6 +504,8 @@
     "rapidstart services": {
       "name": "RAPIDSTART SERVICES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -440,7 +513,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -448,6 +521,8 @@
     "resource manager": {
       "name": "RESOURCE MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -455,7 +530,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -463,6 +538,8 @@
     "resourcing": {
       "name": "RESOURCING",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -470,7 +547,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -478,6 +555,8 @@
     "sales": {
       "name": "SALES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -485,7 +564,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -493,6 +572,8 @@
     "sales and relationship manager": {
       "name": "SALES AND RELATIONSHIP MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -500,7 +581,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -508,6 +589,8 @@
     "sales manager": {
       "name": "SALES MANAGER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -515,7 +598,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -523,6 +606,8 @@
     "security administrator": {
       "name": "SECURITY ADMINISTRATOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -530,7 +615,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -538,6 +623,8 @@
     "services": {
       "name": "SERVICES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -545,7 +632,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -553,6 +640,8 @@
     "shipping and receiving": {
       "name": "SHIPPING AND RECEIVING",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -560,7 +649,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -568,6 +657,8 @@
     "shipping and receiving - wms": {
       "name": "SHIPPING AND RECEIVING - WMS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -575,7 +666,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -583,6 +674,8 @@
     "shop supervisor": {
       "name": "SHOP SUPERVISOR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -590,7 +683,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -598,6 +691,8 @@
     "shop supervisor - foundation": {
       "name": "SHOP SUPERVISOR - FOUNDATION",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -605,7 +700,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -613,6 +708,8 @@
     "team member": {
       "name": "TEAM MEMBER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -620,7 +717,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -628,6 +725,8 @@
     "warehouse": {
       "name": "WAREHOUSE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -635,14 +734,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "warehouse worker - wms": {
       "name": "WAREHOUSE WORKER - WMS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -650,7 +753,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null

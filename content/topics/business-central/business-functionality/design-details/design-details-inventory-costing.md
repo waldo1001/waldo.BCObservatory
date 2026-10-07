@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -200,18 +200,21 @@ links:
     - topic/business-central/business-functionality/design-details
     - topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen
   localizations: []
-  videos: []
+  videos:
+    - video/8IOEXgk7q5I
   posts:
     - post/thedynamicsexplorer-com/37371
   guidelines: []
   changes:
     - change/bcapps/10094
-    - change/bcapps/10173
+    - change/bcapps/10285
     - change/bcapps/10430
-    - change/bcapps/11144
+    - change/bcapps/10663
+    - change/bcapps/12188
     - change/bcapps/9005
-    - change/bcapps/9062
+    - change/bcapps/9212
     - change/bcapps/9398
+    - change/bcapps/9467
     - change/bcquality/192
 learn_toc_path:
   - Business functionality
@@ -224,7 +227,7 @@ children:
 coverage:
   learn: 22
   code: 1
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -288,15 +291,18 @@ Start with "Design details - Inventory costing" for the overview, then "Costing 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost"
-- [#10173 [Extensibility Request] issue 30129: expose manufacturing cost calculation events](../../../../changes/bcapps/10173.md) (code change): "separate setup and runtime costs during standard cost calculation"
-- [#10430 [Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]](../../../../changes/bcapps/10430.md) (code change): "ACY amount calculations on value entries are now preserved when document currency equals additional reporting currency"
-- [#11144 [Master]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11144.md) (code change): "Post Inventory Cost to G/L report now handles cases where concatenated dimension text exceeds"
-- [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
-- [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "Inventory Valuation - WIP report now correctly displays consumption amounts"
+- [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "Standard-cost items now correctly use Standard Cost instead of Direct Unit Cost"
+- [#10285 [Extensibility Request] issue 29642: add Inventory Valuation events](../../../../changes/bcapps/10285.md) (code change): "Inventory Valuation report 10139 now exposes two integration events"
+- [#10430 [Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]](../../../../changes/bcapps/10430.md) (code change): "ACY amount calculations on value entries are now preserved"
+- [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../changes/bcapps/10663.md) (code change): "Stock Card report shows incorrect received quantity"
+- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "Fixed calculation error in inventory profile offsetting for manufacturing"
+- [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Entry number allocation for Item Ledger and Value Entries is protected"
+- [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Manufacturing-enabled installations route to production data XMLPorts"
 - [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Assembly overhead costs are now recalculated consistently after updating"
-- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "covering item posting, reservations, warehouse adjustments, and requisition workflows"
-- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "existing inventory is not revalued. Understanding these considerations is essential"
+- [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "InsertPostValueEntryToGL changed from local to public"
+- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "item posting, reservations, warehouse adjustments, and requisition workflows"
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Existing on-hand inventory retains its original cost and is not revalued when you change"
+- [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "iterative adjustment for high-volume items; specific order adjustment"
 
 ## Business Central pages and reports
 

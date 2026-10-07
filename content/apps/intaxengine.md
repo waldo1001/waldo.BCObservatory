@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1862555af66fea52a37f9e525ada9766bda469593f28c7cd8bdac06957857116
+  input_hash: f1196273f20d24219e345a8538681c82a8b013ab50481a16463b3cc37f7d2a32
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/INTaxEngine/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/INTaxEngine/app
     title: src/Apps/W1/INTaxEngine/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -611,4 +611,4 @@ First-party app · folder `src/Apps/W1/INTaxEngine/app` · namespace `Microsoft.
 |---|---|---|
 |  | [Tax Information Addin](../objects/controladdin/tax-information-addin.md) |  |
 
-Source: [src/Apps/W1/INTaxEngine/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/INTaxEngine/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/INTaxEngine/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/INTaxEngine/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

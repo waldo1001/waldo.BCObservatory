@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:29.632Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -226,7 +226,7 @@ Start with the obsolete AL page if you need to retire code in an extension. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../changes/bcapps/11036.md) (code change): "Four AL compatibility rules are promoted from warnings to errors in the ruleset"
+- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../changes/bcapps/11036.md) (code change): "Pragmas are narrowly scoped to actual violations found in analyzer diagnostics"
 - [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../../changes/bcapps/9351.md) (code change): "Removed inefficient algorithm causing quadratic time complexity during contract renewal detection"
 - [#9865 [Main] - 'Greater Than' Withholding Tax Calculation Rule is not app…](../../../changes/bcapps/9865.md) (code change): "The withholding tax calculation now respects the configured calculation rule"
 - [#9876 [Subscription Billing] Rename progress tracker](../../../changes/bcapps/9876.md) (code change): "Codeunit 8035 was renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"

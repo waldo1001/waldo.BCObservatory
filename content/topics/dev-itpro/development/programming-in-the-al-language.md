@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:57.248Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,9 +359,11 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
   localizations: []
   videos:
+    - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
   posts:
     - post/aardvarklabs-blog/2838
+    - post/demiliani-com/13931
   guidelines: []
   changes:
     - change/bcapps/11507
@@ -391,8 +393,8 @@ children:
 coverage:
   learn: 340
   code: 36
-  video: 1
-  blog: 1
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 16
@@ -490,6 +492,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#11609 [Main]-Reduce redundant record restriction checks in item journal line](../../../changes/bcapps/11609.md) (code change): "Removes unnecessary record restriction checks from item journal line processing"
 - [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "Use Excel's sheet-specific tab reading to separate header and line data while maintaining relationships"
+- [Dynamics 365 Business Central: Using Semantic Search from AL](../../../posts/demiliani-com/13931.md) (community post): "embedding-based semantic search as a native AL capability"
+- [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 
 ## Business Central pages and reports

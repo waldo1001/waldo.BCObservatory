@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,6 +120,7 @@ links:
     - change/bcapps/10488
     - change/bcapps/11664
     - change/bcapps/8771
+    - change/bcapps/9067
     - change/bcapps/9077
     - change/bcapps/9225
     - change/bcapps/9479
@@ -197,6 +198,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10488 Add integration event before inserting the outgoing IC sales line buffer](../../../../changes/bcapps/10488.md) (code change): "New event OnPostICSalesLineToICPartnerInboxOnBeforeBufferICInboxSalesLineInsert fires per sales line"
 - [#11664 Add OnBefore event for approval insertion checks](../../../../changes/bcapps/11664.md) (code change): "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks"
 - [#8771 Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl](../../../../changes/bcapps/8771.md) (code change): "An OnBeforeFilterRemovedSourceRecords integration event was added to the Email codeunit"
+- [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
 - [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"
 - [#9225 [Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters](../../../../changes/bcapps/9225.md) (code change): "Added OnAfterSetUsageDataBillingFilters integration event for extensibility"
 - [#9479 [Master]-]Withholding Tax Entries are not generated at payment because the Withholding Tax. Prod. Posting Group field gets not transferred to the payment line](../../../../changes/bcapps/9479.md) (code change): "The withholding tax production posting group is now transferred to payment lines during payment processing"

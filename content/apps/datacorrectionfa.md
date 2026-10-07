@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6f40cdfa574af525c0e23cd358c716a22202d42c425af996ad96f735531cfa3e
+  input_hash: 2712943e60bad8e1ce289e34199d5ff0316838d86b339b2246214b7c368bb070
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/DataCorrectionFA/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/DataCorrectionFA/app
     title: src/Apps/W1/DataCorrectionFA/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -125,4 +125,4 @@ First-party app · folder `src/Apps/W1/DataCorrectionFA/app` · namespace `Micro
 | 6095 | [D365 FA, EDIT - FATS](../objects/permissionsetextension/6095.md) |  |
 | 6096 | [D365 FULL ACCESS - FATS](../objects/permissionsetextension/6096.md) |  |
 
-Source: [src/Apps/W1/DataCorrectionFA/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/DataCorrectionFA/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DataCorrectionFA/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/DataCorrectionFA/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

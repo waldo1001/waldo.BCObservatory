@@ -2,7 +2,7 @@
 id: object/dotnet/unnamed
 type: object
 title: DotNet ""
-summary: DotNet "" in Base Application. Present since at least BC23, still in BC30, changed in BC25.
+summary: DotNet "" in Base Application. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
@@ -10,7 +10,7 @@ tags:
   - base application
 versions:
   introduced: null
-  last_changed: "25"
+  last_changed: null
   deprecated: null
 review:
   state: unreviewed
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 218ade1eb6f728f73e6280e427981aa1601713137b5ca7a1065b85960ebd6069
+  input_hash: bce8a9dec097aa31131e928adbd3c4ea393a2fe57a5b3365c186d10c7d4ce794
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/DotNetAliases/dotnet.al
@@ -57,8 +57,7 @@ present_in:
   - "28"
   - "29"
   - "30"
-changed_in:
-  - "25"
+changed_in: []
 source_major: "29"
 obsolete: null
 countries:
@@ -79,7 +78,7 @@ relations:
 
 # DotNet ""
 
-> DotNet "" in Base Application. Present since at least BC23, still in BC30, changed in BC25.
+> DotNet "" in Base Application. Present since at least BC23, still in BC30.
 
 Base Application · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Modules/System/DotNetAliases/dotnet.al) · facts from BC29
 
@@ -93,7 +92,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 ## Across versions
 
 - Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
-- Changed (declaration) in: BC25
+- Changed (declaration) in: none
 
 ## Countries that replace it
 

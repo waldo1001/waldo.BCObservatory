@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 318c39d09d3bb70f99deba400d449cc995a122a1bf22b1d164d2f0fe32c52028
+  input_hash: 1972cc9b52fcc5bf1e1ada98d41ca52cd672abb53184c10704386b95c38bfb3f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/BankDeposits/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/BankDeposits/app
     title: src/Apps/W1/BankDeposits/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -226,4 +226,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 1697 | [INTELLIGENT CLOUD - Bank Deposits](../objects/permissionsetextension/1697.md) |  |
 | 1698 | [D365 BASIC - Bank Deposits](../objects/permissionsetextension/1698.md) |  |
 
-Source: [src/Apps/W1/BankDeposits/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/BankDeposits/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/BankDeposits/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/BankDeposits/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

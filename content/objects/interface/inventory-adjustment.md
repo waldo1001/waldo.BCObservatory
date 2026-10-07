@@ -2,14 +2,14 @@
 id: object/interface/inventory-adjustment
 type: object
 title: Interface "Inventory Adjustment"
-summary: Interface "Inventory Adjustment" in Base Application (Microsoft.Inventory.Costing). 4 public procedures. Introduced in BC25, still in BC30.
+summary: Interface "Inventory Adjustment" in Base Application (Microsoft.Inventory.Costing). 4 public procedures. Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 22c0eb68942322cf6c544d2e79e0c5c5ecd4bcdf7b02732221c3bc3384f75703
+  input_hash: c32d51dd57975c1a400d04ecaae0408b927266e1c6a14aca014b8a4c7f365c81
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al
@@ -45,9 +45,11 @@ name: Inventory Adjustment
 namespace: Microsoft.Inventory.Costing
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +76,9 @@ relations:
 
 # Interface "Inventory Adjustment"
 
-> Interface "Inventory Adjustment" in Base Application (Microsoft.Inventory.Costing). 4 public procedures. Introduced in BC25, still in BC30.
+> Interface "Inventory Adjustment" in Base Application (Microsoft.Inventory.Costing). 4 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Inventory.Costing · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al) · facts from BC29
+Base Application · Microsoft.Inventory.Costing · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

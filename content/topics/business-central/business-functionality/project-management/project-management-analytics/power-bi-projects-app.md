@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -202,7 +202,7 @@ Start with the app overview page to see which reports exist. Then open the repor
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10158 Add details to project sales tooltip](../../../../../changes/bcapps/10158.md) (code change): "Project Sales by Project chart now displays project description and customer name"
-- [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Project Power BI App Open Source; Project Profitability Analysis"
+- [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Project Profitability Analysis; Project Invoice Sales by Type"
 
 ## Business Central pages and reports
 

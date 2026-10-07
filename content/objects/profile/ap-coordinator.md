@@ -2,14 +2,14 @@
 id: object/profile/ap-coordinator
 type: object
 title: Profile "AP COORDINATOR"
-summary: Profile "AP COORDINATOR" in Base Application (Microsoft.Finance.RoleCenters). Introduced in BC25, still in BC30.
+summary: Profile "AP COORDINATOR" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e8f042d40f795bc2a0420887675776ff27e76e08f9d0e82d01f21e3d995ef376
+  input_hash: 3dbb08f40ac14449e5f09fbd0849871abe11b45670582ca38a086d53c8f7551f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/RoleCenters/ApCoordinator.Profile.al
@@ -46,9 +46,11 @@ caption: Accounts Payable Coordinator
 namespace: Microsoft.Finance.RoleCenters
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Profile "AP COORDINATOR"
 
-> Profile "AP COORDINATOR" in Base Application (Microsoft.Finance.RoleCenters). Introduced in BC25, still in BC30.
+> Profile "AP COORDINATOR" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/RoleCenters/ApCoordinator.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/RoleCenters/ApCoordinator.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

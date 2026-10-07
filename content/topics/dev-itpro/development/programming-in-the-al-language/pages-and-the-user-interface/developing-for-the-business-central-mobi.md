@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
-  videos: []
+  videos:
+    - video/W2yhU8eXT5w
   posts: []
   guidelines: []
   changes:
@@ -105,7 +106,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -153,5 +154,6 @@ For testing, you can open the tablet or phone client directly in a browser with 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#117 tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218](../../../../../changes/bcquality/117.md) (code change): "PR review now independently flags genuinely missing tooltips on page fields"
+- [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../../../../../videos/W2yhU8eXT5w.md) (video): "Worksheet pages on mobile phones; Native barcode scanning on SaaS; Camera barcode scanning"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -13,6 +13,7 @@
     "1": {
       "name": "Bus. Found. - Obj.",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -20,14 +21,17 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "2": {
       "name": "Bus. Found. - Read",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -35,14 +39,17 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "3": {
       "name": "Bus. Found. - View",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -50,14 +57,17 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4": {
       "name": "Bus. Found. - Edit",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -65,7 +75,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -73,6 +83,7 @@
     "5": {
       "name": "Bus. Found. - Admin",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -80,8 +91,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "24",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -125,6 +138,8 @@
     "23": {
       "name": "Internal BaseApp Obj. - Exec",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -132,7 +147,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -779,6 +794,8 @@
     "191": {
       "name": "D365 SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -786,7 +803,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -796,6 +813,8 @@
     "200": {
       "name": "D365 IC Partner Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -803,7 +822,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -811,6 +830,8 @@
     "207": {
       "name": "D365 BASIC",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -818,8 +839,11 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24",
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -935,6 +959,8 @@
     "242": {
       "name": "D365 JOURNALS, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -942,7 +968,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -950,6 +976,8 @@
     "257": {
       "name": "Contact - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -957,7 +985,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -965,6 +993,8 @@
     "291": {
       "name": "Capacity Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -972,7 +1002,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -980,6 +1010,7 @@
     "300": {
       "name": "No. Series - Objects",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -987,7 +1018,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "27"
       ],
@@ -997,6 +1028,7 @@
     "301": {
       "name": "No. Series - Read",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1004,7 +1036,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "27"
       ],
@@ -1014,6 +1046,7 @@
     "303": {
       "name": "No. Series - View",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1021,7 +1054,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "27"
       ],
@@ -1031,6 +1064,7 @@
     "304": {
       "name": "No. Series - Admin",
       "versions": [
+        "24",
         "25",
         "26",
         "27",
@@ -1038,7 +1072,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "24",
       "changed": [
         "27"
       ],
@@ -1048,6 +1082,8 @@
     "312": {
       "name": "Recievables Documents - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1055,7 +1091,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1095,6 +1131,8 @@
     "366": {
       "name": "D365 HR, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1102,7 +1140,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1110,6 +1148,8 @@
     "386": {
       "name": "Resources Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1117,7 +1157,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1125,6 +1165,8 @@
     "388": {
       "name": "ADCS - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1132,7 +1174,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1140,6 +1182,8 @@
     "407": {
       "name": "Manufacturing Pr. Order - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1147,7 +1191,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1155,6 +1199,8 @@
     "413": {
       "name": "Manufacturing Planning - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1162,7 +1208,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1258,6 +1304,8 @@
     "444": {
       "name": "BaseApp Objects - Exec",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1265,7 +1313,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1290,6 +1338,8 @@
     "448": {
       "name": "D365 JOBS, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1297,8 +1347,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "28",
         "29"
       ],
@@ -1325,6 +1377,8 @@
     "460": {
       "name": "D365PREM SMG, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1332,7 +1386,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -1342,6 +1396,8 @@
     "505": {
       "name": "Fixed Assets Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1349,7 +1405,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1357,6 +1413,8 @@
     "516": {
       "name": "General Ledger Budget - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1364,7 +1422,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1389,6 +1447,8 @@
     "552": {
       "name": "Payables Req Worksheet - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1396,7 +1456,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1404,6 +1464,8 @@
     "566": {
       "name": "Todo - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1411,7 +1473,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1419,6 +1481,8 @@
     "617": {
       "name": "D365 DYN CRM MGT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1426,14 +1490,19 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24",
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "618": {
       "name": "D365 DYN CRM READ",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1441,14 +1510,19 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24",
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "650": {
       "name": "Reten. Pol. Setup - BaseApp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1456,7 +1530,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1464,6 +1538,8 @@
     "654": {
       "name": "Resources Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1471,7 +1547,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1479,6 +1555,8 @@
     "681": {
       "name": "D365 JOURNALS, POST",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1486,7 +1564,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1512,6 +1590,8 @@
     "732": {
       "name": "D365 BASIC ISV",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1519,7 +1599,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1527,6 +1607,8 @@
     "738": {
       "name": "D365 Fin Cons Setup",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1534,14 +1616,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "739": {
       "name": "D365 Fin. Consolid",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1549,8 +1635,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -1625,6 +1713,8 @@
     "856": {
       "name": "Manufacturing Pr. Order - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1632,7 +1722,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1640,6 +1730,8 @@
     "862": {
       "name": "Payables Documents - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1647,7 +1739,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1655,6 +1747,8 @@
     "865": {
       "name": "D365 CUSTOMER, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1662,14 +1756,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "910": {
       "name": "D365 WHSE, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1677,7 +1775,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1685,6 +1783,8 @@
     "949": {
       "name": "Inventory Analysis - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1692,7 +1792,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1700,6 +1800,8 @@
     "950": {
       "name": "Opportunity - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1707,7 +1809,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1715,6 +1817,8 @@
     "959": {
       "name": "D365 BUS FULL ACCESS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1722,14 +1826,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "1001": {
       "name": "LOCAL",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1737,7 +1845,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1745,6 +1853,8 @@
     "1002": {
       "name": "LOCAL READ",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1752,7 +1862,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1760,6 +1870,8 @@
     "1044": {
       "name": "D365 READ",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1767,8 +1879,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "27"
       ],
       "obsoleted": [],
@@ -1777,6 +1891,8 @@
     "1083": {
       "name": "Bank Accounts - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1784,7 +1900,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1792,6 +1908,8 @@
     "1087": {
       "name": "Jobs - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1799,8 +1917,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "28",
         "29"
       ],
@@ -1810,6 +1930,8 @@
     "1159": {
       "name": "D365PREM MFG, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1817,7 +1939,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -1862,6 +1984,8 @@
     "1297": {
       "name": "Sales Tax - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1869,7 +1993,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -1877,6 +2001,8 @@
     "1347": {
       "name": "Job Queue - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -1884,8 +2010,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "28"
       ],
       "obsoleted": [],
@@ -2035,6 +2162,8 @@
     "1562": {
       "name": "D365 IC, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2042,7 +2171,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2120,6 +2249,8 @@
     "1698": {
       "name": "Inventory Analysis - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2127,7 +2258,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2186,6 +2317,8 @@
     "1778": {
       "name": "D365 ADCS, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2193,7 +2326,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2236,6 +2369,8 @@
     "1825": {
       "name": "D365 HR, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2243,7 +2378,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2493,6 +2628,8 @@
     "2018": {
       "name": "Fixed Assets Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2500,7 +2637,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2508,6 +2645,8 @@
     "2046": {
       "name": "D365 COSTACC, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2515,7 +2654,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2523,6 +2662,8 @@
     "2066": {
       "name": "Data Exchange - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2530,7 +2671,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2538,6 +2679,8 @@
     "2073": {
       "name": "D365 COSTACC, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2545,7 +2688,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2553,6 +2696,8 @@
     "2084": {
       "name": "Employee - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2560,7 +2705,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2568,6 +2713,8 @@
     "2118": {
       "name": "General Ledger Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2575,7 +2722,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2583,6 +2730,8 @@
     "2132": {
       "name": "Inventory Transfer - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2590,7 +2739,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2633,6 +2782,8 @@
     "2332": {
       "name": "D365 GLOBAL DIM MGT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2640,7 +2791,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2648,6 +2799,8 @@
     "2345": {
       "name": "Intrastat - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2655,14 +2808,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "2381": {
       "name": "D365 FA, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2670,7 +2827,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -2680,6 +2837,8 @@
     "2393": {
       "name": "Dynamics CRM - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2687,14 +2846,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "2398": {
       "name": "Relationship Mgt - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2702,7 +2865,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2710,6 +2873,8 @@
     "2406": {
       "name": "Map - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2717,7 +2882,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2812,6 +2977,8 @@
     "2521": {
       "name": "Confidential - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2819,7 +2986,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2827,6 +2994,8 @@
     "2529": {
       "name": "Recievables Documents - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2834,7 +3003,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2842,6 +3011,8 @@
     "2538": {
       "name": "Capacity Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2849,7 +3020,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2857,6 +3028,8 @@
     "2543": {
       "name": "VAT Rate Change Log - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2864,7 +3037,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -2872,6 +3045,8 @@
     "2581": {
       "name": "D365 PROFILE MGT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2879,8 +3054,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -2957,6 +3134,8 @@
     "2613": {
       "name": "Web Services - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -2964,7 +3143,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3023,6 +3202,8 @@
     "2694": {
       "name": "Manufacturing Planning - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3030,7 +3211,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3038,6 +3219,8 @@
     "2698": {
       "name": "Employee - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3045,7 +3228,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -3108,6 +3291,8 @@
     "2800": {
       "name": "RapidStart - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3115,7 +3300,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3123,6 +3308,8 @@
     "2805": {
       "name": "Service Items - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3130,14 +3317,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "2816": {
       "name": "Recievables Reg. - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3145,7 +3336,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3153,6 +3344,8 @@
     "2909": {
       "name": "D365 PURCH DOC, POST",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3160,7 +3353,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3168,6 +3361,8 @@
     "2911": {
       "name": "D365 ACCOUNTANTS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3175,7 +3370,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3183,6 +3378,8 @@
     "2912": {
       "name": "D365 ASSEMBLY, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3190,7 +3387,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3198,6 +3395,8 @@
     "2913": {
       "name": "D365 FIN. & PURCH.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3205,7 +3404,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3213,6 +3412,8 @@
     "2914": {
       "name": "Administrator",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3220,7 +3421,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3245,6 +3446,8 @@
     "2917": {
       "name": "D365 FINANCE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3252,7 +3455,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3260,6 +3463,8 @@
     "2918": {
       "name": "D365 SALES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3267,8 +3472,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -3292,6 +3499,8 @@
     "2928": {
       "name": "Inventory - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3299,7 +3508,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -3309,6 +3518,8 @@
     "2980": {
       "name": "D365 DIM CORRECTION",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3316,7 +3527,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3324,6 +3535,8 @@
     "2981": {
       "name": "D365 DIM CHANGE GLO",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3331,7 +3544,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3339,6 +3552,8 @@
     "3008": {
       "name": "Cost Accounting - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3346,7 +3561,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3372,6 +3587,8 @@
     "3100": {
       "name": "D365 OPPORTUNITY MGT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3379,7 +3596,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3387,6 +3604,8 @@
     "3125": {
       "name": "Campaign - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3394,7 +3613,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3402,6 +3621,8 @@
     "3178": {
       "name": "Release Document - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3409,7 +3630,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3417,6 +3638,8 @@
     "3239": {
       "name": "D365 IC, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3424,7 +3647,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3432,6 +3655,8 @@
     "3242": {
       "name": "D365 HR, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3439,7 +3664,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3447,6 +3672,8 @@
     "3285": {
       "name": "Outlook Sync - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3454,7 +3681,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3462,6 +3689,8 @@
     "3300": {
       "name": "Resources Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3469,7 +3698,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3477,6 +3706,8 @@
     "3414": {
       "name": "Jobs Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3484,8 +3715,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
         "29"
       ],
       "obsoleted": [],
@@ -3494,6 +3726,8 @@
     "3423": {
       "name": "Insurance Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3501,7 +3735,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3509,6 +3743,8 @@
     "3439": {
       "name": "SEPA Credit Transfers - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3516,7 +3752,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3524,6 +3760,8 @@
     "3505": {
       "name": "Global Dimensions - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3531,7 +3769,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3539,6 +3777,8 @@
     "3544": {
       "name": "Dynamics CRM - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3546,14 +3786,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "3560": {
       "name": "Payables Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3561,7 +3805,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3569,6 +3813,8 @@
     "3587": {
       "name": "Changelog - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3576,7 +3822,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3584,6 +3830,8 @@
     "3600": {
       "name": "Service Management - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3591,7 +3839,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3599,6 +3847,8 @@
     "3602": {
       "name": "Payables Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3606,7 +3856,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3614,6 +3864,8 @@
     "3627": {
       "name": "Item Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3621,7 +3873,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3629,6 +3881,8 @@
     "3632": {
       "name": "Account Schedules - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3636,7 +3890,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26",
         "28"
@@ -3647,6 +3901,8 @@
     "3668": {
       "name": "D365 FA, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3654,7 +3910,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -3664,6 +3920,8 @@
     "3691": {
       "name": "Consumption Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3671,7 +3929,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3697,6 +3955,8 @@
     "3706": {
       "name": "General Ledger Budget - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3704,7 +3964,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3763,6 +4023,8 @@
     "3723": {
       "name": "Recievables - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3770,7 +4032,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3778,6 +4040,8 @@
     "3814": {
       "name": "D365 IC, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3785,7 +4049,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3793,6 +4057,8 @@
     "3846": {
       "name": "Fixed Assets - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3800,7 +4066,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3808,6 +4074,8 @@
     "3871": {
       "name": "Jobs Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3815,8 +4083,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -3925,6 +4195,8 @@
     "3914": {
       "name": "Prepayment - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3932,7 +4204,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -3958,6 +4230,8 @@
     "3922": {
       "name": "Intercompany - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -3965,7 +4239,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4026,6 +4300,8 @@
     "4103": {
       "name": "General Ledger Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4033,7 +4309,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4059,6 +4335,8 @@
     "4123": {
       "name": "General Ledger Accounts - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4066,7 +4344,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4074,6 +4352,8 @@
     "4184": {
       "name": "Job Queue - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4081,14 +4361,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4222": {
       "name": "Absense - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4096,7 +4380,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4153,6 +4437,8 @@
     "4339": {
       "name": "Service Items - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4160,14 +4446,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4384": {
       "name": "Intrastat - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4175,14 +4465,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4423": {
       "name": "General Ledger - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4190,7 +4484,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4215,6 +4509,8 @@
     "4445": {
       "name": "Resources - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4222,7 +4518,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4230,6 +4526,8 @@
     "4450": {
       "name": "Time Sheets - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4237,7 +4535,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4245,6 +4543,8 @@
     "4462": {
       "name": "Contact - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4252,7 +4552,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4260,6 +4560,8 @@
     "4465": {
       "name": "Insurance Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4267,7 +4569,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4292,6 +4594,8 @@
     "4472": {
       "name": "Warehouse Management - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4299,7 +4603,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4307,6 +4611,8 @@
     "4522": {
       "name": "Todo - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4314,7 +4620,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4322,6 +4628,8 @@
     "4592": {
       "name": "Human Resources - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4329,7 +4637,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4337,6 +4645,8 @@
     "4656": {
       "name": "Dynamics Online Setup",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4344,7 +4654,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4352,6 +4662,8 @@
     "4667": {
       "name": "Warehouse Documents - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4359,7 +4671,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4367,6 +4679,8 @@
     "4671": {
       "name": "Output Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4374,7 +4688,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4382,6 +4696,8 @@
     "4716": {
       "name": "D365 BUS PREMIUM",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4389,7 +4705,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4397,6 +4713,8 @@
     "4736": {
       "name": "Physical Invt Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4404,8 +4722,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
         "27"
       ],
       "obsoleted": [],
@@ -4414,6 +4733,8 @@
     "4737": {
       "name": "Dynamics CRM - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4421,14 +4742,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4773": {
       "name": "TEST TOOL",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4436,7 +4761,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4444,6 +4769,8 @@
     "4784": {
       "name": "D365 WHSE, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4451,21 +4778,25 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "4785": {
       "name": "M365 COLLABORATION",
       "versions": [
+        "23",
+        "24",
         "25"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [
         {
-          "version": "25",
+          "version": "23",
           "state": "Pending",
           "tag": "23.0"
         }
@@ -4475,6 +4806,8 @@
     "4788": {
       "name": "Opportunity - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4482,7 +4815,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4490,6 +4823,8 @@
     "4842": {
       "name": "Service Management - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4497,7 +4832,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4505,6 +4840,8 @@
     "4855": {
       "name": "Manufacturing - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4512,7 +4849,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4520,6 +4857,8 @@
     "4936": {
       "name": "Inventory - Periodic",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4527,7 +4866,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4535,6 +4874,8 @@
     "4969": {
       "name": "Resources - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4542,7 +4883,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4550,6 +4891,8 @@
     "4970": {
       "name": "Customer - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4557,7 +4900,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4565,6 +4908,8 @@
     "5047": {
       "name": "SEPA Direct Debit - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4572,7 +4917,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4580,6 +4925,8 @@
     "5053": {
       "name": "Manufacturing Design - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4587,7 +4934,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4595,6 +4942,8 @@
     "5058": {
       "name": "Manufacturing CRP - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4602,7 +4951,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4610,6 +4959,8 @@
     "5107": {
       "name": "Insurance - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4617,7 +4968,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4625,6 +4976,8 @@
     "5117": {
       "name": "D365 AUTOMATION",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4632,14 +4985,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5127": {
       "name": "Inventory Transfer - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4647,7 +5004,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4655,6 +5012,8 @@
     "5263": {
       "name": "Ext. Events - Objects",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4662,7 +5021,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4670,6 +5029,8 @@
     "5264": {
       "name": "Ext. Events - Subscr",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4677,7 +5038,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4685,6 +5046,8 @@
     "5267": {
       "name": "D365 INV DOC, POST",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4692,7 +5055,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4700,6 +5063,8 @@
     "5269": {
       "name": "D365 COSTACC, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4707,7 +5072,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4715,6 +5080,8 @@
     "5271": {
       "name": "D365PREM MFG, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4722,7 +5089,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -4732,6 +5099,8 @@
     "5289": {
       "name": "D365 ACC. PAYABLE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4739,7 +5108,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4777,6 +5146,8 @@
     "5401": {
       "name": "Consumption Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4784,7 +5155,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4792,6 +5163,8 @@
     "5417": {
       "name": "Account Schedules - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4799,7 +5172,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26",
         "28"
@@ -4810,6 +5183,8 @@
     "5540": {
       "name": "Service Documents - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4817,7 +5192,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4825,6 +5200,8 @@
     "5577": {
       "name": "Insurance Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4832,7 +5209,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4840,6 +5217,8 @@
     "5600": {
       "name": "Vendor - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4847,7 +5226,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4855,6 +5234,8 @@
     "5656": {
       "name": "D365 CASH FLOW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4862,7 +5243,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4870,6 +5251,8 @@
     "5679": {
       "name": "Jobs - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4877,14 +5260,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5729": {
       "name": "D365 CUSTOMER, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4892,7 +5279,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4900,6 +5287,8 @@
     "5759": {
       "name": "D365 BANKING",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4907,7 +5296,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4915,6 +5304,8 @@
     "5768": {
       "name": "Service Contract - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4922,14 +5313,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "5783": {
       "name": "MERGE DUPLICATES",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4937,7 +5332,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4945,6 +5340,8 @@
     "5807": {
       "name": "D365 PURCH DOC, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4952,7 +5349,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4960,6 +5357,8 @@
     "5863": {
       "name": "Item Budget - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4967,7 +5366,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4975,6 +5374,8 @@
     "5888": {
       "name": "Warehouse Documents - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4982,7 +5383,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -4990,6 +5391,8 @@
     "5947": {
       "name": "D365 ITEM, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -4997,7 +5400,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5005,6 +5408,8 @@
     "5951": {
       "name": "Payables Documents - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5012,7 +5417,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -5022,6 +5427,8 @@
     "5972": {
       "name": "D365 RAPIDSTART",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5029,7 +5436,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5037,6 +5444,8 @@
     "6006": {
       "name": "D365 WEBHOOK SUBSCR",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5044,7 +5453,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5052,6 +5461,8 @@
     "6092": {
       "name": "Payables - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5059,7 +5470,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -5069,6 +5480,8 @@
     "6098": {
       "name": "Outlook Sync. - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5076,14 +5489,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6121": {
       "name": "INTELLIGENT CLOUD",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5091,14 +5508,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6124": {
       "name": "Jobs - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5106,14 +5527,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6148": {
       "name": "Manufacturing Design - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5121,7 +5546,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5129,6 +5554,8 @@
     "6207": {
       "name": "Recievables Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5136,7 +5563,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5144,6 +5571,8 @@
     "6218": {
       "name": "D365 ASSEMBLY, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5151,7 +5580,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5177,6 +5606,8 @@
     "6408": {
       "name": "D365 JOBS, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5184,14 +5615,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6423": {
       "name": "Relationship Mgt - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5199,7 +5634,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5207,6 +5642,8 @@
     "6427": {
       "name": "Resources - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5214,7 +5651,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5222,6 +5659,8 @@
     "6431": {
       "name": "Changelog - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5229,7 +5668,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5237,6 +5676,8 @@
     "6524": {
       "name": "D365PREM SMG, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5244,7 +5685,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -5254,6 +5695,8 @@
     "6555": {
       "name": "D365 VENDOR, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5261,7 +5704,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5269,6 +5712,8 @@
     "6585": {
       "name": "D365 ADCS, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5276,7 +5721,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5284,6 +5729,8 @@
     "6607": {
       "name": "Role Configuration - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5291,8 +5738,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -5354,6 +5803,8 @@
     "6719": {
       "name": "Jobs - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5361,14 +5812,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "6720": {
       "name": "General Ledger - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5376,7 +5831,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5384,6 +5839,8 @@
     "6850": {
       "name": "D365PREM SMG, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5391,8 +5848,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "27"
       ],
       "obsoleted": [],
@@ -5401,6 +5859,8 @@
     "6867": {
       "name": "Item Budget - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5408,7 +5868,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5416,6 +5876,8 @@
     "6895": {
       "name": "Insurance - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5423,7 +5885,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5431,6 +5893,8 @@
     "6912": {
       "name": "G/L Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5438,7 +5902,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "29"
       ],
@@ -5448,6 +5912,8 @@
     "6946": {
       "name": "Foundation UI",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5455,8 +5921,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "28"
       ],
       "obsoleted": [],
@@ -5465,6 +5932,8 @@
     "6948": {
       "name": "D365 FULL ACCESS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5472,14 +5941,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7012": {
       "name": "Dataverse - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5487,7 +5960,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5495,6 +5968,8 @@
     "7052": {
       "name": "Fixed Assets - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5502,7 +5977,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5510,6 +5985,8 @@
     "7071": {
       "name": "Recievables - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5517,7 +5994,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5525,6 +6002,8 @@
     "7111": {
       "name": "Document Approvals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5532,7 +6011,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5571,6 +6050,25 @@
       "obsoleted": [],
       "removed": null
     },
+    "7243": {
+      "name": "User Groups - Admin",
+      "versions": [
+        "23",
+        "24"
+      ],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
+      "obsoleted": [
+        {
+          "version": "23",
+          "state": "Pending",
+          "tag": "22.0"
+        }
+      ],
+      "removed": "25"
+    },
     "7368": {
       "name": "SUPER (DATA)",
       "versions": [
@@ -5591,6 +6089,8 @@
     "7371": {
       "name": "Vendor - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5598,14 +6098,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7372": {
       "name": "Security - Baseapp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5613,8 +6117,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "27"
       ],
       "obsoleted": [],
@@ -5623,6 +6128,8 @@
     "7561": {
       "name": "Manufacturing CRP - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5630,7 +6137,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5638,6 +6145,8 @@
     "7568": {
       "name": "Fixed Assets - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5645,7 +6154,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "28"
       ],
@@ -5655,6 +6164,8 @@
     "7576": {
       "name": "D365 FINANCIAL REP.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5662,7 +6173,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5670,6 +6181,8 @@
     "7665": {
       "name": "Time Sheets - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5677,7 +6190,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5685,6 +6198,8 @@
     "7682": {
       "name": "Time Sheets - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5692,7 +6207,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5700,6 +6215,8 @@
     "7685": {
       "name": "ADCS - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5707,7 +6224,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5715,6 +6232,8 @@
     "7785": {
       "name": "Bank Accounts - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5722,7 +6241,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5730,6 +6249,8 @@
     "7787": {
       "name": "Jobs Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5737,14 +6258,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7862": {
       "name": "D365 ACC. RECEIVABLE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5752,7 +6277,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5760,6 +6285,8 @@
     "7871": {
       "name": "Outlook Sync. - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5767,7 +6294,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5775,6 +6302,8 @@
     "7931": {
       "name": "D365 TEAM MEMBER",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5782,14 +6311,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "7946": {
       "name": "Payables Documents - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5797,7 +6330,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5805,6 +6338,8 @@
     "8322": {
       "name": "Service Documents - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5812,7 +6347,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5901,6 +6436,8 @@
     "8462": {
       "name": "D365 INV, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5908,7 +6445,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5916,6 +6453,8 @@
     "8562": {
       "name": "Inventory - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5923,7 +6462,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -5933,6 +6472,8 @@
     "8583": {
       "name": "D365 RM SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5940,7 +6481,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5948,6 +6489,8 @@
     "8611": {
       "name": "Service Documents - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5955,7 +6498,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5963,6 +6506,8 @@
     "8620": {
       "name": "CashFlow - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5970,7 +6515,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5978,6 +6523,8 @@
     "8651": {
       "name": "Recievables Documents - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -5985,7 +6532,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -5993,6 +6540,8 @@
     "8689": {
       "name": "Fixed Assets - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6000,7 +6549,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6079,6 +6628,8 @@
     "8707": {
       "name": "D365 ITEM, VIEW",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6086,7 +6637,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6094,6 +6645,8 @@
     "8708": {
       "name": "Dataverse - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6101,7 +6654,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6109,6 +6662,8 @@
     "8783": {
       "name": "Dataverse - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6116,7 +6671,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6124,6 +6679,8 @@
     "8785": {
       "name": "Recievables Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6131,7 +6688,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6139,6 +6696,8 @@
     "8787": {
       "name": "D365 FA, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6146,7 +6705,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6154,6 +6713,8 @@
     "8802": {
       "name": "D365 MONITOR FIELDS",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6161,7 +6722,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6169,6 +6730,8 @@
     "8823": {
       "name": "Item Journals - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6176,7 +6739,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6184,6 +6747,8 @@
     "8824": {
       "name": "Payables Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6191,7 +6756,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6199,6 +6764,8 @@
     "8881": {
       "name": "Document Approvals - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6206,7 +6773,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6290,6 +6857,8 @@
     "8917": {
       "name": "Warehouse Management - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6297,7 +6866,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6305,6 +6874,8 @@
     "8929": {
       "name": "Changelog - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6312,7 +6883,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6320,6 +6891,8 @@
     "8933": {
       "name": "Service Contract - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6327,14 +6900,18 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
     "8992": {
       "name": "D365 WHSE, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6342,7 +6919,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6576,6 +7153,8 @@
     "9111": {
       "name": "General Ledger Accounts - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6583,7 +7162,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6643,6 +7222,8 @@
     "9173": {
       "name": "Output Journals - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6650,7 +7231,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6692,6 +7273,8 @@
     "9195": {
       "name": "OCR - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6699,7 +7282,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6742,6 +7325,8 @@
     "9221": {
       "name": "Customer - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6749,7 +7334,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6757,6 +7342,8 @@
     "9257": {
       "name": "Inventory Registers - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6764,7 +7351,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6772,6 +7359,8 @@
     "9276": {
       "name": "VAT Report - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6779,7 +7368,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6787,6 +7376,8 @@
     "9298": {
       "name": "Webhook Subscription - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6794,7 +7385,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6802,6 +7393,8 @@
     "9322": {
       "name": "Manufacturing CRP - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6809,7 +7402,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6817,6 +7410,8 @@
     "9338": {
       "name": "Resources - Periodic",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6824,7 +7419,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6832,6 +7427,8 @@
     "9346": {
       "name": "Inventory - View",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6839,7 +7436,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6847,6 +7444,8 @@
     "9412": {
       "name": "Prepayment - Admin",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6854,7 +7453,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6862,6 +7461,8 @@
     "9425": {
       "name": "Warehouse Documents - Post",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6869,7 +7470,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -6950,6 +7551,8 @@
     "9556": {
       "name": "D365 INV DOC, CREATE",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -6957,8 +7560,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
         "29"
       ],
       "obsoleted": [],
@@ -7000,6 +7604,8 @@
     "9598": {
       "name": "Campaign - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7007,7 +7613,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -7181,6 +7787,8 @@
     "9714": {
       "name": "Inventory Transfer - Edit",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7188,7 +7796,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -7208,6 +7816,8 @@
     "9783": {
       "name": "D365 SALES DOC, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7215,7 +7825,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -7293,6 +7903,8 @@
     "9886": {
       "name": "D365 JOBS, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7300,8 +7912,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "28",
         "29"
       ],
@@ -7311,6 +7925,8 @@
     "9918": {
       "name": "Fixed Assets Reg. - Read",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7318,7 +7934,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -7326,6 +7942,8 @@
     "9921": {
       "name": "D365 VENDOR, EDIT",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7333,8 +7951,9 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "25",
         "27"
       ],
       "obsoleted": [],
@@ -7343,6 +7962,8 @@
     "9931": {
       "name": "D365 ASSEMBLY, SETUP",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7350,7 +7971,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -7358,6 +7979,8 @@
     "9977": {
       "name": "D365 SALES DOC, POST",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -7365,7 +7988,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "27"
       ],
@@ -7458,645 +8081,6 @@
         }
       ],
       "removed": "26"
-    },
-    "130019": {
-      "name": "User Permission View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "130043": {
-      "name": "Language Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "130045": {
-      "name": "System Init Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "130443": {
-      "name": "Word Templates Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132437": {
-      "name": "Permission Set B",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132438": {
-      "name": "Permission Set A",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132439": {
-      "name": "Permission Set C",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132508": {
-      "name": "Record Link View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132524": {
-      "name": "Edit in Excel Test Lib. - Obj.",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132525": {
-      "name": "Edit in Excel Test Lib. - Adm",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132548": {
-      "name": "Page Summary Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132549": {
-      "name": "Page Sum Admin Test",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132585": {
-      "name": "System Application Test Tables",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132589": {
-      "name": "Adv. Settings View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132594": {
-      "name": "Guided Exp Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132616": {
-      "name": "Page Action Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132911": {
-      "name": "AAD User View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132914": {
-      "name": "AAD User Mgt Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132916": {
-      "name": "AAD Plan View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132924": {
-      "name": "AAD Plan Admin",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "133400": {
-      "name": "Permission Sets Obj.",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "133401": {
-      "name": "Test Set A",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "133402": {
-      "name": "Test Set B",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "133403": {
-      "name": "Test Set C",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "133404": {
-      "name": "Test Set D",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134683": {
-      "name": "Email Word Template",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134684": {
-      "name": "Email View Low Perm",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134685": {
-      "name": "Email Related Record",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134686": {
-      "name": "Email Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134687": {
-      "name": "Email Admin",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134689": {
-      "name": "Email View Perm",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134691": {
-      "name": "Recurrence View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135003": {
-      "name": "Feature Key Admin",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135032": {
-      "name": "Blob Storage Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135033": {
-      "name": "Password Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [
-        {
-          "version": "23",
-          "state": "Pending",
-          "tag": "22.0"
-        }
-      ],
-      "removed": "25"
-    },
-    "135035": {
-      "name": "User Selection Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135036": {
-      "name": "Field Selection Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135038": {
-      "name": "Video Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135039": {
-      "name": "Cues And KPIs Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135040": {
-      "name": "User Settings View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135092": {
-      "name": "Upgrade Tags View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135157": {
-      "name": "Data Class Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135536": {
-      "name": "Rec. Selection Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "137121": {
-      "name": "Translation Edit",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "137122": {
-      "name": "Time Zone Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138049": {
-      "name": "User Login View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [
-        {
-          "version": "23",
-          "state": "Pending",
-          "tag": "22.0"
-        }
-      ],
-      "removed": "25"
-    },
-    "138074": {
-      "name": "Satisfaction View",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138077": {
-      "name": "Tenant License Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138458": {
-      "name": "AAD Licensing Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138706": {
-      "name": "RecRefTest-Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138707": {
-      "name": "RecRefTest-Insert",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138708": {
-      "name": "RecRefTest-Modify",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138709": {
-      "name": "RecRefTest-Delete",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "138710": {
-      "name": "RecRefTest-Object",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "139043": {
-      "name": "Web Service Admin",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "139481": {
-      "name": "Headlines Read",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "139482": {
-      "name": "Telemetry Exec",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
     }
   }
 }

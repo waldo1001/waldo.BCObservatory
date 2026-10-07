@@ -2,14 +2,14 @@
 id: object/profile/security-administrator
 type: object
 title: Profile "SECURITY ADMINISTRATOR"
-summary: Profile "SECURITY ADMINISTRATOR" in Base Application (Microsoft.RoleCenters). Introduced in BC25, still in BC30.
+summary: Profile "SECURITY ADMINISTRATOR" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 tier: official
 language: en
 tags:
   - profile
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a3e5e68d302b6e7945ad97c615d4f98ebc8dcebf6f0982127f2f8438b6bc4f60
+  input_hash: 3bec237f7850b436dd6519d5b185c241643dc1a397d7913b16bf8a7c8f24ea7a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al
@@ -46,9 +46,11 @@ caption: Administration of users, security groups and permissions
 namespace: Microsoft.RoleCenters
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Profile "SECURITY ADMINISTRATOR"
 
-> Profile "SECURITY ADMINISTRATOR" in Base Application (Microsoft.RoleCenters). Introduced in BC25, still in BC30.
+> Profile "SECURITY ADMINISTRATOR" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al) · facts from BC29
 
 ## Properties
 
@@ -94,7 +96,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:48.858Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,7 +156,6 @@ links:
     - video/JI5KlMxrtoA
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
-    - post/thinkaboutit-be/8132
   guidelines: []
   changes:
     - change/bcapps/11870
@@ -200,7 +199,7 @@ coverage:
   learn: 17
   code: 0
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -276,7 +275,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#87 Fix knowledge corpus integrity issues](../../../../changes/bcquality/87.md) (code change): "BCQuality knowledge articles and skill documentation were corrected to fix broken references"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Always validate fields to ensure all business logic executes properly"
-- [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality catches subtle AL mistakes that pass compilation but violate best practices"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "ISO 5055 code quality assessment; ISO 5055 Quality Scoring System"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,14 +2,14 @@
 id: object/interface/import-consolidation-data
 type: object
 title: Interface "Import Consolidation Data"
-summary: Interface "Import Consolidation Data" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC25, still in BC30.
+summary: Interface "Import Consolidation Data" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC24, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - base application
 versions:
-  introduced: "25"
+  introduced: "24"
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9c59a7786a21fbee8f85a865fe3c09973b10d47e626c29b217d59cf59787dca7
+  input_hash: f66c58953cc3c75d0aac003aa8d4feab9453a2aa3d0e94057c250eed7cd5a9a3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al
@@ -45,9 +45,10 @@ name: Import Consolidation Data
 namespace: Microsoft.Finance.Consolidation
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "24"
 last_version: "30"
 present_in:
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +75,9 @@ relations:
 
 # Interface "Import Consolidation Data"
 
-> Interface "Import Consolidation Data" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC25, still in BC30.
+> Interface "Import Consolidation Data" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC24, still in BC30.
 
-Base Application · Microsoft.Finance.Consolidation · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.Consolidation · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -97,7 +98,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

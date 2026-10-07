@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:35.934Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,6 +80,7 @@ links:
     - video/0WAOtNaKjws
     - video/4HE3BBCcV84
     - video/C5cmG3sNjUg
+    - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
     - video/GK6hM-nBYZk
     - video/rm-FstU_I80
@@ -103,7 +104,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 7
+  video: 8
   blog: 8
   guideline: 0
 bc_forms:
@@ -161,6 +162,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server; MCP Configuration Validations; Support for Multiple MCP Hosts"
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "mcp server; api queries; power bi apps; external agents"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central; Default Configuration Mode; Named Configurations; Dynamic Tools System"
+- [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Model Context Protocol (MCP) server for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "mcp server; configurations; agent permissions; api pages; dynamic tool mode"
 - [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../videos/GK6hM-nBYZk.md) (video): "copilot studio; agent building; mcp server; power automate; business central connector"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "Model Context Protocol; mcp server; Business Central MCP Server; MCP Server Configuration"

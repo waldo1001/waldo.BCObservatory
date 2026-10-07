@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 82bc27f0f932938dfb281db10602c64deccbbbe608f8de572f0c4ba0db06cfba
+  input_hash: d5360822a2922159cb6a7722cc08a8ea4241dcf73f41152594110edde3c85ece
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/WithholdingTax/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/WithholdingTax/app
     title: src/Apps/W1/WithholdingTax/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -323,4 +323,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [Introducing: Withholding Taxes (2026 release wave 1)](../videos/d4mYltz4Zwg.md) (video, 2026-04-01): names Table 6786 "Withholding Tax Posting Setup"
 
-Source: [src/Apps/W1/WithholdingTax/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/WithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/WithholdingTax/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/WithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

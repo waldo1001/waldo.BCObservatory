@@ -2,14 +2,14 @@
 id: object/entitlement/dynamics-365-business-central-premium-baseapp
 type: object
 title: Entitlement "Dynamics 365 Business Central Premium BaseApp"
-summary: Entitlement "Dynamics 365 Business Central Premium BaseApp" in Base Application (System.Security.AccessControl). Introduced in BC25, still in BC30, changed in BC28.
+summary: Entitlement "Dynamics 365 Business Central Premium BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC28.
 tier: official
 language: en
 tags:
   - entitlement
   - base application
 versions:
-  introduced: "25"
+  introduced: null
   last_changed: "28"
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 51718624c4feb0b4fa02763ade6de31ecc60acfd86fcfe59df8ff80396a0ce35
+  input_hash: 1ee9a6cbecc36bf6a33eca910b93518816c0b6fce954656dacbac2f76e5101b2
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralPremiumBaseApp.Entitlement.al
@@ -45,9 +45,11 @@ name: Dynamics 365 Business Central Premium BaseApp
 namespace: System.Security.AccessControl
 app: Base Application
 extends: null
-first_version: "25"
+first_version: "23"
 last_version: "30"
 present_in:
+  - "23"
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -75,9 +77,9 @@ relations:
 
 # Entitlement "Dynamics 365 Business Central Premium BaseApp"
 
-> Entitlement "Dynamics 365 Business Central Premium BaseApp" in Base Application (System.Security.AccessControl). Introduced in BC25, still in BC30, changed in BC28.
+> Entitlement "Dynamics 365 Business Central Premium BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC28.
 
-Base Application · System.Security.AccessControl · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralPremiumBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralPremiumBaseApp.Entitlement.al) · facts from BC29
 
 ## Ask your agent
 
@@ -88,7 +90,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC23, BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: BC28
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

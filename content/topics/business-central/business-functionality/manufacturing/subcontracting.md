@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -206,7 +206,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11939 Bug 650391: [Subcontracting] Show subcontracting transfer quantities](../../../../changes/bcapps/11939.md) (code change): "Show subcontracting transfer quantities for subcontracting components"
 - [#11945 Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines](../../../../changes/bcapps/11945.md) (code change): "Fix serial splitting for non-last subcontracting put-away lines"
 - [#12080 Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting](../../../../changes/bcapps/12080.md) (code change): "Fully received WIP purchase orders block Disable Legacy Subcontracting"
-- [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Fixed incorrect transfer order display when navigating from transfer lines in subcontracting scenarios"
+- [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Transfer order page no longer opens incorrectly when accessing the subcontracting document from transfer lines"
 - [#12143 Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion](../../../../changes/bcapps/12143.md) (code change): "Italian subcontracting legacy migration now correctly maps the vendor's"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "Transfer order lines flagged as WIP items now skip the"

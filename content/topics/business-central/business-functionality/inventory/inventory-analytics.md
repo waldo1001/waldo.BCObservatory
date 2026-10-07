@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:49.998Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -366,11 +366,10 @@ links:
     - topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports
     - topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed
   localizations: []
-  videos: []
+  videos:
+    - video/qCqe8uw8Od4
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/9961
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -385,7 +384,7 @@ children:
 coverage:
   learn: 56
   code: 55
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -485,11 +484,11 @@ Start with the Inventory analytics introduction to see which tools help differen
 - [Ad-hoc analysis of inventory data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory): Learn how to use the data analysis mode to analyze inventory data.
 - [Inventory analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your inventory for business intelligence and decision-making in your organization.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9961 [Extensibility Request] issue 30381: expose page sender to filter subscribers](../../../../changes/bcapps/9961.md) (code change): "extensions to access page filters during item availability calculations"
+- [What's New: Enhanced Inventory Analytics (2026 release wave 1)](../../../../videos/qCqe8uw8Od4.md) (video): "abc analysis; inventory analytics; power bi reports"
 
 ## Business Central pages and reports
 

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 12f41c6c415b7bf5f5d470246c194c6fa4a41441192a6402a4322635b424f87e
+  input_hash: 421d6702015f0ee2e2cce2b8bfd93309a456868f0f5960fc59067bcd57251ef6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PayPalPaymentsStandard/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/PayPalPaymentsStandard/app
     title: src/Apps/W1/PayPalPaymentsStandard/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -140,4 +140,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 45614 | [INTELLIGENT CLOUD - PayPal Payments Standard](../objects/permissionsetextension/45614.md) |  |
 | 48840 | [D365 FULL ACCESS - PayPal Payments Standard](../objects/permissionsetextension/48840.md) |  |
 
-Source: [src/Apps/W1/PayPalPaymentsStandard/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/PayPalPaymentsStandard/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PayPalPaymentsStandard/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/PayPalPaymentsStandard/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

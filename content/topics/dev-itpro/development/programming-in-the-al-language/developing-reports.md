@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:04.589Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -352,6 +352,7 @@ links:
     - change/bcapps/9428
     - change/bcapps/9433
     - change/bcapps/9453
+    - change/bcapps/9580
     - change/bcapps/9949
     - change/bcquality/147
     - change/bcquality/183
@@ -453,8 +454,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11211 [Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions](../../../../changes/bcapps/11211.md) (code change): "Report layout creation and management now prevents duplicate names"
 - [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is now available to all companies"
 - [#9428 637301 Report layout override lifecycle](../../../../changes/bcapps/9428.md) (code change): "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override records"
-- [#9433 636017 Move Item Price List and Res. Price List report action tooltip…](../../../../changes/bcapps/9433.md) (code change): "Report action tooltips for Item Price List and Res. Price List reports are moved from page actions"
+- [#9433 636017 Move Item Price List and Res. Price List report action tooltip…](../../../../changes/bcapps/9433.md) (code change): "Report action tooltips for Item Price List and Res. Price List reports are moved"
 - [#9453 [Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)](../../../../changes/bcapps/9453.md) (code change): "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call"
+- [#9580 636017 Move Manufacturing report action tooltips to report objects](../../../../changes/bcapps/9580.md) (code change): "Tooltips for 7 manufacturing reports moved from pages to reports. Leverages the 2025 release wave 1 feature"
 - [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Report layout administration pages now decode composite layout references, add description fields"
 - [#147 ShowMandatory + OnQueryClosePage Check](../../../../changes/bcquality/147.md) (code change): "ShowMandatory property draws an asterisk but doesn't enforce requirements"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"

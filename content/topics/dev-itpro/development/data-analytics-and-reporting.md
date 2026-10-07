@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:29.221Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
   localizations: []
   videos:
     - video/jqVt0hYDfz0
+    - video/qmLVKyHRhNc
   posts:
     - post/aardvarklabs-blog/1822
     - post/aardvarklabs-blog/2936
@@ -124,7 +125,7 @@ children: []
 coverage:
   learn: 7
   code: 28
-  video: 1
+  video: 2
   blog: 2
   guideline: 0
 bc_forms:
@@ -202,6 +203,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Queries: Simplifying Complex Data](../../../posts/aardvarklabs-blog/1822.md) (community post): "Queries simplify complex data retrieval by defining linked data items"
 - [Integrating Analysis Views in Business Central Extensions](../../../posts/aardvarklabs-blog/2936.md) (community post): "package and deploy Analysis Views in extensions"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
+- [Introducing: Analyze Data on Lists and Queries (2023 release wave 2)](../../../videos/qmLVKyHRhNc.md) (video): "AL Queries for analytics; Data sets for Excel layouts"
 
 ## Business Central pages and reports
 

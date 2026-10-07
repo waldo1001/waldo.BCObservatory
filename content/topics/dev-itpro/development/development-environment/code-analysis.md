@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -102,6 +102,7 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
   guidelines: []
   changes:
+    - change/bcapps/11036
     - change/bcapps/11160
     - change/bcapps/11260
 learn_toc_path:
@@ -144,6 +145,7 @@ Path: [Development](../../development.md) > [Development environment](../develop
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../changes/bcapps/11036.md) (code change): "Four AL compatibility rules are promoted from warnings to errors in the ruleset"
 - [#11160 Ruleset hardening: promote three mechanical rules to Error](../../../../changes/bcapps/11160.md) (code change): "Three AL linting rules promoted from warnings to errors, requiring developers to fix"
 - [#11260 Ruleset hardening: promote four legacy warning rules to Error](../../../../changes/bcapps/11260.md) (code change): "Ruleset hardening: promote four legacy warning rules to Error"
 - [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings enable breaking change validation on these previously excluded symbols"

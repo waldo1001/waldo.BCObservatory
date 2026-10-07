@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.464Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,10 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/quality-management/set-up-quality-management
   localizations: []
-  videos: []
+  videos:
+    - video/m8-7-JKq4dc
+    - video/sqjb_gsXqM8
+    - video/WACQbAEVOJg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -129,7 +132,7 @@ children:
 coverage:
   learn: 11
   code: 7
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -180,6 +183,14 @@ Further pages cover what happens after an inspection. They describe scheduled in
 - [Quality management overview](https://learn.microsoft.com/dynamics365/business-central/qms-overview): Learn how to use quality management to ensure product quality through automated and manual inspections, lot results, and workflow integration.
 - [Troubleshoot quality management features](https://learn.microsoft.com/dynamics365/business-central/qms-troubleshooting): Learn how to troubleshoot common issues in quality management, from setup to workflows, and resolve problems with inspections, templates, and lot blocking.
 - [Work with quality inspections](https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation): Learn how to create, assign, complete, print, reopen, and repeat quality inspections in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "quality inspection; item tracking; non-compliant items; test results"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Quality Management Extension; Drop Shipment Process Enhancements; Purchase Order Matching"
+- [What's new in SCM: Overview (2026 release wave 2)](../../../videos/WACQbAEVOJg.md) (video): "quality management; routing; Quality inspection blocking transfers; Quality inspection auto-assignment recommendation"
 
 ## Business Central pages and reports
 

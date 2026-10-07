@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -332,6 +332,7 @@ links:
     - video/2N2NhNH7dsk
   posts:
     - post/aardvarklabs-blog/2017
+    - post/aardvarklabs-blog/2565
     - post/demiliani-com/11962
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
@@ -340,6 +341,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10010
+    - change/bcapps/10700
     - change/bcapps/9194
     - change/bcapps/9914
 learn_toc_path:
@@ -355,7 +357,7 @@ coverage:
   learn: 261
   code: 1
   video: 1
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms:
   - 812
@@ -403,9 +405,11 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the 'automate' API group"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../../changes/bcapps/10700.md) (code change): "New fields and APIs support matching purchase orders with incoming documents"
 - [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs from all publishers"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "Vendor Payments API now returns all payment lines in a batch"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query-based APIs handle related records easily and can nest several layers deep"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Building custom APIs using Page API or Query API methods provides the most modern solution"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "use Brotli compression instead of gzip to reduce the size of OData API responses"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "Sales Invoices API in Business Central aggregates posted and unposted invoices"

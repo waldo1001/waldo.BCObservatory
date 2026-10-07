@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:16.682Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -301,8 +301,8 @@ Start with "Manage warehouse activities" for the overview and "Configure warehou
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11001 Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations](../../../../changes/bcapps/11001.md) (code change): "validation to prevent migration when legacy or purchase-header locations use unsupported warehouse settings"
-- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "Copy Location feature allows users to duplicate existing warehouse configurations"
-- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates"
+- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "Copy Location duplicates warehouse configuration, settings, and operational setup"
+- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Put-Away Templates for Bin Assignment; Bin Policy Features for Basic Warehouse"
 
 ## Business Central pages and reports
 

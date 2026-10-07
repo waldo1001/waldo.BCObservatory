@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 149f34cd414816b7ac4b07acda42cf82db3dad5f3e643ea971d1f58a7177fe50
+  input_hash: bc67a42f93efe4ec3f03fc0eab41591be60415e871a51c105b2fb82352959db1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/DynamicsSLHistoricalData/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/DynamicsSLHistoricalData/app
     title: src/Apps/W1/DynamicsSLHistoricalData/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -245,4 +245,4 @@ First-party app · folder `src/Apps/W1/DynamicsSLHistoricalData/app` · namespac
 | 42800 | [SL D365 Basic Ext.](../objects/permissionsetextension/42800.md) |  |
 | 42801 | [SL D365 Full Access Ext.](../objects/permissionsetextension/42801.md) |  |
 
-Source: [src/Apps/W1/DynamicsSLHistoricalData/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/DynamicsSLHistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DynamicsSLHistoricalData/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/DynamicsSLHistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

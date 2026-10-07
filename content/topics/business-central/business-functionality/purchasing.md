@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -408,11 +408,13 @@ links:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
   localizations: []
   videos:
+    - video/8C9JmtHdExM
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+    - post/thedynamicsexplorer-com/7097
   guidelines: []
   changes:
     - change/bcapps/10005
@@ -458,8 +460,8 @@ children:
 coverage:
   learn: 62
   code: 82
-  video: 2
-  blog: 2
+  video: 3
+  blog: 3
   guideline: 0
 bc_forms:
   - 29
@@ -603,11 +605,11 @@ Start with the overview page, then go to "Record purchases with purchase invoice
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../changes/bcapps/10005.md) (code change): "Applies consistent error handling across all undo scenarios for sales, purchases, and transfers"
+- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../changes/bcapps/10005.md) (code change): "Error messages when reversing shipped or received lines now distinguish between no reversible quantities"
 - [#10290 [Main] -Drop shipment undo receipt fails for service and non-inventory items.](../../../changes/bcapps/10290.md) (code change): "Drop shipment undo receipt fails for service and non-inventory items"
 - [#10528 Track receipt on invoice per purchase order line](../../../changes/bcapps/10528.md) (code change): "Receipt on invoice tracking can now be configured at the purchase order line level"
 - [#10611 [main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../changes/bcapps/10611.md) (code change): "A corrective purchase credit memo now properly distinguishes itself from a copied credit memo"
-- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "Purchase order matching and receipt-on-invoice line tracking capabilities"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "Purchase order matching and receipt-on-invoice line tracking capabilities are added to E-Documents integration"
 - [#10898 [Extensibility Request] issue 30434: add purchase prepayment amount event](../../../changes/bcapps/10898.md) (code change): "purchase prepayment amount event. An extensibility event allows purchase prepayment"
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../changes/bcapps/11095.md) (code change): "Validation missing for Deferral Code field on Released Purchase"
 - [#11134 [Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line](../../../changes/bcapps/11134.md) (code change): "Posted Purchase Invoice Order No. is blank when invoice rounding"
@@ -615,7 +617,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11161 [29.x][BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11161.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
 - [#11208 [Master]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../changes/bcapps/11208.md) (code change): "Corrects VAT recalculation logic for G/L account purchase lines"
 - [#11274 [Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11274.md) (code change): "Fixed an issue where undoing shipments failed with blank Bin Code"
-- [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Prevent order matching for invoice lines created by Get Receipt Lines"
+- [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Fixed an issue where undoing a shipment would fail when a bin code was blank"
 - [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
@@ -637,8 +639,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9962 [Extensibility Request] issue 30383: add purchase line transfer event](../../../changes/bcapps/9962.md) (code change): "add purchase line transfer event"
 - [#9985 [Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values](../../../changes/bcapps/9985.md) (code change): "Purchase order correction now allows quantity increases for Service"
 - [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"
-- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually"
-- [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "Flexible Drop Shipment Operation Sequences; Get Order Lines Functionality; Multiple Purchase Document Creation Methods"
+- [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "Create Purchase Orders action on sales orders eliminates the need to manually navigate"
+- [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet retains lines after generating purchase orders for reuse"
+- [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
+- [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "drop shipments; purchase order; flexible operation sequences; get order lines"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
 
 ## Business Central pages and reports

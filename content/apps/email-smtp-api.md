@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a66f89474bf11647c2092d8f2509191b9352f0e5434c3f65b28c89b9936af537
+  input_hash: 29e48aff9ecd24d542d495f3c1ed85806c56e726ba4cd6cf32cbb844204a14b7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/Email%20-%20SMTP%20API/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Email%20-%20SMTP%20API/app
     title: src/Apps/W1/Email - SMTP API/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -127,4 +127,4 @@ First-party app · folder `src/Apps/W1/Email - SMTP API/app` · namespace `Syste
 |---|---|---|
 |  | [Email - SMTP API](../objects/entitlement/email-smtp-api.md) |  |
 
-Source: [src/Apps/W1/Email - SMTP API/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/Email%20-%20SMTP%20API/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Email - SMTP API/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/Email%20-%20SMTP%20API/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

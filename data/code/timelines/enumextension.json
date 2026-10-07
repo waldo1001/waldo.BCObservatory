@@ -13,6 +13,8 @@
     "60": {
       "name": "Auto Format Ext",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -20,7 +22,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
         "26",
         "27"
@@ -137,6 +139,8 @@
     "1814": {
       "name": "Assisted Setup Group- BaseApp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -144,7 +148,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -152,6 +156,8 @@
     "1876": {
       "name": "Manual Setup Category Ext",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -159,8 +165,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "24"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -186,6 +194,8 @@
     "2611": {
       "name": "Feature To Update - BaseApp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -193,8 +203,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [
+        "24",
+        "25",
         "26",
         "27",
         "28",
@@ -206,6 +218,8 @@
     "3711": {
       "name": "Video Category - BaseApp",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -213,7 +227,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -221,6 +235,8 @@
     "3996": {
       "name": "Retention Policy Log Category Schedule",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -228,7 +244,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -236,6 +252,8 @@
     "3999": {
       "name": "Reten. Pol. Doc. Archive Fltrng.",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -243,7 +261,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -311,6 +329,8 @@
     "5825": {
       "name": "Marketing Text Scenario",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -318,7 +338,7 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -512,6 +532,8 @@
     "8891": {
       "name": "Base Email Scenario",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -519,8 +541,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
-      "changed": [],
+      "introduced": "23",
+      "changed": [
+        "25"
+      ],
       "obsoleted": [],
       "removed": null
     },
@@ -542,6 +566,8 @@
     "8900": {
       "name": "Email Address Entity",
       "versions": [
+        "23",
+        "24",
         "25",
         "26",
         "27",
@@ -549,100 +575,10 @@
         "29",
         "30"
       ],
-      "introduced": "25",
+      "introduced": "23",
       "changed": [],
       "obsoleted": [],
       "removed": null
-    },
-    "130045": {
-      "name": "SignupContextTestValue",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132584": {
-      "name": "AutoFormatTest",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [
-        "24"
-      ],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132586": {
-      "name": "Assisted Setup Test Group",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "132683": {
-      "name": "Azure OpenAI Capability",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134684": {
-      "name": "Test Email Connector",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "134685": {
-      "name": "Test Email Scenario",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135055": {
-      "name": "Unsupported Symbology",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
-    },
-    "135056": {
-      "name": "Unsupported Symbology 2D",
-      "versions": [
-        "23",
-        "24"
-      ],
-      "introduced": "23",
-      "changed": [],
-      "obsoleted": [],
-      "removed": "25"
     },
     "99000750": {
       "name": "Mfg. Report Selection Usage",

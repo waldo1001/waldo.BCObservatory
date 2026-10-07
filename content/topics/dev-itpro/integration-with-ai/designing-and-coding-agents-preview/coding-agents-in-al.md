@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,6 @@ links:
   videos:
     - video/EwN3xb2q7vE
     - video/MNwTt06ZxwY
-    - video/nbGw2g3KMXI
   posts:
     - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
@@ -198,7 +197,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
+  video: 2
   blog: 6
   guideline: 0
 bc_forms: []
@@ -340,6 +339,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Designing Agents for Business Central](../../../../posts/kauffmann-nl/8436.md) (community post): "Coding agents in AL code, reducing manual conversion time to minutes"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
-- [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; custom agents; agent building; permissions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

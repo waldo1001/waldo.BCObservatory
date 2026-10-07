@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:51:03.523Z"
+  at: "2026-10-07T16:25:37.512Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2b4993fdb6dd5b15ed6ae67189ef0c451c009e9e2ed51c8b2f719fe94e506e1d
+  input_hash: f0927f3ddd08506be8fe37e8b726f858588836176d77674096373651f783ed8b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/CrossEnvironmentIntercompany/app
+    url: https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/CrossEnvironmentIntercompany/app
     title: src/Apps/W1/CrossEnvironmentIntercompany/app (main)
     date: null
-    commit: a4406cfa9e57437fedc49c53c327a199a854491e
+    commit: 9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa
     t: null
     quote: null
 links:
@@ -113,4 +113,4 @@ First-party app · folder `src/Apps/W1/CrossEnvironmentIntercompany/app` · name
 | 30401 | [Execute All Objects](../objects/permissionset/30401.md) |  |
 | 30402 | [Data Access IC CE](../objects/permissionset/30402.md) | Data Access Intercompany Cross Environment |
 
-Source: [src/Apps/W1/CrossEnvironmentIntercompany/app](https://github.com/microsoft/BCApps/tree/a4406cfa9e57437fedc49c53c327a199a854491e/src/Apps/W1/CrossEnvironmentIntercompany/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/CrossEnvironmentIntercompany/app](https://github.com/microsoft/BCApps/tree/9df55025ee6eb2a1346ddad3a8a55d1ba1ff75aa/src/Apps/W1/CrossEnvironmentIntercompany/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

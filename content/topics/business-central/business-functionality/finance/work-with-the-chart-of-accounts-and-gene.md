@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,6 +182,9 @@ links:
   localizations: []
   videos:
     - video/1ugAYeEZLaU
+    - video/4IumfDNN8GU
+    - video/5E6ikveL6N0
+    - video/5zXQ_aIT03s
     - video/fIktVTGZkjE
     - video/HpIxYyjQWqs
     - video/kuKwjRyNcoE
@@ -189,6 +192,7 @@ links:
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
     - video/VIda0Ok1SSQ
+    - video/XJ0JHHQ7GzA
     - video/zQhtuFbxJm4
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b
@@ -221,7 +225,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 9
+  video: 13
   blog: 3
   guideline: 0
 bc_forms:
@@ -349,6 +353,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journals retain lines after posting with updated posting dates"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
+- [How to Use Posting Groups in Business Central (2025)](../../../../videos/4IumfDNN8GU.md) (video): "Posting Groups; Business Posting Groups; Product Posting Groups; Customer Posting Groups"
+- [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting Groups; Business Posting Groups; Product Posting Groups; Customer Posting Groups"
+- [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "posting control; general ledger setup; accounting periods"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"
 - [How to Work With General Journals in Business Central (2025)](../../../../videos/HpIxYyjQWqs.md) (video): "General journals; Journal templates; Journal entry"
 - [Ensure Consistency in Journals With Journal Check](../../../../videos/kuKwjRyNcoE.md) (video): "Journal Check; Enable Data Check Setting; Journal Check Fact Box"
@@ -356,6 +363,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
+- [Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent](../../../../videos/XJ0JHHQ7GzA.md) (video): "posting groups; Business posting groups; Product posting groups"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 
 ## Business Central pages and reports

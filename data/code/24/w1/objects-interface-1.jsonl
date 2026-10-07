@@ -1,5 +1,7 @@
+{"type":"interface","id":null,"name":"Allocate Reservation","app":"Base Application","hash":"ef88a1ddd51b58195928922717d9eacc7088263ec91fd3ac33e41b982f1f01ff","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"AOAI Function","app":"System Application","hash":"b3e4384348541cb114f3edca5a128e41ddc940ea73f5e299afe245631a081f7a","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"AppSource Product Manager Dependencies","app":"System Application","hash":"ea8a0c0add8bf42bb5881e96a86f1545f25fc29b46ddfbac6ee61b012a7585ce","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Average Cost Entry Point","app":"Base Application","hash":"3d6a91c4de3a4ed4442028b054568c234faef15dd89745552adbfc60fe36d04e","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Azure Functions Authentication","app":"System Application","hash":"363598ac2977f43cbbd3981a34dbf7e1b7906e52e30683baff09dc34968ab0e4","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Barcode Font Encoder","app":"System Application","hash":"bf26080cba94932bc7e873347124da0ca0e17a1e7ee79dcd910db52ecedc3241","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Barcode Font Encoder 2D","app":"System Application","hash":"45ff00fe18f4c4c91c73ec9bae16219490a31da13ddfa43202d1fd35e8813b2e","obsolete":null,"commit":null,"build":null}
@@ -7,8 +9,11 @@
 {"type":"interface","id":null,"name":"Barcode Font Provider 2D","app":"System Application","hash":"950a9c5816dd7a6be5eba9d6bb738a4e4b0fb0ddafad8b0aef1903f42137af56","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Barcode Image Encoder 2D","app":"System Application","hash":"c32decf091e941de4b2124d60588460b88c0f09b4d1851efd894af152a00c97d","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Barcode Image Provider 2D","app":"System Application","hash":"0347deda2d0970c59c7fcb956a2d4de2bfe11985fac7233f7be328f719070305","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Consolidation Method","app":"Base Application","hash":"e73424190d3139d75cdfd2ae029dba7a106de5fc8258741e66561b85b911f400","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Contact Business Relation Link","app":"Base Application","hash":"66774ab6e81a784fd019cf5c595b479afbfa3f415706962ebd621100d5a1ae45","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Data Archive Provider","app":"System Application","hash":"0d0c5e75c19485b87a2ec069a66f36207ef0b647b4a7f42d03608317265b0bf4","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Default Email Rate Limit","app":"System Application","hash":"e71b95e31aee56c83b6e308ded9838abc8883f0141eb16d21aebca66ad28561b","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Documents - Retention Period","app":"Base Application","hash":"c21703e979cb77efb2664e6bce6ccbbd7a705fdf218d0c4fcb2dab0f30baf7fe","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Edit in Excel Field Filter","app":"System Application","hash":"ac13f93ac195ab4bb1f57ea47d38297d5dbedeab3121cab62812071ff2fdd8e5","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Email Connector","app":"System Application","hash":"f2c73f3b783ac533cc21d7dc7719eff4ff41c2a208d9d4825ed71e620eebb741","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Email View Policy","app":"System Application","hash":"86becb185b29f5ec8c1039187ed3cb9bdc973e7f7642e3e6e3284ff499024ab7","obsolete":null,"commit":null,"build":null}
@@ -18,7 +23,22 @@
 {"type":"interface","id":null,"name":"Http Authentication","app":"System Application","hash":"26735b0dad1e59196769889dec8c9eab2b8e4eeca646bea928525220eee820c2","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Http Client Handler","app":"System Application","hash":"97aeed294d6c9b03a9b0dfcfa7fe3da887c69e8e1cea8a0cf9c43577601c5030","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"HTTP Diagnostics","app":"System Application","hash":"9ca2847e126f012475a427b1d6597584433f5dec5324a99032893be1e63828a7","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"IC Data Exchange","app":"Base Application","hash":"51fc3b32939eb5b945648a304f0720b54705f57e0cc8200a5b14044811f6ab05","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Image Analysis Provider","app":"Base Application","hash":"14d6f35b634550c92dfbbc96edc1d658c1d0ce4505c385d4f12daa0f9ba9b79e","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Import Consolidation Data","app":"Base Application","hash":"7ec8c160685dfc815d99c86e1716635ff15f4fdb550b1e66df61eb56802a2dc3","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Inventory Adjustment","app":"Base Application","hash":"240cd920a356d57c0a20a90efbac59ce06c82ba05c885cbff0a1881533967e59","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Invoice Posting","app":"Base Application","hash":"feb662702e148f7be76fb4fb34137352ccffd474fcd80c6792b69d9828228feb","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Line With Price","app":"Base Application","hash":"b5a78efa99098e73b79f751c4233565ec429de6cf3fdf7d9281aabe213998c02","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"No. Series - Single","app":"Business Foundation","hash":"f680e170de77f9ed16ed1c05b160f89e2d008a70f332272e25c5b365d1198f2c","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Onboarding Signal","app":"Base Application","hash":"4215ffc77a269019becc46c94f34fa13c74c2a313637561d1428efdc5b6f4ca9","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Posting Group Change Method","app":"Base Application","hash":"872b2f85a57fef9799967c372ed868b98e7be0fcc688fd538f6c8094504b5f02","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Power BI Service Provider","app":"Base Application","hash":"a12f089a1a234b29523d5ead58001ea22a70217c77b81c852974b7cb03c56d9a","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Price Asset","app":"Base Application","hash":"28deaaeaff7eedbfcccd04ecbcc4d654ed059ffcd77e65553e0f487f43734187","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Price Calculation","app":"Base Application","hash":"b89a404da23d9c1568d789d69449a990d625ff5d04fefaa0c31af6456125b723","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Price Source","app":"Base Application","hash":"394f99b08c768813662560c144e247539d56773e6967afd6fbdc66ec17ac9150","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Price Source Group","app":"Base Application","hash":"656353e0d5f93151eadcb085b4e5cfc921e8a5c6da0bf55e02b431d6702cb71f","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Record Reference","app":"System Application","hash":"6140265c912f4969bf63df9897d8487b3ddb83db9c97ee13631b1bd34a1d5aa4","obsolete":null,"commit":null,"build":null}
+{"type":"interface","id":null,"name":"Reminder Action","app":"Base Application","hash":"7bd97cf2b50de4b24cbe8e0b85655211acc63346dbd31ad7a5445c4081920634","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Reten. Pol. Deleting","app":"System Application","hash":"32bd534e63ba2bd7c5f18ae8149ac7558cff4538fec5fb0e59eb20ae3334cbe9","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Reten. Pol. Filtering","app":"System Application","hash":"6102187cad281c0db1b59d6b3dccbcc94fe62b69c086ba7b2616e4513e790462","obsolete":null,"commit":null,"build":null}
 {"type":"interface","id":null,"name":"Retention Period","app":"System Application","hash":"3be87a2ae249bb4e05add4244dd63052388aaa4cc609b27e039fcc89a724302d","obsolete":null,"commit":null,"build":null}

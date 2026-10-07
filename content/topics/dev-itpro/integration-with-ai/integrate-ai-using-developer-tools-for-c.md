@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,6 +211,8 @@ links:
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
     - post/demiliani-com/13611
+    - post/olofsimren-com/3585
+    - post/olofsimren-com/3630
     - post/thinkaboutit-be/8204
   guidelines: []
 learn_toc_path:
@@ -224,7 +226,7 @@ coverage:
   learn: 24
   code: 0
   video: 1
-  blog: 6
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -281,6 +283,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "compares two authentication methods for Azure OpenAI in Business Central: unmanaged and managed"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../../posts/demiliani-com/13611.md) (community post): "System.AI namespace currently wraps Chat Completions and provides guardrails, telemetry"
+- [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "Copilot extension for Business Central helps manufacturing companies manage inventory"
+- [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "custom extension called Planning Parameter Worksheet uses Copilot"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Microsoft-managed Azure OpenAI resources for Copilot extensions (now generally available)"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 

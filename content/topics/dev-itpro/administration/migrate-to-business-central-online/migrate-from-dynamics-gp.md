@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -207,7 +207,7 @@ Replicate data explains how to run and manage replication from the Cloud Migrati
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "gp assessment; migration planning; cloud migration; gp to business central"
-- [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "gp migration; cloud migration; data migration; configuration pages; master data"
+- [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "Dynamics GP Cloud Migration - Moving to Business Central. Topics: gp migration; cloud migration; data migration"
 
 ## Business Central pages and reports
 

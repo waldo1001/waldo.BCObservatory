@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:43.648Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-07T16:30:41.512Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -376,7 +376,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10230
-    - change/bcapps/10700
     - change/bcapps/11386
     - change/bcapps/11484
     - change/bcapps/11896
@@ -517,7 +516,6 @@ Subtopics go deeper. Web services is by far the largest and covers publishing, s
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version](../../changes/bcapps/10230.md) (code change): "Sales credit memos under One-Stop-Shop regime now generate SII XML"
-- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../changes/bcapps/10700.md) (code change): "E-Documents integration. New fields and APIs support matching"
 - [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected from 6532 to 6246"
 - [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
 - [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../changes/bcapps/11896.md) (code change): "Master Data Management now correctly preserves destination blobs when source blobs exceed capacity limits"

@@ -2,14 +2,14 @@
 id: object/interface/no-series-single
 type: object
 title: Interface "No. Series - Single"
-summary: Interface "No. Series - Single" in Business Foundation (Microsoft.Foundation.NoSeries). 4 public procedures. Introduced in BC25, still in BC30.
+summary: Interface "No. Series - Single" in Business Foundation (Microsoft.Foundation.NoSeries). 4 public procedures. Introduced in BC24, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - business foundation
 versions:
-  introduced: "25"
+  introduced: "24"
   last_changed: null
   deprecated: null
 review:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T15:47:18.976Z"
+  at: "2026-10-07T16:23:11.326Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4ec369e4d0a003b383d4dcda056720040e1da6b689cc7d8fc82c587b9347d231
+  input_hash: daf7205dbcd3ee65fe6d56a3cd0ab46d44e78f641854bd74561fdedaaecb7663
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al
@@ -45,9 +45,10 @@ name: No. Series - Single
 namespace: Microsoft.Foundation.NoSeries
 app: Business Foundation
 extends: null
-first_version: "25"
+first_version: "24"
 last_version: "30"
 present_in:
+  - "24"
   - "25"
   - "26"
   - "27"
@@ -74,9 +75,9 @@ relations:
 
 # Interface "No. Series - Single"
 
-> Interface "No. Series - Single" in Business Foundation (Microsoft.Foundation.NoSeries). 4 public procedures. Introduced in BC25, still in BC30.
+> Interface "No. Series - Single" in Business Foundation (Microsoft.Foundation.NoSeries). 4 public procedures. Introduced in BC24, still in BC30.
 
-Business Foundation · Microsoft.Foundation.NoSeries · BC25-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al) · facts from BC29
+Business Foundation · Microsoft.Foundation.NoSeries · BC24-30 · [source at 030de383](https://github.com/microsoft/BCApps/blob/030de38360c4aa828a650300faf93cd09fa139e1/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -94,7 +95,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 
 ## Across versions
 
-- Present in: BC25, BC26, BC27, BC28, BC29, BC30
+- Present in: BC24, BC25, BC26, BC27, BC28, BC29, BC30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
