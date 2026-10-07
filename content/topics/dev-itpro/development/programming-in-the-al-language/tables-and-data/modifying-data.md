@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data
 type: topic
 title: Modifying data
-summary: "Learn section Development > Programming in the AL language > Tables and data > Modifying data: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Modifying data in AL covers the methods and table types used to change and work with records: Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records, filter pages, Dataverse table properties, and keeping test data between publishes. It answers how-to and syntax questions for these tasks."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
+  prompts:
+    hub-topic: 1
+  input_hash: 4b423ff024b8529b76d2d4a372d63582ed13eb2453f33511b1d0509163fb1878
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-filter-pages-for-filtering-tables
@@ -98,6 +99,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/12267
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/
   guidelines: []
 learn_toc_path:
@@ -112,18 +114,37 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
-narrative: none
+narrative: generated
 ---
 
 # Modifying data
 
-> Learn section Development > Programming in the AL language > Tables and data > Modifying data: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Modifying data in AL covers the methods and table types used to change and work with records: Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records, filter pages, Dataverse table properties, and keeping test data between publishes. It answers how-to and syntax questions for these tasks.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Modifying data · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Modifying data · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section groups the AL topics for writing, changing and deleting data, and for the special table types used when processing it. The core page documents the Insert, Modify, ModifyAll, Delete, DeleteAll and Truncate methods, including syntax, return values and when to prefer Truncate over DeleteAll.
+
+Related pages cover table types: temporary tables (in-memory, reduce network and database load) and virtual tables, with the Date and Integer virtual tables as specific examples. Other pages cover Media and MediaSet data types, runtime filter pages built with FilterPageBuilder, properties that enable Microsoft Dataverse tables for extension development, and schemaUpdateMode settings for retaining test data.
+
+Start with the Insert, Modify and Delete methods page for the basics. Then go to temporary or virtual tables as needed, and to the media, filter page, Dataverse or test data pages for those specific tasks.
+
+## Key points
+
+- Insert, Modify, ModifyAll, Delete, DeleteAll and Truncate are the AL methods for maintaining data; Truncate is for high-performance bulk deletion.
+- Temporary tables are in-memory and can be set up with the TableType property, temporary record variables, or the SourceTableTemporary page property.
+- Virtual tables hold read-only system information computed at runtime and not stored in the database.
+- The Date virtual table (ID 2000000007) has Period Type, Period Start, Period End, Period No. and Period Name fields for date ranges.
+- The Integer virtual table (ID 2000000026) spans -1,000,000,000 to 1,000,000,000 and is used to control loops in reports.
+- Media and MediaSet data types store images and documents in system tables, with better performance and caching than BLOB fields.
+- FilterPageBuilder creates runtime filter pages for multiple tables in a modal dialog, using addtable and addrecord.
+- schemaUpdateMode in launch.json (Synchronize, Recreate, ForceSync) controls whether test data is kept between publishes.
 
 ## Learn pages
 
@@ -141,6 +162,7 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Business Central version 27 introduces the Rec.Truncate AL method to enable efficient bulk deletion"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-web-server",
+  "input_hash": "1353b941d9ce0664ceb995b1353856724262b80f083f450b8757aa9b18466ee5",
+  "summary": "Configuring the Business Central web server on-premises: navsettings.json settings on IIS (connection, authentication, credential types, SSL/HTTPS, session timeout, portal embedding) and creating multiple web server instances with PowerShell. It answers how-to questions about changing web server settings and deploying several instances.",
+  "overview": "This section covers the Business Central web server component running on IIS in on-premises deployments. It has two pages: one on configuring a web server instance, and one on running more than one instance.\n\nThe first page explains that a web server instance is configured through the navsettings.json file. You can edit the file directly or use PowerShell cmdlets. Settings include connection and authentication options, credential types, SSL/HTTPS, session timeout and portal embedding.\n\nThe second page shows how to set up multiple web server instances in IIS with PowerShell, for example for different companies or deployment scenarios. Start with the first page to learn the settings. Move to the second when you need more than one instance.",
+  "key_points": [
+    "Web server instance settings are stored in navsettings.json on IIS.",
+    "Configuration can be changed by editing the file directly or through PowerShell cmdlets.",
+    "Configurable areas include credential types, authentication, SSL/HTTPS, session timeout and portal embedding.",
+    "New-NAVWebServerInstance creates additional web server instances in IIS.",
+    "Set-NAVWebServerInstanceConfiguration changes the configuration of an instance.",
+    "Get-NAVWebServerInstance and Remove-NAVWebServerInstance list and delete instances.",
+    "Instances can be deployed as a RootSite or a SubSite.",
+    "Multiple instances suit different companies or deployment scenarios."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:13.208Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009495
+  }
+}

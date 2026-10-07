@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/administration/entitlements-and-permissions",
+  "input_hash": "8cb0c77812fa15a7503e3f80ba3dbf9ed845e46b41b074eff8e36ede0276aa5a",
+  "summary": "Entitlements and permissions in Business Central: how license-based entitlements, permissions and permission sets differ, how the license plans are structured, and what the special permission sets (SUPER, D365 BASIC, SYSTEM APP) provide. It answers questions about access control and licensing.",
+  "overview": "This section covers how access to Business Central is controlled. Entitlements come from the license, permissions are assigned by an administrator, and permission sets are logical groups of permissions. The overview page explains these terms and includes upgrade considerations from versions prior to 18.0.\n\nThe licensing page describes the plans: Essentials, Premium, Team Member and External Accountant, along with entitlements, user groups and device licenses. The special permission sets page defines sets such as SUPER, SECURITY, LOGIN, D365 BASIC, SYSTEM APP - BASIC and SYSTEM APP - ADMIN, and the access each gives.\n\nStart with the overview to learn the concepts, then read the licensing page to see which plan grants which entitlements. Use the special permission sets page as a reference when assigning or troubleshooting access.",
+  "key_points": [
+    "Entitlements are license-based access, permissions are assigned by administrators, and permission sets are logical groups of permissions.",
+    "Permission sets have scopes, and include system permission sets and user-defined permission sets; AL object permissions are also covered.",
+    "The overview includes upgrade considerations from versions prior to 18.0.",
+    "License plans covered: Essentials, Premium, Team Member and External Accountant.",
+    "Licensing also covers user groups and device licenses.",
+    "Licensing page references 2020 release wave 2, 2022 release wave 1, version 17.0 and version 25.0.",
+    "Special permission sets include SUPER, SECURITY, LOGIN, D365 BASIC, SYSTEM APP - BASIC and SYSTEM APP - ADMIN."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:46.106Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010957
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:55.273Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point listing the version labels on the licensing page (2020 release wave 2, 2022 release wave 1, 17.0, 25.0) is supported, but it doesn't help much: the sources don't say what changed at those versions, so the point gives an agent little to act on. It could be dropped or merged into another point.",
+      "The overview page's version labels (version 18.0, 2021 release wave 1) are only mentioned indirectly, through the line about upgrade considerations from versions prior to 18.0. That's acceptable."
+    ],
+    "input_hash": "8cb0c77812fa15a7503e3f80ba3dbf9ed845e46b41b074eff8e36ede0276aa5a",
+    "cost_usd": 0.0265472
+  }
+}

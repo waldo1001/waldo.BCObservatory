@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/get-the-most-out-of-microsoft-365-apps
 type: topic
 title: Get the most out of Microsoft 365 apps
-summary: "Learn section Get started > Get productive in Business Central > Get the most out of Microsoft 365 apps: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:38.557Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3d41d31b8cd5c8fabb32ff8b13e613d643009607e380f76cf09f744501361029
+  prompts:
+    hub-topic: 1
+  input_hash: 7f90c881c6ea0f0dc373936258dcf52f0aced838089078d40b138fdd9c9faecd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive
@@ -82,14 +83,30 @@ coverage:
 bc_forms:
   - 1480
 member_hash: 3d41d31b8cd5c8fabb32ff8b13e613d643009607e380f76cf09f744501361029
-narrative: none
+narrative: generated
 ---
 
 # Get the most out of Microsoft 365 apps
 
-> Learn section Get started > Get productive in Business Central > Get the most out of Microsoft 365 apps: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers five ways to work with Business Central data in Microsoft 365 apps. Each page covers one app: OneDrive for opening and sharing files, Outlook for contacts, Teams for sharing records, Word for bulk communications, and Excel for analysis and editing.
+
+The pages are independent, so start with the app that matches your task. For bulk letters or emails to customers, vendors, or contacts, go to the Word templates page. For working with list data in a spreadsheet, go to the Excel page. For collaboration, use the Teams and Outlook pages. The OneDrive page covers file sharing and permissions.
+
+## Key points
+
+- OneDrive: open Business Central files in online applications, share with specific people using Share, Send link or Copy link, and control permissions through link settings.
+- Outlook: save Business Central contacts to Outlook and Teams, with optional two-way synchronization and contact filtering (2026 release wave 1).
+- Teams: share records as interactive cards using the Business Central app for Teams, or share direct page links with Share Link and Share to Teams.
+- Word templates: merge data from Business Central entities, related or unrelated, into templates for personalized bulk documents to customers, vendors, and contacts.
+- Word templates support field selection, template upload, and email integration.
+- Excel: Open in Excel exports list data for analysis, while Edit in Excel lets you change data and publish it back to Business Central.
+- Excel features include filter support, the Excel add-in, multi-environment support, and agent mode.
 
 ## Learn pages
 

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data/service",
+  "input_hash": "b7aff871941dcd262988c8558400e5f946b243b903324971d8565843d23c3a71",
+  "summary": "Contoso Coffee demo data for Service Management in Business Central. It covers the sample resources, skills, service items and loaner items, plus two walkthroughs: service orders and service contracts for service items.",
+  "overview": "This section describes the Service Management part of the Contoso Coffee demo data. The demo data includes resources with skills, service items, and loaner items. You can use it to try the service module without building your own data.\n\nThe introduction page explains what the demo data contains and how the service module is configured. Two walkthroughs follow. One shows service orders for service items: creating the order, handling a loaner item, registering repair work, and posting the service invoice. The other shows service contracts for regular maintenance: creating service items and contracts, then service orders, resource allocation, time entries, and posting.\n\nStart with the introduction, then pick the walkthrough that matches the scenario you want to see: repair work (service orders) or recurring maintenance (service contracts).",
+  "key_points": [
+    "Demo data includes resources with skills, service items, and loaner items.",
+    "The introduction page covers service module configuration and demo data creation.",
+    "The service order walkthrough covers creating orders, managing loaner items, the item worksheet, and repair status tracking.",
+    "The service order walkthrough ends with posting service invoices and viewing service ledger entries.",
+    "The service contract walkthrough covers creating service items, contract templates, and contracts.",
+    "The service contract walkthrough also covers resource allocation, time entry, service invoicing, and service order posting.",
+    "Both walkthroughs use the Contoso Coffee scenario."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:38.976Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009370999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:50.830Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 4 says the service order walkthrough 'ends with' posting service invoices and viewing service ledger entries. The sources list invoicing and service ledger entries as features but don't say what order the steps come in. 'Also covers' would be safer. This is minor.",
+      "The overview says the demo data lets you try the service module without building your own data. That's a reasonable inference from what the demo data is for, but no source states it."
+    ],
+    "input_hash": "b7aff871941dcd262988c8558400e5f946b243b903324971d8565843d23c3a71",
+    "cost_usd": 0.0245632
+  }
+}

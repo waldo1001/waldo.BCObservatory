@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Netherlands > Core finance: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior."
 tier: official
 language: en
 system: finance
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f46f16b3229295000e356f7b3476174b4015b0beb37af126ed547f70464f2a57
+  prompts:
+    hub-topic: 1
+  input_hash: 1354e39e0856c329ede4f7008ca083acd29dcaa50e16d598e70af19a43c8fddf
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries
@@ -59,14 +60,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f46f16b3229295000e356f7b3476174b4015b0beb37af126ed547f70464f2a57
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Netherlands > Core finance: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Core finance · tier official · system finance · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two pages, each covering one capability of the Dutch version.
+
+One page explains how to apply and unapply general ledger entries in the Dutch version. The other describes required descriptions in G/L entries: the system can be configured so that journal lines need a detailed description beyond the default account description when posted, which helps maintain an audit trail.
+
+Start with the required descriptions page if you are setting up posting rules and audit controls. Use the apply and unapply page when you need to match or reverse the matching of G/L entries.
+
+## Key points
+
+- Applies only to the Dutch (Netherlands) version of Business Central.
+- General ledger entries can be applied and unapplied in the Dutch version.
+- Required descriptions on G/L entries support audit trails.
+- The system can be configured to enforce detailed descriptions beyond the default account description.
+- Description validation takes place when journal lines are posted.
+- The section has two pages and no subtopics.
 
 ## Learn pages
 

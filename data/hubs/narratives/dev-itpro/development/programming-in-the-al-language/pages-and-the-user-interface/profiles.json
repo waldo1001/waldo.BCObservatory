@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/profiles",
+  "input_hash": "56c3b273565a837b5eeda1fe72bc383986e6ff5444aab7b7885cd5a439a43869",
+  "summary": "Profiles in Business Central AL development: how to define user roles that control which pages and reports a user sees. It answers questions about profile objects, profile extensions, page customization objects, and creating or moving profiles through the client.",
+  "overview": "Profiles (roles) tailor the Business Central experience by setting which pages and reports are available and which role center a user gets. In AL you build them with profile objects, profile extension objects, and page customization objects. The client offers a user interface alternative to writing this in code.\n\nStart with Designing Profiles for the overall picture, including role centers, profile extensions, and translation support. The Profile object page explains the properties that define a profile: RoleCenter, Enabled, Promoted, and Customizations. The Page customization object page covers changing layout and actions for specific profiles. It offers more limited extensibility than page extensions. Using the client to create profiles covers the no-code route, with export and import of profile packages.",
+  "key_points": [
+    "A profile object sets a role center and can list optional page customizations. Its properties include RoleCenter, Enabled, Promoted and Customizations.",
+    "Page customization objects change page layout and actions for specific profiles and apply only to the role centers they target.",
+    "Page customization objects cannot add variables, procedures or triggers, so they are less extensible than page extensions. The Learn page lists runtime 16.",
+    "Page customizations can cover actions, field additions, group management, editable fields and views.",
+    "Profile extension objects are another AL building block for profiles, and translation is supported.",
+    "The client lets you create profiles, profile extensions and page customizations without writing AL code. The Learn page lists 2024 release wave 2.",
+    "Profiles created in the client can be exported and imported as a profile package."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:21.374Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010303
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:51.589Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 adds '(runtime 16)' to the limits on page customization objects. That suggests the limits began in runtime 16. The source only lists runtime 16 as a version on the Page customization object page and doesn't say what changed.",
+      "Key point 7 adds '(2024 release wave 2)' to creating profiles in the client. That suggests the feature began in that release. The source only lists the version on the page and doesn't say the feature was introduced then.",
+      "Key points 1 and 2 overlap on the profile object properties. They are merged so there is room for clearer points."
+    ],
+    "input_hash": "56c3b273565a837b5eeda1fe72bc383986e6ff5444aab7b7885cd5a439a43869",
+    "cost_usd": 0.0325912
+  }
+}

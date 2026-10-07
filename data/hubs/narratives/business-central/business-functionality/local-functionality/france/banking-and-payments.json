@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/france/banking-and-payments",
+  "input_hash": "2f22fc606d6261bf76a502ba5bcfb6b03c9f704ef6039cb07b0da8be84b1f475",
+  "summary": "Banking and payments in the French localization of Business Central: payment management with payment classes, statuses, steps and addresses, plus creating, posting, archiving and exporting payment slips. It answers setup and how-to questions for customer and vendor payments, including SEPA.",
+  "overview": "This section covers payment management in the French version of Business Central. Payment slips handle customer and vendor payments. They are built on configurable payment classes, which carry payment statuses and steps, and on payment addresses that can differ from default addresses.\n\nThe pages follow the payment lifecycle. Setup pages cover payment classes and payment addresses. Working pages cover creating payment slips, posting them, archiving processed ones, and exporting payments electronically. A separate page explains how to move payment management setup parameters from one company to another.\n\nStart with the Payment Management overview for the concepts. Then set up payment classes and payment addresses before creating payment slips. Use the export, post and archive pages as you need them.",
+  "key_points": [
+    "Payment classes define operation types such as bills of exchange and checks, with associated statuses and steps; they also support SEPA transfers.",
+    "Payment classes include options such as Unrealized VAT Reversal and header/line number series.",
+    "Payment addresses let vendors and customers have payment addresses different from their default address, set through the Payment Addresses action.",
+    "Creating payment slips uses a Payment Class, the Suggest Vendor Payments function, RIB bank details, and file generation for SEPA payment files.",
+    "Posting a payment slip requires editing it with Action Type set to Ledger, then using the Post action.",
+    "Exporting payments is configured per payment step through Action Type and Export Type, using either a report or an XMLport.",
+    "Processed payment slips can be archived manually one at a time or in batch with the Archive Payment Slips job.",
+    "Export Parameters and Import Parameter actions copy payment management setup between companies with similar requirements."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:17.033Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013385
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:12.080Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point on posting says the slip is edited with Action Type set to Ledger. That matches the source summary, but Action Type is more likely a payment step setting than a field on the slip. The wording is fine as long as it stays this close to the source.",
+      "Minor: 'Import Parameter' (singular) copies the source feature name exactly. Keep it unless the source changes."
+    ],
+    "input_hash": "2f22fc606d6261bf76a502ba5bcfb6b03c9f704ef6039cb07b0da8be84b1f475",
+    "cost_usd": 0.0355632
+  }
+}

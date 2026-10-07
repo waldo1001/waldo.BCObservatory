@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci
 type: topic
 title: Apply payments automatically and reconcile bank accounts
-summary: "Learn section Business functionality > Finance > Manage payables > Apply payments automatically and reconcile bank accounts: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Payment reconciliation in Business Central: importing bank statements or bank feeds, applying payments automatically to open customer and vendor entries, and reconciling bank accounts. It answers questions on automatic application, match confidence, Text-to-Account mapping, manual review, and handling unmatched or differing amounts."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1f0e2b13ddf6488966df4785b764083d12a815179d6db3c4e365b4e8e5e35a1a
+  prompts:
+    hub-topic: 1
+  input_hash: 15be478fff605100b7c8ce497ee60aa4c1529a9096bb17ccb3bcdf8c8086d17f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
@@ -65,7 +66,8 @@ links:
     - topic/business-central/business-functionality/finance/manage-payables
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/10232
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -79,7 +81,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 389
@@ -89,14 +91,30 @@ bc_forms:
   - 1293
   - 1294
 member_hash: 1f0e2b13ddf6488966df4785b764083d12a815179d6db3c4e365b4e8e5e35a1a
-narrative: none
+narrative: generated
 ---
 
 # Apply payments automatically and reconcile bank accounts
 
-> Learn section Business functionality > Finance > Manage payables > Apply payments automatically and reconcile bank accounts: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Payment reconciliation in Business Central: importing bank statements or bank feeds, applying payments automatically to open customer and vendor entries, and reconciling bank accounts. It answers questions on automatic application, match confidence, Text-to-Account mapping, manual review, and handling unmatched or differing amounts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to reconcile bank accounts and apply payments using the Payment Reconciliation Journal. You import a bank statement or use a bank feed, and Business Central matches payments to open invoices automatically using payment application rules and a match confidence level.
+
+The pages follow the workflow. Start with "Reconcile bank accounts and apply payments" for the overall process, then "Reconcile payments using automatic application" for the details of automatic matching. After that, use the review page to check results and fix applications on the Payment Application page, and the remaining two pages for cases that automatic matching does not cover: recurring payments and payments with no matching document or with amount differences.
+
+## Key points
+
+- The Payment Reconciliation Journal imports bank statements or bank feeds and automatically applies payments to open customer and vendor entries.
+- Automatic application uses payment application rules and a match confidence level to match payments to open entries.
+- Text-to-Account mapping posts recurring payments directly to specified debit and credit accounts when match confidence is Low or Medium.
+- The Payment Application page lets you review automatic results and manually apply or reapply payments to open entries.
+- Manual application covers split payments, currency conversion, and payment discounts, and the page also includes a candidate lookback days parameter.
+- The Transfer Difference to Account feature handles payments with no matching document or with amount differences.
+- The same journal is used both to apply payments and to reconcile bank accounts.
 
 ## Learn pages
 
@@ -105,6 +123,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Review and apply payments manually after automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application): After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "three methods for posting customer cash receipts in Business Central"
 
 ## Business Central pages and reports
 

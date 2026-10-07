@@ -2,19 +2,20 @@
 id: topic/dev-itpro/security-privacy-and-compliance/security
 type: topic
 title: Security
-summary: "Learn section Security, privacy, and compliance > Security: 16 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Security in Business Central covers online tenant security, multifactor authentication, encryption, network restrictions with service tags, record-level security filters, and persona-based guidance. It answers questions about protecting data, controlling access, and securing online and on-premises deployments.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:03.160Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d519ea8b503860e042701e7390c435611a58450489f9bde8c6099f58fc22a397
+  prompts:
+    hub-topic: 1
+  input_hash: 2fe35cbb7d99620ddc73fe8e89c61701e7d8e624a3c9e01fddd2fe8c58f05900
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection
@@ -182,14 +183,33 @@ bc_forms:
   - 9838
   - 9874
 member_hash: d519ea8b503860e042701e7390c435611a58450489f9bde8c6099f58fc22a397
-narrative: none
+narrative: generated
 ---
 
 # Security
 
-> Learn section Security, privacy, and compliance > Security: 16 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Security in Business Central covers online tenant security, multifactor authentication, encryption, network restrictions with service tags, record-level security filters, and persona-based guidance. It answers questions about protecting data, controlling access, and securing online and on-premises deployments.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · no narrative yet
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section explains how Business Central is secured, mainly for online (cloud) tenants. It covers authentication, access control, data protection, encryption, Privileged Identity Management, and auditing. Specific pages cover multifactor authentication through Microsoft Entra ID, Azure service tags for network filtering, and security filters for record-level access.
+
+Guidance is split by audience. The persona guide gives recommendations to partners, administrators, developers, and auditors. The business user tips page covers separation of duties, approval workflows, and shared devices. The FAQ answers questions on data isolation, penetration testing, cipher suites, and incident management.
+
+Two subtopics go deeper. Application security covers the layered security model, users and licenses, and permission sets. On-premises security covers authentication, server hardening, certificates, and database encryption. Start with "Security in Business Central" for the overall picture, then move to the page that fits your role or deployment.
+
+## Key points
+
+- The online security overview covers Conditional Access, data isolation, Transparent Data Encryption, customer-managed encryption keys, and Customer Lockbox.
+- MFA through Microsoft Entra ID supports phone calls, text messages, mobile app notifications, and one-time passwords, with conditional access policies.
+- The Dynamics365BusinessCentral Azure service tag lets you control firewall and network security group rules for traffic to Business Central.
+- Security filters limit table data at record level and are created through permission sets. The SecurityFiltering property sets filtered, validated, ignored, or disallowed behavior.
+- The persona guide covers Privileged Identity Management, GDAP group-based access, Federated Identity Credentials, certificate-based authentication, and Azure Key Vault.
+- Business user tips cover separation of duties, approval workflows, out-of-band verification, kiosk sign-out, and private browsing.
+- The security FAQ covers data isolation, penetration testing, RSA-CBC cipher support, and security incident management.
+- Subtopics cover application security (users, licenses, AL permission sets) and on-premises security (SSL/HTTPS, X.509 certificates, TDE, BitLocker, SQL Server permissions).
 
 ## Subtopics
 

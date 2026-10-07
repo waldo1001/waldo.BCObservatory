@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
+  "input_hash": "c2027d984cf9999e4cf9dd51358fe3d60147c733494f8344f360c1df1a99fdeb",
+  "summary": "AL page development in Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), field layout and formatting, FactBoxes, tiles, Tell me discoverability, teaching tips, Power BI embedding, and Copilot prompt dialogs. Answers how to design and build pages in AL.",
+  "overview": "This section covers how to build the user interface of Business Central in AL. It starts with the basics: the Pages overview, the Page object, Page types and layouts, and the Page extension object. Simple card and list examples show working code for Customer pages.\n\nDesign pages then go deeper by page type: card and document pages, list pages, tiles and field groups, indented hierarchy lists, repeater controls, and parts (ListPart, CardPart, HeadlinePart, Power BI parts, FactBoxes). Layout pages explain FastTabs, the grid control, the fixed control, field formatting, tooltips, and rich text. Further pages cover assisted setup guides, custom filter tokens, and the AI-oriented dialogs: PromptDialog, prompt guides, error handling in prompt dialogs, and the ConfigurationDialog preview.\n\nHelp users find and learn pages with Tell me (UsageCategory), page discoverability, teaching tips and in-app tours. A good start is Pages overview, then Page types and layouts, then the specific page type you need.",
+  "key_points": [
+    "Page types include Card, List, Document, Worksheet, RoleCenter, NavigatePage, PromptDialog and ConfigurationDialog (preview); Page types and layouts explains which suits which task.",
+    "Page parts (ListPart, CardPart, HeadlinePart, Power BI report parts) embed data from other tables and can be used in Role Centers, FactBoxes and document pages, often linked with SubPageLink.",
+    "Layout options: FastTabs with the Importance property, grid control (GridLayout), fixed control for matrix layouts, repeater properties like Width and FreezeColumn, and indentation properties for hierarchy lists.",
+    "Tiles are customized with a Brick field group; DropDown and Brick field groups are defined on tables and table extensions.",
+    "Tooltips can be defined on table fields (from 2024 release wave 1) and are inherited by pages, with overrides allowed; CodeCop warning AA0234 applies.",
+    "Set UsageCategory (and AdditionalSearchTerms) to make pages and reports searchable in Tell me and visible in the role explorer.",
+    "Teaching tips use AboutTitle and AboutText; assisted setup guides use NavigatePage; custom filter tokens use the OnResolveTextFilterToken event.",
+    "PromptDialog pages (runtime 12.1) provide Copilot experiences with prompt, content, options, system actions and prompt guide areas; errors can display inline (2024 release wave 2)."
+  ],
+  "members_used": 33,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:20.262Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.037626
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:02.405Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: no key point covers FactBoxes (system parts such as Notes, Links and Summary, plus load-performance guidance) or Power BI embedding (reports, scorecards and dashboards), although both appear in the summary and overview.",
+      "Minor: the tooltip key point says CodeCop warning AA0234 'applies'. The source only lists AA0234 as a related feature, so a more neutral wording would be safer."
+    ],
+    "input_hash": "c2027d984cf9999e4cf9dd51358fe3d60147c733494f8344f360c1df1a99fdeb",
+    "cost_usd": 0.0758952
+  }
+}

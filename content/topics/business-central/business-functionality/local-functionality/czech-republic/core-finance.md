@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/core-finance
 type: topic
 title: Core Finance
-summary: "Learn section Business functionality > Local functionality > Czech Republic > Core Finance: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:38.493Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: cf58222c12ea81a27ae5e4b9d1b5c55b9f5fb161a86b1cfc0f1c8e1959642199
+  prompts:
+    hub-topic: 1
+  input_hash: f7bd151cd64b760eb80370221eed5fb4503c08a79fb62f347def450b2ea5fbbc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees
@@ -155,14 +156,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: cf58222c12ea81a27ae5e4b9d1b5c55b9f5fb161a86b1cfc0f1c8e1959642199
-narrative: none
+narrative: generated
 ---
 
 # Core Finance
 
-> Learn section Business functionality > Local functionality > Czech Republic > Core Finance: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Czech localization pages for core finance. They cover posting and ledger behavior (alternative employee posting groups, posting group change checks, corrections posting, multi-circuit accounting, G/L entries application, WIP extended posting) and the reports and documents needed for Czech legislation (accounting output documents, internal financial documents, statutory statements, year closing).
+
+## Key points
+
+- Alternative posting groups for employees let payroll and expense transactions post to different G/L accounts, with a posting group choice on journals and automatic reallocation of G/L entries.
+- Posting group changes on customer, vendor, item and bank account cards are blocked when open entries exist.
+- Corrections posting (Red Storno) enforces corrective posting on G/L accounts and inventory so costs and revenues sit on the proper debit or credit side.
+- Multi-circuit accounting uses the G/L Account Group field to separate Financial, Off-Balance and Intercompany accounting areas.
+- G/L entries application matches temporary and transfer account entries, with partial application, apply/unapply and batch application.
+- Year closing reports close the income statement, close the balance sheet and open the balance sheet, creating General Journal lines.
+- Statutory Statements provide Balance Sheet and Income Statement under Accounting Law 563/1991, built on financial reports with customizable Excel layouts.
+- Exchange rates can be updated automatically from the Czech National Bank (CNB) service.
 
 ## Learn pages
 

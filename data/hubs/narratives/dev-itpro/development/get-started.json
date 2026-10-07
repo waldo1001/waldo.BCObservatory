@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/get-started",
+  "input_hash": "19ab0454f01948f74a2a77e19360f11eeb576d1e4f014a8e0dd1d81f3e896d40",
+  "summary": "The Get started section covers how to begin AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, and packaging, translating, and instrumenting apps. It also covers ALTool, Ready to Go, and marketplace validation for AppSource.",
+  "overview": "This section is the entry point for AL development. \"Get started with AL\" walks through the sandbox, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json and app.json, and deployment. \"Build your first sample extension\" then shows tables, pages, extension objects, install code, and upgrade code. \"Differences in the development environments\" helps developers coming from C/SIDE.\n\nMany pages describe Visual Studio Code tooling: AL code actions, code navigation, AL Explorer, Formatter, Home, outline view, keyboard shortcuts, syntax and snippets, and productivity tips. Designer is the in-client tool for changing page layouts without writing AL code.\n\nOther pages cover release tasks: context-sensitive help links, XLIFF translation files, telemetry, and runtime packages for on-premises. Three subtopics go further. ALTool covers command-line compile and package steps for CI/CD. Ready to Go covers publishing to the commercial marketplace. Marketplace validation covers AppSource checks.",
+  "key_points": [
+    "Get started with AL covers sandbox setup, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json, app.json, and Copilot project templates.",
+    "The first sample extension builds table, page, and extension objects with install and upgrade code, and uses Designer.",
+    "Editor tools include code actions (configurable scope: instance, document, project, workspace), Go To Definition navigation, AL Explorer, Formatter, outline view, and AL Home.",
+    "Designer is available in a Business Central sandbox and edits page layouts by drag-and-drop without AL code.",
+    "XLIFF translation uses the TranslationFile feature, GenerateCaptions, and namespace-aware IDs (runtime 18).",
+    "Telemetry pages describe LogMessage, custom events, and Application Insights integration.",
+    "Runtime packages for on-premises protect AL source code and need no developer license on the target server; showMyCode and allowDebugging flags apply.",
+    "Subtopics cover ALTool for CI/CD, Ready to Go for partner registration and Partner Center, and Marketplace validation for AppSource."
+  ],
+  "members_used": 17,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:51.070Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022719000000000003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:15.041Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on XLIFF links runtime 18 to namespace-aware IDs; the source only lists runtime 18 as a version for the page, so the tie to that specific feature is a mild inference.",
+      "Keyboard shortcuts, syntax and snippets, and productivity tips are mentioned only in the overview, not in key points; acceptable given the 8-point limit."
+    ],
+    "input_hash": "19ab0454f01948f74a2a77e19360f11eeb576d1e4f014a8e0dd1d81f3e896d40",
+    "cost_usd": 0.0487672
+  }
+}

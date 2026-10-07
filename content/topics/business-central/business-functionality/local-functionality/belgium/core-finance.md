@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Belgium > Core finance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Core finance for the Belgian version of Business Central covers three local tasks: applying and unapplying general ledger entries, creating financial journals for CODA bank statements, and exporting general ledger balances to ACCON Plus. It answers how-to questions about these Belgium-specific finance procedures."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:18.438Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a0c99a572731342fcdff4a54b516517a9f07f9dc28b8ce05882f9ebb58e40920
+  prompts:
+    hub-topic: 1
+  input_hash: 9780f6080ce495f612e0388e13ac2f40843d4348d72ba54270a31fde3cdca495
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
@@ -75,14 +76,32 @@ bc_forms:
   - 2000021
   - 2000022
 member_hash: a0c99a572731342fcdff4a54b516517a9f07f9dc28b8ce05882f9ebb58e40920
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Belgium > Core finance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the Belgian version of Business Central covers three local tasks: applying and unapplying general ledger entries, creating financial journals for CODA bank statements, and exporting general ledger balances to ACCON Plus. It answers how-to questions about these Belgium-specific finance procedures.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section holds Belgium-specific finance procedures in Business Central. It has no subtopics, only three standalone pages, each for a separate task.
+
+One page covers applying and unapplying general ledger entries. Another explains how to set up financial journals that record bank account transactions and reconcile starting and ending balances, which is used when handling CODA statements. The third describes the Link to Accon report, which exports general ledger account balances to a file that ACCON Plus can read for the annual income statement.
+
+Start with the page that matches your task. For bank statement processing, begin with the financial journals page. For year-end reporting, go to the Accon export page.
+
+## Key points
+
+- Apply and Unapply General Ledger Entries [BE] describes how to apply and unapply general ledger entries in the Belgian version.
+- Financial journals record bank account transactions and are used to handle CODA statements in Belgium.
+- Financial journal setup includes journal type selection, balancing account configuration, and starting and ending balances.
+- Financial journals calculate the difference between balances automatically.
+- The Link to Accon report exports general ledger account balances to a file compatible with ACCON Plus.
+- The Accon export supports reporting currency selection and period filtering.
+- The ACCON Plus export is meant for generating the annual income statement for Belgian accounting compliance.
 
 ## Learn pages
 

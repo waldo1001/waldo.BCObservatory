@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/autofill-preview",
+  "input_hash": "2534f1b6dd1be31dc62cb2064f6eb95a2e737f99b7eb6efeed487ccf07a293be",
+  "summary": "Autofill with Copilot (preview) in Business Central fills blank editable fields on card and document pages with suggestions that users review. It answers questions about how the feature works, where suggestions come from, and its responsible AI aspects such as permissions, security, and data residency.",
+  "overview": "Autofill with Copilot is a preview feature that suggests values for blank editable fields on card and document pages. Suggestions are based on Business Central data, AI generation, or web search results. Users see the suggestions, can check the details behind them, and accept or discard each one before saving.\n\nThe section has two pages. The first, \"Autofill fields with Copilot (preview)\", explains how the feature works and how to use it. The second, \"Responsible AI FAQ for Autofill (preview)\", covers how the feature handles permissions, security filtering, data residency, Bing Search, and user feedback.\n\nStart with the usage page to understand the review workflow. Then read the FAQ if you need to answer questions on data handling, web search, or governance.",
+  "key_points": [
+    "Autofill fills blank editable fields on card and document pages with suggestions.",
+    "Suggestions can come from Business Central data, AI generation, or web search results.",
+    "Users review each suggestion and accept or discard it before saving; manual review is required.",
+    "Suggestion details are available so users can see the basis for a value.",
+    "Web search uses Bing Search and is supported in version 26.4 and above.",
+    "The feature respects user permissions and security controls.",
+    "The Responsible AI FAQ covers data residency, security filtering, and user feedback.",
+    "The feature is in preview."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:27.258Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009183
+  }
+}

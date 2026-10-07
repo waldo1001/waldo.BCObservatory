@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/closing-years-and-periods
 type: topic
 title: Closing years and periods
-summary: "Learn section Business functionality > Finance > Closing years and periods: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Closing years and periods covers how to close accounting periods and fiscal years in Business Central. It answers questions about pre-closing checks, posting period controls, cost allocation, currency and VAT tasks, the Close Income Statement batch job, and posting the year-end closing entry.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: cf60b84306ed2d68b48915f1b1870b7482e350eab18c093898ebdfa68191cb3c
+  prompts:
+    hub-topic: 1
+  input_hash: a8f2ca61c16d85daa8b15c4117b3e9da2fd886862244e60559d37ff257268b51
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/year-close-account-periods
@@ -170,14 +171,33 @@ bc_forms:
   - 5629
   - 9401
 member_hash: cf60b84306ed2d68b48915f1b1870b7482e350eab18c093898ebdfa68191cb3c
-narrative: none
+narrative: generated
 ---
 
 # Closing years and periods
 
-> Learn section Business functionality > Finance > Closing years and periods: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Closing years and periods covers how to close accounting periods and fiscal years in Business Central. It answers questions about pre-closing checks, posting period controls, cost allocation, currency and VAT tasks, the Close Income Statement batch job, and posting the year-end closing entry.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section describes the year-end and period-end process in finance. It starts with the structure of accounting periods and fiscal years, then moves through preparation tasks: verifying accounts with pre-closing reports, allocating costs and income, updating currency exchange rates, and submitting VAT reports.
+
+The closing itself is covered in a few pages. "Closing the books" gives the overall sequence. Other pages cover closing accounting periods, running the Close Income Statement batch job, and posting the resulting year-end closing entry in a general journal. Posting periods can be restricted by date or by user.
+
+Start with "Close fiscal years and accounting periods" or "Closing the books" for the overall flow. Then use the task pages as needed: "Optional activities for closing periods" is a checklist, and the report overview pages help verify balances before closing.
+
+## Key points
+
+- Closing a fiscal year locks its accounting periods against modification, but posting to a closed year is still possible if adjustments are needed.
+- The Close Income Statement batch job transfers the year's result to the balance sheet and zeroes income statement accounts. It generates entries that you then review and post in a general journal.
+- Posting periods are controlled with Allow Posting From and Allow Posting To, using fixed dates or date formulas, with user-level overrides.
+- Pre-closing reports include detail trial balance reports for banks, customers, vendors, and consolidated companies.
+- Closing statement reports include trial balance, accounts receivable and payable aging, and budget comparisons.
+- Costs and income can be allocated in recurring general journals using quantity, percentage, or amount allocation keys.
+- Currency exchange rates can be updated manually or automatically through an external rate service, with adjustments for realized and unrealized gains and losses.
+- VAT reporting covers the EC Sales List and VAT Return reports, including setup, submission, test mode, and VAT settlement.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing
 type: topic
 title: Set up manufacturing
-summary: "Learn section Business functionality > Set up Business Central > Set up manufacturing: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution."
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:21.756Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 94b2e3b4505d82f34a89001123c34c9d423d9db69edc41a1bcd232e6109139ed
+  prompts:
+    hub-topic: 1
+  input_hash: 5e53096b5707ddd3ff25b43ac84c745c1a1e3595c34e0e5ca473cb23cd51851b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/production-configure-production-processes
@@ -216,14 +217,33 @@ bc_forms:
   - 99000920
   - 99001500
 member_hash: 94b2e3b4505d82f34a89001123c34c9d423d9db69edc41a1bcd232e6109139ed
-narrative: none
+narrative: generated
 ---
 
 # Set up manufacturing
 
-> Learn section Business functionality > Set up Business Central > Set up manufacturing: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+This section covers the master data and settings needed before production orders can be planned and run. It starts with the general manufacturing setup page, then moves to the resources (work centers, machine centers, shop calendars and work shifts) and the definitions of what is produced (production BOMs, routings, standard tasks).
+
+Further pages cover how production behaves: component flushing methods, lot size handling on routing lines and items, manufacturing batch units of measure, and production families that produce several items together from a shared process.
+
+A separate group of pages covers subcontracting: assigning work centers to vendors, setting subcontracting locations and transfer routes, and storing subcontractor prices. A practical order is to begin with "Configure manufacturing processes", then set up calendars and work centers, then BOMs and routings, and add the specialized topics as needed.
+
+## Key points
+
+- The manufacturing setup page holds parameters such as normal work hours, preset output quantity, consumption calculation, capacity unit of measure and cost calculation.
+- Shop calendars are built from work shifts, working days and holidays, and the work center and machine center calendars are then calculated from them.
+- Production BOMs support status and certification, versioning, scrap percentages, routing link codes, phantom BOMs and calculation formulas.
+- Routings define operations with setup and run time, and support serial and parallel operations and send-ahead quantity.
+- Flushing methods include manual, forward and back flushing by operation or entire order, and Pick + Forward, which control when consumption is posted.
+- Lot sizes on routing lines and items affect cost allocation, run time calculation and supply planning.
+- Subcontracting needs vendor locations, transfer routes (transfer-from, transfer-to, in-transit, direct transfer) and subcontractor prices by vendor, work center or standard task with minimum quantity and amount.
+- Batch units of measure let you produce in a different unit than the stocked unit, and production families group items for one family production order.
 
 ## Learn pages
 

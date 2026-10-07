@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/understand-business-central-online/environment-types
 type: topic
 title: Environment types
-summary: "Learn section Administration > Understand Business Central online > Environment types: 7 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Environment types in Business Central online: production, sandbox, preview, test and demo environments. It answers questions about which environment to use, how to create trials or partner sandboxes, how to preview major updates, and how quotas apply."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 77b8910ccbd9095c34727e3a0b5b16e9250215ba2facec88b923e08941cde388
+  prompts:
+    hub-topic: 1
+  input_hash: 8245c44315487475348d91410d04efb1be2bdc3e9f8b4cebd6f62adc6bde7f81
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements
@@ -100,14 +101,33 @@ bc_forms:
   - 2502
   - 20350
 member_hash: 77b8910ccbd9095c34727e3a0b5b16e9250215ba2facec88b923e08941cde388
-narrative: none
+narrative: generated
 ---
 
 # Environment types
 
-> Learn section Administration > Understand Business Central online > Environment types: 7 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Environment types in Business Central online: production, sandbox, preview, test and demo environments. It answers questions about which environment to use, how to create trials or partner sandboxes, how to preview major updates, and how quotas apply.
 
-Path: [Administration](../../administration.md) > [Understand Business Central online](../understand-business-central-online.md) > Environment types · tier official · system administration · no narrative yet
+Path: [Administration](../../administration.md) > [Understand Business Central online](../understand-business-central-online.md) > Environment types · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section describes the kinds of environments you can run in Business Central online and what each is for. Production and sandbox environments are the core pair, and the sandbox page covers partner sandboxes for lower-cost nonproduction use, with full premium functionality and storage and environment quotas that depend on licenses.
+
+Other pages cover specific purposes. Preview environments let you test major updates before release by creating or updating a sandbox to a preview version, during public preview or early access preview. The test environments page explains 30-day trials created via Partner Center and dedicated environments for resellers and partners who test or demonstrate functionality.
+
+The Demo environments subtopic goes further on demos. It compares an MDX demo environment, a prospect trial and a sandbox, and explains setup and enhancements such as Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations. Start with Production and Sandbox Environments, then go to the page that matches your goal.
+
+## Key points
+
+- Production and sandbox environments serve different uses in Business Central online.
+- Partner sandboxes offer a cost-effective option for nonproduction scenarios with full premium functionality.
+- Storage quota and environment quota are based on licenses.
+- Preview environments test major updates before release, in public preview or early access preview periods.
+- A preview is made by creating a sandbox or updating an existing one to a preview version, and feedback can be submitted.
+- Test environments can be 30-day trials created via Partner Center, or dedicated environments for resellers and partners.
+- Demo environments subtopic compares an MDX demo environment, a prospect trial and a sandbox.
+- Demo enhancements include Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations.
 
 ## Subtopics
 

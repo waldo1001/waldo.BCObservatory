@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/design-details/design-details-supply-planning
 type: topic
 title: "Design details: Supply planning"
-summary: "Learn section Business functionality > Design details > Design details: Supply planning: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Supply planning design details in Business Central: how the planning system balances supply and demand, applies reordering policies and planning parameters, and uses reservation, order tracking, action messaging, the planning assignment table and transfers. Answers how-it-works questions about planning logic."
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: bcfeaf5dbb15f9c040435588b66114616504378d5d23151346d7aa417b8b0583
+  prompts:
+    hub-topic: 1
+  input_hash: 541891c5133e2c3b992b5bd181008292dc9710241bcc012f320e3ee5b8ef3084
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-balancing-demand-and-supply
@@ -106,14 +107,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: bcfeaf5dbb15f9c040435588b66114616504378d5d23151346d7aa417b8b0583
-narrative: none
+narrative: generated
 ---
 
 # Design details: Supply planning
 
-> Learn section Business functionality > Design details > Design details: Supply planning: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Supply planning design details in Business Central: how the planning system balances supply and demand, applies reordering policies and planning parameters, and uses reservation, order tracking, action messaging, the planning assignment table and transfers. Answers how-it-works questions about planning logic.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Supply planning · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Supply planning · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+This section explains the logic behind Business Central supply planning. It describes the central concepts (demand-driven planning, planning parameters, dynamic order tracking, sequencing by low-level code, and warnings) and how the system balances supply orders against demand to meet inventory goals.
+
+The pages fit together in layers. The introductory Supply Planning page and the central concepts page give the overview. Planning parameters and reordering policies cover when and how much to reorder. Balancing supply and demand covers how the system prioritizes and matches orders. The planning assignment table, reservation and order tracking, and transfers pages cover the supporting mechanisms.
+
+Start with the Supply Planning page and the central concepts page. Then read planning parameters and reordering policies if you are configuring items. Read the balancing page if you need to understand why the planning system proposes a certain result.
+
+## Key points
+
+- Central concepts include demand-driven planning, planning parameters, dynamic order tracking, sequencing by low-level code, and emergency and exception warnings.
+- Four reordering policies are documented: Fixed Reorder Qty., Maximum Qty., Order, and Lot-for-Lot, monitored against reorder points.
+- Planning parameters cover reorder point, safety stock, time bucket, safety lead time, and rescheduling period.
+- Balancing supply and demand uses inventory profiles, demand prioritization, time buckets, and order tracking links.
+- The Planning Assignment table monitors demand and supply events to flag items that need recalculation for MPS or MRP.
+- Reservation, order tracking, and action messaging are interrelated systems that link demand and supply to keep the order network balanced.
+- Transfer orders act as dependent demand and supply across locations and are processed in sequence by transfer level code.
+- The central concepts page covers dynamic and optimized low-level code calculation, planning flexibility, and finite loading.
 
 ## Learn pages
 

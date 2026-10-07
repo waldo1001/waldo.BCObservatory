@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/spain
 type: topic
 title: Spain
-summary: "Learn section Business functionality > Local functionality > Spain: 42 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Spain local functionality in Business Central covers VAT declarations and SII, banking and payment exports, VERI*FACTU and Cartera, statutory finance reports, and general items such as due dates and corrective invoices. It answers setup and how-to questions for Spanish compliance.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:26.764Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7df37d76337ab65241c1d27ffce069ef9171e9547be54cbf24f3db1d2dda1da4
+  prompts:
+    hub-topic: 1
+  input_hash: a35ded2e98174ba151050971bd412207b906ea87507b21b955cf6b9fc4a5802a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments
@@ -403,14 +404,32 @@ bc_forms:
   - 7000048
   - 70000013
 member_hash: 7df37d76337ab65241c1d27ffce069ef9171e9547be54cbf24f3db1d2dda1da4
-narrative: none
+narrative: generated
 ---
 
 # Spain
 
-> Learn section Business functionality > Local functionality > Spain: 42 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Spain local functionality in Business Central covers VAT declarations and SII, banking and payment exports, VERI*FACTU and Cartera, statutory finance reports, and general items such as due dates and corrective invoices. It answers setup and how-to questions for Spanish compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Spain · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Spain · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Spain section groups the Spanish localization pages into five subtopics: VAT, Banking & payments, Electronic invoices, Core finance and General. It has no pages of its own, so all content sits in the subtopics.
+
+Start with the subtopic that matches your task. VAT covers Equivalence Charges, VAT statements, telematic export, SII setup and reports 340, 347 and 349. Banking & payments covers CCC bank codes, electronic payment setup and export formats such as AEB N34.1. Electronic invoices covers VERI*FACTU reporting and Cartera bills. Core finance covers ledger setup, official books and year-end closing. General covers due dates, corrective invoices, NACE codes and operation codes.
+
+Some topics touch more than one area. Report 340 appears in VAT, in Banking & payments (cash payments declaration) and in General (operation codes). SII appears in VAT and in Electronic invoices (invoice and credit memo types).
+
+## Key points
+
+- VAT (14 pages): Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and reports 340, 347 and 349.
+- Banking & payments (9 pages): CCC bank codes, bank account setup for electronic payments, AEB N34.1 and other export formats, voiding exports, payment days and non-payment periods.
+- Banking & payments also covers the cash payments declaration (340).
+- Electronic invoices (6 pages): VERI*FACTU reporting to AEAT in embedded mode or through B2Brouter.
+- Electronic invoices also covers SII invoice and credit memo types and Cartera modules for receivables and payables bills.
+- Core finance (8 pages): general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports.
+- General (5 pages): due date calculation under legal payment-delay limits, corrective invoices, NACE codes on company information, and operation codes for Report 340.
 
 ## Subtopics
 

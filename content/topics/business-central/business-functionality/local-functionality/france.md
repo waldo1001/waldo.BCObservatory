@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france
 type: topic
 title: France
-summary: "Learn section Business functionality > Local functionality > France: 32 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: France local functionality in Business Central covers VAT and audit reporting, banking and payments, e-invoicing, core finance and year-end, and fixed assets. It answers setup and how-to questions about the French localization.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:03.821Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e2f879ca9586234203966ff170eb4d4425185ac3377f0506dbfb3252050ac9e4
+  prompts:
+    hub-topic: 1
+  input_hash: c105d25b0050df7cf5bc24d51f49ba719e72f0f5143414f9daca067ff91d7001
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
@@ -300,14 +301,33 @@ bc_forms:
   - 10880
   - 10882
 member_hash: e2f879ca9586234203966ff170eb4d4425185ac3377f0506dbfb3252050ac9e4
-narrative: none
+narrative: generated
 ---
 
 # France
 
-> Learn section Business functionality > Local functionality > France: 32 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> France local functionality in Business Central covers VAT and audit reporting, banking and payments, e-invoicing, core finance and year-end, and fixed assets. It answers setup and how-to questions about the French localization.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The France section collects the features that Business Central adds for French legal and accounting needs. The landing page lists the main areas: VAT reporting, e-invoicing (UBL 2.1 and Factur-X), banking and payment management, core finance, sales invoicing and fixed assets. It also mentions audit export, general ledger export for tax audits, XML export of ledger entries, the Declaration of Trade in Goods, the service declaration DES and electronic invoicing. It lists 2026 release wave 2.
+
+Five subtopics hold the detail. VAT covers audit files, XML archiving and DEB. Banking and payments covers payment classes, statuses, steps, addresses and payment slips, including SEPA. E-invoicing covers enabling electronic invoices and the E-Reporting FR format. Core finance covers G/L entry application, posting periods and the fiscal year-end cycle. Fixed assets covers accelerated depreciation.
+
+Start with the subtopic that matches your task. For year-end or ledger work, go to Core finance. For tax audit files, go to VAT. For payment setup, go to Banking and payments.
+
+## Key points
+
+- VAT: export general ledger entries for tax audits, export them to XML for archiving, and set up Declaration of Trade in Goods (DEB) requirements.
+- Banking and payments: payment management uses payment classes, statuses, steps and addresses; payment slips can be created, posted, archived and exported, with SEPA covered for customer and vendor payments.
+- E-invoicing: enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and use the E-Reporting FR e-document format.
+- E-invoicing pages address the French e-invoicing reform, PDP delivery and tax authority reporting.
+- Core finance: apply and unapply G/L entries, manage posting periods, open, close and reopen periods and years, and close income statement accounts.
+- Core finance also includes French ledger reports.
+- Fixed assets: accelerated depreciation with separate tax and accounting depreciation books, their setup, and the Calculate Depreciation batch job.
+- The landing page references 2026 release wave 2 and also mentions the service declaration DES and sales invoicing.
 
 ## Subtopics
 

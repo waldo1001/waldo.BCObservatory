@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/sales",
+  "input_hash": "756bb349be1d98334fab8138a12f877e5bbdb0dd250915505077f5f7c0ef35d7",
+  "summary": "Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions.",
+  "overview": "The Sales section describes the day-to-day sales workflow. You register customers with a Customer Card, make quotes, convert them to orders or invoices, ship in full or in part, and post. After posting, you can correct or cancel invoices, process returns and credit memos, and track packages.",
+  "key_points": [
+    "Start with 'Overview of tasks to manage sales', which links to the detailed task guides.",
+    "Customer setup: create Customer Cards, use customer templates, manage credit limits and overdue warnings, and merge duplicates (needs the MERGE DUPLICATES permission set).",
+    "Order types: sales quotes, sales orders, blanket orders, drop shipments, special orders, and recurring sales lines with a batch job for invoices.",
+    "Shipping: the Shipping Advice field controls partial shipments; delivery dates use shipping time and warehouse handling time; ATP and CTP calculate order promising dates.",
+    "Invoicing: you can combine shipments on one invoice, set up and invoice prepayments, and enter external document numbers (not checked for uniqueness).",
+    "Posting and corrections: posting options include preview, post and send, and batch posting. The Cancel and Correct actions fix unpaid posted invoices before shipment is complete.",
+    "Returns: use sales return orders or credit memos, with replacement orders, restock charges, and item charges.",
+    "Subtopics: Sales analytics (61 pages) covers the Power BI Sales app and sales reports. Subscription billing (47 pages) covers recurring billing for contracts."
+  ],
+  "members_used": 24,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:32.958Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024013
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:09.155Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the narrative does not mention the 'Save Business Contacts to Microsoft Outlook' page, which syncs contacts to Outlook and Teams and is tagged 2026 release wave 1. Leaving it out is acceptable.",
+      "Minor: the narrative does not mention printing inventory picking lists from sales orders, which applies to companies without dedicated warehouse management.",
+      "Minor: the source page describes the Cancel action as automatically creating a reversing credit memo, and the Correct action as creating a new invoice and credit memo. The key point is accurate but leaves out this difference."
+    ],
+    "input_hash": "756bb349be1d98334fab8138a12f877e5bbdb0dd250915505077f5f7c0ef35d7",
+    "cost_usd": 0.0556072
+  }
+}

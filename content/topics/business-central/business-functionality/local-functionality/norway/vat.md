@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/norway/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Norway > VAT: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Norwegian VAT functionality in Business Central: VAT codes, entering one VAT code in journals, proportional VAT deduction, VAT reconciliation reporting, electronic VAT returns via ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:10.804Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b31724dbe326bd50c83557cca55662925d5d99ef82fcb45eda34f2628552cc31
+  prompts:
+    hub-topic: 1
+  input_hash: 403601c81a913af0f50e07160e08b9dbd271fa3680a355640adfdcc95805a152
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat
@@ -131,14 +132,32 @@ bc_forms:
   - 10697
   - 10698
 member_hash: b31724dbe326bd50c83557cca55662925d5d99ef82fcb45eda34f2628552cc31
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Norway > VAT: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Norwegian VAT functionality in Business Central: VAT codes, entering one VAT code in journals, proportional VAT deduction, VAT reconciliation reporting, electronic VAT returns via ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the local VAT features for Norway. The basics are the Norwegian VAT codes. Instead of filling in separate VAT business and product posting group fields, you select a single VAT Code. A related journal feature lets you post VAT using that one field, based on VAT Posting Setup.
+
+Other pages cover deduction and reporting. Proportional VAT lets you deduct only a percentage of purchase VAT when an asset is used for both deductible and non-deductible purposes. The percentage is set in VAT Posting Setup based on historical usage data. The VAT Reconciliation report shows base and VAT amounts by general ledger account and VAT type. Norwegian VAT reporting describes how to send VAT returns electronically to the tax authorities through ID-Porten, including authorization, VAT statement mapping and VAT period closure. The SAF-T page covers setting up, generating and exporting the Standard Audit File - Tax.
+
+Start with the VAT codes page if you are setting up VAT or using single-code journal entry. Otherwise go straight to the page for the task you need.
+
+## Key points
+
+- Norwegian VAT codes simplify setup by using one VAT Code field instead of separate VAT Bus. and VAT Prod. Posting Group fields.
+- Journals can post VAT with a single VAT Code field, based on VAT Posting Setup.
+- Proportional VAT uses the Calc. Prop. Deduction VAT setting and a Proportional Deduction VAT % in VAT Posting Setup, based on historical usage data.
+- Norwegian VAT reporting sends VAT returns electronically through ID-Porten. It covers OAuth 2.0 authorization, VAT statement mapping, VAT period closure and concessional rate configuration. The page references version 23.5.
+- The VAT Reconciliation report shows reconciliation settlement for base and VAT amounts by general ledger account and VAT type.
+- The SAF-T extension supports setup, generation and export, with chart of accounts mapping, VAT code mapping and dimension export control.
+- SAF-T versions 1.20 and 1.30 are supported starting in version 25.3, with options for parallel processing and split by date.
 
 ## Learn pages
 

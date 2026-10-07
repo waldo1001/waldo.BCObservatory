@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started/learn
 type: topic
 title: Learn
-summary: "Learn section Get started > Learn: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:31.898Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d8428fb996eae680e1964a7edaa9e14cbe448f92fe676dd2bdcfb920673b6cf4
+  prompts:
+    hub-topic: 1
+  input_hash: ce0282fe0d99bcbf2b47256193e1f14d99e37fa25f157d498d2b2265b2c4496f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-application-design
@@ -104,14 +105,31 @@ bc_forms:
   - 9027
   - 9030
 member_hash: d8428fb996eae680e1964a7edaa9e14cbe448f92fe676dd2bdcfb920673b6cf4
-narrative: none
+narrative: generated
 ---
 
 # Learn
 
-> Learn section Get started > Learn: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support.
 
-Path: [Get started](../get-started.md) > Learn · tier official · system none · no narrative yet
+Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Learn is the starting area for people new to Business Central or looking for background material. It combines a functional overview, hands-on practice scenarios, demo data, technical design notes, and partner-specific resources.
+
+Start with the business functionality overview to see which processes are supported: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Then practice with the business process walkthroughs, which use the CRONUS demonstration company. The Contoso Coffee demo data page offers a fictitious company for exploring manufacturing, warehousing, and service modules.
+
+For deeper technical questions, the application design details index points to articles on inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling. Partners have two more pages: resources covering readiness, releases, Copilot and agents, integrations, and migrations, plus Viva Engage communities for discussion with Microsoft experts.
+
+## Key points
+
+- Business functionality overview lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse, service.
+- Business process walkthroughs are step-by-step scenarios in the CRONUS demo company, such as sales campaigns, prepayments, approval workflows, project management, warehouse picking, and data export.
+- Contoso Coffee demo data is fictitious company data for learning manufacturing, warehousing, service, and common modules, with setup and configuration guidance.
+- Application design details index covers inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling.
+- Partner resources cover readiness programs, latest releases (2026 release wave 2, update 29.0), Copilot, Sales Order, Payables and Expense agents, Power Platform and Shopify integration, migrations, and marketplace apps.
+- Viva Engage groups let partners discuss technical topics, give product feedback, and follow announcements and best practices.
 
 ## Learn pages
 

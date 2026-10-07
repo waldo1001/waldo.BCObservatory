@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments",
+  "input_hash": "74534cf79b57bc8770d1ec3aa231619580f8dfabac751de7718c925540ecbf2f",
+  "summary": "Demo environments for Business Central: how to choose between an MDX demo environment, a prospect trial, and a sandbox, and how to set up and enhance each one. It answers questions about demo setup options, Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations.",
+  "overview": "This area helps partners and resellers prepare environments to demonstrate Business Central. It compares three approaches (MDX demo environment, prospect trial, and sandbox environment) based on demo goals, control requirements, and timeline.\n\nStart with the page on preparing demonstration environments to pick an approach. Then follow the matching setup page: one for MDX, which builds repeatable demos with Microsoft 365 apps and services in independent Azure tenants, and one for trial and sandbox options, which show Business Central in a prospect's own organization or in an isolated scenario within an existing tenant.\n\nA further page covers enhancements to demo environments, such as adding Contoso Coffee demo data, connectivity apps, Dynamics 365 Sales and Field Service integrations, and Dataverse connections.",
+  "key_points": [
+    "Three demo approaches are compared: MDX demo environment, prospect trial, and sandbox environment.",
+    "MDX creates repeatable demo environments showing Business Central with Microsoft 365 apps and services in independent Azure tenants.",
+    "MDX setup covers the premium user experience, Contoso Coffee Demo Data, connectivity apps, Dynamics 365 Sales Professional integration, Microsoft Edge profiles, and performance optimization.",
+    "Trial and sandbox options include prospect trial signup, trial extension, sandbox setup, and partner sandbox licenses.",
+    "Trials show Business Central in the prospect's own organization; sandboxes give isolated scenarios within existing tenants.",
+    "Demo environments can be enhanced with Contoso Coffee demo data, Dynamics 365 Sales and Field Service integrations, and a Dataverse connection.",
+    "Sandbox environments can be reset, as mentioned in the enhancement guidance.",
+    "The trial and sandbox page references February 2022."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:35.447Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012193
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:25.430Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'Sandbox environments can be reset' is a mild inference: the enhancement page lists 'sandbox environment' and 'environment reset' as separate features, without saying they are linked. A safer wording would be 'The enhancement guidance also covers sandbox environments and environment reset.'",
+      "Key point 'The trial and sandbox page references February 2022' is supported but tells an agent very little. It could be dropped or given context.",
+      "The summary says it covers how to 'set up and enhance each one'. The enhancement page applies to demo environments in general, not to each approach separately. This is a minor overreach."
+    ],
+    "input_hash": "74534cf79b57bc8770d1ec3aa231619580f8dfabac751de7718c925540ecbf2f",
+    "cost_usd": 0.028155200000000002
+  }
+}

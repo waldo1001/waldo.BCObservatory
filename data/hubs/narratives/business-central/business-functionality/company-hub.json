@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/company-hub",
+  "input_hash": "76d26feaef96d197e9e3889937c10f28411c5840ee47fe4240ed902b6dff6784",
+  "summary": "Company hub in Business Central is a landing page for working across multiple companies and environments. It covers adding companies through environment links, using the dashboard for financial overview and assigned tasks, and troubleshooting connection and refresh problems.",
+  "overview": "Company hub gives users who work in several Business Central companies or environments one place to see their work. The dashboard shows a financial overview with KPIs, the tasks assigned to the user, and a multi-company overview.\n\nThe three pages follow a natural order. Start with \"Add companies to your company hub\" to link companies and environments through environment links, test the connection, and reload companies. Then \"Manage work across multiple companies in the company hub\" explains the dashboard, task assignment, multi-company overview, and user permissions. \"Troubleshooting your company hub\" helps when a company does not connect or data looks out of date.",
+  "key_points": [
+    "Companies and environments are added to the company hub through environment links.",
+    "Connection testing and company reload are available when linking companies.",
+    "The company hub dashboard shows a multi-company overview with KPI tracking.",
+    "Users can see and manage the tasks assigned to them from the company hub.",
+    "The page on managing work across companies also covers user permissions.",
+    "Troubleshooting covers invalid URLs, offline environments, access restrictions, and data refresh lag.",
+    "The Check Errors action and connection testing help diagnose connection problems."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:55.863Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008563
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:09.299Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'User permissions affect which companies a user can access in the hub' goes beyond the sources. They only list 'user permissions' as a feature of the manage page and say nothing about permissions controlling company access. Reworded to stay within the sources.",
+      "The overview says the dashboard shows KPIs and tasks 'across all connected companies'. The sources mention a multi-company overview but do not say 'all connected companies'. Softened the wording.",
+      "Everything else is supported: environment links, connection testing, company reload, dashboard KPIs, assigned tasks, the Check Errors action, and the troubleshooting topics (invalid URLs, offline environments, access restrictions, refresh lag)."
+    ],
+    "input_hash": "76d26feaef96d197e9e3889937c10f28411c5840ee47fe4240ed902b6dff6784",
+    "cost_usd": 0.0320032
+  }
+}

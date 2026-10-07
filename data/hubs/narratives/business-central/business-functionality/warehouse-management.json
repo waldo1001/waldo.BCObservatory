@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/warehouse-management",
+  "input_hash": "475071cc475516e6ba9a6baaf50ee8838d06627a28e3e9f584f08ab29426e674",
+  "summary": "Warehouse management in Business Central covers inbound, outbound and internal warehouse processes, plus configuration options, bin and document concepts, and inventory and warehouse reporting. It answers questions about which warehouse setup or document applies, and about barcode printing.",
+  "overview": "Warehouse management groups the pages on handling inventory in a warehouse. The overview page \"Manage warehouse activities\" explains the configuration options, document types, bin types and workflows for receipt, picking, shipping and internal movements. It is the best place to start.\n\nThree subtopics follow the flow of goods: inbound (receiving, put-away, cross-docking), outbound (picking and shipping for sales orders, transfer orders, purchase returns and service orders) and internal (production, assembly and job components, moving items, counting and adjusting inventory). Each one distinguishes basic from advanced warehouse configurations, so check which setup you use before choosing a page, journal or document.\n\nThe reports and analytics page covers statistics on current and past inventory and warehouse activity, and printing of barcodes and QR codes.",
+  "key_points": [
+    "Start with 'Manage warehouse activities' for configuration options, document types, bin types and workflows.",
+    "Overview topics include bin management, directed put-away and pick, warehouse receipts and shipments, bin types and bin ranking.",
+    "Inbound covers warehouse receipts, inventory put-aways, warehouse put-aways and cross-docking, in basic and advanced setups.",
+    "Outbound covers four outbound methods, inventory picks, warehouse picks and shipments, and cross-docking for sales, transfer, purchase return and service orders.",
+    "Internal processes cover production, assembly and job components and output, moving items within and between locations, and counting and adjusting inventory.",
+    "Reports and analytics page covers barcode and QR code printing, with encoding of item GTIN, reference number, lot number and serial number.",
+    "Many pages differ between basic and advanced warehouse configurations, so confirm the setup first."
+  ],
+  "members_used": 2,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:09.607Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011848999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:25.040Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says each of the three subtopics distinguishes basic from advanced warehouse configurations. The inbound and internal summaries say this outright. The outbound summary only implies it through inventory picks versus warehouse picks. This is a small overreach.",
+      "The outbound key point reads as if cross-docking applies to sales, transfer, purchase return and service orders. The source lists those order types for picking and shipping in general, not for cross-docking specifically. The wording is slightly loose.",
+      "One omission: the inbound and outbound subtopics both cover finding assigned warehouse work, and the narrative does not mention it.",
+      "'It is the best place to start' is an editorial judgment, but it is reasonable for an overview page."
+    ],
+    "input_hash": "475071cc475516e6ba9a6baaf50ee8838d06627a28e3e9f584f08ab29426e674",
+    "cost_usd": 0.028547200000000002
+  }
+}

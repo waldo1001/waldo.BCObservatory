@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security
 type: topic
 title: Handling security
-summary: "Learn section Development > Programming in the AL language > Handling security: 22 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:04.639Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
+  prompts:
+    hub-topic: 1
+  input_hash: 7cbd7d65e022ca1ffdcce8c79e260f915fecd3d37d099aaaabbcee41b2e41d39
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get
@@ -185,7 +186,8 @@ links:
   localizations: []
   videos:
     - video/tDcT_51ktqo
-  posts: []
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/
   guidelines: []
 learn_toc_path:
   - Development
@@ -200,18 +202,37 @@ coverage:
   learn: 22
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
-narrative: none
+narrative: generated
 ---
 
 # Handling security
 
-> Learn section Development > Programming in the AL language > Handling security: 22 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers how AL developers secure Business Central apps. It starts with a general guidance page on security best practices: a security development lifecycle, a layered security model, user session and web service authentication, auditing, encryption, entitlements, and permission sets.
+
+Two subtopics go deeper. The permission sets and entitlements subtopic (14 pages) covers defining and extending permission set and entitlement objects, object permissions, inherent permissions, XML export, upgrading from legacy permissions, and permission telemetry. The Azure Key Vault subtopic (5 pages) covers setting up app key vaults for online and on-premises deployments, retrieving secrets in AL, and monitoring secret access with telemetry.
+
+Two own pages cover storing and handling sensitive values in code: Isolated Storage keeps keys and values private to an extension, and the SecretText data type stops credentials from being exposed during debugging. Start with the security overview, then go to the subtopic or page that matches your task.
+
+## Key points
+
+- The overview page covers authentication, authorization, auditing, encryption, and secrets management for AL developers.
+- Permission sets and entitlements are defined as AL objects; permission sets can be composed and extended, and permissions can be exported to XML.
+- Guidance includes setting object permissions, inherent permissions, and upgrading from legacy permissions.
+- Permission telemetry can be analyzed to understand permission use.
+- App key vaults can be set up for both online and on-premises deployments, and secrets are retrieved in AL code.
+- Secret access from Key Vault can be monitored with telemetry.
+- Isolated Storage offers extension-isolated storage with Set, Get, Contains, Delete, and SetEncrypted methods and a DataScope option type.
+- SecretText prevents credential exposure during debugging by restricting assignments to debuggable types, and supports secure operations through HttpClient and SecretStrSubstNo; related features include the Unwrap method and the NonDebuggable attribute.
 
 ## Subtopics
 
@@ -228,6 +249,7 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

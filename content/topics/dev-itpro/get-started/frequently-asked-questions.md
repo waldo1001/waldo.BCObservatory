@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started/frequently-asked-questions
 type: topic
 title: Frequently asked questions
-summary: "Learn section Get started > Frequently asked questions: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Frequently asked questions for Business Central cover AppSource app publishing, testing, updating and validation, AL development, library apps, migrating to Business Central online, and the Windows client deprecation. It answers practical how-and-why questions for partners, developers and admins.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:56.385Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0cb16945db4edf4ef8e9868d3a87178fbd6436402c2337d45d2438e7020d25b3
+  prompts:
+    hub-topic: 1
+  input_hash: 2423d8ce004014d7adc94a9ac05f6d5824d1634255b3defa7dbe4c9e85509ee1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries
@@ -112,14 +113,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 0cb16945db4edf4ef8e9868d3a87178fbd6436402c2337d45d2438e7020d25b3
-narrative: none
+narrative: generated
 ---
 
 # Frequently asked questions
 
-> Learn section Get started > Frequently asked questions: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Frequently asked questions for Business Central cover AppSource app publishing, testing, updating and validation, AL development, library apps, migrating to Business Central online, and the Windows client deprecation. It answers practical how-and-why questions for partners, developers and admins.
 
-Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · no narrative yet
+Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section is a set of FAQ pages with no subtopics. Most pages target partners and developers who build and publish apps to the Marketplace: submitting and managing an offer, testing, updating apps, marketing validation, library and dependency apps, and the app and extension lifecycle.
+
+Other pages cover a general FAQ for developing in AL, questions about migrating to Business Central online, and the discontinuation of the Windows client.
+
+Start with the page that matches your task. For a first Marketplace release, read the offer submission FAQ, then the testing and marketing validation FAQs. For later releases, use the updating and lifecycle FAQs. For moving from on-premises to the cloud, use the migration FAQ.
+
+## Key points
+
+- Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.
+- Offer management FAQ covers the Partner Center flow: Review and publish, the Go Live button, validation queuing and technical validation.
+- Testing FAQ describes expected coverage: online-only testing, version testing, country testing, upgrade testing, automated and manual tests, and Docker.
+- Update FAQs cover version numbering, preserving app identity, compatibility configuration, automatic updates, admin center management and the hotfix process.
+- Lifecycle FAQ covers upgrade codeunits, code signing, force updates during major releases and recommended update frequency.
+- Marketing validation FAQ requires statements on supported editions, countries/regions and languages, plus help pages, product naming and marketplace badge rules.
+- Migration FAQ covers system requirements, data limits, SQL connection strings, self-hosted integration runtime, the intelligent cloud permission set, data compression and replication.
+- Windows client FAQ explains the move to web, mobile and Windows 10 desktop clients starting with 2019 release wave 2 in October 2019.
 
 ## Learn pages
 

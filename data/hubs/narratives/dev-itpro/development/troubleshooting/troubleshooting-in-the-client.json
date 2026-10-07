@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client",
+  "input_hash": "61dfa9dcc108824aadbc8543902a374a3b112371df72c89c80f117528100fb44",
+  "summary": "Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.",
+  "overview": "This section collects tools and pages that help developers, administrators, and advanced users diagnose problems from within the Business Central client. They fall into a few groups: diagnosing errors and performance, examining data and the database, and adjusting what users see and can do.",
+  "key_points": [
+    "Understanding the error dialog explains the Copy Details section, AL call stacks, and the Application Insights session ID for investigating user errors.",
+    "Performance Profiler subtopic: record and analyze business process performance, read call trees, schedule profiling for specific users and activity types, and share or download profiles.",
+    "Inspecting pages shows page design, elements, and data sources, with Visual Studio Code integration and permission control.",
+    "View Database Locks shows a snapshot of current locks to troubleshoot transaction blocking, and View table information shows record counts, data and index sizes, and compression types.",
+    "Missing indexes uses SQL Server Dynamic Management Views to suggest equality, inequality, and include columns.",
+    "Analyzing report data with Excel and XML exports report datasets, metadata, and filter information as data-only Excel or XML.",
+    "Events discoverability uses the Event Recorder to capture events during a scenario and produce AL snippets for subscribers.",
+    "Personalizing the workspace, customizing pages for roles, defining granular permissions with security filters, and fixing on-premises mobile app issues (icon fonts, device date, client type errors) are also covered."
+  ],
+  "members_used": 11,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:31.571Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015039
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:25.371Z",
+    "verdict": "fix",
+    "issues": [
+      "Version labels in parentheses on the page inspection point (2023 release wave 2) and the missing indexes point (2025 release wave 1) suggest the features were introduced in those releases. The summaries only list these as page versions, so I removed the labels.",
+      "The key points left out the personalization, role customization, permissions and on-premises mobile app pages, though the summary covers them. I added one point for them and merged the database locks and table information points to stay within 8."
+    ],
+    "input_hash": "61dfa9dcc108824aadbc8543902a374a3b112371df72c89c80f117528100fb44",
+    "cost_usd": 0.0486712
+  }
+}

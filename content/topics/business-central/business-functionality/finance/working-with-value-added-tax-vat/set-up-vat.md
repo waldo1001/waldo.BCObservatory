@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat
 type: topic
 title: Set up VAT
-summary: "Learn section Business functionality > Finance > Working with Value Added Tax (VAT) > Set up VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Set up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. It answers configuration questions about how VAT is calculated, posted to G/L accounts and reported."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 94f612a607b772e51fef0a2024b7ed4c2011932bdb893e4447ce884ed595506e
+  prompts:
+    hub-topic: 1
+  input_hash: 8c8b80aa54741b14328fdc341f62c1d741c2eebe1c991493ec2d0e480e410857
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
@@ -104,14 +105,32 @@ bc_forms:
   - 748
   - 1877
 member_hash: 94f612a607b772e51fef0a2024b7ed4c2011932bdb893e4447ce884ed595506e
-narrative: none
+narrative: generated
 ---
 
 # Set up VAT
 
-> Learn section Business functionality > Finance > Working with Value Added Tax (VAT) > Set up VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Set up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. It answers configuration questions about how VAT is calculated, posted to G/L accounts and reported.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Working with Value Added Tax (VAT)](../working-with-value-added-tax-vat.md) > Set up VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Working with Value Added Tax (VAT)](../working-with-value-added-tax-vat.md) > Set up VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the configuration needed before VAT can be calculated, posted and reported. The base page, "Set up value-added tax", explains VAT calculations, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT, based on customers, vendors, items and purchase or sale types. "Posting group setup" covers how general, specific and tax posting groups map entities to general ledger accounts.
+
+The other pages handle specific cases. "Set up a VAT statement" defines templates and names used to calculate settlement amounts and reconcile VAT entries with G/L accounts. "Set up nondeductible VAT" covers VAT that a purchaser can't deduct. "Set up unrealized value added tax" covers cash-based VAT accounting with temporary G/L accounts.
+
+Start with "Set up value-added tax" and "Posting group setup" for the core configuration. Then add the VAT statement, nondeductible VAT or unrealized VAT pages as your requirements call for them.
+
+## Key points
+
+- Set up value-added tax covers VAT rates, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT (page lists version 23.1).
+- Posting group setup covers general, specific and tax posting groups, alternative and multiple posting groups, and G/L account validation, with examples and troubleshooting.
+- VAT statements use templates and names, with VAT entry, account and row totaling, and can be previewed to check settlement amounts.
+- VAT statements handle unrealized VAT and help reconcile VAT entries with general ledger accounts.
+- Nondeductible VAT is enabled in setup. You choose whether it applies to item, fixed asset and job cost, and set accounts and percentages in VAT Posting Setup.
+- Nondeductible VAT options include Show Non-Ded. VAT In Lines and Allow Non-Deductible VAT.
+- Unrealized VAT supports cash-based methods. It uses temporary G/L accounts until payment is posted, with percentage and payment allocation methods, VAT transfer and foreign currency support.
 
 ## Learn pages
 

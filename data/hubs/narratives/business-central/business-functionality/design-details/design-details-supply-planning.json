@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/design-details/design-details-supply-planning",
+  "input_hash": "541891c5133e2c3b992b5bd181008292dc9710241bcc012f320e3ee5b8ef3084",
+  "summary": "Supply planning design details in Business Central: how the planning system balances supply and demand, applies reordering policies and planning parameters, and uses reservation, order tracking, action messaging, the planning assignment table and transfers. Answers how-it-works questions about planning logic.",
+  "overview": "This section explains the logic behind Business Central supply planning. It describes the central concepts (demand-driven planning, planning parameters, dynamic order tracking, sequencing by low-level code, and warnings) and how the system balances supply orders against demand to meet inventory goals.\n\nThe pages fit together in layers. The introductory Supply Planning page and the central concepts page give the overview. Planning parameters and reordering policies cover when and how much to reorder. Balancing supply and demand covers how the system prioritizes and matches orders. The planning assignment table, reservation and order tracking, and transfers pages cover the supporting mechanisms.\n\nStart with the Supply Planning page and the central concepts page. Then read planning parameters and reordering policies if you are configuring items. Read the balancing page if you need to understand why the planning system proposes a certain result.",
+  "key_points": [
+    "Central concepts include demand-driven planning, planning parameters, dynamic order tracking, sequencing by low-level code, and emergency and exception warnings.",
+    "Four reordering policies are documented: Fixed Reorder Qty., Maximum Qty., Order, and Lot-for-Lot, monitored against reorder points.",
+    "Planning parameters cover reorder point, safety stock, time bucket, safety lead time, and rescheduling period.",
+    "Balancing supply and demand uses inventory profiles, demand prioritization, time buckets, and order tracking links.",
+    "The Planning Assignment table monitors demand and supply events to flag items that need recalculation for MPS or MRP.",
+    "Reservation, order tracking, and action messaging are interrelated systems that link demand and supply to keep the order network balanced.",
+    "Transfer orders act as dependent demand and supply across locations and are processed in sequence by transfer level code.",
+    "The central concepts page covers dynamic and optimized low-level code calculation, planning flexibility, and finite loading."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:16.649Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014707000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:00.486Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 says the four reordering policies are 'monitored against reorder points'. That could suggest every policy uses a reorder point. The source only says the planning system monitors inventory levels against reorder points. A clearer wording would be: 'Four reordering policies are documented (Fixed Reorder Qty., Maximum Qty., Order, Lot-for-Lot), along with how the planning system monitors inventory against reorder points.' This is minor and does not block approval."
+    ],
+    "input_hash": "541891c5133e2c3b992b5bd181008292dc9710241bcc012f320e3ee5b8ef3084",
+    "cost_usd": 0.032803200000000005
+  }
+}

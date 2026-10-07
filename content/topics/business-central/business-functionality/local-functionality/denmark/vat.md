@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/denmark/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Denmark > VAT: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Danish VAT functionality in Business Central: printing the VAT Reconciliation report, showing VAT registration numbers with country codes in Intrastat, and VAT-VIES reporting with the EC Sales List. It answers setup and reporting questions for Danish VAT compliance."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:22.281Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3b76a61af335002ba5f59a6996684f4d3b7cf1c36aabdfb93a077607aa52a307
+  prompts:
+    hub-topic: 1
+  input_hash: 6aa04557ccccab7eba036d806cf58d04ba8f71c45556cfb66f940d35dcf68508
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports
@@ -68,14 +69,31 @@ coverage:
 bc_forms:
   - 328
 member_hash: 3b76a61af335002ba5f59a6996684f4d3b7cf1c36aabdfb93a077607aa52a307
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Denmark > VAT: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Danish VAT functionality in Business Central: printing the VAT Reconciliation report, showing VAT registration numbers with country codes in Intrastat, and VAT-VIES reporting with the EC Sales List. It answers setup and reporting questions for Danish VAT compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers three Denmark-specific VAT tasks. Each has its own page and there are no subtopics, so the pages can be read in any order.
+
+The VAT Reconciliation report helps you reconcile VAT settlement by showing general ledger account balances grouped by VAT type. The Intrastat page explains how to control whether VAT registration numbers in the Intrastat file include country codes. The VAT-VIES page covers declaring EU trade to the Danish tax authority with the EC Sales List report.
+
+Start with the VAT-VIES page if you trade within the EU, since it covers the registration number setup on customer and vendor cards. Go to the Intrastat page if you need to change how VAT numbers appear in the Intrastat file.
+
+## Key points
+
+- The Danish VAT Reconciliation report shows general ledger account balances grouped by VAT type.
+- The VAT Reconciliation report can show transaction details and include non-VAT transactions.
+- The report is used to reconcile VAT settlement.
+- Intrastat VAT numbers can include country codes through the Customer VAT No. on File and Vendor VAT No. on File options in Intrastat Setup.
+- VAT-VIES reporting means submitting VAT declarations for EU trade using the EC Sales List report.
+- For VAT-VIES, set plain VAT registration numbers on customer and vendor cards to meet Danish tax authority requirements.
 
 ## Learn pages
 

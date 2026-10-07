@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/administration/understand-business-central-online/environment-types",
+  "input_hash": "8245c44315487475348d91410d04efb1be2bdc3e9f8b4cebd6f62adc6bde7f81",
+  "summary": "Environment types in Business Central online: production, sandbox, preview, test and demo environments. It answers questions about which environment to use, how to create trials or partner sandboxes, how to preview major updates, and how quotas apply.",
+  "overview": "This section describes the kinds of environments you can run in Business Central online and what each is for. Production and sandbox environments are the core pair, and the sandbox page covers partner sandboxes for lower-cost nonproduction use, with full premium functionality and storage and environment quotas that depend on licenses.\n\nOther pages cover specific purposes. Preview environments let you test major updates before release by creating or updating a sandbox to a preview version, during public preview or early access preview. The test environments page explains 30-day trials created via Partner Center and dedicated environments for resellers and partners who test or demonstrate functionality.\n\nThe Demo environments subtopic goes further on demos. It compares an MDX demo environment, a prospect trial and a sandbox, and explains setup and enhancements such as Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations. Start with Production and Sandbox Environments, then go to the page that matches your goal.",
+  "key_points": [
+    "Production and sandbox environments serve different uses in Business Central online.",
+    "Partner sandboxes offer a cost-effective option for nonproduction scenarios with full premium functionality.",
+    "Storage quota and environment quota are based on licenses.",
+    "Preview environments test major updates before release, in public preview or early access preview periods.",
+    "A preview is made by creating a sandbox or updating an existing one to a preview version, and feedback can be submitted.",
+    "Test environments can be 30-day trials created via Partner Center, or dedicated environments for resellers and partners.",
+    "Demo environments subtopic compares an MDX demo environment, a prospect trial and a sandbox.",
+    "Demo enhancements include Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations."
+  ],
+  "members_used": 3,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:56.386Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011303
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:21.770Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary says the hub answers how to create partner sandboxes; the production and sandbox page summary covers partner sandboxes and their quotas, but does not explicitly say it covers how to create them. This is a minor stretch.",
+      "Overview's 'lower-cost' paraphrases 'cost-effective'; acceptable."
+    ],
+    "input_hash": "8245c44315487475348d91410d04efb1be2bdc3e9f8b4cebd6f62adc6bde7f81",
+    "cost_usd": 0.0289432
+  }
+}

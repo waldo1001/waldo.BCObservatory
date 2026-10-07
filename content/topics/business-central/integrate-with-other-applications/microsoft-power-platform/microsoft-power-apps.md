@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps
 type: topic
 title: Microsoft Power Apps
-summary: "Learn section Integrate with other applications > Microsoft Power Platform > Microsoft Power Apps: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Microsoft Power Apps integration with Business Central: how to build apps on Business Central data, including custom UI, AI Builder, and augmented/mixed-reality options. It answers questions about connecting Power Apps to a Business Central environment and building canvas apps."
 tier: official
 language: en
 system: integration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4e86e262e5ca34c93b22565c88264b7ae267174c16110401fd7d5b9a0200ed90
+  prompts:
+    hub-topic: 1
+  input_hash: 9018341bdabdfe8592b71d14085b5799f17e1cab0bca26ea37435a7c1883a41f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview
@@ -58,14 +59,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4e86e262e5ca34c93b22565c88264b7ae267174c16110401fd7d5b9a0200ed90
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Power Apps
 
-> Learn section Integrate with other applications > Microsoft Power Platform > Microsoft Power Apps: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft Power Apps integration with Business Central: how to build apps on Business Central data, including custom UI, AI Builder, and augmented/mixed-reality options. It answers questions about connecting Power Apps to a Business Central environment and building canvas apps.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · no narrative yet
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section explains how Business Central and Power Apps work together. Power Apps lets you build flexible solutions on top of Business Central data, with a custom user interface, AI Builder, and augmented or mixed-reality technologies. The summaries also mention mobile app and Teams integration as part of the picture.
+
+The section has two pages. The first, "Business Central and Power Apps", is the overview of what the integration makes possible. The second, "Use your data to create an app", is the practical guide. It shows how to use Business Central as a data source in Power Apps through the Power Apps connector, using exposed API tables and custom APIs, to build a canvas app.
+
+Start with the overview page to see the scenarios. Then use the data guide when you are ready to link Power Apps to your Business Central environment.
+
+## Key points
+
+- Power Apps can build solutions on Business Central data with a custom UI.
+- AI Builder and augmented/mixed-reality technologies can be combined with Business Central data.
+- Mobile app and Teams integration are listed among the covered features.
+- Business Central is connected to Power Apps as a data source through the Power Apps connector.
+- Data is exposed through API tables and custom APIs.
+- The data guide focuses on building a canvas app.
+- There are no subtopics, only two pages: an overview and a how-to guide.
 
 ## Learn pages
 

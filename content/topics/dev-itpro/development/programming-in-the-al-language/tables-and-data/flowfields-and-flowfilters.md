@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters
 type: topic
 title: FlowFields and FlowFilters
-summary: "Learn section Development > Programming in the AL language > Tables and data > FlowFields and FlowFilters: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: FlowFields and FlowFilters in AL are virtual fields that calculate and display values dynamically without storing data. The section answers questions about how to create them, which FlowField types exist, how CalcFormula works, and how FlowFilters limit calculations at runtime.
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fe61db885bb95f25bb8854d322aa17292fec5a821b950638783a42e1191c684c
+  prompts:
+    hub-topic: 1
+  input_hash: e91dde415ac14a2df3b6274345d3906803ebd54adc7762309d7c99bc2f8fc077
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-flowfields-and-flowfilters
@@ -69,14 +70,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: fe61db885bb95f25bb8854d322aa17292fec5a821b950638783a42e1191c684c
-narrative: none
+narrative: generated
 ---
 
 # FlowFields and FlowFilters
 
-> Learn section Development > Programming in the AL language > Tables and data > FlowFields and FlowFilters: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> FlowFields and FlowFilters in AL are virtual fields that calculate and display values dynamically without storing data. The section answers questions about how to create them, which FlowField types exist, how CalcFormula works, and how FlowFilters limit calculations at runtime.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+FlowFields are table fields whose values come from a CalcFormula property instead of stored data. Results are calculated on demand, so they show up immediately without physical storage in the database. FlowFilters are companion fields that let users set ranges or filters at runtime, which narrow what a FlowField calculates, for example summing customer entries for one month.
+
+The section has three pages. "Creating FlowFields and FlowFilters" covers the practical setup with the FieldClass and CalcFormula properties. "FlowFields overview" describes the available calculation types and performance topics such as SIFT optimization and calculating only visible FlowFields. "FlowFilters overview" explains how user-level filter values limit those calculations.
+
+Start with the creation page if you need to define a field, then read the two overviews to pick the right FlowField type and to understand how filters interact with it.
+
+## Key points
+
+- FlowFields and FlowFilters are virtual fields: they calculate and display results dynamically and do not store data physically.
+- A FlowField gets its value from the CalcFormula property, and the FieldClass property marks the field as a FlowField or FlowFilter.
+- Seven FlowField types are available: Sum, Average, Exist, Count, Min, Max, and Lookup.
+- FlowFields show results immediately and help performance; SIFT optimization and calculating only visible FlowFields are covered in the overview (version 26.0).
+- FlowFilters let users set ranges and filters at runtime to limit FlowField calculations, such as summing customer entries for a specific month.
+- FlowFilter values are not stored in the database.
 
 ## Learn pages
 

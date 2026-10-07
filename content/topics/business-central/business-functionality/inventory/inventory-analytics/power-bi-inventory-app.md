@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app
 type: topic
 title: Power BI inventory app
-summary: "Learn section Business functionality > Inventory > Inventory analytics > Power BI inventory app: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analytics. It answers questions about stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:42.869Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3f4510aa29e4151f1a8d9a1ccca88276c4d0778cfc07d326a363a623b55c7a89
+  prompts:
+    hub-topic: 1
+  input_hash: 545d5cc5ad99a65dc6d04e05e294f625174ebc419d7fb530540b202a630bae43
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -186,14 +187,33 @@ bc_forms:
   - 37110
   - 37111
 member_hash: 3f4510aa29e4151f1a8d9a1ccca88276c4d0778cfc07d326a363a623b55c7a89
-narrative: none
+narrative: generated
 ---
 
 # Power BI inventory app
 
-> Learn section Business functionality > Inventory > Inventory analytics > Power BI inventory app: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analytics. It answers questions about stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+The Power BI inventory app gives leadership, managers, and warehouse staff data-driven views of inventory levels, stock movement, bin contents, and demand fulfillment. The app page lists the included reports, and each report has its own page describing its purpose, audience, and KPIs.
+
+The reports fall into a few groups. Overview and location views: Inventory Overview, Inventory by Item, Inventory by Location, and Purchase and Sales Quantity. Supply and demand views: Item Availability, Gross Requirement, and Scheduled Receipt. Warehouse and tracking views: Bin Contents, Bin Contents by Item Tracking, Inventory by Lot No., and Inventory by Serial No. Analytical views: ABC Analysis and Inventory Forecasting.
+
+Start with the app page to see the full set of reports, then the Inventory Overview report. Use the KPIs and measures page for formulas and data sources, and the semantic model page to understand the star schema behind the data.
+
+## Key points
+
+- The app page covers inventory overview, inventory by location, bin contents, gross requirement, scheduled receipt, and ABC analysis.
+- Inventory Overview and Item Availability report KPIs such as Inventory (Quantity), Scheduled Receipt, Planned Order Receipt, Gross Requirement, and Projected Available Balance.
+- Item Availability helps find items where demand exceeds supply, to avoid delayed orders.
+- Gross Requirement analyzes outbound demand from sales, production components, service, and assembly components. Scheduled Receipt covers inbound from purchase, production, assembly, and transfers.
+- Bin Contents shows stock per bin, including available, pick, put-away, and adjustment quantities. The item tracking version adds lot and serial information in a matrix.
+- Inventory by Lot No. includes an Expired Inventory KPI. Inventory by Serial No. tracks serial-tracked items and slow-moving stock.
+- ABC Analysis ranks items into categories A, B, and C by sales amount, with an ABC Analysis Setup page.
+- Inventory Forecasting predicts the next three months from historical data, with seasonality, location-based forecasts, and customizable parameters.
 
 ## Learn pages
 

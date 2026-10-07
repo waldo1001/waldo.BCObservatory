@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/run-and-print-reports
 type: topic
 title: Run and print reports
-summary: "Learn section Get started > Get productive in Business Central > Run and print reports: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Running, previewing, printing and scheduling reports, and running batch jobs and XMLports, in Business Central. It answers questions about saving report output to PDF, Word or Excel, saved settings for reports and batch jobs, default printers, and test reports before posting sales or purchase documents.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:43.476Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 555b48f8d719ea2bc0a825f53bc67f1b26c286ccc4c1ad26c9828f09656af507
+  prompts:
+    hub-topic: 1
+  input_hash: f79b44e3786b93106f1e5c6518cce08ba8150d0f8b5c941656dd64928bfbc0bc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
@@ -90,14 +91,32 @@ bc_forms:
   - 2754
   - 8900
 member_hash: 555b48f8d719ea2bc0a825f53bc67f1b26c286ccc4c1ad26c9828f09656af507
-narrative: none
+narrative: generated
 ---
 
 # Run and print reports
 
-> Learn section Get started > Get productive in Business Central > Run and print reports: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Running, previewing, printing and scheduling reports, and running batch jobs and XMLports, in Business Central. It answers questions about saving report output to PDF, Word or Excel, saved settings for reports and batch jobs, default printers, and test reports before posting sales or purchase documents.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers the everyday work of getting information out of Business Central and processing data in bulk. The main page explains how to run a report, set filters, preview it, print it, schedule it, save it to a file, pick a layout, and change language and format settings.
+
+Related pages build on that. Saved settings let you keep and share report and batch job options so you do not re-enter filters each time. The default printer page explains how to set a printer for all print jobs or for specific reports. A separate page covers running batch jobs and XMLports, such as exchange rate adjustment and calculation tasks. The test report page shows how to check a sales or purchase document before posting.
+
+Start with "Run and print reports in Business Central" for the basics. Then use the saved settings and default printer pages to cut repeated setup, and the batch job and test report pages for the matching tasks.
+
+## Key points
+
+- Reports can be run, previewed, printed, scheduled, or saved as PDF, Word or Excel files.
+- Report options include filters, layout selection, and language and format settings.
+- Saved settings for reports and batch jobs can be created, modified and shared with other users.
+- Default printers can be set for all print jobs or for specific reports, at user or global level.
+- Printer options include cloud printers, Universal Print, email printers and PDF output.
+- Batch jobs process data in batches, for example adjusting exchange rates, periodic accounting activities, calculating finance charges and calculating unit prices.
+- The Test Report action on a sales or purchase document finds errors or missing information that would block posting.
 
 ## Learn pages
 

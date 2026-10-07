@@ -2,19 +2,20 @@
 id: topic/dev-itpro/deprecated-features/application
 type: topic
 title: Application
-summary: "Learn section Deprecated features > Application: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:55.310Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b0d188bef2ec4b982683cee15984c007f5db76f7cc7b1e396f7d06f03bdb0f1a
+  prompts:
+    hub-topic: 1
+  input_hash: 01f172f206cee2acbd111c94386e3091bb1f0e90d915876755d7aa2097d71b05
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1
@@ -79,14 +80,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: b0d188bef2ec4b982683cee15984c007f5db76f7cc7b1e396f7d06f03bdb0f1a
-narrative: none
+narrative: generated
 ---
 
 # Application
 
-> Learn section Deprecated features > Application: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.
 
-Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · no narrative yet
+Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section lists what has been deprecated or removed in the Business Central application. One page covers deprecated W1 features by release wave, from 2020 release wave 1 through 2025 release wave 2, with items such as API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights, Excel reports and configuration packages. Another page covers the table and field objects permanently deleted in 2025 release wave 1 (v26).
+
+The deleted objects page lists more than 150 obsolete tables and fields in the Base App and localized versions (W1, AT, APAC, BE, CH, CZ), tied to the version 25.0 upgrade. The goal is better database performance, a more unified codebase across regions and less technical debt.
+
+Start with the deprecated features page to check whether a feature you rely on is affected and in which wave. Then use the subtopic with uptake examples for practical guidance on moving off the North American bank reconciliation and deposits, user groups, and legacy views.
+
+## Key points
+
+- Deprecated W1 features are listed by release wave, from 2020 release wave 1 to 2025 release wave 2.
+- Removals named include API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages.
+- Excel reports deprecation and moved subcontracting objects are also covered.
+- 2025 release wave 1 (v26) permanently deletes over 150 obsolete tables and fields from the Base App and first-party apps.
+- Deleted objects are listed for W1, AT, APAC, BE, CH and CZ, relating to the version 25.0 upgrade.
+- Deleted objects are in the Obsolete::Removed state; the aims are database performance, unified base apps and less technical debt.
+- Uptake examples cover North American bank reconciliation and deposits removal, user groups to permission sets or security groups, and legacy views to modern list views.
 
 ## Subtopics
 

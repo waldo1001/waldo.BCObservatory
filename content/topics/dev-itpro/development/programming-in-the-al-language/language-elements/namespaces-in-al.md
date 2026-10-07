@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al
 type: topic
 title: Namespaces in AL
-summary: "Learn section Development > Programming in the AL language > Language elements > Namespaces in AL: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Namespaces in AL cover how AL code is grouped into logical units to avoid naming conflicts and allow object name reuse. The section answers questions about namespace declaration, using directives, nested namespaces, scope resolution, and how to adopt namespaces in existing code with tooling.
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
+  prompts:
+    hub-topic: 1
+  input_hash: 759e663b81a6fc83e5de1e58c6dbf25748aa355c9ded8af559924ccaaa59666c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-structure
@@ -63,14 +64,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
-narrative: none
+narrative: generated
 ---
 
 # Namespaces in AL
 
-> Learn section Development > Programming in the AL language > Language elements > Namespaces in AL: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Namespaces in AL cover how AL code is grouped into logical units to avoid naming conflicts and allow object name reuse. The section answers questions about namespace declaration, using directives, nested namespaces, scope resolution, and how to adopt namespaces in existing code with tooling.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Namespaces in AL · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Namespaces in AL · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Namespaces in AL organize code into logical groups, prevent naming conflicts, and let the same object name be reused in different contexts. The concept page explains the core elements: declaring a namespace, the using directive, nested namespaces, and the scoping rules that resolve names.
+
+The adoption page is for teams moving existing AL code to namespaces step by step. It describes automated code actions, namespace template resolution, sibling file analysis, a PowerShell script for adding namespaces in bulk, and sorting of using statements. It also covers fully qualified object references, which are supported from Business Central 2026 release wave 1.
+
+Start with "Namespaces in AL" for the concepts and scoping rules. Then read "Adopting namespaces in AL" when you need to apply them to an existing codebase.
+
+## Key points
+
+- Namespaces group code logically and prevent naming conflicts.
+- Object names can be reused across different namespace contexts under defined scoping rules.
+- Core language elements: namespace declaration, using directive, nested namespaces, scope resolution.
+- Adoption can be progressive, not all at once.
+- Automated code actions add namespaces, using namespace template resolution and sibling file analysis.
+- A PowerShell script can add namespaces to many files in bulk.
+- Using statements can be sorted automatically.
+- Fully qualified object references are supported from Business Central 2026 release wave 1.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-receivables
 type: topic
 title: Manage receivables
-summary: "Learn section Business functionality > Finance > Manage receivables: 19 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:23.051Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3989473c0bf19f87942835a665db5dda6f603b03603990545818d65d4ca94c8a
+  prompts:
+    hub-topic: 1
+  input_hash: c358b2322609b48b0cd8a586702cea076a36973435f8334986ce702f4f07930a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
@@ -264,14 +265,33 @@ bc_forms:
   - 36992
   - 36993
 member_hash: 3989473c0bf19f87942835a665db5dda6f603b03603990545818d65d4ca94c8a
-narrative: none
+narrative: generated
 ---
 
 # Manage receivables
 
-> Learn section Business functionality > Finance > Manage receivables: 19 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section covers the receivables cycle. Payments can be applied in several ways: the Payment Reconciliation Journal for bank statements and feeds, Payment Registration for unpaid sales documents, or the Cash Receipt Journal and customer ledger entries for manual application. A subtopic covers automatic payment application, matching rules, Text-to-Account mapping and bank reconciliation.
+
+Other pages cover collection and risk: statements, reminders, finance charge memos, Copilot for Finance in Outlook, late payment prediction, and blocking customers. Further pages cover payment tolerances, SEPA Direct Debit, netting balances for a company that is both customer and vendor, analytics, sales tax, and Intrastat reporting.
+
+Start with "Overview of tasks to manage receivables" to choose the right payment method. Then go to the page for that task, such as the reconciliation subtopic for bank-based matching or "Collect outstanding balances" for overdue amounts.
+
+## Key points
+
+- Payment application options: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal or customer ledger entries.
+- The reconciliation subtopic covers importing bank statements or feeds, automatic matching to open entries, matching rules, and Text-to-Account mapping for recurring payments.
+- Collection tools: Customer Statement report, Reminders, Finance Charge Memos with Finance Charge Terms, Copilot for Finance in Outlook, and Dispute Status.
+- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period for discounts and blocking per customer or vendor.
+- The Late Payment Prediction extension uses machine learning, shows confidence levels, and can use Microsoft models or custom Azure-based models.
+- SEPA Direct Debit collects payments in EUR through export formats, mandates, and collection entries that export an XML file to the bank.
+- Customers can be blocked for shipments, invoices, or all transactions, for example when insolvent.
+- Sales tax in the default version is supported by Microsoft only in the United States and Canada; Intrastat extended capabilities start in 2022 release wave 2.
 
 ## Subtopics
 

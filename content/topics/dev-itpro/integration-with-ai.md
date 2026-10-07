@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration-with-ai
 type: topic
 title: Integration with AI
-summary: "Learn section Integration with AI: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integration with AI in Business Central covers how partners and developers build AI features: Copilot extensions in AL, machine learning APIs, Model Context Protocol (MCP) servers, and custom agents (preview). It answers setup, design, connection and responsible-use questions."
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:54.518Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c2dd5f9cf5ebc4993d1fb12616a73bd1c730dd902c12bbed7966eba02503f218
+  prompts:
+    hub-topic: 1
+  input_hash: 3a0af613e330cc71126eec7ae602eb55a12ab29b3551357628e2f618098fd781
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -309,7 +310,8 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
-  posts: []
+  posts:
+    - post/demiliani-com/12036
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -324,21 +326,39 @@ coverage:
   learn: 56
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 8350
   - 8351
   - 8359
 member_hash: c2dd5f9cf5ebc4993d1fb12616a73bd1c730dd902c12bbed7966eba02503f218
-narrative: none
+narrative: generated
 ---
 
 # Integration with AI
 
-> Learn section Integration with AI: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Integration with AI in Business Central covers how partners and developers build AI features: Copilot extensions in AL, machine learning APIs, Model Context Protocol (MCP) servers, and custom agents (preview). It answers setup, design, connection and responsible-use questions.
 
-Path: Integration with AI · tier official · system copilot · no narrative yet
+Path: Integration with AI · tier official · system copilot · narrative reviewed by Opus
+
+## Overview
+
+This area groups four ways to bring AI into Business Central. Developer tools for Copilot cover generative AI features written in AL, including the System.AI module, the PromptDialog page type and Azure OpenAI setup. The machine learning APIs cover the Forecasting (Time Series) and Prediction APIs.
+
+The Model Context Protocol pages describe the Business Central MCP Server and the AL MCP Server, and how to connect them from hosts such as VS Code and Copilot Studio. The agents (preview) pages explain how to design, create, configure, run and code custom agents with the AI development toolkit in sandboxes.
+
+Start with the Copilot developer tools if you are building generative AI features in AL. Choose the machine learning APIs for forecasting or prediction tasks. Go to the MCP pages to expose Business Central to external AI hosts. Use the agents pages for custom agents that work on tasks.
+
+## Key points
+
+- Copilot developer tools: what counts as a Copilot extension, the System.AI module, the PromptDialog page type, Azure OpenAI setup, Business Central AI resources, Help preparation and a transparency note.
+- Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, plus a transparency note on capabilities, limits and responsible AI.
+- Business Central MCP Server: overview, configuration, API tools, dynamic tool mode and data query tools.
+- MCP connection options: VS Code, Copilot Studio and non-Microsoft hosts, with access-control guidance.
+- AL MCP Server: supports AL development tools.
+- Agents (preview): design, create, configure, run, iterate and code custom agents with the AI development toolkit in sandboxes.
+- Agent topics include instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
 
 ## Subtopics
 
@@ -351,6 +371,7 @@ Path: Integration with AI · tier official · system copilot · no narrative yet
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Why not start improving Business Central APIs definitions for supporting AI?](../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

@@ -2,20 +2,21 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data/service
 type: topic
 title: Service
-summary: "Learn section Get started > Learn > Contoso Coffee demo data > Service: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Contoso Coffee demo data for Service Management in Business Central. It covers the sample resources, skills, service items and loaner items, plus two walkthroughs: service orders and service contracts for service items."
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:50.830Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 02fe8a9ee4571c85f68ff1dd27f0f53cbb1dbbb93a4be2835eac65f74fc6a300
+  prompts:
+    hub-topic: 1
+  input_hash: b7aff871941dcd262988c8558400e5f946b243b903324971d8565843d23c3a71
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro
@@ -67,14 +68,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 02fe8a9ee4571c85f68ff1dd27f0f53cbb1dbbb93a4be2835eac65f74fc6a300
-narrative: none
+narrative: generated
 ---
 
 # Service
 
-> Learn section Get started > Learn > Contoso Coffee demo data > Service: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Contoso Coffee demo data for Service Management in Business Central. It covers the sample resources, skills, service items and loaner items, plus two walkthroughs: service orders and service contracts for service items.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Service · tier official · system service · no narrative yet
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Service · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+This section describes the Service Management part of the Contoso Coffee demo data. The demo data includes resources with skills, service items, and loaner items. You can use it to try the service module without building your own data.
+
+The introduction page explains what the demo data contains and how the service module is configured. Two walkthroughs follow. One shows service orders for service items: creating the order, handling a loaner item, registering repair work, and posting the service invoice. The other shows service contracts for regular maintenance: creating service items and contracts, then service orders, resource allocation, time entries, and posting.
+
+Start with the introduction, then pick the walkthrough that matches the scenario you want to see: repair work (service orders) or recurring maintenance (service contracts).
+
+## Key points
+
+- Demo data includes resources with skills, service items, and loaner items.
+- The introduction page covers service module configuration and demo data creation.
+- The service order walkthrough covers creating orders, managing loaner items, the item worksheet, and repair status tracking.
+- The service order walkthrough ends with posting service invoices and viewing service ledger entries.
+- The service contract walkthrough covers creating service items, contract templates, and contracts.
+- The service contract walkthrough also covers resource allocation, time entry, service invoicing, and service order posting.
+- Both walkthroughs use the Contoso Coffee scenario.
 
 ## Learn pages
 

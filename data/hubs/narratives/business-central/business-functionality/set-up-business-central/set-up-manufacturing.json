@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+  "input_hash": "5e53096b5707ddd3ff25b43ac84c745c1a1e3595c34e0e5ca473cb23cd51851b",
+  "summary": "Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution.",
+  "overview": "This section covers the master data and settings needed before production orders can be planned and run. It starts with the general manufacturing setup page, then moves to the resources (work centers, machine centers, shop calendars and work shifts) and the definitions of what is produced (production BOMs, routings, standard tasks).\n\nFurther pages cover how production behaves: component flushing methods, lot size handling on routing lines and items, manufacturing batch units of measure, and production families that produce several items together from a shared process.\n\nA separate group of pages covers subcontracting: assigning work centers to vendors, setting subcontracting locations and transfer routes, and storing subcontractor prices. A practical order is to begin with \"Configure manufacturing processes\", then set up calendars and work centers, then BOMs and routings, and add the specialized topics as needed.",
+  "key_points": [
+    "The manufacturing setup page holds parameters such as normal work hours, preset output quantity, consumption calculation, capacity unit of measure and cost calculation.",
+    "Shop calendars are built from work shifts, working days and holidays, and the work center and machine center calendars are then calculated from them.",
+    "Production BOMs support status and certification, versioning, scrap percentages, routing link codes, phantom BOMs and calculation formulas.",
+    "Routings define operations with setup and run time, and support serial and parallel operations and send-ahead quantity.",
+    "Flushing methods include manual, forward and back flushing by operation or entire order, and Pick + Forward, which control when consumption is posted.",
+    "Lot sizes on routing lines and items affect cost allocation, run time calculation and supply planning.",
+    "Subcontracting needs vendor locations, transfer routes (transfer-from, transfer-to, in-transit, direct transfer) and subcontractor prices by vendor, work center or standard task with minimum quantity and amount.",
+    "Batch units of measure let you produce in a different unit than the stocked unit, and production families group items for one family production order."
+  ],
+  "members_used": 13,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:00.433Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018081
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:21.756Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the summary's topic list leaves out standard tasks, although they have their own page and appear in the overview.",
+      "Minor: no key point covers work center and machine center cost setup (direct unit cost, indirect cost, overhead rate) or capacity-constrained resources for finite capacity scheduling.",
+      "Minor: the standard tasks page (tools, personnel, descriptions, adding tasks to routings, printing routing sheets) gets no key point."
+    ],
+    "input_hash": "5e53096b5707ddd3ff25b43ac84c745c1a1e3595c34e0e5ca473cb23cd51851b",
+    "cost_usd": 0.0480632
+  }
+}

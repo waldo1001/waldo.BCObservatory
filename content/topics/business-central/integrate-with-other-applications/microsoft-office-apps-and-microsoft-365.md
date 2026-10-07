@@ -2,19 +2,20 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
 type: topic
 title: Microsoft Office apps and Microsoft 365
-summary: "Learn section Integrate with other applications > Microsoft Office apps and Microsoft 365: 24 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integration of Business Central with Microsoft Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers how-to, setup and administration questions about exchanging data, sharing files and records, email and contacts, and report or document layouts."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:41.871Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 88aa9829e9139b478da110d5b21bd9d8d55751c9b0039b25816320366e1be77a
+  prompts:
+    hub-topic: 1
+  input_hash: 9f1c66d639be14d787139c8f01a775b52404dbeea8ec8abdff90bfc96dd602e8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
@@ -228,14 +229,33 @@ bc_forms:
   - 9660
   - 9666
 member_hash: 88aa9829e9139b478da110d5b21bd9d8d55751c9b0039b25816320366e1be77a
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Office apps and Microsoft 365
 
-> Learn section Integrate with other applications > Microsoft Office apps and Microsoft 365: 24 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Integration of Business Central with Microsoft Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers how-to, setup and administration questions about exchanging data, sharing files and records, email and contacts, and report or document layouts.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Office apps and Microsoft 365 · tier official · system none · no narrative yet
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Office apps and Microsoft 365 · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This area covers how Business Central works with the Microsoft 365 apps people already use. An introductory page gives the overall picture: Excel export and import, OneDrive document storage, Outlook email and contact management, Teams sharing, and Word document templates.
+
+Each app has its own subtopic. Excel covers viewing and editing data in Excel, the Excel add-in setup for on-premises, importing data from Excel or configuration packages, and Excel report layouts. OneDrive covers opening, sharing and saving files, plus admin setup for online and on-premises. Outlook covers deploying the add-in, saving contacts to Outlook and Teams, and email setup without Outlook. Teams covers installing the app, searching contacts, sharing records as cards, adding tabs, company settings, and administrator tasks such as licensing and deployment. Word covers report layouts, the XML Mapping pane, and Word templates for bulk communications.
+
+Start with the introductory page to find the right app, then open that app's subtopic. Administrators should look at the setup and deployment pages in the Excel, OneDrive, Outlook and Teams subtopics.
+
+## Key points
+
+- Excel: view and edit Business Central data in Excel, import data from Excel or configuration packages, and build Excel report layouts.
+- Excel add-in setup is documented for on-premises deployments.
+- OneDrive: open and share files in OneDrive for Business and save Excel workbooks and report files, with admin setup for online and on-premises.
+- Outlook: deploy the Outlook add-in, save Business Central contacts to Outlook and Teams, and set up email when Outlook is not used.
+- Teams: install the Business Central app, search contacts, share records and page links as interactive cards, add Business Central tabs, and change company settings.
+- Teams administrator management covers licensing and deployment.
+- Word: design report layouts with the Business Central add-in and map data fields in the XML Mapping pane.
+- Word templates support bulk communications with customers, vendors and contacts.
 
 ## Subtopics
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Germany > VAT: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "VAT functionality in the German version of Business Central: setting up and creating VAT reports (ELMA5 export), correcting submitted reports, declaring VAT-VIES, and configuring VAT and Intrastat report selections. It answers setup, submission and correction questions for German VAT reporting."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:54.451Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 38c5e1704eb87593fffe75e235e9659e89c2e6feafca00cd447bc45f7f7a2dd2
+  prompts:
+    hub-topic: 1
+  input_hash: ed20e3f7498e04eb300cb3cb041a30bdeef4933ebea7393cf0ac5b4a04e7d8ab
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports
@@ -99,14 +100,32 @@ bc_forms:
   - 11028
   - 26101
 member_hash: 38c5e1704eb87593fffe75e235e9659e89c2e6feafca00cd447bc45f7f7a2dd2
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Germany > VAT: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> VAT functionality in the German version of Business Central: setting up and creating VAT reports (ELMA5 export), correcting submitted reports, declaring VAT-VIES, and configuring VAT and Intrastat report selections. It answers setup, submission and correction questions for German VAT reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers VAT reporting for Germany. It includes local reports such as VAT Statement Germany, Sales VAT Advance Notifications and VAT Statement Schedule, and export to the ELSTER portal. Separate pages cover the ELMA5-based VAT report workflow, VAT-VIES declarations for EU sales, and report selection setup for VAT and Intrastat.
+
+A practical order is to start with the overview page, VAT Reporting in the German version. Then configure VAT report setup (numbering series, permission to modify submitted reports, ZIVIT information) and the report selections. After that, create, release, export and mark VAT reports as submitted. If a report needs adjusting or deleting, use the correction page.
+
+VAT-VIES declarations and Intrastat setup are handled on their own pages. Intrastat needs a submission channel, either IDEV or eSTATISTIK.CORE.
+
+## Key points
+
+- VAT reports are created for the ELMA5 format, then released, exported and marked as submitted.
+- VAT report setup covers numbering series, whether submitted reports can be modified, exporting cancellation lines, and ZIVIT information.
+- Corrective VAT reports use cancellation and correction line types, with the Suggest Lines and Correct Lines actions.
+- VAT-VIES declarations for EU sales can be monthly, bi-monthly or quarterly depending on sales volume, with corrected notifications and migration to monthly reporting.
+- Local reports include VAT Statement Germany, Sales VAT Adv. Not. Acc. Proof and VAT Statement Schedule, with ELSTER export.
+- VAT and Intrastat report selections are set up in Report Selection pages, with XML and ASCII formats and material numbers for Intrastat forms.
+- Intrastat submission channels are IDEV or eSTATISTIK.CORE.
 
 ## Learn pages
 

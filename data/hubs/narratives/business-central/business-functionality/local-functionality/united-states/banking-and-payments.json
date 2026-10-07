@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-states/banking-and-payments",
+  "input_hash": "8c6a8082f4c0faef42f4f1411c3925afe486aad9f2eae1cdfa1bea0fe3ba3b0c",
+  "summary": "Banking and payments in the US version of Business Central: creating bank deposits, paying vendors by exporting payments with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU), and reconciling bank accounts. It answers how-to questions about these three tasks.",
+  "overview": "This section collects three pages on banking tasks under the United States local functionality of Business Central. They cover recording deposits, exporting vendor payments to a bank, and reconciling bank accounts.\\n\\nThe payment page explains payment export. Payment information is exported in SEPA Credit Transfer format (EU) or through the AMC Banking 365 Fundamentals extension (US), so banks can process it electronically. The reconciliation page notes that the US version uses the standard bank reconciliation process. Deprecated North American-specific features were moved to the standard version in 2023 release wave 2.\\n\\nUse the deposits page for bank deposits and the payment export page when you set up electronic vendor payments. Use the reconciliation page for bank reconciliation. It points to the standard process.",
+  "key_points": [
+    "Deposits can be created in the US version to handle bank deposits.",
+    "Vendor payments can be exported in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.",
+    "Payment export covers payment file export, bank data conversion, credit transfer registration tracking and payment export history.",
+    "Bank account reconciliation in the US version follows the standard bank reconciliation process.",
+    "Deprecated North American-specific reconciliation features moved to the standard version in 2023 release wave 2.",
+    "Reconciliation topics include deposit management, bank statement reconciliation, posting and test reports."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:24.404Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009782999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:44.116Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview calls all three pages US-specific, but the payment page also covers SEPA Credit Transfer, which its title marks as EU.",
+      "The advice to start with the reconciliation page 'if you are unsure which process applies' isn't supported. That page only covers bank reconciliation, and nothing suggests it is a general entry point. The reading guidance has been changed to match each page to its task.",
+      "Key point 5 says the deprecated features were reconciliation features. The source says 'North American-specific features' on the reconciliation page, so this reading is reasonable and was kept."
+    ],
+    "input_hash": "8c6a8082f4c0faef42f4f1411c3925afe486aad9f2eae1cdfa1bea0fe3ba3b0c",
+    "cost_usd": 0.030943200000000004
+  }
+}

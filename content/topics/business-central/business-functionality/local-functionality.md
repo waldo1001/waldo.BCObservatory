@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality
 type: topic
 title: Local functionality
-summary: "Learn section Business functionality > Local functionality: 603 Microsoft Learn pages in 22 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Local functionality in Business Central: the localization strategy, rules for building Validated Localization apps, how to submit regulatory alerts, and country subtopics for 22 countries. It answers questions on country-specific tax, banking, e-invoicing and statutory reporting setup."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:13:55.119Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: baa61a8700650377f8129c275019d2c49c0a8f552a8d9d7eaa332987cf8e2b82
+  prompts:
+    hub-topic: 1
+  input_hash: d617df755fae4ea6a7a65694771dd10f11c62e2c26b184e161df2d79b6fba52f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
@@ -811,14 +812,33 @@ bc_forms:
   - 32000006
   - 70000013
 member_hash: baa61a8700650377f8129c275019d2c49c0a8f552a8d9d7eaa332987cf8e2b82
-narrative: none
+narrative: generated
 ---
 
 # Local functionality
 
-> Learn section Business functionality > Local functionality: 603 Microsoft Learn pages in 22 subtopics. Index of what Learn documents here, linked to Learn.
+> Local functionality in Business Central: the localization strategy, rules for building Validated Localization apps, how to submit regulatory alerts, and country subtopics for 22 countries. It answers questions on country-specific tax, banking, e-invoicing and statutory reporting setup.
 
-Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers country-specific features that adapt Business Central to local law and business practice. Three own pages set the frame: the localization strategy (country-specific features and regulatory compliance across 20+ supported countries and regions), guidelines for developing Validated Localization apps, and how to submit regulatory alerts.
+
+Most of the content sits in per-country subtopics: Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Iceland, India, Italy, Mexico, Netherlands, New Zealand, Norway, Russia, Spain, Sweden, Switzerland, United Kingdom and United States. Each one groups setup and how-to pages, typically on VAT or sales tax, banking and payments, e-invoicing, audit exports and core finance.
+
+Start with the strategy page for context, then go to your country's subtopic. Use the validated apps page if you build a localization app, and the regulatory alerts page to tell Microsoft about legislation changes.
+
+## Key points
+
+- Strategy page describes country-specific features and regulatory compliance for 20+ supported countries and regions.
+- Validated Localization apps must meet functional and technical standards, covering regulatory requirements, national standards, language translation, demo data and functional documentation.
+- Regulatory alerts are submitted through Microsoft Dynamics Lifecycle Services, with an alert description, law enforcement date and filing deadline.
+- Largest country areas are India (87 pages, GST, TDS, TCS, Tax Engine), Czech Republic (60, Core and Advanced Localization Packs), Norway (42) and Spain (42).
+- E-invoicing coverage includes Peppol PINT A-NZ (Australia, New Zealand), XRechnung and ZUGFeRD (Germany), OIOUBL (Denmark), EHF (Norway) and CFDI (Mexico).
+- Tax reporting examples: BAS (Australia), Making Tax Digital (UK), SII and VERI*FACTU (Spain), SAF-T (Denmark, Norway), DIOT (Mexico).
+- Banking and payment formats vary by country, such as SEPA, CODA, FIK, ESR, LSV+ and QR-bills.
+- Iceland notes a W1 core app migration from version 24.0.
 
 ## Subtopics
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: "Learn section Business functionality > Purchasing: 62 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and cancellations. It answers how-to questions on posting, matching, correcting, and approving purchase documents, handling electronic invoices, blanket orders, date calculation, and the payment practices report. A subtopic covers purchasing analytics.
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:46.677Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f767ef510965e02cd52807b6bf86243117fa8c329c2e9db1f023c99d155d6896
+  prompts:
+    hub-topic: 1
+  input_hash: 9def9d5fe895da9d15dacdf55ca2e39d95fb1f125dd7982c20fe63ece395c4b1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -428,14 +429,33 @@ bc_forms:
   - 37117
   - 37118
 member_hash: f767ef510965e02cd52807b6bf86243117fa8c329c2e9db1f023c99d155d6896
-narrative: none
+narrative: generated
 ---
 
 # Purchasing
 
-> Learn section Business functionality > Purchasing: 62 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and cancellations. It answers how-to questions on posting, matching, correcting, and approving purchase documents, handling electronic invoices, blanket orders, date calculation, and the payment practices report. A subtopic covers purchasing analytics.
 
-Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section describes how to manage company purchases in Business Central. It starts with an overview of purchasing tasks, then covers the document flow: purchase quotes converted to orders, purchase invoices and orders posted to update inventory and accounts payable, and returns or cancellations through credit memos or return orders.
+
+Other pages cover supporting tasks: combining receipts or order lines on one invoice, matching invoice drafts to orders, receiving PEPPOL and OCR electronic documents, recurring purchase lines, external document numbers, blanket orders, approval workflows, and date calculation from lead times. Some pages deal with shared records, such as merging duplicate vendors and saving contacts to Outlook. Reporting is covered by the Payment practices report and the Purchasing analytics subtopic.
+
+Start with the overview page, then go to "Record purchases with purchase invoices" for the core posting flow. Use the analytics subtopic when the question is about choosing a report or tool for spend, vendor, or payables analysis.
+
+## Key points
+
+- Unpaid posted purchase invoices can be corrected or cancelled by creating a corrective credit memo, which keeps the audit trail.
+- Purchase quotes convert to purchase orders; blanket orders cover long-term agreements with deliveries over time.
+- Get Receipt Lines and Get Order Lines combine multiple receipts or order lines on one vendor invoice.
+- Incoming purchase invoice drafts can be matched to purchase orders and receipts, with order-match warnings and quantity and unit of measure checks.
+- PEPPOL and OCR electronic invoices and credit memos can be converted to purchase documents using text-to-account mapping.
+- Returns are processed with purchase credit memos or return orders, with exact cost reversing options.
+- Purchase approval workflows use approvers, amount limits, and notifications.
+- Merging duplicate vendor or customer records requires the MERGE DUPLICATES permission set.
 
 ## Subtopics
 

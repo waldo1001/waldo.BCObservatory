@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/company-hub
 type: topic
 title: Company hub
-summary: "Learn section Business functionality > Company hub: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Company hub in Business Central is a landing page for working across multiple companies and environments. It covers adding companies through environment links, using the dashboard for financial overview and assigned tasks, and troubleshooting connection and refresh problems.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 98544335c85ccbc9658bd676f1103b3bf0f8589879af1dd977134f66888f9516
+  prompts:
+    hub-topic: 1
+  input_hash: 76d26feaef96d197e9e3889937c10f28411c5840ee47fe4240ed902b6dff6784
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company
@@ -70,14 +71,30 @@ bc_forms:
   - 1165
   - 1166
 member_hash: 98544335c85ccbc9658bd676f1103b3bf0f8589879af1dd977134f66888f9516
-narrative: none
+narrative: generated
 ---
 
 # Company hub
 
-> Learn section Business functionality > Company hub: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Company hub in Business Central is a landing page for working across multiple companies and environments. It covers adding companies through environment links, using the dashboard for financial overview and assigned tasks, and troubleshooting connection and refresh problems.
 
-Path: [Business functionality](../business-functionality.md) > Company hub · tier official · system administration · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Company hub · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+Company hub gives users who work in several Business Central companies or environments one place to see their work. The dashboard shows a financial overview with KPIs, the tasks assigned to the user, and a multi-company overview.
+
+The three pages follow a natural order. Start with "Add companies to your company hub" to link companies and environments through environment links, test the connection, and reload companies. Then "Manage work across multiple companies in the company hub" explains the dashboard, task assignment, multi-company overview, and user permissions. "Troubleshooting your company hub" helps when a company does not connect or data looks out of date.
+
+## Key points
+
+- Companies and environments are added to the company hub through environment links.
+- Connection testing and company reload are available when linking companies.
+- The company hub dashboard shows a multi-company overview with KPI tracking.
+- Users can see and manage the tasks assigned to them from the company hub.
+- The page on managing work across companies also covers user permissions.
+- Troubleshooting covers invalid URLs, offline environments, access restrictions, and data refresh lag.
+- The Check Errors action and connection testing help diagnose connection problems.
 
 ## Learn pages
 

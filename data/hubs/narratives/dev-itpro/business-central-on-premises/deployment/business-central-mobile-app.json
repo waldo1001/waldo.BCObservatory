@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/deployment/business-central-mobile-app",
+  "input_hash": "7049dfe3a764da28dbfd221ca8f1c8238b35f7260b0908aca8cdeb4ddb1e7c2c",
+  "summary": "The Business Central mobile app section for on-premises deployments covers what the app is, how to install it on iOS, Android and Windows devices, how to use HTTPS and certificates, and how to troubleshoot common problems. It answers setup, security and error-resolution questions.",
+  "overview": "The Business Central mobile app gives tablet and phone users a touch-optimized interface to their data. It suits portable access and light data entry, and it does not replace the web client. The section covers the on-premises case, where the web server must be configured for the app to connect.\n\nStart with the introduction page to see what the app offers. Then use the installation page, which covers iOS, Android and the Windows 10 app, SSL configuration and navsettings.json setup. The HTTPS and certificates page explains secure connections. The troubleshooting page covers problems found after setup.",
+  "key_points": [
+    "The app offers tablet and phone interfaces with touch design and a role center, aimed at portable access and light data entry.",
+    "It does not replace the web client.",
+    "Installation for on-premises deployments is described for iOS, Android and Windows 10 devices.",
+    "On-premises installation needs web server configuration, including SSL configuration and navsettings.json setup.",
+    "The installation page mentions 2021 release wave 1 and 2 (versions 18 and 19).",
+    "HTTPS and certificates secure the connection. Self-signed certificates are recommended only for testing, never for production.",
+    "Troubleshooting covers icon font loading, device date configuration issues and client type errors."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:34.773Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009819
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:27.874Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point matching release waves to versions 18 and 19 is correct (2021 release wave 1 is version 18, wave 2 is version 19), but the page metadata only lists the four values. It never pairs them or says what part they play on the page, and the point is of limited use to an agent.",
+      "The overview says the troubleshooting page covers 'problems found after setup'. That is a mild inference: the source only says it helps resolve issues when using the app on-premises.",
+      "The overview leaves out that the app is aimed at small and medium-sized business users. That is acceptable, just less complete."
+    ],
+    "input_hash": "7049dfe3a764da28dbfd221ca8f1c8238b35f7260b0908aca8cdeb4ddb1e7c2c",
+    "cost_usd": 0.029967200000000003
+  }
+}

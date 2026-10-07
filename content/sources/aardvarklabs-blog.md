@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 35 posts in the knowledge base, 2026-02-06 to 2026-10-02, mostly about development, copilot, integration."
+summary: "Aardvark Labs (Marcel Chabot): 77 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:01:30.439Z"
+  at: "2026-10-07T01:54:03.703Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5f9260b0cee2dcc642e9613788edb3b55ce62f11d1c6ad9c907d57e05913203b
+  input_hash: 3c879e9fea688dbab02f1a01f35994b154f9416d7d2965b685b5839067bfa184
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -33,6 +33,48 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/1609
+    - post/aardvarklabs-blog/1696
+    - post/aardvarklabs-blog/1756
+    - post/aardvarklabs-blog/1782
+    - post/aardvarklabs-blog/1800
+    - post/aardvarklabs-blog/1816
+    - post/aardvarklabs-blog/1826
+    - post/aardvarklabs-blog/1891
+    - post/aardvarklabs-blog/1818
+    - post/aardvarklabs-blog/1822
+    - post/aardvarklabs-blog/2017
+    - post/aardvarklabs-blog/1824
+    - post/aardvarklabs-blog/2196
+    - post/aardvarklabs-blog/2253
+    - post/aardvarklabs-blog/2107
+    - post/aardvarklabs-blog/2271
+    - post/aardvarklabs-blog/2403
+    - post/aardvarklabs-blog/2204
+    - post/aardvarklabs-blog/2202
+    - post/aardvarklabs-blog/2467
+    - post/aardvarklabs-blog/2565
+    - post/aardvarklabs-blog/2523
+    - post/aardvarklabs-blog/2603
+    - post/aardvarklabs-blog/2663
+    - post/aardvarklabs-blog/2640
+    - post/aardvarklabs-blog/2678
+    - post/aardvarklabs-blog/2722
+    - post/aardvarklabs-blog/2719
+    - post/aardvarklabs-blog/2741
+    - post/aardvarklabs-blog/2759
+    - post/aardvarklabs-blog/2816
+    - post/aardvarklabs-blog/2827
+    - post/aardvarklabs-blog/2063
+    - post/aardvarklabs-blog/2861
+    - post/aardvarklabs-blog/2838
+    - post/aardvarklabs-blog/2866
+    - post/aardvarklabs-blog/2875
+    - post/aardvarklabs-blog/2921
+    - post/aardvarklabs-blog/2907
+    - post/aardvarklabs-blog/2938
+    - post/aardvarklabs-blog/2965
+    - post/aardvarklabs-blog/2953
     - post/aardvarklabs-blog/3032
     - post/aardvarklabs-blog/2936
     - post/aardvarklabs-blog/3081
@@ -75,46 +117,50 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 35
+item_count: 77
 footprint:
   systems:
     - id: development
-      weight: 40
-    - id: copilot
-      weight: 23
+      weight: 89
     - id: integration
-      weight: 22
+      weight: 47
+    - id: copilot
+      weight: 39
     - id: platform
-      weight: 15
+      weight: 27
     - id: administration
-      weight: 13
+      weight: 22
     - id: reporting
-      weight: 6
+      weight: 17
   topics:
     - id: al development
-      weight: 6
+      weight: 20
     - id: copilot
-      weight: 5
+      weight: 9
     - id: al code
-      weight: 4
-    - id: automation
-      weight: 4
+      weight: 8
     - id: api
-      weight: 3
+      weight: 6
     - id: json
-      weight: 3
-    - id: power automate
-      weight: 3
-    - id: sftp
-      weight: 3
-    - id: administration api
-      weight: 2
+      weight: 6
+    - id: automation
+      weight: 5
+    - id: azure openai
+      weight: 5
+    - id: security
+      weight: 5
     - id: ai agents
-      weight: 2
+      weight: 4
+    - id: power automate
+      weight: 4
   objects:
     - id: table Customer
-      weight: 3
+      weight: 7
+    - id: page Customer Card
+      weight: 5
     - id: table Sales Header
+      weight: 4
+    - id: table Vendor
       weight: 3
     - id: codeunit ARD_CashFlowAgentFactory
       weight: 2
@@ -124,26 +170,22 @@ footprint:
       weight: 2
     - id: codeunit ARD_CashFlowAgentSetup
       weight: 2
+    - id: codeunit ARD_IsolatedStorageWrapper
+      weight: 2
+    - id: codeunit Environment Information
+      weight: 2
     - id: page ARD_Cash Flow Agent KPI
       weight: 2
     - id: page ARD_Cash Flow Agent Setup
       weight: 2
-    - id: table ARD_CashFlowAgentKPI
-      weight: 2
-    - id: table ARD_CashflowAgentSetup
-      weight: 2
-    - id: table Vendor
-      weight: 2
-    - id: api ARD_PAFileStagingAPI
-      weight: 1
   features: []
-first_item: "2026-02-06"
+first_item: "2025-04-18"
 last_item: "2026-10-02"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 35 posts in the knowledge base, 2026-02-06 to 2026-10-02, mostly about development, copilot, integration.
+> Aardvark Labs (Marcel Chabot): 77 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -151,24 +193,27 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (40) | al development (6) | table Customer (3) |
-| copilot (23) | copilot (5) | table Sales Header (3) |
-| integration (22) | al code (4) | codeunit ARD_CashFlowAgentFactory (2) |
-| platform (15) | automation (4) | codeunit ARD_CashFlowAgentKPILogging (2) |
-| administration (13) | api (3) | codeunit ARD_CashFlowAgentMetadata (2) |
-| reporting (6) | json (3) | codeunit ARD_CashFlowAgentSetup (2) |
-|  | power automate (3) | page ARD_Cash Flow Agent KPI (2) |
-|  | sftp (3) | page ARD_Cash Flow Agent Setup (2) |
-|  | administration api (2) | table ARD_CashFlowAgentKPI (2) |
-|  | ai agents (2) | table ARD_CashflowAgentSetup (2) |
-|  |  | table Vendor (2) |
-|  |  | api ARD_PAFileStagingAPI (1) |
+| development (89) | al development (20) | table Customer (7) |
+| integration (47) | copilot (9) | page Customer Card (5) |
+| copilot (39) | al code (8) | table Sales Header (4) |
+| platform (27) | api (6) | table Vendor (3) |
+| administration (22) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
+| reporting (17) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
+|  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
+|  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
+|  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |
+|  | power automate (4) | codeunit Environment Information (2) |
+|  |  | page ARD_Cash Flow Agent KPI (2) |
+|  |  | page ARD_Cash Flow Agent Setup (2) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ******** 8
+- 2025-Q2: ********** 10
+- 2025-Q3: *************** 15
+- 2025-Q4: ************* 13
+- 2026-Q1: ************ 12
 - 2026-Q2: ************* 13
 - 2026-Q3: ************* 13
 - 2026-Q4: * 1

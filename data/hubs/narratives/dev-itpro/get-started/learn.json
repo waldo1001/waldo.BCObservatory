@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/learn",
+  "input_hash": "ce0282fe0d99bcbf2b47256193e1f14d99e37fa25f157d498d2b2265b2c4496f",
+  "summary": "The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support.",
+  "overview": "Learn is the starting area for people new to Business Central or looking for background material. It combines a functional overview, hands-on practice scenarios, demo data, technical design notes, and partner-specific resources.\n\nStart with the business functionality overview to see which processes are supported: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Then practice with the business process walkthroughs, which use the CRONUS demonstration company. The Contoso Coffee demo data page offers a fictitious company for exploring manufacturing, warehousing, and service modules.\n\nFor deeper technical questions, the application design details index points to articles on inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling. Partners have two more pages: resources covering readiness, releases, Copilot and agents, integrations, and migrations, plus Viva Engage communities for discussion with Microsoft experts.",
+  "key_points": [
+    "Business functionality overview lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse, service.",
+    "Business process walkthroughs are step-by-step scenarios in the CRONUS demo company, such as sales campaigns, prepayments, approval workflows, project management, warehouse picking, and data export.",
+    "Contoso Coffee demo data is fictitious company data for learning manufacturing, warehousing, service, and common modules, with setup and configuration guidance.",
+    "Application design details index covers inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling.",
+    "Partner resources cover readiness programs, latest releases (2026 release wave 2, update 29.0), Copilot, Sales Order, Payables and Expense agents, Power Platform and Shopify integration, migrations, and marketplace apps.",
+    "Viva Engage groups let partners discuss technical topics, give product feedback, and follow announcements and best practices."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:40.569Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014143000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:31.898Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the version labels in the partner resources key point (2026 release wave 2, update 29.0) come straight from the page metadata. They are supported, but they will go out of date as new releases ship.",
+      "Minor: the walkthroughs page mentions digital audits, but the narrative only says 'data export'. That is still accurate, but 'digital audit data export' would match the source more closely.",
+      "Minor: 'starting area for people new to Business Central' is a reasonable inference from the TOC path (Get started > Learn) rather than an explicit statement."
+    ],
+    "input_hash": "ce0282fe0d99bcbf2b47256193e1f14d99e37fa25f157d498d2b2265b2c4496f",
+    "cost_usd": 0.0340592
+  }
+}

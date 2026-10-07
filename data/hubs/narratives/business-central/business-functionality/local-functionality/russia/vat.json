@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/russia/vat",
+  "input_hash": "3541103abe3a5bcd5fa01f7ee695d6cea6f9a30447c10780e723e034841c9036",
+  "summary": "Russia VAT functionality in Business Central: uploading VAT purchase and sales books and declarations to XML, customer prepayment VAT, VAT reinstatement, VAT settlement, and the vendor tax agent scheme. It answers setup and process questions for each of these.",
+  "overview": "The VAT section for Russia covers the local VAT processes a Russian company runs in Business Central. It has five pages, each on one process: reporting (books of purchases and sales and VAT declarations), customer prepayments, reinstatement of deducted VAT, settlement, and the vendor tax agent scheme.\\n\\nStart with the process you need. For reporting, the upload page explains the folder settings and the XML generation through Statutory Report Setup. For the VAT lifecycle, the prepayment, settlement and reinstatement pages cover unrealized VAT, transit VAT and the worksheets used to process them. Reinstatement also draws on settlement concepts such as manual VAT settlement and realized VAT amounts. The tax agent page covers VAT handling for vendors with tax agent roles.",
+  "key_points": [
+    "Upload VAT purchase and sales books and VAT declarations to XML files; set the Electronic Files Folder and generate the files through Statutory Report Setup.",
+    "VAT by customer prepayment creates VAT invoices and records when a customer prepays. It supports unrealized VAT setup and uses VAT posting configuration.",
+    "Prepayment returns are handled with corrective entries.",
+    "VAT reinstatement returns previously deducted VAT to the budget. The VAT Reinstatement Worksheet finds the documents that need it, and configurable factors adjust the amounts.",
+    "VAT settlement can be full or partial. It uses manual settlement worksheets and VAT allocation, with support for transit VAT and unrealized VAT tracking and a VAT register.",
+    "The vendor tax agent scheme supports VAT payment from internal funds or from vendor funds, set up through agreements and payment journal operations.",
+    "The tax agent scheme also covers multi-currency prepayments and payments to the Tax Authority."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:33.810Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012437
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:22.536Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the pages are independent. The sources don't support this: the reinstatement page lists transit VAT, manual VAT settlement and realized VAT amount, which ties it to settlement, and prepayment builds on the unrealized VAT setup.",
+      "Overview describes the tax agent page as covering 'VAT paid on behalf of vendors'. The source only says it manages VAT handling for vendors with tax agent roles.",
+      "Key point 2 says prepayment 'depends on' unrealized VAT and VAT posting setup. The source says it supports unrealized VAT setup and lists VAT posting configuration as a feature."
+    ],
+    "input_hash": "3541103abe3a5bcd5fa01f7ee695d6cea6f9a30447c10780e723e034841c9036",
+    "cost_usd": 0.05836720000000001
+  }
+}

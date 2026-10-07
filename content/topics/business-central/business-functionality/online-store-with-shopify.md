@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/online-store-with-shopify
 type: topic
 title: Online store with Shopify
-summary: "Learn section Business functionality > Online store with Shopify: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 77d9f700f58ba488366f60450edce8b00817d51fa35da6f1eb15899fa45d83d3
+  prompts:
+    hub-topic: 1
+  input_hash: 4ec275c41cc21d1ec9a89eb232308454ddeb23254ca7607d4da90a61094f7a8b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-account
@@ -222,14 +223,33 @@ bc_forms:
   - 30168
   - 30174
 member_hash: 77d9f700f58ba488366f60450edce8b00817d51fa35da6f1eb15899fa45d83d3
-narrative: none
+narrative: generated
 ---
 
 # Online store with Shopify
 
-> Learn section Business functionality > Online store with Shopify: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions.
 
-Path: [Business functionality](../business-functionality.md) > Online store with Shopify · tier official · system integration · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Online store with Shopify · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+The Shopify Connector provides bidirectional synchronization between Business Central and one or more Shopify stores, for both B2B and direct-to-consumer models. The area is organized by data type: items, inventory, prices, customers and companies, sales orders and fulfillment, and transactions and payouts. Each has its own page with configuration options.
+
+Start with the Shopify Connector Overview, then the getting-started subtopic, which explains connecting a store and creating a Shopify test account. Next, use "Set up and use the Shopify Connector" as the walkthrough, and the per-data-type pages for detail.
+
+Operational pages cover running tasks in the background and recurrently with job queues, troubleshooting (foreground runs, logs, skipped records, sync reset), Shopify POS, and AI-assisted Shopify Tax Matching for Business Central US. The technical FAQ covers API versions and extensibility, and the support page lists support paths.
+
+## Key points
+
+- Overview: multi-shop support and bidirectional sync of items, inventory, customers, orders and transactions, for B2B and DTC.
+- Getting started covers connecting a store, synchronizing core data, and creating a Shopify test account.
+- Item sync supports export and import, SKU and barcode mapping strategies, variants and images.
+- Price sync sends prices from Business Central, with multiple currencies, VAT, markets, B2B catalogs, and customer price and discount groups.
+- Order sync handles shop vs presentment currency, auto-creation of sales documents, returns and refunds, location mapping, gift cards, and shipment sync to Shopify.
+- Transactions and payouts pages cover Shopify Payments, payment method mapping and reconciliation with bank accounts.
+- Background tasks run through job queue entries, either manual or recurring, monitored from Shopify Activities in the Business Manager Role Center.
+- Troubleshooting uses foreground task execution, logs, skipped records tracking and sync date reset; the technical FAQ covers the GraphQL Admin API versioning and extensibility.
 
 ## Subtopics
 

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/australia/tax",
+  "input_hash": "77dbd7ce47638ff026fa0dbba64fd72037f02f0500ae804a4c4c52ba1c49cc47",
+  "summary": "Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries. It answers setup and how-to questions for Australian tax compliance.",
+  "overview": "This section covers the tax features of the Australian version of Business Central. It has two main areas: withholding tax (WHT) on payments to vendors, and goods and services tax (GST) posting and reporting for the Business Activity Statement and the Australian Taxation Office.\n\nStart with the Australian Tax overview page, which maps the topics. For WHT, read the Withholding Tax description, then set up WHT, WHT posting groups, revenue types and vendors without an ABN. Then calculate and post WHT settlements. For GST, set up GST posting, calculate GST on prepayments, adjust settlement exchange rates for VAT entries, and print the settlement reports.",
+  "key_points": [
+    "WHT is tax withheld from vendor payments; it needs WHT Business Posting Groups and WHT Product Posting Groups with calculation rules, minimum invoice amount, percentage and revenue type.",
+    "Enabling WHT includes options such as rounding the amount used for WHT calculation, and is used for payments to vendors without an ABN, with the tax remitted to the ATO.",
+    "Vendors without an ABN are set up using the ABN field, the Foreign Vend field and WHT Posting Setup.",
+    "Revenue types are configured for WHT calculations for vendors without an ABN.",
+    "WHT settlement closes open WHT entries and moves amounts to settlement accounts, with rounding adjustments, for tax authority reporting.",
+    "GST posting setup supports reporting GST paid and received in the Business Activity Statement.",
+    "GST on prepayments can be calculated in the Australian version.",
+    "GST settlement reports can be printed for ATO reporting, and settlement exchange rates can be adjusted for VAT entries."
+  ],
+  "members_used": 10,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:31.808Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014297
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:58.226Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor omission: the Australian Tax overview page also lists tax invoice and credit memo handling. The narrative does not mention it, but this is not an error.",
+      "Key point 2 reads awkwardly: it says that enabling WHT 'is used for payments to vendors without an ABN'. Clearer wording would be: 'WHT is enabled to withhold tax on payments to vendors without an ABN and remit it to the ATO; setup includes an option to round the amount used for WHT calculation.'"
+    ],
+    "input_hash": "77dbd7ce47638ff026fa0dbba64fd72037f02f0500ae804a4c4c52ba1c49cc47",
+    "cost_usd": 0.0337712
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/gst",
+  "input_hash": "9132b94817d06fafce2c108bf763e8f06599c164fb8acdad7c7894fbc3170316",
+  "summary": "GST in the India localization of Business Central: setup, sales and purchase transactions, returns, advance payments, TDS/TCS, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement. It answers how GST is calculated and posted to the general ledger in each scenario.",
+  "overview": "This section covers Goods and Services Tax handling in the India localization. It starts with setup pages (GST, Compensation Cess, GST TDS and TCS, bank charges) and then walks through transaction scenarios. Most pages describe one scenario, with intra-state (CGST/SGST) and inter-state (IGST) treatment and the resulting GL entries, often with and without input tax credit.\n\nTransaction pages are grouped by party and type. Sales cover registered and unregistered customers, exempted sales, exports, SEZ and overseas place of supply, and returns. Purchases cover registered, unregistered (reverse charge), composite, SEZ and foreign vendors and services with an overseas place of supply. Separate return pages cover registered, unregistered, composite or exempted, foreign and overseas place of supply cases. Further pages cover advance payments, journals, bank charges, service management, service and stock transfers, and Input Service Distribution.\n\nCompliance and period-end pages cover E-Invoice, E-Way Bill, GST reconciliation with GSTR-2A, credit adjustments and settlement of net payment liability. Start with \"Setting up Goods and Service Tax\", then open the page for the transaction type you need.",
+  "key_points": [
+    "Setting up Goods and Services Tax covers the tax engine, rates, registration numbers, accounting periods, GST groups, HSN/SAC codes and posting accounts.",
+    "Purchases from registered vendors use CGST/SGST or IGST with credit availment options. Unregistered vendors attract GST only for notified services under reverse charge. Composite vendors and exempted goods have no GST impact.",
+    "Imports from foreign vendors fall under reverse charge, with IGST on GST Assessable Value plus Basic Custom Duty. Purchases from SEZ vendors also carry IGST on that base, with or without bill of entry.",
+    "GST Compensation Cess has five calculation types: Cess%, Threshold, Cess% + Amount/Unit Factor, whichever higher of Cess% or Amount/Unit Factor, and Amount/Unit Factor.",
+    "GST TDS is set up at 2% on payments above INR 250000, and e-commerce operators collect GST TCS at 1%. Separate pages cover vendor and customer payments.",
+    "Advance payments are covered for customers and vendors, including application to invoices, un-application, interim accounts and GSTR-1 reporting.",
+    "E-Invoice generates JSON invoices and imports signed responses with IRN validation. E-Way Bill exports a template to Excel for goods over INR 50,000.",
+    "GST reconciliation matches purchases to GSTR-2A, and settlement of net payment liability discharges tax monthly using credit offsets in priority order."
+  ],
+  "members_used": 47,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:16.792Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.043445000000000004
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:32.621Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 says SEZ vendor purchases are 'under reverse charge'; the sources only tie reverse charge to imports from foreign vendors. The SEZ page covers IGST on GST Assessable Value plus Basic Custom Duty, with or without bill of entry.",
+      "The overview's 'plus their returns' suggests every purchase vendor type has a return page; there is no SEZ vendor return page. The overseas place of supply services purchase page was also missing.",
+      "Minor: Kerala Flood Cess on B2C sales is not mentioned. This is optional to add."
+    ],
+    "input_hash": "9132b94817d06fafce2c108bf763e8f06599c164fb8acdad7c7894fbc3170316",
+    "cost_usd": 0.1275472
+  }
+}

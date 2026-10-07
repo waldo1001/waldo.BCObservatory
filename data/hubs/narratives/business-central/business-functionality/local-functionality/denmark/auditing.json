@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/denmark/auditing",
+  "input_hash": "318074a5e5c8870249a2c472beb1dd911a9d0827f6f53be51ae39f06e5c2eba6",
+  "summary": "Auditing for Denmark in Business Central covers exporting accounting data as CSV files to Regnskab Basis, exporting and importing SAF-T audit files for the Danish tax authorities, and mapping GL accounts to the Danish tax authority standard chart of accounts. Use it for questions about meeting Danish bookkeeping law and tax authority requirements.",
+  "overview": "This section describes the Danish audit and reporting tools in Business Central. Two export routes are covered: CSV files for Regnskab Basis, and the SAF-T audit file format for the Danish tax authorities. SAF-T files can also be imported for record-keeping.\\n\\nUnder Danish bookkeeping law, GL accounts must be mapped to the Danish tax authority standard chart of accounts, which supports annual reporting and VAT calculations. The Regnskab Basis export uses this mapping, and the standard chart of accounts page also lists SAF-T export among its features. A sensible order is to complete the GL account mapping on the standard chart of accounts page first, then run the Regnskab Basis or SAF-T export you need.",
+  "key_points": [
+    "Accounting data can be exported as CSV files to Regnskab Basis using the RB Accounting File page.",
+    "The Regnskab Basis export uses a mapping header selection and the standard chart of accounts mapping.",
+    "The Regnskab Basis export covers Income Statement Amount and Balance Sheet Amount.",
+    "SAF-T export produces an audit file for the Danish tax authorities.",
+    "SAF-T files can also be imported for record-keeping.",
+    "GL accounts must be mapped to the Danish tax authority standard chart of accounts.",
+    "The account mapping supports annual reporting and VAT calculations under Danish bookkeeping law."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:58.316Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009847
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:34.066Z",
+    "verdict": "fix",
+    "issues": [
+      "\"Both exports depend on the standard chart of accounts\" goes further than the sources: only the Regnskab Basis page says it uses the chart of accounts mapping. The SAF-T link comes only from the chart of accounts page listing SAF-T export as a feature.",
+      "The setup order (map accounts first, then export) is inferred, not stated in the sources. I reworded it as advice.",
+      "The key point about version 2025 is page metadata with no use for an agent, and 'marked with' is unclear. I removed it."
+    ],
+    "input_hash": "318074a5e5c8870249a2c472beb1dd911a9d0827f6f53be51ae39f06e5c2eba6",
+    "cost_usd": 0.0492072
+  }
+}

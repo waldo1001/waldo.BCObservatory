@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/service-management/service-management-analytics/service-management-reports
 type: topic
 title: Service management reports
-summary: "Learn section Business functionality > Service management > Service management analytics > Service management reports: 37 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers."
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:51.300Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a4cf402eb8b2c2e14b3ef7915566ef8be70c47fe4310c7c608eba0aa23fbc30c
+  prompts:
+    hub-topic: 1
+  input_hash: f6b6236fcf787a23c65e410aa078afd89a5b35bfc207ee7382044a043d1947ba
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5981
@@ -375,14 +376,29 @@ bc_forms:
   - 6080
   - 6086
 member_hash: a4cf402eb8b2c2e14b3ef7915566ef8be70c47fe4310c7c608eba0aa23fbc30c
-narrative: none
+narrative: generated
 ---
 
 # Service management reports
 
-> Learn section Business functionality > Service management > Service management analytics > Service management reports: 37 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers.
 
-Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+This section lists the individual reports used to analyze and document service management. Each page describes one report and the data it shows, such as contract numbers, customers, responsibility centers, service items, dates, and amounts.\n\nThe reports fall into several groups. Contract reports cover contract lists and details, gain/loss entries, quotes, salesperson and customer views, and prepaid entries. Test reports let you check results before you act. They show which contracts are due for invoicing or a price update on a date, which service orders would be created for a period, which contract lines have expired, and whether a service document has a valid posting date and something to post. Item and order reports cover service items, warranty, worksheets, tasks, labels, response time, and the dispatch board. Profit and capacity reports cover service profit by contract, responsibility center, order, and item, plus load level, resource usage, pricing profitability, and maintenance performance. Document reports produce quotes, orders, invoices, credit memos, and shipments for customers.\n\nStart with the overview page named Service management reports, then open the page for the report you need. Pick the group that matches your question: planning and testing, monitoring contracts, tracking items and orders, analyzing profit, or printing customer documents.
+
+## Key points
+
+- Test reports check results before you act. Contract Invoicing - Test and Contract Price Update - Test show contracts due on a specified date, and the price update test also lists errors. Contr. Serv. Orders - Test shows the service orders that would be created for a period. Expired Contract Lines - Test shows lines to remove. Service Document - Test checks the posting date and whether there is anything to post.
+- Contract Gain/Loss Entries and Contr. Gain/Loss - Resp. Ctr. analyze contract gains and losses with reason code, change status, and responsibility center.
+- Contract Quotes to Be Signed lists quotes awaiting signature with probability, quote amount, and optional forecast.
+- Service Contract, Service Contract-Detail, Service Contract - Customer, and Serv. Contract - Salesperson list contracts by different views, including annual amount and service period.
+- Profit reports cover contracts, responsibility centers, service orders, and service items, based on service amount minus service cost; Serv. Pricing Profitability adds usage, invoice, discount, and cost amounts.
+- Service Items, Service Items Out of Warranty, Service Item Worksheet, Service Item Line Labels, and Service Tasks track items, warranty, repair status, and serial numbers.
+- Service Load Level, Service Item - Resource Usage, Maintenance Performance, and Maintenance Visit - Planning cover capacity, utilization, resource consumption, realization percentage, and visit planning.
+- Document reports (Service Quote, Service Order, Service Contract Quote, Service Invoice, Service Shipment, Service Credit Memo) produce customer documents; the credit memo can only be printed after posting, and the shipment has options for copies, correction lines, and lot/serial appendix.
 
 ## Learn pages
 

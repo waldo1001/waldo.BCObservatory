@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data
 type: topic
 title: Reading data
-summary: "Learn section Development > Programming in the AL language > Tables and data > Reading data: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Reading data in AL covers how to retrieve records from Business Central tables efficiently. It answers questions about Get, Find, FindSet and Next, partial records, record isolation levels, SQL performance of database methods, and read scale-out.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
+  prompts:
+    hub-topic: 1
+  input_hash: f88763a2f28c8f284b22b561558ab181d7108d52c6e33a108cde28d675e011a3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-al-Database-methods-and-performance-on-server
@@ -92,14 +93,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
-narrative: none
+narrative: generated
 ---
 
 # Reading data
 
-> Learn section Development > Programming in the AL language > Tables and data > Reading data: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Reading data in AL covers how to retrieve records from Business Central tables efficiently. It answers questions about Get, Find, FindSet and Next, partial records, record isolation levels, SQL performance of database methods, and read scale-out.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Reading data · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Reading data · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section explains how AL code reads data and how to do it with less load on SQL Server. It starts with the basic retrieval methods (Get, Find, FindFirst, FindLast, GetBySystemId, Next). It then moves to performance guidance: which database methods suit which scenarios, why CalcFields and CalcSums need separate SQL unless results are cached, and how SetAutoCalcFields, ModifyAll and DeleteAll help performance.
+
+The other pages cover three ways to reduce cost further. Partial records load only selected fields and load the rest just-in-time; there is a usage page and a FAQ. Record instance isolation level limits locking on individual record instances. Read scale-out sends read-only workloads, such as analytical queries and OData GET requests, to a read-only database replica.
+
+Start with "Get, Find, and Next methods" for the basics, then read "AL database methods and performance on SQL Server". Use the partial records, isolation level and read scale-out pages when tuning specific reports, pages or integrations.
+
+## Key points
+
+- Get, Find, FindFirst, FindLast, GetBySystemId and Next cover key-based and filter-based record retrieval in AL.
+- FindSet and Next suit looping over records; CalcFields and CalcSums need separate SQL unless cached.
+- SetAutoCalcFields, ModifyAll and DeleteAll are named as ways to improve performance.
+- Partial records load a subset of fields using SetLoadFields, AddLoadFields, SetBaseLoadFields and LoadFields; AreFieldsLoaded checks the loaded status.
+- Unselected fields load just-in-time when accessed; the FAQ mentions an Enable Partial Records server setting and table extension optimization.
+- Record instance isolation level (ReadIsolation) offers Default, ReadUncommitted, ReadCommitted, RepeatableRead and UpdLock to limit locks.
+- Read scale-out uses the DataAccessIntent property to run read-only workloads on replicas, and the intent can be overridden at runtime.
 
 ## Learn pages
 

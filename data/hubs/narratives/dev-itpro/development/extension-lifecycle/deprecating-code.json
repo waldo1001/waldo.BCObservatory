@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
+  "input_hash": "ee6c71158b4482f081b425c400906f466cbc99876d03e84f691b9c8259362adf",
+  "summary": "Deprecating code in Business Central AL extensions: how to mark code obsolete with preprocessor directives and Obsolete properties, Microsoft's timeline for removal, and the deprecation of explicit and implicit 'with' statements. It answers questions about obsolete states, CLEAN symbols, warnings AL0604 and AL0606, and how long obsolete code stays.",
+  "overview": "This section covers how code is retired in Business Central. It explains the practices Microsoft uses when obsoleting code in the Base App, so developers can follow the same patterns in their own extensions. It also covers one specific deprecation, the 'with' statement in AL.\n\nStart with the timeline page to learn the rule: at least 12 months pass between marking code obsolete and removing it. Then read the best practices page for the mechanics, which use the ObsoleteState, ObsoleteTag and ObsoleteReason properties together with CLEAN version symbols and preprocessor directives. The 'with' statement page is a worked example of a deprecation, with warnings and fixes for existing code.",
+  "key_points": [
+    "Microsoft keeps a minimum of 12 months between marking code obsolete and removing it.",
+    "Obsoleting code uses the ObsoleteState, ObsoleteTag and ObsoleteReason properties, or the Obsolete attribute.",
+    "CLEAN symbols (CLEAN15 to CLEAN18 are named) and preprocessor directives control when obsolete code is included or removed.",
+    "The best practices page describes how Microsoft obsoletes code in the Base App and recommends developers follow similar patterns.",
+    "AppSourceCop is listed among the tools tied to deprecation guidelines.",
+    "Explicit and implicit 'with' statements are deprecated, with warnings AL0604 and AL0606 (2022 release wave 2).",
+    "Fixes for 'with' statements include pragma directives, qualifying references, and the NoImplicitWith flag."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:54.395Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011300999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:15.797Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point that puts '2022 release wave 2' next to warnings AL0604 and AL0606 suggests the warnings arrived in that release. The source only lists the version on the page and doesn't say what it refers to. This is minor, but it could be read as a firmer claim than the sources support.",
+      "'AppSourceCop is listed among the tools tied to deprecation guidelines' adds the word 'tools', which the source doesn't use. The source only lists AppSourceCop and deprecation guidelines as features of the timeline page. This is acceptable but loosely worded.",
+      "Saying that CLEAN symbols 'control when obsolete code is included or removed' is a reasonable inference from 'preprocessor statements' and 'CLEAN version symbols', but the summaries don't say it directly."
+    ],
+    "input_hash": "ee6c71158b4482f081b425c400906f466cbc99876d03e84f691b9c8259362adf",
+    "cost_usd": 0.031055199999999998
+  }
+}

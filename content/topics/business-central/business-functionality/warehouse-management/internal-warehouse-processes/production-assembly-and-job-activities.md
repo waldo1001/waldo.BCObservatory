@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/production-assembly-and-job-activities
 type: topic
 title: Production, assembly, and job activities
-summary: "Learn section Business functionality > Warehouse management > Internal warehouse processes > Production, assembly, and job activities: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Internal warehouse handling of production, assembly, and project (job) activities in Business Central. It answers questions about picking or moving components, putting away output, and how basic and advanced warehouse configurations differ for these flows.
 tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:05.521Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f54a71fbc19392186d1a21b293ab4005bb29a2795b5a91338063fe40a6236bd4
+  prompts:
+    hub-topic: 1
+  input_hash: 8f0fad6ab9f55c47b695722c4bae8989ca80f5961b5b1e1c5e04f60322fd582f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-internal-warehouse-flows
@@ -75,14 +76,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f54a71fbc19392186d1a21b293ab4005bb29a2795b5a91338063fe40a6236bd4
-narrative: none
+narrative: generated
 ---
 
 # Production, assembly, and job activities
 
-> Learn section Business functionality > Warehouse management > Internal warehouse processes > Production, assembly, and job activities: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Internal warehouse handling of production, assembly, and project (job) activities in Business Central. It answers questions about picking or moving components, putting away output, and how basic and advanced warehouse configurations differ for these flows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Production, assembly, and job activities · tier official · system projects · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Production, assembly, and job activities · tier official · system projects · narrative reviewed by Opus
+
+## Overview
+
+This area covers how items move inside the warehouse for production, assembly, and projects. It describes two complexity levels: basic configurations that use inventory picks, inventory movements, and inventory put-aways, and advanced configurations that use warehouse picks, warehouse put-aways, and movements with directed put-away and pick.
+
+Start with the design details page, which explains the flows and the options that shape them, such as whether bin code is mandatory and the to-production bin code. Then go to the page that matches your setup: pick or move items in basic configurations, pick for internal operations in advanced configurations, or put away production output.
+
+The pick pages cover component flushing and over-picking. The put-away page covers output from production and assembly.
+
+## Key points
+
+- Flows range from basic order-by-order picks and put-aways to advanced directed activities that consolidate operations across multiple source documents.
+- Basic configurations use inventory picks and inventory movements for components; a pick posts consumption immediately, while a movement needs separate consumption posting.
+- Advanced configurations use warehouse pick documents, created in push or pull fashion, with directed put-away and pick determining bin selection.
+- Bin ranking and cross-dock bins are involved in advanced bin selection.
+- Component flushing method and over-picking affect the pick workflow in both basic and advanced setups.
+- Production and assembly output is put away with inventory put-aways (basic) or warehouse put-aways and movements (advanced).
+- The bin code mandatory setting and the to-production bin code are design options that shape the flows.
+- The same flow concepts apply to production, assembly, and project consumption.
 
 ## Learn pages
 

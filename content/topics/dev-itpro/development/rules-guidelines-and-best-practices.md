@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices
 type: topic
 title: Rules, guidelines, and best practices
-summary: "Learn section Development > Rules, guidelines, and best practices: 19 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:29.632Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c1346913c56660145a86c78df755f50dc9b2260b080b9fdd9b7870929fed1757
+  prompts:
+    hub-topic: 1
+  input_hash: 14d9a2d160f457bd5b6c0b4062ac6e0f17c2112b4cdc6f8bf73d2fbbbf2d11a9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -178,14 +179,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: c1346913c56660145a86c78df755f50dc9b2260b080b9fdd9b7870929fed1757
-narrative: none
+narrative: generated
 ---
 
 # Rules, guidelines, and best practices
 
-> Learn section Development > Rules, guidelines, and best practices: 19 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation.
 
-Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · no narrative yet
+Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section collects the rules developers follow when building and maintaining Business Central extensions. Two pages sit directly in the hub and deal with lifecycle changes. One covers marking AL objects, methods and symbols as obsolete. The other covers deprecating external business events so that integrations are informed and move to replacement events.
+
+The Best practices subtopic (17 pages) covers the wider craft: AL code conventions and restrictions, testing, performance, security, telemetry, connectivity app requirements and documenting user scenarios. It also helps with preparing an extension for Marketplace validation.
+
+Start with the obsolete AL page if you need to retire code in an extension. Use the external business events page if the change affects outside integrations. Go to Best practices for general questions on writing, testing, securing and publishing extensions.
+
+## Key points
+
+- Obsoleting in AL uses the ObsoleteState, ObsoleteReason and ObsoleteTag properties or the [Obsolete] attribute.
+- Analyzer rules enforce obsoletion, and preprocessor directives are part of the obsoletion guidance.
+- External business events are deprecated by first marking them obsolete pending, then removing them in a future version.
+- Deprecating an external business event involves the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix and event versioning. The page references version 27.0.
+- The deprecation process is meant to keep external integrations informed and moving to replacement events.
+- Best practices (17 pages) covers AL code conventions, restrictions, testing, performance, security and telemetry.
+- Best practices also covers connectivity app requirements, user scenario documentation and preparing for Marketplace validation.
 
 ## Subtopics
 

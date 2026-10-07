@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.0481316
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:48.465Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview's closing line says to read the FAQ for 'data handling'. The FAQ summary only covers respecting user data permissions, so 'data handling' goes a little further than the source. Small wording issue.",
+      "'how to use and control summaries' in the summary is vague. The pages support expanding, using Show more, regenerating and copying a summary, and nothing beyond that.",
+      "The 'Troubleshoot Expense Agent Issues' page is about a different feature and looks misfiled under this hub. The narrative correctly says so, but the TOC placement may need checking."
+    ],
+    "input_hash": "dfdb2b77453dc32bd5eb653d73a30254f470ddf76b982a94b27a0d2819b03d6f",
+    "cost_usd": 0.0273872
   }
 }

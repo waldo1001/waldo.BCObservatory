@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports
 type: topic
 title: Built-in production reports
-summary: "Learn section Business functionality > Manufacturing > Manufacturing analytics > Built-in production reports: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 603ca2040ca578adbf361dfe9d0e6dc98d82325bd72d52c379334ead451de2f7
+  prompts:
+    hub-topic: 1
+  input_hash: 488eff3774687815c99a14ccc8c069f73e83d0908c1a07543ca2a4d290052320
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
@@ -194,14 +195,33 @@ bc_forms:
   - 99000789
   - 99000791
 member_hash: 603ca2040ca578adbf361dfe9d0e6dc98d82325bd72d52c379334ead451de2f7
-narrative: none
+narrative: generated
 ---
 
 # Built-in production reports
 
-> Learn section Business functionality > Manufacturing > Manufacturing analytics > Built-in production reports: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+This section lists the standard reports available for manufacturing analysis. An entry page, Production Reports and Analytics, introduces the Report Explorer, work center load analysis and item availability. The other pages each describe one report.
+
+The reports group by purpose. Cost reports include BOM Cost Share Distribution, Prod. Order Detailed Calc, Production Order - WIP and Production Order Statistics. Structure reports include Quantity Explosion of BOM and Where-Used (Top Level). Planning and shop floor reports include Capacity Task list, Prod. Order - Job Card, Precalc. Time, Shortage List, Routing Sheet, Subcontractor - Dispatch List and Item - Able to Make (Time). Production Order - List is Excel-based, and Output Item Label produces labels.
+
+Start with Production Reports and Analytics for the overall picture, then open the page for the specific report you need to check its filters and the data it shows.
+
+## Key points
+
+- BOM Cost Share Distribution uses pie charts to show material/labor and direct/indirect cost proportions through a bill of materials.
+- Production Order Statistics breaks down material, capacity, subcontracting and overhead costs with variance analysis; Prod. Order Detailed Calc shows expected operation and material cost.
+- Production Order - WIP shows work-in-process cost for released orders from posted consumption, capacity and output.
+- Prod. Order - Shortage List shows missing component quantities per order and projected inventory up to a date filter, with filters for status and order number.
+- Capacity Task list, Precalc. Time, Job Card and Routing Sheet cover work center and machine center scheduling, routing times (setup, run, wait), and shop floor use.
+- Subcontractor - Dispatch List shows released routing lines at subcontractor vendors with remaining quantity and components to ship; it filters by vendor, work center, order and dates.
+- Quantity Explosion of BOM gives an indented, fully exploded component listing; Where-Used (Top Level) shows where items are used and in what quantities.
+- Output Item Label creates barcode and QR code labels for production output with serial, lot or package tracking; Production Order - List is an Excel report with two worksheets.
 
 ## Learn pages
 

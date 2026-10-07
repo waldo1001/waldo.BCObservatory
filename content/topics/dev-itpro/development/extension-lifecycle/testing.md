@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/testing
 type: topic
 title: Testing
-summary: "Learn section Development > Extension lifecycle > Testing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Testing in Business Central covers writing automated AL tests (test codeunits, test methods, test pages, handler methods, test runners), a worked purchase invoice discount example, an app testing FAQ, and the Performance Toolkit extension for workload and regression testing.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 37eaacdc440725b9b1569176af3dedeec3ec255d2233b55eca64d7b9cf551080
+  prompts:
+    hub-topic: 1
+  input_hash: 86787e416513475f7cb35fb60175fdcb8db24b949551e81a01e3aec7e8e62ef5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -119,14 +120,32 @@ bc_forms:
   - 149008
   - 149009
 member_hash: 37eaacdc440725b9b1569176af3dedeec3ec255d2233b55eca64d7b9cf551080
-narrative: none
+narrative: generated
 ---
 
 # Testing
 
-> Learn section Development > Extension lifecycle > Testing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Testing in Business Central covers writing automated AL tests (test codeunits, test methods, test pages, handler methods, test runners), a worked purchase invoice discount example, an app testing FAQ, and the Performance Toolkit extension for workload and regression testing.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Testing · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Testing · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to test Business Central extensions. It starts with an application testing overview that introduces test codeunits, test methods, test runner codeunits, test pages, UI handlers and the ASSERTERROR keyword, and gives best practices for automated, repeatable tests.
+
+The detail pages follow from there. Test codeunits and test methods describe the attributes and properties that structure a test. Test pages simulate user interaction with pages. Handler methods intercept messages, confirmations, pages and reports so tests run without a user. Test runner codeunits run test codeunits unattended with pre- and postprocessing and result logging. The purchase invoice discount example ties these together using test libraries and GIVEN-WHEN-THEN notation.
+
+For app-level questions, the FAQ covers what testing is expected, including version, country and upgrade testing. The Performance Toolkit extension is for ISVs and VARs who need to simulate workloads and check performance regressions. Start with the overview, then read the example.
+
+## Key points
+
+- Test codeunits and test methods in AL use attributes such as TransactionModel and TestDataSource, plus the TestIsolation and TestHandlers properties; the page mentions runtime 16 and runtime 18.
+- Handler methods include MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler and ReportHandler, so UI interactions need no user.
+- Test runner codeunits use the TestRunner subtype with OnRun, OnBeforeTestRun and OnAfterTestRun triggers to run tests unattended and log results.
+- Test pages simulate user actions: read or change fields, access subpages, filter data, invoke actions and navigate records.
+- The purchase invoice discount example uses Library - Random, Library - Purchase, the Assert codeunit and GIVEN-WHEN-THEN notation.
+- The FAQ covers complete coverage, automated and manual testing, country-specific testing, upgrade testing and Docker testing.
+- The Performance Toolkit supports test suite configuration, scenario definition, concurrent session simulation, baseline comparison, telemetry integration and Power BI reporting.
 
 ## Learn pages
 

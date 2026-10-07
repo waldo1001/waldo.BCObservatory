@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+  "input_hash": "273246acb57d28ec7afd92fa67c6ac10fad1745802d3f9f85bbe8b6cc55a1357",
+  "summary": "Coding agents in AL (preview) covers building custom Business Central agents in AL: defining and registering them, setup pages, programmatic configuration, task management, model selection, and converting a prototyped agent to code. It answers how-to questions about the interfaces, codeunits and page types involved.",
+  "overview": "This section is for developers who want to write an agent in AL instead of only using the design experience. It explains the core interfaces (IAgentFactory, IAgentMetadata, IAgentTaskExecution), how to register an agent through the Agent Metadata Provider enum and the Copilot capability, and how to give it a setup experience.\n\nThe pages fit together as a build sequence. Start with the overview page, which has a quick-start template. Then define and register the agent, create the setup page with the ConfigurationDialog page type and Agent Setup Part, and configure instances with the Agent codeunit (instructions, display name, profile, localization, archiving). Managing agent tasks covers creating tasks from page actions, business events and email triggers, plus attachments and lifecycle.\n\nIf you already prototyped an agent in the design experience, use the convert page to export its settings and package them in an AL app. The AI models page explains model selection and resolution for agents created either way. All pages are marked preview.",
+  "key_points": [
+    "Custom agents are built by extending the Agent Metadata Provider enum and implementing IAgentFactory, IAgentMetadata and IAgentTaskExecution, and by registering the Copilot capability.",
+    "The overview page includes a quick-start template and guidance on setup pages, task lifecycle, attachments and cross-agent operations. It mentions versions 27.4 and 28.1.",
+    "Setup pages use the ConfigurationDialog page type, a modal dialog with OK and Cancel system actions, a Content area, temporary data sources and AgentSetupPart.",
+    "Setup pages should make changes reversible, track changes, and persist custom configuration fields.",
+    "The Agent codeunit configures instances programmatically: Archive, IsArchived, SetInstructions, SetDisplayName, SetProfile and UpdateLocalizationSettings.",
+    "Agent tasks can be created from page actions, business events and email triggers, with attachments, message tracking and external ID tracking. The tasks page mentions version 28.1.",
+    "Converting a prototyped agent to AL means exporting its settings, then implementing instructions, permission sets, default profile, agent user settings, localization settings and triggering logic.",
+    "The AI models page covers auto model selection, model lifecycle, and the resolution order between agent-level and task-level models."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:57.857Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016703000000000003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:03.754Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 links version 28.1 to external ID tracking. The tasks page lists 28.1 as a version, but the summary does not say which feature it belongs to. Reworded so the version is credited to the page.",
+      "Key point 8 says 'AI model pages' (plural), but there is only one AI models page. Corrected.",
+      "Key point 7 leaves out triggering logic, which the convert page summary mentions. Added it.",
+      "Everything else is supported: the interfaces, enum, Copilot capability, ConfigurationDialog details, Agent codeunit methods, task sources and preview status."
+    ],
+    "input_hash": "273246acb57d28ec7afd92fa67c6ac10fad1745802d3f9f85bbe8b6cc55a1357",
+    "cost_usd": 0.0498232
+  }
+}

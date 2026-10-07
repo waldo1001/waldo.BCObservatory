@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
+  "input_hash": "837f23dc32e0a9414e576d2a3ee8054fbac9eb4fe1acfa572671655b932ca054",
+  "summary": "Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets.",
+  "overview": "This section has two pages that cover security from complementary angles. The layered security model page describes the overall approach: how users sign in, how permissions are administered, how data is encrypted, and how auditing and change logs help monitor sensitive fields. It also touches on secure development practices and applies to online and on-premises deployments.\n\nThe Azure Key Vault page is a focused, practical guide for extension developers. It explains how to keep secrets out of code when an extension calls external web services, how to set up key vaults, and how to configure the Business Central service to access them in online and on-premises setups.\n\nStart with the layered security model page for the big picture, then move to the Azure Key Vault page when you need to handle secrets in an extension.",
+  "key_points": [
+    "The layered security model covers authentication, authorization, data encryption, auditing, and change logging.",
+    "Authentication topics include user sign-in methods such as multifactor authentication.",
+    "Permission administration and sensitive field monitoring through the change log and audit trails are part of the model.",
+    "Azure Key Vault stores secrets for extensions that call external web services.",
+    "Key vault setup covers an app key vault, support for multiple key vaults, and access control.",
+    "Key vault configuration differs between online and on-premises deployments, as the Business Central service must be set up to access the vault.",
+    "Telemetry monitoring and publisher validation are listed as features of the key vault integration."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:28.337Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009235
+  }
+}

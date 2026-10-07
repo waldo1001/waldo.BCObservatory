@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/service-management/fulfill-service-contracts",
+  "input_hash": "74a969519915acbf65f3454627a4ada643e59b538c564ee899b5178b16c66bea",
+  "summary": "Fulfill service contracts in Business Central Service management covers creating service contracts and contract quotes, managing contract lines and lifecycle, changing annual amounts, and handling service items under multiple contracts. It answers how-to questions about contract setup and maintenance.",
+  "overview": "This section explains how to set up and maintain service contracts, which are standard agreements that define service levels for customers. It has no subtopics. The four pages cover the task overview, the main contract and quote workflow, annual amount changes, and multiple contracts per service item.\n\nStart with the overview page for the list of tasks. Then read the page on working with service contracts and contract quotes for creation, templates, lines, price updates, discounts and status handling. Use the annual amount page when a new amount differs from the calculated one, and the multiple contracts page when one service item needs separate coverage.",
+  "key_points": [
+    "Service contracts and contract quotes can be created, using contract templates, and contain contract lines.",
+    "Contract lifecycle includes signing, locking, and cancellation, tracked through contract status.",
+    "Price updates and contract discounts are handled on contracts.",
+    "The annual amount can be changed on a contract or quote.",
+    "Differences between the new and calculated annual amount can be distributed evenly, by line amount, or by profit.",
+    "A service item can be under multiple contracts to service parts separately.",
+    "Multiple contracts allow different response times, skill requirements, and service frequencies.",
+    "Contract copying is mentioned as part of working with multiple contracts."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:49.380Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009797
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:42.119Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview describes service contracts as agreements 'for customers'; the sources say only 'standard agreements defining service levels'. This is a harmless implication.",
+      "The key point 'Contract copying is mentioned as part of working with multiple contracts' is vague and adds little for agents, but it is supported by the Multiple contracts page features."
+    ],
+    "input_hash": "74a969519915acbf65f3454627a4ada643e59b538c564ee899b5178b16c66bea",
+    "cost_usd": 0.0265272
+  }
+}

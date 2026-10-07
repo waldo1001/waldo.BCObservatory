@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2023-release-wave-2",
+  "input_hash": "3f441b57228e8ad4197655a2ddb808235aa03523edcbcaf760adbbc596e74396",
+  "summary": "Upgrade guidance for on-premises Business Central 2023 release wave 2 (version 23): upgrade paths from versions 14 through 22, technical upgrade steps, C/AL to AL conversion, moving tables between extensions, permissions and report changes. It answers how to upgrade to version 23 and what to prepare first.",
+  "overview": "This section collects the Learn pages for upgrading on-premises Business Central to 2023 release wave 2 (version 23). It starts with an overview page covering upgrade paths, deprecated features and on-premises to online migration, plus a general considerations page and a compatibility matrix that shows the minimum versions needed between major versions.\n\nThe technical upgrade pages are split by starting version: one for version 14, one for version 19, and one for versions 20, 21 and 22. Separate pages cover upgrading the Microsoft System and Base Application from versions 15-22, and upgrading a version 14 C/AL application, either unmodified or customized. Each covers database conversion, extension publishing and synchronization. A page on installing a version 23 update covers platform and application updates with PowerShell.\n\nSupporting pages handle specific work: C/AL to AL conversion with Txt2Al, moving tables and fields between extensions (up or down the dependency graph with migration.json), upgrading permission sets, and upgrading reports. Start with the overview and compatibility matrix, then choose the technical upgrade page for your starting version.",
+  "key_points": [
+    "The compatibility matrix lists minimum update versions for upgrades between major versions; upgrades from version 24 or earlier must target version 25 first.",
+    "Separate technical upgrade guides exist for version 14, version 19, and versions 20-22 to version 23.",
+    "Upgrading a version 14 C/AL application to version 23 uses the System and Base Application extensions, with the DestinationAppsForMigration setting and migration.json for table migration.",
+    "Customized C/AL code is converted to AL with the Txt2Al tool, including .NET interoperability and test library conversion.",
+    "Moving tables and fields down the dependency graph uses migration.json; moving up requires a two-stage process with a transition extension.",
+    "Permission sets move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.",
+    "Report upgrade guidance for version 20 and later covers the new platform rendering model, report events, and Word and RDLC custom layouts.",
+    "The India Data Migration Toolkit page covers NAV 2016 India to Business Central 2021 release wave 2 in two steps, without customizations."
+  ],
+  "members_used": 17,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:18.212Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.02885
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:46.314Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says each technical upgrade page covers 'database conversion, extension publishing and synchronization'. The version 19 page summary lists extension recompilation and tenant synchronization but not extension publishing, and the customized C/AL page describes synchronization and installation. This is a slight overgeneralization.",
+      "Key point 3 merges two pages. The DestinationAppsForMigration setting appears in both version 14 C/AL pages, but migration.json for table migration appears only in the customized C/AL page. Still broadly accurate.",
+      "The source summary for 'Upgrading Unmodified C/AL Application to version 23' labels version 23 as '2023 release wave 1', which conflicts with the other pages. The narrative correctly uses 2023 release wave 2 throughout, but the source label should be checked.",
+      "The India Data Migration Toolkit key point targets 2021 release wave 2, not version 23. It is in scope because the page belongs to this hub, but it is less relevant to upgrading to version 23."
+    ],
+    "input_hash": "3f441b57228e8ad4197655a2ddb808235aa03523edcbcaf760adbbc596e74396",
+    "cost_usd": 0.0685392
+  }
+}

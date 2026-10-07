@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/development-environment/configure-the-development-environment",
+  "input_hash": "e7c21a062be36b58ed0bade511245d3192691a2185a6668f3735121b10ad873b",
+  "summary": "Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces. It answers setup, configuration and IP protection questions, with a subtopic on the JSON files.",
+  "overview": "This section covers how to set up and tune a Business Central AL development environment. It includes the AL Language extension settings in Visual Studio Code (compilation, code analysis, debugging, editor behavior) and a page on improving performance with large projects.\n\nTwo pages cover where code runs. One describes a container-based environment using Docker and the BCContainerHelper PowerShell module. The other describes cloud-hosted development in GitHub Codespaces through a devcontainer.json file.\n\nOther pages cover project-level settings: the runtime property in app.json for targeting a platform version, and the resourceExposurePolicy setting for protecting source code. The JSON files subtopic (app.json, launch.json, Directory.app.props.json, migration.json) details the configuration files. Start with the AL Language extension configuration page, then pick a container or Codespaces setup.",
+  "key_points": [
+    "The AL Language extension settings control compilation, code analysis, debugging and editor behavior, including incremental build, code analyzers, symbol search, profiler and snapshot debugging.",
+    "To speed up VS Code with large projects: disable code analysis, enable incremental builds, and adjust editor settings such as background compilation, code actions and format on save.",
+    "The runtime property in app.json sets the platform version an extension targets, which determines available features and publishing compatibility.",
+    "resourceExposurePolicy has allowDebugging, allowDownloadingSource, includeSourceInSymbolFile and applyToDevExtension; the NonDebuggable attribute also relates to IP protection.",
+    "A dynamic policy override using Azure Key Vault can give time-limited access to an extension's source code.",
+    "Container-based development uses Docker, Windows containers and BCContainerHelper to create and manage sandbox containers and install apps.",
+    "GitHub Codespaces development is configured with devcontainer.json (tools, VS Code extensions, settings, CodeCop and UICop analyzers, environment variables, port forwarding) for fast onboarding and consistent teams.",
+    "The JSON files subtopic covers app.json, launch.json, Directory.app.props.json and migration.json (4 pages)."
+  ],
+  "members_used": 6,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:11.346Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015261
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:14.903Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 5 says the Azure Key Vault dynamic policy override came in '2021 release wave 2'. That version is only a tag on the Resource exposure policy page as a whole and isn't tied to the override feature in the source, so the version was removed."
+    ],
+    "input_hash": "e7c21a062be36b58ed0bade511245d3192691a2185a6668f3735121b10ad873b",
+    "cost_usd": 0.0501432
+  }
+}

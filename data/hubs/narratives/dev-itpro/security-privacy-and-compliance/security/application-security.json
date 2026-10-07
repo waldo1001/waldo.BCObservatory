@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/security-privacy-and-compliance/security/application-security",
+  "input_hash": "f19b4f5cbea97eef34ab524f71fd2cdd147b75cc8ec2838cdded4ffea3c2434e",
+  "summary": "Application security in Business Central covers the layered security model, creating users according to licenses, and object permissions set through AL permission sets. It answers questions on sign-in, authorization, encryption, auditing, user and license setup, and read/insert/modify/delete/execute permissions.",
+  "overview": "This section explains how Business Central protects an installation and how administrators control who can do what. It applies to both online and on-premises deployments. The layered security model page gives the big picture: authentication, authorization, data encryption, auditing, and change logging.\n\nThe other two pages go into detail on access. \"Create users according to licenses\" covers creating users, assigning permission sets, managing licenses, and using security groups, user groups, and delegated admin. \"Permissions on Objects\" covers how read, insert, modify, delete, and execute permissions are given to tables, pages, reports, and other objects through AL permission sets.\n\nStart with the layered security model for context. Then use the user and license page for administration tasks, and the object permissions page when you build or review permission sets.",
+  "key_points": [
+    "The layered security model covers authentication, authorization, data encryption, auditing, and change logging.",
+    "Sign-in protection includes multifactor authentication; monitoring includes sensitive field monitoring, change log, and audit trails.",
+    "Administrators create users, assign permission sets, and manage licenses, with permissions that depend on license type.",
+    "User creation guidance covers security groups, user groups, and delegated admin, for online and on-premises.",
+    "Object permissions are read, insert, modify, delete, and execute, applied to tables, pages, reports, and other objects.",
+    "Permissions can be direct or indirect, and the page explains permission abbreviations and wildcard permissions.",
+    "Permission sets are defined in AL."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:05.301Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010029
+  }
+}

@@ -2,19 +2,20 @@
 id: topic/business-central/integrate-with-other-applications
 type: topic
 title: Integrate with other applications
-summary: "Learn section Integrate with other applications: 55 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:03.324Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ee5a9ec54103cd9a2e7a600bbc5c9304897a6d95edd18d3f2b00db1de51d27e8
+  prompts:
+    hub-topic: 1
+  input_hash: 027940c9c275621dcad7e0fd3cf7b164ba23d48761ec6224c21ff54ef54d4027
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
@@ -343,14 +344,29 @@ bc_forms:
   - 9666
   - 36951
 member_hash: ee5a9ec54103cd9a2e7a600bbc5c9304897a6d95edd18d3f2b00db1de51d27e8
-narrative: none
+narrative: generated
 ---
 
 # Integrate with other applications
 
-> Learn section Integrate with other applications: 55 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized.
 
-Path: Integrate with other applications · tier official · system none · no narrative yet
+Path: Integrate with other applications · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers how Business Central connects to other applications. The integration overview page is the starting point. It describes the options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Dynamics 365 Sales, Field Service, and Shopify.\n\nSubtopics cover the main areas in more depth. Office and Microsoft 365 pages deal with Excel, OneDrive, Outlook, Teams and Word. Power Platform pages cover the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages. Dataverse pages explain connection setup, user accounts, ownership, mappings, synchronization, Power Automate flows and troubleshooting. Field Service has its own pages on setup, work orders and related data.\n\nThe hub has two pages of its own on specific integrations. The Dynamics 365 Sales page describes integration through Dataverse, including connection settings, security roles, unit group mapping and table synchronization. Because Sales integration runs through Dataverse, the Dataverse pages are useful background for it. The Shopify Connector overview describes synchronization with Shopify stores for B2B and direct-to-consumer models.
+
+## Key points
+
+- The overview page lists the integration options: Office apps, Power Platform, Dataverse synchronization, virtual tables, webhooks, Sales, Field Service and Shopify.
+- Office and Microsoft 365 integration covers Excel, OneDrive, Outlook, Teams and Word (24 pages), including data exchange, file sharing, email and contacts, and document layouts.
+- Power Platform pages cover the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages on Dataverse virtual tables.
+- Dataverse pages cover connection, user accounts, ownership models, table and field mappings, manual and scheduled sync, and sync error troubleshooting.
+- Dynamics 365 Sales integration runs through Dataverse and supports bidirectional sync, sales order processing, item availability, unit group mapping and record coupling.
+- Setting up Sales integration involves connection settings, security roles, unit group mapping and table synchronization.
+- Field Service integration syncs work orders, posts project journal consumption, manages inventory and locations, and creates sales invoices.
+- Shopify Connector supports multiple shops and synchronizes items, inventory, customers, companies, orders and transactions, with order import and fulfillment tracking.
 
 ## Subtopics
 

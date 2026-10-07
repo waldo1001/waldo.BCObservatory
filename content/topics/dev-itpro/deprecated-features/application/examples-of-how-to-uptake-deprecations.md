@@ -2,19 +2,20 @@
 id: topic/dev-itpro/deprecated-features/application/examples-of-how-to-uptake-deprecations
 type: topic
 title: Examples of how to uptake deprecations
-summary: "Learn section Deprecated features > Application > Examples of how to uptake deprecations: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Examples of moving off deprecated Business Central features. Covers the North American bank reconciliation and deposits removal, the move from user groups to permission sets or security groups, and the move from legacy views to modern list views.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:28:06.778Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 65331994cc05e0b5803f213be0a762fe7c24a550304c050abb2fb55632e9ab50
+  prompts:
+    hub-topic: 1
+  input_hash: 34a91dfb4bb5b56b16bab0ee503804abfa1a544a4bc0f09f6a9914d8a287b185
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec
@@ -65,14 +66,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 65331994cc05e0b5803f213be0a762fe7c24a550304c050abb2fb55632e9ab50
-narrative: none
+narrative: generated
 ---
 
 # Examples of how to uptake deprecations
 
-> Learn section Deprecated features > Application > Examples of how to uptake deprecations: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Examples of moving off deprecated Business Central features. Covers the North American bank reconciliation and deposits removal, the move from user groups to permission sets or security groups, and the move from legacy views to modern list views.
 
-Path: [Deprecated features](../../deprecated-features.md) > [Application](../application.md) > Examples of how to uptake deprecations · tier official · system none · no narrative yet
+Path: [Deprecated features](../../deprecated-features.md) > [Application](../application.md) > Examples of how to uptake deprecations · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section gives worked uptake guidance for three deprecations in the Application area. Each page explains what is being removed or replaced and how to migrate, and some include code examples for extensions.
+
+The pages are independent of each other. Pick the one matching the feature you rely on: the North American bank reconciliation worksheet and deposits, user groups used for permission management, or legacy views created on Role Center pages.
+
+Start with the page for your affected feature, check the release wave or version it mentions, and follow its migration path.
+
+## Key points
+
+- NA bank reconciliation worksheet and deposits features were removed in 2023 release wave 2; the migration path is to standard reconciliations and bank deposits.
+- The bank page covers bank ledger entries, bank deposits and posted reconciliations.
+- User groups are deprecated in favor of permission sets and security groups for managing permissions in extensions.
+- The user group page gives migration guidance and code examples, including access control, user assignment and tenant permission sets.
+- Modern views replace legacy views created on Role Center pages.
+- Modern views offer better user experience, personalization and consistency across navigation methods.
+- Modern views cover view composition, filters, sorting and column layout per view.
+- The modern list views page references 2022 release wave 2, 2024 release wave 1, version 21 and version 24.
 
 ## Learn pages
 

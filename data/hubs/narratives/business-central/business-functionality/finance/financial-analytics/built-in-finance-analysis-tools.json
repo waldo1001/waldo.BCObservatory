@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-analysis-tools",
+  "input_hash": "05ac688178b02f3430159039ba159285ed1f297670a2d54eda36dbffcee266ad",
+  "summary": "Built-in finance analysis tools in Business Central cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure. It answers questions about monitoring budget variance, viewing cash trends and forecasts, reporting vendor payment times, and setting up accounts.",
+  "overview": "This section groups the analysis tools that come with Business Central finance. Three pages describe analysis tasks: comparing actual general ledger amounts to budgeted amounts, analyzing cash flow with charts and worksheets on the Accountant Role Center, and producing the payment practices report on vendor payment times. A fourth page explains the general ledger and chart of accounts. It covers how account categories, dimensions, and posting groups structure financial posting.",
+  "key_points": [
+    "Actual versus budget analysis: view filtered GL budget data and compare actual and budgeted amounts across accounts and periods, including multi-period views.",
+    "Cash flow analysis on the Accountant Role Center offers a cash cycle chart, cash flow chart, and income and expense chart.",
+    "A cash flow forecast and a cash flow worksheet support forecasting, with timeline filtering for the charts.",
+    "The payment practices report compares agreed and actual payment periods and shows the percentage of on-time payments.",
+    "The payment practices report covers average payment period and actual payment terms, and supports vendor grouping.",
+    "Authorities in several countries require the payment practices report from large companies.",
+    "The general ledger and chart of accounts page explains how to structure posting with account categories, dimensions, and posting groups.",
+    "Other setup topics on the chart of accounts page include invoice rounding and address formats."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:44.264Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010151
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:16.803Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says three pages describe analysis tasks but leaves out the fourth page, on the general ledger and chart of accounts. Readers get an incomplete picture of what the hub covers.",
+      "The key point 'groups results by vendor' reads more into the source than it says. The source only lists 'vendor grouping' as a feature, so the wording is softened to match.",
+      "All other claims match the page summaries. There are no status words or invented versions."
+    ],
+    "input_hash": "05ac688178b02f3430159039ba159285ed1f297670a2d54eda36dbffcee266ad",
+    "cost_usd": 0.0372272
+  }
+}

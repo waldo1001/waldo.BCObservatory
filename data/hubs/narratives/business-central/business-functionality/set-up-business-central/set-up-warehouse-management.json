@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management",
+  "input_hash": "4167a69f347db151803578c1379d56909fd8130c0125bb6f3a51726c1bd086d3",
+  "summary": "Warehouse management setup in Business Central: bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring locations. It answers how to configure locations and warehouse structures.",
+  "overview": "This section explains how to set up a warehouse in Business Central, from basic bin-based locations to advanced directed put-away and pick. Pages cover creating bins and bin contents, assigning default bins, defining bin types and put-away templates, and assigning users as warehouse employees.\n\nThe pages fit together by complexity. Basic setups use Bin Mandatory on a location, default bins, and inventory documents for operations areas such as production and assembly. Advanced setups add zones, bin types, warehouse class codes, put-away templates, and automatic breaking bulk. Further pages cover enabling FEFO picking, converting existing locations to warehouse locations, and restructuring a warehouse by moving items between bins.\n\nStart with \"Manage warehouse activities\" for the overview and \"Configure warehouse processes\" for the setup sequence. Then follow \"How to Set Up Locations to Use Bins\" for basic needs, or \"Set Up Directed Put-away and Pick\" for advanced needs.",
+  "key_points": [
+    "Turn on Bin Mandatory on a location and define default bins for receipts, shipments, and warehouse adjustments to start using bins.",
+    "Create bins one at a time from the location card, or in bulk with the Bin Creation Worksheet and Calculate Bins using rack, section, and level templates.",
+    "Bin contents can be created manually or with a worksheet, with fixed or default bin assignment and minimum and maximum quantities.",
+    "Six bin types exist for directed put-away and pick: RECEIVE, SHIP, PUT AWAY, PICK, PUTPICK, and QC.",
+    "Put-away templates use fixed bins, bin rankings, and floating bins, and can be set at item level or as warehouse defaults.",
+    "Warehouse employees are users assigned to locations, with a default location and access to several locations.",
+    "Converting an existing location uses the Create Warehouse Location batch job and requires clearing negative inventory first.",
+    "FEFO picking needs item tracking codes with warehouse tracking and expiration dates, plus Bin Mandatory on the location."
+  ],
+  "members_used": 15,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:24.923Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020645
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:16.682Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the FEFO key point says Bin Mandatory is required. The source only lists Bin Mandatory as a feature of the FEFO page, so 'needs' goes a little further than the source states, though it is consistent with it.",
+      "Minor: the overview's recommended reading order (overview page, then setup sequence, then basic or advanced path) is the writer's own framing. It is reasonable and matches the page summaries."
+    ],
+    "input_hash": "4167a69f347db151803578c1379d56909fd8130c0125bb6f3a51726c1bd086d3",
+    "cost_usd": 0.0485512
+  }
+}

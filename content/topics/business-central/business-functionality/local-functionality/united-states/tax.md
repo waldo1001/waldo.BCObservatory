@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-states/tax
 type: topic
 title: Tax
-summary: "Learn section Business functionality > Local functionality > United States > Tax: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "US tax in Business Central: sales tax, use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 forms. It answers questions about tax setup, jurisdictions and groups, 1099 vendor tracking, form format changes, and submitting forms to the IRS."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 24efd1f8e11c07b4bac6043fd23e9d4a85edf3e9a48241edff0944a677cc8994
+  prompts:
+    hub-topic: 1
+  input_hash: bb238a3740286730b62972f2c27e630c2bf7da5bd0ea78508c1cff5456b40356
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup
@@ -163,14 +164,33 @@ bc_forms:
   - 10900
   - 100136
 member_hash: 24efd1f8e11c07b4bac6043fd23e9d4a85edf3e9a48241edff0944a677cc8994
-narrative: none
+narrative: generated
 ---
 
 # Tax
 
-> Learn section Business functionality > Local functionality > United States > Tax: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> US tax in Business Central: sales tax, use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 forms. It answers questions about tax setup, jurisdictions and groups, 1099 vendor tracking, form format changes, and submitting forms to the IRS.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Tax · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Tax · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers tax functionality specific to the US version. One group of pages handles sales and purchase taxes: basic tax setup (Tax Setup page, default G/L accounts, nontaxable sales group code), sales tax details, jurisdictions and groups, use tax and purchase tax, and unrealized sales tax with sales payment discounts.
+
+The other group covers IRS reporting. It includes an introduction to the 1099 forms (MISC, NEC, INT, DIV), setup of 1099 forms and reporting periods, tracking 1099 data on purchase documents, regulatory box format changes, submission to the IRS, and the 1096 transmittal form for paper 1099s.
+
+Start with Basic Tax Setup and Sales tax for general tax configuration. For 1099 work, read the introduction first, then the setup pages, then tracking and submission. Several 1099 pages carry version notes. The regulatory format changes are available from version 24.0 and mandatory from version 27.0. The 1099 setup is enabled automatically from version 27.0. Check the version notes on each page.
+
+## Key points
+
+- Basic tax setup uses the Tax Setup page to define tax information, group codes and default accounts for tax posting.
+- Sales tax is configured through the Tax Details page, tax jurisdictions and tax groups, with a Copy Tax Setup task.
+- Separate pages cover use tax, purchase tax, and unrealized sales tax with sales payment discounts.
+- The 1099 forms supported are 1099-MISC, 1099-NEC, 1099-INT and 1099-DIV, with IRS submission and Copy B vendor copies.
+- 1099 setup covers reporting periods, form box configuration, vendor mapping, TIN protection and 1099 codes and amounts on purchase documents and vendor ledger entries.
+- Regulatory 1099 box format changes are available from version 24.0 and mandatory from version 27.0, applied with the Update Form Boxes action.
+- 1099 forms can be submitted through IRIS or magnetic media, with transmission status, error handling, corrections and email delivery.
+- Form 1096 is enabled in Feature Management, needs a number series, and is created, replaced, released and printed per tax period.
 
 ## Learn pages
 

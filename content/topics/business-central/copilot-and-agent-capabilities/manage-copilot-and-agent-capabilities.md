@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,7 @@ links:
   posts:
     - post/demiliani-com/13563
     - post/demiliani-com/15935
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -84,7 +85,7 @@ coverage:
   learn: 5
   code: 0
   video: 4
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 7771
@@ -132,6 +133,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../posts/demiliani-com/13563.md) (community post): "Users can monitor credit consumption directly in Business Central through the Agent page"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
+- [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"
 - [Getting Started With Agents: Billing Agents in Business Central - Configure "Pay as You Go" (2025)](../../../videos/9esVS6I4wrY.md) (video): "Pay-as-you-go billing for agents; Agent consumption monitoring"
 - [Introducing: AI Consumption Billing for Business Central (2025 release wave 1)](../../../videos/BrMKx3wqYac.md) (video): "ai consumption billing; sales order agent; copilot studio messages"
 - [What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent](../../../videos/nnCLAqEM0Bs.md) (video): "Understanding Copilot Credit Consumptions for Your Business Central Agent; copilot credits; consumption monitoring; agent tasks"

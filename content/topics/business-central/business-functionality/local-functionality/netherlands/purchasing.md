@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/purchasing
 type: topic
 title: Purchasing
-summary: "Learn section Business functionality > Local functionality > Netherlands > Purchasing: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Purchasing for the Netherlands local version of Business Central. It covers checking document amounts on purchase invoices and credit memos and editing the document amount including VAT and the VAT amount. Use it for questions about amount validation before posting.
 tier: official
 language: en
 system: purchasing
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 94c584780deac8af3da50db8b73b05c3ffcffbb8f4846cddd20d4978176d6d3c
+  prompts:
+    hub-topic: 1
+  input_hash: dfefd5bf6b87943d257dc7a63b452e1700cdf9ec84ff1c8cc2c6e0bab9a9ba57
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts
@@ -59,14 +60,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 94c584780deac8af3da50db8b73b05c3ffcffbb8f4846cddd20d4978176d6d3c
-narrative: none
+narrative: generated
 ---
 
 # Purchasing
 
-> Learn section Business functionality > Local functionality > Netherlands > Purchasing: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Purchasing for the Netherlands local version of Business Central. It covers checking document amounts on purchase invoices and credit memos and editing the document amount including VAT and the VAT amount. Use it for questions about amount validation before posting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Purchasing · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Purchasing · tier official · system purchasing · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds two pages on purchase documents in the Dutch version. Both deal with the document total on purchase invoices and credit memos, and how it relates to the purchase lines.
+
+One page explains the amount check. It validates that the document total including VAT matches the sum of the purchase lines before posting. It is tied to 2025 release wave 1. The other page explains how to edit the document amount including VAT and the VAT amount fields in the Dutch version. It also mentions recurring purchase lines.
+
+Start with the amount check page to learn what is validated. Then use the editing page to learn which fields you can change.
+
+## Key points
+
+- Applies to the Netherlands local version, under Purchasing.
+- Amount check compares the document total including VAT with the sum of the purchase lines before posting.
+- The check covers both purchase invoices and credit memos.
+- The amount check page is listed for 2025 release wave 1.
+- In the Dutch version you can edit the document amount including VAT and the VAT amount fields.
+- The editing page also covers recurring purchase lines.
+- There are no subtopics, so the two pages are the full scope.
 
 ## Learn pages
 

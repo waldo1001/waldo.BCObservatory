@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/purchasing",
+  "input_hash": "98d9df65aaa7faf13d36a4d0f67922e416a06aece7021c25f34d8c7b2169d3ad",
+  "summary": "Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization.",
+  "overview": "The section is about one Swiss-specific purchasing feature, delivery reminders. These are used to follow up with vendors on overdue deliveries. The pages follow the process in order: setup, assignment to vendors, creation, review, and issuing.\n\nStart with the Delivery Reminders overview page, which describes the whole feature. Then use the setup page and the page on delivery reminder terms, levels, and text to configure it. After that, assign delivery reminder codes to vendors. Once setup is done, you can create reminders manually or generate them with a batch job. You can preview them with a test report before issuing them.",
+  "key_points": [
+    "Delivery Reminders [CH] is the overview page: setup, assignment, generation, and issuance.",
+    "Set up delivery reminders (CH) establishes the initial configuration.",
+    "Delivery reminder terms, levels, and text are configured on their own setup page.",
+    "Delivery reminder codes are assigned to vendor records so reminders can be managed per vendor.",
+    "Reminders can be created manually or generated through a batch job based on configured criteria.",
+    "The Delivery Reminder - Test report lets you review and modify reminders before issuing, with selective filtering.",
+    "Issuing delivery reminders is the final step to follow up on overdue deliveries."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:11.586Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011224999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:20.016Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the pages \"follow the process in order\". That is a reading of how the pages fit together, not something a page summary states. It is harmless and matches the workflow the summaries describe.",
+      "Minor: in the summary, \"chase overdue vendor deliveries\" is casual wording, but the issue page does support following up on overdue deliveries."
+    ],
+    "input_hash": "98d9df65aaa7faf13d36a4d0f67922e416a06aece7021c25f34d8c7b2169d3ad",
+    "cost_usd": 0.0257232
+  }
+}

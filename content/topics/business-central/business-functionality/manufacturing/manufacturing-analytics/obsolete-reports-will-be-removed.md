@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed
 type: topic
 title: Obsolete reports (will be removed)
-summary: "Learn section Business functionality > Manufacturing > Manufacturing analytics > Obsolete reports (will be removed): 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Obsolete manufacturing analytics reports in Business Central that will be removed. It covers cost reports (calculation, cost shares, BOM compare), and machine center and work center list and load reports. Use it to identify what each retiring report shows.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:42.379Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 03ec5b2f1fbf13f07f9a003a7d7b72441b0cef8150f86e4c808cdc773cd65dd0
+  prompts:
+    hub-topic: 1
+  input_hash: a88e12cd2f96cd33102c22b48faa0d5bbb9f71d07b963d48bacc5f9c26c52fc5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756
@@ -142,14 +143,33 @@ bc_forms:
   - 99000786
   - 990000785
 member_hash: 03ec5b2f1fbf13f07f9a003a7d7b72441b0cef8150f86e4c808cdc773cd65dd0
-narrative: none
+narrative: generated
 ---
 
 # Obsolete reports (will be removed)
 
-> Learn section Business functionality > Manufacturing > Manufacturing analytics > Obsolete reports (will be removed): 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Obsolete manufacturing analytics reports in Business Central that will be removed. It covers cost reports (calculation, cost shares, BOM compare), and machine center and work center list and load reports. Use it to identify what each retiring report shows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Obsolete reports (will be removed) · tier official · system platform · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Obsolete reports (will be removed) · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section lists eleven manufacturing reports marked as obsolete and scheduled for removal. Each page describes one report: what it shows and which filters or fields it uses. There are no subtopics.
+
+The reports fall into three groups. Cost reports: Detailed Calculation, Prod. Order - Calculation, Single-Level Cost Shares, Rolled-up Cost Shares and Item BOM Compare list. Capacity setup lists: Machine Center List and Work Center List. Capacity load reports: Machine Center Load, Machine Center Load/Bar, Work Center Load and Work Center Load/Bar.
+
+Start here if you rely on one of these reports and need to know what it covers, or if you are checking which reports to replace before they are removed. The summaries do not name replacements.
+
+## Key points
+
+- Detailed Calculation shows a single-level cost breakdown for items: BOM components, routing operations (setup and run times, work center types) and scrap costs.
+- Item BOM Compare list compares components, costs and quantities between two production BOMs, including cost share and difference cost.
+- Single-Level Cost Shares breaks unit cost into material, capacity, subcontract and overhead, with the unit cost calculation date.
+- Rolled-up Cost Shares shows how BOM item costs accumulate to the parent item by BOM structure and cost type.
+- Prod. Order - Calculation lists production orders with expected operation costs, component costs and total manufacturing cost.
+- Machine Center List and Work Center List show setup data such as capacity, efficiency and work center assignment, with filtering. The work center list also shows unit cost, base calendar code and alternate work center.
+- Machine Center Load and Work Center Load show workload as the sum of planned and actual orders over a chosen period.
+- The Load/Bar reports for machine centers and work centers show overloaded ones according to production plans, with efficiency bars and configurable overload thresholds.
 
 ## Learn pages
 

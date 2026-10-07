@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26",
+  "input_hash": "88536bd8b69d105d65662ec2cf66b94a1ae2af33096fd052fb1d050707bb63a7",
+  "summary": "Upgrading on-premises Business Central to 2025 release wave 1 (version 26). It answers questions about upgrade paths, pre-upgrade considerations, and the step-by-step procedures for installing a version 26 update or upgrading the System and Base Application from earlier versions.",
+  "overview": "This section covers moving an on-premises Business Central deployment to 2025 release wave 1 (version 26). It has four pages: an overview of upgrade paths and architecture, a pre-upgrade considerations page, and two procedure pages. The procedures cover installing a version 26 update and upgrading the Microsoft System and Base Application from version 25 or earlier.\n\nStart with the overview page. It explains the architecture changes, including extension-based development, the System Application, and the Business Foundation extension dependencies. Then read the considerations page for deprecated functionality, deleted objects, schema changes, and extension performance effects. Finally, follow the procedure that matches your starting point: the update page for installing a version 26 update, or the upgrade page for moving from an earlier version.\n\nBoth procedures follow the same broad flow: convert the database, publish extensions, synchronize the tenant, and run the data upgrade.",
+  "key_points": [
+    "The overview page describes the upgrade paths and architecture changes: extension-based development, System Application, Business Foundation extension dependencies, and cloud migration.",
+    "The considerations page applies to versions 26 to 29. It covers deprecated or redesigned functionality, deleted objects (v24 and earlier), and the performance impact of installed extensions.",
+    "Schema changes in the Subscription Billing extension (v25 to v26 and later) are covered, including the use of force sync for schema migration.",
+    "Deployment changes from v23 are noted: port 7085 and SPN delegation configuration.",
+    "Microsoft recommends transitioning to AL-based permissions.",
+    "The install page covers platform upgrade, application upgrade, extension publishing, database synchronization, data upgrade, and license import.",
+    "The upgrade page covers upgrading the System and Base Application to v26 from version 25 or earlier (back to version 16). It includes database conversion, tenant synchronization, permission sets, and encryption management."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:37.166Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014097
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:42.546Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 1 groups cloud migration with the architecture changes. The overview page's summary lists cloud migration only as a feature, not as an architecture change. Minor wording issue."
+    ],
+    "input_hash": "88536bd8b69d105d65662ec2cf66b94a1ae2af33096fd052fb1d050707bb63a7",
+    "cost_usd": 0.0433192
+  }
+}

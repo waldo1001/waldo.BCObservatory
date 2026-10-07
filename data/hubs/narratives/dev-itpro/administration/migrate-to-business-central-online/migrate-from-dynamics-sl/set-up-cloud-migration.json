@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/set-up-cloud-migration",
+  "input_hash": "b6b29dbca0a83a74002ef053484511d6e5ea32a60cd260ab90be8846962591d6",
+  "summary": "Cloud migration setup for Dynamics SL to Business Central online. It covers the connection and pipeline architecture, running the Cloud Migration Setup guide, and configuring global and per-company migration settings. It answers questions about setup steps, connections and migration options.",
+  "overview": "This section explains how to prepare a migration from Dynamics SL to Business Central online. It starts with an overview of how the connection between the on-premises and online databases is built: an integration runtime plus Azure Data Factory preparation and replication pipelines, with compatibility checks and table mapping.\n\nThe practical steps are split across two pages. One runs the Cloud Migration Setup guide, which handles delegated administrator approval, the SQL database connection, integration runtime configuration, company selection and storage capacity. The other configures the Dynamics SL company migration, with global and per-company settings.\n\nStart with the overview to understand the components, then run the setup guide, then configure the company migration settings.",
+  "key_points": [
+    "Setup connects on-premises and online databases through an integration runtime and Azure Data Factory pipelines.",
+    "Two pipelines are used: a preparation pipeline and a replication pipeline.",
+    "Compatibility checks and table mapping are part of the setup process.",
+    "The Cloud Migration Setup guide configures components and connections, including the SQL database connection and integration runtime.",
+    "The guide covers delegated administrator approval, company selection and storage capacity management.",
+    "Company migration settings include module selection, dimension mapping and master data migration.",
+    "Settings also control auto-posting, historical snapshots and 1099 information.",
+    "Settings are applied at global and per-company levels."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:59.713Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0172408
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:01.195Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the narrative refers to 'on-premises and online databases' generically; the source summaries describe them as on-premises and online Business Central databases. This is consistent with the sources and needs no change."
+    ],
+    "input_hash": "b6b29dbca0a83a74002ef053484511d6e5ea32a60cd260ab90be8846962591d6",
+    "cost_usd": 0.0262912
+  }
+}

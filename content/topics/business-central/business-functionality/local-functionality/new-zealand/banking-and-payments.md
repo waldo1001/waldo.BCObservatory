@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > New Zealand > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:06.520Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1af11a66ffcfa7f94beb2624169ee8b24bf6811b753b826aa51d1c603aadf62d
+  prompts:
+    hub-topic: 1
+  input_hash: 1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow
@@ -88,14 +89,29 @@ bc_forms:
   - 28092
   - 28093
 member_hash: 1af11a66ffcfa7f94beb2624169ee8b24bf6811b753b826aa51d1c603aadf62d
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > New Zealand > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the New Zealand local pages for banking and payment tasks. Each page is a short topic on one function: comparing bank cash flow, creating check installments, using EFT, and printing two kinds of reports.
+
+The pages are independent of each other and there are no subtopics. Pick the page that matches the task. For vendor payments, look at check installments and EFT. For checking and documenting bank activity, look at the bank account reconciliation reports, deposit slip reports and bank cash flow comparison.
+
+## Key points
+
+- Compare Bank Cash Flow [NZ]: analyze bank cash flow in the New Zealand version.
+- Create check installments [NZ]: split a check into multiple payment installments for vendor payments.
+- Electronic Funds Transfer (EFT) [NZ]: process vendor payments through the electronic funds transfer system.
+- Print bank account reconciliation reports [NZ]: produce reports to verify bank accounts.
+- Print deposit slip reports [NZ]: generate deposit slip reports for bank deposits.
+- All five pages apply to the New Zealand version only and have no subtopics.
 
 ## Learn pages
 

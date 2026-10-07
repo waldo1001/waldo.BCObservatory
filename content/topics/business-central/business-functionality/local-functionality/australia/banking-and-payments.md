@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Australia > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Banking and payments pages for the Australian version of Business Central. They cover bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) vendor payments, and printing bank reconciliation and deposit slip reports.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:56.056Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 19b70cb270ec2542932146b20bff9ba3d0fadce96f44cec85a6848e21d3792d0
+  prompts:
+    hub-topic: 1
+  input_hash: 53669d54e2f367a619d741d37b4c212389036377cec594cdc98f23b4c60dd814
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow
@@ -88,14 +89,32 @@ bc_forms:
   - 28092
   - 28093
 member_hash: 19b70cb270ec2542932146b20bff9ba3d0fadce96f44cec85a6848e21d3792d0
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Australia > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments pages for the Australian version of Business Central. They cover bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) vendor payments, and printing bank reconciliation and deposit slip reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects Australia-specific banking and payment tasks. It has five pages and no subtopics. They fall into two groups: paying vendors and reconciling or documenting bank activity.
+
+For payments, the EFT page describes paying vendors through the Australian EFT payment system, which works with bank file export. The check installments page covers creating check installments for payment processing.
+
+For reconciliation and documentation, there are pages on comparing bank cash flow, printing bank account reconciliation reports, and printing deposit slip reports. Start with the EFT page if you need to pay vendors by bank file. Start with the report pages if you need output for reconciliation or audit.
+
+## Key points
+
+- EFT in Australia lets you pay vendors through the Australian EFT payment system.
+- EFT is integrated with bank file export.
+- Check installments can be created in the Australian version for payment processing.
+- Bank cash flow can be compared to analyze and reconcile bank account transactions.
+- Bank account reconciliation reports can be printed for reconciliation and audit purposes.
+- Deposit slip reports can be printed for bank reconciliation and payment documentation.
+- The section has five pages and no subtopics.
 
 ## Learn pages
 

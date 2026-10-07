@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-project-management
 type: topic
 title: Set up project management
-summary: "Learn section Business functionality > Set up Business Central > Set up project management: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Project management setup in Business Central covers resources, resource costs, prices and capacity, projects, project prices, project posting groups, and time sheets with approval. It answers questions about the configuration needed before projects can record usage, cost, and revenue.
 tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0ce5d30b9e50b88e4e92543a2007342e90704038cf2da46c8f3b8d940617e32b
+  prompts:
+    hub-topic: 1
+  input_hash: 5e32a2ddf201870491f7e5e1716a53a640736a22680c43c90a2357bb048ed6c4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-resources
@@ -93,14 +94,31 @@ bc_forms:
   - 9014
   - 9015
 member_hash: 0ce5d30b9e50b88e4e92543a2007342e90704038cf2da46c8f3b8d940617e32b
-narrative: none
+narrative: generated
 ---
 
 # Set up project management
 
-> Learn section Business functionality > Set up Business Central > Set up project management: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Project management setup in Business Central covers resources, resource costs, prices and capacity, projects, project prices, project posting groups, and time sheets with approval. It answers questions about the configuration needed before projects can record usage, cost, and revenue.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up project management · tier official · system projects · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up project management · tier official · system projects · narrative reviewed by Opus
+
+## Overview
+
+This section describes the initial configuration for project management. It has four pages. One covers resources, time sheets, and projects as a general starting point. One covers resource costs, prices, and capacity. One covers projects, prices, and posting groups. The last covers time sheets and their approval.
+
+Start with the page on resources, time sheets, and projects for an overview of the initial setup: resources, time sheet configuration, and project cards. Then use the resource page to define costs, prices, capacity, and resource groups. Use the project page to set prices for resources, items, and G/L accounts, to set up project posting groups so cost and revenue are recognized, and to configure usage link tracking. The time sheet page covers time registration and approval, set up either through the assisted setup guide or manually.
+
+## Key points
+
+- Resource setup covers capacity, alternate costs, alternate prices, cost adjustment, and price changes.
+- Resource setup also includes resource groups and multiple user posting.
+- Project prices can be set for resources, items, and G/L accounts.
+- Project posting groups link projects to G/L accounts for cost and revenue recognition.
+- Usage link tracking is part of the project setup.
+- Time sheets are enabled with the Use Time Sheet checkbox, and approval options include Time Sheet by Job Approval.
+- Time sheet setup uses fields such as the Time Sheet Admin checkbox, Time Sheet Owner User ID, and Time Sheet Approver User ID.
+- Time sheets can be set up through an assisted setup guide or manually. The page mentions a Use New Time Sheet Experience option and references 2023 release wave 1.
 
 ## Learn pages
 

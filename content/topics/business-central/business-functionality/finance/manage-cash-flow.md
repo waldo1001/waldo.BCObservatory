@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-cash-flow
 type: topic
 title: Manage cash flow
-summary: "Learn section Business functionality > Finance > Manage cash flow: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Cash flow management in Business Central: forecasting and analyzing cash inflows and outflows from sales, purchasing and fixed assets. It answers questions about the cash flow forecast, the analysis charts and worksheet on the Accountant Role Center, and building forecast reports from financial report definitions."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:11.917Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 37d49d2d709704ba1ca534f068643f8125b28378fa5cf75b426bb6b83737cb24
+  prompts:
+    hub-topic: 1
+  input_hash: 015819f591bd63f76527960c200ef3938a4a980d5cdc5b0e796e2d44086c0b93
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-analyze-cash-flow
@@ -91,14 +92,32 @@ bc_forms:
   - 869
   - 1818
 member_hash: 37d49d2d709704ba1ca534f068643f8125b28378fa5cf75b426bb6b83737cb24
-narrative: none
+narrative: generated
 ---
 
 # Manage cash flow
 
-> Learn section Business functionality > Finance > Manage cash flow: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Cash flow management in Business Central: forecasting and analyzing cash inflows and outflows from sales, purchasing and fixed assets. It answers questions about the cash flow forecast, the analysis charts and worksheet on the Accountant Role Center, and building forecast reports from financial report definitions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage cash flow · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage cash flow · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to forecast and analyze cash flow. The overview page explains the concepts: cash receipts, cash disbursements and net cash flow, drawn from sources such as sales, purchasing and fixed assets, plus manual revenues and manual expenses.
+
+The other two pages are task oriented. One describes the analysis tools on the Accountant Role Center, including charts and a worksheet. The other is a walkthrough for building cash flow forecast reports with row and column definitions.
+
+Start with the cash flow overview to learn the terms. Then use the analysis page for day-to-day review, or the financial reports walkthrough if you need a printable forecast report.
+
+## Key points
+
+- Cash flow forecasting covers inflows and outflows from sales, purchasing and fixed assets.
+- Manual revenues and manual expenses can be added to the forecast.
+- Key measures are cash receipts, cash disbursements and net cash flow.
+- The Accountant Role Center offers a cash cycle chart, a cash flow chart and an income and expense chart.
+- The cash flow worksheet and cash flow forecast support planning, and timeline filtering changes the period shown.
+- Forecast reports use financial report row definitions and column definitions, cash flow accounts and forecast formulas.
+- Forecast reports built from financial reports can be printed.
 
 ## Learn pages
 

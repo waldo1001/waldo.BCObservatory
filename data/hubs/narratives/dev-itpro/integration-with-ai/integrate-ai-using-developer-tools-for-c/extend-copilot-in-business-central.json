@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+  "input_hash": "9308fd8a626d4f00ca44fcd3d8e6e79d6bf998054fccaa1aa38c757b4293a73d",
+  "summary": "Extending Copilot in Business Central with AL: building a Copilot capability with the System.AI module and Azure OpenAI, designing the user experience with the PromptDialog page type, and testing capabilities and agents. It answers how-to questions for AL developers.",
+  "overview": "This section is for AL developers who add generative AI to Business Central extensions. It starts with an introduction to the building blocks: a prompt dialog page, the AI module of the system application, and an Azure OpenAI resource.\n\nThe page \"Build the Copilot capability in AL\" covers the code side: registering the capability, storing authorization, configuring parameters, defining a metaprompt and generating responses. Two subtopics cover the rest. \"Build Copilot user experience\" explains the PromptDialog page type and its prompt, generate and content modes. \"Test Copilot capability in AL\" covers the Evaluation framework and how to write AI tests and agent tests.\n\nStart with the introduction, then build the capability, then design the dialog, and finally set up tests.",
+  "key_points": [
+    "A Copilot experience needs three parts: a prompt dialog page, the AI module of the system application, and an Azure OpenAI resource.",
+    "Building the capability covers capability registration, authorization storage in IsolatedStorage, parameter configuration, metaprompt definition and response generation.",
+    "The capability page covers chat completion, text completion and embeddings through the System.AI module, plus the token limits to keep in mind. It references 2025 release wave 2.",
+    "The PromptDialog page type has prompt, generate and content modes, and the pages cover error handling and launching Copilot features from prompt actions.",
+    "Testing uses the Evaluation framework (formerly AI Test Toolkit) with JSONL and YAML datasets.",
+    "Test pages cover AI tests and agent tests, plus best practices for non-determinism, safety, languages and model changes."
+  ],
+  "members_used": 2,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:56.147Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011063
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:27.474Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 adds '(2025 release wave 2)' to the System.AI features. The page only lists that version as a reference. Nothing says chat completion, text completion, embeddings or token limits were introduced in or tied to that release. I reworded the point so it doesn't suggest that.",
+      "All other claims are supported by the page and subtopic summaries: the three building blocks, the capability steps (including IsolatedStorage), the PromptDialog modes, error handling, prompt actions, the Evaluation framework (formerly AI Test Toolkit), JSONL and YAML datasets, AI tests and agent tests, and the best practices."
+    ],
+    "input_hash": "9308fd8a626d4f00ca44fcd3d8e6e79d6bf998054fccaa1aa38c757b4293a73d",
+    "cost_usd": 0.033635200000000004
+  }
+}

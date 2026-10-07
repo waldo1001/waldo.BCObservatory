@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/administration/prepare-business-central",
+  "input_hash": "09fb2f39a682c461bd9040efb17091982fe0a1b20127fe25109a8ef2f09cdba7",
+  "summary": "Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready.",
+  "overview": "This section gathers the tasks needed to get a Business Central environment ready for use. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, base calendars, data migration) and then branches into more specific topics.",
+  "key_points": [
+    "Overview of setup tasks lists company configuration, general functionality, business processes, Microsoft product integrations, apps, and data migration.",
+    "Configuration packages: set up reusable templates (worksheet, questionnaire, RapidStart export), then apply them to new customers and import data from Excel.",
+    "Per-tenant extensions are uploaded and scheduled via the Admin Center or Extension Management page; apps must be unique and versions managed.",
+    "Conflicting per-tenant extension upgrades require uninstalling, removing naming conflicts in objects and fields, then reinstalling.",
+    "Marketplace apps in production are upgraded manually through Extension Management or the Admin Center.",
+    "The Excel add-in can be acquired individually, deployed centrally through Microsoft 365, or installed manually; the network must allow the required endpoints.",
+    "Outlook add-ins (Contact Insights, Document Links) can be deployed centrally, automatically, or per user.",
+    "Feature Management lets you enable optional features early (some are irreversible); a separate page lists features becoming mandatory from 2023 to 2026 release waves."
+  ],
+  "members_used": 13,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:28.632Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017421
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:10.225Z",
+    "verdict": "approve",
+    "issues": [
+      "The key points leave out app key vaults (the ISV key vault reader and secret permissions for marketplace apps) and the Recommended Apps extension. The summary mentions both, so they are covered, but neither gets its own point.",
+      "The overview says the section 'starts with' the setup-tasks overview and then 'branches into more specific topics'. The hub has no subtopics, so 'branches' is loose wording. It does not mislead, though.",
+      "The Outlook key point lists centralized, automatic and per-user deployment. The source also mentions online and on-premises scenarios, which the key point leaves out. That is a small omission, not an error."
+    ],
+    "input_hash": "09fb2f39a682c461bd9040efb17091982fe0a1b20127fe25109a8ef2f09cdba7",
+    "cost_usd": 0.0433592
+  }
+}

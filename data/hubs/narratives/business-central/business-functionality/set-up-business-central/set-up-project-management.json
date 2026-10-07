@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-project-management",
+  "input_hash": "5e32a2ddf201870491f7e5e1716a53a640736a22680c43c90a2357bb048ed6c4",
+  "summary": "Project management setup in Business Central covers resources, resource costs, prices and capacity, projects, project prices, project posting groups, and time sheets with approval. It answers questions about the configuration needed before projects can record usage, cost, and revenue.",
+  "overview": "This section describes the initial configuration for project management. It has four pages. One covers resources, time sheets, and projects as a general starting point. One covers resource costs, prices, and capacity. One covers projects, prices, and posting groups. The last covers time sheets and their approval.\n\nStart with the page on resources, time sheets, and projects for an overview of the initial setup: resources, time sheet configuration, and project cards. Then use the resource page to define costs, prices, capacity, and resource groups. Use the project page to set prices for resources, items, and G/L accounts, to set up project posting groups so cost and revenue are recognized, and to configure usage link tracking. The time sheet page covers time registration and approval, set up either through the assisted setup guide or manually.",
+  "key_points": [
+    "Resource setup covers capacity, alternate costs, alternate prices, cost adjustment, and price changes.",
+    "Resource setup also includes resource groups and multiple user posting.",
+    "Project prices can be set for resources, items, and G/L accounts.",
+    "Project posting groups link projects to G/L accounts for cost and revenue recognition.",
+    "Usage link tracking is part of the project setup.",
+    "Time sheets are enabled with the Use Time Sheet checkbox, and approval options include Time Sheet by Job Approval.",
+    "Time sheet setup uses fields such as the Time Sheet Admin checkbox, Time Sheet Owner User ID, and Time Sheet Approver User ID.",
+    "Time sheets can be set up through an assisted setup guide or manually. The page mentions a Use New Time Sheet Experience option and references 2023 release wave 1."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:12.137Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010856999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:52.101Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the resources, time sheets, and projects page gives the 'overall setup order'. Its summary only says it covers the initial configuration (resource setup, time sheet configuration, project cards). It never mentions an order.",
+      "The last key point ties 2023 release wave 1 to the Use New Time Sheet Experience option. The source only lists that version for the time sheet page as a whole, so the link is an inference. I reworded it to name both without linking them.",
+      "Small point: the 'Time Sheet by Job' approval wording is close to the source feature name 'Time Sheet by Job Approval'. It is acceptable as written."
+    ],
+    "input_hash": "5e32a2ddf201870491f7e5e1716a53a640736a22680c43c90a2357bb048ed6c4",
+    "cost_usd": 0.0410952
+  }
+}

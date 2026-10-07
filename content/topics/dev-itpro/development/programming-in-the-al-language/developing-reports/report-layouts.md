@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts
 type: topic
 title: Report layouts
-summary: "Learn section Development > Programming in the AL language > Developing reports > Report layouts: 22 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 03e55fa18a37d791e5391e794f5557b8593f7580d9a83f94221314fb980a514f
+  prompts:
+    hub-topic: 1
+  input_hash: 992a549ec6019a54ce52723b1a2619d94b171c15696096c926f4baa7e0b84cce
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -205,10 +206,17 @@ links:
     - video/V8CSor5qBRE
     - video/W003w36Isto
   posts:
+    - post/aardvarklabs-blog/1824
+    - post/aardvarklabs-blog/2107
+    - post/aardvarklabs-blog/2196
+    - post/aardvarklabs-blog/2271
     - post/aardvarklabs-blog/3544
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/
+    - post/thedynamicsexplorer-com/9051
+    - post/thinkaboutit-be/7181
+    - post/thinkaboutit-be/7266
   guidelines: []
 learn_toc_path:
   - Development
@@ -222,7 +230,7 @@ coverage:
   learn: 22
   code: 0
   video: 3
-  blog: 4
+  blog: 11
   guideline: 0
 bc_forms:
   - 21
@@ -231,14 +239,33 @@ bc_forms:
   - 9660
   - 9666
 member_hash: 03e55fa18a37d791e5391e794f5557b8593f7580d9a83f94221314fb980a514f
-narrative: none
+narrative: generated
 ---
 
 # Report layouts
 
-> Learn section Development > Programming in the AL language > Developing reports > Report layouts: 22 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+Report layouts control the content and format of reports and documents. Business Central supports Word, Excel, RDLC and external layouts, and composite layouts that combine reusable themes with headers and footers. The overview page and "Get started creating report layouts" explain the layout types and the basic steps: choose a type, copy or export an existing layout, modify it, import it, validate it and manage its status.
+
+Type-specific pages cover the design work. For Word, they describe creating the report, using the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks and authoring tips. For Excel, they cover the data contract, system worksheets and PivotTables. For RDL and RDLC, they cover SQL Server Report Builder and Visual Studio. Developer pages cover defining multiple layouts in the AL rendering section, adding barcodes, and building a custom report render with the OnCustomDocumentMergerEx event.
+
+For administration, one page covers setting the layout a report uses, per company or temporarily from the request page. Another covers assigning document layouts to customers and vendors. Pages marked (Obsolete) describe the older custom layout process. Start with the overview, then go to the page for your layout type.
+
+## Key points
+
+- Layout types: Word, Excel, RDLC, external and composite layouts. Composite layouts combine reusable themes and headers.
+- Define several layouts for one report in AL with the rendering section, using Caption, Summary and DefaultRenderingLayout properties.
+- Word layouts use a custom XML part, the XML Mapping pane, the ReportMetadata and ReportRequest system dataitems, and the WordMergeDataItem property.
+- Excel layouts use a data contract, ExcelLayoutMultipleDataSheets, system worksheets, translations, named formulas and drillthrough. They can include PivotTables and PivotCharts.
+- RDLC and RDL layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
+- Barcodes use the Barcode Font Provider interface and Barcode Symbology enum with IDAutomation fonts. The online font list covers 1D barcodes, MICR, OCR and security fonts.
+- Users set a default layout per company, pick one temporarily on the request page, or manage layouts on the Report Layouts and Report Layout Selection pages.
+- Word hyperlinks on text and picture fields use column names ending in _Url and _UrlText.
 
 ## Learn pages
 
@@ -269,10 +296,17 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Step-by-Step Guide to Excel Reporting in Business Central](../../../../../posts/aardvarklabs-blog/1824.md) (community post): "Excel reporting in Business Central allows developers to create data-driven reports"
+- [Step-by-Step Guide to Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2107.md) (community post): "Word reports in Business Central allow developers to create report objects"
+- [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
+- [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619.md) (community post): "composite layouts where branding is split into three separate parts"
 - [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
 - [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
+- [Dynamics GP to Business Central – How to easily convert your GP word templates to BC word layouts](../../../../../posts/thedynamicsexplorer-com/9051.md) (community post): "Converting Dynamics GP Word templates to Business Central Word layouts can be done efficiently"
+- [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../../posts/thinkaboutit-be/7181.md) (community post): "Select layout types based on purpose: Word for documents and email, RDLC"
+- [How Do I Fix: The EnableHyperlinks property has not been set for this report.](../../../../../posts/thinkaboutit-be/7266.md) (community post): "RDLC report layouts contain hyperlinks, the EnableHyperlinks property must be set"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"

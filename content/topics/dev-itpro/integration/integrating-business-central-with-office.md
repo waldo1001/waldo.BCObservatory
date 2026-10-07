@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-business-central-with-office
 type: topic
 title: Integrating Business Central with Office apps and Microsoft 365
-summary: "Learn section Integration > Integrating Business Central with Office apps and Microsoft 365: 16 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards, Word layouts and templates, and deploying the Outlook add-in."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:02.967Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d98ae0c47255f3855b2ac4e7287e4df94986fc9661dc88cd16860d8e9e01802c
+  prompts:
+    hub-topic: 1
+  input_hash: 3b292a426f20c2c05950bb3ae4f5677ec2963776cb207c4e25f3b79eee2643ba
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tab-content
@@ -168,14 +169,33 @@ bc_forms:
   - 9650
   - 9652
 member_hash: d98ae0c47255f3855b2ac4e7287e4df94986fc9661dc88cd16860d8e9e01802c
-narrative: none
+narrative: generated
 ---
 
 # Integrating Business Central with Office apps and Microsoft 365
 
-> Learn section Integration > Integrating Business Central with Office apps and Microsoft 365: 16 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards, Word layouts and templates, and deploying the Outlook add-in.
 
-Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+This area covers how Business Central works with Microsoft 365 tools. The overview page lists the integrations: Excel, OneDrive, Outlook, SharePoint, Teams, Word and Microsoft Graph, for data management and document processing.
+
+Four subtopics go deeper. Excel covers Open in Excel, Edit in Excel, importing data and Excel report layouts. OneDrive covers opening, sharing and saving documents. Teams covers cards, tabs and customization. Word covers report layouts and templates for bulk communications. The Outlook add-in has its own page in this section, on how to deploy it.
+
+Start with the overview page to find the right Office app. Then open the matching subtopic. Admins planning the Outlook add-in can go straight to its deployment page.
+
+## Key points
+
+- The Outlook add-in can be deployed centrally by Microsoft 365 admins or installed individually by users.
+- The Outlook add-in gives contact insights and document view in emails and appointments.
+- Excel integration includes Open in Excel, Edit in Excel, permission sets for Edit in Excel, and data import through Excel or configuration packages.
+- Excel report layouts are covered in the Excel subtopic.
+- OneDrive integration lets users open, share and save documents such as reports and Excel workbooks. Developers can extend the Document Sharing module.
+- Teams integration covers cards, card details and tabs. Cards can be customized with the Brick field group and AL events, and Teams sessions can be detected.
+- The Teams FAQs address link unfurling, stage view, licensing and permissions.
+- Word integration uses the XML Mapping pane to map report fields into layouts. Word templates merge entity data into bulk communications for customers, vendors and contacts.
 
 ## Subtopics
 

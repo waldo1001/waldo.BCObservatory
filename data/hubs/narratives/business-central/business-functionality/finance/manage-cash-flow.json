@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/manage-cash-flow",
+  "input_hash": "015819f591bd63f76527960c200ef3938a4a980d5cdc5b0e796e2d44086c0b93",
+  "summary": "Cash flow management in Business Central: forecasting and analyzing cash inflows and outflows from sales, purchasing and fixed assets. It answers questions about the cash flow forecast, the analysis charts and worksheet on the Accountant Role Center, and building forecast reports from financial report definitions.",
+  "overview": "This section covers how to forecast and analyze cash flow. The overview page explains the concepts: cash receipts, cash disbursements and net cash flow, drawn from sources such as sales, purchasing and fixed assets, plus manual revenues and manual expenses.\n\nThe other two pages are task oriented. One describes the analysis tools on the Accountant Role Center, including charts and a worksheet. The other is a walkthrough for building cash flow forecast reports with row and column definitions.\n\nStart with the cash flow overview to learn the terms. Then use the analysis page for day-to-day review, or the financial reports walkthrough if you need a printable forecast report.",
+  "key_points": [
+    "Cash flow forecasting covers inflows and outflows from sales, purchasing and fixed assets.",
+    "Manual revenues and manual expenses can be added to the forecast.",
+    "Key measures are cash receipts, cash disbursements and net cash flow.",
+    "The Accountant Role Center offers a cash cycle chart, a cash flow chart and an income and expense chart.",
+    "The cash flow worksheet and cash flow forecast support planning, and timeline filtering changes the period shown.",
+    "Forecast reports use financial report row definitions and column definitions, cash flow accounts and forecast formulas.",
+    "Forecast reports built from financial reports can be printed."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:24.017Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009743
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:11.917Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 5 says timeline filtering 'changes the period shown'. The source only lists 'timeline filtering' as a feature, so this detail is a reasonable guess rather than a stated fact.",
+      "The overview calls the analysis page 'day-to-day review'. The source does not say how often to use it, but this is a harmless reading of the page.",
+      "The overview calls the analysis page 'task oriented'. The source describes it more as a description of the available tools than as step-by-step instructions. This is minor."
+    ],
+    "input_hash": "015819f591bd63f76527960c200ef3938a4a980d5cdc5b0e796e2d44086c0b93",
+    "cost_usd": 0.0262312
+  }
+}

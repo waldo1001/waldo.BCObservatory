@@ -2,20 +2,21 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-outlook
 type: topic
 title: Microsoft Outlook
-summary: "Learn section Integrate with other applications > Microsoft Office apps and Microsoft 365 > Microsoft Outlook: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Microsoft Outlook integration with Business Central: deploying the Outlook add-in, saving Business Central contacts to Outlook and Teams, and setting up email when Outlook is not used. It answers questions about installation options, contact synchronization, and email setup."
 tier: official
 language: en
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:53.065Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4f33de503b9324bf4253d3b1366a54a04c03ef18cbd30af4df200a14ba7bfd20
+  prompts:
+    hub-topic: 1
+  input_hash: c9c8e3289967110eef8d79043fe8153497b93b3e86145a07904c1a7ce9053f38
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
@@ -68,14 +69,33 @@ bc_forms:
   - 1831
   - 1832
 member_hash: 4f33de503b9324bf4253d3b1366a54a04c03ef18cbd30af4df200a14ba7bfd20
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Outlook
 
-> Learn section Integrate with other applications > Microsoft Office apps and Microsoft 365 > Microsoft Outlook: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft Outlook integration with Business Central: deploying the Outlook add-in, saving Business Central contacts to Outlook and Teams, and setting up email when Outlook is not used. It answers questions about installation options, contact synchronization, and email setup.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Outlook · tier official · system crm · no narrative yet
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Outlook · tier official · system crm · narrative reviewed by Opus
+
+## Overview
+
+This section covers how Business Central works with Microsoft Outlook. The main piece is the Business Central add-in for Outlook, which shows contact insights and a document view in emails and appointments, and lets users create business documents from there. It can be deployed centrally by Microsoft 365 admins or installed manually by individual users.
+
+A second page covers saving business contacts to Outlook and Teams. It synchronizes Business Central contacts so they are available during email and collaboration, with optional two-way synchronization and contact filtering. The page references 2026 release wave 1.
+
+The third page is for organizations that do not use Outlook. It explains how to set up email sending through an assisted setup guide or with technical mail server information. Start with the add-in page if you use Outlook, or the last page if you do not.
+
+## Key points
+
+- The Outlook add-in offers contact insights and a document view inside emails and appointments.
+- Two deployment methods exist: centralized deployment by Microsoft 365 admins, or manual installation by individual users.
+- Users can create business documents directly from Outlook through the add-in.
+- Business Central contacts can be saved and synchronized to Outlook and Teams.
+- Contact synchronization can be two-way and supports contact filtering.
+- The contact saving page is tied to 2026 release wave 1.
+- Business Central can be used without Outlook by setting up email sending.
+- Email setup can use an assisted setup guide or technical mail server information.
 
 ## Learn pages
 

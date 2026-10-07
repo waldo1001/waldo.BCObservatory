@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/denmark",
+  "input_hash": "83b2d56aacfa35bac0569982e33824e79f3a1e12c79d7adcbe41a27dcc600869",
+  "summary": "Denmark local functionality in Business Central covers Danish compliance and reporting: auditing exports (Regnskab Basis, SAF-T), VAT reports, Danish bank and payment formats (FIK, giro), OIOUBL electronic invoicing, and payroll import. It answers setup and usage questions for Danish legal requirements.",
+  "overview": "The Denmark section describes features that adapt Business Central to Danish legal and regulatory requirements. The landing page lists the main areas: bookkeeping act compliance, 5-year data retention, digital vouchers, SAF-T audit file export, the standard chart of accounts and VAT reconciliation reports. It references the 2026 release wave 1.\n\nFour subtopics go into detail: Auditing, VAT, Banking and payments, and Electronic invoicing. A separate page covers the Payroll Data Definitions [DK] extension, which imports payroll transactions from Danish providers such as Danløn and Dataløn.\n\nStart with the landing page for an overview. Then open the subtopic that matches your task, for example Electronic invoicing for OIOUBL setup or Auditing for exports to the authorities.",
+  "key_points": [
+    "Auditing: export accounting data to Regnskab Basis and in SAF-T format, both using the standard chart of accounts mapping.",
+    "VAT: print the VAT Reconciliation report, show VAT registration numbers with country codes in Intrastat, and run VAT-VIES reporting with the EC Sales List.",
+    "Banking: the Payments and Reconciliations (DK) extension supports Danish payment file formats, and FIK transaction text codes appear in the payment reconciliation journal.",
+    "Electronic invoicing: the OIOUBL extension creates XML documents in UBL 2.0 format for Danish public sector customers.",
+    "OIOUBL covers invoices, credit memos, reminders and finance charge memos, and needs customer fields such as GLN, account code and profile code.",
+    "Payroll Data Definitions [DK]: map payroll transaction types to general ledger accounts and import provider files through the general journal.",
+    "The landing page lists bookkeeping act compliance, 5-year data retention and digital vouchers as compliance areas."
+  ],
+  "members_used": 2,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:40.629Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013277
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:10.688Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview mention of 2026 release wave 1 is supported by the landing page versions but adds little context; acceptable.",
+      "Last key point repeats compliance areas already listed in the overview; supported but somewhat redundant."
+    ],
+    "input_hash": "83b2d56aacfa35bac0569982e33824e79f3a1e12c79d7adcbe41a27dcc600869",
+    "cost_usd": 0.0300912
+  }
+}

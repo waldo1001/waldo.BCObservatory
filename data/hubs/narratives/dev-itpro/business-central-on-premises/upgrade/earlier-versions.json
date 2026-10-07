@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions",
+  "input_hash": "12adde1b2183a51f8da9147fa3ab05279615c2114610c2855d58d482303b6a51",
+  "summary": "Earlier versions of Business Central on-premises upgrade documentation, from spring 2019 (v.14) through 2024 release wave 1 (v.24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, how to convert C/AL to AL, and how to move tables between extensions.",
+  "overview": "This section holds one upgrade subtopic per older release, each written for upgrading on-premises Business Central to that target version. The releases covered are spring 2019 (v.14), 2019 release wave 2 (v.15), 2020 waves 1 and 2 (v.16, v.17), 2021 waves 1 and 2 (v.18, v.19), 2022 waves 1 and 2 (v.20, v.21), 2023 waves 1 and 2 (v.22, v.23) and 2024 wave 1 (v.24). The section has no pages of its own.\n\nThe subtopics follow a similar pattern. Most cover upgrade paths from earlier versions, technical upgrade steps, C/AL to AL conversion, moving tables between extensions, permission set and report changes where relevant, and a compatibility matrix. Some also cover installing an update for that version.\n\nTo start, pick the subtopic that matches your target version. Then check its compatibility matrix and upgrade path pages to confirm your source version can upgrade directly. The older subtopics, spring 2019 and 2019 wave 2, are smaller and focus on the technical upgrade and on moving from Dynamics NAV or version 14.",
+  "key_points": [
+    "Eleven subtopics, one per release from spring 2019 (v.14) to 2024 release wave 1 (v.24).",
+    "Version 24 documentation covers upgrades from C/AL (version 14) and from versions 15-23, and installing a version 24 update.",
+    "Version 23 covers upgrade paths from versions 14 through 22; version 22 covers version 14 and versions 15-21.",
+    "Versions 17, 18 and 19 cover upgrades from versions 14 to 16, 14 to 17, and 14 to 18 respectively.",
+    "Version 16 covers upgrades from versions 13, 14 and 15 and moving tables between extensions with migration.json.",
+    "Version 19 includes the India data migration toolkit and permission set upgrades.",
+    "Version 15 (2019 wave 2) covers upgrade from version 14, unmodified application upgrades and minimum versions.",
+    "Spring 2019 (v.14) covers application code merging, single-tenant and multitenant data upgrade, and codeunit 1 replacement."
+  ],
+  "members_used": 0,
+  "subtopics_used": 11,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:04.380Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017359
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:15.555Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview calls spring 2019 'smaller'. It has 10 pages, against 13 to 17 for most later subtopics, so the claim holds, but the gap is small. Only 2019 wave 2, with 5 pages, is clearly smaller.",
+      "Minor: the compatibility matrix is not mentioned in the summaries for version 23 or version 21. The narrative says 'most' subtopics cover it, which is still accurate."
+    ],
+    "input_hash": "12adde1b2183a51f8da9147fa3ab05279615c2114610c2855d58d482303b6a51",
+    "cost_usd": 0.0405352
+  }
+}

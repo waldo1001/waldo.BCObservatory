@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-purchase
 type: topic
 title: Set up purchase
-summary: "Learn section Business functionality > Set up Business Central > Set up purchase: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:14.674Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fd3dbe24cf353829c4e71c593c16cc04cd5e14689947779a3b86b6c251c3a2fc
+  prompts:
+    hub-topic: 1
+  input_hash: 2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors
@@ -154,14 +155,33 @@ bc_forms:
   - 7190
   - 9307
 member_hash: fd3dbe24cf353829c4e71c593c16cc04cd5e14689947779a3b86b6c251c3a2fc
-narrative: none
+narrative: generated
 ---
 
 # Set up purchase
 
-> Learn section Business functionality > Set up Business Central > Set up purchase: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up purchase · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up purchase · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section groups the pages needed to prepare Business Central for purchasing. It has no subtopics, so all content is on its own pages. The page "Overview of tasks to set up purchasing" is the natural starting point. It covers payables setup such as posting rules, number series, external document number requirements, exact cost reversing, discount calculation and prepayment checking.
+
+Vendor setup pages cover registering a vendor (manually or from templates), setting up vendor bank accounts with preferred accounts and approval workflows, assigning a priority level to a vendor, and assigning purchasers to vendors for filtering reports and statistics.
+
+Further pages cover pricing and control. They explain recording special purchase prices and discounts, setting up sales and purchase prices and discounts in general, defining invoice posting policies per user, and validating purchase amounts against document totals. A page on updating document dates with posting dates is also included, although its source describes it for sales transactions.
+
+## Key points
+
+- Start with the overview of purchasing setup tasks: posting rules, number series, external document number, exact cost reversing, prepayment checking.
+- Register vendors manually or with templates; the vendor card can hold remit-to addresses, bank accounts, dimensions and optional self-billing agreements.
+- Vendor bank accounts support preferred accounts, IBAN management and approval workflows for new accounts.
+- Vendor priority numbers control ranking in payment suggestions and vendor lists.
+- Purchaser codes assigned to vendors help filter reports and prepare purchasing statistics.
+- Invoice posting policies per user can prohibit, allow or require posting invoices together with receipts or shipments.
+- The prices and discounts pages (tagged 2020 release wave 2) cover line discounts, invoice discounts, vendor price groups, discount posting principles, price lists with new and legacy pricing experiences, and automatic best price calculation.
+- Total amount validation on purchase invoices and credit memos checks document totals against line totals before posting (2025 release wave 1).
 
 ## Learn pages
 

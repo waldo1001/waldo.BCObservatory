@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/assembly-management/assembly-analytics",
+  "input_hash": "a8e1dbc418abddca97b1944113d54d6ab479254b09640a07ac89c67fb7ac8fc6",
+  "summary": "Assembly analytics covers the Business Central reports and analytics for assembly activity: BOM listings, sub-assemblies, end items, raw materials, where-used, cost share, item availability over time, and assemble-to-order sales. It answers questions about what each report shows and when to use it.",
+  "overview": "Assembly analytics is the reporting area for assembly management in Business Central. It gives production and business professionals insight into current and past assembly activity, assembly bills of materials (BOMs), component usage, cost and availability.\n\nThe pages fit together as one overview page plus one page per report. The reports fall into groups. BOM structure reports are Assembly BOMs, Assembly BOM - End Items, BOM - Sub-Assemblies, BOM - Raw Materials and Where-used list. Cost and sales reports are BOM Cost Share Distribution and Assemble to order - Sales. Availability is covered by Item - Able to Make (Time).\n\nStart with \"Assembly Reports and Analytics in Business Central\" for the overview, then open the page for the specific report you need.",
+  "key_points": [
+    "Assembly Reports and Analytics in Business Central is the overview page for assembly reporting and analytics.",
+    "Assembly BOMs lists assembly BOMs with component names, BOM numbers, quantities, units of measure and nested BOMs.",
+    "Assembly BOM - End Items lists items or BOMs that are not components in other BOMs, with filtering by replenishment system.",
+    "BOM - Sub-Assemblies shows subassembly components with base unit of measure, inventory, unit costs and alternative items.",
+    "BOM - Raw Materials shows components with inventory levels, units of measure, vendors and lead times.",
+    "Where-used list shows which BOMs contain selected items as components.",
+    "BOM Cost Share Distribution uses pie charts to show material/labor and direct/indirect cost proportions of an item's cost.",
+    "Item - Able to Make (Time) tracks BOM item availability over time from supply, demand and component availability; Assemble to order - Sales shows component sales figures and profit margin."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:19.312Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014135
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:22.627Z",
+    "verdict": "approve",
+    "issues": [
+      "The last key point puts two unrelated reports together (Item - Able to Make (Time) and Assemble to order - Sales). Giving each its own point would be clearer, but nothing in it is wrong.",
+      "The grouping of reports in the overview (BOM structure, cost and sales, availability) is the writer's own arrangement, not something the page summaries state. It does match what each report does.",
+      "The BOM - Raw Materials key point leaves out that the report covers BOMs for both assembly and production. This is a minor omission."
+    ],
+    "input_hash": "a8e1dbc418abddca97b1944113d54d6ab479254b09640a07ac89c67fb7ac8fc6",
+    "cost_usd": 0.0295712
+  }
+}

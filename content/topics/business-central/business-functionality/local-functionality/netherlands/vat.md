@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Netherlands > VAT: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:30.259Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 065c0c9b960bd4b06a81dc23976c5e73474932995b49f5f9815ec132fc5fa222
+  prompts:
+    hub-topic: 1
+  input_hash: bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority
@@ -75,14 +76,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 065c0c9b960bd4b06a81dc23976c5e73474932995b49f5f9815ec132fc5fa222
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Netherlands > VAT: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Netherlands-specific VAT tasks. It has four pages and no subtopics. Two pages deal with preparing the electronic declarations: configuring Digipoort and certificates, and mapping VAT categories to XML elements. One page covers submitting the declarations, and one covers the audit file.
+
+A practical order is: set up Digipoort endpoints, the PKIoverheid certificate, the service certificate and the fiscal entity details; set up VAT categories and subcategories; then create and submit VAT and ICP declarations and process the responses from the tax authority. The audit file is a separate task that can be done independently when tax inspectors need data.
+
+Start with "Electronic VAT and ICP Declarations [NL]" if you are preparing to file for the first time. Start with "Create an Audit File for Tax Authority [NL]" if you only need to hand over ledger data.
+
+## Key points
+
+- Electronic VAT and ICP setup requires Digipoort endpoint URLs, a PKIoverheid certificate, a service certificate and tax authority (fiscal entity) information.
+- VAT category codes are set up as category and subcategory combinations that map to XML elements in the electronic VAT declaration.
+- Declarations are created in XBRL format and submitted to the tax authorities through Digipoort.
+- VAT declarations are reported monthly or quarterly; ICP declarations are reported quarterly.
+- Submission includes certificate management and processing of response messages from the tax authority.
+- The audit file is built from general ledger journal entries for a selected fiscal period.
+- The audit file creation can exclude begin balances and exports in XAF format.
 
 ## Learn pages
 

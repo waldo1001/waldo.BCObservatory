@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/development-environment/other-tools",
+  "input_hash": "99ea45295ee2f2f670b998ab6e8da16aca66dd811f6f51e472e3afb7d9802c91",
+  "summary": "Other development tools for Business Central: Page Inspection for examining page structure and data sources, the Txt2Al tool for converting C/AL objects to AL, and the table data viewer for inspecting tenant tables. Answers questions about debugging pages, converting NAV 14 code, and viewing table contents.",
+  "overview": "This section collects three supporting tools for developers working in the Business Central development environment. Each is independent of the others and addresses a separate task: understanding how a page is built, converting older C/AL code, and looking at raw table data.\n\nPage Inspection is a web client pane that shows a page's structure, source table, fields, extensions, and filters, so you can debug without reading code. The table data viewer gives read-only access to tenant database tables, including extension columns, from the web client or VS Code. The Txt2Al tool converts C/AL objects from Dynamics NAV version 14 into AL for building extensions.\n\nStart with Inspecting pages or Viewing table data for day-to-day debugging. Use the Txt2Al page when you are migrating existing C/AL code to extensions.",
+  "key_points": [
+    "Page Inspection is a web client pane showing page structure, data sources, extensions, filters, and source table fields; its Learn page references 2023 release wave 2.",
+    "Page Inspection helps you understand and debug page design without examining code.",
+    "Viewing table data is read-only and covers tenant database tables, including extension columns; its Learn page references 2020 release wave 1.",
+    "Table data can be opened from the web client or from VS Code; it requires read permissions.",
+    "VS Code access to table data uses launch.json configuration.",
+    "Txt2Al converts C/AL objects from Dynamics NAV version 14 to AL for Business Central extensions.",
+    "Txt2Al has parameters for object types and output, and can generate DELTA files, inject .NET add-ins, set the translation format, and control file naming patterns.",
+    "Txt2Al can default data classification during conversion."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:13.233Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010737
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:14.151Z",
+    "verdict": "fix",
+    "issues": [
+      "Two key points tag features with a release in parentheses: Page Inspection with '(2023 release wave 2)' and table data viewing with '(2020 release wave 1)'. That reads as if the feature was introduced or became available in that release. The source summaries only list these versions and don't say how they relate to the feature, so the tags are reworded to say only that the page references the release.",
+      "The overview says the three tools are independent of each other. That's an inference, but it's harmless and was left in.",
+      "Everything else in the summary, overview and key points matches the page summaries and their feature lists."
+    ],
+    "input_hash": "99ea45295ee2f2f670b998ab6e8da16aca66dd811f6f51e472e3afb7d9802c91",
+    "cost_usd": 0.036563200000000004
+  }
+}

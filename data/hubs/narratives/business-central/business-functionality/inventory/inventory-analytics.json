@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics",
+  "input_hash": "fdb0bc29d81d2edcff4fd1753ebfbffd46c8bf8a1f6909e9370ea48c322f94ef",
+  "summary": "Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about stock levels, valuation, supply and demand, item analysis, and which tool fits which role.",
+  "overview": "Inventory analytics groups the ways to analyze inventory data in Business Central. The hub's own pages give an introduction to the options (Power BI reports, financial reports, dimensions, ad-hoc analysis and built-in reports) and a guide to ad-hoc analysis. Ad-hoc analysis uses the Data Analysis feature on list pages to look at item ledger entries without running a report.\n\nSubtopics go deeper. The Power BI inventory app covers reports, KPIs, measures and the semantic model. The Power BI inventory valuation app covers inventory value by overview, item and location. Built-in inventory and warehouse reports are the largest group, with 31 pages. Two legacy reports are marked for removal.\n\nStart with the Inventory analytics introduction to see which tools help different roles monitor KPIs and trends. Use the Power BI apps for KPIs and trends, built-in reports for specific inventory and warehouse questions, and ad-hoc analysis to analyze item ledger entries directly from list pages.",
+  "key_points": [
+    "Ad-hoc analysis uses Data Analysis on list pages to analyze item ledger entries without running reports.",
+    "Ad-hoc scenarios include on-hand inventory, expiring stock, returned items, throughput, and movements.",
+    "The Power BI inventory app (16 pages) covers stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.",
+    "The Power BI inventory valuation app (5 pages) shows inventory value by overview, item and location, with balance and variance measures.",
+    "Built-in reports (31 pages) cover availability and planning, valuation and costs, sales and purchase analysis, item analysis, warehouse bin and shipment reports, and barcode/QR labels.",
+    "Item analysis reports include ABC, aging, expiration, and dimensions.",
+    "Inventory Availability Plan and Item Age Composition - Quantity are legacy reports that will be removed."
+  ],
+  "members_used": 2,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:29.304Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013223000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:49.998Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says built-in reports are for 'specific printed or exported questions'. No source mentions printing or exporting. Changed to say they answer specific questions.",
+      "Overview says the legacy reports are 'scheduled for removal', which suggests a timeline. The sources only say 'marked for removal' and give no date.",
+      "Overview pairs 'financial reporting with dimensions'. The intro page lists financial reporting and dimensions as separate features, so they are now listed separately.",
+      "Minor: the summary leaves out financial reports, even though the intro page names them as one of the tools. Left as is because it's a minor omission."
+    ],
+    "input_hash": "fdb0bc29d81d2edcff4fd1753ebfbffd46c8bf8a1f6909e9370ea48c322f94ef",
+    "cost_usd": 0.0378272
+  }
+}

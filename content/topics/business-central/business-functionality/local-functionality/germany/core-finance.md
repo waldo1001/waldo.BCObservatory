@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Germany > Core finance: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:10.062Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7bf3176a9863a4d6e693077da8a397830efcda0093c0d723d844db513562abb1
+  prompts:
+    hub-topic: 1
+  input_hash: 1a66f49883b182a984d7a4544ae889000421c9ab2e5c7b077f57ab5c7ba7995d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits
@@ -117,14 +118,32 @@ bc_forms:
   - 11027
   - 26100
 member_hash: 7bf3176a9863a4d6e693077da8a397830efcda0093c0d723d844db513562abb1
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Germany > Core finance: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This area holds the German-specific finance functionality. Most pages deal with digital audits under GoBD/GDPdU, which relate to Sections 146-147 of the German Fiscal Code. You define data export record sources with tables, fields, relations and filters, then export the data as XML files for auditors.
+
+The digital audit pages build on each other. Start with the setup page and the full walkthrough for general ledger, customer and vendor data. Then use the export page to run the export, the filter examples page to tune period, table and date filters, and the DTD page to upgrade and validate a .DTD definition file after import.
+
+Two other topics sit alongside. Electronic invoicing explains how to set up the E-Document framework for German formats in sales and purchase processes. The Intrastat page covers exporting and printing reports for EU trade reporting, and it relies on the deprecated Intrastat Journals functionality.
+
+## Key points
+
+- Digital audit exports follow GoBD/GDPdU, using data export record definitions with tables, fields and table relations.
+- Exports can be limited with period filters, table filters, flowfield filters and date filter handling; the filter examples page shows the Period Field No., Table Filter and Date Filter Field No. settings.
+- Digital audit data is exported as XML files, with an option to include closing dates.
+- After importing a .DTD definition file, validate it and upgrade it if there are version compatibility problems.
+- Electronic invoicing in Germany supports XRechnung, Peppol BIS 3.0 DE and ZUGFeRD through the E-Document framework (version 26.3 is mentioned).
+- E-invoicing setup involves the Buyer Reference field, the Buyer Reference Mandatory option and a Document Sending Profile.
+- Intrastat reports are exported and printed with the Intrastat checklist and form, and exported to disk in ASCII format, using deprecated Intrastat Journals.
 
 ## Learn pages
 

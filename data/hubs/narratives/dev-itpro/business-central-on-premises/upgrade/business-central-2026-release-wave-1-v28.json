@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+  "input_hash": "bf6c1405cceca9e623fa0c30022d9784592645b494718b54125a44665283747f",
+  "summary": "Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It covers upgrade paths, pre-upgrade considerations for v26 and later, and the steps to upgrade from versions 25, 26, or 27 and install a version 28 update. It answers questions about how to get to v28 and what to check first.",
+  "overview": "This section is for administrators of on-premises Business Central who are moving to 2026 release wave 1 (version 28). It has four pages: an upgrade overview, a pre-upgrade considerations page, a step-by-step upgrade guide, and an update installation guide.\n\nStart with the overview page, which explains the required upgrade paths, intermediate versions and the review of deprecated features. Then read the considerations page, which covers deprecated or redesigned functionality, schema changes, extension performance impact and deployment changes. After that, follow the upgrade page for unmodified applications from versions 25, 26 or 27. Use the install update page for platform-only or application updates within version 28.",
+  "key_points": [
+    "The upgrade page covers unmodified applications moving from version 25, 26 or 27 to version 28.",
+    "Upgrade steps include application database conversion, extension publishing and installation, tenant synchronization, and data upgrade execution.",
+    "The upgrade page also covers permission sets migration and encryption key management.",
+    "The overview page says earlier versions may need specific upgrade paths with intermediate versions, and deprecated features should be reviewed first.",
+    "The considerations page covers v26-v29 and recommends moving to AL-based permissions.",
+    "It notes schema changes in the Subscription Billing extension from v25 to v26 and later, which involve force sync for schema migration.",
+    "It also notes that installed extensions can affect upgrade performance, and describes v23 deployment changes (port 7085, SPN delegation).",
+    "The install update page covers platform-only and application upgrades, database conversion, extension publishing and synchronization, for single-tenant and multitenant deployments."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:30.321Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012993000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:37.084Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor omission: the considerations page also covers deleted objects (v24 and earlier), which the narrative leaves out.",
+      "Minor omission: the install update page also mentions data upgrade tasks.",
+      "Key points 6 and 7 start with 'It', which only refers to the considerations page because of the point before them. They would be clearer if they named the page."
+    ],
+    "input_hash": "bf6c1405cceca9e623fa0c30022d9784592645b494718b54125a44665283747f",
+    "cost_usd": 0.0408992
+  }
+}

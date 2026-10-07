@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
+  "input_hash": "bdb25425a1e53fdb4861a5febc40a8d611de78cf4dc0b74858e4d2de244b39fd",
+  "summary": "Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.",
+  "overview": "This section collects the Swiss-specific general ledger functionality. It covers how Swiss G/L accounts work (foreign currency balances on bank accounts, text data types for the standardized Swiss KMU chart of accounts), and how to check balances before and after posting.\n\nThree pages deal with balances: G/L balance shows provisional balances including posted entries and current journal postings, Swiss General Ledger Accounts describes the temporary balance preview, and View temporary balances in GL journals explains how to see the effect of posting, including foreign currency amounts, before you post.\n\nThe remaining pages cover setup and VAT: How to Adjust Exchange Rates describes converting VAT currency using official Federal Tax Administration rates, and Print General Ledger Setup Information describes the report used to verify master data. Start with Swiss General Ledger Accounts for the overall picture, then go to the task page you need.",
+  "key_points": [
+    "G/L balance shows provisional balances from posted entries plus current journal postings, and helps confirm bank balances after recording transactions.",
+    "Balance views include journal balance, all journals balance and actual journal balance.",
+    "Swiss G/L accounts can hold foreign currency balances on bank accounts, set up through a currency code.",
+    "Accounts use text data types to support the standardized Swiss KMU chart of accounts.",
+    "Temporary balances in G/L journals show how posting would change account balances, including foreign currency amounts, before you post.",
+    "VAT exchange rate adjustment uses official Federal Tax Administration rates for VAT statements.",
+    "The G/L Setup Information report displays G/L setup, posting groups, posting matrix, and VAT setup, and checks number series.",
+    "The setup report also supports GDPdU compliance checks."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:10.253Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012243
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:14.133Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'The setup report also supports GDPdU compliance checks' slightly extends the source, which lists only 'GDPdU compliance' as a feature. This is acceptable but could be softened to 'relates to GDPdU compliance'.",
+      "The overview's advice to start with Swiss General Ledger Accounts is the writer's own suggestion, not something stated in the sources. It is harmless and fits that page's broad scope."
+    ],
+    "input_hash": "bdb25425a1e53fdb4861a5febc40a8d611de78cf4dc0b74858e4d2de244b39fd",
+    "cost_usd": 0.0282752
+  }
+}

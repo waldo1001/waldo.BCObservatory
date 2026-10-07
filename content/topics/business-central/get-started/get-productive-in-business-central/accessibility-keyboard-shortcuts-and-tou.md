@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/accessibility-keyboard-shortcuts-and-tou
 type: topic
 title: Accessibility, keyboard shortcuts, and touch gestures
-summary: "Learn section Get started > Get productive in Business Central > Accessibility, keyboard shortcuts, and touch gestures: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about assistive features, PC and macOS shortcuts, access keys, and gestures on tablets and phones.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:11.552Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7ffad300c741bd32ee6811fa5d4f35567d82b42de3bd7c66b2f362105df0329b
+  prompts:
+    hub-topic: 1
+  input_hash: 598faab1478e6c789d54abd0add4f4417d792aa384f6b7cbb45d553fb2dc783e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
@@ -88,14 +89,30 @@ bc_forms:
   - 9027
   - 9030
 member_hash: 7ffad300c741bd32ee6811fa5d4f35567d82b42de3bd7c66b2f362105df0329b
-narrative: none
+narrative: generated
 ---
 
 # Accessibility, keyboard shortcuts, and touch gestures
 
-> Learn section Get started > Get productive in Business Central > Accessibility, keyboard shortcuts, and touch gestures: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about assistive features, PC and macOS shortcuts, access keys, and gestures on tablets and phones.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Accessibility, keyboard shortcuts, and touch gestures · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Accessibility, keyboard shortcuts, and touch gestures · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers the ways to work in Business Central without relying only on a mouse. It includes the accessibility features built into the product, keyboard references for PC and macOS, and gestures for touch and pen devices.
+
+Start with Assistive features for an overview of keyboard shortcuts, tab navigation, heading structure, alternative text, screen reader support, zoom, and tooltips. Then use Keyboard Shortcuts for the full list across navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming, and role explorer. Keyboard quick reference - PC only is a shorter PC-focused reference for navigation, data entry, filtering, sorting, and common actions. Touch and pen gestures covers tablets and phones.
+
+## Key points
+
+- Assistive features page covers keyboard shortcuts, tab navigation, heading structure, image alt text, link titles, screen reader support, zoom, and tooltips.
+- Keyboard Shortcuts is the comprehensive reference for both PC and macOS.
+- Shortcut areas include general navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming, and role explorer.
+- Keyboard quick reference - PC only covers the factbox pane, tell me, find entries, new record creation, column sorting, and search toggle.
+- Access keys and multitasking across pages are covered in the keyboard shortcuts.
+- Touch and pen gestures cover tap and hold, swipe actions, and horizontal scrolling on tablets and phones.
+- Gesture topics also include chart tooltips, the tile menu, and Power BI report selection and controls.
 
 ## Learn pages
 

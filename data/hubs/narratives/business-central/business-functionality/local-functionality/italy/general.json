@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/italy/general",
+  "input_hash": "03ca02899173e7b83605948c41e9de895686cb44ad365768fdf024c204872f14",
+  "summary": "Italy general local functionality in Business Central: company information setup, the deprecated Italian Subcontracting feature and its migration, and Intrastat journal templates and batches. Answers setup and configuration questions for Italian localization.",
+  "overview": "This section collects three general setup topics for the Italian version of Business Central. They are independent of each other, so you can read whichever matches your task.\n\nCompany information covers the Company Information page, where general, communication, payment, shipping, and administration details are entered. These details appear in all reports and fiscal documents, so it is a sensible first step. The Intrastat page explains how to create journal templates and batches to record EU trade transactions for submission to tax authorities.\n\nThe Italian Subcontracting page describes outsourcing component production through linked BOM and subcontractor operations. It is marked as deprecated and replaced by the Subcontracting app, with a migration available for sandbox environments. Read it before using or migrating legacy subcontracting data.",
+  "key_points": [
+    "Company Information page holds general, communication, payment, shipping, and administration details.",
+    "Company information appears in all reports and fiscal documents.",
+    "Intrastat journal templates are set up with a name and description.",
+    "Intrastat journal batches are configured with periodicity, type, statistics period, and currency information.",
+    "Intrastat journals record EU trade transactions for submission to tax authorities.",
+    "Italian Subcontracting uses BOM linking, subcontractor price lists, and Work in Progress (WIP).",
+    "Italian Subcontracting is deprecated and replaced by the Subcontracting app.",
+    "The IT Subcontracting Migration app is available for sandbox environments; the page mentions versions 27.0 and 28.3."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:22.086Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009867
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:37.467Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview's 'They are independent of each other' and 'so it is a sensible first step' are reasonable inferences, but no page summary states them.",
+      "Minor: the overview opens with 'This section', which is close to the discouraged 'This hub' phrasing."
+    ],
+    "input_hash": "03ca02899173e7b83605948c41e9de895686cb44ad365768fdf024c204872f14",
+    "cost_usd": 0.0259072
+  }
+}

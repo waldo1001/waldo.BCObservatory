@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/service-management/service-management-analytics
 type: topic
 title: Service management analytics
-summary: "Learn section Business functionality > Service management > Service management analytics: 38 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:32.951Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9dfd6028026381b72f6ea340317b6a6cd75b15b0b4e916700fa0b981506f9daf
+  prompts:
+    hub-topic: 1
+  input_hash: f85e2c0741bfaab46981613ac9433e0242d74487059b31a9a81cd6060b6df4fa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5981
@@ -347,14 +348,33 @@ bc_forms:
   - 6080
   - 6086
 member_hash: 9dfd6028026381b72f6ea340317b6a6cd75b15b0b4e916700fa0b981506f9daf
-narrative: none
+narrative: generated
 ---
 
 # Service management analytics
 
-> Learn section Business functionality > Service management > Service management analytics: 38 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+This area is about measuring and reviewing service management work. The own page, Service statistics, explains how to analyze service documents and judge performance across contracts, items, quotes, orders, invoices, and credit memos. It uses trendscapes and gain/loss analysis, and it also mentions sustainability metrics.
+
+The Service management reports subtopic is the reference part. It has 37 pages, one for each analytic, test, and document report. They cover service contracts, contract quotes, service orders, service items, resources, and profitability.
+
+Start with Service statistics for an on-screen view of how service operations are doing. Go to the reports subtopic when you need a printable or document-style output, or when you need to know what a specific report contains and which options it has.
+
+## Key points
+
+- Service statistics lets you analyze service documents and evaluate service management performance.
+- Statistics cover contracts, items, quotes, orders, invoices, and credit memos.
+- Trendscape analysis and gain/loss tracking are available, along with contract analysis.
+- Service item statistics are part of the statistics features.
+- Sustainability metrics are listed among the service statistics features.
+- The Service management reports subtopic has 37 reference pages.
+- Reports are grouped as analytic, test, and document reports.
+- Report topics include service contracts, contract quotes, service orders, service items, resources, and profitability.
 
 ## Subtopics
 

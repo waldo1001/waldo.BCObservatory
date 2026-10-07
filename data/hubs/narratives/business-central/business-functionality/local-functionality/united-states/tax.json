@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-states/tax",
+  "input_hash": "bb238a3740286730b62972f2c27e630c2bf7da5bd0ea78508c1cff5456b40356",
+  "summary": "US tax in Business Central: sales tax, use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 forms. It answers questions about tax setup, jurisdictions and groups, 1099 vendor tracking, form format changes, and submitting forms to the IRS.",
+  "overview": "This section covers tax functionality specific to the US version. One group of pages handles sales and purchase taxes: basic tax setup (Tax Setup page, default G/L accounts, nontaxable sales group code), sales tax details, jurisdictions and groups, use tax and purchase tax, and unrealized sales tax with sales payment discounts.\n\nThe other group covers IRS reporting. It includes an introduction to the 1099 forms (MISC, NEC, INT, DIV), setup of 1099 forms and reporting periods, tracking 1099 data on purchase documents, regulatory box format changes, submission to the IRS, and the 1096 transmittal form for paper 1099s.\n\nStart with Basic Tax Setup and Sales tax for general tax configuration. For 1099 work, read the introduction first, then the setup pages, then tracking and submission. Several 1099 pages carry version notes. The regulatory format changes are available from version 24.0 and mandatory from version 27.0. The 1099 setup is enabled automatically from version 27.0. Check the version notes on each page.",
+  "key_points": [
+    "Basic tax setup uses the Tax Setup page to define tax information, group codes and default accounts for tax posting.",
+    "Sales tax is configured through the Tax Details page, tax jurisdictions and tax groups, with a Copy Tax Setup task.",
+    "Separate pages cover use tax, purchase tax, and unrealized sales tax with sales payment discounts.",
+    "The 1099 forms supported are 1099-MISC, 1099-NEC, 1099-INT and 1099-DIV, with IRS submission and Copy B vendor copies.",
+    "1099 setup covers reporting periods, form box configuration, vendor mapping, TIN protection and 1099 codes and amounts on purchase documents and vendor ledger entries.",
+    "Regulatory 1099 box format changes are available from version 24.0 and mandatory from version 27.0, applied with the Update Form Boxes action.",
+    "1099 forms can be submitted through IRIS or magnetic media, with transmission status, error handling, corrections and email delivery.",
+    "Form 1096 is enabled in Feature Management, needs a number series, and is created, replaced, released and printed per tax period."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:30.173Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017505
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:42.213Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 says Copy B vendor copies were introduced in version 24.0. The intro page lists version 24.0 but doesn't link it to Copy B, so I removed that version claim.",
+      "The overview calls some pages an 'older' 1099 setup and others a 'newer' one. The summaries don't say that. I replaced it with the version notes they do support: format changes available from 24.0 and mandatory from 27.0, and automatic enablement from 27.0."
+    ],
+    "input_hash": "bb238a3740286730b62972f2c27e630c2bf7da5bd0ea78508c1cff5456b40356",
+    "cost_usd": 0.0585952
+  }
+}

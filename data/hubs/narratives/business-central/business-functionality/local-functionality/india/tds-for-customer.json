@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/tds-for-customer",
+  "input_hash": "72742ac47497ec13549423616123169ae01738476c2156820e9c36ac5abe496d",
+  "summary": "TDS for customer in the India local functionality covers Tax Deducted at Source on customer payments. It answers questions about setting up TDS master data, calculating TDS on customer documents, and tracking TDS certificates receivable from customers.",
+  "overview": "TDS (Tax Deducted at Source) by customer is a withholding tax deducted at payment or invoice booking, under the Income Tax Act, 1961. This section explains how to configure it in Business Central, how TDS is calculated for customer transactions, and how to follow up on the certificates customers owe.\n\nThe three pages follow the order of work. Start with the setup page, which covers the rates, sections, assessee codes, concessional codes and customer master configuration. Then read the calculation page, which describes deducting TDS on customer receipts and the TDS certificate receivable. Finish with the certificate tracking page, which covers assigning, updating and rectifying certificate details in customer ledger entries.",
+  "key_points": [
+    "TDS by customer is a withholding tax deducted at payment or invoice booking.",
+    "Setup covers TDS Rate, Tax Accounting Period, T.A.N, Assessee Code, TDS Section and Concessional Code.",
+    "Customer master configuration is needed for TDS calculation and certificate tracking.",
+    "The calculation page covers TDS section selection and customer receipt tracking, and notes a location code requirement.",
+    "TDS certificates receivable from customers are identified through customer ledger entries.",
+    "TDS Certificate Tracking lets you assign, update and rectify certificate details in customer ledger entries."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:29.649Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009689
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:34.969Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 5 joins 'certificate identification' and 'customer ledger entry' into one claim. The calculation page lists them as separate features, so this is a reasonable inference rather than a stated fact. The certificate tracking page does tie certificate details to customer ledger entries.",
+      "The overview says 'customer receipts' where the calculation page summary says 'customer payments'. The features list includes 'customer receipt tracking', so this is acceptable."
+    ],
+    "input_hash": "72742ac47497ec13549423616123169ae01738476c2156820e9c36ac5abe496d",
+    "cost_usd": 0.0267352
+  }
+}

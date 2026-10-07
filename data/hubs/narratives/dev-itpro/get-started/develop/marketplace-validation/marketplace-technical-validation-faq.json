@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/develop/marketplace-validation/marketplace-technical-validation-faq",
+  "input_hash": "d122255a40e3d23ecab94d8ac1238ea5fb0f9a1cdb85b174696ce359044ed73a",
+  "summary": "Marketplace technical validation FAQ for Business Central apps. It answers questions about app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process, and support channels.",
+  "overview": "This section is a set of short FAQ pages for partners who submit Business Central apps to the Marketplace and need to pass technical validation. Each page covers one topic: how validation works, app identity, code-signing, naming and ID ranges, telemetry, previews, offers, development issues, and where to ask for help.\n\nStart with the Technical validation FAQ, which gives an overview of the submission validation process and points to the main areas. Then move to the page that matches your problem. The Technical validation process FAQ covers validation scope, breaking change checks, baseline comparisons and fixing common failures. The identity, names/affixes, and code-signing pages cover the rules checked at submission. The channels page tells you whom to contact when you are stuck.",
+  "key_points": [
+    "The validation process FAQ explains scope by release and country, breaking change detection, baseline comparison, code signing validation, malware scanning, and remediation of common failures.",
+    "App identity FAQ covers when to change extension names, publishers and App IDs; App ID changes are restricted because they can break dependent extensions.",
+    "Code-signing FAQ covers certificate requirements, signing procedures, the approved .pfx format, and reuse of code-signing.",
+    "Names, affixes, and ID ranges FAQ explains how to register affixes and ID ranges and reuse them across multiple apps.",
+    "Application Insights FAQ helps with enabling telemetry for submissions, validating connection strings, interpreting validation signals, and data sampling configuration.",
+    "App previews FAQ covers limiting a preview to selected customers with a hide key, the preview installation URL, preview listing, and how previews interact with environment upgrades and public releases.",
+    "Offer FAQ covers connect and add-on app types, converting offer types, keeping the offer URL, and Partner Center API for automated submissions.",
+    "Channels FAQ says when to use d365val@microsoft.com, Partner Center support, Business Central support, or Viva Engage."
+  ],
+  "members_used": 10,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:35.805Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016529000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:24.768Z",
+    "verdict": "approve",
+    "issues": [
+      "The summary and key points leave out the 'Develop and Maintain Marketplace Apps FAQ' page, which covers dependency and licensing issues in Docker or SaaS environments and workarounds for dependency range conflicts. Only the overview refers to it, briefly, as 'development issues'.",
+      "The code-signing key point says 'the approved .pfx format'. The page summary only says 'approved certificate formats' and lists .pfx as a feature, so calling .pfx the approved format is a mild inference."
+    ],
+    "input_hash": "d122255a40e3d23ecab94d8ac1238ea5fb0f9a1cdb85b174696ce359044ed73a",
+    "cost_usd": 0.0399712
+  }
+}

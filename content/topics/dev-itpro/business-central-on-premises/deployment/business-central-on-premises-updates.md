@@ -2,19 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/business-central-on-premises-updates
 type: topic
 title: Business Central on-premises updates
-summary: "Learn section Business Central on-premises > Deployment > Business Central on-premises updates: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:07.812Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: db5bdd0e1bd53d771e4aa229fe090880fdb335fc8fea3d06c899c650a30470f7
+  prompts:
+    hub-topic: 1
+  input_hash: a6965c17c2702fa3a0db44da3d18da6c5b0e05417015de77cd0ed9f11a6fc341
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-13
@@ -158,14 +159,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: db5bdd0e1bd53d771e4aa229fe090880fdb335fc8fea3d06c899c650a30470f7
-narrative: none
+narrative: generated
 ---
 
 # Business Central on-premises updates
 
-> Learn section Business Central on-premises > Deployment > Business Central on-premises updates: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section tracks the updates released for Business Central on-premises. Each current release wave has its own page: 2025 release wave 1 (version 26), 2025 release wave 2 (version 27) and 2026 release wave 1 (version 28). The pages list updates by version number and cover cumulative updates, hotfixes and regulatory features. The version 26 and 27 pages also give build numbers and support article references for each update and note multi-country support.
+
+Older versions that no longer receive updates are kept in the "Versions no longer updated" subtopic. It holds 13 archive pages, from version 13 (October 2018) to version 25 (2024 release wave 2).
+
+Start with the page for the release wave you run to find the latest update. Use the archive if you need history for an older version.
+
+## Key points
+
+- 2025 release wave 1 (version 26) page lists cumulative updates 26.1 through 26.18.
+- 2025 release wave 2 (version 27) page lists cumulative updates 27.1 through 27.12.
+- 2026 release wave 1 (version 28) page covers hotfixes and regulatory features released between May and October 2026, up to version 28.6.
+- The version 26 and 27 pages give build numbers and support article references for each update.
+- Updates include cumulative updates, hotfixes and regulatory features; the version 26 and 27 pages also note hotfix deployment and multi-country support.
+- The archive subtopic has 13 pages for versions 13 (October 2018) to 25 (2024 release wave 2), which no longer receive updates.
 
 ## Subtopics
 

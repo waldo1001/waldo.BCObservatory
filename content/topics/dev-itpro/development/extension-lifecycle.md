@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle
 type: topic
 title: Extension lifecycle
-summary: "Learn section Development > Extension lifecycle: 35 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about global apps, per-tenant extensions, DEV extensions, and about migration, translation, testing, deployment, updating and deprecation.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c0d4866c16084204cf993cc5fa286033b6acd8eb67519ff6500f2079239ede22
+  prompts:
+    hub-topic: 1
+  input_hash: ce8b4001b102ed6b04e1bcbed65f87e7870a574ef9de00010a652959a5151eaa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -279,8 +280,10 @@ links:
     - topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing
     - topic/dev-itpro/development/extension-lifecycle/deprecating-code
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/f_i4_BRz-oA
+  posts:
+    - post/demiliani-com/12123
   guidelines: []
 learn_toc_path:
   - Development
@@ -298,8 +301,8 @@ children:
 coverage:
   learn: 35
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 149000
@@ -312,14 +315,33 @@ bc_forms:
   - 149008
   - 149009
 member_hash: c0d4866c16084204cf993cc5fa286033b6acd8eb67519ff6500f2079239ede22
-narrative: none
+narrative: generated
 ---
 
 # Extension lifecycle
 
-> Learn section Development > Extension lifecycle: 35 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about global apps, per-tenant extensions, DEV extensions, and about migration, translation, testing, deployment, updating and deprecation.
 
-Path: [Development](../development.md) > Extension lifecycle · tier official · system development · no narrative yet
+Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+The extension lifecycle section describes the path of a Business Central extension: planning, development, testing, deployment, operations, monitoring and deprovisioning. The overview page ties these phases to related processes such as data migration, translation, testing and upgrade.
+
+Two own pages explain scope. Extension types and scope separates global apps installed from Marketplace, per-tenant extensions (PTE) deployed to specific environments, and DEV extensions used only in sandbox. Moving between extension scopes covers the identity, naming and ID range requirements when an app changes between PTE, DEV and Marketplace.
+
+Subtopics go deeper on each phase: migration and moving tables and fields between extensions on-premises, translation with XLIFF, testing, deploying and installing, updating and hotfixing, and deprecating code. Start with the lifecycle overview, then extension types and scope, then the subtopic that matches your current phase.
+
+## Key points
+
+- Lifecycle phases: planning, development, testing, deployment, operations, monitoring and deprovisioning.
+- Extension types: global apps from Marketplace, per-tenant extensions for specific environments, and DEV extensions for sandbox only.
+- Moving an app between PTE, DEV and Marketplace scopes has identity, naming and ID range requirements (2023 release wave 2 page).
+- Migration covers .delta files from Compare-NAVApplicationObject, migration.json, and transition extensions.
+- On-premises moves of tables and fields use MovedTo and MovedFrom properties and staged moves, with attention to publishing order.
+- Translation uses XLIFF files, with layered sources overriding each other by language priority and app dependencies.
+- Testing covers AL test codeunits, test pages, handlers, test runners and the Performance Toolkit.
+- Deprecation uses Obsolete properties and preprocessor directives, CLEAN symbols, warnings AL0604 and AL0606, and the deprecation of 'with' statements.
 
 ## Subtopics
 
@@ -336,6 +358,13 @@ Path: [Development](../development.md) > Extension lifecycle · tier official ·
 - [Extension Development Lifecycle Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ext-dev-lifecycle-overview): Explains the phases involved in the lifecycle of developing an extension.
 - [Extension types and scope](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope): Extension types for Business Central explained: global apps, per-tenant extensions, and DEV extensions. Learn how scope and environment affect each type.
 - [Moving between extension scopes](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-moving-scope): Describes how an extension in one scope can be moved into another scope in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
+- [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "AL extensibility; migration patterns; migrator framework; extension points"
 
 ## Business Central pages and reports
 

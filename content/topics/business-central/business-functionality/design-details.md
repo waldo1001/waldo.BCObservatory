@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/design-details
 type: topic
 title: Design details
-summary: "Learn section Business functionality > Design details: 50 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Design details for Business Central explain how complex features work internally: supply planning, inventory costing, warehouse availability, item tracking, general journal posting, dimension set entries and non-deductible VAT. Use it for how-it-works questions about calculation logic, tables and posting behavior."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:09.791Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: dd0077a553b8369249c93a338eb5147c3d14d9d42e0bb51f8de62a566e7bcf4e
+  prompts:
+    hub-topic: 1
+  input_hash: ff75c41866e506998a1768a1043209923a691d39b0a81d75a463b04d8094a5ea
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-application-design
@@ -335,14 +336,32 @@ coverage:
 bc_forms:
   - 8645
 member_hash: dd0077a553b8369249c93a338eb5147c3d14d9d42e0bb51f8de62a566e7bcf4e
-narrative: none
+narrative: generated
 ---
 
 # Design details
 
-> Learn section Business functionality > Design details: 50 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Design details for Business Central explain how complex features work internally: supply planning, inventory costing, warehouse availability, item tracking, general journal posting, dimension set entries and non-deductible VAT. Use it for how-it-works questions about calculation logic, tables and posting behavior.
 
-Path: [Business functionality](../business-functionality.md) > Design details · tier official · system none · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Design details · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Design details is the technical reference part of Business Central functionality. Instead of setup steps, it describes the logic and data structures behind features that are complex enough to need explanation: how planning balances supply and demand, how costs are calculated and posted, how tracking numbers flow through the system, and how posting codeunits behave.
+
+The hub has an index page (Application design details) and a page on non-deductible VAT, which covers enabling it, VAT posting groups, the non-deductible percentage, and the effect on item and fixed asset cost, with posting examples. Six subtopics hold the deeper material: Supply planning (8 pages), Inventory costing (22 pages), Warehouse management (2), Item tracking (9), General journal post line (4) and Dimension set entries (3).
+
+Start with the index page to find the area, then go to the matching subtopic. Inventory costing is the largest area, so look there first for cost adjustment, valuation or G/L reconciliation questions. Item tracking and supply planning pages overlap on how tracking interacts with reservations and planning.
+
+## Key points
+
+- Supply planning covers balancing supply and demand, reordering policies, planning parameters, reservation, order tracking, action messaging, the planning assignment table and transfers.
+- Inventory costing is the largest area (22 pages): costing methods, cost components, item application, cost adjustment, expected cost posting, valuation, revaluation, variance, rounding and G/L reconciliation, including assembly and production orders.
+- Warehouse management pages explain how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered.
+- Item tracking pages cover serial, lot and package numbers through reservation, posting, planning, warehouse and availability, and how active and historic entries differ.
+- General journal post line describes Codeunit 12 for G/L, VAT, customer and vendor posting, plus Apply, Unapply and Reverse operations.
+- Dimension set entries are unique combinations of dimension values referenced by a Dimension Set ID; pages cover the table structure, which tables carry the field, and the tree search.
+- Non-deductible VAT requires enabling it and uses VAT posting groups and a non-deductible percentage; it affects item cost and fixed asset cost.
 
 ## Subtopics
 

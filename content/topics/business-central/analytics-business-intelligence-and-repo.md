@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo
 type: topic
 title: Analytics, business intelligence, and reporting
-summary: "Learn section Analytics, business intelligence, and reporting: 66 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and external BI tools. It answers questions about choosing, running, building, and analyzing reports and data."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:31.722Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 5cff25e81fb0392ad53a97fa7a194447221fdea74e3cd6297124fe435945dffa
+  prompts:
+    hub-topic: 1
+  input_hash: 998962c9d1a5d8767a8efe909adbeab6875b1868a6659c79ce10e75421a31ad9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -637,14 +638,32 @@ bc_forms:
   - 99000915
   - 99000916
 member_hash: 5cff25e81fb0392ad53a97fa7a194447221fdea74e3cd6297124fe435945dffa
-narrative: none
+narrative: generated
 ---
 
 # Analytics, business intelligence, and reporting
 
-> Learn section Analytics, business intelligence, and reporting: 66 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and external BI tools. It answers questions about choosing, running, building, and analyzing reports and data.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · no narrative yet
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section brings together everything about getting insight out of Business Central. The overview page describes how different roles consume data, and covers financial reports, KPIs, Power BI apps, ad-hoc analysis, built-in reports and dimensions. A separate page covers analytics content for specific functional areas.
+
+The subtopics split by audience and task. End users can look at KPIs, dashboards and financial reports, analyze lists directly with filters, saved views and data analysis mode, and run, schedule, print and share standard reports. A catalog of built-in reports lists what exists per area, such as finance, sales, purchasing, manufacturing and service.
+
+Developers and BI teams have their own subtopics: building report layouts (Word, Excel, RDLC, external, composite) and datasets in AL, and analyzing data in external tools such as Microsoft Fabric, OneLake, Power BI, data warehouse extraction and the v2.0 REST API. Start with the overview page, then go to the subtopic that matches your role.
+
+## Key points
+
+- The overview covers financial reports, KPIs, Power BI apps, ad-hoc analysis, built-in reports and dimensions, organized by how roles consume data.
+- KPIs, dashboards and financial reports: define and monitor KPIs, build financial reports from G/L data and account categories, and use Power BI apps.
+- Ad-hoc analysis: sorting, searching, filtering, saved list views, data analysis mode with pivot, opening and editing in Excel, and exporting datasets to Excel or XML.
+- Daily report use: run, preview, print, schedule and share reports, with saved settings, layouts, default printers and bookmarks.
+- Built-in reports are listed per area (finance, sales, purchasing, fixed assets, project, assembly, manufacturing, service) and reached via the Report Explorer.
+- Report development: create, edit, import, export and assign layouts of types Word, Excel, RDLC, external and composite, and tune report AL code.
+- External BI: Microsoft Fabric and OneLake, Power BI, data warehouse extraction and the v2.0 REST API, with AL performance guidance and on-premises limits on cloud insights.
 
 ## Subtopics
 

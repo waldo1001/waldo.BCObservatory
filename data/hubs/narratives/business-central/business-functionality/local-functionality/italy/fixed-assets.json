@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/italy/fixed-assets",
+  "input_hash": "ed340cdb42ef59608404c16211baa48c46ab5d1d72dc3ca8d33d774566871235",
+  "summary": "Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy.",
+  "overview": "This section covers the Italy-specific parts of fixed asset management. It starts with an overview page, \"Italian fixed assets\", which summarizes the main capabilities: anticipated, accelerated and reduced depreciation, automatic creation of multiple asset cards from invoices, and depreciation book reporting.\n\nThe other pages are task guides. One explains how to set up alternate depreciation methods using depreciation tables. One covers compressing depreciation into subclasses so fewer ledger entries are posted, using the depreciation book setup. One describes creating multiple fixed asset cards during purchase invoice posting. One covers printing the Depreciation Book report.\n\nStart with the overview page, then set up the alternate depreciation methods. Print the Depreciation Book report after depreciation methods are set up and assets are entered.",
+  "key_points": [
+    "Alternate depreciation methods (anticipated, accelerated, reduced) are defined with depreciation tables.",
+    "Depreciation tables use fields such as Period Depreciation %, Total Depreciation % and No. of Units in Period.",
+    "Compressed depreciation groups depreciation by subclass and posts only totals, reducing ledger entries when many assets are involved.",
+    "Compression is configured through the depreciation book setup.",
+    "Multiple fixed asset cards can be created automatically during purchase invoice posting, with sequential numbering.",
+    "The multiple-card feature was originally Italian localization and is now delocalized into standard Business Central.",
+    "The Depreciation Book report shows fixed asset changes by year and item class, with a Print per Fixed Asset option and Starting Date and Ending Date filters.",
+    "Run the report after depreciation methods are set up and assets are entered."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:09.314Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011965
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:08.293Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview's final paragraph says to set up the depreciation book before entering assets. No source says this. The depreciation book setup is only linked to compressed depreciation, and the only ordering in the sources is that the Depreciation Book report is used after depreciation methods are set up and assets are entered. Reworded to match the sources.",
+      "Minor: the key point naming Period Depreciation %, Total Depreciation % and No. of Units in Period as depreciation table fields is inferred from the feature list of the alternate depreciation methods page. It is reasonable, so it was kept."
+    ],
+    "input_hash": "ed340cdb42ef59608404c16211baa48c46ab5d1d72dc3ca8d33d774566871235",
+    "cost_usd": 0.034995200000000004
+  }
+}

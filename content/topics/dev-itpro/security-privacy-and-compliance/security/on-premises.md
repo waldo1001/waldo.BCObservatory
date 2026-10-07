@@ -2,19 +2,20 @@
 id: topic/dev-itpro/security-privacy-and-compliance/security/on-premises
 type: topic
 title: On-premises
-summary: "Learn section Security, privacy, and compliance > Security > On-premises: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: On-premises security for Business Central covers authentication, server hardening, SSL/HTTPS, X.509 certificates, database encryption (TDE, BitLocker), and SQL Server permissions. It answers how to secure the web client, server, database and network connections in an on-premises deployment.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:39.726Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 983441323394ad8a2827049c27876a7acae290f84a069bd55e2d95c7a2f0e7a1
+  prompts:
+    hub-topic: 1
+  input_hash: 62352fe6d815322849699648092c8ee936663e814efe27d399c21663468167f8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection
@@ -89,14 +90,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 983441323394ad8a2827049c27876a7acae290f84a069bd55e2d95c7a2f0e7a1
-narrative: none
+narrative: generated
 ---
 
 # On-premises
 
-> Learn section Security, privacy, and compliance > Security > On-premises: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> On-premises security for Business Central covers authentication, server hardening, SSL/HTTPS, X.509 certificates, database encryption (TDE, BitLocker), and SQL Server permissions. It answers how to secure the web client, server, database and network connections in an on-premises deployment.
 
-Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > On-premises · tier official · system none · no narrative yet
+Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > On-premises · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section collects the security guidance for Business Central on-premises deployments. The page "Security in Business Central (on-premises)" is the entry point. It outlines authentication methods, server hardening, client, database and network security, and the recommendation to use secure admin devices.
+
+The other pages go into specific tasks. They cover SSL for the web client, security certificates between server and clients, hardening the server, encrypting data at rest, and granting SQL Server permissions for database management. Start with the overview page, then follow the page that matches the layer you are securing: connection, server, or database.
+
+## Key points
+
+- Securing the web client with SSL means obtaining a certificate, adding an HTTPS binding, and optionally redirecting HTTP to HTTPS.
+- X.509 security certificates can secure server-to-client connections over WAN, using chain trust or peer trust, with Server Authentication and Client Authentication certificates.
+- Server hardening covers service account configuration, Microsoft Entra ID authentication, disk quotas, the client services port, data encryption and IPSec.
+- Data at rest can be protected with Transparent Data Encryption and BitLocker, alone or combined as defense in depth, with a possible performance impact.
+- Database management in SQL Server needs the dbcreator server role to create databases and the db_owner database role to manage companies and objects.
+- The overview page mentions TLS 1.2 support and SQL Server security as part of the on-premises security picture.
 
 ## Learn pages
 

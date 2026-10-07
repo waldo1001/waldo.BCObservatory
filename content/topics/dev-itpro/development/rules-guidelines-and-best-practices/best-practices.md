@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
 type: topic
 title: Best practices
-summary: "Learn section Development > Rules, guidelines, and best practices > Best practices: 17 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure and prepare extensions for Marketplace validation."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:48.858Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
+  prompts:
+    hub-topic: 1
+  input_hash: b38733944098eb8264c6e17b535aa4be459e1b669fd078fbf9b714c6fdd03fc9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -177,14 +178,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
-narrative: none
+narrative: generated
 ---
 
 # Best practices
 
-> Learn section Development > Rules, guidelines, and best practices > Best practices: 17 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure and prepare extensions for Marketplace validation.
 
-Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section collects guidance for developers building Business Central extensions. Five subtopics cover AL code (naming, file structure, formatting, obsolete attributes, Marketplace validation rules), restrictions (what AL code should avoid), testing, performance and security.
+
+Three pages sit directly in the hub. One explains how to add telemetry signals to an application. One lists requirements for connectivity apps published to Marketplace. One defines how to write user scenario documentation so Microsoft validation teams can test an extension.
+
+Start with AL code best practices for the baseline conventions. Then read testing and the scenario documentation page if you plan to publish to Marketplace. Use the performance, security and telemetry pages when troubleshooting or hardening an extension.
+
+## Key points
+
+- AL code guidance covers naming conventions, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.
+- Restrictions: avoid UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events, to prevent sign-in errors, login slowdowns and web service exceptions.
+- Testing uses a Customer Rewards sample extension tested with the Application Test Toolkit, plus pre-submission checks before Marketplace validation.
+- Performance guidance gives a measure, locate, eliminate approach, diagnostic tools, and advice on pages, web services, reports, AL code and data access.
+- Security covers authentication, authorization, encryption, auditing and change logging, and using Azure Key Vault for secrets when calling external web services.
+- The telemetry page describes logmessage, sendtracetag, custom events, Application Insights integration, event log and feature telemetry.
+- Connectivity apps need app compatibility, 85% test coverage, sales volume thresholds and regulatory compliance such as PSD2 licensing. The page references 2022 release wave 2.
+- User scenario documentation needs step-by-step guides with screenshots, prerequisite steps, demo data and rapid start packages.
 
 ## Subtopics
 

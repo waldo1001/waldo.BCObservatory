@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Italy > VAT: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Italian VAT functionality in Business Central: VAT codes and rates, VAT transaction reports (prepare, create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports for Italy. It answers setup and how-to questions for Italian tax compliance."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:30.197Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 494de834cf322859b3f96cd8f33aba9a05504b095c33ecddf4bec22a506e0ad4
+  prompts:
+    hub-topic: 1
+  input_hash: 2695b878b30e0ff08dc19870c265c0f70554e41b464126d0b1b18e5594cb3814
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports
@@ -132,14 +133,29 @@ bc_forms:
   - 12199
   - 12202
 member_hash: 494de834cf322859b3f96cd8f33aba9a05504b095c33ecddf4bec22a506e0ad4
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Italy > VAT: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Italian VAT functionality in Business Central: VAT codes and rates, VAT transaction reports (prepare, create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports for Italy. It answers setup and how-to questions for Italian tax compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Italian localization of VAT. A general page on Italian VAT describes VAT codes and rates, VAT calculation based on transaction dates, non-deductible VAT, service tariffs, reverse charges and prepayment handling, and notes that VAT transaction reports must be submitted to the authorities. Several pages then cover the VAT transaction report process in order: setting up VAT posting for the reports, creating the electronic report, exporting it as a .ccf file and recording receipt numbers, and correcting or cancelling submitted reports. Other pages explain how to submit VAT statements through the VAT settlement process, how to print and reprint G/L Book and VAT Register fiscal reports, and how to set up and print monthly or quarterly Intrastat reports for Italy.
+
+## Key points
+
+- Italian VAT defines VAT codes and rates, computes VAT by transaction date, and supports non-deductible VAT, service tariffs, reverse charges and prepayments.
+- Preparing for VAT transaction reports involves the VAT Transaction Report Amount threshold, the Individual Person and Resident flags, tax representative assignment, and the Foreign Trade FastTab.
+- Electronic VAT Transactions reports list transactions above the threshold, are categorized by contract type, and include credit memos for non-EU customers.
+- Reports are exported with the Export VAT Transactions batch job as .ccf files, with a Detailed Export option. Receipt numbers from the tax authority are then recorded.
+- Corrections are made with corrective or cancellation reports linked to the original submitted report. Lines are suggested from VAT entries and threshold setup, and can be excluded.
+- VAT statements are submitted by reviewing VAT entries, running Calc. and Post VAT Settlement, and exporting the statement as PDF.
+- G/L Book and VAT Register fiscal reports print with progressive page numbering, can be reprinted, and track the last printed page.
+- Intrastat reports for Italy can be monthly or quarterly, cover purchases or sales, and support corrective entries by referencing the corrected report number. The Intrastat page is tagged for 2022 release wave 2.
 
 ## Learn pages
 

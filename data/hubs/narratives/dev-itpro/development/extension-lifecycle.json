@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle",
+  "input_hash": "ce8b4001b102ed6b04e1bcbed65f87e7870a574ef9de00010a652959a5151eaa",
+  "summary": "Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about global apps, per-tenant extensions, DEV extensions, and about migration, translation, testing, deployment, updating and deprecation.",
+  "overview": "The extension lifecycle section describes the path of a Business Central extension: planning, development, testing, deployment, operations, monitoring and deprovisioning. The overview page ties these phases to related processes such as data migration, translation, testing and upgrade.\n\nTwo own pages explain scope. Extension types and scope separates global apps installed from Marketplace, per-tenant extensions (PTE) deployed to specific environments, and DEV extensions used only in sandbox. Moving between extension scopes covers the identity, naming and ID range requirements when an app changes between PTE, DEV and Marketplace.\n\nSubtopics go deeper on each phase: migration and moving tables and fields between extensions on-premises, translation with XLIFF, testing, deploying and installing, updating and hotfixing, and deprecating code. Start with the lifecycle overview, then extension types and scope, then the subtopic that matches your current phase.",
+  "key_points": [
+    "Lifecycle phases: planning, development, testing, deployment, operations, monitoring and deprovisioning.",
+    "Extension types: global apps from Marketplace, per-tenant extensions for specific environments, and DEV extensions for sandbox only.",
+    "Moving an app between PTE, DEV and Marketplace scopes has identity, naming and ID range requirements (2023 release wave 2 page).",
+    "Migration covers .delta files from Compare-NAVApplicationObject, migration.json, and transition extensions.",
+    "On-premises moves of tables and fields use MovedTo and MovedFrom properties and staged moves, with attention to publishing order.",
+    "Translation uses XLIFF files, with layered sources overriding each other by language priority and app dependencies.",
+    "Testing covers AL test codeunits, test pages, handlers, test runners and the Performance Toolkit.",
+    "Deprecation uses Obsolete properties and preprocessor directives, CLEAN symbols, warnings AL0604 and AL0606, and the deprecation of 'with' statements."
+  ],
+  "members_used": 3,
+  "subtopics_used": 7,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:56.644Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024655
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:41.284Z",
+    "verdict": "approve",
+    "issues": [
+      "None of the key points cover deploying and installing or updating and hotfixing, though both are mentioned in the summary and overview. If one is swapped in, it could cover publish, sync and install tasks, or version numbering, upgrade code and Marketplace hotfixes.",
+      "The label '2023 release wave 2 page' in the key point on moving between scopes comes from the page's version metadata. It is supported, but it adds little for an agent."
+    ],
+    "input_hash": "ce8b4001b102ed6b04e1bcbed65f87e7870a574ef9de00010a652959a5151eaa",
+    "cost_usd": 0.034995200000000004
+  }
+}

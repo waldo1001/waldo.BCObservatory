@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/overview",
+  "input_hash": "8c3aedca66548c7356522dc1a0a895e132935b401b295a6df9827ea7a6f976b2",
+  "summary": "Overview of migrating from Business Central on-premises to online. It covers the end-to-end cloud migration process and its five phases, the Cloud Migration Management page, and the version 14 reimplementation tool for essential data only. Use it to understand the process and choose an approach.",
+  "overview": "This section introduces moving data from Business Central on-premises to Business Central online. The main overview page explains the components, the data flow and the five phases, from preparation through completion and go-live. It mentions cloud migration setup, data replication, data upgrade, Azure Data Factory pipelines, a self-hosted integration runtime and the intelligent cloud permission set.\n\nThe Managing cloud migration page describes the Cloud Migration Management page, where you run data replication and data upgrade, edit the cloud migration setup, map users, and use troubleshooting actions such as a diagnostic run and resetting cloud data.\n\nThe third page covers a separate option for version 14 on-premises: the reimplementation tool. It moves only essential business data and does not require converting customizations. Start with the end-to-end overview, then read the management page, and consider the reimplementation tool if you are on version 14 and want a lighter path.",
+  "key_points": [
+    "The end-to-end migration has five phases, from preparation through completion and go-live.",
+    "Key components include Azure Data Factory pipelines, a self-hosted integration runtime and the intelligent cloud permission set.",
+    "The process includes cloud migration setup, data replication and data upgrade.",
+    "The Cloud Migration Management page lets you run replication and upgrade, and map users.",
+    "Troubleshooting actions include a diagnostic run and resetting cloud data.",
+    "The version 14 reimplementation tool migrates only essential business data and needs no customization conversion.",
+    "The reimplementation tool covers master data, opening balances, setup data and custom tables, with module disable settings."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:51.453Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010439
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:55.605Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 calls Azure Data Factory pipelines, the self-hosted integration runtime and the intelligent cloud permission set 'key components'. The source only lists them as features of the overview page. A permission set is not really a migration component, so 'topics covered' would be more accurate.",
+      "Calling the reimplementation tool a 'lighter path' is the writer's own wording. It is a fair reading of 'essential business data only' and needing no customization conversion."
+    ],
+    "input_hash": "8c3aedca66548c7356522dc1a0a895e132935b401b295a6df9827ea7a6f976b2",
+    "cost_usd": 0.0230312
+  }
+}

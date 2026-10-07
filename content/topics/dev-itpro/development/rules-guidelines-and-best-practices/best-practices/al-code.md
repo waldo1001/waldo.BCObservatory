@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code
 type: topic
 title: AL code
-summary: "Learn section Development > Rules, guidelines, and best practices > Best practices > AL code: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "AL code best practices for Business Central extensions: naming conventions, file structure, formatting, deprecation with obsolete attributes and CLEAN symbols, prefix and suffix rules, and validation rules for Marketplace submission. It answers how to write, name, and retire AL code consistently."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
+  prompts:
+    hub-topic: 1
+  input_hash: 3df0f02aa7c283b6ee9b02663a2e408ccfc8f086aac593e65273869201ac3b27
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-bestpracticesforalcode
@@ -75,14 +76,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
-narrative: none
+narrative: generated
 ---
 
 # AL code
 
-> Learn section Development > Rules, guidelines, and best practices > Best practices > AL code: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> AL code best practices for Business Central extensions: naming conventions, file structure, formatting, deprecation with obsolete attributes and CLEAN symbols, prefix and suffix rules, and validation rules for Marketplace submission. It answers how to write, name, and retire AL code consistently.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > AL code · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > AL code · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section collects guidance for developers writing AL code in extensions. It covers day-to-day style (file and object naming, method declarations, variable naming, formatting, line length) and the rules an extension must meet when submitted to Marketplace.
+
+The pages fit together by topic. The general best practices page sets the coding conventions. The prefix and suffix page explains how to register and use an affix so object names do not collide, and how AppSourceCop relates to it. The deprecation page shows how to retire code with obsolete properties and preprocessor directives, following the pattern Microsoft uses in the Base App. The rules and guidelines page lists critical and important validation requirements and common pitfalls.
+
+Start with the general best practices page for conventions, then read the rules and guidelines page if you plan to submit to Marketplace. Use the prefix/suffix and deprecation pages when you name new objects or remove existing ones.
+
+## Key points
+
+- Best practices page covers file naming, object naming, method declaration, variable naming, code formatting, and line length.
+- Deprecation uses the ObsoleteState, ObsoleteTag, and ObsoleteReason properties together with preprocessor directives.
+- CLEAN version symbols (CLEAN15 to CLEAN18) are used in the deprecation guidance, matching how Microsoft obsoletes Base App code.
+- A prefix or suffix on extension objects prevents name collisions and is needed for Marketplace submission standards.
+- Affix registration and AppSourceCop are part of the prefix and suffix guidance.
+- Rules and guidelines page lists critical and important validation requirements for Marketplace submissions.
+- Rules topics include encryption, data classification, permission sets, translation, application area, and prefix/suffix.
 
 ## Learn pages
 

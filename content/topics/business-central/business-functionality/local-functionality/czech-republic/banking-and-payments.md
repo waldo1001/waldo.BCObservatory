@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/banking-and-payments
 type: topic
 title: Banking and Payments
-summary: "Learn section Business functionality > Local functionality > Czech Republic > Banking and Payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use."
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6c275e09b7501b5683cf6785656190b8f6b7dc361954e6f87a52da7924901c5e
+  prompts:
+    hub-topic: 1
+  input_hash: 0946658ef0a676f7e6e27e6055790c444bce33221d2580620f3322b437380647
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz
@@ -59,14 +60,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6c275e09b7501b5683cf6785656190b8f6b7dc361954e6f87a52da7924901c5e
-narrative: none
+narrative: generated
 ---
 
 # Banking and Payments
 
-> Learn section Business functionality > Local functionality > Czech Republic > Banking and Payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section describes the Czech localization of banking and payment functionality in Business Central. It has no subtopics and consists of two pages, each describing one extension.
+
+The Banking Documents Localization extension handles payment orders and bank statements. It supports creating and exporting payment orders, importing bank statements, importing and exporting bank files, and managing bank accounts. The Cash Desk Localization extension handles physical cash. It covers cash desk setup, receipt and withdrawal documents, user authorization, and applying payments to customer and vendor entries.
+
+Start with the page that matches your process: banking documents for bank-based payments and statements, cash desk for cash operations. The two are independent, so you can read them separately.
+
+## Key points
+
+- Banking documents extension supports payment order creation and export.
+- Bank statements can be imported and created, and rolled over to journals.
+- Payment entries can be paired, and bank files imported and exported.
+- The Keep Description field preserves descriptions on bank accounts across currencies.
+- Cash desk extension supports physical cash receipts and withdrawals.
+- Cash desks are defined and set up with number series for their documents.
+- Cash desk user authorization controls who can work with a cash desk.
+- Cash desk cases (events) and inventory management are covered, and payments can be applied to customer and vendor entries.
 
 ## Learn pages
 

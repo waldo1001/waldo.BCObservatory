@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/tax-engine",
+  "input_hash": "c162eb2ac2155952038f374518dee5e49b97a0b5b6af6479c47a9c1aed8cccdd",
+  "summary": "The Tax engine section covers the configurable Tax Engine for India in Business Central. It answers questions about setting up tax types, rates and use cases, scripting and lookups, design best practices, and importing or exporting configuration as JSON.",
+  "overview": "Tax Engine is a configurable extension suite for India. It lets you set up tax rules, calculation and posting without code changes, through six modular extensions. The Overview page introduces the components, including Tax Type Handler, Tax Use Case Handler, Tax Scripting, Tax Posting Handler and JSON import/export.\n\nThe configuration pages follow a sequence. Tax Configuration 01 covers tax types (GST, TDS, TCS, WHT), attributes, components, rate parameters and tax rates. Tax Configuration 02 covers use cases: conditions, attribute and rate parameter mapping, computation scripts, component formulas, posting and tax ledger mapping. The Script Activity and Lookup pages are references for building the logic inside use cases.\n\nStart with the Overview, then read the two configuration pages in order. Use the Design Consideration page for best practices before you build. Use the Import/Export page when you move configuration between environments.",
+  "key_points": [
+    "Tax Engine is an India-specific extension suite with six modular extensions for tax setup, calculation and posting without code changes.",
+    "Tax types such as GST, TDS, TCS and WHT are set up with attributes, components, rate parameters and tax rates, and are posted to G/L accounts.",
+    "Use cases define business scenarios: stages, conditions, attribute mapping, rate parameter mapping, variables, computation scripts, component formulas, posting and tax ledger mapping.",
+    "Script Activity supports string operations, number calculations, date manipulation, conditions, loops and miscellaneous activities.",
+    "Lookups fetch values from the current record, variables, tables, the database, the system, tax attributes, components and other sources.",
+    "The Json Exchange extension imports and exports full tax type configurations or specific use cases in JSON format, and is reached through Assisted Setup.",
+    "Design Consideration gives best practices for creating tax types, generic attributes and rate setups, sequencing use cases, deploying configuration files and managing versions."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:29.973Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014343000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:01.979Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says to use the Import/Export page 'when you move configuration between environments'. This is a reasonable reading but goes slightly beyond the page summary, which only describes importing and exporting configuration in JSON.",
+      "'Reached through Assisted Setup' comes only from the Import/Export page's feature list, not its summary. It is acceptable but thinly sourced.",
+      "The reading order advice (Design Consideration before you build) is the narrative's own suggestion, not something the sources state. It is harmless."
+    ],
+    "input_hash": "c162eb2ac2155952038f374518dee5e49b97a0b5b6af6479c47a9c1aed8cccdd",
+    "cost_usd": 0.0390352
+  }
+}

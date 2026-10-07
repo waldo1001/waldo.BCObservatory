@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+  "input_hash": "160d3acc876f1a90e81afa12e3cbceefffc0cb59af7e83c799c76928cdb93541",
+  "summary": "Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production.",
+  "overview": "This section covers how an app or extension publisher gets monitoring data from production. It starts with an introduction to developing telemetry into an application, then setup of the connection to Azure Application Insights, then the ways to emit your own signals. It also covers the obsolete Event Log approach and the telemetry the platform already emits for apps and extensions.",
+  "key_points": [
+    "Setting up telemetry in an extension uses applicationInsightsConnectionString or applicationInsightsKey in the app configuration; the page references runtime version 7.2.",
+    "Custom events for Application Insights are emitted with the LogMessage method, which supports verbosity levels (Critical, Error, Warning, Normal, Verbose), DataClassification and TelemetryScope (extensionpublisher, all).",
+    "Default dimensions are included in CustomDimensions for custom trace events.",
+    "Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError and LogUptake.",
+    "Uptake states are Discovered, Set up, Used and Undiscovered. The module also offers a Telemetry Logger interface, custom dimensions, and filtering and feature comparison through common telemetry dimensions.",
+    "The SENDTRACETAG method is obsolete. It writes custom events to the server Event Log, which you can view in Event Viewer. The page references 2020 release wave 2 (v17).",
+    "The platform already logs telemetry for apps and extensions: page interactions, REST API calls, report rendering, error dialogs and resource consumption.",
+    "A reference documentation subtopic with 2 pages is also part of this section."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:19.814Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012815
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:46.836Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 says SENDTRACETAG is obsolete as of 2020 release wave 2 (v17). The source marks the method as obsolete and lists v17 as a version, but it never says that was the release where it became obsolete. I reworded the point so it only says the page references that version.",
+      "Key point 5 says the Telemetry Logger interface and custom dimensions support filtering and comparing features. The source lists these as separate features and links advanced filtering to common telemetry dimensions. I adjusted the wording to match.",
+      "Small point: the overview leaves out the Event Log option and the data the platform logs by default. I added a sentence that covers both."
+    ],
+    "input_hash": "160d3acc876f1a90e81afa12e3cbceefffc0cb59af7e83c799c76928cdb93541",
+    "cost_usd": 0.0447272
+  }
+}

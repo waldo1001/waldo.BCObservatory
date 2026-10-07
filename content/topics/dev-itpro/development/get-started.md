@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/get-started
 type: topic
 title: Get started
-summary: "Learn section Development > Get started: 29 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "The Get started section covers how to begin AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, and packaging, translating, and instrumenting apps. It also covers ALTool, Ready to Go, and marketplace validation for AppSource."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:15.041Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
+  prompts:
+    hub-topic: 1
+  input_hash: 19ab0454f01948f74a2a77e19360f11eeb576d1e4f014a8e0dd1d81f3e896d40
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports
@@ -249,7 +250,8 @@ links:
     - topic/dev-itpro/development/get-started/marketplace-validation
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/
   guidelines: []
 learn_toc_path:
   - Development
@@ -264,18 +266,37 @@ coverage:
   learn: 29
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
-narrative: none
+narrative: generated
 ---
 
 # Get started
 
-> Learn section Development > Get started: 29 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> The Get started section covers how to begin AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, and packaging, translating, and instrumenting apps. It also covers ALTool, Ready to Go, and marketplace validation for AppSource.
 
-Path: [Development](../development.md) > Get started · tier official · system development · no narrative yet
+Path: [Development](../development.md) > Get started · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section is the entry point for AL development. "Get started with AL" walks through the sandbox, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json and app.json, and deployment. "Build your first sample extension" then shows tables, pages, extension objects, install code, and upgrade code. "Differences in the development environments" helps developers coming from C/SIDE.
+
+Many pages describe Visual Studio Code tooling: AL code actions, code navigation, AL Explorer, Formatter, Home, outline view, keyboard shortcuts, syntax and snippets, and productivity tips. Designer is the in-client tool for changing page layouts without writing AL code.
+
+Other pages cover release tasks: context-sensitive help links, XLIFF translation files, telemetry, and runtime packages for on-premises. Three subtopics go further. ALTool covers command-line compile and package steps for CI/CD. Ready to Go covers publishing to the commercial marketplace. Marketplace validation covers AppSource checks.
+
+## Key points
+
+- Get started with AL covers sandbox setup, Visual Studio Code, the AL Language extension, the AL:Go! command, launch.json, app.json, and Copilot project templates.
+- The first sample extension builds table, page, and extension objects with install and upgrade code, and uses Designer.
+- Editor tools include code actions (configurable scope: instance, document, project, workspace), Go To Definition navigation, AL Explorer, Formatter, outline view, and AL Home.
+- Designer is available in a Business Central sandbox and edits page layouts by drag-and-drop without AL code.
+- XLIFF translation uses the TranslationFile feature, GenerateCaptions, and namespace-aware IDs (runtime 18).
+- Telemetry pages describe LogMessage, custom events, and Application Insights integration.
+- Runtime packages for on-premises protect AL source code and need no developer license on the target server; showMyCode and allowDebugging flags apply.
+- Subtopics cover ALTool for CI/CD, Ready to Go for partner registration and Partner Center, and Marketplace validation for AppSource.
 
 ## Subtopics
 
@@ -303,5 +324,11 @@ Path: [Development](../development.md) > Get started · tier official · system 
 - [Syntax and snippets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-syntax): Description of syntax and snippets available with the AL language for Business Central.
 - [Use Designer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer): Description of how Designer works and is integrated with the AL development experience.
 - [Work with XLIFF Translation Files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files): Learn how to generate, maintain, and package XLIFF translation files for multilingual Business Central extensions, including namespace-aware IDs.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/.md) (community post): "Start projects from structured templates like AL-Go for GitHub"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

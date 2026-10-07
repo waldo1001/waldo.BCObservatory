@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/error-handling/error-telemetry",
+  "input_hash": "592be2a551878e89381676a7fda1d4fdfeb6c6d287ae618b31177294289766c0",
+  "summary": "Error telemetry in Business Central AL covers how to analyze error-related events in Application Insights: error dialogs from the Error method, permission errors, user votes on error messages, and feature telemetry. It answers questions about event IDs, dimensions, KQL analysis and logging with the Telemetry AL module.",
+  "overview": "This section is for developers who want to see how errors surface in production. Three pages describe specific telemetry signals sent to Application Insights: error dialogs shown when the Error method is called in AL code, permission errors when users lack required permissions, and votes users give on how helpful an error message was. The Error method and permission error pages describe the event dimensions and give KQL examples.\n\nThe fourth page covers feature telemetry. It uses the Telemetry AL module to track app health, feature uptake and usage, and to log errors through the FeatureTelemetry codeunit, with custom dimensions available.\n\nStart with the Error method trace page for the general error signal, then the permission error page if the problem is about access. Use the vote telemetry page to judge error message quality, and feature telemetry to add your own logging.",
+  "key_points": [
+    "Error method trace telemetry uses eventId RT0030 (error dialog displayed) and includes alErrorMessage and alStackTrace dimensions.",
+    "Permission error trace telemetry uses eventId RT0031 (permission error shown) with errorMessage, permissionArea, permissionType and alStackTrace dimensions.",
+    "Both error trace pages give KQL examples for Application Insights analysis. The Error method page also covers alert setup.",
+    "Error message vote telemetry records user feedback on how helpful an error message was in Application Insights. The page is associated with 2022 release wave 1.",
+    "Feature telemetry uses the FeatureTelemetry codeunit with LogUsage, LogError and LogUptake.",
+    "Uptake states that can be logged are Discovered, Set up, Used and Undiscovered.",
+    "Feature telemetry supports advanced filtering through common telemetry dimensions, plus a Telemetry Logger interface, custom dimensions and feature comparison across metrics."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:38.719Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011699
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:48.243Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says all three signal pages describe event dimensions and give KQL examples. The vote telemetry summary mentions neither, so only the Error method and permission error pages support that claim.",
+      "Key point 7 merges two separate items from the summaries. Filtering comes from common telemetry dimensions, while the Telemetry Logger interface, custom dimensions and comparing features across metrics are listed as separate features. Reworded so it doesn't suggest one causes the other.",
+      "Small issue: the vote key point puts '2022 release wave 1' in brackets without explaining what it means. Reworded to tie it to the source page."
+    ],
+    "input_hash": "592be2a551878e89381676a7fda1d4fdfeb6c6d287ae618b31177294289766c0",
+    "cost_usd": 0.041919200000000004
+  }
+}

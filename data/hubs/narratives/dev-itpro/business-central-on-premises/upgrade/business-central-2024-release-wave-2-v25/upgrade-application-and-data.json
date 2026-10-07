@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2024-release-wave-2-v25/upgrade-application-and-data",
+  "input_hash": "0a7df7e44748036c924e8f8c36b57f14332ac992e68e639e6dabe355fea3d5d3",
+  "summary": "Upgrade application and data for Business Central on-premises version 25 (2024 release wave 2). It covers three paths: unmodified C/AL, customized C/AL, and Microsoft System and Base Application upgrades. It answers questions about which steps and tools apply to a given source version.",
+  "overview": "This section describes how to upgrade an on-premises Business Central application and its data to version 25. The right page depends on where you start: a version 14 or earlier C/AL application that is unmodified, a version 14 C/AL application that is customized, or an installation already running the Microsoft System and Base Application.\n\nThe unmodified C/AL path replaces the C/AL base application with the Microsoft System and Base Application extensions. The customized path moves your customizations into extensions and transfers table ownership during the data upgrade phases. The System and Base Application page lists steps for source versions 15 through 24, including database conversion, extension publishing, tenant sync and data upgrade.\n\nStart by identifying your current version and whether the base application was modified, then follow the matching page from start to finish.",
+  "key_points": [
+    "Three upgrade paths: unmodified C/AL, customized C/AL, and Microsoft System and Base Application to version 25.",
+    "Unmodified C/AL upgrade applies to version 14 (Spring 2019) or earlier and replaces the C/AL base application with Microsoft extensions.",
+    "Customized C/AL upgrade starts from version 14 and uses DestinationAppsForMigration, migration.json and a table migration extension.",
+    "Customized path converts code with txt2al and moves application code into extensions, with table ownership transfer in data upgrade phases.",
+    "System and Base Application upgrade covers source versions 15 through 24.",
+    "Steps across the paths include database conversion, publishing extensions, data upgrade, permission sets upgrade and license import; the System and Base Application path also covers tenant synchronization.",
+    "Multitenant deployments are supported in the unmodified C/AL upgrade."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:57.779Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012121
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:13.261Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point on the System and Base Application path gives the wrong release-wave range '(2022 release wave 1 to 2024 release wave 1)' for versions 15 through 24. Version 15 is not 2022 release wave 1, and the sources do not support that range. Removed it.",
+      "Key point calls the steps 'common' to all paths, but tenant synchronization appears only on the System and Base Application page. Reworded so it is not presented as shared by every path."
+    ],
+    "input_hash": "0a7df7e44748036c924e8f8c36b57f14332ac992e68e639e6dabe355fea3d5d3",
+    "cost_usd": 0.0388232
+  }
+}

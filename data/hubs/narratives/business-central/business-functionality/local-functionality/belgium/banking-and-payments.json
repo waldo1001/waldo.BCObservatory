@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/belgium/banking-and-payments",
+  "input_hash": "6e1c9a6bb09a56113e2ad040c6ce51338fd1a70c0681b88ecf8ee734b8f75765",
+  "summary": "Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols and payment files, domiciliation direct debits, and CODA bank statement import, application and posting. It answers setup and how-to questions for these processes.",
+  "overview": "This section covers the Belgian localization of electronic banking. It has three parts: outgoing electronic payments, direct debit through domiciliation, and incoming bank statements in the CODA format. The Belgian Electronic Banking page is the entry point and describes the setup options, such as Summarize Gen. Jnl. Lines and Cut off Payment Message Texts.\n\nFor payments, the pages go in order: set up export protocols, create payment journal templates and batches, and mark vendors for automatic payment suggestions. Then suggest payments, test the lines, and export the payment file. Separate pages explain the payment types, how payment lines are summarized into general journal lines, and how to correct lines that fail checks.\n\nFor bank statements, start with the Belgian CODA overview, then import the CODA file, apply the lines to ledger entries manually or in batch, and transfer and post them to the general ledger. Transfer and posting can be done manually or automatically. A separate page covers direct debit with domiciliation, from setup to file export.",
+  "key_points": [
+    "Electronic payment types covered: domestic, international, SEPA and non-Euro SEPA, with bank account validation and payment line correction.",
+    "Export protocols define the payment file format and are set up with fields such as Export Protocol Code, Export Object Type, Export Object ID, Check Object ID and Export Number Series.",
+    "Payment journal templates and batches are assigned page IDs, test report IDs, source codes and bank accounts for generating and posting payment suggestions.",
+    "The Suggest Payments checkbox on the vendor controls whether unpaid invoices are included in automatic payment suggestions.",
+    "Test electronic payments with Check Payment Lines before export. It checks bank account numbers, amounts, single bank account usage and SEPA requirements, and results go to the Export Check Error Logs.",
+    "Summarize Gen. Jnl. Lines and Cut off Payment Message Texts in Electronic Banking Setup control how payment lines are consolidated into general journal entries.",
+    "CODA workflow: import the CODA file, apply lines manually or automatically (Process CODA Statement Lines), then transfer to a financial journal and post to the general ledger.",
+    "Domiciliation direct debit uses a domiciliation number and preferred bank account, generates suggestions, handles payment discounts and refunds, and supports testing before file export."
+  ],
+  "members_used": 14,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:40.008Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019639
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:35.537Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the 'Test Electronic Payments' page summary says lines are validated 'before posting', while the key point says 'before export'. The export page lists Check Payment Lines before Export Payment Lines, so the wording is defensible.",
+      "Minor: 'results go to the Export Check Error Logs' is a light inference. The page lists the logs as a feature but does not say this explicitly."
+    ],
+    "input_hash": "6e1c9a6bb09a56113e2ad040c6ce51338fd1a70c0681b88ecf8ee734b8f75765",
+    "cost_usd": 0.045279200000000006
+  }
+}

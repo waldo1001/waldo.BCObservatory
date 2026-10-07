@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/overview
 type: topic
 title: Overview
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Dynamics GP > Overview: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Migration from on-premises Dynamics GP to Business Central online: the end-to-end process, which GP data moves, how to manage cloud migration runs, and how everyday GP work maps to Business Central. It answers questions about phases, migrated data, and migration management."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:22.256Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: cf1d00c01d5e99160e4e4e3582e7742c5e52e2383ec569c2803cb3f72825fca5
+  prompts:
+    hub-topic: 1
+  input_hash: 068615248349d234b76523c85d4e377affc52e0735328f6b9294cff1a61e8c66
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos
@@ -77,14 +78,32 @@ bc_forms:
   - 2502
   - 4003
 member_hash: cf1d00c01d5e99160e4e4e3582e7742c5e52e2383ec569c2803cb3f72825fca5
-narrative: none
+narrative: generated
 ---
 
 # Overview
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Dynamics GP > Overview: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Migration from on-premises Dynamics GP to Business Central online: the end-to-end process, which GP data moves, how to manage cloud migration runs, and how everyday GP work maps to Business Central. It answers questions about phases, migrated data, and migration management.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Overview · tier official · system administration · no narrative yet
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Overview · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section introduces moving Dynamics GP on-premises data to Business Central online. The main overview page walks through the phases: assessment, preparation, cloud migration setup, data replication, upgrade, validation, and completion.
+
+The other pages cover specific needs. One lists what data is migrated and how it maps, such as fiscal periods, chart of accounts, dimensions, customers, vendors, inventory, and checkbooks. Another explains how to run and track the migration from the Cloud Migration Management page or the cloud migration API. A video page compares daily GP work with Business Central for users making the switch.
+
+Start with the end-to-end overview to understand the sequence. Then read the data migration page to check what will move, and use the management page while running the migration.
+
+## Key points
+
+- The overview covers the phases: assessment, preparation, cloud migration setup, data replication, data upgrade, validation, and completion.
+- A migration assessment tool and an Intelligent Cloud permission set are part of the process.
+- Migrated data includes fiscal periods (to accounting periods), chart of accounts, dimensions mapping, customer and vendor records, inventory, and checkbook transactions.
+- The Cloud Migration Management page, or the cloud migration API, is used to set up, run, track, and manage migration.
+- Management actions include Run Migration Now, Run Data Upgrade Now, Reset Cloud Data, and Disable Cloud Migration.
+- The Migration Log and Migration Information tiles show migration status.
+- Videos compare GP and Business Central work for receivables, payables, vendor payments, customer cash receipts, dimensions, journal entries, and reports.
 
 ## Learn pages
 

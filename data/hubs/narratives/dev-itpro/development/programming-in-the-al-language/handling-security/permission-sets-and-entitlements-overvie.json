@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie",
+  "input_hash": "778674d463cc046fec6980997353cfb7039301a7b757fc4d3e1224ae11b04f64",
+  "summary": "Permission sets and entitlements in Business Central AL development: defining permission set and entitlement objects, composing and extending permission sets, setting object permissions, inherent permissions, exporting to XML, upgrading from legacy permissions, and analyzing permission telemetry.",
+  "overview": "This area explains how access is controlled in Business Central from the AL developer side. Entitlements define what a customer's license or Microsoft Entra role allows. Permissions are assigned by administrators, and permission sets group them logically. The overview page \"Entitlements and permission sets overview\" explains these differences and covers upgrade considerations from versions before 18.0.\n\nThe authoring pages cover the Permission set object, the Permission Set Extension object, composing sets from other sets, permissions on objects, inherent permissions, and the Entitlement object. Two further pages cover exporting permission sets to XML and upgrading from legacy data-based permissions to AL object-based permissions.\n\nThree telemetry pages cover auditing and troubleshooting: permission changes, permission errors, and permission dependency cycles. Start with the overview page, then read the Permission set object and Permissions on Objects pages. Use the telemetry pages when diagnosing problems.",
+  "key_points": [
+    "Entitlements give license-based access, permissions are assigned by administrators, and permission sets are logical groups of permissions.",
+    "Permission set objects use the Assignable, Permissions, IncludedPermissionSets and ExcludedPermissionSets properties. Sets can be composed hierarchically, and some can be nonassignable.",
+    "Permission set extension objects add permissions to existing sets, and the permissions are applied automatically when the extension is installed.",
+    "Permissions on objects cover read, insert, modify, delete and execute, with direct and indirect permissions, abbreviations and wildcards.",
+    "The inherentpermissions attribute gives specific AL methods or events temporary elevated permissions without changing user permission sets.",
+    "Entitlement objects (2023 release wave 2) support role-based, per-user plan, unlicensed, Microsoft Entra group and application scope entitlements, and support Marketplace app monetization.",
+    "Permission sets can be exported to XML and packaged into extensions. Visual Studio Code can generate permission set XML with default permissions for extension objects.",
+    "Upgrading from legacy data-based permissions to AL object-based permissions involves identifying customizations and creating new Permission Set and Permission Set Extension objects (versions 18 and 19)."
+  ],
+  "members_used": 12,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:39.125Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019115
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:55.702Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on Entitlement objects puts '2023 release wave 2' in a parenthetical, which reads like the feature was introduced in that release. The source only lists that version on the page; wording such as 'documented for 2023 release wave 2' would be safer.",
+      "The suggested reading order in the overview is the writer's own guidance, not taken from the sources. It is reasonable and harmless."
+    ],
+    "input_hash": "778674d463cc046fec6980997353cfb7039301a7b757fc4d3e1224ae11b04f64",
+    "cost_usd": 0.045111200000000004
+  }
+}

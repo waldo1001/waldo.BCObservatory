@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality/workflows",
+  "input_hash": "240a0bdc82832c307e5b4d4fbd78c7960a2ab73ca0802239dd3d60f6b7120206",
+  "summary": "Workflows in Business Central: automation and approvals using Power Automate flows and built-in approval workflow templates. It answers questions about flow types, workflow events and responses, and how to send, approve, reject, delegate and administer approval requests.",
+  "overview": "Workflows connect business-process tasks in Business Central through two routes: Power Automate flows and approval workflows built from built-in templates. Workflows involve workflow events and workflow responses. Power Automate flows can be triggered by events such as a record being created or changed.\n\nStart with the \"Workflows in Dynamics 365 Business Central\" page for the overall picture. Then read \"Use Power Automate flows in Business Central\" if you need event-triggered automation through the Power Automate connector. That page covers automated, approval, scheduled and instant flows.\n\nThe \"Use approval workflows\" subtopic (6 pages) covers day-to-day approval work. Users send, approve, reject, delegate and cancel requests. Admins enable and delete workflows, restrict records, and review archived workflow step instances.",
+  "key_points": [
+    "Two approaches: Power Automate flows and approval workflows based on built-in templates.",
+    "Workflows are built from workflow events and workflow responses.",
+    "Power Automate flows can be triggered by events such as record creation or changes, through the Power Automate connector.",
+    "Flow types named in the pages: automated, approval, scheduled and instant flows.",
+    "Users can send, approve, reject, delegate and cancel approval requests.",
+    "Admins can enable and delete approval workflows and restrict the use of records.",
+    "Archived workflow step instances can be reviewed.",
+    "The approval subtopic has 6 how-to pages."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:27.520Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009382999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:08.662Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview merges two separate claims. The Workflows page lists workflow events and workflow responses as features. The record-creation and record-change triggers come from the Power Automate page. Saying events and responses work 'so a trigger such as a record being created or changed leads to an automated action' presents an inference as sourced fact. Reworded to keep the two claims separate.",
+      "Overview says the Power Automate page covers 'manual automation'. The source only names instant flows, so the wording now uses 'instant flows'.",
+      "The Power Automate page summary says 'three flow types' but then lists four (automated, approval, scheduled, instant). The narrative correctly avoids the wrong count.",
+      "Key point about the approval subtopic having 6 pages is accurate but adds little. It is kept."
+    ],
+    "input_hash": "240a0bdc82832c307e5b4d4fbd78c7960a2ab73ca0802239dd3d60f6b7120206",
+    "cost_usd": 0.0339072
+  }
+}

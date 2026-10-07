@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management
 type: topic
 title: Warehouse management
-summary: "Learn section Business functionality > Warehouse management: 26 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Warehouse management in Business Central covers inbound, outbound and internal warehouse processes, plus configuration options, bin and document concepts, and inventory and warehouse reporting. It answers questions about which warehouse setup or document applies, and about barcode printing.
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c6e15f87979e76155e46e48e5882e721f1ba503562d350bf0ae0d097f057d01a
+  prompts:
+    hub-topic: 1
+  input_hash: 475071cc475516e6ba9a6baaf50ee8838d06627a28e3e9f584f08ab29426e674
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents
@@ -286,14 +287,32 @@ bc_forms:
   - 9330
   - 9345
 member_hash: c6e15f87979e76155e46e48e5882e721f1ba503562d350bf0ae0d097f057d01a
-narrative: none
+narrative: generated
 ---
 
 # Warehouse management
 
-> Learn section Business functionality > Warehouse management: 26 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Warehouse management in Business Central covers inbound, outbound and internal warehouse processes, plus configuration options, bin and document concepts, and inventory and warehouse reporting. It answers questions about which warehouse setup or document applies, and about barcode printing.
 
-Path: [Business functionality](../business-functionality.md) > Warehouse management · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Warehouse management · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+Warehouse management groups the pages on handling inventory in a warehouse. The overview page "Manage warehouse activities" explains the configuration options, document types, bin types and workflows for receipt, picking, shipping and internal movements. It is the best place to start.
+
+Three subtopics follow the flow of goods: inbound (receiving, put-away, cross-docking), outbound (picking and shipping for sales orders, transfer orders, purchase returns and service orders) and internal (production, assembly and job components, moving items, counting and adjusting inventory). Each one distinguishes basic from advanced warehouse configurations, so check which setup you use before choosing a page, journal or document.
+
+The reports and analytics page covers statistics on current and past inventory and warehouse activity, and printing of barcodes and QR codes.
+
+## Key points
+
+- Start with 'Manage warehouse activities' for configuration options, document types, bin types and workflows.
+- Overview topics include bin management, directed put-away and pick, warehouse receipts and shipments, bin types and bin ranking.
+- Inbound covers warehouse receipts, inventory put-aways, warehouse put-aways and cross-docking, in basic and advanced setups.
+- Outbound covers four outbound methods, inventory picks, warehouse picks and shipments, and cross-docking for sales, transfer, purchase return and service orders.
+- Internal processes cover production, assembly and job components and output, moving items within and between locations, and counting and adjusting inventory.
+- Reports and analytics page covers barcode and QR code printing, with encoding of item GTIN, reference number, lot number and serial number.
+- Many pages differ between basic and advanced warehouse configurations, so confirm the setup first.
 
 ## Subtopics
 

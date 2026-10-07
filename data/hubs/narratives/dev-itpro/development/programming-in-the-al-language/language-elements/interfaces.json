@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
+  "input_hash": "65103acaa11ee4eff05119bbf2c52a1aefb181c78bfd0e229b97e56d10888953",
+  "summary": "Interfaces in AL: how to declare them, implement them in codeunits, give methods default implementations, extend interfaces, and manage method changes over time. It answers questions about polymorphism, the is and as operators, and safely adding or removing interface methods in published extensions.",
+  "overview": "Interfaces in AL define syntactical contracts that codeunits implement, which supports polymorphic programming. The section has four pages and no subtopics. They cover the basics, extension of interfaces, type testing and casting, and the lifecycle of interface methods.",
+  "key_points": [
+    "Start with 'Interfaces in AL': interface declaration, the implements keyword, and Go to Implementations.",
+    "Interfaces can have default method implementations, and a default method can later transition to a required method.",
+    "'Extend interfaces in AL' lets an interface extend other interfaces and inherit their methods (2024 release wave 2).",
+    "The is operator tests whether an interface supports a given interface or method, and the as operator casts it (2024 release wave 2).",
+    "Type testing and casting are mainly useful when extending interfaces.",
+    "Interface method lifecycle in published extensions uses Default, RequiredPending, and Obsolete states to keep backward compatibility.",
+    "The lifecycle page also covers required methods, a runtime identifier, and AppSourceCop rules.",
+    "The 'Interfaces in AL' page mentions 2023 release wave 1 and 2026 release wave 2 as version points."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:32.882Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009985
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:46.553Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 4 says the is operator tests whether an interface supports 'a given interface or method'. The type testing page summary only mentions testing for specific methods. The 'interface' part is implied by the 'dynamic type checking' wording on the extend page, so this is minor.",
+      "Key point 8 only lists version points without context. It is supported by the sources but adds little value for agents."
+    ],
+    "input_hash": "65103acaa11ee4eff05119bbf2c52a1aefb181c78bfd0e229b97e56d10888953",
+    "cost_usd": 0.028103200000000002
+  }
+}

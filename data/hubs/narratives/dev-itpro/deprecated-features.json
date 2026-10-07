@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/deprecated-features",
+  "input_hash": "55885de2d5ced3af13f01348356ed8c905adbe2f9c3e030be7f1b37d59a90882",
+  "summary": "Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.",
+  "overview": "This section lists features that Microsoft has deprecated or removed in Business Central. The pages of this section cover the client, server and database platform, including OData and SOAP endpoints, PowerShell 5.0, permission sets, authentication methods, the Windows Client and ADAL. It also covers BcContainerHelper and the rules for how long code stays obsolete before removal.\n\nSubtopics split the material by area: Application (W1 features and objects deleted in 2025 release wave 1, v26), Local functionality (17 pages), Deprecated tables (with mappings to new table names), and Deprecating code (obsolete attributes, preprocessor symbols, and the 'with' statement deprecation).\n\nStart with the platform page for a timeline by release wave. Use the Application and Deprecated tables subtopics when rewriting extension code. Read the code deprecation timeline article to plan around the 12-month minimum between marking code obsolete and removing it.",
+  "key_points": [
+    "The platform timeline covers 2021 to 2027 and lists OData endpoints on Microsoft pages, SOAP endpoints on UI pages, PowerShell 5.0 modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.",
+    "ADAL/Azure AD Graph is replaced by MSAL/Microsoft Graph.",
+    "The Windows Client is removed in favor of web, desktop and mobile apps. The Excel COM add-in and programmatic printing, which depend on it, go with it.",
+    "User personalizations and profile configurations are replaced by new AL tooling.",
+    "BcContainerHelper is deprecated, with official support ending October 1, 2027. AL-Go for GitHub is the replacement.",
+    "Microsoft allows at least 12 months between marking code obsolete and removing it, using ObsoleteState, ObsoleteTag, the Obsolete attribute and AppSourceCop.",
+    "Deprecated tables pages give mappings to new table names for code rewrites, and list deprecated tables in the India version for 2021 release wave 2.",
+    "Application pages include objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26)."
+  ],
+  "members_used": 3,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:45.132Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015209
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:17.199Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on the code timeline says Microsoft times obsoletion 'using' ObsoleteState, ObsoleteTag, the Obsolete attribute and AppSourceCop; the source only lists these as features of the page, so 'using' is a slight inference. 'Covering' would be more literal.",
+      "Overview's advice to use the Application subtopic when rewriting extension code is a reasonable inference; only the Deprecated tables subtopic explicitly mentions code rewrites.",
+      "Overview opens with 'This section lists...'; not a rule violation, but it would read better starting with the subject."
+    ],
+    "input_hash": "55885de2d5ced3af13f01348356ed8c905adbe2f9c3e030be7f1b37d59a90882",
+    "cost_usd": 0.0457312
+  }
+}

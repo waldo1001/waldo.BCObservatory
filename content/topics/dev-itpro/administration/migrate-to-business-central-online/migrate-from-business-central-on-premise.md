@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
 type: topic
 title: Migrate from Business Central on-premises
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Business Central on-premises: 20 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Migration from Business Central on-premises to Business Central online: the cloud migration process and its phases, preparation, setup, data replication, data upgrade, and completion. It answers what to do at each phase and how to configure, run, monitor, and finish a migration."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
+  prompts:
+    hub-topic: 1
+  input_hash: 6729a438cd5801c475d7fb7c02e8369105f6ac4a3614f484b712e760ca1f7030
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
@@ -196,14 +197,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
-narrative: none
+narrative: generated
 ---
 
 # Migrate from Business Central on-premises
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Business Central on-premises: 20 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Migration from Business Central on-premises to Business Central online: the cloud migration process and its phases, preparation, setup, data replication, data upgrade, and completion. It answers what to do at each phase and how to configure, run, monitor, and finish a migration.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · no narrative yet
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section describes how to move a Business Central on-premises solution to Business Central online. The Overview subtopic explains the end-to-end process, its five phases, and the Cloud Migration Management page. It also covers the version 14 reimplementation tool, which is for essential data only.
+
+The other subtopics follow the phases in order. Prepare covers planning, data scope, cleanup, SQL table definition alignment, data size estimates, and performance tuning. Set up cloud migration covers Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention. Replicate data explains how replication works and how to run, monitor, pause, or troubleshoot it. Upgrade data covers data upgrade from earlier on-premises versions and skipping the API data upgrade.
+
+The page in this hub, Complete cloud migration, covers the final phase. Start with the Overview to choose an approach, then work through Prepare before configuring anything.
+
+## Key points
+
+- The migration process has five phases and is managed from the Cloud Migration Management page.
+- A version 14 reimplementation tool exists for migrating essential data only.
+- Prepare steps include planning, data scope, cleaning data, aligning SQL table definitions, estimating data size, and tuning performance.
+- Setup involves Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention.
+- Replication uses Azure BLOB storage, Azure Data Factory, and change tracking, with separate flows for large and small tables.
+- Replication can be run, monitored, paused, and troubleshot in Cloud Migration Management.
+- Data upgrade applies to earlier on-premises versions, and the API data upgrade can be disabled per company to shorten upgrade time.
+- Completion tasks include migrating record links and notes, disabling cloud migration, running API upgrades, setting up user mappings, reconnecting Sales integration, and monitoring telemetry.
 
 ## Subtopics
 

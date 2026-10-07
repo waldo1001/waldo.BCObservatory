@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/get-started/get-productive-in-business-central/accessibility-keyboard-shortcuts-and-tou",
+  "input_hash": "598faab1478e6c789d54abd0add4f4417d792aa384f6b7cbb45d553fb2dc783e",
+  "summary": "Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about assistive features, PC and macOS shortcuts, access keys, and gestures on tablets and phones.",
+  "overview": "This section covers the ways to work in Business Central without relying only on a mouse. It includes the accessibility features built into the product, keyboard references for PC and macOS, and gestures for touch and pen devices.\n\nStart with Assistive features for an overview of keyboard shortcuts, tab navigation, heading structure, alternative text, screen reader support, zoom, and tooltips. Then use Keyboard Shortcuts for the full list across navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming, and role explorer. Keyboard quick reference - PC only is a shorter PC-focused reference for navigation, data entry, filtering, sorting, and common actions. Touch and pen gestures covers tablets and phones.",
+  "key_points": [
+    "Assistive features page covers keyboard shortcuts, tab navigation, heading structure, image alt text, link titles, screen reader support, zoom, and tooltips.",
+    "Keyboard Shortcuts is the comprehensive reference for both PC and macOS.",
+    "Shortcut areas include general navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming, and role explorer.",
+    "Keyboard quick reference - PC only covers the factbox pane, tell me, find entries, new record creation, column sorting, and search toggle.",
+    "Access keys and multitasking across pages are covered in the keyboard shortcuts.",
+    "Touch and pen gestures cover tap and hold, swipe actions, and horizontal scrolling on tablets and phones.",
+    "Gesture topics also include chart tooltips, the tile menu, and Power BI report selection and controls."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:37.334Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011307000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:11.552Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point on 'Power BI report selection and controls' joins two separate items. The source lists 'report selection' as a feature and 'Power BI report controls' in the summary. Likely accurate but slightly inferred."
+    ],
+    "input_hash": "598faab1478e6c789d54abd0add4f4417d792aa384f6b7cbb45d553fb2dc783e",
+    "cost_usd": 0.030207200000000003
+  }
+}

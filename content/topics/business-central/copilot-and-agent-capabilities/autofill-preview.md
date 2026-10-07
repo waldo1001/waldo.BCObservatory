@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/autofill-preview
 type: topic
 title: Autofill (preview)
-summary: "Learn section Copilot and agent capabilities > Autofill (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Autofill with Copilot (preview) in Business Central fills blank editable fields on card and document pages with suggestions that users review. It answers questions about how the feature works, where suggestions come from, and its responsible AI aspects such as permissions, security, and data residency.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 12534f49a5bdb1e08b3bdde93f9b595733e06b9a6707b049bcdf159186a718af
+  prompts:
+    hub-topic: 1
+  input_hash: 2534f1b6dd1be31dc62cb2064f6eb95a2e737f99b7eb6efeed487ccf07a293be
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot
@@ -60,14 +61,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 12534f49a5bdb1e08b3bdde93f9b595733e06b9a6707b049bcdf159186a718af
-narrative: none
+narrative: generated
 ---
 
 # Autofill (preview)
 
-> Learn section Copilot and agent capabilities > Autofill (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Autofill with Copilot (preview) in Business Central fills blank editable fields on card and document pages with suggestions that users review. It answers questions about how the feature works, where suggestions come from, and its responsible AI aspects such as permissions, security, and data residency.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Autofill with Copilot is a preview feature that suggests values for blank editable fields on card and document pages. Suggestions are based on Business Central data, AI generation, or web search results. Users see the suggestions, can check the details behind them, and accept or discard each one before saving.
+
+The section has two pages. The first, "Autofill fields with Copilot (preview)", explains how the feature works and how to use it. The second, "Responsible AI FAQ for Autofill (preview)", covers how the feature handles permissions, security filtering, data residency, Bing Search, and user feedback.
+
+Start with the usage page to understand the review workflow. Then read the FAQ if you need to answer questions on data handling, web search, or governance.
+
+## Key points
+
+- Autofill fills blank editable fields on card and document pages with suggestions.
+- Suggestions can come from Business Central data, AI generation, or web search results.
+- Users review each suggestion and accept or discard it before saving; manual review is required.
+- Suggestion details are available so users can see the basis for a value.
+- Web search uses Bing Search and is supported in version 26.4 and above.
+- The feature respects user permissions and security controls.
+- The Responsible AI FAQ covers data residency, security filtering, and user feedback.
+- The feature is in preview.
 
 ## Learn pages
 

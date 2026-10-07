@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy
 type: topic
 title: Italy
-summary: "Learn section Business functionality > Local functionality > Italy: 28 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Italy local functionality in Business Central covers Italian VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:24.772Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a9cb867e2ea979d4428b768ebe3d39229380412c7acca2475cf0d13e0ed029bb
+  prompts:
+    hub-topic: 1
+  input_hash: 75e4debde7eaf07fda3f6053994880c1a39822cef19730727ad4c36ffe0fe913
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
@@ -313,14 +314,32 @@ bc_forms:
   - 35490
   - 35491
 member_hash: a9cb867e2ea979d4428b768ebe3d39229380412c7acca2475cf0d13e0ed029bb
-narrative: none
+narrative: generated
 ---
 
 # Italy
 
-> Learn section Business functionality > Local functionality > Italy: 28 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> Italy local functionality in Business Central covers Italian VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Italy section describes features specific to the Italian version of Business Central. An entry page lists the areas: VAT, withholding tax, banking payments, core finance, inventory, fixed assets and electronic invoicing. It mentions 2027 release wave 1 and wave 2.
+
+Seven subtopics hold the detail. VAT is the largest, with 8 pages on VAT codes, transaction reports, statements, registers and Intrastat. Fixed assets (5 pages) and banking and payments (4 pages) come next. Core finance and General have 3 pages each. Withholding tax and Inventory have 2 pages each.
+
+Start with the entry page to find the area you need. Then go to the matching subtopic. For a first-time Italian setup, check General (company information, Intrastat templates and batches) and then VAT.
+
+## Key points
+
+- VAT: VAT codes and rates, VAT transaction reports (create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports.
+- Withholding tax: setup for vendor purchases and third-party services, plus printing Withholding Taxes reports for amounts payable to the Italian government.
+- Banking and payments: automatic payments and bills, vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments.
+- Core finance: fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and restrictions on reversing journal entries.
+- Inventory: fiscal inventory valuation (valuation methods, components valuation, estimated WIP consumption, valuation type per item) and initial item costs for average year cost.
+- Fixed assets: anticipated, accelerated and reduced depreciation, compressed depreciation, multiple fixed asset cards from purchase invoices, and Depreciation Book reports.
+- General: company information setup, Intrastat journal templates and batches, and the deprecated Italian Subcontracting feature with its migration.
 
 ## Subtopics
 

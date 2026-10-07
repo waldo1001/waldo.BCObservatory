@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing",
+  "input_hash": "a80ee993c9ea7e74722d0be5922adb9e2b7e523f703314ca4037eeaf5a16f50c",
+  "summary": "Subscription billing setup in Business Central: general contract defaults, contract types, subscription packages and lines, item subscription options, importing contracts, job queue automation, and permission sets. It answers questions on configuring recurring billing before use.",
+  "overview": "This section covers the setup steps needed to run subscription billing for customer and vendor contracts. It starts with general setup, where the Subscription Contract Setup page holds defaults such as number series, invoice details, dimensions and posting groups, and then moves to the building blocks of an offering: contract types, subscription packages with subscription lines, and item settings that decide whether sales documents create subscription lines.\nSupporting pages cover importing existing contracts through configuration packages, scheduling recurring tasks with the job queue, and assigning access through four permission sets.\n\nA sensible order is general setup first, then contract types, packages and lines, and item subscription options. Import, job queue and permissions can follow as needed.",
+  "key_points": [
+    "Subscription Contract Setup page holds defaults: number series, invoice details, dimensions, posting groups, Overdue Date Formula, Default Period Calculation, Default Billing Base Period and Default Billing Rhythm.",
+    "General setup also includes a Service Start Date setting for warehouse picking.",
+    "Subscription contract types organize customer and vendor contracts and support harmonized billing, contract deferrals, multi-currency, translations and usage data billing.",
+    "Subscription packages group subscription lines with terms, pricing, price group assignment, billing rhythm, initial and subsequent term, and notice period; line templates can be used.",
+    "The item Subscription Option field offers Sales with Subscription, Subscription Item and Invoicing Item to control automatic creation of subscription lines in sales documents.",
+    "Import contracts, subscriptions and subscription lines with configuration packages, using the Create Customer Subscription Contracts, Create Subscriptions and Create Subscription Lines actions.",
+    "Job queue codeunit 8058 can automatically update subscription contract termination dates.",
+    "Four permission sets (SUB. BILLING ALL, ADMIN, BASIC and USER) control access to contracts, packages and billing, at levels from read-only to administrative."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:15.806Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014023
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:13.090Z",
+    "verdict": "fix",
+    "issues": [
+      "The permission sets key point lists them as USER, BASIC, ADMIN and ALL right after saying 'from read-only to administrative'. That implies a specific mapping, such as USER being read-only. The source only says there are four access levels from read-only to administrative and gives no mapping, so I reworded the point to avoid one.",
+      "The overview's suggested setup order is the writer's own inference, not something the source states. It is reasonable and labelled as a suggestion, so I kept it."
+    ],
+    "input_hash": "a80ee993c9ea7e74722d0be5922adb9e2b7e523f703314ca4037eeaf5a16f50c",
+    "cost_usd": 0.0485912
+  }
+}

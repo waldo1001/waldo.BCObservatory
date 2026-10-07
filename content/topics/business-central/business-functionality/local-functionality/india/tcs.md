@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/india/tcs
 type: topic
 title: TCS
-summary: "Learn section Business functionality > Local functionality > India > TCS: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustments, and payment to government authorities. It answers how to configure and post TCS and how to correct and deposit it."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:03.885Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0438572a6cde1074ee90ec50ace7da9d2105c74b5eefdc9fbc4457e99cbc82f2
+  prompts:
+    hub-topic: 1
+  input_hash: 4257e96a97bf08f614571f00dc59fd456b0669d870438aa0236187f1f1a0eaac
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority
@@ -99,14 +100,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 0438572a6cde1074ee90ec50ace7da9d2105c74b5eefdc9fbc4457e99cbc82f2
-narrative: none
+narrative: generated
 ---
 
 # TCS
 
-> Learn section Business functionality > Local functionality > India > TCS: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustments, and payment to government authorities. It answers how to configure and post TCS and how to correct and deposit it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TCS · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TCS · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers Tax Collected at Source for India under the Income Tax Act, 1961. It starts with setup, then moves to calculation on documents and journals, then to adjustment and payment.
+
+Two setup pages exist. One covers general manual and automatic TCS configuration: TCS rates, tax accounting period, T.C.A.N, assessee code, nature of collection, concessional code and posting setup. The other covers Section 206C(1H), which applies to sales above INR 50,00,000 with different rates for PAN and non-PAN customers.
+
+Calculation pages explain how TCS applies to sales invoices, orders, returns and receipt journals. They also explain how threshold limits per TCS Nature of Collection work, and how Section 206C(1H) TCS is calculated on receipts. After posting, use the adjustment page to correct unpaid entries and the payment page to deposit TCS with the authorities. Start with the general setup page.
+
+## Key points
+
+- General setup covers TCS rates, tax accounting period, T.C.A.N, assessee code, TCS Nature of Collection, concessional code and posting setup.
+- Section 206C(1H) setup applies to Indian sales above INR 50,00,000, with different rates for PAN and non-PAN customers, and uses the Threshold Amount and Calc. Over & Above Threshold settings.
+- TCS under Section 206C(1H) is calculated on customer payment receipts over the INR 50 lakh threshold through journals, with GL posting and GST integration.
+- Threshold logic applies TCS only when amounts exceed the limit set per TCS Nature of Collection, aggregated over the financial year.
+- Sales and receipt calculation covers sales invoices, orders, returns and receipt journals, with scenarios for PAN status, lower rate certificates, zero rate, foreign currency and advance payment adjustment.
+- TCS adjustment journals correct TCS amount, rate and base on unpaid entries, with revised TCS, surcharge, eCess and SHE cess percentages.
+- Adjustments update GL accounts, TCS entries and customer ledger entries.
+- TCS is paid to the government through the Payment Journal or Bank Payment Voucher, with filters such as TCAN and Assessee. Entries are marked as paid when the journal is posted.
 
 ## Learn pages
 

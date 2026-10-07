@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand
 type: topic
 title: New Zealand
-summary: "Learn section Business functionality > Local functionality > New Zealand: 22 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:52.700Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f06eb584c4616d59980760e126902e25c12070f70de0eee0e6fa582d8142414b
+  prompts:
+    hub-topic: 1
+  input_hash: 5fb394571010f8633f5f06110466e95e6cc8394c6f20dd7f4b1bb7128d7f4844
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses
@@ -222,14 +223,32 @@ bc_forms:
   - 28166
   - 28167
 member_hash: f06eb584c4616d59980760e126902e25c12070f70de0eee0e6fa582d8142414b
-narrative: none
+narrative: generated
 ---
 
 # New Zealand
 
-> Learn section Business functionality > Local functionality > New Zealand: 22 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > New Zealand · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > New Zealand · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the features Business Central adds for companies in New Zealand. It starts with an overview page listing the main areas: Withholding Tax, Goods and Services Tax, E-Invoicing with Peppol PINT A-NZ, Electronic Funds Transfer and GST settlement reporting.
+
+A separate page explains how to set up and use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and the sales and purchasing workflows. The subtopics hold the detailed how-to pages: Tax (8 pages), Banking & payments (5), Core finance (3) and General (4).
+
+Start with the overview page to find your area. For tax setup go to Tax. For electronic invoicing use the e-invoicing page. Bank, EFT and reconciliation tasks are under Banking & payments.
+
+## Key points
+
+- Electronic invoicing uses the E-Documents framework with the Peppol PINT A-NZ format for sales and purchasing workflows.
+- Tax covers GST posting setup, GST on prepayments, GST settlement reports and VAT exchange rate adjustment.
+- Withholding tax (WHT) setup, calculation and settlement are documented under Tax.
+- Banking & payments covers bank cash flow comparison, check installments, vendor EFT, and bank reconciliation and deposit slip reports.
+- Core finance covers calculating distribution amounts, and printing statutory balance sheet and income statement reports.
+- General covers address handling with DPID and postal codes, and cost plus percentage sales pricing.
+- General also covers IRD numbers and adjustment notes for GST.
 
 ## Subtopics
 

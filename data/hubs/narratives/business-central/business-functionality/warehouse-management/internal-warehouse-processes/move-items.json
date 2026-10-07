@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/move-items",
+  "input_hash": "356a2e5edb2f21ae1e0d106c2af03d4c90261d9033137ec9bf9be39929c9e5d8",
+  "summary": "Moving items inside and between warehouse locations in Business Central. It covers basic and advanced (directed put-away and pick) bin moves, unplanned internal movements, and transfers between locations. It answers which page or journal to use for each warehouse setup.",
+  "overview": "Item movement depends on how complex the warehouse configuration is, from simple bin moves to coordinated advanced workflows. Typical reasons include production orders, bin optimization, replenishment and warehouse restructuring. The section has one overview page and three task pages.\n\nFor basic warehouse configurations, unplanned moves without source document demand use the Internal Movement page or the Item Reclassification Journal. For warehouses with directed put-away and pick, moves use the Movement Worksheet, Warehouse Internal Pick, Warehouse Internal Put-away or the Warehouse Reclassification Journal. A separate page covers transfers between locations with transfer orders or item reclassification journals.\n\nStart with the Move Items overview to see which approach matches your configuration. Then open the page for your setup: basic, directed put-away and pick, or location-to-location transfer.",
+  "key_points": [
+    "The Move Items overview describes bin movement, the warehouse movement worksheet, internal picks and warehouse restructuring.",
+    "Basic configurations: use Internal Movements, Create Inventory Movement and Inventory Movement, or the Item Reclassification Journal, for moves without source document demand.",
+    "In basic setups, the Bin Contents List and Split Line help when reorganizing inventory and moving items to production areas.",
+    "Directed put-away and pick: move items between bins with the Movement Worksheet, Warehouse Internal Pick, Warehouse Internal Put-away or Warehouse Reclassification Journal.",
+    "The directed page also covers bin replenishment and FEFO picking.",
+    "Transfers between locations use transfer orders or item reclassification journals.",
+    "Transfers can be standard multi-step or direct, with optional in-transit location tracking.",
+    "Transfer topics include posting, undoing a shipment, batch transfer posting, job queue scheduling and direct transfer posting methods."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:47.358Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012229
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:52.381Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 says Bin Contents List and Split Line help with reorganizing inventory and moving items to production areas. The page summary lists them as features but does not state their purpose, so this link is a mild inference. Acceptable.",
+      "The overview lists 'warehouse restructuring' among the typical reasons for moving items. The source gives it as a feature of the overview page, not a reason. Close enough."
+    ],
+    "input_hash": "356a2e5edb2f21ae1e0d106c2af03d4c90261d9033137ec9bf9be39929c9e5d8",
+    "cost_usd": 0.0348392
+  }
+}

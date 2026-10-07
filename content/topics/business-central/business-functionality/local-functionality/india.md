@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/india
 type: topic
 title: India
-summary: "Learn section Business functionality > Local functionality > India: 87 Microsoft Learn pages in 9 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:15.599Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a569c762e56a2f38f9297a974af8ca3879a019e748853f00f9436b9e5fc6c515
+  prompts:
+    hub-topic: 1
+  input_hash: 91453fb0d78953dd5f983e4d3e6a98ce12a3d488bf1c3bc75f27a17619a34724
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software
@@ -344,14 +345,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: a569c762e56a2f38f9297a974af8ca3879a019e748853f00f9436b9e5fc6c515
-narrative: none
+narrative: generated
 ---
 
 # India
 
-> Learn section Business functionality > Local functionality > India: 87 Microsoft Learn pages in 9 subtopics. Index of what Learn documents here, linked to Learn.
+> India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The India section groups the localized features for Indian statutory and accounting needs. The largest area is GST, with setup, sales and purchase scenarios, returns, e-invoice, e-way bill and settlement. TDS, TDS for customer and TCS cover tax deducted or collected at source, including thresholds, adjustments and payment to government. The Tax Engine is a configurable framework with tax types, rates, use cases, scripting and JSON import and export.
+
+Other subtopics cover operational processes: voucher interface for day-to-day entries, fixed asset depreciation under Indian laws, gate entry for goods movement, and subcontracting with delivery challans and job work reports.
+
+The section's own pages cover four areas. They are an overview of India local functionality, audit trail and edit log compliance, charge assignment for purchase order charges, and stale check setup. Start with the overview page, then go to the subtopic for the tax or process you need. GST is the usual entry point for transaction questions.
+
+## Key points
+
+- GST (47 pages) covers setup, sales and purchase transactions, returns, advance payments, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement, with general ledger posting for each scenario.
+- TDS covers setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments and payment to government.
+- TDS for customer covers TDS master data, calculation on customer documents and tracking TDS certificates receivable.
+- TCS covers calculation on sales and receipts, thresholds, Section 206C(1H), adjustments and deposit to authorities.
+- Tax Engine is a configurable engine for tax types, rates, use cases, scripting and lookups, with JSON import and export.
+- Charge assignment distributes purchase order charges across lines using fixed, percentage or quantity computation and equal, amount, weight or volume assignment, with GST integration.
+- Audit trail and edit log page lists seven compliance requirements, including recording transactions, retaining the original format, preserving data and keeping books in India with backup.
+- Stale check setup uses Activate Cheque No., Stale Cheque Stipulated Period and Stale Cheque Expiry Date, and expired checks are marked via Bank Ledger Entry or Check Ledger Entry.
 
 ## Subtopics
 

@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+  "input_hash": "b38733944098eb8264c6e17b535aa4be459e1b669fd078fbf9b714c6fdd03fc9",
+  "summary": "Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure and prepare extensions for Marketplace validation.",
+  "overview": "This section collects guidance for developers building Business Central extensions. Five subtopics cover AL code (naming, file structure, formatting, obsolete attributes, Marketplace validation rules), restrictions (what AL code should avoid), testing, performance and security.\n\nThree pages sit directly in the hub. One explains how to add telemetry signals to an application. One lists requirements for connectivity apps published to Marketplace. One defines how to write user scenario documentation so Microsoft validation teams can test an extension.\n\nStart with AL code best practices for the baseline conventions. Then read testing and the scenario documentation page if you plan to publish to Marketplace. Use the performance, security and telemetry pages when troubleshooting or hardening an extension.",
+  "key_points": [
+    "AL code guidance covers naming conventions, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.",
+    "Restrictions: avoid UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events, to prevent sign-in errors, login slowdowns and web service exceptions.",
+    "Testing uses a Customer Rewards sample extension tested with the Application Test Toolkit, plus pre-submission checks before Marketplace validation.",
+    "Performance guidance gives a measure, locate, eliminate approach, diagnostic tools, and advice on pages, web services, reports, AL code and data access.",
+    "Security covers authentication, authorization, encryption, auditing and change logging, and using Azure Key Vault for secrets when calling external web services.",
+    "The telemetry page describes logmessage, sendtracetag, custom events, Application Insights integration, event log and feature telemetry.",
+    "Connectivity apps need app compatibility, 85% test coverage, sales volume thresholds and regulatory compliance such as PSD2 licensing. The page references 2022 release wave 2.",
+    "User scenario documentation needs step-by-step guides with screenshots, prerequisite steps, demo data and rapid start packages."
+  ],
+  "members_used": 3,
+  "subtopics_used": 5,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:22.885Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014821
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:48.858Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point on connectivity apps puts '(2022 release wave 2)' right after PSD2 licensing. That reads as if the PSD2 requirement or regulatory compliance arrived in that release. The source gives the version only for the page as a whole, so it should not be tied to one requirement. Reworded to name the version separately.",
+      "Key point says 'Telemetry pages', but the hub has only one telemetry page. Changed to the singular.",
+      "All other claims in the summary, overview and key points match the subtopic and page summaries."
+    ],
+    "input_hash": "b38733944098eb8264c6e17b535aa4be459e1b669fd078fbf9b714c6fdd03fc9",
+    "cost_usd": 0.04272720000000001
+  }
+}

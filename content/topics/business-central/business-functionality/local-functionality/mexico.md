@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/mexico
 type: topic
 title: Mexico
-summary: "Learn section Business functionality > Local functionality > Mexico: 13 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Mexico local functionality in Business Central covers features unique to the Mexican version: tax reporting (DIOT, RFC and CURP, VAT recalculation), electronic invoicing with CFDI, and general tasks such as electronic accounting export and vendor payment export. It answers setup and how-to questions for these tasks."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:06.401Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fe89b8600c5a34b9f842e9674daefe554abb68c65659a06f99879bc362ebf94b
+  prompts:
+    hub-topic: 1
+  input_hash: e12b5dc29e3848af38b0698b767109256993a4e8355aa455f90206ba165803a6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders
@@ -182,14 +183,27 @@ bc_forms:
   - 27044
   - 36646
 member_hash: fe89b8600c5a34b9f842e9674daefe554abb68c65659a06f99879bc362ebf94b
-narrative: none
+narrative: generated
 ---
 
 # Mexico
 
-> Learn section Business functionality > Local functionality > Mexico: 13 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Mexico local functionality in Business Central covers features unique to the Mexican version: tax reporting (DIOT, RFC and CURP, VAT recalculation), electronic invoicing with CFDI, and general tasks such as electronic accounting export and vendor payment export. It answers setup and how-to questions for these tasks.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Mexico · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Mexico · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Mexico section documents functionality specific to the Mexican version of Business Central. The section's landing page names the main areas: tax reports, electronic invoicing with CFDI 4.0, and payments. It lists the 2025 version.\n\nThe content is split into three subtopics. Tax covers DIOT reporting of vendor purchase VAT to SAT, tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Electronic invoice covers CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte for packing slips and transfer orders. General covers electronic accounting export to the SAT, deposits and troubleshooting reports, and vendor payment export.\n\nUse Electronic invoice for CFDI setup, certificates, PAC web services and stamping questions. Use Tax for DIOT, RFC and CURP, and VAT recalculation. Use General for electronic accounting export, deposits and troubleshooting reports, and payment export files.
+
+## Key points
+
+- The landing page lists DIOT reports, tax identification types, VAT recalculation, electronic invoicing, CFDI 4.0 and PAC web services, and names the 2025 version.
+- Tax (3 pages): DIOT reporting of vendor purchase VAT to SAT, RFC and CURP identification types, and VAT recalculation on foreign currency payments.
+- Electronic invoice (5 pages): CFDI XML invoices, SAT certificates, PAC web services, invoice generation and stamping.
+- Electronic invoice also covers Carta de Porte for packing slips and transfer orders.
+- General (4 pages): electronic accounting export to the SAT as XML, plus deposits and troubleshooting reports in the Mexican version.
+- Vendor payments can be exported with SEPA Credit Transfer or AMC Banking 365 Fundamentals.
 
 ## Subtopics
 

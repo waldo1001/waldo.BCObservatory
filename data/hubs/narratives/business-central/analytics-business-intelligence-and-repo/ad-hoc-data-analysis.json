@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
+  "input_hash": "2773c6d6659820cc3266c4b7b93d469264f37bb1f956f58e641dd72c5cbcc9a5",
+  "summary": "Ad-hoc data analysis in Business Central covers analyzing data directly from pages and lists without standard reports. It answers questions about sorting, searching, filtering, saved list views, data analysis mode with pivot, Excel open and edit, and exporting report datasets to Excel or XML.",
+  "overview": "Ad-hoc data analysis is about exploring Business Central data straight from list pages and queries, instead of building or running a report. The tools range from basic ones (sort, search, filter, saved list views) to data analysis mode and Excel-based options.\n\nStart with the overview page, then read the page on sorting, searching and filtering, which sets the base for everything else. Next, look at saving and personalizing list views, and at data analysis mode for grouping and pivoting. For work outside Business Central, use the Excel pages: Open in Excel and Edit in Excel for list data, and the Excel and XML export for report datasets. That export suits developers and advanced users who troubleshoot reports. A functional-area page links to analysis resources for specific areas.",
+  "key_points": [
+    "Sorting, searching and filtering are the base tools. Filters support operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user, %mycustomers, %myitems and %myvendors.",
+    "Search comes in a modern word-matching mode and a legacy exact-matching mode.",
+    "List views save filter setups. You can rename, remove, personalize and bookmark them on the Role Center, and they are reusable across devices.",
+    "Data analysis mode works on list page and query data. It has a Columns pane, an Analysis Filters pane, row groups, pivot mode and date hierarchies. You can add fields from related tables and keep several analysis views.",
+    "Analysis views can be bookmarked to the Role Center.",
+    "Open in Excel and Edit in Excel let you export list data, or change it and publish it back to Business Central. They support filters, the Excel add-in and multiple environments.",
+    "Report datasets can be exported as data-only Excel workbooks or XML files. The Excel export includes a report metadata worksheet and filter information.",
+    "A page of links points to ad-hoc analysis resources by functional area."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:19.099Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014700999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:53.461Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the report dataset export suits users who 'troubleshoot reports'. The source says export 'for ad-hoc analysis and troubleshooting', so the wording narrows it slightly but is acceptable.",
+      "Minor: the sort, search and filter page also covers reports and XMLports. The narrative frames it only around lists, which is acceptable for this hub.",
+      "Minor: the key point 'Analysis views can be bookmarked to the Role Center' is thin and could be merged into the data analysis mode point.",
+      "Minor: the Excel page also lists agent mode, which the narrative leaves out. Leaving it out is acceptable."
+    ],
+    "input_hash": "2773c6d6659820cc3266c4b7b93d469264f37bb1f956f58e641dd72c5cbcc9a5",
+    "cost_usd": 0.0364072
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/integration/web-services/soap",
+  "input_hash": "cdbcc6fc1ac570b4ecdddfbda4fd114d59e4574fb68033b5c8397f905b615880",
+  "summary": "SOAP web services in Business Central: how to consume them from client applications. It answers questions about converting bookmark keys to record IDs, keeping data when using static proxies, finding company names with SystemService, and handling optional fields.",
+  "overview": "This section covers practical topics for developers who call Business Central SOAP web services from client code. The pages are standalone how-to and reference topics, with no subtopics.\n\nStart with Use SystemService to Find Companies if your client needs a company name before it calls other web services. Then read the pages on proxies and optional fields, which explain how generated client code behaves. GetRecIdFromKey is a reference for converting a bookmark key into a record ID.",
+  "key_points": [
+    "GetRecIdFromKey converts a bookmark key, which holds primary key and concurrency information, into a record ID for web service operations.",
+    "With a statically generated SOAP proxy, data can be lost. Avoid this by regenerating the proxy whenever the client application builds.",
+    "The SystemService SOAP web service has a Companies method that lists the companies in a Business Central database.",
+    "Use SystemService to get company names before accessing other web services.",
+    "Optional fields in web service clients use Boolean *Specified properties for .NET value types.",
+    "For reference types, a null value indicates that a field has no value."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:48.970Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008757000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:58.266Z",
+    "verdict": "approve",
+    "issues": [
+      "Key points 3 and 4 overlap: both are about SystemService and getting company names. They could be merged, but this is minor.",
+      "The overview says the proxy and optional-field pages explain 'how generated client code behaves'. That's a light generalization for the optional-fields page, which covers *Specified properties and null handling in web service clients. It's still reasonable."
+    ],
+    "input_hash": "cdbcc6fc1ac570b4ecdddfbda4fd114d59e4574fb68033b5c8397f905b615880",
+    "cost_usd": 0.020939199999999998
+  }
+}

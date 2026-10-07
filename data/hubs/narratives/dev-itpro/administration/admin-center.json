@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/administration/admin-center",
+  "input_hash": "435334cc60fef9ae9cfd779872b229173852be5b008e1b9c73deeb9129eaed10",
+  "summary": "The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.",
+  "overview": "The admin center is the main place to administer Business Central online. The pages cover the portal itself (access requirements, delegated admin roles, GDAP), then the Environments tab for production and sandbox environments, including Power Platform linking, update windows and security groups.\nLifecycle pages cover copying, renaming, deleting and recovering, restoring to a point in time, exporting databases to BACPAC, and transferring environments between Microsoft Entra tenants. Operational pages cover sessions, updates, apps, capacity, telemetry, notifications, access, and consumption-based billing for Copilot and agents. A separate Admin Center API subtopic (15 pages) covers programmatic access.\nStart with the Business Central Administration Center page for access and the overall layout, then Managing Production and Sandbox Environments. Move to the task-specific page you need.",
+  "key_points": [
+    "Deleted environments are soft-deleted for 14 days and can be recovered. After that they are hard-deleted permanently.",
+    "Restore works to a point in time within 28 days using automated backups, with a limit of 10 restores per month.",
+    "Database export creates BACPAC files in an Azure standard storage account using a shared access signature. Exports are rate limited and customer-managed encryption keys are supported.",
+    "Transfers between Entra tenants must be accepted on the destination tenant within 8 hours. Post-transfer setup is needed for users and integrations.",
+    "Copying an environment keeps the same application version, extensions and configuration, and unlinks it from Power Platform.",
+    "Managing Apps handles Global Apps, Per-Tenant Extensions and DEV extensions, covering installation, update scheduling, dependency resolution and an Apps Update Cadence setting for automatic updates.",
+    "Updates are managed with update windows, scheduled or canceled updates, notification recipients and preview versions.",
+    "Notifications go through email, Message Center, Application Insights, Logic Apps and Power Automate. Consumption billing for Expense, Payables and Sales Order agents uses prepaid capacity or pay-as-you-go through Power Platform."
+  ],
+  "members_used": 16,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:42.222Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021081000000000003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:15.343Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 links the Apps Update Cadence setting to '2027 release wave 1'. The Managing Apps page lists that version only at page level, so tying it to this one setting isn't supported, and the release is still in the future as of today. I rewrote the point to describe the setting without the version and added install, scheduling and dependency resolution, which the page summary covers.",
+      "Small point, no change made: the overview says the Admin Center API subtopic covers 'programmatic access'. That comes from the subtopic title only, because no page summaries were provided for it. It's a reasonable reading, so I kept it."
+    ],
+    "input_hash": "435334cc60fef9ae9cfd779872b229173852be5b008e1b9c73deeb9129eaed10",
+    "cost_usd": 0.0620192
+  }
+}

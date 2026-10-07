@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/india/tds
 type: topic
 title: TDS
-summary: "Learn section Business functionality > Local functionality > India > TDS: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "TDS (Tax Deducted at Source) in the India localization of Business Central: setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments, and payment to government. It answers how to configure and post TDS."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:13.238Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e6e634b8ac3ac57ebcd7f6db777a55e6b808c6c5b820911d4d42170112a47593
+  prompts:
+    hub-topic: 1
+  input_hash: 9cb13be0eff70f946c7225414add8de235d4c7dfb1c237933ce46eee653c631c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority
@@ -107,14 +108,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: e6e634b8ac3ac57ebcd7f6db777a55e6b808c6c5b820911d4d42170112a47593
-narrative: none
+narrative: generated
 ---
 
 # TDS
 
-> Learn section Business functionality > Local functionality > India > TDS: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> TDS (Tax Deducted at Source) in the India localization of Business Central: setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments, and payment to government. It answers how to configure and post TDS.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers Tax Deducted at Source under India's Income Tax Act, 1961. It starts with setup (tax accounting periods, TAN numbers, assessee codes, TDS sections, concessional codes, rates, posting accounts, vendor and location details), then moves to how TDS is calculated on purchase documents, journals and payments.
+
+Further pages handle special cases: threshold limits for aggregate and single transactions, Section 194Q on purchases of goods above Rs.50 lacs, and provisional expense entries that are reversed when the actual invoice is posted. After deduction, TDS adjustment journals correct amounts, rates or base amounts not yet paid, and a payment page explains depositing TDS to government.
+
+Start with the general setup page, then the calculation page. Use the 194Q, threshold, provisional, adjustment and payment pages for the specific scenario you need.
+
+## Key points
+
+- Setup covers tax types, TAN numbers, assessee codes, TDS sections, concessional codes, rates, accounting periods and posting accounts, automatically or manually.
+- Calculation applies to purchase orders, invoices and journals, with rules for mandatory fields, non-resident vendors, concessional rates, higher rate when PAN is missing, partial expense and multiple expenses per invoice.
+- Threshold rules apply TDS only when aggregate or single transaction amounts exceed set limits in a financial year.
+- Section 194Q applies when aggregate purchases from a supplier exceed Rs.50 lacs; TDS is 0.10% on the amount over the threshold, with opening amounts and advance payments handled.
+- Provisional entries can be marked, assigned a TDS section and posted to a provisional account, then applied to invoices, with reverse or reverse without TDS options.
+- TDS adjustment journal corrects TDS percentage, base amount and amounts already deducted but not paid to government.
+- TDS is paid to government via Payment Journal or General Journal, selecting entries by filters such as TAN and assessee.
 
 ## Learn pages
 

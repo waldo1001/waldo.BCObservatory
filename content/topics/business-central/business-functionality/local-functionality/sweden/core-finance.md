@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/sweden/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Sweden > Core finance: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:33.077Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 38ef0f39a2dc3560540f3a8f25aa46bc7e1b11bc2154746f3c8e446230477c63
+  prompts:
+    hub-topic: 1
+  input_hash: c9c49f7d05489f7b22169c12c44ef352cd6a6fc1e2e372596098046eb8e27e1a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes
@@ -81,14 +82,33 @@ bc_forms:
   - 11208
   - 11212
 member_hash: 38ef0f39a2dc3560540f3a8f25aa46bc7e1b11bc2154746f3c8e446230477c63
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Sweden > Core finance: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Sweden](../sweden.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Sweden](../sweden.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Sweden-specific finance features in Business Central. Two pages deal with automatic account assignment during posting: one describes the automatic account codes functionality, and one explains how to set up automatic account posting groups.
+
+The other two pages cover reporting and data exchange. One explains how to import and export general ledger data in the Standard Import Export (SIE) format. The other explains how to print balance sheet and income statement reports for banks and authorities.
+
+Start with the automatic account codes page to understand the posting behavior and its move to an extension. Then use the posting groups page to configure it. Use the SIE and report pages when you exchange ledger data or prepare statutory reporting.
+
+## Key points
+
+- Automatic account codes assign accounts automatically during posting in the Swedish version.
+- From version 22.1 the automatic account codes feature moved to an extension, with no functional changes.
+- Automatic account posting groups are set up to configure how accounts are assigned during general ledger transactions.
+- SIE (Standard Import Export) lets you import and export general ledger data.
+- In SIE you specify dimensions and file types to control the detail level of transactions.
+- SIE data can include year-end balances, periodic balances and object balances.
+- Balance sheet and income statement reports show assets, liabilities, equity, income and expenses, and are meant for banks and authorities.
+- The reports support account filtering and a show all accounts option.
 
 ## Learn pages
 

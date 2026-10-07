@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters",
+  "input_hash": "e91dde415ac14a2df3b6274345d3906803ebd54adc7762309d7c99bc2f8fc077",
+  "summary": "FlowFields and FlowFilters in AL are virtual fields that calculate and display values dynamically without storing data. The section answers questions about how to create them, which FlowField types exist, how CalcFormula works, and how FlowFilters limit calculations at runtime.",
+  "overview": "FlowFields are table fields whose values come from a CalcFormula property instead of stored data. Results are calculated on demand, so they show up immediately without physical storage in the database. FlowFilters are companion fields that let users set ranges or filters at runtime, which narrow what a FlowField calculates, for example summing customer entries for one month.\n\nThe section has three pages. \"Creating FlowFields and FlowFilters\" covers the practical setup with the FieldClass and CalcFormula properties. \"FlowFields overview\" describes the available calculation types and performance topics such as SIFT optimization and calculating only visible FlowFields. \"FlowFilters overview\" explains how user-level filter values limit those calculations.\n\nStart with the creation page if you need to define a field, then read the two overviews to pick the right FlowField type and to understand how filters interact with it.",
+  "key_points": [
+    "FlowFields and FlowFilters are virtual fields: they calculate and display results dynamically and do not store data physically.",
+    "A FlowField gets its value from the CalcFormula property, and the FieldClass property marks the field as a FlowField or FlowFilter.",
+    "Seven FlowField types are available: Sum, Average, Exist, Count, Min, Max, and Lookup.",
+    "FlowFields show results immediately and help performance; SIFT optimization and calculating only visible FlowFields are covered in the overview (version 26.0).",
+    "FlowFilters let users set ranges and filters at runtime to limit FlowField calculations, such as summing customer entries for a specific month.",
+    "FlowFilter values are not stored in the database."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:43.012Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010509000000000001
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/relationship-management
 type: topic
 title: Relationship management
-summary: "Learn section Business functionality > Relationship management: 43 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.
 tier: official
 language: en
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:27.161Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d225d2a6e1a4c3640b49a6b09ce035ecf3bac269f9e56a1c575f356af34103fc
+  prompts:
+    hub-topic: 1
+  input_hash: 482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
@@ -361,14 +362,32 @@ bc_forms:
   - 6250
   - 50585058
 member_hash: d225d2a6e1a4c3640b49a6b09ce035ecf3bac269f9e56a1c575f356af34103fc
-narrative: none
+narrative: generated
 ---
 
 # Relationship management
 
-> Learn section Business functionality > Relationship management: 43 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.
 
-Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative reviewed by Opus
+
+## Overview
+
+Relationship management is the Business Central area for organizing customer relationships. It brings together contacts, interactions, segments, sales opportunities and marketing campaigns, and can be integrated with Dynamics 365 Sales.
+
+Start with the setup page for marketing and contact management information. It covers contact synchronization with customers, vendors and bank accounts, inheritance of contact fields, number series, duplicate search and interaction recording. After setup, the subtopics follow the working flow: manage contacts, group them into segments, record interactions with contacts and segments, and track sales opportunities through sales cycles.
+
+Two further subtopics round out the area. One covers using Dynamics 365 Sales with Business Central, including coupling records and checking synchronization errors. The other covers the built-in analytics reports for contacts, campaigns, opportunities, segments and questionnaires.
+
+## Key points
+
+- Setup covers contact synchronization with customers, vendors and bank accounts, automatic field inheritance, number series for contacts, duplicate search and interaction recording.
+- Contacts can be person or company records, linked to customers, vendors and banks, merged when duplicated, synced to Outlook, and organized with groups and profiles.
+- Segments group contacts for campaigns and bulk communications. Contact lists can be refined or reduced with filters, and interactions can be logged with segment members.
+- Interactions record communications with contacts and segments, use interaction templates and attachments, and can be recorded automatically for documents, emails and phone calls.
+- Sales opportunities rely on sales cycles and stages. They can be created for contacts and salespeople and processed to quotes, orders or closure, with email exchanges logged.
+- The Dynamics 365 Sales integration lets you couple and synchronize records with Dataverse or Dynamics 365 Sales, covering customers, orders, quotes, pricing and invoices, and check synchronization job errors.
+- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
 
 ## Subtopics
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extensibility/extending-the-base-application/examples
 type: topic
 title: Examples
-summary: "Learn section Development > Extensibility > Extending the base application > Examples: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Worked examples of extending the Business Central base application: dates, currency exchange rate adjustments, templates, document sharing, email, error messages, invoice posting, item charges, pricing, Shopify, Data Archive and e-documents. Use it to find which events, interfaces, enums and codeunits to use for a given extension scenario."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:44.651Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e8ef3c1bf44fc582ed3699829e07d007c301270a2f66be746810afb4b6e0b611
+  prompts:
+    hub-topic: 1
+  input_hash: 44f7b981b46ef98d9d91632b0a8575c1f798c59a22346da73a4636be00a6b028
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-pages-based-on-date-virtual-table
@@ -146,14 +147,33 @@ bc_forms:
   - 6103
   - 6133
 member_hash: e8ef3c1bf44fc582ed3699829e07d007c301270a2f66be746810afb4b6e0b611
-narrative: none
+narrative: generated
 ---
 
 # Examples
 
-> Learn section Development > Extensibility > Extending the base application > Examples: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Worked examples of extending the Business Central base application: dates, currency exchange rate adjustments, templates, document sharing, email, error messages, invoice posting, item charges, pricing, Shopify, Data Archive and e-documents. Use it to find which events, interfaces, enums and codeunits to use for a given extension scenario.
 
-Path: [Development](../../../development.md) > [Extensibility](../../extensibility.md) > [Extending the base application](../extending-the-base-application.md) > Examples · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Extensibility](../../extensibility.md) > [Extending the base application](../extending-the-base-application.md) > Examples · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section collects example-driven pages on extending specific areas of the base application. Each page covers one area and names the extension points to use, such as table and page extensions, event subscribers, interfaces, enums and codeunits. There are no subtopics, so all content sits on these pages.
+
+The pages fall into groups. Finance and posting: currency exchange rate adjustments, G/L entry aggregation on invoice posting, item charge distribution and price calculations. Data and setup: Date virtual table replacements, customer, vendor and item templates, and the Data Archive extension. Communication and integration: email, document sharing with OneDrive, error messages with recommendations, the Shopify Connector and e-documents.
+
+Start with the page that matches your area. Some pages center on implementing interfaces and enums: Invoice Posting, ErrorMessageFix, email connectors, price calculations and e-documents. Others center on subscribing to events, such as OnAfterCalcLine for Date buffer tables and the Item Charge Assignment codeunits. The Data Archive page uses methods on the Data Archive codeunit. The Shopify page describes per-tenant, hybrid and co-development approaches.
+
+## Key points
+
+- Pages formerly based on the Date virtual table now use buffer tables. Extend them with a table extension on the buffer table and a subscriber to OnAfterCalcLine.
+- Currency exchange rate adjustment objects were introduced in 2023 release wave 2. They add preview entries, detailed history and support for regional compliance.
+- Customer, vendor and item templates can be extended by adding fields to templates and creating new templates for primary tables.
+- Document Sharing and OneDrive for Business extensions use the Document Sharing module of the system application and the Document Service Management codeunit (2022 release waves 1 and 2).
+- Email extensions cover scenarios, address book lookup, view policies and connectors, including the Microsoft 365 and Current User connectors.
+- Actionable error messages are built by implementing the ErrorMessageFix interface and subscribing to error events.
+- G/L entry aggregation on invoice posting is customized by implementing the Invoice Posting interface for sales, purchase and service documents.
+- Custom item charge distribution methods, alongside equally, by amount and by weight, are added by subscribing to events in the Item Charge Assignment codeunits.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/understand-business-central-online
 type: topic
 title: Understand Business Central online
-summary: "Learn section Administration > Understand Business Central online: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, reseller setup, delegated admin access and technical support. It answers questions on how the online service is organized, run and supported."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 58ece3d44923935bcfb162150b4bf60526573f71601eee2219f16e019b8de5b4
+  prompts:
+    hub-topic: 1
+  input_hash: 1f24850659f88bd0139c3c8d416ecee4bdaae8886e5d9dde09c198bca1512093
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements
@@ -146,8 +147,10 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
   localizations: []
-  videos: []
+  videos:
+    - video/qwEnuR0vgYo
   posts:
+    - post/demiliani-com/12734
     - post/demiliani-com/15895
   guidelines: []
 learn_toc_path:
@@ -160,8 +163,8 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 0
-  blog: 1
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 9
@@ -173,14 +176,33 @@ bc_forms:
   - 9882
   - 20350
 member_hash: 58ece3d44923935bcfb162150b4bf60526573f71601eee2219f16e019b8de5b4
-narrative: none
+narrative: generated
 ---
 
 # Understand Business Central online
 
-> Learn section Administration > Understand Business Central online: 16 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, reseller setup, delegated admin access and technical support. It answers questions on how the online service is organized, run and supported.
 
-Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · no narrative yet
+Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section explains how Business Central online is structured and operated. The infrastructure page describes the model: a Microsoft Entra tenant holds environments organized by country/localization, and each environment holds companies as separate legal entities. The Environment types subtopic covers production, sandbox, preview, test and demo environments, including trials, partner sandboxes and quotas.
+
+Operational reference pages cover update cycles (major updates in April and October, monthly minor updates, preview, grace and enforced update periods), version numbering mapped to release waves, operation limits, and country/region availability with supported languages.
+
+Partner-facing pages cover reselling, delegated admin access through GDAP, and technical support. Trials and subscriptions covers the customer-side lifecycle. Start with the infrastructure page, then Environment types, then the page that matches your task.
+
+## Key points
+
+- Infrastructure: Microsoft Entra tenant, environments per country/localization, companies as separate legal entities within an environment.
+- Environment types subtopic (7 pages) covers production, sandbox, preview, test and demo environments, trials, partner sandboxes and quotas.
+- Update cycles: major updates twice yearly (April and October), monthly minor updates, with preview, update, grace and enforced update periods, plus rescheduling and maintenance windows.
+- Version numbers use the major.minor.build.revision format, with platform and application versions mapped to release waves (listed for versions 24 to 28).
+- Operation limits cover client connections, file and database size, search and SQL command timeouts, background sessions, reports, and OData and SOAP requests.
+- Country/region availability lists localization providers, Azure geography mapping, and platform and application language support.
+- Resellers use Partner Center and the cloud solution provider model; delegated admins get access through GDAP, with the Dynamics 365 Business Central Administrator role and some limits such as job queues.
+- Trials and subscriptions covers free trial signup, extending trials, buying subscriptions, data migration, removing licenses and canceling; support page covers contacts, break-fix, performance and data corruption.
 
 ## Subtopics
 
@@ -202,7 +224,9 @@ Path: [Administration](../administration.md) > Understand Business Central onlin
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Business Central tenants for Italian customers will be deployed to the Italy North datacenter"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
+- [Business Central 29.0 Is GA: New Environment](../../../videos/qwEnuR0vgYo.md) (video): "environment creation; version 29.0 ga; sandbox production setup"
 
 ## Business Central pages and reports
 

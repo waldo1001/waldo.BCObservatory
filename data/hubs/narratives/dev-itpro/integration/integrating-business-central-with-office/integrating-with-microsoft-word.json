@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word",
+  "input_hash": "3177afe7a14155277b968979c201bc302f8c824f26030400f9219dded43290ae",
+  "summary": "Integrating Business Central with Microsoft Word covers two tasks: mapping report data fields into Word layouts with the XML Mapping pane, and using Word templates to merge entity data into bulk communications for customers, vendors, and contacts. It answers how-to questions on custom report layouts and template-based documents.",
+  "overview": "This section covers two uses of Word with Business Central. The first is report design: you add report data to a Word layout by mapping content controls through the XML Mapping pane. The second is communication: you build Word templates that pull data from Business Central entities and produce personalized documents in bulk.\n\nThe two pages are independent. Start with \"Map Data Fields in Word Layouts\" if you are customizing how a report looks. Start with \"Using Word templates for bulk communications\" if you want to send tailored documents to customers, vendors, or contacts.",
+  "key_points": [
+    "The XML Mapping pane is used to manually map content controls in a Word report layout.",
+    "Word layouts can include repeating rows and image fields, and labels can be mapped too.",
+    "Word templates merge data from Business Central entities into personalized documents.",
+    "Templates can use both related and unrelated entities as data sources.",
+    "You select which fields from the entities to make available as merge fields.",
+    "Templates are designed for bulk communications with customers, vendors, and contacts.",
+    "The template page mentions uploading templates and email integration."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:10.000Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008139
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
+  "input_hash": "2b2f7b1376c1a9965df374b1c211760672cbfc34946f3af8708669e0c9926805",
+  "summary": "Set up sales in Business Central covers configuring customers, salespeople, prices and discounts, shipping, document sending, payment services, posting policies and stockout warnings. It answers setup questions before sales processes start, and includes a subtopic on subscription billing setup.",
+  "overview": "This section groups the setup tasks needed before you manage sales. It starts with an overview page listing the tasks: registering customers, adding payment service extensions, setting sales pricing and discounts, setting up salespeople, defining document sending profiles, and VAT verification.\n \nThe pages fall into a few groups. Customer and people setup covers customer cards, templates, credit limits and salespeople. Pricing covers special prices and discounts, customer price groups, customer discount groups and the general prices and discounts page. Logistics and documents cover shipping agents, shipment methods, sending documents and emails, document sending profiles and payment services. Smaller pages cover invoice posting policies, stockout warnings and updating document dates with posting dates.\n \nStart with the overview of tasks, then follow the page for the area you need. The Set up subscription billing subtopic covers recurring billing configuration separately.",
+  "key_points": [
+    "The overview page lists the setup tasks: customer registration, payment service extensions, pricing and discounts, salesperson setup, document sending profiles and VAT verification.",
+    "Customer cards can use templates, credit limits with overdue balance warnings, dimension templates and salesperson assignment by ship-to address.",
+    "Pricing pages cover price lists, line and invoice discounts, best price calculation, customer price groups and customer discount groups; the new pricing experience came with 2020 release wave 2 and Edit in Excel is supported.",
+    "Invoice posting policies can prohibit, allow or require posting of sales and purchase invoices together with shipments or receipts.",
+    "Payment services such as PayPal Payments Standard and WorldPay Payments Standard add payment links to emailed sales documents so customers can pay directly.",
+    "Document sending profiles set preferred sending methods, either as a default or per customer card, and work with the post and send action.",
+    "Shipping agents with services and tracking support package tracking and order promising dates; shipment methods can represent Incoterms.",
+    "A stockout warning notifies users when sales order quantities exceed available inventory."
+  ],
+  "members_used": 15,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:57.593Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019103000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:57.847Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 5 says payment links in emailed sales documents came with 2023 release wave 2. The page summary only tags that version and never says the feature was introduced or changed then, so I removed the parenthetical.",
+      "All other claims are supported by the page and subtopic summaries. That includes the 2020 release wave 2 pricing experience, the prohibit, allow or require posting policies, VAT verification on the overview page, and Incoterms for shipment methods."
+    ],
+    "input_hash": "2b2f7b1376c1a9965df374b1c211760672cbfc34946f3af8708669e0c9926805",
+    "cost_usd": 0.0477712
+  }
+}

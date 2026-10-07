@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/relationship-management/manage-segments",
+  "input_hash": "cc8b1be5925c1068acbbf973dc33be6c0052b2752f9590dfb8a87bfa743704d3",
+  "summary": "Segments in Business Central relationship management: creating segments, adding contacts, refining or reducing the contact list with filters, and logging interactions with segment members. It answers questions about grouping contacts for marketing campaigns and bulk communications.",
+  "overview": "Segments group contacts by criteria such as industry or business relationship, so you can target campaigns and send bulk communications such as direct mail. The section has four pages and no subtopics.\n\nStart with \"Create Segments\" for how a segment is made and numbered with a number series. Then read \"Add contacts to segments\" for the Add Contacts batch job and the Refine Contacts and Reduce Contacts actions, which use filter criteria to adjust who is in the segment. \"Manage segments and select contacts\" covers choosing target contacts for campaigns. \"Keep track of segments and related interactions\" covers logging interactions with segment members, merging documents, and follow-up.",
+  "key_points": [
+    "Segments group contacts for targeted marketing campaigns and bulk interactions such as direct mail.",
+    "Segment numbering uses a number series.",
+    "The Add Contacts action runs a batch job that adds contacts to a segment.",
+    "Refine Contacts and Reduce Contacts use filter criteria to narrow or shrink the contact list.",
+    "The Go Back action is available when working with segment contacts.",
+    "Contacts can be grouped by criteria such as industry or business relationship.",
+    "Interactions with segment members can be logged, including marketing and sales communications.",
+    "Document merging and segment follow-up support tracking of communications."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:50.364Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009495
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:39.128Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point on the Go Back action is supported only by a feature name in the page summary. It gives no detail on what the action does, so it adds little value.",
+      "The key point on grouping by industry or business relationship partly repeats the first key point. It could be merged with it.",
+      "The overview says Refine Contacts and Reduce Contacts use filter criteria. The source pairs filters and these actions only loosely, but the claim is reasonable.",
+      "The narrative does not say which page covers the Go Back action. That is a minor gap."
+    ],
+    "input_hash": "cc8b1be5925c1068acbbf973dc33be6c0052b2752f9590dfb8a87bfa743704d3",
+    "cost_usd": 0.0235512
+  }
+}

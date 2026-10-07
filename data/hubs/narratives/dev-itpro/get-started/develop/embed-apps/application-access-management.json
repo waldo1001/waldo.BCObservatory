@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/develop/embed-apps/application-access-management",
+  "input_hash": "41fd3db0c0fff55ff3a2aced5e33325d0f7661fcebb349d2a2b8e6c3b0c28001",
+  "summary": "Application Access Management covers how embed app ISVs and VARs control which customers can create online environments for their apps. It answers questions about enabling access management, registering VARs, approving tenants, and using the Application Access Management API.",
+  "overview": "Application access management is a control for embed app ISVs and VARs. It lets them enable or disable application access, so they decide which customers can create online environments. This is done through registration processes and through APIs.\n\nThe section has two pages. The first explains the concept and the process: enabling application access management, registering VARs, managing customer access, tenant approval, and delegated admin access. The second documents the Application Access Management API, which delegated administrators use through REST endpoints to manage access by application family and country code.\n\nStart with the overview page to understand how enabling and registration work. Then use the API page when you need to list manageable applications or change tenant access programmatically.",
+  "key_points": [
+    "Lets embed app ISVs and VARs decide which customers can create online environments.",
+    "Access is enabled or disabled through APIs and registration processes.",
+    "Covers registering VARs and approving tenants.",
+    "Delegated administrators can manage customer access.",
+    "The API uses REST endpoints to get the list of manageable applications.",
+    "The API controls access to Business Central and embed app application families.",
+    "Access is managed by country code and by tenant."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:13.998Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007698999999999999
+  }
+}

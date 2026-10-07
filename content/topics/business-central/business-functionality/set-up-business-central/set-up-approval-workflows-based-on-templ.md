@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ
 type: topic
 title: Set up approval workflows based on templates
-summary: "Learn section Business functionality > Set up Business Central > Set up approval workflows based on templates: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Approval workflows in Business Central built from templates: creating workflows, setting up workflow users and approval users, configuring notifications, and exporting or importing workflows. It answers setup questions, such as who approves, in what order, and how they are notified."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9e8a6f03adad5bf3a4f607b4720b90443f4ee8b0a641489255563f7b210dc078
+  prompts:
+    hub-topic: 1
+  input_hash: 01edbcf7c910af183171e1046e8edb5f092604d46f08b59bfe63f9c79a1a7498
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows
@@ -121,14 +122,32 @@ bc_forms:
   - 1513
   - 1533
 member_hash: 9e8a6f03adad5bf3a4f607b4720b90443f4ee8b0a641489255563f7b210dc078
-narrative: none
+narrative: generated
 ---
 
 # Set up approval workflows based on templates
 
-> Learn section Business functionality > Set up Business Central > Set up approval workflows based on templates: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Approval workflows in Business Central built from templates: creating workflows, setting up workflow users and approval users, configuring notifications, and exporting or importing workflows. It answers setup questions, such as who approves, in what order, and how they are notified.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up approval workflows based on templates · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up approval workflows based on templates · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to set up approval workflows that connect business-process tasks performed by different users. A workflow is made of steps with events, conditions, and responses. You can build one from scratch or start from a workflow template with pre-configured steps, then customize it or reset the template.
+
+Supporting setup pages cover the people and messages involved. Workflow users are defined on the Workflow User Groups page with sequence numbers that set approval order. Approval users are defined on the Approval User Setup page with amount limits, substitute approvers, and an approval administrator. Notification pages describe approver and sender notifications, schedules, email customization, and delivery by email or internal notes.
+
+Start with "Set up approval workflows" for the overall picture. Then read "How to create workflows from workflow templates" and the purchase approval walkthrough for a worked example. Use the export and import page to move workflows between databases.
+
+## Key points
+
+- Workflow steps combine events, conditions, and responses, for example approval requests, notifications, and journal line creation.
+- Workflow templates give pre-configured steps for common processes and can be customized or reset.
+- Workflows can be exported to a file and imported into another Business Central database.
+- Workflow User Groups use sequence numbers to set approval order; users at the same level can approve in parallel or in series depending on hierarchy.
+- Approval User Setup defines amount approval limits, substitute approvers, an approval administrator, and email notifications.
+- Notifications can go to approvers or senders, by email or internal notes, on recurring schedules, with customizable email content.
+- A purchase order approval walkthrough shows setup of approvers, amount limits, and internal note notifications, then testing.
 
 ## Learn pages
 

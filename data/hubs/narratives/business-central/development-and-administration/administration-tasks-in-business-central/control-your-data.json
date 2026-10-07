@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
+  "input_hash": "e70177c148687186e35b99a647fbc216b7c19e31044cc7f77206ab2b3abd8774",
+  "summary": "Control your data covers Business Central administration of data: auditing changes, classifying and masking sensitive data, retention policies, encryption, storage cleanup, archiving, personal data requests, and database locks. It answers questions on who changed data, privacy handling, and reducing database size.",
+  "overview": "This section groups the administrator tools for governing data in Business Central. Some pages deal with visibility and compliance: auditing changes with change log and field monitoring, classifying data sensitivity, and responding to data subject requests for export, deletion or correction of personal data.\n\nOther pages deal with data volume and protection: retention policies that delete outdated log and archived records, deleting documents or compressing old entries, the Data Archive Extension that keeps compressed entries for later analysis, and server data encryption. A separate page shows database locks for troubleshooting blocking.\n\nStart with Auditing changes or Classifying data sensitivity for compliance needs, and with Clean up data with retention policies or Manage storage for reducing database size.",
+  "key_points": [
+    "Auditing changes uses change log, field monitoring, data analysis, activity logs and retention policies to show who changed what and when.",
+    "Data Sensitivity Classification labels sensitive or personal data in standard and custom fields; the Data Classification Worksheet is used to manage it.",
+    "Field masking (MaskType property) with role-based visibility hides sensitive values in the UI; the page lists 2025 release wave 2.",
+    "Retention policies delete outdated data in log entry and archived record tables, with filters, a mandatory retention period, job queue or manual runs, and logging.",
+    "Data encryption on the server uses generated or imported keys and is manual only on-premises, since online encryption is mandatory.",
+    "Batch jobs delete obsolete documents and date-compress historic entries to manage storage.",
+    "The Data Archive Extension archives entries during date compression, exports to Excel or CSV, holds up to 10,000 records per archive, and stores in Tenant Media.",
+    "The Data Privacy Utility handles portability, deletion, correction, Privacy Blocked marking and minor classification; the Database Locks page shows a snapshot of current locks."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:33.013Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014465
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:33.423Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'manual only on-premises' slightly paraphrases the source, which says encryption management is available only for on-premises because online encryption is mandatory.",
+      "Minor: '10,000 records per archive' is phrased as a cap ('holds up to'); the source lists it as a feature without detail."
+    ],
+    "input_hash": "e70177c148687186e35b99a647fbc216b7c19e31044cc7f77206ab2b3abd8774",
+    "cost_usd": 0.036091200000000004
+  }
+}

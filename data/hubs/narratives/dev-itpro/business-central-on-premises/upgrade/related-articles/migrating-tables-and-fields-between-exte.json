@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/related-articles/migrating-tables-and-fields-between-exte",
+  "input_hash": "a86d255e5f695597678b29a4003b462dff2d5feed83b36811d415865fc8b9acc",
+  "summary": "Migrating tables and fields between Business Central extensions using migration.json, in both directions along the dependency graph, plus the India Data Migration Toolkit for upgrading from Dynamics NAV 2016 India. It answers questions about moving table ownership, ordering, and constraints.",
+  "overview": "This section covers how to move table and field data from one extension to another during development and deployment. The general page explains the constraints, the roles of the releasing and receiving extensions, the direction of the dependency graph, how the migration.json file is used, and the order of synchronization.\n\nTwo task pages follow from that. One covers moving tables and fields to an extension down the dependency graph, where ownership goes to an extension lower in the dependency chain. The other covers moving them up the dependency graph, which needs a transition extension and a two-stage deployment. Start with the general page, then pick the page that matches the direction of your move.\n\nA separate page describes the India Data Migration Toolkit, which supports upgrading from Dynamics NAV 2016 India version to Business Central 2021 release wave 2 in two steps. It covers localization data, not customizations.",
+  "key_points": [
+    "The general page defines the releasing and receiving extensions, dependency direction, and synchronization ordering for table and field migration.",
+    "migration.json is the file used to describe the transfer of table ownership between extensions.",
+    "Moving down the dependency graph transfers ownership to an extension lower in the dependency chain; it involves table extension objects, data preservation, and field renames (2020 release wave 1 version 16.5).",
+    "Moving up the dependency graph uses a transition extension and a two-stage deployment, and mentions enum type fields (2020 release wave 1 version 16.5).",
+    "The India Data Migration Toolkit upgrades Dynamics NAV 2016 India version to Business Central 2021 release wave 2.",
+    "The India toolkit uses a two-step migration, covers localization data but not customizations, and involves deprecated table handling and permissions reconfiguration."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:17.218Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011959
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:40.654Z",
+    "verdict": "approve",
+    "issues": [
+      "The parenthetical '(2020 release wave 1 version 16.5)' in key points 3 and 4 doesn't say what the version refers to. The sources list it only as page metadata, so readers could take it as the release that introduced the feature, which isn't established.",
+      "The India Data Migration Toolkit page is about upgrading from NAV, not about moving tables between extensions, so it fits poorly under this hub. The overview correctly presents it as a separate page.",
+      "Key point 2 slightly generalizes migration.json as the file for moving ownership between extensions. The sources support this for both the down and up moves, so it is acceptable."
+    ],
+    "input_hash": "a86d255e5f695597678b29a4003b462dff2d5feed83b36811d415865fc8b9acc",
+    "cost_usd": 0.0399992
+  }
+}

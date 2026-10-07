@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/the-al-programming-language/objects
 type: topic
 title: Objects
-summary: "Learn section Development > The AL programming language > Objects: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:06.484Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: da9250c25d819d3f5eb8cfd49bd2d0b760093842dcf2b9aeb104d144ef50efff
+  prompts:
+    hub-topic: 1
+  input_hash: 307b330e95d977913a4905c62ffaa7ee32ac658ecdfaef771ed17d067786ab9c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object
@@ -170,14 +171,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: da9250c25d819d3f5eb8cfd49bd2d0b760093842dcf2b9aeb104d144ef50efff
-narrative: none
+narrative: generated
 ---
 
 # Objects
 
-> Learn section Development > The AL programming language > Objects: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section describes the object types you write in AL. Each page covers one object type, its syntax and its main properties. The types fall into groups: data (table, table extension, table keys, extensible enums, query), logic (codeunit), user interface (page, page extension, page customization, profile, control add-in), output and exchange (report, XMLport), and security and licensing (permission set, permission set extension, entitlement).
+
+Extension-related pages show how to change existing objects without editing the base. Page extensions add or move controls and actions, page customizations apply limited layout changes to specific profiles, table extensions add fields, keys and triggers, and permission set extensions add permissions. Profiles tie a role center to optional page customizations.
+
+Start with the Table object and Page object pages for the basics. Then read the extension pages for the object you want to change, and the Codeunit page for business logic. Use the permission set and entitlement pages when you package or monetize an app.
+
+## Key points
+
+- Codeunits hold reusable business logic and procedures, and can use an OnRun trigger.
+- Page extensions use keywords such as addfirst, addlast, addafter, addbefore, modify and the move keywords. Page customizations are more limited: they have no variables, procedures or triggers and apply to specified profiles.
+- Table objects cover fields, keys, triggers and the Extensible property. Table extensions add fields, keys and trigger code without changing the base table.
+- Table keys can be primary or secondary, unique or clustered, and can include extra fields with IncludedFields.
+- Extensible enums can be extended through enumextension objects and used as table fields, variables and parameters.
+- Reports support RDL, Word and Excel layouts plus request pages. XMLports import and export XML data. Queries join data from several tables through dataitems and columns.
+- Control add-ins show custom HTML, CSS and JavaScript content in iframes on pages, set with properties such as Scripts, StartupScript, StyleSheet and Images.
+- Permission sets can be composed with included and excluded sets, and permission set extensions add permissions on install. Entitlements define object access by license or Microsoft Entra role, to support Marketplace app transactability.
 
 ## Learn pages
 

@@ -2,19 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/business-central-web-server
 type: topic
 title: Business Central web server
-summary: "Learn section Business Central on-premises > Deployment > Business Central web server: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Business Central web server section covers deploying and configuring the web server components on IIS for on-premises installations. It answers questions about web server instances, navsettings.json settings, IIS features, SSL/HTTPS, Kerberos delegation, multiple instances with PowerShell, and tenant host names.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:23.174Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 26c8a68c52efbee420e83181f5cf44476c7d215368936d9564831e83f899a6b7
+  prompts:
+    hub-topic: 1
+  input_hash: b19d82fffa5b87840198287b732f7c05552dc6e8a3bd239f556fdcd984f02d05
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-delegation-web-server
@@ -97,14 +98,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 26c8a68c52efbee420e83181f5cf44476c7d215368936d9564831e83f899a6b7
-narrative: none
+narrative: generated
 ---
 
 # Business Central web server
 
-> Learn section Business Central on-premises > Deployment > Business Central web server: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Business Central web server section covers deploying and configuring the web server components on IIS for on-premises installations. It answers questions about web server instances, navsettings.json settings, IIS features, SSL/HTTPS, Kerberos delegation, multiple instances with PowerShell, and tenant host names.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central web server · tier official · system none · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central web server · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+The Business Central web server runs as an ASP.NET Core application on IIS and serves the web client. This section explains how to deploy those components, prepare IIS, create one or more web server instances, and secure and tune them.
+
+Start with "Deploy the Web Server Components" for the overview of network topology, instance creation methods and security. Then use "Configuring Internet Information Services for Business Central" for required IIS features and ARR headers, and "Configuring Business Central Web Server instances" for navsettings.json settings. The remaining pages cover specific tasks: SSL, multiple instances through PowerShell, tenant host names, and delegation when the web server and server instance are on separate computers.
+
+## Key points
+
+- Web server components run as ASP.NET Core on IIS; IIS needs specific features such as ASP.NET and .NET Extensibility.
+- Application Request Routing header configuration, including X-Forwarded-Proto, is described for the IIS setup.
+- Instance settings live in navsettings.json (credential types, SSL/HTTPS, session timeout, authentication, portal embedding) and can be edited directly or with PowerShell cmdlets.
+- SSL setup involves obtaining a certificate, adding an HTTPS binding, and optionally redirecting HTTP to HTTPS.
+- Multiple instances are managed with New-NAVWebServerInstance, Set-NAVWebServerInstanceConfiguration, Get-NAVWebServerInstance and Remove-NAVWebServerInstance, deployed as RootSite or SubSite.
+- Multitenant deployments need a URL rewrite rule in web.config so the web server accepts tenant host names.
+- Delegation across separate computers uses Kerberos, constrained delegation, service principal names and Active Directory configuration, with steps differing for version 20 and version 21 and later.
 
 ## Learn pages
 

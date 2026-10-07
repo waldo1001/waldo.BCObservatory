@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2022-release-wave-1",
+  "input_hash": "90be57c8e93294fff410f93c9bffff259b7b8a25a26d7bc65da833e6a63f9825",
+  "summary": "Upgrade guidance for Business Central on-premises 2022 release wave 1 (version 20). It covers technical upgrades from versions 14 to 19, C/AL to AL conversion, moving tables between extensions, permission set and report changes, and the compatibility matrix. It answers how-to and path questions for upgrading to version 20.",
+  "overview": "This section collects the articles for upgrading on-premises Business Central to 2022 release wave 1 (version 20). The entry page, \"Upgrade to Business Central 2022 Wave 1\", describes the upgrade paths: a technical upgrade, or application refactoring to the system application. The compatibility matrix shows the minimum update versions needed between major versions.\nFor versions 15 to 19, use the technical upgrade pages, which cover database conversion, extension publishing and recompilation, tenant synchronization and data upgrade with PowerShell. For version 14, there are separate articles for unmodified C/AL applications, customized C/AL applications and the technical upgrade from version 14 to 20. They rely on the Txt2Al conversion tool, the DestinationAppsForMigration server setting and migration.json.\nSupporting pages cover changes that affect the upgrade: permission sets as AL objects, the report platform rendering model, moving tables and fields between extensions (up or down the dependency graph), and installing a version 20 cumulative update. An India data migration toolkit page is also included. Start with the entry page and the compatibility matrix, then pick the article for your source version.",
+  "key_points": [
+    "Entry page names two paths to version 20: technical upgrade, or application refactoring to the system application.",
+    "Versions 15 to 19 upgrade to version 20 through database conversion, extension publishing and recompilation, tenant mounting and synchronization, and data upgrade, all scriptable with PowerShell.",
+    "Version 14 upgrades differ for unmodified C/AL (replace the base application with Microsoft System and Base Application extensions) and customized C/AL (convert code with Txt2Al and migrate tables in two phases).",
+    "Table migration between extensions uses migration.json; moving down the dependency graph is direct, while moving up needs a transition extension and a two-stage deployment.",
+    "Permission sets move to an AL object-based model (Permission Set and Permission Set Extension objects), so customizations must be identified and recreated as AL objects.",
+    "Report upgrade covers the new platform rendering model, event changes and handling of Word and custom report layouts for version 20 and later.",
+    "The compatibility matrix lists minimum update versions for upgrading between versions 15 to 28, and upgrades from version 24 or earlier must target version 25 first.",
+    "The India Data Migration Toolkit supports moving from Dynamics NAV 2016 India to Business Central 2021 release wave 2 in two steps. It covers localization data but not customizations."
+  ],
+  "members_used": 15,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:26.711Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024917
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:23.584Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview sentence 'They rely on the Txt2Al conversion tool, the DestinationAppsForMigration server setting and migration.json' overgeneralizes: only the customized C/AL page lists all three. The unmodified C/AL page mentions just DestinationAppsForMigration, and Txt2Al belongs to the customized and code conversion pages.",
+      "Key point calling the move down the dependency graph 'direct' is a mild inference. The source only says it uses migration.json, while the move up needs a transition extension and a two-stage deployment.",
+      "The overview could mention that the 'Technical Upgrade to Version 20' page (versions 17 to 19) also covers changing reports to platform rendering and managing data encryption. This is optional."
+    ],
+    "input_hash": "90be57c8e93294fff410f93c9bffff259b7b8a25a26d7bc65da833e6a63f9825",
+    "cost_usd": 0.0635992
+  }
+}

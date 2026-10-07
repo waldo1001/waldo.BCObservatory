@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/russia/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Learn section Business functionality > Local functionality > Russia > Fixed assets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Fixed assets functionality specific to Russia in Business Central: depreciation, charges, inventory, gratuitous receipts, release, movement and write-off acts, sales, and viewing posted charge entries. It answers how to post and track fixed assets under Russian requirements."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:11.748Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 88e504626427a5f9891ed19e4352d29ef494388348a91d5417a36d9e0e4e5290
+  prompts:
+    hub-topic: 1
+  input_hash: 4fe3440790d1120f3d39aa8639026e60e007f8cca90c0a32e2a05290a8e23079
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-assets
@@ -83,14 +84,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 88e504626427a5f9891ed19e4352d29ef494388348a91d5417a36d9e0e4e5290
-narrative: none
+narrative: generated
 ---
 
 # Fixed assets
 
-> Learn section Business functionality > Local functionality > Russia > Fixed assets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Fixed assets functionality specific to Russia in Business Central: depreciation, charges, inventory, gratuitous receipts, release, movement and write-off acts, sales, and viewing posted charge entries. It answers how to post and track fixed assets under Russian requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Fixed assets · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This area describes the Russian local features for managing fixed assets across their lifecycle. It starts with an overview page listing the main capabilities: depreciation, asset charges, depreciation bonus, inventory, location and employee tracking, and asset turnover.
+
+The other pages are task-oriented. They cover receiving assets without acquisition cost (gratuitous receipts), releasing assets into service, moving them between locations, writing off remaining book value with dedicated act windows, selling assets, and reviewing posted entries per charge code.
+
+Start with the overview page to see which features exist, then go to the page that matches the lifecycle step you need, such as receipt, release, sale or write-off.
+
+## Key points
+
+- The overview covers depreciation, asset charges, depreciation bonus, asset inventory, location and employee tracking, and asset turnover.
+- Gratuitous receipts register fixed assets received without acquisition cost, posted through FA G/L Journals and FA Journals.
+- Gratuitous receipts require depreciation book configuration and tax ledger setup for Russian compliance.
+- FA Release Act puts assets into service, FA Movement Act tracks moves between locations, and FA Writeoff Act writes off remaining book value.
+- The release, movement and write-off pages involve fixed asset setup, depreciation book code and fixed asset status.
+- Selling a fixed asset has two stages: depreciate it through fixed asset journals, then post a sales invoice with the fixed asset as the item type.
+- The FA Ledger Entries page shows posted fixed asset entries for each fixed asset charge code.
 
 ## Learn pages
 

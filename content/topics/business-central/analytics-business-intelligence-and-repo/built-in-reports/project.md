@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/project
 type: topic
 title: Project
-summary: "Learn section Analytics, business intelligence, and reporting > Built-in reports > Project: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Project built-in reporting and monitoring in Business Central: Project Reports and the Report Explorer, work-in-process (WIP) calculation and posting to the general ledger, and recording consumption or usage of project resources and items. It answers questions about analyzing project activity, valuing ongoing projects, and logging usage."
 tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:12.291Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 999ef32fde19e366d32b5c4f371e99660ff964797b6cbe4bd5dc8534fefeb259
+  prompts:
+    hub-topic: 1
+  input_hash: 5bfedace38c86ee49ef63545e78c0d211380f903d45fa46e390b2230e5c3a154
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance
@@ -85,14 +86,29 @@ bc_forms:
   - 1106
   - 1107
 member_hash: 999ef32fde19e366d32b5c4f371e99660ff964797b6cbe4bd5dc8534fefeb259
-narrative: none
+narrative: generated
 ---
 
 # Project
 
-> Learn section Analytics, business intelligence, and reporting > Built-in reports > Project: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Project built-in reporting and monitoring in Business Central: Project Reports and the Report Explorer, work-in-process (WIP) calculation and posting to the general ledger, and recording consumption or usage of project resources and items. It answers questions about analyzing project activity, valuing ongoing projects, and logging usage.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Project · tier official · system projects · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Project · tier official · system projects · narrative reviewed by Opus
+
+## Overview
+
+This section covers how project professionals analyze and monitor projects in Business Central. Project Reports offers reporting tools for reviewing current and past project activity and project management analytics. Its listed features include the Report Explorer.\n\nThe WIP page explains how to estimate the financial value of ongoing projects in the general ledger. You define a WIP method, calculate WIP, post it to G/L, and track the results in WIP fields on the Project Card. The page also touches on project task grouping and completion entries. The consumption page covers how usage of resources and items is recorded through project journals and planning lines, including creating inventory and warehouse picks.\n\nStart with Project Reports for an overview of the available reporting. Then go to the WIP page for financial valuation, or the consumption and usage page for how actual usage reaches the project.
+
+## Key points
+
+- Project Reports gives project professionals tools to analyze current and past project activity and project management analytics.
+- Project Reports features include the Report Explorer and project analytics.
+- WIP estimates the financial value of ongoing projects in the general ledger.
+- WIP methods listed: cost value, sales value, recognizable cost, percentage of completion, and completed contract.
+- WIP is calculated, posted to G/L, and monitored through WIP fields on the Project Card.
+- Consumption and usage of resources and items is recorded through project journals and project planning lines.
+- Usage-related features include Apply Usage Link by Default, Qty. To Transfer to Journal, Create Project Journal Lines, and budget and billable lines.
+- Inventory and warehouse picks can be created for project items.
 
 ## Learn pages
 

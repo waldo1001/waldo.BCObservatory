@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-inventory-costs
 type: topic
 title: Manage inventory costs
-summary: "Learn section Business functionality > Finance > Manage inventory costs: 14 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Inventory cost management in Business Central: costing methods, unit and standard cost calculation, cost adjustment, item charges, revaluation, and fixing item applications. It answers how costs are calculated, adjusted, corrected, and reconciled with the general ledger."
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 35cdf31e07525cc21ab43fc4f80602f51143b40dc77f573a5a98e624fed3a911
+  prompts:
+    hub-topic: 1
+  input_hash: fa37375b3d4aad1cd9770b40890f32f67dbc44165b3531fceaeeda7db9e3b8b6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost
@@ -137,6 +138,7 @@ links:
     - video/N30HebR5nJk
     - video/w0okH0v0VvY
   posts:
+    - post/thedynamicsexplorer-com/10326
     - post/thedynamicsexplorer-com/37371
   guidelines: []
 learn_toc_path:
@@ -151,7 +153,7 @@ coverage:
   learn: 14
   code: 0
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 40
@@ -168,14 +170,33 @@ bc_forms:
   - 9125
   - 9297
 member_hash: 35cdf31e07525cc21ab43fc4f80602f51143b40dc77f573a5a98e624fed3a911
-narrative: none
+narrative: generated
 ---
 
 # Manage inventory costs
 
-> Learn section Business functionality > Finance > Manage inventory costs: 14 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Inventory cost management in Business Central: costing methods, unit and standard cost calculation, cost adjustment, item charges, revaluation, and fixing item applications. It answers how costs are calculated, adjusted, corrected, and reconciled with the general ledger.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage inventory costs · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage inventory costs · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+This section explains how Business Central records and reports the costs of inventory. It starts with the concepts: the costing methods (Standard, FIFO, LIFO, Specific, Average), how unit cost updates on purchases and sales, and how standard cost is built from material, capacity, subcontracting, and overhead. "Managing inventory costs" gives the overview, and "Design details - Inventory costing" goes deeper into item application, cost adjustment, expected cost posting, and valuation.
+
+Other pages cover tasks. Item charges add freight, insurance, and customs duties to landed cost. The revaluation journal creates new value entries when inventory value changes. The Application Worksheet and the fixed application page help correct wrong cost flows. A page on tracking cost adjustments covers logging, batching, and troubleshooting. The subtopic covers reporting and reconciliation with the general ledger.
+
+Start with "Managing inventory costs" and "About unit cost calculation" to learn the model. Then go to the task pages that match your problem, such as wrong costs, extra trade costs, or a revaluation.
+
+## Key points
+
+- Costing methods covered: Standard, FIFO, LIFO, Specific, and Average, with how unit cost updates for purchases and sales.
+- Standard cost is calculated from material, capacity, subcontracting, and manufacturing overhead, and applies to purchased, assembled, and produced items.
+- Item charges assign freight, insurance, and customs duties to purchase or sales documents to compute landed cost and true profitability.
+- The revaluation journal appreciates or depreciates inventory by creating new value entries.
+- The Application Worksheet removes and reapplies item ledger entries to fix incorrect cost flows.
+- Fixed applications apply only costs, not quantities; open entries from them are closed with the Item Journal.
+- Cost adjustment tracking offers logging, item batches, a tracer, and diagnostics to find problematic items.
+- The subtopic covers manual cost adjustment, posting costs to the G/L, restricting backdated postings, scheduling cost jobs, and inventory periods.
 
 ## Subtopics
 
@@ -197,6 +218,7 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Using a GL account for the credit avoids inventory adjustments but leaves the original item ledger entry's Sales Amount"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card in Business Central"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "Cost adjustment; inventory valuation; high-volume items"
 - [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "item costing; manufacturing overhead; production variances"

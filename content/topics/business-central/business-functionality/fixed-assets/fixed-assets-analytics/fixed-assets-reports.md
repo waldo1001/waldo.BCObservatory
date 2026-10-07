@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/fixed-assets-reports
 type: topic
 title: Fixed assets reports
-summary: "Learn section Business functionality > Fixed assets > Fixed assets analytics > Fixed assets reports: 23 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Fixed assets reports in Business Central: standard and Excel reports for fixed asset book value, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset values, postings, insurance coverage or service dates."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:54.665Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: eb0d3f510ba01e4df2ed5782da050b2db869f5c52e184f9f2c52f72fbad3a88d
+  prompts:
+    hub-topic: 1
+  input_hash: 18ca407c0c8b14257916b7be95944e3011ef6b19d4a617bad14df3186dfe4e70
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5611
@@ -252,14 +253,33 @@ bc_forms:
   - 5635
   - 5636
 member_hash: eb0d3f510ba01e4df2ed5782da050b2db869f5c52e184f9f2c52f72fbad3a88d
-narrative: none
+narrative: generated
 ---
 
 # Fixed assets reports
 
-> Learn section Business functionality > Fixed assets > Fixed assets analytics > Fixed assets reports: 23 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Fixed assets reports in Business Central: standard and Excel reports for fixed asset book value, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset values, postings, insurance coverage or service dates.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Fixed assets reports · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Fixed assets reports · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This section lists the reports available for fixed assets. They fall into three groups: core fixed asset reports, insurance reports, and maintenance reports. Each report has its own page describing what it shows and which options or filters it offers. An overview page, "Fixed assets reports", introduces the groups and their uses for financial statements and management.
+
+The core reports cover book value (Book Value 01 and 02), asset lists and acquisition lists, G/L analysis, posting group net change, document numbers, the register, and the journal test report. Three Excel reports (Fixed Asset Analysis, Fixed Asset Details, Fixed Asset Projected Value) support ad-hoc analysis with filters such as class, subclass and location. Analysis and Details also filter by department and project.
+
+Insurance reports show policies, coverage, over- or under-insured status and uninsured assets, along with an insurance journal test and register. Maintenance reports show maintenance expenses, ledger entries and next service dates. Start with the overview page, then open the page for the report that fits your question.
+
+## Key points
+
+- Fixed Asset Book Value 01 shows acquisition cost, depreciation and book value, with optional budget depreciation and group totals; Book Value 02 breaks book value down by changes in acquisition, depreciation and appreciation in a period.
+- Fixed Asset Analysis and Fixed Asset Details are Excel reports filterable by class, subclass, location, department and project; Fixed Asset Projected Value filters by class, subclass and location and forecasts depreciation and book value for a date range.
+- Fixed Asset G/L Analysis and Fixed Asset Register help reconcile fixed asset ledger entries with general ledger entries; the register prints by register number and can print when posting.
+- FA Posting Group - Net Change Report shows net change in ledger entries per posting group, with totals across all groups.
+- Fixed Asset Document Nos. sorts ledger entries by document type and number and warns about gaps in number series.
+- Fixed Asset Journal - Test shows fixed asset journal lines to check before posting; Insurance Journal - Test shows insurance journal lines filtered by journal template and batch.
+- Insurance reports include Analysis (premiums, coverage, over/under insured), Coverage Details, List, Tot. Value Insured, Uninsured FAs, and Register.
+- Maintenance reports include Analysis (expenses by category and type), Details (ledger entries, optional reversed entries) and Next Service (dates from the Fixed Asset Card).
 
 ## Learn pages
 

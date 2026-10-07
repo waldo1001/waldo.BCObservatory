@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
+  "input_hash": "89fae4cdc52182963e0568e74f8e606d93de62daf48fd6a5824dc049c00b48e9",
+  "summary": "Analyzing Business Central data in business intelligence tools: options include Microsoft Fabric and OneLake, Power BI, data warehouse extraction, and the v2.0 REST API for connect apps. Also covers which cloud insights are missing on-premises without cloud migration, and performance guidance for AL developers.",
+  "overview": "Analyzing Business Central data in business intelligence tools means getting the data into external tools. The main guide lists the options: Microsoft Fabric, Power BI, data warehouse extraction, and API access. Start there to choose an approach.\n\nSupporting pages go deeper. One introduces Fabric integration and OneLake as a unified data lake with automatic data governance. Another is the API v2.0 reference, which describes building connect apps on REST APIs and moving from v1.0. A third explains that on-premises installations don't get the cloud KPIs and Power BI insights of the online version unless they migrate to the cloud.\n\nThe section also has performance articles for AL developers. They cover page design, web services, reports, AL coding patterns, data access and testing, and they help developers tune Business Central applications.",
+  "key_points": [
+    "The main guide lists four routes for analysis: Microsoft Fabric, Power BI, data warehouse extraction, and API access.",
+    "Fabric integration uses OneLake as a unified data lake, with data lineage, data protection, certification and catalog integration.",
+    "API v2.0 is a REST API for building connect apps with third-party services. The reference covers API pages, operations, code examples and the transition from v1.0.",
+    "On-premises Business Central lacks the cloud-based KPIs and Power BI insights of the online version. Cloud migration is needed to get them.",
+    "AL performance articles cover page background tasks, Edit-in-Excel performance, query object optimization and partial records.",
+    "They also cover table extension impact analysis and event subscription performance.",
+    "Some performance guidance is tied to 2021 release wave 2 and 2023 release waves 1 and 2."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:45.602Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012159
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:40.443Z",
+    "verdict": "fix",
+    "issues": [
+      "The summary opens with 'This section covers', which is close to the banned 'This hub' opener and doesn't start with the subject. It now starts with the subject.",
+      "The overview's last sentence says the performance articles matter 'when analytics or API access puts load on an application'. The page summaries don't support that link. I replaced it with a neutral description of what the articles are for.",
+      "The overview opener 'This area explains' was reworded so it starts with the subject.",
+      "The key points match the page summaries, including the release waves listed for the performance articles. They're unchanged."
+    ],
+    "input_hash": "89fae4cdc52182963e0568e74f8e606d93de62daf48fd6a5824dc049c00b48e9",
+    "cost_usd": 0.0331232
+  }
+}

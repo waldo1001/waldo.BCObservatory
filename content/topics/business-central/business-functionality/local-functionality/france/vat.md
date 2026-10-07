@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > France > VAT: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "The France VAT section covers French localization reporting in Business Central: exporting general ledger entries for tax audits, exporting them to XML for archiving, and meeting Declaration of Trade in Goods (DEB) requirements. It answers questions about audit files, year-end archiving and DEB setup."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:27.016Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a860279c9500e10edb52f0b5bde2ecce47d8a21a2e9e991d173764dd8f9cc0e4
+  prompts:
+    hub-topic: 1
+  input_hash: fd941d1df27fef89eeadd4dc6f4d6c7a3479de285cb7def60b4bd0b57674b935
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits
@@ -67,14 +68,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: a860279c9500e10edb52f0b5bde2ecce47d8a21a2e9e991d173764dd8f9cc0e4
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > France > VAT: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The France VAT section covers French localization reporting in Business Central: exporting general ledger entries for tax audits, exporting them to XML for archiving, and meeting Declaration of Trade in Goods (DEB) requirements. It answers questions about audit files, year-end archiving and DEB setup.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section groups three French localization pages about tax and VAT-related reporting. Two describe exporting general ledger entries. The third explains how to prepare and run the Declaration of Trade in Goods (DEB) report.
+
+The audit export page covers producing files for French tax authority audits (corporate tax and VAT), with posted entries and optional opening balances. The XML export page covers exporting financial transactions for a date range, typically after fiscal year closing, so they can be archived in an external system. The DEB page covers the required company information and Intrastat journal fields, then running the Export DEB DTI report.
+
+Start with the audit export page if you face a tax audit, the XML page for year-end archiving, and the DEB page for trade in goods reporting.
+
+## Key points
+
+- Export General Ledger Entries for Tax Audits creates audit files with posted entries and opening balances for French corporate tax and VAT audits.
+- The audit export uses Starting Date, Ending Date, an Include Opening Balances option and a Detailed Balance checkbox.
+- General ledger entries can be exported to an XML file by Starting Date and Ending Date.
+- The XML export is intended for archiving general ledger transactions in an external system after fiscal year closing.
+- DEB reporting requires company information and Intrastat journal fields to be populated first.
+- DEB data is exported with the Export DEB DTI report, filtered by obligation level.
+- DEB setup involves Intrastat management, a Transaction Specification Filter and the Advanced Intrastat Checklist.
 
 ## Learn pages
 

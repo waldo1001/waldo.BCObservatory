@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
+  "input_hash": "1b7fa604624770d92d47ff6849671e94de388e1b1bf5d3a9c10078fd37c926ba",
+  "summary": "Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status.",
+  "overview": "This section covers customizing Business Central by adding extensions. General pages explain how to install and manage apps through the Extension Management page, Marketplace or the Admin Center, including permissions, setup and data deletion on uninstall. One page lists third-party extensions on Marketplace.microsoft.com and the risks of installing them.\n\nMost other pages each describe one extension. They fall into groups: cloud migration (the base extension and product-specific extensions) and data migration (QuickBooks Desktop, QuickBooks Online, C5); payments and banking (PayPal, WorldPay, Microsoft Pay, Envestnet Yodlee, AMC Banking 365, Send Remittance Advice, Payments and Reconciliations DK); payroll import (Ceridian, QuickBooks Payroll); insights and AI (Essential Business Insights, Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Company Hub); and country or regulatory extensions (Ideal Postcodes UK, VAT Group Management UK, tax file formats DK, Service Declaration).\n\nStart with \"Customizing Business Central online using apps\" and \"Install and uninstall apps\", then go to the page for the extension you need.",
+  "key_points": [
+    "Apps are installed and managed via the Extension Management page, Marketplace or Admin Center; per-tenant extensions are supported and uninstall offers data deletion options.",
+    "Third-party extensions are listed on Marketplace.microsoft.com; the page explains the risks of installing apps from non-Microsoft companies.",
+    "The Cloud Migration base extension is the first step for moving on-premises data to Business Central online; product-specific extensions exist for Business Central on-premises and Dynamics GP.",
+    "Data migration extensions cover QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online and Dynamics C5 2012.",
+    "Microsoft Pay Standard was deprecated on February 8, 2020 (use PayPal); WorldPay Payments Standard was marked obsolete in 2023 release wave 2 and will be removed after three major releases.",
+    "Envestnet Yodlee Bank Feeds serves the United States and Canada; AMC Banking 365 Fundamentals converts bank data for over 600 banks.",
+    "Late Payment Prediction and Sales and Inventory Forecast use machine learning and can use custom Azure-based or web service models.",
+    "Country extensions include Ideal Postcodes and VAT Group Management (UK), Payments and Reconciliations and tax file formats (DK), and Service Declaration for EU reporting."
+  ],
+  "members_used": 26,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:08.898Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0404338
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:28.193Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview puts Company Hub under 'insights and AI'. It is a multi-company KPI dashboard, not an AI feature, but the 'insights' label still fits.",
+      "Minor: the source page calls Sales and Inventory Forecast 'AI-based prediction', and the key point calls it 'machine learning'. That is close enough to be acceptable."
+    ],
+    "input_hash": "1b7fa604624770d92d47ff6849671e94de388e1b1bf5d3a9c10078fd37c926ba",
+    "cost_usd": 0.0613672
+  }
+}

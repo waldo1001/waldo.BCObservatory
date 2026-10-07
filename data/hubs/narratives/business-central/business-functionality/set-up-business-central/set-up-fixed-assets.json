@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
+  "input_hash": "46f0aa2fef8a4cac753d738f8f0a25bb4f0a1b8014f5f5e2f13983909d698cd0",
+  "summary": "Fixed assets setup in Business Central: general FA information, depreciation books and methods, user-defined depreciation tables, insurance, and maintenance. It answers questions about what to configure before registering and depreciating fixed assets, and where each setting lives.",
+  "overview": "This section explains how to prepare Business Central to track fixed assets. It starts with an overview page listing the setup requirements: depreciation configuration, G/L account mappings, and optional insurance and maintenance setup, plus user-defined depreciation methods where needed.\n\nThe general FA information page covers the base infrastructure: default G/L accounts, posting groups, journal templates, asset classification (classes and subclasses), locations, allocation keys, and how to register the first assets. Depreciation setup builds on this with depreciation books, methods, posting types, and default templates. A separate page covers user-defined depreciation methods that use depreciation tables.\n\nInsurance and maintenance pages are optional add-ons. Start with the overview page, then the general FA information page, then depreciation. Add insurance, maintenance, or user-defined methods only if your process needs them.",
+  "key_points": [
+    "General FA setup covers default G/L accounts, posting groups, journal templates, asset classes and subclasses, locations, and allocation keys.",
+    "Depreciation setup involves creating depreciation books, assigning them to assets, configuring posting types, and setting default templates.",
+    "Depreciation methods mentioned include straight-line, declining-balance, manual, and user-defined; rounding in periodic depreciation is also covered.",
+    "User-defined methods use depreciation tables with custom percentages per period, and support unit-based, sum of digits, or accelerated depreciation, with a depreciation starting date.",
+    "Insurance setup includes general insurance information, insurance types and cards, and insurance journal templates and batches.",
+    "Maintenance setup includes general information, maintenance codes for work types, and the maintenance expense account in posting groups.",
+    "Insurance and maintenance setup are optional; depreciation and G/L mappings are required."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:55.216Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012945
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:03.141Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview gives a reading order (overview page, then general FA information, then depreciation, then optional pages) that the page summaries don't state. It's reasonable advice but not sourced.",
+      "The summary phrase 'where each setting lives' slightly overclaims. The page summaries describe what each page configures, not where each setting sits in the product."
+    ],
+    "input_hash": "46f0aa2fef8a4cac753d738f8f0a25bb4f0a1b8014f5f5e2f13983909d698cd0",
+    "cost_usd": 0.032859200000000005
+  }
+}

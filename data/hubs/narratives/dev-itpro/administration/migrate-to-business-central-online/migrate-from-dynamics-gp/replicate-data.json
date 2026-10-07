@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/replicate-data",
+  "input_hash": "4a7260e23a074c63c73016394baf9afcfefafd23a790c0d468bc7163a2bb00fd",
+  "summary": "Replicate data covers how data moves from an on-premises Dynamics GP database to Business Central online, how to run and manage replication from the Cloud Migration Management page, and how to validate migrated data. It answers process, monitoring, troubleshooting and validation questions.",
+  "overview": "This section describes the replication step of a Dynamics GP to Business Central online migration. It explains how replication works, how to run and control it, and how to check the result.\n\nStart with the Data replication overview to understand the large table and small table flows, Azure BLOB storage, Azure Data Factory, the integration runtime, company initialization, and how rerunning replication uses change tracking. Then use Run and manage data replication for the hands-on steps on the Cloud Migration Management page. Finish with Migration validation overview to compare source and migrated data.",
+  "key_points": [
+    "Replication has separate large table and small table flows, using Azure BLOB storage and Azure Data Factory with an integration runtime.",
+    "Company initialization is part of the replication process.",
+    "Rerunning replication uses change tracking.",
+    "Replication is run and managed from the Cloud Migration Management page.",
+    "You can create a diagnostics run before running data replication.",
+    "Progress is monitored and tracked in the Migration Log; you can pause or abandon a migration.",
+    "Migration validation compares source and migrated data for entities such as G/L accounts, customers, and vendors.",
+    "Validation can be automatic or manual, and shows results, discrepancies, and record-level details."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:24.070Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009253
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:06.446Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'You can create a diagnostics run before running data replication' implies an order ('before') that the source only hints at; the page lists 'Create diagnostics run' as a feature without saying when to do it. Minor.",
+      "Linking Azure Data Factory to the integration runtime ('with an integration runtime') is a small inference; the sources list both separately in the data replication overview. Acceptable."
+    ],
+    "input_hash": "4a7260e23a074c63c73016394baf9afcfefafd23a790c0d468bc7163a2bb00fd",
+    "cost_usd": 0.0319312
+  }
+}

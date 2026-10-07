@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica
 type: topic
 title: Setup best practices for complex application areas
-summary: "Learn section Business functionality > Set up Business Central > Setup best practices for complex application areas: 6 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Setup best practices for complex Business Central application areas, mainly costing methods and supply planning. It answers questions about which costing method or reordering policy fits which items and business environment, and which setup fields to configure.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:03.450Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: aeeca4e558fa2f2977ab40f4c79bf5dedc780cacae3165eb31e0d88a613e66df
+  prompts:
+    hub-topic: 1
+  input_hash: f0ebdc379bedfdb0478cfac27f13d4403fe380f864f12f7c712e7b14efb5737c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-global-planning-setup
@@ -90,14 +91,32 @@ bc_forms:
   - 30
   - 31
 member_hash: aeeca4e558fa2f2977ab40f4c79bf5dedc780cacae3165eb31e0d88a613e66df
-narrative: none
+narrative: generated
 ---
 
 # Setup best practices for complex application areas
 
-> Learn section Business functionality > Set up Business Central > Setup best practices for complex application areas: 6 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Setup best practices for complex Business Central application areas, mainly costing methods and supply planning. It answers questions about which costing method or reordering policy fits which items and business environment, and which setup fields to configure.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Setup best practices for complex application areas · tier official · system administration · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Setup best practices for complex application areas · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section collects guidance for areas of Business Central where setup choices have lasting effects on cost and inventory. An introductory page frames the best practices approach and points to the specific areas: costing methods and supply planning.
+
+The costing method page explains that the method determines how cost flow is recorded and capitalized. It matches methods to item type and business environment. The methods covered are FIFO, LIFO, Average, Specific and Standard.
+
+The supply planning subtopic covers reordering policies, item-level planning parameters and global planning setup. It helps you choose a policy for each kind of item, decide which fields to set, and avoid stockouts while controlling inventory cost. Start with the introductory page, then go to the costing or planning page that matches your setup task.
+
+## Key points
+
+- The section covers two complex areas: costing methods and supply planning.
+- Costing method setup determines how cost flow is recorded and capitalized.
+- Costing methods covered: FIFO, LIFO, Average, Specific and Standard.
+- FIFO suits stable costs, Average suits unstable costs, and Standard suits cost control.
+- Choose the costing method according to item type and business environment.
+- Supply planning guidance covers reordering policies, item-level planning parameters and global planning setup.
+- Planning setup aims to avoid stockouts while controlling inventory cost.
 
 ## Subtopics
 

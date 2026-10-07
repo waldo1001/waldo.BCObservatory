@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets",
+  "input_hash": "06a4da56f5e28a0f3da6586f5abbc1ca15696cf616374c888462262a51586d60",
+  "summary": "Report dataset development in Business Central: an overview of building reports with datasets, layouts (Excel, Word, RDL) and request pages, plus performance guidance for AL developers. It answers questions about report structure, layout choices, and tuning AL code, pages, and web services.",
+  "overview": "This section is for AL developers who build reports and need their datasets to perform well. It has two pages: a reports overview and a collection of performance articles for AL developers.\n\nStart with Reports overview. It explains how reports print, display, and process data, and how the dataset, the layout, and the request page work together. It also covers report extensions and discoverability. Layout options are Excel, Word, and RDL, and you can design them visually.\n\nThen read Performance Articles for AL Developers. It covers efficient page design, web services, reports, AL coding patterns, data access optimization, and testing. Use it to tune the datasets and code behind your reports and the rest of the application.",
+  "key_points": [
+    "Reports can be used for printing, displaying, and processing data.",
+    "A report is built from a dataset, one or more layouts, and a request page.",
+    "Supported layout types are Excel, Word, and RDL, with visual layout design.",
+    "Report extensions and discoverability are covered in the overview.",
+    "Performance guidance covers pages, web services, reports, AL coding patterns, data access, and testing.",
+    "Specific performance topics include page background tasks, Edit-in-Excel, query objects, partial records, table extension impact, and event subscriptions.",
+    "The performance articles reference 2021 release wave 2, 2023 release wave 1, and 2023 release wave 2."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:06.119Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009137
+  }
+}

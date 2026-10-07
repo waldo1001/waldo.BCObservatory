@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance",
+  "input_hash": "4b6fe899b9812fcaa555f04eb47523a6bb7f2cfe15913c021c89130dc5f116ff",
+  "summary": "Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data.",
+  "overview": "This section covers the built-in reports and analytics that support finance work. The overview page, \"Built-in finance reports in Business Central\", lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and mentions the report explorer. It is the best starting point for finding a standard report.\n\nTwo pages cover payables and receivables. Accounts payables analytics helps you analyze what you owe vendors using Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page for payment timing. Accounts receivable analytics helps you manage customer receivables with Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.\n\nFor custom reporting, the page on building financial reports explains how to analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. It covers prerequisites such as chart of accounts structure, dimensions and G/L budgets. A separate page covers sustainability reports, including the Track Item of Concern report and the Role Explorer.",
+  "key_points": [
+    "The overview page groups built-in reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.",
+    "Accounts payables analytics uses Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page to review payment timing.",
+    "Accounts receivable analytics uses Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.",
+    "Financial reports analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. You can create them from scratch or copy existing ones.",
+    "Prerequisites for financial reports include a structured chart of accounts, dimensions and G/L budgets. The page is tagged for 2025 release wave 1.",
+    "Sustainability reports use the Item of Concern field and the Track Item of Concern report to monitor inbound and outbound transactions of items with high pollution levels.",
+    "The Role Explorer is used with sustainability reports to analyze emissions."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:04.435Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013273
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:50.212Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 says the Item of Concern field is on the Sustainability FastTab. The sources list both as features but never say where the field is, so the placement was removed.",
+      "The overview frames the payables and receivables pages as analysis of 'open balances'. The sources don't say this; reworded to managing what you owe vendors and what customers owe you.",
+      "The overview calls Aged Receivables a 'collection metric'. The source only lists it as a feature next to Average Collection Period; wording loosened.",
+      "The narrative leaves out that financial reports are used to compare against G/L budgets, which the source states. Added to the overview and key point 4.",
+      "Key point 5 mixed prerequisites with the release wave tag. Reworded to say plainly that the page is tagged for 2025 release wave 1."
+    ],
+    "input_hash": "4b6fe899b9812fcaa555f04eb47523a6bb7f2cfe15913c021c89130dc5f116ff",
+    "cost_usd": 0.0579032
+  }
+}

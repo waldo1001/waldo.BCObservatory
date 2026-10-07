@@ -2,19 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions
 type: topic
 title: Updates for earlier major versions
-summary: "Learn section What's new and planned > Updates for earlier major versions: 66 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2), plus the 26.0 and 27.0 preview pages. They answer what changed in a given update: hotfixes, feature changes, localization updates, telemetry, deprecations and upgrade notes."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:01.671Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0fa344e90b2899491e29207aa2e1826f74ca2bb7fb90ff117e236b97cbe367c2
+  prompts:
+    hub-topic: 1
+  input_hash: 4215279071ab58d2adc7204c5287b07776da9da06ae4e6e0336b2dc316f7848d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -386,14 +387,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 0fa344e90b2899491e29207aa2e1826f74ca2bb7fb90ff117e236b97cbe367c2
-narrative: none
+narrative: generated
 ---
 
 # Updates for earlier major versions
 
-> Learn section What's new and planned > Updates for earlier major versions: 66 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2), plus the 26.0 and 27.0 preview pages. They answer what changed in a given update: hotfixes, feature changes, localization updates, telemetry, deprecations and upgrade notes.
 
-Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · no narrative yet
+Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section is a series of one-page-per-update release notes for earlier major versions of Business Central. Pages are named by update number (for example 17.3 or 24.5) and grouped by release wave, from 2019 release wave 2 (15.x) up to 2025 release wave 2 (27.x). Each page lists hotfixes, feature changes, localization updates and, in some cases, deprecation or upcoming mandatory feature notices.
+
+Start by finding the update number for your environment's version, then open that page. Use the neighboring updates in the same wave to follow a feature as it rolls out. For example, report bookmarking appears in 15.3 and 15.4, and Intrastat country of origin appears in 24.2, 24.4 and 24.5. Two pages cover the wave starting points: 26.0 for 2025 release wave 1 and 27.0 preview for 2025 release wave 2.
+
+Themes change over time. Early pages stress telemetry, cloud migration and authentication changes. Later pages cover localization (Intrastat, SAF-T, VAT, e-invoicing), Copilot and agents, and e-documents.
+
+## Key points
+
+- Coverage runs from update 15.2 (2019 release wave 2) to 27.5 (2025 release wave 2), with extra pages for 26.0 and the 27.0 preview.
+- Authentication and deprecation notices: OData V3 deprecation and basic authentication removal (17.4, 17.5), Internet Explorer 11 deprecation (16.5), and service-to-service authentication (18.3).
+- Telemetry grew over 16.x and 17.x: company lifecycle, extension lifecycle, page views, job queues, permissions, retention policy, field monitoring and email.
+- Environment administration: backup and restore (17.3), copying environments of different types and operations log (19.1), point-in-time restore and service tags (21.4).
+- Localization and regulatory items recur, such as Intrastat, SAF-T, CFDI (Mexico), SII (Spain), VAT returns, Carta Porte, and IRS 1099.
+- Denmark e-invoicing and the e-documents framework appear from 23.2 and 23.3 and expand through 26.x and 27.x with PEPPOL, SEPA and more service providers.
+- Copilot features include marketing text and bank reconciliation (23.1), chat with Copilot (25.x), Sales Order Agent and Payables Agent (26.x, 27.x), and the AI agent designer in public preview (27.4).
+- Cloud migration improvements span many updates, ending with migration from any SQL database in 27.5.
 
 ## Learn pages
 

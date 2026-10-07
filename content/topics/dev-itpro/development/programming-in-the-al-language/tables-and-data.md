@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
 type: topic
 title: Tables and data
-summary: "Learn section Development > Programming in the AL language > Tables and data: 56 Microsoft Learn pages in 8 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:51.727Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: eed398dfb63a207a296a8ab43da02dd954d3110c41391c2aae850c37c5e87540
+  prompts:
+    hub-topic: 1
+  input_hash: 0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-accessing-columns
@@ -370,14 +371,33 @@ bc_forms:
   - 9310
   - 9311
 member_hash: eed398dfb63a207a296a8ab43da02dd954d3110c41391c2aae850c37c5e87540
-narrative: none
+narrative: generated
 ---
 
 # Tables and data
 
-> Learn section Development > Programming in the AL language > Tables and data: 56 Microsoft Learn pages in 8 subtopics. Index of what Learn documents here, linked to Learn.
+> Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Tables and data · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Tables and data · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section groups what an AL developer needs to define, store, read, change and move data in Business Central. The subtopics follow a usual workflow: defining table structures, reading data, modifying data, querying with Query objects, calculating values with FlowFields and FlowFilters, and tuning performance with indexes. Other subtopics cover streaming data and importing or exporting data through XMLports and Excel.
+
+The section's own pages cover two tools. Number sequences use SQL Server sequences to generate numeric identifiers. They allow gaps and do not block, so they suit non-continuous numbering better than number series. DataTransfer is an AL data type for bulk copying data between SQL-based tables during upgrade and install, and it is much faster than row-by-row record operations.
+
+Start with Defining table structures if you are building new objects. Go to Reading data and Indexing data for performance when tuning speed. Use the DataTransfer page when writing upgrade code that moves large volumes of data.
+
+## Key points
+
+- Defining table structures covers table objects, table extensions, system fields, TableRelation, ToolTip and OptimizeForTextSearch.
+- Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records and Dataverse table properties.
+- Reading data covers Get, Find, FindSet and Next, partial records, isolation levels, SQL performance and read scale-out.
+- Query objects define dataitems and columns, joins, filters, aggregation and date parts, as an alternative to record variables.
+- FlowFields and FlowFilters calculate values dynamically without storing data, using CalcFormula.
+- SIFT and NCCI give fast sums over numeric columns, with guidance on tuning, tracing and migrating from SIFT to NCCI.
+- Number sequences use the NumberSequence type (Insert, Delete, Next, Current, Exists) and allow gaps without blocking.
+- DataTransfer (CopyRows, CopyFields, SetTables, AddFieldValue, AddConstantValue, AddJoin) does bulk table-to-table transfers in upgrade and install; the page lists 2022 release wave 2.
 
 ## Subtopics
 

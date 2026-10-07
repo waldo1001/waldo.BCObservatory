@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/vat",
+  "input_hash": "bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3",
+  "summary": "VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions.",
+  "overview": "This section covers the Netherlands-specific VAT tasks. It has four pages and no subtopics. Two pages deal with preparing the electronic declarations: configuring Digipoort and certificates, and mapping VAT categories to XML elements. One page covers submitting the declarations, and one covers the audit file.\n\nA practical order is: set up Digipoort endpoints, the PKIoverheid certificate, the service certificate and the fiscal entity details; set up VAT categories and subcategories; then create and submit VAT and ICP declarations and process the responses from the tax authority. The audit file is a separate task that can be done independently when tax inspectors need data.\n\nStart with \"Electronic VAT and ICP Declarations [NL]\" if you are preparing to file for the first time. Start with \"Create an Audit File for Tax Authority [NL]\" if you only need to hand over ledger data.",
+  "key_points": [
+    "Electronic VAT and ICP setup requires Digipoort endpoint URLs, a PKIoverheid certificate, a service certificate and tax authority (fiscal entity) information.",
+    "VAT category codes are set up as category and subcategory combinations that map to XML elements in the electronic VAT declaration.",
+    "Declarations are created in XBRL format and submitted to the tax authorities through Digipoort.",
+    "VAT declarations are reported monthly or quarterly; ICP declarations are reported quarterly.",
+    "Submission includes certificate management and processing of response messages from the tax authority.",
+    "The audit file is built from general ledger journal entries for a selected fiscal period.",
+    "The audit file creation can exclude begin balances and exports in XAF format."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:21.719Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011463
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:30.259Z",
+    "verdict": "approve",
+    "issues": [
+      "The suggested order (Digipoort and certificates first, then VAT categories, then submission) is the writer's inference. No page summary states it, but it is reasonable and harmless.",
+      "The overview opens with \"This section covers\", which is close to the banned \"This hub\" phrasing. Consider starting with the subject instead.",
+      "The 'Key point 7' wording 'exports in XAF format' is a little awkward ('and exports the file in XAF format' would read better), but it is supported."
+    ],
+    "input_hash": "bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3",
+    "cost_usd": 0.0247952
+  }
+}

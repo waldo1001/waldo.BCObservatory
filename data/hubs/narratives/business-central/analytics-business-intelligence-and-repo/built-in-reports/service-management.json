@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/service-management",
+  "input_hash": "68dc34c6780f636a0edbc60afa2e514494d9ef5e524074473c9f592788145fd9",
+  "summary": "Service management reports and related tasks in Business Central: allocating resources such as technicians, posting service documents, and viewing service statistics. It answers questions about dispatching, what posting creates, and how to analyze service performance.",
+  "overview": "This section sits under built-in reports and covers three areas of service management. One page explains how to allocate resources such as technicians to service tasks using the Dispatch Board or service orders. One explains service posting. One covers service statistics for analyzing service documents.\n\nThe pages fit together along the service flow. Resources are allocated and their hours registered, service documents are posted to create shipments, invoices and ledger entries, and statistics then let you evaluate performance across contracts, items, quotes, orders, invoices and credit memos.\n\nStart with the allocation page if you need to schedule technicians. Start with service posting if you need to understand the resulting documents and entries. Start with service statistics if you need analysis.",
+  "key_points": [
+    "Resources such as technicians can be allocated to service tasks from the Dispatch Board or from service orders.",
+    "You can view resource availability and reallocate resources as needed, and allocation status is tracked.",
+    "Resource hours registration is part of the allocation topic.",
+    "Service posting creates posted documents (service shipment, service invoice) and ledger entries across service and other modules.",
+    "Partial posting and service consumption are supported in service posting.",
+    "Service posting includes sustainability value chain tracking.",
+    "Service statistics cover contracts, service items, quotes, orders, invoices and credit memos.",
+    "Statistics include trendscape analysis, contract analysis, gain/loss tracking and sustainability metrics."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:05.257Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009561
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:07.738Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the summary frames the area as 'reports', but the pages are mostly about tasks (allocation, posting, statistics). 'And related tasks' covers this adequately.",
+      "Minor: the overview's step-by-step service-flow ordering is the writer's own framing and isn't stated in the page summaries, but it fits them."
+    ],
+    "input_hash": "68dc34c6780f636a0edbc60afa2e514494d9ef5e524074473c9f592788145fd9",
+    "cost_usd": 0.030803200000000003
+  }
+}

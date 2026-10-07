@@ -2,19 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment
 type: topic
 title: Deployment
-summary: "Learn section Business Central on-premises > Deployment: 63 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Deployment of Business Central on-premises: planning, component topology, installation with Setup, service account provisioning, multitenant databases, certificates, and lifecycle policy. It answers how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:39.186Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1624d48022a6bcabafb293e9d24546023d2d928ada72f3b78541afb0ce08f96b
+  prompts:
+    hub-topic: 1
+  input_hash: 09b980000b75723bac0e5dda639762d595b4eefa307cac117c3784891634448d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/product-and-architecture-overview
@@ -341,14 +342,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 1624d48022a6bcabafb293e9d24546023d2d928ada72f3b78541afb0ce08f96b
-narrative: none
+narrative: generated
 ---
 
 # Deployment
 
-> Learn section Business Central on-premises > Deployment: 63 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Deployment of Business Central on-premises: planning, component topology, installation with Setup, service account provisioning, multitenant databases, certificates, and lifecycle policy. It answers how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · no narrative yet
+Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers everything needed to get Business Central on-premises running. It starts with planning (network topology, single-tenant or multitenant, authentication, service account, connection security) and a description of the three core components: web server, server and SQL database, plus development tools.
+
+The own pages then cover the practical steps: installing with Setup (wizard, configuration files, command-line options), provisioning the server service account with the right SQL Server roles, setting up application and tenant databases for multitenancy, and securing client connections with X.509 certificates. Two further pages cover the software lifecycle policy and the Windows client deprecation FAQ.
+
+Subtopics go deeper: system requirements, deployment topologies (demo to three-computer), the IIS web server, databases, the mobile app, and the list of on-premises updates. A good path is Plan for Deployment, then Component and System Topology, then a topology page, then Install Business Central Using Setup.
+
+## Key points
+
+- Plan for Deployment covers network topology, single-tenant vs multitenant, authentication method, service account and SSL decisions.
+- Three core components: web server, server, SQL database; development tools include the AL environment and PowerShell modules.
+- Setup install page covers media download, prerequisite checks, wizard, configuration files and command-line options, with versions 24 to 27 listed.
+- The server service account is a domain user (or Network Service) needing dbcreator, db_datareader and db_datawriter roles, with SPN registration.
+- Multitenant setup: create an application database, configure the server for multitenancy, mount tenant databases, synchronize and publish extensions.
+- X.509 certificates with chain trust secure server-client connections over WAN; peer trust and SSL for web services are also covered.
+- The Windows client was discontinued from 2019 release wave 2 (October 2019) in favor of web, mobile and desktop app clients.
+- Lifecycle page explains Modern and Fixed Lifecycle Policy, update schedule, mainstream and extended support.
 
 ## Subtopics
 

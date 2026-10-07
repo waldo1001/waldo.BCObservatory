@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization
 type: topic
 title: Data virtualization
-summary: "Learn section Integration > Integrating with Microsoft Dataverse > Data virtualization: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Data virtualization covers Business Central virtual tables in Microsoft Dataverse. It answers questions about how virtual tables expose Business Central data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:37.894Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b5202f852d1ae800b32f335efd90bf720387a9fbc53cc45d1a2152a25a6d817e
+  prompts:
+    hub-topic: 1
+  input_hash: a0e55ecfe35ecb1f62492e8b2845fc797e3107d5d34d53e9f09aa79359e987ef
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-app-lifecycle-management
@@ -90,14 +91,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: b5202f852d1ae800b32f335efd90bf720387a9fbc53cc45d1a2152a25a6d817e
-narrative: none
+narrative: generated
 ---
 
 # Data virtualization
 
-> Learn section Integration > Integrating with Microsoft Dataverse > Data virtualization: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Data virtualization covers Business Central virtual tables in Microsoft Dataverse. It answers questions about how virtual tables expose Business Central data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data virtualization · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data virtualization · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+Business Central virtual tables let Power Platform makers work with Business Central data in Dataverse through APIs, with direct CRUD access and without copying the data into Dataverse. The section explains this integration and how to build on it.
+
+Start with the Power Platform integration page for the overall idea. Then read "Working with Virtual Tables" for how tables are generated and how data types, primary keys, relations, enums and OData actions are handled. The page on synthetic relationships shows how to link native and virtual tables. The ALM page covers solution structure, dependencies and connection setup. The FAQ collects short answers on visibility, users, prefixes and defaults.
+
+## Key points
+
+- Virtual tables give Power Platform apps CRUD access to Business Central data through APIs, with no data copied to Dataverse.
+- Custom APIs can be consumed, and virtual table columns and relationships can be used.
+- Working with Virtual Tables covers data type mapping, primary key handling, 1:n and n:1 relations, enum to OptionSet conversion, OData actions and error handling.
+- Synthetic relationships connect native and virtual tables in Dataverse using foreign keys and table mapping (2024 wave 1).
+- ALM uses the MicrosoftBusinessCentralERPVE solution, the MicrosoftBusinessCentralERPCatalog and MicrosoftBusinessCentralVESupport, plus the virtual table provider and a connection setup (version 17 or later).
+- The FAQ covers API-managed solutions, table visibility, user authentication requirements, the table catalog, solution prefixes, default values and plugin version checks.
 
 ## Learn pages
 

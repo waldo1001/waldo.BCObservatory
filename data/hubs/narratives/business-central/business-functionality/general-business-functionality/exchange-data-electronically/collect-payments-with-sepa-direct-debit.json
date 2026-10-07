@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/collect-payments-with-sepa-direct-debit",
+  "input_hash": "a4fb95ee436b82c36d67f89349216889e7d8017d501e8b9e5120387fbb0c1dfc",
+  "summary": "SEPA direct debit collection in Business Central, plus related bank setup and data exchange pages. It answers questions on setting up mandates and export formats, exporting collection XML files, setting up bank accounts, Yodlee bank feeds, the AMC Banking 365 Fundamentals extension, and XML schemas for data exchange definitions.",
+  "overview": "This section covers collecting customer payments by SEPA direct debit in EURO. You set up bank export formats, payment methods and mandates, create collection entries, and export an XML file to the bank. Payment receipts are then posted and reconciled.\n\nThe other pages support that flow. Bank account setup covers transaction tracking, payment and bank reconciliation, file import and export, and multi-currency use. Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal. The AMC Banking 365 Fundamentals extension converts bank data to formats used by over 600 banks. The XML schema page explains how to generate data exchange definitions from schema nodes.\n\nStart with the SEPA Direct Debit page for the end-to-end process. Then read Set up bank accounts, and pick the Yodlee or AMC page if you need automated statement import or bank format conversion.",
+  "key_points": [
+    "SEPA Direct Debit collects customer payments from bank accounts in EURO using the SEPA format.",
+    "Setup involves bank export formats, payment methods and direct debit mandates; collection entries are then exported as an XML file to the bank.",
+    "Payment receipts are posted and bank reconciliation follows the collection.",
+    "Bank account setup supports payment reconciliation, bank reconciliation, bank file import/export and local and foreign currencies.",
+    "Yodlee bank feeds (Envestnet) import bank statements into the Payment Reconciliation Journal about every two hours, in supported regions.",
+    "AMC Banking 365 Fundamentals converts bank data for over 600 banks, with SWIFT and IBAN support, for payment export and statement import.",
+    "XML schemas can be loaded, nodes selected, and data exchange definitions or XMLports generated from them."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:14.263Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012957
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:59.205Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says 'The other pages support that flow', which slightly overstates the link. The XML schema and Yodlee pages cover general data exchange and bank feeds, not steps in SEPA direct debit.",
+      "'About every two hours' for Yodlee is a fair reading of the 'two-hour import frequency' feature, but the word 'about' is not in the source.",
+      "The bank account setup page also lists direct debit and SEPA credit transfer features. The narrative does not mention them, and doing so would tie that page to the hub topic more clearly."
+    ],
+    "input_hash": "a4fb95ee436b82c36d67f89349216889e7d8017d501e8b9e5120387fbb0c1dfc",
+    "cost_usd": 0.0359512
+  }
+}

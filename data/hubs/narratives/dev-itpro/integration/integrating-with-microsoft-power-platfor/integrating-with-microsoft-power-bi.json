@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
+  "input_hash": "0dc61f8c427b71b1f30248ccf4cb3093afd4303157112e0ea16a0958ecd7c177",
+  "summary": "Power BI integration with Business Central: enabling it, building reports on Business Central data, embedding reports in pages, extracting data for ETL, and improving dataset load performance. It answers setup, report authoring, embedding and data-loading questions.",
+  "overview": "This area covers how Business Central works with Power BI. It includes the built-in Power BI apps, reports built in Power BI Desktop, and reports shown inside Business Central pages. The introduction page gives the overall picture and the roles involved.\n\nThe subtopics split the work by role. Administrators enable the integration (licensing, API pages, OData web services, online and on-premises setup) and learn how the components fit together. Report creators build reports with the connector, APIs and OData web services, and prepare them for Power BI FactBoxes on list pages.\n\nFurther pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extracting data with ETL patterns, and tuning dataset load performance. Start with the introduction, then go to the Administrator or Report creator subtopic that matches your role.",
+  "key_points": [
+    "The introduction page describes built-in Power BI apps, Power BI Desktop integration, report embedding and KPI tracking across roles.",
+    "Administrators enable the integration, covering licensing, API pages, OData web services, and online and on-premises setup.",
+    "Report creators build reports in Power BI Desktop using the connector, APIs and OData web services.",
+    "Reports can be prepared to appear in Power BI FactBoxes on list pages.",
+    "Embedding uses the Power BI embed framework with pages such as Power BI Embedded Report Part and Power BI Element Addin Host; context is set with SetCurrentListSelection and SetPageContext.",
+    "Data extraction covers ETL, historical and delta loads using API queries filtered on SystemModifiedAt, read scale-out, Azure Data Factory and Power BI dataflows.",
+    "Dataset load performance improves by loading only the data you need through APIs and web service endpoints.",
+    "Web service telemetry can monitor usage, performance and errors."
+  ],
+  "members_used": 4,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:41.013Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012972999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:50.663Z",
+    "verdict": "approve",
+    "issues": [
+      "Embedding key point: the source lists SetCurrentListSelection, SetPageContext and context keywords only as features. Saying that 'context is set with' them goes slightly beyond the source, though it is a reasonable reading.",
+      "The page versions (2022 release wave 2, 2023 release wave 2, 2025 release wave 1) are left out. That is acceptable because the narrative makes no version claims."
+    ],
+    "input_hash": "0dc61f8c427b71b1f30248ccf4cb3093afd4303157112e0ea16a0958ecd7c177",
+    "cost_usd": 0.030143200000000002
+  }
+}

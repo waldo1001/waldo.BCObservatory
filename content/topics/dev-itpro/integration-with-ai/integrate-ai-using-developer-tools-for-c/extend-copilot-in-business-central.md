@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
 type: topic
 title: Extend Copilot in Business Central
-summary: "Learn section Integration with AI > Integrate AI using developer tools for Copilot > Extend Copilot in Business Central: 15 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Extending Copilot in Business Central with AL: building a Copilot capability with the System.AI module and Azure OpenAI, designing the user experience with the PromptDialog page type, and testing capabilities and agents. It answers how-to questions for AL developers."
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
+  prompts:
+    hub-topic: 1
+  input_hash: 9308fd8a626d4f00ca44fcd3d8e6e79d6bf998054fccaa1aa38c757b4293a73d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-bestpractices
@@ -138,7 +139,9 @@ links:
     - video/QCo-uIfPs9g
     - video/UgagVZVKCso
     - video/ytYKvn2MiGs
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/1816
+    - post/aardvarklabs-blog/2759
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -153,18 +156,35 @@ coverage:
   learn: 15
   code: 0
   video: 4
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
-narrative: none
+narrative: generated
 ---
 
 # Extend Copilot in Business Central
 
-> Learn section Integration with AI > Integrate AI using developer tools for Copilot > Extend Copilot in Business Central: 15 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Extending Copilot in Business Central with AL: building a Copilot capability with the System.AI module and Azure OpenAI, designing the user experience with the PromptDialog page type, and testing capabilities and agents. It answers how-to questions for AL developers.
 
-Path: [Integration with AI](../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../integrate-ai-using-developer-tools-for-c.md) > Extend Copilot in Business Central · tier official · system copilot · no narrative yet
+Path: [Integration with AI](../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../integrate-ai-using-developer-tools-for-c.md) > Extend Copilot in Business Central · tier official · system copilot · narrative reviewed by Opus
+
+## Overview
+
+This section is for AL developers who add generative AI to Business Central extensions. It starts with an introduction to the building blocks: a prompt dialog page, the AI module of the system application, and an Azure OpenAI resource.
+
+The page "Build the Copilot capability in AL" covers the code side: registering the capability, storing authorization, configuring parameters, defining a metaprompt and generating responses. Two subtopics cover the rest. "Build Copilot user experience" explains the PromptDialog page type and its prompt, generate and content modes. "Test Copilot capability in AL" covers the Evaluation framework and how to write AI tests and agent tests.
+
+Start with the introduction, then build the capability, then design the dialog, and finally set up tests.
+
+## Key points
+
+- A Copilot experience needs three parts: a prompt dialog page, the AI module of the system application, and an Azure OpenAI resource.
+- Building the capability covers capability registration, authorization storage in IsolatedStorage, parameter configuration, metaprompt definition and response generation.
+- The capability page covers chat completion, text completion and embeddings through the System.AI module, plus the token limits to keep in mind. It references 2025 release wave 2.
+- The PromptDialog page type has prompt, generate and content modes, and the pages cover error handling and launching Copilot features from prompt actions.
+- Testing uses the Evaluation framework (formerly AI Test Toolkit) with JSONL and YAML datasets.
+- Test pages cover AI tests and agent tests, plus best practices for non-determinism, safety, languages and model changes.
 
 ## Subtopics
 
@@ -180,6 +200,8 @@ Path: [Integration with AI](../../integration-with-ai.md) > [Integrate AI using 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "Create a new Copilot codeunit that accepts customer data as parameters"
+- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "automatically upgrade raw service technician notes into professional, customer-facing text for invoices"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../videos/QCo-uIfPs9g.md) (video): "Copilot Prompt Actions on Card and Document Pages"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot development; prompt engineering; Copilot Function with Prompt Engineering"

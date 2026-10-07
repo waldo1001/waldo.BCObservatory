@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-purchase",
+  "input_hash": "2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3",
+  "summary": "Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area.",
+  "overview": "This section groups the pages needed to prepare Business Central for purchasing. It has no subtopics, so all content is on its own pages. The page \"Overview of tasks to set up purchasing\" is the natural starting point. It covers payables setup such as posting rules, number series, external document number requirements, exact cost reversing, discount calculation and prepayment checking.\n\nVendor setup pages cover registering a vendor (manually or from templates), setting up vendor bank accounts with preferred accounts and approval workflows, assigning a priority level to a vendor, and assigning purchasers to vendors for filtering reports and statistics.\n\nFurther pages cover pricing and control. They explain recording special purchase prices and discounts, setting up sales and purchase prices and discounts in general, defining invoice posting policies per user, and validating purchase amounts against document totals. A page on updating document dates with posting dates is also included, although its source describes it for sales transactions.",
+  "key_points": [
+    "Start with the overview of purchasing setup tasks: posting rules, number series, external document number, exact cost reversing, prepayment checking.",
+    "Register vendors manually or with templates; the vendor card can hold remit-to addresses, bank accounts, dimensions and optional self-billing agreements.",
+    "Vendor bank accounts support preferred accounts, IBAN management and approval workflows for new accounts.",
+    "Vendor priority numbers control ranking in payment suggestions and vendor lists.",
+    "Purchaser codes assigned to vendors help filter reports and prepare purchasing statistics.",
+    "Invoice posting policies per user can prohibit, allow or require posting invoices together with receipts or shipments.",
+    "The prices and discounts pages (tagged 2020 release wave 2) cover line discounts, invoice discounts, vendor price groups, discount posting principles, price lists with new and legacy pricing experiences, and automatic best price calculation.",
+    "Total amount validation on purchase invoices and credit memos checks document totals against line totals before posting (2025 release wave 1)."
+  ],
+  "members_used": 10,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:00.163Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015081
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:14.674Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview lists 'Updating document dates with posting dates' with the purchase pages, but its source summary says it covers sales transactions. The overview now says so.",
+      "The key point ties '2020 release wave 2' to automatic best price calculation alone. In the sources, that version is a page-level tag on the two prices and discounts pages, so it was moved to the pages. The point now also mentions price lists with new and legacy pricing experiences, which the 'Set up prices and discounts' page covers."
+    ],
+    "input_hash": "2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3",
+    "cost_usd": 0.0550632
+  }
+}

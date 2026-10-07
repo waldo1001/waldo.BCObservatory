@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/banking-and-payments",
+  "input_hash": "fd434d8dfe73b622c0390eca8c06d731d8dc65dc46d00cb94fd9f9d6e6b35123",
+  "summary": "Banking and payments in the Dutch (Netherlands) version of Business Central: telebanking, payment and collection proposals, payment history export, cash/bank/giro journals, bank statement import, and SEPA ISO 20022 payments. It answers how-to and setup questions for domestic and foreign payment flows.",
+  "overview": "This section covers the Dutch localization of electronic banking. It explains telebanking, which handles payment and collection proposals, payment histories, and bank statement import and export, and the cash, bank and giro journals used to post and reconcile transactions.\n\nThe pages follow the workflow. Create proposals from vendor and customer ledger entries, turn them into payment history and export it with a supported protocol (BTL91, BBV or PAYMUL), then import bank statements and reconcile them in the Bank/Giro Journal. Three scenario pages walk through the full cycle for domestic (LCY to LCY), foreign same-currency (FCY to FCY) and foreign mixed-currency (LCY to FCY) payments.\n\nStart with Dutch Electronic Banking and Telebanking for the overview, then the proposal and payment history how-tos. For SEPA, read the SEPA overview, then activate SEPA payments and submit vendor payments in ISO 20022 format.",
+  "key_points": [
+    "Dutch electronic banking covers telebanking, payment files, direct debit files, bank statement import, payment proposals and giro journals.",
+    "Proposals can be created manually or automatically from vendor and customer ledger entries using the Get Proposal Entries batch job.",
+    "Payment history can be created from proposals and exported using BTL91, BBV or PAYMUL protocols.",
+    "Docket reports give detailed payment information when ledger entries are combined into a single payment order; enable them with the Docket checkbox.",
+    "Bank statements are imported electronically (including Rabobank protocols and SEPA CAMT) and reconciled automatically in the Bank/Giro Journal.",
+    "Test reports for cash and bank/giro journals preview posting effects and show applied entries before posting.",
+    "Activating SEPA requires configuring transaction modes with SEPA export protocols (such as SEPA CT and SEPA DD, ISO 20022) and checking vendor transaction modes.",
+    "Three payment scenarios are documented: LCY to LCY, FCY to FCY, and LCY to FCY."
+  ],
+  "members_used": 15,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:25.792Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019769000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:15.891Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point naming the 'Get Proposal Entries batch job' uses the name from the Docket Reports page; the Create Proposals page calls it the 'get entries batch job'. The two are consistent, so no change is needed.",
+      "Minor: 'reconciled automatically' matches the pages' 'automatic reconciliation' feature, but the pages don't say whether every statement line is matched without manual steps."
+    ],
+    "input_hash": "fd434d8dfe73b622c0390eca8c06d731d8dc65dc46d00cb94fd9f9d6e6b35123",
+    "cost_usd": 0.0532752
+  }
+}

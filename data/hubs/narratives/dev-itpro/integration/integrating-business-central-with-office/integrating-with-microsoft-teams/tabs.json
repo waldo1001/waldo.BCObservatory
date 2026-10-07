@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs",
+  "input_hash": "c58641070da5aca0f5ea868729022bca4e7edfa19efa838ff340e3e61b5edc33",
+  "summary": "Business Central tabs in Microsoft Teams: how to create them programmatically in channels and chats through the Microsoft Graph API, and how to customize the recommended list pages shown when users configure a tab. It answers setup and customization questions for developers.",
+  "overview": "This section covers two tasks for Business Central tabs in Teams. One is creating tabs in code. The other is controlling which pages Business Central recommends to users when they set up a tab.\n\nTab creation uses the Microsoft Graph API. You send POST requests to the channel tab or chat tab endpoints, with proper authentication and the Business Central app ID. Recommended content is changed by subscribing to the OnAfterGetPageActions event, which lets you add or remove the list pages offered during tab configuration.\n\nStart with the page on creating tabs if you want to automate tab deployment to channels or chats. Go to the recommended content page if you want to shape what users see when they pick a page for a tab.",
+  "key_points": [
+    "Business Central tabs can be added to Teams channels and chats programmatically through the Microsoft Graph API.",
+    "Creating a tab requires a POST request to the channel or chat tab endpoint.",
+    "Requests need proper authentication and the Business Central app ID.",
+    "Recommended content is customized by subscribing to the OnAfterGetPageActions event.",
+    "The OnAfterGetPageActions event can add or remove list pages shown to users when they configure a tab.",
+    "The section has two pages: one on creating tabs and one on recommended content."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:47.102Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008655
+  }
+}

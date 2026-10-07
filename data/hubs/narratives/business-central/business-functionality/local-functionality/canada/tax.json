@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/canada/tax",
+  "input_hash": "09904584f8bffc1084ad10944d3e64532f6abd7c7e8f0f2a8636d55f1fa0c7d1",
+  "summary": "Tax in the Canadian version of Business Central: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax with tax areas and jurisdictions, and configuring unrealized sales tax with sales payment discounts. It answers Canada-specific tax setup and reporting questions.",
+  "overview": "This section covers the tax functionality specific to the Canadian version. It has four pages, each on one task: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax, and configuring unrealized sales tax with sales payment discounts.\n\nStart with the sales tax page if you need to set up tax areas, jurisdictions, tax groups and rates. The GST/HST page covers the reporting side, including provincial sales tax considerations and the file generated for the tax authorities. The use tax and purchase tax page applies to purchases from vendors without a local business presence. The unrealized sales tax page applies when tax recognition and payment discounts need special handling.",
+  "key_points": [
+    "Use tax and purchase tax setup handles tax obligations on purchases from vendors without local business presence.",
+    "GST/HST reporting covers goods and services tax and harmonized sales tax calculations, with provincial sales tax considerations.",
+    "GST/HST reporting generates tax files for the authorities and mentions GST/HST Internet File Transfer and tax entry records.",
+    "Sales tax reporting needs tax areas and jurisdictions set up across provinces and the federal level.",
+    "A document can have up to four tax jurisdictions, with combined tax calculations.",
+    "Sales tax setup uses tax groups and tax rates.",
+    "Unrealized sales tax and sales payment discounts are configured for accurate tax recognition and discount handling."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:41.217Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010320999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:19.577Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview suggests starting with the sales tax page. That reading order is the writer's own advice, not something the page summaries say, but it is reasonable because that page covers setting up tax areas, jurisdictions, groups and rates.",
+      "Minor: 'when tax recognition and payment discounts need special handling' goes slightly beyond the source wording ('for accurate tax recognition and discount handling'), but it does not misrepresent it."
+    ],
+    "input_hash": "09904584f8bffc1084ad10944d3e64532f6abd7c7e8f0f2a8636d55f1fa0c7d1",
+    "cost_usd": 0.0246192
+  }
+}

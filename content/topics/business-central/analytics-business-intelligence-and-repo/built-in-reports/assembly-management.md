@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/assembly-management
 type: topic
 title: Assembly management
-summary: "Learn section Analytics, business intelligence, and reporting > Built-in reports > Assembly management: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Assembly management in Business Central covers built-in assembly reports and analytics, and how to work with assembly BOMs. It answers questions about viewing current and past assembly activity, and about defining, editing and costing parent items built from components and resources.
 tier: official
 language: en
 system: assembly
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b2625c6724cba7a852b4085f11321bec076458124e9143d73357d06be41f216e
+  prompts:
+    hub-topic: 1
+  input_hash: 16f37169c21b53dd22e66681c96371601f3de9c8e87258bdb1a12b7f5e1f326f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/assembly-reports
@@ -89,14 +90,30 @@ bc_forms:
   - 5872
   - 5874
 member_hash: b2625c6724cba7a852b4085f11321bec076458124e9143d73357d06be41f216e
-narrative: none
+narrative: generated
 ---
 
 # Assembly management
 
-> Learn section Analytics, business intelligence, and reporting > Built-in reports > Assembly management: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Assembly management in Business Central covers built-in assembly reports and analytics, and how to work with assembly BOMs. It answers questions about viewing current and past assembly activity, and about defining, editing and costing parent items built from components and resources.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Assembly management · tier official · system assembly · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Assembly management · tier official · system assembly · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section sits under built-in reports and has two pages. One describes assembly reports and analytics, which give insights and statistics about current and past assembly activities for production and business professionals. The other explains assembly BOMs, which define the structure of a parent item assembled from components and resources.
+
+Start with the assembly BOM page if you need to set up or maintain the structure of assembled items, including multi-level BOMs and cost calculation. Use the reports and analytics page when you want to review assembly activity and item availability.
+
+## Key points
+
+- Assembly reports and analytics give insights and statistics on current and past assembly activities.
+- The reports page touches on item availability and assembly BOMs as part of assembly reporting.
+- Assembly BOMs define a parent item made from components and resources.
+- Multi-level BOMs are supported.
+- Assembly BOMs support standard cost calculation.
+- The BOM page covers creating and editing BOMs and managing components.
+- Where-used tracking shows where a component is used.
 
 ## Learn pages
 

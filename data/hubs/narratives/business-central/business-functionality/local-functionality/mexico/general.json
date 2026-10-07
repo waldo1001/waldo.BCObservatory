@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/mexico/general",
+  "input_hash": "9b770bb79c45a080d91edc7f7a86b234ff4e0e1f16ba00eb1845160581681d6d",
+  "summary": "Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks.",
+  "overview": "This section collects four pages for Mexican finance work. One covers compliance with Mexico's electronic accounting regulations. Two are short how-to pages for the Mexican version, on creating deposits and printing troubleshooting reports. The fourth covers paying vendors by exporting payment files.\n\nStart with the electronic accounting page if you need to report to the Mexican Tax Authority (SAT). It describes exporting the chart of accounts, trial balance and journal transactions as XML through the Export Elect. Accounting functionality. The deposit and troubleshooting pages are for day-to-day finance tasks and diagnosing finance issues. The payment page applies when you pay vendors through a bank using exported payment information.",
+  "key_points": [
+    "Export Elect. Accounting produces XML files of the chart of accounts, trial balance and journal transactions for the SAT.",
+    "Electronic accounting setup involves a SAT account code, bank account setup and payment method coding.",
+    "Deposits can be created in the Mexican version of Business Central.",
+    "Troubleshooting reports can be printed in the Mexican version to diagnose finance issues.",
+    "Vendor payments can be exported in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.",
+    "Payment export includes payment file export, bank data conversion, credit transfer registration tracking and payment export history."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:24.226Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010008999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:27.247Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview describes all four pages as 'for Mexican finance work', but the payment page is titled 'Make payments with AMC banking (US) or SEPA credit transfer (EU)' and is not Mexico-specific. Minor framing issue.",
+      "Key point 'Electronic accounting setup involves a SAT account code, bank account setup and payment method coding' infers a setup role from a feature list. This is acceptable but slightly interpretive."
+    ],
+    "input_hash": "9b770bb79c45a080d91edc7f7a86b234ff4e0e1f16ba00eb1845160581681d6d",
+    "cost_usd": 0.027723200000000003
+  }
+}

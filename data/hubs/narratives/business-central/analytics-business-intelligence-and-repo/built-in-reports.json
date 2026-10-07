@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/built-in-reports",
+  "input_hash": "dfd203a07d0e9e5cab370bd27c756e091376935e4847f546f67b5525f94048f9",
+  "summary": "Built-in reports in Business Central across finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service management. It answers which reports exist for each area, how to reach them through the Report Explorer, and how to analyze activity. It also covers the Notification Email report and report generation telemetry.",
+  "overview": "This section collects the standard reports and analytical tasks that ship with Business Central, grouped by business area. The Report overview page is the navigation hub to financial, sales, purchasing, inventory, project, service and other reports, and it points to the Report Explorer and analysis mode. The Sales report overview adds links to ad-hoc analysis, Power BI integration and sales analytics.\n\nPages directly in this hub cover purchasing reports and analytical tasks, fixed assets reports (depreciation, acquisition, disposal, gains and losses, book values, insurance and maintenance), the Notification Email report, and Report Generation Telemetry. Subtopics go deeper into Finance, Project, Assembly management, Manufacture and Service management.\n\nStart with Report overview to find the right area. Then open the matching subtopic or page. Use Report Generation Telemetry if you need to monitor report performance rather than business data.",
+  "key_points": [
+    "Report overview is the entry point, organizing built-in reports by business area and pointing to the Report Explorer and analysis mode.",
+    "Finance covers report categories, payables and receivables analytics, financial reports built from account categories, and sustainability reports.",
+    "Fixed assets reports analyze depreciation, acquisition, disposal, gains and losses, accumulated depreciation, book values and asset inventories, with insurance and maintenance reports.",
+    "Purchasing reports and analytical tasks give insight into current and past purchase activity, including item availability and purchase date calculation.",
+    "Sales report overview links to sales reports, ad-hoc analysis, Power BI integration and sales analytics.",
+    "Project, assembly, manufacture and service subtopics cover WIP posting, assembly BOMs, load versus capacity on work and machine centers, and service resource allocation and statistics.",
+    "The Notification Email report builds the email body sent to users registered for notifications, using the Notification Entry for recipient and document links.",
+    "Report Generation Telemetry tracks successful, failed and canceled runs, including dataset generation time, rendering time, SQL execution, document format and layout type."
+  ],
+  "members_used": 6,
+  "subtopics_used": 5,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:43.723Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015841
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:49.594Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the summary leaves out inventory reports, even though the Report overview page lists inventory among its business areas.",
+      "Minor: the purchasing key point names item availability and purchase date calculation as features without saying how they relate to the reports. The page summary does not explain this either, so the wording is acceptable."
+    ],
+    "input_hash": "dfd203a07d0e9e5cab370bd27c756e091376935e4847f546f67b5525f94048f9",
+    "cost_usd": 0.0349352
+  }
+}

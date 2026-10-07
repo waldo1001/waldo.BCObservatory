@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extensibility/using-events
 type: topic
 title: Using events
-summary: "Learn section Development > Extensibility > Using events: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Events in Business Central AL development: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior through events."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
+  prompts:
+    hub-topic: 1
+  input_hash: a75e4ecb4c5bc2947eda2302da81be5f412efddcb2cd379eefd69d3be23a8d1c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events
@@ -123,14 +124,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
-narrative: none
+narrative: generated
 ---
 
 # Using events
 
-> Learn section Development > Extensibility > Using events: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Events in Business Central AL development: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior through events.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Using events · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Using events · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+Events let components communicate in a loosely coupled way. A publisher defines an event, code raises it by calling the publisher method, and subscribers react with custom logic. The section covers the full cycle: the kinds of events (business, integration, global, database and page trigger events), how to publish them, how to raise them, and how to subscribe with the EventSubscriber attribute.
+
+Start with Event types and Event example for the concepts, then Publishing Events, Raising Events and Subscribing to events for the mechanics. Events discoverability shows how to use the Event Recorder to find which events to subscribe to. Isolated events explain error handling when a subscriber fails.
+
+Further pages cover related tasks: deprecating external business events so integrations can move to replacements, showing nonintrusive UI messages with the Notification data type, and a walkthrough that implements new workflow events and responses.
+
+## Key points
+
+- Event types include business events, integration events, global events, and database and page trigger events.
+- Publisher methods are created in AL objects such as codeunits, pages and tables, using the BusinessEvent or IntegrationEvent attribute.
+- Subscribers use the EventSubscriber attribute; the EventSubscriberInstance property is also covered.
+- Event Recorder captures events while a scenario runs and generates AL snippets for subscribing.
+- Isolated events let the publisher continue if a subscriber fails; the subscriber's errors are rolled back without affecting others.
+- External business events are deprecated by marking them obsolete pending first and removing them in a later version (page lists version 27.0), using the Obsolete and ExternalBusinessEvent attributes and a DisplayName prefix.
+- Notifications use the Notification data type with Message, Scope, Send, AddAction, SetData and GetData methods in the web client.
+- A walkthrough shows how to add new workflow events and responses by registering them through event subscribers.
 
 ## Learn pages
 

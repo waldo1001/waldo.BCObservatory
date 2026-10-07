@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics
 type: topic
 title: Inventory analytics
-summary: "Learn section Business functionality > Inventory > Inventory analytics: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about stock levels, valuation, supply and demand, item analysis, and which tool fits which role.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:49.998Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b2c40b9702752dd2381c274a9698ba9779507174447929d3dd6a66d362a686f1
+  prompts:
+    hub-topic: 1
+  input_hash: fdb0bc29d81d2edcff4fd1753ebfbffd46c8bf8a1f6909e9370ea48c322f94ef
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -388,14 +389,32 @@ bc_forms:
   - 99001048
   - 990003804
 member_hash: b2c40b9702752dd2381c274a9698ba9779507174447929d3dd6a66d362a686f1
-narrative: none
+narrative: generated
 ---
 
 # Inventory analytics
 
-> Learn section Business functionality > Inventory > Inventory analytics: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about stock levels, valuation, supply and demand, item analysis, and which tool fits which role.
 
-Path: [Business functionality](../../business-functionality.md) > [Inventory](../inventory.md) > Inventory analytics · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Inventory](../inventory.md) > Inventory analytics · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+Inventory analytics groups the ways to analyze inventory data in Business Central. The hub's own pages give an introduction to the options (Power BI reports, financial reports, dimensions, ad-hoc analysis and built-in reports) and a guide to ad-hoc analysis. Ad-hoc analysis uses the Data Analysis feature on list pages to look at item ledger entries without running a report.
+
+Subtopics go deeper. The Power BI inventory app covers reports, KPIs, measures and the semantic model. The Power BI inventory valuation app covers inventory value by overview, item and location. Built-in inventory and warehouse reports are the largest group, with 31 pages. Two legacy reports are marked for removal.
+
+Start with the Inventory analytics introduction to see which tools help different roles monitor KPIs and trends. Use the Power BI apps for KPIs and trends, built-in reports for specific inventory and warehouse questions, and ad-hoc analysis to analyze item ledger entries directly from list pages.
+
+## Key points
+
+- Ad-hoc analysis uses Data Analysis on list pages to analyze item ledger entries without running reports.
+- Ad-hoc scenarios include on-hand inventory, expiring stock, returned items, throughput, and movements.
+- The Power BI inventory app (16 pages) covers stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
+- The Power BI inventory valuation app (5 pages) shows inventory value by overview, item and location, with balance and variance measures.
+- Built-in reports (31 pages) cover availability and planning, valuation and costs, sales and purchase analysis, item analysis, warehouse bin and shipment reports, and barcode/QR labels.
+- Item analysis reports include ABC, aging, expiration, and dimensions.
+- Inventory Availability Plan and Item Age Composition - Quantity are legacy reports that will be removed.
 
 ## Subtopics
 

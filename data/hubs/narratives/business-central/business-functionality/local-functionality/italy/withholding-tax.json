@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/italy/withholding-tax",
+  "input_hash": "2814579f83083019ae1eee165c5fdcd9fc6c87fef9e5facbb2ccb23d849e65ce",
+  "summary": "Withholding tax in the Italian version of Business Central: how to set it up for vendor purchases and third-party services, and how to print the Withholding Taxes reports for amounts payable to the Italian government. It answers setup and reporting questions.",
+  "overview": "Withholding tax in the Italian version applies to third-party services and vendor purchases. The tax is calculated when the payment is processed, not when the invoice is posted. This section has two pages, one for setup and one for reporting.\n\nStart with \"Set Up Withholding Tax (IT)\". It covers withholding tax codes, vendor withholding setup, tax calculation and payment processing. Once withholding tax is set up and payments are posted, use \"Print withholding tax reports (IT)\" to produce the Withholding Taxes report. The report lists the withholding taxes payable to the Italian government.",
+  "key_points": [
+    "Withholding tax is calculated at payment, not at invoice posting.",
+    "It applies to third-party services and vendor purchases in the Italian version.",
+    "Setup involves withholding tax codes and vendor withholding setup.",
+    "The Withholding Taxes report lists the taxes payable to the Italian government.",
+    "The report is run by Reference Month and Reference Year.",
+    "A Print Details option sets the level of detail in the report.",
+    "A Final Printing checkbox marks the print as final."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:49.419Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007941
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area
 type: topic
 title: Telemetry by area
-summary: "Learn section Administration > Monitor and analyze telemetry > Telemetry by area: 61 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Telemetry by area is a reference set of pages, one per telemetry area in Business Central. Each lists the events, custom dimensions and sample KQL queries for Application Insights. It answers questions about what is logged, which event ID to query, and how to diagnose problems in areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:51.738Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c86e830d946d5c66be423238373d8b30efeed709899c3779960807433a93a132
+  prompts:
+    hub-topic: 1
+  input_hash: 0d7c4a309932220592821d04fd539e73b17a91bd61ddbcd184dadf561299fd88
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace
@@ -383,14 +384,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: c86e830d946d5c66be423238373d8b30efeed709899c3779960807433a93a132
-narrative: none
+narrative: generated
 ---
 
 # Telemetry by area
 
-> Learn section Administration > Monitor and analyze telemetry > Telemetry by area: 61 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Telemetry by area is a reference set of pages, one per telemetry area in Business Central. Each lists the events, custom dimensions and sample KQL queries for Application Insights. It answers questions about what is logged, which event ID to query, and how to diagnose problems in areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP.
 
-Path: [Administration](../../administration.md) > [Monitor and analyze telemetry](../monitor-and-analyze-telemetry.md) > Telemetry by area · tier official · system platform · no narrative yet
+Path: [Administration](../../administration.md) > [Monitor and analyze telemetry](../monitor-and-analyze-telemetry.md) > Telemetry by area · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section documents the telemetry Business Central emits to Application Insights, organized by functional area. Each page covers one area, for example job queues, extension lifecycle, database locks, web service requests, permissions, report generation, environment lifecycle or Marketplace validation. The pages describe the events, their event IDs where given, the custom dimensions, and often KQL samples for analysis and alerts.
+
+The areas group loosely into: performance and database (SQL query traces, long running operations, wait statistics, deadlocks, lock timeouts), extension and app lifecycle (publishing, updates, upload and Marketplace validation), security and audit (permission changes, field monitoring, changelog, authorization), integration (web service requests, outgoing requests, Azure Functions, email), and newer AI areas (agent lifecycle, MCP configuration, MCP tool calls, AI consumption).
+
+Start with the Telemetry area overview page, which lists the available areas and where they are logged (traces or pageViews tables). Then open the page for your area and check its version notes, since many areas apply only from a given release wave or version.
+
+## Key points
+
+- The Telemetry area overview page lists all areas and whether they log to the traces or pageViews table in Application Insights.
+- Performance areas include SQL query trace (RT0009), long running AL methods (RT0018), long running SQL queries (over 750 ms), wait statistics, deadlocks (RT0028) and lock timeouts (RT0012, RT0013).
+- Deadlock and lock timeout telemetry depend on monitoring settings such as EnableDeadlockMonitoring and EnableLockTimeoutMonitoring.
+- Error and permission areas include the Error method trace (RT0030) and permission error trace (RT0031), with alStackTrace and error message dimensions.
+- AI-related areas include agent lifecycle (LC0066, LC0067, LC0068), MCP configuration, MCP tool calls (RT0054) and AI consumption of Copilot Credits (RT0055), mostly from 2026 release wave 1 (version 28.0).
+- Lifecycle areas cover environments, companies, extensions, configuration packages, job queues, task scheduler, profiles, report layouts, financial reports and retention policies.
+- Developers can log custom telemetry with the Feature telemetry codeunit (LogUsage, LogError, LogUptake).
+- Partner-facing validation telemetry covers environment validation, extension upload (PTE) validation, Marketplace submission validation and AppSource breaking changes validation.
 
 ## Learn pages
 

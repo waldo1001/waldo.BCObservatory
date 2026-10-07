@@ -2,19 +2,20 @@
 id: topic/dev-itpro/deprecated-features
 type: topic
 title: Deprecated features
-summary: "Learn section Deprecated features: 29 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:17.199Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 05acf0c77b83d8d1206aafe40d72ecd9fac9379018a6a4bee1cebe6d9ad72a60
+  prompts:
+    hub-topic: 1
+  input_hash: 55885de2d5ced3af13f01348356ed8c905adbe2f9c3e030be7f1b37d59a90882
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-at
@@ -252,14 +253,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 05acf0c77b83d8d1206aafe40d72ecd9fac9379018a6a4bee1cebe6d9ad72a60
-narrative: none
+narrative: generated
 ---
 
 # Deprecated features
 
-> Learn section Deprecated features: 29 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.
 
-Path: Deprecated features · tier official · system none · no narrative yet
+Path: Deprecated features · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section lists features that Microsoft has deprecated or removed in Business Central. The pages of this section cover the client, server and database platform, including OData and SOAP endpoints, PowerShell 5.0, permission sets, authentication methods, the Windows Client and ADAL. It also covers BcContainerHelper and the rules for how long code stays obsolete before removal.
+
+Subtopics split the material by area: Application (W1 features and objects deleted in 2025 release wave 1, v26), Local functionality (17 pages), Deprecated tables (with mappings to new table names), and Deprecating code (obsolete attributes, preprocessor symbols, and the 'with' statement deprecation).
+
+Start with the platform page for a timeline by release wave. Use the Application and Deprecated tables subtopics when rewriting extension code. Read the code deprecation timeline article to plan around the 12-month minimum between marking code obsolete and removing it.
+
+## Key points
+
+- The platform timeline covers 2021 to 2027 and lists OData endpoints on Microsoft pages, SOAP endpoints on UI pages, PowerShell 5.0 modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.
+- ADAL/Azure AD Graph is replaced by MSAL/Microsoft Graph.
+- The Windows Client is removed in favor of web, desktop and mobile apps. The Excel COM add-in and programmatic printing, which depend on it, go with it.
+- User personalizations and profile configurations are replaced by new AL tooling.
+- BcContainerHelper is deprecated, with official support ending October 1, 2027. AL-Go for GitHub is the replacement.
+- Microsoft allows at least 12 months between marking code obsolete and removing it, using ObsoleteState, ObsoleteTag, the Obsolete attribute and AppSourceCop.
+- Deprecated tables pages give mappings to new table names for code rewrites, and list deprecated tables in the India version for 2021 release wave 2.
+- Application pages include objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26).
 
 ## Subtopics
 

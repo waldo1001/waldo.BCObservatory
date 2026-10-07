@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/set-up-data-exchange",
+  "input_hash": "a8ccd5a118b395eaadbc47539a47e60ba66abc1f4748e6e56a0022d2544504b7",
+  "summary": "Setting up data exchange in Business Central: document exchange service (Tradeshift), electronic document sending and receiving with PEPPOL, the general data exchange framework, and incoming documents setup. It answers setup questions for exchanging files and documents with partners, banks and OCR services.",
+  "overview": "This section covers the configuration needed before Business Central can exchange data electronically. It has four pages and no subtopics. They cover the document exchange service, electronic sending and receiving of documents, the wider data exchange framework, and incoming documents.\n\nStart with \"Set up data exchange to send and receive files\". It gives the framework view: document exchange service, OCR service, currency exchange rates, SEPA credit transfer, SEPA direct debit and bank statement service. From there, go to the page for your scenario. Use the document exchange service page for Tradeshift or similar services. Use the electronic document page for PEPPOL invoices and credit memos. Use the incoming documents page for processing external documents.\n\nThe PEPPOL page applies to the period before 2023 release wave 2, so check it against your version.",
+  "key_points": [
+    "The data exchange framework supports electronic document exchange, bank file conversion, and data imports and exports.",
+    "The document exchange service lets you exchange sales and purchase documents with trading partners via Tradeshift or other services.",
+    "Document exchange setup involves the Business Central Integration app, sandbox mode and token renewal.",
+    "Electronic document sending and receiving uses the PEPPOL format for invoices and credit memos, as described for the period before 2023 release wave 2.",
+    "PEPPOL setup touches company information, VAT posting setup, item configuration and unit of measure setup.",
+    "Incoming documents setup covers journal template settings, approval workflow and OCR service integration.",
+    "The framework page also lists currency exchange rates, SEPA credit transfer, SEPA direct debit and bank statement service."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:10.785Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011093
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:18.512Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the electronic document sending and receiving page also lists OCR service as a feature; the narrative only ties OCR to the incoming documents and framework pages.",
+      "Minor: the advice to start with the framework page is the writer's own judgment rather than something the sources state, but it is harmless."
+    ],
+    "input_hash": "a8ccd5a118b395eaadbc47539a47e60ba66abc1f4748e6e56a0022d2544504b7",
+    "cost_usd": 0.0289672
+  }
+}

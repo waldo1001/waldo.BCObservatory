@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration
 type: topic
 title: Set up cloud migration
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Business Central on-premises > Set up cloud migration: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Setting up cloud migration from Business Central on-premises to Business Central online: running Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention. It answers how to configure and adjust a migration."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:45.872Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 08adf00c4cd019fa8d5fff8514c6681f2de215ea78b4744e6e5d7a0a4370e9ae
+  prompts:
+    hub-topic: 1
+  input_hash: 9dbbfe2868beacd69775b0b0ed99d424fa7b8e85b2bd32c6f9acb32e854a798d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication
@@ -83,14 +84,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 08adf00c4cd019fa8d5fff8514c6681f2de215ea78b4744e6e5d7a0a4370e9ae
-narrative: none
+narrative: generated
 ---
 
 # Set up cloud migration
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Business Central on-premises > Set up cloud migration: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Setting up cloud migration from Business Central on-premises to Business Central online: running Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention. It answers how to configure and adjust a migration.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Set up cloud migration · tier official · system administration · no narrative yet
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Set up cloud migration · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers the setup work needed before and during a cloud migration from Business Central on-premises to online. Setup establishes the connection and pipelines between the two databases, using an integration runtime and Azure Data Factory preparation and replication pipelines, with compatibility checks and table mapping.
+
+Start with the overview page to understand the components, then follow Run Cloud Migration Setup, which configures the connection and supports delegated administrators and migrating multiple companies. After that, the other pages cover optional adjustments: changing which tables are replicated and whether existing online data is preserved, defining table mappings, and retaining user permissions.
+
+## Key points
+
+- Cloud migration setup creates the connection and pipeline between on-premises and online databases using integration runtime and Azure Data Factory pipelines.
+- The preparation pipeline and replication pipeline, plus compatibility checks, are part of the setup described in the overview.
+- Run Cloud Migration Setup supports delegated administrator approval and selecting multiple companies to migrate.
+- Replication settings can be changed to choose which tables are migrated and whether to preserve existing cloud data.
+- Table mappings let you rename tables and move fields to table extensions; they can be imported and exported.
+- Mapping development uses the ReplicateData property and the OnInsertDefaultTableMappings event.
+- Permissions can be retained via the Cloud Migration Management page (enable or disable removing permissions from users) or a custom extension.
+- The OnBeforeResetUsersToIntelligentCloudPermissions event and the Intelligent Cloud permission set relate to permission handling.
 
 ## Learn pages
 

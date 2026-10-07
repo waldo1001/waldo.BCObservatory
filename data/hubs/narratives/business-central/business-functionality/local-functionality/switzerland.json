@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland",
+  "input_hash": "011a1d90672abc9991cebdd3d8ee7dc414a4d0416eca0f1e526090cd902fae73",
+  "summary": "Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.",
+  "overview": "The Switzerland section describes features added or changed in the Swiss version of Business Central. An overview page lists the main areas: Swiss VAT statements, QR-bill management, LSV and ESR payment methods, delivery reminders, Swiss general ledger accounts and inventory management.\n\nThe pages are grouped into six subtopics. Banking & Payments is the largest, with 12 pages on ESR, LSV+ direct debit, QR-bills, SEPA credit transfers, bank clearing number import and the Vendor Payments List report. Purchasing has 8 pages on delivery reminders. Core finance has 5 pages and VAT has 4. Inventory and General have 2 pages each.\n\nStart with the overview page to see what applies to your setup. Then go to the subtopic that matches your task: VAT for reporting and rate changes, Banking & Payments for Swiss payment formats, and Core finance for general ledger behavior.",
+  "key_points": [
+    "VAT: create and print Swiss VAT statements (current and older version), adjust VAT amounts and exchange rates, and handle VAT rate changes.",
+    "Banking & Payments: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, covering collecting, exporting, importing, posting and printing.",
+    "Banking also includes bank clearing number import and the Vendor Payments List report.",
+    "Core finance: general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment and the G/L Setup Information report.",
+    "Purchasing: delivery reminders to vendors, including setup, code assignment, manual creation, batch generation, test reports and issuing.",
+    "Inventory: print inventory picking lists from sales orders, and Swiss inventory behavior such as default location codes and multiple shipments per invoice.",
+    "General: import Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents (posting descriptions, subtotals, invoice rounding, shipment printing)."
+  ],
+  "members_used": 1,
+  "subtopics_used": 6,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:46.234Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013995
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:49.727Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says the section describes features 'added or changed' in the Swiss version; the source only says the features are specific to Swiss operations. Minor inference, acceptable.",
+      "Overview advice to start with the overview page 'to see what applies to your setup' is the narrative's own guidance; the sources do not contradict it.",
+      "Inventory key point leaves out the inventory reporting listed in the subtopic summary. Minor omission."
+    ],
+    "input_hash": "011a1d90672abc9991cebdd3d8ee7dc414a4d0416eca0f1e526090cd902fae73",
+    "cost_usd": 0.032835199999999995
+  }
+}

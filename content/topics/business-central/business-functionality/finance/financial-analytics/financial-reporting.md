@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/financial-reporting
 type: topic
 title: Financial reporting
-summary: "Learn section Business functionality > Finance > Financial analytics > Financial reporting: 20 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Financial reporting in Business Central covers building, running, auditing and troubleshooting financial reports based on row and column definitions, account categories, dimensions and budgets. It answers questions about designing reports, Excel and PDF output, telemetry, KPI web services and balancing reports to the general ledger.
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:20.300Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 34b966ca42180bb6ff0521f53a7f3fc90c0ee4d675dfb2f7ec1f9bee47682086
+  prompts:
+    hub-topic: 1
+  input_hash: a7eacfc7e3c7f5ad853becdf4f99ba0733a931b3ecbdded0c44015bcba05e100
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension
@@ -247,14 +248,29 @@ bc_forms:
   - 9371
   - 9372
 member_hash: 34b966ca42180bb6ff0521f53a7f3fc90c0ee4d675dfb2f7ec1f9bee47682086
-narrative: none
+narrative: generated
 ---
 
 # Financial reporting
 
-> Learn section Business functionality > Finance > Financial analytics > Financial reporting: 20 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Financial reporting in Business Central covers building, running, auditing and troubleshooting financial reports based on row and column definitions, account categories, dimensions and budgets. It answers questions about designing reports, Excel and PDF output, telemetry, KPI web services and balancing reports to the general ledger.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+Financial reporting lets you build reports from the general ledger using row definitions, column definitions and G/L account categories. You can start from out-of-box reports, copy existing ones, or design your own. Dimensions, analysis views, G/L budgets and statistical accounts extend what a report can show.\n\nA suggested reading order: start with \"Primary capabilities of financial reporting\", then read about account categories and report selection. Next, use the row and column definition pages and the design and build guides. Walkthroughs cover Trial Balance, Balance Sheet, Income Statement and cash flow forecast reports. After that, the pages on viewing, Excel integration, scheduling and KPI web services cover output and distribution.\n\nOther pages cover operations. Auditing uses the change log, telemetry, permission sets and notifications. One telemetry page covers lifecycle events for row, column and report definitions and includes KQL samples. The other covers usage when reports are run on-screen or from the request page. The troubleshooting page and the FAQ explain how to balance reports to the general ledger and test report designs.
+
+## Key points
+
+- Reports are built from row definitions (formulas, subtotals, account categories, cash flow accounts, cost types) and column definitions (net change, balance, budget comparison, period formulas, percentages).
+- Column definitions support up to 15 columns in PDF exports.
+- Account categories and subcategories map G/L accounts to produce balance sheet and income statement reports; report selection can be changed in General Ledger Setup.
+- Dimension perspectives and analysis views allow analysis by some or all values of a dimension, with PDF and Excel output.
+- Reports can be viewed on-screen with drill-through, exported to PDF or Excel, printed, and scheduled with email delivery.
+- Excel integration includes templates, layouts, a default layout and data updates.
+- Auditing combines the change log, telemetry, permission sets and change notifications; the auditing page is tagged 2026 release wave 2.
+- Lifecycle telemetry tracks creating, modifying, copying, exporting, importing and deleting definitions, with KQL samples; usage telemetry tracks report runs on-screen or from the request page.
 
 ## Learn pages
 

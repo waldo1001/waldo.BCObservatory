@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/extensibility/extending-the-base-application/examples",
+  "input_hash": "44f7b981b46ef98d9d91632b0a8575c1f798c59a22346da73a4636be00a6b028",
+  "summary": "Worked examples of extending the Business Central base application: dates, currency exchange rate adjustments, templates, document sharing, email, error messages, invoice posting, item charges, pricing, Shopify, Data Archive and e-documents. Use it to find which events, interfaces, enums and codeunits to use for a given extension scenario.",
+  "overview": "This section collects example-driven pages on extending specific areas of the base application. Each page covers one area and names the extension points to use, such as table and page extensions, event subscribers, interfaces, enums and codeunits. There are no subtopics, so all content sits on these pages.\n\nThe pages fall into groups. Finance and posting: currency exchange rate adjustments, G/L entry aggregation on invoice posting, item charge distribution and price calculations. Data and setup: Date virtual table replacements, customer, vendor and item templates, and the Data Archive extension. Communication and integration: email, document sharing with OneDrive, error messages with recommendations, the Shopify Connector and e-documents.\n\nStart with the page that matches your area. Some pages center on implementing interfaces and enums: Invoice Posting, ErrorMessageFix, email connectors, price calculations and e-documents. Others center on subscribing to events, such as OnAfterCalcLine for Date buffer tables and the Item Charge Assignment codeunits. The Data Archive page uses methods on the Data Archive codeunit. The Shopify page describes per-tenant, hybrid and co-development approaches.",
+  "key_points": [
+    "Pages formerly based on the Date virtual table now use buffer tables. Extend them with a table extension on the buffer table and a subscriber to OnAfterCalcLine.",
+    "Currency exchange rate adjustment objects were introduced in 2023 release wave 2. They add preview entries, detailed history and support for regional compliance.",
+    "Customer, vendor and item templates can be extended by adding fields to templates and creating new templates for primary tables.",
+    "Document Sharing and OneDrive for Business extensions use the Document Sharing module of the system application and the Document Service Management codeunit (2022 release waves 1 and 2).",
+    "Email extensions cover scenarios, address book lookup, view policies and connectors, including the Microsoft 365 and Current User connectors.",
+    "Actionable error messages are built by implementing the ErrorMessageFix interface and subscribing to error events.",
+    "G/L entry aggregation on invoice posting is customized by implementing the Invoice Posting interface for sales, purchase and service documents.",
+    "Custom item charge distribution methods, alongside equally, by amount and by weight, are added by subscribing to events in the Item Charge Assignment codeunits."
+  ],
+  "members_used": 12,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:17.851Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020037
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:44.651Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview's last paragraph says interface-based pages are for replacing behavior and event-based pages are for adding to it. None of the page summaries say this. It also leaves out that price calculations are built on interfaces and enums. I rewrote the paragraph to describe the patterns each page uses, without the replace-or-add advice.",
+      "The item charges key point read as if the existing methods (equally, by amount, by weight) are what you extend. The page is about adding custom distribution methods. I reworded it.",
+      "The key points don't cover pricing, Shopify, Data Archive or e-documents. This is acceptable because of the 8-point limit, and the summary and overview already mention these pages."
+    ],
+    "input_hash": "44f7b981b46ef98d9d91632b0a8575c1f798c59a22346da73a4636be00a6b028",
+    "cost_usd": 0.0667512
+  }
+}

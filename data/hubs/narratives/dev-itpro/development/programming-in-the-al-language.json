@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language",
+  "input_hash": "769c684f8fd308b8b8d72e6f53134beba5685ad5a07524026615f855db59eb04",
+  "summary": "Programming in the AL language covers the fundamentals of writing AL code for Business Central: variables, triggers, code reuse, and the subtopics for data, pages, reports, events, security, APIs, telemetry and more. It helps an agent find where to look for AL how-to and syntax questions.",
+  "overview": "This section is the entry point for AL development in Business Central. Its own page, \"Programming in AL\", describes the language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.\n\nThe subtopics split the work by area. Core language pages cover program building blocks (operators, statements, access modifiers, XML comments), language elements, error handling and formatting values. Object-focused areas cover tables and data, pages and the user interface, reports, and events for extending behavior without changing original code.\n\nFurther subtopics cover cross-cutting concerns and integration: security, background processing, APIs, calling external services, telemetry, device capabilities, printer extensions and on-premises .NET. Start with the \"Programming in AL\" page for the basics, then go to the subtopic that matches the object or task at hand.",
+  "key_points": [
+    "The own page covers variable declarations, protected variables, trigger types, code reuse and security patterns.",
+    "Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.",
+    "Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.",
+    "Tables and data covers tables, queries, FlowFields, SIFT and NCCI indexing, DataTransfer, number sequences, and XMLport or Excel import and export.",
+    "Events covers publishing, raising and subscribing, isolated events, and discovery with Event Recorder.",
+    "Background work uses the job queue, page background tasks or the task scheduler, each with documented session limits.",
+    "APIs are built as REST/OData v4 services using API pages (read-write) and API queries (read-only).",
+    "Security covers permission sets, entitlements, Azure Key Vault, Isolated Storage and the SecretText type."
+  ],
+  "members_used": 1,
+  "subtopics_used": 14,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:21.079Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017558999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:13:57.248Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on background work says each mechanism has 'documented session limits'; the source only lists operational limits for background sessions, child sessions and scheduled tasks. A minor stretch.",
+      "Overview opens with 'This section is the entry point'. It is allowed, but leading with the subject would read better.",
+      "Language elements and Calling external services have no summaries, so they are only named. The narrative correctly makes no detailed claims about them."
+    ],
+    "input_hash": "769c684f8fd308b8b8d72e6f53134beba5685ad5a07524026615f855db59eb04",
+    "cost_usd": 0.049876000000000004
+  }
+}

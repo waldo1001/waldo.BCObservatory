@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/web-services/odata",
+  "input_hash": "c9237c0184ca9fea3f08c0d21fadb55fe8d63be33d98603d5f09e9b4ddf8b8d8",
+  "summary": "OData web services in Business Central: how to query, filter, modify and batch data, publish metadata, handle limits, tune performance and troubleshoot errors. It answers questions about URI construction, JSON and AtomPub formats, unbound actions, FlowFilters, containments, associations, paging and error codes.",
+  "overview": "This section covers consuming Business Central data through OData web services. It includes reading data as JSON or AtomPub (V3), getting the EDMX service metadata document, and navigating between published pages with containments and associations. Several pages deal with filtering: filter expressions in OData URIs, general filters for API/OData calls, and FlowFilters for FlowField calculations.\n\nWriting data is covered by the data modification page (POST, PATCH, DELETE on writable pages), the OData V4 unbound action guide, and the transactional $batch page, which runs inner requests in one transaction. Performance guidance, the TopNumberOfRows and Max Page Size page, and the known limitations page help you avoid surprises at scale.\n\nStart with the metadata and JSON pages to learn the URI patterns. Then read the filtering and data modification pages. Check Known OData Limitations and the troubleshooting page before you build a client, or when a call fails.",
+  "key_points": [
+    "Data can be returned as JSON (with JSON-P callbacks) or, for OData V3, as AtomPub documents with keyed entries and filtered feeds.",
+    "The service metadata document is EDMX. It defines the entity data model and can be used by tools such as LINQ.",
+    "Writes use POST, PATCH and DELETE on writable pages. The InsertAllowed, ModifyAllowed and DeleteAllowed properties and user permissions apply, and triggers run by operation type.",
+    "OData V4 unbound actions expose AL procedures through web service registration and are not bound to a specific entity.",
+    "Transactional $batch requests use the Isolation: snapshot header. If any inner request fails, all changes are reverted.",
+    "Performance tips: Data-Access-Intent ReadOnly, batching, $select, $filter, $top and server-driven paging.",
+    "For queries with TopNumberOfRows, set Max Page Size (odata.maxpagesize) higher than that value to get correct result counts.",
+    "Known limitations include no PATCH on collection properties, no OR filters on distinct fields, no lambda operators and no deep insert or deep patching."
+  ],
+  "members_used": 14,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:49.112Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019513000000000003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:00.498Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: no key point covers troubleshooting (HTTP status codes, OData error codes, telemetry, mapping AL runtime exceptions to OData errors), though the summary and overview mention it.",
+      "Minor: the suggested reading order in the overview is the writer's own advice and is not in the sources, but it is reasonable."
+    ],
+    "input_hash": "c9237c0184ca9fea3f08c0d21fadb55fe8d63be33d98603d5f09e9b4ddf8b8d8",
+    "cost_usd": 0.0510752
+  }
+}

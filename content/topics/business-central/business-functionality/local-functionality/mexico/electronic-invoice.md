@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/mexico/electronic-invoice
 type: topic
 title: Electronic invoice
-summary: "Learn section Business functionality > Local functionality > Mexico > Electronic invoice: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 500de087efa04ad264f1a6ad9a7985049abb0c762226c4496b79c200a4026653
+  prompts:
+    hub-topic: 1
+  input_hash: 89f2fcdcd32f6489e9fa6bc3e22cf8ad461bdd86d94d1b2fefcd8a263c28093f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders
@@ -106,14 +107,33 @@ bc_forms:
   - 27043
   - 27044
 member_hash: 500de087efa04ad264f1a6ad9a7985049abb0c762226c4496b79c200a4026653
-narrative: none
+narrative: generated
 ---
 
 # Electronic invoice
 
-> Learn section Business functionality > Local functionality > Mexico > Electronic invoice: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Electronic invoice · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Electronic invoice · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section covers how Business Central meets Mexican tax authority requirements for electronic documents. Invoices are produced as CFDI XML files, digitally signed with a SAT certificate and stamped through a PAC (authorized certification provider) web service.
+
+The pages follow the order of work. The "Electronic invoicing - Mexico" page gives the overview. "Set Up Electronic Invoicing [MX]" covers company information, general ledger, customer and vendor tax IDs, locations, and CFDI field mappings. "Set Up PAC Web Services" covers certificate upload and web service details. "Generate electronic invoices [MX]" covers day-to-day creation, stamping, and sending. The Carta de Porte page covers shipping documents.
+
+Start with the overview, then do the electronic invoicing setup and the PAC setup before you generate any documents. Go to the Carta de Porte page only if you ship goods and need compliant packing slips or transfer orders.
+
+## Key points
+
+- Invoices are generated and sent as CFDI XML files, digitally signed and carrying a QR code.
+- Setup needs a SAT certificate, PAC web services, and company information. Multiple SAT certificates are supported.
+- Setup also covers general ledger, customer and vendor tax IDs, locations, CFDI field mappings, and the option to include a PDF report.
+- PAC web service setup includes certificate upload and separate test and production environments. It enables digital stamp requests and document cancellation.
+- Invoice generation covers sales and service documents, CFDI digital stamps, XML export, and payment stamping.
+- Foreign trade invoices use the Comercio Exterior Complement, which needs its own setup.
+- Carta de Porte packing slips and transfer orders can be printed and sent as signed CFDI files. This is documented for version 24.4.
+- Carta de Porte setup includes SCT permission, vehicle configuration, item classification, hazardous material, packaging type, and custom transit number.
 
 ## Learn pages
 

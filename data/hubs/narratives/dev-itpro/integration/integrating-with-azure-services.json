@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-azure-services",
+  "input_hash": "f971039dd772c6cfc36a6942f693022cf727158488a16b774e8a91b67f163ee4",
+  "summary": "Integrating Business Central with Azure services: Key Vault for extension secrets, Azure Functions calls, and telemetry in Application Insights. It answers questions about setting up key vaults, monitoring Azure Function and key vault secret telemetry, and enabling, analyzing and alerting on telemetry.",
+  "overview": "This section describes how Business Central works with Azure services. The landing page lists the services involved: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.\n\nThe detailed pages cover three areas. The Azure Key Vaults page explains how extensions that call external web services store secrets securely, and how to configure the Business Central service to reach the vaults in online and on-premises deployments. The Azure Function telemetry page and the app key vault secret trace telemetry page help you diagnose calls and secret retrieval. The Monitoring and Analyzing Telemetry page explains how to turn telemetry on and work with the data.\n\nStart with the overview page to see which services are supported. Then read the Key Vault page if you are handling secrets, or the monitoring page if you need to set up telemetry before using the two telemetry reference pages.",
+  "key_points": [
+    "Supported Azure services listed: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.",
+    "Azure Key Vault stores secrets for extensions that call external web services, with setup for online and on-premises deployments.",
+    "Key vault features include multi-key vault support, access control, publisher validation and telemetry monitoring.",
+    "App key vault secret trace telemetry covers initialization and secret retrieval, with success and failure tracking for diagnostics.",
+    "Azure Function integration telemetry tracks success and failure of calls from Business Central made through the Azure Function module, including requests and authorization.",
+    "Telemetry can be enabled at environment level and app level.",
+    "Telemetry data can be viewed in Power BI, analyzed with KQL queries, and used to set up alerts.",
+    "The monitoring overview mentions custom telemetry and references 2020 release wave 2."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:46.553Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012923
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:06.293Z",
+    "verdict": "approve",
+    "issues": [
+      "The last key point says the monitoring page references 2020 release wave 2 but not what that release relates to. The source doesn't say either, so it's accurate but not very useful.",
+      "The landing page lists Blob Storage, File Services, Virtual Networks and Azure OpenAI Service with little detail. The narrative only lists them and makes no further claims, which is fine."
+    ],
+    "input_hash": "f971039dd772c6cfc36a6942f693022cf727158488a16b774e8a91b67f163ee4",
+    "cost_usd": 0.0382632
+  }
+}

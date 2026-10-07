@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
 type: topic
 title: Power BI apps for Business Central
-summary: "Power BI apps for Business Central: how to install the connector and template apps, configure fiscal, standard or week-based calendars, use multiple languages, and which semantic models and KPIs exist per functional area. Also answers FAQ items on licensing, refresh and dimension data."
+summary: "Power BI apps for Business Central: how to install the connector and template apps, set up standard, fiscal, or week-based calendars, and use the semantic models and KPIs by functional area. Also covers multi-language use, back links to source documents, and FAQ topics such as licensing and refresh."
 tier: official
 language: en
 system: reporting
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T02:21:00.693Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f25aff66fb6cf759d7ce255634405ad573924586713b1840cd39eec867174d66
+  input_hash: 71452037a9fd0919b004c5ee2103e65d8700ecf75b25d0fcdce549765462f90b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-configure-fiscal-calendar
@@ -116,28 +116,28 @@ narrative: generated
 
 # Power BI apps for Business Central
 
-> Power BI apps for Business Central: how to install the connector and template apps, configure fiscal, standard or week-based calendars, use multiple languages, and which semantic models and KPIs exist per functional area. Also answers FAQ items on licensing, refresh and dimension data.
+> Power BI apps for Business Central: how to install the connector and template apps, set up standard, fiscal, or week-based calendars, and use the semantic models and KPIs by functional area. Also covers multi-language use, back links to source documents, and FAQ topics such as licensing and refresh.
 
 Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI apps for Business Central · tier official · system reporting · narrative reviewed by Opus
 
 ## Overview
 
-Power BI apps for Business Central provide ready-made semantic models and KPIs for functional areas such as Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing and Sustainability.
+Power BI apps for Business Central give you ready-made semantic models and KPIs for areas such as Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing, and Sustainability. There are no subtopics; all pages sit at one level.
 
-Start with the install page. It covers the connector apps, the template apps from Marketplace, calendar and date settings (including UTC offset) and semantic model management. The functional areas page lists what each app contains.
+Start with the install page. It covers the Power BI connector apps, the template apps from Marketplace, calendar and date settings, UTC offset, and semantic model management. Then pick a calendar type. The three calendar pages cover standard (Gregorian), fiscal (month-based), and week-based setups. The fiscal calendar is set up on the Power BI Reports Setup page.
 
-Three calendar pages give more detail on the calendar settings: fiscal, standard and week-based. The fiscal calendar is set up through the Power BI Reports Setup page. The fiscal and standard calendars each come with their own time intelligence. The week-based calendar defines week structure, a fiscal year anchor, a boundary rule and a period pattern. The multi-language page explains how to test languages by adding culture name parameters to URLs. The FAQ covers licensing, installation, data refresh, dimension data troubleshooting and multi-company reporting.
+After setup, the functional areas page describes what each app offers. Back links let you move from an aggregated visual to the transactional documents in Business Central. The multi-language page and the FAQ cover language testing, licensing, data refresh, dimension data, and multi-company reporting.
 
 ## Key points
 
-- The install page covers Power BI connector apps, template apps from Marketplace, calendar and date settings and semantic model management. The page mentions versions 26 and 27.0.
-- Three calendar types are available: fiscal, standard (Gregorian) and week-based.
-- Fiscal calendar setup is done on the Power BI Reports Setup page. It uses a calendar type and a first month setting to define the fiscal year structure and fiscal time intelligence.
-- Standard calendar gives Calendar Year, Calendar Month and Calendar Quarter fields and standard time intelligence measures.
-- Week-based calendar settings: First Day of Week, First Month of Fiscal Calendar, boundary rule (Nearest or Last) and period pattern (445, 454 or 544).
-- UTC offset can be configured during installation.
-- To test another language, add a culture name parameter to the URL.
-- The FAQ (versions 26.2 and 27.0) covers Power BI Pro licensing, semantic model refresh, dimension data updates, job queue scheduling and multi-company reporting.
+- Install covers connector apps, template apps from Marketplace, calendar and date configuration, and UTC offset; it references versions 26 and 27.0.
+- Standard calendar type uses a Gregorian month structure with Calendar Year, Month, and Quarter fields and standard time intelligence measures.
+- Fiscal calendar setup is done on the Power BI Reports Setup page; it defines the fiscal year structure and first month, and enables fiscal time intelligence.
+- Week-based calendar setup defines First Day of Week, First Month of Fiscal Calendar, a Nearest or Last boundary rule, and a 445, 454, or 544 period pattern.
+- Functional area apps provide semantic models and KPIs for Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing, and Sustainability.
+- Back links navigate from aggregated visuals to source transactions and documents in Business Central, for validation and reconciliation.
+- Multi-language use is tested by adding a culture name parameter to the URL.
+- The FAQ covers Power BI Pro licensing, semantic model refresh, dimension data updates, job queue scheduling, and multi-company reporting; it references versions 26.2 and 27.0.
 
 ## Learn pages
 

@@ -2,19 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/business-central-on-premises-updates/versions-no-longer-updated
 type: topic
 title: Versions no longer updated
-summary: "Learn section Business Central on-premises > Deployment > Business Central on-premises updates > Versions no longer updated: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Archive of update pages for Business Central on-premises versions that no longer receive updates, from version 13 (October 2018) to version 25 (2024 release wave 2). It answers questions about which cumulative updates, hotfixes and regulatory features were released for each older version, and when.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:17.855Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: bbcee28e3dfbb3a445a4474e29d1307414c523326babee6daea7a9ebace41a8b
+  prompts:
+    hub-topic: 1
+  input_hash: 08091104c038c3df3d8de38a5089cbc0d155ff411199b29241d32fdbebe4f135
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-13
@@ -146,14 +147,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: bbcee28e3dfbb3a445a4474e29d1307414c523326babee6daea7a9ebace41a8b
-narrative: none
+narrative: generated
 ---
 
 # Versions no longer updated
 
-> Learn section Business Central on-premises > Deployment > Business Central on-premises updates > Versions no longer updated: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Archive of update pages for Business Central on-premises versions that no longer receive updates, from version 13 (October 2018) to version 25 (2024 release wave 2). It answers questions about which cumulative updates, hotfixes and regulatory features were released for each older version, and when.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Deployment](../../deployment.md) > [Business Central on-premises updates](../business-central-on-premises-updates.md) > Versions no longer updated · tier official · system none · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Deployment](../../deployment.md) > [Business Central on-premises updates](../business-central-on-premises-updates.md) > Versions no longer updated · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section holds one page per retired on-premises release. Each page lists the cumulative updates for that version, with hotfixes and regulatory features. Depending on the page, it also gives build numbers, release dates or local version support. The pages cover version 13 (October 2018), 14 (Spring 2019), and the release waves from 2019 wave 2 (version 15) through 2024 wave 2 (version 25). There are no subtopics.
+
+Pick the page that matches the version you run. Use it to check which update level you are on, what a given update contained, and the period in which updates were released for that version.
+
+Start with the page for your version number. If your version is listed here, it is no longer updated, so these pages are a record of past updates and not a source of current ones.
+
+## Key points
+
+- Version 13 (October 2018): monthly cumulative updates from November 2018 through April 2020, with local version support in multiple countries.
+- Version 14 (Spring 2019): updates from May 2019 through October 2023.
+- Versions 15 and 16 (2019 wave 2, 2020 wave 1): updates listed with build numbers and release dates, to April 2021 and October 2021 respectively.
+- Version 17 covers Update 17.1 through 17.17; version 18 covers Update 18.1 through 18.18.
+- Versions 19, 20 and 21 (2021 wave 2, 2022 wave 1, 2022 wave 2): updates run to April 2023, October 2023 and April 2024.
+- Version 22 (2023 wave 1) updates run May 2023 to October 2024; version 23 (2023 wave 2) runs November 2023 to April 2025.
+- Version 24 (2024 wave 1) updates run May 2024 to October 2025.
+- Version 25 (2024 wave 2) page lists updates 25.0 through 25.8 with build numbers.
 
 ## Learn pages
 

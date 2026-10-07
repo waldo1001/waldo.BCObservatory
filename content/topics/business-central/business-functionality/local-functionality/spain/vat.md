@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/spain/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Spain > VAT: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Spanish VAT functionality in Business Central: Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and the tax authority reports 340, 347 and 349. It answers how to set up, generate and submit these declarations."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a038eaf46e6918af18d39cb64c4e141114575929724576f375a6913f6b5364b7
+  prompts:
+    hub-topic: 1
+  input_hash: 6d3af41e512e753fd7e8a6add183ad8be27d3a43dadd517c1c8d6f31030dc1b2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-340
@@ -171,14 +172,33 @@ bc_forms:
   - 10770
   - 10771
 member_hash: a038eaf46e6918af18d39cb64c4e141114575929724576f375a6913f6b5364b7
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Spain > VAT: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Spanish VAT functionality in Business Central: Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and the tax authority reports 340, 347 and 349. It answers how to set up, generate and submit these declarations.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the VAT reporting a company needs in the Spanish version of Business Central. It includes the Equivalence Charge (EC) tax for retail sales, one-column and two-column VAT statement templates, and the periodic declarations sent to the Spanish tax authorities: Report 340 (invoices and taxes, monthly or quarterly), Report 347 (annual sales, purchases and cash payments) and Report 349 (intra-EU trade).
+
+Most topics come in pairs: a conceptual page (Report 340, Report 347, Report 349) and a how-to page (Create Report 340, How to create report 347, Create Report 349). Other pages cover creating text and XML templates for telematic VAT statements and exporting statements with them. Setup pages cover cash accounting criteria for Report 340 and SII (Suministro Inmediato de Información) for VAT reporting.
+
+Start with the VAT Reports page for an overview and with Equivalence Charges to see how EC and VAT are tracked. Then read the page for the specific declaration you need. If you file electronically, set up the statement templates before exporting.
+
+## Key points
+
+- Equivalence Charges (EC) are tracked separately from VAT on purchase and sales lines, shown combined as VAT + EC, and stored separately in the VAT Entry table at posting.
+- Report 340 documents sales and purchase invoices with operation codes for monthly or quarterly submission, and supports cash accounting criteria (CAC), nondeductible VAT and equivalence charge reporting.
+- Setting up CAC for Report 340 means configuring unrealized VAT in General Ledger Setup and VAT Posting Setup.
+- Report 347 is an annual declaration by VAT date; it helps identify unapplied cash payments and generate declaration labels.
+- Report 349 covers intra-EU trade, filtered by EU country codes, with delivery operation codes (E, M, H), item card setup for exports and credit memo corrections.
+- VAT statements can be exported as text or XML for telematic submission, using templates with field mapping (XML templates also use indentation levels).
+- Text export uses the Generate txt file action, with filters for open or closed entries and an option to show amounts in the additional currency.
+- SII setup includes enabling the module, batch submission thresholds, marking documents as accepted, flagging customers not in AEAT, VAT exemptions and ignoring invoice lines.
 
 ## Learn pages
 

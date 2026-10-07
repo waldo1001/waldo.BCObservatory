@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/move-items
 type: topic
 title: Move items
-summary: "Learn section Business functionality > Warehouse management > Internal warehouse processes > Move items: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Moving items inside and between warehouse locations in Business Central. It covers basic and advanced (directed put-away and pick) bin moves, unplanned internal movements, and transfers between locations. It answers which page or journal to use for each warehouse setup.
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:52.381Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: eefd57372fd0a77719b4b15aea8c5b36a55ba35ee124e37db311150bab184a36
+  prompts:
+    hub-topic: 1
+  input_hash: 356a2e5edb2f21ae1e0d106c2af03d4c90261d9033137ec9bf9be39929c9e5d8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-move-items
@@ -88,14 +89,33 @@ bc_forms:
   - 9330
   - 9345
 member_hash: eefd57372fd0a77719b4b15aea8c5b36a55ba35ee124e37db311150bab184a36
-narrative: none
+narrative: generated
 ---
 
 # Move items
 
-> Learn section Business functionality > Warehouse management > Internal warehouse processes > Move items: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Moving items inside and between warehouse locations in Business Central. It covers basic and advanced (directed put-away and pick) bin moves, unplanned internal movements, and transfers between locations. It answers which page or journal to use for each warehouse setup.
 
-Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Move items · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Move items · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+Item movement depends on how complex the warehouse configuration is, from simple bin moves to coordinated advanced workflows. Typical reasons include production orders, bin optimization, replenishment and warehouse restructuring. The section has one overview page and three task pages.
+
+For basic warehouse configurations, unplanned moves without source document demand use the Internal Movement page or the Item Reclassification Journal. For warehouses with directed put-away and pick, moves use the Movement Worksheet, Warehouse Internal Pick, Warehouse Internal Put-away or the Warehouse Reclassification Journal. A separate page covers transfers between locations with transfer orders or item reclassification journals.
+
+Start with the Move Items overview to see which approach matches your configuration. Then open the page for your setup: basic, directed put-away and pick, or location-to-location transfer.
+
+## Key points
+
+- The Move Items overview describes bin movement, the warehouse movement worksheet, internal picks and warehouse restructuring.
+- Basic configurations: use Internal Movements, Create Inventory Movement and Inventory Movement, or the Item Reclassification Journal, for moves without source document demand.
+- In basic setups, the Bin Contents List and Split Line help when reorganizing inventory and moving items to production areas.
+- Directed put-away and pick: move items between bins with the Movement Worksheet, Warehouse Internal Pick, Warehouse Internal Put-away or Warehouse Reclassification Journal.
+- The directed page also covers bin replenishment and FEFO picking.
+- Transfers between locations use transfer orders or item reclassification journals.
+- Transfers can be standard multi-step or direct, with optional in-transit location tracking.
+- Transfer topics include posting, undoing a shipment, batch transfer posting, job queue scheduling and direct transfer posting methods.
 
 ## Learn pages
 

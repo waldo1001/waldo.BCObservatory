@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/frequently-asked-questions",
+  "input_hash": "2423d8ce004014d7adc94a9ac05f6d5824d1634255b3defa7dbe4c9e85509ee1",
+  "summary": "Frequently asked questions for Business Central cover AppSource app publishing, testing, updating and validation, AL development, library apps, migrating to Business Central online, and the Windows client deprecation. It answers practical how-and-why questions for partners, developers and admins.",
+  "overview": "This section is a set of FAQ pages with no subtopics. Most pages target partners and developers who build and publish apps to the Marketplace: submitting and managing an offer, testing, updating apps, marketing validation, library and dependency apps, and the app and extension lifecycle.\n\nOther pages cover a general FAQ for developing in AL, questions about migrating to Business Central online, and the discontinuation of the Windows client.\n\nStart with the page that matches your task. For a first Marketplace release, read the offer submission FAQ, then the testing and marketing validation FAQs. For later releases, use the updating and lifecycle FAQs. For moving from on-premises to the cloud, use the migration FAQ.",
+  "key_points": [
+    "Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.",
+    "Offer management FAQ covers the Partner Center flow: Review and publish, the Go Live button, validation queuing and technical validation.",
+    "Testing FAQ describes expected coverage: online-only testing, version testing, country testing, upgrade testing, automated and manual tests, and Docker.",
+    "Update FAQs cover version numbering, preserving app identity, compatibility configuration, automatic updates, admin center management and the hotfix process.",
+    "Lifecycle FAQ covers upgrade codeunits, code signing, force updates during major releases and recommended update frequency.",
+    "Marketing validation FAQ requires statements on supported editions, countries/regions and languages, plus help pages, product naming and marketplace badge rules.",
+    "Migration FAQ covers system requirements, data limits, SQL connection strings, self-hosted integration runtime, the intelligent cloud permission set, data compression and replication.",
+    "Windows client FAQ explains the move to web, mobile and Windows 10 desktop clients starting with 2019 release wave 2 in October 2019."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:59.279Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015224999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:56.385Z",
+    "verdict": "approve",
+    "issues": [
+      "The general AL development FAQ (setup, debugger, snapshot debugging, symbol downloads, app identity) appears in the summary and overview but has no key point of its own. Adding one would improve coverage.",
+      "The overview says the migration FAQ is 'for moving from on-premises to the cloud'. The source only says 'cloud migration', so 'on-premises' is a reasonable inference rather than something the source states.",
+      "The suggested reading order for a first Marketplace release is the writer's own guidance and does not come from the sources. It is reasonable and does not claim anything wrong."
+    ],
+    "input_hash": "2423d8ce004014d7adc94a9ac05f6d5824d1634255b3defa7dbe4c9e85509ee1",
+    "cost_usd": 0.0384352
+  }
+}

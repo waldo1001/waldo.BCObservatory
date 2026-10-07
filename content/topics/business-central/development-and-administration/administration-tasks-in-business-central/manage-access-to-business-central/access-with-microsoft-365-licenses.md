@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses
 type: topic
 title: Access with Microsoft 365 licenses
-summary: "Learn section Development and administration > Administration tasks in Business Central > Manage access to Business Central > Access with Microsoft 365 licenses: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Access with Microsoft 365 licenses in Business Central lets Microsoft 365 license holders view Business Central data through Microsoft Teams with read-only access. It answers questions about what the feature is, how to set it up, how user access is authenticated and provisioned, and common licensing and permission questions.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:09.606Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 42d3e128a8c5a86581b05e2fdd56b3703a47231ff80eb2984b92834e1edd71b0
+  prompts:
+    hub-topic: 1
+  input_hash: 36b7ade2d7b90d25f978cd68c0ca68aa4dc6e5309ba01b72313c8ab731c7dca9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -77,14 +78,31 @@ bc_forms:
   - 1978
   - 9061
 member_hash: 42d3e128a8c5a86581b05e2fdd56b3703a47231ff80eb2984b92834e1edd71b0
-narrative: none
+narrative: generated
 ---
 
 # Access with Microsoft 365 licenses
 
-> Learn section Development and administration > Administration tasks in Business Central > Manage access to Business Central > Access with Microsoft 365 licenses: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Access with Microsoft 365 licenses in Business Central lets Microsoft 365 license holders view Business Central data through Microsoft Teams with read-only access. It answers questions about what the feature is, how to set it up, how user access is authenticated and provisioned, and common licensing and permission questions.
 
-Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Access with Microsoft 365 licenses · tier official · system administration · no narrative yet
+Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Access with Microsoft 365 licenses · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers a way to give people who hold Microsoft 365 licenses, but not full Business Central licenses, access to Business Central data in Microsoft Teams. The experience is a simplified, read-only interface with data access controls.
+
+Four pages make up the section. The overview page explains the capability. The setup page walks through license configuration, permissions, environment setup, security groups, centralized deployment and testing. The user access flow page explains how Business Central authenticates users, checks minimum requirements, provisions user records and applies security. The FAQ covers permissions, setup, licensing and usage questions.
+
+Start with the overview page, then follow the setup page to configure the environment. Use the access flow page to understand what happens at sign-in, and the FAQ for specific questions.
+
+## Key points
+
+- Gives Microsoft 365 license holders read-only access to Business Central data in Teams without full Business Central licensing.
+- The interface is simplified and data access is controlled by permissions.
+- Setup involves license configuration, permission sets (including the D365 Read permission set), environment setup, security group assignment, centralized deployment and testing.
+- The access flow covers authentication, minimum requirement checks, user record provisioning and security controls.
+- The FAQ mentions the Employee profile, the Microsoft Teams Internal Users group and row-level security.
+- The FAQ references version 21.1 (Update 21.1).
 
 ## Learn pages
 

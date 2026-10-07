@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
 type: topic
 title: KPIs, dashboards, and financial reports
-summary: "Learn section Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports: 14 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "KPIs, dashboards, and financial reports in Business Central: how to define and monitor KPIs, build financial reports from G/L data and account categories, and use Power BI and Power BI apps. It answers setup, reporting, and analysis questions."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:33.504Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 14c791880aa69d8df6f5b860af54cb7be4a4b453890c057e0571beaebd10d4a5
+  prompts:
+    hub-topic: 1
+  input_hash: cec85d4bf3e05606f845aa31817918950beeef3a3629a76765c217b70f4c5b46
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule
@@ -234,14 +235,33 @@ bc_forms:
   - 37057
   - 37058
 member_hash: 14c791880aa69d8df6f5b860af54cb7be4a4b453890c057e0571beaebd10d4a5
-narrative: none
+narrative: generated
 ---
 
 # KPIs, dashboards, and financial reports
 
-> Learn section Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports: 14 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> KPIs, dashboards, and financial reports in Business Central: how to define and monitor KPIs, build financial reports from G/L data and account categories, and use Power BI and Power BI apps. It answers setup, reporting, and analysis questions.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to measure and report on business performance in Business Central. Two own pages cover the basics: one explains what KPIs are, which types exist, and how to implement and monitor them, and the other explains how to set up financial reports that analyze general ledger accounts and compare them with budgets.
+
+The financial reports page relies on row and column definitions combined with G/L account categories. Its prerequisites are a structured chart of accounts, dimensions, and G/L budgets. You can create a report from scratch or copy an existing one.
+
+Two subtopics cover Power BI. "Power BI and Business Central" covers built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. "Power BI apps for Business Central" covers installing the connector and template apps, choosing a calendar, using semantic models and KPIs by functional area, and FAQ topics such as licensing and refresh. Start with the KPI page for concepts, then the financial reports page, then the Power BI subtopics for deeper analysis.
+
+## Key points
+
+- KPI guidance covers quantitative, qualitative, lagging, and leading KPIs, plus best practices for monitoring them.
+- Financial reports use row definitions and column definitions together with G/L account categories to analyze G/L accounts and compare them with budgets.
+- Prerequisites for financial reports are a structured chart of accounts, dimensions, and G/L budgets. The financial reports page is tagged for 2025 release wave 1.
+- Financial reports can be built from scratch or by copying an existing report.
+- Power BI integration includes built-in apps, reports, dashboards, KPI metrics, scorecards, and semantic models in Excel.
+- Power BI apps need the connector and template apps installed, and support standard, fiscal, or week-based calendars.
+- The Power BI apps provide semantic models and KPIs by functional area, with multi-language support and back links to source documents.
+- FAQ topics include licensing and data refresh.
 
 ## Subtopics
 

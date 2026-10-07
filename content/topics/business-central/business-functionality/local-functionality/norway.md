@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/norway
 type: topic
 title: Norway
-summary: "Learn section Business functionality > Local functionality > Norway: 42 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Norway local functionality in Business Central: VAT and SAF-T reporting, remittance and electronic banking, OCR/KID payments, EHF invoicing, recurring sales orders, payroll import, and applying entries in closed periods. It answers setup and how-to questions for Norway-specific processes."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:27.637Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 42386aef91ec46acd69c4b38ee056ad6284724467a9cc4eab6749bc1a33a736d
+  prompts:
+    hub-topic: 1
+  input_hash: 34bb872842738ef7276c93aa139c029ba37cccdf4716164d1c463b528e113b31
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat
@@ -378,14 +379,33 @@ bc_forms:
   - 15000010
   - 15000100
 member_hash: 42386aef91ec46acd69c4b38ee056ad6284724467a9cc4eab6749bc1a33a736d
-narrative: none
+narrative: generated
 ---
 
 # Norway
 
-> Learn section Business functionality > Local functionality > Norway: 42 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Norway local functionality in Business Central: VAT and SAF-T reporting, remittance and electronic banking, OCR/KID payments, EHF invoicing, recurring sales orders, payroll import, and applying entries in closed periods. It answers setup and how-to questions for Norway-specific processes.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Norway · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Norway · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Norway section collects the localization features for Norwegian businesses. It opens with an overview page listing the covered areas: Norwegian VAT reporting, SAF-T management, electronic banking, EHF invoicing, remittance payments and OCR payments. The overview also mentions planned future legislation updates and refers to 2026 release wave 2.
+
+The content is split into three subtopics. VAT covers VAT codes, proportional deduction, reconciliation, electronic VAT returns via ID-Porten and SAF-T. Banking & payments is the largest group, with remittance setup, vendor payments, return files, OCR and KID customer payments, and EHF invoicing. General covers recurring sales orders, payroll transaction import, KID number setup and giro/KID document printing.
+
+One page sits directly in the hub: applying general ledger entries in closed periods. Start with the overview page, then go to the subtopic that matches your task.
+
+## Key points
+
+- VAT: Norwegian VAT codes, entering one VAT code in journals, proportional VAT deduction, and VAT reconciliation reporting.
+- Electronic VAT returns are submitted via ID-Porten; SAF-T file setup and export are covered under VAT.
+- Banking & payments (25 pages): remittance agreements, accounts and vendors; create, test, export and cancel vendor payments; handle return files and errors.
+- Customer payments use OCR and KID; EHF electronic invoicing is also covered.
+- General: recurring sales orders from blanket orders and recurring groups, payroll import via the Payroll Data Definitions extension.
+- General also covers KID number setup and document printing setup for giro and KID.
+- To apply entries outside the allowed posting period, enable Application always Allowed in General Ledger Setup and User Setup.
+- The overview page references 2026 release wave 2 and planned future legislation updates.
 
 ## Subtopics
 

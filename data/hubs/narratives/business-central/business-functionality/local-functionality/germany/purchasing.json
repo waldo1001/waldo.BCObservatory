@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/germany/purchasing",
+  "input_hash": "b3600a5128b7fde44f04b108250f9554623c2aa170ffb812031f1138a3aa245a",
+  "summary": "Delivery reminders in the German version of Business Central: setting up terms, levels and text, assigning codes to vendors, generating or creating reminders, printing test reports and issuing them. It answers how-to questions about chasing late vendor deliveries.",
+  "overview": "This section covers one German-specific purchasing feature, delivery reminders. They let you track and manage vendor delivery delays by sending reminders to suppliers. The \"Delivery Reminders [DE]\" page is the overview, and the other pages describe individual steps.\n\nThe pages follow the workflow. First set up delivery reminders, including terms, levels and reminder text. Then assign delivery reminder codes to vendors. Next create reminders, either by generating them automatically or by creating them manually. Before issuing, you can print a test report to review and change the reminders. A separate page describes issuing and points to the related generate, create and test report pages.\n\nStart with the \"Delivery Reminders [DE]\" overview, then work through setup, vendor assignment, creation and issuing in that order.",
+  "key_points": [
+    "Delivery reminders are a German-version feature for tracking supplier delivery performance and delays.",
+    "Setup covers reminder terms, reminder levels and reminder text.",
+    "Delivery reminder codes are assigned to vendors as part of setup.",
+    "Reminders can be generated automatically or created manually outside the automated process.",
+    "Test reports can be printed to review and modify reminders before issuing.",
+    "Issuing reminders is the final step, and its page refers to the generate, create and test report pages."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:27.037Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011039
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:09.160Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview phrase 'by sending reminders to suppliers' is a mild inference. The sources say reminders are issued to track supplier delivery performance, but they never mention sending them.",
+      "The strict workflow order (setup, vendor assignment, creation, test report, issuing) and 'Issuing is the final step' are reasonable inferences from page titles, but no source states the order explicitly.",
+      "The narrative never says the content sits under Purchasing in the German local functionality. Adding that would help placement but is not required."
+    ],
+    "input_hash": "b3600a5128b7fde44f04b108250f9554623c2aa170ffb812031f1138a3aa245a",
+    "cost_usd": 0.026675199999999996
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance
 type: topic
 title: Finance
-summary: "Learn section Analytics, business intelligence, and reporting > Built-in reports > Finance: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:50.212Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 16605e466ebb9176c17d1a6be90bcc23b9467734a23f27dbaac92e3f07b37b77
+  prompts:
+    hub-topic: 1
+  input_hash: 4b6fe899b9812fcaa555f04eb47523a6bb7f2cfe15913c021c89130dc5f116ff
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -166,14 +167,32 @@ bc_forms:
   - 36992
   - 36993
 member_hash: 16605e466ebb9176c17d1a6be90bcc23b9467734a23f27dbaac92e3f07b37b77
-narrative: none
+narrative: generated
 ---
 
 # Finance
 
-> Learn section Analytics, business intelligence, and reporting > Built-in reports > Finance: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the built-in reports and analytics that support finance work. The overview page, "Built-in finance reports in Business Central", lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and mentions the report explorer. It is the best starting point for finding a standard report.
+
+Two pages cover payables and receivables. Accounts payables analytics helps you analyze what you owe vendors using Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page for payment timing. Accounts receivable analytics helps you manage customer receivables with Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.
+
+For custom reporting, the page on building financial reports explains how to analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. It covers prerequisites such as chart of accounts structure, dimensions and G/L budgets. A separate page covers sustainability reports, including the Track Item of Concern report and the Role Explorer.
+
+## Key points
+
+- The overview page groups built-in reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.
+- Accounts payables analytics uses Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page to review payment timing.
+- Accounts receivable analytics uses Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.
+- Financial reports analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. You can create them from scratch or copy existing ones.
+- Prerequisites for financial reports include a structured chart of accounts, dimensions and G/L budgets. The page is tagged for 2025 release wave 1.
+- Sustainability reports use the Item of Concern field and the Track Item of Concern report to monitor inbound and outbound transactions of items with high pollution levels.
+- The Role Explorer is used with sustainability reports to analyze emissions.
 
 ## Learn pages
 

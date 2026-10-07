@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2019-release-wave-2",
+  "input_hash": "5620f852d257262e2d1beff1630dfc9c9e675e2fff6adf4ef7e5e5bae8ed6a9a",
+  "summary": "Upgrading on-premises Business Central from version 14 (Spring 2019) to version 15 (2019 release wave 2), plus installing version 15 updates and a compatibility matrix for upgrade paths. It answers questions about upgrade strategies, technical upgrade tasks, unmodified application upgrades, and minimum versions for upgrades.",
+  "overview": "This section covers the 2019 release wave 2 (version 15) upgrade for on-premises Business Central. It describes how to move from version 14 and how to apply later cumulative updates to version 15.",
+  "key_points": [
+    "Start with 'Upgrade to Business Central 2019 Wave 2'. It describes the upgrade paths from version 14: full uptake of the base and system applications, or a minimal upgrade of a customized application.",
+    "'Upgrade an unmodified application' covers version 14 to 15 for single-tenant and multitenant deployments. Tasks include converting databases to the new platform, publishing and synchronizing extensions, installing the system and base applications, and running the data upgrade.",
+    "'Technical Upgrade' covers moving from version 14 to 15 with C/AL to AL code conversion. Its tasks include database preparation, platform conversion, extension migration, the task scheduler, encryption management and control add-ins.",
+    "'Install a version 15 update' covers cumulative updates for 2019 release wave 2. Steps include platform upgrade, application update, extension uninstallation, database conversion, server instance configuration and license import.",
+    "The compatibility matrix lists minimum update versions for upgrades between major versions (15 to 28), on-premises and online.",
+    "Per the matrix, upgrades from version 24 or earlier must target version 25 first.",
+    "The matrix also shows minimum target versions for upgrading from each cumulative update level of version 14 to versions 15 through 25."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:35.866Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013246999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:54.040Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the 'Technical Upgrade' key point lists task scheduler, encryption management and control add-ins as tasks. These come from the page's feature tags, not from its summary text, which only names database preparation, platform conversion and extension migration as tasks. Reasonable, but a little stronger than the source.",
+      "Minor: the summary frames the scope as on-premises, but the compatibility matrix covers both on-premises and online upgrades. Key point 5 states this correctly."
+    ],
+    "input_hash": "5620f852d257262e2d1beff1630dfc9c9e675e2fff6adf4ef7e5e5bae8ed6a9a",
+    "cost_usd": 0.038063200000000005
+  }
+}

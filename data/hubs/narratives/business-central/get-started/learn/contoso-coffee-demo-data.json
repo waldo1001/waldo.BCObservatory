@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data",
+  "input_hash": "04f94e5e0692c513531d206bc0f57257bc253b9459748f0546c8f11c74d5bf4e",
+  "summary": "Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.",
+  "overview": "Contoso Coffee demo data gives a fictitious company with sample data for trying out Business Central capabilities. The introduction page describes the data and the modules it covers: manufacturing, warehousing, service and common, plus configuration and demo data setup.\n\nFour subtopics hold the walkthroughs. Manufacturing has 11 pages, Warehousing 4, Service 3 and Quality management 4. Each one combines sample data with scenarios you can follow step by step.\n\nStart with the introduction page to understand the data and how it is set up. Then pick the subtopic that matches the area you want to learn.",
+  "key_points": [
+    "The introduction page describes the fictitious Contoso Coffee company data and covers demo data setup, configuration and the common module.",
+    "Manufacturing walkthroughs cover production BOMs, routings, capacity, flushing, planning, variants and subcontracting.",
+    "Warehousing uses three locations that show basic, mixed and advanced configurations.",
+    "Warehousing scenarios cover receiving, put-away, picking, moving and shipping in each setup.",
+    "Service data includes sample resources, skills, service items and loaner items.",
+    "Service walkthroughs cover service orders and service contracts for service items.",
+    "Quality management includes installing the demo data and three inspection scenarios.",
+    "The quality scenarios are automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking."
+  ],
+  "members_used": 1,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:35.427Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010308999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:45.373Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says each subtopic combines sample data with scenarios you can follow step by step. The Warehousing summary describes how operations work in each setup but does not explicitly call them step-by-step walkthroughs. The wording is close enough.",
+      "Minor: the introduction page lists manufacturing, warehousing, service and common modules but does not mention quality management. The narrative handles this correctly by attributing quality management only to its subtopic."
+    ],
+    "input_hash": "04f94e5e0692c513531d206bc0f57257bc253b9459748f0546c8f11c74d5bf4e",
+    "cost_usd": 0.021959199999999998
+  }
+}

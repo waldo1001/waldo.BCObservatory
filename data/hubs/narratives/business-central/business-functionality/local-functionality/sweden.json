@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/sweden",
+  "input_hash": "6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d",
+  "summary": "Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance.",
+  "overview": "The Sweden section describes what the Swedish version of Business Central adds on top of the global product. Since release 2023 wave 1, the Swedish localization runs as an extension on the W1 BaseApp. The overview page lists the Swedish features: VAT, automatic account codes, SIE import and export, and financial reporting.\n\nTwo kinds of pages sit here. One page covers EU third-party purchase transactions, used for Swedish VAT reporting and VIES requirements. This feature moved to a global extension starting version 22.1. The Core finance subtopic covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports.\n\nStart with the Sweden Local Functionality page for the overall picture. Then go to Core finance for accounting setup, or to the EU third-party page if you need VAT and VIES reporting.",
+  "key_points": [
+    "Swedish localization is an extension on the W1 BaseApp starting release 2023 wave 1.",
+    "EU third-party purchase transactions (EU 3-Party Trade) support Swedish VAT reporting and VIES declarations, including purchase transaction filtering.",
+    "The EU third-party feature moved to a global extension starting version 22.1.",
+    "Automatic account codes and automatic account posting groups are part of the Swedish core finance setup.",
+    "SIE import and export moves general ledger data in and out of Business Central.",
+    "Balance sheet and income statement reports can be printed in the Swedish version.",
+    "The Core finance subtopic has 4 pages covering these accounting topics."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:09.167Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010549
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:53.826Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview phrase 'Two kinds of pages sit here' is a little unclear. The hub has two own pages (the Sweden overview and the EU third-party page) plus the Core finance subtopic, and the paragraph describes one page and the subtopic.",
+      "Key point 'The Core finance subtopic has 4 pages covering these accounting topics.' is accurate but gives an agent little useful information.",
+      "The EU third-party page also lists version 25.0, which the narrative leaves out. That is acceptable because the source gives no context for it."
+    ],
+    "input_hash": "6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d",
+    "cost_usd": 0.0321112
+  }
+}

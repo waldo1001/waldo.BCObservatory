@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central
 type: topic
 title: Get productive in Business Central
-summary: "Learn section Get started > Get productive in Business Central: 55 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Everyday use of Business Central: navigating and finding pages (Tell Me, Role Explorer), entering data, sorting and filtering, personalizing, notifications, settings, reports, document layouts, sharing, Microsoft 365 apps and accessibility. It answers how-to questions for end users and troubleshooting questions about errors, performance, camera and location."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:57.685Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b5088b945d97a008f35faa9d9dfa9533cf9f64d681049f62966e12a3dbd62c40
+  prompts:
+    hub-topic: 1
+  input_hash: c09aa0be94028a22b514499786bcc8621f7eebc11a33bc6c57ed3c0c418309dd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -390,14 +391,33 @@ bc_forms:
   - 9666
   - 9670
 member_hash: b5088b945d97a008f35faa9d9dfa9533cf9f64d681049f62966e12a3dbd62c40
-narrative: none
+narrative: generated
 ---
 
 # Get productive in Business Central
 
-> Learn section Get started > Get productive in Business Central: 55 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Everyday use of Business Central: navigating and finding pages (Tell Me, Role Explorer), entering data, sorting and filtering, personalizing, notifications, settings, reports, document layouts, sharing, Microsoft 365 apps and accessibility. It answers how-to questions for end users and troubleshooting questions about errors, performance, camera and location.
 
-Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · no narrative yet
+Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section is the working guide for people who use Business Central daily. Its own pages cover core skills: finding pages with Tell Me and the Role Explorer, searching company data, sorting and filtering lists, entering data and dates, handling required fields, notifications, and warnings and error messages. They also cover user settings, switching company or environment, language and localization, attachments and notes on records, and performance tips and the Performance Profiler.
+
+Subtopics go deeper on specific areas: personalizing pages, running and printing reports, changing the look of external documents through layouts, sharing data, using Microsoft 365 apps with Business Central data, and accessibility, shortcuts and touch gestures.
+
+A new user can start with "Working with Business Central", then "Change basic settings for the current user" and "Finding Pages and Information with Tell Me". Move on to data entry, filtering and personalization. Report and layout subtopics suit users who print or customize documents.
+
+## Key points
+
+- Tell Me finds actions, pages, reports, data and help. With Advanced Tell Me enabled it uses AI-powered semantic search. Role Explorer lists pages and reports per role.
+- Sort, search and filter pages describe filter operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user and %mycustomers. Modern word-matching search and legacy exact-match search are both covered.
+- My Settings sets role, company, work date, region, language, time zone and notifications. Company switcher, app launcher and Company Hub switch company or environment.
+- Mandatory fields show a red asterisk and block steps such as posting until filled in.
+- Data entry covers Quick Entry, keyboard navigation, copy and paste, line filtering and date and time formats.
+- Notifications can be expanded, dismissed and configured with filter conditions. Errors are actionable and can be shared through Teams or email.
+- Microsoft Copilot in Business Central (preview) answers read-only questions about company data, starting in version 29.
+- On-premises installations lack cloud intelligent insights (KPIs, Power BI) until migrated to the cloud.
 
 ## Subtopics
 

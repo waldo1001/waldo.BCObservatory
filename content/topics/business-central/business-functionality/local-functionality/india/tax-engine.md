@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/india/tax-engine
 type: topic
 title: Tax engine
-summary: "Learn section Business functionality > Local functionality > India > Tax engine: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Tax engine section covers the configurable Tax Engine for India in Business Central. It answers questions about setting up tax types, rates and use cases, scripting and lookups, design best practices, and importing or exporting configuration as JSON.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:01.979Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 88efd873824cc03588a7141c9cbb748dd6551231c14e6ee84635e878ce40872b
+  prompts:
+    hub-topic: 1
+  input_hash: c162eb2ac2155952038f374518dee5e49b97a0b5b6af6479c47a9c1aed8cccdd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration
@@ -99,14 +100,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 88efd873824cc03588a7141c9cbb748dd6551231c14e6ee84635e878ce40872b
-narrative: none
+narrative: generated
 ---
 
 # Tax engine
 
-> Learn section Business functionality > Local functionality > India > Tax engine: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Tax engine section covers the configurable Tax Engine for India in Business Central. It answers questions about setting up tax types, rates and use cases, scripting and lookups, design best practices, and importing or exporting configuration as JSON.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Tax engine · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Tax engine · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+Tax Engine is a configurable extension suite for India. It lets you set up tax rules, calculation and posting without code changes, through six modular extensions. The Overview page introduces the components, including Tax Type Handler, Tax Use Case Handler, Tax Scripting, Tax Posting Handler and JSON import/export.
+
+The configuration pages follow a sequence. Tax Configuration 01 covers tax types (GST, TDS, TCS, WHT), attributes, components, rate parameters and tax rates. Tax Configuration 02 covers use cases: conditions, attribute and rate parameter mapping, computation scripts, component formulas, posting and tax ledger mapping. The Script Activity and Lookup pages are references for building the logic inside use cases.
+
+Start with the Overview, then read the two configuration pages in order. Use the Design Consideration page for best practices before you build. Use the Import/Export page when you move configuration between environments.
+
+## Key points
+
+- Tax Engine is an India-specific extension suite with six modular extensions for tax setup, calculation and posting without code changes.
+- Tax types such as GST, TDS, TCS and WHT are set up with attributes, components, rate parameters and tax rates, and are posted to G/L accounts.
+- Use cases define business scenarios: stages, conditions, attribute mapping, rate parameter mapping, variables, computation scripts, component formulas, posting and tax ledger mapping.
+- Script Activity supports string operations, number calculations, date manipulation, conditions, loops and miscellaneous activities.
+- Lookups fetch values from the current record, variables, tables, the database, the system, tax attributes, components and other sources.
+- The Json Exchange extension imports and exports full tax type configurations or specific use cases in JSON format, and is reached through Assisted Setup.
+- Design Consideration gives best practices for creating tax types, generic attributes and rate setups, sequencing use cases, deploying configuration files and managing versions.
 
 ## Learn pages
 

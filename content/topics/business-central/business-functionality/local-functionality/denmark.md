@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/denmark
 type: topic
 title: Denmark
-summary: "Learn section Business functionality > Local functionality > Denmark: 15 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Denmark local functionality in Business Central covers Danish compliance and reporting: auditing exports (Regnskab Basis, SAF-T), VAT reports, Danish bank and payment formats (FIK, giro), OIOUBL electronic invoicing, and payroll import. It answers setup and usage questions for Danish legal requirements."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:10.688Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0ed5dd102ce6b827af5694d52b82a0fb42b3de15280b3e7c44671d1958a54b88
+  prompts:
+    hub-topic: 1
+  input_hash: 83b2d56aacfa35bac0569982e33824e79f3a1e12c79d7adcbe41a27dcc600869
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl
@@ -168,14 +169,32 @@ bc_forms:
   - 13646
   - 13647
 member_hash: 0ed5dd102ce6b827af5694d52b82a0fb42b3de15280b3e7c44671d1958a54b88
-narrative: none
+narrative: generated
 ---
 
 # Denmark
 
-> Learn section Business functionality > Local functionality > Denmark: 15 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Denmark local functionality in Business Central covers Danish compliance and reporting: auditing exports (Regnskab Basis, SAF-T), VAT reports, Danish bank and payment formats (FIK, giro), OIOUBL electronic invoicing, and payroll import. It answers setup and usage questions for Danish legal requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Denmark section describes features that adapt Business Central to Danish legal and regulatory requirements. The landing page lists the main areas: bookkeeping act compliance, 5-year data retention, digital vouchers, SAF-T audit file export, the standard chart of accounts and VAT reconciliation reports. It references the 2026 release wave 1.
+
+Four subtopics go into detail: Auditing, VAT, Banking and payments, and Electronic invoicing. A separate page covers the Payroll Data Definitions [DK] extension, which imports payroll transactions from Danish providers such as Danløn and Dataløn.
+
+Start with the landing page for an overview. Then open the subtopic that matches your task, for example Electronic invoicing for OIOUBL setup or Auditing for exports to the authorities.
+
+## Key points
+
+- Auditing: export accounting data to Regnskab Basis and in SAF-T format, both using the standard chart of accounts mapping.
+- VAT: print the VAT Reconciliation report, show VAT registration numbers with country codes in Intrastat, and run VAT-VIES reporting with the EC Sales List.
+- Banking: the Payments and Reconciliations (DK) extension supports Danish payment file formats, and FIK transaction text codes appear in the payment reconciliation journal.
+- Electronic invoicing: the OIOUBL extension creates XML documents in UBL 2.0 format for Danish public sector customers.
+- OIOUBL covers invoices, credit memos, reminders and finance charge memos, and needs customer fields such as GLN, account code and profile code.
+- Payroll Data Definitions [DK]: map payroll transaction types to general ledger accounts and import provider files through the general journal.
+- The landing page lists bookkeeping act compliance, 5-year data retention and digital vouchers as compliance areas.
 
 ## Subtopics
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > United Kingdom > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "United Kingdom general localization in Business Central: statutory company information, Ideal Postcodes address lookup, fraud prevention data for HMRC Making Tax Digital, and posting date warnings. It answers setup questions for the British version."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:16.616Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a39e4c6093a1c20a8c85cf31817eb47df39b27c8281be63bfbce248fcf53d992
+  prompts:
+    hub-topic: 1
+  input_hash: d26afe947e1d17ac6ab1abc1aaf903556ff8b93074349901f9b4e66d869bce89
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information
@@ -89,14 +90,30 @@ bc_forms:
   - 9142
   - 10539
 member_hash: a39e4c6093a1c20a8c85cf31817eb47df39b27c8281be63bfbce248fcf53d992
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > United Kingdom > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> United Kingdom general localization in Business Central: statutory company information, Ideal Postcodes address lookup, fraud prevention data for HMRC Making Tax Digital, and posting date warnings. It answers setup questions for the British version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the general setup tasks specific to the British version of Business Central. It has no subtopics, so all five pages sit at one level. They cover legal company details, address lookup, tax authority communication and a posting safeguard.
+
+For company setup, start with the statutory information page, which describes the registration and registered address fields on the Company Information page. For address entry, the Ideal Postcodes extension page explains what the extension does, and the setup page explains how to connect to the Ideal Postcodes API. For UK VAT, the fraud prevention page explains the headers sent to HMRC through Making Tax Digital APIs and the consent an administrator must give. The posting date warning page covers a toggle that warns when a document's posting date differs from the work date.
+
+## Key points
+
+- Statutory information is entered on the Company Information page: Registration No., Registered Name, and the registered address fields including city and county.
+- The Ideal Postcodes extension fills address fields from a postcode lookup for customers, vendors, bank accounts, and employees.
+- Ideal Postcodes setup uses the Ideal Postcodes API with an API key and a service connection. Subscription plans are based on usage.
+- The extension description mentions multi-country support.
+- UK VAT communication with HMRC through Making Tax Digital APIs requires fraud prevention headers.
+- Admins must consent to sending device and user identification data. The page mentions a user IP address service and multi-factor authentication headers, and cites version 20.1.
+- The Posting Date Check on Posting toggle shows a warning when a sales or purchase document's posting date differs from the work date, and it also applies to batch posting.
 
 ## Learn pages
 

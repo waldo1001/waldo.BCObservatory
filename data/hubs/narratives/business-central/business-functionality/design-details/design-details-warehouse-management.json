@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/design-details/design-details-warehouse-management",
+  "input_hash": "cc52b4fbc6f01d0bfb80c4ad88e5e1fbb21e6805171776b76ad3048e75751f07",
+  "summary": "Warehouse management design details in Business Central: how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered. It answers questions about warehouse quantity mechanics and entry creation.",
+  "overview": "This section explains two internal mechanics of warehouse management. The first page covers availability in the warehouse: how bin content, warehouse reservations, pick allocations and bin level allocations affect the quantity available to pick and the quantity available to reserve, taking warehouse activities and outbound flows into account.\n\nThe second page covers how warehouse entries are created. Entries record item movements within a warehouse, are produced by warehouse transactions and are linked to warehouse registers. The ConcurrentWarehousingPosting feature key decides whether entry numbers are sequential or concurrent.\n\nThere are no subtopics. Start with the availability page if you are investigating why quantities cannot be picked or reserved, and with the entries page if you are looking at posting, numbering or register behavior.",
+  "key_points": [
+    "Available-to-pick and available-to-reserve quantities are calculated separately and are affected by allocations and reservations.",
+    "Bin content is the basis for tracking item quantities per bin.",
+    "Pick allocation and bin level allocation reduce what can still be picked or reserved.",
+    "Warehouse reservations and outbound flows are considered in availability calculations.",
+    "Warehouse entries are created by warehouse transactions and linked to warehouse registers.",
+    "The ConcurrentWarehousingPosting feature key controls whether entry numbers are sequential or concurrent.",
+    "Entry numbering relies on sequence numbers when concurrent posting is used."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:15.513Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009426999999999998
+  }
+}

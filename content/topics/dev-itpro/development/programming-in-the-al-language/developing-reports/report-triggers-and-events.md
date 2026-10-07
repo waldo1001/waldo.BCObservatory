@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-triggers-and-events
 type: topic
 title: Report triggers and events
-summary: "Learn section Development > Programming in the AL language > Developing reports > Report triggers and events: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Report triggers and events in AL for Business Central: events raised during report generation, printing, and export. Answers questions about patching documents, setting up printers, custom rendering, and customizing export filenames."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:38.147Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d16d28c5aab1a326b93bc04eaa396b88a50db7cbbe6dc7f16de727aa757cb6ca
+  prompts:
+    hub-topic: 1
+  input_hash: 943d75fdebb061c4580dcc95b54f5c903740ef5f4712be5e20baa9bee8a59ede
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentprintready-event
@@ -99,14 +100,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d16d28c5aab1a326b93bc04eaa396b88a50db7cbbe6dc7f16de727aa757cb6ca
-narrative: none
+narrative: generated
 ---
 
 # Report triggers and events
 
-> Learn section Development > Programming in the AL language > Developing reports > Report triggers and events: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Report triggers and events in AL for Business Central: events raised during report generation, printing, and export. Answers questions about patching documents, setting up printers, custom rendering, and customizing export filenames.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report triggers and events · tier official · system reporting · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report triggers and events · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section documents the events a developer can subscribe to in order to change how reports are generated, delivered, and named. The events cover the report life cycle: setting up printers, rendering, intermediate and final document handling, printing, and file naming.
+
+The pages are independent reference topics, one per event. OnAfterDocumentReady and OnAfterIntermediateDocumentReady are for document patching, and the latter works on intermediate artifacts such as XML or Word files. OnCustomDocumentMergerEx handles custom rendering. OnAfterSetupPrinters and OnAfterDocumentPrintReady cover printer extensions. OnGetFilename customizes export file names.
+
+Start with the event that matches your scenario. For a printer extension, read OnAfterSetupPrinters first, then OnAfterDocumentPrintReady. For changes to generated output, begin with OnAfterDocumentReady.
+
+## Key points
+
+- OnAfterDocumentPrintReady is raised when a user selects print on a report request page, and is used to send the report to a target extension printer.
+- OnAfterDocumentReady lets you modify generated report artifacts before they are saved or printed, by subscribing in the ReportManagement codeunit.
+- OnAfterIntermediateDocumentReady intercepts intermediate artifacts such as XML or Word files, for document patching and testing.
+- OnAfterSetupPrinters defines printers with payload settings: paper sizes, trays, duplex, color, and default copies.
+- OnCustomDocumentMergerEx supports custom rendering using the dataset, layout, and report JSON payload parameters.
+- OnGetFilename is an integration event in codeunit 44 ReportManagement for naming PDF, Excel, or Word exports.
+- Several events use a report payload and relate to SaveAs, SendTo actions, and print.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/working-with-value-added-tax-vat
 type: topic
 title: Working with Value Added Tax (VAT)
-summary: "Learn section Business functionality > Finance > Working with Value Added Tax (VAT): 15 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ad028dba20c6aa3ae5ccbe234005244d2b06633a03b29c05b1662f3109f2f4e9
+  prompts:
+    hub-topic: 1
+  input_hash: 01cccaaecea4d2a321e783d63ac29bd9bb7e1123cbcdd3b620c556090acaecb1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports
@@ -145,6 +146,7 @@ links:
     - video/MWXwtRr6-Wk
   posts:
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/
+    - post/thedynamicsexplorer-com/9815
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -158,7 +160,7 @@ coverage:
   learn: 15
   code: 0
   video: 2
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 7
@@ -221,14 +223,29 @@ bc_forms:
   - 6640
   - 9401
 member_hash: ad028dba20c6aa3ae5ccbe234005244d2b06633a03b29c05b1662f3109f2f4e9
-narrative: none
+narrative: generated
 ---
 
 # Working with Value Added Tax (VAT)
 
-> Learn section Business functionality > Finance > Working with Value Added Tax (VAT): 15 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with Value Added Tax (VAT) · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with Value Added Tax (VAT) · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the full VAT workflow in Business Central. It starts with VAT setup (rates, posting groups, registration numbers, clauses, VAT statements, nondeductible and unrealized VAT), which is the base for how VAT is calculated, posted to G/L accounts and reported.
+
+## Key points
+
+- Set up VAT subtopic covers VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT.
+- Working with VAT on sales and purchases covers calculation and display, VAT date functionality, prices including VAT, manual VAT adjustment, VAT difference tolerance and certificates of supply (version 23.1 noted).
+- The VAT Rate Change tool converts VAT and general product posting groups on master data, journals and orders, can update unit prices, offers test conversion and logging, and has limits for some document types.
+- Multiple VAT registration numbers (2024 release wave 2) lets businesses with warehouses in several EU countries apply the right VAT registration and posting groups to sales documents, including ship-to addresses and credit memos.
+- Non-deductible VAT is handled on purchase invoices and orders using Non-Deductible VAT Base, Amount and % fields, with VAT adjustment before posting.
+- VAT registration numbers for customers, vendors and contacts are validated through the EU VAT Reg. No. Validation Service, which uses VIES and optional validation templates.
+- EU third-party purchase transactions are enabled in VAT setup and can be filtered in VAT statements and VIES declarations.
+- Submitting VAT reports covers the EC Sales List and VAT Return, with service connection, test mode, error validation and VAT settlement.
 
 ## Subtopics
 
@@ -252,6 +269,7 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md) (community post): "VAT Product Posting Group changes; Prices Incl. VAT; vat; pricing"
+- [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../../../../posts/thedynamicsexplorer-com/9815.md) (community post): "Set Max. VAT Difference Allowed in General Ledger Setup to permit changes"
 - [Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)](../../../../videos/fdzTWZyT6mI.md) (video): "Multiple VAT Numbers for Customers (2024 release wave 2). Topics: multiple vat numbers; customers; vat registration"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date in Business Central; VAT Date field; VAT setup"
 

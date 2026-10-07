@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality
 type: topic
 title: General business functionality
-summary: "Learn section Business functionality > General business functionality: 52 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:07.205Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1d9fda5a01e0509ae6e4b44cf643281c3dbe4661642edb9c9ed87a409d838988
+  prompts:
+    hub-topic: 1
+  input_hash: 0ae13ea5ce12422226bc36c1a61b82656e5164f939add16ed1ab572443c9048f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -492,14 +493,29 @@ bc_forms:
   - 2000021
   - 2000022
 member_hash: 1d9fda5a01e0509ae6e4b44cf643281c3dbe4661642edb9c9ed87a409d838988
-narrative: none
+narrative: generated
 ---
 
 # General business functionality
 
-> Learn section Business functionality > General business functionality: 52 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions.
 
-Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · no narrative yet
+Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This area collects cross-area features that are not tied to one module. Own pages cover everyday document handling: comments, extended text, the document Status field, archiving and restoring documents, editing posted documents, tracking order lines to related documents, finding related entries, sending documents by email, and online maps. Another group covers posting: the posting overview, preview before posting, batch posting, general journals, and scheduling jobs with job queues.
+
+## Key points
+
+- Posting: preview entries before posting, post and send or email, and post many documents at once immediately or on a schedule through job queues set up in Sales & Receivables Setup.
+- Documents move through Open, Released, Pending Approval and Pending Prepayment statuses, which control editing and workflow stages.
+- Archive sales, purchase, project and service documents, restore them, and automate retention with retention policies.
+- External file storage can keep attachments in Azure Blob Storage, Azure File Share or SharePoint to reduce database use (Business Central 28.1).
+- Job Queue Entries schedule reports and codeunits one-time or recurring, with status tracking, error notifications and inactivity timeouts.
+- Extended text, comments, user tasks, and digital vouchers (mandatory attachments at posting) add information and control to records.
+- Subtopics: Incoming documents (OCR, conversion to purchase invoices), Workflows (approvals, Power Automate flows), and Exchange data electronically (PEPPOL, SEPA, bank feeds, currency rates).
+- Export any list or journal to Excel with Open in Excel; general journals post directly to G/L with recurring journals, allocations and standard journals.
 
 ## Subtopics
 

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/warehouse-counting",
+  "input_hash": "c4a3d46db8dc053a95e0d812f5d3e1d6ca8e938099fe223e7a21c35c0a3dda62",
+  "summary": "Warehouse counting in Business Central covers physical inventory counts, adjustments and reclassification using orders, recordings and journals. It answers questions about cycle counting, bin-level counts, adjustment bins and how warehouse adjustments reconcile with the item ledger.",
+  "overview": "This area describes how to count inventory and correct differences between counted and recorded quantities. Two working approaches appear: physical inventory orders with inventory recordings, which organize a full counting project by item, location and bin, and journals used for counts, adjustments and reclassification.\n\nA third page is a design reference. It explains how physical inventory and warehouse adjustments connect the item ledger and warehouse bin tracking, using the Whse. Phys. Inventory Journal, the Item Journal and default adjustment bins.\n\nStart with \"Count and adjust inventory\" for the document-based process, or \"Count, adjust, and reclassify inventory\" for the journal-based process including cycle counting. Read the design details page to understand how posting reconciles quantities.",
+  "key_points": [
+    "Physical inventory orders and inventory recordings organize complete counting projects and track counted quantities by item, location and bin.",
+    "The document-based process integrates with item tracking and includes duplicate line detection.",
+    "The 'Count and adjust inventory' page also covers inventory receipts and inventory shipments.",
+    "The journal-based process covers physical inventory counts, adjustments and reclassification, including cycle counting periods and expected inventory calculation.",
+    "Warehouse entries can be synchronized with the item ledger.",
+    "Adjustment bins are used to reconcile counted quantities at bin level.",
+    "The Whse. Phys. Inventory Journal and Item Journal work together with a default adjustment bin to post warehouse adjustments to the item ledger."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:08.400Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010327
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:45.452Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 says inventory receipts and inventory shipments are part of the count and adjust process. The source only lists them as features of the 'Count and adjust inventory' page and does not explain how they relate to counting. I reworded it to stay within the source.",
+      "Everything else in the summary, overview and key points is supported by the page summaries."
+    ],
+    "input_hash": "c4a3d46db8dc053a95e0d812f5d3e1d6ca8e938099fe223e7a21c35c0a3dda62",
+    "cost_usd": 0.0342192
+  }
+}

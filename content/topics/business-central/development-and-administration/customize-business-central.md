@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central
 type: topic
 title: Customize Business Central
-summary: "Learn section Development and administration > Customize Business Central: 30 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a77437993b6aafd1ac4a7e845043e2ec83be3445ed932280b3aa2a53a9c428dc
+  prompts:
+    hub-topic: 1
+  input_hash: 66c8cbf36f1bf8fb711afbe95f2896416695faebcf45f26306ab18ef71ec4660
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -380,14 +381,32 @@ bc_forms:
   - 20353
   - 40027
 member_hash: a77437993b6aafd1ac4a7e845043e2ec83be3445ed932280b3aa2a53a9c428dc
-narrative: none
+narrative: generated
 ---
 
 # Customize Business Central
 
-> Learn section Development and administration > Customize Business Central: 30 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits.
 
-Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · no narrative yet
+Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers the ways to tailor Business Central. The overview page "Customizing Business Central" introduces the approaches: profile customization, experience settings, colored indicators on cues, app installation and page personalization. Start there to pick the right approach.
+
+The remaining pages each cover one task. "Customizing Pages for Roles" explains how administrators change page layouts for profiles and roles. "Enable Premium features" shows how to select the experience level in Company Information. The Cue page explains how to set colored indicators on Role Center tiles.
+
+The subtopic "Customize with extensions" (26 pages) covers installing, uninstalling and managing apps. It also covers individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU), including setup, limits and deprecation status.
+
+## Key points
+
+- Page customization for profiles and roles lets administrators add fields from source tables and control field visibility.
+- Editing of customized pages can be locked or unlocked, and customizations can be managed or cleared.
+- Selecting the Premium experience in Company Information gives access to all functionality, including Manufacturing and Service Management. Essentials is also an experience level.
+- Colored Cue indicators use low, middle and high threshold ranges, each with its own color style.
+- Cue indicators are set up on the Cue Setup page, either company-wide or for individual users.
+- The extensions subtopic covers installing, uninstalling and managing apps.
+- Extensions cover migration, payments, banking, insights, forecasting and country-specific needs for UK, DK and EU, with notes on limits and deprecation.
 
 ## Subtopics
 

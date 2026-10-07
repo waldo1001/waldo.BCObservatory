@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-excel",
+  "input_hash": "a677bf0f4b4146bd24e67e6468fac666364891e0f943e4bc67aaabce30999e40",
+  "summary": "Microsoft Excel integration with Business Central: viewing and editing data in Excel, setting up the Excel add-in for on-premises, importing data from Excel or configuration packages, and building Excel report layouts. It answers how-to and setup questions for these tasks.",
+  "overview": "This section covers the ways Business Central works with Excel. Users can open list data in Excel for analysis or edit it in Excel and publish changes back. They can also import data from other finance systems, and design report layouts as Excel workbooks.\n\nThe pages are independent tasks. Start with \"Viewing and editing in Excel from Business Central\" for the Open in Excel and Edit in Excel actions. On-premises deployments need the add-in set up first, which involves Azure registration and server configuration. \"Use Excel to import data\" covers migration, and \"Working with Excel layouts\" covers report layouts with formulas, PivotTables and PivotCharts.",
+  "key_points": [
+    "Open in Excel exports list data for analysis; Edit in Excel lets users change data and publish it back to Business Central.",
+    "The viewing and editing page lists filter support, multi-environment support and agent mode among its features.",
+    "On-premises Excel add-in setup involves Microsoft Entra authentication, Web API exposure, OData services, SSL/HTTPS and delegated permissions.",
+    "The add-in setup page references 2022 release wave 1 and 2021 release wave 2.",
+    "Data import from other finance systems can use Excel files or configuration packages.",
+    "The default configuration package supports 27 tables covering master data and transactions.",
+    "Excel report layouts can include formulas, PivotTables, PivotCharts and multiple worksheets, including a data sheet."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:35.149Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010741
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:23.617Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point on 2022 release wave 1 and 2021 release wave 2 is accurate but adds little value, because the source does not say what the versions relate to.",
+      "'Agent mode' is repeated as a feature name without explanation. The source gives no more detail, so this is acceptable but vague.",
+      "Calling the pages 'independent tasks' is a small inference, but it is reasonable given there are no subtopics."
+    ],
+    "input_hash": "a677bf0f4b4146bd24e67e6468fac666364891e0f943e4bc67aaabce30999e40",
+    "cost_usd": 0.0343472
+  }
+}

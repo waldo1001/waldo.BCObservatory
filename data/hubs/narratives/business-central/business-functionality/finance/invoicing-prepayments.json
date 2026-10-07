@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/invoicing-prepayments",
+  "input_hash": "154ef9fb79d7fa6d25f1d13faf5bdd6ef5e9f23a0461a1661a7edb9fd7bdcca0",
+  "summary": "Invoicing prepayments covers how to set up, create, post and correct prepayment invoices and credit memos for sales and purchase orders in Business Central. It answers questions about prepayment percentages, accounts, number series, and fixing invoiced prepayments.",
+  "overview": "Prepayments let a company require a customer to pay, or pay a vendor, a percentage or fixed amount before an order is fulfilled. This section explains the setup, the creation of prepayment invoices, and the correction of prepayments already invoiced.\n\nThe pages follow the order of the work. \"Set up prepayments\" covers percentages per item, customer or vendor, prepayment accounts, number series and automatic sales order release when payment is applied. \"Create prepayment invoices\" and \"Invoice prepayments\" describe how invoices are calculated and posted. \"Correct prepayments\" covers prepayment credit memos and additional invoices.\n\nStart with \"Set up prepayments\" if prepayments are not yet configured. If they are already in use, go to \"Create prepayment invoices\" for the fields and test report, or to \"Correct prepayments\" to cancel or adjust an invoice.",
+  "key_points": [
+    "Prepayments apply to both sales orders (customers) and purchase orders (vendors), as a percentage or a fixed amount.",
+    "Prepayment percentages can be set by item and by customer or vendor, and amounts are calculated automatically from these defaults.",
+    "Setup includes prepayment accounts, prepayment posting groups and number series for prepayment documents.",
+    "Order-level fields include Prepayment %, Prepayment Amount, Prepayment Amount Incl. VAT, Compress Prepayment and Prepmt. Payment Terms Code.",
+    "A Prepayment Test Report can be run before posting a prepayment invoice.",
+    "Sales orders can be released automatically when the prepayment payment is applied.",
+    "A prepayment credit memo cancels or adjusts an invoiced prepayment on a sales order.",
+    "Additional prepayment invoices can be posted when more prepayment is needed."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:49.134Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011772999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:18.409Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 lists prepayment posting groups under setup. Only the 'Invoice prepayments' page mentions them, not 'Set up prepayments', but that page covers setup, so the claim is acceptable.",
+      "The overview says the company pays a vendor upfront, while the source says vendors are 'required' to pay. This reading fits purchase orders but the page summary does not confirm it. No change needed."
+    ],
+    "input_hash": "154ef9fb79d7fa6d25f1d13faf5bdd6ef5e9f23a0461a1661a7edb9fd7bdcca0",
+    "cost_usd": 0.0403192
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom
 type: topic
 title: United Kingdom
-summary: "Learn section Business functionality > Local functionality > United Kingdom: 14 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 05541ee8f849bb654f3dbdaaf386e4503f9d66243d0f157c12789bf04eadd8ac
+  prompts:
+    hub-topic: 1
+  input_hash: 021f873ecfa88863cfdf389c96c7082254ba54b42d963d2ba19f837ce1237790
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals
@@ -166,14 +167,31 @@ bc_forms:
   - 10538
   - 10539
 member_hash: 05541ee8f849bb654f3dbdaaf386e4503f9d66243d0f157c12789bf04eadd8ac
-narrative: none
+narrative: generated
 ---
 
 # United Kingdom
 
-> Learn section Business functionality > Local functionality > United Kingdom: 14 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United Kingdom · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United Kingdom · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the features specific to the United Kingdom version of Business Central, as listed for 2025 release wave 2. The landing page gives a short map of the areas: VAT and tax, banking and payments, fixed assets, and general features.
+Three subtopics hold most of the detail. VAT covers Making Tax Digital returns to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. Banking and payments covers check printing in the APACS layout and vendor remittance advice. General covers statutory company information, Ideal Postcodes address lookup, fraud prevention data for Making Tax Digital, and posting date warnings.
+The section's own pages also include a fixed assets article on straight-line depreciation using accounting periods. Start with the landing page to find the area you need, then go to the matching subtopic. For HMRC submissions, read the VAT pages together with the fraud prevention data page under General.
+
+## Key points
+
+- Making Tax Digital VAT returns can be submitted to HMRC from the British version.
+- VAT pages cover journal VAT setup, VAT audit and day book reports, and reverse charge VAT.
+- Payment journals can print checks in the APACS specification layout and print vendor remittance advice.
+- Straight-line depreciation can use up to 13 accounting periods defined in depreciation books.
+- Depreciation is calculated daily and distributed across periods, with 360, 365, or 366-day methods and a Use Accounting Period toggle.
+- General features include statutory company information, Ideal Postcodes address lookup, and posting date warnings.
+- Fraud prevention data setup supports HMRC Making Tax Digital.
+- The landing page describes functionality as of 2025 release wave 2.
 
 ## Subtopics
 

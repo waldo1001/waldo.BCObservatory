@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/canada/tax
 type: topic
 title: Tax
-summary: "Learn section Business functionality > Local functionality > Canada > Tax: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Tax in the Canadian version of Business Central: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax with tax areas and jurisdictions, and configuring unrealized sales tax with sales payment discounts. It answers Canada-specific tax setup and reporting questions."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:19.577Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c128da995cd09c398e623d95d18611baaf72922dbfc230d1487de5a043958d4f
+  prompts:
+    hub-topic: 1
+  input_hash: 09904584f8bffc1084ad10944d3e64532f6abd7c7e8f0f2a8636d55f1fa0c7d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax
@@ -75,14 +76,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: c128da995cd09c398e623d95d18611baaf72922dbfc230d1487de5a043958d4f
-narrative: none
+narrative: generated
 ---
 
 # Tax
 
-> Learn section Business functionality > Local functionality > Canada > Tax: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Tax in the Canadian version of Business Central: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax with tax areas and jurisdictions, and configuring unrealized sales tax with sales payment discounts. It answers Canada-specific tax setup and reporting questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Tax · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Tax · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the tax functionality specific to the Canadian version. It has four pages, each on one task: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax, and configuring unrealized sales tax with sales payment discounts.
+
+Start with the sales tax page if you need to set up tax areas, jurisdictions, tax groups and rates. The GST/HST page covers the reporting side, including provincial sales tax considerations and the file generated for the tax authorities. The use tax and purchase tax page applies to purchases from vendors without a local business presence. The unrealized sales tax page applies when tax recognition and payment discounts need special handling.
+
+## Key points
+
+- Use tax and purchase tax setup handles tax obligations on purchases from vendors without local business presence.
+- GST/HST reporting covers goods and services tax and harmonized sales tax calculations, with provincial sales tax considerations.
+- GST/HST reporting generates tax files for the authorities and mentions GST/HST Internet File Transfer and tax entry records.
+- Sales tax reporting needs tax areas and jurisdictions set up across provinces and the federal level.
+- A document can have up to four tax jurisdictions, with combined tax calculations.
+- Sales tax setup uses tax groups and tax rates.
+- Unrealized sales tax and sales payment discounts are configured for accurate tax recognition and discount handling.
 
 ## Learn pages
 

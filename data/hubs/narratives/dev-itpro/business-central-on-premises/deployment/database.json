@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/deployment/database",
+  "input_hash": "00af84b10dd4595d976160ff9e29c8cd195885a64d84acef7ebc93b257b2a744",
+  "summary": "Database deployment for Business Central on-premises: creating and altering application and tenant databases, SQL Server authentication, SQL Server installation considerations, moving to Azure SQL Database, controlling database size, and fixing SQL connection problems.",
+  "overview": "This section covers the database side of an on-premises Business Central deployment. It explains how to create application and tenant databases for single-tenant and multitenant setups with PowerShell cmdlets, and how to configure SQL Server authentication, including encryption key setup, so server instances can connect.\n\nFurther pages cover SQL Server installation choices (disk partitioning, virus scanning, TempDB, MAXDOP, full-text search, statistics), running the database on Azure SQL Database through a BACPAC export and import, and keeping database size under the limit with company deletion, retention policies and compression. A troubleshooting page covers connection failures.\n\nStart with creating the databases, then configure authentication. Read the SQL Server installation page when planning the server. Use the size and troubleshooting pages when operating an existing deployment.",
+  "key_points": [
+    "Databases are created as application and tenant databases, using cmdlets such as New-NAVApplicationDatabase, Mount-NAVTenant and Sync-NAVTenant; after creation, publish extensions and add companies.",
+    "Database authentication uses SQL Server authentication with an encryption key, configured on the database and the server instance, for single-tenant and multitenant deployments.",
+    "SQL Server installation guidance covers disk partitioning, virus scanning, memory, TempDB, full-text search, MAXDOP, statistics management and high availability, for on-premises and Azure.",
+    "Azure SQL Database deployment involves preparing the database, exporting a BACPAC, importing it to Azure, configuring the firewall and setting server instance authentication.",
+    "Ways to reduce database size: delete unused companies, delete documents, apply retention policies, and enable data compression (CompressionType property).",
+    "For connection problems, enable Named Pipes and TCP/IP in SQL Server Configuration Manager, allow SQL Server through Windows Firewall, and start SQL Browser Service for named instances."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:54.090Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014147000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:11.221Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the authentication page also lists Windows authentication and mixed authentication mode, and the narrative mentions only SQL Server authentication. This isn't wrong, just narrower than the page.",
+      "Minor: database collation from the database creation page isn't mentioned. This is optional."
+    ],
+    "input_hash": "00af84b10dd4595d976160ff9e29c8cd195885a64d84acef7ebc93b257b2a744",
+    "cost_usd": 0.0319152
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/development-environment/testing",
+  "input_hash": "f871c73d3f458fa1ebd194ecd471504522373f156c55d02a13fb629f2c31bead",
+  "summary": "Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.",
+  "overview": "The section describes how to build and run automated tests for Business Central apps. It starts with an overview of application testing, then goes into the building blocks: test codeunits and test methods, test pages that simulate user interaction, handler methods that intercept messages, confirmations, pages, reports and notifications, and test runner codeunits that control execution and logging.\n\nFurther pages cover running tests. Test Explorer in Visual Studio Code discovers and runs AL tests with run profiles and code coverage. The page scripting tool records and replays web client interactions for acceptance testing, and the Performance Toolkit extension simulates workloads to find performance regressions. A separate page explains how to mock outbound HttpClient calls during tests, which is available on-premises only. A worked example for purchase invoice discounts shows the pieces together, and an FAQ lists what testing an app needs.\n\nStart with the testing overview, then the test codeunits and test pages articles, and use the purchase invoice discount example as a template. Go to the FAQ for testing expectations such as country and upgrade testing.",
+  "key_points": [
+    "Test codeunits and test methods use attributes such as TransactionModel and TestDataSource, plus the TestIsolation and TestHandlers properties.",
+    "Handler methods (MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler) replace user interaction in automated tests.",
+    "Test runner codeunits use the TestRunner subtype with OnRun, OnBeforeTestRun and OnAfterTestRun triggers for unattended runs and result logging.",
+    "Test pages simulate user actions: reading and changing fields, filtering, invoking actions, and navigating records.",
+    "Mocking outbound HttpClient calls uses HttpClientHandler and HandlerFunctions attributes and request policies; it is available on-premises only.",
+    "Test Explorer in Visual Studio Code supports test discovery, run profiles, code coverage and debugger use; the page is tagged with 2026 release wave 1 (version 28.0).",
+    "The page scripting tool records and replays web client interactions, supports validation, conditional and wait steps and parameters, and runs in pipelines with bc-replay.",
+    "The Performance Toolkit lets ISVs and VARs simulate concurrent sessions, compare to baselines, and report through telemetry and Power BI."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:13.420Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018315
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:01.735Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 says 'the summary mentions 2026 release wave 1 (version 28.0)'. That talks about the source material rather than the topic, so an agent can't act on it. Reworded to say the page is tagged with that release, without claiming it is the first release that has the feature.",
+      "The overview leaves out the page on mocking outbound HttpClient calls, even though the summary and key points cover it. Added one sentence about it, including the on-premises-only limit.",
+      "Minor: TestIsolation is listed as a feature on both the test codeunits page and the test runner page. The current wording is acceptable."
+    ],
+    "input_hash": "f871c73d3f458fa1ebd194ecd471504522373f156c55d02a13fb629f2c31bead",
+    "cost_usd": 0.060639200000000004
+  }
+}

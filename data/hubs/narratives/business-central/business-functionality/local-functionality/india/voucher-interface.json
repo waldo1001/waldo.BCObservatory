@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/voucher-interface",
+  "input_hash": "22a146c898cd695d0c304153933b527b85dc90019202ce296ee596d9a68d0b55",
+  "summary": "Voucher interface for India in Business Central covers recording day-to-day transactions with journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers. It answers questions about voucher types, journal templates and batches, mandatory fields, and GL entry examples.",
+  "overview": "The voucher interface is an India local functionality for recording daily transactions through voucher types: journal, bank receipt, bank payment, cash receipt, cash payment, and contra. It uses journal templates and batches that can be configured for these voucher types.\n\nThe section has two pages and no subtopics. The overview page introduces the feature and the six voucher types. The transaction page shows how to record each voucher, with the mandatory fields and GL entry examples for Indian operations.\n\nStart with the overview page to understand the voucher types and the template and batch setup. Then use the transaction page when you need to enter a specific voucher or check the resulting GL entries.",
+  "key_points": [
+    "Six voucher types are supported: journal, bank receipt, bank payment, cash receipt, cash payment, and contra.",
+    "Journal templates and batches are configurable for the voucher interface.",
+    "The feature is for recording day-to-day transactions in Indian operations.",
+    "The transaction page lists mandatory fields for the cash, bank, contra, and journal vouchers.",
+    "The transaction page gives GL entry examples for the vouchers.",
+    "The section has two pages: an overview and a transactions page."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:30.343Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008659
+  }
+}

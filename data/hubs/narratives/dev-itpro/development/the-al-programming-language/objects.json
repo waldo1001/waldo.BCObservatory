@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/the-al-programming-language/objects",
+  "input_hash": "307b330e95d977913a4905c62ffaa7ee32ac658ecdfaef771ed17d067786ab9c",
+  "summary": "AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it.",
+  "overview": "This section describes the object types you write in AL. Each page covers one object type, its syntax and its main properties. The types fall into groups: data (table, table extension, table keys, extensible enums, query), logic (codeunit), user interface (page, page extension, page customization, profile, control add-in), output and exchange (report, XMLport), and security and licensing (permission set, permission set extension, entitlement).\n\nExtension-related pages show how to change existing objects without editing the base. Page extensions add or move controls and actions, page customizations apply limited layout changes to specific profiles, table extensions add fields, keys and triggers, and permission set extensions add permissions. Profiles tie a role center to optional page customizations.\n\nStart with the Table object and Page object pages for the basics. Then read the extension pages for the object you want to change, and the Codeunit page for business logic. Use the permission set and entitlement pages when you package or monetize an app.",
+  "key_points": [
+    "Codeunits hold reusable business logic and procedures, and can use an OnRun trigger.",
+    "Page extensions use keywords such as addfirst, addlast, addafter, addbefore, modify and the move keywords. Page customizations are more limited: they have no variables, procedures or triggers and apply to specified profiles.",
+    "Table objects cover fields, keys, triggers and the Extensible property. Table extensions add fields, keys and trigger code without changing the base table.",
+    "Table keys can be primary or secondary, unique or clustered, and can include extra fields with IncludedFields.",
+    "Extensible enums can be extended through enumextension objects and used as table fields, variables and parameters.",
+    "Reports support RDL, Word and Excel layouts plus request pages. XMLports import and export XML data. Queries join data from several tables through dataitems and columns.",
+    "Control add-ins show custom HTML, CSS and JavaScript content in iframes on pages, set with properties such as Scripts, StartupScript, StyleSheet and Images.",
+    "Permission sets can be composed with included and excluded sets, and permission set extensions add permissions on install. Entitlements define object access by license or Microsoft Entra role, to support Marketplace app transactability."
+  ],
+  "members_used": 16,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:21.815Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020921000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:06.484Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says page customizations apply 'limited layout changes'; the source says layout and action changes. Minor omission.",
+      "Summary's object list omits page customization and permission set extension, though the overview covers them.",
+      "Reading-order guidance in the overview is the writer's own advice, not from the sources, but it is reasonable."
+    ],
+    "input_hash": "307b330e95d977913a4905c62ffaa7ee32ac658ecdfaef771ed17d067786ab9c",
+    "cost_usd": 0.0553432
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Netherlands > Banking & payments: 15 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking and payments in the Dutch (Netherlands) version of Business Central: telebanking, payment and collection proposals, payment history export, cash/bank/giro journals, bank statement import, and SEPA ISO 20022 payments. It answers how-to and setup questions for domestic and foreign payment flows."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:15.891Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b1d5040fdad2b49c52c0e4565715e86cb42eb018ba34e359379ca62d3936e674
+  prompts:
+    hub-topic: 1
+  input_hash: fd434d8dfe73b622c0390eca8c06d731d8dc65dc46d00cb94fd9f9d6e6b35123
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments
@@ -163,14 +164,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: b1d5040fdad2b49c52c0e4565715e86cb42eb018ba34e359379ca62d3936e674
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Netherlands > Banking & payments: 15 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments in the Dutch (Netherlands) version of Business Central: telebanking, payment and collection proposals, payment history export, cash/bank/giro journals, bank statement import, and SEPA ISO 20022 payments. It answers how-to and setup questions for domestic and foreign payment flows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Dutch localization of electronic banking. It explains telebanking, which handles payment and collection proposals, payment histories, and bank statement import and export, and the cash, bank and giro journals used to post and reconcile transactions.
+
+The pages follow the workflow. Create proposals from vendor and customer ledger entries, turn them into payment history and export it with a supported protocol (BTL91, BBV or PAYMUL), then import bank statements and reconcile them in the Bank/Giro Journal. Three scenario pages walk through the full cycle for domestic (LCY to LCY), foreign same-currency (FCY to FCY) and foreign mixed-currency (LCY to FCY) payments.
+
+Start with Dutch Electronic Banking and Telebanking for the overview, then the proposal and payment history how-tos. For SEPA, read the SEPA overview, then activate SEPA payments and submit vendor payments in ISO 20022 format.
+
+## Key points
+
+- Dutch electronic banking covers telebanking, payment files, direct debit files, bank statement import, payment proposals and giro journals.
+- Proposals can be created manually or automatically from vendor and customer ledger entries using the Get Proposal Entries batch job.
+- Payment history can be created from proposals and exported using BTL91, BBV or PAYMUL protocols.
+- Docket reports give detailed payment information when ledger entries are combined into a single payment order; enable them with the Docket checkbox.
+- Bank statements are imported electronically (including Rabobank protocols and SEPA CAMT) and reconciled automatically in the Bank/Giro Journal.
+- Test reports for cash and bank/giro journals preview posting effects and show applied entries before posting.
+- Activating SEPA requires configuring transaction modes with SEPA export protocols (such as SEPA CT and SEPA DD, ISO 20022) and checking vendor transaction modes.
+- Three payment scenarios are documented: LCY to LCY, FCY to FCY, and LCY to FCY.
 
 ## Learn pages
 

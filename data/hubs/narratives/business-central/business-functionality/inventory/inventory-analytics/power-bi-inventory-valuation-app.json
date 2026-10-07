@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-valuation-app",
+  "input_hash": "6c2013ee701e1f2073b4104ed194e5c956dbb0452370d30c005956fd41946650",
+  "summary": "The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.",
+  "overview": "The Power BI Inventory Valuation app gives executives and managers a view of inventory value across the organization. It helps them find the locations and items that hold the most stock value and make cost decisions based on that.\n\nThe section has a landing page that introduces the app, three reports, and one reference page. The Overview report gives a high-level view of total inventory value and movements. The by Item and by Location reports break value down item by item or location by location. Each shows beginning balance value, increases and decreases, and ending balance value for a chosen period.\n\nStart with the landing page for the scope of the app, then open the report page that matches your question. Use the KPIs and measures page when you need the formulas and data sources behind the numbers in the semantic model.",
+  "key_points": [
+    "The app has three reports: Inventory Valuation Overview, Inventory Valuation by Item, and Inventory Valuation by Location.",
+    "The Overview report shows Ending Balance Value, Ending Balance Posted to G/L, Variance, Invoiced Quantity, Increases Quantity and Decrease Qty.",
+    "The by Item report shows beginning balance value, increases, decreases and ending balance value per item, to identify high-value items.",
+    "The by Location report shows the same period values per location, to identify high-value locations.",
+    "The KPIs and measures page lists the semantic model measures with formulas and data sources, such as Beginning Balance G/L, Cost Amount, Cost Posted to G/L and Variance.",
+    "The by Item and by Location reports show values for a specified period.",
+    "The intended audience is executives and managers making strategic and cost decisions."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:03.456Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011914999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:04.115Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 6 (by Item and by Location show values for a specified period) repeats what key points 3 and 4 already say and adds little.",
+      "The by Location page summary does not name executives and managers as its audience. The audience claim still holds because the landing page and the Overview page support it."
+    ],
+    "input_hash": "6c2013ee701e1f2073b4104ed194e5c956dbb0452370d30c005956fd41946650",
+    "cost_usd": 0.0289472
+  }
+}

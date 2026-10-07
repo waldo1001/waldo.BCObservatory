@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports
 type: topic
 title: Developing reports
-summary: "Learn section Development > Programming in the AL language > Developing reports: 54 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Developing reports in AL for Business Central: report objects, datasets, request pages, layouts, report extensions, substitution, obsoleting, testing, telemetry and performance. It answers how to build, extend, format, test, troubleshoot and tune reports."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:04.589Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 86f764373eee65f2aaea2ba6017998ee632ccc264ede4a68720e19417f2f99bf
+  prompts:
+    hub-topic: 1
+  input_hash: 13a20f26679284b15669c3b9876a3862e164c2250d02e3732fc9a9be83e86e4d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -326,8 +327,8 @@ links:
   localizations: []
   videos:
     - video/eUkx_VCcyoU
-    - video/M1S2_bgLd3Q
-  posts: []
+  posts:
+    - post/thinkaboutit-be/7181
   guidelines: []
 learn_toc_path:
   - Development
@@ -345,8 +346,8 @@ children:
 coverage:
   learn: 54
   code: 0
-  video: 2
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 21
@@ -362,14 +363,33 @@ bc_forms:
   - 9666
   - 9882
 member_hash: 86f764373eee65f2aaea2ba6017998ee632ccc264ede4a68720e19417f2f99bf
-narrative: none
+narrative: generated
 ---
 
 # Developing reports
 
-> Learn section Development > Programming in the AL language > Developing reports: 54 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Developing reports in AL for Business Central: report objects, datasets, request pages, layouts, report extensions, substitution, obsoleting, testing, telemetry and performance. It answers how to build, extend, format, test, troubleshoot and tune reports.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers the full life of an AL report. The core pages explain the report object, how a dataset is built from data items and columns, and how request pages let users set options and filters before a run. Layouts (Word, Excel, RDL) are described in the report overview and the layouts subtopic.
+
+Extending and changing existing reports is handled by report extension objects, with an example page, and by report substitution through the OnAfterSubstituteReport event. Obsoleting reports gives guidance for retiring reports in Marketplace apps and per-tenant extensions.
+
+For quality and operations there are pages on testing report output, report generation telemetry, performance analysis and troubleshooting. Subtopics cover formatting data, layouts, discoverability, triggers and events, how users run reports, and the AL language reference. Start with Reports overview and Report object, then the walkthrough for designing a report from multiple tables.
+
+## Key points
+
+- A report is built from a dataset (data items and columns), one or more layouts (Excel, Word, RDL) and an optional request page.
+- Request pages use properties such as RequestFilterFields and SaveValues to let users set options and filters before a run.
+- Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports (2022 release wave 1 is cited).
+- Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; since 2021 release wave 1, report extensions are an alternative.
+- Obsoleting uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1.
+- Test reports with Codeunit 131007 Library - Report Dataset, using methods such as RunReportAndLoad and AssertElementWithValueExists.
+- Report generation telemetry tracks successful, failed and canceled runs, with dataset and rendering time, and supports performance work such as read scale-out and background scheduling.
+- A walkthrough shows designing an RDL report from multiple tables with filtering, totaling and an Excel layout.
 
 ## Subtopics
 
@@ -401,8 +421,8 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
-- [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
 
 ## Business Central pages and reports
 

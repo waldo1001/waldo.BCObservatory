@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-onedrive",
+  "input_hash": "038da04a5cd3e7ef0679db97e1b79d306e516579b8300bb6eccd1406147cce52",
+  "summary": "Microsoft OneDrive integration in Business Central: opening and sharing files in OneDrive for Business, saving Excel workbooks and report files, and admin setup for online and on-premises deployments. It answers how-to, configuration and FAQ questions.",
+  "overview": "OneDrive integration lets Business Central users store, open, share and collaboratively edit files such as reports and Excel workbooks in OneDrive for Business. It works across the web, mobile, Teams and Outlook clients.\n\nAdministrators set it up with the OneDrive Setup assisted guide. Setup is automatic for online deployments and manual for on-premises. The on-premises page covers registering an app in Microsoft Entra ID, setting up the connection, testing it and migrating from legacy SharePoint settings. The management page covers data residency, privacy controls and multi-environment setup.\n\nStart with the overview page, then use the management or on-premises configuration page for setup. The FAQ gives quick answers. The page on opening files in OneDrive is for end users who share files and set link permissions.",
+  "key_points": [
+    "Users can open Business Central files in OneDrive and share them with specific people.",
+    "Sharing options include the Share action, send link, copy link, link settings and permissions.",
+    "Excel workbooks and report files can be saved to OneDrive.",
+    "Admins configure the integration with the OneDrive Setup assisted guide.",
+    "Online deployments are set up automatically, while on-premises needs manual setup.",
+    "On-premises setup requires an application registered in Microsoft Entra ID, plus connection testing.",
+    "The on-premises page covers migration from legacy SharePoint settings and mentions versions 19, 20 and 21.",
+    "The management page covers data residency, privacy controls and multi-environment setup."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:32.697Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:44.894Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point about the on-premises page mentioning versions 19, 20 and 21 is supported but of low value; the release waves apply to individual pages, not the whole feature. It could be replaced with something more useful, such as availability across web, mobile, Teams and Outlook clients.",
+      "Describing the page on opening files in OneDrive as 'for end users' is a reasonable guess from its content but is not stated in the page summary.",
+      "'Requires ... connection testing' slightly overstates the source, which lists connection testing as a feature, not a required step."
+    ],
+    "input_hash": "038da04a5cd3e7ef0679db97e1b79d306e516579b8300bb6eccd1406147cce52",
+    "cost_usd": 0.040963200000000005
+  }
+}

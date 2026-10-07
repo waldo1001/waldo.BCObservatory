@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/actions
 type: topic
 title: Actions
-summary: "Learn section Development > Programming in the AL language > Pages and the user interface > Actions: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Actions in Business Central AL pages: how to add, organize and promote actions, the modern action bar with split buttons, common promoted action groups, and prompt actions that launch Copilot. Answers questions on actionref syntax, action areas, placement guidelines and release-wave behavior changes."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:18.859Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6040fdb53303e6be71482e6d4a51ec85423a87274a55ffd2b1d830e3ec669f89
+  prompts:
+    hub-topic: 1
+  input_hash: 0ffb401f134b2bfc8d059d163be545b2bf545dad23fa8498453553a4a01b8b70
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -123,14 +124,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6040fdb53303e6be71482e6d4a51ec85423a87274a55ffd2b1d830e3ec669f89
-narrative: none
+narrative: generated
 ---
 
 # Actions
 
-> Learn section Development > Programming in the AL language > Pages and the user interface > Actions: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Actions in Business Central AL pages: how to add, organize and promote actions, the modern action bar with split buttons, common promoted action groups, and prompt actions that launch Copilot. Answers questions on actionref syntax, action areas, placement guidelines and release-wave behavior changes.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+Actions are the commands users run from Business Central pages. This section explains how to define them in AL, place them in action areas and menus (Actions, New Document, Navigate, Report), and promote frequently used ones to the action bar. It also covers icons, keyboard shortcuts, the RunObject property and Power Automate flow integration.
+
+The pages split into three groups. Basics: Actions overview, Adding actions to a page and Actions in the user interface (page-level and part-level actions, placement, split buttons). Promoted actions: Promoted actions, Organizing Promoted Actions, Common Promoted Action Groups and Behavioral Changes for Promoted Actions, which cover actionref syntax, legacy category syntax, grouping and visibility rules. Action bar changes: Action bar improvements, Pages with Action Bar Improvements, and Prompting using a floating action bar for Copilot prompt actions.
+
+Start with Actions overview and Adding actions to a page. Then read Promoted actions and Organizing Promoted Actions. Check the behavioral changes page if you are migrating older code or see differences in visibility or personalization.
+
+## Key points
+
+- Actions are placed in areas and menus such as Actions, New Document, Navigate and Report, and can be grouped, given icons and keyboard shortcuts, and use RunObject.
+- Promoted actions use actionref syntax with split button groups; the legacy PromotedCategory syntax is still supported, with gradual migration between styles.
+- 2022 release wave 2 changed promoted action behavior: new actionref syntax, better personalization, different visibility inheritance and recursive group rendering.
+- Promote only frequently used actions, organize by page type and user needs, and use subgroups when there are more than 7 actions.
+- Common promoted groups give standard patterns, such as Home/Process, Posting, Release, Approve, Entry, and Report.
+- In 2024 release wave 1 the modern action bar is default, with split buttons, a pinned Home tab, and a toggle for the legacy action bar.
+- A list of pages updated with action bar improvements in 2022 release wave 2 (version 21.0) covers card, list, document and worksheet pages.
+- Prompt actions launch Copilot PromptDialog pages from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, using a Sparkle image and capability registration (2024 release wave 1, runtime 13 and 14).
 
 ## Learn pages
 

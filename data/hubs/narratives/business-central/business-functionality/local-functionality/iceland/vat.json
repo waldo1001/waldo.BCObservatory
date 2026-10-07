@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/iceland/vat",
+  "input_hash": "878611df273fb0335161fccec5f9053ac3580d359f43058d0c030a98ab47933b",
+  "summary": "VAT functionality for Iceland in Business Central. It covers printing VAT summary information on sales and purchase documents, and mapping chart of accounts entries to IRS tax numbers for data files sent to the tax authorities.",
+  "overview": "This section holds two Iceland-specific pages about VAT and tax reporting. It has no subtopics, so everything sits in these two pages.\n\nThe first page explains how to show VAT summary information on Icelandic sales and purchase documents. By default VAT is hidden when only one VAT code is used. Turning on the Always Show VAT Summary option overrides that behavior.\n\nThe second page covers special data output and reports for the tax authorities. You set up IRS tax numbers for the chart of accounts by mapping general ledger accounts to predefined government account codes. This lets you generate compliant data files. Start with the page that matches your task: document printing or tax authority reporting.",
+  "key_points": [
+    "Always Show VAT Summary prints VAT summary information on Icelandic sales and purchase documents.",
+    "Without that option, VAT is hidden on documents when only one VAT code is used.",
+    "IRS tax numbers are set up for the chart of accounts in Iceland.",
+    "General ledger accounts are mapped to predefined government account codes.",
+    "The mapping supports generating compliant data files for the tax authorities.",
+    "The section covers VAT reporting, account grouping and tax compliance for Iceland."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:19.990Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008163
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/develop/embed-apps",
+  "input_hash": "3a711f9e05ee5bf418cc1b57b7252ae640e43ba4cd017b66f74fb5f7f88066cf",
+  "summary": "Embed apps in Business Central are partner-branded solutions built on the platform. This section covers what an embed app is, partner qualification, use of the application family name in URLs, deployment through LCS, access management for customers, and the App Management API.",
+  "overview": "An embed app is a partner-branded solution built on Business Central. It includes library extensions, third-party extensions, custom metadata, and optionally a code-customized base application. Partners can brand it, control exclusivity, and use .NET interoperability. The overview page also mentions version 16.\n\nStart with the overview and the qualification page. The qualification page lists the partner requirements: 24/7 support, user assistance standards, platform support commitment, SLA agreements with Microsoft, and volume requirements for customized applications. The application family page then explains how the family name appears in URLs and endpoints across the web client, web services, mobile apps, the administration center, Marketplace, Power BI, and Excel.\n\nThree subtopics cover operations. Deployment explains how to build packages (BACPACs, branding, manifest.json) and how ISVs use Lifecycle Services to upload, deploy to rings, and onboard customers. Application Access Management controls which customers can create online environments. App Management describes the API for deployments, updates, and customer environments.",
+  "key_points": [
+    "An embed app combines library extensions, third-party extensions, custom metadata, and optionally a code-customized base application.",
+    "Capabilities include partner branding, web client customization, exclusivity controls, third-party app safe listing, and .NET interoperability.",
+    "Qualification requires 24/7 support, user assistance standards, platform support commitment, SLAs with Microsoft, and volume requirements for customized applications.",
+    "The application family name is used in web client, web services, and mobile app URLs, and also in the administration center, Marketplace, Power BI, and Excel.",
+    "Deployment packages use BACPACs, branding, and manifest.json, and ISVs upload and deploy them to rings through LCS.",
+    "Application Access Management lets ISVs and VARs enable access control, register VARs, approve tenants, and use its API.",
+    "The App Management API covers ISV update workflows and upgrading apps with breaking changes using ForceSync."
+  ],
+  "members_used": 3,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:26.856Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013269
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:18.746Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview sentence 'The overview page also mentions version 16' has support in the inputs but tells the agent nothing, because no context is given for the version. Consider removing it or explaining why it matters.",
+      "Key point 7 does not mention the API entities or the management of deployments and customer environments. The overview does cover them, so this is minor.",
+      "The Deployment subtopic also covers database requirements, which the narrative leaves out. This is a small omission."
+    ],
+    "input_hash": "3a711f9e05ee5bf418cc1b57b7252ae640e43ba4cd017b66f74fb5f7f88066cf",
+    "cost_usd": 0.0288152
+  }
+}

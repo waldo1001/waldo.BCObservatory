@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sustainability-management/sustainability-analytics
 type: topic
 title: Sustainability analytics
-summary: "Learn section Business functionality > Sustainability management > Sustainability analytics: 17 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Sustainability analytics in Business Central covers ways to analyze sustainability data: ad-hoc Data Analysis, financial reports, standard sustainability reports, external ESG reporting for CSRD, and the Power BI sustainability app. It answers questions about which tool to use for emissions, CO2e, carbon fee and ESG analysis."
 tier: official
 language: en
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e7cb1aeb05146f784488bc3bf0c3803de2d15813953754f4413bd0f5a56016a4
+  prompts:
+    hub-topic: 1
+  input_hash: 3bb6749036eb5117317a95499974390d928cbfb8db881e4f0a13650eb392357d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability
@@ -176,14 +177,32 @@ bc_forms:
   - 6221
   - 36951
 member_hash: e7cb1aeb05146f784488bc3bf0c3803de2d15813953754f4413bd0f5a56016a4
-narrative: none
+narrative: generated
 ---
 
 # Sustainability analytics
 
-> Learn section Business functionality > Sustainability management > Sustainability analytics: 17 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Sustainability analytics in Business Central covers ways to analyze sustainability data: ad-hoc Data Analysis, financial reports, standard sustainability reports, external ESG reporting for CSRD, and the Power BI sustainability app. It answers questions about which tool to use for emissions, CO2e, carbon fee and ESG analysis.
 
-Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability analytics · tier official · system sustainability · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability analytics · tier official · system sustainability · narrative reviewed by Opus
+
+## Overview
+
+This area groups the analysis and reporting options for sustainability data in Business Central. Some work inside the client: Data Analysis on list pages for sustainability ledger entries, financial reports that mix sustainability, carbon fee and CO2e data with financial and statistical data, and standard reports with the Role Explorer.
+
+Other pages cover external reporting and dashboards. The External ESG reporting page describes CSRD-oriented reporting through Dataverse integration, assessments and posted reports. The Power BI sustainability app subtopic (13 pages) covers the app, its reports, the semantic model, and the KPIs and measures.
+
+To start, pick the page that matches the task. For quick exploration, use ad-hoc analysis. For reports built on accounts, use financial reporting. For dashboards across emissions, water, waste, social, target and baseline data, go to the Power BI app. For CSRD compliance, go to External ESG reporting.
+
+## Key points
+
+- Ad-hoc analysis uses the Data Analysis feature, with pivot mode, on sustainability ledger entries from list pages.
+- Sustainability financial reporting uses row and column definitions to show sustainability accounts, carbon fees and CO2e next to financial data.
+- The Track Item of Concern report monitors inbound and outbound transactions of items marked with the Item of Concern field.
+- The Role Explorer and the Sustainability FastTab support emissions analysis and high emission tracking.
+- External ESG reporting for CSRD needs Dataverse integration, assessment templates, data source configuration, ESG data synchronization and report calculation.
+- ESG reports are posted, and posted reports can be reviewed afterward.
+- The Power BI sustainability app has reports for emissions, water, waste, social (ESG), targets and baselines, plus a documented semantic model and KPIs.
 
 ## Subtopics
 

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-teams",
+  "input_hash": "d9e455c68cf6609eb1423527f2fedfe76754bdbbdd9f0a2604008c701e027158",
+  "summary": "Microsoft Teams integration with Business Central: installing the Business Central app in Teams, searching for contacts, sharing records and page links as interactive cards, adding Business Central tabs, changing company settings, and administrator management including licensing and deployment.",
+  "overview": "This section describes how Business Central works inside Microsoft Teams. Users install the Business Central app, then look up contacts such as customers, vendors, and prospects from the command box or message compose area. They can share records as interactive cards or share page links into chats and channels, and add Business Central tabs that show list and card pages.\n\nThe pages fit together as a path from setup to daily use. Start with the integration overview, then the install page. After that, use the pages on contact search, record sharing, and tabs. The settings page covers switching environment or company and managing the account connection.\n\nAdministrators have two pages. One covers managing the integration: licensing, permissions, card data visibility, centralized app deployment through Teams app setup policies, and data retention and compliance settings. The other covers letting Microsoft 365 licensed users access data in Teams without a Business Central license.",
+  "key_points": [
+    "The Business Central app for Teams lets users look up contacts, share records with interactive cards, and share page links.",
+    "The app can be installed from the Teams marketplace (app store) or through a direct link.",
+    "Contacts such as customers, vendors, and prospects can be searched from the Teams command box or the message compose area.",
+    "Business Central tabs can be added to Teams channels and chats to show list and card pages, using recommended content or page links.",
+    "The settings page in the app switches environments and companies and manages sign in, sign out, and account connections.",
+    "Administrators control licensing, permissions, card data and record summary visibility, and centralized deployment through Teams app setup policies.",
+    "Messaging policies, data retention, and compliance settings are part of administrator management.",
+    "Environments can be configured so Microsoft 365 licensed users access Business Central data in Teams chats and channels without a Business Central license, with object access configuration."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:45.930Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013599
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:32.875Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview's suggested reading order (overview, install, then usage pages) is editorial framing rather than something stated in the sources, but it is harmless.",
+      "The summary reads as a feature list more than guidance for an agent; this is acceptable."
+    ],
+    "input_hash": "d9e455c68cf6609eb1423527f2fedfe76754bdbbdd9f0a2604008c701e027158",
+    "cost_usd": 0.0378192
+  }
+}

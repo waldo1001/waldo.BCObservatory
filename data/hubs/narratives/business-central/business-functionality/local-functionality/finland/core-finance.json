@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/finland/core-finance",
+  "input_hash": "82f93f5de17ff0568239b3090ee4a2c49e7d6c8d6506237565440003ed73b9b1",
+  "summary": "Core finance for the Finnish version of Business Central covers automatic account codes, automatic account posting group setup, and posting of depreciation differences to the general ledger. It answers questions about Finland-specific finance posting setup and depreciation required by Finnish tax law.",
+  "overview": "This section holds three pages on Finland-specific finance functionality. Two deal with automatic account codes: one describes the feature and the other explains how to set up automatic account posting groups. The third covers posting depreciation differences.\n\nThe automatic account code pages work together. The concept page points to the setup procedure and to posting group documentation, and the setup page points back to the concept. Start with the automatic account codes page to understand the purpose, then follow it to the setup page to configure the posting groups.\n\nThe depreciation page is separate. It describes calculating and posting to the general ledger the difference between straight-line and declining balance depreciation, as Finnish tax law requires.",
+  "key_points": [
+    "Automatic account codes in the Finnish version enable automatic posting group setup for finance operations.",
+    "Automatic account posting groups are set up to configure automatic account code posting.",
+    "The automatic account codes page and the setup page link to each other and to posting group documentation.",
+    "Posting depreciation differences calculates the difference between straight-line and declining balance depreciation.",
+    "The depreciation difference is posted to the general ledger.",
+    "The depreciation difference posting is required by Finnish tax law.",
+    "The section has no subtopics, only three pages."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:46.190Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008733
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:27.653Z",
+    "verdict": "approve",
+    "issues": [
+      "The summary says 'depreciation required by Finnish tax law'. The source says Finnish tax law requires calculating and posting the difference between straight-line and declining balance depreciation, not depreciation in general. 'Depreciation difference posting required by Finnish tax law' would be more precise.",
+      "Three key points split one fact about the depreciation page into separate parts (calculation, posting to the general ledger, tax law requirement). They could be merged into one point, but nothing in them is wrong."
+    ],
+    "input_hash": "82f93f5de17ff0568239b3090ee4a2c49e7d6c8d6506237565440003ed73b9b1",
+    "cost_usd": 0.0255832
+  }
+}

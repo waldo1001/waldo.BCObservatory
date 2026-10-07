@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat
 type: topic
 title: Integrating with Microsoft Power Automate
-summary: "Learn section Integration > Integrating with Microsoft Power Platform > Integrating with Microsoft Power Automate: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Power Automate integration with Business Central: how administrators set up access and permissions, how to create automated and instant flows, and how to manage existing flows. It answers questions about triggers, actions, the Business Central connector, Teams integration, and flow management."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
+  prompts:
+    hub-topic: 1
+  input_hash: b90f5a0b2c8d9c85e30bad22ab12c49cae7ce69dcf3c3effc7299c6def7856c4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows
@@ -69,7 +70,7 @@ links:
     - video/T63y0F_38SI
     - video/YTA8c2XyTX4
   posts:
-    - post/aardvarklabs-blog/3579
+    - post/aardvarklabs-blog/2907
     - post/aardvarklabs-blog/3631
   guidelines: []
 learn_toc_path:
@@ -87,14 +88,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Microsoft Power Automate
 
-> Learn section Integration > Integrating with Microsoft Power Platform > Integrating with Microsoft Power Automate: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Power Automate integration with Business Central: how administrators set up access and permissions, how to create automated and instant flows, and how to manage existing flows. It answers questions about triggers, actions, the Business Central connector, Teams integration, and flow management.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Automate · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Automate · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+Power Automate integration brings no code/low code workflows to Business Central. Flows can be automated, started by Business Central events, or instant, started manually by a user. Both types use the Business Central connector with triggers and actions to connect to cloud services.
+
+The pages follow a natural order. Start with the integration overview for concepts, then the setup page, where administrators control access through permissions and privacy notice agreements. Next, choose the guide for the flow type: automated workflows (triggers, actions, dynamic content, adaptive cards, Teams) or instant flows (the For a selected record trigger and manual flows). Finally, the manage page covers editing and monitoring flows that already exist.
+
+## Key points
+
+- Two flow types: automated flows triggered by Business Central events, and instant flows triggered on demand by users.
+- Administrators control access to Power Automate features through the Allow Action Automate permission, permission sets, and privacy consent.
+- The Automate action group in Business Central is where users reach flow features; telemetry tracking is mentioned in the setup page.
+- Automated flows are built from triggers, actions, and dynamic content, and can use adaptive cards and Microsoft Teams integration.
+- Instant flows can use the For a selected record trigger, flow templates, flow parameters, and Power Automate environments.
+- Existing flows can be edited, inspected for details and history, and managed from Power Automate or the Manage Flows interface in Business Central.
+- Manage Flows covers run-only permissions and process insights.
 
 ## Learn pages
 
@@ -108,7 +125,7 @@ Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Pl
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Power Automate acts as middleware between the ESP32 and Business Central"
+- [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions page lists all subscriptions, events, and notification URLs"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Using Power Automate for Business Central SFTP handles file uploads"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Job Queue Business Event and Templates; Power Automate New Designer Support"
 - [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; power automate; copilot; flow creation"

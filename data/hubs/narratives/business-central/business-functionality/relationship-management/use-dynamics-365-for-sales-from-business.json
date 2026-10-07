@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business",
+  "input_hash": "cb43b8a8dee99abf06eb1ba3ab1ce8a9ce8978427b81e9b70bd3e20390bc9a34",
+  "summary": "Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers, orders, quotes, pricing and invoices across both systems, and checking synchronization job errors. It answers how-to questions about linking records and fixing sync problems.",
+  "overview": "This section covers the integration between Business Central and Dynamics 365 Sales. It explains how Business Central records such as customers, vendors and items are linked to Dataverse or Sales records so data can be shared in both directions.\n\nThe three pages follow a natural order. \"Coupling and synchronizing\" explains how to link records and keep them in sync. \"Manage customers using Dynamics 365 Sales\" describes the sales scenario built on that link: customers, sales orders, quotes, pricing and invoices. \"View the Status of Synchronization Jobs\" covers the error page you use when a job fails.\n\nStart with the coupling page, since the other scenarios depend on records being coupled. Use the status page when a synchronization fails and you need to retry, restore or remove a coupling.",
+  "key_points": [
+    "Coupling links Business Central records with Dataverse or Dynamics 365 Sales records for bidirectional data sharing.",
+    "Coupling methods: manual coupling, match-based coupling, and bulk import or insert; records can also be uncoupled.",
+    "Customers, vendors, items and other entities can be synchronized.",
+    "The customer scenario covers sales order synchronization, quote processing, pricing synchronization, invoice creation and full synchronization.",
+    "The customer management page references 2020 release wave 2.",
+    "The Coupled Data Synchronization Errors page shows the status of synchronization jobs and error details.",
+    "Error actions include Retry, Synchronize, Restore and Delete, used to resolve conflicts and coupling issues."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:53.006Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010853
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:45.528Z",
+    "verdict": "approve",
+    "issues": [
+      "The customer management page also mentions tracking payments, which the narrative leaves out. Minor.",
+      "The overview's advice to start with the coupling page because other scenarios depend on coupled records is a reasonable inference. The 'customer coupling' feature supports it, but no page states it directly.",
+      "The key point about '2020 release wave 2' is accurate but gives agents little to act on, since the page only references that release."
+    ],
+    "input_hash": "cb43b8a8dee99abf06eb1ba3ab1ce8a9ce8978427b81e9b70bd3e20390bc9a34",
+    "cost_usd": 0.031595200000000004
+  }
+}

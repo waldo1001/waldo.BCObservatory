@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Czech Republic > VAT: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Czech VAT functionality in Business Central: VAT date and periods, reverse charge, non-deductible VAT, VAT exchange rate and local-currency correction, unreliable payer checks, and reporting (VAT statement, control report, VIES, VAT returns, Intrastat). It answers setup and reporting questions for Czech VAT compliance."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:52.744Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c7ba35575ed6b02c5cc1333cbe05f0159dc2b3eba8d7a8b274bbc085df5ecc5a
+  prompts:
+    hub-topic: 1
+  input_hash: 6d9d8e3e51b900371f58e8294457f27a6f640c4b3686577622d3e355f9fb671b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge
@@ -172,14 +173,29 @@ coverage:
 bc_forms:
   - 118
 member_hash: c7ba35575ed6b02c5cc1333cbe05f0159dc2b3eba8d7a8b274bbc085df5ecc5a
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Czech Republic > VAT: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Czech VAT functionality in Business Central: VAT date and periods, reverse charge, non-deductible VAT, VAT exchange rate and local-currency correction, unreliable payer checks, and reporting (VAT statement, control report, VIES, VAT returns, Intrastat). It answers setup and reporting questions for Czech VAT compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section describes the Czech localization of VAT in Business Central. It has no subtopics. Each page covers one feature, and the pages fall into two groups: setup and posting behavior, and statutory reporting.\n\nSetup and posting pages cover the VAT date (separate from the posting date), VAT return periods (the Czech VAT Period functionality moved into the standard VAT Return Period table, with data migration and synchronization), reverse charge with tariff and commodity numbers, non-deductible VAT with coefficients, the VAT exchange rate, VAT correction in local currency, and the unreliable payer check on vendors and purchase documents. They also cover functional currency, which lets a company keep its accounts in a foreign currency and report in CZK through additional reporting currencies.\n\nReporting pages cover the VAT statement, the VAT Control Report, the supplementary VAT statement, VAT returns submitted to the Moje daně portal, VIES declarations with XML export, the Czech VAT reports, and Intrastat. A good place to start is the VAT date and VAT return periods pages, then the VAT statement, because VAT returns are generated from the VAT statement settings.
+
+## Key points
+
+- The VAT date can differ from the posting date, and VAT periods are separate from accounting periods. The original VAT date on posted entries can be changed.
+- Reverse charge (the transferred tax liability regime) is set up with tariff numbers and commodity codes. It supports VAT control reporting and a PDP check.
+- Non-deductible VAT is set up on VAT Posting Setup and needs its enable toggles turned on. It uses shortening and settlement coefficients, and VAT entries show original and reduced amounts separately.
+- The unreliable payer feature checks a vendor's VAT payer status against treasury records, manages registered bank accounts, and checks purchase documents.
+- Sales and purchase documents can use a different exchange rate for VAT than for posting. VAT amounts on foreign currency invoices can be corrected in CZK, with the difference posted to dedicated rounding accounts.
+- The VAT Control Report Card lets you suggest lines, test, export, and close lines for a period.
+- VAT returns are generated from VAT statement settings and submitted to the Moje daně portal as standard, corrective, or supplementary returns, with XML generation.
+- VIES supports line suggestion, history, corrective declarations, and XML export. Czech Intrastat is provided as an extension.
 
 ## Learn pages
 

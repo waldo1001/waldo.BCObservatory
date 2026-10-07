@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/events
 type: topic
 title: Events
-summary: "Learn section Development > Programming in the AL language > Events: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Events in AL for Business Central: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior without changing the original code."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
+  prompts:
+    hub-topic: 1
+  input_hash: 1579c3e7eea83755959040fa23c9a75280b5fbdc13b22d100939e1a9033fc169
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events
@@ -133,14 +134,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
-narrative: none
+narrative: generated
 ---
 
 # Events
 
-> Learn section Development > Programming in the AL language > Events: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Events in AL for Business Central: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior without changing the original code.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Events · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Events · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+Events let AL code react to actions in other code without modifying it. A publisher defines an event, code raises it by calling the publisher method, and subscribers handle it with custom logic. The section covers business, integration, internal, global and trigger events.
+
+Start with "Events in Microsoft Dynamics 365 Business Central" and "Event types" for the concepts, then "Event example". The pages on publishing, raising and subscribing give the mechanics. "Isolated events in AL" explains how a failing subscriber is kept from affecting the publisher.
+
+Further pages cover finding events to subscribe to with the Event Recorder, and deprecating external business events so integrations can move to replacements. The notifications page covers nonintrusive UI messages. The workflow walkthrough shows new workflow events and responses built with event subscribers.
+
+## Key points
+
+- Event kinds: business, integration, internal, global, and database and page trigger events. Business, integration and internal events use the BusinessEvent, IntegrationEvent and InternalEvent attributes.
+- Publishers are methods in objects such as codeunits, pages and tables; raising an event means calling the publisher method, which triggers all subscribers.
+- Subscribers use the EventSubscriber attribute; the EventSubscriberInstance property is covered on the subscribing page.
+- Isolated events roll back errors in a subscriber without affecting the publisher or other subscribers.
+- The Event Recorder captures events during a scenario and gives AL snippets for subscribing.
+- External business events are deprecated by first marking them obsolete pending and then removing them in a later version, using the Obsolete and ExternalBusinessEvent attributes and a DisplayName prefix; the page references version 27.0.
+- Notifications use the Notification data type with Message, Scope, Send, AddAction, SetData and GetData methods in the web client.
+- A walkthrough shows implementing new workflow events and responses by registering them through event subscribers.
 
 ## Learn pages
 

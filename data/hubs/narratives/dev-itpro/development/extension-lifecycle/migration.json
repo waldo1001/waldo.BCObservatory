@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle/migration",
+  "input_hash": "fae3662aa0b355610e04522de7a8dceff0d4fed25085e982b3c65b8e05b2ef62",
+  "summary": "Migration in the Business Central extension lifecycle: generating .delta files with Compare-NAVApplicationObject for conversion to extensions, and moving table and field data between extensions on-premises. It answers questions about delta generation, migration.json, dependency direction, transition extensions and synchronization order.",
+  "overview": "This section covers two migration tasks in the extension lifecycle. The first is producing delta files from application object versions, using the Compare-NAVApplicationObject PowerShell cmdlet. The second, in a subtopic, is moving table and field data from a releasing extension to a receiving extension in on-premises Business Central.\n\nStart with the \"Generating Delta files\" page if you are converting existing application objects to extensions, since the delta output feeds the Txt2Al conversion tool. Go to the subtopic on migrating tables and fields between extensions when data must move from one extension to another. It explains the migration.json file, the direction of the dependency graph, transition extensions and synchronization ordering.",
+  "key_points": [
+    "Compare-NAVApplicationObject generates .delta files from application object versions.",
+    "The ExportToNewSyntax flag is required when the deltas will be converted to extensions with the Txt2Al conversion tool.",
+    "The subtopic covers moving table and field data from a releasing extension to a receiving extension.",
+    "Table and field migration between extensions applies to on-premises Business Central.",
+    "The subtopic explains the migration.json file, dependency graph direction, transition extensions and synchronization ordering.",
+    "The subtopic has 4 pages; the hub has 1 own page on delta files."
+  ],
+  "members_used": 1,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:56.944Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008798999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:51.613Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the delta output 'feeds' the Txt2Al conversion tool. The source only says the ExportToNewSyntax flag is required when converting to extensions with Txt2Al. The wording is a reasonable reading, but it goes slightly beyond the source.",
+      "Minor: the last key point about page counts is meta-information. It is accurate but adds little for agents."
+    ],
+    "input_hash": "fae3662aa0b355610e04522de7a8dceff0d4fed25085e982b3c65b8e05b2ef62",
+    "cost_usd": 0.0181232
+  }
+}

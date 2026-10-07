@@ -2,7 +2,7 @@
 id: topic/dev-itpro/deprecated-features/deprecated-tables
 type: topic
 title: Deprecated tables
-summary: "Learn section Deprecated features > Deprecated tables: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Deprecated tables in Business Central covers tables that were deprecated, with mappings to new table names for code rewrites from 2020 release wave 1 onward, plus a list of deprecated tables in the India version for 2021 release wave 2. It answers which tables are obsolete, what replaces them, and when data migration may be needed.
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 741d69d143d74743e9d341ad77d8103e91ad249ec10cc2fd7144f6e3c01e4b81
+  prompts:
+    hub-topic: 1
+  input_hash: fda01e4053609688fb6b999b04532384c8e2269be60b6263453173cbb5f876b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-tables
@@ -56,14 +57,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 741d69d143d74743e9d341ad77d8103e91ad249ec10cc2fd7144f6e3c01e4b81
-narrative: none
+narrative: generated
 ---
 
 # Deprecated tables
 
-> Learn section Deprecated features > Deprecated tables: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Deprecated tables in Business Central covers tables that were deprecated, with mappings to new table names for code rewrites from 2020 release wave 1 onward, plus a list of deprecated tables in the India version for 2021 release wave 2. It answers which tables are obsolete, what replaces them, and when data migration may be needed.
 
-Path: [Deprecated features](../deprecated-features.md) > Deprecated tables · tier official · system none · no narrative yet
+Path: [Deprecated features](../deprecated-features.md) > Deprecated tables · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section lists tables that Business Central has deprecated. It has two pages. The general page maps old table names to new ones, so developers know which code must be rewritten. It covers changes from 2020 release wave 1 and later, including 2021 release wave 2, and refers to the ObsoleteState values Pending and Removed.
+
+The second page is specific to the India version in 2021 release wave 2. It gives the table numbers and names of deprecated tables. It notes that manual data migration may be needed if custom fields were added to those tables.
+
+Start with the general Deprecated Tables page to find the replacement for a table your code uses. If you work with the India localization, then check the India list to see whether your customizations are affected.
+
+## Key points
+
+- The Deprecated Tables page maps old table names to new table names for code that must be rewritten.
+- Coverage starts with 2020 release wave 1 and includes 2021 release wave 2.
+- Deprecation is tracked with ObsoleteState values such as Pending and Removed.
+- A separate list covers deprecated tables in the India version of 2021 release wave 2.
+- The India list shows table numbers and names.
+- Custom fields added to deprecated India tables may require manual data migration.
 
 ## Learn pages
 

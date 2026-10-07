@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
+  "input_hash": "d2750a8590614c40b80ec4c4e9157d017401788270af89db5b9d3262506102b3",
+  "summary": "Approval workflows in Business Central: how users send, approve, reject, delegate and cancel approval requests, and how admins enable, delete, restrict records and review archived workflow step instances. It answers practical how-to questions about running and maintaining approval workflows.",
+  "overview": "Approval workflows automate business logic such as sequential and parallel approvals for master data, document changes and sensitive information. The section starts with a general page on using approval workflows, which explains approval routing, triggering and step tracking.\n\nThe other pages cover specific tasks. Users send approval requests for records such as purchase documents, sales documents and customer cards. Approvers handle them on the Requests to Approve page. Administrators enable a workflow after creating it, delete it when no longer needed, and use workflow responses to restrict or allow use of a record. They can also check archived workflow step instances for history.\n\nStart with \"Using approval workflows\" for the concepts, then go to \"Approve or reject documents in workflows\" for day-to-day use. Use the enable and delete pages for lifecycle tasks.",
+  "key_points": [
+    "Approval requests can be sent for records like purchase documents, sales documents and customer cards, and can be cancelled.",
+    "Approvers approve, reject or delegate requests from the Requests to Approve page.",
+    "Overdue approval notifications are supported.",
+    "Workflows support sequential and parallel approvals.",
+    "A workflow must be enabled after creation to be active.",
+    "To delete a workflow, all workflow step instances must have Completed status; a workflow can be disabled first.",
+    "Workflow responses can add or remove record restrictions that control posting, exporting or printing.",
+    "The Archived Workflow Step Instances page shows the history and status of completed steps."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:46.197Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010941
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:53.100Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point says a workflow 'can be disabled first' before deletion; the source only lists 'Disable workflow' as a feature of the delete page without stating the order. The wording is cautious enough to keep.",
+      "The split of tasks between users and administrators is an inference; the page summaries don't assign roles. It's harmless.",
+      "The suggested reading order is editorial guidance rather than sourced content, but it fits the pages."
+    ],
+    "input_hash": "d2750a8590614c40b80ec4c4e9157d017401788270af89db5b9d3262506102b3",
+    "cost_usd": 0.0335832
+  }
+}

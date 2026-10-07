@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/help-and-support
 type: topic
 title: Help and Support
-summary: "Learn section Get started > Help and Support: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Help and Support in Business Central covers where users find help (Chat with Copilot, the Help pane, the Help & Support page) and how administrators manage technical support. It answers questions about troubleshooting resources, telemetry, and contacting support.
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1623335126892d256a6cede2d78374d3171154660d7bfc83cd41f27eebc2979d
+  prompts:
+    hub-topic: 1
+  input_hash: b6662393d5f38ed308ae7f4c143d56098af17f1dea3cb920f661553a8d50ab8b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support
@@ -56,14 +57,34 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 1623335126892d256a6cede2d78374d3171154660d7bfc83cd41f27eebc2979d
-narrative: none
+narrative: generated
 ---
 
 # Help and Support
 
-> Learn section Get started > Help and Support: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Help and Support in Business Central covers where users find help (Chat with Copilot, the Help pane, the Help & Support page) and how administrators manage technical support. It answers questions about troubleshooting resources, telemetry, and contacting support.
 
-Path: [Get started](../get-started.md) > Help and Support · tier official · system none · no narrative yet
+Path: [Get started](../get-started.md) > Help and Support · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section has two pages and no subtopics. One is aimed at end users and the other at people who manage support.
+
+"Resources for help and support" lists the help options in the product: Chat with Copilot, the in-product Help pane, field tooltips, and the Help & Support page. The Help & Support page links to community forums, troubleshooting material, and technical support contact information. It also mentions Page Inspection and telemetry logging, and it lists 2020 release wave 2.
+
+"Managing technical support" is for those who run support processes. It covers troubleshooting, tenant administration, and escalation. It names tools such as telemetry analysis, Application Insights, event recording, page inspection, and sandbox environments.
+
+Start with "Resources for help and support" to see what users can reach on their own. Then use "Managing technical support" for admin troubleshooting and escalation.
+
+## Key points
+
+- In-product help options: Chat with Copilot, the Help pane, and field tooltips.
+- The Help & Support page links to community forums, troubleshooting resources, and technical support contact information.
+- Page Inspection helps with troubleshooting and appears on both pages.
+- Telemetry logging and telemetry analysis support diagnosis, including through Application Insights.
+- Managing technical support covers troubleshooting, tenant administration, and escalation procedures.
+- Event recording and sandbox environments are listed as tools for support work.
+- The resources page lists 2020 release wave 2.
 
 ## Learn pages
 

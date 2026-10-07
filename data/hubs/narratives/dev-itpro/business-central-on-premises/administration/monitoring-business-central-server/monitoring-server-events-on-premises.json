@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server/monitoring-server-events-on-premises",
+  "input_hash": "02df5a19340f83790215a3de1b94326aef3d9bb4f369f497296a98706425e005",
+  "summary": "Monitoring Business Central server events on-premises covers the admin, operational and debug events the server writes through Event Tracing for Windows. It answers questions about viewing events in Event Viewer or PowerShell, collecting trace data with Logman, Performance Monitor or PerfView, and limiting telemetry traces.",
+  "overview": "Business Central server uses Event Tracing for Windows to record events that help diagnose conditions and troubleshoot performance. Events are grouped into channels (Admin, Operational, Debug) in Windows Event logs. They cover SQL connections, service startup and shutdown, tenant mounting, authentication, certificate monitoring and licensing violations. Trace events add SQL statements, service calls, AL function execution and telemetry.\n\nStart with the overview page and the server events reference to learn the channels and event categories. To read events, use Event Viewer (with filtering, including XML filters) or the Get-WinEvent cmdlet in PowerShell. For deeper analysis, the trace event reference lists the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers and their hexadecimal keyword filters. Three tools can collect that data into .etl files: Logman, Performance Monitor (Data Collector Sets) and PerfView.\n\nIf telemetry traces are too noisy, a separate page explains how to turn them off or limit them with the Diagnostic Trace Level setting.",
+  "key_points": [
+    "Events are grouped into Admin, Operational and Debug channels in Windows Event logs.",
+    "Server events include SQL connection issues, service start and stop, tenant mounting, authentication, certificate monitoring and licensing violations.",
+    "Trace events come from the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers and are filtered with hexadecimal keywords.",
+    "Trace events cover SQL statements, service calls, AL function execution, telemetry and session tracking.",
+    "Event Viewer supports event filtering, including XML filtering.",
+    "PowerShell's Get-WinEvent cmdlet reads instance events and trace events from logs and event tracing files.",
+    "Logman, Performance Monitor Data Collector Sets and PerfView each collect trace data into .etl files.",
+    "Set the Diagnostic Trace Level in CustomSettings.config or with Set-NAVServerConfiguration to turn off or limit telemetry traces."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:31.943Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016625
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:55.858Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'If telemetry traces are too noisy' is interpretive framing; the source only says the page explains how to turn off or limit telemetry trace events. Acceptable.",
+      "Minor: the link between Diagnostic Trace Level, CustomSettings.config and Set-NAVServerConfiguration comes from the page's feature list rather than its summary text, but it is consistent with that page."
+    ],
+    "input_hash": "02df5a19340f83790215a3de1b94326aef3d9bb4f369f497296a98706425e005",
+    "cost_usd": 0.0431592
+  }
+}

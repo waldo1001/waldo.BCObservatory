@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/service-management
 type: topic
 title: Service management
-summary: "Learn section Business functionality > Service management: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Service management in Business Central covers scheduling service calls, managing service orders and contracts, tracking repair parts, assigning personnel, and issuing estimates and invoices. It answers how-to questions on contracts, delivery, planning and statuses, and service reports. Premium experience only.
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e61be6da2db02a768496ad1858aadee2c0c869510eb59e607441e2997654f52b
+  prompts:
+    hub-topic: 1
+  input_hash: 8c2863802bf77ea16c220d53c613990fd0da77d0403c126e922a50572cfd1e75
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/service-allocation-status-and-repair-status
@@ -368,14 +369,32 @@ bc_forms:
   - 6080
   - 6086
 member_hash: e61be6da2db02a768496ad1858aadee2c0c869510eb59e607441e2997654f52b
-narrative: none
+narrative: generated
 ---
 
 # Service management
 
-> Learn section Business functionality > Service management: 56 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Service management in Business Central covers scheduling service calls, managing service orders and contracts, tracking repair parts, assigning personnel, and issuing estimates and invoices. It answers how-to questions on contracts, delivery, planning and statuses, and service reports. Premium experience only.
 
-Path: [Business functionality](../business-functionality.md) > Service management · tier official · system service · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Service management · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+Service Management gives teams the tools to schedule service calls, manage service orders, track repair parts, assign service personnel, and deliver service estimates and invoices. It is available only with the Premium experience.
+
+The section is split by stage of work. Fulfill service contracts covers creating contracts and quotes, managing contract lines and lifecycle, changing annual amounts, and service items under multiple contracts. Deliver service walks through quotes, orders, resource allocation, service tasks, loaners, posting, and invoicing. Planning service explains pricing, repair status, allocation status, and how order status derives from item repair statuses. Service management analytics holds service statistics and 37 reports.
+
+Start with the overview page to confirm the Premium requirement. Then go to contracts if you are setting up recurring service, or to Deliver service for the day-to-day order flow. Use Planning service for questions about prices and statuses, and analytics for report contents and options.
+
+## Key points
+
+- Service Management is available only with the Premium experience.
+- Core capabilities: schedule service calls, manage service orders, track repair parts, assign service personnel, issue estimates and invoices.
+- Fulfill service contracts covers contract and quote creation, contract lines, lifecycle, annual amount changes, and service items under multiple contracts.
+- Deliver service covers quotes, orders, resource allocation, service tasks, loaners, posting, and invoicing.
+- Planning service explains how prices apply to service orders and how repair and allocation statuses change.
+- Service order status is derived from the repair statuses of its items.
+- Service management analytics includes service statistics and 37 reports on contracts, quotes, orders, items, resources, and profitability.
 
 ## Subtopics
 

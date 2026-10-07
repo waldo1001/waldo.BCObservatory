@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/iceland/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Iceland > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Iceland general localization in Business Central: rules for deleting posted invoices and credit memos, exporting audit data, mapping IRS numbers to the chart of accounts, and registration number fields. Answers questions on Icelandic legal and tax compliance setup."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:28.677Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: beb403e8ac42978e6f360e94ed24935f1bde071e15ac535688373cc1734e47ef
+  prompts:
+    hub-topic: 1
+  input_hash: 348aa8988011a9b2f68ab677442ebe4675892746e729bc4fcf57e0a67a31f0e4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos
@@ -81,14 +82,29 @@ bc_forms:
   - 5267
   - 5270
 member_hash: beb403e8ac42978e6f360e94ed24935f1bde071e15ac535688373cc1734e47ef
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Iceland > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Iceland general localization in Business Central: rules for deleting posted invoices and credit memos, exporting audit data, mapping IRS numbers to the chart of accounts, and registration number fields. Answers questions on Icelandic legal and tax compliance setup.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Iceland](../iceland.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Iceland](../iceland.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the general Iceland-specific topics in Business Central. They cover compliance-driven behavior: what can be deleted, how data is exported for auditors, how accounts are tied to tax authority codes, and how registration numbers appear on documents.
+
+The pages are independent of each other. Start with the topic that matches your task. For tax reporting, see the IRS number mapping page. For auditor requests, use the audit export page, which describes the Audit Files Export extension. For document deletion, see the deletion page; the rules changed in version 24.0 for companies that have the new localization enabled. For sales and payment data, see the registration number page; the fields are available once activated, from version 24.0.
+
+## Key points
+
+- Before v24.0, posted invoices and credit memos cannot be deleted in Iceland, per legislation.
+- After v24.0 with the new localization enabled, deletion is allowed only for documents older than seven years at the start of the fiscal year.
+- The Audit Files Export extension exports GL and VAT entries in formats such as SIE, FEC, and SAF-T.
+- Audit export supports GL account mapping, data quality checks, parallel processing, and zip export.
+- IRS numbers are created as Internal Revenue Service codes and mapped to general ledger posting accounts for tax authority compliance; a reverse prefix option is mentioned.
+- When activated from version 24.0, Registration No. and Sender Reg. No. fields can be added to sales invoices, orders, credit memos, and payment export data.
 
 ## Learn pages
 

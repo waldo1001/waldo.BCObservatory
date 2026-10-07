@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-payables/make-payments
 type: topic
 title: Make payments
-summary: "Learn section Business functionality > Finance > Manage payables > Make payments: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Making vendor payments in Business Central: payment journals, Suggest Vendor Payments, checks (print, void, positive pay), electronic bank export (SEPA Credit Transfer, AMC Banking 365 Fundamentals), immediate settlement of purchase invoices, and general journals. It answers how-to and setup questions on paying vendors."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 00d01e1db0b910bca36738bcc68ae6856c56a7724cae6f123a581ef8becd641f
+  prompts:
+    hub-topic: 1
+  input_hash: ba02aed714bb533f7578f81938fb5b42cc28ff2fc3d6a72e7ab434397250a54d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay
@@ -179,14 +180,33 @@ bc_forms:
   - 2000021
   - 2000022
 member_hash: 00d01e1db0b910bca36738bcc68ae6856c56a7724cae6f123a581ef8becd641f
-narrative: none
+narrative: generated
 ---
 
 # Make payments
 
-> Learn section Business functionality > Finance > Manage payables > Make payments: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Making vendor payments in Business Central: payment journals, Suggest Vendor Payments, checks (print, void, positive pay), electronic bank export (SEPA Credit Transfer, AMC Banking 365 Fundamentals), immediate settlement of purchase invoices, and general journals. It answers how-to and setup questions on paying vendors.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section covers the ways a company pays its vendors. The core tool is the payment journal, where you record vendor payments and customer refunds, apply them to invoices and credit memos, and post them. The Suggest Vendor Payments batch job fills the journal based on due dates and available payment discounts, with options to prioritize vendors and set posting dates.
+
+From the journal you can pay in several ways. You can print computer checks or record manual checks, and void checks that are posted or unposted. You can export a positive pay file for bank validation. You can also export payments electronically with SEPA Credit Transfer or the AMC Banking 365 Fundamentals extension. A separate page explains banking and payment formats supported through partner apps and marketplace solutions.
+
+Start with the overview of tasks to manage payments to vendors, which links the steps together. Then go to the page for the payment method you use. For paying at invoice entry, use the page on settling purchase invoices promptly. The general journals page is a reference for posting directly to the general ledger.
+
+## Key points
+
+- The payment journal records vendor payments and customer refunds and applies them to invoices and credit memos.
+- Suggest Vendor Payments creates journal lines from due dates and payment discounts, can prioritize vendors, and excludes vendors on hold.
+- Checks can be computer-printed or manual, and posted or unposted checks can be voided with the Void Check action.
+- Positive pay export creates a file of vendor and check details for bank validation. The export format is set per bank account, and files can be reexported with confirmation tracking.
+- Electronic payments use SEPA Credit Transfer (EU) or the AMC Banking 365 Fundamentals extension (US), with payment export history and credit transfer registration tracking.
+- Banking and payment formats come mainly from partner apps and marketplace solutions, with built-in options in some countries or regions.
+- To post a purchase invoice payment immediately, set a balancing account on the invoice header when you create the invoice.
+- General journals post directly to G/L and support templates, batches, recurring journals, allocations, standard journals, and reversals.
 
 ## Learn pages
 

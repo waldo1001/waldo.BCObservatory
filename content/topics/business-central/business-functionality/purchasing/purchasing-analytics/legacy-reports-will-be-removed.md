@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics/legacy-reports-will-be-removed
 type: topic
 title: Legacy reports (will be removed)
-summary: "Learn section Business functionality > Purchasing > Purchasing analytics > Legacy reports (will be removed): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Legacy purchasing analytics reports in Business Central that are marked for removal: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List. It answers questions about what each report shows and who uses it."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:36.422Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 41c7fb9a4866210af3e9064e3d88086ae72a96934cfb76bc61ab0f0e2da858bd
+  prompts:
+    hub-topic: 1
+  input_hash: 1cc452a8840057d0a03e5eb5dd8b42d1f489f40e548ddf4caae4c41012da7b31
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
@@ -79,14 +80,30 @@ bc_forms:
   - 319
   - 322
 member_hash: 41c7fb9a4866210af3e9064e3d88086ae72a96934cfb76bc61ab0f0e2da858bd
-narrative: none
+narrative: generated
 ---
 
 # Legacy reports (will be removed)
 
-> Learn section Business functionality > Purchasing > Purchasing analytics > Legacy reports (will be removed): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Legacy purchasing analytics reports in Business Central that are marked for removal: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List. It answers questions about what each report shows and who uses it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Legacy reports (will be removed) · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Legacy reports (will be removed) · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section lists four older vendor-focused reports under Purchasing analytics. The Learn table of contents labels them "will be removed", so they describe reports that are being phased out.
+
+The pages are independent of each other. Aged Accounts Payable and Payments on Hold cover open vendor balances and held entries. Vendor - List and Vendor - Top 10 List cover vendor master data and vendor ranking by purchases. Start with the page that matches the question: aging and reconciliation, held payments, vendor setup data, or top vendors.
+
+## Key points
+
+- Aged Accounts Payable shows outstanding invoice and payment amounts per vendor, calculates aging periods, and supports monitoring vendor payments and reconciling subledgers.
+- Aged Accounts Payable includes vendor balance calculation, an outstanding document breakdown, and percentage calculations.
+- Payments on Hold lists all vendor ledger entries where the On Hold field is populated.
+- Payments on Hold is aimed at procurement coordinators, accounts payable specialists, and controllers handling vendor disputes and invoice processing.
+- Vendor - List shows vendor master data: posting groups, payment terms, discounts, priority levels, default currency, and current balance.
+- Vendor - Top 10 List ranks vendors by transaction volume in a selected period and compares them with total purchases across all vendors.
+- All four reports are in a section marked as legacy and due to be removed.
 
 ## Learn pages
 

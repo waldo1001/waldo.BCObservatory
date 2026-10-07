@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > United Kingdom > VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "United Kingdom VAT functionality in Business Central: Making Tax Digital VAT return submission to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. It answers how-to questions for the British version."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 88c81910276e78341f92068e5e24359a8500784da8f146165397d5069e399f38
+  prompts:
+    hub-topic: 1
+  input_hash: 04be31e2853de7857d1374ba7648419d3634cfdeaa76441fa2cd5f7a1826cd02
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals
@@ -93,14 +94,31 @@ bc_forms:
   - 10538
   - 10539
 member_hash: 88c81910276e78341f92068e5e24359a8500784da8f146165397d5069e399f38
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > United Kingdom > VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> United Kingdom VAT functionality in Business Central: Making Tax Digital VAT return submission to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. It answers how-to questions for the British version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers VAT tasks specific to the British version of Business Central. It includes filing VAT returns with HMRC through Making Tax Digital, adjusting how VAT setup is applied to journal lines, printing VAT-related reports, and setting up reverse charge VAT.
+
+The pages are independent task guides. Start with Making Tax Digital - Submitting VAT Returns if you need to connect to HMRC and file returns. Use the reverse charge page for setup on electronic goods and integrated circuit devices. The two reporting pages cover audit exports and day book or unposted reports. The journal page is a short settings change.
+
+## Key points
+
+- Making Tax Digital: set up the HMRC service connection, then retrieve VAT obligations.
+- VAT return steps: create the return, suggest lines, release it, and submit it.
+- You can also retrieve VAT liabilities and payments from HMRC.
+- Journals: the Copy VAT Setup to Jnl. Lines checkbox copies VAT setup to journal lines. Clear it when items have no VAT.
+- VAT Audit and VAT Entry Exception reports export CSV data for customers, vendors, open payments, late invoicing and VAT entries.
+- Day Book and Unposted reports show VAT entries, customer and vendor ledger entries, and unposted sales or purchase documents. They can show amounts in LCY or the additional reporting currency.
+- Reverse charge VAT is meant to prevent carousel fraud on electronic goods and integrated circuit devices. It uses VAT business posting groups and the Reverse Charge Applies field on the item card.
+- A Reverse Charge Sales List report is available.
 
 ## Learn pages
 

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/manage-inventory-costs",
+  "input_hash": "fa37375b3d4aad1cd9770b40890f32f67dbc44165b3531fceaeeda7db9e3b8b6",
+  "summary": "Inventory cost management in Business Central: costing methods, unit and standard cost calculation, cost adjustment, item charges, revaluation, and fixing item applications. It answers how costs are calculated, adjusted, corrected, and reconciled with the general ledger.",
+  "overview": "This section explains how Business Central records and reports the costs of inventory. It starts with the concepts: the costing methods (Standard, FIFO, LIFO, Specific, Average), how unit cost updates on purchases and sales, and how standard cost is built from material, capacity, subcontracting, and overhead. \"Managing inventory costs\" gives the overview, and \"Design details - Inventory costing\" goes deeper into item application, cost adjustment, expected cost posting, and valuation.\n\nOther pages cover tasks. Item charges add freight, insurance, and customs duties to landed cost. The revaluation journal creates new value entries when inventory value changes. The Application Worksheet and the fixed application page help correct wrong cost flows. A page on tracking cost adjustments covers logging, batching, and troubleshooting. The subtopic covers reporting and reconciliation with the general ledger.\n\nStart with \"Managing inventory costs\" and \"About unit cost calculation\" to learn the model. Then go to the task pages that match your problem, such as wrong costs, extra trade costs, or a revaluation.",
+  "key_points": [
+    "Costing methods covered: Standard, FIFO, LIFO, Specific, and Average, with how unit cost updates for purchases and sales.",
+    "Standard cost is calculated from material, capacity, subcontracting, and manufacturing overhead, and applies to purchased, assembled, and produced items.",
+    "Item charges assign freight, insurance, and customs duties to purchase or sales documents to compute landed cost and true profitability.",
+    "The revaluation journal appreciates or depreciates inventory by creating new value entries.",
+    "The Application Worksheet removes and reapplies item ledger entries to fix incorrect cost flows.",
+    "Fixed applications apply only costs, not quantities; open entries from them are closed with the Item Journal.",
+    "Cost adjustment tracking offers logging, item batches, a tracer, and diagnostics to find problematic items.",
+    "The subtopic covers manual cost adjustment, posting costs to the G/L, restricting backdated postings, scheduling cost jobs, and inventory periods."
+  ],
+  "members_used": 9,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:56.781Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016559
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:33.535Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview groups the fixed application page with the Application Worksheet as helping 'correct wrong cost flows'. The source says that page covers closing open item ledger entries created by fixed applications with the Item Journal, so the phrase slightly overstates its scope."
+    ],
+    "input_hash": "fa37375b3d4aad1cd9770b40890f32f67dbc44165b3531fceaeeda7db9e3b8b6",
+    "cost_usd": 0.0402952
+  }
+}

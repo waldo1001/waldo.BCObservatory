@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/expense-management-preview
 type: topic
 title: Expense management (preview)
-summary: "Expense management (preview) in Business Central: how employee expenses, travel requests and expense reports are set up, processed, approved, posted and reimbursed, with or without Expense Agent. It answers setup, how-to, AI agent behavior and troubleshooting questions."
+summary: Expense management (preview) in Business Central covers employee expense reports, travel requests, approval, VAT reclaim, posting, and reimbursement, with or without the AI-based Expense Agent. It answers questions about setup, daily workflows, how the agent works, and troubleshooting.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T14:23:48.528Z"
+  at: "2026-10-07T02:16:38.281Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c02b49dbdbdceff5e73527fe554e2643519996991bd8e677becb4e0d0171136f
+  input_hash: 18766d72ef654ae6455926b204af6e073470588ffbf11421a6dddf2044d6c61f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
@@ -273,28 +273,28 @@ narrative: generated
 
 # Expense management (preview)
 
-> Expense management (preview) in Business Central: how employee expenses, travel requests and expense reports are set up, processed, approved, posted and reimbursed, with or without Expense Agent. It answers setup, how-to, AI agent behavior and troubleshooting questions.
+> Expense management (preview) in Business Central covers employee expense reports, travel requests, approval, VAT reclaim, posting, and reimbursement, with or without the AI-based Expense Agent. It answers questions about setup, daily workflows, how the agent works, and troubleshooting.
 
 Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-Expense management (preview) lets employees record expenses and group them into expense reports. The reports go through a status workflow and approval, and are then posted to the general ledger. The area also covers travel requests, VAT reclaim, rule and policy compliance checks, and the split between refundable and reimbursable categories. Expense Agent is an AI agent that can handle part of this, from receipt intake to draft reports.
+Expense management (preview) lets employees record expenses and group them into expense reports. Reports go through a status workflow and approval, are checked against rules and policies, and are posted to the general ledger. The feature also covers travel request planning and comparison, VAT calculation and reclaim, and marking categories as refundable or reimbursable. You can use it with or without Expense Agent.
 
-The pages fit together in a sequence. The overview page explains the concepts and the report workflow. "Set up expense management" covers what to configure first: Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. "Work with expenses in Business Central" covers the manual lifecycle through to reimbursement in the Payment Journal. "Understand Expense Agent" and "Work with Expense Agent" cover what the agent does and the requester and approver workflow. The troubleshooting page covers common agent problems.
+The section is split by task. Start with the overview page for the concepts and the report status workflow. Then use "Set up expense management" to configure general settings, categories, rules and policies, users and teams, mileage rates, and per diem and mileage allowances. "Work with expenses in Business Central" covers the manual lifecycle through to reimbursement in the Payment Journal.
 
-Start with the overview page. Administrators should then go to the setup subtopic. Requesters and approvers should go to the work-with pages that match how they submit expenses, with or without the agent.
+Expense Agent has two subtopics. "Understand Expense Agent" explains what it does, how it processes emails, how policy compliance is checked, and its responsible AI limits. "Work with Expense Agent" gives the steps for requesters and approvers. A separate troubleshooting page covers common agent problems.
 
 ## Key points
 
-- Expense reports follow a status workflow with approval workflows, and are posted to the general ledger.
-- Travel requests can be planned and compared, and VAT calculation and reclaim are supported.
-- Rule and policy compliance is checked, and expenses are categorized as refundable and reimbursable.
-- Setup covers Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances.
-- Employee reimbursement is handled through the Payment Journal after posting.
-- Expense Agent automates the lifecycle from receipt and email intake to draft expense reports, and also covers mileage expenses and the mobile app.
-- Expense Agent users can upload receipts, review and edit expenses, build and submit reports, and approvers can approve or send reports back.
-- The troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits and posting failures.
+- The feature is in preview and works with or without Expense Agent.
+- Expense reports follow a status workflow with approval workflows and rule and policy compliance checks.
+- Travel requests can be planned and compared, and VAT can be calculated and reclaimed.
+- Setup covers general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances.
+- Manual processing runs from the expense card through review, approval, posting, and employee reimbursement in the Payment Journal.
+- Expense Agent turns receipts into draft expense reports, supports mileage expenses, and has a mobile app.
+- Requesters upload receipts and submit reports. Approvers approve them or send them back.
+- Troubleshooting covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits, and posting failures.
 
 ## Subtopics
 

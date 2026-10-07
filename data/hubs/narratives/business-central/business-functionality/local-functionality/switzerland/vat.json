@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/vat",
+  "input_hash": "69aab0adbad4baf818741b5caaa2c9f5e51d32eebc003e587641133a0a492d57",
+  "summary": "Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older version), how VAT amounts and exchange rates are adjusted, and how to handle VAT rate changes. Answers questions about Swiss VAT reporting and rate changes.",
+  "overview": "This section covers the Swiss-specific VAT functionality in Business Central. It has four pages: two on printing VAT statements, one on how Swiss VAT handles payment discounts and exchange rates, and one on changing VAT rates.\n\nFor reporting, start with \"Create and print a Swiss VAT statement [CH]\". It describes setting up VAT statement templates and printing statements with various tax rates and reporting options. The older \"How to Print Swiss VAT Statements\" page documents the earlier report, kept for backward compatibility, which prints quarterly VAT reporting including VAT entries, adjusting entries and an accounting sheet.\n\n\"Swiss Value Added [CH]\" explains the automatic adjustment of VAT amounts for payment discounts and the use of official government exchange rates for foreign currency VAT. \"VAT rates for Switzerland\" explains that rate changes must be made with the VAT rate change tool.",
+  "key_points": [
+    "Swiss VAT statements are created from VAT statement templates and can be printed with various tax rates and reporting options.",
+    "The current statement page covers VAT Statement, VAT Statement Cipher, VAT rates and Additional Reporting Currency.",
+    "The older Swiss VAT Statement report is kept for backward compatibility and prints VAT entries, adjusting entries and an accounting sheet for quarterly reporting.",
+    "The older report supports closed journal filtering, open date settlement and VAT rate selection.",
+    "VAT amounts are adjusted automatically for payment discounts.",
+    "Foreign currency VAT calculations use official government exchange rates, and VAT exchange rates are adjusted automatically for transactions.",
+    "VAT rate changes must use the VAT rate change tool; the earlier option of using old and new rates at the same time is deprecated."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:09.791Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011775
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:34.744Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the 'Swiss Value Added [CH]' page also lists exchange gain/loss accounts as a feature, and the narrative doesn't mention them. This is optional to add.",
+      "Minor: 'kept for backward compatibility' slightly rephrases the source, which says 'Use this older version for backward compatibility'. The meaning is still accurate."
+    ],
+    "input_hash": "69aab0adbad4baf818741b5caaa2c9f5e51d32eebc003e587641133a0a492d57",
+    "cost_usd": 0.0249752
+  }
+}

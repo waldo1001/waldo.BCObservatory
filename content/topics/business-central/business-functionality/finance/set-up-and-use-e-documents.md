@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/set-up-and-use-e-documents
 type: topic
 title: Set up and use E-Documents
-summary: "Learn section Business functionality > Finance > Set up and use E-Documents: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "E-Documents in Business Central: how to set up, connect and use electronic invoices and business documents in sales and purchasing. It answers questions about service and workflow setup, Peppol formats, external access points, Microsoft 365 connectors, and extending the framework."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9652d43d8b60565d9824d5f02d18f9bb3544c31230257171f6de924ca490ad5f
+  prompts:
+    hub-topic: 1
+  input_hash: de5f6315fc1c1c74725721329c76d04e681cd8a6d3562f2ddff3f4a26916d652
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-connectors
@@ -128,14 +129,32 @@ bc_forms:
   - 9307
   - 9308
 member_hash: 9652d43d8b60565d9824d5f02d18f9bb3544c31230257171f6de924ca490ad5f
-narrative: none
+narrative: generated
 ---
 
 # Set up and use E-Documents
 
-> Learn section Business functionality > Finance > Set up and use E-Documents: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> E-Documents in Business Central: how to set up, connect and use electronic invoices and business documents in sales and purchasing. It answers questions about service and workflow setup, Peppol formats, external access points, Microsoft 365 connectors, and extending the framework.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Set up and use E-Documents · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Set up and use E-Documents · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localization for multiple countries and can be extended for specific requirements. The overview page is the place to start, followed by the setup page, which covers e-document services, workflows and document sending profiles.
+
+Connectivity has two sides. Connectors to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter) are described in one page, and a second page covers installing the E-Document Core app and connector apps from Microsoft Marketplace. A separate page covers connecting to Outlook, SharePoint and OneDrive to import vendor invoices and receipts.
+
+Day-to-day use is split into sales and purchase pages. Sales covers creating and sending e-invoices and credit memos and checking status and logs. Purchase covers receiving, matching and processing incoming documents. A page for developers describes the interfaces that localization apps and ISVs use to add formats and services.
+
+## Key points
+
+- Setup covers e-document services, workflows and document sending profiles, with PEPPOL BIS 3.0, Data Exchange formats and the clearance model (page lists version 24.0).
+- External connectors listed: Pagero, Avalara, Logiq, ExFlow and B2BRouter, with OAuth 2.0 authentication.
+- Endpoint connector setup needs the E-Document Core app plus connector apps from Microsoft Marketplace, then connection setup, GLN configuration, customer e-document setup and workflow configuration.
+- Microsoft 365 connectors (Outlook, SharePoint, OneDrive) import vendor invoices and receipts for accounts payable, using E-Document Services and Service Integration V2.
+- Sales: create and send e-invoices and credit memos in Peppol formats, and view e-document status and logs.
+- Purchase: handles invoices, orders and credit memos, with automatic matching, Copilot purchase order matching, text-to-account mapping, item reference mapping and vendor configuration.
+- Extensibility covers document format creation, service integration, async sending, batch processing, response handling and receiving (page lists 2025 release wave 1).
 
 ## Learn pages
 

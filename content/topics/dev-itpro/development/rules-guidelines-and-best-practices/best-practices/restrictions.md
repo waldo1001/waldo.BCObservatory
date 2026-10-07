@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions
 type: topic
 title: Restrictions
-summary: "Learn section Development > Rules, guidelines, and best practices > Best practices > Restrictions: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Restrictions in Business Central development best practices covers what AL code should avoid: UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events. It answers questions on how to avoid sign-in errors, login slowdowns and web service exceptions."
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8dcac10e06917f9cbbe2a0b828ca6a2b51570b0e66d8ba3b5c82e32930301d7a
+  prompts:
+    hub-topic: 1
+  input_hash: 83ad3ae4dd373884c863e3e75851ff29096fcf42040fa94ff843d98576e6a505
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-webservices
@@ -67,14 +68,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 8dcac10e06917f9cbbe2a0b828ca6a2b51570b0e66d8ba3b5c82e32930301d7a
-narrative: none
+narrative: generated
 ---
 
 # Restrictions
 
-> Learn section Development > Rules, guidelines, and best practices > Best practices > Restrictions: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Restrictions in Business Central development best practices covers what AL code should avoid: UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events. It answers questions on how to avoid sign-in errors, login slowdowns and web service exceptions.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Restrictions · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Restrictions · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section lists restrictions that developers should follow when writing extensions. One page deals with web services, where code must not show dialogs or message boxes. The other two deal with company-open and login events, which can slow or break sign-in when subscribers misbehave.
+
+The two login pages are migration guides. One moves subscribers from the obsolete OnCompanyOpen event to the isolated OnAfterLogin event. The other gives patterns for removing OnBeforeCompanyOpen and OnAfterCompanyOpen to improve login performance.
+
+Start with the page that matches your problem: web service UI errors, sign-in failures caused by subscriber errors, or slow login from the deprecated events.
+
+## Key points
+
+- Code in objects exposed as web services must not use UI elements such as dialogs, message boxes or confirmation dialogs, because they cause exceptions.
+- GuiAllowed is the related check for deciding whether UI can be shown.
+- OnCompanyOpen is obsolete; subscribers should move to the isolated OnAfterLogin event.
+- Isolated events keep subscriber errors from causing sign-in failures.
+- OnCompanyOpenCompleted is also named in the migration guidance.
+- OnBeforeCompanyOpen and OnAfterCompanyOpen are deprecated; removing them improves login performance.
+- Replacement patterns mentioned include OnCompanyInitialize and TaskScheduler.
 
 ## Learn pages
 

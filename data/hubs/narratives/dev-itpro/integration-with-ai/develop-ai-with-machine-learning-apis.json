@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis",
+  "input_hash": "40867722ca21bfce0e75133cad5734e50064dd9b9f0036f75a342d09b7520a88",
+  "summary": "Machine learning APIs in Business Central for partners building AI features: the Forecasting (Time Series) API, the Prediction API, and a transparency note on capabilities, limits and responsible AI. It answers which API fits a task, which methods or algorithms it uses, and how to apply it responsibly.",
+  "overview": "This area covers the machine learning APIs that developers can use in Business Central. There are two APIs: the Forecasting API, which predicts future values of business indicators from historical time-ordered data, and the Prediction API, which handles regression and classification tasks such as late payment prediction, customer churn, and quote conversion.\n\nThe three pages fit together as two API overviews plus a transparency note. Start with the overview of the API that matches your scenario: forecasting a time series, or predicting an outcome for a record. Then read the Transparency Note for how the models work, their capabilities and limitations, intended use cases, and the responsible AI practices expected of partners building ML features.",
+  "key_points": [
+    "The Forecasting API (Time Series API) predicts future values of business indicators from historical time-ordered data.",
+    "Forecasting uses time series algorithms including ARIMA, ETS, STL, and TBATS.",
+    "The Prediction API supports regression and classification, for example late payment prediction, customer churn, and quote conversion.",
+    "Prediction API methods include Initialize, SetRecord, train, predict, evaluate, and plotmodel.",
+    "The Transparency Note covers the Forecasting Model and Prediction Model, including capabilities, limitations, and intended use cases.",
+    "The note describes Azure Machine Learning resources, the Responsible AI Standard, and AI safety guardrails.",
+    "Choose the Forecasting API for time-ordered trends and the Prediction API for record-level outcomes."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:30.341Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010199
+  }
+}

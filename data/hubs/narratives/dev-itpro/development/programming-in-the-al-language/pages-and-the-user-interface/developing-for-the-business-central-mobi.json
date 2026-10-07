@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi",
+  "input_hash": "9c33e72a66cf0226e54b9639ceaa488ef109135e90179022ce3611032c3ee3ff",
+  "summary": "Developing for the Business Central mobile app (tablet and phone) with AL: strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing. It answers questions about how to build and test mobile-friendly extensions.",
+  "overview": "The Business Central mobile app gives small and medium-sized business users tablet and phone interfaces with touch-optimized design. It is meant for portable access and light data entry, and it does not replace the web client. Extensions for it use the same AL development framework, with extra care for smaller screens, touch input and role centers.\n\nStart with the introduction and the get-started page, then read the strategy page to choose between platform-native AL development, a Power Apps connector, or OData/SOAP web services. Next, use the screen size and limitations pages to design pages that work on small devices. The Sales Rep Role Center walkthrough shows a practical tablet example.\n\nFor testing, you can open the tablet or phone client directly in a browser with URL parameters. This is for design-phase testing only, not a supported production scenario. The barcode scanning page covers camera and dedicated scanner capabilities through AL code and control add-in APIs.",
+  "key_points": [
+    "Mobile extensions use the same AL development framework as the web client, with attention to small screens, touch and role centers.",
+    "Strategy options compared: Business Central platform development, Power Apps connector, custom connector, OData web services and SOAP web services.",
+    "Mobile page limits include no multiple selection, no FactBoxes on lists, no advanced filters, restricted action visibility and no worksheets.",
+    "Screen size guidance covers layout constraints, element counts per page type, activity tiles and list columns, with device emulation in Edge DevTools.",
+    "Tablet and phone clients can be opened in a browser by URL parameters (company, page, report, profile) for testing only, with multitenant support.",
+    "Barcode scanning works through the device camera or dedicated Android scanners, using UI buttons or programmatic calls, via control add-in and .NET-based APIs (versions 23.0 and 24 are mentioned).",
+    "A walkthrough builds a Sales Rep Role Center for the tablet client from existing pages and actions, including KPIs and sales quotes."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:21.822Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015175000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:48.019Z",
+    "verdict": "approve",
+    "issues": [
+      "The barcode key point lists the versions ('versions 23.0 and 24 are mentioned') without saying what each one brought. This is supported by the source, but it doesn't tell the reader much.",
+      "The overview lists the strategy options without the custom connector. The key points do include it, so this is minor.",
+      "The get-started page also covers camera, location support and help integration. The narrative doesn't mention these, which is an omission and not an error."
+    ],
+    "input_hash": "9c33e72a66cf0226e54b9639ceaa488ef109135e90179022ce3611032c3ee3ff",
+    "cost_usd": 0.0357112
+  }
+}

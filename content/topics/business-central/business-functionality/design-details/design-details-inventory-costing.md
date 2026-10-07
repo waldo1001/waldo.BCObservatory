@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/design-details/design-details-inventory-costing
 type: topic
 title: "Design details: Inventory costing"
-summary: "Learn section Business functionality > Design details > Design details: Inventory costing: 22 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Inventory costing design details in Business Central: costing methods, cost components, item application, cost adjustment, expected cost posting, valuation, revaluation, variance, rounding, and reconciliation with the general ledger. It answers how costs are calculated, forwarded, adjusted and posted to G/L, including assembly and production orders."
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 63e11844c0c3fba771b2e865f0385029f86b83467be990c792747c692e668f43
+  prompts:
+    hub-topic: 1
+  input_hash: 46dd8b71570be3d46255c514d96f5de99aa666c0d6dff95ef25c67ee2cf3a362
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-assembly-order-posting
@@ -219,14 +220,33 @@ coverage:
 bc_forms:
   - 8645
 member_hash: 63e11844c0c3fba771b2e865f0385029f86b83467be990c792747c692e668f43
-narrative: none
+narrative: generated
 ---
 
 # Design details: Inventory costing
 
-> Learn section Business functionality > Design details > Design details: Inventory costing: 22 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Inventory costing design details in Business Central: costing methods, cost components, item application, cost adjustment, expected cost posting, valuation, revaluation, variance, rounding, and reconciliation with the general ledger. It answers how costs are calculated, forwarded, adjusted and posted to G/L, including assembly and production orders.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Inventory costing · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Inventory costing · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+This section explains how Business Central records and reports inventory cost. It starts from the basics: the five costing methods, the cost components that make up inventory value, and the two kinds of entries (quantity entries in the item ledger and value entries) that inventory posting creates. Item application links cost recipients to cost sources so cost can be forwarded.
+
+Other pages cover what happens after posting. Cost adjustment moves cost from sources to recipients, average cost works in periods, and expected cost posting uses interim accounts until invoicing. Revaluation, variance and rounding are covered separately. Further pages describe production and assembly order posting, inventory periods, valuation reports, and reconciliation with the general ledger. A subtopic covers the posting date on adjustment value entries.
+
+Start with "Design details - Inventory costing" for the overview, then "Costing methods" and "Inventory posting". Go to the topic pages for cost adjustment, average cost, or G/L reconciliation as your question requires. Two practical pages cover changing an item's costing method and the known issue of zero inventory with open item ledger entries.
+
+## Key points
+
+- Five costing methods are covered: FIFO, LIFO, Average, Standard and Specific.
+- Inventory posting creates quantity entries (item ledger) and value entries, linked by item application entries that forward cost.
+- Item application supports automatic quantity application and fixed cost application for returns and corrections.
+- Cost adjustment runs through the Adjust Cost - Item Entries batch job, either automatic or manual, and Post Inventory Cost to G/L posts values to the general ledger.
+- Expected cost posting for received but not invoiced items uses interim accounts until full invoicing.
+- Average cost is a weighted average within a configurable period and calculation type, applied to decreases by the Adjust Cost batch job.
+- Assembly output posts at actual cost with no WIP concept; production order posting tracks cost through raw materials, WIP and finished goods.
+- To change an item's costing method after transactions, use assembly orders to transfer inventory while preserving cost.
 
 ## Subtopics
 

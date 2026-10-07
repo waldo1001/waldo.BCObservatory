@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen
 type: topic
 title: "Design details: Posting date on adjustment value entry"
-summary: "Learn section Business functionality > Design details > Design details: Inventory costing > Design details: Posting date on adjustment value entry: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Posting date handling on adjustment value entries created by the Adjust Cost - Item Entries batch job. It answers how the date is assigned, how it compares to the source entry in revaluation and item charge cases, and how to fix the "Posting Date is not within your range of allowed posting dates" error.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:15.277Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d6d24c5cbf1753cde7012558989eb262ebb6b6d6d9f8ecbf253b66da1a577aeb
+  prompts:
+    hub-topic: 1
+  input_hash: d3c70fd8da7223f5cfeafa5a57a9cea7ede5dc821ba2741d852dcd946931579c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-allowed-posting-dates
@@ -67,14 +68,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d6d24c5cbf1753cde7012558989eb262ebb6b6d6d9f8ecbf253b66da1a577aeb
-narrative: none
+narrative: generated
 ---
 
 # Design details: Posting date on adjustment value entry
 
-> Learn section Business functionality > Design details > Design details: Inventory costing > Design details: Posting date on adjustment value entry: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Posting date handling on adjustment value entries created by the Adjust Cost - Item Entries batch job. It answers how the date is assigned, how it compares to the source entry in revaluation and item charge cases, and how to fix the "Posting Date is not within your range of allowed posting dates" error.
 
-Path: [Business functionality](../../../business-functionality.md) > [Design details](../../design-details.md) > [Design details: Inventory costing](../design-details-inventory-costing.md) > Design details: Posting date on adjustment value entry · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Design details](../../design-details.md) > [Design details: Inventory costing](../design-details-inventory-costing.md) > Design details: Posting date on adjustment value entry · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+This section explains which posting date Business Central gives to adjustment value entries when the Adjust Cost - Item Entries batch job runs. The date is checked against Inventory Periods and General Ledger Setup, and the result affects the timing of cost adjustments.
+
+The three pages build on each other. "Posting date on value entries" describes the assignment rule. "Posting date on adjustment value entry compared to the source entry" shows the effect in revaluation and item charge scenarios. The error page helps when the batch job fails because of a date restriction.
+
+Start with the value entries page for the rule. Go to the error page if the job is failing now.
+
+## Key points
+
+- The Adjust Cost - Item Entries batch job checks the initial posting date against Inventory Periods and General Ledger Setup.
+- If the initial posting date is outside the allowed range, the later allowed date is assigned to the adjustment value entry.
+- The comparison page covers revaluation posting and item charge posting, with automatic cost adjustment and average cost calculation.
+- General Ledger Setup and Inventory setup both influence the timing of cost adjustments.
+- The posting date error can come from a user's Allow Posting From and Allow Posting To dates.
+- The same error can come from inventory period constraints.
+- Troubleshoot the error by checking the user posting date setup and the inventory periods.
 
 ## Learn pages
 

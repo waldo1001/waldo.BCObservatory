@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app
 type: topic
 title: Power BI projects app
-summary: "Learn section Business functionality > Project management > Project management analytics > Power BI projects app: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.
 tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7a8f07ed28f41c6de3ea66d084c827bdcc1823a2c52faa2fb28abda9534d1628
+  prompts:
+    hub-topic: 1
+  input_hash: 454b59b417fbce2700052323843d1f2e5575d5b049a07a10567fd58588343437
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app
@@ -142,14 +143,33 @@ bc_forms:
   - 37062
   - 37106
 member_hash: 7a8f07ed28f41c6de3ea66d084c827bdcc1823a2c52faa2fb28abda9534d1628
-narrative: none
+narrative: generated
 ---
 
 # Power BI projects app
 
-> Learn section Business functionality > Project management > Project management analytics > Power BI projects app: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.
 
-Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · narrative reviewed by Opus
+
+## Overview
+
+The Power BI Projects app gives leadership, project managers, and team members analytics on project performance, budget adherence, profitability, and invoiced sales. CFOs also use the Project Realization report. The section has one page describing the app and its reports, one page for the semantic model, one for the KPIs and measures, and a page for each report.
+
+The semantic model stores project ledger entries, planning lines, and purchase transactions as fact tables. Dimension tables for projects, resources, tasks, and customers surround them in a star schema. The KPI and measures reference lists the measures built on this model, such as Project Count, Tasks Count, Completed percentage, Invoiced percentage, Realization percentage, and budget variance.
+
+Start with the app overview page to see which reports exist. Then open the report page that matches your question. Use the semantic model and KPI pages when you need to know where a number comes from or want to build your own reports.
+
+## Key points
+
+- The app overview lists the Project Performance to Budget, Project Profitability, Project Overview, Project Invoiced Sales by Type, and Project Invoiced Sales by Customer reports.
+- Project Performance to Budget compares Total Usage Cost with Total Budget Cost and shows Total Cost Variance to Budget, so project managers can keep projects under budget.
+- Project Profitability shows invoiced and usage profit margins and budget profit per project, comparing costs against prices to find high and low performing projects.
+- Project Realization compares invoiced to usage prices (Realization %, Realization Variance) to show which projects need invoicing.
+- Project Overview gives high-level metrics: completed, invoiced, and realization percentages, actual profit, budget comparison, and project count.
+- Project Tasks gives task-level actual price, cost, profit, profit margin, realization, and billable metrics.
+- Project Timeline tracks task starting and ending dates, durations, and critical paths.
+- Invoiced Sales by Type splits sales into resources, items, and G/L accounts. Invoiced Sales by Customer splits sales values per project and customer.
 
 ## Learn pages
 

@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports",
+  "input_hash": "c88d0c722afb934665ec7abc0873a8c28f7f36370a2d561dca33120810158e00",
+  "summary": "Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports.",
+  "overview": "This section is a catalog of standard reports for inventory and warehouse work. Each page describes one report: its purpose, the data it shows, and the roles that benefit from it. There are no subtopics. An overview page introduces inventory and warehouse reporting and the label printing options.\n\nThe reports fall into groups. Availability and planning: Inventory Availability, Inventory - Availability Plan Excel, Planning Availability, and Production Forecast. Valuation and cost: Inventory Valuation, Status, Inventory Cost and price list, and Item Charges - Specification. Sales and purchase analysis: Customer Sales, Order Details, Picking List, Purchase Orders, Sales Back Orders, Top 10 List, and Vendor Purchases. Item analysis: ABC Analysis, Item Age Composition, Item Expiration - Quantity, Item Dimensions (Detail and Total), Item Substitutions, and Item/vendor catalog. Warehouse: Adjustment Bin, Bin List, and Warehouse Shipment Status. Label reports: Item GTIN, Lot No, Reference No., and SN.\n\nStart with the overview page, then go to the page for the report you need. For example, use Inventory Valuation to reconcile the inventory subledger to the general ledger. Use the label report pages when you need barcode or QR labels.",
+  "key_points": [
+    "Inventory Valuation shows quantity and value from a start date to an end date, with beginning and closing balances, and is used to reconcile the inventory subledger to the general ledger.",
+    "Availability reports (Inventory Availability, Availability Plan Excel, Planning Availability) combine on-hand stock with supply and demand from sales orders, purchase orders, and transfers. They show gross requirements, scheduled and planned receipts, and projected balance.",
+    "Inventory - Transaction Detail shows beginning quantity, each increase and decrease with running totals, and ending quantity for selected items over a period.",
+    "Sales and purchase reports include Customer Sales, Order Details, Sales Back Orders, Purchase Orders, Vendor Purchases, and Top 10 List. They show quantities, discounts, profit, and unfulfilled shipments or receipts.",
+    "Item ABC Analysis classifies items into A, B, and C categories by sales contribution, with configurable percentages. Item Age Composition and Item Expiration - Quantity show stock by age or expiry across three equal-length periods.",
+    "Item Dimensions Detail and Total analyze value entries by dimension levels from analysis views, with location as an automatic dimension.",
+    "Warehouse reports: Adjustment Bin (advanced warehouses), Bin List (locations where bins are mandatory), and Shipment Status (open source documents per location).",
+    "Label reports (Item GTIN, Lot No, Reference No., SN) produce printable 1D barcode and 2D QR code labels using Word layouts for receiving, picking, and put-away."
+  ],
+  "members_used": 31,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:03.228Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.032513
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:06.979Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview's grouped list of reports leaves out Inventory - Transaction Detail. The key points cover it, so this is a small gap. It could go under availability or valuation.",
+      "Key point 2 says all three availability reports combine on-hand stock with supply and demand. Only the Inventory Availability summary mentions on-hand stock. Planning Availability is described as using scheduled supply and demand, and Availability Plan Excel as showing inventory levels. The combined wording is loose but not misleading.",
+      "Only the Item GTIN summary says '1D barcode and 2D QR code'. The other label summaries just say 'barcode and QR code'. Applying the 1D/2D wording to all four is a minor generalization."
+    ],
+    "input_hash": "c88d0c722afb934665ec7abc0873a8c28f7f36370a2d561dca33120810158e00",
+    "cost_usd": 0.0728872
+  }
+}

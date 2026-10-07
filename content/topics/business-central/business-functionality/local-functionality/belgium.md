@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium
 type: topic
 title: Belgium
-summary: "Learn section Business functionality > Local functionality > Belgium: 33 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Belgium local functionality in Business Central covers VAT and Intrastat reporting, electronic banking and payments (SEPA, domiciliation, CODA), core finance tasks, and general bookkeeping setup. It answers how-to and setup questions for Belgian tax, trade and bank processes.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:58.763Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7b666628e8fd53f13270b218448f352f69db849e51dd40a1ad3939f7176ca70a
+  prompts:
+    hub-topic: 1
+  input_hash: b31809d61263898ea072477c36cc3e654593474a63158ccfae728722c50e5515
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
@@ -306,14 +307,33 @@ bc_forms:
   - 2000043
   - 2000045
 member_hash: 7b666628e8fd53f13270b218448f352f69db849e51dd40a1ad3939f7176ca70a
-narrative: none
+narrative: generated
 ---
 
 # Belgium
 
-> Learn section Business functionality > Local functionality > Belgium: 33 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Belgium local functionality in Business Central covers VAT and Intrastat reporting, electronic banking and payments (SEPA, domiciliation, CODA), core finance tasks, and general bookkeeping setup. It answers how-to and setup questions for Belgian tax, trade and bank processes.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Belgium section describes what the Belgian version of Business Central adds on top of the base product. The landing page lists the main areas: VAT management, Intrastat reporting, CODA bank statements, electronic banking and payments, core finance operations, and electronic invoicing.
+
+The detail sits in four subtopics. VAT (10 pages) covers declarations, annual listings, EC sales lists, manual corrections, non-deductible VAT and Intrastat. Banking & payments (14 pages) is the largest and covers electronic payments, export protocols, domiciliation direct debits and CODA import and posting. Core finance (3 pages) covers applying and unapplying general ledger entries, financial journals for CODA, and export to ACCON Plus. General (5 pages) covers posting and journal settings plus Belgian enterprise and branch numbers.
+
+Start with General for basic setup such as posting period limits and journal templates. Then go to VAT or Banking & payments, depending on whether the task is tax and trade reporting or bank and payment processing.
+
+## Key points
+
+- VAT: Belgian VAT declarations, annual listings, EC sales lists, manual VAT corrections and non-deductible VAT.
+- Intrastat: setup, printing and export to OneGate.
+- Payments: domestic, international, SEPA and non-Euro SEPA electronic payments, with export protocols and payment files.
+- Domiciliation direct debits are covered under banking and payments.
+- CODA: bank statement import, application and posting, plus creating financial journals for CODA statements.
+- Core finance: apply and unapply general ledger entries, and export general ledger balances to ACCON Plus.
+- General setup: posting period limits, work date as posting date, mandatory journal templates, and deferrals in Sales and Purchase ledger reports.
+- Belgian enterprise and branch numbers are set up in the General pages.
 
 ## Subtopics
 

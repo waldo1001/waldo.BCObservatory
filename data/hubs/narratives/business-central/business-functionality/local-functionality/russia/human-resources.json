@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/russia/human-resources",
+  "input_hash": "a8d1238728328fa147be0fa9f2784cb4b39d48c011069708629f90d69a6959e4",
+  "summary": "Human resources for the Russian localization of Business Central covers payroll, absence registration, dismissal, charges and deductions, staff list changes, and vacation planning. It answers how-to questions about HR and payroll processes for Russian employees.",
+  "overview": "This section describes the HR and payroll processes in the Russian localization. It has an overview page, \"Human resources in Russia\", and one page for each process: payroll, absence registration, dismissal, charges and deductions, staff forming and changing, and vacation planning. There are no subtopics.\n\nStart with the overview page to see which areas are covered. Then go to the process page you need. Payroll sets up salary elements, calculation types and accounting groups. Charges and deductions enter payroll automatically, and absence orders are posted to payroll. Dismissal covers dismissal lines, compensation payments and employee status. Staff list orders and vacation schedules cover organization and planning.",
+  "key_points": [
+    "Absence registration handles four absence types (vacation, travel, sick leave, other) through orders posted to payroll and employee ledger entries, and orders can be cancelled.",
+    "Dismissal uses dismissal lines with an operation type, a reason code and a dismissal document. It also covers compensation payments and updates the employee status.",
+    "Charges and deductions (bonuses, fines, benefits, deductions, assistance) are recorded in the Employee Journal and enter payroll automatically based on start and end dates.",
+    "HR managers create and modify staff lists through staff list orders. They manage position and organizational unit actions and generate archived staff lists and staff arrangement reports.",
+    "Payroll covers salary elements, calculation types, payroll accounting groups, wage and bonus calculation, tax deductions and fund payments.",
+    "Vacation planning builds a yearly vacation schedule, suggests employees, handles leave transfers, and fills in actual start dates when vacation orders are posted."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:35.851Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012551
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:19.662Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says dismissals feed into payroll. The sources only say that charges and deductions enter payroll and that absence orders post to payroll. The dismissal page covers compensation payments and employee status, but it never says dismissals feed into payroll. The sentence now names only charges, deductions and absences.",
+      "The vacation planning key points were split in two: one for schedules and a separate one for leave transfers. They are now a single point.",
+      "Small fix: the staff list point now says staff lists are created and modified through staff list orders, as the source states, and the payroll point now includes bonuses."
+    ],
+    "input_hash": "a8d1238728328fa147be0fa9f2784cb4b39d48c011069708629f90d69a6959e4",
+    "cost_usd": 0.0458672
+  }
+}

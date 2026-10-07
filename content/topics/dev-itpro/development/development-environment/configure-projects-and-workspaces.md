@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/development-environment/configure-projects-and-workspaces
 type: topic
 title: Configure projects and workspaces
-summary: "Learn section Development > Development environment > Configure projects and workspaces: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.
 tier: official
 language: en
 system: projects
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b8036f13b53e495bb1b650d2fb2d16862706755f2e6d1b4af0ea4bb8f064c354
+  prompts:
+    hub-topic: 1
+  input_hash: f5aeb8f9dbbafbb4d9d32e73e81e87ba7da57f88190b3bdb5231c0d55024187e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiroot-workspaces
@@ -58,14 +59,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: b8036f13b53e495bb1b650d2fb2d16862706755f2e6d1b4af0ea4bb8f064c354
-narrative: none
+narrative: generated
 ---
 
 # Configure projects and workspaces
 
-> Learn section Development > Development environment > Configure projects and workspaces: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · no narrative yet
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers how to organize more than one AL project in a single Visual Studio Code workspace. One page explains multi-root workspaces: how to create a code-workspace file, group AL project folders, and set folder-level options such as the package cache path and code analysis.
+
+The second page covers multi-project setups where projects depend on each other. It describes project references, automatic symbol resolution, coordinated publishing of dependencies, incremental build, project loading and dependency graph traversal.
+
+Start with the multi-root workspace page to set up the workspace and per-folder settings. Then read the project references page if your extensions depend on one another.
+
+## Key points
+
+- Multi-root workspaces in Visual Studio Code group several AL project folders into one workspace using a code-workspace file.
+- Settings can be set per folder, including al.packageCachePath and al.enableCodeAnalysis.
+- The multi-root page mentions the AL0720 inherent permissions diagnostic and runtime version 18.0.
+- Project references let interdependent AL projects resolve symbols automatically.
+- Dependencies are published in a coordinated way, following the dependency graph.
+- Incremental build and project loading apply to multi-project workspaces.
+- The project references page cites version 21.1 and version 25.
 
 ## Learn pages
 

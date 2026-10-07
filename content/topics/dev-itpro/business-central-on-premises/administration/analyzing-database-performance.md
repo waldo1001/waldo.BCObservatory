@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
 type: topic
 title: Analyzing database performance
-summary: "Learn section Business Central on-premises > Administration > Analyzing database performance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Analyzing database performance for Business Central on-premises covers how to find and troubleshoot slow SQL queries. It answers questions about the SqlLongRunningThreshold setting, reading long-running queries in the Event Log, and using SQL Server Query Store.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
+  prompts:
+    hub-topic: 1
+  input_hash: e4d1b33d7657fd836091df7826ff9ad8e60ad19491ee11376ab51e2eebb068e7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log
@@ -67,14 +68,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
-narrative: none
+narrative: generated
 ---
 
 # Analyzing database performance
 
-> Learn section Business Central on-premises > Administration > Analyzing database performance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Analyzing database performance for Business Central on-premises covers how to find and troubleshoot slow SQL queries. It answers questions about the SqlLongRunningThreshold setting, reading long-running queries in the Event Log, and using SQL Server Query Store.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section is about finding slow database queries in Business Central on-premises. It offers two approaches: logging long-running SQL queries from the Business Central server, and using Query Store on SQL Server or Azure SQL Database.
+
+Start with the pages on long-running queries. One explains how to set the SqlLongRunningThreshold on the server (with the Set-NAVServerConfiguration cmdlet) so that queries over the threshold are logged. The other explains how to read those entries in Event Viewer and use the AL call stack to pick queries to optimize. The Query Store page is for deeper troubleshooting with query history, runtime statistics and query plan tracking.
+
+## Key points
+
+- SqlLongRunningThreshold on the Business Central server defines when a SQL query counts as slow.
+- The threshold is configured with the Set-NAVServerConfiguration cmdlet.
+- Long-running queries are written to the Event Log and can be viewed in Event Viewer.
+- Analyzing slow queries together with their AL call stacks helps find the code to optimize.
+- Application Insights is also covered alongside the Event Log for monitoring long-running SQL queries.
+- Query Store works with Business Central on SQL Server or Azure SQL Database.
+- Query Store provides query history, runtime statistics and query plan tracking for troubleshooting.
 
 ## Learn pages
 

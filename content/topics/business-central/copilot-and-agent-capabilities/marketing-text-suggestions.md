@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:47.235Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Marketing text suggestions in Business Central use Copilot to draft product descriptions for items from item attributes, category and writing preferences. The section answers how to create marketing text, which tone, format and emphasis options exist, and how the feature works with Azure OpenAI Service and Shopify.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Marketing text suggestions · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Marketing text suggestions · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 

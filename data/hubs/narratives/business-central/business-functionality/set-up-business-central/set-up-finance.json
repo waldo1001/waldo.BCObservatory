@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
+  "input_hash": "5ada3eed4de7e4fd6bcf53ab34389958c0adaac21b90a48b0a0dc26acde38000",
+  "summary": "Set up finance covers the accounting configuration of Business Central: chart of accounts, posting groups, payment terms and methods, currencies, VAT and other taxes, collections (reminders, finance charges), fiscal periods, Intrastat, audit trail codes, and financial reports. It answers how-to-configure questions for each area.",
+  "overview": "This section groups the setup articles for core finance. The page \"Set up financial processes\" is the entry point: it lists finance setup tasks in a table and links to the related articles. From there, pages cover the chart of accounts, posting groups, payment methods and terms, and fiscal years and accounting periods.\nOther pages are organized by topic. Currency pages cover additional reporting currency, exchange rate updates, and applying entries in different currencies. Tax pages cover VAT, unrealized VAT, withholding tax, excise tax, VAT number validation, and Intrastat. Collections pages cover reminder terms and levels, finance charge terms, multiple interest rates, and automated reminders. Reporting pages cover financial reports built from row and column definitions and account categories, and cash flow analysis. Smaller pages cover invoice rounding, payment tolerances, cash customers, audit trail codes, and allocation keys.\nStart with \"Set up financial processes\" to find the right task. Then open the article for the area you are configuring. Posting groups map customers, vendors, items and other entities to G/L accounts in the chart of accounts, so many other setups rely on them.",
+  "key_points": [
+    "Start with 'Set up financial processes', which tables finance setup tasks and links to related articles.",
+    "Chart of accounts: account types, totaling field, extended texts, deletion controls, and the indent function.",
+    "Posting groups: general, specific, and tax posting groups, with alternative and multiple posting group support and troubleshooting.",
+    "Currencies: additional reporting currency, exchange rate updates (manual or automatic via a rate service), and applying entries across currencies with rounding accounts.",
+    "Taxes: VAT (posting groups, clauses, reverse charge), unrealized VAT, withholding tax, excise tax (version 29), and VAT number validation through VIES.",
+    "Collections: reminder terms and levels with fixed and dynamic fees, finance charge terms (average daily balance or balance due), multiple interest rates, and job-queue reminder automation.",
+    "Payment setup: payment terms with date formulas and discounts, payment methods, payment tolerance and discount tolerance, and invoice rounding.",
+    "Reporting and control: financial reports built from row and column definitions and account categories (2025 release wave 1), Intrastat (2022 release wave 2), fiscal years and period closing, source and reason codes, and cash flow forecasts."
+  ],
+  "members_used": 26,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:58.683Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.028019000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:46.770Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says the entry page leads to articles on \"dimension-based reporting\", but no hub page covers that. Dimensions only show up as a feature listed on the entry page and as a prerequisite for financial reports. I removed the phrase.",
+      "The overview's closing claim that posting groups, chart of accounts and fiscal periods \"are usually the base for the others\" isn't supported by the page summaries. I replaced it with a statement they do support: posting groups map entities to G/L accounts.",
+      "The overview left out the financial reports page (row and column definitions, account categories). I added it.",
+      "Version labels in the key points (version 29 for excise tax, 2025 release wave 1 for financial reports, 2022 release wave 2 for Intrastat) come from the page data and are acceptable. None is given a status word."
+    ],
+    "input_hash": "5ada3eed4de7e4fd6bcf53ab34389958c0adaac21b90a48b0a0dc26acde38000",
+    "cost_usd": 0.0874232
+  }
+}

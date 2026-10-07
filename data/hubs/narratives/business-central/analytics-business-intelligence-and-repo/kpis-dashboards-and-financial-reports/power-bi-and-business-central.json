@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+  "input_hash": "d1ec983ff77940a1aedbea1abf9bb4ed565e2f6a0de4838d0eb39230409c311c",
+  "summary": "Power BI and Business Central covers how Power BI works with Business Central: built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. It answers questions about viewing, refreshing, embedding and analyzing Business Central data in Power BI.",
+  "overview": "This section describes how Business Central data is used in Power BI for dashboards, reports and KPI tracking. It starts with an introduction to the integration and the built-in Power BI apps, then goes into specific tasks.\n\nThe remaining pages cover working with Power BI reports inside Business Central (viewing, analyzing, sharing, and manual or scheduled refresh), tracking KPIs with Power BI metrics and scorecards, and using Power BI semantic models in Excel for ad-hoc reporting.\n\nStart with the introduction for the overall picture. Then go to the reports page for daily use, the metrics page for KPI scorecards and alerts, or the Excel page for pivot-table analysis across functions.",
+  "key_points": [
+    "The introduction covers built-in Power BI apps, Power BI Desktop integration, report embedding and managing the integration across roles.",
+    "Power BI reports in Business Central use Business Central data as a source and can be refreshed manually or on a schedule.",
+    "Reports, dashboards, scorecards and Power BI apps can be viewed, analyzed and shared from Business Central.",
+    "Power BI metrics track KPIs and objectives with scorecards, connected metrics, automated status rules and alerting.",
+    "Metric alerts can be sent to Teams, and scorecards can be embedded in Business Central (2023 release wave 2).",
+    "Power BI semantic models can be used in Excel to build Pivot Tables and Tables connected to Business Central Power BI apps.",
+    "The Excel approach supports ad-hoc cross-functional reporting and relies on model relationships and the Power Pivot add-in."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:34.213Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011591
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:12.507Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 5 ties '2023 release wave 2' to Teams alerts and scorecard embedding. The source only says the metrics page references that release wave, not which feature it applies to. This is a small attribution stretch, not an invented version.",
+      "Key point 3 says dashboards, scorecards and apps can all be shared. The source lists 'Report sharing' only for reports, so this is a slight generalization."
+    ],
+    "input_hash": "d1ec983ff77940a1aedbea1abf9bb4ed565e2f6a0de4838d0eb39230409c311c",
+    "cost_usd": 0.0324512
+  }
+}

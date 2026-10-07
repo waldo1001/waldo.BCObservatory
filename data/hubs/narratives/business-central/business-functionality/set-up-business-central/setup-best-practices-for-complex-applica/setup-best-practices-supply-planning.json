@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
+  "input_hash": "12bc560e71b77d694bf8c282fad77b9a5970bd1c86a8fa40c5fc5f2af1d03f29",
+  "summary": "Setup best practices for supply planning in Business Central: how to configure reordering policies, item-level planning parameters, and global planning setup. It answers questions about which policy suits which items, which fields to set, and how to avoid stockouts while controlling inventory cost.",
+  "overview": "Supply planning setup in Business Central depends on a small set of fields spread across three places: reordering policies, planning parameters on the item card, and the global planning setup. The goal in the pages is cost-effective inventory flow without stockouts, balancing working capital against service levels.\n\nThe section has an introductory page that frames the topic (reordering policies, planning parameters, global planning setup, lead time, carrying costs, demand patterns). Three detail pages follow. One covers reordering policies, one covers planning parameters on item cards, and one covers global settings such as forecast usage and dampeners.\n\nStart with the introductory page, then read the reordering policies page to choose a policy per item class. Next, set item-level parameters, and finally review the global planning setup that applies across items and locations.",
+  "key_points": [
+    "Reordering policy guidance is tied to ABC classification: Order for A items, Lot-for-Lot for B items, and Fixed Reorder Qty or Maximum Qty for C items.",
+    "Item card planning parameters include reordering policy, reserve, dampener period, include inventory, safety lead time, and safety stock quantity.",
+    "Reorder points, safety stock, and lot accumulation settings are set to balance working capital and service levels.",
+    "Global planning setup covers forecast on locations, forecast on variants, and overflow level.",
+    "Dampener period and dampener quantity are part of global planning setup; dampener period also appears among the item card planning parameters.",
+    "Global setup includes a components at location default for manufacturing planning.",
+    "The overview page links lead time management, carrying costs, and demand patterns to these setup choices."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:44.006Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011289
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:02.904Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 5 says dampener period and dampener quantity can both be set per item. The sources list dampener period and dampener quantity under global planning setup, but only dampener period under item card planning parameters. Item-level dampener quantity is not supported.",
+      "Minor: the overview says global setup 'applies across items and locations'. This is a mild inference from 'forecast on locations', but acceptable."
+    ],
+    "input_hash": "12bc560e71b77d694bf8c282fad77b9a5970bd1c86a8fa40c5fc5f2af1d03f29",
+    "cost_usd": 0.040851200000000004
+  }
+}

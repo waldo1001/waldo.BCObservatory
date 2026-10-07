@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/norway/banking-and-payments",
+  "input_hash": "6a979b10e1dc1211567c10dcf079a8c61f629d30daa0fd326b54c3c3e4dccf48",
+  "summary": "Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes.",
+  "overview": "This section covers three connected areas for the Norwegian version. The first is vendor remittance: set up remittance agreements, remittance accounts and vendors, create suggestions or manual payments, set payment line information and recipient reference codes, test the lines, export a bank file in SEPA, Telepay or BBS format, import return files, review errors, and cancel or delete orders. The second is incoming customer payments: KID numbers printed on documents and giro forms using the OCR-B font, with OCR payment files imported into a cash receipt journal. The third is EHF electronic invoicing for public sector customers, alongside the newer E-Documents framework.",
+  "key_points": [
+    "Remittance setup covers remittance agreements with the bank, remittance accounts for domestic and foreign payments, and vendors set up for remittance.",
+    "Payments can come from remittance suggestions (filters for payment date, discounts, vendor priority, document types) or be created manually with Initialize Payment Info on the Payment Info page.",
+    "Run the Remittance Test report before posting and transferring payments to the bank.",
+    "Export to a bank file uses SEPA or local standards such as Telepay and BBS, configured on the Bank Account Card.",
+    "Return files are of two types, receipt returns and settlement returns. Errors show on the Return Error page and the Waiting Journal.",
+    "Open payment orders and unsettled individual payments can be cancelled. Orders can be deleted only for closed financial years, when all payments are fully managed and none has sent or approved status.",
+    "OCR payments are set up with a journal template that balances by document number, then imported to a cash receipt journal. The OCR Journal Test report checks them before posting.",
+    "EHF invoicing needs customer GLN, account code and the E-Invoice checkbox, plus file locations for XML files. The E-Documents framework is the newer route to external endpoints."
+  ],
+  "members_used": 25,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:54.467Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022675
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:40.238Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says there are three areas but only describes vendor remittance. It leaves out OCR/KID customer payments and EHF invoicing, so it reads as cut off.",
+      "Key point 1 gives a fixed setup order (agreements, then accounts, then vendors). The page summaries cover all three steps but never state an order, so the wording was softened.",
+      "Pages on printing KID numbers on documents and the giro OCR-B font were not reflected anywhere. A short mention was added to the overview."
+    ],
+    "input_hash": "6a979b10e1dc1211567c10dcf079a8c61f629d30daa0fd326b54c3c3e4dccf48",
+    "cost_usd": 0.0688272
+  }
+}

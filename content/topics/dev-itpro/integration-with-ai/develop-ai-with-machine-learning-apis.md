@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis
 type: topic
 title: Develop AI with machine learning APIs
-summary: "Learn section Integration with AI > Develop AI with machine learning APIs: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Machine learning APIs in Business Central for partners building AI features: the Forecasting (Time Series) API, the Prediction API, and a transparency note on capabilities, limits and responsible AI. It answers which API fits a task, which methods or algorithms it uses, and how to apply it responsibly."
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 526ef40bcb5e1ec3825b5eee62b5680bbfdb87b9d278df849362f73bb48cda45
+  prompts:
+    hub-topic: 1
+  input_hash: 40867722ca21bfce0e75133cad5734e50064dd9b9f0036f75a342d09b7520a88
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-forecasting-api-overview
@@ -65,14 +66,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 526ef40bcb5e1ec3825b5eee62b5680bbfdb87b9d278df849362f73bb48cda45
-narrative: none
+narrative: generated
 ---
 
 # Develop AI with machine learning APIs
 
-> Learn section Integration with AI > Develop AI with machine learning APIs: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Machine learning APIs in Business Central for partners building AI features: the Forecasting (Time Series) API, the Prediction API, and a transparency note on capabilities, limits and responsible AI. It answers which API fits a task, which methods or algorithms it uses, and how to apply it responsibly.
 
-Path: [Integration with AI](../integration-with-ai.md) > Develop AI with machine learning APIs · tier official · system copilot · no narrative yet
+Path: [Integration with AI](../integration-with-ai.md) > Develop AI with machine learning APIs · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This area covers the machine learning APIs that developers can use in Business Central. There are two APIs: the Forecasting API, which predicts future values of business indicators from historical time-ordered data, and the Prediction API, which handles regression and classification tasks such as late payment prediction, customer churn, and quote conversion.
+
+The three pages fit together as two API overviews plus a transparency note. Start with the overview of the API that matches your scenario: forecasting a time series, or predicting an outcome for a record. Then read the Transparency Note for how the models work, their capabilities and limitations, intended use cases, and the responsible AI practices expected of partners building ML features.
+
+## Key points
+
+- The Forecasting API (Time Series API) predicts future values of business indicators from historical time-ordered data.
+- Forecasting uses time series algorithms including ARIMA, ETS, STL, and TBATS.
+- The Prediction API supports regression and classification, for example late payment prediction, customer churn, and quote conversion.
+- Prediction API methods include Initialize, SetRecord, train, predict, evaluate, and plotmodel.
+- The Transparency Note covers the Forecasting Model and Prediction Model, including capabilities, limitations, and intended use cases.
+- The note describes Azure Machine Learning resources, the Responsible AI Standard, and AI safety guardrails.
+- Choose the Forecasting API for time-ordered trends and the Prediction API for record-level outcomes.
 
 ## Learn pages
 

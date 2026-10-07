@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav",
+  "input_hash": "bc47801209c4613462f7eeea5acad7fba8ed3eaed657462079fdf95ee03de3c7",
+  "summary": "Migrating Dynamics NAV on-premises to Business Central online: the overall migration path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions. It answers questions about route choice, data preparation and customization conversion.",
+  "overview": "This section covers moving from Dynamics NAV to Business Central online. It has two pages: one on the overall migration, and one on migrating customizations.\n\nThe main page describes the route. You upgrade to BC14 first, then convert C/AL customizations to AL extensions. As an alternative, you can use the BC14 reimplementation tool. It also touches on data preparation and localization support.\n\nThe customization guide covers the code side. It explains the C/AL to AL conversion workflow and how different object types are handled, including the Txt2Al tool, page and table extensions, codeunit refactoring and event subscribers. Start with the migration page to choose a path, then use the customization guide to plan the code conversion.",
+  "key_points": [
+    "The migration path goes through an upgrade to BC14 first.",
+    "After the BC14 upgrade, C/AL customizations are converted to AL extensions.",
+    "The BC14 reimplementation tool is an alternative to the full upgrade route.",
+    "The migration page covers data preparation and localization support.",
+    "The customization guide covers the C/AL to AL conversion workflow and handling of object types.",
+    "The Txt2Al tool is part of the code conversion.",
+    "Customizations are rebuilt as page extensions and table extensions, with codeunit refactoring and event subscribers.",
+    "The pages mention versions 14, 20 and 25."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:56.630Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009359
+  }
+}

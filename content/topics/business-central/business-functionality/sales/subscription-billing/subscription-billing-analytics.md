@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics
 type: topic
 title: Subscription billing analytics
-summary: "Learn section Business functionality > Sales > Subscription billing > Subscription billing analytics: 18 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Subscription billing analytics covers the Power BI Subscription Billing app for Business Central: setup, semantic model, KPI definitions, and the reports for recurring revenue, churn, contract value, forecasts, and deferrals. It answers questions about what each report shows and how to set up the app."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:32.775Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fb39dd51dac90696d66542821dc40cea02937c325183e103eaa7c5cac20828d8
+  prompts:
+    hub-topic: 1
+  input_hash: 65b03b41606287feb128435c5c2645f0b7f402c83b97823e8ec3e480117bd63e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-billing-schedule
@@ -188,14 +189,33 @@ coverage:
 bc_forms:
   - 36951
 member_hash: fb39dd51dac90696d66542821dc40cea02937c325183e103eaa7c5cac20828d8
-narrative: none
+narrative: generated
 ---
 
 # Subscription billing analytics
 
-> Learn section Business functionality > Sales > Subscription billing > Subscription billing analytics: 18 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Subscription billing analytics covers the Power BI Subscription Billing app for Business Central: setup, semantic model, KPI definitions, and the reports for recurring revenue, churn, contract value, forecasts, and deferrals. It answers questions about what each report shows and how to set up the app.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Subscription billing analytics · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Subscription billing analytics · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section describes the Power BI Subscription Billing app, which tracks the performance of a subscription business. It includes reports on monthly recurring revenue (MRR), churn, total contract value (TCV), billing and cost forecasts, and customer and vendor deferrals.
+
+Start with the setup page. The app depends on subscription contract analysis entries, which give monthly snapshots of active and planned subscriptions, and these feed KPIs such as MRR and TCV. The setup also covers monthly job queue scheduling. Then read the app page for the report list, and use the semantic model and KPI pages as references for the data structure and measure definitions.
+
+The report pages fall into groups. Overview and year-over-year reports give a high-level view. Revenue Analysis, Revenue Development, and the Revenue by Customer, Item, and Salesperson reports break down MRR. Churn Analysis covers lost recurring revenue. Total Contract Value Analysis covers TCV. Billing Schedule and Sales and Cost Forecast look ahead. Customer Deferrals and Vendor Deferrals support deferral accounting and period-end reconciliation.
+
+## Key points
+
+- The app needs subscription contract analysis entries, which give monthly snapshots of active and planned subscriptions, for accurate KPIs such as MRR and TCV.
+- Setup includes scheduling a job queue to run monthly.
+- The semantic model is a star schema. Fact tables cover customer and vendor contract lines, contract changes, deferrals, and customer billing forecast. Dimension tables cover customer, vendor, item, and contract context.
+- The KPI reference covers MRR, Monthly Recurring Cost, net profit, active customer count, churn and upgrade tracking, forecasts, and TCV.
+- Revenue Development splits MRR change into new, upgrade, downgrade, and churn. Churn Analysis breaks down churn and downgrades by component.
+- Revenue by Customer, Item, and Salesperson show MRR, recurring cost, and profit for each dimension. Customer and salesperson views also show churn.
+- Revenue Analysis and Total Contract Value Analysis use decomposition trees to break down MRR and TCV by dimensions such as contract type and customer.
+- Billing Schedule and Sales and Cost Forecast project invoicing, cash flow, revenue, and cost from active subscriptions.
 
 ## Learn pages
 

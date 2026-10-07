@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle/moving-tables-and-fields-between-extensi",
+  "input_hash": "042a306034fdeff7294f023a46706465df02e8eba04687b94b4cbbe0d168d808",
+  "summary": "Moving tables and fields between Business Central extensions on-premises, using the MovedTo and MovedFrom properties and staged moves. It answers questions about how ownership transfers, in what order to publish extensions, and how obsolete states and dependencies are handled.",
+  "overview": "This section describes a controlled process for transferring ownership of tables and fields from one extension to another. It relies on the MovedTo and MovedFrom properties and the ObsoleteState property. Staged moves handle breaking changes and data migration, starting from 2025 release wave 1.\n\nThe two pages fit together as concept and procedure. \"Moving tables and fields between extensions\" explains the mechanism, including the PropagateDependency setting and synthetic relations. \"Development process for moving tables and fields between extensions\" walks through three scenarios with detailed publishing orders: move down to a dependency, move up to a dependent, and lateral move to non-dependent extensions.\n\nStart with the concept page to understand the properties and staged approach. Then go to the development process page for the scenario that matches your extension layout.",
+  "key_points": [
+    "Ownership of tables and fields is transferred with the MovedTo and MovedFrom properties.",
+    "The ObsoleteState property is part of the process, with PendingMove and Moved states.",
+    "Three scenarios are covered: move down to a dependency, move up to a dependent, and lateral move to non-dependent extensions.",
+    "Each scenario has a defined publishing order for the extensions involved.",
+    "Staged moves handle breaking changes and data migration, starting from 2025 release wave 1.",
+    "The PropagateDependency setting (propagateDependencies) and synthetic relations are part of the process.",
+    "The section applies to on-premises deployments."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:03.043Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009691
+  }
+}

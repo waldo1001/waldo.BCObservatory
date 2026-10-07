@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
+  "input_hash": "94d6cb0e0de5c63a55d123f3f57daa4e21e95a41c27f36068e8cf2d93e436bd4",
+  "summary": "E-invoicing for France in Business Central: how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and how to use the E-Reporting FR e-document format. It answers setup and compliance questions about French e-invoicing reform, PDP delivery and tax authority reporting.",
+  "overview": "This section covers the French e-invoicing localization in Business Central. It has two pages and no subtopics. Both rely on the e-document framework: you configure an e-document service and a workflow, and documents are exported automatically.\n\nThe first page explains how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X to meet the French e-invoicing reform. It covers setup of company information, customers, vendors, e-document services and workflows for automatic export and delivery to a PDP.\n\nThe second page covers the E-Reporting FR e-document format. It generates structured XML for transactions that must be reported to the tax authority, and describes setup for PDPs such as Pagero and Avalara. Start with the invoicing page, then move to e-reporting if you have transactions that need reporting.",
+  "key_points": [
+    "Supported invoice formats: UBL 2.1 (PEPPOL BIS 3.0) and Factur-X (PDF/A-3).",
+    "Setup covers company information, customers, vendors, e-document services and workflows.",
+    "French identifiers such as SIRET and SIREN are supported, along with electronic address configuration.",
+    "Invoices can be exported automatically through a workflow and delivered to a PDP.",
+    "The E-Reporting FR format generates structured XML for transactions requiring tax authority reporting.",
+    "E-reporting setup is described for PDPs such as Pagero and Avalara.",
+    "E-reporting features include transaction categorization, batch submissions and tracking of tax authority acceptance."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:21.788Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010353
+  }
+}

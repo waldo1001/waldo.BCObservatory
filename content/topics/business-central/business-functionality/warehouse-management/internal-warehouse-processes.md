@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes
 type: topic
 title: Internal warehouse processes
-summary: "Learn section Business functionality > Warehouse management > Internal warehouse processes: 11 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Internal warehouse processes in Business Central: handling production, assembly and job components and output, moving items within and between locations, and counting and adjusting warehouse inventory. It answers which page, journal or setup applies in basic versus advanced warehouse configurations."
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:50.308Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e258e513fc2af58df5d1b320c88422a5aab7390d833039aff04ae84d26a84052
+  prompts:
+    hub-topic: 1
+  input_hash: b09f7f54c9aeac76b612c6978adde01631acec6e74fb9bf8dfc628ae8f2b2f7c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents
@@ -138,14 +139,32 @@ bc_forms:
   - 9330
   - 9345
 member_hash: e258e513fc2af58df5d1b320c88422a5aab7390d833039aff04ae84d26a84052
-narrative: none
+narrative: generated
 ---
 
 # Internal warehouse processes
 
-> Learn section Business functionality > Warehouse management > Internal warehouse processes: 11 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Internal warehouse processes in Business Central: handling production, assembly and job components and output, moving items within and between locations, and counting and adjusting warehouse inventory. It answers which page, journal or setup applies in basic versus advanced warehouse configurations.
 
-Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Internal warehouse processes · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Internal warehouse processes · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+This area covers warehouse work that happens inside and between locations. It has three subtopics: production, assembly and job activities; moving items; and warehouse counting.
+
+The production, assembly and job pages explain how components are picked or moved to the work area, how output is put away, and how basic and advanced warehouse setups differ. The move items pages cover bin moves, unplanned internal movements and transfers between locations. The warehouse counting pages cover physical inventory counts, adjustments and reclassification.
+
+The hub has no pages of its own. Start with the subtopic that matches the task. First check whether the location uses a basic or an advanced (directed put-away and pick) setup, because the page or journal to use depends on it.
+
+## Key points
+
+- Production, assembly and job flows include picking or moving components and putting away output.
+- Basic and advanced warehouse configurations handle these flows differently.
+- Move items covers bin moves in basic and advanced (directed put-away and pick) setups.
+- Unplanned internal movements and transfers between locations are covered under moving items.
+- Warehouse counting uses orders, recordings and journals for physical inventory, adjustments and reclassification.
+- Counting topics include cycle counting, bin-level counts and adjustment bins.
+- Warehouse adjustments are reconciled with the item ledger.
 
 ## Subtopics
 

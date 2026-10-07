@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/australia",
+  "input_hash": "373cacbcce017fef53576315c6eff42c19c415d94cf9d1e8175b8b905a373c89",
+  "summary": "Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance.",
+  "overview": "The Australia section covers features added for Australian regulatory and business requirements. An introductory page lists the main areas: withholding tax and GST, EFT and bank reconciliation, financial reports, and ABN entry. A separate page covers electronic invoicing using the E-Document framework with the Peppol PINT A-NZ format.\n\nThe detail sits in four subtopics. Tax covers WHT setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports and exchange rate adjustment for VAT entries. Banking and payments covers bank cash flow comparison, check installments, EFT vendor payments, and bank reconciliation and deposit slip reports. Core finance covers distribution amount calculation, balance sheet and income statement reports, and business units for BAS. General covers addresses, ABN and adjustment notes, cost plus percentage pricing and Payment Times Reporting.\n\nStart with the Australia local functionality page for an overview, then go to the subtopic that matches your task. Use the electronic invoicing page if you need to send e-documents in Australia.",
+  "key_points": [
+    "Withholding tax (WHT) has its own setup and settlement pages, including handling of vendors without an ABN.",
+    "GST support includes posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries.",
+    "EFT vendor payments are supported in the banking and payments pages.",
+    "Banking pages also cover bank cash flow comparison, check installments, and printing bank reconciliation and deposit slip reports.",
+    "Core finance covers distribution amount calculation and printing balance sheet and income statement reports.",
+    "Business units can be set up for business activity statements (BAS) consolidation.",
+    "General pages cover address handling, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.",
+    "Electronic invoicing uses the E-Document framework with the Peppol PINT A-NZ format and service integration."
+  ],
+  "members_used": 2,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:39.556Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013071000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:29.795Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: key point 1 says WHT has 'its own setup and settlement pages'. The Tax subtopic lists WHT setup and settlement among its topics but does not say they are separate pages. This is a reasonable reading and harmless."
+    ],
+    "input_hash": "373cacbcce017fef53576315c6eff42c19c415d94cf9d1e8175b8b905a373c89",
+    "cost_usd": 0.0324792
+  }
+}

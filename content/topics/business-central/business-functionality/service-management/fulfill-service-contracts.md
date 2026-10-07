@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/service-management/fulfill-service-contracts
 type: topic
 title: Fulfill service contracts
-summary: "Learn section Business functionality > Service management > Fulfill service contracts: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Fulfill service contracts in Business Central Service management covers creating service contracts and contract quotes, managing contract lines and lifecycle, changing annual amounts, and handling service items under multiple contracts. It answers how-to questions about contract setup and maintenance.
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 914eb680d273dddca1cbc41f40548f44a5987219dbdd6efff202e15098b2df69
+  prompts:
+    hub-topic: 1
+  input_hash: 74a969519915acbf65f3454627a4ada643e59b538c564ee899b5178b16c66bea
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes
@@ -74,14 +75,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 914eb680d273dddca1cbc41f40548f44a5987219dbdd6efff202e15098b2df69
-narrative: none
+narrative: generated
 ---
 
 # Fulfill service contracts
 
-> Learn section Business functionality > Service management > Fulfill service contracts: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Fulfill service contracts in Business Central Service management covers creating service contracts and contract quotes, managing contract lines and lifecycle, changing annual amounts, and handling service items under multiple contracts. It answers how-to questions about contract setup and maintenance.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Fulfill service contracts · tier official · system service · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Fulfill service contracts · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to set up and maintain service contracts, which are standard agreements that define service levels for customers. It has no subtopics. The four pages cover the task overview, the main contract and quote workflow, annual amount changes, and multiple contracts per service item.
+
+Start with the overview page for the list of tasks. Then read the page on working with service contracts and contract quotes for creation, templates, lines, price updates, discounts and status handling. Use the annual amount page when a new amount differs from the calculated one, and the multiple contracts page when one service item needs separate coverage.
+
+## Key points
+
+- Service contracts and contract quotes can be created, using contract templates, and contain contract lines.
+- Contract lifecycle includes signing, locking, and cancellation, tracked through contract status.
+- Price updates and contract discounts are handled on contracts.
+- The annual amount can be changed on a contract or quote.
+- Differences between the new and calculated annual amount can be distributed evenly, by line amount, or by profit.
+- A service item can be under multiple contracts to service parts separately.
+- Multiple contracts allow different response times, skill requirements, and service frequencies.
+- Contract copying is mentioned as part of working with multiple contracts.
 
 ## Learn pages
 

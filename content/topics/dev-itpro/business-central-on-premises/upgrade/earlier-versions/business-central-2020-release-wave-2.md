@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2020-release-wave-2
 type: topic
 title: Business Central 2020 release wave 2
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2020 release wave 2: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Upgrading Business Central on-premises to 2020 release wave 2 (version 17) from versions 14, 15 and 16. Covers upgrade paths (technical upgrade or application refactoring), per-source technical upgrade steps, converting C/AL to AL with Txt2Al, moving tables and fields between extensions with migration.json, installing version 17 cumulative updates, and the upgrade compatibility matrix.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:56.701Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 36aed8ddcbda2a8892ef0150924a929bdf6157b5c6da6876e2bbfe9bfd39778b
+  prompts:
+    hub-topic: 1
+  input_hash: 7fd062e03edd361f47a27d03bfae72a5b87e065c42bbef75be54688cde41e8c9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -155,14 +156,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 36aed8ddcbda2a8892ef0150924a929bdf6157b5c6da6876e2bbfe9bfd39778b
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2020 release wave 2
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2020 release wave 2: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Upgrading Business Central on-premises to 2020 release wave 2 (version 17) from versions 14, 15 and 16. Covers upgrade paths (technical upgrade or application refactoring), per-source technical upgrade steps, converting C/AL to AL with Txt2Al, moving tables and fields between extensions with migration.json, installing version 17 cumulative updates, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 2 · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 2 · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers upgrading Business Central on-premises to 2020 release wave 2 (version 17). The entry page, "Upgrade to Business Central 2020 Wave 2", describes two options: a technical upgrade or application refactoring. It names version 16 (2020 release wave 1) and version 15 (2019 release wave 2) as source versions. Separate pages cover version 14.
+
+Each source version has its own pages. From version 16, the technical upgrade updates the platform without converting application code. A separate page covers the version 16 Base Application path: database conversion, license import and extension publishing, for single-tenant or multitenant deployments. From version 15, the technical upgrade replaces deprecated tables and rewrites application code. Another page upgrades an unmodified version 15 Base Application. From version 14, the path depends on whether the C/AL application is unmodified or customized. Unmodified applications are replaced with the System and Base Application extensions. Customized ones are converted to AL with Txt2Al, and their data moves in two phases using migration.json and DestinationAppsForMigration.
+
+Other pages explain how to migrate tables and fields between extensions, both down and up the dependency graph. One page lists the install tasks for version 17 cumulative updates. Start with the entry page, then pick the page that matches your source version and customization level. Check the compatibility matrix before planning.
+
+## Key points
+
+- Version 17 can be reached from versions 14, 15 and 16 with either a technical upgrade or application refactoring.
+- Version 16 to 17 updates the platform without converting application code: database conversion, system symbols, extension recompilation, control add-in upgrade and reinstalling extensions.
+- The technical upgrade from version 15 replaces deprecated tables and rewrites application code. A separate path covers unmodified version 15 System and Base applications.
+- Unmodified version 14 C/AL is upgraded by replacing the base application with the System and Base Application extensions. This includes exporting permissions and importing the license.
+- Customized version 14 C/AL is converted to AL with Txt2Al. Its data is then upgraded in two phases using migration.json and DestinationAppsForMigration.
+- Moving tables or fields down the dependency graph uses migration.json. Moving them up takes a two-stage deployment with a transition extension.
+- The compatibility matrix lists minimum update versions for upgrades between versions 15 and 28. Upgrades from version 24 or earlier must target version 25 first.
+- Installing a version 17 cumulative update includes database conversion, extension publishing, tenant synchronization and control add-in upgrade.
 
 ## Learn pages
 

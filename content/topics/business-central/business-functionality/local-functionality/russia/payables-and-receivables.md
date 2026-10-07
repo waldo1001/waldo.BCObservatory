@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/russia/payables-and-receivables
 type: topic
 title: Payables and receivables
-summary: "Learn section Business functionality > Local functionality > Russia > Payables and receivables: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:18.543Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1d1c4d61da1350dec7deab72b427aa8023977eb24f51209527d128370a08cb46
+  prompts:
+    hub-topic: 1
+  input_hash: d1e5b340600c19eb187361464d8b1dd7671d8060cf1031d0653cf58f7d5a76f0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information
@@ -107,14 +108,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 1d1c4d61da1350dec7deab72b427aa8023977eb24f51209527d128370a08cb46
-narrative: none
+narrative: generated
 ---
 
 # Payables and receivables
 
-> Learn section Business functionality > Local functionality > Russia > Payables and receivables: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Payables and receivables · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Payables and receivables · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section covers Russia-specific features for vendor and customer accounts. It has setup pages for agreements, customer prepayments, vendor prepayments, letters of attorney and customs declaration information. It also has pages on prepayment differences and on payables and receivables reports.
+
+Start with the agreements page, since agreements synchronize with dimensions that the reports and analyses use. Then set up the prepayment pages (customer or vendor) with their accounts, number series and dimension values. The prepayment differences page follows, for exchange rate adjustments between prepayments and foreign currency invoices. The report pages describe the turnover, accounting card, entries analysis and reconciliation act reports for vendors and customers.
+
+Letters of attorney and custom declaration pages are for document-driven tasks. Letters of attorney cover numbering and linking to employees, vendors and purchase documents. Customs declaration tracking covers CD number format checks and item tracking for imported goods.
+
+## Key points
+
+- Customer and vendor agreements sync with dimensions for reports; setup includes dimension mapping, number series, validity dates and blocking.
+- Customer prepayments cover advance payments on sales orders, with prepayment accounts, number series, PD document symbols and dimension values for conditional gains and losses.
+- Vendor prepayments are configured in Purchases & Payables Setup and Vendor Posting Groups, including Use Prepayment Account, Posted Prepmt. Inv. Nos., PD Doc. Nos. Type and Symbol for PD Doc.
+- Prepayment differences handle exchange rate adjustments between prepayments and foreign currency invoices, posted to separate accounts.
+- Vendor reports include general ledger turnover, accounting card, turnover, posting group turnover, entries analysis and reconciliation act.
+- Receivables reports mirror the vendor set and offer options such as rounding precision, zero line exclusion, detail levels, agreement printing and currency selection.
+- Letters of attorney use number series for open and released documents and link to employees, vendors and source purchase documents, with validity dates and status.
+- Customs declaration tracking offers CD No. format checks, package-specific tracking, country of origin code, temporary CD numbers and Factura-Invoice printing.
 
 ## Learn pages
 

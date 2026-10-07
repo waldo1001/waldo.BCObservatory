@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Australia > Core finance: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Core finance for the Australian version of Business Central covers distribution amount calculation, printing balance sheet and income statement reports, and setting up business units for business activity statements (BAS). It answers questions about AU-specific financial reporting and BAS consolidation.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:15.587Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9a6e3db51e7fd5caedda72e6779ea1e911d6142d1ef1fd8fad274040b5620ea1
+  prompts:
+    hub-topic: 1
+  input_hash: 239ba6646f923c2f72948cd86069936f7380f17d9f87aa7f3fcfc4bd0cde7ac1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts
@@ -76,14 +77,29 @@ coverage:
 bc_forms:
   - 17101
 member_hash: 9a6e3db51e7fd5caedda72e6779ea1e911d6142d1ef1fd8fad274040b5620ea1
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Australia > Core finance: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the Australian version of Business Central covers distribution amount calculation, printing balance sheet and income statement reports, and setting up business units for business activity statements (BAS). It answers questions about AU-specific financial reporting and BAS consolidation.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section collects four pages on finance features localized for Australia. Two pages cover financial reports: printing balance sheets and printing the annual income statement used for auditing accounts. A third page covers how distribution amounts are calculated to meet Australian business requirements. The fourth explains how to set up business units for BAS.
+
+The pages are standalone and there are no subtopics. Start with the business unit setup page if you need to consolidate a parent company, subsidiaries and affiliates for BAS. Start with the report pages if you need to produce statements for audit or financial reporting.
+
+## Key points
+
+- Print balance sheet reports in the Australian version for financial reporting.
+- The annual income statement report is used for auditing accounts and shows revenues and expenses for the current and prior years.
+- The income statement supports rounding to the nearest unit and display in the additional reporting currency.
+- Business units for business activity statements (BAS) consolidate financial statements across parent companies and subsidiaries.
+- BAS business unit setup covers parent company, subsidiary and affiliate setup, and BAS group consolidation.
+- Distribution amount calculation is localized to fit Australian business requirements.
 
 ## Learn pages
 

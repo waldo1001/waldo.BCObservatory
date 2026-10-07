@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app
 type: topic
 title: Power BI manufacturing app
-summary: "Learn section Business functionality > Manufacturing > Manufacturing analytics > Power BI manufacturing app: 21 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI Manufacturing app section describes the app's reports, its semantic model and its KPIs and measures. It answers questions about capacity utilization, work center and machine center load, production order status and cost, WIP, scrap, and variances.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:13.898Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 16d0d3f33dff504b1d84dc00e4819bca909f50f275a89942c250dc6a392f1d48
+  prompts:
+    hub-topic: 1
+  input_hash: bc5c14c65c680768f4d437cbb3d241eb8d0443995064dee703d5559b5498132b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours
@@ -233,14 +234,33 @@ bc_forms:
   - 37099
   - 37107
 member_hash: 16d0d3f33dff504b1d84dc00e4819bca909f50f275a89942c250dc6a392f1d48
-narrative: none
+narrative: generated
 ---
 
 # Power BI manufacturing app
 
-> Learn section Business functionality > Manufacturing > Manufacturing analytics > Power BI manufacturing app: 21 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI Manufacturing app section describes the app's reports, its semantic model and its KPIs and measures. It answers questions about capacity utilization, work center and machine center load, production order status and cost, WIP, scrap, and variances.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+The Power BI Manufacturing app gives manufacturing managers, supervisors and business leaders analytics on manufacturing activity. Most pages each cover one report, such as utilization, load, production orders, WIP, scrap or variances. Together they help spot overloaded or underused resources, delays and cost overruns.
+
+Start with the Power BI Manufacturing app page for an overview of the included reports. Then use the report pages for the specific question. Capacity reports include Current Utilization, Historical Utilization, Allocated Hours, Work Center Load, Machine Center Load and Expected Capacity Need. Production order reports include Prod. Order List, Production Order Overview, Released Production Orders, Finished Production Order Breakdown, Production Order WIP, Average Production Times and the Routing Gantt. Production Scrap, Capacity Variance and Consumption Variance cover waste and cost differences.
+
+For building or checking measures, use the semantic model page, which describes the star schema of fact and dimension tables. The KPIs and measures page lists the measures for capacity, production order costs, work centers, scrap, machine center load and routing lines.
+
+## Key points
+
+- Capacity reports: Current Utilization (gauges, thresholds), Historical Utilization (downtime, busy periods, bottlenecks), Allocated Hours (over- and underutilized work centers) and Expected Capacity Need (by work center).
+- Load reports: Work Center Load and Machine Center Load show capacity, allocated time, availability after orders and load, so centers are not overloaded.
+- Statistics reports for work centers and machine centers combine Scrap % and Load KPI cards, an efficiency chart and a Statistics Details table.
+- Scrap and variance: Production Scrap analyzes scrap rates by work center, machine center and production order. Capacity Variance and Consumption Variance track expected versus actual cost each month.
+- Production order reports: Prod. Order List, Production Order Overview, Released Production Orders and Finished Production Order Breakdown cover status, expected versus finished quantities and cost variances. Average Production Times shows average production time per item to find delays.
+- Production Order WIP shows the Ending Balance Value trend, an Inventory Valuation table, and KPIs for Beginning Balance, Consumption, Output and Capacity value.
+- Prod. Order Routing Gantt shows a Gantt chart with routing line details, task durations, machine versus work center and non-working days.
+- The semantic model uses a star schema with fact tables for capacity, production and value entries, and dimensions for items, routing, work centers and machine centers. A separate page lists all KPIs and measures.
 
 ## Learn pages
 

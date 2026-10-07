@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/purchasing
 type: topic
 title: Purchasing
-summary: "Learn section Business functionality > Local functionality > Switzerland > Purchasing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:20.016Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 066aff50aadf743d89a1bad20300199a23d3c0ee71cb151ec259a4744bda552c
+  prompts:
+    hub-topic: 1
+  input_hash: 98d9df65aaa7faf13d36a4d0f67922e416a06aece7021c25f34d8c7b2169d3ad
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
@@ -109,14 +110,30 @@ bc_forms:
   - 5005270
   - 5005272
 member_hash: 066aff50aadf743d89a1bad20300199a23d3c0ee71cb151ec259a4744bda552c
-narrative: none
+narrative: generated
 ---
 
 # Purchasing
 
-> Learn section Business functionality > Local functionality > Switzerland > Purchasing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Purchasing · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+The section is about one Swiss-specific purchasing feature, delivery reminders. These are used to follow up with vendors on overdue deliveries. The pages follow the process in order: setup, assignment to vendors, creation, review, and issuing.
+
+Start with the Delivery Reminders overview page, which describes the whole feature. Then use the setup page and the page on delivery reminder terms, levels, and text to configure it. After that, assign delivery reminder codes to vendors. Once setup is done, you can create reminders manually or generate them with a batch job. You can preview them with a test report before issuing them.
+
+## Key points
+
+- Delivery Reminders [CH] is the overview page: setup, assignment, generation, and issuance.
+- Set up delivery reminders (CH) establishes the initial configuration.
+- Delivery reminder terms, levels, and text are configured on their own setup page.
+- Delivery reminder codes are assigned to vendor records so reminders can be managed per vendor.
+- Reminders can be created manually or generated through a batch job based on configured criteria.
+- The Delivery Reminder - Test report lets you review and modify reminders before issuing, with selective filtering.
+- Issuing delivery reminders is the final step to follow up on overdue deliveries.
 
 ## Learn pages
 

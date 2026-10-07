@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2022-release-wave-1
 type: topic
 title: Business Central 2022 release wave 1
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2022 release wave 1: 15 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Upgrade guidance for Business Central on-premises 2022 release wave 1 (version 20). It covers technical upgrades from versions 14 to 19, C/AL to AL conversion, moving tables between extensions, permission set and report changes, and the compatibility matrix. It answers how-to and path questions for upgrading to version 20.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:23.584Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2f39e196a79e54c5a5e9dfc9674ff82b81def1f40f19164caaf759949157acca
+  prompts:
+    hub-topic: 1
+  input_hash: 90be57c8e93294fff410f93c9bffff259b7b8a25a26d7bc65da833e6a63f9825
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -164,14 +165,31 @@ coverage:
 bc_forms:
   - 19010
 member_hash: 2f39e196a79e54c5a5e9dfc9674ff82b81def1f40f19164caaf759949157acca
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2022 release wave 1
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2022 release wave 1: 15 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Upgrade guidance for Business Central on-premises 2022 release wave 1 (version 20). It covers technical upgrades from versions 14 to 19, C/AL to AL conversion, moving tables between extensions, permission set and report changes, and the compatibility matrix. It answers how-to and path questions for upgrading to version 20.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2022 release wave 1 · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2022 release wave 1 · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section collects the articles for upgrading on-premises Business Central to 2022 release wave 1 (version 20). The entry page, "Upgrade to Business Central 2022 Wave 1", describes the upgrade paths: a technical upgrade, or application refactoring to the system application. The compatibility matrix shows the minimum update versions needed between major versions.
+For versions 15 to 19, use the technical upgrade pages, which cover database conversion, extension publishing and recompilation, tenant synchronization and data upgrade with PowerShell. For version 14, there are separate articles for unmodified C/AL applications, customized C/AL applications and the technical upgrade from version 14 to 20. They rely on the Txt2Al conversion tool, the DestinationAppsForMigration server setting and migration.json.
+Supporting pages cover changes that affect the upgrade: permission sets as AL objects, the report platform rendering model, moving tables and fields between extensions (up or down the dependency graph), and installing a version 20 cumulative update. An India data migration toolkit page is also included. Start with the entry page and the compatibility matrix, then pick the article for your source version.
+
+## Key points
+
+- Entry page names two paths to version 20: technical upgrade, or application refactoring to the system application.
+- Versions 15 to 19 upgrade to version 20 through database conversion, extension publishing and recompilation, tenant mounting and synchronization, and data upgrade, all scriptable with PowerShell.
+- Version 14 upgrades differ for unmodified C/AL (replace the base application with Microsoft System and Base Application extensions) and customized C/AL (convert code with Txt2Al and migrate tables in two phases).
+- Table migration between extensions uses migration.json; moving down the dependency graph is direct, while moving up needs a transition extension and a two-stage deployment.
+- Permission sets move to an AL object-based model (Permission Set and Permission Set Extension objects), so customizations must be identified and recreated as AL objects.
+- Report upgrade covers the new platform rendering model, event changes and handling of Word and custom report layouts for version 20 and later.
+- The compatibility matrix lists minimum update versions for upgrading between versions 15 to 28, and upgrades from version 24 or earlier must target version 25 first.
+- The India Data Migration Toolkit supports moving from Dynamics NAV 2016 India to Business Central 2021 release wave 2 in two steps. It covers localization data but not customizations.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-valuation-app
 type: topic
 title: Power BI inventory valuation app
-summary: "Learn section Business functionality > Inventory > Inventory analytics > Power BI inventory valuation app: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:04.115Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b1de54b4b41d6ccd9d3fc1ed933d6c6f20345f3e4d782c190f4cc8d5744357a3
+  prompts:
+    hub-topic: 1
+  input_hash: 6c2013ee701e1f2073b4104ed194e5c956dbb0452370d30c005956fd41946650
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item
@@ -87,14 +88,32 @@ bc_forms:
   - 37058
   - 37065
 member_hash: b1de54b4b41d6ccd9d3fc1ed933d6c6f20345f3e4d782c190f4cc8d5744357a3
-narrative: none
+narrative: generated
 ---
 
 # Power BI inventory valuation app
 
-> Learn section Business functionality > Inventory > Inventory analytics > Power BI inventory valuation app: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+The Power BI Inventory Valuation app gives executives and managers a view of inventory value across the organization. It helps them find the locations and items that hold the most stock value and make cost decisions based on that.
+
+The section has a landing page that introduces the app, three reports, and one reference page. The Overview report gives a high-level view of total inventory value and movements. The by Item and by Location reports break value down item by item or location by location. Each shows beginning balance value, increases and decreases, and ending balance value for a chosen period.
+
+Start with the landing page for the scope of the app, then open the report page that matches your question. Use the KPIs and measures page when you need the formulas and data sources behind the numbers in the semantic model.
+
+## Key points
+
+- The app has three reports: Inventory Valuation Overview, Inventory Valuation by Item, and Inventory Valuation by Location.
+- The Overview report shows Ending Balance Value, Ending Balance Posted to G/L, Variance, Invoiced Quantity, Increases Quantity and Decrease Qty.
+- The by Item report shows beginning balance value, increases, decreases and ending balance value per item, to identify high-value items.
+- The by Location report shows the same period values per location, to identify high-value locations.
+- The KPIs and measures page lists the semantic model measures with formulas and data sources, such as Beginning Balance G/L, Cost Amount, Cost Posted to G/L and Variance.
+- The by Item and by Location reports show values for a specified period.
+- The intended audience is executives and managers making strategic and cost decisions.
 
 ## Learn pages
 

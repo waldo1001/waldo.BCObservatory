@@ -2,19 +2,20 @@
 id: topic/business-central/get-started
 type: topic
 title: Get started
-summary: "Learn section Get started: 109 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: The Get started section of Business Central covers how to try, set up, learn and use the product. It answers questions about trials, first setup, quick starts, everyday navigation and data entry, troubleshooting, FAQs, and finding help or support.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:15.962Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 416f0035ef897230fd6c09ba78caa4e41b718cb1856b4dfd56a2526975fd83f9
+  prompts:
+    hub-topic: 1
+  input_hash: c65445ae18c0e9b9b1e2f25f27d1ec995ab0d4a1ff43a4cdd79d6733448bfce6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -406,14 +407,33 @@ bc_forms:
   - 30156
   - 30157
 member_hash: 416f0035ef897230fd6c09ba78caa4e41b718cb1856b4dfd56a2526975fd83f9
-narrative: none
+narrative: generated
 ---
 
 # Get started
 
-> Learn section Get started: 109 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> The Get started section of Business Central covers how to try, set up, learn and use the product. It answers questions about trials, first setup, quick starts, everyday navigation and data entry, troubleshooting, FAQs, and finding help or support.
 
-Path: Get started · tier official · system none · no narrative yet
+Path: Get started · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Get started is the entry point for new Business Central users and administrators. Its own page gives an overview of the business functionality supported: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+
+The subtopics follow a natural path. Try and Buy cover signing up for a trial, extending it, initial setup, and converting to a subscription. Quick starts are short beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence. Learn offers hands-on practice with the CRONUS and Contoso Coffee demo data, user resources and videos.
+
+Once the system is running, Get productive in Business Central is the largest subtopic and covers daily use: finding pages, entering data, filtering, personalizing, reports and sharing. Troubleshooting and FAQs and Help and Support cover Tell Me, Copilot, system requirements, Teams, help resources and contacting support. Start with the functionality overview, then Try or Quick starts.
+
+## Key points
+
+- The functionality overview lists the supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+- Try covers trial sign-up, extending the trial, first setup tasks, converting to a subscription, and fixing self-service sign-up errors.
+- Buy covers trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
+- Quick starts are 7 beginner guides covering company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.
+- Learn offers process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resources and a video library.
+- Get productive (55 pages) covers Tell Me, Role Explorer, sorting and filtering, personalization, notifications, document layouts, Microsoft 365 apps and accessibility.
+- Troubleshooting and FAQs covers Tell Me search, the Copilot experience, minimum system requirements and the Teams app.
+- Help and Support covers Chat with Copilot, the Help pane, the Help & Support page, telemetry and how administrators manage technical support.
 
 ## Subtopics
 

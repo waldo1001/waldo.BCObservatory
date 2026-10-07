@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/service-management/planning-service",
+  "input_hash": "b47066612964600b3dad45e112f6ede25251ec623b70e8a68563a44be3567efe",
+  "summary": "Planning service in Business Central Service Management covers service pricing, repair status, allocation status, and how service order status derives from item repair statuses. It answers questions about how prices are applied to service orders and how statuses change as work progresses or resources are reallocated.",
+  "overview": "Planning service groups the pages that explain how service work is planned and tracked in Service Management. They cover service pricing, setting up service items and groups, repair status, allocation status, and service statistics.\n\nThe pages fit together in two parts. Service price management explains how the best price is applied to service orders through price groups and price adjustments. The status pages explain how repair status and allocation status of service items behave, and how the repair statuses of all items in an order determine the service order status.\n\nStart with the \"Planning service processes\" page for the overview. Then go to \"Service price management\" for pricing questions, or to \"Allocation status and repair status\" and \"Service order status and repair status\" for status questions.",
+  "key_points": [
+    "Service price management applies the best price to service orders using service price groups and service price adjustments.",
+    "Price adjustment covers fixed price, maximum price, and minimum price, and applies to items, resources, and costs.",
+    "Repair status codes and allocation status of service items are tracked and related to each other.",
+    "Status changes when repair work is completed, partly serviced, or reallocated to different resources.",
+    "Service quotes can be converted to service orders, which affects status handling.",
+    "Service order status is determined from the linked repair statuses of all service items, using priority levels.",
+    "Planning also includes setting up service items and service groups, and analyzing service statistics."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:19.418Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009627
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:51.104Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 5 says quote-to-order conversion 'affects status handling'. The source only lists 'Service quote to order conversion' as a feature on the allocation status page, so this link is inferred, though it is reasonable.",
+      "Key point 2 attaches 'items, resources, and costs' to price adjustment. The source ties those to price calculations more generally, so this is a small simplification.",
+      "The overview describes two parts, which leaves out the 'Planning service processes' overview page. That page is still named correctly as the entry point."
+    ],
+    "input_hash": "b47066612964600b3dad45e112f6ede25251ec623b70e8a68563a44be3567efe",
+    "cost_usd": 0.0290872
+  }
+}

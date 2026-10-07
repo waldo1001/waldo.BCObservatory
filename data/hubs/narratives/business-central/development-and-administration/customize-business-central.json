@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/customize-business-central",
+  "input_hash": "66c8cbf36f1bf8fb711afbe95f2896416695faebcf45f26306ab18ef71ec4660",
+  "summary": "Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits.",
+  "overview": "This section covers the ways to tailor Business Central. The overview page \"Customizing Business Central\" introduces the approaches: profile customization, experience settings, colored indicators on cues, app installation and page personalization. Start there to pick the right approach.\n\nThe remaining pages each cover one task. \"Customizing Pages for Roles\" explains how administrators change page layouts for profiles and roles. \"Enable Premium features\" shows how to select the experience level in Company Information. The Cue page explains how to set colored indicators on Role Center tiles.\n\nThe subtopic \"Customize with extensions\" (26 pages) covers installing, uninstalling and managing apps. It also covers individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU), including setup, limits and deprecation status.",
+  "key_points": [
+    "Page customization for profiles and roles lets administrators add fields from source tables and control field visibility.",
+    "Editing of customized pages can be locked or unlocked, and customizations can be managed or cleared.",
+    "Selecting the Premium experience in Company Information gives access to all functionality, including Manufacturing and Service Management. Essentials is also an experience level.",
+    "Colored Cue indicators use low, middle and high threshold ranges, each with its own color style.",
+    "Cue indicators are set up on the Cue Setup page, either company-wide or for individual users.",
+    "The extensions subtopic covers installing, uninstalling and managing apps.",
+    "Extensions cover migration, payments, banking, insights, forecasting and country-specific needs for UK, DK and EU, with notes on limits and deprecation."
+  ],
+  "members_used": 4,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:50.106Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011371
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:12.145Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says \"The other own pages\", which is internal jargon and reads awkwardly. Reworded.",
+      "Key point 5 says per-user Cue indicators are set up \"through personalization\". The source only says the Cue Setup page can be used company-wide or for individual users, so the mechanism was softened.",
+      "Key point 3 says Essentials is \"the other\" experience level. The source lists Essentials as an experience but does not say there are only two levels. Reworded.",
+      "Every other claim matches the page and subtopic summaries."
+    ],
+    "input_hash": "66c8cbf36f1bf8fb711afbe95f2896416695faebcf45f26306ab18ef71ec4660",
+    "cost_usd": 0.0418992
+  }
+}

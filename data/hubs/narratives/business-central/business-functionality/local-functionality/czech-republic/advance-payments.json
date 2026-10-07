@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/advance-payments",
+  "input_hash": "9661c25db1eb9c50cd788a6333d12f1cccc8318c4458da0e3c8bc1efd1bd7055",
+  "summary": "Advance payments in the Czech version of Business Central: the localization extension for sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, foreign currency, and the setup of templates and VAT posting.",
+  "overview": "This section covers advance payment handling for the Czech version of Business Central. An extension provides advance payment functionality for both sales and purchases, including VAT documents, foreign currency support, and management of the advance lifecycle in line with regulatory requirements.\n\nTwo pages make up the section. The first describes the extension and what it does: advance invoices, VAT documents and credit notes, linking advances to orders, and cash desk integration. The second describes the setup: advance letter templates, G/L accounts, VAT posting group mapping, report selections, and VAT statement configuration.\n\nStart with the extension page to understand the functionality, then use the setup page to configure templates and VAT posting before you create advances.",
+  "key_points": [
+    "The extension supports advances for both sales and purchases.",
+    "It covers advance invoices, VAT documents, and credit notes.",
+    "Foreign currency handling is supported.",
+    "Advances can be linked to orders, and cash desk integration is included.",
+    "Setup uses advance letter templates for sales and purchase advances.",
+    "Setup includes G/L account configuration and VAT posting group mapping.",
+    "Setup covers automatic VAT document posting and non-deductible VAT posting.",
+    "Report selections and VAT statement configuration are also part of setup."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:19.615Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008775
+  }
+}

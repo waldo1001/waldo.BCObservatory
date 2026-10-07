@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Learn section Business functionality > Local functionality > Italy > Fixed assets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:08.293Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: add856128f594cee5c33b3b03095d92d1f544005d96e086703c51c8d35e6ec87
+  prompts:
+    hub-topic: 1
+  input_hash: ed340cdb42ef59608404c16211baa48c46ab5d1d72dc3ca8d33d774566871235
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
@@ -83,14 +84,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: add856128f594cee5c33b3b03095d92d1f544005d96e086703c51c8d35e6ec87
-narrative: none
+narrative: generated
 ---
 
 # Fixed assets
 
-> Learn section Business functionality > Local functionality > Italy > Fixed assets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Fixed assets · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Italy-specific parts of fixed asset management. It starts with an overview page, "Italian fixed assets", which summarizes the main capabilities: anticipated, accelerated and reduced depreciation, automatic creation of multiple asset cards from invoices, and depreciation book reporting.
+
+The other pages are task guides. One explains how to set up alternate depreciation methods using depreciation tables. One covers compressing depreciation into subclasses so fewer ledger entries are posted, using the depreciation book setup. One describes creating multiple fixed asset cards during purchase invoice posting. One covers printing the Depreciation Book report.
+
+Start with the overview page, then set up the alternate depreciation methods. Print the Depreciation Book report after depreciation methods are set up and assets are entered.
+
+## Key points
+
+- Alternate depreciation methods (anticipated, accelerated, reduced) are defined with depreciation tables.
+- Depreciation tables use fields such as Period Depreciation %, Total Depreciation % and No. of Units in Period.
+- Compressed depreciation groups depreciation by subclass and posts only totals, reducing ledger entries when many assets are involved.
+- Compression is configured through the depreciation book setup.
+- Multiple fixed asset cards can be created automatically during purchase invoice posting, with sequential numbering.
+- The multiple-card feature was originally Italian localization and is now delocalized into standard Business Central.
+- The Depreciation Book report shows fixed asset changes by year and item class, with a Print per Fixed Asset option and Starting Date and Ending Date filters.
+- Run the report after depreciation methods are set up and assets are entered.
 
 ## Learn pages
 

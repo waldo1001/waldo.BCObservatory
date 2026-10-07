@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices",
+  "input_hash": "14d9a2d160f457bd5b6c0b4062ac6e0f17c2112b4cdc6f8bf73d2fbbbf2d11a9",
+  "summary": "Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation.",
+  "overview": "This section collects the rules developers follow when building and maintaining Business Central extensions. Two pages sit directly in the hub and deal with lifecycle changes. One covers marking AL objects, methods and symbols as obsolete. The other covers deprecating external business events so that integrations are informed and move to replacement events.\n\nThe Best practices subtopic (17 pages) covers the wider craft: AL code conventions and restrictions, testing, performance, security, telemetry, connectivity app requirements and documenting user scenarios. It also helps with preparing an extension for Marketplace validation.\n\nStart with the obsolete AL page if you need to retire code in an extension. Use the external business events page if the change affects outside integrations. Go to Best practices for general questions on writing, testing, securing and publishing extensions.",
+  "key_points": [
+    "Obsoleting in AL uses the ObsoleteState, ObsoleteReason and ObsoleteTag properties or the [Obsolete] attribute.",
+    "Analyzer rules enforce obsoletion, and preprocessor directives are part of the obsoletion guidance.",
+    "External business events are deprecated by first marking them obsolete pending, then removing them in a future version.",
+    "Deprecating an external business event involves the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix and event versioning. The page references version 27.0.",
+    "The deprecation process is meant to keep external integrations informed and moving to replacement events.",
+    "Best practices (17 pages) covers AL code conventions, restrictions, testing, performance, security and telemetry.",
+    "Best practices also covers connectivity app requirements, user scenario documentation and preparing for Marketplace validation."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:54.225Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010761
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:29.632Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 ties version 27.0 to event versioning. The source only lists 27.0 as a version the page mentions and does not say what it applies to. I reworded the point so it no longer claims that link.",
+      "The overview says integrations 'have time to move to replacements'. The source says integrations are informed and move to replacement events, so I removed the timing claim.",
+      "Everything else matches the page and subtopic summaries: the obsoletion properties, the attribute, analyzer rules, preprocessor directives, the 17-page Best practices subtopic and Marketplace validation."
+    ],
+    "input_hash": "14d9a2d160f457bd5b6c0b4062ac6e0f17c2112b4cdc6f8bf73d2fbbbf2d11a9",
+    "cost_usd": 0.0386352
+  }
+}

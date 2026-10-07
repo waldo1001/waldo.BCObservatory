@@ -2,7 +2,7 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions
 type: topic
 title: Grant user permissions
-summary: "Learn section Development and administration > Administration tasks in Business Central > Manage access to Business Central > Grant user permissions: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Granting user permissions in Business Central: creating users based on license type, assigning permission sets, and defining granular permission sets with read, insert, modify, delete and execute access. It answers questions about user setup, license-based permissions, and record-level security."
 tier: official
 language: en
 system: administration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 516e37befff368ab038355069fc2c3c44edb76087027f0f54b4c11accd0c5a09
+  prompts:
+    hub-topic: 1
+  input_hash: f71bf49f1b97704defef02d11b8bc1974c8fce04cd2940c5068d12e2134ce184
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
@@ -86,14 +87,32 @@ bc_forms:
   - 9878
   - 9883
 member_hash: 516e37befff368ab038355069fc2c3c44edb76087027f0f54b4c11accd0c5a09
-narrative: none
+narrative: generated
 ---
 
 # Grant user permissions
 
-> Learn section Development and administration > Administration tasks in Business Central > Manage access to Business Central > Grant user permissions: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Granting user permissions in Business Central: creating users based on license type, assigning permission sets, and defining granular permission sets with read, insert, modify, delete and execute access. It answers questions about user setup, license-based permissions, and record-level security.
 
-Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Grant user permissions · tier official · system administration · no narrative yet
+Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Grant user permissions · tier official · system administration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers how administrators give users access in Business Central, for both online and on-premises deployments. It has two pages that work in sequence: one for creating users and tying them to licenses, and one for building custom permissions.
+
+Start with "Create users according to licenses". It explains creating users, assigning permission sets, managing licenses, and configuring permissions by license type. It also touches on security groups, user groups and delegated admin.
+
+Then use "Define granular permissions" when the standard permission sets are not enough. It describes creating permission sets with access levels per database object, using indirect permissions and security filters for record-level control, and importing or exporting permissions.
+
+## Key points
+
+- Users are created and assigned permission sets by administrators, with permissions configured according to license type.
+- License assignment, security groups, user groups and delegated admin are covered in the user creation page.
+- Applies to Business Central online and on-premises.
+- Custom permission sets can set read, insert, modify, delete and execute access on database objects.
+- Indirect permissions let users reach objects through other objects they are allowed to use.
+- Security filters provide record-level access control.
+- Permissions can be imported and exported.
 
 ## Learn pages
 

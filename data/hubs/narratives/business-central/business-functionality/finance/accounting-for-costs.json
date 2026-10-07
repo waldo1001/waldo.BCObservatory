@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/accounting-for-costs",
+  "input_hash": "fde34798879f0f5f594d0791ed8e6604504b4c90a91a05db665c5745533ea653",
+  "summary": "Cost accounting in Business Central: terminology, setup of cost types, cost centers and cost objects, transferring ledger entries, allocating costs, cost budgets, and built-in reports. It answers how-to and concept questions about analyzing costs by type, location, and bearer.",
+  "overview": "Cost accounting analyzes business costs by type, location, and bearer to determine profitability. It works through cost types, cost centers, and cost objects, with allocations, budgets, and reports built on top of them.\n\nThe pages follow the working order. Start with the overview, \"About cost accounting\" and the terminology page for concepts. Then use \"Set up cost accounting\" to define cost types, centers, and objects and link them to general ledger accounts. Next come transferring and posting cost entries, defining and allocating costs, and creating cost budgets. Reports and budget entry cleanup are covered last.",
+  "key_points": [
+    "Setup defines cost types, cost centers, and cost objects and links them to general ledger accounts; cost center and cost object dimensions and automatic cost adjustment are part of it.",
+    "General ledger entries are transferred to cost accounting automatically by set criteria or posted manually; combined entries and tracing between cost and ledger entries are supported.",
+    "Cost allocations move costs and revenues between cost types, centers, and objects using allocation sources and targets.",
+    "Allocation bases can be static or dynamic, for example employee counts or sales figures.",
+    "Cost budgets are based on cost types for a fiscal period; batch jobs copy, allocate, and report budgets, with comparison to actual costs.",
+    "A batch job deletes cost budget entries from the cost budget register while preventing gaps in the register sequence.",
+    "Report Explorer gives access to the built-in cost accounting reports."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:57.650Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013397
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:27.418Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 says general ledger entries are 'posted manually'. The source lists 'manual cost posting' as a feature, which means posting cost entries manually in cost accounting, not posting ledger entries manually. The wording is a little loose but not misleading.",
+      "The overview says 'The pages follow the working order'. That is an editorial ordering claim rather than something the page summaries state. The order it describes is reasonable."
+    ],
+    "input_hash": "fde34798879f0f5f594d0791ed8e6604504b4c90a91a05db665c5745533ea653",
+    "cost_usd": 0.0343952
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/onboard-your-customers
 type: topic
 title: Onboard your customers
-summary: "Learn section Administration > Onboard your customers: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, the Welcome banner, checklists, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners help new customers and users get productive faster."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d692987bb2ad4aea50701d375f7a7ecc7e3da99352faca448c809f849df5cdc3
+  prompts:
+    hub-topic: 1
+  input_hash: 90ad5de3e47e58536b9097e770ee6446a0fe3dcb549281cfda346001f7c8c04c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-signupcontext
@@ -109,14 +110,32 @@ bc_forms:
   - 4750
   - 4751
 member_hash: d692987bb2ad4aea50701d375f7a7ecc7e3da99352faca448c809f849df5cdc3
-narrative: none
+narrative: generated
 ---
 
 # Onboard your customers
 
-> Learn section Administration > Onboard your customers: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, the Welcome banner, checklists, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners help new customers and users get productive faster.
 
-Path: [Administration](../administration.md) > Onboard your customers · tier official · system administration · no narrative yet
+Path: [Administration](../administration.md) > Onboard your customers · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section describes the tools partners can use to help prospects and customers learn Business Central and reach productive use sooner. It starts with the overview of onboarding experiences and the page on trials and sign-ups for Business Central online, which covers free trials, tailored trials, CSP partnerships, conversion to paid subscriptions and demo environments.
+
+The other pages cover individual building blocks. The SignupContext parameter tailors trial onboarding from prospect information on partner websites. The Welcome banner, the checklist, and teaching tips and in-app tours guide new users inside the product. The Recommended Apps extension lets partners curate marketplace apps for a customer. Onboarding telemetry signals measure progress.
+
+Start with "Onboarding experiences" for the big picture, then read the page for the specific tool you want to build or customize.
+
+## Key points
+
+- The SignupContext parameter tailors unmanaged trial provisioning and onboarding (including checklist customization) based on prospect information from partner websites.
+- The checklist is built from guided experience items such as assisted setup, manual setup, tours and spotlight tours (2021 release wave 1).
+- The Welcome banner appears to new users in CRONUS evaluation companies and in non-evaluation companies like My Company, with different purposes and customization options.
+- Teaching tips are created in AL with properties like AboutTitle and AboutText, for pages, controls, FactBoxes and reports (2022 release wave 1).
+- Telemetry emits onboarding signals, such as sales, purchase and payment signals, based on posted documents, and the signals can be extended.
+- The Recommended Apps extension lets partners curate marketplace app lists using codeunit methods such as InsertApp, GetApp, UpdateApp, RefreshImage, DeleteApp and DeleteAllApps.
+- Trials and sign-ups cover free trials, tailored trials, CSP partnerships, trial conversion to paid subscriptions and demo environments.
 
 ## Learn pages
 

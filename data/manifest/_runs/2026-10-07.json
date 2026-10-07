@@ -1,8 +1,8 @@
 {
   "date": "2026-10-07",
-  "started_at": "2026-10-07T01:01:30.439Z",
-  "finished_at": "2026-10-07T01:18:20.158Z",
-  "status": "partial",
+  "started_at": "2026-10-07T01:54:03.703Z",
+  "finished_at": "2026-10-07T02:34:21.159Z",
+  "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
     "node": "v22.22.3",
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 7568
+        "duration_ms": 7686
       },
       {
         "id": "learn-devitpro",
@@ -47,7 +47,7 @@
           "removed": 0
         },
         "note": "5893 pages at cb233a9a87b9",
-        "duration_ms": 9952
+        "duration_ms": 10140
       },
       {
         "id": "m365-roadmap",
@@ -61,7 +61,7 @@
           "removed": 0
         },
         "note": "80 Business Central items of 1900; snapshot unchanged",
-        "duration_ms": 420
+        "duration_ms": 404
       },
       {
         "id": "bcquality",
@@ -75,7 +75,7 @@
           "removed": 0
         },
         "note": "435 pages at 86d809b5252a",
-        "duration_ms": 782
+        "duration_ms": 783
       },
       {
         "id": "alguidelines",
@@ -89,7 +89,7 @@
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 710
+        "duration_ms": 707
       },
       {
         "id": "bcapps",
@@ -103,7 +103,7 @@
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 761
+        "duration_ms": 903
       },
       {
         "id": "sandbox-history",
@@ -117,7 +117,7 @@
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 720
+        "duration_ms": 600
       },
       {
         "id": "onprem-history",
@@ -131,119 +131,119 @@
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 620
+        "duration_ms": 589
       },
       {
         "id": "yt-microsoft",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
-        "duration_ms": 106
+        "note": "15 feed entries",
+        "duration_ms": 205
       },
       {
         "id": "yt-hougaard",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
-        "duration_ms": 82
+        "note": "15 feed entries",
+        "duration_ms": 106
       },
       {
         "id": "yt-saurav",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
-        "duration_ms": 25
+        "note": "15 feed entries",
+        "duration_ms": 106
       },
       {
         "id": "yt-areopa",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
-        "duration_ms": 27
+        "note": "15 feed entries",
+        "duration_ms": 106
       },
       {
         "id": "yt-mibuso",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
-        "duration_ms": 29
+        "note": "15 feed entries",
+        "duration_ms": 97
       },
       {
         "id": "yt-stefanmaron",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
-        "duration_ms": 26
+        "note": "15 feed entries",
+        "duration_ms": 148
       },
       {
         "id": "yt-bcmusings",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
-        "duration_ms": 26
+        "note": "15 feed entries",
+        "duration_ms": 100
       },
       {
         "id": "yt-dynamicscorner",
         "kind": "youtube",
-        "ok": false,
+        "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
-        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
-        "duration_ms": 27
+        "note": "15 feed entries",
+        "duration_ms": 69
       },
       {
         "id": "waldo-be",
@@ -257,7 +257,7 @@
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 394
+        "duration_ms": 319
       },
       {
         "id": "stefanmaron-com",
@@ -271,7 +271,7 @@
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 362
+        "duration_ms": 402
       },
       {
         "id": "kauffmann-nl",
@@ -285,7 +285,7 @@
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 450
+        "duration_ms": 702
       },
       {
         "id": "demiliani-com",
@@ -299,7 +299,7 @@
           "removed": 0
         },
         "note": "89 posts via WordPress REST",
-        "duration_ms": 480
+        "duration_ms": 528
       },
       {
         "id": "freddysblog",
@@ -313,7 +313,7 @@
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 263
+        "duration_ms": 271
       },
       {
         "id": "jpearson-blog",
@@ -327,7 +327,7 @@
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 275
+        "duration_ms": 374
       },
       {
         "id": "katson-com",
@@ -341,7 +341,7 @@
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 825
+        "duration_ms": 818
       },
       {
         "id": "sauravdhyani-com",
@@ -355,7 +355,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 432
+        "duration_ms": 407
       },
       {
         "id": "gerardorenteria-blog",
@@ -369,7 +369,7 @@
           "removed": 0
         },
         "note": "79 posts via WordPress REST",
-        "duration_ms": 379
+        "duration_ms": 515
       },
       {
         "id": "bertverbeek-nl",
@@ -383,7 +383,7 @@
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 887
+        "duration_ms": 824
       },
       {
         "id": "kine-cz",
@@ -397,7 +397,7 @@
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 273
+        "duration_ms": 237
       },
       {
         "id": "keytogoodcode-com",
@@ -426,7 +426,7 @@
           "removed": 0
         },
         "note": "10 posts via WordPress REST",
-        "duration_ms": 1104
+        "duration_ms": 768
       },
       {
         "id": "mohana-blog",
@@ -440,7 +440,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 404
+        "duration_ms": 416
       },
       {
         "id": "duiliotacconi-com",
@@ -454,7 +454,7 @@
           "removed": 0
         },
         "note": "20 posts via WordPress REST",
-        "duration_ms": 301
+        "duration_ms": 282
       },
       {
         "id": "thinkaboutit-be",
@@ -468,7 +468,7 @@
           "removed": 0
         },
         "note": "61 posts via WordPress REST",
-        "duration_ms": 2042
+        "duration_ms": 1916
       },
       {
         "id": "thatnavguy-com",
@@ -482,7 +482,7 @@
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 198
+        "duration_ms": 197
       },
       {
         "id": "dvlprlife-com",
@@ -496,7 +496,7 @@
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 240
+        "duration_ms": 230
       },
       {
         "id": "tine-staric-net",
@@ -510,7 +510,7 @@
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 304
+        "duration_ms": 1233
       },
       {
         "id": "aardvarklabs-blog",
@@ -524,7 +524,7 @@
           "removed": 0
         },
         "note": "81 posts via WordPress REST",
-        "duration_ms": 1146
+        "duration_ms": 2493
       },
       {
         "id": "vondervoort-be",
@@ -538,7 +538,7 @@
           "removed": 0
         },
         "note": "6 posts via WordPress REST",
-        "duration_ms": 3328
+        "duration_ms": 3263
       },
       {
         "id": "thedynamicsexplorer-com",
@@ -552,7 +552,7 @@
           "removed": 0
         },
         "note": "19 posts via WordPress REST",
-        "duration_ms": 2741
+        "duration_ms": 2738
       },
       {
         "id": "vld-bc-com",
@@ -582,16 +582,16 @@
         },
         "suggestions": [
           {
+            "host": "yzhums.com",
+            "count": 5,
+            "sample_title": "Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item",
+            "sample_url": "https://yzhums.com/76445/"
+          },
+          {
             "host": "linkedin.com",
             "count": 4,
             "sample_title": "What to Watch in Business Central Going Into 2027",
             "sample_url": "https://www.linkedin.com/pulse/what-watch-business-central-going-2027-kristoffer-ruyeras-rf8nc"
-          },
-          {
-            "host": "yzhums.com",
-            "count": 4,
-            "sample_title": "Business Central 2026 release wave 2 (BC29): Faster data loading with improved data model for table extensions (all fields on an AL table are stored in the same table)",
-            "sample_url": "https://yzhums.com/76505/"
           },
           {
             "host": "javiarmesto.substack.com",
@@ -637,17 +637,17 @@
           }
         ],
         "note": "50 digest entries, 9 unregistered hosts",
-        "duration_ms": 3481
+        "duration_ms": 1175
       }
     ],
     "totals": {
       "sources": 40,
-      "failed": 8,
+      "failed": 0,
       "deferred": 2,
       "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 9406,
+      "unchanged": 9526,
       "removed": 0
     }
   },
@@ -667,88 +667,171 @@
       "opus_reviews": 50000,
       "llm_calls_max": 50000
     },
-    "work": 281,
+    "work": 11,
     "executed": 11,
     "skips": 0,
     "quota_use": {
       "posts": {
-        "selected": 280,
-        "available": 280,
+        "selected": 11,
+        "available": 11,
         "limit": 50000
-      },
-      "code_jobs": {
-        "selected": 1,
-        "available": 1,
-        "limit": 100000
       }
     },
-    "note": "stopped: memory"
+    "note": "stopped: done"
   },
   "llm": {
-    "calls": 191,
-    "cache_hits": 6,
-    "failures": 0,
+    "calls": 1434,
+    "cache_hits": 11,
+    "failures": 90,
     "by_model": {
-      "claude-haiku-4-5-20251001": 14,
-      "claude-opus-5-5": 177
+      "claude-haiku-4-5-20251001": 53,
+      "claude-opus-5-5": 855,
+      "claude-sonnet-5-5": 526
     },
-    "cost_usd": 8.726270000000005,
+    "cost_usd": 34.86158390000003,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 14,
-        "input": 3955,
-        "output": 6247,
-        "cache_read": 0,
-        "cache_creation": 142796,
-        "cost_usd": 0.320782
+        "calls": 53,
+        "input": 7411,
+        "output": 25113,
+        "cache_read": 14883,
+        "cache_creation": 697775,
+        "cost_usd": 1.5300143000000002
       },
       "claude-opus-5-5": {
-        "calls": 177,
-        "input": 354,
-        "output": 156244,
-        "cache_read": 0,
-        "cache_creation": 659899,
-        "cost_usd": 8.405488000000002
+        "calls": 586,
+        "input": 1174,
+        "output": 603815,
+        "cache_read": 406539,
+        "cache_creation": 1719170,
+        "cost_usd": 25.915663800000033
+      },
+      "claude-sonnet-5-5": {
+        "calls": 526,
+        "input": 1068,
+        "output": 398076,
+        "cache_read": 449969,
+        "cache_creation": 835754,
+        "cost_usd": 7.4159057999999956
       }
     },
-    "day_cost_usd": 33.887668
+    "day_cost_usd": 68.749252
   },
   "spend": {
-    "today_usd": 25.161398,
+    "today_usd": 33.887668,
     "week_before_usd": 12.3225,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99962.516102,
+    "allowance_usd": 99953.789832,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
   "items_changed": 0,
   "errors": [
-    "yt-microsoft: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
-    "yt-hougaard: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcJCTa4PvbOQj50y_HJSxXw",
-    "yt-saurav: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
-    "yt-areopa: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
-    "yt-mibuso: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
-    "yt-stefanmaron: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
-    "yt-bcmusings: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
-    "yt-dynamicscorner: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
     "localization dk narrative: enum must have non-empty array",
     "localization in narrative: enum must have non-empty array",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234 fetched: The operation was aborted due to timeout",
-    "blog/demiliani-com/13369 fetched: The operation was aborted due to timeout",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/ fetched: The operation was aborted due to timeout",
-    "blog/jpearson-blog/1590 fetched: The operation was aborted due to timeout",
+    "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr topic review: expected 30 verdicts, got 29 for 29 refs",
+    "topic/dev-itpro/business-central-on-premises/administration/configuring-user-authentication/authenticating-with-microsoft-entra-id review: LLM call failed after 3 attempts (topic/dev-itpro/business-central-on-premises/administration/configuring-user-authentication/authenticating-with-microsoft-entra-id review): claude error (success): Yo",
+    "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/flowfields-and-flowfilters review): claude error (success): You've hit your session limit ·",
+    "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions review: LLM call failed after 3 attempts (topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions review): claude error (success): You've hit your session limit · resets 6:",
+    "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing review: LLM call failed after 3 attempts (topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing review): claude error (success): You've hit your session limit · resets 6:50am ",
+    "topic/dev-itpro/development/the-al-programming-language/preprocessor-directives-in-al review: LLM call failed after 3 attempts (topic/dev-itpro/development/the-al-programming-language/preprocessor-directives-in-al review): claude error (success): You've hit your session limit · resets 6:50am (",
+    "topic/dev-itpro/get-started/develop/embed-apps/app-management review: LLM call failed after 3 attempts (topic/dev-itpro/get-started/develop/embed-apps/app-management review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis review: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Bruss",
+    "topic/dev-itpro/responsible-ai review: LLM call failed after 3 attempts (topic/dev-itpro/responsible-ai review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/security-privacy-and-compliance/security/application-security review: LLM call failed after 3 attempts (topic/dev-itpro/security-privacy-and-compliance/security/application-security review): claude error (success): You've hit your session limit · resets 6:50am (Europe/B",
+    "topic/dev-itpro/security-privacy-and-compliance/service-overview review: LLM call failed after 3 attempts (topic/dev-itpro/security-privacy-and-compliance/service-overview review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/assembly-management review: LLM call failed after 3 attempts (topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/assembly-management review): claude error (success): You've hit your session limit · ",
+    "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets review: LLM call failed after 3 attempts (topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets review): claude error (success): You've hit your session limit",
+    "topic/business-central/business-functionality/design-details/design-details-warehouse-management review: LLM call failed after 3 attempts (topic/business-central/business-functionality/design-details/design-details-warehouse-management review): claude error (success): You've hit your session limit · rese",
+    "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple review: LLM call failed after 3 attempts (topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple review): claude error (success",
+    "topic/business-central/business-functionality/finance/working-with-currencies review: LLM call failed after 3 attempts (topic/business-central/business-functionality/finance/working-with-currencies review): claude error (success): You've hit your session limit · resets 6:50am (Europe/B",
+    "topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed review: LLM call failed after 3 attempts (topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed review): claude error (success): You've hit your session li",
+    "topic/business-central/business-functionality/local-functionality/austria/general review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/austria/general review): claude error (success): You've hit your session limit · resets 6:50am (Euro",
+    "topic/business-central/business-functionality/local-functionality/austria/vat review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/austria/vat review): claude error (success): You've hit your session limit · resets 6:50am (Europe/B",
+    "topic/business-central/business-functionality/local-functionality/canada/banking-and-payments review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/canada/banking-and-payments review): claude error (success): You've hit your session limit · resets ",
+    "topic/business-central/business-functionality/local-functionality/canada/general review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/canada/general review): claude error (success): You've hit your session limit · resets 6:50am (Europ",
+    "topic/business-central/business-functionality/local-functionality/czech-republic/advance-payments review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/czech-republic/advance-payments review): claude error (success): You've hit your session limit · res",
+    "topic/business-central/business-functionality/local-functionality/czech-republic/banking-and-payments review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/czech-republic/banking-and-payments review): claude error (success): You've hit your session limit ·",
+    "topic/business-central/business-functionality/local-functionality/czech-republic/general review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/czech-republic/general review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/business-central/business-functionality/local-functionality/denmark/banking-and-payments review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/denmark/banking-and-payments review): claude error (success): You've hit your session limit · resets",
+    "topic/business-central/business-functionality/local-functionality/france/e-invoicing review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/france/e-invoicing review): claude error (success): You've hit your session limit · resets 6:50am (E",
+    "topic/business-central/business-functionality/local-functionality/iceland/vat review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/iceland/vat review): claude error (success): You've hit your session limit · resets 6:50am (Europe/B",
+    "topic/business-central/business-functionality/local-functionality/india/fixed-asset review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/india/fixed-asset review): claude error (success): You've hit your session limit · resets 6:50am (Eu",
+    "topic/business-central/business-functionality/local-functionality/india/voucher-interface review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/india/voucher-interface review): claude error (success): You've hit your session limit · resets 6:50",
+    "topic/business-central/business-functionality/local-functionality/italy/inventory review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/italy/inventory review): claude error (success): You've hit your session limit · resets 6:50am (Euro",
+    "topic/business-central/business-functionality/local-functionality/italy/withholding-tax review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/italy/withholding-tax review): claude error (success): You've hit your session limit · resets 6:50am",
+    "topic/business-central/business-functionality/local-functionality/netherlands/core-finance review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/netherlands/core-finance review): claude error (success): You've hit your session limit · resets 6:5",
+    "topic/business-central/business-functionality/local-functionality/netherlands/purchasing review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/netherlands/purchasing review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/business-central/business-functionality/local-functionality/russia/tax-accounts review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/russia/tax-accounts review): claude error (success): You've hit your session limit · resets 6:50am (",
+    "topic/business-central/business-functionality/local-functionality/switzerland/general review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/switzerland/general review): claude error (success): You've hit your session limit · resets 6:50am (",
+    "topic/business-central/business-functionality/local-functionality/switzerland/inventory review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/switzerland/inventory review): claude error (success): You've hit your session limit · resets 6:50am",
+    "topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments review: LLM call failed after 3 attempts (topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments review): claude error (success): You've hit your session limit ·",
+    "topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector review: LLM call failed after 3 attempts (topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector review): claude error (success): You've hit your sessio",
+    "topic/business-central/business-functionality/set-up-business-central/import-data review: LLM call failed after 3 attempts (topic/business-central/business-functionality/set-up-business-central/import-data review): claude error (success): You've hit your session limit · resets 6:50am (Euro",
+    "topic/business-central/copilot-and-agent-capabilities/analysis-assist review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/analysis-assist review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/business-central/copilot-and-agent-capabilities/autofill-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/autofill-preview review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels",
+    "topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview review): claude error (success): You've hit your session limit · resets 6:50am (Europe/B",
+    "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview review): claude error (success): You've hit your session limit · resets 6:50am (Eu",
+    "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview review): claude error (success): You've hit your session limit · resets 6:50am (Eur",
+    "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview review): claude error (success): You've hit your session limit · resets 6:50am (Eu",
+    "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions review: LLM call failed after 3 attempts (topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions review): claud",
+    "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings review: LLM call failed after 3 attempts (topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings review): claude error (success): You've hit your s",
+    "topic/business-central/development-and-administration/synchronize-master-data-across-companies review: LLM call failed after 3 attempts (topic/business-central/development-and-administration/synchronize-master-data-across-companies review): claude error (success): You've hit your session limit · resets",
+    "topic/business-central/get-started/buy review: LLM call failed after 3 attempts (topic/business-central/get-started/buy review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/business-central/get-started/help-and-support review: LLM call failed after 3 attempts (topic/business-central/get-started/help-and-support review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/business-central/integrate-with-other-applications/dynamics-365-field-service review: LLM call failed after 3 attempts (topic/business-central/integrate-with-other-applications/dynamics-365-field-service review): claude error (success): You've hit your session limit · resets 6:50am (Eu",
+    "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps review: LLM call failed after 3 attempts (topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps review): claude error (success): You've hit your session limit ",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data review): claude error (success): You've hit ",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data review): claude error (success): You've hit yo",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/prepare review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/prepare review): claude error (success): You've hit your session limit · re",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav review): claude error (success): You've hit your session limit · resets 6:",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare review): claude error (success): You've hit your session limit · re",
+    "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data review: LLM call failed after 3 attempts (topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data review): claude error (success): You've hit your session lim",
+    "topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-server review: LLM call failed after 3 attempts (topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-server review): claude error (success): You've hit your session limit · reset",
+    "topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-web-server review: LLM call failed after 3 attempts (topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-web-server review): claude error (success): You've hit your session limit · r",
+    "topic/dev-itpro/deprecated-features/deprecated-tables review: LLM call failed after 3 attempts (topic/dev-itpro/deprecated-features/deprecated-tables review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/deprecated-features/deprecating-code review: LLM call failed after 3 attempts (topic/dev-itpro/deprecated-features/deprecating-code review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/development-environment/configure-projects-and-workspaces review: LLM call failed after 3 attempts (topic/dev-itpro/development/development-environment/configure-projects-and-workspaces review): claude error (success): You've hit your session limit · resets 6:50am (",
+    "topic/dev-itpro/development/extensibility/developing-client-add-ins review: LLM call failed after 3 attempts (topic/dev-itpro/development/extensibility/developing-client-add-ins review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/extensibility/embedding-power-bi review: LLM call failed after 3 attempts (topic/dev-itpro/development/extensibility/embedding-power-bi review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/extension-lifecycle/moving-tables-and-fields-between-extensi review: LLM call failed after 3 attempts (topic/dev-itpro/development/extension-lifecycle/moving-tables-and-fields-between-extensi review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/dev-itpro/development/extension-lifecycle/translation review: LLM call failed after 3 attempts (topic/dev-itpro/development/extension-lifecycle/translation review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/get-started/altool review: LLM call failed after 3 attempts (topic/dev-itpro/development/get-started/altool review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/get-started/ready-to-go review: LLM call failed after 3 attempts (topic/dev-itpro/development/get-started/ready-to-go review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/dev-itpro/development/programming-in-the-al-language/developing-printer-extensions review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/developing-printer-extensions review): claude error (success): You've hit your session limit · resets 6:50a",
+    "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability review): claude error (success): You've hit your session limit · ",
+    "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al review): claude error (success): You've hit your session limit · resets ",
+    "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/creating-deep-links review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/creating-deep-links review): claude error (success): You've hit your session l",
+    "topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks/statements review: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks/statements review): claude error (success): You've hit your session limit · resets ",
+    "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance review: LLM call failed after 3 attempts (topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance review): claude error (success): You've hit your session limit · resets 6:5",
+    "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security review: LLM call failed after 3 attempts (topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security review): claude error (success): You've hit your session limit · resets 6:50am",
+    "topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs/troubleshoot-web-services review: LLM call failed after 3 attempts (topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs/troubleshoot-web-services review): claude error (success): You've hit your session limit · res",
+    "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler review: LLM call failed after 3 attempts (topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler review): claude error (success): You've hit your session limit · resets",
+    "topic/dev-itpro/get-started/develop/embed-apps/application-access-management review: LLM call failed after 3 attempts (topic/dev-itpro/get-started/develop/embed-apps/application-access-management review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Br",
+    "topic/dev-itpro/get-started/develop/embed-apps/deployment review: LLM call failed after 3 attempts (topic/dev-itpro/get-started/develop/embed-apps/deployment review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/get-started/help-and-support/aldoc-tool review: LLM call failed after 3 attempts (topic/dev-itpro/get-started/help-and-support/aldoc-tool review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive review): claude error (success): You've hit your session limi",
+    "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs review): claude error (success): You've hit your session li",
+    "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word review): claude error (success): You've hit your session limit · ",
+    "topic/dev-itpro/integration/integrating-with-external-systems-using review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-external-systems-using review): claude error (success): You've hit your session limit · resets 6:50am (Europe/Brussels)",
+    "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi review): claude error (success): You've hit your session",
+    "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator review): claude error (success): You've hit you",
+    "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator review): claude error (success): You've hit yo",
     "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790, which has no page",
     "content: topics/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790.md",
+    "content: topics/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/, which has no page",
+    "content: topics/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene.md: broken link ../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/.md",
     "content: topics/business-central/business-functionality/finance/working-with-currencies.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885, which has no page",
     "content: topics/business-central/business-functionality/finance/working-with-currencies.md: broken link ../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885.md",
     "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/, which has no page",
     "content: topics/business-central/business-functionality/finance/working-with-value-added-tax-vat.md: broken link ../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/.md",
     "content: topics/business-central/business-functionality/inventory.md: links.posts names post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129, which has no page",
-    "content: topics/business-central/business-functionality/inventory.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/, which has no page",
     "content: topics/business-central/business-functionality/inventory.md: broken link ../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md",
-    "content: topics/business-central/business-functionality/inventory.md: broken link ../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md",
     "content: topics/business-central/business-functionality/planning.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
     "content: topics/business-central/business-functionality/planning.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
     "content: topics/business-central/business-functionality/purchasing.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190, which has no page",
@@ -756,51 +839,44 @@
     "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190.md",
     "content: topics/business-central/business-functionality/purchasing.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
     "content: topics/business-central/business-functionality/sales.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001, which has no page",
+    "content: topics/business-central/business-functionality/sales.md: links.posts names post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/, which has no page",
     "content: topics/business-central/business-functionality/sales.md: broken link ../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md",
-    "content: topics/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ.md: links.posts names post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027, which has no page",
-    "content: topics/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ.md: broken link ../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md"
+    "content: topics/business-central/business-functionality/sales.md: broken link ../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/.md"
   ],
   "catch_up": "2026-10-10",
   "captions_retried": 0,
-  "checkpoints": 0,
+  "checkpoints": 1,
   "execution": {
-    "stop_reason": "memory",
+    "stop_reason": "done",
     "deadline": "2026-10-07T04:35:00.000Z",
     "items_touched": 11,
     "stages_run": {
-      "blog:fetched": 6,
-      "blog:extracted": 6,
-      "blog:summarized": 6,
-      "blog:linked": 6,
-      "blog:published": 6,
-      "code:extracted": 1
+      "blog:fetched": 11,
+      "blog:extracted": 11,
+      "blog:summarized": 11,
+      "blog:linked": 11,
+      "blog:published": 11
     },
-    "advanced": 31,
+    "advanced": 55,
     "skipped": 0,
-    "failed_attempts": 4,
+    "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 277,
+    "parked": 8,
     "quota_charged": {
-      "posts": 10,
-      "code_jobs": 1
+      "posts": 11
     },
     "regards": [],
-    "errors": [
-      "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234 fetched: The operation was aborted due to timeout",
-      "blog/demiliani-com/13369 fetched: The operation was aborted due to timeout",
-      "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/ fetched: The operation was aborted due to timeout",
-      "blog/jpearson-blog/1590 fetched: The operation was aborted due to timeout"
-    ],
-    "parked_left": 266
+    "errors": [],
+    "parked_left": 0
   },
   "code": {
     "version_diffs": 2,
     "country_diffs": 46,
-    "timelines": 19,
+    "timelines": 0,
     "deprecations": 3,
-    "written": 24,
+    "written": 0,
     "relations": 3,
     "matrix": false,
     "docs_objects": {
@@ -808,7 +884,7 @@
       "missing": 213,
       "obsolete": 42,
       "undocumented": 39,
-      "written": 2
+      "written": 0
     },
     "narratives": {
       "ready": 22,
@@ -819,7 +895,7 @@
     },
     "pages": {
       "objects": 20744,
-      "written": 20764,
+      "written": 0,
       "removed": 0,
       "localizations": 22,
       "own_objects": 4319
@@ -850,55 +926,57 @@
     }
   },
   "topic_links": {
-    "units": 925,
-    "stale": 45,
-    "calls": 14,
-    "matched": 61,
-    "rejected": 8,
+    "units": 1193,
+    "stale": 268,
+    "calls": 53,
+    "matched": 327,
+    "rejected": 48,
     "failed": 0,
-    "cost_usd": 0.320782,
+    "cost_usd": 1.5300143000000002,
     "rejections": [
-      "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/ -> t382: not a candidate of this item",
-      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/ -> t381: not a candidate of this item",
-      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/ -> t491: not a candidate of this item",
-      "post/aardvarklabs-blog/2936 -> t385: not a candidate of this item",
-      "post/demiliani-com/13442 -> t384: not a candidate of this item",
-      "post/demiliani-com/13442 -> t385: not a candidate of this item",
-      "post/gerardorenteria-blog/13623 -> t384: not a candidate of this item",
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/ -> t443: not a candidate of this item"
+      "post/thinkaboutit-be/7284 -> t259: not a candidate of this item",
+      "post/thinkaboutit-be/7052 -> t261: not a candidate of this item",
+      "post/thinkaboutit-be/7159 -> t190: not a candidate of this item",
+      "post/thinkaboutit-be/7169 -> t261: not a candidate of this item",
+      "post/thinkaboutit-be/7169 -> t238: not a candidate of this item",
+      "post/demiliani-com/11739 -> topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities: quote not verbatim: \"Copilot Studio message-based pricing and environment linking requirements\"",
+      "post/aardvarklabs-blog/2816 -> t388: not a candidate of this item",
+      "post/aardvarklabs-blog/2938 -> t384: not a candidate of this item",
+      "post/aardvarklabs-blog/2678 -> topic/dev-itpro/development/programming-in-the-al-language/formatting-values: quote not verbatim: \"Type Helper contains 74 procedures for data formatting, localization, type conve\"",
+      "post/aardvarklabs-blog/2719 -> t387: not a candidate of this item"
     ],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 237,
-    "calls": 177,
-    "reviewed": 237,
-    "kept": 522,
-    "dropped": 573,
-    "failed": 0,
-    "cost_usd": 8.405488000000002,
+    "candidates": 137,
+    "calls": 127,
+    "reviewed": 136,
+    "kept": 462,
+    "dropped": 594,
+    "failed": 1,
+    "cost_usd": 7.543221199999997,
     "stopped": "done"
   },
   "hubs": {
     "topics": 605,
-    "narrated": 39,
-    "refreshed": 0,
+    "narrated": 556,
+    "refreshed": 526,
     "failed": 0,
-    "backlog": 416,
-    "stopped": "quota",
-    "reviewed": 0,
-    "review_fixed": 0,
+    "backlog": 0,
+    "stopped": "done",
+    "reviewed": 458,
+    "review_fixed": 112,
     "review_rejected": 0,
-    "review_backlog": 23
+    "review_backlog": 90
   },
   "content": {
-    "pages": 22412,
-    "errors": 96
+    "pages": 22682,
+    "errors": 132
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 675,
-    "files_scanned": 19080,
+    "raw_docs": 676,
+    "files_scanned": 20138,
     "findings": 0,
     "blocked": false
   }

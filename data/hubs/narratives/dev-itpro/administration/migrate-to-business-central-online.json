@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online",
+  "input_hash": "23b217e4ce5949b1cef422d599564bde09d6a10ad0f340207abc3a5139760b4a",
+  "summary": "Migration of on-premises data from Business Central, Dynamics NAV, Dynamics GP, or Dynamics SL to Business Central online. It covers choosing a migration route, custom SQL migrations, the phases of cloud migration, FAQs, and troubleshooting.",
+  "overview": "This section explains how to move from an on-premises system to Business Central online. The source can be Business Central, Dynamics NAV, Dynamics GP, or Dynamics SL. The entry page compares the options: a full data migration, a reimplementation that brings over only essential data (for example with configuration packages), or a custom migration.\n\nEach source has its own subtopic. Business Central, GP, and SL follow a similar sequence: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. The GP and SL subtopics also cover post-migration users and permissions. The NAV subtopic covers the path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions.\n\nFor other SQL-based sources, the custom migration page describes no-code mappings, custom migration apps, and extending the BC14 reimplementation tool. Start with the overview page to pick a route, then follow the subtopic for your source. Use the FAQ for requirements and limits, and the troubleshooting page when a migration run fails.",
+  "key_points": [
+    "Migration options are full data migration, reimplementation with essential data only, and custom migration.",
+    "Business Central, GP, and SL subtopics follow the same phases: preparation, setup, replication, data upgrade, completion.",
+    "Dynamics NAV migration goes through BC14, with a BC14 reimplementation option and C/AL to AL extension conversion.",
+    "Custom migration from any SQL source uses no-code table, replication, and setup mappings, custom migration apps, or an extended BC14 reimplementation tool.",
+    "The custom migration provider and table mapping interfaces support custom apps.",
+    "The FAQ covers system requirements, data limits, SQL connection strings, the self-hosted integration runtime, the intelligent cloud permission set, and data compression.",
+    "The troubleshooting page covers SQL Server compatibility, change tracking, Integration Runtime setup, migration user permissions, company name validation, and the tenant media table.",
+    "The troubleshooting page mentions versions 23, 24, and 25."
+  ],
+  "members_used": 4,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:45.405Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014921
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:16.967Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point 'The troubleshooting page mentions versions 23, 24, and 25' adds little on its own. It could be merged into the troubleshooting key point as 'version requirements (versions 23 to 25)'. The source summary frames these as version requirements.",
+      "The key point about the custom migration provider and table mapping interfaces supporting custom apps is a mild inference. The source lists these interfaces only as features of the custom migration page. The claim is reasonable but not stated directly.",
+      "The FAQ key point leaves out Azure Data Factory and extension data migration, which the source lists. It is not wrong, just incomplete."
+    ],
+    "input_hash": "23b217e4ce5949b1cef422d599564bde09d6a10ad0f340207abc3a5139760b4a",
+    "cost_usd": 0.037359199999999995
+  }
+}

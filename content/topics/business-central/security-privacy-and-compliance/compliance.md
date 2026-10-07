@@ -2,19 +2,20 @@
 id: topic/business-central/security-privacy-and-compliance/compliance
 type: topic
 title: Compliance
-summary: "Learn section Security, privacy, and compliance > Compliance: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Compliance in Business Central covers how the application and the online service meet regulatory, certification, and SLA requirements. It answers questions about accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:11.701Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 12209a35ee2738c83b7fb212a90dd949b5ed71ab5a3ca3465ab52d59b5b0ca32
+  prompts:
+    hub-topic: 1
+  input_hash: 50c8e4b3a558510ba1377c56b4f2b0aa2f91d7fae40dff9dd69771445cfda80b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance
@@ -88,14 +89,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 12209a35ee2738c83b7fb212a90dd949b5ed71ab5a3ca3465ab52d59b5b0ca32
-narrative: none
+narrative: generated
 ---
 
 # Compliance
 
-> Learn section Security, privacy, and compliance > Compliance: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Compliance in Business Central covers how the application and the online service meet regulatory, certification, and SLA requirements. It answers questions about accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · no narrative yet
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section explains compliance from three angles: the application, the cloud service, and certifications. Application Compliance describes how financial reporting, audit trails, and role-based security help with requirements such as data privacy, SOX, IAS/IFRS, and Basel II. Service Compliance and SLA and the Service overview for Business Central online describe the Azure-based service, its certifications, availability, and backups.
+
+Certifications of the service covers country-specific certifications and accreditations, including tax audit compliance. A separate page covers trial features that automatically connect to other Microsoft services, and what data sharing that involves.
+
+Start with Compliance Overview, which indexes the topics. Then go to the page that matches your question: application controls, service reliability and SLA, local certifications, or data sharing in trials.
+
+## Key points
+
+- Application Compliance links regulatory needs (data privacy, SOX, IAS/IFRS, Basel II) to chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails, and role-based security.
+- Certifications of the service covers country-specific certifications, tax audit certification, and local compliance requirements, and mentions ISO 27001.
+- Service Compliance and SLA covers ISO and industry-specific certifications, service level agreement terms, and Azure infrastructure security.
+- The online service is a multitenant architecture on Azure microservices using Azure SQL Database.
+- The service overview cites 99.99% availability, geo-redundant backups, 28-day backups, and automatic restore.
+- The service overview says the service is updated twice yearly.
+- Trial features can connect automatically to Teams, OneDrive, Power Automate, Azure OpenAI for Copilot, Bing autofill, and the Microsoft Learn Platform.
+- You can manage these trial connections, and you should understand the data-sharing implications before use.
 
 ## Learn pages
 

@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-printers
 type: topic
 title: Set up printers
-summary: "Learn section Business functionality > Set up Business Central > Set up printers: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Printer setup in Business Central: Universal Print, Email Print, and browser printing, plus registering printers and choosing default printers. It answers questions on configuring printing for reports and documents in the web client, mobile app, or Teams."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:55.708Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 41ce356e97c8fe61c1bbdb119cb41767b58208c7a446298ac23befec00f6faeb
+  prompts:
+    hub-topic: 1
+  input_hash: f61b2b7d76a5ef26b4e6cc62464fc876ab9a4f5201169878cdc7c93d09565f97
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview
@@ -80,14 +81,28 @@ bc_forms:
   - 2754
   - 8900
 member_hash: 41ce356e97c8fe61c1bbdb119cb41767b58208c7a446298ac23befec00f6faeb
-narrative: none
+narrative: generated
 ---
 
 # Set up printers
 
-> Learn section Business functionality > Set up Business Central > Set up printers: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Printer setup in Business Central: Universal Print, Email Print, and browser printing, plus registering printers and choosing default printers. It answers questions on configuring printing for reports and documents in the web client, mobile app, or Teams.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up printers · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up printers · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Printing in Business Central can go through Universal Print cloud printers, email-enabled printers, or the browser. The overview page explains these options and how printers are registered and managed, so start there to choose an approach.
+
+## Key points
+
+- Three printing options: Universal Print for cloud printers, Email Print for email-enabled printers, and browser printing.
+- Printing works for the web client, mobile app, and Teams.
+- Email printers are set up on the Printer Management page with the Send to Email Printer extension; the page covers paper size selection and privacy settings (2020 release wave 1).
+- Universal Print setup uses the Universal Print integration extension, the Printer Management page, and the universal print connector (2021 release wave 1).
+- Universal Print guidance covers Azure configuration, print shares, printer authorization, and document conversion, for online and on-premises deployments.
+- Default printers can be set for all print jobs or for specific reports.
+- Default printer selections can be made at user or global level and apply to cloud printers and PDF output.
 
 ## Learn pages
 

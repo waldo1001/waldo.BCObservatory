@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/get-started/try",
+  "input_hash": "c45c44d3b9ec2f4e2ea387e30204855d8272958fd3acb5d5e6bfab64531c89e7",
+  "summary": "The Try section covers starting and managing a Business Central trial: signing up, extending the trial, first setup tasks, converting to a subscription, and fixing sign-up problems. It answers questions about trial length, sample data, extensions, and self-service sign-up errors.",
+  "overview": "This section is for people evaluating Business Central before buying. It explains how to start a free trial, either through Microsoft-based sign-up in countries with built-in localization or through a partner (Cloud Solution Provider) in countries without it. Trials come with localized demo data, and sandbox environments are mentioned.\n\nOnce the trial is running, \"Get ready for doing business\" introduces assisted setup guides, company information, user creation, permission assignment and role-specific home pages. \"Extend your trial version\" and \"Trials and subscriptions\" cover how long a trial lasts, how to extend it, and how to move to a paid subscription, including data import, removing licenses and canceling.\n\nStart with \"Sign up for a free trial\". Use the Trial FAQ for quick answers, and the self-service sign-up troubleshooting page if account creation fails.",
+  "key_points": [
+    "The initial 30-day trial can be extended once by another 30 days; partners can extend again.",
+    "A subscription is required after 90 days in total.",
+    "Sign-up is either Microsoft-based (localized countries) or partner-based through Cloud Solution Provider programs.",
+    "Trials include sample data, which can be removed; the FAQ covers conversion to a paid license and cancellation.",
+    "The FAQ describes a trial that lasts indefinitely with continued logins, or 30 days when you use your own data.",
+    "Assisted setup guides help with company information, user creation and permission assignment.",
+    "Self-service sign-up can fail because of work email requirements, regional restrictions, Microsoft 365 integration or IT admin settings."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:59.694Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012098999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:13.761Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point on assisted setup guides links them directly to company information, user creation and permission assignment. The source only says the page covers both setup tasks and assisted setup guides, so this is a slight stretch. It is minor and acceptable.",
+      "The FAQ statement that the trial 'lasts indefinitely with continued logins' sits uneasily beside the 30-day extension rules. The narrative reports the FAQ faithfully, but agents should treat this point carefully.",
+      "The overview says only that sandbox environments 'are mentioned', which is vague but not wrong. The 'Get ready for doing business' description leaves out the teaching tips feature, which is a harmless omission."
+    ],
+    "input_hash": "c45c44d3b9ec2f4e2ea387e30204855d8272958fd3acb5d5e6bfab64531c89e7",
+    "cost_usd": 0.0327432
+  }
+}

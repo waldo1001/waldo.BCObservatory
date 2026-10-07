@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade",
+  "input_hash": "27ecbd38654347640ca362f4ab3c8b8133ef123ccf99cc87b1bd23803978c580",
+  "summary": "Upgrade documentation for Business Central on-premises: supported upgrade paths from v14 to v29, per-version upgrade guides, known issues, and related conversion and migration articles. It answers which route reaches a target version, which steps apply to a source version, and what to check first.",
+  "overview": "This section covers upgrading Business Central on-premises. The top-level pages give an overview of upgrading to Dynamics 365 Business Central (online or on-premises, including help migration and multitenancy migration), a matrix of supported upgrade paths, and a list of known issues for installation, upgrade and operations.\n\nEach recent release has its own subtopic: v29 (2026 wave 2), v28 (2026 wave 1), v27 (2025 wave 2), v26 (2025 wave 1) and v25 (2024 wave 2). These explain upgrade paths, pre-upgrade considerations, installing a minor update, and upgrading the System and Base Application from earlier versions. Older releases from v14 (spring 2019) through v24 are in Earlier versions. Related articles cover Txt2Al conversion of v14 C/AL code and moving tables and fields between extensions with migration.json.\n\nStart with the supported upgrade paths page to find your route, then open the guide for your target version. Check the known issues page before you begin.",
+  "key_points": [
+    "The supported upgrade paths page shows direct and indirect routes to each release from v14 (Spring 2019) through v29 (2026 wave 2).",
+    "Direct upgrade from v14 to the latest version is not supported from v26 onwards; v14 must go through v25.",
+    "Version guides for v26 to v29 include pre-upgrade considerations for v26 and later, plus steps for updates and for upgrading from earlier versions (for example v25 to v28 for the v29 guide).",
+    "The v25 subtopic also covers report and permission changes and application and data upgrade steps.",
+    "Earlier versions (v14 to v24, 92 pages) cover technical upgrade, C/AL to AL conversion, and moving tables between extensions.",
+    "Related articles cover Txt2Al for v14 C/AL code, migration.json for table ownership moves, and the India Data Migration Toolkit.",
+    "Known issues list problems such as PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets, for versions 23 to 28."
+  ],
+  "members_used": 3,
+  "subtopics_used": 7,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:38.387Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017033
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:15.485Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls them a 'minor update', but the subtopic summaries only say 'installing a version N update'. The word 'minor' is not in the inputs.",
+      "The overview says all version subtopics from v25 to v29 cover pre-upgrade considerations and upgrading the System and Base Application. The v25 summary does not mention pre-upgrade considerations, and the v29 summary describes upgrading from v25 to v28 rather than upgrading the System and Base Application. The overview generalises a little too much here."
+    ],
+    "input_hash": "27ecbd38654347640ca362f4ab3c8b8133ef123ccf99cc87b1bd23803978c580",
+    "cost_usd": 0.0433472
+  }
+}

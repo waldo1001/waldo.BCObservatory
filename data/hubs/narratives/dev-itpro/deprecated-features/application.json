@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/dev-itpro/deprecated-features/application",
+  "input_hash": "01f172f206cee2acbd111c94386e3091bb1f0e90d915876755d7aa2097d71b05",
+  "summary": "Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.",
+  "overview": "This section lists what has been deprecated or removed in the Business Central application. One page covers deprecated W1 features by release wave, from 2020 release wave 1 through 2025 release wave 2, with items such as API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights, Excel reports and configuration packages. Another page covers the table and field objects permanently deleted in 2025 release wave 1 (v26).\n\nThe deleted objects page lists more than 150 obsolete tables and fields in the Base App and localized versions (W1, AT, APAC, BE, CH, CZ), tied to the version 25.0 upgrade. The goal is better database performance, a more unified codebase across regions and less technical debt.\n\nStart with the deprecated features page to check whether a feature you rely on is affected and in which wave. Then use the subtopic with uptake examples for practical guidance on moving off the North American bank reconciliation and deposits, user groups, and legacy views.",
+  "key_points": [
+    "Deprecated W1 features are listed by release wave, from 2020 release wave 1 to 2025 release wave 2.",
+    "Removals named include API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages.",
+    "Excel reports deprecation and moved subcontracting objects are also covered.",
+    "2025 release wave 1 (v26) permanently deletes over 150 obsolete tables and fields from the Base App and first-party apps.",
+    "Deleted objects are listed for W1, AT, APAC, BE, CH and CZ, relating to the version 25.0 upgrade.",
+    "Deleted objects are in the Obsolete::Removed state; the aims are database performance, unified base apps and less technical debt.",
+    "Uptake examples cover North American bank reconciliation and deposits removal, user groups to permission sets or security groups, and legacy views to modern list views."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:53.212Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012393000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:55.310Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor inconsistency: the summary says release waves 2020 to 2027 while the overview and first key point say 2020 release wave 1 through 2025 release wave 2. Both are backed by the page data (its summary says 2020-2027; its version list ends at 2025 release wave 2), so no change is needed. 2027 probably covers planned future removals."
+    ],
+    "input_hash": "01f172f206cee2acbd111c94386e3091bb1f0e90d915876755d7aa2097d71b05",
+    "cost_usd": 0.0381552
+  }
+}

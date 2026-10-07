@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically
 type: topic
 title: Exchange data electronically
-summary: "Learn section Business functionality > General business functionality > Exchange data electronically: 19 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL, OCR), bank file import and export, SEPA credit transfer and direct debit, Yodlee bank feeds, and currency rates. It answers questions on concepts, setup and field mapping."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:22.451Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 162f505f77f6aa66d20f58478204f79c8c1d4115846349413b1855908e4971cb
+  prompts:
+    hub-topic: 1
+  input_hash: b98adda5f5dde29378d73839b09783a154163a85a116d5f8ed6f577e6137a2bc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -221,14 +222,32 @@ bc_forms:
   - 20107
   - 20109
 member_hash: 162f505f77f6aa66d20f58478204f79c8c1d4115846349413b1855908e4971cb
-narrative: none
+narrative: generated
 ---
 
 # Exchange data electronically
 
-> Learn section Business functionality > General business functionality > Exchange data electronically: 19 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL, OCR), bank file import and export, SEPA credit transfer and direct debit, Yodlee bank feeds, and currency rates. It answers questions on concepts, setup and field mapping.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Exchange data electronically · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Exchange data electronically · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This area covers how Business Central exchanges business documents, bank files, currency rates and other data with partners, banks and authorities. Two introductory pages explain the Data Exchange Framework and the electronic data exchange processes that rely on data exchange definitions.
+
+The three subtopics build on that base. "Set up data exchange" covers the document exchange service (Tradeshift), PEPPOL sending and receiving, the general framework and incoming documents setup. "Collect payments with SEPA direct debit" covers mandates, export formats, collection XML files, bank account setup, Yodlee bank feeds and the AMC Banking 365 Fundamentals extension. "Exchange data" holds the detailed pages on definitions, bank payment files, SEPA, Yodlee and OCR conversion, including field mapping.
+
+Start with the two introductory pages to understand the framework and definitions. Then go to the setup subtopic for configuration, or to the SEPA subtopic if the task is bank collection or bank account setup.
+
+## Key points
+
+- The Data Exchange Framework handles business documents, bank files, currency rates and other data exchanged with partners and authorities.
+- Data exchange definitions drive document exchange, bank file import and export, and currency rate updates.
+- Electronic documents can be sent and received using PEPPOL format, and the document exchange service uses Tradeshift.
+- OCR conversion of incoming documents is part of the framework, with incoming documents setup covered in the setup pages.
+- SEPA credit transfer and SEPA direct debit are supported, including mandates, export formats and collection XML file export.
+- Bank setup topics include bank accounts, Yodlee bank feeds and the AMC Banking 365 Fundamentals extension.
+- XML schemas for data exchange definitions are documented for building or checking definitions.
 
 ## Subtopics
 

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/get-started/get-productive-in-business-central/personalize-business-central",
+  "input_hash": "d6adfc8df3864e1777b7177ed80b2fb81113352bf58101eb910fd4e8665394eb",
+  "summary": "Personalizing Business Central: moving, hiding and showing page elements, choosing list layouts, saving list views, bookmarking pages on the role center, and where personalization is stored. It also explains why a page may be locked from personalization.",
+  "overview": "This section covers how a user adapts Business Central to their own way of working. The main page, \"Personalize your workspace\", describes moving, hiding or showing fields, columns, actions and parts, plus freeze panes, Quick Entry configuration, action bar customization and FactBox resizing.\n\nOther pages cover narrower tasks: displaying lists as rows, tiles, tall tiles or created/modified by columns; saving and managing list views; and bookmarking pages and reports on the role center. Two reference pages explain where personalization is stored (roaming versus local to the browser) and why a page can be locked from personalization.\n\nStart with \"Personalize your workspace\" for the general approach. Then use the list and bookmark pages for specific needs. Check the storage and locked-page pages when personalization does not appear on another device or cannot be changed.",
+  "key_points": [
+    "Personalization lets you move, hide or show fields, columns, actions and parts on pages, and applies across devices and browsers for the signed-in user.",
+    "Further options include freeze pane management, Quick Entry configuration, action bar customization and FactBox resizing.",
+    "List pages can be shown as list rows, tiles, tall tiles, or with created/modified by columns; item pictures can appear in tile layouts.",
+    "List views are saved filter configurations that can be renamed, removed, bookmarked on the role center and personalized.",
+    "Bookmarks to pages and reports are managed with the bookmark icon on pages and in the Tell Me window.",
+    "Some personalization roams across devices, while other settings are stored locally in the browser.",
+    "A page can be locked from personalization because of version incompatibility with deprecated clients or role-specific tailoring by administrators."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:37.171Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012399
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:05.624Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on list layouts says item pictures can appear in tile layouts; the source only lists 'Item pictures' as a feature without stating the layout link. A minor inference.",
+      "Key point 1 says personalization applies across devices and browsers, which the workspace page supports. The storage page notes some settings are local to the browser. Key point 6 covers this, but the two could read as contradictory."
+    ],
+    "input_hash": "d6adfc8df3864e1777b7177ed80b2fb81113352bf58101eb910fd4e8665394eb",
+    "cost_usd": 0.0317672
+  }
+}

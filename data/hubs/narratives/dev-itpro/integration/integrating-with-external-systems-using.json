@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+  "input_hash": "4998e2ad7d0a01393998828bad1b7690e29f557578296e8ccc9ff0b1c9613492",
+  "summary": "Event-based integration of Business Central with external systems: business events (preview) that notify or trigger external systems via Dataverse and Power Automate, and webhooks that push notifications when entities change. It answers questions on subscribing to events, registering webhooks, and handling notifications.",
+  "overview": "This area covers two ways for external systems to react to what happens in Business Central instead of polling for changes. Business events (preview, 2023 release wave 1) let partners and customers notify and trigger external systems when actions occur, and they integrate with Dataverse and Power Automate. Webhooks push notifications when entities change, and are managed through the REST API.\n\nThe two pages are independent but complementary. The business events page describes subscriptions, custom business events, external webhooks and an event catalog. The webhooks page goes into the mechanics of registering, validating, renewing and managing subscriptions on entities, including custom APIs.\n\nStart with the business events page if you want to trigger flows or Dataverse scenarios from business actions. Start with the webhooks page if you need entity-level change notifications through the REST API.",
+  "key_points": [
+    "Business events are in preview and were introduced in 2023 release wave 1.",
+    "Business events notify or trigger external systems when actions occur in Business Central.",
+    "Business events integrate with Dataverse and Power Automate flows, and support custom business events, external webhooks and an event catalog.",
+    "Webhooks push notifications when entities change; the webhooks page references version 19.",
+    "Webhook subscriptions are registered, renewed and managed via the REST API.",
+    "Supported webhook change types are created, updated, deleted and collection.",
+    "Webhook topics include handshake validation, client state and notification retries.",
+    "Webhooks can be used with custom APIs."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:06.433Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009523
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland
 type: topic
 title: Switzerland
-summary: "Learn section Business functionality > Local functionality > Switzerland: 34 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:49.727Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6572d15e69d49f363ac8af459b93e6393e42d941b7e51740569515375f1fefdc
+  prompts:
+    hub-topic: 1
+  input_hash: 011a1d90672abc9991cebdd3d8ee7dc414a4d0416eca0f1e526090cd902fae73
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
@@ -322,14 +323,32 @@ bc_forms:
   - 5005270
   - 5005272
 member_hash: 6572d15e69d49f363ac8af459b93e6393e42d941b7e51740569515375f1fefdc
-narrative: none
+narrative: generated
 ---
 
 # Switzerland
 
-> Learn section Business functionality > Local functionality > Switzerland: 34 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Switzerland section describes features added or changed in the Swiss version of Business Central. An overview page lists the main areas: Swiss VAT statements, QR-bill management, LSV and ESR payment methods, delivery reminders, Swiss general ledger accounts and inventory management.
+
+The pages are grouped into six subtopics. Banking & Payments is the largest, with 12 pages on ESR, LSV+ direct debit, QR-bills, SEPA credit transfers, bank clearing number import and the Vendor Payments List report. Purchasing has 8 pages on delivery reminders. Core finance has 5 pages and VAT has 4. Inventory and General have 2 pages each.
+
+Start with the overview page to see what applies to your setup. Then go to the subtopic that matches your task: VAT for reporting and rate changes, Banking & Payments for Swiss payment formats, and Core finance for general ledger behavior.
+
+## Key points
+
+- VAT: create and print Swiss VAT statements (current and older version), adjust VAT amounts and exchange rates, and handle VAT rate changes.
+- Banking & Payments: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, covering collecting, exporting, importing, posting and printing.
+- Banking also includes bank clearing number import and the Vendor Payments List report.
+- Core finance: general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment and the G/L Setup Information report.
+- Purchasing: delivery reminders to vendors, including setup, code assignment, manual creation, batch generation, test reports and issuing.
+- Inventory: print inventory picking lists from sales orders, and Swiss inventory behavior such as default location codes and multiple shipments per invoice.
+- General: import Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents (posting descriptions, subtotals, invoice rounding, shipment printing).
 
 ## Subtopics
 

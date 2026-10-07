@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/vat",
+  "input_hash": "6d9d8e3e51b900371f58e8294457f27a6f640c4b3686577622d3e355f9fb671b",
+  "summary": "Czech VAT functionality in Business Central: VAT date and periods, reverse charge, non-deductible VAT, VAT exchange rate and local-currency correction, unreliable payer checks, and reporting (VAT statement, control report, VIES, VAT returns, Intrastat). It answers setup and reporting questions for Czech VAT compliance.",
+  "overview": "This section describes the Czech localization of VAT in Business Central. It has no subtopics. Each page covers one feature, and the pages fall into two groups: setup and posting behavior, and statutory reporting.\\n\\nSetup and posting pages cover the VAT date (separate from the posting date), VAT return periods (the Czech VAT Period functionality moved into the standard VAT Return Period table, with data migration and synchronization), reverse charge with tariff and commodity numbers, non-deductible VAT with coefficients, the VAT exchange rate, VAT correction in local currency, and the unreliable payer check on vendors and purchase documents. They also cover functional currency, which lets a company keep its accounts in a foreign currency and report in CZK through additional reporting currencies.\\n\\nReporting pages cover the VAT statement, the VAT Control Report, the supplementary VAT statement, VAT returns submitted to the Moje daně portal, VIES declarations with XML export, the Czech VAT reports, and Intrastat. A good place to start is the VAT date and VAT return periods pages, then the VAT statement, because VAT returns are generated from the VAT statement settings.",
+  "key_points": [
+    "The VAT date can differ from the posting date, and VAT periods are separate from accounting periods. The original VAT date on posted entries can be changed.",
+    "Reverse charge (the transferred tax liability regime) is set up with tariff numbers and commodity codes. It supports VAT control reporting and a PDP check.",
+    "Non-deductible VAT is set up on VAT Posting Setup and needs its enable toggles turned on. It uses shortening and settlement coefficients, and VAT entries show original and reduced amounts separately.",
+    "The unreliable payer feature checks a vendor's VAT payer status against treasury records, manages registered bank accounts, and checks purchase documents.",
+    "Sales and purchase documents can use a different exchange rate for VAT than for posting. VAT amounts on foreign currency invoices can be corrected in CZK, with the difference posted to dedicated rounding accounts.",
+    "The VAT Control Report Card lets you suggest lines, test, export, and close lines for a period.",
+    "VAT returns are generated from VAT statement settings and submitted to the Moje daně portal as standard, corrective, or supplementary returns, with XML generation.",
+    "VIES supports line suggestion, history, corrective declarations, and XML export. Czech Intrastat is provided as an extension."
+  ],
+  "members_used": 16,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:39.059Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021616999999999997
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:52.744Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the VAT statement feeds the control report. The sources only say VAT returns are generated from VAT statement settings. Nothing links the VAT statement to the VAT Control Report, so that claim is removed.",
+      "Key point 2 says reverse charge setup 'feeds the VAT control report, including a PDP check'. That is stronger than the source, which only lists the VAT control report and a PDP check as features of reverse charge setup and posting. Reworded to match.",
+      "Key point 3 says non-deductible VAT is 'enabled on VAT Posting Setup'. The source says setup happens on VAT Posting Setup and names separate enable toggles without saying where they are. Reworded to 'set up on VAT Posting Setup' and the toggles are now mentioned.",
+      "Minor: the overview could mention that VAT Return Periods moves the Czech VAT Period functionality into the standard VAT Return Period table, and that functional currency reporting uses additional reporting currencies. Both points are added."
+    ],
+    "input_hash": "6d9d8e3e51b900371f58e8294457f27a6f640c4b3686577622d3e355f9fb671b",
+    "cost_usd": 0.0708432
+  }
+}

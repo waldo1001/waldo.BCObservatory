@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage
 type: topic
 title: Bill subscriptions based on usage
-summary: "Learn section Business functionality > Sales > Subscription billing > Bill subscriptions based on usage: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Usage-based billing in Business Central subscription billing: importing supplier usage data, mapping it to subscriptions, pricing it, and invoicing customers and vendors. It answers questions on data exchange definitions, suppliers, references, subscription linking, pricing options, and rebilling corrections."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 35ed15fe30791a121ba2f8822fb699d0028bf83a388d04c75b3df2540961e2a2
+  prompts:
+    hub-topic: 1
+  input_hash: 01c6e61115c90b63f6fc94c8af177ef87ef785c65995b73038fe9aea1851fc57
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/dataexchangedefinitions
@@ -134,14 +135,33 @@ bc_forms:
   - 8053
   - 8096
 member_hash: 35ed15fe30791a121ba2f8822fb699d0028bf83a388d04c75b3df2540961e2a2
-narrative: none
+narrative: generated
 ---
 
 # Bill subscriptions based on usage
 
-> Learn section Business functionality > Sales > Subscription billing > Bill subscriptions based on usage: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Usage-based billing in Business Central subscription billing: importing supplier usage data, mapping it to subscriptions, pricing it, and invoicing customers and vendors. It answers questions on data exchange definitions, suppliers, references, subscription linking, pricing options, and rebilling corrections.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Bill subscriptions based on usage · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Bill subscriptions based on usage · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+Usage-based billing lets a company import usage data from external vendors, calculate prices, and create contract invoices for subscription services with usage-dependent fees. The overview page explains the flow, including CSV import, billing proposals, credit memos, and refunds.
+
+Setup pages cover the building blocks: data exchange definitions (CSV field mappings), usage data suppliers, supplier references, and customers and subscriptions master data. Subscription lines in usage billing define the pricing method. The import page describes file or API import, subscription matching, and pricing. The Connect Supplier Subscription to Subscription page links imported data to the correct subscription line. Extend contract adds subscription lines when imported data reveals missing subscriptions or references. Rebilling covers corrections for periods already invoiced.
+
+Start with the overview, then set up a data exchange definition and a supplier before importing data.
+
+## Key points
+
+- Data exchange definitions set file encoding, column separation, table mappings, and transformation rules for CSV usage imports.
+- Usage data can be imported through a file or through an API.
+- Pricing options on subscription lines are Usage Quantity, Fixed Quantity, and Unit Cost Surcharge, set with the Usage Based Billing toggle and Usage Based Pricing field.
+- Usage data suppliers have settings such as Create Customers, Create Subscriptions, Unit Price from Import, and Vendor Invoice per.
+- Supplier references map supplier subscriptions and products to contracts and items, and support customer reference creation and automatic subscription creation.
+- The Connect Supplier Subscription to Subscription page links imported data to the correct subscription line before processing.
+- Extend contract adds subscription lines when imported data shows missing subscriptions or references.
+- Rebilling treats new data for already invoiced periods as adjustments and invoices only the delta, with credit memos where needed.
 
 ## Learn pages
 

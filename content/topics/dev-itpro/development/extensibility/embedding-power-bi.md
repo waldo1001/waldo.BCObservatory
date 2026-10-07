@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/extensibility/embedding-power-bi
 type: topic
 title: Embedding Power BI
-summary: "Learn section Development > Extensibility > Embedding Power BI: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Embedding Power BI covers how Business Central integrates with Power BI and how developers embed Power BI reports, scorecards, and dashboards in Business Central pages. It answers questions about the integration overview and about the embed framework, its pages, and context handling.
 tier: official
 language: en
 system: reporting
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fd666723dde183299bb13c34badea087732eb72ba3120874e1447b01c0595e26
+  prompts:
+    hub-topic: 1
+  input_hash: c46f1e7f43172e8d19b6c1eda0b400eea09c5925c61668e49171481ba7ccb0d4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts
@@ -61,14 +62,32 @@ bc_forms:
   - 6316
   - 6317
 member_hash: fd666723dde183299bb13c34badea087732eb72ba3120874e1447b01c0595e26
-narrative: none
+narrative: generated
 ---
 
 # Embedding Power BI
 
-> Learn section Development > Extensibility > Embedding Power BI: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Embedding Power BI covers how Business Central integrates with Power BI and how developers embed Power BI reports, scorecards, and dashboards in Business Central pages. It answers questions about the integration overview and about the embed framework, its pages, and context handling.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Embedding Power BI · tier official · system reporting · no narrative yet
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Embedding Power BI · tier official · system reporting · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section explains the connection between Business Central and Power BI. It has two pages and no subtopics. The introduction gives the general picture: building dashboards and reports, using the built-in Power BI apps, working with Power BI Desktop, and managing the integration across roles.
+
+The second page is the developer-focused one. It describes how to embed Power BI reports, scorecards, and dashboards in Business Central pages using the Power BI embed framework. It names pages such as Power BI Embedded Report Part and Power BI Element Addin Host. It also covers context keywords and the SetCurrentListSelection and SetPageContext calls.
+
+Start with the introduction to understand what is available and who manages it. Then move to the embedding page when you need to place Power BI content in a page or pass page context to a report.
+
+## Key points
+
+- Business Central and Power BI integration supports dashboards, reports, data visualization, and KPI tracking.
+- Built-in Power BI apps are available, and Power BI Desktop integration is covered.
+- The Power BI embed framework lets you embed reports, scorecards, and dashboards in Business Central pages.
+- Relevant pages include Power BI Embedded Report Part and Power BI Element Addin Host.
+- Embeddable content includes the Power BI Report part, dashboard tiles, and report visuals.
+- Context keywords, SetCurrentListSelection, and SetPageContext handle context passed between a page and the embedded report.
+- The embedding page references the 2022 release wave 2, 2023 release wave 2, and 2025 release wave 1.
 
 ## Learn pages
 

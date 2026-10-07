@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler
 type: topic
 title: Performance Profiler
-summary: "Learn section Development > Troubleshooting > Troubleshooting in the client > Performance Profiler: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Performance Profiler section covers recording and analyzing business process performance in the Business Central client, and scheduling profiling for specific users and activity types. It answers questions about finding bottlenecks, reading call trees and time spent, and sharing or downloading profiles.
 tier: official
 language: en
 system: platform
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7e97fad0e013b2deeb8cd08b179415b8f5c9bdbfcac1548d59040e65dca47512
+  prompts:
+    hub-topic: 1
+  input_hash: 9c8fe19390610c9cf332be597c16c4c240fa04a172b2eb4e5ea71caeee09b77f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview
@@ -44,7 +45,8 @@ links:
     - video/0qt0Zy9ZsRo
     - video/B8PLDeZ73Y4
     - video/ZKq0hc04f-s
-  posts: []
+  posts:
+    - post/duiliotacconi-com/1694
   guidelines: []
 learn_toc_path:
   - Development
@@ -58,18 +60,36 @@ coverage:
   learn: 2
   code: 0
   video: 3
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 7e97fad0e013b2deeb8cd08b179415b8f5c9bdbfcac1548d59040e65dca47512
-narrative: none
+narrative: generated
 ---
 
 # Performance Profiler
 
-> Learn section Development > Troubleshooting > Troubleshooting in the client > Performance Profiler: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Performance Profiler section covers recording and analyzing business process performance in the Business Central client, and scheduling profiling for specific users and activity types. It answers questions about finding bottlenecks, reading call trees and time spent, and sharing or downloading profiles.
 
-Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · no narrative yet
+Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+The Performance Profiler helps find why a business process is slow. It records snapshots of all apps and objects involved and shows time spent and call trees, so you can see where the bottleneck is. Profiles can be shared and downloaded.
+
+The scheduled profiler extends this for administrators. Instead of recording by hand, an administrator creates a profiling schedule for specific users and activity types, so slow processes are captured and diagnosed when they happen. Results can be viewed as analysis or downloaded as profiles.
+
+Start with the Performance Profiler overview to learn the basic recording and analysis flow. Then read the scheduled profiler overview if you need to monitor users over time. The scheduled profiler is marked as prerelease (runtime 18, version 29).
+
+## Key points
+
+- The profiler records snapshots of all apps and objects involved in a business process.
+- Results show time spent and call trees to identify performance bottlenecks.
+- Profiles can be shared and downloaded.
+- Administrators can create profiler schedules for specific users and activity types.
+- Schedules support settings for sampling frequency and an activity duration threshold.
+- Scheduled profiles can be viewed as analysis with performance metrics or downloaded.
+- The scheduled profiler is prerelease, tied to runtime 18 and version 29.
 
 ## Learn pages
 
@@ -80,6 +100,7 @@ Path: [Development](../../../development.md) > [Troubleshooting](../../troublesh
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [SQL Statement in AL Profiles](../../../../../posts/duiliotacconi-com/1694.md) (community post): "SQL Statement collection in AL performance profiles available in Business Central 2025 Wave 2"
 - [What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)](../../../../../videos/0qt0Zy9ZsRo.md) (video): "Analyze Performance Issues with Scheduled Profiles performance troubleshooting"
 - [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../../../../../videos/B8PLDeZ73Y4.md) (video): "Snapshot Debugging vs AL Profiler in Business Central"
 - [What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)](../../../../../videos/ZKq0hc04f-s.md) (video): "Capturing SQL Calls in Performance Profiles performance profiler"

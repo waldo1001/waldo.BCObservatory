@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Australia > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Australian local functionality in Business Central: address handling, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage pricing, and Payment Times Reporting. It answers questions about setting up and using these Australia-specific features."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:57.591Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6b84a98c64e4b2f56b681a1845f5355d8f4447314f4b4235a9c4450f7b28ab5a
+  prompts:
+    hub-topic: 1
+  input_hash: 010a657b2841eddda9561df27cb7a5adb0ec7fe8f88168d77db3cccb6b26dbd1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses
@@ -83,14 +84,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6b84a98c64e4b2f56b681a1845f5355d8f4447314f4b4235a9c4450f7b28ab5a
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Australia > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Australian local functionality in Business Central: address handling, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage pricing, and Payment Times Reporting. It answers questions about setting up and using these Australia-specific features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the general Australia-specific features of Business Central. It covers how addresses work when postal codes span several cities or city names repeat across states, how ABNs are registered and validated, how adjustment notes relate to GST and BAS, a sales pricing method, and a compliance report for payment times.
+
+The pages are independent, so start with the one that matches your task. For tax identity, read the ABN overview page together with the how-to page on entering ABNs in company and vendor records. For credit memos under GST, use the ABN and adjustment notes page. For regulatory reporting by large businesses, use the Payment Times Reporting page.
+
+## Key points
+
+- Addresses: dropdown lists for city and state handle postal codes that cover multiple cities and same-named cities in different states.
+- Address features also include a delivery point identifier, barcode printing and an address matching approval system.
+- ABNs can be entered in company and vendor records and are validated with the local tax office algorithm.
+- The ABN entry includes a division part number.
+- Adjustment notes work as credit memos for GST compliance, with fields for the original invoice and reason codes, and support BAS adjustments.
+- Sales prices can be determined with a cost plus percentage calculation in the Australian version.
+- Payment Times Reporting helps large businesses report vendor payment performance, including marking small business vendors and payment buckets.
+- Payment Times Reporting extracts data, using applied entries, for the mandated delimited text file.
 
 ## Learn pages
 

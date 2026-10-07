@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
 type: topic
 title: Power BI and Business Central
-summary: "Learn section Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports > Power BI and Business Central: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Power BI and Business Central covers how Power BI works with Business Central: built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. It answers questions about viewing, refreshing, embedding and analyzing Business Central data in Power BI."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2b248b8b4750223ab51092d87e49e43ccdc138cc10bb7d3d785384a3ffb8612f
+  prompts:
+    hub-topic: 1
+  input_hash: d1ec983ff77940a1aedbea1abf9bb4ed565e2f6a0de4838d0eb39230409c311c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
@@ -80,14 +81,32 @@ bc_forms:
   - 6316
   - 6317
 member_hash: 2b248b8b4750223ab51092d87e49e43ccdc138cc10bb7d3d785384a3ffb8612f
-narrative: none
+narrative: generated
 ---
 
 # Power BI and Business Central
 
-> Learn section Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports > Power BI and Business Central: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Power BI and Business Central covers how Power BI works with Business Central: built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. It answers questions about viewing, refreshing, embedding and analyzing Business Central data in Power BI.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI and Business Central · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI and Business Central · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section describes how Business Central data is used in Power BI for dashboards, reports and KPI tracking. It starts with an introduction to the integration and the built-in Power BI apps, then goes into specific tasks.
+
+The remaining pages cover working with Power BI reports inside Business Central (viewing, analyzing, sharing, and manual or scheduled refresh), tracking KPIs with Power BI metrics and scorecards, and using Power BI semantic models in Excel for ad-hoc reporting.
+
+Start with the introduction for the overall picture. Then go to the reports page for daily use, the metrics page for KPI scorecards and alerts, or the Excel page for pivot-table analysis across functions.
+
+## Key points
+
+- The introduction covers built-in Power BI apps, Power BI Desktop integration, report embedding and managing the integration across roles.
+- Power BI reports in Business Central use Business Central data as a source and can be refreshed manually or on a schedule.
+- Reports, dashboards, scorecards and Power BI apps can be viewed, analyzed and shared from Business Central.
+- Power BI metrics track KPIs and objectives with scorecards, connected metrics, automated status rules and alerting.
+- Metric alerts can be sent to Teams, and scorecards can be embedded in Business Central (2023 release wave 2).
+- Power BI semantic models can be used in Excel to build Pivot Tables and Tables connected to Business Central Power BI apps.
+- The Excel approach supports ad-hoc cross-functional reporting and relies on model relationships and the Power Pivot add-in.
 
 ## Learn pages
 

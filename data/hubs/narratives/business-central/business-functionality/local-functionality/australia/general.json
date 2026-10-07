@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/australia/general",
+  "input_hash": "010a657b2841eddda9561df27cb7a5adb0ec7fe8f88168d77db3cccb6b26dbd1",
+  "summary": "Australian local functionality in Business Central: address handling, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage pricing, and Payment Times Reporting. It answers questions about setting up and using these Australia-specific features.",
+  "overview": "This section collects the general Australia-specific features of Business Central. It covers how addresses work when postal codes span several cities or city names repeat across states, how ABNs are registered and validated, how adjustment notes relate to GST and BAS, a sales pricing method, and a compliance report for payment times.\n\nThe pages are independent, so start with the one that matches your task. For tax identity, read the ABN overview page together with the how-to page on entering ABNs in company and vendor records. For credit memos under GST, use the ABN and adjustment notes page. For regulatory reporting by large businesses, use the Payment Times Reporting page.",
+  "key_points": [
+    "Addresses: dropdown lists for city and state handle postal codes that cover multiple cities and same-named cities in different states.",
+    "Address features also include a delivery point identifier, barcode printing and an address matching approval system.",
+    "ABNs can be entered in company and vendor records and are validated with the local tax office algorithm.",
+    "The ABN entry includes a division part number.",
+    "Adjustment notes work as credit memos for GST compliance, with fields for the original invoice and reason codes, and support BAS adjustments.",
+    "Sales prices can be determined with a cost plus percentage calculation in the Australian version.",
+    "Payment Times Reporting helps large businesses report vendor payment performance, including marking small business vendors and payment buckets.",
+    "Payment Times Reporting extracts data, using applied entries, for the mandated delimited text file."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:01.515Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010911
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:57.591Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 8 says Payment Times Reporting extracts data 'using applied entries'. The source summary only says the data is extracted from Business Central, and 'applied entries' appears only as a feature tag. The wording is acceptable but slightly overstates how it works.",
+      "The overview's statement that the pages are independent is an inference, not something the sources say. It is harmless reading guidance."
+    ],
+    "input_hash": "010a657b2841eddda9561df27cb7a5adb0ec7fe8f88168d77db3cccb6b26dbd1",
+    "cost_usd": 0.0259072
+  }
+}

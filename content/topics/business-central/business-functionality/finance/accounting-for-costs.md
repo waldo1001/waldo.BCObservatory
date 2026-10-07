@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/accounting-for-costs
 type: topic
 title: Accounting for costs
-summary: "Learn section Business functionality > Finance > Accounting for costs: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Cost accounting in Business Central: terminology, setup of cost types, cost centers and cost objects, transferring ledger entries, allocating costs, cost budgets, and built-in reports. It answers how-to and concept questions about analyzing costs by type, location, and bearer."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:27.418Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 253009b5170bcbde2efda8d28b609be2a69b1bc2cf29742ab0d494b533034c10
+  prompts:
+    hub-topic: 1
+  input_hash: fde34798879f0f5f594d0791ed8e6604504b4c90a91a05db665c5745533ea653
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-cost-accounting
@@ -96,8 +97,11 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/BZF4MrVfvfY
+    - video/xh63GaWwZqA
+  posts:
+    - post/thedynamicsexplorer-com/37257
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -109,8 +113,8 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 1100
@@ -154,14 +158,30 @@ bc_forms:
   - 10007
   - 10008
 member_hash: 253009b5170bcbde2efda8d28b609be2a69b1bc2cf29742ab0d494b533034c10
-narrative: none
+narrative: generated
 ---
 
 # Accounting for costs
 
-> Learn section Business functionality > Finance > Accounting for costs: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Cost accounting in Business Central: terminology, setup of cost types, cost centers and cost objects, transferring ledger entries, allocating costs, cost budgets, and built-in reports. It answers how-to and concept questions about analyzing costs by type, location, and bearer.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+Cost accounting analyzes business costs by type, location, and bearer to determine profitability. It works through cost types, cost centers, and cost objects, with allocations, budgets, and reports built on top of them.
+
+The pages follow the working order. Start with the overview, "About cost accounting" and the terminology page for concepts. Then use "Set up cost accounting" to define cost types, centers, and objects and link them to general ledger accounts. Next come transferring and posting cost entries, defining and allocating costs, and creating cost budgets. Reports and budget entry cleanup are covered last.
+
+## Key points
+
+- Setup defines cost types, cost centers, and cost objects and links them to general ledger accounts; cost center and cost object dimensions and automatic cost adjustment are part of it.
+- General ledger entries are transferred to cost accounting automatically by set criteria or posted manually; combined entries and tracing between cost and ledger entries are supported.
+- Cost allocations move costs and revenues between cost types, centers, and objects using allocation sources and targets.
+- Allocation bases can be static or dynamic, for example employee counts or sales figures.
+- Cost budgets are based on cost types for a fiscal period; batch jobs copy, allocate, and report budgets, with comparison to actual costs.
+- A batch job deletes cost budget entries from the cost budget register while preventing gaps in the register sequence.
+- Report Explorer gives access to the built-in cost accounting reports.
 
 ## Learn pages
 
@@ -174,6 +194,14 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Set up cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting): Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
 - [Terminology in cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting): This article defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 - [Transferring and posting cost entries](https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries): Before you define cost allocations, you must understand the various sources that cost entries come from.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – How to proportionally split costs across Dimensions using Statistical Accounts and Allocation Accounts](../../../../posts/thedynamicsexplorer-com/37257.md) (community post): "how to automatically split costs across cost center dimensions in Business Central using Statistical Accounts"
+- [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "GL allocations; statistical accounts; cost allocation; revenue allocation"
+- [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "allocation accounts; cost allocation; posting; expense splitting"
 
 ## Business Central pages and reports
 

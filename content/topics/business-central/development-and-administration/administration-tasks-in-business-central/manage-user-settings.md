@@ -2,7 +2,7 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings
 type: topic
 title: Manage user settings
-summary: "Learn section Development and administration > Administration tasks in Business Central > Manage user settings: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: User settings and profile management in Business Central for administrators. It answers questions about setting company, role, language, region, time zone and teaching tips for users, and about creating, assigning and customizing profiles and role-based page layouts.
 tier: official
 language: en
 system: administration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: df5881c49f74ad94a9e2cb1e7cd8c85f6748e7ef0914aa866b5ad3985a5188ef
+  prompts:
+    hub-topic: 1
+  input_hash: 265f17a99720f13b9fcb5103770c5cf8b859e8d00e84995b3fe5bbf52842b1d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences
@@ -62,14 +63,32 @@ bc_forms:
   - 9200
   - 9204
 member_hash: df5881c49f74ad94a9e2cb1e7cd8c85f6748e7ef0914aa866b5ad3985a5188ef
-narrative: none
+narrative: generated
 ---
 
 # Manage user settings
 
-> Learn section Development and administration > Administration tasks in Business Central > Manage user settings: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> User settings and profile management in Business Central for administrators. It answers questions about setting company, role, language, region, time zone and teaching tips for users, and about creating, assigning and customizing profiles and role-based page layouts.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · no narrative yet
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers how administrators control the working environment of Business Central users. It has two pages: one on user settings and preferences, and one on users and roles through profiles.
+
+The user settings page explains how an administrator configures personal preferences such as company, role, language, region, time zone and teaching tips. The users and roles page explains profiles: how to create them, assign them to users, customize the pages they show, and move them between environments with export and import. It also covers managing personalization.
+
+Start with the user settings page for per-user preferences. Move to the users and roles page when you need to shape what a whole group of users sees through role centers and page layouts.
+
+## Key points
+
+- Administrators can set user settings for company, role, language, region and time zone.
+- Teaching tips can be configured as part of user preferences.
+- Profiles control access and page layouts for different user roles.
+- Profiles can be created and assigned to users.
+- Pages and role centers can be customized per profile.
+- Profiles can be exported and imported.
+- Personalization of pages can be managed by the administrator.
 
 ## Learn pages
 

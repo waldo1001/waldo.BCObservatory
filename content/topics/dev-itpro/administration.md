@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration
 type: topic
 title: Administration
-summary: "Learn section Administration: 274 Microsoft Learn pages in 10 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Administration of Business Central online: how the service is organized, how tenant admins and delegated partners manage environments, users, licensing, updates and telemetry, and how to prepare, onboard, monitor, support and migrate to the online service. It answers admin, setup, API and migration questions."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:05.971Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 50e9738c56e0b9f2f21b3b0d3e72377b8c255dbf3447f915c7c1994b5032cf84
+  prompts:
+    hub-topic: 1
+  input_hash: b575b7446245033f42a7edbdcc083622a523f984318c151f2440aeaad59e0e26
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_activate_create
@@ -362,14 +363,33 @@ bc_forms:
   - 9882
   - 20350
 member_hash: 50e9738c56e0b9f2f21b3b0d3e72377b8c255dbf3447f915c7c1994b5032cf84
-narrative: none
+narrative: generated
 ---
 
 # Administration
 
-> Learn section Administration: 274 Microsoft Learn pages in 10 subtopics. Index of what Learn documents here, linked to Learn.
+> Administration of Business Central online: how the service is organized, how tenant admins and delegated partners manage environments, users, licensing, updates and telemetry, and how to prepare, onboard, monitor, support and migrate to the online service. It answers admin, setup, API and migration questions.
 
-Path: Administration · tier official · system administration · no narrative yet
+Path: Administration · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section is for internal administrators and delegated partners who run Business Central online tenants. The landing page introduces the main duties: user management, permission assignment, licensing, environment updates, telemetry and partner relationships.
+
+The subtopics split the work by task. Start with "Understand Business Central online" for tenants, environments, companies, update cycles and support basics. Then use "Admin center" for day-to-day environment management, and "Entitlements and permissions" for access and license plans. "Prepare Business Central" and "Onboard your customers" cover getting an environment and new users ready.
+
+Further subtopics cover ongoing operations: telemetry monitoring with Application Insights, technical support and escalation, the Automation API and Cloud Migration API, and migration of on-premises data from Business Central, Dynamics NAV, GP or SL to the online service.
+
+## Key points
+
+- Admin center is the portal for the environment lifecycle: create, copy, rename, delete, restore, transfer and export, plus apps, updates, capacity, notifications and billing.
+- Online fundamentals cover tenants, environments, companies, environment types, update cycles, version numbers, operation limits, and country/region and language availability.
+- Entitlements, permissions and permission sets differ; the SUPER, D365 BASIC and SYSTEM APP permission sets are explained.
+- Preparation tasks include configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management and app key vaults.
+- Onboarding covers trials, the SignupContext parameter, the Welcome banner, checklists, teaching tips, tours and onboarding telemetry.
+- Telemetry (70 pages) covers enabling Application Insights, event IDs, KQL and Power BI analysis, alerting, and cost and retention control.
+- Technical support pages cover troubleshooting tools, escalating to Microsoft, and reporting performance problems and production outages.
+- Migration covers routes from Business Central, NAV, GP and SL, custom SQL migrations, cloud migration phases, FAQs and troubleshooting; the Automation API and Cloud Migration API support automation.
 
 ## Subtopics
 

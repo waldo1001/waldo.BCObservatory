@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central
 type: topic
 title: Administration tasks in Business Central
-summary: "Learn section Development and administration > Administration tasks in Business Central: 34 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Administration of Business Central: user access, user settings, data control, company creation, job queues, web services, printers, languages, database indexes, table information, trial extension, and feature management. It answers how-to questions for administrators about setting up and maintaining an environment."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:55.736Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3f2456115d6fa27a4b4e38563219b1c37151040e5665082f3a513513d861621c
+  prompts:
+    hub-topic: 1
+  input_hash: 8ddcdf7f1d43b7a2a991e8caaf4ed893f8b18b771a6362cf08b40397e629a0a8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -282,7 +283,8 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -297,7 +299,7 @@ coverage:
   learn: 34
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -398,14 +400,33 @@ bc_forms:
   - 9878
   - 9883
 member_hash: 3f2456115d6fa27a4b4e38563219b1c37151040e5665082f3a513513d861621c
-narrative: none
+narrative: generated
 ---
 
 # Administration tasks in Business Central
 
-> Learn section Development and administration > Administration tasks in Business Central: 34 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Administration of Business Central: user access, user settings, data control, company creation, job queues, web services, printers, languages, database indexes, table information, trial extension, and feature management. It answers how-to questions for administrators about setting up and maintaining an environment.
 
-Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · no narrative yet
+Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section collects the tasks an administrator performs after an environment exists. Three subtopics cover larger areas: managing access (licenses, users, permissions, security groups), managing user settings (company, role, language, region, time zone, profiles), and controlling data (auditing, classification, retention, encryption, cleanup, personal data requests, database locks).
+
+The section's own pages cover single tasks. Some set up the environment: creating companies with an assisted setup guide, onboarding users with checklists, restricting allowed languages, setting a default printer, and configuring the text search language. Others cover operations and integration: scheduling jobs in the job queue, exposing objects as OData or SOAP web services, and configuring API templates. A third group supports performance and troubleshooting: inspecting pages, viewing table information, and managing database index usage.
+
+Start with the page "Administrative tasks in Business Central" for the full list of tasks. Then move to the subtopic that matches your question, such as access for new users or data control for privacy and database size.
+
+## Key points
+
+- Subtopics cover access (licenses, permissions, Microsoft Entra or Active Directory security groups), user settings and profiles, and data control (auditing, masking, retention, encryption, personal data requests).
+- Companies are created with an assisted setup guide: copy a company, use an evaluation template with sample data, or start blank.
+- The Job Queue Entries page schedules reports and codeunits to run once or on a recurring basis, with status tracking and failure notifications.
+- Objects can be published as OData V4 or SOAP web services; API templates set default property values for records created through the API.
+- Manage database index usage per company: view usage statistics and storage size, and turn off nonessential indexes. Unique indexes and primary keys cannot be disabled.
+- The Table Information page shows record counts, data sizes, index sizes, and compression types for performance troubleshooting.
+- Trials last 30 days and can be extended once by another 30 days. Partners can extend again, and a subscription is required after 90 days total.
+- Feature Management lets administrators enable upcoming features early, before they become mandatory.
 
 ## Subtopics
 
@@ -431,6 +452,12 @@ Path: [Development and administration](../development-and-administration.md) > A
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
 - [Specify available languages in your environment](https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages): Learn how to build a list of the languages that are available in your Business Central environment.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [BC Friday Tips #39 Troubleshoot Connectivity](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-39-troubleshoot-connectivity/.md) (community post): "The Troubleshooting Connectivity page helps diagnose connection issues"
 
 ## Business Central pages and reports
 

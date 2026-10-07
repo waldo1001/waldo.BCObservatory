@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/iceland/general",
+  "input_hash": "348aa8988011a9b2f68ab677442ebe4675892746e729bc4fcf57e0a67a31f0e4",
+  "summary": "Iceland general localization in Business Central: rules for deleting posted invoices and credit memos, exporting audit data, mapping IRS numbers to the chart of accounts, and registration number fields. Answers questions on Icelandic legal and tax compliance setup.",
+  "overview": "This section collects the general Iceland-specific topics in Business Central. They cover compliance-driven behavior: what can be deleted, how data is exported for auditors, how accounts are tied to tax authority codes, and how registration numbers appear on documents.\n\nThe pages are independent of each other. Start with the topic that matches your task. For tax reporting, see the IRS number mapping page. For auditor requests, use the audit export page, which describes the Audit Files Export extension. For document deletion, see the deletion page; the rules changed in version 24.0 for companies that have the new localization enabled. For sales and payment data, see the registration number page; the fields are available once activated, from version 24.0.",
+  "key_points": [
+    "Before v24.0, posted invoices and credit memos cannot be deleted in Iceland, per legislation.",
+    "After v24.0 with the new localization enabled, deletion is allowed only for documents older than seven years at the start of the fiscal year.",
+    "The Audit Files Export extension exports GL and VAT entries in formats such as SIE, FEC, and SAF-T.",
+    "Audit export supports GL account mapping, data quality checks, parallel processing, and zip export.",
+    "IRS numbers are created as Internal Revenue Service codes and mapped to general ledger posting accounts for tax authority compliance; a reverse prefix option is mentioned.",
+    "When activated from version 24.0, Registration No. and Sender Reg. No. fields can be added to sales invoices, orders, credit memos, and payment export data."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:06.344Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010578999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:28.677Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says both the deletion page and the registration number page depend on version 24.0 and on the new localization being enabled. Only the deletion page mentions the new localization. The registration number page only says the fields are available when activated from version 24.0.",
+      "Key point 6 leaves out that the registration number fields have to be activated. The source says they are available 'when activated from version 24.0'.",
+      "Minor: The source does not say the Audit Files Export extension is specific to Iceland. The narrative does not claim it is, so this is acceptable."
+    ],
+    "input_hash": "348aa8988011a9b2f68ab677442ebe4675892746e729bc4fcf57e0a67a31f0e4",
+    "cost_usd": 0.0394632
+  }
+}

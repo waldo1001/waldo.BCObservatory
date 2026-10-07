@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extensibility/extending-al-objects
 type: topic
 title: Extending AL objects
-summary: "Learn section Development > Extensibility > Extending AL objects: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Extending AL objects covers how extensions change existing Business Central objects without modifying base code. It answers questions about page, table, report, enum and permission set extensions, event types, and application areas.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
+  prompts:
+    hub-topic: 1
+  input_hash: 19dcc93eca7fac792136d6f2b120e4c721d8e97ddbd72d94291837096c604be8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-event-types
@@ -98,14 +99,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
-narrative: none
+narrative: generated
 ---
 
 # Extending AL objects
 
-> Learn section Development > Extensibility > Extending AL objects: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Extending AL objects covers how extensions change existing Business Central objects without modifying base code. It answers questions about page, table, report, enum and permission set extensions, event types, and application areas.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extending AL objects · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extending AL objects · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section explains the AL extension objects used to customize Business Central. Each page covers one kind of object: page extensions, table extensions, report extensions, extensible enums with enumextension, and permission set extensions. Further pages cover event types and extending application areas.
+
+Start with the object type you want to change. Page extension, table extension and report extension describe syntax and what can be added, such as controls, actions, fields, keys, triggers, data items and layouts. Event types is the place to learn how to publish, raise and subscribe to events when behavior must change through code. Extensible enums and permission set extensions cover adding enum values and adding permissions to existing sets. Extending Application Areas covers how to show or hide functionality for different experience tiers.
+
+## Key points
+
+- Page extensions add or change layout controls and actions with addfirst, addlast, addafter, addbefore, modify, and the move keywords (movefirst, movelast, moveafter, movebefore).
+- Table extensions add fields, define keys and write trigger code without changing the base table.
+- Report extensions add columns, data items, triggers, request page elements and multiple report layouts.
+- Extensible enums use the Extensible property and the enumextension object so other extensions can add values. Display order follows declaration.
+- Permission set extensions add permissions to existing sets, and the permissions are assigned automatically when the extension is installed.
+- Event types include business events, integration events, global events, and database and page trigger events. The page explains how to publish, raise and subscribe to them.
+- Application areas are extended by adding fields to the Application Area Setup table and subscribing to the OnGetExperienceAppArea and OnValidateApplicationAreas events.
 
 ## Learn pages
 

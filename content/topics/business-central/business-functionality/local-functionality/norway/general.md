@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/norway/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Norway > General: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Norway-specific general functionality in Business Central: recurring sales orders built from blanket orders and recurring groups, payroll transaction import via the Payroll Data Definitions extension, KID number setup, and document printing setup for giro and KID. It answers setup and how-to questions for Norwegian localization."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:22.706Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4bfafde1fabb245d0cac7218dcf870cab14ee2c415a1eaf841ad20f3d0a7fd65
+  prompts:
+    hub-topic: 1
+  input_hash: 55e95a3a7c393de42d162fbf2ed525d5fa3ca4165107d0a29cef1ffe4ba29b17
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders
@@ -108,14 +109,33 @@ coverage:
 bc_forms:
   - 456
 member_hash: 4bfafde1fabb245d0cac7218dcf870cab14ee2c415a1eaf841ad20f3d0a7fd65
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Norway > General: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Norway-specific general functionality in Business Central: recurring sales orders built from blanket orders and recurring groups, payroll transaction import via the Payroll Data Definitions extension, KID number setup, and document printing setup for giro and KID. It answers setup and how-to questions for Norwegian localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects Norwegian localization pages that do not belong to a larger subtopic. They fall into three groups: recurring orders, payroll import, and sales document printing with KID numbers.
+
+For recurring orders, start with the "Recurring orders" concept page. Then set up recurring groups, assign a group code to blanket sales orders, and run the Create Recurring Orders batch job to generate new sales orders as a periodic activity.
+
+For payroll, the Payroll Data Definitions page describes the extension, and the how-to page shows how to import transactions from Huldt & Lillevik Lønn - Visma into general journals. For payments and printing, the KID setup page covers KID numbers on sales documents, and the document printing page covers paper tray settings for giro and KID output.
+
+## Key points
+
+- Recurring orders use blanket orders as templates and recurring groups to generate sales orders at defined date intervals.
+- Recurring group setup includes a Recurring Group Code, Document Date Formula, Delivery Date Formula, Create only latest, and Update Price.
+- On a blanket sales order, set the Recurring Group Code, Order Date, Quantity, and Qty. to Ship to enable recurring orders.
+- The Create Recurring Orders batch job uses a Processing Date and the Create only latest option to create new sales orders.
+- The Payroll Data Definitions extension imports payroll transactions from Huldt & Lillevik Lønn and Visma using data exchange definitions mapped to general ledger accounts.
+- Imported payroll transactions are placed in general journals for posting.
+- KID Setup defines Document No. length and Customer No. length, and covers KID for finance charge memos and reminders.
+- Document printing setup configures paper trays for first page and giro page so giro and KID print on invoices, credit memos, finance charge memos, and reminders.
 
 ## Learn pages
 

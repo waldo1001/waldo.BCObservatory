@@ -2,20 +2,21 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
 type: topic
 title: Microsoft Power BI
-summary: "Learn section Integrate with other applications > Microsoft Power Platform > Microsoft Power BI: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Microsoft Power BI integration with Business Central: licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and using the built-in Power BI apps. It answers setup, architecture, and report-building questions."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:34.712Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ad8088d8284c837e377bde659aa746188f4a289b98ea042bd26853f8be90ab7d
+  prompts:
+    hub-topic: 1
+  input_hash: 8bc4f24887a6b9427121ba592b3e58f1de392ed17177af8ea0059578ea21bfa6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
@@ -109,14 +110,33 @@ bc_forms:
   - 6317
   - 36951
 member_hash: ad8088d8284c837e377bde659aa746188f4a289b98ea042bd26853f8be90ab7d
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Power BI
 
-> Learn section Integrate with other applications > Microsoft Power Platform > Microsoft Power BI: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft Power BI integration with Business Central: licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and using the built-in Power BI apps. It answers setup, architecture, and report-building questions.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power BI · tier official · system reporting · no narrative yet
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power BI · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section covers how Business Central works with Power BI. It starts with an introduction and an architecture overview, which explain the connectors, embedded reports, default reports, and the read-only database replica used for online environments. A page on enabling the integration covers licensing and how data is exposed through API pages and OData web services.
+
+For setup and building, one page covers connecting an on-premises deployment: OData web services, access keys, and a Microsoft Entra ID app registration. Another covers building reports in Power BI Desktop with the connector. A further page covers building reports for list pages so they show in the Power BI FactBox.
+
+For everyday use, one page explains the Business Central apps in Power BI for CRM, Finance, and Sales, including installation and troubleshooting. Another covers viewing, refreshing, and sharing reports inside Business Central. Start with the introduction, then go to the enabling page for your deployment type.
+
+## Key points
+
+- Data reaches Power BI through API pages and OData web services; Dataflows and Power BI apps are also covered.
+- Integration needs a Power BI free or Pro license, as described on the enabling page.
+- Online environments use a read-only database replica for Power BI Desktop and Power BI Service reports.
+- On-premises setup involves enabling OData web services (ODataV4 endpoint), a web service access key, and registering an application in Microsoft Entra ID.
+- The Power BI Desktop connector supports API and OData sources, custom Power Query functions, and cross-company reporting.
+- Reports for list pages need proper naming, sizing, and primary key filtering to display in the Power BI FactBox.
+- Built-in Power BI apps for CRM, Finance, and Sales need company connection parameters and a data refresh schedule.
+- Reports in Business Central can be refreshed manually or on a schedule, and shared.
 
 ## Learn pages
 

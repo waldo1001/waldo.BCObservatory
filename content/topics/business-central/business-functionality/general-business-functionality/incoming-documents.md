@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality/incoming-documents
 type: topic
 title: Incoming documents
-summary: "Learn section Business functionality > General business functionality > Incoming documents: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Incoming documents in Business Central: setting up the feature, creating records from files, camera, or existing documents, using OCR to convert PDFs to e-invoices, and converting records to purchase invoices or journal lines. It answers how-to questions on setup, creation, linking, and view management."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:55.918Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4835315b6710066b92db7e72454a29e9d897701e76788dc7fc3ad8d12d707223
+  prompts:
+    hub-topic: 1
+  input_hash: 476cfbd7fa0f31b406e9adab8dab58192e3684f54e5f81927e023cbc7841a5e9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-create-income-document-records
@@ -97,14 +98,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4835315b6710066b92db7e72454a29e9d897701e76788dc7fc3ad8d12d707223
-narrative: none
+narrative: generated
 ---
 
 # Incoming documents
 
-> Learn section Business functionality > General business functionality > Incoming documents: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Incoming documents in Business Central: setting up the feature, creating records from files, camera, or existing documents, using OCR to convert PDFs to e-invoices, and converting records to purchase invoices or journal lines. It answers how-to questions on setup, creation, linking, and view management.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Incoming documents · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Incoming documents · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Incoming documents let you register external documents, such as supplier invoices and expense receipts, as records in Business Central. You can then convert them into purchase or sales documents or journal lines. Records can be created manually, from files, from photos taken with tablet or phone clients, or through an OCR service that turns PDFs and images into electronic records.
+
+The pages follow the workflow. Start with "Set Up incoming documents" for journal template settings, approval workflow, and OCR service integration. "Work with incoming documents" and "Create incoming document records" cover creating and converting records. "Create incoming document records from docs" and "Find posted documents without incoming documents" cover attaching files to existing or posted documents.
+
+"Use OCR to turn PDF into e-invoices" covers automatic invoice processing, fixing errors, and training the service. "Define Which incoming docs to see" explains how to mark records as processed to reduce clutter on the Incoming Documents page, and how to bring them back.
+
+## Key points
+
+- Create records manually, from a file, or from a camera photo on tablet and phone clients.
+- Setup covers Incoming Documents Setup, journal template configuration, approval workflow, and OCR service.
+- Records can be converted to purchase invoices or journal lines, with an optional approval workflow.
+- Attach files to purchase invoices, vendor ledger entries, and posted documents, connecting existing records or creating new ones.
+- Find posted purchase and sales documents that lack incoming records through the Chart of Accounts or General Ledger Entries pages, filtering by posting date.
+- The OCR service converts PDFs and images to electronic documents, supports text-to-account mapping and error correction, and can be trained.
+- Use Mark as Processed, Show All, and Set to Unprocessed to manage which records appear on the Incoming Documents page.
 
 ## Learn pages
 

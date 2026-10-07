@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
+  "input_hash": "f7bd151cd64b760eb80370221eed5fb4503c08a79fb62f347def450b2ea5fbbc",
+  "summary": "Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features.",
+  "overview": "This section collects the Czech localization pages for core finance. They cover posting and ledger behavior (alternative employee posting groups, posting group change checks, corrections posting, multi-circuit accounting, G/L entries application, WIP extended posting) and the reports and documents needed for Czech legislation (accounting output documents, internal financial documents, statutory statements, year closing).",
+  "key_points": [
+    "Alternative posting groups for employees let payroll and expense transactions post to different G/L accounts, with a posting group choice on journals and automatic reallocation of G/L entries.",
+    "Posting group changes on customer, vendor, item and bank account cards are blocked when open entries exist.",
+    "Corrections posting (Red Storno) enforces corrective posting on G/L accounts and inventory so costs and revenues sit on the proper debit or credit side.",
+    "Multi-circuit accounting uses the G/L Account Group field to separate Financial, Off-Balance and Intercompany accounting areas.",
+    "G/L entries application matches temporary and transfer account entries, with partial application, apply/unapply and batch application.",
+    "Year closing reports close the income statement, close the balance sheet and open the balance sheet, creating General Journal lines.",
+    "Statutory Statements provide Balance Sheet and Income Statement under Accounting Law 563/1991, built on financial reports with customizable Excel layouts.",
+    "Exchange rates can be updated automatically from the Czech National Bank (CNB) service."
+  ],
+  "members_used": 14,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:17.244Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016835
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:38.493Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview leaves out several pages: automatic creation and update of dimensions, financial report features (shared expressions, saving results, formula drill-down, extra data sources), statutory company information and the CNB exchange rate update. The last three appear in the summary or key points, but the overview reads as if it covers everything.",
+      "No key point covers statutory company information (officials, footers in several languages, registration numbers) or automatic dimension creation and update; both would be useful additions.",
+      "Year closing key point leaves out that the reports exist to comply with Czech accounting legislation; minor."
+    ],
+    "input_hash": "f7bd151cd64b760eb80370221eed5fb4503c08a79fb62f347def450b2ea5fbbc",
+    "cost_usd": 0.0443712
+  }
+}

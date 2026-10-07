@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/development-environment/compile-publish-and-debug
 type: topic
 title: Compile, publish, and debug
-summary: "Learn section Development > Development environment > Compile, publish, and debug: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Compiling, publishing, debugging, profiling and signing AL extensions for Business Central. It answers questions on breakpoints, attach and snapshot debugging, RAD publishing, compilation scope and target levels, AL Profiler, app signing, and Entra authentication for on-premises debugging.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:36.554Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
+  prompts:
+    hub-topic: 1
+  input_hash: 49ccf906cdc26bd5b8a1f5632bb1684d9d6ba97a2748289e4420d7e52813139b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
@@ -138,14 +139,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
-narrative: none
+narrative: generated
 ---
 
 # Compile, publish, and debug
 
-> Learn section Development > Development environment > Compile, publish, and debug: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Compiling, publishing, debugging, profiling and signing AL extensions for Business Central. It answers questions on breakpoints, attach and snapshot debugging, RAD publishing, compilation scope and target levels, AL Profiler, app signing, and Entra authentication for on-premises debugging.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Compile, publish, and debug · tier official · system administration · no narrative yet
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Compile, publish, and debug · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers the developer inner loop in Visual Studio Code for AL: building and publishing extensions, finding and fixing errors, and measuring performance. Core debugging is in "Debugging in AL", with conditional breakpoints, attach and debug next, and debugging of upgrade and install code as focused follow-ups.
+
+For production and sandbox problems, snapshot debugging records execution on a cloud server for offline inspection, and the web client can open Visual Studio Code directly for troubleshooting. The AL Profiler finds performance hot spots, and the MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during debugging.
+
+Build and delivery pages cover Rapid Application Development (RAD) publishing, compilation scope and target levels, signing app packages, and Microsoft Entra authentication for on-premises and container setups. Start with "Debugging in AL" for general work, or "Work with Rapid Application Development" if build times are the issue.
+
+## Key points
+
+- Debugging in AL uses the Visual Studio Code debugger with breakpoints, break on errors, break on record changes, SQL debugging, database lock inspection and web service debugging.
+- Conditional breakpoints break only when a condition is true; complex data types are supported from version 26.
+- Attach and debug next attaches to a running server without publishing first, for web clients, web services, background sessions and agent sessions.
+- Debugging upgrade and install code needs an incremented app version or the forceUpgrade flag to trigger the upgrade codeunit.
+- Snapshot debugging records production cloud sessions and uses snappoints that log variable state without stopping execution.
+- AL Profiler offers instrumentation and sampling modes, SQL call tracking, call stack views, CodeLens integration and in-client profiling.
+- RAD publishing uses delta compilation to cut build and publish times in large AL projects.
+- App signing uses Azure Key Vault (certificates issued after June 1, 2023) or PFX files with the dotnet sign tool; self-signed certificates are for local testing.
 
 ## Learn pages
 

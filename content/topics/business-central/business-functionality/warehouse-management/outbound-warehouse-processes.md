@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes
 type: topic
 title: Outbound warehouse processes
-summary: "Learn section Business functionality > Warehouse management > Outbound warehouse processes: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Outbound warehouse processes in Business Central cover picking and shipping items for sales orders, transfer orders, purchase returns and service orders. The pages answer questions about the four outbound methods, inventory picks, warehouse picks and shipments, cross-docking, and finding assigned warehouse work.
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7cd292b13ff6612b4bb067c1be5b2784ea9f4056b2c99dac6be027820439f938
+  prompts:
+    hub-topic: 1
+  input_hash: 827fe56a91dfbbaafb649d09aed447b555cf771bc319cad9c54105fc100b9712
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items
@@ -111,14 +112,33 @@ bc_forms:
   - 9000
   - 9008
 member_hash: 7cd292b13ff6612b4bb067c1be5b2784ea9f4056b2c99dac6be027820439f938
-narrative: none
+narrative: generated
 ---
 
 # Outbound warehouse processes
 
-> Learn section Business functionality > Warehouse management > Outbound warehouse processes: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Outbound warehouse processes in Business Central cover picking and shipping items for sales orders, transfer orders, purchase returns and service orders. The pages answer questions about the four outbound methods, inventory picks, warehouse picks and shipments, cross-docking, and finding assigned warehouse work.
 
-Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Outbound warehouse processes · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Outbound warehouse processes · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+This section describes how items leave the warehouse. It starts with an overview of outbound picking and shipping, which lays out four methods that range from basic order-by-order handling to advanced setups that separate picks from shipments. The method you use depends on how the location is configured, for example whether it requires pick, shipment, or bin management.
+
+For basic setups, the inventory pick pages and the basic walkthrough (method B) show how to record and post picking and shipping in one step per order. For advanced setups, the Ship items page covers warehouse shipments and the Pick items for warehouse shipment page covers warehouse pick documents and the pick worksheet. Cross-Dock Items and Find Your Warehouse Assignments are supporting topics for specific needs.
+
+Start with the outbound process overview to choose a method. Then go to the page that matches your configuration: inventory picks for basic setups, or warehouse shipments and warehouse picks for advanced ones.
+
+## Key points
+
+- Outbound processes cover sales orders, transfer orders, purchase returns and service orders, with four methods from basic to advanced.
+- Inventory picks record and post picking and shipping from the Inventory Pick page when a location requires pick but not shipment processing.
+- Inventory picks can be created from source documents or by batch job, and the Split line action and assemble-to-order handling are supported.
+- Warehouse shipments can be created in push or pull fashion, using Get Source Documents or filters, and Create Pick starts the picking.
+- Warehouse picks in advanced setups can be made manually or from the pick worksheet, with sorting and consolidation options and bin ranking.
+- Cross-docking uses cross-dock bins and zones, with Use Cross-Docking, Calculate Cross-Dock and Cross-Dock Due Date Calc. fields. Cross-docked items are picked first.
+- Warehouse assignments can be found from item cards or from the put-away, pick and movement pages, filtered by location and assigned user ID.
+- A basic walkthrough shows method B: bin setup, warehouse release, inventory picks and shipment posting.
 
 ## Learn pages
 

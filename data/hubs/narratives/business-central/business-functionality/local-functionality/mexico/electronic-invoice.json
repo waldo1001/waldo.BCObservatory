@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/mexico/electronic-invoice",
+  "input_hash": "89f2fcdcd32f6489e9fa6bc3e22cf8ad461bdd86d94d1b2fefcd8a263c28093f",
+  "summary": "Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions.",
+  "overview": "This section covers how Business Central meets Mexican tax authority requirements for electronic documents. Invoices are produced as CFDI XML files, digitally signed with a SAT certificate and stamped through a PAC (authorized certification provider) web service.\n\nThe pages follow the order of work. The \"Electronic invoicing - Mexico\" page gives the overview. \"Set Up Electronic Invoicing [MX]\" covers company information, general ledger, customer and vendor tax IDs, locations, and CFDI field mappings. \"Set Up PAC Web Services\" covers certificate upload and web service details. \"Generate electronic invoices [MX]\" covers day-to-day creation, stamping, and sending. The Carta de Porte page covers shipping documents.\n\nStart with the overview, then do the electronic invoicing setup and the PAC setup before you generate any documents. Go to the Carta de Porte page only if you ship goods and need compliant packing slips or transfer orders.",
+  "key_points": [
+    "Invoices are generated and sent as CFDI XML files, digitally signed and carrying a QR code.",
+    "Setup needs a SAT certificate, PAC web services, and company information. Multiple SAT certificates are supported.",
+    "Setup also covers general ledger, customer and vendor tax IDs, locations, CFDI field mappings, and the option to include a PDF report.",
+    "PAC web service setup includes certificate upload and separate test and production environments. It enables digital stamp requests and document cancellation.",
+    "Invoice generation covers sales and service documents, CFDI digital stamps, XML export, and payment stamping.",
+    "Foreign trade invoices use the Comercio Exterior Complement, which needs its own setup.",
+    "Carta de Porte packing slips and transfer orders can be printed and sent as signed CFDI files. This is documented for version 24.4.",
+    "Carta de Porte setup includes SCT permission, vehicle configuration, item classification, hazardous material, packaging type, and custom transit number."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:27.135Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013246999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:09.741Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview spells out PAC as 'authorized certification provider'. The page summaries never expand the acronym. It is the standard meaning and harmless, but it isn't in the inputs.",
+      "Key point 7 says 'This is documented for version 24.4.' That rests only on the Carta de Porte page's version tag. Something like 'The page references version 24.4' would claim less.",
+      "'Signed with a SAT certificate' joins two separate source features (SAT certificate and digital signature). It is a reasonable inference, but no summary states it outright."
+    ],
+    "input_hash": "89f2fcdcd32f6489e9fa6bc3e22cf8ad461bdd86d94d1b2fefcd8a263c28093f",
+    "cost_usd": 0.0354312
+  }
+}

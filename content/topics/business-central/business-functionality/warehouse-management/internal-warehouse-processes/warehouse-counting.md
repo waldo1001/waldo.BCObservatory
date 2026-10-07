@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/warehouse-counting
 type: topic
 title: Warehouse counting
-summary: "Learn section Business functionality > Warehouse management > Internal warehouse processes > Warehouse counting: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Warehouse counting in Business Central covers physical inventory counts, adjustments and reclassification using orders, recordings and journals. It answers questions about cycle counting, bin-level counts, adjustment bins and how warehouse adjustments reconcile with the item ledger.
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:45.452Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1b126813e48c79ebb2e4528e6ebb21a6bfa82718febdbf6573f935403dbcd944
+  prompts:
+    hub-topic: 1
+  input_hash: c4a3d46db8dc053a95e0d812f5d3e1d6ca8e938099fe223e7a21c35c0a3dda62
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents
@@ -67,14 +68,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 1b126813e48c79ebb2e4528e6ebb21a6bfa82718febdbf6573f935403dbcd944
-narrative: none
+narrative: generated
 ---
 
 # Warehouse counting
 
-> Learn section Business functionality > Warehouse management > Internal warehouse processes > Warehouse counting: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Warehouse counting in Business Central covers physical inventory counts, adjustments and reclassification using orders, recordings and journals. It answers questions about cycle counting, bin-level counts, adjustment bins and how warehouse adjustments reconcile with the item ledger.
 
-Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Warehouse counting · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Warehouse counting · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+This area describes how to count inventory and correct differences between counted and recorded quantities. Two working approaches appear: physical inventory orders with inventory recordings, which organize a full counting project by item, location and bin, and journals used for counts, adjustments and reclassification.
+
+A third page is a design reference. It explains how physical inventory and warehouse adjustments connect the item ledger and warehouse bin tracking, using the Whse. Phys. Inventory Journal, the Item Journal and default adjustment bins.
+
+Start with "Count and adjust inventory" for the document-based process, or "Count, adjust, and reclassify inventory" for the journal-based process including cycle counting. Read the design details page to understand how posting reconciles quantities.
+
+## Key points
+
+- Physical inventory orders and inventory recordings organize complete counting projects and track counted quantities by item, location and bin.
+- The document-based process integrates with item tracking and includes duplicate line detection.
+- The 'Count and adjust inventory' page also covers inventory receipts and inventory shipments.
+- The journal-based process covers physical inventory counts, adjustments and reclassification, including cycle counting periods and expected inventory calculation.
+- Warehouse entries can be synchronized with the item ledger.
+- Adjustment bins are used to reconcile counted quantities at bin level.
+- The Whse. Phys. Inventory Journal and Item Journal work together with a default adjustment bin to post warehouse adjustments to the item ledger.
 
 ## Learn pages
 

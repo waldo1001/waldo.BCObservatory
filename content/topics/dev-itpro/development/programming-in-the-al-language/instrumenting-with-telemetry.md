@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry
 type: topic
 title: Instrumenting with telemetry
-summary: "Learn section Development > Programming in the AL language > Instrumenting with telemetry: 8 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
+  prompts:
+    hub-topic: 1
+  input_hash: 160d3acc876f1a90e81afa12e3cbceefffc0cb59af7e83c799c76928cdb93541
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights
@@ -108,14 +109,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
-narrative: none
+narrative: generated
 ---
 
 # Instrumenting with telemetry
 
-> Learn section Development > Programming in the AL language > Instrumenting with telemetry: 8 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers how an app or extension publisher gets monitoring data from production. It starts with an introduction to developing telemetry into an application, then setup of the connection to Azure Application Insights, then the ways to emit your own signals. It also covers the obsolete Event Log approach and the telemetry the platform already emits for apps and extensions.
+
+## Key points
+
+- Setting up telemetry in an extension uses applicationInsightsConnectionString or applicationInsightsKey in the app configuration; the page references runtime version 7.2.
+- Custom events for Application Insights are emitted with the LogMessage method, which supports verbosity levels (Critical, Error, Warning, Normal, Verbose), DataClassification and TelemetryScope (extensionpublisher, all).
+- Default dimensions are included in CustomDimensions for custom trace events.
+- Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError and LogUptake.
+- Uptake states are Discovered, Set up, Used and Undiscovered. The module also offers a Telemetry Logger interface, custom dimensions, and filtering and feature comparison through common telemetry dimensions.
+- The SENDTRACETAG method is obsolete. It writes custom events to the server Event Log, which you can view in Event Viewer. The page references 2020 release wave 2 (v17).
+- The platform already logs telemetry for apps and extensions: page interactions, REST API calls, report rendering, error dialogs and resource consumption.
+- A reference documentation subtopic with 2 pages is also part of this section.
 
 ## Subtopics
 

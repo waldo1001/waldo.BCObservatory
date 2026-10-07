@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office",
+  "input_hash": "3b292a426f20c2c05950bb3ae4f5677ec2963776cb207c4e25f3b79eee2643ba",
+  "summary": "Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards, Word layouts and templates, and deploying the Outlook add-in.",
+  "overview": "This area covers how Business Central works with Microsoft 365 tools. The overview page lists the integrations: Excel, OneDrive, Outlook, SharePoint, Teams, Word and Microsoft Graph, for data management and document processing.\n\nFour subtopics go deeper. Excel covers Open in Excel, Edit in Excel, importing data and Excel report layouts. OneDrive covers opening, sharing and saving documents. Teams covers cards, tabs and customization. Word covers report layouts and templates for bulk communications. The Outlook add-in has its own page in this section, on how to deploy it.\n\nStart with the overview page to find the right Office app. Then open the matching subtopic. Admins planning the Outlook add-in can go straight to its deployment page.",
+  "key_points": [
+    "The Outlook add-in can be deployed centrally by Microsoft 365 admins or installed individually by users.",
+    "The Outlook add-in gives contact insights and document view in emails and appointments.",
+    "Excel integration includes Open in Excel, Edit in Excel, permission sets for Edit in Excel, and data import through Excel or configuration packages.",
+    "Excel report layouts are covered in the Excel subtopic.",
+    "OneDrive integration lets users open, share and save documents such as reports and Excel workbooks. Developers can extend the Document Sharing module.",
+    "Teams integration covers cards, card details and tabs. Cards can be customized with the Brick field group and AL events, and Teams sessions can be detected.",
+    "The Teams FAQs address link unfurling, stage view, licensing and permissions.",
+    "Word integration uses the XML Mapping pane to map report fields into layouts. Word templates merge entity data into bulk communications for customers, vendors and contacts."
+  ],
+  "members_used": 2,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:27.615Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012976999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:02.967Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview could note that the Teams subtopic is aimed at developers and admins, but leaving it out is not an error."
+    ],
+    "input_hash": "3b292a426f20c2c05950bb3ae4f5677ec2963776cb207c4e25f3b79eee2643ba",
+    "cost_usd": 0.0381112
+  }
+}

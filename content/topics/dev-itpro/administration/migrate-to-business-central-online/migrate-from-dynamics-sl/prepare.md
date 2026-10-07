@@ -2,7 +2,7 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare
 type: topic
 title: Prepare
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Dynamics SL > Prepare: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling."
 tier: official
 language: en
 system: administration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9851a05875236de5bad8d6ce60f375909a9656723e9ee7fbe633867ca64dedc1
+  prompts:
+    hub-topic: 1
+  input_hash: 03b97b234ebde8a7714b553f60436119559751a849e6348589fbe547996ad1de
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl
@@ -59,14 +60,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9851a05875236de5bad8d6ce60f375909a9656723e9ee7fbe633867ca64dedc1
-narrative: none
+narrative: generated
 ---
 
 # Prepare
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Dynamics SL > Prepare: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · no narrative yet
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers the steps to take before running a cloud migration from Dynamics SL to Business Central online. It has two pages: one on prerequisites and one on planning and preparation.
+
+Start with the prerequisites page. It lists what the destination environment, the source system and the database must meet, including SUPER permissions, Intelligent Cloud Base, SQL Server requirements and a self-hosted integration runtime.
+
+Then read the planning page. It covers the Migration Assessment Tool, Analysis Tool and Repair Tool, choosing which data to migrate, migration approaches such as replication, a data backup strategy, and scheduling.
+
+## Key points
+
+- Prerequisites cover three areas: the destination environment, the source system, and database specifications.
+- SUPER permissions are listed as a prerequisite.
+- Intelligent Cloud Base is part of the prerequisites.
+- SQL Server requirements apply to the source database.
+- A self-hosted integration runtime is needed for the migration.
+- Planning uses the Migration Assessment Tool, Analysis Tool and Repair Tool.
+- Planning includes choosing which data to migrate, picking a migration approach (including replication), and scheduling.
+- A data backup strategy is part of preparation.
 
 ## Learn pages
 

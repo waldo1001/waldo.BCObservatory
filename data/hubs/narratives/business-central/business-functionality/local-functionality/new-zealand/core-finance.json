@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand/core-finance",
+  "input_hash": "6e55988bf4e09099dc4d1628ed471cf2381dfdbd0d0b44d0ea2479fad20f6abe",
+  "summary": "Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks.",
+  "overview": "This section holds three pages on finance functionality specific to the New Zealand version of Business Central. It has no subtopics, so all the content sits on these pages.\n\nTwo pages deal with statutory reporting. One covers printing balance sheet reports. The other covers printing income statements, which show revenues and expenses for the current and prior years. A third page covers calculating distribution amounts. Its summary gives no detail beyond the topic.\n\nStart with the balance sheet or income statement page if you need to produce reports for financial reporting. Open the distribution amounts page for that calculation. The summaries are brief, so check each page for the steps.",
+  "key_points": [
+    "Applies only to the New Zealand version of Business Central.",
+    "Balance sheet reports can be printed as statutory reports required for financial reporting.",
+    "The income statement report shows revenues and expenses for current and prior years.",
+    "Income statement options include Amounts in whole and Show Amounts in Add. Reporting Currency.",
+    "A separate page covers calculating distribution amounts for NZ.",
+    "The section has three pages and no subtopics."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:56.917Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007889
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:42.900Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: calling 'Amounts in whole' and 'Show Amounts in Add. Reporting Currency' income statement options is a slight interpretation; the source lists them only as features of the income statement page.",
+      "Minor: 'Applies only to the New Zealand version' adds a small inference, though the [NZ] page titles and the Local functionality > New Zealand TOC path support it."
+    ],
+    "input_hash": "6e55988bf4e09099dc4d1628ed471cf2381dfdbd0d0b44d0ea2479fad20f6abe",
+    "cost_usd": 0.0244912
+  }
+}

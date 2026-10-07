@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive
 type: topic
 title: Integrating with Microsoft Onedrive
-summary: "Learn section Integration > Integrating Business Central with Office apps and Microsoft 365 > Integrating with Microsoft Onedrive: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Business Central integration with OneDrive for Business: opening, sharing, and saving documents such as reports and Excel workbooks in OneDrive, plus how developers extend the Document Sharing module. It answers setup, user-level usage, and extensibility questions."
 tier: official
 language: en
 system: integration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d9548fb65d49f5e3b0ab44fc059eee69969b92a3e6608e34968be0a84170ac16
+  prompts:
+    hub-topic: 1
+  input_hash: 46f1b422a3707048a437fbcfdef4675bf642dfc9b4150243d9c27fdb331a5f3c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview
@@ -58,14 +59,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d9548fb65d49f5e3b0ab44fc059eee69969b92a3e6608e34968be0a84170ac16
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Microsoft Onedrive
 
-> Learn section Integration > Integrating Business Central with Office apps and Microsoft 365 > Integrating with Microsoft Onedrive: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Business Central integration with OneDrive for Business: opening, sharing, and saving documents such as reports and Excel workbooks in OneDrive, plus how developers extend the Document Sharing module. It answers setup, user-level usage, and extensibility questions.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Onedrive · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Onedrive · tier official · system integration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers how Business Central works with OneDrive for cloud file storage, file sharing, and collaborative editing. One page is aimed at users and administrators and describes what the integration does and how to set it up. The other is aimed at developers.
+
+The developer page explains how to use the Document Sharing module from the system application and the Document Service Management codeunit. With these, you can enable file sharing through OneDrive or through a custom document service. It mentions document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types, and it references 2022 release wave 1 and wave 2.
+
+Start with the integration overview to understand the user features and setup. Move to the extension page if you need to build or customize sharing behavior.
+
+## Key points
+
+- Users can open files in OneDrive, share files, and save Excel workbooks and report files to OneDrive from Business Central.
+- OneDrive integration supports cloud storage and collaborative editing of documents like reports and Excel files.
+- The overview page includes OneDrive setup guidance.
+- Developers use the Document Sharing module from the system application to enable sharing.
+- The Document Service Management codeunit supports sharing through OneDrive or a custom document service.
+- Extension topics include document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types.
+- The extensibility page references 2022 release wave 1 and 2022 release wave 2.
 
 ## Learn pages
 

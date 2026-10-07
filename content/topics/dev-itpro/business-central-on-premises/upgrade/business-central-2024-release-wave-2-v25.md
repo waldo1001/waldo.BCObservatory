@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/business-central-2024-release-wave-2-v25
 type: topic
 title: Business Central 2024 release wave 2 (v25)
-summary: "Learn section Business Central on-premises > Upgrade > Business Central 2024 release wave 2 (v25): 8 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Upgrading Business Central on-premises to 2024 release wave 2 (version 25): upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. It answers questions about which steps and tools apply to a given source version and what changes to expect."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:46.099Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d0afa03f42cfe1c8a88b9d1c99b55f1825ab3abee5c7029d5d0ae8e1c268f1d9
+  prompts:
+    hub-topic: 1
+  input_hash: 46a7972a0c21a1a625bf1c5adf56f6e7b8407f1cb6dc5fd9fa95fc714622450e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v23
@@ -105,14 +106,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d0afa03f42cfe1c8a88b9d1c99b55f1825ab3abee5c7029d5d0ae8e1c268f1d9
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2024 release wave 2 (v25)
 
-> Learn section Business Central on-premises > Upgrade > Business Central 2024 release wave 2 (v25): 8 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Upgrading Business Central on-premises to 2024 release wave 2 (version 25): upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. It answers questions about which steps and tools apply to a given source version and what changes to expect.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2024 release wave 2 (v25) · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2024 release wave 2 (v25) · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers upgrading Business Central on-premises to 2024 release wave 2 (version 25). The main upgrade page describes the upgrade paths, technical and application code upgrades, and the Business Foundation extension, which now contains number series logic. A general considerations page covers changes across versions 23, 24 and 25, including online migration, deprecated functionality, deployment changes and report platform updates.
+
+The "Install a version 25 update" page walks through installing platform and application components, converting the database, synchronizing tenants, publishing extensions, running the data upgrade and importing the license. The pages on upgrading reports and on upgrading permission sets cover two areas that often need rework: the report rendering model and the move from legacy data-based permissions to AL object-based permissions.
+
+The subtopic "Upgrade application and data" holds the step-by-step paths for unmodified C/AL, customized C/AL, and Microsoft System and Base Application upgrades. Start with the main upgrade page to pick your path, read the general considerations, then follow the install and data upgrade steps for your source version.
+
+## Key points
+
+- The main upgrade page describes upgrade paths, technical and application code upgrades, and on-premises to online migration.
+- The Business Foundation extension now contains number series logic, tied to System Application refactoring.
+- The general considerations page covers versions 23, 24 and 25: cloud migration, deprecated functionality, deployment changes, server port and delegation configuration.
+- Installing a version 25 update involves component installation, database conversion, tenant synchronization, extension publishing, data upgrade and license import.
+- Report upgrade guidance covers the new rendering model, obsoleted events, Word layouts and custom report renderers, affecting version 24 and later.
+- Permission upgrade moves from legacy data-based permissions to AL object-based permissions, using Permission Set and Permission Set Extension objects.
+- The Upgrade application and data subtopic has three paths: unmodified C/AL, customized C/AL, and Microsoft System and Base Application upgrades.
 
 ## Subtopics
 

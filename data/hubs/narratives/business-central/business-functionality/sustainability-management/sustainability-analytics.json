@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
+  "input_hash": "3bb6749036eb5117317a95499974390d928cbfb8db881e4f0a13650eb392357d",
+  "summary": "Sustainability analytics in Business Central covers ways to analyze sustainability data: ad-hoc Data Analysis, financial reports, standard sustainability reports, external ESG reporting for CSRD, and the Power BI sustainability app. It answers questions about which tool to use for emissions, CO2e, carbon fee and ESG analysis.",
+  "overview": "This area groups the analysis and reporting options for sustainability data in Business Central. Some work inside the client: Data Analysis on list pages for sustainability ledger entries, financial reports that mix sustainability, carbon fee and CO2e data with financial and statistical data, and standard reports with the Role Explorer.\n\nOther pages cover external reporting and dashboards. The External ESG reporting page describes CSRD-oriented reporting through Dataverse integration, assessments and posted reports. The Power BI sustainability app subtopic (13 pages) covers the app, its reports, the semantic model, and the KPIs and measures.\n\nTo start, pick the page that matches the task. For quick exploration, use ad-hoc analysis. For reports built on accounts, use financial reporting. For dashboards across emissions, water, waste, social, target and baseline data, go to the Power BI app. For CSRD compliance, go to External ESG reporting.",
+  "key_points": [
+    "Ad-hoc analysis uses the Data Analysis feature, with pivot mode, on sustainability ledger entries from list pages.",
+    "Sustainability financial reporting uses row and column definitions to show sustainability accounts, carbon fees and CO2e next to financial data.",
+    "The Track Item of Concern report monitors inbound and outbound transactions of items marked with the Item of Concern field.",
+    "The Role Explorer and the Sustainability FastTab support emissions analysis and high emission tracking.",
+    "External ESG reporting for CSRD needs Dataverse integration, assessment templates, data source configuration, ESG data synchronization and report calculation.",
+    "ESG reports are posted, and posted reports can be reviewed afterward.",
+    "The Power BI sustainability app has reports for emissions, water, waste, social (ESG), targets and baselines, plus a documented semantic model and KPIs."
+  ],
+  "members_used": 4,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:52.876Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012835000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:32.523Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on the Role Explorer and the Sustainability FastTab is a slight inference: the source lists both as features of the reports page but does not say how the FastTab supports high emission tracking. It is acceptable as written.",
+      "Key point on External ESG reporting says it 'needs' the listed steps. The source describes them as the steps involved, not formal prerequisites. This is a minor wording point."
+    ],
+    "input_hash": "3bb6749036eb5117317a95499974390d928cbfb8db881e4f0a13650eb392357d",
+    "cost_usd": 0.0332792
+  }
+}

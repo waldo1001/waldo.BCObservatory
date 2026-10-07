@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc
 type: topic
 title: Change the look of externally facing documents
-summary: "Learn section Get started > Get productive in Business Central > Change the look of externally facing documents: 14 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Report and document layouts in Business Central: layout types (Word, Excel, RDLC, external, composite), choosing and assigning layouts, themes and header/footer setup, designing Word layouts, Excel and RDLC layouts, and available fonts. It answers how to change the look of sales, purchase and other external documents."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:47.888Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2e5e7a5698b1242579e3f4c040c4d597c72bd0eab2d41b09cdff5c9ae0fd0639
+  prompts:
+    hub-topic: 1
+  input_hash: 2ffb0fc1b25e8cb427b36de7e7546189b422036b3d634436a68ac78bfa582758
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -158,14 +159,33 @@ bc_forms:
   - 9666
   - 9670
 member_hash: 2e5e7a5698b1242579e3f4c040c4d597c72bd0eab2d41b09cdff5c9ae0fd0639
-narrative: none
+narrative: generated
 ---
 
 # Change the look of externally facing documents
 
-> Learn section Get started > Get productive in Business Central > Change the look of externally facing documents: 14 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Report and document layouts in Business Central: layout types (Word, Excel, RDLC, external, composite), choosing and assigning layouts, themes and header/footer setup, designing Word layouts, Excel and RDLC layouts, and available fonts. It answers how to change the look of sales, purchase and other external documents.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to control the content and appearance of reports and externally facing documents such as sales and purchase documents. It begins with an overview of layout types: Word, Excel, RDLC and external layouts, plus composite layouts that combine reusable themes with header/footer layouts.
+
+For day-to-day use, start with the pages on setting the layout a report uses and on assigning document layouts to customers or vendors. Then use the page on getting started with report layouts to copy, export, import and validate layouts. The theme and header/footer page covers consistent branding across Word-based reports.
+
+For design work, separate pages cover Word layouts (the Business Central add-in and the XML Mapping pane), Excel layouts with PivotTables and PivotCharts, and RDLC layouts built with Report Builder or Visual Studio. A fonts reference lists the preinstalled fonts in the online service. The subtopic on obsolete features documents the older custom layout approach.
+
+## Key points
+
+- Layout types are Word, Excel, RDLC and external, plus composite layouts that combine reusable themes and header/footer layouts.
+- Default layouts can be set per company, or a layout can be chosen temporarily from the report request page.
+- Document layouts can be assigned to individual customers and vendors, along with contact email addresses for distribution.
+- Themes and header/footer layouts resolve independently, with priority from layout-specific up to global defaults.
+- The Business Central add-in for Word adds fields, repeating data tables and conditional hiding without manual XML editing; the XML Mapping pane supports manual mapping.
+- Excel layouts support formulas, PivotTables, PivotCharts and multiple worksheets.
+- RDLC layouts are designed with SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
+- A fonts reference lists preinstalled online fonts, including barcode, MICR, security and OCR fonts.
 
 ## Subtopics
 

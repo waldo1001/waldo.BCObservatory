@@ -2,10 +2,10 @@
   "hub_id": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
   "input_hash": "9019bae00c0b9df2455cf3f6ce528d4622f70f098abb27139fddbe544bc51de1",
   "summary": "Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.",
-  "overview": "Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem, mileage tracking and calculation, and approval workflows.\n\nThe four pages in this section build on each other. The two overview pages give the general picture of capabilities. \"How the Expense Agent Processes Emails\" explains the mailbox-driven flow: monitoring a configured mailbox, detecting receipts and credit card statements, creating expenses, grouping them by reporting period, and sending confirmations and reminders. \"Understand Policy Compliance in Expense Agent\" explains how expenses are checked.\n\nStart with the overview page for scope, then read the email page if receipts arrive by mail, and the policy compliance page if you need to understand flags on expenses or configure policy evaluation.",
+  "overview": "Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem calculation, mileage tracking and calculation, and approval workflows with policy compliance checks.\n\nThe section has four pages. Two overview pages give the general picture of capabilities and overlap a lot. \"How the Expense Agent Processes Emails\" explains the mailbox-driven flow: it monitors a configured mailbox, detects receipts and credit card statements, creates expenses, groups them by reporting period, and sends confirmations and reminders. \"Understand Policy Compliance in Expense Agent\" explains how expenses are checked against deterministic rules and AI-evaluated policies.\n\nStart with an overview page for scope. Read the email page if receipts arrive by mail. Read the policy compliance page if you need to understand flags on expenses or configure policy evaluation.",
   "key_points": [
     "Receipts can come in through the web app, mobile app or email, and the agent extracts data, categorizes, subcategorizes and itemizes them.",
-    "Supported expense types include per diem calculation and mileage tracking and calculation.",
+    "Capabilities include per diem calculation and mileage tracking and calculation.",
     "The agent creates expense reports and prepares them for approval and posting in Business Central.",
     "Email processing monitors a configured mailbox and detects receipts and credit card statements.",
     "Created expenses are grouped into reports by reporting period, and the agent sends confirmation emails and open report reminders to expense users.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.039455000000000004
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:05.364Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the four pages 'build on each other'. The sources don't support this: the two overview pages overlap rather than form a sequence. Reworded.",
+      "Minor: key point 2 calls per diem and mileage 'expense types'. The sources list them as capabilities. Acceptable, but reworded slightly for accuracy.",
+      "All other claims are supported: preview status from the TOC path, intake channels, extraction, categorization, itemization, report creation, approval and posting, email flow, credit card statement detection, grouping by reporting period, confirmations and reminders, deterministic rules versus AI policies, compliance indicators, policy evaluation configuration and privacy protection."
+    ],
+    "input_hash": "9019bae00c0b9df2455cf3f6ce528d4622f70f098abb27139fddbe544bc51de1",
+    "cost_usd": 0.0436272
   }
 }

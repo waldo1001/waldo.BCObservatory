@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Belgium > VAT: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Belgian VAT and Intrastat functionality in Business Central: VAT declarations, annual listings, EC sales lists, manual VAT corrections, non-deductible VAT, and Intrastat setup, printing and export to OneGate. It answers how-to questions for Belgian tax and trade reporting."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:58.943Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3a1a928a59a8dd75ec8bdbcb5bbf65cd69941fc4be033b29862d7509e4ad17e7
+  prompts:
+    hub-topic: 1
+  input_hash: 1b736ac77535edc84b514ed921041c73a8cdc2763ec3e2d4c652e3ae61d51629
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting
@@ -130,14 +131,33 @@ bc_forms:
   - 11307
   - 11308
 member_hash: 3a1a928a59a8dd75ec8bdbcb5bbf65cd69941fc4be033b29862d7509e4ad17e7
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Belgium > VAT: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Belgian VAT and Intrastat functionality in Business Central: VAT declarations, annual listings, EC sales lists, manual VAT corrections, non-deductible VAT, and Intrastat setup, printing and export to OneGate. It answers how-to questions for Belgian tax and trade reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Belgium-specific VAT and Intrastat features. The VAT side includes monthly/quarterly declarations, VAT annual listings, EC sales lists (VAT-VIES), non-deductible VAT, multiple VAT registration numbers and manual corrections to posted VAT entries.
+
+The Intrastat side covers reporting of EU goods movements. Pages describe setting up declaration types (simplified or extended), establishment numbers and tariff numbers, then printing the Intrastat Form and exporting the file for the OneGate portal.
+
+Start with the Belgian VAT and Belgian Intrastat Reporting overview pages. Then use the how-to pages for specific tasks: setup first (non-deductible VAT, establishment numbers, tariff numbers, declaration types), then printing or exporting.
+
+## Key points
+
+- Belgian VAT supports monthly/quarterly declarations, VAT annual listings and EC sales lists, plus multiple VAT registration numbers and Alternative Customer VAT Registration.
+- Periodic VAT reports can be printed as Form/Intervat declaration, VAT Annual Listing and VAT-VIES declaration, with a test declaration option, a representative and XML file generation.
+- Manual VAT corrections adjust posted VAT entries without changing general ledger entries, for example when a vendor miscalculates VAT; VAT Statement Preview helps check results.
+- Non-deductible VAT is set up as a percentage on general ledger expense accounts to allow partial VAT deduction.
+- Intrastat declarations can be simplified or extended, depending on the amount of goods shipped or received; Incoterm is part of the declaration setup.
+- Belgian tariff numbers are eight-digit item codes with conversion factor, unit of measure, supplementary units and Weight Mandatory settings.
+- The Intrastat establishment number is configured as a company identification number.
+- Intrastat files are exported with the Create File action for the OneGate portal, and nihil declarations are supported; the Intrastat Form report can also be printed.
 
 ## Learn pages
 

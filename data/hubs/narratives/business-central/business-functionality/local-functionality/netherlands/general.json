@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/general",
+  "input_hash": "7a6377bdae72847d076b767d6202fb5145be3d2d9e53172e7e17aed48bb5da7a",
+  "summary": "General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version.",
+  "overview": "This section covers two Dutch-specific areas. The first is CMR notes, which let you print transport documents according to the UN CMR Convention for sales shipments, purchase returns, and transfer shipments. The second is Dutch post codes, used for marketing and relationship management activities.\n\nThe post code pages fit together as one overview and two how-to pages. Start with the Dutch Post Codes page to understand the subscription and the data. Then use the import page for the initial post code file and the update page for monthly updates. Both imports store data in the Post Code Range table and keep a log.",
+  "key_points": [
+    "CMR notes can be printed for sales shipments, purchase return shipments, and transfer shipments in the Dutch version.",
+    "CMR notes follow the UN CMR Convention.",
+    "Dutch post codes can be obtained by subscription, with data and updates imported into Business Central.",
+    "Post code files are imported for marketing and relationship management activities.",
+    "Imported post code data is stored in the Post Code Range table.",
+    "Monthly post code updates are imported with automatic date validation and gap checking.",
+    "Both post code imports record update logging.",
+    "All pages in this section apply to the Dutch (NL) version."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:26.984Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008957
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:26.116Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls the import page's file the 'initial' post code file. The page summaries don't say this, but it's a reasonable reading next to the monthly update page.",
+      "The key point that all pages apply to the Dutch (NL) version is slightly broader than the sources. The Dutch Post Codes page summary says 'in the Netherlands', not 'Dutch version'. This is acceptable."
+    ],
+    "input_hash": "7a6377bdae72847d076b767d6202fb5145be3d2d9e53172e7e17aed48bb5da7a",
+    "cost_usd": 0.0223352
+  }
+}

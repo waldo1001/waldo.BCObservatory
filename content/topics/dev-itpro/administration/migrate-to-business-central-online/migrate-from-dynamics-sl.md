@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl
 type: topic
 title: Migrate from Dynamics SL
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Dynamics SL: 13 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Migration of Dynamics SL on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about the end-to-end process, setup steps, running and monitoring replication, and post-migration tasks such as users and permissions."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:06.493Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 76aa641df0c1015c64d0456ba18cc45f5f28aa0fc64370df21f23b206cb25b46
+  prompts:
+    hub-topic: 1
+  input_hash: 3d6ec81646d1bd0ea7f4e94e7a61922c10aa6a7e37d833ddabb626c9da6b29c8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl
@@ -145,14 +146,32 @@ bc_forms:
   - 2502
   - 4003
 member_hash: 76aa641df0c1015c64d0456ba18cc45f5f28aa0fc64370df21f23b206cb25b46
-narrative: none
+narrative: generated
 ---
 
 # Migrate from Dynamics SL
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Dynamics SL: 13 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Migration of Dynamics SL on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about the end-to-end process, setup steps, running and monitoring replication, and post-migration tasks such as users and permissions.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics SL · tier official · system administration · no narrative yet
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics SL · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers moving from Dynamics SL on-premises to Business Central online using cloud migration. The pages follow the order of the project: an overview of the process and data mapping, preparation and planning, cloud migration setup, data replication, data upgrade, and completion.
+
+Start with the Overview subtopic to see which SL data is migrated, how it is mapped, and how SL work processes compare to Business Central. Then use Prepare to check prerequisites and plan data selection, approach and schedule. Set up cloud migration covers the connection and pipeline architecture and the Cloud Migration Setup guide. Replicate data explains how data moves and how to monitor it.
+
+The section's own pages cover the last two steps. One runs the data upgrade, which transforms Dynamics SL tables into Business Central tables. The other covers completing the migration: disabling cloud migration, setting up users and permissions, and a post-migration checklist.
+
+## Key points
+
+- Overview explains the end-to-end process, which SL data is migrated, how it is mapped, and how to track a cloud migration.
+- Prepare lists prerequisites for the destination, source system and database, and planning topics: assessment tools, data selection, migration approaches and scheduling.
+- Set up cloud migration covers connection and pipeline architecture, the Cloud Migration Setup guide, and global and per-company settings.
+- Replication uses large and small table flows, Azure BLOB storage, Azure Data Factory and change tracking, and is run and monitored on the Cloud Migration Management page.
+- Data upgrade transforms Dynamics SL tables into Business Central tables during cloud migration.
+- Completing the migration includes disabling cloud migration and setting up user accounts and permissions in Business Central online.
+- The completion page also mentions Microsoft 365 integration, the self-hosted Integration Runtime and a post-migration checklist.
 
 ## Subtopics
 

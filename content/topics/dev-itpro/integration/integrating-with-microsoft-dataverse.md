@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-dataverse
 type: topic
 title: Integrating with Microsoft Dataverse
-summary: "Learn section Integration > Integrating with Microsoft Dataverse: 22 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integration between Business Central and Microsoft Dataverse: data synchronization (bidirectional sync, integration tables, field and option mappings, coupling, AL proxy tables, Dataverse API) and data virtualization with virtual tables in Dataverse. It answers how-to questions about setting up, extending and managing these integrations."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:00.683Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: bea7f77d13aa5948dc64af86ef89007295f05f4e26cbf4a3cfa914d19ac2cf36
+  prompts:
+    hub-topic: 1
+  input_hash: c75100881cda9829c5c40f20c7df8904126e1d3a85ec794dd5b4d431e51cae01
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator
@@ -206,14 +207,33 @@ coverage:
 bc_forms:
   - 7214
 member_hash: bea7f77d13aa5948dc64af86ef89007295f05f4e26cbf4a3cfa914d19ac2cf36
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Microsoft Dataverse
 
-> Learn section Integration > Integrating with Microsoft Dataverse: 22 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Integration between Business Central and Microsoft Dataverse: data synchronization (bidirectional sync, integration tables, field and option mappings, coupling, AL proxy tables, Dataverse API) and data virtualization with virtual tables in Dataverse. It answers how-to questions about setting up, extending and managing these integrations.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Dataverse · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Integrating with Microsoft Dataverse · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+Integrating Business Central with Microsoft Dataverse connects Business Central to Dynamics 365 applications and custom apps built on Dataverse. The introductory page lists the available mechanisms: data synchronization, virtual tables, data change events, webhooks and business events.
+
+The section has two subtopics. Data synchronization covers setting up bidirectional sync, customizing integration tables, field and option mappings, coupling records and generating AL proxy tables. It also includes a Dataverse API subtopic. Data virtualization covers Business Central virtual tables in Dataverse: how they expose Business Central data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.
+
+Start with the overview page to choose between synchronizing data and virtualizing it. Then go to the matching subtopic for setup and customization.
+
+## Key points
+
+- Integration options named in the overview: data synchronization, virtual tables, data change events, webhooks and business events.
+- Data synchronization supports bidirectional sync between Business Central and Dataverse.
+- Sync can be tailored through integration table customization, field and option mappings, and coupling of records.
+- AL proxy tables can be generated for Dataverse tables.
+- The data synchronization subtopic has 15 pages and includes an 11-page Dataverse API subtopic.
+- Data virtualization exposes Business Central data to Power Platform through virtual tables in Dataverse.
+- Virtual tables can be modeled, related to other tables and managed as solutions (ALM).
+- The data virtualization subtopic has 6 pages, including FAQs.
 
 ## Subtopics
 

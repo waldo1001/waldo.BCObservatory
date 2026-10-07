@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
 type: topic
 title: Using Azure Key Vault for app secrets
-summary: "Learn section Development > Programming in the AL language > Handling security > Using Azure Key Vault for app secrets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Azure Key Vault use for app secrets in Business Central extensions: how to set up app key vaults for online and on-premises deployments, retrieve secrets in AL code, and monitor secret access with telemetry. It answers setup, permission, coding, and diagnostics questions."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:02.513Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
+  prompts:
+    hub-topic: 1
+  input_hash: b6601a9f0e5008512b01c7a98602e79a22569ddc46f6edbe29225cc72715b2d5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
@@ -83,14 +84,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
-narrative: none
+narrative: generated
 ---
 
 # Using Azure Key Vault for app secrets
 
-> Learn section Development > Programming in the AL language > Handling security > Using Azure Key Vault for app secrets: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Azure Key Vault use for app secrets in Business Central extensions: how to set up app key vaults for online and on-premises deployments, retrieve secrets in AL code, and monitor secret access with telemetry. It answers setup, permission, coding, and diagnostics questions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section explains how extensions that call external web services can keep secrets in Azure Key Vault instead of in code. It starts with a conceptual page on app key vaults, which covers multi-key vault support, access control, publisher validation, and telemetry monitoring.
+
+Setup depends on the deployment. For Business Central online, marketplace apps get access by provisioning the ISV key vault reader application and granting it secret permissions. For on-premises, you register the service in Microsoft Entra ID, use certificate authentication, and grant secret permissions. Container-based deployment is also covered.
+
+The developer page shows how to configure key vault URLs in the app.json manifest and retrieve secrets with the App Key Vault Secret Provider codeunit. The telemetry page covers how to diagnose failures in initialization and secret retrieval. Start with the overview page, then follow the setup page for your deployment, then the coding page.
+
+## Key points
+
+- App key vaults store secrets for extensions that call external web services, and multiple key vaults are supported.
+- Online: provision the ISV key vault reader application (a Microsoft Entra service principal) and grant it secret permissions on the Azure key vault.
+- Online setup references AllowedBusinessCentralAppIds to control which apps can access the secrets.
+- On-premises: register in Microsoft Entra ID, use certificate authentication, and grant secret permissions; container-based deployment is covered.
+- In AL, put key vault URLs in app.json, then call TryInitializeFromCurrentApp and GetSecret on the App Key Vault Secret Provider codeunit.
+- Secrets are handled with the SecretText data type; the coding page lists runtime 6.0 and version 17.0.
+- The coding page covers multi-vault failover and security considerations, and publisher validation applies to access.
+- Telemetry traces App Key Vault initialization and secret retrieval, with success and failure tracking for diagnostics.
 
 ## Learn pages
 

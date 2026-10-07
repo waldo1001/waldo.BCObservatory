@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/service-management/deliver-service
 type: topic
 title: Deliver service
-summary: "Learn section Business functionality > Service management > Deliver service: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Deliver service in Business Central Service Management covers the tasks for carrying out service work: creating quotes and orders, allocating resources, working on service tasks, lending loaners, posting, and invoicing. It answers how-to questions about each step of the service delivery flow."
 tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:41.709Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7174b41f6b45e6e16ff62885777291101f9ce8d40b7cf30c64adbeb33065702c
+  prompts:
+    hub-topic: 1
+  input_hash: 3b5e4754ddf3d7de09324624dcc7d85553050e153a77c56ae6d2261e5656461f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/service-how-create-invoices
@@ -114,14 +115,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 7174b41f6b45e6e16ff62885777291101f9ce8d40b7cf30c64adbeb33065702c
-narrative: none
+narrative: generated
 ---
 
 # Deliver service
 
-> Learn section Business functionality > Service management > Deliver service: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Deliver service in Business Central Service Management covers the tasks for carrying out service work: creating quotes and orders, allocating resources, working on service tasks, lending loaners, posting, and invoicing. It answers how-to questions about each step of the service delivery flow.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Deliver service · tier official · system service · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Deliver service · tier official · system service · narrative reviewed by Opus
+
+## Overview
+
+Deliver service groups the pages that describe the day-to-day flow of handling a customer service request in Service Management. The flow starts with a service quote or service order, moves to resource allocation and the work itself, and ends with posting and invoicing. Loaner handling is a side task within service orders.
+
+Start with the overview page, which lists the tasks in order. Then use the how-to pages for the step you need: service quotes, service orders, allocating resources, working on service tasks, lending service items as substitutes, and posting service orders. The service posting page explains what posting creates, and the invoice and credit memo page covers billing from contracts, orders, or manual entries.
+
+## Key points
+
+- Service quotes are preliminary drafts with customer, service item lines, and estimated costs, and can be converted to service orders.
+- Service orders can be created from scratch, from quotes, or from contracts. They support standard service codes, item availability checks, item reservation, and line comments.
+- Resources such as technicians are allocated through the Dispatch Board or service orders. You can view availability and reallocate.
+- Work on service tasks includes registering service operations, spare parts, fault and resolution codes, replacing components, changing response time, and updating repair status.
+- Service loaners can be lent and received through service orders, with loaner comments registered.
+- Posting service orders covers shipment, invoice, and consumption, with batch posting, credit memo posting, and a test report. Partial posting is supported.
+- Posting creates posted documents and ledger entries in service and other modules. The page also mentions sustainability value chain tracking.
+- Service invoices and credit memos can be created for contracts, orders, or manual entries. You can combine posted shipment lines, delete invoices, and correct errors.
 
 ## Learn pages
 

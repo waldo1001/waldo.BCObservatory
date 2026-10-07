@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-inventory",
+  "input_hash": "4a9447bc81c51e01009f342c71b5fd8e96065ef6e92a92b65f9c2035c942656f",
+  "summary": "Inventory setup in Business Central: general inventory parameters, item cards and types, units of measure, categories, pictures, locations, stockkeeping units and responsibility centers. It answers how to configure and maintain the master data that inventory runs on.",
+  "overview": "This section covers the setup work that prepares Business Central to manage inventory. It starts with company-wide policies on the Inventory Setup page, such as automatic cost posting, cost adjustment, average cost calculation and the default costing method. It then moves to the master data: items, units of measure, categories, locations and stockkeeping units.\n\nFor items, one page explains the three item types (Inventory, Non-Inventory, Service) and another covers creating item cards, including costing methods, pricing, replenishment, variants and substitutions. Further pages show how to copy existing items, organize items in categories with attributes, and bulk import item pictures from a ZIP file.\n\nLocation-related pages cover locations with bins, zones and transfer routes, stockkeeping units for location- and variant-specific data, and responsibility centers for administrative units assigned to users. Start with \"Setting up inventory\" for the overview, then Inventory Setup, item types and item cards.",
+  "key_points": [
+    "The Inventory Setup page sets Automatic Cost Posting, Automatic Cost Adjustment, Expected Cost Posting to G/L, Average Cost Calculation, Default Costing Method and concurrent posting.",
+    "Items have one of three types: Inventory, Non-Inventory or Service, and the type determines which costing, tracking and other features apply.",
+    "Item cards cover costing methods, pricing and discounts, replenishment, variants, substitutions, vendor data and item templates.",
+    "The Copy Item function creates new items from existing ones, using number series for item numbers.",
+    "Item units of measure include a base unit, alternate units, translations, rounding precision and defaults for sales and purchasing.",
+    "Locations support bins (bin mandatory toggle, bin policies), zones, transfer routes, direct transfer and default dimensions.",
+    "Stockkeeping units hold location and variant specific data, including production BOM and routing overrides and manufacturing policy.",
+    "Responsibility centers act like cost or profit centers, can be assigned to users with a default, and filter sales, purchase and service documents."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:00.902Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016481
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:44.974Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the 'Setting up inventory' page also mentions report selections, which the narrative leaves out. Leaving it out is not an error.",
+      "Minor: 'filter sales, purchase and service documents' slightly reads into the source's feature labels for sales, purchase and service responsibility center filters, but it is a fair reading."
+    ],
+    "input_hash": "4a9447bc81c51e01009f342c71b5fd8e96065ef6e92a92b65f9c2035c942656f",
+    "cost_usd": 0.0371552
+  }
+}

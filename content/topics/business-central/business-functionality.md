@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality
 type: topic
 title: Business functionality
-summary: "Learn section Business functionality: 1717 Microsoft Learn pages in 22 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, fixed assets, projects, relationship management, HR, manufacturing, warehouse, service, sustainability, Shopify, expense management, local functionality, setup and design details. It helps an agent find the right area for how-to, setup and how-it-works questions."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:03.184Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 72cde1a2481be92def1336f515a80008babffd7c7175eee36705f181676dcb3b
+  prompts:
+    hub-topic: 1
+  input_hash: d35006880e42ee6d77c3424937b19c372cf1205d71eca1855784b46eafe22c3d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -2252,14 +2253,29 @@ bc_forms:
   - 990000785
   - 990003804
 member_hash: 72cde1a2481be92def1336f515a80008babffd7c7175eee36705f181676dcb3b
-narrative: none
+narrative: generated
 ---
 
 # Business functionality
 
-> Learn section Business functionality: 1717 Microsoft Learn pages in 22 subtopics. Index of what Learn documents here, linked to Learn.
+> Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, fixed assets, projects, relationship management, HR, manufacturing, warehouse, service, sustainability, Shopify, expense management, local functionality, setup and design details. It helps an agent find the right area for how-to, setup and how-it-works questions.
 
-Path: Business functionality · tier official · system none · no narrative yet
+Path: Business functionality · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section starts with one overview page listing the business processes Business Central supports, including finance and payments, sales and quotes, purchasing, inventory, projects, and fixed assets. The rest of the section is made of subtopics, each covering one functional area.
+
+## Key points
+
+- Core transaction areas: Finance (256 pages), Sales (133), Purchasing (62), Inventory (75), Fixed assets (40).
+- Operations areas: Manufacturing, Planning, Assembly management, Warehouse management, Quality management, Service management (Premium only), and Project management.
+- Relationship management covers contacts, segments, interactions, opportunities, campaigns and the Dynamics 365 Sales integration. Human resources covers employee records, contracts, qualifications and absences.
+- General business functionality covers shared features such as posting, batch posting, email, job queues, general journals, workflows and approvals, and electronic data exchange.
+- Local functionality is the largest subtopic (603 pages): localization strategy, Validated Localization app rules, regulatory alerts, and 22 country subtopics.
+- Set up Business Central covers company information, number series, base calendars, report selection and change auditing, and links to setup guides for each area.
+- Design details explain internals such as supply planning, inventory costing, item tracking and non-deductible VAT.
+- Specialized areas include Sustainability management, Online store with Shopify, Expense management (preview) with an AI-based Expense Agent, and Company hub.
 
 ## Subtopics
 

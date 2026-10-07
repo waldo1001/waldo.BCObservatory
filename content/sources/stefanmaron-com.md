@@ -2,7 +2,7 @@
 id: source/stefanmaron-com
 type: source
 title: Stefan Maron
-summary: "Stefan Maron (MVP): 22 posts in the knowledge base, 2026-02-20 to 2026-09-10, mostly about development, platform, integration."
+summary: "Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:01:30.439Z"
+  at: "2026-10-07T01:54:03.703Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eb6882415543c3742730b1dbafc5dab9f5471d5c0faee7ee19d0b502bf84a83e
+  input_hash: e62449a20b56fb7c91e6ad00de44b6a4c1ff4e8c8038c0a86b0ebe84f4498ab8
 evidence:
   - kind: blog
     url: https://stefanmaron.com
@@ -33,6 +33,12 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
+    - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
+    - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
+    - post/stefanmaron-com/https-stefanmaron-com-posts-blog-post-late-hotfix-handling--fa6297b08c
+    - post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244
+    - post/stefanmaron-com/https-stefanmaron-com-posts-al-development-claude-code-multi-agent-workflow--a7e0cfef9c
     - post/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
     - post/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e
@@ -62,42 +68,42 @@ url: https://stefanmaron.com
 author: Stefan Maron
 mvp: true
 full_text: false
-item_count: 22
+item_count: 28
 footprint:
   systems:
     - id: development
-      weight: 42
+      weight: 53
     - id: platform
-      weight: 23
+      weight: 29
     - id: integration
-      weight: 7
+      weight: 9
     - id: administration
-      weight: 5
+      weight: 6
     - id: copilot
       weight: 2
-    - id: reporting
+    - id: finance
       weight: 1
   topics:
     - id: testing
-      weight: 9
+      weight: 10
+    - id: al development
+      weight: 8
     - id: al runner
       weight: 8
-    - id: al development
-      weight: 5
     - id: claude code
+      weight: 5
+    - id: ci/cd
       weight: 4
     - id: docker
       weight: 4
-    - id: ci/cd
-      weight: 3
+    - id: performance
+      weight: 4
     - id: ci/cd pipeline
       weight: 3
-    - id: performance
+    - id: code analysis
       weight: 3
-    - id: al compiler
-      weight: 2
-    - id: authentication
-      weight: 2
+    - id: code quality
+      weight: 3
   objects:
     - id: other AL Runner
       weight: 5
@@ -124,13 +130,13 @@ footprint:
     - id: other AL Language Tests
       weight: 1
   features: []
-first_item: "2026-02-20"
+first_item: "2025-06-02"
 last_item: "2026-09-10"
 ---
 
 # Stefan Maron
 
-> Stefan Maron (MVP): 22 posts in the knowledge base, 2026-02-20 to 2026-09-10, mostly about development, platform, integration.
+> Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, integration.
 
 [https://stefanmaron.com](https://stefanmaron.com) · blog · tier community
 
@@ -138,16 +144,16 @@ last_item: "2026-09-10"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (42) | testing (9) | other AL Runner (5) |
-| platform (23) | al runner (8) | other BusinessCentral.AL.Language.Tests (3) |
-| integration (7) | al development (5) | other bc-code-atlas (2) |
-| administration (5) | claude code (4) | other MsDyn365Bc.On.Linux (2) |
-| copilot (2) | docker (4) | codeunit CertificateOfSupplyPartiallyShippedOrder (1) |
-| reporting (1) | ci/cd (3) | codeunit Codeunit.Run (1) |
-|  | ci/cd pipeline (3) | codeunit SalesLineReserve (1) |
-|  | performance (3) | codeunit test codeunits (1) |
-|  | al compiler (2) | codeunit Test codeunits (1) |
-|  | authentication (2) | enum fixture enums (1) |
+| development (53) | testing (10) | other AL Runner (5) |
+| platform (29) | al development (8) | other BusinessCentral.AL.Language.Tests (3) |
+| integration (9) | al runner (8) | other bc-code-atlas (2) |
+| administration (6) | claude code (5) | other MsDyn365Bc.On.Linux (2) |
+| copilot (2) | ci/cd (4) | codeunit CertificateOfSupplyPartiallyShippedOrder (1) |
+| finance (1) | docker (4) | codeunit Codeunit.Run (1) |
+|  | performance (4) | codeunit SalesLineReserve (1) |
+|  | ci/cd pipeline (3) | codeunit test codeunits (1) |
+|  | code analysis (3) | codeunit Test codeunits (1) |
+|  | code quality (3) | enum fixture enums (1) |
 |  |  | interface fixture interface (1) |
 |  |  | other AL Language Tests (1) |
 
@@ -155,7 +161,10 @@ last_item: "2026-09-10"
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ******* 7
+- 2025-Q2: ** 2
+- 2025-Q3: * 1
+- 2025-Q4: ** 2
+- 2026-Q1: ******** 8
 - 2026-Q2: ** 2
 - 2026-Q3: ************* 13
 

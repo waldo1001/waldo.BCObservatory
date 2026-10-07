@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/database
 type: topic
 title: Database
-summary: "Learn section Business Central on-premises > Deployment > Database: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Database deployment for Business Central on-premises: creating and altering application and tenant databases, SQL Server authentication, SQL Server installation considerations, moving to Azure SQL Database, controlling database size, and fixing SQL connection problems."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:11.221Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1103b69345373ded5b169ccb68a517cba3974be2f976bc0f6b1352b4185a5ebf
+  prompts:
+    hub-topic: 1
+  input_hash: 00af84b10dd4595d976160ff9e29c8cd195885a64d84acef7ebc93b257b2a744
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-sql-server-authentication
@@ -90,14 +91,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 1103b69345373ded5b169ccb68a517cba3974be2f976bc0f6b1352b4185a5ebf
-narrative: none
+narrative: generated
 ---
 
 # Database
 
-> Learn section Business Central on-premises > Deployment > Database: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Database deployment for Business Central on-premises: creating and altering application and tenant databases, SQL Server authentication, SQL Server installation considerations, moving to Azure SQL Database, controlling database size, and fixing SQL connection problems.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Database · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Database · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers the database side of an on-premises Business Central deployment. It explains how to create application and tenant databases for single-tenant and multitenant setups with PowerShell cmdlets, and how to configure SQL Server authentication, including encryption key setup, so server instances can connect.
+
+Further pages cover SQL Server installation choices (disk partitioning, virus scanning, TempDB, MAXDOP, full-text search, statistics), running the database on Azure SQL Database through a BACPAC export and import, and keeping database size under the limit with company deletion, retention policies and compression. A troubleshooting page covers connection failures.
+
+Start with creating the databases, then configure authentication. Read the SQL Server installation page when planning the server. Use the size and troubleshooting pages when operating an existing deployment.
+
+## Key points
+
+- Databases are created as application and tenant databases, using cmdlets such as New-NAVApplicationDatabase, Mount-NAVTenant and Sync-NAVTenant; after creation, publish extensions and add companies.
+- Database authentication uses SQL Server authentication with an encryption key, configured on the database and the server instance, for single-tenant and multitenant deployments.
+- SQL Server installation guidance covers disk partitioning, virus scanning, memory, TempDB, full-text search, MAXDOP, statistics management and high availability, for on-premises and Azure.
+- Azure SQL Database deployment involves preparing the database, exporting a BACPAC, importing it to Azure, configuring the firewall and setting server instance authentication.
+- Ways to reduce database size: delete unused companies, delete documents, apply retention policies, and enable data compression (CompressionType property).
+- For connection problems, enable Named Pipes and TCP/IP in SQL Server Configuration Manager, allow SQL Server through Windows Firewall, and start SQL Browser Service for named instances.
 
 ## Learn pages
 

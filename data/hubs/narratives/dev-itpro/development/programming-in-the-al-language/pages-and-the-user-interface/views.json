@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/views",
+  "input_hash": "c513b27cccf00fdcaf6007d27b61029786da3dad5751a241cc7abd730eee7066",
+  "summary": "Views on Business Central list pages in AL: how to define alternative filtered, sorted and laid-out views, migrate legacy Role Center views to modern list views, and export and package analysis views in extensions. It answers questions about defining, migrating and distributing views.",
+  "overview": "Views let a list page offer alternative ways of looking at its data, with their own filtering, sorting and layout changes. They can be defined on pages, page extensions and page customization objects. The Views page is the starting point for the concepts, including shared and custom layouts.\n\nModern list views replace the legacy views that were created on Role Center pages. The migration page explains how this gives a better user experience, personalization and consistency across navigation methods, and covers view composition, filters, sorting and column layout per view.\n\nAnalysis views are a separate topic. You can export an analysis view definition from the client in analysis mode and package it in an AL extension so it can be distributed with an app.",
+  "key_points": [
+    "Views on list pages define alternative data views through filtering, sorting and layout changes.",
+    "Views can be defined on pages, page extensions and page customization objects.",
+    "Layouts can be shared or custom per view.",
+    "Modern views replace legacy views created on Role Center pages.",
+    "Migration to modern list views references 2022 release wave 2 and 2024 release wave 1 (versions 21 and 24).",
+    "Each modern view can have its own filters, sorting and column layout.",
+    "Analysis views are exported from the client in analysis mode as a JSON definition.",
+    "Exported analysis views are packaged with the analysisviews construct and the DefinitionFile property, and can be locked."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:39.682Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009509
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:24.168Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'Layouts can be shared or custom per view' adds 'per view'. The Views page lists only shared and custom layout as features. This is a small inference and not misleading.",
+      "Minor: the key point that lists release waves and versions is accurate but gives agents little help. It does not say what changed in those versions, because the source summaries do not say either."
+    ],
+    "input_hash": "c513b27cccf00fdcaf6007d27b61029786da3dad5751a241cc7abd730eee7066",
+    "cost_usd": 0.0275912
+  }
+}

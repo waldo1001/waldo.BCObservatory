@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-infrastructure-services
 type: topic
 title: Integrating with infrastructure services
-summary: "Learn section Integration > Integrating with infrastructure services: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Integration of Business Central with infrastructure services: Microsoft Entra ID, security groups, user and license setup, multifactor authentication, Azure service tags, Application Insights telemetry, and Universal Print. It answers questions on access control, network restrictions, monitoring, and printing setup."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:41.815Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 13ef2685022706c7b7a6ea8b64191faeb4bfc4c5959f22d9a0eb31205e98db27
+  prompts:
+    hub-topic: 1
+  input_hash: f76815929a06c4b8315450a7e24a6e3ecb4bb4285c2bea150361a05f6ad311c2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-security-groups
@@ -127,14 +128,32 @@ bc_forms:
   - 9875
   - 9877
 member_hash: 13ef2685022706c7b7a6ea8b64191faeb4bfc4c5959f22d9a0eb31205e98db27
-narrative: none
+narrative: generated
 ---
 
 # Integrating with infrastructure services
 
-> Learn section Integration > Integrating with infrastructure services: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Integration of Business Central with infrastructure services: Microsoft Entra ID, security groups, user and license setup, multifactor authentication, Azure service tags, Application Insights telemetry, and Universal Print. It answers questions on access control, network restrictions, monitoring, and printing setup.
 
-Path: [Integration](../integration.md) > Integrating with infrastructure services · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Integrating with infrastructure services · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+This area covers how Business Central connects to Azure and identity infrastructure. It spans identity and access (users by license, security groups, multifactor authentication), network control (Azure security service tags), monitoring (telemetry), and printing (Universal Print).
+
+The section has no subtopics. The page "Integrating with infrastructure services" is the entry point and introduces Entra ID, service tags, Application Insights, and Universal Print. From there, pick the page for your task: creating users according to licenses and controlling access with security groups for permissions; the MFA page for added sign-in security; the service tags page for firewall rules; the telemetry page for monitoring; and the Universal Print page for printer setup.
+
+Several pages cover both online and on-premises deployments, and some mention delegated admin access. Check the deployment type on each page before you apply a setup.
+
+## Key points
+
+- Security groups apply permissions to all members, support Microsoft Entra ID and Windows Active Directory, and allow company-specific and multi-company access.
+- Users are created according to licenses, with permission sets, license assignment, security groups, user groups, and delegated admin covered for online and on-premises.
+- MFA through Microsoft Entra ID supports phone call, text message, mobile app notification, and one-time password, with conditional access policy support.
+- The Dynamics365BusinessCentral Azure service tag restricts network access to and from Business Central in firewall and network security group rules.
+- Telemetry can be enabled at environment and app level, viewed in Power BI, analyzed with KQL, and used for alerts and custom telemetry.
+- Universal Print setup uses the Universal Print integration extension, printer management page, universal print connector, print shares, and printer authorization.
+- Universal Print setup involves configuration in Azure and applies to online and on-premises deployments.
 
 ## Learn pages
 

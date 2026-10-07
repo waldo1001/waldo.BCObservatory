@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/related-articles",
+  "input_hash": "826f0c8e314c3a468d8744bced8c2f9ba84facd9b2a835002255b1e5aece2cf5",
+  "summary": "Related upgrade articles for Business Central on-premises: converting version 14 C/AL code to AL with the Txt2Al tool, and migrating tables and fields between extensions with migration.json. It answers questions about code conversion steps, table ownership moves, ordering and constraints, and the India Data Migration Toolkit.",
+  "overview": "This section collects supporting articles for upgrading Business Central on-premises. They cover two tasks: turning customized C/AL code into AL, and moving tables and fields from one extension to another.\n\nThe code conversion page explains how to convert customized version 14 C/AL solutions to AL with the Txt2Al conversion tool, as part of upgrading to later versions. It covers object export, AL project setup, .NET interoperability, assembly declarations and test library conversion. It also references versions 18, 19 and 20.\n\nThe subtopic on migrating tables and fields describes using migration.json to move table ownership between extensions, in both directions along the dependency graph, including ordering and constraints. It also covers the India Data Migration Toolkit for upgrading from Dynamics NAV 2016 India. Start with the code conversion page if you still have C/AL code, and use the migration subtopic when restructuring extensions.",
+  "key_points": [
+    "Code conversion targets customized on-premises version 14 C/AL solutions, converting them to AL as part of upgrading to later versions.",
+    "The Txt2Al conversion tool performs the C/AL to AL conversion.",
+    "The conversion page covers object export, AL project setup, .NET interoperability, assembly declarations and test library conversion.",
+    "Versions 18, 19 and 20 are referenced in the code conversion guidance.",
+    "migration.json is used to migrate tables and fields between extensions.",
+    "Table migration works in both directions along the extension dependency graph, with rules on ordering and constraints.",
+    "The India Data Migration Toolkit supports upgrading from Dynamics NAV 2016 India."
+  ],
+  "members_used": 1,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:56.136Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010169
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:50.629Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says versions 18, 19 and 20 are conversion 'targets'. The page summary only lists these versions and does not say what role they play, so I changed the wording to 'references versions 18, 19 and 20'.",
+      "'Two tasks that often come up around an upgrade' is the writer's own framing and is not in the summaries. It is harmless, but I made it neutral."
+    ],
+    "input_hash": "826f0c8e314c3a468d8744bced8c2f9ba84facd9b2a835002255b1e5aece2cf5",
+    "cost_usd": 0.0274672
+  }
+}

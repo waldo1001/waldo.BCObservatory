@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc",
+  "input_hash": "2ffb0fc1b25e8cb427b36de7e7546189b422036b3d634436a68ac78bfa582758",
+  "summary": "Report and document layouts in Business Central: layout types (Word, Excel, RDLC, external, composite), choosing and assigning layouts, themes and header/footer setup, designing Word layouts, Excel and RDLC layouts, and available fonts. It answers how to change the look of sales, purchase and other external documents.",
+  "overview": "This section explains how to control the content and appearance of reports and externally facing documents such as sales and purchase documents. It begins with an overview of layout types: Word, Excel, RDLC and external layouts, plus composite layouts that combine reusable themes with header/footer layouts.\n\nFor day-to-day use, start with the pages on setting the layout a report uses and on assigning document layouts to customers or vendors. Then use the page on getting started with report layouts to copy, export, import and validate layouts. The theme and header/footer page covers consistent branding across Word-based reports.\n\nFor design work, separate pages cover Word layouts (the Business Central add-in and the XML Mapping pane), Excel layouts with PivotTables and PivotCharts, and RDLC layouts built with Report Builder or Visual Studio. A fonts reference lists the preinstalled fonts in the online service. The subtopic on obsolete features documents the older custom layout approach.",
+  "key_points": [
+    "Layout types are Word, Excel, RDLC and external, plus composite layouts that combine reusable themes and header/footer layouts.",
+    "Default layouts can be set per company, or a layout can be chosen temporarily from the report request page.",
+    "Document layouts can be assigned to individual customers and vendors, along with contact email addresses for distribution.",
+    "Themes and header/footer layouts resolve independently, with priority from layout-specific up to global defaults.",
+    "The Business Central add-in for Word adds fields, repeating data tables and conditional hiding without manual XML editing; the XML Mapping pane supports manual mapping.",
+    "Excel layouts support formulas, PivotTables, PivotCharts and multiple worksheets.",
+    "RDLC layouts are designed with SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.",
+    "A fonts reference lists preinstalled online fonts, including barcode, MICR, security and OCR fonts."
+  ],
+  "members_used": 10,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:39.535Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016589
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:47.888Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point 'priority from layout-specific up to global defaults' leaves it unclear which level wins. The source only says 'priority levels from layout-specific to global defaults', so the narrative should not say more, but the wording could be read either way.",
+      "Minor: the overview could mention that layouts can also be managed from the Report Layouts and Report Layout Selection pages, which the source page names."
+    ],
+    "input_hash": "2ffb0fc1b25e8cb427b36de7e7546189b422036b3d634436a68ac78bfa582758",
+    "cost_usd": 0.04633520000000001
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/denmark/auditing
 type: topic
 title: Auditing
-summary: "Learn section Business functionality > Local functionality > Denmark > Auditing: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Auditing for Denmark in Business Central covers exporting accounting data as CSV files to Regnskab Basis, exporting and importing SAF-T audit files for the Danish tax authorities, and mapping GL accounts to the Danish tax authority standard chart of accounts. Use it for questions about meeting Danish bookkeeping law and tax authority requirements.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:34.066Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e3b2f6415de9f540ec4f186d3b8cb524c136770e8537953b58824e68f4e1b4f5
+  prompts:
+    hub-topic: 1
+  input_hash: 318074a5e5c8870249a2c472beb1dd911a9d0827f6f53be51ae39f06e5c2eba6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export
@@ -71,14 +72,28 @@ bc_forms:
   - 5267
   - 5270
 member_hash: e3b2f6415de9f540ec4f186d3b8cb524c136770e8537953b58824e68f4e1b4f5
-narrative: none
+narrative: generated
 ---
 
 # Auditing
 
-> Learn section Business functionality > Local functionality > Denmark > Auditing: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Auditing for Denmark in Business Central covers exporting accounting data as CSV files to Regnskab Basis, exporting and importing SAF-T audit files for the Danish tax authorities, and mapping GL accounts to the Danish tax authority standard chart of accounts. Use it for questions about meeting Danish bookkeeping law and tax authority requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section describes the Danish audit and reporting tools in Business Central. Two export routes are covered: CSV files for Regnskab Basis, and the SAF-T audit file format for the Danish tax authorities. SAF-T files can also be imported for record-keeping.\n\nUnder Danish bookkeeping law, GL accounts must be mapped to the Danish tax authority standard chart of accounts, which supports annual reporting and VAT calculations. The Regnskab Basis export uses this mapping, and the standard chart of accounts page also lists SAF-T export among its features. A sensible order is to complete the GL account mapping on the standard chart of accounts page first, then run the Regnskab Basis or SAF-T export you need.
+
+## Key points
+
+- Accounting data can be exported as CSV files to Regnskab Basis using the RB Accounting File page.
+- The Regnskab Basis export uses a mapping header selection and the standard chart of accounts mapping.
+- The Regnskab Basis export covers Income Statement Amount and Balance Sheet Amount.
+- SAF-T export produces an audit file for the Danish tax authorities.
+- SAF-T files can also be imported for record-keeping.
+- GL accounts must be mapped to the Danish tax authority standard chart of accounts.
+- The account mapping supports annual reporting and VAT calculations under Danish bookkeeping law.
 
 ## Learn pages
 

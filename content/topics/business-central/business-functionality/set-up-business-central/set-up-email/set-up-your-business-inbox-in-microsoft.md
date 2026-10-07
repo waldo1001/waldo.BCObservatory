@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-email/set-up-your-business-inbox-in-microsoft
 type: topic
 title: Set up your business inbox in Microsoft Outlook
-summary: "Learn section Business functionality > Set up Business Central > Set up email > Set up your business inbox in Microsoft Outlook: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Business inbox in Outlook covers the Business Central add-in for Outlook: how to get it, how to optimize Outlook for it, how to use it, and how to work with Business Central email without Outlook. It answers deployment, requirement and usage questions."
 tier: official
 language: en
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:55.177Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 43a136b00b9470e9c75c843fec74cf5b901f10dd6fb9f464a3887a986cb64b6a
+  prompts:
+    hub-topic: 1
+  input_hash: d1080e1c1d2663d5dbce8613209b4ae0bdd052cf3cf98983cbf782572f884a3e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
@@ -77,14 +78,32 @@ bc_forms:
   - 1831
   - 1832
 member_hash: 43a136b00b9470e9c75c843fec74cf5b901f10dd6fb9f464a3887a986cb64b6a
-narrative: none
+narrative: generated
 ---
 
 # Set up your business inbox in Microsoft Outlook
 
-> Learn section Business functionality > Set up Business Central > Set up email > Set up your business inbox in Microsoft Outlook: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Business inbox in Outlook covers the Business Central add-in for Outlook: how to get it, how to optimize Outlook for it, how to use it, and how to work with Business Central email without Outlook. It answers deployment, requirement and usage questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up email](../set-up-email.md) > Set up your business inbox in Microsoft Outlook · tier official · system crm · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up email](../set-up-email.md) > Set up your business inbox in Microsoft Outlook · tier official · system crm · narrative reviewed by Opus
+
+## Overview
+
+This section is about using Business Central from inside Microsoft Outlook. The Business Central add-in for Outlook provides contact insights and document view capabilities in emails and calendar appointments. It also lets users create business documents such as sales quotes and handle purchase invoices, with file attachment support and incoming document tracking.
+
+The pages follow a practical order. "Get the Business Central Add-in for Outlook" explains the two ways to deploy it: centralized deployment by Microsoft 365 admins, or individual installation by users. "Optimize Outlook for your Business Inbox" lists recommendations for a good experience, such as updating Outlook and installing Microsoft Edge WebView2. "Using Business Central with Outlook" describes what users can do once it is running. "Using Business Central without Outlook" covers the alternative: setting up email sending through an assisted setup guide or with mail server information.
+
+Admins planning a rollout should start with the deployment page, then the optimization page. Users installing the add-in themselves also need the deployment page before the usage page. Anyone not using Outlook should read the last page.
+
+## Key points
+
+- Core capabilities: contact insights and document view, available in Outlook emails and calendar appointments.
+- Deployment options: centralized deployment by Microsoft 365 admins, or manual installation by individual users.
+- Optimization: update Outlook to version 2012 or newer and install Microsoft Edge WebView2.
+- Users can create business documents such as sales quotes and handle purchase invoices from Outlook.
+- Email attachments and incoming document tracking are supported.
+- The usage page refers to 2022 release wave 1, so check it for behavior tied to that version.
+- Without Outlook, email sending can be set up with an assisted setup guide or technical mail server information.
 
 ## Learn pages
 

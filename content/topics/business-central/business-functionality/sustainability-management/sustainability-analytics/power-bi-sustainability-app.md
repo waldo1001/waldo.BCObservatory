@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
 type: topic
 title: Power BI sustainability app
-summary: "Learn section Business functionality > Sustainability management > Sustainability analytics > Power BI sustainability app: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI sustainability app section covers the Sustainability Power BI app, its individual reports, the semantic model, and the KPIs and measures behind them. It answers questions about which report shows emissions, water, waste, social (ESG), target and baseline data, and how the data is modeled.
 tier: official
 language: en
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:09.813Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 328a0872e1151b761f14c944c6afa9104a0d8d3d4fdb84147cc270018aae426c
+  prompts:
+    hub-topic: 1
+  input_hash: d85d6d94222da25f0bd6f4fca913371da9c33d2dca9e7324bdee908ed6f2055f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis
@@ -149,14 +150,33 @@ coverage:
 bc_forms:
   - 36951
 member_hash: 328a0872e1151b761f14c944c6afa9104a0d8d3d4fdb84147cc270018aae426c
-narrative: none
+narrative: generated
 ---
 
 # Power BI sustainability app
 
-> Learn section Business functionality > Sustainability management > Sustainability analytics > Power BI sustainability app: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI sustainability app section covers the Sustainability Power BI app, its individual reports, the semantic model, and the KPIs and measures behind them. It answers questions about which report shows emissions, water, waste, social (ESG), target and baseline data, and how the data is modeled.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sustainability management](../../sustainability-management.md) > [Sustainability analytics](../sustainability-analytics.md) > Power BI sustainability app · tier official · system sustainability · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sustainability management](../../sustainability-management.md) > [Sustainability analytics](../sustainability-analytics.md) > Power BI sustainability app · tier official · system sustainability · narrative reviewed by Opus
+
+## Overview
+
+The Sustainability Power BI app bundles several reports for tracking emissions, water, waste, and ESG metrics. Different reports suit different roles, from sustainability teams and managers to HR managers and executives.
+
+Start with the Sustainability Power BI app page for the list of reports. Then open the report pages: Sustainability Overview, Journey to Net Zero Carbon, Realized Emissions vs Target, Realized Emissions vs Baseline, Emissions by Category and Scope, Water and Waste Analysis, Social Analysis, and the CO2e reports (Analysis, Decomposition Tree, Key Influences).
+
+For the data side, the semantic model page describes the fact and dimension tables in a star schema. The KPIs and measures page lists the measures with formulas and data sources.
+
+## Key points
+
+- Sustainability Overview gives high-level emissions, water, and waste metrics by category, scope, and month, including CO2, CH4, N2O, water, and waste Realized %.
+- Realized Emissions vs Target compares actual emissions to scorecard targets; Realized Emissions vs Baseline compares them to predefined baselines.
+- Journey to Net Zero Carbon tracks emissions metrics and renewable energy use by global dimensions, with year-over-year comparison.
+- Emissions by Category and Scope breaks values down by account category, subcategory, and scope to inform supplier and procurement decisions.
+- CO2e Analysis tracks monthly CO2e by category and purchased carbon credits; Decomposition Tree and Key Influences help find the main emission contributors and drivers.
+- Water and Waste Analysis covers usage by facility and location, with year-over-year and day-over-day comparisons and intensity vs baseline measures.
+- Social Analysis shows employee ESG metrics such as gender distribution, absence hours, qualifications, and union membership.
+- The semantic model uses sustainability ledger entries, employee data, and sustainability goals as fact tables, with dimensions for accounts, employees, emission fees, and responsibility centers.
 
 ## Learn pages
 

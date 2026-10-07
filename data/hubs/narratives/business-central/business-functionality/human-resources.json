@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/human-resources",
+  "input_hash": "6c8286be7a7e88e8832e781b5f6dd3c56894d42f849a30b8d0d042805c4ba186",
+  "summary": "Human resources in Business Central covers managing employee records, contracts, qualifications, contacts and absences. It answers questions about registering employees, changing their information, and recording and analyzing absences by day or hour.",
+  "overview": "The Human resources area describes how to keep employee data in Business Central. It has three pages and no subtopics: an overview of the HR module, a page on registering employees and changing their information, and a page on employee absence.\n\nStart with \"Manage human resources\" for the overall picture: employee records, employment contracts, qualifications, contacts and absence management. Then go to \"Register Employees and Modify Information\" for creating employee cards, using templates, adding pictures and alternate addresses, and handling reimbursement details. Use \"Manage Employee Absence\" when you need to register absences and review them by category and period in matrix views for HR reporting.",
+  "key_points": [
+    "Employee records hold detailed information and are created and maintained through employee cards.",
+    "Employee templates can be used when registering new employees.",
+    "Employee records can include pictures, alternate addresses and reimbursement details.",
+    "The HR module also tracks employment contracts, qualifications and contacts.",
+    "Absences can be registered by day or by hour.",
+    "Absence data can be analyzed by category and by period.",
+    "Matrix views support absence analysis for HR reporting."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:12.862Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007993
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:19.132Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the sources list matrix views as a feature and HR reporting as a purpose of absence analysis, but do not explicitly say matrix views exist for HR reporting. The overview and key point combine the two, which is a reasonable reading.",
+      "Minor: 'changing their information' and 'modify' come from the page title rather than a described feature. This is acceptable."
+    ],
+    "input_hash": "6c8286be7a7e88e8832e781b5f6dd3c56894d42f849a30b8d0d042805c4ba186",
+    "cost_usd": 0.0232032
+  }
+}

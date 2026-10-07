@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2020-release-wave-1
 type: topic
 title: Business Central 2020 release wave 1
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2020 release wave 1: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Upgrade guidance for Business Central on-premises 2020 release wave 1 (version 16). It answers questions about upgrade paths from versions 13, 14 and 15, C/AL to AL conversion, moving tables between extensions with migration.json, installing version 16 updates, and the upgrade compatibility matrix.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:20.856Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: cd7150f7f60dc82095582fc0ef4b0b77efa11a2b16e1e3c6abea9e494de0f845
+  prompts:
+    hub-topic: 1
+  input_hash: 8b9b79f2126b48acf32b1fddde83b18d7e2c9dbc82adab6a6d60f6db49281556
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -147,14 +148,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: cd7150f7f60dc82095582fc0ef4b0b77efa11a2b16e1e3c6abea9e494de0f845
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2020 release wave 1
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2020 release wave 1: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Upgrade guidance for Business Central on-premises 2020 release wave 1 (version 16). It answers questions about upgrade paths from versions 13, 14 and 15, C/AL to AL conversion, moving tables between extensions with migration.json, installing version 16 updates, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 1 · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 1 · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers upgrading on-premises Business Central to 2020 release wave 1 (version 16). It starts with an entry page that describes the two routes: a technical upgrade, or refactoring the application onto the Microsoft system application. Separate step-by-step pages cover each starting point: unmodified C/AL version 14 or earlier, a customized version 14 C/AL application moved onto the Microsoft system and base applications, and a version 15 base application.
+The upgrade pages generally follow a similar sequence: install version 16, convert the database, configure the server, publish extensions, synchronize tenants, run the data upgrade, and upgrade control add-ins. The technical upgrade pages for 14 to 16 and 15 to 16 add detail on the task scheduler and encryption management. The 15 to 16 page also covers extension recompilation and single-tenant versus multitenant deployments.
+Customized solutions need extra pages. These cover Txt2Al code conversion, the DestinationAppsForMigration setting, and the pages on moving tables and fields between extensions, up or down the dependency graph, using migration.json. A separate page covers installing version 16 cumulative updates, and a compatibility matrix shows supported upgrade paths. Start with "Upgrade to Business Central 2020 Wave 1", then pick the page that matches your source version.
+
+## Key points
+
+- Entry page offers two routes to version 16: technical upgrade or application refactoring to the system application; source versions include 13, 14 and 15.
+- Separate procedures exist for unmodified C/AL (14 or earlier), customized C/AL version 14, and version 15 base application.
+- Typical steps: install version 16, convert the database, configure the server, publish extensions, synchronize tenants, run data upgrade, upgrade control add-ins.
+- Version 15 upgrades also require recompiling extensions that are not version 16.
+- Txt2Al converts customized version 14 C/AL code to AL, including .NET interoperability and test libraries.
+- DestinationAppsForMigration is a server instance setting that migrates tables and extensions from C/AL to AL and handles extension dependencies during upgrade.
+- Moving tables and fields between extensions uses migration.json; moving up the dependency graph needs a two-stage process with a transition extension (version 16.5 pages).
+- Installing a version 16 cumulative update involves database conversion, extension publishing, system symbols, recompilation and tenant synchronization.
 
 ## Learn pages
 

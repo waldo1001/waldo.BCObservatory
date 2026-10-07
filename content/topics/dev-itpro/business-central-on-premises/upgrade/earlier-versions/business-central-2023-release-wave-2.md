@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2023-release-wave-2
 type: topic
 title: Business Central 2023 release wave 2
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2023 release wave 2: 17 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Upgrade guidance for on-premises Business Central 2023 release wave 2 (version 23): upgrade paths from versions 14 through 22, technical upgrade steps, C/AL to AL conversion, moving tables between extensions, permissions and report changes. It answers how to upgrade to version 23 and what to prepare first."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:46.314Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 36dd0cb723aafbb1ce8815e545447a5c239af88318275752ce3b1de19065fd19
+  prompts:
+    hub-topic: 1
+  input_hash: 3f441b57228e8ad4197655a2ddb808235aa03523edcbcaf760adbbc596e74396
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -180,14 +181,33 @@ coverage:
 bc_forms:
   - 19010
 member_hash: 36dd0cb723aafbb1ce8815e545447a5c239af88318275752ce3b1de19065fd19
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2023 release wave 2
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2023 release wave 2: 17 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Upgrade guidance for on-premises Business Central 2023 release wave 2 (version 23): upgrade paths from versions 14 through 22, technical upgrade steps, C/AL to AL conversion, moving tables between extensions, permissions and report changes. It answers how to upgrade to version 23 and what to prepare first.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 2 · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 2 · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Learn pages for upgrading on-premises Business Central to 2023 release wave 2 (version 23). It starts with an overview page covering upgrade paths, deprecated features and on-premises to online migration, plus a general considerations page and a compatibility matrix that shows the minimum versions needed between major versions.
+
+The technical upgrade pages are split by starting version: one for version 14, one for version 19, and one for versions 20, 21 and 22. Separate pages cover upgrading the Microsoft System and Base Application from versions 15-22, and upgrading a version 14 C/AL application, either unmodified or customized. Each covers database conversion, extension publishing and synchronization. A page on installing a version 23 update covers platform and application updates with PowerShell.
+
+Supporting pages handle specific work: C/AL to AL conversion with Txt2Al, moving tables and fields between extensions (up or down the dependency graph with migration.json), upgrading permission sets, and upgrading reports. Start with the overview and compatibility matrix, then choose the technical upgrade page for your starting version.
+
+## Key points
+
+- The compatibility matrix lists minimum update versions for upgrades between major versions; upgrades from version 24 or earlier must target version 25 first.
+- Separate technical upgrade guides exist for version 14, version 19, and versions 20-22 to version 23.
+- Upgrading a version 14 C/AL application to version 23 uses the System and Base Application extensions, with the DestinationAppsForMigration setting and migration.json for table migration.
+- Customized C/AL code is converted to AL with the Txt2Al tool, including .NET interoperability and test library conversion.
+- Moving tables and fields down the dependency graph uses migration.json; moving up requires a two-stage process with a transition extension.
+- Permission sets move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.
+- Report upgrade guidance for version 20 and later covers the new platform rendering model, report events, and Word and RDLC custom layouts.
+- The India Data Migration Toolkit page covers NAV 2016 India to Business Central 2021 release wave 2 in two steps, without customizations.
 
 ## Learn pages
 

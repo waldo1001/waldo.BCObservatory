@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india",
+  "input_hash": "91453fb0d78953dd5f983e4d3e6a98ce12a3d488bf1c3bc75f27a17619a34724",
+  "summary": "India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items.",
+  "overview": "The India section groups the localized features for Indian statutory and accounting needs. The largest area is GST, with setup, sales and purchase scenarios, returns, e-invoice, e-way bill and settlement. TDS, TDS for customer and TCS cover tax deducted or collected at source, including thresholds, adjustments and payment to government. The Tax Engine is a configurable framework with tax types, rates, use cases, scripting and JSON import and export.\n\nOther subtopics cover operational processes: voucher interface for day-to-day entries, fixed asset depreciation under Indian laws, gate entry for goods movement, and subcontracting with delivery challans and job work reports.\n\nThe section's own pages cover four areas. They are an overview of India local functionality, audit trail and edit log compliance, charge assignment for purchase order charges, and stale check setup. Start with the overview page, then go to the subtopic for the tax or process you need. GST is the usual entry point for transaction questions.",
+  "key_points": [
+    "GST (47 pages) covers setup, sales and purchase transactions, returns, advance payments, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement, with general ledger posting for each scenario.",
+    "TDS covers setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments and payment to government.",
+    "TDS for customer covers TDS master data, calculation on customer documents and tracking TDS certificates receivable.",
+    "TCS covers calculation on sales and receipts, thresholds, Section 206C(1H), adjustments and deposit to authorities.",
+    "Tax Engine is a configurable engine for tax types, rates, use cases, scripting and lookups, with JSON import and export.",
+    "Charge assignment distributes purchase order charges across lines using fixed, percentage or quantity computation and equal, amount, weight or volume assignment, with GST integration.",
+    "Audit trail and edit log page lists seven compliance requirements, including recording transactions, retaining the original format, preserving data and keeping books in India with backup.",
+    "Stale check setup uses Activate Cheque No., Stale Cheque Stipulated Period and Stale Cheque Expiry Date, and expired checks are marked via Bank Ledger Entry or Check Ledger Entry."
+  ],
+  "members_used": 4,
+  "subtopics_used": 9,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:47.235Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018579
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:15.599Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says \"GST is the usual entry point for transaction questions.\" This is editorial advice rather than something the sources state. It is a reasonable pointer, so it can stay, but it is not sourced.",
+      "The overview puts TDS for customer with TDS and TCS under \"thresholds, adjustments and payment to government\". The TDS for customer summary only mentions master data, calculation and certificates receivable. This is a small overgeneralization.",
+      "The stale check key point leaves out that check validity periods are set by bank. This is a small omission, not an error."
+    ],
+    "input_hash": "91453fb0d78953dd5f983e4d3e6a98ce12a3d488bf1c3bc75f27a17619a34724",
+    "cost_usd": 0.040331200000000005
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+  "input_hash": "4b423ff024b8529b76d2d4a372d63582ed13eb2453f33511b1d0509163fb1878",
+  "summary": "Modifying data in AL covers the methods and table types used to change and work with records: Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records, filter pages, Dataverse table properties, and keeping test data between publishes. It answers how-to and syntax questions for these tasks.",
+  "overview": "This section groups the AL topics for writing, changing and deleting data, and for the special table types used when processing it. The core page documents the Insert, Modify, ModifyAll, Delete, DeleteAll and Truncate methods, including syntax, return values and when to prefer Truncate over DeleteAll.\n\nRelated pages cover table types: temporary tables (in-memory, reduce network and database load) and virtual tables, with the Date and Integer virtual tables as specific examples. Other pages cover Media and MediaSet data types, runtime filter pages built with FilterPageBuilder, properties that enable Microsoft Dataverse tables for extension development, and schemaUpdateMode settings for retaining test data.\n\nStart with the Insert, Modify and Delete methods page for the basics. Then go to temporary or virtual tables as needed, and to the media, filter page, Dataverse or test data pages for those specific tasks.",
+  "key_points": [
+    "Insert, Modify, ModifyAll, Delete, DeleteAll and Truncate are the AL methods for maintaining data; Truncate is for high-performance bulk deletion.",
+    "Temporary tables are in-memory and can be set up with the TableType property, temporary record variables, or the SourceTableTemporary page property.",
+    "Virtual tables hold read-only system information computed at runtime and not stored in the database.",
+    "The Date virtual table (ID 2000000007) has Period Type, Period Start, Period End, Period No. and Period Name fields for date ranges.",
+    "The Integer virtual table (ID 2000000026) spans -1,000,000,000 to 1,000,000,000 and is used to control loops in reports.",
+    "Media and MediaSet data types store images and documents in system tables, with better performance and caching than BLOB fields.",
+    "FilterPageBuilder creates runtime filter pages for multiple tables in a modal dialog, using addtable and addrecord.",
+    "schemaUpdateMode in launch.json (Synchronize, Recreate, ForceSync) controls whether test data is kept between publishes."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:42.862Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016765
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:52.535Z",
+    "verdict": "fix",
+    "issues": [
+      "The Media key point adds '(2021 release wave 1)' as if the Media and MediaSet types came with that release. The page summary only tags the page with that version and does not say when the types were introduced, so I removed the parenthetical.",
+      "Everything else in the summary, overview and key points matches the page summaries: the method list, the Truncate vs DeleteAll guidance, the temporary table setup options, the Date and Integer table IDs and fields, FilterPageBuilder, the Dataverse properties and the schemaUpdateMode values."
+    ],
+    "input_hash": "4b423ff024b8529b76d2d4a372d63582ed13eb2453f33511b1d0509163fb1878",
+    "cost_usd": 0.0426952
+  }
+}

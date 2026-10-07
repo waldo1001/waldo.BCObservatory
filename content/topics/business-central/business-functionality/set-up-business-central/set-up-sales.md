@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-sales
 type: topic
 title: Set up sales
-summary: "Learn section Business functionality > Set up Business Central > Set up sales: 22 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Set up sales in Business Central covers configuring customers, salespeople, prices and discounts, shipping, document sending, payment services, posting policies and stockout warnings. It answers setup questions before sales processes start, and includes a subtopic on subscription billing setup.
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7c59cab764e1dde64c5002401fc955bdfa8d60398903e03279e217c0b5f50c63
+  prompts:
+    hub-topic: 1
+  input_hash: 2b2f7b1376c1a9965df374b1c211760672cbfc34946f3af8708669e0c9926805
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-setup-invoice-posting-policy
@@ -265,14 +266,33 @@ bc_forms:
   - 9301
   - 9305
 member_hash: 7c59cab764e1dde64c5002401fc955bdfa8d60398903e03279e217c0b5f50c63
-narrative: none
+narrative: generated
 ---
 
 # Set up sales
 
-> Learn section Business functionality > Set up Business Central > Set up sales: 22 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Set up sales in Business Central covers configuring customers, salespeople, prices and discounts, shipping, document sending, payment services, posting policies and stockout warnings. It answers setup questions before sales processes start, and includes a subtopic on subscription billing setup.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section groups the setup tasks needed before you manage sales. It starts with an overview page listing the tasks: registering customers, adding payment service extensions, setting sales pricing and discounts, setting up salespeople, defining document sending profiles, and VAT verification.
+ 
+The pages fall into a few groups. Customer and people setup covers customer cards, templates, credit limits and salespeople. Pricing covers special prices and discounts, customer price groups, customer discount groups and the general prices and discounts page. Logistics and documents cover shipping agents, shipment methods, sending documents and emails, document sending profiles and payment services. Smaller pages cover invoice posting policies, stockout warnings and updating document dates with posting dates.
+ 
+Start with the overview of tasks, then follow the page for the area you need. The Set up subscription billing subtopic covers recurring billing configuration separately.
+
+## Key points
+
+- The overview page lists the setup tasks: customer registration, payment service extensions, pricing and discounts, salesperson setup, document sending profiles and VAT verification.
+- Customer cards can use templates, credit limits with overdue balance warnings, dimension templates and salesperson assignment by ship-to address.
+- Pricing pages cover price lists, line and invoice discounts, best price calculation, customer price groups and customer discount groups; the new pricing experience came with 2020 release wave 2 and Edit in Excel is supported.
+- Invoice posting policies can prohibit, allow or require posting of sales and purchase invoices together with shipments or receipts.
+- Payment services such as PayPal Payments Standard and WorldPay Payments Standard add payment links to emailed sales documents so customers can pay directly.
+- Document sending profiles set preferred sending methods, either as a default or per customer card, and work with the post and send action.
+- Shipping agents with services and tracking support package tracking and order promising dates; shipment methods can represent Incoterms.
+- A stockout warning notifies users when sales order quantities exceed available inventory.
 
 ## Subtopics
 

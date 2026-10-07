@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks/statements",
+  "input_hash": "d3956622fec7ab4e0ae68e80679f24eb2163339aaf9a62e6af5906644f6cdc36",
+  "summary": "AL statements cover the building blocks of AL code: simple statements (assignment, method calls, AssertError) and control statements (if-then-else, case, for, foreach, while, repeat-until, break, continue). They answer questions about syntax, flow control and compound assignment operators.",
+  "overview": "Statements are the units of execution in AL code. This section has two pages that split them by whether they change the flow of code.\n\nAL simple statements run sequentially and do not alter flow. The page covers assignment statements, method statements, compound assignment operators and AssertError statements used in tests. AL control statements covers conditionals and loops, with syntax and programming conventions.\n\nStart with the simple statements page for basic syntax, then go to the control statements page when you need branching or iteration.",
+  "key_points": [
+    "Simple statements run in sequence and do not change code flow.",
+    "Simple statement types: assignment, method and AssertError.",
+    "Compound assignment operators are documented on the simple statements page.",
+    "AssertError statements are used for test assertions.",
+    "Conditional control statements: if-then-else and case.",
+    "Loop statements: for, foreach, while and repeat-until.",
+    "break and continue statements are covered with the loops.",
+    "The control statements page lists 2023 release wave 1."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:00.855Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007738999999999999
+  }
+}

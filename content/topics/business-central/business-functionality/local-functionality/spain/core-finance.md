@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/spain/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Spain > Core finance: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:21.075Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 29390daef71090903acbd3a87c03ce479dc16b15649b681e3d39bcd751ffdb9a
+  prompts:
+    hub-topic: 1
+  input_hash: 1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format
@@ -107,14 +108,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 29390daef71090903acbd3a87c03ce479dc16b15649b681e3d39bcd751ffdb9a
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Spain > Core finance: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Spain-specific finance procedures in Business Central. They cover chart of accounts upkeep, how transactions are numbered and posted, the reports required by tax authorities and auditors, and year-end closing.
+
+Start with the Transaction numbers page, which explains how sequential numbers group entries by document number and date. The posting and printing page builds on it. Chart of accounts pages (indenting and validating, ignoring discounts) cover setup. Reporting pages cover account books, sales and purchase invoice books, and ASC export. The income statement page covers year-end closing.
+
+## Key points
+
+- Transaction numbers group entries with the same document number and date for balancing, and start at 2 each fiscal year because 1 is reserved for the opening transaction.
+- Journal posting uses sequential numbering, and the Set Period Transaction No. action supports printing all transactions of a period for tax authorities.
+- The chart of accounts can be indented and validated to build the account hierarchy and check accuracy.
+- A General Ledger account can be set with the Ignore Discounts checkbox so it does not accept payment or invoice discounts.
+- Account book reports show general ledger entries by transaction or summary, with options for first page number, additional currency, opening and closing transaction descriptions, and account type filtering.
+- Sales and Purchase Invoice Book reports list documents for a period, with additional currency, invoice or credit memo filtering, and ordering by posting date.
+- The Close Income Statement batch job closes income statement balances at year end using a balancing account, and covers retained earnings, business units, and dimensions.
+- Balance sheet and profit/loss annual reports can be exported to ASC format for tax authorities.
 
 ## Learn pages
 

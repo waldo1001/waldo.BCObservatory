@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/fixed-assets-reports",
+  "input_hash": "18ca407c0c8b14257916b7be95944e3011ef6b19d4a617bad14df3186dfe4e70",
+  "summary": "Fixed assets reports in Business Central: standard and Excel reports for fixed asset book value, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset values, postings, insurance coverage or service dates.",
+  "overview": "This section lists the reports available for fixed assets. They fall into three groups: core fixed asset reports, insurance reports, and maintenance reports. Each report has its own page describing what it shows and which options or filters it offers. An overview page, \"Fixed assets reports\", introduces the groups and their uses for financial statements and management.\n\nThe core reports cover book value (Book Value 01 and 02), asset lists and acquisition lists, G/L analysis, posting group net change, document numbers, the register, and the journal test report. Three Excel reports (Fixed Asset Analysis, Fixed Asset Details, Fixed Asset Projected Value) support ad-hoc analysis with filters such as class, subclass and location. Analysis and Details also filter by department and project.\n\nInsurance reports show policies, coverage, over- or under-insured status and uninsured assets, along with an insurance journal test and register. Maintenance reports show maintenance expenses, ledger entries and next service dates. Start with the overview page, then open the page for the report that fits your question.",
+  "key_points": [
+    "Fixed Asset Book Value 01 shows acquisition cost, depreciation and book value, with optional budget depreciation and group totals; Book Value 02 breaks book value down by changes in acquisition, depreciation and appreciation in a period.",
+    "Fixed Asset Analysis and Fixed Asset Details are Excel reports filterable by class, subclass, location, department and project; Fixed Asset Projected Value filters by class, subclass and location and forecasts depreciation and book value for a date range.",
+    "Fixed Asset G/L Analysis and Fixed Asset Register help reconcile fixed asset ledger entries with general ledger entries; the register prints by register number and can print when posting.",
+    "FA Posting Group - Net Change Report shows net change in ledger entries per posting group, with totals across all groups.",
+    "Fixed Asset Document Nos. sorts ledger entries by document type and number and warns about gaps in number series.",
+    "Fixed Asset Journal - Test shows fixed asset journal lines to check before posting; Insurance Journal - Test shows insurance journal lines filtered by journal template and batch.",
+    "Insurance reports include Analysis (premiums, coverage, over/under insured), Coverage Details, List, Tot. Value Insured, Uninsured FAs, and Register.",
+    "Maintenance reports include Analysis (expenses by category and type), Details (ledger entries, optional reversed entries) and Next Service (dates from the Fixed Asset Card)."
+  ],
+  "members_used": 23,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:04.000Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.023997
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:54.665Z",
+    "verdict": "fix",
+    "issues": [
+      "The narrative says all three Excel reports filter by class, subclass, location, department and project. The source shows department and project filters only for Fixed Asset Analysis and Fixed Asset Details. Fixed Asset Projected Value lists only class, subclass and location filters.",
+      "The source says only that the Fixed Asset Journal - Test is used for checking lines before posting. For the Insurance Journal - Test, it says the report shows journal lines and filters them automatically by journal template and batch name. The key point now describes each one separately.",
+      "Minor: saying the Excel reports support 'ad-hoc analysis' is an inference from the overview page's feature list. It is reasonable, so it was kept."
+    ],
+    "input_hash": "18ca407c0c8b14257916b7be95944e3011ef6b19d4a617bad14df3186dfe4e70",
+    "cost_usd": 0.0743472
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/get-started/marketplace-validation
 type: topic
 title: Marketplace validation
-summary: "Learn section Development > Get started > Marketplace validation: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, Application Insights telemetry for submission and breaking-changes validation, and guidance on landing pages and videos. It answers questions on passing validation, diagnosing failures, and presenting an app."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:28.595Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 53ce797e950f6a3e38fee50d94f2f88c2ce01a405f20e5a08997bcaf5c12a1f7
+  prompts:
+    hub-topic: 1
+  input_hash: 830079ffe7a4ae9f43c6b2fb891551fe08eef93e02c0fe67afca4a1939f5e932
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-app-validation-trace
@@ -98,14 +99,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 53ce797e950f6a3e38fee50d94f2f88c2ce01a405f20e5a08997bcaf5c12a1f7
-narrative: none
+narrative: generated
 ---
 
 # Marketplace validation
 
-> Learn section Development > Get started > Marketplace validation: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, Application Insights telemetry for submission and breaking-changes validation, and guidance on landing pages and videos. It answers questions on passing validation, diagnosing failures, and presenting an app.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+Marketplace validation is the section for partners publishing Business Central extensions on AppSource. It combines the technical requirements an extension must meet with telemetry for understanding validation results, and with marketing guidance for the app's listing.
+
+Start with the Technical validation checklist, which lists the mandatory requirements and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop. The Technical validation FAQ covers common questions on app identity, code-signing, names and affixes, Application Insights usage, support channels and app previews.
+
+Two telemetry pages help when validation fails. One describes submission validation traces sent to Application Insights, with validation phases, diagnostic events and KQL samples. The other covers monitoring breaking-changes validation against upcoming Business Central releases. Two further pages give best practices for sales landing pages and marketing videos.
+
+## Key points
+
+- The technical validation checklist lists mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
+- Partners can self-validate with BcContainerHelper and AppSourceCop analysis before submitting.
+- Submission validation traces go to Application Insights and include AL compiler diagnostics, AppSourceCop analyzer results and diagnostic codes, with KQL samples for analysis.
+- The submission trace telemetry guide references 2021 release wave 1 and version 18.4.
+- Breaking-changes validation telemetry shows when an AppSource app fails validation against upcoming Business Central releases.
+- The FAQ covers app identity, code-signing, names and affixes, Azure Application Insights usage, Business Central offers, support channels and app previews.
+- The landing page guide covers layout, headline copy, pain-based messaging, benefits, testimonials, video demos and calls to action.
+- The video guide describes why, how and what videos plus customer testimony, with structure and persona targeting.
 
 ## Learn pages
 

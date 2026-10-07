@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-printer-extensions",
+  "input_hash": "23af92b7a3dafce71eff05dd81b8b8b5d44eca9af502b7734e5759fdba1ea543",
+  "summary": "Printer extensions in Business Central let AL developers send reports directly to web-connected printers. The section answers questions about the OnAfterSetupPrinters and OnAfterDocumentPrintReady events, printer and report payloads, and routing reports to email, physical, or other printer endpoints.",
+  "overview": "A printer extension is an AL extension that subscribes to events published by the Report Management codeunit. It registers custom printers and then receives the finished report so it can send it to a web-connected printer, an email address, or another endpoint.\n\nThe section has two pages and no subtopics. \"Developing printer extensions in Business Central\" gives the overview: what a printer extension is and which events it uses. \"Creating a Printer Extension\" covers the building steps: setting up printers, the JSON printer payload, paper tray configuration, the Printer Selections page, and routing reports.\n\nStart with the overview page to understand the two events, then follow the creation page to implement them.",
+  "key_points": [
+    "Printer extensions send reports directly to web-connected printers.",
+    "Subscribe to OnAfterSetupPrinters to define and register custom printers.",
+    "Subscribe to OnAfterDocumentPrintReady to receive the report and route it to its destination.",
+    "Both events are published by the Report Management codeunit.",
+    "Printers are described with a JSON printer payload, which can include paper tray configuration.",
+    "Printers added this way can be chosen on the Printer Selections page.",
+    "Reports can be routed to email, physical printers, or other printer endpoints."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:11.632Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008881
+  }
+}

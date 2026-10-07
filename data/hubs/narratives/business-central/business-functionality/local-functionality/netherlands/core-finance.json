@@ -1,0 +1,23 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/core-finance",
+  "input_hash": "1354e39e0856c329ede4f7008ca083acd29dcaa50e16d598e70af19a43c8fddf",
+  "summary": "Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior.",
+  "overview": "This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two pages, each covering one capability of the Dutch version.\n\nOne page explains how to apply and unapply general ledger entries in the Dutch version. The other describes required descriptions in G/L entries: the system can be configured so that journal lines need a detailed description beyond the default account description when posted, which helps maintain an audit trail.\n\nStart with the required descriptions page if you are setting up posting rules and audit controls. Use the apply and unapply page when you need to match or reverse the matching of G/L entries.",
+  "key_points": [
+    "Applies only to the Dutch (Netherlands) version of Business Central.",
+    "General ledger entries can be applied and unapplied in the Dutch version.",
+    "Required descriptions on G/L entries support audit trails.",
+    "The system can be configured to enforce detailed descriptions beyond the default account description.",
+    "Description validation takes place when journal lines are posted.",
+    "The section has two pages and no subtopics."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:25.267Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0076489999999999995
+  }
+}

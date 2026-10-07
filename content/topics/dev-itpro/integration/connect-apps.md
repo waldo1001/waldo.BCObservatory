@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/connect-apps
 type: topic
 title: Connect apps
-summary: "Learn section Integration > Connect apps: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Connect apps covers building integrations with Business Central through REST APIs and OData. It answers questions about creating custom API pages and queries, authenticating (Microsoft Entra ID, basic auth, service-to-service OAuth 2.0), filtering, and request tips such as batching and localization.
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:33.901Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8b44d3c4b42940a42001b1109b957abbe92c636ad9a0324c4e370e7b69a490f8
+  prompts:
+    hub-topic: 1
+  input_hash: 8437bfd47c83ee1ca15a180b1d138c20e872524ef72311d02e82bed05539731f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
@@ -89,14 +90,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 8b44d3c4b42940a42001b1109b957abbe92c636ad9a0324c4e370e7b69a490f8
-narrative: none
+narrative: generated
 ---
 
 # Connect apps
 
-> Learn section Integration > Connect apps: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Connect apps covers building integrations with Business Central through REST APIs and OData. It answers questions about creating custom API pages and queries, authenticating (Microsoft Entra ID, basic auth, service-to-service OAuth 2.0), filtering, and request tips such as batching and localization.
 
-Path: [Integration](../integration.md) > Connect apps · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+This section is for developers who connect external services to Business Central using REST web services. It starts with an overview of the two ways to build APIs: API pages for read-write access and API queries for read-only access. A walkthrough then shows how to write a custom API page in AL.
+
+The getting-started page covers authentication setup and trying calls with the Insomnia REST client. The service-to-service page covers unattended integrations with OAuth 2.0 client credentials. Two further pages cover day-to-day use: filtering OData calls and tips on headers and batch requests.
+
+Start with the API developer overview, then the getting-started page to set up authentication and make a first call. Use the custom API page when the standard APIs do not expose the data you need.
+
+## Key points
+
+- API pages support read-write operations. API queries are read-only and can span multiple tables. Webhooks are supported.
+- Custom API pages in AL need APIVersion, APIPublisher and APIGroup. They also use properties such as ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption.
+- Relationships are modeled with parts and navigation properties. The deprecated ODataEDMType complex types should be replaced.
+- Getting started covers Microsoft Entra ID (OAuth 2.0) and basic authentication with a web service access key, and testing with Insomnia.
+- Service-to-service authentication uses the OAuth 2.0 client credentials flow, with a Microsoft Entra registration and the API.ReadWrite.All and Automation.ReadWrite.All permissions.
+- Tips cover the Accept-Language header, OData $batch requests, transactional batches with Isolation: snapshot, and the Data-Access-Intent header with ReadOnly.
+- Filtering follows Microsoft REST API guidelines for property-based and range-based filter expressions in OData queries.
 
 ## Learn pages
 

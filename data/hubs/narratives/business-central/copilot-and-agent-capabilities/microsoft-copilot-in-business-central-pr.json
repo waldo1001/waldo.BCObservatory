@@ -5,7 +5,7 @@
   "overview": "Microsoft Copilot in Business Central (preview) lets users ask questions about their company data in natural language. It works within the user's permissions and has read-only access. Starting in version 29 it replaces Chat with Copilot and supports agents.\n\nThe section has four pages. \"Use Microsoft Copilot in Business Central (preview)\" is the starting point for everyday use. \"Work with Business Central data in Microsoft Copilot\" explains what Copilot can do with your data. The FAQ covers licensing, data access, region and language support, admin controls and troubleshooting. The Application Card covers capabilities, limitations, safety components and responsible AI practices.\n\nStart with the usage page, then read the data page for concrete scenarios. Use the FAQ for admin and licensing questions, and the Application Card for governance and responsible AI questions.",
   "key_points": [
     "Copilot has read-only access to Business Central data, limited to what the user has permission to view; permissions are enforced.",
-    "Available starting in version 29 with agent integration; it replaces Chat with Copilot (the FAQ also mentions version 28).",
+    "Starting in version 29, it replaces Chat with Copilot and supports agents.",
     "Users can ask natural-language questions, find records, analyze business data, and get task guidance.",
     "It can explain pages and fields and give help on installed apps.",
     "It can combine Business Central data with web data or work content; Work IQ integration brings in Microsoft 365 data.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.039631
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:12.958Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 2 says '(the FAQ also mentions version 28)' with no context. The sources list version 28 only as a bare version tag and never say what it relates to, so the note is confusing and an agent could misread it as an availability claim. I removed it.",
+      "Everything else is supported by the page summaries: read-only access within the user's permissions, replacing Chat with Copilot starting in version 29, agent support, Work IQ integration, citations, feedback controls, the topics the FAQ covers and the topics the Application Card covers."
+    ],
+    "input_hash": "c2b83b5812076261660ba0b3fd6e66db86140d9a4cad86fe38cdbbc5625fbc25",
+    "cost_usd": 0.0364752
   }
 }

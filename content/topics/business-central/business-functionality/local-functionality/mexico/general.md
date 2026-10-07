@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/mexico/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Mexico > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:27.247Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 668b23532b29ff7d15ccbc4fcda5ebef3a66a9605194ad26a630f30f2b2ea66c
+  prompts:
+    hub-topic: 1
+  input_hash: 9b770bb79c45a080d91edc7f7a86b234ff4e0e1f16ba00eb1845160581681d6d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations
@@ -89,14 +90,29 @@ bc_forms:
   - 10811
   - 36646
 member_hash: 668b23532b29ff7d15ccbc4fcda5ebef3a66a9605194ad26a630f30f2b2ea66c
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Mexico > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects four pages for Mexican finance work. One covers compliance with Mexico's electronic accounting regulations. Two are short how-to pages for the Mexican version, on creating deposits and printing troubleshooting reports. The fourth covers paying vendors by exporting payment files.
+
+Start with the electronic accounting page if you need to report to the Mexican Tax Authority (SAT). It describes exporting the chart of accounts, trial balance and journal transactions as XML through the Export Elect. Accounting functionality. The deposit and troubleshooting pages are for day-to-day finance tasks and diagnosing finance issues. The payment page applies when you pay vendors through a bank using exported payment information.
+
+## Key points
+
+- Export Elect. Accounting produces XML files of the chart of accounts, trial balance and journal transactions for the SAT.
+- Electronic accounting setup involves a SAT account code, bank account setup and payment method coding.
+- Deposits can be created in the Mexican version of Business Central.
+- Troubleshooting reports can be printed in the Mexican version to diagnose finance issues.
+- Vendor payments can be exported in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
+- Payment export includes payment file export, bank data conversion, credit transfer registration tracking and payment export history.
 
 ## Learn pages
 

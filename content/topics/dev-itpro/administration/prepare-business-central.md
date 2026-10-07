@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/prepare-business-central
 type: topic
 title: Prepare Business Central
-summary: "Learn section Administration > Prepare Business Central: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:10.225Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6419c775f2b66201983c15914269167cccc44501b51d6357caad0e1614044643
+  prompts:
+    hub-topic: 1
+  input_hash: 09fb2f39a682c461bd9040efb17091982fe0a1b20127fe25109a8ef2f09cdba7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
@@ -131,7 +132,10 @@ links:
   videos:
     - video/8037fdtrU1o
     - video/bvGdaxC3sq8
-  posts: []
+    - video/KQRT25igPTk
+    - video/NwMLT-k6J6Q
+  posts:
+    - post/thinkaboutit-be/7443
   guidelines: []
 learn_toc_path:
   - Administration
@@ -142,8 +146,8 @@ children: []
 coverage:
   learn: 13
   code: 0
-  video: 2
-  blog: 0
+  video: 4
+  blog: 1
   guideline: 0
 bc_forms:
   - 1340
@@ -160,14 +164,29 @@ bc_forms:
   - 8620
   - 8632
 member_hash: 6419c775f2b66201983c15914269167cccc44501b51d6357caad0e1614044643
-narrative: none
+narrative: generated
 ---
 
 # Prepare Business Central
 
-> Learn section Administration > Prepare Business Central: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready.
 
-Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · no narrative yet
+Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section gathers the tasks needed to get a Business Central environment ready for use. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, base calendars, data migration) and then branches into more specific topics.
+
+## Key points
+
+- Overview of setup tasks lists company configuration, general functionality, business processes, Microsoft product integrations, apps, and data migration.
+- Configuration packages: set up reusable templates (worksheet, questionnaire, RapidStart export), then apply them to new customers and import data from Excel.
+- Per-tenant extensions are uploaded and scheduled via the Admin Center or Extension Management page; apps must be unique and versions managed.
+- Conflicting per-tenant extension upgrades require uninstalling, removing naming conflicts in objects and fields, then reinstalling.
+- Marketplace apps in production are upgraded manually through Extension Management or the Admin Center.
+- The Excel add-in can be acquired individually, deployed centrally through Microsoft 365, or installed manually; the network must allow the required endpoints.
+- Outlook add-ins (Contact Insights, Document Links) can be deployed centrally, automatically, or per user.
+- Feature Management lets you enable optional features early (some are irreversible); a separate page lists features becoming mandatory from 2023 to 2026 release waves.
 
 ## Learn pages
 
@@ -189,8 +208,11 @@ Path: [Administration](../administration.md) > Prepare Business Central · tier 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
 - [What's New: Contoso Demo Tool (2025 release wave 1)](../../../videos/8037fdtrU1o.md) (video): "Modular demo data architecture; Code-based demo data definition"
 - [Introducing: Contoso Demo Tool (2023 release wave 2)](../../../videos/bvGdaxC3sq8.md) (video): "Demo Data Module Interface; Helper Code Units for Demo Data"
+- [Guidelines for Using the Welcome Banner](../../../videos/KQRT25igPTk.md) (video): "welcome banner; onboarding experience; user checklists; role center"
+- [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
 
 ## Business Central pages and reports
 

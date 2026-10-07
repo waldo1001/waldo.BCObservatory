@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+  "input_hash": "7cbd7d65e022ca1ffdcce8c79e260f915fecd3d37d099aaaabbcee41b2e41d39",
+  "summary": "Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions.",
+  "overview": "This section covers how AL developers secure Business Central apps. It starts with a general guidance page on security best practices: a security development lifecycle, a layered security model, user session and web service authentication, auditing, encryption, entitlements, and permission sets.\n\nTwo subtopics go deeper. The permission sets and entitlements subtopic (14 pages) covers defining and extending permission set and entitlement objects, object permissions, inherent permissions, XML export, upgrading from legacy permissions, and permission telemetry. The Azure Key Vault subtopic (5 pages) covers setting up app key vaults for online and on-premises deployments, retrieving secrets in AL, and monitoring secret access with telemetry.\n\nTwo own pages cover storing and handling sensitive values in code: Isolated Storage keeps keys and values private to an extension, and the SecretText data type stops credentials from being exposed during debugging. Start with the security overview, then go to the subtopic or page that matches your task.",
+  "key_points": [
+    "The overview page covers authentication, authorization, auditing, encryption, and secrets management for AL developers.",
+    "Permission sets and entitlements are defined as AL objects; permission sets can be composed and extended, and permissions can be exported to XML.",
+    "Guidance includes setting object permissions, inherent permissions, and upgrading from legacy permissions.",
+    "Permission telemetry can be analyzed to understand permission use.",
+    "App key vaults can be set up for both online and on-premises deployments, and secrets are retrieved in AL code.",
+    "Secret access from Key Vault can be monitored with telemetry.",
+    "Isolated Storage offers extension-isolated storage with Set, Get, Contains, Delete, and SetEncrypted methods and a DataScope option type.",
+    "SecretText prevents credential exposure during debugging by restricting assignments to debuggable types, and supports secure operations through HttpClient and SecretStrSubstNo; related features include the Unwrap method and the NonDebuggable attribute."
+  ],
+  "members_used": 3,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:46.391Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012823
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:04.639Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 8 says SecretText 'uses Unwrap with the NonDebuggable attribute to protect credentials'. The page summary lists Unwrap and NonDebuggable only as features and doesn't say how they relate. Reworded so it no longer claims a combined use.",
+      "Key point 5 says Key Vault is 'set up differently' for online and on-premises. The subtopic summary only says setup covers both deployments. Reworded to match.",
+      "Small point: key point 2 could be read as saying entitlements can be composed and extended, but the source says that only about permission sets. Clarified."
+    ],
+    "input_hash": "7cbd7d65e022ca1ffdcce8c79e260f915fecd3d37d099aaaabbcee41b2e41d39",
+    "cost_usd": 0.0454872
+  }
+}

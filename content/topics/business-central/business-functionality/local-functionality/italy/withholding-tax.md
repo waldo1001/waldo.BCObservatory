@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/italy/withholding-tax
 type: topic
 title: Withholding tax
-summary: "Learn section Business functionality > Local functionality > Italy > Withholding tax: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Withholding tax in the Italian version of Business Central: how to set it up for vendor purchases and third-party services, and how to print the Withholding Taxes reports for amounts payable to the Italian government. It answers setup and reporting questions."
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6c7dd643fab59a2ec249dc3e0755cb7a867c2e96f2f5eef8da22aed6ade0050e
+  prompts:
+    hub-topic: 1
+  input_hash: 2814579f83083019ae1eee165c5fdcd9fc6c87fef9e5facbb2ccb23d849e65ce
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports
@@ -60,14 +61,30 @@ coverage:
 bc_forms:
   - 12103
 member_hash: 6c7dd643fab59a2ec249dc3e0755cb7a867c2e96f2f5eef8da22aed6ade0050e
-narrative: none
+narrative: generated
 ---
 
 # Withholding tax
 
-> Learn section Business functionality > Local functionality > Italy > Withholding tax: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Withholding tax in the Italian version of Business Central: how to set it up for vendor purchases and third-party services, and how to print the Withholding Taxes reports for amounts payable to the Italian government. It answers setup and reporting questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Withholding tax · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Withholding tax · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Withholding tax in the Italian version applies to third-party services and vendor purchases. The tax is calculated when the payment is processed, not when the invoice is posted. This section has two pages, one for setup and one for reporting.
+
+Start with "Set Up Withholding Tax (IT)". It covers withholding tax codes, vendor withholding setup, tax calculation and payment processing. Once withholding tax is set up and payments are posted, use "Print withholding tax reports (IT)" to produce the Withholding Taxes report. The report lists the withholding taxes payable to the Italian government.
+
+## Key points
+
+- Withholding tax is calculated at payment, not at invoice posting.
+- It applies to third-party services and vendor purchases in the Italian version.
+- Setup involves withholding tax codes and vendor withholding setup.
+- The Withholding Taxes report lists the taxes payable to the Italian government.
+- The report is run by Reference Month and Reference Year.
+- A Print Details option sets the level of detail in the report.
+- A Final Printing checkbox marks the print as final.
 
 ## Learn pages
 

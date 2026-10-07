@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes",
+  "input_hash": "b09f7f54c9aeac76b612c6978adde01631acec6e74fb9bf8dfc628ae8f2b2f7c",
+  "summary": "Internal warehouse processes in Business Central: handling production, assembly and job components and output, moving items within and between locations, and counting and adjusting warehouse inventory. It answers which page, journal or setup applies in basic versus advanced warehouse configurations.",
+  "overview": "This area covers warehouse work that happens inside and between locations. It has three subtopics: production, assembly and job activities; moving items; and warehouse counting.\n\nThe production, assembly and job pages explain how components are picked or moved to the work area, how output is put away, and how basic and advanced warehouse setups differ. The move items pages cover bin moves, unplanned internal movements and transfers between locations. The warehouse counting pages cover physical inventory counts, adjustments and reclassification.\n\nThe hub has no pages of its own. Start with the subtopic that matches the task. First check whether the location uses a basic or an advanced (directed put-away and pick) setup, because the page or journal to use depends on it.",
+  "key_points": [
+    "Production, assembly and job flows include picking or moving components and putting away output.",
+    "Basic and advanced warehouse configurations handle these flows differently.",
+    "Move items covers bin moves in basic and advanced (directed put-away and pick) setups.",
+    "Unplanned internal movements and transfers between locations are covered under moving items.",
+    "Warehouse counting uses orders, recordings and journals for physical inventory, adjustments and reclassification.",
+    "Counting topics include cycle counting, bin-level counts and adjustment bins.",
+    "Warehouse adjustments are reconciled with the item ledger."
+  ],
+  "members_used": 0,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:45.522Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009142999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:50.308Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview's opening says this area covers work that 'does not involve a sales or purchase document'. None of the subtopic summaries say this, so I removed it.",
+      "Everything else is supported by the subtopic summaries. The summary and key points are accurate."
+    ],
+    "input_hash": "b09f7f54c9aeac76b612c6978adde01631acec6e74fb9bf8dfc628ae8f2b2f7c",
+    "cost_usd": 0.0247992
+  }
+}

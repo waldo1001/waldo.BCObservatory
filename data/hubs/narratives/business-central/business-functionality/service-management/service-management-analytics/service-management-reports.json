@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/service-management/service-management-analytics/service-management-reports",
+  "input_hash": "f6b6236fcf787a23c65e410aa078afd89a5b35bfc207ee7382044a043d1947ba",
+  "summary": "Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers.",
+  "overview": "This section lists the individual reports used to analyze and document service management. Each page describes one report and the data it shows, such as contract numbers, customers, responsibility centers, service items, dates, and amounts.\\n\\nThe reports fall into several groups. Contract reports cover contract lists and details, gain/loss entries, quotes, salesperson and customer views, and prepaid entries. Test reports let you check results before you act. They show which contracts are due for invoicing or a price update on a date, which service orders would be created for a period, which contract lines have expired, and whether a service document has a valid posting date and something to post. Item and order reports cover service items, warranty, worksheets, tasks, labels, response time, and the dispatch board. Profit and capacity reports cover service profit by contract, responsibility center, order, and item, plus load level, resource usage, pricing profitability, and maintenance performance. Document reports produce quotes, orders, invoices, credit memos, and shipments for customers.\\n\\nStart with the overview page named Service management reports, then open the page for the report you need. Pick the group that matches your question: planning and testing, monitoring contracts, tracking items and orders, analyzing profit, or printing customer documents.",
+  "key_points": [
+    "Test reports check results before you act. Contract Invoicing - Test and Contract Price Update - Test show contracts due on a specified date, and the price update test also lists errors. Contr. Serv. Orders - Test shows the service orders that would be created for a period. Expired Contract Lines - Test shows lines to remove. Service Document - Test checks the posting date and whether there is anything to post.",
+    "Contract Gain/Loss Entries and Contr. Gain/Loss - Resp. Ctr. analyze contract gains and losses with reason code, change status, and responsibility center.",
+    "Contract Quotes to Be Signed lists quotes awaiting signature with probability, quote amount, and optional forecast.",
+    "Service Contract, Service Contract-Detail, Service Contract - Customer, and Serv. Contract - Salesperson list contracts by different views, including annual amount and service period.",
+    "Profit reports cover contracts, responsibility centers, service orders, and service items, based on service amount minus service cost; Serv. Pricing Profitability adds usage, invoice, discount, and cost amounts.",
+    "Service Items, Service Items Out of Warranty, Service Item Worksheet, Service Item Line Labels, and Service Tasks track items, warranty, repair status, and serial numbers.",
+    "Service Load Level, Service Item - Resource Usage, Maintenance Performance, and Maintenance Visit - Planning cover capacity, utilization, resource consumption, realization percentage, and visit planning.",
+    "Document reports (Service Quote, Service Order, Service Contract Quote, Service Invoice, Service Shipment, Service Credit Memo) produce customer documents; the credit memo can only be printed after posting, and the shipment has options for copies, correction lines, and lot/serial appendix."
+  ],
+  "members_used": 37,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:07.521Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.031051000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:51.300Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview and key point 1 overgeneralize the test reports. Only Contract Invoicing - Test and Contract Price Update - Test are about contracts due on a specified date. Contr. Serv. Orders - Test covers a period. Expired Contract Lines - Test lists expired lines to remove. Service Document - Test checks the posting date and whether there is postable content, not contracts or lines that are due.",
+      "Key point 1 says the test reports can show errors. Only the Contract Price Update - Test summary mentions errors.",
+      "Minor: the key point on contract views groups annual amount and service period across four reports. Service Contract-Detail shows contract value rather than annual amount, and service period appears only in Service Contract and Service Contract-Detail. Acceptable as a group description."
+    ],
+    "input_hash": "f6b6236fcf787a23c65e410aa078afd89a5b35bfc207ee7382044a043d1947ba",
+    "cost_usd": 0.1039832
+  }
+}

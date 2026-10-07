@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/online-store-with-shopify",
+  "input_hash": "4ec275c41cc21d1ec9a89eb232308454ddeb23254ca7607d4da90a61094f7a8b",
+  "summary": "Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions.",
+  "overview": "The Shopify Connector provides bidirectional synchronization between Business Central and one or more Shopify stores, for both B2B and direct-to-consumer models. The area is organized by data type: items, inventory, prices, customers and companies, sales orders and fulfillment, and transactions and payouts. Each has its own page with configuration options.\n\nStart with the Shopify Connector Overview, then the getting-started subtopic, which explains connecting a store and creating a Shopify test account. Next, use \"Set up and use the Shopify Connector\" as the walkthrough, and the per-data-type pages for detail.\n\nOperational pages cover running tasks in the background and recurrently with job queues, troubleshooting (foreground runs, logs, skipped records, sync reset), Shopify POS, and AI-assisted Shopify Tax Matching for Business Central US. The technical FAQ covers API versions and extensibility, and the support page lists support paths.",
+  "key_points": [
+    "Overview: multi-shop support and bidirectional sync of items, inventory, customers, orders and transactions, for B2B and DTC.",
+    "Getting started covers connecting a store, synchronizing core data, and creating a Shopify test account.",
+    "Item sync supports export and import, SKU and barcode mapping strategies, variants and images.",
+    "Price sync sends prices from Business Central, with multiple currencies, VAT, markets, B2B catalogs, and customer price and discount groups.",
+    "Order sync handles shop vs presentment currency, auto-creation of sales documents, returns and refunds, location mapping, gift cards, and shipment sync to Shopify.",
+    "Transactions and payouts pages cover Shopify Payments, payment method mapping and reconciliation with bank accounts.",
+    "Background tasks run through job queue entries, either manual or recurring, monitored from Shopify Activities in the Business Manager Role Center.",
+    "Troubleshooting uses foreground task execution, logs, skipped records tracking and sync date reset; the technical FAQ covers the GraphQL Admin API versioning and extensibility."
+  ],
+  "members_used": 14,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:33.428Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0353726
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:53.440Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on transactions and payouts says 'pages' (plural), but the source has only one page, 'Synchronize transactions and payouts'. This is a minor wording slip.",
+      "The overview says the area is 'organized by data type', which simplifies things: operational pages like POS, Tax Matching, background tasks, troubleshooting, FAQ and support sit alongside the data-type pages. The overview does list them separately, so this is acceptable.",
+      "No key point covers inventory sync. Its distinctive features are location filtering, stock calculation methods, fulfillment services and 3PL support. This is optional to add.",
+      "No key point mentions that the Shopify POS page covers cash rounding and licensing requirements. This is optional."
+    ],
+    "input_hash": "4ec275c41cc21d1ec9a89eb232308454ddeb23254ca7607d4da90a61094f7a8b",
+    "cost_usd": 0.0475912
+  }
+}

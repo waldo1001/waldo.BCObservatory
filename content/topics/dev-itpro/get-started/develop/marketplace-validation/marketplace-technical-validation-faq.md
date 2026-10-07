@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started/develop/marketplace-validation/marketplace-technical-validation-faq
 type: topic
 title: Marketplace technical validation FAQ
-summary: "Learn section Get started > Develop > Marketplace validation > Marketplace technical validation FAQ: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Marketplace technical validation FAQ for Business Central apps. It answers questions about app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process, and support channels.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:24.768Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4ea8eb9ab4cf6918a6acf70c5e3bbf5051bfcbdb4594c387a388b8cac99791f5
+  prompts:
+    hub-topic: 1
+  input_hash: d122255a40e3d23ecab94d8ac1238ea5fb0f9a1cdb85b174696ce359044ed73a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-develop-maintain
@@ -122,14 +123,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4ea8eb9ab4cf6918a6acf70c5e3bbf5051bfcbdb4594c387a388b8cac99791f5
-narrative: none
+narrative: generated
 ---
 
 # Marketplace technical validation FAQ
 
-> Learn section Get started > Develop > Marketplace validation > Marketplace technical validation FAQ: 10 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Marketplace technical validation FAQ for Business Central apps. It answers questions about app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process, and support channels.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · no narrative yet
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section is a set of short FAQ pages for partners who submit Business Central apps to the Marketplace and need to pass technical validation. Each page covers one topic: how validation works, app identity, code-signing, naming and ID ranges, telemetry, previews, offers, development issues, and where to ask for help.
+
+Start with the Technical validation FAQ, which gives an overview of the submission validation process and points to the main areas. Then move to the page that matches your problem. The Technical validation process FAQ covers validation scope, breaking change checks, baseline comparisons and fixing common failures. The identity, names/affixes, and code-signing pages cover the rules checked at submission. The channels page tells you whom to contact when you are stuck.
+
+## Key points
+
+- The validation process FAQ explains scope by release and country, breaking change detection, baseline comparison, code signing validation, malware scanning, and remediation of common failures.
+- App identity FAQ covers when to change extension names, publishers and App IDs; App ID changes are restricted because they can break dependent extensions.
+- Code-signing FAQ covers certificate requirements, signing procedures, the approved .pfx format, and reuse of code-signing.
+- Names, affixes, and ID ranges FAQ explains how to register affixes and ID ranges and reuse them across multiple apps.
+- Application Insights FAQ helps with enabling telemetry for submissions, validating connection strings, interpreting validation signals, and data sampling configuration.
+- App previews FAQ covers limiting a preview to selected customers with a hide key, the preview installation URL, preview listing, and how previews interact with environment upgrades and public releases.
+- Offer FAQ covers connect and add-on app types, converting offer types, keeping the offer URL, and Partner Center API for automated submissions.
+- Channels FAQ says when to use d365val@microsoft.com, Partner Center support, Business Central support, or Viva Engage.
 
 ## Learn pages
 

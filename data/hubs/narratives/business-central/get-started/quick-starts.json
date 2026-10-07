@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/get-started/quick-starts",
+  "input_hash": "309c7c06b045128a06bc4fe0afd5ef25e371151d867b6ccae1dbf2bc4fb06a0b",
+  "summary": "Business Central quick starts are beginner guides for first-time setup and basic daily tasks. They answer questions on company information, chart of accounts and bank accounts, sales, procurement, reports and documents output, and business intelligence.",
+  "overview": "The quick starts are short, task-oriented guides for new users of Business Central. Each one walks through a single area: filling in company details, setting up the financial structure, handling sales and purchases, producing reports and documents, and getting started with analysis. The landing page \"Business Central quick starts\" lists them and describes what each covers.\n\nA sensible order is to begin with Company Information, then Financial Information (chart of accounts and bank accounts). After that, use the Sales and Procurement guides to set up customers, items and vendors and create orders and invoices. The reports and business intelligence guides follow, for output and analysis. There are no subtopics; all seven pages sit directly in this section.",
+  "key_points": [
+    "Company Information Quick Start: enter basic company details on the Company Information page, including bank account and VAT number, to set up a new company.",
+    "Financial Information Quick Start: set up the chart of accounts, account categories, posting groups and bank account registration.",
+    "Sales Quick Start: configure customers and items, then create sales orders and invoices, with partial shipments and discount management.",
+    "Procurement Quick Start: set up vendors, then create purchase orders and invoices, with partial receipts and discount management.",
+    "Basic reports and documents output: add a company logo, run and filter reports, save to PDF, Excel or Word, and customize report layouts.",
+    "Business intelligence quick start: introduces financial reports, KPIs, dashboards and ad-hoc analysis across functional areas.",
+    "The landing page Business Central quick starts gives an overview of all the beginner guides."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:03.017Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011942999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:11.597Z",
+    "verdict": "approve",
+    "issues": [
+      "The suggested reading order in the overview (Company Information, then Financial Information, then Sales and Procurement, then reports and BI) is the writer's own advice. The sources don't state an order. It is reasonable and labelled 'sensible', so it can stay.",
+      "The summary says 'basic daily tasks'. That goes slightly beyond the landing page, which only says 'basic setup tasks'. Sales, procurement and reports do cover routine work, so this is acceptable."
+    ],
+    "input_hash": "309c7c06b045128a06bc4fe0afd5ef25e371151d867b6ccae1dbf2bc4fb06a0b",
+    "cost_usd": 0.0275672
+  }
+}

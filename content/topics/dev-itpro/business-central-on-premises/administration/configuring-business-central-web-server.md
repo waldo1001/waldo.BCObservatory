@@ -2,7 +2,7 @@
 id: topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-web-server
 type: topic
 title: Configuring Business Central web server
-summary: "Learn section Business Central on-premises > Administration > Configuring Business Central web server: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Configuring the Business Central web server on-premises: navsettings.json settings on IIS (connection, authentication, credential types, SSL/HTTPS, session timeout, portal embedding) and creating multiple web server instances with PowerShell. It answers how-to questions about changing web server settings and deploying several instances."
 tier: official
 language: en
 system: administration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: acc76712eee225834a20b824c8917fd3dc595d109b5cfa9d723aefae3d5e32db
+  prompts:
+    hub-topic: 1
+  input_hash: 1353b941d9ce0664ceb995b1353856724262b80f083f450b8757aa9b18466ee5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server
@@ -58,14 +59,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: acc76712eee225834a20b824c8917fd3dc595d109b5cfa9d723aefae3d5e32db
-narrative: none
+narrative: generated
 ---
 
 # Configuring Business Central web server
 
-> Learn section Business Central on-premises > Administration > Configuring Business Central web server: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Configuring the Business Central web server on-premises: navsettings.json settings on IIS (connection, authentication, credential types, SSL/HTTPS, session timeout, portal embedding) and creating multiple web server instances with PowerShell. It answers how-to questions about changing web server settings and deploying several instances.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central web server · tier official · system administration · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central web server · tier official · system administration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers the Business Central web server component running on IIS in on-premises deployments. It has two pages: one on configuring a web server instance, and one on running more than one instance.
+
+The first page explains that a web server instance is configured through the navsettings.json file. You can edit the file directly or use PowerShell cmdlets. Settings include connection and authentication options, credential types, SSL/HTTPS, session timeout and portal embedding.
+
+The second page shows how to set up multiple web server instances in IIS with PowerShell, for example for different companies or deployment scenarios. Start with the first page to learn the settings. Move to the second when you need more than one instance.
+
+## Key points
+
+- Web server instance settings are stored in navsettings.json on IIS.
+- Configuration can be changed by editing the file directly or through PowerShell cmdlets.
+- Configurable areas include credential types, authentication, SSL/HTTPS, session timeout and portal embedding.
+- New-NAVWebServerInstance creates additional web server instances in IIS.
+- Set-NAVWebServerInstanceConfiguration changes the configuration of an instance.
+- Get-NAVWebServerInstance and Remove-NAVWebServerInstance list and delete instances.
+- Instances can be deployed as a RootSite or a SubSite.
+- Multiple instances suit different companies or deployment scenarios.
 
 ## Learn pages
 

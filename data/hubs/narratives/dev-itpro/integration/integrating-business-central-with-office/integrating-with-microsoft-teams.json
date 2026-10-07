@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
+  "input_hash": "583c693863511cf7abc74110ae0fcf6e384e6166cc9d80d48334314fa800a3f7",
+  "summary": "Integration of Business Central with Microsoft Teams, aimed at AL developers. It covers Teams cards, card details and tabs, customizing cards with the Brick field group and AL events, detecting Teams sessions, and FAQs on link unfurling, stage view, licensing and permissions.",
+  "overview": "This section explains how Business Central works inside Microsoft Teams and how to develop for it. The main development page introduces the building blocks: Teams cards, card details, Business Central tabs, the Brick field group, Teams-specific AL events and Graph API integration.\n\nThe other pages go deeper. One covers customizing which fields appear on cards shared in Teams, using field groups or event subscribers. Another shows how to get session and environment information, such as whether code runs in a Teams context. The FAQ covers link unfurling, stage view, licensing and permissions. The Tabs subtopic covers creating tabs programmatically through the Microsoft Graph API and customizing the recommended list pages.\n\nStart with the development overview to see the pieces, then move to the metadata page for card customization or the Tabs subtopic for tab setup. Use the FAQ for licensing and permission questions.",
+  "key_points": [
+    "Teams cards show Business Central records shared in Teams; the FAQ describes the link unfurling technology and adaptive cards behind them.",
+    "The platform automatically selects card fields from the Brick field group, the Dropdown field group, or primary key fields.",
+    "Cards can be customized with the Brick field group or with the OnBeforeGetPageSummary and OnAfterGetSummaryFields events; media fields are also covered.",
+    "Business Central tabs can be created programmatically in channels and chats through the Microsoft Graph API.",
+    "The recommended list pages shown when users configure a tab can be customized.",
+    "Code can check CurrentClientType to know if it runs in Teams, and can detect Microsoft 365 license usage and whether M365 collaboration is enabled.",
+    "The FAQ covers stage view, licensing requirements and permissions for cards and tabs."
+  ],
+  "members_used": 4,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:56.868Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012267
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:36.352Z",
+    "verdict": "fix",
+    "issues": [
+      "The summary says the hub is aimed at \"developers and admins\". The sources don't support the admin audience: all pages are developer-oriented, and the FAQ only touches on licensing and permissions. I removed \"and admins\".",
+      "Key point 2 says fields are picked in a strict order (Brick, then Dropdown, then primary key). The source only says fields are selected automatically from Brick, Dropdown, or primary key fields. I reworded it so it no longer states a confirmed order.",
+      "Key point 1 calls adaptive cards \"the underlying technology\". The FAQ lists link unfurling and adaptive cards, but doesn't say one sits under the other. I softened the wording."
+    ],
+    "input_hash": "583c693863511cf7abc74110ae0fcf6e384e6166cc9d80d48334314fa800a3f7",
+    "cost_usd": 0.0414792
+  }
+}

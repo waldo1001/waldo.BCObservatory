@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/admin-center
 type: topic
 title: Admin center
-summary: "Learn section Administration > Admin center: 31 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:15.343Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
+  prompts:
+    hub-topic: 1
+  input_hash: 435334cc60fef9ae9cfd779872b229173852be5b008e1b9c73deeb9129eaed10
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management
@@ -268,8 +269,10 @@ links:
     - video/uv2NsSD5P7U
     - video/wPEZ3U5j4zw
   posts:
+    - post/duiliotacconi-com/1537
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/
     - post/thinkaboutit-be/7897
     - post/thinkaboutit-be/7930
     - post/thinkaboutit-be/8077
@@ -286,18 +289,35 @@ coverage:
   learn: 31
   code: 0
   video: 8
-  blog: 6
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
-narrative: none
+narrative: generated
 ---
 
 # Admin center
 
-> Learn section Administration > Admin center: 31 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.
 
-Path: [Administration](../administration.md) > Admin center · tier official · system administration · no narrative yet
+Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+The admin center is the main place to administer Business Central online. The pages cover the portal itself (access requirements, delegated admin roles, GDAP), then the Environments tab for production and sandbox environments, including Power Platform linking, update windows and security groups.
+Lifecycle pages cover copying, renaming, deleting and recovering, restoring to a point in time, exporting databases to BACPAC, and transferring environments between Microsoft Entra tenants. Operational pages cover sessions, updates, apps, capacity, telemetry, notifications, access, and consumption-based billing for Copilot and agents. A separate Admin Center API subtopic (15 pages) covers programmatic access.
+Start with the Business Central Administration Center page for access and the overall layout, then Managing Production and Sandbox Environments. Move to the task-specific page you need.
+
+## Key points
+
+- Deleted environments are soft-deleted for 14 days and can be recovered. After that they are hard-deleted permanently.
+- Restore works to a point in time within 28 days using automated backups, with a limit of 10 restores per month.
+- Database export creates BACPAC files in an Azure standard storage account using a shared access signature. Exports are rate limited and customer-managed encryption keys are supported.
+- Transfers between Entra tenants must be accepted on the destination tenant within 8 hours. Post-transfer setup is needed for users and integrations.
+- Copying an environment keeps the same application version, extensions and configuration, and unlinks it from Power Platform.
+- Managing Apps handles Global Apps, Per-Tenant Extensions and DEV extensions, covering installation, update scheduling, dependency resolution and an Apps Update Cadence setting for automatic updates.
+- Updates are managed with update windows, scheduled or canceled updates, notification recipients and preview versions.
+- Notifications go through email, Message Center, Application Insights, Logic Apps and Power Automate. Consumption billing for Expense, Payables and Sales Order agents uses prepaid capacity or pay-as-you-go through Power Platform.
 
 ## Subtopics
 
@@ -326,8 +346,10 @@ Path: [Administration](../administration.md) > Admin center · tier official · 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "Application hotfixes respect the 6-hour update window configured in Tenant Admin Center"
 - [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "Manage Apps page in the Business Central admin center controls the stack of apps"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643.md) (community post): "calling the Business Central admin center API from AL"
+- [BC Friday Tips #34 Restore Environment](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/.md) (community post): "Business Central allows administrators to restore an environment from a previous point"
 - [How Do I: Manage and Postpone BC Updates in the Admin Center](../../../posts/thinkaboutit-be/7897.md) (community post): "schedule, delay, and respond to rollout pauses"
 - [Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?](../../../posts/thinkaboutit-be/7930.md) (community post): "schedule production updates late in the window, configure notification recipients"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../../../posts/thinkaboutit-be/8077.md) (community post): "Two independent limits govern environment creation: environment count"

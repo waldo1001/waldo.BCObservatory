@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central",
+  "input_hash": "bd02bfc737d4992b18029cb11c2e07052c687519dd59fde1596c0ed5b4fd9c65",
+  "summary": "Access control for Business Central: licenses, user accounts, environment access, permissions, and security groups. It answers questions about who can use the system, how to grant permissions, how to use Microsoft Entra or Active Directory security groups, and how Microsoft 365 licenses give read-only access through Teams.",
+  "overview": "Managing access to Business Central is layered. The main page introduces the pieces: a Dynamics 365 Business Central license or a Microsoft 365 license, user accounts, environment access, permission sets, Microsoft Entra security groups, Multi-Factor Authentication, and Azure service tags.\n\nThe pages then go deeper on each layer. The security groups page explains how to apply permissions to all members of a group, with support for Microsoft Entra ID and Windows Active Directory in online and on-premises deployments. The Grant user permissions subtopic covers creating users by license type, assigning permission sets, and defining granular permissions. The Microsoft 365 licenses subtopic covers read-only access to Business Central data through Microsoft Teams.\n\nStart with the main page to see how licensing, accounts and permissions fit together. Then go to the subtopic that matches your task: user setup, group-based permission management, or Microsoft 365 license access.",
+  "key_points": [
+    "The main page covers licensing, user accounts, environment access, permissions, and security groups as layers of access control.",
+    "Security groups apply permissions to all members and work with Microsoft Entra ID and Windows Active Directory, online and on-premises.",
+    "Security group tasks include creating groups, assigning permissions, company-specific permissions, multi-company access, and managing membership.",
+    "Granting user permissions covers creating users by license type and assigning permission sets.",
+    "Granular permission sets can define read, insert, modify, delete and execute access, including record-level security.",
+    "Microsoft 365 license holders get read-only access to Business Central data through Microsoft Teams.",
+    "The Microsoft 365 license pages cover setup, authentication, user provisioning, and common licensing and permission questions.",
+    "The security groups page lists versions 25.11, 26.5 and 27.4."
+  ],
+  "members_used": 2,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:01.070Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011905
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:27.895Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point saying granular permission sets define access 'including record-level security' stretches the source a little. The Grant user permissions subtopic only says it answers questions about record-level security. It does not say that granular permission sets provide it.",
+      "Minor: the version key point (25.11, 26.5, 27.4) is supported, but agents get little from it because it doesn't say what changed in those versions."
+    ],
+    "input_hash": "bd02bfc737d4992b18029cb11c2e07052c687519dd59fde1596c0ed5b4fd9c65",
+    "cost_usd": 0.026711199999999997
+  }
+}

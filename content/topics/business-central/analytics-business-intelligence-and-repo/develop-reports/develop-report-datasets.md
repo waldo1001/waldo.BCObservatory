@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
 type: topic
 title: Develop report datasets
-summary: "Learn section Analytics, business intelligence, and reporting > Develop reports > Develop report datasets: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Report dataset development in Business Central: an overview of building reports with datasets, layouts (Excel, Word, RDL) and request pages, plus performance guidance for AL developers. It answers questions about report structure, layout choices, and tuning AL code, pages, and web services."
 tier: official
 language: en
 system: reporting
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 5ca3e133e33abdc1442938051f313b20bcb39e9766f705756fb12e441cdfd578
+  prompts:
+    hub-topic: 1
+  input_hash: 06a4da56f5e28a0f3da6586f5abbc1ca15696cf616374c888462262a51586d60
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
@@ -58,14 +59,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 5ca3e133e33abdc1442938051f313b20bcb39e9766f705756fb12e441cdfd578
-narrative: none
+narrative: generated
 ---
 
 # Develop report datasets
 
-> Learn section Analytics, business intelligence, and reporting > Develop reports > Develop report datasets: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Report dataset development in Business Central: an overview of building reports with datasets, layouts (Excel, Word, RDL) and request pages, plus performance guidance for AL developers. It answers questions about report structure, layout choices, and tuning AL code, pages, and web services.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section is for AL developers who build reports and need their datasets to perform well. It has two pages: a reports overview and a collection of performance articles for AL developers.
+
+Start with Reports overview. It explains how reports print, display, and process data, and how the dataset, the layout, and the request page work together. It also covers report extensions and discoverability. Layout options are Excel, Word, and RDL, and you can design them visually.
+
+Then read Performance Articles for AL Developers. It covers efficient page design, web services, reports, AL coding patterns, data access optimization, and testing. Use it to tune the datasets and code behind your reports and the rest of the application.
+
+## Key points
+
+- Reports can be used for printing, displaying, and processing data.
+- A report is built from a dataset, one or more layouts, and a request page.
+- Supported layout types are Excel, Word, and RDL, with visual layout design.
+- Report extensions and discoverability are covered in the overview.
+- Performance guidance covers pages, web services, reports, AL coding patterns, data access, and testing.
+- Specific performance topics include page background tasks, Edit-in-Excel, query objects, partial records, table extension impact, and event subscriptions.
+- The performance articles reference 2021 release wave 2, 2023 release wave 1, and 2023 release wave 2.
 
 ## Learn pages
 

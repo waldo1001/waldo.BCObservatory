@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/production-assembly-and-job-activities",
+  "input_hash": "8f0fad6ab9f55c47b695722c4bae8989ca80f5961b5b1e1c5e04f60322fd582f",
+  "summary": "Internal warehouse handling of production, assembly, and project (job) activities in Business Central. It answers questions about picking or moving components, putting away output, and how basic and advanced warehouse configurations differ for these flows.",
+  "overview": "This area covers how items move inside the warehouse for production, assembly, and projects. It describes two complexity levels: basic configurations that use inventory picks, inventory movements, and inventory put-aways, and advanced configurations that use warehouse picks, warehouse put-aways, and movements with directed put-away and pick.\n\nStart with the design details page, which explains the flows and the options that shape them, such as whether bin code is mandatory and the to-production bin code. Then go to the page that matches your setup: pick or move items in basic configurations, pick for internal operations in advanced configurations, or put away production output.\n\nThe pick pages cover component flushing and over-picking. The put-away page covers output from production and assembly.",
+  "key_points": [
+    "Flows range from basic order-by-order picks and put-aways to advanced directed activities that consolidate operations across multiple source documents.",
+    "Basic configurations use inventory picks and inventory movements for components; a pick posts consumption immediately, while a movement needs separate consumption posting.",
+    "Advanced configurations use warehouse pick documents, created in push or pull fashion, with directed put-away and pick determining bin selection.",
+    "Bin ranking and cross-dock bins are involved in advanced bin selection.",
+    "Component flushing method and over-picking affect the pick workflow in both basic and advanced setups.",
+    "Production and assembly output is put away with inventory put-aways (basic) or warehouse put-aways and movements (advanced).",
+    "The bin code mandatory setting and the to-production bin code are design options that shape the flows.",
+    "The same flow concepts apply to production, assembly, and project consumption."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:23.737Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011299
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:05.521Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on bin ranking and cross-dock bins is a mild inference: the advanced pick page lists them as features, and its summary says directed put-away and pick determines bin selection, but how bin ranking and cross-dock bins are used is not stated.",
+      "Final key point generalises slightly: the design page lists production output, assembly consumption and project consumption, so production consumption is only implied by the pick pages. Still acceptable.",
+      "Inbound warehouse requests (a put-away page feature) are not mentioned; this is an omission, not an error."
+    ],
+    "input_hash": "8f0fad6ab9f55c47b695722c4bae8989ca80f5961b5b1e1c5e04f60322fd582f",
+    "cost_usd": 0.0367512
+  }
+}

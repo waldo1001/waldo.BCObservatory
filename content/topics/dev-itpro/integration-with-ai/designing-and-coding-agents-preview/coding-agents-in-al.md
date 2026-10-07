@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al
 type: topic
 title: Coding agents in AL
-summary: "Learn section Integration with AI > Designing and coding agents (preview) > Coding agents in AL: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Coding agents in AL (preview) covers building custom Business Central agents in AL: defining and registering them, setup pages, programmatic configuration, task management, model selection, and converting a prototyped agent to code. It answers how-to questions about the interfaces, codeunits and page types involved."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
+  prompts:
+    hub-topic: 1
+  input_hash: 273246acb57d28ec7afd92fa67c6ac10fad1745802d3f9f85bbe8b6cc55a1357
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -97,6 +98,7 @@ links:
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
+    - post/demiliani-com/12644
     - post/kauffmann-nl/8436
   guidelines: []
 learn_toc_path:
@@ -110,18 +112,37 @@ coverage:
   learn: 8
   code: 0
   video: 3
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
-narrative: none
+narrative: generated
 ---
 
 # Coding agents in AL
 
-> Learn section Integration with AI > Designing and coding agents (preview) > Coding agents in AL: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Coding agents in AL (preview) covers building custom Business Central agents in AL: defining and registering them, setup pages, programmatic configuration, task management, model selection, and converting a prototyped agent to code. It answers how-to questions about the interfaces, codeunits and page types involved.
 
-Path: [Integration with AI](../../integration-with-ai.md) > [Designing and coding agents (preview)](../designing-and-coding-agents-preview.md) > Coding agents in AL · tier official · system development · no narrative yet
+Path: [Integration with AI](../../integration-with-ai.md) > [Designing and coding agents (preview)](../designing-and-coding-agents-preview.md) > Coding agents in AL · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section is for developers who want to write an agent in AL instead of only using the design experience. It explains the core interfaces (IAgentFactory, IAgentMetadata, IAgentTaskExecution), how to register an agent through the Agent Metadata Provider enum and the Copilot capability, and how to give it a setup experience.
+
+The pages fit together as a build sequence. Start with the overview page, which has a quick-start template. Then define and register the agent, create the setup page with the ConfigurationDialog page type and Agent Setup Part, and configure instances with the Agent codeunit (instructions, display name, profile, localization, archiving). Managing agent tasks covers creating tasks from page actions, business events and email triggers, plus attachments and lifecycle.
+
+If you already prototyped an agent in the design experience, use the convert page to export its settings and package them in an AL app. The AI models page explains model selection and resolution for agents created either way. All pages are marked preview.
+
+## Key points
+
+- Custom agents are built by extending the Agent Metadata Provider enum and implementing IAgentFactory, IAgentMetadata and IAgentTaskExecution, and by registering the Copilot capability.
+- The overview page includes a quick-start template and guidance on setup pages, task lifecycle, attachments and cross-agent operations. It mentions versions 27.4 and 28.1.
+- Setup pages use the ConfigurationDialog page type, a modal dialog with OK and Cancel system actions, a Content area, temporary data sources and AgentSetupPart.
+- Setup pages should make changes reversible, track changes, and persist custom configuration fields.
+- The Agent codeunit configures instances programmatically: Archive, IsArchived, SetInstructions, SetDisplayName, SetProfile and UpdateLocalizationSettings.
+- Agent tasks can be created from page actions, business events and email triggers, with attachments, message tracking and external ID tracking. The tasks page mentions version 28.1.
+- Converting a prototyped agent to AL means exporting its settings, then implementing instructions, permission sets, default profile, agent user settings, localization settings and triggering logic.
+- The AI models page covers auto model selection, model lifecycle, and the resolution order between agent-level and task-level models.
 
 ## Learn pages
 
@@ -142,6 +163,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../posts/aardvarklabs-blog/3348.md) (community post): "step-by-step AL code examples to limit what agents can see and do"
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents require enabling the feature, assigning AGENT-ADMIN permissions"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "how to create, configure, and register agents programmatically in Business Central using AL code"
+- [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
 - [Designing Agents for Business Central](../../../../posts/kauffmann-nl/8436.md) (community post): "Coding agents in AL code, reducing manual conversion time to minutes"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"

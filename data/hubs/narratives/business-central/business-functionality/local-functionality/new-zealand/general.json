@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand/general",
+  "input_hash": "4fb2ed530977008e3274e9f822819482b0bdc2ebfb2288f5a8a7b3e3c5294836",
+  "summary": "New Zealand general local functionality in Business Central: address handling with DPID and postal codes, cost plus percentage sales pricing, and IRD numbers with adjustment notes for GST. It answers setup and usage questions for NZ-specific tax and address needs.",
+  "overview": "This section collects the New Zealand-specific features that apply across the application. It covers how addresses are handled, how sales prices can be set from cost, and how Inland Revenue Department (IRD) numbers and adjustment notes support tax compliance.\n\nThe four pages are independent and short. Start with the IRD number pages if you need tax compliance: one explains where to enter the numbers, the other explains adjustment notes (credit memos) and GST claims. Use the addresses page for postal code, city and DPID questions, and the pricing page for cost markup calculation.",
+  "key_points": [
+    "Addresses: a single postal code can map to multiple cities, with city and region mapping on postal code lookup.",
+    "Addresses use the Delivery Point Identifier (DPID) for validation and for generating address barcodes, with AMAS software integration.",
+    "Sales prices can be determined by cost plus percentage, a markup on cost, as NZ local functionality.",
+    "IRD numbers are entered in the IRD No. field on the Registration FastTab of the Company Information and Vendor Card pages.",
+    "Adjustment notes (credit memos) adjust GST claims when the consideration amount changes.",
+    "Adjustment tracking supports the New Zealand tax requirements for these notes."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:57.301Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009477
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:32.677Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls the four pages 'short'. The inputs don't say how long the pages are, but this is minor.",
+      "Key point 4 says the Registration FastTab is on both the Company Information and Vendor Card pages. That is a reasonable reading of the features list, which names the FastTab without saying which page it is on.",
+      "Key point 6 ('Adjustment tracking supports the New Zealand tax requirements') stretches the bare 'adjustment tracking' feature tag a little, but it fits the page summary.",
+      "Key point 1 says postal code lookup maps city and region. The inputs list 'postal code lookup' and 'city region mapping' separately, so this link is a small inference."
+    ],
+    "input_hash": "4fb2ed530977008e3274e9f822819482b0bdc2ebfb2288f5a8a7b3e3c5294836",
+    "cost_usd": 0.0269712
+  }
+}

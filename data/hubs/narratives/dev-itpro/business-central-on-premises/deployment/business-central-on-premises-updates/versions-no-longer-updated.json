@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/deployment/business-central-on-premises-updates/versions-no-longer-updated",
+  "input_hash": "08091104c038c3df3d8de38a5089cbc0d155ff411199b29241d32fdbebe4f135",
+  "summary": "Archive of update pages for Business Central on-premises versions that no longer receive updates, from version 13 (October 2018) to version 25 (2024 release wave 2). It answers questions about which cumulative updates, hotfixes and regulatory features were released for each older version, and when.",
+  "overview": "This section holds one page per retired on-premises release. Each page lists the cumulative updates for that version, with hotfixes and regulatory features. Depending on the page, it also gives build numbers, release dates or local version support. The pages cover version 13 (October 2018), 14 (Spring 2019), and the release waves from 2019 wave 2 (version 15) through 2024 wave 2 (version 25). There are no subtopics.\n\nPick the page that matches the version you run. Use it to check which update level you are on, what a given update contained, and the period in which updates were released for that version.\n\nStart with the page for your version number. If your version is listed here, it is no longer updated, so these pages are a record of past updates and not a source of current ones.",
+  "key_points": [
+    "Version 13 (October 2018): monthly cumulative updates from November 2018 through April 2020, with local version support in multiple countries.",
+    "Version 14 (Spring 2019): updates from May 2019 through October 2023.",
+    "Versions 15 and 16 (2019 wave 2, 2020 wave 1): updates listed with build numbers and release dates, to April 2021 and October 2021 respectively.",
+    "Version 17 covers Update 17.1 through 17.17; version 18 covers Update 18.1 through 18.18.",
+    "Versions 19, 20 and 21 (2021 wave 2, 2022 wave 1, 2022 wave 2): updates run to April 2023, October 2023 and April 2024.",
+    "Version 22 (2023 wave 1) updates run May 2023 to October 2024; version 23 (2023 wave 2) runs November 2023 to April 2025.",
+    "Version 24 (2024 wave 1) updates run May 2024 to October 2025.",
+    "Version 25 (2024 wave 2) page lists updates 25.0 through 25.8 with build numbers."
+  ],
+  "members_used": 13,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:39.900Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018913
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:17.855Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the pages 'share the same structure and differ only by version'. The summaries don't support this: the pages list different details (some give build numbers and release dates, some mention local version support, some only give update ranges). I rewrote that sentence.",
+      "Small point: the version 25 page summary says to use the page to find the latest updates and keep deployments current. That doesn't fit a hub of versions that are no longer updated, but the narrative's framing follows the hub title, so I left it.",
+      "Key points are all supported: version labels, date ranges (Nov 2018 to Apr 2020, May 2019 to Oct 2023, to Apr 2021, Oct 2021, Apr 2023, Oct 2023, Apr 2024, May 2023 to Oct 2024, Nov 2023 to Apr 2025, May 2024 to Oct 2025), and update ranges 17.1 to 17.17, 18.1 to 18.18 and 25.0 to 25.8."
+    ],
+    "input_hash": "08091104c038c3df3d8de38a5089cbc0d155ff411199b29241d32fdbebe4f135",
+    "cost_usd": 0.0527072
+  }
+}

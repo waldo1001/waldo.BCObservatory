@@ -2,7 +2,7 @@
 id: topic/dev-itpro/get-started/develop/embed-apps/app-management
 type: topic
 title: App Management
-summary: "Learn section Get started > Develop > Embed apps > App Management: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: App Management covers the App Management API and how ISVs use it to manage Business Central app deployments, updates, and customer environments. It answers questions about the API entities, ISV update workflows, and upgrading apps with breaking changes using ForceSync.
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2f86df9f6d5908bba7b5e440c20a8fb5e394714c5d679fcf012d94dd42b185a1
+  prompts:
+    hub-topic: 1
+  input_hash: 3276fc7188d1a09f85e9dcbecbb1abd09c3b0b189fa5f7d4402a031c236ecbb1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-api
@@ -66,14 +67,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2f86df9f6d5908bba7b5e440c20a8fb5e394714c5d679fcf012d94dd42b185a1
-narrative: none
+narrative: generated
 ---
 
 # App Management
 
-> Learn section Get started > Develop > Embed apps > App Management: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> App Management covers the App Management API and how ISVs use it to manage Business Central app deployments, updates, and customer environments. It answers questions about the API entities, ISV update workflows, and upgrading apps with breaking changes using ForceSync.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > App Management · tier official · system none · no narrative yet
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > App Management · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+App Management is for ISVs who publish Business Central apps and need to manage them across many customer deployments. The section has three pages: an ISV-oriented overview, a reference for the API itself, and a procedure for a specific upgrade case.
+
+Start with "App Management for ISVs" to see how the API supports app updates, the app repository, customer environment management, hotfix deployment, and continuous integration. Then use "App Management API" as the reference for the REST endpoints and entities. Read "Updating an App Version by Using ForceSync" when an update contains breaking changes and needs the ForceSync sync mode.
+
+## Key points
+
+- The App Management API exposes REST endpoints with create, read, update, and delete operations.
+- API entities: App, Country, Principal, Version, Environment, and Environment Hotfix.
+- The ISV overview covers app updates, the app repository, customer environment management, and hotfix deployment.
+- The API can be used in continuous integration scenarios across multiple Business Central deployments.
+- ForceSync is a sync mode for upgrading apps that have breaking changes, through schema synchronization.
+- The ForceSync page refers to Microsoft Lifecycle Services and side-by-side upgrades.
+- ForceSync updates need careful testing before they are used in production.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/development-environment/testing
 type: topic
 title: Testing
-summary: "Learn section Development > Development environment > Testing: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:01.735Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fd16969a532538bd4b44aa2294f4195b5149dbf1b668b52ea8bd175ca8a159e0
+  prompts:
+    hub-topic: 1
+  input_hash: f871c73d3f458fa1ebd194ecd471504522373f156c55d02a13fb629f2c31bead
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -141,14 +142,33 @@ bc_forms:
   - 149008
   - 149009
 member_hash: fd16969a532538bd4b44aa2294f4195b5149dbf1b668b52ea8bd175ca8a159e0
-narrative: none
+narrative: generated
 ---
 
 # Testing
 
-> Learn section Development > Development environment > Testing: 11 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · no narrative yet
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+The section describes how to build and run automated tests for Business Central apps. It starts with an overview of application testing, then goes into the building blocks: test codeunits and test methods, test pages that simulate user interaction, handler methods that intercept messages, confirmations, pages, reports and notifications, and test runner codeunits that control execution and logging.
+
+Further pages cover running tests. Test Explorer in Visual Studio Code discovers and runs AL tests with run profiles and code coverage. The page scripting tool records and replays web client interactions for acceptance testing, and the Performance Toolkit extension simulates workloads to find performance regressions. A separate page explains how to mock outbound HttpClient calls during tests, which is available on-premises only. A worked example for purchase invoice discounts shows the pieces together, and an FAQ lists what testing an app needs.
+
+Start with the testing overview, then the test codeunits and test pages articles, and use the purchase invoice discount example as a template. Go to the FAQ for testing expectations such as country and upgrade testing.
+
+## Key points
+
+- Test codeunits and test methods use attributes such as TransactionModel and TestDataSource, plus the TestIsolation and TestHandlers properties.
+- Handler methods (MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler) replace user interaction in automated tests.
+- Test runner codeunits use the TestRunner subtype with OnRun, OnBeforeTestRun and OnAfterTestRun triggers for unattended runs and result logging.
+- Test pages simulate user actions: reading and changing fields, filtering, invoking actions, and navigating records.
+- Mocking outbound HttpClient calls uses HttpClientHandler and HandlerFunctions attributes and request policies; it is available on-premises only.
+- Test Explorer in Visual Studio Code supports test discovery, run profiles, code coverage and debugger use; the page is tagged with 2026 release wave 1 (version 28.0).
+- The page scripting tool records and replays web client interactions, supports validation, conditional and wait steps and parameters, and runs in pipelines with bc-replay.
+- The Performance Toolkit lets ISVs and VARs simulate concurrent sessions, compare to baselines, and report through telemetry and Power BI.
 
 ## Learn pages
 

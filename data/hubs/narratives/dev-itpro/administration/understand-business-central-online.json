@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/administration/understand-business-central-online",
+  "input_hash": "1f24850659f88bd0139c3c8d416ecee4bdaae8886e5d9dde09c198bca1512093",
+  "summary": "Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, reseller setup, delegated admin access and technical support. It answers questions on how the online service is organized, run and supported.",
+  "overview": "This section explains how Business Central online is structured and operated. The infrastructure page describes the model: a Microsoft Entra tenant holds environments organized by country/localization, and each environment holds companies as separate legal entities. The Environment types subtopic covers production, sandbox, preview, test and demo environments, including trials, partner sandboxes and quotas.\n\nOperational reference pages cover update cycles (major updates in April and October, monthly minor updates, preview, grace and enforced update periods), version numbering mapped to release waves, operation limits, and country/region availability with supported languages.\n\nPartner-facing pages cover reselling, delegated admin access through GDAP, and technical support. Trials and subscriptions covers the customer-side lifecycle. Start with the infrastructure page, then Environment types, then the page that matches your task.",
+  "key_points": [
+    "Infrastructure: Microsoft Entra tenant, environments per country/localization, companies as separate legal entities within an environment.",
+    "Environment types subtopic (7 pages) covers production, sandbox, preview, test and demo environments, trials, partner sandboxes and quotas.",
+    "Update cycles: major updates twice yearly (April and October), monthly minor updates, with preview, update, grace and enforced update periods, plus rescheduling and maintenance windows.",
+    "Version numbers use the major.minor.build.revision format, with platform and application versions mapped to release waves (listed for versions 24 to 28).",
+    "Operation limits cover client connections, file and database size, search and SQL command timeouts, background sessions, reports, and OData and SOAP requests.",
+    "Country/region availability lists localization providers, Azure geography mapping, and platform and application language support.",
+    "Resellers use Partner Center and the cloud solution provider model; delegated admins get access through GDAP, with the Dynamics 365 Business Central Administrator role and some limits such as job queues.",
+    "Trials and subscriptions covers free trial signup, extending trials, buying subscriptions, data migration, removing licenses and canceling; support page covers contacts, break-fix, performance and data corruption."
+  ],
+  "members_used": 9,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:41.697Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017041
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:56.725Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor omission: the technical support page also covers escalation procedures and on-premises deployments, which the narrative doesn't mention.",
+      "Minor omission: the reseller page also covers go-to-market strategies, customer onboarding and how licensing differs from on-premises, which the narrative doesn't mention."
+    ],
+    "input_hash": "1f24850659f88bd0139c3c8d416ecee4bdaae8886e5d9dde09c198bca1512093",
+    "cost_usd": 0.0368152
+  }
+}

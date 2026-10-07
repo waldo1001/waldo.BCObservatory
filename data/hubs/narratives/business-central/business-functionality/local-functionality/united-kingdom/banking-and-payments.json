@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments",
+  "input_hash": "e88dde30d752f4946b18eb2e22e41dda96b3b1a9f165b5c79fe4c33359b0e155",
+  "summary": "Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance.",
+  "overview": "This section holds UK-specific functionality for paying vendors from payment journals. It has two pages and no subtopics.\n\nPrint Checks for APACS explains how checks are printed in the standard APACS specification layout, including check preview, test print and a preprinted stub. Print Remittance Advice [GB] explains how to print remittance advice so vendors can see their invoice numbers and reconcile payments.\n\nStart with the check page if you need to print checks from a payment journal. Use the remittance page if you need to send vendors payment details, before or after posting.",
+  "key_points": [
+    "Print Checks for APACS prints checks from payment journals using the standard APACS specification layout.",
+    "Check printing supports check preview and test print.",
+    "The APACS check layout works with a preprinted stub.",
+    "Print Remittance Advice [GB] is available in the British version.",
+    "Remittance advice shows vendor invoice numbers to help vendors reconcile.",
+    "Remittance advice can be printed before or after posting a payment journal.",
+    "The section has two pages and no subtopics."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:13.353Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0076489999999999995
+  }
+}

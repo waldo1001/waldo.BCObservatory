@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics",
+  "input_hash": "65b03b41606287feb128435c5c2645f0b7f402c83b97823e8ec3e480117bd63e",
+  "summary": "Subscription billing analytics covers the Power BI Subscription Billing app for Business Central: setup, semantic model, KPI definitions, and the reports for recurring revenue, churn, contract value, forecasts, and deferrals. It answers questions about what each report shows and how to set up the app.",
+  "overview": "This section describes the Power BI Subscription Billing app, which tracks the performance of a subscription business. It includes reports on monthly recurring revenue (MRR), churn, total contract value (TCV), billing and cost forecasts, and customer and vendor deferrals.\n\nStart with the setup page. The app depends on subscription contract analysis entries, which give monthly snapshots of active and planned subscriptions, and these feed KPIs such as MRR and TCV. The setup also covers monthly job queue scheduling. Then read the app page for the report list, and use the semantic model and KPI pages as references for the data structure and measure definitions.\n\nThe report pages fall into groups. Overview and year-over-year reports give a high-level view. Revenue Analysis, Revenue Development, and the Revenue by Customer, Item, and Salesperson reports break down MRR. Churn Analysis covers lost recurring revenue. Total Contract Value Analysis covers TCV. Billing Schedule and Sales and Cost Forecast look ahead. Customer Deferrals and Vendor Deferrals support deferral accounting and period-end reconciliation.",
+  "key_points": [
+    "The app needs subscription contract analysis entries, which give monthly snapshots of active and planned subscriptions, for accurate KPIs such as MRR and TCV.",
+    "Setup includes scheduling a job queue to run monthly.",
+    "The semantic model is a star schema. Fact tables cover customer and vendor contract lines, contract changes, deferrals, and customer billing forecast. Dimension tables cover customer, vendor, item, and contract context.",
+    "The KPI reference covers MRR, Monthly Recurring Cost, net profit, active customer count, churn and upgrade tracking, forecasts, and TCV.",
+    "Revenue Development splits MRR change into new, upgrade, downgrade, and churn. Churn Analysis breaks down churn and downgrades by component.",
+    "Revenue by Customer, Item, and Salesperson show MRR, recurring cost, and profit for each dimension. Customer and salesperson views also show churn.",
+    "Revenue Analysis and Total Contract Value Analysis use decomposition trees to break down MRR and TCV by dimensions such as contract type and customer.",
+    "Billing Schedule and Sales and Cost Forecast project invoicing, cash flow, revenue, and cost from active subscriptions."
+  ],
+  "members_used": 18,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:07.118Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024815000000000004
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:32.775Z",
+    "verdict": "approve",
+    "issues": [
+      "Semantic model key point: the phrase 'customer and vendor contract lines, contract changes, deferrals' could suggest vendor contract changes exist. The source lists contract changes only for customers. The source also never labels these specific tables as fact tables. Minor ambiguity.",
+      "Billing Schedule key point: the source bases this report on subscription billing rhythms for customers and vendors. Only Sales and Cost Forecast is described as based on active subscriptions. The grouped wording is a small simplification.",
+      "The app page lists a Revenue Forecast report that the narrative does not name separately. This is not an error, just an omission."
+    ],
+    "input_hash": "65b03b41606287feb128435c5c2645f0b7f402c83b97823e8ec3e480117bd63e",
+    "cost_usd": 0.057955200000000005
+  }
+}

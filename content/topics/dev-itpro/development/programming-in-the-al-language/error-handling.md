@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/error-handling
 type: topic
 title: Error handling
-summary: "Learn section Development > Programming in the AL language > Error handling: 16 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 5f28cfcbe8ab1c64bbdc1ec42f2d716b7ab875888435183319b893b988efe312
+  prompts:
+    hub-topic: 1
+  input_hash: 4a21c07b148f5af6fe8ac83f95325cee9a2f0e447a81f4aa3bf8a573c9eb78d4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actionable-errors
@@ -147,6 +148,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/gerardorenteria-blog/12238
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/
   guidelines: []
 learn_toc_path:
@@ -162,18 +165,36 @@ coverage:
   learn: 16
   code: 0
   video: 0
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 5f28cfcbe8ab1c64bbdc1ec42f2d716b7ab875888435183319b893b988efe312
-narrative: none
+narrative: generated
 ---
 
 # Error handling
 
-> Learn section Development > Programming in the AL language > Error handling: 16 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section explains how AL code deals with errors from design to diagnosis. It starts with an overview of strategies (error dialogs, try methods, error collection, telemetry, the ErrorInfo data type and error message quality), then goes into each technique on its own page.
+
+For writing code, the pages cover try methods with the TryFunction attribute, collectible errors using the ErrorBehavior attribute and the error collection API, and actionable errors built with ErrorInfo. Failure modeling and robust coding practices give the design principles behind these choices. The user experience guidelines page covers wording, voice and dialog best practices.
+
+For diagnosis, the page on the error dialog explains what users see and what they can copy for support, such as the AL call stack and the Application Insights session ID. The Error telemetry subtopic goes further into analyzing error events in Application Insights. A subtopic with AL language reference pages for errors is also part of the section. Start with "AL error handling" for orientation.
+
+## Key points
+
+- Actionable errors use ErrorInfo objects with Fix-it and Show-it actions, up to two actions per error, with consistent button labels and field validation support.
+- Try methods use the TryFunction attribute, return a boolean, and can be inspected with GetLastErrorText and GetLastErrorObject; database write restrictions apply, and the page mentions runtime version 2.0.
+- Collectible errors (ErrorBehavior attribute and error collection API) let a procedure gather several validation errors and show them together instead of stopping at the first.
+- The error dialog has a Copy Details section with the AL call stack and the Application Insights session ID, useful for troubleshooting.
+- Failure modeling lists six robust coding principles: do not trust external code, consumers or the environment; offer graceful degradation; hide internal data structures; assume improbable events happen at scale.
+- UX guidelines cover actionable messages, message formatting, validation errors and voice for error text.
+- Error telemetry covers event IDs, dimensions, KQL analysis, permission errors, user votes on error messages, and logging with the Telemetry AL module.
 
 ## Subtopics
 
@@ -194,6 +215,8 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Error Messages with Recommendations extension to transform error messages"
+- [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/.md) (community post): "Good error messages are clear about what went wrong"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

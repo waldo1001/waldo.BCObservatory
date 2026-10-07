@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/developing-for-the-business-central-mobi
 type: topic
 title: Developing for the Business Central mobile app
-summary: "Learn section Development > Programming in the AL language > Pages and the user interface > Developing for the Business Central mobile app: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Developing for the Business Central mobile app (tablet and phone) with AL: strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing. It answers questions about how to build and test mobile-friendly extensions."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 632e6d5a7cdc3332b868f6bf686faacdc1167512a291e4bfb5543bce5acc2c6d
+  prompts:
+    hub-topic: 1
+  input_hash: 9c33e72a66cf0226e54b9639ceaa488ef109135e90179022ce3611032c3ee3ff
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-mobile-app-barcode-scanning
@@ -107,14 +108,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 632e6d5a7cdc3332b868f6bf686faacdc1167512a291e4bfb5543bce5acc2c6d
-narrative: none
+narrative: generated
 ---
 
 # Developing for the Business Central mobile app
 
-> Learn section Development > Programming in the AL language > Pages and the user interface > Developing for the Business Central mobile app: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Developing for the Business Central mobile app (tablet and phone) with AL: strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing. It answers questions about how to build and test mobile-friendly extensions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Developing for the Business Central mobile app · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Developing for the Business Central mobile app · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+The Business Central mobile app gives small and medium-sized business users tablet and phone interfaces with touch-optimized design. It is meant for portable access and light data entry, and it does not replace the web client. Extensions for it use the same AL development framework, with extra care for smaller screens, touch input and role centers.
+
+Start with the introduction and the get-started page, then read the strategy page to choose between platform-native AL development, a Power Apps connector, or OData/SOAP web services. Next, use the screen size and limitations pages to design pages that work on small devices. The Sales Rep Role Center walkthrough shows a practical tablet example.
+
+For testing, you can open the tablet or phone client directly in a browser with URL parameters. This is for design-phase testing only, not a supported production scenario. The barcode scanning page covers camera and dedicated scanner capabilities through AL code and control add-in APIs.
+
+## Key points
+
+- Mobile extensions use the same AL development framework as the web client, with attention to small screens, touch and role centers.
+- Strategy options compared: Business Central platform development, Power Apps connector, custom connector, OData web services and SOAP web services.
+- Mobile page limits include no multiple selection, no FactBoxes on lists, no advanced filters, restricted action visibility and no worksheets.
+- Screen size guidance covers layout constraints, element counts per page type, activity tiles and list columns, with device emulation in Edge DevTools.
+- Tablet and phone clients can be opened in a browser by URL parameters (company, page, report, profile) for testing only, with multitenant support.
+- Barcode scanning works through the device camera or dedicated Android scanners, using UI buttons or programmatic calls, via control add-in and .NET-based APIs (versions 23.0 and 24 are mentioned).
+- A walkthrough builds a Sales Rep Role Center for the tablet client from existing pages and actions, including KPIs and sales quotes.
 
 ## Learn pages
 

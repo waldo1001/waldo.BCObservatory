@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia
 type: topic
 title: Australia
-summary: "Learn section Business functionality > Local functionality > Australia: 26 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:29.795Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 566852d4426a5200a31fb9d41a1e926f35157935bd9ad26d79ae8b09f988677c
+  prompts:
+    hub-topic: 1
+  input_hash: 373cacbcce017fef53576315c6eff42c19c415d94cf9d1e8175b8b905a373c89
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses
@@ -276,14 +277,33 @@ bc_forms:
   - 28166
   - 28167
 member_hash: 566852d4426a5200a31fb9d41a1e926f35157935bd9ad26d79ae8b09f988677c
-narrative: none
+narrative: generated
 ---
 
 # Australia
 
-> Learn section Business functionality > Local functionality > Australia: 26 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Australia section covers features added for Australian regulatory and business requirements. An introductory page lists the main areas: withholding tax and GST, EFT and bank reconciliation, financial reports, and ABN entry. A separate page covers electronic invoicing using the E-Document framework with the Peppol PINT A-NZ format.
+
+The detail sits in four subtopics. Tax covers WHT setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports and exchange rate adjustment for VAT entries. Banking and payments covers bank cash flow comparison, check installments, EFT vendor payments, and bank reconciliation and deposit slip reports. Core finance covers distribution amount calculation, balance sheet and income statement reports, and business units for BAS. General covers addresses, ABN and adjustment notes, cost plus percentage pricing and Payment Times Reporting.
+
+Start with the Australia local functionality page for an overview, then go to the subtopic that matches your task. Use the electronic invoicing page if you need to send e-documents in Australia.
+
+## Key points
+
+- Withholding tax (WHT) has its own setup and settlement pages, including handling of vendors without an ABN.
+- GST support includes posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries.
+- EFT vendor payments are supported in the banking and payments pages.
+- Banking pages also cover bank cash flow comparison, check installments, and printing bank reconciliation and deposit slip reports.
+- Core finance covers distribution amount calculation and printing balance sheet and income statement reports.
+- Business units can be set up for business activity statements (BAS) consolidation.
+- General pages cover address handling, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.
+- Electronic invoicing uses the E-Document framework with the Peppol PINT A-NZ format and service integration.
 
 ## Subtopics
 

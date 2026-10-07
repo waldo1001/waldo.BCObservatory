@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/administration",
+  "input_hash": "b575b7446245033f42a7edbdcc083622a523f984318c151f2440aeaad59e0e26",
+  "summary": "Administration of Business Central online: how the service is organized, how tenant admins and delegated partners manage environments, users, licensing, updates and telemetry, and how to prepare, onboard, monitor, support and migrate to the online service. It answers admin, setup, API and migration questions.",
+  "overview": "This section is for internal administrators and delegated partners who run Business Central online tenants. The landing page introduces the main duties: user management, permission assignment, licensing, environment updates, telemetry and partner relationships.\n\nThe subtopics split the work by task. Start with \"Understand Business Central online\" for tenants, environments, companies, update cycles and support basics. Then use \"Admin center\" for day-to-day environment management, and \"Entitlements and permissions\" for access and license plans. \"Prepare Business Central\" and \"Onboard your customers\" cover getting an environment and new users ready.\n\nFurther subtopics cover ongoing operations: telemetry monitoring with Application Insights, technical support and escalation, the Automation API and Cloud Migration API, and migration of on-premises data from Business Central, Dynamics NAV, GP or SL to the online service.",
+  "key_points": [
+    "Admin center is the portal for the environment lifecycle: create, copy, rename, delete, restore, transfer and export, plus apps, updates, capacity, notifications and billing.",
+    "Online fundamentals cover tenants, environments, companies, environment types, update cycles, version numbers, operation limits, and country/region and language availability.",
+    "Entitlements, permissions and permission sets differ; the SUPER, D365 BASIC and SYSTEM APP permission sets are explained.",
+    "Preparation tasks include configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management and app key vaults.",
+    "Onboarding covers trials, the SignupContext parameter, the Welcome banner, checklists, teaching tips, tours and onboarding telemetry.",
+    "Telemetry (70 pages) covers enabling Application Insights, event IDs, KQL and Power BI analysis, alerting, and cost and retention control.",
+    "Technical support pages cover troubleshooting tools, escalating to Microsoft, and reporting performance problems and production outages.",
+    "Migration covers routes from Business Central, NAV, GP and SL, custom SQL migrations, cloud migration phases, FAQs and troubleshooting; the Automation API and Cloud Migration API support automation."
+  ],
+  "members_used": 1,
+  "subtopics_used": 8,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:36.095Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015351
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:05.971Z",
+    "verdict": "approve",
+    "issues": [
+      "Automation API and Cloud Migration API have no summaries; saying they 'support automation' is a guess from their titles, though harmless.",
+      "The overview's 'support basics' is the only hint of what else the 'Understand Business Central online' summary covers; trials and subscriptions, reseller setup and delegated admin access are not mentioned, and the Admin Center API subtopic is also left out.",
+      "Only the telemetry key point gives a page count (70); it is correct but stands out."
+    ],
+    "input_hash": "b575b7446245033f42a7edbdcc083622a523f984318c151f2440aeaad59e0e26",
+    "cost_usd": 0.0417992
+  }
+}

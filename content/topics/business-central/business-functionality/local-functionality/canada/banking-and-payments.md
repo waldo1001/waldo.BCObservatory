@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/canada/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Canada > Banking & payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2f34d11520ffa61bb011157793fb2a3f80f4354f3cf074426633e07d5aee6eda
+  prompts:
+    hub-topic: 1
+  input_hash: 1c7c3a09223235ff3f20409ee05a2bade9f86f248297295bf0344e8b64be17bb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits
@@ -73,14 +74,31 @@ bc_forms:
   - 10811
   - 36646
 member_hash: 2f34d11520ffa61bb011157793fb2a3f80f4354f3cf074426633e07d5aee6eda
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Canada > Banking & payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds two pages on banking and payment tasks in the Canadian version of Business Central. One is about creating deposits. The other is about paying vendors electronically by exporting payment information.
+
+The payment export page explains how payment data is exported to SEPA Credit Transfer format or processed with the AMC Banking 365 Fundamentals extension, so banks can handle the payments electronically. It also touches on bank data conversion, credit transfer registration tracking and payment export history.
+
+Start with the deposits page if you need to record deposits in the Canadian version. Use the payment export page if you need to send vendor payments to a bank as a file. The summaries give few details, so open the pages for the exact steps.
+
+## Key points
+
+- The section has no subtopics, only two pages.
+- 'How to create deposits [CA]' documents creating deposits in the Canadian version.
+- Vendor payments can be made by exporting payment information for electronic processing through banks.
+- Export formats and tools covered: SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.
+- The payment export page mentions payment file export and bank data conversion.
+- Credit transfer registration tracking and payment export history are covered for following exported payments.
 
 ## Learn pages
 

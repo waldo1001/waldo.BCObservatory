@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets
 type: topic
 title: Set up fixed assets
-summary: "Learn section Business functionality > Set up Business Central > Set up fixed assets: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Fixed assets setup in Business Central: general FA information, depreciation books and methods, user-defined depreciation tables, insurance, and maintenance. It answers questions about what to configure before registering and depreciating fixed assets, and where each setting lives."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e1e78567f7772b99118df09c4582828882dc9482e72bc90f276631dcc13fb6db
+  prompts:
+    hub-topic: 1
+  input_hash: 46f0aa2fef8a4cac753d738f8f0a25bb4f0a1b8014f5f5e2f13983909d698cd0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-depreciation
@@ -115,14 +116,32 @@ bc_forms:
   - 5662
   - 9277
 member_hash: e1e78567f7772b99118df09c4582828882dc9482e72bc90f276631dcc13fb6db
-narrative: none
+narrative: generated
 ---
 
 # Set up fixed assets
 
-> Learn section Business functionality > Set up Business Central > Set up fixed assets: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Fixed assets setup in Business Central: general FA information, depreciation books and methods, user-defined depreciation tables, insurance, and maintenance. It answers questions about what to configure before registering and depreciating fixed assets, and where each setting lives.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up fixed assets · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to prepare Business Central to track fixed assets. It starts with an overview page listing the setup requirements: depreciation configuration, G/L account mappings, and optional insurance and maintenance setup, plus user-defined depreciation methods where needed.
+
+The general FA information page covers the base infrastructure: default G/L accounts, posting groups, journal templates, asset classification (classes and subclasses), locations, allocation keys, and how to register the first assets. Depreciation setup builds on this with depreciation books, methods, posting types, and default templates. A separate page covers user-defined depreciation methods that use depreciation tables.
+
+Insurance and maintenance pages are optional add-ons. Start with the overview page, then the general FA information page, then depreciation. Add insurance, maintenance, or user-defined methods only if your process needs them.
+
+## Key points
+
+- General FA setup covers default G/L accounts, posting groups, journal templates, asset classes and subclasses, locations, and allocation keys.
+- Depreciation setup involves creating depreciation books, assigning them to assets, configuring posting types, and setting default templates.
+- Depreciation methods mentioned include straight-line, declining-balance, manual, and user-defined; rounding in periodic depreciation is also covered.
+- User-defined methods use depreciation tables with custom percentages per period, and support unit-based, sum of digits, or accelerated depreciation, with a depreciation starting date.
+- Insurance setup includes general insurance information, insurance types and cards, and insurance journal templates and batches.
+- Maintenance setup includes general information, maintenance codes for work types, and the maintenance expense account in posting groups.
+- Insurance and maintenance setup are optional; depreciation and G/L mappings are required.
 
 ## Learn pages
 

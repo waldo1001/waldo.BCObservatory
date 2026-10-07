@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/understand-business-central-online/environment-types/demo-environments
 type: topic
 title: Demo environments
-summary: "Learn section Administration > Understand Business Central online > Environment types > Demo environments: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Demo environments for Business Central: how to choose between an MDX demo environment, a prospect trial, and a sandbox, and how to set up and enhance each one. It answers questions about demo setup options, Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:25.430Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ecd63b9d634998c441c24d50801a43cc4e0cedda6cbd2962c5488831970446eb
+  prompts:
+    hub-topic: 1
+  input_hash: 74534cf79b57bc8770d1ec3aa231619580f8dfabac751de7718c925540ecbf2f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements
@@ -78,14 +79,33 @@ bc_forms:
   - 2502
   - 20350
 member_hash: ecd63b9d634998c441c24d50801a43cc4e0cedda6cbd2962c5488831970446eb
-narrative: none
+narrative: generated
 ---
 
 # Demo environments
 
-> Learn section Administration > Understand Business Central online > Environment types > Demo environments: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Demo environments for Business Central: how to choose between an MDX demo environment, a prospect trial, and a sandbox, and how to set up and enhance each one. It answers questions about demo setup options, Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations.
 
-Path: [Administration](../../../administration.md) > [Understand Business Central online](../../understand-business-central-online.md) > [Environment types](../environment-types.md) > Demo environments · tier official · system administration · no narrative yet
+Path: [Administration](../../../administration.md) > [Understand Business Central online](../../understand-business-central-online.md) > [Environment types](../environment-types.md) > Demo environments · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This area helps partners and resellers prepare environments to demonstrate Business Central. It compares three approaches (MDX demo environment, prospect trial, and sandbox environment) based on demo goals, control requirements, and timeline.
+
+Start with the page on preparing demonstration environments to pick an approach. Then follow the matching setup page: one for MDX, which builds repeatable demos with Microsoft 365 apps and services in independent Azure tenants, and one for trial and sandbox options, which show Business Central in a prospect's own organization or in an isolated scenario within an existing tenant.
+
+A further page covers enhancements to demo environments, such as adding Contoso Coffee demo data, connectivity apps, Dynamics 365 Sales and Field Service integrations, and Dataverse connections.
+
+## Key points
+
+- Three demo approaches are compared: MDX demo environment, prospect trial, and sandbox environment.
+- MDX creates repeatable demo environments showing Business Central with Microsoft 365 apps and services in independent Azure tenants.
+- MDX setup covers the premium user experience, Contoso Coffee Demo Data, connectivity apps, Dynamics 365 Sales Professional integration, Microsoft Edge profiles, and performance optimization.
+- Trial and sandbox options include prospect trial signup, trial extension, sandbox setup, and partner sandbox licenses.
+- Trials show Business Central in the prospect's own organization; sandboxes give isolated scenarios within existing tenants.
+- Demo environments can be enhanced with Contoso Coffee demo data, Dynamics 365 Sales and Field Service integrations, and a Dataverse connection.
+- Sandbox environments can be reset, as mentioned in the enhancement guidance.
+- The trial and sandbox page references February 2022.
 
 ## Learn pages
 

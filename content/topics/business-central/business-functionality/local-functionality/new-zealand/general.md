@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > New Zealand > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "New Zealand general local functionality in Business Central: address handling with DPID and postal codes, cost plus percentage sales pricing, and IRD numbers with adjustment notes for GST. It answers setup and usage questions for NZ-specific tax and address needs."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:32.677Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6557363eaf71ce1c4b28efa20f4f83123a8f6e4c321622c793e6a80460eb2dd7
+  prompts:
+    hub-topic: 1
+  input_hash: 4fb2ed530977008e3274e9f822819482b0bdc2ebfb2288f5a8a7b3e3c5294836
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses
@@ -75,14 +76,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6557363eaf71ce1c4b28efa20f4f83123a8f6e4c321622c793e6a80460eb2dd7
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > New Zealand > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> New Zealand general local functionality in Business Central: address handling with DPID and postal codes, cost plus percentage sales pricing, and IRD numbers with adjustment notes for GST. It answers setup and usage questions for NZ-specific tax and address needs.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects the New Zealand-specific features that apply across the application. It covers how addresses are handled, how sales prices can be set from cost, and how Inland Revenue Department (IRD) numbers and adjustment notes support tax compliance.
+
+The four pages are independent and short. Start with the IRD number pages if you need tax compliance: one explains where to enter the numbers, the other explains adjustment notes (credit memos) and GST claims. Use the addresses page for postal code, city and DPID questions, and the pricing page for cost markup calculation.
+
+## Key points
+
+- Addresses: a single postal code can map to multiple cities, with city and region mapping on postal code lookup.
+- Addresses use the Delivery Point Identifier (DPID) for validation and for generating address barcodes, with AMAS software integration.
+- Sales prices can be determined by cost plus percentage, a markup on cost, as NZ local functionality.
+- IRD numbers are entered in the IRD No. field on the Registration FastTab of the Company Information and Vendor Card pages.
+- Adjustment notes (credit memos) adjust GST claims when the consideration amount changes.
+- Adjustment tracking supports the New Zealand tax requirements for these notes.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade
 type: topic
 title: Upgrade
-summary: "Learn section Business Central on-premises > Upgrade: 113 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Upgrade documentation for Business Central on-premises: supported upgrade paths from v14 to v29, per-version upgrade guides, known issues, and related conversion and migration articles. It answers which route reaches a target version, which steps apply to a source version, and what to check first."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:15.485Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e884ecc91be6e839aa2d84ba04f77ca8d1b17004f69c48fab181a7c6af1bb9ff
+  prompts:
+    hub-topic: 1
+  input_hash: 27ecbd38654347640ca362f4ab3c8b8133ef123ccf99cc87b1bd23803978c580
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -318,6 +319,13 @@ links:
   posts:
     - post/dvlprlife-com/https://www.dvlprlife.com/2026/08/august-2026-cumulative-updates-for-dynamics-365-business-central/
     - post/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/
+    - post/gerardorenteria-blog/10921
+    - post/gerardorenteria-blog/11452
+    - post/gerardorenteria-blog/11766
+    - post/gerardorenteria-blog/12231
+    - post/gerardorenteria-blog/12460
+    - post/gerardorenteria-blog/12728
+    - post/gerardorenteria-blog/13195
     - post/gerardorenteria-blog/13744
   guidelines: []
 learn_toc_path:
@@ -337,19 +345,37 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 3
+  blog: 10
   guideline: 0
 bc_forms:
   - 19010
 member_hash: e884ecc91be6e839aa2d84ba04f77ca8d1b17004f69c48fab181a7c6af1bb9ff
-narrative: none
+narrative: generated
 ---
 
 # Upgrade
 
-> Learn section Business Central on-premises > Upgrade: 113 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> Upgrade documentation for Business Central on-premises: supported upgrade paths from v14 to v29, per-version upgrade guides, known issues, and related conversion and migration articles. It answers which route reaches a target version, which steps apply to a source version, and what to check first.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers upgrading Business Central on-premises. The top-level pages give an overview of upgrading to Dynamics 365 Business Central (online or on-premises, including help migration and multitenancy migration), a matrix of supported upgrade paths, and a list of known issues for installation, upgrade and operations.
+
+Each recent release has its own subtopic: v29 (2026 wave 2), v28 (2026 wave 1), v27 (2025 wave 2), v26 (2025 wave 1) and v25 (2024 wave 2). These explain upgrade paths, pre-upgrade considerations, installing a minor update, and upgrading the System and Base Application from earlier versions. Older releases from v14 (spring 2019) through v24 are in Earlier versions. Related articles cover Txt2Al conversion of v14 C/AL code and moving tables and fields between extensions with migration.json.
+
+Start with the supported upgrade paths page to find your route, then open the guide for your target version. Check the known issues page before you begin.
+
+## Key points
+
+- The supported upgrade paths page shows direct and indirect routes to each release from v14 (Spring 2019) through v29 (2026 wave 2).
+- Direct upgrade from v14 to the latest version is not supported from v26 onwards; v14 must go through v25.
+- Version guides for v26 to v29 include pre-upgrade considerations for v26 and later, plus steps for updates and for upgrading from earlier versions (for example v25 to v28 for the v29 guide).
+- The v25 subtopic also covers report and permission changes and application and data upgrade steps.
+- Earlier versions (v14 to v24, 92 pages) cover technical upgrade, C/AL to AL conversion, and moving tables between extensions.
+- Related articles cover Txt2Al for v14 C/AL code, migration.json for table ownership moves, and the India Data Migration Toolkit.
+- Known issues list problems such as PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets, for versions 23 to 28.
 
 ## Subtopics
 
@@ -373,6 +399,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [August 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/08/august-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "August 2026 cumulative updates are available for Dynamics 365 Business Central"
 - [September 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "September 2026 cumulative updates are available for Dynamics 365 Business Central"
+- [(2025 MAY) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/10921.md) (community post): "Cumulative updates for Business Central replace previously released updates across multiple versions"
+- [(2025 JUL) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11452.md) (community post): "Cumulative updates for Business Central replace previous updates and fix vulnerabilities"
+- [(2025 AUG) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11766.md) (community post): "Three actively maintained versions have cumulative updates: v26, v25, and v24"
+- [(2025 SEP) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12231.md) (community post): "Cumulative updates replace previously released updates for each version"
+- [(2025 OCT) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12460.md) (community post): "Cumulative updates for Business Central versions 26, 25, and 24 are released regularly"
+- [(2025 NOV) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12728.md) (community post): "Cumulative updates for Business Central replace previously released updates for each version"
+- [(2025 DEC) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/13195.md) (community post): "Cumulative updates released for Business Central versions 27, 26, and 25"
 - [Cumulative Updates for Business Central – versions](../../../posts/gerardorenteria-blog/13744.md) (community post): "Cumulative updates for Business Central replace previous releases and fix vulnerabilities"
 
 ## Business Central pages and reports

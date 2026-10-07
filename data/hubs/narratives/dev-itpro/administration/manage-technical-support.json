@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/administration/manage-technical-support",
+  "input_hash": "4a32238b41c6d51c654c2d7069e3d2301a93d9e202acf621129468e9457603fc",
+  "summary": "Technical support management for Business Central covers troubleshooting tools, escalating issues to Microsoft, reporting performance problems, and reporting production outages. It answers questions about gathering diagnostics and about how admins open support requests.",
+  "overview": "This section is for administrators and support staff who need to diagnose Business Central problems and, when needed, hand them to Microsoft. It has no subtopics. The five pages cover the support process and the tools used along the way.\n\nStart with \"Managing technical support\" for the overall tools and processes: the Help and Support page, telemetry analysis, sandbox environments, Application Insights, event recording and page inspection. \"Troubleshooting tools and guides overview\" then points to resources for gathering information and finding causes, such as the Error dialog, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.\n\nWhen a problem needs Microsoft, use \"Escalate support issues to Microsoft\" for submitting requests through the Partner Center or the Business Central Administration Center. Two pages cover specific cases: \"Report a performance issue\" explains which diagnostics to include, and \"Report Customer Outages\" explains how to report a production outage when users cannot sign in.",
+  "key_points": [
+    "Delegated admins can submit support requests to Microsoft through the Partner Center or the Business Central Administration Center.",
+    "The Help and Support page, telemetry analysis, sandbox environments and Application Insights are part of the support toolset.",
+    "Client troubleshooting tools include the Error dialog, Page Inspector, Event Recorder and database lock information.",
+    "Performance reports should include Performance Profiler results (the in-client profiler), session details such as session ID, and telemetry logs.",
+    "AL Profiler, snapshot debugging and telemetry are listed as deeper troubleshooting resources.",
+    "Production outages, where users cannot sign in, are reported with the Report Production Outage action in the admin center, which creates a support ticket.",
+    "Internal and delegated administrators can both report customer outages."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:48.273Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:41.849Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point equates Performance Profiler with the in-client profiler; the page lists both as features, so this is a plausible reading but not explicitly stated.",
+      "Calling AL Profiler, snapshot debugging and telemetry 'deeper' troubleshooting resources is a slight embellishment not in the page summary.",
+      "Overview omits that 'Managing technical support' also covers tenant administration; minor omission, not an error."
+    ],
+    "input_hash": "4a32238b41c6d51c654c2d7069e3d2301a93d9e202acf621129468e9457603fc",
+    "cost_usd": 0.0312152
+  }
+}

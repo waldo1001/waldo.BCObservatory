@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > New Zealand > Core finance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:42.900Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a3b53e6b8e4089afdacdc458e06367065e17f74bef8be3497db8a7e958d92674
+  prompts:
+    hub-topic: 1
+  input_hash: 6e55988bf4e09099dc4d1628ed471cf2381dfdbd0d0b44d0ea2479fad20f6abe
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts
@@ -67,14 +68,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: a3b53e6b8e4089afdacdc458e06367065e17f74bef8be3497db8a7e958d92674
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > New Zealand > Core finance: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section holds three pages on finance functionality specific to the New Zealand version of Business Central. It has no subtopics, so all the content sits on these pages.
+
+Two pages deal with statutory reporting. One covers printing balance sheet reports. The other covers printing income statements, which show revenues and expenses for the current and prior years. A third page covers calculating distribution amounts. Its summary gives no detail beyond the topic.
+
+Start with the balance sheet or income statement page if you need to produce reports for financial reporting. Open the distribution amounts page for that calculation. The summaries are brief, so check each page for the steps.
+
+## Key points
+
+- Applies only to the New Zealand version of Business Central.
+- Balance sheet reports can be printed as statutory reports required for financial reporting.
+- The income statement report shows revenues and expenses for current and prior years.
+- Income statement options include Amounts in whole and Show Amounts in Add. Reporting Currency.
+- A separate page covers calculating distribution amounts for NZ.
+- The section has three pages and no subtopics.
 
 ## Learn pages
 

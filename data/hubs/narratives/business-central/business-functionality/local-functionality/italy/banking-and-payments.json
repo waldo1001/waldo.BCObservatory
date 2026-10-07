@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/italy/banking-and-payments",
+  "input_hash": "1df75923ae5097b1872600b0f68a5a440a2ef63f2a44ff69e0a1cb5bed959b74",
+  "summary": "Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling.",
+  "overview": "This section covers the Italy-specific way of handling bills and payments. It explains how customer and vendor bills are processed automatically, which payment formats are supported (SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats), and how payment terms are defined for invoices.\n\nStart with the overview page on vendor payments and customer bills to see the formats and bill posting groups. Then use the automatic payments and automatic bills page for setup of bank information, sales and receivables setup, and bill codes on payment methods. The issuing page describes how to export bill lists to file and review errors. The payment terms page covers installments and discounts.",
+  "key_points": [
+    "Automatic bills to customers and from vendors are supported in the Italian version.",
+    "Supported formats include SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats.",
+    "Automatic payments setup involves bank account information, sales and receivables setup, and bill codes for payment methods.",
+    "Issuing payments and bills uses Export Bill List to File, with a File Export Errors FactBox for problems.",
+    "The TRASFBANC payment method is mentioned for issuing SEPA-based payments.",
+    "Bill posting groups are part of the vendor payments and customer bills overview.",
+    "Payment terms support installments with payment percentages, due date calculations, discount dates and discount percentages.",
+    "Payment terms apply to both customer and vendor invoices."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:45.965Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010841
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:26.790Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the issuing page explains how to 'review errors'. The source only lists a File Export Errors FactBox as a feature, so this reads a little more into it than the summary does, but it is a fair reading.",
+      "Minor: the key point about TRASFBANC only says the payment method is mentioned. That is accurate, but it doesn't tell agents much because the sources don't explain what the method is for."
+    ],
+    "input_hash": "1df75923ae5097b1872600b0f68a5a440a2ef63f2a44ff69e0a1cb5bed959b74",
+    "cost_usd": 0.0243192
+  }
+}

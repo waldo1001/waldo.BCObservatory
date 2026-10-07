@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs/troubleshoot-web-services
 type: topic
 title: Troubleshoot web services
-summary: "Learn section Development > Troubleshooting > Troubleshooting guides (TSGs) > Troubleshoot web services: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Troubleshooting guides for Business Central web services (OData, API and SOAP). They answer questions about failed calls, HTTP status codes, OData error codes, how AL runtime exceptions map to OData errors, and which telemetry and debugging tools help find the cause.
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 450c29b6fcb4306d7db5e3d415d0cf18871a4c874ff1e9fa376a1f3ba1977a61
+  prompts:
+    hub-topic: 1
+  input_hash: d9bf00fe3b667712e7655b2e957b0c4f9a39427f090b4cc21b1608d9487ae80b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes
@@ -59,14 +60,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 450c29b6fcb4306d7db5e3d415d0cf18871a4c874ff1e9fa376a1f3ba1977a61
-narrative: none
+narrative: generated
 ---
 
 # Troubleshoot web services
 
-> Learn section Development > Troubleshooting > Troubleshooting guides (TSGs) > Troubleshoot web services: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Troubleshooting guides for Business Central web services (OData, API and SOAP). They answer questions about failed calls, HTTP status codes, OData error codes, how AL runtime exceptions map to OData errors, and which telemetry and debugging tools help find the cause.
 
-Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting guides (TSGs)](../troubleshooting-guides-tsgs.md) > Troubleshoot web services · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting guides (TSGs)](../troubleshooting-guides-tsgs.md) > Troubleshoot web services · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds two troubleshooting guides for failed web service calls in Business Central. One is a general guide for OData, API and SOAP errors. The other focuses on REST API and OData calls.
+
+The general guide helps you decide whether an error comes from the client, the network or the server endpoint. It points to HTTP status codes, web service telemetry, OData error codes, debugging tools, external service calls and comparing environments.
+
+The REST API/OData guide goes deeper on error codes and maps AL runtime exceptions to the OData error messages they produce. Start with the general guide to locate the source of the failure. Then use the REST API/OData guide to interpret specific error responses.
+
+## Key points
+
+- Two pages: a general guide for OData, API and SOAP errors, and one specific to REST API/OData calls.
+- First step is to identify whether the error originates from the client, network or server endpoint.
+- HTTP status codes and OData error codes are the main signals for diagnosing a failed call.
+- Web service telemetry is a key tool for investigating failures.
+- The REST API/OData page maps AL runtime exceptions to OData error messages.
+- The AL debugger and other debugging tools can be used to investigate server-side problems.
+- Comparing environments and checking external service calls are listed as troubleshooting approaches.
 
 ## Learn pages
 

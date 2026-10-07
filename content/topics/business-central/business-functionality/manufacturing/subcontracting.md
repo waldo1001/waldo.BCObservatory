@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/subcontracting
 type: topic
 title: Subcontracting
-summary: "Learn section Business functionality > Manufacturing > Subcontracting: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Subcontracting in Business Central manufacturing: how to delegate production operations to vendors. It answers questions about subcontracting purchase orders, the worksheet, component supply and transfers, item charges on receipts, and WIP transfers between subcontractors."
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8804d1e1e312778270052de9bb1bb419afd19d29bc6190f8ee024c281b5de3e0
+  prompts:
+    hub-topic: 1
+  input_hash: f4d10a0fc526fbcc1d4ecd6217c3d5622ca4cdc32940d4ef83a2635283c02c11
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/subcontract-item-charges
@@ -93,14 +94,31 @@ bc_forms:
   - 99001560
   - 99001561
 member_hash: 8804d1e1e312778270052de9bb1bb419afd19d29bc6190f8ee024c281b5de3e0
-narrative: none
+narrative: generated
 ---
 
 # Subcontracting
 
-> Learn section Business functionality > Manufacturing > Subcontracting: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Subcontracting in Business Central manufacturing: how to delegate production operations to vendors. It answers questions about subcontracting purchase orders, the worksheet, component supply and transfers, item charges on receipts, and WIP transfers between subcontractors.
 
-Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Subcontracting · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Subcontracting · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+Subcontracting covers manufacturing operations that a vendor performs on your behalf. You can work with basic tools, or use the extended Subcontracting app, which adds a worksheet, subcontractor prices, component management, item charges and location management.
+
+Start with the Subcontracting overview to see which capabilities apply. Then read Order subcontracting to create purchase orders from production order routings, directly or through the worksheet. Manage components in subcontracting covers how components reach the vendor, and Assign item charges to subcontracting receipts covers extra costs. Transfer WIP items between subcontractors is for multi-stage processes with more than one subcontractor.
+
+## Key points
+
+- Subcontracting purchase orders are created from production order routing operations, directly or via the subcontracting worksheet.
+- Orders support comments, attachments, WIP tracking, and cost posting through the capacity ledger.
+- Receiving can use inventory put-away or warehouse receipts.
+- Component supply methods include vendor-supplied components, consignment at vendor, and transfer to vendor.
+- Transfer orders, location assignment, flushing methods, and returns are part of component handling.
+- Item charges such as transport, packaging, and testing can be assigned to subcontracting receipts, using the Get Receipt Lines function.
+- Assigned item charges go into production order costs through capacity ledger entries rather than inventory.
+- WIP items can be transferred between subcontractor locations using a Transfer WIP item flag, with WIP ledger entries, WIP quantity adjustment, transfer mode selection, and in-transit codes.
 
 ## Learn pages
 

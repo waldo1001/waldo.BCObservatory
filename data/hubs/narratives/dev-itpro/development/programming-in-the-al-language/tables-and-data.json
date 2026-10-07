@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
+  "input_hash": "0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92",
+  "summary": "Tables and data in AL covers defining tables, reading and modifying records, Query objects, FlowFields, indexing (SIFT, NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer. It answers how-to and syntax questions about working with Business Central data.",
+  "overview": "This section groups what an AL developer needs to define, store, read, change and move data in Business Central. The subtopics follow a usual workflow: defining table structures, reading data, modifying data, querying with Query objects, calculating values with FlowFields and FlowFilters, and tuning performance with indexes. Other subtopics cover streaming data and importing or exporting data through XMLports and Excel.\n\nThe section's own pages cover two tools. Number sequences use SQL Server sequences to generate numeric identifiers. They allow gaps and do not block, so they suit non-continuous numbering better than number series. DataTransfer is an AL data type for bulk copying data between SQL-based tables during upgrade and install, and it is much faster than row-by-row record operations.\n\nStart with Defining table structures if you are building new objects. Go to Reading data and Indexing data for performance when tuning speed. Use the DataTransfer page when writing upgrade code that moves large volumes of data.",
+  "key_points": [
+    "Defining table structures covers table objects, table extensions, system fields, TableRelation, ToolTip and OptimizeForTextSearch.",
+    "Modifying data covers Insert, Modify, Delete and Truncate, temporary tables, virtual tables (Date, Integer), media on records and Dataverse table properties.",
+    "Reading data covers Get, Find, FindSet and Next, partial records, isolation levels, SQL performance and read scale-out.",
+    "Query objects define dataitems and columns, joins, filters, aggregation and date parts, as an alternative to record variables.",
+    "FlowFields and FlowFilters calculate values dynamically without storing data, using CalcFormula.",
+    "SIFT and NCCI give fast sums over numeric columns, with guidance on tuning, tracing and migrating from SIFT to NCCI.",
+    "Number sequences use the NumberSequence type (Insert, Delete, Next, Current, Exists) and allow gaps without blocking.",
+    "DataTransfer (CopyRows, CopyFields, SetTables, AddFieldValue, AddConstantValue, AddJoin) does bulk table-to-table transfers in upgrade and install; the page lists 2022 release wave 2."
+  ],
+  "members_used": 2,
+  "subtopics_used": 7,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:28.749Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0393562
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:51.727Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the subtopics 'follow a usual workflow'. That is the writer's own framing, not something the sources state, but it does no harm.",
+      "Minor: 'Streaming data' has no summary in the inputs. The narrative only names it and makes no claims about it, which is correct.",
+      "Minor: the 'Modifying data' key point leaves out filter pages and keeping test data between publishes. Leaving them out is fine; nothing in the point is wrong."
+    ],
+    "input_hash": "0f0792da65ec0f7d5659f60ae95ac2e2aaf2cbedf824daf9508bfebcb5a94f92",
+    "cost_usd": 0.0363712
+  }
+}

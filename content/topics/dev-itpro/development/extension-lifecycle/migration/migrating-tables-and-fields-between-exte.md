@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/migration/migrating-tables-and-fields-between-exte
 type: topic
 title: Migrating tables and fields between extensions (on-premises)
-summary: "Learn section Development > Extension lifecycle > Migration > Migrating tables and fields between extensions (on-premises): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Migrating tables and fields between extensions in on-premises Business Central: how to move table and field data from a releasing extension to a receiving extension. It answers questions about the migration.json file, dependency graph direction, transition extensions, and synchronization ordering."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:44.415Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 26bf8c4ba23f33a230e074e6506cbc550b9b0ed59dfbbe95e6875d3c4bd9e68d
+  prompts:
+    hub-topic: 1
+  input_hash: c5f0ae5348e9cff7583e387127cf4bf5adc0a772024029e46f0e8e364d72b745
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields
@@ -75,14 +76,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 26bf8c4ba23f33a230e074e6506cbc550b9b0ed59dfbbe95e6875d3c4bd9e68d
-narrative: none
+narrative: generated
 ---
 
 # Migrating tables and fields between extensions (on-premises)
 
-> Learn section Development > Extension lifecycle > Migration > Migrating tables and fields between extensions (on-premises): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Migrating tables and fields between extensions in on-premises Business Central: how to move table and field data from a releasing extension to a receiving extension. It answers questions about the migration.json file, dependency graph direction, transition extensions, and synchronization ordering.
 
-Path: [Development](../../../development.md) > [Extension lifecycle](../../extension-lifecycle.md) > [Migration](../migration.md) > Migrating tables and fields between extensions (on-premises) · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Extension lifecycle](../../extension-lifecycle.md) > [Migration](../migration.md) > Migrating tables and fields between extensions (on-premises) · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This area explains how to move table and field data from one extension to another during development and deployment. The main page sets out the constraints, the roles of the releasing and receiving extensions, the direction of the dependency graph, and the order in which extensions are synchronized.
+
+The other pages split the work by direction. One covers moving tables and fields to extensions down the dependency graph. The other covers moving them up the dependency graph, which needs a two-stage process with a transition extension. A separate page describes the migration.json file, which names the target app ID and drives the data migration. Both direction pages reference 2020 release wave 1 version 16.5.
+
+Start with the overview page to understand the constraints and ordering. Then read the migration.json page, and finish with the page for the direction you need.
+
+## Key points
+
+- Data migration moves table and field data across extensions during development and deployment.
+- The releasing extension gives up the table or field, and the receiving extension takes it over.
+- The direction of the dependency graph decides which migration approach to use.
+- The migration.json file specifies the target app ID to enable the migration.
+- Moving down the dependency graph uses migration.json to transfer table ownership to a lower extension, with data preservation and field renames covered.
+- Moving up the dependency graph is a two-stage deployment through a transition extension, and enum type fields are covered.
+- Synchronization ordering between extensions is a documented constraint.
+- The down and up pages both reference 2020 release wave 1 version 16.5.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/development-environment/configure-the-development-environment/json-files
 type: topic
 title: JSON files
-summary: "Learn section Development > Development environment > Configure the development environment > JSON files: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "JSON configuration files used in AL development for Business Central: app.json, launch.json, Directory.app.props.json and migration.json. It answers questions about extension manifest settings, debugging and publishing setup, shared app properties, and data migration between extensions."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:35.240Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 97a60099de3f57aa35b1e3024b22b1155f4987a8e2e3acd6871eb679a94b641f
+  prompts:
+    hub-topic: 1
+  input_hash: 636867554580aaccb211d3c30233ba0bf0a1e1a398a840119ec0fb93ad82f7ce
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-directory-app-json
@@ -76,14 +77,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 97a60099de3f57aa35b1e3024b22b1155f4987a8e2e3acd6871eb679a94b641f
-narrative: none
+narrative: generated
 ---
 
 # JSON files
 
-> Learn section Development > Development environment > Configure the development environment > JSON files: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> JSON configuration files used in AL development for Business Central: app.json, launch.json, Directory.app.props.json and migration.json. It answers questions about extension manifest settings, debugging and publishing setup, shared app properties, and data migration between extensions.
 
-Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · no narrative yet
+Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section describes the JSON files that configure an AL extension project in the development environment. Each page covers one file and what it controls: the app manifest, the Visual Studio Code launch configuration, shared properties across apps, and data migration rules.
+
+Start with the app.json page, which defines extension metadata, dependencies, versioning, object ID ranges and runtime targeting. Then read the launch.json page to set up publishing and debugging against a local server or cloud sandbox. Directory.app.props.json is useful when you want to edit values such as version or URLs in one place. The migration.json page applies when moving tables and fields between extensions.
+
+## Key points
+
+- app.json is the manifest: extension metadata, dependencies, versioning, ID ranges, runtime version targeting, translation file generation and marketplace submission requirements.
+- launch.json configures VS Code debugging and deployment for on-premises and cloud sandbox environments.
+- launch.json supports publishing to a local server or cloud sandbox, attaching to a client or agent session, and snapshot debugging.
+- launch.json includes the breakOnError option for debugging behavior.
+- Directory.app.props.json defines reusable variables and properties for AL apps, so version, URLs and other values can be edited in one place.
+- Directory.app.props.json supports variable substitution and URL composition; the page is tied to 2025 release wave 2.
+- migration.json enables data migration of tables and fields between extensions by specifying the target app ID, using apprules.
 
 ## Learn pages
 

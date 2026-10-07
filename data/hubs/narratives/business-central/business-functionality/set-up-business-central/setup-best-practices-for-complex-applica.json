@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica",
+  "input_hash": "f0ebdc379bedfdb0478cfac27f13d4403fe380f864f12f7c712e7b14efb5737c",
+  "summary": "Setup best practices for complex Business Central application areas, mainly costing methods and supply planning. It answers questions about which costing method or reordering policy fits which items and business environment, and which setup fields to configure.",
+  "overview": "This section collects guidance for areas of Business Central where setup choices have lasting effects on cost and inventory. An introductory page frames the best practices approach and points to the specific areas: costing methods and supply planning.\n\nThe costing method page explains that the method determines how cost flow is recorded and capitalized. It matches methods to item type and business environment. The methods covered are FIFO, LIFO, Average, Specific and Standard.\n\nThe supply planning subtopic covers reordering policies, item-level planning parameters and global planning setup. It helps you choose a policy for each kind of item, decide which fields to set, and avoid stockouts while controlling inventory cost. Start with the introductory page, then go to the costing or planning page that matches your setup task.",
+  "key_points": [
+    "The section covers two complex areas: costing methods and supply planning.",
+    "Costing method setup determines how cost flow is recorded and capitalized.",
+    "Costing methods covered: FIFO, LIFO, Average, Specific and Standard.",
+    "FIFO suits stable costs, Average suits unstable costs, and Standard suits cost control.",
+    "Choose the costing method according to item type and business environment.",
+    "Supply planning guidance covers reordering policies, item-level planning parameters and global planning setup.",
+    "Planning setup aims to avoid stockouts while controlling inventory cost."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:45.909Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009123
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:03.450Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview phrase 'setup choices have lasting effects on cost and inventory' slightly overstates the sources, which only describe these as complex application areas with best practice guidance for efficient configuration. It is a minor point and the wording could be softened."
+    ],
+    "input_hash": "f0ebdc379bedfdb0478cfac27f13d4403fe380f864f12f7c712e7b14efb5737c",
+    "cost_usd": 0.0239232
+  }
+}

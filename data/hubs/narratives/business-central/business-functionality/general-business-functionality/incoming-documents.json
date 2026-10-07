@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality/incoming-documents",
+  "input_hash": "476cfbd7fa0f31b406e9adab8dab58192e3684f54e5f81927e023cbc7841a5e9",
+  "summary": "Incoming documents in Business Central: setting up the feature, creating records from files, camera, or existing documents, using OCR to convert PDFs to e-invoices, and converting records to purchase invoices or journal lines. It answers how-to questions on setup, creation, linking, and view management.",
+  "overview": "Incoming documents let you register external documents, such as supplier invoices and expense receipts, as records in Business Central. You can then convert them into purchase or sales documents or journal lines. Records can be created manually, from files, from photos taken with tablet or phone clients, or through an OCR service that turns PDFs and images into electronic records.\n\nThe pages follow the workflow. Start with \"Set Up incoming documents\" for journal template settings, approval workflow, and OCR service integration. \"Work with incoming documents\" and \"Create incoming document records\" cover creating and converting records. \"Create incoming document records from docs\" and \"Find posted documents without incoming documents\" cover attaching files to existing or posted documents.\n\n\"Use OCR to turn PDF into e-invoices\" covers automatic invoice processing, fixing errors, and training the service. \"Define Which incoming docs to see\" explains how to mark records as processed to reduce clutter on the Incoming Documents page, and how to bring them back.",
+  "key_points": [
+    "Create records manually, from a file, or from a camera photo on tablet and phone clients.",
+    "Setup covers Incoming Documents Setup, journal template configuration, approval workflow, and OCR service.",
+    "Records can be converted to purchase invoices or journal lines, with an optional approval workflow.",
+    "Attach files to purchase invoices, vendor ledger entries, and posted documents, connecting existing records or creating new ones.",
+    "Find posted purchase and sales documents that lack incoming records through the Chart of Accounts or General Ledger Entries pages, filtering by posting date.",
+    "The OCR service converts PDFs and images to electronic documents, supports text-to-account mapping and error correction, and can be trained.",
+    "Use Mark as Processed, Show All, and Set to Unprocessed to manage which records appear on the Incoming Documents page."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:35.183Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013361000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:55.918Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 calls the approval workflow 'optional'. The source summaries only say an approval workflow is included, without saying whether it is optional. This is minor and acceptable as-is, but 'with an approval workflow' would stay closer to the source."
+    ],
+    "input_hash": "476cfbd7fa0f31b406e9adab8dab58192e3684f54e5f81927e023cbc7841a5e9",
+    "cost_usd": 0.0323712
+  }
+}

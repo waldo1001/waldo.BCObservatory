@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/web-services/odata
 type: topic
 title: OData
-summary: "Learn section Integration > Web services > OData: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "OData web services in Business Central: how to query, filter, modify and batch data, publish metadata, handle limits, tune performance and troubleshoot errors. It answers questions about URI construction, JSON and AtomPub formats, unbound actions, FlowFilters, containments, associations, paging and error codes."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:00.498Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 874d34634bbd909ee523fecd2937970ee08aa309c231c470480275a3dd3e1034
+  prompts:
+    hub-topic: 1
+  input_hash: c9237c0184ca9fea3f08c0d21fadb55fe8d63be33d98603d5f09e9b4ddf8b8d8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action
@@ -137,7 +138,9 @@ links:
     - topic/dev-itpro/integration/web-services
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2565
+    - post/thinkaboutit-be/7061
   guidelines: []
 learn_toc_path:
   - Integration
@@ -150,18 +153,37 @@ coverage:
   learn: 14
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 874d34634bbd909ee523fecd2937970ee08aa309c231c470480275a3dd3e1034
-narrative: none
+narrative: generated
 ---
 
 # OData
 
-> Learn section Integration > Web services > OData: 14 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> OData web services in Business Central: how to query, filter, modify and batch data, publish metadata, handle limits, tune performance and troubleshoot errors. It answers questions about URI construction, JSON and AtomPub formats, unbound actions, FlowFilters, containments, associations, paging and error codes.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > OData · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > OData · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+This section covers consuming Business Central data through OData web services. It includes reading data as JSON or AtomPub (V3), getting the EDMX service metadata document, and navigating between published pages with containments and associations. Several pages deal with filtering: filter expressions in OData URIs, general filters for API/OData calls, and FlowFilters for FlowField calculations.
+
+Writing data is covered by the data modification page (POST, PATCH, DELETE on writable pages), the OData V4 unbound action guide, and the transactional $batch page, which runs inner requests in one transaction. Performance guidance, the TopNumberOfRows and Max Page Size page, and the known limitations page help you avoid surprises at scale.
+
+Start with the metadata and JSON pages to learn the URI patterns. Then read the filtering and data modification pages. Check Known OData Limitations and the troubleshooting page before you build a client, or when a call fails.
+
+## Key points
+
+- Data can be returned as JSON (with JSON-P callbacks) or, for OData V3, as AtomPub documents with keyed entries and filtered feeds.
+- The service metadata document is EDMX. It defines the entity data model and can be used by tools such as LINQ.
+- Writes use POST, PATCH and DELETE on writable pages. The InsertAllowed, ModifyAllowed and DeleteAllowed properties and user permissions apply, and triggers run by operation type.
+- OData V4 unbound actions expose AL procedures through web service registration and are not bound to a specific entity.
+- Transactional $batch requests use the Isolation: snapshot header. If any inner request fails, all changes are reverted.
+- Performance tips: Data-Access-Intent ReadOnly, batching, $select, $filter, $top and server-driven paging.
+- For queries with TopNumberOfRows, set Max Page Size (odata.maxpagesize) higher than that value to get correct result counts.
+- Known limitations include no PATCH on collection properties, no OR filters on distinct fields, no lambda operators and no deep insert or deep patching.
 
 ## Learn pages
 
@@ -179,5 +201,12 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [Using FlowFilters in OData URIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-flowfilters-in-odata-uris): Learn how to use FlowFilter expressions in OData URIs.
 - [Using OData transactional $batch requests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-batch): How to specify that all inner requests in a certain OData $batch request are processed in a transactional way in Business Central.
 - [Using OData with Queries That are Set with a Top Number of Rows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-with-queries-set-with-top-number-of-rows): Learn about using queries that are set with a top number of rows.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available from Microsoft-managed pages"
+- [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -327,10 +327,12 @@ links:
     - topic/dev-itpro/integration/web-services/apis/analytics-api-reference
     - topic/dev-itpro/integration/web-services/apis/finance-reports-api
   localizations: []
-  videos:
-    - video/2N2NhNH7dsk
+  videos: []
   posts:
+    - post/aardvarklabs-blog/2017
+    - post/demiliani-com/11962
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/
     - post/thinkaboutit-be/7683
   guidelines: []
@@ -346,8 +348,8 @@ children:
 coverage:
   learn: 261
   code: 0
-  video: 1
-  blog: 3
+  video: 0
+  blog: 6
   guideline: 0
 bc_forms:
   - 812
@@ -394,10 +396,12 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query-based APIs handle related records easily and can nest several layers deep"
+- [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "use Brotli compression instead of gzip to reduce the size of OData API responses"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090.md) (community post): "API templates in Business Central only work with specific standard API pages"
+- [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/.md) (community post): "Sales Invoices API in Business Central aggregates posted and unposted invoices"
 - [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/.md) (community post): "The Exclude_APIV2 app contains standard API V2 objects that Microsoft uses internally"
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types"
-- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 
 ## Business Central pages and reports
 

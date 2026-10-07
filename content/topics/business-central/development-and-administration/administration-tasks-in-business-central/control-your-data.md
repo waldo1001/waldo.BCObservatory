@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
 type: topic
 title: Control your data
-summary: "Learn section Development and administration > Administration tasks in Business Central > Control your data: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Control your data covers Business Central administration of data: auditing changes, classifying and masking sensitive data, retention policies, encryption, storage cleanup, archiving, personal data requests, and database locks. It answers questions on who changed data, privacy handling, and reducing database size."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 96a39e8b87183ae34a57bfc4fe5d5c7a6e745000b28e6bf7c2940db188c63b3a
+  prompts:
+    hub-topic: 1
+  input_hash: e70177c148687186e35b99a647fbc216b7c19e31044cc7f77206ab2b3abd8774
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-log-changes
@@ -92,7 +93,7 @@ links:
     - video/564XMP2IyLM
     - video/b-ixzwDS41c
   posts:
-    - post/gerardorenteria-blog/15213
+    - post/duiliotacconi-com/1601
     - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/
   guidelines: []
 learn_toc_path:
@@ -127,14 +128,33 @@ bc_forms:
   - 9040
   - 9511
 member_hash: 96a39e8b87183ae34a57bfc4fe5d5c7a6e745000b28e6bf7c2940db188c63b3a
-narrative: none
+narrative: generated
 ---
 
 # Control your data
 
-> Learn section Development and administration > Administration tasks in Business Central > Control your data: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Control your data covers Business Central administration of data: auditing changes, classifying and masking sensitive data, retention policies, encryption, storage cleanup, archiving, personal data requests, and database locks. It answers questions on who changed data, privacy handling, and reducing database size.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · no narrative yet
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section groups the administrator tools for governing data in Business Central. Some pages deal with visibility and compliance: auditing changes with change log and field monitoring, classifying data sensitivity, and responding to data subject requests for export, deletion or correction of personal data.
+
+Other pages deal with data volume and protection: retention policies that delete outdated log and archived records, deleting documents or compressing old entries, the Data Archive Extension that keeps compressed entries for later analysis, and server data encryption. A separate page shows database locks for troubleshooting blocking.
+
+Start with Auditing changes or Classifying data sensitivity for compliance needs, and with Clean up data with retention policies or Manage storage for reducing database size.
+
+## Key points
+
+- Auditing changes uses change log, field monitoring, data analysis, activity logs and retention policies to show who changed what and when.
+- Data Sensitivity Classification labels sensitive or personal data in standard and custom fields; the Data Classification Worksheet is used to manage it.
+- Field masking (MaskType property) with role-based visibility hides sensitive values in the UI; the page lists 2025 release wave 2.
+- Retention policies delete outdated data in log entry and archived record tables, with filters, a mandatory retention period, job queue or manual runs, and logging.
+- Data encryption on the server uses generated or imported keys and is manual only on-premises, since online encryption is mandatory.
+- Batch jobs delete obsolete documents and date-compress historic entries to manage storage.
+- The Data Archive Extension archives entries during date compression, exports to Excel or CSV, holds up to 10,000 records per archive, and stores in Tenant Media.
+- The Data Privacy Utility handles portability, deletion, correction, Privacy Blocked marking and minor classification; the Database Locks page shows a snapshot of current locks.
 
 ## Learn pages
 
@@ -151,7 +171,7 @@ Path: [Development and administration](../../development-and-administration.md) 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [🧹 Cleaning and anonymizing copies in Business Central: environments, companies, and traceability](../../../../posts/gerardorenteria-blog/15213.md) (community post): "A reusable solution for automatically anonymizing sensitive data, marking copied companies"
+- [When Auditing meets Telemetry: a practical example.](../../../../posts/duiliotacconi-com/1601.md) (community post): "Change Log records what changed (user, date, deletion event) but not always why"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"

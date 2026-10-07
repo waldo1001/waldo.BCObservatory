@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/sweden
 type: topic
 title: Sweden
-summary: "Learn section Business functionality > Local functionality > Sweden: 6 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:53.826Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fc969d45234df5ce763d47291b3a78317dc97d8f22ac897c0195592d685e5ef2
+  prompts:
+    hub-topic: 1
+  input_hash: 6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes
@@ -94,14 +95,32 @@ bc_forms:
   - 11208
   - 11212
 member_hash: fc969d45234df5ce763d47291b3a78317dc97d8f22ac897c0195592d685e5ef2
-narrative: none
+narrative: generated
 ---
 
 # Sweden
 
-> Learn section Business functionality > Local functionality > Sweden: 6 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Sweden · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Sweden · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Sweden section describes what the Swedish version of Business Central adds on top of the global product. Since release 2023 wave 1, the Swedish localization runs as an extension on the W1 BaseApp. The overview page lists the Swedish features: VAT, automatic account codes, SIE import and export, and financial reporting.
+
+Two kinds of pages sit here. One page covers EU third-party purchase transactions, used for Swedish VAT reporting and VIES requirements. This feature moved to a global extension starting version 22.1. The Core finance subtopic covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports.
+
+Start with the Sweden Local Functionality page for the overall picture. Then go to Core finance for accounting setup, or to the EU third-party page if you need VAT and VIES reporting.
+
+## Key points
+
+- Swedish localization is an extension on the W1 BaseApp starting release 2023 wave 1.
+- EU third-party purchase transactions (EU 3-Party Trade) support Swedish VAT reporting and VIES declarations, including purchase transaction filtering.
+- The EU third-party feature moved to a global extension starting version 22.1.
+- Automatic account codes and automatic account posting groups are part of the Swedish core finance setup.
+- SIE import and export moves general ledger data in and out of Business Central.
+- Balance sheet and income statement reports can be printed in the Swedish version.
+- The Core finance subtopic has 4 pages covering these accounting topics.
 
 ## Subtopics
 

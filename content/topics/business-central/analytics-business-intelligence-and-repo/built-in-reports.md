@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/built-in-reports
 type: topic
 title: Built-in reports
-summary: "Learn section Analytics, business intelligence, and reporting > Built-in reports: 22 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Built-in reports in Business Central across finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service management. It answers which reports exist for each area, how to reach them through the Report Explorer, and how to analyze activity. It also covers the Notification Email report and report generation telemetry.
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:49.594Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 31da952f90e1264150dd916dad8f04568fcbe5a3863c3073329552035321e87f
+  prompts:
+    hub-topic: 1
+  input_hash: dfd203a07d0e9e5cab370bd27c756e091376935e4847f546f67b5525f94048f9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -407,14 +408,33 @@ bc_forms:
   - 99000915
   - 99000916
 member_hash: 31da952f90e1264150dd916dad8f04568fcbe5a3863c3073329552035321e87f
-narrative: none
+narrative: generated
 ---
 
 # Built-in reports
 
-> Learn section Analytics, business intelligence, and reporting > Built-in reports: 22 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Built-in reports in Business Central across finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service management. It answers which reports exist for each area, how to reach them through the Report Explorer, and how to analyze activity. It also covers the Notification Email report and report generation telemetry.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Built-in reports · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Built-in reports · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section collects the standard reports and analytical tasks that ship with Business Central, grouped by business area. The Report overview page is the navigation hub to financial, sales, purchasing, inventory, project, service and other reports, and it points to the Report Explorer and analysis mode. The Sales report overview adds links to ad-hoc analysis, Power BI integration and sales analytics.
+
+Pages directly in this hub cover purchasing reports and analytical tasks, fixed assets reports (depreciation, acquisition, disposal, gains and losses, book values, insurance and maintenance), the Notification Email report, and Report Generation Telemetry. Subtopics go deeper into Finance, Project, Assembly management, Manufacture and Service management.
+
+Start with Report overview to find the right area. Then open the matching subtopic or page. Use Report Generation Telemetry if you need to monitor report performance rather than business data.
+
+## Key points
+
+- Report overview is the entry point, organizing built-in reports by business area and pointing to the Report Explorer and analysis mode.
+- Finance covers report categories, payables and receivables analytics, financial reports built from account categories, and sustainability reports.
+- Fixed assets reports analyze depreciation, acquisition, disposal, gains and losses, accumulated depreciation, book values and asset inventories, with insurance and maintenance reports.
+- Purchasing reports and analytical tasks give insight into current and past purchase activity, including item availability and purchase date calculation.
+- Sales report overview links to sales reports, ad-hoc analysis, Power BI integration and sales analytics.
+- Project, assembly, manufacture and service subtopics cover WIP posting, assembly BOMs, load versus capacity on work and machine centers, and service resource allocation and statistics.
+- The Notification Email report builds the email body sent to users registered for notifications, using the Notification Entry for recipient and document links.
+- Report Generation Telemetry tracks successful, failed and canceled runs, including dataset generation time, rendering time, SQL execution, document format and layout type.
 
 ## Subtopics
 

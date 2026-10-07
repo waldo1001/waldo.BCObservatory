@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
+  "input_hash": "5a2695975eb420911ebddc4c2ff1dcb6c948415664cc544bd93ee05eded76910",
+  "summary": "Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.",
+  "overview": "Manufacturing analytics is the set of tools for monitoring production performance. It includes Power BI reports for KPIs, ad-hoc data analysis on lists, Open in Excel, built-in reports, work center load visualization and barcode printing.\n\nThe pages fit together in three groups. The Power BI Manufacturing app covers reports, the semantic model, and KPIs and measures such as capacity utilization, production order status and cost, WIP, scrap and variances. The built-in production reports cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels. A third group lists obsolete reports that will be removed, so you can see what each one showed and plan a move away from it.\n\nStart with \"View Load on Work and Machine Centers\" if you need to compare load with capacity and find bottlenecks. Use the Power BI app pages for KPI dashboards. Use the built-in reports pages to find the report for a specific figure.",
+  "key_points": [
+    "Analytics options include the Power BI Manufacturing app, KPI monitoring, data analysis on lists, Open in Excel, built-in reports and barcode printing.",
+    "Load is work assigned to production resources from production orders. Capacity is what the resources can perform.",
+    "Load can be viewed by period, as net change or as balance at date, with a work center task list.",
+    "The load page covers scheduling conflicts, capacity constrained resources and finite capacity scheduling for finding bottlenecks.",
+    "The Power BI Manufacturing app has 21 pages on reports, the semantic model, KPIs and measures, including utilization, WIP, scrap and variances.",
+    "Built-in production reports (16 pages) cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels.",
+    "Obsolete reports (11 pages) include cost calculation, cost shares, BOM compare, and machine center and work center list and load reports. They will be removed."
+  ],
+  "members_used": 2,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:23.539Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012667000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:10.187Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says \"The pages fit together in three groups\", but the hub also has two pages of its own (the hub overview and View Load on Work and Machine Centers). \"The subtopics fit together in three groups\" would be more accurate.",
+      "The phrase \"plan a move away from it\" for obsolete reports is a mild inference. The source only says the subtopic helps identify what each retiring report shows.",
+      "The Power BI subtopic also answers questions about work center and machine center load, but the narrative leaves this out. That makes it less clear that load can be analyzed in both Power BI and on screen."
+    ],
+    "input_hash": "5a2695975eb420911ebddc4c2ff1dcb6c948415664cc544bd93ee05eded76910",
+    "cost_usd": 0.031435199999999996
+  }
+}

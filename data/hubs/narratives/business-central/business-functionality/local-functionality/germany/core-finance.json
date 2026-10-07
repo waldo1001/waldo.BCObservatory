@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/germany/core-finance",
+  "input_hash": "1a66f49883b182a984d7a4544ae889000421c9ab2e5c7b077f57ab5c7ba7995d",
+  "summary": "Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.",
+  "overview": "This area holds the German-specific finance functionality. Most pages deal with digital audits under GoBD/GDPdU, which relate to Sections 146-147 of the German Fiscal Code. You define data export record sources with tables, fields, relations and filters, then export the data as XML files for auditors.\n\nThe digital audit pages build on each other. Start with the setup page and the full walkthrough for general ledger, customer and vendor data. Then use the export page to run the export, the filter examples page to tune period, table and date filters, and the DTD page to upgrade and validate a .DTD definition file after import.\n\nTwo other topics sit alongside. Electronic invoicing explains how to set up the E-Document framework for German formats in sales and purchase processes. The Intrastat page covers exporting and printing reports for EU trade reporting, and it relies on the deprecated Intrastat Journals functionality.",
+  "key_points": [
+    "Digital audit exports follow GoBD/GDPdU, using data export record definitions with tables, fields and table relations.",
+    "Exports can be limited with period filters, table filters, flowfield filters and date filter handling; the filter examples page shows the Period Field No., Table Filter and Date Filter Field No. settings.",
+    "Digital audit data is exported as XML files, with an option to include closing dates.",
+    "After importing a .DTD definition file, validate it and upgrade it if there are version compatibility problems.",
+    "Electronic invoicing in Germany supports XRechnung, Peppol BIS 3.0 DE and ZUGFeRD through the E-Document framework (version 26.3 is mentioned).",
+    "E-invoicing setup involves the Buyer Reference field, the Buyer Reference Mandatory option and a Document Sending Profile.",
+    "Intrastat reports are exported and printed with the Intrastat checklist and form, and exported to disk in ASCII format, using deprecated Intrastat Journals."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:44.025Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014655000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:10.062Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on electronic invoicing says 'version 26.3 is mentioned'. That is vague; the source lists version 26.3 without context, so agents should not infer it is a minimum version.",
+      "The 'export performance' feature from the digital audits page is not reflected. This is minor.",
+      "The upgrade and validate order for the .DTD file is slightly reworded but stays within the source."
+    ],
+    "input_hash": "1a66f49883b182a984d7a4544ae889000421c9ab2e5c7b077f57ab5c7ba7995d",
+    "cost_usd": 0.0354232
+  }
+}

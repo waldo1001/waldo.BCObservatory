@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,20 +92,20 @@ narrative: generated
 
 > Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
 
-Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
-Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem, mileage tracking and calculation, and approval workflows.
+Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem calculation, mileage tracking and calculation, and approval workflows with policy compliance checks.
 
-The four pages in this section build on each other. The two overview pages give the general picture of capabilities. "How the Expense Agent Processes Emails" explains the mailbox-driven flow: monitoring a configured mailbox, detecting receipts and credit card statements, creating expenses, grouping them by reporting period, and sending confirmations and reminders. "Understand Policy Compliance in Expense Agent" explains how expenses are checked.
+The section has four pages. Two overview pages give the general picture of capabilities and overlap a lot. "How the Expense Agent Processes Emails" explains the mailbox-driven flow: it monitors a configured mailbox, detects receipts and credit card statements, creates expenses, groups them by reporting period, and sends confirmations and reminders. "Understand Policy Compliance in Expense Agent" explains how expenses are checked against deterministic rules and AI-evaluated policies.
 
-Start with the overview page for scope, then read the email page if receipts arrive by mail, and the policy compliance page if you need to understand flags on expenses or configure policy evaluation.
+Start with an overview page for scope. Read the email page if receipts arrive by mail. Read the policy compliance page if you need to understand flags on expenses or configure policy evaluation.
 
 ## Key points
 
 - Receipts can come in through the web app, mobile app or email, and the agent extracts data, categorizes, subcategorizes and itemizes them.
-- Supported expense types include per diem calculation and mileage tracking and calculation.
+- Capabilities include per diem calculation and mileage tracking and calculation.
 - The agent creates expense reports and prepares them for approval and posting in Business Central.
 - Email processing monitors a configured mailbox and detects receipts and credit card statements.
 - Created expenses are grouped into reports by reporting period, and the agent sends confirmation emails and open report reminders to expense users.

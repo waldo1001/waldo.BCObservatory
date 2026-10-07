@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage",
+  "input_hash": "01c6e61115c90b63f6fc94c8af177ef87ef785c65995b73038fe9aea1851fc57",
+  "summary": "Usage-based billing in Business Central subscription billing: importing supplier usage data, mapping it to subscriptions, pricing it, and invoicing customers and vendors. It answers questions on data exchange definitions, suppliers, references, subscription linking, pricing options, and rebilling corrections.",
+  "overview": "Usage-based billing lets a company import usage data from external vendors, calculate prices, and create contract invoices for subscription services with usage-dependent fees. The overview page explains the flow, including CSV import, billing proposals, credit memos, and refunds.\n\nSetup pages cover the building blocks: data exchange definitions (CSV field mappings), usage data suppliers, supplier references, and customers and subscriptions master data. Subscription lines in usage billing define the pricing method. The import page describes file or API import, subscription matching, and pricing. The Connect Supplier Subscription to Subscription page links imported data to the correct subscription line. Extend contract adds subscription lines when imported data reveals missing subscriptions or references. Rebilling covers corrections for periods already invoiced.\n\nStart with the overview, then set up a data exchange definition and a supplier before importing data.",
+  "key_points": [
+    "Data exchange definitions set file encoding, column separation, table mappings, and transformation rules for CSV usage imports.",
+    "Usage data can be imported through a file or through an API.",
+    "Pricing options on subscription lines are Usage Quantity, Fixed Quantity, and Unit Cost Surcharge, set with the Usage Based Billing toggle and Usage Based Pricing field.",
+    "Usage data suppliers have settings such as Create Customers, Create Subscriptions, Unit Price from Import, and Vendor Invoice per.",
+    "Supplier references map supplier subscriptions and products to contracts and items, and support customer reference creation and automatic subscription creation.",
+    "The Connect Supplier Subscription to Subscription page links imported data to the correct subscription line before processing.",
+    "Extend contract adds subscription lines when imported data shows missing subscriptions or references.",
+    "Rebilling treats new data for already invoiced periods as adjustments and invoices only the delta, with credit memos where needed."
+  ],
+  "members_used": 10,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:54.656Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015712999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:09.180Z",
+    "verdict": "fix",
+    "issues": [
+      "Supplier references key point says the feature 'can create customer references automatically'. The source lists 'Customer reference creation' and 'Automatic subscription creation' as separate features, so the key point merges them. Reworded to match.",
+      "The overview says the Linking page handles data that lacks a matching subscription. The source only says it connects imported usage data to the correct subscription line before processing. Only Extend contract is described as handling missing subscriptions or references. Reworded."
+    ],
+    "input_hash": "01c6e61115c90b63f6fc94c8af177ef87ef785c65995b73038fe9aea1851fc57",
+    "cost_usd": 0.0536992
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+  "input_hash": "992a549ec6019a54ce52723b1a2619d94b171c15696096c926f4baa7e0b84cce",
+  "summary": "Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.",
+  "overview": "Report layouts control the content and format of reports and documents. Business Central supports Word, Excel, RDLC and external layouts, and composite layouts that combine reusable themes with headers and footers. The overview page and \"Get started creating report layouts\" explain the layout types and the basic steps: choose a type, copy or export an existing layout, modify it, import it, validate it and manage its status.\n\nType-specific pages cover the design work. For Word, they describe creating the report, using the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks and authoring tips. For Excel, they cover the data contract, system worksheets and PivotTables. For RDL and RDLC, they cover SQL Server Report Builder and Visual Studio. Developer pages cover defining multiple layouts in the AL rendering section, adding barcodes, and building a custom report render with the OnCustomDocumentMergerEx event.\n\nFor administration, one page covers setting the layout a report uses, per company or temporarily from the request page. Another covers assigning document layouts to customers and vendors. Pages marked (Obsolete) describe the older custom layout process. Start with the overview, then go to the page for your layout type.",
+  "key_points": [
+    "Layout types: Word, Excel, RDLC, external and composite layouts. Composite layouts combine reusable themes and headers.",
+    "Define several layouts for one report in AL with the rendering section, using Caption, Summary and DefaultRenderingLayout properties.",
+    "Word layouts use a custom XML part, the XML Mapping pane, the ReportMetadata and ReportRequest system dataitems, and the WordMergeDataItem property.",
+    "Excel layouts use a data contract, ExcelLayoutMultipleDataSheets, system worksheets, translations, named formulas and drillthrough. They can include PivotTables and PivotCharts.",
+    "RDLC and RDL layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.",
+    "Barcodes use the Barcode Font Provider interface and Barcode Symbology enum with IDAutomation fonts. The online font list covers 1D barcodes, MICR, OCR and security fonts.",
+    "Users set a default layout per company, pick one temporarily on the request page, or manage layouts on the Report Layouts and Report Layout Selection pages.",
+    "Word hyperlinks on text and picture fields use column names ending in _Url and _UrlText."
+  ],
+  "members_used": 22,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:45.994Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.026508999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:02.947Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says composite layouts combine themes 'with headers and footers'. The overview page summary only says 'reusable themes and headers'. The Set the Layout page lists header/footer layouts, so the wording is acceptable.",
+      "Minor: the barcode fonts page covers both 1D and 2D IDAutomation symbologies. The narrative mentions only 1D in the font list point. This is not wrong, just incomplete."
+    ],
+    "input_hash": "992a549ec6019a54ce52723b1a2619d94b171c15696096c926f4baa7e0b84cce",
+    "cost_usd": 0.0611192
+  }
+}

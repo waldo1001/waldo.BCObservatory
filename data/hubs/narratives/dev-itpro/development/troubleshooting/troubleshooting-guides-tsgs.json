@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs",
+  "input_hash": "2f6e298df58e16603f6922a301172b3a824b0052859f7072891f11c4142ec208",
+  "summary": "Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration problems, report errors and slow performance, and web service failures (OData, API, SOAP). Use them for questions about causes of errors, telemetry to check, and fixes.",
+  "overview": "The TSGs are task-focused guides for diagnosing specific problems in Business Central. Each guide describes symptoms, the likely causes, and how to find the root cause, often with telemetry and debugging tools.\n\nTwo guides sit directly in this section. Troubleshooting Cloud Migration covers database compatibility, change tracking, user permissions, Integration Runtime setup, version requirements and common data problems. Troubleshooting reports covers analyzing report telemetry, finding the cause of report errors or slow performance, and resolving common reporting exceptions.\n\nA subtopic, Troubleshoot web services, has two pages on OData, API and SOAP calls. It covers HTTP status codes, OData error codes and how AL runtime exceptions map to OData errors. Start with the guide that matches your problem area, then follow its telemetry and debugging advice.",
+  "key_points": [
+    "Cloud migration guide covers SQL Server compatibility, change tracking, and Integration Runtime setup.",
+    "Cloud migration guide also covers migration user permissions, company name validation, and the tenant media table, with notes for versions 23, 24 and 25.",
+    "Reports guide covers report limits, report telemetry, and performance analysis.",
+    "Reports guide addresses both RDL layouts and Excel/Word layouts, and how to debug report issues.",
+    "Web services troubleshooting covers failed OData, API and SOAP calls and their HTTP status codes.",
+    "Web services pages explain OData error codes and how AL runtime exceptions map to them.",
+    "Telemetry is a recurring tool for finding root causes in the reports and web services guides."
+  ],
+  "members_used": 2,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:45.120Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010676999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:53.471Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on cloud migration says the guide has 'notes for versions 23, 24 and 25'; the source only lists these versions as associated with the page, so 'notes' slightly over-interprets but is acceptable.",
+      "Overview says each guide describes symptoms, likely causes and how to find the root cause; the cloud migration page summary only lists the problem areas it covers, so this generalization is slightly broader than the inputs."
+    ],
+    "input_hash": "2f6e298df58e16603f6922a301172b3a824b0052859f7072891f11c4142ec208",
+    "cost_usd": 0.0313952
+  }
+}

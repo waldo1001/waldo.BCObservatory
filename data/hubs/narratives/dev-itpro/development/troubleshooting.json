@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting",
+  "input_hash": "413fc7209e80b169c7964a20d5a4dbdee00694c8e9559b96112a16299424924e",
+  "summary": "Troubleshooting in Business Central development covers tools and guides for finding the cause of errors and performance problems. It answers questions about client tools, AL debugging and profiling, telemetry setup and analysis, and ready-made troubleshooting guides for cloud migration, reports and web services.",
+  "overview": "This section collects the resources for gathering information, identifying causes and applying fixes when something goes wrong in Business Central. The overview page introduces the main tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler, and also points to snapshot debugging and telemetry.\n\nThe content is split by where you work. Client troubleshooting covers tools in the Business Central client for inspecting pages, reading error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data and profiling performance. It also covers personalization, role customization, permissions and on-premises mobile app issues. AL troubleshooting covers the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles and printing problems. Telemetry pages explain how to send data to Azure Application Insights, which events exist, how to analyze them with KQL and Power BI, how to set up alerts, and how to use telemetry to diagnose performance. The troubleshooting guides (TSGs) give causes, telemetry to check, and fixes for specific failures.\n\nStart with the overview page to pick a tool. Go to the TSGs when you have a known symptom such as a failed cloud migration, a report error or slow report, or a failing OData, API or SOAP web service call.",
+  "key_points": [
+    "The overview page lists error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.",
+    "Client troubleshooting (13 pages) also covers viewing table information, finding missing indexes, exporting report data, personalization, role customization, permissions and on-premises mobile app issues.",
+    "AL troubleshooting (6 pages) covers the AL debugger, snapshot debugging, AL Profiler, Page Inspection, AL performance articles and printer errors.",
+    "Telemetry troubleshooting (7 pages) covers enabling telemetry to Azure Application Insights, the available events, KQL and Power BI analysis, alerting, and diagnosing performance problems.",
+    "Troubleshooting guides (4 pages) cover cloud migration problems, report errors and slow performance, and web service failures in OData, API and SOAP.",
+    "TSGs explain likely causes of errors, which telemetry to check, and fixes."
+  ],
+  "members_used": 1,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:00.001Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013261
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:14.791Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says client tools are 'in the web client'. The sources only say 'the Business Central client', so 'web' is an added detail.",
+      "Overview's routing advice says to use telemetry for behavior 'over time or across environments' and AL tools 'when you have access to extension code'. Neither framing is in the sources. Reworded to match the subtopic summaries (telemetry covers setup, analysis, alerting and performance diagnosis).",
+      "Key points 4 and 5 split one telemetry subtopic into two points, and point 5 is very thin. Merged them into one point.",
+      "Key point 1 calls the overview page's features 'client tools', but the overview page only lists them as features. They do appear in the client and AL subtopics, so the claim holds once the wording is adjusted slightly."
+    ],
+    "input_hash": "413fc7209e80b169c7964a20d5a4dbdee00694c8e9559b96112a16299424924e",
+    "cost_usd": 0.0504712
+  }
+}

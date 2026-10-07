@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-  "input_hash": "bdccf242eeee764ba67931315467ea8329e1c4b2ac60144a754d4ff73849ff69",
-  "summary": "Designing and coding agents (preview) covers how partners build, configure, run and manage custom agents in Business Central sandboxes with the AI development toolkit. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import, the Tasks AL API and troubleshooting.",
-  "overview": "This section is for partners who prototype AI agents in Business Central. It follows the agent lifecycle: create and configure an agent, set permissions and profiles, write instructions, run tasks, then iterate, export and graduate the work. The toolkit is sandbox-only and the pages are marked preview.\n\nStart with the main overview page and \"Create and activate an agent\", which cover the design wizard, identity, instructions, profiles, permissions and the task playground. Then read \"Write effective instructions\", \"Instruction keywords\" and \"Best practices for designing an agent\" to shape behavior. \"Set up agent permissions and profiles\" and \"Understand agent visibility\" explain what an agent can do and who can see it.\n\nFor operation and code, \"Run an agent\" explains tasks, \"Iterate and manage an agent\" covers the Agent Task Log and instruction history, and \"Integrate with the Tasks AL API\" covers AL integration. The \"Coding agents in AL\" subtopic (8 pages) goes deeper on writing agents in code. The FAQ, the attachment limits page, the Sales Validation Agent example and the Transparency Note round out the section.",
+  "input_hash": "b05b7ea972b6ee0ec475b1d203aac2bec96d6d71552abb5b2413a45cb6733e26",
+  "summary": "Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.",
+  "overview": "This section explains how partners prototype and build AI agents in Business Central using the AI development toolkit. The toolkit is sandbox-only and follows an agent lifecycle: create, configure, activate, iterate, graduate and clean up. A transparency note describes the intended use and the Azure OpenAI models behind it.\n\nThe pages follow that lifecycle. Start with the overview, then \"Create and activate an agent\" and \"Write effective instructions\", with \"Best practices for designing an agent\" and \"Instruction keywords\" as references. Next come permissions and profiles, running tasks, attachment limits, and iterating with the Agent Task Log and instruction version history. The Sales Validation Agent is a preconfigured example.\n\nFor developers, \"Integrate with the Tasks AL API\" shows how to detect agent sessions and read agent information. The subtopic \"Coding agents in AL\" covers building and registering agents in code, including converting a prototyped agent. Export and import moves configurations between sandboxes, and the FAQ covers common questions.",
   "key_points": [
-    "The lifecycle is create, configure, activate, iterate, graduate and cleanup. The toolkit works only in sandbox environments, and the pages mention version 27.2.",
-    "Agents run with the intersection of the user's and the agent's permissions. They never exceed the scheduling user's privileges, and least privilege is recommended.",
-    "Profiles and page customization properties such as ClearActions and ClearLayout control what an agent sees and can do in the UI.",
-    "Instructions follow a framework of responsibilities, guidelines and instructions. Keywords include ask for assistance, request review, reply, write email, memorize, set field, use lookup and invoke action.",
-    "Tasks can be triggered manually from the Agent Tasks page or through the Tasks AL API. The API offers GetCustomAgents and IsAgentSession to detect agent sessions.",
-    "Attachments support PDF, PNG and JPG files, with file size limits and a 10-page PDF limit. Custom document processing can use Azure AI Document Intelligence.",
-    "The Agent Task Log shows decision context, and instruction version history supports comparison and rollback.",
-    "Agent configurations can be exported and imported as XML between sandboxes. This covers identity, instructions, permissions and profile."
+    "Agents are prototyped in sandbox environments only, using the AI development toolkit (preview, 27.2 for create and activate).",
+    "Effective agent permissions are the intersection of the user's and the agent's permissions, so an agent never exceeds the scheduling user's privileges.",
+    "Profiles and page customization properties such as ClearActions and ClearLayout control what the agent sees and can do in the UI.",
+    "Tasks are the unit of work; trigger them manually from the Agent Tasks page or through the Tasks AL API from UI actions and business events.",
+    "Attachments support PDF, PNG and JPG, with file size limits and a 10-page PDF limit; custom processing can use Azure AI Document Intelligence.",
+    "Iterate using the Agent Task Log, the page accessibility view of what the agent perceives, and instruction version history with comparison and rollback.",
+    "Agent configurations (identity, instructions, permissions, profile) can be exported and imported as XML between sandboxes.",
+    "Agent visibility in the role center depends on app installation, Copilot capability status, permissions and archiving state (28.1)."
   ],
   "members_used": 15,
-  "subtopics_used": 0,
+  "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-06T13:41:54.362Z",
+  "at": "2026-10-07T02:11:35.972Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.050065
+    "cost_usd": 0.022245
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-06T13:43:05.019Z",
+    "at": "2026-10-07T02:16:49.622Z",
     "verdict": "approve",
     "issues": [
-      "Key point 5 blurs two API members: per the source, GetCustomAgents (Custom Agent codeunit) gets agent details, and IsAgentSession (Agent Session) detects whether code is running in an agent session. The wording reads as if both detect sessions.",
-      "Key point 1 mentions only version 27.2. The 'Understand agent visibility' page also lists 28.1. This is a minor omission, not an error."
+      "Overview says the transparency note describes the toolkit's 'intended use'; the source summary only says it describes a sandbox for partners to prototype and test agents using Azure OpenAI models. Close enough, but slightly broader than the source.",
+      "First key point's parenthetical '(preview, 27.2 for create and activate)' is awkward. Both versions are supported: the hub overview page lists preview and 27.2, and the create and activate page lists 27.2."
     ],
-    "input_hash": "bdccf242eeee764ba67931315467ea8329e1c4b2ac60144a754d4ff73849ff69",
-    "cost_usd": 0.1076872
+    "input_hash": "b05b7ea972b6ee0ec475b1d203aac2bec96d6d71552abb5b2413a45cb6733e26",
+    "cost_usd": 0.0516472
   }
 }

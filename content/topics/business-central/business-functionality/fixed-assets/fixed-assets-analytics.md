@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
 type: topic
 title: Fixed assets analytics
-summary: "Learn section Business functionality > Fixed assets > Fixed assets analytics: 33 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Fixed assets analytics in Business Central covers ways to analyze fixed asset data: ad-hoc Data Analysis on FA and GL ledger entries, built-in tools, standard and Excel reports, and legacy reports slated for removal. It answers questions about asset values, depreciation, insurance, maintenance and which report to use."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:53.640Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d7628eebba5bae320d040228663b9ef2ab51febfaf9ea360a4e634bf83941f4d
+  prompts:
+    hub-topic: 1
+  input_hash: 4ef71d81fe782ddc9e49176d5c4f5725e74a83951b83aa2fee875bd7b7e5dd80
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa
@@ -329,14 +330,31 @@ bc_forms:
   - 5656
   - 9275
 member_hash: d7628eebba5bae320d040228663b9ef2ab51febfaf9ea360a4e634bf83941f4d
-narrative: none
+narrative: generated
 ---
 
 # Fixed assets analytics
 
-> Learn section Business functionality > Fixed assets > Fixed assets analytics: 33 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Fixed assets analytics in Business Central covers ways to analyze fixed asset data: ad-hoc Data Analysis on FA and GL ledger entries, built-in tools, standard and Excel reports, and legacy reports slated for removal. It answers questions about asset values, depreciation, insurance, maintenance and which report to use.
 
-Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+Fixed assets analytics brings together the ways to examine fixed asset data in Business Central. The overview page lists the options: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports, across acquisitions, depreciation, insurance and maintenance.
+
+The hub's own pages cover the overview and ad-hoc analysis. Ad-hoc analysis uses the Data Analysis feature on FA ledger entries and GL entries, so you can check asset values or depreciation interactively without running a report. Three subtopics go deeper. Built-in tools cover disposing, insuring, maintaining, budgeting and reclassifying assets. Fixed assets reports covers the standard and Excel reports. Legacy reports describes three older reports marked for removal.
+
+Start with the Fixed assets analytics overview to pick an approach. Use ad-hoc analysis for quick questions, and the reports subtopic when you need a standard, repeatable output. Check the legacy page only if you still rely on those older reports.
+
+## Key points
+
+- Ad-hoc analysis uses Data Analysis mode on FA ledger entries and GL entries, with pivot mode and column management, and no report run needed.
+- Typical ad-hoc scenarios are asset value tracking (fixed asset valuation) and depreciation analysis.
+- The overview names KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports as analysis options.
+- Built-in tools cover posting disposals or retirements, insurance coverage, maintenance costs, budgeting, and transferring, splitting or combining assets.
+- The Fixed assets reports subtopic has 23 pages on standard and Excel reports: book value, depreciation, acquisitions, ledger entries, registers, insurance and maintenance.
+- Legacy reports marked for removal are Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value.
 
 ## Subtopics
 

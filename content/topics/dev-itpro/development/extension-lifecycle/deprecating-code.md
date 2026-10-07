@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/deprecating-code
 type: topic
 title: Deprecating code
-summary: "Learn section Development > Extension lifecycle > Deprecating code: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Deprecating code in Business Central AL extensions: how to mark code obsolete with preprocessor directives and Obsolete properties, Microsoft's timeline for removal, and the deprecation of explicit and implicit 'with' statements. It answers questions about obsolete states, CLEAN symbols, warnings AL0604 and AL0606, and how long obsolete code stays."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
+  prompts:
+    hub-topic: 1
+  input_hash: ee6c71158b4482f081b425c400906f466cbc99876d03e84f691b9c8259362adf
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecation-guidelines
@@ -66,14 +67,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
-narrative: none
+narrative: generated
 ---
 
 # Deprecating code
 
-> Learn section Development > Extension lifecycle > Deprecating code: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Deprecating code in Business Central AL extensions: how to mark code obsolete with preprocessor directives and Obsolete properties, Microsoft's timeline for removal, and the deprecation of explicit and implicit 'with' statements. It answers questions about obsolete states, CLEAN symbols, warnings AL0604 and AL0606, and how long obsolete code stays.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deprecating code · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deprecating code · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers how code is retired in Business Central. It explains the practices Microsoft uses when obsoleting code in the Base App, so developers can follow the same patterns in their own extensions. It also covers one specific deprecation, the 'with' statement in AL.
+
+Start with the timeline page to learn the rule: at least 12 months pass between marking code obsolete and removing it. Then read the best practices page for the mechanics, which use the ObsoleteState, ObsoleteTag and ObsoleteReason properties together with CLEAN version symbols and preprocessor directives. The 'with' statement page is a worked example of a deprecation, with warnings and fixes for existing code.
+
+## Key points
+
+- Microsoft keeps a minimum of 12 months between marking code obsolete and removing it.
+- Obsoleting code uses the ObsoleteState, ObsoleteTag and ObsoleteReason properties, or the Obsolete attribute.
+- CLEAN symbols (CLEAN15 to CLEAN18 are named) and preprocessor directives control when obsolete code is included or removed.
+- The best practices page describes how Microsoft obsoletes code in the Base App and recommends developers follow similar patterns.
+- AppSourceCop is listed among the tools tied to deprecation guidelines.
+- Explicit and implicit 'with' statements are deprecated, with warnings AL0604 and AL0606 (2022 release wave 2).
+- Fixes for 'with' statements include pragma directives, qualifying references, and the NoImplicitWith flag.
 
 ## Learn pages
 

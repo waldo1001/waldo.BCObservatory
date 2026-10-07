@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/security-privacy-and-compliance",
+  "input_hash": "61c6b576924ff4c045e496dfb77a4f65d9cc9ba0447479839fcc9c5e3954ff71",
+  "summary": "Security, privacy, and compliance in Business Central covers protecting data and controlling access, how the online service is built and run, auditing of data changes and admin events, and privacy and compliance resources. It answers questions about security controls, reliability, audit trails, certifications, and data residency.",
+  "overview": "This section groups everything about keeping Business Central data safe and meeting regulatory needs. It has three subtopics: Security, Service overview, and Auditing. Two pages sit at the top level: a Compliance Overview index and a Privacy FAQ.\n\nSecurity covers online tenant security, multifactor authentication, encryption, network restrictions with service tags, record-level security filters, and persona-based guidance for online and on-premises deployments. Service overview explains the Azure-based multitenant architecture, availability and backup, service operations, incident handling, and scalability. Auditing covers tracking data changes, auditing security-related tables, and reviewing events sent to Microsoft Purview.\n\nStart with the Compliance Overview for an index of compliance topics such as certifications and regulatory requirements. Use the Privacy FAQ for links on personal data, regional availability, and data residency. Go to the subtopics for the technical detail.",
+  "key_points": [
+    "Compliance Overview indexes application compliance, service compliance, certifications, and regulatory requirements.",
+    "Privacy FAQ links to resources on privacy, personal data, international availability, and data residency, including the trust center and EU data boundary.",
+    "Security (16 pages) covers tenant security, multifactor authentication, encryption, service tags for network restrictions, and record-level security filters.",
+    "Security guidance applies to both online and on-premises deployments and includes persona-based guidance.",
+    "Service overview (3 pages) describes Azure multitenant architecture, availability, backup, incident handling, updates, and scalability.",
+    "Auditing (4 pages) shows how to track data changes, audit security-related tables, and see who changed what and when.",
+    "Administrative events can be reviewed in Microsoft Purview."
+  ],
+  "members_used": 2,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:27.148Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011340999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:33.251Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'Administrative events can be reviewed in Microsoft Purview' combines two separate statements from the Auditing summary: 'review events sent to Microsoft Purview' and 'which administrative events are logged'. The source never says directly that the administrative events are the ones sent to Purview. This is a small inference and acceptable.",
+      "The overview says the persona-based guidance is 'for online and on-premises deployments'. In the Security summary, persona-based guidance and securing online and on-premises deployments are listed as separate items. This is a minor merge and not misleading."
+    ],
+    "input_hash": "61c6b576924ff4c045e496dfb77a4f65d9cc9ba0447479839fcc9c5e3954ff71",
+    "cost_usd": 0.0272712
+  }
+}

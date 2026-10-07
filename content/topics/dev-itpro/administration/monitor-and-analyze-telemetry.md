@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/monitor-and-analyze-telemetry
 type: topic
 title: Monitor and analyze telemetry
-summary: "Learn section Administration > Monitor and analyze telemetry: 70 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Telemetry monitoring in Business Central covers turning on Application Insights telemetry, the available event IDs, analysis with KQL and Power BI, alerting, and cost control. It answers questions about setup, which events exist, how to query them, and how to manage cost and retention.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:26.157Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
+  prompts:
+    hub-topic: 1
+  input_hash: d611dcfc47d45b7adaae9bcec68638775db2868109468d9b61fe18b5f5f7b96c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
@@ -339,14 +340,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
-narrative: none
+narrative: generated
 ---
 
 # Monitor and analyze telemetry
 
-> Learn section Administration > Monitor and analyze telemetry: 70 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Telemetry monitoring in Business Central covers turning on Application Insights telemetry, the available event IDs, analysis with KQL and Power BI, alerting, and cost control. It answers questions about setup, which events exist, how to query them, and how to manage cost and retention.
 
-Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · no narrative yet
+Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+Business Central can send telemetry to Azure Application Insights, for online and on-premises deployments. The section starts with the overview page on enabling telemetry at environment and app level. A separate page covers setting the connection string or instrumentation key for the server, admin center, or individual tenants.
+
+## Key points
+
+- Enable telemetry by configuring an Application Insights connection string or instrumentation key for the server, admin center, or individual tenants; this works for online and on-premises.
+- Available Telemetry and Telemetry Event IDs list events by event ID, grouped as application, client, lifecycle and runtime events; AL event IDs have a prefix.
+- The KQL page queries the traces and pageViews tables and custom dimensions, with examples for report usage, session tracking, user activity and timezone conversion.
+- Power BI apps are free and open source, with usage, error, performance and administration reports and sample data.
+- Alerts can be built with Power BI Metrics, Application Insights alerts, Logic Apps or Power Automate, using KQL queries.
+- Controlling Telemetry Cost covers daily ingestion caps, data collection rules, sampling, retention periods and cost monitoring.
+- The Telemetry FAQ covers cost control, custom dimensions overflow, data retention, log analytics queries and the purge API.
+- Telemetry by area has 61 reference pages with events, custom dimensions and sample KQL for areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP.
 
 ## Subtopics
 

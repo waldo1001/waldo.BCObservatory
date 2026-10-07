@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/relationship-management/relationship-management-analytics
 type: topic
 title: Relationship management analytics
-summary: "Learn section Business functionality > Relationship management > Relationship management analytics: 18 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
 tier: official
 language: en
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3693781c45191e243a698a389e207d4c1653e01f07caf69f81dbecdba8d2b40d
+  prompts:
+    hub-topic: 1
+  input_hash: 149d2a72d32c46179317cefb292ff894e1b50bf5bd2b0e16311ff627c70d3f2e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5060
@@ -204,14 +205,33 @@ bc_forms:
   - 5085
   - 50585058
 member_hash: 3693781c45191e243a698a389e207d4c1653e01f07caf69f81dbecdba8d2b40d
-narrative: none
+narrative: generated
 ---
 
 # Relationship management analytics
 
-> Learn section Business functionality > Relationship management > Relationship management analytics: 18 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Relationship management analytics · tier official · system crm · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Relationship management analytics · tier official · system crm · narrative reviewed by Opus
+
+## Overview
+
+This section lists the built-in relationship management reports, which you can reach through Report Explorer. The overview page "Relationship management reports" is the entry point. Each other page describes one report.
+
+The reports fall into groups. Contact reports include List, Company Summary, Person Summary, Labels and two cover sheet reports. Opportunity and sales reports include Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities. Campaign - Details covers campaigns. Segment reports cover contact lists, cover sheets and labels. Questionnaire reports print handouts and test profile questionnaires. Email Merge produces personalized letters for a marketing segment.
+
+Start with the overview page to find the report you need. Then open its page to see what it shows and where to run it, for example from the Contact Card, the Segment page or the Profile Questionnaire Setup page.
+
+## Key points
+
+- Reports are available through Report Explorer, listed on the Relationship management reports page.
+- Contact - List shows all contacts with contact type, related opportunities and to-dos; Company Summary and Person Summary show address or name, contact number, interactions and to-dos.
+- Contact - Cover Sheet is run from the Contact Card page and can log interactions; the separate Contact Cover Sheet report prints contact and company addresses, VAT registration and bank details.
+- Segment - Cover Sheet is run through Print Cover Sheets on the Segment page; Segment - Contacts lists the contacts selected in one or more segments.
+- Contact - Labels and Segment - Labels print names and addresses with configurable label size and column layout, useful for campaign letters.
+- Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities support sales pipeline review, with estimated and calculated values and salesperson filtering.
+- Email Merge creates personalized letters for a segment, with formal or informal salutation, segment content, salesperson signature and multilingual support.
+- Questionnaire - Handouts prints profile questionnaires; Questionnaire - Test shows test reports from the Profile Questionnaire Setup page.
 
 ## Learn pages
 

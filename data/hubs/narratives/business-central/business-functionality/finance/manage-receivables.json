@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/manage-receivables",
+  "input_hash": "c358b2322609b48b0cd8a586702cea076a36973435f8334986ce702f4f07930a",
+  "summary": "Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries.",
+  "overview": "This section covers the receivables cycle. Payments can be applied in several ways: the Payment Reconciliation Journal for bank statements and feeds, Payment Registration for unpaid sales documents, or the Cash Receipt Journal and customer ledger entries for manual application. A subtopic covers automatic payment application, matching rules, Text-to-Account mapping and bank reconciliation.\n\nOther pages cover collection and risk: statements, reminders, finance charge memos, Copilot for Finance in Outlook, late payment prediction, and blocking customers. Further pages cover payment tolerances, SEPA Direct Debit, netting balances for a company that is both customer and vendor, analytics, sales tax, and Intrastat reporting.\n\nStart with \"Overview of tasks to manage receivables\" to choose the right payment method. Then go to the page for that task, such as the reconciliation subtopic for bank-based matching or \"Collect outstanding balances\" for overdue amounts.",
+  "key_points": [
+    "Payment application options: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal or customer ledger entries.",
+    "The reconciliation subtopic covers importing bank statements or feeds, automatic matching to open entries, matching rules, and Text-to-Account mapping for recurring payments.",
+    "Collection tools: Customer Statement report, Reminders, Finance Charge Memos with Finance Charge Terms, Copilot for Finance in Outlook, and Dispute Status.",
+    "Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period for discounts and blocking per customer or vendor.",
+    "The Late Payment Prediction extension uses machine learning, shows confidence levels, and can use Microsoft models or custom Azure-based models.",
+    "SEPA Direct Debit collects payments in EUR through export formats, mandates, and collection entries that export an XML file to the bank.",
+    "Customers can be blocked for shipments, invoices, or all transactions, for example when insolvent.",
+    "Sales tax in the default version is supported by Microsoft only in the United States and Canada; Intrastat extended capabilities start in 2022 release wave 2."
+  ],
+  "members_used": 13,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:21.720Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0295144
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:23.051Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the 'Send Reminders of Outstanding Balances' page is only a link hub; the narrative folds it into collection, which is fine.",
+      "Minor: 'Dispute Status' is listed as a collection tool based only on a feature tag of the 'Collect outstanding balances' page; it is supported but has no further detail."
+    ],
+    "input_hash": "c358b2322609b48b0cd8a586702cea076a36973435f8334986ce702f4f07930a",
+    "cost_usd": 0.0518872
+  }
+}

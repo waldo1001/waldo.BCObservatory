@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/extension-lifecycle/translation
 type: topic
 title: Translation
-summary: "Learn section Development > Extension lifecycle > Translation: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Translation of Business Central extensions using XLIFF files. It covers how layered translation sources override each other by language priority and app dependencies, and how to generate and edit XLIFF files with namespace-aware IDs.
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 58c2c81625df87190e9293aa2b56260d3bd28e99ed7146537c11d48f685008eb
+  prompts:
+    hub-topic: 1
+  input_hash: 57ae860e6738e631a0ad182420b8338cfbb7b6168b78e886c30651f22538bedb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-translations-overview
@@ -59,14 +60,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 58c2c81625df87190e9293aa2b56260d3bd28e99ed7146537c11d48f685008eb
-narrative: none
+narrative: generated
 ---
 
 # Translation
 
-> Learn section Development > Extension lifecycle > Translation: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Translation of Business Central extensions using XLIFF files. It covers how layered translation sources override each other by language priority and app dependencies, and how to generate and edit XLIFF files with namespace-aware IDs.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Translation in Business Central is based on XLIFF files. The overview page explains the layered system: several translation sources can apply at once, and one overrides another according to language priority and app dependencies. It also covers caption translation, primary language fallback, and the global and local language concepts (version 18.3).
+
+The second page is the hands-on guide. It shows how to generate translation files, add translations, and use namespace-aware IDs to translate UI elements and labels. It refers to the TranslationFile feature, GenerateCaptions, GenerateLockedTranslations and TranslationsWithNamespaces, and to label syntax (runtime 18).
+
+Start with the overview to understand how languages are layered and which translation wins. Then use the XLIFF guide to set up file generation in your extension.
+
+## Key points
+
+- Translations use the XLIFF format.
+- Translation sources are layered and can override each other based on language priority and app dependencies.
+- Primary language fallback, global language and local language are part of the layering model.
+- The TranslationFile feature enables generating translation files for an extension.
+- GenerateCaptions and GenerateLockedTranslations control what goes into the generated files.
+- TranslationsWithNamespaces enables namespace-aware translation IDs (runtime 18).
+- Label syntax is used to make text translatable.
+- The overview page is marked for version 18.3.
 
 ## Learn pages
 

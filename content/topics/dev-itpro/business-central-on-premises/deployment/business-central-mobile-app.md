@@ -2,19 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/business-central-mobile-app
 type: topic
 title: Business Central mobile app
-summary: "Learn section Business Central on-premises > Deployment > Business Central mobile app: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Business Central mobile app section for on-premises deployments covers what the app is, how to install it on iOS, Android and Windows devices, how to use HTTPS and certificates, and how to troubleshoot common problems. It answers setup, security and error-resolution questions.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:27.874Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: afc3fdf78d13c9ae1d41ded22c63367b849668020da455b7c0e53bd43bfdd7a9
+  prompts:
+    hub-topic: 1
+  input_hash: 7049dfe3a764da28dbfd221ca8f1c8238b35f7260b0908aca8cdeb4ddb1e7c2c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/install-business-central-app
@@ -73,14 +74,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: afc3fdf78d13c9ae1d41ded22c63367b849668020da455b7c0e53bd43bfdd7a9
-narrative: none
+narrative: generated
 ---
 
 # Business Central mobile app
 
-> Learn section Business Central on-premises > Deployment > Business Central mobile app: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Business Central mobile app section for on-premises deployments covers what the app is, how to install it on iOS, Android and Windows devices, how to use HTTPS and certificates, and how to troubleshoot common problems. It answers setup, security and error-resolution questions.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central mobile app · tier official · system none · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central mobile app · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+The Business Central mobile app gives tablet and phone users a touch-optimized interface to their data. It suits portable access and light data entry, and it does not replace the web client. The section covers the on-premises case, where the web server must be configured for the app to connect.
+
+Start with the introduction page to see what the app offers. Then use the installation page, which covers iOS, Android and the Windows 10 app, SSL configuration and navsettings.json setup. The HTTPS and certificates page explains secure connections. The troubleshooting page covers problems found after setup.
+
+## Key points
+
+- The app offers tablet and phone interfaces with touch design and a role center, aimed at portable access and light data entry.
+- It does not replace the web client.
+- Installation for on-premises deployments is described for iOS, Android and Windows 10 devices.
+- On-premises installation needs web server configuration, including SSL configuration and navsettings.json setup.
+- The installation page mentions 2021 release wave 1 and 2 (versions 18 and 19).
+- HTTPS and certificates secure the connection. Self-signed certificates are recommended only for testing, never for production.
+- Troubleshooting covers icon font loading, device date configuration issues and client type errors.
 
 ## Learn pages
 

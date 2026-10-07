@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/project-management/project-management-analytics
 type: topic
 title: Project management analytics
-summary: "Learn section Business functionality > Project management > Project management analytics: 33 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use."
 tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:58.855Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c8777de2b96fea69c0436beb9d6923b2c6921b1d7224eac1d4fd062e2f535b66
+  prompts:
+    hub-topic: 1
+  input_hash: d3faf6dba847e56f79274b6a66c7b490e90cf8926229ef386f959eaa323f5e37
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects
@@ -310,14 +311,32 @@ bc_forms:
   - 37062
   - 37106
 member_hash: c8777de2b96fea69c0436beb9d6923b2c6921b1d7224eac1d4fd062e2f535b66
-narrative: none
+narrative: generated
 ---
 
 # Project management analytics
 
-> Learn section Business functionality > Project management > Project management analytics: 33 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use.
 
-Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · narrative reviewed by Opus
+
+## Overview
+
+This area brings together the analysis options for projects. The overview page, Project analytics, introduces the features and the KPIs they help monitor, such as completion rates and cost performance, across different user roles. From there the options split by how much structure you need.
+
+For ready-made dashboards, the Power BI Projects app subtopic covers the reports, the semantic model and the KPI and measure reference. For printable or standard output, the Built-in project reports subtopic covers quotes, budget comparison, billing, WIP, item usage, journals, registers and resource reports. For quick exploration, the ad-hoc analysis page explains how to use the Data Analysis feature on list pages such as project ledger entries, without running a report.
+
+The page on monitoring project progress and performance covers the WIP feature, which estimates the financial value of ongoing projects in the general ledger. Start with Project analytics to pick a route, then go to the specific subtopic or page.
+
+## Key points
+
+- Project analytics is the entry page: it lists Power BI reports, ad-hoc analysis and built-in reports for monitoring project KPIs.
+- The Power BI Projects app covers budget performance, profitability, realization, invoiced sales, tasks and timelines, plus the semantic model and measure reference.
+- Built-in project reports cover quotes, budget comparison, billing, WIP, item usage, journals, registers and resource usage.
+- Ad-hoc analysis uses the Data Analysis feature on list pages such as project ledger entries, with analysis mode, Pivot Mode, Column Labels, Row Groups and a Values area.
+- WIP methods named in the pages: cost value, sales value, recognizable cost, percentage of completion and completed contract.
+- WIP is calculated, then posted to the G/L, and WIP fields can be tracked on the Project Card.
+- WIP setup involves defining the WIP method and grouping by project task.
 
 ## Subtopics
 

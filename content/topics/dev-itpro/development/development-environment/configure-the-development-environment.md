@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/development-environment/configure-the-development-environment
 type: topic
 title: Configure the development environment
-summary: "Learn section Development > Development environment > Configure the development environment: 10 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces. It answers setup, configuration and IP protection questions, with a subtopic on the JSON files."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:14.903Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2bacf55057d515171b5ffa49dd7d138332dd1d035ecd858efa431c4705a49ed9
+  prompts:
+    hub-topic: 1
+  input_hash: e7c21a062be36b58ed0bade511245d3192691a2185a6668f3735121b10ad873b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-extension-configuration
@@ -121,14 +122,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2bacf55057d515171b5ffa49dd7d138332dd1d035ecd858efa431c4705a49ed9
-narrative: none
+narrative: generated
 ---
 
 # Configure the development environment
 
-> Learn section Development > Development environment > Configure the development environment: 10 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces. It answers setup, configuration and IP protection questions, with a subtopic on the JSON files.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · no narrative yet
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to set up and tune a Business Central AL development environment. It includes the AL Language extension settings in Visual Studio Code (compilation, code analysis, debugging, editor behavior) and a page on improving performance with large projects.
+
+Two pages cover where code runs. One describes a container-based environment using Docker and the BCContainerHelper PowerShell module. The other describes cloud-hosted development in GitHub Codespaces through a devcontainer.json file.
+
+Other pages cover project-level settings: the runtime property in app.json for targeting a platform version, and the resourceExposurePolicy setting for protecting source code. The JSON files subtopic (app.json, launch.json, Directory.app.props.json, migration.json) details the configuration files. Start with the AL Language extension configuration page, then pick a container or Codespaces setup.
+
+## Key points
+
+- The AL Language extension settings control compilation, code analysis, debugging and editor behavior, including incremental build, code analyzers, symbol search, profiler and snapshot debugging.
+- To speed up VS Code with large projects: disable code analysis, enable incremental builds, and adjust editor settings such as background compilation, code actions and format on save.
+- The runtime property in app.json sets the platform version an extension targets, which determines available features and publishing compatibility.
+- resourceExposurePolicy has allowDebugging, allowDownloadingSource, includeSourceInSymbolFile and applyToDevExtension; the NonDebuggable attribute also relates to IP protection.
+- A dynamic policy override using Azure Key Vault can give time-limited access to an extension's source code.
+- Container-based development uses Docker, Windows containers and BCContainerHelper to create and manage sandbox containers and install apps.
+- GitHub Codespaces development is configured with devcontainer.json (tools, VS Code extensions, settings, CodeCop and UICop analyzers, environment variables, port forwarding) for fast onboarding and consistent teams.
+- The JSON files subtopic covers app.json, launch.json, Directory.app.props.json and migration.json (4 pages).
 
 ## Subtopics
 

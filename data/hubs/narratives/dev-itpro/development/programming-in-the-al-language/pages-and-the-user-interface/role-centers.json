@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers",
+  "input_hash": "c9fd27854df44fd36b65f13e5c78c931171412bb6aa02a21cd8bed13b35a2a8c",
+  "summary": "Role centers in AL: how to design role-tailored home pages with navigation menus, cues, action tiles, and headlines, plus a simple code example and a user onboarding checklist. It answers questions about building and customizing Role Center pages and their parts.",
+  "overview": "A Role Center is the home page tailored to a user profile. It combines a navigation area, an action bar, and a content area with parts such as cues and headlines. The pages here cover each of those pieces and how to build them in AL.\n\nStart with \"Designing Role Centers\" for the overall structure, performance optimization with page background tasks, and mobile considerations. \"Simple Role Center Code Example in AL\" then shows a working page with sections, embedding, and processing, creation, and reporting action areas.\n\nThe other pages go into specific parts. \"Adding Menus to the Navigation Area\" covers the navigation menu, navigation bar, and actions on Role Centers and page extensions. \"Creating and Customizing Cues\" covers Cue tables, CardPart pages, and action tiles. \"Create a Role Center headline\" covers HeadlinePart pages. \"Get Users Started with the Checklist\" covers onboarding with guided experience items, assisted setup, and tours.",
+  "key_points": [
+    "Navigation menus, the navigation bar, and actions are defined with area() and action() controls in AL, on Role Centers and page extensions, with support for submenus.",
+    "Cues are based on a Cue table with FlowField or normal fields, shown through CardPart pages using cuegroup controls, with an optional wide layout.",
+    "Action tiles can be added to cue groups to start operations from the Role Center.",
+    "Headlines use the HeadlinePart page type, with fields whose Expression property uses tags for title, payload, and emphasis to show rotating text.",
+    "Headlines support drill-down, interactive behavior, and dynamic visibility.",
+    "Designing Role Centers covers the content area, performance (page background tasks), and mobile considerations (2021 release wave 1).",
+    "The checklist onboards users with guided experience items, assisted setup, manual setup, tours, and spotlight tours (2021 release wave 1).",
+    "A simple AL example shows a custom Role Center with a posted invoices section, embedded sales and services actions, and processing, creation, and reporting action areas."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:20.449Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013739
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:18.489Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point on Designing Role Centers ends with '(2021 release wave 1)'. That can read as if only the mobile considerations belong to that release, when the source only links the version to the page as a whole. The same tag on the checklist point is fine.",
+      "The link between performance and page background tasks is a small inference: the source lists page background tasks as a feature and mentions performance optimization separately. Readers would reasonably connect the two, so this is acceptable."
+    ],
+    "input_hash": "c9fd27854df44fd36b65f13e5c78c931171412bb6aa02a21cd8bed13b35a2a8c",
+    "cost_usd": 0.0332712
+  }
+}

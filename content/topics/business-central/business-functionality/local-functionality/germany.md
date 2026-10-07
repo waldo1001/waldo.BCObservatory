@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany
 type: topic
 title: Germany
-summary: "Learn section Business functionality > Local functionality > Germany: 28 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Germany local functionality in Business Central: VAT reporting (ELMA5, VAT-VIES), GoBD digital audit exports, e-invoicing (XRechnung, ZUGFeRD, Peppol BIS 3.0 DE), Intrastat, purchase delivery reminders, year-end currency adjustment and the vendor payments list report. It answers setup, submission and compliance questions for German companies."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:19.698Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fdfb30d3e5df6586148f65ef88d58c92caadfb9b38f10ebf7f74efc6c8fa2c97
+  prompts:
+    hub-topic: 1
+  input_hash: cb2cd35630d9e8616e906a7cf67a09625d43afa22b70dbf965d914152eae1b86
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors
@@ -276,14 +277,33 @@ bc_forms:
   - 5005282
   - 5005283
 member_hash: fdfb30d3e5df6586148f65ef88d58c92caadfb9b38f10ebf7f74efc6c8fa2c97
-narrative: none
+narrative: generated
 ---
 
 # Germany
 
-> Learn section Business functionality > Local functionality > Germany: 28 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Germany local functionality in Business Central: VAT reporting (ELMA5, VAT-VIES), GoBD digital audit exports, e-invoicing (XRechnung, ZUGFeRD, Peppol BIS 3.0 DE), Intrastat, purchase delivery reminders, year-end currency adjustment and the vendor payments list report. It answers setup, submission and compliance questions for German companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Germany section collects the local features that German companies need in Business Central. An overview page lists the main areas: VAT reporting and declarations, German e-invoicing formats, delivery reminders for purchases, digital audit data export with GoBD filtering, and Intrastat. It names 2026 release wave 2 and 2027 release wave 1 as versions.
+
+The details sit in four subtopics. VAT covers creating and correcting VAT reports and declaring VAT-VIES. Core finance covers digital audit exports, electronic invoicing and Intrastat export and printing. Purchasing covers delivery reminders for late vendor deliveries. General covers year-end currency adjustment with BilMoG valuation, EU sales list submission to the BZSt portal, company registration numbers on reports and the G/L Setup Information report.
+
+One further page describes the Print Vendor Payments List report, which also applies to the Austrian and Swiss versions. Start with the subtopic that matches your task: VAT for tax authority reports, Core finance for audits and e-invoices, Purchasing for vendor reminders.
+
+## Key points
+
+- VAT: set up and create VAT reports with ELMA5 export, correct submitted reports, declare VAT-VIES, and configure VAT and Intrastat report selections.
+- Core finance: digital audit export (GoBD/GDPdU) and electronic invoicing in XRechnung, Peppol BIS 3.0 DE and ZUGFeRD formats.
+- Intrastat export and printing are covered in Core finance.
+- Purchasing: set up delivery reminder terms, levels and text, assign codes to vendors, generate or create reminders, print test reports and issue them.
+- General: year-end currency exchange rate adjustment with BilMoG valuation and EU sales list submission to the BZSt portal.
+- General also covers company registration numbers on reports and the G/L Setup Information report.
+- The Print Vendor Payments List report (German, Austrian, Swiss versions) sorts by vendor or chronologically, with layouts for standard, FCY amounts or posting information.
+- The overview page references 2026 release wave 2 and 2027 release wave 1.
 
 ## Subtopics
 

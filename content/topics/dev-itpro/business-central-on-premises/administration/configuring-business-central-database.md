@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration/configuring-business-central-database
 type: topic
 title: Configuring Business Central database
-summary: "Learn section Business Central on-premises > Administration > Configuring Business Central database: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Configuring the Business Central database for on-premises deployments: SQL Server installation considerations, compatibility level, performance tuning, index management, table partitioning, data compression, and read scale-out. It answers setup and tuning questions about the SQL database behind Business Central."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9e9a5d8b688c1cfc28ccfa67c3f09a18394ddc46317f40a6f3627220fe3c2f3a
+  prompts:
+    hub-topic: 1
+  input_hash: 90af627c90e253ac752a18a0b71c2e1e91c02473b48ae28f79d07e3347a96e6a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-configuration
@@ -93,14 +94,32 @@ bc_forms:
   - 8705
   - 9521
 member_hash: 9e9a5d8b688c1cfc28ccfa67c3f09a18394ddc46317f40a6f3627220fe3c2f3a
-narrative: none
+narrative: generated
 ---
 
 # Configuring Business Central database
 
-> Learn section Business Central on-premises > Administration > Configuring Business Central database: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Configuring the Business Central database for on-premises deployments: SQL Server installation considerations, compatibility level, performance tuning, index management, table partitioning, data compression, and read scale-out. It answers setup and tuning questions about the SQL database behind Business Central.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central database · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central database · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to prepare and tune the SQL Server or Azure SQL database that Business Central uses on-premises. It starts with installation considerations such as disk partitioning, virus scanning, memory, TempDB, full-text search, MAXDOP settings, statistics management and high availability, for both on-premises and Azure deployments.
+
+The remaining pages cover tuning. One sets the SQL compatibility level to match the server version. The performance guide covers data access, table keys, bulk inserts, queries and monitoring tools. Other pages cover managing index usage per company, using table partitioning and data compression, and configuring read scale-out with read-only replicas.
+
+A good starting point is the installation considerations page, then the compatibility level page. The performance guide is the overview for tuning, and the other pages go deeper on single techniques.
+
+## Key points
+
+- Installation considerations cover disk partitioning, virus scanning, memory, TempDB, full-text search, MAXDOP, statistics and high availability.
+- Set the database compatibility level to match the server: 140 for SQL Server 2017, 130 for SQL Server 2016, to enable the latest optimization features.
+- Index usage can be managed per company: view usage statistics and storage size, and turn indexes on or off, including off for all companies.
+- Disabling nonessential indexes can improve write performance and reduce storage costs. Unique indexes and primary keys cannot be disabled.
+- Table partitioning and data compression are supported for on-premises databases to improve manageability, query performance and storage use. The CompressionType property is involved.
+- Read scale-out uses read-only replicas. Enabling it needs support checks on Azure SQL Database or SQL Server and server instance configuration.
+- The performance guide covers compatibility level, data access, table keys, bulk inserts, query hints and monitoring tools.
 
 ## Learn pages
 

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app",
+  "input_hash": "454b59b417fbce2700052323843d1f2e5575d5b049a07a10567fd58588343437",
+  "summary": "The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.",
+  "overview": "The Power BI Projects app gives leadership, project managers, and team members analytics on project performance, budget adherence, profitability, and invoiced sales. CFOs also use the Project Realization report. The section has one page describing the app and its reports, one page for the semantic model, one for the KPIs and measures, and a page for each report.\n\nThe semantic model stores project ledger entries, planning lines, and purchase transactions as fact tables. Dimension tables for projects, resources, tasks, and customers surround them in a star schema. The KPI and measures reference lists the measures built on this model, such as Project Count, Tasks Count, Completed percentage, Invoiced percentage, Realization percentage, and budget variance.\n\nStart with the app overview page to see which reports exist. Then open the report page that matches your question. Use the semantic model and KPI pages when you need to know where a number comes from or want to build your own reports.",
+  "key_points": [
+    "The app overview lists the Project Performance to Budget, Project Profitability, Project Overview, Project Invoiced Sales by Type, and Project Invoiced Sales by Customer reports.",
+    "Project Performance to Budget compares Total Usage Cost with Total Budget Cost and shows Total Cost Variance to Budget, so project managers can keep projects under budget.",
+    "Project Profitability shows invoiced and usage profit margins and budget profit per project, comparing costs against prices to find high and low performing projects.",
+    "Project Realization compares invoiced to usage prices (Realization %, Realization Variance) to show which projects need invoicing.",
+    "Project Overview gives high-level metrics: completed, invoiced, and realization percentages, actual profit, budget comparison, and project count.",
+    "Project Tasks gives task-level actual price, cost, profit, profit margin, realization, and billable metrics.",
+    "Project Timeline tracks task starting and ending dates, durations, and critical paths.",
+    "Invoiced Sales by Type splits sales into resources, items, and G/L accounts. Invoiced Sales by Customer splits sales values per project and customer."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:09.244Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017373
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:46.107Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 says the Profitability report shows 'budget profit margins'. The source only lists 'Budget profit tracking', so the wording now says budget profit.",
+      "The overview listed CFOs as an audience of the whole app. The app page names leadership, project managers, and team members. CFOs appear only on the Project Realization page, so the text now ties them to that report."
+    ],
+    "input_hash": "454b59b417fbce2700052323843d1f2e5575d5b049a07a10567fd58588343437",
+    "cost_usd": 0.0531072
+  }
+}

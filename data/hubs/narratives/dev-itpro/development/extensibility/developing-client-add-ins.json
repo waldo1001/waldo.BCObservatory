@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
+  "input_hash": "9cb4221d3b5dfc505fb6a851ea88ab386bd3c810ce886ba6bf7d60bc9cd3d83f",
+  "summary": "Developing client add-ins covers guidance for building control add-ins in Business Central. It answers questions about performance practices, such as AL trigger invocation, callbacks and payload size, and about visual styling, such as colors, typography and CSS.",
+  "overview": "This section has two pages for developers who build control add-ins that run in the Business Central client. One page covers how an add-in should behave at runtime. The other covers how it should look.\n\nThe performance page explains how to call AL triggers and handle callbacks, and how to keep payloads small. Poor performance can lead to reduced functionality warnings and request throttling. The style guide gives the CSS color palette, typography, font families, chart colors and design principles. Following it helps an add-in blend into the client with consistent theming and accessibility.\n\nStart with the performance page to avoid throttling and warnings, then use the style guide while you design the add-in's interface. The pages do not depend on each other, so read them in either order.",
+  "key_points": [
+    "Invoke AL triggers only after previous calls have completed.",
+    "Avoid excessive payloads when passing data between the add-in and AL.",
+    "Poor add-in performance can trigger reduced functionality warnings and request throttling.",
+    "The performance page covers callback handling, payload optimization, performance monitoring and error handling.",
+    "The style guide defines the color palette, typography and font families for add-ins.",
+    "The style guide includes chart colors and CSS styling guidance.",
+    "Design principles in the style guide aim for consistent theming and accessibility within Business Central."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:09.238Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008543
+  }
+}

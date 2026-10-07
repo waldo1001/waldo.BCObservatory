@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/reconcile-bank-accounts
 type: topic
 title: Reconcile bank accounts
-summary: "Learn section Business functionality > Finance > Reconcile bank accounts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Bank account reconciliation in Business Central: matching bank statements to ledger entries, applying payments to open invoices, using Copilot for matching, registering bank deposits, and transferring funds between bank accounts. Answers how-to questions about these tasks."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:51.600Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 31fee08bdf4b262850c5c9c8cf469c7ad6450e0b10bc04c69b03a3ddfc821fb5
+  prompts:
+    hub-topic: 1
+  input_hash: cd6e2673e52fcb45423e92115f673814484942a37d9e23d43382840a38e787ef
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits
@@ -73,7 +74,8 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/10232
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -86,7 +88,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 39
@@ -108,14 +110,33 @@ bc_forms:
   - 10148
   - 36646
 member_hash: 31fee08bdf4b262850c5c9c8cf469c7ad6450e0b10bc04c69b03a3ddfc821fb5
-narrative: none
+narrative: generated
 ---
 
 # Reconcile bank accounts
 
-> Learn section Business functionality > Finance > Reconcile bank accounts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Bank account reconciliation in Business Central: matching bank statements to ledger entries, applying payments to open invoices, using Copilot for matching, registering bank deposits, and transferring funds between bank accounts. Answers how-to questions about these tasks.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Reconcile bank accounts · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Reconcile bank accounts · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers keeping cash records accurate. Reconciliation matches bank statement transactions with bank account ledger entries, using automatic and manual matching, so missing payments and errors show up. Statements can come from imports or bank feeds, and payments can be applied to open invoices through the Payment Reconciliation Journal.
+
+The pages split by task. "Manage bank accounts" gives the general picture, "Reconcile bank accounts" explains the matching process, and "Reconcile bank accounts and apply payments" covers setup of bank feeds, statement import and payment matching rules. A preview page describes Copilot assistance for matching and suggesting G/L accounts. Two further pages cover creating bank deposits and transferring funds between bank accounts.
+
+Start with "Manage bank accounts" or "Reconcile bank accounts" for the basics, then move to the payment application page if you need to apply payments to invoices automatically.
+
+## Key points
+
+- Reconciliation matches bank statement lines to bank account ledger entries using automatic and manual matching, and shows outstanding transactions.
+- Statements can be imported or fed through bank feeds; the Payment Reconciliation Journal applies payments to open invoices automatically.
+- Payment matching rules control how payments are matched to invoices.
+- Copilot assistance (preview, 2025 release waves 1 and 2) improves transaction matching and suggests G/L accounts for unmatched transactions, supplementing auto-match.
+- Copilot has a 'Post if fully applied' option, and match proposals can be reviewed and saved.
+- Bank deposits (2022 release wave 1) register cash deposits as one document posting to bank, customer and vendor ledgers, as a lump sum or by individual line.
+- Bank deposits handle multiple deposit sources and dimensions.
+- Transfers between bank accounts use the General Journals page, with same or different currency codes and exchange rate adjustments.
 
 ## Learn pages
 
@@ -125,6 +146,12 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
 - [Transfer bank funds](https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds): You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Bank Reconciliation method streamlines operations by posting cash receipts and reconciling them simultaneously"
 
 ## Business Central pages and reports
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/design-details/design-details-item-tracking
 type: topic
 title: "Design details: Item tracking"
-summary: "Learn section Business functionality > Design details > Design details: Item tracking: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Item tracking design details in Business Central: how serial, lot and package numbers are tracked through the reservation system, posting, planning, warehouse and availability. It answers questions about the tables involved, how active and historic entries differ, and how tracking interacts with reservations and planning."
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 888b74b93d1eeef22093ba36d001ab2c7bf2b77c2a4111f3091c847717c8cf31
+  prompts:
+    hub-topic: 1
+  input_hash: 31182aca552f45627c1ec55a39cc9b88d71df729d0ca921de969c500428f95aa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries
@@ -114,14 +115,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 888b74b93d1eeef22093ba36d001ab2c7bf2b77c2a4111f3091c847717c8cf31
-narrative: none
+narrative: generated
 ---
 
 # Design details: Item tracking
 
-> Learn section Business functionality > Design details > Design details: Item tracking: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Item tracking design details in Business Central: how serial, lot and package numbers are tracked through the reservation system, posting, planning, warehouse and availability. It answers questions about the tables involved, how active and historic entries differ, and how tracking interacts with reservations and planning.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Item tracking · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Item tracking · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+Item tracking lets you follow serial, lot and package numbers through the supply chain. The pages in this section describe the underlying design: how tracking data is stored in the Tracking Specification and Reservation Entry tables, how it is posted to item ledger entries, and how it links to posted documents.
+
+The pages fit together by topic. The overview and design pages give the architecture. Separate pages cover the Item Tracking Lines page, availability calculation, reservations with late binding, planning and order tracking, warehouse documents, and the posting structure with its relation tables. A further page shows active versus historic entries with a purchase order example.
+
+Start with "Design details - Item tracking" for the scope and links, then read "Item tracking design". After that, go to the page that matches your question, such as warehouse, planning or posting.
+
+## Key points
+
+- Item tracking is built on the reservation system and links to posted documents and item ledger entries. The Item tracking design page covers serial, lot and package numbers and is tagged with 2021 release wave 1.
+- Tracking entries live in the Tracking Specification and Reservation Entry tables. The active versus historic page uses a purchase order example to show how quantities move through receiving and invoicing.
+- Late binding lets serial or lot numbers be coupled to supply and demand later; nonspecific reservations are reshuffled at posting to match the items actually picked.
+- Item tracking numbers affect planning and order tracking, including supply-demand matching and transfer planning for items needing specific tracking.
+- The Item Tracking Lines and Item Tracking Summary pages show dynamic availability: Total Quantity, Total Requested Quantity, Current Pending Quantity, Total Available Quantity, with a Refresh Availability action.
+- Warehouse coverage focuses on inbound and outbound warehouse documents, item tracking assignment, warehouse activity documents and the relationship with the reservation system.
+- Posting uses Item Entry Relation and Value Entry Relation tables with one-to-many relations between item ledger entries and posted documents, including invoice posting.
 
 ## Learn pages
 

@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/russia/fixed-assets",
+  "input_hash": "4fe3440790d1120f3d39aa8639026e60e007f8cca90c0a32e2a05290a8e23079",
+  "summary": "Fixed assets functionality specific to Russia in Business Central: depreciation, charges, inventory, gratuitous receipts, release, movement and write-off acts, sales, and viewing posted charge entries. It answers how to post and track fixed assets under Russian requirements.",
+  "overview": "This area describes the Russian local features for managing fixed assets across their lifecycle. It starts with an overview page listing the main capabilities: depreciation, asset charges, depreciation bonus, inventory, location and employee tracking, and asset turnover.\n\nThe other pages are task-oriented. They cover receiving assets without acquisition cost (gratuitous receipts), releasing assets into service, moving them between locations, writing off remaining book value with dedicated act windows, selling assets, and reviewing posted entries per charge code.\n\nStart with the overview page to see which features exist, then go to the page that matches the lifecycle step you need, such as receipt, release, sale or write-off.",
+  "key_points": [
+    "The overview covers depreciation, asset charges, depreciation bonus, asset inventory, location and employee tracking, and asset turnover.",
+    "Gratuitous receipts register fixed assets received without acquisition cost, posted through FA G/L Journals and FA Journals.",
+    "Gratuitous receipts require depreciation book configuration and tax ledger setup for Russian compliance.",
+    "FA Release Act puts assets into service, FA Movement Act tracks moves between locations, and FA Writeoff Act writes off remaining book value.",
+    "The release, movement and write-off pages involve fixed asset setup, depreciation book code and fixed asset status.",
+    "Selling a fixed asset has two stages: depreciate it through fixed asset journals, then post a sales invoice with the fixed asset as the item type.",
+    "The FA Ledger Entries page shows posted fixed asset entries for each fixed asset charge code."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:32.924Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011767
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:11.748Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'across their lifecycle' in the overview is a light synthesis, but it is supported by the overview page's mention of asset lifecycle management and by the task pages."
+    ],
+    "input_hash": "4fe3440790d1120f3d39aa8639026e60e007f8cca90c0a32e2a05290a8e23079",
+    "cost_usd": 0.032879200000000004
+  }
+}

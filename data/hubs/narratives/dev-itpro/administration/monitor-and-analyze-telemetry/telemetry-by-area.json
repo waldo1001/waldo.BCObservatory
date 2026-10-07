@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area",
+  "input_hash": "0d7c4a309932220592821d04fd539e73b17a91bd61ddbcd184dadf561299fd88",
+  "summary": "Telemetry by area is a reference set of pages, one per telemetry area in Business Central. Each lists the events, custom dimensions and sample KQL queries for Application Insights. It answers questions about what is logged, which event ID to query, and how to diagnose problems in areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP.",
+  "overview": "This section documents the telemetry Business Central emits to Application Insights, organized by functional area. Each page covers one area, for example job queues, extension lifecycle, database locks, web service requests, permissions, report generation, environment lifecycle or Marketplace validation. The pages describe the events, their event IDs where given, the custom dimensions, and often KQL samples for analysis and alerts.\n\nThe areas group loosely into: performance and database (SQL query traces, long running operations, wait statistics, deadlocks, lock timeouts), extension and app lifecycle (publishing, updates, upload and Marketplace validation), security and audit (permission changes, field monitoring, changelog, authorization), integration (web service requests, outgoing requests, Azure Functions, email), and newer AI areas (agent lifecycle, MCP configuration, MCP tool calls, AI consumption).\n\nStart with the Telemetry area overview page, which lists the available areas and where they are logged (traces or pageViews tables). Then open the page for your area and check its version notes, since many areas apply only from a given release wave or version.",
+  "key_points": [
+    "The Telemetry area overview page lists all areas and whether they log to the traces or pageViews table in Application Insights.",
+    "Performance areas include SQL query trace (RT0009), long running AL methods (RT0018), long running SQL queries (over 750 ms), wait statistics, deadlocks (RT0028) and lock timeouts (RT0012, RT0013).",
+    "Deadlock and lock timeout telemetry depend on monitoring settings such as EnableDeadlockMonitoring and EnableLockTimeoutMonitoring.",
+    "Error and permission areas include the Error method trace (RT0030) and permission error trace (RT0031), with alStackTrace and error message dimensions.",
+    "AI-related areas include agent lifecycle (LC0066, LC0067, LC0068), MCP configuration, MCP tool calls (RT0054) and AI consumption of Copilot Credits (RT0055), mostly from 2026 release wave 1 (version 28.0).",
+    "Lifecycle areas cover environments, companies, extensions, configuration packages, job queues, task scheduler, profiles, report layouts, financial reports and retention policies.",
+    "Developers can log custom telemetry with the Feature telemetry codeunit (LogUsage, LogError, LogUptake).",
+    "Partner-facing validation telemetry covers environment validation, extension upload (PTE) validation, Marketplace submission validation and AppSource breaking changes validation."
+  ],
+  "members_used": 61,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:07.472Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.056879
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:51.738Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary says each page lists events, custom dimensions and sample KQL queries; several page summaries do not mention KQL, so 'Each' slightly overstates. The overview's 'often KQL samples' is more accurate.",
+      "Key point on deadlock and lock timeout says telemetry 'depends on' EnableDeadlockMonitoring and EnableLockTimeoutMonitoring; the sources list these settings as features but do not state the dependency explicitly. Reasonable inference.",
+      "Open in Excel telemetry (RT0056, 2026 release wave 2) is not mentioned; optional, not an error."
+    ],
+    "input_hash": "0d7c4a309932220592821d04fd539e73b17a91bd61ddbcd184dadf561299fd88",
+    "cost_usd": 0.13977119999999998
+  }
+}

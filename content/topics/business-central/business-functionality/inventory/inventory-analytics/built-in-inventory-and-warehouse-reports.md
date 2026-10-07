@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports
 type: topic
 title: Built-in inventory and warehouse reports
-summary: "Learn section Business functionality > Inventory > Inventory analytics > Built-in inventory and warehouse reports: 31 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports."
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: dc1c9aa3c6c289e1c75ea775f6f9f92aa55124bd620aa1a7ca5be2fed80da129
+  prompts:
+    hub-topic: 1
+  input_hash: c88d0c722afb934665ec7abc0873a8c28f7f36370a2d561dca33120810158e00
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-719
@@ -323,14 +324,33 @@ bc_forms:
   - 99001048
   - 990003804
 member_hash: dc1c9aa3c6c289e1c75ea775f6f9f92aa55124bd620aa1a7ca5be2fed80da129
-narrative: none
+narrative: generated
 ---
 
 # Built-in inventory and warehouse reports
 
-> Learn section Business functionality > Inventory > Inventory analytics > Built-in inventory and warehouse reports: 31 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+This section is a catalog of standard reports for inventory and warehouse work. Each page describes one report: its purpose, the data it shows, and the roles that benefit from it. There are no subtopics. An overview page introduces inventory and warehouse reporting and the label printing options.
+
+The reports fall into groups. Availability and planning: Inventory Availability, Inventory - Availability Plan Excel, Planning Availability, and Production Forecast. Valuation and cost: Inventory Valuation, Status, Inventory Cost and price list, and Item Charges - Specification. Sales and purchase analysis: Customer Sales, Order Details, Picking List, Purchase Orders, Sales Back Orders, Top 10 List, and Vendor Purchases. Item analysis: ABC Analysis, Item Age Composition, Item Expiration - Quantity, Item Dimensions (Detail and Total), Item Substitutions, and Item/vendor catalog. Warehouse: Adjustment Bin, Bin List, and Warehouse Shipment Status. Label reports: Item GTIN, Lot No, Reference No., and SN.
+
+Start with the overview page, then go to the page for the report you need. For example, use Inventory Valuation to reconcile the inventory subledger to the general ledger. Use the label report pages when you need barcode or QR labels.
+
+## Key points
+
+- Inventory Valuation shows quantity and value from a start date to an end date, with beginning and closing balances, and is used to reconcile the inventory subledger to the general ledger.
+- Availability reports (Inventory Availability, Availability Plan Excel, Planning Availability) combine on-hand stock with supply and demand from sales orders, purchase orders, and transfers. They show gross requirements, scheduled and planned receipts, and projected balance.
+- Inventory - Transaction Detail shows beginning quantity, each increase and decrease with running totals, and ending quantity for selected items over a period.
+- Sales and purchase reports include Customer Sales, Order Details, Sales Back Orders, Purchase Orders, Vendor Purchases, and Top 10 List. They show quantities, discounts, profit, and unfulfilled shipments or receipts.
+- Item ABC Analysis classifies items into A, B, and C categories by sales contribution, with configurable percentages. Item Age Composition and Item Expiration - Quantity show stock by age or expiry across three equal-length periods.
+- Item Dimensions Detail and Total analyze value entries by dimension levels from analysis views, with location as an automatic dimension.
+- Warehouse reports: Adjustment Bin (advanced warehouses), Bin List (locations where bins are mandatory), and Shipment Status (open source documents per location).
+- Label reports (Item GTIN, Lot No, Reference No., SN) produce printable 1D barcode and 2D QR code labels using Word layouts for receiving, picking, and put-away.
 
 ## Learn pages
 

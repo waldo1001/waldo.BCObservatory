@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only",
+  "input_hash": "c047a79a86e18ff5a1caa287b41205f700dc33bbb035ef66a62270ec8b1f4aeb",
+  "summary": ".NET interoperability from AL in on-premises Business Central: declaring dotnet packages and types, using control add-ins, serializing types, subscribing to events, and migrating from .NET Framework to .NET Standard. It answers how-to and compatibility questions for on-premises deployments only.",
+  "overview": "This section covers how AL code works with .NET in on-premises Business Central. It applies only when the deployment target is on-premises. The pages explain how to declare .NET assemblies and types and then use them from AL.\n\nStart with \"Get started with Microsoft .NET Interoperability from AL\", which covers dotnet package declarations, assembly references, type aliases and assembly probing paths. From there, the other pages handle specific tasks: using .NET and JavaScript control add-ins, making .NET types serializable between client and server, and handling events from .NET types with DotNet variables.\n\nThe migration page is for anyone with existing .NET add-ins. It describes the move from .NET Framework to .NET Standard, the compatibility changes in v21 and v22, and the analysis tools that help check compatibility.",
+  "key_points": [
+    "All .NET interoperability from AL requires an on-premises deployment target.",
+    "Types are declared in a dotnet package with assembly references and optional type aliases, then used in AL code; assembly probing paths control where assemblies are found.",
+    "Control add-ins are declared with assembly, type and class information, using attributes such as ControlAddInExport and ApplicationVisible.",
+    "Serializing .NET types between client and server uses SerializableAttribute or the ISerializable interface; NonSerializedAttribute excludes members.",
+    "Events from .NET types are handled with DotNet variables that use the WithEvents attribute and trigger syntax.",
+    "The migration guide covers .NET Standard support, a .NET Framework compatibility mode, and the .NET 6.0 runtime, with compatibility changes in v21 and v22.",
+    "The .NET Portability Analyzer and the ApiPort tool help check add-ins for compatibility during migration."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:46.399Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012452999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:03.623Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 says \"changes in v21 and v22 (2022 release wave 2)\", which suggests both versions belong to 2022 release wave 2. The migration page summary only lists 2022 release wave 2, v21 and v22 as separate version tags. It doesn't link them that way, and v22 isn't from 2022 release wave 2. I removed the parenthetical.",
+      "The other claims in the summary, overview and key points match the page summaries: dotnet packages, assembly probing paths, control add-in attributes, serialization attributes, WithEvents, and the migration analysis tools."
+    ],
+    "input_hash": "c047a79a86e18ff5a1caa287b41205f700dc33bbb035ef66a62270ec8b1f4aeb",
+    "cost_usd": 0.0388072
+  }
+}

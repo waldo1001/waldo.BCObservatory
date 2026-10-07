@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-banking
 type: topic
 title: Set up banking
-summary: "Learn section Business functionality > Set up Business Central > Set up banking: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking setup in Business Central: bank account cards, bank feeds (Envestnet Yodlee), AMC Banking 365 Fundamentals, SEPA and other payment formats, and check layouts. It answers questions about configuring bank accounts, importing statements, exporting payments, and printing checks."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:09.100Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0ca1cc20f0d375b461b895aced2339861a8c2abd956e1bdced602f21df1bdc87
+  prompts:
+    hub-topic: 1
+  input_hash: 35f4e56358be991c759b99240ef9e2106dd6e848cd0a2905839a17753b70298e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq
@@ -112,14 +113,32 @@ bc_forms:
   - 20109
   - 20353
 member_hash: 0ca1cc20f0d375b461b895aced2339861a8c2abd956e1bdced602f21df1bdc87
-narrative: none
+narrative: generated
 ---
 
 # Set up banking
 
-> Learn section Business functionality > Set up Business Central > Set up banking: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking setup in Business Central: bank account cards, bank feeds (Envestnet Yodlee), AMC Banking 365 Fundamentals, SEPA and other payment formats, and check layouts. It answers questions about configuring bank accounts, importing statements, exporting payments, and printing checks.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to prepare Business Central for banking work. It starts with bank accounts, which track banking transactions, support local and foreign currencies, and enable payment and bank reconciliation, plus import and export of bank files.
+
+Other pages cover electronic services. Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal. The AMC Banking 365 Fundamentals extension converts bank data into formats required by many banks. A general page explains how payment formats are provided through partner apps and marketplace solutions, with built-in options in some countries or regions. A separate page covers check layouts and MICR fonts.
+
+Start with "Set Up Banking" and "Set up bank accounts" for the basics. Then pick the page for your method: Yodlee for online feeds, AMC for format conversion, or the check layout page for printed checks.
+
+## Key points
+
+- Bank accounts track transactions, support local and foreign currencies, and enable payment reconciliation and bank reconciliation.
+- Bank accounts support bank file import and export, direct debit, and SEPA credit transfer.
+- Payment formats come mainly from partner apps and marketplace solutions, with built-in options in select countries or regions.
+- Envestnet Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal, with a two-hour import frequency, in supported regions.
+- Yodlee setup includes linking online bank accounts, creating bank accounts, and managing credentials.
+- AMC Banking 365 Fundamentals converts bank data for over 600 banks worldwide, exports payment journal data, and imports bank statements, with SWIFT and IBAN support.
+- Check layout setup lets you choose predefined North American check formats and stub configurations, and set MICR E-13B, MICR CMC-7, and security fonts.
 
 ## Learn pages
 

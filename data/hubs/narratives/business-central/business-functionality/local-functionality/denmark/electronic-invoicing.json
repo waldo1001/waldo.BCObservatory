@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing",
+  "input_hash": "0a26322cdc25d5aee6ee9e16f92ab0554592fcf5ac23b538b7b408de6ee86e2f",
+  "summary": "Electronic invoicing in the Danish version of Business Central uses the OIOUBL extension to create XML documents in UBL 2.0 format for Danish public sector customers. It answers questions about setup, customer fields (GLN, account code, profile code), and generating invoices, credit memos, reminders and finance charge memos.",
+  "overview": "OIOUBL electronic invoicing lets Danish companies send sales invoices, credit memos, finance charge memos, and reminders to the public sector in the required OIOUBL format, which is based on the UBL 2.0 standard. The OIOUBL extension produces the XML files from posted documents and supports the OIOUBL profile requirements.\n\nThe pages follow the usual order of work. An overview page explains the concepts (profiles, EAN location numbers, account codes, XML export). A page on the extension describes what it generates. Setup pages cover payment terms, item charges, OIOUBL profiles, and customer settings. A final page explains how to create and send the electronic documents.\n\nStart with the overview, then follow the extension setup and the customer setup. After that, use the page on creating electronic documents to post sales or service documents and generate the XML file.",
+  "key_points": [
+    "OIOUBL documents are XML files in UBL 2.0 format for Danish public sector customers.",
+    "Supported document types: sales invoices, credit memos, reminders, and finance charge memos.",
+    "Extension setup covers payment terms, item charges, and OIOUBL profile selection.",
+    "Customer setup needs the GLN, Account Code, and OIOUBL Profile Code fields.",
+    "The OIOUBL Profile Code Required setting makes the profile code mandatory for a customer.",
+    "Documents are generated from posted sales or service documents, and the XML file is then created.",
+    "External document numbering and OIOUBL account codes are part of document creation."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:44.172Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012065
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:00.433Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point on 'OIOUBL Profile Code Required' says it makes the profile code mandatory for a customer. That meaning comes from the field name, not from the setup page summary, which only lists the field. It is a reasonable reading but not stated outright.",
+      "Minor: the summary of the OIOUBL Extension page lists invoices, credit memos and reminders, but not finance charge memos. Finance charge memos are supported by the overview page and the page on creating electronic documents, so the narrative's document list is still correct.",
+      "Minor: the key point on external document numbering and account codes rests only on feature tags from the page on creating electronic documents. It is accurate but not very detailed."
+    ],
+    "input_hash": "0a26322cdc25d5aee6ee9e16f92ab0554592fcf5ac23b538b7b408de6ee86e2f",
+    "cost_usd": 0.0321152
+  }
+}

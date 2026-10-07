@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/tcs",
+  "input_hash": "4257e96a97bf08f614571f00dc59fd456b0669d870438aa0236187f1f1a0eaac",
+  "summary": "TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustments, and payment to government authorities. It answers how to configure and post TCS and how to correct and deposit it.",
+  "overview": "This section covers Tax Collected at Source for India under the Income Tax Act, 1961. It starts with setup, then moves to calculation on documents and journals, then to adjustment and payment.\n\nTwo setup pages exist. One covers general manual and automatic TCS configuration: TCS rates, tax accounting period, T.C.A.N, assessee code, nature of collection, concessional code and posting setup. The other covers Section 206C(1H), which applies to sales above INR 50,00,000 with different rates for PAN and non-PAN customers.\n\nCalculation pages explain how TCS applies to sales invoices, orders, returns and receipt journals. They also explain how threshold limits per TCS Nature of Collection work, and how Section 206C(1H) TCS is calculated on receipts. After posting, use the adjustment page to correct unpaid entries and the payment page to deposit TCS with the authorities. Start with the general setup page.",
+  "key_points": [
+    "General setup covers TCS rates, tax accounting period, T.C.A.N, assessee code, TCS Nature of Collection, concessional code and posting setup.",
+    "Section 206C(1H) setup applies to Indian sales above INR 50,00,000, with different rates for PAN and non-PAN customers, and uses the Threshold Amount and Calc. Over & Above Threshold settings.",
+    "TCS under Section 206C(1H) is calculated on customer payment receipts over the INR 50 lakh threshold through journals, with GL posting and GST integration.",
+    "Threshold logic applies TCS only when amounts exceed the limit set per TCS Nature of Collection, aggregated over the financial year.",
+    "Sales and receipt calculation covers sales invoices, orders, returns and receipt journals, with scenarios for PAN status, lower rate certificates, zero rate, foreign currency and advance payment adjustment.",
+    "TCS adjustment journals correct TCS amount, rate and base on unpaid entries, with revised TCS, surcharge, eCess and SHE cess percentages.",
+    "Adjustments update GL accounts, TCS entries and customer ledger entries.",
+    "TCS is paid to the government through the Payment Journal or Bank Payment Voucher, with filters such as TCAN and Assessee. Entries are marked as paid when the journal is posted."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:31.552Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016263
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:03.885Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'aggregated over the financial year' relies only on the 'financial year aggregation' feature label of the threshold page. It is supported, but the page summaries give no detail on how the aggregation works.",
+      "Minor: the overview and key points repeat the same setup field lists. This is acceptable, but the overview could be shorter."
+    ],
+    "input_hash": "4257e96a97bf08f614571f00dc59fd456b0669d870438aa0236187f1f1a0eaac",
+    "cost_usd": 0.0396272
+  }
+}

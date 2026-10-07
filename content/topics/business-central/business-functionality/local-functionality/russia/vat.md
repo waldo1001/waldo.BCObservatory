@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/russia/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Russia > VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Russia VAT functionality in Business Central: uploading VAT purchase and sales books and declarations to XML, customer prepayment VAT, VAT reinstatement, VAT settlement, and the vendor tax agent scheme. It answers setup and process questions for each of these."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:22.536Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2fbce15ca4100d8dba60829d76e40728aab1130e6bdf4051292fead2b97fa453
+  prompts:
+    hub-topic: 1
+  input_hash: 3541103abe3a5bcd5fa01f7ee695d6cea6f9a30447c10780e723e034841c9036
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration
@@ -83,14 +84,28 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2fbce15ca4100d8dba60829d76e40728aab1130e6bdf4051292fead2b97fa453
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Russia > VAT: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Russia VAT functionality in Business Central: uploading VAT purchase and sales books and declarations to XML, customer prepayment VAT, VAT reinstatement, VAT settlement, and the vendor tax agent scheme. It answers setup and process questions for each of these.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > VAT · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+The VAT section for Russia covers the local VAT processes a Russian company runs in Business Central. It has five pages, each on one process: reporting (books of purchases and sales and VAT declarations), customer prepayments, reinstatement of deducted VAT, settlement, and the vendor tax agent scheme.\n\nStart with the process you need. For reporting, the upload page explains the folder settings and the XML generation through Statutory Report Setup. For the VAT lifecycle, the prepayment, settlement and reinstatement pages cover unrealized VAT, transit VAT and the worksheets used to process them. Reinstatement also draws on settlement concepts such as manual VAT settlement and realized VAT amounts. The tax agent page covers VAT handling for vendors with tax agent roles.
+
+## Key points
+
+- Upload VAT purchase and sales books and VAT declarations to XML files; set the Electronic Files Folder and generate the files through Statutory Report Setup.
+- VAT by customer prepayment creates VAT invoices and records when a customer prepays. It supports unrealized VAT setup and uses VAT posting configuration.
+- Prepayment returns are handled with corrective entries.
+- VAT reinstatement returns previously deducted VAT to the budget. The VAT Reinstatement Worksheet finds the documents that need it, and configurable factors adjust the amounts.
+- VAT settlement can be full or partial. It uses manual settlement worksheets and VAT allocation, with support for transit VAT and unrealized VAT tracking and a VAT register.
+- The vendor tax agent scheme supports VAT payment from internal funds or from vendor funds, set up through agreements and payment journal operations.
+- The tax agent scheme also covers multi-currency prepayments and payments to the Tax Authority.
 
 ## Learn pages
 

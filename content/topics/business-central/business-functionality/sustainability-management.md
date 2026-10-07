@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sustainability-management
 type: topic
 title: Sustainability management
-summary: "Learn section Business functionality > Sustainability management: 37 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Sustainability management in Business Central covers tracking greenhouse gas emissions, water and waste intensity: setup, chart of sustainability accounts, journals, certificates, scorecards, carbon credits, CBAM and EPR. It answers how to configure, record, analyze and report sustainability data, including Scope 3 value chain tracking."
 tier: official
 language: en
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1e36c6c8b01bf167977fe00c68df7be925a186357a85fc869a417286b3defc2c
+  prompts:
+    hub-topic: 1
+  input_hash: deee8f1dca07af759c8af004be36d5d04fded54141e3bf074d2e81a0dd16d230
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability
@@ -391,14 +392,33 @@ bc_forms:
   - 99000818
   - 99000831
 member_hash: 1e36c6c8b01bf167977fe00c68df7be925a186357a85fc869a417286b3defc2c
-narrative: none
+narrative: generated
 ---
 
 # Sustainability management
 
-> Learn section Business functionality > Sustainability management: 37 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Sustainability management in Business Central covers tracking greenhouse gas emissions, water and waste intensity: setup, chart of sustainability accounts, journals, certificates, scorecards, carbon credits, CBAM and EPR. It answers how to configure, record, analyze and report sustainability data, including Scope 3 value chain tracking.
 
-Path: [Business functionality](../business-functionality.md) > Sustainability management · tier official · system sustainability · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Sustainability management · tier official · system sustainability · narrative reviewed by Opus
+
+## Overview
+
+Sustainability management lets a company record emissions (Scope 1, 2, 3 and out of scope), water and waste intensity, and report against GHG protocol standards. The hub's own pages cover the core: an overview, setup, the chart of sustainability accounts and ledger, and sustainability journals for manual or formula-based entries and purchase document emissions.
+
+Further pages cover specific tasks: sustainability certificates for vendors and items (including Digital Product Passport support), scorecards and goals against baseline and target values, carbon credits bought as items, and CBAM and EPR calculations. Two subtopics go deeper: Sustainability Value Chain, for Scope 3 and embedded CO2e through purchasing, production, sales and other processes, and Sustainability analytics, for choosing between Data Analysis, financial reports, standard reports, CSRD reporting and the Power BI app.
+
+Start with the overview, then follow setup and the chart of sustainability accounts before recording entries. Move to the value chain and analytics subtopics once the base configuration is in place.
+
+## Key points
+
+- The chart of sustainability accounts uses categories and subcategories to define emission scope, calculation foundation and emission factors for ledger posting.
+- Setup covers emission, water and waste units of measure, decimal places, background error checking, carbon fee calculation and carbon equivalent factors.
+- Sustainability journals record emissions manually or by formula, support recurring journals, and post to the sustainability ledger; emissions can also come from purchase documents and general journals.
+- Certificates can be created for vendors and items to validate ESG standards and support Digital Product Passport reporting and recyclability tracking.
+- Scorecards and goals track carbon, methane, nitrous oxide, water and waste intensity against baseline and target values.
+- Carbon credits are set up as items and bought through purchase orders or sustainability journals to offset emissions.
+- CBAM and EPR calculations track material composition and environmental fees for regulatory compliance.
+- Sustainability Value Chain uses a Carbon Tracking Method (average or specific) and lot tracking; analytics options include Power BI and external ESG reporting for CSRD.
 
 ## Subtopics
 

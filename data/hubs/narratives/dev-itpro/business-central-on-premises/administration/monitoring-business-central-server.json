@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server",
+  "input_hash": "cead5ef9994a2e6426f5a7978543689753fc6658965e942b1fdb7483f7a3fde6",
+  "summary": "Monitoring the Business Central on-premises server: performance counters for client sessions, SQL connections, data caching and scheduled tasks, plus server events written through Event Tracing for Windows. It answers questions about checking server instance health and collecting event or trace data.",
+  "overview": "This section covers two ways to watch a Business Central server instance on-premises. The first is performance counters, which show how the instance behaves: client sessions, SQL connections, data cache efficiency and scheduled task execution. The second is server events, covered in the subtopic on monitoring server events.\n\nThe server events subtopic explains the admin, operational and debug events the server writes through Event Tracing for Windows. It describes how to view them in Event Viewer or PowerShell, how to collect trace data with Logman, Performance Monitor or PerfView, and how to limit telemetry traces.\n\nStart with the performance counters page for a quick view of instance health. Move to the server events pages when you need to diagnose specific behavior or collect detailed traces.",
+  "key_points": [
+    "Performance counters track client sessions, SQL connections, data cache efficiency and scheduled task execution.",
+    "Counters are used to monitor server instance health and performance.",
+    "The server writes admin, operational and debug events through Event Tracing for Windows.",
+    "Events can be viewed in Event Viewer or PowerShell.",
+    "Trace data can be collected with Logman, Performance Monitor or PerfView.",
+    "Telemetry traces can be limited.",
+    "The server events subtopic has 9 pages."
+  ],
+  "members_used": 1,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:51.059Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008621
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:08.228Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview guidance ('quick view of instance health', 'diagnose specific behavior') is mild editorial framing not stated in the sources, but it is reasonable and not misleading.",
+      "Key point 'The server events subtopic has 9 pages' is accurate but adds little value for an agent.",
+      "Key points 1 and 2 overlap and could be merged."
+    ],
+    "input_hash": "cead5ef9994a2e6426f5a7978543689753fc6658965e942b1fdb7483f7a3fde6",
+    "cost_usd": 0.0271632
+  }
+}

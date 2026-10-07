@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
+  "input_hash": "1888a9df09c63c9898c62fd4596ebb6cdc3c61cba798497d43b8343ae43b3851",
+  "summary": "Troubleshooting with telemetry in Business Central covers turning on telemetry to Azure Application Insights, the available telemetry events, analysis with KQL and Power BI, alerting, and using telemetry to diagnose performance problems. It answers setup, analysis, alerting and performance questions.",
+  "overview": "This section explains how to collect and use Business Central telemetry stored in Azure Application Insights. It covers online and on-premises deployments, and the steps run from enabling telemetry to analyzing it and acting on it.\n\nStart with \"Monitoring and Analyzing Telemetry\" for the overview, then \"Turn sending telemetry to application insights on or off\" to configure connection strings or instrumentation keys for the server, admin center, or individual tenants. \"Available Telemetry\" lists events by event ID (application, client, lifecycle, runtime), so you know what data you can query.\n\nTo analyze data, use the free Power BI apps (usage, error, performance, administration reports) or write KQL queries against Application Insights. \"Alert on Telemetry\" shows how to raise alerts, and \"How to work with a performance problem\" puts telemetry next to profilers and database analysis tools in a measure, locate, eliminate process.",
+  "key_points": [
+    "Telemetry is sent to Azure Application Insights, configured with a connection string or instrumentation key for the server, admin center, or individual tenants; on-premises setup is supported.",
+    "Available Telemetry lists events by event ID in four groups: application, client, lifecycle, and runtime.",
+    "Power BI apps for telemetry are free and open source, with usage, error, performance, and administration reports and sample data.",
+    "KQL queries run against Application Insights tables such as traces and pageViews, using custom dimensions; examples cover report usage, session tracking, user activity, and timezone conversion.",
+    "Alerts on telemetry can be built with Power BI Metrics, Application Insights alerts, Logic Apps, or Power Automate using KQL queries.",
+    "Performance troubleshooting follows measure, locate bottlenecks, eliminate; tools include the scheduled and in-client performance profilers, AL Profiler, telemetry, missing indexes, and wait statistics.",
+    "Telemetry can be enabled at environment level and app level, and apps can emit custom telemetry."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:30.426Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015111
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:43.785Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'four groups' for event categories is a slight framing; the source lists application, client, lifecycle, and runtime events by event ID without calling them groups.",
+      "Minor omission: user telemetry IDs and Log Analytics are mentioned in the page features but not in the narrative; not required."
+    ],
+    "input_hash": "1888a9df09c63c9898c62fd4596ebb6cdc3c61cba798497d43b8343ae43b3851",
+    "cost_usd": 0.0356112
+  }
+}

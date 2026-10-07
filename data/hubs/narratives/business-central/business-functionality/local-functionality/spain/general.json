@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/spain/general",
+  "input_hash": "03e21e1f11c52d054bf4d6a383678352dfd7f141978de4dd21fb01a5b306e51c",
+  "summary": "Spain general local functionality in Business Central: due date calculation under legal payment-delay limits, corrective invoices, NACE codes on company information, and operation codes for Report 340 VAT declarations. Answers setup and compliance questions for Spanish companies.",
+  "overview": "This section collects the general Spanish localization topics that are not tied to a larger subarea. It has no subtopics, so all content sits in five pages.\n\nTwo pages deal with payment due dates. \"Calculating Due Dates [ES]\" explains how due dates follow legal limits on payment delays and how overdue payment reports work for customers and vendors. \"How to Set Limits for Due Dates\" shows the payment term setup that enforces a maximum number of days between delivery and payment. Read them together, starting with the setup page.\n\nThe other pages cover reporting and invoicing data. \"Corrective invoices [ES]\" describes correcting VAT or fiscal data errors while keeping the original invoice valid. \"How to Enter NACE Codes [ES]\" covers the industry classification field on Company Information. \"How to Set Up Operation Codes\" covers the codes that link to general product posting groups for Report 340.",
+  "key_points": [
+    "Payment terms can hold a maximum number of days till due date (Max. No. of Days till Due Date) to meet Spanish legal limits on payment delays.",
+    "Due date calculation supports reports on overdue payments from customers and vendors, including a weighted average term calculation.",
+    "Setting limits for due dates also involves document date update behavior in the payment term setup.",
+    "Corrective invoices fix errors affecting VAT or fiscal data, keep the original invoice valid, and keep a reference and audit trail to it.",
+    "NACE codes are five- or six-digit statistical classification codes entered on the Company Information page for EU statistics.",
+    "Operation codes use letters A-Z and numbers 1-8, are set up in the Operation Codes table, and are linked to general product posting groups.",
+    "Operation codes classify VAT for Spanish Report 340 declarations."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:49.025Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011933
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:15.477Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point about document date update behavior is a guess. The source only lists 'Document date update' as a feature of the due date limits page and does not explain what it does or confirm it is part of the payment term setup.",
+      "The overview says the hub collects topics 'not tied to a larger subarea'. That comes from the TOC position and is not stated in the sources. It is harmless.",
+      "The sources disagree on what operation codes link to. The operation codes page summary says general product posting groups, but its feature list says VAT product posting groups. The narrative follows the summary, which is reasonable, but the link target is not certain.",
+      "The tip to read the setup page first is the writer's own advice, not something from the sources. It is reasonable guidance."
+    ],
+    "input_hash": "03e21e1f11c52d054bf4d6a383678352dfd7f141978de4dd21fb01a5b306e51c",
+    "cost_usd": 0.0322552
+  }
+}

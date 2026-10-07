@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/web-services
 type: topic
 title: Web services
-summary: "Learn section Integration > Web services: 294 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records."
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 059de4a5a07b7fb9ecf5db6c62e0fde637536d5a32547994b3a9c68747046252
+  prompts:
+    hub-topic: 1
+  input_hash: 6e0bfab613d3d64fbdb92ece89d70420cfc38337f638902b5739c02ad0febcb9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -340,14 +341,33 @@ coverage:
 bc_forms:
   - 812
 member_hash: 059de4a5a07b7fb9ecf5db6c62e0fde637536d5a32547994b3a9c68747046252
-narrative: none
+narrative: generated
 ---
 
 # Web services
 
-> Learn section Integration > Web services: 294 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records.
 
-Path: [Integration](../integration.md) > Web services · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Web services · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+Web services in Business Central expose data and logic to external clients through OData, SOAP and APIs. The section is organized into subtopics for publishing pages, queries and codeunits as endpoints, for OData and SOAP usage, for the large API reference set, and for security (authentication, certificates, cipher suites, Azure service tags).
+
+The hub's own pages cover operations across all three protocols. They cover troubleshooting errors (HTTP status codes, OData error codes, telemetry, debugging), performance guidance (patterns, anti-patterns, API client and Power BI performance), and web service telemetry that logs SOAP, OData and API requests to partner telemetry. A refactoring guide explains replacing legacy integration records with system fields, and a page covers the Microsoft APIs Terms of Use.
+
+To start, read the publishing subtopic to expose an endpoint, then the security subtopic to choose authentication. Use the telemetry, performance and troubleshooting pages once consumers are running.
+
+## Key points
+
+- Subtopics cover security, APIs (261 pages), OData (14), publishing pages and codeunits as endpoints (5), and SOAP (4).
+- Security covers basic, OAuth and service-to-service authentication, certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags.
+- OData pages cover querying, filtering, modifying, batching, metadata, paging, limits, FlowFilters, unbound actions and error codes.
+- Publishing covers OData V4 bound actions and troubleshooting publish errors; the SOAP feature key was removed in version 30.0.
+- Web service telemetry logs all SOAP, OData and API requests, including HTTP status codes, access key authentication and publish failures.
+- Troubleshooting guidance helps decide whether errors come from the client, network or server endpoint, using status codes, telemetry, OData error codes and debugging.
+- Performance guidance covers anti-patterns, performance patterns, API client and Power BI performance, and throughput handling.
+- Integration Management Refactoring Guidance explains replacing legacy integration records with system fields such as SystemId and SystemRowVersion before their removal in 2023 release wave 1.
 
 ## Subtopics
 

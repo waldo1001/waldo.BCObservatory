@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/extensibility/embedding-power-bi",
+  "input_hash": "c46f1e7f43172e8d19b6c1eda0b400eea09c5925c61668e49171481ba7ccb0d4",
+  "summary": "Embedding Power BI covers how Business Central integrates with Power BI and how developers embed Power BI reports, scorecards, and dashboards in Business Central pages. It answers questions about the integration overview and about the embed framework, its pages, and context handling.",
+  "overview": "This section explains the connection between Business Central and Power BI. It has two pages and no subtopics. The introduction gives the general picture: building dashboards and reports, using the built-in Power BI apps, working with Power BI Desktop, and managing the integration across roles.\n\nThe second page is the developer-focused one. It describes how to embed Power BI reports, scorecards, and dashboards in Business Central pages using the Power BI embed framework. It names pages such as Power BI Embedded Report Part and Power BI Element Addin Host. It also covers context keywords and the SetCurrentListSelection and SetPageContext calls.\n\nStart with the introduction to understand what is available and who manages it. Then move to the embedding page when you need to place Power BI content in a page or pass page context to a report.",
+  "key_points": [
+    "Business Central and Power BI integration supports dashboards, reports, data visualization, and KPI tracking.",
+    "Built-in Power BI apps are available, and Power BI Desktop integration is covered.",
+    "The Power BI embed framework lets you embed reports, scorecards, and dashboards in Business Central pages.",
+    "Relevant pages include Power BI Embedded Report Part and Power BI Element Addin Host.",
+    "Embeddable content includes the Power BI Report part, dashboard tiles, and report visuals.",
+    "Context keywords, SetCurrentListSelection, and SetPageContext handle context passed between a page and the embedded report.",
+    "The embedding page references the 2022 release wave 2, 2023 release wave 2, and 2025 release wave 1."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:38.020Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009996999999999999
+  }
+}

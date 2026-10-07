@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Netherlands > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:26.116Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 61ad39ab3e38a4d54bf81855c917d615f2e3e7e5b0a62ab91360341d30007383
+  prompts:
+    hub-topic: 1
+  input_hash: 7a6377bdae72847d076b767d6202fb5145be3d2d9e53172e7e17aed48bb5da7a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes
@@ -75,14 +76,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 61ad39ab3e38a4d54bf81855c917d615f2e3e7e5b0a62ab91360341d30007383
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Netherlands > General: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers two Dutch-specific areas. The first is CMR notes, which let you print transport documents according to the UN CMR Convention for sales shipments, purchase returns, and transfer shipments. The second is Dutch post codes, used for marketing and relationship management activities.
+
+The post code pages fit together as one overview and two how-to pages. Start with the Dutch Post Codes page to understand the subscription and the data. Then use the import page for the initial post code file and the update page for monthly updates. Both imports store data in the Post Code Range table and keep a log.
+
+## Key points
+
+- CMR notes can be printed for sales shipments, purchase return shipments, and transfer shipments in the Dutch version.
+- CMR notes follow the UN CMR Convention.
+- Dutch post codes can be obtained by subscription, with data and updates imported into Business Central.
+- Post code files are imported for marketing and relationship management activities.
+- Imported post code data is stored in the Post Code Range table.
+- Monthly post code updates are imported with automatic date validation and gap checking.
+- Both post code imports record update logging.
+- All pages in this section apply to the Dutch (NL) version.
 
 ## Learn pages
 

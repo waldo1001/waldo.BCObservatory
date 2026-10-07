@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/russia
 type: topic
 title: Russia
-summary: "Learn section Business functionality > Local functionality > Russia: 34 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Russia local functionality in Business Central: country-specific features for finance, payables and receivables, fixed assets, VAT, tax accounts, banking, bill of lading printing, and human resources. It answers setup and usage questions for Russian statutory and accounting requirements."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:52.375Z"
   flags: []
 generated:
-  at: "2026-10-06T15:41:44.868Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3088ae031847d24ced499212d5125471e1b7a34a4dd2c0963676e2e9556db395
+  prompts:
+    hub-topic: 1
+  input_hash: 307b59ac0325dd3350c31fc17c680c45b183c27fcf09419746195a7554390823
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
@@ -295,14 +296,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 3088ae031847d24ced499212d5125471e1b7a34a4dd2c0963676e2e9556db395
-narrative: none
+narrative: generated
 ---
 
 # Russia
 
-> Learn section Business functionality > Local functionality > Russia: 34 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Russia local functionality in Business Central: country-specific features for finance, payables and receivables, fixed assets, VAT, tax accounts, banking, bill of lading printing, and human resources. It answers setup and usage questions for Russian statutory and accounting requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Russia · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Russia · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Russia section collects the local features Business Central provides for Russian operations. The landing page, listed for 2022 release wave 1, gives the scope: financial reports, VAT calculation, tax accounting, fixed assets, payroll, and inventory management.
+
+Two pages sit directly in the hub. Bank management in Russia covers bank directory structures, budget classification codes, bank account details, and printing bank payment orders and other bank documents. Bill of Lading [RU] explains how to set up and print the Russian bill of lading, the legal shipment document that goes with shipped items as a delivery receipt.
+
+Six subtopics cover the rest: Core finance, Payables and receivables, Fixed assets, VAT, Tax accounts, and Human resources. Start with the Russia local functionality page for the overview, then go to the subtopic that matches your process.
+
+## Key points
+
+- The landing page lists the scope: financial reports, VAT calculation, tax accounting, fixed assets, payroll, inventory management (2022 release wave 1).
+- Bank management covers bank directory structures, budget classification codes, bank account details, and printing bank payment orders and documents.
+- Bill of Lading [RU] explains setting up and printing the bill of lading report from a posted sales shipment, using report selection.
+- Core finance covers local currency information, exchange rate import from Russian banks, general ledger correspondence, and statutory reports compared with budgets.
+- Payables and receivables covers customer and vendor agreements, prepayments and prepayment differences, letters of attorney, and customs declaration tracking.
+- VAT covers uploading purchase and sales books and declarations to XML, customer prepayment VAT, reinstatement, settlement, and the vendor tax agent scheme.
+- Fixed assets covers depreciation, charges, inventory, gratuitous receipts, release, movement and write-off acts, and sales.
+- Tax accounts covers personal income tax in payroll and importing the KLADR address database; Human resources covers payroll, absences, dismissal, staff list changes, and vacation planning.
 
 ## Subtopics
 

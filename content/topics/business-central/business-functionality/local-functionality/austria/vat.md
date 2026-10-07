@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/austria/vat
 type: topic
 title: VAT
-summary: "Learn section Business functionality > Local functionality > Austria > VAT: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: VAT functionality in the Austrian version of Business Central. It covers creating a VAT statement, including temporary 5% rates and FDF export, and VAT reporting through the VAT Statement AT and VAT-VIES Declaration XML reports.
 tier: official
 language: en
 system: finance
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f30cc7bcd13be09a31dd0a34ac73f0974323ce3ee95e87af36f1e384e5799628
+  prompts:
+    hub-topic: 1
+  input_hash: 0e787538b682a13d90df3b3198135fea6e33b8ea0ec1c260a84b322c0d9d4c82
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement
@@ -59,14 +60,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f30cc7bcd13be09a31dd0a34ac73f0974323ce3ee95e87af36f1e384e5799628
-narrative: none
+narrative: generated
 ---
 
 # VAT
 
-> Learn section Business functionality > Local functionality > Austria > VAT: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> VAT functionality in the Austrian version of Business Central. It covers creating a VAT statement, including temporary 5% rates and FDF export, and VAT reporting through the VAT Statement AT and VAT-VIES Declaration XML reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section describes how the Austrian version handles VAT reporting to tax authorities and for EU compliance. It has two pages and no subtopics.
+
+"VAT reporting in the Austrian version" gives the overall picture: the VAT Statement AT report and the VAT-VIES Declaration XML report, with export to files for submission, including through the Finanz Online Portal. "How to Create a VAT Statement" is the step-by-step page for producing the statement, filtering by period, choosing the reporting type and exporting to FDF or XML.
+
+Start with the reporting overview to see which reports exist, then follow the creation page when you need to prepare and export a statement.
+
+## Key points
+
+- The Austrian version offers VAT Statement AT and VAT-VIES Declaration XML reports.
+- VAT statements can be created for reporting VAT to tax authorities.
+- The VAT statement supports temporary 5% VAT rates.
+- Statement creation includes period filtering and reporting type selection.
+- A VAT statement can be exported as an FDF file or as XML.
+- The Update VAT Statement function is part of the creation process.
+- VIES reporting supports EU compliance, with XML export for submission through the Finanz Online Portal.
 
 ## Learn pages
 

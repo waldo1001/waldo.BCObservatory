@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+  "input_hash": "4e938879cfa1e8c1372777d5765adbde0ce15d697d250d01eb06206472746f46",
+  "summary": "Upgrade guidance for on-premises Business Central 2025 release wave 2 (version 27). It answers questions about upgrade paths, pre-upgrade considerations, installing a version 27 update, and upgrading the System and Base Application from versions 25 and 26.",
+  "overview": "This section covers moving an on-premises Business Central deployment to 2025 release wave 2 (version 27). It has four pages: an overview of upgrade paths, a page of considerations before upgrading, a procedure for installing a version 27 update, and a step-by-step procedure for upgrading the Microsoft System and Base Application.\n\nStart with the overview page on upgrade paths. It covers deprecated features and the system application refactoring. Then read the considerations page, which lists items to check before you begin. Finally, follow either the update installation page or the System and Base Application upgrade page, depending on your scenario.\n\nThe technical steps are similar in both procedures: database conversion, extension publishing, tenant synchronization, and data upgrade. The upgrade page also covers permission set migration and encryption management.",
+  "key_points": [
+    "The overview page covers upgrade paths to version 27, deprecated features, system application refactoring, the base application, and add-on extensions.",
+    "The pre-upgrade considerations page covers versions 26 to 29. It addresses deprecated or redesigned functionality, deleted objects (v24 and earlier), and the performance impact of installed extensions.",
+    "Schema changes in the Subscription Billing extension (v25 to v26 and later) are covered, including force sync for schema migration.",
+    "Deployment changes from v23 are noted: server port 7085 and SPN delegation configuration.",
+    "Microsoft recommends transitioning to AL-based permissions.",
+    "The update installation page covers database conversion, extension publishing, tenant synchronization, platform upgrade, and data upgrade, including multitenant deployments.",
+    "The System and Base Application upgrade page gives steps for upgrading from versions 25 and 26 to version 27. It includes permission set migration and encryption management."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:31.687Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013142999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:34.651Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 1 says the overview page covers 'system application and base application refactoring'. The source only mentions system application refactoring. Base application appears as a topic but not as a refactoring, so the key point is corrected.",
+      "The overview says the update and upgrade procedures share 'similar' technical steps. That is an inference, but both page summaries list database conversion, extension publishing, tenant synchronization and data upgrade, so it is acceptable.",
+      "The overview's advice to choose 'depending on your scenario' between the update page and the upgrade page is reasonable guidance, not a factual claim. It is kept."
+    ],
+    "input_hash": "4e938879cfa1e8c1372777d5765adbde0ce15d697d250d01eb06206472746f46",
+    "cost_usd": 0.0382672
+  }
+}

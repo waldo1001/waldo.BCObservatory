@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2021-release-wave-1
 type: topic
 title: Business Central 2021 release wave 1
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2021 release wave 1: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Upgrading on-premises Business Central to 2021 release wave 1 (version 18) from versions 14, 15, 16 and 17. It answers questions on upgrade paths, C/AL to AL conversion, permission set migration, moving tables between extensions, and the upgrade compatibility matrix.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:16.997Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e65df96d8a6bf0aa955f06238ea47119f6f2f1c2b89cb1b8ca38745ad7a57c3b
+  prompts:
+    hub-topic: 1
+  input_hash: 726ded49c4e118027da7b9cc592560dad74713bd31e9d9144c5b5d14ea224b69
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -147,14 +148,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: e65df96d8a6bf0aa955f06238ea47119f6f2f1c2b89cb1b8ca38745ad7a57c3b
-narrative: none
+narrative: generated
 ---
 
 # Business Central 2021 release wave 1
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions > Business Central 2021 release wave 1: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Upgrading on-premises Business Central to 2021 release wave 1 (version 18) from versions 14, 15, 16 and 17. It answers questions on upgrade paths, C/AL to AL conversion, permission set migration, moving tables between extensions, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 1 · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 1 · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section documents the upgrade to Business Central 2021 release wave 1 (version 18) for on-premises deployments. Start with "Upgrade to Business Central 2021 Wave 1", which describes the paths: a technical upgrade, or application refactoring to the system application. "Install a version 18 update" covers applying a version 18 update to an existing installation.
+The source version decides which page to follow. From versions 15, 16 or 17 there is a technical upgrade page and a full base application upgrade page. From version 14 there are three routes: an unmodified C/AL application, a customized C/AL application moved to the Microsoft Base Application, and a technical upgrade with C/AL converted to AL.
+Supporting pages cover code conversion with Txt2Al, upgrading permission sets to AL objects, and moving tables and fields between extensions with migration.json (down or up the dependency graph). The compatibility matrix helps plan which versions can be upgraded to which.
+
+## Key points
+
+- Version 18 upgrade paths: technical upgrade, or application refactoring to the system application.
+- Versions 15, 16 and 17 have a technical upgrade page and a full base application upgrade page covering extension publishing, tenant synchronization, data upgrade, control add-ins and license import.
+- Version 14 has separate procedures for unmodified C/AL apps, customized C/AL apps moved to the Microsoft Base Application, and a technical upgrade to version 18.
+- Code Conversion from C/AL to AL uses the Txt2Al tool, and covers .NET interoperability and test library conversion.
+- Permissions move from legacy data-based permissions to AL objects (Permission Set and Permission Set Extension).
+- Moving tables and fields between extensions uses migration.json. Moving up the dependency graph needs a two-stage process with a transition extension.
+- Customized version 14 upgrades use DestinationAppsForMigration and table migration extensions.
+- The compatibility matrix lists minimum update versions for upgrades. Upgrades from version 24 or earlier must target version 25 first.
 
 ## Learn pages
 

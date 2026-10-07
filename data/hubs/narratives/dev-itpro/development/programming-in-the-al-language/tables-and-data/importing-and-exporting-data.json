@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+  "input_hash": "dad5b9a3ace0edf213098c2e1c85a9fdd7020f1e56533e158a024bf5cbef4259",
+  "summary": "Importing and exporting data in AL covers XMLport objects (schema, namespaces, request pages, properties, triggers) and exporting data to Excel with the Excel Buffer table. It answers questions about moving data between Business Central and external sources in XML or Excel format.",
+  "overview": "This section covers two ways to move data in and out of Business Central from AL code. XMLports import and export XML data between external sources and Business Central. Excel Buffer is a temporary table with methods for building Excel workbooks.\n\nFor XMLports, start with the \"XMLport object\" and \"XMLport Overview for Business Central\" pages. They explain what an XMLport is and describe its schema, request page, triggers, methods and properties such as Format and Direction. Then use \"Defining an XMLport Schema in AL\" to map XML elements to tables and fields. Use \"Use Namespaces with XMLports in AL\" when the external system needs XML namespaces. Use \"Using request pages with XMLports\" to let users set options and filters before a run.\n\nFor Excel, \"Exporting data to Excel using ExcelBuffer\" shows how to create a workbook, write rows, columns and cells, and either download it or save it to a stream.",
+  "key_points": [
+    "XMLports export and import XML data between external sources and Business Central, and can include a request page for filtering, sorting, and choosing export or import.",
+    "An XMLport schema is built from textelement, textattribute, tableelement, fieldelement and fieldattribute nodes. The SourceTable property ties table elements to tables.",
+    "XMLport namespaces are set with the Namespaces, NamespacePrefix, DefaultNamespace and UseDefaultNamespace properties. They avoid element name conflicts with external systems.",
+    "XMLport request pages are configured with properties such as RequestFilterHeading, RequestFilterFields, AboutTitle, AboutText, ContextSensitiveHelpPage and SaveValues. The pages mention 2019 release wave 2 and 2023 release wave 1.",
+    "The XMLport overview covers the Format and Direction properties, triggers and methods.",
+    "Excel Buffer is a temporary table. You build workbooks with EnterCell, NewRow, AddColumn, CreateNewBook, WriteSheet and CloseBook.",
+    "Excel output can be downloaded with OpenExcel or exported to a stream with SaveToStream."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:19.430Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014179
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:22.537Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 5 (XMLport overview covers Format, Direction, triggers and methods) partly repeats the overview text; it is accurate but adds little.",
+      "The version mention in the request page key point (2019 release wave 2, 2023 release wave 1) is supported but does not say what changed in those releases, so it is of limited use to an agent.",
+      "There are no subtopics, so the narrative depends only on the six pages; the coverage matches them."
+    ],
+    "input_hash": "dad5b9a3ace0edf213098c2e1c85a9fdd7020f1e56533e158a024bf5cbef4259",
+    "cost_usd": 0.0382072
+  }
+}

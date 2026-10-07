@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene
 type: topic
 title: Work with the chart of accounts and general ledger (G/L)
-summary: "Learn section Business functionality > Finance > Work with the chart of accounts and general ledger (G/L): 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Chart of accounts and general ledger (G/L) work in Business Central: account structure, posting and reversing entries, allocations, deferrals, budgets, revaluation, review, analysis, and audit exports. It answers how-to and setup questions for G/L accounting tasks."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 767c0b58b8e0cf8926570071004c2578881137e73400df512e1744297090322c
+  prompts:
+    hub-topic: 1
+  input_hash: af1d286542b996807dd905cc839de3df674904f7309db4400c50ec6fe440bf3f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs
@@ -128,8 +129,11 @@ links:
     - video/lcu53ikOk7s
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
+    - video/VIda0Ok1SSQ
     - video/zQhtuFbxJm4
   posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/
+    - post/thedynamicsexplorer-com/10452
     - post/thedynamicsexplorer-com/37144
   guidelines: []
 learn_toc_path:
@@ -142,8 +146,8 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 8
-  blog: 1
+  video: 9
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -204,14 +208,33 @@ bc_forms:
   - 9374
   - 22207
 member_hash: 767c0b58b8e0cf8926570071004c2578881137e73400df512e1744297090322c
-narrative: none
+narrative: generated
 ---
 
 # Work with the chart of accounts and general ledger (G/L)
 
-> Learn section Business functionality > Finance > Work with the chart of accounts and general ledger (G/L): 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Chart of accounts and general ledger (G/L) work in Business Central: account structure, posting and reversing entries, allocations, deferrals, budgets, revaluation, review, analysis, and audit exports. It answers how-to and setup questions for G/L accounting tasks.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers chart of accounts and general ledger tasks in Finance in Business Central. Two pages explain the general ledger and the chart of accounts: account types, hierarchy, account categories, posting groups and dimensions.
+
+The other pages cover day-to-day and period-end tasks. You can post directly to G/L accounts with general journals, for example for employee expenses. You can reverse G/L postings with the Reverse Transaction action or undo receipts and return shipments. You can analyze entries through G/L Registers and analysis mode. You can spread amounts with allocations and deferrals, and plan with G/L budgets. Other pages cover revaluing foreign-currency G/L balances and marking entries as reviewed for month-end reconciliation. A separate page covers exporting G/L and VAT data for auditors.
+
+Two pages describe allocation. One covers allocating to multiple G/L accounts with fixed or variable methods. The other covers allocation keys in recurring general journals.
+
+## Key points
+
+- Chart of accounts uses posting, heading and total accounts in a hierarchy, with account categories and dimensions to structure reporting.
+- Allocations spread revenue and costs across G/L accounts by fixed share, percentage, or variable amounts from statistical accounts, with dimensions, a test function and posting preview.
+- Recurring general journals can allocate by quantity, percentage or amount using allocation keys; fixed asset journal allocation is also mentioned.
+- Deferral templates automatically defer revenues or expenses to set accounting periods based on posting dates (listed for 2025 release wave 2).
+- G/L budgets can cover any period, support multiple versions and dimensions, and can be exported to and imported from Excel.
+- G/L revaluation adjusts foreign-currency balances using source currency tracking and posts realized and unrealized gains and losses; it supports an additional reporting currency.
+- Review policies and reviewed identifiers help mark G/L entries as reviewed for month-end reconciliation.
+- The Audit Files Export extension exports G/L and VAT entries in formats such as SIE, FEC and SAF-T, with account mapping and data quality checks.
 
 ## Learn pages
 
@@ -232,6 +255,8 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/.md) (community post): "Keep Description field preserves the description text when switching between account types"
+- [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journals retain lines after posting with updated posting dates"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"
@@ -240,6 +265,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Safeguard G/L Accounts From Deletion](../../../../videos/lcu53ikOk7s.md) (video): "Check GL account usage setting; Check GL account deletion after field"
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry; Correct dimension in Business Central"
+- [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 
 ## Business Central pages and reports

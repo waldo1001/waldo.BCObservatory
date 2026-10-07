@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-payables
 type: topic
 title: Manage payables
-summary: "Learn section Business functionality > Finance > Manage payables: 25 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Managing payables in Business Central: paying vendors, reconciling bank accounts, blocking vendors, handling disputes, payment tolerances, item charges, analytics, and related receivables topics such as collections, SEPA Direct Debit and late payment prediction. It answers how-to and setup questions."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 18d05a0154f8744254112c34d3f442098768d7ddc605107cf342e1e34bfd568a
+  prompts:
+    hub-topic: 1
+  input_hash: c35e55eb0587a5c8ad7dcf138a26e8b59ef132d6306db083ed787485fda2e6e0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -214,7 +215,6 @@ links:
   localizations: []
   videos:
     - video/-SGaVGOkiF0
-    - video/d4mYltz4Zwg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -229,7 +229,7 @@ children:
 coverage:
   learn: 25
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -345,14 +345,33 @@ bc_forms:
   - 2000021
   - 2000022
 member_hash: 18d05a0154f8744254112c34d3f442098768d7ddc605107cf342e1e34bfd568a
-narrative: none
+narrative: generated
 ---
 
 # Manage payables
 
-> Learn section Business functionality > Finance > Manage payables: 25 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Managing payables in Business Central: paying vendors, reconciling bank accounts, blocking vendors, handling disputes, payment tolerances, item charges, analytics, and related receivables topics such as collections, SEPA Direct Debit and late payment prediction. It answers how-to and setup questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage payables · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage payables · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section covers the accounts payable side of finance in Business Central, plus several closely related receivables topics. The overview page lists the main tasks: generating payments through payment journals, preparing checks, exporting bank files, applying payments automatically or manually, and assigning item charges.
+
+Two subtopics go deeper on the payment flow. "Make payments" covers payment journals, Suggest Vendor Payments, checks, electronic bank export and immediate settlement. "Apply payments automatically and reconcile bank accounts" covers bank statement import, automatic application and matching. The own pages handle specific needs: blocking vendors, marking disputed entries on hold, payment tolerances, applying and unapplying vendor payments, item charges for landed cost, and payables analytics.
+
+The section also includes pages on customer-side topics: collecting balances with reminders and finance charges, SEPA Direct Debit, late payment prediction, and netting balances for a company that is both customer and vendor. Start with the overview page, then go to Make payments for the day-to-day payment process.
+
+## Key points
+
+- Make payments covers payment journals, Suggest Vendor Payments, printing and voiding checks, positive pay, SEPA Credit Transfer and AMC Banking 365 Fundamentals export.
+- Payment reconciliation imports bank statements or feeds and applies payments automatically, with match confidence, Text-to-Account mapping and manual review of unmatched or differing amounts.
+- Blocking a vendor stops selection on purchase documents or payments; On Hold status on vendor ledger entries excludes them from Suggest Vendor Payments and appears in the Payments on Hold report.
+- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period for discounts and blocking per customer or vendor.
+- Vendor payments and refunds can be applied to invoices and credit memos in the payment journal or vendor ledger entries, including partial and multi-currency application, and can be unapplied.
+- Item charges for freight, insurance and customs are assigned to purchase or sales documents to support landed cost and inventory valuation.
+- Accounts payable analytics uses Power BI, Data Analysis, Aged Payables, Vendor Ledger reports and the Payment Practice page.
+- Receivables topics included: reminders, finance charge memos, Copilot for Finance in Outlook, SEPA Direct Debit (EUR) with mandates and XML export, and machine-learning late payment prediction.
 
 ## Subtopics
 
@@ -378,7 +397,6 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
-- [Introducing: Withholding Taxes (2026 release wave 1)](../../../../videos/d4mYltz4Zwg.md) (video): "Withholding Taxes; vendor payments; posting groups; tax calculation"
 
 ## Business Central pages and reports
 

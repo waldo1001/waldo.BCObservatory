@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci
 type: topic
 title: Apply payments automatically and reconcile bank accounts
-summary: "Learn section Business functionality > Finance > Manage receivables > Apply payments automatically and reconcile bank accounts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Payment reconciliation in Business Central: importing bank statements or bank feeds, automatically applying payments to open customer and vendor entries, setting matching rules, handling recurring payments with Text-to-Account mapping, and resolving leftovers manually. It answers how-to questions about the Payment Reconciliation Journal and bank reconciliation."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 946c690f49a2895ab0bead402178c57b0511aff467005cdb198a18c3d74dc897
+  prompts:
+    hub-topic: 1
+  input_hash: cea8e8dbca986b6d27f4050960cc6134b3da9a751dfb46696b1f7f59afd533ef
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
@@ -97,14 +98,32 @@ bc_forms:
   - 1293
   - 1294
 member_hash: 946c690f49a2895ab0bead402178c57b0511aff467005cdb198a18c3d74dc897
-narrative: none
+narrative: generated
 ---
 
 # Apply payments automatically and reconcile bank accounts
 
-> Learn section Business functionality > Finance > Manage receivables > Apply payments automatically and reconcile bank accounts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Payment reconciliation in Business Central: importing bank statements or bank feeds, automatically applying payments to open customer and vendor entries, setting matching rules, handling recurring payments with Text-to-Account mapping, and resolving leftovers manually. It answers how-to questions about the Payment Reconciliation Journal and bank reconciliation.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage receivables](../manage-receivables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage receivables](../manage-receivables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to match bank transactions to open invoices and reconcile bank accounts using the Payment Reconciliation Journal. You import a bank statement or use a bank feed. Business Central then applies payments automatically to open customer and vendor entries, using matching rules and a match confidence level.
+
+Two pages give the overall process and the automatic application steps. The rules page explains how to set matching criteria, such as document number, related party and amount tolerance, along with priority sorting and confidence levels. The Text-to-Account page covers automatic posting of recurring payments to specified accounts when match confidence is Low or Medium. Two more pages cover what to do when automatic application is not enough. You can review and reapply payments on the Payment Application page, or use Transfer Difference to Account for payments that have no matching document or have amount differences.
+
+Start with "Reconcile bank accounts and apply payments" for the overview, then "Reconcile payments using automatic application" for the working steps. Read the rules page if matches are wrong or missing.
+
+## Key points
+
+- Payments are reconciled on the Payment Reconciliation Journal, after a bank statement import or bank feed.
+- Automatic application matches payments to open customer and vendor entries and assigns a match confidence.
+- Payment application rules set matching criteria: document number, related party, amount tolerance, with priority sorting and confidence levels.
+- Text-to-Account mapping posts recurring payments directly to debit and credit accounts when match confidence is Low or Medium.
+- The Payment Application page lets you review automatic results and manually apply or reapply payments, including split payments.
+- Manual application accounts for currency conversion, payment discounts, and a candidate lookback days parameter.
+- Transfer Difference to Account handles payments with no matching document or with amount differences.
 
 ## Learn pages
 

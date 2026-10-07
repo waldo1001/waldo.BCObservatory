@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics
 type: topic
 title: Purchasing analytics
-summary: "Learn section Business functionality > Purchasing > Purchasing analytics: 43 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Purchasing analytics in Business Central covers the ways to analyze purchasing data: the Power BI Purchases app, built-in reports, ad-hoc Data Analysis, and legacy reports slated for removal. It answers which tool or report fits a spend, vendor, payables or trend question."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:22.939Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 5b038f184e281153335d5e600c88f7e7803193ccd5c6cf022a613d789e8ea6a0
+  prompts:
+    hub-topic: 1
+  input_hash: 6695b50735ae300ec6922e61edf1db076d084f2f45abf2e50fabcee8b83f980c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -378,14 +379,31 @@ bc_forms:
   - 37117
   - 37118
 member_hash: 5b038f184e281153335d5e600c88f7e7803193ccd5c6cf022a613d789e8ea6a0
-narrative: none
+narrative: generated
 ---
 
 # Purchasing analytics
 
-> Learn section Business functionality > Purchasing > Purchasing analytics: 43 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Purchasing analytics in Business Central covers the ways to analyze purchasing data: the Power BI Purchases app, built-in reports, ad-hoc Data Analysis, and legacy reports slated for removal. It answers which tool or report fits a spend, vendor, payables or trend question.
 
-Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+Purchasing analytics groups the options for monitoring purchasing KPIs, vendor performance and purchasing trends. Two own pages introduce the area: one gives an overview of analytics features (Power BI, ad-hoc analysis, financial reporting, Excel integration, dimension analysis), and one explains ad-hoc analysis with the Data Analysis feature on purchase orders, invoices and vendor ledger entries.
+
+Three subtopics go deeper. The Power BI purchasing app section documents the app, its semantic model, KPIs and measures, and each report. The built-in reports section covers vendor payables, vendor balances, purchase orders, purchase history, catalogs and document layouts. The legacy reports section lists four reports marked for removal.
+
+Start with "Analytics in purchasing" to pick an approach. Use ad-hoc analysis for quick questions without running a report, built-in reports for standard payables and order questions, and the Power BI app for spend, vendor, budget, return and trend analysis. Avoid building on the legacy reports.
+
+## Key points
+
+- Analytics in purchasing gives an overview of Power BI reports, ad-hoc analysis, financial reporting, Excel integration and dimension analysis.
+- Ad-hoc analysis uses the Data Analysis feature (with Pivot Mode and Analysis Filters) on purchase orders, invoices and vendor ledger entries, with no report run needed.
+- Ad-hoc analysis topics include a GRNI overview and payment analysis.
+- The Power BI purchasing app section (20 pages) covers the app, semantic model, KPI and measure reference, and each report.
+- Built-in purchasing reports (17 pages) cover vendor payables, vendor balances, purchase orders, purchase history, item/vendor catalogs and document layouts.
+- Legacy reports to be removed: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List.
 
 ## Subtopics
 

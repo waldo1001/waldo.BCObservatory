@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/warehouse-management/inbound-warehouse-processes
 type: topic
 title: Inbound warehouse processes
-summary: "Learn section Business functionality > Warehouse management > Inbound warehouse processes: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Inbound warehouse processes in Business Central: receiving items, putting them away, and cross-docking, in both basic and advanced warehouse configurations. It answers questions about warehouse receipts, inventory put-aways, warehouse put-aways, finding assignments, and the inbound flow design."
 tier: official
 language: en
 system: warehouse
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b07578998b77b0aeddd4e0bb55e601af3895a3db5471337673f0fdb4450eee2f
+  prompts:
+    hub-topic: 1
+  input_hash: a7cb8250d2a086c040a5336b10411c5f1d866a79471015bb24dfc33194cf2f97
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items
@@ -119,14 +120,31 @@ bc_forms:
   - 9000
   - 9008
 member_hash: b07578998b77b0aeddd4e0bb55e601af3895a3db5471337673f0fdb4450eee2f
-narrative: none
+narrative: generated
 ---
 
 # Inbound warehouse processes
 
-> Learn section Business functionality > Warehouse management > Inbound warehouse processes: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Inbound warehouse processes in Business Central: receiving items, putting them away, and cross-docking, in both basic and advanced warehouse configurations. It answers questions about warehouse receipts, inventory put-aways, warehouse put-aways, finding assignments, and the inbound flow design.
 
-Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Inbound warehouse processes · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Inbound warehouse processes · tier official · system warehouse · narrative reviewed by Opus
+
+## Overview
+
+This area covers how items come into a warehouse and reach their bins. The right path depends on warehouse complexity. Basic configurations use inventory put-away documents. Advanced configurations use warehouse receipts and warehouse put-away documents, with directed put-away and pick.
+The pages fit together as concept, how-to and walkthrough. "Design Details - Inbound Warehouse Flow" explains the four receipt and put-away methods and is a good place to start. "Receive items" covers warehouse receipts and how they are created from source documents. Two how-to pages cover putting away, one for inventory put-aways and one for warehouse put-aways. Two walkthroughs, one basic and one advanced, show the full receive and put-away cycle.
+Supporting pages cover cross-docking, which moves items through cross-dock bins and zones without full storage, and how to find the warehouse assignments given to a user.
+
+## Key points
+
+- Four methods exist for receiving and putting away items, chosen by warehouse configuration complexity.
+- Warehouse receipts can be created by push or pull from source documents such as purchase orders, using Get Source Documents and filters.
+- Receipt pages cover Qty. to Receive, Over-Receipt Quantity and zone and bin code assignment.
+- Inventory put-aways serve basic configurations and can be created from source documents, by batch job, or manually after releasing a source document.
+- Warehouse put-aways serve advanced configurations and are created from warehouse receipts or the put-away worksheet, using put-away templates, bin ranking and a breakbulk filter.
+- Cross-docking uses cross-dock bins and zones, with settings such as Use Cross-Docking, Calculate Cross-Dock, Cross-Dock Due Date Calc. and Qty. to Cross-Dock.
+- Warehouse assignments can be found from item cards or from put-away, pick and movement pages, filtered by location and assigned user ID.
+- Separate basic and advanced walkthroughs cover default and fixed bins, bin content setup, receiving bins and split put-away lines.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics
 type: topic
 title: Manufacturing analytics
-summary: "Learn section Business functionality > Manufacturing > Manufacturing analytics: 50 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:10.187Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f780ddd21d677bb723267179c6edf666998905f7cc626f28f7330de98ae5b8fb
+  prompts:
+    hub-topic: 1
+  input_hash: 5a2695975eb420911ebddc4c2ff1dcb6c948415664cc544bd93ee05eded76910
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours
@@ -385,14 +386,32 @@ bc_forms:
   - 99000916
   - 990000785
 member_hash: f780ddd21d677bb723267179c6edf666998905f7cc626f28f7330de98ae5b8fb
-narrative: none
+narrative: generated
 ---
 
 # Manufacturing analytics
 
-> Learn section Business functionality > Manufacturing > Manufacturing analytics: 50 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.
 
-Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+Manufacturing analytics is the set of tools for monitoring production performance. It includes Power BI reports for KPIs, ad-hoc data analysis on lists, Open in Excel, built-in reports, work center load visualization and barcode printing.
+
+The pages fit together in three groups. The Power BI Manufacturing app covers reports, the semantic model, and KPIs and measures such as capacity utilization, production order status and cost, WIP, scrap and variances. The built-in production reports cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels. A third group lists obsolete reports that will be removed, so you can see what each one showed and plan a move away from it.
+
+Start with "View Load on Work and Machine Centers" if you need to compare load with capacity and find bottlenecks. Use the Power BI app pages for KPI dashboards. Use the built-in reports pages to find the report for a specific figure.
+
+## Key points
+
+- Analytics options include the Power BI Manufacturing app, KPI monitoring, data analysis on lists, Open in Excel, built-in reports and barcode printing.
+- Load is work assigned to production resources from production orders. Capacity is what the resources can perform.
+- Load can be viewed by period, as net change or as balance at date, with a work center task list.
+- The load page covers scheduling conflicts, capacity constrained resources and finite capacity scheduling for finding bottlenecks.
+- The Power BI Manufacturing app has 21 pages on reports, the semantic model, KPIs and measures, including utilization, WIP, scrap and variances.
+- Built-in production reports (16 pages) cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels.
+- Obsolete reports (11 pages) include cost calculation, cost shares, BOM compare, and machine center and work center list and load reports. They will be removed.
 
 ## Subtopics
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/the-al-programming-language/variables-types-and-operators
 type: topic
 title: Variables, types, and operators
-summary: "Learn section Development > The AL programming language > Variables, types, and operators: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Variables, types, and operators in AL covers user-defined and system-defined variables, protected variables, automatic type conversion, and the operator families (arithmetic, relational, boolean, conditional, compound). It answers questions about syntax, evaluation order, and resulting data types.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:43.821Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: cbfd1875e6981d4ef5fbc4fa5c70213e9ce9ed2d1a6a52058604191a6d9e4ce8
+  prompts:
+    hub-topic: 1
+  input_hash: f6c55c46e2a39d3b24cf989bf4d88aa8621edc3989530ab3443f670660c45182
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-operators
@@ -106,14 +107,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: cbfd1875e6981d4ef5fbc4fa5c70213e9ce9ed2d1a6a52058604191a6d9e4ce8
-narrative: none
+narrative: generated
 ---
 
 # Variables, types, and operators
 
-> Learn section Development > The AL programming language > Variables, types, and operators: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Variables, types, and operators in AL covers user-defined and system-defined variables, protected variables, automatic type conversion, and the operator families (arithmetic, relational, boolean, conditional, compound). It answers questions about syntax, evaluation order, and resulting data types.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section describes the building blocks of AL expressions. The variable pages explain how to declare and name variables, how they are initialized, and how system-defined variables such as Rec, xRec, CurrPage, CurrReport, RequestOptionsPage, and CurrFieldNo give access to the current record, page, or report. Protected variables let tables and table extensions, pages and page extensions, and reports and report extensions share variables.
+
+The operator pages begin with an overview of all AL operator types and their precedence. Separate pages then detail arithmetic operators, relational operators, and Boolean operators. A type conversion page explains how the compiler converts mixed operands automatically.
+
+Start with AL variables for declaration and naming, then AL operators for the full list and evaluation order. Use the specific operator pages and the type conversion page when you need the result type of a mixed-type expression.
+
+## Key points
+
+- AL variables page covers naming rules, initialization, user-defined and system-defined variables, and type conversion in assignments.
+- System-defined variables include Rec, xRec, CurrPage, CurrReport, RequestOptionsPage, and CurrFieldNo.
+- The protected keyword allows variable access between tables and table extensions, pages and page extensions, and reports and report extensions.
+- AL operators reference lists general, arithmetic, comparison, logical, conditional, and compound assignment operators with precedence.
+- Arithmetic operators page covers unary and binary operations on numeric, date, time, text, and code types, including overflow handling.
+- Relational operators return boolean values, including the in range operator, with valid data type combinations.
+- Boolean operators are not, and, or, and xor, operating on boolean expressions.
+- Type conversion promotes values to more general types following numeric and string type hierarchies.
 
 ## Learn pages
 

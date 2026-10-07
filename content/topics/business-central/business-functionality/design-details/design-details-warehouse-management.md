@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/design-details/design-details-warehouse-management
 type: topic
 title: "Design details: Warehouse management"
-summary: "Learn section Business functionality > Design details > Design details: Warehouse management: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Warehouse management design details in Business Central: how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered. It answers questions about warehouse quantity mechanics and entry creation."
 tier: official
 language: en
 system: warehouse
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9ccdd9e7e9bad805088944decb0326d86609c8ea8f5410293df87f6fb89326ee
+  prompts:
+    hub-topic: 1
+  input_hash: cc52b4fbc6f01d0bfb80c4ad88e5e1fbb21e6805171776b76ad3048e75751f07
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-availability-in-the-warehouse
@@ -58,14 +59,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9ccdd9e7e9bad805088944decb0326d86609c8ea8f5410293df87f6fb89326ee
-narrative: none
+narrative: generated
 ---
 
 # Design details: Warehouse management
 
-> Learn section Business functionality > Design details > Design details: Warehouse management: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Warehouse management design details in Business Central: how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered. It answers questions about warehouse quantity mechanics and entry creation.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section explains two internal mechanics of warehouse management. The first page covers availability in the warehouse: how bin content, warehouse reservations, pick allocations and bin level allocations affect the quantity available to pick and the quantity available to reserve, taking warehouse activities and outbound flows into account.
+
+The second page covers how warehouse entries are created. Entries record item movements within a warehouse, are produced by warehouse transactions and are linked to warehouse registers. The ConcurrentWarehousingPosting feature key decides whether entry numbers are sequential or concurrent.
+
+There are no subtopics. Start with the availability page if you are investigating why quantities cannot be picked or reserved, and with the entries page if you are looking at posting, numbering or register behavior.
+
+## Key points
+
+- Available-to-pick and available-to-reserve quantities are calculated separately and are affected by allocations and reservations.
+- Bin content is the basis for tracking item quantities per bin.
+- Pick allocation and bin level allocation reduce what can still be picked or reserved.
+- Warehouse reservations and outbound flows are considered in availability calculations.
+- Warehouse entries are created by warehouse transactions and linked to warehouse registers.
+- The ConcurrentWarehousingPosting feature key controls whether entry numbers are sequential or concurrent.
+- Entry numbering relies on sequence numbers when concurrent posting is used.
 
 ## Learn pages
 

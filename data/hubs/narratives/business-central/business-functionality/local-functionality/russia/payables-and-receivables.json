@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/russia/payables-and-receivables",
+  "input_hash": "d1e5b340600c19eb187361464d8b1dd7671d8060cf1031d0653cf58f7d5a76f0",
+  "summary": "Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features.",
+  "overview": "This section covers Russia-specific features for vendor and customer accounts. It has setup pages for agreements, customer prepayments, vendor prepayments, letters of attorney and customs declaration information. It also has pages on prepayment differences and on payables and receivables reports.\n\nStart with the agreements page, since agreements synchronize with dimensions that the reports and analyses use. Then set up the prepayment pages (customer or vendor) with their accounts, number series and dimension values. The prepayment differences page follows, for exchange rate adjustments between prepayments and foreign currency invoices. The report pages describe the turnover, accounting card, entries analysis and reconciliation act reports for vendors and customers.\n\nLetters of attorney and custom declaration pages are for document-driven tasks. Letters of attorney cover numbering and linking to employees, vendors and purchase documents. Customs declaration tracking covers CD number format checks and item tracking for imported goods.",
+  "key_points": [
+    "Customer and vendor agreements sync with dimensions for reports; setup includes dimension mapping, number series, validity dates and blocking.",
+    "Customer prepayments cover advance payments on sales orders, with prepayment accounts, number series, PD document symbols and dimension values for conditional gains and losses.",
+    "Vendor prepayments are configured in Purchases & Payables Setup and Vendor Posting Groups, including Use Prepayment Account, Posted Prepmt. Inv. Nos., PD Doc. Nos. Type and Symbol for PD Doc.",
+    "Prepayment differences handle exchange rate adjustments between prepayments and foreign currency invoices, posted to separate accounts.",
+    "Vendor reports include general ledger turnover, accounting card, turnover, posting group turnover, entries analysis and reconciliation act.",
+    "Receivables reports mirror the vendor set and offer options such as rounding precision, zero line exclusion, detail levels, agreement printing and currency selection.",
+    "Letters of attorney use number series for open and released documents and link to employees, vendors and source purchase documents, with validity dates and status.",
+    "Customs declaration tracking offers CD No. format checks, package-specific tracking, country of origin code, temporary CD numbers and Factura-Invoice printing."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:35.062Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016613
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:18.543Z",
+    "verdict": "approve",
+    "issues": [
+      "The reading order in the overview (agreements first, then prepayments, then prepayment differences) is the writer's inference. The page summaries back the reasons given but do not set any order.",
+      "Small omissions that are acceptable: payment-in-kind tracking for customer prepayments and CD Tracking Location Setup for customs declarations are not mentioned.",
+      "The overview says 'custom declaration pages'. It should say 'customs declaration pages' to match the other wording."
+    ],
+    "input_hash": "d1e5b340600c19eb187361464d8b1dd7671d8060cf1031d0653cf58f7d5a76f0",
+    "cost_usd": 0.0366752
+  }
+}

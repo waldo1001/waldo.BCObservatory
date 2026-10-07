@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration
 type: topic
 title: Development and administration
-summary: "Learn section Development and administration: 77 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Development and administration in Business Central: administering online tenants and environments, configuring Copilot and agents, customizing the UI, developing AL extensions, performance, deprecated features, master data sync, and migration to the online service. It answers how-to questions for administrators, developers, and partners."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:26.373Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 55dd29fc70666e92156685da1af9b9056a2e5bd40077b64d2f89586d24d4d668
+  prompts:
+    hub-topic: 1
+  input_hash: 2b85b43187696f0f5e7560b73637adfa1bef1a9b948e36bd56b663b16c590e95
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -559,14 +560,33 @@ bc_forms:
   - 20353
   - 40027
 member_hash: 55dd29fc70666e92156685da1af9b9056a2e5bd40077b64d2f89586d24d4d668
-narrative: none
+narrative: generated
 ---
 
 # Development and administration
 
-> Learn section Development and administration: 77 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Development and administration in Business Central: administering online tenants and environments, configuring Copilot and agents, customizing the UI, developing AL extensions, performance, deprecated features, master data sync, and migration to the online service. It answers how-to questions for administrators, developers, and partners.
 
-Path: Development and administration · tier official · system administration · no narrative yet
+Path: Development and administration · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers running and extending Business Central. Its own pages give an entry point for administrators, developers, and resellers (deployment, administration center, AL development, Power Platform integration, AL-Go for GitHub, telemetry). They also cover online tenant administration, Copilot and agent configuration, AL extension basics, performance, and the list of deprecated features.
+
+Four subtopics go deeper. Administration tasks covers user access, settings, company creation, job queues, web services, printers, languages, and feature management. Customize Business Central covers role-based layouts, Premium experience, Cue indicators, and extensions. Synchronize master data across companies covers source and subsidiary setup. Migrate to Business Central online covers moving on-premises data from Business Central, GP, SL, or NAV.
+
+Start with the section's landing page to find your role. Administrators should go to Administration of Business Central Online and the administration tasks. Developers should start with Developing extensions in AL. Check Deprecated Features before planning upgrades or integrations.
+
+## Key points
+
+- Online tenant administration covers user management, permissions, licensing, environment updates, telemetry, and delegated partner administration.
+- Copilot & agent capabilities page controls feature activation, user permissions, data movement across geographies, Bing Search, feedback, and agent model selection (versions 28 and 29).
+- AL extension development uses Visual Studio Code, with table and page extensions, code snippets, compiler validation, and a designer with drag and drop.
+- Deprecated features in the W1 version are tracked across release waves from 2020 to 2027. They include removal of API v1.0, the finance reports API, legacy Power BI apps, Intelligent Cloud Insights, and configuration packages, deprecation of Excel reports, and moved subcontracting objects.
+- Performance guidance covers the Performance toolkit extension, page caching, and performance monitoring for consultants, developers, and administrators.
+- Administration tasks include company creation, job queues, web services, printers, languages, database indexes, table information, and trial extension.
+- Master data synchronization pulls customer, vendor, item, and employee data from a source company into subsidiaries, with coupling and scheduling.
+- Migration to online supports Business Central, Dynamics GP, SL, and NAV data, with guidance on full migration versus reimplementation and GP data mapping.
 
 ## Subtopics
 

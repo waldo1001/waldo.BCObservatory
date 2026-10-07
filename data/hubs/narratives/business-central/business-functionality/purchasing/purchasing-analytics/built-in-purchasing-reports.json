@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports",
+  "input_hash": "ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e",
+  "summary": "Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.",
+  "overview": "This section is a set of reference pages, one for each built-in purchasing report or Excel report. It also has an overview page on purchasing reports and analytical tasks, which covers Report Explorer, item availability and purchase date calculation. There are no subtopics. Each report page describes what the report shows and who uses it, such as procurement managers, warehouse teams and controllers.",
+  "key_points": [
+    "Payables and vendor ranking: Aged Accounts Payables (Excel) groups vendor ledger data into aging buckets and periods, by currency, vendor and due date. Vendor - Top 10 List Excel ranks top vendors by purchases and balance in local currency, and you can set how many vendors it shows.",
+    "Reconciliation: Vendor - Trial Balance shows beginning balance and net change by vendor posting group, to reconcile against general ledger payables accounts. Vendor - Detail Trial Balance shows opening balance, transactions in a period and closing balance, for reconciliation and cash flow analysis.",
+    "Ledger activity: Day Book Vendor Ledger Entry lists vendor transactions in date order, grouped by posting date, for periodic review, audit documentation and checking payables activity.",
+    "Open orders: Inventory Purchase Orders, Vendor - Order Detail and Vendor - Order Summary track outstanding receipts, discounts, back orders and expected receipt dates. The summary report shows quantities not yet received across three 30-day periods.",
+    "Purchase history: Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost and discounts for a date period. Purchase statistics adds payment discounts taken and lost, and payment history.",
+    "Catalogs: Item/vendor catalog and Vendor Item catalog list vendors for selected items or items for selected vendors, with direct unit cost, lead time calculation and vendor item number.",
+    "Documents and previews: Standard Purchase - Order produces formal purchase orders to print or email. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data so you can check the layout before using it in production.",
+    "Availability: Purchase Reservation Availability shows item availability for shipment on purchase documents such as return orders, and lets you update quantities to receive."
+  ],
+  "members_used": 17,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:56.850Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019555
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:41.840Z",
+    "verdict": "fix",
+    "issues": [
+      "The Purchase Reservation Availability report is one of the hub's pages, but the narrative leaves it out.",
+      "The overview says the section is only one page per report. It skips the 'Purchasing reports and analytical tasks' overview page, which covers Report Explorer, item availability and purchase date calculation.",
+      "The reconciliation point says both trial balance reports support reconciliation against general ledger payables. Only Vendor - Trial Balance is described that way. Vendor - Detail Trial Balance is described as supporting reconciliation and cash flow analysis.",
+      "To keep 8 key points, the Top 10 point was merged into the payables point so the missing report could be added."
+    ],
+    "input_hash": "ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e",
+    "cost_usd": 0.0727472
+  }
+}

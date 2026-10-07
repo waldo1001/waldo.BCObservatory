@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 36 posts in the knowledge base, 2026-02-13 to 2026-10-05, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 86 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:01:30.439Z"
+  at: "2026-10-07T01:54:03.703Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: def16e8ee4a2882b00458c066d2f2597962032485b1c5fe90fd158d9ebe3fca0
+  input_hash: 2415f2664a0bb852fbbdbf8a9ee3b81fb92388a24d9c4f536e86da7e6660094c
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -33,9 +33,59 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/11654
+    - post/demiliani-com/11666
+    - post/demiliani-com/11739
+    - post/demiliani-com/11796
+    - post/demiliani-com/11817
+    - post/demiliani-com/11858
+    - post/demiliani-com/11887
+    - post/demiliani-com/11932
+    - post/demiliani-com/11962
+    - post/demiliani-com/12002
+    - post/demiliani-com/12036
+    - post/demiliani-com/12076
+    - post/demiliani-com/12116
+    - post/demiliani-com/12123
+    - post/demiliani-com/12142
+    - post/demiliani-com/12186
+    - post/demiliani-com/12267
+    - post/demiliani-com/12238
+    - post/demiliani-com/12292
+    - post/demiliani-com/12313
+    - post/demiliani-com/12368
+    - post/demiliani-com/12412
+    - post/demiliani-com/12422
+    - post/demiliani-com/12439
+    - post/demiliani-com/12455
+    - post/demiliani-com/12482
+    - post/demiliani-com/12498
+    - post/demiliani-com/12532
+    - post/demiliani-com/12572
+    - post/demiliani-com/12613
+    - post/demiliani-com/12623
+    - post/demiliani-com/12644
+    - post/demiliani-com/12659
+    - post/demiliani-com/12705
+    - post/demiliani-com/12734
+    - post/demiliani-com/12682
+    - post/demiliani-com/12779
+    - post/demiliani-com/12820
+    - post/demiliani-com/12836
+    - post/demiliani-com/12874
+    - post/demiliani-com/12927
+    - post/demiliani-com/12975
+    - post/demiliani-com/12992
+    - post/demiliani-com/13096
+    - post/demiliani-com/13197
+    - post/demiliani-com/13215
+    - post/demiliani-com/13254
+    - post/demiliani-com/13290
+    - post/demiliani-com/13324
     - post/demiliani-com/13391
     - post/demiliani-com/13442
     - post/demiliani-com/13470
+    - post/demiliani-com/13512
     - post/demiliani-com/13541
     - post/demiliani-com/13563
     - post/demiliani-com/13588
@@ -76,42 +126,42 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 36
+item_count: 86
 footprint:
   systems:
     - id: development
-      weight: 37
+      weight: 74
     - id: platform
-      weight: 28
+      weight: 66
     - id: integration
-      weight: 22
+      weight: 64
     - id: copilot
-      weight: 20
+      weight: 46
     - id: administration
-      weight: 19
+      weight: 45
     - id: reporting
-      weight: 3
-  topics:
-    - id: security
-      weight: 6
-    - id: al development
       weight: 5
+  topics:
+    - id: performance
+      weight: 12
+    - id: al development
+      weight: 10
+    - id: security
+      weight: 9
+    - id: automation
+      weight: 6
+    - id: azure logic apps
+      weight: 6
+    - id: on-premises
+      weight: 6
     - id: agents
-      weight: 4
-    - id: compliance
-      weight: 4
-    - id: ai agents
-      weight: 3
-    - id: authentication
-      weight: 3
+      weight: 5
     - id: azure openai
-      weight: 3
-    - id: cost optimization
-      weight: 3
-    - id: github copilot
-      weight: 3
-    - id: governance
-      weight: 3
+      weight: 5
+    - id: compliance
+      weight: 5
+    - id: copilot
+      weight: 5
   objects:
     - id: api Dynamics 365 Business Central connector
       weight: 1
@@ -127,24 +177,24 @@ footprint:
       weight: 1
     - id: codeunit AzureOpenAI
       weight: 1
+    - id: codeunit File Management
+      weight: 1
     - id: codeunit Memory Mapped File
       weight: 1
     - id: codeunit Parallel Session Management
       weight: 1
+    - id: codeunit PDF Document
+      weight: 1
     - id: codeunit Queued Export Worker Bad
       weight: 1
-    - id: codeunit Queued Export Worker Good
-      weight: 1
-    - id: codeunit SFTP Client
-      weight: 1
   features: []
-first_item: "2026-02-13"
+first_item: "2025-04-07"
 last_item: "2026-10-05"
 ---
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 36 posts in the knowledge base, 2026-02-13 to 2026-10-05, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 86 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -152,24 +202,27 @@ last_item: "2026-10-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (37) | security (6) | api Dynamics 365 Business Central connector (1) |
-| platform (28) | al development (5) | api Model Context Protocol (MCP) (1) |
-| integration (22) | agents (4) | codeunit Agent (1) |
-| copilot (20) | compliance (4) | codeunit AOAI Chat Completion Params (1) |
-| administration (19) | ai agents (3) | codeunit AOAI Chat Messages (1) |
-| reporting (3) | authentication (3) | codeunit AOAI Operation Response (1) |
-|  | azure openai (3) | codeunit AzureOpenAI (1) |
-|  | cost optimization (3) | codeunit Memory Mapped File (1) |
-|  | github copilot (3) | codeunit Parallel Session Management (1) |
-|  | governance (3) | codeunit Queued Export Worker Bad (1) |
-|  |  | codeunit Queued Export Worker Good (1) |
-|  |  | codeunit SFTP Client (1) |
+| development (74) | performance (12) | api Dynamics 365 Business Central connector (1) |
+| platform (66) | al development (10) | api Model Context Protocol (MCP) (1) |
+| integration (64) | security (9) | codeunit Agent (1) |
+| copilot (46) | automation (6) | codeunit AOAI Chat Completion Params (1) |
+| administration (45) | azure logic apps (6) | codeunit AOAI Chat Messages (1) |
+| reporting (5) | on-premises (6) | codeunit AOAI Operation Response (1) |
+|  | agents (5) | codeunit AzureOpenAI (1) |
+|  | azure openai (5) | codeunit File Management (1) |
+|  | compliance (5) | codeunit Memory Mapped File (1) |
+|  | copilot (5) | codeunit Parallel Session Management (1) |
+|  |  | codeunit PDF Document (1) |
+|  |  | codeunit Queued Export Worker Bad (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ***** 5
+- 2025-Q2: ********** 10
+- 2025-Q3: ******************* 19
+- 2025-Q4: *************** 15
+- 2026-Q1: *********** 11
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
 - 2026-Q4: * 1

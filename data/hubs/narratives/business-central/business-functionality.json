@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality",
+  "input_hash": "d35006880e42ee6d77c3424937b19c372cf1205d71eca1855784b46eafe22c3d",
+  "summary": "Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, fixed assets, projects, relationship management, HR, manufacturing, warehouse, service, sustainability, Shopify, expense management, local functionality, setup and design details. It helps an agent find the right area for how-to, setup and how-it-works questions.",
+  "overview": "This section starts with one overview page listing the business processes Business Central supports, including finance and payments, sales and quotes, purchasing, inventory, projects, and fixed assets. The rest of the section is made of subtopics, each covering one functional area.",
+  "key_points": [
+    "Core transaction areas: Finance (256 pages), Sales (133), Purchasing (62), Inventory (75), Fixed assets (40).",
+    "Operations areas: Manufacturing, Planning, Assembly management, Warehouse management, Quality management, Service management (Premium only), and Project management.",
+    "Relationship management covers contacts, segments, interactions, opportunities, campaigns and the Dynamics 365 Sales integration. Human resources covers employee records, contracts, qualifications and absences.",
+    "General business functionality covers shared features such as posting, batch posting, email, job queues, general journals, workflows and approvals, and electronic data exchange.",
+    "Local functionality is the largest subtopic (603 pages): localization strategy, Validated Localization app rules, regulatory alerts, and 22 country subtopics.",
+    "Set up Business Central covers company information, number series, base calendars, report selection and change auditing, and links to setup guides for each area.",
+    "Design details explain internals such as supply planning, inventory costing, item tracking and non-deductible VAT.",
+    "Specialized areas include Sustainability management, Online store with Shopify, Expense management (preview) with an AI-based Expense Agent, and Company hub."
+  ],
+  "members_used": 1,
+  "subtopics_used": 22,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:13:26.738Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019567
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:03.184Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 7 calls Sustainability management, Shopify, Expense management and Company hub 'newer' areas. No source says this; only Expense management is marked preview, and that comes from its title. Changed to 'Specialized areas'.",
+      "Relationship management (43 pages) and Human resources (3 pages) are omitted, even though the overview page lists CRM and HR. Added them to the summary and as a key point.",
+      "Minor: the overview says each subtopic covers one functional area, but Local functionality, Set up Business Central and Design details are not really functional areas. Left unchanged."
+    ],
+    "input_hash": "d35006880e42ee6d77c3424937b19c372cf1205d71eca1855784b46eafe22c3d",
+    "cost_usd": 0.076104
+  }
+}

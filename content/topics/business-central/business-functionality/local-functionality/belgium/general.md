@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Belgium > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Belgium general local functionality in Business Central: posting period limits, work date as posting date, mandatory journal templates, deferrals in Sales and Purchase ledger reports, and Belgian enterprise and branch numbers. It answers setup questions for Belgian bookkeeping and reporting."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:02.126Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ce361231eb6ff1f9701442e0b9c92f533d9ba427dbbd762bb5a862a71276a7c3
+  prompts:
+    hub-topic: 1
+  input_hash: f0feca6226982229fc8a7f5241d207865687657bde0b15b6e639e711220a536b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals
@@ -86,14 +87,32 @@ bc_forms:
   - 1700
   - 1701
 member_hash: ce361231eb6ff1f9701442e0b9c92f533d9ba427dbbd762bb5a862a71276a7c3
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Belgium > General: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Belgium general local functionality in Business Central: posting period limits, work date as posting date, mandatory journal templates, deferrals in Sales and Purchase ledger reports, and Belgian enterprise and branch numbers. It answers setup questions for Belgian bookkeeping and reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > General · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects five short pages on Belgium-specific setup and behavior. Most of them describe fields in General Ledger Setup or related setup pages that control how and when transactions are posted.
+
+Three pages deal with posting control: limiting the posting period at company, user, or journal template level (useful for Belgian monthly journal closure), using the work date as the posting date when applying or unapplying entries, and making journal templates mandatory with defaults for sales and purchase documents. A fourth page explains how to exclude deferral entries from the Sales ledger and Purchase ledger reports. The last page covers enterprise numbers and branch numbers from the Crossroads Bank for Enterprises.
+
+Start with the posting period and journal template pages if you are setting up a new Belgian company. Use the deferral page when ledger reports show deferral entries you want to hide. The enterprise number page is a reference for identification on documents.
+
+## Key points
+
+- Posting periods can be limited with Allow Posting From and Allow Posting To at company, user, or journal template level.
+- Enabling Use Workdate for Appl./Unappl. in General Ledger Setup makes the work date the posting date when applying customer or vendor entries.
+- Journal Template Name Mandatory in General Ledger Setup makes journal templates required in the Belgian version.
+- Default journal templates for sales and purchase documents are set on the Journal Templates FastTab.
+- Deferral entries can be excluded from Sales and Purchase ledger reports by setting source codes for deferrals and using the Exclude Deferral Entries option.
+- Source Code Setup covers General, Sales, and Purchase deferral source codes.
+- Enterprise numbers and branch numbers come from the Crossroads Bank for Enterprises and are used on business documents and correspondence, alongside the VAT registration number.
 
 ## Learn pages
 

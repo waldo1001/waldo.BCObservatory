@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview
 type: topic
 title: Designing and coding agents (preview)
-summary: Designing and coding agents (preview) covers how partners build, configure, run and manage custom agents in Business Central sandboxes with the AI development toolkit. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import, the Tasks AL API and troubleshooting.
+summary: Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
 tier: official
 language: en
 system: copilot
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T13:43:05.019Z"
+  at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bdccf242eeee764ba67931315467ea8329e1c4b2ac60144a754d4ff73849ff69
+  input_hash: b05b7ea972b6ee0ec475b1d203aac2bec96d6d71552abb5b2413a45cb6733e26
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -212,8 +212,8 @@ links:
   posts:
     - post/bertverbeek-nl/1290
     - post/demiliani-com/13755
+    - post/katson-com/4530
     - post/kauffmann-nl/8436
-    - post/vondervoort-be/84
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -235,28 +235,28 @@ narrative: generated
 
 # Designing and coding agents (preview)
 
-> Designing and coding agents (preview) covers how partners build, configure, run and manage custom agents in Business Central sandboxes with the AI development toolkit. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import, the Tasks AL API and troubleshooting.
+> Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
 
 Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
-This section is for partners who prototype AI agents in Business Central. It follows the agent lifecycle: create and configure an agent, set permissions and profiles, write instructions, run tasks, then iterate, export and graduate the work. The toolkit is sandbox-only and the pages are marked preview.
+This section explains how partners prototype and build AI agents in Business Central using the AI development toolkit. The toolkit is sandbox-only and follows an agent lifecycle: create, configure, activate, iterate, graduate and clean up. A transparency note describes the intended use and the Azure OpenAI models behind it.
 
-Start with the main overview page and "Create and activate an agent", which cover the design wizard, identity, instructions, profiles, permissions and the task playground. Then read "Write effective instructions", "Instruction keywords" and "Best practices for designing an agent" to shape behavior. "Set up agent permissions and profiles" and "Understand agent visibility" explain what an agent can do and who can see it.
+The pages follow that lifecycle. Start with the overview, then "Create and activate an agent" and "Write effective instructions", with "Best practices for designing an agent" and "Instruction keywords" as references. Next come permissions and profiles, running tasks, attachment limits, and iterating with the Agent Task Log and instruction version history. The Sales Validation Agent is a preconfigured example.
 
-For operation and code, "Run an agent" explains tasks, "Iterate and manage an agent" covers the Agent Task Log and instruction history, and "Integrate with the Tasks AL API" covers AL integration. The "Coding agents in AL" subtopic (8 pages) goes deeper on writing agents in code. The FAQ, the attachment limits page, the Sales Validation Agent example and the Transparency Note round out the section.
+For developers, "Integrate with the Tasks AL API" shows how to detect agent sessions and read agent information. The subtopic "Coding agents in AL" covers building and registering agents in code, including converting a prototyped agent. Export and import moves configurations between sandboxes, and the FAQ covers common questions.
 
 ## Key points
 
-- The lifecycle is create, configure, activate, iterate, graduate and cleanup. The toolkit works only in sandbox environments, and the pages mention version 27.2.
-- Agents run with the intersection of the user's and the agent's permissions. They never exceed the scheduling user's privileges, and least privilege is recommended.
-- Profiles and page customization properties such as ClearActions and ClearLayout control what an agent sees and can do in the UI.
-- Instructions follow a framework of responsibilities, guidelines and instructions. Keywords include ask for assistance, request review, reply, write email, memorize, set field, use lookup and invoke action.
-- Tasks can be triggered manually from the Agent Tasks page or through the Tasks AL API. The API offers GetCustomAgents and IsAgentSession to detect agent sessions.
-- Attachments support PDF, PNG and JPG files, with file size limits and a 10-page PDF limit. Custom document processing can use Azure AI Document Intelligence.
-- The Agent Task Log shows decision context, and instruction version history supports comparison and rollback.
-- Agent configurations can be exported and imported as XML between sandboxes. This covers identity, instructions, permissions and profile.
+- Agents are prototyped in sandbox environments only, using the AI development toolkit (preview, 27.2 for create and activate).
+- Effective agent permissions are the intersection of the user's and the agent's permissions, so an agent never exceeds the scheduling user's privileges.
+- Profiles and page customization properties such as ClearActions and ClearLayout control what the agent sees and can do in the UI.
+- Tasks are the unit of work; trigger them manually from the Agent Tasks page or through the Tasks AL API from UI actions and business events.
+- Attachments support PDF, PNG and JPG, with file size limits and a 10-page PDF limit; custom processing can use Azure AI Document Intelligence.
+- Iterate using the Agent Task Log, the page accessibility view of what the agent perceives, and instruction version history with comparison and rollback.
+- Agent configurations (identity, instructions, permissions, profile) can be exported and imported as XML between sandboxes.
+- Agent visibility in the role center depends on app installation, Copilot capability status, permissions and archiving state (28.1).
 
 ## Subtopics
 
@@ -286,8 +286,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "Custom Business Central agents can now be deployed to production starting with update 28.1"
+- [Meet Custom Agents in Business Central](../../../posts/katson-com/4530.md) (community post): "Custom agents in Business Central improve efficiency and reduce human error"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code by exporting the agent XML configuration"
-- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL"
 - [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"

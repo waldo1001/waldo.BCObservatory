@@ -5,12 +5,11 @@
   "overview": "This section is part of the Contoso Coffee demo data and is meant for testing and training on quality management. It has no subtopics, only four pages: one setup page and three scenario walkthroughs.\n\nStart with the setup page, which explains how to install and generate the Contoso Coffee demo data for quality management. It provides sample templates, tests, results and generation rules for purchase and production inspections. The three scenario pages then use that data, each showing a different way an inspection gets created: automatically when production output is posted, automatically when a warehouse receipt is posted (followed by a reinspection of the lot), and manually from a purchase order's item-tracking line before the receipt is posted.",
   "key_points": [
     "Setup page installs and generates Contoso Coffee demo data for quality management, including templates, tests, results and generation rules for purchase and production inspections.",
-    "Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling).",
-    "Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items; after the initial inspection fails, a reinspection is created.",
+    "Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling). The walkthrough includes completing the inspection.",
+    "Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items. After the initial inspection fails, a reinspection is created.",
     "The warehouse scenario also includes registering the warehouse put-away.",
     "Manual scenario: create an inspection from a purchase order's item-tracking line before posting the receipt, with lot assignment and test value entry.",
-    "The manual scenario also covers a certificate of analysis.",
-    "Each scenario ends with completing the inspection."
+    "The manual scenario also covers a certificate of analysis."
   ],
   "members_used": 4,
   "subtopics_used": 0,
@@ -20,5 +19,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.038033000000000004
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:12.303Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'Each scenario ends with completing the inspection' is not supported. Only the production output page lists inspection completion as a feature. The warehouse receipt and manual item-tracking pages do not mention it, so the point was removed."
+    ],
+    "input_hash": "ae3c977a8269404a6c6619fd729d29f92f4de03bc97fd54090b62a3c04ddbc71",
+    "cost_usd": 0.025775199999999998
   }
 }

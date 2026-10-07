@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+  "input_hash": "46dd8b71570be3d46255c514d96f5de99aa666c0d6dff95ef25c67ee2cf3a362",
+  "summary": "Inventory costing design details in Business Central: costing methods, cost components, item application, cost adjustment, expected cost posting, valuation, revaluation, variance, rounding, and reconciliation with the general ledger. It answers how costs are calculated, forwarded, adjusted and posted to G/L, including assembly and production orders.",
+  "overview": "This section explains how Business Central records and reports inventory cost. It starts from the basics: the five costing methods, the cost components that make up inventory value, and the two kinds of entries (quantity entries in the item ledger and value entries) that inventory posting creates. Item application links cost recipients to cost sources so cost can be forwarded.\n\nOther pages cover what happens after posting. Cost adjustment moves cost from sources to recipients, average cost works in periods, and expected cost posting uses interim accounts until invoicing. Revaluation, variance and rounding are covered separately. Further pages describe production and assembly order posting, inventory periods, valuation reports, and reconciliation with the general ledger. A subtopic covers the posting date on adjustment value entries.\n\nStart with \"Design details - Inventory costing\" for the overview, then \"Costing methods\" and \"Inventory posting\". Go to the topic pages for cost adjustment, average cost, or G/L reconciliation as your question requires. Two practical pages cover changing an item's costing method and the known issue of zero inventory with open item ledger entries.",
+  "key_points": [
+    "Five costing methods are covered: FIFO, LIFO, Average, Standard and Specific.",
+    "Inventory posting creates quantity entries (item ledger) and value entries, linked by item application entries that forward cost.",
+    "Item application supports automatic quantity application and fixed cost application for returns and corrections.",
+    "Cost adjustment runs through the Adjust Cost - Item Entries batch job, either automatic or manual, and Post Inventory Cost to G/L posts values to the general ledger.",
+    "Expected cost posting for received but not invoiced items uses interim accounts until full invoicing.",
+    "Average cost is a weighted average within a configurable period and calculation type, applied to decreases by the Adjust Cost batch job.",
+    "Assembly output posts at actual cost with no WIP concept; production order posting tracks cost through raw materials, WIP and finished goods.",
+    "To change an item's costing method after transactions, use assembly orders to transfer inventory while preserving cost."
+  ],
+  "members_used": 19,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:17.921Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024045000000000004
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:16:53.515Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview does not mention the 'Design details accounts in the general ledger' page, which covers posting setups and the interim, variance and WIP accounts. Adding it would help agents with account questions.",
+      "Minor: the key point that Post Inventory Cost to G/L posts values to the general ledger leaves out the other route. The reconciliation page says posting can also happen automatically when a transaction is posted."
+    ],
+    "input_hash": "46dd8b71570be3d46255c514d96f5de99aa666c0d6dff95ef25c67ee2cf3a362",
+    "cost_usd": 0.0500192
+  }
+}

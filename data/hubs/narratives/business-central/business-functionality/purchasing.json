@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/purchasing",
+  "input_hash": "9def9d5fe895da9d15dacdf55ca2e39d95fb1f125dd7982c20fe63ece395c4b1",
+  "summary": "Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and cancellations. It answers how-to questions on posting, matching, correcting, and approving purchase documents, handling electronic invoices, blanket orders, date calculation, and the payment practices report. A subtopic covers purchasing analytics.",
+  "overview": "This section describes how to manage company purchases in Business Central. It starts with an overview of purchasing tasks, then covers the document flow: purchase quotes converted to orders, purchase invoices and orders posted to update inventory and accounts payable, and returns or cancellations through credit memos or return orders.\n\nOther pages cover supporting tasks: combining receipts or order lines on one invoice, matching invoice drafts to orders, receiving PEPPOL and OCR electronic documents, recurring purchase lines, external document numbers, blanket orders, approval workflows, and date calculation from lead times. Some pages deal with shared records, such as merging duplicate vendors and saving contacts to Outlook. Reporting is covered by the Payment practices report and the Purchasing analytics subtopic.\n\nStart with the overview page, then go to \"Record purchases with purchase invoices\" for the core posting flow. Use the analytics subtopic when the question is about choosing a report or tool for spend, vendor, or payables analysis.",
+  "key_points": [
+    "Unpaid posted purchase invoices can be corrected or cancelled by creating a corrective credit memo, which keeps the audit trail.",
+    "Purchase quotes convert to purchase orders; blanket orders cover long-term agreements with deliveries over time.",
+    "Get Receipt Lines and Get Order Lines combine multiple receipts or order lines on one vendor invoice.",
+    "Incoming purchase invoice drafts can be matched to purchase orders and receipts, with order-match warnings and quantity and unit of measure checks.",
+    "PEPPOL and OCR electronic invoices and credit memos can be converted to purchase documents using text-to-account mapping.",
+    "Returns are processed with purchase credit memos or return orders, with exact cost reversing options.",
+    "Purchase approval workflows use approvers, amount limits, and notifications.",
+    "Merging duplicate vendor or customer records requires the MERGE DUPLICATES permission set."
+  ],
+  "members_used": 19,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:08.753Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022421
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:46.677Z",
+    "verdict": "fix",
+    "issues": [
+      "The key point on electronic documents adds '(2023 release wave 2)'. The page only has that as a version tag and does not say the feature was introduced in that release. The version was removed.",
+      "The summary says the process runs to 'payment', but no page covers paying vendors. The only payment page is the Payment practices report. The summary was reworded to name that report."
+    ],
+    "input_hash": "9def9d5fe895da9d15dacdf55ca2e39d95fb1f125dd7982c20fe63ece395c4b1",
+    "cost_usd": 0.0644112
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/relationship-management/manage-contacts
 type: topic
 title: Manage contacts
-summary: "Learn section Business functionality > Relationship management > Manage contacts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Managing contacts in Business Central: creating person and company contacts, linking them to customers, vendors and banks, merging duplicates, syncing to Outlook, and organizing contacts with groups and profiles. It answers how-to questions on contact setup and maintenance."
 tier: official
 language: en
 system: crm
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1bddf34271708c8593a485ff2b8d02979e0ed93f86dc6f8142d18ae7ace9f6bb
+  prompts:
+    hub-topic: 1
+  input_hash: 4c0d5a6783c5593d68beba09347b35a4ac4cff62f97d857e1012a23ce20d8dcc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
@@ -92,14 +93,30 @@ bc_forms:
   - 5109
   - 5110
 member_hash: 1bddf34271708c8593a485ff2b8d02979e0ed93f86dc6f8142d18ae7ace9f6bb
-narrative: none
+narrative: generated
 ---
 
 # Manage contacts
 
-> Learn section Business functionality > Relationship management > Manage contacts: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Managing contacts in Business Central: creating person and company contacts, linking them to customers, vendors and banks, merging duplicates, syncing to Outlook, and organizing contacts with groups and profiles. It answers how-to questions on contact setup and maintenance.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · narrative reviewed by Opus
+
+## Overview
+
+This section covers the contact records used in relationship management to track prospects and business relationships. Contacts can be people or companies. They can be created from, or linked to, existing customers, vendors and bank accounts, and contact data can be synchronized with customers, vendors, employees and banks.
+
+The pages fit together as a workflow. Start with "Create and manage company contacts" and "Create business contacts" for the contact card, contact types and linking. Then use "Set up information for contacts" and "Use profiles to classify contacts" to segment contacts for targeted marketing. "Merge duplicate customer or vendor records" handles cleanup. "Save Business Contacts to Microsoft Outlook" covers saving contacts to Outlook and Teams and synchronizing them with Outlook.
+
+## Key points
+
+- Contacts can be person or company types. The contact card supports interaction tracking, opportunity management and contact statistics.
+- Contacts can be created from customers, vendors and bank accounts, and can be linked to existing business entities.
+- Contacts can be converted to customers, vendors or banks.
+- Merging duplicate customer, vendor or contact records means comparing field values, choosing which to keep, and resolving conflicts. It requires the MERGE DUPLICATES permission set.
+- Contacts can be saved to Outlook and Teams, with optional two-way sync and contact filtering. The page references 2026 release wave 1.
+- Master data for contacts includes industry groups, mailing groups, job responsibilities, organizational levels, web sources and alternate addresses.
+- Profile questionnaires classify and rate contacts using answer points, with automatic classification, to support targeted campaigns.
 
 ## Learn pages
 

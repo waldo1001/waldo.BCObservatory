@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed
 type: topic
 title: Legacy reports (will be removed)
-summary: "Learn section Business functionality > Fixed assets > Fixed assets analytics > Legacy reports (will be removed): 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:17.864Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: bb2d1169c678ec2685acb1df44476a2493550dcdc79a07920877e423843274b6
+  prompts:
+    hub-topic: 1
+  input_hash: a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
@@ -70,14 +71,32 @@ bc_forms:
   - 5604
   - 5607
 member_hash: bb2d1169c678ec2685acb1df44476a2493550dcdc79a07920877e423843274b6
-narrative: none
+narrative: generated
 ---
 
 # Legacy reports (will be removed)
 
-> Learn section Business functionality > Fixed assets > Fixed assets analytics > Legacy reports (will be removed): 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This section holds three older fixed asset reports under Fixed assets analytics. The Learn table of contents labels the group "will be removed", so treat them as legacy and expect them to go away.
+
+The reports cover different needs. Fixed Asset Analysis gives a broad view of asset values and depreciation with customizable date and data columns. Fixed Asset Details lists fixed asset ledger entries per asset. Fixed Asset Projected Value looks forward and forecasts depreciation and book value for a future period.
+
+Start with the page that matches your task: Analysis for reconciliation, checks and budget reporting, Details for entry-level review of cost, depreciation and book value, and Projected Value for budget planning. There are no subtopics.
+
+## Key points
+
+- The section is labeled 'will be removed', so these reports are legacy.
+- Fixed Asset Analysis supports asset valuation, depreciation analysis, budget reporting and future depreciation calculation.
+- Fixed Asset Analysis has customizable date and data columns, used for reconciliation, check and budget reports.
+- Fixed Asset Details shows ledger entries with acquisition cost, depreciation and book value for each asset.
+- Fixed Asset Details can optionally include reversed entries.
+- Fixed Asset Projected Value forecasts depreciation and book value across specified date ranges for a future period.
+- Projected Value can compare multiple depreciation methods and copy amounts to a G/L budget.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/banking-and-payments
 type: topic
 title: Banking & Payments
-summary: "Learn section Business functionality > Local functionality > Switzerland > Banking & Payments: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Swiss banking and payments in Business Central: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, plus bank clearing number import and the Vendor Payments List report. Answers how-to questions on collecting, exporting, importing, posting and printing Swiss payments."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:34.650Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 24ccdb708e4362622bf407ffff9ba7c51bcfa4e7d15a916b8e114bf44fb29699
+  prompts:
+    hub-topic: 1
+  input_hash: 9c43faf05880c4410f04dd554b1399bd00bd53322e8f5c0eaeef777762d8134a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-close-an-lsv-collection
@@ -157,14 +158,29 @@ bc_forms:
   - 3010834
   - 3010835
 member_hash: 24ccdb708e4362622bf407ffff9ba7c51bcfa4e7d15a916b8e114bf44fb29699
-narrative: none
+narrative: generated
 ---
 
 # Banking & Payments
 
-> Learn section Business functionality > Local functionality > Switzerland > Banking & Payments: 12 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Swiss banking and payments in Business Central: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, plus bank clearing number import and the Vendor Payments List report. Answers how-to questions on collecting, exporting, importing, posting and printing Swiss payments.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Banking & Payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Banking & Payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the electronic payment methods in the Swiss version of Business Central. Three overview pages explain them. The first, Swiss Electronic Payments, covers ESR, LSV+, SEPA credit transfers and QR-bill management with IBAN and QR-IBAN support, and also lists Bank-ESR (BESR) and DebitDirect PostFinance. The second covers ESR payment slips with unique reference numbers. The third covers LSV+ and BDD direct debit. The task pages explain how to: print ESR invoices; import ESR payments; process, close, export and post LSV+ collections; manage QR-bills; import bank clearing numbers from SIX Interbank Clearing; and print the Vendor Payments List report.
+
+## Key points
+
+- ESR (Einzahlungsschein mit Referenznummer) covers Swiss invoices in CHF and EUR. Imported bank files are applied automatically to invoices by ESR reference number.
+- ESR invoices print as a sales invoice ESR report or as separate ESR coupons with deposit slips. Options include ESR System, ESR Bank code and LogInteraction.
+- The Read ESR File action imports ESR payments into cash receipt journals. Imported ESR files can also close matching open LSV journal lines.
+- LSV+ collection flow: create an LSV journal, run the LSV suggest collection batch job, register payments, create the LSV file and print the collection order.
+- Close an LSV collection before exporting the LSV file. A closed collection can optionally be reopened before it goes to the bank. Test Delivery Mode is available on export.
+- Post LSV+ payment advice from banks with the Get From LSV Journal action in cash receipt journals. LSV Status tracking applies, including the File Created status.
+- QR-Bill Management covers generating, scanning, importing and reconciling QR-bills. Structured addresses are supported starting October 2026.
+- The Import Bank Directory action loads SIX Interbank Clearing files into the Bank Directory table to define bank branch numbers. The Vendor Payments List report (AT, DE, CH) sorts by vendor or chronologically in standard, FCY amounts or posting info layouts.
 
 ## Learn pages
 

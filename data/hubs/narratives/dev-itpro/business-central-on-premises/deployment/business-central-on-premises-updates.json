@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/deployment/business-central-on-premises-updates",
+  "input_hash": "a6965c17c2702fa3a0db44da3d18da6c5b0e05417015de77cd0ed9f11a6fc341",
+  "summary": "Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.",
+  "overview": "This section tracks the updates released for Business Central on-premises. Each current release wave has its own page: 2025 release wave 1 (version 26), 2025 release wave 2 (version 27) and 2026 release wave 1 (version 28). The pages list updates by version number and cover cumulative updates, hotfixes and regulatory features. The version 26 and 27 pages also give build numbers and support article references for each update and note multi-country support.\n\nOlder versions that no longer receive updates are kept in the \"Versions no longer updated\" subtopic. It holds 13 archive pages, from version 13 (October 2018) to version 25 (2024 release wave 2).\n\nStart with the page for the release wave you run to find the latest update. Use the archive if you need history for an older version.",
+  "key_points": [
+    "2025 release wave 1 (version 26) page lists cumulative updates 26.1 through 26.18.",
+    "2025 release wave 2 (version 27) page lists cumulative updates 27.1 through 27.12.",
+    "2026 release wave 1 (version 28) page covers hotfixes and regulatory features released between May and October 2026, up to version 28.6.",
+    "The version 26 and 27 pages give build numbers and support article references for each update.",
+    "Updates include cumulative updates, hotfixes and regulatory features; the version 26 and 27 pages also note hotfix deployment and multi-country support.",
+    "The archive subtopic has 13 pages for versions 13 (October 2018) to 25 (2024 release wave 2), which no longer receive updates."
+  ],
+  "members_used": 3,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:02.860Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011015
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:07.812Z",
+    "verdict": "fix",
+    "issues": [
+      "Build numbers and support article references are only stated for the version 26 and 27 pages; the version 28 page summary does not mention them, so the general claims in the summary, overview and key point 4 overreach.",
+      "Multi-country support is only listed as a feature for the version 26 and 27 pages; key point 5 and the overview apply it to all pages.",
+      "Overview advice to find 'the latest cumulative update and its build number' assumes build numbers on every page, including version 28, which is not supported."
+    ],
+    "input_hash": "a6965c17c2702fa3a0db44da3d18da6c5b0e05417015de77cd0ed9f11a6fc341",
+    "cost_usd": 0.0489672
+  }
+}

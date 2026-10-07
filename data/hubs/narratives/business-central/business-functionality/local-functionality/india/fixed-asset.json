@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/fixed-asset",
+  "input_hash": "42ce041264f32dc72432566d59dadf388d9424ce2fe433d712b8b181e7e9f053",
+  "summary": "Fixed asset depreciation for the India localization of Business Central. It covers setup under the Income Tax Act 1961 and Companies Act 2013, and how depreciation is calculated with FA blocks, additional depreciation and multiple shifts.",
+  "overview": "This section covers fixed asset depreciation for India. It has two pages: one on setting up fixed assets for depreciation, and one on how depreciation is calculated once setup is done.\n\nThe setup page covers the items needed under the Income Tax Act 1961 and Companies Act 2013: depreciation books, the FA accounting period for income tax, FA block codes, additional depreciation, seasonal and non-seasonal days, and depreciation thresholds. The calculation page covers FA block depreciation, additional depreciation, and shift depreciation for manufacturing operations with multiple production shifts.\n\nStart with the setup page to configure the depreciation book, accounting period and block codes. Then use the calculation page to see how depreciation is computed.",
+  "key_points": [
+    "Setup is based on the Income Tax Act 1961 and Companies Act 2013.",
+    "Setup items include depreciation book, FA accounting period for income tax, and FA block code.",
+    "Additional depreciation has its own setup.",
+    "Setup covers seasonal and non-seasonal days and a depreciation threshold.",
+    "Depreciation can be calculated by FA block.",
+    "Additional depreciation rules are part of the calculation.",
+    "Multiple shift depreciation supports manufacturing operations with several production shifts.",
+    "Read the setup page first, then the calculation page."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:29.614Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009037
+  }
+}

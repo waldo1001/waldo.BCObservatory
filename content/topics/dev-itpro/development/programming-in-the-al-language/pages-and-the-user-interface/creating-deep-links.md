@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/creating-deep-links
 type: topic
 title: Creating deep links
-summary: "Learn section Development > Programming in the AL language > Pages and the user interface > Creating deep links: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Deep links in Business Central: how to build URLs that open specific content in the web client or the mobile app. Answers questions about URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme."
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4cd62a747b179066bcc501044051abb774612f6514eed7c2961fd92d9a592767
+  prompts:
+    hub-topic: 1
+  input_hash: 8a31063d67bd708e6485e6f9343375fc5ba9e04b1c58d0483dce4fdf43e7ae69
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-link-to-mobile-app
@@ -59,14 +60,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4cd62a747b179066bcc501044051abb774612f6514eed7c2961fd92d9a592767
-narrative: none
+narrative: generated
 ---
 
 # Creating deep links
 
-> Learn section Development > Programming in the AL language > Pages and the user interface > Creating deep links: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Deep links in Business Central: how to build URLs that open specific content in the web client or the mobile app. Answers questions about URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Creating deep links · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Creating deep links · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Deep links are URLs that take a user straight to a given place in Business Central instead of the start page. This section has two pages, one for each client: the web client URL and the link to the Business Central mobile app.
+
+The web client page explains how to build URLs that open pages, reports, tables and queries, with parameters for company, mode, profile, filters and display options. The mobile app page explains how to launch the app with the ms-businesscentral URI scheme and parameters for page, bookmark, filter, profile and company.
+
+Start with the page for the client you target. The two use similar parameters, so the web client page is a useful base for the mobile one.
+
+## Key points
+
+- Web client URLs can open pages, reports, tables and queries.
+- Web client parameters include company, page, report, table, mode and profile, plus filters and display options.
+- The mode parameter accepts View, Edit or Create.
+- The mobile app is launched with the ms-businesscentral URI scheme.
+- Mobile app links support page, bookmark, filter, profile and company parameters.
+- The web client URL page lists 2020 release wave 1 update 16.2.
 
 ## Learn pages
 

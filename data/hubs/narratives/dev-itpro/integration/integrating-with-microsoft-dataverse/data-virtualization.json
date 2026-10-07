@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization",
+  "input_hash": "a0e55ecfe35ecb1f62492e8b2845fc797e3107d5d34d53e9f09aa79359e987ef",
+  "summary": "Data virtualization covers Business Central virtual tables in Microsoft Dataverse. It answers questions about how virtual tables expose Business Central data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.",
+  "overview": "Business Central virtual tables let Power Platform makers work with Business Central data in Dataverse through APIs, with direct CRUD access and without copying the data into Dataverse. The section explains this integration and how to build on it.\n\nStart with the Power Platform integration page for the overall idea. Then read \"Working with Virtual Tables\" for how tables are generated and how data types, primary keys, relations, enums and OData actions are handled. The page on synthetic relationships shows how to link native and virtual tables. The ALM page covers solution structure, dependencies and connection setup. The FAQ collects short answers on visibility, users, prefixes and defaults.",
+  "key_points": [
+    "Virtual tables give Power Platform apps CRUD access to Business Central data through APIs, with no data copied to Dataverse.",
+    "Custom APIs can be consumed, and virtual table columns and relationships can be used.",
+    "Working with Virtual Tables covers data type mapping, primary key handling, 1:n and n:1 relations, enum to OptionSet conversion, OData actions and error handling.",
+    "Synthetic relationships connect native and virtual tables in Dataverse using foreign keys and table mapping (2024 wave 1).",
+    "ALM uses the MicrosoftBusinessCentralERPVE solution, the MicrosoftBusinessCentralERPCatalog and MicrosoftBusinessCentralVESupport, plus the virtual table provider and a connection setup (version 17 or later).",
+    "The FAQ covers API-managed solutions, table visibility, user authentication requirements, the table catalog, solution prefixes, default values and plugin version checks."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:54.422Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012441
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:37.894Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on synthetic relationships adds '(2024 wave 1)' without context. The source only tags the page with that version, so it may read as a release claim. This is a small issue.",
+      "Key point on ALM ends with '(version 17 or later)', which reads as if the version applies to the connection setup. The source does not say which component that version refers to. This is a small issue.",
+      "The key point 'Custom APIs can be consumed, and virtual table columns and relationships can be used' is supported but thin."
+    ],
+    "input_hash": "a0e55ecfe35ecb1f62492e8b2845fc797e3107d5d34d53e9f09aa79359e987ef",
+    "cost_usd": 0.0349472
+  }
+}

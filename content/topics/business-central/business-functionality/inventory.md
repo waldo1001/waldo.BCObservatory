@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/inventory
 type: topic
 title: Inventory
-summary: "Learn section Business functionality > Inventory: 75 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Inventory in Business Central covers item setup, counting and adjustment, tracking by serial, lot and package numbers, reservations, transfers, availability, variants, BOMs and responsibility centers. It answers how-to questions about managing items and stock. A subtopic covers inventory analytics.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8bc58b8b36afd60ab4c4a84f3d0f340d97ee10239ed091942c13b357f090958b
+  prompts:
+    hub-topic: 1
+  input_hash: 37d83f5a31238a00ebef49c2e3d1361d8b7ad4ba7e6c3b926dace21b165d6520
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -329,7 +330,6 @@ links:
   posts:
     - post/olofsimren-com/3696
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129
-    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -342,7 +342,7 @@ coverage:
   learn: 75
   code: 0
   video: 1
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -448,14 +448,33 @@ bc_forms:
   - 99001048
   - 990003804
 member_hash: 8bc58b8b36afd60ab4c4a84f3d0f340d97ee10239ed091942c13b357f090958b
-narrative: none
+narrative: generated
 ---
 
 # Inventory
 
-> Learn section Business functionality > Inventory: 75 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Inventory in Business Central covers item setup, counting and adjustment, tracking by serial, lot and package numbers, reservations, transfers, availability, variants, BOMs and responsibility centers. It answers how-to questions about managing items and stock. A subtopic covers inventory analytics.
 
-Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+The Inventory section describes how to define and maintain items and keep stock accurate. It starts with item cards, item templates, categories, attributes, variants, catalog items and item references. It then covers daily stock work: physical counts, adjustments, reclassification, transfers between locations, reservations and blocking items from use.
+
+Further pages cover item tracking with serial, lot and package numbers, including setup of tracking codes, assigning numbers on documents and tracing items forwards and backwards. Other pages cover availability overviews, bills of material for assembly and production, responsibility centers, and Copilot-generated marketing text for items. The Inventory analytics subtopic holds Power BI apps, built-in reports and ad-hoc analysis.
+
+Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". After that, go to the page for the task at hand, such as counting, tracking or transfers.
+
+## Key points
+
+- Item cards set up item types, costing methods, pricing, replenishment, variants and substitutions; item templates speed up creation.
+- Items can be organized with categories (including parent categories) and item attributes, which can be used to filter items and for web shop searches.
+- Physical counts can use physical inventory orders with inventory recordings, or journals with cycle counting periods and expected inventory calculation.
+- Item tracking codes set up serial, lot and package tracking, expiration dates, warranty formulas and warehouse tracking; items can be traced usage to origin and origin to usage.
+- Transfers between locations use transfer orders or item reclassification journals, with standard or direct transfers and optional in-transit tracking.
+- Items and item variants can be blocked for sales, purchasing, service, production or all transactions.
+- Reservations work across sales, purchase, service, assembly, transfer and production orders, with auto reserve, bulk reservations and cancellation.
+- Variants track sizes, colors or configurations under one item; item references map internal codes to vendor or customer terms, and support barcode scanning.
 
 ## Subtopics
 
@@ -489,7 +508,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Quality inspections can be triggered automatically when posting receipts; quality management needs"
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md) (community post): "Item variants can now have their own pictures for visual identification"
-- [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md) (community post): "Item table in Business Central has multiple blocked fields"
 - [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
 
 ## Business Central pages and reports

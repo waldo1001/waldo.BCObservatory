@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses",
+  "input_hash": "36b7ade2d7b90d25f978cd68c0ca68aa4dc6e5309ba01b72313c8ab731c7dca9",
+  "summary": "Access with Microsoft 365 licenses in Business Central lets Microsoft 365 license holders view Business Central data through Microsoft Teams with read-only access. It answers questions about what the feature is, how to set it up, how user access is authenticated and provisioned, and common licensing and permission questions.",
+  "overview": "This section covers a way to give people who hold Microsoft 365 licenses, but not full Business Central licenses, access to Business Central data in Microsoft Teams. The experience is a simplified, read-only interface with data access controls.\n\nFour pages make up the section. The overview page explains the capability. The setup page walks through license configuration, permissions, environment setup, security groups, centralized deployment and testing. The user access flow page explains how Business Central authenticates users, checks minimum requirements, provisions user records and applies security. The FAQ covers permissions, setup, licensing and usage questions.\n\nStart with the overview page, then follow the setup page to configure the environment. Use the access flow page to understand what happens at sign-in, and the FAQ for specific questions.",
+  "key_points": [
+    "Gives Microsoft 365 license holders read-only access to Business Central data in Teams without full Business Central licensing.",
+    "The interface is simplified and data access is controlled by permissions.",
+    "Setup involves license configuration, permission sets (including the D365 Read permission set), environment setup, security group assignment, centralized deployment and testing.",
+    "The access flow covers authentication, minimum requirement checks, user record provisioning and security controls.",
+    "The FAQ mentions the Employee profile, the Microsoft Teams Internal Users group and row-level security.",
+    "The FAQ references version 21.1 (Update 21.1)."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:01.284Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010941
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:09.606Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'The FAQ is tied to version 21.1 (Update 21.1)' says more than the inputs support. The FAQ summary only lists 21.1 / Update 21.1 as versions and doesn't say what the version means for the feature. Reworded to say the FAQ references that version.",
+      "Minor: 'data access is controlled by permissions' is a light inference from the 'Data access control' feature. It is consistent with the setup and access flow pages (permission sets), so it stays."
+    ],
+    "input_hash": "36b7ade2d7b90d25f978cd68c0ca68aa4dc6e5309ba01b72313c8ab731c7dca9",
+    "cost_usd": 0.0386992
+  }
+}

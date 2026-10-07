@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/assembly-management
 type: topic
 title: Assembly management
-summary: "Learn section Business functionality > Assembly management: 20 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Assembly management in Business Central covers building items from components and resources, using assembly BOMs, assembly orders, assemble-to-order and assemble-to-stock flows. It answers how-to, setup, posting and undo questions, plus a subtopic on assembly reports and analytics.
 tier: official
 language: en
 system: assembly
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: aa8666bc5834b4dc3dc99f64b333eb4dc146940c50590f8844f6ad2aece89681
+  prompts:
+    hub-topic: 1
+  input_hash: 7904aae3e0e596d47f467342088f784f29b85e18b9bba9f5ac08bf153a6cbb2f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
@@ -225,14 +226,33 @@ bc_forms:
   - 5872
   - 5874
 member_hash: aa8666bc5834b4dc3dc99f64b333eb4dc146940c50590f8844f6ad2aece89681
-narrative: none
+narrative: generated
 ---
 
 # Assembly management
 
-> Learn section Business functionality > Assembly management: 20 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Assembly management in Business Central covers building items from components and resources, using assembly BOMs, assembly orders, assemble-to-order and assemble-to-stock flows. It answers how-to, setup, posting and undo questions, plus a subtopic on assembly reports and analytics.
 
-Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · narrative reviewed by Opus
+
+## Overview
+
+Assembly management lets a company supply products by combining components and resources. The pages cover two main processes: assemble to stock, where inventory items are built for stock, and assemble to order, where a sales order creates a linked assembly order for an item customized to the customer. Assembly BOMs define the structure of the parent items, including multi-level BOMs.
+
+Start with "Assembly Management" and "Understanding Assemble to Order and Assemble to Stock" for the concepts and the assembly policy. Then use "Work with assembly BOMs" to define structures, "Assemble Items" for stock orders, and the sales pages for assemble-to-order: selling, quoting, blanket orders, and mixed or inventory-based sales.
+
+For corrections and accounting, see "Undo Assembly Posting" and "Design details - Assembly order posting", which explain cost flow and ledger entries. The Assembly analytics subtopic (9 pages) covers the reports for BOMs, where-used, cost share, availability and assemble-to-order sales.
+
+## Key points
+
+- Assembly orders build items from components and resources; assemble to stock supports availability checking and partial output posting.
+- Assemble to order creates a linked assembly order from a sales order, with component customization, availability checking and sales order release.
+- Assembly BOMs support multi-level structures, standard cost calculation, editing and where-used tracking.
+- Assembly quotes and blanket assembly orders let you quote or forecast assemble-to-order items before they become sales orders.
+- Mixed cases are covered: selling inventory items in assemble-to-order flows by reducing Qty. to Assemble to Order and reserving stock, and partly assembling to order items set to assemble to stock, using the Assembly Policy and Qty. to Assemble to Order fields.
+- Assembly output posts at actual cost with no WIP concept; posting involves item and resource journal posting sequences and cost adjustment.
+- Undo assembly posting creates corrective item ledger entries, reverses cost, and can recreate the original order, for partial or full reversal.
+- Assembly analytics holds nine report pages on BOM listings, end items, raw materials, cost share, availability and assemble-to-order sales.
 
 ## Subtopics
 

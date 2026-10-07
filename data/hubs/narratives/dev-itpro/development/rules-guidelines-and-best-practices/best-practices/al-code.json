@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+  "input_hash": "3df0f02aa7c283b6ee9b02663a2e408ccfc8f086aac593e65273869201ac3b27",
+  "summary": "AL code best practices for Business Central extensions: naming conventions, file structure, formatting, deprecation with obsolete attributes and CLEAN symbols, prefix and suffix rules, and validation rules for Marketplace submission. It answers how to write, name, and retire AL code consistently.",
+  "overview": "This section collects guidance for developers writing AL code in extensions. It covers day-to-day style (file and object naming, method declarations, variable naming, formatting, line length) and the rules an extension must meet when submitted to Marketplace.\n\nThe pages fit together by topic. The general best practices page sets the coding conventions. The prefix and suffix page explains how to register and use an affix so object names do not collide, and how AppSourceCop relates to it. The deprecation page shows how to retire code with obsolete properties and preprocessor directives, following the pattern Microsoft uses in the Base App. The rules and guidelines page lists critical and important validation requirements and common pitfalls.\n\nStart with the general best practices page for conventions, then read the rules and guidelines page if you plan to submit to Marketplace. Use the prefix/suffix and deprecation pages when you name new objects or remove existing ones.",
+  "key_points": [
+    "Best practices page covers file naming, object naming, method declaration, variable naming, code formatting, and line length.",
+    "Deprecation uses the ObsoleteState, ObsoleteTag, and ObsoleteReason properties together with preprocessor directives.",
+    "CLEAN version symbols (CLEAN15 to CLEAN18) are used in the deprecation guidance, matching how Microsoft obsoletes Base App code.",
+    "A prefix or suffix on extension objects prevents name collisions and is needed for Marketplace submission standards.",
+    "Affix registration and AppSourceCop are part of the prefix and suffix guidance.",
+    "Rules and guidelines page lists critical and important validation requirements for Marketplace submissions.",
+    "Rules topics include encryption, data classification, permission sets, translation, application area, and prefix/suffix."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:10.631Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011849
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:55.960Z",
+    "verdict": "approve",
+    "issues": [
+      "Namespace is listed as a feature of the prefix and suffix page but the narrative does not mention it; optional addition.",
+      "CLEAN15 to CLEAN18 are the versions given in the page summary and are likely examples; the wording 'used in the deprecation guidance' is accurate, but readers should not take them as a complete or current list."
+    ],
+    "input_hash": "3df0f02aa7c283b6ee9b02663a2e408ccfc8f086aac593e65273869201ac3b27",
+    "cost_usd": 0.036203200000000005
+  }
+}

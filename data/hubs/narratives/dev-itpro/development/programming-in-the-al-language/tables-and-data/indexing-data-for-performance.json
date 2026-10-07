@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+  "input_hash": "79fcdfd77273e7182b617c5fdda03b436274953bd0a83b78ce3c1d11f89cac6a",
+  "summary": "Indexing data for performance in AL covers SumIndexField Technology (SIFT) and Nonclustered Columnstore Indexes (NCCI) for fast sums over numeric columns. It answers questions about how each works with SQL Server, performance and maintenance trade-offs, tuning and tracing, and migrating from SIFT to NCCI.",
+  "overview": "This section deals with two ways to speed up sum calculations on large tables, which matter for FlowFields and queries. SIFT uses SumIndexFields tied to keys and implemented as indexed views in SQL Server. NCCI uses the SQL Server nonclustered columnstore index feature, for analytical queries, with lower maintenance overhead and less database locking than SIFT keys.",
+  "key_points": [
+    "SIFT keys create indexed views in SQL Server that use GROUP BY to speed up aggregates on numeric columns.",
+    "SIFT has a maintenance cost, and the MaintainSIFTIndex property is a factor in managing that cost.",
+    "SIFT performance depends on index design and field positioning, and should be tested.",
+    "For tuning and tracing, SQL Server tools such as the profiler help measure SIFT overhead and decide whether to combine SIFT keys. NCCI has its own tuning and tracing guidance with SQL Server tracing and columnstore index maintenance.",
+    "NCCI supports fast sums on decimal, integer and biginteger columns, and helps FlowFields and query performance.",
+    "NCCI in Business Central excludes BLOB fields and reduces database locking compared to SIFT keys.",
+    "Assess whether an NCCI is needed and choose its fields carefully. Consider disabling SIFT indexes, and test performance after any change to the NCCI structure.",
+    "A migration page explains when and how to replace SIFT indexes with NCCI on custom tables to reduce maintenance overhead and improve query performance."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:01.463Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014237
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:50.803Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 8 credits the migration page with covering the disabling of SIFT indexes. In the sources, 'SIFT index disabling' belongs to the 'NCCI and Performance' page. The migration page covers when and how to replace SIFT with NCCI in custom tables.",
+      "Key point 2 says MaintainSIFTIndex 'controls whether the index is maintained'. The sources name the property in connection with maintenance costs but never say what it does, so the wording is now more cautious.",
+      "The NCCI Tuning and Tracing page (SQL Server tracing and columnstore index maintenance) was not reflected in the key points, so it was added to key point 4."
+    ],
+    "input_hash": "79fcdfd77273e7182b617c5fdda03b436274953bd0a83b78ce3c1d11f89cac6a",
+    "cost_usd": 0.044167200000000004
+  }
+}

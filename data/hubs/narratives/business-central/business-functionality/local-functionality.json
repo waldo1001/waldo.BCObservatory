@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality",
+  "input_hash": "d617df755fae4ea6a7a65694771dd10f11c62e2c26b184e161df2d79b6fba52f",
+  "summary": "Local functionality in Business Central: the localization strategy, rules for building Validated Localization apps, how to submit regulatory alerts, and country subtopics for 22 countries. It answers questions on country-specific tax, banking, e-invoicing and statutory reporting setup.",
+  "overview": "This section covers country-specific features that adapt Business Central to local law and business practice. Three own pages set the frame: the localization strategy (country-specific features and regulatory compliance across 20+ supported countries and regions), guidelines for developing Validated Localization apps, and how to submit regulatory alerts.\n\nMost of the content sits in per-country subtopics: Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Iceland, India, Italy, Mexico, Netherlands, New Zealand, Norway, Russia, Spain, Sweden, Switzerland, United Kingdom and United States. Each one groups setup and how-to pages, typically on VAT or sales tax, banking and payments, e-invoicing, audit exports and core finance.\n\nStart with the strategy page for context, then go to your country's subtopic. Use the validated apps page if you build a localization app, and the regulatory alerts page to tell Microsoft about legislation changes.",
+  "key_points": [
+    "Strategy page describes country-specific features and regulatory compliance for 20+ supported countries and regions.",
+    "Validated Localization apps must meet functional and technical standards, covering regulatory requirements, national standards, language translation, demo data and functional documentation.",
+    "Regulatory alerts are submitted through Microsoft Dynamics Lifecycle Services, with an alert description, law enforcement date and filing deadline.",
+    "Largest country areas are India (87 pages, GST, TDS, TCS, Tax Engine), Czech Republic (60, Core and Advanced Localization Packs), Norway (42) and Spain (42).",
+    "E-invoicing coverage includes Peppol PINT A-NZ (Australia, New Zealand), XRechnung and ZUGFeRD (Germany), OIOUBL (Denmark), EHF (Norway) and CFDI (Mexico).",
+    "Tax reporting examples: BAS (Australia), Making Tax Digital (UK), SII and VERI*FACTU (Spain), SAF-T (Denmark, Norway), DIOT (Mexico).",
+    "Banking and payment formats vary by country, such as SEPA, CODA, FIK, ESR, LSV+ and QR-bills.",
+    "Iceland notes a W1 core app migration from version 24.0."
+  ],
+  "members_used": 3,
+  "subtopics_used": 22,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:18.541Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:13:55.119Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point that lists VERI*FACTU under tax reporting is my reading of the source. The Spain summary names VERI*FACTU but doesn't call it tax reporting. It's acceptable as an example.",
+      "Minor: 'typically' in the overview generalizes across countries. Not every subtopic covers e-invoicing or audit exports, but 'typically' is enough of a hedge."
+    ],
+    "input_hash": "d617df755fae4ea6a7a65694771dd10f11c62e2c26b184e161df2d79b6fba52f",
+    "cost_usd": 0.059980000000000006
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central/customize-with-extensions
 type: topic
 title: Customize with extensions
-summary: "Learn section Development and administration > Customize Business Central > Customize with extensions: 26 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status."
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 610ed42ec2465f96da62c42c918346ead24213a6b31c7513ba01f0581984f70d
+  prompts:
+    hub-topic: 1
+  input_hash: 1b7fa604624770d92d47ff6849671e94de388e1b1bf5d3a9c10078fd37c926ba
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -235,6 +236,7 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -247,7 +249,7 @@ coverage:
   learn: 26
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -369,14 +371,33 @@ bc_forms:
   - 20353
   - 40027
 member_hash: 610ed42ec2465f96da62c42c918346ead24213a6b31c7513ba01f0581984f70d
-narrative: none
+narrative: generated
 ---
 
 # Customize with extensions
 
-> Learn section Development and administration > Customize Business Central > Customize with extensions: 26 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status.
 
-Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · no narrative yet
+Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section covers customizing Business Central by adding extensions. General pages explain how to install and manage apps through the Extension Management page, Marketplace or the Admin Center, including permissions, setup and data deletion on uninstall. One page lists third-party extensions on Marketplace.microsoft.com and the risks of installing them.
+
+Most other pages each describe one extension. They fall into groups: cloud migration (the base extension and product-specific extensions) and data migration (QuickBooks Desktop, QuickBooks Online, C5); payments and banking (PayPal, WorldPay, Microsoft Pay, Envestnet Yodlee, AMC Banking 365, Send Remittance Advice, Payments and Reconciliations DK); payroll import (Ceridian, QuickBooks Payroll); insights and AI (Essential Business Insights, Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Company Hub); and country or regulatory extensions (Ideal Postcodes UK, VAT Group Management UK, tax file formats DK, Service Declaration).
+
+Start with "Customizing Business Central online using apps" and "Install and uninstall apps", then go to the page for the extension you need.
+
+## Key points
+
+- Apps are installed and managed via the Extension Management page, Marketplace or Admin Center; per-tenant extensions are supported and uninstall offers data deletion options.
+- Third-party extensions are listed on Marketplace.microsoft.com; the page explains the risks of installing apps from non-Microsoft companies.
+- The Cloud Migration base extension is the first step for moving on-premises data to Business Central online; product-specific extensions exist for Business Central on-premises and Dynamics GP.
+- Data migration extensions cover QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online and Dynamics C5 2012.
+- Microsoft Pay Standard was deprecated on February 8, 2020 (use PayPal); WorldPay Payments Standard was marked obsolete in 2023 release wave 2 and will be removed after three major releases.
+- Envestnet Yodlee Bank Feeds serves the United States and Canada; AMC Banking 365 Fundamentals converts bank data for over 600 banks.
+- Late Payment Prediction and Sales and Inventory Forecast use machine learning and can use custom Azure-based or web service models.
+- Country extensions include Ideal Postcodes and VAT Group Management (UK), Payments and Reconciliations and tax file formats (DK), and Service Declaration for EU reporting.
 
 ## Learn pages
 
@@ -412,6 +433,7 @@ Path: [Development and administration](../../development-and-administration.md) 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "per-tenant extensions support full lifecycle management"
+- [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/.md) (community post): "check the last updated date before installing. Apps without recent updates"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive",
+  "input_hash": "46f1b422a3707048a437fbcfdef4675bf642dfc9b4150243d9c27fdb331a5f3c",
+  "summary": "Business Central integration with OneDrive for Business: opening, sharing, and saving documents such as reports and Excel workbooks in OneDrive, plus how developers extend the Document Sharing module. It answers setup, user-level usage, and extensibility questions.",
+  "overview": "This section covers how Business Central works with OneDrive for cloud file storage, file sharing, and collaborative editing. One page is aimed at users and administrators and describes what the integration does and how to set it up. The other is aimed at developers.\n\nThe developer page explains how to use the Document Sharing module from the system application and the Document Service Management codeunit. With these, you can enable file sharing through OneDrive or through a custom document service. It mentions document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types, and it references 2022 release wave 1 and wave 2.\n\nStart with the integration overview to understand the user features and setup. Move to the extension page if you need to build or customize sharing behavior.",
+  "key_points": [
+    "Users can open files in OneDrive, share files, and save Excel workbooks and report files to OneDrive from Business Central.",
+    "OneDrive integration supports cloud storage and collaborative editing of documents like reports and Excel files.",
+    "The overview page includes OneDrive setup guidance.",
+    "Developers use the Document Sharing module from the system application to enable sharing.",
+    "The Document Service Management codeunit supports sharing through OneDrive or a custom document service.",
+    "Extension topics include document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types.",
+    "The extensibility page references 2022 release wave 1 and 2022 release wave 2."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:47.588Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009443
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/spain/electronic-invoices",
+  "input_hash": "12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f",
+  "summary": "Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance.",
+  "overview": "This section covers Spain-specific e-invoicing and bill handling. Two pages deal with VERI*FACTU, Spain's real-time invoice reporting to the Spanish Tax Agency (AEAT): one for the embedded mode, which uses digital signing, hash chaining and QR codes through the e-document framework, and one for integration with an external service through the B2Brouter API. VERI*FACTU is presented as an alternative to SII.\n\nA separate page lists the SII invoice and credit memo types for sales and purchase documents, including which types Business Central supports and how they appear in the XML.\n\nThe Cartera pages describe handling of bills of exchange and promissory notes. An overview page introduces the module, with separate pages for Receivables Cartera (bill groups, collections, discounts, factoring) and Payments Cartera (payables documents, payment orders). Start with the VERI*FACTU page that matches your chosen approach, or the Cartera overview if you work with bills.",
+  "key_points": [
+    "VERI*FACTU is Spain's e-invoicing standard for real-time reporting of invoices to AEAT.",
+    "Embedded VERI*FACTU mode uses digital signatures, hash chaining, QR codes and the e-document framework.",
+    "The external option connects through the B2Brouter API and is described as an alternative to SII.",
+    "The SII invoice types page states which invoice and credit memo types are supported, with XML details.",
+    "Cartera manages bills of exchange and promissory notes for customers and vendors, with multi-currency support.",
+    "Receivables Cartera covers bill groups, collections, discounting, factoring, finance charges and interest.",
+    "Payments Cartera builds payables documents from purchase invoices grouped by bank, due date, value or currency, and supports draft payment orders and payment confirmation."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:00.484Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013227000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:51.771Z",
+    "verdict": "approve",
+    "issues": [
+      "Small point: the Cartera Module page also covers handling by document type, cost and credit limits. The narrative leaves this out, but the omission doesn't make anything it says wrong.",
+      "Small point: the claim that VERI*FACTU is an alternative to SII comes only from the external service (B2Brouter) page. The overview applies it to VERI*FACTU in general. That is a reasonable reading, but no source says it directly about embedded mode."
+    ],
+    "input_hash": "12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f",
+    "cost_usd": 0.0323152
+  }
+}

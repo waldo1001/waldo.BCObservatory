@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand/banking-and-payments",
+  "input_hash": "1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7",
+  "summary": "Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.",
+  "overview": "This section collects the New Zealand local pages for banking and payment tasks. Each page is a short topic on one function: comparing bank cash flow, creating check installments, using EFT, and printing two kinds of reports.\n\nThe pages are independent of each other and there are no subtopics. Pick the page that matches the task. For vendor payments, look at check installments and EFT. For checking and documenting bank activity, look at the bank account reconciliation reports, deposit slip reports and bank cash flow comparison.",
+  "key_points": [
+    "Compare Bank Cash Flow [NZ]: analyze bank cash flow in the New Zealand version.",
+    "Create check installments [NZ]: split a check into multiple payment installments for vendor payments.",
+    "Electronic Funds Transfer (EFT) [NZ]: process vendor payments through the electronic funds transfer system.",
+    "Print bank account reconciliation reports [NZ]: produce reports to verify bank accounts.",
+    "Print deposit slip reports [NZ]: generate deposit slip reports for bank deposits.",
+    "All five pages apply to the New Zealand version only and have no subtopics."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:59.955Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008933
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:06.520Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls each page a \"short topic\". The summaries don't say how long the pages are, but this doesn't mislead.",
+      "The overview says the pages are \"independent of each other\". The summaries don't say this either, but it is a reasonable inference since there are no subtopics and each page covers a different function.",
+      "The overview groups bank cash flow comparison under \"checking and documenting bank activity\". The source only says it is used to analyze bank cash flow, so this grouping is the writer's own reading. It is acceptable."
+    ],
+    "input_hash": "1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7",
+    "cost_usd": 0.0205112
+  }
+}

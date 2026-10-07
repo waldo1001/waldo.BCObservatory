@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/collect-payments-with-sepa-direct-debit
 type: topic
 title: Collect payments with SEPA direct debit
-summary: "Learn section Business functionality > General business functionality > Exchange data electronically > Collect payments with SEPA direct debit: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: SEPA direct debit collection in Business Central, plus related bank setup and data exchange pages. It answers questions on setting up mandates and export formats, exporting collection XML files, setting up bank accounts, Yodlee bank feeds, the AMC Banking 365 Fundamentals extension, and XML schemas for data exchange definitions.
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:59.205Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a446170dce48d14116a01838b15bac658ebf36f3ec6b296930b8352fee1d3497
+  prompts:
+    hub-topic: 1
+  input_hash: a4fb95ee436b82c36d67f89349216889e7d8017d501e8b9e5120387fbb0c1dfc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit
@@ -106,14 +107,32 @@ bc_forms:
   - 20107
   - 20109
 member_hash: a446170dce48d14116a01838b15bac658ebf36f3ec6b296930b8352fee1d3497
-narrative: none
+narrative: generated
 ---
 
 # Collect payments with SEPA direct debit
 
-> Learn section Business functionality > General business functionality > Exchange data electronically > Collect payments with SEPA direct debit: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> SEPA direct debit collection in Business Central, plus related bank setup and data exchange pages. It answers questions on setting up mandates and export formats, exporting collection XML files, setting up bank accounts, Yodlee bank feeds, the AMC Banking 365 Fundamentals extension, and XML schemas for data exchange definitions.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Collect payments with SEPA direct debit · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Collect payments with SEPA direct debit · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers collecting customer payments by SEPA direct debit in EURO. You set up bank export formats, payment methods and mandates, create collection entries, and export an XML file to the bank. Payment receipts are then posted and reconciled.
+
+The other pages support that flow. Bank account setup covers transaction tracking, payment and bank reconciliation, file import and export, and multi-currency use. Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal. The AMC Banking 365 Fundamentals extension converts bank data to formats used by over 600 banks. The XML schema page explains how to generate data exchange definitions from schema nodes.
+
+Start with the SEPA Direct Debit page for the end-to-end process. Then read Set up bank accounts, and pick the Yodlee or AMC page if you need automated statement import or bank format conversion.
+
+## Key points
+
+- SEPA Direct Debit collects customer payments from bank accounts in EURO using the SEPA format.
+- Setup involves bank export formats, payment methods and direct debit mandates; collection entries are then exported as an XML file to the bank.
+- Payment receipts are posted and bank reconciliation follows the collection.
+- Bank account setup supports payment reconciliation, bank reconciliation, bank file import/export and local and foreign currencies.
+- Yodlee bank feeds (Envestnet) import bank statements into the Payment Reconciliation Journal about every two hours, in supported regions.
+- AMC Banking 365 Fundamentals converts bank data for over 600 banks, with SWIFT and IBAN support, for payment export and statement import.
+- XML schemas can be loaded, nodes selected, and data exchange definitions or XMLports generated from them.
 
 ## Learn pages
 

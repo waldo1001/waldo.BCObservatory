@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/web-services",
+  "input_hash": "6e0bfab613d3d64fbdb92ece89d70420cfc38337f638902b5739c02ad0febcb9",
+  "summary": "Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records.",
+  "overview": "Web services in Business Central expose data and logic to external clients through OData, SOAP and APIs. The section is organized into subtopics for publishing pages, queries and codeunits as endpoints, for OData and SOAP usage, for the large API reference set, and for security (authentication, certificates, cipher suites, Azure service tags).\n\nThe hub's own pages cover operations across all three protocols. They cover troubleshooting errors (HTTP status codes, OData error codes, telemetry, debugging), performance guidance (patterns, anti-patterns, API client and Power BI performance), and web service telemetry that logs SOAP, OData and API requests to partner telemetry. A refactoring guide explains replacing legacy integration records with system fields, and a page covers the Microsoft APIs Terms of Use.\n\nTo start, read the publishing subtopic to expose an endpoint, then the security subtopic to choose authentication. Use the telemetry, performance and troubleshooting pages once consumers are running.",
+  "key_points": [
+    "Subtopics cover security, APIs (261 pages), OData (14), publishing pages and codeunits as endpoints (5), and SOAP (4).",
+    "Security covers basic, OAuth and service-to-service authentication, certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags.",
+    "OData pages cover querying, filtering, modifying, batching, metadata, paging, limits, FlowFilters, unbound actions and error codes.",
+    "Publishing covers OData V4 bound actions and troubleshooting publish errors; the SOAP feature key was removed in version 30.0.",
+    "Web service telemetry logs all SOAP, OData and API requests, including HTTP status codes, access key authentication and publish failures.",
+    "Troubleshooting guidance helps decide whether errors come from the client, network or server endpoint, using status codes, telemetry, OData error codes and debugging.",
+    "Performance guidance covers anti-patterns, performance patterns, API client and Power BI performance, and throughput handling.",
+    "Integration Management Refactoring Guidance explains replacing legacy integration records with system fields such as SystemId and SystemRowVersion before their removal in 2023 release wave 1."
+  ],
+  "members_used": 5,
+  "subtopics_used": 4,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:58.525Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016547
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:13:54.202Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: no key point covers what the SOAP subtopic contains (bookmark keys to record IDs, static proxies, SystemService company names, optional fields). Agents looking for SOAP client guidance would find it useful.",
+      "Minor: the APIs subtopic has no summary in the inputs, so the narrative correctly gives only its page count. Don't add any claims about its contents."
+    ],
+    "input_hash": "6e0bfab613d3d64fbdb92ece89d70420cfc38337f638902b5739c02ad0febcb9",
+    "cost_usd": 0.042516
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-kingdom/general",
+  "input_hash": "d26afe947e1d17ac6ab1abc1aaf903556ff8b93074349901f9b4e66d869bce89",
+  "summary": "United Kingdom general localization in Business Central: statutory company information, Ideal Postcodes address lookup, fraud prevention data for HMRC Making Tax Digital, and posting date warnings. It answers setup questions for the British version.",
+  "overview": "This section collects the general setup tasks specific to the British version of Business Central. It has no subtopics, so all five pages sit at one level. They cover legal company details, address lookup, tax authority communication and a posting safeguard.\n\nFor company setup, start with the statutory information page, which describes the registration and registered address fields on the Company Information page. For address entry, the Ideal Postcodes extension page explains what the extension does, and the setup page explains how to connect to the Ideal Postcodes API. For UK VAT, the fraud prevention page explains the headers sent to HMRC through Making Tax Digital APIs and the consent an administrator must give. The posting date warning page covers a toggle that warns when a document's posting date differs from the work date.",
+  "key_points": [
+    "Statutory information is entered on the Company Information page: Registration No., Registered Name, and the registered address fields including city and county.",
+    "The Ideal Postcodes extension fills address fields from a postcode lookup for customers, vendors, bank accounts, and employees.",
+    "Ideal Postcodes setup uses the Ideal Postcodes API with an API key and a service connection. Subscription plans are based on usage.",
+    "The extension description mentions multi-country support.",
+    "UK VAT communication with HMRC through Making Tax Digital APIs requires fraud prevention headers.",
+    "Admins must consent to sending device and user identification data. The page mentions a user IP address service and multi-factor authentication headers, and cites version 20.1.",
+    "The Posting Date Check on Posting toggle shows a warning when a sales or purchase document's posting date differs from the work date, and it also applies to batch posting."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:18.454Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011531
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:16.616Z",
+    "verdict": "approve",
+    "issues": [
+      "The key point 'The extension description mentions multi-country support' is supported by the extension page's feature list but says little on its own. It also sits awkwardly next to the setup page's focus on UK postcodes. It could be folded into the Ideal Postcodes key point instead of standing alone.",
+      "The key point citing 'version 20.1' is accurate but vague. The source does not say what changed in that version, so it adds limited value."
+    ],
+    "input_hash": "d26afe947e1d17ac6ab1abc1aaf903556ff8b93074349901f9b4e66d869bce89",
+    "cost_usd": 0.0284472
+  }
+}

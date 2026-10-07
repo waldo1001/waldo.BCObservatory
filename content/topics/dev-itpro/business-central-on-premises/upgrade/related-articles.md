@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/related-articles
 type: topic
 title: Related articles
-summary: "Learn section Business Central on-premises > Upgrade > Related articles: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Related upgrade articles for Business Central on-premises: converting version 14 C/AL code to AL with the Txt2Al tool, and migrating tables and fields between extensions with migration.json. It answers questions about code conversion steps, table ownership moves, ordering and constraints, and the India Data Migration Toolkit."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:50.629Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 64160df9ab2b04c1113c3e3223f59ef8f21a2cdfc59645055b656076c6ebce97
+  prompts:
+    hub-topic: 1
+  input_hash: 826f0c8e314c3a468d8744bced8c2f9ba84facd9b2a835002255b1e5aece2cf5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/devenv-code-conversion
@@ -81,14 +82,32 @@ coverage:
 bc_forms:
   - 19010
 member_hash: 64160df9ab2b04c1113c3e3223f59ef8f21a2cdfc59645055b656076c6ebce97
-narrative: none
+narrative: generated
 ---
 
 # Related articles
 
-> Learn section Business Central on-premises > Upgrade > Related articles: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Related upgrade articles for Business Central on-premises: converting version 14 C/AL code to AL with the Txt2Al tool, and migrating tables and fields between extensions with migration.json. It answers questions about code conversion steps, table ownership moves, ordering and constraints, and the India Data Migration Toolkit.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Related articles · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Related articles · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section collects supporting articles for upgrading Business Central on-premises. They cover two tasks: turning customized C/AL code into AL, and moving tables and fields from one extension to another.
+
+The code conversion page explains how to convert customized version 14 C/AL solutions to AL with the Txt2Al conversion tool, as part of upgrading to later versions. It covers object export, AL project setup, .NET interoperability, assembly declarations and test library conversion. It also references versions 18, 19 and 20.
+
+The subtopic on migrating tables and fields describes using migration.json to move table ownership between extensions, in both directions along the dependency graph, including ordering and constraints. It also covers the India Data Migration Toolkit for upgrading from Dynamics NAV 2016 India. Start with the code conversion page if you still have C/AL code, and use the migration subtopic when restructuring extensions.
+
+## Key points
+
+- Code conversion targets customized on-premises version 14 C/AL solutions, converting them to AL as part of upgrading to later versions.
+- The Txt2Al conversion tool performs the C/AL to AL conversion.
+- The conversion page covers object export, AL project setup, .NET interoperability, assembly declarations and test library conversion.
+- Versions 18, 19 and 20 are referenced in the code conversion guidance.
+- migration.json is used to migrate tables and fields between extensions.
+- Table migration works in both directions along the extension dependency graph, with rules on ordering and constraints.
+- The India Data Migration Toolkit supports upgrading from Dynamics NAV 2016 India.
 
 ## Subtopics
 

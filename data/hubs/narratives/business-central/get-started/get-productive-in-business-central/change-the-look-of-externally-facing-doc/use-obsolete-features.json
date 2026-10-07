@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
+  "input_hash": "9f085834f230cc9eb962b71e8ca2f323ba11c5f85389ea59a4f390e95ee2ee91",
+  "summary": "Obsolete features for externally facing document layouts in Business Central: creating, modifying, importing, exporting, assigning and updating custom RDLC and Word report layouts. It answers questions about how the older custom layout approach worked and how to manage layouts with it.",
+  "overview": "This section holds four pages marked obsolete. They describe the older way of changing how reports and documents look, using custom report layouts in RDLC or Word format.\n\nThe pages follow the life of a custom layout. One covers creating and modifying layouts, including copying and changing built-in layouts. Another covers exporting layouts to files and importing them back, which allows sharing and editing outside the product. A third explains how to set which layout a report uses, choosing between built-in RDLC, Word or a custom layout. The last covers updating custom layouts when the report dataset changes, and testing those updates first.\n\nStart with the page on creating and modifying custom layouts for the basic concepts. Then use the other pages for the specific task. Because all four are marked obsolete, check whether a newer approach applies before relying on them for new work.",
+  "key_points": [
+    "All four pages are marked (Obsolete) in the Learn table of contents.",
+    "Custom report layouts can be built in RDLC or Word formats.",
+    "Layouts can be copied, and built-in layouts can be modified through this approach.",
+    "Layouts can be exported to files and imported from files, for RDLC and Word, which supports sharing and editing.",
+    "A report or document can be switched between built-in RDLC, Word or a custom layout; one page notes document report performance.",
+    "Custom layouts can be updated automatically when the report dataset changes.",
+    "Updates can be tested before applying, to detect and report errors, including cases where fields were removed.",
+    "Manual layout editing is an option when automatic updates do not resolve issues."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:27.856Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010633
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:13.743Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says export/import allows editing 'outside the product'; the source only says it enables sharing and modification of layout definitions as files. This is a mild extrapolation.",
+      "Key point on manual layout editing adds the condition 'when automatic updates do not resolve issues'; the source lists manual layout editing only as a feature, without that condition.",
+      "Key point merges error detection and field removal handling into one claim ('including cases where fields were removed'). This is plausible but more specific than the source.",
+      "The page that covers creating and modifying layouts also mentions assigning layouts to companies, which the narrative doesn't spell out. This is a minor omission."
+    ],
+    "input_hash": "9f085834f230cc9eb962b71e8ca2f323ba11c5f85389ea59a4f390e95ee2ee91",
+    "cost_usd": 0.0282832
+  }
+}

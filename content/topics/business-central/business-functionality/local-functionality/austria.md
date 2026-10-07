@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/austria
 type: topic
 title: Austria
-summary: "Learn section Business functionality > Local functionality > Austria: 13 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Austria local functionality in Business Central: VAT statements and reporting, purchasing delivery reminders, the Vendor Payments List report, and general audit export and setup reports. It helps answer how to set up, run and print these Austria-specific features."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:05.121Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 916635447d3f5da504cb8b29ef07f078d083b89c6d21cab64e6104c212a8f41b
+  prompts:
+    hub-topic: 1
+  input_hash: 1db6ec0f655ceda371d749ac110ebe91f92e2974666ab22f26ad88e10aa30ee6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors
@@ -154,14 +155,33 @@ bc_forms:
   - 5005276
   - 5005280
 member_hash: 916635447d3f5da504cb8b29ef07f078d083b89c6d21cab64e6104c212a8f41b
-narrative: none
+narrative: generated
 ---
 
 # Austria
 
-> Learn section Business functionality > Local functionality > Austria: 13 Microsoft Learn pages in 3 subtopics. Index of what Learn documents here, linked to Learn.
+> Austria local functionality in Business Central: VAT statements and reporting, purchasing delivery reminders, the Vendor Payments List report, and general audit export and setup reports. It helps answer how to set up, run and print these Austria-specific features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Austria section describes features specific to the Austrian version of Business Central. The landing page lists the main areas: VAT reporting, banking and payments, and purchasing. It mentions delivery reminders and the vendor payments list, and it references 2026 release wave 2.
+
+The pages are split into three subtopics plus one standalone page. VAT covers the VAT statement and the VAT reporting XML reports. Purchasing covers delivery reminders for overdue vendor deliveries. General covers audit data export and a setup information report. The standalone page explains how to print the Vendor Payments List report.
+
+Start with the subtopic that matches your task. For delivery reminders, set up terms, levels and text first, then assign codes to vendors. For auditors or setup checks, use the General pages.
+
+## Key points
+
+- VAT: create a VAT statement, including temporary 5% rates and FDF export.
+- VAT reporting uses the VAT Statement AT and VAT-VIES Declaration XML reports.
+- Delivery reminders for overdue vendor deliveries need reminder terms, levels and text, and codes assigned to vendors.
+- Reminders can be generated or created, and test reports can be printed before issuing.
+- The Vendor Payments List report shows payments sorted by vendor or chronologically.
+- Vendor Payments List layouts include standard, foreign currency amounts and posting information.
+- The Audit Files Export extension exports GL and VAT entries for auditors.
+- The G/L Setup Information report in the Austrian version lets you check setup.
 
 ## Subtopics
 

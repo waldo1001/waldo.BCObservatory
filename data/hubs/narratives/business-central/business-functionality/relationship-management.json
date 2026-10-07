@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/relationship-management",
+  "input_hash": "482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34",
+  "summary": "Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.",
+  "overview": "Relationship management is the Business Central area for organizing customer relationships. It brings together contacts, interactions, segments, sales opportunities and marketing campaigns, and can be integrated with Dynamics 365 Sales.\n\nStart with the setup page for marketing and contact management information. It covers contact synchronization with customers, vendors and bank accounts, inheritance of contact fields, number series, duplicate search and interaction recording. After setup, the subtopics follow the working flow: manage contacts, group them into segments, record interactions with contacts and segments, and track sales opportunities through sales cycles.\n\nTwo further subtopics round out the area. One covers using Dynamics 365 Sales with Business Central, including coupling records and checking synchronization errors. The other covers the built-in analytics reports for contacts, campaigns, opportunities, segments and questionnaires.",
+  "key_points": [
+    "Setup covers contact synchronization with customers, vendors and bank accounts, automatic field inheritance, number series for contacts, duplicate search and interaction recording.",
+    "Contacts can be person or company records, linked to customers, vendors and banks, merged when duplicated, synced to Outlook, and organized with groups and profiles.",
+    "Segments group contacts for campaigns and bulk communications. Contact lists can be refined or reduced with filters, and interactions can be logged with segment members.",
+    "Interactions record communications with contacts and segments, use interaction templates and attachments, and can be recorded automatically for documents, emails and phone calls.",
+    "Sales opportunities rely on sales cycles and stages. They can be created for contacts and salespeople and processed to quotes, orders or closure, with email exchanges logged.",
+    "The Dynamics 365 Sales integration lets you couple and synchronize records with Dataverse or Dynamics 365 Sales, covering customers, orders, quotes, pricing and invoices, and check synchronization job errors.",
+    "Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters."
+  ],
+  "members_used": 2,
+  "subtopics_used": 6,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:37.130Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014359
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:27.161Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the subtopics 'follow the working flow' (contacts, segments, interactions, opportunities). The sources do not state this order, but it is a reasonable framing and not misleading.",
+      "Minor: the overview's description of the analytics subtopic leaves out sales cycle reports. Key point 7 includes them, so the narrative still covers them.",
+      "Minor: interaction recording as a setup item comes only from the setup page summary, not its features list. That summary is enough support."
+    ],
+    "input_hash": "482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34",
+    "cost_usd": 0.0355632
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/design-details/design-details-general-journal-post-line",
+  "input_hash": "b8949603bbff238d70bfcd0b9dcd531143aa603b6a92adcfc3eda9fac3575b3c",
+  "summary": "General journal post line design details for Business Central: how Codeunit 12 handles general ledger, VAT, customer and vendor ledger posting. Answers questions about the posting interface, the posting engine, and Apply, Unapply and Reverse operations.",
+  "overview": "This section is reference material on the architecture behind general journal posting. It centers on Codeunit 12, which handles all general ledger, VAT, and customer and vendor ledger posting, including Apply, Unapply and Reverse operations.\n\nThe pages split the design in two. The posting interface page describes the global procedures that give a generic way to post general journal lines and application processes. The posting engine page describes the standard functions that prepare and insert general ledger and VAT entries and manage register creation. A parent design page frames both as a technical redesign, with a NAV 2013 R2 version reference.\n\nStart with the General Journal Post Line Overview for the big picture and recent refactoring. Then read the interface page to see how posting is called, and the engine page to see how entries are built and inserted.",
+  "key_points": [
+    "Codeunit 12 handles all general ledger, VAT, and customer/vendor ledger posting.",
+    "It also covers Apply, Unapply and Reverse operations.",
+    "The posting interface defines global procedures for posting general journal lines through a generic interface.",
+    "The interface includes customer application posting, vendor application posting and unapply posting.",
+    "The posting engine provides standard functions to prepare and insert general ledger and VAT entries.",
+    "The engine manages general ledger register creation, uses a posting buffer, and handles entry initialization and cost object linking.",
+    "The parent design page is a technical redesign reference tied to NAV 2013 R2.",
+    "The overview page also describes recent refactoring improvements."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:17.231Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010523000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:13.574Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'recent refactoring' is supported by the overview page summary, but the only version listed is NAV 2013 R2, so 'recent' may be dated. Keeping it as the page's own wording is acceptable.",
+      "Minor: the posting interface page summary does not say the interface lives in Codeunit 12. The narrative does not claim it does, so no change is needed."
+    ],
+    "input_hash": "b8949603bbff238d70bfcd0b9dcd531143aa603b6a92adcfc3eda9fac3575b3c",
+    "cost_usd": 0.0306032
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/australia/core-finance",
+  "input_hash": "239ba6646f923c2f72948cd86069936f7380f17d9f87aa7f3fcfc4bd0cde7ac1",
+  "summary": "Core finance for the Australian version of Business Central covers distribution amount calculation, printing balance sheet and income statement reports, and setting up business units for business activity statements (BAS). It answers questions about AU-specific financial reporting and BAS consolidation.",
+  "overview": "This section collects four pages on finance features localized for Australia. Two pages cover financial reports: printing balance sheets and printing the annual income statement used for auditing accounts. A third page covers how distribution amounts are calculated to meet Australian business requirements. The fourth explains how to set up business units for BAS.\n\nThe pages are standalone and there are no subtopics. Start with the business unit setup page if you need to consolidate a parent company, subsidiaries and affiliates for BAS. Start with the report pages if you need to produce statements for audit or financial reporting.",
+  "key_points": [
+    "Print balance sheet reports in the Australian version for financial reporting.",
+    "The annual income statement report is used for auditing accounts and shows revenues and expenses for the current and prior years.",
+    "The income statement supports rounding to the nearest unit and display in the additional reporting currency.",
+    "Business units for business activity statements (BAS) consolidate financial statements across parent companies and subsidiaries.",
+    "BAS business unit setup covers parent company, subsidiary and affiliate setup, and BAS group consolidation.",
+    "Distribution amount calculation is localized to fit Australian business requirements."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:32.670Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008699
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:15.587Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the distribution amount page summary is thin, so the narrative correctly says little about it. Keep it that way and do not add detail later without a source."
+    ],
+    "input_hash": "239ba6646f923c2f72948cd86069936f7380f17d9f87aa7f3fcfc4bd0cde7ac1",
+    "cost_usd": 0.0168432
+  }
+}

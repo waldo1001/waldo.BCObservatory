@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-inventory-costs/report-inventory-costs-and-reconcile-wit
 type: topic
 title: Report inventory costs and reconcile with the general ledger
-summary: "Learn section Business functionality > Finance > Manage inventory costs > Report inventory costs and reconcile with the general ledger: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Inventory cost reporting and general ledger reconciliation in Business Central. It answers questions about manually adjusting item costs, posting inventory costs to the G/L, restricting backdated postings, scheduling cost jobs, and managing inventory periods.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:49.452Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 68d3df1f66217b4820d3fe445b237acdbde93de7983cff066983db0fc8942838
+  prompts:
+    hub-topic: 1
+  input_hash: cb20d96f66a87f93ae07a6973eb9edd8996a9c6fcba5caad824282314b1b14af
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-adjust-item-costs
@@ -86,14 +87,31 @@ bc_forms:
   - 5828
   - 9297
 member_hash: 68d3df1f66217b4820d3fe445b237acdbde93de7983cff066983db0fc8942838
-narrative: none
+narrative: generated
 ---
 
 # Report inventory costs and reconcile with the general ledger
 
-> Learn section Business functionality > Finance > Manage inventory costs > Report inventory costs and reconcile with the general ledger: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Inventory cost reporting and general ledger reconciliation in Business Central. It answers questions about manually adjusting item costs, posting inventory costs to the G/L, restricting backdated postings, scheduling cost jobs, and managing inventory periods.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage inventory costs](../manage-inventory-costs.md) > Report inventory costs and reconcile with the general ledger · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage inventory costs](../manage-inventory-costs.md) > Report inventory costs and reconcile with the general ledger · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section covers the tasks that keep inventory values correct and in agreement with the general ledger. It includes adjusting item costs (manually for items that use FIFO or Average costing, or automatically), posting those costs to the G/L, and checking that inventory accounts match the G/L.
+
+The pages fit together as a cost workflow. Cost adjustment updates item costs and value entries. The Post Inventory Cost to G/L batch job then moves the results to the G/L, and the Inventory - G/L Reconciliation page is used to check them. Inventory periods and the Earliest Allowed Valuation Date field control which periods accept postings, so closed periods are protected. A separate page explains how to schedule the adjustment and posting jobs through job queue entries to reduce application load.
+
+To start, read "Reconcile inventory costs with the general ledger" for the core posting and reconciliation process. Then read "Schedule jobs for adjusting & reconciling inventory cost" to automate it. Use the pages on inventory periods and backdated postings when you close periods.
+
+## Key points
+
+- Manual cost adjustment is available for items using FIFO or Average costing. It corrects unit cost and value entries so inventory values and financial KPIs are right.
+- The Post Inventory Cost to G/L batch job posts inventory value changes to the general ledger.
+- The Inventory - G/L Reconciliation page is used to reconcile inventory accounts with the general ledger. The reconciliation page also covers expected cost posting.
+- The Earliest Allowed Valuation Date field blocks cost postings into closed periods. Current invoicing and cost adjustment of existing entries are still allowed.
+- Inventory periods can be created, closed, and reopened to control when inventory changes can be posted.
+- Automatic cost adjustment and G/L reconciliation can be scheduled as background jobs with job queue entries, which improves performance and reduces application load. The scheduling page also covers assisted setup.
 
 ## Learn pages
 

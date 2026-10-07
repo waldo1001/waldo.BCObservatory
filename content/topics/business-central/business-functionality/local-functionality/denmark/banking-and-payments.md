@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/denmark/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Denmark > Banking & payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Danish banking and payments in Business Central: the Payments and Reconciliations (DK) extension and FIK transaction text codes in the payment reconciliation journal. It answers questions about supported Danish payment file formats, FIK and giro payments, and how to read automatic payment application results."
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: edec40adcd99460d296a6d070c6306e31e6f9991a6e13c1b06a62d92ec3f3654
+  prompts:
+    hub-topic: 1
+  input_hash: f3383ce7ad968c6717bd477291b01ab3237ef424c1160cc3027c08734227378f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal
@@ -59,14 +60,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: edec40adcd99460d296a6d070c6306e31e6f9991a6e13c1b06a62d92ec3f3654
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Denmark > Banking & payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Danish banking and payments in Business Central: the Payments and Reconciliations (DK) extension and FIK transaction text codes in the payment reconciliation journal. It answers questions about supported Danish payment file formats, FIK and giro payments, and how to read automatic payment application results.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Banking & payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers local banking and payment functionality for Denmark. It has two pages and no subtopics. One describes the Payments and Reconciliations (DK) extension, and the other explains the FIK codes shown when payments are reconciled.
+
+The extension supports Danish bank payment and reconciliation file formats, so you can export vendor payments and reconcile bank statements. The FIK page is a reference for the transaction text values in the Payment Reconciliation Journal, which describe the outcome of automatic payment application under the Danish FIK standard.
+
+Start with the extension page to understand which formats and setup are available, then use the FIK page when reviewing reconciliation results in the journal.
+
+## Key points
+
+- The Payments and Reconciliations (DK) extension supports BANKDATA-V3, BEC, SDC, FIK, and bank-specific formats for Danske Bank and Nordea.
+- It covers payment exports and bank statement reconciliation for Danish vendors and banks.
+- Features include FIK payment methods, giro payments, vendor payment setup, and payment reference numbers.
+- The Payment Reconciliation Journal shows FIK transaction text codes to describe automatic payment application results.
+- FIK codes indicate matching amounts, partial payments, and excess amounts.
+- FIK codes also flag missing or duplicate FIK numbers and invoices that are already paid.
 
 ## Learn pages
 

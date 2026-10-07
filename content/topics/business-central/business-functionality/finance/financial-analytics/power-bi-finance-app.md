@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app
 type: topic
 title: Power BI finance app
-summary: "Learn section Business functionality > Finance > Financial analytics > Power BI finance app: 19 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "The Power BI finance app section covers the embedded Finance Power BI app in Business Central: its setup, semantic model, KPI definitions, and individual reports. It answers questions about receivables, payables, profitability, liquidity, liabilities, budgets, and ledger entry analysis."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 75089a8e7ff70ab091533be01769f296dffb974a54281d80f8800fdd1dd16381
+  prompts:
+    hub-topic: 1
+  input_hash: 0f33b5e48973fb0adcbe7e75f702ee874aaca00b37cc27f6046c0e47700dc456
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating
@@ -213,14 +214,33 @@ bc_forms:
   - 37059
   - 37113
 member_hash: 75089a8e7ff70ab091533be01769f296dffb974a54281d80f8800fdd1dd16381
-narrative: none
+narrative: generated
 ---
 
 # Power BI finance app
 
-> Learn section Business functionality > Finance > Financial analytics > Power BI finance app: 19 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI finance app section covers the embedded Finance Power BI app in Business Central: its setup, semantic model, KPI definitions, and individual reports. It answers questions about receivables, payables, profitability, liquidity, liabilities, budgets, and ledger entry analysis.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Power BI finance app · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Power BI finance app · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+The Finance Power BI app embeds Power BI reports in Business Central so finance data can be analyzed without leaving the application. Reports are aimed at three audiences: executives (KPI dashboards), managers (detailed analysis) and finance staff (operational and ledger-level reports).
+
+Start with "Finance Power BI app" for the overview, then "Set up the Finance Power BI app" to configure G/L account categories, map them to the semantic model categories, and set date filters. The "Power BI Finance app semantic model" page describes the star schema, and "Finance App KPIs and measures" documents the calculations and data sources.
+
+The remaining pages each describe one report. They group into receivables and payables (Aged Receivables, Aged Payables, Average Collection Period, Late Payments), financial statements and performance (Balance Sheet by Month, Income Statement by Month, Budget Comparison, Profitability, EBITDA, Financial Overview), balance sheet health (Liquidity, Liabilities), and detailed ledger entries (General Ledger, Customer, Vendor).
+
+## Key points
+
+- Setup involves configuring G/L account categories and subcategories, mapping them to Power BI semantic model categories, and configuring date filters for performance.
+- The semantic model is a star schema: fact tables for customer ledger, vendor ledger, G/L and budget entries, plus dimension tables for accounts, customers, vendors and budgets.
+- The KPIs and measures reference covers Activity, Balance Sheet, Income Statement, Liquidity, Profitability and Customer Ledger measures.
+- Aged Receivables and Aged Payables (Back Dating) use customizable aging periods and payment terms to prioritize collections and vendor payments.
+- Late Payments (Receivables) reports Late Payment Amount, Late Payment %, Average Days Late, and number of payments and late payments.
+- Balance Sheet by Month and Income Statement by Month give month-to-month hierarchical views with drill-through to ledger entries.
+- Liquidity (current, quick, cash ratio) and Liabilities (debt ratio, debt-to-equity) assess short-term health and leverage.
+- Detailed Customer, Vendor and General Ledger Entries reports support reconciliation, month-end closing and audits.
 
 ## Learn pages
 

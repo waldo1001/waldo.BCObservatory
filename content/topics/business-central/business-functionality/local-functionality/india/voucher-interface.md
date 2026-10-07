@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/india/voucher-interface
 type: topic
 title: Voucher interface
-summary: "Learn section Business functionality > Local functionality > India > Voucher interface: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Voucher interface for India in Business Central covers recording day-to-day transactions with journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers. It answers questions about voucher types, journal templates and batches, mandatory fields, and GL entry examples.
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6cc603d5582dd7853caac565859e4466aab28a3242f00e21a9de9cb6090c0af6
+  prompts:
+    hub-topic: 1
+  input_hash: 22a146c898cd695d0c304153933b527b85dc90019202ce296ee596d9a68d0b55
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview
@@ -59,14 +60,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6cc603d5582dd7853caac565859e4466aab28a3242f00e21a9de9cb6090c0af6
-narrative: none
+narrative: generated
 ---
 
 # Voucher interface
 
-> Learn section Business functionality > Local functionality > India > Voucher interface: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Voucher interface for India in Business Central covers recording day-to-day transactions with journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers. It answers questions about voucher types, journal templates and batches, mandatory fields, and GL entry examples.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Voucher interface · tier official · system development · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Voucher interface · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+The voucher interface is an India local functionality for recording daily transactions through voucher types: journal, bank receipt, bank payment, cash receipt, cash payment, and contra. It uses journal templates and batches that can be configured for these voucher types.
+
+The section has two pages and no subtopics. The overview page introduces the feature and the six voucher types. The transaction page shows how to record each voucher, with the mandatory fields and GL entry examples for Indian operations.
+
+Start with the overview page to understand the voucher types and the template and batch setup. Then use the transaction page when you need to enter a specific voucher or check the resulting GL entries.
+
+## Key points
+
+- Six voucher types are supported: journal, bank receipt, bank payment, cash receipt, cash payment, and contra.
+- Journal templates and batches are configurable for the voucher interface.
+- The feature is for recording day-to-day transactions in Indian operations.
+- The transaction page lists mandatory fields for the cash, bank, contra, and journal vouchers.
+- The transaction page gives GL entry examples for the vouchers.
+- The section has two pages: an overview and a transactions page.
 
 ## Learn pages
 

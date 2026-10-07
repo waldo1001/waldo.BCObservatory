@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/overview",
+  "input_hash": "068615248349d234b76523c85d4e377affc52e0735328f6b9294cff1a61e8c66",
+  "summary": "Migration from on-premises Dynamics GP to Business Central online: the end-to-end process, which GP data moves, how to manage cloud migration runs, and how everyday GP work maps to Business Central. It answers questions about phases, migrated data, and migration management.",
+  "overview": "This section introduces moving Dynamics GP on-premises data to Business Central online. The main overview page walks through the phases: assessment, preparation, cloud migration setup, data replication, upgrade, validation, and completion.\n\nThe other pages cover specific needs. One lists what data is migrated and how it maps, such as fiscal periods, chart of accounts, dimensions, customers, vendors, inventory, and checkbooks. Another explains how to run and track the migration from the Cloud Migration Management page or the cloud migration API. A video page compares daily GP work with Business Central for users making the switch.\n\nStart with the end-to-end overview to understand the sequence. Then read the data migration page to check what will move, and use the management page while running the migration.",
+  "key_points": [
+    "The overview covers the phases: assessment, preparation, cloud migration setup, data replication, data upgrade, validation, and completion.",
+    "A migration assessment tool and an Intelligent Cloud permission set are part of the process.",
+    "Migrated data includes fiscal periods (to accounting periods), chart of accounts, dimensions mapping, customer and vendor records, inventory, and checkbook transactions.",
+    "The Cloud Migration Management page, or the cloud migration API, is used to set up, run, track, and manage migration.",
+    "Management actions include Run Migration Now, Run Data Upgrade Now, Reset Cloud Data, and Disable Cloud Migration.",
+    "The Migration Log and Migration Information tiles show migration status.",
+    "Videos compare GP and Business Central work for receivables, payables, vendor payments, customer cash receipts, dimensions, journal entries, and reports."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:45.575Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011719
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:22.256Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor omission: the data migration page also mentions historical snapshots, which the narrative does not include.",
+      "The suggested reading order in the overview is editorial guidance rather than a sourced claim, but it is reasonable."
+    ],
+    "input_hash": "068615248349d234b76523c85d4e377affc52e0735328f6b9294cff1a61e8c66",
+    "cost_usd": 0.0294992
+  }
+}

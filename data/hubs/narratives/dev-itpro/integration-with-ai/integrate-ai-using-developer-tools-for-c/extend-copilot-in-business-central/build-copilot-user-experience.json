@@ -1,39 +1,37 @@
 {
   "hub_id": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/build-copilot-user-experience",
-  "input_hash": "8d255943bc8e398474a3aa6b66b2fa2b0538c3a8bc0bef2d5a4b4993ef71fd44",
-  "summary": "Building the Copilot user interface in Business Central with PromptDialog pages: prompt mode, generate mode caption, content mode, inline error handling, and prompt actions that launch Copilot from pages. Use it for questions on how to design and wire the Copilot UI in AL.",
-  "overview": "This section describes how to build the user-facing part of a Copilot feature. The central object is the PromptDialog page type. It has three display modes: prompt mode, where the user gives input; generate mode, where Copilot shows progress; and content mode, where the user reviews the AI output.\n\nThe pages follow that flow. Start with creating the PromptDialog page and its properties (Extensible, PromptMode, IsPreview). Then design the prompt mode (input fields, placeholder text, prompt guides, generate and file attachment actions), customize the generate mode caption, and design the content mode (save, discard, regenerate, proposal history). Error handling in prompt dialogs covers showing errors inline. The last page covers prompt actions in a floating action bar that open the dialog from other pages.\n\nStart with the page on creating the prompt dialog, then follow the modes in order. Read the prompt actions page when you need to make the feature reachable from List, Card, Document and other page types.",
+  "input_hash": "5490002d4c282b35bb328697f698dd40d3c818f828cc32e198c06ffd98a3b4be",
+  "summary": "Building Copilot user experiences in Business Central with the PromptDialog page type. It covers creating the page, designing prompt, generate and content modes, error handling, and launching Copilot features from prompt actions. It answers how-to questions for AL developers.",
+  "overview": "The PromptDialog page type is the basis for Copilot user interfaces in Business Central. A dialog moves through three modes: prompt mode where the user gives input, generate mode while the AI works, and content mode where the user reviews the result and saves or discards it. System actions such as Generate, Regenerate, OK and Cancel drive these steps.\n\nThe pages follow that flow. Start with the overview page, then create the page and set its properties. Next, design the prompt mode and content mode, customize the generate mode caption, and handle errors inline. The last page covers prompt actions that open the dialog from other pages.\n\nMost pages are developer how-tos. Read them in order when building a new Copilot feature, or jump to a single page when changing one mode.",
   "key_points": [
-    "A PromptDialog page type is the first step; its properties set caption, extensibility (Extensible), initial mode (PromptMode) and preview status (IsPreview).",
-    "Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, preference options, and generate and file attachment actions. The page references 2024 release wave 2.",
-    "Generate mode caption can be customized with Dialog.Open() or Dialog.Update() to give progress feedback, including for multi-step Copilot.",
-    "Content mode shows AI output and lets users review, regenerate, save or discard proposals; it supports caption customization and a proposal history carousel with version history.",
-    "Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, error suppression and message truncation. The page references 2024 release wave 2.",
-    "Prompt actions launch Copilot from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, shown in a floating action bar with a Sparkle image.",
-    "Prompt actions open the PromptDialog page through the RunObject property; the page also covers SaaS detection and capability registration, and references 2024 release wave 1 and runtime 13 and 14."
+    "PromptDialog pages have three modes: prompt (input), generate (AI processing) and content (review, save or discard).",
+    "Creating the page sets properties for caption, Extensible, PromptMode and IsPreview.",
+    "Prompt mode supports a prompt area with fields, InstructionalText placeholder text, prompt guides for predefined prompts, a generate action, file attachment and preference options. The prompt mode page refers to 2024 release wave 2.",
+    "Content mode shows AI output and offers regenerate, save and discard actions, caption customization, a proposal history carousel and version history.",
+    "The generate mode caption can be changed with Dialog.Open() or Dialog.Update() to show progress, for example in multi-step Copilots.",
+    "Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with multiple messages, error suppression and message truncation (2024 release wave 2).",
+    "Prompt actions on List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages open a PromptDialog from the floating action bar, using RunObject, the Sparkle image, SaaS detection and capability registration (2024 release wave 1, runtime 13 and 14)."
   ],
-  "members_used": 6,
+  "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T13:37:57.021Z",
+  "at": "2026-10-07T02:02:17.760Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.042577
+    "cost_usd": 0.017894
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-06T14:24:06.514Z",
+    "at": "2026-10-07T02:22:42.483Z",
     "verdict": "fix",
     "issues": [
-      "Key point 2 puts '(2024 release wave 2)' right after the file attachment action, so it reads as if that one feature came in that release. In the source, the version belongs to the whole prompt mode page. Reworded so the version applies to the page.",
-      "Key point 5 has the same problem: the source ties 2024 release wave 2 to the error handling page as a whole, not to individual capabilities like suppression or truncation. Reworded.",
-      "Key point 7 links the version labels (2024 release wave 1, runtime 13 and 14) to RunObject, SaaS detection and capability registration. The source only lists these versions at page level for the floating action bar page. Reworded so the versions apply to that page.",
-      "Minor: the overview says the PromptDialog page has 'three display modes'. The create page only lists 'display modes', but the three mode pages back this up, so it is kept.",
-      "The summary and overview are supported and stay unchanged."
+      "Key point 3 ties '2024 release wave 2' to file attachment specifically. The source only links that version to the prompt mode page as a whole, so the key point now gives the version at page level.",
+      "Key point 3 left out preference options, which the prompt mode page lists. They are now included.",
+      "The reading order in the overview ('the last page covers prompt actions') is inferred, not stated in the sources. It is harmless guidance, so it stays."
     ],
-    "input_hash": "8d255943bc8e398474a3aa6b66b2fa2b0538c3a8bc0bef2d5a4b4993ef71fd44",
-    "cost_usd": 0.1048912
+    "input_hash": "5490002d4c282b35bb328697f698dd40d3c818f828cc32e198c06ffd98a3b4be",
+    "cost_usd": 0.0462832
   }
 }

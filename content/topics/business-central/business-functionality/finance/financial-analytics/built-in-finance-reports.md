@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports
 type: topic
 title: Built-in finance reports
-summary: "Learn section Business functionality > Finance > Financial analytics > Built-in finance reports: 83 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Built-in finance reports in Business Central: one page per standard or Excel report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets. Answers questions about what a report shows, its filters and options, and when to use it."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e698e27b51a8d5c8d9a0090793f9da87f9f6506a00689d5f731c5c49057b9885
+  prompts:
+    hub-topic: 1
+  input_hash: 3bd11261c0ad22eeb8c465899c382b94e01c45d1835c049f4efd2697427bc9b1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -506,14 +507,33 @@ bc_forms:
   - 36992
   - 36993
 member_hash: e698e27b51a8d5c8d9a0090793f9da87f9f6506a00689d5f731c5c49057b9885
-narrative: none
+narrative: generated
 ---
 
 # Built-in finance reports
 
-> Learn section Business functionality > Finance > Financial analytics > Built-in finance reports: 83 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in finance reports in Business Central: one page per standard or Excel report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets. Answers questions about what a report shows, its filters and options, and when to use it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance reports · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance reports · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section documents the standard reports that ship with Business Central finance. Most pages describe a single report: what it displays, the main request-page options such as date ranges, dimension filters and currency choices, and the tasks it supports, such as reconciliation, audit, period close or tax filing. Both classic reports and Excel reports are included, and some topics exist in both forms, for example Trial Balance and Aged Accounts Payables.
+
+The reports fall into groups. Core ledger reports include Trial Balance and its variants, Detail Trial Balance, Balance Sheet, Income Statement, G/L Register and Audit Trail. Receivables and payables reports cover aging, customer and vendor balances, statements, order reports and top 10 lists. VAT reports cover registers, reconciliation, settlement and VIES declarations. The other groups are consolidation, deferral summaries and cost accounting.
+
+Start with "Built-in finance reports in Business Central". It gives the overview and the report explorer, and it groups reports by area. The analytics pages for accounts payable and accounts receivable point to Power BI and Data Analysis as alternatives. Then open the page for the report you need.
+
+## Key points
+
+- The overview page groups reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions a report explorer.
+- Trial balance family: Trial Balance, Trial Balance by Period (12 periods), Trial Balance/Budget, Closing Trial Balance and Detail Trial Balance, with Excel versions for some.
+- Aging reports: Aged Accounts Payable and Aged Accounts Receivables, with Excel versions that use Aged as of and Period length parameters and local and foreign currency worksheets.
+- Vendor - Summary Aging is a legacy report; the page recommends the Aged Accounts Payable report instead.
+- VAT reports include VAT Statement, VAT Register, VAT Exceptions, VAT Reconciliation, G/L - VAT Reconciliation, Calculate and Post Tax Settlement, VAT Registration No. Check (EU VIES) and the VIES declaration.
+- Consolidation reports include Consolidated Trial Balance (standard, 4-column and Excel), G/L Consolidation Eliminations and Intercompany Transactions.
+- Cost accounting reports compare actual and budgeted costs and cover journals, allocations, cost types and statements by period.
+- Customer and vendor reports include balance to date, trial balance, order detail and summary, top 10 lists, Customer Statement and the Reminder report. Financial statements (Balance Sheet, Income Statement, Cash Flow, Retained Earnings) filter by date range.
 
 ## Learn pages
 

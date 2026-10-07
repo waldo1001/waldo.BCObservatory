@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/formatting-report-data",
+  "input_hash": "66c5fbdf5db6ca544fb5b5f3e3f6cba0c294c11657571895439b298f354c10a5",
+  "summary": "Formatting report data in AL covers how to control the display of field values in report datasets: decimal precision, dates, booleans, enums, currencies, and regional formats. It answers questions about AutoFormatType, AutoFormatExpr, DecimalPlaces, the Format method, and report Language and FormatRegion settings.",
+  "overview": "This section explains how numbers, dates, and other values appear in Business Central reports. It has three pages. Two cover formatting of the values themselves, and one covers localization.\\n\\n\\\"Formatting the data in a field\\\" describes the field properties AutoFormatType, AutoFormatExpression, and DecimalPlaces. These control how decimal values in tables, pages, and reports show as amounts, unit amounts, or currencies, with thousand separators or custom formats. \\\"Formatting field values in report datasets\\\" applies these properties to report datasets. It also describes the Format method, which controls how dates, booleans, and enums display, and the Language and FormatRegion methods, which handle regional formats.\\n\\n\\\"Localizing the report data formatting and caption strings\\\" explains how to set the report Language and FormatRegion properties in code, on settings pages, or at runtime. It covers date, time, and decimal formatting, including RDLC formatting. Start with the field formatting page for the basics, then move to the dataset page, then to localization.",
+  "key_points": [
+    "AutoFormatType, AutoFormatExpr/AutoFormatExpression, and DecimalPlaces control how decimal values display, including amounts, unit amounts, and currencies.",
+    "Field formatting applies to tables, pages, and reports, and can include thousand separators and custom formats.",
+    "In report datasets, the Format method controls display of dates, booleans, and enums.",
+    "The Language and FormatRegion methods set language and regional formats for dataset values.",
+    "The report Language and FormatRegion properties can be set in code, on settings pages, or at runtime.",
+    "Localization affects date, time, and decimal formatting, and also applies to RDLC layouts."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:44.466Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010927
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:24.483Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 'The field formatting page lists version 26.0' only repeats page metadata. It doesn't help an agent and could be misread as meaning the feature arrived in 26.0, so I removed it.",
+      "The overview said the Format, Language and FormatRegion methods all serve date, boolean and enum display. The source only supports that for Format; Language and FormatRegion cover regional formats. I reworded the sentence.",
+      "The suggested reading order is the writer's own advice rather than something from the pages, but it's harmless and I kept it."
+    ],
+    "input_hash": "66c5fbdf5db6ca544fb5b5f3e3f6cba0c294c11657571895439b298f354c10a5",
+    "cost_usd": 0.045671199999999995
+  }
+}

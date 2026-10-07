@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/italy/inventory
 type: topic
 title: Inventory
-summary: "Learn section Business functionality > Local functionality > Italy > Inventory: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Italian local inventory functionality in Business Central: setting up fiscal inventory valuation and initial item costs. It answers how to configure valuation methods, components valuation, estimated WIP consumption, valuation types per item, and starting costs used for average year cost."
 tier: official
 language: en
 system: inventory
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e19d906b823f5513a01f73e1fee56d949e52c6e94ec5cbee939a2bfa4d815edd
+  prompts:
+    hub-topic: 1
+  input_hash: 25247baa66853751a4ab600c6390f53dc343377798f5dded4affe5dd44335956
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation
@@ -59,14 +60,27 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: e19d906b823f5513a01f73e1fee56d949e52c6e94ec5cbee939a2bfa4d815edd
-narrative: none
+narrative: generated
 ---
 
 # Inventory
 
-> Learn section Business functionality > Local functionality > Italy > Inventory: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Italian local inventory functionality in Business Central: setting up fiscal inventory valuation and initial item costs. It answers how to configure valuation methods, components valuation, estimated WIP consumption, valuation types per item, and starting costs used for average year cost.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Inventory · tier official · system inventory · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Inventory · tier official · system inventory · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers two setup tasks for the Italian version of Business Central that support fiscal inventory valuation. One page explains how to configure the valuation methods. The other explains how to enter starting item costs so average year costs can be calculated.
+
+## Key points
+
+- Fiscal inventory valuation setup includes components valuation and estimated WIP consumption settings.
+- Inventory valuation types are assigned to individual items after the general settings are configured.
+- Initial item costs are entered in the Before Start Item Cost page.
+- Entries include a starting date, purchase quantities and amounts, and production quantities and amounts.
+- These entries are used to calculate average year costs.
+- Both pages are marked [IT] and apply to the Italian local functionality.
 
 ## Learn pages
 

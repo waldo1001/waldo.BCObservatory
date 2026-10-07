@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:48.465Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,7 +53,8 @@ links:
     - video/fgWFOMPJd6U
     - video/HjsOuhThGKk
     - video/q0TxpWfm9rc
-  posts: []
+  posts:
+    - post/demiliani-com/12439
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -65,7 +66,7 @@ coverage:
   learn: 3
   code: 0
   video: 3
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 71c4bcef57d0ff9d96d575df3ae2829a8ba335040fd85c07951ccd6b0cd79108
@@ -76,7 +77,7 @@ narrative: generated
 
 > Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers how to use and control summaries, how responsible AI applies, and how to troubleshoot Expense Agent issues.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
@@ -106,6 +107,7 @@ Start with the how-to page to use the feature. Read the FAQ if you need to under
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: controlling the Summary system part.](../../../posts/demiliani-com/12439.md) (community post): "Summary FactBox uses AI to generate role-tailored record summaries"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../videos/fgWFOMPJd6U.md) (video): "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
 - [What's New: Summarize with Copilot (2025 release wave 1)](../../../videos/HjsOuhThGKk.md) (video): "Summarize with Copilot; Summary fact box; Interactive summary drill-down"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../../videos/q0TxpWfm9rc.md) (video): "Enhancements to Copilot Summaries ai insights multi-language support interactive"

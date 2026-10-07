@@ -2,19 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned
 type: topic
 title: What's new and planned
-summary: "Learn section What's new and planned: 74 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Release notes and plans for Business Central: the 2026 release wave 1 updates (28.0 preview, 28.1 to 28.5), the 2026 release wave 2 update 29.0, and an index of earlier minor updates from 15.2 to 27.5. Use it to find what changed or is planned in a given version."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:28.848Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2eba0bd53514ef90f1754b747b81d1364209bf6f70a319cd5fb21e22d17acce1
+  prompts:
+    hub-topic: 1
+  input_hash: d3f4cdd2ab7d7e71f0dee1c65dafe2c5cf2cd3a82fac7b7660a74d25c0e1a21c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -328,14 +329,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2eba0bd53514ef90f1754b747b81d1364209bf6f70a319cd5fb21e22d17acce1
-narrative: none
+narrative: generated
 ---
 
 # What's new and planned
 
-> Learn section What's new and planned: 74 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Release notes and plans for Business Central: the 2026 release wave 1 updates (28.0 preview, 28.1 to 28.5), the 2026 release wave 2 update 29.0, and an index of earlier minor updates from 15.2 to 27.5. Use it to find what changed or is planned in a given version.
 
-Path: What's new and planned · tier official · system none · no narrative yet
+Path: What's new and planned · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section lists what is new, changed, and planned in Business Central across release waves and monthly minor updates. The overview page "What's New or Changed in Business Central" is the entry point. It links the current versions (29.0, 28.5, 28.4, 28.3, 28.2) and the 2026 release waves 1 and 2.
+
+Each version has its own page. The 28.0 preview and the 29.0 page describe the larger wave-level capabilities. The 28.1 to 28.5 pages cover the minor updates: hotfixes, feature additions, localization changes, and upgrade paths. Themes across them include Copilot and agents, e-documents and e-invoicing, and country-specific tax and reporting features.
+
+The subtopic "Updates for earlier major versions" holds 66 pages of release notes from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2), plus the 26.0 and 27.0 previews. Start with the overview page for the current state. Go to the specific update page, or to the earlier-versions subtopic, when you need the details of one version.
+
+## Key points
+
+- Update 28.0 preview (2026 release wave 1) covers an enhanced MCP server, Payables Agent email discovery, a task pane for all agents, and regional features for Czechia and Germany.
+- Update 28.1 adds Expense Agent (preview), an expense management module, Dynamics GP migration validation, e-invoicing for Germany, and permission auditing.
+- Update 28.2 adds Sales Order Agent multilingual support, Australian payment reporting compliance, quality management Word layouts, and new APIs for approval workflows and permissions analysis.
+- Update 28.3 adds Expense Agent project assignment, Payables Agent trial mode, multiple Sales Order Agents, France e-invoicing, and E-Document payments.
+- Update 28.4 adds Known Senders in Payables Agent, E-Document payment support, Peppol purchase draft preview, and Field Service integration improvements. It covers online and on-premises upgrade paths.
+- Update 28.5 includes hotfixes, AI resources for Copilot extensions, and embedded Verifactu mode for Spain.
+- Update 29.0 (2026 release wave 2) covers MCP Server data queries, AL index control, Page Scripting, AL interface default implementations, document report themes, and Shopify, sustainability, and supply chain changes.
+- Release notes for 15.2 through 27.5 are in the earlier-versions subtopic, including hotfixes, deprecations, telemetry, and upgrade notes.
 
 ## Subtopics
 

@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2020-release-wave-2",
+  "input_hash": "7fd062e03edd361f47a27d03bfae72a5b87e065c42bbef75be54688cde41e8c9",
+  "summary": "Upgrading Business Central on-premises to 2020 release wave 2 (version 17) from versions 14, 15 and 16. Covers upgrade paths (technical upgrade or application refactoring), per-source technical upgrade steps, converting C/AL to AL with Txt2Al, moving tables and fields between extensions with migration.json, installing version 17 cumulative updates, and the upgrade compatibility matrix.",
+  "overview": "This section covers upgrading Business Central on-premises to 2020 release wave 2 (version 17). The entry page, \"Upgrade to Business Central 2020 Wave 2\", describes two options: a technical upgrade or application refactoring. It names version 16 (2020 release wave 1) and version 15 (2019 release wave 2) as source versions. Separate pages cover version 14.\n\nEach source version has its own pages. From version 16, the technical upgrade updates the platform without converting application code. A separate page covers the version 16 Base Application path: database conversion, license import and extension publishing, for single-tenant or multitenant deployments. From version 15, the technical upgrade replaces deprecated tables and rewrites application code. Another page upgrades an unmodified version 15 Base Application. From version 14, the path depends on whether the C/AL application is unmodified or customized. Unmodified applications are replaced with the System and Base Application extensions. Customized ones are converted to AL with Txt2Al, and their data moves in two phases using migration.json and DestinationAppsForMigration.\n\nOther pages explain how to migrate tables and fields between extensions, both down and up the dependency graph. One page lists the install tasks for version 17 cumulative updates. Start with the entry page, then pick the page that matches your source version and customization level. Check the compatibility matrix before planning.",
+  "key_points": [
+    "Version 17 can be reached from versions 14, 15 and 16 with either a technical upgrade or application refactoring.",
+    "Version 16 to 17 updates the platform without converting application code: database conversion, system symbols, extension recompilation, control add-in upgrade and reinstalling extensions.",
+    "The technical upgrade from version 15 replaces deprecated tables and rewrites application code. A separate path covers unmodified version 15 System and Base applications.",
+    "Unmodified version 14 C/AL is upgraded by replacing the base application with the System and Base Application extensions. This includes exporting permissions and importing the license.",
+    "Customized version 14 C/AL is converted to AL with Txt2Al. Its data is then upgraded in two phases using migration.json and DestinationAppsForMigration.",
+    "Moving tables or fields down the dependency graph uses migration.json. Moving them up takes a two-stage deployment with a transition extension.",
+    "The compatibility matrix lists minimum update versions for upgrades between versions 15 and 28. Upgrades from version 24 or earlier must target version 25 first.",
+    "Installing a version 17 cumulative update includes database conversion, extension publishing, tenant synchronization and control add-in upgrade."
+  ],
+  "members_used": 14,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:27.522Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022793
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:56.701Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says the entry page lists source versions 14, 15 and 16. The entry page's summary only names version 16 (2020 release wave 1) and version 15 (2019 release wave 2). Version 14 paths come from separate pages.",
+      "Key point 3 says every version 15 to 17 upgrade requires replacing deprecated tables and rewriting application code. Only the technical upgrade page supports that. There is also a page for upgrading an unmodified version 15 Base Application, which covers database conversion, extension publishing, data upgrade, control add-ins, encryption and task scheduler steps.",
+      "The narrative leaves out the page for upgrading the version 16 Base Application, which covers backup, uninstalling extensions, license import and single-tenant or multitenant deployments. It also leaves out the general page on migrating tables and fields between extensions.",
+      "Minor: the source page for the version 15 technical upgrade labels version 17 as '2020 release wave 1'. The narrative correctly uses 2020 release wave 2 and does not repeat that error."
+    ],
+    "input_hash": "7fd062e03edd361f47a27d03bfae72a5b87e065c42bbef75be54688cde41e8c9",
+    "cost_usd": 0.0793352
+  }
+}

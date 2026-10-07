@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/planning",
+  "input_hash": "1076309ad2f38a9c48fe9ef1621ee79b673bb8fadecb9321ade29fbbe0b2ede4",
+  "summary": "Planning in Business Central covers how the planning system balances supply and demand. It answers questions about forecasts, MPS and MRP runs, order-by-order planning, production orders from sales orders, replanning, location effects, and order tracking.",
+  "overview": "Planning is the area that calculates what to buy, produce, assemble, or transfer to meet demand. The pages start with concepts: \"About planning functionality\" explains planning parameters, worksheets, regenerative and net change plans, and warnings. \"Supply Planning\" describes balancing demand and supply with MPS and MRP.\n\nPractical pages cover the main workflows. You can create demand forecasts, run full planning, MPS, or MRP, or plan manually with Order Planning. You can also create production orders directly from sales orders and replan or refresh production orders after changes.\n\nSupporting pages explain behavior that affects results. \"Planning With or Without Locations\" describes how location codes and SKU setup change which parameters apply. \"Track Relations Between Demand and Supply\" covers order tracking, reservations, and untracked planning elements. Start with \"About planning functionality\", then pick the workflow you need.",
+  "key_points": [
+    "Planning calculates supply and demand using planning parameters, worksheets, and multilevel production order management.",
+    "Plan calculation methods include regenerative plan, net change plan, and get action messages, for MPS, MRP, or combined.",
+    "Demand forecasts can be sales, production, or component forecasts, by location or variant, and feed MPS and MRP.",
+    "Order Planning handles new demand order by order from sales orders, production components, and service orders, with purchase, production, or transfer supply.",
+    "Sales Order Planning creates production orders for produced items, with Item Order or Project Order types.",
+    "Replan and Refresh actions recalculate components and routings of production orders, with a scheduling direction option.",
+    "Location setup (Components at Location, Location Mandatory) and SKU parameters determine which planning parameters apply.",
+    "Order tracking, order-to-order links, and untracked planning elements (such as safety stock and reorder point) show how demand and supply relate."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:08.981Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014818999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:38.666Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point presenting safety stock and reorder point as examples of untracked planning elements is an inference from the tracking page's feature list. The page summary only says untracked elements come from production and purchase orders. It is reasonable, so it stays."
+    ],
+    "input_hash": "1076309ad2f38a9c48fe9ef1621ee79b673bb8fadecb9321ade29fbbe0b2ede4",
+    "cost_usd": 0.038007200000000005
+  }
+}

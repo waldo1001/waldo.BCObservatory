@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany/purchasing
 type: topic
 title: Purchasing
-summary: "Learn section Business functionality > Local functionality > Germany > Purchasing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Delivery reminders in the German version of Business Central: setting up terms, levels and text, assigning codes to vendors, generating or creating reminders, printing test reports and issuing them. It answers how-to questions about chasing late vendor deliveries."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:09.160Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ddd730659d58f9b0b245f4ac65a5ed57cae2070a93c5cafaec1dabb212568bca
+  prompts:
+    hub-topic: 1
+  input_hash: b3600a5128b7fde44f04b108250f9554623c2aa170ffb812031f1138a3aa245a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors
@@ -119,14 +120,31 @@ bc_forms:
   - 5005282
   - 5005283
 member_hash: ddd730659d58f9b0b245f4ac65a5ed57cae2070a93c5cafaec1dabb212568bca
-narrative: none
+narrative: generated
 ---
 
 # Purchasing
 
-> Learn section Business functionality > Local functionality > Germany > Purchasing: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Delivery reminders in the German version of Business Central: setting up terms, levels and text, assigning codes to vendors, generating or creating reminders, printing test reports and issuing them. It answers how-to questions about chasing late vendor deliveries.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section covers one German-specific purchasing feature, delivery reminders. They let you track and manage vendor delivery delays by sending reminders to suppliers. The "Delivery Reminders [DE]" page is the overview, and the other pages describe individual steps.
+
+The pages follow the workflow. First set up delivery reminders, including terms, levels and reminder text. Then assign delivery reminder codes to vendors. Next create reminders, either by generating them automatically or by creating them manually. Before issuing, you can print a test report to review and change the reminders. A separate page describes issuing and points to the related generate, create and test report pages.
+
+Start with the "Delivery Reminders [DE]" overview, then work through setup, vendor assignment, creation and issuing in that order.
+
+## Key points
+
+- Delivery reminders are a German-version feature for tracking supplier delivery performance and delays.
+- Setup covers reminder terms, reminder levels and reminder text.
+- Delivery reminder codes are assigned to vendors as part of setup.
+- Reminders can be generated automatically or created manually outside the automated process.
+- Test reports can be printed to review and modify reminders before issuing.
+- Issuing reminders is the final step, and its page refers to the generate, create and test report pages.
 
 ## Learn pages
 

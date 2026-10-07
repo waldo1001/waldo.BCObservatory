@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/get-started/get-productive-in-business-central/share-business-data",
+  "input_hash": "dae6fde19903c648f83e588590725ed4fee9d7fb549227b9c1bd24cb2512baf8",
+  "summary": "Sharing Business Central data with others through links, Microsoft Teams, OneDrive and Excel. It answers questions about copying links, sharing records to Teams, opening files in OneDrive, and viewing or editing list data in Excel.",
+  "overview": "This section covers the ways to get Business Central data in front of other people or into other tools. The options are sharing page links, sharing records in Microsoft Teams, opening and sharing files in OneDrive, and working with list data in Excel.\n\nThe \"Sharing data\" page is the overview. It lists the available features: copy link, share to Teams, OneDrive sharing, open in Excel, and copy and paste. Start there to pick the method that fits your task. Then go to the detailed pages for Teams, OneDrive or Excel.\n\nThe Teams page covers interactive cards and direct page links. The OneDrive page covers opening files in online applications and controlling who can access them. The Excel page covers exporting list data for analysis, or editing it and publishing changes back to Business Central.",
+  "key_points": [
+    "The Sharing data page gives an overview of copy link, share to Teams, OneDrive sharing, open in Excel, and copy and paste.",
+    "In Teams, you can share records as interactive cards using the Business Central app for Teams, or share direct page links in conversations.",
+    "The Share Link and Share to Teams actions send a page or record to colleagues.",
+    "Opening files in OneDrive supports opening in online applications, sharing with specific people, and managing file copies.",
+    "OneDrive sharing offers send link and copy link, with link settings and permissions to control access.",
+    "Open in Excel exports list data for analysis. Edit in Excel lets you change data and publish it back to Business Central.",
+    "Excel features include filter support, the Excel add-in, multi-environment support, and agent mode."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:27.300Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010703
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:15.382Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: key point 3 (Share Link and Share to Teams actions) partly repeats key point 2; they could be merged.",
+      "Minor: the summary does not mention copy and paste, though the overview and key point 1 do.",
+      "Minor: 'send a page or record to colleagues' is a mild inference from the Share Link / Share to Teams feature names, but it fits the collaboration focus of the source pages."
+    ],
+    "input_hash": "dae6fde19903c648f83e588590725ed4fee9d7fb549227b9c1bd24cb2512baf8",
+    "cost_usd": 0.032655199999999995
+  }
+}

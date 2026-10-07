@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/develop-reports
 type: topic
 title: Develop reports
-summary: "Learn section Analytics, business intelligence, and reporting > Develop reports: 12 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Report development in Business Central: building report layouts (Word, Excel, RDLC, external, composite) and report datasets in AL. It answers how to create, edit, import, export and assign layouts, how datasets, layouts and request pages fit together, and how to tune report-related AL code."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6ce0f942fb3e2f96a865c076baeda340628eecd3cb65b7e48d8a6db24e7a88da
+  prompts:
+    hub-topic: 1
+  input_hash: 13904237510b56465ea956c52340d17cdb24d6c9b177768d7037378ce6248c34
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
@@ -136,14 +137,32 @@ bc_forms:
   - 9666
   - 9670
 member_hash: 6ce0f942fb3e2f96a865c076baeda340628eecd3cb65b7e48d8a6db24e7a88da
-narrative: none
+narrative: generated
 ---
 
 # Develop reports
 
-> Learn section Analytics, business intelligence, and reporting > Develop reports: 12 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Report development in Business Central: building report layouts (Word, Excel, RDLC, external, composite) and report datasets in AL. It answers how to create, edit, import, export and assign layouts, how datasets, layouts and request pages fit together, and how to tune report-related AL code.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section covers the two halves of a Business Central report: the dataset, which is defined in AL, and the layout, which presents the data. The top-level page introduces creating and customizing layouts in Word, Excel and RDLC formats and developing datasets with AL.
+
+Two subtopics go deeper. Develop report layouts covers layout types, designing and mapping fields, themes, header/footer layouts, choosing which layout a report uses, and available fonts. Develop report datasets gives an overview of building reports from datasets, layouts and request pages, plus performance guidance for AL code, pages and web services.
+
+Start with the overview page to see how the parts connect. Then go to the datasets pages if you are defining report data, or to the layouts pages if you are designing or assigning a layout.
+
+## Key points
+
+- Layout types covered: Word, Excel, RDLC, external and composite.
+- Layout tasks include creating, editing, importing, exporting and assigning layouts to reports.
+- Default layout configuration and choosing the layout a report uses are covered.
+- Themes and header/footer layouts are covered, along with font availability and font management.
+- Datasets are developed in AL and combined with layouts (Excel, Word, RDL) and request pages.
+- Performance guidance for AL developers covers AL code, pages and web services.
+- The dataset subtopic has 2 pages and the layouts subtopic has 9.
 
 ## Subtopics
 

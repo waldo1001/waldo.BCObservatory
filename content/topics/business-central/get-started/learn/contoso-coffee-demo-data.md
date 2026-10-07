@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data
 type: topic
 title: Contoso Coffee demo data
-summary: "Learn section Get started > Learn > Contoso Coffee demo data: 23 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:45.373Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 08bb5151afcfb9cf7884895c2ea0d16f87da1bbfae107754be6d4483b8b782e8
+  prompts:
+    hub-topic: 1
+  input_hash: 04f94e5e0692c513531d206bc0f57257bc253b9459748f0546c8f11c74d5bf4e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
@@ -219,14 +220,33 @@ bc_forms:
   - 20408
   - 20416
 member_hash: 08bb5151afcfb9cf7884895c2ea0d16f87da1bbfae107754be6d4483b8b782e8
-narrative: none
+narrative: generated
 ---
 
 # Contoso Coffee demo data
 
-> Learn section Get started > Learn > Contoso Coffee demo data: 23 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.
 
-Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Contoso Coffee demo data gives a fictitious company with sample data for trying out Business Central capabilities. The introduction page describes the data and the modules it covers: manufacturing, warehousing, service and common, plus configuration and demo data setup.
+
+Four subtopics hold the walkthroughs. Manufacturing has 11 pages, Warehousing 4, Service 3 and Quality management 4. Each one combines sample data with scenarios you can follow step by step.
+
+Start with the introduction page to understand the data and how it is set up. Then pick the subtopic that matches the area you want to learn.
+
+## Key points
+
+- The introduction page describes the fictitious Contoso Coffee company data and covers demo data setup, configuration and the common module.
+- Manufacturing walkthroughs cover production BOMs, routings, capacity, flushing, planning, variants and subcontracting.
+- Warehousing uses three locations that show basic, mixed and advanced configurations.
+- Warehousing scenarios cover receiving, put-away, picking, moving and shipping in each setup.
+- Service data includes sample resources, skills, service items and loaner items.
+- Service walkthroughs cover service orders and service contracts for service items.
+- Quality management includes installing the demo data and three inspection scenarios.
+- The quality scenarios are automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
 
 ## Subtopics
 

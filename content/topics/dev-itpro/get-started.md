@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started
 type: topic
 title: Get started
-summary: "Learn section Get started: 65 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: The Get started section of Business Central documentation is the entry point for orientation, partner development and selling, FAQs, and help and support. It answers what Business Central can do, how partners build and sell apps and extensions, and where to find common answers.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:33.845Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ed08f3904240f724bd97264d3aa46575c22af58535e3749d792046805e27aedd
+  prompts:
+    hub-topic: 1
+  input_hash: 2291a1435a356696fa671b68ae5786172b5f58360aaf427ed9bba21be0ca912e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource
@@ -352,14 +353,32 @@ bc_forms:
   - 9027
   - 9030
 member_hash: ed08f3904240f724bd97264d3aa46575c22af58535e3749d792046805e27aedd
-narrative: none
+narrative: generated
 ---
 
 # Get started
 
-> Learn section Get started: 65 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> The Get started section of Business Central documentation is the entry point for orientation, partner development and selling, FAQs, and help and support. It answers what Business Central can do, how partners build and sell apps and extensions, and where to find common answers.
 
-Path: Get started · tier official · system none · no narrative yet
+Path: Get started · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Get started groups five subtopics. Learn gives orientation: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner learning resources.
+
+Develop and Sell are aimed at partners. Develop covers building, publishing, maintaining and retiring apps and per-tenant extensions. Sell covers reselling Business Central Online, selling apps through Marketplace, onboarding customers and configuration packages.
+
+Frequently asked questions collects practical answers on AppSource publishing, AL development, library apps, migrating to online and the Windows client deprecation. Help and support is also part of the section, but no summary of its content was provided. Start with Learn if you are new to the product, or with Develop or Sell if you are a partner.
+
+## Key points
+
+- Learn offers a functionality overview, CRONUS walkthroughs and Contoso Coffee demo data.
+- Learn also has design details for complex features and partner learning and community resources.
+- Develop is the largest subtopic, with 36 pages on building, publishing, maintaining and retiring apps and per-tenant extensions.
+- Develop covers publisher onboarding, customization options, localization, marketplace submission, update lifecycle and Microsoft versus partner responsibilities.
+- Sell covers reseller enrollment, licensing, app plans and entitlements, onboarding tools and configuration packages.
+- FAQs address AppSource app publishing, testing, updating and validation, AL development, library apps, migrating to online and the Windows client deprecation.
+- Help and support has 10 pages, but its content is not described in the available summaries.
 
 ## Subtopics
 

@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/set-up-data-exchange
 type: topic
 title: Set up data exchange
-summary: "Learn section Business functionality > General business functionality > Exchange data electronically > Set up data exchange: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Setting up data exchange in Business Central: document exchange service (Tradeshift), electronic document sending and receiving with PEPPOL, the general data exchange framework, and incoming documents setup. It answers setup questions for exchanging files and documents with partners, banks and OCR services."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:18.512Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8872ef8236b98ac155c49d6c00dc8531210e9f9eb163fa658ecd65ea4e083ffb
+  prompts:
+    hub-topic: 1
+  input_hash: a8ccd5a118b395eaadbc47539a47e60ba66abc1f4748e6e56a0022d2544504b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-a-document-exchange-service
@@ -74,14 +75,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 8872ef8236b98ac155c49d6c00dc8531210e9f9eb163fa658ecd65ea4e083ffb
-narrative: none
+narrative: generated
 ---
 
 # Set up data exchange
 
-> Learn section Business functionality > General business functionality > Exchange data electronically > Set up data exchange: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Setting up data exchange in Business Central: document exchange service (Tradeshift), electronic document sending and receiving with PEPPOL, the general data exchange framework, and incoming documents setup. It answers setup questions for exchanging files and documents with partners, banks and OCR services.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Set up data exchange · tier official · system none · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Set up data exchange · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers the configuration needed before Business Central can exchange data electronically. It has four pages and no subtopics. They cover the document exchange service, electronic sending and receiving of documents, the wider data exchange framework, and incoming documents.
+
+Start with "Set up data exchange to send and receive files". It gives the framework view: document exchange service, OCR service, currency exchange rates, SEPA credit transfer, SEPA direct debit and bank statement service. From there, go to the page for your scenario. Use the document exchange service page for Tradeshift or similar services. Use the electronic document page for PEPPOL invoices and credit memos. Use the incoming documents page for processing external documents.
+
+The PEPPOL page applies to the period before 2023 release wave 2, so check it against your version.
+
+## Key points
+
+- The data exchange framework supports electronic document exchange, bank file conversion, and data imports and exports.
+- The document exchange service lets you exchange sales and purchase documents with trading partners via Tradeshift or other services.
+- Document exchange setup involves the Business Central Integration app, sandbox mode and token renewal.
+- Electronic document sending and receiving uses the PEPPOL format for invoices and credit memos, as described for the period before 2023 release wave 2.
+- PEPPOL setup touches company information, VAT posting setup, item configuration and unit of measure setup.
+- Incoming documents setup covers journal template settings, approval workflow and OCR service integration.
+- The framework page also lists currency exchange rates, SEPA credit transfer, SEPA direct debit and bank statement service.
 
 ## Learn pages
 

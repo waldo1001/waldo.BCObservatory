@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
 type: topic
 title: Pages and the user interface
-summary: "Learn section Development > Programming in the AL language > Pages and the user interface: 69 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Pages and the user interface in AL for Business Central: page types, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, build, customize and debug the client UI."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:25.570Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
+  prompts:
+    hub-topic: 1
+  input_hash: c05ce1eaa449de58ee38a5121c7ea0897eb30d49732c1492baa77c5387cf92ce
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -318,7 +319,9 @@ links:
   videos:
     - video/2Zz55J8rt8I
     - video/rWZcmEwwVHg
-  posts: []
+  posts:
+    - post/demiliani-com/12498
+    - post/demiliani-com/12623
   guidelines: []
 learn_toc_path:
   - Development
@@ -338,18 +341,37 @@ coverage:
   learn: 69
   code: 0
   video: 2
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
-narrative: none
+narrative: generated
 ---
 
 # Pages and the user interface
 
-> Learn section Development > Programming in the AL language > Pages and the user interface: 69 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> Pages and the user interface in AL for Business Central: page types, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, build, customize and debug the client UI.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to build the Business Central user interface in AL. The core material is in the subtopics: Pages (page objects, extensions and page types), Role centers, Actions, Views and Profiles. Together they define what users see, which actions they can take and how the experience is tailored to a role.
+
+Further subtopics cover deep links, which open specific content in the web client or mobile app, and development for the mobile app on tablet and phone. The section's own pages give the overview and supporting tools. "Designing the User Interface" introduces page types, role centers, actions, views, queries and profiles. "Customize the user interface for user roles" explains the layered approach from role centers to personalization. "Inspecting pages" describes the Page Inspection pane for debugging. The "Control Add-in Style Guide" gives CSS colors and typography for add-ins.
+
+Start with "Designing the User Interface" for orientation. Then go to Pages for building, and to Role centers and Profiles to tailor the experience for roles.
+
+## Key points
+
+- Pages subtopic (33 pages) covers page objects and extensions, Card, List, Document, part, PromptDialog, ConfigurationDialog and NavigatePage types, FactBoxes, tiles, teaching tips, Power BI embedding and Copilot prompt dialogs.
+- Role centers are role-tailored home pages built with navigation menus, cues, action tiles and headlines.
+- Actions pages cover actionref syntax, action areas, promoted groups, the modern action bar with split buttons and prompt actions that launch Copilot.
+- UI customization is layered: Role Centers, page extensions, profiles, page customizations and personalization.
+- Views define alternative filtered, sorted list layouts. They can be migrated from legacy Role Center views and packaged in extensions.
+- Profiles define user roles that control which pages and reports a user sees, using profile objects, profile extensions and page customization objects.
+- Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.
+- Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code. It is listed under 2023 release wave 2.
 
 ## Subtopics
 
@@ -372,6 +394,8 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property supports None (default, visible) and Concealed"
+- [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
 - [What's New: Business Central User Experience (2024 release wave 2)](../../../../videos/rWZcmEwwVHg.md) (video): "Access Keys for Additional Languages; Modernized Search with Full-Text Index; Faster Column Resizing"
 

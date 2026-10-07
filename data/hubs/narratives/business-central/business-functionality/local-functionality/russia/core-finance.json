@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/russia/core-finance",
+  "input_hash": "0b281bcb76394d66044093e743ab926eae9a41d43547d9924ef89981cf62130e",
+  "summary": "Core finance for Russia in Business Central covers local currency information and exchange rate import from Russian banks, general ledger correspondence, and financial reports. It answers questions about setting up these features, building statutory reports, and comparing results with budgets.",
+  "overview": "Core finance for Russia groups the Russian local finance features. It has four pages: currency setup, general ledger correspondence, an overview of financial reports, and a guide to working with them.\n\nStart with the currency page to describe the local currency and import exchange rates from Russian banks. Then read the general ledger correspondence page, which explains how correspondence transactions between GL accounts are created for audit trails, including automatic posting, and how to analyze account turnovers and correspondence entries.\n\nFor reporting, read the Financial Reports overview first. It explains the Financial Reports page and its building blocks: column layouts, GL correspondence, constants, extensions and expressions. Then use the Working with Financial Reports page for the steps: account categories, row and column layouts, percentages and budget comparisons.",
+  "key_points": [
+    "Currency information setup holds local currency details and imports exchange rates from Russian banks, using Russian bank codes.",
+    "Exchange rate import includes conflict resolution options.",
+    "General ledger correspondence creates correspondence transactions between GL accounts to provide an audit trail.",
+    "GL correspondence can be posted automatically.",
+    "Analysis reports show account turnovers and correspondence entries.",
+    "Financial reports use user-defined rows and columns for statutory reporting, set up on the Financial Reports page.",
+    "Report building blocks include column layout, GL correspondence, constants, extensions and expressions.",
+    "Financial reports can use account categories, calculate percentages, compare with budget entries, and are produced with the Generate Financial Reports action."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:31.678Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010607
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:39.260Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says GL correspondence transactions are created 'either manually or automatically'; the source supports only creation of correspondence transactions and automatic posting, not manual creation. Reworded to 'including automatic posting'.",
+      "Overview opened with 'This section groups'; reworded to name the subject directly."
+    ],
+    "input_hash": "0b281bcb76394d66044093e743ab926eae9a41d43547d9924ef89981cf62130e",
+    "cost_usd": 0.0384512
+  }
+}

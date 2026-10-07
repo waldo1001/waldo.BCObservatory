@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/built-in-fixed-assets-analytics-tools
 type: topic
 title: Built-in fixed assets analytics tools
-summary: "Learn section Business functionality > Fixed assets > Fixed assets analytics > Built-in fixed assets analytics tools: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Built-in fixed assets analytics tools in Business Central cover disposing or retiring, insuring, maintaining, budgeting and reclassifying fixed assets. It answers how-to questions about posting disposals, managing insurance coverage, tracking maintenance costs, budgeting assets, and transferring, splitting or combining assets.
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:50.620Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3fd9e7e5068129eacc5e6cfcf69e6436ddfe99ebb55d3b8de07ceab05ce70ae0
+  prompts:
+    hub-topic: 1
+  input_hash: 4a34d09a0d80dd39bcfde98c2fd8cfa1664cdad2cdee01b8f5b1ae9add81f247
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-how-dispose-retire
@@ -106,14 +107,32 @@ bc_forms:
   - 5656
   - 9275
 member_hash: 3fd9e7e5068129eacc5e6cfcf69e6436ddfe99ebb55d3b8de07ceab05ce70ae0
-narrative: none
+narrative: generated
 ---
 
 # Built-in fixed assets analytics tools
 
-> Learn section Business functionality > Fixed assets > Fixed assets analytics > Built-in fixed assets analytics tools: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in fixed assets analytics tools in Business Central cover disposing or retiring, insuring, maintaining, budgeting and reclassifying fixed assets. It answers how-to questions about posting disposals, managing insurance coverage, tracking maintenance costs, budgeting assets, and transferring, splitting or combining assets.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Built-in fixed assets analytics tools · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Built-in fixed assets analytics tools · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+This section groups five task-focused pages on managing fixed assets over their life. Each page describes one process and the journals, registrations or reports that support it. There are no subtopics.
+
+Dispose or retire FA and Reclassify fixed assets deal with changing an asset's status or allocation. They use the Fixed Asset G/L Journal and the Fixed Asset Reclassification Journal. Insure fixed assets and Maintain fixed assets cover ongoing upkeep and risk: policies, coverage checks, maintenance costs and service scheduling. Manage FA Budgets covers planning, including budgeted acquisitions and disposals and projected depreciation.
+
+Start with the page that matches the task. For the asset lifecycle, read the budget page first, then maintenance and insurance, then reclassification and disposal.
+
+## Key points
+
+- Disposal or retirement is posted through the Fixed Asset G/L Journal. It records gains or losses, supports partial disposal, and tracks CO2e emissions when applicable.
+- Insurance pages cover creating policies, assigning fixed assets, tracking coverage, updating values with index insurance, and automatic insurance posting.
+- Reports monitor over-insurance and under-insurance.
+- Maintenance costs are recorded with maintenance registrations, journals and invoices. The page also covers service scheduling, maintenance reports and indexation.
+- FA budgets cover budgeted assets, acquisition and disposal budgeting, projected disposal values, and depreciation and gain/loss forecasting.
+- The Fixed Asset Reclassification Journal transfers, splits or combines assets across departments.
+- Reclassification redistributes acquisition cost, depreciation and emissions.
 
 ## Learn pages
 

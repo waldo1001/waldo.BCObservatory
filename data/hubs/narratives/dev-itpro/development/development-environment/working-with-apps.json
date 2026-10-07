@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/development/development-environment/working-with-apps",
+  "input_hash": "d7b051a31bf217e846cc14d1e771d6571e5ebacba5e0e374edf965cccd04ae18",
+  "summary": "Working with apps covers how to configure and package Business Central extensions in AL: app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps. It answers setup and manifest questions for extension developers.",
+  "overview": "This section is about the app-level settings and contents of a Business Central extension, mostly driven by the app.json manifest. It covers who the app is (ID, name, publisher, version, scope), which runtime version it targets, and what it carries with it (resources and data).\n\nStart with App identity and Choose runtime version in AL, since they define the manifest basics. Then use Adding and Accessing Resources and Adding data for Extensions when the app needs to ship files or install-time data. The FAQ on library and dependency apps explains shared code across Marketplace apps and how dependencies get installed.",
+  "key_points": [
+    "App identity describes the app.json fields for app ID (GUID), version, name, publisher and scope (Global/Tenant), and when it is acceptable to change them.",
+    "The runtime version is set in app.json (for example \"runtime\": \"18.0\"); an extension can be published to servers with an equal or later runtime version.",
+    "Resources are packaged with resourceFolders and publicResourceFolders in app.json; private resources are used locally, public ones can be read by other extensions.",
+    "Resource limits are 16 MB per file, 128 MB per folder and 256 files; resources require runtime version 18.0.",
+    "Extensions can include permission sets, web services, table data and custom report layouts to be imported during installation.",
+    "The NavApp.LoadPackageData procedure is part of loading packaged table data.",
+    "Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.",
+    "The FAQ also touches on version control and technical validation of library apps."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:12.784Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011771
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:53.954Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'resources require runtime version 18.0' goes slightly beyond the source. The Resources page summary only lists runtime version 18.0 among its versions, so 'require' is a reasonable but slightly stronger reading."
+    ],
+    "input_hash": "d7b051a31bf217e846cc14d1e771d6571e5ebacba5e0e374edf965cccd04ae18",
+    "cost_usd": 0.029583199999999997
+  }
+}

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple
 type: topic
 title: Consolidate financial data from multiple companies
-summary: "Learn section Business functionality > Finance > Multi-site and international organizations > Consolidate financial data from multiple companies: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Company consolidation in Business Central: combining general ledger data from subsidiaries or business units into a consolidated company. It answers questions about what consolidation supports (different charts of accounts, currencies, fiscal years, environments) and how to set it up, simply or in advanced mode."
 tier: official
 language: en
 system: finance
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 70d3f90d8a3f55c26dfb50f9b81e30c2c724c37f787bebbd8add7811cca4950f
+  prompts:
+    hub-topic: 1
+  input_hash: 29e29c5ddd0d3d452fad5aabd1754594e0dbce0417b0fc359a92606ae8db8c43
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting
@@ -68,14 +69,32 @@ bc_forms:
   - 1827
   - 4410
 member_hash: 70d3f90d8a3f55c26dfb50f9b81e30c2c724c37f787bebbd8add7811cca4950f
-narrative: none
+narrative: generated
 ---
 
 # Consolidate financial data from multiple companies
 
-> Learn section Business functionality > Finance > Multi-site and international organizations > Consolidate financial data from multiple companies: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Company consolidation in Business Central: combining general ledger data from subsidiaries or business units into a consolidated company. It answers questions about what consolidation supports (different charts of accounts, currencies, fiscal years, environments) and how to set it up, simply or in advanced mode.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Company consolidation lets you bring financial data from several subsidiaries or business units into one consolidated company. It handles differences between the source companies, including charts of accounts, currencies, fiscal years and environments. Related topics include eliminations, currency exchange rates, G/L account mapping and file-based transfer.
+
+The section has two pages. The first, "Consolidate data from multiple companies", explains the concept and what the process supports. The second, "Set up company consolidation", covers configuration, with either a simple assisted setup or an advanced manual setup that includes business units, account mapping, exchange rates, currency translation and dimension consolidation.
+
+Start with the overview page to understand the scenario and its capabilities. Then use the setup page to choose between assisted and advanced configuration based on how different your companies are.
+
+## Key points
+
+- Consolidates general ledger entries from multiple subsidiaries or business units into a consolidated company.
+- Supports different charts of accounts, currencies, fiscal years and environments.
+- Setup can be a simple assisted setup or an advanced manual configuration.
+- Advanced setup covers business unit setup, G/L account mapping, exchange rates and currency translation.
+- Dimension consolidation is part of the setup.
+- Eliminations are part of the consolidation process.
+- File-based transfer is available for moving data between companies.
 
 ## Learn pages
 

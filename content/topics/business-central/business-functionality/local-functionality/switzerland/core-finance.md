@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/core-finance
 type: topic
 title: Core finance
-summary: "Learn section Business functionality > Local functionality > Switzerland > Core finance: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:14.133Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ce5de48984464cd684f8f521cbd5e87a9f4789312049b0a6ef7441018afa6d37
+  prompts:
+    hub-topic: 1
+  input_hash: bdb25425a1e53fdb4861a5febc40a8d611de78cf4dc0b74858e4d2de244b39fd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
@@ -84,14 +85,33 @@ coverage:
 bc_forms:
   - 11500
 member_hash: ce5de48984464cd684f8f521cbd5e87a9f4789312049b0a6ef7441018afa6d37
-narrative: none
+narrative: generated
 ---
 
 # Core finance
 
-> Learn section Business functionality > Local functionality > Switzerland > Core finance: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Core finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Swiss-specific general ledger functionality. It covers how Swiss G/L accounts work (foreign currency balances on bank accounts, text data types for the standardized Swiss KMU chart of accounts), and how to check balances before and after posting.
+
+Three pages deal with balances: G/L balance shows provisional balances including posted entries and current journal postings, Swiss General Ledger Accounts describes the temporary balance preview, and View temporary balances in GL journals explains how to see the effect of posting, including foreign currency amounts, before you post.
+
+The remaining pages cover setup and VAT: How to Adjust Exchange Rates describes converting VAT currency using official Federal Tax Administration rates, and Print General Ledger Setup Information describes the report used to verify master data. Start with Swiss General Ledger Accounts for the overall picture, then go to the task page you need.
+
+## Key points
+
+- G/L balance shows provisional balances from posted entries plus current journal postings, and helps confirm bank balances after recording transactions.
+- Balance views include journal balance, all journals balance and actual journal balance.
+- Swiss G/L accounts can hold foreign currency balances on bank accounts, set up through a currency code.
+- Accounts use text data types to support the standardized Swiss KMU chart of accounts.
+- Temporary balances in G/L journals show how posting would change account balances, including foreign currency amounts, before you post.
+- VAT exchange rate adjustment uses official Federal Tax Administration rates for VAT statements.
+- The G/L Setup Information report displays G/L setup, posting groups, posting matrix, and VAT setup, and checks number series.
+- The setup report also supports GDPdU compliance checks.
 
 ## Learn pages
 

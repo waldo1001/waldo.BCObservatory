@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic",
+  "input_hash": "d854616b15b29a7c53ea7cbea747cf041c2e910c5b02f94eb0d4240114a38e50",
+  "summary": "Czech Republic local functionality in Business Central: the Core and Advanced Localization Packs, fixed assets, manufacturing cost returns, and subtopics for finance, VAT, banking, advance payments, payables and receivables, inventory, and general user control. It answers questions about Czech accounting and tax compliance features.",
+  "overview": "The Czech localization is delivered as extensions that add features for Czech accounting and tax legislation. The Core Localization Pack covers corrections posting, statutory company information, VAT date, VAT statement, multi-circuit accounting and inventory handling. The Advanced Localization Pack adds general ledger entries application, dimension automation, transfer order posting groups, item ledger fields and SKU posting group setup. A separate fixed asset extension and a page on mandatory returning of exact costs in manufacturing cover those areas.\n\nThe hub's own pages give the overview. \"Czech Local Functionality\" lists what exists across finance, VAT, fixed assets, banking, advance payments, payables and receivables, inventory, manufacturing and general areas. The subtopics go into detail: Core Finance, VAT, Banking and Payments, Advance Payments, Payables and Receivables, Inventory, and General.\n\nStart with the Czech Local Functionality overview to find which extension provides a feature. Then go to the matching subtopic for setup and use. VAT and Core Finance are the largest subtopics, with 16 and 14 pages.",
+  "key_points": [
+    "Core Localization Pack for Czech covers corrections posting, statutory company information, internal financial documents, financial reports, VAT date and VAT statement.",
+    "Advanced Localization Pack adds G/L entries application, automatic dimension creation, posting groups in transfer orders, extra item ledger fields, and gen. prod. posting group from SKU.",
+    "Fixed asset extension adds tax depreciation, depreciation basis calculation, depreciation holidays, two-step acquisition, disposal posting, classification codes and location history.",
+    "VAT subtopic covers VAT date and periods, reverse charge, non-deductible VAT, unreliable payer checks, control report, VIES, VAT returns and Intrastat.",
+    "Banking and Payments covers two extensions: banking documents (payment orders, bank statements, bank files) and cash desk.",
+    "Advance Payments covers a localization extension for sales and purchase advances, including setup of templates and VAT posting.",
+    "Payables and Receivables covers compensation, balance reconciliations, exchange rate adjustments, sales correcting documents and ARES contact updates.",
+    "General covers extended user control (user-to-employee assignment, date validation, access control) and modern search on lists."
+  ],
+  "members_used": 5,
+  "subtopics_used": 7,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:12.684Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018287
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:14:42.630Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the Advanced Localization Pack summary also lists manufacturing cost returns. The overview presents that topic only as a separate page, which is not wrong but leaves out the link between them.",
+      "Minor: the key points cover neither the Core Finance subtopic (14 pages) nor the Inventory subtopic (12 pages), even though they are among the largest. The overview does mention them."
+    ],
+    "input_hash": "d854616b15b29a7c53ea7cbea747cf041c2e910c5b02f94eb0d4240114a38e50",
+    "cost_usd": 0.0375912
+  }
+}

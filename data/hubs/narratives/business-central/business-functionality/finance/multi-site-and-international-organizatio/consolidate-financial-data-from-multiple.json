@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple",
+  "input_hash": "29e29c5ddd0d3d452fad5aabd1754594e0dbce0417b0fc359a92606ae8db8c43",
+  "summary": "Company consolidation in Business Central: combining general ledger data from subsidiaries or business units into a consolidated company. It answers questions about what consolidation supports (different charts of accounts, currencies, fiscal years, environments) and how to set it up, simply or in advanced mode.",
+  "overview": "Company consolidation lets you bring financial data from several subsidiaries or business units into one consolidated company. It handles differences between the source companies, including charts of accounts, currencies, fiscal years and environments. Related topics include eliminations, currency exchange rates, G/L account mapping and file-based transfer.\n\nThe section has two pages. The first, \"Consolidate data from multiple companies\", explains the concept and what the process supports. The second, \"Set up company consolidation\", covers configuration, with either a simple assisted setup or an advanced manual setup that includes business units, account mapping, exchange rates, currency translation and dimension consolidation.\n\nStart with the overview page to understand the scenario and its capabilities. Then use the setup page to choose between assisted and advanced configuration based on how different your companies are.",
+  "key_points": [
+    "Consolidates general ledger entries from multiple subsidiaries or business units into a consolidated company.",
+    "Supports different charts of accounts, currencies, fiscal years and environments.",
+    "Setup can be a simple assisted setup or an advanced manual configuration.",
+    "Advanced setup covers business unit setup, G/L account mapping, exchange rates and currency translation.",
+    "Dimension consolidation is part of the setup.",
+    "Eliminations are part of the consolidation process.",
+    "File-based transfer is available for moving data between companies."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:49.602Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009157
+  }
+}

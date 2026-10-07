@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands
 type: topic
 title: Netherlands
-summary: "Learn section Business functionality > Local functionality > Netherlands: 28 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Netherlands local functionality in Business Central (NL version): VAT and ICP declarations via Digipoort, audit files, telebanking, payment and collection proposals, SEPA payments, G/L entry handling, purchase amount checks, CMR notes and Dutch post codes. It answers setup and how-to questions for Dutch-specific features."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:24.825Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 76507945b94db39cce79216de04348c9fed0ad2ab3fdc5fe9da05e81516c139a
+  prompts:
+    hub-topic: 1
+  input_hash: 1a0f7658bbc0fcc028f41349e18fa6f7c047927e330b2f8da5392b90258b2c33
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments
@@ -249,14 +250,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 76507945b94db39cce79216de04348c9fed0ad2ab3fdc5fe9da05e81516c139a
-narrative: none
+narrative: generated
 ---
 
 # Netherlands
 
-> Learn section Business functionality > Local functionality > Netherlands: 28 Microsoft Learn pages in 5 subtopics. Index of what Learn documents here, linked to Learn.
+> Netherlands local functionality in Business Central (NL version): VAT and ICP declarations via Digipoort, audit files, telebanking, payment and collection proposals, SEPA payments, G/L entry handling, purchase amount checks, CMR notes and Dutch post codes. It answers setup and how-to questions for Dutch-specific features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Netherlands · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Netherlands · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Netherlands hub collects the Dutch local features of Business Central. It starts with a reference guide, "Netherlands Local Functionality [NL]", which lists the areas: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal code management. Subtopics then go into each area.
+
+Banking and payments is the largest subtopic (15 pages). It covers telebanking, payment and collection proposals, payment history export, cash, bank and giro journals, bank statement import and SEPA ISO 20022. VAT (4 pages) covers electronic VAT and ICP declarations through Digipoort, VAT categories and the audit file for the Dutch tax authority.
+
+Smaller subtopics cover core finance (applying and unapplying G/L entries, required descriptions), purchasing (document amount checks on invoices and credit memos) and general topics (CMR notes and post code import). Start with the reference guide, then open the subtopic that matches your task.
+
+## Key points
+
+- The reference guide lists all Dutch local functionality: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal codes.
+- VAT: set up and submit electronic VAT and ICP declarations through Digipoort, including certificate setup.
+- VAT: configure VAT categories and create an audit file for the Dutch tax authority.
+- Banking and payments: telebanking, payment and collection proposals, payment history export, and cash, bank and giro journals.
+- Banking and payments: bank statement import and SEPA ISO 20022 payments for domestic and foreign flows.
+- Core finance: apply and unapply G/L entries, and require descriptions on G/L entries to support audit trails.
+- Purchasing: check document amounts on purchase invoices and credit memos, and edit the document amount including VAT and the VAT amount.
+- General: print CMR notes under the UN CMR Convention, and subscribe to and import Dutch post code data and monthly updates.
 
 ## Subtopics
 

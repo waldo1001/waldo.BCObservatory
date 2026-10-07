@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare",
+  "input_hash": "03b97b234ebde8a7714b553f60436119559751a849e6348589fbe547996ad1de",
+  "summary": "Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling.",
+  "overview": "This section covers the steps to take before running a cloud migration from Dynamics SL to Business Central online. It has two pages: one on prerequisites and one on planning and preparation.\n\nStart with the prerequisites page. It lists what the destination environment, the source system and the database must meet, including SUPER permissions, Intelligent Cloud Base, SQL Server requirements and a self-hosted integration runtime.\n\nThen read the planning page. It covers the Migration Assessment Tool, Analysis Tool and Repair Tool, choosing which data to migrate, migration approaches such as replication, a data backup strategy, and scheduling.",
+  "key_points": [
+    "Prerequisites cover three areas: the destination environment, the source system, and database specifications.",
+    "SUPER permissions are listed as a prerequisite.",
+    "Intelligent Cloud Base is part of the prerequisites.",
+    "SQL Server requirements apply to the source database.",
+    "A self-hosted integration runtime is needed for the migration.",
+    "Planning uses the Migration Assessment Tool, Analysis Tool and Repair Tool.",
+    "Planning includes choosing which data to migrate, picking a migration approach (including replication), and scheduling.",
+    "A data backup strategy is part of preparation."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:46.070Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008611
+  }
+}

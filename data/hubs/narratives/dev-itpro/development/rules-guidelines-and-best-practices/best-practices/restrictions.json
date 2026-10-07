@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions",
+  "input_hash": "83ad3ae4dd373884c863e3e75851ff29096fcf42040fa94ff843d98576e6a505",
+  "summary": "Restrictions in Business Central development best practices covers what AL code should avoid: UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events. It answers questions on how to avoid sign-in errors, login slowdowns and web service exceptions.",
+  "overview": "This section lists restrictions that developers should follow when writing extensions. One page deals with web services, where code must not show dialogs or message boxes. The other two deal with company-open and login events, which can slow or break sign-in when subscribers misbehave.\n\nThe two login pages are migration guides. One moves subscribers from the obsolete OnCompanyOpen event to the isolated OnAfterLogin event. The other gives patterns for removing OnBeforeCompanyOpen and OnAfterCompanyOpen to improve login performance.\n\nStart with the page that matches your problem: web service UI errors, sign-in failures caused by subscriber errors, or slow login from the deprecated events.",
+  "key_points": [
+    "Code in objects exposed as web services must not use UI elements such as dialogs, message boxes or confirmation dialogs, because they cause exceptions.",
+    "GuiAllowed is the related check for deciding whether UI can be shown.",
+    "OnCompanyOpen is obsolete; subscribers should move to the isolated OnAfterLogin event.",
+    "Isolated events keep subscriber errors from causing sign-in failures.",
+    "OnCompanyOpenCompleted is also named in the migration guidance.",
+    "OnBeforeCompanyOpen and OnAfterCompanyOpen are deprecated; removing them improves login performance.",
+    "Replacement patterns mentioned include OnCompanyInitialize and TaskScheduler."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:08.499Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010295
+  }
+}

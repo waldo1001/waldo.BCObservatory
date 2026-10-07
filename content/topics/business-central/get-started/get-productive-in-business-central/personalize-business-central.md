@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/personalize-business-central
 type: topic
 title: Personalize Business Central
-summary: "Learn section Get started > Get productive in Business Central > Personalize Business Central: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Personalizing Business Central: moving, hiding and showing page elements, choosing list layouts, saving list views, bookmarking pages on the role center, and where personalization is stored. It also explains why a page may be locked from personalization."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:05.624Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 665f51dffc3ef943b12ee7109eb9a5771cc2dc89af3fbfc16fe19e9d2845867b
+  prompts:
+    hub-topic: 1
+  input_hash: d6adfc8df3864e1777b7177ed80b2fb81113352bf58101eb910fd4e8665394eb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
@@ -105,14 +106,32 @@ bc_forms:
   - 9027
   - 9030
 member_hash: 665f51dffc3ef943b12ee7109eb9a5771cc2dc89af3fbfc16fe19e9d2845867b
-narrative: none
+narrative: generated
 ---
 
 # Personalize Business Central
 
-> Learn section Get started > Get productive in Business Central > Personalize Business Central: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Personalizing Business Central: moving, hiding and showing page elements, choosing list layouts, saving list views, bookmarking pages on the role center, and where personalization is stored. It also explains why a page may be locked from personalization.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Personalize Business Central · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Personalize Business Central · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section covers how a user adapts Business Central to their own way of working. The main page, "Personalize your workspace", describes moving, hiding or showing fields, columns, actions and parts, plus freeze panes, Quick Entry configuration, action bar customization and FactBox resizing.
+
+Other pages cover narrower tasks: displaying lists as rows, tiles, tall tiles or created/modified by columns; saving and managing list views; and bookmarking pages and reports on the role center. Two reference pages explain where personalization is stored (roaming versus local to the browser) and why a page can be locked from personalization.
+
+Start with "Personalize your workspace" for the general approach. Then use the list and bookmark pages for specific needs. Check the storage and locked-page pages when personalization does not appear on another device or cannot be changed.
+
+## Key points
+
+- Personalization lets you move, hide or show fields, columns, actions and parts on pages, and applies across devices and browsers for the signed-in user.
+- Further options include freeze pane management, Quick Entry configuration, action bar customization and FactBox resizing.
+- List pages can be shown as list rows, tiles, tall tiles, or with created/modified by columns; item pictures can appear in tile layouts.
+- List views are saved filter configurations that can be renamed, removed, bookmarked on the role center and personalized.
+- Bookmarks to pages and reports are managed with the bookmark icon on pages and in the Tell Me window.
+- Some personalization roams across devices, while other settings are stored locally in the browser.
+- A page can be locked from personalization because of version incompatibility with deprecated clients or role-specific tailoring by administrators.
 
 ## Learn pages
 

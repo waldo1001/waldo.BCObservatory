@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-kingdom/vat",
+  "input_hash": "04be31e2853de7857d1374ba7648419d3634cfdeaa76441fa2cd5f7a1826cd02",
+  "summary": "United Kingdom VAT functionality in Business Central: Making Tax Digital VAT return submission to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. It answers how-to questions for the British version.",
+  "overview": "This section covers VAT tasks specific to the British version of Business Central. It includes filing VAT returns with HMRC through Making Tax Digital, adjusting how VAT setup is applied to journal lines, printing VAT-related reports, and setting up reverse charge VAT.\n\nThe pages are independent task guides. Start with Making Tax Digital - Submitting VAT Returns if you need to connect to HMRC and file returns. Use the reverse charge page for setup on electronic goods and integrated circuit devices. The two reporting pages cover audit exports and day book or unposted reports. The journal page is a short settings change.",
+  "key_points": [
+    "Making Tax Digital: set up the HMRC service connection, then retrieve VAT obligations.",
+    "VAT return steps: create the return, suggest lines, release it, and submit it.",
+    "You can also retrieve VAT liabilities and payments from HMRC.",
+    "Journals: the Copy VAT Setup to Jnl. Lines checkbox copies VAT setup to journal lines. Clear it when items have no VAT.",
+    "VAT Audit and VAT Entry Exception reports export CSV data for customers, vendors, open payments, late invoicing and VAT entries.",
+    "Day Book and Unposted reports show VAT entries, customer and vendor ledger entries, and unposted sales or purchase documents. They can show amounts in LCY or the additional reporting currency.",
+    "Reverse charge VAT is meant to prevent carousel fraud on electronic goods and integrated circuit devices. It uses VAT business posting groups and the Reverse Charge Applies field on the item card.",
+    "A Reverse Charge Sales List report is available."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:52.249Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012059
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:22.231Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'Reverse Charge Applies field on the item card' combines the page summary's 'item card settings' with the feature 'Reverse Charge Applies field'. This is a reasonable inference but not stated word for word.",
+      "Minor: 'The journal page is a short settings change' is an editorial judgement. It fits a summary that describes selecting one checkbox.",
+      "Minor: the VAT return 'steps' order (create, suggest lines, release, submit) follows the source's feature list order. That order is probably correct but the source does not state it."
+    ],
+    "input_hash": "04be31e2853de7857d1374ba7648419d3634cfdeaa76441fa2cd5f7a1826cd02",
+    "cost_usd": 0.0399552
+  }
+}

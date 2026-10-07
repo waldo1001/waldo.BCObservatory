@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-shopify
 type: topic
 title: Integrating with Shopify
-summary: "Learn section Integration > Integrating with Shopify: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 32c6ff0c0bbb23b78f5724724a4ddd5f8f0a1fb37c166784fdcea3a3a85d51af
+  prompts:
+    hub-topic: 1
+  input_hash: a73bbdbff0b4f31f1add6c66f16e419b04307066ea380b39f71344f1ebd14e77
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-faq
@@ -98,14 +99,33 @@ bc_forms:
   - 30156
   - 30157
 member_hash: 32c6ff0c0bbb23b78f5724724a4ddd5f8f0a1fb37c166784fdcea3a3a85d51af
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Shopify
 
-> Learn section Integration > Integrating with Shopify: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.
 
-Path: [Integration](../integration.md) > Integrating with Shopify · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Integrating with Shopify · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+The Shopify Connector links Shopify stores to Business Central and keeps items, prices, inventory, customers, companies and orders in sync between the two systems. The section has four pages and no subtopics.
+
+Start with "Getting started with the connector for Shopify" for the overall picture and how to connect a store. Then use "Set up and use the Shopify Connector" for the walkthrough of product sync, customer management, order processing, B2B flows, price and discount configuration, and importing data from Shopify.
+
+For developers and administrators, the technical FAQ covers product compatibility, the supported GraphQL Admin API versions, the extensibility model, and how quarterly API deprecations are handled in Business Central online. When sync does not behave as expected, the troubleshooting page explains how to run tasks in the foreground, read logs, check skipped records and reset sync dates.
+
+## Key points
+
+- The connector synchronizes items, prices, inventory, customers, companies and orders between Shopify and Business Central.
+- The setup walkthrough covers product synchronization, inventory sync, customer import, order sync, price management, discount configuration and B2B flows.
+- The technical FAQ covers the GraphQL Admin API, API versioning and quarterly API deprecation management for Business Central online.
+- Extensibility uses integration events, public façade codeunits and extensible enums.
+- The FAQ mentions 2026 release wave 1 and 2026 release wave 2.
+- Troubleshooting starts with running tasks in the foreground and reviewing logging modes and log entries.
+- Skipped records can be tracked, and data retention policies apply to logs.
+- A sync reset (resetting sync dates) is available as a troubleshooting step.
 
 ## Learn pages
 

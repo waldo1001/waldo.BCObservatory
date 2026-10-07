@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed
 type: topic
 title: Legacy reports (will be removed)
-summary: "Learn section Business functionality > Sales > Sales analytics > Legacy reports (will be removed): 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Legacy sales analytics reports in Business Central that are marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics. Use it to find what each report shows, which filters it offers, and what it is used for."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:32.865Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 42daad5e79c2ba6b14c7d2c5f0fc9f56bc9e524e64a4d4eebb3ca034e6b8064b
+  prompts:
+    hub-topic: 1
+  input_hash: 45d3ab70abe103c317eb8c6df449f0830effd7c5c5f372476181291ca3d5a568
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-119
@@ -88,14 +89,33 @@ bc_forms:
   - 119
   - 209
 member_hash: 42daad5e79c2ba6b14c7d2c5f0fc9f56bc9e524e64a4d4eebb3ca034e6b8064b
-narrative: none
+narrative: generated
 ---
 
 # Legacy reports (will be removed)
 
-> Learn section Business functionality > Sales > Sales analytics > Legacy reports (will be removed): 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Legacy sales analytics reports in Business Central that are marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics. Use it to find what each report shows, which filters it offers, and what it is used for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Legacy reports (will be removed) · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Legacy reports (will be removed) · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section holds reference pages for five older reports under Sales analytics. The section title says they will be removed, so treat them as existing functionality that may not be available later.
+
+Three reports cover customers. Customer List shows basic customer data such as posting groups, discount groups, finance charge and payment details. Customer - Sales list shows sales per customer for a period in local currency. Customer - Top 10 list ranks customers by sales and balance and can show the result as a bar or pie chart. The other two cover sales documents and results. Sales Reservation Avail. shows whether items can be shipped given inventory reservations. Sales Statistics shows sales, profit, discounts and profit percentage per customer over three selectable periods.
+
+There are no subtopics. Each page describes one report, so start with the page that matches the question: customer master data, period sales, ranking, shipment availability or profit.
+
+## Key points
+
+- Customer - Sales list shows customer sales for a period in local currency, can filter by a minimum sales amount, and can include address details.
+- Customer - Top 10 list ranks top customers by sales transactions and balances within a period, with bar or pie chart output.
+- Customer List shows posting groups, discount groups, finance charge and payment information, for maintaining customer data and preparing account summaries or sales reports.
+- Sales Reservation Avail. shows item availability for shipment on sales documents based on inventory reservations; when printed it allows updating quantities to ship.
+- Sales Reservation Avail. helps decide which sales orders to fulfill based on inventory.
+- Sales Statistics shows sales amounts, profit, invoice and payment discounts, and profit percentage per customer across three selectable periods.
+- Sales Statistics shows original and adjusted costs and profits, reflecting item cost changes.
+- All five reports are listed as legacy and will be removed.
 
 ## Learn pages
 

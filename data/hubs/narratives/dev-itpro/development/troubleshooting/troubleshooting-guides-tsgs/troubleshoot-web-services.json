@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs/troubleshoot-web-services",
+  "input_hash": "d9bf00fe3b667712e7655b2e957b0c4f9a39427f090b4cc21b1608d9487ae80b",
+  "summary": "Troubleshooting guides for Business Central web services (OData, API and SOAP). They answer questions about failed calls, HTTP status codes, OData error codes, how AL runtime exceptions map to OData errors, and which telemetry and debugging tools help find the cause.",
+  "overview": "This section holds two troubleshooting guides for failed web service calls in Business Central. One is a general guide for OData, API and SOAP errors. The other focuses on REST API and OData calls.\n\nThe general guide helps you decide whether an error comes from the client, the network or the server endpoint. It points to HTTP status codes, web service telemetry, OData error codes, debugging tools, external service calls and comparing environments.\n\nThe REST API/OData guide goes deeper on error codes and maps AL runtime exceptions to the OData error messages they produce. Start with the general guide to locate the source of the failure. Then use the REST API/OData guide to interpret specific error responses.",
+  "key_points": [
+    "Two pages: a general guide for OData, API and SOAP errors, and one specific to REST API/OData calls.",
+    "First step is to identify whether the error originates from the client, network or server endpoint.",
+    "HTTP status codes and OData error codes are the main signals for diagnosing a failed call.",
+    "Web service telemetry is a key tool for investigating failures.",
+    "The REST API/OData page maps AL runtime exceptions to OData error messages.",
+    "The AL debugger and other debugging tools can be used to investigate server-side problems.",
+    "Comparing environments and checking external service calls are listed as troubleshooting approaches."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:23.928Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009103
+  }
+}

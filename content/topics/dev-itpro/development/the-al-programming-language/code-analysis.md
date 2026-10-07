@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -80,10 +80,12 @@ links:
   topics:
     - topic/dev-itpro/development/the-al-programming-language
   localizations: []
-  videos: []
+  videos:
+    - video/i0gBrA1tx50
   posts:
     - post/vondervoort-be/130
     - post/vondervoort-be/147
+    - post/vondervoort-be/24
   guidelines: []
 learn_toc_path:
   - Development
@@ -95,8 +97,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
-  blog: 2
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -125,5 +127,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
+- [Rethinking LinterCop: Preparing for the Next Chapter](../../../../posts/vondervoort-be/24.md) (community post): "LinterCop, a code analyzer for AL, faces architectural limitations"
+- [What’s new: ALGraph (2026 release wave 2)](../../../../videos/i0gBrA1tx50.md) (video): "AL Graph; call graphs; code auditing; security analysis; AL Graph query language"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

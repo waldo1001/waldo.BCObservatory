@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/banking-and-payments",
+  "input_hash": "9c43faf05880c4410f04dd554b1399bd00bd53322e8f5c0eaeef777762d8134a",
+  "summary": "Swiss banking and payments in Business Central: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, plus bank clearing number import and the Vendor Payments List report. Answers how-to questions on collecting, exporting, importing, posting and printing Swiss payments.",
+  "overview": "This section covers the electronic payment methods in the Swiss version of Business Central. Three overview pages explain them. The first, Swiss Electronic Payments, covers ESR, LSV+, SEPA credit transfers and QR-bill management with IBAN and QR-IBAN support, and also lists Bank-ESR (BESR) and DebitDirect PostFinance. The second covers ESR payment slips with unique reference numbers. The third covers LSV+ and BDD direct debit. The task pages explain how to: print ESR invoices; import ESR payments; process, close, export and post LSV+ collections; manage QR-bills; import bank clearing numbers from SIX Interbank Clearing; and print the Vendor Payments List report.",
+  "key_points": [
+    "ESR (Einzahlungsschein mit Referenznummer) covers Swiss invoices in CHF and EUR. Imported bank files are applied automatically to invoices by ESR reference number.",
+    "ESR invoices print as a sales invoice ESR report or as separate ESR coupons with deposit slips. Options include ESR System, ESR Bank code and LogInteraction.",
+    "The Read ESR File action imports ESR payments into cash receipt journals. Imported ESR files can also close matching open LSV journal lines.",
+    "LSV+ collection flow: create an LSV journal, run the LSV suggest collection batch job, register payments, create the LSV file and print the collection order.",
+    "Close an LSV collection before exporting the LSV file. A closed collection can optionally be reopened before it goes to the bank. Test Delivery Mode is available on export.",
+    "Post LSV+ payment advice from banks with the Get From LSV Journal action in cash receipt journals. LSV Status tracking applies, including the File Created status.",
+    "QR-Bill Management covers generating, scanning, importing and reconciling QR-bills. Structured addresses are supported starting October 2026.",
+    "The Import Bank Directory action loads SIX Interbank Clearing files into the Bank Directory table to define bank branch numbers. The Vendor Payments List report (AT, DE, CH) sorts by vendor or chronologically in standard, FCY amounts or posting info layouts."
+  ],
+  "members_used": 12,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:06.999Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017271
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:34.650Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says 'Two overview pages' and then names three pages: Swiss Electronic Payments, Swiss Electronic Payments Using ESR, and Swiss electronic payments using LSV+. The overview was rewritten to fix the count. It also now gives a short map of the task pages.",
+      "Key point 7 copies the source wording on structured addresses ('starting October 2026'). That claim is supported, but the source does not say whether this is new support or a new requirement, so it should not be read as more than that.",
+      "Small: the overview could mention the other methods the source lists (Bank-ESR (BESR), DebitDirect PostFinance, BDD direct debit). These were added to the rewritten overview."
+    ],
+    "input_hash": "9c43faf05880c4410f04dd554b1399bd00bd53322e8f5c0eaeef777762d8134a",
+    "cost_usd": 0.0497032
+  }
+}

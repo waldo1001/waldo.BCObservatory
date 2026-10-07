@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/sweden/core-finance",
+  "input_hash": "c9c49f7d05489f7b22169c12c44ef352cd6a6fc1e2e372596098046eb8e27e1a",
+  "summary": "Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.",
+  "overview": "This section collects the Sweden-specific finance features in Business Central. Two pages deal with automatic account assignment during posting: one describes the automatic account codes functionality, and one explains how to set up automatic account posting groups.\n\nThe other two pages cover reporting and data exchange. One explains how to import and export general ledger data in the Standard Import Export (SIE) format. The other explains how to print balance sheet and income statement reports for banks and authorities.\n\nStart with the automatic account codes page to understand the posting behavior and its move to an extension. Then use the posting groups page to configure it. Use the SIE and report pages when you exchange ledger data or prepare statutory reporting.",
+  "key_points": [
+    "Automatic account codes assign accounts automatically during posting in the Swedish version.",
+    "From version 22.1 the automatic account codes feature moved to an extension, with no functional changes.",
+    "Automatic account posting groups are set up to configure how accounts are assigned during general ledger transactions.",
+    "SIE (Standard Import Export) lets you import and export general ledger data.",
+    "In SIE you specify dimensions and file types to control the detail level of transactions.",
+    "SIE data can include year-end balances, periodic balances and object balances.",
+    "Balance sheet and income statement reports show assets, liabilities, equity, income and expenses, and are meant for banks and authorities.",
+    "The reports support account filtering and a show all accounts option."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:08.072Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010095
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:33.077Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point on SIE year-end, periodic and object balances comes from the page's feature list, not its summary. It is a fair reading but not a direct quote.",
+      "Minor: the overview starts with 'This section'. That is allowed, but starting with the subject would read better."
+    ],
+    "input_hash": "c9c49f7d05489f7b22169c12c44ef352cd6a6fc1e2e372596098046eb8e27e1a",
+    "cost_usd": 0.0201832
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle/migration/migrating-tables-and-fields-between-exte",
+  "input_hash": "c5f0ae5348e9cff7583e387127cf4bf5adc0a772024029e46f0e8e364d72b745",
+  "summary": "Migrating tables and fields between extensions in on-premises Business Central: how to move table and field data from a releasing extension to a receiving extension. It answers questions about the migration.json file, dependency graph direction, transition extensions, and synchronization ordering.",
+  "overview": "This area explains how to move table and field data from one extension to another during development and deployment. The main page sets out the constraints, the roles of the releasing and receiving extensions, the direction of the dependency graph, and the order in which extensions are synchronized.\n\nThe other pages split the work by direction. One covers moving tables and fields to extensions down the dependency graph. The other covers moving them up the dependency graph, which needs a two-stage process with a transition extension. A separate page describes the migration.json file, which names the target app ID and drives the data migration. Both direction pages reference 2020 release wave 1 version 16.5.\n\nStart with the overview page to understand the constraints and ordering. Then read the migration.json page, and finish with the page for the direction you need.",
+  "key_points": [
+    "Data migration moves table and field data across extensions during development and deployment.",
+    "The releasing extension gives up the table or field, and the receiving extension takes it over.",
+    "The direction of the dependency graph decides which migration approach to use.",
+    "The migration.json file specifies the target app ID to enable the migration.",
+    "Moving down the dependency graph uses migration.json to transfer table ownership to a lower extension, with data preservation and field renames covered.",
+    "Moving up the dependency graph is a two-stage deployment through a transition extension, and enum type fields are covered.",
+    "Synchronization ordering between extensions is a documented constraint.",
+    "The down and up pages both reference 2020 release wave 1 version 16.5."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:20.890Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010745
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:44.415Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point saying the releasing extension 'gives up' the table or field and the receiving extension 'takes it over' goes slightly beyond the summaries, which only list the two roles. It is a reasonable reading of the role names.",
+      "Minor: the key point that calls synchronization ordering a 'documented constraint' merges two separate items. The main page summary lists constraints and synchronization ordering as different topics."
+    ],
+    "input_hash": "c5f0ae5348e9cff7583e387127cf4bf5adc0a772024029e46f0e8e364d72b745",
+    "cost_usd": 0.0301952
+  }
+}

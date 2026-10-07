@@ -2,19 +2,20 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data/warehousing
 type: topic
 title: Warehousing
-summary: "Learn section Get started > Learn > Contoso Coffee demo data > Warehousing: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:17.872Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e3b461b25ae1bc1a4bffc030efdee2744331894d0b5e9515c3823bc362a5ac09
+  prompts:
+    hub-topic: 1
+  input_hash: b786e8a1c4c8db4fa66e3ced32b54b91f0df541e466dba93233eb541ac5ebf8b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
@@ -75,14 +76,32 @@ coverage:
 bc_forms:
   - 4764
 member_hash: e3b461b25ae1bc1a4bffc030efdee2744331894d0b5e9515c3823bc362a5ac09
-narrative: none
+narrative: generated
 ---
 
 # Warehousing
 
-> Learn section Get started > Learn > Contoso Coffee demo data > Warehousing: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · no narrative yet
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+This section uses the Contoso Coffee demo data to walk through warehouse processes in three configurations. An introduction page describes the three demo locations: one basic with bins, one advanced without bins, and one advanced with directed put-away and pick.
+
+Three walkthroughs follow. The SILVER location shows the basic configuration (Order-by-Order) with inventory put-away and inventory pick. The YELLOW location shows a mixed setup with basic inbound and advanced outbound flows. The WHITE location shows the advanced configuration with directed put-away and pick.
+
+Start with the introduction to see which location fits your scenario, then open the walkthrough for that location.
+
+## Key points
+
+- The demo data provides three warehouse locations for different configuration scenarios.
+- SILVER: basic warehouse configuration (Order-by-Order) with bins, default bins, inventory put-away and inventory pick.
+- YELLOW: mixed configuration with basic inbound and advanced outbound flows.
+- YELLOW walkthrough covers an over-receipt code, warehouse receipts, warehouse shipments and warehouse picks.
+- WHITE: advanced configuration with directed put-away and pick.
+- WHITE walkthrough covers cross-dock, bin replenishment, break-bulk, warehouse receipts, put-aways and picks.
+- The introduction page covers demo data setup, location configuration and bin management.
 
 ## Learn pages
 

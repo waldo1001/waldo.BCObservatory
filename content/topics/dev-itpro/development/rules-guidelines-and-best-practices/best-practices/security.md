@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security
 type: topic
 title: Security
-summary: "Learn section Development > Rules, guidelines, and best practices > Best practices > Security: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets."
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
+  prompts:
+    hub-topic: 1
+  input_hash: 837f23dc32e0a9414e576d2a3ee8054fbac9eb4fe1acfa572671655b932ca054
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -60,14 +61,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
-narrative: none
+narrative: generated
 ---
 
 # Security
 
-> Learn section Development > Rules, guidelines, and best practices > Best practices > Security: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section has two pages that cover security from complementary angles. The layered security model page describes the overall approach: how users sign in, how permissions are administered, how data is encrypted, and how auditing and change logs help monitor sensitive fields. It also touches on secure development practices and applies to online and on-premises deployments.
+
+The Azure Key Vault page is a focused, practical guide for extension developers. It explains how to keep secrets out of code when an extension calls external web services, how to set up key vaults, and how to configure the Business Central service to access them in online and on-premises setups.
+
+Start with the layered security model page for the big picture, then move to the Azure Key Vault page when you need to handle secrets in an extension.
+
+## Key points
+
+- The layered security model covers authentication, authorization, data encryption, auditing, and change logging.
+- Authentication topics include user sign-in methods such as multifactor authentication.
+- Permission administration and sensitive field monitoring through the change log and audit trails are part of the model.
+- Azure Key Vault stores secrets for extensions that call external web services.
+- Key vault setup covers an app key vault, support for multiple key vaults, and access control.
+- Key vault configuration differs between online and on-premises deployments, as the Business Central service must be set up to access the vault.
+- Telemetry monitoring and publisher validation are listed as features of the key vault integration.
 
 ## Learn pages
 

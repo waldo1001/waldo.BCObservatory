@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
+  "input_hash": "01edbcf7c910af183171e1046e8edb5f092604d46f08b59bfe63f9c79a1a7498",
+  "summary": "Approval workflows in Business Central built from templates: creating workflows, setting up workflow users and approval users, configuring notifications, and exporting or importing workflows. It answers setup questions, such as who approves, in what order, and how they are notified.",
+  "overview": "This section explains how to set up approval workflows that connect business-process tasks performed by different users. A workflow is made of steps with events, conditions, and responses. You can build one from scratch or start from a workflow template with pre-configured steps, then customize it or reset the template.\n\nSupporting setup pages cover the people and messages involved. Workflow users are defined on the Workflow User Groups page with sequence numbers that set approval order. Approval users are defined on the Approval User Setup page with amount limits, substitute approvers, and an approval administrator. Notification pages describe approver and sender notifications, schedules, email customization, and delivery by email or internal notes.\n\nStart with \"Set up approval workflows\" for the overall picture. Then read \"How to create workflows from workflow templates\" and the purchase approval walkthrough for a worked example. Use the export and import page to move workflows between databases.",
+  "key_points": [
+    "Workflow steps combine events, conditions, and responses, for example approval requests, notifications, and journal line creation.",
+    "Workflow templates give pre-configured steps for common processes and can be customized or reset.",
+    "Workflows can be exported to a file and imported into another Business Central database.",
+    "Workflow User Groups use sequence numbers to set approval order; users at the same level can approve in parallel or in series depending on hierarchy.",
+    "Approval User Setup defines amount approval limits, substitute approvers, an approval administrator, and email notifications.",
+    "Notifications can go to approvers or senders, by email or internal notes, on recurring schedules, with customizable email content.",
+    "A purchase order approval walkthrough shows setup of approvers, amount limits, and internal note notifications, then testing."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:32.181Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013819
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:42.286Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says a workflow can be built 'from scratch'. That is a fair reading of the 'Create approval workflows to connect tasks' page, but no page says it in those words.",
+      "The hub has no subtopics, and the narrative correctly covers only its own pages."
+    ],
+    "input_hash": "01edbcf7c910af183171e1046e8edb5f092604d46f08b59bfe63f9c79a1a7498",
+    "cost_usd": 0.0316472
+  }
+}

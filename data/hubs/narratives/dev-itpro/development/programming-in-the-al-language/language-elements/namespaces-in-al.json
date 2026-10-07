@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al",
+  "input_hash": "759e663b81a6fc83e5de1e58c6dbf25748aa355c9ded8af559924ccaaa59666c",
+  "summary": "Namespaces in AL cover how AL code is grouped into logical units to avoid naming conflicts and allow object name reuse. The section answers questions about namespace declaration, using directives, nested namespaces, scope resolution, and how to adopt namespaces in existing code with tooling.",
+  "overview": "Namespaces in AL organize code into logical groups, prevent naming conflicts, and let the same object name be reused in different contexts. The concept page explains the core elements: declaring a namespace, the using directive, nested namespaces, and the scoping rules that resolve names.\n\nThe adoption page is for teams moving existing AL code to namespaces step by step. It describes automated code actions, namespace template resolution, sibling file analysis, a PowerShell script for adding namespaces in bulk, and sorting of using statements. It also covers fully qualified object references, which are supported from Business Central 2026 release wave 1.\n\nStart with \"Namespaces in AL\" for the concepts and scoping rules. Then read \"Adopting namespaces in AL\" when you need to apply them to an existing codebase.",
+  "key_points": [
+    "Namespaces group code logically and prevent naming conflicts.",
+    "Object names can be reused across different namespace contexts under defined scoping rules.",
+    "Core language elements: namespace declaration, using directive, nested namespaces, scope resolution.",
+    "Adoption can be progressive, not all at once.",
+    "Automated code actions add namespaces, using namespace template resolution and sibling file analysis.",
+    "A PowerShell script can add namespaces to many files in bulk.",
+    "Using statements can be sorted automatically.",
+    "Fully qualified object references are supported from Business Central 2026 release wave 1."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:35.162Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009451
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/deployment/business-central-web-server",
+  "input_hash": "b19d82fffa5b87840198287b732f7c05552dc6e8a3bd239f556fdcd984f02d05",
+  "summary": "The Business Central web server section covers deploying and configuring the web server components on IIS for on-premises installations. It answers questions about web server instances, navsettings.json settings, IIS features, SSL/HTTPS, Kerberos delegation, multiple instances with PowerShell, and tenant host names.",
+  "overview": "The Business Central web server runs as an ASP.NET Core application on IIS and serves the web client. This section explains how to deploy those components, prepare IIS, create one or more web server instances, and secure and tune them.\n\nStart with \"Deploy the Web Server Components\" for the overview of network topology, instance creation methods and security. Then use \"Configuring Internet Information Services for Business Central\" for required IIS features and ARR headers, and \"Configuring Business Central Web Server instances\" for navsettings.json settings. The remaining pages cover specific tasks: SSL, multiple instances through PowerShell, tenant host names, and delegation when the web server and server instance are on separate computers.",
+  "key_points": [
+    "Web server components run as ASP.NET Core on IIS; IIS needs specific features such as ASP.NET and .NET Extensibility.",
+    "Application Request Routing header configuration, including X-Forwarded-Proto, is described for the IIS setup.",
+    "Instance settings live in navsettings.json (credential types, SSL/HTTPS, session timeout, authentication, portal embedding) and can be edited directly or with PowerShell cmdlets.",
+    "SSL setup involves obtaining a certificate, adding an HTTPS binding, and optionally redirecting HTTP to HTTPS.",
+    "Multiple instances are managed with New-NAVWebServerInstance, Set-NAVWebServerInstanceConfiguration, Get-NAVWebServerInstance and Remove-NAVWebServerInstance, deployed as RootSite or SubSite.",
+    "Multitenant deployments need a URL rewrite rule in web.config so the web server accepts tenant host names.",
+    "Delegation across separate computers uses Kerberos, constrained delegation, service principal names and Active Directory configuration, with steps differing for version 20 and version 21 and later."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:10.372Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013971
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:23.174Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on tenant host names says deployments 'need' a URL rewrite rule. The source only says host names are accepted by enabling URL rewrite rules in web.config, so 'need' is a slightly strong reading but acceptable.",
+      "Key point on delegation says steps differ for version 20 and version 21 and later. The source lists both versions but does not say how the steps differ, so this is a mild inference.",
+      "The delegation key point leaves out kernel mode authentication, which the delegation page lists as a feature. This is a minor gap."
+    ],
+    "input_hash": "b19d82fffa5b87840198287b732f7c05552dc6e8a3bd239f556fdcd984f02d05",
+    "cost_usd": 0.0349992
+  }
+}

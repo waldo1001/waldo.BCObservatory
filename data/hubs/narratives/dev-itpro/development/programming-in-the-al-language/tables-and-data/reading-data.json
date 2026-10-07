@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data",
+  "input_hash": "f88763a2f28c8f284b22b561558ab181d7108d52c6e33a108cde28d675e011a3",
+  "summary": "Reading data in AL covers how to retrieve records from Business Central tables efficiently. It answers questions about Get, Find, FindSet and Next, partial records, record isolation levels, SQL performance of database methods, and read scale-out.",
+  "overview": "This section explains how AL code reads data and how to do it with less load on SQL Server. It starts with the basic retrieval methods (Get, Find, FindFirst, FindLast, GetBySystemId, Next). It then moves to performance guidance: which database methods suit which scenarios, why CalcFields and CalcSums need separate SQL unless results are cached, and how SetAutoCalcFields, ModifyAll and DeleteAll help performance.\n\nThe other pages cover three ways to reduce cost further. Partial records load only selected fields and load the rest just-in-time; there is a usage page and a FAQ. Record instance isolation level limits locking on individual record instances. Read scale-out sends read-only workloads, such as analytical queries and OData GET requests, to a read-only database replica.\n\nStart with \"Get, Find, and Next methods\" for the basics, then read \"AL database methods and performance on SQL Server\". Use the partial records, isolation level and read scale-out pages when tuning specific reports, pages or integrations.",
+  "key_points": [
+    "Get, Find, FindFirst, FindLast, GetBySystemId and Next cover key-based and filter-based record retrieval in AL.",
+    "FindSet and Next suit looping over records; CalcFields and CalcSums need separate SQL unless cached.",
+    "SetAutoCalcFields, ModifyAll and DeleteAll are named as ways to improve performance.",
+    "Partial records load a subset of fields using SetLoadFields, AddLoadFields, SetBaseLoadFields and LoadFields; AreFieldsLoaded checks the loaded status.",
+    "Unselected fields load just-in-time when accessed; the FAQ mentions an Enable Partial Records server setting and table extension optimization.",
+    "Record instance isolation level (ReadIsolation) offers Default, ReadUncommitted, ReadCommitted, RepeatableRead and UpdLock to limit locks.",
+    "Read scale-out uses the DataAccessIntent property to run read-only workloads on replicas, and the intent can be overridden at runtime."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:30.914Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014417000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:27.211Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says SetAutoCalcFields, ModifyAll and DeleteAll 'cost extra SQL work'. The source says these methods improve performance; only CalcFields and CalcSums need separate SQL unless cached.",
+      "'Three pages cover ways to reduce cost further' is inaccurate: partial records has two pages (usage and FAQ), plus the isolation level and read scale-out pages, so four pages on three topics.",
+      "Minor: 'FindSet and Next suit looping over records' is an inference. The source only says the methods optimize retrieval for different scenarios. It is standard AL guidance, so it was kept."
+    ],
+    "input_hash": "f88763a2f28c8f284b22b561558ab181d7108d52c6e33a108cde28d675e011a3",
+    "cost_usd": 0.051495200000000005
+  }
+}

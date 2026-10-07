@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -91,7 +91,10 @@ links:
   videos:
     - video/qNHUj3ZEang
   posts:
+    - post/aardvarklabs-blog/1826
+    - post/aardvarklabs-blog/2953
     - post/demiliani-com/13640
+    - post/kauffmann-nl/8332
   guidelines: []
 learn_toc_path:
   - Development
@@ -104,7 +107,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 1
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -132,7 +135,10 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [How to Work with JSON in Business Central’s AL Code](../../../../posts/aardvarklabs-blog/1826.md) (community post): "Working with JSON in Business Central AL involves understanding JSON structures"
+- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "how to consume external APIs from within Business Central by making HTTP requests using the HttpClient data type"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit"
+- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "REST client; cookies; exception handling; collectible errors"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

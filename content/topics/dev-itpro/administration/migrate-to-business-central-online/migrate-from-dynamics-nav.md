@@ -2,7 +2,7 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav
 type: topic
 title: Migrate from Dynamics NAV
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Dynamics NAV: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Migrating Dynamics NAV on-premises to Business Central online: the overall migration path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions. It answers questions about route choice, data preparation and customization conversion."
 tier: official
 language: en
 system: administration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 03dfb8de0fc286d415d19882f489e5658576fb1e000fdda85d5fc028f5610df5
+  prompts:
+    hub-topic: 1
+  input_hash: bc47801209c4613462f7eeea5acad7fba8ed3eaed657462079fdf95ee03de3c7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav-customization-playbook
@@ -59,14 +60,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 03dfb8de0fc286d415d19882f489e5658576fb1e000fdda85d5fc028f5610df5
-narrative: none
+narrative: generated
 ---
 
 # Migrate from Dynamics NAV
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Dynamics NAV: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Migrating Dynamics NAV on-premises to Business Central online: the overall migration path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions. It answers questions about route choice, data preparation and customization conversion.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics NAV · tier official · system administration · no narrative yet
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics NAV · tier official · system administration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers moving from Dynamics NAV to Business Central online. It has two pages: one on the overall migration, and one on migrating customizations.
+
+The main page describes the route. You upgrade to BC14 first, then convert C/AL customizations to AL extensions. As an alternative, you can use the BC14 reimplementation tool. It also touches on data preparation and localization support.
+
+The customization guide covers the code side. It explains the C/AL to AL conversion workflow and how different object types are handled, including the Txt2Al tool, page and table extensions, codeunit refactoring and event subscribers. Start with the migration page to choose a path, then use the customization guide to plan the code conversion.
+
+## Key points
+
+- The migration path goes through an upgrade to BC14 first.
+- After the BC14 upgrade, C/AL customizations are converted to AL extensions.
+- The BC14 reimplementation tool is an alternative to the full upgrade route.
+- The migration page covers data preparation and localization support.
+- The customization guide covers the C/AL to AL conversion workflow and handling of object types.
+- The Txt2Al tool is part of the code conversion.
+- Customizations are rebuilt as page extensions and table extensions, with codeunit refactoring and event subscribers.
+- The pages mention versions 14, 20 and 25.
 
 ## Learn pages
 

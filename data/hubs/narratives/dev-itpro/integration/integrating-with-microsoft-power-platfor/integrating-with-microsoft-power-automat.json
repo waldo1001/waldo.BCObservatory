@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+  "input_hash": "b90f5a0b2c8d9c85e30bad22ab12c49cae7ce69dcf3c3effc7299c6def7856c4",
+  "summary": "Power Automate integration with Business Central: how administrators set up access and permissions, how to create automated and instant flows, and how to manage existing flows. It answers questions about triggers, actions, the Business Central connector, Teams integration, and flow management.",
+  "overview": "Power Automate integration brings no code/low code workflows to Business Central. Flows can be automated, started by Business Central events, or instant, started manually by a user. Both types use the Business Central connector with triggers and actions to connect to cloud services.\n\nThe pages follow a natural order. Start with the integration overview for concepts, then the setup page, where administrators control access through permissions and privacy notice agreements. Next, choose the guide for the flow type: automated workflows (triggers, actions, dynamic content, adaptive cards, Teams) or instant flows (the For a selected record trigger and manual flows). Finally, the manage page covers editing and monitoring flows that already exist.",
+  "key_points": [
+    "Two flow types: automated flows triggered by Business Central events, and instant flows triggered on demand by users.",
+    "Administrators control access to Power Automate features through the Allow Action Automate permission, permission sets, and privacy consent.",
+    "The Automate action group in Business Central is where users reach flow features; telemetry tracking is mentioned in the setup page.",
+    "Automated flows are built from triggers, actions, and dynamic content, and can use adaptive cards and Microsoft Teams integration.",
+    "Instant flows can use the For a selected record trigger, flow templates, flow parameters, and Power Automate environments.",
+    "Existing flows can be edited, inspected for details and history, and managed from Power Automate or the Manage Flows interface in Business Central.",
+    "Manage Flows covers run-only permissions and process insights."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:30.346Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011278999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:03.316Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 says the Automate action group is 'where users reach flow features'. The summaries list the action group as a feature but don't describe what it does, so this is a mild inference.",
+      "Key point 7 credits run-only permissions and process insights to the Manage Flows interface. The source lists them as features of the 'Manage Power Automate Flows' page, not of that interface specifically.",
+      "The overview says the manage page covers 'monitoring' flows. The source says viewing details and flow history, which is close but not the same word.",
+      "The overview says both flow types use the Business Central connector. That is a reasonable inference from the overview page's features, but no summary says it directly."
+    ],
+    "input_hash": "b90f5a0b2c8d9c85e30bad22ab12c49cae7ce69dcf3c3effc7299c6def7856c4",
+    "cost_usd": 0.0303632
+  }
+}

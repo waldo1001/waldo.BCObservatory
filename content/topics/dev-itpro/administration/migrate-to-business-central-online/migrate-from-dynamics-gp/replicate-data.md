@@ -2,20 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/replicate-data
 type: topic
 title: Replicate data
-summary: "Learn section Administration > Migrate to Business Central online > Migrate from Dynamics GP > Replicate data: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Replicate data covers how data moves from an on-premises Dynamics GP database to Business Central online, how to run and manage replication from the Cloud Migration Management page, and how to validate migrated data. It answers process, monitoring, troubleshooting and validation questions.
 tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:28:06.446Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e0418368fda1faaa43dca07c3cb17348e99ebd0cebf7e382b0325d7c2f138ba7
+  prompts:
+    hub-topic: 1
+  input_hash: 4a7260e23a074c63c73016394baf9afcfefafd23a790c0d468bc7163a2bb00fd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
@@ -67,14 +68,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: e0418368fda1faaa43dca07c3cb17348e99ebd0cebf7e382b0325d7c2f138ba7
-narrative: none
+narrative: generated
 ---
 
 # Replicate data
 
-> Learn section Administration > Migrate to Business Central online > Migrate from Dynamics GP > Replicate data: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Replicate data covers how data moves from an on-premises Dynamics GP database to Business Central online, how to run and manage replication from the Cloud Migration Management page, and how to validate migrated data. It answers process, monitoring, troubleshooting and validation questions.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Replicate data · tier official · system administration · no narrative yet
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Replicate data · tier official · system administration · narrative reviewed by Opus
+
+## Overview
+
+This section describes the replication step of a Dynamics GP to Business Central online migration. It explains how replication works, how to run and control it, and how to check the result.
+
+Start with the Data replication overview to understand the large table and small table flows, Azure BLOB storage, Azure Data Factory, the integration runtime, company initialization, and how rerunning replication uses change tracking. Then use Run and manage data replication for the hands-on steps on the Cloud Migration Management page. Finish with Migration validation overview to compare source and migrated data.
+
+## Key points
+
+- Replication has separate large table and small table flows, using Azure BLOB storage and Azure Data Factory with an integration runtime.
+- Company initialization is part of the replication process.
+- Rerunning replication uses change tracking.
+- Replication is run and managed from the Cloud Migration Management page.
+- You can create a diagnostics run before running data replication.
+- Progress is monitored and tracked in the Migration Log; you can pause or abandon a migration.
+- Migration validation compares source and migrated data for entities such as G/L accounts, customers, and vendors.
+- Validation can be automatic or manual, and shows results, discrepancies, and record-level details.
 
 ## Learn pages
 

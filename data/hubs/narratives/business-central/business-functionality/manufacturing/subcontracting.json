@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/manufacturing/subcontracting",
+  "input_hash": "f4d10a0fc526fbcc1d4ecd6217c3d5622ca4cdc32940d4ef83a2635283c02c11",
+  "summary": "Subcontracting in Business Central manufacturing: how to delegate production operations to vendors. It answers questions about subcontracting purchase orders, the worksheet, component supply and transfers, item charges on receipts, and WIP transfers between subcontractors.",
+  "overview": "Subcontracting covers manufacturing operations that a vendor performs on your behalf. You can work with basic tools, or use the extended Subcontracting app, which adds a worksheet, subcontractor prices, component management, item charges and location management.\n\nStart with the Subcontracting overview to see which capabilities apply. Then read Order subcontracting to create purchase orders from production order routings, directly or through the worksheet. Manage components in subcontracting covers how components reach the vendor, and Assign item charges to subcontracting receipts covers extra costs. Transfer WIP items between subcontractors is for multi-stage processes with more than one subcontractor.",
+  "key_points": [
+    "Subcontracting purchase orders are created from production order routing operations, directly or via the subcontracting worksheet.",
+    "Orders support comments, attachments, WIP tracking, and cost posting through the capacity ledger.",
+    "Receiving can use inventory put-away or warehouse receipts.",
+    "Component supply methods include vendor-supplied components, consignment at vendor, and transfer to vendor.",
+    "Transfer orders, location assignment, flushing methods, and returns are part of component handling.",
+    "Item charges such as transport, packaging, and testing can be assigned to subcontracting receipts, using the Get Receipt Lines function.",
+    "Assigned item charges go into production order costs through capacity ledger entries rather than inventory.",
+    "WIP items can be transferred between subcontractor locations using a Transfer WIP item flag, with WIP ledger entries, WIP quantity adjustment, transfer mode selection, and in-transit codes."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:43.750Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011857
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:24:24.212Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview says the extended Subcontracting app adds location management. The overview page's summary names worksheets, pricing, components and item charges; location management comes only from its feature list, so attributing it to the app is a slight inference.",
+      "Minor: 'cost posting through the capacity ledger' joins two separate items from the Order subcontracting page (cost posting, capacity ledger). The item charges page supports it, so it is acceptable."
+    ],
+    "input_hash": "f4d10a0fc526fbcc1d4ecd6217c3d5622ca4cdc32940d4ef83a2635283c02c11",
+    "cost_usd": 0.0391392
+  }
+}

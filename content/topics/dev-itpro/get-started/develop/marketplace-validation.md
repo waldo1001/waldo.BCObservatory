@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started/develop/marketplace-validation
 type: topic
 title: Marketplace validation
-summary: "Learn section Get started > Develop > Marketplace validation: 15 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:18:24.927Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9afceb8c6d3dc3f3adde0c1af653f766ffcfd150207872cc6e9d63e423927f83
+  prompts:
+    hub-topic: 1
+  input_hash: fe01aa9673741128827fba031d0dc6e0c47843702cf5058cc01fd63c3ccadf2b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-develop-maintain
@@ -153,14 +154,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9afceb8c6d3dc3f3adde0c1af653f766ffcfd150207872cc6e9d63e423927f83
-narrative: none
+narrative: generated
 ---
 
 # Marketplace validation
 
-> Learn section Get started > Develop > Marketplace validation: 15 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.
 
-Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · no narrative yet
+Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Marketplace validation is the set of checks a Business Central app goes through before it is published on the Microsoft marketplace. It has a technical side and a marketing side, plus guidance on promoting the app.
+
+The Technical validation checklist lists the mandatory requirements for extensions and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Marketplace technical validation FAQ (10 pages) answers detailed questions on app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process and support channels. The Marketing validation FAQ covers listing content and branding rules.
+
+Two further pages give advice on promotion: how to create an effective sales landing page and how to make compelling videos. Start with the technical checklist, use the FAQs for specific rejections or doubts, and use the marketing pages when you prepare the listing.
+
+## Key points
+
+- The technical validation checklist sets mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
+- You can self-validate using BcContainerHelper and AppSourceCop analysis.
+- The technical FAQ covers app identity, code-signing, names, affixes, ID ranges, Application Insights, app previews, offer types and support channels.
+- The marketing validation FAQ requires statements on supported editions, countries/regions and languages.
+- Marketing validation also covers help and support pages, product naming conventions and marketplace badge usage, and describes a manual validation process.
+- The landing page guide covers layout, headline copy, pain-based messaging, product benefits, testimonials and video demos.
+- The video guide covers why, how and what videos, customer testimony, video structure and persona targeting.
 
 ## Subtopics
 

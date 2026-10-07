@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports
 type: topic
 title: Built-in sales reports
-summary: "Learn section Business functionality > Sales > Sales analytics > Built-in sales reports: 29 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Built-in sales reports in Business Central: receivables and customer balance reports, order and back-order reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). It also covers variants for subscription billing, QR codes and sustainability data. It answers what each report shows and which filters and options it has."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4c159df5e4705908712a39ed5c48a386f6ec67eea8fe60ca51b215a5b4e50c29
+  prompts:
+    hub-topic: 1
+  input_hash: b09e9dbd914e5551b5b3d88da5a100aa098c464a0bacb5aa83fb6bc0e2207327
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4402
@@ -309,14 +310,28 @@ bc_forms:
   - 8010
   - 8011
 member_hash: 4c159df5e4705908712a39ed5c48a386f6ec67eea8fe60ca51b215a5b4e50c29
-narrative: none
+narrative: generated
 ---
 
 # Built-in sales reports
 
-> Learn section Business functionality > Sales > Sales analytics > Built-in sales reports: 29 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in sales reports in Business Central: receivables and customer balance reports, order and back-order reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). It also covers variants for subscription billing, QR codes and sustainability data. It answers what each report shows and which filters and options it has.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section documents the standard sales reports in Business Central. They fall into three groups. The first is analysis reports: Aged Accounts Receivable and Customer - Top 10 List (both Excel reports), Customer - Balance to date, Customer - Trial Balance, Customer - Order Detail, Customer - Order Summary, Customer/Item Sales, Day Book Customer Ledger Entry, and the Salesperson - Commission and Salesperson - Sales Statistics reports. The second is inventory-oriented order reports: Inventory Order Details, Inventory Picking List and Inventory Sales Back Orders. The third is printable customer documents. These are Standard Sales - Quote, Order Conf., Draft Invoice, Pro Forma Invoice, Invoice, Credit Memo, Shipment and Return Rcpt. The third group also has variants. The Contract reports add subscription billing details, two reports add QR codes to posted invoices and credit memos, and the Sust. reports add CO2e figures to quotes and invoices.
+
+## Key points
+
+- Sales report overview is the entry page. It links to report documentation, ad-hoc analysis, Power BI integration and sales analytics.
+- Aged Accounts Receivable is an Excel report. It groups customer ledger entries into aging buckets by due date and global dimensions, with four worksheets that cover local and foreign currency.
+- Customer - Order Summary groups outstanding order quantities into three 30-day periods. Inventory Sales Back Orders lists sales lines whose outstanding quantity cannot be filled by the shipment date.
+- The standard sales documents cover quotes, order confirmations, draft, pro forma and posted invoices, credit memos, shipments and return receipts. Options include interaction logging, archiving and hiding zero-quantity lines.
+- The Standard Sales Pro Forma Invoice is meant for customs. It shows country of manufacture, tariff numbers and net weight.
+- The Contract reports for quotes, order confirmations and invoices add subscription billing details. On quotes and order confirmations, service commitments are grouped by billing period. On the order confirmation they are kept out of the subtotal and VAT.
+- Two QR variants exist: the posted sales invoice adds a payment QR code, and the posted credit memo adds a QR code for e-document support. The Sust. quote and invoice reports add CO2e per unit and total CO2e figures, formatted according to Sustainability Setup.
 
 ## Learn pages
 

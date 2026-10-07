@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
+  "input_hash": "b05d5b9bd309167415fd713acf58fdfde55986b749ad8539e7d87652185db061",
+  "summary": "Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user.",
+  "overview": "This section covers the everyday tasks around standard reports in Business Central. It has no subtopics, only a set of task pages. The landing page, \"Use reports in your daily work\", gives the overall picture: running, scheduling, sharing and customizing reports.\n\nThe other pages each take one task. \"Run and print reports\" covers filters, preview, saving to PDF, Word or Excel, scheduling, and language and format settings. \"Manage Saved Settings\" and \"Set the Layout Used by a Report\" cover how a report is configured and how it looks. \"Specify a Default Printer\" covers printing. \"Share and Export Reports with the Report Inbox\" covers scheduled output. \"Bookmark link to page or report\" covers quick access from the role center. \"Analyzing report data with Excel and XML\" covers raw data export for troubleshooting.\n\nStart with the landing page, then go to \"Run and print reports\" for the basic workflow. Move on to the other pages when you need to set defaults, change layouts or share results.",
+  "key_points": [
+    "Reports can be run, previewed, printed and scheduled, and saved to PDF, Word or Excel, with filter options and language and format settings.",
+    "Saved settings for reports and batch jobs can be created, changed and shared with other users to set default options and filters.",
+    "Report layouts can be set as the default per company, chosen temporarily on the report request page, or managed on the Report Layouts and Report Layout Selection pages.",
+    "Layout options include composite branding, theme assignment and header/footer layouts.",
+    "Default printers can be set for all print jobs or for specific reports, at user or global level, including cloud printers, Universal Print, email printers and PDF output.",
+    "The Report Inbox lets users download, share, export and delete scheduled reports, with OneDrive integration.",
+    "Pages and reports can be bookmarked from the role center using the bookmark icon or the Tell Me window.",
+    "Report datasets can be exported as data-only Excel documents or XML, with a metadata worksheet and filter information, for ad-hoc analysis and troubleshooting."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:23.349Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015077
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:01.578Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary frames the hub as end-user how-to, but the Excel/XML export page targets developers and advanced users; minor framing gap.",
+      "Bookmark key point says pages are bookmarked 'using the bookmark icon or the Tell Me window'; source says bookmarks are managed through the bookmark icon on pages and in the Tell Me window. Close enough."
+    ],
+    "input_hash": "b05d5b9bd309167415fd713acf58fdfde55986b749ad8539e7d87652185db061",
+    "cost_usd": 0.040107199999999996
+  }
+}

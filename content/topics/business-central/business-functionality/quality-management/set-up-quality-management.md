@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/quality-management/set-up-quality-management
 type: topic
 title: Set up quality management
-summary: "Setting up quality management in Business Central: prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. It answers questions about configuring the module before inspections are created and which settings control how inspections are generated."
+summary: Setting up quality management in Business Central covers base setup and permissions, inspection results, inspection templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T15:20:40.673Z"
+  at: "2026-10-07T02:24:26.153Z"
   flags: []
 generated:
-  at: "2026-10-06T15:20:40.673Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bcb7d27482c48748a237223000fcbffad2c0189711d496978ac07b4764e68825
+  input_hash: 0f21eed4c2e16526a2446f81fdf6422db5be8c130c297e2efd20ff948c66bb4d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-configuring-grades
@@ -92,26 +92,27 @@ narrative: generated
 
 # Set up quality management
 
-> Setting up quality management in Business Central: prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. It answers questions about configuring the module before inspections are created and which settings control how inspections are generated.
+> Setting up quality management in Business Central covers base setup and permissions, inspection results, inspection templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.
 
 Path: [Business functionality](../../business-functionality.md) > [Quality management](../quality-management.md) > Set up quality management · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-This section covers the configuration work needed before quality inspections can be used. It has four pages: general setup, inspection results, inspection templates, and generation rules. There are no subtopics.
+This section describes the configuration needed before quality inspections can run. It starts with the general setup page, which covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.
 
-Start with "Quality management setup and configuration". It covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking. Then define the possible outcomes on the results page (Pass, Fail, In Progress, and custom results). Next, build templates that define the tests, pass/fail criteria, and sample sources. Finally, set up generation rules that tie templates to business transactions such as purchase receipts, production output, and warehouse movements, so inspections are created automatically.
+The remaining pages build the pieces of the inspection process. Inspection results define the possible outcomes, such as Pass, Fail, and In Progress. Inspection templates define the tests, allowable values, pass/fail conditions, and sample sources. Generation rules link templates to business transactions so inspections are created automatically. Workflows then react to inspection events, for example by blocking a lot or moving inventory.
+
+Start with the setup and configuration page, then configure results and templates, and finish with generation rules and workflows, which depend on them.
 
 ## Key points
 
-- General setup covers prerequisites, permission sets, base data configuration, and assisted setup.
-- Setup settings include inspection creation options, inspection search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.
-- Inspection results such as Pass, Fail, and In Progress define possible outcomes; custom results can be created.
-- Results have settings for evaluation sequence, visibility, categories, and lot blocking conditions.
-- Inspection templates hold the template code and description, test value types, allowable values, result conditions, and sample source configuration.
-- Templates can be copied to speed up creating similar ones.
-- Generation rules create inspections automatically for purchase receipts, production output, and warehouse movements.
+- The setup page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, item tracking, and picture handling.
+- Setup also includes a certificate of analysis contact and generation rule trigger defaults.
+- Inspection results such as Pass, Fail, and In Progress can be extended with custom results, with settings for visibility, categories, evaluation sequence, and lot blocking.
+- Inspection templates hold the template code, description, test value types, allowable values, result conditions, and sample source configuration. A template can be copied.
+- Generation rules automatically create inspections from transactions such as purchase receipts, production output, and warehouse movements.
 - Generation rules use sort order, template-to-source mapping, condition, item, and attribute filters, and an activation trigger.
+- Workflows can block and unblock lots, move inventory, post negative adjustments, and create reinspections based on result code conditions.
 
 ## Learn pages
 

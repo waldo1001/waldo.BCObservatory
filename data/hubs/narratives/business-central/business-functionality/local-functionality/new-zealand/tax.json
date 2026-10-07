@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand/tax",
+  "input_hash": "c7d09fd72adc203bee4ec26df3d54fb34e100719d1bf7f6b8a065ebe07d56049",
+  "summary": "New Zealand tax functionality in Business Central: GST posting setup, GST on prepayments, GST settlement reports, VAT exchange rate adjustment, and withholding tax (WHT) setup, calculation and settlement. It answers how-to questions for NZ tax configuration and reporting.",
+  "overview": "This section covers the tax features specific to the New Zealand version of Business Central. It has two main areas: Goods and Services Tax (GST) and withholding tax (WHT). GST is applied to most goods and services and reported in the Business Activity Statement (BAS).\n\nFor GST, start with the posting setup page, then use the pages on GST for prepayments, printing GST settlement reports, and adjusting settlement exchange rates for VAT entries.\n\nFor WHT, start with the conceptual page on withholding tax in the New Zealand version, which explains posting groups, calculation rules and certificates. Then follow the setup pages: general WHT setup, and setup for vendors without an IRD number. Finally, use the page on calculating and posting WHT settlements to close open entries.",
+  "key_points": [
+    "GST posting is set up for the NZ version, and GST is reported in the Business Activity Statement (BAS).",
+    "GST on prepayments is calculated for prepayment invoicing.",
+    "GST settlement reports can be printed to support GST reporting.",
+    "Settlement exchange rates can be adjusted for VAT entries.",
+    "Withholding tax is withheld from payments to vendors without IRD numbers and remitted to tax authorities in the BAS.",
+    "WHT is configured with business and product posting groups, WHT posting setup, calculation rules, minimum invoice amount, percentage and realized WHT type.",
+    "Vendors without an IRD number are set up so the WHT percentage is withheld automatically per WHT Posting Setup; a WHT certificate is supported.",
+    "The Calculate and Post WHT Settlement page closes open WHT entries, with truncated whole-number reporting and a rounding account."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:56.116Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013264999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:18.205Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on WHT configuration combines features from several pages (posting groups and calculation rules from the conceptual page, WHT Posting Setup from the vendor setup page, and posting groups also from the setup page). Each piece is supported, but the merged wording reads as if one page covers all of them. Acceptable.",
+      "Key point 1 wording 'GST posting is set up for the NZ version' is a bit awkward; something like 'GST posting setup exists for the NZ version' would read more clearly. This is minor."
+    ],
+    "input_hash": "c7d09fd72adc203bee4ec26df3d54fb34e100719d1bf7f6b8a065ebe07d56049",
+    "cost_usd": 0.033539200000000005
+  }
+}

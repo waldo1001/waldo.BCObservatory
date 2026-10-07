@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+  "input_hash": "13a20f26679284b15669c3b9876a3862e164c2250d02e3732fc9a9be83e86e4d",
+  "summary": "Developing reports in AL for Business Central: report objects, datasets, request pages, layouts, report extensions, substitution, obsoleting, testing, telemetry and performance. It answers how to build, extend, format, test, troubleshoot and tune reports.",
+  "overview": "This section covers the full life of an AL report. The core pages explain the report object, how a dataset is built from data items and columns, and how request pages let users set options and filters before a run. Layouts (Word, Excel, RDL) are described in the report overview and the layouts subtopic.\n\nExtending and changing existing reports is handled by report extension objects, with an example page, and by report substitution through the OnAfterSubstituteReport event. Obsoleting reports gives guidance for retiring reports in Marketplace apps and per-tenant extensions.\n\nFor quality and operations there are pages on testing report output, report generation telemetry, performance analysis and troubleshooting. Subtopics cover formatting data, layouts, discoverability, triggers and events, how users run reports, and the AL language reference. Start with Reports overview and Report object, then the walkthrough for designing a report from multiple tables.",
+  "key_points": [
+    "A report is built from a dataset (data items and columns), one or more layouts (Excel, Word, RDL) and an optional request page.",
+    "Request pages use properties such as RequestFilterFields and SaveValues to let users set options and filters before a run.",
+    "Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports (2022 release wave 1 is cited).",
+    "Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; since 2021 release wave 1, report extensions are an alternative.",
+    "Obsoleting uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1.",
+    "Test reports with Codeunit 131007 Library - Report Dataset, using methods such as RunReportAndLoad and AssertElementWithValueExists.",
+    "Report generation telemetry tracks successful, failed and canceled runs, with dataset and rendering time, and supports performance work such as read scale-out and background scheduling.",
+    "A walkthrough shows designing an RDL report from multiple tables with filtering, totaling and an Excel layout."
+  ],
+  "members_used": 14,
+  "subtopics_used": 5,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:18.325Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021357
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:04.589Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3's parenthetical '(2022 release wave 1 is cited)' is vague: the source lists that version for the report extension page without saying what it applies to. It is acceptable as hedged but adds little.",
+      "Key point 7 combines the telemetry page with the Report performance page (read scale-out, background scheduling). The link is reasonable because the performance page relies on telemetry data."
+    ],
+    "input_hash": "13a20f26679284b15669c3b9876a3862e164c2250d02e3732fc9a9be83e86e4d",
+    "cost_usd": 0.05219120000000001
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2022-release-wave-2",
+  "input_hash": "14f9ce89318c81575bf5cfcb7aa9237be37e0f2e827df98a1c81a93bec2aca44",
+  "summary": "Upgrade guidance for on-premises Business Central 2022 release wave 2 (version 21). It covers upgrade paths from version 14 (unmodified or customized C/AL), versions 15-20, versions 18/19 and version 20, plus C/AL to AL conversion, permission and report changes, moving tables between extensions, and installing version 21 updates. Use it for how-to and upgrade path questions about these upgrades.",
+  "overview": "This section collects the pages for upgrading to Business Central 2022 release wave 2 (version 21) on-premises. The entry page, \"Upgrade to Business Central 2022 Wave 2\", describes the two options: a technical upgrade or application refactoring. \"General Information and Considerations\" lists what changes in this release, such as the permissions model, report platform, and server configuration. The section also includes an India Data Migration Toolkit page, which covers a different target: moving from Dynamics NAV 2016 India to 2021 release wave 2.",
+  "key_points": [
+    "Start with 'Upgrade to Business Central 2022 Wave 2' and the general considerations page, then pick the path matching your source version.",
+    "Technical upgrade pages exist for version 14, versions 18 or 19, and version 20 to version 21; a separate page covers versions 15-20 for the Microsoft System and Base Application.",
+    "Version 14 C/AL paths split into unmodified and customized applications; both use DestinationAppsForMigration, and the customized path adds table migration with migration.json and Txt2Al conversion to AL.",
+    "Permissions move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.",
+    "Report guidance for version 20 and later covers the platform rendering model, report events, and handling of Word and custom report layouts.",
+    "Moving tables and fields between extensions uses migration.json, and the direction (down or up the dependency graph) decides the process; moving up needs a two-stage deployment with a transition extension.",
+    "The 'Install a version 21 update' page covers cumulative updates with PowerShell tasks: platform conversion, database sync, extension repair, data upgrade, license import, control add-in upgrade.",
+    "The compatibility matrix shows minimum update versions for upgrade paths; upgrades from version 24 or earlier must target version 25 first."
+  ],
+  "members_used": 17,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:25.351Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024378999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:44.262Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 says both version 14 C/AL paths use table migration. Only the customized C/AL page mentions table migration with migration.json. The unmodified C/AL page lists DestinationAppsForMigration, database conversion, extension migration and data upgrade, but not table migration.",
+      "The narrative leaves out the India Data Migration Toolkit page. That page targets Business Central 2021 release wave 2 from Dynamics NAV 2016 India, not version 21, so an agent should be warned about it."
+    ],
+    "input_hash": "14f9ce89318c81575bf5cfcb7aa9237be37e0f2e827df98a1c81a93bec2aca44",
+    "cost_usd": 0.06947120000000001
+  }
+}

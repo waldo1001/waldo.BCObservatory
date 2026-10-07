@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extensibility
 type: topic
 title: Extensibility
-summary: "Learn section Development > Extensibility: 42 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Extensibility in Business Central AL development: how to extend code flow, tables, pages, reports, enums, and permission sets without changing base code. It also covers events, requesting changes to Microsoft's code, client add-ins, Power BI embedding, and System Application modules."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e63799d0490adc0aa7ab352fb77c426572f14cdf906996d0533152b72c13ec1e
+  prompts:
+    hub-topic: 1
+  input_hash: f9f0febd69bb6a80627476882186f3136dc82a5024ccb9eb856851082660c040
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-contribute-extensibility
@@ -348,14 +349,32 @@ bc_forms:
   - 6316
   - 6317
 member_hash: e63799d0490adc0aa7ab352fb77c426572f14cdf906996d0533152b72c13ec1e
-narrative: none
+narrative: generated
 ---
 
 # Extensibility
 
-> Learn section Development > Extensibility: 42 Microsoft Learn pages in 6 subtopics. Index of what Learn documents here, linked to Learn.
+> Extensibility in Business Central AL development: how to extend code flow, tables, pages, reports, enums, and permission sets without changing base code. It also covers events, requesting changes to Microsoft's code, client add-ins, Power BI embedding, and System Application modules.
 
-Path: [Development](../development.md) > Extensibility · tier official · system development · no narrative yet
+Path: [Development](../development.md) > Extensibility · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+Extensibility is the section for AL developers who need to change or add to Business Central behavior without modifying base code. The overview page lists the options: extending code flow through events, adding table fields, modifying page layout, extending reports, creating permission sets, and extending enumerations. The extension objects overview explains how table, page, report, enum, and permission set extension objects add fields, actions, layout, and values to existing objects.
+
+The subtopics go deeper. Extending AL objects covers page, table, report, enum, and permission set extensions, plus event types and application areas. Extending the base application is the largest subtopic, with 15 pages. Using events covers event types, publishing, raising, subscribing, isolated events, the Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. Extensibility requests explains how to ask Microsoft for changes to the AL codebase through the BCApps repository. It covers designing and justifying new events, including IsHandled events, and contributing a change directly. Developing client add-ins covers performance and styling of control add-ins. Embedding Power BI covers putting Power BI reports, scorecards, and dashboards on Business Central pages.
+
+Start with the Extensibility overview, then the extension objects overview. Move to Using events when you need to hook into existing logic. Use Get started with modules if you want to build or change System Application modules in the open-source repository.
+
+## Key points
+
+- Extension objects: table, page, report, enum, and permission set extensions add fields, actions, layout, and values to existing objects.
+- Code flow is extended through events. The Using events subtopic covers publishing, raising, subscribing, isolated events, and the Event Recorder for finding events.
+- Extensibility requests describes how to ask Microsoft for changes to the AL codebase through the BCApps repository. It covers how to justify new events, including IsHandled events, and how to contribute a change directly.
+- Get started with modules covers System Application module development: AL requirements, Git, environment setup, and building or modifying modules.
+- Client add-in guidance covers performance (AL trigger invocation, callbacks, payload size) and styling (colors, typography, CSS).
+- Embedding Power BI covers embedding reports, scorecards, and dashboards in pages, including the embed framework and context handling.
+- The extension objects overview covers the Extensible property, and Extending AL objects also covers application areas.
 
 ## Subtopics
 

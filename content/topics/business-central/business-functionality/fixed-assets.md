@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Learn section Business functionality > Fixed assets: 40 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Fixed assets in Business Central: setting up, acquiring, depreciating, revaluing and managing capital assets across their lifecycle, plus depreciation methods, a rounding troubleshooting extension, and a subtopic on analytics and reports. It answers how-to and which-method questions."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:33.278Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: b75ed0c775470c42b2bddf4d626797b80251da58f1d4e35de4ef57095a8e73b9
+  prompts:
+    hub-topic: 1
+  input_hash: 163e98d9671ba9b100e63b06d337b831dc80e4daa7e0aadd98c7ea2b4d319950
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire
@@ -393,14 +394,32 @@ bc_forms:
   - 5692
   - 9275
 member_hash: b75ed0c775470c42b2bddf4d626797b80251da58f1d4e35de4ef57095a8e73b9
-narrative: none
+narrative: generated
 ---
 
 # Fixed assets
 
-> Learn section Business functionality > Fixed assets: 40 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Fixed assets in Business Central: setting up, acquiring, depreciating, revaluing and managing capital assets across their lifecycle, plus depreciation methods, a rounding troubleshooting extension, and a subtopic on analytics and reports. It answers how-to and which-method questions.
 
-Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+
+## Overview
+
+The Fixed assets section covers the lifecycle of capital assets in Business Central. Manage fixed assets gives the lifecycle overview: acquisition, depreciation, maintenance, insurance, revaluation, impairment and disposal. Set up fixed assets lists what is required: depreciation configuration, G/L account mappings, and optional insurance, maintenance and user-defined depreciation methods.
+
+The task pages follow the lifecycle. Acquire fixed assets covers recording acquisition costs through purchase orders, journals or assisted workflows. Depreciate or amortize FA covers automatic and manual depreciation. Depreciation methods for fixed assets describes the eight available methods. Revalue Fixed Assets covers appreciation, write-down and indexation. The Troubleshooting FA Ledger Entries extension handles rounding problems in ledger entries.
+
+Start with Manage fixed assets, then Set up fixed assets before posting anything. The Fixed assets analytics subtopic (33 pages) covers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
+
+## Key points
+
+- Acquisition costs are recorded through purchase orders, journals or assisted acquisition workflows; bulk creation, component lists and salvage values are supported.
+- Depreciation can be calculated automatically or posted manually with batch jobs and journals, with department allocation and multiple depreciation books.
+- Eight depreciation methods are covered: straight-line, declining balance, DB1/SL, half-year convention, manual and user-defined, among others.
+- Revaluation (appreciation, write-down, indexation) is posted through the FA G/L Journal or batch jobs.
+- Setup needs depreciation configuration and G/L account mappings; insurance and maintenance setup are optional.
+- The Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts to whole numbers to resolve rounding issues.
+- Fixed assets analytics offers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
 
 ## Subtopics
 

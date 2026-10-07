@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/system-and-application-reference-documen/creating-new-modules
 type: topic
 title: Creating new modules
-summary: "Learn section Development > System and application reference documentation > Creating new modules: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:23.589Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 9da9fa73f3b863c712773b9a58bcaf88d0fb61344c88f828c8af5205b5387781
+  prompts:
+    hub-topic: 1
+  input_hash: 46b2a05aa39730e70e5be4f4629ecddde03d1dc7514919b1874dbd1b76affd3a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module
@@ -90,14 +91,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 9da9fa73f3b863c712773b9a58bcaf88d0fb61344c88f828c8af5205b5387781
-narrative: none
+narrative: generated
 ---
 
 # Creating new modules
 
-> Learn section Development > System and application reference documentation > Creating new modules: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
 
-Path: [Development](../../development.md) > [System and application reference documentation](../system-and-application-reference-documen.md) > Creating new modules · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [System and application reference documentation](../system-and-application-reference-documen.md) > Creating new modules · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section is for developers who want to contribute modules to the System Application in the BCApps repository. It explains the design rules for modules, how to prepare a local development environment, and how to create or change a module.
+
+Start with "Get started with modules" for the requirements (AL development, Git, environment setup). Then follow "Set up an environment for developing a module", which uses GitHub, Docker, BcContainerHelper, and Visual Studio Code. "Module Architecture" gives the design principles you need before writing code: independent projects, public facades, dependency layers, and access modifiers.
+
+Next, choose the task page. "Create a new module in the System Application" walks through facade and implementation codeunits, tests, and contribution guidelines. "Change a module in the System Application" covers modifying existing modules without breaking changes. "Create a .NET Wrapper Module" shows how to expose .NET functionality in AL, using the Regex module as an example.
+
+## Key points
+
+- Modules are developed in the BCApps repository using a Git workflow.
+- Environment setup uses GitHub, Docker, BcContainerHelper, and Visual Studio Code.
+- Module architecture separates modules into independent projects with a public facade and internal implementation.
+- Architecture guidance covers dependencies across functional layers, object accessibility, access modifiers, and extensibility controls.
+- A new module needs a facade codeunit, an implementation codeunit, and unit tests.
+- Changes to existing modules must follow the architecture guidelines, avoid breaking changes, and include tests.
+- .NET wrapper modules use codeunits and temporary tables, the facade pattern, an argument-table pattern, and constructor handling.
+- The Regex module is the worked example for .NET wrapping.
 
 ## Learn pages
 

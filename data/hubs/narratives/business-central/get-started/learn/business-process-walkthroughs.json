@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/get-started/learn/business-process-walkthroughs",
+  "input_hash": "1c8e9cdb79a260bc4fdd849cffae3885f15241d781f69b521941f19f54b3d17f",
+  "summary": "Business process walkthroughs in Business Central are step-by-step scenarios using the CRONUS demonstration company. They answer how-to questions on sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.",
+  "overview": "Business process walkthroughs are guided, end-to-end exercises for practicing common Business Central tasks in the CRONUS demonstration company. Each page covers one business scenario from setup through to posting or reporting.\n\nThe section has an introductory page that lists the walkthroughs, followed by individual pages with no subtopics. They span sales and marketing (campaigns, sales prepayments), purchasing (approval workflow), finance (cash flow forecasts with financial reports), projects (managing projects, work in process), warehouse (basic picking and shipping), and e-commerce (Shopify Connector).\n\nStart with the introductory page to find the scenario closest to your task, then follow that walkthrough in a demo company before applying the same steps to your own data.",
+  "key_points": [
+    "Walkthroughs use the CRONUS demonstration company, so they are safe for practice.",
+    "Sales campaign walkthrough: set up a campaign, build contact segments with filters such as job responsibility, send correspondence by email or hard copy, log interactions, and register responses.",
+    "Sales prepayment walkthrough: configure prepayment percentages, create and post prepayment invoices, then process the final invoice; job queue automation is covered.",
+    "Purchase approval workflow walkthrough: set up approval users, amount limits, and notification methods (including internal notes), then test the workflow.",
+    "Project walkthroughs: set up projects, fixed pricing, copying, and payment by installments; calculate WIP with methods such as Cost Value, post it to G/L, and reverse it.",
+    "Basic warehouse walkthrough: inventory picks for method B, with bin setup and warehouse release, where orders are handled individually without separate shipment posting.",
+    "Cash flow forecast walkthrough: build reports using row and column definitions, cash flow accounts, and forecast formulas, then print them.",
+    "Shopify Connector walkthrough: product and inventory sync, customer import, order sync, price and discount setup, and B2B flows."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:21.410Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015839
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:47.065Z",
+    "verdict": "approve",
+    "issues": [
+      "The introductory page also lists digital audits and data export, but the narrative leaves them out. This is a minor gap.",
+      "The key point calling the CRONUS walkthroughs 'safe for practice' goes slightly beyond the sources, but it follows reasonably from the demo company being used for practice.",
+      "The overview says pages have 'no subtopics', which is true but awkwardly worded. It also leaves out the Shopify walkthrough's data import from Shopify. Both are minor."
+    ],
+    "input_hash": "1c8e9cdb79a260bc4fdd849cffae3885f15241d781f69b521941f19f54b3d17f",
+    "cost_usd": 0.038771200000000006
+  }
+}

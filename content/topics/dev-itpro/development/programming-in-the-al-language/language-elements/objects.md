@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/language-elements/objects
 type: topic
 title: Objects
-summary: "Learn section Development > Programming in the AL language > Language elements > Objects: 19 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "AL object types in Business Central: tables, pages, codeunits, reports, queries, XMLports, control add-ins, permission sets, profiles, entitlements, and their extension objects. It answers questions about object syntax, properties, triggers, keys, how to extend existing objects, and how to write and run tests with test codeunits and test runners."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:34.764Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a90ae453d889eef5dd857be2b9f06a5916dd665df9b4f6dd8f70f0276050a8d5
+  prompts:
+    hub-topic: 1
+  input_hash: 8f72b3be4453e1dbe7a0ae1aa0dd63b759996016c2b6a325c1ebca16f9748301
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-properties
@@ -195,14 +196,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: a90ae453d889eef5dd857be2b9f06a5916dd665df9b4f6dd8f70f0276050a8d5
-narrative: none
+narrative: generated
 ---
 
 # Objects
 
-> Learn section Development > Programming in the AL language > Language elements > Objects: 19 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> AL object types in Business Central: tables, pages, codeunits, reports, queries, XMLports, control add-ins, permission sets, profiles, entitlements, and their extension objects. It answers questions about object syntax, properties, triggers, keys, how to extend existing objects, and how to write and run tests with test codeunits and test runners.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Objects · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Objects · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section documents the object types available in the AL language, one page per object. It covers data objects (table, table extension, table keys, query, XMLport), user interface objects (page, page extension, page customization, control add-in, profile, profile extension), logic and output objects (codeunit, report), and security and licensing objects (permission set, permission set extension, entitlement).
+
+Two pages cover testing: test codeunits with test methods, and test runner codeunits that control how tests execute. A general AL Properties Overview explains property syntax and how properties apply to objects and their elements.
+
+Start with the Table, Page, and Codeunit object pages for the core model. Then move to the extension objects when you need to change existing objects without modifying them. Use the Properties Overview as a reference when you need to know what a property controls.
+
+## Key points
+
+- Table object defines fields, keys, triggers and metadata; the Extensible property and field tooltips are covered, as is Integer to BigInteger migration.
+- Table keys cover primary, secondary, unique, and clustered keys, plus included fields (IncludedFields) for query performance.
+- Page extension uses addfirst, addlast, addafter, addbefore, modify, and the move keywords; page customization is more limited (no variables, procedures, or triggers) and applies only to specified profiles.
+- Codeunits hold reusable business logic with an OnRun trigger; test codeunits use test and handler methods, TransactionModel, TestIsolation, and TestHandlers.
+- Test runner codeunits use the TestRunner subtype with OnBeforeTestRun and OnAfterTestRun triggers to run tests unattended and log results.
+- Reports support RDL, Word, and Excel layouts with request pages; XMLports import and export XML data.
+- Permission sets use Assignable, Permissions, IncludedPermissionSets, and ExcludedPermissionSets; permission set extensions add permissions to existing sets when an extension is installed.
+- Entitlements define which objects customers can use based on licenses or Microsoft Entra roles, supporting Marketplace app monetization.
 
 ## Learn pages
 

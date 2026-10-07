@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/web-services/web-services-security
 type: topic
 title: Web services security
-summary: "Learn section Integration > Web services > Web services security: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Web services security in Business Central covers authentication options (basic, OAuth, service-to-service), certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags. It answers questions on securing OData and SOAP endpoints and API integrations.
 tier: official
 language: en
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4cc591df9ed392d40fdbd824d2af29a0ad8b2630152dcb1497a0ce948eb96f88
+  prompts:
+    hub-topic: 1
+  input_hash: f5d038b53afc37737913ac6d800d4cedf5ff85d2fec9bb7b3096f5a2daf61d9c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-supported-cipher-suites
@@ -98,14 +99,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4cc591df9ed392d40fdbd824d2af29a0ad8b2630152dcb1497a0ce948eb96f88
-narrative: none
+narrative: generated
 ---
 
 # Web services security
 
-> Learn section Integration > Web services > Web services security: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Web services security in Business Central covers authentication options (basic, OAuth, service-to-service), certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags. It answers questions on securing OData and SOAP endpoints and API integrations.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Web services security · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Web services security · tier official · system integration · narrative reviewed by Opus
+
+## Overview
+
+This section explains how to secure access to Business Central web services. The main Web service security page gives best practices and lists the authentication options: basic authentication, OAuth, service-to-service authentication, and certificate-based security. Start there to choose an approach.
+
+Detailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts, user impersonation, service-to-service use, and token lifetimes, and a walkthrough builds a console application that gets tokens through Microsoft Entra ID to call OData. The service-to-service page covers unattended integrations with the client credentials flow. For on-premises, a page covers X.509 certificates and chain trust. Two further pages cover supported cipher suites for outgoing HTTPS calls and the Dynamics365BusinessCentral Azure service tag for firewall and network security group rules.
+
+## Key points
+
+- Authentication options include basic authentication, OAuth, service-to-service authentication, and certificate-based security.
+- OAuth 2.0 for OData and SOAP supports user impersonation and service-to-service scenarios, with access and refresh token lifetime management.
+- Service-to-service authentication uses the OAuth 2.0 client credentials flow for unattended integrations and requires a Microsoft Entra registration.
+- S2S permissions named in the docs include API.ReadWrite.All and Automation.ReadWrite.All; the page references versions 17.0, 18.3, 18.11 and 19.5.
+- The walkthrough builds a console app using Microsoft Entra ID, Visual Studio, delegated permissions, and the OData V4 endpoint.
+- On-premises security certificates use X.509 with chain trust or peer trust, including Server and Client Authentication and SSL for web services.
+- The Dynamics365BusinessCentral Azure service tag restricts network access to and from Business Central through firewall and network security group rules.
+- A separate page lists the TLS protocols and cipher suites supported for outgoing HTTPS calls to external APIs.
 
 ## Learn pages
 

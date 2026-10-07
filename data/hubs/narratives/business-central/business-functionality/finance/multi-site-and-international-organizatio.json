@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio",
+  "input_hash": "2831afd09e4ff6f196e2eb3fcdc131c035c48fb65910eef327ea0463a7be576d",
+  "summary": "Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies.",
+  "overview": "This area covers how Business Central supports organizations that run several sites, subsidiaries or business units. The main page describes the hub-and-spoke business model and lists the capabilities involved: financial consolidation, intercompany transactions, multi-currency, multi-language, a company hub and data exchange.\n\nTwo subtopics go into detail. The consolidation pages explain how to combine general ledger data from several companies into a consolidated company, in a simple or an advanced setup. The intercompany pages explain how to set up partners, a shared chart of accounts and dimensions, and how to post and process intercompany documents and journals.\n\nStart with the overview page to see which capability fits your structure. Then use the consolidation pages for reporting across companies, and the intercompany pages for day-to-day transactions between entities.",
+  "key_points": [
+    "The overview page frames the hub-and-spoke model and lists consolidation, intercompany, multi-currency, multi-language, company hub and data exchange.",
+    "Company consolidation combines general ledger data from subsidiaries or business units into a consolidated company.",
+    "Consolidation supports different charts of accounts, currencies, fiscal years and environments.",
+    "Consolidation can be set up simply or in advanced mode.",
+    "Intercompany setup covers partners, a shared chart of accounts and dimensions.",
+    "Intercompany transactions are posted through documents and journals and handled via the inbox and outbox.",
+    "Purchase costs can be allocated to partner companies.",
+    "Intercompany has 5 pages and consolidation has 2."
+  ],
+  "members_used": 1,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:22.484Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:01.507Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'Intercompany has 5 pages and consolidation has 2' is accurate but adds little value for an agent; a point on the overview page's data integration and analytics coverage would be more useful.",
+      "The overview page summary also mentions data integration and analytics capabilities, which the narrative omits (not an error)."
+    ],
+    "input_hash": "2831afd09e4ff6f196e2eb3fcdc131c035c48fb65910eef327ea0463a7be576d",
+    "cost_usd": 0.0237952
+  }
+}

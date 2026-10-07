@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing
 type: topic
 title: Manufacturing
-summary: "Learn section Business functionality > Manufacturing: 65 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Manufacturing in Business Central covers planning, running and costing production orders, from creation through posting consumption, output, scrap and capacity to finishing, reversing and cost adjustment. It answers how-to questions on production order handling, journals, corrections, subcontracting and analytics.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d64e773c3b68bf2ff0f0eed5f8b4461101630f6c2dbe238ef3f5dc72dbfc1714
+  prompts:
+    hub-topic: 1
+  input_hash: 4294d9f60e4fb4c88c3c1ca522d3666b40357b3fd2794f4691b777d050fde88b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs
@@ -327,7 +328,8 @@ links:
     - video/vnaySMIKnp8
     - video/xqFpiqmXjk0
     - video/zt9_HEmPKNg
-  posts: []
+  posts:
+    - post/olofsimren-com/3545
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -341,7 +343,7 @@ coverage:
   learn: 65
   code: 0
   video: 10
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 50
@@ -457,14 +459,33 @@ bc_forms:
   - 99001561
   - 990000785
 member_hash: d64e773c3b68bf2ff0f0eed5f8b4461101630f6c2dbe238ef3f5dc72dbfc1714
-narrative: none
+narrative: generated
 ---
 
 # Manufacturing
 
-> Learn section Business functionality > Manufacturing: 65 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Manufacturing in Business Central covers planning, running and costing production orders, from creation through posting consumption, output, scrap and capacity to finishing, reversing and cost adjustment. It answers how-to questions on production order handling, journals, corrections, subcontracting and analytics.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed by Opus
+
+## Overview
+
+Manufacturing in Business Central helps you plan, schedule, execute and analyze production. It uses production BOMs, routings, and work and machine centers to coordinate material consumption, operation time, output and costing. The manufacturing overview page is the best starting point.
+
+The own pages follow the life of a production order. You create the order (item, family or sales order as source, with quantities and dates), then record consumption, output, scrap and run time. This can be done in the Production Journal for one order, or in batch journals for consumption and for output and run times. Capacity journals cover work center or machine center time outside production orders. When the order is done, finished production order costs are calculated and adjusted. Reversal pages cover mistakes.
+
+Two subtopics go deeper. Subcontracting covers delegating operations to vendors. Manufacturing analytics covers the Power BI Manufacturing app, built-in reports and capacity load analysis.
+
+## Key points
+
+- Production orders are created with a header (source type item, family or sales order), production lines, quantities and due dates. Lines can be copied from existing orders, and orders can be refreshed when requirements change.
+- Consumption can be flushed automatically or posted manually. Batch post consumption can also calculate component usage.
+- The Production Journal registers consumption, output, scrap and operation time for a released order in one place.
+- Batch post output and run times records quantities, setup and run time, with scrap and stop codes.
+- Scrap can be posted manually in the output journal with scrap quantity and reason codes.
+- Capacity journals record work or machine center time outside production orders, such as maintenance.
+- A production order must have finished status before its costs can be adjusted.
+- Transactions can be reversed: consumption, output and subcontracting receipts can be undone, finished orders reopened, or finished without output with WIP write-off.
 
 ## Subtopics
 
@@ -488,6 +509,7 @@ Path: [Business functionality](../business-functionality.md) > Manufacturing · 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders function changes finished orders"
 - [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "production order costing; subcontracting; cost shares page enhancements"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; bom; production order; assembly; replenishment"
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "Production BOM document attachment; Production BOM active version"

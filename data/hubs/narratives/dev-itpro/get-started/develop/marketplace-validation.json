@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/get-started/develop/marketplace-validation",
+  "input_hash": "fe01aa9673741128827fba031d0dc6e0c47843702cf5058cc01fd63c3ccadf2b",
+  "summary": "Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.",
+  "overview": "Marketplace validation is the set of checks a Business Central app goes through before it is published on the Microsoft marketplace. It has a technical side and a marketing side, plus guidance on promoting the app.\n\nThe Technical validation checklist lists the mandatory requirements for extensions and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Marketplace technical validation FAQ (10 pages) answers detailed questions on app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process and support channels. The Marketing validation FAQ covers listing content and branding rules.\n\nTwo further pages give advice on promotion: how to create an effective sales landing page and how to make compelling videos. Start with the technical checklist, use the FAQs for specific rejections or doubts, and use the marketing pages when you prepare the listing.",
+  "key_points": [
+    "The technical validation checklist sets mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.",
+    "You can self-validate using BcContainerHelper and AppSourceCop analysis.",
+    "The technical FAQ covers app identity, code-signing, names, affixes, ID ranges, Application Insights, app previews, offer types and support channels.",
+    "The marketing validation FAQ requires statements on supported editions, countries/regions and languages.",
+    "Marketing validation also covers help and support pages, product naming conventions and marketplace badge usage, and describes a manual validation process.",
+    "The landing page guide covers layout, headline copy, pain-based messaging, product benefits, testimonials and video demos.",
+    "The video guide covers why, how and what videos, customer testimony, video structure and persona targeting."
+  ],
+  "members_used": 4,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:56.253Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012094999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:24.927Z",
+    "verdict": "approve",
+    "issues": [
+      "The landing page key point lists only the source's feature list. It leaves out the trust-building and call-to-action strategies that the page summary also mentions.",
+      "The overview says to use the FAQs for 'specific rejections or doubts.' That's reasonable navigation advice, but the sources never mention rejections.",
+      "The technical FAQ key point leaves out 'the validation process,' which the subtopic covers. The overview does include it."
+    ],
+    "input_hash": "fe01aa9673741128827fba031d0dc6e0c47843702cf5058cc01fd63c3ccadf2b",
+    "cost_usd": 0.0313072
+  }
+}

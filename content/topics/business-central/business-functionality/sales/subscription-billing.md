@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/subscription-billing
 type: topic
 title: Subscription billing
-summary: "Learn section Business functionality > Sales > Subscription billing: 47 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Subscription billing in Business Central covers recurring invoicing for contractually agreed services: contracts, sales and purchasing with subscription lines, recurring billing proposals, billing automation, posting, usage-based billing, and Power BI analytics. It answers setup, how-to, and lifecycle questions."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 56927537ffc06a6b885d4557d334f0a64f7b916cb83305cb76f08e829c44f86d
+  prompts:
+    hub-topic: 1
+  input_hash: 354c94745b5e9d31bb542516413de8f10285090f9752408df3f53039ddc98a35
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/SRB/billing-automation
@@ -365,14 +366,33 @@ bc_forms:
   - 8096
   - 36951
 member_hash: 56927537ffc06a6b885d4557d334f0a64f7b916cb83305cb76f08e829c44f86d
-narrative: none
+narrative: generated
 ---
 
 # Subscription billing
 
-> Learn section Business functionality > Sales > Subscription billing: 47 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Subscription billing in Business Central covers recurring invoicing for contractually agreed services: contracts, sales and purchasing with subscription lines, recurring billing proposals, billing automation, posting, usage-based billing, and Power BI analytics. It answers setup, how-to, and lifecycle questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Subscription billing · tier official · system sales · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Subscription billing · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+Subscription billing lets you manage recurring invoices for services agreed by contract, with flexible pricing, renewals, and billing periods. It links quote-to-invoice workflows with deferral-based accounting and Power BI analytics. The welcome page introduces the concepts, and the examples page shows scenarios such as mid-cycle proration, upgrades and downgrades, and partial refunds and credits.
+
+The pages fit together along the billing flow. Sales and Purchasing cover how subscription lines are sold to customers or bought from vendors and assigned to contracts. Contracts covers the customer and vendor contracts and their lifecycle. Recurring billing creates billing proposals from contract lines and next billing dates, and Posting documents explains how the resulting invoices and credit memos are posted. Billing automation adds job queue based automation. Usage-based billing and the analytics app are separate subtopics.
+
+Start with the welcome page, then Contracts, then Recurring billing. Move to Billing automation once manual billing works.
+
+## Key points
+
+- Welcome page lists recurring billing, billing templates, contract deferrals, usage-based billing, notice period calculations, and Power BI analytics (version 22 is mentioned).
+- Recurring billing uses a Billing Proposal built from billing templates, with Billing Date, Billing to Date, Group by Contract, and Create Documents.
+- Billing automation offers configurable automation levels, job queue entries, posting and document date formulas, and error logging.
+- Posting documents covers contract invoices, invoice details, archived billing lines, and batch posting, using the Recurring Billing filter.
+- Purchasing maps recurring vendor purchases such as rentals and maintenance to vendor subscription contracts, using the standard purchasing process.
+- Contracts subtopic covers customer and vendor contracts, renewal, cancellation, price updates, and deferrals.
+- Sales subtopic covers quotes and orders with subscription lines, price calculation, foreign currency, and credit memos or cancellations.
+- Usage-based billing covers data exchange definitions, suppliers, subscription linking, pricing, and rebilling corrections; the Power BI app covers recurring revenue, churn, and forecasts.
 
 ## Subtopics
 

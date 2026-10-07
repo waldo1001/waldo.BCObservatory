@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/united-states",
+  "input_hash": "9d81f9e8a19bb90727feccd0d1c360c91dc6d791120bcf99370a348f4e25c1b3",
+  "summary": "United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (bank deposits, vendor payment export, bank reconciliation), and printing troubleshooting reports. It answers setup and how-to questions for the US version.",
+  "overview": "This section collects the features specific to the US version of Business Central. The landing page, \"United States local functionality\", gives the overall picture: tax reporting, banking and payments, and general features such as 1099 form handling, deposit creation, bank reconciliation, and e-invoicing support. It mentions version 27.0.\n\nTwo subtopics hold the detail. Tax covers sales tax, use and purchase tax, unrealized sales tax, and the IRS 1099 and 1096 forms, including setup, jurisdictions and groups, vendor tracking, form format changes, and submission to the IRS. Banking & payments has three how-to pages: creating bank deposits, paying vendors by exporting payments, and reconciling bank accounts.\n\nThe hub also has a page on printing troubleshooting reports for diagnostic and reporting purposes. Start with the landing page for orientation, then go to Tax or Banking & payments depending on the task.",
+  "key_points": [
+    "Tax subtopic (11 pages) covers sales tax, use and purchase tax, and unrealized sales tax.",
+    "IRS 1099 and 1096 forms are covered, including 1099 setup, vendor tracking, reporting, APIs, form format changes, and submission to the IRS.",
+    "Tax setup includes jurisdictions and groups.",
+    "Banking & payments subtopic (3 pages) covers creating bank deposits, paying vendors, and reconciling bank accounts.",
+    "Vendor payments can be exported with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU).",
+    "A separate page explains how to print troubleshooting reports in the US version.",
+    "The landing page references e-invoicing support and version 27.0."
+  ],
+  "members_used": 2,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:02.366Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011286999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:51.465Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the source does not say what 'version 27.0' applies to, so the key point that mentions it adds little value for agents.",
+      "Minor: e-invoicing support comes only from the landing page's short summary. No page or subtopic in the hub covers it in detail."
+    ],
+    "input_hash": "9d81f9e8a19bb90727feccd0d1c360c91dc6d791120bcf99370a348f4e25c1b3",
+    "cost_usd": 0.030695200000000002
+  }
+}

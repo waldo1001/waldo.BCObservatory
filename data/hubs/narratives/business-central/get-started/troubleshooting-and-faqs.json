@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/get-started/troubleshooting-and-faqs",
+  "input_hash": "3e7d624bfa061dd15b43e694eb3e0eee27515a1ec6a55142c9555e797489baf9",
+  "summary": "Troubleshooting and FAQs for Business Central covers the Tell Me search, the Copilot experience, minimum system requirements, and the Business Central app for Microsoft Teams. It answers questions about how these features work, what they need, and how they are controlled.",
+  "overview": "This section is a set of four standalone pages with short answers to common questions. There are no subtopics, so each page can be read on its own.\n\nStart with \"Minimum requirements in using Business Central\" to check supported browsers, mobile operating systems, Outlook, Teams and the Excel add-in. The other pages are feature FAQs: Tell Me for finding actions, pages, reports and records, the Copilot FAQ for licensing, data access and admin controls, and the Teams FAQ for installing and using the Business Central app in Microsoft Teams.",
+  "key_points": [
+    "Tell Me searches for actions, pages and reports, and can also search company data. Results are filtered by permissions, and it works on mobile and with custom extensions.",
+    "The Tell Me FAQ mentions 2023 release wave 2 and 2024 release wave 1.",
+    "The Copilot FAQ describes a new Copilot experience that replaces Chat with Copilot starting in version 29.",
+    "Copilot has read-only access to Business Central data, can use Work IQ for Microsoft 365 data, and offers admin access controls and chat capability control.",
+    "The Copilot FAQ also covers region and language support and troubleshooting.",
+    "Minimum requirements list Edge, Chrome, Firefox and Safari as supported browsers. Mobile support covers the latest three major versions of Android and iOS.",
+    "The requirements page also covers Outlook, Teams desktop and web, the Excel add-in, Administration Center browser support and on-premises considerations.",
+    "The Teams FAQ covers app installation, sign-in, permissions, contact search, card expansion, tabs in chat and mobile support."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:11:20.182Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011793
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:18.313Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2, which says the Tell Me FAQ mentions 2023 release wave 2 and 2024 release wave 1, is supported but gives agents little to act on. It does not say what changed in those release waves. It could be merged into key point 1 or dropped."
+    ],
+    "input_hash": "3e7d624bfa061dd15b43e694eb3e0eee27515a1ec6a55142c9555e797489baf9",
+    "cost_usd": 0.0264792
+  }
+}

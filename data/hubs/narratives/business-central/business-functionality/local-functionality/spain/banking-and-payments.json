@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/spain/banking-and-payments",
+  "input_hash": "00cd112c5393bfb57f13183cac16a5abc2ef32238c2b67d3f6ead689fe81bd3e",
+  "summary": "Spanish banking and payments in Business Central: CCC bank codes, bank account setup for electronic payments, AEB N34.1 and other export formats, paying vendors and voiding exports, payment days and non-payment periods, and reporting cash payments with the 340 declaration. Answers setup and how-to questions for Spain.",
+  "overview": "This section covers the Spain-specific banking and payment functionality. It starts with identifying bank accounts through CCC (Código Cuenta Cliente) codes, which are 20-digit Spanish or 21-digit Portuguese account identifiers split into bank, branch, control digits and account number fields. These are set up in Company Information, the Bank Account Card and the Customer/Vendor Bank Account Card.\n\nBuilding on that, the electronic payment pages explain how to configure bank accounts with an export file path, pay vendors with the Electronic Payment bank payment type, export files in SEPA, AEB N34, N34.1 and E-PAY formats, and void an export by deleting its payment journal. Separate pages cover payment days and non-payment periods for due date calculation, and reporting cash payments with the 340 declaration.\n\nStart with the CCC setup pages, then the bank account page for electronic payments, then the export and pay-vendors pages. The payment days and cash payment pages are independent and can be read on their own.",
+  "key_points": [
+    "CCC codes are unique 20-digit Spanish or 21-digit Portuguese bank account codes. They are made up of the fields CCC Bank No., CCC Bank Branch No., CCC Control Digits and CCC Bank Account No.",
+    "You set up CCC codes in Company Information, on the Bank Account Card and on the Customer/Vendor Bank Account Card.",
+    "For electronic payments, set up CCC details and the E-Pay Export File Path on the Bank Account Card and Vendor Bank Account Card. The setup also includes Last Remittance Advice No.",
+    "Instead of paper checks, you can pay vendors with AEB N34.1 files exported from payment journals or from Cartera payment orders.",
+    "The export formats covered are SEPA Credit Transfer, AEB N34, AEB N34.1 and E-PAY, with remittance advice.",
+    "To pay vendors electronically, use the Electronic Payment bank payment type. To void an exported payment, delete the whole payment journal created for the export.",
+    "Payment days and non-payment periods are set on Company Information, Customer and Vendor cards and are used to calculate due dates for sales and purchase documents.",
+    "Cash payments over EUR 6,000.00 per customer per year are reported with the Make 340 Declaration batch job."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:38.330Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016129
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:46.510Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 1 calls the branch field 'Bank Branch No.'. The source pages name it 'CCC Bank Branch No.'.",
+      "Key point 3 says both cards hold the E-Pay Export File Path and Last Remittance Advice No. The source only says CCC details and electronic payment file paths are set on the Bank Account Card and Vendor Bank Account Card. It does not say which card holds Last Remittance Advice No., so the wording is softened.",
+      "The key points left out the Payments in Cash page: cash payments over EUR 6,000.00 per customer per year are reported with the Make 340 Declaration batch job. A key point is added for it, and the two CCC points are merged to stay within the limit of 8.",
+      "The reading order in the overview is not in the sources, but it is reasonable guidance and is kept."
+    ],
+    "input_hash": "00cd112c5393bfb57f13183cac16a5abc2ef32238c2b67d3f6ead689fe81bd3e",
+    "cost_usd": 0.0511992
+  }
+}

@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 30 posts in the knowledge base, 2026-02-08 to 2026-09-23, mostly about development, copilot, administration."
+summary: "Gerardo Renteria: 76 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot."
 tier: community
 language: es
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:01:30.439Z"
+  at: "2026-10-07T01:54:03.703Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b70840fcda3db0dd9b812cb1cd0053355e16304d7263eb87a4b701b66b53b7d0
+  input_hash: 436eaf2d17484108e05dcdc88b7cc455d90babc45e2061bdb60972e70eda9beb
 evidence:
   - kind: blog
     url: https://gerardorenteria.blog
@@ -33,6 +33,52 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/gerardorenteria-blog/10732
+    - post/gerardorenteria-blog/10701
+    - post/gerardorenteria-blog/10927
+    - post/gerardorenteria-blog/10921
+    - post/gerardorenteria-blog/11003
+    - post/gerardorenteria-blog/11203
+    - post/gerardorenteria-blog/11304
+    - post/gerardorenteria-blog/11334
+    - post/gerardorenteria-blog/11354
+    - post/gerardorenteria-blog/11401
+    - post/gerardorenteria-blog/11452
+    - post/gerardorenteria-blog/11464
+    - post/gerardorenteria-blog/11649
+    - post/gerardorenteria-blog/11706
+    - post/gerardorenteria-blog/11766
+    - post/gerardorenteria-blog/11769
+    - post/gerardorenteria-blog/11853
+    - post/gerardorenteria-blog/11968
+    - post/gerardorenteria-blog/12030
+    - post/gerardorenteria-blog/12231
+    - post/gerardorenteria-blog/12114
+    - post/gerardorenteria-blog/12238
+    - post/gerardorenteria-blog/12347
+    - post/gerardorenteria-blog/11616
+    - post/gerardorenteria-blog/12412
+    - post/gerardorenteria-blog/12460
+    - post/gerardorenteria-blog/12464
+    - post/gerardorenteria-blog/11565
+    - post/gerardorenteria-blog/12557
+    - post/gerardorenteria-blog/9061
+    - post/gerardorenteria-blog/12728
+    - post/gerardorenteria-blog/12733
+    - post/gerardorenteria-blog/12682
+    - post/gerardorenteria-blog/12869
+    - post/gerardorenteria-blog/12871
+    - post/gerardorenteria-blog/12961
+    - post/gerardorenteria-blog/13043
+    - post/gerardorenteria-blog/13041
+    - post/gerardorenteria-blog/13195
+    - post/gerardorenteria-blog/13166
+    - post/gerardorenteria-blog/13385
+    - post/gerardorenteria-blog/13299
+    - post/gerardorenteria-blog/13445
+    - post/gerardorenteria-blog/12801
+    - post/gerardorenteria-blog/13537
+    - post/gerardorenteria-blog/14099
     - post/gerardorenteria-blog/13623
     - post/gerardorenteria-blog/13675
     - post/gerardorenteria-blog/13945
@@ -70,44 +116,52 @@ url: https://gerardorenteria.blog
 author: Gerardo Renteria
 mvp: false
 full_text: false
-item_count: 30
+item_count: 76
 footprint:
   systems:
     - id: development
-      weight: 40
-    - id: copilot
-      weight: 18
+      weight: 85
     - id: administration
-      weight: 13
-    - id: finance
-      weight: 9
-    - id: platform
-      weight: 6
-    - id: sales
-      weight: 6
-  topics:
+      weight: 41
     - id: copilot
-      weight: 6
-    - id: al development
-      weight: 5
+      weight: 26
+    - id: finance
+      weight: 25
+    - id: platform
+      weight: 25
+    - id: sales
+      weight: 22
+  topics:
     - id: feature requests
-      weight: 5
-    - id: agents
-      weight: 4
+      weight: 14
+    - id: al development
+      weight: 12
     - id: localization
-      weight: 4
-    - id: vs code
-      weight: 4
-    - id: al extension
-      weight: 3
+      weight: 11
+    - id: user experience
+      weight: 10
+    - id: copilot
+      weight: 9
+    - id: cumulative updates
+      weight: 9
+    - id: hotfixes
+      weight: 9
+    - id: on-premises
+      weight: 8
+    - id: community ideas
+      weight: 6
     - id: financial management
-      weight: 3
-    - id: inventory
-      weight: 3
-    - id: vs code extension
-      weight: 3
+      weight: 6
   objects:
+    - id: codeunit MyCodeunit
+      weight: 2
+    - id: codeunit MyCodeunitTests
+      weight: 2
+    - id: table Vendor Ledger Entries
+      weight: 2
     - id: codeunit 1255
+      weight: 1
+    - id: codeunit 415
       weight: 1
     - id: codeunit 90
       weight: 1
@@ -115,30 +169,22 @@ footprint:
       weight: 1
     - id: codeunit DimensionManagement
       weight: 1
-    - id: codeunit GDRGCompanyFeatureAdjuster
+    - id: codeunit Error Message Handler
       weight: 1
-    - id: codeunit GDRGCompanyMarker
+    - id: codeunit Error Message Management
       weight: 1
-    - id: codeunit GDRGCopyCompanySubscriber
+    - id: codeunit GDRG Achievement Events
       weight: 1
-    - id: codeunit GDRGCustomerDimSubs
-      weight: 1
-    - id: codeunit GDRGDataAnonymizer
-      weight: 1
-    - id: codeunit GDRGDerivedDimMgt
-      weight: 1
-    - id: codeunit GDRGEnvCleanupMgt
-      weight: 1
-    - id: codeunit GDRGEnvCleanupSubscriber
+    - id: codeunit GDRG Achievement Processor
       weight: 1
   features: []
-first_item: "2026-02-08"
+first_item: "2025-04-11"
 last_item: "2026-09-23"
 ---
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 30 posts in the knowledge base, 2026-02-08 to 2026-09-23, mostly about development, copilot, administration.
+> Gerardo Renteria: 76 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -146,24 +192,27 @@ last_item: "2026-09-23"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (40) | copilot (6) | codeunit 1255 (1) |
-| copilot (18) | al development (5) | codeunit 90 (1) |
-| administration (13) | feature requests (5) | codeunit CLBlameMgmt (1) |
-| finance (9) | agents (4) | codeunit DimensionManagement (1) |
-| platform (6) | localization (4) | codeunit GDRGCompanyFeatureAdjuster (1) |
-| sales (6) | vs code (4) | codeunit GDRGCompanyMarker (1) |
-|  | al extension (3) | codeunit GDRGCopyCompanySubscriber (1) |
-|  | financial management (3) | codeunit GDRGCustomerDimSubs (1) |
-|  | inventory (3) | codeunit GDRGDataAnonymizer (1) |
-|  | vs code extension (3) | codeunit GDRGDerivedDimMgt (1) |
-|  |  | codeunit GDRGEnvCleanupMgt (1) |
-|  |  | codeunit GDRGEnvCleanupSubscriber (1) |
+| development (85) | feature requests (14) | codeunit MyCodeunit (2) |
+| administration (41) | al development (12) | codeunit MyCodeunitTests (2) |
+| copilot (26) | localization (11) | table Vendor Ledger Entries (2) |
+| finance (25) | user experience (10) | codeunit 1255 (1) |
+| platform (25) | copilot (9) | codeunit 415 (1) |
+| sales (22) | cumulative updates (9) | codeunit 90 (1) |
+|  | hotfixes (9) | codeunit CLBlameMgmt (1) |
+|  | on-premises (8) | codeunit DimensionManagement (1) |
+|  | community ideas (6) | codeunit Error Message Handler (1) |
+|  | financial management (6) | codeunit Error Message Management (1) |
+|  |  | codeunit GDRG Achievement Events (1) |
+|  |  | codeunit GDRG Achievement Processor (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ******** 8
+- 2025-Q2: ********** 10
+- 2025-Q3: ************ 12
+- 2025-Q4: ****************** 18
+- 2026-Q1: ************** 14
 - 2026-Q2: ************ 12
 - 2026-Q3: ********** 10
 

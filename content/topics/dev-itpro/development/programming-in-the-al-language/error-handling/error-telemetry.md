@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/error-handling/error-telemetry
 type: topic
 title: Error telemetry
-summary: "Learn section Development > Programming in the AL language > Error handling > Error telemetry: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Error telemetry in Business Central AL covers how to analyze error-related events in Application Insights: error dialogs from the Error method, permission errors, user votes on error messages, and feature telemetry. It answers questions about event IDs, dimensions, KQL analysis and logging with the Telemetry AL module."
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:48.243Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: dbb22af324790e4cc9e32a802778f0b7eb24e9f4cbf05d770f836f67619cf2cd
+  prompts:
+    hub-topic: 1
+  input_hash: 592be2a551878e89381676a7fda1d4fdfeb6c6d287ae618b31177294289766c0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace
@@ -75,14 +76,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: dbb22af324790e4cc9e32a802778f0b7eb24e9f4cbf05d770f836f67619cf2cd
-narrative: none
+narrative: generated
 ---
 
 # Error telemetry
 
-> Learn section Development > Programming in the AL language > Error handling > Error telemetry: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Error telemetry in Business Central AL covers how to analyze error-related events in Application Insights: error dialogs from the Error method, permission errors, user votes on error messages, and feature telemetry. It answers questions about event IDs, dimensions, KQL analysis and logging with the Telemetry AL module.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Error handling](../error-handling.md) > Error telemetry · tier official · system platform · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Error handling](../error-handling.md) > Error telemetry · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section is for developers who want to see how errors surface in production. Three pages describe specific telemetry signals sent to Application Insights: error dialogs shown when the Error method is called in AL code, permission errors when users lack required permissions, and votes users give on how helpful an error message was. The Error method and permission error pages describe the event dimensions and give KQL examples.
+
+The fourth page covers feature telemetry. It uses the Telemetry AL module to track app health, feature uptake and usage, and to log errors through the FeatureTelemetry codeunit, with custom dimensions available.
+
+Start with the Error method trace page for the general error signal, then the permission error page if the problem is about access. Use the vote telemetry page to judge error message quality, and feature telemetry to add your own logging.
+
+## Key points
+
+- Error method trace telemetry uses eventId RT0030 (error dialog displayed) and includes alErrorMessage and alStackTrace dimensions.
+- Permission error trace telemetry uses eventId RT0031 (permission error shown) with errorMessage, permissionArea, permissionType and alStackTrace dimensions.
+- Both error trace pages give KQL examples for Application Insights analysis. The Error method page also covers alert setup.
+- Error message vote telemetry records user feedback on how helpful an error message was in Application Insights. The page is associated with 2022 release wave 1.
+- Feature telemetry uses the FeatureTelemetry codeunit with LogUsage, LogError and LogUptake.
+- Uptake states that can be logged are Discovered, Set up, Used and Undiscovered.
+- Feature telemetry supports advanced filtering through common telemetry dimensions, plus a Telemetry Logger interface, custom dimensions and feature comparison across metrics.
 
 ## Learn pages
 

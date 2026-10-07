@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/planning
 type: topic
 title: Planning
-summary: "Learn section Business functionality > Planning: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Planning in Business Central covers how the planning system balances supply and demand. It answers questions about forecasts, MPS and MRP runs, order-by-order planning, production orders from sales orders, replanning, location effects, and order tracking.
 tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2c0efdb54fdf8b9ca586037daec2328e07f0bc0440cd110faedfb108ce1c8654
+  prompts:
+    hub-topic: 1
+  input_hash: 1076309ad2f38a9c48fe9ef1621ee79b673bb8fadecb9321ade29fbbe0b2ede4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/production-about-planning-functionality
@@ -100,6 +101,7 @@ links:
   posts:
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
     - post/olofsimren-com/3779
+    - post/thedynamicsexplorer-com/7097
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -111,7 +113,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 291
@@ -143,14 +145,33 @@ bc_forms:
   - 99000921
   - 99000922
 member_hash: 2c0efdb54fdf8b9ca586037daec2328e07f0bc0440cd110faedfb108ce1c8654
-narrative: none
+narrative: generated
 ---
 
 # Planning
 
-> Learn section Business functionality > Planning: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Planning in Business Central covers how the planning system balances supply and demand. It answers questions about forecasts, MPS and MRP runs, order-by-order planning, production orders from sales orders, replanning, location effects, and order tracking.
 
-Path: [Business functionality](../business-functionality.md) > Planning · tier official · system inventory · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Planning · tier official · system inventory · narrative reviewed by Opus
+
+## Overview
+
+Planning is the area that calculates what to buy, produce, assemble, or transfer to meet demand. The pages start with concepts: "About planning functionality" explains planning parameters, worksheets, regenerative and net change plans, and warnings. "Supply Planning" describes balancing demand and supply with MPS and MRP.
+
+Practical pages cover the main workflows. You can create demand forecasts, run full planning, MPS, or MRP, or plan manually with Order Planning. You can also create production orders directly from sales orders and replan or refresh production orders after changes.
+
+Supporting pages explain behavior that affects results. "Planning With or Without Locations" describes how location codes and SKU setup change which parameters apply. "Track Relations Between Demand and Supply" covers order tracking, reservations, and untracked planning elements. Start with "About planning functionality", then pick the workflow you need.
+
+## Key points
+
+- Planning calculates supply and demand using planning parameters, worksheets, and multilevel production order management.
+- Plan calculation methods include regenerative plan, net change plan, and get action messages, for MPS, MRP, or combined.
+- Demand forecasts can be sales, production, or component forecasts, by location or variant, and feed MPS and MRP.
+- Order Planning handles new demand order by order from sales orders, production components, and service orders, with purchase, production, or transfer supply.
+- Sales Order Planning creates production orders for produced items, with Item Order or Project Order types.
+- Replan and Refresh actions recalculate components and routings of production orders, with a scheduling direction option.
+- Location setup (Components at Location, Location Mandatory) and SKU parameters determine which planning parameters apply.
+- Order tracking, order-to-order links, and untracked planning elements (such as safety stock and reorder point) show how demand and supply relate.
 
 ## Learn pages
 
@@ -170,6 +191,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "Drop shipment lines are now visible and included in order planning calculations"
 - [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
+- [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items"
 
 ## Business Central pages and reports
 

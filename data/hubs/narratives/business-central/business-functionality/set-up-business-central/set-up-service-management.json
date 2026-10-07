@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-service-management",
+  "input_hash": "698e9b81040c91434f498ca4cd9fa4819a15022fbdc8433a2192b01c29fe667a",
+  "summary": "Setting up service management in Business Central: service items, components, loaners, service hours, standard service codes, fault reporting, pricing, resource allocation, contracts, order and repair statuses, and troubleshooting guidelines. It answers how-to-configure questions for the Premium service experience.",
+  "overview": "This section covers the configuration needed before service orders and contracts can be used. The page \"Setting up service management\" is the entry point. It lists the main setup areas and notes that the Premium experience is required. Each area then has its own page.\n\nThe pages fall into a few groups. Service offerings, service items and components, and service item groups define what is serviced. Fault reporting, troubleshooting guidelines, standard service codes, and repair and order statuses define how work is described and tracked. Pricing and costs, service contracts, work and service hours, resource allocation (skills and zones), and loaners cover how service is charged, scheduled, and staffed. \"Set up service management processes\" covers the general setup: mandatory fields, response time defaults, warranties, and posting policies.\n\nStart with the overview page and the general processes page. Then work through the area you need, such as service items before contracts, or skills and zones before assigning technicians.",
+  "key_points": [
+    "Service items can be created manually or automatically when items are shipped. They can also be blocked from use in service transactions.",
+    "Service item groups hold defaults such as contract discount %, service price group code, and response time. They can also create a service item on sale.",
+    "Fault reporting is set up with fault, symptom, fault area, and reason codes. You also set the reporting level and the fault/resolution relationships.",
+    "Pricing uses service price groups, adjustment groups, and additional costs such as starting fees and travel costs.",
+    "Service contracts need contract groups, account groups, templates, and customer templates set up first.",
+    "Resource allocation matches technicians to tasks by skills and service zones. Work hour templates and service hours drive resource capacity and response date calculation.",
+    "Repair statuses and service order statuses use priority levels, with options for posting allowed and pending.",
+    "Troubleshooting guidelines can be assigned to service item groups, service items, or items, with an inheritance hierarchy. Loaners are tracked with loaner cards and loan receipts."
+  ],
+  "members_used": 14,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:03.254Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017789
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:42.437Z",
+    "verdict": "approve",
+    "issues": [
+      "The summary says \"Premium service experience\". The source only says the Premium experience is required, so \"Premium experience\" would be more exact.",
+      "The suggested order in the overview (\"service items before contracts\") is the writer's own inference. No page summary states it. It is harmless as general advice.",
+      "Two minor points from the sources are missing: optional service shelves on the service items and components page, and the one-service-item-per-order and document-routing-by-contact settings on the processes page."
+    ],
+    "input_hash": "698e9b81040c91434f498ca4cd9fa4819a15022fbdc8433a2192b01c29fe667a",
+    "cost_usd": 0.040643200000000004
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-triggers-and-events",
+  "input_hash": "943d75fdebb061c4580dcc95b54f5c903740ef5f4712be5e20baa9bee8a59ede",
+  "summary": "Report triggers and events in AL for Business Central: events raised during report generation, printing, and export. Answers questions about patching documents, setting up printers, custom rendering, and customizing export filenames.",
+  "overview": "This section documents the events a developer can subscribe to in order to change how reports are generated, delivered, and named. The events cover the report life cycle: setting up printers, rendering, intermediate and final document handling, printing, and file naming.\n\nThe pages are independent reference topics, one per event. OnAfterDocumentReady and OnAfterIntermediateDocumentReady are for document patching, and the latter works on intermediate artifacts such as XML or Word files. OnCustomDocumentMergerEx handles custom rendering. OnAfterSetupPrinters and OnAfterDocumentPrintReady cover printer extensions. OnGetFilename customizes export file names.\n\nStart with the event that matches your scenario. For a printer extension, read OnAfterSetupPrinters first, then OnAfterDocumentPrintReady. For changes to generated output, begin with OnAfterDocumentReady.",
+  "key_points": [
+    "OnAfterDocumentPrintReady is raised when a user selects print on a report request page, and is used to send the report to a target extension printer.",
+    "OnAfterDocumentReady lets you modify generated report artifacts before they are saved or printed, by subscribing in the ReportManagement codeunit.",
+    "OnAfterIntermediateDocumentReady intercepts intermediate artifacts such as XML or Word files, for document patching and testing.",
+    "OnAfterSetupPrinters defines printers with payload settings: paper sizes, trays, duplex, color, and default copies.",
+    "OnCustomDocumentMergerEx supports custom rendering using the dataset, layout, and report JSON payload parameters.",
+    "OnGetFilename is an integration event in codeunit 44 ReportManagement for naming PDF, Excel, or Word exports.",
+    "Several events use a report payload and relate to SaveAs, SendTo actions, and print."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:15.130Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012863
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:38.147Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary says 'Report triggers and events' but the hub's pages only cover events; this wording comes from the hub title, so it's acceptable.",
+      "Overview says OnAfterSetupPrinters covers printer extensions. Its page summary only says it sets up printers users can select, so this is a slight inference. Only OnAfterDocumentPrintReady explicitly mentions extension printers.",
+      "'Independent reference topics, one per event' matches the page list, but the inputs don't say anything else about how the pages are organised."
+    ],
+    "input_hash": "943d75fdebb061c4580dcc95b54f5c903740ef5f4712be5e20baa9bee8a59ede",
+    "cost_usd": 0.039815199999999995
+  }
+}

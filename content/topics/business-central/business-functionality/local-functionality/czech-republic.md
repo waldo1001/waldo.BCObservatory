@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic
 type: topic
 title: Czech Republic
-summary: "Learn section Business functionality > Local functionality > Czech Republic: 60 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Czech Republic local functionality in Business Central: the Core and Advanced Localization Packs, fixed assets, manufacturing cost returns, and subtopics for finance, VAT, banking, advance payments, payables and receivables, inventory, and general user control. It answers questions about Czech accounting and tax compliance features."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:42.630Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 35edf9a57fd5c0694d2d81435ef0d58394cdd6dcc1aef44cfdfe14fc9864d678
+  prompts:
+    hub-topic: 1
+  input_hash: d854616b15b29a7c53ea7cbea747cf041c2e910c5b02f94eb0d4240114a38e50
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
@@ -342,14 +343,33 @@ coverage:
 bc_forms:
   - 118
 member_hash: 35edf9a57fd5c0694d2d81435ef0d58394cdd6dcc1aef44cfdfe14fc9864d678
-narrative: none
+narrative: generated
 ---
 
 # Czech Republic
 
-> Learn section Business functionality > Local functionality > Czech Republic: 60 Microsoft Learn pages in 7 subtopics. Index of what Learn documents here, linked to Learn.
+> Czech Republic local functionality in Business Central: the Core and Advanced Localization Packs, fixed assets, manufacturing cost returns, and subtopics for finance, VAT, banking, advance payments, payables and receivables, inventory, and general user control. It answers questions about Czech accounting and tax compliance features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+The Czech localization is delivered as extensions that add features for Czech accounting and tax legislation. The Core Localization Pack covers corrections posting, statutory company information, VAT date, VAT statement, multi-circuit accounting and inventory handling. The Advanced Localization Pack adds general ledger entries application, dimension automation, transfer order posting groups, item ledger fields and SKU posting group setup. A separate fixed asset extension and a page on mandatory returning of exact costs in manufacturing cover those areas.
+
+The hub's own pages give the overview. "Czech Local Functionality" lists what exists across finance, VAT, fixed assets, banking, advance payments, payables and receivables, inventory, manufacturing and general areas. The subtopics go into detail: Core Finance, VAT, Banking and Payments, Advance Payments, Payables and Receivables, Inventory, and General.
+
+Start with the Czech Local Functionality overview to find which extension provides a feature. Then go to the matching subtopic for setup and use. VAT and Core Finance are the largest subtopics, with 16 and 14 pages.
+
+## Key points
+
+- Core Localization Pack for Czech covers corrections posting, statutory company information, internal financial documents, financial reports, VAT date and VAT statement.
+- Advanced Localization Pack adds G/L entries application, automatic dimension creation, posting groups in transfer orders, extra item ledger fields, and gen. prod. posting group from SKU.
+- Fixed asset extension adds tax depreciation, depreciation basis calculation, depreciation holidays, two-step acquisition, disposal posting, classification codes and location history.
+- VAT subtopic covers VAT date and periods, reverse charge, non-deductible VAT, unreliable payer checks, control report, VIES, VAT returns and Intrastat.
+- Banking and Payments covers two extensions: banking documents (payment orders, bank statements, bank files) and cash desk.
+- Advance Payments covers a localization extension for sales and purchase advances, including setup of templates and VAT posting.
+- Payables and Receivables covers compensation, balance reconciliations, exchange rate adjustments, sales correcting documents and ARES contact updates.
+- General covers extended user control (user-to-employee assignment, date validation, access control) and modern search on lists.
 
 ## Subtopics
 

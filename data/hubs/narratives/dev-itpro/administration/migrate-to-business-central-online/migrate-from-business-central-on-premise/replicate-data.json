@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
+  "input_hash": "f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d",
+  "summary": "Data replication from Business Central on-premises to Business Central online: how the replication process works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor, pause, or troubleshoot it in Cloud Migration Management.",
+  "overview": "This section covers the replication step of a cloud migration from Business Central on-premises to an online environment. It has two pages: one explaining how replication works, and one explaining how to operate it.\n\nStart with Data replication overview. It describes the large table flow and the small table flow, the use of Azure BLOB storage and Azure Data Factory, the integration runtime, company initialization, and how replication can be rerun using change tracking.\n\nThen use Run and manage data replication for the hands-on steps. It uses the Cloud Migration Management page to create a diagnostics run, start replication, follow progress, check the Migration Log, and handle problems by pausing or abandoning a migration.",
+  "key_points": [
+    "Replication moves data from an on-premises database to an online Business Central environment.",
+    "Tables follow either a large table flow or a small table flow.",
+    "Azure BLOB storage and Azure Data Factory, with an integration runtime, take part in the process.",
+    "Company initialization is part of the replication process.",
+    "Replication can be rerun, and change tracking is used for reruns.",
+    "Cloud Migration Management is the page used to run and manage replication.",
+    "You can create a diagnostics run before running replication.",
+    "Progress is monitored in Cloud Migration Management and the Migration Log, and you can pause or abandon a migration."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:50.117Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008943
+  }
+}

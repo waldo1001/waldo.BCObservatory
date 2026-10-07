@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/how-users-work-with-reports",
+  "input_hash": "f12a8498426dc1c2867ef1e84fa5f7ee76ddadf937f3cfb91526624881ce9b6f",
+  "summary": "User-facing report handling in Business Central: running, previewing, printing, scheduling and saving reports, managing saved settings for reports and batch jobs, and choosing default printers. It answers how-to questions about report request pages, filters, layouts and printer selection.",
+  "overview": "This section covers what users do with reports after developers have built them. It has three pages and no subtopics. They cover running reports, keeping reusable settings, and choosing where output is printed.\n\nStart with \"Run and print reports in Business Central\". It explains how to run, preview, print and schedule a report, set filters, save output to a file, select a layout, and change language and format settings. Then read \"Manage Saved Settings for Reports and Batch Jobs\" to learn how to create, modify and share saved settings, so users get default options and filters on the request page. Finish with \"Specify a Default Printer\" to set printers for all print jobs or for specific reports.",
+  "key_points": [
+    "Reports can be run, previewed, printed and scheduled from Business Central.",
+    "Report output can be saved to files such as PDF, Word or Excel.",
+    "Users set filters and pick a layout on the report request page, and can change language and format settings.",
+    "Saved settings for reports and batch jobs can be created, modified and shared with other users.",
+    "Saved settings configure default report options and filters.",
+    "A default printer can be set for all print jobs or for specific reports.",
+    "Printer selection can be set at user or global level, for cloud printers and PDF output.",
+    "The printer page mentions universal print, email printers and print job sizing."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:27.249Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009198999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:29.432Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 3 places filters and layout selection on the report request page. The run-and-print page summary mentions filters and layouts but does not name the request page. It is a reasonable inference, not a stated fact.",
+      "Key point 8 is phrased as a description of the page rather than a fact. Something like 'Universal Print and email printers are supported, and print job size is covered' would be more useful for agents.",
+      "Key points 4 and 5 overlap and could be merged.",
+      "The run-and-print page is tagged with version '2020 release wave 1', which the narrative leaves out. It doesn't need to mention it."
+    ],
+    "input_hash": "f12a8498426dc1c2867ef1e84fa5f7ee76ddadf937f3cfb91526624881ce9b6f",
+    "cost_usd": 0.0276432
+  }
+}

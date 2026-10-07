@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/austria/vat",
+  "input_hash": "0e787538b682a13d90df3b3198135fea6e33b8ea0ec1c260a84b322c0d9d4c82",
+  "summary": "VAT functionality in the Austrian version of Business Central. It covers creating a VAT statement, including temporary 5% rates and FDF export, and VAT reporting through the VAT Statement AT and VAT-VIES Declaration XML reports.",
+  "overview": "This section describes how the Austrian version handles VAT reporting to tax authorities and for EU compliance. It has two pages and no subtopics.\n\n\"VAT reporting in the Austrian version\" gives the overall picture: the VAT Statement AT report and the VAT-VIES Declaration XML report, with export to files for submission, including through the Finanz Online Portal. \"How to Create a VAT Statement\" is the step-by-step page for producing the statement, filtering by period, choosing the reporting type and exporting to FDF or XML.\n\nStart with the reporting overview to see which reports exist, then follow the creation page when you need to prepare and export a statement.",
+  "key_points": [
+    "The Austrian version offers VAT Statement AT and VAT-VIES Declaration XML reports.",
+    "VAT statements can be created for reporting VAT to tax authorities.",
+    "The VAT statement supports temporary 5% VAT rates.",
+    "Statement creation includes period filtering and reporting type selection.",
+    "A VAT statement can be exported as an FDF file or as XML.",
+    "The Update VAT Statement function is part of the creation process.",
+    "VIES reporting supports EU compliance, with XML export for submission through the Finanz Online Portal."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:33.354Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008493
+  }
+}

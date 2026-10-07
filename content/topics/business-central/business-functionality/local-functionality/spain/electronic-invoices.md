@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/spain/electronic-invoices
 type: topic
 title: Electronic invoices
-summary: "Learn section Business functionality > Local functionality > Spain > Electronic invoices: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:51.771Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: fb4f792c745264526782c056b2d7bee76f1d439ffd17284321f8b519c401588d
+  prompts:
+    hub-topic: 1
+  input_hash: 12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module
@@ -150,14 +151,32 @@ bc_forms:
   - 7000045
   - 70000013
 member_hash: fb4f792c745264526782c056b2d7bee76f1d439ffd17284321f8b519c401588d
-narrative: none
+narrative: generated
 ---
 
 # Electronic invoices
 
-> Learn section Business functionality > Local functionality > Spain > Electronic invoices: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Electronic invoices · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Electronic invoices · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers Spain-specific e-invoicing and bill handling. Two pages deal with VERI*FACTU, Spain's real-time invoice reporting to the Spanish Tax Agency (AEAT): one for the embedded mode, which uses digital signing, hash chaining and QR codes through the e-document framework, and one for integration with an external service through the B2Brouter API. VERI*FACTU is presented as an alternative to SII.
+
+A separate page lists the SII invoice and credit memo types for sales and purchase documents, including which types Business Central supports and how they appear in the XML.
+
+The Cartera pages describe handling of bills of exchange and promissory notes. An overview page introduces the module, with separate pages for Receivables Cartera (bill groups, collections, discounts, factoring) and Payments Cartera (payables documents, payment orders). Start with the VERI*FACTU page that matches your chosen approach, or the Cartera overview if you work with bills.
+
+## Key points
+
+- VERI*FACTU is Spain's e-invoicing standard for real-time reporting of invoices to AEAT.
+- Embedded VERI*FACTU mode uses digital signatures, hash chaining, QR codes and the e-document framework.
+- The external option connects through the B2Brouter API and is described as an alternative to SII.
+- The SII invoice types page states which invoice and credit memo types are supported, with XML details.
+- Cartera manages bills of exchange and promissory notes for customers and vendors, with multi-currency support.
+- Receivables Cartera covers bill groups, collections, discounting, factoring, finance charges and interest.
+- Payments Cartera builds payables documents from purchase invoices grouped by bank, due date, value or currency, and supports draft payment orders and payment confirmation.
 
 ## Learn pages
 

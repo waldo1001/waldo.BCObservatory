@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/finland/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Finland > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Finnish banking and payments functionality in Business Central: electronic banking with LM03 and LUM2 formats, bank reference file setup, payment file generation for vendors, SEPA credit transfer export, and disregarding payment discounts. It answers setup and how-to questions for domestic and foreign payments in the Finnish version."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:05.605Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ce2f5a4ce8e68b225ad679f383d81283370742b7bb9660b7b76dc6eb3e156ba6
+  prompts:
+    hub-topic: 1
+  input_hash: 0fc80c2c393f09dde89a09d4ce68d7ba9d773e04e9c6a7acc0f6d09b5fbe52cf
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland
@@ -89,14 +90,31 @@ bc_forms:
   - 32000005
   - 32000006
 member_hash: ce2f5a4ce8e68b225ad679f383d81283370742b7bb9660b7b76dc6eb3e156ba6
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Finland > Banking & payments: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Finnish banking and payments functionality in Business Central: electronic banking with LM03 and LUM2 formats, bank reference file setup, payment file generation for vendors, SEPA credit transfer export, and disregarding payment discounts. It answers setup and how-to questions for domestic and foreign payments in the Finnish version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Finland-specific tools for handling payments through the bank. Electronic banking supports domestic and foreign payment processing using the LM03 and LUM2 formats. It links customer payments to invoices automatically and exports vendor payments as bank transfer files.
+
+The pages fit together as a flow. Set Up Bank Reference Files (FI) defines how payment data is imported and exported, including foreign payment handling, SEPA compliance, payment date processing and exchange rates. Generate Payment Files (FI) then covers sending domestic or foreign vendor payments, using Suggest Vendor Payments. SEPA credit transfer payments (FI) describes the newer SEPA export. A separate page explains how to disregard payment discounts on payment terms.
+
+Start with the Electronic banking in Finland overview, then do the bank reference file setup before generating payment files.
+
+## Key points
+
+- Electronic banking in Finland supports domestic and foreign payments using LM03 and LUM2 formats.
+- Customer payments can be linked to invoices automatically through bank reference files and reference numbers.
+- Vendor payments are exported as bank transfer files; Suggest Vendor Payments is used when generating payment files.
+- Bank reference file setup covers foreign payment handling, the SEPA standard, payment date processing and exchange rate management.
+- SEPA credit transfer export uses codeunit 13413 and report 13413 with the pain.001.001.09 format.
+- The disregard payment discount option is configured on payment terms and accepts full payment after the discount date within payment tolerance limits.
 
 ## Learn pages
 

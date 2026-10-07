@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/set-up-business-central/import-data
 type: topic
 title: Import data
-summary: "Learn section Business functionality > Set up Business Central > Import data: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved."
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7294d0dd2d939df7b21ee8780b445d84c27b6a687136ede138096d03ea418650
+  prompts:
+    hub-topic: 1
+  input_hash: cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition
@@ -58,14 +59,32 @@ coverage:
 bc_forms:
   - 1808
 member_hash: 7294d0dd2d939df7b21ee8780b445d84c27b6a687136ede138096d03ea418650
-narrative: none
+narrative: generated
 ---
 
 # Import data
 
-> Learn section Business functionality > Set up Business Central > Import data: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section describes how to move existing business data into Business Central when setting up. There are two pages, and each covers a different source: a QuickBooks app, or any other finance system via Excel.
+
+For QuickBooks users, built-in data migration extensions handle both QuickBooks Desktop and QuickBooks Online, and are started from assisted setup. They migrate records such as customers, vendors and inventory.
+
+For other sources, the Excel page explains how to import data using Excel files or configuration packages. The default configuration package supports 27 tables covering master data and transactions. Start with the QuickBooks page if you come from QuickBooks, otherwise start with the Excel page.
+
+## Key points
+
+- QuickBooks Desktop and QuickBooks Online are both supported through built-in data migration extensions.
+- The QuickBooks migration is started from assisted setup.
+- QuickBooks migration covers customers, vendors and inventory.
+- Excel import suits data from other finance systems.
+- Data can be imported using Excel files or configuration packages.
+- The default configuration package supports 27 tables for master data and transactions.
+- The Excel page also touches on data transformation and master data migration.
 
 ## Learn pages
 

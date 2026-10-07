@@ -2,19 +2,20 @@
 id: topic/dev-itpro/get-started/sell
 type: topic
 title: Sell
-summary: "Learn section Get started > Sell: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Sell section covers how partners resell Business Central Online, sell apps through Marketplace, onboard customers, and customize the product. It answers questions about reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:04.817Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f0167aa20d54310833678e3422060eddc2a21de0c60859fb20295332ee52c400
+  prompts:
+    hub-topic: 1
+  input_hash: 5c7feb81888fbf9a03ba4d126a8e6f02f37200b2856249f6cda8f7bf18c007eb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview
@@ -88,14 +89,30 @@ bc_forms:
   - 8620
   - 8632
 member_hash: f0167aa20d54310833678e3422060eddc2a21de0c60859fb20295332ee52c400
-narrative: none
+narrative: generated
 ---
 
 # Sell
 
-> Learn section Get started > Sell: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Sell section covers how partners resell Business Central Online, sell apps through Marketplace, onboard customers, and customize the product. It answers questions about reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.
 
-Path: [Get started](../get-started.md) > Sell · tier official · system none · no narrative yet
+Path: [Get started](../get-started.md) > Sell · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Sell is a set of pages for partners and administrators who bring Business Central to customers. It covers becoming a reseller of Business Central Online, selling apps commercially through Marketplace, helping new customers get productive, and tailoring the product to their needs.
+
+The pages fit together along the sales path. Start with the reseller guide for partner enrollment, go-to-market, customer onboarding, and how licensing differs from on-premises. Then use the configuration packages page to speed up standard company setups, and the onboarding experiences page to guide new users. The Marketplace page is for partners who distribute apps, and the customization page covers tailoring the interface and features.
+
+## Key points
+
+- Reseller guide covers Microsoft Partner Network, Cloud Solution Provider, the indirect reseller model, delegated administrator access, and Partner Center.
+- The reseller guide also explains licensing differences from on-premises and customer onboarding.
+- Company configuration packages are reusable deployment templates, built with configuration templates, a worksheet, a questionnaire, master data import, and RapidStart file export.
+- Onboarding tools for partners include a welcome banner, onboarding checklist, teaching tips, in-app tours, and signup context.
+- Selling apps through Marketplace involves enabling transactability, defining plans, creating entitlements, and managing per-user licensing.
+- Marketplace topics include side-by-side support, free trials, and pricing models; the page references 2023 release wave 2.
+- Customization options include profiles, experience settings, colored cue indicators, app installation, and page personalization.
 
 ## Learn pages
 

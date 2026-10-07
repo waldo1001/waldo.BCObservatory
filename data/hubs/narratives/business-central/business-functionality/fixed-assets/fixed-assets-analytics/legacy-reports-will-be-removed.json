@@ -1,0 +1,33 @@
+{
+  "hub_id": "topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed",
+  "input_hash": "a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac",
+  "summary": "Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value.",
+  "overview": "This section holds three older fixed asset reports under Fixed assets analytics. The Learn table of contents labels the group \"will be removed\", so treat them as legacy and expect them to go away.\n\nThe reports cover different needs. Fixed Asset Analysis gives a broad view of asset values and depreciation with customizable date and data columns. Fixed Asset Details lists fixed asset ledger entries per asset. Fixed Asset Projected Value looks forward and forecasts depreciation and book value for a future period.\n\nStart with the page that matches your task: Analysis for reconciliation, checks and budget reporting, Details for entry-level review of cost, depreciation and book value, and Projected Value for budget planning. There are no subtopics.",
+  "key_points": [
+    "The section is labeled 'will be removed', so these reports are legacy.",
+    "Fixed Asset Analysis supports asset valuation, depreciation analysis, budget reporting and future depreciation calculation.",
+    "Fixed Asset Analysis has customizable date and data columns, used for reconciliation, check and budget reports.",
+    "Fixed Asset Details shows ledger entries with acquisition cost, depreciation and book value for each asset.",
+    "Fixed Asset Details can optionally include reversed entries.",
+    "Fixed Asset Projected Value forecasts depreciation and book value across specified date ranges for a future period.",
+    "Projected Value can compare multiple depreciation methods and copy amounts to a G/L budget."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:02.904Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010173
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:17.864Z",
+    "verdict": "approve",
+    "issues": [],
+    "input_hash": "a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac",
+    "cost_usd": 0.0276712
+  }
+}

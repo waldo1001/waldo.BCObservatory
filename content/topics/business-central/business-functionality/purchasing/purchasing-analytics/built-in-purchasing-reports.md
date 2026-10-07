@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports
 type: topic
 title: Built-in purchasing reports
-summary: "Learn section Business functionality > Purchasing > Purchasing analytics > Built-in purchasing reports: 17 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:41.840Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4b5c2e7745cb297f3dbb0688fa9968b753ba7375adaef55420b30646ee8f69b2
+  prompts:
+    hub-topic: 1
+  input_hash: ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
@@ -198,14 +199,29 @@ bc_forms:
   - 4404
   - 6102
 member_hash: 4b5c2e7745cb297f3dbb0688fa9968b753ba7375adaef55420b30646ee8f69b2
-narrative: none
+narrative: generated
 ---
 
 # Built-in purchasing reports
 
-> Learn section Business functionality > Purchasing > Purchasing analytics > Built-in purchasing reports: 17 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+This section is a set of reference pages, one for each built-in purchasing report or Excel report. It also has an overview page on purchasing reports and analytical tasks, which covers Report Explorer, item availability and purchase date calculation. There are no subtopics. Each report page describes what the report shows and who uses it, such as procurement managers, warehouse teams and controllers.
+
+## Key points
+
+- Payables and vendor ranking: Aged Accounts Payables (Excel) groups vendor ledger data into aging buckets and periods, by currency, vendor and due date. Vendor - Top 10 List Excel ranks top vendors by purchases and balance in local currency, and you can set how many vendors it shows.
+- Reconciliation: Vendor - Trial Balance shows beginning balance and net change by vendor posting group, to reconcile against general ledger payables accounts. Vendor - Detail Trial Balance shows opening balance, transactions in a period and closing balance, for reconciliation and cash flow analysis.
+- Ledger activity: Day Book Vendor Ledger Entry lists vendor transactions in date order, grouped by posting date, for periodic review, audit documentation and checking payables activity.
+- Open orders: Inventory Purchase Orders, Vendor - Order Detail and Vendor - Order Summary track outstanding receipts, discounts, back orders and expected receipt dates. The summary report shows quantities not yet received across three 30-day periods.
+- Purchase history: Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost and discounts for a date period. Purchase statistics adds payment discounts taken and lost, and payment history.
+- Catalogs: Item/vendor catalog and Vendor Item catalog list vendors for selected items or items for selected vendors, with direct unit cost, lead time calculation and vendor item number.
+- Documents and previews: Standard Purchase - Order produces formal purchase orders to print or email. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data so you can check the layout before using it in production.
+- Availability: Purchase Reservation Availability shows item availability for shipment on purchase documents such as return orders, and lets you update quantities to receive.
 
 ## Learn pages
 

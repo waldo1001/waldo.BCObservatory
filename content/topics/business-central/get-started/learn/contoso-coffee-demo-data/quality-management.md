@@ -6,12 +6,12 @@ summary: "Quality management demo scenarios in the Contoso Coffee demo data. Cov
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:12.303Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,7 @@ narrative: generated
 
 > Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Quality management · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
@@ -99,12 +99,11 @@ Start with the setup page, which explains how to install and generate the Contos
 ## Key points
 
 - Setup page installs and generates Contoso Coffee demo data for quality management, including templates, tests, results and generation rules for purchase and production inspections.
-- Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling).
-- Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items; after the initial inspection fails, a reinspection is created.
+- Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling). The walkthrough includes completing the inspection.
+- Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items. After the initial inspection fails, a reinspection is created.
 - The warehouse scenario also includes registering the warehouse put-away.
 - Manual scenario: create an inspection from a purchase order's item-tracking line before posting the receipt, with lot assignment and test value entry.
 - The manual scenario also covers a certificate of analysis.
-- Each scenario ends with completing the inspection.
 
 ## Learn pages
 

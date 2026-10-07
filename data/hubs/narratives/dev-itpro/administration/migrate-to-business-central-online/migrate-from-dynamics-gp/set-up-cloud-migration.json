@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/set-up-cloud-migration",
+  "input_hash": "629d97201a8a3b0ad62edd51f1cc96d4939456ff4f69544987ea8171f46a0a5f",
+  "summary": "Setting up cloud migration from Dynamics GP to Business Central online: the connection and pipeline setup, running the setup, configuring GP company migration settings, and retaining user permissions. It answers questions on how the migration is wired and configured.",
+  "overview": "This section covers the setup work needed before data moves from Dynamics GP to Business Central online. The overview page explains the pieces: an integration runtime and Azure Data Factory preparation and replication pipelines that connect the on-premises and online databases, with compatibility checks and table mapping.\n\nThe practical pages follow in order. Running cloud migration setup configures the components and connections, including the SQL database connection, integration runtime, data pipeline and tenant setup, and includes delegated administrator approval. Configuring Dynamics GP company migration then sets options globally and per company. A separate page covers retaining user permissions during migration.\n\nStart with the overview to understand the architecture, then run the setup, then configure the company settings. Read the permissions page before migrating if users must keep their permission sets.",
+  "key_points": [
+    "Cloud migration setup creates the connection and pipelines between the on-premises and online databases using integration runtime and Azure Data Factory.",
+    "Two pipelines are involved: a preparation pipeline and a replication pipeline, along with compatibility checks and table mapping.",
+    "Running the setup covers the SQL database connection, integration runtime, data pipeline and tenant setup.",
+    "Delegated administrator approval is part of running the setup for Dynamics GP migration.",
+    "GP company migration settings can be set globally and per company: modules, dimensions, master data only, auto posting, inactive records and recurring records.",
+    "Permissions can be retained during migration through the Cloud Migration Management page (Enable/Disable Removing Permissions from Users) or a custom extension.",
+    "Retaining permissions relates to the Intelligent Cloud permission set and the OnBeforeResetUsersToIntelligentCloudPermissions event."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:54.986Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011408999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:27.041Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 6 says the 'Enable/Disable Removing Permissions from Users' action is on the Cloud Migration Management page. That is a reasonable inference: the page summary names that page and lists the action as a feature, but it doesn't say outright that the two go together.",
+      "The overview's reading order (overview, then run setup, then configure companies, then read permissions before migrating) is the writer's own guidance rather than something the sources state. It is sensible and doesn't contradict the sources."
+    ],
+    "input_hash": "629d97201a8a3b0ad62edd51f1cc96d4939456ff4f69544987ea8171f46a0a5f",
+    "cost_usd": 0.028779199999999998
+  }
+}

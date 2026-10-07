@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+  "input_hash": "f71bf49f1b97704defef02d11b8bc1974c8fce04cd2940c5068d12e2134ce184",
+  "summary": "Granting user permissions in Business Central: creating users based on license type, assigning permission sets, and defining granular permission sets with read, insert, modify, delete and execute access. It answers questions about user setup, license-based permissions, and record-level security.",
+  "overview": "This section covers how administrators give users access in Business Central, for both online and on-premises deployments. It has two pages that work in sequence: one for creating users and tying them to licenses, and one for building custom permissions.\n\nStart with \"Create users according to licenses\". It explains creating users, assigning permission sets, managing licenses, and configuring permissions by license type. It also touches on security groups, user groups and delegated admin.\n\nThen use \"Define granular permissions\" when the standard permission sets are not enough. It describes creating permission sets with access levels per database object, using indirect permissions and security filters for record-level control, and importing or exporting permissions.",
+  "key_points": [
+    "Users are created and assigned permission sets by administrators, with permissions configured according to license type.",
+    "License assignment, security groups, user groups and delegated admin are covered in the user creation page.",
+    "Applies to Business Central online and on-premises.",
+    "Custom permission sets can set read, insert, modify, delete and execute access on database objects.",
+    "Indirect permissions let users reach objects through other objects they are allowed to use.",
+    "Security filters provide record-level access control.",
+    "Permissions can be imported and exported."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:37.722Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008263
+  }
+}

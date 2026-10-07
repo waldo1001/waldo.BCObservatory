@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-analysis-tools
 type: topic
 title: Built-in finance analysis tools
-summary: "Learn section Business functionality > Finance > Financial analytics > Built-in finance analysis tools: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Built-in finance analysis tools in Business Central cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure. It answers questions about monitoring budget variance, viewing cash trends and forecasts, reporting vendor payment times, and setting up accounts.
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 724462d95f44dee109df53b1acb81ee42db5d378c9a1103e8cad27b7dcfe8338
+  prompts:
+    hub-topic: 1
+  input_hash: 05ac688178b02f3430159039ba159285ed1f297670a2d54eda36dbffcee266ad
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-actual-versus-budget
@@ -118,14 +119,29 @@ bc_forms:
   - 1158
   - 1818
 member_hash: 724462d95f44dee109df53b1acb81ee42db5d378c9a1103e8cad27b7dcfe8338
-narrative: none
+narrative: generated
 ---
 
 # Built-in finance analysis tools
 
-> Learn section Business functionality > Finance > Financial analytics > Built-in finance analysis tools: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Built-in finance analysis tools in Business Central cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure. It answers questions about monitoring budget variance, viewing cash trends and forecasts, reporting vendor payment times, and setting up accounts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance analysis tools · tier official · system finance · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance analysis tools · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This section groups the analysis tools that come with Business Central finance. Three pages describe analysis tasks: comparing actual general ledger amounts to budgeted amounts, analyzing cash flow with charts and worksheets on the Accountant Role Center, and producing the payment practices report on vendor payment times. A fourth page explains the general ledger and chart of accounts. It covers how account categories, dimensions, and posting groups structure financial posting.
+
+## Key points
+
+- Actual versus budget analysis: view filtered GL budget data and compare actual and budgeted amounts across accounts and periods, including multi-period views.
+- Cash flow analysis on the Accountant Role Center offers a cash cycle chart, cash flow chart, and income and expense chart.
+- A cash flow forecast and a cash flow worksheet support forecasting, with timeline filtering for the charts.
+- The payment practices report compares agreed and actual payment periods and shows the percentage of on-time payments.
+- The payment practices report covers average payment period and actual payment terms, and supports vendor grouping.
+- Authorities in several countries require the payment practices report from large companies.
+- The general ledger and chart of accounts page explains how to structure posting with account categories, dimensions, and posting groups.
+- Other setup topics on the chart of accounts page include invoice rounding and address formats.
 
 ## Learn pages
 

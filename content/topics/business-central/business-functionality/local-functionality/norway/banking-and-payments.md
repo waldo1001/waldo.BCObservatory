@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/norway/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Norway > Banking & payments: 25 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:40.238Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 49affe7aa79b66833cb8f427c15e45bc85661755f977e1eef97e774ad996eb2e
+  prompts:
+    hub-topic: 1
+  input_hash: 6a979b10e1dc1211567c10dcf079a8c61f629d30daa0fd326b54c3c3e4dccf48
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments
@@ -258,14 +259,29 @@ bc_forms:
   - 15000010
   - 15000100
 member_hash: 49affe7aa79b66833cb8f427c15e45bc85661755f977e1eef97e774ad996eb2e
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Norway > Banking & payments: 25 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers three connected areas for the Norwegian version. The first is vendor remittance: set up remittance agreements, remittance accounts and vendors, create suggestions or manual payments, set payment line information and recipient reference codes, test the lines, export a bank file in SEPA, Telepay or BBS format, import return files, review errors, and cancel or delete orders. The second is incoming customer payments: KID numbers printed on documents and giro forms using the OCR-B font, with OCR payment files imported into a cash receipt journal. The third is EHF electronic invoicing for public sector customers, alongside the newer E-Documents framework.
+
+## Key points
+
+- Remittance setup covers remittance agreements with the bank, remittance accounts for domestic and foreign payments, and vendors set up for remittance.
+- Payments can come from remittance suggestions (filters for payment date, discounts, vendor priority, document types) or be created manually with Initialize Payment Info on the Payment Info page.
+- Run the Remittance Test report before posting and transferring payments to the bank.
+- Export to a bank file uses SEPA or local standards such as Telepay and BBS, configured on the Bank Account Card.
+- Return files are of two types, receipt returns and settlement returns. Errors show on the Return Error page and the Waiting Journal.
+- Open payment orders and unsettled individual payments can be cancelled. Orders can be deleted only for closed financial years, when all payments are fully managed and none has sent or approved status.
+- OCR payments are set up with a journal template that balances by document number, then imported to a cash receipt journal. The OCR Journal Test report checks them before posting.
+- EHF invoicing needs customer GLN, account code and the E-Invoice checkbox, plus file locations for XML files. The E-Documents framework is the newer route to external endpoints.
 
 ## Learn pages
 

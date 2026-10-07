@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client
 type: topic
 title: Troubleshooting in the client
-summary: "Learn section Development > Troubleshooting > Troubleshooting in the client: 13 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0bde8a1178feaed56383087a1577e0ce683f1121daf006c5338f6c7f22b08df6
+  prompts:
+    hub-topic: 1
+  input_hash: 61dfa9dcc108824aadbc8543902a374a3b112371df72c89c80f117528100fb44
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
@@ -180,14 +181,29 @@ bc_forms:
   - 9878
   - 9883
 member_hash: 0bde8a1178feaed56383087a1577e0ce683f1121daf006c5338f6c7f22b08df6
-narrative: none
+narrative: generated
 ---
 
 # Troubleshooting in the client
 
-> Learn section Development > Troubleshooting > Troubleshooting in the client: 13 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section collects tools and pages that help developers, administrators, and advanced users diagnose problems from within the Business Central client. They fall into a few groups: diagnosing errors and performance, examining data and the database, and adjusting what users see and can do.
+
+## Key points
+
+- Understanding the error dialog explains the Copy Details section, AL call stacks, and the Application Insights session ID for investigating user errors.
+- Performance Profiler subtopic: record and analyze business process performance, read call trees, schedule profiling for specific users and activity types, and share or download profiles.
+- Inspecting pages shows page design, elements, and data sources, with Visual Studio Code integration and permission control.
+- View Database Locks shows a snapshot of current locks to troubleshoot transaction blocking, and View table information shows record counts, data and index sizes, and compression types.
+- Missing indexes uses SQL Server Dynamic Management Views to suggest equality, inequality, and include columns.
+- Analyzing report data with Excel and XML exports report datasets, metadata, and filter information as data-only Excel or XML.
+- Events discoverability uses the Event Recorder to capture events during a scenario and produce AL snippets for subscribers.
+- Personalizing the workspace, customizing pages for roles, defining granular permissions with security filters, and fixing on-premises mobile app issues (icon fonts, device date, client type errors) are also covered.
 
 ## Subtopics
 

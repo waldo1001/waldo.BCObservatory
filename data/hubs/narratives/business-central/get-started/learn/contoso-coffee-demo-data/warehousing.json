@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data/warehousing",
+  "input_hash": "b786e8a1c4c8db4fa66e3ced32b54b91f0df541e466dba93233eb541ac5ebf8b",
+  "summary": "Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.",
+  "overview": "This section uses the Contoso Coffee demo data to walk through warehouse processes in three configurations. An introduction page describes the three demo locations: one basic with bins, one advanced without bins, and one advanced with directed put-away and pick.\n\nThree walkthroughs follow. The SILVER location shows the basic configuration (Order-by-Order) with inventory put-away and inventory pick. The YELLOW location shows a mixed setup with basic inbound and advanced outbound flows. The WHITE location shows the advanced configuration with directed put-away and pick.\n\nStart with the introduction to see which location fits your scenario, then open the walkthrough for that location.",
+  "key_points": [
+    "The demo data provides three warehouse locations for different configuration scenarios.",
+    "SILVER: basic warehouse configuration (Order-by-Order) with bins, default bins, inventory put-away and inventory pick.",
+    "YELLOW: mixed configuration with basic inbound and advanced outbound flows.",
+    "YELLOW walkthrough covers an over-receipt code, warehouse receipts, warehouse shipments and warehouse picks.",
+    "WHITE: advanced configuration with directed put-away and pick.",
+    "WHITE walkthrough covers cross-dock, bin replenishment, break-bulk, warehouse receipts, put-aways and picks.",
+    "The introduction page covers demo data setup, location configuration and bin management."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:45.807Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010813
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:17.872Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the introduction describes the second location as 'advanced without bins', but the YELLOW walkthrough calls it a mixed setup (basic inbound, advanced outbound). The narrative states both without linking them. Each claim is supported by the source summaries, but a reader may see them as inconsistent.",
+      "Minor: 'moving' in the summary is supported only by the WHITE walkthrough title. None of the feature lists mentions it."
+    ],
+    "input_hash": "b786e8a1c4c8db4fa66e3ced32b54b91f0df541e466dba93233eb541ac5ebf8b",
+    "cost_usd": 0.027499199999999998
+  }
+}

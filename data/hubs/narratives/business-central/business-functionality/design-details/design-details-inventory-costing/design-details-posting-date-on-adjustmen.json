@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen",
+  "input_hash": "d3c70fd8da7223f5cfeafa5a57a9cea7ede5dc821ba2741d852dcd946931579c",
+  "summary": "Posting date handling on adjustment value entries created by the Adjust Cost - Item Entries batch job. It answers how the date is assigned, how it compares to the source entry in revaluation and item charge cases, and how to fix the \"Posting Date is not within your range of allowed posting dates\" error.",
+  "overview": "This section explains which posting date Business Central gives to adjustment value entries when the Adjust Cost - Item Entries batch job runs. The date is checked against Inventory Periods and General Ledger Setup, and the result affects the timing of cost adjustments.\n\nThe three pages build on each other. \"Posting date on value entries\" describes the assignment rule. \"Posting date on adjustment value entry compared to the source entry\" shows the effect in revaluation and item charge scenarios. The error page helps when the batch job fails because of a date restriction.\n\nStart with the value entries page for the rule. Go to the error page if the job is failing now.",
+  "key_points": [
+    "The Adjust Cost - Item Entries batch job checks the initial posting date against Inventory Periods and General Ledger Setup.",
+    "If the initial posting date is outside the allowed range, the later allowed date is assigned to the adjustment value entry.",
+    "The comparison page covers revaluation posting and item charge posting, with automatic cost adjustment and average cost calculation.",
+    "General Ledger Setup and Inventory setup both influence the timing of cost adjustments.",
+    "The posting date error can come from a user's Allow Posting From and Allow Posting To dates.",
+    "The same error can come from inventory period constraints.",
+    "Troubleshoot the error by checking the user posting date setup and the inventory periods."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:43.256Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009957
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:15.277Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says the three pages 'build on each other'. The page summaries don't describe how the pages relate, so this is a mild editorial framing rather than a supported claim.",
+      "Key point 3 says the comparison page covers revaluation and item charge posting 'with automatic cost adjustment and average cost calculation'. This comes from the feature list, which doesn't say how those features relate to the scenarios. Acceptable, but loosely worded.",
+      "Cost forwarding appears in the features of the value entries page but is not mentioned. This is a minor omission."
+    ],
+    "input_hash": "d3c70fd8da7223f5cfeafa5a57a9cea7ede5dc821ba2741d852dcd946931579c",
+    "cost_usd": 0.0350752
+  }
+}

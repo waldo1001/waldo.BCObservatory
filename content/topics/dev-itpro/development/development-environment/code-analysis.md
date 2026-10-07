@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -97,7 +97,9 @@ links:
     - topic/dev-itpro/development/development-environment
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/12142
+    - post/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/
   guidelines: []
 learn_toc_path:
   - Development
@@ -110,7 +112,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -134,5 +136,12 @@ Path: [Development](../../development.md) > [Development environment](../develop
 - [UICop analyzer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/uicop): UICop is an analyzer that enforces rules that must be respected by extensions meant to customize the Web Client.
 - [Using the code analysis tool](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool): Using static code analysis tool on an AL project.
 - [Using the code analysis tools with the ruleset](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool-with-rule-set): Configuring and using a custom ruleset on an AL project.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings enable breaking change validation on these previously excluded symbols"
+- [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/.md) (community post): "Enable multiple code analyzers with custom rulesets to catch issues early"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/service-management/deliver-service",
+  "input_hash": "3b5e4754ddf3d7de09324624dcc7d85553050e153a77c56ae6d2261e5656461f",
+  "summary": "Deliver service in Business Central Service Management covers the tasks for carrying out service work: creating quotes and orders, allocating resources, working on service tasks, lending loaners, posting, and invoicing. It answers how-to questions about each step of the service delivery flow.",
+  "overview": "Deliver service groups the pages that describe the day-to-day flow of handling a customer service request in Service Management. The flow starts with a service quote or service order, moves to resource allocation and the work itself, and ends with posting and invoicing. Loaner handling is a side task within service orders.\n\nStart with the overview page, which lists the tasks in order. Then use the how-to pages for the step you need: service quotes, service orders, allocating resources, working on service tasks, lending service items as substitutes, and posting service orders. The service posting page explains what posting creates, and the invoice and credit memo page covers billing from contracts, orders, or manual entries.",
+  "key_points": [
+    "Service quotes are preliminary drafts with customer, service item lines, and estimated costs, and can be converted to service orders.",
+    "Service orders can be created from scratch, from quotes, or from contracts. They support standard service codes, item availability checks, item reservation, and line comments.",
+    "Resources such as technicians are allocated through the Dispatch Board or service orders. You can view availability and reallocate.",
+    "Work on service tasks includes registering service operations, spare parts, fault and resolution codes, replacing components, changing response time, and updating repair status.",
+    "Service loaners can be lent and received through service orders, with loaner comments registered.",
+    "Posting service orders covers shipment, invoice, and consumption, with batch posting, credit memo posting, and a test report. Partial posting is supported.",
+    "Posting creates posted documents and ledger entries in service and other modules. The page also mentions sustainability value chain tracking.",
+    "Service invoices and credit memos can be created for contracts, orders, or manual entries. You can combine posted shipment lines, delete invoices, and correct errors."
+  ],
+  "members_used": 9,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:51.522Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014179
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:20:41.709Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 6 says partial posting is supported. That comes from the Service posting page, not the How to post service orders page. It is still correct for posting overall.",
+      "Key point 7 says \"The page\" without naming it. It means the Service posting page and could say so.",
+      "The overview says the overview page lists the tasks \"in order\". The source only says it lists the tasks, so this wording goes slightly beyond it. It is harmless."
+    ],
+    "input_hash": "3b5e4754ddf3d7de09324624dcc7d85553050e153a77c56ae6d2261e5656461f",
+    "cost_usd": 0.033835199999999996
+  }
+}

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing
 type: topic
 title: Updating and hotfixing
-summary: "Learn section Development > Extension lifecycle > Updating and hotfixing: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Updating and hotfixing covers how Business Central apps and extensions are updated, upgraded and hotfixed over their lifecycle. It answers questions on submitting app updates, version numbering, upgrade code, hotfixing Marketplace apps, and how service updates and breaking changes affect extensions.
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:23:15.671Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f3e7286da03b9ac244c0a2da0047e0e967fb5517a08c592a5e38bde95aa4b2a9
+  prompts:
+    hub-topic: 1
+  input_hash: bb8db4d428ccd0358cce23792272e028cec507d2b8ba4ae9267c6ebf05ab1b59
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update
@@ -90,14 +91,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f3e7286da03b9ac244c0a2da0047e0e967fb5517a08c592a5e38bde95aa4b2a9
-narrative: none
+narrative: generated
 ---
 
 # Updating and hotfixing
 
-> Learn section Development > Extension lifecycle > Updating and hotfixing: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Updating and hotfixing covers how Business Central apps and extensions are updated, upgraded and hotfixed over their lifecycle. It answers questions on submitting app updates, version numbering, upgrade code, hotfixing Marketplace apps, and how service updates and breaking changes affect extensions.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section describes what happens to an app after its first release. It explains how apps interact with Business Central service updates, how new app versions are submitted and installed, and how bugs and breaking changes are handled, including Microsoft's rollback procedures and data retention policies.
+
+The pages fit together in layers. The lifecycle page and its FAQ give the big picture: five scenarios (service updates, app updates, bug fixes, critical bugs, breaking changes), force updates during major releases, and recommendations on update frequency and quality assurance. The FAQ about updating your app covers the practical submission questions: version numbering, keeping app identity, compatibility settings, and automatic updates. The upgrade page covers writing the upgrade code itself. The Marketplace hotfix page covers submissions for versions that are not the latest.
+
+Start with "Lifecycle of apps and extensions" for the overall model. Then read "Upgrading Extensions" if you write upgrade code, or "Hotfix a Marketplace app" if you must patch an older published version.
+
+## Key points
+
+- Five lifecycle scenarios are described: service updates, app updates, bug fixes, critical bugs, and breaking changes.
+- Microsoft's rollback procedures and data retention policies are covered in the lifecycle page.
+- Upgrade code uses the triggers OnCheckPreconditions, OnUpgrade and OnValidate, and data migration can be run as part of the upgrade.
+- Upgrade execution can be controlled with version data or upgrade tags (the upgrade page lists 2021 release wave 1).
+- The FAQ covers version numbering, preserving app identity, compatibility configuration, and automatic updates managed in the admin center.
+- Hotfixing a Marketplace app targets a non-latest version and triggers validation with breaking change detection using AppSourceCop.
+- Hotfix validation includes release ranges and restrictions such as obsolete pending and public API restrictions.
+- The lifecycle FAQ addresses force updates during major releases, Extension Management, code signing, and technical validation.
 
 ## Learn pages
 

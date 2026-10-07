@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat",
+  "input_hash": "8c8b80aa54741b14328fdc341f62c1d741c2eebe1c991493ec2d0e480e410857",
+  "summary": "Set up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. It answers configuration questions about how VAT is calculated, posted to G/L accounts and reported.",
+  "overview": "This section covers the configuration needed before VAT can be calculated, posted and reported. The base page, \"Set up value-added tax\", explains VAT calculations, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT, based on customers, vendors, items and purchase or sale types. \"Posting group setup\" covers how general, specific and tax posting groups map entities to general ledger accounts.\n\nThe other pages handle specific cases. \"Set up a VAT statement\" defines templates and names used to calculate settlement amounts and reconcile VAT entries with G/L accounts. \"Set up nondeductible VAT\" covers VAT that a purchaser can't deduct. \"Set up unrealized value added tax\" covers cash-based VAT accounting with temporary G/L accounts.\n\nStart with \"Set up value-added tax\" and \"Posting group setup\" for the core configuration. Then add the VAT statement, nondeductible VAT or unrealized VAT pages as your requirements call for them.",
+  "key_points": [
+    "Set up value-added tax covers VAT rates, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT (page lists version 23.1).",
+    "Posting group setup covers general, specific and tax posting groups, alternative and multiple posting groups, and G/L account validation, with examples and troubleshooting.",
+    "VAT statements use templates and names, with VAT entry, account and row totaling, and can be previewed to check settlement amounts.",
+    "VAT statements handle unrealized VAT and help reconcile VAT entries with general ledger accounts.",
+    "Nondeductible VAT is enabled in setup. You choose whether it applies to item, fixed asset and job cost, and set accounts and percentages in VAT Posting Setup.",
+    "Nondeductible VAT options include Show Non-Ded. VAT In Lines and Allow Non-Deductible VAT.",
+    "Unrealized VAT supports cash-based methods. It uses temporary G/L accounts until payment is posted, with percentage and payment allocation methods, VAT transfer and foreign currency support."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:37.305Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013849
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:50.033Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 1's '(page lists version 23.1)' is supported by the page's version list, but the source gives no context for what changed, so it adds little for agents.",
+      "The overview leaves out that VAT statement templates also let you set up calculations for different periods and handle changes in tax requirements. This is a minor omission, not an error."
+    ],
+    "input_hash": "8c8b80aa54741b14328fdc341f62c1d741c2eebe1c991493ec2d0e480e410857",
+    "cost_usd": 0.0358872
+  }
+}

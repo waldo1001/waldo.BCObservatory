@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work
 type: topic
 title: Use reports in daily work
-summary: "Learn section Analytics, business intelligence, and reporting > Use reports in daily work: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: bffb8f0e8486bc5dae7eb4fc923d54e569ba0217b81a8e8da23beff106f1b547
+  prompts:
+    hub-topic: 1
+  input_hash: b05d5b9bd309167415fd713acf58fdfde55986b749ad8539e7d87652185db061
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
@@ -114,14 +115,33 @@ bc_forms:
   - 9650
   - 9652
 member_hash: bffb8f0e8486bc5dae7eb4fc923d54e569ba0217b81a8e8da23beff106f1b547
-narrative: none
+narrative: generated
 ---
 
 # Use reports in daily work
 
-> Learn section Analytics, business intelligence, and reporting > Use reports in daily work: 8 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+This section covers the everyday tasks around standard reports in Business Central. It has no subtopics, only a set of task pages. The landing page, "Use reports in your daily work", gives the overall picture: running, scheduling, sharing and customizing reports.
+
+The other pages each take one task. "Run and print reports" covers filters, preview, saving to PDF, Word or Excel, scheduling, and language and format settings. "Manage Saved Settings" and "Set the Layout Used by a Report" cover how a report is configured and how it looks. "Specify a Default Printer" covers printing. "Share and Export Reports with the Report Inbox" covers scheduled output. "Bookmark link to page or report" covers quick access from the role center. "Analyzing report data with Excel and XML" covers raw data export for troubleshooting.
+
+Start with the landing page, then go to "Run and print reports" for the basic workflow. Move on to the other pages when you need to set defaults, change layouts or share results.
+
+## Key points
+
+- Reports can be run, previewed, printed and scheduled, and saved to PDF, Word or Excel, with filter options and language and format settings.
+- Saved settings for reports and batch jobs can be created, changed and shared with other users to set default options and filters.
+- Report layouts can be set as the default per company, chosen temporarily on the report request page, or managed on the Report Layouts and Report Layout Selection pages.
+- Layout options include composite branding, theme assignment and header/footer layouts.
+- Default printers can be set for all print jobs or for specific reports, at user or global level, including cloud printers, Universal Print, email printers and PDF output.
+- The Report Inbox lets users download, share, export and delete scheduled reports, with OneDrive integration.
+- Pages and reports can be bookmarked from the role center using the bookmark icon or the Tell Me window.
+- Report datasets can be exported as data-only Excel documents or XML, with a metadata worksheet and filter information, for ad-hoc analysis and troubleshooting.
 
 ## Learn pages
 

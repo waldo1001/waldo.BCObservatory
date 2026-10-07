@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/relationship-management/manage-sales-opportunities
 type: topic
 title: Manage sales opportunities
-summary: "Learn section Business functionality > Relationship management > Manage sales opportunities: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Sales opportunity management in Business Central: setting up sales cycles and stages, creating opportunities for contacts and salespeople, processing them to quotes, orders or closure, and logging email exchanges. It answers how-to questions on each step of an opportunity's life."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:29.578Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 40ffb39af2e7eea48636b9accd19955502008b5f3b6c0bde26232e774572b563
+  prompts:
+    hub-topic: 1
+  input_hash: bd4f89031530908fcf7dacd5dc15bf91475b555ed3f84f9ced7dd66e310820dc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-opportunities
@@ -85,14 +86,33 @@ bc_forms:
   - 1811
   - 5076
 member_hash: 40ffb39af2e7eea48636b9accd19955502008b5f3b6c0bde26232e774572b563
-narrative: none
+narrative: generated
 ---
 
 # Manage sales opportunities
 
-> Learn section Business functionality > Relationship management > Manage sales opportunities: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Sales opportunity management in Business Central: setting up sales cycles and stages, creating opportunities for contacts and salespeople, processing them to quotes, orders or closure, and logging email exchanges. It answers how-to questions on each step of an opportunity's life.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage sales opportunities · tier official · system sales · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage sales opportunities · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to track potential deals in Business Central. An opportunity is assigned to a salesperson and linked to a contact, and it moves through the stages of a sales cycle. Pages describe creating opportunities, estimating sales value, and processing them through to completion.
+
+Setup comes first. One page explains how to define opportunity sales cycles and cycle stages, including activities and task assignment. Another covers email logging, which uses Exchange Online with a shared mailbox and mail flow rules to keep interaction logs and to start opportunities from email communication.
+
+Day-to-day work is described in the pages on creating and processing opportunities. From the Opportunities page you can view and close opportunities, create sales quotes and orders, move between stages, and delete closed opportunities with batch jobs. Start with the sales cycle setup page, then read the creation and processing pages.
+
+## Key points
+
+- Opportunities are assigned to a salesperson and associated with a contact.
+- Sales cycles and cycle stages define how an opportunity progresses; stages can include activities and task assignment.
+- Sales value can be estimated when working with opportunities.
+- The Opportunities page lets you view, close, and move opportunities through cycle stages.
+- Sales quotes and sales orders can be created from an opportunity.
+- Closed opportunities can be deleted using batch jobs.
+- Email logging needs Exchange Online with a shared mailbox and mail flow rules.
+- Email logging keeps interaction logs and supports creating opportunities from email.
 
 ## Learn pages
 

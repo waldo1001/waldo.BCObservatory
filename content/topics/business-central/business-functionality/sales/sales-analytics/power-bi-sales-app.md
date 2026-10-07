@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app
 type: topic
 title: Power BI Sales app
-summary: "Learn section Business functionality > Sales > Sales analytics > Power BI Sales app: 24 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "The Power BI Sales app section covers the Business Central sales analytics app: its individual reports, the semantic model behind them, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and who it is meant for."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:39.116Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: adb525da62f16d612fc9d767fb24853ac84edee6306774682c890c36f7d81f0b
+  prompts:
+    hub-topic: 1
+  input_hash: ddb1e25a60e3661f30eb616853d4a2957100c677574b148bc1f2501d62132897
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -260,14 +261,33 @@ bc_forms:
   - 37114
   - 37119
 member_hash: adb525da62f16d612fc9d767fb24853ac84edee6306774682c890c36f7d81f0b
-narrative: none
+narrative: generated
 ---
 
 # Power BI Sales app
 
-> Learn section Business functionality > Sales > Sales analytics > Power BI Sales app: 24 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI Sales app section covers the Business Central sales analytics app: its individual reports, the semantic model behind them, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and who it is meant for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+The Power BI Sales app gives leadership, sales managers, and sales teams a set of reports on sales data from Business Central. The main app page lists the core reports, and each report has its own page describing its metrics and purpose.
+
+The reports fall into a few groups. Overall and trend views include Sales Overview, Daily Sales, Month-to-Date, Moving Average, Moving Annual Total, and Period-Over-Period Growth. Breakdown reports cover sales by customer, item, location, project, and salesperson, plus Sales Demographics and Actual vs Budget. Others cover customer retention (overview and history), opportunities, sales quotes, and return orders. Key Sales Influencers, Sales Decomposition, and Sales Forecasting use AI visuals, decomposition, and forecasting.
+
+Start with the Power BI Sales app page for the overall picture. Then open the report page that matches your question. For how the data is built, use the semantic model page (star schema of fact and dimension tables) and the Sales KPIs and measures page (formulas and data sources).
+
+## Key points
+
+- The app page lists core reports: Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget, and Sales by Item.
+- Common metrics include Sales (LCY), Sales Quantity, Adjusted Cost (LCY), Adjusted Profit (LCY), and Adjusted Profit Margin.
+- Trend reports: Daily Sales, 30-day Moving Average, rolling 12-month Moving Annual Total, and year-over-year Period-Over-Period Growth.
+- Customer retention reports track new, lost, returning, and recovered customers, by location, time, and segment.
+- Sales Forecasting gives three-month projections by customer, item, and salesperson, with confidence intervals and monthly seasonality.
+- Key Sales Influencers uses the key influencers visual; Sales Decomposition uses a decomposition tree.
+- The semantic model uses a star schema with fact tables (such as opportunity entries, sales budget, project ledger, sales credit lines) and dimension tables; the page lists 2025 release wave 2.
+- The Sales KPIs and measures page documents formulas for customer, opportunity, sales document, Pareto, project ledger, and budget measures.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance
 type: topic
 title: Finance
-summary: "Learn section Business functionality > Finance: 256 Microsoft Learn pages in 15 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Finance in Business Central covers accounting and bookkeeping: general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, period closing, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and how-to questions for finance work."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:06.323Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: e00a78a6ae989fa33c91e80446f1a8ee7441794523762b5a6ec8d2471cea7d98
+  prompts:
+    hub-topic: 1
+  input_hash: 5769f4058ad5966367eacf6bf9a1242848abad09400d17c1b417fde7f227d3cb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost
@@ -891,14 +892,33 @@ bc_forms:
   - 2000021
   - 2000022
 member_hash: e00a78a6ae989fa33c91e80446f1a8ee7441794523762b5a6ec8d2471cea7d98
-narrative: none
+narrative: generated
 ---
 
 # Finance
 
-> Learn section Business functionality > Finance: 256 Microsoft Learn pages in 15 subtopics. Index of what Learn documents here, linked to Learn.
+> Finance in Business Central covers accounting and bookkeeping: general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, period closing, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and how-to questions for finance work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+Finance groups everything an accountant or finance team does in Business Central. The hub's own pages give an overview of financial management, an accounting and bookkeeping guide (chart of accounts, payment methods and terms, posting groups, payment tolerance), and a page on the Accountant Role Center, including inviting external accountants and using the Company Hub across companies.
+
+The hub's own pages also cover tax topics: calculating withholding tax for vendors, setting up and posting employee withholding tax, viewing withholding tax entries, and registering excise tax for goods such as fuel, alcohol and tobacco. Excise registration tracks amounts without creating general ledger entries.
+
+The subtopics go deeper by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. Receivables, payables, prepayments and bank reconciliation handle daily transactions. Cost accounting, inventory costs, cash flow, VAT, E-Documents, financial analytics and multi-site organizations cover specialized needs. Start with the financial management overview or the accounting and bookkeeping guide, then move to the subtopic that matches your task.
+
+## Key points
+
+- Accountant Role Center gives access to financial pages and reports; external accountants can be invited by email and work across companies via the Company Hub.
+- Accounting and bookkeeping basics include chart of accounts, payment methods, payment terms, posting groups and payment tolerance.
+- Withholding tax for vendors is calculated on purchase invoices and orders from vendor, item and G/L account setup, when minimum thresholds are met.
+- Employee withholding tax uses posting groups, a Gross or Net calculation base, and period-based threshold accumulation; entries for vendors and employees are viewed on the Withholding Tax Entries page.
+- Excise tax registration supports multiple tax types and generates excise journal entries without G/L entries.
+- Period-end work is covered in Closing years and periods, including the Close Income Statement batch job and the year-end closing entry.
+- Financial analytics is the largest subtopic (129 pages): Power BI finance app, Financial Reporting, Data Analysis and consolidation.
+- Other subtopics cover receivables, payables, bank reconciliation with Copilot, prepayments, VAT, E-Documents (Peppol), cost accounting, inventory costs, cash flow and intercompany.
 
 ## Subtopics
 

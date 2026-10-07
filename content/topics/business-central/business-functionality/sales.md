@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/sales
 type: topic
 title: Sales
-summary: "Learn section Business functionality > Sales: 133 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a7057eece9376f74152e42cbc191091a340f3b2859370e6619efe877b5f7758d
+  prompts:
+    hub-topic: 1
+  input_hash: 756bb349be1d98334fab8138a12f877e5bbdb0dd250915505077f5f7c0ef35d7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -335,6 +336,8 @@ links:
     - video/PIWxU93eCT4
   posts:
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/
+    - post/thedynamicsexplorer-com/10326
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -348,7 +351,7 @@ coverage:
   learn: 133
   code: 0
   video: 1
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 7
@@ -499,14 +502,29 @@ bc_forms:
   - 37114
   - 37119
 member_hash: a7057eece9376f74152e42cbc191091a340f3b2859370e6619efe877b5f7758d
-narrative: none
+narrative: generated
 ---
 
 # Sales
 
-> Learn section Business functionality > Sales: 133 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions.
 
-Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+The Sales section describes the day-to-day sales workflow. You register customers with a Customer Card, make quotes, convert them to orders or invoices, ship in full or in part, and post. After posting, you can correct or cancel invoices, process returns and credit memos, and track packages.
+
+## Key points
+
+- Start with 'Overview of tasks to manage sales', which links to the detailed task guides.
+- Customer setup: create Customer Cards, use customer templates, manage credit limits and overdue warnings, and merge duplicates (needs the MERGE DUPLICATES permission set).
+- Order types: sales quotes, sales orders, blanket orders, drop shipments, special orders, and recurring sales lines with a batch job for invoices.
+- Shipping: the Shipping Advice field controls partial shipments; delivery dates use shipping time and warehouse handling time; ATP and CTP calculate order promising dates.
+- Invoicing: you can combine shipments on one invoice, set up and invoice prepayments, and enter external document numbers (not checked for uniqueness).
+- Posting and corrections: posting options include preview, post and send, and batch posting. The Cancel and Correct actions fix unpaid posted invoices before shipment is complete.
+- Returns: use sales return orders or credit memos, with replacement orders, restock charges, and item charges.
+- Subtopics: Sales analytics (61 pages) covers the Power BI Sales app and sales reports. Subscription billing (47 pages) covers recurring billing for contracts.
 
 ## Subtopics
 
@@ -546,6 +564,8 @@ Path: [Business functionality](../business-functionality.md) > Sales · tier off
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7334878023159275001.md) (community post): "streamlines drop shipment workflows by adding a Create Purchase Orders action on sales orders"
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/.md) (community post): "When copying documents in Sales Order processing, not all fields transfer"
+- [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "When issuing a sales credit for an item that remains with the customer"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
 
 ## Business Central pages and reports

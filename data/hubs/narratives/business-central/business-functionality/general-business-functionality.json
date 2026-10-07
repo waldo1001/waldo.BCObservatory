@@ -1,0 +1,39 @@
+{
+  "hub_id": "topic/business-central/business-functionality/general-business-functionality",
+  "input_hash": "0ae13ea5ce12422226bc36c1a61b82656e5164f939add16ed1ab572443c9048f",
+  "summary": "General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions.",
+  "overview": "This area collects cross-area features that are not tied to one module. Own pages cover everyday document handling: comments, extended text, the document Status field, archiving and restoring documents, editing posted documents, tracking order lines to related documents, finding related entries, sending documents by email, and online maps. Another group covers posting: the posting overview, preview before posting, batch posting, general journals, and scheduling jobs with job queues.",
+  "key_points": [
+    "Posting: preview entries before posting, post and send or email, and post many documents at once immediately or on a schedule through job queues set up in Sales & Receivables Setup.",
+    "Documents move through Open, Released, Pending Approval and Pending Prepayment statuses, which control editing and workflow stages.",
+    "Archive sales, purchase, project and service documents, restore them, and automate retention with retention policies.",
+    "External file storage can keep attachments in Azure Blob Storage, Azure File Share or SharePoint to reduce database use (Business Central 28.1).",
+    "Job Queue Entries schedule reports and codeunits one-time or recurring, with status tracking, error notifications and inactivity timeouts.",
+    "Extended text, comments, user tasks, and digital vouchers (mandatory attachments at posting) add information and control to records.",
+    "Subtopics: Incoming documents (OCR, conversion to purchase invoices), Workflows (approvals, Power Automate flows), and Exchange data electronically (PEPPOL, SEPA, bank feeds, currency rates).",
+    "Export any list or journal to Excel with Open in Excel; general journals post directly to G/L with recurring journals, allocations and standard journals."
+  ],
+  "members_used": 20,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:05.510Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022026999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:07.205Z",
+    "verdict": "approve",
+    "issues": [
+      "The narrative never mentions the 'Let Business Central suggest values' page (Copilot autofill, suggested balancing amount, automatic Date Received). This is a minor gap in coverage.",
+      "The overview does not cover external file storage, digital vouchers, user tasks or Excel export. The key points do cover them, so this is acceptable.",
+      "Key point 1 says background posting is set up in Sales & Receivables Setup. That matches the source, but the batch posting page also covers purchase documents, so the wording reads as sales-focused.",
+      "The 'Business Central 28.1' tag on external file storage comes from the page's versions field. It is supported, but it does not say whether 28.1 is the version where the feature was introduced."
+    ],
+    "input_hash": "0ae13ea5ce12422226bc36c1a61b82656e5164f939add16ed1ab572443c9048f",
+    "cost_usd": 0.0530392
+  }
+}

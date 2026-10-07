@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/build-copilot-user-experience
 type: topic
 title: Build Copilot user experience
-summary: "Building the Copilot user interface in Business Central with PromptDialog pages: prompt mode, generate mode caption, content mode, inline error handling, and prompt actions that launch Copilot from pages. Use it for questions on how to design and wire the Copilot UI in AL."
+summary: Building Copilot user experiences in Business Central with the PromptDialog page type. It covers creating the page, designing prompt, generate and content modes, error handling, and launching Copilot features from prompt actions. It answers how-to questions for AL developers.
 tier: official
 language: en
 system: copilot
 review:
   state: reviewed
   by: opus
-  at: "2026-10-06T14:24:06.514Z"
+  at: "2026-10-07T02:22:42.483Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8d255943bc8e398474a3aa6b66b2fa2b0538c3a8bc0bef2d5a4b4993ef71fd44
+  input_hash: 5490002d4c282b35bb328697f698dd40d3c818f828cc32e198c06ffd98a3b4be
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience
@@ -105,27 +105,27 @@ narrative: generated
 
 # Build Copilot user experience
 
-> Building the Copilot user interface in Business Central with PromptDialog pages: prompt mode, generate mode caption, content mode, inline error handling, and prompt actions that launch Copilot from pages. Use it for questions on how to design and wire the Copilot UI in AL.
+> Building Copilot user experiences in Business Central with the PromptDialog page type. It covers creating the page, designing prompt, generate and content modes, error handling, and launching Copilot features from prompt actions. It answers how-to questions for AL developers.
 
 Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Build Copilot user experience · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
-This section describes how to build the user-facing part of a Copilot feature. The central object is the PromptDialog page type. It has three display modes: prompt mode, where the user gives input; generate mode, where Copilot shows progress; and content mode, where the user reviews the AI output.
+The PromptDialog page type is the basis for Copilot user interfaces in Business Central. A dialog moves through three modes: prompt mode where the user gives input, generate mode while the AI works, and content mode where the user reviews the result and saves or discards it. System actions such as Generate, Regenerate, OK and Cancel drive these steps.
 
-The pages follow that flow. Start with creating the PromptDialog page and its properties (Extensible, PromptMode, IsPreview). Then design the prompt mode (input fields, placeholder text, prompt guides, generate and file attachment actions), customize the generate mode caption, and design the content mode (save, discard, regenerate, proposal history). Error handling in prompt dialogs covers showing errors inline. The last page covers prompt actions in a floating action bar that open the dialog from other pages.
+The pages follow that flow. Start with the overview page, then create the page and set its properties. Next, design the prompt mode and content mode, customize the generate mode caption, and handle errors inline. The last page covers prompt actions that open the dialog from other pages.
 
-Start with the page on creating the prompt dialog, then follow the modes in order. Read the prompt actions page when you need to make the feature reachable from List, Card, Document and other page types.
+Most pages are developer how-tos. Read them in order when building a new Copilot feature, or jump to a single page when changing one mode.
 
 ## Key points
 
-- A PromptDialog page type is the first step; its properties set caption, extensibility (Extensible), initial mode (PromptMode) and preview status (IsPreview).
-- Prompt mode: configure the prompt area with fields, placeholder text via InstructionalText, prompt guides for predefined prompts, preference options, and generate and file attachment actions. The page references 2024 release wave 2.
-- Generate mode caption can be customized with Dialog.Open() or Dialog.Update() to give progress feedback, including for multi-step Copilot.
-- Content mode shows AI output and lets users review, regenerate, save or discard proposals; it supports caption customization and a proposal history carousel with version history.
-- Errors and messages from Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with support for multiple messages, error suppression and message truncation. The page references 2024 release wave 2.
-- Prompt actions launch Copilot from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, shown in a floating action bar with a Sparkle image.
-- Prompt actions open the PromptDialog page through the RunObject property; the page also covers SaaS detection and capability registration, and references 2024 release wave 1 and runtime 13 and 14.
+- PromptDialog pages have three modes: prompt (input), generate (AI processing) and content (review, save or discard).
+- Creating the page sets properties for caption, Extensible, PromptMode and IsPreview.
+- Prompt mode supports a prompt area with fields, InstructionalText placeholder text, prompt guides for predefined prompts, a generate action, file attachment and preference options. The prompt mode page refers to 2024 release wave 2.
+- Content mode shows AI output and offers regenerate, save and discard actions, caption customization, a proposal history carousel and version history.
+- The generate mode caption can be changed with Dialog.Open() or Dialog.Update() to show progress, for example in multi-step Copilots.
+- Dialog.Error(), Dialog.Message() and ErrorInfo can display inline in the prompt dialog instead of popups, with multiple messages, error suppression and message truncation (2024 release wave 2).
+- Prompt actions on List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages open a PromptDialog from the floating action bar, using RunObject, the Sparkle image, SaaS detection and capability registration (2024 release wave 1, runtime 13 and 14).
 
 ## Learn pages
 

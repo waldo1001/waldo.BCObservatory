@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/manage-inventory-costs/report-inventory-costs-and-reconcile-wit",
+  "input_hash": "cb20d96f66a87f93ae07a6973eb9edd8996a9c6fcba5caad824282314b1b14af",
+  "summary": "Inventory cost reporting and general ledger reconciliation in Business Central. It answers questions about manually adjusting item costs, posting inventory costs to the G/L, restricting backdated postings, scheduling cost jobs, and managing inventory periods.",
+  "overview": "This section covers the tasks that keep inventory values correct and in agreement with the general ledger. It includes adjusting item costs (manually for items that use FIFO or Average costing, or automatically), posting those costs to the G/L, and checking that inventory accounts match the G/L.\n\nThe pages fit together as a cost workflow. Cost adjustment updates item costs and value entries. The Post Inventory Cost to G/L batch job then moves the results to the G/L, and the Inventory - G/L Reconciliation page is used to check them. Inventory periods and the Earliest Allowed Valuation Date field control which periods accept postings, so closed periods are protected. A separate page explains how to schedule the adjustment and posting jobs through job queue entries to reduce application load.\n\nTo start, read \"Reconcile inventory costs with the general ledger\" for the core posting and reconciliation process. Then read \"Schedule jobs for adjusting & reconciling inventory cost\" to automate it. Use the pages on inventory periods and backdated postings when you close periods.",
+  "key_points": [
+    "Manual cost adjustment is available for items using FIFO or Average costing. It corrects unit cost and value entries so inventory values and financial KPIs are right.",
+    "The Post Inventory Cost to G/L batch job posts inventory value changes to the general ledger.",
+    "The Inventory - G/L Reconciliation page is used to reconcile inventory accounts with the general ledger. The reconciliation page also covers expected cost posting.",
+    "The Earliest Allowed Valuation Date field blocks cost postings into closed periods. Current invoicing and cost adjustment of existing entries are still allowed.",
+    "Inventory periods can be created, closed, and reopened to control when inventory changes can be posted.",
+    "Automatic cost adjustment and G/L reconciliation can be scheduled as background jobs with job queue entries, which improves performance and reduces application load. The scheduling page also covers assisted setup."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:18.001Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013212999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:49.452Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says items can be adjusted 'manually or automatically, under FIFO or Average costing'. The source ties FIFO and Average costing only to manual adjustment, so the wording now says that.",
+      "Key point 7 on assisted setup was vague filler that said only that assisted setup 'is mentioned'. It is now part of the job scheduling point.",
+      "Key point 8 on expected cost posting added little. It now says plainly that the reconciliation page covers expected cost posting.",
+      "The summary is accurate and stays as it is."
+    ],
+    "input_hash": "cb20d96f66a87f93ae07a6973eb9edd8996a9c6fcba5caad824282314b1b14af",
+    "cost_usd": 0.05174720000000001
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/general",
+  "input_hash": "1e3faa1fc5426bb73ef567d8ce641329ef1cc9c296832c72cd62869d3806722a",
+  "summary": "Czech general local functionality in Business Central covers extended user control (user-to-employee assignment, posting and document date validation, access control for payment orders, bank statements, journals and more) and modern search on lists. It answers questions about Czech-specific user restrictions and list search behavior.",
+  "overview": "This section holds two pages on general features of the Czech version. One covers extended user control, which limits what users can do and see. The other covers modern search, which changes how searching on lists works.\n\nStart with the general function page if you need to restrict access or enforce date rules for specific users. Read the modern search page if users ask why list searches behave differently, or how full-text search columns and older search methods work together.",
+  "key_points": [
+    "Users can be assigned to employees in the Czech version.",
+    "Cash desk operations can be filtered by responsibility center.",
+    "Document date and posting date can be validated for posting.",
+    "Access control applies to payment orders and bank statements.",
+    "Access control also covers journals, dimensions, locations, and warehouse templates.",
+    "Modern search is faster and more precise on lists, focusing on columns capable of full-text search.",
+    "Modern search stays backward compatible with older search methods."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:08.428Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.007382999999999999
+  }
+}

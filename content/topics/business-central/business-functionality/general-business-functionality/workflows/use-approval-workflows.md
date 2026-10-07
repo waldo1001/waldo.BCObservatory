@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows
 type: topic
 title: Use approval workflows
-summary: "Learn section Business functionality > General business functionality > Workflows > Use approval workflows: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Approval workflows in Business Central: how users send, approve, reject, delegate and cancel approval requests, and how admins enable, delete, restrict records and review archived workflow step instances. It answers practical how-to questions about running and maintaining approval workflows."
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 3a567ae6079e607bda8638ac0c1293bbd9f6d987f0705591fa3f30e35dc065f5
+  prompts:
+    hub-topic: 1
+  input_hash: d2750a8590614c40b80ec4c4e9157d017401788270af89db5b9d3262506102b3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-approval-workflows
@@ -101,14 +102,33 @@ bc_forms:
   - 1505
   - 1530
 member_hash: 3a567ae6079e607bda8638ac0c1293bbd9f6d987f0705591fa3f30e35dc065f5
-narrative: none
+narrative: generated
 ---
 
 # Use approval workflows
 
-> Learn section Business functionality > General business functionality > Workflows > Use approval workflows: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Approval workflows in Business Central: how users send, approve, reject, delegate and cancel approval requests, and how admins enable, delete, restrict records and review archived workflow step instances. It answers practical how-to questions about running and maintaining approval workflows.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Workflows](../workflows.md) > Use approval workflows · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Workflows](../workflows.md) > Use approval workflows · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+Approval workflows automate business logic such as sequential and parallel approvals for master data, document changes and sensitive information. The section starts with a general page on using approval workflows, which explains approval routing, triggering and step tracking.
+
+The other pages cover specific tasks. Users send approval requests for records such as purchase documents, sales documents and customer cards. Approvers handle them on the Requests to Approve page. Administrators enable a workflow after creating it, delete it when no longer needed, and use workflow responses to restrict or allow use of a record. They can also check archived workflow step instances for history.
+
+Start with "Using approval workflows" for the concepts, then go to "Approve or reject documents in workflows" for day-to-day use. Use the enable and delete pages for lifecycle tasks.
+
+## Key points
+
+- Approval requests can be sent for records like purchase documents, sales documents and customer cards, and can be cancelled.
+- Approvers approve, reject or delegate requests from the Requests to Approve page.
+- Overdue approval notifications are supported.
+- Workflows support sequential and parallel approvals.
+- A workflow must be enabled after creation to be active.
+- To delete a workflow, all workflow step instances must have Completed status; a workflow can be disabled first.
+- Workflow responses can add or remove record restrictions that control posting, exporting or printing.
+- The Archived Workflow Step Instances page shows the history and status of completed steps.
 
 ## Learn pages
 

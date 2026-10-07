@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/development/extension-lifecycle/translation",
+  "input_hash": "57ae860e6738e631a0ad182420b8338cfbb7b6168b78e886c30651f22538bedb",
+  "summary": "Translation of Business Central extensions using XLIFF files. It covers how layered translation sources override each other by language priority and app dependencies, and how to generate and edit XLIFF files with namespace-aware IDs.",
+  "overview": "Translation in Business Central is based on XLIFF files. The overview page explains the layered system: several translation sources can apply at once, and one overrides another according to language priority and app dependencies. It also covers caption translation, primary language fallback, and the global and local language concepts (version 18.3).\n\nThe second page is the hands-on guide. It shows how to generate translation files, add translations, and use namespace-aware IDs to translate UI elements and labels. It refers to the TranslationFile feature, GenerateCaptions, GenerateLockedTranslations and TranslationsWithNamespaces, and to label syntax (runtime 18).\n\nStart with the overview to understand how languages are layered and which translation wins. Then use the XLIFF guide to set up file generation in your extension.",
+  "key_points": [
+    "Translations use the XLIFF format.",
+    "Translation sources are layered and can override each other based on language priority and app dependencies.",
+    "Primary language fallback, global language and local language are part of the layering model.",
+    "The TranslationFile feature enables generating translation files for an extension.",
+    "GenerateCaptions and GenerateLockedTranslations control what goes into the generated files.",
+    "TranslationsWithNamespaces enables namespace-aware translation IDs (runtime 18).",
+    "Label syntax is used to make text translatable.",
+    "The overview page is marked for version 18.3."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:24.972Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008996999999999998
+  }
+}

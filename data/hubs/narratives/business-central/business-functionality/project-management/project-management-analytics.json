@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/project-management/project-management-analytics",
+  "input_hash": "d3faf6dba847e56f79274b6a66c7b490e90cf8926229ef386f959eaa323f5e37",
+  "summary": "Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use.",
+  "overview": "This area brings together the analysis options for projects. The overview page, Project analytics, introduces the features and the KPIs they help monitor, such as completion rates and cost performance, across different user roles. From there the options split by how much structure you need.\n\nFor ready-made dashboards, the Power BI Projects app subtopic covers the reports, the semantic model and the KPI and measure reference. For printable or standard output, the Built-in project reports subtopic covers quotes, budget comparison, billing, WIP, item usage, journals, registers and resource reports. For quick exploration, the ad-hoc analysis page explains how to use the Data Analysis feature on list pages such as project ledger entries, without running a report.\n\nThe page on monitoring project progress and performance covers the WIP feature, which estimates the financial value of ongoing projects in the general ledger. Start with Project analytics to pick a route, then go to the specific subtopic or page.",
+  "key_points": [
+    "Project analytics is the entry page: it lists Power BI reports, ad-hoc analysis and built-in reports for monitoring project KPIs.",
+    "The Power BI Projects app covers budget performance, profitability, realization, invoiced sales, tasks and timelines, plus the semantic model and measure reference.",
+    "Built-in project reports cover quotes, budget comparison, billing, WIP, item usage, journals, registers and resource usage.",
+    "Ad-hoc analysis uses the Data Analysis feature on list pages such as project ledger entries, with analysis mode, Pivot Mode, Column Labels, Row Groups and a Values area.",
+    "WIP methods named in the pages: cost value, sales value, recognizable cost, percentage of completion and completed contract.",
+    "WIP is calculated, then posted to the G/L, and WIP fields can be tracked on the Project Card.",
+    "WIP setup involves defining the WIP method and grouping by project task."
+  ],
+  "members_used": 3,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:21.267Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012863000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:58.855Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls the built-in reports 'printable or standard output'. The source summaries never say they are printable. This is a small inference and does no harm.",
+      "The final key point, 'WIP setup involves defining the WIP method and grouping by project task', is based only on feature tags ('WIP method definition', 'project task grouping'). It is supported, but only loosely.",
+      "The overview says the options 'split by how much structure you need'. This is an editorial framing, not something the sources state. It is still accurate as a way to choose between the routes."
+    ],
+    "input_hash": "d3faf6dba847e56f79274b6a66c7b490e90cf8926229ef386f959eaa323f5e37",
+    "cost_usd": 0.0284792
+  }
+}

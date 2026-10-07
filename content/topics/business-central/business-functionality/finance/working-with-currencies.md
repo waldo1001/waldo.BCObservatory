@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/finance/working-with-currencies
 type: topic
 title: Working with currencies
-summary: "Learn section Business functionality > Finance > Working with currencies: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Working with currencies in Business Central covers setting up currency codes, exchange rates and multi-currency settings, and keeping exchange rates up to date. It answers questions about foreign exchange operations, manual and automatic rate updates, and gains and losses on posted transactions.
 tier: official
 language: en
 system: finance
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c65681f76488b6d62ac5f7a68a84bf1bdfac78b07d864f8daca0257b69741bc3
+  prompts:
+    hub-topic: 1
+  input_hash: 5c58baa0d58f1d146fa94d9a28fd18ebc371b6af65e8d6e96a33266db050bca6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-currencies
@@ -62,14 +63,30 @@ bc_forms:
   - 5
   - 118
 member_hash: c65681f76488b6d62ac5f7a68a84bf1bdfac78b07d864f8daca0257b69741bc3
-narrative: none
+narrative: generated
 ---
 
 # Working with currencies
 
-> Learn section Business functionality > Finance > Working with currencies: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Working with currencies in Business Central covers setting up currency codes, exchange rates and multi-currency settings, and keeping exchange rates up to date. It answers questions about foreign exchange operations, manual and automatic rate updates, and gains and losses on posted transactions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with currencies · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with currencies · tier official · system finance · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section explains how Business Central handles transactions in more than one currency. It has two pages: one on the basic currency setup, and one on keeping exchange rates current.
+
+Start with "Currencies in Business Central". It describes currency codes, exchange rates (FX rates), how local currency values are calculated, and the additional reporting currency. Then read "Update currency exchange rates". It covers manual and automatic rate updates, adjusting exchange rates for posted transactions, and the currency exchange rate service for external rates.
+
+## Key points
+
+- Currency codes, exchange rates and related settings must be specified before multi-currency transactions can be handled.
+- Local currency values are calculated from the exchange rates you set up.
+- An additional reporting currency can be used alongside the local currency.
+- Exchange rates can be updated manually or automatically.
+- A currency exchange rate service can bring in rates from an external source.
+- Exchange rates can be adjusted for posted transactions.
+- The adjustment process deals with realized and unrealized gains and losses.
 
 ## Learn pages
 

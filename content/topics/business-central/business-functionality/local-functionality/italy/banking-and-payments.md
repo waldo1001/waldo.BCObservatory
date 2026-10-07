@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > Italy > Banking & payments: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:25:26.790Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 852d10e93340a78451f9a2a34c1001697e700d81447ac6d4fba4f70e236f8278
+  prompts:
+    hub-topic: 1
+  input_hash: 1df75923ae5097b1872600b0f68a5a440a2ef63f2a44ff69e0a1cb5bed959b74
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
@@ -99,14 +100,31 @@ bc_forms:
   - 12203
   - 12204
 member_hash: 852d10e93340a78451f9a2a34c1001697e700d81447ac6d4fba4f70e236f8278
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > Italy > Banking & payments: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section covers the Italy-specific way of handling bills and payments. It explains how customer and vendor bills are processed automatically, which payment formats are supported (SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats), and how payment terms are defined for invoices.
+
+Start with the overview page on vendor payments and customer bills to see the formats and bill posting groups. Then use the automatic payments and automatic bills page for setup of bank information, sales and receivables setup, and bill codes on payment methods. The issuing page describes how to export bill lists to file and review errors. The payment terms page covers installments and discounts.
+
+## Key points
+
+- Automatic bills to customers and from vendors are supported in the Italian version.
+- Supported formats include SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats.
+- Automatic payments setup involves bank account information, sales and receivables setup, and bill codes for payment methods.
+- Issuing payments and bills uses Export Bill List to File, with a File Export Errors FactBox for problems.
+- The TRASFBANC payment method is mentioned for issuing SEPA-based payments.
+- Bill posting groups are part of the vendor payments and customer bills overview.
+- Payment terms support installments with payment percentages, due date calculations, discount dates and discount percentages.
+- Payment terms apply to both customer and vendor invoices.
 
 ## Learn pages
 

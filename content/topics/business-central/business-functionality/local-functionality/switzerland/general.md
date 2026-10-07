@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/general
 type: topic
 title: General
-summary: "Learn section Business functionality > Local functionality > Switzerland > General: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Swiss (CH) general local functionality in Business Central: importing Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents. It answers questions about post code updates, posting descriptions, subtotals, invoice rounding and shipment printing."
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 60cc8e0d3ba9f811ade2abdf7570e5ecf4a42d44fca5f9ac8bb41b4eb81b0305
+  prompts:
+    hub-topic: 1
+  input_hash: 2511466021d66aa99addbaa8fca2ed870103c5c8a3fd31bd14ef5695d014cf18
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes
@@ -59,14 +60,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 60cc8e0d3ba9f811ade2abdf7570e5ecf4a42d44fca5f9ac8bb41b4eb81b0305
-narrative: none
+narrative: generated
 ---
 
 # General
 
-> Learn section Business functionality > Local functionality > Switzerland > General: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Swiss (CH) general local functionality in Business Central: importing Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents. It answers questions about post code updates, posting descriptions, subtotals, invoice rounding and shipment printing.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > General · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > General · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers two areas of Business Central that are specific to the Swiss version. The first is keeping post code data current. The second is how purchase and sales documents differ from the base behavior.
+
+The post code page explains how to import the latest file from Swiss Post to update the Post Code table. Those post codes can then be used for customers and vendors. The documents page describes the Swiss additions to purchase and sales documents, including posting descriptions, subtotals, invoice rounding and shipment printing.
+
+There are no subtopics, so the two pages are independent. Start with the post code page if you are setting up master data. Use the documents page when you work with quotes, orders and invoices.
+
+## Key points
+
+- The Import Post Codes action loads the latest Swiss Post file and updates the Post Code table.
+- Importing post codes fills in city and country automatically.
+- Imported post codes can be used for customers and vendors in the Swiss version.
+- Swiss purchase and sales documents have enhanced posting descriptions.
+- Quotes and orders support subtotals with begin and end totals.
+- Invoice rounding works together with payment discounts.
+- Printing of shipment documents is optional and can be controlled.
+- Item variants in quotes and position field references are also covered.
 
 ## Learn pages
 

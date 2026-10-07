@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing
 type: topic
 title: Testing
-summary: "Learn section Development > Rules, guidelines, and best practices > Best practices > Testing: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Testing best practices for Business Central extensions: a Customer Rewards sample extension built and then tested with the Application Test Toolkit, plus the testing steps required before Marketplace validation. It answers questions about writing test codeunits and about pre-submission checks."
 tier: official
 language: en
 system: development
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
+  prompts:
+    hub-topic: 1
+  input_hash: f74e5c4eb1c5a1ec27df7c5b6aa4fe4c70ca669a58dd1e643129559332660f40
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example
@@ -68,14 +69,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
-narrative: none
+narrative: generated
 ---
 
 # Testing
 
-> Learn section Development > Rules, guidelines, and best practices > Best practices > Testing: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Testing best practices for Business Central extensions: a Customer Rewards sample extension built and then tested with the Application Test Toolkit, plus the testing steps required before Marketplace validation. It answers questions about writing test codeunits and about pre-submission checks.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers testing extensions from two angles. Two pages follow one sample, a Customer Rewards extension. The first builds it with tables, table extensions, pages, page extensions, codeunits and events, and adds assisted setup, activation codes and reward levels. The second tests that sample with the Application Test Toolkit.
+
+The third page is about submission. It lists what developers must test before sending an extension to Marketplace validation, including online environment testing, code signing, installation, user permissions, demo data and republishing.
+
+Start with "Building an Advanced Sample Extension" to get the sample in place, then read "Test the advanced sample extension" for the test patterns. Use "Testing your extension" as a checklist before submitting.
+
+## Key points
+
+- The Customer Rewards sample adds reward level tracking to customers and shows how to develop, test and publish an extension.
+- The sample uses tables, table extensions, pages, page extensions, codeunits, events, assisted setup and activation codes.
+- Tests use the Application Test Toolkit with test codeunits and test methods.
+- The testing walkthrough covers UI handlers, test pages, the asserterror statement and mock event subscribers.
+- It also shows how to validate business logic in the sample.
+- Before Marketplace validation, test in an online environment and verify code signing and installation.
+- Pre-submission checks also include user permission testing, demo data import and republish testing.
 
 ## Learn pages
 

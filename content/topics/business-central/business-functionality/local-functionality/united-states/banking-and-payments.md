@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-states/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Learn section Business functionality > Local functionality > United States > Banking & payments: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking and payments in the US version of Business Central: creating bank deposits, paying vendors by exporting payments with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU), and reconciling bank accounts. It answers how-to questions about these three tasks."
 tier: official
 language: en
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:27:44.116Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d6b84663b8ceb3c23cc7f2cf07c43ddf585af438f66f119b79004d9d12ba7ebb
+  prompts:
+    hub-topic: 1
+  input_hash: 8c6a8082f4c0faef42f4f1411c3925afe486aad9f2eae1cdfa1bea0fe3ba3b0c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits
@@ -97,14 +98,27 @@ bc_forms:
   - 10811
   - 36646
 member_hash: d6b84663b8ceb3c23cc7f2cf07c43ddf585af438f66f119b79004d9d12ba7ebb
-narrative: none
+narrative: generated
 ---
 
 # Banking & payments
 
-> Learn section Business functionality > Local functionality > United States > Banking & payments: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments in the US version of Business Central: creating bank deposits, paying vendors by exporting payments with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU), and reconciling bank accounts. It answers how-to questions about these three tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+
+## Overview
+
+This section collects three pages on banking tasks under the United States local functionality of Business Central. They cover recording deposits, exporting vendor payments to a bank, and reconciling bank accounts.\n\nThe payment page explains payment export. Payment information is exported in SEPA Credit Transfer format (EU) or through the AMC Banking 365 Fundamentals extension (US), so banks can process it electronically. The reconciliation page notes that the US version uses the standard bank reconciliation process. Deprecated North American-specific features were moved to the standard version in 2023 release wave 2.\n\nUse the deposits page for bank deposits and the payment export page when you set up electronic vendor payments. Use the reconciliation page for bank reconciliation. It points to the standard process.
+
+## Key points
+
+- Deposits can be created in the US version to handle bank deposits.
+- Vendor payments can be exported in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
+- Payment export covers payment file export, bank data conversion, credit transfer registration tracking and payment export history.
+- Bank account reconciliation in the US version follows the standard bank reconciliation process.
+- Deprecated North American-specific reconciliation features moved to the standard version in 2023 release wave 2.
+- Reconciliation topics include deposit management, bank statement reconciliation, posting and test reports.
 
 ## Learn pages
 

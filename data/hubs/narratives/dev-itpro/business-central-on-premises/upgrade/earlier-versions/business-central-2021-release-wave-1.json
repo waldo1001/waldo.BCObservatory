@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2021-release-wave-1",
+  "input_hash": "726ded49c4e118027da7b9cc592560dad74713bd31e9d9144c5b5d14ea224b69",
+  "summary": "Upgrading on-premises Business Central to 2021 release wave 1 (version 18) from versions 14, 15, 16 and 17. It answers questions on upgrade paths, C/AL to AL conversion, permission set migration, moving tables between extensions, and the upgrade compatibility matrix.",
+  "overview": "This section documents the upgrade to Business Central 2021 release wave 1 (version 18) for on-premises deployments. Start with \"Upgrade to Business Central 2021 Wave 1\", which describes the paths: a technical upgrade, or application refactoring to the system application. \"Install a version 18 update\" covers applying a version 18 update to an existing installation.\nThe source version decides which page to follow. From versions 15, 16 or 17 there is a technical upgrade page and a full base application upgrade page. From version 14 there are three routes: an unmodified C/AL application, a customized C/AL application moved to the Microsoft Base Application, and a technical upgrade with C/AL converted to AL.\nSupporting pages cover code conversion with Txt2Al, upgrading permission sets to AL objects, and moving tables and fields between extensions with migration.json (down or up the dependency graph). The compatibility matrix helps plan which versions can be upgraded to which.",
+  "key_points": [
+    "Version 18 upgrade paths: technical upgrade, or application refactoring to the system application.",
+    "Versions 15, 16 and 17 have a technical upgrade page and a full base application upgrade page covering extension publishing, tenant synchronization, data upgrade, control add-ins and license import.",
+    "Version 14 has separate procedures for unmodified C/AL apps, customized C/AL apps moved to the Microsoft Base Application, and a technical upgrade to version 18.",
+    "Code Conversion from C/AL to AL uses the Txt2Al tool, and covers .NET interoperability and test library conversion.",
+    "Permissions move from legacy data-based permissions to AL objects (Permission Set and Permission Set Extension).",
+    "Moving tables and fields between extensions uses migration.json. Moving up the dependency graph needs a two-stage process with a transition extension.",
+    "Customized version 14 upgrades use DestinationAppsForMigration and table migration extensions.",
+    "The compatibility matrix lists minimum update versions for upgrades. Upgrades from version 24 or earlier must target version 25 first."
+  ],
+  "members_used": 13,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:02:27.199Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021627
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:16.997Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point that upgrades from version 24 or earlier must target version 25 first is supported by the compatibility matrix summary, but it has little to do with a version 18 upgrade. It could confuse agents if they don't have that context.",
+      "Minor: the source summary for 'Technical Upgrade From Version 14 to Version 18' calls version 18 '2020 release wave 2'. That conflicts with the other pages, which say 2021 release wave 1. The narrative correctly uses 2021 release wave 1 and doesn't repeat the conflict.",
+      "Minor: the overview description of 'Install a version 18 update' is thin. The source also mentions converting the database to the new platform, recompiling extensions, and optionally updating the System Application, Base Application and extensions."
+    ],
+    "input_hash": "726ded49c4e118027da7b9cc592560dad74713bd31e9d9144c5b5d14ea224b69",
+    "cost_usd": 0.05219120000000001
+  }
+}

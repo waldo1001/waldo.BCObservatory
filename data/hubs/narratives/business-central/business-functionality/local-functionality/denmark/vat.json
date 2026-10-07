@@ -1,0 +1,35 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/denmark/vat",
+  "input_hash": "6aa04557ccccab7eba036d806cf58d04ba8f71c45556cfb66f940d35dcf68508",
+  "summary": "Danish VAT functionality in Business Central: printing the VAT Reconciliation report, showing VAT registration numbers with country codes in Intrastat, and VAT-VIES reporting with the EC Sales List. It answers setup and reporting questions for Danish VAT compliance.",
+  "overview": "This section covers three Denmark-specific VAT tasks. Each has its own page and there are no subtopics, so the pages can be read in any order.\n\nThe VAT Reconciliation report helps you reconcile VAT settlement by showing general ledger account balances grouped by VAT type. The Intrastat page explains how to control whether VAT registration numbers in the Intrastat file include country codes. The VAT-VIES page covers declaring EU trade to the Danish tax authority with the EC Sales List report.\n\nStart with the VAT-VIES page if you trade within the EU, since it covers the registration number setup on customer and vendor cards. Go to the Intrastat page if you need to change how VAT numbers appear in the Intrastat file.",
+  "key_points": [
+    "The Danish VAT Reconciliation report shows general ledger account balances grouped by VAT type.",
+    "The VAT Reconciliation report can show transaction details and include non-VAT transactions.",
+    "The report is used to reconcile VAT settlement.",
+    "Intrastat VAT numbers can include country codes through the Customer VAT No. on File and Vendor VAT No. on File options in Intrastat Setup.",
+    "VAT-VIES reporting means submitting VAT declarations for EU trade using the EC Sales List report.",
+    "For VAT-VIES, set plain VAT registration numbers on customer and vendor cards to meet Danish tax authority requirements."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:06:05.871Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010020999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:22.281Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says 'Intrastat file' twice, but the source only says 'Intrastat reporting'. This small inference is not harmful.",
+      "The overview says 'declaring EU trade to the Danish tax authority', which goes slightly beyond the source. The source says VAT declarations for EU trade must meet Danish tax authority requirements. The wording is close enough."
+    ],
+    "input_hash": "6aa04557ccccab7eba036d806cf58d04ba8f71c45556cfb66f940d35dcf68508",
+    "cost_usd": 0.0240752
+  }
+}

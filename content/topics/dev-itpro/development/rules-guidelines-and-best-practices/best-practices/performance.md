@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,12 +48,13 @@ links:
     - video/qABlX4AL3GM
   posts:
     - post/aardvarklabs-blog/3761
+    - post/demiliani-com/12836
     - post/demiliani-com/14031
     - post/duiliotacconi-com/1850
-    - post/duiliotacconi-com/1894
     - post/duiliotacconi-com/2149
     - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951
     - post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/
   guidelines: []
 learn_toc_path:
   - Development
@@ -67,7 +68,7 @@ coverage:
   learn: 2
   code: 0
   video: 4
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -109,12 +110,13 @@ This section is about finding and fixing performance problems in Business Centra
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Benchmark system performance before and after applying indexes"
+- [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Performance benchmarks showed 42% improvement on inserts and 31% on updates"
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "higher isolation levels bypassing the cache on every read"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "It works best when deleting 50-60% or more of a table's content"
-- [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "reducing SQL queries and improving query performance"
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "SetLoadFields prevents NST caching for partial records, causing repeated SQL queries"
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/.md) (community post): "User perception matters as much as actual performance"
+- [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "performance optimization; data transfer; set load fields; read isolation"
 - [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "AL code performance; database optimization; sql queries; indexing; caching"

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments
 type: topic
 title: Banking and payments
-summary: "Learn section Business functionality > Local functionality > United Kingdom > Banking and payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance."
 tier: official
 language: en
 system: localization
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 46a9d63d4a6fa9fc9287ca4d033903e1f0f0d4217a8643b87717ae525ba15c6d
+  prompts:
+    hub-topic: 1
+  input_hash: e88dde30d752f4946b18eb2e22e41dda96b3b1a9f165b5c79fe4c33359b0e155
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs
@@ -60,14 +61,32 @@ coverage:
 bc_forms:
   - 256
 member_hash: 46a9d63d4a6fa9fc9287ca4d033903e1f0f0d4217a8643b87717ae525ba15c6d
-narrative: none
+narrative: generated
 ---
 
 # Banking and payments
 
-> Learn section Business functionality > Local functionality > United Kingdom > Banking and payments: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > Banking and payments · tier official · system localization · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > Banking and payments · tier official · system localization · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds UK-specific functionality for paying vendors from payment journals. It has two pages and no subtopics.
+
+Print Checks for APACS explains how checks are printed in the standard APACS specification layout, including check preview, test print and a preprinted stub. Print Remittance Advice [GB] explains how to print remittance advice so vendors can see their invoice numbers and reconcile payments.
+
+Start with the check page if you need to print checks from a payment journal. Use the remittance page if you need to send vendors payment details, before or after posting.
+
+## Key points
+
+- Print Checks for APACS prints checks from payment journals using the standard APACS specification layout.
+- Check printing supports check preview and test print.
+- The APACS check layout works with a preprinted stub.
+- Print Remittance Advice [GB] is available in the British version.
+- Remittance advice shows vendor invoice numbers to help vendors reconcile.
+- Remittance advice can be printed before or after posting a payment journal.
+- The section has two pages and no subtopics.
 
 ## Learn pages
 

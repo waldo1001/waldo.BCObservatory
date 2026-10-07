@@ -7,12 +7,12 @@ tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,6 @@ links:
   localizations: []
   videos:
     - video/_JkZCp64jNw
-    - video/0h8QBNmeORQ
     - video/1ht5nxubZ9c
     - video/2ujWYYecA2c
     - video/4nFViDASGhg
@@ -71,7 +70,7 @@ links:
     - video/UIL8ej7mSKQ
     - video/XhO4oFmoh1M
   posts:
-    - post/thinkaboutit-be/8022
+    - post/demiliani-com/11739
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -82,7 +81,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 12
+  video: 11
   blog: 1
   guideline: 0
 bc_forms:
@@ -96,7 +95,7 @@ narrative: generated
 
 > Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales Order Agent · tier official · system sales · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales Order Agent · tier official · system sales · narrative reviewed by Opus
 
 ## Overview
 
@@ -128,9 +127,8 @@ Start with the overview to understand the scope, then follow the setup page to a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Sales Order Agent reaches General Availability with multiple agent support per company"
+- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "Sales Order Agent in Business Central 2025 Wave 1 automates email-based sales quote processing"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature"
-- [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; Payables Agent; Custom Agents Framework"
 - [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"
 - [Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)](../../../videos/2ujWYYecA2c.md) (video): "Sales Order Agent; Try It Out Experience; Email Attachment Detection"
 - [What's New: Sales Order Agent Enhancements (2025 release wave 2)](../../../videos/4nFViDASGhg.md) (video): "sales order agent; email processing; attachment analysis; custom instructions"

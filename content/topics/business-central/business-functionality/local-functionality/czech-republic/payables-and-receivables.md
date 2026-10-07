@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/payables-and-receivables
 type: topic
 title: Payables and Receivables
-summary: "Learn section Business functionality > Local functionality > Czech Republic > Payables and Receivables: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Czech localization of Business Central for payables and receivables: compensation between customers and vendors, balance reconciliations, exchange rate adjustments, sales correcting documents, ARES contact updates, and output document layout. It answers how to set up and use these Czech-specific features."
 tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:57.818Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: d7410349f537ce4d8308f7c1ee20146e1e19f0a255a90cb4aca68ed7a6583b82
+  prompts:
+    hub-topic: 1
+  input_hash: 4d056c97c3cec6c3c1c9b6bef649b0ee00adedf6011a33dbbcf866cc509b5302
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz
@@ -99,14 +100,31 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: d7410349f537ce4d8308f7c1ee20146e1e19f0a255a90cb4aca68ed7a6583b82
-narrative: none
+narrative: generated
 ---
 
 # Payables and Receivables
 
-> Learn section Business functionality > Local functionality > Czech Republic > Payables and Receivables: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Czech localization of Business Central for payables and receivables: compensation between customers and vendors, balance reconciliations, exchange rate adjustments, sales correcting documents, ARES contact updates, and output document layout. It answers how to set up and use these Czech-specific features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · narrative reviewed by Opus
+
+## Overview
+
+This section collects the Czech-specific features that affect customers, vendors and the documents sent to them. Some cover accounting processes: compensation of receivables against payables, customer and vendor reconciliation statements, and exchange rates adjustment. Others cover documents and master data: sales correcting documents, the new design of output documents, hiding zero-quantity lines, and updating contacts from ARES.
+
+The pages are independent of each other, and there are no subtopics. Pick the page that matches the task. For offsetting balances when a customer is also a vendor, start with the compensation page. For year-end or periodic balance statements, use the reconciliations page. For document layout and VAT compliance, see the output documents, sales correcting documents and zero-quantity pages.
+
+## Key points
+
+- Compensation offsets receivables and payables when a customer is also a vendor. Lines can be entered manually or proposed with Suggest lines, then released and posted.
+- Compensation can print an Agreement on Mutual Settlement of Receivables and Payables, and it uses Compensation Nos. for numbering.
+- Customers/vendors reconciliation prepares and sends balance statements for fiscal year-end or periodic reconciliation.
+- Exchange rates adjustment runs separately for customers, vendors and bank accounts, with a test mode, summarized entries per currency, dimension transfer methods and Advance Payments integration.
+- Sales credit memos can be typed as Corrective Tax Document, Internal Correction or Insolvency Tax Document to follow VAT law amendments.
+- The new output document design standardizes printed reports and adds registration numbers, VAT specification, advance payment deductions and tax corrective document naming.
+- Update contacts from ARES retrieves company information through an ARES Http service and updates contact, vendor and customer records.
+- A Hide lines with zero quantity toggle controls zero-quantity lines on sales and purchase invoices and credit memos.
 
 ## Learn pages
 

@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/migration
 type: topic
 title: Migration
-summary: "Learn section Development > Extension lifecycle > Migration: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Migration in the Business Central extension lifecycle: generating .delta files with Compare-NAVApplicationObject for conversion to extensions, and moving table and field data between extensions on-premises. It answers questions about delta generation, migration.json, dependency direction, transition extensions and synchronization order."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4d474caeded31ac5afc7d7c82e64c4359ea65d4a650817182d41771c8d0731c4
+  prompts:
+    hub-topic: 1
+  input_hash: fae3662aa0b355610e04522de7a8dceff0d4fed25085e982b3c65b8e05b2ef62
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-generating-delta-files
@@ -80,14 +81,29 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 4d474caeded31ac5afc7d7c82e64c4359ea65d4a650817182d41771c8d0731c4
-narrative: none
+narrative: generated
 ---
 
 # Migration
 
-> Learn section Development > Extension lifecycle > Migration: 5 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Migration in the Business Central extension lifecycle: generating .delta files with Compare-NAVApplicationObject for conversion to extensions, and moving table and field data between extensions on-premises. It answers questions about delta generation, migration.json, dependency direction, transition extensions and synchronization order.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Migration · tier official · system development · no narrative yet
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Migration · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers two migration tasks in the extension lifecycle. The first is producing delta files from application object versions, using the Compare-NAVApplicationObject PowerShell cmdlet. The second, in a subtopic, is moving table and field data from a releasing extension to a receiving extension in on-premises Business Central.
+
+Start with the "Generating Delta files" page if you are converting existing application objects to extensions, since the delta output feeds the Txt2Al conversion tool. Go to the subtopic on migrating tables and fields between extensions when data must move from one extension to another. It explains the migration.json file, the direction of the dependency graph, transition extensions and synchronization ordering.
+
+## Key points
+
+- Compare-NAVApplicationObject generates .delta files from application object versions.
+- The ExportToNewSyntax flag is required when the deltas will be converted to extensions with the Txt2Al conversion tool.
+- The subtopic covers moving table and field data from a releasing extension to a receiving extension.
+- Table and field migration between extensions applies to on-premises Business Central.
+- The subtopic explains the migration.json file, dependency graph direction, transition extensions and synchronization ordering.
+- The subtopic has 4 pages; the hub has 1 own page on delta files.
 
 ## Subtopics
 

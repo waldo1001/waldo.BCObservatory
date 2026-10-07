@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,8 @@ links:
     - video/V7NgFOIcGgM
     - video/WL3m2dffwU8
     - video/YX9UfUF0EsA
-  posts: []
+  posts:
+    - post/demiliani-com/12927
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -75,7 +76,7 @@ coverage:
   learn: 4
   code: 0
   video: 5
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -86,7 +87,7 @@ narrative: generated
 
 > Microsoft Copilot in Business Central (preview) is the read-only Copilot experience that answers natural-language questions about company data. It covers usage, what data it can reach, licensing and admin controls in the FAQ, and the Application Card on capabilities, limits and responsible AI.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Microsoft Copilot in Business Central (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Microsoft Copilot in Business Central (preview) · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
@@ -99,7 +100,7 @@ Start with the usage page, then read the data page for concrete scenarios. Use t
 ## Key points
 
 - Copilot has read-only access to Business Central data, limited to what the user has permission to view; permissions are enforced.
-- Available starting in version 29 with agent integration; it replaces Chat with Copilot (the FAQ also mentions version 28).
+- Starting in version 29, it replaces Chat with Copilot and supports agents.
 - Users can ask natural-language questions, find records, analyze business data, and get task guidance.
 - It can explain pages and fields and give help on installed apps.
 - It can combine Business Central data with web data or work content; Work IQ integration brings in Microsoft 365 data.
@@ -118,6 +119,7 @@ Start with the usage page, then read the data page for concrete scenarios. Use t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../posts/demiliani-com/12927.md) (community post): "Copilot Chat uses Bing Search and retrieval augmented generation to answer user questions"
 - [Business Central Gets a New Microsoft Copilot Chat Experience](../../../videos/mhfjycxWTyY.md) (video): "Business Central Gets a New Microsoft Copilot Chat Experience; unified experience; conversational ai"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "Microsoft Copilot Chat in Business Central; sales tax configuration assistance; Copilot recommendations"
 - [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/V7NgFOIcGgM.md) (video): "Microsoft Copilot Chat in Business Central; Agentic Loop; Intent Detection"

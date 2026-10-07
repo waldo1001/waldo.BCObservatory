@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/events",
+  "input_hash": "1579c3e7eea83755959040fa23c9a75280b5fbdc13b22d100939e1a9033fc169",
+  "summary": "Events in AL for Business Central: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior without changing the original code.",
+  "overview": "Events let AL code react to actions in other code without modifying it. A publisher defines an event, code raises it by calling the publisher method, and subscribers handle it with custom logic. The section covers business, integration, internal, global and trigger events.\n\nStart with \"Events in Microsoft Dynamics 365 Business Central\" and \"Event types\" for the concepts, then \"Event example\". The pages on publishing, raising and subscribing give the mechanics. \"Isolated events in AL\" explains how a failing subscriber is kept from affecting the publisher.\n\nFurther pages cover finding events to subscribe to with the Event Recorder, and deprecating external business events so integrations can move to replacements. The notifications page covers nonintrusive UI messages. The workflow walkthrough shows new workflow events and responses built with event subscribers.",
+  "key_points": [
+    "Event kinds: business, integration, internal, global, and database and page trigger events. Business, integration and internal events use the BusinessEvent, IntegrationEvent and InternalEvent attributes.",
+    "Publishers are methods in objects such as codeunits, pages and tables; raising an event means calling the publisher method, which triggers all subscribers.",
+    "Subscribers use the EventSubscriber attribute; the EventSubscriberInstance property is covered on the subscribing page.",
+    "Isolated events roll back errors in a subscriber without affecting the publisher or other subscribers.",
+    "The Event Recorder captures events during a scenario and gives AL snippets for subscribing.",
+    "External business events are deprecated by first marking them obsolete pending and then removing them in a later version, using the Obsolete and ExternalBusinessEvent attributes and a DisplayName prefix; the page references version 27.0.",
+    "Notifications use the Notification data type with Message, Scope, Send, AddAction, SetData and GetData methods in the web client.",
+    "A walkthrough shows implementing new workflow events and responses by registering them through event subscribers."
+  ],
+  "members_used": 11,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:05.448Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016195
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:19:59.700Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 1 reads as if every event kind, global and trigger events included, is declared with the BusinessEvent, IntegrationEvent or InternalEvent attributes. The summaries list those attributes, but they don't tie them to global or trigger events. Reworded so the attributes apply only to business, integration and internal events.",
+      "Key point 6 puts the removal step next to version 27.0, which suggests the removal happens in 27.0. The deprecation page lists 27.0 as a version but doesn't say what happens in it. Reworded to say only that the page references 27.0."
+    ],
+    "input_hash": "1579c3e7eea83755959040fa23c9a75280b5fbdc13b22d100939e1a9033fc169",
+    "cost_usd": 0.0474032
+  }
+}

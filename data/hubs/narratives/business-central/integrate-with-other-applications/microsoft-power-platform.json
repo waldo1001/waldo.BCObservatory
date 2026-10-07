@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-power-platform",
+  "input_hash": "891e177a7f6a5bab807de1c8af538db5641fb7c6d61a81bf09e5232f9abb9caa",
+  "summary": "Microsoft Power Platform integration with Business Central: the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and exposing data to external users.",
+  "overview": "This section explains how Business Central works with the Power Platform services. An introductory page covers the Business Central connector, Power Apps custom solutions, Power Automate flows, Power BI semantic models and reporting, and Power Pages with virtual tables, including Dataverse.\n\nThree subtopics go deeper. Power Apps covers building apps on Business Central data, including canvas apps, AI Builder and mixed-reality options. Power Automate covers no code/low code flows with the connector, including flow types, triggers, actions and troubleshooting. Power BI is the largest part, with eight pages on licensing, connecting online and on-premises environments, building reports in Power BI Desktop, FactBoxes and the built-in Power BI apps.\n\nA separate page covers Power Pages on virtual tables (preview), which lets unlicensed external users reach Business Central online data through portals. Start with the introductory page to pick the service, then move to the matching subtopic.",
+  "key_points": [
+    "The introductory page covers the Business Central connector, Power Apps custom solutions, Power Automate flows, Power BI semantic models and reporting, and Power Pages on Dataverse virtual tables. Start there to pick a service.",
+    "Power Apps: connect to a Business Central environment and build canvas apps on Business Central data, with custom UI, AI Builder and augmented/mixed-reality options.",
+    "Power Automate: no code/low code flows built with the Business Central connector, covering flow types, triggers and actions, using flows in Business Central, and troubleshooting automated flows.",
+    "Power BI is the largest subtopic (eight pages). It covers licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and the built-in Power BI apps.",
+    "Power Pages on virtual tables (preview) gives unlicensed external users access to Business Central online data through Power Pages portals running on Dataverse virtual tables.",
+    "Power Pages features include anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration. List/subgrid editing is supported from 2023 release wave 2, and the page also references version 23.1."
+  ],
+  "members_used": 2,
+  "subtopics_used": 3,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:39.753Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012887000000000003
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:22.682Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 1 ('The Business Central connector is the common entry point for Power Apps and Power Automate') is not supported. Only the Power Automate subtopic and the intro page mention the connector. The Power Apps summary only talks about connecting Power Apps to a Business Central environment. I reworded it to match the sources.",
+      "Key point 6 applies '2023 release wave 2 (version 23.1)' to every Power Pages capability. In the source, the 2023 release wave 2 timing is attached to list/subgrid editing. It also treats version 23.1 as the same thing as 2023 release wave 2, which the source does not say. I tied the timing to editing only and listed version 23.1 as a version the page references.",
+      "Key point 7 just repeats what the overview already says about the intro page. I replaced it with something more useful for agents: start with the intro page to choose a service."
+    ],
+    "input_hash": "891e177a7f6a5bab807de1c8af538db5641fb7c6d61a81bf09e5232f9abb9caa",
+    "cost_usd": 0.0481552
+  }
+}

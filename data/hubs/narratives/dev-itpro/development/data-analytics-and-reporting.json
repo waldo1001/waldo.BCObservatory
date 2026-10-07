@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/data-analytics-and-reporting",
+  "input_hash": "53ff12af71c01ebea528fb00ccc3819d1d01095e55a791173cad2ae771d3f402",
+  "summary": "Data analytics and reporting in Business Central covers data analysis on lists and queries, queries as datasets and OData web services, Excel layout reports, and Power BI integration and embedding. It answers questions about choosing an analysis option and building or embedding reports.",
+  "overview": "This area describes the ways to analyze and share Business Central data. Options differ by role: Power BI reports, data analysis mode on list pages and queries, Excel with APIs (Power Query and PowerPivot), and report objects with Excel layouts.\n\nStart with \"Analyzing, pivoting, and sharing data in Business Central\" to compare the options. For interactive work without running a report, see the data analysis page, which covers columns, filters, row groups, pivot mode and date hierarchies. \"Query Overview\" explains queries that combine tables, aggregate data and can be exposed as OData web services.\n\nFor Excel reporting, \"Working with Excel layouts\" covers creating, configuring and working with Excel layouts that use formulas, PivotTables, PivotCharts and multiple worksheets. \"Creating an Excel layout report\" covers the data contract, system worksheets, translations and named formulas. For Power BI, read the introduction first, then the page on embedding reports in Business Central pages.",
+  "key_points": [
+    "Data analysis mode lets you analyze list page and query data interactively with a Columns pane, Analysis Filters pane, row groups, pivot mode and multiple analysis views, without running a report.",
+    "Analysis views can include fields from related tables and date hierarchies, and can be bookmarked to your Role Center.",
+    "Queries retrieve and combine records from one or more tables, can calculate and aggregate data, and can be exposed as OData web services. Types include normal and API queries.",
+    "Excel layout reports use an Excel layout data contract, with ExcelLayoutMultipleDataSheets, system worksheets, translation support, named formulas and drillthrough.",
+    "Excel layouts can include formulas, PivotTables, PivotCharts, multiple worksheets and a data sheet, using built-in Office features.",
+    "Power BI integration includes built-in Power BI apps, Power BI Desktop integration, KPI tracking and report embedding.",
+    "Power BI reports, scorecards and dashboards can be embedded in pages using the Power BI embed framework, with pages such as Power BI Embedded Report Part and Power BI Element Addin Host, and context set through SetCurrentListSelection and SetPageContext.",
+    "Version notes: the data analysis page references 2026 release wave 2. The Excel layout report page covers 2023 release wave 1 to 2025 release wave 1 and versions 23.3 to 26.0. The Power BI embedding page covers 2022 release wave 2 to 2025 release wave 1."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:12:27.335Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015905000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:29.221Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says \"Working with Excel layouts\" covers using existing layouts. The source page covers creating, configuring and working with Excel layouts, so that wording narrows its scope.",
+      "Key point 5 says the worksheets are \"built on a data sheet\". The source only lists multiple worksheets and a data sheet as separate features, so I softened this.",
+      "Key point 8 lists release waves for only two pages. The data analysis page is tagged 2026 release wave 2, and the narrative never mentions it. I rewrote the point so it stays accurate and is more useful."
+    ],
+    "input_hash": "53ff12af71c01ebea528fb00ccc3819d1d01095e55a791173cad2ae771d3f402",
+    "cost_usd": 0.054223200000000006
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/business-functionality/set-up-business-central/import-data",
+  "input_hash": "cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe",
+  "summary": "Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved.",
+  "overview": "This section describes how to move existing business data into Business Central when setting up. There are two pages, and each covers a different source: a QuickBooks app, or any other finance system via Excel.\n\nFor QuickBooks users, built-in data migration extensions handle both QuickBooks Desktop and QuickBooks Online, and are started from assisted setup. They migrate records such as customers, vendors and inventory.\n\nFor other sources, the Excel page explains how to import data using Excel files or configuration packages. The default configuration package supports 27 tables covering master data and transactions. Start with the QuickBooks page if you come from QuickBooks, otherwise start with the Excel page.",
+  "key_points": [
+    "QuickBooks Desktop and QuickBooks Online are both supported through built-in data migration extensions.",
+    "The QuickBooks migration is started from assisted setup.",
+    "QuickBooks migration covers customers, vendors and inventory.",
+    "Excel import suits data from other finance systems.",
+    "Data can be imported using Excel files or configuration packages.",
+    "The default configuration package supports 27 tables for master data and transactions.",
+    "The Excel page also touches on data transformation and master data migration."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:31.482Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008231
+  }
+}

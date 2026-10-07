@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications/dynamics-365-field-service
 type: topic
 title: Dynamics 365 Field Service
-summary: "Learn section Integrate with other applications > Dynamics 365 Field Service: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Dynamics 365 Field Service integration with Business Central: how to set it up and use it to sync work orders, post project journal consumption, manage inventory and locations, and create sales invoices. It answers questions about integration types and what data flows between the two systems."
 tier: official
 language: en
 system: service
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 0eba7d664efd489974a16033cea94144dbe55ecba66bb663c6eb4d50f74eb348
+  prompts:
+    hub-topic: 1
+  input_hash: e84fac25230b1a4119ecda9bb903d806c142afb6780c24be5c5b1594ca38334d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service
@@ -60,14 +61,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 0eba7d664efd489974a16033cea94144dbe55ecba66bb663c6eb4d50f74eb348
-narrative: none
+narrative: generated
 ---
 
 # Dynamics 365 Field Service
 
-> Learn section Integrate with other applications > Dynamics 365 Field Service: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Dynamics 365 Field Service integration with Business Central: how to set it up and use it to sync work orders, post project journal consumption, manage inventory and locations, and create sales invoices. It answers questions about integration types and what data flows between the two systems.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Dynamics 365 Field Service · tier official · system service · no narrative yet
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Dynamics 365 Field Service · tier official · system service · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers the integration between Business Central and Dynamics 365 Field Service, aimed at service organizations that want to streamline service operations. Work orders in Field Service are synchronized with Business Central project journals or service orders, and invoicing and fulfillment can be automated. The integration is described as bi-directional.
+
+There are two pages. The first introduces the integration, including resource scheduling, item availability tracking and service order status management, and mentions 2021 release wave 2. The second explains day-to-day use: tracking work order consumption, managing locations and inventory availability, aligning resource bookings, and creating sales invoices.
+
+Start with the introductory page to understand what the integration does and which setup you need. Then read the usage page to choose between the two integration types, Project-only and Project and Service, and to see how work orders map to project tasks or service orders.
+
+## Key points
+
+- Integrates Business Central with Dynamics 365 Field Service to streamline service operations.
+- Work orders sync with project journals, with consumption posted through project journals.
+- Two integration types exist: Project-only and Project and Service.
+- Work orders can be synchronized with project tasks or with service orders, depending on the type.
+- Supports location management and inventory availability tracking.
+- Sales invoices can be created from work order activity, automating invoicing and fulfillment.
+- Resource scheduling and booking alignment are part of the integration.
+- The introductory page references 2021 release wave 2.
 
 ## Learn pages
 

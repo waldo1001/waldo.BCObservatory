@@ -2,20 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions
 type: topic
 title: Earlier versions
-summary: "Learn section Business Central on-premises > Upgrade > Earlier versions: 92 Microsoft Learn pages in 11 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Earlier versions of Business Central on-premises upgrade documentation, from spring 2019 (v.14) through 2024 release wave 1 (v.24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, how to convert C/AL to AL, and how to move tables between extensions.
 tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:14:15.555Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c25662c24e4f75e835aa6e1b2ce71c7d5b75ebc62db6e4516e375d4c694e31ec
+  prompts:
+    hub-topic: 1
+  input_hash: 12adde1b2183a51f8da9147fa3ab05279615c2114610c2855d58d482303b6a51
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -345,14 +346,33 @@ coverage:
 bc_forms:
   - 19010
 member_hash: c25662c24e4f75e835aa6e1b2ce71c7d5b75ebc62db6e4516e375d4c694e31ec
-narrative: none
+narrative: generated
 ---
 
 # Earlier versions
 
-> Learn section Business Central on-premises > Upgrade > Earlier versions: 92 Microsoft Learn pages in 11 subtopics. Index of what Learn documents here, linked to Learn.
+> Earlier versions of Business Central on-premises upgrade documentation, from spring 2019 (v.14) through 2024 release wave 1 (v.24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, how to convert C/AL to AL, and how to move tables between extensions.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Earlier versions · tier official · system platform · no narrative yet
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Earlier versions · tier official · system platform · narrative reviewed by Opus
+
+## Overview
+
+This section holds one upgrade subtopic per older release, each written for upgrading on-premises Business Central to that target version. The releases covered are spring 2019 (v.14), 2019 release wave 2 (v.15), 2020 waves 1 and 2 (v.16, v.17), 2021 waves 1 and 2 (v.18, v.19), 2022 waves 1 and 2 (v.20, v.21), 2023 waves 1 and 2 (v.22, v.23) and 2024 wave 1 (v.24). The section has no pages of its own.
+
+The subtopics follow a similar pattern. Most cover upgrade paths from earlier versions, technical upgrade steps, C/AL to AL conversion, moving tables between extensions, permission set and report changes where relevant, and a compatibility matrix. Some also cover installing an update for that version.
+
+To start, pick the subtopic that matches your target version. Then check its compatibility matrix and upgrade path pages to confirm your source version can upgrade directly. The older subtopics, spring 2019 and 2019 wave 2, are smaller and focus on the technical upgrade and on moving from Dynamics NAV or version 14.
+
+## Key points
+
+- Eleven subtopics, one per release from spring 2019 (v.14) to 2024 release wave 1 (v.24).
+- Version 24 documentation covers upgrades from C/AL (version 14) and from versions 15-23, and installing a version 24 update.
+- Version 23 covers upgrade paths from versions 14 through 22; version 22 covers version 14 and versions 15-21.
+- Versions 17, 18 and 19 cover upgrades from versions 14 to 16, 14 to 17, and 14 to 18 respectively.
+- Version 16 covers upgrades from versions 13, 14 and 15 and moving tables between extensions with migration.json.
+- Version 19 includes the India data migration toolkit and permission set upgrades.
+- Version 15 (2019 wave 2) covers upgrade from version 14, unmodified application upgrades and minimum versions.
+- Spring 2019 (v.14) covers application code merging, single-tenant and multitenant data upgrade, and codeunit 1 replacement.
 
 ## Subtopics
 

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-outlook",
+  "input_hash": "c9c8e3289967110eef8d79043fe8153497b93b3e86145a07904c1a7ce9053f38",
+  "summary": "Microsoft Outlook integration with Business Central: deploying the Outlook add-in, saving Business Central contacts to Outlook and Teams, and setting up email when Outlook is not used. It answers questions about installation options, contact synchronization, and email setup.",
+  "overview": "This section covers how Business Central works with Microsoft Outlook. The main piece is the Business Central add-in for Outlook, which shows contact insights and a document view in emails and appointments, and lets users create business documents from there. It can be deployed centrally by Microsoft 365 admins or installed manually by individual users.\n\nA second page covers saving business contacts to Outlook and Teams. It synchronizes Business Central contacts so they are available during email and collaboration, with optional two-way synchronization and contact filtering. The page references 2026 release wave 1.\n\nThe third page is for organizations that do not use Outlook. It explains how to set up email sending through an assisted setup guide or with technical mail server information. Start with the add-in page if you use Outlook, or the last page if you do not.",
+  "key_points": [
+    "The Outlook add-in offers contact insights and a document view inside emails and appointments.",
+    "Two deployment methods exist: centralized deployment by Microsoft 365 admins, or manual installation by individual users.",
+    "Users can create business documents directly from Outlook through the add-in.",
+    "Business Central contacts can be saved and synchronized to Outlook and Teams.",
+    "Contact synchronization can be two-way and supports contact filtering.",
+    "The contact saving page is tied to 2026 release wave 1.",
+    "Business Central can be used without Outlook by setting up email sending.",
+    "Email setup can use an assisted setup guide or technical mail server information."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:25.813Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009963
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:27:53.065Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'create business documents' and 'contact filtering' are supported only by the page feature lists, not the page summaries; acceptable as stated."
+    ],
+    "input_hash": "c9c8e3289967110eef8d79043fe8153497b93b3e86145a07904c1a7ce9053f38",
+    "cost_usd": 0.026947199999999998
+  }
+}

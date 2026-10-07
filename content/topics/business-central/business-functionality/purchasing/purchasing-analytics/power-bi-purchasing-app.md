@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app
 type: topic
 title: Power BI purchasing app
-summary: "Learn section Business functionality > Purchasing > Purchasing analytics > Power BI purchasing app: 20 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: The Power BI Purchases app section covers the app, its semantic model, KPI and measure reference, and each purchasing report. It answers questions about what a report shows, which measures it uses, and how the data is structured for spend, vendor, budget, return and trend analysis.
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:17:12.298Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: ecab2c71337f985f4e79f91e7a065a52d14520477ec4f5fa620718e251816dcb
+  prompts:
+    hub-topic: 1
+  input_hash: 0b89631d45f763e3d3fdf1133e15707afa75fb450c90a7e3527c740978fb704f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -223,14 +224,33 @@ bc_forms:
   - 37117
   - 37118
 member_hash: ecab2c71337f985f4e79f91e7a065a52d14520477ec4f5fa620718e251816dcb
-narrative: none
+narrative: generated
 ---
 
 # Power BI purchasing app
 
-> Learn section Business functionality > Purchasing > Purchasing analytics > Power BI purchasing app: 20 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> The Power BI Purchases app section covers the app, its semantic model, KPI and measure reference, and each purchasing report. It answers questions about what a report shows, which measures it uses, and how the data is structured for spend, vendor, budget, return and trend analysis.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Power BI purchasing app · tier official · system purchasing · no narrative yet
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Power BI purchasing app · tier official · system purchasing · narrative reviewed by Opus
+
+## Overview
+
+The Power BI Purchases app delivers purchasing analytics for executives, procurement teams and purchasing agents. It has reports on spending, vendor performance, budgets and purchasing trends. The app page lists the reports and is the best starting point.
+
+The reports fall into groups. Overview and breakdown: Purchases Overview, Purchases Decomposition, and Purchases by Item, Location, Purchaser and Vendor. Time-based: Daily Purchases, Moving Averages, Moving Annual Total, Period-Over-Period, Year-Over-Year and Actual vs. Budget. Forward-looking and diagnostic: Purchase Forecasting and Key Purchase Influencers. Quotes, returns and vendors: Purchase Quote Overview, Purchases Return Overview and Vendor Quality Analysis.
+
+Two reference pages sit behind the reports. The semantic model page describes the star schema of fact and dimension tables. The KPIs and measures page explains the calculations. Use them when you need to know where a figure comes from.
+
+## Key points
+
+- The app serves executives, procurement teams and purchasing agents with reports on spending, vendor performance, budgets and trends.
+- The semantic model uses a star schema. Facts are purchase budgets, invoices, credit memos and value entries. Dimensions are vendors, items, projects and purchasers.
+- Trend reports: Moving Annual Total covers the last 12 months, Moving Averages uses 30-day averages, and Period-Over-Period and Year-Over-Year compare against earlier periods.
+- Actual vs. Budget reports budget amount variance and variance % by item category.
+- Purchase Forecasting predicts three months ahead from six months of history, using monthly seasonality, with vendor and item category dimensions.
+- Key Purchase Influencers uses the Key Influencers visual and a Top Segments tab for AI-driven analysis of purchase drivers.
+- Purchases Return Overview and Vendor Quality Analysis cover return rates, credits, spend reliance, item reliance, discount % and single-supplier items.
+- Purchases Overview shows outstanding invoices, outstanding orders and amounts received but not invoiced. Purchase Quote Overview tracks quote counts, quantities and amounts.
 
 ## Learn pages
 

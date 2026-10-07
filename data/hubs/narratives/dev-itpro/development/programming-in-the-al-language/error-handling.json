@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
+  "input_hash": "4a21c07b148f5af6fe8ac83f95325cee9a2f0e447a81f4aa3bf8a573c9eb78d4",
+  "summary": "Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.",
+  "overview": "This section explains how AL code deals with errors from design to diagnosis. It starts with an overview of strategies (error dialogs, try methods, error collection, telemetry, the ErrorInfo data type and error message quality), then goes into each technique on its own page.\n\nFor writing code, the pages cover try methods with the TryFunction attribute, collectible errors using the ErrorBehavior attribute and the error collection API, and actionable errors built with ErrorInfo. Failure modeling and robust coding practices give the design principles behind these choices. The user experience guidelines page covers wording, voice and dialog best practices.\n\nFor diagnosis, the page on the error dialog explains what users see and what they can copy for support, such as the AL call stack and the Application Insights session ID. The Error telemetry subtopic goes further into analyzing error events in Application Insights. A subtopic with AL language reference pages for errors is also part of the section. Start with \"AL error handling\" for orientation.",
+  "key_points": [
+    "Actionable errors use ErrorInfo objects with Fix-it and Show-it actions, up to two actions per error, with consistent button labels and field validation support.",
+    "Try methods use the TryFunction attribute, return a boolean, and can be inspected with GetLastErrorText and GetLastErrorObject; database write restrictions apply, and the page mentions runtime version 2.0.",
+    "Collectible errors (ErrorBehavior attribute and error collection API) let a procedure gather several validation errors and show them together instead of stopping at the first.",
+    "The error dialog has a Copy Details section with the AL call stack and the Application Insights session ID, useful for troubleshooting.",
+    "Failure modeling lists six robust coding principles: do not trust external code, consumers or the environment; offer graceful degradation; hide internal data structures; assume improbable events happen at scale.",
+    "UX guidelines cover actionable messages, message formatting, validation errors and voice for error text.",
+    "Error telemetry covers event IDs, dimensions, KQL analysis, permission errors, user votes on error messages, and logging with the Telemetry AL module."
+  ],
+  "members_used": 7,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:14.920Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015611
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:18:03.133Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the error dialog key point says the Copy Details section contains the AL call stack and the Application Insights session ID. The source lists these as separate features, so this is a slight inference, but a reasonable one.",
+      "Minor: the overview says the UX guidelines cover 'wording'. The source says message formatting and voice guidelines, so this is close enough.",
+      "Minor: the release waves for the error dialog (2022 release wave 2 and 2023 release wave 1) and feature telemetry in the Error telemetry subtopic are left out. That is acceptable."
+    ],
+    "input_hash": "4a21c07b148f5af6fe8ac83f95325cee9a2f0e447a81f4aa3bf8a573c9eb78d4",
+    "cost_usd": 0.039719199999999996
+  }
+}

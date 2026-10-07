@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/formatting-values",
+  "input_hash": "799d6314a3b6d0f597598e88f627b6074b761fe29e0d26b3daa204b2cdc1211e",
+  "summary": "Formatting values in AL covers how Business Central displays and converts data: the Format method for dates, times, decimals and other types, field-level decimal formatting properties, and file handling with text encodings. It answers questions about format strings, amount and currency display, and encoding choices for import and export.",
+  "overview": "This section groups three pages on how values are presented and exchanged in AL code. One page covers the Format method, which turns dates, times, datetimes, decimals, integers, booleans, enums and GUIDs into text using predefined or custom format strings. Another covers formatting decimal data in table, page and report fields through properties.\n\nThe third page deals with files and text encoding: opening, reading, writing and closing files, and which encoding to use when importing or exporting data so characters appear correctly across systems and languages.\n\nStart with the Format method page for general text conversion. Use the field formatting page when the question is about how amounts, unit amounts or currencies appear in the UI or reports. Use the file handling page for import and export questions, including XMLports.",
+  "key_points": [
+    "The Format method supports dates, times, datetimes, decimals, integers, booleans, enums and GUIDs.",
+    "Format accepts standard (predefined) formats or custom format strings with field names, attributes and syntax rules.",
+    "Field formatting uses the AutoFormatType, AutoFormatExpression and DecimalPlaces properties.",
+    "Field formatting controls amounts, unit amounts, currencies, thousand separators and precision; the page lists version 26.0.",
+    "File handling covers opening, reading, writing and closing files.",
+    "Encodings covered: MS-DOS, UTF-8, UTF-16 and Windows.",
+    "XMLports are mentioned in the context of data import and export with encodings."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:09:06.963Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010240999999999998
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:28:25.918Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'the page lists version 26.0' is supported by the version metadata but has no context and adds little for an agent; consider dropping or clarifying it.",
+      "The field formatting page also mentions custom formats; the narrative omits this (minor).",
+      "'Which encoding to use' slightly extends the source, which only says the page covers encoding formats for import and export; acceptable."
+    ],
+    "input_hash": "799d6314a3b6d0f597598e88f627b6074b761fe29e0d26b3daa204b2cdc1211e",
+    "cost_usd": 0.0335992
+  }
+}

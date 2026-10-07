@@ -2,20 +2,21 @@
 id: topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 type: topic
 title: Multi-site and international organizations
-summary: "Learn section Business functionality > Finance > Multi-site and international organizations: 8 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies."
 tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:21:01.507Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 81fc2f1ccbadbefd64a789a46c42cad0f779ea9d55e56a3935d4643f450f4c02
+  prompts:
+    hub-topic: 1
+  input_hash: 2831afd09e4ff6f196e2eb3fcdc131c035c48fb65910eef327ea0463a7be576d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs
@@ -150,14 +151,33 @@ bc_forms:
   - 1827
   - 4410
 member_hash: 81fc2f1ccbadbefd64a789a46c42cad0f779ea9d55e56a3935d4643f450f4c02
-narrative: none
+narrative: generated
 ---
 
 # Multi-site and international organizations
 
-> Learn section Business functionality > Finance > Multi-site and international organizations: 8 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative reviewed by Opus
+
+## Overview
+
+This area covers how Business Central supports organizations that run several sites, subsidiaries or business units. The main page describes the hub-and-spoke business model and lists the capabilities involved: financial consolidation, intercompany transactions, multi-currency, multi-language, a company hub and data exchange.
+
+Two subtopics go into detail. The consolidation pages explain how to combine general ledger data from several companies into a consolidated company, in a simple or an advanced setup. The intercompany pages explain how to set up partners, a shared chart of accounts and dimensions, and how to post and process intercompany documents and journals.
+
+Start with the overview page to see which capability fits your structure. Then use the consolidation pages for reporting across companies, and the intercompany pages for day-to-day transactions between entities.
+
+## Key points
+
+- The overview page frames the hub-and-spoke model and lists consolidation, intercompany, multi-currency, multi-language, company hub and data exchange.
+- Company consolidation combines general ledger data from subsidiaries or business units into a consolidated company.
+- Consolidation supports different charts of accounts, currencies, fiscal years and environments.
+- Consolidation can be set up simply or in advanced mode.
+- Intercompany setup covers partners, a shared chart of accounts and dimensions.
+- Intercompany transactions are posted through documents and journals and handled via the inbox and outbox.
+- Purchase costs can be allocated to partner companies.
+- Intercompany has 5 pages and consolidation has 2.
 
 ## Subtopics
 

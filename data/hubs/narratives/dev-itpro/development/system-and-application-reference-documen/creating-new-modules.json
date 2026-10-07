@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/dev-itpro/development/system-and-application-reference-documen/creating-new-modules",
+  "input_hash": "46b2a05aa39730e70e5be4f4629ecddde03d1dc7514919b1874dbd1b76affd3a",
+  "summary": "Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.",
+  "overview": "This section is for developers who want to contribute modules to the System Application in the BCApps repository. It explains the design rules for modules, how to prepare a local development environment, and how to create or change a module.\n\nStart with \"Get started with modules\" for the requirements (AL development, Git, environment setup). Then follow \"Set up an environment for developing a module\", which uses GitHub, Docker, BcContainerHelper, and Visual Studio Code. \"Module Architecture\" gives the design principles you need before writing code: independent projects, public facades, dependency layers, and access modifiers.\n\nNext, choose the task page. \"Create a new module in the System Application\" walks through facade and implementation codeunits, tests, and contribution guidelines. \"Change a module in the System Application\" covers modifying existing modules without breaking changes. \"Create a .NET Wrapper Module\" shows how to expose .NET functionality in AL, using the Regex module as an example.",
+  "key_points": [
+    "Modules are developed in the BCApps repository using a Git workflow.",
+    "Environment setup uses GitHub, Docker, BcContainerHelper, and Visual Studio Code.",
+    "Module architecture separates modules into independent projects with a public facade and internal implementation.",
+    "Architecture guidance covers dependencies across functional layers, object accessibility, access modifiers, and extensibility controls.",
+    "A new module needs a facade codeunit, an implementation codeunit, and unit tests.",
+    "Changes to existing modules must follow the architecture guidelines, avoid breaking changes, and include tests.",
+    ".NET wrapper modules use codeunits and temporary tables, the facade pattern, an argument-table pattern, and constructor handling.",
+    "The Regex module is the worked example for .NET wrapping."
+  ],
+  "members_used": 6,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:44.308Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012341
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:23.589Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview gives a reading order (Get started, then setup, then architecture, then the task pages). The sources don't state this order, but it is a reasonable way to guide readers and doesn't misstate anything.",
+      "The key point that a new module 'needs' a facade codeunit, an implementation codeunit and unit tests is a little stronger than the source, which describes these as steps in building a module. This is a minor point and acceptable.",
+      "The source names the BCApps repository only on the setup and .NET wrapper pages. Applying it to module contribution in general is a reasonable inference."
+    ],
+    "input_hash": "46b2a05aa39730e70e5be4f4629ecddde03d1dc7514919b1874dbd1b76affd3a",
+    "cost_usd": 0.0303632
+  }
+}

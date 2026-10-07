@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts
 type: topic
 title: Develop report layouts
-summary: "Learn section Analytics, business intelligence, and reporting > Develop reports > Develop report layouts: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Report layout development in Business Central: layout types (Word, Excel, RDLC, external, composite), designing and mapping fields, themes and header/footer layouts, choosing the layout a report uses, and available fonts. It answers how to create, edit, import, export and assign report layouts."
 tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c964d1ff327cfc1561fe3fc25ffa543c57303f23bcfb60bc9a45989aaa758f30
+  prompts:
+    hub-topic: 1
+  input_hash: ff2364dc4739ea0b827e6a82573a0ee55e793369517bc22441506d7423ff1e7d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
@@ -99,6 +100,7 @@ links:
   videos:
     - video/-vdhfNMNZQk
     - video/1ft4o9lQzsU
+    - video/2N2NhNH7dsk
     - video/BofJJPqgrTI
     - video/hn92Al_x-s8
     - video/mS6NDhj20yI
@@ -120,7 +122,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 7
+  video: 8
   blog: 4
   guideline: 0
 bc_forms:
@@ -131,14 +133,33 @@ bc_forms:
   - 9666
   - 9670
 member_hash: c964d1ff327cfc1561fe3fc25ffa543c57303f23bcfb60bc9a45989aaa758f30
-narrative: none
+narrative: generated
 ---
 
 # Develop report layouts
 
-> Learn section Analytics, business intelligence, and reporting > Develop reports > Develop report layouts: 9 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Report layout development in Business Central: layout types (Word, Excel, RDLC, external, composite), designing and mapping fields, themes and header/footer layouts, choosing the layout a report uses, and available fonts. It answers how to create, edit, import, export and assign report layouts.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report layouts · tier official · system reporting · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report layouts · tier official · system reporting · narrative reviewed by Opus
+
+## Overview
+
+Report layouts control the content and format of reports and documents. Business Central supports Word, RDLC, Excel and external layouts, plus composite layouts that combine a reusable theme with header/footer layouts. The overview page explains these types and is the best place to begin.
+
+The remaining pages cover the work by layout type. Word layouts can be designed with the Business Central add-in or by mapping content controls manually in the XML Mapping pane. Excel layouts use formulas, PivotTables, PivotCharts and multiple worksheets. RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension. A getting-started page covers copying, exporting, importing and validating layouts and managing their status.
+
+Two pages cover applying layouts: one on setting the default layout per company or switching it from the report request page, and one on setting up themes and header/footer layouts for consistent branding. A reference page lists the preinstalled fonts available for Excel, Word, RDLC and barcodes.
+
+## Key points
+
+- Layout types: Word, RDLC, Excel and external, plus composite layouts that combine reusable themes and headers/footers.
+- Get started: choose a layout type, copy or export an existing layout, modify it in Word or Excel, import and validate it, and manage its status.
+- Word design: the Business Central add-in adds report fields, builds repeating data tables, hides content conditionally and adds layout comments without manual XML editing.
+- Manual Word mapping uses the XML Mapping pane for content controls, repeating rows, image fields and label mapping.
+- Excel layouts support formulas, PivotTables, PivotCharts and multiple worksheets, with a data sheet holding report data.
+- RDLC layouts are advanced designs built in SQL Server Report Builder or the Visual Studio RDLC Report Designer; RDL and RDLC files are supported.
+- Layout selection: set a default per company, pick one temporarily on the report request page, or manage them in the Report Layouts and Report Layout Selection pages.
+- Themes and header/footer layouts resolve independently, with priority from layout-specific to company and global defaults, and use a part status workflow.
 
 ## Learn pages
 
@@ -162,6 +183,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
+- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Layout status control; Layout lifecycle states; Layout administrator control"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "translatable reports; excel layouts; power query; api integration"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced Document Reporting; document layout; table builder"

@@ -1,0 +1,36 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
+  "input_hash": "8ec2a84301575f7208afc437979ce44dfe02ff2c704b3ccd584557a0687c3367",
+  "summary": "Integrating Business Central with Power Apps: how to build apps on Business Central data, best practices for canvas apps, sample apps on GitHub, and application lifecycle management for Power Platform solutions. It answers questions on design, development and delivery of Power Apps solutions.",
+  "overview": "This area covers using Power Apps with Business Central data. The introductory page describes what the integration allows: custom UI, AI Builder, augmented and mixed-reality technologies, a mobile app, and Teams integration.\n\nFor development guidance, the best practices page covers canvas apps: multi-environment handling, telemetry, error handling, explicit column selection, localization, currency support, image management, and when Power Apps is the right choice. The sample apps page points to GitHub repositories with example apps that show these practices.\n\nFor delivery, the application lifecycle management page explains how to keep AL and Power Platform artifacts in one repository using the Al-Go for GitHub template. Start with the overview page, then read the best practices, and look at the samples before setting up lifecycle workflows.",
+  "key_points": [
+    "Power Apps can use Business Central data for custom UI, AI Builder, augmented and mixed-reality scenarios, the mobile app, and Teams integration.",
+    "Best practices for canvas apps include multi-environment support, telemetry configuration, and error handling patterns.",
+    "Use explicit column selection when building canvas apps against Business Central.",
+    "Best practices also cover multi-language support, currency formatting, image management, and deciding when to use Power Apps.",
+    "Sample apps in GitHub repositories include a warehouse helper app, a take order app, and a coffee MR app with mixed reality capabilities.",
+    "Application lifecycle management stores AL and Power Platform artifacts in a single repository using the Al-Go for GitHub template.",
+    "Al-Go workflows listed are CI/CD, Create Release, Publish to Environment, Pull Power Platform changes, and Push Power Platform changes."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:10:00.819Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011654999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:26:57.247Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: 'Power Apps can use Business Central data for ... the mobile app' slightly overstates the source wording. The page only lists 'mobile app' as a feature, without saying how it relates to Business Central data. Acceptable.",
+      "Minor: the reading order in the overview (overview, best practices, samples, then lifecycle workflows) is the writer's own advice, not something the pages say. It is harmless navigation guidance."
+    ],
+    "input_hash": "8ec2a84301575f7208afc437979ce44dfe02ff2c704b3ccd584557a0687c3367",
+    "cost_usd": 0.0348072
+  }
+}

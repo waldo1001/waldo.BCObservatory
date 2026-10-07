@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/service-management/service-management-analytics",
+  "input_hash": "f85e2c0741bfaab46981613ac9433e0242d74487059b31a9a81cd6060b6df4fa",
+  "summary": "Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.",
+  "overview": "This area is about measuring and reviewing service management work. The own page, Service statistics, explains how to analyze service documents and judge performance across contracts, items, quotes, orders, invoices, and credit memos. It uses trendscapes and gain/loss analysis, and it also mentions sustainability metrics.\n\nThe Service management reports subtopic is the reference part. It has 37 pages, one for each analytic, test, and document report. They cover service contracts, contract quotes, service orders, service items, resources, and profitability.\n\nStart with Service statistics for an on-screen view of how service operations are doing. Go to the reports subtopic when you need a printable or document-style output, or when you need to know what a specific report contains and which options it has.",
+  "key_points": [
+    "Service statistics lets you analyze service documents and evaluate service management performance.",
+    "Statistics cover contracts, items, quotes, orders, invoices, and credit memos.",
+    "Trendscape analysis and gain/loss tracking are available, along with contract analysis.",
+    "Service item statistics are part of the statistics features.",
+    "Sustainability metrics are listed among the service statistics features.",
+    "The Service management reports subtopic has 37 reference pages.",
+    "Reports are grouped as analytic, test, and document reports.",
+    "Report topics include service contracts, contract quotes, service orders, service items, resources, and profitability."
+  ],
+  "members_used": 1,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:07:50.409Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008751
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:15:32.951Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview calls Service statistics an \"on-screen view\" and says reports suit \"printable\" output. The summaries don't say either of these. Both are reasonable guesses, but neither is stated.",
+      "Key point 7 says the reports are \"grouped\" as analytic, test, and document reports. The subtopic summary only says it has a page for each report of those types. It doesn't say the pages are grouped that way, though the wording is close enough to accept."
+    ],
+    "input_hash": "f85e2c0741bfaab46981613ac9433e0242d74487059b31a9a81cd6060b6df4fa",
+    "cost_usd": 0.0203712
+  }
+}

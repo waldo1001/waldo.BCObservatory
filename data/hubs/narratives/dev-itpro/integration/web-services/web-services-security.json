@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/integration/web-services/web-services-security",
+  "input_hash": "f5d038b53afc37737913ac6d800d4cedf5ff85d2fec9bb7b3096f5a2daf61d9c",
+  "summary": "Web services security in Business Central covers authentication options (basic, OAuth, service-to-service), certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags. It answers questions on securing OData and SOAP endpoints and API integrations.",
+  "overview": "This section explains how to secure access to Business Central web services. The main Web service security page gives best practices and lists the authentication options: basic authentication, OAuth, service-to-service authentication, and certificate-based security. Start there to choose an approach.\n\nDetailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts, user impersonation, service-to-service use, and token lifetimes, and a walkthrough builds a console application that gets tokens through Microsoft Entra ID to call OData. The service-to-service page covers unattended integrations with the client credentials flow. For on-premises, a page covers X.509 certificates and chain trust. Two further pages cover supported cipher suites for outgoing HTTPS calls and the Dynamics365BusinessCentral Azure service tag for firewall and network security group rules.",
+  "key_points": [
+    "Authentication options include basic authentication, OAuth, service-to-service authentication, and certificate-based security.",
+    "OAuth 2.0 for OData and SOAP supports user impersonation and service-to-service scenarios, with access and refresh token lifetime management.",
+    "Service-to-service authentication uses the OAuth 2.0 client credentials flow for unattended integrations and requires a Microsoft Entra registration.",
+    "S2S permissions named in the docs include API.ReadWrite.All and Automation.ReadWrite.All; the page references versions 17.0, 18.3, 18.11 and 19.5.",
+    "The walkthrough builds a console app using Microsoft Entra ID, Visual Studio, delegated permissions, and the OData V4 endpoint.",
+    "On-premises security certificates use X.509 with chain trust or peer trust, including Server and Client Authentication and SSL for web services.",
+    "The Dynamics365BusinessCentral Azure service tag restricts network access to and from Business Central through firewall and network security group rules.",
+    "A separate page lists the TLS protocols and cipher suites supported for outgoing HTTPS calls to external APIs."
+  ],
+  "members_used": 7,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:53.111Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014699
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:43.200Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point listing S2S versions 17.0, 18.3, 18.11 and 19.5 matches the source, but it doesn't say what changed in each version, so it's of little use to an agent. Consider dropping it or folding the permission names into the S2S point.",
+      "Minor: 'requires a Microsoft Entra registration' goes slightly beyond the source, which lists Microsoft Entra registration only as a feature. It's still a reasonable reading for the client credentials flow."
+    ],
+    "input_hash": "f5d038b53afc37737913ac6d800d4cedf5ff85d2fec9bb7b3096f5a2daf61d9c",
+    "cost_usd": 0.035163200000000006
+  }
+}

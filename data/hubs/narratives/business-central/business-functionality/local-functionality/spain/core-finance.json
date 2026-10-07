@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/spain/core-finance",
+  "input_hash": "1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44",
+  "summary": "Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.",
+  "overview": "This section collects the Spain-specific finance procedures in Business Central. They cover chart of accounts upkeep, how transactions are numbered and posted, the reports required by tax authorities and auditors, and year-end closing.\n\nStart with the Transaction numbers page, which explains how sequential numbers group entries by document number and date. The posting and printing page builds on it. Chart of accounts pages (indenting and validating, ignoring discounts) cover setup. Reporting pages cover account books, sales and purchase invoice books, and ASC export. The income statement page covers year-end closing.",
+  "key_points": [
+    "Transaction numbers group entries with the same document number and date for balancing, and start at 2 each fiscal year because 1 is reserved for the opening transaction.",
+    "Journal posting uses sequential numbering, and the Set Period Transaction No. action supports printing all transactions of a period for tax authorities.",
+    "The chart of accounts can be indented and validated to build the account hierarchy and check accuracy.",
+    "A General Ledger account can be set with the Ignore Discounts checkbox so it does not accept payment or invoice discounts.",
+    "Account book reports show general ledger entries by transaction or summary, with options for first page number, additional currency, opening and closing transaction descriptions, and account type filtering.",
+    "Sales and Purchase Invoice Book reports list documents for a period, with additional currency, invoice or credit memo filtering, and ordering by posting date.",
+    "The Close Income Statement batch job closes income statement balances at year end using a balancing account, and covers retained earnings, business units, and dimensions.",
+    "Balance sheet and profit/loss annual reports can be exported to ASC format for tax authorities."
+  ],
+  "members_used": 8,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:05:44.874Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013665
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:21:21.075Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 says the Set Period Transaction No. action is what supports printing all transactions of a period. The source lists this action as a feature of the post-and-print page but does not say exactly what it does. The claim is a reasonable reading of the page, not a direct statement from it.",
+      "The overview says the posting and printing page builds on the Transaction numbers page. That is a reading-order suggestion inferred from the shared topic, not something the sources state. It is harmless."
+    ],
+    "input_hash": "1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44",
+    "cost_usd": 0.0336752
+  }
+}

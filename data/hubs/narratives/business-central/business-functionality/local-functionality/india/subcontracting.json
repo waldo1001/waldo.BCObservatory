@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/business-central/business-functionality/local-functionality/india/subcontracting",
+  "input_hash": "8fdc4692c712999bdaa59e3ba7551eaf2238ec443a6c4e0850d00a9e10dcfd3b",
+  "summary": "Subcontracting in the India localization of Business Central: setup of locations, vendors and items, creating subcontracting orders from released production orders, sending materials by delivery challan, GST liability, and job work reports. It answers how-to questions about the subcontracting process.",
+  "overview": "Subcontracting for the Indian localization lets a manufacturer send raw materials to a subcontractor under a delivery challan, receive the processed goods back, and handle GST liability when materials are not returned within the job work return period.\n\nThe pages follow the process in order. Start with Setting Up Subcontracting (location, vendor and item setup, return period). Then Sub-Contracting Order Creation covers the worksheet-based order flow, material issue and receipt. Create GST Liability covers challans whose materials were not returned in time. Sub Contracting Reports describes the Delivery Challan and Stock Register for Job Work reports for review.",
+  "key_points": [
+    "Setup covers subcontracting location, vendor and item, plus the job work return period.",
+    "Subcontracting orders require a released production order.",
+    "The subcontracting worksheet is used to create subcontracting orders.",
+    "Materials are issued to the subcontractor with a delivery challan, which carries a challan number and date.",
+    "Receipt from the subcontractor includes vendor shipment tracking and quantity acceptance.",
+    "GST liability is created for delivery challans when materials are not returned within the specified period.",
+    "The Delivery Challan report lists raw materials sent to vendors.",
+    "The Stock Register for Job Work report tracks job work transfers, consumption entries and GST liability."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:04:20.952Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010062999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:25:24.463Z",
+    "verdict": "approve",
+    "issues": [
+      "The split of content between the two reports is a little inferred. The page summary says the two reports together cover raw materials sent to vendors and GST liability tracking. It does not say which report holds which content. The split in the narrative is plausible but not explicitly stated.",
+      "The key point that the challan carries a number and date combines feature tags from two pages: the challan number comes from Sub Contracting Reports and the challan date from Sub-Contracting Order Creation. This is acceptable."
+    ],
+    "input_hash": "8fdc4692c712999bdaa59e3ba7551eaf2238ec443a6c4e0850d00a9e10dcfd3b",
+    "cost_usd": 0.0243152
+  }
+}

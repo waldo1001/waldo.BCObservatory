@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+  "input_hash": "15be478fff605100b7c8ce497ee60aa4c1529a9096bb17ccb3bcdf8c8086d17f",
+  "summary": "Payment reconciliation in Business Central: importing bank statements or bank feeds, applying payments automatically to open customer and vendor entries, and reconciling bank accounts. It answers questions on automatic application, match confidence, Text-to-Account mapping, manual review, and handling unmatched or differing amounts.",
+  "overview": "This section covers how to reconcile bank accounts and apply payments using the Payment Reconciliation Journal. You import a bank statement or use a bank feed, and Business Central matches payments to open invoices automatically using payment application rules and a match confidence level.\n\nThe pages follow the workflow. Start with \"Reconcile bank accounts and apply payments\" for the overall process, then \"Reconcile payments using automatic application\" for the details of automatic matching. After that, use the review page to check results and fix applications on the Payment Application page, and the remaining two pages for cases that automatic matching does not cover: recurring payments and payments with no matching document or with amount differences.",
+  "key_points": [
+    "The Payment Reconciliation Journal imports bank statements or bank feeds and automatically applies payments to open customer and vendor entries.",
+    "Automatic application uses payment application rules and a match confidence level to match payments to open entries.",
+    "Text-to-Account mapping posts recurring payments directly to specified debit and credit accounts when match confidence is Low or Medium.",
+    "The Payment Application page lets you review automatic results and manually apply or reapply payments to open entries.",
+    "Manual application covers split payments, currency conversion, and payment discounts, and the page also includes a candidate lookback days parameter.",
+    "The Transfer Difference to Account feature handles payments with no matching document or with amount differences.",
+    "The same journal is used both to apply payments and to reconcile bank accounts."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:14.406Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011493
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:23:48.170Z",
+    "verdict": "fix",
+    "issues": [
+      "The key point about the 'candidate lookback days parameter' only says the parameter is mentioned. It doesn't help an agent, and the summaries never say what the parameter does. I folded it into the manual application point as a listed feature and didn't describe its behavior.",
+      "'Finish by reconciling the bank account once payments are applied' states a workflow order the summaries don't give. They only list bank reconciliation as a feature alongside payment application. I reworded it as a capability.",
+      "'Reports a match confidence for each match' goes slightly beyond the sources, which only list match confidence as a feature. I softened the wording.",
+      "The summary and overview are supported by the page summaries and are left unchanged."
+    ],
+    "input_hash": "15be478fff605100b7c8ce497ee60aa4c1529a9096bb17ccb3bcdf8c8086d17f",
+    "cost_usd": 0.038075200000000003
+  }
+}

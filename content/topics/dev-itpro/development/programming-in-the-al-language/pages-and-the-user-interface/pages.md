@@ -2,20 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages
 type: topic
 title: Pages
-summary: "Learn section Development > Programming in the AL language > Pages and the user interface > Pages: 33 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "AL page development in Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), field layout and formatting, FactBoxes, tiles, Tell me discoverability, teaching tips, Power BI embedding, and Copilot prompt dialogs. Answers how to design and build pages in AL."
 tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T02:16:02.405Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
+  prompts:
+    hub-topic: 1
+  input_hash: c2027d984cf9999e4cf9dd51358fe3d60147c733494f8344f360c1df1a99fdeb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality
@@ -290,6 +291,9 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/1756
+    - post/aardvarklabs-blog/2063
+    - post/demiliani-com/12439
     - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736
   guidelines: []
 learn_toc_path:
@@ -304,18 +308,37 @@ coverage:
   learn: 33
   code: 0
   video: 0
-  blog: 1
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
-narrative: none
+narrative: generated
 ---
 
 # Pages
 
-> Learn section Development > Programming in the AL language > Pages and the user interface > Pages: 33 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> AL page development in Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), field layout and formatting, FactBoxes, tiles, Tell me discoverability, teaching tips, Power BI embedding, and Copilot prompt dialogs. Answers how to design and build pages in AL.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Pages · tier official · system development · no narrative yet
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Pages · tier official · system development · narrative reviewed by Opus
+
+## Overview
+
+This section covers how to build the user interface of Business Central in AL. It starts with the basics: the Pages overview, the Page object, Page types and layouts, and the Page extension object. Simple card and list examples show working code for Customer pages.
+
+Design pages then go deeper by page type: card and document pages, list pages, tiles and field groups, indented hierarchy lists, repeater controls, and parts (ListPart, CardPart, HeadlinePart, Power BI parts, FactBoxes). Layout pages explain FastTabs, the grid control, the fixed control, field formatting, tooltips, and rich text. Further pages cover assisted setup guides, custom filter tokens, and the AI-oriented dialogs: PromptDialog, prompt guides, error handling in prompt dialogs, and the ConfigurationDialog preview.
+
+Help users find and learn pages with Tell me (UsageCategory), page discoverability, teaching tips and in-app tours. A good start is Pages overview, then Page types and layouts, then the specific page type you need.
+
+## Key points
+
+- Page types include Card, List, Document, Worksheet, RoleCenter, NavigatePage, PromptDialog and ConfigurationDialog (preview); Page types and layouts explains which suits which task.
+- Page parts (ListPart, CardPart, HeadlinePart, Power BI report parts) embed data from other tables and can be used in Role Centers, FactBoxes and document pages, often linked with SubPageLink.
+- Layout options: FastTabs with the Importance property, grid control (GridLayout), fixed control for matrix layouts, repeater properties like Width and FreezeColumn, and indentation properties for hierarchy lists.
+- Tiles are customized with a Brick field group; DropDown and Brick field groups are defined on tables and table extensions.
+- Tooltips can be defined on table fields (from 2024 release wave 1) and are inherited by pages, with overrides allowed; CodeCop warning AA0234 applies.
+- Set UsageCategory (and AdditionalSearchTerms) to make pages and reports searchable in Tell me and visible in the role explorer.
+- Teaching tips use AboutTitle and AboutText; assisted setup guides use NavigatePage; custom filter tokens use the OnResolveTextFilterToken event.
+- PromptDialog pages (runtime 12.1) provide Copilot experiences with prompt, content, options, system actions and prompt guide areas; errors can display inline (2024 release wave 2).
 
 ## Learn pages
 
@@ -357,6 +380,9 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Drag and drop fields onto pages, adjust properties, and show/hide actions"
+- [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
+- [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736.md) (community post): "ToolTip and ToolTipML can now be defined at the page object level in AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

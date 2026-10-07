@@ -1,0 +1,37 @@
+{
+  "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
+  "input_hash": "2395a0a94a5da5b28f9b0423219f96bc9304c72786f4dfa888d49406465cbc64",
+  "summary": "Background processing in AL for Business Central: the job queue, page background tasks, and the task scheduler, plus operational limits for background sessions, child sessions and scheduled tasks. It helps answer which mechanism to use, how to set it up, and how errors and limits are handled.",
+  "overview": "This section covers the ways AL code can run work outside the user's foreground session. Three mechanisms are described: the job queue, which lets end users schedule background jobs with recurring options; page background tasks, which run read-only computations for a page without blocking the user; and the task scheduler, which runs codeunits and reports at a specific date and time in a background session.\n\nStart with the Async processing overview, which sets out the operational limits for background sessions, child sessions and scheduled tasks in online and on-premises environments. Then pick the page that matches your scenario: Job queue for user-scheduled and recurring jobs, Page Background Tasks for page responsiveness, and Task scheduler for programmatic scheduling with retry and failure handling. A subtopic holds the AL language reference pages (3 pages) for the related methods and types.",
+  "key_points": [
+    "The Async processing overview documents operational limits for background sessions, child sessions and scheduled tasks, online and on-premises.",
+    "Job queue gives end users a way to schedule background jobs with recurring options. The page covers the job queue flow, dispatcher codeunit, error handler, parameter passing and permissions.",
+    "Page Background Tasks run read-only computations or long processes asynchronously so pages stay responsive.",
+    "Page background tasks use parent and child sessions, and take input through dictionary parameters.",
+    "Page background tasks support timeout configuration, error levels (Ignore, Warning, Error), re-enqueuing and conditional cancellation.",
+    "Task scheduler runs codeunits and reports at a set date and time in a background session.",
+    "Task scheduler methods include CreateTask, SetTaskReady, TaskExists and CancelTask.",
+    "Task scheduler handles retriable exceptions for transient errors and uses failure codeunits when a task fails."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:08:49.580Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011809
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:22:30.865Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the summary's phrase 'how to set it up' is a little vague. The page summaries cover flows, methods and parameters but don't describe setup steps as such.",
+      "Minor: the Job queue summary mentions an abstraction layer, which the narrative leaves out. This is an omission, not an error."
+    ],
+    "input_hash": "2395a0a94a5da5b28f9b0423219f96bc9304c72786f4dfa888d49406465cbc64",
+    "cost_usd": 0.0265352
+  }
+}

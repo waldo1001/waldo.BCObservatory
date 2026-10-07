@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/business-functionality/project-management/project-management-analytics/built-in-project-reports",
+  "input_hash": "e0f3c5f502a006eadc7bed48d0b5d66ce182962c01f7ac0891864ad4375216bd",
+  "summary": "Built-in project reports in Business Central cover quotes, budget comparison, billing, WIP, item usage, journals, registers, and resource reports. Use it to find which report answers a question about project costs, invoicing, planning lines, or resource capacity and usage.",
+  "overview": "This section lists the standard reports available for project management in Business Central. The Project Reports page is the entry point. It describes the reporting tools for analyzing current and past project activity and points to the Report Explorer. The other pages each describe one report, its filters and what it shows.\n\nThe reports fall into a few groups. Quotes: Job Quote and Job Task Quote. Financial analysis: Project Actual to Budget, Project Analysis, Project WIP to G/L, Project Suggested Billing and Projects per Customer. Detail and planning: Project Planning Lines, Project Task Transaction Detail, Items per Project and Project per Item. Registers and journals: Project Journal - Test and Project Register. Resource reports: Resource - List, Resource Register, Resource - Cost Breakdown, Resource Statistics and Resource Utilization.\n\nStart with Project Reports to get the overall picture, then open the page for the report you need to check its filters and fields. Several reports let you choose the currency.",
+  "key_points": [
+    "Job Quote produces a customer-facing quote for a project. It can be filtered by project number, planning date and project task, and it leaves out budget-type lines.",
+    "Job Task Quote produces a quote for a single project task. It shows billable planning lines and the total project value, and leaves out budget lines.",
+    "Project Actual to Budget compares scheduled and used amounts (quantity, total cost, line amount). Project Analysis compares schedule, usage, contract and invoiced amounts through selectable amount fields.",
+    "Project Suggested Billing lists invoiced and remaining-to-invoice amounts by customer. Projects per Customer groups projects by bill-to customer and shows scheduled price, completion percentage and invoiced amounts, with subtotals.",
+    "Project WIP to G/L compares the work in process value on selected projects with the amount posted in the general ledger.",
+    "Items per Project and Project per Item give item overviews with accumulated cost values and support custom filtering.",
+    "Project Register can be set to print automatically when you post from project journal templates. Project Journal - Test shows journal lines, optionally with dimensions.",
+    "Resource reports: Cost Breakdown (new page per resource, posting date filter), Statistics (usage and sales amounts, percentage invoiced), Utilization (capacity, usage and balance in base unit of measure), List and Register."
+  ],
+  "members_used": 19,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:00.032Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019944999999999997
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T02:17:23.066Z",
+    "verdict": "approve",
+    "issues": [
+      "Summary: in the second sentence, 'Use it' has no clear subject. Naming the reports would read better, for example 'Use these reports to find...'.",
+      "Key points don't cover Project Planning Lines (planning lines by task, line type, quantities, unit of measure, total costs) or Project Task Transaction Detail (posted tasks with resource and item costs, sales and line discounts). Both appear only in the overview grouping.",
+      "The Resource Statistics point doesn't say that amounts are shown in local currency. This is a small omission, not an error."
+    ],
+    "input_hash": "e0f3c5f502a006eadc7bed48d0b5d66ce182962c01f7ac0891864ad4375216bd",
+    "cost_usd": 0.04679520000000001
+  }
+}

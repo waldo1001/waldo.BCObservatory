@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+  "input_hash": "9c8fe19390610c9cf332be597c16c4c240fa04a172b2eb4e5ea71caeee09b77f",
+  "summary": "The Performance Profiler section covers recording and analyzing business process performance in the Business Central client, and scheduling profiling for specific users and activity types. It answers questions about finding bottlenecks, reading call trees and time spent, and sharing or downloading profiles.",
+  "overview": "The Performance Profiler helps find why a business process is slow. It records snapshots of all apps and objects involved and shows time spent and call trees, so you can see where the bottleneck is. Profiles can be shared and downloaded.\n\nThe scheduled profiler extends this for administrators. Instead of recording by hand, an administrator creates a profiling schedule for specific users and activity types, so slow processes are captured and diagnosed when they happen. Results can be viewed as analysis or downloaded as profiles.\n\nStart with the Performance Profiler overview to learn the basic recording and analysis flow. Then read the scheduled profiler overview if you need to monitor users over time. The scheduled profiler is marked as prerelease (runtime 18, version 29).",
+  "key_points": [
+    "The profiler records snapshots of all apps and objects involved in a business process.",
+    "Results show time spent and call trees to identify performance bottlenecks.",
+    "Profiles can be shared and downloaded.",
+    "Administrators can create profiler schedules for specific users and activity types.",
+    "Schedules support settings for sampling frequency and an activity duration threshold.",
+    "Scheduled profiles can be viewed as analysis with performance metrics or downloaded.",
+    "The scheduled profiler is prerelease, tied to runtime 18 and version 29."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-07T02:03:36.303Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009091
+  }
+}

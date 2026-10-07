@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-word
 type: topic
 title: Integrating with Microsoft Word
-summary: "Learn section Integration > Integrating Business Central with Office apps and Microsoft 365 > Integrating with Microsoft Word: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Integrating Business Central with Microsoft Word covers two tasks: mapping report data fields into Word layouts with the XML Mapping pane, and using Word templates to merge entity data into bulk communications for customers, vendors, and contacts. It answers how-to questions on custom report layouts and template-based documents."
 tier: official
 language: en
 system: integration
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-07T02:32:59.251Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 45ea8e5914f82b3e0f0eb2aa15e40f00f0aaae204120c7e6916381e5025bf59a
+  prompts:
+    hub-topic: 1
+  input_hash: 3177afe7a14155277b968979c201bc302f8c824f26030400f9219dded43290ae
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
@@ -59,14 +60,30 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 45ea8e5914f82b3e0f0eb2aa15e40f00f0aaae204120c7e6916381e5025bf59a
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Microsoft Word
 
-> Learn section Integration > Integrating Business Central with Office apps and Microsoft 365 > Integrating with Microsoft Word: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Integrating Business Central with Microsoft Word covers two tasks: mapping report data fields into Word layouts with the XML Mapping pane, and using Word templates to merge entity data into bulk communications for customers, vendors, and contacts. It answers how-to questions on custom report layouts and template-based documents.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Word · tier official · system integration · no narrative yet
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Word · tier official · system integration · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section covers two uses of Word with Business Central. The first is report design: you add report data to a Word layout by mapping content controls through the XML Mapping pane. The second is communication: you build Word templates that pull data from Business Central entities and produce personalized documents in bulk.
+
+The two pages are independent. Start with "Map Data Fields in Word Layouts" if you are customizing how a report looks. Start with "Using Word templates for bulk communications" if you want to send tailored documents to customers, vendors, or contacts.
+
+## Key points
+
+- The XML Mapping pane is used to manually map content controls in a Word report layout.
+- Word layouts can include repeating rows and image fields, and labels can be mapped too.
+- Word templates merge data from Business Central entities into personalized documents.
+- Templates can use both related and unrelated entities as data sources.
+- You select which fields from the entities to make available as merge fields.
+- Templates are designed for bulk communications with customers, vendors, and contacts.
+- The template page mentions uploading templates and email integration.
 
 ## Learn pages
 
