@@ -6,7 +6,7 @@
   "title": "fix(B2Brouter): Add missing Execute permissions on codeunits",
   "url": "https://github.com/microsoft/BCApps/pull/9040",
   "published_at": "2026-07-10T12:57:14Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix b2brouter add missing execute permissions on codeunits"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:18.092Z",
+  "retry_after": null
 }

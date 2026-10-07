@@ -6,10 +6,18 @@
   "title": "[Shopify] Create BC customer on order import when Shopify customer has no default address",
   "url": "https://github.com/microsoft/BCApps/pull/9188",
   "published_at": "2026-07-09T15:50:03Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:30.387Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "ebe25d8fdc08c41fb1f4b263bc9dc521536f7fc8:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify create bc customer on order import when shopify customer has no default address"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e98444f472067e211a1e7122fc51f4f566ab6a80a8d6b601819478a3a5f4c6a8"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8871",
+  "number": 8871,
+  "title": "Issue#7867: Removed the access restriction for procedures in the confirmation window.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Add Item Confirm page now allows unrestricted access to its procedures, eliminating the need for app developers to create a copy of the page.",
+  "key_points": [
+    "Access restriction for procedures in page 30144 was removed",
+    "Page has no source table and is a standard dialog type",
+    "Enables use without requiring a copy object in extensions",
+    "Minor change with minimal impact",
+    "Related to facade codeunit procedures being added separately"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "This change allows us to use the confirmation window without any restrictions, eliminating the need to add a copy object to our app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003369,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "Standard/Evaluation DemoTool smoke test in Legacy CI",
   "url": "https://github.com/microsoft/BCApps/pull/9178",
   "published_at": "2026-07-10T00:04:33Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "standard evaluation demotool smoke test in legacy ci"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:20:24.431Z",
+  "retry_after": null
 }

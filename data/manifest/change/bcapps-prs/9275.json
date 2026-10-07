@@ -6,10 +6,35 @@
   "title": "[ALAppExtensions #30250] Matrix Management: reorder OnFormatRoundingFactor Signature",
   "url": "https://github.com/microsoft/BCApps/pull/9275",
   "published_at": "2026-07-10T10:09:30Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:20.358Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:25.062Z",
+      "prompt": "extract-change@1",
+      "kind": "breaking",
+      "behavior": false,
+      "cost_usd": 0.003333
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:25.207Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:25.212Z",
+      "path": "content/changes/bcapps/9275.md"
     }
   },
   "input_hash": "307c84b4c3a584bffe432ca88bd97da8202eb9af:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30250 matrix management reorder onformatroundingfactor signature"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fc0028193a5ed7de8aebfb5814abc39c48716caba6f2502cf911e0d4f4128c5e"
 }

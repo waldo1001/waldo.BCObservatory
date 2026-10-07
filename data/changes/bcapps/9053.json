@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9053,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9053",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-09T15:51:57Z",
+  "merge_commit_sha": "ed4e2747a87d293d4bbf13a1a29929382ca614e4",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[ALAppExtensions #30245][W1][Report][1701][Deferral Summary - Sales] Add integration event OnBeforeReturnSalesDocTypeString in ReturnSalesDocTypeString Procedure",
+  "body_hash": "e98fbcf3f7e82672df1cd178c4a34c64be890810bda7c5fd9288c669ba78d390",
+  "fixes_issues": [],
+  "work_items": [
+    639936
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Deferral/DeferralSummarySales.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 19,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Deferral/DeferralSummarySales.Report.al",
+        "status": "modified",
+        "key": "report/1701",
+        "type": "report",
+        "id": 1701,
+        "name": "Deferral Summary - Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1701"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[638695] Add Financial Report tables to always-logged list",
   "url": "https://github.com/microsoft/BCApps/pull/9142",
   "published_at": "2026-07-09T19:37:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:25.357Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:29.892Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003333
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:30.038Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:30.044Z",
+      "path": "content/changes/bcapps/9142.md"
     }
   },
   "input_hash": "ea8cf947ee85acbe46dd0520028c12b2a0c8c5e7:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "638695 add financial report tables to always logged list"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19c85c1e62c8cc61c46609e219705e084e3f6eb0018876429a92fd8ae62d1fb4"
 }

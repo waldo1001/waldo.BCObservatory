@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9291",
+  "number": 9291,
+  "title": "Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Cryptography Management system application now marks all encryption and decryption procedures with the NonDebuggable attribute to prevent AL debugger access to sensitive cleartext data.",
+  "key_points": [
+    "Four procedures in Cryptography Management codeunits receive the NonDebuggable attribute",
+    "EncryptText, Encrypt, and Decrypt procedures are now protected from debugger inspection",
+    "Prevents extraction of cleartext input and return values when procedures return Text instead of SecretText",
+    "Maintains confidentiality of encrypted and decrypted data",
+    "Follows existing System Application conventions for attribute placement"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "Added [NonDebuggable] to all four affected procedures",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003405,
+    "changes_in_call": 1
+  }
+}

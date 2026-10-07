@@ -6,10 +6,35 @@
   "title": "Support framework-dependent (flat) AL Language extension layout",
   "url": "https://github.com/microsoft/AL-Go/pull/2304",
   "published_at": "2026-07-10T11:12:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:19.203Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:24.158Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003916
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:24.160Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:20:24.163Z",
+      "path": "content/changes/al-go/2304.md"
     }
   },
   "input_hash": "6dbcc5b9bbaf98f47467db22701741f4a5b53167:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "support framework dependent flat al language extension layout"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2c4577dcec2ac347d51b740e1ba0c4de4885500ca389ad30296443106a83a76c"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9123",
+  "number": 9123,
+  "title": "Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Next Operation No. and Previous Operation No. fields on routing lines now automatically show when routing type is Parallel instead of remaining hardcoded invisible, eliminating the need for manual personalization.",
+  "key_points": [
+    "Fields visibility now binds to routing type: shows for Parallel, hides for Serial",
+    "Visibility can be controlled via SetParallelFieldsVisible setter on subform",
+    "Parent routing cards trigger visibility updates in OnAfterGetRecord and Type field OnValidate",
+    "Workaround no longer needed for ISV apps that previously personalized these fields manually",
+    "UI tests added to verify automatic field visibility"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003537,
+    "changes_in_call": 1
+  }
+}

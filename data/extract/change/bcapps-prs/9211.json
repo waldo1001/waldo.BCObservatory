@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9211",
+  "number": 9211,
+  "title": "[Shopify] Surface skipped records and sent JSONL for bulk price sync",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify bulk price sync now creates skipped records with error details when variants fail on Shopify, and stores sent JSONL data on bulk operations when logging is enabled for troubleshooting.",
+  "key_points": [
+    "Failed variants in bulk price sync now generate Shopify Skipped Records with Shopify error messages instead of silently reverting",
+    "Skipped records reference the linked BC Item Variant or Item to show users exactly which product failed and why",
+    "Sent JSONL payload is stored on bulk operation records when Logging Mode is set to All for troubleshooting",
+    "Download Sent Data action added to Shopify Bulk Operations page to retrieve the stored request JSONL",
+    "New Sent JSONL field with helper methods added to Shopify Bulk Operation table"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Every reverted variant gets a Shopify Skipped Record with the Shopify error message.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004311,
+    "changes_in_call": 1
+  }
+}

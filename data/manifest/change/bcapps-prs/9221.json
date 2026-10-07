@@ -6,10 +6,35 @@
   "title": "[Shopify] Uptake Admin GraphQL API to version 2026-07",
   "url": "https://github.com/microsoft/BCApps/pull/9221",
   "published_at": "2026-07-09T21:29:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:25.587Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:30.914Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004626
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:31.077Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:31.083Z",
+      "path": "content/changes/bcapps/9221.md"
     }
   },
   "input_hash": "108e78e5e08d81da2426adf8e70845751cd2fbc3:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify uptake admin graphql api to version 2026 07"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0832e786ee16ecc3d1444beb1d2eb2e19a3a8a690c20837df38ecb44381b8c46"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2304",
+  "number": 2304,
+  "title": "Support framework-dependent (flat) AL Language extension layout",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now supports framework-dependent AL Language extensions with flat internal layout by making path resolution aware of both nested and flat folder structures for altool, analyzers, and aldoc.",
+  "key_points": [
+    "Get-ALTool probes nested bin/win32 or bin/linux paths first, then falls back to flat bin folder",
+    "Get-CustomAnalyzers downloads to bin/Analyzers when present, otherwise to flat bin",
+    "DownloadAlDoc resolves aldoc in nested or flat bin locations",
+    "Enables workspace compilation with marketplace-packaged VSIX files that use flat layout",
+    "Mirrors BcContainerHelper's existing dual-layout support for consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003916,
+    "changes_in_call": 1
+  }
+}

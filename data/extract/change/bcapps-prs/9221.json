@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9221",
+  "number": 9221,
+  "title": "[Shopify] Uptake Admin GraphQL API to version 2026-07",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now supports the Admin GraphQL API version 2026-07 and handles market-driven shipping by reading shipping option names from market delivery settings instead of the deprecated merchant delivery profile APIs.",
+  "key_points": [
+    "Updated API version from 2026-01 to 2026-07 following Shopify's deprecation schedule",
+    "Added detection of market-driven shipping model through ShopFeatures.marketDrivenShipping",
+    "For market-driven shops, reads shipping option definitions from markets.delivery.shipping instead of deprecated deliveryProfiles",
+    "Added new GraphQL resources GetMarketShippingMethods and GetNextMarketShippingMethods with corresponding enum values",
+    "Added test coverage for the market-driven shipping path with sample responses"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Handles the one 2026-07 deprecation that would otherwise silently break merchants: market-driven shipping.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004626,
+    "changes_in_call": 1
+  }
+}

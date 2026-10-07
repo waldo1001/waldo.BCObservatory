@@ -6,10 +6,18 @@
   "title": "[ALAppExtensions #30245][W1][Report][1701][Deferral Summary - Sales] Add integration event OnBeforeReturnSalesDocTypeString in ReturnSalesDocTypeString Procedure",
   "url": "https://github.com/microsoft/BCApps/pull/9053",
   "published_at": "2026-07-09T15:51:57Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:31.251Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "ed4e2747a87d293d4bbf13a1a29929382ca614e4:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "alappextensions 30245 w1 report 1701 deferral summary sales add integration event onbeforereturnsalesdoctypestring in returnsalesdoctypestring procedure"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2e7e4c398e649babcd982377bb65dfa3f838a007f8256e4bd7c930a0d5f36e84"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/8924",
+  "number": 8924,
+  "title": "[QM] Fixed overflow runtime error",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "An overflow runtime error in Quality Inspection Header has been fixed with corresponding test coverage added.",
+  "key_points": [
+    "Fixes overflow runtime error in the Quality Inspection Header table",
+    "Test utility code added to support the fix validation",
+    "Comprehensive test case added to verify the fix and prevent regression"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002824,
+    "changes_in_call": 1
+  }
+}

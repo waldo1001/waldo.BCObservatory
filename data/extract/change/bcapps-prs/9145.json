@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9145",
+  "number": 9145,
+  "title": "[E-Document] Show PDF preview factbox on purchase invoice pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "integration"
+  ],
+  "summary": "A PDF preview factbox is added to purchase invoice pages to display the original invoice PDF linked to an inbound E-Document, appearing only when relevant and placed above the Incoming Documents factbox.",
+  "key_points": [
+    "PDF preview factbox added to Purchase Invoice, Purchase Invoices, Posted Purchase Invoice, and Posted Purchase Invoices pages",
+    "Preview is read-only and only visible when the invoice is linked to an E-Document with a PDF source file",
+    "Uses SubPageLink-driven approach with two wrapper CardParts to ensure reliable refresh on list and card pages",
+    "Connectivity and rendering logic centralized in E-Document Helper codeunit without duplicating code",
+    "No table schema changes or new stored data; purely additive UI enhancement"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "This adds a read-only PDF preview factbox to Purchase Invoice (51), Purchase Invoices (9308), Posted Purchase Invoice (138) and Posted Purchase Invoices (146).",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004672,
+    "changes_in_call": 1
+  }
+}

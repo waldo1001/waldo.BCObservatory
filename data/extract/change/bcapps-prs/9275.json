@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9275",
+  "number": 9275,
+  "title": "[ALAppExtensions #30250] Matrix Management: reorder OnFormatRoundingFactor Signature",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The OnAfterSetAmountDecimal event in Matrix Management codeunit has its parameters reordered so AmountDecimal appears first, aligning with related events. This requires external subscribers to update their parameter order.",
+  "key_points": [
+    "Parameter order of OnAfterSetAmountDecimal event changed to put AmountDecimal first",
+    "Aligns event signature consistency with related events",
+    "No runtime behavior change, pure refactor",
+    "External event subscribers must update parameter order",
+    "No table schema or data upgrade impact"
+  ],
+  "change_kind": "breaking",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003333,
+    "changes_in_call": 1
+  }
+}

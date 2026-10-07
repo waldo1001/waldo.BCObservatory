@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9179",
+  "number": 9179,
+  "title": "Contoso demodata renaming",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Variable and procedure names in the manufacturing routing demo data codeunit were renamed for consistency and clarity.",
+  "key_points": [
+    "Renamed variables and procedures in the manufacturing routing demo data creation",
+    "Affects the Contoso Coffee demo dataset",
+    "Improves naming consistency across the demo data module"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00282,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9007,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9007",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T00:43:13Z",
+  "merge_commit_sha": "25692e9089de09c87eecb93359754ec1e694cf94",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation"
+  ],
+  "community_contribution": false,
+  "title": "Skip automation on out-of-support branches",
+  "body_hash": "c3f104e32241e32ab8cbe340a4dfd9295dfa7b95246cbdf68fe1487934f84e7e",
+  "fixes_issues": [],
+  "work_items": [
+    641122
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 150,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9051",
+  "number": 9051,
+  "title": "[639592][ALAppExtensions #30277][Event Request] Codeunit 426 \"Payment Tolerance Management\" OnPmtTolGenJnlOnAfterCheckConditions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Codeunit 426 Payment Tolerance Management now exposes a new by-reference variant of the OnPmtTolGenJnlOnAfterCheckConditions event in the NL layer, allowing subscribers to modify general journal lines before payment tolerance processing continues.",
+  "key_points": [
+    "Adds OnPmtTolGenJnlOnAfterCheckConditions event with by-reference parameter for general journal lines",
+    "Subscribers can now change journal line data before sales or purchase path processing",
+    "Existing by-value event variant remains unchanged, avoiding breaking changes",
+    "Event only available in NL layer builds",
+    "No test required as this adds an extension point only"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003654,
+    "changes_in_call": 1
+  }
+}

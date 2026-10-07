@@ -1,0 +1,148 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9123,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9123",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T03:51:14Z",
+  "merge_commit_sha": "1c8f241d1bde5fd23287cd404a4ff2438a4ab7d6",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel",
+  "body_hash": "316ca09c6757bc5c43185296396cf76362c996a6038cd3f0406eec4c3624e065",
+  "fixes_issues": [],
+  "work_items": [
+    641489
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingLines.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingVersionLines.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/Routing.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingLines.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingVersion.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingVersionLines.Page.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 76,
+    "deletions": 8,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingLines.Page.al",
+        "status": "modified",
+        "key": "page/99000765",
+        "type": "page",
+        "id": 99000765,
+        "name": "Routing Lines",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/Routing.Page.al",
+        "status": "modified",
+        "key": "page/99000766",
+        "type": "page",
+        "id": 99000766,
+        "name": "Routing",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000766"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingLines.Page.al",
+        "status": "modified",
+        "key": "page/99000765",
+        "type": "page",
+        "id": 99000765,
+        "name": "Routing Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingVersion.Page.al",
+        "status": "modified",
+        "key": "page/99000810",
+        "type": "page",
+        "id": 99000810,
+        "name": "Routing Version",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000810"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingVersionLines.Page.al",
+        "status": "modified",
+        "key": "page/99000767",
+        "type": "page",
+        "id": 99000767,
+        "name": "Routing Version Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000767"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingVersionLines.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8924,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8924",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T10:14:32Z",
+  "merge_commit_sha": "a417c1610375486a8350158e9078ec0320378343",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Bug",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[QM] Fixed overflow runtime error",
+  "body_hash": "c132f78e59a4916a8bf3f4f785e4b85d8cdd7471c56cae12f01f0d772ba32523",
+  "fixes_issues": [],
+  "work_items": [
+    620337
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/Test Library/src/QltyInspectionUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsMisc.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 81,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Document/QltyInspectionHeader.Table.al",
+        "status": "modified",
+        "key": "table/20405",
+        "type": "table",
+        "id": 20405,
+        "name": "Qlty. Inspection Header",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20405"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9275,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9275",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-10T10:09:30Z",
+  "merge_commit_sha": "307c84b4c3a584bffe432ca88bd97da8202eb9af",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[ALAppExtensions #30250] Matrix Management: reorder OnFormatRoundingFactor Signature",
+  "body_hash": "cf8af59a14143552529d110ed354fd7bac59885d335b79a7bf9fbd8b43a9435f",
+  "fixes_issues": [],
+  "work_items": [
+    639939
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Analysis/MatrixManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Analysis/MatrixManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9200",
+        "type": "codeunit",
+        "id": 9200,
+        "name": "Matrix Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9200"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

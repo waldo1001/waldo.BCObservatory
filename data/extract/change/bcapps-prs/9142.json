@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9142",
+  "number": 9142,
+  "title": "[638695] Add Financial Report tables to always-logged list",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Financial Report tables are now added to the always-logged list so all changes to these tables are automatically tracked in the Change Log regardless of Change Log Setup configuration.",
+  "key_points": [
+    "16 Financial Report related tables added to IsAlwaysLoggedTable",
+    "Ensures inserts, modifications, and deletions are always tracked",
+    "Change Log captures all activity on these tables automatically",
+    "No configuration required for Financial Report table auditing"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003333,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Shopify] Expose Product facade procedures for Add to Shopify parity",
   "url": "https://github.com/microsoft/BCApps/pull/8713",
   "published_at": "2026-07-09T15:59:50Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:28.040Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "9436d2e18b7617a735d6160157e88e314544658a:c1",
@@ -32,5 +40,8 @@
     ],
     "community_contribution": true,
     "title_key": "shopify expose product facade procedures for add to shopify parity"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1475bcaff6dbf8b96d3db8562cc618606adc88b6711a51d6988e1eaede3d7f3a"
 }

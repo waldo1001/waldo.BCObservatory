@@ -6,10 +6,35 @@
   "title": "[639592][ALAppExtensions #30277][Event Request] Codeunit 426 \"Payment Tolerance Management\" OnPmtTolGenJnlOnAfterCheckConditions",
   "url": "https://github.com/microsoft/BCApps/pull/9051",
   "published_at": "2026-07-10T09:02:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:20.700Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:25.839Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003654
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:25.976Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:25.981Z",
+      "path": "content/changes/bcapps/9051.md"
     }
   },
   "input_hash": "e17bafd00be32b3d98ef9464a34b9da8cb696450:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "639592 alappextensions 30277 event request codeunit 426 payment tolerance management onpmttolgenjnlonaftercheckconditions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84f9ac120ab6f473dcffa198b1c73730417dcc6586184af359fed92cc295dd04"
 }

@@ -6,10 +6,35 @@
   "title": "Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel",
   "url": "https://github.com/microsoft/BCApps/pull/9123",
   "published_at": "2026-07-10T03:51:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:20:24.422Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 5,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:20:29.118Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003537
+    },
+    "linked": {
+      "at": "2026-10-07T13:20:29.308Z",
+      "objects": 5,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:20:29.341Z",
+      "path": "content/changes/bcapps/9123.md"
     }
   },
   "input_hash": "1c8f241d1bde5fd23287cd404a4ff2438a4ab7d6:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 641489 show next previous operation no on routing lines when type parallel"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f0e1954c5d4f80c9959890b4d1b22434e091519b2180eaa5fd4ca32b0a8bc53"
 }
