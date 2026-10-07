@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Adding help links from pages, reports, and XMLports",
+  "title": "Context-Sensitive Help Links for AL Objects",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports",
   "published_at": "2026-10-07T10:38:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.699Z",
-      "blob": "22056963730bd95436e4529a71c95adfd0453ff9",
-      "words": 160,
+      "at": "2026-10-07T18:13:40.002Z",
+      "blob": "eb760885c42ebae2fd86b3e1aeba128549fb198d",
+      "words": 153,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:02.700Z",
+      "at": "2026-10-07T18:13:48.958Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003352
+      "cost_usd": 0.003648
     },
     "summarized": {
-      "at": "2026-10-06T19:35:02.718Z",
+      "at": "2026-10-07T18:13:48.959Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:02.719Z",
+      "at": "2026-10-07T18:13:48.961Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:02.720Z",
+      "at": "2026-10-07T18:13:48.964Z",
       "page": false
     }
   },
@@ -44,15 +44,15 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports.md",
-    "description": "This article shows how to specify the Help link on pages, reports and XMLports in AL for Business Central.",
-    "ms_date": "2022-05-23",
+    "description": "Learn how to use the ContextSensitiveHelpPage property in AL to connect pages, queries, and request pages to context-sensitive Help.",
+    "ms_date": "2026-10-06",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 160
+    "words": 153
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e0a926d9468461c0385857e74668d727c3edbea18b8a0b3ad2fd1d07e1a72fe"
+  "output_hash": "2a77a4a1942c110e9ac707adc3640d4acf0327d851154e8ff0612c1d081a9394"
 }

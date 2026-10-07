@@ -2,26 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/triggers-auto/devenv-triggers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/devenv-triggers",
   "title": "Triggers overview",
-  "blob": "fa416d7ae73848728ca2686251ceb599ea2dca48",
-  "summary": "Triggers overview documents how triggers activate methods when events occur on AL objects and controls, useful for validations, calculations, and data retrieval control.",
+  "blob": "de1282bcdd59dd0f9ed779567d659648a0b04e22",
+  "summary": "Triggers overview explains how triggers work in Business Central AL development, allowing methods to execute when predefined events occur on objects or controls for calculations and validations.",
   "systems": [
     "development"
   ],
   "topics": [
     "triggers",
-    "event handlers",
-    "al programming",
-    "object events",
-    "control events"
+    "al development",
+    "events",
+    "methods",
+    "coding"
   ],
   "objects": [],
   "features": [
+    "Trigger syntax",
     "Object-level triggers",
     "Control-level triggers",
+    "Field triggers",
     "Table triggers",
     "Report triggers",
-    "Page triggers",
-    "Data item triggers"
+    "Data item triggers",
+    "Snippet support"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006178,
-      "pages_in_call": 8
+      "cost_usd": 0.005843,
+      "pages_in_call": 1
     }
   ]
 }

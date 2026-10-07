@@ -2,24 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/properties/devenv-properties.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-properties",
   "title": "AL Properties Overview for Business Central",
-  "blob": "36977867c447127747d9ec2e87ba6eab6b59faef",
-  "summary": "AL Properties Overview documents properties that control behavior of AL objects and elements like fields, actions, and columns, with syntax and examples for different object types.",
+  "blob": "bc0ce180676178427cfd105ee266e81b11a74097",
+  "summary": "AL Properties Overview documents how properties control the behavior of AL objects and their elements such as fields, actions, data items, and columns in Business Central development.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
-    "properties",
-    "al",
-    "object configuration",
-    "fields",
-    "syntax"
+    "al properties",
+    "object properties",
+    "element properties",
+    "syntax",
+    "al development"
   ],
   "objects": [],
   "features": [
-    "Property syntax",
-    "Object-level properties",
-    "Element properties",
-    "IntelliSense support"
+    "property setting",
+    "object-level properties",
+    "element properties",
+    "intellisense support",
+    "syntax reference"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004833,
-      "pages_in_call": 8
+      "cost_usd": 0.005609,
+      "pages_in_call": 1
     }
   ]
 }

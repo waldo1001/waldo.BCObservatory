@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports",
-  "title": "Adding help links from pages, reports, and XMLports",
-  "blob": "22056963730bd95436e4529a71c95adfd0453ff9",
-  "summary": "Context-sensitive help links for pages, reports, and XMLports are configured using the ContextSensitiveHelpPage property and app.json settings to direct users to relevant help documentation when selecting Learn more links.",
+  "title": "Context-Sensitive Help Links for AL Objects",
+  "blob": "eb760885c42ebae2fd86b3e1aeba128549fb198d",
+  "summary": "Add context-sensitive Help links to AL pages, reports, XMLports, and queries by specifying the ContextSensitiveHelpPage property with a Help file reference, combined with app.json configuration.",
   "systems": [
-    "development",
-    "platform"
+    "development"
   ],
   "topics": [
-    "help",
-    "context-sensitive",
-    "documentation"
+    "help links",
+    "context-sensitive help",
+    "al objects",
+    "page properties",
+    "developer guide"
   ],
   "objects": [
     {
@@ -29,8 +30,9 @@
   ],
   "features": [
     "ContextSensitiveHelpPage property",
-    "app.json configuration",
-    "Learn more links"
+    "Learn more link",
+    "help file configuration",
+    "app.json settings"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003352,
-      "pages_in_call": 8
+      "cost_usd": 0.003648,
+      "pages_in_call": 1
     }
   ]
 }
