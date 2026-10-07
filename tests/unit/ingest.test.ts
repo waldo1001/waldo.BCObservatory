@@ -193,6 +193,12 @@ test("code: one job per configured branch, head commit as input hash", async () 
   assert.equal(r.ok, false);
   assert.match(r.error!, /releases\/31\.x/);
   assert.equal((ctx.manifest.get("code/bcapps/29")!.meta as any).branch, "releases/29.x");
+  // the input hash carries the extractor version and a hash of the source's code config: a folder fix re-runs the job
+  const hash = ctx.manifest.get("code/bcapps/29")!.input_hash!;
+  assert.match(hash, /^[0-9a-f]{40}:x\d+:c[0-9a-f]{8}$/, hash);
+  const ctx2 = context(fakeHttp({}), { repoUrl: () => repo, versions: { ...versions, code: { bcapps: { w1: [{ app: "Base Application", path: "elsewhere" }] } } } });
+  await ingestCode(src({ id: "bcapps", kind: "code-git", tier: "official", repo: "microsoft/BCApps", mode: "metadata-only" }), ctx2);
+  assert.notEqual(ctx2.manifest.get("code/bcapps/29")!.input_hash, hash, "a changed code config changes the input hash");
 });
 
 test("runIngest isolates a failing source", async () => {

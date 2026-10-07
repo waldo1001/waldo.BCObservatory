@@ -27,8 +27,10 @@ const log = logger("code");
 export const SHARD_BYTES = 10 * 1024 * 1024;
 
 export interface CodeApp { app: string; path: string }
+/** A configured app: one folder, or candidate folders tried in order (the history branches moved the apps around). */
+export interface ConfiguredApp { app: string; path: string | string[] }
 export interface SourceCodeConfig {
-  w1: CodeApp[]; countries: "all" | string[]; country_app: string; docs: boolean;
+  w1: ConfiguredApp[]; countries: "all" | string[]; country_app: string; docs: boolean;
   layers_root?: string; layer_app?: string; layers_config?: string; country_branch?: string; country_path?: string;
   /** Glob of first-party app folders, one `*` segment = the app (e.g. src/Apps/W1/*\/app) → data/code/<major>/apps. */
   apps?: string;
@@ -73,6 +75,27 @@ export function expandApps(root: string, glob: string): CodeApp[] {
   const parent = resolve(root, before);
   if (!existsSync(parent)) return [];
   return readdirSync(parent).sort().map((name) => ({ app: name, path: `${before}${name}${after}` })).filter((a) => existsSync(resolve(root, a.path)));
+}
+
+export const candidatePaths = (a: ConfiguredApp): string[] => (Array.isArray(a.path) ? a.path : [a.path]);
+/**
+ * Pin each configured app to the first of its candidate folders that exists in the checkout. The sandbox history
+ * keeps BC25+ apps at the top level ("Base Application") but BC23 and BC24 under "BaseApp/Source/Base Application",
+ * with "system application/source" in lower case on w1-23; the 2026-10-07 backfill extracted those two majors without
+ * their base app (1,406 objects instead of 9,000) because a missing folder was only a warning. The base app is
+ * required: without it the snapshot is wrong, so the item fails instead. Other apps that are absent are skipped with a
+ * warning (Business Foundation does not exist before BC24).
+ */
+export function resolveApps(root: string, apps: ConfiguredApp[], required = "Base Application"): CodeApp[] {
+  const out: CodeApp[] = [];
+  for (const a of apps) {
+    const found = candidatePaths(a).find((p) => existsSync(resolve(root, p)));
+    if (found) { out.push({ app: a.app, path: found }); continue; }
+    const msg = `${a.app}: none of ${candidatePaths(a).map((p) => JSON.stringify(p)).join(", ")} exists in ${root}`;
+    if (a.app === required) throw new Error(msg);
+    log.warn(msg);
+  }
+  return out;
 }
 
 /** layers_config.json → layer → base layer (W1 has none), for the configured app (BaseApp). */
@@ -249,7 +272,7 @@ export function codeFetched(deps: CodeDeps): StageHandler {
     run: async (item) => {
       const job = jobFor(item)!;
       const layers = job.cfg.layers_root ? [`${job.cfg.layers_root}/*/${job.cfg.layer_app}`, `${job.cfg.layers_root}/*/.layer`, job.cfg.layers_config!.slice(0, job.cfg.layers_config!.lastIndexOf("/"))] : [];
-      const paths = [...job.cfg.w1.map((a) => a.path), ...layers, ...(job.cfg.apps ? [job.cfg.apps] : []), ...(job.cfg.country_apps ? [job.cfg.country_apps.replace("<layer>", "*")] : [])];
+      const paths = [...job.cfg.w1.flatMap(candidatePaths), ...layers, ...(job.cfg.apps ? [job.cfg.apps] : []), ...(job.cfg.country_apps ? [job.cfg.country_apps.replace("<layer>", "*")] : [])];
       const sha = await deps.checkout(job.repo, job.branch, paths, codeCheckoutDir(deps.cacheDir, job));
       return { data: { commit: sha, branch: job.branch } };
     },
@@ -270,8 +293,9 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
       const root = codeCheckoutDir(deps.cacheDir, job);
       const commit = (await git(["rev-parse", "HEAD"], root)).trim();
       const base = { source: job.source, repo: job.repo };
-      const w1 = await extractApps(root, job.cfg.w1, { version: job.major, country: "w1", layer: "base", docs: job.cfg.docs });
-      const w1m = { ...base, major: job.major, country: "w1", branch: job.branch, commit, build: w1.build, apps: job.cfg.w1.map((a) => a.app), files: w1.files, parse_errors: w1.errors };
+      const w1Apps = resolveApps(root, job.cfg.w1); // throws when the base app is not in the checkout: no partial snapshot
+      const w1 = await extractApps(root, w1Apps, { version: job.major, country: "w1", layer: "base", docs: job.cfg.docs });
+      const w1m = { ...base, major: job.major, country: "w1", branch: job.branch, commit, build: w1.build, apps: w1Apps.map((a) => a.app), files: w1.files, parse_errors: w1.errors };
       if (job.diffOnly) {
         // D62: the full copy for the version diff stays in the cache; the repository gets the skeleton. No countries
         // and no apps: an older major is there for the W1 history, not for its localizations.
@@ -292,7 +316,7 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
       if (job.cfg.layers_root) {
         const parents = layerParents(root, job.cfg);
         const w1ByFile = new Map<string, string[]>();
-        const w1App = job.cfg.w1.find((a) => a.app === job.cfg.country_app)!;
+        const w1App = w1Apps.find((a) => a.app === job.cfg.country_app)!;
         for (const [k, o] of w1.objects) if (o.app === job.cfg.country_app) w1ByFile.set(relative(w1App.path, o.file), [...(w1ByFile.get(relative(w1App.path, o.file)) ?? []), k]);
         const list = job.cfg.countries === "all" ? bcappsCountries(parents) : job.cfg.countries;
         for (const cc of list) {

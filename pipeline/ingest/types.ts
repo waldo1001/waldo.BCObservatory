@@ -6,6 +6,8 @@ import type { DiscoverChange, Manifest, Pillar } from "../lib/manifest.js";
 export interface VersionsConfig {
   majors: Record<string, Record<string, string | boolean | null>>;
   repos: Record<string, string>;
+  /** config/versions.json `code`: what each snapshot source extracts; hashed into the code items' input hash. */
+  code?: Record<string, unknown>;
 }
 export interface IngestContext {
   manifest: Manifest;

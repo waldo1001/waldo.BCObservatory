@@ -154,6 +154,49 @@ test("an older major (config diff_only) leaves a skeleton in data and its full c
   for (const cc of ["be", "nl"]) assert.equal(existsSync(snapshotDir(dataDir, "23", cc)), false);
 });
 
+function historyDeps(repo: string) {
+  const dataDir = join(mkdtempSync(join(tmpdir(), "bcobs-codedata-")), "data");
+  const cacheDir = mkdtempSync(join(tmpdir(), "bcobs-cache-"));
+  execFileSync("mkdir", ["-p", join(cacheDir, "code")]);
+  const deps = { cacheDir, checkout: async (_url: string, _branch: string, _p: string[], dir: string) => { execFileSync("ln", ["-s", repo, dir]); return "abc"; } };
+  return { dataDir, deps };
+}
+const commitAll = (repo: string) => { const g = (...a: string[]) => execFileSync("git", a, { cwd: repo, stdio: "pipe" }); g("init", "-q"); g("add", "-A"); g("-c", "user.name=t", "-c", "user.email=t@e", "commit", "-q", "-m", "x"); };
+
+test("BC23/BC24 history layout: the apps under BaseApp/Source and system application/source, Test folders left out, Business Foundation absent is a warning", async () => {
+  const repo = mkdtempSync(join(tmpdir(), "bcobs-history23-"));
+  writeText(join(repo, "BaseApp/Source/Base Application/Customer.Table.al"), al("table", 18, "Customer", "fields { field(1; \"No.\"; Code[20]) { } }"));
+  writeText(join(repo, "BaseApp/Test/CustomerTests.Codeunit.al"), al("codeunit", 134000, "Customer Tests"));
+  writeText(join(repo, "system application/source/Helper.Codeunit.al"), al("codeunit", 1, "Helper"));
+  writeText(join(repo, "system application/test/HelperTests.Codeunit.al"), al("codeunit", 135000, "Helper Tests"));
+  commitAll(repo);
+  const { dataDir, deps } = historyDeps(repo);
+  const it = item("sandbox-history", "23");
+  await run(codeFetched(deps))(it, { dataDir } as any);
+  const r = await run(codeExtracted(deps))(it, { dataDir } as any);
+  assert.equal((r as any).data.w1_objects, 2, "base app and system app, no tests");
+  assert.deepEqual(readSnapshot(dataDir, "23", "w1").map((o) => `${o.type}/${o.id}`).sort(), ["codeunit/1", "table/18"]);
+  assert.deepEqual(readJson<any>(join(snapshotDir(dataDir, "23", "w1"), "manifest.json")).apps, ["Base Application", "System Application"]);
+});
+
+test("a checkout without the base app fails the item instead of writing a partial snapshot", async () => {
+  const repo = mkdtempSync(join(tmpdir(), "bcobs-history-nobase-"));
+  writeText(join(repo, "System Application/Helper.Codeunit.al"), al("codeunit", 1, "Helper"));
+  commitAll(repo);
+  const { dataDir, deps } = historyDeps(repo);
+  const it = item("sandbox-history", "24");
+  await run(codeFetched(deps))(it, { dataDir } as any);
+  await assert.rejects(run(codeExtracted(deps))(it, { dataDir } as any), /Base Application: none of/);
+  assert.equal(existsSync(snapshotDir(dataDir, "24", "w1")), false);
+});
+
+test("the fetch asks the sparse checkout for every candidate folder", async () => {
+  const asked: string[][] = [];
+  const deps = { cacheDir: mkdtempSync(join(tmpdir(), "bcobs-cache-")), checkout: async (_u: string, _b: string, paths: string[]) => { asked.push(paths); return "abc"; } };
+  await run(codeFetched(deps))(item("sandbox-history", "23"), { dataDir: "x" } as any);
+  assert.ok(asked[0].includes("BaseApp/Source/Base Application") && asked[0].includes("Base Application"), asked[0].join(", "));
+});
+
 test("code extraction runs in its own lane, one major in memory at a time (D69)", () => {
   const h = codeExtracted({} as any) as { lane?: string };
   assert.equal(h.lane, "code");

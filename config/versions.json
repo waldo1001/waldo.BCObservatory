@@ -95,18 +95,19 @@
    "docs": true
   },
   "sandbox-history": {
+   "$comment": "`path` lists candidate folders, most specific first; the first that exists wins (job.ts resolveApps). BC25+ keep the apps at the top level; w1-23 and w1-24 have BaseApp/Source/Base Application, BusinessFoundation/Source/Business Foundation and System Application/Source (lower case on w1-23), each next to a Test folder that must not be extracted.",
    "w1": [
     {
      "app": "Base Application",
-     "path": "Base Application"
+     "path": ["BaseApp/Source/Base Application", "Base Application"]
     },
     {
      "app": "System Application",
-     "path": "System Application"
+     "path": ["System Application/Source", "system application/source", "System Application"]
     },
     {
      "app": "Business Foundation",
-     "path": "Business Foundation"
+     "path": ["BusinessFoundation/Source/Business Foundation", "Business Foundation"]
     }
    ],
    "country_branch": "<cc>-<major>",

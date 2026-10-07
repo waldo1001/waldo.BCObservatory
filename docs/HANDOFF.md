@@ -32,6 +32,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
+- **BC23 and BC24 history layout fix** (`pipeline/code/job.ts` `resolveApps`, `config/versions.json`): the first
+  D62 backfill (run 37644205533) extracted those two majors without their base app, 1,406 objects instead of about
+  9,000, because w1-23 and w1-24 keep it under `BaseApp/Source/Base Application` and a missing folder was only a
+  warning. Configured paths are now candidate lists, a missing base app fails the item, and the code config is part
+  of the code items' input hash, so the fix re-ran every code job through one `pillars=code unlimited=true` dispatch.
 - **Source stage, D60** (`docs/specs/source-embed.md`, M5): phases 1 and 2 on main. Video pages play click-to-load
   with chapter seeking, post pages frame the blog when the nightly probe allows it (else a source card), evidence chips
   open the player at their second, list posters, mini-player, WordPress cards. Sections 13 and 14 of the spec record

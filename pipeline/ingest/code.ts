@@ -1,11 +1,13 @@
 /**
  * Code pillar discovery: one code-job item per (source repo, BC major) from config/versions.json.
- * `git ls-remote` only; the head commit plus the extractor version is the input hash, so a new build or an extractor
- * fix makes the job stale (M2 extracts).
+ * `git ls-remote` only; the head commit, the extractor version and a hash of the source's code config
+ * (config/versions.json `code.<source>`: which folders are extracted) are the input hash, so a new build, an extractor
+ * fix or a config fix makes the job stale (M2 extracts).
  */
 import type { SourceDef } from "../lib/config.js";
 import { EXTRACTOR_VERSION } from "../code/extract.js";
 import { lsRemote } from "../lib/git.js";
+import { shortHash } from "../lib/text.js";
 import { newResult, tally, type IngestContext, type SourceResult } from "./types.js";
 
 const BRANCH_FIELD: Record<string, string> = { bcapps: "bcapps_branch", sandbox_history: "sandbox_branch", onprem_history: "onprem_branch" };
@@ -25,7 +27,7 @@ export async function ingestCode(source: SourceDef, ctx: IngestContext): Promise
     if (!sha) { missing.push(branch); continue; }
     const { change } = ctx.manifest.discover({
       pillar: "code", source: source.id, key: major, tier: source.tier, title: `${source.name} ${branch} (BC${major})`,
-      url: `https://github.com/${source.repo}/tree/${branch}`, published_at: null, input_hash: `${sha}:x${EXTRACTOR_VERSION}`,
+      url: `https://github.com/${source.repo}/tree/${branch}`, published_at: null, input_hash: `${sha}:x${EXTRACTOR_VERSION}:c${shortHash(JSON.stringify(ctx.versions.code?.[source.id] ?? null), 8)}`,
       meta: { major, branch, sha },
     }, ctx.now);
     tally(r, change);
