@@ -8,7 +8,7 @@ Microsoft's guidelines, YouTube sessions and community blogs, woven into one cro
 agents can use as a source of truth and humans can travel through like a galaxy.
 
 Site: https://waldo1001.github.io/waldo.BCObservatory/ (GitHub Pages, rebuilt every night)
-About the project, who it is for, and how to connect an agent: https://waldo1001.github.io/waldo.BCObservatory/about/
+About the project, who it is for: https://waldo1001.github.io/waldo.BCObservatory/about/ · The MCP server and the plugin, what to ask, how to install: https://waldo1001.github.io/waldo.BCObservatory/mcp/
 Status: **milestone M3** (content flowing nightly: Learn topic hubs, 16k AL object pages for BC28-30, 22 localizations,
 roadmap features, videos, community posts). Machine-generated pages are badged unreviewed until Opus reviews them.
 

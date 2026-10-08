@@ -408,6 +408,9 @@ Both phases shipped in one commit on `dev/about-page`, built and checked on a lo
 - **Header measured** on `/about/` and `/objects/table/18/`: the nav is one row of 21 px with ten entries at 1440 and
   1024; the header is 73 px at 1440 and 121 px at 1024, the same as the previous build (72.5 / 120.5 with nine
   entries: the search form wraps there, not the nav). "Localizations" stays.
+- **Nav labels changed after all**, by D84 the same evening: the eleventh entry ("MCP") wrapped the header at 1440,
+  so the nav says "Objects" and "Countries" (section titles unchanged) and its gap is 12 px; the footer and About's
+  agent section point to `/mcp/`, the `#agents` anchor stays for the two Claude Code commands.
 - **Tests were written with the code**, not red first; six tests, all green, in the full suite of 417.
 - The `about` collection with `glob({ base: "./src/about" })` worked; the fallback of 9 was not needed.
 - The twin's How section prints the telescope sentence, the four captions and the key sentence (section 2.3).

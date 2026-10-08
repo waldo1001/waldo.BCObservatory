@@ -5,7 +5,7 @@ import { aboutMarkdown, fillCounts, personas, splitHtml, splitSections, totalPag
 
 const counts: AboutCounts = { topics: 605, objects: 25645, apps: 96, localizations: 22, features: 80, videos: 616, posts: 601, changes: 1083, digests: 4, sources: 32 };
 const real = readFileSync(new URL("../../site/src/about/about.md", import.meta.url), "utf8");
-const ROUTES = ["objects/table/18/", "neighbourhood/?mode=events", "code/versions/", "code/deprecations/", "changes/week/", "localizations/be/", "#lens=pick:localization", "#agents", "sources/", "drift/"];
+const ROUTES = ["objects/table/18/", "neighbourhood/?mode=events", "code/versions/", "code/deprecations/", "changes/week/", "localizations/be/", "#lens=pick:localization", "mcp/", "mcp/#plugin", "sources/", "drift/"];
 
 test("fillCounts formats every known placeholder and refuses an unknown one", () => {
   assert.equal(fillCounts("{{objects}} objects, {{topics}} hubs, {{pages}} pages", counts), "25,645 objects, 605 hubs, 28,784 pages");
@@ -44,7 +44,7 @@ test("the markdown twin has every section in order, no placeholder, the commands
   assert.ok(!md.includes("{{"));
   assert.ok(md.includes("claude mcp add bc-observatory -- npx -y bc-observatory@latest"));
   assert.ok(md.includes("Last nightly: none yet."));
-  assert.ok(md.includes("[The commands](https://example.test/x/about/#agents)"), "page anchors become absolute links to the page");
+  assert.ok(md.includes("[Install the MCP server](https://example.test/x/mcp/)"), "site links become absolute");
   assert.ok(md.includes("[Belgium](https://example.test/x/localizations/be/)"));
   const withRun = aboutMarkdown(real, counts, personas("/x/"), { date: "2026-10-08", status: "ok", items_changed: 1234 }, "https://example.test/x/");
   assert.ok(withRun.includes("Last nightly: 2026-10-08 (ok, 1,234 items new or changed)."));

@@ -760,3 +760,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `llms.txt` lists About first under "Start here". Rejected: a photo; the text under `content/`; strings in the Astro
   page; About in the footer only; a model-written bio; commands in the footer; hard-coded counts; `Page.astro`.
   Spec: `docs/specs/about-page.md`.
+- **D84 The MCP server has its own page and nav entry.** The owner's call on 2026-10-08, after D83 put the install
+  commands on the About page: "a separate MCP menu on top, where you explain what you can do with the MCP, and how to
+  install it; first MCP, then About". `/mcp/` (`site/src/pages/mcp/index.astro`, twin `/mcp.md`, data in
+  `site/src/lib/mcp.ts`) holds seven example asks with the tool each reaches for, the nine tools with what they do and
+  an example call, the plugin's four skills and the bc-code-atlas connection, install steps for Claude Code (plugin or
+  server only), Claude Desktop / Cursor / Windsurf (`mcpServers` JSON), VS Code (`.vscode/mcp.json`, `servers`), a
+  checkout (`BC_OBSERVATORY_LOCAL`) and no install at all, and how it answers (index over HTTPS, daily cache, local
+  embeddings, nothing sent). Versions come from `packages/mcp/package.json` and `plugin/.claude-plugin/plugin.json`
+  at build time; `tests/unit/mcp.test.ts` pins the tool list to the server's `registerTool` calls, the skill list to
+  `plugin/skills/`, the atlas URL to `plugin/.mcp.json` and the commands to the README. The nav is eleven entries,
+  "MCP" before "About"; to keep one header row at 1440 px the nav says "Objects" and "Countries" for the AL objects
+  and Localizations sections (titles unchanged) and its gap is 12 px. About's "For your agent" keeps the two Claude
+  Code commands and points to `/mcp/`; the footer's "MCP server" and "Claude Code plugin" link there; `llms.txt`
+  lists MCP under "Start here". Rejected: install steps on About only (the owner wants them findable from the top);
+  reading tool descriptions from the server package at build time (zod schemas in the site build; a test that pins
+  the list is enough); a client-by-client table (five code blocks read better than one table of JSON). Not a spec:
+  one page, one data file, no pipeline.

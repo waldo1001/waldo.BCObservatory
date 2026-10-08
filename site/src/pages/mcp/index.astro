@@ -1,0 +1,77 @@
+---
+/**
+ * /mcp/ (D84): what the bc-observatory MCP server and the Claude Code plugin do, what to ask, how to install them in
+ * Claude Code, other MCP clients and VS Code. Versions come from the tree at build time.
+ */
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import List from "../../layouts/List.astro";
+import { REPO } from "../../lib/about";
+import { ASKS, ATLAS_URL, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
+const base = import.meta.env.BASE_URL;
+const root = resolve(process.cwd(), "..");
+const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"), "utf8")).version as string;
+const plugin = JSON.parse(readFileSync(resolve(root, "plugin/.claude-plugin/plugin.json"), "utf8")).version as string;
+const steps = installSteps(REPO);
+---
+<List title="MCP · BC Observatory" description="The bc-observatory MCP server and the Claude Code plugin: what your agent can ask about Business Central, and how to install them." section="mcp" crumb="MCP">
+  <p class="eyebrow">mcp</p>
+  <h1>Business Central for your agent</h1>
+  <p class="lede">The knowledge base this site is built from, as an MCP server your agent can query, and a Claude Code plugin around it. Every answer carries the page, its trust tier and its evidence. No API key, no account.</p>
+  <ul class="stats">
+    <li><a href="https://www.npmjs.com/package/bc-observatory" rel="noopener"><b>{server}</b>bc-observatory on npm</a></li>
+    <li><a href={`${REPO}/tree/main/plugin`} rel="noopener"><b>{plugin}</b>Claude Code plugin</a></li>
+    <li><span><b>{TOOLS.length}</b>tools</span></li>
+    <li><span><b>{SKILLS.length}</b>skills</span></li>
+  </ul>
+  <div class="actions">
+    <a class="btn primary" href="#install">Install</a>
+    <a class="btn mono" href={`${base}mcp.md`} type="text/markdown">mcp.md</a>
+    <a class="btn" href={`${base}about/`}>About the project</a>
+  </div>
+
+  <h2 id="ask">What to ask</h2>
+  <p class="meta">Type any of these into an agent that has the server. The tool it reaches for is on the right.</p>
+  <ul class="asks">
+    {ASKS.map((a) => <li><q>{a.ask}</q><span class="mono-meta">{a.via}</span></li>)}
+  </ul>
+
+  <h2 id="tools">The tools</h2>
+  <div class="table-scroll"><table class="tools">
+    <thead><tr><th>Tool</th><th>What it does</th><th>Example</th></tr></thead>
+    <tbody>{TOOLS.map((t) => <tr><th scope="row"><code>{t.name}</code></th><td>{t.what}</td><td><code>{t.example}</code></td></tr>)}</tbody>
+  </table></div>
+
+  <h2 id="plugin">The plugin (Claude Code)</h2>
+  <p>The plugin registers the server, ships four skills that tell the agent when to use it, and connects <a href="https://github.com/StefanMaron/bc-code-atlas" rel="noopener">bc-code-atlas</a> by Stefan Maron for procedure bodies and the per-procedure call graph. The observatory keeps the object-level facts; the atlas has the source.</p>
+  <ul class="skills">
+    {SKILLS.map((s) => <li><code>{s.name}</code><span>{s.what}</span></li>)}
+  </ul>
+
+  <h2 id="install">Install</h2>
+  <ol class="steps">
+    {steps.map((s) => <li><b>{s.client}</b><p class="meta">{s.how}</p><pre><code>{s.code}</code></pre></li>)}
+    <li><b>Without any install</b><p class="meta"><a href={`${base}llms.txt`}>llms.txt</a> lists every section; every page has a markdown twin at its URL plus <code>.md</code>; GitMCP and DeepWiki (badges in the <a href={REPO}>README</a>) read the repository directly.</p></li>
+  </ol>
+
+  <h2 id="how">How it answers</h2>
+  <p>The server fetches the search index and the page markdown from this site over HTTPS and caches them by hash in <code>~/.cache/bc-observatory/</code>, refreshed daily. Search is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once and checked by SHA-256) computed locally; <code>BC_OBSERVATORY_EMBEDDINGS=0</code> turns the model off. <code>BC_OBSERVATORY_LOCAL</code> reads a checkout instead, <code>BC_OBSERVATORY_SITE</code> points at another deployment. Nothing is sent anywhere: <code>feedback</code> only returns a link you open yourself.</p>
+  <p class="meta">Needs Node 20 or newer. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The atlas endpoint the plugin uses: <code>{ATLAS_URL}</code>.</p>
+</List>
+<style>
+  .asks { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-width: 760px; }
+  .asks li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
+  .asks q { font: 500 15px var(--font-ui); color: var(--text); }
+  .asks q::before, .asks q::after { color: var(--muted); }
+  .tools td, .tools th { vertical-align: top; }
+  .tools code { white-space: nowrap; }
+  .skills { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-width: 760px; }
+  .skills li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 12px; font-size: 14px; }
+  .skills span { color: var(--text-2); }
+  @media (max-width: 560px) { .skills li { grid-template-columns: 1fr; gap: 2px; } }
+  .steps { padding-left: 20px; max-width: 860px; }
+  .steps li { margin: 0 0 20px; }
+  .steps b { font-size: 16px; }
+  .steps p { margin: 4px 0 8px; }
+  .steps pre { margin: 0; overflow-x: auto; }
+</style>

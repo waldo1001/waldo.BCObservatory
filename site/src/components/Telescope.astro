@@ -23,7 +23,7 @@ const lensB = (x: number, y: number, w: number): Node => ({ x, y, w, h: 124, kin
   subs: ["Haiku facts · Sonnet prose", "Opus review, which sets the state:", "derived, unreviewed,", "reviewed, flagged"] });
 const mirrors = (x: number, w: number, y1: number, y2: number): Node[] => [
   { x, y: y1, w, h: 78, kind: "mirror", title: "The site", subs: [`${n(totalPages(counts))} pages, the galaxy,`, "a markdown twin per page"], href: base },
-  { x, y: y2, w, h: 78, kind: "mirror", title: "The MCP server and the plugin", subs: ["npx bc-observatory", "llms.txt per section"], href: "#agents" },
+  { x, y: y2, w, h: 78, kind: "mirror", title: "The MCP server and the plugin", subs: ["npx bc-observatory", "llms.txt per section"], href: `${base}mcp/` },
 ];
 const wide = { vb: "0 0 960 400", sources: sources(16, 280, 24, 68), a: lensA(336, 44, 272), b: lensB(336, 196, 272), mirrors: mirrors(656, 288, 72, 236) };
 const stacked = { vb: "0 0 400 880", sources: sources(16, 368, 28, 58), a: lensA(16, 356, 368), b: lensB(16, 500, 368), mirrors: mirrors(16, 368, 660, 772) };

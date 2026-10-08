@@ -20,6 +20,11 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-08, live after the next good nightly:**
+- **MCP page, D84** (no spec, M22): `/mcp/` and `/mcp.md`, "MCP" in the nav before "About"; seven asks, the nine tools,
+  the four skills, five install blocks and "how it answers" (`site/src/lib/mcp.ts`, pinned to the server, the plugin
+  and the README by `tests/unit/mcp.test.ts`). Nav labels "Objects" and "Countries" and a 12 px nav gap keep the
+  header on one row at 1440 (73 px; eleven entries wrapped it to 121 px). About's agent section and the footer point
+  there. Live on the next Pages build.
 - **About page, D83** (`docs/specs/about-page.md`, M21): `/about/` and `/about.md`, "About" last in the nav and behind
   the wordmark's small line, the owner's Who and Why (`site/src/about/about.md`, hand-written, pinned by test), the
   pipeline as a telescope and the galaxy key as inline SVG (`Telescope.astro`, `GalaxyKey.astro`, stacked under

@@ -9,9 +9,11 @@ const { title, description, markdown, section, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
 const nav = [
-  ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
+  // D84: eleven entries; "Objects" and "Countries" are the nav's short names for the AL objects and Localizations sections, so the
+  // header keeps one row at 1440 px (the section pages keep their titles)
+  ["topics", "Topics"], ["features", "Roadmap"], ["objects", "Objects"], ["localizations", "Countries"],
   ["videos", "Videos"], ["posts", "Posts"], ["changes", "Changes"], ["digests", "Weekly"], ["sources", "Sources"],
-  ["about", "About"], // D83
+  ["mcp", "MCP"], ["about", "About"], // D84, D83
 ];
 // D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
 // galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half
@@ -64,7 +66,7 @@ const week = landed();
           <p>BC Observatory is unofficial and not affiliated with Microsoft. Made by waldo, rebuilt every night.</p>
           <p>
             <a href={repo}>Repository</a> · code MIT, content CC BY 4.0 · <a href={`${base}llms.txt`}>llms.txt</a> ·
-            <a href={`${base}about/#agents`}>MCP server</a> · <a href={`${base}about/#agents`}>Claude Code plugin</a> · <a href={`${base}code/versions/`}>Version lens</a> · <a href={`${base}code/deprecations/`}>Deprecation radar</a> · <a href={`${base}events/`}>Events</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
+            <a href={`${base}mcp/`}>MCP server</a> · <a href={`${base}mcp/#plugin`}>Claude Code plugin</a> · <a href={`${base}code/versions/`}>Version lens</a> · <a href={`${base}code/deprecations/`}>Deprecation radar</a> · <a href={`${base}events/`}>Events</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
             <a href={`${base}rss.xml`}>RSS</a> · <a href={`${repo}/issues`}>Report a problem</a>
           </p>
         </div>

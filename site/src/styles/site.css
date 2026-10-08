@@ -34,7 +34,7 @@ img { max-width: 100%; }
 }
 /* D70: wider than the page so wordmark, nav, the week's pill and search fit one row on a laptop; .ask is the galaxy's questions menu */
 .site-header .wrap { max-width: max(var(--page-max), 1440px); gap: 8px 20px; }
-.site-nav { gap: 4px 14px; }
+.site-nav { gap: 4px 12px; } /* D84: eleven entries on one row at 1440 */
 .ask { position: relative; font-size: 14px; }
 .ask summary { list-style: none; cursor: pointer; color: var(--text-2); min-height: 40px; display: flex; align-items: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: var(--r-card); white-space: nowrap; }
 .ask summary::-webkit-details-marker { display: none; }

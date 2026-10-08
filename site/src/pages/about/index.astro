@@ -50,8 +50,8 @@ const n = (x: number) => x.toLocaleString("en");
 
     <h2 id="agents">For your agent</h2>
     <p>Every page has a markdown twin (the <code>.md</code> button on every page, <a href={`${base}about.md`}>this one included</a>), every section an <a href={`${base}llms.txt`}>llms.txt</a>, and the MCP server reads the same files: {MCP_TOOLS.join(", ")}.</p>
+    <p>What to ask, the tools, the plugin's skills, and how to install it in Claude Code, Claude Desktop, Cursor or VS Code: <a href={`${base}mcp/`}>the MCP page</a>. The short version for Claude Code:</p>
     <pre><code>{MCP_COMMANDS.join("\n")}</code></pre>
-    <p>Without any install: <a href={`${base}llms.txt`}>llms.txt</a>, GitMCP and DeepWiki (badges in the <a href={REPO}>README</a>).</p>
 
     <h2 id="counts">What is in it today</h2>
     <ul class="counts">

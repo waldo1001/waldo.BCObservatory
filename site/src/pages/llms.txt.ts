@@ -44,6 +44,7 @@ export const GET: APIRoute = async () => {
     "## Start here",
     "",
     `- [About](${site}about.md): who made this, why, how the nightly runs, who it is for, and how to connect an agent`,
+    `- [MCP](${site}mcp.md): the bc-observatory MCP server and the Claude Code plugin: the tools, what to ask, how to install`,
     "- [AGENTS.md](https://github.com/waldo1001/waldo.BCObservatory/blob/main/AGENTS.md): how to use and cite this knowledge base",
     "- [Plan](https://github.com/waldo1001/waldo.BCObservatory/blob/main/docs/PLAN.md): architecture and milestones",
     "- [Sources](https://github.com/waldo1001/waldo.BCObservatory/blob/main/sources.yaml): every source with its trust tier",
