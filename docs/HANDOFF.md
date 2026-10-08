@@ -10,6 +10,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
+- **Roadmap link titles**: `docs/specs/roadmap-link-titles.md`, D79, M17. Status: proposed 2026-10-08, nothing
+  implemented. Start with section 5 (the failing tests in `tests/unit/sources.test.ts` and
+  `tests/unit/roadmap-links.test.ts`), then `pipeline/render/source.ts:63` and `pipeline/render/video.ts:116`. Until it
+  lands, readers see bare roadmap ids ("573253") on 6 source pages (58 on yt-microsoft) and in the Features tables of
+  61 video pages.
+
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
 edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
